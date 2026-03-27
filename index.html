@@ -203,6 +203,25 @@ button{cursor:pointer;font-family:inherit;border:none}
 .btn-update.loading svg{animation:spin .8s linear infinite;}
 @keyframes spin{to{transform:rotate(360deg)}}
 
+.lang-switch{
+  display:flex;align-items:center;gap:8px;flex-shrink:0;
+  padding:4px;border-radius:999px;background:var(--surface);
+  border:1px solid var(--border);
+}
+.lang-btn{
+  width:36px;height:36px;border-radius:50%;
+  display:inline-flex;align-items:center;justify-content:center;
+  background:transparent;color:var(--txt-2);font-size:18px;
+  transition:transform .15s, background .2s, border-color .2s, box-shadow .2s;
+  border:1px solid transparent;
+}
+.lang-btn:hover{transform:translateY(-1px);background:rgba(255,255,255,.06);color:var(--txt-1);}
+.lang-btn.on{
+  background:rgba(79,142,247,.12);
+  border-color:rgba(79,142,247,.45);
+  box-shadow:0 0 0 3px rgba(79,142,247,.10);
+}
+
 /* Hamburger */
 .burger{display:none;flex-direction:column;gap:5px;background:none;padding:4px;border-radius:var(--r);}
 .burger span{display:block;width:22px;height:1.5px;background:var(--txt-2);border-radius:2px;transition:all .2s;}
@@ -837,15 +856,15 @@ button{cursor:pointer;font-family:inherit;border:none}
 <!-- Mobile overlay -->
 <div class="overlay" id="overlay" onclick="closeMob()"></div>
 <nav class="mob-nav" id="mobNav">
-  <a class="nav-a" href="#" onclick="nav('home');return false;">Início</a>
-  <a class="nav-a" href="#" onclick="filterCat('Astronomia');return false;">Astronomia</a>
-  <a class="nav-a" href="#" onclick="filterCat('Cosmologia');return false;">Cosmologia</a>
-  <a class="nav-a" href="#" onclick="filterCat('Astrofísica');return false;">Astrofísica</a>
-  <a class="nav-a" href="#" onclick="filterCat('Exoplanetas');return false;">Exoplanetas</a>
-  <a class="nav-a" href="#" onclick="filterCat('Física');return false;">Física</a>
-  <a class="nav-a" href="#" onclick="filterCat('Biologia');return false;">Biologia</a>
-  <a class="nav-a" href="#" onclick="nav('archive');return false;">Arquivo</a>
-  <a class="nav-a" href="#" onclick="nav('about');return false;">Sobre</a>
+  <a class="nav-a" id="mobNavHome" href="#" onclick="nav('home');closeMob();return false;">Início</a>
+  <a class="nav-a" id="mobNavAstronomia" href="#" onclick="filterCat('Astronomia');closeMob();return false;">Astronomia</a>
+  <a class="nav-a" id="mobNavCosmologia" href="#" onclick="filterCat('Cosmologia');closeMob();return false;">Cosmologia</a>
+  <a class="nav-a" id="mobNavAstrofisica" href="#" onclick="filterCat('Astrofísica');closeMob();return false;">Astrofísica</a>
+  <a class="nav-a" id="mobNavExoplanetas" href="#" onclick="filterCat('Exoplanetas');closeMob();return false;">Exoplanetas</a>
+  <a class="nav-a" id="mobNavFisica" href="#" onclick="filterCat('Física');closeMob();return false;">Física</a>
+  <a class="nav-a" id="mobNavBiologia" href="#" onclick="filterCat('Biologia');closeMob();return false;">Biologia</a>
+  <a class="nav-a" id="mobNavArquivo" href="#" onclick="nav('archive');closeMob();return false;">Arquivo</a>
+  <a class="nav-a" id="mobNavSobre" href="#" onclick="nav('about');closeMob();return false;">Sobre</a>
 </nav>
 
 <!-- TOP AD -->
@@ -860,24 +879,29 @@ button{cursor:pointer;font-family:inherit;border:none}
   <div class="header-row-1">
     <div class="logo" onclick="nav('home')">
       <div class="logo-name">Cosmos<span>Week</span></div>
-      <div class="logo-sub">Ciência do Universo · Atualizado 2× ao dia</div>
+      <div class="logo-sub" id="logoSub">Ciência do Universo · Atualizado 2× ao dia</div>
     </div>
     <nav class="main-nav">
-      <a class="nav-a on" href="#" onclick="nav('home');return false;">Início</a>
-      <a class="nav-a" href="#" onclick="filterCat('Astronomia');return false;">Astronomia</a>
-      <a class="nav-a" href="#" onclick="filterCat('Cosmologia');return false;">Cosmologia</a>
-      <a class="nav-a" href="#" onclick="filterCat('Exoplanetas');return false;">Exoplanetas</a>
-      <a class="nav-a" href="#" onclick="filterCat('Física');return false;">Física</a>
-      <a class="nav-a" href="#" onclick="nav('archive');return false;">Arquivo</a>
-      <a class="nav-a" href="#" onclick="nav('about');return false;">Sobre</a>
+      <a class="nav-a on" id="navHome" href="#" onclick="nav('home');return false;">Início</a>
+      <a class="nav-a" id="navAstronomia" href="#" onclick="filterCat('Astronomia');return false;">Astronomia</a>
+      <a class="nav-a" id="navCosmologia" href="#" onclick="filterCat('Cosmologia');return false;">Cosmologia</a>
+      <a class="nav-a" id="navAstrofisica" href="#" onclick="filterCat('Astrofísica');return false;">Astrofísica</a>
+      <a class="nav-a" id="navExoplanetas" href="#" onclick="filterCat('Exoplanetas');return false;">Exoplanetas</a>
+      <a class="nav-a" id="navFisica" href="#" onclick="filterCat('Física');return false;">Física</a>
+      <a class="nav-a" id="navArquivo" href="#" onclick="nav('archive');return false;">Arquivo</a>
+      <a class="nav-a" id="navSobre" href="#" onclick="nav('about');return false;">Sobre</a>
     </nav>
     <div class="hdr-search">
       <input type="text" id="searchInput" placeholder="Buscar artigos..." oninput="doSearch(this.value)">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
     </div>
+    <div class="lang-switch" aria-label="Selecionar idioma">
+      <button class="lang-btn" id="langPt" type="button" title="Português do Brasil" onclick="setLanguage('pt')">🇧🇷</button>
+      <button class="lang-btn" id="langEn" type="button" title="English" onclick="setLanguage('en')">🇺🇸</button>
+    </div>
     <button class="btn-update" id="btnUpdate" onclick="triggerUpdate()">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
-      Atualizar
+      <span id="btnUpdateLabel">Atualizar</span>
     </button>
     <button class="burger" id="burger" onclick="toggleMob()">
       <span></span><span></span><span></span>
@@ -887,35 +911,22 @@ button{cursor:pointer;font-family:inherit;border:none}
 
 <!-- TICKER -->
 <div class="ticker">
-  <div class="ticker-badge">Últimas</div>
-  <div class="ticker-track" id="tickerTrack">
-    <span class="ticker-item">JWST confirma atmosfera com CO₂ e possível DMS em exoplaneta K2-18b a 120 anos-luz</span>
-    <span class="ticker-item">Tensão de Hubble atinge 5,2σ com novo dado do JWST — cosmologia padrão sob pressão</span>
-    <span class="ticker-item">Observatório Vera Rubin descobre planeta anão maior que Plutão no Cinturão de Kuiper</span>
-    <span class="ticker-item">LHC detecta excesso de 3,8σ no canal múon+energia faltante — possível matéria escura</span>
-    <span class="ticker-item">Euclid aponta energia escura dinâmica: w ≠ −1 em análise de 15 milhões de galáxias</span>
-    <span class="ticker-item">Fusão de estrelas de nêutrons GW260315 confirma síntese de ouro e lantânio em kilonova</span>
-    <span class="ticker-item">JWST confirma atmosfera com CO₂ e possível DMS em exoplaneta K2-18b a 120 anos-luz</span>
-    <span class="ticker-item">Tensão de Hubble atinge 5,2σ com novo dado do JWST — cosmologia padrão sob pressão</span>
-    <span class="ticker-item">Observatório Vera Rubin descobre planeta anão maior que Plutão no Cinturão de Kuiper</span>
-    <span class="ticker-item">LHC detecta excesso de 3,8σ no canal múon+energia faltante — possível matéria escura</span>
-    <span class="ticker-item">Euclid aponta energia escura dinâmica: w ≠ −1 em análise de 15 milhões de galáxias</span>
-    <span class="ticker-item">Fusão de estrelas de nêutrons GW260315 confirma síntese de ouro e lantânio em kilonova</span>
-  </div>
+  <div class="ticker-badge" id="tickerBadge">Últimas</div>
+  <div class="ticker-track" id="tickerTrack"></div>
 </div>
 
 <!-- CATEGORY BAR -->
 <div class="cat-bar">
   <div class="cat-bar-inner" id="catBar">
-    <button class="cat-pill on" onclick="filterCat('all',this)">Todas as categorias</button>
-    <button class="cat-pill" onclick="filterCat('Astronomia',this)">Astronomia</button>
-    <button class="cat-pill" onclick="filterCat('Cosmologia',this)">Cosmologia</button>
-    <button class="cat-pill" onclick="filterCat('Astrofísica',this)">Astrofísica</button>
-    <button class="cat-pill" onclick="filterCat('Exoplanetas',this)">Exoplanetas</button>
-    <button class="cat-pill" onclick="filterCat('Física',this)">Física</button>
-    <button class="cat-pill" onclick="filterCat('Biologia',this)">Biologia</button>
-    <button class="cat-pill" onclick="filterCat('Química',this)">Química</button>
-    <button class="cat-pill" onclick="filterCat('Ciências da Terra',this)">Ciências da Terra</button>
+    <button class="cat-pill on" data-cat="all" onclick="filterCat('all',this)">Todas as categorias</button>
+    <button class="cat-pill" data-cat="Astronomia" onclick="filterCat('Astronomia',this)">Astronomia</button>
+    <button class="cat-pill" data-cat="Cosmologia" onclick="filterCat('Cosmologia',this)">Cosmologia</button>
+    <button class="cat-pill" data-cat="Astrofísica" onclick="filterCat('Astrofísica',this)">Astrofísica</button>
+    <button class="cat-pill" data-cat="Exoplanetas" onclick="filterCat('Exoplanetas',this)">Exoplanetas</button>
+    <button class="cat-pill" data-cat="Física" onclick="filterCat('Física',this)">Física</button>
+    <button class="cat-pill" data-cat="Biologia" onclick="filterCat('Biologia',this)">Biologia</button>
+    <button class="cat-pill" data-cat="Química" onclick="filterCat('Química',this)">Química</button>
+    <button class="cat-pill" data-cat="Ciências da Terra" onclick="filterCat('Ciências da Terra',this)">Ciências da Terra</button>
   </div>
 </div>
 
@@ -937,8 +948,8 @@ button{cursor:pointer;font-family:inherit;border:none}
     <div class="two-col">
       <div>
         <div class="sec-head">
-          <h2 class="sec-title">Últimas Notícias</h2>
-          <a class="sec-link" href="#" onclick="nav('archive');return false;">Ver arquivo completo</a>
+          <h2 class="sec-title" id="latestSectionTitle">Últimas Notícias</h2>
+          <a class="sec-link" id="latestSectionLink" href="#" onclick="nav('archive');return false;">Ver arquivo completo</a>
         </div>
         <div class="news-grid" id="gridMain"></div>
         <div class="ad ad-in-article">
@@ -957,19 +968,19 @@ button{cursor:pointer;font-family:inherit;border:none}
 
         <!-- Newsletter -->
         <div class="widget nl-widget">
-          <div class="whead"><div class="whead-title">Newsletter Cosmos</div></div>
-          <div class="nl-text">Receba as principais descobertas do universo direto no seu e-mail. Duas vezes ao dia, sem spam.</div>
+          <div class="whead"><div class="whead-title" id="homeNlTitle">Newsletter Cosmos</div></div>
+          <div class="nl-text" id="homeNlText">Receba as principais descobertas do universo direto no seu e-mail. Duas vezes ao dia, sem spam.</div>
           <div class="nl-form">
             <input type="text" placeholder="Nome" id="nlName">
             <input type="email" placeholder="E-mail" id="nlEmail">
-            <button class="nl-btn" onclick="subscribe()">Assinar gratuitamente</button>
+            <button class="nl-btn" id="homeNlBtn" onclick="subscribe()">Assinar gratuitamente</button>
           </div>
-          <div class="nl-fine">Ao assinar, você concorda com a política de privacidade. Cancele quando quiser.</div>
+          <div class="nl-fine" id="homeNlFine">Ao assinar, você concorda com a política de privacidade. Cancele quando quiser.</div>
         </div>
 
         <!-- Categories -->
         <div class="widget">
-          <div class="whead"><div class="whead-title">Categorias</div></div>
+          <div class="whead"><div class="whead-title" id="catWidgetTitle">Categorias</div></div>
           <div class="wbody"><div class="cat-widget-list" id="catWidget"></div></div>
         </div>
 
@@ -986,7 +997,7 @@ button{cursor:pointer;font-family:inherit;border:none}
 
         <!-- Affiliates -->
         <div class="widget">
-          <div class="whead"><div class="whead-title">Recomendados</div></div>
+          <div class="whead"><div class="whead-title" id="recommendedTitle">Recomendados</div></div>
           <div class="wbody">
             <a class="aff-item" href="#" target="_blank">
               <div class="aff-thumb" style="background:linear-gradient(135deg,#1a2a4a,#0a1830)"></div>
@@ -1013,24 +1024,18 @@ button{cursor:pointer;font-family:inherit;border:none}
   <!-- ARCHIVE -->
   <div id="pgArchive" style="display:none;">
     <div class="sec-head" style="margin-top:32px;">
-      <h2 class="sec-title">Arquivo Completo</h2>
+      <h2 class="sec-title" id="archiveSectionTitle">Arquivo Completo</h2>
     </div>
     <div class="compact" id="archiveList"></div>
   </div>
 
   <!-- ABOUT -->
-  <div id="pgAbout" style="display:none;max-width:720px;padding:48px 0 80px;">
-    <div class="sec-head" style="margin-top:32px;"><h2 class="sec-title">Sobre o Cosmos Week</h2></div>
-    <h1 style="font-family:'Playfair Display',serif;font-size:44px;font-weight:700;margin-bottom:28px;line-height:1.1;">A divulgação científica que o Brasil merece</h1>
-    <p style="font-size:17px;line-height:1.8;color:var(--txt-2);margin-bottom:20px;">O <strong style="color:var(--txt-1)">Cosmos Week</strong> é o maior portal de divulgação científica em língua portuguesa, especializado em Astronomia, Astrofísica e Cosmologia. Nossa missão é traduzir e contextualizar as descobertas mais relevantes do universo para o público brasileiro, com rigor científico e linguagem inteligível.</p>
-    <p style="font-size:17px;line-height:1.8;color:var(--txt-2);margin-bottom:20px;">Atualizamos o portal <strong style="color:var(--txt-1)">duas vezes ao dia</strong> — às 7h e às 19h — com notícias curadas das principais fontes internacionais: NASA, ESA, arXiv, Nature, Phys.org, Universe Today e Space.com.</p>
-    <p style="font-size:17px;line-height:1.8;color:var(--txt-2);">Contato: <a href="mailto:redacao@cosmosweek.com.br" style="color:var(--blue-l)">redacao@cosmosweek.com.br</a></p>
-  </div>
+  <div id="pgAbout" style="display:none;max-width:720px;padding:48px 0 80px;"></div>
 
   <!-- SEARCH RESULTS -->
   <div id="pgSearch" style="display:none;">
     <div class="sec-head" style="margin-top:32px;">
-      <h2 class="sec-title">Resultados da busca</h2>
+      <h2 class="sec-title" id="searchSectionTitle">Resultados da busca</h2>
     </div>
     <p id="searchInfo" style="font-size:14px;color:var(--txt-3);font-family:'DM Mono',monospace;letter-spacing:.04em;margin-bottom:28px;"></p>
     <div class="news-grid" id="searchGrid"></div>
@@ -1050,7 +1055,7 @@ button{cursor:pointer;font-family:inherit;border:none}
     <div class="foot-grid">
       <div>
         <div class="foot-brand-name">Cosmos<span>Week</span></div>
-        <p class="foot-desc">O portal de referência em divulgação científica em português. Astronomia, Astrofísica e Cosmologia atualizados duas vezes ao dia com rigor científico.</p>
+        <p class="foot-desc" id="footDesc">O portal de referência em divulgação científica em português. Astronomia, Astrofísica e Cosmologia atualizados duas vezes ao dia com rigor científico.</p>
         <div class="foot-social">
           <a class="soc" href="#" title="Twitter/X">𝕏</a>
           <a class="soc" href="#" title="Instagram">In</a>
@@ -1059,29 +1064,29 @@ button{cursor:pointer;font-family:inherit;border:none}
         </div>
       </div>
       <div>
-        <div class="foot-col-title">Editorias</div>
+        <div class="foot-col-title" id="footColEditorial">Editorias</div>
         <div class="foot-links">
-          <a href="#" onclick="filterCat('Astronomia');return false;">Astronomia</a>
-          <a href="#" onclick="filterCat('Cosmologia');return false;">Cosmologia</a>
-          <a href="#" onclick="filterCat('Astrofísica');return false;">Astrofísica</a>
-          <a href="#" onclick="filterCat('Exoplanetas');return false;">Exoplanetas</a>
-          <a href="#" onclick="filterCat('Física');return false;">Física</a>
-          <a href="#" onclick="filterCat('Biologia');return false;">Biologia</a>
+          <a id="footLinkAstronomia" href="#" onclick="filterCat('Astronomia');return false;">Astronomia</a>
+          <a id="footLinkCosmologia" href="#" onclick="filterCat('Cosmologia');return false;">Cosmologia</a>
+          <a id="footLinkAstrofisica" href="#" onclick="filterCat('Astrofísica');return false;">Astrofísica</a>
+          <a id="footLinkExoplanetas" href="#" onclick="filterCat('Exoplanetas');return false;">Exoplanetas</a>
+          <a id="footLinkFisica" href="#" onclick="filterCat('Física');return false;">Física</a>
+          <a id="footLinkBiologia" href="#" onclick="filterCat('Biologia');return false;">Biologia</a>
         </div>
       </div>
       <div>
-        <div class="foot-col-title">Site</div>
+        <div class="foot-col-title" id="footColSite">Site</div>
         <div class="foot-links">
-          <a href="#" onclick="nav('home');return false;">Início</a>
-          <a href="#" onclick="nav('archive');return false;">Arquivo</a>
-          <a href="#" onclick="nav('about');return false;">Sobre</a>
-          <a href="#">Newsletter</a>
-          <a href="#">Contato</a>
-          <a href="#">Anuncie</a>
+          <a id="footHome" href="#" onclick="nav('home');return false;">Início</a>
+          <a id="footArchive" href="#" onclick="nav('archive');return false;">Arquivo</a>
+          <a id="footAbout" href="#" onclick="nav('about');return false;">Sobre</a>
+          <a id="footNewsletter" href="#">Newsletter</a>
+          <a id="footContact" href="#">Contato</a>
+          <a id="footAdvertise" href="#">Anuncie</a>
         </div>
       </div>
       <div>
-        <div class="foot-col-title">Fontes</div>
+        <div class="foot-col-title" id="footColSources">Fontes</div>
         <div class="foot-links">
           <a href="https://nasa.gov" target="_blank">NASA</a>
           <a href="https://esa.int" target="_blank">ESA / Hubble</a>
@@ -1093,9 +1098,9 @@ button{cursor:pointer;font-family:inherit;border:none}
       </div>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 Cosmos Week — Todos os direitos reservados</span>
-      <span>Feito para a divulgação científica em língua portuguesa</span>
-      <span><a href="#">Privacidade</a> · <a href="#">Termos</a></span>
+      <span id="footBottom1">© 2026 Cosmos Week — Todos os direitos reservados</span>
+      <span id="footBottom2">Feito para a divulgação científica em língua portuguesa</span>
+      <span id="footBottom3"><a href="#">Privacidade</a> · <a href="#">Termos</a></span>
     </div>
   </div>
 </footer>
@@ -1345,27 +1350,195 @@ function handleImgError(img, encodedFallbacks = '') {
   if (img.parentElement) img.parentElement.classList.add('img-fallback');
 }
 
-function formatarDataCurta(valor = '') {
-  const texto = String(valor || '').trim();
-  if (!texto) return '';
-  const partes = texto.replace(',', '').split(/\s+/);
-  if (partes.length >= 3) {
-    const dia = partes[0];
-    const mesBruto = normalizarTexto(partes[1]).replace('.', '').slice(0, 3);
-    const ano = partes[2];
-    if (MESES_PT[mesBruto]) return `${dia} ${MESES_PT[mesBruto]} ${ano}`;
+
+const UI_STRINGS = {
+  pt: {
+    logoSub: 'Ciência do Universo · Atualizado 2× ao dia',
+    home: 'Início',
+    archive: 'Arquivo',
+    about: 'Sobre',
+    searchPlaceholder: 'Buscar artigos...',
+    update: 'Atualizar',
+    latest: 'Últimas',
+    latestNews: 'Últimas Notícias',
+    fullArchive: 'Ver arquivo completo',
+    allCategories: 'Todas as categorias',
+    newsletterTitle: 'Newsletter Cosmos',
+    newsletterText: 'Receba as principais descobertas do universo direto no seu e-mail. Duas vezes ao dia, sem spam.',
+    newsletterName: 'Nome',
+    newsletterEmail: 'E-mail',
+    newsletterEmailShort: 'Seu e-mail',
+    newsletterBtn: 'Assinar gratuitamente',
+    newsletterBtnShort: 'Assinar',
+    newsletterFine: 'Ao assinar, você concorda com a política de privacidade. Cancele quando quiser.',
+    categories: 'Categorias',
+    trending: 'Em Alta',
+    recommended: 'Recomendados',
+    seeOnAmazon: 'Ver na Amazon',
+    archiveTitle: 'Arquivo Completo',
+    searchResults: 'Resultados da busca',
+    noResults: 'Nenhum resultado para',
+    trySearch: 'Experimente: JWST, buraco negro, exoplaneta, matéria escura',
+    editorialBadge: 'DESTAQUE EDITORIAL',
+    newsroom: 'Redação Cosmos Week',
+    sourceLabel: 'Fonte',
+    readAlso: 'Leia também',
+    readOriginal: 'Leia a fonte original',
+    share: 'Compartilhar:',
+    copyLink: 'Copiar link',
+    emailInvalid: 'Digite um e-mail válido.',
+    subscribed: 'Inscrito com sucesso! Bem-vindo ao Cosmos Week.',
+    subscribedShort: 'Inscrito com sucesso!',
+    linkCopied: 'Link copiado.',
+    ctrlCopy: 'Ctrl+C para copiar.',
+    updated: 'Feed atualizado',
+    updateFail: 'Não foi possível atualizar agora. Tente novamente em instantes.',
+    updateEmpty: 'Atualização concluída, mas o feed retornou vazio.',
+    welcome: 'Bem-vindo ao Cosmos Week. Ciência em português, com rigor e sem firula.',
+    recentFeed: 'artigo(s) mais recentes do feed',
+    newArticles: 'novo(s) artigo(s) adicionados.',
+    noNewArticles: 'nenhum artigo novo desde a última checagem.',
+    aboutSection: 'Sobre o Cosmos Week',
+    aboutTitle: 'A divulgação científica que o Brasil merece',
+    aboutP1: 'O <strong style="color:var(--txt-1)">Cosmos Week</strong> é um portal de divulgação científica em português, especializado em Astronomia, Astrofísica e Cosmologia. Nossa missão é traduzir e contextualizar as descobertas mais relevantes do universo para o público brasileiro, com rigor científico e linguagem inteligível.',
+    aboutP2: 'Atualizamos o portal <strong style="color:var(--txt-1)">duas vezes ao dia</strong> com notícias curadas das principais fontes internacionais. O português brasileiro é o idioma padrão do site, e a versão em inglês pode ser ativada a qualquer momento no topo da página.',
+    aboutP3: 'Contato:',
+    footerDesc: 'O portal de referência em divulgação científica em português. Astronomia, Astrofísica e Cosmologia atualizados duas vezes ao dia com rigor científico.',
+    editorial: 'Editorias',
+    site: 'Site',
+    sources: 'Fontes',
+    contact: 'Contato',
+    advertise: 'Anuncie',
+    privacy: 'Privacidade',
+    terms: 'Termos',
+    footerBottom1: '© 2026 Cosmos Week — Todos os direitos reservados',
+    footerBottom2: 'Feito para a divulgação científica em língua portuguesa',
+    resultsFor: 'resultado(s) para',
+    articles: 'artigos',
+    loadMore: 'Carregar mais',
+    readSuffix: 'de leitura',
+    illustration: 'Ilustração'
+  },
+  en: {
+    logoSub: 'Science of the Universe · Updated twice a day',
+    home: 'Home',
+    archive: 'Archive',
+    about: 'About',
+    searchPlaceholder: 'Search articles...',
+    update: 'Refresh',
+    latest: 'Latest',
+    latestNews: 'Latest News',
+    fullArchive: 'View full archive',
+    allCategories: 'All categories',
+    newsletterTitle: 'Cosmos Newsletter',
+    newsletterText: 'Get the most relevant discoveries in astronomy and cosmology straight to your inbox. Twice a day, no spam.',
+    newsletterName: 'Name',
+    newsletterEmail: 'Email',
+    newsletterEmailShort: 'Your email',
+    newsletterBtn: 'Subscribe for free',
+    newsletterBtnShort: 'Subscribe',
+    newsletterFine: 'By subscribing, you agree to the privacy policy. Unsubscribe whenever you want.',
+    categories: 'Categories',
+    trending: 'Trending',
+    recommended: 'Recommended',
+    seeOnAmazon: 'View on Amazon',
+    archiveTitle: 'Full Archive',
+    searchResults: 'Search Results',
+    noResults: 'No results for',
+    trySearch: 'Try: JWST, black hole, exoplanet, dark matter',
+    editorialBadge: 'EDITORIAL PICK',
+    newsroom: 'Cosmos Week Desk',
+    sourceLabel: 'Source',
+    readAlso: 'Read also',
+    readOriginal: 'Read the original source',
+    share: 'Share:',
+    copyLink: 'Copy link',
+    emailInvalid: 'Enter a valid email address.',
+    subscribed: 'Subscription completed successfully. Welcome to Cosmos Week.',
+    subscribedShort: 'Subscribed successfully!',
+    linkCopied: 'Link copied.',
+    ctrlCopy: 'Press Ctrl+C to copy.',
+    updated: 'Feed refreshed',
+    updateFail: 'Could not refresh right now. Please try again in a moment.',
+    updateEmpty: 'Refresh finished, but the feed came back empty.',
+    welcome: 'Welcome to Cosmos Week. Science in Portuguese by default, with a one-click English version.',
+    recentFeed: 'most recent article(s) from the feed',
+    newArticles: 'new article(s) added.',
+    noNewArticles: 'no new articles since the last check.',
+    aboutSection: 'About Cosmos Week',
+    aboutTitle: 'Science journalism the Lusophone world deserves',
+    aboutP1: '<strong style="color:var(--txt-1)">Cosmos Week</strong> is a science news portal focused on Astronomy, Astrophysics, Cosmology and frontier research. Our mission is to translate and contextualize the most relevant discoveries in the universe with scientific rigor and readable language.',
+    aboutP2: 'We update the portal <strong style="color:var(--txt-1)">twice a day</strong> with curated stories from major international sources. Brazilian Portuguese is the default language, and the English version can be enabled at any time from the top of the page.',
+    aboutP3: 'Contact:',
+    footerDesc: 'A science journalism portal focused on astronomy, astrophysics and cosmology, updated twice a day with scientific rigor.',
+    editorial: 'Sections',
+    site: 'Site',
+    sources: 'Sources',
+    contact: 'Contact',
+    advertise: 'Advertise',
+    privacy: 'Privacy',
+    terms: 'Terms',
+    footerBottom1: '© 2026 Cosmos Week — All rights reserved',
+    footerBottom2: 'Built for science journalism in Portuguese, with an English reading mode',
+    resultsFor: 'result(s) for',
+    articles: 'articles',
+    loadMore: 'Load more',
+    readSuffix: 'read',
+    illustration: 'Illustration'
   }
-  return texto;
+};
+
+const CATEGORY_LABELS = {
+  pt: {
+    'Astronomia': 'Astronomia',
+    'Cosmologia': 'Cosmologia',
+    'Astrofísica': 'Astrofísica',
+    'Exoplanetas': 'Exoplanetas',
+    'Física': 'Física',
+    'Biologia': 'Biologia',
+    'Química': 'Química',
+    'Ciências da Terra': 'Ciências da Terra'
+  },
+  en: {
+    'Astronomia': 'Astronomy',
+    'Cosmologia': 'Cosmology',
+    'Astrofísica': 'Astrophysics',
+    'Exoplanetas': 'Exoplanets',
+    'Física': 'Physics',
+    'Biologia': 'Biology',
+    'Química': 'Chemistry',
+    'Ciências da Terra': 'Earth Science'
+  }
+};
+
+function tr(key) {
+  return (UI_STRINGS[currentLang] && UI_STRINGS[currentLang][key]) || (UI_STRINGS.pt && UI_STRINGS.pt[key]) || key;
 }
 
-function formatarLeitura(valor = '') {
-  const texto = String(valor || '').trim();
-  if (!texto) return '3 min de leitura';
-  if (/de leitura/i.test(texto)) return texto;
-  if (/^\d+\s*min$/i.test(texto)) return `${texto} de leitura`;
-  return texto;
+function rotuloCategoria(cat = '') {
+  return (CATEGORY_LABELS[currentLang] && CATEGORY_LABELS[currentLang][cat]) || cat;
 }
 
+function textoArtigo(article, field) {
+  if (!article) return '';
+  if (currentLang === 'en' && article[`${field}_en`]) return article[`${field}_en`];
+  if (currentLang === 'pt' && article[`${field}_pt`]) return article[`${field}_pt`];
+  return article[field] || '';
+}
+
+function htmlArtigo(article, field) {
+  return textoArtigo(article, field);
+}
+
+function formatarDataPublicacao(article, incluirHora = true) {
+  const data = textoArtigo(article, 'date') || article?.date || '';
+  const hora = textoArtigo(article, 'time') || article?.time || '';
+  return incluirHora && hora ? `${data} · ${hora}` : data;
+}
+
+function formatarLeituraArtigo(article) {
+  return textoArtigo(article, 'read') || article?.read || (currentLang === 'en' ? '3 min read' : '3 min de leitura');
+}
 
 function normalizeExternalPosts(posts){
   if (!Array.isArray(posts) || !posts.length) return [];
@@ -1376,13 +1549,28 @@ function normalizeExternalPosts(posts){
       .normalize('NFD').replace(/[̀-ͯ]/g, '')
       .replace(/\s+/g, '-').replace('ciencias-da-terra', 'terra').replace('astrofisica', 'astrofisica')),
     img: a.img || a.image || null,
-    title: a.title || 'Sem título',
-    sub: a.sub || a.subtitle || '',
-    excerpt: a.excerpt || a.summary || '',
-    body: a.body || `<p>${a.summary || a.excerpt || ''}</p>`,
-    date: a.date || '',
+    title: a.title || a.title_pt || 'Sem título',
+    title_pt: a.title_pt || a.title || 'Sem título',
+    title_en: a.title_en || a.title || 'Untitled',
+    sub: a.sub || a.sub_pt || a.subtitle || '',
+    sub_pt: a.sub_pt || a.sub || a.subtitle || '',
+    sub_en: a.sub_en || a.sub || a.subtitle || '',
+    excerpt: a.excerpt || a.excerpt_pt || a.summary || '',
+    excerpt_pt: a.excerpt_pt || a.excerpt || a.summary || '',
+    excerpt_en: a.excerpt_en || a.excerpt || a.summary || '',
+    body: a.body || a.body_pt || `<p>${a.summary || a.excerpt || ''}</p>`,
+    body_pt: a.body_pt || a.body || `<p>${a.summary || a.excerpt || ''}</p>`,
+    body_en: a.body_en || a.body || `<p>${a.summary_en || a.summary || a.excerpt || ''}</p>`,
+    date: a.date || a.date_pt || '',
+    date_pt: a.date_pt || a.date || '',
+    date_en: a.date_en || a.date || '',
     time: a.time || '',
-    read: a.read || '3 min',
+    time_pt: a.time_pt || a.time || '',
+    time_en: a.time_en || a.time || '',
+    read: a.read || a.read_pt || '3 min',
+    read_pt: a.read_pt || a.read || '3 min de leitura',
+    read_en: a.read_en || a.read || '3 min read',
+    publishedIso: a.publishedIso || a.published_iso || '',
     source: a.source || '',
     srcUrl: a.srcUrl || a.link || '#',
     featured: Boolean(a.featured),
@@ -1755,27 +1943,143 @@ const FALLBACK_DB = [
 let DB = normalizeExternalPosts(window.postsData);
 if (!DB.length) DB = FALLBACK_DB;
 
+
 // ============================================================
 // STATE
 // ============================================================
 let pgCurrent = 'home';
 let catFilter = 'all';
 let visN = 6;
+let currentLang = (localStorage.getItem('cw_lang') === 'en') ? 'en' : 'pt';
+let currentArticleId = null;
+let lastSearchQuery = '';
+
+// ============================================================
+// DOM HELPERS / LANGUAGE
+// ============================================================
+function setText(id, value) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = value;
+}
+function setHTML(id, value) {
+  const el = document.getElementById(id);
+  if (el) el.innerHTML = value;
+}
+function setPlaceholder(id, value) {
+  const el = document.getElementById(id);
+  if (el) el.placeholder = value;
+}
+
+function syncLanguageButtons() {
+  document.getElementById('langPt')?.classList.toggle('on', currentLang === 'pt');
+  document.getElementById('langEn')?.classList.toggle('on', currentLang === 'en');
+}
+
+function setLanguage(lang) {
+  currentLang = lang === 'en' ? 'en' : 'pt';
+  localStorage.setItem('cw_lang', currentLang);
+  applyStaticTranslations();
+  rerenderCurrentView();
+}
+
+function renderAboutPage() {
+  const el = document.getElementById('pgAbout');
+  if (!el) return;
+  el.innerHTML = `
+    <div class="sec-head" style="margin-top:32px;"><h2 class="sec-title">${tr('aboutSection')}</h2></div>
+    <h1 style="font-family:'Playfair Display',serif;font-size:44px;font-weight:700;margin-bottom:28px;line-height:1.1;">${tr('aboutTitle')}</h1>
+    <p style="font-size:17px;line-height:1.8;color:var(--txt-2);margin-bottom:20px;">${tr('aboutP1')}</p>
+    <p style="font-size:17px;line-height:1.8;color:var(--txt-2);margin-bottom:20px;">${tr('aboutP2')}</p>
+    <p style="font-size:17px;line-height:1.8;color:var(--txt-2);">${tr('aboutP3')} <a href="mailto:redacao@cosmosweek.com.br" style="color:var(--blue-l)">redacao@cosmosweek.com.br</a></p>
+  `;
+}
+
+function applyStaticTranslations() {
+  document.documentElement.lang = currentLang === 'en' ? 'en-US' : 'pt-BR';
+  setText('logoSub', tr('logoSub'));
+  setText('navHome', tr('home'));
+  setText('navAstronomia', rotuloCategoria('Astronomia'));
+  setText('navCosmologia', rotuloCategoria('Cosmologia'));
+  setText('navAstrofisica', rotuloCategoria('Astrofísica'));
+  setText('navExoplanetas', rotuloCategoria('Exoplanetas'));
+  setText('navFisica', rotuloCategoria('Física'));
+  setText('navArquivo', tr('archive'));
+  setText('navSobre', tr('about'));
+
+  setText('mobNavHome', tr('home'));
+  setText('mobNavAstronomia', rotuloCategoria('Astronomia'));
+  setText('mobNavCosmologia', rotuloCategoria('Cosmologia'));
+  setText('mobNavAstrofisica', rotuloCategoria('Astrofísica'));
+  setText('mobNavExoplanetas', rotuloCategoria('Exoplanetas'));
+  setText('mobNavFisica', rotuloCategoria('Física'));
+  setText('mobNavBiologia', rotuloCategoria('Biologia'));
+  setText('mobNavArquivo', tr('archive'));
+  setText('mobNavSobre', tr('about'));
+
+  setPlaceholder('searchInput', tr('searchPlaceholder'));
+  setText('btnUpdateLabel', tr('update'));
+  setText('tickerBadge', tr('latest'));
+  setText('latestSectionTitle', tr('latestNews'));
+  setText('latestSectionLink', tr('fullArchive'));
+  setText('homeNlTitle', tr('newsletterTitle'));
+  setText('homeNlText', tr('newsletterText'));
+  setPlaceholder('nlName', tr('newsletterName'));
+  setPlaceholder('nlEmail', tr('newsletterEmail'));
+  setText('homeNlBtn', tr('newsletterBtn'));
+  setText('homeNlFine', tr('newsletterFine'));
+  setText('catWidgetTitle', tr('categories'));
+  setText('trendWidgetTitle', tr('trending'));
+  setText('recommendedTitle', tr('recommended'));
+  document.querySelectorAll('.aff-cta').forEach(el => el.textContent = tr('seeOnAmazon'));
+  setText('archiveSectionTitle', tr('archiveTitle'));
+  setText('searchSectionTitle', tr('searchResults'));
+
+  setText('footDesc', tr('footerDesc'));
+  setText('footColEditorial', tr('editorial'));
+  setText('footColSite', tr('site'));
+  setText('footColSources', tr('sources'));
+  setText('footLinkAstronomia', rotuloCategoria('Astronomia'));
+  setText('footLinkCosmologia', rotuloCategoria('Cosmologia'));
+  setText('footLinkAstrofisica', rotuloCategoria('Astrofísica'));
+  setText('footLinkExoplanetas', rotuloCategoria('Exoplanetas'));
+  setText('footLinkFisica', rotuloCategoria('Física'));
+  setText('footLinkBiologia', rotuloCategoria('Biologia'));
+  setText('footHome', tr('home'));
+  setText('footArchive', tr('archive'));
+  setText('footAbout', tr('about'));
+  setText('footNewsletter', tr('newsletterTitle'));
+  setText('footContact', tr('contact'));
+  setText('footAdvertise', tr('advertise'));
+  setText('footBottom1', tr('footerBottom1'));
+  setText('footBottom2', tr('footerBottom2'));
+  setHTML('footBottom3', `<a href="#">${tr('privacy')}</a> · <a href="#">${tr('terms')}</a>`);
+
+  document.querySelectorAll('.cat-pill[data-cat]').forEach(btn => {
+    const cat = btn.dataset.cat || '';
+    btn.textContent = cat === 'all' ? tr('allCategories') : rotuloCategoria(cat);
+  });
+
+  renderAboutPage();
+  syncLanguageButtons();
+}
 
 // ============================================================
 // NAVIGATION
 // ============================================================
 function nav(pg, id) {
-  // Hide all
   ['pgHome','pgArticle','pgArchive','pgAbout','pgSearch'].forEach(p => {
     const el = document.getElementById(p);
     if (el) { el.style.display = 'none'; el.classList.remove('active'); }
   });
+
   pgCurrent = pg;
+  if (pg === 'article' && id) currentArticleId = id;
   window.scrollTo({top:0,behavior:'smooth'});
 
   if (pg === 'home') {
     document.getElementById('pgHome').style.display = 'block';
+    renderHero();
+    renderMain();
   } else if (pg === 'article' && id) {
     renderArticle(id);
     document.getElementById('pgArticle').style.display = 'block';
@@ -1783,6 +2087,7 @@ function nav(pg, id) {
     document.getElementById('pgArchive').style.display = 'block';
     renderArchive();
   } else if (pg === 'about') {
+    renderAboutPage();
     document.getElementById('pgAbout').style.display = 'block';
   } else if (pg === 'search') {
     document.getElementById('pgSearch').style.display = 'block';
@@ -1792,56 +2097,73 @@ function nav(pg, id) {
 // ============================================================
 // CATEGORY FILTER
 // ============================================================
+function syncCategoryUI() {
+  document.querySelectorAll('.cat-pill').forEach(b => b.classList.remove('on'));
+  const active = document.querySelector(`.cat-pill[data-cat="${catFilter}"]`);
+  if (active) active.classList.add('on');
+}
+
 function filterCat(cat, btn) {
   catFilter = cat;
   visN = 6;
-  document.querySelectorAll('.cat-pill').forEach(b => b.classList.remove('on'));
-  if (btn) btn.classList.add('on');
-  else {
-    document.querySelectorAll('.cat-pill').forEach(b => {
-      if (b.textContent.trim().toLowerCase().includes(cat.toLowerCase())) b.classList.add('on');
-    });
+  if (btn) {
+    document.querySelectorAll('.cat-pill').forEach(b => b.classList.remove('on'));
+    btn.classList.add('on');
+  } else {
+    syncCategoryUI();
   }
   nav('home');
-  renderMain();
 }
 
 function metaArtigo(a, incluirHora = true) {
-  const data = formatarDataCurta(a?.date || '');
-  const hora = String(a?.time || '').trim();
-  return incluirHora && hora ? `${data} · ${hora}` : data;
+  return formatarDataPublicacao(a, incluirHora);
+}
+
+function getHeroPosts() {
+  let base = catFilter === 'all' ? DB.slice() : DB.filter(n => n.cat === catFilter);
+  if (catFilter !== 'all' && base.length < 3) {
+    const extras = DB.filter(n => !base.some(item => item.id === n.id));
+    base = base.concat(extras);
+  }
+  return base.slice(0, 3);
 }
 
 // ============================================================
 // HERO
 // ============================================================
 function renderHero() {
-  const f = DB.slice(0, 3);
+  const f = getHeroPosts();
+  if (!f.length) {
+    document.getElementById('heroSection').innerHTML = '';
+    return;
+  }
+  const lead = f[0];
+  const subs = f.slice(1);
   document.getElementById('heroSection').innerHTML = `
     <div class="hero">
-      <div class="hero-lead" onclick="nav('article',${f[0].id})">
-        <img class="card-img" ${buildImgAttrs(f[0], 'eager')}>
+      <div class="hero-lead" onclick="nav('article',${lead.id})">
+        <img class="card-img" ${buildImgAttrs(lead, 'eager')}>
         <div class="card-overlay"></div>
         <div class="card-body">
-          <div class="label ${f[0].catCls}">${f[0].cat}</div>
-          <h2 class="card-title">${f[0].title}</h2>
-          <p class="card-excerpt">${f[0].excerpt}</p>
+          <div class="label ${lead.catCls}">${rotuloCategoria(lead.cat)}</div>
+          <h2 class="card-title">${textoArtigo(lead, 'title')}</h2>
+          <p class="card-excerpt">${textoArtigo(lead, 'excerpt')}</p>
           <div class="card-meta">
-            <span>${metaArtigo(f[0])}</span>
-            <span>${formatarLeitura(f[0].read)}</span>
-            <span style="color:var(--gold);font-size:11px;letter-spacing:.1em;">DESTAQUE EDITORIAL</span>
+            <span>${metaArtigo(lead)}</span>
+            <span>${formatarLeituraArtigo(lead)}</span>
+            <span style="color:var(--gold);font-size:11px;letter-spacing:.1em;">${tr('editorialBadge')}</span>
           </div>
         </div>
       </div>
-      ${f.slice(1).map(a => `
+      ${subs.map(a => `
         <div class="hero-sub" onclick="nav('article',${a.id})">
           <img class="card-img" ${buildImgAttrs(a)}>
           <div class="card-overlay"></div>
           <div class="card-body">
-            <div class="label ${a.catCls}">${a.cat}</div>
-            <h3 class="card-title">${a.title}</h3>
-            <p class="card-excerpt">${a.excerpt}</p>
-            <div class="card-meta"><span>${formatarDataCurta(a.date)}</span><span>${formatarLeitura(a.read)}</span></div>
+            <div class="label ${a.catCls}">${rotuloCategoria(a.cat)}</div>
+            <h3 class="card-title">${textoArtigo(a, 'title')}</h3>
+            <p class="card-excerpt">${textoArtigo(a, 'excerpt')}</p>
+            <div class="card-meta"><span>${formatarDataPublicacao(a, false)}</span><span>${formatarLeituraArtigo(a)}</span></div>
           </div>
         </div>
       `).join('')}
@@ -1852,7 +2174,9 @@ function renderHero() {
 // MAIN GRID
 // ============================================================
 function filtered() {
-  return catFilter === 'all' ? DB.slice(3) : DB.filter(n => n.cat === catFilter);
+  const heroIds = new Set(getHeroPosts().map(a => a.id));
+  const base = catFilter === 'all' ? DB.slice() : DB.filter(n => n.cat === catFilter);
+  return base.filter(n => !heroIds.has(n.id));
 }
 
 function ncHTML(a) {
@@ -1861,10 +2185,10 @@ function ncHTML(a) {
       <img ${buildImgAttrs(a)}>
     </div>
     <div class="nc-body">
-      <div class="label ${a.catCls}">${a.cat}</div>
-      <h3 class="card-title">${a.title}</h3>
-      <p class="card-excerpt">${a.excerpt}</p>
-      <div class="card-meta"><span>${formatarDataCurta(a.date)}</span><span>${formatarLeitura(a.read)}</span></div>
+      <div class="label ${a.catCls}">${rotuloCategoria(a.cat)}</div>
+      <h3 class="card-title">${textoArtigo(a, 'title')}</h3>
+      <p class="card-excerpt">${textoArtigo(a, 'excerpt')}</p>
+      <div class="card-meta"><span>${formatarDataPublicacao(a, false)}</span><span>${formatarLeituraArtigo(a)}</span></div>
     </div>
   </div>`;
 }
@@ -1874,8 +2198,12 @@ function renderMain() {
   document.getElementById('gridMain').innerHTML = arr.slice(0, Math.min(visN, arr.length)).map(ncHTML).join('');
   document.getElementById('gridMore').innerHTML = '';
   const btn = document.getElementById('btnLoad');
-  if (arr.length <= visN) { btn.style.display = 'none'; }
-  else { btn.style.display = 'block'; btn.textContent = `Carregar mais (${arr.length - visN} artigos)`; }
+  if (arr.length <= visN) {
+    btn.style.display = 'none';
+  } else {
+    btn.style.display = 'block';
+    btn.textContent = `${tr('loadMore')} (${arr.length - visN} ${tr('articles')})`;
+  }
 }
 
 function loadMore() {
@@ -1884,7 +2212,7 @@ function loadMore() {
   document.getElementById('gridMain').innerHTML = arr.slice(0, Math.min(visN, arr.length)).map(ncHTML).join('');
   const btn = document.getElementById('btnLoad');
   if (arr.length <= visN) btn.style.display = 'none';
-  else btn.textContent = `Carregar mais (${arr.length - visN} artigos)`;
+  else btn.textContent = `${tr('loadMore')} (${arr.length - visN} ${tr('articles')})`;
 }
 
 // ============================================================
@@ -1893,63 +2221,64 @@ function loadMore() {
 function renderArticle(id) {
   const a = DB.find(x => x.id === id);
   if (!a) return;
+  currentArticleId = id;
   const related = DB.filter(x => x.id !== a.id && (x.cat === a.cat || x.trending)).slice(0,3);
   document.getElementById('pgArticle').innerHTML = `
     <div class="bc">
-      <a href="#" onclick="nav('home');return false;">Início</a>
+      <a href="#" onclick="nav('home');return false;">${tr('home')}</a>
       <span>›</span>
-      <a href="#" onclick="filterCat('${a.cat}');return false;">${a.cat}</a>
+      <a href="#" onclick="filterCat('${a.cat}');return false;">${rotuloCategoria(a.cat)}</a>
       <span>›</span>
-      <span style="color:var(--txt-3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:300px;">${a.title.substring(0,60)}…</span>
+      <span style="color:var(--txt-3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:300px;">${textoArtigo(a, 'title').substring(0,60)}…</span>
     </div>
     <div class="art-hero">
       <img ${buildImgAttrs(a, 'eager')}>
       <div class="art-hero-overlay"></div>
       <div class="art-hero-content">
-        <div class="label ${a.catCls}">${a.cat}</div>
-        <h1 class="art-title">${a.title}</h1>
+        <div class="label ${a.catCls}">${rotuloCategoria(a.cat)}</div>
+        <h1 class="art-title">${textoArtigo(a, 'title')}</h1>
         <div class="art-meta">
-          <span>Redação Cosmos Week</span>
+          <span>${tr('newsroom')}</span>
           <span>${metaArtigo(a)}</span>
-          <span>${formatarLeitura(a.read)}</span>
-          <span>Fonte: ${a.source}</span>
+          <span>${formatarLeituraArtigo(a)}</span>
+          <span>${tr('sourceLabel')}: ${a.source}</span>
         </div>
       </div>
     </div>
     <div class="two-col" style="margin-top:0;">
       <div>
         <div class="art-body" id="artBody">
-          <p style="font-size:19px;font-weight:300;color:var(--txt-2);margin-bottom:32px;line-height:1.7;border-bottom:1px solid var(--border);padding-bottom:24px;">${a.excerpt}</p>
-          ${a.body}
+          <p style="font-size:19px;font-weight:300;color:var(--txt-2);margin-bottom:32px;line-height:1.7;border-bottom:1px solid var(--border);padding-bottom:24px;">${textoArtigo(a, 'excerpt')}</p>
+          ${htmlArtigo(a, 'body')}
           <a href="${a.srcUrl}" target="_blank" class="art-source" rel="noopener">
             <svg width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            Leia a fonte original: ${a.source}
+            ${tr('readOriginal')}: ${a.source}
           </a>
         </div>
         <div class="ad ad-in-article">
           <!-- AdSense In-Article 300×250 — cole aqui -->
         </div>
         <div class="share">
-          <span class="share-lbl">Compartilhar:</span>
-          <button class="share-btn" onclick="shareArt('x','${encodeURIComponent(a.title)}')">X</button>
-          <button class="share-btn" onclick="shareArt('whatsapp','${encodeURIComponent(a.title)}')">WhatsApp</button>
-          <button class="share-btn" onclick="copyURL()">Copiar link</button>
+          <span class="share-lbl">${tr('share')}</span>
+          <button class="share-btn" onclick="shareArt('x','${encodeURIComponent(textoArtigo(a, 'title'))}')">X</button>
+          <button class="share-btn" onclick="shareArt('whatsapp','${encodeURIComponent(textoArtigo(a, 'title'))}')">WhatsApp</button>
+          <button class="share-btn" onclick="copyURL()">${tr('copyLink')}</button>
         </div>
-        <div class="sec-head" style="margin-top:48px;"><h2 class="sec-title">Leia também</h2></div>
+        <div class="sec-head" style="margin-top:48px;"><h2 class="sec-title">${tr('readAlso')}</h2></div>
         <div class="news-grid">${related.map(ncHTML).join('')}</div>
       </div>
       <aside class="sidebar">
         <div class="ad ad-half"><!-- Sidebar 300×600 --></div>
         <div class="widget nl-widget">
-          <div class="whead"><div class="whead-title">Newsletter Cosmos</div></div>
-          <div class="nl-text">Receba as principais descobertas do universo direto no e-mail. Grátis.</div>
+          <div class="whead"><div class="whead-title">${tr('newsletterTitle')}</div></div>
+          <div class="nl-text">${currentLang === 'en' ? 'Get the most relevant discoveries in the universe directly by email. Free.' : 'Receba as principais descobertas do universo direto no e-mail. Grátis.'}</div>
           <div class="nl-form">
-            <input type="email" placeholder="Seu e-mail" id="nlEmail2">
-            <button class="nl-btn" onclick="subscribe2()">Assinar</button>
+            <input type="email" placeholder="${tr('newsletterEmailShort')}" id="nlEmail2">
+            <button class="nl-btn" onclick="subscribe2()">${tr('newsletterBtnShort')}</button>
           </div>
-          <div class="nl-fine">Cancele quando quiser.</div>
+          <div class="nl-fine">${currentLang === 'en' ? 'Unsubscribe whenever you want.' : 'Cancele quando quiser.'}</div>
         </div>
-        <div class="widget"><div class="whead"><div class="whead-title">Em alta</div></div><div class="wbody trending" id="tw2"></div></div>
+        <div class="widget"><div class="whead"><div class="whead-title">${tr('trending')}</div></div><div class="wbody trending" id="tw2"></div></div>
         <div class="ad ad-rect"><!-- 300×250 --></div>
       </aside>
     </div>`;
@@ -1966,9 +2295,9 @@ function renderArchive() {
         <img ${buildImgAttrs(a)}>
       </div>
       <div class="ci-body">
-        <div class="label ${a.catCls}" style="font-size:9px;">${a.cat}</div>
-        <div class="ci-title">${a.title}</div>
-        <div class="ci-meta">${formatarDataCurta(a.date)} · ${formatarLeitura(a.read)} · ${a.source}</div>
+        <div class="label ${a.catCls}" style="font-size:9px;">${rotuloCategoria(a.cat)}</div>
+        <div class="ci-title">${textoArtigo(a, 'title')}</div>
+        <div class="ci-meta">${formatarDataPublicacao(a, false)} · ${formatarLeituraArtigo(a)} · ${a.source}</div>
       </div>
     </div>`).join('');
 }
@@ -1983,7 +2312,7 @@ function renderCatWidget() {
     .sort((a,b) => b[1]-a[1])
     .map(([c,n]) => `
       <div class="cwi" onclick="filterCat('${c}')">
-        <span class="cwi-name">${c}</span>
+        <span class="cwi-name">${rotuloCategoria(c)}</span>
         <span class="cwi-count">${n}</span>
       </div>`).join('');
 }
@@ -1995,35 +2324,48 @@ function renderTrending(id = 'trendWidget') {
     <div class="ti" onclick="nav('article',${a.id})">
       <div class="ti-num">${i+1}</div>
       <div>
-        <div class="ti-title">${a.title}</div>
-        <div class="ti-cat">${a.cat} · ${formatarLeitura(a.read)}</div>
+        <div class="ti-title">${textoArtigo(a, 'title')}</div>
+        <div class="ti-cat">${rotuloCategoria(a.cat)} · ${formatarLeituraArtigo(a)}</div>
       </div>
     </div>`).join('');
+}
+
+function renderTicker() {
+  const el = document.getElementById('tickerTrack');
+  if (!el) return;
+  const itens = DB.slice(0, 8).map(a => textoArtigo(a, 'title'));
+  const loop = [...itens, ...itens];
+  el.innerHTML = loop.map(t => `<span class="ticker-item">${t}</span>`).join('');
 }
 
 // ============================================================
 // SEARCH
 // ============================================================
 let sTimer;
+function executarBusca(q) {
+  lastSearchQuery = q;
+  const consulta = normalizarTexto(q || '');
+  const res = DB.filter(a => normalizarTexto([
+      a.title, a.title_pt, a.title_en,
+      a.excerpt, a.excerpt_pt, a.excerpt_en,
+      a.body, a.body_pt, a.body_en,
+      a.cat, rotuloCategoria(a.cat)
+    ].join(' ')).includes(consulta));
+
+  nav('search');
+  document.getElementById('searchInfo').textContent = `${res.length} ${tr('resultsFor')} "${q}"`;
+  document.getElementById('searchGrid').innerHTML = res.length
+    ? res.map(ncHTML).join('')
+    : `<div style="grid-column:1/-1;text-align:center;padding:80px 0;color:var(--txt-3);">
+        <p style="font-size:15px;">${tr('noResults')} "<strong style="color:var(--txt-2)">${q}</strong>"</p>
+        <p style="margin-top:8px;font-size:13px;">${tr('trySearch')}</p>
+      </div>`;
+}
+
 function doSearch(q) {
   clearTimeout(sTimer);
-  if (!q.trim()) { nav('home'); return; }
-  sTimer = setTimeout(() => {
-    const lq = q.toLowerCase();
-    const res = DB.filter(a =>
-      a.title.toLowerCase().includes(lq) ||
-      a.excerpt.toLowerCase().includes(lq) ||
-      a.cat.toLowerCase().includes(lq) ||
-      a.body.toLowerCase().includes(lq));
-    nav('search');
-    document.getElementById('searchInfo').textContent = `${res.length} resultado(s) para "${q}"`;
-    document.getElementById('searchGrid').innerHTML = res.length
-      ? res.map(ncHTML).join('')
-      : `<div style="grid-column:1/-1;text-align:center;padding:80px 0;color:var(--txt-3);">
-          <p style="font-size:15px;">Nenhum resultado para "<strong style="color:var(--txt-2)">${q}</strong>"</p>
-          <p style="margin-top:8px;font-size:13px;">Experimente: JWST, buraco negro, exoplaneta, matéria escura</p>
-        </div>`;
-  }, 280);
+  if (!q.trim()) { lastSearchQuery = ''; nav('home'); return; }
+  sTimer = setTimeout(() => executarBusca(q), 280);
 }
 
 // ============================================================
@@ -2035,7 +2377,7 @@ let toastAction = null;
 function openUpdatedArticles() {
   const newArticles = DB.slice(0, 6);
   nav('search');
-  document.getElementById('searchInfo').textContent = `${newArticles.length} artigo(s) mais recentes do feed`;
+  document.getElementById('searchInfo').textContent = `${newArticles.length} ${tr('recentFeed')}`;
   document.getElementById('searchGrid').innerHTML = newArticles.map(ncHTML).join('');
 }
 
@@ -2055,20 +2397,21 @@ function triggerUpdate() {
       Function('window', js + '; return window.postsData;')(sandboxWindow);
       const fresh = normalizeExternalPosts(sandboxWindow.postsData);
       if (fresh.length) {
-        const oldTop = new Set(DB.slice(0, 8).map(a => a.title));
+        const oldTop = new Set(DB.slice(0, 8).map(a => a.title_pt || a.title));
         DB = fresh;
-        const newCount = DB.filter(a => !oldTop.has(a.title)).slice(0, 6).length;
-        renderHero(); renderMain(); renderCatWidget(); renderTrending();
+        const newCount = DB.filter(a => !oldTop.has(a.title_pt || a.title)).slice(0, 6).length;
+        applyStaticTranslations();
+        rerenderCurrentView();
         toast(
-          newCount ? `Feed atualizado — ${newCount} novo(s) artigo(s) adicionados.` : 'Feed atualizado — nenhum artigo novo desde a última checagem.',
+          newCount ? `${tr('updated')} — ${newCount} ${tr('newArticles')}` : `${tr('updated')} — ${tr('noNewArticles')}`,
           newCount ? openUpdatedArticles : null
         );
       } else {
-        toast('Atualização concluída, mas o feed retornou vazio.');
+        toast(tr('updateEmpty'));
       }
     })
     .catch(() => {
-      toast('Não foi possível atualizar agora. Tente novamente em instantes.');
+      toast(tr('updateFail'));
     })
     .finally(() => {
       btn.classList.remove('loading');
@@ -2126,15 +2469,15 @@ function toast(msg, onClick = null) {
 // ============================================================
 function subscribe() {
   const e = document.getElementById('nlEmail')?.value||'';
-  if (!e.includes('@')) { toast('Digite um e-mail válido.'); return; }
-  toast('Inscrito com sucesso! Bem-vindo ao Cosmos Week.');
+  if (!e.includes('@')) { toast(tr('emailInvalid')); return; }
+  toast(tr('subscribed'));
   document.getElementById('nlEmail').value='';
   if(document.getElementById('nlName')) document.getElementById('nlName').value='';
 }
 function subscribe2() {
   const e = document.getElementById('nlEmail2')?.value||'';
-  if (!e.includes('@')) { toast('Digite um e-mail válido.'); return; }
-  toast('Inscrito com sucesso!');
+  if (!e.includes('@')) { toast(tr('emailInvalid')); return; }
+  toast(tr('subscribedShort'));
   document.getElementById('nlEmail2').value='';
 }
 
@@ -2150,7 +2493,7 @@ function shareArt(pl, t) {
   window.open(urls[pl],'_blank','width=600,height=400');
 }
 function copyURL() {
-  navigator.clipboard.writeText(location.href).then(() => toast('Link copiado.')).catch(() => toast('Ctrl+C para copiar.'));
+  navigator.clipboard.writeText(location.href).then(() => toast(tr('linkCopied'))).catch(() => toast(tr('ctrlCopy')));
 }
 
 // ============================================================
@@ -2173,16 +2516,44 @@ window.addEventListener('scroll', () => {
   document.getElementById('rp').style.width = (window.scrollY/h*100)+'%';
 }, {passive:true});
 
+function rerenderCurrentView() {
+  applyStaticTranslations();
+  renderTicker();
+  renderCatWidget();
+  renderTrending();
+  syncCategoryUI();
+
+  if (pgCurrent === 'article' && currentArticleId) {
+    document.getElementById('pgArticle').style.display = 'block';
+    renderArticle(currentArticleId);
+  } else if (pgCurrent === 'archive') {
+    document.getElementById('pgArchive').style.display = 'block';
+    renderArchive();
+  } else if (pgCurrent === 'search' && lastSearchQuery) {
+    executarBusca(lastSearchQuery);
+  } else if (pgCurrent === 'about') {
+    document.getElementById('pgAbout').style.display = 'block';
+    renderAboutPage();
+  } else {
+    document.getElementById('pgHome').style.display = 'block';
+    renderHero();
+    renderMain();
+  }
+}
+
 // ============================================================
 // INIT
 // ============================================================
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('pgHome').style.display = 'block';
+  applyStaticTranslations();
+  renderTicker();
   renderHero();
   renderMain();
   renderCatWidget();
   renderTrending();
-  setTimeout(() => toast('Bem-vindo ao Cosmos Week. Ciência em português, com rigor e sem firula.'), 1200);
+  syncCategoryUI();
+  setTimeout(() => toast(tr('welcome')), 1200);
 });
 </script>
 </body>
