@@ -1296,6 +1296,12 @@ function getDynamicImage(article) {
   return escolherComSeed(seed, getImageCandidates(article));
 }
 
+function getPrimaryImage(article) {
+  const real = String(article?.img || article?.image || '').trim();
+  if (real && !/^null$/i.test(real) && !/^undefined$/i.test(real)) return real;
+  return getDynamicImage(article);
+}
+
 function escaparAttr(valor = '') {
   return String(valor)
     .replace(/&/g, '&amp;')
@@ -1305,8 +1311,14 @@ function escaparAttr(valor = '') {
 }
 
 function buildImgAttrs(article, loading = 'lazy') {
-  const fallbacks = encodeURIComponent(getImageCandidates(article).join('|'));
-  return `src="${getDynamicImage(article)}" alt="${escaparAttr(article?.title || 'Imagem do artigo')}" loading="${loading}" decoding="async" referrerpolicy="no-referrer" onerror="handleImgError(this, '${fallbacks}')"`
+  const primario = getPrimaryImage(article);
+  const fallbacks = encodeURIComponent(listaUnica([
+    ...getImageCandidates(article),
+    IMG.pillars,
+    IMG.carina,
+    IMG.andromeda
+  ]).filter(url => url && url !== primario).join('|'));
+  return `src="${primario}" alt="${escaparAttr(article?.title || 'Imagem do artigo')}" loading="${loading}" decoding="async" referrerpolicy="no-referrer" onerror="handleImgError(this, '${fallbacks}')"`
 }
 
 function handleImgError(img, encodedFallbacks = '') {
@@ -1375,7 +1387,7 @@ function normalizeExternalPosts(posts){
     srcUrl: a.srcUrl || a.link || '#',
     featured: Boolean(a.featured),
     trending: Boolean(a.trending)
-  })).map(a => ({...a, img: getDynamicImage(a)}));
+  }));
 }
 
 const FALLBACK_DB = [
@@ -1742,7 +1754,6 @@ const FALLBACK_DB = [
 
 let DB = normalizeExternalPosts(window.postsData);
 if (!DB.length) DB = FALLBACK_DB;
-DB.forEach(a => a.img = getDynamicImage(a));
 
 // ============================================================
 // STATE
