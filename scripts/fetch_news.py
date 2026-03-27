@@ -17,6 +17,9 @@ USER_AGENT = 'CosmosWeekBot/2.0 (+https://github.com/marambaiajunior/cosmos-week
 REQUEST_TIMEOUT = 30
 PAGE_IMAGE_TIMEOUT = 20
 MAX_PAGE_IMAGE_FETCHES = 16
+TRANSLATE_TIMEOUT = 20
+TRANSLATE_ENDPOINT = 'https://translate.googleapis.com/translate_a/single'
+
 
 NS = {
     'atom': 'http://www.w3.org/2005/Atom',
@@ -168,6 +171,7 @@ BAD_IMAGE_HINTS = (
 
 ARTICLE_IMAGE_CACHE: dict[str, Optional[str]] = {}
 PAGE_IMAGE_FETCH_COUNT = 0
+TRANSLATION_CACHE: dict[tuple[str, str], str] = {}
 
 
 def fetch(url: str, timeout: int = REQUEST_TIMEOUT) -> bytes:
@@ -268,6 +272,47 @@ def reading_time(text: str) -> str:
 
 def format_date_pt(dt: datetime) -> str:
     return f'{dt.day:02d} {MESES_PT[dt.month]} {dt.year}'
+
+
+def format_date_en(dt: datetime) -> str:
+    return dt.strftime('%d %b %Y')
+
+
+def translate_text(text: str, target_lang: str) -> str:
+    text = re.sub(r'\s+', ' ', (text or '')).strip()
+    if not text:
+        return ''
+    cache_key = (target_lang, text)
+    cached = TRANSLATION_CACHE.get(cache_key)
+    if cached is not None:
+        return cached
+
+    params = urllib.parse.urlencode({
+        'client': 'gtx',
+        'sl': 'auto',
+        'tl': target_lang,
+        'dt': 't',
+        'q': text,
+    })
+    url = f'{TRANSLATE_ENDPOINT}?{params}'
+    try:
+        raw = fetch(url, timeout=TRANSLATE_TIMEOUT)
+        data = json.loads(raw.decode('utf-8', errors='ignore'))
+        translated = ''.join(part[0] for part in (data[0] or []) if part and part[0]).strip()
+        if translated:
+            TRANSLATION_CACHE[cache_key] = translated
+            return translated
+    except Exception:
+        pass
+
+    TRANSLATION_CACHE[cache_key] = text
+    return text
+
+
+def reading_time_en(text: str) -> str:
+    words = max(1, len((text or '').split()))
+    mins = max(2, round(words / 180))
+    return f'{mins} min read'
 
 
 def clean_image_url(url: str) -> Optional[str]:
@@ -438,18 +483,28 @@ def infer_thematic_image(title: str, summary: str, source_name: str, category: s
     return unique[stable_index(seed, len(unique))]
 
 
-def make_body(summary: str, source_name: str, link: str) -> str:
+def make_body(summary: str, source_name: str, link: str, lang: str = 'pt') -> str:
     summary = strip_html(summary)
     parts = []
     if summary:
         parts.append(f'<p>{html.escape(summary)}</p>')
-    parts.append(
-        f'<p>Este artigo foi incorporado automaticamente do feed de <strong>{html.escape(source_name)}</strong>. '
-        f'Para contexto completo, imagens originais e eventuais correções posteriores da matéria, abra a fonte original.</p>'
-    )
-    parts.append(
-        f'<blockquote>Fonte original: <a href="{html.escape(link)}" target="_blank" rel="noopener">{html.escape(link)}</a></blockquote>'
-    )
+
+    if lang == 'en':
+        parts.append(
+            f'<p>This article was incorporated automatically from the <strong>{html.escape(source_name)}</strong> feed. '
+            f'For the complete context, original images and any later corrections, open the original source.</p>'
+        )
+        parts.append(
+            f'<blockquote>Original source: <a href="{html.escape(link)}" target="_blank" rel="noopener">{html.escape(link)}</a></blockquote>'
+        )
+    else:
+        parts.append(
+            f'<p>Este artigo foi incorporado automaticamente do feed de <strong>{html.escape(source_name)}</strong>. '
+            f'Para contexto completo, imagens originais e eventuais correções posteriores da matéria, abra a fonte original.</p>'
+        )
+        parts.append(
+            f'<blockquote>Fonte original: <a href="{html.escape(link)}" target="_blank" rel="noopener">{html.escape(link)}</a></blockquote>'
+        )
     return ''.join(parts)
 
 
@@ -555,18 +610,46 @@ def to_post(item, idx: int):
     trending = idx < 8
     img = choose_post_image(item, category)
 
+    title_en = item['title']
+    summary_en = item['summary']
+    title_pt = translate_text(title_en, 'pt')
+    summary_pt = translate_text(summary_en, 'pt')
+
     return {
         'id': idx + 1,
         'cat': category,
         'catCls': cat_cls(category),
         'img': img,
-        'title': item['title'],
-        'sub': truncate(item['summary'], 140),
-        'excerpt': truncate(item['summary'], 220),
-        'body': make_body(item['summary'], item['source'], item['link']),
+
+        'title': title_pt,
+        'title_pt': title_pt,
+        'title_en': title_en,
+
+        'sub': truncate(summary_pt, 140),
+        'sub_pt': truncate(summary_pt, 140),
+        'sub_en': truncate(summary_en, 140),
+
+        'excerpt': truncate(summary_pt, 220),
+        'excerpt_pt': truncate(summary_pt, 220),
+        'excerpt_en': truncate(summary_en, 220),
+
+        'body': make_body(summary_pt, item['source'], item['link'], 'pt'),
+        'body_pt': make_body(summary_pt, item['source'], item['link'], 'pt'),
+        'body_en': make_body(summary_en, item['source'], item['link'], 'en'),
+
         'date': format_date_pt(dt),
+        'date_pt': format_date_pt(dt),
+        'date_en': format_date_en(dt),
+
         'time': dt.strftime('%Hh%M'),
-        'read': reading_time(item['summary']),
+        'time_pt': dt.strftime('%Hh%M'),
+        'time_en': dt.strftime('%H:%M UTC'),
+
+        'read': reading_time(summary_pt),
+        'read_pt': reading_time(summary_pt),
+        'read_en': reading_time_en(summary_en),
+
+        'publishedIso': dt.isoformat(),
         'source': item['source'],
         'srcUrl': item['link'],
         'featured': featured,
