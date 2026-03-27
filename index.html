@@ -18,13 +18,13 @@
    DESIGN TOKENS
 ============================================================ */
 :root {
-  --void:      #1b2030;
-  --deep:      #212843;
-  --surface:   #273050;
-  --card:      #2d3759;
-  --card-h:    #333f66;
-  --border:    rgba(255,255,255,0.12);
-  --border-h:  rgba(255,255,255,0.22);
+  --void:      #14181f;
+  --deep:      #1a1f2b;
+  --surface:   #1f2535;
+  --card:      #242b3d;
+  --card-h:    #2a3248;
+  --border:    rgba(255,255,255,0.10);
+  --border-h:  rgba(255,255,255,0.20);
   --txt-1:     #edf0f7;
   --txt-2:     #9daabf;
   --txt-3:     #5a6a85;
@@ -404,6 +404,32 @@ button{cursor:pointer;font-family:inherit;border:none}
   background-size:cover;background-position:center;
   transition:transform .6s var(--ease);
 }
+
+.img-fallback{
+  background:
+    radial-gradient(circle at 18% 20%, rgba(79,142,247,.18), transparent 28%),
+    radial-gradient(circle at 82% 18%, rgba(212,162,64,.14), transparent 24%),
+    linear-gradient(135deg,#060a18 0%,#0a1530 55%,#101f3d 100%) !important;
+}
+.img-fallback::before{
+  content:'Ilustração';
+  position:absolute;top:12px;left:12px;z-index:2;
+  padding:4px 8px;border-radius:999px;
+  font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.14em;
+  text-transform:uppercase;color:#c9d5ea;
+  background:rgba(12,18,32,.72);border:1px solid rgba(255,255,255,.08);
+}
+.img-fallback::after{
+  content:'';
+  position:absolute;inset:0;z-index:0;
+  background:
+    radial-gradient(circle at 28% 34%, rgba(255,255,255,.12) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 72% 24%, rgba(255,255,255,.10) 0 1px, transparent 1.8px),
+    radial-gradient(circle at 63% 68%, rgba(255,255,255,.08) 0 1px, transparent 1.7px),
+    radial-gradient(circle at 18% 74%, rgba(255,255,255,.07) 0 1px, transparent 1.5px);
+  opacity:.9;
+}
+.img-fallback > *{position:relative;z-index:1;}
 .hero-lead:hover .img-bg,
 .hero-sub:hover .img-bg{transform:scale(1.04);}
 
@@ -949,7 +975,7 @@ button{cursor:pointer;font-family:inherit;border:none}
 
         <!-- Trending -->
         <div class="widget">
-          <div class="whead"><div class="whead-title">Em Alta</div></div>
+          <div class="whead"><div class="whead-title">Em alta</div></div>
           <div class="wbody trending" id="trendWidget"></div>
         </div>
 
@@ -998,7 +1024,7 @@ button{cursor:pointer;font-family:inherit;border:none}
     <h1 style="font-family:'Playfair Display',serif;font-size:44px;font-weight:700;margin-bottom:28px;line-height:1.1;">A divulgação científica que o Brasil merece</h1>
     <p style="font-size:17px;line-height:1.8;color:var(--txt-2);margin-bottom:20px;">O <strong style="color:var(--txt-1)">Cosmos Week</strong> é o maior portal de divulgação científica em língua portuguesa, especializado em Astronomia, Astrofísica e Cosmologia. Nossa missão é traduzir e contextualizar as descobertas mais relevantes do universo para o público brasileiro, com rigor científico e linguagem inteligível.</p>
     <p style="font-size:17px;line-height:1.8;color:var(--txt-2);margin-bottom:20px;">Atualizamos o portal <strong style="color:var(--txt-1)">duas vezes ao dia</strong> — às 7h e às 19h — com notícias curadas das principais fontes internacionais: NASA, ESA, arXiv, Nature, Phys.org, Universe Today e Space.com.</p>
-    <p style="font-size:17px;line-height:1.8;color:var(--txt-2);">Contato: <a href="/cdn-cgi/l/email-protection#0c7e69686d6f6d634c6f637f61637f7b696967226f6361226e7e" style="color:var(--blue-l)"><span class="__cf_email__" data-cfemail="6b190e0f0a080a042b0804180604181c0e0e0045080406450919">[email&#160;protected]</span></a></p>
+    <p style="font-size:17px;line-height:1.8;color:var(--txt-2);">Contato: <a href="mailto:redacao@cosmosweek.com.br" style="color:var(--blue-l)">redacao@cosmosweek.com.br</a></p>
   </div>
 
   <!-- SEARCH RESULTS -->
@@ -1074,7 +1100,7 @@ button{cursor:pointer;font-family:inherit;border:none}
   </div>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="posts.js"></script>
+<script src="posts.js"></script>
 
 <!-- ============================================================
      DATA + LOGIC
@@ -1131,119 +1157,216 @@ const IMG = {
   climate: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Global_Temperature_Anomaly.svg/1280px-Global_Temperature_Anomaly.svg.png'
 };
 
-function pick(...items){
-  for (const item of items) if (item) return item;
-  return IMG.pillars;
+const MESES_PT = {
+  jan: 'jan', feb: 'fev', mar: 'mar', apr: 'abr', may: 'mai', jun: 'jun',
+  jul: 'jul', aug: 'ago', sep: 'set', oct: 'out', nov: 'nov', dec: 'dez'
+};
+
+function normalizarTexto(valor = '') {
+  return String(valor)
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
 }
 
-function getDynamicImage(article){
-  if (article && article.img) return article.img;
-  const text = ((article?.title || '') + ' ' + (article?.sub || '') + ' ' + (article?.excerpt || '')).toLowerCase();
-  const cat = (article?.catCls || (article?.cat || '').toLowerCase()
-    .normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,'-'));
-
-  // ── Contexto fino: exoplanetas ────────────────────────────────────────────
-  if (/k2-18|hycean|dms|dimetilssulfeto|biosignature|bioassinatura|ocean glint/.test(text))
-    return pick(IMG.exoplanetOcean, IMG.exoplanetTransit);
-  if (/exoplanet|exoplaneta|trappist|speculoos|sub.netuno|sub.neptune|super.terra|super.earth|zona habit/.test(text))
-    return /ocean|oceano/.test(text) ? pick(IMG.exoplanetOcean, IMG.exoplanetTransit) : IMG.exoplanetTransit;
-
-  // ── Lua / Artemis ─────────────────────────────────────────────────────────
-  if (/shackleton|polo sul lunar/.test(text)) return pick(IMG.lunarSouthPole, IMG.moon);
-  if (/artemis|lunar\b|lua\b|moon\b/.test(text)) return pick(IMG.moon, IMG.lunarSouthPole);
-
-  // ── Marte ─────────────────────────────────────────────────────────────────
-  if (/perseverance|jezero|curiosity/.test(text)) return pick(IMG.jezero, IMG.perseverance, IMG.mars);
-  if (/\bmarte\b|mars\b|mars sample/.test(text)) return pick(IMG.mars, IMG.perseverance);
-
-  // ── Sistema Solar ─────────────────────────────────────────────────────────
-  if (/europa\b/.test(text)) return IMG.europa;
-  if (/j[úu]piter|jupiter/.test(text)) return IMG.jupiter;
-  if (/saturn|saturno|cassini/.test(text)) return pick(IMG.saturn, IMG.cassini);
-  if (/comet|cometa/.test(text)) return IMG.comet;
-  if (/asteroide|asteroid|cinturão de kuiper|planeta anão/.test(text)) return pick(IMG.asteroid, IMG.rubin);
-
-  // ── Sol ───────────────────────────────────────────────────────────────────
-  if (/solar flare|coronal|tempestade solar|sunspot|mancha solar|solar storm/.test(text))
-    return pick(IMG.solar, IMG.sunspot);
-  if (/aurora borealis|aurora austral|aurora\b/.test(text)) return pick(IMG.aurora, IMG.magneticField);
-
-  // ── Buracos negros ────────────────────────────────────────────────────────
-  if (/black hole|buraco negro|m87|sgr a|event horizon|spin de buraco|kerr\b|schwarzschild/.test(text))
-    return pick(IMG.blackhole, IMG.m87jet);
-
-  // ── Estrelas de nêutrons / ondas gravitacionais ───────────────────────────
-  if (/kilonova|ligo\b|virgo\b|onda gravitacional|gravitational wave/.test(text))
-    return pick(IMG.kilonova, IMG.neutronStar);
-  if (/neutron star|estrela de neutrons|magnetar|pulsar|glitch/.test(text))
-    return pick(IMG.neutronStar, IMG.crab);
-  if (/supernova/.test(text)) return IMG.supernova;
-
-  // ── Telescópios e missões ─────────────────────────────────────────────────
-  if (/vera rubin|rubin observatory|lsst/.test(text)) return IMG.rubin;
-  if (/jwst|james webb|webb telescope/.test(text)) {
-    if (/galáxia|galaxy|deep field|campo profundo/.test(text)) return IMG.hubbledeep;
-    if (/exoplanet|exoplaneta|atmosfera|atmosphere/.test(text)) return IMG.exoplanetTransit;
-    return IMG.hubbledeep;
-  }
-
-  // ── Física de partículas ──────────────────────────────────────────────────
-  if (/lhc|cern|higgs|quark|neutralino|wimp|supersymm|detector atlas|detector cms|large hadron/.test(text))
-    return pick(IMG.particleTracks, IMG.cern);
-
-  // ── Galáxias ──────────────────────────────────────────────────────────────
-  if (/m87/.test(text)) return pick(IMG.blackhole, IMG.m87jet);
-  if (/andrômeda|andromeda/.test(text)) return IMG.andromeda;
-  if (/via láctea|milky way|halo galáctico|gaia mission|gaia satellite|gaia dr/.test(text))
-    return pick(IMG.milkyway, IMG.andromeda);
-  if (/galáxia|galaxy|galactic|fusão gal/.test(text))
-    return pick(IMG.andromeda, IMG.whirlpool, IMG.sombrero, IMG.triangulum, IMG.ngc1300);
-
-  // ── Nebulosas ─────────────────────────────────────────────────────────────
-  if (/helix/.test(text)) return IMG.helix;
-  if (/orion nebula|nebulosa de orion/.test(text)) return IMG.orion;
-  if (/carina/.test(text)) return IMG.carina;
-  if (/crab nebula/.test(text)) return IMG.crab;
-  if (/veil/.test(text)) return IMG.veil;
-  if (/lagoon|laguna/.test(text)) return IMG.lagoon;
-  if (/trifid|triffid/.test(text)) return IMG.triffid;
-  if (/omega nebula/.test(text)) return IMG.omega;
-  if (/butterfly nebula/.test(text)) return IMG.butterfly;
-  if (/nebulosa|nebula|pillars|pilares/.test(text))
-    return pick(IMG.pillars, IMG.carina, IMG.orion, IMG.eagle);
-
-  // ── Cosmologia ────────────────────────────────────────────────────────────
-  if (/tensão de hubble|hubble tension|constante de hubble/.test(text))
-    return pick(IMG.hubbledeep, IMG.earth);
-  if (/cosmologia|dark energy|energia escura|matéria escura|dark matter|cmb|euclid|bullet cluster/.test(text))
-    return pick(IMG.hubbledeep, IMG.andromeda);
-
-  // ── Ciências da Terra ─────────────────────────────────────────────────────
-  if (/campo magnético|magnetosfera|magnetosphere|geomagnetic/.test(text))
-    return pick(IMG.magneticField, IMG.aurora);
-  if (/aquecimento global|global warming|climate change|mudança clim|sea level/.test(text))
-    return pick(IMG.climate, IMG.earth);
-
-  // ── Astrobiologia / Química prebiótica ────────────────────────────────────
-  if (/arqueia|archaea|extremófilo|fossa das marianas|mariana trench/.test(text))
-    return pick(IMG.europa, IMG.earth);
-  if (/ribose|rna world|prebiótic|interestelar|interstellar ice/.test(text))
-    return pick(IMG.pillars, IMG.orion);
-
-  // ── Fallback por categoria ────────────────────────────────────────────────
-  switch(cat){
-    case 'astronomia':         return pick(IMG.milkyway, IMG.andromeda, IMG.comet);
-    case 'cosmologia':         return pick(IMG.hubbledeep, IMG.andromeda);
-    case 'astrofisica':        return pick(IMG.blackhole, IMG.neutronStar, IMG.supernova);
-    case 'exoplanetas':        return pick(IMG.exoplanetTransit, IMG.exoplanetOcean);
-    case 'fisica':             return pick(IMG.particleTracks, IMG.cern);
-    case 'biologia':           return pick(IMG.europa, IMG.earth);
-    case 'quimica':            return pick(IMG.pillars, IMG.orion);
-    case 'terra':
-    case 'ciencias-da-terra':  return pick(IMG.earth, IMG.magneticField, IMG.climate);
-    default:                   return IMG.pillars;
-  }
+function listaUnica(itens) {
+  return [...new Set(itens.filter(Boolean))];
 }
+
+function hashEstavel(valor = '') {
+  let h = 0;
+  const texto = String(valor || '');
+  for (let i = 0; i < texto.length; i++) h = (h * 31 + texto.charCodeAt(i)) >>> 0;
+  return h;
+}
+
+function escolherComSeed(seed, itens) {
+  const lista = listaUnica(itens);
+  if (!lista.length) return IMG.pillars;
+  return lista[hashEstavel(seed) % lista.length];
+}
+
+function extrairTextoImagem(article) {
+  return normalizarTexto([
+    article?.title || '',
+    article?.sub || '',
+    article?.excerpt || '',
+    article?.body || '',
+    article?.source || '',
+    article?.cat || ''
+  ].join(' '));
+}
+
+function getImageCandidates(article) {
+  const text = extrairTextoImagem(article);
+  const cat = normalizarTexto(article?.cat || '');
+  const pool = [];
+  const add = (...imgs) => pool.push(...imgs.filter(Boolean));
+
+  if (article?.img) add(article.img);
+
+  if (/(artemis|shackleton|polo sul lunar|lunar|\blua\b|\bmoon\b|eclipse lunar)/.test(text)) add(IMG.lunarSouthPole, IMG.moon);
+  if (/(perseverance|jezero|marte|\bmars\b|ingenuity|mars sample return)/.test(text)) add(IMG.jezero, IMG.perseverance, IMG.mars);
+  if (/(jupiter|jupiteriano|grande mancha vermelha|\bjovian\b)/.test(text)) add(IMG.jupiter);
+  if (/\beuropa\b/.test(text)) add(IMG.europa, IMG.jupiter);
+  if (/(saturno|\bsaturn\b|cassini|aneis de saturno)/.test(text)) add(IMG.saturn, IMG.cassini);
+
+  if (/(\bsol\b|solar|sunspot|mancha solar|flare|erupcao solar|coronal|cme|tempestade geomagnetica)/.test(text)) {
+    add(IMG.solar, IMG.sunspot, IMG.aurora);
+  }
+
+  if (/(buraco negro|black hole|event horizon|sgr a\*|sgr a|m87|quasar|horizonte de eventos)/.test(text)) add(IMG.blackhole, IMG.m87jet);
+  if (/(estrela[s]? de neutrons|neutron star|kilonova|ligo|virgo|onda gravitacional|gravitational wave|\bgw\d+)/.test(text)) add(IMG.kilonova, IMG.neutronStar);
+  if (/(pulsar|magnetar)/.test(text)) add(IMG.neutronStar);
+  if (/supernova/.test(text)) add(IMG.supernova, IMG.crab);
+  if (/(cometa|\bcomet\b)/.test(text)) add(IMG.comet);
+
+  if (/(asteroide|asteroid|cinturao de kuiper|kuiper|planeta anao|minor planet|objeto transnetuniano)/.test(text)) add(IMG.asteroid, IMG.rubin);
+  if (/(vera rubin|\brubin\b|lsst)/.test(text)) add(IMG.rubin);
+
+  if (/(exoplaneta|exoplanet|trappist|k2-18|proxima centauri b|super-terra|super earth|sub-netuno|sub-neptune|zona habitavel|biossinal|biosignature|hycean)/.test(text)) {
+    if (/(oceano|ocean|agua liquida|mundo oceanico)/.test(text)) add(IMG.exoplanetOcean, IMG.exoplanetTransit);
+    else add(IMG.exoplanetTransit, IMG.exoplanetOcean);
+  }
+
+  if (/(nebulosa|nebula|carina|orion|helix|veil|omega|lagoon|trifid|eagle|crab nebula|butterfly nebula)/.test(text)) {
+    if (/helix/.test(text)) add(IMG.helix);
+    if (/orion/.test(text)) add(IMG.orion);
+    if (/carina/.test(text)) add(IMG.carina);
+    if (/crab/.test(text)) add(IMG.crab);
+    if (/veil/.test(text)) add(IMG.veil);
+    if (/lagoon/.test(text)) add(IMG.lagoon);
+    if (/trifid/.test(text)) add(IMG.triffid);
+    if (/omega/.test(text)) add(IMG.omega);
+    if (/butterfly/.test(text)) add(IMG.butterfly);
+    add(IMG.carina, IMG.orion, IMG.helix, IMG.veil, IMG.eagle);
+  }
+
+  if (/(galaxia|galaxy|andromeda|via lactea|milky way|halo galactico|aglomerado de galaxias|spiral galaxy|galaxias anas)/.test(text)) {
+    add(IMG.andromeda, IMG.triangulum, IMG.whirlpool, IMG.sombrero, IMG.ngc1300, IMG.milkyway);
+  }
+
+  if (/(cosmologia|universo primitivo|universo jovem|energia escura|materia escura|cmb|fundo cosmico|hubble tension|euclid|jwst|webb|deep field|campo profundo)/.test(text)) {
+    add(IMG.hubbledeep, IMG.andromeda, IMG.ngc1300, IMG.milkyway);
+  }
+
+  if (/(lhc|cern|higgs|quark|muon|muonico|particula|detector|cms|atlas|fisica de particulas)/.test(text)) add(IMG.particleTracks, IMG.cern);
+
+  if (/(clima|climate|aquecimento global|mudanca climatica|earth science|blue marble|artico|antartica|greenland|sea level|nivel do mar|geodynamo|geomagnet|magnetosfera da terra|campo magnetico terrestre|aurora boreal|aurora austral|terra observada do espaco|planeta terra)/.test(text)) {
+    if (/(campo magnetico|magnetosfera|geomagnet|aurora)/.test(text)) add(IMG.magneticField, IMG.aurora);
+    if (/(clima|aquecimento global|mudanca climatica|sea level|nivel do mar|artico|antartica)/.test(text)) add(IMG.climate);
+    add(IMG.earth);
+  }
+
+  switch (cat) {
+    case 'astronomia':
+      add(IMG.milkyway, IMG.andromeda, IMG.comet, IMG.orion);
+      break;
+    case 'cosmologia':
+      add(IMG.hubbledeep, IMG.andromeda, IMG.ngc1300);
+      break;
+    case 'astrofisica':
+      add(IMG.blackhole, IMG.neutronStar, IMG.supernova, IMG.m87jet);
+      break;
+    case 'exoplanetas':
+      add(IMG.exoplanetTransit, IMG.exoplanetOcean);
+      break;
+    case 'fisica':
+      add(IMG.particleTracks, IMG.cern, IMG.solar);
+      break;
+    case 'biologia':
+      add(IMG.europa, IMG.exoplanetOcean, IMG.carina);
+      break;
+    case 'quimica':
+      add(IMG.omega, IMG.orion, IMG.hubbledeep);
+      break;
+    case 'ciencias da terra':
+    case 'clima':
+      add(IMG.magneticField, IMG.climate, IMG.earth, IMG.aurora);
+      break;
+    default:
+      add(IMG.pillars, IMG.carina, IMG.andromeda);
+  }
+
+  return listaUnica(pool.length ? pool : [IMG.pillars, IMG.carina, IMG.andromeda]);
+}
+
+function getDynamicImage(article) {
+  const seed = `${article?.id || ''}|${article?.title || ''}|${article?.cat || ''}`;
+  return escolherComSeed(seed, getImageCandidates(article));
+}
+
+function getPrimaryImage(article) {
+  const real = String(article?.img || article?.image || '').trim();
+  if (real && !/^null$/i.test(real) && !/^undefined$/i.test(real)) return real;
+  return getDynamicImage(article);
+}
+
+function escaparAttr(valor = '') {
+  return String(valor)
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+function buildImgAttrs(article, loading = 'lazy') {
+  const primario = getPrimaryImage(article);
+  const fallbacks = encodeURIComponent(listaUnica([
+    ...getImageCandidates(article),
+    IMG.pillars,
+    IMG.carina,
+    IMG.andromeda
+  ]).filter(url => url && url !== primario).join('|'));
+  return `src="${primario}" alt="${escaparAttr(article?.title || 'Imagem do artigo')}" loading="${loading}" decoding="async" referrerpolicy="no-referrer" onerror="handleImgError(this, '${fallbacks}')"`
+}
+
+function handleImgError(img, encodedFallbacks = '') {
+  const lista = decodeURIComponent(encodedFallbacks || '').split('|').map(item => item.trim()).filter(Boolean);
+  const tentadas = (img.dataset.tried || '').split('|').filter(Boolean);
+  const atual = img.currentSrc || img.src || '';
+  if (atual && !tentadas.includes(atual)) tentadas.push(atual);
+  img.dataset.tried = tentadas.join('|');
+
+  const proxima = lista.find(url => url && !tentadas.includes(url));
+  if (proxima) {
+    img.src = proxima;
+    return;
+  }
+
+  if (!tentadas.includes(IMG.pillars)) {
+    img.dataset.tried = [...tentadas, IMG.pillars].join('|');
+    img.src = IMG.pillars;
+    return;
+  }
+
+  img.onerror = null;
+  img.remove();
+  if (img.parentElement) img.parentElement.classList.add('img-fallback');
+}
+
+function formatarDataCurta(valor = '') {
+  const texto = String(valor || '').trim();
+  if (!texto) return '';
+  const partes = texto.replace(',', '').split(/\s+/);
+  if (partes.length >= 3) {
+    const dia = partes[0];
+    const mesBruto = normalizarTexto(partes[1]).replace('.', '').slice(0, 3);
+    const ano = partes[2];
+    if (MESES_PT[mesBruto]) return `${dia} ${MESES_PT[mesBruto]} ${ano}`;
+  }
+  return texto;
+}
+
+function formatarLeitura(valor = '') {
+  const texto = String(valor || '').trim();
+  if (!texto) return '3 min de leitura';
+  if (/de leitura/i.test(texto)) return texto;
+  if (/^\d+\s*min$/i.test(texto)) return `${texto} de leitura`;
+  return texto;
+}
+
+
 function normalizeExternalPosts(posts){
   if (!Array.isArray(posts) || !posts.length) return [];
   return posts.map((a, i) => ({
@@ -1264,7 +1387,7 @@ function normalizeExternalPosts(posts){
     srcUrl: a.srcUrl || a.link || '#',
     featured: Boolean(a.featured),
     trending: Boolean(a.trending)
-  })).map(a => ({...a, img: getDynamicImage(a)}));
+  }));
 }
 
 const FALLBACK_DB = [
@@ -1631,7 +1754,6 @@ const FALLBACK_DB = [
 
 let DB = normalizeExternalPosts(window.postsData);
 if (!DB.length) DB = FALLBACK_DB;
-DB.forEach(a => a.img = getDynamicImage(a));
 
 // ============================================================
 // STATE
@@ -1684,6 +1806,12 @@ function filterCat(cat, btn) {
   renderMain();
 }
 
+function metaArtigo(a, incluirHora = true) {
+  const data = formatarDataCurta(a?.date || '');
+  const hora = String(a?.time || '').trim();
+  return incluirHora && hora ? `${data} · ${hora}` : data;
+}
+
 // ============================================================
 // HERO
 // ============================================================
@@ -1692,30 +1820,28 @@ function renderHero() {
   document.getElementById('heroSection').innerHTML = `
     <div class="hero">
       <div class="hero-lead" onclick="nav('article',${f[0].id})">
-        <img class="card-img" src="${f[0].img}" alt="${f[0].title}" loading="eager"
-          onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg/800px-Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg'">
+        <img class="card-img" ${buildImgAttrs(f[0], 'eager')}>
         <div class="card-overlay"></div>
         <div class="card-body">
           <div class="label ${f[0].catCls}">${f[0].cat}</div>
           <h2 class="card-title">${f[0].title}</h2>
           <p class="card-excerpt">${f[0].excerpt}</p>
           <div class="card-meta">
-            <span>${f[0].date} · ${f[0].time}</span>
-            <span>${f[0].read} de leitura</span>
+            <span>${metaArtigo(f[0])}</span>
+            <span>${formatarLeitura(f[0].read)}</span>
             <span style="color:var(--gold);font-size:11px;letter-spacing:.1em;">DESTAQUE EDITORIAL</span>
           </div>
         </div>
       </div>
       ${f.slice(1).map(a => `
         <div class="hero-sub" onclick="nav('article',${a.id})">
-          <img class="card-img" src="${a.img}" alt="${a.title}" loading="lazy"
-            onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg/800px-Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg'">
+          <img class="card-img" ${buildImgAttrs(a)}>
           <div class="card-overlay"></div>
           <div class="card-body">
             <div class="label ${a.catCls}">${a.cat}</div>
             <h3 class="card-title">${a.title}</h3>
             <p class="card-excerpt">${a.excerpt}</p>
-            <div class="card-meta"><span>${a.date}</span><span>${a.read}</span></div>
+            <div class="card-meta"><span>${formatarDataCurta(a.date)}</span><span>${formatarLeitura(a.read)}</span></div>
           </div>
         </div>
       `).join('')}
@@ -1732,14 +1858,13 @@ function filtered() {
 function ncHTML(a) {
   return `<div class="nc" onclick="nav('article',${a.id})">
     <div class="nc-img">
-      <img src="${a.img}" alt="${a.title}" loading="lazy"
-        onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg/800px-Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg'">
+      <img ${buildImgAttrs(a)}>
     </div>
     <div class="nc-body">
       <div class="label ${a.catCls}">${a.cat}</div>
       <h3 class="card-title">${a.title}</h3>
       <p class="card-excerpt">${a.excerpt}</p>
-      <div class="card-meta"><span>${a.date}</span><span>${a.read}</span></div>
+      <div class="card-meta"><span>${formatarDataCurta(a.date)}</span><span>${formatarLeitura(a.read)}</span></div>
     </div>
   </div>`;
 }
@@ -1778,16 +1903,15 @@ function renderArticle(id) {
       <span style="color:var(--txt-3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:300px;">${a.title.substring(0,60)}…</span>
     </div>
     <div class="art-hero">
-      <img src="${a.img}" alt="${a.title}" loading="eager"
-        onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg/800px-Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg'">
+      <img ${buildImgAttrs(a, 'eager')}>
       <div class="art-hero-overlay"></div>
       <div class="art-hero-content">
         <div class="label ${a.catCls}">${a.cat}</div>
         <h1 class="art-title">${a.title}</h1>
         <div class="art-meta">
           <span>Redação Cosmos Week</span>
-          <span>${a.date} · ${a.time}</span>
-          <span>${a.read} de leitura</span>
+          <span>${metaArtigo(a)}</span>
+          <span>${formatarLeitura(a.read)}</span>
           <span>Fonte: ${a.source}</span>
         </div>
       </div>
@@ -1807,11 +1931,11 @@ function renderArticle(id) {
         </div>
         <div class="share">
           <span class="share-lbl">Compartilhar:</span>
-          <button class="share-btn" onclick="shareArt('twitter','${encodeURIComponent(a.title)}')">Twitter / X</button>
+          <button class="share-btn" onclick="shareArt('x','${encodeURIComponent(a.title)}')">X</button>
           <button class="share-btn" onclick="shareArt('whatsapp','${encodeURIComponent(a.title)}')">WhatsApp</button>
           <button class="share-btn" onclick="copyURL()">Copiar link</button>
         </div>
-        <div class="sec-head" style="margin-top:48px;"><h2 class="sec-title">Leia Também</h2></div>
+        <div class="sec-head" style="margin-top:48px;"><h2 class="sec-title">Leia também</h2></div>
         <div class="news-grid">${related.map(ncHTML).join('')}</div>
       </div>
       <aside class="sidebar">
@@ -1825,7 +1949,7 @@ function renderArticle(id) {
           </div>
           <div class="nl-fine">Cancele quando quiser.</div>
         </div>
-        <div class="widget"><div class="whead"><div class="whead-title">Em Alta</div></div><div class="wbody trending" id="tw2"></div></div>
+        <div class="widget"><div class="whead"><div class="whead-title">Em alta</div></div><div class="wbody trending" id="tw2"></div></div>
         <div class="ad ad-rect"><!-- 300×250 --></div>
       </aside>
     </div>`;
@@ -1836,16 +1960,15 @@ function renderArticle(id) {
 // ARCHIVE
 // ============================================================
 function renderArchive() {
-  document.getElementById('archiveList').innerHTML = DB.map((a, i) => `
+  document.getElementById('archiveList').innerHTML = DB.map((a) => `
     <div class="ci" onclick="nav('article',${a.id})">
       <div class="ci-img">
-        <img src="${a.img}" alt="${a.title}" loading="lazy"
-          onerror="this.onerror=null;this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg/800px-Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg'">
+        <img ${buildImgAttrs(a)}>
       </div>
       <div class="ci-body">
         <div class="label ${a.catCls}" style="font-size:9px;">${a.cat}</div>
         <div class="ci-title">${a.title}</div>
-        <div class="ci-meta">${a.date} · ${a.read} de leitura · ${a.source}</div>
+        <div class="ci-meta">${formatarDataCurta(a.date)} · ${formatarLeitura(a.read)} · ${a.source}</div>
       </div>
     </div>`).join('');
 }
@@ -1873,7 +1996,7 @@ function renderTrending(id = 'trendWidget') {
       <div class="ti-num">${i+1}</div>
       <div>
         <div class="ti-title">${a.title}</div>
-        <div class="ti-cat">${a.cat} · ${a.read}</div>
+        <div class="ti-cat">${a.cat} · ${formatarLeitura(a.read)}</div>
       </div>
     </div>`).join('');
 }
@@ -2021,7 +2144,7 @@ function subscribe2() {
 function shareArt(pl, t) {
   const u = encodeURIComponent(location.href);
   const urls = {
-    twitter:`https://twitter.com/intent/tweet?text=${t}&url=${u}&via=CosmosWeek`,
+    x:`https://twitter.com/intent/tweet?text=${t}&url=${u}&via=CosmosWeek`,
     whatsapp:`https://wa.me/?text=${t}%20${u}`
   };
   window.open(urls[pl],'_blank','width=600,height=400');
@@ -2054,3 +2177,13 @@ window.addEventListener('scroll', () => {
 // INIT
 // ============================================================
 document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('pgHome').style.display = 'block';
+  renderHero();
+  renderMain();
+  renderCatWidget();
+  renderTrending();
+  setTimeout(() => toast('Bem-vindo ao Cosmos Week. Ciência em português, com rigor e sem firula.'), 1200);
+});
+</script>
+</body>
+</html>
