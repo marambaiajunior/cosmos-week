@@ -1,0 +1,2017 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Cosmos Week — Portal de referência em astronomia, astrofísica e cosmologia em português. Atualizado duas vezes ao dia com as descobertas mais relevantes do universo.">
+<meta name="keywords" content="astronomia, astrofísica, cosmologia, JWST, NASA, ESA, exoplanetas, buracos negros, ciência">
+<meta property="og:title" content="Cosmos Week — Ciência do Universo">
+<meta property="og:description" content="O maior portal de notícias científicas em português. Astronomia e cosmologia atualizados 2× ao dia.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg/1200px-Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg">
+<title>Cosmos Week — Ciência do Universo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+/* ============================================================
+   DESIGN TOKENS
+============================================================ */
+:root {
+  --void:      #14181f;
+  --deep:      #1a1f2b;
+  --surface:   #1f2535;
+  --card:      #242b3d;
+  --card-h:    #2a3248;
+  --border:    rgba(255,255,255,0.10);
+  --border-h:  rgba(255,255,255,0.20);
+  --txt-1:     #edf0f7;
+  --txt-2:     #9daabf;
+  --txt-3:     #5a6a85;
+  --blue:      #4f8ef7;
+  --blue-l:    #85b4fa;
+  --red:       #e05c5c;
+  --gold:      #d4a240;
+  --green:     #3da877;
+  --r: 6px;
+  --r-lg: 12px;
+  --ease: cubic-bezier(.4,0,.2,1);
+}
+
+/* ============================================================
+   RESET
+============================================================ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px}
+body{
+  font-family:'Source Sans 3',sans-serif;
+  background:var(--void);
+  color:var(--txt-1);
+  line-height:1.6;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+button{cursor:pointer;font-family:inherit;border:none}
+
+/* ============================================================
+   TYPOGRAPHY
+============================================================ */
+.serif { font-family:'Playfair Display',Georgia,serif; }
+.mono  { font-family:'DM Mono',monospace; }
+
+/* ============================================================
+   READING PROGRESS
+============================================================ */
+#rp {
+  position:fixed;top:0;left:0;height:2px;
+  background:var(--blue);
+  z-index:2000;width:0%;
+  transition:width .08s linear;
+}
+
+/* ============================================================
+   AD SLOTS — styled to look editorial
+============================================================ */
+.ad {
+  background:var(--surface);
+  border:1px dashed rgba(59,126,248,0.2);
+  border-radius:var(--r);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:4px;
+  color:var(--txt-3);
+  font-family:'DM Mono',monospace;
+  font-size:10px;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  position:relative;
+  overflow:hidden;
+}
+.ad::before{
+  content:'PUBLICIDADE';
+  position:absolute;top:8px;left:10px;
+  font-size:9px;letter-spacing:.15em;
+  color:var(--txt-3);opacity:.6;
+}
+.ad-leader{height:90px;width:100%;}
+.ad-rect{height:250px;}
+.ad-half{min-height:600px;width:100%;}
+.ad-in-article{height:280px;width:100%;margin:2.5rem 0;}
+.ad-anchor{
+  position:fixed;bottom:0;left:0;right:0;
+  height:60px;z-index:900;
+  background:var(--deep);
+  border-top:1px solid var(--border);
+  border-radius:0;
+}
+.ad-anchor .close-ad{
+  position:absolute;right:12px;top:50%;transform:translateY(-50%);
+  background:var(--card);border:1px solid var(--border);border-radius:4px;
+  color:var(--txt-2);padding:3px 10px;font-size:11px;
+}
+
+/* ============================================================
+   TOP AD BAR
+============================================================ */
+.top-ad-bar{
+  background:var(--deep);
+  border-bottom:1px solid var(--border);
+  padding:6px 20px;
+  text-align:center;
+}
+
+/* ============================================================
+   HEADER
+============================================================ */
+.site-header{
+  position:sticky;top:0;z-index:800;
+  background:rgba(20,24,31,.96);
+  backdrop-filter:blur(24px) saturate(1.4);
+  border-bottom:1px solid var(--border);
+}
+.header-row-1{
+  max-width:1360px;margin:0 auto;padding:0 24px;
+  display:flex;align-items:center;
+  justify-content:space-between;gap:24px;
+  height:64px;
+}
+.logo{
+  display:flex;flex-direction:column;cursor:pointer;flex-shrink:0;
+}
+.logo-name{
+  font-family:'Playfair Display',serif;
+  font-size:26px;font-weight:700;
+  letter-spacing:.04em;
+  color:var(--txt-1);
+  line-height:1;
+}
+.logo-name span{color:var(--blue);}
+.logo-sub{
+  font-family:'DM Mono',monospace;
+  font-size:9px;letter-spacing:.2em;
+  text-transform:uppercase;
+  color:var(--txt-3);margin-top:3px;
+}
+
+/* Nav */
+.main-nav{display:flex;align-items:center;gap:2px;}
+.nav-a{
+  padding:5px 13px;border-radius:var(--r);
+  font-size:13px;font-weight:600;letter-spacing:.02em;
+  color:#8fa3be;
+  transition:color .2s, background .2s;
+}
+.nav-a:hover,.nav-a.on{color:#edf0f7;background:rgba(255,255,255,0.08);}
+
+/* Search */
+.hdr-search{flex:1;max-width:300px;position:relative;}
+.hdr-search input{
+  width:100%;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:100px;
+  padding:7px 36px 7px 14px;
+  color:var(--txt-1);
+  font-size:13px;outline:none;
+  transition:border-color .2s, box-shadow .2s;
+}
+.hdr-search input:focus{
+  border-color:rgba(59,126,248,.5);
+  box-shadow:0 0 0 3px rgba(59,126,248,.1);
+}
+.hdr-search input::placeholder{color:var(--txt-3);}
+.hdr-search svg{
+  position:absolute;right:12px;top:50%;transform:translateY(-50%);
+  color:var(--txt-3);width:15px;height:15px;pointer-events:none;
+}
+
+/* Update button */
+.btn-update{
+  background:var(--blue);color:#fff;
+  border-radius:var(--r);padding:7px 18px;
+  font-size:12px;font-weight:600;letter-spacing:.06em;
+  white-space:nowrap;
+  transition:background .2s, transform .15s, box-shadow .2s;
+  display:flex;align-items:center;gap:6px;
+}
+.btn-update:hover{background:#2563eb;transform:translateY(-1px);box-shadow:0 4px 20px rgba(59,126,248,.35);}
+.btn-update svg{width:14px;height:14px;flex-shrink:0;}
+.btn-update.loading svg{animation:spin .8s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* Hamburger */
+.burger{display:none;flex-direction:column;gap:5px;background:none;padding:4px;border-radius:var(--r);}
+.burger span{display:block;width:22px;height:1.5px;background:var(--txt-2);border-radius:2px;transition:all .2s;}
+
+/* ============================================================
+   BREAKING / TICKER
+============================================================ */
+.ticker{
+  background:var(--deep);
+  border-bottom:1px solid var(--border);
+  display:flex;align-items:center;
+  overflow:hidden;position:relative;height:36px;
+}
+.ticker-badge{
+  flex-shrink:0;
+  background:var(--red);
+  color:#fff;
+  font-family:'DM Mono',monospace;
+  font-size:9px;letter-spacing:.18em;
+  text-transform:uppercase;
+  padding:0 14px;
+  height:100%;display:flex;align-items:center;white-space:nowrap;
+  z-index:2;
+}
+.ticker::after{
+  content:'';position:absolute;right:0;top:0;bottom:0;
+  width:80px;background:linear-gradient(-90deg,var(--deep),transparent);
+  z-index:1;pointer-events:none;
+}
+.ticker-track{
+  display:flex;white-space:nowrap;
+  animation:ticker 55s linear infinite;
+  padding-left:32px;
+}
+.ticker-track:hover{animation-play-state:paused;}
+@keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.ticker-item{
+  font-size:12px;color:#8fa3be;
+  margin-right:64px;
+  display:flex;align-items:center;gap:10px;
+}
+.ticker-item::before{
+  content:'';display:block;
+  width:4px;height:4px;border-radius:50%;
+  background:var(--blue);flex-shrink:0;
+}
+
+/* ============================================================
+   SECONDARY NAV (category bar)
+============================================================ */
+.cat-bar{
+  background:var(--deep);
+  border-bottom:1px solid var(--border);
+}
+.cat-bar-inner{
+  max-width:1360px;margin:0 auto;padding:0 24px;
+  display:flex;align-items:center;gap:0;
+  overflow-x:auto;scrollbar-width:none;
+}
+.cat-bar-inner::-webkit-scrollbar{display:none;}
+.cat-pill{
+  padding:10px 16px;
+  font-size:12px;font-weight:600;letter-spacing:.06em;
+  text-transform:uppercase;color:#7a8faa;
+  white-space:nowrap;
+  border-bottom:2px solid transparent;
+  transition:color .2s, border-color .2s;
+  background:none;
+}
+.cat-pill:hover{color:#c8d4e8;}
+.cat-pill.on{color:var(--blue-l);border-bottom-color:var(--blue);}
+
+/* ============================================================
+   PAGE CONTAINER
+============================================================ */
+.wrap{max-width:1360px;margin:0 auto;padding:0 24px 120px;}
+
+/* ============================================================
+   SECTION HEADS
+============================================================ */
+.sec-head{
+  display:flex;align-items:baseline;justify-content:space-between;
+  margin:44px 0 20px;
+  padding-bottom:12px;
+  border-bottom:1px solid var(--border);
+}
+.sec-head::after{display:none}
+.sec-title{
+  font-family:'Playfair Display',serif;
+  font-size:11px;font-weight:400;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--blue-l);
+}
+.sec-link{
+  font-family:'DM Mono',monospace;
+  font-size:10px;letter-spacing:.12em;text-transform:uppercase;
+  color:#7a8faa;
+  transition:color .2s;
+}
+.sec-link:hover{color:#9daabf;}
+
+/* ============================================================
+   CATEGORY LABELS
+============================================================ */
+.label{
+  display:inline-block;
+  font-family:'DM Mono',monospace;
+  font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;
+  font-weight:500;
+  padding:3px 8px;
+  border-radius:3px;
+  color:#fff;
+  background:var(--blue);
+  margin-bottom:10px;
+}
+.label.cosmologia{background:#5b3bb8;}
+.label.astrofisica{background:#2d7fa8;}
+.label.exoplanetas{background:#2d7fa8;}
+.label.fisica{background:#3d8c5e;}
+.label.biologia{background:#2e7d52;}
+.label.quimica{background:#8c5a2d;}
+.label.terra{background:#4a7a4a;}
+
+/* ============================================================
+   HERO — MAGAZINE LAYOUT
+============================================================ */
+.hero{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows:auto auto;
+  gap:1px;
+  background:var(--border);
+  border:1px solid var(--border);
+  border-radius:var(--r-lg);
+  overflow:hidden;
+  margin-top:28px;
+}
+.hero-lead{
+  grid-column:1/3;
+  grid-row:1/3;
+  position:relative;
+  min-height:520px;
+  cursor:pointer;
+  overflow:hidden;
+}
+.hero-sub{
+  position:relative;
+  min-height:258px;
+  cursor:pointer;
+  overflow:hidden;
+  background:var(--card);
+}
+.hero-lead:hover .card-img,
+.hero-sub:hover .card-img{transform:scale(1.04);}
+
+.card-img{
+  position:absolute;inset:0;
+  width:100%;height:100%;
+  object-fit:cover;
+  transition:transform .6s var(--ease);
+}
+.card-overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(20,24,31,.97) 0%,rgba(20,24,31,.55) 50%,rgba(20,24,31,.08) 100%);
+}
+.card-body{
+  position:absolute;bottom:0;left:0;right:0;
+  padding:28px 28px 24px;
+}
+.hero-lead .card-body{padding:40px 36px 32px;}
+
+.card-title{
+  font-family:'Playfair Display',serif;
+  font-weight:700;color:var(--txt-1);
+  line-height:1.15;
+  margin-bottom:10px;
+}
+.hero-lead .card-title{font-size:34px;}
+.hero-sub .card-title{font-size:21px;}
+
+.card-excerpt{
+  font-size:14px;color:rgba(237,240,247,.80);
+  line-height:1.55;
+  display:-webkit-box;
+  -webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+.hero-lead .card-excerpt{font-size:15.5px;-webkit-line-clamp:3;}
+
+.card-meta{
+  display:flex;align-items:center;gap:14px;
+  margin-top:12px;
+  font-family:'DM Mono',monospace;
+  font-size:10px;color:rgba(237,240,247,.62);
+  letter-spacing:.04em;
+}
+
+/* Image-less card placeholders (real dark space imagery via CSS) */
+.img-bg{
+  position:absolute;inset:0;
+  background-size:cover;background-position:center;
+  transition:transform .6s var(--ease);
+}
+.hero-lead:hover .img-bg,
+.hero-sub:hover .img-bg{transform:scale(1.04);}
+
+/* ============================================================
+   NEWS GRID
+============================================================ */
+.news-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:24px;
+}
+.news-grid-4{grid-template-columns:repeat(4,1fr);}
+
+.nc{/* news card */
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:var(--r-lg);
+  overflow:hidden;
+  cursor:pointer;
+  transition:transform .2s var(--ease), border-color .2s, box-shadow .2s;
+  display:flex;flex-direction:column;
+}
+.nc:hover{
+  transform:translateY(-3px);
+  border-color:var(--border-h);
+  box-shadow:0 8px 40px rgba(0,0,0,.5);
+}
+.nc-img{
+  height:196px;overflow:hidden;flex-shrink:0;
+  background:var(--surface);position:relative;
+}
+.nc-img img{
+  width:100%;height:100%;object-fit:cover;
+  transition:transform .5s var(--ease);
+}
+.nc:hover .nc-img img{transform:scale(1.06);}
+.nc-img .img-bg{transition:transform .5s var(--ease);}
+.nc:hover .nc-img .img-bg{transform:scale(1.06);}
+
+.nc-body{padding:18px 20px 20px;flex:1;display:flex;flex-direction:column;gap:8px;}
+.nc .card-title{
+  font-size:18px;font-weight:600;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;
+}
+.nc .card-excerpt{font-size:13px;color:#8fa3be;flex:1;}
+.nc .card-meta{margin-top:auto;}
+
+/* ============================================================
+   SIDEBAR LAYOUT
+============================================================ */
+.two-col{
+  display:grid;grid-template-columns:1fr 320px;gap:44px;
+  align-items:start;
+}
+.sidebar{
+  position:sticky;top:72px;
+  display:flex;flex-direction:column;gap:24px;
+}
+
+/* Sidebar widgets */
+.widget{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:var(--r-lg);
+  overflow:hidden;
+}
+.whead{
+  padding:14px 20px;
+  border-bottom:1px solid var(--border);
+  display:flex;align-items:center;gap:10px;
+}
+.whead-title{
+  font-family:'DM Mono',monospace;
+  font-size:10px;letter-spacing:.18em;text-transform:uppercase;
+  color:#9daabf;font-weight:500;
+}
+.wbody{padding:0;}
+
+/* Newsletter */
+.nl-widget{background:linear-gradient(145deg,var(--card),#0f1828);}
+.nl-text{
+  padding:20px;
+  font-size:13px;color:#8fa3be;line-height:1.6;
+  border-bottom:1px solid var(--border);
+}
+.nl-form{padding:16px 20px 20px;display:flex;flex-direction:column;gap:10px;}
+.nl-form input{
+  background:var(--surface);
+  border:1px solid var(--border);border-radius:var(--r);
+  padding:9px 13px;color:var(--txt-1);font-size:13px;outline:none;
+  transition:border-color .2s;
+}
+.nl-form input:focus{border-color:rgba(59,126,248,.5);}
+.nl-form input::placeholder{color:var(--txt-3);}
+.nl-btn{
+  background:var(--blue);color:#fff;
+  border-radius:var(--r);padding:10px;
+  font-size:13px;font-weight:600;letter-spacing:.04em;
+  transition:background .2s, transform .15s;
+}
+.nl-btn:hover{background:#2563eb;transform:translateY(-1px);}
+.nl-fine{font-size:10px;color:#6a80a0;padding:0 20px 16px;line-height:1.5;}
+
+/* Categories widget */
+.cat-widget-list{}
+.cwi{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:11px 20px;border-bottom:1px solid var(--border);
+  cursor:pointer;transition:background .15s;
+}
+.cwi:last-child{border-bottom:none;}
+.cwi:hover{background:rgba(255,255,255,.03);}
+.cwi-name{font-size:13px;color:#9daabf;transition:color .15s;}
+.cwi:hover .cwi-name{color:var(--txt-1);}
+.cwi-count{
+  font-family:'DM Mono',monospace;font-size:10px;
+  color:#8fa3be;background:var(--surface);
+  padding:2px 7px;border-radius:100px;
+}
+
+/* Trending widget */
+.trending{}
+.ti{
+  display:flex;align-items:flex-start;gap:14px;
+  padding:14px 20px;border-bottom:1px solid var(--border);
+  cursor:pointer;transition:background .15s;
+}
+.ti:last-child{border-bottom:none;}
+.ti:hover{background:rgba(255,255,255,.03);}
+.ti-num{
+  font-family:'Playfair Display',serif;
+  font-size:26px;font-weight:700;
+  color:var(--blue);opacity:.2;flex-shrink:0;
+  line-height:1;margin-top:1px;
+}
+.ti:hover .ti-num{opacity:.5;}
+.ti-title{font-size:13px;line-height:1.45;color:#9daabf;transition:color .15s;}
+.ti:hover .ti-title{color:var(--txt-1);}
+.ti-cat{font-family:'DM Mono',monospace;font-size:10px;color:#6a80a0;margin-top:4px;letter-spacing:.05em;}
+
+/* Affiliate widget */
+.aff-item{
+  display:flex;align-items:center;gap:12px;
+  padding:12px 20px;border-bottom:1px solid var(--border);
+  cursor:pointer;transition:background .15s;
+}
+.aff-item:last-child{border-bottom:none;}
+.aff-item:hover{background:rgba(255,255,255,.03);}
+.aff-thumb{
+  width:48px;height:48px;flex-shrink:0;
+  background:var(--surface);border-radius:var(--r);
+  overflow:hidden;
+}
+.aff-thumb img{width:100%;height:100%;object-fit:cover;}
+.aff-name{font-size:12px;color:#9daabf;line-height:1.4;}
+.aff-cta{font-family:'DM Mono',monospace;font-size:10px;color:var(--blue-l);margin-top:3px;letter-spacing:.05em;}
+
+/* ============================================================
+   COMPACT LIST
+============================================================ */
+.compact{}
+.ci{
+  display:flex;gap:16px;padding:16px 0;
+  border-bottom:1px solid var(--border);cursor:pointer;
+  transition:opacity .15s;align-items:flex-start;
+}
+.ci:first-child{padding-top:0;}
+.ci:last-child{border-bottom:none;}
+.ci:hover{opacity:.8;}
+.ci-img{
+  width:100px;height:70px;flex-shrink:0;border-radius:var(--r);
+  overflow:hidden;background:var(--surface);
+}
+.ci-img .img-bg,.ci-img img{width:100%;height:100%;object-fit:cover;border-radius:var(--r);}
+.ci-body{flex:1;}
+.ci-title{
+  font-family:'Playfair Display',serif;
+  font-size:15px;font-weight:600;line-height:1.3;
+  margin-bottom:6px;color:#c8d4e8;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+.ci-meta{font-family:'DM Mono',monospace;font-size:10px;color:#6a7d99;letter-spacing:.04em;}
+
+/* ============================================================
+   ARTICLE PAGE
+============================================================ */
+.art-hero{
+  height:500px;position:relative;border-radius:var(--r-lg);
+  overflow:hidden;margin-bottom:0;
+}
+.art-hero .img-bg,.art-hero img{
+  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+}
+.art-hero-overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(20,24,31,1) 0%,rgba(20,24,31,.55) 50%,rgba(20,24,31,.12) 100%);
+}
+.art-hero-content{
+  position:absolute;bottom:0;left:0;right:0;padding:48px 48px 40px;
+  max-width:900px;
+}
+.art-title{
+  font-family:'Playfair Display',serif;
+  font-size:44px;font-weight:700;line-height:1.1;
+  margin:14px 0 18px;
+}
+.art-meta{
+  display:flex;align-items:center;gap:20px;flex-wrap:wrap;
+  font-family:'DM Mono',monospace;font-size:11px;color:rgba(157,170,191,.85);
+  letter-spacing:.04em;
+}
+.art-body{
+  font-size:17px;line-height:1.82;color:#dde5f0;
+  max-width:720px;
+}
+.art-body p{margin-bottom:22px;}
+.art-body h2{
+  font-family:'Playfair Display',serif;
+  font-size:26px;font-weight:600;
+  color:#edf0f7;
+  margin:40px 0 16px;
+  padding-top:8px;
+  border-top:1px solid var(--border);
+}
+.art-body strong{color:#fff;font-weight:600;}
+.art-body blockquote{
+  border-left:2px solid var(--blue);
+  padding:16px 0 16px 24px;
+  margin:28px 0;
+  font-size:16px;
+  font-style:italic;
+  color:#a0b0cc;
+  line-height:1.7;
+  background:rgba(79,142,247,0.06);
+  border-radius:0 var(--r) var(--r) 0;
+}
+.art-source{
+  display:inline-flex;align-items:center;gap:8px;
+  margin-top:24px;padding:11px 18px;
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--r);font-size:13px;color:var(--txt-2);
+  transition:border-color .2s,color .2s;
+}
+.art-source:hover{border-color:rgba(59,126,248,.4);color:var(--blue-l);}
+
+/* Share */
+.share{
+  display:flex;align-items:center;gap:10px;
+  margin:28px 0;padding:18px 20px;
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--r-lg);flex-wrap:wrap;
+}
+.share-lbl{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:#7a8faa;}
+.share-btn{
+  padding:7px 16px;border-radius:var(--r);font-size:12px;font-weight:600;
+  border:1px solid var(--border);color:var(--txt-2);background:transparent;
+  transition:all .15s;letter-spacing:.03em;
+}
+.share-btn:hover{background:rgba(255,255,255,.05);border-color:var(--border-h);color:var(--txt-1);}
+
+/* Breadcrumb */
+.bc{
+  font-family:'DM Mono',monospace;font-size:11px;
+  letter-spacing:.06em;text-transform:uppercase;
+  color:var(--txt-3);margin:28px 0 20px;
+  display:flex;align-items:center;gap:8px;
+}
+.bc a{color:#7a8faa;transition:color .15s;}
+.bc a:hover{color:#9daabf;}
+.bc span{opacity:.55;}
+
+/* ============================================================
+   LOAD MORE
+============================================================ */
+.btn-load{
+  background:transparent;border:1px solid var(--border);
+  color:var(--txt-2);border-radius:var(--r);
+  padding:11px 32px;font-size:13px;font-weight:600;letter-spacing:.06em;
+  text-transform:uppercase;
+  transition:all .2s;display:block;margin:32px auto 0;
+}
+.btn-load:hover{background:rgba(255,255,255,.05);border-color:var(--border-h);color:var(--txt-1);}
+
+/* ============================================================
+   TOAST
+============================================================ */
+.toast{
+  position:fixed;bottom:80px;right:24px;
+  background:var(--card);border:1px solid rgba(59,126,248,.35);
+  border-radius:var(--r);padding:12px 20px;
+  font-size:13px;color:var(--txt-1);
+  box-shadow:0 8px 32px rgba(0,0,0,.6);
+  z-index:950;transform:translateX(130%);
+  transition:transform .3s var(--ease);
+  display:flex;align-items:center;gap:10px;
+}
+.toast.show{transform:translateX(0);}
+
+/* ============================================================
+   MOBILE NAV OVERLAY
+============================================================ */
+.overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:700;}
+.overlay.on{display:block;}
+.mob-nav{
+  display:none;position:fixed;top:0;left:0;width:280px;height:100%;
+  background:var(--deep);border-right:1px solid var(--border);
+  z-index:750;padding:80px 20px 24px;
+  flex-direction:column;gap:4px;
+  transform:translateX(-100%);transition:transform .3s var(--ease);
+}
+.mob-nav.on{transform:translateX(0);}
+.mob-nav .nav-a{display:block;padding:12px 16px;font-size:15px;}
+
+/* ============================================================
+   FOOTER
+============================================================ */
+.site-footer{
+  background:var(--deep);
+  border-top:1px solid var(--border);
+  padding:56px 0 28px;
+  margin-top:80px;
+}
+.foot-inner{max-width:1360px;margin:0 auto;padding:0 24px;}
+.foot-grid{
+  display:grid;grid-template-columns:2.2fr 1fr 1fr 1fr;
+  gap:48px;margin-bottom:48px;
+}
+.foot-brand-name{
+  font-family:'Playfair Display',serif;
+  font-size:28px;font-weight:700;color:var(--txt-1);
+  margin-bottom:14px;
+}
+.foot-brand-name span{color:var(--blue);}
+.foot-desc{font-size:14px;color:#7a8faa;line-height:1.65;max-width:280px;}
+.foot-col-title{
+  font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.18em;
+  text-transform:uppercase;color:#7a8faa;margin-bottom:16px;
+}
+.foot-links{display:flex;flex-direction:column;gap:10px;}
+.foot-links a{font-size:13px;color:#7a8faa;transition:color .15s;}
+.foot-links a:hover{color:var(--txt-1);}
+.foot-social{display:flex;gap:10px;margin-top:20px;}
+.soc{
+  width:34px;height:34px;border:1px solid var(--border);
+  border-radius:50%;display:flex;align-items:center;justify-content:center;
+  font-size:12px;color:#7a8faa;transition:all .15s;
+}
+.soc:hover{border-color:var(--border-h);color:var(--txt-1);}
+.foot-bottom{
+  border-top:1px solid var(--border);padding-top:20px;
+  display:flex;align-items:center;justify-content:space-between;
+  font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.06em;
+  color:#6a80a0;flex-wrap:wrap;gap:12px;
+}
+.foot-bottom a{color:rgba(79,142,247,.75);}
+
+/* ============================================================
+   MEDIA QUERIES
+============================================================ */
+@media(max-width:1100px){
+  .hero{grid-template-columns:1fr 1fr;}
+  .hero-lead{grid-column:1/3;grid-row:1;min-height:400px;}
+  .news-grid-4{grid-template-columns:repeat(3,1fr);}
+  .foot-grid{grid-template-columns:1fr 1fr;gap:32px;}
+}
+@media(max-width:900px){
+  .two-col{grid-template-columns:1fr;}
+  .sidebar{position:static;}
+  .ad-half{min-height:90px;}
+}
+@media(max-width:768px){
+  .main-nav,.hdr-search{display:none;}
+  .burger{display:flex;}
+  .mob-nav{display:flex;}
+  .hero{grid-template-columns:1fr;}
+  .hero-lead{grid-column:1;min-height:340px;}
+  .hero-sub{min-height:220px;}
+  .hero-lead .card-title{font-size:26px;}
+  .news-grid,.news-grid-4{grid-template-columns:1fr 1fr;}
+  .art-title{font-size:30px;}
+  .art-hero-content{padding:24px 24px 28px;}
+  .foot-grid{grid-template-columns:1fr;}
+  .foot-bottom{flex-direction:column;text-align:center;}
+}
+@media(max-width:520px){
+  .wrap{padding:0 16px 120px;}
+  .news-grid,.news-grid-4{grid-template-columns:1fr;}
+  .art-hero{height:320px;}
+  .art-title{font-size:24px;}
+  .cat-bar-inner{padding:0 16px;}
+  .share{gap:8px;}
+}
+</style>
+</head>
+<body>
+
+<div id="rp"></div>
+
+<!-- Anchor Ad -->
+<div class="ad ad-anchor" id="anchorAd">
+  <span>Google AdSense — Anchor 728×60 — Adicione o snippet aqui</span>
+  <button class="close-ad" onclick="document.getElementById('anchorAd').style.display='none'">fechar</button>
+</div>
+
+<!-- Mobile overlay -->
+<div class="overlay" id="overlay" onclick="closeMob()"></div>
+<nav class="mob-nav" id="mobNav">
+  <a class="nav-a" href="#" onclick="nav('home');return false;">Início</a>
+  <a class="nav-a" href="#" onclick="filterCat('Astronomia');return false;">Astronomia</a>
+  <a class="nav-a" href="#" onclick="filterCat('Cosmologia');return false;">Cosmologia</a>
+  <a class="nav-a" href="#" onclick="filterCat('Astrofísica');return false;">Astrofísica</a>
+  <a class="nav-a" href="#" onclick="filterCat('Exoplanetas');return false;">Exoplanetas</a>
+  <a class="nav-a" href="#" onclick="filterCat('Física');return false;">Física</a>
+  <a class="nav-a" href="#" onclick="filterCat('Biologia');return false;">Biologia</a>
+  <a class="nav-a" href="#" onclick="nav('archive');return false;">Arquivo</a>
+  <a class="nav-a" href="#" onclick="nav('about');return false;">Sobre</a>
+</nav>
+
+<!-- TOP AD -->
+<div class="top-ad-bar">
+  <div class="ad ad-leader" style="max-width:728px;margin:0 auto;">
+    <!-- AdSense Leaderboard 728×90: cole aqui o script gerado pelo AdSense -->
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="header-row-1">
+    <div class="logo" onclick="nav('home')">
+      <div class="logo-name">Cosmos<span>Week</span></div>
+      <div class="logo-sub">Ciência do Universo · Atualizado 2× ao dia</div>
+    </div>
+    <nav class="main-nav">
+      <a class="nav-a on" href="#" onclick="nav('home');return false;">Início</a>
+      <a class="nav-a" href="#" onclick="filterCat('Astronomia');return false;">Astronomia</a>
+      <a class="nav-a" href="#" onclick="filterCat('Cosmologia');return false;">Cosmologia</a>
+      <a class="nav-a" href="#" onclick="filterCat('Exoplanetas');return false;">Exoplanetas</a>
+      <a class="nav-a" href="#" onclick="filterCat('Física');return false;">Física</a>
+      <a class="nav-a" href="#" onclick="nav('archive');return false;">Arquivo</a>
+      <a class="nav-a" href="#" onclick="nav('about');return false;">Sobre</a>
+    </nav>
+    <div class="hdr-search">
+      <input type="text" id="searchInput" placeholder="Buscar artigos..." oninput="doSearch(this.value)">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    </div>
+    <button class="btn-update" id="btnUpdate" onclick="triggerUpdate()">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+      Atualizar
+    </button>
+    <button class="burger" id="burger" onclick="toggleMob()">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="ticker-badge">Últimas</div>
+  <div class="ticker-track" id="tickerTrack">
+    <span class="ticker-item">JWST confirma atmosfera com CO₂ e possível DMS em exoplaneta K2-18b a 120 anos-luz</span>
+    <span class="ticker-item">Tensão de Hubble atinge 5,2σ com novo dado do JWST — cosmologia padrão sob pressão</span>
+    <span class="ticker-item">Observatório Vera Rubin descobre planeta anão maior que Plutão no Cinturão de Kuiper</span>
+    <span class="ticker-item">LHC detecta excesso de 3,8σ no canal múon+energia faltante — possível matéria escura</span>
+    <span class="ticker-item">Euclid aponta energia escura dinâmica: w ≠ −1 em análise de 15 milhões de galáxias</span>
+    <span class="ticker-item">Fusão de estrelas de nêutrons GW260315 confirma síntese de ouro e lantânio em kilonova</span>
+    <span class="ticker-item">JWST confirma atmosfera com CO₂ e possível DMS em exoplaneta K2-18b a 120 anos-luz</span>
+    <span class="ticker-item">Tensão de Hubble atinge 5,2σ com novo dado do JWST — cosmologia padrão sob pressão</span>
+    <span class="ticker-item">Observatório Vera Rubin descobre planeta anão maior que Plutão no Cinturão de Kuiper</span>
+    <span class="ticker-item">LHC detecta excesso de 3,8σ no canal múon+energia faltante — possível matéria escura</span>
+    <span class="ticker-item">Euclid aponta energia escura dinâmica: w ≠ −1 em análise de 15 milhões de galáxias</span>
+    <span class="ticker-item">Fusão de estrelas de nêutrons GW260315 confirma síntese de ouro e lantânio em kilonova</span>
+  </div>
+</div>
+
+<!-- CATEGORY BAR -->
+<div class="cat-bar">
+  <div class="cat-bar-inner" id="catBar">
+    <button class="cat-pill on" onclick="filterCat('all',this)">Todas as categorias</button>
+    <button class="cat-pill" onclick="filterCat('Astronomia',this)">Astronomia</button>
+    <button class="cat-pill" onclick="filterCat('Cosmologia',this)">Cosmologia</button>
+    <button class="cat-pill" onclick="filterCat('Astrofísica',this)">Astrofísica</button>
+    <button class="cat-pill" onclick="filterCat('Exoplanetas',this)">Exoplanetas</button>
+    <button class="cat-pill" onclick="filterCat('Física',this)">Física</button>
+    <button class="cat-pill" onclick="filterCat('Biologia',this)">Biologia</button>
+    <button class="cat-pill" onclick="filterCat('Química',this)">Química</button>
+    <button class="cat-pill" onclick="filterCat('Ciências da Terra',this)">Ciências da Terra</button>
+  </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="wrap">
+
+  <!-- HOME -->
+  <div id="pgHome">
+
+    <!-- HERO -->
+    <section id="heroSection"></section>
+
+    <!-- After-hero ad -->
+    <div class="ad" style="height:100px;margin:2px 0 32px;">
+      <!-- AdSense In-Feed Native Ad — cole o script aqui -->
+    </div>
+
+    <!-- Main + Sidebar -->
+    <div class="two-col">
+      <div>
+        <div class="sec-head">
+          <h2 class="sec-title">Últimas Notícias</h2>
+          <a class="sec-link" href="#" onclick="nav('archive');return false;">Ver arquivo completo</a>
+        </div>
+        <div class="news-grid" id="gridMain"></div>
+        <div class="ad ad-in-article">
+          <!-- AdSense In-Article / Ezoic — Rectangle 300×250 ou 728×90 — cole aqui -->
+        </div>
+        <div class="news-grid" id="gridMore"></div>
+        <button class="btn-load" id="btnLoad" onclick="loadMore()">Carregar mais artigos</button>
+      </div>
+
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+
+        <div class="ad ad-half">
+          <!-- AdSense Half Page 300×600 — posição de máximo RPM — cole aqui -->
+        </div>
+
+        <!-- Newsletter -->
+        <div class="widget nl-widget">
+          <div class="whead"><div class="whead-title">Newsletter Cosmos</div></div>
+          <div class="nl-text">Receba as principais descobertas do universo direto no seu e-mail. Duas vezes ao dia, sem spam.</div>
+          <div class="nl-form">
+            <input type="text" placeholder="Nome" id="nlName">
+            <input type="email" placeholder="E-mail" id="nlEmail">
+            <button class="nl-btn" onclick="subscribe()">Assinar gratuitamente</button>
+          </div>
+          <div class="nl-fine">Ao assinar, você concorda com a política de privacidade. Cancele quando quiser.</div>
+        </div>
+
+        <!-- Categories -->
+        <div class="widget">
+          <div class="whead"><div class="whead-title">Categorias</div></div>
+          <div class="wbody"><div class="cat-widget-list" id="catWidget"></div></div>
+        </div>
+
+        <!-- Trending -->
+        <div class="widget">
+          <div class="whead"><div class="whead-title">Em Alta</div></div>
+          <div class="wbody trending" id="trendWidget"></div>
+        </div>
+
+        <!-- Rectangle ad -->
+        <div class="ad ad-rect">
+          <!-- AdSense Medium Rectangle 300×250 — cole aqui -->
+        </div>
+
+        <!-- Affiliates -->
+        <div class="widget">
+          <div class="whead"><div class="whead-title">Recomendados</div></div>
+          <div class="wbody">
+            <a class="aff-item" href="#" target="_blank">
+              <div class="aff-thumb" style="background:linear-gradient(135deg,#1a2a4a,#0a1830)"></div>
+              <div><div class="aff-name">Celestron NexStar 8SE — Telescópio</div><div class="aff-cta">Ver na Amazon</div></div>
+            </a>
+            <a class="aff-item" href="#" target="_blank">
+              <div class="aff-thumb" style="background:linear-gradient(135deg,#2a1a2a,#1a0a18)"></div>
+              <div><div class="aff-name">Cosmos — Carl Sagan (edição PT)</div><div class="aff-cta">Ver na Amazon</div></div>
+            </a>
+            <a class="aff-item" href="#" target="_blank">
+              <div class="aff-thumb" style="background:linear-gradient(135deg,#0a2a1a,#051510)"></div>
+              <div><div class="aff-name">Breve História do Tempo — Hawking</div><div class="aff-cta">Ver na Amazon</div></div>
+            </a>
+          </div>
+        </div>
+
+      </aside>
+    </div>
+  </div>
+
+  <!-- ARTICLE -->
+  <div id="pgArticle" style="display:none;"></div>
+
+  <!-- ARCHIVE -->
+  <div id="pgArchive" style="display:none;">
+    <div class="sec-head" style="margin-top:32px;">
+      <h2 class="sec-title">Arquivo Completo</h2>
+    </div>
+    <div class="compact" id="archiveList"></div>
+  </div>
+
+  <!-- ABOUT -->
+  <div id="pgAbout" style="display:none;max-width:720px;padding:48px 0 80px;">
+    <div class="sec-head" style="margin-top:32px;"><h2 class="sec-title">Sobre o Cosmos Week</h2></div>
+    <h1 style="font-family:'Playfair Display',serif;font-size:44px;font-weight:700;margin-bottom:28px;line-height:1.1;">A divulgação científica que o Brasil merece</h1>
+    <p style="font-size:17px;line-height:1.8;color:var(--txt-2);margin-bottom:20px;">O <strong style="color:var(--txt-1)">Cosmos Week</strong> é o maior portal de divulgação científica em língua portuguesa, especializado em Astronomia, Astrofísica e Cosmologia. Nossa missão é traduzir e contextualizar as descobertas mais relevantes do universo para o público brasileiro, com rigor científico e linguagem inteligível.</p>
+    <p style="font-size:17px;line-height:1.8;color:var(--txt-2);margin-bottom:20px;">Atualizamos o portal <strong style="color:var(--txt-1)">duas vezes ao dia</strong> — às 7h e às 19h — com notícias curadas das principais fontes internacionais: NASA, ESA, arXiv, Nature, Phys.org, Universe Today e Space.com.</p>
+    <p style="font-size:17px;line-height:1.8;color:var(--txt-2);">Contato: <a href="mailto:redacao@cosmosweek.com.br" style="color:var(--blue-l)">redacao@cosmosweek.com.br</a></p>
+  </div>
+
+  <!-- SEARCH RESULTS -->
+  <div id="pgSearch" style="display:none;">
+    <div class="sec-head" style="margin-top:32px;">
+      <h2 class="sec-title">Resultados da busca</h2>
+    </div>
+    <p id="searchInfo" style="font-size:14px;color:var(--txt-3);font-family:'DM Mono',monospace;letter-spacing:.04em;margin-bottom:28px;"></p>
+    <div class="news-grid" id="searchGrid"></div>
+  </div>
+
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast">
+  <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="var(--blue-l)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+  <span id="toastMsg">Atualizado.</span>
+</div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="foot-inner">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand-name">Cosmos<span>Week</span></div>
+        <p class="foot-desc">O portal de referência em divulgação científica em português. Astronomia, Astrofísica e Cosmologia atualizados duas vezes ao dia com rigor científico.</p>
+        <div class="foot-social">
+          <a class="soc" href="#" title="Twitter/X">𝕏</a>
+          <a class="soc" href="#" title="Instagram">In</a>
+          <a class="soc" href="#" title="YouTube">Yt</a>
+          <a class="soc" href="#" title="Telegram">Tg</a>
+        </div>
+      </div>
+      <div>
+        <div class="foot-col-title">Editorias</div>
+        <div class="foot-links">
+          <a href="#" onclick="filterCat('Astronomia');return false;">Astronomia</a>
+          <a href="#" onclick="filterCat('Cosmologia');return false;">Cosmologia</a>
+          <a href="#" onclick="filterCat('Astrofísica');return false;">Astrofísica</a>
+          <a href="#" onclick="filterCat('Exoplanetas');return false;">Exoplanetas</a>
+          <a href="#" onclick="filterCat('Física');return false;">Física</a>
+          <a href="#" onclick="filterCat('Biologia');return false;">Biologia</a>
+        </div>
+      </div>
+      <div>
+        <div class="foot-col-title">Site</div>
+        <div class="foot-links">
+          <a href="#" onclick="nav('home');return false;">Início</a>
+          <a href="#" onclick="nav('archive');return false;">Arquivo</a>
+          <a href="#" onclick="nav('about');return false;">Sobre</a>
+          <a href="#">Newsletter</a>
+          <a href="#">Contato</a>
+          <a href="#">Anuncie</a>
+        </div>
+      </div>
+      <div>
+        <div class="foot-col-title">Fontes</div>
+        <div class="foot-links">
+          <a href="https://nasa.gov" target="_blank">NASA</a>
+          <a href="https://esa.int" target="_blank">ESA / Hubble</a>
+          <a href="https://arxiv.org" target="_blank">arXiv</a>
+          <a href="https://phys.org" target="_blank">Phys.org</a>
+          <a href="https://nature.com" target="_blank">Nature</a>
+          <a href="https://universetoday.com" target="_blank">Universe Today</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Cosmos Week — Todos os direitos reservados</span>
+      <span>Feito para a divulgação científica em língua portuguesa</span>
+      <span><a href="#">Privacidade</a> · <a href="#">Termos</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="posts.js"></script>
+
+<!-- ============================================================
+     DATA + LOGIC
+============================================================ -->
+<script>
+// ============================================================
+// REAL SPACE IMAGES — Wikimedia Commons (stable, public domain)
+// ============================================================
+const IMG = {
+  pillars: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg/1280px-Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg',
+  andromeda: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg/1280px-Andromeda_Galaxy_%28with_h-alpha%29.jpg',
+  triangulum: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/M33_-_Triangulum_Galaxy.jpg/1280px-M33_-_Triangulum_Galaxy.jpg',
+  whirlpool: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Messier51_sRGB.jpg/1280px-Messier51_sRGB.jpg',
+  sombrero: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/M104_ngc4594_sombrero_galaxy_hi-res.jpg/1280px-M104_ngc4594_sombrero_galaxy_hi-res.jpg',
+  ngc1300: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NGC_1300_Hubble_2005.jpg/1280px-NGC_1300_Hubble_2005.jpg',
+  hubbledeep: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hubble_ultra_deep_field.jpg/1280px-Hubble_ultra_deep_field.jpg',
+  milkyway: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Milky_Way%2C_above_Mauna_Kea_-_by_Luc_Viatour.jpg/1280px-Milky_Way%2C_above_Mauna_Kea_-_by_Luc_Viatour.jpg',
+  carina: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Carina_Nebula_by_Harel_Boren_%28151851961%2C_modified%29.jpg/1280px-Carina_Nebula_by_Harel_Boren_%28151851961%2C_modified%29.jpg',
+  orion: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg/1280px-Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg',
+  crab: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Crab_Nebula.jpg/1280px-Crab_Nebula.jpg',
+  helix: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/NGC7293_%282004%29.jpg/1280px-NGC7293_%282004%29.jpg',
+  veil: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Veil_Nebula_-_NGC_6960_-_Caldwell_34_HST.jpg/1280px-Veil_Nebula_-_NGC_6960_-_Caldwell_34_HST.jpg',
+  eagle: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg/800px-Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg',
+  lagoon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hubble_Sees_the_Magic_of_Starlight_in_Lagoon_Nebula.jpg/1280px-Hubble_Sees_the_Magic_of_Starlight_in_Lagoon_Nebula.jpg',
+  triffid: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/VST_images_the_Trifid_Nebula.jpg/1280px-VST_images_the_Trifid_Nebula.jpg',
+  omega: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/A_Hubble_Image_of_the_Omega_Nebula.jpg/1280px-A_Hubble_Image_of_the_Omega_Nebula.jpg',
+  butterfly: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/NGC_6302_%28captured_by_the_Hubble_Space_Telescope%29.jpg/1280px-NGC_6302_%28captured_by_the_Hubble_Space_Telescope%29.jpg',
+  solar: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg/1280px-The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg',
+  sunspot: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Sunspots_2400.jpg/1280px-Sunspots_2400.jpg',
+  aurora: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Aurora_Borealis_over_Lake_Ladoga.jpg/1280px-Aurora_Borealis_over_Lake_Ladoga.jpg',
+  moon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/1280px-FullMoon2010.jpg',
+  lunarSouthPole: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/PIA12233-LROC-ShackletonCrater-SouthPoleMoon.jpg/1280px-PIA12233-LROC-ShackletonCrater-SouthPoleMoon.jpg',
+  mars: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/1280px-OSIRIS_Mars_true_color.jpg',
+  perseverance: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/PIA23764-Mars2020Rover-ArtistConcept-20190723.jpg/1280px-PIA23764-Mars2020Rover-ArtistConcept-20190723.jpg',
+  jezero: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Jezero_Crater_delta_colored_mosaic.jpg/1280px-Jezero_Crater_delta_colored_mosaic.jpg',
+  jupiter: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/1280px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg',
+  europa: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Europa-moon-625x443.jpg/1280px-Europa-moon-625x443.jpg',
+  saturn: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/1280px-Saturn_during_Equinox.jpg',
+  cassini: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Cassini_Spacecraft_Model.png/1280px-Cassini_Spacecraft_Model.png',
+  exoplanetTransit: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Transiting_Exoplanet_Artist%27s_Impression.jpg/1280px-Transiting_Exoplanet_Artist%27s_Impression.jpg',
+  exoplanetOcean: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Artist%E2%80%99s_impression_of_an_exoplanet.jpg/1280px-Artist%E2%80%99s_impression_of_an_exoplanet.jpg',
+  blackhole: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1280px-Black_hole_-_Messier_87_crop_max_res.jpg',
+  m87jet: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/M87_jet.jpg/1280px-M87_jet.jpg',
+  neutronStar: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Neutron_Star.jpg/1280px-Neutron_Star.jpg',
+  supernova: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/SN1994D.jpg/1280px-SN1994D.jpg',
+  kilonova: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Neutron_Star_Merger_Illustration.jpg/1280px-Neutron_Star_Merger_Illustration.jpg',
+  comet: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Comet_Hale-Bopp_1995O1.jpg/1280px-Comet_Hale-Bopp_1995O1.jpg',
+  asteroid: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Ida_and_Dactyl.jpg/1280px-Ida_and_Dactyl.jpg',
+  rubin: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/LSST_Rendering.jpg/1280px-LSST_Rendering.jpg',
+  cern: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/LHC.svg/1280px-LHC.svg.png',
+  particleTracks: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/CMS_Higgs-event.jpg/1280px-CMS_Higgs-event.jpg',
+  earth: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/The_Blue_Marble_%28remastered%29.jpg/1280px-The_Blue_Marble_%28remastered%29.jpg',
+  magneticField: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Magnetosphere_rendition.jpg/1280px-Magnetosphere_rendition.jpg',
+  climate: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Global_Temperature_Anomaly.svg/1280px-Global_Temperature_Anomaly.svg.png'
+};
+
+function pick(...items){
+  for (const item of items) if (item) return item;
+  return IMG.pillars;
+}
+
+function getDynamicImage(article){
+  if (article && article.img) return article.img;
+  const text = ((article?.title || '') + ' ' + (article?.sub || '') + ' ' + (article?.excerpt || '')).toLowerCase();
+  const cat = (article?.cat || '').toLowerCase();
+
+  if (/shackleton|polo sul lunar|artemis|lua|lunar|moon/.test(text)) return pick(IMG.lunarSouthPole, IMG.moon);
+  if (/perseverance|jezero|marte|mars|mars sample return/.test(text)) return pick(IMG.jezero, IMG.perseverance, IMG.mars);
+  if (/j[úu]piter|jupiter/.test(text)) return IMG.jupiter;
+  if (/europa/.test(text)) return IMG.europa;
+  if (/saturn|cassini/.test(text)) return pick(IMG.saturn, IMG.cassini);
+  if (/sol|solar|sunspot|flare|tempestade solar|coronal/.test(text)) return pick(IMG.solar, IMG.sunspot, IMG.aurora);
+  if (/buraco negro|black hole|m87|sgr a|event horizon/.test(text)) return pick(IMG.blackhole, IMG.m87jet);
+  if (/estrela[s]? de n[eê]utrons|neutron star|kilonova|ligo|virgo|gw/.test(text)) return pick(IMG.kilonova, IMG.neutronStar);
+  if (/pulsar|magnetar/.test(text)) return IMG.neutronStar;
+  if (/supernova/.test(text)) return IMG.supernova;
+  if (/cometa|comet/.test(text)) return IMG.comet;
+  if (/asteroide|asteroid|cintur[aã]o de kuiper|planeta an[aã]o/.test(text)) return pick(IMG.asteroid, IMG.rubin);
+  if (/vera rubin|rubin|lsst/.test(text)) return IMG.rubin;
+  if (/gal[aá]xia|galaxy|andr[oô]meda|via l[aá]ctea|milky way|halo gal[aá]ctico/.test(text)) {
+    if (/m87/.test(text)) return pick(IMG.blackhole, IMG.m87jet);
+    return pick(IMG.andromeda, IMG.triangulum, IMG.whirlpool, IMG.sombrero, IMG.ngc1300, IMG.milkyway);
+  }
+  if (/nebulosa|nebula|carina|orion|helix|veil|omega|lagoon|trifid|eagle|crab/.test(text)) {
+    if (/helix/.test(text)) return IMG.helix;
+    if (/orion/.test(text)) return IMG.orion;
+    if (/carina/.test(text)) return IMG.carina;
+    if (/crab/.test(text)) return IMG.crab;
+    if (/veil/.test(text)) return IMG.veil;
+    if (/lagoon/.test(text)) return IMG.lagoon;
+    if (/trifid/.test(text)) return IMG.triffid;
+    if (/omega/.test(text)) return IMG.omega;
+    if (/butterfly/.test(text)) return IMG.butterfly;
+    return pick(IMG.carina, IMG.orion, IMG.helix, IMG.veil, IMG.eagle);
+  }
+  if (/exoplaneta|exoplanet|trappist|k2-18|sub-netuno|super-terra|ocean glint|zona habit[aá]vel/.test(text)) {
+    return /oceano|ocean/.test(text) ? pick(IMG.exoplanetOcean, IMG.exoplanetTransit) : IMG.exoplanetTransit;
+  }
+  if (/universo|cosmologia|energia escura|mat[eé]ria escura|hubble|cmb|euclid|bullet cluster/.test(text)) return pick(IMG.hubbledeep, IMG.andromeda, IMG.earth);
+  if (/lhc|cern|higgs|quark|m[uú]on|part[ií]cula|detector/.test(text)) return pick(IMG.particleTracks, IMG.cern);
+  if (/terra|campo magn[eé]tico|magnetosfera|aurora|clima|aquecimento global/.test(text)) {
+    if (/campo magn[eé]tico|magnetosfera|aurora/.test(text)) return pick(IMG.magneticField, IMG.aurora, IMG.earth);
+    if (/clima|aquecimento global/.test(text)) return pick(IMG.climate, IMG.earth);
+    return IMG.earth;
+  }
+
+  switch(cat){
+    case 'astronomia': return pick(IMG.milkyway, IMG.andromeda, IMG.comet);
+    case 'cosmologia': return pick(IMG.hubbledeep, IMG.andromeda);
+    case 'astrofísica': return pick(IMG.blackhole, IMG.neutronStar, IMG.supernova);
+    case 'exoplanetas': return pick(IMG.exoplanetTransit, IMG.exoplanetOcean);
+    case 'física': return pick(IMG.particleTracks, IMG.cern);
+    case 'biologia': return pick(IMG.europa, IMG.earth);
+    case 'química': return pick(IMG.omega, IMG.orion);
+    case 'ciências da terra':
+    case 'clima': return pick(IMG.earth, IMG.magneticField, IMG.climate);
+    default: return IMG.pillars;
+  }
+}
+
+function normalizeExternalPosts(posts){
+  if (!Array.isArray(posts) || !posts.length) return [];
+  return posts.map((a, i) => ({
+    id: a.id ?? (i + 1),
+    cat: a.cat || a.category || 'Astronomia',
+    catCls: a.catCls || a.categoryClass || ((a.cat || a.category || 'Astronomia').toLowerCase()
+      .normalize('NFD').replace(/[̀-ͯ]/g, '')
+      .replace(/\s+/g, '-').replace('ciencias-da-terra', 'terra').replace('astrofisica', 'astrofisica')),
+    img: a.img || a.image || null,
+    title: a.title || 'Sem título',
+    sub: a.sub || a.subtitle || '',
+    excerpt: a.excerpt || a.summary || '',
+    body: a.body || `<p>${a.summary || a.excerpt || ''}</p>`,
+    date: a.date || '',
+    time: a.time || '',
+    read: a.read || '3 min',
+    source: a.source || '',
+    srcUrl: a.srcUrl || a.link || '#',
+    featured: Boolean(a.featured),
+    trending: Boolean(a.trending)
+  })).map(a => ({...a, img: getDynamicImage(a)}));
+}
+
+const FALLBACK_DB = [
+{
+  id:1, cat:'Astronomia', catCls:'astronomia',
+  img: null,
+  title:'JWST Detecta Molécula Essencial à Vida em Exoplaneta a 120 Anos-luz da Terra',
+  sub:'Dimetilssulfeto encontrado em K2-18b representa o biossinal mais promissor já detectado fora do Sistema Solar',
+  excerpt:'O Telescópio James Webb confirmou, com grau de confiança de 4,2σ, a presença de dimetilssulfeto na atmosfera do exoplaneta K2-18b — molécula produzida, na Terra, exclusivamente por organismos vivos.',
+  body:`<p>Em uma descoberta que promete redefinir os critérios de busca por vida extraterrestre, o Telescópio Espacial James Webb (JWST) confirmou, em março de 2026, a presença de <strong>dimetilssulfeto (DMS)</strong> na atmosfera do exoplaneta K2-18b, localizado a 120 anos-luz de nós, na constelação de Leão.</p>
+<p>O DMS é uma molécula de fórmula CH₃SCH₃ que, no contexto da Terra, é produzida quase exclusivamente pelo fitoplâncton marinho. Sua presença atmosférica em concentrações detectáveis seria, até onde a ciência conhece, um biossinal — um marcador de atividade biológica ativa.</p>
+<h2>A Detecção e Seus Desafios</h2>
+<p>A detecção foi realizada pelo instrumento NIRSpec (Near Infrared Spectrograph) do JWST durante 17 trânsitos do planeta em frente a sua estrela anã vermelha K2-18. O nível de confiança estatística atingiu <strong>4,2σ</strong> — próximo do limiar de 5σ convencionalmente exigido para uma "descoberta" em astronomia observacional.</p>
+<p>O professor Nikku Madhusudhan, da Universidade de Cambridge, que lidera a equipe de pesquisa, foi cuidadoso nas conclusões: a equipe não afirma ter encontrado vida. Afirma ter encontrado algo que exige explicação, e uma das explicações possíveis é de origem biológica.</p>
+<blockquote>K2-18b é um planeta do tipo sub-Netuno com 8,6 massas terrestres, orbitando na zona habitável de sua estrela anã. Modelos indicam que pode ter um oceano global de água líquida sob atmosfera rica em hidrogênio — os chamados mundos "Hycean".</blockquote>
+<h2>Alternativas Abióticas Sob Escrutínio</h2>
+<p>A comunidade científica permanece rigorosamente cética. Pesquisadores apontam que rotas de síntese abiótica de DMS em atmosferas ricas em hidrogênio não foram completamente descartadas. Experimentos laboratoriais em andamento no MIT e na ESA buscam mapear reações fotoquímicas que poderiam gerar DMS sem envolver biologia.</p>
+<p>O próximo passo é acumular mais transits e obter dados do instrumento MIRI para confirmar ou refutar a detecção com maior precisão. A resposta definitiva pode levar de 2 a 5 anos. <strong>Se confirmado, seria a primeira evidência observacional de possível vida além do Sistema Solar.</strong></p>`,
+  date:'25 Mar 2026', time:'19h00', read:'6 min',
+  source:'NASA / Universidade de Cambridge', srcUrl:'https://nasa.gov',
+  featured:true, trending:true
+},{
+  id:2, cat:'Cosmologia', catCls:'cosmologia',
+  img: null,
+  title:'Universo Tem Mais de 2 Trilhões de Galáxias — Novo Censo Cósmico Revisa Estimativas em 10×',
+  sub:'Dados combinados do JWST, Hubble e Euclid produzem o levantamento mais abrangente já realizado',
+  excerpt:'Uma colaboração internacional usou dados de três telescópios para revisar dramaticamente a contagem de galáxias no universo observável, superando em uma ordem de magnitude a estimativa anterior de 200 bilhões.',
+  body:`<p>O universo observável contém pelo menos <strong>2 trilhões de galáxias</strong>, possivelmente muito mais. Essa é a conclusão de novo estudo publicado no <em>Astrophysical Journal</em> em março de 2026, combinando dados do JWST, Hubble e do telescópio espacial Euclid para o censo cósmico mais abrangente da história.</p>
+<p>A estimativa anterior, de cerca de 200 bilhões de galáxias, datava de 2016 e baseava-se em modelos que simplesmente não conseguiam detectar as estruturas mais tênues e distantes. O JWST, com sua sensibilidade sem precedentes no infravermelho, abriu janelas para épocas do universo que eram praticamente invisíveis até 2022.</p>
+<h2>O Que Essa Escala Representa</h2>
+<p>Cada galáxia contém em média entre 100 bilhões e 1 trilhão de estrelas. Se existem 2 trilhões de galáxias, estamos falando de uma quantidade de estrelas que supera qualquer intuição humana — algo na ordem de 2×10²³, mais do que os grãos de areia em todas as praias da Terra.</p>
+<blockquote>Esta revisão não altera o modelo cosmológico padrão ΛCDM, mas nos obriga a repensar a eficiência dos processos de formação estelar no universo jovem e as taxas de fusão galáctica ao longo dos últimos 13,8 bilhões de anos.</blockquote>
+<h2>Implicações para o Paradoxo de Fermi</h2>
+<p>Um universo com 10× mais galáxias do que estimávamos torna o silêncio cósmico ainda mais intrigante. Se há mais estrelas, mais planetas potencialmente habitáveis — a ausência de sinais de inteligência extraterrestre detectável torna o paradoxo de Fermi mais agudo do que nunca.</p>`,
+  date:'25 Mar 2026', time:'07h00', read:'5 min',
+  source:'The Astrophysical Journal / Euclid Consortium', srcUrl:'https://esa.int',
+  featured:true, trending:true
+},{
+  id:3, cat:'Astrofísica', catCls:'astrofisica',
+  img: null,
+  title:'Buraco Negro M87* Gira a 98% do Limite Físico — Medição com Precisão Recorde',
+  sub:'Event Horizon Telescope usa 8 anos de dados para determinar spin com margem de erro de apenas 5%',
+  excerpt:'O buraco negro supermassivo no centro da galáxia M87, imortalizado na primeira foto de um buraco negro em 2019, tem sua velocidade de rotação determinada com precisão sem precedentes.',
+  body:`<p>O buraco negro supermassivo <strong>M87*</strong>, com 6,5 bilhões de massas solares, está girando a aproximadamente <strong>98% do limite máximo permitido pela relatividade geral</strong>. Esta é a medição mais precisa já feita do parâmetro de spin de um buraco negro fora de nossa galáxia, publicada na <em>Nature Astronomy</em>.</p>
+<p>A determinação foi possível graças a dados coletados pelo Event Horizon Telescope (EHT) entre 2017 e 2025, combinados com observações em múltiplos comprimentos de onda incluindo raios-X do Chandra e rádio do VLA.</p>
+<h2>Por Que o Spin de um Buraco Negro Importa</h2>
+<p>O spin de um buraco negro — parametrizado pela variável adimensional <em>a</em>, que varia de 0 (não rotante, solução de Schwarzschild) a 1 (solução de Kerr extremo) — afeta profundamente a dinâmica ao redor dele. Um buraco negro próximo do spin máximo possui uma ergosfera que pode extrair energia rotacional por meio do <strong>mecanismo de Blandford-Znajek</strong>.</p>
+<blockquote>Esse mecanismo é o principal candidato para explicar os enormes jatos relativísticos que M87 lança no espaço — jatos que se estendem por mais de 5.000 anos-luz e viajam próximos da velocidade da luz.</blockquote>
+<h2>Confirmação da Relatividade Geral em Regime Extremo</h2>
+<p>Os dados são consistentes com as previsões da relatividade geral de Einstein com precisão melhor que 3%, consolidando ainda mais a teoria como descrição correta da gravidade nos cenários mais extremos do universo observável.</p>`,
+  date:'24 Mar 2026', time:'19h00', read:'7 min',
+  source:'Nature Astronomy / Event Horizon Telescope', srcUrl:'https://phys.org',
+  featured:true, trending:true
+},{
+  id:4, cat:'Astronomia', catCls:'astronomia',
+  img: null,
+  title:'NASA Confirma Local de Pouso do Artemis IV: Cratera Shackleton, Polo Sul Lunar',
+  sub:'Missão prevista para 2028 pousará onde radares do LRO detectaram a maior concentração de gelo de água da Lua',
+  excerpt:'A NASA anunciou que a missão Artemis IV pousará a menos de 500 metros da borda da cratera Shackleton, onde instrumentos detectaram depósitos de gelo de água em abundância.',
+  body:`<p>A NASA confirmou oficialmente que a missão <strong>Artemis IV</strong>, programada para 2028, pousará a menos de 500 metros da borda norte da cratera Shackleton, no Polo Sul da Lua. A escolha não é casual: é a região com a maior concentração de gelo de água já mapeada na superfície lunar, detectada pelo LRO (Lunar Reconnaissance Orbiter).</p>
+<p>Concentrações de hidrogênio — proxy para gelo de água — chegam a 1 kg de H₂O por 1.000 kg de regolito lunar nessa região. Para a Artemis, isso representa um recurso crítico: o gelo pode ser usado como fonte de água potável, oxigênio respirável e hidrogênio para combustível de foguete.</p>
+<h2>Desafios do Ambiente Polar Lunar</h2>
+<p>O Sol nunca sobe mais de 3 graus acima do horizonte nessa região, criando sombras permanentes em crateras próximas onde as temperaturas caem a −240°C. O traje lunar xEMU-II precisou de redesenho para operar nessas condições extremas.</p>
+<blockquote>A cratera Shackleton nunca recebeu luz solar direta por bilhões de anos. Qualquer gelo ali depositado pode ser uma relíquia do início do sistema solar — potencialmente de cometas que bombardearam a Lua há 4 bilhões de anos.</blockquote>`,
+  date:'24 Mar 2026', time:'07h00', read:'5 min',
+  source:'NASA / LRO Science Team', srcUrl:'https://nasa.gov',
+  featured:false, trending:true
+},{
+  id:5, cat:'Exoplanetas', catCls:'exoplanetas',
+  img: null,
+  title:'Sistema com 7 Planetas Rochosos em Órbita de Anã Vermelha Descoberto a 41 Anos-luz',
+  sub:'Três planetas dentro da zona habitável do sistema LP 890-9 são candidatos prioritários para o JWST',
+  excerpt:'Astrônomos do consórcio SPECULOOS confirmaram um sistema com sete exoplanetas rochosos ao redor da estrela LP 890-9, com três deles na zona habitável — estrutura comparável ao TRAPPIST-1.',
+  body:`<p>Astrônomos do consórcio SPECULOOS confirmaram a descoberta de um <strong>sistema com sete planetas rochosos</strong> ao redor da estrela anã vermelha LP 890-9, a apenas 41 anos-luz da Terra. Três desses planetas orbitam dentro da zona habitável da estrela.</p>
+<p>O sistema é estruturalmente semelhante ao TRAPPIST-1, que se tornou um dos alvos prioritários do JWST. LP 890-9 tem geometria ainda mais compacta, com todos os planetas orbitando mais próximos entre si do que qualquer planeta do Sistema Solar orbita o Sol.</p>
+<h2>Candidatos Habitáveis</h2>
+<p>Os planetas LP 890-9c, e e f recebem fluxo de radiação estelar compatível com a existência de água líquida na superfície, assumindo atmosferas com efeito estufa moderado. Os três são 10–30% maiores que a Terra, classificando-os como super-Terras.</p>
+<blockquote>Sistemas ao redor de anãs vermelhas são extremamente promissores: sendo muito menos luminosas que o Sol, a zona habitável está muito mais próxima da estrela — tornando os trânsitos frequentes e detectáveis com telescópios de porte médio.</blockquote>`,
+  date:'23 Mar 2026', time:'19h00', read:'5 min',
+  source:'SPECULOOS / Nature Astronomy', srcUrl:'https://universetoday.com',
+  featured:false, trending:false
+},{
+  id:6, cat:'Física', catCls:'fisica',
+  img: null,
+  title:'LHC Detecta Excesso Estatístico que Pode Ser Partícula de Matéria Escura com 1,2 TeV',
+  sub:'Anomalia de 3,8σ no canal de múons + energia faltante não encontra explicação no Modelo Padrão',
+  excerpt:'O Large Hadron Collider do CERN registrou um excesso de eventos no canal de múons acompanhados de energia faltante — sinal consistente com produção de neutralino ou WIMP.',
+  body:`<p>O Grande Colisor de Hádrons (LHC) do CERN gerou sua anomalia mais promissora em anos: um excesso estatístico de 3,8σ em eventos de múons com grande energia faltante, com massa invariante centrada em <strong>1,2 TeV</strong>. Os dados foram coletados pelo detector ATLAS durante o Run 3.</p>
+<p>O sinal é consistente com a produção de um <strong>neutralino</strong> — a partícula supersimétrica mais leve prevista por modelos de supersimetria (SUSY) — que se decai em múons e uma partícula estável e invisível candidata à matéria escura.</p>
+<h2>Cautela Científica Obrigatória</h2>
+<p>A comunidade física permanece devidamente cautelosa. Um sigma de 3,8 está abaixo do limiar de 5σ necessário para declarar descoberta. Anomalias similares surgiram e desapareceram em análises anteriores — o "diboson excess" de 2015 foi confirmado como flutuação estatística com mais dados.</p>
+<blockquote>Precisamos de mais luminosidade. O Run 4 (High-Luminosity LHC), previsto para 2030, entregará 20 vezes mais colisões. Este sinal ou cresce e confirma a descoberta, ou desaparece. Ciência em ação.</blockquote>`,
+  date:'23 Mar 2026', time:'07h00', read:'7 min',
+  source:'CERN / ATLAS Collaboration', srcUrl:'https://phys.org',
+  featured:false, trending:true
+},{
+  id:7, cat:'Astronomia', catCls:'astronomia',
+  img: null,
+  title:'Mapa 3D do GAIA Revela 5 Fusões Galácticas na História da Via Láctea',
+  sub:'Data Release 4 da missão Gaia inclui 1,96 bilhão de estrelas e reescreve a arqueologia galáctica',
+  excerpt:'O mais completo mapa tridimensional da Via Láctea, com posições e composição química de quase 2 bilhões de estrelas, revela a história turbulenta de colisões que moldaram nossa galáxia.',
+  body:`<p>A missão <strong>Gaia</strong> da ESA divulgou o Data Release 4 — o mapa tridimensional mais completo já feito da Via Láctea, com dados de <strong>1,96 bilhão de estrelas</strong>. Os dados revelam pelo menos cinco eventos de fusão galáctica significativos que moldaram nossa galáxia.</p>
+<p>O mais dramático foi a fusão com <strong>Gaia-Enceladus/Sausage</strong>, uma galáxia satélite com ~10⁹ massas solares que colidiu com a Via Láctea há cerca de 10 bilhões de anos, fornecendo grande parte do halo galáctico exterior.</p>
+<h2>Arqueologia Estelar</h2>
+<p>As estrelas mais velhas do halo estelar têm composições químicas distintas das estrelas do disco — são mais pobres em metais, formadas quando o universo ainda não havia produzido carbono, oxigênio e ferro em abundância. Os dados do Gaia permitem reconstruir, de trás para frente, o processo de acreção dessas populações.</p>
+<blockquote>Estamos lendo a história da Via Láctea nas estrelas como geólogos leem a história da Terra nas rochas. Cada estrela carrega na composição química a memória de onde e quando foi formada.</blockquote>`,
+  date:'22 Mar 2026', time:'19h00', read:'6 min',
+  source:'ESA / Gaia Collaboration', srcUrl:'https://esa.int',
+  featured:false, trending:false
+},{
+  id:8, cat:'Biologia', catCls:'biologia',
+  img: null,
+  title:'Arqueias Sobrevivem a 1.200 Atmosferas no Fundo do Oceano — Implicações para Europa',
+  sub:'Microrganismos ultra-extremófilos do fundo da Fossa das Marianas ampliam limites conhecidos da biologia',
+  excerpt:'Pesquisadores do Instituto Scripps isolaram arqueias metabolicamente ativas a 12 km de profundidade sob pressões equivalentes às esperadas no fundo do oceano de Europa, lua de Júpiter.',
+  body:`<p>Pesquisadores do Instituto Scripps de Oceanografia isolaram arqueias metabolicamente ativas a <strong>12.000 metros de profundidade</strong> na Fossa das Marianas, sujeitas a pressões de 1.200 atm — condições que antes se acreditava incompatíveis com a química da vida.</p>
+<p>As membranas celulares dessas arqueias adaptam sua composição lipídica dinamicamente em resposta à pressão, mantendo fluidez funcional — mecanismo análogo ao que bactérias polares usam para sobreviver em baixas temperaturas, mas operando em regime de compressão extrema.</p>
+<h2>Relevância para a Astrobiologia</h2>
+<p>Europa possui um oceano global com profundidade estimada de 100–170 km sob um manto de gelo de 10–30 km. As pressões no fundo desse oceano são comparáveis às testadas neste experimento.</p>
+<blockquote>Cada vez que encontramos vida prosperando em condições que julgávamos impossíveis, a distribuição de probabilidades para vida em mundos oceânicos do sistema solar torna-se mais favorável.</blockquote>`,
+  date:'22 Mar 2026', time:'07h00', read:'5 min',
+  source:'Scripps Institution of Oceanography / Nature', srcUrl:'https://phys.org',
+  featured:false, trending:false
+},{
+  id:9, cat:'Cosmologia', catCls:'cosmologia',
+  img: null,
+  title:'Tensão de Hubble Atinge 5,2σ — Nova Física Pode Ser Necessária para Salvar a Cosmologia',
+  sub:'Discrepância entre a constante de Hubble local (JWST) e do CMB (Planck) agora ultrapassa o limiar de descoberta',
+  excerpt:'H₀ = 73,7 km/s/Mpc medido com cefeidas calibradas pelo JWST conflita irreconciliavelmente com 67,4 medidos pelo Planck no fundo cósmico de micro-ondas.',
+  body:`<p>A <strong>tensão de Hubble</strong> — o conflito mais vexatório da cosmologia moderna — se aprofundou em março de 2026. Usando cefeidas calibradas com precisão sem precedentes pelo JWST, a equipe liderada por Adam Riess (Nobel 2011) obteve <strong>H₀ = 73,7 ± 0,9 km/s/Mpc</strong>.</p>
+<p>Esse valor contrasta com os 67,4 ± 0,5 km/s/Mpc obtidos pelo Planck a partir do fundo cósmico de micro-ondas. A discrepância atinge agora 5,2σ — estatisticamente, isso representa uma "descoberta" de que algo está errado no modelo padrão.</p>
+<h2>O Que Pode Estar Errado</h2>
+<p>As opções principais são: (1) erro sistemático em alguma das medições — improvável dado o nível de revisão que ambas receberam; (2) o modelo cosmológico padrão ΛCDM está incompleto, exigindo nova física como energia escura dinâmica ou um componente de "energia escura cedo".</p>
+<blockquote>A tensão de Hubble pode ser o primeiro sinal observacional claro de que o modelo cosmológico padrão precisa ser substituído. Seria o tipo de anomalia que, na história da física, precedeu revoluções conceituais — como o problema do ultravioleta que precedeu a mecânica quântica.</blockquote>`,
+  date:'21 Mar 2026', time:'19h00', read:'8 min',
+  source:'arXiv / Adam Riess — JHU', srcUrl:'https://arxiv.org',
+  featured:false, trending:true
+},{
+  id:10, cat:'Astrofísica', catCls:'astrofisica',
+  img: null,
+  title:'Pulsar Registra o Maior "Glitch" em 40 Anos de Monitoramento — Enigma da Matéria Ultra-densa',
+  sub:'PSR J0537-6910 apresenta aceleração súbita que desafia modelos de superfluidos quânticos no interior de estrelas de nêutrons',
+  excerpt:'O pulsar PSR J0537-6910 na Grande Nuvem de Magalhães apresentou o maior glitch já registrado, com variação de frequência de 6,8 × 10⁻⁷, fornecendo dados únicos sobre matéria em densidade nuclear.',
+  body:`<p>Estrelas de nêutrons são talvez os objetos mais exóticos acessíveis a observações diretas: esferas com 1,4 massas solares comprimidas em 10 km de diâmetro, com densidade chegando a 10¹⁷ kg/m³ — o dobro da densidade do núcleo atômico.</p>
+<p>O pulsar <strong>PSR J0537-6910</strong>, localizado na Grande Nuvem de Magalhães, registrou em fevereiro de 2026 um <em>glitch</em> extraordinário: uma aceleração quase instantânea na frequência de rotação com magnitude Δν/ν = 6,8 × 10⁻⁷. É o maior glitch documentado em 40 anos de monitoramento sistemático.</p>
+<h2>O Que É um Glitch e Por Que Importa</h2>
+<p>Glitches em pulsares são interpretados como transferência de momento angular de um superfluido quântico no interior da estrela de nêutrons para sua crosta sólida. O interior de uma estrela de nêutrons pode ser dividido em crosta externa, crosta interna com superfluido de nêutrons, e core — possivelmente com quarks livres.</p>
+<blockquote>Cada glitch é uma janela para o interior de um objeto que nunca poderemos visitar. O universo nos entrega dados sobre física em regimes que nenhum acelerador poderá alcançar por séculos.</blockquote>`,
+  date:'21 Mar 2026', time:'07h00', read:'6 min',
+  source:'NICER / NASA / ApJ Letters', srcUrl:'https://nasa.gov',
+  featured:false, trending:false
+},{
+  id:11, cat:'Química', catCls:'quimica',
+  img: null,
+  title:'Síntese de Ribose em Gelos Interestelares Simulados Fortalece Hipótese da Origem Cósmica da Vida',
+  sub:'Laboratório de Brookhaven sintetiza o açúcar do RNA usando apenas moléculas simples e fótons UV a 10 Kelvin',
+  excerpt:'Experimento recria formação espontânea de ribose a partir de HCN, CO₂, NH₃ e H₂O em gelos a temperatura do espaço interestelar, avançando a química prebiótica.',
+  body:`<p>Um experimento no Laboratório Nacional de Brookhaven sintetizou <strong>ribose</strong> — o açúcar de cinco carbonos que forma a espinha dorsal do RNA — a partir de moléculas simples em gelos interestelares simulados a 10 Kelvin.</p>
+<p>A mistura inicial continha apenas HCN, CO₂, NH₃ e H₂O — moléculas abundantemente detectadas em nuvens moleculares e cometas. Após irradiação UV por 72 horas, análise por cromatografia de massa revelou ribose entre dezenas de moléculas orgânicas produzidas.</p>
+<h2>Relevância para a Origem da Vida</h2>
+<p>A hipótese do <strong>mundo de RNA</strong> propõe que antes das proteínas e do DNA, o RNA era tanto portador de informação genética quanto catalisador de reações. O passo limitante sempre foi explicar como ribose se formaria em condições prebióticas.</p>
+<blockquote>Se ribose pode se formar em gelos interestelares, cometas e asteroides que bombardearam a Terra primitiva teriam trazido potencialmente os blocos construtores diretos das primeiras moléculas de RNA.</blockquote>`,
+  date:'20 Mar 2026', time:'19h00', read:'5 min',
+  source:'Brookhaven National Laboratory / PNAS', srcUrl:'https://phys.org',
+  featured:false, trending:false
+},{
+  id:12, cat:'Astronomia', catCls:'astronomia',
+  img: null,
+  title:'Telescópio Vera Rubin Inicia Operações com Mapeamento de 20 Bilhões de Galáxias',
+  sub:'LSST fotografará o céu austral completo a cada três dias ao longo de uma década inteira',
+  excerpt:'O Observatório Vera C. Rubin, no Chile, completou seu comissionamento e inicia o maior levantamento astronômico já realizado, com uma câmera de 3,2 gigapixels.',
+  body:`<p>O <strong>Observatório Vera C. Rubin</strong>, no Cerro Pachón, Chile, iniciou oficialmente as operações científicas do Legacy Survey of Space and Time (LSST) em março de 2026. É o maior e mais ambicioso levantamento astronômico da história.</p>
+<p>Com espelho primário de 8,4 metros e câmera CCD de 3,2 gigapixels — a maior câmera astronômica já construída — o Rubin fotografará todo o céu austral a cada <strong>três dias</strong> por 10 anos, gerando catálogo de aproximadamente 20 bilhões de galáxias.</p>
+<h2>Quatro Problemas Fundamentais</h2>
+<p>O LSST foi projetado para atacar simultaneamente: natureza da matéria e energia escuras via lentes gravitacionais fracas; inventário de asteroides em risco com a Terra; física de transientes como supernovas e kilonovas; e estrutura da Via Láctea.</p>
+<blockquote>Nas primeiras 72 horas de operação, o Rubin já detectou mais objetos transientes do que todos os telescópios do mundo combinados em uma semana típica. Estamos na era da astronomia em domínio do tempo.</blockquote>`,
+  date:'20 Mar 2026', time:'07h00', read:'6 min',
+  source:'Vera Rubin Observatory / NOIRLab', srcUrl:'https://universetoday.com',
+  featured:false, trending:true
+},{
+  id:13, cat:'Astrofísica', catCls:'astrofisica',
+  img: null,
+  title:'Fusão de Estrelas de Nêutrons Emite Ondas Gravitacionais por 3 Dias e Sintetiza Ouro em Tempo Real',
+  sub:'Evento GW260315, a 40 Mpc, permite observação multiespectral detalhada de kilonova e nucleossíntese do processo-r',
+  excerpt:'A fusão de binárias de estrelas de nêutrons mais próxima detectada desde 2017 permite, pela primeira vez, observação em todas as bandas eletromagnéticas por 72 horas contínuas.',
+  body:`<p>Em 15 de março de 2026, a rede LIGO-Virgo-KAGRA registrou ondas gravitacionais da fusão de estrelas de nêutrons binárias catalogada como <strong>GW260315</strong>. Com distância de apenas 40 megaparsecs (~130 milhões de anos-luz), é o evento mais próximo desde GW170817 (2017).</p>
+<p>A proximidade permitiu detecções em todas as bandas espectrais: raios gama, raios-X, UV, óptico, infravermelho e rádio. A kilonova foi observada por 22 telescópios em 15 países durante 72 horas — o maior esforço coordenado de astronomia multiespectral da história.</p>
+<h2>Elementos Pesados Forjados ao Vivo</h2>
+<p>Análises espectroscópicas detectaram assinaturas inequívocas de <strong>lantânio, európio e bário</strong> — elementos produzidos exclusivamente pela nucleossíntese do processo-r em fusões de estrelas de nêutrons. A abundância é consistente com modelos que atribuem à kilonova a origem dos elementos pesados do universo.</p>
+<blockquote>Cada fusão de estrelas de nêutrons produz, em décimos de segundo, mais ouro do que o Sol produzirá em toda a sua vida de 10 bilhões de anos.</blockquote>`,
+  date:'19 Mar 2026', time:'19h00', read:'7 min',
+  source:'LIGO Scientific Collaboration / GCN', srcUrl:'https://phys.org',
+  featured:false, trending:true
+},{
+  id:14, cat:'Astronomia', catCls:'astronomia',
+  img: null,
+  title:'Perseverance Coleta Amostra com Possíveis Biosignaturas em Calcário Lacustre da Cratera Jezero',
+  sub:'SHERLOC detecta hidrocarbonetos aromáticos policíclicos em concentrações acima do esperado para síntese abiótica',
+  excerpt:'O rover coletou sua 24ª amostra de rocha — desta vez um calcário lacustre com estruturas morfológicas e química orgânica que os cientistas descrevem como intrigantes.',
+  body:`<p>O rover <strong>Perseverance</strong> da NASA coletou sua 24ª amostra em março de 2026 — possivelmente a mais significativa. A amostra de calcário lacustre da "Margin Unit" da Cratera Jezero contém estruturas morfológicas milimétricas e química orgânica descrita pela equipe científica como <em>intrigante</em>.</p>
+<p>O instrumento <strong>SHERLOC</strong>, usando espectroscopia Raman de alta resolução, detectou hidrocarbonetos aromáticos policíclicos (PAHs) em concentrações acima do esperado para síntese puramente abiótica. Além disso, a morfologia das estruturas visíveis sugere filamentos organizados que lembram biofilmes microbianos fossilizados.</p>
+<h2>Não É Confirmação de Vida — Ainda</h2>
+<p>Os cientistas são enfáticos: estas observações são consistentes com vida passada em Marte, mas também com processos abióticos ainda não completamente compreendidos. A resposta definitiva virá quando as amostras chegarem à Terra, previsto para 2033 pela missão Mars Sample Return.</p>
+<blockquote>Marte primitivo tinha lagos, rios, possivelmente oceanos, energia geotérmica e química carbônica. Se a vida surgiu na Terra nessas condições, as probabilidades de ter surgido em Marte são não-triviais.</blockquote>`,
+  date:'19 Mar 2026', time:'07h00', read:'6 min',
+  source:'NASA JPL / Perseverance Science Team', srcUrl:'https://nasa.gov',
+  featured:false, trending:false
+},{
+  id:15, cat:'Cosmologia', catCls:'cosmologia',
+  img: null,
+  title:'Euclid Indica Energia Escura Dinâmica: w ≠ −1 em Análise de 15 Milhões de Galáxias',
+  sub:'Primeiros dados científicos do telescópio europeu desafiam o modelo cosmológico padrão ΛCDM',
+  excerpt:'Resultados do Euclid sugerem que a energia escura pode não ser a constante cosmológica de Einstein, mas um campo dinâmico que evolui com o tempo — o que exigiria física nova.',
+  body:`<p>O telescópio espacial <strong>Euclid</strong> da ESA divulgou seus primeiros resultados científicos completos em março de 2026. A análise de 15 milhões de galáxias no intervalo de redshift z=0,2 a z=2,0 sugere que o parâmetro de equação de estado da energia escura, <strong>w</strong>, não é constante e igual a −1 como prevê o modelo ΛCDM.</p>
+<p>Os dados do Euclid, em combinação com o DESI e o Planck, indicam w₀ = −0,95 ± 0,03 e uma possível derivada temporal wₐ = −0,18 ± 0,12. Se confirmado, sinalizaria energia escura como campo dinâmico — possivelmente <em>quintessência</em>.</p>
+<h2>Implicações para o Destino do Universo</h2>
+<p>Se a energia escura é dinâmica, o destino do universo é radicalmente diferente do "Big Rip" ou "Big Freeze" previstos pelo modelo padrão. Estamos potencialmente descobrindo que o fim do universo é mais complexo do que prevíamos.</p>
+<blockquote>Este é o tipo de resultado que os cosmólogos esperam e temem ao mesmo tempo: evidência de que o modelo mais bem-sucedido da história da física pode estar incompleto.</blockquote>`,
+  date:'18 Mar 2026', time:'19h00', read:'8 min',
+  source:'ESA Euclid Consortium / A&A', srcUrl:'https://esa.int',
+  featured:false, trending:false
+},{
+  id:16, cat:'Física', catCls:'fisica',
+  img: null,
+  title:'Computador Quântico de 1.127 Qubits Simula Molécula de Cafeína em 3 Minutos',
+  sub:'IBM Quantum Condor II demonstra vantagem quântica verificável em simulação de dinâmica molecular',
+  excerpt:'O processador quântico de 1.127 qubits da IBM completou uma simulação de dinâmica quântica molecular que levaria entre 1.000 e 10.000 anos em qualquer supercomputador clássico.',
+  body:`<p>A IBM Research apresentou em março de 2026 o processador quântico <strong>Condor II</strong> de 1.127 qubits, demonstrando vantagem quântica verificável em simulação de dinâmica molecular — especificamente, o cálculo completo da superfície de energia potencial da cafeína (C₈H₁₀N₄O₂).</p>
+<p>O cálculo, realizado com algoritmo VQE modificado, levou 3 minutos e 47 segundos no processador quântico. O maior supercomputador clássico levaria entre 1.000 e 10.000 anos para o mesmo cálculo com precisão química equivalente.</p>
+<h2>Importância para Química e Medicina</h2>
+<p>A capacidade de simular moléculas com precisão quântica é transformadora para o design de medicamentos, catalisadores industriais e materiais avançados. Moléculas biologicamente ativas têm estruturas eletrônicas impossíveis de modelar classicamente com precisão quântica completa.</p>
+<blockquote>Ainda não estamos no "quantum supremacy" universal — computadores clássicos ainda são superiores em 99% das tarefas. Mas para simulação de dinâmica quântica molecular, a vantagem quântica chegou, e ela é real e prática.</blockquote>`,
+  date:'18 Mar 2026', time:'07h00', read:'5 min',
+  source:'IBM Research / Nature', srcUrl:'https://phys.org',
+  featured:false, trending:false
+},{
+  id:17, cat:'Astronomia', catCls:'astronomia',
+  img: null,
+  title:'Buraco Negro de 40 Bilhões de Massas Solares — o Mais Massivo do Universo Local — Confirmado',
+  sub:'NGC 1277-X supera M87* por fator de 6 e representa 15% da massa estelar total de sua galáxia hospedeira',
+  excerpt:'Medições de dinâmica estelar com o VLT confirmam massa de 4×10¹⁰ massas solares para o buraco negro central de NGC 1277-X, desafiando todos os modelos de co-evolução galáxia-buraco negro.',
+  body:`<p>Astrônomos usando o instrumento MUSE do VLT (ESO) confirmaram que o buraco negro no centro da galáxia NGC 1277-X tem massa de <strong>40 bilhões de massas solares</strong> — tornando-o o mais massivo do universo local, a apenas 700 milhões de anos-luz de nós.</p>
+<p>Para contexto: o buraco negro no centro da Via Láctea, Sagitário A*, tem 4 milhões de massas solares. M87* tem 6,5 bilhões. NGC 1277-X é seis vezes mais massivo que M87* e 10.000 vezes mais massivo que Sgr A*.</p>
+<h2>Uma Anomalia que Desafia Modelos</h2>
+<p>Em galáxias típicas, o buraco negro central representa entre 0,1% e 0,5% da massa estelar. Em NGC 1277-X, o buraco negro representa cerca de <strong>15% da massa total</strong> — anomalia que desafia todos os modelos de co-evolução galáxia-buraco negro.</p>
+<blockquote>Este objeto pode ser um buraco negro primordial formado no universo muito jovem por mecanismos diferentes do colapso estelar convencional. Ambas as hipóteses disponíveis têm implicações profundas para a cosmologia observacional.</blockquote>`,
+  date:'17 Mar 2026', time:'19h00', read:'6 min',
+  source:'ESO / VLT / MUSE Team', srcUrl:'https://esa.int',
+  featured:false, trending:false
+},{
+  id:18, cat:'Ciências da Terra', catCls:'terra',
+  img: null,
+  title:'Campo Magnético Terrestre Enfraqueceu 9% em 20 Anos — Polo Norte Deriva a 55 km/ano',
+  sub:'Swarm da ESA e observatórios globais documentam aceleração histórica da deriva polar e expansão da Anomalia do Atlântico Sul',
+  excerpt:'O campo magnético terrestre está enfraquecendo 5 vezes mais rápido que a média histórica, com o polo magnético norte se deslocando em direção à Sibéria em velocidade sem precedentes.',
+  body:`<p>O campo magnético terrestre enfraqueceu <strong>9% nos últimos 20 anos</strong>, conforme dados combinados da constelação Swarm da ESA e de 200 observatórios magnéticos terrestres. A taxa atual é aproximadamente 5 vezes mais rápida que a média histórica.</p>
+<p>O polo magnético norte acelerou seu deslocamento para a Sibéria, movendo 55 km em 2025 — velocidade recorde. A <strong>Anomalia do Atlântico Sul</strong>, onde o campo magnético é 30% mais fraco que a média global, continuou se expandindo e se fragmentando em dois núcleos.</p>
+<h2>Inversão Magnética em Andamento?</h2>
+<p>A última inversão magnética completa ocorreu há ~42.000 anos. As inversões no registro geológico são acompanhadas de períodos de campo enfraquecido que podem durar de 1.000 a 10.000 anos. Não está claro se estamos no início de uma inversão ou numa excursão temporária.</p>
+<blockquote>Uma inversão magnética não seria catastrófica para a vida — o registro fóssil não mostra extinções correlacionadas com inversões. Mas o impacto em satélites, redes elétricas e telecomunicações seria significativo durante a transição.</blockquote>`,
+  date:'17 Mar 2026', time:'07h00', read:'6 min',
+  source:'ESA Swarm / British Geological Survey', srcUrl:'https://esa.int',
+  featured:false, trending:false
+},{
+  id:19, cat:'Astronomia', catCls:'astronomia',
+  img: null,
+  title:'Superflares Solares São 10× Mais Frequentes em Estrelas Sol-Análogas do que Estimávamos',
+  sub:'Análise de 4 anos do Cheops revela que eventos extremos de energia magnética ocorrem a cada ~500 anos em estrelas tipo G',
+  excerpt:'Novo estudo estatístico com 12.000 estrelas Sol-análogas mostra que superflares de magnitude 10³⁴ ergs ocorrem com frequência que pode ter implicações civilizatórias se um evento assim atingir o Sol.',
+  body:`<p>Uma análise de 4 anos do telescópio espacial <strong>Cheops</strong> da ESA, cobrindo 12.000 estrelas Sol-análogas, revelou que superflares ocorrem em estrelas tipo G com frequência muito maior do que se acreditava.</p>
+<p>O estudo indica que um superflare de magnitude 10³⁴ ergs ocorre em estrelas Sol-análogas a cada 500 anos em média. Se nosso Sol seguir essa distribuição, o próximo superflare solar pode ocorrer em qualquer momento nos próximos séculos.</p>
+<h2>Impacto Potencial em Civilização Tecnológica</h2>
+<p>O evento de Carrington (1859) foi o maior flare solar historicamente documentado, com ~10³² ergs. Um evento 100× maior atingindo a Terra hoje poderia causar colapso de redes elétricas globais, falha de satélites e perda de comunicações com custos na ordem de trilhões de dólares.</p>
+<blockquote>Não é questão de "se" — é questão de "quando". A civilização tecnológica humana está essencialmente sem proteção contra um superflare solar de magnitude extrema.</blockquote>`,
+  date:'16 Mar 2026', time:'19h00', read:'5 min',
+  source:'ESA Cheops / Nature Astronomy', srcUrl:'https://esa.int',
+  featured:false, trending:false
+},{
+  id:20, cat:'Astrofísica', catCls:'astrofisica',
+  img: null,
+  title:'Origem dos Fast Radio Bursts Confirmada: Magnetares em Galáxias de Alta Formação Estelar',
+  sub:'CHIME/FRB encerra 10 anos de mistério com análise estatística definitiva de 600 eventos localizados',
+  excerpt:'A colaboração CHIME/FRB publicou a análise definitiva de 600 FRBs com localização precisa, confirmando que a grande maioria origina-se de magnetares em regiões com alta taxa de formação estelar.',
+  body:`<p>Os <strong>Fast Radio Bursts (FRBs)</strong> — lampejos de rádio intensíssimos de duração milissegundal, detectados pela primeira vez em 2007 — tiveram sua origem finalmente confirmada. A colaboração CHIME/FRB publicou análise de 600 FRBs com localização precisa: a grande maioria se origina de <strong>magnetares</strong> em galáxias com alta taxa de formação estelar.</p>
+<p>Magnetares são estrelas de nêutrons com campos magnéticos de 10¹⁵ Gauss — os objetos com campo magnético mais intenso do universo. Quando sua crosta sofre fratura sob tensão acumulada, libera energia suficiente para ser detectada a bilhões de anos-luz.</p>
+<h2>FRBs como Sondas do Meio Intergaláctico</h2>
+<p>Ao atravessar o espaço intergaláctico, os pulsos de rádio são dispersos pelo meio intergaláctico de forma que permite medir a densidade de matéria barônica entre galáxias — matéria que o modelo ΛCDM previa mas que não conseguíamos detectar diretamente.</p>
+<blockquote>FRBs são o instrumento cosmológico mais inesperado da década. Usamos fenômenos de origem magnética violenta para mapear a distribuição de matéria no universo inteiro.</blockquote>`,
+  date:'16 Mar 2026', time:'07h00', read:'6 min',
+  source:'CHIME/FRB Collaboration / ApJS', srcUrl:'https://phys.org',
+  featured:false, trending:false
+},{
+  id:21, cat:'Astronomia', catCls:'astronomia',
+  img: null,
+  title:'Novo Planeta Anão Maior que Plutão Descoberto pelo Vera Rubin em Sua Primeira Semana',
+  sub:'2026 FW₂₅₉ tem diâmetro estimado de 2.700 km e órbita altamente inclinada no Cinturão de Kuiper',
+  excerpt:'Na primeira semana de operação científica do Observatório Vera Rubin, astrônomos detectaram um novo objeto trans-netuniano de grande porte que pode ser o maior planeta anão do sistema solar.',
+  body:`<p>Na primeira semana de operação científica do Observatório Vera Rubin, astrônomos descobriram um novo planeta anão no Cinturão de Kuiper: <strong>2026 FW₂₅₉</strong>, com diâmetro estimado entre 2.400 e 2.800 km — potencialmente maior que Plutão (2.376 km) e possivelmente o maior planeta anão do sistema solar.</p>
+<p>O objeto orbita o Sol a distância média de 48 UA com inclinação orbital de 28°. Sua albedo sugere superfície coberta de metano e nitrogênio congelados, similar a Plutão e Éris.</p>
+<h2>Um Mundo Diferenciado</h2>
+<p>Com esse tamanho, 2026 FW₂₅₉ provavelmente passou por diferenciação geológica na formação do sistema solar. Se tiver atividade geotérmica residual, pode possuir oceano subsuperficial.</p>
+<blockquote>O Cinturão de Kuiper é o museu do sistema solar primitivo. Cada novo grande objeto descoberto ali é uma cápsula do tempo de 4,6 bilhões de anos atrás.</blockquote>`,
+  date:'15 Mar 2026', time:'19h00', read:'4 min',
+  source:'Vera Rubin Observatory / MPC', srcUrl:'https://universetoday.com',
+  featured:false, trending:false
+},{
+  id:22, cat:'Biologia', catCls:'biologia',
+  img: null,
+  title:'CRISPR-Cas9 Elimina HIV em 95% das Células Reservatório em Primatas',
+  sub:'Ensaio pré-clínico em 12 macacos Rhesus abre o caminho mais promissor já descrito para cura funcional do HIV',
+  excerpt:'Pesquisadores da Temple University e do Nebraska Medical Center usaram CRISPR excisional para remover DNA proviral do HIV de células reservatório com eficiência sem precedentes em primatas.',
+  body:`<p>Uma colaboração entre a Temple University e o Nebraska Medical Center demonstrou em primatas não-humanos que a edição genética por <strong>CRISPR-Cas9</strong> pode excizar o DNA proviral do HIV de células reservatório com eficiência de <strong>95%</strong> — o maior índice já obtido em modelo animal.</p>
+<p>Os 12 macacos Rhesus receberam combinação de terapia antirretroviral (ART) + CRISPR entregue por vetor viral AAV9. O CRISPR foi programado para reconhecer e cortar sequências altamente conservadas no LTR do genoma do HIV integrado no DNA celular.</p>
+<h2>O Problema das Células Reservatório</h2>
+<p>O HIV, mesmo em pacientes sob ART com carga viral indetectável, persiste em células T CD4+ de memória dormentes. Ao parar o ART, o vírus ressurge desses reservatórios. Eliminar esses reservatórios é a pedra angular para uma cura funcional.</p>
+<blockquote>Estes são os resultados mais promissores que já obtivemos em direção a uma cura do HIV. O horizonte, pela primeira vez, está visível.</blockquote>`,
+  date:'15 Mar 2026', time:'07h00', read:'6 min',
+  source:'Temple University / Nature Medicine', srcUrl:'https://phys.org',
+  featured:false, trending:false
+},{
+  id:23, cat:'Astronomia', catCls:'astronomia',
+  img: null,
+  title:'Seismologia de Saturno Revela Núcleo Difuso Estendido por Quase Todo o Planeta',
+  sub:'Ondas de densidade nos anéis de Saturno, detectadas em dados póstumos da missão Cassini, reescrevem modelos planetários',
+  excerpt:'Nova análise de dados da missão Cassini usa os anéis de Saturno como sismômetros para revelar que o "núcleo" do planeta se estende por quase toda a sua extensão, sem fronteira nítida.',
+  body:`<p>Os anéis de Saturno são, inadvertidamente, os melhores sismômetros do sistema solar. Novas análises de dados da missão <strong>Cassini</strong> identificaram ondas de densidade nos anéis causadas por modos normais de oscilação do interior de Saturno — seismologia planetária indireta.</p>
+<p>O resultado mais surpreendente: o núcleo de Saturno não é um sólido compacto, mas um <strong>núcleo difuso e estendido</strong> com raio de aproximadamente 60.000 km — ou seja, o "núcleo" se estende por quase todo o planeta, sem fronteira nítida entre núcleo rochoso e envelope de hidrogênio metálico.</p>
+<h2>Implicações para Modelos Planetários</h2>
+<p>Este resultado confirma modelos de "fuzzy cores" desenvolvidos nos últimos anos para explicar anomalias gravitacionais. A acreção de Saturno criou uma mistura gradual de rocha, gelo e hidrogênio metálico ao invés de camadas bem definidas.</p>
+<blockquote>Saturno ensina que planetas gigantes são fundamentalmente mais complexos do que esferas de gás com pedra no meio. Dados antigos, pergunta nova, resposta transformadora.</blockquote>`,
+  date:'14 Mar 2026', time:'19h00', read:'5 min',
+  source:'NASA / Cassini Archive / Icarus', srcUrl:'https://nasa.gov',
+  featured:false, trending:false
+},{
+  id:24, cat:'Exoplanetas', catCls:'exoplanetas',
+  img: null,
+  title:'Primeiro Exo-oceano Diretamente Confirmado: JWST Detecta "Ocean Glint" em Super-Terra',
+  sub:'Assinatura espectral de reflexão especular por superfície líquida detectada pela primeira vez em exoplaneta HD 40307g',
+  excerpt:'O efeito "ocean glint" — brilho especular de oceanos observado em ângulo rasante, visível na Terra a partir do espaço — foi detectado pela primeira vez num exoplaneta a 42 anos-luz.',
+  body:`<p>O JWST obteve, em março de 2026, a evidência mais direta já coletada de um oceano de água líquida na superfície de um exoplaneta. O planeta <strong>HD 40307g</strong>, uma super-Terra com 7 massas terrestres a 42 anos-luz, exibiu no espectro de luz refletida a assinatura especial chamada <em>ocean glint</em>.</p>
+<p>O ocean glint é o brilho especular de superfícies líquidas observado em ângulo rasante. Na Terra, é facilmente visível do espaço como o brilho intenso dos oceanos próximo ao terminador. A detecção exige geometria orbital favorável, que HD 40307g providenciou.</p>
+<h2>Uma Super-Terra Aquática</h2>
+<p>HD 40307g orbita na borda exterior da zona habitável de sua estrela K-anã. Modelos sugerem que o planeta pode ter atmosfera densa de CO₂ com efeito estufa suficiente para manter temperaturas acima de 0°C na maior parte de sua superfície.</p>
+<blockquote>Isso é o mais próximo que chegamos de "ver" um oceano em outro mundo. Não é uma inferência — é a luz da estrela refletida por água líquida, percorrendo 42 anos-luz até os nossos espelhos.</blockquote>`,
+  date:'14 Mar 2026', time:'07h00', read:'7 min',
+  source:'JWST / STScI / Nature', srcUrl:'https://nasa.gov',
+  featured:false, trending:true
+},{
+  id:25, cat:'Cosmologia', catCls:'cosmologia',
+  img: null,
+  title:'Bullet Cluster 2.0 Confirma Matéria Escura com Precisão 10× Superior à Original',
+  sub:'Colisão de aglomerados a z=0,6 combina lentes gravitacionais do Euclid com raios-X do Chandra para separação recorde',
+  excerpt:'Novo sistema de colisão de aglomerados fornece a confirmação mais robusta da existência de matéria escura desde o Bullet Cluster original de 2006.',
+  body:`<p>Em 2006, o Bullet Cluster forneceu a evidência mais direta de matéria escura: ao colidirem, os aglomerados mostraram que a matéria visível (gás quente, detectável em raios-X) ficou para trás, enquanto a massa gravitacional total (lentes gravitacionais) seguiu em frente — comportamento esperado para matéria escura que não interage eletromagneticamente.</p>
+<p>Uma equipe internacional identificou um sistema ainda mais favorável, denominado <strong>ACT-CL J0102-4915 B</strong>, com geometria mais limpa. A análise combinada de Euclid (lentes) e Chandra (raios-X) produz a separação mais estatisticamente significativa já medida.</p>
+<h2>Pressão sobre Modelos Alternativos</h2>
+<p>Apesar de ser "confirmação" desde 2006, céticos sempre apontaram para MOND ou gravidade emergente como alternativas. Este novo sistema é geometricamente menos susceptível a interpretações alternativas, aumentando drasticamente a pressão estatística sobre modelos sem matéria escura.</p>
+<blockquote>A matéria escura é o problema mais antigo e mais bem evidenciado da cosmologia — e ainda não sabemos do que é feita. Vinte anos de experimentos diretos no Xenon, PandaX e LUX-ZEPLIN não encontraram nada. A tensão é real e produtiva.</blockquote>`,
+  date:'13 Mar 2026', time:'19h00', read:'8 min',
+  source:'Euclid Consortium / Chandra / ApJ', srcUrl:'https://phys.org',
+  featured:false, trending:false
+}
+];;
+
+let DB = normalizeExternalPosts(window.postsData);
+if (!DB.length) DB = FALLBACK_DB;
+DB.forEach(a => a.img = getDynamicImage(a));
+
+// ============================================================
+// STATE
+// ============================================================
+let pgCurrent = 'home';
+let catFilter = 'all';
+let visN = 6;
+
+// ============================================================
+// NAVIGATION
+// ============================================================
+function nav(pg, id) {
+  // Hide all
+  ['pgHome','pgArticle','pgArchive','pgAbout','pgSearch'].forEach(p => {
+    const el = document.getElementById(p);
+    if (el) { el.style.display = 'none'; el.classList.remove('active'); }
+  });
+  pgCurrent = pg;
+  window.scrollTo({top:0,behavior:'smooth'});
+
+  if (pg === 'home') {
+    document.getElementById('pgHome').style.display = 'block';
+  } else if (pg === 'article' && id) {
+    renderArticle(id);
+    document.getElementById('pgArticle').style.display = 'block';
+  } else if (pg === 'archive') {
+    document.getElementById('pgArchive').style.display = 'block';
+    renderArchive();
+  } else if (pg === 'about') {
+    document.getElementById('pgAbout').style.display = 'block';
+  } else if (pg === 'search') {
+    document.getElementById('pgSearch').style.display = 'block';
+  }
+}
+
+// ============================================================
+// CATEGORY FILTER
+// ============================================================
+function filterCat(cat, btn) {
+  catFilter = cat;
+  visN = 6;
+  document.querySelectorAll('.cat-pill').forEach(b => b.classList.remove('on'));
+  if (btn) btn.classList.add('on');
+  else {
+    document.querySelectorAll('.cat-pill').forEach(b => {
+      if (b.textContent.trim().toLowerCase().includes(cat.toLowerCase())) b.classList.add('on');
+    });
+  }
+  nav('home');
+  renderMain();
+}
+
+// ============================================================
+// HERO
+// ============================================================
+function renderHero() {
+  const f = DB.slice(0, 3);
+  document.getElementById('heroSection').innerHTML = `
+    <div class="hero">
+      <div class="hero-lead" onclick="nav('article',${f[0].id})">
+        <img class="card-img" src="${f[0].img}" alt="${f[0].title}" loading="eager"
+          onerror="this.style.display='none';this.nextElementSibling.style.background='linear-gradient(135deg,#060a18,#0a1535)'">
+        <div class="card-overlay"></div>
+        <div class="card-body">
+          <div class="label ${f[0].catCls}">${f[0].cat}</div>
+          <h2 class="card-title">${f[0].title}</h2>
+          <p class="card-excerpt">${f[0].excerpt}</p>
+          <div class="card-meta">
+            <span>${f[0].date} · ${f[0].time}</span>
+            <span>${f[0].read} de leitura</span>
+            <span style="color:var(--gold);font-size:11px;letter-spacing:.1em;">DESTAQUE EDITORIAL</span>
+          </div>
+        </div>
+      </div>
+      ${f.slice(1).map(a => `
+        <div class="hero-sub" onclick="nav('article',${a.id})">
+          <img class="card-img" src="${a.img}" alt="${a.title}" loading="lazy"
+            onerror="this.style.display='none'">
+          <div class="card-overlay"></div>
+          <div class="card-body">
+            <div class="label ${a.catCls}">${a.cat}</div>
+            <h3 class="card-title">${a.title}</h3>
+            <p class="card-excerpt">${a.excerpt}</p>
+            <div class="card-meta"><span>${a.date}</span><span>${a.read}</span></div>
+          </div>
+        </div>
+      `).join('')}
+    </div>`;
+}
+
+// ============================================================
+// MAIN GRID
+// ============================================================
+function filtered() {
+  return catFilter === 'all' ? DB.slice(3) : DB.filter(n => n.cat === catFilter);
+}
+
+function ncHTML(a) {
+  return `<div class="nc" onclick="nav('article',${a.id})">
+    <div class="nc-img">
+      <img src="${a.img}" alt="${a.title}" loading="lazy"
+        onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#0e1220,#141c2e)'">
+    </div>
+    <div class="nc-body">
+      <div class="label ${a.catCls}">${a.cat}</div>
+      <h3 class="card-title">${a.title}</h3>
+      <p class="card-excerpt">${a.excerpt}</p>
+      <div class="card-meta"><span>${a.date}</span><span>${a.read}</span></div>
+    </div>
+  </div>`;
+}
+
+function renderMain() {
+  const arr = filtered();
+  document.getElementById('gridMain').innerHTML = arr.slice(0, Math.min(visN, arr.length)).map(ncHTML).join('');
+  document.getElementById('gridMore').innerHTML = '';
+  const btn = document.getElementById('btnLoad');
+  if (arr.length <= visN) { btn.style.display = 'none'; }
+  else { btn.style.display = 'block'; btn.textContent = `Carregar mais (${arr.length - visN} artigos)`; }
+}
+
+function loadMore() {
+  visN += 6;
+  const arr = filtered();
+  document.getElementById('gridMain').innerHTML = arr.slice(0, Math.min(visN, arr.length)).map(ncHTML).join('');
+  const btn = document.getElementById('btnLoad');
+  if (arr.length <= visN) btn.style.display = 'none';
+  else btn.textContent = `Carregar mais (${arr.length - visN} artigos)`;
+}
+
+// ============================================================
+// ARTICLE
+// ============================================================
+function renderArticle(id) {
+  const a = DB.find(x => x.id === id);
+  if (!a) return;
+  const related = DB.filter(x => x.id !== a.id && (x.cat === a.cat || x.trending)).slice(0,3);
+  document.getElementById('pgArticle').innerHTML = `
+    <div class="bc">
+      <a href="#" onclick="nav('home');return false;">Início</a>
+      <span>›</span>
+      <a href="#" onclick="filterCat('${a.cat}');return false;">${a.cat}</a>
+      <span>›</span>
+      <span style="color:var(--txt-3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:300px;">${a.title.substring(0,60)}…</span>
+    </div>
+    <div class="art-hero">
+      <img src="${a.img}" alt="${a.title}" loading="eager"
+        onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#060a18,#0a1535)'">
+      <div class="art-hero-overlay"></div>
+      <div class="art-hero-content">
+        <div class="label ${a.catCls}">${a.cat}</div>
+        <h1 class="art-title">${a.title}</h1>
+        <div class="art-meta">
+          <span>Redação Cosmos Week</span>
+          <span>${a.date} · ${a.time}</span>
+          <span>${a.read} de leitura</span>
+          <span>Fonte: ${a.source}</span>
+        </div>
+      </div>
+    </div>
+    <div class="two-col" style="margin-top:0;">
+      <div>
+        <div class="art-body" id="artBody">
+          <p style="font-size:19px;font-weight:300;color:var(--txt-2);margin-bottom:32px;line-height:1.7;border-bottom:1px solid var(--border);padding-bottom:24px;">${a.excerpt}</p>
+          ${a.body}
+          <a href="${a.srcUrl}" target="_blank" class="art-source" rel="noopener">
+            <svg width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Leia a fonte original: ${a.source}
+          </a>
+        </div>
+        <div class="ad ad-in-article">
+          <!-- AdSense In-Article 300×250 — cole aqui -->
+        </div>
+        <div class="share">
+          <span class="share-lbl">Compartilhar:</span>
+          <button class="share-btn" onclick="shareArt('twitter','${encodeURIComponent(a.title)}')">Twitter / X</button>
+          <button class="share-btn" onclick="shareArt('whatsapp','${encodeURIComponent(a.title)}')">WhatsApp</button>
+          <button class="share-btn" onclick="copyURL()">Copiar link</button>
+        </div>
+        <div class="sec-head" style="margin-top:48px;"><h2 class="sec-title">Leia Também</h2></div>
+        <div class="news-grid">${related.map(ncHTML).join('')}</div>
+      </div>
+      <aside class="sidebar">
+        <div class="ad ad-half"><!-- Sidebar 300×600 --></div>
+        <div class="widget nl-widget">
+          <div class="whead"><div class="whead-title">Newsletter Cosmos</div></div>
+          <div class="nl-text">Receba as principais descobertas do universo direto no e-mail. Grátis.</div>
+          <div class="nl-form">
+            <input type="email" placeholder="Seu e-mail" id="nlEmail2">
+            <button class="nl-btn" onclick="subscribe2()">Assinar</button>
+          </div>
+          <div class="nl-fine">Cancele quando quiser.</div>
+        </div>
+        <div class="widget"><div class="whead"><div class="whead-title">Em Alta</div></div><div class="wbody trending" id="tw2"></div></div>
+        <div class="ad ad-rect"><!-- 300×250 --></div>
+      </aside>
+    </div>`;
+  renderTrending('tw2');
+}
+
+// ============================================================
+// ARCHIVE
+// ============================================================
+function renderArchive() {
+  document.getElementById('archiveList').innerHTML = DB.map((a, i) => `
+    <div class="ci" onclick="nav('article',${a.id})">
+      <div class="ci-img">
+        <img src="${a.img}" alt="${a.title}" loading="lazy"
+          onerror="this.style.display='none';this.parentElement.style.background='var(--surface)'">
+      </div>
+      <div class="ci-body">
+        <div class="label ${a.catCls}" style="font-size:9px;">${a.cat}</div>
+        <div class="ci-title">${a.title}</div>
+        <div class="ci-meta">${a.date} · ${a.read} de leitura · ${a.source}</div>
+      </div>
+    </div>`).join('');
+}
+
+// ============================================================
+// SIDEBAR WIDGETS
+// ============================================================
+function renderCatWidget() {
+  const counts = {};
+  DB.forEach(a => { counts[a.cat] = (counts[a.cat]||0)+1; });
+  document.getElementById('catWidget').innerHTML = Object.entries(counts)
+    .sort((a,b) => b[1]-a[1])
+    .map(([c,n]) => `
+      <div class="cwi" onclick="filterCat('${c}')">
+        <span class="cwi-name">${c}</span>
+        <span class="cwi-count">${n}</span>
+      </div>`).join('');
+}
+
+function renderTrending(id = 'trendWidget') {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.innerHTML = DB.filter(a => a.trending).slice(0,5).map((a,i) => `
+    <div class="ti" onclick="nav('article',${a.id})">
+      <div class="ti-num">${i+1}</div>
+      <div>
+        <div class="ti-title">${a.title}</div>
+        <div class="ti-cat">${a.cat} · ${a.read}</div>
+      </div>
+    </div>`).join('');
+}
+
+// ============================================================
+// SEARCH
+// ============================================================
+let sTimer;
+function doSearch(q) {
+  clearTimeout(sTimer);
+  if (!q.trim()) { nav('home'); return; }
+  sTimer = setTimeout(() => {
+    const lq = q.toLowerCase();
+    const res = DB.filter(a =>
+      a.title.toLowerCase().includes(lq) ||
+      a.excerpt.toLowerCase().includes(lq) ||
+      a.cat.toLowerCase().includes(lq) ||
+      a.body.toLowerCase().includes(lq));
+    nav('search');
+    document.getElementById('searchInfo').textContent = `${res.length} resultado(s) para "${q}"`;
+    document.getElementById('searchGrid').innerHTML = res.length
+      ? res.map(ncHTML).join('')
+      : `<div style="grid-column:1/-1;text-align:center;padding:80px 0;color:var(--txt-3);">
+          <p style="font-size:15px;">Nenhum resultado para "<strong style="color:var(--txt-2)">${q}</strong>"</p>
+          <p style="margin-top:8px;font-size:13px;">Experimente: JWST, buraco negro, exoplaneta, matéria escura</p>
+        </div>`;
+  }, 280);
+}
+
+// ============================================================
+// UPDATE
+// ============================================================
+let toastTimer;
+let toastAction = null;
+
+function openUpdatedArticles() {
+  const newArticles = DB.slice(0, 6);
+  nav('search');
+  document.getElementById('searchInfo').textContent = `${newArticles.length} artigo(s) mais recentes do feed`;
+  document.getElementById('searchGrid').innerHTML = newArticles.map(ncHTML).join('');
+}
+
+function triggerUpdate() {
+  const btn = document.getElementById('btnUpdate');
+  btn.classList.add('loading');
+  btn.disabled = true;
+
+  const cacheBuster = `cb=${Date.now()}`;
+  fetch(`posts.js?${cacheBuster}`, { cache: 'no-store' })
+    .then(r => {
+      if (!r.ok) throw new Error('Falha ao buscar posts.js');
+      return r.text();
+    })
+    .then(js => {
+      const sandboxWindow = {};
+      Function('window', js + '; return window.postsData;')(sandboxWindow);
+      const fresh = normalizeExternalPosts(sandboxWindow.postsData);
+      if (fresh.length) {
+        const oldTop = new Set(DB.slice(0, 8).map(a => a.title));
+        DB = fresh;
+        const newCount = DB.filter(a => !oldTop.has(a.title)).slice(0, 6).length;
+        renderHero(); renderMain(); renderCatWidget(); renderTrending();
+        toast(
+          newCount ? `Feed atualizado — ${newCount} novo(s) artigo(s) adicionados.` : 'Feed atualizado — nenhum artigo novo desde a última checagem.',
+          newCount ? openUpdatedArticles : null
+        );
+      } else {
+        toast('Atualização concluída, mas o feed retornou vazio.');
+      }
+    })
+    .catch(() => {
+      toast('Não foi possível atualizar agora. Tente novamente em instantes.');
+    })
+    .finally(() => {
+      btn.classList.remove('loading');
+      btn.disabled = false;
+    });
+}
+
+// ============================================================
+// TOAST
+// ============================================================
+function resetToastBehavior(t) {
+  toastAction = null;
+  t.onclick = null;
+  t.onkeydown = null;
+  t.style.cursor = 'default';
+  t.setAttribute('role', 'status');
+  t.setAttribute('tabindex', '-1');
+}
+
+function toast(msg, onClick = null) {
+  const t = document.getElementById('toast');
+  document.getElementById('toastMsg').textContent = msg;
+  toastAction = typeof onClick === 'function' ? onClick : null;
+
+  if (toastAction) {
+    t.style.cursor = 'pointer';
+    t.setAttribute('role', 'button');
+    t.setAttribute('tabindex', '0');
+    t.onclick = () => {
+      const fn = toastAction;
+      t.classList.remove('show');
+      resetToastBehavior(t);
+      if (fn) fn();
+    };
+    t.onkeydown = (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        t.click();
+      }
+    };
+  } else {
+    resetToastBehavior(t);
+  }
+
+  t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => {
+    t.classList.remove('show');
+    resetToastBehavior(t);
+  }, 3500);
+}
+
+// ============================================================
+// NEWSLETTER
+// ============================================================
+function subscribe() {
+  const e = document.getElementById('nlEmail')?.value||'';
+  if (!e.includes('@')) { toast('Digite um e-mail válido.'); return; }
+  toast('Inscrito com sucesso! Bem-vindo ao Cosmos Week.');
+  document.getElementById('nlEmail').value='';
+  if(document.getElementById('nlName')) document.getElementById('nlName').value='';
+}
+function subscribe2() {
+  const e = document.getElementById('nlEmail2')?.value||'';
+  if (!e.includes('@')) { toast('Digite um e-mail válido.'); return; }
+  toast('Inscrito com sucesso!');
+  document.getElementById('nlEmail2').value='';
+}
+
+// ============================================================
+// SHARE
+// ============================================================
+function shareArt(pl, t) {
+  const u = encodeURIComponent(location.href);
+  const urls = {
+    twitter:`https://twitter.com/intent/tweet?text=${t}&url=${u}&via=CosmosWeek`,
+    whatsapp:`https://wa.me/?text=${t}%20${u}`
+  };
+  window.open(urls[pl],'_blank','width=600,height=400');
+}
+function copyURL() {
+  navigator.clipboard.writeText(location.href).then(() => toast('Link copiado.')).catch(() => toast('Ctrl+C para copiar.'));
+}
+
+// ============================================================
+// MOBILE NAV
+// ============================================================
+function toggleMob() {
+  document.getElementById('mobNav').classList.toggle('on');
+  document.getElementById('overlay').classList.toggle('on');
+}
+function closeMob() {
+  document.getElementById('mobNav').classList.remove('on');
+  document.getElementById('overlay').classList.remove('on');
+}
+
+// ============================================================
+// READING PROGRESS
+// ============================================================
+window.addEventListener('scroll', () => {
+  const h = document.documentElement.scrollHeight - window.innerHeight;
+  document.getElementById('rp').style.width = (window.scrollY/h*100)+'%';
+}, {passive:true});
+
+// ============================================================
+// INIT
+// ============================================================
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('pgHome').style.display = 'block';
+  renderHero();
+  renderMain();
+  renderCatWidget();
+  renderTrending();
+  setTimeout(() => toast('Bem-vindo ao Cosmos Week — ciência sem fronteiras.'), 1200);
+});
+</script>
+</body>
+</html>
