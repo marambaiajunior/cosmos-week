@@ -315,6 +315,210 @@ def reading_time_en(text: str) -> str:
     return f'{mins} min read'
 
 
+EDITORIAL_SKIP_HINTS = (
+    'image credit', 'photo credit', 'credit:', 'read more', 'continue reading',
+    'copyright', 'all rights reserved', 'source:', 'original source:'
+)
+
+
+def collapse_ws(text: str) -> str:
+    return re.sub(r'\s+', ' ', (text or '')).strip()
+
+
+def clip_text_nicely(text: str, max_chars: int = 1200) -> str:
+    text = collapse_ws(strip_html(text))
+    if len(text) <= max_chars:
+        return text
+    clipped = text[:max_chars].strip()
+    parts = re.split(r'(?<=[.!?])\s+', clipped)
+    if len(parts) > 1:
+        candidate = ' '.join(parts[:-1]).strip()
+        if len(candidate) >= max_chars * 0.55:
+            return candidate
+    return clipped.rsplit(' ', 1)[0].strip()
+
+
+def split_sentences(text: str) -> list[str]:
+    text = collapse_ws(strip_html(text))
+    if not text:
+        return []
+    text = re.sub(r'\s*([;:])\s*', '. ', text)
+    raw = re.split(r'(?<=[.!?])\s+', text)
+    out = []
+    for item in raw:
+        item = collapse_ws(item).strip(" \"'“”‘’")
+        if not item:
+            continue
+        out.append(item)
+    return out
+
+
+def sentence_key(text: str) -> str:
+    return re.sub(r'[^a-z0-9]+', '', normalize_text(text))
+
+
+def select_fact_sentences(title: str, summary: str, source_text: str, max_sentences: int = 4) -> list[str]:
+    pool = []
+    for block in (summary, source_text):
+        pool.extend(split_sentences(block))
+
+    title_key = sentence_key(title)
+    seen = set()
+    chosen = []
+    for sentence in pool:
+        sent = collapse_ws(sentence)
+        if not sent:
+            continue
+        low = normalize_text(sent)
+        if any(hint in low for hint in EDITORIAL_SKIP_HINTS):
+            continue
+        if len(sent) < 35 and not re.search(r'\d', sent):
+            continue
+        if len(sent) > 320:
+            continue
+        key = sentence_key(sent)
+        if not key or key in seen or key == title_key:
+            continue
+        seen.add(key)
+        chosen.append(sent)
+        if len(chosen) >= max_sentences:
+            break
+    return chosen
+
+
+def editorial_headings(lang: str = 'pt') -> tuple[str, str]:
+    if lang == 'en':
+        return ('What the story actually shows', 'What to watch next')
+    return ('O que a notícia realmente mostra', 'O que observar agora')
+
+
+def category_context(category: str, lang: str = 'pt') -> str:
+    pt = {
+        'Astronomia': 'Em astronomia, um resultado relevante quase nunca vale apenas pela manchete. O que importa é como ele melhora a reconstrução física do sistema observado, restringe modelos e acrescenta contexto para futuras medições.',
+        'Cosmologia': 'Em cosmologia, cada conjunto de dados novo pesa porque toca questões de escala máxima: expansão do universo, distribuição de matéria e consistência do modelo cosmológico padrão.',
+        'Astrofísica': 'Na astrofísica, a relevância de um anúncio depende do quanto ele aproxima observação e mecanismo físico. O objetivo não é colecionar exotismos cósmicos, mas entender processos extremos com medidas mais robustas.',
+        'Exoplanetas': 'Em exoplanetas, a pergunta correta nunca é apenas se o mundo descoberto parece interessante. O ponto central é o que os dados realmente permitem afirmar sobre massa, atmosfera, temperatura, composição e possível habitabilidade.',
+        'Física': 'Em física, manchetes impressionantes só sobrevivem ao tempo quando vêm acompanhadas de método sólido, estatística convincente e compatibilidade cuidadosa com o arcabouço teórico existente.',
+        'Biologia': 'Em biologia, a diferença entre indício e demonstração é tudo. Resultados promissores precisam ser lidos à luz do desenho experimental, da reprodutibilidade e das limitações do modelo estudado.',
+        'Química': 'Em química, avanços importantes costumam estar menos no anúncio em si do que na qualidade da evidência espectroscópica, estrutural ou cinética que sustenta a interpretação.',
+        'Ciências da Terra': 'Nas ciências da Terra, a relevância de um resultado está em conectar observações locais a processos planetários mais amplos, com atenção especial a séries temporais, causalidade e incertezas instrumentais.',
+    }
+    en = {
+        'Astronomia': 'In astronomy, a result matters for more than the headline. What counts is whether it sharpens the physical reconstruction of the observed system, constrains models and adds context for future measurements.',
+        'Cosmologia': 'In cosmology, every new dataset matters because it touches the largest-scale questions: cosmic expansion, the distribution of matter and the consistency of the standard cosmological model.',
+        'Astrofísica': 'In astrophysics, the value of an announcement depends on how well it links observation to physical mechanism. The goal is not to collect exotic objects, but to understand extreme processes with firmer measurements.',
+        'Exoplanetas': 'In exoplanet science, the right question is never just whether a newly reported world sounds exciting. What matters is what the data really support about mass, atmosphere, temperature, composition and possible habitability.',
+        'Física': 'In physics, striking headlines only age well when they come with solid method, convincing statistics and careful consistency with the existing theoretical framework.',
+        'Biologia': 'In biology, the line between a hint and a demonstration is everything. Promising results have to be read in light of experimental design, reproducibility and the limitations of the model under study.',
+        'Química': 'In chemistry, major advances often lie less in the announcement itself than in the quality of the spectroscopic, structural or kinetic evidence behind the interpretation.',
+        'Ciências da Terra': 'In Earth science, the importance of a result lies in connecting local observations to broader planetary processes, with special attention to time series, causality and instrumental uncertainty.',
+    }
+    mapping = en if lang == 'en' else pt
+    return mapping.get(category, mapping['Astronomia'])
+
+
+def build_detail_paragraph(facts: list[str], source_name: str, lang: str = 'pt') -> str:
+    details = ' '.join(facts[:2]).strip()
+    if lang == 'en':
+        if details:
+            return (
+                f'From the source material credited to {source_name}, the most useful details are these: '
+                f'{details} Read without publicity varnish, that is the part that helps separate what was directly observed, '
+                f'measured or calculated from what is still interpretation.'
+            )
+        return (
+            f'The source material attributed to {source_name} still needs to be read with the usual scientific discipline: '
+            f'what was measured, how it was measured, and how much uncertainty still surrounds the claim.'
+        )
+    if details:
+        return (
+            f'No material usado como base para esta reportagem, os detalhes mais úteis são estes: '
+            f'{details} Lido sem verniz publicitário, é isso que ajuda a separar o que foi de fato observado, '
+            f'medido ou calculado do que ainda permanece como interpretação.'
+        )
+    return (
+        f'O material atribuído a {source_name} ainda precisa ser lido com a disciplina científica básica: '
+        f'o que exatamente foi medido, como foi medido e quanta incerteza ainda cerca a afirmação.'
+    )
+
+
+def build_caution_paragraph(source_name: str, lang: str = 'pt') -> str:
+    low = normalize_text(source_name)
+    if lang == 'en':
+        if 'arxiv' in low:
+            return 'Because the source includes arXiv, the standard caution applies: a preprint can be valuable and timely, but it does not replace peer review or later independent replication.'
+        if any(tag in low for tag in ('nasa', 'esa', 'jpl', 'observatory', 'consortium')):
+            return 'Institutional releases are useful starting points, but they naturally foreground the headline result. Mature science reporting has to preserve room for caveats, uncertainty ranges and competing interpretations.'
+        return 'As with any science story, the decisive question is not only what was claimed, but what level of evidence, method and uncertainty actually supports the claim.'
+    if 'arxiv' in low:
+        return 'Como a origem inclui o arXiv, vale a ressalva padrão: preprint pode ser útil e rápido, mas não substitui revisão por pares nem confirmação independente posterior.'
+    if any(tag in low for tag in ('nasa', 'esa', 'jpl', 'observatory', 'consortium')):
+        return 'Comunicados institucionais são ótimos pontos de partida, mas naturalmente enfatizam o achado principal. Jornalismo científico maduro precisa preservar espaço para ressalvas, margens de incerteza e interpretações concorrentes.'
+    return 'Como em qualquer notícia científica, a pergunta decisiva não é apenas o que foi afirmado, mas qual nível de evidência, método e incerteza realmente sustenta a afirmação.'
+
+
+def build_next_steps_paragraph(category: str, source_name: str, lang: str = 'pt') -> str:
+    pt = {
+        'Astronomia': 'O próximo passo relevante costuma ser combinar esse resultado com novas observações, idealmente em outros comprimentos de onda, para verificar se o quadro permanece consistente.',
+        'Cosmologia': 'O teste decisivo virá da comparação com amostras maiores, calibrações independentes e análises que consigam reduzir vieses sistemáticos sem maquiar a estatística.',
+        'Astrofísica': 'Agora, o que mais importa é ver se observações adicionais, simulações e análises independentes convergem para a mesma interpretação física.',
+        'Exoplanetas': 'Daqui para frente, o que conta é obter medições independentes de atmosfera, massa, raio, temperatura e composição, porque é aí que especulação cede lugar a caracterização séria.',
+        'Física': 'Em física, o filtro verdadeiro é sempre o mesmo: mais dados, mais controle de sistemáticos e uma análise capaz de sobreviver ao escrutínio de outros grupos.',
+        'Biologia': 'Em biologia, a etapa seguinte é testar robustez, mecanismo e reprodutibilidade em modelos e condições adicionais antes de qualquer extrapolação ousada.',
+        'Química': 'Em química, o avanço se consolida quando outras técnicas e outros grupos confirmam a mesma leitura estrutural ou mecanística.',
+        'Ciências da Terra': 'Nas ciências da Terra, a confirmação mais forte vem quando a observação se encaixa em séries mais longas e em diferentes conjuntos instrumentais.'
+    }
+    en = {
+        'Astronomia': 'The next meaningful step is usually to combine this result with new observations, ideally at other wavelengths, to test whether the picture remains consistent.',
+        'Cosmologia': 'The decisive test will come from larger samples, independent calibrations and analyses that reduce systematics without massaging the statistics.',
+        'Astrofísica': 'What matters next is whether additional observations, simulations and independent analyses converge on the same physical interpretation.',
+        'Exoplanetas': 'From here on, what counts is independent atmospheric, mass, radius, temperature and composition measurements, because that is where speculation gives way to serious characterization.',
+        'Física': 'In physics, the real filter is always the same: more data, tighter control of systematics and an analysis that survives scrutiny from other groups.',
+        'Biologia': 'In biology, the next step is to test robustness, mechanism and reproducibility in additional models and conditions before any bold extrapolation.',
+        'Química': 'In chemistry, a result becomes durable when other techniques and other groups confirm the same structural or mechanistic reading.',
+        'Ciências da Terra': 'In Earth science, the strongest confirmation comes when an observation fits into longer time series and across different instrumental datasets.'
+    }
+    lead_pt = pt.get(category, pt['Astronomia'])
+    lead_en = en.get(category, en['Astronomia'])
+    if lang == 'en':
+        return f'{lead_en} That is the standard needed before a finding associated with {source_name} deserves to be treated as settled rather than merely exciting.'
+    return f'{lead_pt} Esse é o padrão exigido antes que um resultado associado a {source_name} mereça ser tratado como consolidado e não apenas como empolgante.'
+
+
+def editorial_pullquote(lang: str = 'pt') -> str:
+    if lang == 'en':
+        return 'In science reporting, the useful part is not the excitement. It is the evidence that remains standing after the excitement has passed.'
+    return 'Em divulgação científica, a parte útil não é o entusiasmo. É a evidência que continua de pé depois que o entusiasmo passa.'
+
+
+def make_body(title: str, summary: str, source_text: str, source_name: str, category: str, lang: str = 'pt') -> str:
+    title = collapse_ws(strip_html(title))
+    summary = collapse_ws(strip_html(summary))
+    source_text = clip_text_nicely(source_text or summary, 1200)
+    facts = select_fact_sentences(title, summary, source_text, max_sentences=4)
+
+    intro = summary or (facts[0] if facts else title)
+    if facts and sentence_key(intro) == sentence_key(facts[0]):
+        detail_facts = facts[1:3]
+    else:
+        detail_facts = facts[:2]
+
+    head1, head2 = editorial_headings(lang)
+    parts = []
+
+    if intro:
+        parts.append(f'<p>{html.escape(intro)}</p>')
+
+    parts.append(f'<p>{html.escape(category_context(category, lang))}</p>')
+    parts.append(f'<h2>{html.escape(head1)}</h2>')
+    parts.append(f'<p>{html.escape(build_detail_paragraph(detail_facts, source_name, lang))}</p>')
+    parts.append(f'<p>{html.escape(build_caution_paragraph(source_name, lang))}</p>')
+    parts.append(f'<blockquote>{html.escape(editorial_pullquote(lang))}</blockquote>')
+    parts.append(f'<h2>{html.escape(head2)}</h2>')
+    parts.append(f'<p>{html.escape(build_next_steps_paragraph(category, source_name, lang))}</p>')
+
+    return ''.join(parts)
+
 def clean_image_url(url: str) -> Optional[str]:
     if not url:
         return None
@@ -483,30 +687,6 @@ def infer_thematic_image(title: str, summary: str, source_name: str, category: s
     return unique[stable_index(seed, len(unique))]
 
 
-def make_body(summary: str, source_name: str, link: str, lang: str = 'pt') -> str:
-    summary = strip_html(summary)
-    parts = []
-    if summary:
-        parts.append(f'<p>{html.escape(summary)}</p>')
-
-    if lang == 'en':
-        parts.append(
-            f'<p>This article was incorporated automatically from the <strong>{html.escape(source_name)}</strong> feed. '
-            f'For the complete context, original images and any later corrections, open the original source.</p>'
-        )
-        parts.append(
-            f'<blockquote>Original source: <a href="{html.escape(link)}" target="_blank" rel="noopener">{html.escape(link)}</a></blockquote>'
-        )
-    else:
-        parts.append(
-            f'<p>Este artigo foi incorporado automaticamente do feed de <strong>{html.escape(source_name)}</strong>. '
-            f'Para contexto completo, imagens originais e eventuais correções posteriores da matéria, abra a fonte original.</p>'
-        )
-        parts.append(
-            f'<blockquote>Fonte original: <a href="{html.escape(link)}" target="_blank" rel="noopener">{html.escape(link)}</a></blockquote>'
-        )
-    return ''.join(parts)
-
 
 def parse_rss(xml_bytes: bytes, source_name: str):
     root = ET.fromstring(xml_bytes)
@@ -515,7 +695,9 @@ def parse_rss(xml_bytes: bytes, source_name: str):
         title = strip_html(item.findtext('title', default=''))
         link = (item.findtext('link', default='') or '').strip()
         description_html = item.findtext('description', default='') or ''
+        content_html = item.findtext('{http://purl.org/rss/1.0/modules/content/}encoded', default='') or description_html
         desc = strip_html(description_html)
+        full_text = clip_text_nicely(content_html or description_html, 1200)
         pub = item.findtext('pubDate', default='') or item.findtext('{http://purl.org/dc/elements/1.1/}date', default='')
         if not title or not link:
             continue
@@ -524,7 +706,8 @@ def parse_rss(xml_bytes: bytes, source_name: str):
         items.append({
             'title': title,
             'link': link,
-            'summary': truncate(desc, 320),
+            'summary': truncate(desc or full_text, 320),
+            'full_text': full_text or desc,
             'published': dt,
             'source': source_name,
             'feed_img': feed_img,
@@ -537,8 +720,10 @@ def parse_atom(xml_bytes: bytes, source_name: str):
     items = []
     for entry in root.findall('atom:entry', NS):
         title = strip_html(entry.findtext('atom:title', default='', namespaces=NS))
-        summary_html = entry.findtext('atom:summary', default='', namespaces=NS) or entry.findtext('atom:content', default='', namespaces=NS) or ''
-        summary = strip_html(summary_html)
+        summary_html = entry.findtext('atom:summary', default='', namespaces=NS) or ''
+        content_html = entry.findtext('atom:content', default='', namespaces=NS) or summary_html
+        summary = strip_html(summary_html or content_html)
+        full_text = clip_text_nicely(content_html or summary_html, 1200)
         published = entry.findtext('atom:published', default='', namespaces=NS) or entry.findtext('atom:updated', default='', namespaces=NS)
         link = ''
         for link_el in entry.findall('atom:link', NS):
@@ -550,11 +735,12 @@ def parse_atom(xml_bytes: bytes, source_name: str):
         if not title or not link:
             continue
         dt = parse_date(published)
-        feed_img = extract_atom_image(entry, link, summary_html)
+        feed_img = extract_atom_image(entry, link, summary_html or content_html)
         items.append({
             'title': title,
             'link': link,
-            'summary': truncate(summary, 320),
+            'summary': truncate(summary or full_text, 320),
+            'full_text': full_text or summary,
             'published': dt,
             'source': source_name,
             'feed_img': feed_img,
@@ -612,8 +798,19 @@ def to_post(item, idx: int):
 
     title_en = item['title']
     summary_en = item['summary']
+    source_text_en = clip_text_nicely(item.get('full_text') or summary_en, 1200)
+
     title_pt = translate_text(title_en, 'pt')
     summary_pt = translate_text(summary_en, 'pt')
+    source_text_pt = translate_text(source_text_en, 'pt')
+
+    body_pt = make_body(title_pt, summary_pt, source_text_pt, item['source'], category, 'pt')
+    body_en = make_body(title_en, summary_en, source_text_en, item['source'], category, 'en')
+
+    excerpt_pt = truncate(summary_pt or strip_html(body_pt), 220)
+    excerpt_en = truncate(summary_en or strip_html(body_en), 220)
+    sub_pt = truncate(summary_pt or excerpt_pt, 140)
+    sub_en = truncate(summary_en or excerpt_en, 140)
 
     return {
         'id': idx + 1,
@@ -625,17 +822,17 @@ def to_post(item, idx: int):
         'title_pt': title_pt,
         'title_en': title_en,
 
-        'sub': truncate(summary_pt, 140),
-        'sub_pt': truncate(summary_pt, 140),
-        'sub_en': truncate(summary_en, 140),
+        'sub': sub_pt,
+        'sub_pt': sub_pt,
+        'sub_en': sub_en,
 
-        'excerpt': truncate(summary_pt, 220),
-        'excerpt_pt': truncate(summary_pt, 220),
-        'excerpt_en': truncate(summary_en, 220),
+        'excerpt': excerpt_pt,
+        'excerpt_pt': excerpt_pt,
+        'excerpt_en': excerpt_en,
 
-        'body': make_body(summary_pt, item['source'], item['link'], 'pt'),
-        'body_pt': make_body(summary_pt, item['source'], item['link'], 'pt'),
-        'body_en': make_body(summary_en, item['source'], item['link'], 'en'),
+        'body': body_pt,
+        'body_pt': body_pt,
+        'body_en': body_en,
 
         'date': format_date_pt(dt),
         'date_pt': format_date_pt(dt),
@@ -645,9 +842,9 @@ def to_post(item, idx: int):
         'time_pt': dt.strftime('%Hh%M'),
         'time_en': dt.strftime('%H:%M UTC'),
 
-        'read': reading_time(summary_pt),
-        'read_pt': reading_time(summary_pt),
-        'read_en': reading_time_en(summary_en),
+        'read': reading_time(strip_html(body_pt)),
+        'read_pt': reading_time(strip_html(body_pt)),
+        'read_en': reading_time_en(strip_html(body_en)),
 
         'publishedIso': dt.isoformat(),
         'source': item['source'],
