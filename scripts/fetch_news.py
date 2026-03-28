@@ -422,23 +422,21 @@ def build_detail_paragraph(facts: list[str], source_name: str, lang: str = 'pt')
     if lang == 'en':
         if details:
             return (
-                f'From the source material credited to {source_name}, the most useful details are these: '
-                f'{details} Read without publicity varnish, that is the part that helps separate what was directly observed, '
-                f'measured or calculated from what is still interpretation.'
+                f'The key points are straightforward: {details} Treated carefully, these details define what was actually '
+                f'observed, measured or calculated, and they set the boundary between evidence and interpretation.'
             )
         return (
-            f'The source material attributed to {source_name} still needs to be read with the usual scientific discipline: '
-            f'what was measured, how it was measured, and how much uncertainty still surrounds the claim.'
+            'The central task is to separate the measured result from the broader interpretation around it, paying attention '
+            'to method, uncertainty and the real scope of the claim.'
         )
     if details:
         return (
-            f'No material usado como base para esta reportagem, os detalhes mais úteis são estes: '
-            f'{details} Lido sem verniz publicitário, é isso que ajuda a separar o que foi de fato observado, '
-            f'medido ou calculado do que ainda permanece como interpretação.'
+            f'Os pontos centrais são diretos: {details} Lidos com cuidado, esses elementos ajudam a delimitar o que foi '
+            f'de fato observado, medido ou calculado, e onde termina a evidência e começa a interpretação.'
         )
     return (
-        f'O material atribuído a {source_name} ainda precisa ser lido com a disciplina científica básica: '
-        f'o que exatamente foi medido, como foi medido e quanta incerteza ainda cerca a afirmação.'
+        'A tarefa central aqui é separar o resultado medido da interpretação mais ampla, com atenção ao método, às '
+        'incertezas e ao alcance real da afirmação.'
     )
 
 
@@ -481,8 +479,8 @@ def build_next_steps_paragraph(category: str, source_name: str, lang: str = 'pt'
     lead_pt = pt.get(category, pt['Astronomia'])
     lead_en = en.get(category, en['Astronomia'])
     if lang == 'en':
-        return f'{lead_en} That is the standard needed before a finding associated with {source_name} deserves to be treated as settled rather than merely exciting.'
-    return f'{lead_pt} Esse é o padrão exigido antes que um resultado associado a {source_name} mereça ser tratado como consolidado e não apenas como empolgante.'
+        return f'{lead_en} That is the standard required before a result should be treated as established rather than merely exciting.'
+    return f'{lead_pt} Esse é o padrão exigido antes que um resultado deva ser tratado como consolidado e não apenas como empolgante.'
 
 
 def editorial_pullquote(lang: str = 'pt') -> str:
