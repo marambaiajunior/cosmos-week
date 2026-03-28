@@ -25,9 +25,10 @@ SITE_URL = os.getenv('COSMOS_SITE_URL', 'https://marambaiajunior.github.io/cosmo
 SITE_NAME = 'Cosmos Week'
 SITE_DESCRIPTION_PT = 'Portal de jornalismo científico com foco em astronomia, astrofísica, cosmologia e ciência de fronteira.'
 SITE_DESCRIPTION_EN = 'Science journalism portal focused on astronomy, astrophysics, cosmology and frontier research.'
-MAX_POSTS = 18
+MAX_POSTS = 28
 MAX_POSTS_PER_SOURCE = 6
-MAX_PREPRINTS = 3
+MAX_PREPRINTS = 10
+MIN_POSTS_PER_CATEGORY = 1
 USER_AGENT = 'CosmosWeekBot/4.0 (+https://github.com/marambaiajunior/cosmos-week)'
 REQUEST_TIMEOUT = 30
 PAGE_TIMEOUT = 20
@@ -125,10 +126,10 @@ CATEGORY_RULES = [
     ('Exoplanetas', ['exoplanet', 'exoplaneta', 'biosignature', 'hycean', 'trappist', 'k2-18', 'habitable']),
     ('Cosmologia', ['cosmology', 'cosmologia', 'dark energy', 'energia escura', 'dark matter', 'matter power', 'cmb', 'hubble tension', 'inflation']),
     ('Astrofísica', ['black hole', 'buraco negro', 'neutron star', 'nêutron', 'gravitational wave', 'kilonova', 'supernova', 'quasar', 'fast radio burst', 'frb', 'magnetar', 'pulsar']),
-    ('Física', ['physics', 'quânt', 'quantum', 'cern', 'lhc', 'higgs', 'quark', 'muon', 'particle', 'plasma', 'photonic', 'perovskite']),
-    ('Ciências da Terra', ['earth', 'climate', 'sea level', 'atmospheric', 'weather', 'geodynamo', 'magnetic field', 'magnetosphere', 'earth science', 'river', 'ocean']),
-    ('Biologia', ['biology', 'biologia', 'microbe', 'life', 'crispr', 'archaea', 'hiv', 'genetic', 'cell']),
-    ('Química', ['chemistry', 'química', 'molecule', 'molecular', 'spectroscopy', 'ribose', 'chemical', 'ice chemistry']),
+    ('Física', ['physics', 'física', 'quânt', 'quantum', 'cern', 'lhc', 'higgs', 'quark', 'muon', 'particle', 'plasma', 'photonic', 'perovskite', 'superconductor', 'materials']),
+    ('Ciências da Terra', ['earth', 'climate', 'sea level', 'atmospheric', 'atmosphere', 'weather', 'geodynamo', 'magnetic field', 'magnetosphere', 'earth science', 'river', 'ocean', 'environment', 'geophysics']),
+    ('Biologia', ['biology', 'biologia', 'biomedical', 'microbe', 'life', 'crispr', 'archaea', 'hiv', 'genetic', 'genome', 'protein', 'cell', 'disease']),
+    ('Química', ['chemistry', 'química', 'molecule', 'molecular', 'spectroscopy', 'ribose', 'chemical', 'catalyst', 'reaction', 'polymer', 'ice chemistry']),
     ('Astronomia', ['galaxy', 'galax', 'nebula', 'milky way', 'moon', 'mars', 'jupiter', 'saturn', 'comet', 'asteroid', 'telescope', 'artemis', 'jwst', 'webb', 'hubble', 'rubin', 'observatory']),
 ]
 
@@ -212,7 +213,14 @@ SOURCES = [
     SourceConfig('JPL News', 'https://www.jpl.nasa.gov/feeds/news/', 'rss', 'agency', 93),
     SourceConfig('ESA Space Science', 'https://www.esa.int/rssfeed/Our_Activities/Space_Science', 'rss', 'agency', 90),
     SourceConfig('ESA Space News', 'https://www.esa.int/rssfeed/Our_Activities/Space_News', 'rss', 'agency', 80),
+    SourceConfig('NASA Earth Observatory - Image of the Day', 'https://science.nasa.gov/feed/earth-observatory/image-of-the-day', 'rss', 'agency', 77),
+    SourceConfig('NASA Earth Observatory - Natural Events', 'https://science.nasa.gov/feed/earth-observatory/natural-events', 'rss', 'agency', 79),
+    SourceConfig('NIH News Releases', 'https://www.nih.gov/news-releases/feed.xml', 'rss', 'agency', 78),
     SourceConfig('arXiv Astrophysics', 'https://export.arxiv.org/api/query?search_query=(cat:astro-ph.*+AND+(all:exoplanet+OR+all:galaxy+OR+all:%22dark+matter%22+OR+all:%22dark+energy%22+OR+all:%22black+hole%22+OR+all:cosmology+OR+all:%22gravitational+wave%22+OR+all:supernova+OR+all:jwst+OR+all:euclid+OR+all:mars+OR+all:moon))&sortBy=submittedDate&sortOrder=descending&max_results=18', 'atom', 'preprint', 54),
+    SourceConfig('arXiv Physics Frontiers', 'https://export.arxiv.org/api/query?search_query=((cat:quant-ph+OR+cat:hep-ph+OR+cat:hep-ex+OR+cat:physics.plasm-ph+OR+cat:cond-mat.mtrl-sci)+AND+(all:physics+OR+all:quantum+OR+all:particle+OR+all:muon+OR+all:plasma+OR+all:higgs+OR+all:quark+OR+all:superconductor))&sortBy=submittedDate&sortOrder=descending&max_results=18', 'atom', 'preprint', 52),
+    SourceConfig('arXiv Quantitative Biology', 'https://export.arxiv.org/api/query?search_query=(cat:q-bio.*+AND+(all:biology+OR+all:cell+OR+all:genome+OR+all:protein+OR+all:disease+OR+all:microbe+OR+all:evolution))&sortBy=submittedDate&sortOrder=descending&max_results=18', 'atom', 'preprint', 49),
+    SourceConfig('arXiv Chemical Physics', 'https://export.arxiv.org/api/query?search_query=((cat:physics.chem-ph+OR+cat:cond-mat.soft)+AND+(all:chemistry+OR+all:chemical+OR+all:molecule+OR+all:catalyst+OR+all:spectroscopy+OR+all:reaction+OR+all:polymer))&sortBy=submittedDate&sortOrder=descending&max_results=18', 'atom', 'preprint', 48),
+    SourceConfig('arXiv Geophysics', 'https://export.arxiv.org/api/query?search_query=((cat:physics.geo-ph+OR+cat:physics.ao-ph)+AND+(all:earth+OR+all:climate+OR+all:ocean+OR+all:atmosphere+OR+all:geophysics+OR+all:magnetic+OR+all:weather))&sortBy=submittedDate&sortOrder=descending&max_results=18', 'atom', 'preprint', 50),
 ]
 
 TRANSLATION_CACHE: dict[tuple[str, str], str] = {}
@@ -686,33 +694,65 @@ def dedupe_and_rank(items: list[dict]) -> list[dict]:
     seen = set()
     per_source = Counter()
     preprints = 0
+    per_category = Counter()
     ranked = []
     decorated = []
+    category_order = [
+        'Astronomia', 'Cosmologia', 'Astrofísica', 'Exoplanetas',
+        'Física', 'Biologia', 'Química', 'Ciências da Terra'
+    ]
+
     for item in items:
         profile = compute_editorial_profile(item)
         item['editorial_profile'] = profile
         decorated.append(item)
+
     decorated.sort(key=lambda x: (x['editorial_profile']['overall'], x['editorial_profile']['relevance_score'], x['published']), reverse=True)
-    for item in decorated:
+
+    def can_take(item: dict) -> bool:
         key = re.sub(r'\W+', '', normalize_text(item['title']))
         if key in seen:
-            continue
+            return False
         if is_noise(item):
-            continue
+            return False
         if per_source[item['source']] >= MAX_POSTS_PER_SOURCE:
-            continue
+            return False
         if item['source_type'] == 'preprint' and preprints >= MAX_PREPRINTS:
-            continue
+            return False
+        if len(ranked) >= MAX_POSTS:
+            return False
+        return True
+
+    def take(item: dict) -> None:
+        nonlocal preprints
+        key = re.sub(r'\W+', '', normalize_text(item['title']))
         seen.add(key)
         item['score'] = item['editorial_profile']['overall']
         ranked.append(item)
         per_source[item['source']] += 1
+        per_category[item['editorial_profile']['category']] += 1
         if item['source_type'] == 'preprint':
             preprints += 1
+
+    for category in category_order:
+        if MIN_POSTS_PER_CATEGORY <= 0:
+            break
+        if per_category[category] >= MIN_POSTS_PER_CATEGORY:
+            continue
+        for item in decorated:
+            if item['editorial_profile']['category'] != category:
+                continue
+            if can_take(item):
+                take(item)
+                break
+
+    for item in decorated:
+        if can_take(item):
+            take(item)
         if len(ranked) >= MAX_POSTS:
             break
-    return ranked
 
+    return ranked
 
 def split_sentences(text: str) -> list[str]:
     text = collapse_ws(strip_html(text))
@@ -817,115 +857,77 @@ def trimmed_fact(text: str, limit: int = 240) -> str:
     return truncate(text, limit)
 
 
-def clean_body_sentence(text: str) -> str:
-    text = collapse_ws(strip_html(text))
-    text = re.sub(r'^[A-Z][^:]{0,28}:\s+', '', text)
-    text = re.sub(r'(?:\.{3}|…)+\s*$', '', text)
-    return text.strip(' "“”‘’')
-
-
-def body_fact(text: str, fallback: str = '') -> str:
-    candidate = clean_body_sentence(text)
-    if candidate:
-        return candidate
-    return clean_body_sentence(fallback)
-
-
-def append_sentence(base: str, extra: str) -> str:
-    base = collapse_ws(base)
-    extra = collapse_ws(extra)
-    if not base:
-        return extra
-    if not extra:
-        return base
-    if re.search(r'[.!?]$', base):
-        return f'{base} {extra}'
-    return f'{base}. {extra}'
-
-
 def compose_lede(title: str, summary: str, facts: list[str], source_type: str, lang: str, seed: str) -> str:
-    summary = clean_body_sentence(summary)
-    first_fact = body_fact(facts[0], summary) if facts else summary
-    second_fact = body_fact(facts[1], '') if len(facts) > 1 else ''
-
+    summary = collapse_ws(summary)
+    fact = trimmed_fact(facts[0], 200) if facts else summary
     if lang == 'pt':
         if source_type == 'preprint':
             options = [
-                first_fact or summary,
-                append_sentence(first_fact, 'O trabalho ainda circula como preprint e precisa ser lido como resultado provisório.') if first_fact else summary,
-                append_sentence(first_fact, 'Por enquanto, esse é o ponto central que o texto técnico sustenta.') if first_fact else summary,
+                f'{summary} Por enquanto, este é o núcleo do resultado em circulação técnica.',
+                f'{summary} É isso que o novo preprint realmente coloca em discussão.',
+                f'{summary} Antes de qualquer entusiasmo extra, é esse o ponto factual do novo trabalho.',
             ]
         elif source_type == 'agency':
             options = [
-                first_fact or summary,
-                append_sentence(first_fact, 'É isso que a atualização institucional realmente acrescenta ao tema.') if first_fact else summary,
-                append_sentence(first_fact, 'Esse é o dado que vale separar do restante do anúncio.') if first_fact else summary,
+                f'{summary} É a partir desse eixo que a atualização mais recente merece ser lida.',
+                f'{summary} Por trás do anúncio institucional, este é o dado que realmente sustenta a história.',
+                f'{summary} Em linguagem de redação, é esse o ponto que transforma a atualização em notícia e não apenas em comunicado.',
             ]
         else:
             options = [
-                first_fact or summary,
-                append_sentence(first_fact, 'Esse é o núcleo do resultado apresentado.') if first_fact else summary,
-                append_sentence(first_fact, 'É a partir daqui que a discussão científica ganha tração.') if first_fact else summary,
+                f'{summary} Esse é o núcleo do material mais recente.',
+                f'{summary} É a partir desse resultado que a discussão científica realmente avança agora.',
+                f'{summary} No centro desta história está exatamente esse resultado: {fact}',
             ]
-        if second_fact and normalize_text(second_fact) != normalize_text(first_fact):
-            options.append(append_sentence(first_fact, second_fact))
     else:
         if source_type == 'preprint':
             options = [
-                first_fact or summary,
-                append_sentence(first_fact, 'The work still circulates as a preprint and should be read as a provisional result.') if first_fact else summary,
-                append_sentence(first_fact, 'For now, that is the central point the technical text actually supports.') if first_fact else summary,
+                f'{summary} For now, that is the core of the result circulating as a technical preprint.',
+                f'{summary} That is what the new preprint is actually putting on the table.',
+                f'{summary} Before extra excitement is added, that is the factual center of the new work.',
             ]
         elif source_type == 'agency':
             options = [
-                first_fact or summary,
-                append_sentence(first_fact, 'That is what the institutional update actually adds to the subject.') if first_fact else summary,
-                append_sentence(first_fact, 'That is the part worth separating from the surrounding announcement.') if first_fact else summary,
+                f'{summary} That is the axis around which the latest update deserves to be read.',
+                f'{summary} Beneath the institutional announcement, that is the point that genuinely supports the story.',
+                f'{summary} In newsroom terms, that is what turns the update into a story rather than just a release.',
             ]
         else:
             options = [
-                first_fact or summary,
-                append_sentence(first_fact, 'That is the core of the reported result.') if first_fact else summary,
-                append_sentence(first_fact, 'This is where the scientific discussion begins to move.') if first_fact else summary,
+                f'{summary} That is the core of the latest material.',
+                f'{summary} This is the result from which the scientific discussion genuinely moves forward.',
+                f'{summary} At the center of this story is a straightforward point: {fact}',
             ]
-        if second_fact and normalize_text(second_fact) != normalize_text(first_fact):
-            options.append(append_sentence(first_fact, second_fact))
-
-    options = [collapse_ws(option) for option in options if collapse_ws(option)]
-    return stable_pick(options, seed + source_type) if options else summary or title
+    return stable_pick(options, seed + source_type)
 
 
 def build_fact_paragraph(summary: str, facts: list[str], category: str, source_type: str, lang: str, seed: str) -> str:
     useful = distinct_facts(facts, 3)
-    first = body_fact(useful[0], summary) if useful else body_fact(summary)
-    second = body_fact(useful[1], '') if len(useful) > 1 else ''
-
+    first = trimmed_fact(useful[0], 230) if useful else trimmed_fact(summary, 230)
+    second = trimmed_fact(useful[1], 220) if len(useful) > 1 else ''
     if lang == 'pt':
         openers = [
-            'Lido sem a espuma do release, o material mostra uma base factual relativamente clara.',
-            'Quando se olha para o texto com calma, a sustentação da notícia aparece com mais nitidez.',
-            'A leitura mais cuidadosa ajuda a separar o dado principal do que é apenas enquadramento institucional.',
+            'Quando o material é lido sem pressa, a estrutura factual fica bem menos nebulosa.',
+            'A leitura cuidadosa da base revela rapidamente onde a história realmente se apoia.',
+            'Separada a manchete do restante, a evidência disponível fica mais fácil de enxergar.',
         ]
         closing = {
-            'preprint': ' Isso mantém a discussão dentro do que o trabalho realmente mostra, sem tratar hipótese em circulação como consenso.',
-            'agency': ' Isso ajuda a distinguir o que já foi observado do que ainda está sendo apresentado em chave institucional.',
-            'journal': ' É esse conjunto que delimita o alcance do resultado e evita uma interpretação maior do que a evidência comporta.',
+            'preprint': ' Isso ajuda a manter a discussão dentro do que o texto técnico de fato entrega, sem transformá-lo prematuramente em consenso.',
+            'agency': ' Isso delimita o que é evidência, o que é cronograma e o que ainda pertence mais ao campo do anúncio do que ao da confirmação.',
+            'journal': ' É esse conjunto que define o alcance real do resultado e impede uma leitura maior do que a evidência suporta.',
         }[source_type]
     else:
         openers = [
-            'Read without release-style padding, the material shows a fairly clear factual base.',
-            'A calmer reading makes the support behind the story easier to see.',
-            'A closer look helps separate the main datum from the surrounding institutional framing.',
+            'Once the material is read carefully, its factual structure becomes much less hazy.',
+            'A close reading of the source quickly shows where the story actually rests.',
+            'Once the headline is separated from everything around it, the available evidence is easier to see.',
         ]
         closing = {
-            'preprint': ' That keeps the discussion inside what the work actually shows, rather than treating a circulating hypothesis as consensus.',
-            'agency': ' That helps distinguish what has actually been observed from what is still being presented in institutional language.',
-            'journal': ' That is what defines the reach of the result and keeps interpretation from outrunning the evidence.',
+            'preprint': ' That helps keep the discussion inside what the technical text actually delivers, rather than promoting it too early into consensus.',
+            'agency': ' That separates evidence from schedule and from the portion of the story that still belongs more to announcement than to confirmation.',
+            'journal': ' That is what defines the real scope of the result and keeps the reading from outrunning the evidence.',
         }[source_type]
-
-    pieces = [stable_pick(openers, seed + category)]
-    if first:
-        pieces.append(first)
+    pieces = [stable_pick(openers, seed + category), first]
     if second and normalize_text(second) != normalize_text(first):
         pieces.append(second)
     return ' '.join(piece for piece in pieces if piece) + closing
@@ -934,70 +936,70 @@ def build_fact_paragraph(summary: str, facts: list[str], category: str, source_t
 def build_context_bridge(category: str, lang: str, seed: str) -> str:
     pt = {
         'Astronomia': [
-            'A relevância aparece quando a observação começa a alterar a leitura física do objeto ou do sistema.',
-            'O ponto importante aqui é o que essa observação muda na reconstrução do cenário astronômico.',
+            'É aí que a notícia deixa de ser apenas observacional e passa a ter peso interpretativo.',
+            'Esse é o ponto em que a história entra no terreno mais sério da inferência astronômica.',
         ],
         'Cosmologia': [
-            'A importância do tema depende de como ele conversa com questões maiores do modelo cosmológico.',
-            'O interesse real está em saber se isso desloca algo nas grandes perguntas da cosmologia.',
+            'É aí que a discussão encosta nas perguntas mais amplas do modelo cosmológico.',
+            'É nesse ponto que a notícia toca as engrenagens conceituais da cosmologia atual.',
         ],
         'Astrofísica': [
-            'O valor da notícia cresce quando ela ajuda a ligar descrição observacional e mecanismo físico.',
-            'A parte realmente importante é o quanto isso esclarece o mecanismo por trás do fenômeno.',
+            'É nesse trecho que a matéria ganha densidade física de verdade.',
+            'É aqui que a leitura precisa migrar da descrição para o mecanismo.',
         ],
         'Exoplanetas': [
-            'Aqui o essencial é sair do fascínio fácil e perguntar o que foi realmente caracterizado.',
-            'O tema só ganha densidade quando os parâmetros observáveis entram no centro da leitura.',
+            'É aqui que o fascínio popular precisa dar lugar à caracterização cuidadosa.',
+            'É nesse ponto que a conversa precisa sair do imaginário e voltar aos parâmetros observáveis.',
         ],
         'Física': [
-            'Nesse tipo de material, o peso da notícia está menos no anúncio e mais na consistência do método.',
-            'O que importa aqui é o quanto o resultado aguenta escrutínio metodológico.',
+            'É aqui que o rigor metodológico pesa mais do que o impacto da manchete.',
+            'É nesse momento que a leitura jornalística precisa acompanhar o método e não o brilho do anúncio.',
         ],
         'Biologia': [
-            'A relevância depende de distinguir sinal experimental, mecanismo e alcance real da conclusão.',
-            'O valor do resultado aparece quando se mede com cuidado o que ele explica e o que ele não explica.',
+            'É nesse trecho que a diferença entre pista experimental e conclusão ampla precisa ficar nítida.',
+            'É aqui que a leitura cuidadosa impede que um resultado localizado vire promessa universal.',
         ],
         'Química': [
-            'O ponto central é saber se a caracterização apresentada é robusta o bastante para sustentar a interpretação.',
-            'A novidade só importa de verdade quando a base analítica acompanha a ambição do enunciado.',
+            'É aqui que a robustez da caracterização passa a valer mais do que a novidade do enunciado.',
+            'É nesse ponto que a solidez analítica separa avanço real de formulação chamativa.',
         ],
         'Ciências da Terra': [
-            'A leitura fica mais forte quando o dado é colocado dentro de séries e processos mais amplos.',
-            'A relevância aparece quando o resultado deixa de ser episódico e passa a dialogar com o sistema terrestre como um todo.',
+            'É aqui que a notícia precisa ser conectada a séries históricas e não a um instante isolado.',
+            'É nesse ponto que a leitura ganha valor ao ser encaixada em processos mais amplos do sistema terrestre.',
         ],
     }
     en = {
         'Astronomia': [
-            'Its relevance appears when the observation starts to change the physical reading of the object or system.',
-            'What matters here is what this observation changes in the reconstruction of the astronomical setting.',
+            'That is where the story stops being merely observational and starts to gain interpretive weight.',
+            'This is the point at which the story enters the more serious terrain of astronomical inference.',
         ],
         'Cosmologia': [
-            'Its importance depends on how it connects with larger questions inside the cosmological model.',
-            'The real interest lies in whether this shifts anything in the large questions of cosmology.',
+            'That is where the discussion touches the largest questions inside the cosmological model.',
+            'This is the point at which the story reaches the conceptual machinery of contemporary cosmology.',
         ],
         'Astrofísica': [
-            'The value of the story grows when it helps connect observational description with physical mechanism.',
-            'The truly important part is how much this clarifies the mechanism behind the phenomenon.',
+            'This is where the story gains real physical density.',
+            'This is the point where the reading has to move from description to mechanism.',
         ],
         'Exoplanetas': [
-            'Here the essential move is to leave easy fascination aside and ask what was actually characterized.',
-            'The subject gains substance only when observable parameters move to the center of the reading.',
+            'This is where popular fascination has to give way to careful characterization.',
+            'At this point, the conversation needs to leave imagination behind and return to observable parameters.',
         ],
         'Física': [
-            'In this kind of material, the weight of the story lies less in the announcement and more in methodological consistency.',
-            'What matters here is how well the result holds up under methodological scrutiny.',
+            'This is where methodological rigor matters more than headline impact.',
+            'At this stage, journalistic reading has to follow the method rather than the glow of the announcement.',
         ],
         'Biologia': [
-            'Its relevance depends on separating experimental signal, mechanism and the actual reach of the conclusion.',
-            'The value of the result appears when one measures carefully what it explains and what it does not.',
+            'This is where the line between experimental hint and broad conclusion has to become explicit.',
+            'At this stage, careful reading prevents a local result from turning into a universal promise.',
         ],
         'Química': [
-            'The central point is whether the reported characterization is robust enough to sustain the interpretation.',
-            'Novelty matters only when the analytical base can support the ambition of the claim.',
+            'This is where the strength of the characterization matters more than the novelty of the claim.',
+            'At this point, analytical solidity separates a real advance from a catchy formulation.',
         ],
         'Ciências da Terra': [
-            'The reading becomes stronger when the datum is placed inside broader series and processes.',
-            'Its relevance appears when the result stops being episodic and starts speaking to the Earth system as a whole.',
+            'This is where the story has to be connected to historical series rather than to a single moment.',
+            'At this point, the reading becomes more useful when it is fitted into broader Earth-system processes.',
         ],
     }
     mapping = en if lang == 'en' else pt
@@ -1117,17 +1119,17 @@ def build_pull_quote(summary: str, facts: list[str], source_type: str, lang: str
 
 def section_heading(kind: str, lang: str, category: str, seed: str) -> str:
     pt = {
-        'evidence': ['Base factual'],
-        'relevance': ['Contexto'],
-        'limits': ['Cautelas'],
+        'evidence': ['Onde a evidência está', 'O que o material entrega de fato', 'O que, de fato, saiu do papel'],
+        'relevance': ['Por que isso entra no radar', 'Onde está a relevância', 'Por que vale atenção agora'],
+        'limits': ['O que ainda não está resolvido', 'As reservas necessárias', 'O que continua em aberto'],
     }
     en = {
-        'evidence': ['Factual basis'],
-        'relevance': ['Context'],
-        'limits': ['Cautions'],
+        'evidence': ['Where the evidence sits', 'What the material actually delivers', 'What has genuinely been established'],
+        'relevance': ['Why this enters the radar', 'Where the relevance lies', 'Why this deserves attention now'],
+        'limits': ['What remains unresolved', 'The necessary reservations', 'What is still open'],
     }
     mapping = en if lang == 'en' else pt
-    return mapping[kind][0]
+    return stable_pick(mapping[kind], seed + kind + category + lang)
 
 
 def build_highlights(title: str, summary: str, facts: list[str], source_type: str, lang: str) -> list[str]:
@@ -1157,41 +1159,61 @@ def build_highlights(title: str, summary: str, facts: list[str], source_type: st
 
 def build_body(title: str, summary: str, facts: list[str], category: str, source: str, source_type: str, lang: str) -> str:
     seed = title + lang
-    useful = distinct_facts(facts, 5)
+    useful = distinct_facts(facts, 4)
     lede = compose_lede(title, summary, useful, source_type, lang, seed)
     evidence_paragraph = build_fact_paragraph(summary, useful, category, source_type, lang, seed)
     bridge = build_context_bridge(category, lang, seed)
     why = category_context(category, lang)
     caution = build_limits_paragraph(source_type, caution_text(source_type, lang), lang, seed)
     next_steps = next_steps_text(category, source_type, lang)
+    quote = build_pull_quote(summary, useful, source_type, lang, seed)
+    secondary = useful[1] if len(useful) > 1 else ''
+    tertiary = useful[2] if len(useful) > 2 else ''
 
-    secondary = body_fact(useful[1], '') if len(useful) > 1 else ''
-    tertiary = body_fact(useful[2], '') if len(useful) > 2 else ''
-    quaternary = body_fact(useful[3], '') if len(useful) > 3 else ''
+    evidence_heading = section_heading('evidence', lang, category, seed)
+    relevance_heading = section_heading('relevance', lang, category, seed)
+    limits_heading = section_heading('limits', lang, category, seed)
 
-    body = [f'<p>{html.escape(lede)}</p>']
-
-    if evidence_paragraph:
-        body.append(f'<p>{html.escape(evidence_paragraph)}</p>')
-
-    fact_block = []
-    for candidate in (secondary, tertiary, quaternary):
-        if candidate and normalize_text(candidate) not in {normalize_text(lede), normalize_text(evidence_paragraph)}:
-            if candidate not in fact_block:
-                fact_block.append(candidate)
-        if len(fact_block) >= 2:
-            break
-    if fact_block:
-        body.append(f'<p>{html.escape(" ".join(fact_block))}</p>')
-
-    context_paragraph = collapse_ws(f'{bridge} {why}')
-    if context_paragraph:
-        body.append(f'<p>{html.escape(context_paragraph)}</p>')
-
-    closing_parts = [part for part in (caution, next_steps) if collapse_ws(part)]
-    if closing_parts:
-        body.append(f'<p>{html.escape(" ".join(closing_parts))}</p>')
-
+    if lang == 'pt':
+        body = [
+            f'<p>{html.escape(lede)}</p>',
+            f'<p>{html.escape(evidence_paragraph)}</p>',
+            f'<h2>{html.escape(evidence_heading)}</h2>',
+        ]
+        if secondary:
+            body.append(f'<p>{html.escape(trimmed_fact(secondary, 260))}</p>')
+        else:
+            body.append(f'<p>{html.escape(trimmed_fact(summary, 250))}</p>')
+        if tertiary and normalize_text(tertiary) not in {normalize_text(secondary), normalize_text(summary)}:
+            body.append(f'<p>{html.escape(trimmed_fact(tertiary, 260))}</p>')
+        body.extend([
+            f'<h2>{html.escape(relevance_heading)}</h2>',
+            f'<p>{html.escape(bridge)} {html.escape(why)}</p>',
+            f'<blockquote>{html.escape(quote)}</blockquote>',
+            f'<h2>{html.escape(limits_heading)}</h2>',
+            f'<p>{html.escape(caution)}</p>',
+            f'<p>{html.escape(next_steps)}</p>',
+        ])
+    else:
+        body = [
+            f'<p>{html.escape(lede)}</p>',
+            f'<p>{html.escape(evidence_paragraph)}</p>',
+            f'<h2>{html.escape(evidence_heading)}</h2>',
+        ]
+        if secondary:
+            body.append(f'<p>{html.escape(trimmed_fact(secondary, 260))}</p>')
+        else:
+            body.append(f'<p>{html.escape(trimmed_fact(summary, 250))}</p>')
+        if tertiary and normalize_text(tertiary) not in {normalize_text(secondary), normalize_text(summary)}:
+            body.append(f'<p>{html.escape(trimmed_fact(tertiary, 260))}</p>')
+        body.extend([
+            f'<h2>{html.escape(relevance_heading)}</h2>',
+            f'<p>{html.escape(bridge)} {html.escape(why)}</p>',
+            f'<blockquote>{html.escape(quote)}</blockquote>',
+            f'<h2>{html.escape(limits_heading)}</h2>',
+            f'<p>{html.escape(caution)}</p>',
+            f'<p>{html.escape(next_steps)}</p>',
+        ])
     return ''.join(body)
 
 
