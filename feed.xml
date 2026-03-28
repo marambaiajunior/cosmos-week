@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cosmos Week</title>
+    <link>https://marambaiajunior.github.io/cosmos-week/</link>
+    <description>Portal de jornalismo científico em português com foco em astronomia, astrofísica, cosmologia e ciência de fronteira.</description>
+    <language>pt-BR</language>
+    <generator>CosmosWeekBot 4.0</generator>
+  </channel>
+</rss>
