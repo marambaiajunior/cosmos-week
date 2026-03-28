@@ -301,6 +301,12 @@
       min-width: max-content;
       will-change: transform;
       animation: ticker 60s linear infinite;
+      animation-play-state: running;
+    }
+    .ticker:hover .ticker-track,
+    .ticker:focus-within .ticker-track,
+    .ticker-track:hover {
+      animation-play-state: paused;
     }
     .ticker-viewport {
       overflow: hidden;
@@ -1033,13 +1039,13 @@
           </div>
           <div class="story-grid" id="latestGrid"></div>
 
-          <div class="section-head" style="margin-top:34px;">
+          <div class="section-head" id="preprintsSectionHead" style="margin-top:34px; display:none;">
             <div>
               <div class="section-title" id="preprintsSectionTitle">Radar de preprints</div>
               <div class="section-kicker" id="preprintsSectionKicker">Resultados provisórios, identificados como não revisados por pares.</div>
             </div>
           </div>
-          <div class="story-grid" id="preprintGrid"></div>
+          <div class="story-grid" id="preprintGrid" style="display:none;"></div>
         </div>
 
         <aside class="sidebar">
@@ -1478,18 +1484,17 @@ function averageVisibleScore(key, filterFn = null) {
 }
 
 
+
+function heroPostsForCurrentCategory() {
+  const regular = filteredRegularPosts();
+  const preprints = filteredPreprints();
+  const source = regular.length ? regular : preprints;
+  const featured = source.filter(post => post.featured).slice(0, 3);
+  return featured.length >= 3 ? featured : source.slice(0, 3);
+}
+
 function renderBadgeRow(post, extra = '') {
-  const sourceTypeLabel = currentLang === 'en' ? (post.sourceTypeLabel_en || post.sourceTypeLabel) : (post.sourceTypeLabel_pt || post.sourceTypeLabel);
-  const evidence = evidenceLabelFor(post);
-  const band = editorialBandLabelFor(post);
-  return `
-    <div class="label-row">
-      <span class="label ${post.catCls || ''}">${prettyCategory(post.cat)}</span>
-      <span class="meta-chip">${sourceTypeLabel}</span>
-      ${band ? `<span class="meta-chip">${band}</span>` : ''}
-      ${evidence ? `<span class="status-chip ${post.isPreprint ? 'preprint' : ''}">${evidence}</span>` : ''}
-      ${extra}
-    </div>`;
+  return '';
 }
 
 
@@ -1522,9 +1527,7 @@ function renderBadgeRow(post, extra = '') {
 
     function renderHero() {
       const mount = document.getElementById('heroMount');
-      const regular = filteredRegularPosts();
-      const featured = regular.filter(post => post.featured).slice(0, 3);
-      const pool = featured.length >= 3 ? featured : regular.slice(0, 3);
+      const pool = heroPostsForCurrentCategory();
       if (!pool.length) {
         mount.innerHTML = '';
         return;
@@ -1567,12 +1570,21 @@ function renderBadgeRow(post, extra = '') {
       renderHero();
       const regular = filteredRegularPosts();
       const preprints = filteredPreprints();
-      const heroSlugs = new Set(regular.filter(post => post.featured).slice(0, 3).map(post => post.slug));
-      const latest = regular.filter(post => !heroSlugs.has(post.slug)).slice(0, 9);
+      const heroSlugs = new Set(heroPostsForCurrentCategory().map(post => post.slug));
+      const latestBase = currentCategory === 'all'
+        ? regular.filter(post => !heroSlugs.has(post.slug))
+        : [...regular.filter(post => !heroSlugs.has(post.slug)), ...preprints.filter(post => !heroSlugs.has(post.slug))];
+      const latest = latestBase.slice(0, 9);
       document.getElementById('latestGrid').innerHTML = latest.map(cardMarkup).join('');
-      document.getElementById('preprintGrid').innerHTML = preprints.length
-        ? preprints.slice(0, 6).map(cardMarkup).join('')
-        : `<div class="search-empty" style="grid-column:1/-1;">${currentLang === 'en' ? 'No preprints passed the homepage relevance filter in this cycle.' : 'Nenhum preprint passou pelo filtro de relevância da home neste ciclo.'}</div>`;
+
+      const preprintHead = document.getElementById('preprintsSectionHead');
+      const preprintGrid = document.getElementById('preprintGrid');
+      if (preprintHead) preprintHead.style.display = 'none';
+      if (preprintGrid) {
+        preprintGrid.style.display = 'none';
+        preprintGrid.innerHTML = '';
+      }
+
       renderTrending();
       renderTicker();
       syncCategoryButtons();
@@ -1616,8 +1628,11 @@ function renderBadgeRow(post, extra = '') {
 
     function renderTicker() {
       const mount = document.getElementById('tickerTrack');
-      const items = DB.filter(post => !post.isPreprint).slice(0, 8).map(post => textFor(post, 'title'));
-      const loop = [...items, ...items];
+      const regular = filteredRegularPosts();
+      const preprints = filteredPreprints();
+      const source = regular.length ? regular : preprints;
+      const items = source.slice(0, 8).map(post => textFor(post, 'title')).filter(Boolean);
+      const loop = items.length ? [...items, ...items] : [];
       mount.innerHTML = loop.map(item => `<span class="ticker-item">${item}</span>`).join('');
     }
 
