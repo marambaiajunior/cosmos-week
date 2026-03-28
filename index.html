@@ -270,22 +270,27 @@
     .ticker {
       border-bottom: 1px solid var(--line);
       background: rgba(255,255,255,.02);
-      display: flex;
-      align-items: center;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      align-items: stretch;
       overflow: hidden;
       min-height: 38px;
+      position: relative;
     }
     .ticker-badge {
       flex-shrink: 0;
       align-self: stretch;
       display: inline-flex;
       align-items: center;
+      justify-content: center;
       padding: 0 14px;
       background: var(--red);
       color: white;
       font: 500 10px 'DM Mono', monospace;
       text-transform: uppercase;
       letter-spacing: .16em;
+      position: relative;
+      z-index: 2;
     }
     .ticker-track {
       display: flex;
@@ -293,7 +298,32 @@
       gap: 44px;
       white-space: nowrap;
       padding-left: 24px;
+      min-width: max-content;
+      will-change: transform;
       animation: ticker 60s linear infinite;
+    }
+    .ticker-viewport {
+      overflow: hidden;
+      position: relative;
+      min-width: 0;
+    }
+    .ticker-viewport::before {
+      content: '';
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 26px;
+      background: linear-gradient(90deg, rgba(255,255,255,.02), rgba(255,255,255,0));
+      pointer-events: none;
+      z-index: 1;
+    }
+    .ticker-viewport::after {
+      content: '';
+      position: absolute;
+      inset: 0 0 0 auto;
+      width: 52px;
+      background: linear-gradient(270deg, rgba(255,255,255,.02), rgba(255,255,255,0));
+      pointer-events: none;
+      z-index: 1;
     }
     .ticker-item {
       color: var(--txt-2);
@@ -970,7 +1000,7 @@
 
     <div class="ticker">
       <div class="ticker-badge" id="tickerBadge">Destaques</div>
-      <div class="ticker-track" id="tickerTrack"></div>
+      <div class="ticker-viewport"><div class="ticker-track" id="tickerTrack"></div></div>
     </div>
 
     <div class="catbar">
@@ -1014,26 +1044,8 @@
 
         <aside class="sidebar">
           <div class="widget">
-            <div class="widget-head"><div class="widget-title" id="editorialWidgetTitle">Como reportamos</div></div>
-            <div class="widget-body">
-              <div class="widget-list">
-                <div>
-                  <div class="section-title" style="margin-bottom:8px;">Três regras fixas</div>
-                  <p class="deck small" id="editorialRulesCopy">Separar anúncio de evidência, marcar preprints sem maquiagem e manter contexto físico acima de hype institucional.</p>
-                </div>
-                <button class="primary-btn" type="button" style="width:max-content;" onclick="openPage('standards')" id="standardsBtn">Ver padrões editoriais</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="widget">
             <div class="widget-head"><div class="widget-title" id="trendingWidgetTitle">Em alta</div></div>
             <div class="widget-body widget-list" id="trendingList"></div>
-          </div>
-
-          <div class="widget">
-            <div class="widget-head"><div class="widget-title" id="sourceMixTitle">Mistura de fontes</div></div>
-            <div class="widget-body widget-list" id="sourceMix"></div>
           </div>
         </aside>
       </div>
@@ -1368,8 +1380,45 @@
       return { date, time, read };
     }
 
+    function fallbackImage(post) {
+      const text = `${post?.title || ''} ${post?.title_en || ''} ${post?.excerpt || ''} ${post?.cat || ''}`.toLowerCase();
+      if (/gravitational wave|onda gravitacional|kilonova|black hole|buraco negro|neutron star|estrela de neutr|astrofísica/.test(text)) return IMG.blackhole;
+      if (/particle|partícula|lhc|cern|muon|múon|physics|física/.test(text)) return IMG.cern;
+      if (/exoplanet|exoplaneta|habitável|biossinal|biosignature/.test(text)) return IMG.exoplanet;
+      if (/earth|terra|climate|clima|luminosity distance|distância de luminosidade|cosmolog/.test(text)) return IMG.hubbledeep;
+      if (/galaxy|galáxia|spiral|espiral/.test(text)) return IMG.andromeda;
+      return ({
+        'Astrofísica': IMG.blackhole,
+        'Física': IMG.cern,
+        'Exoplanetas': IMG.exoplanet,
+        'Ciências da Terra': IMG.earth,
+        'Cosmologia': IMG.hubbledeep,
+        'Astronomia': IMG.andromeda,
+        'Química': IMG.pillars,
+        'Biologia': IMG.earth
+      })[post?.cat] || IMG.pillars;
+    }
+
     function primaryImage(post) {
-      return post?.img || IMG.pillars;
+      const src = String(post?.img || '').trim();
+      return src || fallbackImage(post);
+    }
+
+    function handleImageError(img, fallback) {
+      if (!img) return;
+      if (img.dataset.fallbackApplied === '1') {
+        img.onerror = null;
+        return;
+      }
+      img.dataset.fallbackApplied = '1';
+      img.src = fallback || IMG.pillars;
+    }
+
+    function imageAttrs(post, loading = 'lazy') {
+      const primary = escapeAttr(primaryImage(post));
+      const fallback = escapeAttr(fallbackImage(post));
+      const alt = escapeAttr(textFor(post, 'title'));
+      return `src="${primary}" alt="${alt}" loading="${loading}" decoding="async" onerror="handleImageError(this, '${fallback}')"`;
     }
 
     function getURLForArticle(post) {
@@ -1448,7 +1497,7 @@ function renderBadgeRow(post, extra = '') {
       const meta = formatMeta(post);
       return `
         <article class="story-card" onclick="openArticle('${escapeAttr(post.slug)}')">
-          <div class="card-cover"><img src="${escapeAttr(primaryImage(post))}" alt="${escapeAttr(textFor(post, 'title'))}" loading="lazy" decoding="async"></div>
+          <div class="card-cover"><img ${imageAttrs(post)}></div>
           <div class="card-body">
             ${renderBadgeRow(post)}
             <h3 class="headline-md">${textFor(post, 'title')}</h3>
@@ -1462,7 +1511,7 @@ function renderBadgeRow(post, extra = '') {
       const meta = formatMeta(post);
       return `
         <article class="compact-item" onclick="openArticle('${escapeAttr(post.slug)}')">
-          <div class="compact-cover"><img src="${escapeAttr(primaryImage(post))}" alt="${escapeAttr(textFor(post, 'title'))}" loading="lazy" decoding="async"></div>
+          <div class="compact-cover"><img ${imageAttrs(post)}></div>
           <div class="compact-body">
             ${renderBadgeRow(post)}
             <h3 class="headline-md">${textFor(post, 'title')}</h3>
@@ -1486,7 +1535,7 @@ function renderBadgeRow(post, extra = '') {
       mount.innerHTML = `
         <div class="hero-grid">
           <article class="hero-primary" onclick="openArticle('${escapeAttr(lead.slug)}')">
-            <img class="cover" src="${escapeAttr(primaryImage(lead))}" alt="${escapeAttr(textFor(lead, 'title'))}" loading="eager" decoding="async">
+            <img class="cover" ${imageAttrs(lead, 'eager')}>
             <div class="overlay"></div>
             <div class="hero-content">
               ${renderBadgeRow(lead, `<span class="status-chip">${lead.source}</span>`)}
@@ -1500,7 +1549,7 @@ function renderBadgeRow(post, extra = '') {
               const meta = formatMeta(post);
               return `
                 <article class="hero-side-card" onclick="openArticle('${escapeAttr(post.slug)}')">
-                  <img class="cover" src="${escapeAttr(primaryImage(post))}" alt="${escapeAttr(textFor(post, 'title'))}" loading="lazy" decoding="async">
+                  <img class="cover" ${imageAttrs(post)}>
                   <div class="overlay"></div>
                   <div class="hero-content">
                     ${renderBadgeRow(post)}
@@ -1525,7 +1574,6 @@ function renderBadgeRow(post, extra = '') {
         ? preprints.slice(0, 6).map(cardMarkup).join('')
         : `<div class="search-empty" style="grid-column:1/-1;">${currentLang === 'en' ? 'No preprints passed the homepage relevance filter in this cycle.' : 'Nenhum preprint passou pelo filtro de relevância da home neste ciclo.'}</div>`;
       renderTrending();
-      renderSourceMix();
       renderTicker();
       syncCategoryButtons();
       markNav('home');
@@ -1645,7 +1693,7 @@ function renderBadgeRow(post, extra = '') {
 
         <article class="article-shell">
           <div class="article-cover">
-            <img src="${escapeAttr(primaryImage(post))}" alt="${escapeAttr(textFor(post, 'title'))}" loading="eager" decoding="async">
+            <img ${imageAttrs(post, 'eager')}>
             <div class="article-cover-content">
               ${renderBadgeRow(post, `<span class="status-chip ${post.isPreprint ? 'preprint' : ''}">${sourceTypeLabel}</span>`)}
               <h1 class="headline-xl">${textFor(post, 'title')}</h1>
@@ -1806,11 +1854,11 @@ function renderBadgeRow(post, extra = '') {
       document.getElementById('archiveLinkTop').textContent = tr('archiveLink');
       document.getElementById('preprintsSectionTitle').textContent = tr('preprintsTitle');
       document.getElementById('preprintsSectionKicker').textContent = tr('preprintsKicker');
-      document.getElementById('editorialWidgetTitle').textContent = tr('editorialWidgetTitle');
-      document.getElementById('editorialRulesCopy').textContent = tr('editorialRulesCopy');
-      document.getElementById('standardsBtn').textContent = tr('standardsBtn');
+      if (document.getElementById('editorialWidgetTitle')) document.getElementById('editorialWidgetTitle').textContent = tr('editorialWidgetTitle');
+      if (document.getElementById('editorialRulesCopy')) document.getElementById('editorialRulesCopy').textContent = tr('editorialRulesCopy');
+      if (document.getElementById('standardsBtn')) document.getElementById('standardsBtn').textContent = tr('standardsBtn');
       document.getElementById('trendingWidgetTitle').textContent = tr('trending');
-      document.getElementById('sourceMixTitle').textContent = tr('sourceMix');
+      if (document.getElementById('sourceMixTitle')) document.getElementById('sourceMixTitle').textContent = tr('sourceMix');
       document.getElementById('archiveTitle').textContent = tr('archiveTitle');
       document.getElementById('archiveKicker').textContent = tr('archiveKicker');
       document.getElementById('searchTitle').textContent = tr('searchTitle');
