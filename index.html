@@ -22,1010 +22,536 @@
   <link rel="canonical" id="canonicalLink" href="https://marambaiajunior.github.io/cosmos-week/">
   <link rel="alternate" type="application/rss+xml" title="Cosmos Week RSS" href="feed.xml">
   <title>Cosmos Week — Jornalismo científico do universo</title>
-  <script type="application/ld+json" id="siteJsonLd">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Cosmos Week",
-    "url": "https://marambaiajunior.github.io/cosmos-week/",
-    "description": "Portal de jornalismo científico em português com foco em astronomia, astrofísica, cosmologia e ciência de fronteira."
-  }
-  </script>
+  <script type="application/ld+json" id="siteJsonLd">{"@context":"https://schema.org","@type":"WebSite","name":"Cosmos Week","url":"https://marambaiajunior.github.io/cosmos-week/","description":"Portal de jornalismo científico em português com foco em astronomia, astrofísica, cosmologia e ciência de fronteira."}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Source+Sans+3:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #121722;
-      --bg-2: #171d2b;
-      --bg-3: #1d2536;
-      --card: #20283a;
-      --card-h: #263049;
-      --line: rgba(255,255,255,.09);
-      --line-2: rgba(255,255,255,.18);
-      --txt: #edf1f8;
-      --txt-2: #b7c1d4;
-      --txt-3: #7f8aa2;
-      --blue: #5b94ff;
-      --blue-2: #8db8ff;
-      --gold: #d6a64b;
-      --green: #3eab7d;
-      --red: #da6363;
-      --violet: #7750d6;
-      --radius: 14px;
-      --radius-sm: 8px;
-      --shadow: 0 18px 50px rgba(0,0,0,.35);
-      --max: 1360px;
-      --ease: cubic-bezier(.2,.8,.2,1);
+      --bg:       #0c0f17;
+      --bg-2:     #111520;
+      --bg-3:     #161c2a;
+      --card:     #1a2033;
+      --card-h:   #1f2840;
+      --line:     rgba(255,255,255,.07);
+      --line-2:   rgba(255,255,255,.14);
+      --txt:      #e8edf7;
+      --txt-2:    #9daac2;
+      --txt-3:    #5c6a84;
+      --accent:   #4f8ef7;
+      --accent-2: #7fb3ff;
+      --gold:     #c9963a;
+      --gold-2:   #e8b84b;
+      --green:    #31a272;
+      --red:      #c94f4f;
+      --violet:   #7047d6;
+      --radius:   12px;
+      --radius-sm:7px;
+      --shadow:   0 20px 60px rgba(0,0,0,.5);
+      --max:      1380px;
+      --ease:     cubic-bezier(.22,.84,.2,1);
+      --serif:    'Libre Baskerville', Georgia, serif;
+      --sans:     'Inter', system-ui, sans-serif;
+      --mono:     'JetBrains Mono', 'Courier New', monospace;
     }
-
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { font-size: 16px; scroll-behavior: smooth; }
     body {
-      font-family: 'Source Sans 3', sans-serif;
-      background: radial-gradient(circle at top, rgba(91,148,255,.10), transparent 22%), var(--bg);
+      font-family: var(--sans);
+      background: var(--bg);
       color: var(--txt);
-      line-height: 1.6;
+      line-height: 1.65;
       -webkit-font-smoothing: antialiased;
       overflow-x: hidden;
     }
     a { color: inherit; text-decoration: none; }
-    button, input { font: inherit; }
-    button { border: none; cursor: pointer; }
+    button, input { font: inherit; background: none; border: none; cursor: pointer; }
     img { display: block; max-width: 100%; }
+    .serif  { font-family: var(--serif); }
+    .mono   { font-family: var(--mono); }
 
-    .serif { font-family: 'Playfair Display', serif; }
-    .mono { font-family: 'DM Mono', monospace; }
-
+    /* ── Reading progress ─── */
     #readingProgress {
-      position: fixed;
-      top: 0;
-      left: 0;
-      height: 3px;
-      width: 0;
-      background: var(--blue);
-      z-index: 4000;
-      transition: width .08s linear;
+      position: fixed; top: 0; left: 0; height: 2px; width: 0;
+      background: linear-gradient(90deg, var(--accent), var(--gold));
+      z-index: 5000; transition: width .08s linear;
     }
 
+    /* ── Layout containers ─── */
+    .wrap, .topbar-inner, .header-inner, .footer-inner, .catbar-inner {
+      max-width: var(--max); margin: 0 auto;
+      padding-left: 28px; padding-right: 28px;
+    }
+
+    /* ── Topbar ─── */
     .topbar {
       border-bottom: 1px solid var(--line);
-      background: rgba(10,13,20,.55);
-      backdrop-filter: blur(14px);
-    }
-    .topbar-inner,
-    .header-inner,
-    .footer-inner,
-    .wrap,
-    .catbar-inner {
-      max-width: var(--max);
-      margin: 0 auto;
-      padding-left: 24px;
-      padding-right: 24px;
+      background: rgba(8,10,16,.7);
+      backdrop-filter: blur(12px);
     }
     .topbar-inner {
-      min-height: 42px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      color: var(--txt-3);
-      font-size: 12px;
-      letter-spacing: .03em;
+      min-height: 40px; display: flex;
+      align-items: center; justify-content: space-between; gap: 16px;
+      color: var(--txt-3); font-size: 11.5px; font-family: var(--mono);
+      letter-spacing: .04em;
     }
-    .topbar strong { color: var(--blue-2); font-weight: 600; }
+    .topbar strong { color: var(--accent-2); font-weight: 500; }
+    #lastUpdatedLabel { color: var(--txt-3); }
 
+    /* ── Site header ─── */
     .site-header {
-      position: sticky;
-      top: 0;
-      z-index: 2500;
-      background: rgba(18,23,34,.94);
+      position: sticky; top: 0; z-index: 2500;
+      background: rgba(12,15,23,.96);
       border-bottom: 1px solid var(--line);
-      backdrop-filter: blur(18px) saturate(1.2);
+      backdrop-filter: blur(20px) saturate(1.3);
     }
     .header-inner {
-      min-height: 78px;
-      display: grid;
-      grid-template-columns: auto 1fr auto;
-      align-items: center;
-      gap: 20px;
+      min-height: 76px;
+      display: grid; grid-template-columns: auto 1fr auto;
+      align-items: center; gap: 22px;
     }
-    .logo {
-      display: inline-flex;
-      flex-direction: column;
-      gap: 3px;
-      cursor: pointer;
-      flex-shrink: 0;
-    }
+    .logo { display: inline-flex; flex-direction: column; gap: 4px; cursor: pointer; flex-shrink: 0; }
     .logo-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 30px;
-      line-height: 1;
-      letter-spacing: .03em;
-      font-weight: 700;
+      font-family: var(--serif); font-size: 28px;
+      line-height: 1; letter-spacing: .01em; font-weight: 700;
     }
-    .logo-title span { color: var(--blue); }
+    .logo-title em { font-style: normal; color: var(--accent); }
     .logo-sub {
-      font-family: 'DM Mono', monospace;
-      font-size: 9px;
-      text-transform: uppercase;
-      letter-spacing: .18em;
-      color: var(--txt-3);
+      font-family: var(--mono); font-size: 9px;
+      text-transform: uppercase; letter-spacing: .22em; color: var(--txt-3);
     }
+    .main-nav { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+    .nav-link {
+      padding: 7px 13px; border-radius: 999px;
+      color: var(--txt-2); font-weight: 500; font-size: 13.5px;
+      transition: background .18s, color .18s;
+    }
+    .nav-link:hover, .nav-link.on { background: rgba(255,255,255,.06); color: var(--txt); }
 
-    .header-tools {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-    .searchbox {
-      position: relative;
-      min-width: 290px;
-      max-width: 420px;
-      width: 100%;
-    }
+    /* ── Header tools ─── */
+    .header-tools { display: flex; align-items: center; justify-content: flex-end; gap: 10px; flex-wrap: wrap; }
+    .searchbox { position: relative; min-width: 280px; max-width: 400px; width: 100%; }
     .searchbox input {
-      width: 100%;
-      height: 42px;
-      border-radius: 999px;
-      border: 1px solid var(--line);
-      background: var(--bg-3);
-      color: var(--txt);
-      padding: 0 42px 0 16px;
-      outline: none;
+      width: 100%; height: 40px; border-radius: 999px;
+      border: 1px solid var(--line); background: var(--bg-3); color: var(--txt);
+      padding: 0 40px 0 16px; outline: none;
+      font-size: 13.5px;
       transition: border-color .2s, box-shadow .2s;
     }
     .searchbox input:focus {
-      border-color: rgba(91,148,255,.55);
-      box-shadow: 0 0 0 3px rgba(91,148,255,.12);
+      border-color: rgba(79,142,247,.45);
+      box-shadow: 0 0 0 3px rgba(79,142,247,.1);
     }
     .searchbox input::placeholder { color: var(--txt-3); }
     .searchbox svg {
-      position: absolute;
-      right: 14px;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 16px;
-      height: 16px;
-      color: var(--txt-3);
-      pointer-events: none;
+      position: absolute; right: 13px; top: 50%; transform: translateY(-50%);
+      width: 15px; height: 15px; color: var(--txt-3); pointer-events: none;
     }
-
-    .lang-switch,
-    .ghost-btn,
-    .primary-btn {
-      border-radius: 999px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-    }
-    .lang-switch {
-      border: 1px solid var(--line);
-      background: var(--bg-3);
-      padding: 4px;
-    }
+    .lang-switch { border: 1px solid var(--line); background: var(--bg-3); padding: 3px; border-radius: 999px; display: inline-flex; align-items: center; }
     .lang-switch button {
-      width: 36px;
-      height: 36px;
-      border-radius: 999px;
-      background: transparent;
-      color: var(--txt-2);
-      transition: background .2s, transform .15s;
-      font-size: 17px;
+      width: 34px; height: 34px; border-radius: 999px;
+      background: transparent; color: var(--txt-2); font-size: 16px;
+      transition: background .18s, transform .14s;
     }
-    .lang-switch button:hover { transform: translateY(-1px); }
-    .lang-switch button.on {
-      background: rgba(91,148,255,.16);
-      color: var(--txt);
-      box-shadow: inset 0 0 0 1px rgba(91,148,255,.35);
-    }
-    .ghost-btn,
-    .primary-btn {
-      height: 42px;
-      padding: 0 16px;
-      font-size: 13px;
-      font-weight: 600;
-      letter-spacing: .04em;
-      transition: transform .15s, background .2s, border-color .2s, box-shadow .2s;
+    .lang-switch button:hover { transform: scale(1.06); }
+    .lang-switch button.on { background: rgba(79,142,247,.15); color: var(--txt); box-shadow: inset 0 0 0 1px rgba(79,142,247,.3); }
+    .ghost-btn, .primary-btn {
+      height: 40px; padding: 0 16px; border-radius: 999px;
+      font-size: 13px; font-weight: 600; letter-spacing: .03em;
+      display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+      transition: transform .15s, background .18s, border-color .18s, box-shadow .18s;
       white-space: nowrap;
     }
-    .ghost-btn {
-      background: var(--bg-3);
-      color: var(--txt-2);
-      border: 1px solid var(--line);
-    }
-    .primary-btn {
-      background: var(--blue);
-      color: #fff;
-      box-shadow: 0 10px 30px rgba(91,148,255,.22);
-    }
-    .ghost-btn:hover,
-    .primary-btn:hover { transform: translateY(-1px); }
+    .ghost-btn { background: var(--bg-3); color: var(--txt-2); border: 1px solid var(--line); }
+    .primary-btn { background: var(--accent); color: #fff; box-shadow: 0 8px 28px rgba(79,142,247,.25); }
+    .ghost-btn:hover, .primary-btn:hover { transform: translateY(-1px); }
     .primary-btn.loading svg { animation: spin .8s linear infinite; }
-    .social-icon-link {
-      width: 42px;
-      height: 42px;
-      border-radius: 999px;
-      border: 1px solid var(--line);
-      background: var(--bg-3);
-      color: var(--txt-2);
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-      transition: transform .15s, background .2s, border-color .2s, color .2s, box-shadow .2s;
-    }
-    .social-icon-link:hover {
-      transform: translateY(-1px);
-      color: var(--txt);
-      border-color: rgba(255,255,255,.18);
-      background: var(--card-h);
-      box-shadow: 0 10px 24px rgba(0,0,0,.22);
-    }
-    .social-icon-link svg { width: 18px; height: 18px; }
-    .footer-socials {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-top: 14px;
-    }
-    .footer-social-label {
-      color: var(--txt-3);
-      font: 500 11px 'DM Mono', monospace;
-      letter-spacing: .12em;
-      text-transform: uppercase;
-    }
     @keyframes spin { to { transform: rotate(360deg); } }
 
-    .main-nav {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      flex-wrap: wrap;
+    .social-icon-link {
+      width: 40px; height: 40px; border-radius: 999px;
+      border: 1px solid var(--line); background: var(--bg-3);
+      color: var(--txt-2); display: inline-flex; align-items: center; justify-content: center;
+      flex-shrink: 0; transition: transform .15s, background .18s, color .18s;
     }
-    .nav-link {
-      padding: 8px 12px;
-      border-radius: 999px;
-      color: var(--txt-2);
-      font-weight: 600;
-      font-size: 14px;
-      transition: background .2s, color .2s;
-    }
-    .nav-link:hover,
-    .nav-link.on {
-      background: rgba(255,255,255,.06);
-      color: var(--txt);
-    }
+    .social-icon-link:hover { transform: translateY(-1px); color: var(--txt); background: var(--card-h); }
+    .social-icon-link svg { width: 17px; height: 17px; }
 
+    /* ── Ticker ─── */
     .ticker {
-      border-bottom: 1px solid var(--line);
-      background: rgba(255,255,255,.02);
-      display: grid;
-      grid-template-columns: auto 1fr;
-      align-items: stretch;
-      overflow: hidden;
-      min-height: 38px;
-      position: relative;
+      border-bottom: 1px solid var(--line); background: rgba(79,142,247,.04);
+      display: grid; grid-template-columns: auto 1fr; min-height: 36px; overflow: hidden;
     }
     .ticker-badge {
-      flex-shrink: 0;
-      align-self: stretch;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0 14px;
-      background: var(--red);
-      color: white;
-      font: 500 10px 'DM Mono', monospace;
-      text-transform: uppercase;
-      letter-spacing: .16em;
-      position: relative;
-      z-index: 2;
+      flex-shrink: 0; align-self: stretch; display: inline-flex;
+      align-items: center; justify-content: center; padding: 0 14px;
+      background: var(--accent); color: #fff;
+      font: 500 9.5px var(--mono); text-transform: uppercase; letter-spacing: .18em;
+    }
+    .ticker-viewport { overflow: hidden; position: relative; min-width: 0; }
+    .ticker-viewport::after {
+      content: ''; position: absolute; inset: 0 0 0 auto; width: 48px;
+      background: linear-gradient(270deg, rgba(12,15,23,.8), transparent);
+      pointer-events: none; z-index: 1;
     }
     .ticker-track {
-      display: flex;
-      align-items: center;
-      gap: 44px;
-      white-space: nowrap;
-      padding-left: 24px;
-      min-width: max-content;
-      will-change: transform;
-      animation: ticker 60s linear infinite;
-      animation-play-state: running;
+      display: flex; align-items: center; gap: 48px; white-space: nowrap;
+      padding-left: 22px; min-width: max-content;
+      animation: ticker 70s linear infinite;
     }
-    .ticker:hover .ticker-track,
-    .ticker:focus-within .ticker-track,
-    .ticker-track:hover {
-      animation-play-state: paused;
-    }
-    .ticker-viewport {
-      overflow: hidden;
-      position: relative;
-      min-width: 0;
-    }
-    .ticker-viewport::before {
-      content: '';
-      position: absolute;
-      inset: 0 auto 0 0;
-      width: 26px;
-      background: linear-gradient(90deg, rgba(255,255,255,.02), rgba(255,255,255,0));
-      pointer-events: none;
-      z-index: 1;
-    }
-    .ticker-viewport::after {
-      content: '';
-      position: absolute;
-      inset: 0 0 0 auto;
-      width: 52px;
-      background: linear-gradient(270deg, rgba(255,255,255,.02), rgba(255,255,255,0));
-      pointer-events: none;
-      z-index: 1;
-    }
+    .ticker:hover .ticker-track { animation-play-state: paused; }
     .ticker-item {
-      color: var(--txt-2);
-      font-size: 13px;
-      position: relative;
-      padding-left: 12px;
+      color: var(--txt-2); font-size: 12.5px; position: relative; padding-left: 13px;
     }
     .ticker-item::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 4px;
-      height: 4px;
-      border-radius: 50%;
-      background: var(--blue);
+      content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%);
+      width: 4px; height: 4px; border-radius: 50%; background: var(--accent); opacity: .6;
     }
     @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 
-    .catbar {
-      border-bottom: 1px solid var(--line);
-      background: rgba(255,255,255,.015);
-    }
+    /* ── Category bar ─── */
+    .catbar { border-bottom: 1px solid var(--line); }
     .catbar-inner {
-      display: flex;
-      gap: 4px;
-      overflow-x: auto;
-      scrollbar-width: none;
-      padding-top: 8px;
-      padding-bottom: 8px;
+      display: flex; gap: 3px; overflow-x: auto; scrollbar-width: none;
+      padding-top: 7px; padding-bottom: 7px;
     }
     .catbar-inner::-webkit-scrollbar { display: none; }
     .cat-pill {
-      background: transparent;
-      color: var(--txt-3);
-      border-radius: 999px;
-      border: 1px solid transparent;
-      padding: 8px 13px;
-      font-size: 12px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: .08em;
-      white-space: nowrap;
-      transition: color .2s, border-color .2s, background .2s;
+      background: transparent; color: var(--txt-3); border-radius: 999px;
+      border: 1px solid transparent; padding: 7px 14px;
+      font-size: 11.5px; font-weight: 600; text-transform: uppercase; letter-spacing: .07em;
+      white-space: nowrap; transition: color .18s, border-color .18s, background .18s;
     }
-    .cat-pill:hover,
-    .cat-pill.on {
-      color: var(--txt);
-      border-color: rgba(91,148,255,.22);
-      background: rgba(91,148,255,.08);
+    .cat-pill:hover, .cat-pill.on {
+      color: var(--txt); border-color: rgba(79,142,247,.25);
+      background: rgba(79,142,247,.07);
     }
 
-    .wrap {
-      padding-top: 28px;
-      padding-bottom: 96px;
-    }
-
-    .page {
-      display: none;
-      min-height: 40vh;
-    }
+    /* ── Main wrap ─── */
+    .wrap { padding-top: 32px; padding-bottom: 96px; }
+    .page { display: none; min-height: 40vh; }
     .page.active { display: block; }
 
+    /* ── Hero grid ─── */
     .hero-grid {
-      display: grid;
-      grid-template-columns: 1.8fr 1fr;
-      gap: 24px;
-      margin-bottom: 32px;
+      display: grid; grid-template-columns: 1.85fr 1fr;
+      gap: 20px; margin-bottom: 36px;
     }
-    .hero-primary,
-    .hero-side-card,
-    .story-card,
-    .widget,
-    .article-shell,
-    .compact-item,
-    .standards-card,
-    .search-empty {
-      background: linear-gradient(180deg, rgba(255,255,255,.02), transparent 100%), var(--card);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      overflow: hidden;
-      box-shadow: var(--shadow);
+    .hero-primary, .hero-side-card {
+      position: relative; cursor: pointer; overflow: hidden;
+      background: var(--card); border: 1px solid var(--line);
+      border-radius: var(--radius); box-shadow: var(--shadow);
     }
-    .hero-primary {
-      position: relative;
-      min-height: 560px;
-      cursor: pointer;
-    }
-    .hero-primary:hover .cover,
-    .hero-side-card:hover .cover,
-    .story-card:hover .card-cover,
-    .compact-item:hover .compact-cover img { transform: scale(1.03); }
-    .hero-primary .cover,
-    .hero-side-card .cover,
-    .card-cover img,
-    .article-cover img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+    .hero-primary { min-height: 560px; }
+    .hero-side-card { min-height: 262px; }
+    .hero-primary img, .hero-side-card img {
+      width: 100%; height: 100%; object-fit: cover;
+      position: absolute; inset: 0;
       transition: transform .55s var(--ease);
     }
-    .hero-primary .overlay,
-    .hero-side-card .overlay,
-    .article-cover::after {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(to top, rgba(12,16,24,.95), rgba(12,16,24,.12));
-      content: '';
+    .hero-primary:hover img, .hero-side-card:hover img { transform: scale(1.04); }
+    .hero-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(8,10,16,.96) 0%, rgba(8,10,16,.2) 60%, transparent 100%);
     }
     .hero-content {
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      padding: 34px;
-      z-index: 2;
+      position: absolute; left: 0; right: 0; bottom: 0;
+      padding: 36px; z-index: 2;
     }
-    .hero-side {
-      display: grid;
-      grid-template-rows: 1fr 1fr;
-      gap: 24px;
-    }
-    .hero-side-card {
-      position: relative;
-      min-height: 268px;
-      cursor: pointer;
-    }
+    .hero-side { display: grid; grid-template-rows: 1fr 1fr; gap: 20px; }
     .hero-side-card .hero-content { padding: 22px; }
 
-    .story-layout {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) 320px;
-      gap: 32px;
-      align-items: start;
+    /* ── Cards ─── */
+    .story-card, .widget, .article-shell, .compact-item,
+    .standards-card, .search-empty, .highlights-box,
+    .source-box, .share-box, .warning-box, .score-box, .editorial-note-box {
+      background: var(--card); border: 1px solid var(--line);
+      border-radius: var(--radius); overflow: hidden;
     }
+    .story-card {
+      cursor: pointer; display: flex; flex-direction: column;
+      transition: transform .18s var(--ease), border-color .18s, box-shadow .18s;
+    }
+    .story-card:hover {
+      transform: translateY(-3px); border-color: var(--line-2);
+      box-shadow: 0 28px 60px rgba(0,0,0,.45);
+    }
+    .card-cover { height: 210px; overflow: hidden; background: var(--bg-3); flex-shrink: 0; }
+    .card-cover img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s var(--ease); }
+    .story-card:hover .card-cover img { transform: scale(1.04); }
+    .card-body { padding: 20px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+
+    /* ── Story layout ─── */
+    .story-layout { display: grid; grid-template-columns: minmax(0,1fr) 316px; gap: 32px; align-items: start; }
+    .story-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 20px; }
+
+    /* ── Section head ─── */
     .section-head {
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
-      gap: 14px;
-      margin-bottom: 16px;
-      padding-bottom: 12px;
+      display: flex; align-items: flex-end; justify-content: space-between;
+      gap: 14px; margin-bottom: 18px; padding-bottom: 13px;
       border-bottom: 1px solid var(--line);
     }
     .section-title {
-      font: 700 12px 'DM Mono', monospace;
-      color: var(--blue-2);
-      text-transform: uppercase;
-      letter-spacing: .18em;
+      font: 500 10.5px var(--mono); color: var(--accent-2);
+      text-transform: uppercase; letter-spacing: .2em;
     }
-    .section-kicker {
-      font-size: 13px;
-      color: var(--txt-3);
-    }
-    .section-link {
-      color: var(--txt-3);
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: .12em;
-    }
+    .section-kicker { font-size: 13px; color: var(--txt-3); margin-top: 3px; }
+    .section-link { color: var(--txt-3); font-size: 11.5px; text-transform: uppercase; letter-spacing: .12em; }
     .section-link:hover { color: var(--txt); }
 
-    .story-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 22px;
-    }
-    .story-card {
-      cursor: pointer;
-      transition: transform .18s var(--ease), border-color .2s;
-      display: flex;
-      flex-direction: column;
-      min-height: 100%;
-    }
-    .story-card:hover {
-      transform: translateY(-2px);
-      border-color: var(--line-2);
-    }
-    .card-cover {
-      height: 208px;
-      overflow: hidden;
-      background: var(--bg-3);
-    }
-    .card-body {
-      padding: 18px 18px 20px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      flex: 1;
-    }
-
-    .sidebar {
-      position: sticky;
-      top: 104px;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
+    /* ── Sidebar ─── */
+    .sidebar { position: sticky; top: 100px; display: flex; flex-direction: column; gap: 18px; }
+    .widget { overflow: visible; }
     .widget-head {
-      padding: 15px 18px 12px;
-      border-bottom: 1px solid var(--line);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
+      padding: 14px 18px 12px; border-bottom: 1px solid var(--line);
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
     }
-    .widget-title {
-      font: 600 11px 'DM Mono', monospace;
-      text-transform: uppercase;
-      letter-spacing: .16em;
-      color: var(--txt-2);
-    }
+    .widget-title { font: 500 10px var(--mono); text-transform: uppercase; letter-spacing: .18em; color: var(--txt-2); }
     .widget-body { padding: 18px; }
-    .widget-list {
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
+    .widget-list { display: flex; flex-direction: column; gap: 14px; }
+
+    /* ── Trend items ─── */
+    .trend-item {
+      display: grid; grid-template-columns: 34px 1fr;
+      gap: 12px; align-items: start; background: transparent;
+      color: inherit; text-align: left; width: 100%;
+      padding: 10px 0; border-bottom: 1px solid var(--line);
+      transition: opacity .15s;
     }
-    .trend-item,
-    .source-item,
-    .metric-row {
-      display: grid;
-      grid-template-columns: auto 1fr;
-      gap: 12px;
-      align-items: start;
-    }
+    .trend-item:last-child { border-bottom: none; }
+    .trend-item:hover { opacity: .8; }
     .trend-num {
-      font-family: 'Playfair Display', serif;
-      font-size: 28px;
-      color: rgba(91,148,255,.55);
-      line-height: 1;
+      font-family: var(--serif); font-size: 26px;
+      color: rgba(79,142,247,.4); line-height: 1; font-weight: 700; flex-shrink: 0;
     }
+    .trend-title { font-size: 13.5px; line-height: 1.4; color: var(--txt); margin-bottom: 5px; }
+    .trend-meta { font: 500 10.5px var(--mono); color: var(--txt-3); text-transform: uppercase; letter-spacing: .06em; }
 
-    .label-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      align-items: center;
-      margin-bottom: 10px;
-    }
-    .label,
-    .meta-chip,
-    .status-chip,
+    /* ── Source mix ─── */
+    .metric-row { display: grid; grid-template-columns: 38px 1fr; gap: 12px; align-items: center; margin-bottom: 12px; }
+    .metric-row:last-child { margin-bottom: 0; }
     .metric-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      border-radius: 999px;
-      font-family: 'DM Mono', monospace;
-      font-size: 10px;
-      text-transform: uppercase;
-      letter-spacing: .14em;
-      padding: 5px 9px;
-      line-height: 1;
-      white-space: nowrap;
+      width: 38px; height: 38px; border-radius: var(--radius-sm);
+      background: rgba(79,142,247,.12); color: var(--accent-2);
+      font: 600 15px var(--mono); display: flex; align-items: center; justify-content: center;
     }
-    .label { background: rgba(91,148,255,.14); color: var(--blue-2); }
-    .label.astronomia { background: rgba(91,148,255,.14); color: var(--blue-2); }
-    .label.cosmologia { background: rgba(119,80,214,.16); color: #bba5ff; }
-    .label.astrofisica { background: rgba(52,170,150,.14); color: #9aebd7; }
-    .label.exoplanetas { background: rgba(41,155,211,.15); color: #9eddfd; }
-    .label.fisica { background: rgba(214,166,75,.14); color: #f2d18c; }
-    .label.biologia { background: rgba(62,171,125,.14); color: #9fe8c4; }
-    .label.quimica { background: rgba(209,120,77,.14); color: #ffbd9c; }
-    .label.terra { background: rgba(78,145,101,.16); color: #b4e2c2; }
-    .meta-chip {
-      background: rgba(255,255,255,.05);
-      color: var(--txt-3);
-      border: 1px solid rgba(255,255,255,.06);
-    }
-    .status-chip {
-      background: rgba(214,166,75,.12);
-      color: var(--gold);
-      border: 1px solid rgba(214,166,75,.18);
-    }
-    .status-chip.preprint {
-      background: rgba(218,99,99,.13);
-      color: #ffaaaa;
-      border-color: rgba(218,99,99,.24);
-    }
+    .metric-label { font-size: 13px; font-weight: 500; color: var(--txt); }
+    .metric-sub { font: 500 10.5px var(--mono); color: var(--txt-3); text-transform: uppercase; letter-spacing: .04em; margin-top: 2px; }
+    .score-bar-wrap { height: 3px; background: rgba(255,255,255,.06); border-radius: 3px; margin-top: 5px; }
+    .score-bar { height: 3px; background: linear-gradient(90deg, var(--accent), var(--gold)); border-radius: 3px; }
 
+    /* ── Editorial note box ─── */
+    .editorial-note-box { padding: 16px 18px; }
+    .editorial-note-box .widget-title { display: block; margin-bottom: 10px; }
+    .editorial-note-copy { font-size: 12.5px; color: var(--txt-2); line-height: 1.62; }
+    .standards-link-btn {
+      display: inline-block; margin-top: 12px;
+      font: 600 10.5px var(--mono); text-transform: uppercase; letter-spacing: .12em;
+      color: var(--accent); border-bottom: 1px solid rgba(79,142,247,.3); padding-bottom: 2px;
+      background: none; border-top: none; border-left: none; border-right: none;
+      cursor: pointer; transition: color .15s, border-color .15s;
+    }
+    .standards-link-btn:hover { color: var(--accent-2); border-color: var(--accent-2); }
+
+    /* ── Labels / badges ─── */
+    .label, .meta-chip, .status-chip {
+      display: inline-flex; align-items: center; gap: 5px;
+      border-radius: 999px; font: 500 10px var(--mono);
+      text-transform: uppercase; letter-spacing: .13em;
+      padding: 4px 9px; line-height: 1; white-space: nowrap;
+    }
+    .label { background: rgba(79,142,247,.12); color: var(--accent-2); }
+    .label.astronomia  { background: rgba(79,142,247,.12); color: #8bbfff; }
+    .label.cosmologia  { background: rgba(112,71,214,.14); color: #b89fff; }
+    .label.astrofisica { background: rgba(49,162,114,.13); color: #7eddb7; }
+    .label.exoplanetas { background: rgba(38,148,202,.14); color: #85d4ff; }
+    .label.fisica      { background: rgba(201,150,58,.13); color: #e8c97a; }
+    .label.biologia    { background: rgba(49,162,114,.14); color: #8de8c4; }
+    .label.quimica     { background: rgba(202,112,60,.14); color: #ffc49e; }
+    .label.terra       { background: rgba(74,140,96,.15); color: #a8dcba; }
+    .meta-chip { background: rgba(255,255,255,.05); color: var(--txt-3); border: 1px solid rgba(255,255,255,.06); }
+    .status-chip { background: rgba(201,150,58,.11); color: var(--gold-2); border: 1px solid rgba(201,150,58,.18); }
+    .status-chip.preprint { background: rgba(201,79,79,.11); color: #ffaaaa; border-color: rgba(201,79,79,.22); }
+    .label-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-bottom: 10px; }
+
+    /* ── Typography ─── */
     .headline-xl {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(2rem, 2.6vw, 3rem);
-      line-height: 1.07;
-      margin-bottom: 10px;
-      letter-spacing: -.02em;
+      font-family: var(--serif); font-size: clamp(1.85rem, 2.5vw, 2.9rem);
+      line-height: 1.1; letter-spacing: -.02em;
     }
-    .headline-lg {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.55rem;
-      line-height: 1.15;
-      letter-spacing: -.02em;
-    }
-    .headline-md {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.28rem;
-      line-height: 1.22;
-      letter-spacing: -.01em;
-    }
-    .deck {
-      color: rgba(237,241,248,.84);
-      font-size: 1rem;
-      line-height: 1.65;
-    }
-    .deck.small {
-      color: var(--txt-2);
-      font-size: .96rem;
-    }
-
+    .headline-lg { font-family: var(--serif); font-size: 1.52rem; line-height: 1.18; letter-spacing: -.015em; }
+    .headline-md { font-family: var(--serif); font-size: 1.18rem; line-height: 1.26; letter-spacing: -.01em; }
+    .deck { color: rgba(232,237,247,.8); font-size: .98rem; line-height: 1.72; }
+    .deck.small { color: var(--txt-2); font-size: .93rem; }
     .meta-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 14px;
-      color: rgba(237,241,248,.62);
-      font: 500 11px 'DM Mono', monospace;
-      letter-spacing: .04em;
-      text-transform: uppercase;
+      display: flex; flex-wrap: wrap; gap: 12px;
+      color: rgba(232,237,247,.5); font: 500 10.5px var(--mono);
+      letter-spacing: .04em; text-transform: uppercase;
     }
 
-    .article-shell {
-      overflow: visible;
+    /* ── Article ─── */
+    .article-shell { overflow: visible; box-shadow: var(--shadow); }
+    .article-cover { position: relative; min-height: 500px; border-radius: var(--radius) var(--radius) 0 0; overflow: hidden; }
+    .article-cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .article-cover::after {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(8,10,16,.97) 0%, rgba(8,10,16,.35) 55%, transparent 100%);
+      z-index: 1;
     }
-    .article-cover {
-      position: relative;
-      min-height: 520px;
-      border-radius: var(--radius);
-      overflow: hidden;
-    }
-    .article-cover::after { z-index: 1; }
     .article-cover-content {
-      position: absolute;
-      inset: auto 0 0 0;
-      padding: 42px;
-      z-index: 2;
-      max-width: 960px;
+      position: absolute; inset: auto 0 0 0; padding: 44px 44px 38px; z-index: 2; max-width: 1000px;
     }
     .breadcrumbs {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      align-items: center;
-      color: var(--txt-3);
-      font: 500 11px 'DM Mono', monospace;
-      text-transform: uppercase;
-      letter-spacing: .12em;
-      margin-bottom: 22px;
+      display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+      color: var(--txt-3); font: 500 10px var(--mono);
+      text-transform: uppercase; letter-spacing: .12em; margin-bottom: 22px;
     }
-    .breadcrumbs button {
-      background: transparent;
-      color: var(--txt-3);
-    }
+    .breadcrumbs button { background: transparent; color: var(--txt-3); transition: color .15s; }
     .breadcrumbs button:hover { color: var(--txt); }
-
     .article-layout {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) 320px;
-      gap: 34px;
-      margin-top: 22px;
-      align-items: start;
-    }
-    .article-body-wrap {
-      padding: 32px;
+      display: grid; grid-template-columns: minmax(0,1fr) 298px;
+      gap: 36px; margin-top: 0; align-items: start;
+      padding: 36px; border-top: none;
     }
     .article-lede {
-      font-size: 1.14rem;
-      color: var(--txt-2);
-      line-height: 1.82;
-      margin-bottom: 22px;
-      padding-bottom: 20px;
-      border-bottom: 1px solid var(--line);
+      font-family: var(--serif); font-size: 1.13rem; color: var(--txt-2);
+      line-height: 1.85; margin-bottom: 26px; padding-bottom: 22px;
+      border-bottom: 1px solid var(--line); font-style: italic;
     }
-    .article-body {
-      font-size: 1.09rem;
-      color: #e4ebf5;
-      line-height: 1.88;
-      max-width: 760px;
-    }
-    .article-body p { margin-bottom: 22px; }
-    .article-body h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.7rem;
-      line-height: 1.2;
-      margin: 38px 0 14px;
-      padding-top: 12px;
-      border-top: 1px solid var(--line);
-    }
-    .article-body blockquote {
-      margin: 28px 0;
-      padding: 18px 22px;
-      border-left: 3px solid var(--blue);
-      background: rgba(91,148,255,.08);
-      color: #dfe9f7;
-      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-      font-size: 1.01rem;
-      line-height: 1.72;
+    .article-body { font-size: 1.08rem; color: #dde4f0; line-height: 1.94; max-width: 720px; }
+    .article-body p { margin-bottom: 24px; }
+    .article-body p:last-child { margin-bottom: 0; }
+    /* art-source link from Python - styled as a clean attribution line */
+    .article-body .art-source {
+      margin-top: 32px; padding-top: 18px; border-top: 1px solid var(--line);
+      font: 500 10.5px var(--mono); text-transform: uppercase; letter-spacing: .1em; display: none;
     }
 
-    .highlights-box,
-    .source-box,
-    .share-box,
-    .warning-box,
-    .about-grid,
-    .search-empty {
-      border-radius: var(--radius);
-      border: 1px solid var(--line);
-      background: var(--bg-3);
-    }
-    .highlights-box,
-    .source-box,
-    .share-box,
-    .warning-box {
-      padding: 18px 20px;
-      margin-bottom: 20px;
-    }
-    .box-title {
-      font: 600 10px 'DM Mono', monospace;
-      text-transform: uppercase;
-      letter-spacing: .18em;
-      color: var(--blue-2);
-      margin-bottom: 12px;
-    }
-    .highlights-list {
-      display: grid;
-      gap: 10px;
-      padding-left: 18px;
-    }
-    .highlights-list li { color: var(--txt-2); }
-    .source-box p,
-    .warning-box p { color: var(--txt-2); font-size: .98rem; }
-    .source-box a {
-      color: var(--blue-2);
-      text-decoration: underline;
-      text-decoration-color: rgba(141,184,255,.35);
-      text-underline-offset: 3px;
-    }
-    .warning-box {
-      background: rgba(218,99,99,.08);
-      border-color: rgba(218,99,99,.25);
-    }
-    .warning-box .box-title { color: #ffb3b3; }
-
-    .share-box {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      align-items: center;
-    }
-    .share-box .box-title {
-      margin-bottom: 0;
-      margin-right: 6px;
-    }
-
-    .compact-list {
-      display: grid;
-      gap: 16px;
-    }
-    .compact-item {
-      display: grid;
-      grid-template-columns: 140px 1fr;
-      gap: 16px;
-      padding: 14px;
-      cursor: pointer;
-      transition: border-color .2s, transform .18s;
-    }
-    .compact-item:hover {
-      transform: translateY(-2px);
-      border-color: var(--line-2);
-    }
-    .compact-cover {
-      height: 104px;
-      border-radius: 12px;
+    /* ── Sidebar article boxes ─── */
+    .highlights-box, .source-box, .share-box, .warning-box, .score-box, .editorial-note-box {
       overflow: hidden;
-      background: var(--bg-3);
     }
-    .compact-cover img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: transform .45s var(--ease);
+    .highlights-box, .source-box, .share-box, .warning-box, .score-box { margin-bottom: 16px; }
+    .box-head {
+      padding: 13px 18px 11px; border-bottom: 1px solid var(--line);
+      font: 500 10px var(--mono); text-transform: uppercase; letter-spacing: .18em; color: var(--accent-2);
     }
+    .box-body { padding: 16px 18px; }
+    .highlights-list { display: grid; gap: 9px; padding-left: 16px; }
+    .highlights-list li { color: var(--txt-2); font-size: 13.5px; line-height: 1.55; }
+    .keyword-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+    .kw-chip {
+      font: 500 10px var(--mono); text-transform: uppercase; letter-spacing: .1em;
+      background: rgba(255,255,255,.04); color: var(--txt-3);
+      border: 1px solid var(--line); border-radius: 999px; padding: 3px 9px;
+    }
+    .source-box a { color: var(--accent-2); text-decoration: underline; text-decoration-color: rgba(127,179,255,.3); text-underline-offset: 3px; }
+    .source-box a:hover { color: var(--txt); }
+    .source-domain { font: 500 10px var(--mono); color: var(--txt-3); text-transform: uppercase; letter-spacing: .1em; margin-top: 6px; }
+    .source-note { font-size: 12px; color: var(--txt-3); line-height: 1.55; margin-top: 10px; font-style: italic; }
+    .warning-box { background: rgba(201,79,79,.07); border-color: rgba(201,79,79,.2); }
+    .warning-box .box-head { color: #ffaaaa; border-bottom-color: rgba(201,79,79,.2); }
+    .warning-body { padding: 14px 18px; font-size: 13px; color: rgba(255,180,180,.85); line-height: 1.58; }
+    .share-box .box-body { display: flex; flex-wrap: wrap; gap: 8px; }
+    /* Score box */
+    .score-box .box-body { padding: 16px 18px; display: grid; gap: 10px; }
+    .score-overall {
+      font-family: var(--serif); font-size: 2.5rem; font-weight: 700; line-height: 1;
+      color: var(--accent-2); display: inline-block;
+    }
+    .score-label { font: 500 10px var(--mono); text-transform: uppercase; letter-spacing: .14em; color: var(--txt-3); margin-top: 2px; }
+    .score-dim { display: grid; grid-template-columns: 1fr auto; gap: 6px; align-items: center; margin-top: 6px; }
+    .score-dim-name { font-size: 11.5px; color: var(--txt-2); }
+    .score-dim-val { font: 500 10.5px var(--mono); color: var(--txt-3); }
+    .mini-bar-wrap { height: 2px; background: rgba(255,255,255,.06); border-radius: 2px; grid-column: 1 / -1; }
+    .mini-bar { height: 2px; border-radius: 2px; background: linear-gradient(90deg, var(--accent), var(--gold)); }
+
+    /* ── Compact items (archive) ─── */
+    .compact-list { display: grid; gap: 14px; }
+    .compact-item {
+      display: grid; grid-template-columns: 130px 1fr;
+      gap: 16px; padding: 14px; cursor: pointer;
+      transition: border-color .18s, transform .18s;
+    }
+    .compact-item:hover { transform: translateY(-2px); border-color: var(--line-2); }
+    .compact-cover { height: 100px; border-radius: var(--radius-sm); overflow: hidden; background: var(--bg-3); }
+    .compact-cover img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s var(--ease); }
+    .compact-item:hover .compact-cover img { transform: scale(1.05); }
     .compact-body { align-self: center; }
-    .compact-meta {
-      color: var(--txt-3);
-      font: 500 11px 'DM Mono', monospace;
-      letter-spacing: .04em;
-      text-transform: uppercase;
-      margin-top: 8px;
-    }
+    .compact-meta { color: var(--txt-3); font: 500 10.5px var(--mono); letter-spacing: .04em; text-transform: uppercase; margin-top: 7px; }
 
-    .about-grid {
-      padding: 28px;
-      display: grid;
-      gap: 24px;
-    }
-    .standards-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 20px;
-      margin-top: 18px;
-    }
-    .standards-card {
-      padding: 20px;
-    }
-    .standards-card h3 {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.28rem;
-      margin-bottom: 10px;
-    }
-    .standards-card p,
-    .about-grid p { color: var(--txt-2); }
+    /* ── About / Standards ─── */
+    .about-grid { padding: 32px; display: grid; gap: 22px; }
+    .standards-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 18px; margin-top: 18px; }
+    .standards-card { padding: 22px; }
+    .standards-card h3 { font-family: var(--serif); font-size: 1.18rem; margin-bottom: 10px; }
+    .standards-card p, .about-grid p { color: var(--txt-2); font-size: 14.5px; line-height: 1.72; }
 
-    .search-empty {
-      padding: 42px;
-      text-align: center;
-      color: var(--txt-3);
-    }
-    .results-info {
-      color: var(--txt-3);
-      font: 500 12px 'DM Mono', monospace;
-      text-transform: uppercase;
-      letter-spacing: .08em;
-      margin-bottom: 16px;
-    }
+    /* ── Search empty ─── */
+    .search-empty { padding: 44px; text-align: center; color: var(--txt-3); }
+    .results-info { color: var(--txt-3); font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: .08em; margin-bottom: 16px; }
 
+    /* ── Toast ─── */
     .toast {
-      position: fixed;
-      right: 24px;
-      bottom: 24px;
-      z-index: 3800;
-      background: var(--card);
-      color: var(--txt);
-      border: 1px solid rgba(91,148,255,.26);
-      border-radius: 12px;
-      box-shadow: var(--shadow);
-      padding: 14px 18px;
-      transform: translateY(140%);
-      transition: transform .24s var(--ease);
-      max-width: min(420px, calc(100vw - 32px));
+      position: fixed; right: 22px; bottom: 22px; z-index: 4800;
+      background: var(--card); color: var(--txt);
+      border: 1px solid rgba(79,142,247,.22); border-radius: var(--radius);
+      box-shadow: var(--shadow); padding: 13px 18px;
+      transform: translateY(130%); transition: transform .22s var(--ease);
+      max-width: min(380px, calc(100vw - 32px));
+      font-size: 13.5px; line-height: 1.5;
     }
     .toast.show { transform: translateY(0); }
 
-    .site-footer {
-      border-top: 1px solid var(--line);
-      background: var(--bg-2);
-      padding: 56px 0 30px;
-      margin-top: 72px;
-    }
-    .footer-grid {
-      display: grid;
-      grid-template-columns: 1.6fr 1fr 1fr;
-      gap: 34px;
-      margin-bottom: 36px;
-    }
-    .footer-title {
-      font: 600 11px 'DM Mono', monospace;
-      text-transform: uppercase;
-      letter-spacing: .18em;
-      color: var(--txt-3);
-      margin-bottom: 14px;
-    }
-    .footer-links {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .footer-links a,
-    .footer-links button {
-      background: transparent;
-      color: var(--txt-2);
-      text-align: left;
-      font-size: 14px;
-    }
-    .footer-links a:hover,
-    .footer-links button:hover { color: var(--txt); }
+    /* ── Footer ─── */
+    .site-footer { border-top: 1px solid var(--line); background: var(--bg-2); padding: 54px 0 28px; margin-top: 72px; }
+    .footer-grid { display: grid; grid-template-columns: 1.7fr 1fr 1fr; gap: 32px; margin-bottom: 34px; }
+    .footer-title { font: 500 10px var(--mono); text-transform: uppercase; letter-spacing: .2em; color: var(--txt-3); margin-bottom: 14px; }
+    .footer-links { display: flex; flex-direction: column; gap: 10px; }
+    .footer-links a, .footer-links button { background: transparent; color: var(--txt-2); text-align: left; font-size: 14px; transition: color .15s; }
+    .footer-links a:hover, .footer-links button:hover { color: var(--txt); }
     .footer-bottom {
-      padding-top: 18px;
-      border-top: 1px solid var(--line);
-      color: var(--txt-3);
-      font: 500 11px 'DM Mono', monospace;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px 20px;
-      justify-content: space-between;
-      letter-spacing: .05em;
-      text-transform: uppercase;
+      padding-top: 18px; border-top: 1px solid var(--line);
+      color: var(--txt-3); font: 500 10.5px var(--mono);
+      display: flex; flex-wrap: wrap; gap: 10px 20px;
+      justify-content: space-between; letter-spacing: .05em; text-transform: uppercase;
     }
+    .footer-socials { display: flex; align-items: center; gap: 10px; margin-top: 16px; }
+    .footer-social-label { color: var(--txt-3); font: 500 10px var(--mono); letter-spacing: .14em; text-transform: uppercase; }
     .newsletter-compact {
-      margin-top: 18px;
-      padding: 16px;
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      background: linear-gradient(180deg, rgba(91,148,255,.08), rgba(255,255,255,.02));
-      max-width: 420px;
+      margin-top: 20px; padding: 18px; border: 1px solid var(--line);
+      border-radius: var(--radius); background: rgba(79,142,247,.05); max-width: 400px;
     }
-    .newsletter-compact .footer-title { margin-bottom: 10px; color: var(--blue-2); }
-    .newsletter-copy {
-      color: var(--txt-2);
-      font-size: 14px;
-      line-height: 1.55;
-    }
-    .newsletter-form {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      gap: 10px;
-      margin-top: 12px;
-    }
+    .newsletter-compact .footer-title { margin-bottom: 10px; color: var(--accent-2); }
+    .newsletter-copy { color: var(--txt-2); font-size: 13.5px; line-height: 1.6; }
+    .newsletter-form { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 8px; margin-top: 12px; }
     .newsletter-input {
-      width: 100%;
-      height: 42px;
-      border-radius: 999px;
-      border: 1px solid var(--line);
-      background: var(--bg-3);
-      color: var(--txt);
-      padding: 0 14px;
-      outline: none;
+      width: 100%; height: 40px; border-radius: 999px;
+      border: 1px solid var(--line); background: var(--bg-3); color: var(--txt);
+      padding: 0 14px; outline: none; font-size: 13.5px;
       transition: border-color .2s, box-shadow .2s;
     }
-    .newsletter-input:focus {
-      border-color: rgba(91,148,255,.55);
-      box-shadow: 0 0 0 3px rgba(91,148,255,.12);
-    }
+    .newsletter-input:focus { border-color: rgba(79,142,247,.45); box-shadow: 0 0 0 3px rgba(79,142,247,.1); }
     .newsletter-input::placeholder { color: var(--txt-3); }
-    .newsletter-note {
-      margin-top: 10px;
-      color: var(--txt-3);
-      font-size: 12px;
-      line-height: 1.5;
-    }
-    .sr-only {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0, 0, 0, 0);
-      white-space: nowrap;
-      border: 0;
-    }
-
+    .newsletter-note { margin-top: 9px; color: var(--txt-3); font-size: 11.5px; line-height: 1.5; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
     .hidden { display: none !important; }
 
+    /* ── Preprint section ─── */
+    .preprint-grid { margin-top: 32px; }
+    .preprint-section-head { border-bottom-color: rgba(201,79,79,.22); }
+    .preprint-section-head .section-title { color: #ffaaaa; }
+
+    /* ── Responsive ─── */
     @media (max-width: 1100px) {
-      .hero-grid,
-      .story-layout,
-      .article-layout,
-      .footer-grid {
-        grid-template-columns: 1fr;
-      }
-      .hero-side { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: none; }
+      .hero-grid, .story-layout, .article-layout, .footer-grid { grid-template-columns: 1fr; }
+      .hero-side { grid-template-columns: repeat(2, minmax(0,1fr)); grid-template-rows: none; }
       .sidebar { position: static; }
-      .story-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .story-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
       .standards-grid { grid-template-columns: 1fr; }
     }
-
     @media (max-width: 860px) {
-      .header-inner {
-        grid-template-columns: 1fr;
-        padding-top: 18px;
-        padding-bottom: 18px;
-      }
+      .header-inner { grid-template-columns: 1fr; padding-top: 16px; padding-bottom: 16px; }
       .main-nav { order: 3; }
       .header-tools { justify-content: flex-start; }
       .searchbox { min-width: 0; max-width: none; }
@@ -1034,20 +560,16 @@
       .newsletter-form { grid-template-columns: 1fr; }
       .newsletter-compact { max-width: none; }
       .article-cover-content { padding: 26px; }
-      .article-body-wrap { padding: 22px; }
+      .article-layout { padding: 24px; gap: 24px; }
     }
-
     @media (max-width: 600px) {
-      .topbar-inner,
-      .header-inner,
-      .footer-inner,
-      .wrap,
-      .catbar-inner { padding-left: 16px; padding-right: 16px; }
-      .hero-primary { min-height: 420px; }
-      .headline-xl { font-size: 1.9rem; }
+      .wrap, .topbar-inner, .header-inner, .footer-inner, .catbar-inner { padding-left: 16px; padding-right: 16px; }
+      .hero-primary { min-height: 400px; }
+      .headline-xl { font-size: 1.85rem; }
       .compact-item { grid-template-columns: 1fr; }
-      .compact-cover { height: 180px; }
+      .compact-cover { height: 160px; }
       .footer-bottom { flex-direction: column; }
+      .article-layout { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -1056,65 +578,59 @@
 
   <div class="topbar">
     <div class="topbar-inner">
-      <div id="topbarCopy">Portal de <strong>jornalismo científico</strong> com prioridade para evidência, contexto e transparência de fonte.</div>
-      <div class="mono" id="lastUpdatedLabel">Atualização automática: aguardando feed</div>
+      <div id="topbarCopy">Portal de <strong>jornalismo científico</strong> com cobertura contínua, texto editorial e rigor na apuração.</div>
+      <div id="lastUpdatedLabel">Atualização automática: aguardando feed</div>
     </div>
   </div>
 
   <header class="site-header">
     <div class="header-inner">
       <div class="logo" onclick="goHome()">
-        <div class="logo-title">Cosmos<span>Week</span></div>
+        <div class="logo-title">Cosmos<em>Week</em></div>
         <div class="logo-sub" id="logoSub">Jornalismo científico em português</div>
       </div>
-
       <nav class="main-nav" id="mainNav">
         <button class="nav-link on" id="navHome" onclick="goHome()">Início</button>
         <button class="nav-link" id="navArchive" onclick="openPage('archive')">Arquivo</button>
         <button class="nav-link" id="navAbout" onclick="openPage('about')">Sobre</button>
         <button class="nav-link" id="navStandards" onclick="openPage('standards')">Padrões</button>
       </nav>
-
       <div class="header-tools">
         <label class="searchbox" aria-label="Buscar artigos">
           <input id="searchInput" type="text" placeholder="Buscar reportagens, temas ou fontes..." oninput="handleSearchInput(this.value)">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
         </label>
         <div class="lang-switch" aria-label="Selecionar idioma">
           <button id="langPt" type="button" onclick="setLanguage('pt')">🇧🇷</button>
           <button id="langEn" type="button" onclick="setLanguage('en')">🇺🇸</button>
         </div>
-        <a class="social-icon-link" href="https://www.instagram.com/cosmos_week/" target="_blank" rel="noopener" aria-label="Instagram do Cosmos Week" title="Instagram do Cosmos Week">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <rect x="2.5" y="2.5" width="19" height="19" rx="5.2" ry="5.2"></rect>
-            <path d="M17.5 6.5h.01"></path>
-            <circle cx="12" cy="12" r="4.25"></circle>
+        <a class="social-icon-link" href="https://www.instagram.com/cosmos_week/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2.5" y="2.5" width="19" height="19" rx="5.2" ry="5.2"/><path d="M17.5 6.5h.01"/><circle cx="12" cy="12" r="4.25"/>
           </svg>
         </a>
         <button class="ghost-btn" type="button" onclick="openPage('standards')" id="methodBtn">Metodologia</button>
         <button class="primary-btn" type="button" id="updateBtn" onclick="refreshFeed()">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.13-3.36L23 10"></path><path d="M20.49 15a9 9 0 0 1-14.13 3.36L1 14"></path></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.13-3.36L23 10"/><path d="M20.49 15a9 9 0 0 1-14.13 3.36L1 14"/></svg>
           <span id="updateBtnLabel">Atualizar</span>
         </button>
       </div>
     </div>
-
     <div class="ticker">
       <div class="ticker-badge" id="tickerBadge">Destaques</div>
       <div class="ticker-viewport"><div class="ticker-track" id="tickerTrack"></div></div>
     </div>
-
     <div class="catbar">
       <div class="catbar-inner" id="catbarInner">
-        <button class="cat-pill on" data-cat="all" onclick="setCategory('all', this)">Todas</button>
-        <button class="cat-pill" data-cat="Astronomia" onclick="setCategory('Astronomia', this)">Astronomia</button>
-        <button class="cat-pill" data-cat="Cosmologia" onclick="setCategory('Cosmologia', this)">Cosmologia</button>
-        <button class="cat-pill" data-cat="Astrofísica" onclick="setCategory('Astrofísica', this)">Astrofísica</button>
-        <button class="cat-pill" data-cat="Exoplanetas" onclick="setCategory('Exoplanetas', this)">Exoplanetas</button>
-        <button class="cat-pill" data-cat="Física" onclick="setCategory('Física', this)">Física</button>
-        <button class="cat-pill" data-cat="Biologia" onclick="setCategory('Biologia', this)">Biologia</button>
-        <button class="cat-pill" data-cat="Química" onclick="setCategory('Química', this)">Química</button>
-        <button class="cat-pill" data-cat="Ciências da Terra" onclick="setCategory('Ciências da Terra', this)">Ciências da Terra</button>
+        <button class="cat-pill on" data-cat="all" onclick="setCategory('all',this)">Todas</button>
+        <button class="cat-pill" data-cat="Astronomia" onclick="setCategory('Astronomia',this)">Astronomia</button>
+        <button class="cat-pill" data-cat="Cosmologia" onclick="setCategory('Cosmologia',this)">Cosmologia</button>
+        <button class="cat-pill" data-cat="Astrofísica" onclick="setCategory('Astrofísica',this)">Astrofísica</button>
+        <button class="cat-pill" data-cat="Exoplanetas" onclick="setCategory('Exoplanetas',this)">Exoplanetas</button>
+        <button class="cat-pill" data-cat="Física" onclick="setCategory('Física',this)">Física</button>
+        <button class="cat-pill" data-cat="Biologia" onclick="setCategory('Biologia',this)">Biologia</button>
+        <button class="cat-pill" data-cat="Química" onclick="setCategory('Química',this)">Química</button>
+        <button class="cat-pill" data-cat="Ciências da Terra" onclick="setCategory('Ciências da Terra',this)">Ciências da Terra</button>
       </div>
     </div>
   </header>
@@ -1122,7 +638,6 @@
   <main class="wrap">
     <section class="page active" id="pageHome">
       <div id="heroMount"></div>
-
       <div class="story-layout">
         <div>
           <div class="section-head">
@@ -1133,20 +648,23 @@
             <button class="section-link" onclick="openPage('archive')" id="archiveLinkTop">Ver arquivo completo</button>
           </div>
           <div class="story-grid" id="latestGrid"></div>
-
-          <div class="section-head" id="preprintsSectionHead" style="margin-top:34px; display:none;">
-            <div>
-              <div class="section-title" id="preprintsSectionTitle">Radar de preprints</div>
-              <div class="section-kicker" id="preprintsSectionKicker">Resultados provisórios, identificados como não revisados por pares.</div>
-            </div>
-          </div>
-          <div class="story-grid" id="preprintGrid" style="display:none;"></div>
+          <div class="preprint-grid" id="preprintMount"></div>
         </div>
-
         <aside class="sidebar">
           <div class="widget">
             <div class="widget-head"><div class="widget-title" id="trendingWidgetTitle">Em alta</div></div>
             <div class="widget-body widget-list" id="trendingList"></div>
+          </div>
+          <div class="widget">
+            <div class="widget-head"><div class="widget-title" id="sourceMixTitle">Mistura de fontes</div></div>
+            <div class="widget-body" id="sourceMix"></div>
+          </div>
+          <div class="editorial-note-box widget">
+            <div class="widget-head"><div class="widget-title" id="editorialWidgetTitle">Como reportamos</div></div>
+            <div class="widget-body">
+              <p class="editorial-note-copy" id="editorialRulesCopy">Separar anúncio de evidência, marcar preprints sem maquiagem e manter contexto físico acima de hype institucional.</p>
+              <button class="standards-link-btn" onclick="openPage('standards')" id="standardsBtn">Ver padrões editoriais</button>
+            </div>
           </div>
         </aside>
       </div>
@@ -1183,15 +701,11 @@
     <div class="footer-inner">
       <div class="footer-grid">
         <div>
-          <div class="logo-title" style="font-size:28px; margin-bottom:12px;">Cosmos<span>Week</span></div>
-          <p class="deck small" id="footerDescription">Portal de jornalismo científico em português. O foco aqui é explicar o que mudou, o que permanece incerto e por que um resultado realmente importa.</p>
+          <div class="logo-title" style="font-family:var(--serif);font-size:26px;margin-bottom:12px;">Cosmos<em style="font-style:normal;color:var(--accent);">Week</em></div>
+          <p class="deck small" id="footerDescription">Portal de jornalismo científico em português, com cobertura de astronomia, física e ciência de fronteira em linguagem editorial.</p>
           <div class="footer-socials">
-            <a class="social-icon-link" href="https://www.instagram.com/cosmos_week/" target="_blank" rel="noopener" aria-label="Instagram do Cosmos Week" title="Instagram do Cosmos Week">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <rect x="2.5" y="2.5" width="19" height="19" rx="5.2" ry="5.2"></rect>
-                <path d="M17.5 6.5h.01"></path>
-                <circle cx="12" cy="12" r="4.25"></circle>
-              </svg>
+            <a class="social-icon-link" href="https://www.instagram.com/cosmos_week/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="5.2" ry="5.2"/><path d="M17.5 6.5h.01"/><circle cx="12" cy="12" r="4.25"/></svg>
             </a>
             <span class="footer-social-label">Instagram</span>
           </div>
@@ -1200,7 +714,7 @@
             <p class="newsletter-copy" id="newsletterDescription">Receba os destaques editoriais do Cosmos Week no seu e-mail.</p>
             <form class="newsletter-form" id="newsletterForm" onsubmit="handleNewsletterSubmit(event)" novalidate>
               <label class="sr-only" for="newsletterEmail" id="newsletterLabel">Seu e-mail</label>
-              <input class="newsletter-input" type="email" id="newsletterEmail" name="email" autocomplete="email" inputmode="email" placeholder="Seu e-mail" required aria-describedby="newsletterNote">
+              <input class="newsletter-input" type="email" id="newsletterEmail" name="email" autocomplete="email" inputmode="email" placeholder="Seu e-mail" required>
               <button class="primary-btn" type="submit" id="newsletterButton">Inscrever</button>
             </form>
             <div class="newsletter-note" id="newsletterNote">Sem spam. Apenas atualizações editoriais relevantes.</div>
@@ -1236,1020 +750,863 @@
 
   <script src="posts.js"></script>
   <script>
-    const SITE = {
-      baseUrl: 'https://marambaiajunior.github.io/cosmos-week/',
-      title: 'Cosmos Week',
-      homeTitlePt: 'Cosmos Week — Jornalismo científico do universo',
-      homeTitleEn: 'Cosmos Week — Science journalism for the universe',
-      homeDescriptionPt: 'Portal de jornalismo científico em português com foco em astronomia, astrofísica, cosmologia e ciência de fronteira.',
-      homeDescriptionEn: 'Science journalism portal focused on astronomy, astrophysics, cosmology and frontier research.'
-    };
+  const SITE = {
+    baseUrl: 'https://marambaiajunior.github.io/cosmos-week/',
+    title: 'Cosmos Week',
+    homeTitlePt: 'Cosmos Week — Jornalismo científico do universo',
+    homeTitleEn: 'Cosmos Week — Science journalism for the universe',
+    homeDescriptionPt: 'Portal de jornalismo científico em português com foco em astronomia, astrofísica, cosmologia e ciência de fronteira.',
+    homeDescriptionEn: 'Science journalism portal focused on astronomy, astrophysics, cosmology and frontier research.'
+  };
 
-    const IMG = {
-      pillars: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg/1280px-Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg',
-      andromeda: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg/1280px-Andromeda_Galaxy_%28with_h-alpha%29.jpg',
-      hubbledeep: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hubble_ultra_deep_field.jpg/1280px-Hubble_ultra_deep_field.jpg',
-      blackhole: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1280px-Black_hole_-_Messier_87_crop_max_res.jpg',
-      exoplanet: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Transiting_Exoplanet_Artist%27s_Impression.jpg/1280px-Transiting_Exoplanet_Artist%27s_Impression.jpg',
-      earth: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/1280px-The_Earth_seen_from_Apollo_17.jpg',
-      cern: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/CERN_Globe_and_Main_Building.jpg/1280px-CERN_Globe_and_Main_Building.jpg'
-    };
+  const IMG = {
+    pillars:         'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg/1280px-Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg',
+    andromeda:       'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg/1280px-Andromeda_Galaxy_%28with_h-alpha%29.jpg',
+    hubbledeep:      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hubble_ultra_deep_field.jpg/1280px-Hubble_ultra_deep_field.jpg',
+    blackhole:       'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1280px-Black_hole_-_Messier_87_crop_max_res.jpg',
+    exoplanet:       'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Transiting_Exoplanet_Artist%27s_Impression.jpg/1280px-Transiting_Exoplanet_Artist%27s_Impression.jpg',
+    earth:           'https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/1280px-The_Earth_seen_from_Apollo_17.jpg',
+    cern:            'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/CERN_Globe_and_Main_Building.jpg/1280px-CERN_Globe_and_Main_Building.jpg',
+    milkyway:        'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Milky_Way%2C_above_Mauna_Kea_-_by_Luc_Viatour.jpg/1280px-Milky_Way%2C_above_Mauna_Kea_-_by_Luc_Viatour.jpg',
+    supernova:       'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Cassiopeia_A.jpg/1280px-Cassiopeia_A.jpg',
+  };
 
-    const UI = {
-      pt: {
-        logoSub: 'Jornalismo científico em português',
-        home: 'Início',
-        archive: 'Arquivo',
-        about: 'Sobre',
-        standards: 'Padrões',
-        methodology: 'Metodologia',
-        update: 'Atualizar',
-        searchPlaceholder: 'Buscar reportagens, temas ou fontes...',
-        ticker: 'Destaques',
-        latestTitle: 'Últimas reportagens',
-        latestKicker: 'Cobertura contínua com foco em descoberta, contexto e impacto científico real.',
-        archiveLink: 'Ver arquivo completo',
-        preprintsTitle: 'Radar de preprints',
-        preprintsKicker: 'Resultados provisórios, identificados como não revisados por pares.',
-        editorialWidgetTitle: 'Como reportamos',
-        editorialRulesCopy: 'Separar anúncio de evidência, marcar preprints sem maquiagem e manter contexto físico acima de hype institucional.',
-        standardsBtn: 'Ver padrões editoriais',
-        trending: 'Em alta',
-        sourceMix: 'Mistura de fontes',
-        archiveTitle: 'Arquivo editorial',
-        archiveKicker: 'Todas as matérias disponíveis no arquivo editorial do portal.',
-        searchTitle: 'Busca',
-        noSearch: 'Nenhum resultado encontrado.',
-        trySearch: 'Experimente termos como JWST, matéria escura, exoplaneta, buraco negro ou Euclid.',
-        topbarCopy: 'Portal de <strong>jornalismo científico</strong> com cobertura contínua, texto editorial e rigor na apuração.',
-        footerDescription: 'Portal de jornalismo científico em português, com cobertura de astronomia, física e ciência de fronteira em linguagem editorial.',
-        footerNavTitle: 'Navegação',
-        footerSourcesTitle: 'Transparência',
-        footerFeed: 'RSS do portal',
-        footerSitemap: 'Sitemap',
-        footerCorrections: 'Correções e metodologia',
-        footerBottomLeft: '© 2026 Cosmos Week',
-        footerBottomCenter: 'Reportagem científica com contexto, hierarquia da informação e compromisso com a evidência.',
-        footerBottomRight: 'Base atual: GitHub Pages',
-        newsletterTitle: 'Newsletter',
-        newsletterLabel: 'Seu e-mail',
-        newsletterDescription: 'Receba os destaques editoriais do Cosmos Week no seu e-mail.',
-        newsletterPlaceholder: 'Seu e-mail',
-        newsletterButton: 'Inscrever',
-        newsletterNote: 'Sem spam. Apenas atualizações editoriais relevantes.',
-        newsletterSuccess: 'E-mail salvo neste navegador.',
-        newsletterInvalid: 'Digite um e-mail válido.',
-        lastUpdatedPrefix: 'Atualização automática:',
-        latestFeed: 'feed carregado',
-        resultsFor: 'resultado(s) para',
-        newsroom: 'Redação Cosmos Week',
-        articleHighlights: 'Pontos-chave',
-        articleSource: 'Fonte original',
-        articleShare: 'Compartilhar',
-        articleReadOriginal: 'Ler reportagem-base',
-        relatedTitle: 'Leia também',
-        warningTitle: 'Observação',
-        standardsPageTitle: 'Padrões editoriais',
-        aboutPageTitle: 'Sobre o Cosmos Week',
-        aboutIntro: 'O Cosmos Week foi desenhado como um portal de jornalismo científico, não como um espelho automático de releases institucionais. A automação existe para acelerar a triagem, a organização e a transparência, mas a arquitetura do site foi reformulada para deixar explícito o tipo de fonte, o grau de maturidade do resultado e a diferença entre anúncio, paper e preprint.',
-        aboutBody: 'A linha editorial privilegia astronomia, astrofísica, cosmologia e ciência de fronteira, com abertura controlada para física, biologia, química e ciências da Terra quando o material tem relevância científica real. O objetivo não é despejar volume. É construir um arquivo navegável de reportagens curtas e médias que preservem contexto, cautela e legibilidade.',
-        standardsIntro: 'O portal segue um conjunto fixo de regras para evitar dois vícios comuns da divulgação online: transformar comunicado institucional em matéria autônoma sem transparência, e apresentar preprint como se fosse ciência consolidada. A ideia é simples. Menos maquiagem editorial, mais distinção entre o que foi medido, o que foi inferido e o que continua em aberto.',
-        standardsCards: [
-          {
-            title: '1. Fonte identificada sem truque',
-            body: 'Toda matéria carrega o tipo de fonte no topo. Um paper revisado por pares não recebe o mesmo tratamento visual de um preprint ou de um release institucional.'
-          },
-          {
-            title: '2. Preprint não vira verdade por milagre',
-            body: 'Conteúdo vindo do arXiv é rotulado como provisório. Ele pode entrar no portal, mas sempre como resultado em avaliação e nunca como conclusão definitiva.'
-          },
-          {
-            title: '3. Curadoria contra ruído institucional',
-            body: 'Galerias de imagem, vídeos, perfis pessoais, prêmios, páginas de marketing e chamadas burocráticas são filtrados antes de chegar à home.'
-          },
-          {
-            title: '4. Contexto antes de adjetivo',
-            body: 'O texto procura responder três perguntas em ordem: o que aconteceu, por que isso importa e o que ainda não sabemos.'
-          }
-        ],
-        sourceMixLine: 'item(ns)',
-        clickToRead: 'Abrir matéria',
-        copyLink: 'Copiar link',
-        copied: 'Link copiado.',
-        updateDone: 'Feed atualizado.',
-        updateFail: 'Não foi possível atualizar agora.',
-        welcome: 'Feed carregado. Cobertura atualizada com mais amplitude editorial e melhor distribuição por editoria.',
-        backHome: 'Voltar ao início',
-        allCategories: 'Todas'
-      },
-      en: {
-        logoSub: 'Science journalism in Portuguese-first mode',
-        home: 'Home',
-        archive: 'Archive',
-        about: 'About',
-        standards: 'Standards',
-        methodology: 'Methodology',
-        update: 'Refresh',
-        searchPlaceholder: 'Search stories, topics or sources...',
-        ticker: 'Highlights',
-        latestTitle: 'Latest stories',
-        latestKicker: 'Continuous coverage focused on discovery, context and real scientific impact.',
-        archiveLink: 'View full archive',
-        preprintsTitle: 'Preprint radar',
-        preprintsKicker: 'Provisional results, explicitly marked as not peer reviewed.',
-        editorialWidgetTitle: 'How we report',
-        editorialRulesCopy: 'Separate announcement from evidence, label preprints without makeup, and keep physical context above institutional hype.',
-        standardsBtn: 'View editorial standards',
-        trending: 'Trending',
-        sourceMix: 'Source mix',
-        archiveTitle: 'Editorial archive',
-        archiveKicker: 'Every story currently available in the editorial archive.',
-        searchTitle: 'Search',
-        noSearch: 'No results found.',
-        trySearch: 'Try terms such as JWST, dark matter, exoplanet, black hole or Euclid.',
-        topbarCopy: 'A <strong>science journalism</strong> portal built around continuous coverage, editorial writing and rigorous reporting.',
-        footerDescription: 'Portuguese-first science journalism with editorial writing across astronomy, physics and frontier research.',
-        footerNavTitle: 'Navigation',
-        footerSourcesTitle: 'Transparency',
-        footerFeed: 'Portal RSS',
-        footerSitemap: 'Sitemap',
-        footerCorrections: 'Corrections and methodology',
-        footerBottomLeft: '© 2026 Cosmos Week',
-        footerBottomCenter: 'Science reporting built around context, hierarchy of information and evidence.',
-        footerBottomRight: 'Current stack: GitHub Pages',
-        newsletterTitle: 'Newsletter',
-        newsletterLabel: 'Your email',
-        newsletterDescription: 'Get Cosmos Week editorial highlights in your inbox.',
-        newsletterPlaceholder: 'Your email',
-        newsletterButton: 'Subscribe',
-        newsletterNote: 'No spam. Only relevant editorial updates.',
-        newsletterSuccess: 'Email saved in this browser.',
-        newsletterInvalid: 'Enter a valid email address.',
-        lastUpdatedPrefix: 'Auto update:',
-        latestFeed: 'feed loaded',
-        resultsFor: 'result(s) for',
-        newsroom: 'Cosmos Week Desk',
-        articleHighlights: 'Key points',
-        articleSource: 'Original source',
-        articleShare: 'Share',
-        articleReadOriginal: 'Read source story',
-        relatedTitle: 'Read also',
-        warningTitle: 'Note',
-        standardsPageTitle: 'Editorial standards',
-        aboutPageTitle: 'About Cosmos Week',
-        aboutIntro: 'Cosmos Week was built as a science journalism portal, not as an automatic mirror of institutional releases. Automation is there to speed up triage, organization and transparency, but the site architecture was redesigned to make the source type, the maturity of a result and the gap between announcement, paper and preprint explicit.',
-        aboutBody: 'The editorial line prioritizes astronomy, astrophysics, cosmology and frontier research, with controlled space for physics, biology, chemistry and Earth science when the material carries real scientific relevance. The goal is not to dump volume. It is to build a navigable archive of short and medium-length stories that preserve context, caution and readability.',
-        standardsIntro: 'The portal follows a fixed ruleset to avoid two common online-science traps: turning institutional communications into apparently independent reporting without transparency, and presenting a preprint as if it were settled science. The idea is simple. Less editorial makeup, more distinction between what was measured, what was inferred and what remains open.',
-        standardsCards: [
-          {
-            title: '1. Source type stays visible',
-            body: 'Every story carries its source type at the top. A peer-reviewed paper does not receive the same visual treatment as a preprint or an institutional release.'
-          },
-          {
-            title: '2. Preprints are not magic truths',
-            body: 'Content from arXiv is labeled as provisional. It can appear in the portal, but only as work under evaluation, never as a final answer.'
-          },
-          {
-            title: '3. Curation filters institutional noise',
-            body: 'Image galleries, videos, personal profiles, awards, marketing pages and bureaucratic calls are filtered before they can reach the homepage.'
-          },
-          {
-            title: '4. Context comes before adjectives',
-            body: 'The reporting structure tries to answer three questions in order: what happened, why it matters and what we still do not know.'
-          }
-        ],
-        sourceMixLine: 'item(s)',
-        clickToRead: 'Open story',
-        copyLink: 'Copy link',
-        copied: 'Link copied.',
-        updateDone: 'Feed refreshed.',
-        updateFail: 'Could not refresh right now.',
-        welcome: 'Feed loaded. Broader editorial coverage with stronger section balance.',
-        backHome: 'Back to home',
-        allCategories: 'All'
-      }
-    };
+  const UI = {
+    pt: {
+      logoSub: 'Jornalismo científico em português',
+      home: 'Início', archive: 'Arquivo', about: 'Sobre', standards: 'Padrões',
+      methodology: 'Metodologia', update: 'Atualizar',
+      searchPlaceholder: 'Buscar reportagens, temas ou fontes...',
+      ticker: 'Destaques',
+      latestTitle: 'Últimas reportagens',
+      latestKicker: 'Cobertura contínua com foco em descoberta, contexto e impacto científico real.',
+      archiveLink: 'Ver arquivo completo',
+      preprintsTitle: 'Radar de preprints',
+      preprintsKicker: 'Resultados provisórios em circulação técnica, identificados como não revisados por pares.',
+      editorialWidgetTitle: 'Como reportamos',
+      editorialRulesCopy: 'Separar anúncio de evidência, marcar preprints sem maquiagem e manter contexto físico acima de hype institucional.',
+      standardsBtn: 'Ver padrões editoriais',
+      trending: 'Em alta',
+      sourceMix: 'Composição do feed',
+      archiveTitle: 'Arquivo editorial',
+      archiveKicker: 'Todas as matérias disponíveis no arquivo editorial do portal.',
+      searchTitle: 'Busca', noSearch: 'Nenhum resultado encontrado.',
+      trySearch: 'Experimente termos como JWST, matéria escura, exoplaneta, buraco negro ou Euclid.',
+      topbarCopy: 'Portal de <strong>jornalismo científico</strong> com cobertura contínua, texto editorial e rigor na apuração.',
+      footerDescription: 'Portal de jornalismo científico em português, com cobertura de astronomia, física e ciência de fronteira em linguagem editorial.',
+      footerNavTitle: 'Navegação', footerSourcesTitle: 'Transparência',
+      footerFeed: 'RSS do portal', footerSitemap: 'Sitemap',
+      footerCorrections: 'Correções e metodologia',
+      footerBottomLeft: '© 2026 Cosmos Week',
+      footerBottomCenter: 'Reportagem científica com contexto, hierarquia da informação e compromisso com a evidência.',
+      footerBottomRight: 'Base atual: GitHub Pages',
+      newsletterTitle: 'Newsletter', newsletterLabel: 'Seu e-mail',
+      newsletterDescription: 'Receba os destaques editoriais do Cosmos Week no seu e-mail.',
+      newsletterPlaceholder: 'Seu e-mail', newsletterButton: 'Inscrever',
+      newsletterNote: 'Sem spam. Apenas atualizações editoriais relevantes.',
+      newsletterSuccess: 'E-mail salvo neste navegador.', newsletterInvalid: 'Digite um e-mail válido.',
+      lastUpdatedPrefix: 'Atualização automática:', latestFeed: 'feed carregado',
+      resultsFor: 'resultado(s) para',
+      newsroom: 'Redação Cosmos Week',
+      articleHighlights: 'Pontos-chave', articleSource: 'Fonte original',
+      articleShare: 'Compartilhar', articleReadOriginal: 'Ler fonte original',
+      relatedTitle: 'Leia também',
+      warningTitle: 'Resultado provisório',
+      standardsPageTitle: 'Padrões editoriais',
+      aboutPageTitle: 'Sobre o Cosmos Week',
+      aboutIntro: 'O Cosmos Week foi desenhado como um portal de jornalismo científico, não como um espelho automático de releases institucionais. A automação existe para acelerar a triagem, a organização e a transparência, mas a arquitetura do site foi reformulada para deixar explícito o tipo de fonte, o grau de maturidade do resultado e a diferença entre anúncio, paper e preprint.',
+      aboutBody: 'A linha editorial privilegia astronomia, astrofísica, cosmologia e ciência de fronteira, com abertura controlada para física, biologia, química e ciências da Terra quando o material tem relevância científica real. O objetivo não é despejar volume. É construir um arquivo navegável de reportagens curtas e médias que preservem contexto, cautela e legibilidade.',
+      standardsIntro: 'O portal segue um conjunto fixo de regras para evitar dois vícios comuns da divulgação online: transformar comunicado institucional em matéria autônoma sem transparência, e apresentar preprint como se fosse ciência consolidada. Menos maquiagem editorial, mais distinção entre o que foi medido, o que foi inferido e o que continua em aberto.',
+      standardsCards: [
+        { title: '1. Fonte identificada sem truque', body: 'Toda matéria carrega o tipo de fonte. Um paper revisado por pares não recebe o mesmo tratamento visual de um preprint ou de um release institucional.' },
+        { title: '2. Preprint não vira verdade por milagre', body: 'Conteúdo vindo do arXiv é rotulado como provisório. Ele pode entrar no portal, mas sempre como resultado em avaliação e nunca como conclusão definitiva.' },
+        { title: '3. Curadoria contra ruído institucional', body: 'Galerias de imagem, vídeos, perfis pessoais, prêmios e chamadas burocráticas são filtrados antes de chegar à home.' },
+        { title: '4. Contexto antes de adjetivo', body: 'O texto responde três perguntas em ordem: o que aconteceu, por que isso importa e o que ainda não sabemos.' }
+      ],
+      sourceMixLine: 'item(ns)', clickToRead: 'Abrir matéria', copyLink: 'Copiar link',
+      copied: 'Link copiado.', updateDone: 'Feed atualizado.', updateFail: 'Não foi possível atualizar agora.',
+      welcome: 'Feed carregado. Cobertura atualizada com mais amplitude editorial.',
+      backHome: 'Voltar ao início', allCategories: 'Todas',
+      scoreLabel: 'Relevância editorial', evidenceLabel: 'Evidência', noveltyLabel: 'Novidade',
+      sourceLabel: 'Fonte', accessLabel: 'Acessibilidade',
+      preprintWarning: 'Este trabalho é um preprint — resultado em circulação técnica ainda não submetido a revisão por pares formal. Trate-o como evidência em teste, não como conclusão encerrada.'
+    },
+    en: {
+      logoSub: 'Science journalism in Portuguese-first mode',
+      home: 'Home', archive: 'Archive', about: 'About', standards: 'Standards',
+      methodology: 'Methodology', update: 'Refresh',
+      searchPlaceholder: 'Search stories, topics or sources...',
+      ticker: 'Highlights',
+      latestTitle: 'Latest stories',
+      latestKicker: 'Continuous coverage focused on discovery, context and real scientific impact.',
+      archiveLink: 'View full archive',
+      preprintsTitle: 'Preprint radar',
+      preprintsKicker: 'Provisional results in technical circulation, explicitly marked as not peer reviewed.',
+      editorialWidgetTitle: 'How we report',
+      editorialRulesCopy: 'Separate announcement from evidence, label preprints without makeup, and keep physical context above institutional hype.',
+      standardsBtn: 'View editorial standards',
+      trending: 'Trending',
+      sourceMix: 'Feed composition',
+      archiveTitle: 'Editorial archive',
+      archiveKicker: 'Every story currently available in the editorial archive.',
+      searchTitle: 'Search', noSearch: 'No results found.',
+      trySearch: 'Try terms such as JWST, dark matter, exoplanet, black hole or Euclid.',
+      topbarCopy: 'A <strong>science journalism</strong> portal built around continuous coverage, editorial writing and rigorous reporting.',
+      footerDescription: 'Portuguese-first science journalism with editorial writing across astronomy, physics and frontier research.',
+      footerNavTitle: 'Navigation', footerSourcesTitle: 'Transparency',
+      footerFeed: 'Portal RSS', footerSitemap: 'Sitemap',
+      footerCorrections: 'Corrections and methodology',
+      footerBottomLeft: '© 2026 Cosmos Week',
+      footerBottomCenter: 'Science reporting built around context, hierarchy of information and evidence.',
+      footerBottomRight: 'Current stack: GitHub Pages',
+      newsletterTitle: 'Newsletter', newsletterLabel: 'Your email',
+      newsletterDescription: 'Get Cosmos Week editorial highlights in your inbox.',
+      newsletterPlaceholder: 'Your email', newsletterButton: 'Subscribe',
+      newsletterNote: 'No spam. Only relevant editorial updates.',
+      newsletterSuccess: 'Email saved in this browser.', newsletterInvalid: 'Enter a valid email address.',
+      lastUpdatedPrefix: 'Auto update:', latestFeed: 'feed loaded',
+      resultsFor: 'result(s) for',
+      newsroom: 'Cosmos Week Desk',
+      articleHighlights: 'Key points', articleSource: 'Original source',
+      articleShare: 'Share', articleReadOriginal: 'Read source story',
+      relatedTitle: 'Read also',
+      warningTitle: 'Provisional result',
+      standardsPageTitle: 'Editorial standards',
+      aboutPageTitle: 'About Cosmos Week',
+      aboutIntro: 'Cosmos Week was built as a science journalism portal, not as an automatic mirror of institutional releases. Automation is there to speed up triage, organization and transparency, but the site architecture was redesigned to make source type, result maturity and the gap between announcement, paper and preprint explicit.',
+      aboutBody: 'The editorial line prioritizes astronomy, astrophysics, cosmology and frontier research, with controlled space for physics, biology, chemistry and Earth science when the material carries real scientific relevance. The goal is not to dump volume. It is to build a navigable archive of short and medium-length stories that preserve context, caution and readability.',
+      standardsIntro: 'The portal follows a fixed ruleset to avoid two common online-science traps: turning institutional communications into apparently independent reporting without transparency, and presenting a preprint as if it were settled science. Less editorial makeup, more distinction between what was measured, what was inferred and what remains open.',
+      standardsCards: [
+        { title: '1. Source type stays visible', body: 'Every story carries its source type. A peer-reviewed paper does not receive the same visual treatment as a preprint or an institutional release.' },
+        { title: '2. Preprints are not magic truths', body: 'Content from arXiv is labeled as provisional. It can appear in the portal, but only as work under evaluation, never as a final answer.' },
+        { title: '3. Curation filters institutional noise', body: 'Image galleries, videos, personal profiles, awards and bureaucratic calls are filtered before they can reach the homepage.' },
+        { title: '4. Context comes before adjectives', body: 'The reporting structure tries to answer three questions in order: what happened, why it matters and what we still do not know.' }
+      ],
+      sourceMixLine: 'item(s)', clickToRead: 'Open story', copyLink: 'Copy link',
+      copied: 'Link copied.', updateDone: 'Feed refreshed.', updateFail: 'Could not refresh right now.',
+      welcome: 'Feed loaded. Broader editorial coverage with stronger section balance.',
+      backHome: 'Back to home', allCategories: 'All',
+      scoreLabel: 'Editorial relevance', evidenceLabel: 'Evidence', noveltyLabel: 'Novelty',
+      sourceLabel: 'Source', accessLabel: 'Accessibility',
+      preprintWarning: 'This work is a preprint — a result in technical circulation not yet submitted to formal peer review. Treat it as evidence under test, not as a closed conclusion.'
+    }
+  };
 
-    const CLIENT_NOISE_PATTERNS = [
-      /week in images/i, /watch live/i, /^image:/i, /^video:/i, /^earth from space/i,
-      /^i am artemis/i, /audio excerpt/i, /awards categories/i, /crew.?s suits/i,
-      /\/image-article\//i, /\/week_in_images\//i, /\/photojournal\//i
+  const CLIENT_NOISE_PATTERNS = [
+    /week in images/i, /watch live/i, /^image:/i, /^video:/i, /^earth from space/i,
+    /^i am artemis/i, /audio excerpt/i, /awards categories/i, /crew.?s suits/i,
+    /\/image-article\//i, /\/week_in_images\//i, /\/photojournal\//i
+  ];
+
+  function isClientNoise(post) {
+    const haystack = [post?.title, post?.title_pt, post?.title_en, post?.excerpt, post?.excerpt_pt, post?.excerpt_en, post?.srcUrl]
+      .filter(Boolean).join(' ');
+    return CLIENT_NOISE_PATTERNS.some(p => p.test(haystack));
+  }
+
+  function normalizePosts(rawPosts) {
+    if (!Array.isArray(rawPosts)) return [];
+    return rawPosts
+      .filter(post => post && post.slug)
+      .filter(post => !isClientNoise(post))
+      .sort((a, b) => String(b.publishedIso || '').localeCompare(String(a.publishedIso || '')));
+  }
+
+  let DB = normalizePosts(window.postsData || []);
+  let currentLang = localStorage.getItem('cw_lang') === 'en' ? 'en' : 'pt';
+  let currentPage = 'home';
+  let currentArticleSlug = null;
+  let currentCategory = 'all';
+  let searchTimer = null;
+  let toastTimer = null;
+
+  function tr(key) { return UI[currentLang][key] ?? UI.pt[key] ?? key; }
+
+  function textFor(post, field) {
+    if (!post) return '';
+    if (currentLang === 'en' && post[`${field}_en`]) return post[`${field}_en`];
+    if (currentLang === 'pt' && post[`${field}_pt`]) return post[`${field}_pt`];
+    return post[field] || '';
+  }
+
+  function listFor(post, field) {
+    if (!post) return [];
+    if (currentLang === 'en' && post[`${field}_en`]) return post[`${field}_en`];
+    if (currentLang === 'pt' && post[`${field}_pt`]) return post[`${field}_pt`];
+    return post[field] || [];
+  }
+
+  function normalizarTexto(t = '') {
+    return String(t).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  }
+
+  function prettyCategory(cat = '') {
+    const labels = {
+      pt: { Astronomia:'Astronomia', Cosmologia:'Cosmologia', 'Astrofísica':'Astrofísica', Exoplanetas:'Exoplanetas', Física:'Física', Biologia:'Biologia', Química:'Química', 'Ciências da Terra':'Ciências da Terra' },
+      en: { Astronomia:'Astronomy', Cosmologia:'Cosmology', 'Astrofísica':'Astrophysics', Exoplanetas:'Exoplanets', Física:'Physics', Biologia:'Biology', Química:'Chemistry', 'Ciências da Terra':'Earth Science' }
+    };
+    return (labels[currentLang] && labels[currentLang][cat]) || cat;
+  }
+
+  function formatMeta(post) {
+    return {
+      date: currentLang === 'en' ? (post.date_en || post.date) : (post.date_pt || post.date),
+      time: currentLang === 'en' ? (post.time_en || post.time) : (post.time_pt || post.time),
+      read: currentLang === 'en' ? (post.read_en || post.read) : (post.read_pt || post.read)
+    };
+  }
+
+  function fallbackImage(post) {
+    const text = `${post?.title||''} ${post?.title_en||''} ${post?.excerpt||''} ${post?.cat||''}`.toLowerCase();
+    if (/gravitational wave|kilonova|black hole|neutron star|astrofísica/.test(text)) return IMG.blackhole;
+    if (/particle|lhc|cern|muon|physics|física/.test(text)) return IMG.cern;
+    if (/exoplanet|exoplaneta|biosignature|habitable/.test(text)) return IMG.exoplanet;
+    if (/cosmolog|dark energy|dark matter|cmb/.test(text)) return IMG.hubbledeep;
+    if (/galaxy|galáxia|spiral|milky way/.test(text)) return IMG.andromeda;
+    if (/earth|clima|climate|ocean|atmosphere/.test(text)) return IMG.earth;
+    if (/supernova/.test(text)) return IMG.supernova;
+    return ({ 'Astrofísica':IMG.blackhole, 'Física':IMG.cern, 'Exoplanetas':IMG.exoplanet,
+               'Ciências da Terra':IMG.earth, 'Cosmologia':IMG.hubbledeep,
+               'Astronomia':IMG.milkyway, 'Química':IMG.pillars, 'Biologia':IMG.earth })[post?.cat] || IMG.pillars;
+  }
+
+  function primaryImage(post) {
+    const src = String(post?.img || '').trim();
+    return src || fallbackImage(post);
+  }
+
+  function escapeAttr(v = '') { return String(v).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/'/g,'&#39;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+  function imageAttrs(post, loading = 'lazy') {
+    const primary  = escapeAttr(primaryImage(post));
+    const fallback = escapeAttr(fallbackImage(post));
+    const alt      = escapeAttr(textFor(post, 'title'));
+    return `src="${primary}" alt="${alt}" loading="${loading}" onerror="if(this.src!=='${fallback}'){this.src='${fallback}'}"`;
+  }
+
+  function getURLForArticle(post) {
+    return `${SITE.baseUrl}?article=${encodeURIComponent(post.slug)}`;
+  }
+
+  function pageUrl(page) {
+    const map = { archive:'?page=arquivo', about:'?page=sobre', standards:'?page=padroes', search:'?page=busca' };
+    return SITE.baseUrl + (map[page] || '');
+  }
+
+  function keywordListFor(post) {
+    const kws = currentLang === 'en' ? (post.keywords_en || post.keywords || []) : (post.keywords_pt || post.keywords || []);
+    return Array.isArray(kws) ? kws : [];
+  }
+
+  function sourceDomainFor(post) {
+    return post.sourceDomain || (() => { try { return new URL(post.srcUrl).hostname; } catch { return ''; } })();
+  }
+
+  function averageVisibleScore(key, filterFn = null) {
+    const posts = (filterFn ? DB.filter(filterFn) : DB).filter(p => !p.isPreprint || key === 'overall');
+    if (!posts.length) return 0;
+    const total = posts.reduce((acc, p) => acc + (key === 'overall' ? (p.score||0) : ((p.scoreBreakdown||{})[key]||0)), 0);
+    return Math.round(total / posts.length);
+  }
+
+  function filteredRegularPosts() {
+    return DB.filter(p => !p.isPreprint && (currentCategory === 'all' || p.cat === currentCategory));
+  }
+
+  function filteredPreprints() {
+    return DB.filter(p => p.isPreprint && (currentCategory === 'all' || p.cat === currentCategory));
+  }
+
+  // ── Badge row ─────────────────────────────────────────────────────────────
+  function renderBadgeRow(post, extra = '') {
+    const catCls = (post.catCls || normalizarTexto(post.cat || '').replace(/\s+/g,'-'));
+    const catLabel = prettyCategory(post.cat);
+    let chips = `<span class="label ${catCls}">${catLabel}</span>`;
+    if (post.isPreprint) chips += `<span class="status-chip preprint">Preprint</span>`;
+    else if (post.editorialBand === 'flagship') chips += `<span class="status-chip">${currentLang === 'en' ? 'Top story' : 'Destaque'}</span>`;
+    if (extra) chips += extra;
+    return `<div class="label-row">${chips}</div>`;
+  }
+
+  // ── Card markup ────────────────────────────────────────────────────────────
+  function cardMarkup(post) {
+    const meta = formatMeta(post);
+    return `
+      <article class="story-card" onclick="openArticle('${escapeAttr(post.slug)}')">
+        <div class="card-cover"><img ${imageAttrs(post)}></div>
+        <div class="card-body">
+          ${renderBadgeRow(post)}
+          <h3 class="headline-md">${textFor(post,'title')}</h3>
+          <p class="deck small">${textFor(post,'excerpt')}</p>
+          <div class="meta-row"><span>${meta.date}</span><span>${meta.read}</span><span>${post.source}</span></div>
+        </div>
+      </article>`;
+  }
+
+  function compactMarkup(post) {
+    const meta = formatMeta(post);
+    return `
+      <article class="compact-item" onclick="openArticle('${escapeAttr(post.slug)}')">
+        <div class="compact-cover"><img ${imageAttrs(post)}></div>
+        <div class="compact-body">
+          ${renderBadgeRow(post)}
+          <h3 class="headline-md" style="font-size:1.05rem;">${textFor(post,'title')}</h3>
+          <div class="compact-meta">${meta.date} · ${meta.read} · ${post.source}</div>
+        </div>
+      </article>`;
+  }
+
+  // ── Hero ───────────────────────────────────────────────────────────────────
+  function heroPostsForCurrentCategory() {
+    const regular = filteredRegularPosts();
+    const preprints = filteredPreprints();
+    const source = regular.length ? regular : preprints;
+    const featured = source.filter(p => p.featured).slice(0,3);
+    return featured.length >= 3 ? featured : source.slice(0,3);
+  }
+
+  function renderHero() {
+    const mount = document.getElementById('heroMount');
+    const pool = heroPostsForCurrentCategory();
+    if (!pool.length) { mount.innerHTML = ''; return; }
+    const lead = pool[0];
+    const sides = pool.slice(1,3);
+    const leadMeta = formatMeta(lead);
+    mount.innerHTML = `
+      <div class="hero-grid">
+        <article class="hero-primary" onclick="openArticle('${escapeAttr(lead.slug)}')">
+          <img ${imageAttrs(lead,'eager')}>
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            ${renderBadgeRow(lead, `<span class="meta-chip">${lead.source}</span>`)}
+            <h1 class="headline-xl" style="margin-bottom:12px;">${textFor(lead,'title')}</h1>
+            <p class="deck" style="max-width:700px;">${textFor(lead,'excerpt')}</p>
+            <div class="meta-row" style="margin-top:18px;"><span>${leadMeta.date}</span><span>${leadMeta.read}</span><span>${tr('clickToRead')}</span></div>
+          </div>
+        </article>
+        <div class="hero-side">
+          ${sides.map(post => {
+            const meta = formatMeta(post);
+            return `
+              <article class="hero-side-card" onclick="openArticle('${escapeAttr(post.slug)}')">
+                <img ${imageAttrs(post)}>
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                  ${renderBadgeRow(post)}
+                  <h2 class="headline-lg">${textFor(post,'title')}</h2>
+                  <div class="meta-row" style="margin-top:10px;"><span>${meta.date}</span><span>${meta.read}</span></div>
+                </div>
+              </article>`;
+          }).join('')}
+        </div>
+      </div>`;
+  }
+
+  // ── Home ───────────────────────────────────────────────────────────────────
+  function renderHome() {
+    renderHero();
+    const regular = filteredRegularPosts();
+    const preprints = filteredPreprints();
+    const heroSlugs = new Set(heroPostsForCurrentCategory().map(p => p.slug));
+    const latest = regular.filter(p => !heroSlugs.has(p.slug)).slice(0,9);
+    document.getElementById('latestGrid').innerHTML = latest.map(cardMarkup).join('');
+
+    // Preprint section
+    const preprintMount = document.getElementById('preprintMount');
+    if (preprints.length) {
+      preprintMount.innerHTML = `
+        <div class="section-head preprint-section-head" style="margin-top:34px;">
+          <div>
+            <div class="section-title" style="color:#ffaaaa;">${tr('preprintsTitle')}</div>
+            <div class="section-kicker">${tr('preprintsKicker')}</div>
+          </div>
+        </div>
+        <div class="story-grid">${preprints.slice(0,6).map(cardMarkup).join('')}</div>`;
+    } else {
+      preprintMount.innerHTML = '';
+    }
+
+    renderTrending();
+    renderSourceMix();
+    renderTicker();
+    syncCategoryButtons();
+    markNav('home');
+    activatePage('home');
+    updateMetaHome();
+  }
+
+  // ── Trending ───────────────────────────────────────────────────────────────
+  function renderTrending() {
+    const mount = document.getElementById('trendingList');
+    const posts = DB.filter(p => p.trending && !p.isPreprint).sort((a,b) => (b.score||0)-(a.score||0)).slice(0,5);
+    mount.innerHTML = posts.map((post, i) => `
+      <button class="trend-item" onclick="openArticle('${escapeAttr(post.slug)}')">
+        <div class="trend-num">${i+1}</div>
+        <div>
+          <div class="trend-title">${textFor(post,'title')}</div>
+          <div class="trend-meta">${prettyCategory(post.cat)} · ${formatMeta(post).read}</div>
+        </div>
+      </button>`).join('');
+  }
+
+  // ── Source mix ─────────────────────────────────────────────────────────────
+  function renderSourceMix() {
+    const mount = document.getElementById('sourceMix');
+    const counts = DB.reduce((acc,p) => { acc[p.sourceType] = (acc[p.sourceType]||0)+1; return acc; }, {});
+    const rows = [
+      ['agency',   currentLang==='en'?'Institutional':'Institucional',  averageVisibleScore('evidence', p=>p.sourceType==='agency')],
+      ['journal',  currentLang==='en'?'Peer-reviewed':'Revisado por pares', averageVisibleScore('evidence', p=>p.sourceType==='journal')],
+      ['preprint', currentLang==='en'?'Preprints':'Preprints',          averageVisibleScore('overall',   p=>p.sourceType==='preprint')]
     ];
-
-    function isClientNoise(post) {
-      const haystack = [post?.title, post?.title_pt, post?.title_en, post?.excerpt, post?.excerpt_pt, post?.excerpt_en, post?.srcUrl]
-        .filter(Boolean)
-        .join(' ');
-      return CLIENT_NOISE_PATTERNS.some(pattern => pattern.test(haystack));
-    }
-
-    function normalizePosts(rawPosts) {
-      if (!Array.isArray(rawPosts)) return [];
-      return rawPosts
-        .filter(post => post && post.slug)
-        .filter(post => !isClientNoise(post))
-        .sort((a, b) => String(b.publishedIso || '').localeCompare(String(a.publishedIso || '')));
-    }
-
-    let DB = normalizePosts(window.postsData);
-    let currentLang = localStorage.getItem('cw_lang') === 'en' ? 'en' : 'pt';
-    let currentPage = 'home';
-    let currentArticleSlug = null;
-    let currentCategory = 'all';
-    let searchTimer = null;
-    let toastTimer = null;
-
-    function tr(key) {
-      return UI[currentLang][key] ?? UI.pt[key] ?? key;
-    }
-
-    function textFor(post, field) {
-      if (!post) return '';
-      if (currentLang === 'en' && post[`${field}_en`]) return post[`${field}_en`];
-      if (currentLang === 'pt' && post[`${field}_pt`]) return post[`${field}_pt`];
-      return post[field] || '';
-    }
-
-    function listFor(post, field) {
-      if (!post) return [];
-      if (currentLang === 'en' && post[`${field}_en`]) return post[`${field}_en`];
-      if (currentLang === 'pt' && post[`${field}_pt`]) return post[`${field}_pt`];
-      return post[field] || [];
-    }
-
-    function normalizarTexto(texto = '') {
-      return String(texto)
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .toLowerCase();
-    }
-
-    function prettyCategory(cat = '') {
-      const labels = {
-        pt: {
-          Astronomia: 'Astronomia',
-          Cosmologia: 'Cosmologia',
-          'Astrofísica': 'Astrofísica',
-          Exoplanetas: 'Exoplanetas',
-          Física: 'Física',
-          Biologia: 'Biologia',
-          Química: 'Química',
-          'Ciências da Terra': 'Ciências da Terra'
-        },
-        en: {
-          Astronomia: 'Astronomy',
-          Cosmologia: 'Cosmology',
-          'Astrofísica': 'Astrophysics',
-          Exoplanetas: 'Exoplanets',
-          Física: 'Physics',
-          Biologia: 'Biology',
-          Química: 'Chemistry',
-          'Ciências da Terra': 'Earth Science'
-        }
-      };
-      return (labels[currentLang] && labels[currentLang][cat]) || cat;
-    }
-
-    function formatMeta(post) {
-      const date = currentLang === 'en' ? (post.date_en || post.date) : (post.date_pt || post.date);
-      const time = currentLang === 'en' ? (post.time_en || post.time) : (post.time_pt || post.time);
-      const read = currentLang === 'en' ? (post.read_en || post.read) : (post.read_pt || post.read);
-      return { date, time, read };
-    }
-
-    function fallbackImage(post) {
-      const text = `${post?.title || ''} ${post?.title_en || ''} ${post?.excerpt || ''} ${post?.cat || ''}`.toLowerCase();
-      if (/gravitational wave|onda gravitacional|kilonova|black hole|buraco negro|neutron star|estrela de neutr|astrofísica/.test(text)) return IMG.blackhole;
-      if (/particle|partícula|lhc|cern|muon|múon|physics|física/.test(text)) return IMG.cern;
-      if (/exoplanet|exoplaneta|habitável|biossinal|biosignature/.test(text)) return IMG.exoplanet;
-      if (/earth|terra|climate|clima|luminosity distance|distância de luminosidade|cosmolog/.test(text)) return IMG.hubbledeep;
-      if (/galaxy|galáxia|spiral|espiral/.test(text)) return IMG.andromeda;
-      return ({
-        'Astrofísica': IMG.blackhole,
-        'Física': IMG.cern,
-        'Exoplanetas': IMG.exoplanet,
-        'Ciências da Terra': IMG.earth,
-        'Cosmologia': IMG.hubbledeep,
-        'Astronomia': IMG.andromeda,
-        'Química': IMG.pillars,
-        'Biologia': IMG.earth
-      })[post?.cat] || IMG.pillars;
-    }
-
-    function primaryImage(post) {
-      const src = String(post?.img || '').trim();
-      return src || fallbackImage(post);
-    }
-
-    function handleImageError(img, fallback) {
-      if (!img) return;
-      if (img.dataset.fallbackApplied === '1') {
-        img.onerror = null;
-        return;
-      }
-      img.dataset.fallbackApplied = '1';
-      img.src = fallback || IMG.pillars;
-    }
-
-    function imageAttrs(post, loading = 'lazy') {
-      const primary = escapeAttr(primaryImage(post));
-      const fallback = escapeAttr(fallbackImage(post));
-      const alt = escapeAttr(textFor(post, 'title'));
-      return `src="${primary}" alt="${alt}" loading="${loading}" decoding="async" onerror="handleImageError(this, '${fallback}')"`;
-    }
-
-    function getURLForArticle(post) {
-      return `${SITE.baseUrl}?article=${encodeURIComponent(post.slug)}`;
-    }
-
-    function pageUrl(page) {
-      if (page === 'home') return SITE.baseUrl;
-      const map = { archive: 'arquivo', about: 'sobre', standards: 'padroes' };
-      return `${SITE.baseUrl}?page=${map[page] || page}`;
-    }
-
-    function filteredRegularPosts() {
-      return DB.filter(post => !post.isPreprint && (currentCategory === 'all' || post.cat === currentCategory));
-    }
-
-    function filteredPreprints() {
-      return DB.filter(post => post.isPreprint && (currentCategory === 'all' || post.cat === currentCategory));
-    }
-
-    function escapeAttr(value = '') {
-      return String(value)
-        .replace(/&/g, '&amp;')
-        .replace(/"/g, '&quot;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;');
-    }
-
-
-function evidenceLabelFor(post) {
-  return currentLang === 'en' ? (post.evidenceLabel_en || post.evidenceLabel || '') : (post.evidenceLabel_pt || post.evidenceLabel || '');
-}
-
-function editorialBandLabelFor(post) {
-  return currentLang === 'en' ? (post.editorialBandLabel_en || post.editorialBandLabel || '') : (post.editorialBandLabel_pt || post.editorialBandLabel || '');
-}
-
-function keywordListFor(post) {
-  const arr = currentLang === 'en' ? (post.keywords_en || post.keywords || []) : (post.keywords_pt || post.keywords || []);
-  return Array.isArray(arr) ? arr : [];
-}
-
-function sourceDomainFor(post) {
-  return post.sourceDomain || (() => {
-    try { return new URL(post.srcUrl).hostname; } catch { return ''; }
-  })();
-}
-
-function averageVisibleScore(key, filterFn = null) {
-  const posts = (filterFn ? DB.filter(filterFn) : DB).filter(post => !post.isPreprint || key === 'overall');
-  if (!posts.length) return 0;
-  const total = posts.reduce((acc, post) => {
-    if (key === 'overall') return acc + (post.score || 0);
-    return acc + (((post.scoreBreakdown || {})[key]) || 0);
-  }, 0);
-  return Math.round(total / posts.length);
-}
-
-
-
-function heroPostsForCurrentCategory() {
-  const regular = filteredRegularPosts();
-  const preprints = filteredPreprints();
-  const source = regular.length ? regular : preprints;
-  const featured = source.filter(post => post.featured).slice(0, 3);
-  return featured.length >= 3 ? featured : source.slice(0, 3);
-}
-
-function renderBadgeRow(post, extra = '') {
-  return '';
-}
-
-
-    function cardMarkup(post) {
-      const meta = formatMeta(post);
+    mount.innerHTML = rows.map(([key,label,metric]) => {
+      const n = counts[key]||0;
       return `
-        <article class="story-card" onclick="openArticle('${escapeAttr(post.slug)}')">
-          <div class="card-cover"><img ${imageAttrs(post)}></div>
-          <div class="card-body">
-            ${renderBadgeRow(post)}
-            <h3 class="headline-md">${textFor(post, 'title')}</h3>
-            <p class="deck small">${textFor(post, 'excerpt')}</p>
-            <div class="meta-row"><span>${meta.date}</span><span>${meta.read}</span><span>${post.source}</span></div>
-          </div>
-        </article>`;
-    }
-
-    function compactMarkup(post) {
-      const meta = formatMeta(post);
-      return `
-        <article class="compact-item" onclick="openArticle('${escapeAttr(post.slug)}')">
-          <div class="compact-cover"><img ${imageAttrs(post)}></div>
-          <div class="compact-body">
-            ${renderBadgeRow(post)}
-            <h3 class="headline-md">${textFor(post, 'title')}</h3>
-            <div class="compact-meta">${meta.date} · ${meta.read} · ${post.source}</div>
-          </div>
-        </article>`;
-    }
-
-    function renderHero() {
-      const mount = document.getElementById('heroMount');
-      const pool = heroPostsForCurrentCategory();
-      if (!pool.length) {
-        mount.innerHTML = '';
-        return;
-      }
-      const lead = pool[0];
-      const sides = pool.slice(1, 3);
-      const leadMeta = formatMeta(lead);
-      mount.innerHTML = `
-        <div class="hero-grid">
-          <article class="hero-primary" onclick="openArticle('${escapeAttr(lead.slug)}')">
-            <img class="cover" ${imageAttrs(lead, 'eager')}>
-            <div class="overlay"></div>
-            <div class="hero-content">
-              ${renderBadgeRow(lead, `<span class="status-chip">${lead.source}</span>`)}
-              <h1 class="headline-xl">${textFor(lead, 'title')}</h1>
-              <p class="deck">${textFor(lead, 'excerpt')}</p>
-              <div class="meta-row" style="margin-top:16px;"><span>${leadMeta.date}</span><span>${leadMeta.read}</span><span>${tr('clickToRead')}</span></div>
-            </div>
-          </article>
-          <div class="hero-side">
-            ${sides.map(post => {
-              const meta = formatMeta(post);
-              return `
-                <article class="hero-side-card" onclick="openArticle('${escapeAttr(post.slug)}')">
-                  <img class="cover" ${imageAttrs(post)}>
-                  <div class="overlay"></div>
-                  <div class="hero-content">
-                    ${renderBadgeRow(post)}
-                    <h2 class="headline-lg">${textFor(post, 'title')}</h2>
-                    <p class="deck small">${textFor(post, 'excerpt')}</p>
-                    <div class="meta-row" style="margin-top:12px;"><span>${meta.date}</span><span>${meta.read}</span></div>
-                  </div>
-                </article>`;
-            }).join('')}
-          </div>
-        </div>`;
-    }
-
-    function renderHome() {
-      renderHero();
-      const regular = filteredRegularPosts();
-      const preprints = filteredPreprints();
-      const heroSlugs = new Set(heroPostsForCurrentCategory().map(post => post.slug));
-      const latestBase = currentCategory === 'all'
-        ? regular.filter(post => !heroSlugs.has(post.slug))
-        : [...regular.filter(post => !heroSlugs.has(post.slug)), ...preprints.filter(post => !heroSlugs.has(post.slug))];
-      const latest = latestBase.slice(0, 9);
-      document.getElementById('latestGrid').innerHTML = latest.map(cardMarkup).join('');
-
-      const preprintHead = document.getElementById('preprintsSectionHead');
-      const preprintGrid = document.getElementById('preprintGrid');
-      if (preprintHead) preprintHead.style.display = 'none';
-      if (preprintGrid) {
-        preprintGrid.style.display = 'none';
-        preprintGrid.innerHTML = '';
-      }
-
-      renderTrending();
-      renderTicker();
-      syncCategoryButtons();
-      markNav('home');
-      activatePage('home');
-      updateMetaHome();
-    }
-
-    function renderTrending() {
-      const mount = document.getElementById('trendingList');
-      const posts = DB.filter(post => post.trending && !post.isPreprint).sort((a, b) => (b.score || 0) - (a.score || 0)).slice(0, 5);
-      mount.innerHTML = posts.map((post, index) => `
-        <button class="trend-item" onclick="openArticle('${escapeAttr(post.slug)}')" style="background:transparent; color:inherit; text-align:left;">
-          <div class="trend-num">${index + 1}</div>
-          <div>
-            <div class="headline-md" style="font-size:1.02rem; margin-bottom:6px;">${textFor(post, 'title')}</div>
-            <div class="compact-meta">${prettyCategory(post.cat)} · ${formatMeta(post).read}</div>
-          </div>
-        </button>`).join('');
-    }
-
-    function renderSourceMix() {
-      const mount = document.getElementById('sourceMix');
-      const counts = DB.reduce((acc, post) => {
-        acc[post.sourceType] = (acc[post.sourceType] || 0) + 1;
-        return acc;
-      }, {});
-      const rows = [
-        ['agency', currentLang === 'en' ? 'Institutional sources' : 'Fontes institucionais', averageVisibleScore('evidence', post => post.sourceType === 'agency')],
-        ['preprint', currentLang === 'en' ? 'Preprints' : 'Preprints', averageVisibleScore('overall', post => post.sourceType === 'preprint')],
-      ];
-      mount.innerHTML = rows.map(([key, label, metric]) => `
         <div class="metric-row">
-          <span class="metric-badge">${counts[key] || 0}</span>
+          <div class="metric-badge">${n}</div>
           <div>
-            <div style="color:var(--txt); font-weight:600;">${label}</div>
-            <div class="compact-meta">${currentLang === 'en' ? 'Average quality signal' : 'Sinal médio de qualidade'}: ${metric || 0}/100</div>
-          </div>
-        </div>`).join('');
-    }
-
-    function renderTicker() {
-      const mount = document.getElementById('tickerTrack');
-      const regular = filteredRegularPosts();
-      const preprints = filteredPreprints();
-      const source = regular.length ? regular : preprints;
-      const items = source.slice(0, 8).map(post => textFor(post, 'title')).filter(Boolean);
-      const loop = items.length ? [...items, ...items] : [];
-      mount.innerHTML = loop.map(item => `<span class="ticker-item">${item}</span>`).join('');
-    }
-
-    function renderArchive() {
-      const posts = (currentCategory === 'all' ? DB : DB.filter(post => post.cat === currentCategory));
-      document.getElementById('archiveList').innerHTML = posts.map(compactMarkup).join('');
-      markNav('archive');
-      activatePage('archive');
-      updateMetaStatic('archive');
-    }
-
-    function renderAbout() {
-      const mount = document.getElementById('pageAbout');
-      mount.innerHTML = `
-        <div class="about-grid">
-          <div class="section-title">${tr('aboutPageTitle')}</div>
-          <h1 class="headline-xl" style="max-width:920px;">${tr('aboutPageTitle')}</h1>
-          <p class="deck">${tr('aboutIntro')}</p>
-          <p class="deck">${tr('aboutBody')}</p>
-        </div>`;
-      markNav('about');
-      activatePage('about');
-      updateMetaStatic('about');
-    }
-
-    function renderStandards() {
-      const mount = document.getElementById('pageStandards');
-      mount.innerHTML = `
-        <div class="about-grid">
-          <div class="section-title">${tr('standardsPageTitle')}</div>
-          <h1 class="headline-xl" style="max-width:980px;">${tr('standardsPageTitle')}</h1>
-          <p class="deck">${tr('standardsIntro')}</p>
-          <div class="standards-grid">
-            ${UI[currentLang].standardsCards.map(card => `
-              <article class="standards-card">
-                <h3>${card.title}</h3>
-                <p>${card.body}</p>
-              </article>`).join('')}
+            <div class="metric-label">${label}</div>
+            <div class="metric-sub">${tr('sourceMixLine')}</div>
+            <div class="score-bar-wrap"><div class="score-bar" style="width:${metric}%"></div></div>
           </div>
         </div>`;
-      markNav('standards');
-      activatePage('standards');
-      updateMetaStatic('standards');
-    }
+    }).join('');
+  }
 
-    function sourceNoteFor(post) {
-      return currentLang === 'en' ? (post.sourceNote_en || post.sourceNote) : (post.sourceNote_pt || post.sourceNote);
-    }
+  // ── Ticker ─────────────────────────────────────────────────────────────────
+  function renderTicker() {
+    const mount = document.getElementById('tickerTrack');
+    const source = filteredRegularPosts().length ? filteredRegularPosts() : filteredPreprints();
+    const items = source.slice(0,8).map(p => textFor(p,'title')).filter(Boolean);
+    const loop = items.length ? [...items,...items] : [];
+    mount.innerHTML = loop.map(item => `<span class="ticker-item">${item}</span>`).join('');
+  }
 
-    function renderArticle(slug) {
-      const post = DB.find(item => item.slug === slug);
-      if (!post) {
-        goHome();
-        return;
-      }
-      currentArticleSlug = slug;
-      const meta = formatMeta(post);
-      const highlights = listFor(post, 'highlights');
-      const related = DB.filter(item => item.slug !== post.slug && item.cat === post.cat).slice(0, 3);
-      const mount = document.getElementById('pageArticle');
-      mount.innerHTML = `
-        <div class="breadcrumbs">
-          <button onclick="goHome()">${tr('home')}</button>
-          <span>›</span>
-          <button onclick="setCategory('${escapeAttr(post.cat)}'); goHome();">${prettyCategory(post.cat)}</button>
-          <span>›</span>
-          <span>${post.source}</span>
+  // ── Archive ────────────────────────────────────────────────────────────────
+  function renderArchive() {
+    const posts = currentCategory==='all' ? DB : DB.filter(p=>p.cat===currentCategory);
+    document.getElementById('archiveList').innerHTML = posts.map(compactMarkup).join('');
+    markNav('archive'); activatePage('archive'); updateMetaStatic('archive');
+  }
+
+  // ── About / Standards ──────────────────────────────────────────────────────
+  function renderAbout() {
+    document.getElementById('pageAbout').innerHTML = `
+      <div class="about-grid">
+        <div class="section-title">${tr('aboutPageTitle')}</div>
+        <h1 class="headline-xl" style="max-width:900px;">${tr('aboutPageTitle')}</h1>
+        <p class="deck">${tr('aboutIntro')}</p>
+        <p class="deck">${tr('aboutBody')}</p>
+      </div>`;
+    markNav('about'); activatePage('about'); updateMetaStatic('about');
+  }
+
+  function renderStandards() {
+    document.getElementById('pageStandards').innerHTML = `
+      <div class="about-grid">
+        <div class="section-title">${tr('standardsPageTitle')}</div>
+        <h1 class="headline-xl" style="max-width:980px;">${tr('standardsPageTitle')}</h1>
+        <p class="deck">${tr('standardsIntro')}</p>
+        <div class="standards-grid">
+          ${UI[currentLang].standardsCards.map(card=>`
+            <article class="standards-card">
+              <h3>${card.title}</h3>
+              <p>${card.body}</p>
+            </article>`).join('')}
+        </div>
+      </div>`;
+    markNav('standards'); activatePage('standards'); updateMetaStatic('standards');
+  }
+
+  // ── Article ────────────────────────────────────────────────────────────────
+  function renderArticle(slug) {
+    const post = DB.find(item => item.slug === slug);
+    if (!post) { goHome(); return; }
+    currentArticleSlug = slug;
+    const meta = formatMeta(post);
+    const highlights = listFor(post,'highlights');
+    const related = DB.filter(item => item.slug!==post.slug && item.cat===post.cat).slice(0,3);
+    const keywords = keywordListFor(post);
+    const body = currentLang==='en' ? (post.body_en||post.body) : (post.body_pt||post.body);
+    const sb = post.scoreBreakdown || {};
+    const mount = document.getElementById('pageArticle');
+    mount.innerHTML = `
+      <div class="breadcrumbs">
+        <button onclick="goHome()">${tr('home')}</button>
+        <span>›</span>
+        <button onclick="setCategory('${escapeAttr(post.cat)}');goHome();">${prettyCategory(post.cat)}</button>
+        <span>›</span>
+        <span>${post.source}</span>
+      </div>
+
+      <article class="article-shell">
+        <div class="article-cover" style="min-height:480px;">
+          <img ${imageAttrs(post,'eager')} style="width:100%;height:100%;object-fit:cover;display:block;min-height:480px;">
+          <div class="article-cover-content">
+            ${renderBadgeRow(post, `<span class="meta-chip">${post.source}</span>`)}
+            <h1 class="headline-xl" style="margin-bottom:14px;">${textFor(post,'title')}</h1>
+            <p class="deck" style="max-width:780px;">${textFor(post,'excerpt')}</p>
+            <div class="meta-row" style="margin-top:16px;">
+              <span>${tr('newsroom')}</span>
+              <span>${meta.date}</span>
+              <span>${meta.time}</span>
+              <span>${meta.read}</span>
+            </div>
+          </div>
         </div>
 
-        <article class="article-shell">
-          <div class="article-cover">
-            <img ${imageAttrs(post, 'eager')}>
-            <div class="article-cover-content">
-              ${renderBadgeRow(post)}
-              <h1 class="headline-xl">${textFor(post, 'title')}</h1>
-              <p class="deck" style="max-width:760px;">${textFor(post, 'excerpt')}</p>
-              <div class="meta-row" style="margin-top:14px;"><span>${tr('newsroom')}</span><span>${meta.date}</span><span>${meta.time}</span><span>${meta.read}</span><span>${post.source}</span></div>
-            </div>
-          </div>
-
-          <div class="article-layout">
-            <div class="article-body-wrap">
-              <div class="article-lede">${textFor(post, 'sub')}</div>
-              <div class="article-body">${currentLang === 'en' ? (post.body_en || post.body) : (post.body_pt || post.body)}</div>
-
-              <div class="share-box" style="margin-top:28px;">
-                <div class="box-title">${tr('articleShare')}</div>
+        <div class="article-layout">
+          <div>
+            <p class="article-lede">${textFor(post,'sub')}</p>
+            <div class="article-body">${body}</div>
+            <div class="share-box" style="margin-top:32px; overflow:visible;">
+              <div class="box-head">${tr('articleShare')}</div>
+              <div class="box-body">
                 <button class="ghost-btn" type="button" onclick="copyArticleLink()">${tr('copyLink')}</button>
                 <a class="ghost-btn" href="${escapeAttr(post.srcUrl)}" target="_blank" rel="noopener">${tr('articleReadOriginal')}</a>
               </div>
+            </div>
+            ${related.length ? `
+              <div class="section-head" style="margin-top:38px;margin-bottom:18px;">
+                <div class="section-title">${tr('relatedTitle')}</div>
+              </div>
+              <div class="story-grid">${related.map(cardMarkup).join('')}</div>` : ''}
+          </div>
 
-              <div class="section-head" style="margin-top:34px; margin-bottom:16px;"><div class="section-title">${tr('relatedTitle')}</div></div>
-              <div class="story-grid">${related.map(cardMarkup).join('')}</div>
+          <aside class="sidebar">
+            ${post.isPreprint ? `
+              <div class="warning-box">
+                <div class="box-head">${tr('warningTitle')}</div>
+                <div class="warning-body">${tr('preprintWarning')}</div>
+              </div>` : ''}
+
+            <div class="highlights-box">
+              <div class="box-head">${tr('articleHighlights')}</div>
+              <div class="box-body">
+                <ul class="highlights-list">${highlights.map(item=>`<li>${item}</li>`).join('')}</ul>
+                ${keywords.length ? `<div class="keyword-row">${keywords.slice(0,5).map(k=>`<span class="kw-chip">${k}</span>`).join('')}</div>` : ''}
+              </div>
             </div>
 
-            <aside class="sidebar">
-              <div class="highlights-box">
-                <div class="box-title">${tr('articleHighlights')}</div>
-                <ul class="highlights-list">${highlights.map(item => `<li>${item}</li>`).join('')}</ul>
-                <p class="compact-meta" style="margin-top:12px;">${keywordListFor(post).slice(0, 5).join(' · ')}</p>
+            <div class="source-box">
+              <div class="box-head">${tr('articleSource')}</div>
+              <div class="box-body">
+                <div style="font-size:13.5px;font-weight:600;color:var(--txt);">${post.source}</div>
+                <div class="source-domain">${sourceDomainFor(post)}</div>
+                <div class="source-note">${currentLang==='en'?(post.sourceNote_en||post.sourceNote):(post.sourceNote_pt||post.sourceNote)}</div>
+                <div style="margin-top:14px;">
+                  <a href="${escapeAttr(post.srcUrl)}" target="_blank" rel="noopener" style="color:var(--accent-2);font-size:13.5px;text-decoration:underline;text-decoration-color:rgba(127,179,255,.3);text-underline-offset:3px;">${tr('articleReadOriginal')}</a>
+                </div>
               </div>
-              <div class="source-box">
-                <div class="box-title">${tr('articleSource')}</div>
-                <p><strong>${post.source}</strong></p>
-                <p style="margin-top:10px;"><a href="${escapeAttr(post.srcUrl)}" target="_blank" rel="noopener">${tr('articleReadOriginal')}</a></p>
+            </div>
+
+            <div class="score-box">
+              <div class="box-head">${tr('scoreLabel')}</div>
+              <div class="box-body">
+                <div>
+                  <span class="score-overall">${post.score||0}</span>
+                  <span class="score-label">/100</span>
+                </div>
+                ${[
+                  ['evidence',      tr('evidenceLabel'),    sb.evidence||0],
+                  ['relevance',     tr('relatedTitle').split(' ')[0], sb.relevance||0],
+                  ['novelty',       tr('noveltyLabel'),    sb.novelty||0],
+                  ['accessibility', tr('accessLabel'),  sb.accessibility||0]
+                ].map(([,label,val]) => `
+                  <div>
+                    <div class="score-dim">
+                      <span class="score-dim-name">${label}</span>
+                      <span class="score-dim-val">${val}</span>
+                    </div>
+                    <div class="mini-bar-wrap"><div class="mini-bar" style="width:${val}%"></div></div>
+                  </div>`).join('')}
               </div>
-            </aside>
-          </div>
-        </article>`;
-      markNav('');
-      activatePage('article');
-      updateMetaArticle(post);
+            </div>
+          </aside>
+        </div>
+      </article>`;
+    markNav(''); activatePage('article'); updateMetaArticle(post);
+  }
+
+  // ── Search ─────────────────────────────────────────────────────────────────
+  function renderSearch(query) {
+    const q = normalizarTexto(query);
+    const results = DB.filter(post => normalizarTexto([
+      post.title, post.title_pt, post.title_en, post.excerpt, post.excerpt_pt, post.excerpt_en,
+      post.body, post.body_pt, post.body_en, post.source, post.cat
+    ].join(' ')).includes(q));
+    document.getElementById('searchInfo').textContent = `${results.length} ${tr('resultsFor')} "${query}"`;
+    document.getElementById('searchGrid').innerHTML = results.map(cardMarkup).join('');
+    const empty = document.getElementById('searchEmpty');
+    if (!results.length) {
+      empty.classList.remove('hidden');
+      empty.innerHTML = `<p>${tr('noSearch')}</p><p style="margin-top:8px;">${tr('trySearch')}</p>`;
+    } else { empty.classList.add('hidden'); }
+    markNav(''); activatePage('search'); updateMetaStatic('search');
+  }
+
+  // ── Navigation helpers ─────────────────────────────────────────────────────
+  function activatePage(page) {
+    currentPage = page;
+    document.querySelectorAll('.page').forEach(el => el.classList.remove('active'));
+    const map = { home:'pageHome', article:'pageArticle', archive:'pageArchive', about:'pageAbout', standards:'pageStandards', search:'pageSearch' };
+    const el = document.getElementById(map[page]);
+    if (el) el.classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function markNav(which) {
+    ['navHome','navArchive','navAbout','navStandards'].forEach(id => document.getElementById(id).classList.remove('on'));
+    const map = { home:'navHome', archive:'navArchive', about:'navAbout', standards:'navStandards' };
+    if (map[which]) document.getElementById(map[which]).classList.add('on');
+  }
+
+  function setCategory(category, btn) {
+    currentCategory = category || 'all';
+    if (btn) syncCategoryButtons(btn);
+    if (currentPage === 'archive') renderArchive(); else renderHome();
+  }
+
+  function syncCategoryButtons(activeBtn) {
+    document.querySelectorAll('.cat-pill').forEach(btn => btn.classList.remove('on'));
+    if (activeBtn) { activeBtn.classList.add('on'); return; }
+    const target = document.querySelector(`.cat-pill[data-cat="${CSS.escape(currentCategory)}"]`) || document.querySelector('.cat-pill[data-cat="all"]');
+    if (target) target.classList.add('on');
+  }
+
+  function openPage(page) {
+    if (page === 'archive')   { history.replaceState({}, '', pageUrl('archive'));   renderArchive(); }
+    else if (page === 'about')     { history.replaceState({}, '', pageUrl('about'));     renderAbout(); }
+    else if (page === 'standards') { history.replaceState({}, '', pageUrl('standards')); renderStandards(); }
+    else goHome();
+  }
+
+  function goHome() { history.replaceState({}, '', SITE.baseUrl); renderHome(); }
+
+  function openArticle(slug) {
+    const post = DB.find(item => item.slug === slug);
+    if (post) history.pushState({}, '', getURLForArticle(post));
+    renderArticle(slug);
+  }
+
+  function handleSearchInput(value) {
+    clearTimeout(searchTimer);
+    if (!value.trim()) { if (currentPage === 'search') goHome(); return; }
+    searchTimer = setTimeout(() => renderSearch(value.trim()), 220);
+  }
+
+  function setLanguage(lang) {
+    currentLang = lang === 'en' ? 'en' : 'pt';
+    localStorage.setItem('cw_lang', currentLang);
+    applyUIStrings();
+    rerenderCurrentView();
+  }
+
+  function applyUIStrings() {
+    document.documentElement.lang = currentLang === 'en' ? 'en-US' : 'pt-BR';
+    const ids = {
+      logoSub:'logoSub', navHome:'home', navArchive:'archive', navAbout:'about',
+      navStandards:'standards', methodBtn:'methodology', updateBtnLabel:'update',
+      tickerBadge:'ticker', latestSectionTitle:'latestTitle', latestSectionKicker:'latestKicker',
+      archiveLinkTop:'archiveLink', trendingWidgetTitle:'trending',
+      sourceMixTitle:'sourceMix', editorialWidgetTitle:'editorialWidgetTitle',
+      editorialRulesCopy:'editorialRulesCopy', standardsBtn:'standardsBtn',
+      archiveTitle:'archiveTitle', archiveKicker:'archiveKicker', searchTitle:'searchTitle',
+      footerDescription:'footerDescription', footerNavTitle:'footerNavTitle',
+      footerSourcesTitle:'footerSourcesTitle', footerFeed:'footerFeed',
+      footerSitemap:'footerSitemap', footerCorrections:'footerCorrections',
+      footerBottomLeft:'footerBottomLeft', footerBottomCenter:'footerBottomCenter',
+      footerBottomRight:'footerBottomRight', newsletterTitle:'newsletterTitle',
+      newsletterDescription:'newsletterDescription', newsletterButton:'newsletterButton',
+      newsletterNote:'newsletterNote', newsletterButton:'newsletterButton'
+    };
+    for (const [id, key] of Object.entries(ids)) {
+      const el = document.getElementById(id); if (el) el.textContent = tr(key);
     }
-
-    function renderSearch(query) {
-      const q = normalizarTexto(query);
-      const results = DB.filter(post => normalizarTexto([
-        post.title, post.title_pt, post.title_en, post.excerpt, post.excerpt_pt, post.excerpt_en,
-        post.body, post.body_pt, post.body_en, post.source, post.cat
-      ].join(' ')).includes(q));
-      document.getElementById('searchInfo').textContent = `${results.length} ${tr('resultsFor')} "${query}"`;
-      document.getElementById('searchGrid').innerHTML = results.map(cardMarkup).join('');
-      const empty = document.getElementById('searchEmpty');
-      if (!results.length) {
-        empty.classList.remove('hidden');
-        empty.innerHTML = `<p>${tr('noSearch')}</p><p style="margin-top:8px;">${tr('trySearch')}</p>`;
-      } else {
-        empty.classList.add('hidden');
-      }
-      markNav('');
-      activatePage('search');
-      updateMetaStatic('search');
-    }
-
-    function activatePage(page) {
-      currentPage = page;
-      document.querySelectorAll('.page').forEach(el => el.classList.remove('active'));
-      const map = {
-        home: 'pageHome',
-        article: 'pageArticle',
-        archive: 'pageArchive',
-        about: 'pageAbout',
-        standards: 'pageStandards',
-        search: 'pageSearch'
-      };
-      document.getElementById(map[page]).classList.add('active');
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-
-    function markNav(which) {
-      ['navHome', 'navArchive', 'navAbout', 'navStandards'].forEach(id => document.getElementById(id).classList.remove('on'));
-      const map = { home: 'navHome', archive: 'navArchive', about: 'navAbout', standards: 'navStandards' };
-      if (map[which]) document.getElementById(map[which]).classList.add('on');
-    }
-
-    function setCategory(category, btn) {
-      currentCategory = category || 'all';
-      if (btn) syncCategoryButtons(btn);
-      if (currentPage === 'archive') renderArchive();
-      else renderHome();
-    }
-
-    function syncCategoryButtons(activeBtn) {
-      document.querySelectorAll('.cat-pill').forEach(btn => btn.classList.remove('on'));
-      if (activeBtn) {
-        activeBtn.classList.add('on');
-        return;
-      }
-      const target = document.querySelector(`.cat-pill[data-cat="${CSS.escape(currentCategory)}"]`) || document.querySelector('.cat-pill[data-cat="all"]');
-      if (target) target.classList.add('on');
-    }
-
-    function openPage(page) {
-      if (page === 'archive') {
-        history.replaceState({}, '', pageUrl('archive'));
-        renderArchive();
-      } else if (page === 'about') {
-        history.replaceState({}, '', pageUrl('about'));
-        renderAbout();
-      } else if (page === 'standards') {
-        history.replaceState({}, '', pageUrl('standards'));
-        renderStandards();
-      } else {
-        goHome();
-      }
-    }
-
-    function goHome() {
-      history.replaceState({}, '', SITE.baseUrl);
-      renderHome();
-    }
-
-    function openArticle(slug) {
-      const post = DB.find(item => item.slug === slug);
-      if (post) history.pushState({}, '', getURLForArticle(post));
-      renderArticle(slug);
-    }
-
-    function handleSearchInput(value) {
-      clearTimeout(searchTimer);
-      if (!value.trim()) {
-        if (currentPage === 'search') goHome();
-        return;
-      }
-      searchTimer = setTimeout(() => renderSearch(value.trim()), 220);
-    }
-
-    function setLanguage(lang) {
-      currentLang = lang === 'en' ? 'en' : 'pt';
-      localStorage.setItem('cw_lang', currentLang);
-      applyUIStrings();
-      rerenderCurrentView();
-    }
-
-    function applyUIStrings() {
-      document.documentElement.lang = currentLang === 'en' ? 'en-US' : 'pt-BR';
-      document.getElementById('logoSub').textContent = tr('logoSub');
-      document.getElementById('navHome').textContent = tr('home');
-      document.getElementById('navArchive').textContent = tr('archive');
-      document.getElementById('navAbout').textContent = tr('about');
-      document.getElementById('navStandards').textContent = tr('standards');
-      document.getElementById('methodBtn').textContent = tr('methodology');
-      document.getElementById('updateBtnLabel').textContent = tr('update');
-      document.getElementById('searchInput').placeholder = tr('searchPlaceholder');
-      document.getElementById('tickerBadge').textContent = tr('ticker');
-      document.getElementById('latestSectionTitle').textContent = tr('latestTitle');
-      document.getElementById('latestSectionKicker').textContent = tr('latestKicker');
-      document.getElementById('archiveLinkTop').textContent = tr('archiveLink');
-      document.getElementById('preprintsSectionTitle').textContent = tr('preprintsTitle');
-      document.getElementById('preprintsSectionKicker').textContent = tr('preprintsKicker');
-      if (document.getElementById('editorialWidgetTitle')) document.getElementById('editorialWidgetTitle').textContent = tr('editorialWidgetTitle');
-      if (document.getElementById('editorialRulesCopy')) document.getElementById('editorialRulesCopy').textContent = tr('editorialRulesCopy');
-      if (document.getElementById('standardsBtn')) document.getElementById('standardsBtn').textContent = tr('standardsBtn');
-      document.getElementById('trendingWidgetTitle').textContent = tr('trending');
-      if (document.getElementById('sourceMixTitle')) document.getElementById('sourceMixTitle').textContent = tr('sourceMix');
-      document.getElementById('archiveTitle').textContent = tr('archiveTitle');
-      document.getElementById('archiveKicker').textContent = tr('archiveKicker');
-      document.getElementById('searchTitle').textContent = tr('searchTitle');
-      document.getElementById('topbarCopy').innerHTML = tr('topbarCopy');
-      document.getElementById('footerDescription').textContent = tr('footerDescription');
-      document.getElementById('footerNavTitle').textContent = tr('footerNavTitle');
-      document.getElementById('footerSourcesTitle').textContent = tr('footerSourcesTitle');
-      document.getElementById('footerHome').textContent = tr('home');
-      document.getElementById('footerArchive').textContent = tr('archive');
-      document.getElementById('footerAbout').textContent = tr('about');
-      document.getElementById('footerStandards').textContent = tr('standards');
-      document.getElementById('footerFeed').textContent = tr('footerFeed');
-      document.getElementById('footerSitemap').textContent = tr('footerSitemap');
-      document.getElementById('footerCorrections').textContent = tr('footerCorrections');
-      document.getElementById('footerBottomLeft').textContent = tr('footerBottomLeft');
-      document.getElementById('footerBottomCenter').textContent = tr('footerBottomCenter');
-      document.getElementById('footerBottomRight').textContent = tr('footerBottomRight');
-      document.getElementById('newsletterTitle').textContent = tr('newsletterTitle');
-      document.getElementById('newsletterLabel').textContent = tr('newsletterLabel');
-      document.getElementById('newsletterDescription').textContent = tr('newsletterDescription');
-      document.getElementById('newsletterEmail').placeholder = tr('newsletterPlaceholder');
-      document.getElementById('newsletterButton').textContent = tr('newsletterButton');
-      document.getElementById('newsletterNote').textContent = tr('newsletterNote');
-      document.querySelectorAll('.cat-pill').forEach(btn => {
-        const cat = btn.dataset.cat;
-        btn.textContent = cat === 'all' ? tr('allCategories') : prettyCategory(cat);
-      });
-      document.getElementById('langPt').classList.toggle('on', currentLang === 'pt');
-      document.getElementById('langEn').classList.toggle('on', currentLang === 'en');
-      updateLastUpdatedLabel();
-    }
-
-    function updateLastUpdatedLabel() {
-      const latest = DB[0];
-      const stamp = latest ? `${currentLang === 'en' ? (latest.date_en || latest.date) : (latest.date_pt || latest.date)} · ${currentLang === 'en' ? (latest.time_en || latest.time) : (latest.time_pt || latest.time)}` : tr('latestFeed');
-      document.getElementById('lastUpdatedLabel').textContent = `${tr('lastUpdatedPrefix')} ${stamp}`;
-    }
-
-    function showToast(message) {
-      const toast = document.getElementById('toast');
-      toast.textContent = message;
-      toast.classList.add('show');
-      clearTimeout(toastTimer);
-      toastTimer = setTimeout(() => toast.classList.remove('show'), 3200);
-    }
-
-    function refreshFeed() {
-      const btn = document.getElementById('updateBtn');
-      btn.classList.add('loading');
-      btn.disabled = true;
-      fetch(`posts.js?cb=${Date.now()}`, { cache: 'no-store' })
-        .then(resp => {
-          if (!resp.ok) throw new Error('fetch failed');
-          return resp.text();
-        })
-        .then(js => {
-          const sandboxWindow = {};
-          Function('window', js + '; return window.postsData;')(sandboxWindow);
-          if (Array.isArray(sandboxWindow.postsData) && sandboxWindow.postsData.length) {
-            DB = normalizePosts(sandboxWindow.postsData);
-            updateLastUpdatedLabel();
-            rerenderCurrentView();
-            showToast(tr('updateDone'));
-          } else {
-            throw new Error('empty');
-          }
-        })
-        .catch(() => showToast(tr('updateFail')))
-        .finally(() => {
-          btn.classList.remove('loading');
-          btn.disabled = false;
-        });
-    }
-
-    function copyArticleLink() {
-      const post = DB.find(item => item.slug === currentArticleSlug);
-      const url = post ? getURLForArticle(post) : location.href;
-      navigator.clipboard.writeText(url).then(() => showToast(tr('copied'))).catch(() => showToast(url));
-    }
-
-    function handleNewsletterSubmit(event) {
-      event.preventDefault();
-      const input = document.getElementById('newsletterEmail');
-      const email = input.value.trim();
-      const isValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-      if (!isValid) {
-        showToast(tr('newsletterInvalid'));
-        input.focus();
-        return;
-      }
-      localStorage.setItem('cw_newsletter_email', email);
-      input.value = '';
-      showToast(tr('newsletterSuccess'));
-    }
-
-    function loadSavedNewsletterEmail() {
-      const savedEmail = localStorage.getItem('cw_newsletter_email');
-      if (savedEmail) document.getElementById('newsletterEmail').value = savedEmail;
-    }
-
-
-function updateMetaHome() {
-  const title = currentLang === 'en' ? SITE.homeTitleEn : SITE.homeTitlePt;
-  const description = currentLang === 'en' ? SITE.homeDescriptionEn : SITE.homeDescriptionPt;
-  updateMetaCommon(title, description, SITE.baseUrl, IMG.pillars, null, {
-    robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
-    newsKeywords: 'astronomia, astrofísica, cosmologia, ciência, espaço'
-  });
-}
-
-function updateMetaStatic(page) {
-  const titles = {
-    about: currentLang === 'en' ? 'About Cosmos Week' : 'Sobre o Cosmos Week',
-    archive: currentLang === 'en' ? 'Editorial archive' : 'Arquivo editorial',
-    standards: currentLang === 'en' ? 'Editorial standards' : 'Padrões editoriais',
-    search: currentLang === 'en' ? 'Search' : 'Busca'
-  };
-  const descriptions = {
-    about: currentLang === 'en' ? 'About the editorial ambition and scope of Cosmos Week.' : 'Sobre a ambição editorial e o escopo do Cosmos Week.',
-    archive: currentLang === 'en' ? 'The complete archive of stories currently available.' : 'O arquivo completo das matérias disponíveis.',
-    standards: currentLang === 'en' ? 'Methodology, source labeling and editorial safeguards.' : 'Metodologia, rotulagem de fonte e salvaguardas editoriais.',
-    search: currentLang === 'en' ? 'Search results inside Cosmos Week.' : 'Resultados de busca dentro do Cosmos Week.'
-  };
-  updateMetaCommon(`${titles[page]} — ${SITE.title}`, descriptions[page], pageUrl(page), IMG.pillars, null, {
-    robots: page === 'search' ? 'noindex,follow' : 'index,follow',
-    newsKeywords: 'jornalismo científico, astronomia, astrofísica, cosmologia'
-  });
-}
-
-function updateMetaArticle(post) {
-  const title = `${textFor(post, 'title')} — ${SITE.title}`;
-  const description = textFor(post, 'excerpt');
-  const url = getURLForArticle(post);
-  const keywords = keywordListFor(post);
-  const jsonLd = [
-    {
-      '@context': 'https://schema.org',
-      '@type': 'NewsMediaOrganization',
-      name: SITE.title,
-      url: SITE.baseUrl,
-      logo: { '@type': 'ImageObject', url: IMG.pillars }
-    },
-    {
-      '@context': 'https://schema.org',
-      '@type': 'BreadcrumbList',
-      itemListElement: [
-        { '@type': 'ListItem', position: 1, name: currentLang === 'en' ? 'Home' : 'Início', item: SITE.baseUrl },
-        { '@type': 'ListItem', position: 2, name: prettyCategory(post.cat), item: `${SITE.baseUrl}?category=${encodeURIComponent(post.cat)}` },
-        { '@type': 'ListItem', position: 3, name: textFor(post, 'title'), item: url }
-      ]
-    },
-    {
-      '@context': 'https://schema.org',
-      '@type': 'NewsArticle',
-      headline: textFor(post, 'title'),
-      description,
-      image: [primaryImage(post)],
-      datePublished: post.publishedIso,
-      dateModified: post.lastModifiedIso || post.publishedIso,
-      inLanguage: currentLang === 'en' ? 'en' : 'pt-BR',
-      isAccessibleForFree: true,
-      articleSection: prettyCategory(post.cat),
-      keywords,
-      author: [{ '@type': 'Organization', name: tr('newsroom') }],
-      publisher: {
-        '@type': 'Organization',
-        name: SITE.title,
-        logo: { '@type': 'ImageObject', url: IMG.pillars }
-      },
-      mainEntityOfPage: url,
-      about: keywords.map(keyword => ({ '@type': 'Thing', name: keyword }))
-    }
-  ];
-  updateMetaCommon(title, description, url, primaryImage(post), jsonLd, {
-    robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
-    newsKeywords: keywords.join(', '),
-    published: post.publishedIso,
-    modified: post.lastModifiedIso || post.publishedIso
-  });
-}
-
-function updateMetaCommon(title, description, url, image, articleJsonLd, options = {}) {
-  document.title = title;
-  document.querySelector('meta[name="description"]').setAttribute('content', description);
-  document.querySelector('meta[property="og:title"]').setAttribute('content', title);
-  document.querySelector('meta[property="og:description"]').setAttribute('content', description);
-  document.querySelector('meta[property="og:url"]').setAttribute('content', url);
-  document.querySelector('meta[property="og:image"]').setAttribute('content', image);
-  document.querySelector('meta[name="twitter:title"]').setAttribute('content', title);
-  document.querySelector('meta[name="twitter:description"]').setAttribute('content', description);
-  document.querySelector('meta[name="twitter:image"]').setAttribute('content', image);
-  document.getElementById('canonicalLink').setAttribute('href', url);
-  document.getElementById('robotsMeta').setAttribute('content', options.robots || 'index,follow');
-  document.getElementById('newsKeywordsMeta').setAttribute('content', options.newsKeywords || 'astronomia, ciência');
-  document.getElementById('articlePublishedMeta').setAttribute('content', options.published || '');
-  document.getElementById('articleModifiedMeta').setAttribute('content', options.modified || options.published || '');
-  document.getElementById('siteJsonLd').textContent = JSON.stringify(articleJsonLd || {
-    '@context': 'https://schema.org',
-    '@type': 'WebSite',
-    name: SITE.title,
-    url: SITE.baseUrl,
-    description
-  });
-}
-
-    function rerenderCurrentView() {
-      if (currentPage === 'article' && currentArticleSlug) {
-        renderArticle(currentArticleSlug);
-      } else if (currentPage === 'archive') {
-        renderArchive();
-      } else if (currentPage === 'about') {
-        renderAbout();
-      } else if (currentPage === 'standards') {
-        renderStandards();
-      } else if (currentPage === 'search') {
-        const query = document.getElementById('searchInput').value.trim();
-        if (query) renderSearch(query);
-        else renderHome();
-      } else {
-        renderHome();
-      }
-    }
-
-    function parseRoute() {
-      const params = new URLSearchParams(window.location.search);
-      const article = params.get('article');
-      const page = params.get('page');
-      if (article) {
-        renderArticle(article);
-        return;
-      }
-      if (page === 'arquivo') { renderArchive(); return; }
-      if (page === 'sobre') { renderAbout(); return; }
-      if (page === 'padroes') { renderStandards(); return; }
-      renderHome();
-    }
-
-    window.addEventListener('scroll', () => {
-      const max = document.documentElement.scrollHeight - window.innerHeight;
-      const ratio = max > 0 ? (window.scrollY / max) * 100 : 0;
-      document.getElementById('readingProgress').style.width = `${ratio}%`;
-    }, { passive: true });
-
-    window.addEventListener('popstate', parseRoute);
-
-    document.addEventListener('DOMContentLoaded', () => {
-      applyUIStrings();
-      loadSavedNewsletterEmail();
-      parseRoute();
-      setTimeout(() => showToast(tr('welcome')), 900);
+    document.getElementById('topbarCopy').innerHTML = tr('topbarCopy');
+    const si = document.getElementById('searchInput'); if (si) si.placeholder = tr('searchPlaceholder');
+    const nl = document.getElementById('newsletterLabel'); if (nl) nl.textContent = tr('newsletterLabel');
+    const ne = document.getElementById('newsletterEmail'); if (ne) ne.placeholder = tr('newsletterPlaceholder');
+    document.querySelectorAll('.cat-pill').forEach(btn => {
+      const cat = btn.dataset.cat;
+      btn.textContent = cat === 'all' ? tr('allCategories') : prettyCategory(cat);
     });
+    document.getElementById('langPt').classList.toggle('on', currentLang==='pt');
+    document.getElementById('langEn').classList.toggle('on', currentLang==='en');
+    updateLastUpdatedLabel();
+  }
+
+  function updateLastUpdatedLabel() {
+    const latest = DB[0];
+    const stamp = latest
+      ? `${currentLang==='en'?(latest.date_en||latest.date):(latest.date_pt||latest.date)} · ${currentLang==='en'?(latest.time_en||latest.time):(latest.time_pt||latest.time)}`
+      : tr('latestFeed');
+    const el = document.getElementById('lastUpdatedLabel');
+    if (el) el.textContent = `${tr('lastUpdatedPrefix')} ${stamp}`;
+  }
+
+  function showToast(message) {
+    const toast = document.getElementById('toast');
+    toast.textContent = message; toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove('show'), 3200);
+  }
+
+  function refreshFeed() {
+    const btn = document.getElementById('updateBtn');
+    btn.classList.add('loading'); btn.disabled = true;
+    fetch(`posts.js?cb=${Date.now()}`, { cache:'no-store' })
+      .then(resp => { if (!resp.ok) throw new Error('fetch failed'); return resp.text(); })
+      .then(js => {
+        const sandboxWindow = {};
+        Function('window', js + '; return window.postsData;')(sandboxWindow);
+        if (Array.isArray(sandboxWindow.postsData) && sandboxWindow.postsData.length) {
+          DB = normalizePosts(sandboxWindow.postsData);
+          updateLastUpdatedLabel();
+          rerenderCurrentView();
+          showToast(tr('updateDone'));
+        } else throw new Error('empty');
+      })
+      .catch(() => showToast(tr('updateFail')))
+      .finally(() => { btn.classList.remove('loading'); btn.disabled = false; });
+  }
+
+  function copyArticleLink() {
+    const post = DB.find(item => item.slug === currentArticleSlug);
+    const url = post ? getURLForArticle(post) : location.href;
+    navigator.clipboard.writeText(url).then(() => showToast(tr('copied'))).catch(() => showToast(url));
+  }
+
+  function handleNewsletterSubmit(event) {
+    event.preventDefault();
+    const input = document.getElementById('newsletterEmail');
+    const email = input.value.trim();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { showToast(tr('newsletterInvalid')); input.focus(); return; }
+    localStorage.setItem('cw_newsletter_email', email);
+    input.value = ''; showToast(tr('newsletterSuccess'));
+  }
+
+  function loadSavedNewsletterEmail() {
+    const saved = localStorage.getItem('cw_newsletter_email');
+    if (saved) { const el = document.getElementById('newsletterEmail'); if (el) el.value = saved; }
+  }
+
+  // ── SEO / Meta ─────────────────────────────────────────────────────────────
+  function updateMetaHome() {
+    const title = currentLang==='en' ? SITE.homeTitleEn : SITE.homeTitlePt;
+    const description = currentLang==='en' ? SITE.homeDescriptionEn : SITE.homeDescriptionPt;
+    updateMetaCommon(title, description, SITE.baseUrl, IMG.pillars, null, {
+      robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
+      newsKeywords: 'astronomia, astrofísica, cosmologia, ciência, espaço'
+    });
+  }
+
+  function updateMetaStatic(page) {
+    const titles = {
+      about: currentLang==='en'?'About Cosmos Week':'Sobre o Cosmos Week',
+      archive: currentLang==='en'?'Editorial archive':'Arquivo editorial',
+      standards: currentLang==='en'?'Editorial standards':'Padrões editoriais',
+      search: currentLang==='en'?'Search':'Busca'
+    };
+    const descriptions = {
+      about: currentLang==='en'?'About the editorial ambition and scope of Cosmos Week.':'Sobre a ambição editorial e o escopo do Cosmos Week.',
+      archive: currentLang==='en'?'The complete archive of stories currently available.':'O arquivo completo das matérias disponíveis.',
+      standards: currentLang==='en'?'Methodology, source labeling and editorial safeguards.':'Metodologia, rotulagem de fonte e salvaguardas editoriais.',
+      search: currentLang==='en'?'Search results inside Cosmos Week.':'Resultados de busca dentro do Cosmos Week.'
+    };
+    updateMetaCommon(`${titles[page]} — ${SITE.title}`, descriptions[page], pageUrl(page), IMG.pillars, null, {
+      robots: page === 'search' ? 'noindex,follow' : 'index,follow',
+      newsKeywords: 'jornalismo científico, astronomia, astrofísica, cosmologia'
+    });
+  }
+
+  function updateMetaArticle(post) {
+    const title = `${textFor(post,'title')} — ${SITE.title}`;
+    const description = textFor(post,'excerpt');
+    const url = getURLForArticle(post);
+    const keywords = keywordListFor(post);
+    const jsonLd = [
+      { '@context':'https://schema.org','@type':'NewsMediaOrganization', name:SITE.title, url:SITE.baseUrl, logo:{'@type':'ImageObject',url:IMG.pillars} },
+      { '@context':'https://schema.org','@type':'BreadcrumbList', itemListElement:[
+        {'@type':'ListItem',position:1,name:currentLang==='en'?'Home':'Início',item:SITE.baseUrl},
+        {'@type':'ListItem',position:2,name:prettyCategory(post.cat),item:`${SITE.baseUrl}?category=${encodeURIComponent(post.cat)}`},
+        {'@type':'ListItem',position:3,name:textFor(post,'title'),item:url}
+      ]},
+      { '@context':'https://schema.org','@type':'NewsArticle',
+        headline:textFor(post,'title'), description, image:[primaryImage(post)],
+        datePublished:post.publishedIso, dateModified:post.lastModifiedIso||post.publishedIso,
+        inLanguage:currentLang==='en'?'en':'pt-BR', isAccessibleForFree:true,
+        articleSection:prettyCategory(post.cat), keywords,
+        author:[{'@type':'Organization',name:tr('newsroom')}],
+        publisher:{'@type':'Organization',name:SITE.title,logo:{'@type':'ImageObject',url:IMG.pillars}},
+        mainEntityOfPage:url,
+        about:keywords.map(k => ({'@type':'Thing',name:k}))
+      }
+    ];
+    updateMetaCommon(title, description, url, primaryImage(post), jsonLd, {
+      robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
+      newsKeywords: keywords.join(', '),
+      published: post.publishedIso,
+      modified: post.lastModifiedIso || post.publishedIso
+    });
+  }
+
+  function updateMetaCommon(title, description, url, image, articleJsonLd, options = {}) {
+    document.title = title;
+    document.querySelector('meta[name="description"]').setAttribute('content', description);
+    document.querySelector('meta[property="og:title"]').setAttribute('content', title);
+    document.querySelector('meta[property="og:description"]').setAttribute('content', description);
+    document.querySelector('meta[property="og:url"]').setAttribute('content', url);
+    document.querySelector('meta[property="og:image"]').setAttribute('content', image);
+    document.querySelector('meta[name="twitter:title"]').setAttribute('content', title);
+    document.querySelector('meta[name="twitter:description"]').setAttribute('content', description);
+    document.querySelector('meta[name="twitter:image"]').setAttribute('content', image);
+    document.getElementById('canonicalLink').setAttribute('href', url);
+    document.getElementById('robotsMeta').setAttribute('content', options.robots||'index,follow');
+    document.getElementById('newsKeywordsMeta').setAttribute('content', options.newsKeywords||'astronomia, ciência');
+    document.getElementById('articlePublishedMeta').setAttribute('content', options.published||'');
+    document.getElementById('articleModifiedMeta').setAttribute('content', options.modified||options.published||'');
+    document.getElementById('siteJsonLd').textContent = JSON.stringify(articleJsonLd || {
+      '@context':'https://schema.org','@type':'WebSite', name:SITE.title, url:SITE.baseUrl, description
+    });
+  }
+
+  function rerenderCurrentView() {
+    if (currentPage==='article' && currentArticleSlug) renderArticle(currentArticleSlug);
+    else if (currentPage==='archive') renderArchive();
+    else if (currentPage==='about') renderAbout();
+    else if (currentPage==='standards') renderStandards();
+    else if (currentPage==='search') {
+      const q = document.getElementById('searchInput').value.trim();
+      if (q) renderSearch(q); else renderHome();
+    } else renderHome();
+  }
+
+  function parseRoute() {
+    const params = new URLSearchParams(window.location.search);
+    const article = params.get('article');
+    const page = params.get('page');
+    if (article) { renderArticle(article); return; }
+    if (page==='arquivo') { renderArchive(); return; }
+    if (page==='sobre')   { renderAbout();   return; }
+    if (page==='padroes') { renderStandards(); return; }
+    renderHome();
+  }
+
+  // Reading progress
+  window.addEventListener('scroll', () => {
+    const max = document.documentElement.scrollHeight - window.innerHeight;
+    const ratio = max > 0 ? (window.scrollY / max) * 100 : 0;
+    document.getElementById('readingProgress').style.width = `${ratio}%`;
+  }, { passive: true });
+
+  window.addEventListener('popstate', parseRoute);
+
+  document.addEventListener('DOMContentLoaded', () => {
+    applyUIStrings();
+    loadSavedNewsletterEmail();
+    parseRoute();
+    setTimeout(() => showToast(tr('welcome')), 900);
+  });
   </script>
 </body>
 </html>
