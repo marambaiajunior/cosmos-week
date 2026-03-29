@@ -952,6 +952,102 @@
       text-transform: uppercase;
     }
 
+
+    .newsletter-band {
+      padding: 0 24px 24px;
+      scroll-margin-top: 110px;
+    }
+    .newsletter-shell {
+      max-width: var(--max);
+      margin: 0 auto;
+      background: linear-gradient(135deg, rgba(91,148,255,.14), rgba(18,23,34,.2) 48%), var(--card);
+      border: 1px solid rgba(91,148,255,.18);
+      border-radius: calc(var(--radius) + 2px);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .newsletter-inner {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(320px, .8fr);
+      gap: 24px;
+      align-items: center;
+      padding: 28px 30px;
+    }
+    .newsletter-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.7rem, 2vw, 2.35rem);
+      line-height: 1.08;
+      letter-spacing: -.02em;
+      margin-bottom: 10px;
+    }
+    .newsletter-text {
+      color: var(--txt-2);
+      font-size: 1rem;
+      line-height: 1.75;
+      max-width: 62ch;
+    }
+    .newsletter-form-wrap {
+      display: grid;
+      gap: 12px;
+    }
+    .newsletter-form {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: center;
+    }
+    .newsletter-form input {
+      width: 100%;
+      height: 50px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.1);
+      background: rgba(18,23,34,.82);
+      color: var(--txt);
+      padding: 0 18px;
+      outline: none;
+      transition: border-color .2s, box-shadow .2s, background .2s;
+    }
+    .newsletter-form input:focus {
+      border-color: rgba(91,148,255,.55);
+      box-shadow: 0 0 0 3px rgba(91,148,255,.14);
+      background: rgba(18,23,34,.95);
+    }
+    .newsletter-form input::placeholder { color: var(--txt-3); }
+    .newsletter-button {
+      min-width: 168px;
+      height: 50px;
+      border-radius: 999px;
+      background: var(--blue);
+      color: #fff;
+      padding: 0 20px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+      box-shadow: 0 12px 30px rgba(91,148,255,.22);
+      transition: transform .15s, box-shadow .2s, background .2s;
+    }
+    .newsletter-button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 16px 34px rgba(91,148,255,.28);
+    }
+    .newsletter-note {
+      color: var(--txt-3);
+      font-size: .88rem;
+      line-height: 1.55;
+    }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
     .hidden { display: none !important; }
 
     @media (max-width: 1100px) {
@@ -965,6 +1061,7 @@
       .sidebar { position: static; }
       .story-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .standards-grid { grid-template-columns: 1fr; }
+      .newsletter-inner { grid-template-columns: 1fr; }
     }
 
     @media (max-width: 860px) {
@@ -980,6 +1077,10 @@
       .story-grid { grid-template-columns: 1fr; }
       .article-cover-content { padding: 26px; }
       .article-body-wrap { padding: 22px; }
+      .newsletter-band { padding-left: 16px; padding-right: 16px; }
+      .newsletter-inner { padding: 24px 22px; }
+      .newsletter-form { grid-template-columns: 1fr; }
+      .newsletter-button { width: 100%; }
     }
 
     @media (max-width: 600px) {
@@ -1124,6 +1225,28 @@
     </section>
   </main>
 
+
+  <section class="newsletter-band" id="newsletterBand" aria-labelledby="newsletterTitle">
+    <div class="newsletter-shell">
+      <div class="newsletter-inner">
+        <div class="newsletter-copy">
+          <div class="section-title" id="newsletterEyebrow">Newsletter</div>
+          <h2 class="newsletter-title" id="newsletterTitle">Receba a curadoria do Cosmos Week no seu e-mail</h2>
+          <p class="newsletter-text" id="newsletterText">Um resumo editorial com os destaques mais relevantes da semana, sem ruído e sem caça-clique.</p>
+        </div>
+        <div class="newsletter-form-wrap">
+          <!-- Quando criar o formulário no Mailchimp, troque action="#" pela URL oficial do form embed. -->
+          <form class="newsletter-form" id="newsletterForm" action="#" method="post" onsubmit="handleNewsletterSignup(event)">
+            <label class="sr-only" for="newsletterEmail">Seu e-mail</label>
+            <input id="newsletterEmail" name="EMAIL" type="email" placeholder="Digite seu melhor e-mail" autocomplete="email" required>
+            <button class="newsletter-button" id="newsletterButton" type="submit">Inscrever-se</button>
+          </form>
+          <p class="newsletter-note" id="newsletterNote">Espaço pronto para integração com Mailchimp. Assim que você criar a conta, basta substituir a URL do formulário.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <footer class="site-footer">
     <div class="footer-inner">
       <div class="footer-grid">
@@ -1148,6 +1271,7 @@
             <button onclick="openPage('archive')" id="footerArchive">Arquivo</button>
             <button onclick="openPage('about')" id="footerAbout">Sobre</button>
             <button onclick="openPage('standards')" id="footerStandards">Padrões editoriais</button>
+            <a href="#newsletterBand" id="footerNewsletter">Newsletter</a>
           </div>
         </div>
         <div>
@@ -1267,7 +1391,15 @@
         updateFail: 'Não foi possível atualizar agora.',
         welcome: 'Feed carregado. Cobertura atualizada com mais amplitude editorial e melhor distribuição por editoria.',
         backHome: 'Voltar ao início',
-        allCategories: 'Todas'
+        allCategories: 'Todas',
+        newsletterEyebrow: 'Newsletter',
+        newsletterTitle: 'Receba a curadoria do Cosmos Week no seu e-mail',
+        newsletterText: 'Um resumo editorial com os destaques mais relevantes da semana, sem ruído e sem caça-clique.',
+        newsletterPlaceholder: 'Digite seu melhor e-mail',
+        newsletterButton: 'Inscrever-se',
+        newsletterNote: 'Espaço pronto para integração com Mailchimp. Assim que você criar a conta, basta substituir a URL do formulário.',
+        newsletterFooterLink: 'Newsletter',
+        newsletterSoon: 'Espaço de newsletter pronto. Falta apenas conectar o Mailchimp.'
       },
       en: {
         logoSub: 'Science journalism in Portuguese-first mode',
@@ -1345,7 +1477,15 @@
         updateFail: 'Could not refresh right now.',
         welcome: 'Feed loaded. Broader editorial coverage with stronger section balance.',
         backHome: 'Back to home',
-        allCategories: 'All'
+        allCategories: 'All',
+        newsletterEyebrow: 'Newsletter',
+        newsletterTitle: 'Get the Cosmos Week editorial digest in your inbox',
+        newsletterText: 'A concise editorial roundup with the week's most relevant stories, without noise or clickbait.',
+        newsletterPlaceholder: 'Enter your best email',
+        newsletterButton: 'Subscribe',
+        newsletterNote: 'This block is ready for Mailchimp integration. Once your account is ready, just replace the form URL.',
+        newsletterFooterLink: 'Newsletter',
+        newsletterSoon: 'Newsletter block is ready. It only needs the Mailchimp connection.'
       }
     };
 
@@ -1921,6 +2061,12 @@ function renderBadgeRow(post, extra = '') {
       document.getElementById('archiveTitle').textContent = tr('archiveTitle');
       document.getElementById('archiveKicker').textContent = tr('archiveKicker');
       document.getElementById('searchTitle').textContent = tr('searchTitle');
+      document.getElementById('newsletterEyebrow').textContent = tr('newsletterEyebrow');
+      document.getElementById('newsletterTitle').textContent = tr('newsletterTitle');
+      document.getElementById('newsletterText').textContent = tr('newsletterText');
+      document.getElementById('newsletterEmail').placeholder = tr('newsletterPlaceholder');
+      document.getElementById('newsletterButton').textContent = tr('newsletterButton');
+      document.getElementById('newsletterNote').textContent = tr('newsletterNote');
       document.getElementById('topbarCopy').innerHTML = tr('topbarCopy');
       document.getElementById('footerDescription').textContent = tr('footerDescription');
       document.getElementById('footerNavTitle').textContent = tr('footerNavTitle');
@@ -1929,6 +2075,7 @@ function renderBadgeRow(post, extra = '') {
       document.getElementById('footerArchive').textContent = tr('archive');
       document.getElementById('footerAbout').textContent = tr('about');
       document.getElementById('footerStandards').textContent = tr('standards');
+      document.getElementById('footerNewsletter').textContent = tr('newsletterFooterLink');
       document.getElementById('footerFeed').textContent = tr('footerFeed');
       document.getElementById('footerSitemap').textContent = tr('footerSitemap');
       document.getElementById('footerCorrections').textContent = tr('footerCorrections');
@@ -1948,6 +2095,16 @@ function renderBadgeRow(post, extra = '') {
       const latest = DB[0];
       const stamp = latest ? `${currentLang === 'en' ? (latest.date_en || latest.date) : (latest.date_pt || latest.date)} · ${currentLang === 'en' ? (latest.time_en || latest.time) : (latest.time_pt || latest.time)}` : tr('latestFeed');
       document.getElementById('lastUpdatedLabel').textContent = `${tr('lastUpdatedPrefix')} ${stamp}`;
+    }
+
+    function handleNewsletterSignup(event) {
+      const form = event.currentTarget;
+      const action = (form.getAttribute('action') || '').trim();
+      if (!action || action === '#' || action.includes('MAILCHIMP')) {
+        event.preventDefault();
+        showToast(tr('newsletterSoon'));
+        return;
+      }
     }
 
     function showToast(message) {
