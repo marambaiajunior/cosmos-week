@@ -245,6 +245,39 @@
     .ghost-btn:hover,
     .primary-btn:hover { transform: translateY(-1px); }
     .primary-btn.loading svg { animation: spin .8s linear infinite; }
+    .social-icon-link {
+      width: 42px;
+      height: 42px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: var(--bg-3);
+      color: var(--txt-2);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: transform .15s, background .2s, border-color .2s, color .2s, box-shadow .2s;
+    }
+    .social-icon-link:hover {
+      transform: translateY(-1px);
+      color: var(--txt);
+      border-color: rgba(255,255,255,.18);
+      background: var(--card-h);
+      box-shadow: 0 10px 24px rgba(0,0,0,.22);
+    }
+    .social-icon-link svg { width: 18px; height: 18px; }
+    .footer-socials {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .footer-social-label {
+      color: var(--txt-3);
+      font: 500 11px 'DM Mono', monospace;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
     @keyframes spin { to { transform: rotate(360deg); } }
 
     .main-nav {
@@ -996,6 +1029,13 @@
           <button id="langPt" type="button" onclick="setLanguage('pt')">🇧🇷</button>
           <button id="langEn" type="button" onclick="setLanguage('en')">🇺🇸</button>
         </div>
+        <a class="social-icon-link" href="https://www.instagram.com/cosmos_week/" target="_blank" rel="noopener" aria-label="Instagram do Cosmos Week" title="Instagram do Cosmos Week">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2.5" y="2.5" width="19" height="19" rx="5.2" ry="5.2"></rect>
+            <path d="M17.5 6.5h.01"></path>
+            <circle cx="12" cy="12" r="4.25"></circle>
+          </svg>
+        </a>
         <button class="ghost-btn" type="button" onclick="openPage('standards')" id="methodBtn">Metodologia</button>
         <button class="primary-btn" type="button" id="updateBtn" onclick="refreshFeed()">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.13-3.36L23 10"></path><path d="M20.49 15a9 9 0 0 1-14.13 3.36L1 14"></path></svg>
@@ -1090,6 +1130,16 @@
         <div>
           <div class="logo-title" style="font-size:28px; margin-bottom:12px;">Cosmos<span>Week</span></div>
           <p class="deck small" id="footerDescription">Portal de jornalismo científico em português. O foco aqui é explicar o que mudou, o que permanece incerto e por que um resultado realmente importa.</p>
+          <div class="footer-socials">
+            <a class="social-icon-link" href="https://www.instagram.com/cosmos_week/" target="_blank" rel="noopener" aria-label="Instagram do Cosmos Week" title="Instagram do Cosmos Week">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2.5" y="2.5" width="19" height="19" rx="5.2" ry="5.2"></rect>
+                <path d="M17.5 6.5h.01"></path>
+                <circle cx="12" cy="12" r="4.25"></circle>
+              </svg>
+            </a>
+            <span class="footer-social-label">Instagram</span>
+          </div>
         </div>
         <div>
           <div class="footer-title" id="footerNavTitle">Navegação</div>
