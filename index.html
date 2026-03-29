@@ -951,6 +951,59 @@
       letter-spacing: .05em;
       text-transform: uppercase;
     }
+    .newsletter-compact {
+      margin-top: 18px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: linear-gradient(180deg, rgba(91,148,255,.08), rgba(255,255,255,.02));
+      max-width: 420px;
+    }
+    .newsletter-compact .footer-title { margin-bottom: 10px; color: var(--blue-2); }
+    .newsletter-copy {
+      color: var(--txt-2);
+      font-size: 14px;
+      line-height: 1.55;
+    }
+    .newsletter-form {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 10px;
+      margin-top: 12px;
+    }
+    .newsletter-input {
+      width: 100%;
+      height: 42px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: var(--bg-3);
+      color: var(--txt);
+      padding: 0 14px;
+      outline: none;
+      transition: border-color .2s, box-shadow .2s;
+    }
+    .newsletter-input:focus {
+      border-color: rgba(91,148,255,.55);
+      box-shadow: 0 0 0 3px rgba(91,148,255,.12);
+    }
+    .newsletter-input::placeholder { color: var(--txt-3); }
+    .newsletter-note {
+      margin-top: 10px;
+      color: var(--txt-3);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
 
     .hidden { display: none !important; }
 
@@ -978,6 +1031,8 @@
       .searchbox { min-width: 0; max-width: none; }
       .hero-side { grid-template-columns: 1fr; }
       .story-grid { grid-template-columns: 1fr; }
+      .newsletter-form { grid-template-columns: 1fr; }
+      .newsletter-compact { max-width: none; }
       .article-cover-content { padding: 26px; }
       .article-body-wrap { padding: 22px; }
     }
@@ -1140,6 +1195,16 @@
             </a>
             <span class="footer-social-label">Instagram</span>
           </div>
+          <div class="newsletter-compact">
+            <div class="footer-title" id="newsletterTitle">Newsletter</div>
+            <p class="newsletter-copy" id="newsletterDescription">Receba os destaques editoriais do Cosmos Week no seu e-mail.</p>
+            <form class="newsletter-form" id="newsletterForm" onsubmit="handleNewsletterSubmit(event)" novalidate>
+              <label class="sr-only" for="newsletterEmail" id="newsletterLabel">Seu e-mail</label>
+              <input class="newsletter-input" type="email" id="newsletterEmail" name="email" autocomplete="email" inputmode="email" placeholder="Seu e-mail" required aria-describedby="newsletterNote">
+              <button class="primary-btn" type="submit" id="newsletterButton">Inscrever</button>
+            </form>
+            <div class="newsletter-note" id="newsletterNote">Sem spam. Apenas atualizações editoriais relevantes.</div>
+          </div>
         </div>
         <div>
           <div class="footer-title" id="footerNavTitle">Navegação</div>
@@ -1226,6 +1291,14 @@
         footerBottomLeft: '© 2026 Cosmos Week',
         footerBottomCenter: 'Reportagem científica com contexto, hierarquia da informação e compromisso com a evidência.',
         footerBottomRight: 'Base atual: GitHub Pages',
+        newsletterTitle: 'Newsletter',
+        newsletterLabel: 'Seu e-mail',
+        newsletterDescription: 'Receba os destaques editoriais do Cosmos Week no seu e-mail.',
+        newsletterPlaceholder: 'Seu e-mail',
+        newsletterButton: 'Inscrever',
+        newsletterNote: 'Sem spam. Apenas atualizações editoriais relevantes.',
+        newsletterSuccess: 'E-mail salvo neste navegador.',
+        newsletterInvalid: 'Digite um e-mail válido.',
         lastUpdatedPrefix: 'Atualização automática:',
         latestFeed: 'feed carregado',
         resultsFor: 'resultado(s) para',
@@ -1304,6 +1377,14 @@
         footerBottomLeft: '© 2026 Cosmos Week',
         footerBottomCenter: 'Science reporting built around context, hierarchy of information and evidence.',
         footerBottomRight: 'Current stack: GitHub Pages',
+        newsletterTitle: 'Newsletter',
+        newsletterLabel: 'Your email',
+        newsletterDescription: 'Get Cosmos Week editorial highlights in your inbox.',
+        newsletterPlaceholder: 'Your email',
+        newsletterButton: 'Subscribe',
+        newsletterNote: 'No spam. Only relevant editorial updates.',
+        newsletterSuccess: 'Email saved in this browser.',
+        newsletterInvalid: 'Enter a valid email address.',
         lastUpdatedPrefix: 'Auto update:',
         latestFeed: 'feed loaded',
         resultsFor: 'result(s) for',
@@ -1935,6 +2016,12 @@ function renderBadgeRow(post, extra = '') {
       document.getElementById('footerBottomLeft').textContent = tr('footerBottomLeft');
       document.getElementById('footerBottomCenter').textContent = tr('footerBottomCenter');
       document.getElementById('footerBottomRight').textContent = tr('footerBottomRight');
+      document.getElementById('newsletterTitle').textContent = tr('newsletterTitle');
+      document.getElementById('newsletterLabel').textContent = tr('newsletterLabel');
+      document.getElementById('newsletterDescription').textContent = tr('newsletterDescription');
+      document.getElementById('newsletterEmail').placeholder = tr('newsletterPlaceholder');
+      document.getElementById('newsletterButton').textContent = tr('newsletterButton');
+      document.getElementById('newsletterNote').textContent = tr('newsletterNote');
       document.querySelectorAll('.cat-pill').forEach(btn => {
         const cat = btn.dataset.cat;
         btn.textContent = cat === 'all' ? tr('allCategories') : prettyCategory(cat);
@@ -1990,6 +2077,26 @@ function renderBadgeRow(post, extra = '') {
       const post = DB.find(item => item.slug === currentArticleSlug);
       const url = post ? getURLForArticle(post) : location.href;
       navigator.clipboard.writeText(url).then(() => showToast(tr('copied'))).catch(() => showToast(url));
+    }
+
+    function handleNewsletterSubmit(event) {
+      event.preventDefault();
+      const input = document.getElementById('newsletterEmail');
+      const email = input.value.trim();
+      const isValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+      if (!isValid) {
+        showToast(tr('newsletterInvalid'));
+        input.focus();
+        return;
+      }
+      localStorage.setItem('cw_newsletter_email', email);
+      input.value = '';
+      showToast(tr('newsletterSuccess'));
+    }
+
+    function loadSavedNewsletterEmail() {
+      const savedEmail = localStorage.getItem('cw_newsletter_email');
+      if (savedEmail) document.getElementById('newsletterEmail').value = savedEmail;
     }
 
 
@@ -2139,6 +2246,7 @@ function updateMetaCommon(title, description, url, image, articleJsonLd, options
 
     document.addEventListener('DOMContentLoaded', () => {
       applyUIStrings();
+      loadSavedNewsletterEmail();
       parseRoute();
       setTimeout(() => showToast(tr('welcome')), 900);
     });
