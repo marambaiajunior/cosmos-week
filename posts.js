@@ -562,110 +562,17 @@ window.postsData = [
     "featured": false,
     "trending": true,
     "isPreprint": false,
-    "score": 77,
+    "score": 76,
     "scoreBreakdown": {
       "source": 76,
       "evidence": 88,
       "relevance": 88,
       "accessibility": 60,
-      "novelty": 49
+      "novelty": 46
     }
   },
   {
     "id": 7,
-    "slug": "the-jwst-finds-more-overmassive-black-holes-this-time-in-dwarf-galaxies",
-    "cat": "Astrofísica",
-    "catCls": "astrofisica",
-    "img": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-jwst-finds-more-ov.jpg",
-    "title": "O JWST encontra mais buracos negros supermassivos. Desta vez em galáxias anãs",
-    "title_pt": "O JWST encontra mais buracos negros supermassivos. Desta vez em galáxias anãs",
-    "title_en": "The JWST finds more overmassive black holes. This time in dwarf galaxies",
-    "sub": "Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro supermassivo. Ao contrário da…",
-    "sub_pt": "Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro supermassivo. Ao contrário da…",
-    "sub_en": "One of the things astronomers find when they look around at galaxies is a correlation between a galaxy's mass and the mass of its supermassive black hole. Contrary to popular…",
-    "excerpt": "Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro supermassivo. Ao contrário da crença popular, estes SMBH não ancoram as suas galáxias; eles compõem…",
-    "excerpt_pt": "Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro supermassivo. Ao contrário da crença popular, estes SMBH não ancoram as suas galáxias; eles compõem…",
-    "excerpt_en": "One of the things astronomers find when they look around at galaxies is a correlation between a galaxy's mass and the mass of its supermassive black hole. Contrary to popular belief, these SMBH don't anchor their galaxies; they make up…",
-    "body": "<p>Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro supermassivo. Ao contrário da crença popular, estes SMBH não ancoram as suas galáxias; eles compõem…</p><p>O campo vinha se construindo em direção a momentos como este. A astrofísica depende de isolar o mecanismo físico por trás de um fenômeno observado. A diferença entre um sinal detectado e um processo compreendido pode levar anos para ser superada.</p><p>O registro observacional oferece um detalhe importante aqui. Agora, algumas novas pesquisas baseadas em grande parte no JWST identificaram um par de galáxias anãs que parecem ter SMBH que quebram regras. Em complemento, novas pesquisas baseadas nas observações do JWST aprofundam a questão.</p><p>A partir daqui, o valor real do resultado depende da convergência entre conjuntos de dados independentes e modelagem física.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-03-jwst-overmassive-black-holes-dwarf.html\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro supermassivo. Ao contrário da crença popular, estes SMBH não ancoram as suas galáxias; eles compõem…</p><p>O campo vinha se construindo em direção a momentos como este. A astrofísica depende de isolar o mecanismo físico por trás de um fenômeno observado. A diferença entre um sinal detectado e um processo compreendido pode levar anos para ser superada.</p><p>O registro observacional oferece um detalhe importante aqui. Agora, algumas novas pesquisas baseadas em grande parte no JWST identificaram um par de galáxias anãs que parecem ter SMBH que quebram regras. Em complemento, novas pesquisas baseadas nas observações do JWST aprofundam a questão.</p><p>A partir daqui, o valor real do resultado depende da convergência entre conjuntos de dados independentes e modelagem física.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-03-jwst-overmassive-black-holes-dwarf.html\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>One of the things astronomers find when they look around at galaxies is a correlation between a galaxy&#x27;s mass and the mass of its supermassive black hole. Contrary to popular belief, these SMBH don&#x27;t anchor their galaxies; they make up…</p><p>Astrophysics depends on isolating the physical mechanism behind an observed phenomenon. The difference between a detected signal and an understood process can take years to close. The current work adds a specific data point: the research is titled &quot;JWST Reveals Two Overmassive Black Hole Candidates in Dwarf Galaxies at z≈0.7: Pushing Black Hole Searches into the Dwarf-Galaxy Regime.&quot; The lead author is Eduardo Iani, a Ph.D.</p><p>When the measurements are examined carefully, a clearer picture emerges. Now some new research based largely on the JWST has identified a pair of dwarf galaxies that appear to have rule-breaking SMBH. Complementing this, new research based on JWST observations pushes more deeply into the issue.</p><p>Independent observations will now determine how well the result holds under different conditions. From here, the real value of the result depends on convergence between independent datasets and physical modeling.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-03-jwst-overmassive-black-holes-dwarf.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro…",
-      "Dado-chave: A pesquisa é intitulada \"JWST revela dois candidatos a buracos negros supermassivos em galáxias anãs em z≈0,7: empurrando pesquisas de buracos…",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro…",
-      "Dado-chave: A pesquisa é intitulada \"JWST revela dois candidatos a buracos negros supermassivos em galáxias anãs em z≈0,7: empurrando pesquisas de buracos…",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: One of the things astronomers find when they look around at galaxies is a correlation between a galaxy's mass and the mass of its supermassive black…",
-      "Key detail: The research is titled \"JWST Reveals Two Overmassive Black Hole Candidates in Dwarf Galaxies at z≈0.7: Pushing Black Hole Searches into the…",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "29 mar 2026",
-    "date_pt": "29 mar 2026",
-    "date_en": "29 Mar 2026",
-    "time": "14h00",
-    "time_pt": "14h00",
-    "time_en": "14:00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-03-29T14:00:13+00:00",
-    "lastModifiedIso": "2026-03-29T14:00:13+00:00",
-    "source": "Phys.org Space",
-    "sourceDomain": "phys.org",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional.",
-    "sourceNote_pt": "Fonte primária institucional.",
-    "sourceNote_en": "Primary institutional source.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "standard",
-    "editorialBandLabel": "Prioridade editorial",
-    "editorialBandLabel_pt": "Prioridade editorial",
-    "editorialBandLabel_en": "Editorial priority",
-    "keywords": [
-      "Astrofísica",
-      "Phys.org Space",
-      "Cosmos Week",
-      "O JWST encontra mais buracos negros supermassivos. Desta vez em galáxias anãs"
-    ],
-    "keywords_pt": [
-      "Astrofísica",
-      "Phys.org Space",
-      "Cosmos Week",
-      "O JWST encontra mais buracos negros supermassivos. Desta vez em galáxias anãs"
-    ],
-    "keywords_en": [
-      "Astrophysics",
-      "Phys.org Space",
-      "Cosmos Week",
-      "JWST finds more supermassive black holes. This time in dwarf galaxies"
-    ],
-    "srcUrl": "https://phys.org/news/2026-03-jwst-overmassive-black-holes-dwarf.html",
-    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=the-jwst-finds-more-overmassive-black-holes-this-time-in-dwarf-galaxies",
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "score": 76,
-    "scoreBreakdown": {
-      "source": 76,
-      "evidence": 82,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 55
-    }
-  },
-  {
-    "id": 8,
     "slug": "distant-galaxy-fades-20-fold-in-just-two-decades-challenging-how-supermassive-black-holes-evolve",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -758,6 +665,99 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 46
+    }
+  },
+  {
+    "id": 8,
+    "slug": "the-jwst-finds-more-overmassive-black-holes-this-time-in-dwarf-galaxies",
+    "cat": "Astrofísica",
+    "catCls": "astrofisica",
+    "img": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-jwst-finds-more-ov.jpg",
+    "title": "O JWST encontra mais buracos negros supermassivos. Desta vez em galáxias anãs",
+    "title_pt": "O JWST encontra mais buracos negros supermassivos. Desta vez em galáxias anãs",
+    "title_en": "The JWST finds more overmassive black holes. This time in dwarf galaxies",
+    "sub": "Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro supermassivo. Ao contrário da…",
+    "sub_pt": "Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro supermassivo. Ao contrário da…",
+    "sub_en": "One of the things astronomers find when they look around at galaxies is a correlation between a galaxy's mass and the mass of its supermassive black hole. Contrary to popular…",
+    "excerpt": "Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro supermassivo. Ao contrário da crença popular, estes SMBH não ancoram as suas galáxias; eles compõem…",
+    "excerpt_pt": "Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro supermassivo. Ao contrário da crença popular, estes SMBH não ancoram as suas galáxias; eles compõem…",
+    "excerpt_en": "One of the things astronomers find when they look around at galaxies is a correlation between a galaxy's mass and the mass of its supermassive black hole. Contrary to popular belief, these SMBH don't anchor their galaxies; they make up…",
+    "body": "<p>Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro supermassivo. Ao contrário da crença popular, estes SMBH não ancoram as suas galáxias; eles compõem…</p><p>O campo vinha se construindo em direção a momentos como este. A astrofísica depende de isolar o mecanismo físico por trás de um fenômeno observado. A diferença entre um sinal detectado e um processo compreendido pode levar anos para ser superada.</p><p>O registro observacional oferece um detalhe importante aqui. Agora, algumas novas pesquisas baseadas em grande parte no JWST identificaram um par de galáxias anãs que parecem ter SMBH que quebram regras. Em complemento, novas pesquisas baseadas nas observações do JWST aprofundam a questão.</p><p>A partir daqui, o valor real do resultado depende da convergência entre conjuntos de dados independentes e modelagem física.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-03-jwst-overmassive-black-holes-dwarf.html\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro supermassivo. Ao contrário da crença popular, estes SMBH não ancoram as suas galáxias; eles compõem…</p><p>O campo vinha se construindo em direção a momentos como este. A astrofísica depende de isolar o mecanismo físico por trás de um fenômeno observado. A diferença entre um sinal detectado e um processo compreendido pode levar anos para ser superada.</p><p>O registro observacional oferece um detalhe importante aqui. Agora, algumas novas pesquisas baseadas em grande parte no JWST identificaram um par de galáxias anãs que parecem ter SMBH que quebram regras. Em complemento, novas pesquisas baseadas nas observações do JWST aprofundam a questão.</p><p>A partir daqui, o valor real do resultado depende da convergência entre conjuntos de dados independentes e modelagem física.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-03-jwst-overmassive-black-holes-dwarf.html\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>One of the things astronomers find when they look around at galaxies is a correlation between a galaxy&#x27;s mass and the mass of its supermassive black hole. Contrary to popular belief, these SMBH don&#x27;t anchor their galaxies; they make up…</p><p>Astrophysics depends on isolating the physical mechanism behind an observed phenomenon. The difference between a detected signal and an understood process can take years to close. The current work adds a specific data point: the research is titled &quot;JWST Reveals Two Overmassive Black Hole Candidates in Dwarf Galaxies at z≈0.7: Pushing Black Hole Searches into the Dwarf-Galaxy Regime.&quot; The lead author is Eduardo Iani, a Ph.D.</p><p>When the measurements are examined carefully, a clearer picture emerges. Now some new research based largely on the JWST has identified a pair of dwarf galaxies that appear to have rule-breaking SMBH. Complementing this, new research based on JWST observations pushes more deeply into the issue.</p><p>Independent observations will now determine how well the result holds under different conditions. From here, the real value of the result depends on convergence between independent datasets and physical modeling.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-03-jwst-overmassive-black-holes-dwarf.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Ponto central: Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro…",
+      "Dado-chave: A pesquisa é intitulada \"JWST revela dois candidatos a buracos negros supermassivos em galáxias anãs em z≈0,7: empurrando pesquisas de buracos…",
+      "Origem institucional: distinguir anúncio de evidência."
+    ],
+    "highlights_pt": [
+      "Ponto central: Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro…",
+      "Dado-chave: A pesquisa é intitulada \"JWST revela dois candidatos a buracos negros supermassivos em galáxias anãs em z≈0,7: empurrando pesquisas de buracos…",
+      "Origem institucional: distinguir anúncio de evidência."
+    ],
+    "highlights_en": [
+      "Core point: One of the things astronomers find when they look around at galaxies is a correlation between a galaxy's mass and the mass of its supermassive black…",
+      "Key detail: The research is titled \"JWST Reveals Two Overmassive Black Hole Candidates in Dwarf Galaxies at z≈0.7: Pushing Black Hole Searches into the…",
+      "Institutional origin: separate announcement from evidence."
+    ],
+    "date": "29 mar 2026",
+    "date_pt": "29 mar 2026",
+    "date_en": "29 Mar 2026",
+    "time": "14h00",
+    "time_pt": "14h00",
+    "time_en": "14:00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-03-29T14:00:13+00:00",
+    "lastModifiedIso": "2026-03-29T14:00:13+00:00",
+    "source": "Phys.org Space",
+    "sourceDomain": "phys.org",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional.",
+    "sourceNote_pt": "Fonte primária institucional.",
+    "sourceNote_en": "Primary institutional source.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Astrofísica",
+      "Phys.org Space",
+      "Cosmos Week",
+      "O JWST encontra mais buracos negros supermassivos. Desta vez em galáxias anãs"
+    ],
+    "keywords_pt": [
+      "Astrofísica",
+      "Phys.org Space",
+      "Cosmos Week",
+      "O JWST encontra mais buracos negros supermassivos. Desta vez em galáxias anãs"
+    ],
+    "keywords_en": [
+      "Astrophysics",
+      "Phys.org Space",
+      "Cosmos Week",
+      "JWST finds more supermassive black holes. This time in dwarf galaxies"
+    ],
+    "srcUrl": "https://phys.org/news/2026-03-jwst-overmassive-black-holes-dwarf.html",
+    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=the-jwst-finds-more-overmassive-black-holes-this-time-in-dwarf-galaxies",
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "score": 75,
+    "scoreBreakdown": {
+      "source": 76,
+      "evidence": 82,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 52
     }
   },
   {
@@ -943,7 +943,7 @@ window.postsData = [
       "evidence": 88,
       "relevance": 88,
       "accessibility": 60,
-      "novelty": 55
+      "novelty": 52
     }
   },
   {
@@ -1594,13 +1594,13 @@ window.postsData = [
     "featured": false,
     "trending": false,
     "isPreprint": false,
-    "score": 74,
+    "score": 73,
     "scoreBreakdown": {
       "source": 73,
       "evidence": 88,
       "relevance": 80,
       "accessibility": 60,
-      "novelty": 49
+      "novelty": 46
     }
   },
   {
@@ -1696,7 +1696,7 @@ window.postsData = [
       "evidence": 82,
       "relevance": 80,
       "accessibility": 60,
-      "novelty": 49
+      "novelty": 46
     }
   },
   {
@@ -2917,7 +2917,7 @@ window.postsData = [
       "evidence": 82,
       "relevance": 80,
       "accessibility": 60,
-      "novelty": 52
+      "novelty": 49
     }
   },
   {
@@ -3108,6 +3108,99 @@ window.postsData = [
   },
   {
     "id": 34,
+    "slug": "visible-planets-and-night-sky-guide-for-march-and-april",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://earthsky.org/upl/2026/03/2026-Apr-1-Full-Moon-A.jpeg",
+    "title": "Planetas visíveis e guia do céu noturno para março e abril",
+    "title_pt": "Planetas visíveis e guia do céu noturno para março e abril",
+    "title_en": "Visible planets and night sky guide for March and April",
+    "sub": "Planetas visíveis e guia do céu noturno. A Lua Rosa cheia ocorrerá durante a noite de 1º de abril. Ela ficará perto da estrela brilhante Spica. O post Planetas visíveis e guia do…",
+    "sub_pt": "Planetas visíveis e guia do céu noturno. A Lua Rosa cheia ocorrerá durante a noite de 1º de abril. Ela ficará perto da estrela brilhante Spica. O post Planetas visíveis e guia do…",
+    "sub_en": "Visible planets and night sky guide. The full Pink Moon will occur overnight on April 1. It will lie near the bright star Spica. The post Visible planets and night sky guide for…",
+    "excerpt": "Planetas visíveis e guia do céu noturno. A Lua Rosa cheia ocorrerá durante a noite de 1º de abril. Ela ficará perto da estrela brilhante Spica. O post Planetas visíveis e guia do céu noturno para março e abril apareceu pela primeira vez no EarthSky.",
+    "excerpt_pt": "Planetas visíveis e guia do céu noturno. A Lua Rosa cheia ocorrerá durante a noite de 1º de abril. Ela ficará perto da estrela brilhante Spica. O post Planetas visíveis e guia do céu noturno para março e abril apareceu pela primeira vez no EarthSky.",
+    "excerpt_en": "Visible planets and night sky guide. The full Pink Moon will occur overnight on April 1. It will lie near the bright star Spica. The post Visible planets and night sky guide for March and April first appeared on EarthSky .",
+    "body": "<p>Novos resultados em ciências da Terra: planetas visíveis e guia do céu noturno. A Lua Rosa cheia ocorrerá durante a noite de 1º de abril. Ela ficará perto da estrela brilhante Spica. O post Planetas visíveis e guia do céu noturno para março e abril apareceu pela primeira vez no EarthSky.</p><p>Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência. O trabalho atual acrescenta um dado concreto: 1 a 2 de abril a noite toda: Lua Cheia Rosa perto de Spica A Lua Cheia Rosa ficará perto da estrela brilhante Spica para espectadores de todo o mundo.</p><p>O registro observacional oferece um detalhe importante aqui. A crista da lua cheia será às 2h12 UTC do dia 2 de abril (21h12 horário do leste dos EUA). Um segundo fio nos dados aponta para o fato de que a Lua Rosa Cheia ocorrerá durante a noite de 1º de abril.</p><p>O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Novos resultados em ciências da Terra: planetas visíveis e guia do céu noturno. A Lua Rosa cheia ocorrerá durante a noite de 1º de abril. Ela ficará perto da estrela brilhante Spica. O post Planetas visíveis e guia do céu noturno para março e abril apareceu pela primeira vez no EarthSky.</p><p>Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência. O trabalho atual acrescenta um dado concreto: 1 a 2 de abril a noite toda: Lua Cheia Rosa perto de Spica A Lua Cheia Rosa ficará perto da estrela brilhante Spica para espectadores de todo o mundo.</p><p>O registro observacional oferece um detalhe importante aqui. A crista da lua cheia será às 2h12 UTC do dia 2 de abril (21h12 horário do leste dos EUA). Um segundo fio nos dados aponta para o fato de que a Lua Rosa Cheia ocorrerá durante a noite de 1º de abril.</p><p>O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Visible planets and night sky guide. The full Pink Moon will occur overnight on April 1. It will lie near the bright star Spica. The post Visible planets and night sky guide for March and April first appeared on EarthSky . The update follows an extended period of data collection and mission operations.</p><p>To place the result in context: earth science results become meaningful when they can be situated within longer records. A single measurement is a starting point; a trend across instruments and time is evidence. This result contributes directly to that effort: full Pink Moon near Spica The full Pink Moon will lie near the bright star Spica for viewers around the world.</p><p>The observational record provides important detail here. The crest of the full moon will be at 2:12 UTC on April 2 (9:12 p.m. A second thread in the data points to the fact that the full Pink Moon will occur overnight on April 1.</p><p>The most rigorous test will be to situate this result within longer time series and independent instruments, reducing the risk of reading too much into a single data point.</p><p class=\"art-source\"><a href=\"https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Ponto central: Planetas visíveis e guia do céu noturno. A Lua Rosa cheia ocorrerá durante a noite de 1º de abril. Ela ficará perto da estrela brilhante Spica. O…",
+      "Dado-chave: 1 a 2 de abril a noite toda: Lua Cheia Rosa perto de Spica A Lua Cheia Rosa ficará perto da estrela brilhante Spica para espectadores de todo o…",
+      "Origem institucional: distinguir anúncio de evidência."
+    ],
+    "highlights_pt": [
+      "Ponto central: Planetas visíveis e guia do céu noturno. A Lua Rosa cheia ocorrerá durante a noite de 1º de abril. Ela ficará perto da estrela brilhante Spica. O…",
+      "Dado-chave: 1 a 2 de abril a noite toda: Lua Cheia Rosa perto de Spica A Lua Cheia Rosa ficará perto da estrela brilhante Spica para espectadores de todo o…",
+      "Origem institucional: distinguir anúncio de evidência."
+    ],
+    "highlights_en": [
+      "Core point: Visible planets and night sky guide. The full Pink Moon will occur overnight on April 1. It will lie near the bright star Spica. The post Visible…",
+      "Key detail: Full Pink Moon near Spica The full Pink Moon will lie near the bright star Spica for viewers around the world.",
+      "Institutional origin: separate announcement from evidence."
+    ],
+    "date": "30 mar 2026",
+    "date_pt": "30 mar 2026",
+    "date_en": "30 Mar 2026",
+    "time": "08h00",
+    "time_pt": "08h00",
+    "time_en": "08:00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-03-30T08:00:08+00:00",
+    "lastModifiedIso": "2026-03-30T08:00:08+00:00",
+    "source": "EarthSky",
+    "sourceDomain": "earthsky.org",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional.",
+    "sourceNote_pt": "Fonte primária institucional.",
+    "sourceNote_en": "Primary institutional source.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Ciências da Terra",
+      "EarthSky",
+      "Cosmos Week",
+      "Planetas visíveis e guia do céu noturno para março e abril"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "EarthSky",
+      "Cosmos Week",
+      "Planetas visíveis e guia do céu noturno para março e abril"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "EarthSky",
+      "Cosmos Week",
+      "Visible Planets and Night Sky Guide for March and April"
+    ],
+    "srcUrl": "https://earthsky.org/astronomy-essentials/visible-planets-tonight-mars-jupiter-venus-saturn-mercury/",
+    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=visible-planets-and-night-sky-guide-for-march-and-april",
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "score": 73,
+    "scoreBreakdown": {
+      "source": 72,
+      "evidence": 82,
+      "relevance": 80,
+      "accessibility": 60,
+      "novelty": 55
+    }
+  },
+  {
+    "id": 35,
     "slug": "april-full-moon-is-the-pink-moon-overnight-on-april-1",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3190,17 +3283,17 @@ window.postsData = [
     "featured": false,
     "trending": false,
     "isPreprint": false,
-    "score": 73,
+    "score": 72,
     "scoreBreakdown": {
       "source": 72,
       "evidence": 82,
       "relevance": 80,
       "accessibility": 60,
-      "novelty": 55
+      "novelty": 52
     }
   },
   {
-    "id": 35,
+    "id": 36,
     "slug": "rubies-on-mars-rover-finds-fluorescent-gems-for-1st-time",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3283,17 +3376,17 @@ window.postsData = [
     "featured": false,
     "trending": false,
     "isPreprint": false,
-    "score": 73,
+    "score": 72,
     "scoreBreakdown": {
       "source": 72,
       "evidence": 82,
       "relevance": 80,
       "accessibility": 60,
-      "novelty": 55
+      "novelty": 52
     }
   },
   {
-    "id": 36,
+    "id": 37,
     "slug": "lonely-alphard-is-the-brightest-star-in-hydra",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3386,7 +3479,7 @@ window.postsData = [
     }
   },
   {
-    "id": 37,
+    "id": 38,
     "slug": "a-flurry-of-fireballs-is-there-a-reason-for-the-uptick",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3466,99 +3559,6 @@ window.postsData = [
     ],
     "srcUrl": "https://earthsky.org/space/flurry-of-fireballs-march-2026-reason-ams/",
     "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=a-flurry-of-fireballs-is-there-a-reason-for-the-uptick",
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "score": 72,
-    "scoreBreakdown": {
-      "source": 72,
-      "evidence": 82,
-      "relevance": 80,
-      "accessibility": 60,
-      "novelty": 49
-    }
-  },
-  {
-    "id": 38,
-    "slug": "strange-star-mystery-solved-after-50-years",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://earthsky.org/upl/2026/03/Gamma-Cas_and_its_hungry_white_dwarf_companion_pillars-e1774551168111.jpeg",
-    "title": "Estranho mistério estelar resolvido após 50 anos",
-    "title_pt": "Estranho mistério estelar resolvido após 50 anos",
-    "title_en": "Strange star mystery solved after 50 years",
-    "sub": "Durante 50 anos, os astrónomos ficaram intrigados com uma estranha estrela em Cassiopeia, brilhante em raios-X. Mas novos dados do XRISM revelaram o culpado: um companheiro…",
-    "sub_pt": "Durante 50 anos, os astrónomos ficaram intrigados com uma estranha estrela em Cassiopeia, brilhante em raios-X. Mas novos dados do XRISM revelaram o culpado: um companheiro…",
-    "sub_en": "For 50 years, astronomers have puzzled over a strange star in Cassiopeia bright in X-rays. But new data from XRISM revealed the culprit: a hidden companion. The post Strange star…",
-    "excerpt": "Durante 50 anos, os astrónomos ficaram intrigados com uma estranha estrela em Cassiopeia, brilhante em raios-X. Mas novos dados do XRISM revelaram o culpado: um companheiro oculto. O post Estranho mistério de estrela resolvido após 50 anos apareceu pela…",
-    "excerpt_pt": "Durante 50 anos, os astrónomos ficaram intrigados com uma estranha estrela em Cassiopeia, brilhante em raios-X. Mas novos dados do XRISM revelaram o culpado: um companheiro oculto. O post Estranho mistério de estrela resolvido após 50 anos apareceu pela…",
-    "excerpt_en": "For 50 years, astronomers have puzzled over a strange star in Cassiopeia bright in X-rays. But new data from XRISM revealed the culprit: a hidden companion. The post Strange star mystery solved after 50 years first appeared on EarthSky .",
-    "body": "<p>A ESA publicou esta história original em 24 de março de 2026.</p><p>O campo vinha se construindo em direção a momentos como este. Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência.</p><p>O registro observacional oferece um detalhe importante aqui. Mas em 24 de março de 2025, os astrônomos disseram que as observações da Missão de Imagem e Espectroscopia de Raios-X (XRISM) revelaram que os raios X não vêm afinal de gama-Cas. A análise também mostra que a revista revisada por pares Astronomy and Astrophysics publicou o estudo em 24 de março de 2026.</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://earthsky.org/space/mystery-of-strange-star-solved-50-years-gamma-cas/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>A ESA publicou esta história original em 24 de março de 2026.</p><p>O campo vinha se construindo em direção a momentos como este. Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência.</p><p>O registro observacional oferece um detalhe importante aqui. Mas em 24 de março de 2025, os astrônomos disseram que as observações da Missão de Imagem e Espectroscopia de Raios-X (XRISM) revelaram que os raios X não vêm afinal de gama-Cas. A análise também mostra que a revista revisada por pares Astronomy and Astrophysics publicou o estudo em 24 de março de 2026.</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://earthsky.org/space/mystery-of-strange-star-solved-50-years-gamma-cas/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>New findings in Earth science: for 50 years, astronomers have puzzled over a strange star in Cassiopeia bright in X-rays. But new data from XRISM revealed the culprit: a hidden companion. The post Strange star mystery solved after 50 years first appeared on EarthSky .</p><p>Earth science results become meaningful when they can be situated within longer records. A single measurement is a starting point; a trend across instruments and time is evidence. The current work adds a specific data point: eSA published this original story on March 24, 2026.</p><p>When the measurements are examined carefully, a clearer picture emerges. But on March 24, 2025, astronomers said observations from the X-Ray Imaging and Spectroscopy Mission ( XRISM ) revealed that the X-rays are not coming from gamma-Cas after all. The analysis also shows that the peer-reviewed journal Astronomy and Astrophysics published the study on March 24, 2026.</p><p>Independent observations will now determine how well the result holds under different conditions. The most rigorous test will be to situate this result within longer time series and independent instruments, reducing the risk of reading too much into a single data point.</p><p class=\"art-source\"><a href=\"https://earthsky.org/space/mystery-of-strange-star-solved-50-years-gamma-cas/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Durante 50 anos, os astrónomos ficaram intrigados com uma estranha estrela em Cassiopeia, brilhante em raios-X. Mas novos dados do XRISM revelaram o…",
-      "Dado-chave: A ESA publicou esta história original em 24 de março de 2026.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Durante 50 anos, os astrónomos ficaram intrigados com uma estranha estrela em Cassiopeia, brilhante em raios-X. Mas novos dados do XRISM revelaram o…",
-      "Dado-chave: A ESA publicou esta história original em 24 de março de 2026.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: For 50 years, astronomers have puzzled over a strange star in Cassiopeia bright in X-rays. But new data from XRISM revealed the culprit: a hidden…",
-      "Key detail: ESA published this original story on March 24, 2026.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "27 mar 2026",
-    "date_pt": "27 mar 2026",
-    "date_en": "27 Mar 2026",
-    "time": "10h38",
-    "time_pt": "10h38",
-    "time_en": "10:38 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-03-27T10:38:10+00:00",
-    "lastModifiedIso": "2026-03-27T10:38:10+00:00",
-    "source": "EarthSky",
-    "sourceDomain": "earthsky.org",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional.",
-    "sourceNote_pt": "Fonte primária institucional.",
-    "sourceNote_en": "Primary institutional source.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "standard",
-    "editorialBandLabel": "Prioridade editorial",
-    "editorialBandLabel_pt": "Prioridade editorial",
-    "editorialBandLabel_en": "Editorial priority",
-    "keywords": [
-      "Ciências da Terra",
-      "EarthSky",
-      "Cosmos Week",
-      "Estranho mistério estelar resolvido após 50 anos"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "EarthSky",
-      "Cosmos Week",
-      "Estranho mistério estelar resolvido após 50 anos"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "EarthSky",
-      "Cosmos Week",
-      "Strange stellar mystery solved after 50 years"
-    ],
-    "srcUrl": "https://earthsky.org/space/mystery-of-strange-star-solved-50-years-gamma-cas/",
-    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=strange-star-mystery-solved-after-50-years",
     "featured": false,
     "trending": false,
     "isPreprint": false,
