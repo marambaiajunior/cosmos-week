@@ -1,28 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <!-- Google tag (gtag.js) -->
+  <!-- Google tag (gtag.js) — Cosmos Week -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MX20J1ZG06"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'G-MX20J1ZG06');
+    /* Consent Mode v2 — padrão: tudo negado até o usuário decidir.
+       Três estados possíveis no localStorage['cw_cookie_consent']:
+         'full'      → analytics + anúncios personalizados aceitos
+         'analytics' → só analytics aceito, anúncios não-personalizados
+         'denied'    → tudo recusado                                   */
+    gtag('consent', 'default', {
+      analytics_storage:    'denied',
+      ad_storage:           'denied',
+      ad_user_data:         'denied',
+      ad_personalization:   'denied',
+      wait_for_update:      500
+    });
+
+    try {
+      const _c = localStorage.getItem('cw_cookie_consent');
+      if (_c === 'full') {
+        gtag('consent', 'update', {
+          analytics_storage:  'granted',
+          ad_storage:         'granted',
+          ad_user_data:       'granted',
+          ad_personalization: 'granted'
+        });
+      } else if (_c === 'analytics') {
+        gtag('consent', 'update', {
+          analytics_storage:  'granted',
+          ad_storage:         'denied',
+          ad_user_data:       'denied',
+          ad_personalization: 'denied'
+        });
+      }
+      /* 'denied' → mantém os defaults acima */
+    } catch (e) {}
+
+    gtag('js', new Date());
+    gtag('config', 'G-MX20J1ZG06', { anonymize_ip: true });
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Cosmos Week — portal de jornalismo científico em português com foco em astronomia, astrofísica, cosmologia e ciência de fronteira.">
   <meta name="keywords" content="astronomia, astrofísica, cosmologia, ciência, exoplanetas, buracos negros, James Webb, NASA, ESA, divulgação científica">
   <meta property="og:title" content="Cosmos Week — Jornalismo científico do universo">
-  <meta property="og:description" content="Notícias científicas em português, com contexto, rigor e fontes primárias transparentes.">
+  <meta property="og:description" content="Reportagens científicas em português, com contexto, rigor e fontes primárias transparentes.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg/1200px-Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg">
+  <meta property="og:image" content="https://marambaiajunior.github.io/cosmos-week/assets/og-default.jpg">
+  <!-- ↑ Crie a pasta assets/ no repo e coloque uma imagem 1200×630 px chamada og-default.jpg.
+       Enquanto não criar, os compartilhamentos no WhatsApp/Twitter ficarão sem preview. -->
   <meta property="og:url" content="https://marambaiajunior.github.io/cosmos-week/">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Cosmos Week — Jornalismo científico do universo">
-  <meta name="twitter:description" content="Notícias científicas em português, com contexto, rigor e fontes primárias transparentes.">
-  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg/1200px-Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg">
+  <meta name="twitter:description" content="Reportagens científicas em português, com contexto, rigor e fontes primárias transparentes.">
+  <meta name="twitter:image" content="https://marambaiajunior.github.io/cosmos-week/assets/og-default.jpg">
   <meta name="robots" id="robotsMeta" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   <meta name="news_keywords" id="newsKeywordsMeta" content="astronomia, astrofísica, cosmologia, ciência">
   <meta property="og:site_name" content="Cosmos Week">
@@ -30,6 +65,19 @@
   <meta property="article:modified_time" id="articleModifiedMeta" content="">
   <link rel="canonical" id="canonicalLink" href="https://marambaiajunior.github.io/cosmos-week/">
   <link rel="alternate" type="application/rss+xml" title="Cosmos Week RSS" href="feed.xml">
+
+  <!--
+  ╔══════════════════════════════════════════════════════════════════╗
+  ║  ATIVAR ADSENSE — quando a conta for aprovada:                  ║
+  ║  1. Descomente o <script> abaixo.                               ║
+  ║  2. Substitua pub-XXXXXXXXXXXXXXXX pelo seu publisher ID real.  ║
+  ║  3. No CSS, remova a linha ".ad-slot { display: none; }".       ║
+  ║  4. Em cada <div class="ad-slot">, descomente o bloco <ins>.    ║
+  ║  5. Atualize ads.txt com o mesmo publisher ID.                  ║
+  ╚══════════════════════════════════════════════════════════════════╝
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+     crossorigin="anonymous"></script>
+  -->
   <title>Cosmos Week — Jornalismo científico do universo</title>
   <script type="application/ld+json" id="siteJsonLd">{"@context":"https://schema.org","@type":"WebSite","name":"Cosmos Week","url":"https://marambaiajunior.github.io/cosmos-week/","description":"Portal de jornalismo científico em português com foco em astronomia, astrofísica, cosmologia e ciência de fronteira."}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -551,6 +599,40 @@
     .preprint-section-head { border-bottom-color: rgba(201,79,79,.22); }
     .preprint-section-head .section-title { color: #ffaaaa; }
 
+
+    /* ── Ad slots ─────────────────────────────────────────────────────────────
+       Todos os slots estão desativados por padrão (display:none).
+       Quando o AdSense for aprovado:
+         1. Adicione o script AdSense no <head> (ver comentário abaixo).
+         2. Remova a linha ".ad-slot { display: none; }" abaixo.
+         3. Descomente os blocos <ins class="adsbygoogle"> dentro de cada slot.
+         4. Substitua "ca-pub-XXXXXXXXXXXXXXXX" e "XXXXXXXXXX" pelos seus IDs reais.
+    ─── */
+    .ad-slot                { display: none; /* ← REMOVA quando AdSense ativo */ }
+    .ad-slot--leaderboard   { min-height: 90px; text-align: center; margin: 20px auto; max-width: 728px; }
+    .ad-slot--sidebar       { min-height: 250px; width: 100%; margin-bottom: 18px; }
+    .ad-slot--in-article    { min-height: 250px; text-align: center; margin: 36px auto; max-width: 700px; }
+    @media (max-width: 860px) {
+      .ad-slot--leaderboard { max-width: 320px; min-height: 50px; }
+    }
+
+    /* ── Cookie consent ─── */
+    .cookie-banner {
+      position: fixed; left: 18px; right: 18px; bottom: 18px; z-index: 4900;
+      background: rgba(17,21,32,.98); border: 1px solid rgba(255,255,255,.1);
+      border-radius: var(--radius); box-shadow: var(--shadow);
+      padding: 18px; display: none; gap: 14px; align-items: flex-start; justify-content: space-between;
+    }
+    .cookie-banner.show { display: flex; }
+    .cookie-copy { max-width: 760px; }
+    .cookie-title {
+      font: 600 11px var(--mono); text-transform: uppercase; letter-spacing: .14em;
+      color: var(--accent-2); margin-bottom: 8px;
+    }
+    .cookie-text { color: var(--txt-2); font-size: 13.5px; line-height: 1.65; }
+    .cookie-text a { color: var(--accent-2); text-decoration: underline; text-underline-offset: 3px; }
+    .cookie-actions { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+
     /* ── Responsive ─── */
     @media (max-width: 1100px) {
       .hero-grid, .story-layout, .article-layout, .footer-grid { grid-template-columns: 1fr; }
@@ -570,6 +652,8 @@
       .newsletter-compact { max-width: none; }
       .article-cover-content { padding: 26px; }
       .article-layout { padding: 24px; gap: 24px; }
+      .cookie-banner { flex-direction: column; }
+      .cookie-actions { justify-content: flex-start; }
     }
     @media (max-width: 600px) {
       .wrap, .topbar-inner, .header-inner, .footer-inner, .catbar-inner { padding-left: 16px; padding-right: 16px; }
@@ -579,6 +663,7 @@
       .compact-cover { height: 160px; }
       .footer-bottom { flex-direction: column; }
       .article-layout { grid-template-columns: 1fr; }
+      .cookie-banner { left: 12px; right: 12px; bottom: 12px; padding: 14px; }
     }
   </style>
 </head>
@@ -606,7 +691,7 @@
       </nav>
       <div class="header-tools">
         <label class="searchbox" aria-label="Buscar artigos">
-          <input id="searchInput" type="text" placeholder="Buscar notícias, temas ou fontes..." oninput="handleSearchInput(this.value)">
+          <input id="searchInput" type="text" placeholder="Buscar reportagens, temas ou fontes..." oninput="handleSearchInput(this.value)">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
         </label>
         <div class="lang-switch" aria-label="Selecionar idioma">
@@ -619,6 +704,7 @@
           </svg>
         </a>
         <button class="ghost-btn" type="button" onclick="openPage('standards')" id="methodBtn">Metodologia</button>
+        <a class="ghost-btn" href="anuncie.html" id="adsBtn">Anuncie</a>
         <button class="primary-btn" type="button" id="updateBtn" onclick="refreshFeed()">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.13-3.36L23 10"/><path d="M20.49 15a9 9 0 0 1-14.13 3.36L1 14"/></svg>
           <span id="updateBtnLabel">Atualizar</span>
@@ -645,13 +731,30 @@
   </header>
 
   <main class="wrap">
+    <!-- AD SLOT: Leaderboard (728×90 desktop / 320×50 mobile)
+         Posição: topo do conteúdo principal, abaixo da navegação.
+         Para ativar: remova display:none do CSS .ad-slot e descomente o <ins> abaixo.
+         Também adicione no <head>:
+           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+    -->
+    <div id="adSlotLeaderboard" class="ad-slot ad-slot--leaderboard" aria-hidden="true">
+      <!--
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+        data-ad-slot="XXXXXXXXXX"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      -->
+    </div>
     <section class="page active" id="pageHome">
       <div id="heroMount"></div>
       <div class="story-layout">
         <div>
           <div class="section-head">
             <div>
-              <div class="section-title" id="latestSectionTitle">Últimas notícias</div>
+              <div class="section-title" id="latestSectionTitle">Últimas reportagens</div>
               <div class="section-kicker" id="latestSectionKicker">Cobertura contínua com foco em descoberta, contexto e impacto científico real.</div>
             </div>
             <button class="section-link" onclick="openPage('archive')" id="archiveLinkTop">Ver arquivo completo</button>
@@ -660,6 +763,19 @@
           <div class="preprint-grid" id="preprintMount"></div>
         </div>
         <aside class="sidebar">
+          <!-- AD SLOT: Sidebar Rectangle (300×250)
+               Para ativar: remova display:none do CSS .ad-slot e descomente o <ins> abaixo. -->
+          <div id="adSlotSidebar" class="ad-slot ad-slot--sidebar" aria-hidden="true">
+            <!--
+            <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+              data-ad-slot="XXXXXXXXXX"
+              data-ad-format="rectangle"
+              data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            -->
+          </div>
           <div class="widget">
             <div class="widget-head"><div class="widget-title" id="trendingWidgetTitle">Em alta</div></div>
             <div class="widget-body widget-list" id="trendingList"></div>
@@ -720,7 +836,7 @@
           </div>
           <div class="newsletter-compact">
             <div class="footer-title" id="newsletterTitle">Newsletter</div>
-            <p class="newsletter-copy" id="newsletterDescription">Receba os destaques do Cosmos Week no seu e-mail.</p>
+            <p class="newsletter-copy" id="newsletterDescription">Receba os destaques editoriais do Cosmos Week no seu e-mail.</p>
             <form class="newsletter-form" id="newsletterForm" onsubmit="handleNewsletterSubmit(event)" novalidate>
               <label class="sr-only" for="newsletterEmail" id="newsletterLabel">Seu e-mail</label>
               <input class="newsletter-input" type="email" id="newsletterEmail" name="email" autocomplete="email" inputmode="email" placeholder="Seu e-mail" required>
@@ -736,6 +852,8 @@
             <button onclick="openPage('archive')" id="footerArchive">Arquivo</button>
             <button onclick="openPage('about')" id="footerAbout">Sobre</button>
             <button onclick="openPage('standards')" id="footerStandards">Padrões editoriais</button>
+            <a href="anuncie.html" id="footerAdvertise">Anuncie</a>
+            <a href="media-kit.html" id="footerMediaKit">Media kit</a>
           </div>
         </div>
         <div>
@@ -743,6 +861,8 @@
           <div class="footer-links">
             <a href="feed.xml" target="_blank" rel="noopener" id="footerFeed">RSS do portal</a>
             <a href="sitemap.xml" target="_blank" rel="noopener" id="footerSitemap">Sitemap</a>
+            <a href="politica-de-privacidade.html" id="footerPrivacy">Política de privacidade</a>
+            <a href="termos-de-uso.html" id="footerTerms">Termos de uso</a>
             <button onclick="openPage('standards')" id="footerCorrections">Correções e metodologia</button>
           </div>
         </div>
@@ -750,12 +870,31 @@
       <div class="footer-bottom">
         <span id="footerBottomLeft">© 2026 Cosmos Week</span>
         <span id="footerBottomCenter">Ciência tratada como ciência, não como propaganda de release.</span>
-        <span id="footerBottomRight">Ciência</span>
+        <span id="footerBottomRight">Base atual: GitHub Pages</span>
       </div>
     </div>
   </footer>
 
   <div class="toast" id="toast"></div>
+
+  <div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Aviso de cookies">
+    <div class="cookie-copy">
+      <div class="cookie-title">Privacidade e consentimento</div>
+      <div class="cookie-text">
+        O Cosmos Week usa analytics para medir audiência e, futuramente, pode exibir anúncios. Você escolhe o nível de consentimento:
+        <strong>Aceitar tudo</strong> ativa analytics e anúncios personalizados;
+        <strong>Só analytics</strong> ativa apenas medição de audiência (sem publicidade personalizada);
+        <strong>Recusar</strong> desativa tudo. Leia a
+        <a href="politica-de-privacidade.html">política de privacidade</a>.
+      </div>
+    </div>
+    <div class="cookie-actions">
+      <button class="ghost-btn" type="button" onclick="setCookieConsent('denied')">Recusar</button>
+      <button class="ghost-btn" type="button" onclick="setCookieConsent('analytics')">Só analytics</button>
+      <button class="primary-btn" type="button" onclick="setCookieConsent('full')">Aceitar tudo</button>
+    </div>
+  </div>
+
 
   <script src="posts.js"></script>
   <script>
@@ -784,10 +923,10 @@
     pt: {
       logoSub: 'Jornalismo científico em português',
       home: 'Início', archive: 'Arquivo', about: 'Sobre', standards: 'Padrões',
-      methodology: 'Metodologia', update: 'Atualizar',
-      searchPlaceholder: 'Buscar notícias, temas ou fontes...',
+      methodology: 'Metodologia', advertise: 'Anuncie', mediaKit: 'Media kit', privacy: 'Política de privacidade', terms: 'Termos de uso', update: 'Atualizar',
+      searchPlaceholder: 'Buscar reportagens, temas ou fontes...',
       ticker: 'Destaques',
-      latestTitle: 'Últimas notícias',
+      latestTitle: 'Últimas reportagens',
       latestKicker: 'Cobertura contínua com foco em descoberta, contexto e impacto científico real.',
       archiveLink: 'Ver arquivo completo',
       preprintsTitle: 'Radar de preprints',
@@ -807,10 +946,10 @@
       footerFeed: 'RSS do portal', footerSitemap: 'Sitemap',
       footerCorrections: 'Correções e metodologia',
       footerBottomLeft: '© 2026 Cosmos Week',
-      footerBottomCenter: 'Notícia científica com contexto e compromisso com a evidência.',
+      footerBottomCenter: 'Reportagem científica com contexto e compromisso com a evidência.',
       footerBottomRight: 'Base atual: GitHub Pages',
       newsletterTitle: 'Newsletter', newsletterLabel: 'Seu e-mail',
-      newsletterDescription: 'Receba os destaques do Cosmos Week no seu e-mail.',
+      newsletterDescription: 'Receba os destaques editoriais do Cosmos Week no seu e-mail.',
       newsletterPlaceholder: 'Seu e-mail', newsletterButton: 'Inscrever',
       newsletterNote: 'Sem spam. Apenas atualizações editoriais relevantes.',
       newsletterSuccess: 'E-mail salvo neste navegador.', newsletterInvalid: 'Digite um e-mail válido.',
@@ -824,7 +963,7 @@
       standardsPageTitle: 'Padrões editoriais',
       aboutPageTitle: 'Sobre o Cosmos Week',
       aboutIntro: 'O Cosmos Week foi desenhado como um portal de jornalismo científico, não como um espelho automático de releases institucionais. A automação existe para acelerar a triagem, a organização e a transparência, mas a arquitetura do site foi reformulada para deixar explícito o tipo de fonte, o grau de maturidade do resultado e a diferença entre anúncio, paper e preprint.',
-      aboutBody: 'A linha editorial privilegia astronomia, astrofísica, cosmologia e ciência de fronteira, com abertura controlada para física, biologia, química e ciências da Terra quando o material tem relevância científica real. O objetivo não é despejar volume. É construir um arquivo navegável de notícias curtas e médias que preservem contexto, cautela e legibilidade.',
+      aboutBody: 'A linha editorial privilegia astronomia, astrofísica, cosmologia e ciência de fronteira, com abertura controlada para física, biologia, química e ciências da Terra quando o material tem relevância científica real. O objetivo não é despejar volume. É construir um arquivo navegável de reportagens curtas e médias que preservem contexto, cautela e legibilidade.',
       standardsIntro: 'O portal segue um conjunto fixo de regras para evitar dois vícios comuns da divulgação online: transformar comunicado institucional em matéria autônoma sem transparência, e apresentar preprint como se fosse ciência consolidada. Sem maquiagem editorial, mais distinção entre o que foi medido, o que foi inferido e o que continua em aberto.',
       standardsCards: [
         { title: '1. Fonte real identificada', body: 'Toda matéria carrega o tipo de fonte. Um paper revisado por pares não recebe o mesmo tratamento visual de um preprint ou de um release institucional.' },
@@ -834,7 +973,7 @@
       ],
       sourceMixLine: 'item(ns)', clickToRead: 'Abrir matéria', copyLink: 'Copiar link',
       copied: 'Link copiado.', updateDone: 'Feed atualizado.', updateFail: 'Não foi possível atualizar agora.',
-      welcome: 'Feed carregado. Cobertura atualizada.',
+      welcome: 'Feed carregado. Cobertura atualizada com mais amplitude editorial.',
       backHome: 'Voltar ao início', allCategories: 'Todas',
       scoreLabel: 'Relevância editorial', evidenceLabel: 'Evidência', noveltyLabel: 'Novidade',
       sourceLabel: 'Fonte', accessLabel: 'Acessibilidade',
@@ -843,7 +982,7 @@
     en: {
       logoSub: 'Science journalism in Portuguese-first mode',
       home: 'Home', archive: 'Archive', about: 'About', standards: 'Standards',
-      methodology: 'Methodology', update: 'Refresh',
+      methodology: 'Methodology', advertise: 'Advertise', mediaKit: 'Media kit', privacy: 'Privacy policy', terms: 'Terms of use', update: 'Refresh',
       searchPlaceholder: 'Search stories, topics or sources...',
       ticker: 'Highlights',
       latestTitle: 'Latest stories',
@@ -1267,6 +1406,21 @@
           <div>
             <p class="article-lede">${textFor(post,'sub')}</p>
             <div class="article-body">${body}</div>
+
+            <!-- AD SLOT: In-article (após o corpo do texto, antes dos botões de share)
+                 Para ativar: remova display:none do CSS .ad-slot e descomente o <ins> abaixo. -->
+            <div class="ad-slot ad-slot--in-article" aria-hidden="true">
+              <!--
+              <ins class="adsbygoogle"
+                style="display:block; text-align:center;"
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                data-ad-slot="XXXXXXXXXX"></ins>
+              <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+              -->
+            </div>
+
             <div class="share-box" style="margin-top:32px; overflow:visible;">
               <div class="box-head">${tr('articleShare')}</div>
               <div class="box-body">
@@ -1414,14 +1568,15 @@
     document.documentElement.lang = currentLang === 'en' ? 'en-US' : 'pt-BR';
     const ids = {
       logoSub:'logoSub', navHome:'home', navArchive:'archive', navAbout:'about',
-      navStandards:'standards', methodBtn:'methodology', updateBtnLabel:'update',
+      navStandards:'standards', methodBtn:'methodology', adsBtn:'advertise', updateBtnLabel:'update',
       tickerBadge:'ticker', latestSectionTitle:'latestTitle', latestSectionKicker:'latestKicker',
       archiveLinkTop:'archiveLink', trendingWidgetTitle:'trending',
       sourceMixTitle:'sourceMix', editorialWidgetTitle:'editorialWidgetTitle',
       editorialRulesCopy:'editorialRulesCopy', standardsBtn:'standardsBtn',
       archiveTitle:'archiveTitle', archiveKicker:'archiveKicker', searchTitle:'searchTitle',
       footerDescription:'footerDescription', footerNavTitle:'footerNavTitle',
-      footerSourcesTitle:'footerSourcesTitle', footerFeed:'footerFeed',
+      footerAdvertise:'advertise', footerMediaKit:'mediaKit',
+      footerSourcesTitle:'footerSourcesTitle', footerFeed:'footerFeed', footerPrivacy:'privacy', footerTerms:'terms',
       footerSitemap:'footerSitemap', footerCorrections:'footerCorrections',
       footerBottomLeft:'footerBottomLeft', footerBottomCenter:'footerBottomCenter',
       footerBottomRight:'footerBottomRight', newsletterTitle:'newsletterTitle',
@@ -1497,6 +1652,51 @@
   function loadSavedNewsletterEmail() {
     const saved = localStorage.getItem('cw_newsletter_email');
     if (saved) { const el = document.getElementById('newsletterEmail'); if (el) el.value = saved; }
+  }
+
+  const CONSENT_KEY = 'cw_cookie_consent';
+
+  /* Mapeia os 3 estados para os sinais do Consent Mode v2.
+     'full'      → analytics + anúncios personalizados
+     'analytics' → só analytics, anúncios não-personalizados
+     'denied'    → tudo desligado                           */
+  function _consentSignals(mode) {
+    const full      = mode === 'full';
+    const analytics = mode === 'full' || mode === 'analytics';
+    return {
+      analytics_storage:  analytics ? 'granted' : 'denied',
+      ad_storage:         full      ? 'granted' : 'denied',
+      ad_user_data:       full      ? 'granted' : 'denied',
+      ad_personalization: full      ? 'granted' : 'denied'
+    };
+  }
+
+  function setCookieConsent(mode) {
+    // mode: 'full' | 'analytics' | 'denied'
+    try { localStorage.setItem(CONSENT_KEY, mode); } catch (e) {}
+    if (typeof gtag === 'function') gtag('consent', 'update', _consentSignals(mode));
+    const banner = document.getElementById('cookieBanner');
+    if (banner) banner.classList.remove('show');
+  }
+
+  function initCookieBanner() {
+    let saved = null;
+    try { saved = localStorage.getItem(CONSENT_KEY); } catch (e) {}
+    const banner = document.getElementById('cookieBanner');
+    if (!banner) return;
+
+    const validStates = ['full', 'analytics', 'denied',
+                         'granted']; // 'granted' = estado legado, tratar como 'analytics'
+    if (validStates.includes(saved)) {
+      const normalized = saved === 'granted' ? 'analytics' : saved;
+      if (typeof gtag === 'function') gtag('consent', 'update', _consentSignals(normalized));
+      // Migra silenciosamente o valor legado
+      if (saved === 'granted') { try { localStorage.setItem(CONSENT_KEY, 'analytics'); } catch (e) {} }
+      banner.classList.remove('show');
+      return;
+    }
+
+    banner.classList.add('show');
   }
 
   // ── SEO / Meta ─────────────────────────────────────────────────────────────
@@ -1613,6 +1813,7 @@
   document.addEventListener('DOMContentLoaded', () => {
     applyUIStrings();
     loadSavedNewsletterEmail();
+    initCookieBanner();
     parseRoute();
     setTimeout(() => showToast(tr('welcome')), 900);
   });

@@ -1,0 +1,29 @@
+# Cosmos Week — ads.txt
+# https://marambaiajunior.github.io/cosmos-week/ads.txt
+#
+# Este arquivo precisa ser acessível em:
+#   https://marambaiajunior.github.io/cosmos-week/ads.txt
+# (GitHub Pages serve a raiz do repo — basta commitar este arquivo.)
+#
+# ── COMO ATIVAR ────────────────────────────────────────────────────────────────
+#
+# 1. Crie ou acesse sua conta no Google AdSense (adsense.google.com).
+# 2. Adicione o site e aguarde a aprovação.
+# 3. Quando aprovado, seu Publisher ID aparece no painel no formato:
+#      ca-pub-XXXXXXXXXXXXXXXX   (16 dígitos)
+# 4. Substitua pub-XXXXXXXXXXXXXXXX abaixo pelo seu ID real.
+# 5. Remova o "#" do início da linha (descomente).
+# 6. Faça o commit deste arquivo no repositório.
+# 7. Verifique em: https://adstxt.guru/validator/check/?url=marambaiajunior.github.io/cosmos-week
+#
+# ── NÃO INVENTE O ID ───────────────────────────────────────────────────────────
+# Um publisher ID inválido faz as redes programáticas bloquearem seu inventário
+# automaticamente. Só descomente quando tiver o ID real aprovado.
+#
+# ── LINHA A DESCOMENTAR ────────────────────────────────────────────────────────
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+#
+# ── OUTRAS REDES ───────────────────────────────────────────────────────────────
+# Se no futuro usar outras redes (Media.net, Ezoic, Setupad etc.),
+# cada rede fornece a linha exata que deve ser adicionada aqui.
+# Não adicione linhas que você não reconhece — podem indicar fraude.
