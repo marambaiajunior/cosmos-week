@@ -91,7 +91,7 @@ window.postsData = [
       "evidence": 88,
       "relevance": 88,
       "accessibility": 60,
-      "novelty": 52
+      "novelty": 49
     }
   },
   {
@@ -573,6 +573,99 @@ window.postsData = [
   },
   {
     "id": 7,
+    "slug": "the-jwst-finds-more-overmassive-black-holes-this-time-in-dwarf-galaxies",
+    "cat": "Astrofísica",
+    "catCls": "astrofisica",
+    "img": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-jwst-finds-more-ov.jpg",
+    "title": "O JWST encontra mais buracos negros supermassivos. Desta vez em galáxias anãs",
+    "title_pt": "O JWST encontra mais buracos negros supermassivos. Desta vez em galáxias anãs",
+    "title_en": "The JWST finds more overmassive black holes. This time in dwarf galaxies",
+    "sub": "Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro supermassivo. Ao contrário da…",
+    "sub_pt": "Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro supermassivo. Ao contrário da…",
+    "sub_en": "One of the things astronomers find when they look around at galaxies is a correlation between a galaxy's mass and the mass of its supermassive black hole. Contrary to popular…",
+    "excerpt": "Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro supermassivo. Ao contrário da crença popular, estes SMBH não ancoram as suas galáxias; eles compõem…",
+    "excerpt_pt": "Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro supermassivo. Ao contrário da crença popular, estes SMBH não ancoram as suas galáxias; eles compõem…",
+    "excerpt_en": "One of the things astronomers find when they look around at galaxies is a correlation between a galaxy's mass and the mass of its supermassive black hole. Contrary to popular belief, these SMBH don't anchor their galaxies; they make up…",
+    "body": "<p>Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro supermassivo. Ao contrário da crença popular, estes SMBH não ancoram as suas galáxias; eles compõem…</p><p>O campo vinha se construindo em direção a momentos como este. A astrofísica depende de isolar o mecanismo físico por trás de um fenômeno observado. A diferença entre um sinal detectado e um processo compreendido pode levar anos para ser superada.</p><p>O registro observacional oferece um detalhe importante aqui. Agora, algumas novas pesquisas baseadas em grande parte no JWST identificaram um par de galáxias anãs que parecem ter SMBH que quebram regras. Em complemento, novas pesquisas baseadas nas observações do JWST aprofundam a questão.</p><p>A partir daqui, o valor real do resultado depende da convergência entre conjuntos de dados independentes e modelagem física.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-03-jwst-overmassive-black-holes-dwarf.html\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro supermassivo. Ao contrário da crença popular, estes SMBH não ancoram as suas galáxias; eles compõem…</p><p>O campo vinha se construindo em direção a momentos como este. A astrofísica depende de isolar o mecanismo físico por trás de um fenômeno observado. A diferença entre um sinal detectado e um processo compreendido pode levar anos para ser superada.</p><p>O registro observacional oferece um detalhe importante aqui. Agora, algumas novas pesquisas baseadas em grande parte no JWST identificaram um par de galáxias anãs que parecem ter SMBH que quebram regras. Em complemento, novas pesquisas baseadas nas observações do JWST aprofundam a questão.</p><p>A partir daqui, o valor real do resultado depende da convergência entre conjuntos de dados independentes e modelagem física.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-03-jwst-overmassive-black-holes-dwarf.html\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>One of the things astronomers find when they look around at galaxies is a correlation between a galaxy&#x27;s mass and the mass of its supermassive black hole. Contrary to popular belief, these SMBH don&#x27;t anchor their galaxies; they make up…</p><p>Astrophysics depends on isolating the physical mechanism behind an observed phenomenon. The difference between a detected signal and an understood process can take years to close. The current work adds a specific data point: the research is titled &quot;JWST Reveals Two Overmassive Black Hole Candidates in Dwarf Galaxies at z≈0.7: Pushing Black Hole Searches into the Dwarf-Galaxy Regime.&quot; The lead author is Eduardo Iani, a Ph.D.</p><p>When the measurements are examined carefully, a clearer picture emerges. Now some new research based largely on the JWST has identified a pair of dwarf galaxies that appear to have rule-breaking SMBH. Complementing this, new research based on JWST observations pushes more deeply into the issue.</p><p>Independent observations will now determine how well the result holds under different conditions. From here, the real value of the result depends on convergence between independent datasets and physical modeling.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-03-jwst-overmassive-black-holes-dwarf.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Ponto central: Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro…",
+      "Dado-chave: A pesquisa é intitulada \"JWST revela dois candidatos a buracos negros supermassivos em galáxias anãs em z≈0,7: empurrando pesquisas de buracos…",
+      "Origem institucional: distinguir anúncio de evidência."
+    ],
+    "highlights_pt": [
+      "Ponto central: Uma das coisas que os astrónomos descobrem quando olham para as galáxias é uma correlação entre a massa de uma galáxia e a massa do seu buraco negro…",
+      "Dado-chave: A pesquisa é intitulada \"JWST revela dois candidatos a buracos negros supermassivos em galáxias anãs em z≈0,7: empurrando pesquisas de buracos…",
+      "Origem institucional: distinguir anúncio de evidência."
+    ],
+    "highlights_en": [
+      "Core point: One of the things astronomers find when they look around at galaxies is a correlation between a galaxy's mass and the mass of its supermassive black…",
+      "Key detail: The research is titled \"JWST Reveals Two Overmassive Black Hole Candidates in Dwarf Galaxies at z≈0.7: Pushing Black Hole Searches into the…",
+      "Institutional origin: separate announcement from evidence."
+    ],
+    "date": "29 mar 2026",
+    "date_pt": "29 mar 2026",
+    "date_en": "29 Mar 2026",
+    "time": "14h00",
+    "time_pt": "14h00",
+    "time_en": "14:00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-03-29T14:00:13+00:00",
+    "lastModifiedIso": "2026-03-29T14:00:13+00:00",
+    "source": "Phys.org Space",
+    "sourceDomain": "phys.org",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional.",
+    "sourceNote_pt": "Fonte primária institucional.",
+    "sourceNote_en": "Primary institutional source.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Astrofísica",
+      "Phys.org Space",
+      "Cosmos Week",
+      "O JWST encontra mais buracos negros supermassivos. Desta vez em galáxias anãs"
+    ],
+    "keywords_pt": [
+      "Astrofísica",
+      "Phys.org Space",
+      "Cosmos Week",
+      "O JWST encontra mais buracos negros supermassivos. Desta vez em galáxias anãs"
+    ],
+    "keywords_en": [
+      "Astrophysics",
+      "Phys.org Space",
+      "Cosmos Week",
+      "JWST finds more supermassive black holes. This time in dwarf galaxies"
+    ],
+    "srcUrl": "https://phys.org/news/2026-03-jwst-overmassive-black-holes-dwarf.html",
+    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=the-jwst-finds-more-overmassive-black-holes-this-time-in-dwarf-galaxies",
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "score": 76,
+    "scoreBreakdown": {
+      "source": 76,
+      "evidence": 82,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    }
+  },
+  {
+    "id": 8,
     "slug": "distant-galaxy-fades-20-fold-in-just-two-decades-challenging-how-supermassive-black-holes-evolve",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -658,17 +751,17 @@ window.postsData = [
     "featured": false,
     "trending": false,
     "isPreprint": false,
-    "score": 77,
+    "score": 76,
     "scoreBreakdown": {
       "source": 76,
       "evidence": 88,
       "relevance": 88,
       "accessibility": 60,
-      "novelty": 49
+      "novelty": 46
     }
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "pulsars-rewrite-the-rules",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -757,53 +850,146 @@ window.postsData = [
       "evidence": 82,
       "relevance": 88,
       "accessibility": 60,
+      "novelty": 52
+    }
+  },
+  {
+    "id": 10,
+    "slug": "tess-discovers-an-earth-sized-planet-orbiting-nearby-m-dwarf-star",
+    "cat": "Exoplanetas",
+    "catCls": "exoplanetas",
+    "img": "https://scx1.b-cdn.net/csz/news/tmb/2026/tess-discovers-a-new-e.jpg",
+    "title": "TESS descobre um planeta do tamanho da Terra orbitando uma estrela anã M próxima",
+    "title_pt": "TESS descobre um planeta do tamanho da Terra orbitando uma estrela anã M próxima",
+    "title_en": "TESS discovers an Earth-sized planet orbiting nearby M-dwarf star",
+    "sub": "Usando o Transiting Exoplanet Survey Satellite da NASA, uma equipe internacional de astrônomos descobriu um planeta extrassolar orbitando TOI-4616 – uma estrela anã M próxima. O…",
+    "sub_pt": "Usando o Transiting Exoplanet Survey Satellite da NASA, uma equipe internacional de astrônomos descobriu um planeta extrassolar orbitando TOI-4616 – uma estrela anã M próxima. O…",
+    "sub_en": "Using NASA's Transiting Exoplanet Survey Satellite, an international team of astronomers has discovered an extrasolar planet orbiting TOI-4616—a nearby M-dwarf star. The newfound…",
+    "excerpt": "Usando o Transiting Exoplanet Survey Satellite da NASA, uma equipe internacional de astrônomos descobriu um planeta extrassolar orbitando TOI-4616 – uma estrela anã M próxima. O novo mundo alienígena, que recebeu a designação TOI-4616 b, é…",
+    "excerpt_pt": "Usando o Transiting Exoplanet Survey Satellite da NASA, uma equipe internacional de astrônomos descobriu um planeta extrassolar orbitando TOI-4616 – uma estrela anã M próxima. O novo mundo alienígena, que recebeu a designação TOI-4616 b, é…",
+    "excerpt_en": "Using NASA's Transiting Exoplanet Survey Satellite, an international team of astronomers has discovered an extrasolar planet orbiting TOI-4616—a nearby M-dwarf star. The newfound alien world, which received designation TOI-4616 b, is…",
+    "body": "<p>Usando o Transiting Exoplanet Survey Satellite da NASA, uma equipe internacional de astrônomos descobriu um planeta extrassolar orbitando TOI-4616 – uma estrela anã M próxima. O novo mundo alienígena, que recebeu a designação TOI-4616 b, é…</p><p>Para situar o resultado no contexto: a ciência de exoplanetas é hoje ampla o suficiente para buscar padrões entre populações de planetas, o que torna cada nova medida atmosférica ou orbital mais valiosa do que teria sido uma década atrás. Este resultado contribui diretamente para esse esforço: relatamos a descoberta e validação estatística de TOI-4616 b, um planeta do tamanho da Terra transitando por uma anã intermediária próxima observada pelo TESS.</p><p>Os dados subjacentes contam uma história consistente. Uma das estrelas observadas pelo TESS é TOI-4616 – uma anã M do tipo espectral M4 a uma distância de cerca de 91,8 anos-luz da Terra. Além disso, a descoberta foi relatada em um artigo de pesquisa publicado em 11 de março no servidor de pré-impressão arXiv.</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. O próximo passo é obter restrições independentes sobre massa, raio, atmosfera ou geometria orbital, que é onde um alvo promissor se torna um alvo robustamente caracterizado.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-03-tess-earth-sized-planet-orbiting.html\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Usando o Transiting Exoplanet Survey Satellite da NASA, uma equipe internacional de astrônomos descobriu um planeta extrassolar orbitando TOI-4616 – uma estrela anã M próxima. O novo mundo alienígena, que recebeu a designação TOI-4616 b, é…</p><p>Para situar o resultado no contexto: a ciência de exoplanetas é hoje ampla o suficiente para buscar padrões entre populações de planetas, o que torna cada nova medida atmosférica ou orbital mais valiosa do que teria sido uma década atrás. Este resultado contribui diretamente para esse esforço: relatamos a descoberta e validação estatística de TOI-4616 b, um planeta do tamanho da Terra transitando por uma anã intermediária próxima observada pelo TESS.</p><p>Os dados subjacentes contam uma história consistente. Uma das estrelas observadas pelo TESS é TOI-4616 – uma anã M do tipo espectral M4 a uma distância de cerca de 91,8 anos-luz da Terra. Além disso, a descoberta foi relatada em um artigo de pesquisa publicado em 11 de março no servidor de pré-impressão arXiv.</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. O próximo passo é obter restrições independentes sobre massa, raio, atmosfera ou geometria orbital, que é onde um alvo promissor se torna um alvo robustamente caracterizado.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-03-tess-earth-sized-planet-orbiting.html\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Using NASA&#x27;s Transiting Exoplanet Survey Satellite, an international team of astronomers has discovered an extrasolar planet orbiting TOI-4616—a nearby M-dwarf star. The newfound alien world, which received designation TOI-4616 b, is… The update follows an extended period of data collection and mission operations.</p><p>To place the result in context: exoplanet science is now large enough to look for patterns across populations, not just individual worlds, which makes each new atmospheric or orbital measurement more valuable than it would have been a decade ago. This result contributes directly to that effort: we report the discovery and statistical validation of TOI-4616 b, an Earth-sized planet transiting a nearby mid-M dwarf observed by TESS.</p><p>The observational record provides important detail here. One of the stars observed by TESS is TOI-4616—an M dwarf of spectral type M4 at a distance of some 91.8 light years away from Earth. On top of that, the finding was reported in a research paper published March 11 on the arXiv pre-print server.</p><p>The next step is to obtain independent constraints on mass, radius, atmosphere, or orbital geometry, which is where a promising target becomes a robustly characterized one.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-03-tess-earth-sized-planet-orbiting.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Ponto central: Usando o Transiting Exoplanet Survey Satellite da NASA, uma equipe internacional de astrônomos descobriu um planeta extrassolar orbitando TOI-4616 –…",
+      "Dado-chave: Relatamos a descoberta e validação estatística de TOI-4616 b, um planeta do tamanho da Terra transitando por uma anã intermediária próxima…",
+      "Origem institucional: distinguir anúncio de evidência."
+    ],
+    "highlights_pt": [
+      "Ponto central: Usando o Transiting Exoplanet Survey Satellite da NASA, uma equipe internacional de astrônomos descobriu um planeta extrassolar orbitando TOI-4616 –…",
+      "Dado-chave: Relatamos a descoberta e validação estatística de TOI-4616 b, um planeta do tamanho da Terra transitando por uma anã intermediária próxima…",
+      "Origem institucional: distinguir anúncio de evidência."
+    ],
+    "highlights_en": [
+      "Core point: Using NASA's Transiting Exoplanet Survey Satellite, an international team of astronomers has discovered an extrasolar planet orbiting TOI-4616—a…",
+      "Key detail: We report the discovery and statistical validation of TOI-4616 b, an Earth-sized planet transiting a nearby mid-M dwarf observed by TESS.",
+      "Institutional origin: separate announcement from evidence."
+    ],
+    "date": "29 mar 2026",
+    "date_pt": "29 mar 2026",
+    "date_en": "29 Mar 2026",
+    "time": "17h50",
+    "time_pt": "17h50",
+    "time_en": "17:50 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-03-29T17:50:01+00:00",
+    "lastModifiedIso": "2026-03-29T17:50:01+00:00",
+    "source": "Phys.org Space",
+    "sourceDomain": "phys.org",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional.",
+    "sourceNote_pt": "Fonte primária institucional.",
+    "sourceNote_en": "Primary institutional source.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Exoplanetas",
+      "Phys.org Space",
+      "Cosmos Week",
+      "TESS descobre um planeta do tamanho da Terra orbitando uma estrela anã M próxima"
+    ],
+    "keywords_pt": [
+      "Exoplanetas",
+      "Phys.org Space",
+      "Cosmos Week",
+      "TESS descobre um planeta do tamanho da Terra orbitando uma estrela anã M próxima"
+    ],
+    "keywords_en": [
+      "Exoplanets",
+      "Phys.org Space",
+      "Cosmos Week",
+      "TESS discovers an Earth-sized planet orbiting a nearby M dwarf star"
+    ],
+    "srcUrl": "https://phys.org/news/2026-03-tess-earth-sized-planet-orbiting.html",
+    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=tess-discovers-an-earth-sized-planet-orbiting-nearby-m-dwarf-star",
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "score": 77,
+    "scoreBreakdown": {
+      "source": 76,
+      "evidence": 88,
+      "relevance": 88,
+      "accessibility": 60,
       "novelty": 55
     }
   },
   {
-    "id": 9,
-    "slug": "a-signal-from-before-the-stars",
-    "cat": "Astrofísica",
-    "catCls": "astrofisica",
-    "img": "https://www.universetoday.com/article_images/JP4d5khtQo57pCHGEE8HSd-650-80.jpg_20260327_162652.webp",
-    "title": "Um sinal de antes das estrelas",
-    "title_pt": "Um sinal de antes das estrelas",
-    "title_en": "A Signal From Before the Stars",
-    "sub": "Em 12 de novembro de 2025, o LIGO captou um sinal de onda gravitacional que parou os astrônomos. O objeto que o produziu era pequeno demais para ser qualquer tipo conhecido de…",
-    "sub_pt": "Em 12 de novembro de 2025, o LIGO captou um sinal de onda gravitacional que parou os astrônomos. O objeto que o produziu era pequeno demais para ser qualquer tipo conhecido de…",
-    "sub_en": "On 12 November 2025, LIGO picked up a gravitational wave signal that stopped astronomers in their tracks. The object that produced it was too small to be any known type of black…",
-    "excerpt": "Em 12 de novembro de 2025, o LIGO captou um sinal de onda gravitacional que parou os astrônomos. O objeto que o produziu era pequeno demais para ser qualquer tipo conhecido de buraco negro, na verdade menor que o nosso próprio Sol. Se confirmado, será…",
-    "excerpt_pt": "Em 12 de novembro de 2025, o LIGO captou um sinal de onda gravitacional que parou os astrônomos. O objeto que o produziu era pequeno demais para ser qualquer tipo conhecido de buraco negro, na verdade menor que o nosso próprio Sol. Se confirmado, será…",
-    "excerpt_en": "On 12 November 2025, LIGO picked up a gravitational wave signal that stopped astronomers in their tracks. The object that produced it was too small to be any known type of black hole, smaller in fact, than our own Sun. If confirmed, it…",
-    "body": "<p>Novos resultados em astrofísica: em 12 de novembro de 2025, o LIGO captou um sinal de onda gravitacional que parou os astrônomos. O objeto que o produziu era pequeno demais para ser qualquer tipo conhecido de buraco negro, na verdade menor que o nosso próprio Sol. Se confirmado,…</p><p>A astrofísica depende de isolar o mecanismo físico por trás de um fenômeno observado. A diferença entre um sinal detectado e um processo compreendido pode levar anos para ser superada. O trabalho atual acrescenta um dado concreto: em 2025 ele está lançando seu novo podcast Cosmic Commerce e está trabalhando em um novo livro 101 fatos que você não sabia sobre o espaço profundo. Em 2018, Mark recebeu um doutorado honorário da Universidade…</p><p>O registro observacional oferece um detalhe importante aqui. A ideia existe desde a década de 1960, proposta pela primeira vez pelos físicos soviéticos Yakov Zeldovich e Igor Novikov, e posteriormente ampliada por Stephen Hawking. A análise também mostra que mais fotos de buracos negros do universo (Crédito: NASA/JPL-Caltech) Os buracos negros que se formam quando estrelas massivas morrem em explosões espetaculares de supernovas, normalmente pesam várias…</p><p>A partir daqui, o valor real do resultado depende da convergência entre conjuntos de dados independentes e modelagem física.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/a-signal-from-before-the-stars\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Novos resultados em astrofísica: em 12 de novembro de 2025, o LIGO captou um sinal de onda gravitacional que parou os astrônomos. O objeto que o produziu era pequeno demais para ser qualquer tipo conhecido de buraco negro, na verdade menor que o nosso próprio Sol. Se confirmado,…</p><p>A astrofísica depende de isolar o mecanismo físico por trás de um fenômeno observado. A diferença entre um sinal detectado e um processo compreendido pode levar anos para ser superada. O trabalho atual acrescenta um dado concreto: em 2025 ele está lançando seu novo podcast Cosmic Commerce e está trabalhando em um novo livro 101 fatos que você não sabia sobre o espaço profundo. Em 2018, Mark recebeu um doutorado honorário da Universidade…</p><p>O registro observacional oferece um detalhe importante aqui. A ideia existe desde a década de 1960, proposta pela primeira vez pelos físicos soviéticos Yakov Zeldovich e Igor Novikov, e posteriormente ampliada por Stephen Hawking. A análise também mostra que mais fotos de buracos negros do universo (Crédito: NASA/JPL-Caltech) Os buracos negros que se formam quando estrelas massivas morrem em explosões espetaculares de supernovas, normalmente pesam várias…</p><p>A partir daqui, o valor real do resultado depende da convergência entre conjuntos de dados independentes e modelagem física.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/a-signal-from-before-the-stars\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>On 12 November 2025, LIGO picked up a gravitational wave signal that stopped astronomers in their tracks. The object that produced it was too small to be any known type of black hole, smaller in fact, than our own Sun. If confirmed, it… The update follows an extended period of data collection and mission operations.</p><p>The field has been building toward moments like this. Astrophysics depends on isolating the physical mechanism behind an observed phenomenon. The difference between a detected signal and an understood process can take years to close.</p><p>The observational record provides important detail here. The idea has been around since the 1960s, first proposed by Soviet physicists Yakov Zeldovich and Igor Novikov, and later expanded by Stephen Hawking. Complementing this, more photos of black holes of the universe (Credit : NASA/JPL-Caltech) Black holes that are formed when massive stars die in spectacular supernova explosions, typically weigh several times as much as…</p><p>Independent observations will now determine how well the result holds under different conditions. From here, the real value of the result depends on convergence between independent datasets and physical modeling.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/a-signal-from-before-the-stars\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "id": 11,
+    "slug": "new-henrietta-spectrograph-to-probe-alien-atmospheres",
+    "cat": "Exoplanetas",
+    "catCls": "exoplanetas",
+    "img": "https://www.universetoday.com/article_images/2018_OBS_BeletskySwope_02_1Small_750_20260329_222646.jpg",
+    "title": "Novo espectrógrafo Henrietta para sondar atmosferas alienígenas",
+    "title_pt": "Novo espectrógrafo Henrietta para sondar atmosferas alienígenas",
+    "title_en": "New Henrietta Spectrograph to Probe Alien Atmospheres",
+    "sub": "Encontrar vida para além do nosso sistema solar vai além de medir o tamanho de um exoplaneta, uma vez que mundos rochosos do tamanho da Terra podem não ter as condições para a…",
+    "sub_pt": "Encontrar vida para além do nosso sistema solar vai além de medir o tamanho de um exoplaneta, uma vez que mundos rochosos do tamanho da Terra podem não ter as condições para a…",
+    "sub_en": "Finding life beyond our solar system goes beyond measuring an exoplanet’s size, as rocky, Earth-sized worlds might not have the conditions for life as we know it. While exoplanets…",
+    "excerpt": "Encontrar vida para além do nosso sistema solar vai além de medir o tamanho de um exoplaneta, uma vez que mundos rochosos do tamanho da Terra podem não ter as condições para a vida tal como a conhecemos. Embora os exoplanetas possam ser visualizados…",
+    "excerpt_pt": "Encontrar vida para além do nosso sistema solar vai além de medir o tamanho de um exoplaneta, uma vez que mundos rochosos do tamanho da Terra podem não ter as condições para a vida tal como a conhecemos. Embora os exoplanetas possam ser visualizados…",
+    "excerpt_en": "Finding life beyond our solar system goes beyond measuring an exoplanet’s size, as rocky, Earth-sized worlds might not have the conditions for life as we know it. While exoplanets can be directly imaged by blocking their star’s glare,…",
+    "body": "<p>Encontrar vida para além do nosso sistema solar vai além de medir o tamanho de um exoplaneta, uma vez que mundos rochosos do tamanho da Terra podem não ter as condições para a vida tal como a conhecemos. Embora os exoplanetas possam ser visualizados… A atualização é resultado de um extenso período de coleta de dados e operações de missão.</p><p>O campo vinha se construindo em direção a momentos como este. A ciência de exoplanetas é hoje ampla o suficiente para buscar padrões entre populações de planetas, o que torna cada nova medida atmosférica ou orbital mais valiosa do que teria sido uma década atrás.</p><p>O registro observacional oferece um detalhe importante aqui. Williams apresentará um artigo no SPIE Astronomical Telescopes + Instrumentation em Copenhague, Dinamarca, em julho de 2026, intitulado “Da montagem à primeira luz: integração, teste e comissionamento do espectrógrafo… Um segundo fio nos dados aponta para o fato de que no entanto, a sua maior contribuição para a ciência foi calcular a distância até à Galáxia de Andrómeda a 2,2 milhões de anos-luz de distância, o que está muito próximo da distância medida…</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O próximo passo é obter restrições independentes sobre massa, raio, atmosfera ou geometria orbital, que é onde um alvo promissor se torna um alvo robustamente caracterizado.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/new-henrietta-spectrograph-to-probe-alien-atmospheres\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Encontrar vida para além do nosso sistema solar vai além de medir o tamanho de um exoplaneta, uma vez que mundos rochosos do tamanho da Terra podem não ter as condições para a vida tal como a conhecemos. Embora os exoplanetas possam ser visualizados… A atualização é resultado de um extenso período de coleta de dados e operações de missão.</p><p>O campo vinha se construindo em direção a momentos como este. A ciência de exoplanetas é hoje ampla o suficiente para buscar padrões entre populações de planetas, o que torna cada nova medida atmosférica ou orbital mais valiosa do que teria sido uma década atrás.</p><p>O registro observacional oferece um detalhe importante aqui. Williams apresentará um artigo no SPIE Astronomical Telescopes + Instrumentation em Copenhague, Dinamarca, em julho de 2026, intitulado “Da montagem à primeira luz: integração, teste e comissionamento do espectrógrafo… Um segundo fio nos dados aponta para o fato de que no entanto, a sua maior contribuição para a ciência foi calcular a distância até à Galáxia de Andrómeda a 2,2 milhões de anos-luz de distância, o que está muito próximo da distância medida…</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O próximo passo é obter restrições independentes sobre massa, raio, atmosfera ou geometria orbital, que é onde um alvo promissor se torna um alvo robustamente caracterizado.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/new-henrietta-spectrograph-to-probe-alien-atmospheres\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>New findings in exoplanet science: finding life beyond our solar system goes beyond measuring an exoplanet’s size, as rocky, Earth-sized worlds might not have the conditions for life as we know it. While exoplanets can be directly imaged by blocking their star’s glare,…</p><p>To place the result in context: exoplanet science is now large enough to look for patterns across populations, not just individual worlds, which makes each new atmospheric or orbital measurement more valuable than it would have been a decade ago. This result contributes directly to that effort: “If you measured Earth and Venus that way, you’d think they were almost the same planet.</p><p>The observational record provides important detail here. Williams will be presenting a paper at the SPIE Astronomical Telescopes + Instrumentation in Copenhagen, Denmark in July 2026 titled “From assembly to first light: integration, testing, and commissioning of the… The analysis also shows that however, her greatest contribution to science was calculating the distance to the Andromeda Galaxy at 2.2 million light-years away, which is very close to the current measured distance of 2.5 million…</p><p>The announcement opens a productive path for follow-up. The next step is to obtain independent constraints on mass, radius, atmosphere, or orbital geometry, which is where a promising target becomes a robustly characterized one.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/new-henrietta-spectrograph-to-probe-alien-atmospheres\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Ponto central: Em 12 de novembro de 2025, o LIGO captou um sinal de onda gravitacional que parou os astrônomos. O objeto que o produziu era pequeno demais para ser…",
-      "Dado-chave: Em 2025 ele está lançando seu novo podcast Cosmic Commerce e está trabalhando em um novo livro 101 fatos que você não sabia sobre o espaço…",
+      "Ponto central: Encontrar vida para além do nosso sistema solar vai além de medir o tamanho de um exoplaneta, uma vez que mundos rochosos do tamanho da Terra podem…",
+      "Dado-chave: “Se medissemos a Terra e Vénus dessa forma, pensaríamos que eram quase o mesmo planeta.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Ponto central: Em 12 de novembro de 2025, o LIGO captou um sinal de onda gravitacional que parou os astrônomos. O objeto que o produziu era pequeno demais para ser…",
-      "Dado-chave: Em 2025 ele está lançando seu novo podcast Cosmic Commerce e está trabalhando em um novo livro 101 fatos que você não sabia sobre o espaço…",
+      "Ponto central: Encontrar vida para além do nosso sistema solar vai além de medir o tamanho de um exoplaneta, uma vez que mundos rochosos do tamanho da Terra podem…",
+      "Dado-chave: “Se medissemos a Terra e Vénus dessa forma, pensaríamos que eram quase o mesmo planeta.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Core point: On 12 November 2025, LIGO picked up a gravitational wave signal that stopped astronomers in their tracks. The object that produced it was too small…",
-      "Key detail: In 2025 he is launching his new podcast Cosmic Commerce and is working on a new book 101 Facts You Didn't Know About Deep Space In 2018, Mark…",
+      "Core point: Finding life beyond our solar system goes beyond measuring an exoplanet’s size, as rocky, Earth-sized worlds might not have the conditions for life…",
+      "Key detail: “If you measured Earth and Venus that way, you’d think they were almost the same planet.",
       "Institutional origin: separate announcement from evidence."
     ],
-    "date": "27 mar 2026",
-    "date_pt": "27 mar 2026",
-    "date_en": "27 Mar 2026",
-    "time": "16h27",
-    "time_pt": "16h27",
-    "time_en": "16:27 UTC",
+    "date": "29 mar 2026",
+    "date_pt": "29 mar 2026",
+    "date_en": "29 Mar 2026",
+    "time": "22h27",
+    "time_pt": "22h27",
+    "time_en": "22:27 UTC",
     "read": "4 min de leitura",
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
-    "publishedIso": "2026-03-27T16:27:11+00:00",
-    "lastModifiedIso": "2026-03-27T16:27:11+00:00",
+    "publishedIso": "2026-03-29T22:27:26+00:00",
+    "lastModifiedIso": "2026-03-29T22:27:26+00:00",
     "source": "Universe Today",
     "sourceDomain": "www.universetoday.com",
     "sourceType": "agency",
@@ -822,25 +1008,25 @@ window.postsData = [
     "editorialBandLabel_pt": "Prioridade editorial",
     "editorialBandLabel_en": "Editorial priority",
     "keywords": [
-      "Astrofísica",
+      "Exoplanetas",
       "Universe Today",
       "Cosmos Week",
-      "Um sinal de antes das estrelas"
+      "Novo espectrógrafo Henrietta para sondar atmosferas alienígenas"
     ],
     "keywords_pt": [
-      "Astrofísica",
+      "Exoplanetas",
       "Universe Today",
       "Cosmos Week",
-      "Um sinal de antes das estrelas"
+      "Novo espectrógrafo Henrietta para sondar atmosferas alienígenas"
     ],
     "keywords_en": [
-      "Astrophysics",
+      "Exoplanets",
       "Universe Today",
       "Cosmos Week",
-      "A sign from before the stars"
+      "New Henrietta spectrograph to probe alien atmospheres"
     ],
-    "srcUrl": "https://www.universetoday.com/articles/a-signal-from-before-the-stars",
-    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=a-signal-from-before-the-stars",
+    "srcUrl": "https://www.universetoday.com/articles/new-henrietta-spectrograph-to-probe-alien-atmospheres",
+    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=new-henrietta-spectrograph-to-probe-alien-atmospheres",
     "featured": false,
     "trending": false,
     "isPreprint": false,
@@ -850,11 +1036,11 @@ window.postsData = [
       "evidence": 82,
       "relevance": 88,
       "accessibility": 60,
-      "novelty": 52
+      "novelty": 55
     }
   },
   {
-    "id": 10,
+    "id": 12,
     "slug": "exomoons-could-be-habitable-for-billions-of-years-provided-they-have-hydrogen-atmospheres",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -950,192 +1136,6 @@ window.postsData = [
     }
   },
   {
-    "id": 11,
-    "slug": "mars-like-worlds-near-m-dwarfs-may-lose-air-in-millions-of-years",
-    "cat": "Exoplanetas",
-    "catCls": "exoplanetas",
-    "img": "https://www.universetoday.com/article_images/Artists_impression_of_a_sub-Earth-mass_planet_orbiting_Barnards_star_eso2414a_750_20260328_012414.jpg",
-    "title": "Mundos semelhantes a Marte próximos às anãs M podem perder ar em milhões de anos",
-    "title_pt": "Mundos semelhantes a Marte próximos às anãs M podem perder ar em milhões de anos",
-    "title_en": "Mars-Like Worlds Near M-Dwarfs May Lose Air in Millions of Years",
-    "sub": "Os critérios para encontrar extraoficialmente um planeta semelhante à Terra se resumem a duas coisas: água e zona habitável. Mas um fenômeno conhecido como fuga atmosférica muitas…",
-    "sub_pt": "Os critérios para encontrar extraoficialmente um planeta semelhante à Terra se resumem a duas coisas: água e zona habitável. Mas um fenômeno conhecido como fuga atmosférica muitas…",
-    "sub_en": "The criteria for finding an Earth-like planet unofficially comes down to two things: water and the habitable zone. But a phenomenon known as atmospheric escape often “escapes” the…",
-    "excerpt": "Os critérios para encontrar extraoficialmente um planeta semelhante à Terra se resumem a duas coisas: água e zona habitável. Mas um fenômeno conhecido como fuga atmosférica muitas vezes “escapa” da mente de muitos fãs de astronomia, e acontece que…",
-    "excerpt_pt": "Os critérios para encontrar extraoficialmente um planeta semelhante à Terra se resumem a duas coisas: água e zona habitável. Mas um fenômeno conhecido como fuga atmosférica muitas vezes “escapa” da mente de muitos fãs de astronomia, e acontece que…",
-    "excerpt_en": "The criteria for finding an Earth-like planet unofficially comes down to two things: water and the habitable zone. But a phenomenon known as atmospheric escape often “escapes” the minds of many astronomy fans, and it turns out that…",
-    "body": "<p>No entanto, a equipa colocou o seu exo-Marte a uma distância orbital muito mais próxima da estrela de Barnard, a 0,087 unidades astronómicas (UA), em comparação com o Marte real que orbita o nosso Sol, a 1,52 UA.</p><p>O campo vinha se construindo em direção a momentos como este. A ciência de exoplanetas é hoje ampla o suficiente para buscar padrões entre populações de planetas, o que torna cada nova medida atmosférica ou orbital mais valiosa do que teria sido uma década atrás.</p><p>As atmosferas primárias parecem igualmente improváveis, uma vez que as atmosferas primárias são compostas por hidrogénio e hélio, que são mais leves que o CO2 [dióxido de carbono] e, portanto, deveriam escapar mais… Um segundo fio nos dados aponta para o fato de que num estudo recentemente apresentado ao The Astrophysical Journal, a equipa colaborativa utilizou modelos de computador para simular um exoplaneta semelhante a Marte (referido como exo-Marte no…</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O próximo passo é obter restrições independentes sobre massa, raio, atmosfera ou geometria orbital, que é onde um alvo promissor se torna um alvo robustamente caracterizado.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/mars-like-worlds-near-m-dwarfs-may-lose-air-in-millions-of-years\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>No entanto, a equipa colocou o seu exo-Marte a uma distância orbital muito mais próxima da estrela de Barnard, a 0,087 unidades astronómicas (UA), em comparação com o Marte real que orbita o nosso Sol, a 1,52 UA.</p><p>O campo vinha se construindo em direção a momentos como este. A ciência de exoplanetas é hoje ampla o suficiente para buscar padrões entre populações de planetas, o que torna cada nova medida atmosférica ou orbital mais valiosa do que teria sido uma década atrás.</p><p>As atmosferas primárias parecem igualmente improváveis, uma vez que as atmosferas primárias são compostas por hidrogénio e hélio, que são mais leves que o CO2 [dióxido de carbono] e, portanto, deveriam escapar mais… Um segundo fio nos dados aponta para o fato de que num estudo recentemente apresentado ao The Astrophysical Journal, a equipa colaborativa utilizou modelos de computador para simular um exoplaneta semelhante a Marte (referido como exo-Marte no…</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O próximo passo é obter restrições independentes sobre massa, raio, atmosfera ou geometria orbital, que é onde um alvo promissor se torna um alvo robustamente caracterizado.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/mars-like-worlds-near-m-dwarfs-may-lose-air-in-millions-of-years\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>New findings in exoplanet science: the criteria for finding an Earth-like planet unofficially comes down to two things: water and the habitable zone. But a phenomenon known as atmospheric escape often “escapes” the minds of many astronomy fans, and it turns out that…</p><p>To place the result in context: exoplanet science is now large enough to look for patterns across populations, not just individual worlds, which makes each new atmospheric or orbital measurement more valuable than it would have been a decade ago. This result contributes directly to that effort: however, the team placed their exo-Mars at a much closer orbital distance from Barnard’s star at 0.087 astronomical units (AU) compared to the actual Mars orbiting our Sun at 1.52 AU.</p><p>The underlying data tell a consistent story. Primary atmospheres seem similarly unlikely, since primary atmospheres are comprised of hydrogen and helium, which are lighter than CO2 [carbon dioxide] and thus should escape more easily, and were likely removed much… The analysis also shows that in a study recently submitted to The Astrophysical Journal, the collaborative team used computer models to simulate a Mars-like exoplanet (referred to as an exo-Mars in the paper) orbiting Barnard’s…</p><p>Independent observations will now determine how well the result holds under different conditions. The next step is to obtain independent constraints on mass, radius, atmosphere, or orbital geometry, which is where a promising target becomes a robustly characterized one.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/mars-like-worlds-near-m-dwarfs-may-lose-air-in-millions-of-years\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Os critérios para encontrar extraoficialmente um planeta semelhante à Terra se resumem a duas coisas: água e zona habitável. Mas um fenômeno…",
-      "Dado-chave: No entanto, a equipa colocou o seu exo-Marte a uma distância orbital muito mais próxima da estrela de Barnard, a 0,087 unidades astronómicas…",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Os critérios para encontrar extraoficialmente um planeta semelhante à Terra se resumem a duas coisas: água e zona habitável. Mas um fenômeno…",
-      "Dado-chave: No entanto, a equipa colocou o seu exo-Marte a uma distância orbital muito mais próxima da estrela de Barnard, a 0,087 unidades astronómicas…",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: The criteria for finding an Earth-like planet unofficially comes down to two things: water and the habitable zone. But a phenomenon known as…",
-      "Key detail: However, the team placed their exo-Mars at a much closer orbital distance from Barnard’s star at 0.087 astronomical units (AU) compared to the…",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "28 mar 2026",
-    "date_pt": "28 mar 2026",
-    "date_en": "28 Mar 2026",
-    "time": "01h24",
-    "time_pt": "01h24",
-    "time_en": "01:24 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-03-28T01:24:25+00:00",
-    "lastModifiedIso": "2026-03-28T01:24:25+00:00",
-    "source": "Universe Today",
-    "sourceDomain": "www.universetoday.com",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional.",
-    "sourceNote_pt": "Fonte primária institucional.",
-    "sourceNote_en": "Primary institutional source.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "standard",
-    "editorialBandLabel": "Prioridade editorial",
-    "editorialBandLabel_pt": "Prioridade editorial",
-    "editorialBandLabel_en": "Editorial priority",
-    "keywords": [
-      "Exoplanetas",
-      "Universe Today",
-      "Cosmos Week",
-      "Mundos semelhantes a Marte próximos às anãs M podem perder ar em milhões de anos"
-    ],
-    "keywords_pt": [
-      "Exoplanetas",
-      "Universe Today",
-      "Cosmos Week",
-      "Mundos semelhantes a Marte próximos às anãs M podem perder ar em milhões de anos"
-    ],
-    "keywords_en": [
-      "Exoplanets",
-      "Universe Today",
-      "Cosmos Week",
-      "Mars-like worlds near M dwarfs could lose air within millions of years"
-    ],
-    "srcUrl": "https://www.universetoday.com/articles/mars-like-worlds-near-m-dwarfs-may-lose-air-in-millions-of-years",
-    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=mars-like-worlds-near-m-dwarfs-may-lose-air-in-millions-of-years",
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "score": 75,
-    "scoreBreakdown": {
-      "source": 73,
-      "evidence": 82,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 52
-    }
-  },
-  {
-    "id": 12,
-    "slug": "direct-confirmation-of-two-baby-planets-forming-around-a-young-sun-like-star",
-    "cat": "Exoplanetas",
-    "catCls": "exoplanetas",
-    "img": "https://scx1.b-cdn.net/csz/news/tmb/2026/direct-confirmation-of.jpg",
-    "title": "Confirmação direta de dois planetas bebês se formando em torno de uma jovem estrela semelhante ao Sol",
-    "title_pt": "Confirmação direta de dois planetas bebês se formando em torno de uma jovem estrela semelhante ao Sol",
-    "title_en": "Direct confirmation of two baby planets forming around a young, sun-like star",
-    "sub": "À medida que o número de detecções de exoplanetas ultrapassou os 6.000 e continua a crescer, os cientistas estão a descobrir uma grande variedade de diferentes arquitecturas do…",
-    "sub_pt": "À medida que o número de detecções de exoplanetas ultrapassou os 6.000 e continua a crescer, os cientistas estão a descobrir uma grande variedade de diferentes arquitecturas do…",
-    "sub_en": "As the number of exoplanet detections has breached 6,000 and continues to grow, scientists are finding a wide variety of different solar system architectures. Critical to…",
-    "excerpt": "À medida que o número de detecções de exoplanetas ultrapassou os 6.000 e continua a crescer, os cientistas estão a descobrir uma grande variedade de diferentes arquitecturas do sistema solar. Fundamental para entender como essas arquiteturas tomam forma é…",
-    "excerpt_pt": "À medida que o número de detecções de exoplanetas ultrapassou os 6.000 e continua a crescer, os cientistas estão a descobrir uma grande variedade de diferentes arquitecturas do sistema solar. Fundamental para entender como essas arquiteturas tomam forma é…",
-    "excerpt_en": "As the number of exoplanet detections has breached 6,000 and continues to grow, scientists are finding a wide variety of different solar system architectures. Critical to understanding how these architectures take shape is finding young…",
-    "body": "<p>À medida que o número de detecções de exoplanetas ultrapassou os 6.000 e continua a crescer, os cientistas estão a descobrir uma grande variedade de diferentes arquitecturas do sistema solar. Fundamental para entender como essas arquiteturas tomam…</p><p>O campo vinha se construindo em direção a momentos como este. A ciência de exoplanetas é hoje ampla o suficiente para buscar padrões entre populações de planetas, o que torna cada nova medida atmosférica ou orbital mais valiosa do que teria sido uma década atrás.</p><p>O registro observacional oferece um detalhe importante aqui. A descoberta está em uma nova pesquisa publicada no The Astrophysical Journal Letters intitulada “Confirmação Espectroscópica Direta do Jovem Protoplaneta Incorporado WISPIT 2c”. A autora principal é Chloe Lawlor, Ph.D. Um segundo fio nos dados aponta para o fato de que o ESO disse que esta é “a primeira detecção clara de um planeta bebê em um disco com múltiplos anéis”. Os astrónomos pensam que as lacunas no disco são criadas por planetas jovens à medida que…</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. O próximo passo é obter restrições independentes sobre massa, raio, atmosfera ou geometria orbital, que é onde um alvo promissor se torna um alvo robustamente caracterizado.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-03-baby-planets-young-sun-star.html\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>À medida que o número de detecções de exoplanetas ultrapassou os 6.000 e continua a crescer, os cientistas estão a descobrir uma grande variedade de diferentes arquitecturas do sistema solar. Fundamental para entender como essas arquiteturas tomam…</p><p>O campo vinha se construindo em direção a momentos como este. A ciência de exoplanetas é hoje ampla o suficiente para buscar padrões entre populações de planetas, o que torna cada nova medida atmosférica ou orbital mais valiosa do que teria sido uma década atrás.</p><p>O registro observacional oferece um detalhe importante aqui. A descoberta está em uma nova pesquisa publicada no The Astrophysical Journal Letters intitulada “Confirmação Espectroscópica Direta do Jovem Protoplaneta Incorporado WISPIT 2c”. A autora principal é Chloe Lawlor, Ph.D. Um segundo fio nos dados aponta para o fato de que o ESO disse que esta é “a primeira detecção clara de um planeta bebê em um disco com múltiplos anéis”. Os astrónomos pensam que as lacunas no disco são criadas por planetas jovens à medida que…</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. O próximo passo é obter restrições independentes sobre massa, raio, atmosfera ou geometria orbital, que é onde um alvo promissor se torna um alvo robustamente caracterizado.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-03-baby-planets-young-sun-star.html\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>As the number of exoplanet detections has breached 6,000 and continues to grow, scientists are finding a wide variety of different solar system architectures. Critical to understanding how these architectures take shape is finding young…</p><p>The field has been building toward moments like this. Exoplanet science is now large enough to look for patterns across populations, not just individual worlds, which makes each new atmospheric or orbital measurement more valuable than it would have been a decade ago.</p><p>The observational record provides important detail here. The discovery is in new research published in The Astrophysical Journal Letters titled &quot;Direct Spectroscopic Confirmation of the Young Embedded Protoplanet WISPIT 2c.&quot; The lead author is Chloe Lawlor, a Ph.D. Complementing this, the ESO said it&#x27;s &quot;the first clear detection of a baby planet in a disc with multiple rings.&quot; Astronomers think that the gaps in the disk are created by young planets as they accrete material from…</p><p>The next step is to obtain independent constraints on mass, radius, atmosphere, or orbital geometry, which is where a promising target becomes a robustly characterized one.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-03-baby-planets-young-sun-star.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: À medida que o número de detecções de exoplanetas ultrapassou os 6.000 e continua a crescer, os cientistas estão a descobrir uma grande variedade de…",
-      "Dado-chave: Os editores destacaram os seguintes atributos, garantindo ao mesmo tempo a credibilidade do conteúdo: Adicionar como fonte preferida Esta…",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: À medida que o número de detecções de exoplanetas ultrapassou os 6.000 e continua a crescer, os cientistas estão a descobrir uma grande variedade de…",
-      "Dado-chave: Os editores destacaram os seguintes atributos, garantindo ao mesmo tempo a credibilidade do conteúdo: Adicionar como fonte preferida Esta…",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: As the number of exoplanet detections has breached 6,000 and continues to grow, scientists are finding a wide variety of different solar system…",
-      "Key detail: Editors have highlighted the following attributes while ensuring the content's credibility: Add as preferred source This ESO Picture of the Week…",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "27 mar 2026",
-    "date_pt": "27 mar 2026",
-    "date_en": "27 Mar 2026",
-    "time": "01h00",
-    "time_pt": "01h00",
-    "time_en": "01:00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-03-27T01:00:02+00:00",
-    "lastModifiedIso": "2026-03-27T01:00:02+00:00",
-    "source": "Phys.org Space",
-    "sourceDomain": "phys.org",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional.",
-    "sourceNote_pt": "Fonte primária institucional.",
-    "sourceNote_en": "Primary institutional source.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "standard",
-    "editorialBandLabel": "Prioridade editorial",
-    "editorialBandLabel_pt": "Prioridade editorial",
-    "editorialBandLabel_en": "Editorial priority",
-    "keywords": [
-      "Exoplanetas",
-      "Phys.org Space",
-      "Cosmos Week",
-      "Confirmação direta de dois planetas bebês se formando em torno de uma jovem estrela semelhante ao Sol"
-    ],
-    "keywords_pt": [
-      "Exoplanetas",
-      "Phys.org Space",
-      "Cosmos Week",
-      "Confirmação direta de dois planetas bebês se formando em torno de uma jovem estrela semelhante ao Sol"
-    ],
-    "keywords_en": [
-      "Exoplanets",
-      "Phys.org Space",
-      "Cosmos Week",
-      "Direct confirmation of two baby planets forming around a young Sun-like star"
-    ],
-    "srcUrl": "https://phys.org/news/2026-03-baby-planets-young-sun-star.html",
-    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=direct-confirmation-of-two-baby-planets-forming-around-a-young-sun-like-star",
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "score": 75,
-    "scoreBreakdown": {
-      "source": 76,
-      "evidence": 82,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 49
-    }
-  },
-  {
     "id": 13,
     "slug": "jwst-solves-decades-long-mystery-about-why-saturn-appears-to-change-its-spin",
     "cat": "Física",
@@ -1225,104 +1225,11 @@ window.postsData = [
       "evidence": 88,
       "relevance": 82,
       "accessibility": 60,
-      "novelty": 52
-    }
-  },
-  {
-    "id": 14,
-    "slug": "earth-s-magnetic-field-creates-a-previously-undetected-pocket-of-protection-from-radiation-on-th",
-    "cat": "Física",
-    "catCls": "fisica",
-    "img": "https://scx1.b-cdn.net/csz/news/tmb/2026/earths-magnetic-field.jpg",
-    "title": "O campo magnético da Terra cria uma bolsa de proteção anteriormente não detectada contra a radiação na Lua",
-    "title_pt": "O campo magnético da Terra cria uma bolsa de proteção anteriormente não detectada contra a radiação na Lua",
-    "title_en": "Earth's magnetic field creates a previously undetected pocket of protection from radiation on the moon",
-    "sub": "Partículas de alta energia chamadas raios cósmicos galácticos bombardeiam objetos desprotegidos no espaço, muitas vezes causando danos. A Terra, no entanto, é protegida pelo seu…",
-    "sub_pt": "Partículas de alta energia chamadas raios cósmicos galácticos bombardeiam objetos desprotegidos no espaço, muitas vezes causando danos. A Terra, no entanto, é protegida pelo seu…",
-    "sub_en": "High-energy particles called galactic cosmic rays bombard unprotected objects in space, often causing damage. Earth, however, is protected by its magnetic field, which creates a…",
-    "excerpt": "Partículas de alta energia chamadas raios cósmicos galácticos bombardeiam objetos desprotegidos no espaço, muitas vezes causando danos. A Terra, no entanto, é protegida pelo seu campo magnético, que cria uma camada protetora ao redor do planeta que pode…",
-    "excerpt_pt": "Partículas de alta energia chamadas raios cósmicos galácticos bombardeiam objetos desprotegidos no espaço, muitas vezes causando danos. A Terra, no entanto, é protegida pelo seu campo magnético, que cria uma camada protetora ao redor do planeta que pode…",
-    "excerpt_en": "High-energy particles called galactic cosmic rays bombard unprotected objects in space, often causing damage. Earth, however, is protected by its magnetic field, which creates a protective shell around the planet that can deflect dangerous…",
-    "body": "<p>Partículas de alta energia chamadas raios cósmicos galácticos bombardeiam objetos desprotegidos no espaço, muitas vezes causando danos. A Terra, no entanto, é protegida pelo seu campo magnético, que cria uma camada protetora ao redor do planeta que…</p><p>Para situar o resultado no contexto: a física se constrói sobre precisão. Um resultado ganha credibilidade não por ser surpreendente, mas pela qualidade do controle experimental e pela consistência de sua reprodução. Este resultado contribui diretamente para esse esforço: quando a Lua se move para o setor vespertino, o ângulo (φ) entre o FMI e o vetor Terra-Lua atinge 90◦ em LP = ∼16 hM, permitindo que a propagação dos GCRs permaneça desobstruída no setor vespertino.</p><p>Quando as medições são examinadas com cuidado, um quadro mais nítido emerge. O tamanho da magnetosfera da Terra no lado diurno estende-se por cerca de 6 a 10 raios terrestres, o que é comparável aos girorradios dos prótons de energia mais baixa. Um segundo fio nos dados aponta para o fato de que quando a equipe de pesquisa analisou dados retirados do Lunar Lander Neutron and Dosimetry (LND), a bordo do módulo de pouso Chang&#x27;E-4 da China, eles ficaram surpresos ao descobrir que o LND…</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. Em física, o filtro final é sempre o mesmo: mais dados, mais escrutínio e menos tolerância a interpretações que sobrevivem apenas sob premissas estreitas.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-03-earth-magnetic-field-previously-undetected.html\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Partículas de alta energia chamadas raios cósmicos galácticos bombardeiam objetos desprotegidos no espaço, muitas vezes causando danos. A Terra, no entanto, é protegida pelo seu campo magnético, que cria uma camada protetora ao redor do planeta que…</p><p>Para situar o resultado no contexto: a física se constrói sobre precisão. Um resultado ganha credibilidade não por ser surpreendente, mas pela qualidade do controle experimental e pela consistência de sua reprodução. Este resultado contribui diretamente para esse esforço: quando a Lua se move para o setor vespertino, o ângulo (φ) entre o FMI e o vetor Terra-Lua atinge 90◦ em LP = ∼16 hM, permitindo que a propagação dos GCRs permaneça desobstruída no setor vespertino.</p><p>Quando as medições são examinadas com cuidado, um quadro mais nítido emerge. O tamanho da magnetosfera da Terra no lado diurno estende-se por cerca de 6 a 10 raios terrestres, o que é comparável aos girorradios dos prótons de energia mais baixa. Um segundo fio nos dados aponta para o fato de que quando a equipe de pesquisa analisou dados retirados do Lunar Lander Neutron and Dosimetry (LND), a bordo do módulo de pouso Chang&#x27;E-4 da China, eles ficaram surpresos ao descobrir que o LND…</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. Em física, o filtro final é sempre o mesmo: mais dados, mais escrutínio e menos tolerância a interpretações que sobrevivem apenas sob premissas estreitas.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-03-earth-magnetic-field-previously-undetected.html\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>High-energy particles called galactic cosmic rays bombard unprotected objects in space, often causing damage. Earth, however, is protected by its magnetic field, which creates a protective shell around the planet that can deflect dangerous…</p><p>The field has been building toward moments like this. Physics builds on precision. A result gains credibility not from how surprising it is, but from how well the measurement was controlled and how consistently it reproduces.</p><p>The observational record provides important detail here. The size of Earth&#x27;s magnetosphere on the dayside extends about 6 to 10 Earth radii, which is comparable to the gyroradii of lower-energy protons. On top of that, when the research team analyzed data taken from the Lunar Lander Neutron and Dosimetry (LND), onboard China&#x27;s Chang&#x27;E-4 lander, they were surprised to find that the LND experienced a 20% dip in GCR…</p><p>In physics, the final filter is always the same: more data, more scrutiny, and less tolerance for interpretations that survive only under narrow assumptions.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-03-earth-magnetic-field-previously-undetected.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Partículas de alta energia chamadas raios cósmicos galácticos bombardeiam objetos desprotegidos no espaço, muitas vezes causando danos. A Terra, no…",
-      "Dado-chave: Quando a Lua se move para o setor vespertino, o ângulo (φ) entre o FMI e o vetor Terra-Lua atinge 90◦ em LP = ∼16 hM, permitindo que a…",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Partículas de alta energia chamadas raios cósmicos galácticos bombardeiam objetos desprotegidos no espaço, muitas vezes causando danos. A Terra, no…",
-      "Dado-chave: Quando a Lua se move para o setor vespertino, o ângulo (φ) entre o FMI e o vetor Terra-Lua atinge 90◦ em LP = ∼16 hM, permitindo que a…",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: High-energy particles called galactic cosmic rays bombard unprotected objects in space, often causing damage. Earth, however, is protected by its…",
-      "Key detail: When the Moon moves to the afternoon sector, the angle (φ) between the IMF and the Earth-Moon vector reaches 90◦ at LP = ∼16 hM, allowing the…",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "26 mar 2026",
-    "date_pt": "26 mar 2026",
-    "date_en": "26 Mar 2026",
-    "time": "18h40",
-    "time_pt": "18h40",
-    "time_en": "18:40 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-03-26T18:40:01+00:00",
-    "lastModifiedIso": "2026-03-26T18:40:01+00:00",
-    "source": "Phys.org Space",
-    "sourceDomain": "phys.org",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional.",
-    "sourceNote_pt": "Fonte primária institucional.",
-    "sourceNote_en": "Primary institutional source.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "standard",
-    "editorialBandLabel": "Prioridade editorial",
-    "editorialBandLabel_pt": "Prioridade editorial",
-    "editorialBandLabel_en": "Editorial priority",
-    "keywords": [
-      "Física",
-      "Phys.org Space",
-      "Cosmos Week",
-      "O campo magnético da Terra cria uma bolsa de proteção anteriormente não detectada contra a radiação na Lua"
-    ],
-    "keywords_pt": [
-      "Física",
-      "Phys.org Space",
-      "Cosmos Week",
-      "O campo magnético da Terra cria uma bolsa de proteção anteriormente não detectada contra a radiação na Lua"
-    ],
-    "keywords_en": [
-      "Physical",
-      "Phys.org Space",
-      "Cosmos Week",
-      "Earth's magnetic field creates a previously undetected protective pocket against radiation on the Moon"
-    ],
-    "srcUrl": "https://phys.org/news/2026-03-earth-magnetic-field-previously-undetected.html",
-    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=earth-s-magnetic-field-creates-a-previously-undetected-pocket-of-protection-from-radiation-on-th",
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "score": 74,
-    "scoreBreakdown": {
-      "source": 76,
-      "evidence": 82,
-      "relevance": 82,
-      "accessibility": 60,
       "novelty": 49
     }
   },
   {
-    "id": 15,
+    "id": 14,
     "slug": "wave-of-dust-rolls-through-texas",
     "cat": "Física",
     "catCls": "fisica",
@@ -1411,6 +1318,99 @@ window.postsData = [
       "evidence": 88,
       "relevance": 64,
       "accessibility": 60,
+      "novelty": 46
+    }
+  },
+  {
+    "id": 15,
+    "slug": "nsf-launches-100m-national-quantum-and-nanotechnology-research-infrastructure-program",
+    "cat": "Física",
+    "catCls": "fisica",
+    "img": "https://nsf-gov-resources.nsf.gov/styles/_inline_image_full_width/s3/media_hub/National-Quantum-Nano-Web-Banner.jpg?VersionId=tJyQ7CKm43rvxVxnTMyq1dIFcZvWV99x&itok=9TItiMUk",
+    "title": "NSF lança programa nacional de infraestrutura de pesquisa quântica e nanotecnologia de US$ 100 milhões",
+    "title_pt": "NSF lança programa nacional de infraestrutura de pesquisa quântica e nanotecnologia de US$ 100 milhões",
+    "title_en": "NSF launches $100M National Quantum and Nanotechnology Research Infrastructure program",
+    "sub": "A Fundação Nacional de Ciência dos EUA está investindo até US$ 100 milhões para estabelecer uma rede nacional de instalações de pesquisa de acesso aberto para tecnologias…",
+    "sub_pt": "A Fundação Nacional de Ciência dos EUA está investindo até US$ 100 milhões para estabelecer uma rede nacional de instalações de pesquisa de acesso aberto para tecnologias…",
+    "sub_en": "The U.S. National Science Foundation is investing up to $100 million to establish a nationwide network of open-access research facilities for quantum and nanoscale technologies,…",
+    "excerpt": "A Fundação Nacional de Ciência dos EUA está investindo até US$ 100 milhões para estabelecer uma rede nacional de instalações de pesquisa de acesso aberto para tecnologias quânticas e em nanoescala, inovação e treinamento de força de trabalho. Através da nova…",
+    "excerpt_pt": "A Fundação Nacional de Ciência dos EUA está investindo até US$ 100 milhões para estabelecer uma rede nacional de instalações de pesquisa de acesso aberto para tecnologias quânticas e em nanoescala, inovação e treinamento de força de trabalho. Através da nova…",
+    "excerpt_en": "The U.S. National Science Foundation is investing up to $100 million to establish a nationwide network of open-access research facilities for quantum and nanoscale technologies, innovation, and workforce training. Through the new NSF…",
+    "body": "<p>Novos resultados em física: a Fundação Nacional de Ciência dos EUA está investindo até US$ 100 milhões para estabelecer uma rede nacional de instalações de pesquisa de acesso aberto para tecnologias quânticas e em nanoescala, inovação e treinamento de força de trabalho.…</p><p>A física se constrói sobre precisão. Um resultado ganha credibilidade não por ser surpreendente, mas pela qualidade do controle experimental e pela consistência de sua reprodução. O trabalho atual acrescenta um dado concreto: por meio do novo programa NSF National Quantum and Nanotechnology Infrastructure (NSF NQNI), a NSF apoiará até 16 locais ao longo de cinco anos, proporcionando a estudantes, pesquisadores e à indústria acesso…</p><p>Quando as medições são examinadas com cuidado, um quadro mais nítido emerge. A National Science Foundation está investindo até US$ 100 milhões para estabelecer uma rede nacional de instalações de pesquisa de acesso aberto para tecnologias quânticas e em nanoescala, inovação e treinamento de… Um segundo fio nos dados aponta para o fato de que as cartas de intenções são obrigatórias e devem ser entregues em 16 de março de 2026.</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. Em física, o filtro final é sempre o mesmo: mais dados, mais escrutínio e menos tolerância a interpretações que sobrevivem apenas sob premissas estreitas.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-launches-100m-national-quantum-nanotechnology-research\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Novos resultados em física: a Fundação Nacional de Ciência dos EUA está investindo até US$ 100 milhões para estabelecer uma rede nacional de instalações de pesquisa de acesso aberto para tecnologias quânticas e em nanoescala, inovação e treinamento de força de trabalho.…</p><p>A física se constrói sobre precisão. Um resultado ganha credibilidade não por ser surpreendente, mas pela qualidade do controle experimental e pela consistência de sua reprodução. O trabalho atual acrescenta um dado concreto: por meio do novo programa NSF National Quantum and Nanotechnology Infrastructure (NSF NQNI), a NSF apoiará até 16 locais ao longo de cinco anos, proporcionando a estudantes, pesquisadores e à indústria acesso…</p><p>Quando as medições são examinadas com cuidado, um quadro mais nítido emerge. A National Science Foundation está investindo até US$ 100 milhões para estabelecer uma rede nacional de instalações de pesquisa de acesso aberto para tecnologias quânticas e em nanoescala, inovação e treinamento de… Um segundo fio nos dados aponta para o fato de que as cartas de intenções são obrigatórias e devem ser entregues em 16 de março de 2026.</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. Em física, o filtro final é sempre o mesmo: mais dados, mais escrutínio e menos tolerância a interpretações que sobrevivem apenas sob premissas estreitas.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-launches-100m-national-quantum-nanotechnology-research\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>The U.S. National Science Foundation is investing up to $100 million to establish a nationwide network of open-access research facilities for quantum and nanoscale technologies, innovation, and workforce training. Through the new NSF…</p><p>To place the result in context: physics builds on precision. A result gains credibility not from how surprising it is, but from how well the measurement was controlled and how consistently it reproduces. This result contributes directly to that effort: through the new NSF National Quantum and Nanotechnology Infrastructure (NSF NQNI) program, NSF will support up to 16 sites over five years, providing students, researchers, and industry with access to…</p><p>The underlying data tell a consistent story. National Science Foundation is investing up to $100 million to establish a nationwide network of open-access research facilities for quantum and nanoscale technologies, innovation, and workforce training. A second thread in the data points to the fact that letters of Intent are required and due March 16, 2026.</p><p>The announcement opens a productive path for follow-up. In physics, the final filter is always the same: more data, more scrutiny, and less tolerance for interpretations that survive only under narrow assumptions.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-launches-100m-national-quantum-nanotechnology-research\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Ponto central: A Fundação Nacional de Ciência dos EUA está investindo até US$ 100 milhões para estabelecer uma rede nacional de instalações de pesquisa de acesso…",
+      "Dado-chave: Por meio do novo programa NSF National Quantum and Nanotechnology Infrastructure (NSF NQNI), a NSF apoiará até 16 locais ao longo de cinco anos,…",
+      "Origem institucional: distinguir anúncio de evidência."
+    ],
+    "highlights_pt": [
+      "Ponto central: A Fundação Nacional de Ciência dos EUA está investindo até US$ 100 milhões para estabelecer uma rede nacional de instalações de pesquisa de acesso…",
+      "Dado-chave: Por meio do novo programa NSF National Quantum and Nanotechnology Infrastructure (NSF NQNI), a NSF apoiará até 16 locais ao longo de cinco anos,…",
+      "Origem institucional: distinguir anúncio de evidência."
+    ],
+    "highlights_en": [
+      "Core point: The U.S. National Science Foundation is investing up to $100 million to establish a nationwide network of open-access research facilities for quantum…",
+      "Key detail: Through the new NSF National Quantum and Nanotechnology Infrastructure (NSF NQNI) program, NSF will support up to 16 sites over five years,…",
+      "Institutional origin: separate announcement from evidence."
+    ],
+    "date": "13 fev 2026",
+    "date_pt": "13 fev 2026",
+    "date_en": "13 Feb 2026",
+    "time": "15h00",
+    "time_pt": "15h00",
+    "time_en": "15:00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-02-13T15:00:08+00:00",
+    "lastModifiedIso": "2026-02-13T15:00:08+00:00",
+    "source": "NSF News",
+    "sourceDomain": "www.nsf.gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional.",
+    "sourceNote_pt": "Fonte primária institucional.",
+    "sourceNote_en": "Primary institutional source.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Física",
+      "NSF News",
+      "Cosmos Week",
+      "NSF lança programa nacional de infraestrutura de pesquisa quântica e nanotecnologia de US$ 100 milhões"
+    ],
+    "keywords_pt": [
+      "Física",
+      "NSF News",
+      "Cosmos Week",
+      "NSF lança programa nacional de infraestrutura de pesquisa quântica e nanotecnologia de US$ 100 milhões"
+    ],
+    "keywords_en": [
+      "Physical",
+      "NSF News",
+      "Cosmos Week",
+      "NSF Launches $100 Million National Quantum and Nanotechnology Research Infrastructure Program"
+    ],
+    "srcUrl": "https://www.nsf.gov/news/nsf-launches-100m-national-quantum-nanotechnology-research",
+    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=nsf-launches-100m-national-quantum-and-nanotechnology-research-infrastructure-program",
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "score": 69,
+    "scoreBreakdown": {
+      "source": 80,
+      "evidence": 88,
+      "relevance": 68,
+      "accessibility": 42,
       "novelty": 46
     }
   },
@@ -1605,50 +1605,50 @@ window.postsData = [
   },
   {
     "id": 18,
-    "slug": "how-ai-is-reshaping-astronomy",
+    "slug": "ripples-in-spacetime-and-the-universe-s-most-controversial-number",
     "cat": "Biologia",
     "catCls": "biologia",
-    "img": "https://dq0hsqwjhea1.cloudfront.net/AI-opener-Nicolle-Fuller-SayoStudio.jpg",
-    "title": "Como a IA está remodelando a astronomia",
-    "title_pt": "Como a IA está remodelando a astronomia",
-    "title_en": "How AI Is Reshaping Astronomy",
-    "sub": "A inteligência artificial está revolucionando o nosso mundo – e a forma como interpretamos os céus acima de nós. O post Como a IA está remodelando a astronomia apareceu pela…",
-    "sub_pt": "A inteligência artificial está revolucionando o nosso mundo – e a forma como interpretamos os céus acima de nós. O post Como a IA está remodelando a astronomia apareceu pela…",
-    "sub_en": "Artificial intelligence is revolutionizing our world — and how we interpret the heavens above us. The post How AI Is Reshaping Astronomy appeared first on Sky & Telescope .",
-    "excerpt": "A inteligência artificial está revolucionando o nosso mundo – e a forma como interpretamos os céus acima de nós. O post Como a IA está remodelando a astronomia apareceu pela primeira vez na Sky & Telescope.",
-    "excerpt_pt": "A inteligência artificial está revolucionando o nosso mundo – e a forma como interpretamos os céus acima de nós. O post Como a IA está remodelando a astronomia apareceu pela primeira vez na Sky & Telescope.",
-    "excerpt_en": "Artificial intelligence is revolutionizing our world — and how we interpret the heavens above us. The post How AI Is Reshaping Astronomy appeared first on Sky & Telescope .",
-    "body": "<p>A inteligência artificial está revolucionando o nosso mundo – e a forma como interpretamos os céus acima de nós. O post Como a IA está remodelando a astronomia apareceu pela primeira vez na Sky &amp; Telescope.</p><p>O campo vinha se construindo em direção a momentos como este. A biologia raramente produz resultados aplicáveis em todos os contextos ao mesmo tempo. Entender qual sistema foi estudado e em quais condições é o primeiro passo para julgar o alcance da conclusão.</p><p>Os dados subjacentes contam uma história consistente. Em 2023, fundou o AstroAI, um grupo multidisciplinar de cientistas da computação e astrônomos, e o primeiro instituto dedicado ao desenvolvimento de IA para astrofísica. A análise também mostra que ambas as entidades chamaram a atenção de Garraffo ainda em 2010, quando ela viajou de Buenos Aires, na Argentina, para trabalhar na Universidade Brandeis.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O próximo passo é testar reprodutibilidade e generalização em outros sistemas modelo, sem confundir um resultado promissor com uma resposta definitiva.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-resources/how-ai-is-reshaping-astronomy/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>A inteligência artificial está revolucionando o nosso mundo – e a forma como interpretamos os céus acima de nós. O post Como a IA está remodelando a astronomia apareceu pela primeira vez na Sky &amp; Telescope.</p><p>O campo vinha se construindo em direção a momentos como este. A biologia raramente produz resultados aplicáveis em todos os contextos ao mesmo tempo. Entender qual sistema foi estudado e em quais condições é o primeiro passo para julgar o alcance da conclusão.</p><p>Os dados subjacentes contam uma história consistente. Em 2023, fundou o AstroAI, um grupo multidisciplinar de cientistas da computação e astrônomos, e o primeiro instituto dedicado ao desenvolvimento de IA para astrofísica. A análise também mostra que ambas as entidades chamaram a atenção de Garraffo ainda em 2010, quando ela viajou de Buenos Aires, na Argentina, para trabalhar na Universidade Brandeis.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O próximo passo é testar reprodutibilidade e generalização em outros sistemas modelo, sem confundir um resultado promissor com uma resposta definitiva.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-resources/how-ai-is-reshaping-astronomy/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Artificial intelligence is revolutionizing our world — and how we interpret the heavens above us. The post How AI Is Reshaping Astronomy appeared first on Sky &amp; Telescope .</p><p>Biology rarely produces results that apply everywhere at once. Understanding what system was studied, under what conditions, is the first step in judging how far the conclusion extends. The current work adds a specific data point: but with Rubin, “we’re going to observe 1 million a year.” Following up on most of them isn’t an option; astronomers must be particular.</p><p>The underlying data tell a consistent story. In 2023, she founded AstroAI, a multidisciplinary group of computer scientists and astronomers, and the first institute dedicated to the development of AI for astrophysics. On top of that, both entities caught Garraffo’s attention back in 2010, when she traveled from Buenos Aires, Argentina, to work at Brandeis University.</p><p>Independent observations will now determine how well the result holds under different conditions. The next step is to test reproducibility and generalization in other model systems, without mistaking a promising result for a settled answer.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-resources/how-ai-is-reshaping-astronomy/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "img": "https://www.universetoday.com/article_images/HubbleDeepField.800px_20260326_141031.jpg",
+    "title": "Ondulações no espaço-tempo e o número mais controverso do universo",
+    "title_pt": "Ondulações no espaço-tempo e o número mais controverso do universo",
+    "title_en": "Ripples in Spacetime and the Universe's Most Controversial Number",
+    "sub": "Douglas Adams nos disse que a resposta para a vida, o universo e tudo mais é 42. Os astrônomos têm lutado com sua própria versão dessa resposta há anos, exceto que seu número é a…",
+    "sub_pt": "Douglas Adams nos disse que a resposta para a vida, o universo e tudo mais é 42. Os astrônomos têm lutado com sua própria versão dessa resposta há anos, exceto que seu número é a…",
+    "sub_en": "Douglas Adams famously told us the answer to life, the universe and everything is 42. Astronomers have been wrestling with their own version of that answer for years, except their…",
+    "excerpt": "Douglas Adams nos disse que a resposta para a vida, o universo e tudo mais é 42. Os astrônomos têm lutado com sua própria versão dessa resposta há anos, exceto que seu número é a constante de Hubble, uma medida de quão rápido o…",
+    "excerpt_pt": "Douglas Adams nos disse que a resposta para a vida, o universo e tudo mais é 42. Os astrônomos têm lutado com sua própria versão dessa resposta há anos, exceto que seu número é a constante de Hubble, uma medida de quão rápido o…",
+    "excerpt_en": "Douglas Adams famously told us the answer to life, the universe and everything is 42. Astronomers have been wrestling with their own version of that answer for years, except their number is the Hubble constant, a measure of how fast the…",
+    "body": "<p>Novos resultados em biologia: douglas Adams nos disse que a resposta para a vida, o universo e tudo mais é 42. Os astrônomos têm lutado com sua própria versão dessa resposta há anos, exceto que seu número é a constante de Hubble, uma medida de quão rápido o…</p><p>A biologia raramente produz resultados aplicáveis em todos os contextos ao mesmo tempo. Entender qual sistema foi estudado e em quais condições é o primeiro passo para julgar o alcance da conclusão. O trabalho atual acrescenta um dado concreto: medir a rapidez com que o universo está se expandindo tornou-se um dos maiores argumentos não resolvidos da astronomia (Crédito: NASA/ESA/STSci) Douglas Adams nos disse que a resposta para a vida, o universo e…</p><p>O registro observacional oferece um detalhe importante aqui. Ondulações no espaço-tempo e o número mais controverso do universo Por Mark Thompson - 26 de março de 2026 14h12 UTC | Cosmologia O Campo Profundo do Hubble. Além disso, melhor restrição na constante de Hubble de sirenes escuras com o autor e locutor científico LIGO/Virgo/KAGRA O4a.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O próximo passo é testar reprodutibilidade e generalização em outros sistemas modelo, sem confundir um resultado promissor com uma resposta definitiva.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/ripples-in-spacetime-and-the-universes-most-controversial-number\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Novos resultados em biologia: douglas Adams nos disse que a resposta para a vida, o universo e tudo mais é 42. Os astrônomos têm lutado com sua própria versão dessa resposta há anos, exceto que seu número é a constante de Hubble, uma medida de quão rápido o…</p><p>A biologia raramente produz resultados aplicáveis em todos os contextos ao mesmo tempo. Entender qual sistema foi estudado e em quais condições é o primeiro passo para julgar o alcance da conclusão. O trabalho atual acrescenta um dado concreto: medir a rapidez com que o universo está se expandindo tornou-se um dos maiores argumentos não resolvidos da astronomia (Crédito: NASA/ESA/STSci) Douglas Adams nos disse que a resposta para a vida, o universo e…</p><p>O registro observacional oferece um detalhe importante aqui. Ondulações no espaço-tempo e o número mais controverso do universo Por Mark Thompson - 26 de março de 2026 14h12 UTC | Cosmologia O Campo Profundo do Hubble. Além disso, melhor restrição na constante de Hubble de sirenes escuras com o autor e locutor científico LIGO/Virgo/KAGRA O4a.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O próximo passo é testar reprodutibilidade e generalização em outros sistemas modelo, sem confundir um resultado promissor com uma resposta definitiva.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/ripples-in-spacetime-and-the-universes-most-controversial-number\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Douglas Adams famously told us the answer to life, the universe and everything is 42. Astronomers have been wrestling with their own version of that answer for years, except their number is the Hubble constant, a measure of how fast the… The update follows an extended period of data collection and mission operations.</p><p>To place the result in context: biology rarely produces results that apply everywhere at once. Understanding what system was studied, under what conditions, is the first step in judging how far the conclusion extends. This result contributes directly to that effort: measuring how fast the universe is expanding has become one of astronomy&#x27;s greatest unsolved arguments (Credit : NASA/ESA/STSci) Douglas Adams told us the answer to life, the universe and everything is 42.</p><p>The underlying data tell a consistent story. Ripples in Spacetime and the Universe&#x27;s Most Controversial Number By Mark Thompson - March 26, 2026 02:12 PM UTC | Cosmology The Hubble Deep Field. On top of that, improved constraint on the Hubble constant from dark sirens with LIGO/Virgo/KAGRA O4a Science broadcaster and author.</p><p>The next step is to test reproducibility and generalization in other model systems, without mistaking a promising result for a settled answer.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/ripples-in-spacetime-and-the-universes-most-controversial-number\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Ponto central: A inteligência artificial está revolucionando o nosso mundo – e a forma como interpretamos os céus acima de nós. O post Como a IA está remodelando a…",
-      "Dado-chave: Mas com Rubin, “vamos observar 1 milhão por ano”. Acompanhar a maioria deles não é uma opção; os astrônomos devem ser específicos.",
+      "Ponto central: Douglas Adams nos disse que a resposta para a vida, o universo e tudo mais é 42. Os astrônomos têm lutado com sua própria versão dessa resposta há…",
+      "Dado-chave: Medir a rapidez com que o universo está se expandindo tornou-se um dos maiores argumentos não resolvidos da astronomia (Crédito: NASA/ESA/STSci)…",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Ponto central: A inteligência artificial está revolucionando o nosso mundo – e a forma como interpretamos os céus acima de nós. O post Como a IA está remodelando a…",
-      "Dado-chave: Mas com Rubin, “vamos observar 1 milhão por ano”. Acompanhar a maioria deles não é uma opção; os astrônomos devem ser específicos.",
+      "Ponto central: Douglas Adams nos disse que a resposta para a vida, o universo e tudo mais é 42. Os astrônomos têm lutado com sua própria versão dessa resposta há…",
+      "Dado-chave: Medir a rapidez com que o universo está se expandindo tornou-se um dos maiores argumentos não resolvidos da astronomia (Crédito: NASA/ESA/STSci)…",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Core point: Artificial intelligence is revolutionizing our world — and how we interpret the heavens above us. The post How AI Is Reshaping Astronomy appeared…",
-      "Key detail: But with Rubin, “we’re going to observe 1 million a year.” Following up on most of them isn’t an option; astronomers must be particular.",
+      "Core point: Douglas Adams famously told us the answer to life, the universe and everything is 42. Astronomers have been wrestling with their own version of that…",
+      "Key detail: Measuring how fast the universe is expanding has become one of astronomy's greatest unsolved arguments (Credit : NASA/ESA/STSci) Douglas Adams…",
       "Institutional origin: separate announcement from evidence."
     ],
-    "date": "19 mar 2026",
-    "date_pt": "19 mar 2026",
-    "date_en": "19 Mar 2026",
-    "time": "18h25",
-    "time_pt": "18h25",
-    "time_en": "18:25 UTC",
+    "date": "26 mar 2026",
+    "date_pt": "26 mar 2026",
+    "date_en": "26 Mar 2026",
+    "time": "14h12",
+    "time_pt": "14h12",
+    "time_en": "14:12 UTC",
     "read": "4 min de leitura",
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
-    "publishedIso": "2026-03-19T18:25:11+00:00",
-    "lastModifiedIso": "2026-03-19T18:25:11+00:00",
-    "source": "Sky & Telescope",
-    "sourceDomain": "skyandtelescope.org",
+    "publishedIso": "2026-03-26T14:12:02+00:00",
+    "lastModifiedIso": "2026-03-26T14:12:02+00:00",
+    "source": "Universe Today",
+    "sourceDomain": "www.universetoday.com",
     "sourceType": "agency",
     "sourceTypeLabel": "Fonte institucional",
     "sourceTypeLabel_pt": "Fonte institucional",
@@ -1666,34 +1666,37 @@ window.postsData = [
     "editorialBandLabel_en": "Editorial priority",
     "keywords": [
       "Biologia",
-      "Sky & Telescope",
+      "Universe Today",
       "Cosmos Week",
-      "Como a IA está remodelando a astronomia"
+      "Ondulações no espaço",
+      "tempo e o número mais controverso do universo"
     ],
     "keywords_pt": [
       "Biologia",
-      "Sky & Telescope",
+      "Universe Today",
       "Cosmos Week",
-      "Como a IA está remodelando a astronomia"
+      "Ondulações no espaço",
+      "tempo e o número mais controverso do universo"
     ],
     "keywords_en": [
       "Biology",
-      "Sky & Telescope",
+      "Universe Today",
       "Cosmos Week",
-      "How AI is reshaping astronomy"
+      "Ripples in space",
+      "time is the most controversial number in the universe"
     ],
-    "srcUrl": "https://skyandtelescope.org/astronomy-resources/how-ai-is-reshaping-astronomy/",
-    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=how-ai-is-reshaping-astronomy",
+    "srcUrl": "https://www.universetoday.com/articles/ripples-in-spacetime-and-the-universes-most-controversial-number",
+    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=ripples-in-spacetime-and-the-universe-s-most-controversial-number",
     "featured": false,
     "trending": false,
     "isPreprint": false,
     "score": 72,
     "scoreBreakdown": {
-      "source": 74,
+      "source": 73,
       "evidence": 82,
       "relevance": 80,
       "accessibility": 60,
-      "novelty": 46
+      "novelty": 49
     }
   },
   {
@@ -1786,7 +1789,7 @@ window.postsData = [
       "evidence": 88,
       "relevance": 80,
       "accessibility": 60,
-      "novelty": 52
+      "novelty": 49
     }
   },
   {
@@ -1804,22 +1807,22 @@ window.postsData = [
     "excerpt": "O Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de Saturno, revelando o planeta de formas surpreendentemente diferentes. Observações infravermelhas e visíveis mostram…",
     "excerpt_pt": "O Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de Saturno, revelando o planeta de formas surpreendentemente diferentes. Observações infravermelhas e visíveis mostram…",
     "excerpt_en": "The NASA/ESA/CSA James Webb Space Telescope and the NASA/ESA Hubble Space Telescope have joined forces to capture new views of Saturn, revealing the planet in strikingly different ways. Infrared and visible observations show layers and…",
-    "body": "<p>Novos resultados em ciências da Terra: o Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de Saturno, revelando o planeta de formas surpreendentemente diferentes. Observações infravermelhas e visíveis…</p><p>O campo vinha se construindo em direção a momentos como este. Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência.</p><p>O registro observacional oferece um detalhe importante aqui. À medida que Saturno transita para a primavera meridional e, mais tarde, para o verão meridional na década de 2030, o Hubble e o Webb terão visões progressivamente melhores desse hemisfério. Um segundo fio nos dados aponta para o fato de que a imagem do Hubble vista aqui foi capturada como parte de um programa de monitoramento de mais de uma década chamado OPAL (Outer Planet Atmospheres Legacy) em agosto de 2024, enquanto a imagem do…</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_Hubble_capture_new_views_of_Saturn\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Novos resultados em ciências da Terra: o Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de Saturno, revelando o planeta de formas surpreendentemente diferentes. Observações infravermelhas e visíveis…</p><p>O campo vinha se construindo em direção a momentos como este. Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência.</p><p>O registro observacional oferece um detalhe importante aqui. À medida que Saturno transita para a primavera meridional e, mais tarde, para o verão meridional na década de 2030, o Hubble e o Webb terão visões progressivamente melhores desse hemisfério. Um segundo fio nos dados aponta para o fato de que a imagem do Hubble vista aqui foi capturada como parte de um programa de monitoramento de mais de uma década chamado OPAL (Outer Planet Atmospheres Legacy) em agosto de 2024, enquanto a imagem do…</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_Hubble_capture_new_views_of_Saturn\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Hubble and Webb have already explored Saturn’s auroras, provided insights into Jupiter’s spectacular auroras also seen with Hubble , confirmed the auroras of Uranus glimpsed in 2011 by Hubble , and detected Neptune’s…</p><p>To place the result in context: earth science results become meaningful when they can be situated within longer records. A single measurement is a starting point; a trend across instruments and time is evidence. This result contributes directly to that effort: hubble and Webb have already explored Saturn’s auroras, provided insights into Jupiter’s spectacular auroras also seen with Hubble , confirmed the auroras of Uranus glimpsed in 2011 by Hubble , and detected…</p><p>The observational record provides important detail here. As Saturn transitions into southern spring, and later southern summer in the 2030’s, Hubble and Webb will have progressively better views of that hemisphere. The analysis also shows that the Hubble image seen here was captured as part of a more than a decade long monitoring program called OPAL ( Outer Planet Atmospheres Legacy ) in August 2024, while the Webb image was captured a few…</p><p>Independent observations will now determine how well the result holds under different conditions. The most rigorous test will be to situate this result within longer time series and independent instruments, reducing the risk of reading too much into a single data point.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_Hubble_capture_new_views_of_Saturn\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "body": "<p>Novos resultados em ciências da Terra: o Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de Saturno, revelando o planeta de formas surpreendentemente diferentes. Observações infravermelhas e visíveis…</p><p>O campo vinha se construindo em direção a momentos como este. Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência.</p><p>O registro observacional oferece um detalhe importante aqui. Observações infravermelhas e visíveis mostram camadas e tempestades na atmosfera do planeta anelado.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_Hubble_capture_new_views_of_Saturn\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Novos resultados em ciências da Terra: o Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de Saturno, revelando o planeta de formas surpreendentemente diferentes. Observações infravermelhas e visíveis…</p><p>O campo vinha se construindo em direção a momentos como este. Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência.</p><p>O registro observacional oferece um detalhe importante aqui. Observações infravermelhas e visíveis mostram camadas e tempestades na atmosfera do planeta anelado.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_Hubble_capture_new_views_of_Saturn\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>The NASA/ESA/CSA James Webb Space Telescope and the NASA/ESA Hubble Space Telescope have joined forces to capture new views of Saturn, revealing the planet in strikingly different ways.</p><p>To place the result in context: earth science results become meaningful when they can be situated within longer records. A single measurement is a starting point; a trend across instruments and time is evidence. This result contributes directly to that effort: the NASA/ESA/CSA James Webb Space Telescope and the NASA/ESA Hubble Space Telescope have joined forces to capture new views of Saturn, revealing the planet in strikingly different ways.</p><p>The observational record provides important detail here. Infrared and visible observations show layers and storms in the ringed planet’s atmosphere.</p><p>Independent observations will now determine how well the result holds under different conditions. The most rigorous test will be to situate this result within longer time series and independent instruments, reducing the risk of reading too much into a single data point.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_Hubble_capture_new_views_of_Saturn\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: O Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de Saturno,…",
-      "Dado-chave: Hubble e Webb já exploraram as auroras de Saturno, forneceram informações sobre as espetaculares auroras de Júpiter também vistas com o Hubble,…",
+      "Dado-chave: O Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de…",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: O Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de Saturno,…",
-      "Dado-chave: Hubble e Webb já exploraram as auroras de Saturno, forneceram informações sobre as espetaculares auroras de Júpiter também vistas com o Hubble,…",
+      "Dado-chave: O Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de…",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: The NASA/ESA/CSA James Webb Space Telescope and the NASA/ESA Hubble Space Telescope have joined forces to capture new views of Saturn, revealing the…",
-      "Key detail: Hubble and Webb have already explored Saturn’s auroras, provided insights into Jupiter’s spectacular auroras also seen with Hubble , confirmed…",
+      "Key detail: The NASA/ESA/CSA James Webb Space Telescope and the NASA/ESA Hubble Space Telescope have joined forces to capture new views of Saturn, revealing…",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "25 mar 2026",
@@ -1873,13 +1876,13 @@ window.postsData = [
     "featured": false,
     "trending": false,
     "isPreprint": false,
-    "score": 78,
+    "score": 77,
     "scoreBreakdown": {
       "source": 90,
       "evidence": 88,
       "relevance": 80,
       "accessibility": 60,
-      "novelty": 49
+      "novelty": 46
     }
   },
   {
@@ -1897,8 +1900,8 @@ window.postsData = [
     "excerpt": "A Agência Espacial Europeia reagiu prontamente à descoberta do cometa 3I/ATLAS em 1 de julho de 2025. Pouco depois de terem sido alertados para a sua existência por sistemas de deteção automatizados, os astrónomos da ESA começaram a utilizar telescópios…",
     "excerpt_pt": "A Agência Espacial Europeia reagiu prontamente à descoberta do cometa 3I/ATLAS em 1 de julho de 2025. Pouco depois de terem sido alertados para a sua existência por sistemas de deteção automatizados, os astrónomos da ESA começaram a utilizar telescópios…",
     "excerpt_en": "The European Space Agency reacted promptly to the discovery of comet 3I/ATLAS on 1 July 2025. Soon after they were alerted to its existence by automated detection systems, ESA astronomers began using ground-based telescopes in Hawaii,…",
-    "body": "<p>A Agência Espacial Europeia (ESA) reagiu prontamente à descoberta do cometa 3I/ATLAS em 1 de julho de 2025.</p><p>Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência. O trabalho atual acrescenta um dado concreto: a Agência Espacial Europeia (ESA) reagiu prontamente à descoberta do cometa 3I/ATLAS em 1 de julho de 2025.</p><p>O registro observacional oferece um detalhe importante aqui. Em outubro e novembro de 2025, a ESA direcionou os viajantes interplanetários Mars Express, ExoMars Trace Gas Orbiter e Jupiter Icy Moons Explorer (Juice) na direção do cometa para fazer observações adicionais a partir… Um segundo fio nos dados aponta para o fato de que desde então, o cometa tem sido observado por telescópios espaciais próximos à Terra, incluindo o Telescópio Espacial Hubble da NASA/ESA, o Telescópio Espacial James Webb da NASA/ESA/CSA, o XMM-Newton…</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/ESA_observations_of_interstellar_comet_3I_ATLAS\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>A Agência Espacial Europeia (ESA) reagiu prontamente à descoberta do cometa 3I/ATLAS em 1 de julho de 2025.</p><p>Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência. O trabalho atual acrescenta um dado concreto: a Agência Espacial Europeia (ESA) reagiu prontamente à descoberta do cometa 3I/ATLAS em 1 de julho de 2025.</p><p>O registro observacional oferece um detalhe importante aqui. Em outubro e novembro de 2025, a ESA direcionou os viajantes interplanetários Mars Express, ExoMars Trace Gas Orbiter e Jupiter Icy Moons Explorer (Juice) na direção do cometa para fazer observações adicionais a partir… Um segundo fio nos dados aponta para o fato de que desde então, o cometa tem sido observado por telescópios espaciais próximos à Terra, incluindo o Telescópio Espacial Hubble da NASA/ESA, o Telescópio Espacial James Webb da NASA/ESA/CSA, o XMM-Newton…</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/ESA_observations_of_interstellar_comet_3I_ATLAS\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body": "<p>A Agência Espacial Europeia (ESA) reagiu prontamente à descoberta do cometa 3I/ATLAS em 1 de julho de 2025.</p><p>Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência. O trabalho atual acrescenta um dado concreto: a Agência Espacial Europeia (ESA) reagiu prontamente à descoberta do cometa 3I/ATLAS em 1 de julho de 2025.</p><p>O registro observacional oferece um detalhe importante aqui. Em outubro e novembro de 2025, a ESA direcionou os viajantes interplanetários Mars Express, ExoMars Trace Gas Orbiter e o Jupiter Icy Moons Explorer (Juice) na direção do cometa para fazer observações adicionais a… Um segundo fio nos dados aponta para o fato de que desde então, o cometa tem sido observado por telescópios espaciais próximos à Terra, incluindo o Telescópio Espacial Hubble da NASA/ESA, o Telescópio Espacial James Webb da NASA/ESA/CSA, o XMM-Newton…</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/ESA_observations_of_interstellar_comet_3I_ATLAS\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>A Agência Espacial Europeia (ESA) reagiu prontamente à descoberta do cometa 3I/ATLAS em 1 de julho de 2025.</p><p>Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência. O trabalho atual acrescenta um dado concreto: a Agência Espacial Europeia (ESA) reagiu prontamente à descoberta do cometa 3I/ATLAS em 1 de julho de 2025.</p><p>O registro observacional oferece um detalhe importante aqui. Em outubro e novembro de 2025, a ESA direcionou os viajantes interplanetários Mars Express, ExoMars Trace Gas Orbiter e o Jupiter Icy Moons Explorer (Juice) na direção do cometa para fazer observações adicionais a… Um segundo fio nos dados aponta para o fato de que desde então, o cometa tem sido observado por telescópios espaciais próximos à Terra, incluindo o Telescópio Espacial Hubble da NASA/ESA, o Telescópio Espacial James Webb da NASA/ESA/CSA, o XMM-Newton…</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/ESA_observations_of_interstellar_comet_3I_ATLAS\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>The European Space Agency reacted promptly to the discovery of comet 3I/ATLAS on 1 July 2025. Soon after they were alerted to its existence by automated detection systems, ESA astronomers began using ground-based telescopes in Hawaii,… The update follows an extended period of data collection and mission operations.</p><p>To place the result in context: earth science results become meaningful when they can be situated within longer records. A single measurement is a starting point; a trend across instruments and time is evidence. This result contributes directly to that effort: the European Space Agency (ESA) reacted promptly to the discovery of comet 3I/ATLAS on 1 July 2025.</p><p>The underlying data tell a consistent story. In October and November 2025, ESA turned interplanetary voyagers Mars Express , ExoMars Trace Gas Orbiter and the Jupiter Icy Moons Explorer ( Juice ) in the direction of the comet to make further observations from… The analysis also shows that since then, the comet has been observed by space telescopes close to Earth, including the NASA/ESA Hubble Space Telescope , the NASA/ESA/CSA James Webb Space Telescope , XMM-Newton and XRISM .</p><p>The most rigorous test will be to situate this result within longer time series and independent instruments, reducing the risk of reading too much into a single data point.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/ESA_observations_of_interstellar_comet_3I_ATLAS\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: A Agência Espacial Europeia reagiu prontamente à descoberta do cometa 3I/ATLAS em 1 de julho de 2025. Pouco depois de terem sido alertados para a sua…",
@@ -2733,6 +2736,99 @@ window.postsData = [
   },
   {
     "id": 30,
+    "slug": "comet-break-up-caught-in-action",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/1280px-The_Earth_seen_from_Apollo_17.jpg",
+    "title": "Separação do cometa em ação",
+    "title_pt": "Separação do cometa em ação",
+    "title_en": "Comet Break-Up Caught In Action",
+    "sub": "O Telescópio Espacial Hubble capturou um cometa de longo período se desintegrando logo após passar pelo Sol. O post Comet Break-Up Caught In Action apareceu pela primeira vez em…",
+    "sub_pt": "O Telescópio Espacial Hubble capturou um cometa de longo período se desintegrando logo após passar pelo Sol. O post Comet Break-Up Caught In Action apareceu pela primeira vez em…",
+    "sub_en": "The Hubble Space Telescope caught a long-period comet breaking up just after it passed the Sun. The post Comet Break-Up Caught In Action appeared first on Sky & Telescope .",
+    "excerpt": "O Telescópio Espacial Hubble capturou um cometa de longo período se desintegrando logo após passar pelo Sol. O post Comet Break-Up Caught In Action apareceu pela primeira vez em Sky & Telescope .",
+    "excerpt_pt": "O Telescópio Espacial Hubble capturou um cometa de longo período se desintegrando logo após passar pelo Sol. O post Comet Break-Up Caught In Action apareceu pela primeira vez em Sky & Telescope .",
+    "excerpt_en": "The Hubble Space Telescope caught a long-period comet breaking up just after it passed the Sun. The post Comet Break-Up Caught In Action appeared first on Sky & Telescope .",
+    "body": "<p>O Telescópio Espacial Hubble capturou um cometa de longo período se desintegrando logo após passar pelo Sol.</p><p>A astronomia avança acumulando observações em diferentes comprimentos de onda e missões, cada resultado reforçando ou contestando os modelos que o precederam. O trabalho atual acrescenta um dado concreto: o Telescópio Espacial Hubble capturou um cometa de longo período se desintegrando logo após passar pelo Sol.</p><p>O registro observacional oferece um detalhe importante aqui. O post Comet Break-Up Caught In Action apareceu pela primeira vez em Sky &amp; Telescope .</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. Observações independentes em outros comprimentos de onda, ou com instrumentos diferentes, serão o próximo teste natural para este resultado.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/comet-break-up-caught-in-action/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>O Telescópio Espacial Hubble capturou um cometa de longo período se desintegrando logo após passar pelo Sol.</p><p>A astronomia avança acumulando observações em diferentes comprimentos de onda e missões, cada resultado reforçando ou contestando os modelos que o precederam. O trabalho atual acrescenta um dado concreto: o Telescópio Espacial Hubble capturou um cometa de longo período se desintegrando logo após passar pelo Sol.</p><p>O registro observacional oferece um detalhe importante aqui. O post Comet Break-Up Caught In Action apareceu pela primeira vez em Sky &amp; Telescope .</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. Observações independentes em outros comprimentos de onda, ou com instrumentos diferentes, serão o próximo teste natural para este resultado.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/comet-break-up-caught-in-action/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>New findings in astronomy: the Hubble Space Telescope caught a long-period comet breaking up just after it passed the Sun. The post Comet Break-Up Caught In Action appeared first on Sky &amp; Telescope .</p><p>The field has been building toward moments like this. Astronomy advances by accumulating observations across wavelengths and missions, each result either reinforcing or challenging the models that preceded it.</p><p>When the measurements are examined carefully, a clearer picture emerges. The post Comet Break-Up Caught In Action appeared first on Sky &amp; Telescope .</p><p>The announcement opens a productive path for follow-up. Independent observations at other wavelengths, or with different instruments, will be the natural next test for this result.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/comet-break-up-caught-in-action/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Ponto central: O Telescópio Espacial Hubble capturou um cometa de longo período se desintegrando logo após passar pelo Sol. O post Comet Break-Up Caught In Action…",
+      "Dado-chave: O Telescópio Espacial Hubble capturou um cometa de longo período se desintegrando logo após passar pelo Sol.",
+      "Origem institucional: distinguir anúncio de evidência."
+    ],
+    "highlights_pt": [
+      "Ponto central: O Telescópio Espacial Hubble capturou um cometa de longo período se desintegrando logo após passar pelo Sol. O post Comet Break-Up Caught In Action…",
+      "Dado-chave: O Telescópio Espacial Hubble capturou um cometa de longo período se desintegrando logo após passar pelo Sol.",
+      "Origem institucional: distinguir anúncio de evidência."
+    ],
+    "highlights_en": [
+      "Core point: The Hubble Space Telescope caught a long-period comet breaking up just after it passed the Sun. The post Comet Break-Up Caught In Action appeared…",
+      "Key detail: The Hubble Space Telescope caught a long-period comet breaking up just after it passed the Sun.",
+      "Institutional origin: separate announcement from evidence."
+    ],
+    "date": "26 mar 2026",
+    "date_pt": "26 mar 2026",
+    "date_en": "26 Mar 2026",
+    "time": "15h49",
+    "time_pt": "15h49",
+    "time_en": "15:49 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-03-26T15:49:15+00:00",
+    "lastModifiedIso": "2026-03-26T15:49:15+00:00",
+    "source": "Sky & Telescope",
+    "sourceDomain": "skyandtelescope.org",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional.",
+    "sourceNote_pt": "Fonte primária institucional.",
+    "sourceNote_en": "Primary institutional source.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Astronomia",
+      "Sky & Telescope",
+      "Cosmos Week",
+      "Separação do cometa em ação"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "Sky & Telescope",
+      "Cosmos Week",
+      "Separação do cometa em ação"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "Sky & Telescope",
+      "Cosmos Week",
+      "Comet breakup in action"
+    ],
+    "srcUrl": "https://skyandtelescope.org/astronomy-news/comet-break-up-caught-in-action/",
+    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=comet-break-up-caught-in-action",
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "score": 75,
+    "scoreBreakdown": {
+      "source": 74,
+      "evidence": 82,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 49
+    }
+  },
+  {
+    "id": 31,
     "slug": "celeste-s-first-satellites-launched-to-explore-leo-based-satellite-navigation",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2825,7 +2921,7 @@ window.postsData = [
     }
   },
   {
-    "id": 31,
+    "id": 32,
     "slug": "a-hot-start-to-spring-in-the-southwest",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2914,11 +3010,11 @@ window.postsData = [
       "evidence": 88,
       "relevance": 80,
       "accessibility": 60,
-      "novelty": 49
+      "novelty": 46
     }
   },
   {
-    "id": 32,
+    "id": 33,
     "slug": "restless-k-lauea-launches-lava-and-ash",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3011,7 +3107,7 @@ window.postsData = [
     }
   },
   {
-    "id": 33,
+    "id": 34,
     "slug": "april-full-moon-is-the-pink-moon-overnight-on-april-1",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3104,7 +3200,7 @@ window.postsData = [
     }
   },
   {
-    "id": 34,
+    "id": 35,
     "slug": "rubies-on-mars-rover-finds-fluorescent-gems-for-1st-time",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3197,7 +3293,7 @@ window.postsData = [
     }
   },
   {
-    "id": 35,
+    "id": 36,
     "slug": "lonely-alphard-is-the-brightest-star-in-hydra",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3280,17 +3376,17 @@ window.postsData = [
     "featured": false,
     "trending": false,
     "isPreprint": false,
-    "score": 73,
+    "score": 72,
     "scoreBreakdown": {
       "source": 72,
       "evidence": 82,
       "relevance": 80,
       "accessibility": 60,
-      "novelty": 55
+      "novelty": 52
     }
   },
   {
-    "id": 36,
+    "id": 37,
     "slug": "a-flurry-of-fireballs-is-there-a-reason-for-the-uptick",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3383,7 +3479,7 @@ window.postsData = [
     }
   },
   {
-    "id": 37,
+    "id": 38,
     "slug": "strange-star-mystery-solved-after-50-years",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3476,7 +3572,7 @@ window.postsData = [
     }
   },
   {
-    "id": 38,
+    "id": 39,
     "slug": "nsf-to-proceed-with-demolition-and-site-restoration-at-sacramento-peak-observatory",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3569,7 +3665,7 @@ window.postsData = [
     }
   },
   {
-    "id": 39,
+    "id": 40,
     "slug": "nsf-announces-new-initiative-to-launch-and-scale-a-new-generation-of-transformative-independent-",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -3659,99 +3755,6 @@ window.postsData = [
       "relevance": 74,
       "accessibility": 44,
       "novelty": 46
-    }
-  },
-  {
-    "id": 40,
-    "slug": "automated-ct-scan-analysis-could-fast-track-clinical-assessments",
-    "cat": "Biologia",
-    "catCls": "biologia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Fluorescent_cells.jpg/1280px-Fluorescent_cells.jpg",
-    "title": "A análise automatizada da tomografia computadorizada pode acelerar as avaliações clínicas",
-    "title_pt": "A análise automatizada da tomografia computadorizada pode acelerar as avaliações clínicas",
-    "title_en": "Automated CT scan analysis could fast-track clinical assessments",
-    "sub": "Uma pesquisa financiada pelo NIH sugere que uma ferramenta alimentada por IA poderia agilizar diagnósticos e revelar marcadores precoces de doenças crônicas.",
-    "sub_pt": "Uma pesquisa financiada pelo NIH sugere que uma ferramenta alimentada por IA poderia agilizar diagnósticos e revelar marcadores precoces de doenças crônicas.",
-    "sub_en": "NIH-funded research suggests AI-powered tool could streamline diagnoses and unveil early markers for chronic disease.",
-    "excerpt": "Uma pesquisa financiada pelo NIH sugere que uma ferramenta alimentada por IA poderia agilizar diagnósticos e revelar marcadores precoces de doenças crônicas.",
-    "excerpt_pt": "Uma pesquisa financiada pelo NIH sugere que uma ferramenta alimentada por IA poderia agilizar diagnósticos e revelar marcadores precoces de doenças crônicas.",
-    "excerpt_en": "NIH-funded research suggests AI-powered tool could streamline diagnoses and unveil early markers for chronic disease.",
-    "body": "<p>Uma pesquisa financiada pelo NIH sugere que uma ferramenta alimentada por IA poderia agilizar diagnósticos e revelar marcadores precoces de doenças crônicas.</p><p>A biologia raramente produz resultados aplicáveis em todos os contextos ao mesmo tempo. Entender qual sistema foi estudado e em quais condições é o primeiro passo para julgar o alcance da conclusão. O trabalho atual acrescenta um dado concreto: uma pesquisa financiada pelo NIH sugere que uma ferramenta alimentada por IA poderia agilizar diagnósticos e revelar marcadores precoces de doenças crônicas.</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. O próximo passo é testar reprodutibilidade e generalização em outros sistemas modelo, sem confundir um resultado promissor com uma resposta definitiva.</p><p class=\"art-source\"><a href=\"https://www.nih.gov/news-events/news-releases/automated-ct-scan-analysis-could-fast-track-clinical-assessments\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Uma pesquisa financiada pelo NIH sugere que uma ferramenta alimentada por IA poderia agilizar diagnósticos e revelar marcadores precoces de doenças crônicas.</p><p>A biologia raramente produz resultados aplicáveis em todos os contextos ao mesmo tempo. Entender qual sistema foi estudado e em quais condições é o primeiro passo para julgar o alcance da conclusão. O trabalho atual acrescenta um dado concreto: uma pesquisa financiada pelo NIH sugere que uma ferramenta alimentada por IA poderia agilizar diagnósticos e revelar marcadores precoces de doenças crônicas.</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. O próximo passo é testar reprodutibilidade e generalização em outros sistemas modelo, sem confundir um resultado promissor com uma resposta definitiva.</p><p class=\"art-source\"><a href=\"https://www.nih.gov/news-events/news-releases/automated-ct-scan-analysis-could-fast-track-clinical-assessments\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>NIH-funded research suggests AI-powered tool could streamline diagnoses and unveil early markers for chronic disease. The update follows an extended period of data collection and mission operations.</p><p>To place the result in context: biology rarely produces results that apply everywhere at once. Understanding what system was studied, under what conditions, is the first step in judging how far the conclusion extends. This result contributes directly to that effort: nIH-funded research suggests AI-powered tool could streamline diagnoses and unveil early markers for chronic disease.</p><p>The announcement opens a productive path for follow-up. The next step is to test reproducibility and generalization in other model systems, without mistaking a promising result for a settled answer.</p><p class=\"art-source\"><a href=\"https://www.nih.gov/news-events/news-releases/automated-ct-scan-analysis-could-fast-track-clinical-assessments\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Uma pesquisa financiada pelo NIH sugere que uma ferramenta alimentada por IA poderia agilizar diagnósticos e revelar marcadores precoces de doenças…",
-      "Dado-chave: Uma pesquisa financiada pelo NIH sugere que uma ferramenta alimentada por IA poderia agilizar diagnósticos e revelar marcadores precoces de…",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Uma pesquisa financiada pelo NIH sugere que uma ferramenta alimentada por IA poderia agilizar diagnósticos e revelar marcadores precoces de doenças…",
-      "Dado-chave: Uma pesquisa financiada pelo NIH sugere que uma ferramenta alimentada por IA poderia agilizar diagnósticos e revelar marcadores precoces de…",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: NIH-funded research suggests AI-powered tool could streamline diagnoses and unveil early markers for chronic disease.",
-      "Key detail: NIH-funded research suggests AI-powered tool could streamline diagnoses and unveil early markers for chronic disease.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "29 mar 2026",
-    "date_pt": "29 mar 2026",
-    "date_en": "29 Mar 2026",
-    "time": "13h56",
-    "time_pt": "13h56",
-    "time_en": "13:56 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-03-29T13:56:11.704113+00:00",
-    "lastModifiedIso": "2026-03-29T13:56:11.704113+00:00",
-    "source": "NIH News Releases",
-    "sourceDomain": "www.nih.gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional.",
-    "sourceNote_pt": "Fonte primária institucional.",
-    "sourceNote_en": "Primary institutional source.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "standard",
-    "editorialBandLabel": "Prioridade editorial",
-    "editorialBandLabel_pt": "Prioridade editorial",
-    "editorialBandLabel_en": "Editorial priority",
-    "keywords": [
-      "Biologia",
-      "NIH News Releases",
-      "Cosmos Week",
-      "A análise automatizada da tomografia computadorizada pode acelerar as avaliações clínicas"
-    ],
-    "keywords_pt": [
-      "Biologia",
-      "NIH News Releases",
-      "Cosmos Week",
-      "A análise automatizada da tomografia computadorizada pode acelerar as avaliações clínicas"
-    ],
-    "keywords_en": [
-      "Biology",
-      "NIH News Releases",
-      "Cosmos Week",
-      "Automated CT scan analysis can speed up clinical assessments"
-    ],
-    "srcUrl": "https://www.nih.gov/news-events/news-releases/automated-ct-scan-analysis-could-fast-track-clinical-assessments",
-    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=automated-ct-scan-analysis-could-fast-track-clinical-assessments",
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "score": 71,
-    "scoreBreakdown": {
-      "source": 79,
-      "evidence": 88,
-      "relevance": 66,
-      "accessibility": 52,
-      "novelty": 55
     }
   }
 ];
