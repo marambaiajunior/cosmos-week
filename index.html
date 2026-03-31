@@ -505,6 +505,7 @@
     .article-body { font-size: 1.12rem; color: #dde4f0; line-height: 1.98; max-width: 760px; }
     .article-body p { margin-bottom: 26px; }
     .article-body p:last-child { margin-bottom: 0; }
+    .article-summary-panel { display:none !important; }
     /* art-source link from Python - styled as a clean attribution line */
     .article-body .art-source {
       margin-top: 32px; padding-top: 18px; border-top: 1px solid var(--line);
@@ -1571,28 +1572,7 @@
   }
 
   function buildArticleSummary(post) {
-    const summary = stripHtml(textFor(post, 'excerpt'));
-    const sourceNote = stripHtml(currentLang === 'en' ? (post.sourceNote_en || post.sourceNote) : (post.sourceNote_pt || post.sourceNote));
-    const highlights = uniqueTextItems((listFor(post, 'highlights') || []).map(cleanHighlightLine).filter(line => !isArticleNoise(line)));
-    const backupPoints = highlights.length ? highlights.slice(0, 3) : keywordListFor(post).slice(0, 3);
-    return `
-      <section class="article-summary-panel">
-        <div class="article-summary-head">${currentLang === 'en' ? 'Structured briefing' : 'Síntese estruturada'}</div>
-        <div class="article-summary-grid">
-          <div class="article-summary-card">
-            <div class="article-summary-label">${currentLang === 'en' ? 'Factual summary' : 'Resumo factual'}</div>
-            <p>${summary || stripHtml(textFor(post, 'sub'))}</p>
-          </div>
-          <div class="article-summary-card">
-            <div class="article-summary-label">${currentLang === 'en' ? 'Key points' : 'Pontos-chave'}</div>
-            <ul>${backupPoints.map(item => `<li>${item}</li>`).join('')}</ul>
-          </div>
-        </div>
-        <div class="article-context-note">
-          <strong>${currentLang === 'en' ? 'Source context:' : 'Contexto da fonte:'}</strong>
-          ${sourceNote || (currentLang === 'en' ? 'Primary institutional source.' : 'Fonte primária institucional.')}
-        </div>
-      </section>`;
+    return '';
   }
 
   function buildArticleBody(post) {
@@ -1601,15 +1581,13 @@
       const key = normalizarTexto(text).replace(/[^a-z0-9]+/g, '');
       return !ledeLike.some(item => {
         const other = normalizarTexto(item).replace(/[^a-z0-9]+/g, '');
-        return key === other || key.includes(other) || other.includes(key);
+        return key === other;
       });
     });
-    const fallback = uniqueTextItems((listFor(post, 'highlights') || []).map(cleanHighlightLine).filter(line => !isArticleNoise(line)));
-    const paragraphs = uniqueTextItems([...bodyParagraphs, ...fallback]).slice(0, 4);
-    if (!paragraphs.length) {
-      return uniqueTextItems([stripHtml(textFor(post, 'sub')), stripHtml(textFor(post, 'excerpt'))]).slice(0, 2).map(text => `<p>${text}</p>`).join('');
-    }
-    return paragraphs.map(text => `<p>${text}</p>`).join('');
+    const paragraphs = uniqueTextItems(bodyParagraphs);
+    const intro = uniqueTextItems([stripHtml(textFor(post, 'sub')), stripHtml(textFor(post, 'excerpt'))]);
+    const finalParagraphs = paragraphs.length ? uniqueTextItems([...intro, ...paragraphs]) : intro;
+    return finalParagraphs.map(text => `<p>${text}</p>`).join('');
   }
 
   function engagementBoxMarkup() {

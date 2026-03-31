@@ -93,3 +93,6 @@ ORDEM DE UPLOAD RECOMENDADA
 4) giscus-config.js
 5) merge_posts_helper.py (opcional, só para manutenção local)
 6) demais arquivos institucionais, se desejar manter o pacote todo sincronizado
+
+
+Ajuste v4: os corpos das matérias foram convertidos para texto corrido em parágrafos, sem blocos de “síntese estruturada”, “resumo factual”, “pontos-chave” ou “base documental”. A renderização do artigo também foi alterada para mostrar todos os parágrafos do corpo, sem o limite artificial de quatro parágrafos.
