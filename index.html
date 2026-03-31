@@ -471,17 +471,64 @@
       padding: 36px; border-top: none;
     }
     .article-lede {
-      font-family: var(--serif); font-size: 1.13rem; color: var(--txt-2);
-      line-height: 1.85; margin-bottom: 26px; padding-bottom: 22px;
+      font-family: var(--serif); font-size: 1.16rem; color: var(--txt-2);
+      line-height: 1.9; margin-bottom: 26px; padding-bottom: 22px;
       border-bottom: 1px solid var(--line); font-style: italic;
     }
-    .article-body { font-size: 1.08rem; color: #dde4f0; line-height: 1.94; max-width: 720px; }
-    .article-body p { margin-bottom: 24px; }
+    .article-summary-panel {
+      border: 1px solid var(--line); border-radius: var(--radius);
+      background: linear-gradient(180deg, rgba(255,255,255,.025), rgba(255,255,255,.01));
+      margin-bottom: 28px; overflow: hidden;
+    }
+    .article-summary-head {
+      padding: 14px 18px 12px; border-bottom: 1px solid var(--line);
+      font: 500 10px var(--mono); text-transform: uppercase; letter-spacing: .18em; color: var(--accent-2);
+    }
+    .article-summary-grid {
+      display: grid; grid-template-columns: 1.15fr .95fr; gap: 0;
+    }
+    .article-summary-card { padding: 18px; }
+    .article-summary-card + .article-summary-card { border-left: 1px solid var(--line); }
+    .article-summary-label {
+      font: 500 10px var(--mono); text-transform: uppercase; letter-spacing: .14em;
+      color: var(--txt-3); margin-bottom: 10px;
+    }
+    .article-summary-card p, .article-summary-card li {
+      color: var(--txt-2); font-size: 14.2px; line-height: 1.72;
+    }
+    .article-summary-card ul { padding-left: 18px; display: grid; gap: 9px; }
+    .article-context-note {
+      padding: 12px 18px 14px; border-top: 1px solid var(--line);
+      color: var(--txt-3); font-size: 12px; line-height: 1.6;
+      background: rgba(255,255,255,.018);
+    }
+    .article-body { font-size: 1.12rem; color: #dde4f0; line-height: 1.98; max-width: 760px; }
+    .article-body p { margin-bottom: 26px; }
     .article-body p:last-child { margin-bottom: 0; }
     /* art-source link from Python - styled as a clean attribution line */
     .article-body .art-source {
       margin-top: 32px; padding-top: 18px; border-top: 1px solid var(--line);
       font: 500 10.5px var(--mono); text-transform: uppercase; letter-spacing: .1em; display: none;
+    }
+    .engagement-box {
+      margin-top: 34px; border: 1px solid var(--line); border-radius: var(--radius);
+      background: linear-gradient(180deg, rgba(255,255,255,.022), rgba(255,255,255,.008));
+      overflow: hidden;
+    }
+    .engagement-head {
+      padding: 14px 18px 12px; border-bottom: 1px solid var(--line);
+      display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; align-items: center;
+    }
+    .engagement-title {
+      font: 500 10px var(--mono); text-transform: uppercase; letter-spacing: .18em; color: var(--accent-2);
+    }
+    .engagement-note {
+      color: var(--txt-3); font-size: 12px; line-height: 1.5;
+      padding: 16px 18px 18px;
+    }
+    .engagement-mount { padding: 18px; }
+    .engagement-disabled {
+      padding: 16px 18px 18px; color: var(--txt-3); font-size: 13px; line-height: 1.6;
     }
 
     /* ── Sidebar article boxes ─── */
@@ -665,6 +712,12 @@
       .article-layout { grid-template-columns: 1fr; }
       .cookie-banner { left: 12px; right: 12px; bottom: 12px; padding: 14px; }
     }
+  
+    @media (max-width: 980px) {
+      .article-summary-grid { grid-template-columns: 1fr; }
+      .article-summary-card + .article-summary-card { border-left: none; border-top: 1px solid var(--line); }
+    }
+
   </style>
 </head>
 <body>
@@ -896,6 +949,7 @@
   </div>
 
 
+  <script src="giscus-config.js"></script>
   <script src="posts.js"></script>
   <script>
   const SITE = {
@@ -1060,7 +1114,50 @@
       .sort((a, b) => String(b.publishedIso || '').localeCompare(String(a.publishedIso || '')));
   }
 
-  let DB = normalizePosts(window.postsData || []);
+  const ARCHIVE_CACHE_KEY = 'cw_archive_cache_v3';
+
+  function postRichnessScore(post) {
+    return [
+      post?.title, post?.title_pt, post?.title_en,
+      post?.excerpt, post?.excerpt_pt, post?.excerpt_en,
+      post?.body, post?.body_pt, post?.body_en
+    ].filter(Boolean).join(' ').length;
+  }
+
+  function pickBestPost(existing, candidate) {
+    if (!existing) return candidate;
+    const existingStamp = Date.parse(existing.lastModifiedIso || existing.publishedIso || '') || 0;
+    const candidateStamp = Date.parse(candidate.lastModifiedIso || candidate.publishedIso || '') || 0;
+    if (candidateStamp > existingStamp) return candidate;
+    if (candidateStamp < existingStamp) return existing;
+    return postRichnessScore(candidate) >= postRichnessScore(existing) ? candidate : existing;
+  }
+
+  function mergePostCollections(primary = [], secondary = []) {
+    const map = new Map();
+    [...secondary, ...primary].forEach(post => {
+      if (!post || !post.slug) return;
+      map.set(post.slug, pickBestPost(map.get(post.slug), post));
+    });
+    return normalizePosts([...map.values()]);
+  }
+
+  function persistArchiveCache() {
+    try { localStorage.setItem(ARCHIVE_CACHE_KEY, JSON.stringify(DB)); } catch (e) {}
+  }
+
+  function hydrateArchive(rawPosts) {
+    let cached = [];
+    try {
+      const parsed = JSON.parse(localStorage.getItem(ARCHIVE_CACHE_KEY) || '[]');
+      if (Array.isArray(parsed)) cached = parsed;
+    } catch (e) {}
+    const merged = mergePostCollections(rawPosts, cached);
+    try { localStorage.setItem(ARCHIVE_CACHE_KEY, JSON.stringify(merged)); } catch (e) {}
+    return merged;
+  }
+
+  let DB = hydrateArchive(window.postsData || []);
   let currentLang = localStorage.getItem('cw_lang') === 'en' ? 'en' : 'pt';
   let currentPage = 'home';
   let currentArticleSlug = null;
@@ -1205,12 +1302,52 @@
   }
 
   // ── Hero ───────────────────────────────────────────────────────────────────
+  function hashString(input = '') {
+    let h = 2166136261;
+    for (let i = 0; i < input.length; i++) {
+      h ^= input.charCodeAt(i);
+      h = Math.imul(h, 16777619);
+    }
+    return Math.abs(h >>> 0);
+  }
+
+  function postFreshnessWeight(post) {
+    const stamp = Date.parse(post?.lastModifiedIso || post?.publishedIso || '') || 0;
+    if (!stamp) return 0;
+    const ageDays = (Date.now() - stamp) / 86400000;
+    if (ageDays <= 1) return 28;
+    if (ageDays <= 3) return 23;
+    if (ageDays <= 7) return 18;
+    if (ageDays <= 14) return 12;
+    if (ageDays <= 30) return 7;
+    return 0;
+  }
+
+  function heroPriority(post) {
+    let total = ((post?.score || 0) * 0.42) + postFreshnessWeight(post);
+    if (post?.trending) total += 10;
+    if (post?.featured) total += 6;
+    if (post?.editorialBand === 'flagship') total += 4;
+    return total;
+  }
+
   function heroPostsForCurrentCategory() {
     const regular = filteredRegularPosts();
     const preprints = filteredPreprints();
     const source = regular.length ? regular : preprints;
-    const featured = source.filter(p => p.featured).slice(0,3);
-    return featured.length >= 3 ? featured : source.slice(0,3);
+    if (!source.length) return [];
+    const sorted = [...source].sort((a, b) => {
+      const byPriority = heroPriority(b) - heroPriority(a);
+      if (byPriority) return byPriority;
+      return String(b.publishedIso || '').localeCompare(String(a.publishedIso || ''));
+    });
+    const pool = sorted.slice(0, Math.min(8, sorted.length));
+    if (pool.length <= 3) return pool;
+    const now = new Date();
+    const block = Math.floor(now.getHours() / 4);
+    const leadIndex = hashString(`${currentCategory}|${now.toISOString().slice(0, 10)}|${block}`) % pool.length;
+    const rotated = [pool[leadIndex], ...pool.filter((_, idx) => idx !== leadIndex)];
+    return rotated.slice(0, 3);
   }
 
   function renderHero() {
@@ -1333,6 +1470,9 @@
   function renderArchive() {
     const posts = currentCategory==='all' ? DB : DB.filter(p=>p.cat===currentCategory);
     document.getElementById('archiveList').innerHTML = posts.map(compactMarkup).join('');
+    document.getElementById('archiveKicker').textContent = currentLang === 'en'
+      ? `${posts.length} stories currently available. New updates are preserved inside the archive instead of replacing older entries.`
+      : `${posts.length} matérias disponíveis. Novas atualizações são preservadas no arquivo em vez de substituírem as mais antigas.`;
     markNav('archive'); activatePage('archive'); updateMetaStatic('archive');
   }
 
@@ -1365,6 +1505,171 @@
     markNav('standards'); activatePage('standards'); updateMetaStatic('standards');
   }
 
+  // ── Article helpers ────────────────────────────────────────────────────────
+  const ARTICLE_BODY_NOISE_PATTERNS = [
+    /^artigo \d+/i, /^missoes pesquisar/i, /^explorar pesquisa/i, /^observatorio da terra/i,
+    /^terra observatorio da terra/i, /^research news and events/i, /^missions explore/i,
+    /^image of the day/i, /^earth observatory/i, /^the post .* appeared first on/i,
+    /^a atualização é resultado de um extenso período/i, /^o campo vinha se construindo em direção a momentos como este/i,
+    /^para situar o resultado no contexto/i, /^o anúncio abre um caminho produtivo/i,
+    /^observações independentes/i, /^a astronomia avança acumulando/i, /^a ciência progride/i,
+    /^the update follows an extended period/i, /^astronomy advances by accumulating/i,
+    /^to place the result in context/i, /^the announcement opens a productive path/i,
+    /^independent observations at other wavelengths/i,
+    /explorar pesquisa/i, /boletins informativos/i, /mídia social/i, /multimídia imagens multimídia/i,
+    /lista de missões/i, /observatório da terra imagem do dia/i, /topics of the eo explorer/i,
+    /audio podcasts and blogs/i, /social media/i, /multimedia images/i
+  ];
+
+  function stripHtml(htmlText = '') {
+    const div = document.createElement('div');
+    div.innerHTML = htmlText;
+    return (div.textContent || div.innerText || '').replace(/\s+/g, ' ').trim();
+  }
+
+  function isArticleNoise(text = '') {
+    const cleaned = stripHtml(text);
+    return !cleaned || cleaned.length < 18 || ARTICLE_BODY_NOISE_PATTERNS.some(rx => rx.test(cleaned));
+  }
+
+  function uniqueTextItems(items = []) {
+    const out = [];
+    const seen = new Set();
+    items.forEach(item => {
+      const cleaned = stripHtml(item);
+      if (!cleaned) return;
+      const key = normalizarTexto(cleaned).replace(/[^a-z0-9]+/g, '');
+      if (!key || seen.has(key)) return;
+      for (const existing of out) {
+        const ex = normalizarTexto(existing).replace(/[^a-z0-9]+/g, '');
+        if (key === ex || key.includes(ex) || ex.includes(key)) return;
+      }
+      seen.add(key);
+      out.push(cleaned);
+    });
+    return out;
+  }
+
+  function cleanHighlightLine(line = '') {
+    const cleaned = stripHtml(String(line)
+      .replace(/^(Ponto central|Dado-chave|Origem institucional|Central point|Key datum|Institutional origin)\s*:\s*/i, ''));
+    if (!cleaned || cleaned.length < 30) return '';
+    if (/distinguir anúncio de evidência/i.test(cleaned) || /distinguish announcement from evidence/i.test(cleaned)) return '';
+    if (/^\d{2}\.\d{4,9}\//.test(cleaned)) return '';
+    return cleaned;
+  }
+
+  function extractArticleParagraphs(post) {
+    const raw = currentLang === 'en' ? (post.body_en || post.body || '') : (post.body_pt || post.body || '');
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(`<div>${raw}</div>`, 'text/html');
+    const paragraphs = [...doc.querySelectorAll('p')]
+      .filter(p => !p.classList.contains('art-source'))
+      .map(p => stripHtml(p.innerHTML))
+      .filter(text => !isArticleNoise(text));
+    return uniqueTextItems(paragraphs);
+  }
+
+  function buildArticleSummary(post) {
+    const summary = stripHtml(textFor(post, 'excerpt'));
+    const sourceNote = stripHtml(currentLang === 'en' ? (post.sourceNote_en || post.sourceNote) : (post.sourceNote_pt || post.sourceNote));
+    const highlights = uniqueTextItems((listFor(post, 'highlights') || []).map(cleanHighlightLine).filter(line => !isArticleNoise(line)));
+    const backupPoints = highlights.length ? highlights.slice(0, 3) : keywordListFor(post).slice(0, 3);
+    return `
+      <section class="article-summary-panel">
+        <div class="article-summary-head">${currentLang === 'en' ? 'Structured briefing' : 'Síntese estruturada'}</div>
+        <div class="article-summary-grid">
+          <div class="article-summary-card">
+            <div class="article-summary-label">${currentLang === 'en' ? 'Factual summary' : 'Resumo factual'}</div>
+            <p>${summary || stripHtml(textFor(post, 'sub'))}</p>
+          </div>
+          <div class="article-summary-card">
+            <div class="article-summary-label">${currentLang === 'en' ? 'Key points' : 'Pontos-chave'}</div>
+            <ul>${backupPoints.map(item => `<li>${item}</li>`).join('')}</ul>
+          </div>
+        </div>
+        <div class="article-context-note">
+          <strong>${currentLang === 'en' ? 'Source context:' : 'Contexto da fonte:'}</strong>
+          ${sourceNote || (currentLang === 'en' ? 'Primary institutional source.' : 'Fonte primária institucional.')}
+        </div>
+      </section>`;
+  }
+
+  function buildArticleBody(post) {
+    const ledeLike = uniqueTextItems([stripHtml(textFor(post, 'sub')), stripHtml(textFor(post, 'excerpt'))]);
+    const bodyParagraphs = extractArticleParagraphs(post).filter(text => {
+      const key = normalizarTexto(text).replace(/[^a-z0-9]+/g, '');
+      return !ledeLike.some(item => {
+        const other = normalizarTexto(item).replace(/[^a-z0-9]+/g, '');
+        return key === other || key.includes(other) || other.includes(key);
+      });
+    });
+    const fallback = uniqueTextItems((listFor(post, 'highlights') || []).map(cleanHighlightLine).filter(line => !isArticleNoise(line)));
+    const paragraphs = uniqueTextItems([...bodyParagraphs, ...fallback]).slice(0, 4);
+    if (!paragraphs.length) {
+      return uniqueTextItems([stripHtml(textFor(post, 'sub')), stripHtml(textFor(post, 'excerpt'))]).slice(0, 2).map(text => `<p>${text}</p>`).join('');
+    }
+    return paragraphs.map(text => `<p>${text}</p>`).join('');
+  }
+
+  function engagementBoxMarkup() {
+    return `
+      <section class="engagement-box">
+        <div class="engagement-head">
+          <div class="engagement-title">${currentLang === 'en' ? 'Reactions and comments' : 'Reações e comentários'}</div>
+        </div>
+        <div id="articleDiscussionMount" class="engagement-mount"></div>
+      </section>`;
+  }
+
+  function getGiscusConfig() {
+    return Object.assign({
+      enabled: false,
+      repo: 'marambaiajunior/cosmos-week',
+      repoId: '',
+      category: 'Comentários',
+      categoryId: '',
+      mapping: 'specific',
+      strict: '1',
+      reactionsEnabled: '1',
+      emitMetadata: '0',
+      inputPosition: 'top',
+      theme: 'dark_dimmed'
+    }, window.COSMOS_GISCUS || {});
+  }
+
+  function mountArticleDiscussion(post) {
+    const mount = document.getElementById('articleDiscussionMount');
+    if (!mount) return;
+    mount.innerHTML = '';
+    const cfg = getGiscusConfig();
+    const ready = !!(cfg.enabled && cfg.repo && cfg.repoId && cfg.category && cfg.categoryId);
+    if (!ready) {
+      mount.innerHTML = `<div class="engagement-disabled">${currentLang === 'en'
+        ? 'Public reactions and comments are wired for activation. To turn them on, fill the repository identifiers in giscus-config.js.'
+        : 'Reações públicas e comentários já estão preparados para ativação. Para ligar, basta preencher os identificadores do repositório em giscus-config.js.'}</div>`;
+      return;
+    }
+    const script = document.createElement('script');
+    script.src = 'https://giscus.app/client.js';
+    script.async = true;
+    script.crossOrigin = 'anonymous';
+    script.setAttribute('data-repo', cfg.repo);
+    script.setAttribute('data-repo-id', cfg.repoId);
+    script.setAttribute('data-category', cfg.category);
+    script.setAttribute('data-category-id', cfg.categoryId);
+    script.setAttribute('data-mapping', cfg.mapping || 'specific');
+    script.setAttribute('data-term', post.slug);
+    script.setAttribute('data-strict', String(cfg.strict ?? '1'));
+    script.setAttribute('data-reactions-enabled', String(cfg.reactionsEnabled ?? '1'));
+    script.setAttribute('data-emit-metadata', String(cfg.emitMetadata ?? '0'));
+    script.setAttribute('data-input-position', cfg.inputPosition || 'top');
+    script.setAttribute('data-theme', cfg.theme || 'dark_dimmed');
+    script.setAttribute('data-lang', currentLang === 'en' ? 'en' : 'pt');
+    script.setAttribute('data-loading', 'lazy');
+    mount.appendChild(script);
+  }
+
   // ── Article ────────────────────────────────────────────────────────────────
   function renderArticle(slug) {
     const post = DB.find(item => item.slug === slug);
@@ -1374,7 +1679,6 @@
     const highlights = listFor(post,'highlights');
     const related = DB.filter(item => item.slug!==post.slug && item.cat===post.cat).slice(0,3);
     const keywords = keywordListFor(post);
-    const body = currentLang==='en' ? (post.body_en||post.body) : (post.body_pt||post.body);
     const sb = post.scoreBreakdown || {};
     const mount = document.getElementById('pageArticle');
     mount.innerHTML = `
@@ -1405,7 +1709,8 @@
         <div class="article-layout">
           <div>
             <p class="article-lede">${textFor(post,'sub')}</p>
-            <div class="article-body">${body}</div>
+            ${buildArticleSummary(post)}
+            <div class="article-body">${buildArticleBody(post)}</div>
 
             <!-- AD SLOT: In-article (após o corpo do texto, antes dos botões de share)
                  Para ativar: remova display:none do CSS .ad-slot e descomente o <ins> abaixo. -->
@@ -1433,6 +1738,7 @@
                 <div class="section-title">${tr('relatedTitle')}</div>
               </div>
               <div class="story-grid">${related.map(cardMarkup).join('')}</div>` : ''}
+            ${engagementBoxMarkup()}
           </div>
 
           <aside class="sidebar">
@@ -1487,6 +1793,7 @@
           </aside>
         </div>
       </article>`;
+    mountArticleDiscussion(post);
     markNav(''); activatePage('article'); updateMetaArticle(post);
   }
 
@@ -1624,7 +1931,8 @@
         const sandboxWindow = {};
         Function('window', js + '; return window.postsData;')(sandboxWindow);
         if (Array.isArray(sandboxWindow.postsData) && sandboxWindow.postsData.length) {
-          DB = normalizePosts(sandboxWindow.postsData);
+          DB = mergePostCollections(sandboxWindow.postsData, DB);
+          persistArchiveCache();
           updateLastUpdatedLabel();
           rerenderCurrentView();
           showToast(tr('updateDone'));
@@ -1814,6 +2122,7 @@
     applyUIStrings();
     loadSavedNewsletterEmail();
     initCookieBanner();
+    persistArchiveCache();
     parseRoute();
     setTimeout(() => showToast(tr('welcome')), 900);
   });

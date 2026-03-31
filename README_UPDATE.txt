@@ -1,84 +1,95 @@
-PACOTE DEFINITIVO — COSMOS WEEK
-Gerado em: 2026-03-30
-Versão: 2.0 (pós-revisão técnica completa)
+PACOTE REVISADO — COSMOS WEEK
+Gerado em: 2026-03-31
+Versão: 3.0
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-ARQUIVOS INCLUÍDOS
+MELHORIAS ENTREGUES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-index.html
-  ✓ Consent Mode v2 com 3 estados (Aceitar tudo / Só analytics / Recusar)
-  ✓ Cookie banner atualizado com 3 botões
-  ✓ JS de consent migra silenciosamente valores legados ('granted' → 'analytics')
-  ✓ Slots de anúncio pré-posicionados (leaderboard topo, sidebar, in-article)
-    → Todos com display:none por padrão; descomente quando AdSense aprovar
-  ✓ Bloco AdSense comentado no <head> com checklist de ativação
-  ✓ og:image movida para asset próprio (assets/og-default.jpg)
-  ✓ Schema.org NewsArticle com publisher correto (já estava OK)
+1. CAPA DINÂMICA
+   ✓ O hero principal deixou de depender só do flag "featured"
+   ✓ Agora a capa usa prioridade por recência + score + trending + rotação
+   ✓ O destaque muda ao longo do dia, evitando a mesma manchete fixa por dias
 
-anuncie.html
-  ✓ GA4 + Consent Mode v2 adicionados
+2. ARQUIVO CUMULATIVO
+   ✓ O arquivo continua exibindo todas as matérias disponíveis
+   ✓ O front agora preserva um cache local cumulativo para não perder matérias em refresh parcial
+   ✓ Script auxiliar incluído: merge_posts_helper.py
+     → Serve para mesclar lotes novos com o arquivo atual sem apagar artigos antigos
 
-media-kit.html
-  ✓ GA4 + Consent Mode v2 adicionados
-  ✓ Campo "Versão / última atualização" dinâmico via localStorage
-    → Para atualizar: abra o console nesta página e rode:
-      localStorage.setItem('cw_mediakit_updated', new Date().toISOString());
+3. CURTIDAS / GOSTEI / COMENTÁRIOS
+   ✓ Estrutura pronta com Giscus (GitHub Discussions)
+   ✓ Reações funcionam como botão de curtir/gostei
+   ✓ Comentários ficam públicos e persistentes para todos verem
+   ✓ Arquivo incluído: giscus-config.js
+     → Falta apenas preencher repoId e categoryId e trocar enabled para true
 
-politica-de-privacidade.html
-  ✓ GA4 + Consent Mode v2 adicionados
-  ✓ Seção 4 (Publicidade) reescrita — descreve os 3 níveis de consentimento
+4. ARTIGOS MAIORES E MAIS LIMPOS
+   ✓ Corpos dos artigos foram saneados para remover lixo de scraping e repetição genérica
+   ✓ Página de artigo ganhou bloco “Síntese estruturada”
+   ✓ Textos ficaram mais legíveis, maiores e mais informativos
+   ✓ Mantido tom factual, sóbrio e sem humor editorial
 
-termos-de-uso.html
-  ✓ GA4 + Consent Mode v2 adicionados
-
-ads.txt
-  ✓ Instruções de ativação expandidas
-  ✓ Linha do AdSense comentada até o publisher ID real ser obtido
-
-robots.txt
-  (inalterado — estava correto)
+5. O QUE FOI PRESERVADO
+   ✓ Navegação
+   ✓ Busca
+   ✓ Alternância PT/EN
+   ✓ Home, arquivo, páginas institucionais e layout base
+   ✓ Consentimento / analytics / estrutura já funcional
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-O QUE VOCÊ AINDA PRECISA FAZER MANUALMENTE
+ATIVAÇÃO DE COMENTÁRIOS E REAÇÕES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-1. CRIAR IMAGEM OG (urgente para compartilhamentos funcionarem)
-   → Crie a pasta assets/ no repositório
-   → Adicione uma imagem 1200×630 px chamada og-default.jpg
-   → Sugestão: fundo escuro (#0c0f17) com logo Cosmos Week centralizado
+Arquivo: giscus-config.js
 
-2. E-MAIL COMERCIAL
-   → Substitua as referências ao @cosmos_week nos arquivos
-     anuncie.html e politica-de-privacidade.html pelo e-mail oficial
-     quando criado (ex: ads@seudominio.com)
+Passos:
+1) Habilite GitHub Discussions no repositório do site
+2) Instale/autorize Giscus no repositório
+3) Em https://giscus.app/ copie:
+   - repoId
+   - categoryId
+4) Cole no arquivo giscus-config.js
+5) Troque:
+   enabled: false
+   por:
+   enabled: true
 
-3. MÉTRICAS DO GA4 NO MEDIA KIT
-   → Preencha os "SUBSTITUIR" em media-kit.html com números reais
-   → Atualize a data via console (instrução no README e na própria página)
-
-4. QUANDO ADSENSE APROVAR (checklist completo):
-   a) Pegue seu publisher ID (ca-pub-XXXXXXXXXXXXXXXX)
-   b) Em index.html: descomente o <script> do AdSense no <head>
-      e substitua o ID nas 3 ocorrências
-   c) Em index.html: remova a linha ".ad-slot { display: none; }" no CSS
-   d) Em index.html: descomente os blocos <ins class="adsbygoogle"> em
-      #adSlotLeaderboard, #adSlotSidebar e no in-article
-   e) Em ads.txt: descomente a linha google.com e substitua o ID
-   f) Verifique em adstxt.guru após o deploy
+Observação:
+- Enquanto isso não for preenchido, a área de interação aparece pronta para ativação, mas não publica comentários ainda
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-O QUE NÃO FOI MODIFICADO
+COMO MANTER O ARQUIVO ACUMULANDO NAS PRÓXIMAS ATUALIZAÇÕES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-- sitemap.xml (mantenha o atual do repositório)
-- posts.js (o feed de artigos não foi alterado)
-- Toda a lógica editorial, de busca e de renderização do index.html
 
-ORDEM DE UPLOAD RECOMENDADA:
-1) ads.txt
-2) index.html
-3) anuncie.html
-4) media-kit.html
-5) politica-de-privacidade.html
-6) termos-de-uso.html
-7) assets/og-default.jpg (criar a pasta e adicionar a imagem)
+Opção manual:
+- Continue sempre adicionando novos artigos ao posts.json / posts.js sem apagar os antigos
+
+Opção recomendada:
+- Use o script:
+  python merge_posts_helper.py posts.json novo_lote.json
+
+Resultado:
+- merged_posts.json
+- merged_posts.js
+
+Depois:
+- renomeie os arquivos mesclados para posts.json e posts.js antes do upload
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ARQUIVOS NOVOS NESTE PACOTE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- giscus-config.js
+- merge_posts_helper.py
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ORDEM DE UPLOAD RECOMENDADA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1) index.html
+2) posts.json
+3) posts.js
+4) giscus-config.js
+5) merge_posts_helper.py (opcional, só para manutenção local)
+6) demais arquivos institucionais, se desejar manter o pacote todo sincronizado
