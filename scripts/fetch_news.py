@@ -335,8 +335,25 @@ def truncate(text: str, limit: int) -> str:
     text = collapse_ws(text)
     if len(text) <= limit:
         return text
-    cut = text[:limit].rsplit(' ', 1)[0].strip()
-    return f'{cut}…'
+    cut = text[:limit].rsplit(' ', 1)[0].strip().rstrip(' .;:,-–—')
+    return f'{cut}.' if cut else ''
+
+
+def smooth_prose(text: str) -> str:
+    text = collapse_ws(text)
+    if not text:
+        return ''
+    text = text.replace('…', '.')
+    text = re.sub(r'\.{3,}', '.', text)
+    text = re.sub(r'\s+[–—-]\s+', ', ', text)
+    text = re.sub(r'(?<=\w)[–—](?=\w)', ', ', text)
+    text = re.sub(r'\s*,\s*,+', ', ', text)
+    text = re.sub(r'\s*;\s*', '. ', text)
+    text = re.sub(r'\s*:\s*', ': ', text)
+    text = re.sub(r'\s+([,.;:!?])', r'\1', text)
+    text = re.sub(r'([,.;:!?]){2,}', r'\1', text)
+    text = re.sub(r'\.(?=\w)', '. ', text)
+    return collapse_ws(text).strip()
 
 
 def unique_keep_order(items: Iterable) -> list:
@@ -1047,14 +1064,14 @@ def distinct_facts(facts: list[str], limit: int = 4) -> list[str]:
 
 
 def trimmed_fact(text: str, limit: int = 240) -> str:
-    text = collapse_ws(text)
+    text = smooth_prose(text)
     text = re.sub(r'^[A-Z][^:]{0,28}:\s+', '', text)
     return truncate(text, limit)
 
 
 def build_deck(summary: str, facts: list[str]) -> str:
     def clean(t: str) -> str:
-        t = collapse_ws(t)
+        t = smooth_prose(t)
         t = re.sub(r'^[A-Z][^:]{0,24}:\s+', '', t)
         t = re.sub(r'\s*\(.*?\)', '', t)
         return truncate(t, 240)
@@ -1108,11 +1125,14 @@ def _cat_field(category: str, lang: str) -> str:
 
 
 def _fact_clause(text: str, limit: int = 175) -> str:
-    text = collapse_ws(text)
+    text = smooth_prose(text)
     text = re.sub(r'^[A-Z][^:]{0,28}:\s+', '', text)
     text = re.sub(r'\s*\[(.*?)\]\s*', ' ', text)
     text = re.sub(r'\s*\((?:credit|image|photo).*?\)\s*', ' ', text, flags=re.I)
-    return truncate(text, limit).rstrip(' .;:,') + '.'
+    text = re.sub(r'https?://\S+', ' ', text, flags=re.I)
+    text = re.sub(r'\b10\.\d{4,9}/\S+\b', ' ', text, flags=re.I)
+    text = re.sub(r'\s+', ' ', text).strip()
+    return truncate(text, limit).rstrip(' .;:,') + '.' if text else ''
 
 
 def _fact_bank(facts: list[str], summary: str) -> list[str]:
@@ -1136,7 +1156,7 @@ def _fact_for_paragraph(text: str, limit: int = 180, lower: bool = False) -> str
 
 
 def _join_sentences(sentences: list[str]) -> str:
-    parts = [collapse_ws(s).rstrip(' .') for s in sentences if collapse_ws(s)]
+    parts = [smooth_prose(s).rstrip(' .') for s in sentences if smooth_prose(s)]
     cleaned = []
     for part in parts:
         if not part:
