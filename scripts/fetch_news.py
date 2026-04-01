@@ -1124,362 +1124,189 @@ def _fact_bank(facts: list[str], summary: str) -> list[str]:
     return distinct_facts(bank, 12)
 
 
-def _p1_lede(title: str, summary: str, facts: list[str], source_type: str, category: str, lang: str, seed: str) -> str:
-    s = truncate(collapse_ws(summary or title), 260)
-    f0 = _fact_clause(facts[0], 180) if facts else s
-    cat = _cat_field(category, lang)
-
-    if lang == 'en':
-        sc = _strip_agent_prefix(s)
-        if source_type == 'preprint':
-            opts = [
-                f'{s}',
-                f'New work in {cat} puts forward a result that deserves close attention: {_lc(sc)}',
-                f'The article centers on a concrete claim in {cat}. {_lc(f0)}',
-                f'A new analysis in {cat} has sharpened the picture. {_lc(sc)}',
-            ]
-        elif source_type == 'agency':
-            opts = [
-                f'{s}',
-                f'The new institutional update in {cat} is built around a clear development: {_lc(sc)}',
-                f'This report from {cat} is not just a headline. {_lc(f0)}',
-                f'{sc} The announcement reflects an extended chain of observation, instrumentation, or mission work.',
-            ]
-        else:
-            opts = [
-                f'{s}',
-                f'Published research in {cat} has now crystallized around a specific finding: {_lc(sc)}',
-                f'The peer-reviewed result advances the conversation in {cat}. {_lc(f0)}',
-                f'{s} In practice, that means the field now has a firmer empirical foothold than before.',
-            ]
-    else:
-        sc = _strip_agent_prefix(s)
-        if source_type == 'preprint':
-            opts = [
-                f'{s}',
-                f'Um novo trabalho em {cat} apresenta um resultado que merece atenção cuidadosa: {_lc(sc)}',
-                f'A matéria gira em torno de uma afirmação concreta em {cat}. {_lc(f0)}',
-                f'Uma nova análise em {cat} deixou o quadro mais nítido. {_lc(sc)}',
-            ]
-        elif source_type == 'agency':
-            opts = [
-                f'{s}',
-                f'A nova atualização institucional em {cat} se apoia em um desenvolvimento claro: {_lc(sc)}',
-                f'Este relato em {cat} não é apenas manchete. {_lc(f0)}',
-                f'{sc} O anúncio reflete uma cadeia mais longa de observação, instrumentação ou trabalho de missão.',
-            ]
-        else:
-            opts = [
-                f'{s}',
-                f'Uma pesquisa publicada em {cat} agora se organiza em torno de um achado específico: {_lc(sc)}',
-                f'O resultado revisado por pares avança a conversa em {cat}. {_lc(f0)}',
-                f'{s} Na prática, isso significa que o campo passa a ter um apoio empírico mais firme do que antes.',
-            ]
-    return stable_pick(opts, seed + 'p1')
+def _clean_fact_sentence(text: str, limit: int = 180) -> str:
+    text = _fact_clause(text, limit)
+    text = _strip_agent_prefix(text)
+    return collapse_ws(text)
 
 
-def _p2_context(summary: str, facts: list[str], category: str, source_type: str, lang: str, seed: str) -> str:
-    f0 = _fact_clause(facts[0], 170) if facts else ''
-    cat = _cat_field(category, lang)
-
-    cat_context_en = {
-        'Astronomia': 'Astronomy progresses by stacking observations across wavelengths, instruments, and timescales. Any robust result matters because it either tightens or destabilizes the models that were already on the table.',
-        'Cosmologia': 'Cosmology is in an unusually data-rich phase. Precision surveys are no longer merely cataloguing the universe; they are stress-testing the standard model with enough statistical power to expose tensions.',
-        'Astrofísica': 'Astrophysics becomes persuasive when it links an observed signal to a defensible physical mechanism. The crucial move is not just seeing something unusual, but showing why the interpretation is physically coherent.',
-        'Exoplanetas': 'Exoplanet science is no longer limited to discovering worlds. The field now tries to characterize populations, atmospheres, and orbital architectures, which makes every well-measured target more informative than a decade ago.',
-        'Física': 'Physics lives or dies by control, calibration, and reproducibility. Surprising claims do not matter until the measurement chain is strong enough to survive hostile scrutiny.',
-        'Biologia': 'Biology rarely hands out universal conclusions for free. What matters first is the system under study, the method used, and whether the effect is likely to generalize beyond the immediate experiment.',
-        'Química': 'In chemistry, a result becomes meaningful when the characterization is rich enough that other groups can tell whether they are looking at the same thing or merely a superficially similar signal.',
-        'Ciências da Terra': 'Earth science is strongest when local observations can be placed inside longer temporal records and broader physical context. One datapoint is interesting; convergent records are evidence.',
-    }
-    cat_context_pt = {
-        'Astronomia': 'A astronomia progride empilhando observações em diferentes comprimentos de onda, instrumentos e escalas de tempo. Um resultado robusto importa porque aperta ou desestabiliza os modelos que já estavam em jogo.',
-        'Cosmologia': 'A cosmologia atravessa uma fase excepcionalmente rica em dados. Levantamentos de alta precisão já não apenas catalogam o universo; eles colocam o modelo padrão sob estresse com poder estatístico suficiente para expor tensões.',
-        'Astrofísica': 'A astrofísica se torna convincente quando liga um sinal observado a um mecanismo físico defensável. O movimento crucial não é apenas ver algo incomum, mas mostrar por que a interpretação faz sentido fisicamente.',
-        'Exoplanetas': 'A ciência de exoplanetas já não se limita a descobrir mundos. O campo agora tenta caracterizar populações, atmosferas e arquiteturas orbitais, o que torna cada alvo bem medido mais informativo do que teria sido uma década atrás.',
-        'Física': 'A física vive e morre por controle, calibração e reprodutibilidade. Afirmações surpreendentes não significam muito até que a cadeia de medição seja forte o bastante para sobreviver a um escrutínio hostil.',
-        'Biologia': 'A biologia raramente entrega conclusões universais de graça. O que importa primeiro é o sistema estudado, o método utilizado e se o efeito provavelmente se generaliza para além do experimento imediato.',
-        'Química': 'Na química, um resultado se torna significativo quando a caracterização é rica o bastante para que outros grupos consigam distinguir se estão vendo a mesma coisa ou apenas um sinal superficialmente parecido.',
-        'Ciências da Terra': 'As ciências da Terra ficam mais fortes quando observações locais podem ser colocadas dentro de registros temporais mais longos e de um contexto físico mais amplo. Um ponto de dados é interessante; registros convergentes são evidência.',
-    }
-
-    ctx = (cat_context_en if lang == 'en' else cat_context_pt).get(category, '')
-    if lang == 'en':
-        lead = stable_pick([
-            ctx,
-            f'To put the story in context, it helps to remember something basic about {cat}: {_lc(ctx)}',
-            f'This matters because {_lc(ctx)}',
-        ], seed + 'p2lead')
-        tail = f' The current report adds a concrete element to that larger picture: {_lc(f0)}' if f0 else ''
-    else:
-        lead = stable_pick([
-            ctx,
-            f'Para situar a história no contexto, vale lembrar algo básico sobre {cat}: {_lc(ctx)}',
-            f'Isso importa porque {_lc(ctx)}',
-        ], seed + 'p2lead')
-        tail = f' O relato atual acrescenta um elemento concreto a esse quadro maior: {_lc(f0)}' if f0 else ''
-    return (lead + tail).strip()
+def _fact_for_paragraph(text: str, limit: int = 180, lower: bool = False) -> str:
+    cleaned = _clean_fact_sentence(text, limit)
+    return _lc(cleaned) if lower and cleaned else cleaned
 
 
-def _detail_openers(lang: str) -> list[str]:
-    if lang == 'en':
-        return [
-            'In more concrete terms,',
-            'Another operational detail is this:',
-            'The article also makes clear that',
-            'The report adds another layer:',
-            'A further relevant point is that',
-        ]
-    return [
-        'Em termos mais concretos,',
-        'Outro detalhe operacional é este:',
-        'A matéria também deixa claro que',
-        'O relato acrescenta outra camada:',
-        'Um ponto adicional relevante é que',
-    ]
-
-
-def _detail_closers(category: str, lang: str) -> list[str]:
-    en = {
-        'Astronomia': [
-            'That is the kind of detail that turns a general observation into an astrophysical constraint.',
-            'This is where a broad report starts becoming scientifically specific.',
-            'Details like this are what give the story real observational weight.',
-        ],
-        'Cosmologia': [
-            'This is precisely the sort of detail that matters when small systematic effects can mimic deep cosmological implications.',
-            'In cosmology, a claim only grows up when this level of technical specificity is visible.',
-            'That kind of precision is what keeps grand conclusions from floating free of the data.',
-        ],
-        'Astrofísica': [
-            'That helps separate mere detection from an interpretation with physical teeth.',
-            'It is exactly this sort of grounding that keeps the explanation physically serious.',
-            'Without details like these, the mechanism would remain far less convincing.',
-        ],
-        'Exoplanetas': [
-            'That distinction is crucial when the field is trying to move from hints to robust characterization.',
-            'This is how an attractive target begins to turn into a scientifically usable world.',
-            'Without this level of detail, the story would remain much more speculative.',
-        ],
-        'Física': [
-            'In a mature field, this level of detail is what separates noise from signal.',
-            'That is the kind of specificity experimental physics demands before relaxing.',
-            'This is exactly where credibility starts to harden.',
-        ],
-        'Biologia': [
-            'Without that level of specificity, the biological meaning would remain much weaker.',
-            'This is the sort of detail that determines whether the effect is mechanistic or merely descriptive.',
-            'In biology, interpretive strength grows only when the conditions are this explicit.',
-        ],
-        'Química': [
-            'Without careful characterization, the claim would be far easier to overstate.',
-            'This is where chemical interpretation stops being decorative and starts being testable.',
-            'Details like these are what keep structural claims from becoming hand-waving.',
-        ],
-        'Ciências da Terra': [
-            'Placed in context, this is how a local measurement begins to support a broader physical reading.',
-            'This is the sort of specificity that lets Earth science scale from an event to a process.',
-            'Without this, the observation would remain far more local and fragile.',
-        ],
-    }
-    pt = {
-        'Astronomia': [
-            'É esse tipo de detalhe que transforma uma observação geral em uma restrição astrofísica.',
-            'É aqui que um relato amplo começa a ganhar especificidade científica real.',
-            'Detalhes como esse são o que dão peso observacional à matéria.',
-        ],
-        'Cosmologia': [
-            'É exatamente esse tipo de detalhe que importa quando pequenos efeitos sistemáticos podem imitar implicações cosmológicas profundas.',
-            'Na cosmologia, uma afirmação só amadurece quando esse grau de especificidade técnica aparece.',
-            'É essa precisão que impede conclusões grandiosas de flutuarem soltas dos dados.',
-        ],
-        'Astrofísica': [
-            'Isso ajuda a separar mera detecção de uma interpretação com densidade física real.',
-            'É justamente esse tipo de ancoragem que mantém a explicação fisicamente séria.',
-            'Sem detalhes assim, o mecanismo permaneceria muito menos convincente.',
-        ],
-        'Exoplanetas': [
-            'Essa distinção é crucial quando o campo tenta sair de indícios para uma caracterização robusta.',
-            'É assim que um alvo atraente começa a se transformar em um mundo cientificamente utilizável.',
-            'Sem esse nível de detalhe, a história permaneceria muito mais especulativa.',
-        ],
-        'Física': [
-            'Em um campo maduro, esse nível de detalhe é o que separa ruído de sinal.',
-            'É esse tipo de especificidade que a física experimental exige antes de relaxar.',
-            'É aqui que a credibilidade realmente começa a endurecer.',
-        ],
-        'Biologia': [
-            'Sem esse nível de especificidade, o significado biológico permaneceria muito mais fraco.',
-            'É esse tipo de detalhe que decide se o efeito é mecanístico ou apenas descritivo.',
-            'Na biologia, a força interpretativa cresce quando as condições estão assim explicitadas.',
-        ],
-        'Química': [
-            'Sem caracterização cuidadosa, a afirmação seria muito mais fácil de exagerar.',
-            'É aqui que a interpretação química deixa de ser decorativa e começa a ser testável.',
-            'Detalhes como esses impedem que afirmações estruturais virem mero gestual.',
-        ],
-        'Ciências da Terra': [
-            'Colocado em contexto, é assim que uma medição local começa a sustentar uma leitura física mais ampla.',
-            'Esse é o tipo de especificidade que permite às ciências da Terra passar de um evento a um processo.',
-            'Sem isso, a observação permaneceria muito mais local e frágil.',
-        ],
-    }
-    return (pt if lang == 'pt' else en).get(category, (pt if lang == 'pt' else en)['Astronomia'])
-
-
-def _build_fact_paragraphs(facts: list[str], category: str, lang: str, seed: str) -> list[str]:
-    facts = distinct_facts([_fact_clause(f, 175) for f in facts], 10)
-    usable = facts[1:9] if len(facts) > 1 else facts[:]
-    chunks = [usable[i:i + 2] for i in range(0, len(usable), 2)]
-    paragraphs = []
-    openers = _detail_openers(lang)
-    closers = _detail_closers(category, lang)
-
-    for idx, chunk in enumerate(chunks[:4]):
-        if not chunk:
+def _join_sentences(sentences: list[str]) -> str:
+    parts = [collapse_ws(s).rstrip(' .') for s in sentences if collapse_ws(s)]
+    cleaned = []
+    for part in parts:
+        if not part:
             continue
-        opener = openers[stable_index(seed + f'detail-open-{idx}', len(openers))]
-        closing = closers[stable_index(seed + f'detail-close-{idx}', len(closers))]
-        join_first = chunk[0] if opener.endswith(':') else _lc(chunk[0])
-        if len(chunk) == 1:
-            paragraph = f'{opener} {join_first} {closing}'
-        else:
-            connector = ' In the same direction,' if lang == 'en' else ' Na mesma direção,'
-            paragraph = f'{opener} {join_first}{connector} {_lc(chunk[1])} {closing}'
-        paragraphs.append(paragraph.strip())
-    return paragraphs
+        if part and part[0].isalpha():
+            part = part[0].upper() + part[1:]
+        cleaned.append(part)
+    if not cleaned:
+        return ''
+    return '. '.join(cleaned).strip().rstrip('.') + '.'
 
 
-def _p_significance(title: str, summary: str, facts: list[str], category: str, source_type: str, lang: str, seed: str) -> str:
-    f0 = _fact_clause(facts[0], 165) if facts else truncate(summary or title, 165)
+def _intro_connector(lang: str, source_type: str) -> str:
+    if lang == 'en':
+        return {
+            'preprint': 'The new analysis still awaits peer review, but it already lays out the central claim clearly.',
+            'agency': 'The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.',
+            'journal': 'The published study gives the result a firmer scientific footing and helps place it inside the wider research landscape.',
+        }[source_type]
+    return {
+        'preprint': 'A análise ainda aguarda revisão por pares, mas já apresenta com clareza o ponto central da história.',
+        'agency': 'O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão.',
+        'journal': 'O estudo publicado dá ao resultado um lastro científico mais firme e ajuda a situá-lo no panorama mais amplo da pesquisa.',
+    }[source_type]
+
+
+def _context_bridge(category: str, lang: str) -> str:
+    context_en = {
+        'Astronomia': 'That matters because astronomy advances when separate observations start pointing in the same direction.',
+        'Cosmologia': 'That matters because cosmology only moves forward when independent datasets survive comparison under tight control of uncertainties.',
+        'Astrofísica': 'That matters because astrophysics becomes persuasive when an observed signal can be tied to a defensible physical explanation.',
+        'Exoplanetas': 'That matters because exoplanet science now depends less on isolated discoveries and more on careful characterization.',
+        'Física': 'That matters because physics only takes a result seriously when the measurement chain remains robust under scrutiny.',
+        'Biologia': 'That matters because biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern.',
+        'Química': 'That matters because chemistry gains force when a claimed structure or process can be described with enough detail to be tested by others.',
+        'Ciências da Terra': 'That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern.',
+    }
+    context_pt = {
+        'Astronomia': 'Isso importa porque a astronomia avança quando observações diferentes começam a apontar na mesma direção.',
+        'Cosmologia': 'Isso importa porque a cosmologia só avança quando conjuntos independentes de dados sobrevivem à comparação sob controle rigoroso das incertezas.',
+        'Astrofísica': 'Isso importa porque a astrofísica se torna convincente quando um sinal observado pode ser ligado a uma explicação física defensável.',
+        'Exoplanetas': 'Isso importa porque a ciência de exoplanetas hoje depende menos de descobertas isoladas e mais de caracterização cuidadosa.',
+        'Física': 'Isso importa porque a física só leva um resultado a sério quando a cadeia de medição permanece robusta sob escrutínio.',
+        'Biologia': 'Isso importa porque a biologia se torna mais informativa quando um efeito observado começa a se parecer com um mecanismo, e não com um padrão isolado.',
+        'Química': 'Isso importa porque a química ganha força quando uma estrutura ou processo alegado pode ser descrito com detalhe suficiente para ser testado por outros grupos.',
+        'Ciências da Terra': 'Isso importa porque as ciências da Terra ficam mais fortes quando observações locais podem ser encaixadas em um padrão físico mais amplo.',
+    }
+    return (context_en if lang == 'en' else context_pt).get(category, (context_en if lang == 'en' else context_pt)['Astronomia'])
+
+
+def _significance_bridge(category: str, lang: str) -> str:
     significance_en = {
-        'Astronomia': 'The broader significance here is not just the object itself, but the way the measurement helps narrow what is still physically plausible.',
-        'Cosmologia': 'The significance goes beyond a single dataset because cosmology progresses by consistency checks across independent surveys and inference pipelines.',
-        'Astrofísica': 'Its importance lies in turning an observational clue into something that can be tested against competing physical models.',
-        'Exoplanetas': 'What matters most is that the target becomes less anecdotal and more comparative, which is how this field matures.',
-        'Física': 'The real weight of the result is methodological as much as empirical: if the procedure holds, the claim becomes transportable.',
-        'Biologia': 'Its relevance depends on whether the observed effect points to a mechanism rather than a one-off correlation.',
-        'Química': 'The result matters when the claimed structure, pathway, or material property can be independently pinned down.',
-        'Ciências da Terra': 'The significance is strongest when the observation plugs into larger climatic, geophysical, or environmental dynamics.',
+        'Astronomia': 'What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible explanations.',
+        'Cosmologia': 'The relevance goes beyond one dataset because even small shifts can matter when the field is testing the limits of the standard model.',
+        'Astrofísica': 'The broader interest lies in turning an observational clue into something that can be weighed against competing models.',
+        'Exoplanetas': 'The broader interest lies in making the target less anecdotal and more comparable with the rest of the population.',
+        'Física': 'The broader interest lies as much in the method as in the headline result, because a durable procedure can travel farther than a single number.',
+        'Biologia': 'The broader interest lies in whether the reported effect points toward a real mechanism and not merely a one-off association.',
+        'Química': 'The broader interest lies in whether the claimed property or pathway can be fixed with enough precision to support replication.',
+        'Ciências da Terra': 'The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics larger than the immediate event.',
     }
     significance_pt = {
-        'Astronomia': 'A importância mais ampla aqui não está apenas no objeto em si, mas na maneira como a medição ajuda a estreitar o que ainda é fisicamente plausível.',
-        'Cosmologia': 'A relevância vai além de um único conjunto de dados porque a cosmologia progride por testes de consistência entre levantamentos independentes e diferentes pipelines de inferência.',
-        'Astrofísica': 'Sua importância está em transformar uma pista observacional em algo que possa ser testado contra modelos físicos concorrentes.',
-        'Exoplanetas': 'O que mais importa é que o alvo se torna menos anedótico e mais comparável, e é assim que esse campo amadurece.',
-        'Física': 'O peso real do resultado é tanto metodológico quanto empírico: se o procedimento se sustenta, a afirmação se torna transportável.',
-        'Biologia': 'Sua relevância depende de o efeito observado apontar para um mecanismo, e não apenas para uma correlação isolada.',
-        'Química': 'O resultado importa quando a estrutura, rota ou propriedade material alegada pode ser fixada de modo independente.',
-        'Ciências da Terra': 'A relevância é mais forte quando a observação se conecta com dinâmicas climáticas, geofísicas ou ambientais mais amplas.',
+        'Astronomia': 'O que dá peso à história não é apenas o objeto em si, mas a maneira como a medição reduz o espaço das explicações plausíveis.',
+        'Cosmologia': 'A relevância vai além de um único conjunto de dados porque até deslocamentos pequenos importam quando o campo testa os limites do modelo padrão.',
+        'Astrofísica': 'O interesse mais amplo está em transformar uma pista observacional em algo que possa ser comparado com modelos concorrentes.',
+        'Exoplanetas': 'O interesse mais amplo está em tornar o alvo menos anedótico e mais comparável com o restante da população conhecida.',
+        'Física': 'O interesse mais amplo está tanto no método quanto no resultado principal, porque um procedimento sólido viaja mais longe do que um único número.',
+        'Biologia': 'O interesse mais amplo está em saber se o efeito relatado aponta para um mecanismo real, e não apenas para uma associação isolada.',
+        'Química': 'O interesse mais amplo está em saber se a propriedade ou rota alegada pode ser fixada com precisão suficiente para sustentar replicação.',
+        'Ciências da Terra': 'O interesse mais amplo está em ligar a observação a dinâmicas climáticas, geofísicas ou ambientais maiores que o evento imediato.',
     }
-
-    sig = (significance_en if lang == 'en' else significance_pt).get(
-        category, (significance_en if lang == 'en' else significance_pt)['Astronomia']
-    )
-
-    if lang == 'en':
-        opts = [
-            f'{sig} In this case, {_lc(f0)}',
-            f'{sig} That is why the article deserves to be read as more than a passing update.',
-            f'Read carefully, the significance is cumulative rather than theatrical. {sig}',
-        ]
-    else:
-        opts = [
-            f'{sig} Neste caso, {_lc(f0)}',
-            f'{sig} É por isso que a matéria merece ser lida como mais do que uma atualização passageira.',
-            f'Lido com cuidado, o significado aqui é cumulativo, não teatral. {sig}',
-        ]
-    return stable_pick(opts, seed + 'psig')
+    return (significance_en if lang == 'en' else significance_pt).get(category, (significance_en if lang == 'en' else significance_pt)['Astronomia'])
 
 
-def _p_evidence_status(source: str, source_type: str, lang: str, seed: str) -> str:
+def _evidence_note(source: str, source_type: str, lang: str) -> str:
     if lang == 'en':
         if source_type == 'preprint':
-            opts = [
-                'There is, however, an unavoidable caution flag: this is still a preprint. That means the claims may prove robust, but they have not yet crossed the formal filter of peer review.',
-                'A rigorous reading still requires restraint. Because this is a preprint, the evidential status is provisional even if the result is interesting.',
-            ]
-        elif source_type == 'agency':
-            opts = [
-                f'The source base also matters. Because this story comes from {source}, it should be read as a primary institutional account of a result, mission update, or analysis pipeline, not as a substitute for later independent scrutiny.',
-                f'As always, the provenance matters. An institutional source such as {source} is valuable because it sits close to the data and operations, but it is still not the endpoint of scientific validation.',
-            ]
-        else:
-            opts = [
-                'The evidential footing is stronger here because the result appears in the peer-reviewed literature, though even published work remains open to revision under new data and replication.',
-                'Peer review does not make a result sacred, but it does mean the claim has passed a first round of formal methodological scrutiny before reaching a wider audience.',
-            ]
-    else:
-        if source_type == 'preprint':
-            opts = [
-                'Existe, porém, uma bandeira de cautela inevitável: isto ainda é um preprint. Isso significa que as afirmações podem se mostrar robustas, mas ainda não atravessaram o filtro formal da revisão por pares.',
-                'Uma leitura rigorosa ainda exige contenção. Como se trata de um preprint, o status evidencial é provisório mesmo que o resultado seja interessante.',
-            ]
-        elif source_type == 'agency':
-            opts = [
-                f'A base da fonte também importa. Como esta história vem de {source}, ela deve ser lida como um relato institucional primário sobre um resultado, uma atualização de missão ou uma análise, e não como substituto para o escrutínio independente posterior.',
-                f'Como sempre, a procedência importa. Uma fonte institucional como {source} é valiosa porque está próxima dos dados e das operações, mas ainda não representa o ponto final da validação científica.',
-            ]
-        else:
-            opts = [
-                'O lastro evidencial aqui é mais forte porque o resultado aparece na literatura revisada por pares, embora mesmo trabalhos publicados permaneçam abertos a revisão sob novos dados e replicações.',
-                'Revisão por pares não torna um resultado sagrado, mas significa que a afirmação atravessou uma primeira rodada formal de escrutínio metodológico antes de chegar ao público mais amplo.',
-            ]
-    return stable_pick(opts, seed + 'pevidence')
+            return 'Because this is still a preprint, the result should be read with interest and caution until peer review and independent follow-up show how much of it holds.'
+        if source_type == 'agency':
+            return f'Because the account comes from {source}, it works best as a primary institutional report close to the data and operations, not as the final word on scientific validation.'
+        return 'Because the study has passed peer review, the evidential footing is stronger, though no published result is beyond revision when better data arrive.'
+    if source_type == 'preprint':
+        return 'Como isto ainda é um preprint, o resultado deve ser lido com interesse e cautela até que a revisão por pares e a verificação independente mostrem quanto dele se sustenta.'
+    if source_type == 'agency':
+        return f'Como o relato vem de {source}, ele funciona melhor como uma fonte institucional primária, próxima dos dados e das operações, e não como a palavra final sobre validação científica.'
+    return 'Como o estudo passou por revisão por pares, o lastro evidencial é mais forte, embora nenhum trabalho publicado esteja imune a revisão quando chegam dados melhores.'
 
 
-def _p_closing(facts: list[str], category: str, source_type: str, lang: str, seed: str) -> str:
-    next_steps_en = {
-        'Astronomia': 'The next decisive test will come from independent observations at other wavelengths or with other instruments, which is how the field usually separates durable results from transient excitement.',
-        'Cosmologia': 'What matters now is whether the effect remains standing when other surveys, other calibrations, and tighter controls on systematics are brought to bear.',
-        'Astrofísica': 'From here onward, the decisive question is whether independent datasets and physical modeling converge on the same interpretation.',
-        'Exoplanetas': 'The natural next step is better independent constraints on mass, radius, atmosphere, and orbital geometry, because robust characterization is what turns an intriguing world into a meaningful one.',
-        'Física': 'The only honest next move is more measurement, more scrutiny, and less tolerance for interpretations that survive only under narrow assumptions.',
-        'Biologia': 'The next real filter is reproducibility across systems and methods, without mistaking early promise for settled understanding.',
-        'Química': 'The advance will truly solidify when independent groups and orthogonal techniques converge on the same interpretation.',
-        'Ciências da Terra': 'The strongest confirmation will come from placing this result inside longer time series and other independent instruments, reducing the risk of reading too much into a single episode.',
+def _closing_line(category: str, source_type: str, lang: str) -> str:
+    closing_en = {
+        'Astronomia': 'The next step is to see whether other instruments and other wavelengths tell the same story.',
+        'Cosmologia': 'The next step is to see whether the effect survives when other surveys, calibrations and controls on systematics enter the picture.',
+        'Astrofísica': 'The next step is to see whether independent datasets and physical modeling converge on the same interpretation.',
+        'Exoplanetas': 'The next step is to improve independent constraints on the world\'s mass, radius, atmosphere and orbit.',
+        'Física': 'The next step is more measurement, tighter control and less patience for interpretations that depend on fragile assumptions.',
+        'Biologia': 'The next step is to test whether the effect repeats across methods, systems and experimental conditions.',
+        'Química': 'The next step is to see whether independent groups and orthogonal techniques reach the same conclusion.',
+        'Ciências da Terra': 'The next step is to place the result inside longer series and compare it with other independent instruments.',
     }
-    next_steps_pt = {
-        'Astronomia': 'O próximo teste decisivo virá de observações independentes em outros comprimentos de onda ou com outros instrumentos, que é como o campo normalmente separa resultados duráveis de entusiasmo transitório.',
-        'Cosmologia': 'O que importa agora é saber se o efeito permanece de pé quando outros levantamentos, outras calibrações e controles mais rígidos de sistemáticos entram em cena.',
-        'Astrofísica': 'Daqui em diante, a questão decisiva é se conjuntos de dados independentes e modelagem física convergem para a mesma interpretação.',
-        'Exoplanetas': 'O próximo passo natural é obter restrições independentes melhores para massa, raio, atmosfera e geometria orbital, porque caracterização robusta é o que transforma um mundo intrigante em um mundo cientificamente significativo.',
-        'Física': 'O único movimento intelectualmente honesto daqui para frente é mais medição, mais escrutínio e menos tolerância a interpretações que sobrevivem apenas sob premissas estreitas.',
-        'Biologia': 'O próximo filtro real é a reprodutibilidade em diferentes sistemas e métodos, sem confundir promessa inicial com compreensão estabelecida.',
-        'Química': 'O avanço só se consolida de fato quando grupos independentes e técnicas ortogonais convergem para a mesma interpretação.',
-        'Ciências da Terra': 'A confirmação mais forte virá de situar este resultado em séries temporais mais longas e outros instrumentos independentes, reduzindo o risco de extrair demais de um único episódio.',
+    closing_pt = {
+        'Astronomia': 'O próximo passo é verificar se outros instrumentos e outros comprimentos de onda contam a mesma história.',
+        'Cosmologia': 'O próximo passo é saber se o efeito resiste quando outros levantamentos, calibrações e controles de sistemáticos entram em cena.',
+        'Astrofísica': 'O próximo passo é ver se conjuntos independentes de dados e modelagem física convergem para a mesma interpretação.',
+        'Exoplanetas': 'O próximo passo é melhorar as restrições independentes sobre massa, raio, atmosfera e órbita desse mundo.',
+        'Física': 'O próximo passo é mais medição, controle mais rígido e menos paciência com interpretações que dependem de premissas frágeis.',
+        'Biologia': 'O próximo passo é testar se o efeito se repete em métodos, sistemas e condições experimentais diferentes.',
+        'Química': 'O próximo passo é verificar se grupos independentes e técnicas ortogonais chegam à mesma conclusão.',
+        'Ciências da Terra': 'O próximo passo é situar o resultado em séries mais longas e compará-lo com outros instrumentos independentes.',
     }
-    closing = (next_steps_en if lang == 'en' else next_steps_pt).get(
-        category, (next_steps_en if lang == 'en' else next_steps_pt)['Astronomia']
-    )
-
+    closing = (closing_en if lang == 'en' else closing_pt).get(category, (closing_en if lang == 'en' else closing_pt)['Astronomia'])
     if source_type == 'preprint':
         closing += ' ' + (
-            'Until then, the correct posture is interest without surrendering skepticism.'
+            'Until then, skepticism remains part of the job.'
             if lang == 'en' else
-            'Até lá, a postura correta é interesse sem abdicar do ceticismo.'
+            'Até lá, o ceticismo continua fazendo parte do trabalho.'
         )
     return closing
 
 
 def build_body(title: str, summary: str, facts: list[str], category: str, source: str,
                source_type: str, lang: str, src_url: str) -> str:
-    seed = title + lang
     useful = _fact_bank(facts, summary)
+    lead = _clean_fact_sentence(summary or title, 260)
+    detail_bank = distinct_facts([_clean_fact_sentence(f, 175) for f in useful[1:]], 8)
 
-    paragraphs = [
-        _p1_lede(title, summary, useful, source_type, category, lang, seed),
-        _p2_context(summary, useful, category, source_type, lang, seed),
-        *_build_fact_paragraphs(useful, category, lang, seed),
-        _p_significance(title, summary, useful, category, source_type, lang, seed),
-        _p_evidence_status(source, source_type, lang, seed),
-        _p_closing(useful, category, source_type, lang, seed),
-    ]
+    paragraphs = []
+
+    intro = _join_sentences([
+        lead,
+        _intro_connector(lang, source_type),
+    ])
+    if intro:
+        paragraphs.append(intro)
+
+    if detail_bank:
+        context_bits = [_context_bridge(category, lang)]
+        context_bits.append(_fact_for_paragraph(detail_bank[0], 175))
+        if len(detail_bank) > 1:
+            context_bits.append(_fact_for_paragraph(detail_bank[1], 175))
+        paragraphs.append(_join_sentences(context_bits))
+
+    remaining = detail_bank[2:6]
+    for i in range(0, len(remaining), 2):
+        chunk = remaining[i:i + 2]
+        if not chunk:
+            continue
+        sentences = [_fact_for_paragraph(chunk[0], 175)]
+        if len(chunk) > 1:
+            sentences.append(_fact_for_paragraph(chunk[1], 175))
+        paragraphs.append(_join_sentences(sentences))
+
+    significance = [_significance_bridge(category, lang)]
+    if detail_bank:
+        significance.append(_fact_for_paragraph(detail_bank[-1], 170))
+    paragraphs.append(_join_sentences(significance))
+
+    paragraphs.append(_evidence_note(source, source_type, lang))
+    paragraphs.append(_closing_line(category, source_type, lang))
 
     parts = []
+    seen = set()
     for paragraph in paragraphs:
-        if paragraph and len(collapse_ws(paragraph)) > 45:
-            parts.append(f'<p>{html.escape(collapse_ws(paragraph))}</p>')
+        cleaned = collapse_ws(paragraph)
+        if not cleaned or len(cleaned) <= 45:
+            continue
+        key = normalize_text(cleaned)
+        if key in seen:
+            continue
+        seen.add(key)
+        parts.append(f'<p>{html.escape(cleaned)}</p>')
 
     if src_url:
         label = 'Fonte' if lang == 'pt' else 'Source'
