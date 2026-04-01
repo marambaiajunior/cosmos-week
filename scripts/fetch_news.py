@@ -352,7 +352,7 @@ def smooth_prose(text: str) -> str:
     text = re.sub(r'\s*:\s*', ': ', text)
     text = re.sub(r'\s+([,.;:!?])', r'\1', text)
     text = re.sub(r'([,.;:!?]){2,}', r'\1', text)
-    text = re.sub(r'\.(?=\w)', '. ', text)
+    text = re.sub(r'\.(?=[A-Za-z])', '. ', text)
     return collapse_ws(text).strip()
 
 
@@ -1184,106 +1184,573 @@ def _intro_connector(lang: str, source_type: str) -> str:
 
 
 def _context_bridge(category: str, lang: str) -> str:
-    context_en = {
-        'Astronomia': 'That matters because astronomy advances when separate observations start pointing in the same direction.',
-        'Cosmologia': 'That matters because cosmology only moves forward when independent datasets survive comparison under tight control of uncertainties.',
-        'Astrofísica': 'That matters because astrophysics becomes persuasive when an observed signal can be tied to a defensible physical explanation.',
-        'Exoplanetas': 'That matters because exoplanet science now depends less on isolated discoveries and more on careful characterization.',
-        'Física': 'That matters because physics only takes a result seriously when the measurement chain remains robust under scrutiny.',
-        'Biologia': 'That matters because biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern.',
-        'Química': 'That matters because chemistry gains force when a claimed structure or process can be described with enough detail to be tested by others.',
-        'Ciências da Terra': 'That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern.',
+    en = {
+        'Astronomia': (
+            'That matters because astronomy does not advance on single detections. '
+            'The field builds confidence by accumulating independent observations across different wavelengths, '
+            'instruments and epochs until isolated signals become defensible conclusions. '
+            'What looks convincing in one dataset can dissolve when a second instrument looks at the same target, '
+            'and what looks marginal can solidify when follow-up campaigns confirm the original reading. '
+            'The current standard requires that a result survive this triangulation before the community treats it as settled.'
+        ),
+        'Cosmologia': (
+            'That matters because cosmology operates at the edge of what current instruments can measure, '
+            'where systematic errors and model assumptions are never trivial. '
+            'Small discrepancies between independent measurements have historically pointed toward missing physics '
+            'rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example '
+            'of how a persistent disagreement between methods can reshape the theoretical landscape. '
+            'Each new dataset that approaches this territory with independent systematics adds real information to a problem '
+            'that has resisted easy resolution for more than a decade.'
+        ),
+        'Astrofísica': (
+            'That matters because astrophysics becomes persuasive only when an observed signal can be tied to a '
+            'physically defensible explanation. '
+            'Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, '
+            'but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage '
+            'and careful modeling. '
+            'A detection without a mechanism is only half a result; the other half comes from showing that the signal '
+            'fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models.'
+        ),
+        'Exoplanetas': (
+            'That matters because exoplanet science has moved beyond the era of simple discovery into a period of comparative characterization. '
+            'With more than five thousand confirmed planets known, the scientifically productive questions now concern '
+            'atmospheric composition, internal structure, orbital history and the statistical properties of populations '
+            'rather than the existence of individual worlds. '
+            'A new detection or spectral measurement is most valuable when it adds a well-constrained data point to those '
+            'comparative frameworks, not when it stands alone as an anecdote.'
+        ),
+        'Física': (
+            'That matters because physics only takes a result seriously when the measurement chain remains robust under scrutiny. '
+            'Experimental particle physics and precision metrology both operate in regimes where the signal sits '
+            'far below the background noise, and where systematic uncertainties can mimic new physics if not controlled rigorously. '
+            'The history of the field contains numerous anomalies that generated theoretical excitement before better data '
+            'showed them to be artifacts, and it also contains genuine discoveries that were initially dismissed as noise. '
+            'The difference is almost always resolved by independent replication with different instruments and different systematics.'
+        ),
+        'Biologia': (
+            'That matters because biology becomes more informative when an observed effect begins to look like a mechanism '
+            'rather than an isolated pattern. '
+            'The gap between identifying a correlation in biological data and understanding the causal chain that produces it '
+            'is routinely underestimated, and the history of biomedical research is populated with associations that collapsed '
+            'when the mechanism was sought and not found. '
+            'A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive '
+            'finding because it generates testable predictions that can narrow the hypothesis space.'
+        ),
+        'Química': (
+            'That matters because chemistry gains force when a claimed structure or process can be described with '
+            'enough precision to be reproduced by others. '
+            'Synthetic routes, spectroscopic signatures, yield under defined conditions and stability under realistic '
+            'operating parameters are the currency of credibility in chemistry, and a result that lacks these details '
+            'cannot be evaluated independently. '
+            'The distance between a discovery on a laboratory bench and a process that works reliably at scale is '
+            'measured in years of optimization, and each step reveals constraints that were invisible at smaller scale.'
+        ),
+        'Ciências da Terra': (
+            'That matters because Earth science becomes stronger when local observations can be placed inside a '
+            'broader physical pattern that spans time and geography. '
+            'The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth '
+            'processes interact across timescales from days to millions of years. '
+            'A measurement that captures one variable at one location and one moment has limited interpretive value '
+            'until it is embedded in the longer series and wider spatial coverage that allow natural variability to '
+            'be separated from forced change.'
+        ),
     }
-    context_pt = {
-        'Astronomia': 'Isso importa porque a astronomia avança quando observações diferentes começam a apontar na mesma direção.',
-        'Cosmologia': 'Isso importa porque a cosmologia só avança quando conjuntos independentes de dados sobrevivem à comparação sob controle rigoroso das incertezas.',
-        'Astrofísica': 'Isso importa porque a astrofísica se torna convincente quando um sinal observado pode ser ligado a uma explicação física defensável.',
-        'Exoplanetas': 'Isso importa porque a ciência de exoplanetas hoje depende menos de descobertas isoladas e mais de caracterização cuidadosa.',
-        'Física': 'Isso importa porque a física só leva um resultado a sério quando a cadeia de medição permanece robusta sob escrutínio.',
-        'Biologia': 'Isso importa porque a biologia se torna mais informativa quando um efeito observado começa a se parecer com um mecanismo, e não com um padrão isolado.',
-        'Química': 'Isso importa porque a química ganha força quando uma estrutura ou processo alegado pode ser descrito com detalhe suficiente para ser testado por outros grupos.',
-        'Ciências da Terra': 'Isso importa porque as ciências da Terra ficam mais fortes quando observações locais podem ser encaixadas em um padrão físico mais amplo.',
+    pt = {
+        'Astronomia': (
+            'Isso importa porque a astronomia não avança com detecções isoladas. '
+            'O campo constrói confiança acumulando observações independentes em diferentes comprimentos de onda, '
+            'instrumentos e épocas até que sinais isolados se tornem conclusões defensáveis. '
+            'O que parece convincente em um conjunto de dados pode se dissolver quando um segundo instrumento olha '
+            'para o mesmo alvo, e o que parece marginal pode se solidificar quando campanhas de acompanhamento '
+            'confirmam a leitura original. '
+            'O padrão atual exige que um resultado sobreviva a essa triangulação antes de a comunidade tratá-lo como estabelecido.'
+        ),
+        'Cosmologia': (
+            'Isso importa porque a cosmologia opera na fronteira do que os instrumentos atuais conseguem medir, '
+            'onde erros sistemáticos e suposições de modelo nunca são triviais. '
+            'Pequenas discrepâncias entre medições independentes historicamente apontaram para física ausente '
+            'em vez de simples erros de calibração, e a tensão em curso na constante de Hubble é um exemplo vivo '
+            'de como um desacordo persistente entre métodos pode remodelar o panorama teórico. '
+            'Cada novo conjunto de dados que se aproxima desse território com sistemáticos independentes '
+            'adiciona informação real a um problema que resiste a resolução fácil há mais de uma década.'
+        ),
+        'Astrofísica': (
+            'Isso importa porque a astrofísica se torna convincente apenas quando um sinal observado pode ser '
+            'ligado a uma explicação física defensável. '
+            'Objetos compactos como estrelas de nêutrons e buracos negros são laboratórios naturais para física extrema, '
+            'mas a distância e a complexidade desses sistemas tornam a interpretação difícil sem cobertura '
+            'em múltiplos comprimentos de onda e modelagem cuidadosa. '
+            'Uma detecção sem mecanismo é apenas metade de um resultado; a outra metade vem de mostrar que o sinal '
+            'se encaixa quantitativamente dentro de um quadro físico coerente, em vez de ser apenas consistente '
+            'com uma ampla família de modelos.'
+        ),
+        'Exoplanetas': (
+            'Isso importa porque a ciência de exoplanetas passou da era das descobertas simples para um período '
+            'de caracterização comparativa. '
+            'Com mais de cinco mil planetas confirmados conhecidos, as questões cientificamente produtivas agora '
+            'dizem respeito à composição atmosférica, estrutura interna, história orbital e propriedades estatísticas '
+            'de populações, e não mais à existência de mundos individuais. '
+            'Uma nova detecção ou medição espectral é mais valiosa quando adiciona um ponto de dados bem restringido '
+            'a esses quadros comparativos, não quando existe isolada como anedota.'
+        ),
+        'Física': (
+            'Isso importa porque a física só leva um resultado a sério quando a cadeia de medição permanece '
+            'robusta sob escrutínio. '
+            'A física de partículas experimental e a metrologia de precisão operam em regimes onde o sinal '
+            'está muito abaixo do ruído de fundo, e onde incertezas sistemáticas podem imitar nova física '
+            'se não forem controladas rigorosamente. '
+            'A história do campo contém inúmeras anomalias que geraram entusiasmo teórico antes de dados '
+            'melhores mostrarem que eram artefatos, e também contém descobertas genuínas inicialmente descartadas como ruído. '
+            'A diferença é quase sempre resolvida por replicação independente com instrumentos diferentes e sistemáticos distintos.'
+        ),
+        'Biologia': (
+            'Isso importa porque a biologia se torna mais informativa quando um efeito observado começa a parecer '
+            'um mecanismo e não um padrão isolado. '
+            'A distância entre identificar uma correlação em dados biológicos e compreender a cadeia causal que a produz '
+            'é rotineiramente subestimada, e a história da pesquisa biomédica está repleta de associações que '
+            'desmoronaram quando o mecanismo foi buscado e não encontrado. '
+            'Um resultado que vem com um mecanismo proposto, mesmo que parcial, é mais útil do que uma descoberta '
+            'puramente descritiva porque gera previsões testáveis que podem estreitar o espaço de hipóteses.'
+        ),
+        'Química': (
+            'Isso importa porque a química ganha força quando uma estrutura ou processo alegado pode ser descrito '
+            'com precisão suficiente para ser reproduzido por outros. '
+            'Rotas sintéticas, assinaturas espectroscópicas, rendimento em condições definidas e estabilidade '
+            'em parâmetros operacionais realistas são a moeda de credibilidade na química, e um resultado que '
+            'carece desses detalhes não pode ser avaliado de forma independente. '
+            'A distância entre uma descoberta em bancada de laboratório e um processo que funciona '
+            'confiavelmente em escala é medida em anos de otimização, e cada etapa revela restrições '
+            'que eram invisíveis em escala menor.'
+        ),
+        'Ciências da Terra': (
+            'Isso importa porque as ciências da Terra ficam mais fortes quando observações locais podem ser '
+            'encaixadas em um padrão físico mais amplo que abrange tempo e geografia. '
+            'O planeta opera como um sistema acoplado no qual processos atmosféricos, oceânicos, criosféricos '
+            'e da Terra sólida interagem em escalas de tempo de dias a milhões de anos. '
+            'Uma medição que captura uma variável em um local e um momento tem valor interpretativo limitado '
+            'até ser incorporada nas séries mais longas e na cobertura espacial mais ampla que permitem '
+            'separar variabilidade natural de mudança forçada.'
+        ),
     }
-    return (context_en if lang == 'en' else context_pt).get(category, (context_en if lang == 'en' else context_pt)['Astronomia'])
+    d = en if lang == 'en' else pt
+    return d.get(category, d['Astronomia'])
 
 
 def _significance_bridge(category: str, lang: str) -> str:
-    significance_en = {
-        'Astronomia': 'What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible explanations.',
-        'Cosmologia': 'The relevance goes beyond one dataset because even small shifts can matter when the field is testing the limits of the standard model.',
-        'Astrofísica': 'The broader interest lies in turning an observational clue into something that can be weighed against competing models.',
-        'Exoplanetas': 'The broader interest lies in making the target less anecdotal and more comparable with the rest of the population.',
-        'Física': 'The broader interest lies as much in the method as in the headline result, because a durable procedure can travel farther than a single number.',
-        'Biologia': 'The broader interest lies in whether the reported effect points toward a real mechanism and not merely a one-off association.',
-        'Química': 'The broader interest lies in whether the claimed property or pathway can be fixed with enough precision to support replication.',
-        'Ciências da Terra': 'The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics larger than the immediate event.',
+    en = {
+        'Astronomia': (
+            'What gives the story weight is not just the object itself, but the way the measurement '
+            'trims the range of plausible physical explanations. '
+            'Astronomy has accumulated enough cases to know that the most interesting results are rarely '
+            'the ones that confirm expectations cleanly; they are the ones that confirm some expectations '
+            'while complicating others, or that open a parameter space that previous instruments could not reach. '
+            'The scientific community evaluates these contributions by asking whether the new data constrain '
+            'a model in a way that older data could not, and whether those constraints survive systematic review.'
+        ),
+        'Cosmologia': (
+            'The relevance goes beyond one dataset because even small shifts in measured parameters can matter '
+            'when the field is testing the limits of the standard cosmological model. '
+            'The Lambda-CDM framework describes the observable universe with remarkable economy, '
+            'but its success rests on two components, dark matter and dark energy, '
+            'whose physical nature remains entirely unknown. '
+            'Any credible measurement that tightens or loosens the constraints on those components '
+            'moves the entire theoretical enterprise forward, regardless of whether the immediate result '
+            'looks dramatic on its own terms.'
+        ),
+        'Astrofísica': (
+            'The broader interest lies in turning an observational clue into something that can be '
+            'weighed against competing models of the underlying physics. '
+            'Astrophysics does not have the luxury of controlled experiments; everything is inferred '
+            'from radiation that traveled across cosmic distances under conditions that cannot be reproduced '
+            'in a terrestrial laboratory. '
+            'This makes the interpretation chain longer and more uncertain than in bench science, '
+            'but it also means that a well-constrained measurement of an extreme object carries '
+            'theoretical information that no earthbound experiment can provide.'
+        ),
+        'Exoplanetas': (
+            'The broader interest lies in making the target less anecdotal and more comparable '
+            'with the rest of the known planetary population. '
+            'Population-level questions, such as the frequency of atmospheres around small rocky planets '
+            'or the prevalence of water-rich worlds in the habitable zone, require well-characterized '
+            'individual data points before statistical patterns become meaningful. '
+            'Each new planet with a measured radius, mass and, ideally, atmospheric constraint '
+            'is a brick in that larger structure, and the accumulation of bricks eventually '
+            'allows theorists to test formation models against real distributions rather than projections.'
+        ),
+        'Física': (
+            'The broader interest lies as much in the method as in the headline number, '
+            'because a durable measurement procedure can travel farther than a single result. '
+            'When experimental physicists develop a technique that achieves new sensitivity or '
+            'controls a previously uncharacterized systematic, that methodological contribution '
+            'persists even if the specific measurement is later revised. '
+            'This is one reason why precision physics experiments often generate long-term value '
+            'that is not immediately visible in the original publication.'
+        ),
+        'Biologia': (
+            'The broader interest lies in whether the reported effect points toward a real mechanism '
+            'and not merely a reproducible but unexplained association. '
+            'Biology has learned from decades of biomarker failures that correlation, even robust correlation, '
+            'is not a substitute for mechanistic understanding. '
+            'A pathway that can be traced from molecular interaction to cellular response '
+            'to organismal phenotype provides a far stronger foundation for intervention '
+            'than a statistical association discovered in a large dataset, '
+            'however well the statistics are done.'
+        ),
+        'Química': (
+            'The broader interest lies in whether the claimed property or reaction pathway '
+            'can be characterized with enough precision to support replication by other groups. '
+            'Chemistry has a replication problem that is less discussed than the one in psychology or medicine, '
+            'but it is real: synthetic procedures that work reliably in one laboratory sometimes fail '
+            'to transfer, for reasons ranging from impure starting materials to undocumented temperature sensitivities. '
+            'A result that comes with full experimental detail and a clear characterization of the product '
+            'is far more valuable than one that reports a discovery without the procedural backbone.'
+        ),
+        'Ciências da Terra': (
+            'The broader interest lies in linking the observation to climatic, geophysical '
+            'or environmental dynamics that extend well beyond the immediate event or location. '
+            'Earth science is unusual in that its most important questions operate on timescales '
+            'that no single research career can observe directly, '
+            'making the archival record, whether in ice, sediment, rock or satellite data, '
+            'as important as any new measurement. '
+            'Results that can be embedded in that record, and that either confirm or challenge '
+            'the patterns it reveals, carry disproportionate scientific weight.'
+        ),
     }
-    significance_pt = {
-        'Astronomia': 'O que dá peso à história não é apenas o objeto em si, mas a maneira como a medição reduz o espaço das explicações plausíveis.',
-        'Cosmologia': 'A relevância vai além de um único conjunto de dados porque até deslocamentos pequenos importam quando o campo testa os limites do modelo padrão.',
-        'Astrofísica': 'O interesse mais amplo está em transformar uma pista observacional em algo que possa ser comparado com modelos concorrentes.',
-        'Exoplanetas': 'O interesse mais amplo está em tornar o alvo menos anedótico e mais comparável com o restante da população conhecida.',
-        'Física': 'O interesse mais amplo está tanto no método quanto no resultado principal, porque um procedimento sólido viaja mais longe do que um único número.',
-        'Biologia': 'O interesse mais amplo está em saber se o efeito relatado aponta para um mecanismo real, e não apenas para uma associação isolada.',
-        'Química': 'O interesse mais amplo está em saber se a propriedade ou rota alegada pode ser fixada com precisão suficiente para sustentar replicação.',
-        'Ciências da Terra': 'O interesse mais amplo está em ligar a observação a dinâmicas climáticas, geofísicas ou ambientais maiores que o evento imediato.',
+    pt = {
+        'Astronomia': (
+            'O que dá peso à história não é apenas o objeto em si, mas a maneira como a medição '
+            'reduz o espaço das explicações físicas plausíveis. '
+            'A astronomia acumulou casos suficientes para saber que os resultados mais interessantes '
+            'raramente são os que confirmam expectativas de forma limpa; são os que confirmam algumas '
+            'expectativas enquanto complicam outras, ou que abrem um espaço de parâmetros que instrumentos '
+            'anteriores não podiam alcançar. '
+            'A comunidade científica avalia essas contribuições perguntando se os novos dados restringem '
+            'um modelo de uma forma que dados mais antigos não podiam, e se essas restrições '
+            'sobrevivem à revisão sistemática.'
+        ),
+        'Cosmologia': (
+            'A relevância vai além de um único conjunto de dados porque até pequenas variações nos parâmetros '
+            'medidos podem importar quando o campo testa os limites do modelo cosmológico padrão. '
+            'O arcabouço Lambda-CDM descreve o universo observável com notável economia, '
+            'mas seu sucesso repousa sobre dois componentes, matéria escura e energia escura, '
+            'cuja natureza física permanece completamente desconhecida. '
+            'Qualquer medição confiável que aperte ou afrouxa as restrições sobre esses componentes '
+            'faz avançar todo o empreendimento teórico, independentemente de o resultado imediato '
+            'parecer dramático por si só.'
+        ),
+        'Astrofísica': (
+            'O interesse mais amplo está em transformar uma pista observacional em algo que possa '
+            'ser comparado com modelos concorrentes da física subjacente. '
+            'A astrofísica não tem o luxo de experimentos controlados; tudo é inferido '
+            'a partir de radiação que percorreu distâncias cósmicas sob condições que não podem '
+            'ser reproduzidas em laboratório terrestre. '
+            'Isso torna a cadeia de interpretação mais longa e incerta do que na ciência de bancada, '
+            'mas também significa que uma medição bem restringida de um objeto extremo carrega '
+            'informação teórica que nenhum experimento terrestre pode fornecer.'
+        ),
+        'Exoplanetas': (
+            'O interesse mais amplo está em tornar o alvo menos anedótico e mais comparável '
+            'com o restante da população planetária conhecida. '
+            'Questões em nível de população, como a frequência de atmosferas em torno de planetas '
+            'rochosos pequenos ou a prevalência de mundos ricos em água na zona habitável, '
+            'exigem pontos de dados individuais bem caracterizados antes que padrões estatísticos '
+            'se tornem significativos. '
+            'Cada novo planeta com raio, massa e, idealmente, restrição atmosférica medidos '
+            'é um tijolo nessa estrutura maior, e o acúmulo de tijolos eventualmente permite '
+            'que teóricos testem modelos de formação contra distribuições reais.'
+        ),
+        'Física': (
+            'O interesse mais amplo está tanto no método quanto no número principal, '
+            'porque um procedimento de medição duradouro pode viajar mais longe do que um único resultado. '
+            'Quando físicos experimentais desenvolvem uma técnica que alcança nova sensibilidade '
+            'ou controla um sistemático anteriormente não caracterizado, essa contribuição metodológica '
+            'persiste mesmo que a medição específica seja revisada posteriormente. '
+            'Essa é uma das razões pelas quais experimentos de física de precisão frequentemente '
+            'geram valor de longo prazo que não é imediatamente visível na publicação original.'
+        ),
+        'Biologia': (
+            'O interesse mais amplo está em saber se o efeito relatado aponta para um mecanismo real '
+            'e não apenas para uma associação reproduzível mas inexplicada. '
+            'A biologia aprendeu com décadas de fracassos de biomarcadores que correlação, '
+            'mesmo correlação robusta, não substitui compreensão mecanística. '
+            'Uma via que pode ser rastreada da interação molecular à resposta celular '
+            'ao fenótipo do organismo fornece uma base muito mais sólida para intervenção '
+            'do que uma associação estatística descoberta em um grande conjunto de dados, '
+            'por melhores que sejam as estatísticas.'
+        ),
+        'Química': (
+            'O interesse mais amplo está em saber se a propriedade ou rota de reação alegada '
+            'pode ser caracterizada com precisão suficiente para sustentar replicação por outros grupos. '
+            'A química tem um problema de replicação menos discutido do que o da psicologia ou da medicina, '
+            'mas ele é real: procedimentos sintéticos que funcionam confiavelmente em um laboratório '
+            'às vezes não se transferem, por razões que vão de materiais de partida impuros '
+            'a sensibilidades de temperatura não documentadas. '
+            'Um resultado que vem com detalhes experimentais completos e caracterização clara do produto '
+            'é muito mais valioso do que um que relata uma descoberta sem o arcabouço procedimental.'
+        ),
+        'Ciências da Terra': (
+            'O interesse mais amplo está em ligar a observação a dinâmicas climáticas, geofísicas '
+            'ou ambientais que se estendem muito além do evento ou local imediato. '
+            'As ciências da Terra são incomuns porque suas questões mais importantes operam em escalas '
+            'de tempo que nenhuma carreira científica pode observar diretamente, '
+            'tornando o registro de arquivo, seja em gelo, sedimento, rocha ou dados de satélite, '
+            'tão importante quanto qualquer nova medição. '
+            'Resultados que podem ser incorporados a esse registro e que confirmam ou desafiam '
+            'os padrões que ele revela carregam peso científico desproporcional.'
+        ),
     }
-    return (significance_en if lang == 'en' else significance_pt).get(category, (significance_en if lang == 'en' else significance_pt)['Astronomia'])
+    d = en if lang == 'en' else pt
+    return d.get(category, d['Astronomia'])
 
 
 def _evidence_note(source: str, source_type: str, lang: str) -> str:
     if lang == 'en':
         if source_type == 'preprint':
-            return 'Because this is still a preprint, the result should be read with interest and caution until peer review and independent follow-up show how much of it holds.'
+            return (
+                'Because this is still a preprint, the result should be read with genuine interest '
+                'and proportionate caution. '
+                'Peer review is not a guarantee of correctness, but it is a process that forces authors '
+                'to respond to technical criticism from specialists who have no stake in a particular outcome. '
+                'Preprints that survive that process, often with substantive revisions, emerge with a '
+                'stronger evidential base than the version that first appeared. '
+                'Until that stage is complete, the responsible reading keeps uncertainty explicitly visible '
+                'rather than treating the claims as established findings.'
+            )
         if source_type == 'agency':
-            return f'Because the account comes from {source}, it works best as a primary institutional report close to the data and operations, not as the final word on scientific validation.'
-        return 'Because the study has passed peer review, the evidential footing is stronger, though no published result is beyond revision when better data arrive.'
+            return (
+                f'Because the account originates with {source}, it functions best as a primary institutional '
+                'report that is close to the data and operations, not as independent scientific validation. '
+                'Institutional communications are produced by organizations with legitimate interests in '
+                'presenting their work in a favorable light, which does not make them unreliable '
+                'but does make them partial. '
+                'Details that complicate the narrative, including instrument limitations, unexpected failures '
+                'and results below projections, tend to be minimized relative to progress messages. '
+                'Technical documentation and peer-reviewed publications, where they exist, '
+                'provide the complementary layer that institutional releases cannot substitute.'
+            )
+        return (
+            'Because the study has cleared peer review, the evidential footing is stronger than it would '
+            'be for a preprint or institutional release, though no published result is beyond revision '
+            'when better data or better analysis arrive. '
+            'Publication in a peer-reviewed journal signals that independent specialists found the '
+            'methodology defensible and the conclusions proportionate to the evidence presented. '
+            'It does not signal that the result is final; the scientific record contains many peer-reviewed '
+            'papers that were later qualified, partially retracted or superseded by studies with broader samples '
+            'or improved controls.'
+        )
     if source_type == 'preprint':
-        return 'Como isto ainda é um preprint, o resultado deve ser lido com interesse e cautela até que a revisão por pares e a verificação independente mostrem quanto dele se sustenta.'
+        return (
+            'Como este trabalho ainda é um preprint, o resultado deve ser lido com interesse genuíno '
+            'e cautela proporcional. '
+            'A revisão por pares não é uma garantia de correção, mas é um processo que obriga os autores '
+            'a responder a críticas técnicas de especialistas que não têm interesse em um resultado particular. '
+            'Preprints que sobrevivem a esse processo, muitas vezes com revisões substantivas, emergem com '
+            'uma base evidencial mais sólida do que a versão que apareceu pela primeira vez. '
+            'Até que essa etapa seja concluída, a leitura responsável mantém a incerteza explicitamente visível '
+            'em vez de tratar as afirmações como descobertas estabelecidas.'
+        )
     if source_type == 'agency':
-        return f'Como o relato vem de {source}, ele funciona melhor como uma fonte institucional primária, próxima dos dados e das operações, e não como a palavra final sobre validação científica.'
-    return 'Como o estudo passou por revisão por pares, o lastro evidencial é mais forte, embora nenhum trabalho publicado esteja imune a revisão quando chegam dados melhores.'
+        return (
+            f'Como o relato se origina de {source}, ele funciona melhor como um relatório institucional primário '
+            'próximo dos dados e das operações, não como validação científica independente. '
+            'Comunicações institucionais são produzidas por organizações com interesses legítimos em apresentar '
+            'seu trabalho de forma favorável, o que não as torna não confiáveis, mas as torna parciais. '
+            'Detalhes que complicam a narrativa, incluindo limitações de instrumentos, falhas inesperadas '
+            'e resultados abaixo das projeções, tendem a ser minimizados em relação às mensagens de progresso. '
+            'Documentação técnica e publicações revisadas por pares, quando existem, '
+            'fornecem a camada complementar que releases institucionais não podem substituir.'
+        )
+    return (
+        'Como o estudo passou pela revisão por pares, o lastro evidencial é mais sólido do que seria '
+        'para um preprint ou comunicado institucional, embora nenhum resultado publicado esteja imune '
+        'a revisão quando chegam dados melhores ou análises mais rigorosas. '
+        'A publicação em periódico revisado por pares sinaliza que especialistas independentes '
+        'consideraram a metodologia defensável e as conclusões proporcionais à evidência apresentada. '
+        'Isso não sinaliza que o resultado é definitivo; o registro científico contém muitos artigos '
+        'revisados por pares que foram posteriormente qualificados, parcialmente retratados '
+        'ou superados por estudos com amostras mais amplas ou controles aprimorados.'
+    )
 
 
 def _closing_line(category: str, source_type: str, lang: str) -> str:
-    closing_en = {
-        'Astronomia': 'The next step is to see whether other instruments and other wavelengths tell the same story.',
-        'Cosmologia': 'The next step is to see whether the effect survives when other surveys, calibrations and controls on systematics enter the picture.',
-        'Astrofísica': 'The next step is to see whether independent datasets and physical modeling converge on the same interpretation.',
-        'Exoplanetas': 'The next step is to improve independent constraints on the world\'s mass, radius, atmosphere and orbit.',
-        'Física': 'The next step is more measurement, tighter control and less patience for interpretations that depend on fragile assumptions.',
-        'Biologia': 'The next step is to test whether the effect repeats across methods, systems and experimental conditions.',
-        'Química': 'The next step is to see whether independent groups and orthogonal techniques reach the same conclusion.',
-        'Ciências da Terra': 'The next step is to place the result inside longer series and compare it with other independent instruments.',
+    en = {
+        'Astronomia': (
+            'The next step is to see whether other instruments and other wavelengths tell the same story. '
+            'Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays '
+            'will provide the spectral coverage and spatial resolution needed to move from detection to '
+            'physical characterization. '
+            'The timeline for that kind of confirmation is typically measured in years, '
+            'not months, which is worth keeping in mind when reading the current result.'
+        ),
+        'Cosmologia': (
+            'The next step is to see whether the effect survives when independent surveys, '
+            'different calibration strategies and tighter control of systematic uncertainties '
+            'enter the picture. '
+            'Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets '
+            'over the next several years that cover the same parameter space with largely independent methods. '
+            'If the current signal persists through those tests, its theoretical implications will '
+            'become impossible to set aside.'
+        ),
+        'Astrofísica': (
+            'The next step is to see whether independent datasets and physical modeling converge '
+            'on the same interpretation. '
+            'Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, '
+            'is typically what separates a compelling detection from a robust physical characterization. '
+            'In high-energy astrophysics, results that initially looked definitive have been revised '
+            'when data from a second messenger arrived; the current result should be read '
+            'with that history in mind.'
+        ),
+        'Exoplanetas': (
+            'The next step is to improve independent constraints on the mass, radius, '
+            'atmospheric composition and orbital dynamics of the target. '
+            'Transmission spectroscopy with JWST, radial velocity campaigns with high-resolution '
+            'ground-based spectrographs and phase-curve measurements from space photometry '
+            'represent the observational toolkit that can move characterization from plausible to robust. '
+            'That convergence of techniques is the standard the community now expects '
+            'before a planetary atmosphere result is treated as confirmed.'
+        ),
+        'Física': (
+            'The next step is more measurement, tighter systematic control and scrutiny '
+            'from groups whose experimental setups are genuinely independent. '
+            'In experimental particle physics and precision metrology, the threshold for a discovery claim '
+            'is a five-sigma excess surviving multiple analyses; an intriguing signal at lower significance '
+            'is a reason to run more experiments, not a reason to revise the textbooks. '
+            'Next-generation experiments currently under construction or commissioning will revisit '
+            'several of the open questions that give the current result its context.'
+        ),
+        'Biologia': (
+            'The next step is to test whether the effect repeats across different methods, '
+            'cell types, model organisms and experimental conditions. '
+            'Reproducibility is the first test, but mechanistic dissection is the second, '
+            'and a result that passes both has a substantially better chance of translating '
+            'into something clinically or biotechnologically useful. '
+            'The path from a laboratory finding to an applied outcome typically takes a decade '
+            'or more, and most findings do not complete it; the current result sits '
+            'at the beginning of that process.'
+        ),
+        'Química': (
+            'The next step is to see whether independent groups working with orthogonal techniques '
+            'reach compatible conclusions, and whether the result scales '
+            'beyond the conditions used in the original study. '
+            'Chemical discoveries that matter tend to be ones whose key properties '
+            'can be measured by multiple spectroscopic, crystallographic or computational methods '
+            'that are unlikely to share the same blind spots. '
+            'Scalability, cost and long-term stability under realistic operating conditions '
+            'are additional filters that come into play before any practical application becomes viable.'
+        ),
+        'Ciências da Terra': (
+            'The next step is to place the result inside longer time series '
+            'and to compare it with independent instruments and independent sites. '
+            'Earth system observations gain most of their interpretive power from network density '
+            'and temporal depth, not from any single measurement however precise. '
+            'Model simulations that assimilate the new data will help clarify whether the observation '
+            'fits comfortably within known natural variability or represents a shift '
+            'that existing models do not reproduce.'
+        ),
     }
-    closing_pt = {
-        'Astronomia': 'O próximo passo é verificar se outros instrumentos e outros comprimentos de onda contam a mesma história.',
-        'Cosmologia': 'O próximo passo é saber se o efeito resiste quando outros levantamentos, calibrações e controles de sistemáticos entram em cena.',
-        'Astrofísica': 'O próximo passo é ver se conjuntos independentes de dados e modelagem física convergem para a mesma interpretação.',
-        'Exoplanetas': 'O próximo passo é melhorar as restrições independentes sobre massa, raio, atmosfera e órbita desse mundo.',
-        'Física': 'O próximo passo é mais medição, controle mais rígido e menos paciência com interpretações que dependem de premissas frágeis.',
-        'Biologia': 'O próximo passo é testar se o efeito se repete em métodos, sistemas e condições experimentais diferentes.',
-        'Química': 'O próximo passo é verificar se grupos independentes e técnicas ortogonais chegam à mesma conclusão.',
-        'Ciências da Terra': 'O próximo passo é situar o resultado em séries mais longas e compará-lo com outros instrumentos independentes.',
+    pt = {
+        'Astronomia': (
+            'O próximo passo é verificar se outros instrumentos e outros comprimentos de onda '
+            'contam a mesma história. '
+            'Campanhas com o JWST, o VLT, os futuros Telescópios Extremamente Grandes e arranjos de rádio '
+            'fornecerão a cobertura espectral e a resolução espacial necessárias para passar da detecção '
+            'à caracterização física. '
+            'O cronograma para esse tipo de confirmação é tipicamente medido em anos, '
+            'não meses, o que vale ter em mente ao ler o resultado atual.'
+        ),
+        'Cosmologia': (
+            'O próximo passo é saber se o efeito resiste quando levantamentos independentes, '
+            'diferentes estratégias de calibração e controle mais rigoroso das incertezas '
+            'sistemáticas entram em cena. '
+            'Programas como Euclid, DESI e o Observatório Rubin fornecerão conjuntos de dados '
+            'nos próximos anos que cobrem o mesmo espaço de parâmetros com métodos em grande parte independentes. '
+            'Se o sinal atual persistir através desses testes, suas implicações teóricas '
+            'se tornarão impossíveis de ignorar.'
+        ),
+        'Astrofísica': (
+            'O próximo passo é verificar se conjuntos de dados independentes e modelagem física '
+            'convergem para a mesma interpretação. '
+            'O acompanhamento em múltiplos comprimentos de onda, combinando dados de raios X, '
+            'rádio e óptico onde possível, é tipicamente o que separa uma detecção convincente '
+            'de uma caracterização física robusta. '
+            'Na astrofísica de alta energia, resultados que inicialmente pareciam definitivos '
+            'foram revisados quando dados de um segundo mensageiro chegaram; '
+            'o resultado atual deve ser lido com essa história em mente.'
+        ),
+        'Exoplanetas': (
+            'O próximo passo é melhorar as restrições independentes sobre massa, raio, '
+            'composição atmosférica e dinâmica orbital do alvo. '
+            'Espectroscopia de transmissão com o JWST, campanhas de velocidade radial com espectrógrafos '
+            'de alta resolução em solo e medições de curva de fase da fotometria espacial '
+            'representam o conjunto de ferramentas observacionais que pode mover a caracterização '
+            'de plausível para robusta. '
+            'Essa convergência de técnicas é o padrão que a comunidade agora espera '
+            'antes de um resultado de atmosfera planetária ser tratado como confirmado.'
+        ),
+        'Física': (
+            'O próximo passo é mais medição, controle sistemático mais rigoroso e escrutínio '
+            'de grupos cujas configurações experimentais são genuinamente independentes. '
+            'Em física de partículas experimental e metrologia de precisão, o limiar para uma afirmação '
+            'de descoberta é um excesso de cinco sigma sobrevivendo a múltiplas análises; '
+            'um sinal intrigante em significância menor é razão para executar mais experimentos, '
+            'não para revisar os livros-texto. '
+            'Experimentos de próxima geração atualmente em construção ou comissionamento '
+            'revisitarão várias das questões abertas que dão ao resultado atual seu contexto.'
+        ),
+        'Biologia': (
+            'O próximo passo é testar se o efeito se repete em diferentes métodos, '
+            'tipos celulares, organismos modelo e condições experimentais. '
+            'A reprodutibilidade é o primeiro teste, mas a dissecção mecanística é o segundo, '
+            'e um resultado que passa em ambos tem uma chance substancialmente melhor de se traduzir '
+            'em algo clinicamente ou biotecnologicamente útil. '
+            'O caminho de uma descoberta laboratorial para um resultado aplicado tipicamente leva '
+            'uma década ou mais, e a maioria das descobertas não o completa; '
+            'o resultado atual está no início desse processo.'
+        ),
+        'Química': (
+            'O próximo passo é verificar se grupos independentes trabalhando com técnicas ortogonais '
+            'chegam a conclusões compatíveis e se o resultado escala '
+            'além das condições usadas no estudo original. '
+            'Descobertas químicas que importam tendem a ser aquelas cujas propriedades principais '
+            'podem ser medidas por múltiplos métodos espectroscópicos, cristalográficos ou computacionais '
+            'que provavelmente não compartilham os mesmos pontos cegos. '
+            'Escalabilidade, custo e estabilidade de longo prazo sob condições operacionais realistas '
+            'são filtros adicionais que entram em jogo antes que qualquer aplicação prática se torne viável.'
+        ),
+        'Ciências da Terra': (
+            'O próximo passo é situar o resultado em séries temporais mais longas '
+            'e compará-lo com instrumentos independentes e locais independentes. '
+            'Observações do sistema terrestre obtêm a maior parte de seu poder interpretativo '
+            'da densidade da rede e da profundidade temporal, não de qualquer medição única '
+            'por mais precisa que seja. '
+            'Simulações de modelos que assimilam os novos dados ajudarão a esclarecer se a observação '
+            'se encaixa confortavelmente dentro da variabilidade natural conhecida ou representa '
+            'uma mudança que os modelos existentes não reproduzem.'
+        ),
     }
-    closing = (closing_en if lang == 'en' else closing_pt).get(category, (closing_en if lang == 'en' else closing_pt)['Astronomia'])
+    d = en if lang == 'en' else pt
+    base = d.get(category, d['Astronomia'])
     if source_type == 'preprint':
-        closing += ' ' + (
-            'Until then, skepticism remains part of the job.'
+        addon = (
+            ' Until peer review and independent follow-up address those open questions, '
+            'skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.'
             if lang == 'en' else
-            'Até lá, o ceticismo continua fazendo parte do trabalho.'
+            ' Até que a revisão por pares e a verificação independente respondam a essas questões abertas, '
+            'o ceticismo não é uma falha em apreciar o trabalho; é parte de como a ciência decide o que manter.'
         )
-    return closing
+        return base + addon
+    return base
 
 
 def build_body(title: str, summary: str, facts: list[str], category: str, source: str,
                source_type: str, lang: str, src_url: str) -> str:
     useful = _fact_bank(facts, summary)
-    lead = _clean_fact_sentence(summary or title, 260)
-    detail_bank = distinct_facts([_clean_fact_sentence(f, 175) for f in useful[1:]], 8)
+    lead = _clean_fact_sentence(summary or title, 280)
+    detail_bank = distinct_facts([_clean_fact_sentence(f, 200) for f in useful[1:]], 10)
 
     paragraphs = []
 
+    # P1: Abertura — lede + conector de fonte
     intro = _join_sentences([
         lead,
         _intro_connector(lang, source_type),
@@ -1291,29 +1758,40 @@ def build_body(title: str, summary: str, facts: list[str], category: str, source
     if intro:
         paragraphs.append(intro)
 
+    # P2: Contexto + 2 primeiros fatos de detalhe
     if detail_bank:
-        context_bits = [_context_bridge(category, lang)]
-        context_bits.append(_fact_for_paragraph(detail_bank[0], 175))
+        p2_bits = [_context_bridge(category, lang)]
+        p2_bits.append(_fact_for_paragraph(detail_bank[0], 200))
         if len(detail_bank) > 1:
-            context_bits.append(_fact_for_paragraph(detail_bank[1], 175))
-        paragraphs.append(_join_sentences(context_bits))
+            p2_bits.append(_fact_for_paragraph(detail_bank[1], 200))
+        paragraphs.append(_join_sentences(p2_bits))
 
-    remaining = detail_bank[2:6]
+    # P3 e P4: Blocos de fatos adicionais (pares)
+    remaining = detail_bank[2:8]
     for i in range(0, len(remaining), 2):
         chunk = remaining[i:i + 2]
         if not chunk:
             continue
-        sentences = [_fact_for_paragraph(chunk[0], 175)]
+        sentences = [_fact_for_paragraph(chunk[0], 200)]
         if len(chunk) > 1:
-            sentences.append(_fact_for_paragraph(chunk[1], 175))
+            sentences.append(_fact_for_paragraph(chunk[1], 200))
         paragraphs.append(_join_sentences(sentences))
 
-    significance = [_significance_bridge(category, lang)]
-    if detail_bank:
-        significance.append(_fact_for_paragraph(detail_bank[-1], 170))
-    paragraphs.append(_join_sentences(significance))
+    # P5: Significado para o campo
+    sig = _significance_bridge(category, lang)
+    if sig:
+        paragraphs.append(sig)
 
+    # P6: Fatos finais restantes se existirem
+    tail = detail_bank[8:]
+    if tail:
+        tail_sentences = [_fact_for_paragraph(t, 200) for t in tail[:3]]
+        paragraphs.append(_join_sentences(tail_sentences))
+
+    # P7: Nota sobre qualidade evidencial da fonte
     paragraphs.append(_evidence_note(source, source_type, lang))
+
+    # P8: Encerramento — próximos passos
     paragraphs.append(_closing_line(category, source_type, lang))
 
     parts = []
@@ -1330,35 +1808,39 @@ def build_body(title: str, summary: str, facts: list[str], category: str, source
 
     if src_url:
         label = 'Fonte' if lang == 'pt' else 'Source'
-        parts.append(f'<p class="art-source"><a href="{html.escape(src_url)}" target="_blank" rel="noopener noreferrer">{label}</a></p>')
+        parts.append(
+            f'<p class="art-source"><a href="{html.escape(src_url)}" '
+            f'target="_blank" rel="noopener noreferrer">{label}</a></p>'
+        )
 
     return ''.join(parts)
 
 
 def build_highlights(title: str, summary: str, facts: list[str], source_type: str, lang: str) -> list[str]:
     useful = distinct_facts(facts, 2)
+    caution_pt = {
+        'preprint': 'Resultado ainda sem revisão por pares.',
+        'agency': 'Origem institucional: distinguir anúncio de evidência.',
+        'journal': 'Material com lastro científico publicado.',
+        'news': 'Cobertura jornalística: verificar documentação técnica primária.',
+    }
+    caution_en = {
+        'preprint': 'Result not yet peer reviewed.',
+        'agency': 'Institutional origin: separate announcement from evidence.',
+        'journal': 'Material with published scientific backing.',
+        'news': 'Science reporting: verify primary technical documentation.',
+    }
     if lang == 'pt':
         bullets = [f'Ponto central: {trimmed_fact(summary or title, 150)}']
         if useful:
             bullets.append(f'Dado-chave: {trimmed_fact(useful[0], 145)}')
-        caution = {
-            'preprint': 'Resultado ainda sem revisão por pares.',
-            'agency': 'Origem institucional: distinguir anúncio de evidência.',
-            'journal': 'Material com lastro científico publicado.',
-        }[source_type]
-        bullets.append(caution)
+        bullets.append(caution_pt.get(source_type, caution_pt['news']))
     else:
         bullets = [f'Core point: {trimmed_fact(summary or title, 150)}']
         if useful:
             bullets.append(f'Key detail: {trimmed_fact(useful[0], 145)}')
-        caution = {
-            'preprint': 'Result not yet peer reviewed.',
-            'agency': 'Institutional origin: separate announcement from evidence.',
-            'journal': 'Material with published scientific backing.',
-        }[source_type]
-        bullets.append(caution)
+        bullets.append(caution_en.get(source_type, caution_en['news']))
     return bullets[:3]
-
 
 # ── Image selection ───────────────────────────────────────────────────────────
 
