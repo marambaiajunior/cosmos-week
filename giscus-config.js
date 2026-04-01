@@ -1,26 +1,28 @@
-<script src="https://giscus.app/client.js"
-        data-repo="marambaiajunior/cosmos-week"
-        data-repo-id="R_kgDORytYJA"
-        data-category="General"
-        data-category-id="DIC_kwDORytYJM4C5vwk"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="pt"
-        crossorigin="anonymous"
-        async>
-</script>
+window.COSMOS_GISCUS = {
+  enabled: true,
+  repo: 'marambaiajunior/cosmos-week',
+  repoId: 'R_kgDORytYJA',
+  category: 'General',
+  categoryId: 'DIC_kwDORytYJM4C5vwk',
+  mapping: 'specific',
+  strict: '1',
+  reactionsEnabled: '1',
+  emitMetadata: '0',
+  inputPosition: 'bottom',
+  theme: 'preferred_color_scheme'
+};
 
 /*
-ATIVAÇÃO RÁPIDA
-1) No repositório do site, habilite GitHub Discussions.
-2) Instale o app do Giscus e autorize o repositório.
-3) Em https://giscus.app/ obtenha repoId e categoryId.
-4) Cole os valores acima e troque enabled para true.
+Arquivo ajustado para a arquitetura do Cosmos Week.
 
-Com mapping:'specific', cada artigo usa o próprio slug como termo.
-As reações do Giscus funcionam como o botão de curtir/gostei e os comentários ficam públicos.
+Motivo principal:
+- O site abre artigos por query string, por exemplo: ?article=slug
+- Por isso, usar mapping: 'pathname' faria todas as matérias compartilharem o mesmo caminho
+  e poderia concentrar discussões diferentes no mesmo tópico.
+- Com mapping: 'specific', o site usa o slug de cada artigo como identificador único.
+
+Para instalar:
+1) Substitua o arquivo giscus-config.js do repositório por este.
+2) Faça commit e publique no GitHub Pages.
+3) Abra uma matéria individual e role até "Reações e comentários".
 */
