@@ -100,8 +100,8 @@ window.postsData = [
     "cat": "Astronomia",
     "catCls": "astronomia",
     "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/03/gamma-cas_and_its_hungry_white_dwarf_companion/27166121-1-eng-GB/Gamma-Cas_and_its_hungry_white_dwarf_companion_card_full.jpg",
-    "title": "XRISM resolve o mistério de 50 anos de uma estrela famosa",
-    "title_pt": "XRISM resolve o mistério de 50 anos de uma estrela famosa",
+    "title": "XRISM resolve o mistério de 50 anos da famosa estrela",
+    "title_pt": "XRISM resolve o mistério de 50 anos da famosa estrela",
     "title_en": "XRISM solves famous star’s 50-year mystery",
     "sub": "Uma companheira invisível que consome material da estrela gama-Cas vista a olho nu foi revelada como a culpada pelos curiosos raios X provenientes do sistema estelar. Isso encerra…",
     "sub_pt": "Uma companheira invisível que consome material da estrela gama-Cas vista a olho nu foi revelada como a culpada pelos curiosos raios X provenientes do sistema estelar. Isso encerra…",
@@ -109,8 +109,8 @@ window.postsData = [
     "excerpt": "Uma companheira invisível que consome material da estrela gama-Cas vista a olho nu foi revelada como a culpada pelos curiosos raios X provenientes do sistema estelar. Isso encerra o caso de um mistério que intriga os astrônomos há mais de…",
     "excerpt_pt": "Uma companheira invisível que consome material da estrela gama-Cas vista a olho nu foi revelada como a culpada pelos curiosos raios X provenientes do sistema estelar. Isso encerra o caso de um mistério que intriga os astrônomos há mais de…",
     "excerpt_en": "An invisible companion consuming material from the naked-eye star gamma-Cas has been revealed as the culprit for curious X-rays coming from the stellar system. This closes the case on a mystery that has puzzled astronomers for more than…",
-    "body": "<p>Uma companheira invisível que consome material da estrela gama-Cas vista a olho nu foi revelada como a culpada pelos curiosos raios X provenientes do sistema estelar. Isso encerra o caso de um mistério que intriga os astrônomos há mais de…</p><p>A astronomia avança acumulando observações em diferentes comprimentos de onda e missões, cada resultado reforçando ou contestando os modelos que o precederam. O trabalho atual acrescenta um dado concreto: uma companheira invisível que consome material da estrela gama-Cas vista a olho nu foi revelada como a culpada pelos curiosos raios X provenientes do sistema estelar.</p><p>Quando as medições são examinadas com cuidado, um quadro mais nítido emerge. Isto encerra o caso de um mistério que tem intrigado os astrónomos há mais de cinquenta anos.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. Observações independentes em outros comprimentos de onda, ou com instrumentos diferentes, serão o próximo teste natural para este resultado.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/XRISM_solves_famous_star_s_50-year_mystery\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Uma companheira invisível que consome material da estrela gama-Cas vista a olho nu foi revelada como a culpada pelos curiosos raios X provenientes do sistema estelar. Isso encerra o caso de um mistério que intriga os astrônomos há mais de…</p><p>A astronomia avança acumulando observações em diferentes comprimentos de onda e missões, cada resultado reforçando ou contestando os modelos que o precederam. O trabalho atual acrescenta um dado concreto: uma companheira invisível que consome material da estrela gama-Cas vista a olho nu foi revelada como a culpada pelos curiosos raios X provenientes do sistema estelar.</p><p>Quando as medições são examinadas com cuidado, um quadro mais nítido emerge. Isto encerra o caso de um mistério que tem intrigado os astrónomos há mais de cinquenta anos.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. Observações independentes em outros comprimentos de onda, ou com instrumentos diferentes, serão o próximo teste natural para este resultado.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/XRISM_solves_famous_star_s_50-year_mystery\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body": "<p>Uma companheira invisível que consome material da estrela gama-Cas vista a olho nu foi revelada como a culpada pelos curiosos raios X provenientes do sistema estelar.</p><p>A astronomia avança acumulando observações em diferentes comprimentos de onda e missões, cada resultado reforçando ou contestando os modelos que o precederam. O trabalho atual acrescenta um dado concreto: uma companheira invisível que consome material da estrela gama-Cas vista a olho nu foi revelada como a culpada pelos curiosos raios X provenientes do sistema estelar.</p><p>Isto encerra o caso de um mistério que tem intrigado os astrónomos há mais de cinquenta anos.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. Observações independentes em outros comprimentos de onda, ou com instrumentos diferentes, serão o próximo teste natural para este resultado.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/XRISM_solves_famous_star_s_50-year_mystery\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Uma companheira invisível que consome material da estrela gama-Cas vista a olho nu foi revelada como a culpada pelos curiosos raios X provenientes do sistema estelar.</p><p>A astronomia avança acumulando observações em diferentes comprimentos de onda e missões, cada resultado reforçando ou contestando os modelos que o precederam. O trabalho atual acrescenta um dado concreto: uma companheira invisível que consome material da estrela gama-Cas vista a olho nu foi revelada como a culpada pelos curiosos raios X provenientes do sistema estelar.</p><p>Isto encerra o caso de um mistério que tem intrigado os astrónomos há mais de cinquenta anos.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. Observações independentes em outros comprimentos de onda, ou com instrumentos diferentes, serão o próximo teste natural para este resultado.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/XRISM_solves_famous_star_s_50-year_mystery\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>An invisible companion consuming material from the naked-eye star gamma-Cas has been revealed as the culprit for curious X-rays coming from the stellar system. This closes the case on a mystery that has puzzled astronomers for more than…</p><p>To place the result in context: astronomy advances by accumulating observations across wavelengths and missions, each result either reinforcing or challenging the models that preceded it. This result contributes directly to that effort: an invisible companion consuming material from the naked-eye star gamma-Cas has been revealed as the culprit for curious X-rays coming from the stellar system.</p><p>The observational record provides important detail here. This closes the case on a mystery that has puzzled astronomers for more than fifty years.</p><p>Independent observations will now determine how well the result holds under different conditions. Independent observations at other wavelengths, or with different instruments, will be the natural next test for this result.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/XRISM_solves_famous_star_s_50-year_mystery\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Uma companheira invisível que consome material da estrela gama-Cas vista a olho nu foi revelada como a culpada pelos curiosos raios X provenientes do…",
@@ -159,19 +159,19 @@ window.postsData = [
       "Astronomia",
       "ESA Space Science",
       "Cosmos Week",
-      "XRISM resolve o mistério de 50 anos de uma estrela famosa"
+      "XRISM resolve o mistério de 50 anos da famosa estrela"
     ],
     "keywords_pt": [
       "Astronomia",
       "ESA Space Science",
       "Cosmos Week",
-      "XRISM resolve o mistério de 50 anos de uma estrela famosa"
+      "XRISM resolve o mistério de 50 anos da famosa estrela"
     ],
     "keywords_en": [
       "Astronomy",
       "ESA Space Science",
       "Cosmos Week",
-      "XRISM solves 50-year-old mystery of a famous star"
+      "XRISM solves 50-year-old mystery of famous star"
     ],
     "srcUrl": "https://www.esa.int/Science_Exploration/Space_Science/XRISM_solves_famous_star_s_50-year_mystery",
     "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=xrism-solves-famous-star-s-50-year-mystery",
@@ -298,8 +298,8 @@ window.postsData = [
     "excerpt": "A maioria das galáxias no Universo próximo são bastante luminosas, mas algumas são tão ténues que são quase invisíveis. Os astrónomos, usando o Telescópio Espacial Hubble da NASA/ESA em combinação com outros observatórios, identificaram uma galáxia que parece…",
     "excerpt_pt": "A maioria das galáxias no Universo próximo são bastante luminosas, mas algumas são tão ténues que são quase invisíveis. Os astrónomos, usando o Telescópio Espacial Hubble da NASA/ESA em combinação com outros observatórios, identificaram uma galáxia que parece…",
     "excerpt_en": "Most galaxies in the nearby Universe are quite luminous, but some are so faint they’re nearly invisible. Astronomers, using the NASA/ESA Hubble Space Telescope in combination with other observatories, identified a galaxy that appears to be…",
-    "body": "<p>A maioria das galáxias no Universo próximo são bastante luminosas, mas algumas são tão ténues que são quase invisíveis. Os astrónomos, usando o Telescópio Espacial Hubble da NASA/ESA em combinação com outros observatórios, identificaram uma galáxia… A atualização é resultado de um extenso período de coleta de dados e operações de missão.</p><p>O campo vinha se construindo em direção a momentos como este. A cosmologia vive uma tensão produtiva: levantamentos de alta precisão estão retornando dados detalhados o suficiente para testar o modelo padrão de formas antes impossíveis.</p><p>As imagens de alta resolução do Hubble revelaram uma coleção próxima de quatro aglomerados globulares no aglomerado de galáxias de Perseu, a 300 milhões de anos-luz de distância. Um segundo fio nos dados aponta para o fato de que “As imagens Euclid do aglomerado de Perseu demonstram a capacidade única da missão de detectar novas galáxias com baixo brilho superficial, incluindo as extremamente fracas, ao mesmo tempo que…</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. A pergunta central agora é se o efeito se mantém quando confrontado com outros levantamentos, controles mais rígidos de sistemáticos e calibrações independentes.</p><p class=\"art-source\"><a href=\"https://esahubble.org/news/heic2605/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>A maioria das galáxias no Universo próximo são bastante luminosas, mas algumas são tão ténues que são quase invisíveis. Os astrónomos, usando o Telescópio Espacial Hubble da NASA/ESA em combinação com outros observatórios, identificaram uma galáxia… A atualização é resultado de um extenso período de coleta de dados e operações de missão.</p><p>O campo vinha se construindo em direção a momentos como este. A cosmologia vive uma tensão produtiva: levantamentos de alta precisão estão retornando dados detalhados o suficiente para testar o modelo padrão de formas antes impossíveis.</p><p>As imagens de alta resolução do Hubble revelaram uma coleção próxima de quatro aglomerados globulares no aglomerado de galáxias de Perseu, a 300 milhões de anos-luz de distância. Um segundo fio nos dados aponta para o fato de que “As imagens Euclid do aglomerado de Perseu demonstram a capacidade única da missão de detectar novas galáxias com baixo brilho superficial, incluindo as extremamente fracas, ao mesmo tempo que…</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. A pergunta central agora é se o efeito se mantém quando confrontado com outros levantamentos, controles mais rígidos de sistemáticos e calibrações independentes.</p><p class=\"art-source\"><a href=\"https://esahubble.org/news/heic2605/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body": "<p>A maioria das galáxias no Universo próximo são bastante luminosas, mas algumas são tão ténues que são quase invisíveis. Os astrónomos, usando o Telescópio Espacial Hubble da NASA/ESA em combinação com outros observatórios, identificaram uma galáxia… A atualização é resultado de um extenso período de coleta de dados e operações de missão.</p><p>O campo vinha se construindo em direção a momentos como este. A cosmologia vive uma tensão produtiva: levantamentos de alta precisão estão retornando dados detalhados o suficiente para testar o modelo padrão de formas antes impossíveis.</p><p>As imagens de alta resolução do Hubble revelaram uma coleção próxima de quatro aglomerados globulares no aglomerado de galáxias de Perseu, a 300 milhões de anos-luz de distância. Um segundo fio nos dados aponta para o fato de que “As imagens Euclid do aglomerado de Perseu demonstram a capacidade única da missão de detectar novas galáxias de baixo brilho superficial, incluindo as extremamente fracas, ao mesmo tempo que revelam…</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. A pergunta central agora é se o efeito se mantém quando confrontado com outros levantamentos, controles mais rígidos de sistemáticos e calibrações independentes.</p><p class=\"art-source\"><a href=\"https://esahubble.org/news/heic2605/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>A maioria das galáxias no Universo próximo são bastante luminosas, mas algumas são tão ténues que são quase invisíveis. Os astrónomos, usando o Telescópio Espacial Hubble da NASA/ESA em combinação com outros observatórios, identificaram uma galáxia… A atualização é resultado de um extenso período de coleta de dados e operações de missão.</p><p>O campo vinha se construindo em direção a momentos como este. A cosmologia vive uma tensão produtiva: levantamentos de alta precisão estão retornando dados detalhados o suficiente para testar o modelo padrão de formas antes impossíveis.</p><p>As imagens de alta resolução do Hubble revelaram uma coleção próxima de quatro aglomerados globulares no aglomerado de galáxias de Perseu, a 300 milhões de anos-luz de distância. Um segundo fio nos dados aponta para o fato de que “As imagens Euclid do aglomerado de Perseu demonstram a capacidade única da missão de detectar novas galáxias de baixo brilho superficial, incluindo as extremamente fracas, ao mesmo tempo que revelam…</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. A pergunta central agora é se o efeito se mantém quando confrontado com outros levantamentos, controles mais rígidos de sistemáticos e calibrações independentes.</p><p class=\"art-source\"><a href=\"https://esahubble.org/news/heic2605/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>“The Euclid data clearly confirm the presence of the extremely faint, diffuse light of CDG-2, revealing the galaxy behind the globular clusters for the first time,” says Francine Marleau from the Institute for Astro-…</p><p>Cosmology is currently in a productive tension: precision surveys are returning data detailed enough to test the standard model in ways not previously possible. The current work adds a specific data point: “The Euclid data clearly confirm the presence of the extremely faint, diffuse light of CDG-2, revealing the galaxy behind the globular clusters for the first time,” says Francine Marleau from the Institute for…</p><p>The observational record provides important detail here. Hubble’s high-resolution imaging revealed a close collection of four globular clusters in the Perseus galaxy cluster, 300 million light-years away. On top of that, “The Euclid images of the Perseus cluster demonstrate the mission’s unique capability to detect new low-surface-brightness galaxies, including extremely faint ones, while also revealing their…</p><p>Independent observations will now determine how well the result holds under different conditions. The key question now is whether the effect holds when confronted with other surveys, tighter systematics controls, and independent calibrations.</p><p class=\"art-source\"><a href=\"https://esahubble.org/news/heic2605/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: A maioria das galáxias no Universo próximo são bastante luminosas, mas algumas são tão ténues que são quase invisíveis. Os astrónomos, usando o…",
@@ -754,7 +754,7 @@ window.postsData = [
       "evidence": 82,
       "relevance": 88,
       "accessibility": 60,
-      "novelty": 55
+      "novelty": 52
     }
   },
   {
@@ -766,22 +766,22 @@ window.postsData = [
     "title": "Pulsares reescrevem as regras",
     "title_pt": "Pulsares reescrevem as regras",
     "title_en": "Pulsars Rewrite the Rules",
-    "sub": "Durante décadas, os astrónomos pensaram que sabiam que os pulsares transmitiam os seus feixes de ondas de rádio com sinal firme, disparados perto da superfície, perto dos pólos…",
-    "sub_pt": "Durante décadas, os astrónomos pensaram que sabiam que os pulsares transmitiam os seus feixes de ondas de rádio com sinal firme, disparados perto da superfície, perto dos pólos…",
+    "sub": "Durante décadas, os astrónomos pensaram que sabiam que os pulsares transmitiam os seus feixes de ondas de rádio, emitidos perto da superfície, perto dos pólos magnéticos. Um novo…",
+    "sub_pt": "Durante décadas, os astrónomos pensaram que sabiam que os pulsares transmitiam os seus feixes de ondas de rádio, emitidos perto da superfície, perto dos pólos magnéticos. Um novo…",
     "sub_en": "For decades, astronomers thought they knew that pulsars broadcast their signatight beams of radio waves fired from near the surface, close to the magnetic poles. A new study of…",
-    "excerpt": "Durante décadas, os astrónomos pensaram que sabiam que os pulsares transmitiam os seus feixes de ondas de rádio com sinal firme, disparados perto da superfície, perto dos pólos magnéticos. Um novo estudo de quase 200 dos pulsares de rotação mais rápida do…",
-    "excerpt_pt": "Durante décadas, os astrónomos pensaram que sabiam que os pulsares transmitiam os seus feixes de ondas de rádio com sinal firme, disparados perto da superfície, perto dos pólos magnéticos. Um novo estudo de quase 200 dos pulsares de rotação mais rápida do…",
+    "excerpt": "Durante décadas, os astrónomos pensaram que sabiam que os pulsares transmitiam os seus feixes de ondas de rádio, emitidos perto da superfície, perto dos pólos magnéticos. Um novo estudo de quase 200 dos pulsares de rotação mais rápida do universo…",
+    "excerpt_pt": "Durante décadas, os astrónomos pensaram que sabiam que os pulsares transmitiam os seus feixes de ondas de rádio, emitidos perto da superfície, perto dos pólos magnéticos. Um novo estudo de quase 200 dos pulsares de rotação mais rápida do universo…",
     "excerpt_en": "For decades, astronomers thought they knew that pulsars broadcast their signatight beams of radio waves fired from near the surface, close to the magnetic poles. A new study of nearly 200 of the fastest spinning pulsars in the universe has…",
-    "body": "<p>Durante décadas, os astrónomos pensaram que sabiam que os pulsares transmitiam os seus feixes de ondas de rádio com sinal firme, disparados perto da superfície, perto dos pólos magnéticos. Um novo estudo de quase 200 dos pulsares de rotação mais…</p><p>A astrofísica depende de isolar o mecanismo físico por trás de um fenômeno observado. A diferença entre um sinal detectado e um processo compreendido pode levar anos para ser superada. O trabalho atual acrescenta um dado concreto: em 2025 ele está lançando seu novo podcast Cosmic Commerce e está trabalhando em um novo livro 101 fatos que você não sabia sobre o espaço profundo. Em 2018, Mark recebeu um doutorado honorário da Universidade…</p><p>O registro observacional oferece um detalhe importante aqui. Crucialmente, muitos desses pulsos externos isolados alinharam-se precisamente com flashes de raios gama detectados pelo telescópio Fermi da NASA em observações anteriores. Em complemento, um novo estudo de quase 200 dos pulsares de rotação mais rápida do universo acaba de virar essa ideia de cabeça para baixo.</p><p>A partir daqui, o valor real do resultado depende da convergência entre conjuntos de dados independentes e modelagem física.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/pulsars-rewrite-the-rules\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Durante décadas, os astrónomos pensaram que sabiam que os pulsares transmitiam os seus feixes de ondas de rádio com sinal firme, disparados perto da superfície, perto dos pólos magnéticos. Um novo estudo de quase 200 dos pulsares de rotação mais…</p><p>A astrofísica depende de isolar o mecanismo físico por trás de um fenômeno observado. A diferença entre um sinal detectado e um processo compreendido pode levar anos para ser superada. O trabalho atual acrescenta um dado concreto: em 2025 ele está lançando seu novo podcast Cosmic Commerce e está trabalhando em um novo livro 101 fatos que você não sabia sobre o espaço profundo. Em 2018, Mark recebeu um doutorado honorário da Universidade…</p><p>O registro observacional oferece um detalhe importante aqui. Crucialmente, muitos desses pulsos externos isolados alinharam-se precisamente com flashes de raios gama detectados pelo telescópio Fermi da NASA em observações anteriores. Em complemento, um novo estudo de quase 200 dos pulsares de rotação mais rápida do universo acaba de virar essa ideia de cabeça para baixo.</p><p>A partir daqui, o valor real do resultado depende da convergência entre conjuntos de dados independentes e modelagem física.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/pulsars-rewrite-the-rules\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body": "<p>Durante décadas, os astrónomos pensaram que sabiam que os pulsares transmitiam os seus feixes de ondas de rádio, emitidos perto da superfície, perto dos pólos magnéticos. Um novo estudo de quase 200 dos pulsares de rotação mais rápida do universo…</p><p>A astrofísica depende de isolar o mecanismo físico por trás de um fenômeno observado. A diferença entre um sinal detectado e um processo compreendido pode levar anos para ser superada. O trabalho atual acrescenta um dado concreto: em 2025 ele está lançando seu novo podcast Cosmic Commerce e está trabalhando em um novo livro 101 fatos que você não sabia sobre o espaço profundo. Em 2018, Mark recebeu um doutorado honorário da Universidade…</p><p>O registro observacional oferece um detalhe importante aqui. Crucialmente, muitos desses pulsos externos isolados alinharam-se precisamente com flashes de raios gama detectados pelo telescópio Fermi da NASA em observações anteriores. Em complemento, um novo estudo de quase 200 dos pulsares de rotação mais rápida do universo acaba de virar essa ideia de cabeça para baixo.</p><p>A partir daqui, o valor real do resultado depende da convergência entre conjuntos de dados independentes e modelagem física.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/pulsars-rewrite-the-rules\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Durante décadas, os astrónomos pensaram que sabiam que os pulsares transmitiam os seus feixes de ondas de rádio, emitidos perto da superfície, perto dos pólos magnéticos. Um novo estudo de quase 200 dos pulsares de rotação mais rápida do universo…</p><p>A astrofísica depende de isolar o mecanismo físico por trás de um fenômeno observado. A diferença entre um sinal detectado e um processo compreendido pode levar anos para ser superada. O trabalho atual acrescenta um dado concreto: em 2025 ele está lançando seu novo podcast Cosmic Commerce e está trabalhando em um novo livro 101 fatos que você não sabia sobre o espaço profundo. Em 2018, Mark recebeu um doutorado honorário da Universidade…</p><p>O registro observacional oferece um detalhe importante aqui. Crucialmente, muitos desses pulsos externos isolados alinharam-se precisamente com flashes de raios gama detectados pelo telescópio Fermi da NASA em observações anteriores. Em complemento, um novo estudo de quase 200 dos pulsares de rotação mais rápida do universo acaba de virar essa ideia de cabeça para baixo.</p><p>A partir daqui, o valor real do resultado depende da convergência entre conjuntos de dados independentes e modelagem física.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/pulsars-rewrite-the-rules\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>For decades, astronomers thought they knew that pulsars broadcast their signatight beams of radio waves fired from near the surface, close to the magnetic poles. A new study of nearly 200 of the fastest spinning pulsars in the universe has…</p><p>To place the result in context: astrophysics depends on isolating the physical mechanism behind an observed phenomenon. The difference between a detected signal and an understood process can take years to close. This result contributes directly to that effort: in 2025 he is launching his new podcast Cosmic Commerce and is working on a new book 101 Facts You Didn&#x27;t Know About Deep Space In 2018, Mark received an Honorary Doctorate from the University of East Anglia.</p><p>When the measurements are examined carefully, a clearer picture emerges. Crucially, many of those isolated outer pulses lined up precisely with gamma-ray flashes detected by NASA&#x27;s Fermi telescope in previous observations. Complementing this, a new study of nearly 200 of the fastest spinning pulsars in the universe has just turned that idea on its head.</p><p>Independent observations will now determine how well the result holds under different conditions. From here, the real value of the result depends on convergence between independent datasets and physical modeling.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/pulsars-rewrite-the-rules\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Ponto central: Durante décadas, os astrónomos pensaram que sabiam que os pulsares transmitiam os seus feixes de ondas de rádio com sinal firme, disparados perto da…",
+      "Ponto central: Durante décadas, os astrónomos pensaram que sabiam que os pulsares transmitiam os seus feixes de ondas de rádio, emitidos perto da superfície, perto…",
       "Dado-chave: Em 2025 ele está lançando seu novo podcast Cosmic Commerce e está trabalhando em um novo livro 101 fatos que você não sabia sobre o espaço…",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Ponto central: Durante décadas, os astrónomos pensaram que sabiam que os pulsares transmitiam os seus feixes de ondas de rádio com sinal firme, disparados perto da…",
+      "Ponto central: Durante décadas, os astrónomos pensaram que sabiam que os pulsares transmitiam os seus feixes de ondas de rádio, emitidos perto da superfície, perto…",
       "Dado-chave: Em 2025 ele está lançando seu novo podcast Cosmic Commerce e está trabalhando em um novo livro 101 fatos que você não sabia sobre o espaço…",
       "Origem institucional: distinguir anúncio de evidência."
     ],
@@ -1038,98 +1038,98 @@ window.postsData = [
   },
   {
     "id": 12,
-    "slug": "exomoons-could-be-habitable-for-billions-of-years-provided-they-have-hydrogen-atmospheres",
+    "slug": "new-constraints-on-the-m-dwarf-cosmic-shoreline-from-a-galaxy-far-far-away",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
-    "img": "https://www.universetoday.com/article_images/tL2cj6tquatq6bpCFzj3mf-970-80.jpg_20260328_184555.webp",
-    "title": "Exoluas podem ser habitáveis ​​por bilhões de anos, desde que tenham atmosferas de hidrogênio",
-    "title_pt": "Exoluas podem ser habitáveis ​​por bilhões de anos, desde que tenham atmosferas de hidrogênio",
-    "title_en": "Exomoons Could Be Habitable for Billions of Years, Provided they have Hydrogen Atmospheres",
-    "sub": "A água líquida é considerada essencial para a vida. Surpreendentemente, porém, condições estáveis ​​que conduzem à vida podem existir longe de qualquer sol. Uma equipe de pesquisa…",
-    "sub_pt": "A água líquida é considerada essencial para a vida. Surpreendentemente, porém, condições estáveis ​​que conduzem à vida podem existir longe de qualquer sol. Uma equipe de pesquisa…",
-    "sub_en": "Liquid water is considered essential for life. Surprisingly, however, stable conditions that are conducive to life could exist far from any sun. A research team from the…",
-    "excerpt": "A água líquida é considerada essencial para a vida. Surpreendentemente, porém, condições estáveis ​​que conduzem à vida podem existir longe de qualquer sol. Uma equipe de pesquisa do Excellence Cluster ORIGINS da LMU e do Instituto Max Planck para…",
-    "excerpt_pt": "A água líquida é considerada essencial para a vida. Surpreendentemente, porém, condições estáveis ​​que conduzem à vida podem existir longe de qualquer sol. Uma equipe de pesquisa do Excellence Cluster ORIGINS da LMU e do Instituto Max Planck para…",
-    "excerpt_en": "Liquid water is considered essential for life. Surprisingly, however, stable conditions that are conducive to life could exist far from any sun. A research team from the Excellence Cluster ORIGINS at LMU and the Max Planck Institute for…",
-    "body": "<p>Na Terra, o dióxido de carbono (CO 2 ) é o gás com efeito de estufa predominante, o que ajuda a nossa atmosfera a reter o calor e também está a impulsionar as alterações climáticas antropogénicas.</p><p>A ciência de exoplanetas é hoje ampla o suficiente para buscar padrões entre populações de planetas, o que torna cada nova medida atmosférica ou orbital mais valiosa do que teria sido uma década atrás. O trabalho atual acrescenta um dado concreto: na Terra, o dióxido de carbono (CO 2 ) é o gás com efeito de estufa predominante, o que ajuda a nossa atmosfera a reter o calor e também está a impulsionar as alterações climáticas antropogénicas.</p><p>O registro observacional oferece um detalhe importante aqui. Seu trabalho é apresentado em The Ross 248 Project e Interstellar Travel, editado pelos ex-alunos da NASA Les Johnson e Ken Roy. Além disso, uma equipa de investigação do Excellence Cluster ORIGINS da LMU e do Instituto Max Planck de Física Extraterrestre (MPE) mostrou que as luas em torno de planetas flutuantes podem manter os seus…</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. O próximo passo é obter restrições independentes sobre massa, raio, atmosfera ou geometria orbital, que é onde um alvo promissor se torna um alvo robustamente caracterizado.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/exomoons-could-be-habitable-for-billions-of-years-provided-they-have-hydrogen-atmospheres\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Na Terra, o dióxido de carbono (CO 2 ) é o gás com efeito de estufa predominante, o que ajuda a nossa atmosfera a reter o calor e também está a impulsionar as alterações climáticas antropogénicas.</p><p>A ciência de exoplanetas é hoje ampla o suficiente para buscar padrões entre populações de planetas, o que torna cada nova medida atmosférica ou orbital mais valiosa do que teria sido uma década atrás. O trabalho atual acrescenta um dado concreto: na Terra, o dióxido de carbono (CO 2 ) é o gás com efeito de estufa predominante, o que ajuda a nossa atmosfera a reter o calor e também está a impulsionar as alterações climáticas antropogénicas.</p><p>O registro observacional oferece um detalhe importante aqui. Seu trabalho é apresentado em The Ross 248 Project e Interstellar Travel, editado pelos ex-alunos da NASA Les Johnson e Ken Roy. Além disso, uma equipa de investigação do Excellence Cluster ORIGINS da LMU e do Instituto Max Planck de Física Extraterrestre (MPE) mostrou que as luas em torno de planetas flutuantes podem manter os seus…</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. O próximo passo é obter restrições independentes sobre massa, raio, atmosfera ou geometria orbital, que é onde um alvo promissor se torna um alvo robustamente caracterizado.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/exomoons-could-be-habitable-for-billions-of-years-provided-they-have-hydrogen-atmospheres\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Liquid water is considered essential for life. Surprisingly, however, stable conditions that are conducive to life could exist far from any sun. A research team from the Excellence Cluster ORIGINS at LMU and the Max Planck Institute for…</p><p>Exoplanet science is now large enough to look for patterns across populations, not just individual worlds, which makes each new atmospheric or orbital measurement more valuable than it would have been a decade ago. The current work adds a specific data point: on Earth, carbon dioxide (CO 2 ) is the predominant greenhouse gas, which helps our atmosphere retain heat, and is also driving anthropogenic Climate Change.</p><p>The underlying data tell a consistent story. His work is featured in The Ross 248 Project and Interstellar Travel edited by NASA alumni Les Johnson and Ken Roy. The analysis also shows that a research team from the Excellence Cluster ORIGINS at LMU and the Max Planck Institute for Extraterrestrial Physics (MPE) has shown that moons around free-floating planets can keep their water…</p><p>The next step is to obtain independent constraints on mass, radius, atmosphere, or orbital geometry, which is where a promising target becomes a robustly characterized one.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/exomoons-could-be-habitable-for-billions-of-years-provided-they-have-hydrogen-atmospheres\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Milky_Way%2C_above_Mauna_Kea_-_by_Luc_Viatour.jpg/1280px-Milky_Way%2C_above_Mauna_Kea_-_by_Luc_Viatour.jpg",
+    "title": "Novas restrições na linha costeira cósmica anã M de uma galáxia muito, muito distante",
+    "title_pt": "Novas restrições na linha costeira cósmica anã M de uma galáxia muito, muito distante",
+    "title_en": "New Constraints on the M Dwarf Cosmic Shoreline from a Galaxy Far, Far Away",
+    "sub": "Se existe uma linha costeira cósmica que divide os planetas terrestres que têm atmosfera daqueles que não têm é uma das maiores questões em aberto na ciência dos exoplanetas. A…",
+    "sub_pt": "Se existe uma linha costeira cósmica que divide os planetas terrestres que têm atmosfera daqueles que não têm é uma das maiores questões em aberto na ciência dos exoplanetas. A…",
+    "sub_en": "Whether there is a cosmic shoreline that divides terrestrial planets which have atmospheres from those that don't is one of the biggest open questions in exoplanet science. Most…",
+    "excerpt": "Se existe uma linha costeira cósmica que divide os planetas terrestres que têm atmosfera daqueles que não têm é uma das maiores questões em aberto na ciência dos exoplanetas. A maioria das pesquisas atmosféricas se concentrou em planetas terrestres…",
+    "excerpt_pt": "Se existe uma linha costeira cósmica que divide os planetas terrestres que têm atmosfera daqueles que não têm é uma das maiores questões em aberto na ciência dos exoplanetas. A maioria das pesquisas atmosféricas se concentrou em planetas terrestres…",
+    "excerpt_en": "Whether there is a cosmic shoreline that divides terrestrial planets which have atmospheres from those that don't is one of the biggest open questions in exoplanet science. Most atmosphere searches have focused on terrestrial planets…",
+    "body": "<p>Pesquisadores identificaram algo que merece atenção cuidadosa: enviado para Assuntos APA: Astrofísica da Terra e Planetária (astro-ph.EP) Citar como: arXiv:2603.29743 [astro-ph.EP] (ou arXiv:2603.29743v1 [astro-ph.EP] para esta versão) https://doi.org/10.48550/arXiv.2603.29743…</p><p>Para situar o resultado no contexto: a ciência de exoplanetas é hoje ampla o suficiente para buscar padrões entre populações de planetas, o que torna cada nova medida atmosférica ou orbital mais valiosa do que teria sido uma década atrás. Este resultado contribui diretamente para esse esforço: enviado para Assuntos APA: Astrofísica da Terra e Planetária (astro-ph.EP) Citar como: arXiv:2603.29743 [astro-ph.EP] (ou arXiv:2603.29743v1 [astro-ph.EP] para esta versão)…</p><p>abrir pesquisa GO abrir menu de navegação links rápidos Login Páginas de ajuda Sobre --&gt; Astrofísica &gt; Astrofísica terrestre e planetária arXiv:2603.29743v1 (astro-ph) [Enviado em 31 de março de 2026] Título: Novas… A análise também mostra que ) Autor Local Instituição Tópico Sobre arXivLabs arXivLabs: projetos experimentais com colaboradores da comunidade arXivLabs é uma estrutura que permite aos colaboradores desenvolver e compartilhar…</p><p>Antes de qualquer conclusão mais ampla, o estudo ainda precisa passar pela revisão por pares, o processo pelo qual especialistas independentes avaliam se a metodologia e as afirmações são consistentes. O próximo passo é obter restrições independentes sobre massa, raio, atmosfera ou geometria orbital, que é onde um alvo promissor se torna um alvo robustamente caracterizado.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2603.29743v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Pesquisadores identificaram algo que merece atenção cuidadosa: enviado para Assuntos APA: Astrofísica da Terra e Planetária (astro-ph.EP) Citar como: arXiv:2603.29743 [astro-ph.EP] (ou arXiv:2603.29743v1 [astro-ph.EP] para esta versão) https://doi.org/10.48550/arXiv.2603.29743…</p><p>Para situar o resultado no contexto: a ciência de exoplanetas é hoje ampla o suficiente para buscar padrões entre populações de planetas, o que torna cada nova medida atmosférica ou orbital mais valiosa do que teria sido uma década atrás. Este resultado contribui diretamente para esse esforço: enviado para Assuntos APA: Astrofísica da Terra e Planetária (astro-ph.EP) Citar como: arXiv:2603.29743 [astro-ph.EP] (ou arXiv:2603.29743v1 [astro-ph.EP] para esta versão)…</p><p>abrir pesquisa GO abrir menu de navegação links rápidos Login Páginas de ajuda Sobre --&gt; Astrofísica &gt; Astrofísica terrestre e planetária arXiv:2603.29743v1 (astro-ph) [Enviado em 31 de março de 2026] Título: Novas… A análise também mostra que ) Autor Local Instituição Tópico Sobre arXivLabs arXivLabs: projetos experimentais com colaboradores da comunidade arXivLabs é uma estrutura que permite aos colaboradores desenvolver e compartilhar…</p><p>Antes de qualquer conclusão mais ampla, o estudo ainda precisa passar pela revisão por pares, o processo pelo qual especialistas independentes avaliam se a metodologia e as afirmações são consistentes. O próximo passo é obter restrições independentes sobre massa, raio, atmosfera ou geometria orbital, que é onde um alvo promissor se torna um alvo robustamente caracterizado.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2603.29743v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>A team studying exoplanet science reports whether there is a cosmic shoreline that divides terrestrial planets which have atmospheres from those that don&#x27;t is one of the biggest open questions in exoplanet science. Most atmosphere searches have focused on terrestrial planets…</p><p>The field has been building toward moments like this. Exoplanet science is now large enough to look for patterns across populations, not just individual worlds, which makes each new atmospheric or orbital measurement more valuable than it would have been a decade ago.</p><p>When the measurements are examined carefully, a clearer picture emerges. open search GO open navigation menu quick links Login Help Pages About --&gt; Astrophysics &gt; Earth and Planetary Astrophysics arXiv:2603.29743v1 (astro-ph) [Submitted on 31 Mar 2026] Title: New Constraints on the M Dwarf… The analysis also shows that ) Author Venue Institution Topic About arXivLabs arXivLabs: experimental projects with community collaborators arXivLabs is a framework that allows collaborators to develop and share new arXiv…</p><p>One important caveat: the work is a preprint, meaning the broader scientific community has not yet had the chance to formally scrutinize it. The next step is to obtain independent constraints on mass, radius, atmosphere, or orbital geometry, which is where a promising target becomes a robustly characterized one.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2603.29743v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Ponto central: A água líquida é considerada essencial para a vida. Surpreendentemente, porém, condições estáveis ​​que conduzem à vida podem existir longe de…",
-      "Dado-chave: Na Terra, o dióxido de carbono (CO 2 ) é o gás com efeito de estufa predominante, o que ajuda a nossa atmosfera a reter o calor e também está a…",
-      "Origem institucional: distinguir anúncio de evidência."
+      "Ponto central: Se existe uma linha costeira cósmica que divide os planetas terrestres que têm atmosfera daqueles que não têm é uma das maiores questões em aberto na…",
+      "Dado-chave: Enviado para Assuntos APA: Astrofísica da Terra e Planetária (astro-ph.EP) Citar como: arXiv:2603.29743 [astro-ph.EP] (ou arXiv:2603.29743v1…",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Ponto central: A água líquida é considerada essencial para a vida. Surpreendentemente, porém, condições estáveis ​​que conduzem à vida podem existir longe de…",
-      "Dado-chave: Na Terra, o dióxido de carbono (CO 2 ) é o gás com efeito de estufa predominante, o que ajuda a nossa atmosfera a reter o calor e também está a…",
-      "Origem institucional: distinguir anúncio de evidência."
+      "Ponto central: Se existe uma linha costeira cósmica que divide os planetas terrestres que têm atmosfera daqueles que não têm é uma das maiores questões em aberto na…",
+      "Dado-chave: Enviado para Assuntos APA: Astrofísica da Terra e Planetária (astro-ph.EP) Citar como: arXiv:2603.29743 [astro-ph.EP] (ou arXiv:2603.29743v1…",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Core point: Liquid water is considered essential for life. Surprisingly, however, stable conditions that are conducive to life could exist far from any sun. A…",
-      "Key detail: On Earth, carbon dioxide (CO 2 ) is the predominant greenhouse gas, which helps our atmosphere retain heat, and is also driving anthropogenic…",
-      "Institutional origin: separate announcement from evidence."
+      "Core point: Whether there is a cosmic shoreline that divides terrestrial planets which have atmospheres from those that don't is one of the biggest open…",
+      "Key detail: Submitted to APA Subjects: Earth and Planetary Astrophysics (astro-ph.EP) Cite as: arXiv:2603.29743 [astro-ph.EP] (or arXiv:2603.29743v1…",
+      "Result not yet peer reviewed."
     ],
-    "date": "28 mar 2026",
-    "date_pt": "28 mar 2026",
-    "date_en": "28 Mar 2026",
-    "time": "17h57",
-    "time_pt": "17h57",
-    "time_en": "17:57 UTC",
+    "date": "31 mar 2026",
+    "date_pt": "31 mar 2026",
+    "date_en": "31 Mar 2026",
+    "time": "13h40",
+    "time_pt": "13h40",
+    "time_en": "13:40 UTC",
     "read": "4 min de leitura",
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
-    "publishedIso": "2026-03-28T17:57:00+00:00",
-    "lastModifiedIso": "2026-03-28T17:57:00+00:00",
-    "source": "Universe Today",
-    "sourceDomain": "www.universetoday.com",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional.",
-    "sourceNote_pt": "Fonte primária institucional.",
-    "sourceNote_en": "Primary institutional source.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
+    "publishedIso": "2026-03-31T13:40:36+00:00",
+    "lastModifiedIso": "2026-03-31T13:40:36+00:00",
+    "source": "arXiv Astrophysics",
+    "sourceDomain": "arxiv.org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint ainda sem revisão por pares.",
+    "sourceNote_pt": "Preprint ainda sem revisão por pares.",
+    "sourceNote_en": "Preprint not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
     "editorialBand": "standard",
     "editorialBandLabel": "Prioridade editorial",
     "editorialBandLabel_pt": "Prioridade editorial",
     "editorialBandLabel_en": "Editorial priority",
     "keywords": [
       "Exoplanetas",
-      "Universe Today",
+      "arXiv Astrophysics",
       "Cosmos Week",
-      "Exoluas podem ser habitáveis ​​por bilhões de anos",
-      "desde que tenham atmosferas de hidrogênio"
+      "Novas restrições na linha costeira cósmica anã M de uma galáxia muito",
+      "muito distante"
     ],
     "keywords_pt": [
       "Exoplanetas",
-      "Universe Today",
+      "arXiv Astrophysics",
       "Cosmos Week",
-      "Exoluas podem ser habitáveis ​​por bilhões de anos",
-      "desde que tenham atmosferas de hidrogênio"
+      "Novas restrições na linha costeira cósmica anã M de uma galáxia muito",
+      "muito distante"
     ],
     "keywords_en": [
       "Exoplanets",
-      "Universe Today",
+      "arXiv Astrophysics",
       "Cosmos Week",
-      "Exomoons could be habitable for billions of years",
-      "as long as they have hydrogen atmospheres"
+      "New constraints on the M-dwarf cosmic shoreline of a very",
+      "very distant"
     ],
-    "srcUrl": "https://www.universetoday.com/articles/exomoons-could-be-habitable-for-billions-of-years-provided-they-have-hydrogen-atmospheres",
-    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=exomoons-could-be-habitable-for-billions-of-years-provided-they-have-hydrogen-atmospheres",
+    "srcUrl": "https://arxiv.org/abs/2603.29743v1",
+    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=new-constraints-on-the-m-dwarf-cosmic-shoreline-from-a-galaxy-far-far-away",
     "featured": false,
     "trending": false,
-    "isPreprint": false,
-    "score": 74,
+    "isPreprint": true,
+    "score": 68,
     "scoreBreakdown": {
-      "source": 73,
-      "evidence": 82,
-      "relevance": 88,
+      "source": 56,
+      "evidence": 64,
+      "relevance": 94,
       "accessibility": 60,
-      "novelty": 49
+      "novelty": 55
     }
   },
   {
@@ -1240,22 +1240,22 @@ window.postsData = [
     "excerpt": "O avanço da frente fria levantou uma linha acentuada de areia e outras pequenas partículas que varreram as planícies altas. A postagem Onda de poeira rola pelo Texas apareceu pela primeira vez na NASA Science.",
     "excerpt_pt": "O avanço da frente fria levantou uma linha acentuada de areia e outras pequenas partículas que varreram as planícies altas. A postagem Onda de poeira rola pelo Texas apareceu pela primeira vez na NASA Science.",
     "excerpt_en": "An advancing cold front kicked up a sharp line of sand and other small particles that swept over the high plains. The post Wave of Dust Rolls Through Texas appeared first on NASA Science .",
-    "body": "<p>O avanço da frente fria levantou uma linha acentuada de areia e outras pequenas partículas que varreram as planícies altas. A postagem Onda de poeira rola pelo Texas apareceu pela primeira vez na NASA Science. A atualização é resultado de um extenso período de coleta de dados e operações de missão.</p><p>O campo vinha se construindo em direção a momentos como este. A física se constrói sobre precisão. Um resultado ganha credibilidade não por ser surpreendente, mas pela qualidade do controle experimental e pela consistência de sua reprodução.</p><p>O registro observacional oferece um detalhe importante aqui. Explorar Pesquisa Notícias e eventos Notícias e eventos Série de vídeos publicada recentemente na NASA + Podcasts e blogs de áudio Boletins informativos Mídia social Recursos de mídia Multimídia Imagens multimídia… Além disso, observatório da Terra Ciência Observatório da Terra Onda de poeira rola pelo Texas Terra Observatório da Terra Imagem do dia EO Explorer Tópicos Todos os tópicos Atmosfera Terra Calor e radiação Vida…</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. Em física, o filtro final é sempre o mesmo: mais dados, mais escrutínio e menos tolerância a interpretações que sobrevivem apenas sob premissas estreitas.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/wave-of-dust-rolls-through-texas/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>O avanço da frente fria levantou uma linha acentuada de areia e outras pequenas partículas que varreram as planícies altas. A postagem Onda de poeira rola pelo Texas apareceu pela primeira vez na NASA Science. A atualização é resultado de um extenso período de coleta de dados e operações de missão.</p><p>O campo vinha se construindo em direção a momentos como este. A física se constrói sobre precisão. Um resultado ganha credibilidade não por ser surpreendente, mas pela qualidade do controle experimental e pela consistência de sua reprodução.</p><p>O registro observacional oferece um detalhe importante aqui. Explorar Pesquisa Notícias e eventos Notícias e eventos Série de vídeos publicada recentemente na NASA + Podcasts e blogs de áudio Boletins informativos Mídia social Recursos de mídia Multimídia Imagens multimídia… Além disso, observatório da Terra Ciência Observatório da Terra Onda de poeira rola pelo Texas Terra Observatório da Terra Imagem do dia EO Explorer Tópicos Todos os tópicos Atmosfera Terra Calor e radiação Vida…</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. Em física, o filtro final é sempre o mesmo: mais dados, mais escrutínio e menos tolerância a interpretações que sobrevivem apenas sob premissas estreitas.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/wave-of-dust-rolls-through-texas/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>An advancing cold front kicked up a sharp line of sand and other small particles that swept over the high plains. The post Wave of Dust Rolls Through Texas appeared first on NASA Science .</p><p>The field has been building toward moments like this. Physics builds on precision. A result gains credibility not from how surprising it is, but from how well the measurement was controlled and how consistently it reproduces.</p><p>Explore Search News &amp; Events News &amp; Events Recently Published Video Series on NASA+ Podcasts &amp; Audio Blogs Newsletters Social Media Media Resources Multimedia Multimedia Images Videos on NASA+ Interactives NASA Apps… The analysis also shows that earth Observatory Science Earth Observatory Wave of Dust Rolls Through Texas Earth Earth Observatory Image of the Day EO Explorer Topics All Topics Atmosphere Land Heat &amp; Radiation Life on Earth…</p><p>In physics, the final filter is always the same: more data, more scrutiny, and less tolerance for interpretations that survive only under narrow assumptions.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/wave-of-dust-rolls-through-texas/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "body": "<p>O avanço da frente fria levantou uma linha acentuada de areia e outras pequenas partículas que varreram as planícies altas. A postagem Onda de poeira rola pelo Texas apareceu pela primeira vez na NASA Science. A atualização é resultado de um extenso período de coleta de dados e operações de missão.</p><p>O campo vinha se construindo em direção a momentos como este. A física se constrói sobre precisão. Um resultado ganha credibilidade não por ser surpreendente, mas pela qualidade do controle experimental e pela consistência de sua reprodução.</p><p>O registro observacional oferece um detalhe importante aqui. Observatório da Terra Ciência Observatório da Terra Onda de poeira rola pelo Texas Terra Observatório da Terra Imagem do dia EO Explorer Tópicos Todos os tópicos Atmosfera Terra Calor e radiação Vida na Terra Dimensões… Além disso, artigo 1 2 3 4 Próximo Continue explorando Descubra mais da NASA Earth Science Assine os boletins informativos do Observatório da Terra Assine o Observatório da Terra e receba a Terra em sua caixa de…</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. Em física, o filtro final é sempre o mesmo: mais dados, mais escrutínio e menos tolerância a interpretações que sobrevivem apenas sob premissas estreitas.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/wave-of-dust-rolls-through-texas/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>O avanço da frente fria levantou uma linha acentuada de areia e outras pequenas partículas que varreram as planícies altas. A postagem Onda de poeira rola pelo Texas apareceu pela primeira vez na NASA Science. A atualização é resultado de um extenso período de coleta de dados e operações de missão.</p><p>O campo vinha se construindo em direção a momentos como este. A física se constrói sobre precisão. Um resultado ganha credibilidade não por ser surpreendente, mas pela qualidade do controle experimental e pela consistência de sua reprodução.</p><p>O registro observacional oferece um detalhe importante aqui. Observatório da Terra Ciência Observatório da Terra Onda de poeira rola pelo Texas Terra Observatório da Terra Imagem do dia EO Explorer Tópicos Todos os tópicos Atmosfera Terra Calor e radiação Vida na Terra Dimensões… Além disso, artigo 1 2 3 4 Próximo Continue explorando Descubra mais da NASA Earth Science Assine os boletins informativos do Observatório da Terra Assine o Observatório da Terra e receba a Terra em sua caixa de…</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. Em física, o filtro final é sempre o mesmo: mais dados, mais escrutínio e menos tolerância a interpretações que sobrevivem apenas sob premissas estreitas.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/wave-of-dust-rolls-through-texas/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>An advancing cold front kicked up a sharp line of sand and other small particles that swept over the high plains. The post Wave of Dust Rolls Through Texas appeared first on NASA Science .</p><p>The field has been building toward moments like this. Physics builds on precision. A result gains credibility not from how surprising it is, but from how well the measurement was controlled and how consistently it reproduces.</p><p>Earth Observatory Science Earth Observatory Wave of Dust Rolls Through Texas Earth Earth Observatory Image of the Day EO Explorer Topics All Topics Atmosphere Land Heat &amp; Radiation Life on Earth Human Dimensions Natural… The analysis also shows that article 1 2 3 4 Next Keep Exploring Discover More from NASA Earth Science Subscribe to Earth Observatory Newsletters Subscribe to the Earth Observatory and get the Earth in your inbox.</p><p>In physics, the final filter is always the same: more data, more scrutiny, and less tolerance for interpretations that survive only under narrow assumptions.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/wave-of-dust-rolls-through-texas/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: O avanço da frente fria levantou uma linha acentuada de areia e outras pequenas partículas que varreram as planícies altas. A postagem Onda de poeira…",
-      "Dado-chave: artigo 4 semanas atrás Missões Pesquisar Todas as missões da NASA de A a Z Lista de missões Próximos lançamentos e pousos Naves espaciais e…",
+      "Dado-chave: Explorar Pesquisa Notícias e eventos Notícias e eventos Série de vídeos publicada recentemente na NASA + Podcasts e blogs de áudio Boletins…",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: O avanço da frente fria levantou uma linha acentuada de areia e outras pequenas partículas que varreram as planícies altas. A postagem Onda de poeira…",
-      "Dado-chave: artigo 4 semanas atrás Missões Pesquisar Todas as missões da NASA de A a Z Lista de missões Próximos lançamentos e pousos Naves espaciais e…",
+      "Dado-chave: Explorar Pesquisa Notícias e eventos Notícias e eventos Série de vídeos publicada recentemente na NASA + Podcasts e blogs de áudio Boletins…",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: An advancing cold front kicked up a sharp line of sand and other small particles that swept over the high plains. The post Wave of Dust Rolls Through…",
-      "Key detail: article 4 weeks ago Back Missions Search All NASA Missions A to Z List of Missions Upcoming Launches and Landings Spaceships and Rockets…",
+      "Key detail: Explore Search News & Events News & Events Recently Published Video Series on NASA+ Podcasts & Audio Blogs Newsletters Social Media Media…",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "18 mar 2026",
@@ -1522,22 +1522,22 @@ window.postsData = [
     "excerpt": "Oito CubeSats e uma carga útil apoiada pela Agência Espacial Europeia chegaram à órbita, onde irão demonstrar várias aplicações destinadas a melhorar a forma como os dados são enviados e processados. Graças a essas demonstrações, práticas e –…",
     "excerpt_pt": "Oito CubeSats e uma carga útil apoiada pela Agência Espacial Europeia chegaram à órbita, onde irão demonstrar várias aplicações destinadas a melhorar a forma como os dados são enviados e processados. Graças a essas demonstrações, práticas e –…",
     "excerpt_en": "Eight CubeSats and one payload supported by the European Space Agency reached orbit, where they will demonstrate various applications aimed at improving how data is sent around and processed. Thanks to these demonstrations, practical and –…",
-    "body": "<p>Novos resultados em biologia: oito CubeSats e uma carga útil apoiada pela Agência Espacial Europeia chegaram à órbita, onde irão demonstrar várias aplicações destinadas a melhorar a forma como os dados são enviados e processados. Graças a essas demonstrações, práticas e –…</p><p>Para situar o resultado no contexto: a biologia raramente produz resultados aplicáveis em todos os contextos ao mesmo tempo. Entender qual sistema foi estudado e em quais condições é o primeiro passo para julgar o alcance da conclusão. Este resultado contribui diretamente para esse esforço: cinco CubeSats lançados a bordo do Transporter-16 foram desenvolvidos no âmbito do programa de Conectividade Grega da ESA – implementado pela ESA em nome do Ministério da Governação Digital do Governo Grego.</p><p>Os dados subjacentes contam uma história consistente. Incluirá o terminal de comunicação a laser SCOT20 do fabricante alemão de comunicações seguras baseadas no espaço TESAT para enviar e receber links de laser seguros e de alta velocidade de outros pequenos satélites em… Além disso, voando junto com os CubeSats ERMIS-1 e ERMIS-2, esta missão se concentrará em alcançar o apontamento, aquisição e rastreamento precisos necessários para realizar um link de laser com uma estação no…</p><p>O próximo passo é testar reprodutibilidade e generalização em outros sistemas modelo, sem confundir um resultado promissor com uma resposta definitiva.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Connectivity_and_Secure_Communications/Seven_missions_launched_to_test_optimised_data_transfer_from_space\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Novos resultados em biologia: oito CubeSats e uma carga útil apoiada pela Agência Espacial Europeia chegaram à órbita, onde irão demonstrar várias aplicações destinadas a melhorar a forma como os dados são enviados e processados. Graças a essas demonstrações, práticas e –…</p><p>Para situar o resultado no contexto: a biologia raramente produz resultados aplicáveis em todos os contextos ao mesmo tempo. Entender qual sistema foi estudado e em quais condições é o primeiro passo para julgar o alcance da conclusão. Este resultado contribui diretamente para esse esforço: cinco CubeSats lançados a bordo do Transporter-16 foram desenvolvidos no âmbito do programa de Conectividade Grega da ESA – implementado pela ESA em nome do Ministério da Governação Digital do Governo Grego.</p><p>Os dados subjacentes contam uma história consistente. Incluirá o terminal de comunicação a laser SCOT20 do fabricante alemão de comunicações seguras baseadas no espaço TESAT para enviar e receber links de laser seguros e de alta velocidade de outros pequenos satélites em… Além disso, voando junto com os CubeSats ERMIS-1 e ERMIS-2, esta missão se concentrará em alcançar o apontamento, aquisição e rastreamento precisos necessários para realizar um link de laser com uma estação no…</p><p>O próximo passo é testar reprodutibilidade e generalização em outros sistemas modelo, sem confundir um resultado promissor com uma resposta definitiva.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Connectivity_and_Secure_Communications/Seven_missions_launched_to_test_optimised_data_transfer_from_space\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Eight CubeSats and one payload supported by the European Space Agency reached orbit, where they will demonstrate various applications aimed at improving how data is sent around and processed. Thanks to these demonstrations, practical and –…</p><p>The field has been building toward moments like this. Biology rarely produces results that apply everywhere at once. Understanding what system was studied, under what conditions, is the first step in judging how far the conclusion extends.</p><p>It will include German secure space-based communications manufacturer TESAT’s SCOT20 laser communication terminal to send and receive secure, high-speed laser links from other small satellites in low Earth orbit. A second thread in the data points to the fact that flying together with the ERMIS-1 and ERMIS-2 CubeSats, this mission will focus on achieving the accurate pointing, acquisition and tracking needed to perform a laser link with a station on the ground.</p><p>The announcement opens a productive path for follow-up. The next step is to test reproducibility and generalization in other model systems, without mistaking a promising result for a settled answer.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Connectivity_and_Secure_Communications/Seven_missions_launched_to_test_optimised_data_transfer_from_space\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "body": "<p>Novos resultados em biologia: oito CubeSats e uma carga útil apoiada pela Agência Espacial Europeia chegaram à órbita, onde irão demonstrar várias aplicações destinadas a melhorar a forma como os dados são enviados e processados. Graças a essas demonstrações, práticas e –…</p><p>Para situar o resultado no contexto: a biologia raramente produz resultados aplicáveis em todos os contextos ao mesmo tempo. Entender qual sistema foi estudado e em quais condições é o primeiro passo para julgar o alcance da conclusão. Este resultado contribui diretamente para esse esforço: oito CubeSats e uma carga útil apoiada pela Agência Espacial Europeia (ESA) chegaram à órbita, onde irão demonstrar várias aplicações destinadas a melhorar a forma como os dados são enviados e processados.</p><p>Os dados subjacentes contam uma história consistente. Graças a estas demonstrações, dados práticos e – por vezes – até mesmo salvadores de vidas, obtidos a partir do espaço, circularão de forma mais eficiente e chegarão aos intervenientes certos atempadamente no futuro.</p><p>O próximo passo é testar reprodutibilidade e generalização em outros sistemas modelo, sem confundir um resultado promissor com uma resposta definitiva.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Connectivity_and_Secure_Communications/Seven_missions_launched_to_test_optimised_data_transfer_from_space\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Novos resultados em biologia: oito CubeSats e uma carga útil apoiada pela Agência Espacial Europeia chegaram à órbita, onde irão demonstrar várias aplicações destinadas a melhorar a forma como os dados são enviados e processados. Graças a essas demonstrações, práticas e –…</p><p>Para situar o resultado no contexto: a biologia raramente produz resultados aplicáveis em todos os contextos ao mesmo tempo. Entender qual sistema foi estudado e em quais condições é o primeiro passo para julgar o alcance da conclusão. Este resultado contribui diretamente para esse esforço: oito CubeSats e uma carga útil apoiada pela Agência Espacial Europeia (ESA) chegaram à órbita, onde irão demonstrar várias aplicações destinadas a melhorar a forma como os dados são enviados e processados.</p><p>Os dados subjacentes contam uma história consistente. Graças a estas demonstrações, dados práticos e – por vezes – até mesmo salvadores de vidas, obtidos a partir do espaço, circularão de forma mais eficiente e chegarão aos intervenientes certos atempadamente no futuro.</p><p>O próximo passo é testar reprodutibilidade e generalização em outros sistemas modelo, sem confundir um resultado promissor com uma resposta definitiva.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Connectivity_and_Secure_Communications/Seven_missions_launched_to_test_optimised_data_transfer_from_space\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Eight CubeSats and one payload supported by the European Space Agency reached orbit, where they will demonstrate various applications aimed at improving how data is sent around and processed. Thanks to these demonstrations, practical and –…</p><p>The field has been building toward moments like this. Biology rarely produces results that apply everywhere at once. Understanding what system was studied, under what conditions, is the first step in judging how far the conclusion extends.</p><p>Thanks to these demonstrations, practical and – sometimes – even life-saving data enabled from space will move more efficiently and reach the right actors on time in the future.</p><p>The announcement opens a productive path for follow-up. The next step is to test reproducibility and generalization in other model systems, without mistaking a promising result for a settled answer.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Connectivity_and_Secure_Communications/Seven_missions_launched_to_test_optimised_data_transfer_from_space\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Oito CubeSats e uma carga útil apoiada pela Agência Espacial Europeia chegaram à órbita, onde irão demonstrar várias aplicações destinadas a melhorar…",
-      "Dado-chave: Cinco CubeSats lançados a bordo do Transporter-16 foram desenvolvidos no âmbito do programa de Conectividade Grega da ESA – implementado pela…",
+      "Dado-chave: Oito CubeSats e uma carga útil apoiada pela Agência Espacial Europeia (ESA) chegaram à órbita, onde irão demonstrar várias aplicações destinadas…",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: Oito CubeSats e uma carga útil apoiada pela Agência Espacial Europeia chegaram à órbita, onde irão demonstrar várias aplicações destinadas a melhorar…",
-      "Dado-chave: Cinco CubeSats lançados a bordo do Transporter-16 foram desenvolvidos no âmbito do programa de Conectividade Grega da ESA – implementado pela…",
+      "Dado-chave: Oito CubeSats e uma carga útil apoiada pela Agência Espacial Europeia (ESA) chegaram à órbita, onde irão demonstrar várias aplicações destinadas…",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: Eight CubeSats and one payload supported by the European Space Agency reached orbit, where they will demonstrate various applications aimed at…",
-      "Key detail: Five CubeSats launched aboard Transporter-16 were developed within ESA’s Greek Connectivity programme – implemented by ESA on behalf on the…",
+      "Key detail: Eight CubeSats and one payload supported by the European Space Agency (ESA) reached orbit, where they will demonstrate various applications…",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "31 mar 2026",
@@ -1591,13 +1591,13 @@ window.postsData = [
     "featured": false,
     "trending": false,
     "isPreprint": false,
-    "score": 75,
+    "score": 74,
     "scoreBreakdown": {
       "source": 80,
       "evidence": 82,
       "relevance": 80,
       "accessibility": 60,
-      "novelty": 55
+      "novelty": 52
     }
   },
   {
@@ -1633,17 +1633,17 @@ window.postsData = [
       "Key detail: In the new work, the researchers tested Merlin across six broad categories of activities, spanning more than 750 individual tasks that entailed…",
       "Institutional origin: separate announcement from evidence."
     ],
-    "date": "31 mar 2026",
-    "date_pt": "31 mar 2026",
-    "date_en": "31 Mar 2026",
-    "time": "23h58",
-    "time_pt": "23h58",
-    "time_en": "23:58 UTC",
+    "date": "01 abr 2026",
+    "date_pt": "01 abr 2026",
+    "date_en": "01 Apr 2026",
+    "time": "03h13",
+    "time_pt": "03h13",
+    "time_en": "03:13 UTC",
     "read": "4 min de leitura",
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
-    "publishedIso": "2026-03-31T23:58:48.479112+00:00",
-    "lastModifiedIso": "2026-03-31T23:58:48.479112+00:00",
+    "publishedIso": "2026-04-01T03:13:47.182150+00:00",
+    "lastModifiedIso": "2026-04-01T03:13:47.182150+00:00",
     "source": "NIH News Releases",
     "sourceDomain": "www.nih.gov",
     "sourceType": "agency",
@@ -1801,22 +1801,22 @@ window.postsData = [
     "excerpt": "O Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de Saturno, revelando o planeta de formas surpreendentemente diferentes. Observações infravermelhas e visíveis mostram…",
     "excerpt_pt": "O Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de Saturno, revelando o planeta de formas surpreendentemente diferentes. Observações infravermelhas e visíveis mostram…",
     "excerpt_en": "The NASA/ESA/CSA James Webb Space Telescope and the NASA/ESA Hubble Space Telescope have joined forces to capture new views of Saturn, revealing the planet in strikingly different ways. Infrared and visible observations show layers and…",
-    "body": "<p>Novos resultados em ciências da Terra: o Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de Saturno, revelando o planeta de formas surpreendentemente diferentes. Observações infravermelhas e visíveis…</p><p>O campo vinha se construindo em direção a momentos como este. Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência.</p><p>O registro observacional oferece um detalhe importante aqui. À medida que Saturno transita para a primavera meridional e, mais tarde, para o verão meridional na década de 2030, o Hubble e o Webb terão progressivamente melhores vistas desse hemisfério. Um segundo fio nos dados aponta para o fato de que a imagem do Hubble vista aqui foi capturada como parte de um programa de monitoramento de mais de uma década chamado OPAL (Outer Planet Atmospheres Legacy) em agosto de 2024, enquanto a imagem do…</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_Hubble_capture_new_views_of_Saturn\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Novos resultados em ciências da Terra: o Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de Saturno, revelando o planeta de formas surpreendentemente diferentes. Observações infravermelhas e visíveis…</p><p>O campo vinha se construindo em direção a momentos como este. Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência.</p><p>O registro observacional oferece um detalhe importante aqui. À medida que Saturno transita para a primavera meridional e, mais tarde, para o verão meridional na década de 2030, o Hubble e o Webb terão progressivamente melhores vistas desse hemisfério. Um segundo fio nos dados aponta para o fato de que a imagem do Hubble vista aqui foi capturada como parte de um programa de monitoramento de mais de uma década chamado OPAL (Outer Planet Atmospheres Legacy) em agosto de 2024, enquanto a imagem do…</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_Hubble_capture_new_views_of_Saturn\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Hubble and Webb have already explored Saturn’s auroras, provided insights into Jupiter’s spectacular auroras also seen with Hubble , confirmed the auroras of Uranus glimpsed in 2011 by Hubble , and detected Neptune’s…</p><p>To place the result in context: earth science results become meaningful when they can be situated within longer records. A single measurement is a starting point; a trend across instruments and time is evidence. This result contributes directly to that effort: hubble and Webb have already explored Saturn’s auroras, provided insights into Jupiter’s spectacular auroras also seen with Hubble , confirmed the auroras of Uranus glimpsed in 2011 by Hubble , and detected…</p><p>The observational record provides important detail here. As Saturn transitions into southern spring, and later southern summer in the 2030’s, Hubble and Webb will have progressively better views of that hemisphere. The analysis also shows that the Hubble image seen here was captured as part of a more than a decade long monitoring program called OPAL ( Outer Planet Atmospheres Legacy ) in August 2024, while the Webb image was captured a few…</p><p>Independent observations will now determine how well the result holds under different conditions. The most rigorous test will be to situate this result within longer time series and independent instruments, reducing the risk of reading too much into a single data point.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_Hubble_capture_new_views_of_Saturn\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "body": "<p>Novos resultados em ciências da Terra: o Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de Saturno, revelando o planeta de formas surpreendentemente diferentes. Observações infravermelhas e visíveis…</p><p>O campo vinha se construindo em direção a momentos como este. Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência.</p><p>O registro observacional oferece um detalhe importante aqui. Observações infravermelhas e visíveis mostram camadas e tempestades na atmosfera do planeta anelado.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_Hubble_capture_new_views_of_Saturn\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Novos resultados em ciências da Terra: o Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de Saturno, revelando o planeta de formas surpreendentemente diferentes. Observações infravermelhas e visíveis…</p><p>O campo vinha se construindo em direção a momentos como este. Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência.</p><p>O registro observacional oferece um detalhe importante aqui. Observações infravermelhas e visíveis mostram camadas e tempestades na atmosfera do planeta anelado.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_Hubble_capture_new_views_of_Saturn\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>The NASA/ESA/CSA James Webb Space Telescope and the NASA/ESA Hubble Space Telescope have joined forces to capture new views of Saturn, revealing the planet in strikingly different ways.</p><p>To place the result in context: earth science results become meaningful when they can be situated within longer records. A single measurement is a starting point; a trend across instruments and time is evidence. This result contributes directly to that effort: the NASA/ESA/CSA James Webb Space Telescope and the NASA/ESA Hubble Space Telescope have joined forces to capture new views of Saturn, revealing the planet in strikingly different ways.</p><p>The observational record provides important detail here. Infrared and visible observations show layers and storms in the ringed planet’s atmosphere.</p><p>Independent observations will now determine how well the result holds under different conditions. The most rigorous test will be to situate this result within longer time series and independent instruments, reducing the risk of reading too much into a single data point.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_Hubble_capture_new_views_of_Saturn\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: O Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de Saturno,…",
-      "Dado-chave: Hubble e Webb já exploraram as auroras de Saturno, forneceram informações sobre as espetaculares auroras de Júpiter também vistas com o Hubble,…",
+      "Dado-chave: O Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de…",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: O Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de Saturno,…",
-      "Dado-chave: Hubble e Webb já exploraram as auroras de Saturno, forneceram informações sobre as espetaculares auroras de Júpiter também vistas com o Hubble,…",
+      "Dado-chave: O Telescópio Espacial James Webb da NASA/ESA/CSA e o Telescópio Espacial Hubble da NASA/ESA uniram forças para capturar novas imagens de…",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: The NASA/ESA/CSA James Webb Space Telescope and the NASA/ESA Hubble Space Telescope have joined forces to capture new views of Saturn, revealing the…",
-      "Key detail: Hubble and Webb have already explored Saturn’s auroras, provided insights into Jupiter’s spectacular auroras also seen with Hubble , confirmed…",
+      "Key detail: The NASA/ESA/CSA James Webb Space Telescope and the NASA/ESA Hubble Space Telescope have joined forces to capture new views of Saturn, revealing…",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "25 mar 2026",
@@ -1987,9 +1987,9 @@ window.postsData = [
     "excerpt": "Quando os quatro astronautas do Artemis II decolarem para viajar em direção à Lua pela primeira vez em mais de 50 anos, a Europa viajará com eles – não apenas através do Módulo de Serviço Europeu que alimenta a sua nave espacial, mas também…",
     "excerpt_pt": "Quando os quatro astronautas do Artemis II decolarem para viajar em direção à Lua pela primeira vez em mais de 50 anos, a Europa viajará com eles – não apenas através do Módulo de Serviço Europeu que alimenta a sua nave espacial, mas também…",
     "excerpt_en": "When the four astronauts of Artemis II lift off to travel towards the Moon for the first time in over 50 years, Europe will be travelling with them – not only through the European Service Module that powers their spacecraft, but also…",
-    "body": "<p>Novos resultados em ciências da Terra: quando os quatro astronautas do Artemis II decolarem para viajar em direção à Lua pela primeira vez em mais de 50 anos, a Europa viajará com eles – não apenas através do Módulo de Serviço Europeu que alimenta a sua nave espacial, mas também…</p><p>O campo vinha se construindo em direção a momentos como este. Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência.</p><p>Quando as medições são examinadas com cuidado, um quadro mais nítido emerge. Aqui, mais de 200 especialistas da NASA, ESA, Airbus e Lockheed Martin analisarão detalhadamente o desempenho do Orion e aconselharão os controladores de voo em tempo real. Além disso, operar a partir da Europa também mantém a equipa estreitamente ligada aos parceiros industriais em 10 Estados-Membros da ESA que construíram o módulo.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/European_eyes_on_Artemis\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Novos resultados em ciências da Terra: quando os quatro astronautas do Artemis II decolarem para viajar em direção à Lua pela primeira vez em mais de 50 anos, a Europa viajará com eles – não apenas através do Módulo de Serviço Europeu que alimenta a sua nave espacial, mas também…</p><p>O campo vinha se construindo em direção a momentos como este. Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência.</p><p>Quando as medições são examinadas com cuidado, um quadro mais nítido emerge. Aqui, mais de 200 especialistas da NASA, ESA, Airbus e Lockheed Martin analisarão detalhadamente o desempenho do Orion e aconselharão os controladores de voo em tempo real. Além disso, operar a partir da Europa também mantém a equipa estreitamente ligada aos parceiros industriais em 10 Estados-Membros da ESA que construíram o módulo.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/European_eyes_on_Artemis\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>New findings in Earth science: when the four astronauts of Artemis II lift off to travel towards the Moon for the first time in over 50 years, Europe will be travelling with them – not only through the European Service Module that powers their spacecraft, but also…</p><p>The field has been building toward moments like this. Earth science results become meaningful when they can be situated within longer records. A single measurement is a starting point; a trend across instruments and time is evidence.</p><p>The observational record provides important detail here. Here, over 200 specialists from NASA, ESA, Airbus and Lockheed Martin will analyse Orion&#x27;s performance in detail and advise flight controllers in real time. On top of that, operating from Europe also keeps the team closely linked to the industrial partners in 10 ESA Member States who built the module.</p><p>The announcement opens a productive path for follow-up. The most rigorous test will be to situate this result within longer time series and independent instruments, reducing the risk of reading too much into a single data point.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/European_eyes_on_Artemis\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "body": "<p>Novos resultados em ciências da Terra: quando os quatro astronautas do Artemis II decolarem para viajar em direção à Lua pela primeira vez em mais de 50 anos, a Europa viajará com eles – não apenas através do Módulo de Serviço Europeu que alimenta a sua nave espacial, mas também…</p><p>O campo vinha se construindo em direção a momentos como este. Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência.</p><p>Quando as medições são examinadas com cuidado, um quadro mais nítido emerge. Dos centros da ESA na Holanda e na Alemanha ao Centro de Controle de Missão da NASA em Houston, especialistas europeus acompanharão a missão… Além disso, dos centros da ESA na Holanda e na Alemanha ao Centro de Controlo da Missão da NASA em Houston, especialistas europeus acompanharão a missão 24 horas por dia, analisando dados, antecipando riscos e…</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/European_eyes_on_Artemis\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Novos resultados em ciências da Terra: quando os quatro astronautas do Artemis II decolarem para viajar em direção à Lua pela primeira vez em mais de 50 anos, a Europa viajará com eles – não apenas através do Módulo de Serviço Europeu que alimenta a sua nave espacial, mas também…</p><p>O campo vinha se construindo em direção a momentos como este. Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência.</p><p>Quando as medições são examinadas com cuidado, um quadro mais nítido emerge. Dos centros da ESA na Holanda e na Alemanha ao Centro de Controle de Missão da NASA em Houston, especialistas europeus acompanharão a missão… Além disso, dos centros da ESA na Holanda e na Alemanha ao Centro de Controlo da Missão da NASA em Houston, especialistas europeus acompanharão a missão 24 horas por dia, analisando dados, antecipando riscos e…</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/European_eyes_on_Artemis\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>New findings in Earth science: when the four astronauts of Artemis II lift off to travel towards the Moon for the first time in over 50 years, Europe will be travelling with them – not only through the European Service Module that powers their spacecraft, but also…</p><p>The field has been building toward moments like this. Earth science results become meaningful when they can be situated within longer records. A single measurement is a starting point; a trend across instruments and time is evidence.</p><p>The observational record provides important detail here. From ESA centres in the Netherlands and Germany to NASA&#x27;s Mission Control Center in Houston, European experts will follow the mission around… On top of that, from ESA centres in the Netherlands and Germany to NASA&#x27;s Mission Control Center in Houston, European experts will follow the mission around the clock, analysing data, anticipating risks and ensuring…</p><p>The announcement opens a productive path for follow-up. The most rigorous test will be to situate this result within longer time series and independent instruments, reducing the risk of reading too much into a single data point.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/European_eyes_on_Artemis\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Quando os quatro astronautas do Artemis II decolarem para viajar em direção à Lua pela primeira vez em mais de 50 anos, a Europa viajará com eles –…",
       "Dado-chave: Quando os quatro astronautas do Artemis II partirem para viajar em direção à Lua pela primeira vez em mais de 50 anos, a Europa viajará com eles…",
@@ -2062,7 +2062,7 @@ window.postsData = [
       "evidence": 88,
       "relevance": 80,
       "accessibility": 60,
-      "novelty": 55
+      "novelty": 52
     }
   },
   {
@@ -2352,6 +2352,99 @@ window.postsData = [
   },
   {
     "id": 26,
+    "slug": "optical-fiber-arrays-may-unlock-mysteries-of-the-moon-s-deep-interior",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://www.universetoday.com/article_images/371255main_Seismic_1600_20260401_005708.jpg",
+    "title": "Matrizes de fibra óptica podem desvendar mistérios do interior profundo da Lua",
+    "title_pt": "Matrizes de fibra óptica podem desvendar mistérios do interior profundo da Lua",
+    "title_en": "Optical Fiber Arrays May Unlock Mysteries Of The Moon’s Deep Interior",
+    "sub": "A fibra óptica comum de telecomunicações poderia ajudar os cientistas planetários a caracterizar melhor o interior profundo da lua, bem como seus tubos de lava, dizem dois novos…",
+    "sub_pt": "A fibra óptica comum de telecomunicações poderia ajudar os cientistas planetários a caracterizar melhor o interior profundo da lua, bem como seus tubos de lava, dizem dois novos…",
+    "sub_en": "Ordinary telecoms grade optical fiber could help planetary scientists better characterize the moon’s deep interior as well as its lava tubes, say two new journal papers.",
+    "excerpt": "A fibra óptica comum de telecomunicações poderia ajudar os cientistas planetários a caracterizar melhor o interior profundo da lua, bem como seus tubos de lava, dizem dois novos artigos de periódicos.",
+    "excerpt_pt": "A fibra óptica comum de telecomunicações poderia ajudar os cientistas planetários a caracterizar melhor o interior profundo da lua, bem como seus tubos de lava, dizem dois novos artigos de periódicos.",
+    "excerpt_en": "Ordinary telecoms grade optical fiber could help planetary scientists better characterize the moon’s deep interior as well as its lava tubes, say two new journal papers.",
+    "body": "<p>Matrizes de fibra óptica podem desvendar mistérios do interior profundo da Lua Por Bruce Dorminey - 01 de abril de 2026 01h08 UTC | Ciência Planetária O Experimento Sísmico Passivo foi o primeiro sismógrafo colocado na…</p><p>O campo vinha se construindo em direção a momentos como este. A astronomia avança acumulando observações em diferentes comprimentos de onda e missões, cada resultado reforçando ou contestando os modelos que o precederam.</p><p>O registro observacional oferece um detalhe importante aqui. Isto é, depois de se ter formado na sequência de um impactor do tamanho de Marte que atingiu a Terra há cerca de 4,5 mil milhões de anos. Um segundo fio nos dados aponta para o fato de que cabos superiores a 10 km permitiriam estudos profundos do interior, enquanto implantações mais curtas de centenas de metros seriam suficientes para caracterizar terremotos lunares térmicos e…</p><p>Observações independentes em outros comprimentos de onda, ou com instrumentos diferentes, serão o próximo teste natural para este resultado.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/optical-fiber-arrays-may-unlock-mysteries-of-the-moons-deep-interior\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Matrizes de fibra óptica podem desvendar mistérios do interior profundo da Lua Por Bruce Dorminey - 01 de abril de 2026 01h08 UTC | Ciência Planetária O Experimento Sísmico Passivo foi o primeiro sismógrafo colocado na…</p><p>O campo vinha se construindo em direção a momentos como este. A astronomia avança acumulando observações em diferentes comprimentos de onda e missões, cada resultado reforçando ou contestando os modelos que o precederam.</p><p>O registro observacional oferece um detalhe importante aqui. Isto é, depois de se ter formado na sequência de um impactor do tamanho de Marte que atingiu a Terra há cerca de 4,5 mil milhões de anos. Um segundo fio nos dados aponta para o fato de que cabos superiores a 10 km permitiriam estudos profundos do interior, enquanto implantações mais curtas de centenas de metros seriam suficientes para caracterizar terremotos lunares térmicos e…</p><p>Observações independentes em outros comprimentos de onda, ou com instrumentos diferentes, serão o próximo teste natural para este resultado.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/optical-fiber-arrays-may-unlock-mysteries-of-the-moons-deep-interior\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Ordinary telecoms grade optical fiber could help planetary scientists better characterize the moon’s deep interior as well as its lava tubes, say two new journal papers.</p><p>The field has been building toward moments like this. Astronomy advances by accumulating observations across wavelengths and missions, each result either reinforcing or challenging the models that preceded it.</p><p>The underlying data tell a consistent story. That is, after it formed in the aftermath of a Mars-sized impactor that struck earth some 4.5 billion years ago. On top of that, cables exceeding 10 km would enable deep interior studies, while shorter deployments of hundreds of meters would suffice for characterizing thermal moonquakes and local shallow structure, the authors…</p><p>Independent observations will now determine how well the result holds under different conditions. Independent observations at other wavelengths, or with different instruments, will be the natural next test for this result.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/optical-fiber-arrays-may-unlock-mysteries-of-the-moons-deep-interior\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Ponto central: A fibra óptica comum de telecomunicações poderia ajudar os cientistas planetários a caracterizar melhor o interior profundo da lua, bem como seus…",
+      "Dado-chave: Matrizes de fibra óptica podem desvendar mistérios do interior profundo da Lua Por Bruce Dorminey - 01 de abril de 2026 01h08 UTC | Ciência…",
+      "Origem institucional: distinguir anúncio de evidência."
+    ],
+    "highlights_pt": [
+      "Ponto central: A fibra óptica comum de telecomunicações poderia ajudar os cientistas planetários a caracterizar melhor o interior profundo da lua, bem como seus…",
+      "Dado-chave: Matrizes de fibra óptica podem desvendar mistérios do interior profundo da Lua Por Bruce Dorminey - 01 de abril de 2026 01h08 UTC | Ciência…",
+      "Origem institucional: distinguir anúncio de evidência."
+    ],
+    "highlights_en": [
+      "Core point: Ordinary telecoms grade optical fiber could help planetary scientists better characterize the moon’s deep interior as well as its lava tubes, say two…",
+      "Key detail: Optical Fiber Arrays May Unlock Mysteries Of The Moon’s Deep Interior By Bruce Dorminey - April 01, 2026 01:08 AM UTC | Planetary Science The…",
+      "Institutional origin: separate announcement from evidence."
+    ],
+    "date": "01 abr 2026",
+    "date_pt": "01 abr 2026",
+    "date_en": "01 Apr 2026",
+    "time": "01h08",
+    "time_pt": "01h08",
+    "time_en": "01:08 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-01T01:08:00+00:00",
+    "lastModifiedIso": "2026-04-01T01:08:00+00:00",
+    "source": "Universe Today",
+    "sourceDomain": "www.universetoday.com",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional.",
+    "sourceNote_pt": "Fonte primária institucional.",
+    "sourceNote_en": "Primary institutional source.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Astronomia",
+      "Universe Today",
+      "Cosmos Week",
+      "Matrizes de fibra óptica podem desvendar mistérios do interior profundo da Lua"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "Universe Today",
+      "Cosmos Week",
+      "Matrizes de fibra óptica podem desvendar mistérios do interior profundo da Lua"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "Universe Today",
+      "Cosmos Week",
+      "Fiber-optic arrays could unlock mysteries of the Moon's deep interior"
+    ],
+    "srcUrl": "https://www.universetoday.com/articles/optical-fiber-arrays-may-unlock-mysteries-of-the-moons-deep-interior",
+    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=optical-fiber-arrays-may-unlock-mysteries-of-the-moon-s-deep-interior",
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "score": 77,
+    "scoreBreakdown": {
+      "source": 73,
+      "evidence": 88,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    }
+  },
+  {
+    "id": 27,
     "slug": "tales-of-two-comets-a1-maps-and-r3-pan-starrs-both-make-a-showing-in-april",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2365,8 +2458,8 @@ window.postsData = [
     "excerpt": "Todos os olhos estão voltados para o sistema solar interno em abril de 2026, quando dois cometas atingem o periélio. Um deles, o cometa R3 Pan-STARRS, que conhecemos desde o ano passado. Outro, sungrazer A1 MAPS acaba de ser encontrado como o primeiro cometa…",
     "excerpt_pt": "Todos os olhos estão voltados para o sistema solar interno em abril de 2026, quando dois cometas atingem o periélio. Um deles, o cometa R3 Pan-STARRS, que conhecemos desde o ano passado. Outro, sungrazer A1 MAPS acaba de ser encontrado como o primeiro cometa…",
     "excerpt_en": "All eyes are on the inner solar system in April 2026, as two comets reach perihelion. One, Comet R3 Pan-STARRS we’ve known about since last year. Another, sungrazer A1 MAPS was just found as the first comet of 2026 and presents us with a…",
-    "body": "<p>Novos resultados em astronomia: todos os olhos estão voltados para o sistema solar interno em abril de 2026, quando dois cometas atingem o periélio. Um deles, o cometa R3 Pan-STARRS, que conhecemos desde o ano passado. Outro, sungrazer A1 MAPS acaba de ser encontrado como o…</p><p>O campo vinha se construindo em direção a momentos como este. A astronomia avança acumulando observações em diferentes comprimentos de onda e missões, cada resultado reforçando ou contestando os modelos que o precederam.</p><p>O registro observacional oferece um detalhe importante aqui. Na verdade, o cometa passa atrás do Sol visto da Terra no dia 4, das 11h50 às 13h20 UT, depois dá uma volta e cruza (trânsito) na frente do disco solar das 13h55 às 15h20 UT, durante o periélio. Um segundo fio nos dados aponta para o fato de que a1 MAPS e R3 Pan-STARRS fazem uma exibição em abril Por David Dickinson - 31 de março de 2026 17:12 UTC | Observando o cometa R3 Pan-STARRS de 23 de março.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. Observações independentes em outros comprimentos de onda, ou com instrumentos diferentes, serão o próximo teste natural para este resultado.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/tales-of-two-comets-a1-maps-and-r3-pan-starrs-both-make-a-showing-in-april\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Novos resultados em astronomia: todos os olhos estão voltados para o sistema solar interno em abril de 2026, quando dois cometas atingem o periélio. Um deles, o cometa R3 Pan-STARRS, que conhecemos desde o ano passado. Outro, sungrazer A1 MAPS acaba de ser encontrado como o…</p><p>O campo vinha se construindo em direção a momentos como este. A astronomia avança acumulando observações em diferentes comprimentos de onda e missões, cada resultado reforçando ou contestando os modelos que o precederam.</p><p>O registro observacional oferece um detalhe importante aqui. Na verdade, o cometa passa atrás do Sol visto da Terra no dia 4, das 11h50 às 13h20 UT, depois dá uma volta e cruza (trânsito) na frente do disco solar das 13h55 às 15h20 UT, durante o periélio. Um segundo fio nos dados aponta para o fato de que a1 MAPS e R3 Pan-STARRS fazem uma exibição em abril Por David Dickinson - 31 de março de 2026 17:12 UTC | Observando o cometa R3 Pan-STARRS de 23 de março.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. Observações independentes em outros comprimentos de onda, ou com instrumentos diferentes, serão o próximo teste natural para este resultado.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/tales-of-two-comets-a1-maps-and-r3-pan-starrs-both-make-a-showing-in-april\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body": "<p>Novos resultados em astronomia: todos os olhos estão voltados para o sistema solar interno em abril de 2026, quando dois cometas atingem o periélio. Um deles, o cometa R3 Pan-STARRS, que conhecemos desde o ano passado. Outro, sungrazer A1 MAPS acaba de ser encontrado como o…</p><p>O campo vinha se construindo em direção a momentos como este. A astronomia avança acumulando observações em diferentes comprimentos de onda e missões, cada resultado reforçando ou contestando os modelos que o precederam.</p><p>O registro observacional oferece um detalhe importante aqui. Na verdade, o cometa passa atrás do Sol visto da Terra no dia 4, das 11h50 às 13h20 UT, depois dá uma volta e cruza (trânsito) na frente do disco solar das 13h55 às 15h20 UT, durante o periélio. Um segundo fio nos dados aponta para o fato de que a1 MAPS e R3 Pan-STARRS fazem uma exibição em abril Por David Dickinson - 31 de março de 2026 17h12 UTC | Observando o cometa R3 Pan-STARRS de 23 de março.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. Observações independentes em outros comprimentos de onda, ou com instrumentos diferentes, serão o próximo teste natural para este resultado.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/tales-of-two-comets-a1-maps-and-r3-pan-starrs-both-make-a-showing-in-april\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Novos resultados em astronomia: todos os olhos estão voltados para o sistema solar interno em abril de 2026, quando dois cometas atingem o periélio. Um deles, o cometa R3 Pan-STARRS, que conhecemos desde o ano passado. Outro, sungrazer A1 MAPS acaba de ser encontrado como o…</p><p>O campo vinha se construindo em direção a momentos como este. A astronomia avança acumulando observações em diferentes comprimentos de onda e missões, cada resultado reforçando ou contestando os modelos que o precederam.</p><p>O registro observacional oferece um detalhe importante aqui. Na verdade, o cometa passa atrás do Sol visto da Terra no dia 4, das 11h50 às 13h20 UT, depois dá uma volta e cruza (trânsito) na frente do disco solar das 13h55 às 15h20 UT, durante o periélio. Um segundo fio nos dados aponta para o fato de que a1 MAPS e R3 Pan-STARRS fazem uma exibição em abril Por David Dickinson - 31 de março de 2026 17h12 UTC | Observando o cometa R3 Pan-STARRS de 23 de março.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. Observações independentes em outros comprimentos de onda, ou com instrumentos diferentes, serão o próximo teste natural para este resultado.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/tales-of-two-comets-a1-maps-and-r3-pan-starrs-both-make-a-showing-in-april\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Measurements including observations made by re-tasking JWST to observe the comet place the nucleus for A1 MAPS in the 0.4 kilometer or smaller range , on the small end versus famous sungrazers in the past, such as…</p><p>The field has been building toward moments like this. Astronomy advances by accumulating observations across wavelengths and missions, each result either reinforcing or challenging the models that preceded it.</p><p>The comet actually passes behind the Sun as seen from Earth on the 4th from 11:50-to-13:20 UT, then loops around and crosses (transits) in front of the solar disk from 13:55-to-15:20 UT, during perihelion. On top of that, a1 MAPS and R3 Pan-STARRS Both Make a Showing in April By David Dickinson - March 31, 2026 05:12 PM UTC | Observing Comet R3 Pan-STARRS from March 23rd.</p><p>Independent observations at other wavelengths, or with different instruments, will be the natural next test for this result.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/tales-of-two-comets-a1-maps-and-r3-pan-starrs-both-make-a-showing-in-april\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Todos os olhos estão voltados para o sistema solar interno em abril de 2026, quando dois cometas atingem o periélio. Um deles, o cometa R3…",
@@ -2450,7 +2543,7 @@ window.postsData = [
     }
   },
   {
-    "id": 27,
+    "id": 28,
     "slug": "fires-tear-through-nebraska-grasslands",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2543,11 +2636,11 @@ window.postsData = [
     }
   },
   {
-    "id": 28,
+    "id": 29,
     "slug": "nasa-has-cracked-the-mystery-of-asteroid-bennu-s-boulders",
     "cat": "Astronomia",
     "catCls": "astronomia",
-    "img": "https://dq0hsqwjhea1.cloudfront.net/1_bennu-beauty.width-1320.jpg",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/243_Ida.jpg/1280px-243_Ida.jpg",
     "title": "NASA desvendou o mistério das rochas do asteróide Bennu",
     "title_pt": "NASA desvendou o mistério das rochas do asteróide Bennu",
     "title_en": "NASA Has Cracked the Mystery of Asteroid Bennu’s Boulders",
@@ -2557,22 +2650,22 @@ window.postsData = [
     "excerpt": "Uma nova análise de amostras do asteróide Bennu resolveu um mistério de longa data: as fissuras nas rochas espalhadas pela sua superfície disfarçam-se de areia. A postagem A NASA desvendou o mistério das rochas do asteróide Bennu apareceu pela primeira vez em…",
     "excerpt_pt": "Uma nova análise de amostras do asteróide Bennu resolveu um mistério de longa data: as fissuras nas rochas espalhadas pela sua superfície disfarçam-se de areia. A postagem A NASA desvendou o mistério das rochas do asteróide Bennu apareceu pela primeira vez em…",
     "excerpt_en": "A new analysis of samples from the asteroid Bennu has solved a long-standing mystery: Cracks in the boulders strewn across its surface masquerade as sand. The post NASA Has Cracked the Mystery of Asteroid Bennu’s Boulders appeared first on…",
-    "body": "<p>O Origins, Spectral Interpretation, Resource Identification, and Security-Regolith Explorer (OSIRIS-REX) da NASA entregou 4,29 onças de material puro do asteróide 101955 Bennu para a Terra em 2023.</p><p>Para situar o resultado no contexto: a astronomia avança acumulando observações em diferentes comprimentos de onda e missões, cada resultado reforçando ou contestando os modelos que o precederam. Este resultado contribui diretamente para esse esforço: o Origins, Spectral Interpretation, Resource Identification, and Security-Regolith Explorer (OSIRIS-REX) da NASA entregou 4,29 onças de material puro do asteróide 101955 Bennu para a Terra em 2023.</p><p>Quando as medições são examinadas com cuidado, um quadro mais nítido emerge. Em preparação para a missão OSIRIS-REX, o Telescópio Espacial Spitzer observou Bennu em 2007, medindo a rapidez com que a superfície aquece e arrefece (uma propriedade que os cientistas chamam de inércia térmica). Além disso, para criar mapas 3D de fragmentos de rocha que variam de tamanho submilimétrico a centímetros, o grupo de pesquisa utilizou uma técnica chamada tomografia computadorizada de raios X (TC de raios X).</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. Observações independentes em outros comprimentos de onda, ou com instrumentos diferentes, serão o próximo teste natural para este resultado.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/nasa-has-cracked-the-mystery-of-asteroid-bennus-boulders/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>O Origins, Spectral Interpretation, Resource Identification, and Security-Regolith Explorer (OSIRIS-REX) da NASA entregou 4,29 onças de material puro do asteróide 101955 Bennu para a Terra em 2023.</p><p>Para situar o resultado no contexto: a astronomia avança acumulando observações em diferentes comprimentos de onda e missões, cada resultado reforçando ou contestando os modelos que o precederam. Este resultado contribui diretamente para esse esforço: o Origins, Spectral Interpretation, Resource Identification, and Security-Regolith Explorer (OSIRIS-REX) da NASA entregou 4,29 onças de material puro do asteróide 101955 Bennu para a Terra em 2023.</p><p>Quando as medições são examinadas com cuidado, um quadro mais nítido emerge. Em preparação para a missão OSIRIS-REX, o Telescópio Espacial Spitzer observou Bennu em 2007, medindo a rapidez com que a superfície aquece e arrefece (uma propriedade que os cientistas chamam de inércia térmica). Além disso, para criar mapas 3D de fragmentos de rocha que variam de tamanho submilimétrico a centímetros, o grupo de pesquisa utilizou uma técnica chamada tomografia computadorizada de raios X (TC de raios X).</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. Observações independentes em outros comprimentos de onda, ou com instrumentos diferentes, serão o próximo teste natural para este resultado.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/nasa-has-cracked-the-mystery-of-asteroid-bennus-boulders/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>A new analysis of samples from the asteroid Bennu has solved a long-standing mystery: Cracks in the boulders strewn across its surface masquerade as sand. The post NASA Has Cracked the Mystery of Asteroid Bennu’s Boulders appeared first on…</p><p>Astronomy advances by accumulating observations across wavelengths and missions, each result either reinforcing or challenging the models that preceded it. The current work adds a specific data point: nASA’s Origins, Spectral Interpretation, Resource Identification, and Security-Regolith Explorer (OSIRIS-REX) delivered 4.29 ounces of pristine material from the asteroid 101955 Bennu to Earth in 2023.</p><p>The observational record provides important detail here. In preparation for the OSIRIS-REX mission, the Spitzer Space Telescope observed Bennu in 2007, measuring how quickly the surface heats up and cools down (a property scientists call thermal inertia ). The analysis also shows that to create 3D maps of rock fragments ranging from submillimeter to centimeters in size , the research group used a technique called X-ray computed tomography (X-ray CT).</p><p>The announcement opens a productive path for follow-up. Independent observations at other wavelengths, or with different instruments, will be the natural next test for this result.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/nasa-has-cracked-the-mystery-of-asteroid-bennus-boulders/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "body": "<p>A postagem NASA desvendou o mistério das rochas do asteróide Bennu apareceu pela primeira vez na Sky &amp; Telescope.</p><p>Para situar o resultado no contexto: a astronomia avança acumulando observações em diferentes comprimentos de onda e missões, cada resultado reforçando ou contestando os modelos que o precederam. Este resultado contribui diretamente para esse esforço: a postagem NASA desvendou o mistério das rochas do asteróide Bennu apareceu pela primeira vez na Sky &amp; Telescope.</p><p>Quando as medições são examinadas com cuidado, um quadro mais nítido emerge. Uma nova análise de amostras do asteróide Bennu resolveu um mistério de longa data: as fissuras nas rochas espalhadas pela sua superfície disfarçam-se de areia.</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. Observações independentes em outros comprimentos de onda, ou com instrumentos diferentes, serão o próximo teste natural para este resultado.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/nasa-has-cracked-the-mystery-of-asteroid-bennus-boulders/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>A postagem NASA desvendou o mistério das rochas do asteróide Bennu apareceu pela primeira vez na Sky &amp; Telescope.</p><p>Para situar o resultado no contexto: a astronomia avança acumulando observações em diferentes comprimentos de onda e missões, cada resultado reforçando ou contestando os modelos que o precederam. Este resultado contribui diretamente para esse esforço: a postagem NASA desvendou o mistério das rochas do asteróide Bennu apareceu pela primeira vez na Sky &amp; Telescope.</p><p>Quando as medições são examinadas com cuidado, um quadro mais nítido emerge. Uma nova análise de amostras do asteróide Bennu resolveu um mistério de longa data: as fissuras nas rochas espalhadas pela sua superfície disfarçam-se de areia.</p><p>Observações independentes determinarão agora com que firmeza o resultado se sustenta em diferentes condições. Observações independentes em outros comprimentos de onda, ou com instrumentos diferentes, serão o próximo teste natural para este resultado.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/nasa-has-cracked-the-mystery-of-asteroid-bennus-boulders/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>A new analysis of samples from the asteroid Bennu has solved a long-standing mystery: Cracks in the boulders strewn across its surface masquerade as sand. The post NASA Has Cracked the Mystery of Asteroid Bennu’s Boulders appeared first on…</p><p>Astronomy advances by accumulating observations across wavelengths and missions, each result either reinforcing or challenging the models that preceded it. The current work adds a specific data point: the post NASA Has Cracked the Mystery of Asteroid Bennu’s Boulders appeared first on Sky &amp; Telescope .</p><p>The observational record provides important detail here. A new analysis of samples from the asteroid Bennu has solved a long-standing mystery: Cracks in the boulders strewn across its surface masquerade as sand.</p><p>The announcement opens a productive path for follow-up. Independent observations at other wavelengths, or with different instruments, will be the natural next test for this result.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/nasa-has-cracked-the-mystery-of-asteroid-bennus-boulders/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Uma nova análise de amostras do asteróide Bennu resolveu um mistério de longa data: as fissuras nas rochas espalhadas pela sua superfície…",
-      "Dado-chave: O Origins, Spectral Interpretation, Resource Identification, and Security-Regolith Explorer (OSIRIS-REX) da NASA entregou 4,29 onças de material…",
+      "Dado-chave: A postagem NASA desvendou o mistério das rochas do asteróide Bennu apareceu pela primeira vez na Sky & Telescope.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: Uma nova análise de amostras do asteróide Bennu resolveu um mistério de longa data: as fissuras nas rochas espalhadas pela sua superfície…",
-      "Dado-chave: O Origins, Spectral Interpretation, Resource Identification, and Security-Regolith Explorer (OSIRIS-REX) da NASA entregou 4,29 onças de material…",
+      "Dado-chave: A postagem NASA desvendou o mistério das rochas do asteróide Bennu apareceu pela primeira vez na Sky & Telescope.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: A new analysis of samples from the asteroid Bennu has solved a long-standing mystery: Cracks in the boulders strewn across its surface masquerade as…",
-      "Key detail: NASA’s Origins, Spectral Interpretation, Resource Identification, and Security-Regolith Explorer (OSIRIS-REX) delivered 4.29 ounces of pristine…",
+      "Key detail: The post NASA Has Cracked the Mystery of Asteroid Bennu’s Boulders appeared first on Sky & Telescope .",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "23 mar 2026",
@@ -2636,7 +2729,7 @@ window.postsData = [
     }
   },
   {
-    "id": 29,
+    "id": 30,
     "slug": "nsf-doe-vera-c-rubin-observatory-launches-real-time-discovery-machine-for-monitoring-the-night-s",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2732,7 +2825,7 @@ window.postsData = [
     }
   },
   {
-    "id": 30,
+    "id": 31,
     "slug": "white-dwarf-discovered-gobbling-material-from-gamma-cassiopeia",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2825,7 +2918,7 @@ window.postsData = [
     }
   },
   {
-    "id": 31,
+    "id": 32,
     "slug": "this-week-s-sky-at-a-glance-march-27-april-5",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2921,7 +3014,7 @@ window.postsData = [
     }
   },
   {
-    "id": 32,
+    "id": 33,
     "slug": "comet-break-up-caught-in-action",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3014,7 +3107,7 @@ window.postsData = [
     }
   },
   {
-    "id": 33,
+    "id": 34,
     "slug": "brown-dwarfs-dance-unexpected-tango",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3107,7 +3200,7 @@ window.postsData = [
     }
   },
   {
-    "id": 34,
+    "id": 35,
     "slug": "a-hot-start-to-spring-in-the-southwest",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3200,7 +3293,7 @@ window.postsData = [
     }
   },
   {
-    "id": 35,
+    "id": 36,
     "slug": "restless-k-lauea-launches-lava-and-ash",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3214,17 +3307,17 @@ window.postsData = [
     "excerpt": "O episódio 43 da atual erupção do vulcão havaiano foi marcado por altas fontes de lava e ampla dispersão de cinzas. O post Restless Kīlauea lança Lava e Ash apareceu pela primeira vez na NASA Science.",
     "excerpt_pt": "O episódio 43 da atual erupção do vulcão havaiano foi marcado por altas fontes de lava e ampla dispersão de cinzas. O post Restless Kīlauea lança Lava e Ash apareceu pela primeira vez na NASA Science.",
     "excerpt_en": "Episode 43 of the Hawaiian volcano’s current eruption was marked by high lava fountains and widespread ash dispersal. The post Restless Kīlauea Launches Lava and Ash appeared first on NASA Science .",
-    "body": "<p>O episódio 43 da atual erupção do vulcão havaiano foi marcado por altas fontes de lava e ampla dispersão de cinzas. O post Restless Kīlauea lança Lava e Ash apareceu pela primeira vez na NASA Science.</p><p>Para situar o resultado no contexto: os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência. Este resultado contribui diretamente para esse esforço: observatório da Terra Ciência Observatório da Terra Restless Kīlauea lança… Terra Observatório da Terra Imagem do dia Tópicos do EO Explorer Todos os tópicos Atmosfera Terra Calor e radiação Vida na Terra…</p><p>O registro observacional oferece um detalhe importante aqui. O post Restless Kīlauea lança Lava e Ash apareceu pela primeira vez na NASA Science. Em complemento, o gás vulcânico e as cinzas atingiram uma altura máxima na atmosfera de mais de 9.100 metros (30.000 pés) acima do nível do mar, disse o HVO.</p><p>O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/restless-kilauea-launches-lava-and-ash/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>O episódio 43 da atual erupção do vulcão havaiano foi marcado por altas fontes de lava e ampla dispersão de cinzas. O post Restless Kīlauea lança Lava e Ash apareceu pela primeira vez na NASA Science.</p><p>Para situar o resultado no contexto: os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência. Este resultado contribui diretamente para esse esforço: observatório da Terra Ciência Observatório da Terra Restless Kīlauea lança… Terra Observatório da Terra Imagem do dia Tópicos do EO Explorer Todos os tópicos Atmosfera Terra Calor e radiação Vida na Terra…</p><p>O registro observacional oferece um detalhe importante aqui. O post Restless Kīlauea lança Lava e Ash apareceu pela primeira vez na NASA Science. Em complemento, o gás vulcânico e as cinzas atingiram uma altura máxima na atmosfera de mais de 9.100 metros (30.000 pés) acima do nível do mar, disse o HVO.</p><p>O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/restless-kilauea-launches-lava-and-ash/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body": "<p>O episódio 43 da atual erupção do vulcão havaiano foi marcado por altas fontes de lava e ampla dispersão de cinzas. O post Restless Kīlauea lança Lava e Ash apareceu pela primeira vez na NASA Science.</p><p>Para situar o resultado no contexto: os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência. Este resultado contribui diretamente para esse esforço: observatório da Terra Ciência Observatório da Terra Restless Kīlauea lança… Terra Observatório da Terra Imagem do dia EO Explorer Tópicos Todos os tópicos Atmosfera Terra Calor e radiação Vida na Terra…</p><p>O registro observacional oferece um detalhe importante aqui. O post Restless Kīlauea lança Lava e Ash apareceu pela primeira vez na NASA Science. Em complemento, o gás vulcânico e as cinzas atingiram uma altura máxima na atmosfera de mais de 9.100 metros (30.000 pés) acima do nível do mar, disse o HVO.</p><p>O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/restless-kilauea-launches-lava-and-ash/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>O episódio 43 da atual erupção do vulcão havaiano foi marcado por altas fontes de lava e ampla dispersão de cinzas. O post Restless Kīlauea lança Lava e Ash apareceu pela primeira vez na NASA Science.</p><p>Para situar o resultado no contexto: os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência. Este resultado contribui diretamente para esse esforço: observatório da Terra Ciência Observatório da Terra Restless Kīlauea lança… Terra Observatório da Terra Imagem do dia EO Explorer Tópicos Todos os tópicos Atmosfera Terra Calor e radiação Vida na Terra…</p><p>O registro observacional oferece um detalhe importante aqui. O post Restless Kīlauea lança Lava e Ash apareceu pela primeira vez na NASA Science. Em complemento, o gás vulcânico e as cinzas atingiram uma altura máxima na atmosfera de mais de 9.100 metros (30.000 pés) acima do nível do mar, disse o HVO.</p><p>O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/restless-kilauea-launches-lava-and-ash/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Episode 43 of the Hawaiian volcano’s current eruption was marked by high lava fountains and widespread ash dispersal. The post Restless Kīlauea Launches Lava and Ash appeared first on NASA Science .</p><p>Earth science results become meaningful when they can be situated within longer records. A single measurement is a starting point; a trend across instruments and time is evidence. The current work adds a specific data point: earth Observatory Science Earth Observatory Restless Kīlauea Launches… Earth Earth Observatory Image of the Day EO Explorer Topics All Topics Atmosphere Land Heat &amp; Radiation Life on Earth Human Dimensions…</p><p>When the measurements are examined carefully, a clearer picture emerges. The post Restless Kīlauea Launches Lava and Ash appeared first on NASA Science . A second thread in the data points to the fact that volcanic gas and ash reached a maximum height in the atmosphere of more than 30,000 feet (9,100 meters) above sea level, the HVO said.</p><p>Independent observations will now determine how well the result holds under different conditions. The most rigorous test will be to situate this result within longer time series and independent instruments, reducing the risk of reading too much into a single data point.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/restless-kilauea-launches-lava-and-ash/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: O episódio 43 da atual erupção do vulcão havaiano foi marcado por altas fontes de lava e ampla dispersão de cinzas. O post Restless Kīlauea lança…",
-      "Dado-chave: Observatório da Terra Ciência Observatório da Terra Restless Kīlauea lança… Terra Observatório da Terra Imagem do dia Tópicos do EO Explorer…",
+      "Dado-chave: Observatório da Terra Ciência Observatório da Terra Restless Kīlauea lança… Terra Observatório da Terra Imagem do dia EO Explorer Tópicos Todos…",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: O episódio 43 da atual erupção do vulcão havaiano foi marcado por altas fontes de lava e ampla dispersão de cinzas. O post Restless Kīlauea lança…",
-      "Dado-chave: Observatório da Terra Ciência Observatório da Terra Restless Kīlauea lança… Terra Observatório da Terra Imagem do dia Tópicos do EO Explorer…",
+      "Dado-chave: Observatório da Terra Ciência Observatório da Terra Restless Kīlauea lança… Terra Observatório da Terra Imagem do dia EO Explorer Tópicos Todos…",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
@@ -3293,7 +3386,7 @@ window.postsData = [
     }
   },
   {
-    "id": 36,
+    "id": 37,
     "slug": "seeing-blue-during-schirmacher-s-summer-melt-season",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3386,7 +3479,7 @@ window.postsData = [
     }
   },
   {
-    "id": 37,
+    "id": 38,
     "slug": "starlink-satellite-breaks-up-scatters-debris",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3479,7 +3572,7 @@ window.postsData = [
     }
   },
   {
-    "id": 38,
+    "id": 39,
     "slug": "lightning-on-jupiter-is-100-times-more-powerful-than-earth-s",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3572,7 +3665,7 @@ window.postsData = [
     }
   },
   {
-    "id": 39,
+    "id": 40,
     "slug": "visible-planets-and-night-sky-guide-for-march-and-april",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3655,106 +3748,13 @@ window.postsData = [
     "featured": false,
     "trending": false,
     "isPreprint": false,
-    "score": 73,
+    "score": 72,
     "scoreBreakdown": {
       "source": 72,
       "evidence": 82,
       "relevance": 80,
       "accessibility": 60,
-      "novelty": 55
-    }
-  },
-  {
-    "id": 40,
-    "slug": "feel-awe-over-these-national-park-timelapse-videos",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://earthsky.org/upl/2026/03/gavinheffernan1-at-Grand-Canyon-scaled-e1774553785342.jpg",
-    "title": "Fique maravilhado com esses vídeos timelapse do parque nacional",
-    "title_pt": "Fique maravilhado com esses vídeos timelapse do parque nacional",
-    "title_en": "Feel awe over these national park timelapse videos",
-    "sub": "Desfrute de 4 vídeos timelapse de parques nacionais de Gavin Heffernan. As vistas incluem paisagens estelares e paisagens de Yosemite, Zion, Joshua Tree e Ilhas do Canal. A…",
-    "sub_pt": "Desfrute de 4 vídeos timelapse de parques nacionais de Gavin Heffernan. As vistas incluem paisagens estelares e paisagens de Yosemite, Zion, Joshua Tree e Ilhas do Canal. A…",
-    "sub_en": "Enjoy 4 national park timelapse videos from Gavin Heffernan. The views include starscapes and landscapes of Yosemite, Zion, Joshua Tree and Channel Islands. The post Feel awe over…",
-    "excerpt": "Desfrute de 4 vídeos timelapse de parques nacionais de Gavin Heffernan. As vistas incluem paisagens estelares e paisagens de Yosemite, Zion, Joshua Tree e Ilhas do Canal. A postagem Fique maravilhado com esses vídeos de timelapse do parque nacional apareceu…",
-    "excerpt_pt": "Desfrute de 4 vídeos timelapse de parques nacionais de Gavin Heffernan. As vistas incluem paisagens estelares e paisagens de Yosemite, Zion, Joshua Tree e Ilhas do Canal. A postagem Fique maravilhado com esses vídeos de timelapse do parque nacional apareceu…",
-    "excerpt_en": "Enjoy 4 national park timelapse videos from Gavin Heffernan. The views include starscapes and landscapes of Yosemite, Zion, Joshua Tree and Channel Islands. The post Feel awe over these national park timelapse videos first appeared on…",
-    "body": "<p>Desfrute de 4 vídeos timelapse de parques nacionais de Gavin Heffernan.</p><p>O campo vinha se construindo em direção a momentos como este. Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência.</p><p>O registro observacional oferece um detalhe importante aqui. Heffernan compartilhou 4 vídeos timelapse dos EUA A análise também mostra que veja o eclipse da Lua de Sangue sobre Joshua Tree.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://earthsky.org/earth/national-park-timelapse-videos-gavin-heffernan/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Desfrute de 4 vídeos timelapse de parques nacionais de Gavin Heffernan.</p><p>O campo vinha se construindo em direção a momentos como este. Os resultados em ciências da Terra ganham sentido quando situados dentro de registros mais longos. Uma única medição é um ponto de partida; uma tendência ao longo de instrumentos e tempo é evidência.</p><p>O registro observacional oferece um detalhe importante aqui. Heffernan compartilhou 4 vídeos timelapse dos EUA A análise também mostra que veja o eclipse da Lua de Sangue sobre Joshua Tree.</p><p>O anúncio abre um caminho produtivo para trabalhos de acompanhamento. O teste mais rigoroso será situar este resultado em séries temporais mais longas e instrumentos independentes, reduzindo o risco de extrair conclusões excessivas de um único ponto de dados.</p><p class=\"art-source\"><a href=\"https://earthsky.org/earth/national-park-timelapse-videos-gavin-heffernan/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>New findings in Earth science: enjoy 4 national park timelapse videos from Gavin Heffernan. The views include starscapes and landscapes of Yosemite, Zion, Joshua Tree and Channel Islands. The post Feel awe over these national park timelapse videos first appeared on…</p><p>The field has been building toward moments like this. Earth science results become meaningful when they can be situated within longer records. A single measurement is a starting point; a trend across instruments and time is evidence.</p><p>When the measurements are examined carefully, a clearer picture emerges. Heffernan has shared 4 timelapse videos from U.S. The analysis also shows that see the Blood Moon eclipse over Joshua Tree.</p><p>The announcement opens a productive path for follow-up. The most rigorous test will be to situate this result within longer time series and independent instruments, reducing the risk of reading too much into a single data point.</p><p class=\"art-source\"><a href=\"https://earthsky.org/earth/national-park-timelapse-videos-gavin-heffernan/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Desfrute de 4 vídeos timelapse de parques nacionais de Gavin Heffernan. As vistas incluem paisagens estelares e paisagens de Yosemite, Zion, Joshua…",
-      "Dado-chave: Desfrute de 4 vídeos timelapse de parques nacionais de Gavin Heffernan.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Desfrute de 4 vídeos timelapse de parques nacionais de Gavin Heffernan. As vistas incluem paisagens estelares e paisagens de Yosemite, Zion, Joshua…",
-      "Dado-chave: Desfrute de 4 vídeos timelapse de parques nacionais de Gavin Heffernan.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Enjoy 4 national park timelapse videos from Gavin Heffernan. The views include starscapes and landscapes of Yosemite, Zion, Joshua Tree and Channel…",
-      "Key detail: Enjoy 4 national park timelapse videos from Gavin Heffernan.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "31 mar 2026",
-    "date_pt": "31 mar 2026",
-    "date_en": "31 Mar 2026",
-    "time": "07h30",
-    "time_pt": "07h30",
-    "time_en": "07:30 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-03-31T07:30:32+00:00",
-    "lastModifiedIso": "2026-03-31T07:30:32+00:00",
-    "source": "EarthSky",
-    "sourceDomain": "earthsky.org",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional.",
-    "sourceNote_pt": "Fonte primária institucional.",
-    "sourceNote_en": "Primary institutional source.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "standard",
-    "editorialBandLabel": "Prioridade editorial",
-    "editorialBandLabel_pt": "Prioridade editorial",
-    "editorialBandLabel_en": "Editorial priority",
-    "keywords": [
-      "Ciências da Terra",
-      "EarthSky",
-      "Cosmos Week",
-      "Fique maravilhado com esses vídeos timelapse do parque nacional"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "EarthSky",
-      "Cosmos Week",
-      "Fique maravilhado com esses vídeos timelapse do parque nacional"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "EarthSky",
-      "Cosmos Week",
-      "Be amazed by these national park timelapse videos"
-    ],
-    "srcUrl": "https://earthsky.org/earth/national-park-timelapse-videos-gavin-heffernan/",
-    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=feel-awe-over-these-national-park-timelapse-videos",
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "score": 73,
-    "scoreBreakdown": {
-      "source": 72,
-      "evidence": 82,
-      "relevance": 80,
-      "accessibility": 60,
-      "novelty": 55
+      "novelty": 52
     }
   }
 ];
