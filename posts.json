@@ -1634,14 +1634,14 @@
     "date": "01 abr 2026",
     "date_pt": "01 abr 2026",
     "date_en": "01 Apr 2026",
-    "time": "03h13",
-    "time_pt": "03h13",
-    "time_en": "03:13 UTC",
+    "time": "04h14",
+    "time_pt": "04h14",
+    "time_en": "04:14 UTC",
     "read": "4 min de leitura",
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
-    "publishedIso": "2026-04-01T03:13:47.182150+00:00",
-    "lastModifiedIso": "2026-04-01T03:13:47.182150+00:00",
+    "publishedIso": "2026-04-01T04:14:59.386858+00:00",
+    "lastModifiedIso": "2026-04-01T04:14:59.386858+00:00",
     "source": "NIH News Releases",
     "sourceDomain": "www.nih.gov",
     "sourceType": "agency",
@@ -3473,7 +3473,7 @@
       "evidence": 88,
       "relevance": 62,
       "accessibility": 60,
-      "novelty": 52
+      "novelty": 49
     }
   },
   {
