@@ -29,140 +29,147 @@
   <title>Media kit — Cosmos Week</title>
   <meta name="description" content="Template de media kit do Cosmos Week">
   <link rel="canonical" href="https://marambaiajunior.github.io/cosmos-week/media-kit.html">
-  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-
-  
   <style>
-    :root {
-      --bg:#0c0f17; --bg2:#111520; --card:#1a2033; --line:rgba(255,255,255,.08);
-      --text:#e8edf7; --muted:#9daac2; --muted2:#5c6a84; --accent:#4f8ef7; --accent2:#7fb3ff;
-      --radius:14px; --max:1080px; --shadow:0 20px 60px rgba(0,0,0,.45);
-      --serif:'Libre Baskerville', Georgia, serif; --sans:'Inter', system-ui, sans-serif; --mono:'JetBrains Mono', monospace;
-    }
-    *{box-sizing:border-box}
-    body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);line-height:1.7}
-    a{color:var(--accent2);text-decoration:none}
-    a:hover{text-decoration:underline;text-underline-offset:3px}
-    .wrap{max-width:var(--max);margin:0 auto;padding:28px 18px 80px}
-    .topbar{border-bottom:1px solid var(--line);background:rgba(8,10,16,.75);backdrop-filter:blur(12px)}
-    .topbar .wrap{padding-top:10px;padding-bottom:10px;font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted2)}
-    .header{padding:28px 0 8px}
-    .brand{font:700 34px var(--serif);line-height:1}
-    .brand em{font-style:normal;color:var(--accent)}
-    .sub{font:500 10px var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--muted2);margin-top:6px}
-    .nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
-    .nav a{display:inline-flex;align-items:center;justify-content:center;height:40px;padding:0 16px;border-radius:999px;background:var(--bg2);border:1px solid var(--line);color:var(--muted)}
-    .nav a.primary{background:var(--accent);color:#fff;border-color:transparent}
-    .hero{margin-top:26px;background:linear-gradient(180deg,rgba(79,142,247,.1),rgba(79,142,247,.03));border:1px solid rgba(79,142,247,.22);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow)}
-    .eyebrow{font:600 11px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--accent2);margin-bottom:10px}
-    h1{font-family:var(--serif);font-size:clamp(2rem,4vw,3rem);line-height:1.12;margin:0 0 14px}
-    .lead{font-size:1.05rem;color:var(--muted);max-width:860px}
-    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:28px}
-    .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}
-    .card h2,.card h3{margin:0 0 10px;font-family:var(--serif)}
-    .card p,.card li{color:var(--muted)}
-    .card ul{margin:0;padding-left:18px}
-    .note{margin-top:18px;padding:16px 18px;border-left:3px solid var(--accent);background:rgba(79,142,247,.07);border-radius:10px;color:var(--muted)}
-    .metric{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
-    .metric:last-child{border-bottom:none}
-    .metric strong{font-family:var(--mono);font-size:13px;color:var(--text)}
-    .muted-mono{font:500 12px var(--mono);color:var(--muted2)}
-    .footer{margin-top:36px;padding-top:18px;border-top:1px solid var(--line);font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted2)}
-    @media (max-width:780px){.grid{grid-template-columns:1fr}}
-  </style>
+/* Shared institutional style — Cosmos Week v4 */
+:root {
+  --bg:#f7f5f0; --white:#ffffff; --ink:#1a1917; --ink-2:#3e3c38; --ink-3:#6b6760; --ink-4:#9a9691;
+  --line:#dedad2; --accent:#1451a0; --accent-2:#1d6ed8; --accent-light:#e8f0fb;
+  --hdr:#0d1b35; --hdr-2:#162240; --hdr-line:rgba(255,255,255,.09); --hdr-txt:#e2e6f0; --hdr-muted:#8494b0;
+  --serif:'Libre Baskerville',Georgia,serif; --sans:'Inter',system-ui,sans-serif; --mono:'JetBrains Mono',monospace;
+  --max:1100px; --radius:6px; --radius-lg:10px; --shadow:0 4px 16px rgba(0,0,0,.08);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.72;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:3px}
+img{max-width:100%;display:block}
+.topbar{background:var(--hdr-2);border-bottom:1px solid var(--hdr-line)}
+.topbar .wrap{padding-top:9px;padding-bottom:9px;font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--hdr-muted)}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+main.wrap{padding-top:40px;padding-bottom:80px}
+.site-header{background:var(--hdr);border-bottom:3px solid var(--accent)}
+.header-inner{max-width:var(--max);margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:20px;height:66px}
+.brand{font:700 22px var(--serif);color:var(--hdr-txt);letter-spacing:-.02em;line-height:1}
+.brand em{font-style:normal;color:var(--accent-2)}
+.sub{font:500 9px var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--hdr-muted);margin-top:3px}
+.main-nav{display:flex;gap:4px;flex-wrap:wrap;margin-left:auto}
+.nav-link{height:34px;padding:0 13px;border-radius:4px;font:500 12.5px var(--sans);color:var(--hdr-muted);transition:color .15s,background .15s}
+.nav-link:hover{color:var(--hdr-txt);background:rgba(255,255,255,.07);text-decoration:none}
+.hero{margin-top:28px;background:var(--white);border:1px solid var(--line);border-radius:var(--radius-lg);padding:40px 44px 36px;box-shadow:var(--shadow);border-top:4px solid var(--accent)}
+.eyebrow{font:700 9.5px var(--mono);letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
+h1{font-family:var(--serif);font-size:clamp(2rem,3.5vw,2.8rem);line-height:1.12;letter-spacing:-.03em;color:var(--ink);margin-bottom:14px}
+.lead{font-size:1.05rem;color:var(--ink-3);max-width:800px;line-height:1.8}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:32px}
+.card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius-lg);padding:24px;box-shadow:0 1px 4px rgba(0,0,0,.05)}
+.card h2{font-family:var(--serif);font-size:1.15rem;margin-bottom:10px;color:var(--ink)}
+.card p,.card li{color:var(--ink-3);font-size:14px;line-height:1.72}
+.card ul{padding-left:18px;list-style:disc}
+.card ul li{margin-bottom:6px}
+.note{margin-top:16px;padding:14px 16px;border-left:3px solid var(--accent);background:var(--accent-light);border-radius:4px;color:var(--ink-3);font-size:13px}
+.metric{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
+.metric:last-child{border-bottom:none}
+.metric strong{font-family:var(--mono);font-size:13px;color:var(--accent)}
+.footer-inst{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-4)}
+@media(max-width:780px){.grid{grid-template-columns:1fr}.hero{padding:28px 22px 24px}}
 
+  </style>
 </head>
 <body>
-  <div class="topbar"><div class="wrap">Cosmos Week · infraestrutura editorial e comercial</div></div>
-  <main class="wrap">
-    <header class="header">
-      <div class="brand">Cosmos<em>Week</em></div>
-      <div class="sub">Jornalismo científico em português</div>
-      <nav class="nav">
-        <a href="index.html">Voltar ao portal</a>
-        <a href="anuncie.html">Anuncie</a>
-        <a href="media-kit.html">Media kit</a>
-        <a href="politica-de-privacidade.html">Privacidade</a>
-        <a href="termos-de-uso.html">Termos</a>
+  <div class="topbar">
+    <div class="wrap">Cosmos Week · infraestrutura editorial e comercial</div>
+  </div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" style="text-decoration:none;">
+        <div class="brand">Cosmos<em>Week</em></div>
+        <div class="sub">Jornalismo científico em português</div>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Início</a>
+        <a href="anuncie.html" class="nav-link">Anuncie</a>
+        <a href="media-kit.html" class="nav-link">Media kit</a>
+        <a href="politica-de-privacidade.html" class="nav-link">Privacidade</a>
+        <a href="termos-de-uso.html" class="nav-link">Termos</a>
       </nav>
-    </header>
-    
-<section class="hero">
-  <div class="eyebrow">Material comercial</div>
-  <h1>Media kit · template pronto para preencher</h1>
-  <p class="lead">Este arquivo foi montado para você só trocar os números reais do GA4 e começar a apresentar o portal como ativo comercial. Porque vender mídia sem kit é pedir para o anunciante adivinhar, e gente já faz isso demais com física quântica.</p>
-  <p style="margin-top:14px;font:500 12px var(--mono);color:var(--muted2);letter-spacing:.06em;">
-    Versão: <strong id="mkVersion" style="color:var(--accent2);">—</strong>
-    &nbsp;·&nbsp; Métricas válidas até 30 dias após esta data.
-  </p>
-</section>
-<script>
-  (function(){
-    var stored = localStorage.getItem('cw_mediakit_updated');
-    var label  = stored ? new Date(stored).toLocaleDateString('pt-BR',{day:'2-digit',month:'long',year:'numeric'}) : 'não preenchida';
-    document.getElementById('mkVersion').textContent = label;
-  })();
-  /* Para atualizar a data: abra o console do navegador nesta página e rode:
-     localStorage.setItem('cw_mediakit_updated', new Date().toISOString());
-     Depois recarregue a página.                                            */
-</script>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="hero">
+      <div class="eyebrow">Material comercial</div>
+      <h1>Media kit · template pronto para preencher</h1>
+      <p class="lead">Este arquivo foi montado para você só trocar os números reais do GA4 e começar a apresentar o portal como ativo comercial.</p>
+      <p style="margin-top:12px;font:500 11px var(--mono);color:var(--ink-4);letter-spacing:.06em;">
+        Versão: <strong id="mkVersion" style="color:var(--accent);">—</strong>
+        &nbsp;·&nbsp; Métricas válidas até 30 dias após esta data.
+      </p>
+    </section>
+    <script>
+      (function(){
+        var stored = localStorage.getItem('cw_mediakit_updated');
+        var label  = stored ? new Date(stored).toLocaleDateString('pt-BR',{day:'2-digit',month:'long',year:'numeric'}) : 'não preenchida';
+        document.getElementById('mkVersion').textContent = label;
+      })();
+    </script>
 
-<section class="grid">
-  <article class="card">
-    <h2>Visão geral</h2>
-    <p><strong>Marca:</strong> Cosmos Week</p>
-    <p><strong>Segmento:</strong> jornalismo científico em português</p>
-    <p><strong>Temas centrais:</strong> astronomia, astrofísica, cosmologia, espaço e ciência de fronteira</p>
-    <p><strong>Tom editorial:</strong> rigoroso, crítico, acessível e anti-pseudociência</p>
-  </article>
+    <div class="grid">
+      <article class="card">
+        <h2>Visão geral</h2>
+        <p><strong>Marca:</strong> Cosmos Week</p>
+        <p><strong>Segmento:</strong> Jornalismo científico em português</p>
+        <p><strong>Temas centrais:</strong> astronomia, astrofísica, cosmologia, espaço e ciência de fronteira</p>
+        <p><strong>Tom editorial:</strong> rigoroso, crítico, acessível e anti-pseudociência</p>
+      </article>
 
-  <article class="card">
-    <h2>Métricas principais</h2>
-    <div class="metric"><span>Usuários mensais</span><strong>SUBSTITUIR</strong></div>
-    <div class="metric"><span>Sessões mensais</span><strong>SUBSTITUIR</strong></div>
-    <div class="metric"><span>Visualizações de página</span><strong>SUBSTITUIR</strong></div>
-    <div class="metric"><span>Tempo médio de engajamento</span><strong>SUBSTITUIR</strong></div>
-    <div class="metric"><span>Origem principal do tráfego</span><strong>SUBSTITUIR</strong></div>
-  </article>
+      <article class="card">
+        <h2>Métricas principais</h2>
+        <div class="metric"><span>Usuários mensais</span><strong>SUBSTITUIR</strong></div>
+        <div class="metric"><span>Sessões mensais</span><strong>SUBSTITUIR</strong></div>
+        <div class="metric"><span>Visualizações de página</span><strong>SUBSTITUIR</strong></div>
+        <div class="metric"><span>Tempo médio de engajamento</span><strong>SUBSTITUIR</strong></div>
+        <div class="metric"><span>Origem principal do tráfego</span><strong>SUBSTITUIR</strong></div>
+      </article>
 
-  <article class="card">
-    <h2>Ativos comerciais</h2>
-    <ul>
-      <li>site editorial em crescimento com analytics ativo;</li>
-      <li>público interessado em ciência real e educação;</li>
-      <li>potencial de ações em portal, newsletter e redes sociais;</li>
-      <li>ambiente com forte associação a credibilidade e contexto.</li>
-    </ul>
-  </article>
+      <article class="card">
+        <h2>Ativos comerciais</h2>
+        <ul>
+          <li>Site editorial em crescimento com analytics ativo;</li>
+          <li>público interessado em ciência real e educação;</li>
+          <li>potencial de ações em portal, newsletter e redes sociais;</li>
+          <li>ambiente com forte associação a credibilidade e contexto.</li>
+        </ul>
+      </article>
 
-  <article class="card">
-    <h2>Possíveis formatos</h2>
-    <ul>
-      <li>banner topo ou meio de página;</li>
-      <li>patrocínio de categoria;</li>
-      <li>publieditorial identificado;</li>
-      <li>menção em newsletter;</li>
-      <li>pacote site + Instagram.</li>
-    </ul>
-  </article>
+      <article class="card">
+        <h2>Possíveis formatos</h2>
+        <ul>
+          <li>Banner topo ou meio de página;</li>
+          <li>patrocínio de categoria;</li>
+          <li>publieditorial identificado;</li>
+          <li>menção em newsletter;</li>
+          <li>pacote site + Instagram.</li>
+        </ul>
+      </article>
 
-  <article class="card">
-    <h2>Público ideal para parceiros</h2>
-    <p>Editoras, cursos, escolas, plataformas educacionais, apps científicos, instituições acadêmicas, empresas de tecnologia, marcas de astronomia, eventos, feiras, fabricantes de telescópio e produtos ligados a educação de alto valor percebido.</p>
-  </article>
+      <article class="card">
+        <h2>Público ideal para parceiros</h2>
+        <p>Editoras, cursos, escolas, plataformas educacionais, apps científicos, instituições acadêmicas, empresas de tecnologia, marcas de astronomia, eventos, feiras, fabricantes de telescópio e produtos ligados a educação de alto valor percebido.</p>
+      </article>
 
-  <article class="card">
-    <h2>Contato comercial</h2>
-    <p><strong>Temporário:</strong> Instagram <a href="https://www.instagram.com/cosmos_week/" target="_blank" rel="noopener">@cosmos_week</a></p>
-    <p><strong>Substituir depois por:</strong> ads@seudominio.com</p>
-    <div class="note">Atualize esta página a cada 30 dias com métricas do GA4. Isso evita vender com dado velho, vício humano universal.</div>
-  </article>
-</section>
-
-    <div class="footer">© 2026 Cosmos Week · GitHub Pages</div>
+      <article class="card">
+        <h2>Contato comercial</h2>
+        <p><strong>Temporário:</strong> Instagram <a href="https://www.instagram.com/cosmos_week/" target="_blank" rel="noopener">@cosmos_week</a></p>
+        <p style="margin-top:10px;"><strong>Substituir depois por:</strong> ads@seudominio.com</p>
+        <div class="note">Atualize esta página a cada 30 dias com métricas do GA4. Para registrar a data de atualização, abra o console do navegador e rode: <code>localStorage.setItem('cw_mediakit_updated', new Date().toISOString());</code> depois recarregue.</div>
+      </article>
+    </div>
   </main>
+  <footer style="margin-top:0;">
+    <div class="wrap">
+      <div class="footer-inst">© 2026 Cosmos Week · GitHub Pages · <a href="politica-de-privacidade.html" style="color:inherit;">Privacidade</a> · <a href="termos-de-uso.html" style="color:inherit;">Termos</a></div>
+    </div>
+  </footer>
 </body>
 </html>
