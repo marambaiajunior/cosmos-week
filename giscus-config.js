@@ -1,16 +1,18 @@
-window.COSMOS_GISCUS = {
-  enabled: false,
-  repo: 'marambaiajunior/cosmos-week',
-  repoId: '',
-  category: 'Comentários',
-  categoryId: '',
-  mapping: 'specific',
-  strict: '1',
-  reactionsEnabled: '1',
-  emitMetadata: '0',
-  inputPosition: 'top',
-  theme: 'dark_dimmed'
-};
+<script src="https://giscus.app/client.js"
+        data-repo="marambaiajunior/cosmos-week"
+        data-repo-id="R_kgDORytYJA"
+        data-category="General"
+        data-category-id="DIC_kwDORytYJM4C5vwk"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="pt"
+        crossorigin="anonymous"
+        async>
+</script>
 
 /*
 ATIVAÇÃO RÁPIDA
