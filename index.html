@@ -278,15 +278,24 @@
     .social-icon-link svg { width: 17px; height: 17px; }
 
     /* Buttons */
-    .ghost-btn {
-      height: 34px; padding: 0 14px; border-radius: 4px;
-      font: 500 12px var(--sans);
-      border: 1px solid rgba(255,255,255,.15);
-      color: var(--hdr-muted);
-      transition: color .15s, border-color .15s;
-      white-space: nowrap;
-    }
-    .ghost-btn:hover { color: var(--hdr-txt); border-color: rgba(255,255,255,.3); text-decoration: none; }
+.ghost-btn {
+  height: 34px;
+  padding: 0 14px;
+  border-radius: 4px;
+  font: 500 12px var(--sans);
+  border: 1px solid rgba(255,255,255,.15);
+  color: var(--hdr-muted);
+  transition: color .15s, border-color .15s;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.ghost-btn:hover {
+  color: var(--hdr-txt);
+  border-color: rgba(255,255,255,.3);
+  text-decoration: none;
+}
 
     .primary-btn {
       height: 34px; padding: 0 16px; border-radius: 4px;
@@ -1721,7 +1730,7 @@
     document.getElementById('archiveList').innerHTML = posts.map(compactMarkup).join('');
     document.getElementById('archiveKicker').textContent = currentLang === 'en'
       ? `${posts.length} stories currently available. New updates are preserved inside the archive instead of replacing older entries.`
-      : `${posts.length} matérias disponíveis. Novas atualizações são preservadas no arquivo em vez de substituírem as mais antigas.`;
+      : `${posts.length} matérias disponíveis. Novas atualizações são preservadas no arquivo.`;
     markNav('archive'); activatePage('archive'); updateMetaStatic('archive');
   }
 
