@@ -713,6 +713,31 @@
     .article-body p:last-child { margin-bottom: 0; }
     .article-summary-panel { display: none !important; }
 
+    /* Imagens inline dentro do artigo */
+    .article-inline-figure {
+      margin: 12px 0 32px;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      background: var(--bg-3);
+      border: 1px solid var(--line);
+    }
+    .article-inline-figure img {
+      width: 100%;
+      max-height: 480px;
+      object-fit: cover;
+      display: block;
+      transition: transform .5s var(--ease);
+    }
+    .article-inline-figure:hover img { transform: scale(1.015); }
+    .article-inline-caption {
+      padding: 10px 16px 11px;
+      font: 400 12px var(--sans);
+      color: var(--ink-4);
+      line-height: 1.55;
+      background: var(--bg);
+      border-top: 1px solid var(--line);
+    }
+
     /* Sidebar in article */
     .article-shell .sidebar { top: 24px; }
 
