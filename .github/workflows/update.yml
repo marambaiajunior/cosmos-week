@@ -19,8 +19,6 @@ jobs:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
       PYTHONUNBUFFERED: '1'
       COSMOS_SITE_URL: 'https://marambaiajunior.github.io/cosmos-week/'
-      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      GEMINI_MODEL: 'gemini-2.0-flash'
 
     steps:
       - name: Checkout do repositório
@@ -30,15 +28,6 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.11'
-
-      - name: Validar configuração
-        run: |
-          test -f scripts/fetch_news.py || { echo "Arquivo scripts/fetch_news.py não encontrado."; exit 1; }
-          if [ -z "${GEMINI_API_KEY}" ]; then
-            echo "Secret GEMINI_API_KEY ausente ou vazio."
-            exit 1
-          fi
-          echo "Configuração validada. Gemini habilitado com modelo ${GEMINI_MODEL}."
 
       - name: Gerar portal e metadados estáticos
         run: python scripts/fetch_news.py
