@@ -3,6 +3,7 @@ import html
 import json
 import os
 import re
+import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -39,11 +40,16 @@ MAX_PAGE_FETCHES = 42
 PAGE_TEXT_MAX_PARAGRAPHS = 24
 FULL_TEXT_LIMIT = 9000
 MAX_FACT_SENTENCES = 14
-MAX_INLINE_IMAGES = 3
-GEMINI_TIMEOUT = 45
-GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.0-flash').strip() or 'gemini-2.0-flash'
-GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '').strip()
-GEMINI_ENDPOINT_TEMPLATE = 'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
+
+# ── Gemini API — revisão de português ─────────────────────────────────────────
+# A API do Gemini tem uma camada gratuita (gemini-2.0-flash-lite).
+# Para ativar: defina a variável de ambiente GEMINI_API_KEY com sua chave.
+# Obtenha gratuitamente em: https://aistudio.google.com/apikey
+# Se a variável não estiver definida, o script funciona normalmente sem revisão.
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '')
+GEMINI_ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent'
+GEMINI_TIMEOUT = 30
+GEMINI_ENABLED = bool(GEMINI_API_KEY)
 
 NS = {
     'atom': 'http://www.w3.org/2005/Atom',
@@ -300,9 +306,8 @@ SOURCES = [
 TRANSLATION_CACHE: dict[tuple[str, str], str] = {}
 PAGE_CACHE: dict[str, str] = {}
 IMAGE_CACHE: dict[str, Optional[str]] = {}
+REVIEW_CACHE: dict[str, str] = {}
 PAGE_FETCHES = 0
-INLINE_IMAGE_CACHE: dict[tuple[str, str], list[dict]] = {}
-GEMINI_CACHE: dict[tuple[str, str], object] = {}
 
 
 # ── Utility functions ─────────────────────────────────────────────────────────
@@ -456,6 +461,169 @@ def find_first_image_in_html(fragment: str, base_url: str = '') -> Optional[str]
         src = urllib.parse.urljoin(base_url, src)
     src = clean_image_url(src)
     return src if src and image_url_looks_good(src) else None
+
+
+INLINE_IMAGE_CACHE: dict[str, list[dict]] = {}
+
+# Dimensões mínimas para considerar uma imagem editorial (evitar ícones, thumbs tiny)
+_MIN_IMG_W = 300
+_MIN_IMG_H = 180
+
+# Padrões de URL que indicam imagens de interface, não editoriais
+_INLINE_BAD_URL = re.compile(
+    r'(logo|favicon|avatar|icon|sprite|banner.?ad|widget|button|arrow|'
+    r'share|social|twitter|facebook|instagram|youtube|rss|search|menu|'
+    r'close|loading|spinner|pixel|tracking|analytics|1x1|blank)',
+    re.I
+)
+
+def _inline_img_looks_editorial(url: str, alt: str = '', w: int = 0, h: int = 0) -> bool:
+    if not url:
+        return False
+    if _INLINE_BAD_URL.search(url):
+        return False
+    low_url = url.lower()
+    # Precisa ser JPEG, PNG ou WebP — sem SVG, GIF animado ou formatos vetoriais
+    if not re.search(r'\.(jpg|jpeg|png|webp)(?:[?#&]|$)', low_url):
+        return False
+    # Dimensões declaradas no HTML: rejeitar miniaturas pequenas
+    if w and h and (w < _MIN_IMG_W or h < _MIN_IMG_H):
+        return False
+    # Alts que indicam imagem decorativa
+    low_alt = (alt or '').lower()
+    if low_alt in ('', 'image', 'photo', 'picture', 'img', '.'):
+        pass  # permissivo — alt vazio é comum em imagens editoriais
+    if re.search(r'(logo|icon|button|banner|ad\b)', low_alt):
+        return False
+    return True
+
+
+def extract_inline_images(url: str, primary_img: str = '') -> list[dict]:
+    """Extrai imagens editoriais do corpo do artigo original.
+    Retorna lista de dicts com keys: src, alt, caption, width, height.
+    Exclui a imagem principal (já usada como capa) e duplicatas.
+    Limite: 4 imagens por artigo."""
+    if not url:
+        return []
+    if url in INLINE_IMAGE_CACHE:
+        return INLINE_IMAGE_CACHE[url]
+
+    page = fetch_page_html(url)
+    if not page:
+        INLINE_IMAGE_CACHE[url] = []
+        return []
+
+    # Normalizar primary_img para comparação
+    primary_norm = normalize_text(primary_img or '')
+
+    # Tentar extrair da region semântica principal
+    regions = []
+    for pat in (
+        r'<article[^>]*>(.*?)</article>',
+        r'<main[^>]*>(.*?)</main>',
+        r'<div[^>]+class=["\'][^"\']*(?:article|post|entry|content|story|body)[^"\']*["\'][^>]*>(.*?)</div>',
+    ):
+        for m in re.finditer(pat, page, flags=re.I | re.S):
+            regions.append(m.group(1))
+            if len(regions) >= 3:
+                break
+        if regions:
+            break
+
+    search_html = ' '.join(regions) if regions else page
+
+    results = []
+    seen_srcs: set[str] = set()
+
+    # Padrão amplo: captura <figure> com <img> + <figcaption>
+    for fig_match in re.finditer(r'<figure[^>]*>(.*?)</figure>', search_html, flags=re.I | re.S):
+        fig_html = fig_match.group(1)
+        img_m = re.search(r'<img[^>]+>', fig_html, flags=re.I)
+        if not img_m:
+            continue
+        img_tag = img_m.group(0)
+
+        # src — preferir data-src / srcset para lazy-loaded
+        src = ''
+        for attr in ('data-src', 'data-lazy-src', 'src'):
+            m = re.search(rf'{attr}=["\']([^"\']+)["\']', img_tag, flags=re.I)
+            if m:
+                src = urllib.parse.urljoin(url, html.unescape(m.group(1).strip()))
+                break
+
+        src = clean_image_url(src) or ''
+        if not src:
+            continue
+
+        # alt
+        alt_m = re.search(r'alt=["\']([^"\']*)["\']', img_tag, flags=re.I)
+        alt = html.unescape(alt_m.group(1).strip()) if alt_m else ''
+
+        # width / height
+        w_m = re.search(r'width=["\'](\d+)["\']', img_tag, flags=re.I)
+        h_m = re.search(r'height=["\'](\d+)["\']', img_tag, flags=re.I)
+        w = int(w_m.group(1)) if w_m else 0
+        h = int(h_m.group(1)) if h_m else 0
+
+        if not _inline_img_looks_editorial(src, alt, w, h):
+            continue
+
+        # Não duplicar a imagem principal
+        if primary_norm and normalize_text(src) == primary_norm:
+            continue
+
+        src_key = normalize_text(src)
+        if src_key in seen_srcs:
+            continue
+        seen_srcs.add(src_key)
+
+        # caption do figcaption
+        cap_m = re.search(r'<figcaption[^>]*>(.*?)</figcaption>', fig_html, flags=re.I | re.S)
+        caption = collapse_ws(strip_html(cap_m.group(1))) if cap_m else ''
+        # Limitar caption a 160 chars
+        if len(caption) > 160:
+            caption = caption[:157].rsplit(' ', 1)[0] + '...'
+
+        results.append({'src': src, 'alt': alt, 'caption': caption, 'width': w, 'height': h})
+        if len(results) >= 4:
+            break
+
+    # Se não encontrou via <figure>, tentar <img> soltas no conteúdo
+    if not results:
+        for img_m in re.finditer(r'<img[^>]+>', search_html, flags=re.I):
+            img_tag = img_m.group(0)
+            src = ''
+            for attr in ('data-src', 'data-lazy-src', 'src'):
+                m = re.search(rf'{attr}=["\']([^"\']+)["\']', img_tag, flags=re.I)
+                if m:
+                    src = urllib.parse.urljoin(url, html.unescape(m.group(1).strip()))
+                    break
+            src = clean_image_url(src) or ''
+            if not src:
+                continue
+
+            alt_m = re.search(r'alt=["\']([^"\']*)["\']', img_tag, flags=re.I)
+            alt = html.unescape(alt_m.group(1).strip()) if alt_m else ''
+            w_m = re.search(r'width=["\'](\d+)["\']', img_tag, flags=re.I)
+            h_m = re.search(r'height=["\'](\d+)["\']', img_tag, flags=re.I)
+            w = int(w_m.group(1)) if w_m else 0
+            h = int(h_m.group(1)) if h_m else 0
+
+            if not _inline_img_looks_editorial(src, alt, w, h):
+                continue
+            if primary_norm and normalize_text(src) == primary_norm:
+                continue
+            src_key = normalize_text(src)
+            if src_key in seen_srcs:
+                continue
+            seen_srcs.add(src_key)
+
+            results.append({'src': src, 'alt': alt, 'caption': '', 'width': w, 'height': h})
+            if len(results) >= 4:
+                break
+
+    INLINE_IMAGE_CACHE[url] = results
+    return results
 
 
 def source_domain(url: str) -> str:
@@ -621,260 +789,6 @@ def fetch_page_image(url: str) -> Optional[str]:
     inline = find_first_image_in_html(page, url)
     IMAGE_CACHE[url] = inline
     return inline
-
-
-
-
-def _extract_attr(tag_html: str, attr: str) -> str:
-    match = re.search(rf'{attr}\s*=\s*["\']([^"\']+)["\']', tag_html, flags=re.I)
-    return html.unescape(match.group(1).strip()) if match else ''
-
-
-def _extract_numeric_attr(tag_html: str, attr: str) -> int:
-    raw = _extract_attr(tag_html, attr)
-    match = re.search(r'\d{2,5}', raw or '')
-    return int(match.group(0)) if match else 0
-
-
-def _candidate_caption(text: str) -> str:
-    text = collapse_ws(strip_html(text or ''))
-    if not text or len(text) < 12:
-        return ''
-    if len(text) > 260:
-        text = truncate(text, 240)
-    low = normalize_text(text)
-    if any(bad in low for bad in ('image credit', 'credit:', 'photo credit', 'copyright', 'all rights reserved')):
-        return ''
-    return text
-
-
-def _bad_inline_image(url: str, alt: str = '', caption: str = '') -> bool:
-    haystack = normalize_text(' '.join([url or '', alt or '', caption or '']))
-    bad_parts = (
-        'logo', 'icon', 'avatar', 'author', 'headshot', 'social', 'share', 'banner',
-        'sprite', 'favicon', 'badge', 'tracking', 'pixel', 'ads', 'doubleclick',
-        'cookie', 'newsletter', 'promo', 'sponsor', 'placeholder'
-    )
-    return any(part in haystack for part in bad_parts)
-
-
-def _extract_article_regions_for_images(page: str) -> list[str]:
-    regions = []
-    patterns = (
-        r'<article[^>]*>(.*?)</article>',
-        r'<main[^>]*>(.*?)</main>',
-        r'<div[^>]+class=["\'][^"\']*(?:article|post|entry|content|story|body)[^"\']*["\'][^>]*>(.*?)</div>',
-    )
-    for pattern in patterns:
-        for match in re.finditer(pattern, page, flags=re.I | re.S):
-            region = match.group(1)
-            if region and len(region) > 200:
-                regions.append(region)
-                if len(regions) >= 6:
-                    return regions
-    return regions or [page]
-
-
-def extract_inline_images(url: str, primary_image: str = '', limit: int = MAX_INLINE_IMAGES) -> list[dict]:
-    cache_key = (url, primary_image or '')
-    if cache_key in INLINE_IMAGE_CACHE:
-        return INLINE_IMAGE_CACHE[cache_key]
-
-    page = fetch_page_html(url)
-    if not page:
-        INLINE_IMAGE_CACHE[cache_key] = []
-        return []
-
-    seen = set()
-    out: list[dict] = []
-    primary_norm = normalize_text(primary_image or '')
-    regions = _extract_article_regions_for_images(page)
-
-    def add_image(src_raw: str, alt_raw: str = '', caption_raw: str = '', width: int = 0, height: int = 0):
-        if len(out) >= limit:
-            return
-        src = urllib.parse.urljoin(url, src_raw or '')
-        src = clean_image_url(src)
-        if not src or not image_url_looks_good(src):
-            return
-        src_norm = normalize_text(src)
-        if src_norm == primary_norm or src_norm in seen:
-            return
-        if width and width < 240:
-            return
-        if height and height < 160:
-            return
-        caption_en = _candidate_caption(caption_raw) or _candidate_caption(alt_raw)
-        alt_en = _candidate_caption(alt_raw) or caption_en
-        if _bad_inline_image(src, alt_en, caption_en):
-            return
-        seen.add(src_norm)
-        caption_pt = translate_text(caption_en, 'pt') if caption_en else ''
-        alt_pt = translate_text(alt_en, 'pt') if alt_en else caption_pt
-        out.append({
-            'src': src,
-            'caption': caption_pt or caption_en,
-            'caption_pt': caption_pt or caption_en,
-            'caption_en': caption_en or caption_pt,
-            'alt': alt_pt or alt_en,
-            'alt_pt': alt_pt or alt_en,
-            'alt_en': alt_en or alt_pt,
-        })
-
-    for region in regions:
-        if len(out) >= limit:
-            break
-
-        for figure in re.findall(r'<figure\b[^>]*>.*?</figure>', region, flags=re.I | re.S):
-            if len(out) >= limit:
-                break
-            img_match = re.search(r'<img\b[^>]*src=["\']([^"\']+)["\'][^>]*>', figure, flags=re.I | re.S)
-            if not img_match:
-                continue
-            tag_html = img_match.group(0)
-            src_raw = img_match.group(1)
-            alt_raw = _extract_attr(tag_html, 'alt')
-            width = _extract_numeric_attr(tag_html, 'width')
-            height = _extract_numeric_attr(tag_html, 'height')
-            cap_match = re.search(r'<figcaption\b[^>]*>(.*?)</figcaption>', figure, flags=re.I | re.S)
-            caption_raw = cap_match.group(1) if cap_match else ''
-            add_image(src_raw, alt_raw, caption_raw, width, height)
-
-        for img_match in re.finditer(r'<img\b[^>]*src=["\']([^"\']+)["\'][^>]*>', region, flags=re.I | re.S):
-            if len(out) >= limit:
-                break
-            tag_html = img_match.group(0)
-            src_raw = img_match.group(1)
-            alt_raw = _extract_attr(tag_html, 'alt')
-            title_raw = _extract_attr(tag_html, 'title')
-            width = _extract_numeric_attr(tag_html, 'width')
-            height = _extract_numeric_attr(tag_html, 'height')
-            add_image(src_raw, alt_raw, title_raw, width, height)
-
-    INLINE_IMAGE_CACHE[cache_key] = out
-    return out
-
-
-def _extract_json_from_text(text: str) -> Optional[dict]:
-    text = collapse_ws(text)
-    if not text:
-        return None
-    try:
-        return json.loads(text)
-    except Exception:
-        pass
-    match = re.search(r'\{.*\}', text, flags=re.S)
-    if not match:
-        return None
-    try:
-        return json.loads(match.group(0))
-    except Exception:
-        return None
-
-
-def _gemini_response_text(payload: dict) -> str:
-    parts = []
-    for candidate in payload.get('candidates', []) or []:
-        content = candidate.get('content') or {}
-        for part in content.get('parts', []) or []:
-            if isinstance(part, dict) and isinstance(part.get('text'), str):
-                parts.append(part['text'])
-    return '\n'.join(parts).strip()
-
-
-def call_gemini_json(task_key: str, prompt: str) -> Optional[dict]:
-    if not GEMINI_API_KEY:
-        return None
-    cache_key = (task_key, prompt)
-    if cache_key in GEMINI_CACHE:
-        cached = GEMINI_CACHE[cache_key]
-        return cached if isinstance(cached, dict) else None
-
-    endpoint = GEMINI_ENDPOINT_TEMPLATE.format(model=urllib.parse.quote(GEMINI_MODEL, safe=''))
-    url = f'{endpoint}?key={urllib.parse.quote(GEMINI_API_KEY)}'
-    body = {
-        'contents': [{'parts': [{'text': prompt}]}],
-        'generationConfig': {
-            'temperature': 0.1,
-            'responseMimeType': 'application/json',
-        },
-    }
-    data = json.dumps(body, ensure_ascii=False).encode('utf-8')
-    req = urllib.request.Request(
-        url,
-        data=data,
-        method='POST',
-        headers={
-            'Content-Type': 'application/json; charset=utf-8',
-            'User-Agent': USER_AGENT,
-        },
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=GEMINI_TIMEOUT) as response:
-            raw = response.read().decode('utf-8', errors='ignore')
-        parsed = json.loads(raw)
-        text = _gemini_response_text(parsed)
-        out = _extract_json_from_text(text)
-        GEMINI_CACHE[cache_key] = out
-        return out if isinstance(out, dict) else None
-    except Exception:
-        GEMINI_CACHE[cache_key] = None
-        return None
-
-
-def review_portuguese_content(title_pt: str, summary_pt: str, facts_pt: list[str], body_pt: str) -> dict:
-    facts_pt = [collapse_ws(f) for f in facts_pt if collapse_ws(f)]
-    payload = {
-        'title': collapse_ws(title_pt),
-        'summary': collapse_ws(summary_pt),
-        'facts': facts_pt[:6],
-        'body': collapse_ws(strip_html(body_pt)),
-    }
-    fallback = {
-        'title': payload['title'],
-        'summary': payload['summary'],
-        'facts': payload['facts'],
-        'body': body_pt,
-    }
-    prompt = (
-        'Você é um revisor científico e copy editor em português do Brasil. '
-        'Corrija ortografia, concordância, pontuação, regência, fluidez e naturalidade. '
-        'Preserve rigor factual, números, nomes próprios, cautelas e o sentido original. '
-        'Não invente fatos, não embeleze demais, não adicione opinião e não remova ressalvas científicas. '
-        'No campo "body", devolva texto corrido em português natural, sem HTML e com 4 a 8 parágrafos separados por "\n\n". '
-        'Mantenha os fatos listados em "facts" curtos, claros e objetivos. '
-        'Responda somente em JSON válido com as chaves exatas title, summary, facts, body.\n\n'
-        + json.dumps(payload, ensure_ascii=False)
-    )
-    reviewed = call_gemini_json('pt_review_bundle', prompt)
-    if not isinstance(reviewed, dict):
-        return fallback
-
-    title = collapse_ws(str(reviewed.get('title') or payload['title']))
-    summary = collapse_ws(str(reviewed.get('summary') or payload['summary']))
-    facts = []
-    for item in reviewed.get('facts') or payload['facts']:
-        cleaned = collapse_ws(str(item))
-        if cleaned:
-            facts.append(cleaned)
-    facts = distinct_facts(facts, 6) or payload['facts']
-
-    body_raw = str(reviewed.get('body') or payload['body'])
-    body_paragraphs = [collapse_ws(p) for p in re.split(r'\n{2,}', body_raw) if collapse_ws(p)]
-    if not body_paragraphs:
-        body_paragraphs = [collapse_ws(p) for p in re.split(r'(?<=[.!?])\s+(?=[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ])', payload['body']) if collapse_ws(p)]
-    body_html = ''.join(
-        f'<p>{html.escape(truncate(paragraph, 850))}</p>'
-        for paragraph in body_paragraphs[:8]
-        if len(paragraph) >= 45
-    ) or body_pt
-
-    return {
-        'title': title or payload['title'],
-        'summary': summary or payload['summary'],
-        'facts': facts or payload['facts'],
-        'body': body_html,
-    }
 
 
 def extract_rss_image(item: ET.Element, link: str, description_html: str) -> Optional[str]:
@@ -1304,6 +1218,78 @@ def translate_text(text: str, target_lang: str) -> str:
     except Exception:
         pass
     TRANSLATION_CACHE[cache_key] = text
+    return text
+
+
+def gemini_review_pt(text: str) -> str:
+    """Revisa gramática, ortografia, coesão e coerência de um texto em português
+    usando a API gratuita do Gemini. Retorna o texto revisado ou o original se
+    a API não estiver configurada ou falhar."""
+    if not GEMINI_ENABLED:
+        return text
+    text = collapse_ws(text)
+    if not text or len(text) < 30:
+        return text
+    # Cache baseado no texto original para não revisar o mesmo conteúdo duas vezes
+    cache_key = hashlib.md5(text.encode('utf-8')).hexdigest()
+    if cache_key in REVIEW_CACHE:
+        return REVIEW_CACHE[cache_key]
+
+    prompt = (
+        'Você é um editor científico profissional do portal Cosmos Week, '
+        'especializado em jornalismo científico em português brasileiro.\n\n'
+        'Revise o texto abaixo corrigindo APENAS:\n'
+        '- Erros de ortografia e gramática\n'
+        '- Frases em inglês misturadas com português (traduza-as)\n'
+        '- Concordância verbal e nominal\n'
+        '- Pontuação incorreta\n'
+        '- Frases truncadas ou incoerentes\n\n'
+        'REGRAS OBRIGATÓRIAS:\n'
+        '- Preserve todo o HTML (tags <p>, <figure>, <figcaption>, etc.) exatamente como está\n'
+        '- Não altere nomes próprios, siglas científicas (JWST, NASA, ESA, arXiv), '
+        'valores numéricos, unidades de medida ou termos técnicos\n'
+        '- Não adicione nem remova informações\n'
+        '- Não altere o estilo ou tom editorial\n'
+        '- Não use travessões (—) nem reticências (...)\n'
+        '- Retorne APENAS o texto revisado, sem comentários, explicações ou marcadores\n\n'
+        f'TEXTO:\n{text}'
+    )
+
+    payload = json.dumps({
+        'contents': [{'parts': [{'text': prompt}]}],
+        'generationConfig': {
+            'temperature': 0.1,
+            'maxOutputTokens': 4096,
+        }
+    }).encode('utf-8')
+
+    url = f'{GEMINI_ENDPOINT}?key={GEMINI_API_KEY}'
+    try:
+        req = urllib.request.Request(
+            url,
+            data=payload,
+            headers={
+                'Content-Type': 'application/json',
+                'User-Agent': USER_AGENT,
+            },
+            method='POST'
+        )
+        with urllib.request.urlopen(req, timeout=GEMINI_TIMEOUT) as response:
+            raw = response.read()
+        data = json.loads(raw.decode('utf-8', errors='ignore'))
+        reviewed = (
+            data.get('candidates', [{}])[0]
+            .get('content', {})
+            .get('parts', [{}])[0]
+            .get('text', '')
+            .strip()
+        )
+        if reviewed and len(reviewed) > 20:
+            REVIEW_CACHE[cache_key] = reviewed
+            return reviewed
+    except Exception as exc:
+        print(f'  GEMINI revisão falhou: {exc}')
+    REVIEW_CACHE[cache_key] = text
     return text
 
 
@@ -2003,8 +1989,31 @@ def _closing_line(category: str, source_type: str, lang: str) -> str:
     return base
 
 
+def _figure_html(img: dict, lang: str) -> str:
+    """Gera o bloco <figure> para uma imagem inline editorial."""
+    src = html.escape(img['src'])
+    alt = html.escape(img.get('alt') or '')
+    caption = img.get('caption') or ''
+    credit_label = 'Crédito da imagem' if lang == 'pt' else 'Image credit'
+    cap_html = ''
+    if caption:
+        cap_html = f'<figcaption class="article-inline-caption">{html.escape(caption)}</figcaption>'
+    else:
+        # Sem legenda disponível — usar alt como fallback mínimo se existir
+        if alt and len(alt) > 8:
+            cap_html = f'<figcaption class="article-inline-caption">{html.escape(alt)}</figcaption>'
+    return (
+        f'<figure class="article-inline-figure">'
+        f'<img src="{src}" alt="{alt}" loading="lazy" '
+        f'onerror="this.closest(\'figure\').style.display=\'none\'">'
+        f'{cap_html}'
+        f'</figure>'
+    )
+
+
 def build_body(title: str, summary: str, facts: list[str], category: str, source: str,
-               source_type: str, lang: str, src_url: str) -> str:
+               source_type: str, lang: str, src_url: str,
+               inline_imgs: Optional[list[dict]] = None) -> str:
     useful = _fact_bank(facts, summary)
     lead = _clean_fact_sentence(summary or title, 280)
     detail_bank = distinct_facts([_clean_fact_sentence(f, 200) for f in useful[1:]], 10)
@@ -2055,9 +2064,15 @@ def build_body(title: str, summary: str, facts: list[str], category: str, source
     # P8: Encerramento — próximos passos
     paragraphs.append(_closing_line(category, source_type, lang))
 
+    # Montar HTML — intercalar imagens inline após P2, P4 e P6 se disponíveis
+    imgs = list(inline_imgs or [])
+    img_slots = {2, 4, 6}  # índices de parágrafo (0-based) após os quais inserir figura
+
     parts = []
     seen = set()
-    for paragraph in paragraphs:
+    img_idx = 0
+
+    for para_idx, paragraph in enumerate(paragraphs):
         cleaned = collapse_ws(paragraph)
         if not cleaned or len(cleaned) <= 45:
             continue
@@ -2066,6 +2081,11 @@ def build_body(title: str, summary: str, facts: list[str], category: str, source
             continue
         seen.add(key)
         parts.append(f'<p>{html.escape(cleaned)}</p>')
+
+        # Inserir imagem inline após este parágrafo se houver slot e imagem disponível
+        if para_idx in img_slots and img_idx < len(imgs):
+            parts.append(_figure_html(imgs[img_idx], lang))
+            img_idx += 1
 
     if src_url:
         label = 'Fonte' if lang == 'pt' else 'Source'
@@ -2127,26 +2147,36 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
     title_en = collapse_ws(item['title'])
     summary_en = build_deck(item['summary'], facts_en)
     highlights_en = build_highlights(title_en, summary_en, facts_en, item['source_type'], 'en')
-    body_en = build_body(title_en, summary_en, facts_en, category, item['source'], item['source_type'], 'en', src_url)
 
-    title_pt_raw = translate_text(title_en, 'pt')
-    summary_pt_raw = translate_text(summary_en, 'pt')
-    facts_pt_raw = [translate_text(fact, 'pt') for fact in facts_en[:6]]
-    body_pt_raw = build_body(title_pt_raw, summary_pt_raw, facts_pt_raw, category, item['source'], item['source_type'], 'pt', src_url)
+    # Extrair imagem principal e imagens inline do artigo original
+    image = choose_post_image(item, category)
+    inline_imgs = []
+    if item.get('source_type') != 'preprint':
+        inline_imgs = extract_inline_images(src_url, primary_img=image)
 
-    reviewed_pt = review_portuguese_content(title_pt_raw, summary_pt_raw, facts_pt_raw, body_pt_raw)
-    title_pt = reviewed_pt['title']
-    summary_pt = reviewed_pt['summary']
-    facts_pt = reviewed_pt['facts']
-    body_pt = reviewed_pt['body']
+    body_en = build_body(title_en, summary_en, facts_en, category, item['source'], item['source_type'], 'en', src_url, inline_imgs)
 
+    title_pt = translate_text(title_en, 'pt')
+    summary_pt = translate_text(summary_en, 'pt')
+    facts_pt = [translate_text(fact, 'pt') for fact in facts_en[:6]]
     highlights_pt = build_highlights(title_pt, summary_pt, facts_pt, item['source_type'], 'pt')
+    body_pt = build_body(title_pt, summary_pt, facts_pt, category, item['source'], item['source_type'], 'pt', src_url, inline_imgs)
+
+    # Revisão de qualidade em português via Gemini API (gratuita)
+    # Ativa somente se GEMINI_API_KEY estiver definida
+    if GEMINI_ENABLED:
+        try:
+            title_pt = gemini_review_pt(title_pt)
+            summary_pt = gemini_review_pt(summary_pt)
+            body_pt = gemini_review_pt(body_pt)
+            # Pequena pausa para respeitar rate limits da API gratuita
+            time.sleep(0.5)
+        except Exception as exc:
+            print(f'  Revisão PT ignorada para "{title_en[:50]}": {exc}')
 
     dt = item['published']
     slug = slugify(title_en)
     canonical = f'{SITE_URL}?article={slug}'
-    image = choose_post_image(item, category)
-    inline_images = extract_inline_images(src_url, primary_image=image)
     is_featured = item['source_type'] != 'preprint' and regular_rank < 3 and profile['band'] in ('flagship', 'high')
     is_trending = item['source_type'] != 'preprint' and regular_rank < 6
     evidence_key = profile['evidence_key']
@@ -2168,7 +2198,6 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
         'cat': category,
         'catCls': cat_cls(category),
         'img': image,
-        'inline_images': inline_images,
         'title': title_pt,
         'title_pt': title_pt,
         'title_en': title_en,
@@ -2220,8 +2249,6 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
         'featured': is_featured,
         'trending': is_trending,
         'isPreprint': item['source_type'] == 'preprint',
-        'geminiReviewed': bool(GEMINI_API_KEY),
-        'geminiModel': GEMINI_MODEL if GEMINI_API_KEY else '',
         'score': profile['overall'],
         'scoreBreakdown': {
             'source': profile['source_score'],
