@@ -3,7 +3,6 @@ import html
 import json
 import os
 import re
-import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -41,7 +40,6 @@ PAGE_TEXT_MAX_PARAGRAPHS = 24
 FULL_TEXT_LIMIT = 9000
 MAX_FACT_SENTENCES = 14
 MAX_INLINE_IMAGES = 3
-MAX_INLINE_VIDEOS = 2
 GEMINI_TIMEOUT = 45
 GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.0-flash').strip() or 'gemini-2.0-flash'
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '').strip()
@@ -304,7 +302,6 @@ PAGE_CACHE: dict[str, str] = {}
 IMAGE_CACHE: dict[str, Optional[str]] = {}
 PAGE_FETCHES = 0
 INLINE_IMAGE_CACHE: dict[tuple[str, str], list[dict]] = {}
-INLINE_VIDEO_CACHE: dict[str, list[dict]] = {}
 GEMINI_CACHE: dict[tuple[str, str], object] = {}
 
 
@@ -364,81 +361,6 @@ def smooth_prose(text: str) -> str:
     text = re.sub(r'([,.;:!?]){2,}', r'\1', text)
     text = re.sub(r'\.(?=[A-Za-z])', '. ', text)
     return collapse_ws(text).strip()
-
-
-
-def ensure_complete_sentence(text: str) -> str:
-    text = collapse_ws(text)
-    if not text:
-        return ''
-    text = re.sub(r'\s+', ' ', text).strip()
-    if text[-1] not in '.!?':
-        text = text.rstrip(' ,;:-–—') + '.'
-    return text
-
-
-def html_to_plain_paragraphs(html_text: str) -> str:
-    if not html_text:
-        return ''
-    paragraphs = [
-        collapse_ws(strip_html(chunk))
-        for chunk in re.findall(r'<p[^>]*>(.*?)</p>', html_text, flags=re.I | re.S)
-        if collapse_ws(strip_html(chunk))
-    ]
-    if paragraphs:
-        return '\n\n'.join(paragraphs)
-    return collapse_ws(strip_html(html_text))
-
-
-def is_likely_portuguese(text: str) -> bool:
-    low = normalize_text(text)
-    if not low:
-        return False
-    pt_markers = (' que ', ' de ', ' para ', ' com ', ' uma ', ' como ', ' os ', ' as ', ' nao ', ' mais ', ' entre ')
-    score = sum(1 for marker in pt_markers if marker in f' {low} ')
-    return score >= 3
-
-
-def rewrite_repetitive_pt_openers(paragraphs: list[str]) -> list[str]:
-    variants = [
-        'O ponto central aqui é que',
-        'Em termos científicos, o peso da notícia vem do fato de que',
-        'O aspecto mais relevante desta história é que',
-        'No fundo, o que dá importância ao resultado é que',
-    ]
-    out = []
-    used = 0
-    for paragraph in paragraphs:
-        p = collapse_ws(paragraph)
-        if re.match(r'^isso importa porque\b', normalize_text(p)):
-            replacement = variants[min(used, len(variants) - 1)]
-            p = re.sub(r'^isso importa porque\s*', replacement + ' ', p, flags=re.I)
-            used += 1
-        out.append(ensure_complete_sentence(p))
-    return out
-
-
-def normalize_reviewed_portuguese_body(body_text: str, fallback_html: str) -> str:
-    raw = html_to_plain_paragraphs(body_text) or html_to_plain_paragraphs(fallback_html)
-    paragraphs = [collapse_ws(p) for p in re.split(r'\n{2,}', raw) if collapse_ws(p)]
-    if not paragraphs:
-        paragraphs = [collapse_ws(p) for p in re.split(r'(?<=[.!?])\s+(?=[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ])', raw) if collapse_ws(p)]
-    paragraphs = rewrite_repetitive_pt_openers(paragraphs)
-    cleaned = []
-    seen = set()
-    for paragraph in paragraphs[:8]:
-        paragraph = ensure_complete_sentence(paragraph)
-        if len(paragraph) < 45:
-            continue
-        key = normalize_text(paragraph)
-        if key in seen:
-            continue
-        seen.add(key)
-        cleaned.append(f'<p>{html.escape(truncate(paragraph, 850))}</p>')
-    if not cleaned:
-        fallback_paragraphs = [collapse_ws(p) for p in re.split(r'\n{2,}', html_to_plain_paragraphs(fallback_html)) if collapse_ws(p)]
-        cleaned = [f'<p>{html.escape(truncate(ensure_complete_sentence(p), 850))}</p>' for p in fallback_paragraphs[:8] if len(p) >= 45]
-    return ''.join(cleaned) or fallback_html
 
 
 def unique_keep_order(items: Iterable) -> list:
@@ -832,117 +754,6 @@ def extract_inline_images(url: str, primary_image: str = '', limit: int = MAX_IN
     INLINE_IMAGE_CACHE[cache_key] = out
     return out
 
-def _clean_media_caption(text: str) -> str:
-    text = collapse_ws(strip_html(text or ''))
-    if not text:
-        return ''
-    text = re.sub(r'^(video|watch|player)\s*[:\-]\s*', '', text, flags=re.I)
-    return truncate(text, 220)
-
-
-def _normalize_embed_url(url: str) -> str:
-    url = collapse_ws(url)
-    if not url:
-        return ''
-    parsed = urllib.parse.urlparse(url)
-    host = (parsed.netloc or '').lower()
-    if 'youtube.com' in host:
-        if parsed.path == '/watch':
-            qs = urllib.parse.parse_qs(parsed.query)
-            vid = (qs.get('v') or [''])[0]
-            if vid:
-                return f'https://www.youtube.com/embed/{vid}'
-        if parsed.path.startswith('/embed/'):
-            return url
-        if parsed.path.startswith('/shorts/'):
-            vid = parsed.path.split('/shorts/', 1)[1].split('/', 1)[0]
-            if vid:
-                return f'https://www.youtube.com/embed/{vid}'
-    if 'youtu.be' in host:
-        vid = parsed.path.strip('/').split('/', 1)[0]
-        if vid:
-            return f'https://www.youtube.com/embed/{vid}'
-    if 'player.vimeo.com' in host:
-        return url
-    if host.endswith('vimeo.com'):
-        vid = parsed.path.strip('/').split('/', 1)[0]
-        if vid.isdigit():
-            return f'https://player.vimeo.com/video/{vid}'
-    return url
-
-
-def _video_url_looks_good(url: str) -> bool:
-    low = (url or '').lower()
-    if not low:
-        return False
-    if any(bad in low for bad in ('doubleclick', 'ads', 'analytics', 'tracking', 'sprite', 'poster', 'thumbnail')):
-        return False
-    return any(token in low for token in ('.mp4', '.webm', '.ogg', '.mov', 'youtube.com/', 'youtu.be/', 'vimeo.com/', '/embed/'))
-
-
-def extract_inline_videos(url: str, limit: int = MAX_INLINE_VIDEOS) -> list[dict]:
-    if url in INLINE_VIDEO_CACHE:
-        return INLINE_VIDEO_CACHE[url]
-
-    page = fetch_page_html(url)
-    if not page:
-        INLINE_VIDEO_CACHE[url] = []
-        return []
-
-    out: list[dict] = []
-    seen = set()
-    regions = _extract_article_regions_for_images(page)
-
-    def add_video(kind: str, src_raw: str, caption_raw: str = '', title_raw: str = ''):
-        if len(out) >= limit:
-            return
-        src = urllib.parse.urljoin(url, src_raw or '').strip()
-        src = _normalize_embed_url(src)
-        if not src or not _video_url_looks_good(src):
-            return
-        key = normalize_text(src)
-        if key in seen:
-            return
-        seen.add(key)
-        caption_en = _clean_media_caption(caption_raw) or _clean_media_caption(title_raw)
-        caption_pt = translate_text(caption_en, 'pt') if caption_en else ''
-        out.append({
-            'type': kind,
-            'src': src,
-            'caption': caption_pt or caption_en,
-            'caption_pt': caption_pt or caption_en,
-            'caption_en': caption_en or caption_pt,
-            'title': caption_pt or caption_en,
-            'title_pt': caption_pt or caption_en,
-            'title_en': caption_en or caption_pt,
-        })
-
-    for region in regions:
-        if len(out) >= limit:
-            break
-
-        for video_match in re.finditer(r'<video\b([^>]*)>(.*?)</video>', region, flags=re.I | re.S):
-            inner = video_match.group(2) or ''
-            src = _extract_attr(video_match.group(0), 'src')
-            if not src:
-                source_match = re.search(r'<source\b[^>]*src=[\'"]([^\'"]+)[\'"]', inner, flags=re.I | re.S)
-                src = source_match.group(1) if source_match else ''
-            title = _extract_attr(video_match.group(0), 'title') or _extract_attr(video_match.group(0), 'aria-label')
-            poster = _extract_attr(video_match.group(0), 'poster')
-            add_video('video', src, title or poster, title)
-
-        for iframe_match in re.finditer(r'<iframe\b[^>]*src=[\'"]([^\'"]+)[\'"][^>]*>', region, flags=re.I | re.S):
-            tag = iframe_match.group(0)
-            src = iframe_match.group(1)
-            title = _extract_attr(tag, 'title') or _extract_attr(tag, 'aria-label')
-            add_video('embed', src, title, title)
-
-        for source_match in re.finditer(r'<source\b[^>]*src=[\'"]([^\'"]+)[\'"][^>]*type=[\'"]video/[^\'"]+[\'"]', region, flags=re.I | re.S):
-            add_video('video', source_match.group(1))
-
-    INLINE_VIDEO_CACHE[url] = out
-    return out
-
 
 def _extract_json_from_text(text: str) -> Optional[dict]:
     text = collapse_ws(text)
@@ -1004,22 +815,9 @@ def call_gemini_json(task_key: str, prompt: str) -> Optional[dict]:
         parsed = json.loads(raw)
         text = _gemini_response_text(parsed)
         out = _extract_json_from_text(text)
-        if not isinstance(out, dict):
-            print('WARN Gemini respondeu sem JSON utilizável.')
-            GEMINI_CACHE[cache_key] = None
-            return None
         GEMINI_CACHE[cache_key] = out
-        return out
-    except urllib.error.HTTPError as exc:
-        try:
-            body_preview = exc.read().decode('utf-8', errors='ignore')[:600]
-        except Exception:
-            body_preview = ''
-        print(f'ERR Gemini HTTP {exc.code}: {body_preview}')
-        GEMINI_CACHE[cache_key] = None
-        return None
-    except Exception as exc:
-        print(f'ERR Gemini: {exc}')
+        return out if isinstance(out, dict) else None
+    except Exception:
         GEMINI_CACHE[cache_key] = None
         return None
 
@@ -1030,38 +828,30 @@ def review_portuguese_content(title_pt: str, summary_pt: str, facts_pt: list[str
         'title': collapse_ws(title_pt),
         'summary': collapse_ws(summary_pt),
         'facts': facts_pt[:6],
-        'body': html_to_plain_paragraphs(body_pt),
+        'body': collapse_ws(strip_html(body_pt)),
     }
     fallback = {
         'title': payload['title'],
         'summary': payload['summary'],
         'facts': payload['facts'],
-        'body': normalize_reviewed_portuguese_body(body_pt, body_pt),
-        'gemini_ok': False,
+        'body': body_pt,
     }
     prompt = (
         'Você é um revisor científico e copy editor em português do Brasil. '
         'Corrija ortografia, concordância, pontuação, regência, fluidez e naturalidade. '
         'Preserve rigor factual, números, nomes próprios, cautelas e o sentido original. '
-        'Não invente fatos, não adicione opinião e não remova ressalvas científicas. '
-        'Garanta que o texto final esteja claramente em português do Brasil. '
-        'Elimine repetições desnecessárias, especialmente aberturas repetidas como "Isso importa porque" em vários parágrafos. '
-        'Não deixe frases incompletas, truncadas ou terminando abruptamente. '
+        'Não invente fatos, não embeleze demais, não adicione opinião e não remova ressalvas científicas. '
         'No campo "body", devolva texto corrido em português natural, sem HTML e com 4 a 8 parágrafos separados por "\n\n". '
         'Mantenha os fatos listados em "facts" curtos, claros e objetivos. '
         'Responda somente em JSON válido com as chaves exatas title, summary, facts, body.\n\n'
         + json.dumps(payload, ensure_ascii=False)
     )
-    reviewed = call_gemini_json('pt_review_bundle_v2', prompt)
+    reviewed = call_gemini_json('pt_review_bundle', prompt)
     if not isinstance(reviewed, dict):
         return fallback
 
     title = collapse_ws(str(reviewed.get('title') or payload['title']))
     summary = collapse_ws(str(reviewed.get('summary') or payload['summary']))
-    if not is_likely_portuguese(' '.join([title, summary])):
-        print('WARN Gemini devolveu título/resumo fora do padrão esperado em português. Usando fallback local.')
-        return fallback
-
     facts = []
     for item in reviewed.get('facts') or payload['facts']:
         cleaned = collapse_ws(str(item))
@@ -1070,14 +860,20 @@ def review_portuguese_content(title_pt: str, summary_pt: str, facts_pt: list[str
     facts = distinct_facts(facts, 6) or payload['facts']
 
     body_raw = str(reviewed.get('body') or payload['body'])
-    body_html = normalize_reviewed_portuguese_body(body_raw, body_pt)
+    body_paragraphs = [collapse_ws(p) for p in re.split(r'\n{2,}', body_raw) if collapse_ws(p)]
+    if not body_paragraphs:
+        body_paragraphs = [collapse_ws(p) for p in re.split(r'(?<=[.!?])\s+(?=[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ])', payload['body']) if collapse_ws(p)]
+    body_html = ''.join(
+        f'<p>{html.escape(truncate(paragraph, 850))}</p>'
+        for paragraph in body_paragraphs[:8]
+        if len(paragraph) >= 45
+    ) or body_pt
 
     return {
         'title': title or payload['title'],
         'summary': summary or payload['summary'],
         'facts': facts or payload['facts'],
         'body': body_html,
-        'gemini_ok': True,
     }
 
 
@@ -2351,7 +2147,6 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
     canonical = f'{SITE_URL}?article={slug}'
     image = choose_post_image(item, category)
     inline_images = extract_inline_images(src_url, primary_image=image)
-    inline_videos = extract_inline_videos(src_url)
     is_featured = item['source_type'] != 'preprint' and regular_rank < 3 and profile['band'] in ('flagship', 'high')
     is_trending = item['source_type'] != 'preprint' and regular_rank < 6
     evidence_key = profile['evidence_key']
@@ -2374,7 +2169,6 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
         'catCls': cat_cls(category),
         'img': image,
         'inline_images': inline_images,
-        'inline_videos': inline_videos,
         'title': title_pt,
         'title_pt': title_pt,
         'title_en': title_en,
@@ -2426,7 +2220,7 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
         'featured': is_featured,
         'trending': is_trending,
         'isPreprint': item['source_type'] == 'preprint',
-        'geminiReviewed': bool(reviewed_pt.get('gemini_ok')),
+        'geminiReviewed': bool(GEMINI_API_KEY),
         'geminiModel': GEMINI_MODEL if GEMINI_API_KEY else '',
         'score': profile['overall'],
         'scoreBreakdown': {
@@ -2522,8 +2316,6 @@ def save_posts(posts: list[dict]) -> None:
 
 def load_all_items() -> list[dict]:
     all_items = []
-    ok_sources = 0
-    failed_sources = 0
     for source in SOURCES:
         try:
             raw = fetch(source.url)
@@ -2532,26 +2324,16 @@ def load_all_items() -> list[dict]:
             else:
                 items = parse_rss(raw, source)
             all_items.extend(items)
-            ok_sources += 1
             print(f'OK  {source.name}: {len(items)} itens')
         except Exception as exc:
-            failed_sources += 1
             print(f'ERR {source.name}: {exc}')
-    print(f'\nFontes com sucesso: {ok_sources}/{len(SOURCES)} | falhas: {failed_sources}')
-    if not all_items:
-        raise RuntimeError('Nenhum item foi carregado das fontes. Abortando para evitar atualização silenciosamente vazia.')
     return all_items
 
 
 def main() -> None:
-    gemini_status = 'sim' if GEMINI_API_KEY else 'nao'
-    gemini_model = GEMINI_MODEL if GEMINI_API_KEY else 'desativado'
-    print(f'Gemini configurado: {gemini_status} | modelo: {gemini_model}')
     items = load_all_items()
     print(f'\nTotal bruto: {len(items)} itens de {len(SOURCES)} fontes')
     ranked = dedupe_and_rank(items)
-    if not ranked:
-        raise RuntimeError('Nenhum item sobreviveu aos filtros editoriais. Revise as fontes e os critérios.')
     posts = []
     regular_rank = 0
     for idx, item in enumerate(ranked):
