@@ -721,25 +721,12 @@
       background: var(--bg-3);
       border: 1px solid var(--line);
     }
-    .article-inline-figure img,
-    .article-inline-figure video,
-    .article-inline-figure iframe {
+    .article-inline-figure img {
       width: 100%;
       max-height: 480px;
-      display: block;
-      border: 0;
-      background: #000;
-    }
-    .article-inline-figure img {
       object-fit: cover;
+      display: block;
       transition: transform .5s var(--ease);
-    }
-    .article-inline-figure video {
-      height: auto;
-    }
-    .article-inline-figure iframe {
-      aspect-ratio: 16 / 9;
-      min-height: 320px;
     }
     .article-inline-figure:hover img { transform: scale(1.015); }
     .article-inline-caption {
@@ -1906,48 +1893,6 @@
       </figure>`;
   }
 
-  function inlineVideosFor(post) {
-    const raw = Array.isArray(post?.inline_videos) ? post.inline_videos : [];
-    const seen = new Set();
-    return raw
-      .map(item => item || {})
-      .map(item => {
-        const src = String(item.src || '').trim();
-        const type = String(item.type || '').trim() || 'embed';
-        const caption = currentLang === 'en'
-          ? String(item.caption_en || item.caption || item.title_en || '').trim()
-          : String(item.caption_pt || item.caption || item.title_pt || '').trim();
-        const title = currentLang === 'en'
-          ? String(item.title_en || item.title || caption || textFor(post, 'title')).trim()
-          : String(item.title_pt || item.title || caption || textFor(post, 'title')).trim();
-        return { src, type, caption, title };
-      })
-      .filter(item => item.src)
-      .filter(item => {
-        const key = item.src.toLowerCase();
-        if (seen.has(key)) return false;
-        seen.add(key);
-        return true;
-      })
-      .slice(0, 2);
-  }
-
-  function articleInlineVideoMarkup(video, post) {
-    if (!video || !video.src) return '';
-    const caption = stripHtml(video.caption || '');
-    const title = stripHtml(video.title || caption || textFor(post, 'title'));
-    const inner = video.type === 'video'
-      ? `<video controls preload="metadata" playsinline referrerpolicy="no-referrer">
-           <source src="${escapeAttr(video.src)}">
-         </video>`
-      : `<iframe src="${escapeAttr(video.src)}" title="${escapeAttr(title)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
-    return `
-      <figure class="article-inline-figure article-inline-video">
-        ${inner}
-        ${caption ? `<figcaption class="article-inline-caption">${caption}</figcaption>` : ''}
-      </figure>`;
-  }
-
   function buildArticleBody(post) {
     const ledeLike = uniqueTextItems([stripHtml(textFor(post, 'sub')), stripHtml(textFor(post, 'excerpt'))]);
     const bodyParagraphs = extractArticleParagraphs(post).filter(text => {
@@ -1961,29 +1906,21 @@
     const intro = uniqueTextItems([stripHtml(textFor(post, 'sub')), stripHtml(textFor(post, 'excerpt'))]);
     const finalParagraphs = paragraphs.length ? uniqueTextItems([...intro, ...paragraphs]) : intro;
     const inlineImages = inlineImagesFor(post);
-    const inlineVideos = inlineVideosFor(post);
 
-    if (!finalParagraphs.length && !inlineImages.length && !inlineVideos.length) return '';
+    if (!finalParagraphs.length && !inlineImages.length) return '';
 
     const blocks = [];
     finalParagraphs.forEach((text, idx) => {
       blocks.push(`<p>${text}</p>`);
-      if (idx === 1 && inlineVideos[0]) {
-        blocks.push(articleInlineVideoMarkup(inlineVideos[0], post));
-      }
       if (!inlineImages.length) return;
 
       const imageIndex = idx === 0 ? 0 : idx === 2 ? 1 : idx === 4 ? 2 : -1;
       if (imageIndex >= 0 && inlineImages[imageIndex]) {
         blocks.push(articleInlineFigureMarkup(inlineImages[imageIndex], post));
       }
-      if (idx === 3 && inlineVideos[1]) {
-        blocks.push(articleInlineVideoMarkup(inlineVideos[1], post));
-      }
     });
 
     if (!finalParagraphs.length) {
-      inlineVideos.forEach(video => blocks.push(articleInlineVideoMarkup(video, post)));
       inlineImages.forEach(image => blocks.push(articleInlineFigureMarkup(image, post)));
     }
 
