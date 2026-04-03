@@ -3,6 +3,7 @@ import html
 import json
 import os
 import re
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -344,15 +345,7 @@ def truncate(text: str, limit: int) -> str:
     text = collapse_ws(text)
     if len(text) <= limit:
         return text
-
-    window = text[:limit]
-    punct_positions = [window.rfind(mark) for mark in '.!?;:']
-    punct_positions = [pos for pos in punct_positions if pos >= int(limit * 0.35)]
-    if punct_positions:
-        cut = window[:max(punct_positions) + 1].strip()
-        return cut
-
-    cut = window.rsplit(' ', 1)[0].strip().rstrip(' .;:,-–—')
+    cut = text[:limit].rsplit(' ', 1)[0].strip().rstrip(' .;:,-–—')
     return f'{cut}.' if cut else ''
 
 
@@ -371,6 +364,7 @@ def smooth_prose(text: str) -> str:
     text = re.sub(r'([,.;:!?]){2,}', r'\1', text)
     text = re.sub(r'\.(?=[A-Za-z])', '. ', text)
     return collapse_ws(text).strip()
+
 
 
 def ensure_complete_sentence(text: str) -> str:
@@ -838,7 +832,6 @@ def extract_inline_images(url: str, primary_image: str = '', limit: int = MAX_IN
     INLINE_IMAGE_CACHE[cache_key] = out
     return out
 
-
 def _clean_media_caption(text: str) -> str:
     text = collapse_ws(strip_html(text or ''))
     if not text:
@@ -929,23 +922,22 @@ def extract_inline_videos(url: str, limit: int = MAX_INLINE_VIDEOS) -> list[dict
             break
 
         for video_match in re.finditer(r'<video\b([^>]*)>(.*?)</video>', region, flags=re.I | re.S):
-            attrs = video_match.group(1) or ''
             inner = video_match.group(2) or ''
             src = _extract_attr(video_match.group(0), 'src')
             if not src:
-                source_match = re.search(r"<source\b[^>]*src=['\"]([^'\"]+)['\"]", inner, flags=re.I | re.S)
+                source_match = re.search(r'<source\b[^>]*src=[\'"]([^\'"]+)[\'"]', inner, flags=re.I | re.S)
                 src = source_match.group(1) if source_match else ''
             title = _extract_attr(video_match.group(0), 'title') or _extract_attr(video_match.group(0), 'aria-label')
             poster = _extract_attr(video_match.group(0), 'poster')
             add_video('video', src, title or poster, title)
 
-        for iframe_match in re.finditer(r"<iframe\b[^>]*src=['\"]([^'\"]+)['\"][^>]*>", region, flags=re.I | re.S):
+        for iframe_match in re.finditer(r'<iframe\b[^>]*src=[\'"]([^\'"]+)[\'"][^>]*>', region, flags=re.I | re.S):
             tag = iframe_match.group(0)
             src = iframe_match.group(1)
             title = _extract_attr(tag, 'title') or _extract_attr(tag, 'aria-label')
             add_video('embed', src, title, title)
 
-        for source_match in re.finditer(r"<source\b[^>]*src=['\"]([^'\"]+)['\"][^>]*type=['\"]video/[^'\"]+['\"]", region, flags=re.I | re.S):
+        for source_match in re.finditer(r'<source\b[^>]*src=[\'"]([^\'"]+)[\'"][^>]*type=[\'"]video/[^\'"]+[\'"]', region, flags=re.I | re.S):
             add_video('video', source_match.group(1))
 
     INLINE_VIDEO_CACHE[url] = out
@@ -1012,9 +1004,22 @@ def call_gemini_json(task_key: str, prompt: str) -> Optional[dict]:
         parsed = json.loads(raw)
         text = _gemini_response_text(parsed)
         out = _extract_json_from_text(text)
+        if not isinstance(out, dict):
+            print('WARN Gemini respondeu sem JSON utilizável.')
+            GEMINI_CACHE[cache_key] = None
+            return None
         GEMINI_CACHE[cache_key] = out
-        return out if isinstance(out, dict) else None
-    except Exception:
+        return out
+    except urllib.error.HTTPError as exc:
+        try:
+            body_preview = exc.read().decode('utf-8', errors='ignore')[:600]
+        except Exception:
+            body_preview = ''
+        print(f'ERR Gemini HTTP {exc.code}: {body_preview}')
+        GEMINI_CACHE[cache_key] = None
+        return None
+    except Exception as exc:
+        print(f'ERR Gemini: {exc}')
         GEMINI_CACHE[cache_key] = None
         return None
 
@@ -1031,42 +1036,48 @@ def review_portuguese_content(title_pt: str, summary_pt: str, facts_pt: list[str
         'title': payload['title'],
         'summary': payload['summary'],
         'facts': payload['facts'],
-        'body': body_pt,
+        'body': normalize_reviewed_portuguese_body(body_pt, body_pt),
+        'gemini_ok': False,
     }
     prompt = (
         'Você é um revisor científico e copy editor em português do Brasil. '
-        'Corrija ortografia, concordância, pontuação, regência, fluidez e naturalidade em pt-BR. '
+        'Corrija ortografia, concordância, pontuação, regência, fluidez e naturalidade. '
         'Preserve rigor factual, números, nomes próprios, cautelas e o sentido original. '
-        'Não invente fatos, não embeleze demais, não adicione opinião e não remova ressalvas científicas. '
-        'Elimine repetições desnecessárias, especialmente aberturas idênticas entre parágrafos. '
-        'Nenhum parágrafo pode terminar com frase incompleta. '
-        'Evite começar parágrafos com a mesma expressão, inclusive "Isso importa porque", a menos que seja indispensável. '
+        'Não invente fatos, não adicione opinião e não remova ressalvas científicas. '
+        'Garanta que o texto final esteja claramente em português do Brasil. '
+        'Elimine repetições desnecessárias, especialmente aberturas repetidas como "Isso importa porque" em vários parágrafos. '
+        'Não deixe frases incompletas, truncadas ou terminando abruptamente. '
         'No campo "body", devolva texto corrido em português natural, sem HTML e com 4 a 8 parágrafos separados por "\n\n". '
         'Mantenha os fatos listados em "facts" curtos, claros e objetivos. '
         'Responda somente em JSON válido com as chaves exatas title, summary, facts, body.\n\n'
         + json.dumps(payload, ensure_ascii=False)
     )
-    reviewed = call_gemini_json('pt_review_bundle', prompt)
+    reviewed = call_gemini_json('pt_review_bundle_v2', prompt)
     if not isinstance(reviewed, dict):
         return fallback
 
     title = collapse_ws(str(reviewed.get('title') or payload['title']))
     summary = collapse_ws(str(reviewed.get('summary') or payload['summary']))
+    if not is_likely_portuguese(' '.join([title, summary])):
+        print('WARN Gemini devolveu título/resumo fora do padrão esperado em português. Usando fallback local.')
+        return fallback
+
     facts = []
     for item in reviewed.get('facts') or payload['facts']:
         cleaned = collapse_ws(str(item))
         if cleaned:
             facts.append(cleaned)
     facts = distinct_facts(facts, 6) or payload['facts']
+
     body_raw = str(reviewed.get('body') or payload['body'])
-    body_candidate = body_raw if is_likely_portuguese(body_raw) else payload['body']
-    body_html = normalize_reviewed_portuguese_body(body_candidate, body_pt)
+    body_html = normalize_reviewed_portuguese_body(body_raw, body_pt)
 
     return {
         'title': title or payload['title'],
         'summary': summary or payload['summary'],
         'facts': facts or payload['facts'],
         'body': body_html,
+        'gemini_ok': True,
     }
 
 
@@ -1711,7 +1722,7 @@ def _context_bridge(category: str, lang: str) -> str:
     }
     pt = {
         'Astronomia': (
-            'O ponto central aqui é que a astronomia não avança com detecções isoladas. '
+            'Isso importa porque a astronomia não avança com detecções isoladas. '
             'O campo constrói confiança acumulando observações independentes em diferentes comprimentos de onda, '
             'instrumentos e épocas até que sinais isolados se tornem conclusões defensáveis. '
             'O que parece convincente em um conjunto de dados pode se dissolver quando um segundo instrumento olha '
@@ -1720,7 +1731,7 @@ def _context_bridge(category: str, lang: str) -> str:
             'O padrão atual exige que um resultado sobreviva a essa triangulação antes de a comunidade tratá-lo como estabelecido.'
         ),
         'Cosmologia': (
-            'Na cosmologia, o peso desta notícia vem do fato de o campo operar na fronteira do que os instrumentos atuais conseguem medir, '
+            'Isso importa porque a cosmologia opera na fronteira do que os instrumentos atuais conseguem medir, '
             'onde erros sistemáticos e suposições de modelo nunca são triviais. '
             'Pequenas discrepâncias entre medições independentes historicamente apontaram para física ausente '
             'em vez de simples erros de calibração, e a tensão em curso na constante de Hubble é um exemplo vivo '
@@ -1729,7 +1740,7 @@ def _context_bridge(category: str, lang: str) -> str:
             'adiciona informação real a um problema que resiste a resolução fácil há mais de uma década.'
         ),
         'Astrofísica': (
-            'Em astrofísica, um resultado só ganha força quando um sinal observado pode ser '
+            'Isso importa porque a astrofísica se torna convincente apenas quando um sinal observado pode ser '
             'ligado a uma explicação física defensável. '
             'Objetos compactos como estrelas de nêutrons e buracos negros são laboratórios naturais para física extrema, '
             'mas a distância e a complexidade desses sistemas tornam a interpretação difícil sem cobertura '
@@ -1739,7 +1750,7 @@ def _context_bridge(category: str, lang: str) -> str:
             'com uma ampla família de modelos.'
         ),
         'Exoplanetas': (
-            'Na ciência de exoplanetas, o interesse real já saiu da fase de descobertas simples e entrou num período '
+            'Isso importa porque a ciência de exoplanetas passou da era das descobertas simples para um período '
             'de caracterização comparativa. '
             'Com mais de cinco mil planetas confirmados conhecidos, as questões cientificamente produtivas agora '
             'dizem respeito à composição atmosférica, estrutura interna, história orbital e propriedades estatísticas '
@@ -1748,7 +1759,7 @@ def _context_bridge(category: str, lang: str) -> str:
             'a esses quadros comparativos, não quando existe isolada como anedota.'
         ),
         'Física': (
-            'Em física, um resultado só merece confiança quando a cadeia de medição permanece '
+            'Isso importa porque a física só leva um resultado a sério quando a cadeia de medição permanece '
             'robusta sob escrutínio. '
             'A física de partículas experimental e a metrologia de precisão operam em regimes onde o sinal '
             'está muito abaixo do ruído de fundo, e onde incertezas sistemáticas podem imitar nova física '
@@ -1758,7 +1769,7 @@ def _context_bridge(category: str, lang: str) -> str:
             'A diferença é quase sempre resolvida por replicação independente com instrumentos diferentes e sistemáticos distintos.'
         ),
         'Biologia': (
-            'Em biologia, um achado fica mais informativo quando um efeito observado começa a parecer '
+            'Isso importa porque a biologia se torna mais informativa quando um efeito observado começa a parecer '
             'um mecanismo e não um padrão isolado. '
             'A distância entre identificar uma correlação em dados biológicos e compreender a cadeia causal que a produz '
             'é rotineiramente subestimada, e a história da pesquisa biomédica está repleta de associações que '
@@ -1767,7 +1778,7 @@ def _context_bridge(category: str, lang: str) -> str:
             'puramente descritiva porque gera previsões testáveis que podem estreitar o espaço de hipóteses.'
         ),
         'Química': (
-            'Na química, o valor do resultado cresce quando uma estrutura ou processo alegado pode ser descrito '
+            'Isso importa porque a química ganha força quando uma estrutura ou processo alegado pode ser descrito '
             'com precisão suficiente para ser reproduzido por outros. '
             'Rotas sintéticas, assinaturas espectroscópicas, rendimento em condições definidas e estabilidade '
             'em parâmetros operacionais realistas são a moeda de credibilidade na química, e um resultado que '
@@ -1777,7 +1788,7 @@ def _context_bridge(category: str, lang: str) -> str:
             'que eram invisíveis em escala menor.'
         ),
         'Ciências da Terra': (
-            'Nas ciências da Terra, a interpretação ganha força quando observações locais podem ser '
+            'Isso importa porque as ciências da Terra ficam mais fortes quando observações locais podem ser '
             'encaixadas em um padrão físico mais amplo que abrange tempo e geografia. '
             'O planeta opera como um sistema acoplado no qual processos atmosféricos, oceânicos, criosféricos '
             'e da Terra sólida interagem em escalas de tempo de dias a milhões de anos. '
@@ -2415,7 +2426,7 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
         'featured': is_featured,
         'trending': is_trending,
         'isPreprint': item['source_type'] == 'preprint',
-        'geminiReviewed': bool(GEMINI_API_KEY),
+        'geminiReviewed': bool(reviewed_pt.get('gemini_ok')),
         'geminiModel': GEMINI_MODEL if GEMINI_API_KEY else '',
         'score': profile['overall'],
         'scoreBreakdown': {
@@ -2511,6 +2522,8 @@ def save_posts(posts: list[dict]) -> None:
 
 def load_all_items() -> list[dict]:
     all_items = []
+    ok_sources = 0
+    failed_sources = 0
     for source in SOURCES:
         try:
             raw = fetch(source.url)
@@ -2519,16 +2532,26 @@ def load_all_items() -> list[dict]:
             else:
                 items = parse_rss(raw, source)
             all_items.extend(items)
+            ok_sources += 1
             print(f'OK  {source.name}: {len(items)} itens')
         except Exception as exc:
+            failed_sources += 1
             print(f'ERR {source.name}: {exc}')
+    print(f'\nFontes com sucesso: {ok_sources}/{len(SOURCES)} | falhas: {failed_sources}')
+    if not all_items:
+        raise RuntimeError('Nenhum item foi carregado das fontes. Abortando para evitar atualização silenciosamente vazia.')
     return all_items
 
 
 def main() -> None:
+    gemini_status = 'sim' if GEMINI_API_KEY else 'nao'
+    gemini_model = GEMINI_MODEL if GEMINI_API_KEY else 'desativado'
+    print(f'Gemini configurado: {gemini_status} | modelo: {gemini_model}')
     items = load_all_items()
     print(f'\nTotal bruto: {len(items)} itens de {len(SOURCES)} fontes')
     ranked = dedupe_and_rank(items)
+    if not ranked:
+        raise RuntimeError('Nenhum item sobreviveu aos filtros editoriais. Revise as fontes e os critérios.')
     posts = []
     regular_rank = 0
     for idx, item in enumerate(ranked):
