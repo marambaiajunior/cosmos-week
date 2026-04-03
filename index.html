@@ -1857,42 +1857,6 @@
     return '';
   }
 
-  function inlineImagesFor(post) {
-    const raw = Array.isArray(post?.inline_images) ? post.inline_images : [];
-    const seen = new Set();
-    return raw
-      .map(item => item || {})
-      .map(item => {
-        const src = String(item.src || '').trim();
-        const caption = currentLang === 'en'
-          ? String(item.caption_en || item.caption || '').trim()
-          : String(item.caption_pt || item.caption || '').trim();
-        const alt = currentLang === 'en'
-          ? String(item.alt_en || item.alt || caption || textFor(post, 'title')).trim()
-          : String(item.alt_pt || item.alt || caption || textFor(post, 'title')).trim();
-        return { src, caption, alt };
-      })
-      .filter(item => item.src)
-      .filter(item => {
-        const key = item.src.toLowerCase();
-        if (seen.has(key)) return false;
-        seen.add(key);
-        return true;
-      })
-      .slice(0, 3);
-  }
-
-  function articleInlineFigureMarkup(image, post) {
-    if (!image || !image.src) return '';
-    const caption = stripHtml(image.caption || '');
-    const alt = stripHtml(image.alt || caption || textFor(post, 'title'));
-    return `
-      <figure class="article-inline-figure">
-        <img src="${escapeAttr(image.src)}" alt="${escapeAttr(alt)}" loading="lazy" referrerpolicy="no-referrer">
-        ${caption ? `<figcaption class="article-inline-caption">${caption}</figcaption>` : ''}
-      </figure>`;
-  }
-
   function buildArticleBody(post) {
     const ledeLike = uniqueTextItems([stripHtml(textFor(post, 'sub')), stripHtml(textFor(post, 'excerpt'))]);
     const bodyParagraphs = extractArticleParagraphs(post).filter(text => {
@@ -1905,26 +1869,7 @@
     const paragraphs = uniqueTextItems(bodyParagraphs);
     const intro = uniqueTextItems([stripHtml(textFor(post, 'sub')), stripHtml(textFor(post, 'excerpt'))]);
     const finalParagraphs = paragraphs.length ? uniqueTextItems([...intro, ...paragraphs]) : intro;
-    const inlineImages = inlineImagesFor(post);
-
-    if (!finalParagraphs.length && !inlineImages.length) return '';
-
-    const blocks = [];
-    finalParagraphs.forEach((text, idx) => {
-      blocks.push(`<p>${text}</p>`);
-      if (!inlineImages.length) return;
-
-      const imageIndex = idx === 0 ? 0 : idx === 2 ? 1 : idx === 4 ? 2 : -1;
-      if (imageIndex >= 0 && inlineImages[imageIndex]) {
-        blocks.push(articleInlineFigureMarkup(inlineImages[imageIndex], post));
-      }
-    });
-
-    if (!finalParagraphs.length) {
-      inlineImages.forEach(image => blocks.push(articleInlineFigureMarkup(image, post)));
-    }
-
-    return blocks.join('');
+    return finalParagraphs.map(text => `<p>${text}</p>`).join('');
   }
 
   function engagementBoxMarkup() {
