@@ -19,7 +19,7 @@ jobs:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
       PYTHONUNBUFFERED: '1'
       COSMOS_SITE_URL: 'https://marambaiajunior.github.io/cosmos-week/'
-      GEMINI_API_KEY: ${{ secrets.AIzaSyAbq8ciI_ADNe2p4P6rFMmt6V6jCYf0hFY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GEMINI_MODEL: 'gemini-2.0-flash'
 
     steps:
