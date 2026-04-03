@@ -31,6 +31,15 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Validar configuração
+        run: |
+          test -f scripts/fetch_news.py || { echo "Arquivo scripts/fetch_news.py não encontrado."; exit 1; }
+          if [ -z "${GEMINI_API_KEY}" ]; then
+            echo "Secret GEMINI_API_KEY ausente ou vazio."
+            exit 1
+          fi
+          echo "Configuração validada. Gemini habilitado com modelo ${GEMINI_MODEL}."
+
       - name: Gerar portal e metadados estáticos
         run: python scripts/fetch_news.py
 
