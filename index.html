@@ -727,14 +727,20 @@
       width: 100%;
       max-height: 480px;
       display: block;
+      border: 0;
       background: #000;
     }
     .article-inline-figure img {
       object-fit: cover;
       transition: transform .5s var(--ease);
     }
-    .article-inline-figure video { object-fit: contain; }
-    .article-inline-figure iframe { min-height: 320px; border: 0; aspect-ratio: 16 / 9; }
+    .article-inline-figure video {
+      height: auto;
+    }
+    .article-inline-figure iframe {
+      aspect-ratio: 16 / 9;
+      min-height: 320px;
+    }
     .article-inline-figure:hover img { transform: scale(1.015); }
     .article-inline-caption {
       padding: 10px 16px 11px;
@@ -1889,39 +1895,6 @@
       .slice(0, 3);
   }
 
-
-  function inlineVideosFor(post) {
-    const raw = Array.isArray(post?.inline_videos) ? post.inline_videos : [];
-    const seen = new Set();
-    return raw
-      .map(item => item || {})
-      .map(item => {
-        const type = String(item.type || 'video').trim().toLowerCase() === 'embed' ? 'embed' : 'video';
-        const src = String(item.src || '').trim();
-        const caption = currentLang === 'en'
-          ? String(item.caption_en || item.caption || item.title_en || item.title || '').trim()
-          : String(item.caption_pt || item.caption || item.title_pt || item.title || '').trim();
-        const title = currentLang === 'en'
-          ? String(item.title_en || item.title || caption || textFor(post, 'title')).trim()
-          : String(item.title_pt || item.title || caption || textFor(post, 'title')).trim();
-        return { type, src, caption, title };
-      })
-      .filter(item => item.src)
-      .filter(item => {
-        const key = `${item.type}:${item.src}`.toLowerCase();
-        if (seen.has(key)) return false;
-        seen.add(key);
-        return true;
-      })
-      .slice(0, 2);
-  }
-
-  function mergeInlineMedia(post) {
-    const images = inlineImagesFor(post).map(item => ({ ...item, type: 'image' }));
-    const videos = inlineVideosFor(post);
-    return [...images, ...videos].slice(0, 4);
-  }
-
   function articleInlineFigureMarkup(image, post) {
     if (!image || !image.src) return '';
     const caption = stripHtml(image.caption || '');
@@ -1933,24 +1906,46 @@
       </figure>`;
   }
 
-
-  function articleInlineVideoMarkup(media, post) {
-    if (!media || !media.src) return '';
-    const caption = stripHtml(media.caption || '');
-    const title = stripHtml(media.title || caption || textFor(post, 'title'));
-    const player = media.type === 'embed'
-      ? `<iframe src="${escapeAttr(media.src)}" title="${escapeAttr(title)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="no-referrer"></iframe>`
-      : `<video controls playsinline preload="metadata" referrerpolicy="no-referrer"><source src="${escapeAttr(media.src)}"></video>`;
-    return `
-      <figure class="article-inline-figure">
-        ${player}
-        ${caption ? `<figcaption class="article-inline-caption">${caption}</figcaption>` : ''}
-      </figure>`;
+  function inlineVideosFor(post) {
+    const raw = Array.isArray(post?.inline_videos) ? post.inline_videos : [];
+    const seen = new Set();
+    return raw
+      .map(item => item || {})
+      .map(item => {
+        const src = String(item.src || '').trim();
+        const type = String(item.type || '').trim() || 'embed';
+        const caption = currentLang === 'en'
+          ? String(item.caption_en || item.caption || item.title_en || '').trim()
+          : String(item.caption_pt || item.caption || item.title_pt || '').trim();
+        const title = currentLang === 'en'
+          ? String(item.title_en || item.title || caption || textFor(post, 'title')).trim()
+          : String(item.title_pt || item.title || caption || textFor(post, 'title')).trim();
+        return { src, type, caption, title };
+      })
+      .filter(item => item.src)
+      .filter(item => {
+        const key = item.src.toLowerCase();
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      })
+      .slice(0, 2);
   }
 
-  function articleInlineMediaMarkup(media, post) {
-    if (!media) return '';
-    return media.type === 'image' ? articleInlineFigureMarkup(media, post) : articleInlineVideoMarkup(media, post);
+  function articleInlineVideoMarkup(video, post) {
+    if (!video || !video.src) return '';
+    const caption = stripHtml(video.caption || '');
+    const title = stripHtml(video.title || caption || textFor(post, 'title'));
+    const inner = video.type === 'video'
+      ? `<video controls preload="metadata" playsinline referrerpolicy="no-referrer">
+           <source src="${escapeAttr(video.src)}">
+         </video>`
+      : `<iframe src="${escapeAttr(video.src)}" title="${escapeAttr(title)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
+    return `
+      <figure class="article-inline-figure article-inline-video">
+        ${inner}
+        ${caption ? `<figcaption class="article-inline-caption">${caption}</figcaption>` : ''}
+      </figure>`;
   }
 
   function buildArticleBody(post) {
@@ -1965,23 +1960,31 @@
     const paragraphs = uniqueTextItems(bodyParagraphs);
     const intro = uniqueTextItems([stripHtml(textFor(post, 'sub')), stripHtml(textFor(post, 'excerpt'))]);
     const finalParagraphs = paragraphs.length ? uniqueTextItems([...intro, ...paragraphs]) : intro;
-    const inlineMedia = mergeInlineMedia(post);
+    const inlineImages = inlineImagesFor(post);
+    const inlineVideos = inlineVideosFor(post);
 
-    if (!finalParagraphs.length && !inlineMedia.length) return '';
+    if (!finalParagraphs.length && !inlineImages.length && !inlineVideos.length) return '';
 
     const blocks = [];
     finalParagraphs.forEach((text, idx) => {
       blocks.push(`<p>${text}</p>`);
-      if (!inlineMedia.length) return;
+      if (idx === 1 && inlineVideos[0]) {
+        blocks.push(articleInlineVideoMarkup(inlineVideos[0], post));
+      }
+      if (!inlineImages.length) return;
 
-      const mediaIndex = idx === 0 ? 0 : idx === 2 ? 1 : idx === 4 ? 2 : idx === 6 ? 3 : -1;
-      if (mediaIndex >= 0 && inlineMedia[mediaIndex]) {
-        blocks.push(articleInlineMediaMarkup(inlineMedia[mediaIndex], post));
+      const imageIndex = idx === 0 ? 0 : idx === 2 ? 1 : idx === 4 ? 2 : -1;
+      if (imageIndex >= 0 && inlineImages[imageIndex]) {
+        blocks.push(articleInlineFigureMarkup(inlineImages[imageIndex], post));
+      }
+      if (idx === 3 && inlineVideos[1]) {
+        blocks.push(articleInlineVideoMarkup(inlineVideos[1], post));
       }
     });
 
     if (!finalParagraphs.length) {
-      inlineMedia.forEach(media => blocks.push(articleInlineMediaMarkup(media, post)));
+      inlineVideos.forEach(video => blocks.push(articleInlineVideoMarkup(video, post)));
+      inlineImages.forEach(image => blocks.push(articleInlineFigureMarkup(image, post)));
     }
 
     return blocks.join('');
