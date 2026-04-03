@@ -5,19 +5,9 @@
     <link>https://marambaiajunior.github.io/cosmos-week/</link>
     <description>Portal de jornalismo científico com foco em astronomia, astrofísica, cosmologia e ciência de fronteira.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Fri, 03 Apr 2026 03:52:40 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 14:06:15 +0000</lastBuildDate>
     <generator>CosmosWeekBot 5.0</generator>
     <item>
-              <title>Como acompanhar o lançamento do Smile ao vivo</title>
-              <link>https://marambaiajunior.github.io/cosmos-week/?article=how-to-follow-the-smile-launch-live</link>
-              <guid>https://marambaiajunior.github.io/cosmos-week/?article=how-to-follow-the-smile-launch-live</guid>
-              <pubDate>Thu, 02 Apr 2026 15:00:00 +0000</pubDate>
-              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
-              <description>A ESA transmitirá ao vivo o lançamento da missão Smile Europeu-Chinesa às 07:29 BST/08:29 CEST do dia 9 de Abril de 2026. O Smile será lançado num foguetão europeu Vega-C a partir do porto espacial europeu na Guiana Francesa. Horários sujeitos a alterações em.</description>
-              <category>Astronomia</category><category>ESA Space Science</category><category>Cosmos Week</category><category>Como acompanhar o lançamento do Smile ao vivo</category>
-              <source url="https://www.esa.int/Science_Exploration/Space_Science/Smile/How_to_follow_the_Smile_launch_live">ESA Space Science</source>
-              <content:encoded>A ESA transmitirá ao vivo o lançamento da missão Smile Europeu-Chinesa às 07: 29 BST/08: 29 CEST do dia 9 de Abril de 2026. O Smile será lançado num foguetão europeu Vega-C a partir do porto espacial europeu na Guiana Francesa. Horários sujeitos a alterações em. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a astronomia não avança com detecções isoladas. O campo constrói confiança acumulando observações independentes em diferentes comprimentos de onda, instrumentos e épocas até que sinais isolados se tornem conclusões defensáveis. O que parece convincente em um conjunto de dados pode se dissolver quando um segundo instrumento olha para o mesmo alvo, e o que parece marginal pode se solidificar quando campanhas de acompanhamento confirmam a leitura original. O padrão atual exige que um resu</content:encoded>
-            </item><item>
               <title>Landsat revela mudanças em reservatórios e batimetria</title>
               <link>https://marambaiajunior.github.io/cosmos-week/?article=landsat-reveals-reservoir-changes-and-bathymetry</link>
               <guid>https://marambaiajunior.github.io/cosmos-week/?article=landsat-reveals-reservoir-changes-and-bathymetry</guid>
@@ -27,6 +17,16 @@
               <category>Astronomia</category><category>NASA News Releases</category><category>Cosmos Week</category><category>Landsat revela mudanças em reservatórios e batimetria</category>
               <source url="https://science.nasa.gov/missions/landsat/landsat-reveals-reservoir-changes-and-bathymetry/">NASA News Releases</source>
               <content:encoded>Em dois estudos recentes, os investigadores usaram dados do Landsat para preencher lacunas importantes no nosso conhecimento da estrutura e dinâmica dos reservatórios. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a astronomia não avança com detecções isoladas. O campo constrói confiança acumulando observações independentes em diferentes comprimentos de onda, instrumentos e épocas até que sinais isolados se tornem conclusões defensáveis. O que parece convincente em um conjunto de dados pode se dissolver quando um segundo instrumento olha para o mesmo alvo, e o que parece marginal pode se solidificar quando campanhas de acompanhamento confirmam a leitura original. O padrão atual exige que um resultado sobreviva a essa triangulação antes de a comunidade tratá-lo como estabelecido. Num estud</content:encoded>
+            </item><item>
+              <title>Como acompanhar o lançamento do Smile ao vivo</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=how-to-follow-the-smile-launch-live</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=how-to-follow-the-smile-launch-live</guid>
+              <pubDate>Thu, 02 Apr 2026 15:00:00 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>A ESA transmitirá ao vivo o lançamento da missão Smile Europeu-Chinesa às 07:29 BST/08:29 CEST do dia 9 de Abril de 2026. O Smile será lançado num foguetão europeu Vega-C a partir do porto espacial europeu na Guiana Francesa. Horários sujeitos a alterações em.</description>
+              <category>Astronomia</category><category>ESA Space Science</category><category>Cosmos Week</category><category>Como acompanhar o lançamento do Smile ao vivo</category>
+              <source url="https://www.esa.int/Science_Exploration/Space_Science/Smile/How_to_follow_the_Smile_launch_live">ESA Space Science</source>
+              <content:encoded>A ESA transmitirá ao vivo o lançamento da missão Smile Europeu-Chinesa às 07: 29 BST/08: 29 CEST do dia 9 de Abril de 2026. O Smile será lançado num foguetão europeu Vega-C a partir do porto espacial europeu na Guiana Francesa. Horários sujeitos a alterações em. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a astronomia não avança com detecções isoladas. O campo constrói confiança acumulando observações independentes em diferentes comprimentos de onda, instrumentos e épocas até que sinais isolados se tornem conclusões defensáveis. O que parece convincente em um conjunto de dados pode se dissolver quando um segundo instrumento olha para o mesmo alvo, e o que parece marginal pode se solidificar quando campanhas de acompanhamento confirmam a leitura original. O padrão atual exige que um resu</content:encoded>
             </item><item>
               <title>Decolagem! NASA lança astronautas na histórica missão Artemis Moon</title>
               <link>https://marambaiajunior.github.io/cosmos-week/?article=liftoff-nasa-launches-astronauts-on-historic-artemis-moon-mission</link>
@@ -171,7 +171,7 @@
               <title>A análise automatizada da tomografia computadorizada pode acelerar as avaliações clínicas</title>
               <link>https://marambaiajunior.github.io/cosmos-week/?article=automated-ct-scan-analysis-could-fast-track-clinical-assessments</link>
               <guid>https://marambaiajunior.github.io/cosmos-week/?article=automated-ct-scan-analysis-could-fast-track-clinical-assessments</guid>
-              <pubDate>Fri, 03 Apr 2026 03:48:27 +0000</pubDate>
+              <pubDate>Fri, 03 Apr 2026 14:04:23 +0000</pubDate>
               <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
               <description>Uma pesquisa financiada pelo NIH sugere que uma ferramenta alimentada por IA poderia agilizar diagnósticos e revelar marcadores precoces de doenças crônicas.</description>
               <category>Biologia</category><category>NIH News Releases</category><category>Cosmos Week</category><category>A análise automatizada da tomografia computadorizada pode acelerar as avaliações clínicas</category>
@@ -181,7 +181,7 @@
               <title>O ensaio apoiado pelo NIH reduz a incidência do VIH em 70% nas populações rurais</title>
               <link>https://marambaiajunior.github.io/cosmos-week/?article=nih-supported-trial-reduces-hiv-incidence-by-70-in-rural-populations</link>
               <guid>https://marambaiajunior.github.io/cosmos-week/?article=nih-supported-trial-reduces-hiv-incidence-by-70-in-rural-populations</guid>
-              <pubDate>Fri, 03 Apr 2026 03:48:27 +0000</pubDate>
+              <pubDate>Fri, 03 Apr 2026 14:04:23 +0000</pubDate>
               <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
               <description>Estude utilizou a tecnologia para alargar o alcance da infra-estrutura existente, ligando as pessoas aos cuidados de saúde.</description>
               <category>Biologia</category><category>NIH News Releases</category><category>Cosmos Week</category><category>O ensaio apoiado pelo NIH reduz a incidência do VIH em 70% nas populações rurais</category>
