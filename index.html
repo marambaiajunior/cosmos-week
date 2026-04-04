@@ -45,6 +45,9 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <meta name="description" content="Cosmos Week — portal de notícias científicas em português com foco em astronomia, astrofísica, cosmologia e ciência em geral.">
   <meta name="keywords" content="astronomia, astrofísica, cosmologia, ciência, exoplanetas, buracos negros, James Webb, NASA, ESA, divulgação científica">
   <meta property="og:title" content="Cosmos Week — Notícias científicas do universo">
@@ -1372,7 +1375,7 @@
       .sort((a, b) => String(b.publishedIso || '').localeCompare(String(a.publishedIso || '')));
   }
 
-  const ARCHIVE_CACHE_KEY = 'cw_archive_cache_v3';
+  const ARCHIVE_CACHE_KEY = 'cw_archive_cache_v5';
 
   function postRichnessScore(post) {
     return [
@@ -1416,6 +1419,42 @@
   }
 
   let DB = hydrateArchive(window.postsData || []);
+
+  async function fetchFreshPosts() {
+    const urls = [
+      `posts.json?cb=${Date.now()}`,
+      `posts.js?cb=${Date.now()}`
+    ];
+    for (const url of urls) {
+      try {
+        const resp = await fetch(url, { cache: 'no-store' });
+        if (!resp.ok) throw new Error('fetch failed');
+        if (url.includes('posts.json')) {
+          const data = await resp.json();
+          if (Array.isArray(data) && data.length) return normalizePosts(data);
+        } else {
+          const js = await resp.text();
+          const sandboxWindow = {};
+          Function('window', js + '; return window.postsData;')(sandboxWindow);
+          if (Array.isArray(sandboxWindow.postsData) && sandboxWindow.postsData.length) {
+            return normalizePosts(sandboxWindow.postsData);
+          }
+        }
+      } catch (e) {}
+    }
+    return null;
+  }
+
+  async function syncFreshPosts(initial = false) {
+    const fresh = await fetchFreshPosts();
+    if (!fresh || !fresh.length) return false;
+    DB = fresh;
+    persistArchiveCache();
+    updateLastUpdatedLabel();
+    if (initial) parseRoute();
+    else rerenderCurrentView();
+    return true;
+  }
   let currentLang = localStorage.getItem('cw_lang') === 'en' ? 'en' : 'pt';
   let currentPage = 'home';
   let currentArticleSlug = null;
@@ -1832,25 +1871,6 @@
     return '';
   }
 
-  function renderMedia(media) {
-    if (!media || !media.type || !media.src) return '';
-    const src = String(media.src || '').trim();
-    if (!src) return '';
-    const captionText = String(media.caption || media.alt || '').trim();
-    const caption = captionText ? `<figcaption>${captionText}</figcaption>` : '';
-    if (media.type === 'image') {
-      return `<figure class="article-media-block article-media-image"><img src="${escapeAttr(src)}" alt="" loading="lazy" decoding="async">${caption}</figure>`;
-    }
-    if (media.type === 'video') {
-      const posterAttr = media.poster ? ` poster="${escapeAttr(media.poster)}"` : '';
-      return `<figure class="article-media-block article-media-video"><video controls preload="metadata" playsinline${posterAttr}><source src="${escapeAttr(src)}"></video>${caption}</figure>`;
-    }
-    if (media.type === 'embed') {
-      return `<figure class="article-media-block article-media-embed"><iframe src="${escapeAttr(src)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>${caption}</figure>`;
-    }
-    return '';
-  }
-
   function buildArticleBody(post) {
     const ledeLike = uniqueTextItems([stripHtml(textFor(post, 'sub')), stripHtml(textFor(post, 'excerpt'))]);
     const bodyParagraphs = extractArticleParagraphs(post).filter(text => {
@@ -1863,19 +1883,7 @@
     const paragraphs = uniqueTextItems(bodyParagraphs);
     const intro = uniqueTextItems([stripHtml(textFor(post, 'sub')), stripHtml(textFor(post, 'excerpt'))]);
     const finalParagraphs = paragraphs.length ? uniqueTextItems([...intro, ...paragraphs]) : intro;
-    const media = Array.isArray(post.media) ? post.media.filter(item => item && item.type && item.src) : [];
-    let html = '';
-    let mediaIndex = 0;
-    finalParagraphs.forEach((text, idx) => {
-      html += `<p>${text}</p>`;
-      if (mediaIndex < media.length && (idx + 1) % 2 === 0) {
-        html += renderMedia(media[mediaIndex++]);
-      }
-    });
-    while (mediaIndex < media.length) {
-      html += renderMedia(media[mediaIndex++]);
-    }
-    return html;
+    return finalParagraphs.map(text => `<p>${text}</p>`).join('');
   }
 
   function engagementBoxMarkup() {
@@ -2191,19 +2199,8 @@
   function refreshFeed() {
     const btn = document.getElementById('updateBtn');
     btn.classList.add('loading'); btn.disabled = true;
-    fetch(`posts.js?cb=${Date.now()}`, { cache:'no-store' })
-      .then(resp => { if (!resp.ok) throw new Error('fetch failed'); return resp.text(); })
-      .then(js => {
-        const sandboxWindow = {};
-        Function('window', js + '; return window.postsData;')(sandboxWindow);
-        if (Array.isArray(sandboxWindow.postsData) && sandboxWindow.postsData.length) {
-          DB = mergePostCollections(sandboxWindow.postsData, DB);
-          persistArchiveCache();
-          updateLastUpdatedLabel();
-          rerenderCurrentView();
-          showToast(tr('updateDone'));
-        } else throw new Error('empty');
-      })
+    syncFreshPosts(false)
+      .then(ok => showToast(ok ? tr('updateDone') : tr('updateFail')))
       .catch(() => showToast(tr('updateFail')))
       .finally(() => { btn.classList.remove('loading'); btn.disabled = false; });
   }
@@ -2384,12 +2381,13 @@
 
   window.addEventListener('popstate', parseRoute);
 
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', async () => {
     applyUIStrings();
     loadSavedNewsletterEmail();
     initCookieBanner();
     persistArchiveCache();
     parseRoute();
+    await syncFreshPosts(true);
     setTimeout(() => showToast(tr('welcome')), 900);
   });
   </script>
