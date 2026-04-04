@@ -62,9 +62,6 @@
   <meta property="article:published_time" id="articlePublishedMeta" content="">
   <meta property="article:modified_time" id="articleModifiedMeta" content="">
   <link rel="canonical" id="canonicalLink" href="https://marambaiajunior.github.io/cosmos-week/">
-  <link rel="alternate" id="alternatePtLink" hreflang="pt-BR" href="https://marambaiajunior.github.io/cosmos-week/">
-  <link rel="alternate" id="alternateEnLink" hreflang="en-US" href="https://marambaiajunior.github.io/cosmos-week/?lang=en">
-  <link rel="alternate" id="xDefaultLink" hreflang="x-default" href="https://marambaiajunior.github.io/cosmos-week/">
   <link rel="alternate" type="application/rss+xml" title="Cosmos Week RSS" href="feed.xml">
 
   <!--
@@ -236,10 +233,17 @@
 
     /* Header tools */
     .header-tools {
-      display: flex; align-items: center; gap: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 10px;
+      flex-wrap: nowrap;
+      min-width: 0;
     }
+    .header-tools > * { flex-shrink: 0; }
     .searchbox {
       position: relative; display: flex; align-items: center;
+      min-width: 0;
     }
     .searchbox input {
       height: 36px; padding: 0 36px 0 14px; border-radius: 4px;
@@ -261,41 +265,14 @@
     }
 
     /* Language */
-    .header-tools {
-      display: flex; align-items: center; gap: 10px; flex-wrap: wrap; justify-content: flex-end;
-    }
-    .lang-switch { display: flex; gap: 6px; align-items: center; }
+    .lang-switch { display: flex; gap: 4px; }
     .lang-switch button {
-      width: 40px; height: 34px; border-radius: 6px;
-      border: 1px solid rgba(255,255,255,.18);
-      background: rgba(255,255,255,.08);
-      opacity: .78; transition: opacity .15s, border-color .15s, transform .15s, background .15s;
-      display: inline-flex; align-items: center; justify-content: center;
-      padding: 0;
-      position: relative;
+      width: 30px; height: 30px; border-radius: 4px;
+      font-size: 14px; line-height: 1;
+      opacity: .4; transition: opacity .15s;
     }
-    .lang-switch button.on {
-      opacity: 1;
-      background: rgba(255,255,255,.14);
-      border-color: rgba(255,255,255,.34);
-      transform: translateY(-1px);
-    }
-    .lang-switch button:hover { opacity: 1; border-color: rgba(255,255,255,.34); }
-    .flag-mark {
-      width: 22px; height: 14px; display: block; border-radius: 2px; overflow: hidden;
-      box-shadow: 0 0 0 1px rgba(0,0,0,.18), 0 0 0 1px rgba(255,255,255,.08) inset;
-      background-size: cover; background-position: center;
-    }
-    .flag-br {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 14'%3E%3Crect width='22' height='14' fill='%23009b3a'/%3E%3Cpath d='M11 1.2 18.6 7 11 12.8 3.4 7Z' fill='%23ffdf00'/%3E%3Ccircle cx='11' cy='7' r='3.2' fill='%23002776'/%3E%3C/svg%3E");
-    }
-    .flag-us {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 14'%3E%3Crect width='22' height='14' fill='%23b22234'/%3E%3Cg fill='%23fff'%3E%3Crect y='1.08' width='22' height='1.08'/%3E%3Crect y='3.23' width='22' height='1.08'/%3E%3Crect y='5.38' width='22' height='1.08'/%3E%3Crect y='7.54' width='22' height='1.08'/%3E%3Crect y='9.69' width='22' height='1.08'/%3E%3Crect y='11.85' width='22' height='1.08'/%3E%3C/g%3E%3Crect width='9.6' height='7.54' fill='%233c3b6e'/%3E%3Cg fill='%23fff'%3E%3Ccircle cx='1.2' cy='1.2' r='.34'/%3E%3Ccircle cx='3.1' cy='1.2' r='.34'/%3E%3Ccircle cx='5' cy='1.2' r='.34'/%3E%3Ccircle cx='6.9' cy='1.2' r='.34'/%3E%3Ccircle cx='8.8' cy='1.2' r='.34'/%3E%3Ccircle cx='2.15' cy='2.45' r='.34'/%3E%3Ccircle cx='4.05' cy='2.45' r='.34'/%3E%3Ccircle cx='5.95' cy='2.45' r='.34'/%3E%3Ccircle cx='7.85' cy='2.45' r='.34'/%3E%3Ccircle cx='1.2' cy='3.7' r='.34'/%3E%3Ccircle cx='3.1' cy='3.7' r='.34'/%3E%3Ccircle cx='5' cy='3.7' r='.34'/%3E%3Ccircle cx='6.9' cy='3.7' r='.34'/%3E%3Ccircle cx='8.8' cy='3.7' r='.34'/%3E%3Ccircle cx='2.15' cy='4.95' r='.34'/%3E%3Ccircle cx='4.05' cy='4.95' r='.34'/%3E%3Ccircle cx='5.95' cy='4.95' r='.34'/%3E%3Ccircle cx='7.85' cy='4.95' r='.34'/%3E%3Ccircle cx='1.2' cy='6.2' r='.34'/%3E%3Ccircle cx='3.1' cy='6.2' r='.34'/%3E%3Ccircle cx='5' cy='6.2' r='.34'/%3E%3Ccircle cx='6.9' cy='6.2' r='.34'/%3E%3Ccircle cx='8.8' cy='6.2' r='.34'/%3E%3C/g%3E%3C/svg%3E");
-    }
-    .sr-only {
-      position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
-      overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
-    }
+    .lang-switch button.on { opacity: 1; }
+    .lang-switch button:hover { opacity: .8; }
 
     /* Social icon */
     .social-icon-link {
@@ -310,7 +287,7 @@
     /* Buttons */
 .ghost-btn {
   height: 34px;
-  padding: 0 14px;
+  padding: 0 12px;
   border-radius: 4px;
   font: 500 12px var(--sans);
   border: 1px solid rgba(255,255,255,.15);
@@ -328,7 +305,7 @@
 }
 
     .primary-btn {
-      height: 34px; padding: 0 16px; border-radius: 4px;
+      height: 34px; padding: 0 14px; border-radius: 6px;
       font: 600 12px var(--sans);
       background: var(--accent); color: #fff;
       display: inline-flex; align-items: center; gap: 6px;
@@ -338,6 +315,9 @@
     .primary-btn:hover { background: var(--accent-2); transform: translateY(-1px); text-decoration: none; }
     .primary-btn.loading { opacity: .7; pointer-events: none; }
     .primary-btn svg { flex-shrink: 0; }
+    #updateBtn { margin-left: 2px; }
+    #updateBtnLabel { display: inline-block; }
+
 
     /* ── Ticker ───────────────────────────────────────────────────────── */
     .ticker {
@@ -1070,8 +1050,7 @@
     @media (max-width: 860px) {
       .header-inner { grid-template-columns: auto 1fr; height: auto; padding: 14px 24px; flex-wrap: wrap; display: flex; }
       .main-nav { order: 3; width: 100%; padding-bottom: 10px; }
-      .header-tools { margin-left: auto; width: 100%; justify-content: flex-end; }
-      .lang-switch { order: -1; }
+      .header-tools { margin-left: auto; }
       .searchbox input { width: 160px; }
       .hero-side { grid-template-columns: 1fr; }
       .story-grid { grid-template-columns: 1fr; }
@@ -1082,10 +1061,6 @@
       .ghost-btn[id="methodBtn"], .ghost-btn[id="adsBtn"] { display: none; }
     }
     @media (max-width: 600px) {
-      .header-tools { justify-content: space-between; gap: 8px; }
-      .searchbox { order: 3; width: 100%; }
-      .searchbox input { width: 100%; }
-      .lang-switch button { width: 42px; }
       .hero-content { padding: 24px 22px 20px; }
       .article-cover-content { padding: 28px 22px 24px; }
       .article-layout { padding: 22px; }
@@ -1130,9 +1105,9 @@
           <input id="searchInput" type="text" placeholder="Buscar notícias, temas ou fontes..." oninput="handleSearchInput(this.value)">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
         </label>
-        <div class="lang-switch" aria-label="Language selector">
-          <button id="langPt" type="button" onclick="setLanguage('pt')" aria-label="Português do Brasil" title="Português do Brasil"><span class="flag-mark flag-br" aria-hidden="true"></span><span class="sr-only">Português do Brasil</span></button>
-          <button id="langEn" type="button" onclick="setLanguage('en')" aria-label="American English" title="American English"><span class="flag-mark flag-us" aria-hidden="true"></span><span class="sr-only">American English</span></button>
+        <div class="lang-switch" aria-label="Selecionar idioma">
+          <button id="langPt" type="button" onclick="setLanguage('pt')">🇧🇷</button>
+          <button id="langEn" type="button" onclick="setLanguage('en')">🇺🇸</button>
         </div>
         <a class="social-icon-link" href="https://www.instagram.com/cosmos_week/" target="_blank" rel="noopener" aria-label="Instagram">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -1334,15 +1309,7 @@
   <script src="posts.js"></script>
   <script>
   const SITE = {
-    baseUrl: (() => {
-      try {
-        const url = new URL(window.location.href);
-        const cleanPath = url.pathname.replace(/[^/]*$/, '');
-        return `${url.origin}${cleanPath}`;
-      } catch (e) {
-        return 'https://marambaiajunior.github.io/cosmos-week/';
-      }
-    })(),
+    baseUrl: 'https://marambaiajunior.github.io/cosmos-week/',
     title: 'Cosmos Week',
     homeTitlePt: 'Cosmos Week — Notícias Científicas do universo',
     homeTitleEn: 'Cosmos Week — Science journalism for the universe',
@@ -1416,8 +1383,6 @@
       ],
       sourceMixLine: 'item(ns)', clickToRead: 'Abrir matéria', copyLink: 'Copiar link',
       copied: 'Link copiado.', updateDone: 'Feed atualizado.', updateFail: 'Não foi possível atualizar agora.',
-      updateNoChange: 'Nenhuma publicação nova apareceu ainda. Recarreguei a versão publicada mais recente e girei a manchete principal.',
-      updateHookWait: 'Solicitação enviada. Procurando uma build nova publicada...',
       welcome: 'Feed carregado. Cobertura atualizada.',
       backHome: 'Voltar ao início', allCategories: 'Todas',
       scoreLabel: 'Relevância editorial', evidenceLabel: 'Evidência', noveltyLabel: 'Novidade',
@@ -1477,8 +1442,6 @@
       ],
       sourceMixLine: 'item(s)', clickToRead: 'Open story', copyLink: 'Copy link',
       copied: 'Link copied.', updateDone: 'Feed refreshed.', updateFail: 'Could not refresh right now.',
-      updateNoChange: 'No newer published build was found yet. I reloaded the freshest published version and rotated the lead story.',
-      updateHookWait: 'Refresh requested. Looking for a newly published build...',
       welcome: 'Feed loaded. Broader editorial coverage with stronger section balance.',
       backHome: 'Back to home', allCategories: 'All',
       scoreLabel: 'Editorial relevance', evidenceLabel: 'Evidence', noveltyLabel: 'Novelty',
@@ -1559,11 +1522,6 @@
   let toastTimer = null;
   let heroRotationSeed = Number(sessionStorage.getItem('cw_hero_rotation_seed') || '0') || 0;
 
-  const PAGE_ALIASES = {
-    pt: { archive:'arquivo', about:'sobre', standards:'padroes', search:'busca' },
-    en: { archive:'archive', about:'about', standards:'standards', search:'search' }
-  };
-
   function persistHeroRotationSeed() {
     try { sessionStorage.setItem('cw_hero_rotation_seed', String(heroRotationSeed)); } catch (e) {}
   }
@@ -1571,60 +1529,6 @@
   function bumpHeroRotationSeed(step = 1) {
     heroRotationSeed = (heroRotationSeed + Math.max(1, step|0)) % 1000000;
     persistHeroRotationSeed();
-  }
-
-  function buildSiteUrl(params = new URLSearchParams(), lang = currentLang) {
-    const qs = new URLSearchParams(params);
-    if (lang === 'en') qs.set('lang', 'en');
-    else qs.delete('lang');
-    const query = qs.toString();
-    return SITE.baseUrl + (query ? `?${query}` : '');
-  }
-
-  function pageSlug(page, lang = currentLang) {
-    return (PAGE_ALIASES[lang] && PAGE_ALIASES[lang][page]) || (PAGE_ALIASES.pt && PAGE_ALIASES.pt[page]) || '';
-  }
-
-  function buildPageParams(page, lang = currentLang, extras = null) {
-    const params = new URLSearchParams();
-    const slug = pageSlug(page, lang);
-    if (slug) params.set('page', slug);
-    if (extras) {
-      for (const [key, value] of Object.entries(extras)) {
-        if (value !== undefined && value !== null && value !== '') params.set(key, value);
-      }
-    }
-    return params;
-  }
-
-  function currentRouteUrl(lang = currentLang) {
-    if (currentPage === 'article' && currentArticleSlug) {
-      return buildSiteUrl(new URLSearchParams({ article: currentArticleSlug }), lang);
-    }
-    if (currentPage === 'archive') return buildSiteUrl(buildPageParams('archive', lang), lang);
-    if (currentPage === 'about') return buildSiteUrl(buildPageParams('about', lang), lang);
-    if (currentPage === 'standards') return buildSiteUrl(buildPageParams('standards', lang), lang);
-    if (currentPage === 'search') {
-      const q = (document.getElementById('searchInput')?.value || '').trim();
-      return buildSiteUrl(buildPageParams('search', lang, q ? { q } : null), lang);
-    }
-    return buildSiteUrl(new URLSearchParams(), lang);
-  }
-
-  function syncLanguageLinks(url) {
-    const parsed = new URL(url, SITE.baseUrl);
-    const ptParams = new URLSearchParams(parsed.search);
-    ptParams.delete('lang');
-    const enParams = new URLSearchParams(parsed.search);
-    enParams.set('lang', 'en');
-    const ptHref = buildSiteUrl(ptParams, 'pt');
-    const enHref = buildSiteUrl(enParams, 'en');
-    const ptLink = document.getElementById('alternatePtLink');
-    const enLink = document.getElementById('alternateEnLink');
-    const xDefaultLink = document.getElementById('xDefaultLink');
-    if (ptLink) ptLink.setAttribute('href', ptHref);
-    if (enLink) enLink.setAttribute('href', enHref);
-    if (xDefaultLink) xDefaultLink.setAttribute('href', ptHref);
   }
 
   function tr(key) { return UI[currentLang][key] ?? UI.pt[key] ?? key; }
@@ -1691,13 +1595,13 @@
     return `src="${primary}" alt="${alt}" loading="${loading}" onerror="if(this.src!=='${fallback}'){this.src='${fallback}'}"`;
   }
 
-  function getURLForArticle(post, lang = currentLang) {
-    const params = new URLSearchParams({ article: post.slug });
-    return buildSiteUrl(params, lang);
+  function getURLForArticle(post) {
+    return `${SITE.baseUrl}?article=${encodeURIComponent(post.slug)}`;
   }
 
-  function pageUrl(page, lang = currentLang, extras = null) {
-    return buildSiteUrl(buildPageParams(page, lang, extras), lang);
+  function pageUrl(page) {
+    const map = { archive:'?page=arquivo', about:'?page=sobre', standards:'?page=padroes', search:'?page=busca' };
+    return SITE.baseUrl + (map[page] || '');
   }
 
   function keywordListFor(post) {
@@ -2479,7 +2383,7 @@
     else goHome();
   }
 
-  function goHome() { history.replaceState({}, '', buildSiteUrl(new URLSearchParams(), currentLang)); renderHome(); }
+  function goHome() { history.replaceState({}, '', SITE.baseUrl); renderHome(); }
 
   function openArticle(slug) {
     const post = DB.find(item => item.slug === slug);
@@ -2490,17 +2394,13 @@
   function handleSearchInput(value) {
     clearTimeout(searchTimer);
     if (!value.trim()) { if (currentPage === 'search') goHome(); return; }
-    searchTimer = setTimeout(() => {
-      history.replaceState({}, '', pageUrl('search', currentLang, { q: value.trim() }));
-      renderSearch(value.trim());
-    }, 220);
+    searchTimer = setTimeout(() => renderSearch(value.trim()), 220);
   }
 
   function setLanguage(lang) {
     currentLang = lang === 'en' ? 'en' : 'pt';
     localStorage.setItem('cw_lang', currentLang);
     applyUIStrings();
-    history.replaceState({}, '', currentRouteUrl(currentLang));
     rerenderCurrentView();
   }
 
@@ -2534,20 +2434,8 @@
       const cat = btn.dataset.cat;
       btn.textContent = cat === 'all' ? tr('allCategories') : prettyCategory(cat);
     });
-    const ptBtn = document.getElementById('langPt');
-    const enBtn = document.getElementById('langEn');
-    if (ptBtn) {
-      ptBtn.classList.toggle('on', currentLang==='pt');
-      ptBtn.setAttribute('aria-label', currentLang === 'en' ? 'Switch site to Brazilian Portuguese' : 'Português do Brasil');
-      ptBtn.setAttribute('title', currentLang === 'en' ? 'Switch site to Brazilian Portuguese' : 'Português do Brasil');
-      ptBtn.setAttribute('aria-pressed', currentLang==='pt' ? 'true' : 'false');
-    }
-    if (enBtn) {
-      enBtn.classList.toggle('on', currentLang==='en');
-      enBtn.setAttribute('aria-label', currentLang === 'en' ? 'American English' : 'Mudar o site para inglês americano');
-      enBtn.setAttribute('title', currentLang === 'en' ? 'American English' : 'Mudar o site para inglês americano');
-      enBtn.setAttribute('aria-pressed', currentLang==='en' ? 'true' : 'false');
-    }
+    document.getElementById('langPt').classList.toggle('on', currentLang==='pt');
+    document.getElementById('langEn').classList.toggle('on', currentLang==='en');
     updateLastUpdatedLabel();
   }
 
@@ -2567,122 +2455,28 @@
     toastTimer = setTimeout(() => toast.classList.remove('show'), 3200);
   }
 
-  function siteBasePath() {
-    try { return new URL(SITE.baseUrl).pathname; } catch (e) { return '/'; }
-  }
-
-  function githubRepoFromCurrentSite() {
-    const hostMatch = location.hostname.match(/^([^.]+)\.github\.io$/i);
-    if (!hostMatch) return null;
-    const pathParts = siteBasePath().replace(/^\/+|\/+$/g, '').split('/').filter(Boolean);
-    const repo = pathParts[0];
-    if (!repo) return null;
-    return { owner: hostMatch[1], repo };
-  }
-
-  function buildRefreshCandidates() {
-    const cb = Date.now();
-    const urls = [];
-    const localUrl = new URL('posts.js', SITE.baseUrl).toString();
-    urls.push(`${localUrl}?cb=${cb}`);
-    urls.push(`posts.js?cb=${cb}`);
-    const repoInfo = githubRepoFromCurrentSite();
-    if (repoInfo) {
-      ['main', 'master'].forEach(branch => {
-        urls.push(`https://raw.githubusercontent.com/${repoInfo.owner}/${repoInfo.repo}/${branch}/posts.js?cb=${cb}`);
-        urls.push(`https://cdn.jsdelivr.net/gh/${repoInfo.owner}/${repoInfo.repo}@${branch}/posts.js?cb=${cb}`);
-      });
-    }
-    return [...new Set(urls)];
-  }
-
-  async function fetchPostsFromCandidate(url) {
-    const resp = await fetch(url, { cache:'no-store' });
-    if (!resp.ok) throw new Error('fetch failed');
-    const js = await resp.text();
-    const sandboxWindow = {};
-    const parsed = Function('window', js + '; return window.postsData;')(sandboxWindow);
-    if (!Array.isArray(parsed) || !parsed.length) throw new Error('invalid posts');
-    return parsed;
-  }
-
-  function newestStampInPosts(posts = []) {
-    return posts.reduce((max, post) => Math.max(max, postTimestamp(post)), 0);
-  }
-
-  function hasFresherPublishedPosts(incoming = [], current = []) {
-    const currentBySlug = new Map((current || []).map(post => [post.slug, postTimestamp(post)]));
-    return (incoming || []).some(post => {
-      const currentStamp = currentBySlug.get(post.slug);
-      return currentStamp == null || postTimestamp(post) > currentStamp;
-    });
-  }
-
-  async function fetchFreshestPublishedPosts() {
-    let bestPosts = null;
-    let bestStamp = 0;
-    for (const candidate of buildRefreshCandidates()) {
-      try {
-        const posts = await fetchPostsFromCandidate(candidate);
-        const stamp = newestStampInPosts(posts);
-        if (!bestPosts || stamp > bestStamp || (stamp === bestStamp && posts.length > bestPosts.length)) {
-          bestPosts = posts;
-          bestStamp = stamp;
-        }
-      } catch (e) {}
-    }
-    return bestPosts;
-  }
-
-  async function maybeTriggerRefreshHook() {
-    const hookUrl = String(window.COSMOS_REFRESH_HOOK_URL || '').trim();
-    if (!hookUrl) return false;
-    try {
-      const resp = await fetch(hookUrl, { method: 'POST', mode: 'cors', cache: 'no-store' });
-      return !!resp.ok;
-    } catch (e) {
-      return false;
-    }
-  }
-
-  function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-  }
-
-  async function refreshFeed() {
+  function refreshFeed() {
     const btn = document.getElementById('updateBtn');
-    const previousDB = Array.isArray(DB) ? [...DB] : [];
     bumpHeroRotationSeed();
     btn.classList.add('loading'); btn.disabled = true;
-    try {
-      const hookTriggered = await maybeTriggerRefreshHook();
-      if (hookTriggered) showToast(tr('updateHookWait'));
-
-      let freshest = await fetchFreshestPublishedPosts();
-      let foundNew = freshest && hasFresherPublishedPosts(freshest, previousDB);
-
-      if (!foundNew && hookTriggered) {
-        for (let attempt = 0; attempt < 6; attempt += 1) {
-          await sleep(5000);
-          freshest = await fetchFreshestPublishedPosts();
-          foundNew = freshest && hasFresherPublishedPosts(freshest, previousDB);
-          if (foundNew) break;
+    fetch(`posts.js?cb=${Date.now()}`, { cache:'no-store' })
+      .then(resp => { if (!resp.ok) throw new Error('fetch failed'); return resp.text(); })
+      .then(js => {
+        const sandboxWindow = {};
+        Function('window', js + '; return window.postsData;')(sandboxWindow);
+        if (Array.isArray(sandboxWindow.postsData) && sandboxWindow.postsData.length) {
+          DB = mergePostCollections(sandboxWindow.postsData, DB);
+          persistArchiveCache();
+          updateLastUpdatedLabel();
+          rerenderCurrentView();
+          showToast(tr('updateDone'));
+        } else {
+          rerenderCurrentView();
+          showToast(tr('updateDone'));
         }
-      }
-
-      if (Array.isArray(freshest) && freshest.length) {
-        DB = mergePostCollections(freshest, DB);
-        persistArchiveCache();
-      }
-      updateLastUpdatedLabel();
-      rerenderCurrentView();
-      showToast(foundNew ? tr('updateDone') : tr('updateNoChange'));
-    } catch (e) {
-      rerenderCurrentView();
-      showToast(tr('updateFail'));
-    } finally {
-      btn.classList.remove('loading'); btn.disabled = false;
-    }
+      })
+      .catch(() => { rerenderCurrentView(); showToast(tr('updateFail')); })
+      .finally(() => { btn.classList.remove('loading'); btn.disabled = false; });
   }
 
   function copyArticleLink() {
@@ -2754,7 +2548,7 @@
   function updateMetaHome() {
     const title = currentLang==='en' ? SITE.homeTitleEn : SITE.homeTitlePt;
     const description = currentLang==='en' ? SITE.homeDescriptionEn : SITE.homeDescriptionPt;
-    updateMetaCommon(title, description, currentRouteUrl(currentLang), IMG.pillars, null, {
+    updateMetaCommon(title, description, SITE.baseUrl, IMG.pillars, null, {
       robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
       newsKeywords: 'astronomia, astrofísica, cosmologia, ciência, espaço'
     });
@@ -2821,7 +2615,6 @@
     document.querySelector('meta[name="twitter:description"]').setAttribute('content', description);
     document.querySelector('meta[name="twitter:image"]').setAttribute('content', image);
     document.getElementById('canonicalLink').setAttribute('href', url);
-    syncLanguageLinks(url);
     document.getElementById('robotsMeta').setAttribute('content', options.robots||'index,follow');
     document.getElementById('newsKeywordsMeta').setAttribute('content', options.newsKeywords||'astronomia, ciência');
     document.getElementById('articlePublishedMeta').setAttribute('content', options.published||'');
@@ -2844,24 +2637,12 @@
 
   function parseRoute() {
     const params = new URLSearchParams(window.location.search);
-    const langParam = params.get('lang');
-    if (langParam === 'en' || langParam === 'pt') {
-      currentLang = langParam;
-      localStorage.setItem('cw_lang', currentLang);
-      applyUIStrings();
-    }
     const article = params.get('article');
     const page = params.get('page');
-    const q = (params.get('q') || '').trim();
     if (article) { renderArticle(article); return; }
-    if (page === 'arquivo' || page === 'archive') { renderArchive(); return; }
-    if (page === 'sobre' || page === 'about') { renderAbout(); return; }
-    if (page === 'padroes' || page === 'standards') { renderStandards(); return; }
-    if (page === 'busca' || page === 'search' || q) {
-      const input = document.getElementById('searchInput');
-      if (input) input.value = q;
-      if (q) { renderSearch(q); return; }
-    }
+    if (page==='arquivo') { renderArchive(); return; }
+    if (page==='sobre')   { renderAbout();   return; }
+    if (page==='padroes') { renderStandards(); return; }
     renderHome();
   }
 
@@ -2880,7 +2661,6 @@
     initCookieBanner();
     persistArchiveCache();
     parseRoute();
-    syncLanguageLinks(currentRouteUrl(currentLang));
     setTimeout(() => showToast(tr('welcome')), 900);
   });
   </script>
