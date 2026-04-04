@@ -1375,7 +1375,12 @@
       .sort((a, b) => String(b.publishedIso || '').localeCompare(String(a.publishedIso || '')));
   }
 
-  const ARCHIVE_CACHE_KEY = 'cw_archive_cache_v5';
+  const ARCHIVE_CACHE_KEY = 'cw_archive_cache_v6';
+  const DEMO_SLUGS = new Set(['portal-restaurado-automacao-editorial','revisao-final-em-portugues-via-gemini','materias-agora-distribuem-imagens-e-videos']);
+
+  function hasRealPosts(posts) {
+    return Array.isArray(posts) && posts.length > 0 && posts.some(post => post && post.slug && !DEMO_SLUGS.has(post.slug));
+  }
 
   function postRichnessScore(post) {
     return [
@@ -1418,29 +1423,32 @@
     return merged;
   }
 
-  let DB = hydrateArchive(window.postsData || []);
+  let DB = hasRealPosts(window.postsData) ? hydrateArchive(window.postsData || []) : [];
 
   async function fetchFreshPosts() {
+    const stamp = Date.now();
     const urls = [
-      `posts.json?cb=${Date.now()}`,
-      `posts.js?cb=${Date.now()}`
+      `${SITE.baseUrl}posts.json?cb=${stamp}`,
+      `${SITE.baseUrl}posts.js?cb=${stamp}`
     ];
     for (const url of urls) {
       try {
-        const resp = await fetch(url, { cache: 'no-store' });
-        if (!resp.ok) throw new Error('fetch failed');
+        const resp = await fetch(url, { cache: 'no-store', headers: { 'Cache-Control': 'no-cache' } });
+        if (!resp.ok) throw new Error(`fetch failed: ${resp.status}`);
         if (url.includes('posts.json')) {
           const data = await resp.json();
-          if (Array.isArray(data) && data.length) return normalizePosts(data);
+          if (hasRealPosts(data)) return normalizePosts(data);
         } else {
           const js = await resp.text();
           const sandboxWindow = {};
           Function('window', js + '; return window.postsData;')(sandboxWindow);
-          if (Array.isArray(sandboxWindow.postsData) && sandboxWindow.postsData.length) {
+          if (hasRealPosts(sandboxWindow.postsData)) {
             return normalizePosts(sandboxWindow.postsData);
           }
         }
-      } catch (e) {}
+      } catch (e) {
+        console.warn('Cosmos Week feed fetch failed:', url, e);
+      }
     }
     return null;
   }
@@ -1449,6 +1457,7 @@
     const fresh = await fetchFreshPosts();
     if (!fresh || !fresh.length) return false;
     DB = fresh;
+    window.postsData = fresh;
     persistArchiveCache();
     updateLastUpdatedLabel();
     if (initial) parseRoute();
@@ -2184,7 +2193,7 @@
     const latest = DB[0];
     const stamp = latest
       ? `${currentLang==='en'?(latest.date_en||latest.date):(latest.date_pt||latest.date)} · ${currentLang==='en'?(latest.time_en||latest.time):(latest.time_pt||latest.time)}`
-      : tr('latestFeed');
+      : (currentLang === 'en' ? 'feed unavailable' : 'feed indisponível');
     const el = document.getElementById('lastUpdatedLabel');
     if (el) el.textContent = `${tr('lastUpdatedPrefix')} ${stamp}`;
   }
@@ -2385,10 +2394,19 @@
     applyUIStrings();
     loadSavedNewsletterEmail();
     initCookieBanner();
-    persistArchiveCache();
-    parseRoute();
-    await syncFreshPosts(true);
-    setTimeout(() => showToast(tr('welcome')), 900);
+    if (hasRealPosts(window.postsData)) persistArchiveCache();
+    const ok = await syncFreshPosts(true);
+    if (!ok) {
+      if (hasRealPosts(window.postsData)) {
+        DB = normalizePosts(window.postsData);
+        persistArchiveCache();
+      } else {
+        try { localStorage.removeItem(ARCHIVE_CACHE_KEY); } catch (e) {}
+        DB = [];
+      }
+      parseRoute();
+    }
+    setTimeout(() => showToast(ok ? tr('welcome') : tr('updateFail')), 900);
   });
   </script>
 </body>
