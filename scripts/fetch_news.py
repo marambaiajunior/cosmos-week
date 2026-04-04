@@ -3,7 +3,6 @@ import html
 import json
 import os
 import re
-import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -40,13 +39,7 @@ MAX_PAGE_FETCHES = 42
 PAGE_TEXT_MAX_PARAGRAPHS = 24
 FULL_TEXT_LIMIT = 9000
 MAX_FACT_SENTENCES = 14
-
-# Revisão final opcional via Gemini
-GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '').strip()
-GEMINI_ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent'
-GEMINI_TIMEOUT = 35
-GEMINI_ENABLED = bool(GEMINI_API_KEY)
-GEMINI_MAX_BODY_CHARS = 24000
+MIN_PUBLISHABLE_POSTS = 3
 
 NS = {
     'atom': 'http://www.w3.org/2005/Atom',
@@ -303,7 +296,6 @@ SOURCES = [
 TRANSLATION_CACHE: dict[tuple[str, str], str] = {}
 PAGE_CACHE: dict[str, str] = {}
 IMAGE_CACHE: dict[str, Optional[str]] = {}
-MEDIA_CACHE: dict[str, list[dict]] = {}
 PAGE_FETCHES = 0
 
 
@@ -598,27 +590,6 @@ def extract_page_text(url: str) -> str:
     return truncate(merged, FULL_TEXT_LIMIT)
 
 
-def fetch_page_media(url: str) -> list[dict]:
-    if not url:
-        return []
-    if url in MEDIA_CACHE:
-        return MEDIA_CACHE[url]
-    page = fetch_page_html(url)
-    if not page:
-        MEDIA_CACHE[url] = []
-        return []
-
-    media = extract_media_from_html(page, url, limit_images=6, limit_videos=3)
-
-    for match in re.finditer(r"<meta[^>]+property=[\"']og:video(?::url)?[\"'][^>]+content=[\"']([^\"']+)[\"']", page, flags=re.I):
-        src = clean_image_url(urllib.parse.urljoin(url, match.group(1).strip()))
-        if src and video_url_looks_good(src):
-            media.append({'type': 'video', 'src': src})
-
-    MEDIA_CACHE[url] = unique_media(media, 8)
-    return MEDIA_CACHE[url]
-
-
 def fetch_page_image(url: str) -> Optional[str]:
     if not url:
         return None
@@ -646,66 +617,129 @@ def fetch_page_image(url: str) -> Optional[str]:
     return inline
 
 
-def extract_rss_media(item: ET.Element, link: str, description_html: str) -> list[dict]:
-    media = []
+def extract_rss_image(item: ET.Element, link: str, description_html: str) -> Optional[str]:
+    candidates = []
     for tag in ('enclosure', '{http://search.yahoo.com/mrss/}content', '{http://search.yahoo.com/mrss/}thumbnail'):
         for element in item.findall(tag):
             url = clean_image_url(element.get('url', ''))
-            if not url:
-                continue
-            kind = (element.get('type') or '').lower()
-            if kind.startswith('video/') or (video_url_looks_good(url) and not image_url_looks_good(url)):
-                media.append({'type': 'video', 'src': url})
-            else:
-                media.append({'type': 'image', 'src': url})
+            if url:
+                candidates.append(url)
     for tag_name in ('description', '{http://purl.org/rss/1.0/modules/content/}encoded'):
         raw_html = item.findtext(tag_name, default='') or ''
-        media.extend(extract_media_from_html(raw_html, link, limit_images=5, limit_videos=2))
-    media.extend(extract_media_from_html(description_html, link, limit_images=5, limit_videos=2))
-    return unique_media(media, 8)
-
-
-def extract_rss_image(item: ET.Element, link: str, description_html: str) -> Optional[str]:
-    for media in extract_rss_media(item, link, description_html):
-        if media.get('type') == 'image' and image_url_looks_good(media.get('src', '')):
-            return media['src']
+        image = find_first_image_in_html(raw_html, link)
+        if image:
+            candidates.append(image)
+    desc_image = find_first_image_in_html(description_html, link)
+    if desc_image:
+        candidates.append(desc_image)
+    for candidate in unique_keep_order(candidates):
+        if image_url_looks_good(candidate):
+            return candidate
     return None
 
 
-def extract_atom_media(entry: ET.Element, link: str, summary_html: str) -> list[dict]:
-    media = []
+def extract_atom_image(entry: ET.Element, link: str, summary_html: str) -> Optional[str]:
+    candidates = []
     for link_el in entry.findall('atom:link', NS):
         rel = (link_el.get('rel') or 'alternate').lower()
         href = clean_image_url(link_el.get('href', ''))
         media_type = (link_el.get('type') or '').lower()
-        if not href:
-            continue
-        if rel == 'enclosure' or media_type.startswith('video/'):
-            media.append({'type': 'video', 'src': href})
-        elif media_type.startswith('image/'):
-            media.append({'type': 'image', 'src': href})
+        if href and (rel == 'enclosure' or media_type.startswith('image/')):
+            candidates.append(href)
     for media_tag in ('media:content', 'media:thumbnail'):
         for element in entry.findall(media_tag, NS):
             url = clean_image_url(element.get('url', ''))
-            if not url:
-                continue
-            kind = (element.get('type') or '').lower()
-            if kind.startswith('video/') or (video_url_looks_good(url) and not image_url_looks_good(url)):
-                media.append({'type': 'video', 'src': url})
-            else:
-                media.append({'type': 'image', 'src': url})
+            if url:
+                candidates.append(url)
     for field in ('atom:summary', 'atom:content'):
         html_field = entry.findtext(field, default='', namespaces=NS) or ''
-        media.extend(extract_media_from_html(html_field, link, limit_images=5, limit_videos=2))
-    media.extend(extract_media_from_html(summary_html, link, limit_images=5, limit_videos=2))
-    return unique_media(media, 8)
-
-
-def extract_atom_image(entry: ET.Element, link: str, summary_html: str) -> Optional[str]:
-    for media in extract_atom_media(entry, link, summary_html):
-        if media.get('type') == 'image' and image_url_looks_good(media.get('src', '')):
-            return media['src']
+        image = find_first_image_in_html(html_field, link)
+        if image:
+            candidates.append(image)
+    summary_image = find_first_image_in_html(summary_html, link)
+    if summary_image:
+        candidates.append(summary_image)
+    for candidate in unique_keep_order(candidates):
+        if image_url_looks_good(candidate):
+            return candidate
     return None
+
+
+# ── Feed parsers ──────────────────────────────────────────────────────────────
+
+def parse_rss(xml_bytes: bytes, source: SourceConfig) -> list[dict]:
+    root = ET.fromstring(xml_bytes)
+    items = []
+    for item in root.findall('.//item'):
+        title = strip_html(item.findtext('title', default=''))
+        link = collapse_ws(item.findtext('link', default=''))
+        description_html = item.findtext('description', default='') or ''
+        content_html = item.findtext('{http://purl.org/rss/1.0/modules/content/}encoded', default='') or description_html
+        summary = strip_html(description_html or content_html)
+        full_text = truncate(strip_html(content_html or description_html), FULL_TEXT_LIMIT)
+        pub = item.findtext('pubDate', default='') or item.findtext('{http://purl.org/dc/elements/1.1/}date', default='')
+        if not title or not link:
+            continue
+        items.append({
+            'title': title,
+            'link': link,
+            'summary': truncate(summary, 460),
+            'full_text': full_text or summary,
+            'published': parse_date(pub),
+            'source': source.name,
+            'source_type': source.source_type,
+            'source_priority': source.priority,
+            'feed_img': extract_rss_image(item, link, description_html),
+        })
+    return items
+
+
+def parse_atom(xml_bytes: bytes, source: SourceConfig) -> list[dict]:
+    root = ET.fromstring(xml_bytes)
+    items = []
+    for entry in root.findall('atom:entry', NS):
+        title = strip_html(entry.findtext('atom:title', default='', namespaces=NS))
+        summary_html = entry.findtext('atom:summary', default='', namespaces=NS) or ''
+        content_html = entry.findtext('atom:content', default='', namespaces=NS) or summary_html
+        summary = strip_html(summary_html or content_html)
+        full_text = truncate(strip_html(content_html or summary_html), FULL_TEXT_LIMIT)
+        published = entry.findtext('atom:published', default='', namespaces=NS) or entry.findtext('atom:updated', default='', namespaces=NS)
+        link = ''
+        for link_el in entry.findall('atom:link', NS):
+            href = collapse_ws(link_el.get('href', ''))
+            rel = link_el.get('rel', 'alternate')
+            if href and rel == 'alternate':
+                link = href
+                break
+        if not title or not link:
+            continue
+        items.append({
+            'title': title,
+            'link': link,
+            'summary': truncate(summary, 460),
+            'full_text': full_text or summary,
+            'published': parse_date(published),
+            'source': source.name,
+            'source_type': source.source_type,
+            'source_priority': source.priority,
+            'feed_img': extract_atom_image(entry, link, summary_html or content_html),
+        })
+    return items
+
+
+# ── Classification & scoring ──────────────────────────────────────────────────
+
+def classify_category(text: str, source_name: str) -> str:
+    low = normalize_text(f'{source_name} {text}')
+    for category, keywords in CATEGORY_RULES:
+        if any(keyword in low for keyword in keywords):
+            return category
+    return 'Astronomia'
+
+
+def cat_cls(category: str) -> str:
+    low = normalize_text(category).replace(' ', '-')
+    return 'terra' if low == 'ciencias-da-terra' else low
 
 
 def infer_thematic_image(title: str, summary: str, source_name: str, category: str) -> str:
@@ -1013,167 +1047,6 @@ def translate_text(text: str, target_lang: str) -> str:
     return text
 
 
-
-def _extract_gemini_text(payload: dict) -> str:
-    for candidate in payload.get('candidates', []) or []:
-        content = candidate.get('content') or {}
-        for part in content.get('parts', []) or []:
-            value = (part or {}).get('text', '')
-            if value:
-                return value.strip()
-    return ''
-
-
-def _extract_first_json_object(text: str) -> Optional[dict]:
-    text = (text or '').strip()
-    if not text:
-        return None
-    try:
-        obj = json.loads(text)
-        return obj if isinstance(obj, dict) else None
-    except Exception:
-        pass
-    fence = re.search(r'```(?:json)?\s*(\{.*?\})\s*```', text, flags=re.S | re.I)
-    if fence:
-        try:
-            obj = json.loads(fence.group(1))
-            return obj if isinstance(obj, dict) else None
-        except Exception:
-            pass
-    start = text.find('{')
-    if start == -1:
-        return None
-    depth = 0
-    in_string = False
-    escape = False
-    for i in range(start, len(text)):
-        ch = text[i]
-        if in_string:
-            if escape:
-                escape = False
-            elif ch == '\\':
-                escape = True
-            elif ch == '"':
-                in_string = False
-            continue
-        if ch == '"':
-            in_string = True
-        elif ch == '{':
-            depth += 1
-        elif ch == '}':
-            depth -= 1
-            if depth == 0:
-                snippet = text[start:i + 1]
-                try:
-                    obj = json.loads(snippet)
-                    return obj if isinstance(obj, dict) else None
-                except Exception:
-                    return None
-    return None
-
-
-def _html_signature(text: str) -> dict:
-    text = text or ''
-    tags = ['p', 'figure', 'figcaption', 'img', 'video', 'iframe', 'source', 'a']
-    signature = {f'tag_{tag}': len(re.findall(rf'<{tag}\b', text, flags=re.I)) for tag in tags}
-    signature['srcs'] = re.findall(r'\bsrc=["\']([^"\']+)["\']', text, flags=re.I)
-    signature['hrefs'] = re.findall(r'\bhref=["\']([^"\']+)["\']', text, flags=re.I)
-    return signature
-
-
-def _body_review_is_safe(original: str, reviewed: str) -> bool:
-    original = original or ''
-    reviewed = reviewed or ''
-    if not reviewed or len(reviewed) < max(80, len(original) * 0.55):
-        return False
-    sig_a = _html_signature(original)
-    sig_b = _html_signature(reviewed)
-    for key in [k for k in sig_a.keys() if k.startswith('tag_')]:
-        if sig_a[key] != sig_b.get(key):
-            return False
-    if sig_a['srcs'] != sig_b.get('srcs', []):
-        return False
-    if sig_a['hrefs'] != sig_b.get('hrefs', []):
-        return False
-    return True
-
-
-def review_portuguese_package(title_pt: str, summary_pt: str, body_pt: str) -> tuple[str, str, str]:
-    if not GEMINI_ENABLED:
-        return title_pt, summary_pt, body_pt
-
-    title_pt = collapse_ws(title_pt)
-    summary_pt = collapse_ws(summary_pt)
-    body_pt = (body_pt or '').strip()
-    if len(body_pt) > GEMINI_MAX_BODY_CHARS:
-        return title_pt, summary_pt, body_pt
-
-    cache_key = hashlib.sha256(json.dumps({
-        'title': title_pt, 'summary': summary_pt, 'body': body_pt
-    }, ensure_ascii=False, sort_keys=True).encode('utf-8')).hexdigest()
-    cached = REVIEW_CACHE.get(cache_key)
-    if cached:
-        return cached['title'], cached['summary'], cached['body']
-
-    package = {
-        'title': title_pt,
-        'summary': summary_pt,
-        'body': body_pt,
-    }
-    prompt = (
-        'Você é revisor final do portal Cosmos Week. Revise APENAS o português do pacote JSON abaixo. '
-        'Corrija ortografia, gramática, pontuação, coesão, fluidez, repetições muito óbvias e frases truncadas. '
-        'Traduza para português apenas pequenos trechos acidentalmente deixados em inglês. '
-        'NÃO invente fatos. NÃO acrescente informações. NÃO mude nomes próprios, números, datas, unidades, siglas ou links. '
-        'NÃO remova nem adicione tags HTML. Preserve exatamente a estrutura HTML do campo body, incluindo <p>, <figure>, <img>, <video>, <iframe>, <figcaption>, atributos src e href. '
-        'Evite a fórmula repetitiva “Isso importa porque”. '
-        'Retorne somente JSON válido com as chaves title, summary e body.\n\n'
-        f'JSON de entrada:\n{json.dumps(package, ensure_ascii=False)}'
-    )
-    payload = json.dumps({
-        'contents': [{'parts': [{'text': prompt}]}],
-        'generationConfig': {
-            'temperature': 0.1,
-            'topP': 0.2,
-            'topK': 20,
-            'maxOutputTokens': 8192,
-            'responseMimeType': 'application/json',
-        },
-    }).encode('utf-8')
-    url = f'{GEMINI_ENDPOINT}?key={urllib.parse.quote(GEMINI_API_KEY)}'
-
-    reviewed_title, reviewed_summary, reviewed_body = title_pt, summary_pt, body_pt
-    try:
-        req = urllib.request.Request(
-            url, data=payload, method='POST',
-            headers={'Content-Type': 'application/json', 'User-Agent': USER_AGENT}
-        )
-        with urllib.request.urlopen(req, timeout=GEMINI_TIMEOUT) as response:
-            raw = response.read()
-        response_payload = json.loads(raw.decode('utf-8', errors='ignore'))
-        text_response = _extract_gemini_text(response_payload)
-        parsed = _extract_first_json_object(text_response)
-        if isinstance(parsed, dict):
-            candidate_title = collapse_ws(str(parsed.get('title', '') or ''))
-            candidate_summary = collapse_ws(str(parsed.get('summary', '') or ''))
-            candidate_body = str(parsed.get('body', '') or '').strip()
-
-            if candidate_title and len(candidate_title) >= max(18, len(title_pt) // 2):
-                reviewed_title = candidate_title
-            if candidate_summary and len(candidate_summary) >= max(40, len(summary_pt) // 2):
-                reviewed_summary = candidate_summary
-            if _body_review_is_safe(body_pt, candidate_body):
-                reviewed_body = candidate_body
-    except Exception as exc:
-        print(f'  GEMINI falhou: {exc}')
-
-    REVIEW_CACHE[cache_key] = {
-        'title': reviewed_title,
-        'summary': reviewed_summary,
-        'body': reviewed_body,
-    }
-    return reviewed_title, reviewed_summary, reviewed_body
-
 def distinct_facts(facts: list[str], limit: int = 4) -> list[str]:
     out = []
     seen = set()
@@ -1260,8 +1133,7 @@ def _fact_clause(text: str, limit: int = 175) -> str:
     text = re.sub(r'https?://\S+', ' ', text, flags=re.I)
     text = re.sub(r'\b10\.\d{4,9}/\S+\b', ' ', text, flags=re.I)
     text = re.sub(r'\s+', ' ', text).strip()
-    text = _trim_dangling_tail(truncate(text, limit))
-    return text.rstrip(' .;:,') + '.' if text else ''
+    return truncate(text, limit).rstrip(' .;:,') + '.' if text else ''
 
 
 def _fact_bank(facts: list[str], summary: str) -> list[str]:
@@ -1282,17 +1154,6 @@ def _clean_fact_sentence(text: str, limit: int = 180) -> str:
 def _fact_for_paragraph(text: str, limit: int = 180, lower: bool = False) -> str:
     cleaned = _clean_fact_sentence(text, limit)
     return _lc(cleaned) if lower and cleaned else cleaned
-
-
-def _trim_dangling_tail(text: str) -> str:
-    text = collapse_ws(text).rstrip(' .,:;:-')
-    dangling = r'(?:and|or|with|for|from|to|of|in|on|at|by|via|as|than|that|which|de|da|do|das|dos|em|na|no|nas|nos|para|com|por|e|ou)$'
-    for _ in range(3):
-        updated = re.sub(rf'\b{dangling}', '', text, flags=re.I).strip().rstrip(' .,:;:-')
-        if updated == text:
-            break
-        text = updated
-    return text
 
 
 def _join_sentences(sentences: list[str]) -> str:
@@ -1323,7 +1184,7 @@ def _intro_connector(lang: str, source_type: str) -> str:
     }[source_type]
 
 
-def _context_bridge(category: str, lang: str, seed: str = '') -> str:
+def _context_bridge(category: str, lang: str) -> str:
     en = {
         'Astronomia': (
             'That matters because astronomy does not advance on single detections. '
@@ -1473,24 +1334,7 @@ def _context_bridge(category: str, lang: str, seed: str = '') -> str:
         ),
     }
     d = en if lang == 'en' else pt
-    bridge = d.get(category, d['Astronomia'])
-    if lang == 'pt' and bridge.startswith('Isso importa porque'):
-        opener = stable_pick([
-            'Isso importa porque',
-            'A relevância científica aparece porque',
-            'O ponto decisivo aqui é que',
-            'O interesse real desse resultado surge porque',
-        ], f'{seed}|{category}|{lang}|context')
-        bridge = opener + bridge[len('Isso importa porque'):]
-    if lang == 'en' and bridge.startswith('That matters because'):
-        opener = stable_pick([
-            'That matters because',
-            'The scientific relevance becomes clearer because',
-            'The key point is that',
-            'The deeper interest here is that',
-        ], f'{seed}|{category}|{lang}|context')
-        bridge = opener + bridge[len('That matters because'):]
-    return bridge
+    return d.get(category, d['Astronomia'])
 
 
 def _significance_bridge(category: str, lang: str) -> str:
@@ -1917,7 +1761,7 @@ def build_body(title: str, summary: str, facts: list[str], category: str, source
 
     # P2: Contexto + 2 primeiros fatos de detalhe
     if detail_bank:
-        p2_bits = [_context_bridge(category, lang, f'{title}|{source}|{source_type}')]
+        p2_bits = [_context_bridge(category, lang)]
         p2_bits.append(_fact_for_paragraph(detail_bank[0], 200))
         if len(detail_bank) > 1:
             p2_bits.append(_fact_for_paragraph(detail_bank[1], 200))
@@ -2012,38 +1856,6 @@ def choose_post_image(item: dict, category: str) -> str:
     return infer_thematic_image(item.get('title', ''), item.get('summary', ''), item.get('source', ''), category)
 
 
-def _first_media_image(media: list[dict]) -> Optional[str]:
-    for item in media:
-        if item.get('type') == 'image' and image_url_looks_good(item.get('src', '')):
-            return item.get('src')
-    return None
-
-
-def assemble_post_media(item: dict, hero_image: str) -> list[dict]:
-    media = []
-    media.extend(item.get('feed_media') or [])
-    if item.get('source_type') != 'preprint':
-        media.extend(fetch_page_media(item.get('link', '')))
-    cleaned = unique_media(media, 8)
-    hero = (hero_image or '').strip()
-    if hero:
-        cleaned = [m for m in cleaned if m.get('src') != hero]
-    images = 0
-    videos = 0
-    trimmed = []
-    for m in cleaned:
-        if m.get('type') == 'image':
-            if images >= 4:
-                continue
-            images += 1
-        else:
-            if videos >= 2:
-                continue
-            videos += 1
-        trimmed.append(m)
-    return trimmed
-
-
 # ── Post assembly ─────────────────────────────────────────────────────────────
 
 def to_post(item: dict, idx: int, regular_rank: int) -> dict:
@@ -2063,17 +1875,10 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
     highlights_pt = build_highlights(title_pt, summary_pt, facts_pt, item['source_type'], 'pt')
     body_pt = build_body(title_pt, summary_pt, facts_pt, category, item['source'], item['source_type'], 'pt', src_url)
 
-    if GEMINI_ENABLED:
-        title_pt, summary_pt, body_pt = review_portuguese_package(title_pt, summary_pt, body_pt)
-        highlights_pt = build_highlights(title_pt, summary_pt, facts_pt, item['source_type'], 'pt')
-        time.sleep(0.35)
-
     dt = item['published']
     slug = slugify(title_en)
     canonical = f'{SITE_URL}?article={slug}'
-    feed_media = unique_media(item.get('feed_media') or [], 8)
-    image = _first_media_image(feed_media) or choose_post_image(item, category)
-    media = assemble_post_media(item, image)
+    image = choose_post_image(item, category)
     is_featured = item['source_type'] != 'preprint' and regular_rank < 3 and profile['band'] in ('flagship', 'high')
     is_trending = item['source_type'] != 'preprint' and regular_rank < 6
     evidence_key = profile['evidence_key']
@@ -2095,7 +1900,6 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
         'cat': category,
         'catCls': cat_cls(category),
         'img': image,
-        'media': media,
         'title': title_pt,
         'title_pt': title_pt,
         'title_en': title_en,
@@ -2266,6 +2070,10 @@ def main() -> None:
         if item['source_type'] != 'preprint':
             regular_rank += 1
         posts.append(to_post(item, idx, current_rank))
+
+    if len(posts) < MIN_PUBLISHABLE_POSTS:
+        raise SystemExit(f'Abortado: apenas {len(posts)} posts gerados. Preservando os arquivos atuais.')
+
     save_posts(posts)
     counts_type = Counter(post['sourceType'] for post in posts)
     counts_cat = Counter(post['cat'] for post in posts)
@@ -2275,147 +2083,6 @@ def main() -> None:
     for cat, n in sorted(counts_cat.items(), key=lambda x: -x[1]):
         print(f'  {cat}: {n}')
     print(f'\nBase do site: {SITE_URL}')
-
-
-def video_url_looks_good(url: str) -> bool:
-    low = normalize_text(url)
-    if any(bad in low for bad in ('logo', 'favicon', 'avatar', 'placeholder', 'sprite', 'icon', 'banner_ad')):
-        return False
-    if re.search(r'\.(mp4|webm|ogg|m3u8)(?:$|[?#])', low):
-        return True
-    return any(host in low for host in (
-        'youtube.com/embed/', 'youtube-nocookie.com/embed/', 'youtu.be/',
-        'player.vimeo.com/video/', 'vimeo.com/', 'brightcove', 'jwplayer'
-    ))
-
-
-def iframe_url_looks_good(url: str) -> bool:
-    low = normalize_text(url)
-    return any(host in low for host in (
-        'youtube.com/embed/', 'youtube-nocookie.com/embed/', 'youtu.be/',
-        'player.vimeo.com/video/', 'vimeo.com/', 'brightcove', 'jwplayer'
-    ))
-
-
-def normalize_embed_url(url: str) -> Optional[str]:
-    url = clean_image_url(url)
-    if not url:
-        return None
-    try:
-        parsed = urllib.parse.urlparse(url)
-    except Exception:
-        return url
-    host = parsed.netloc.lower()
-    if host.endswith('youtu.be'):
-        video_id = parsed.path.strip('/').split('/')[0]
-        if video_id:
-            return f'https://www.youtube.com/embed/{video_id}'
-    if 'youtube.com' in host and '/watch' in parsed.path:
-        q = urllib.parse.parse_qs(parsed.query)
-        video_id = (q.get('v') or [''])[0]
-        if video_id:
-            return f'https://www.youtube.com/embed/{video_id}'
-    if 'vimeo.com' in host and 'player.vimeo.com' not in host:
-        video_id = parsed.path.strip('/').split('/')[0]
-        if video_id.isdigit():
-            return f'https://player.vimeo.com/video/{video_id}'
-    return url
-
-
-def _attr_value(tag: str, attr: str) -> str:
-    match = re.search(rf"{attr}=[\"']([^\"']+)[\"']", tag, flags=re.I)
-    return html.unescape(match.group(1).strip()) if match else ''
-
-
-def unique_media(items: list[dict], limit: int = 8) -> list[dict]:
-    out = []
-    seen = set()
-    for item in items:
-        if not isinstance(item, dict):
-            continue
-        kind = (item.get('type') or '').strip().lower()
-        src = (item.get('src') or '').strip()
-        if kind not in {'image', 'video', 'embed'} or not src:
-            continue
-        key = f'{kind}|{src}'
-        if key in seen:
-            continue
-        seen.add(key)
-        clean_item = {'type': kind, 'src': src}
-        caption = collapse_ws(item.get('caption', ''))
-        if caption:
-            clean_item['caption'] = truncate(caption, 220)
-        poster = clean_image_url(item.get('poster', '') or '')
-        if poster:
-            clean_item['poster'] = poster
-        out.append(clean_item)
-        if len(out) >= limit:
-            break
-    return out
-
-
-def extract_media_from_html(fragment: str, base_url: str = '', limit_images: int = 6, limit_videos: int = 3) -> list[dict]:
-    if not fragment:
-        return []
-    media = []
-
-    for match in re.finditer(r'<img\b[^>]*>', fragment, flags=re.I):
-        tag = match.group(0)
-        src = _attr_value(tag, 'src') or _attr_value(tag, 'data-src') or _attr_value(tag, 'data-lazy-src')
-        if not src:
-            continue
-        if base_url:
-            src = urllib.parse.urljoin(base_url, src)
-        src = clean_image_url(src)
-        if not src or not image_url_looks_good(src):
-            continue
-        caption = _attr_value(tag, 'alt') or _attr_value(tag, 'title')
-        media.append({'type': 'image', 'src': src, 'caption': caption})
-        if sum(1 for item in media if item.get('type') == 'image') >= limit_images:
-            break
-
-    for match in re.finditer(r'<video\b([^>]*)>(.*?)</video>', fragment, flags=re.I | re.S):
-        attrs = match.group(1) or ''
-        inner = match.group(2) or ''
-        src = _attr_value(attrs, 'src')
-        if not src:
-            source_match = re.search(r"<source[^>]+src=[\"']([^\"']+)[\"']", inner, flags=re.I)
-            if source_match:
-                src = source_match.group(1).strip()
-        if not src:
-            continue
-        if base_url:
-            src = urllib.parse.urljoin(base_url, src)
-        src = clean_image_url(src)
-        if not src or not video_url_looks_good(src):
-            continue
-        poster = _attr_value(attrs, 'poster')
-        if base_url and poster:
-            poster = urllib.parse.urljoin(base_url, poster)
-        media.append({'type': 'video', 'src': src, 'poster': poster})
-        if sum(1 for item in media if item.get('type') in {'video', 'embed'}) >= limit_videos:
-            break
-
-    for match in re.finditer(r"<iframe\b[^>]+src=[\"']([^\"']+)[\"'][^>]*>", fragment, flags=re.I):
-        src = match.group(1).strip()
-        if base_url:
-            src = urllib.parse.urljoin(base_url, src)
-        src = normalize_embed_url(src)
-        if not src or not iframe_url_looks_good(src):
-            continue
-        media.append({'type': 'embed', 'src': src})
-        if sum(1 for item in media if item.get('type') in {'video', 'embed'}) >= limit_videos:
-            break
-
-    for match in re.finditer(r"(https?://[^\s\"']+\.(?:mp4|webm|ogg|m3u8)(?:\?[^\s\"']*)?)", fragment, flags=re.I):
-        src = clean_image_url(match.group(1).strip())
-        if src and video_url_looks_good(src):
-            media.append({'type': 'video', 'src': src})
-            if sum(1 for item in media if item.get('type') in {'video', 'embed'}) >= limit_videos:
-                break
-
-    return unique_media(media, limit_images + limit_videos)
-
 
 if __name__ == '__main__':
     main()
