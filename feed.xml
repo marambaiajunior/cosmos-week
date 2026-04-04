@@ -5,38 +5,208 @@
     <link>https://marambaiajunior.github.io/cosmos-week/</link>
     <description>Portal de jornalismo científico com foco em astronomia, astrofísica, cosmologia e ciência de fronteira.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 04 Apr 2026 14:45:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 15:13:02 +0000</lastBuildDate>
     <generator>CosmosWeekBot 5.0</generator>
     <item>
-  <title>Portal restaurado: automação volta a publicar sem apagar o acervo</title>
-  <link>https://marambaiajunior.github.io/cosmos-week/?article=portal-restaurado-automacao-editorial</link>
-  <guid>https://marambaiajunior.github.io/cosmos-week/?article=portal-restaurado-automacao-editorial</guid>
-  <pubDate>Sat, 04 Apr 2026 14:45:00 +0000</pubDate>
-  <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
-  <description>O Cosmos Week recebeu uma correção estrutural para impedir que execuções com feed vazio apaguem as matérias já publicadas.</description>
-  <category>Astronomia</category><category>Cosmos Week</category><category>automação editorial</category><category>Gemini</category>
-  <source url="https://marambaiajunior.github.io/cosmos-week/?article=portal-restaurado-automacao-editorial">Cosmos Week</source>
-  <content:encoded>O Cosmos Week recebeu uma correção estrutural para impedir que execuções com feed vazio apaguem as matérias já publicadas.</content:encoded>
-</item><item>
-  <title>Revisão final em português via Gemini entra no pipeline editorial</title>
-  <link>https://marambaiajunior.github.io/cosmos-week/?article=revisao-final-em-portugues-via-gemini</link>
-  <guid>https://marambaiajunior.github.io/cosmos-week/?article=revisao-final-em-portugues-via-gemini</guid>
-  <pubDate>Sat, 04 Apr 2026 11:45:00 +0000</pubDate>
-  <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
-  <description>Antes da publicação, cada matéria agora pode passar por uma revisão final de português usando a chave GEMINI_API_KEY já guardada nos secrets do GitHub.</description>
-  <category>Física</category><category>Cosmos Week</category><category>automação editorial</category><category>Gemini</category>
-  <source url="https://marambaiajunior.github.io/cosmos-week/?article=revisao-final-em-portugues-via-gemini">Cosmos Week</source>
-  <content:encoded>Antes da publicação, cada matéria agora pode passar por uma revisão final de português usando a chave GEMINI_API_KEY já guardada nos secrets do GitHub.</content:encoded>
-</item><item>
-  <title>Matérias agora distribuem imagens e vídeos ao longo do texto</title>
-  <link>https://marambaiajunior.github.io/cosmos-week/?article=midias-distribuidas-no-corpo-das-materias</link>
-  <guid>https://marambaiajunior.github.io/cosmos-week/?article=midias-distribuidas-no-corpo-das-materias</guid>
-  <pubDate>Sat, 04 Apr 2026 08:45:00 +0000</pubDate>
-  <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
-  <description>A renderização do artigo foi ajustada para inserir as mídias ao longo da leitura, em vez de despejar tudo no final da página.</description>
-  <category>Astrofísica</category><category>Cosmos Week</category><category>automação editorial</category><category>Gemini</category>
-  <source url="https://marambaiajunior.github.io/cosmos-week/?article=midias-distribuidas-no-corpo-das-materias">Cosmos Week</source>
-  <content:encoded>A renderização do artigo foi ajustada para inserir as mídias ao longo da leitura, em vez de despejar tudo no final da página.</content:encoded>
-</item>
+              <title>Conheça os novos oficiais científicos Artemis II da NASA</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=meet-nasa-s-new-artemis-ii-science-officers</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=meet-nasa-s-new-artemis-ii-science-officers</guid>
+              <pubDate>Fri, 03 Apr 2026 17:35:44 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>Os primeiros oficiais científicos do Artemis II da NASA, Kelsey Young, Trevor Graff e Angela Garcia, são pioneiros em uma nova era de operações de missão, integrando ciência lunar avançada diretamente no Controle da Missão. Seu trabalho moldará o futuro.</description>
+              <category>Astronomia</category><category>NASA News Releases</category><category>Cosmos Week</category><category>Conheça os novos oficiais científicos Artemis II da NASA</category>
+              <source url="https://science.nasa.gov/missions/artemis/meet-nasas-new-artemis-ii-science-officers/">NASA News Releases</source>
+              <content:encoded>Os primeiros oficiais científicos do Artemis II da NASA, Kelsey Young, Trevor Graff e Angela Garcia, são pioneiros em uma nova era de operações de missão, integrando ciência lunar avançada diretamente no Controle da Missão. Seu trabalho moldará o futuro. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a astronomia não avança com detecções isoladas. O campo constrói confiança acumulando observações independentes em diferentes comprimentos de onda, instrumentos e épocas até que sinais isolados se tornem conclusões defensáveis. O que parece convincente em um conjunto de dados pode se dissolver quando um segundo instrumento olha para o mesmo alvo, e o que parece marginal pode se solidificar quando campanhas de acompanhamento confirmam a leitura original. O padrão atual exige que um resultado so</content:encoded>
+            </item><item>
+              <title>Como acompanhar o lançamento do Smile ao vivo</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=how-to-follow-the-smile-launch-live</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=how-to-follow-the-smile-launch-live</guid>
+              <pubDate>Thu, 02 Apr 2026 15:00:00 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>A ESA transmitirá ao vivo o lançamento da missão Smile Europeu-Chinesa às 07:29 BST/08:29 CEST do dia 9 de Abril de 2026. O Smile será lançado num foguetão europeu Vega-C a partir do porto espacial europeu na Guiana Francesa. Horários sujeitos a alterações em.</description>
+              <category>Astronomia</category><category>ESA Space Science</category><category>Cosmos Week</category><category>Como acompanhar o lançamento do Smile ao vivo</category>
+              <source url="https://www.esa.int/Science_Exploration/Space_Science/Smile/How_to_follow_the_Smile_launch_live">ESA Space Science</source>
+              <content:encoded>A ESA transmitirá ao vivo o lançamento da missão Smile Europeu-Chinesa às 07: 29 BST/08: 29 CEST do dia 9 de Abril de 2026. O Smile será lançado num foguetão europeu Vega-C a partir do porto espacial europeu na Guiana Francesa. Horários sujeitos a alterações em. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a astronomia não avança com detecções isoladas. O campo constrói confiança acumulando observações independentes em diferentes comprimentos de onda, instrumentos e épocas até que sinais isolados se tornem conclusões defensáveis. O que parece convincente em um conjunto de dados pode se dissolver quando um segundo instrumento olha para o mesmo alvo, e o que parece marginal pode se solidificar quando campanhas de acompanhamento confirmam a leitura original. O padrão atual exige que um resu</content:encoded>
+            </item><item>
+              <title>XRISM resolve o mistério de 50 anos da famosa estrela</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=xrism-solves-famous-star-s-50-year-mystery</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=xrism-solves-famous-star-s-50-year-mystery</guid>
+              <pubDate>Tue, 24 Mar 2026 08:00:00 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>Uma companheira invisível que consome material da estrela gama-Cas vista a olho nu foi revelada como a culpada pelos curiosos raios X provenientes do sistema estelar. Isto encerra o caso de um mistério que tem intrigado os astrônomos há mais de um ano.</description>
+              <category>Astronomia</category><category>ESA Space Science</category><category>Cosmos Week</category><category>XRISM resolve o mistério de 50 anos da famosa estrela</category>
+              <source url="https://www.esa.int/Science_Exploration/Space_Science/XRISM_solves_famous_star_s_50-year_mystery">ESA Space Science</source>
+              <content:encoded>Uma companheira invisível que consome material da estrela gama-Cas vista a olho nu foi revelada como a culpada pelos curiosos raios X provenientes do sistema estelar. Isto encerra o caso de um mistério que tem intrigado os astrônomos há mais de um ano. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a astronomia não avança com detecções isoladas. O campo constrói confiança acumulando observações independentes em diferentes comprimentos de onda, instrumentos e épocas até que sinais isolados se tornem conclusões defensáveis. O que parece convincente em um conjunto de dados pode se dissolver quando um segundo instrumento olha para o mesmo alvo, e o que parece marginal pode se solidificar quando campanhas de acompanhamento confirmam a leitura original. O padrão atual exige que um resultado sobr</content:encoded>
+            </item><item>
+              <title>Lançamento científico: Hubble identifica uma das galáxias mais escuras conhecidas</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=science-release-hubble-identifies-one-of-darkest-known-galaxies</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=science-release-hubble-identifies-one-of-darkest-known-galaxies</guid>
+              <pubDate>Wed, 18 Feb 2026 15:00:00 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>A maioria das galáxias no Universo próximo são bastante luminosas, mas algumas são tão ténues que são quase invisíveis. Os astrónomos, usando o Telescópio Espacial Hubble da NASA/ESA em combinação com outros observatórios, identificaram uma galáxia que parece.</description>
+              <category>Cosmologia</category><category>ESA Hubble News</category><category>Cosmos Week</category><category>Lançamento científico</category>
+              <source url="https://esahubble.org/news/heic2605/">ESA Hubble News</source>
+              <content:encoded>A maioria das galáxias no Universo próximo são bastante luminosas, mas algumas são tão ténues que são quase invisíveis. Os astrónomos, usando o Telescópio Espacial Hubble da NASA/ESA em combinação com outros observatórios, identificaram uma galáxia que parece ser. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a cosmologia opera na fronteira do que os instrumentos atuais conseguem medir, onde erros sistemáticos e suposições de modelo nunca são triviais. Pequenas discrepâncias entre medições independentes historicamente apontaram para física ausente em vez de simples erros de calibração, e a tensão em curso na constante de Hubble é um exemplo vivo de como um desacordo persistente entre métodos pode remodelar o panorama teórico. Cada novo conjunto de dados que se aproxima desse território co</content:encoded>
+            </item><item>
+              <title>Lançamento científico: Hubble examina Cloud-9, o primeiro de um novo tipo de objeto</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=science-release-hubble-examines-cloud-9-first-of-new-type-of-object</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=science-release-hubble-examines-cloud-9-first-of-new-type-of-object</guid>
+              <pubDate>Mon, 05 Jan 2026 17:15:00 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>Uma equipe usando o Telescópio Espacial Hubble da NASA/ESA descobriu um novo tipo de objeto astronômico — uma nuvem de matéria escura, rica em gás e sem estrelas, considerada uma “relíquia” ou remanescente da formação inicial de galáxias. Apelidado de.</description>
+              <category>Cosmologia</category><category>ESA Hubble News</category><category>Cosmos Week</category><category>Lançamento científico</category>
+              <source url="https://esahubble.org/news/heic2601/">ESA Hubble News</source>
+              <content:encoded>Uma equipe usando o Telescópio Espacial Hubble da NASA/ESA descobriu um novo tipo de objeto astronômico, uma nuvem de matéria escura, rica em gás e sem estrelas, considerada uma “relíquia” ou remanescente da formação inicial de galáxias. Apelidado de “Cloud-9”, este é o. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a cosmologia opera na fronteira do que os instrumentos atuais conseguem medir, onde erros sistemáticos e suposições de modelo nunca são triviais. Pequenas discrepâncias entre medições independentes historicamente apontaram para física ausente em vez de simples erros de calibração, e a tensão em curso na constante de Hubble é um exemplo vivo de como um desacordo persistente entre métodos pode remodelar o panorama teórico. Cada novo conjunto de dados que se aproxima desse territ</content:encoded>
+            </item><item>
+              <title>Artemis II testará novos modelos que prevêem tempestades de partículas solares com até um dia de antecedência</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=artemis-ii-to-test-new-models-that-predict-solar-particle-storms-up-to-a-day-ahead</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=artemis-ii-to-test-new-models-that-predict-solar-particle-storms-up-to-a-day-ahead</guid>
+              <pubDate>Thu, 02 Apr 2026 20:50:01 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>Durante a missão Artemis II lançada na quarta-feira, a NASA testará duas novas previsões de radiação solar, desenvolvidas na Universidade de Engenharia de Michigan, projetadas para proteger os astronautas que se aventuram para longe da Terra. As previsões.</description>
+              <category>Cosmologia</category><category>Phys.org Space</category><category>Cosmos Week</category><category>Artemis II testará novos modelos que prevêem tempestades de partículas solares com até um dia de antecedência</category>
+              <source url="https://phys.org/news/2026-04-artemis-ii-solar-particle-storms.html">Phys.org Space</source>
+              <content:encoded>Durante a missão Artemis II lançada na quarta-feira, a NASA testará duas novas previsões de radiação solar, desenvolvidas na Universidade de Engenharia de Michigan, projetadas para proteger os astronautas que se aventuram para longe da Terra. As previsões irão. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a cosmologia opera na fronteira do que os instrumentos atuais conseguem medir, onde erros sistemáticos e suposições de modelo nunca são triviais. Pequenas discrepâncias entre medições independentes historicamente apontaram para física ausente em vez de simples erros de calibração, e a tensão em curso na constante de Hubble é um exemplo vivo de como um desacordo persistente entre métodos pode remodelar o panorama teórico. Cada novo conjunto de dados que se aproxima desse território com s</content:encoded>
+            </item><item>
+              <title>Por que os buracos negros supermassivos estão crescendo tão lentamente?</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=why-are-supermassive-black-holes-growing-so-slowly</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=why-are-supermassive-black-holes-growing-so-slowly</guid>
+              <pubDate>Thu, 02 Apr 2026 18:02:16 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>Há cerca de 10 mil milhões de anos, a taxa de crescimento dos buracos negros supermassivos começou a abrandar drasticamente. Até hoje, a taxa de crescimento das SMBH ainda parece baixa. Existem três explicações possíveis para isso, e os pesquisadores.</description>
+              <category>Astrofísica</category><category>Universe Today</category><category>Cosmos Week</category><category>Por que os buracos negros supermassivos estão crescendo tão lentamente?</category>
+              <source url="https://www.universetoday.com/articles/why-are-supermassive-black-holes-growing-so-slowly">Universe Today</source>
+              <content:encoded>Há cerca de 10 mil milhões de anos, a taxa de crescimento dos buracos negros supermassivos começou a abrandar drasticamente. Até hoje, a taxa de crescimento das SMBH ainda parece baixa. Existem três explicações possíveis para isso, e os pesquisadores acreditam que sim. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a astrofísica se torna convincente apenas quando um sinal observado pode ser ligado a uma explicação física defensável. Objetos compactos como estrelas de nêutrons e buracos negros são laboratórios naturais para física extrema, mas a distância e a complexidade desses sistemas tornam a interpretação difícil sem cobertura em múltiplos comprimentos de onda e modelagem cuidadosa. Uma detecção sem mecanismo é apenas metade de um resultado. a outra metade vem de mostrar que o sinal se</content:encoded>
+            </item><item>
+              <title>Ondas gravitacionais sugerem uma ‘zona proibida’ para buracos negros de origem estelar</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=gravitational-waves-suggest-a-forbidden-zone-for-stellar-origin-black-holes</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=gravitational-waves-suggest-a-forbidden-zone-for-stellar-origin-black-holes</guid>
+              <pubDate>Wed, 01 Apr 2026 21:20:03 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>Uma equipe internacional liderada pela Universidade Monash descobriu evidências de uma forma rara de explosão de estrela, ajudando a lançar luz sobre um dos eventos mais cataclísmicos do universo. No final de suas vidas, a maioria das estrelas massivas entra.</description>
+              <category>Astrofísica</category><category>Phys.org Space</category><category>Cosmos Week</category><category>Ondas gravitacionais sugerem uma ‘zona proibida’ para buracos negros de origem estelar</category>
+              <source url="https://phys.org/news/2026-04-gravitational-forbidden-zone-stellar-black.html">Phys.org Space</source>
+              <content:encoded>Uma equipe internacional liderada pela Universidade Monash descobriu evidências de uma forma rara de explosão de estrela, ajudando a lançar luz sobre um dos eventos mais cataclísmicos do universo. No final de suas vidas, a maioria das estrelas massivas entra em colapso. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a astrofísica se torna convincente apenas quando um sinal observado pode ser ligado a uma explicação física defensável. Objetos compactos como estrelas de nêutrons e buracos negros são laboratórios naturais para física extrema, mas a distância e a complexidade desses sistemas tornam a interpretação difícil sem cobertura em múltiplos comprimentos de onda e modelagem cuidadosa. Uma detecção sem mecanismo é apenas metade de um resultado. a outra metade vem de mostrar que o sinal s</content:encoded>
+            </item><item>
+              <title>Astrônomos jogam o primeiro de abril</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=astronomers-play-april-fool-s</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=astronomers-play-april-fool-s</guid>
+              <pubDate>Wed, 01 Apr 2026 19:23:23 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>Desde “zonas de sabor” de pizza ao redor das estrelas até sessões de terapia para buracos negros, os astrônomos estão em ótima forma neste 1º de abril. O post Astrônomos jogam o primeiro de abril apareceu pela primeira vez na Sky &amp; Telescope.</description>
+              <category>Astrofísica</category><category>Sky &amp; Telescope</category><category>Cosmos Week</category><category>Astrônomos jogam o primeiro de abril</category>
+              <source url="https://skyandtelescope.org/astronomy-news/astronomers-play-april-fools/">Sky &amp; Telescope</source>
+              <content:encoded>Desde “zonas de sabor” de pizza ao redor das estrelas até sessões de terapia para buracos negros, os astrônomos estão em ótima forma neste 1º de abril. O post Astrônomos jogam o primeiro de abril apareceu pela primeira vez na Sky &amp; Telescope. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a astrofísica se torna convincente apenas quando um sinal observado pode ser ligado a uma explicação física defensável. Objetos compactos como estrelas de nêutrons e buracos negros são laboratórios naturais para física extrema, mas a distância e a complexidade desses sistemas tornam a interpretação difícil sem cobertura em múltiplos comprimentos de onda e modelagem cuidadosa. Uma detecção sem mecanismo é apenas metade de um resultado. a outra metade vem de mostrar que o sinal se encaixa quantitativamente </content:encoded>
+            </item><item>
+              <title>A descoberta 'casual' de marcas onduladas marcianas revela uma antiga tempestade de areia</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=serendipitous-discovery-of-martian-ripple-marks-reveals-an-ancient-sandstorm</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=serendipitous-discovery-of-martian-ripple-marks-reveals-an-ancient-sandstorm</guid>
+              <pubDate>Thu, 02 Apr 2026 20:10:01 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>A busca por vida em Marte envolve os esforços de cientistas de diversas disciplinas. Um aspecto importante dessa busca é estudar rochas sedimentares marcianas para obter informações sobre o ambiente do planeta, quando for provável.</description>
+              <category>Exoplanetas</category><category>Phys.org Space</category><category>Cosmos Week</category><category>A descoberta 'casual' de marcas onduladas marcianas revela uma antiga tempestade de areia</category>
+              <source url="https://phys.org/news/2026-04-serendipitous-discovery-martian-ripple-reveals.html">Phys.org Space</source>
+              <content:encoded>A busca por vida em Marte envolve os esforços de cientistas de diversas disciplinas. Um aspecto importante dessa busca é estudar rochas sedimentares marcianas para obter informações sobre o ambiente do planeta, quando for provável. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a ciência de exoplanetas passou da era das descobertas simples para um período de caracterização comparativa. Com mais de cinco mil planetas confirmados conhecidos, as questões cientificamente produtivas agora dizem respeito à composição atmosférica, estrutura interna, história orbital e propriedades estatísticas de populações, e não mais à existência de mundos individuais. Uma nova detecção ou medição espectral é mais valiosa quando adiciona um ponto de dados bem restringido a esses quadros comparativos, não quando</content:encoded>
+            </item><item>
+              <title>Gemini South confirma ligação há muito suspeita entre a composição dos exoplanetas e suas estrelas hospedeiras</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=gemini-south-confirms-long-suspected-link-between-the-composition-of-exoplanets-and-their-host-s</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=gemini-south-confirms-long-suspected-link-between-the-composition-of-exoplanets-and-their-host-s</guid>
+              <pubDate>Wed, 01 Apr 2026 21:40:07 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>Os astrónomos descobriram que um planeta gigante, WASP-189b, ecoa a composição da sua estrela hospedeira, fornecendo a primeira evidência direta de um conceito fundamental em astrobiologia. Esta descoberta foi alcançada através do primeiro.</description>
+              <category>Exoplanetas</category><category>Phys.org Space</category><category>Cosmos Week</category><category>Gemini South confirma ligação há muito suspeita entre a composição dos exoplanetas e suas estrelas hospedeiras</category>
+              <source url="https://phys.org/news/2026-04-gemini-south-link-composition-exoplanets.html">Phys.org Space</source>
+              <content:encoded>Os astrónomos descobriram que um planeta gigante, WASP-189b, ecoa a composição da sua estrela hospedeira, fornecendo a primeira evidência direta de um conceito fundamental em astrobiologia. Esta descoberta foi alcançada através do primeiro. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a ciência de exoplanetas passou da era das descobertas simples para um período de caracterização comparativa. Com mais de cinco mil planetas confirmados conhecidos, as questões cientificamente produtivas agora dizem respeito à composição atmosférica, estrutura interna, história orbital e propriedades estatísticas de populações, e não mais à existência de mundos individuais. Uma nova detecção ou medição espectral é mais valiosa quando adiciona um ponto de dados bem restringido a esses quadros comparativos, n</content:encoded>
+            </item><item>
+              <title>A maior pesquisa de rotações de exoplanetas confirma uma teoria de longa data</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=the-largest-survey-of-exoplanet-spins-confirms-a-long-held-theory</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=the-largest-survey-of-exoplanet-spins-confirms-a-long-held-theory</guid>
+              <pubDate>Wed, 01 Apr 2026 23:01:00 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>Por algum tempo, os astrônomos teorizaram que existe uma conexão entre a massa planetária e a rotação. Usando o Observatório W. M. Keck em Maunakea, no Havai, uma equipa de astrónomos confirmou esta relação estudando dezenas de gás.</description>
+              <category>Exoplanetas</category><category>Universe Today</category><category>Cosmos Week</category><category>A maior pesquisa de rotações de exoplanetas confirma uma teoria de longa data</category>
+              <source url="https://www.universetoday.com/articles/the-largest-survey-of-exoplanet-spins-confirms-a-long-held-theory">Universe Today</source>
+              <content:encoded>Por algum tempo, os astrônomos teorizaram que existe uma conexão entre a massa planetária e a rotação. Usando o Observatório W. M. Keck em Maunakea, no Havai, uma equipa de astrónomos confirmou esta relação estudando dezenas de gás. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a ciência de exoplanetas passou da era das descobertas simples para um período de caracterização comparativa. Com mais de cinco mil planetas confirmados conhecidos, as questões cientificamente produtivas agora dizem respeito à composição atmosférica, estrutura interna, história orbital e propriedades estatísticas de populações, e não mais à existência de mundos individuais. Uma nova detecção ou medição espectral é mais valiosa quando adiciona um ponto de dados bem restringido a esses quadros comparativos, não quand</content:encoded>
+            </item><item>
+              <title>Partículas fantasmagóricas: a radiação escura pode ter se disfarçado de neutrinos</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=ghostly-particles-dark-radiation-may-have-masqueraded-as-neutrinos</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=ghostly-particles-dark-radiation-may-have-masqueraded-as-neutrinos</guid>
+              <pubDate>Thu, 02 Apr 2026 21:00:09 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>Novas pesquisas sugerem que os neutrinos do universo primitivo podem ter se transformado em uma forma de radiação até então desconhecida. Um estudo da Universidade de Washington em St. Louis oferece uma nova maneira de explicar certas observações intrigantes.</description>
+              <category>Física</category><category>Phys.org Space</category><category>Cosmos Week</category><category>Partículas fantasmagóricas</category>
+              <source url="https://phys.org/news/2026-04-ghostly-particles-dark-masqueraded-neutrinos.html">Phys.org Space</source>
+              <content:encoded>Novas pesquisas sugerem que os neutrinos do universo primitivo podem ter se transformado em uma forma de radiação até então desconhecida. Um estudo da Universidade de Washington em St. Louis oferece uma nova maneira de explicar certas observações intrigantes sobre. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a física só leva um resultado a sério quando a cadeia de medição permanece robusta sob escrutínio. A física de partículas experimental e a metrologia de precisão operam em regimes onde o sinal está muito abaixo do ruído de fundo, e onde incertezas sistemáticas podem imitar nova física se não forem controladas rigorosamente. A história do campo contém inúmeras anomalias que geraram entusiasmo teórico antes de dados melhores mostrarem que eram artefatos, e também contém descobertas ge</content:encoded>
+            </item><item>
+              <title>Onda de poeira rola pelo Texas</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=wave-of-dust-rolls-through-texas</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=wave-of-dust-rolls-through-texas</guid>
+              <pubDate>Wed, 18 Mar 2026 04:01:00 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>O avanço da frente fria levantou uma linha acentuada de areia e outras pequenas partículas que varreram as planícies altas. A postagem Onda de poeira rola pelo Texas apareceu pela primeira vez na NASA Science.</description>
+              <category>Física</category><category>NASA Earth Observatory</category><category>Cosmos Week</category><category>Onda de poeira rola pelo Texas</category>
+              <source url="https://science.nasa.gov/earth/earth-observatory/wave-of-dust-rolls-through-texas/">NASA Earth Observatory</source>
+              <content:encoded>O avanço da frente fria levantou uma linha acentuada de areia e outras pequenas partículas que varreram as planícies altas. A postagem Onda de poeira rola pelo Texas apareceu pela primeira vez na NASA Science. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a física só leva um resultado a sério quando a cadeia de medição permanece robusta sob escrutínio. A física de partículas experimental e a metrologia de precisão operam em regimes onde o sinal está muito abaixo do ruído de fundo, e onde incertezas sistemáticas podem imitar nova física se não forem controladas rigorosamente. A história do campo contém inúmeras anomalias que geraram entusiasmo teórico antes de dados melhores mostrarem que eram artefatos, e também contém descobertas genuínas inicialmente descartadas como ruído. A diferença </content:encoded>
+            </item><item>
+              <title>NSF lança programa nacional de infraestrutura de pesquisa quântica e nanotecnologia de US$ 100 milhões</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=nsf-launches-100m-national-quantum-and-nanotechnology-research-infrastructure-program</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=nsf-launches-100m-national-quantum-and-nanotechnology-research-infrastructure-program</guid>
+              <pubDate>Fri, 13 Feb 2026 15:00:08 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>A Fundação Nacional de Ciência dos EUA está investindo até US$ 100 milhões para estabelecer uma rede nacional de instalações de pesquisa de acesso aberto para tecnologias quânticas e em nanoescala, inovação e treinamento de força de trabalho. Através da nova.</description>
+              <category>Física</category><category>NSF News</category><category>Cosmos Week</category><category>NSF lança programa nacional de infraestrutura de pesquisa quântica e nanotecnologia de US$ 100 milhões</category>
+              <source url="https://www.nsf.gov/news/nsf-launches-100m-national-quantum-nanotechnology-research">NSF News</source>
+              <content:encoded>A Fundação Nacional de Ciência dos EUA está investindo até US$ 100 milhões para estabelecer uma rede nacional de instalações de pesquisa de acesso aberto para tecnologias quânticas e em nanoescala, inovação e treinamento de força de trabalho. Através da nova NSF. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a física só leva um resultado a sério quando a cadeia de medição permanece robusta sob escrutínio. A física de partículas experimental e a metrologia de precisão operam em regimes onde o sinal está muito abaixo do ruído de fundo, e onde incertezas sistemáticas podem imitar nova física se não forem controladas rigorosamente. A história do campo contém inúmeras anomalias que geraram entusiasmo teórico antes de dados melhores mostrarem que eram artefatos, e também contém descobertas genu</content:encoded>
+            </item><item>
+              <title>Lançamento científico: Hubble descobre raros remanescentes de fusão de anãs brancas</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=science-release-hubble-uncovers-rare-white-dwarf-merger-remnant</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=science-release-hubble-uncovers-rare-white-dwarf-merger-remnant</guid>
+              <pubDate>Wed, 13 Aug 2025 14:00:00 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>Uma equipe internacional de astrônomos usando o Telescópio Espacial Hubble da NASA/ESA descobriu uma raridade estelar: uma anã branca ultramassiva que se formou quando uma anã branca se fundiu com outra estrela, e não através da evolução de uma.</description>
+              <category>Biologia</category><category>ESA Hubble News</category><category>Cosmos Week</category><category>Lançamento científico</category>
+              <source url="https://esahubble.org/news/heic2510/">ESA Hubble News</source>
+              <content:encoded>Uma equipe internacional de astrônomos usando o Telescópio Espacial Hubble da NASA/ESA descobriu uma raridade estelar: uma anã branca ultramassiva que se formou quando uma anã branca se fundiu com outra estrela, e não através da evolução de uma. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a biologia se torna mais informativa quando um efeito observado começa a parecer um mecanismo e não um padrão isolado. A distância entre identificar uma correlação em dados biológicos e compreender a cadeia causal que a produz é rotineiramente subestimada, e a história da pesquisa biomédica está repleta de associações que desmoronaram quando o mecanismo foi buscado e não encontrado. Um resultado que vem com um mecanismo proposto, mesmo que parcial, é mais útil do que uma descoberta puramente descritiva</content:encoded>
+            </item><item>
+              <title>A análise automatizada da tomografia computadorizada pode acelerar as avaliações clínicas</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=automated-ct-scan-analysis-could-fast-track-clinical-assessments</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=automated-ct-scan-analysis-could-fast-track-clinical-assessments</guid>
+              <pubDate>Sat, 04 Apr 2026 15:11:14 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>Uma pesquisa financiada pelo NIH sugere que uma ferramenta alimentada por IA poderia agilizar diagnósticos e revelar marcadores precoces de doenças crônicas.</description>
+              <category>Biologia</category><category>NIH News Releases</category><category>Cosmos Week</category><category>A análise automatizada da tomografia computadorizada pode acelerar as avaliações clínicas</category>
+              <source url="https://www.nih.gov/news-events/news-releases/automated-ct-scan-analysis-could-fast-track-clinical-assessments">NIH News Releases</source>
+              <content:encoded>Uma pesquisa financiada pelo NIH sugere que uma ferramenta alimentada por IA poderia agilizar diagnósticos e revelar marcadores precoces de doenças crônicas. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a biologia se torna mais informativa quando um efeito observado começa a parecer um mecanismo e não um padrão isolado. A distância entre identificar uma correlação em dados biológicos e compreender a cadeia causal que a produz é rotineiramente subestimada, e a história da pesquisa biomédica está repleta de associações que desmoronaram quando o mecanismo foi buscado e não encontrado. Um resultado que vem com um mecanismo proposto, mesmo que parcial, é mais útil do que uma descoberta puramente descritiva porque gera previsões testáveis que podem estreitar o espaço de hipóteses. Os cientista</content:encoded>
+            </item><item>
+              <title>O ensaio apoiado pelo NIH reduz a incidência do VIH em 70% nas populações rurais</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=nih-supported-trial-reduces-hiv-incidence-by-70-in-rural-populations</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=nih-supported-trial-reduces-hiv-incidence-by-70-in-rural-populations</guid>
+              <pubDate>Sat, 04 Apr 2026 15:11:14 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>Estude utilizou a tecnologia para alargar o alcance da infra-estrutura existente, ligando as pessoas aos cuidados de saúde.</description>
+              <category>Biologia</category><category>NIH News Releases</category><category>Cosmos Week</category><category>O ensaio apoiado pelo NIH reduz a incidência do VIH em 70% nas populações rurais</category>
+              <source url="https://www.nih.gov/news-events/news-releases/nih-supported-trial-reduces-hiv-incidence-70-rural-populations">NIH News Releases</source>
+              <content:encoded>Estude utilizou a tecnologia para alargar o alcance da infra-estrutura existente, ligando as pessoas aos cuidados de saúde. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a biologia se torna mais informativa quando um efeito observado começa a parecer um mecanismo e não um padrão isolado. A distância entre identificar uma correlação em dados biológicos e compreender a cadeia causal que a produz é rotineiramente subestimada, e a história da pesquisa biomédica está repleta de associações que desmoronaram quando o mecanismo foi buscado e não encontrado. Um resultado que vem com um mecanismo proposto, mesmo que parcial, é mais útil do que uma descoberta puramente descritiva porque gera previsões testáveis que podem estreitar o espaço de hipóteses. Um estudo financiado pelos Institutos Nacionai</content:encoded>
+            </item><item>
+              <title>As estrelas mais antigas ricas em carbono abrem uma janela para a química cósmica primitiva</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=oldest-carbon-rich-stars-open-a-window-to-early-cosmic-chemistry</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=oldest-carbon-rich-stars-open-a-window-to-early-cosmic-chemistry</guid>
+              <pubDate>Mon, 30 Mar 2026 23:10:06 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>Os astrónomos que estudam a ultra-fraca galáxia anã Pictor II encontraram uma estrela quimicamente peculiar que contém vestígios de elementos criados pelas primeiras estrelas do Universo. Chama-se PicII-503, uma “estrela de segunda geração”.</description>
+              <category>Química</category><category>Universe Today</category><category>Cosmos Week</category><category>As estrelas mais antigas ricas em carbono abrem uma janela para a química cósmica primitiva</category>
+              <source url="https://www.universetoday.com/articles/oldest-carbon-rich-stars-open-a-window-to-early-cosmic-chemistry">Universe Today</source>
+              <content:encoded>Os astrónomos que estudam a ultra-fraca galáxia anã Pictor II encontraram uma estrela quimicamente peculiar que contém vestígios de elementos criados pelas primeiras estrelas do Universo. Chama-se PicII-503, uma “estrela de segunda geração”. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque a química ganha força quando uma estrutura ou processo alegado pode ser descrito com precisão suficiente para ser reproduzido por outros. Rotas sintéticas, assinaturas espectroscópicas, rendimento em condições definidas e estabilidade em parâmetros operacionais realistas são a moeda de credibilidade na química, e um resultado que carece desses detalhes não pode ser avaliado de forma independente. A distância entre uma descoberta em bancada de laboratório e um processo que funciona confiavelmente em escala </content:encoded>
+            </item><item>
+              <title>A missão Artemis II da NASA sai da órbita da Terra para voar ao redor da Lua</title>
+              <link>https://marambaiajunior.github.io/cosmos-week/?article=nasa-s-artemis-ii-mission-leaves-earth-orbit-for-flight-around-moon</link>
+              <guid>https://marambaiajunior.github.io/cosmos-week/?article=nasa-s-artemis-ii-mission-leaves-earth-orbit-for-flight-around-moon</guid>
+              <pubDate>Fri, 03 Apr 2026 02:48:08 +0000</pubDate>
+              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <description>Pela primeira vez em mais de 50 anos, os astronautas em uma missão da NASA são obrigados a voar ao redor da Lua depois de completarem com sucesso a queima do motor principal do Orion. Com o disparo de aproximadamente seis minutos do serviço da espaçonave.</description>
+              <category>Ciências da Terra</category><category>NASA News Releases</category><category>Cosmos Week</category><category>A missão Artemis II da NASA sai da órbita da Terra para voar ao redor da Lua</category>
+              <source url="https://www.nasa.gov/news-release/nasas-artemis-ii-mission-leaves-earth-orbit-for-flight-around-moon/">NASA News Releases</source>
+              <content:encoded>Pela primeira vez em mais de 50 anos, os astronautas em uma missão da NASA são obrigados a voar ao redor da Lua depois de completarem com sucesso a queima do motor principal do Orion. Com o disparo de aproximadamente seis minutos do serviço da espaçonave. O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão. Isso importa porque as ciências da Terra ficam mais fortes quando observações locais podem ser encaixadas em um padrão físico mais amplo que abrange tempo e geografia. O planeta opera como um sistema acoplado no qual processos atmosféricos, oceânicos, criosféricos e da Terra sólida interagem em escalas de tempo de dias a milhões de anos. Uma medição que captura uma variável em um local e um momento tem valor interpretativo limitado até ser incorporada nas séries mais longas e na cobertura espacial mais ampla que</content:encoded>
+            </item>
   </channel>
 </rss>
