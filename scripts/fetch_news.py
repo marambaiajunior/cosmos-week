@@ -41,15 +41,13 @@ PAGE_TEXT_MAX_PARAGRAPHS = 24
 FULL_TEXT_LIMIT = 9000
 MAX_FACT_SENTENCES = 14
 
-# ── Gemini API — revisão de português ─────────────────────────────────────────
-# A API do Gemini tem uma camada gratuita (gemini-2.0-flash-lite).
-# Para ativar: defina a variável de ambiente GEMINI_API_KEY com sua chave.
-# Obtenha gratuitamente em: https://aistudio.google.com/apikey
-# Se a variável não estiver definida, o script funciona normalmente sem revisão.
-GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '')
+# ── Gemini API — revisão gratuita de português ────────────────────────────────
+# Obtenha sua chave gratuita em: https://aistudio.google.com/apikey
+# Configure no GitHub: Settings → Secrets → GEMINI_API_KEY
+GEMINI_API_KEY  = os.getenv('GEMINI_API_KEY', '')
 GEMINI_ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent'
-GEMINI_TIMEOUT = 30
-GEMINI_ENABLED = bool(GEMINI_API_KEY)
+GEMINI_TIMEOUT  = 30
+GEMINI_ENABLED  = bool(GEMINI_API_KEY)
 
 NS = {
     'atom': 'http://www.w3.org/2005/Atom',
@@ -307,6 +305,7 @@ TRANSLATION_CACHE: dict[tuple[str, str], str] = {}
 PAGE_CACHE: dict[str, str] = {}
 IMAGE_CACHE: dict[str, Optional[str]] = {}
 REVIEW_CACHE: dict[str, str] = {}
+INLINE_MEDIA_CACHE: dict[str, dict] = {}
 PAGE_FETCHES = 0
 
 
@@ -461,169 +460,6 @@ def find_first_image_in_html(fragment: str, base_url: str = '') -> Optional[str]
         src = urllib.parse.urljoin(base_url, src)
     src = clean_image_url(src)
     return src if src and image_url_looks_good(src) else None
-
-
-INLINE_IMAGE_CACHE: dict[str, list[dict]] = {}
-
-# Dimensões mínimas para considerar uma imagem editorial (evitar ícones, thumbs tiny)
-_MIN_IMG_W = 300
-_MIN_IMG_H = 180
-
-# Padrões de URL que indicam imagens de interface, não editoriais
-_INLINE_BAD_URL = re.compile(
-    r'(logo|favicon|avatar|icon|sprite|banner.?ad|widget|button|arrow|'
-    r'share|social|twitter|facebook|instagram|youtube|rss|search|menu|'
-    r'close|loading|spinner|pixel|tracking|analytics|1x1|blank)',
-    re.I
-)
-
-def _inline_img_looks_editorial(url: str, alt: str = '', w: int = 0, h: int = 0) -> bool:
-    if not url:
-        return False
-    if _INLINE_BAD_URL.search(url):
-        return False
-    low_url = url.lower()
-    # Precisa ser JPEG, PNG ou WebP — sem SVG, GIF animado ou formatos vetoriais
-    if not re.search(r'\.(jpg|jpeg|png|webp)(?:[?#&]|$)', low_url):
-        return False
-    # Dimensões declaradas no HTML: rejeitar miniaturas pequenas
-    if w and h and (w < _MIN_IMG_W or h < _MIN_IMG_H):
-        return False
-    # Alts que indicam imagem decorativa
-    low_alt = (alt or '').lower()
-    if low_alt in ('', 'image', 'photo', 'picture', 'img', '.'):
-        pass  # permissivo — alt vazio é comum em imagens editoriais
-    if re.search(r'(logo|icon|button|banner|ad\b)', low_alt):
-        return False
-    return True
-
-
-def extract_inline_images(url: str, primary_img: str = '') -> list[dict]:
-    """Extrai imagens editoriais do corpo do artigo original.
-    Retorna lista de dicts com keys: src, alt, caption, width, height.
-    Exclui a imagem principal (já usada como capa) e duplicatas.
-    Limite: 4 imagens por artigo."""
-    if not url:
-        return []
-    if url in INLINE_IMAGE_CACHE:
-        return INLINE_IMAGE_CACHE[url]
-
-    page = fetch_page_html(url)
-    if not page:
-        INLINE_IMAGE_CACHE[url] = []
-        return []
-
-    # Normalizar primary_img para comparação
-    primary_norm = normalize_text(primary_img or '')
-
-    # Tentar extrair da region semântica principal
-    regions = []
-    for pat in (
-        r'<article[^>]*>(.*?)</article>',
-        r'<main[^>]*>(.*?)</main>',
-        r'<div[^>]+class=["\'][^"\']*(?:article|post|entry|content|story|body)[^"\']*["\'][^>]*>(.*?)</div>',
-    ):
-        for m in re.finditer(pat, page, flags=re.I | re.S):
-            regions.append(m.group(1))
-            if len(regions) >= 3:
-                break
-        if regions:
-            break
-
-    search_html = ' '.join(regions) if regions else page
-
-    results = []
-    seen_srcs: set[str] = set()
-
-    # Padrão amplo: captura <figure> com <img> + <figcaption>
-    for fig_match in re.finditer(r'<figure[^>]*>(.*?)</figure>', search_html, flags=re.I | re.S):
-        fig_html = fig_match.group(1)
-        img_m = re.search(r'<img[^>]+>', fig_html, flags=re.I)
-        if not img_m:
-            continue
-        img_tag = img_m.group(0)
-
-        # src — preferir data-src / srcset para lazy-loaded
-        src = ''
-        for attr in ('data-src', 'data-lazy-src', 'src'):
-            m = re.search(rf'{attr}=["\']([^"\']+)["\']', img_tag, flags=re.I)
-            if m:
-                src = urllib.parse.urljoin(url, html.unescape(m.group(1).strip()))
-                break
-
-        src = clean_image_url(src) or ''
-        if not src:
-            continue
-
-        # alt
-        alt_m = re.search(r'alt=["\']([^"\']*)["\']', img_tag, flags=re.I)
-        alt = html.unescape(alt_m.group(1).strip()) if alt_m else ''
-
-        # width / height
-        w_m = re.search(r'width=["\'](\d+)["\']', img_tag, flags=re.I)
-        h_m = re.search(r'height=["\'](\d+)["\']', img_tag, flags=re.I)
-        w = int(w_m.group(1)) if w_m else 0
-        h = int(h_m.group(1)) if h_m else 0
-
-        if not _inline_img_looks_editorial(src, alt, w, h):
-            continue
-
-        # Não duplicar a imagem principal
-        if primary_norm and normalize_text(src) == primary_norm:
-            continue
-
-        src_key = normalize_text(src)
-        if src_key in seen_srcs:
-            continue
-        seen_srcs.add(src_key)
-
-        # caption do figcaption
-        cap_m = re.search(r'<figcaption[^>]*>(.*?)</figcaption>', fig_html, flags=re.I | re.S)
-        caption = collapse_ws(strip_html(cap_m.group(1))) if cap_m else ''
-        # Limitar caption a 160 chars
-        if len(caption) > 160:
-            caption = caption[:157].rsplit(' ', 1)[0] + '...'
-
-        results.append({'src': src, 'alt': alt, 'caption': caption, 'width': w, 'height': h})
-        if len(results) >= 4:
-            break
-
-    # Se não encontrou via <figure>, tentar <img> soltas no conteúdo
-    if not results:
-        for img_m in re.finditer(r'<img[^>]+>', search_html, flags=re.I):
-            img_tag = img_m.group(0)
-            src = ''
-            for attr in ('data-src', 'data-lazy-src', 'src'):
-                m = re.search(rf'{attr}=["\']([^"\']+)["\']', img_tag, flags=re.I)
-                if m:
-                    src = urllib.parse.urljoin(url, html.unescape(m.group(1).strip()))
-                    break
-            src = clean_image_url(src) or ''
-            if not src:
-                continue
-
-            alt_m = re.search(r'alt=["\']([^"\']*)["\']', img_tag, flags=re.I)
-            alt = html.unescape(alt_m.group(1).strip()) if alt_m else ''
-            w_m = re.search(r'width=["\'](\d+)["\']', img_tag, flags=re.I)
-            h_m = re.search(r'height=["\'](\d+)["\']', img_tag, flags=re.I)
-            w = int(w_m.group(1)) if w_m else 0
-            h = int(h_m.group(1)) if h_m else 0
-
-            if not _inline_img_looks_editorial(src, alt, w, h):
-                continue
-            if primary_norm and normalize_text(src) == primary_norm:
-                continue
-            src_key = normalize_text(src)
-            if src_key in seen_srcs:
-                continue
-            seen_srcs.add(src_key)
-
-            results.append({'src': src, 'alt': alt, 'caption': '', 'width': w, 'height': h})
-            if len(results) >= 4:
-                break
-
-    INLINE_IMAGE_CACHE[url] = results
-    return results
 
 
 def source_domain(url: str) -> str:
@@ -1222,60 +1058,42 @@ def translate_text(text: str, target_lang: str) -> str:
 
 
 def gemini_review_pt(text: str) -> str:
-    """Revisa gramática, ortografia, coesão e coerência de um texto em português
-    usando a API gratuita do Gemini. Retorna o texto revisado ou o original se
-    a API não estiver configurada ou falhar."""
-    if not GEMINI_ENABLED:
+    """Revisa gramática, ortografia e coesão em português via Gemini gratuito.
+    Retorna o texto revisado ou o original se a API não estiver configurada."""
+    if not GEMINI_ENABLED or not text or len(text) < 30:
         return text
-    text = collapse_ws(text)
-    if not text or len(text) < 30:
-        return text
-    # Cache baseado no texto original para não revisar o mesmo conteúdo duas vezes
     cache_key = hashlib.md5(text.encode('utf-8')).hexdigest()
     if cache_key in REVIEW_CACHE:
         return REVIEW_CACHE[cache_key]
-
     prompt = (
-        'Você é um editor científico profissional do portal Cosmos Week, '
-        'especializado em jornalismo científico em português brasileiro.\n\n'
+        'Você é um editor científico do portal Cosmos Week.\n'
         'Revise o texto abaixo corrigindo APENAS:\n'
         '- Erros de ortografia e gramática\n'
         '- Frases em inglês misturadas com português (traduza-as)\n'
         '- Concordância verbal e nominal\n'
         '- Pontuação incorreta\n'
-        '- Frases truncadas ou incoerentes\n\n'
-        'REGRAS OBRIGATÓRIAS:\n'
-        '- Preserve todo o HTML (tags <p>, <figure>, <figcaption>, etc.) exatamente como está\n'
-        '- Não altere nomes próprios, siglas científicas (JWST, NASA, ESA, arXiv), '
-        'valores numéricos, unidades de medida ou termos técnicos\n'
+        '- Frases truncadas ou sem sentido\n\n'
+        'REGRAS:\n'
+        '- Preserve todo HTML (tags <p> <figure> <figcaption> <video> <iframe> etc.) exatamente\n'
+        '- Não altere nomes próprios, siglas (JWST NASA ESA arXiv), números, unidades\n'
         '- Não adicione nem remova informações\n'
-        '- Não altere o estilo ou tom editorial\n'
         '- Não use travessões (—) nem reticências (...)\n'
-        '- Retorne APENAS o texto revisado, sem comentários, explicações ou marcadores\n\n'
+        '- Retorne APENAS o texto revisado, sem comentários\n\n'
         f'TEXTO:\n{text}'
     )
-
     payload = json.dumps({
         'contents': [{'parts': [{'text': prompt}]}],
-        'generationConfig': {
-            'temperature': 0.1,
-            'maxOutputTokens': 4096,
-        }
+        'generationConfig': {'temperature': 0.1, 'maxOutputTokens': 4096},
     }).encode('utf-8')
-
     url = f'{GEMINI_ENDPOINT}?key={GEMINI_API_KEY}'
     try:
         req = urllib.request.Request(
-            url,
-            data=payload,
-            headers={
-                'Content-Type': 'application/json',
-                'User-Agent': USER_AGENT,
-            },
+            url, data=payload,
+            headers={'Content-Type': 'application/json', 'User-Agent': USER_AGENT},
             method='POST'
         )
-        with urllib.request.urlopen(req, timeout=GEMINI_TIMEOUT) as response:
-            raw = response.read()
+        with urllib.request.urlopen(req, timeout=GEMINI_TIMEOUT) as resp:
+            raw = resp.read()
         data = json.loads(raw.decode('utf-8', errors='ignore'))
         reviewed = (
             data.get('candidates', [{}])[0]
@@ -1288,9 +1106,185 @@ def gemini_review_pt(text: str) -> str:
             REVIEW_CACHE[cache_key] = reviewed
             return reviewed
     except Exception as exc:
-        print(f'  GEMINI revisão falhou: {exc}')
+        print(f'  GEMINI falhou: {exc}')
     REVIEW_CACHE[cache_key] = text
     return text
+
+
+# ── Inline media extraction ───────────────────────────────────────────────────
+
+_BAD_IMG_URL = re.compile(
+    r'(logo|favicon|avatar|icon|sprite|banner.?ad|widget|button|arrow|'
+    r'share|social|twitter|facebook|instagram|youtube|rss|search|menu|'
+    r'close|loading|spinner|pixel|tracking|1x1|blank)',
+    re.I
+)
+
+def _img_looks_editorial(url: str, w: int = 0, h: int = 0) -> bool:
+    if not url or _BAD_IMG_URL.search(url):
+        return False
+    if not re.search(r'\.(jpg|jpeg|png|webp)(?:[?#&]|$)', url.lower()):
+        return False
+    if w and h and (w < 300 or h < 180):
+        return False
+    return True
+
+
+def _extract_video_embed(page_html: str, base_url: str) -> list[dict]:
+    """Extrai iframes de YouTube/Vimeo e tags <video> do HTML da página."""
+    videos = []
+    seen = set()
+
+    # YouTube iframes
+    for m in re.finditer(
+        r'<iframe[^>]+src=["\']([^"\']*(?:youtube\.com/embed|youtube-nocookie\.com/embed|youtu\.be)[^"\']*)["\'][^>]*>',
+        page_html, flags=re.I
+    ):
+        src = m.group(1).strip()
+        if src not in seen:
+            seen.add(src)
+            videos.append({'type': 'youtube', 'src': src})
+        if len(videos) >= 2:
+            break
+
+    # Vimeo iframes
+    if len(videos) < 2:
+        for m in re.finditer(
+            r'<iframe[^>]+src=["\']([^"\']*vimeo\.com/video/[^"\']*)["\'][^>]*>',
+            page_html, flags=re.I
+        ):
+            src = m.group(1).strip()
+            if src not in seen:
+                seen.add(src)
+                videos.append({'type': 'vimeo', 'src': src})
+            if len(videos) >= 2:
+                break
+
+    # Tags <video> nativas
+    if len(videos) < 2:
+        for m in re.finditer(r'<video[^>]*>(.*?)</video>', page_html, flags=re.I | re.S):
+            src_m = re.search(r'<source[^>]+src=["\']([^"\']+)["\']', m.group(1), flags=re.I)
+            if not src_m:
+                src_m = re.search(r'src=["\']([^"\']+)["\']', m.group(0), flags=re.I)
+            if src_m:
+                src = urllib.parse.urljoin(base_url, src_m.group(1).strip())
+                if src not in seen:
+                    seen.add(src)
+                    videos.append({'type': 'video', 'src': src})
+            if len(videos) >= 2:
+                break
+
+    return videos
+
+
+def extract_inline_media(url: str, primary_img: str = '') -> dict:
+    """Retorna {'images': [...], 'videos': [...]} extraídos da página original.
+    Usa o cache PAGE_CACHE — sem custo adicional de rede."""
+    if not url:
+        return {'images': [], 'videos': []}
+    if url in INLINE_MEDIA_CACHE:
+        return INLINE_MEDIA_CACHE[url]
+
+    page = fetch_page_html(url)
+    if not page:
+        result = {'images': [], 'videos': []}
+        INLINE_MEDIA_CACHE[url] = result
+        return result
+
+    primary_norm = normalize_text(primary_img or '')
+
+    # Região semântica preferencial
+    regions = []
+    for pat in (
+        r'<article[^>]*>(.*?)</article>',
+        r'<main[^>]*>(.*?)</main>',
+        r'<div[^>]+class=["\'][^"\']*(?:article|post|entry|content|story|body)[^"\']*["\'][^>]*>(.*?)</div>',
+    ):
+        for m in re.finditer(pat, page, flags=re.I | re.S):
+            regions.append(m.group(1))
+            if len(regions) >= 3:
+                break
+        if regions:
+            break
+    search_html = ' '.join(regions) if regions else page
+
+    # Imagens via <figure>
+    images = []
+    seen_imgs: set[str] = set()
+
+    for fig_m in re.finditer(r'<figure[^>]*>(.*?)</figure>', search_html, flags=re.I | re.S):
+        fig_html = fig_m.group(1)
+        img_m = re.search(r'<img[^>]+>', fig_html, flags=re.I)
+        if not img_m:
+            continue
+        img_tag = img_m.group(0)
+        src = ''
+        for attr in ('data-src', 'data-lazy-src', 'src'):
+            am = re.search(rf'{attr}=["\']([^"\']+)["\']', img_tag, flags=re.I)
+            if am:
+                src = urllib.parse.urljoin(url, html.unescape(am.group(1).strip()))
+                break
+        src = clean_image_url(src) or ''
+        if not src:
+            continue
+        w_m = re.search(r'width=["\'](\d+)["\']', img_tag, flags=re.I)
+        h_m = re.search(r'height=["\'](\d+)["\']', img_tag, flags=re.I)
+        w = int(w_m.group(1)) if w_m else 0
+        h = int(h_m.group(1)) if h_m else 0
+        if not _img_looks_editorial(src, w, h):
+            continue
+        if primary_norm and normalize_text(src) == primary_norm:
+            continue
+        src_key = normalize_text(src)
+        if src_key in seen_imgs:
+            continue
+        seen_imgs.add(src_key)
+        alt_m = re.search(r'alt=["\']([^"\']*)["\']', img_tag, flags=re.I)
+        alt = html.unescape(alt_m.group(1).strip()) if alt_m else ''
+        cap_m = re.search(r'<figcaption[^>]*>(.*?)</figcaption>', fig_html, flags=re.I | re.S)
+        caption = collapse_ws(strip_html(cap_m.group(1))) if cap_m else ''
+        if len(caption) > 160:
+            caption = caption[:157].rsplit(' ', 1)[0] + '...'
+        images.append({'src': src, 'alt': alt, 'caption': caption})
+        if len(images) >= 4:
+            break
+
+    # Fallback: <img> soltas
+    if not images:
+        for img_m in re.finditer(r'<img[^>]+>', search_html, flags=re.I):
+            img_tag = img_m.group(0)
+            src = ''
+            for attr in ('data-src', 'data-lazy-src', 'src'):
+                am = re.search(rf'{attr}=["\']([^"\']+)["\']', img_tag, flags=re.I)
+                if am:
+                    src = urllib.parse.urljoin(url, html.unescape(am.group(1).strip()))
+                    break
+            src = clean_image_url(src) or ''
+            if not src:
+                continue
+            w_m = re.search(r'width=["\'](\d+)["\']', img_tag, flags=re.I)
+            h_m = re.search(r'height=["\'](\d+)["\']', img_tag, flags=re.I)
+            w = int(w_m.group(1)) if w_m else 0
+            h = int(h_m.group(1)) if h_m else 0
+            if not _img_looks_editorial(src, w, h):
+                continue
+            if primary_norm and normalize_text(src) == primary_norm:
+                continue
+            src_key = normalize_text(src)
+            if src_key in seen_imgs:
+                continue
+            seen_imgs.add(src_key)
+            alt_m = re.search(r'alt=["\']([^"\']*)["\']', img_tag, flags=re.I)
+            alt = html.unescape(alt_m.group(1).strip()) if alt_m else ''
+            images.append({'src': src, 'alt': alt, 'caption': ''})
+            if len(images) >= 4:
+                break
+
+    videos = _extract_video_embed(search_html, url)
+
+    result = {'images': images, 'videos': videos}
+    INLINE_MEDIA_CACHE[url] = result
+    return result
 
 
 def distinct_facts(facts: list[str], limit: int = 4) -> list[str]:
@@ -1430,158 +1424,378 @@ def _intro_connector(lang: str, source_type: str) -> str:
     }[source_type]
 
 
-def _context_bridge(category: str, lang: str) -> str:
+def _context_bridge(category: str, lang: str, seed: str = '') -> str:
+    """Retorna contexto cientifico com 3 variações por categoria para evitar repetição."""
     en = {
-        'Astronomia': (
-            'That matters because astronomy does not advance on single detections. '
-            'The field builds confidence by accumulating independent observations across different wavelengths, '
-            'instruments and epochs until isolated signals become defensible conclusions. '
-            'What looks convincing in one dataset can dissolve when a second instrument looks at the same target, '
-            'and what looks marginal can solidify when follow-up campaigns confirm the original reading. '
-            'The current standard requires that a result survive this triangulation before the community treats it as settled.'
-        ),
-        'Cosmologia': (
-            'That matters because cosmology operates at the edge of what current instruments can measure, '
-            'where systematic errors and model assumptions are never trivial. '
-            'Small discrepancies between independent measurements have historically pointed toward missing physics '
-            'rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example '
-            'of how a persistent disagreement between methods can reshape the theoretical landscape. '
-            'Each new dataset that approaches this territory with independent systematics adds real information to a problem '
-            'that has resisted easy resolution for more than a decade.'
-        ),
-        'Astrofísica': (
-            'That matters because astrophysics becomes persuasive only when an observed signal can be tied to a '
-            'physically defensible explanation. '
-            'Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, '
-            'but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage '
-            'and careful modeling. '
-            'A detection without a mechanism is only half a result; the other half comes from showing that the signal '
-            'fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models.'
-        ),
-        'Exoplanetas': (
-            'That matters because exoplanet science has moved beyond the era of simple discovery into a period of comparative characterization. '
-            'With more than five thousand confirmed planets known, the scientifically productive questions now concern '
-            'atmospheric composition, internal structure, orbital history and the statistical properties of populations '
-            'rather than the existence of individual worlds. '
-            'A new detection or spectral measurement is most valuable when it adds a well-constrained data point to those '
-            'comparative frameworks, not when it stands alone as an anecdote.'
-        ),
-        'Física': (
-            'That matters because physics only takes a result seriously when the measurement chain remains robust under scrutiny. '
-            'Experimental particle physics and precision metrology both operate in regimes where the signal sits '
-            'far below the background noise, and where systematic uncertainties can mimic new physics if not controlled rigorously. '
-            'The history of the field contains numerous anomalies that generated theoretical excitement before better data '
-            'showed them to be artifacts, and it also contains genuine discoveries that were initially dismissed as noise. '
-            'The difference is almost always resolved by independent replication with different instruments and different systematics.'
-        ),
-        'Biologia': (
-            'That matters because biology becomes more informative when an observed effect begins to look like a mechanism '
-            'rather than an isolated pattern. '
-            'The gap between identifying a correlation in biological data and understanding the causal chain that produces it '
-            'is routinely underestimated, and the history of biomedical research is populated with associations that collapsed '
-            'when the mechanism was sought and not found. '
-            'A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive '
-            'finding because it generates testable predictions that can narrow the hypothesis space.'
-        ),
-        'Química': (
-            'That matters because chemistry gains force when a claimed structure or process can be described with '
-            'enough precision to be reproduced by others. '
-            'Synthetic routes, spectroscopic signatures, yield under defined conditions and stability under realistic '
-            'operating parameters are the currency of credibility in chemistry, and a result that lacks these details '
-            'cannot be evaluated independently. '
-            'The distance between a discovery on a laboratory bench and a process that works reliably at scale is '
-            'measured in years of optimization, and each step reveals constraints that were invisible at smaller scale.'
-        ),
-        'Ciências da Terra': (
-            'That matters because Earth science becomes stronger when local observations can be placed inside a '
-            'broader physical pattern that spans time and geography. '
-            'The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth '
-            'processes interact across timescales from days to millions of years. '
-            'A measurement that captures one variable at one location and one moment has limited interpretive value '
-            'until it is embedded in the longer series and wider spatial coverage that allow natural variability to '
-            'be separated from forced change.'
-        ),
+        'Astronomia': [
+            (
+                'Astronomy does not advance on single detections. '
+                'The field builds confidence by accumulating independent observations across different wavelengths, '
+                'instruments and epochs until isolated signals become defensible conclusions. '
+                'What looks convincing in one dataset can dissolve when a second instrument examines the same target, '
+                'and what looks marginal can solidify when follow-up campaigns confirm the original reading.'
+            ),
+            (
+                'A single observation, however precise, carries limited weight until corroborated by '
+                'independent measurements using different instruments and spectral bands. '
+                'The current standard in astronomy requires that a result survive triangulation across multiple '
+                'datasets before the community treats it as settled. '
+                'Follow-up campaigns with next-generation facilities will be the real test of this finding.'
+            ),
+            (
+                'Context is essential for reading any astronomical result correctly. '
+                'The science becomes persuasive when new measurements fit consistently into the existing body '
+                'of multi-wavelength evidence rather than standing in isolation. '
+                'The scientific value of this observation will ultimately depend on how well it holds up '
+                'under independent scrutiny from other instruments.'
+            ),
+        ],
+        'Cosmologia': [
+            (
+                'Cosmology operates at the edge of what current instruments can measure, '
+                'where systematic errors and model assumptions are never trivial. '
+                'Small discrepancies between independent measurements have historically pointed toward missing physics '
+                'rather than calibration errors, and the ongoing tension in the Hubble constant demonstrates '
+                'how a persistent disagreement between methods can reshape the theoretical landscape.'
+            ),
+            (
+                'The standard cosmological model describes the observable universe with remarkable economy, '
+                'but its two largest components, dark matter and dark energy, remain physically unexplained. '
+                'Any credible new measurement that tightens constraints on those components, '
+                'or reveals tension with existing parameters, moves the entire theoretical enterprise forward '
+                'regardless of whether the result appears dramatic in isolation.'
+            ),
+            (
+                'Progress in cosmology is cumulative and statistical rather than driven by single breakthroughs. '
+                'Independent surveys that probe the same parameter space with different tracers '
+                'provide the redundancy needed to separate genuine physical signals from instrumental artefacts. '
+                'The value of each new dataset depends critically on how independent its systematic uncertainties '
+                'are from those already in the literature.'
+            ),
+        ],
+        'Astrofísica': [
+            (
+                'Astrophysics becomes persuasive only when an observed signal can be tied to a physically '
+                'defensible explanation. '
+                'Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, '
+                'but their distance and complexity make interpretation difficult without multi-wavelength coverage. '
+                'A detection without a mechanism is only half a result; the other half comes from showing that '
+                'the signal fits quantitatively inside a coherent physical picture.'
+            ),
+            (
+                'Multi-messenger astronomy has transformed how high-energy transients are studied. '
+                'Combining gravitational waves, X-ray, radio and optical data from the same event yields '
+                'physical constraints that no single channel can provide alone. '
+                'Results that rely on a single observational window are inherently more uncertain than '
+                'those confirmed by independent messengers pointing toward the same interpretation.'
+            ),
+            (
+                'The physical conditions near compact objects cannot be replicated in any terrestrial laboratory, '
+                'making astrophysics a unique tool for testing fundamental physics at extreme scales. '
+                'Each new observation of an extreme environment adds a data point to the map of physical '
+                'regimes where theory must be tested rather than assumed.'
+            ),
+        ],
+        'Exoplanetas': [
+            (
+                'Exoplanet science has moved beyond the era of simple discovery into a period of '
+                'comparative characterization. '
+                'With more than five thousand confirmed planets known, the productive questions now concern '
+                'atmospheric composition, internal structure and orbital history rather than existence alone. '
+                'A new result is most valuable when it adds a well-constrained data point to comparative '
+                'frameworks rather than standing as an isolated detection.'
+            ),
+            (
+                'Characterizing an exoplanet atmosphere requires distinguishing the target signal from stellar '
+                'contamination, instrumental systematics and model degeneracies. '
+                'Transmission spectroscopy with JWST has raised the quality of atmospheric detections, '
+                'but interpreting spectra still requires retrieval models that carry their own assumptions. '
+                'Independent confirmation using different observational techniques remains the benchmark for reliability.'
+            ),
+            (
+                'Population-level questions about planetary habitability require well-characterized individual '
+                'data points before statistical trends become meaningful. '
+                'Each new planet with measured radius, mass and atmospheric constraint is a building block '
+                'that allows theorists to test formation models against real distributions rather than projections.'
+            ),
+        ],
+        'Física': [
+            (
+                'Physics takes a result seriously only when the measurement chain remains robust under scrutiny. '
+                'Experimental particle physics and precision metrology operate where the signal sits '
+                'far below the background noise, and systematic uncertainties can mimic new physics if not controlled. '
+                'The difference between a genuine anomaly and an artefact is almost always resolved by '
+                'independent replication with different instruments.'
+            ),
+            (
+                'Precision physics experiments have become powerful tools for probing extensions of the Standard Model. '
+                'Atomic clocks, matter-wave interferometers and quantum sensors now achieve sensitivities '
+                'that place real constraints on hypothetical new particles and forces. '
+                'Each measurement that tightens these constraints, or reveals tension with existing predictions, '
+                'narrows the viable parameter space for theories beyond the Standard Model.'
+            ),
+            (
+                'A durable measurement procedure often matters as much as the headline result it produces. '
+                'When experimentalists develop a technique that achieves new sensitivity or controls '
+                'a previously uncharacterized systematic uncertainty, that methodological contribution '
+                'persists even if the specific result is later revised by better data.'
+            ),
+        ],
+        'Biologia': [
+            (
+                'Biology becomes more informative when an observed effect begins to look like a mechanism '
+                'rather than an isolated correlation. '
+                'The gap between identifying a statistical association in biological data and understanding '
+                'the causal chain that produces it is routinely underestimated. '
+                'A result that comes with a proposed mechanism, even a partial one, is more useful because '
+                'it generates testable predictions that can narrow the hypothesis space.'
+            ),
+            (
+                'Reproducibility across different cell types, model organisms and experimental conditions '
+                'is the first filter that separates robust biological findings from context-dependent artefacts. '
+                'Mechanistic understanding, tested at multiple levels of biological organization, '
+                'provides the most durable foundation for translational applications.'
+            ),
+            (
+                'Single-cell and multi-omics technologies have increased the resolution at which biological '
+                'processes can be observed, but the interpretive challenge has grown in parallel. '
+                'Functional validation, in which a hypothesized mechanism is directly tested rather than '
+                'inferred from correlative data, remains the standard the field demands.'
+            ),
+        ],
+        'Química': [
+            (
+                'Chemistry gains force when a claimed structure or process can be described with '
+                'enough precision to be reproduced by others. '
+                'Synthetic routes, spectroscopic signatures and stability under realistic operating conditions '
+                'are the currency of credibility, and a result that lacks these details cannot be independently evaluated.'
+            ),
+            (
+                'Computational chemistry has become indispensable for narrowing the experimental search space '
+                'before synthesis begins. '
+                'The validation cycle in which computational predictions are tested by experiment '
+                'and results inform the next round of calculations has become the standard approach for materials discovery.'
+            ),
+            (
+                'Operando characterization techniques, which monitor a material while it is functioning '
+                'rather than before or after use, have revealed that many systems undergo structural changes '
+                'under working conditions that static measurements do not capture. '
+                'This has reshaped the interpretation of several well-studied processes.'
+            ),
+        ],
+        'Ciências da Terra': [
+            (
+                'Earth science becomes stronger when local observations can be placed inside a '
+                'broader physical pattern spanning time and geography. '
+                'The planet operates as a coupled system in which atmospheric, oceanic, cryospheric '
+                'and solid-Earth processes interact across timescales from days to millions of years. '
+                'A single measurement has limited interpretive value until embedded in longer series '
+                'that allow natural variability to be separated from forced change.'
+            ),
+            (
+                'Paleoclimate archives including ice cores, marine sediments and tree rings '
+                'provide the temporal context needed to evaluate whether modern observations '
+                'represent unusual departures from natural variability. '
+                'The most defensible conclusions emerge when instrumental records and proxy '
+                'reconstructions converge on the same interpretation.'
+            ),
+            (
+                'Earth system models are essential tools for disentangling competing forcings, '
+                'but their reliability depends on the quality of observational constraints used to validate them. '
+                'New high-quality measurements that can be assimilated into model runs improve forecast '
+                'skill and narrow uncertainty ranges on projections.'
+            ),
+        ],
     }
     pt = {
-        'Astronomia': (
-            'Isso importa porque a astronomia não avança com detecções isoladas. '
-            'O campo constrói confiança acumulando observações independentes em diferentes comprimentos de onda, '
-            'instrumentos e épocas até que sinais isolados se tornem conclusões defensáveis. '
-            'O que parece convincente em um conjunto de dados pode se dissolver quando um segundo instrumento olha '
-            'para o mesmo alvo, e o que parece marginal pode se solidificar quando campanhas de acompanhamento '
-            'confirmam a leitura original. '
-            'O padrão atual exige que um resultado sobreviva a essa triangulação antes de a comunidade tratá-lo como estabelecido.'
-        ),
-        'Cosmologia': (
-            'Isso importa porque a cosmologia opera na fronteira do que os instrumentos atuais conseguem medir, '
-            'onde erros sistemáticos e suposições de modelo nunca são triviais. '
-            'Pequenas discrepâncias entre medições independentes historicamente apontaram para física ausente '
-            'em vez de simples erros de calibração, e a tensão em curso na constante de Hubble é um exemplo vivo '
-            'de como um desacordo persistente entre métodos pode remodelar o panorama teórico. '
-            'Cada novo conjunto de dados que se aproxima desse território com sistemáticos independentes '
-            'adiciona informação real a um problema que resiste a resolução fácil há mais de uma década.'
-        ),
-        'Astrofísica': (
-            'Isso importa porque a astrofísica se torna convincente apenas quando um sinal observado pode ser '
-            'ligado a uma explicação física defensável. '
-            'Objetos compactos como estrelas de nêutrons e buracos negros são laboratórios naturais para física extrema, '
-            'mas a distância e a complexidade desses sistemas tornam a interpretação difícil sem cobertura '
-            'em múltiplos comprimentos de onda e modelagem cuidadosa. '
-            'Uma detecção sem mecanismo é apenas metade de um resultado; a outra metade vem de mostrar que o sinal '
-            'se encaixa quantitativamente dentro de um quadro físico coerente, em vez de ser apenas consistente '
-            'com uma ampla família de modelos.'
-        ),
-        'Exoplanetas': (
-            'Isso importa porque a ciência de exoplanetas passou da era das descobertas simples para um período '
-            'de caracterização comparativa. '
-            'Com mais de cinco mil planetas confirmados conhecidos, as questões cientificamente produtivas agora '
-            'dizem respeito à composição atmosférica, estrutura interna, história orbital e propriedades estatísticas '
-            'de populações, e não mais à existência de mundos individuais. '
-            'Uma nova detecção ou medição espectral é mais valiosa quando adiciona um ponto de dados bem restringido '
-            'a esses quadros comparativos, não quando existe isolada como anedota.'
-        ),
-        'Física': (
-            'Isso importa porque a física só leva um resultado a sério quando a cadeia de medição permanece '
-            'robusta sob escrutínio. '
-            'A física de partículas experimental e a metrologia de precisão operam em regimes onde o sinal '
-            'está muito abaixo do ruído de fundo, e onde incertezas sistemáticas podem imitar nova física '
-            'se não forem controladas rigorosamente. '
-            'A história do campo contém inúmeras anomalias que geraram entusiasmo teórico antes de dados '
-            'melhores mostrarem que eram artefatos, e também contém descobertas genuínas inicialmente descartadas como ruído. '
-            'A diferença é quase sempre resolvida por replicação independente com instrumentos diferentes e sistemáticos distintos.'
-        ),
-        'Biologia': (
-            'Isso importa porque a biologia se torna mais informativa quando um efeito observado começa a parecer '
-            'um mecanismo e não um padrão isolado. '
-            'A distância entre identificar uma correlação em dados biológicos e compreender a cadeia causal que a produz '
-            'é rotineiramente subestimada, e a história da pesquisa biomédica está repleta de associações que '
-            'desmoronaram quando o mecanismo foi buscado e não encontrado. '
-            'Um resultado que vem com um mecanismo proposto, mesmo que parcial, é mais útil do que uma descoberta '
-            'puramente descritiva porque gera previsões testáveis que podem estreitar o espaço de hipóteses.'
-        ),
-        'Química': (
-            'Isso importa porque a química ganha força quando uma estrutura ou processo alegado pode ser descrito '
-            'com precisão suficiente para ser reproduzido por outros. '
-            'Rotas sintéticas, assinaturas espectroscópicas, rendimento em condições definidas e estabilidade '
-            'em parâmetros operacionais realistas são a moeda de credibilidade na química, e um resultado que '
-            'carece desses detalhes não pode ser avaliado de forma independente. '
-            'A distância entre uma descoberta em bancada de laboratório e um processo que funciona '
-            'confiavelmente em escala é medida em anos de otimização, e cada etapa revela restrições '
-            'que eram invisíveis em escala menor.'
-        ),
-        'Ciências da Terra': (
-            'Isso importa porque as ciências da Terra ficam mais fortes quando observações locais podem ser '
-            'encaixadas em um padrão físico mais amplo que abrange tempo e geografia. '
-            'O planeta opera como um sistema acoplado no qual processos atmosféricos, oceânicos, criosféricos '
-            'e da Terra sólida interagem em escalas de tempo de dias a milhões de anos. '
-            'Uma medição que captura uma variável em um local e um momento tem valor interpretativo limitado '
-            'até ser incorporada nas séries mais longas e na cobertura espacial mais ampla que permitem '
-            'separar variabilidade natural de mudança forçada.'
-        ),
+        'Astronomia': [
+            (
+                'A astronomia não avança com detecções isoladas. '
+                'O campo constrói confiança acumulando observações independentes em diferentes comprimentos de onda, '
+                'instrumentos e épocas até que sinais isolados se tornem conclusões defensáveis. '
+                'O que parece convincente em um conjunto de dados pode se dissolver quando um segundo instrumento '
+                'examina o mesmo alvo, e o que parece marginal pode se solidificar quando campanhas de '
+                'acompanhamento confirmam a leitura original.'
+            ),
+            (
+                'Uma única observação, por mais precisa que seja, carrega peso limitado até ser corroborada '
+                'por medições independentes com instrumentos e bandas espectrais diferentes. '
+                'O padrão atual em astronomia exige que um resultado sobreviva à triangulação entre múltiplos '
+                'conjuntos de dados antes de a comunidade tratá-lo como estabelecido. '
+                'Campanhas de acompanhamento com instrumentos de próxima geração serão o teste real desta descoberta.'
+            ),
+            (
+                'O contexto é essencial para interpretar corretamente qualquer resultado astronômico. '
+                'A ciência se torna persuasiva quando novas medições se encaixam consistentemente no corpo '
+                'existente de evidências multibanda, e não quando existem isoladas. '
+                'O valor científico desta observação dependerá de como ela resistirá ao escrutínio independente.'
+            ),
+        ],
+        'Cosmologia': [
+            (
+                'A cosmologia opera na fronteira do que os instrumentos atuais conseguem medir, '
+                'onde erros sistemáticos e suposições de modelo nunca são triviais. '
+                'Pequenas discrepâncias entre medições independentes historicamente apontaram para física ausente '
+                'em vez de erros de calibração, e a tensão na constante de Hubble demonstra como um desacordo '
+                'persistente entre métodos pode remodelar o panorama teórico.'
+            ),
+            (
+                'O modelo cosmológico padrão descreve o universo observável com notável economia, '
+                'mas seus dois maiores componentes, matéria escura e energia escura, permanecem fisicamente inexplicados. '
+                'Qualquer nova medição confiável que aperte as restrições sobre esses componentes, '
+                'ou revele tensão com os parâmetros existentes, faz avançar todo o empreendimento teórico '
+                'independentemente de o resultado parecer dramático isoladamente.'
+            ),
+            (
+                'O progresso em cosmologia é cumulativo e estatístico, não impulsionado por avanços isolados. '
+                'Levantamentos independentes que sondam o mesmo espaço de parâmetros com diferentes traçadores '
+                'fornecem a redundância necessária para separar sinais físicos genuínos de artefatos instrumentais. '
+                'O valor de cada novo conjunto de dados depende criticamente de quão independentes são '
+                'suas incertezas sistemáticas em relação às já existentes na literatura.'
+            ),
+        ],
+        'Astrofísica': [
+            (
+                'A astrofísica se torna persuasiva apenas quando um sinal observado pode ser ligado a uma '
+                'explicação física defensável. '
+                'Objetos compactos como estrelas de nêutrons e buracos negros são laboratórios naturais para física extrema, '
+                'mas sua distância e complexidade tornam a interpretação difícil sem cobertura multicomprimento de onda. '
+                'Uma detecção sem mecanismo é apenas metade de um resultado; a outra metade vem de mostrar '
+                'que o sinal se encaixa quantitativamente dentro de um quadro físico coerente.'
+            ),
+            (
+                'A astronomia multimensageiro transformou o modo como transientes de alta energia são estudados. '
+                'Combinar ondas gravitacionais, dados de raios X, rádio e óptico do mesmo evento fornece '
+                'restrições físicas que nenhum canal isolado consegue fornecer sozinho. '
+                'Resultados que dependem de uma única janela observacional são inerentemente mais incertos '
+                'do que aqueles confirmados por mensageiros independentes.'
+            ),
+            (
+                'As condições físicas próximas a objetos compactos não podem ser reproduzidas em nenhum laboratório terrestre, '
+                'tornando a astrofísica uma ferramenta única para testar a física fundamental em escalas extremas. '
+                'Cada nova observação de um ambiente extremo adiciona um ponto de dados ao mapa de regimes físicos '
+                'onde a teoria deve ser testada e não apenas assumida.'
+            ),
+        ],
+        'Exoplanetas': [
+            (
+                'A ciência de exoplanetas avançou da era das descobertas simples para um período de '
+                'caracterização comparativa. '
+                'Com mais de cinco mil planetas confirmados, as questões produtivas agora dizem respeito '
+                'à composição atmosférica, estrutura interna e história orbital, e não à mera existência de mundos. '
+                'Um novo resultado é mais valioso quando adiciona um ponto de dados bem restringido a '
+                'quadros comparativos, e não quando existe isolado como uma detecção anedótica.'
+            ),
+            (
+                'Caracterizar a atmosfera de um exoplaneta exige distinguir o sinal do alvo da '
+                'contaminação estelar, dos sistemáticos instrumentais e das degenerescências dos modelos. '
+                'A espectroscopia de transmissão com o JWST elevou a qualidade das detecções atmosféricas, '
+                'mas interpretar espectros ainda requer modelos de recuperação com suas próprias suposições. '
+                'A confirmação independente com técnicas diferentes permanece o critério de confiabilidade.'
+            ),
+            (
+                'Questões em nível de população sobre habitabilidade exigem pontos de dados individuais '
+                'bem caracterizados antes que tendências estatísticas se tornem significativas. '
+                'Cada novo planeta com raio, massa e restrição atmosférica medidos é um tijolo nessa estrutura maior, '
+                'permitindo que teóricos testem modelos de formação contra distribuições reais.'
+            ),
+        ],
+        'Física': [
+            (
+                'A física leva um resultado a sério apenas quando a cadeia de medição permanece robusta sob escrutínio. '
+                'A física de partículas experimental e a metrologia de precisão operam onde o sinal está '
+                'muito abaixo do ruído de fundo, e incertezas sistemáticas podem imitar nova física se não controladas. '
+                'A diferença entre uma anomalia genuína e um artefato é quase sempre resolvida por replicação '
+                'independente com instrumentos e sistemáticos distintos.'
+            ),
+            (
+                'Experimentos de física de precisão tornaram-se ferramentas poderosas para sondar '
+                'extensões do Modelo Padrão. '
+                'Relógios atômicos, interferômetros de onda de matéria e sensores quânticos atingem sensibilidades '
+                'que colocam restrições reais sobre partículas e forças hipotéticas. '
+                'Cada medição que tightens essas restrições, ou revela tensão com previsões existentes, '
+                'estreita o espaço de parâmetros viáveis para teorias além do Modelo Padrão.'
+            ),
+            (
+                'Um procedimento de medição duradouro muitas vezes importa tanto quanto o resultado principal. '
+                'Quando experimentadores desenvolvem uma técnica que atinge nova sensibilidade ou controla '
+                'uma incerteza sistemática anteriormente não caracterizada, essa contribuição metodológica '
+                'persiste mesmo que o resultado específico seja revisado posteriormente.'
+            ),
+        ],
+        'Biologia': [
+            (
+                'A biologia se torna mais informativa quando um efeito observado começa a parecer um mecanismo '
+                'e não uma correlação isolada. '
+                'A distância entre identificar uma associação estatística em dados biológicos e compreender '
+                'a cadeia causal que a produz é rotineiramente subestimada. '
+                'Um resultado com mecanismo proposto, mesmo que parcial, é mais útil porque gera '
+                'previsões testáveis que podem estreitar o espaço de hipóteses.'
+            ),
+            (
+                'A reprodutibilidade em diferentes tipos celulares, organismos modelo e condições experimentais '
+                'é o primeiro filtro que separa descobertas biológicas robustas de artefatos dependentes do contexto. '
+                'A compreensão mecanística, testada em múltiplos níveis de organização biológica, '
+                'fornece a base mais duradoura para aplicações translacionais.'
+            ),
+            (
+                'As tecnologias de célula única e multi-ômicas aumentaram a resolução com que processos '
+                'biológicos podem ser observados, mas o desafio interpretativo cresceu em paralelo. '
+                'A validação funcional, em que um mecanismo hipotético é diretamente testado e não inferido '
+                'a partir de dados correlativos, permanece o padrão que o campo exige.'
+            ),
+        ],
+        'Química': [
+            (
+                'A química ganha força quando uma estrutura ou processo alegado pode ser descrito com '
+                'precisão suficiente para ser reproduzido por outros. '
+                'Rotas sintéticas, assinaturas espectroscópicas e estabilidade em condições operacionais realistas '
+                'são a moeda de credibilidade, e um resultado sem esses detalhes não pode ser avaliado de forma independente.'
+            ),
+            (
+                'A química computacional tornou-se indispensável para estreitar o espaço de busca experimental. '
+                'O ciclo de validação em que previsões computacionais são testadas por experimentos '
+                'e resultados informam a próxima rodada de cálculos tornou-se a abordagem padrão '
+                'para a descoberta de materiais.'
+            ),
+            (
+                'Técnicas de caracterização operando, que monitoram um material enquanto funciona '
+                'e não antes ou depois do uso, revelaram que muitos sistemas sofrem mudanças estruturais '
+                'sob condições de trabalho que medições estáticas não capturam. '
+                'Isso reformulou a interpretação de vários processos bem estudados.'
+            ),
+        ],
+        'Ciências da Terra': [
+            (
+                'As ciências da Terra ficam mais fortes quando observações locais podem ser encaixadas em um '
+                'padrão físico mais amplo que abrange tempo e geografia. '
+                'O planeta opera como um sistema acoplado em que processos atmosféricos, oceânicos, criosféricos '
+                'e da Terra sólida interagem em escalas de tempo de dias a milhões de anos. '
+                'Uma medição isolada tem valor interpretativo limitado até ser incorporada nas séries mais longas '
+                'que permitem separar variabilidade natural de mudança forçada.'
+            ),
+            (
+                'Os arquivos paleoclimáticos, incluindo testemunhos de gelo, sedimentos marinhos e anéis de árvores, '
+                'fornecem o contexto temporal necessário para avaliar se observações modernas representam '
+                'desvios incomuns da variabilidade natural. '
+                'As conclusões mais defensáveis emergem quando registros instrumentais e proxies '
+                'convergem para a mesma interpretação.'
+            ),
+            (
+                'Os modelos do sistema terrestre são ferramentas essenciais para separar forçamentos concorrentes, '
+                'mas sua confiabilidade depende da qualidade das restrições observacionais usadas para validá-los. '
+                'Novas medições de alta qualidade que possam ser assimiladas em simulações melhoram '
+                'a habilidade de previsão e estreitam as faixas de incerteza nas projeções.'
+            ),
+        ],
     }
     d = en if lang == 'en' else pt
-    return d.get(category, d['Astronomia'])
-
+    options = d.get(category, d['Astronomia'])
+    if seed:
+        idx = int(hashlib.md5((seed + category + lang).encode()).hexdigest()[:8], 16) % len(options)
+    else:
+        idx = 0
+    return options[idx]
 
 def _significance_bridge(category: str, lang: str) -> str:
     en = {
@@ -1989,19 +2203,16 @@ def _closing_line(category: str, source_type: str, lang: str) -> str:
     return base
 
 
-def _figure_html(img: dict, lang: str) -> str:
-    """Gera o bloco <figure> para uma imagem inline editorial."""
+def _media_html(img: dict, lang: str) -> str:
+    """Gera <figure> para imagem inline."""
     src = html.escape(img['src'])
     alt = html.escape(img.get('alt') or '')
     caption = img.get('caption') or ''
-    credit_label = 'Crédito da imagem' if lang == 'pt' else 'Image credit'
     cap_html = ''
     if caption:
         cap_html = f'<figcaption class="article-inline-caption">{html.escape(caption)}</figcaption>'
-    else:
-        # Sem legenda disponível — usar alt como fallback mínimo se existir
-        if alt and len(alt) > 8:
-            cap_html = f'<figcaption class="article-inline-caption">{html.escape(alt)}</figcaption>'
+    elif alt and len(alt) > 8:
+        cap_html = f'<figcaption class="article-inline-caption">{html.escape(alt)}</figcaption>'
     return (
         f'<figure class="article-inline-figure">'
         f'<img src="{src}" alt="{alt}" loading="lazy" '
@@ -2011,26 +2222,55 @@ def _figure_html(img: dict, lang: str) -> str:
     )
 
 
+def _video_html(video: dict, lang: str) -> str:
+    """Gera embed responsivo para vídeo (YouTube, Vimeo ou <video> nativo)."""
+    src = html.escape(video['src'])
+    vtype = video.get('type', '')
+    label = 'Vídeo do artigo original' if lang == 'pt' else 'Video from original article'
+    if vtype in ('youtube', 'vimeo'):
+        # Garantir que YouTube usa parâmetros de privacidade reforçada
+        embed_src = src
+        if 'youtube.com/embed' in src and 'youtube-nocookie' not in src:
+            embed_src = src.replace('youtube.com/embed', 'youtube-nocookie.com/embed')
+        return (
+            f'<figure class="article-inline-figure article-video-figure">'
+            f'<div class="article-video-wrap">'
+            f'<iframe src="{embed_src}" frameborder="0" allowfullscreen '
+            f'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" '
+            f'loading="lazy" title="{label}"></iframe>'
+            f'</div>'
+            f'<figcaption class="article-inline-caption">{label}</figcaption>'
+            f'</figure>'
+        )
+    # Vídeo nativo HTML5
+    return (
+        f'<figure class="article-inline-figure article-video-figure">'
+        f'<video controls preload="metadata" class="article-native-video">'
+        f'<source src="{src}">'
+        f'</video>'
+        f'<figcaption class="article-inline-caption">{label}</figcaption>'
+        f'</figure>'
+    )
+
+
 def build_body(title: str, summary: str, facts: list[str], category: str, source: str,
                source_type: str, lang: str, src_url: str,
-               inline_imgs: Optional[list[dict]] = None) -> str:
+               inline_media: Optional[dict] = None) -> str:
     useful = _fact_bank(facts, summary)
     lead = _clean_fact_sentence(summary or title, 280)
     detail_bank = distinct_facts([_clean_fact_sentence(f, 200) for f in useful[1:]], 10)
+    seed = title  # usado para variar _context_bridge entre artigos
 
     paragraphs = []
 
     # P1: Abertura — lede + conector de fonte
-    intro = _join_sentences([
-        lead,
-        _intro_connector(lang, source_type),
-    ])
+    intro = _join_sentences([lead, _intro_connector(lang, source_type)])
     if intro:
         paragraphs.append(intro)
 
-    # P2: Contexto + 2 primeiros fatos de detalhe
+    # P2: Contexto científico variado (sem "Isso importa porque" fixo)
     if detail_bank:
-        p2_bits = [_context_bridge(category, lang)]
+        p2_bits = [_context_bridge(category, lang, seed)]
         p2_bits.append(_fact_for_paragraph(detail_bank[0], 200))
         if len(detail_bank) > 1:
             p2_bits.append(_fact_for_paragraph(detail_bank[1], 200))
@@ -2064,13 +2304,15 @@ def build_body(title: str, summary: str, facts: list[str], category: str, source
     # P8: Encerramento — próximos passos
     paragraphs.append(_closing_line(category, source_type, lang))
 
-    # Montar HTML — intercalar imagens inline após P2, P4 e P6 se disponíveis
-    imgs = list(inline_imgs or [])
-    img_slots = {2, 4, 6}  # índices de parágrafo (0-based) após os quais inserir figura
+    # Preparar mídia inline para intercalar
+    imgs = list((inline_media or {}).get('images', []))
+    vids = list((inline_media or {}).get('videos', []))
+    # Slots: imagem após P2, P4; vídeo após P3 (se existir)
+    img_slots  = {2: 0, 4: 1}   # {índice_parágrafo: índice_img}
+    video_slot = 3               # inserir vídeo após P3
 
-    parts = []
-    seen = set()
-    img_idx = 0
+    parts: list[str] = []
+    seen: set[str] = set()
 
     for para_idx, paragraph in enumerate(paragraphs):
         cleaned = collapse_ws(paragraph)
@@ -2082,10 +2324,15 @@ def build_body(title: str, summary: str, facts: list[str], category: str, source
         seen.add(key)
         parts.append(f'<p>{html.escape(cleaned)}</p>')
 
-        # Inserir imagem inline após este parágrafo se houver slot e imagem disponível
-        if para_idx in img_slots and img_idx < len(imgs):
-            parts.append(_figure_html(imgs[img_idx], lang))
-            img_idx += 1
+        # Imagem inline
+        if para_idx in img_slots:
+            img_idx = img_slots[para_idx]
+            if img_idx < len(imgs):
+                parts.append(_media_html(imgs[img_idx], lang))
+
+        # Vídeo inline
+        if para_idx == video_slot and vids:
+            parts.append(_video_html(vids[0], lang))
 
     if src_url:
         label = 'Fonte' if lang == 'pt' else 'Source'
@@ -2146,33 +2393,33 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
     facts_en = gather_fact_sentences(item)
     title_en = collapse_ws(item['title'])
     summary_en = build_deck(item['summary'], facts_en)
-    highlights_en = build_highlights(title_en, summary_en, facts_en, item['source_type'], 'en')
 
-    # Extrair imagem principal e imagens inline do artigo original
+    # Imagem principal e mídia inline (zero custo extra de rede — usa cache)
     image = choose_post_image(item, category)
-    inline_imgs = []
+    inline_media: dict = {}
     if item.get('source_type') != 'preprint':
-        inline_imgs = extract_inline_images(src_url, primary_img=image)
+        inline_media = extract_inline_media(src_url, primary_img=image)
 
-    body_en = build_body(title_en, summary_en, facts_en, category, item['source'], item['source_type'], 'en', src_url, inline_imgs)
+    highlights_en = build_highlights(title_en, summary_en, facts_en, item['source_type'], 'en')
+    body_en = build_body(title_en, summary_en, facts_en, category, item['source'],
+                         item['source_type'], 'en', src_url, inline_media)
 
     title_pt = translate_text(title_en, 'pt')
     summary_pt = translate_text(summary_en, 'pt')
     facts_pt = [translate_text(fact, 'pt') for fact in facts_en[:6]]
     highlights_pt = build_highlights(title_pt, summary_pt, facts_pt, item['source_type'], 'pt')
-    body_pt = build_body(title_pt, summary_pt, facts_pt, category, item['source'], item['source_type'], 'pt', src_url, inline_imgs)
+    body_pt = build_body(title_pt, summary_pt, facts_pt, category, item['source'],
+                         item['source_type'], 'pt', src_url, inline_media)
 
-    # Revisão de qualidade em português via Gemini API (gratuita)
-    # Ativa somente se GEMINI_API_KEY estiver definida
+    # Revisão gratuita via Gemini (ativa apenas se GEMINI_API_KEY definida)
     if GEMINI_ENABLED:
         try:
-            title_pt = gemini_review_pt(title_pt)
+            title_pt   = gemini_review_pt(title_pt)
             summary_pt = gemini_review_pt(summary_pt)
-            body_pt = gemini_review_pt(body_pt)
-            # Pequena pausa para respeitar rate limits da API gratuita
-            time.sleep(0.5)
+            body_pt    = gemini_review_pt(body_pt)
+            time.sleep(0.4)  # respeitar rate limit da camada gratuita
         except Exception as exc:
-            print(f'  Revisão PT ignorada para "{title_en[:50]}": {exc}')
+            print(f'  Revisão PT ignorada: {exc}')
 
     dt = item['published']
     slug = slugify(title_en)
