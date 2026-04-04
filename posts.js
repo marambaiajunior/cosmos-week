@@ -1,3 +1,333 @@
 // Dados atualizados automaticamente para o Cosmos Week
 
-window.postsData = [];
+window.postsData = [
+  {
+    "id": 1,
+    "slug": "portal-restaurado-automacao-editorial",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Milky_Way%2C_above_Mauna_Kea_-_by_Luc_Viatour.jpg/1280px-Milky_Way%2C_above_Mauna_Kea_-_by_Luc_Viatour.jpg",
+    "title": "Portal restaurado: automação volta a publicar sem apagar o acervo",
+    "title_pt": "Portal restaurado: automação volta a publicar sem apagar o acervo",
+    "title_en": "Portal restored: automation resumes publishing without wiping the archive",
+    "sub": "O Cosmos Week recebeu uma correção estrutural para impedir que execuções com feed vazio apaguem as matérias já publicadas.",
+    "sub_pt": "O Cosmos Week recebeu uma correção estrutural para impedir que execuções com feed vazio apaguem as matérias já publicadas.",
+    "sub_en": "Cosmos Week received a structural fix to prevent empty-feed runs from wiping already published stories.",
+    "excerpt": "O Cosmos Week recebeu uma correção estrutural para impedir que execuções com feed vazio apaguem as matérias já publicadas.",
+    "excerpt_pt": "O Cosmos Week recebeu uma correção estrutural para impedir que execuções com feed vazio apaguem as matérias já publicadas.",
+    "excerpt_en": "Cosmos Week received a structural fix to prevent empty-feed runs from wiping already published stories.",
+    "body": "<p>O portal foi restaurado com uma trava simples, mas crucial: se a automação gerar poucos itens ou retornar vazio, a publicação é abortada antes de sobrescrever os arquivos públicos do site.</p><p>Na prática, isso evita que posts.json, posts.js, feed.xml e sitemap.xml sejam substituídos por listas vazias, que foi exatamente o comportamento que deixou a home sem conteúdo.</p><p>A nova rotina mantém o estilo visual original do projeto e atua apenas no pipeline de geração e validação, preservando o desenho editorial, as fontes e a identidade do portal.</p><p>Isso transforma a publicação em um processo mais confiável, porque um erro de coleta em uma rodada já não é suficiente para destruir a camada pública do site.</p>",
+    "body_pt": "<p>O portal foi restaurado com uma trava simples, mas crucial: se a automação gerar poucos itens ou retornar vazio, a publicação é abortada antes de sobrescrever os arquivos públicos do site.</p><p>Na prática, isso evita que posts.json, posts.js, feed.xml e sitemap.xml sejam substituídos por listas vazias, que foi exatamente o comportamento que deixou a home sem conteúdo.</p><p>A nova rotina mantém o estilo visual original do projeto e atua apenas no pipeline de geração e validação, preservando o desenho editorial, as fontes e a identidade do portal.</p><p>Isso transforma a publicação em um processo mais confiável, porque um erro de coleta em uma rodada já não é suficiente para destruir a camada pública do site.</p>",
+    "body_en": "<p>The portal was restored with a simple but critical safeguard: if the automation generates too few items or returns empty, publishing is aborted before public site files are overwritten.</p><p>In practice, this prevents posts.json, posts.js, feed.xml and sitemap.xml from being replaced by empty lists, which is exactly what left the homepage without content.</p><p>The new routine keeps the original visual style intact and only acts on generation and validation, preserving the editorial design, typography and identity of the portal.</p><p>That makes publishing more reliable, because one collection error is no longer enough to destroy the public layer of the site.</p>",
+    "highlights": [
+      "O Cosmos Week recebeu uma correção estrutural para impedir que execuções com feed vazio apaguem as matérias já publicadas.",
+      "Fonte interna do portal.",
+      "Pipeline protegido contra publicação vazia."
+    ],
+    "highlights_pt": [
+      "O Cosmos Week recebeu uma correção estrutural para impedir que execuções com feed vazio apaguem as matérias já publicadas.",
+      "Fonte interna do portal.",
+      "Pipeline protegido contra publicação vazia."
+    ],
+    "highlights_en": [
+      "Cosmos Week received a structural fix to prevent empty-feed runs from wiping already published stories.",
+      "Internal portal source.",
+      "Pipeline protected against empty publish."
+    ],
+    "date": "4 abr 2026",
+    "date_pt": "4 abr 2026",
+    "date_en": "Apr 04, 2026",
+    "time": "14h45",
+    "time_pt": "14h45",
+    "time_en": "14:45 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-04T14:45:00+00:00",
+    "lastModifiedIso": "2026-04-04T14:45:00+00:00",
+    "source": "Cosmos Week",
+    "sourceDomain": "marambaiajunior.github.io",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Atualização editorial interna do portal.",
+    "sourceNote_pt": "Atualização editorial interna do portal.",
+    "sourceNote_en": "Internal editorial portal update.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "Cosmos Week",
+      "automação editorial",
+      "Gemini",
+      "mídia incorporada"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "Cosmos Week",
+      "automação editorial",
+      "Gemini",
+      "mídia incorporada"
+    ],
+    "keywords_en": [
+      "Cosmos Week",
+      "Astronomia",
+      "editorial automation",
+      "Gemini",
+      "embedded media"
+    ],
+    "srcUrl": "https://marambaiajunior.github.io/cosmos-week/?article=portal-restaurado-automacao-editorial",
+    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=portal-restaurado-automacao-editorial",
+    "featured": true,
+    "trending": true,
+    "isPreprint": false,
+    "score": 91,
+    "scoreBreakdown": {
+      "source": 94,
+      "evidence": 90,
+      "relevance": 89,
+      "accessibility": 93,
+      "novelty": 88
+    },
+    "media": [
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/LSST_at_Sunset_%28Cropped%29.jpg/1280px-LSST_at_Sunset_%28Cropped%29.jpg",
+        "caption": "Imagem temática usada como mídia interna de demonstração."
+      },
+      {
+        "type": "embed",
+        "src": "https://www.youtube.com/embed/21X5lGlDOfg",
+        "caption": "Exemplo de embed de vídeo compatível com o corpo da matéria."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "revisao-final-em-portugues-via-gemini",
+    "cat": "Física",
+    "catCls": "física",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/CERN_Globe_and_Main_Building.jpg/1280px-CERN_Globe_and_Main_Building.jpg",
+    "title": "Revisão final em português via Gemini entra no pipeline editorial",
+    "title_pt": "Revisão final em português via Gemini entra no pipeline editorial",
+    "title_en": "Final Portuguese review via Gemini enters the editorial pipeline",
+    "sub": "Antes da publicação, cada matéria agora pode passar por uma revisão final de português usando a chave GEMINI_API_KEY já guardada nos secrets do GitHub.",
+    "sub_pt": "Antes da publicação, cada matéria agora pode passar por uma revisão final de português usando a chave GEMINI_API_KEY já guardada nos secrets do GitHub.",
+    "sub_en": "Before publication, each story can now go through a final Portuguese review using the GEMINI_API_KEY already stored in GitHub secrets.",
+    "excerpt": "Antes da publicação, cada matéria agora pode passar por uma revisão final de português usando a chave GEMINI_API_KEY já guardada nos secrets do GitHub.",
+    "excerpt_pt": "Antes da publicação, cada matéria agora pode passar por uma revisão final de português usando a chave GEMINI_API_KEY já guardada nos secrets do GitHub.",
+    "excerpt_en": "Before publication, each story can now go through a final Portuguese review using the GEMINI_API_KEY already stored in GitHub secrets.",
+    "body": "<p>A revisão via Gemini foi colocada no final do processo para atuar como copidesque e não como gerador soberano do conteúdo. O objetivo é corrigir gramática, ortografia, coesão, pontuação e frases truncadas sem inventar fatos.</p><p>O script envia ao modelo apenas um pacote restrito com título, resumo e corpo, exige retorno em JSON válido e rejeita respostas que alterem a estrutura HTML do texto ou mexam em atributos sensíveis como src e href.</p><p>Isso reduz justamente os defeitos que mais apareciam nas matérias: repetições mecânicas, frases que terminavam mal e traduções que soavam duras demais em português.</p><p>Se a revisão falhar, o pipeline mantém o texto original gerado localmente e segue em frente, o que evita depender de uma única chamada externa para publicar o portal.</p>",
+    "body_pt": "<p>A revisão via Gemini foi colocada no final do processo para atuar como copidesque e não como gerador soberano do conteúdo. O objetivo é corrigir gramática, ortografia, coesão, pontuação e frases truncadas sem inventar fatos.</p><p>O script envia ao modelo apenas um pacote restrito com título, resumo e corpo, exige retorno em JSON válido e rejeita respostas que alterem a estrutura HTML do texto ou mexam em atributos sensíveis como src e href.</p><p>Isso reduz justamente os defeitos que mais apareciam nas matérias: repetições mecânicas, frases que terminavam mal e traduções que soavam duras demais em português.</p><p>Se a revisão falhar, o pipeline mantém o texto original gerado localmente e segue em frente, o que evita depender de uma única chamada externa para publicar o portal.</p>",
+    "body_en": "<p>Gemini review was placed at the very end of the process so it acts as a copy editor, not as a sovereign content generator. The goal is to fix grammar, orthography, cohesion, punctuation and truncated sentences without inventing facts.</p><p>The script sends the model only a constrained package with title, summary and body, demands valid JSON in return, and rejects answers that alter the HTML structure or touch sensitive attributes such as src and href.</p><p>That specifically targets the defects that showed up most often in stories: mechanical repetition, badly ended sentences and translations that felt too stiff in Portuguese.</p><p>If the review fails, the pipeline keeps the locally generated text and moves on, so publication does not depend on a single external call.</p>",
+    "highlights": [
+      "Antes da publicação, cada matéria agora pode passar por uma revisão final de português usando a chave GEMINI_API_KEY já guardada nos secrets do GitHub.",
+      "Fonte interna do portal.",
+      "Pipeline protegido contra publicação vazia."
+    ],
+    "highlights_pt": [
+      "Antes da publicação, cada matéria agora pode passar por uma revisão final de português usando a chave GEMINI_API_KEY já guardada nos secrets do GitHub.",
+      "Fonte interna do portal.",
+      "Pipeline protegido contra publicação vazia."
+    ],
+    "highlights_en": [
+      "Before publication, each story can now go through a final Portuguese review using the GEMINI_API_KEY already stored in GitHub secrets.",
+      "Internal portal source.",
+      "Pipeline protected against empty publish."
+    ],
+    "date": "4 abr 2026",
+    "date_pt": "4 abr 2026",
+    "date_en": "Apr 04, 2026",
+    "time": "11h45",
+    "time_pt": "11h45",
+    "time_en": "11:45 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-04T11:45:00+00:00",
+    "lastModifiedIso": "2026-04-04T11:45:00+00:00",
+    "source": "Cosmos Week",
+    "sourceDomain": "marambaiajunior.github.io",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Atualização editorial interna do portal.",
+    "sourceNote_pt": "Atualização editorial interna do portal.",
+    "sourceNote_en": "Internal editorial portal update.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Física",
+      "Cosmos Week",
+      "automação editorial",
+      "Gemini",
+      "mídia incorporada"
+    ],
+    "keywords_pt": [
+      "Física",
+      "Cosmos Week",
+      "automação editorial",
+      "Gemini",
+      "mídia incorporada"
+    ],
+    "keywords_en": [
+      "Cosmos Week",
+      "Física",
+      "editorial automation",
+      "Gemini",
+      "embedded media"
+    ],
+    "srcUrl": "https://marambaiajunior.github.io/cosmos-week/?article=revisao-final-em-portugues-via-gemini",
+    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=revisao-final-em-portugues-via-gemini",
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "score": 90,
+    "scoreBreakdown": {
+      "source": 94,
+      "evidence": 90,
+      "relevance": 89,
+      "accessibility": 93,
+      "novelty": 88
+    },
+    "media": [
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/LHCb_event_display.jpg/1280px-LHCb_event_display.jpg",
+        "caption": "Imagem interna distribuída automaticamente entre os parágrafos."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/DNA_orbit_animated_static_thumb.png/1280px-DNA_orbit_animated_static_thumb.png",
+        "caption": "Outro bloco de mídia para validar a distribuição no corpo."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "midias-distribuidas-no-corpo-das-materias",
+    "cat": "Astrofísica",
+    "catCls": "astrofísica",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1280px-Black_hole_-_Messier_87_crop_max_res.jpg",
+    "title": "Matérias agora distribuem imagens e vídeos ao longo do texto",
+    "title_pt": "Matérias agora distribuem imagens e vídeos ao longo do texto",
+    "title_en": "Stories now distribute images and videos throughout the article body",
+    "sub": "A renderização do artigo foi ajustada para inserir as mídias ao longo da leitura, em vez de despejar tudo no final da página.",
+    "sub_pt": "A renderização do artigo foi ajustada para inserir as mídias ao longo da leitura, em vez de despejar tudo no final da página.",
+    "sub_en": "Article rendering was adjusted to insert media throughout reading instead of dumping everything at the end of the page.",
+    "excerpt": "A renderização do artigo foi ajustada para inserir as mídias ao longo da leitura, em vez de despejar tudo no final da página.",
+    "excerpt_pt": "A renderização do artigo foi ajustada para inserir as mídias ao longo da leitura, em vez de despejar tudo no final da página.",
+    "excerpt_en": "Article rendering was adjusted to insert media throughout reading instead of dumping everything at the end of the page.",
+    "body": "<p>O front-end agora intercala mídias adicionais com os parágrafos do corpo. A regra aplicada nesta versão insere um bloco de mídia a cada dois parágrafos, deixando o restante para o final apenas se sobrar conteúdo multimídia.</p><p>Isso melhora a leitura e aproxima o resultado do comportamento esperado em um portal editorial de verdade, com imagens e vídeos aparecendo em pontos onde o texto ainda está em andamento.</p><p>O suporte cobre imagens internas, vídeos em HTML5 e embeds seguros, como YouTube e Vimeo. Cada item é carregado de forma preguiçosa para reduzir impacto no desempenho.</p><p>A identidade visual principal não foi redesenhada. O que mudou foi a composição da página de artigo, que agora ganhou uma estrutura mais viva e menos parecida com um bloco de texto seguido de depósito de mídia.</p>",
+    "body_pt": "<p>O front-end agora intercala mídias adicionais com os parágrafos do corpo. A regra aplicada nesta versão insere um bloco de mídia a cada dois parágrafos, deixando o restante para o final apenas se sobrar conteúdo multimídia.</p><p>Isso melhora a leitura e aproxima o resultado do comportamento esperado em um portal editorial de verdade, com imagens e vídeos aparecendo em pontos onde o texto ainda está em andamento.</p><p>O suporte cobre imagens internas, vídeos em HTML5 e embeds seguros, como YouTube e Vimeo. Cada item é carregado de forma preguiçosa para reduzir impacto no desempenho.</p><p>A identidade visual principal não foi redesenhada. O que mudou foi a composição da página de artigo, que agora ganhou uma estrutura mais viva e menos parecida com um bloco de texto seguido de depósito de mídia.</p>",
+    "body_en": "<p>The front-end now interleaves extra media with body paragraphs. The rule in this version inserts a media block every two paragraphs, leaving only any leftovers to the end.</p><p>That improves reading flow and makes the result much closer to what one expects from a real editorial portal, with images and videos appearing while the text is still progressing.</p><p>Support covers internal images, HTML5 videos and safe embeds such as YouTube and Vimeo. Each item is lazy-loaded to reduce performance impact.</p><p>The main visual identity was not redesigned. What changed is the composition of the article page, which now feels more alive and less like a text block followed by a media dump.</p>",
+    "highlights": [
+      "A renderização do artigo foi ajustada para inserir as mídias ao longo da leitura, em vez de despejar tudo no final da página.",
+      "Fonte interna do portal.",
+      "Pipeline protegido contra publicação vazia."
+    ],
+    "highlights_pt": [
+      "A renderização do artigo foi ajustada para inserir as mídias ao longo da leitura, em vez de despejar tudo no final da página.",
+      "Fonte interna do portal.",
+      "Pipeline protegido contra publicação vazia."
+    ],
+    "highlights_en": [
+      "Article rendering was adjusted to insert media throughout reading instead of dumping everything at the end of the page.",
+      "Internal portal source.",
+      "Pipeline protected against empty publish."
+    ],
+    "date": "4 abr 2026",
+    "date_pt": "4 abr 2026",
+    "date_en": "Apr 04, 2026",
+    "time": "08h45",
+    "time_pt": "08h45",
+    "time_en": "08:45 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-04T08:45:00+00:00",
+    "lastModifiedIso": "2026-04-04T08:45:00+00:00",
+    "source": "Cosmos Week",
+    "sourceDomain": "marambaiajunior.github.io",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Atualização editorial interna do portal.",
+    "sourceNote_pt": "Atualização editorial interna do portal.",
+    "sourceNote_en": "Internal editorial portal update.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Astrofísica",
+      "Cosmos Week",
+      "automação editorial",
+      "Gemini",
+      "mídia incorporada"
+    ],
+    "keywords_pt": [
+      "Astrofísica",
+      "Cosmos Week",
+      "automação editorial",
+      "Gemini",
+      "mídia incorporada"
+    ],
+    "keywords_en": [
+      "Cosmos Week",
+      "Astrofísica",
+      "editorial automation",
+      "Gemini",
+      "embedded media"
+    ],
+    "srcUrl": "https://marambaiajunior.github.io/cosmos-week/?article=midias-distribuidas-no-corpo-das-materias",
+    "canonicalUrl": "https://marambaiajunior.github.io/cosmos-week/?article=midias-distribuidas-no-corpo-das-materias",
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "score": 89,
+    "scoreBreakdown": {
+      "source": 94,
+      "evidence": 90,
+      "relevance": 89,
+      "accessibility": 93,
+      "novelty": 88
+    },
+    "media": [
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/M87_jet.jpg/1280px-M87_jet.jpg",
+        "caption": "Imagem temática adicional dentro do corpo."
+      },
+      {
+        "type": "embed",
+        "src": "https://www.youtube.com/embed/wwMDvPCGeE0",
+        "caption": "Outro exemplo de vídeo incorporado no corpo da matéria."
+      },
+      {
+        "type": "image",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Neutron_star_collision.jpg/1280px-Neutron_star_collision.jpg",
+        "caption": "Bloco extra para demonstrar a distribuição automática."
+      }
+    ]
+  }
+];

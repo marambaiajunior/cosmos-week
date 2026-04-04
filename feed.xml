@@ -5,8 +5,38 @@
     <link>https://marambaiajunior.github.io/cosmos-week/</link>
     <description>Portal de jornalismo científico com foco em astronomia, astrofísica, cosmologia e ciência de fronteira.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sat, 04 Apr 2026 13:57:48 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 14:45:00 +0000</lastBuildDate>
     <generator>CosmosWeekBot 5.0</generator>
-    
+    <item>
+  <title>Portal restaurado: automação volta a publicar sem apagar o acervo</title>
+  <link>https://marambaiajunior.github.io/cosmos-week/?article=portal-restaurado-automacao-editorial</link>
+  <guid>https://marambaiajunior.github.io/cosmos-week/?article=portal-restaurado-automacao-editorial</guid>
+  <pubDate>Sat, 04 Apr 2026 14:45:00 +0000</pubDate>
+  <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+  <description>O Cosmos Week recebeu uma correção estrutural para impedir que execuções com feed vazio apaguem as matérias já publicadas.</description>
+  <category>Astronomia</category><category>Cosmos Week</category><category>automação editorial</category><category>Gemini</category>
+  <source url="https://marambaiajunior.github.io/cosmos-week/?article=portal-restaurado-automacao-editorial">Cosmos Week</source>
+  <content:encoded>O Cosmos Week recebeu uma correção estrutural para impedir que execuções com feed vazio apaguem as matérias já publicadas.</content:encoded>
+</item><item>
+  <title>Revisão final em português via Gemini entra no pipeline editorial</title>
+  <link>https://marambaiajunior.github.io/cosmos-week/?article=revisao-final-em-portugues-via-gemini</link>
+  <guid>https://marambaiajunior.github.io/cosmos-week/?article=revisao-final-em-portugues-via-gemini</guid>
+  <pubDate>Sat, 04 Apr 2026 11:45:00 +0000</pubDate>
+  <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+  <description>Antes da publicação, cada matéria agora pode passar por uma revisão final de português usando a chave GEMINI_API_KEY já guardada nos secrets do GitHub.</description>
+  <category>Física</category><category>Cosmos Week</category><category>automação editorial</category><category>Gemini</category>
+  <source url="https://marambaiajunior.github.io/cosmos-week/?article=revisao-final-em-portugues-via-gemini">Cosmos Week</source>
+  <content:encoded>Antes da publicação, cada matéria agora pode passar por uma revisão final de português usando a chave GEMINI_API_KEY já guardada nos secrets do GitHub.</content:encoded>
+</item><item>
+  <title>Matérias agora distribuem imagens e vídeos ao longo do texto</title>
+  <link>https://marambaiajunior.github.io/cosmos-week/?article=midias-distribuidas-no-corpo-das-materias</link>
+  <guid>https://marambaiajunior.github.io/cosmos-week/?article=midias-distribuidas-no-corpo-das-materias</guid>
+  <pubDate>Sat, 04 Apr 2026 08:45:00 +0000</pubDate>
+  <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+  <description>A renderização do artigo foi ajustada para inserir as mídias ao longo da leitura, em vez de despejar tudo no final da página.</description>
+  <category>Astrofísica</category><category>Cosmos Week</category><category>automação editorial</category><category>Gemini</category>
+  <source url="https://marambaiajunior.github.io/cosmos-week/?article=midias-distribuidas-no-corpo-das-materias">Cosmos Week</source>
+  <content:encoded>A renderização do artigo foi ajustada para inserir as mídias ao longo da leitura, em vez de despejar tudo no final da página.</content:encoded>
+</item>
   </channel>
 </rss>
