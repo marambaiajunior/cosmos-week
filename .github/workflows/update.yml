@@ -33,6 +33,24 @@ jobs:
       - name: Gerar portal e metadados estáticos
         run: python scripts/fetch_news.py
 
+      - name: Validar saída gerada
+        run: |
+          python - <<'PYTHON'
+          import json
+          from pathlib import Path
+
+          posts_path = Path('posts.json')
+          posts = json.loads(posts_path.read_text(encoding='utf-8'))
+          if not isinstance(posts, list) or len(posts) < 3:
+              raise SystemExit('Saída insuficiente: posts.json veio vazio ou pequeno demais.')
+          if Path('posts.js').read_text(encoding='utf-8').count('window.postsData') != 1:
+              raise SystemExit('posts.js inválido.')
+          if '<item>' not in Path('feed.xml').read_text(encoding='utf-8'):
+              raise SystemExit('feed.xml sem itens.')
+          if '<url>' not in Path('sitemap.xml').read_text(encoding='utf-8'):
+              raise SystemExit('sitemap.xml sem URLs.')
+          PYTHON
+
       - name: Commitar mudanças
         run: |
           git config user.name "github-actions[bot]"
