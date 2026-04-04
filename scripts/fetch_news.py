@@ -1130,37 +1130,118 @@ def _img_looks_editorial(url: str, w: int = 0, h: int = 0) -> bool:
     return True
 
 
-def _extract_video_embed(page_html: str, base_url: str) -> list[dict]:
-    """Extrai iframes de YouTube/Vimeo e tags <video> do HTML da página."""
-    videos = []
-    seen = set()
+def _youtube_to_embed(url: str) -> str:
+    """Converte qualquer variante de URL do YouTube para embed."""
+    url = url.strip()
+    # já é embed
+    if 'youtube.com/embed/' in url or 'youtube-nocookie.com/embed/' in url:
+        return url
+    # youtu.be/ID
+    m = re.search(r'youtu\.be/([A-Za-z0-9_\-]{10,12})', url)
+    if m:
+        return f'https://www.youtube-nocookie.com/embed/{m.group(1)}'
+    # watch?v=ID
+    m = re.search(r'[?&]v=([A-Za-z0-9_\-]{10,12})', url)
+    if m:
+        return f'https://www.youtube-nocookie.com/embed/{m.group(1)}'
+    return ''
 
-    # YouTube iframes
-    for m in re.finditer(
-        r'<iframe[^>]+src=["\']([^"\']*(?:youtube\.com/embed|youtube-nocookie\.com/embed|youtu\.be)[^"\']*)["\'][^>]*>',
-        page_html, flags=re.I
-    ):
-        src = m.group(1).strip()
-        if src not in seen:
-            seen.add(src)
-            videos.append({'type': 'youtube', 'src': src})
+
+def _vimeo_to_embed(url: str) -> str:
+    """Converte URL do Vimeo para embed."""
+    m = re.search(r'vimeo\.com/(?:video/)?(\d+)', url)
+    if m:
+        return f'https://player.vimeo.com/video/{m.group(1)}'
+    return ''
+
+
+def _extract_video_embed(page_html: str, base_url: str) -> list[dict]:
+    """Extrai iframes de YouTube/Vimeo e tags <video> do HTML da página.
+    Suporta: src direto, data-src (lazy-load), WordPress wp-block-embed,
+    data-url, URLs em texto livre dentro de divs de embed."""
+    videos: list[dict] = []
+    seen: set[str] = set()
+
+    def _add(src: str, vtype: str) -> bool:
+        if not src or src in seen:
+            return False
+        seen.add(src)
+        videos.append({'type': vtype, 'src': src})
+        return True
+
+    # ── 1. iframes com src ou data-src (YouTube + Vimeo) ──────────────────
+    for m in re.finditer(r'<iframe([^>]+)>', page_html, flags=re.I):
+        attrs = m.group(1)
+        # pegar src ou data-src ou data-lazy-src
+        src_raw = ''
+        for attr in ('data-src', 'data-lazy-src', 'src'):
+            am = re.search(rf'{attr}=["\']([^"\']+)["\']', attrs, flags=re.I)
+            if am:
+                src_raw = am.group(1).strip()
+                break
+        if not src_raw:
+            continue
+        low = src_raw.lower()
+        if 'youtube' in low or 'youtu.be' in low:
+            embed = _youtube_to_embed(src_raw)
+            if embed:
+                _add(embed, 'youtube')
+        elif 'vimeo' in low:
+            embed = _vimeo_to_embed(src_raw)
+            if embed:
+                _add(embed, 'vimeo')
         if len(videos) >= 2:
             break
 
-    # Vimeo iframes
+    # ── 2. WordPress wp-block-embed (bloco Gutenberg) ─────────────────────
     if len(videos) < 2:
-        for m in re.finditer(
-            r'<iframe[^>]+src=["\']([^"\']*vimeo\.com/video/[^"\']*)["\'][^>]*>',
-            page_html, flags=re.I
+        for fig_m in re.finditer(
+            r'<(?:figure|div)[^>]+class=["\'][^"\']*wp-block-embed[^"\']*["\'][^>]*>(.*?)</(?:figure|div)>',
+            page_html, flags=re.I | re.S
         ):
-            src = m.group(1).strip()
-            if src not in seen:
-                seen.add(src)
-                videos.append({'type': 'vimeo', 'src': src})
+            block = fig_m.group(1)
+            # URL pode estar em data-url, href ou texto livre
+            for pat in (
+                r'data-url=["\']([^"\']+)["\']',
+                r'href=["\']([^"\']+)["\']',
+                r'>(https?://(?:www\.)?(?:youtube\.com/watch|youtu\.be|vimeo\.com)/[^<\s]+)<',
+            ):
+                um = re.search(pat, block, flags=re.I)
+                if not um:
+                    continue
+                raw = um.group(1).strip()
+                low = raw.lower()
+                if 'youtube' in low or 'youtu.be' in low:
+                    embed = _youtube_to_embed(raw)
+                    if embed and _add(embed, 'youtube'):
+                        break
+                elif 'vimeo' in low:
+                    embed = _vimeo_to_embed(raw)
+                    if embed and _add(embed, 'vimeo'):
+                        break
             if len(videos) >= 2:
                 break
 
-    # Tags <video> nativas
+    # ── 3. data-url / data-video-url em qualquer elemento ────────────────
+    if len(videos) < 2:
+        for m in re.finditer(
+            r'data-(?:url|video-?url|embed-?url)=["\']([^"\']+)["\']',
+            page_html, flags=re.I
+        ):
+            raw = m.group(1).strip()
+            low = raw.lower()
+            if 'youtube' in low or 'youtu.be' in low:
+                embed = _youtube_to_embed(raw)
+                if embed:
+                    _add(embed, 'youtube')
+            elif 'vimeo' in low:
+                embed = _vimeo_to_embed(raw)
+                if embed:
+                    _add(embed, 'vimeo')
+            if len(videos) >= 2:
+                break
+
+    # ── 4. Tags <video> nativas ───────────────────────────────────────────
     if len(videos) < 2:
         for m in re.finditer(r'<video[^>]*>(.*?)</video>', page_html, flags=re.I | re.S):
             src_m = re.search(r'<source[^>]+src=["\']([^"\']+)["\']', m.group(1), flags=re.I)
@@ -1168,11 +1249,11 @@ def _extract_video_embed(page_html: str, base_url: str) -> list[dict]:
                 src_m = re.search(r'src=["\']([^"\']+)["\']', m.group(0), flags=re.I)
             if src_m:
                 src = urllib.parse.urljoin(base_url, src_m.group(1).strip())
-                if src not in seen:
-                    seen.add(src)
-                    videos.append({'type': 'video', 'src': src})
+                _add(src, 'video')
             if len(videos) >= 2:
                 break
+
+    return videos
 
     return videos
 
