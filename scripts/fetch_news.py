@@ -2399,7 +2399,50 @@ def build_body(title: str, summary: str, facts: list[str], category: str, source
 
     # P2: Contexto + 2 primeiros fatos de detalhe
     if detail_bank:
-        p2_bits = [_context_bridge(category, lang)]
+        # Get the contextual bridge and vary its introductory phrase to avoid repetitious
+        # openings like "Isso importa porque" / "That matters because". We replace the
+        # introductory segment with one drawn from a small pool of alternatives to
+        # produce more natural variation across articles.
+        bridge = _context_bridge(category, lang)
+        def _vary_intro(text: str, lang: str) -> str:
+            """Replace the fixed intro phrase at the start of a context bridge with a varied synonym."""
+            # Candidate phrases for PT and EN languages
+            synonyms_pt = [
+                'Isso é relevante porque',
+                'É importante porque',
+                'Importa pois',
+                'Isto é significativo porque',
+                'A relevância está em que'
+            ]
+            synonyms_en = [
+                'This matters because',
+                'This is important because',
+                'It is relevant because',
+                'It matters because',
+                'The significance lies in'
+            ]
+            if lang == 'pt':
+                target = 'Isso importa porque'
+                for syn in synonyms_pt:
+                    if syn in text:
+                        # Already varied
+                        return text
+                if text.startswith(target):
+                    import random
+                    replacement = random.choice(synonyms_pt)
+                    return replacement + text[len(target):]
+            else:
+                target = 'That matters because'
+                for syn in synonyms_en:
+                    if syn in text:
+                        return text
+                if text.startswith(target):
+                    import random
+                    replacement = random.choice(synonyms_en)
+                    return replacement + text[len(target):]
+            return text
+        varied_bridge = _vary_intro(bridge, lang)
+        p2_bits = [varied_bridge]
         p2_bits.append(_fact_for_paragraph(detail_bank[0], 200))
         if len(detail_bank) > 1:
             p2_bits.append(_fact_for_paragraph(detail_bank[1], 200))
