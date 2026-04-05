@@ -274,27 +274,32 @@ SOURCES = [
     SourceConfig('ESO Press Releases',          'https://www.eso.org/public/news/rss/',                                                 'rss',  'agency',   92),
     SourceConfig('ESA Space Science',           'https://www.esa.int/rssfeed/Our_Activities/Space_Science',                             'rss',  'agency',   90),
     SourceConfig('ESA Hubble News',             'https://esahubble.org/news/feed/',                                                     'rss',  'agency',   89),
-    # Newly added journal feeds
+    # ── Journal feeds ───────────────────────────────────────────────────────
     SourceConfig('Nature',                      'http://feeds.nature.com/nature/rss/current',                                           'rss',  'journal',  88),
     SourceConfig('Nature Astronomy',            'http://feeds.nature.com/natastron/rss/current',                                        'rss',  'journal',  87),
-    # Other major institutions and societies
+    SourceConfig('Science Magazine',            'https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science',                'rss',  'journal',  86),
+    # ── Major institutions ──────────────────────────────────────────────────
     SourceConfig('CERN News',                   'https://home.cern/news/feed',                                                          'rss',  'agency',   86),
-    SourceConfig('APS Physics',                 'https://feeds.aps.org/rss/recent/physics.rss',                                         'rss',  'journal',  83),
+    # APS Physics: URL corrigida
+    SourceConfig('APS Physics',                 'https://physics.aps.org/rss/recent',                                                   'rss',  'journal',  83),
     SourceConfig('NSF News',                    'https://www.nsf.gov/rss/rss_www_news.xml',                                             'rss',  'agency',   80),
     SourceConfig('ESA Space News',              'https://www.esa.int/rssfeed/Our_Activities/Space_News',                                'rss',  'agency',   80),
     SourceConfig('NIH News Releases',           'https://www.nih.gov/news-releases/feed.xml',                                           'rss',  'agency',   79),
-    SourceConfig('The Planetary Society',       'https://www.planetary.org/articles/feed',                                             'rss',  'agency',   78),
-    SourceConfig('NOAA Science',                'https://www.noaa.gov/news-release/feed',                                               'rss',  'agency',   77),
-    # Phys.org sections
+    # Planetary Society: URL corrigida
+    SourceConfig('The Planetary Society',       'https://www.planetary.org/articles.rss',                                              'rss',  'agency',   78),
+    # NOAA bloqueia scrapers (403); substituído por NASA Earth Data
+    SourceConfig('NASA Earth Data',             'https://earthdata.nasa.gov/feed',                                                      'rss',  'agency',   77),
+    # Phys.org sections (URLs corrigidas: /rss-feed/{category}-news/)
     SourceConfig('Phys.org Space',              'https://phys.org/rss-feed/space-news/',                                               'rss',  'agency',   76),
-    SourceConfig('NASA Earth Observatory',      'https://science.nasa.gov/feed/earth-observatory/natural-events',                       'rss',  'agency',   75),
+    # NASA Earth Observatory: URL corrigida
+    SourceConfig('NASA Earth Observatory',      'https://earthobservatory.nasa.gov/feeds/earth-observatory.rss',                        'rss',  'agency',   75),
     SourceConfig('Sky & Telescope',             'https://skyandtelescope.org/feed/',                                                    'rss',  'agency',   74),
     SourceConfig('Universe Today',              'https://www.universetoday.com/feed/',                                                  'rss',  'agency',   73),
     SourceConfig('EarthSky',                    'https://earthsky.org/feed/',                                                           'rss',  'agency',   72),
-    SourceConfig('Phys.org Biology',            'https://phys.org/rss-feed/biology/',                                                  'rss',  'agency',   71),
-    SourceConfig('Phys.org Physics',            'https://phys.org/rss-feed/physics/',                                                  'rss',  'agency',   71),
-    SourceConfig('Phys.org Chemistry',          'https://phys.org/rss-feed/chemistry/',                                                'rss',  'agency',   70),
-    SourceConfig('Phys.org Earth Sciences',     'https://phys.org/rss-feed/earth-sciences/',                                           'rss',  'agency',   70),
+    SourceConfig('Phys.org Biology',            'https://phys.org/rss-feed/biology-news/',                                             'rss',  'agency',   71),
+    SourceConfig('Phys.org Physics',            'https://phys.org/rss-feed/physics-news/',                                             'rss',  'agency',   71),
+    SourceConfig('Phys.org Chemistry',          'https://phys.org/rss-feed/chemistry-news/',                                           'rss',  'agency',   70),
+    SourceConfig('Phys.org Earth Sciences',     'https://phys.org/rss-feed/earth-sciences-news/',                                      'rss',  'agency',   70),
     # ── arXiv preprints ─────────────────────────────────────────────────────
     SourceConfig('arXiv Astrophysics',
         'https://export.arxiv.org/api/query?search_query=(cat:astro-ph.*+AND+(all:exoplanet+OR+all:galaxy+OR+all:%22dark+matter%22+OR+all:%22dark+energy%22+OR+all:%22black+hole%22+OR+all:cosmology+OR+all:%22gravitational+wave%22+OR+all:supernova+OR+all:jwst+OR+all:euclid+OR+all:mars+OR+all:moon))'
@@ -1251,7 +1256,17 @@ def call_gemini_json(task_key: str, prompt: str) -> Optional[dict]:
         out = _extract_json_from_text(text)
         GEMINI_CACHE[cache_key] = out
         return out if isinstance(out, dict) else None
-    except Exception:
+    except urllib.error.HTTPError as exc:
+        # Log the actual HTTP error code and body so the secret/quota issue is visible
+        try:
+            err_body = exc.read().decode('utf-8', errors='ignore')[:600]
+        except Exception:
+            err_body = '(sem corpo)'
+        print(f'ERR Gemini HTTP {exc.code} ({exc.reason}): {err_body}')
+        GEMINI_CACHE[cache_key] = None
+        return None
+    except Exception as exc:
+        print(f'ERR Gemini: {exc}')
         GEMINI_CACHE[cache_key] = None
         return None
 
@@ -1379,12 +1394,35 @@ def extract_atom_image(entry: ET.Element, link: str, summary_html: str) -> Optio
 
 # ── Feed parsers ──────────────────────────────────────────────────────────────
 
+def _clean_xml_bytes(xml_bytes: bytes) -> bytes:
+    """Normalise raw feed bytes before passing to ElementTree.
+
+    Handles the most common reasons for 'invalid token' and 'mismatched tag'
+    errors in the wild:
+      • UTF-8 BOM at the start of the stream
+      • Invalid XML control characters (U+0000-U+001F except tab/LF/CR)
+      • Windows-1252 / Latin-1 bytes that slip through as UTF-8
+    """
+    try:
+        text = xml_bytes.decode('utf-8-sig', errors='replace')
+    except Exception:
+        text = xml_bytes.decode('latin-1', errors='replace')
+    # Strip XML-illegal control characters (keep \t \n \r)
+    text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', '', text)
+    return text.encode('utf-8')
+
+
 def parse_rss(xml_bytes: bytes, source: SourceConfig) -> list[dict]:
-    root = ET.fromstring(xml_bytes)
+    root = ET.fromstring(_clean_xml_bytes(xml_bytes))
     items = []
     for item in root.findall('.//item'):
         title = strip_html(item.findtext('title', default=''))
-        link = collapse_ws(item.findtext('link', default=''))
+        link  = collapse_ws(item.findtext('link', default=''))
+        # Some feeds (e.g. Nature) put the canonical URL in <guid> instead of <link>
+        if not link:
+            guid = collapse_ws(item.findtext('guid', default=''))
+            if guid.startswith('http'):
+                link = guid
         description_html = item.findtext('description', default='') or ''
         content_html = item.findtext('{http://purl.org/rss/1.0/modules/content/}encoded', default='') or description_html
         summary = strip_html(description_html or content_html)
@@ -1407,7 +1445,7 @@ def parse_rss(xml_bytes: bytes, source: SourceConfig) -> list[dict]:
 
 
 def parse_atom(xml_bytes: bytes, source: SourceConfig) -> list[dict]:
-    root = ET.fromstring(xml_bytes)
+    root = ET.fromstring(_clean_xml_bytes(xml_bytes))
     items = []
     for entry in root.findall('atom:entry', NS):
         title = strip_html(entry.findtext('atom:title', default='', namespaces=NS))
