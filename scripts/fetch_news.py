@@ -352,9 +352,42 @@ def strip_html(text: str) -> str:
 
 
 def truncate(text: str, limit: int) -> str:
+    """
+    Truncate a string to at most ``limit`` characters without breaking words or sentences.
+
+    This helper attempts to cut the text at the last sentence‐ending punctuation (period,
+    question mark or exclamation point) within the given character limit. If no sentence
+    boundary is found, it falls back to cutting at the last space before the limit. A
+    trailing period is added when cutting mid‐sentence to make the excerpt feel
+    complete. Whitespace is collapsed before truncation.
+
+    Parameters
+    ----------
+    text: str
+        The text to truncate.
+    limit: int
+        The maximum number of characters allowed in the returned string.
+
+    Returns
+    -------
+    str
+        A truncated version of the input that ends at a natural break point.
+    """
     text = collapse_ws(text)
     if len(text) <= limit:
         return text
+    # Try to find the last sentence boundary within the limit. Only cut at a
+    # sentence boundary if it is reasonably close to the limit to avoid overly
+    # short results (heuristically require the boundary after halfway through).
+    boundary_pos = -1
+    for punct in '.?!':
+        pos = text.rfind(punct, 0, limit)
+        if pos > boundary_pos:
+            boundary_pos = pos
+    if boundary_pos >= 0 and boundary_pos >= limit // 2:
+        # Include the punctuation mark itself
+        return text[:boundary_pos + 1].strip()
+    # Fallback: cut at the last space before the limit
     cut = text[:limit].rsplit(' ', 1)[0].strip().rstrip(' .;:,-–—')
     return f'{cut}.' if cut else ''
 
@@ -1208,8 +1241,21 @@ def review_portuguese_content(title_pt: str, summary_pt: str, facts_pt: list[str
         + json.dumps(payload, ensure_ascii=False)
     )
     reviewed = call_gemini_json('pt_review_bundle', prompt)
-    if not isinstance(reviewed, dict):
-        return fallback
+    success = isinstance(reviewed, dict)
+    # When the call fails or returns an unexpected type, fall back to the original
+    # unreviewed content. We'll track whether a review succeeded via the
+    # ``success`` flag.
+    if not success:
+        result_dict = {
+            'title': fallback['title'],
+            'summary': fallback['summary'],
+            'facts': fallback['facts'],
+            'body': fallback['body'],
+        }
+        # Mark that the review fell back to the original content
+        result_dict['status'] = 'fallback'
+        result_dict['provider'] = 'gemini'
+        return result_dict
 
     title = collapse_ws(str(reviewed.get('title') or payload['title']))
     summary = collapse_ws(str(reviewed.get('summary') or payload['summary']))
@@ -1221,6 +1267,7 @@ def review_portuguese_content(title_pt: str, summary_pt: str, facts_pt: list[str
     facts = distinct_facts(facts, 6) or payload['facts']
 
     body_raw = str(reviewed.get('body') or payload['body'])
+    # Split on double newlines provided by the model; fallback to sentence splitting
     body_paragraphs = [collapse_ws(p) for p in re.split(r'\n{2,}', body_raw) if collapse_ws(p)]
     if not body_paragraphs:
         body_paragraphs = [collapse_ws(p) for p in re.split(r'(?<=[.!?])\s+(?=[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ])', payload['body']) if collapse_ws(p)]
@@ -1230,12 +1277,16 @@ def review_portuguese_content(title_pt: str, summary_pt: str, facts_pt: list[str
         if len(paragraph) >= 45
     ) or body_pt
 
-    return {
+    # Compose the result dictionary with review status and provider metadata
+    result_dict = {
         'title': title or payload['title'],
         'summary': summary or payload['summary'],
         'facts': facts or payload['facts'],
         'body': body_html,
     }
+    result_dict['status'] = 'success'
+    result_dict['provider'] = 'gemini'
+    return result_dict
 
 
 def extract_rss_image(item: ET.Element, link: str, description_html: str) -> Optional[str]:
@@ -2560,6 +2611,9 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
     summary_pt = reviewed_pt['summary']
     facts_pt = reviewed_pt['facts']
     body_pt = reviewed_pt['body']
+    # Extract review status metadata; default to fallback if missing
+    review_status = reviewed_pt.get('status', 'fallback')
+    review_provider = reviewed_pt.get('provider', 'gemini')
 
     highlights_pt = build_highlights(title_pt, summary_pt, facts_pt, item['source_type'], 'pt')
 
@@ -2652,6 +2706,11 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
         'isPreprint': item['source_type'] == 'preprint',
         'geminiReviewed': bool(GEMINI_API_KEY),
         'geminiModel': GEMINI_MODEL if GEMINI_API_KEY else '',
+        # Review tracking: record whether the Portuguese content underwent AI review or fell back,
+        # along with the provider used. These fields allow downstream consumers to audit
+        # editorial quality and differentiate between machine‑reviewed and unreviewed text.
+        'reviewStatus': review_status,
+        'reviewProvider': review_provider,
         'score': profile['overall'],
         'scoreBreakdown': {
             'source': profile['source_score'],
