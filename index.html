@@ -1841,7 +1841,17 @@
   // ── Trending ───────────────────────────────────────────────────────────────
   function renderTrending() {
     const mount = document.getElementById('trendingList');
-    const posts = DB.filter(p => p.trending && !p.isPreprint).sort((a,b) => (b.score||0)-(a.score||0)).slice(0,5);
+    // Ordena por: posts frescos (< 120h) primeiro, depois por score, depois por data.
+    // Isso garante que um post novo de score=75 apareça antes de um antigo de score=81.
+    const posts = DB.filter(p => p.trending && !p.isPreprint)
+      .sort((a, b) => {
+        const freshA = isFreshFrontPost(a) ? 1 : 0;
+        const freshB = isFreshFrontPost(b) ? 1 : 0;
+        if (freshB !== freshA) return freshB - freshA;
+        if ((b.score || 0) !== (a.score || 0)) return (b.score || 0) - (a.score || 0);
+        return postTimestamp(b) - postTimestamp(a);
+      })
+      .slice(0, 5);
     mount.innerHTML = posts.map((post, i) => `
       <button class="trend-item" onclick="openArticle('${escapeAttr(post.slug)}')">
         <div class="trend-num">${i+1}</div>
