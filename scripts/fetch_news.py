@@ -65,6 +65,9 @@ FULL_TEXT_LIMIT = 9000
 MAX_FACT_SENTENCES = 14
 MAX_INLINE_IMAGES = 3
 GEMINI_TIMEOUT = 45
+GEMINI_RPM_LIMIT = 14            # free tier: 15 req/min; usamos 14 com margem de segurança
+GEMINI_RETRY_ON_429 = 3          # tentativas extras com backoff ao receber 429
+GEMINI_RETRY_DELAY_BASE = 5      # segundos base de espera no primeiro retry (dobra a cada tentativa)
 GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.0-flash').strip() or 'gemini-2.0-flash'
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '').strip()
 GEMINI_ENDPOINT_TEMPLATE = 'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
@@ -343,6 +346,9 @@ INLINE_IMAGE_CACHE: dict[tuple[str, str], list[dict]] = {}
 VIDEO_CACHE: dict[str, Optional[dict]] = {}
 AUDIO_CACHE: dict[str, Optional[dict]] = {}
 GEMINI_CACHE: dict[tuple[str, str], object] = {}
+# Controle de rate limit: rastreia timestamps das chamadas bem-sucedidas
+# para respeitar o limite de GEMINI_RPM_LIMIT req/min da free tier.
+_GEMINI_CALL_TIMES: list[float] = []
 
 
 # ── Utility functions ─────────────────────────────────────────────────────────
@@ -1227,7 +1233,29 @@ def _gemini_response_text(payload: dict) -> str:
     return '\n'.join(parts).strip()
 
 
+def _gemini_rate_limit_wait() -> None:
+    """Aguarda o tempo necessário para não ultrapassar GEMINI_RPM_LIMIT req/min.
+
+    Mantém uma janela deslizante de 60 segundos dos timestamps das chamadas.
+    Se a janela já estiver cheia, dorme até que a chamada mais antiga saia dela.
+    """
+    import time as _time
+    now = _time.monotonic()
+    # Remove chamadas mais velhas que 60 segundos
+    cutoff = now - 60.0
+    while _GEMINI_CALL_TIMES and _GEMINI_CALL_TIMES[0] < cutoff:
+        _GEMINI_CALL_TIMES.pop(0)
+    if len(_GEMINI_CALL_TIMES) >= GEMINI_RPM_LIMIT:
+        # Espera até a mais antiga completar 60s
+        wait = 60.0 - (now - _GEMINI_CALL_TIMES[0]) + 0.5   # +0.5s de margem
+        if wait > 0:
+            print(f'    [Gemini] rate limit: aguardando {wait:.1f}s ...')
+            _time.sleep(wait)
+    _GEMINI_CALL_TIMES.append(_time.monotonic())
+
+
 def call_gemini_json(task_key: str, prompt: str) -> Optional[dict]:
+    import time as _time
     if not GEMINI_API_KEY:
         return None
     cache_key = (task_key, prompt)
@@ -1254,27 +1282,38 @@ def call_gemini_json(task_key: str, prompt: str) -> Optional[dict]:
             'User-Agent': USER_AGENT,
         },
     )
-    try:
-        with urllib.request.urlopen(req, timeout=GEMINI_TIMEOUT) as response:
-            raw = response.read().decode('utf-8', errors='ignore')
-        parsed = json.loads(raw)
-        text = _gemini_response_text(parsed)
-        out = _extract_json_from_text(text)
-        GEMINI_CACHE[cache_key] = out
-        return out if isinstance(out, dict) else None
-    except urllib.error.HTTPError as exc:
-        # Log the actual HTTP error code and body so the secret/quota issue is visible
+
+    for attempt in range(GEMINI_RETRY_ON_429 + 1):
+        _gemini_rate_limit_wait()
         try:
-            err_body = exc.read().decode('utf-8', errors='ignore')[:600]
-        except Exception:
-            err_body = '(sem corpo)'
-        print(f'ERR Gemini HTTP {exc.code} ({exc.reason}): {err_body}')
-        GEMINI_CACHE[cache_key] = None
-        return None
-    except Exception as exc:
-        print(f'ERR Gemini: {exc}')
-        GEMINI_CACHE[cache_key] = None
-        return None
+            with urllib.request.urlopen(req, timeout=GEMINI_TIMEOUT) as response:
+                raw = response.read().decode('utf-8', errors='ignore')
+            parsed = json.loads(raw)
+            text = _gemini_response_text(parsed)
+            out = _extract_json_from_text(text)
+            GEMINI_CACHE[cache_key] = out
+            return out if isinstance(out, dict) else None
+        except urllib.error.HTTPError as exc:
+            try:
+                err_body = exc.read().decode('utf-8', errors='ignore')[:400]
+            except Exception:
+                err_body = '(sem corpo)'
+            if exc.code == 429 and attempt < GEMINI_RETRY_ON_429:
+                delay = GEMINI_RETRY_DELAY_BASE * (2 ** attempt)
+                print(f'    [Gemini] 429 quota — retry {attempt + 1}/{GEMINI_RETRY_ON_429} em {delay}s ...')
+                _time.sleep(delay)
+                continue
+            # Erro definitivo ou retries esgotados — loga apenas uma vez
+            print(f'ERR Gemini HTTP {exc.code} ({exc.reason}): {err_body}')
+            GEMINI_CACHE[cache_key] = None
+            return None
+        except Exception as exc:
+            print(f'ERR Gemini: {exc}')
+            GEMINI_CACHE[cache_key] = None
+            return None
+
+    GEMINI_CACHE[cache_key] = None
+    return None
 
 
 def review_portuguese_content(title_pt: str, summary_pt: str, facts_pt: list[str], body_pt: str) -> dict:
