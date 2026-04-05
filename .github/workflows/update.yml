@@ -2,7 +2,7 @@ name: Atualizar notícias
 
 on:
   schedule:
-    # Run every 3 hours at minute 0
+    # Executa a cada 3 horas no minuto 0
     - cron: '0 */3 * * *'
   workflow_dispatch:
 
@@ -16,6 +16,11 @@ concurrency:
 jobs:
   update-news:
     runs-on: ubuntu-latest
+    # Tempo máximo total do job: 25 minutos.
+    # Sem Gemini a pipeline termina em ~3 min.
+    # Com Gemini (40 posts × ~45s) pode chegar a ~20 min.
+    timeout-minutes: 25
+
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
       PYTHONUNBUFFERED: '1'
@@ -25,24 +30,41 @@ jobs:
 
     steps:
       - name: Checkout do repositório
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Configurar Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
+      # ── Diagnóstico da chave Gemini ──────────────────────────────────────
+      # Este passo não falha o workflow, apenas avisa no log se a chave
+      # estiver ausente para facilitar o diagnóstico.
+      - name: Verificar chave Gemini
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "::warning::GEMINI_API_KEY não configurada. A revisão do português será pulada."
+            echo "Para ativar: Settings → Secrets and variables → Actions → New repository secret"
+            echo "Nome: GEMINI_API_KEY  |  Valor: sua chave do Google AI Studio (aistudio.google.com)"
+          else
+            echo "✓ GEMINI_API_KEY presente (${#GEMINI_API_KEY} caracteres)"
+          fi
 
       - name: Gerar portal e metadados estáticos
         run: python scripts/fetch_news.py
 
+      # ── Commit apenas dos arquivos gerados pelo script ───────────────────
+      # Não incluir index.html, scripts/fetch_news.py nem o próprio workflow,
+      # pois esses não são modificados pelo script e adicionar arquivos não
+      # alterados ao commit gera confusão no histórico do repositório.
       - name: Commitar mudanças
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add posts.json posts.js feed.xml sitemap.xml robots.txt index.html scripts/fetch_news.py .github/workflows/update.yml
+          git add posts.json posts.js feed.xml sitemap.xml robots.txt
           if git diff --cached --quiet; then
             echo "Nenhuma alteração nas notícias."
           else
-            git commit -m "Atualização automática das notícias"
+            git commit -m "Atualização automática das notícias [skip ci]"
             git push
           fi
