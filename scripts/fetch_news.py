@@ -59,7 +59,7 @@ ARXIV_RETRIES = 2               # tentativas extras para feeds arXiv antes de de
 PAGE_TIMEOUT = 20
 TRANSLATE_TIMEOUT = 22
 TRANSLATE_ENDPOINT = 'https://translate.googleapis.com/translate_a/single'
-MAX_PAGE_FETCHES = 42
+MAX_PAGE_FETCHES = 90              # 40 posts × 1 fetch único + 50 de margem para edge cases
 PAGE_TEXT_MAX_PARAGRAPHS = 24
 FULL_TEXT_LIMIT = 9000
 MAX_FACT_SENTENCES = 14
@@ -563,7 +563,8 @@ def fetch_page_html(url: str) -> str:
     if url in PAGE_CACHE:
         return PAGE_CACHE[url]
     if PAGE_FETCHES >= MAX_PAGE_FETCHES:
-        PAGE_CACHE[url] = ''
+        # Não armazenar '' no cache por limite atingido — o limite pode
+        # ser expandido numa futura chamada ou o URL pode ser válido.
         return ''
     PAGE_FETCHES += 1
     try:
@@ -571,8 +572,13 @@ def fetch_page_html(url: str) -> str:
         with urllib.request.urlopen(req, timeout=PAGE_TIMEOUT) as response:
             raw = response.read(1_400_000)
         page = raw.decode('utf-8', errors='ignore')
-    except Exception:
-        page = ''
+    except Exception as exc:
+        # Só armazena '' no cache para erros HTTP definitivos (4xx/5xx).
+        # Timeouts e erros de rede transitórios não são armazenados para
+        # permitir que uma segunda chamada (ex: via cache de vídeo) tente novamente.
+        if isinstance(exc, urllib.error.HTTPError):
+            PAGE_CACHE[url] = ''
+        return ''
     PAGE_CACHE[url] = page
     return page
 
