@@ -21,7 +21,7 @@ FEED_XML = ROOT / 'feed.xml'
 SITEMAP_XML = ROOT / 'sitemap.xml'
 ROBOTS_TXT = ROOT / 'robots.txt'
 
-SITE_URL = os.getenv('COSMOS_SITE_URL', 'https://marambaiajunior.github.io/cosmos-week/').rstrip('/') + '/'
+SITE_URL = os.getenv('COSMOS_SITE_URL', 'https://marambaiajunior.github.io/cosmos-week1/').rstrip('/') + '/'
 SITE_NAME = 'Cosmos Week'
 SITE_DESCRIPTION_PT = 'Portal de jornalismo científico com foco em astronomia, astrofísica, cosmologia e ciência de fronteira.'
 SITE_DESCRIPTION_EN = 'Science journalism portal focused on astronomy, astrophysics, cosmology and frontier research.'
@@ -241,6 +241,10 @@ class SourceConfig:
     priority: int
 
 
+# A comprehensive set of high‑quality primary and secondary sources. This list
+# restores the original 29 feeds and adds Nature and Nature Astronomy, bringing
+# the total to 31 science and astronomy news feeds. We preserve the ordering
+# and weighting of the original sources where applicable.
 SOURCES = [
     # ── Institutional / Agency ──────────────────────────────────────────────
     SourceConfig('NASA News Releases',          'https://www.nasa.gov/news-release/feed/',                                              'rss',  'agency',   94),
@@ -248,6 +252,10 @@ SOURCES = [
     SourceConfig('ESO Press Releases',          'https://www.eso.org/public/news/rss/',                                                 'rss',  'agency',   92),
     SourceConfig('ESA Space Science',           'https://www.esa.int/rssfeed/Our_Activities/Space_Science',                             'rss',  'agency',   90),
     SourceConfig('ESA Hubble News',             'https://esahubble.org/news/feed/',                                                     'rss',  'agency',   89),
+    # Newly added journal feeds
+    SourceConfig('Nature',                      'http://feeds.nature.com/nature/rss/current',                                           'rss',  'journal',  88),
+    SourceConfig('Nature Astronomy',            'http://feeds.nature.com/natastron/rss/current',                                        'rss',  'journal',  87),
+    # Other major institutions and societies
     SourceConfig('CERN News',                   'https://home.cern/news/feed',                                                          'rss',  'agency',   86),
     SourceConfig('APS Physics',                 'https://feeds.aps.org/rss/recent/physics.rss',                                         'rss',  'journal',  83),
     SourceConfig('NSF News',                    'https://www.nsf.gov/rss/rss_www_news.xml',                                             'rss',  'agency',   80),
@@ -255,15 +263,16 @@ SOURCES = [
     SourceConfig('NIH News Releases',           'https://www.nih.gov/news-releases/feed.xml',                                           'rss',  'agency',   79),
     SourceConfig('The Planetary Society',       'https://www.planetary.org/articles/feed',                                             'rss',  'agency',   78),
     SourceConfig('NOAA Science',                'https://www.noaa.gov/news-release/feed',                                               'rss',  'agency',   77),
+    # Phys.org sections
     SourceConfig('Phys.org Space',              'https://phys.org/rss-feed/space-news/',                                               'rss',  'agency',   76),
     SourceConfig('NASA Earth Observatory',      'https://science.nasa.gov/feed/earth-observatory/natural-events',                       'rss',  'agency',   75),
     SourceConfig('Sky & Telescope',             'https://skyandtelescope.org/feed/',                                                    'rss',  'agency',   74),
     SourceConfig('Universe Today',              'https://www.universetoday.com/feed/',                                                  'rss',  'agency',   73),
     SourceConfig('EarthSky',                    'https://earthsky.org/feed/',                                                           'rss',  'agency',   72),
     SourceConfig('Phys.org Biology',            'https://phys.org/rss-feed/biology/',                                                  'rss',  'agency',   71),
+    SourceConfig('Phys.org Physics',            'https://phys.org/rss-feed/physics/',                                                  'rss',  'agency',   71),
     SourceConfig('Phys.org Chemistry',          'https://phys.org/rss-feed/chemistry/',                                                'rss',  'agency',   70),
     SourceConfig('Phys.org Earth Sciences',     'https://phys.org/rss-feed/earth-sciences/',                                           'rss',  'agency',   70),
-    SourceConfig('Phys.org Physics',            'https://phys.org/rss-feed/physics/',                                                  'rss',  'agency',   71),
     # ── arXiv preprints ─────────────────────────────────────────────────────
     SourceConfig('arXiv Astrophysics',
         'https://export.arxiv.org/api/query?search_query=(cat:astro-ph.*+AND+(all:exoplanet+OR+all:galaxy+OR+all:%22dark+matter%22+OR+all:%22dark+energy%22+OR+all:%22black+hole%22+OR+all:cosmology+OR+all:%22gravitational+wave%22+OR+all:supernova+OR+all:jwst+OR+all:euclid+OR+all:mars+OR+all:moon))'
