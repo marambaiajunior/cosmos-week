@@ -269,24 +269,40 @@
       display: flex;
       gap: 6px;
       align-items: center;
+      /* Provide a soft backdrop for the language toggles so that
+         the flags remain visible on the dark header. */
+      background: rgba(255, 255, 255, 0.08);
+      padding: 3px 5px;
+      border-radius: var(--radius);
     }
     .lang-switch button {
       width: 36px;
       height: 24px;
-      border-radius: 3px;
+      border-radius: 4px;
       font-size: 20px;
       line-height: 1;
-      opacity: .5;
-      transition: opacity .15s, box-shadow .15s, transform .15s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* Place each flag on a lightly contrasting background to improve
+         visibility against the dark header. */
+      background: rgba(255, 255, 255, 0.15);
+      color: var(--hdr);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      opacity: 0.8;
+      transition: opacity .15s, box-shadow .15s, transform .15s, background .15s;
     }
     /* Highlight the active language with a visible ring and subtle lift */
     .lang-switch button.on {
       opacity: 1;
+      background: var(--white);
+      color: var(--hdr);
       box-shadow: 0 0 0 2px var(--accent);
       transform: translateY(-1px);
     }
     .lang-switch button:hover {
-      opacity: .8;
+      opacity: 1;
+      background: rgba(255, 255, 255, 0.3);
     }
 
     /* Social icon */
@@ -1737,6 +1753,9 @@
   }
 
   function heroPostsForCurrentCategory() {
+    // Choose hero posts deterministically: always pick the newest regular posts
+    // by priority and timestamp, without rotation. The first (most recent)
+    // post becomes the hero and subsequent posts fill the side cards.
     const regular = frontRegularPostsForCurrentCategory();
     const preprints = filteredPreprints();
     const source = regular.length ? regular : [...preprints].sort((a, b) => postTimestamp(b) - postTimestamp(a));
@@ -1746,15 +1765,7 @@
       if (byPriority) return byPriority;
       return postTimestamp(b) - postTimestamp(a);
     });
-    const pool = sorted.slice(0, Math.min(10, sorted.length));
-    if (pool.length <= 3) return pool;
-    const newest = [...pool].sort((a, b) => postTimestamp(b) - postTimestamp(a)).slice(0, Math.min(4, pool.length));
-    const preferredPool = newest.length >= 3
-      ? newest.concat(pool.filter(post => !newest.some(item => item.slug === post.slug)))
-      : pool;
-    const leadIndex = heroRotationSeed % preferredPool.length;
-    const rotated = [preferredPool[leadIndex], ...preferredPool.filter((_, idx) => idx !== leadIndex)];
-    return rotated.slice(0, 3);
+    return sorted.slice(0, 3);
   }
 
   function renderHero() {
@@ -2134,13 +2145,14 @@
     const intro = uniqueTextItems([stripHtml(textFor(post, 'sub')), stripHtml(textFor(post, 'excerpt'))]);
     const finalParagraphs = paragraphs.length ? uniqueTextItems([...intro, ...paragraphs]) : intro;
     const inlineImages = inlineImagesFor(post);
-    const videoMarkup = articleVideoMarkup(post);
+    // We no longer insert the video at this point because it is rendered once
+    // in the article cover area. Avoid duplicating video players in the body.
     const audioMarkup = articleAudioMarkup(post);
 
-    if (!finalParagraphs.length && !inlineImages.length && !videoMarkup && !audioMarkup) return '';
+    if (!finalParagraphs.length && !inlineImages.length && !audioMarkup) return '';
 
     const blocks = [];
-    if (videoMarkup) blocks.push(videoMarkup);
+    // Only insert audio here; video is handled elsewhere.
     if (audioMarkup) blocks.push(audioMarkup);
     finalParagraphs.forEach((text, idx) => {
       blocks.push(`<p>${text}</p>`);
