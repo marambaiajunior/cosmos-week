@@ -1,3 +1,22 @@
+"""
+Cosmos Week news aggregator and static site generator.
+
+This script fetches scientific news from a curated list of RSS and Atom
+feeds, translates and summarizes content, assigns editorial metadata,
+and produces JSON/JS feed files alongside RSS, sitemap and robots.txt.
+
+The core workflow is:
+  1. Collect and parse items from feeds while respecting per-source limits.
+  2. Normalize and enrich items with editorial scores and categories.
+  3. Build bilingual titles, summaries, facts, highlights and bodies.
+  4. Optionally revise Portuguese content via the Gemini API.
+  5. Export posts to JSON/JavaScript as well as RSS and sitemap files.
+
+Functionality can be customized via environment variables and workflow
+configuration without modifying this module. The script is designed to
+run unattended from a GitHub Actions workflow on a regular schedule.
+"""
+
 import hashlib
 import html
 import json
