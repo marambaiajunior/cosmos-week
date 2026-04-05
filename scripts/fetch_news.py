@@ -2707,8 +2707,17 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
     inline_images = extract_inline_images(src_url, primary_image=image)
     video = extract_page_video(src_url)
     audio = extract_page_audio(src_url)
-    is_featured = item['source_type'] != 'preprint' and regular_rank < 3 and profile['band'] in ('flagship', 'high')
-    is_trending = item['source_type'] != 'preprint' and regular_rank < 6
+    is_featured = (
+        item['source_type'] != 'preprint'
+        and regular_rank < 3
+        and profile['band'] in ('flagship', 'high')
+        and is_fresh_item(item)   # featured só para posts frescos (< 120h)
+    )
+    is_trending = (
+        item['source_type'] != 'preprint'
+        and regular_rank < 8      # janela um pouco maior para garantir cobertura
+        and is_fresh_item(item)   # trending só para posts frescos
+    )
     evidence_key = profile['evidence_key']
     editorial_band = profile['band']
 
@@ -2874,14 +2883,18 @@ def build_robots() -> None:
 
 
 def save_posts(posts: list[dict]) -> None:
-    POSTS_JSON.write_text(json.dumps(posts, ensure_ascii=False, indent=2), encoding='utf-8')
+    # Garantir saída sempre em ordem cronológica decrescente.
+    # A lógica de ranking decide *quais* posts entram; a ordem de saída
+    # deve ser mais-recente-primeiro para RSS, sitemap e leitores externos.
+    posts_sorted = sorted(posts, key=lambda p: p.get('publishedIso', ''), reverse=True)
+    POSTS_JSON.write_text(json.dumps(posts_sorted, ensure_ascii=False, indent=2), encoding='utf-8')
     POSTS_JS.write_text(
         '// Dados atualizados automaticamente para o Cosmos Week\n\nwindow.postsData = ' +
-        json.dumps(posts, ensure_ascii=False, indent=2) + ';\n',
+        json.dumps(posts_sorted, ensure_ascii=False, indent=2) + ';\n',
         encoding='utf-8'
     )
-    build_feed(posts)
-    build_sitemap(posts)
+    build_feed(posts_sorted)
+    build_sitemap(posts_sorted)
     build_robots()
 
 
