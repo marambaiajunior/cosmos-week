@@ -265,14 +265,29 @@
     }
 
     /* Language */
-    .lang-switch { display: flex; gap: 4px; }
-    .lang-switch button {
-      width: 30px; height: 30px; border-radius: 4px;
-      font-size: 14px; line-height: 1;
-      opacity: .4; transition: opacity .15s;
+    .lang-switch {
+      display: flex;
+      gap: 6px;
+      align-items: center;
     }
-    .lang-switch button.on { opacity: 1; }
-    .lang-switch button:hover { opacity: .8; }
+    .lang-switch button {
+      width: 36px;
+      height: 24px;
+      border-radius: 3px;
+      font-size: 20px;
+      line-height: 1;
+      opacity: .5;
+      transition: opacity .15s, box-shadow .15s, transform .15s;
+    }
+    /* Highlight the active language with a visible ring and subtle lift */
+    .lang-switch button.on {
+      opacity: 1;
+      box-shadow: 0 0 0 2px var(--accent);
+      transform: translateY(-1px);
+    }
+    .lang-switch button:hover {
+      opacity: .8;
+    }
 
     /* Social icon */
     .social-icon-link {
