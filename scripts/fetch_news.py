@@ -2848,14 +2848,7 @@ def main() -> None:
         current_rank = regular_rank if item['source_type'] != 'preprint' else 99
         if item['source_type'] != 'preprint':
             regular_rank += 1
-        # Generate the post dict for this feed item. If the Portuguese review
-        # failed (status == 'fallback'), skip publishing this post. This
-        # prevents incomplete or unedited stories from appearing on the site.
-        post = to_post(item, idx, current_rank)
-        if post.get('reviewStatus') == 'fallback':
-            # do not include posts that failed review to maintain quality
-            continue
-        posts.append(post)
+        posts.append(to_post(item, idx, current_rank))
     save_posts(posts)
     counts_type = Counter(post['sourceType'] for post in posts)
     counts_cat = Counter(post['cat'] for post in posts)
