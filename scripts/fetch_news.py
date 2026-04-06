@@ -65,7 +65,11 @@ FULL_TEXT_LIMIT = 9000
 MAX_FACT_SENTENCES = 14
 MAX_INLINE_IMAGES = 3
 GEMINI_TIMEOUT = 45
-GEMINI_RPM_LIMIT = 8             # conservador: 8 req/min sobre o limite de 20 da free tier
+# Reduce Gemini rate to minimise HTTP 429 errors. The free tier allows up to 20
+# requests per minute, but bursts of concurrent requests can trigger quota
+# throttling. By lowering the per‑minute limit we spread calls over a longer
+# window, improving reliability at the cost of longer build times.
+GEMINI_RPM_LIMIT = 4
 GEMINI_RETRY_ON_429 = 2          # máximo 2 retries por chamada
 GEMINI_RETRY_DELAY_429 = 65      # espera fixa de 65s: garante reset da janela de 1 minuto do RPM
 GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.0-flash').strip() or 'gemini-2.0-flash'
@@ -274,7 +278,8 @@ SOURCES = [
     # ── Institutional / Agency ──────────────────────────────────────────────
     SourceConfig('NASA News Releases',          'https://www.nasa.gov/news-release/feed/',                                              'rss',  'agency',   94),
     SourceConfig('JPL News',                    'https://www.jpl.nasa.gov/feeds/news/',                                                 'rss',  'agency',   93),
-    SourceConfig('ESO Press Releases',          'https://www.eso.org/public/news/rss/',                                                 'rss',  'agency',   92),
+    # Updated ESO feed (feedburner)
+    SourceConfig('ESO Press Releases',          'https://feeds.feedburner.com/EsoTopNews',                                               'rss',  'agency',   92),
     SourceConfig('ESA Space Science',           'https://www.esa.int/rssfeed/Our_Activities/Space_Science',                             'rss',  'agency',   90),
     SourceConfig('ESA Hubble News',             'https://esahubble.org/news/feed/',                                                     'rss',  'agency',   89),
     # ── Journal feeds ───────────────────────────────────────────────────────
@@ -282,16 +287,19 @@ SOURCES = [
     SourceConfig('Nature Astronomy',            'http://feeds.nature.com/natastron/rss/current',                                        'rss',  'journal',  87),
     SourceConfig('Science Magazine',            'https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science',                'rss',  'journal',  86),
     # ── Major institutions ──────────────────────────────────────────────────
-    SourceConfig('CERN News',                   'https://home.cern/news/feed',                                                          'rss',  'agency',   86),
-    # APS Physics: URL corrigida
-    SourceConfig('APS Physics',                 'https://physics.aps.org/rss/recent',                                                   'rss',  'journal',  83),
+    # CERN updated feed: the old '/news/feed' page is a HTML landing page that breaks XML parsing.
+    # Use the dedicated API feed which provides well‑formed RSS items.
+    SourceConfig('CERN News',                   'https://home.cern/api/news/news/feed.rss',                                            'rss',  'agency',   86),
+    # APS Physics: the physics.aps.org domain requires JavaScript and triggers Cloudflare protection.
+    # Use the feeds.aps.org mirror which provides the same recent Physics articles without a 403 barrier.
+    SourceConfig('APS Physics',                 'https://feeds.aps.org/rss/recent/physics.xml',                                         'rss',  'journal',  83),
     SourceConfig('NSF News',                    'https://www.nsf.gov/rss/rss_www_news.xml',                                             'rss',  'agency',   80),
     SourceConfig('ESA Space News',              'https://www.esa.int/rssfeed/Our_Activities/Space_News',                                'rss',  'agency',   80),
     SourceConfig('NIH News Releases',           'https://www.nih.gov/news-releases/feed.xml',                                           'rss',  'agency',   79),
-    # Planetary Society: URL corrigida
-    SourceConfig('The Planetary Society',       'https://www.planetary.org/articles.rss',                                              'rss',  'agency',   78),
-    # NOAA bloqueia scrapers (403); substituído por NASA Earth Data
-    SourceConfig('NASA Earth Data',             'https://earthdata.nasa.gov/feed',                                                      'rss',  'agency',   77),
+    # Planetary Society: updated feed URL
+    SourceConfig('The Planetary Society',       'https://www.planetary.org/rss/articles',                                              'rss',  'agency',   78),
+    # NOAA bloqueia scrapers (403); substituído pelo feed de breaking news da NASA
+    SourceConfig('NASA Breaking News',          'https://www.nasa.gov/news-release/feed/',                                             'rss',  'agency',   77),
     # Phys.org sections (URLs corrigidas: /rss-feed/{category}-news/)
     SourceConfig('Phys.org Space',              'https://phys.org/rss-feed/space-news/',                                               'rss',  'agency',   76),
     # NASA Earth Observatory: URL corrigida
@@ -302,7 +310,7 @@ SOURCES = [
     SourceConfig('Phys.org Biology',            'https://phys.org/rss-feed/biology-news/',                                             'rss',  'agency',   71),
     SourceConfig('Phys.org Physics',            'https://phys.org/rss-feed/physics-news/',                                             'rss',  'agency',   71),
     SourceConfig('Phys.org Chemistry',          'https://phys.org/rss-feed/chemistry-news/',                                           'rss',  'agency',   70),
-    SourceConfig('Phys.org Earth Sciences',     'https://phys.org/rss-feed/earth-sciences-news/',                                      'rss',  'agency',   70),
+    # Removido: feed de Earth Sciences indisponível (404)
     # ── arXiv preprints ─────────────────────────────────────────────────────
     SourceConfig('arXiv Astrophysics',
         'https://export.arxiv.org/api/query?search_query=(cat:astro-ph.*+AND+(all:exoplanet+OR+all:galaxy+OR+all:%22dark+matter%22+OR+all:%22dark+energy%22+OR+all:%22black+hole%22+OR+all:cosmology+OR+all:%22gravitational+wave%22+OR+all:supernova+OR+all:jwst+OR+all:euclid+OR+all:mars+OR+all:moon))'
@@ -553,26 +561,6 @@ def image_url_looks_good(url: str) -> bool:
     )
     if any(bad in low for bad in bad_tokens):
         return False
-    # Rejeitar thumbnails pequenos indicados pela URL (ex: ?w=200, /100x75/, -150x150)
-    small_patterns = [
-        r'[/_-](\d{2,3})x(\d{2,3})[/_.-]',   # ex: 300x200, 100x75
-        r'[?&]w=(\d{1,3})\b',                  # ex: ?w=200
-        r'[?&]width=(\d{1,3})\b',              # ex: ?width=150
-        r'/thumbnail[s]?/',
-        r'/thumbs?/',
-        r'[/_-]thumb[/_.-]',
-        r'[/_-]small[/_.-]',
-        r'[/_-]tiny[/_.-]',
-        r'[/_-]micro[/_.-]',
-        r'[/_-]50w[/_.-]',
-        r'[/_-]75w[/_.-]',
-        r'[/_-]100w[/_.-]',
-        r'[/_-]150w[/_.-]',
-        r'[/_-]200w[/_.-]',
-    ]
-    for pattern in small_patterns:
-        if re.search(pattern, low):
-            return False
     if not re.search(r'\.(jpg|jpeg|png|webp)(?:$|[?#])', low) and not any(t in low for t in ('image', 'photo', 'media', 'img')):
         return False
     return True
@@ -1313,17 +1301,19 @@ def call_gemini_json(task_key: str, prompt: str) -> Optional[dict]:
         },
     }
     data = json.dumps(body, ensure_ascii=False).encode('utf-8')
-    req = urllib.request.Request(
-        url,
-        data=data,
-        method='POST',
-        headers={
-            'Content-Type': 'application/json; charset=utf-8',
-            'User-Agent': USER_AGENT,
-        },
-    )
 
     for attempt in range(GEMINI_RETRY_ON_429 + 1):
+        # Recriar o objeto Request a cada tentativa: urllib.request.Request
+        # com body é consumido após o primeiro urlopen e não pode ser reutilizado.
+        req = urllib.request.Request(
+            url,
+            data=data,
+            method='POST',
+            headers={
+                'Content-Type': 'application/json; charset=utf-8',
+                'User-Agent': USER_AGENT,
+            },
+        )
         _gemini_rate_limit_wait()
         try:
             with urllib.request.urlopen(req, timeout=GEMINI_TIMEOUT) as response:
@@ -1499,6 +1489,16 @@ def _clean_xml_bytes(xml_bytes: bytes) -> bytes:
         text = xml_bytes.decode('latin-1', errors='replace')
     # Strip XML-illegal control characters (keep \t \n \r)
     text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', '', text)
+
+    # Some feeds (notably JPL's) embed malformed <content:encoded> tags like
+    # ``<content:encoded<![CDATA[...]``, which lack a closing ``>`` after the tag
+    # name. This breaks the XML parser with an "invalid token" error. To make
+    # these feeds parseable, normalise the opening tag by inserting the missing
+    # angle bracket. This replacement is conservative and only affects the
+    # malformed pattern; well‑formed tags (``<content:encoded><![CDATA[``) are
+    # untouched.
+    text = text.replace('<content:encoded<![CDATA[', '<content:encoded><![CDATA[')
+
     return text.encode('utf-8')
 
 
@@ -2782,253 +2782,14 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
     facts_pt_raw = [translate_text(fact, 'pt') for fact in facts_en[:6]]
     body_pt_raw = build_body(title_pt_raw, summary_pt_raw, facts_pt_raw, category, item['source'], item['source_type'], 'pt', src_url)
 
-    # A revisão Gemini é feita em lote depois de todos os posts serem montados.
-    # Aqui guardamos apenas o conteúdo bruto para revisão posterior.
-    title_pt  = title_pt_raw
-    summary_pt = summary_pt_raw
-    facts_pt  = facts_pt_raw
-    body_pt   = body_pt_raw
-    highlights_pt = build_highlights(title_pt, summary_pt, facts_pt, item['source_type'], 'pt')
-
-    dt = item['published']
-    slug = slugify(title_en)
-    canonical = f'{SITE_URL}?article={slug}'
-    canonical_en = f'{SITE_URL}?article={slug}&lang=en'
-    image = choose_post_image(item, category)
-    inline_images = extract_inline_images(src_url, primary_image=image)
-    video = extract_page_video(src_url)
-    audio = extract_page_audio(src_url)
-    is_featured = (
-        item['source_type'] != 'preprint'
-        and regular_rank < 3
-        and profile['band'] in ('flagship', 'high')
-        and is_fresh_item(item)
-    )
-    is_trending = (
-        item['source_type'] != 'preprint'
-        and regular_rank < 8
-        and is_fresh_item(item)
-    )
-    evidence_key = profile['evidence_key']
-    editorial_band = profile['band']
-
-    keywords_pt = unique_keep_order(
-        [category, item['source'], 'Cosmos Week'] +
-        [frag.strip() for frag in re.split(r'[,;:\-]', title_pt) if len(frag.strip()) > 3]
-    )[:8]
-    keywords_en = [
-        translate_text(kw, 'en') if kw not in (item['source'], 'Cosmos Week') else kw
-        for kw in keywords_pt
-    ]
-    domain = source_domain(src_url)
-
-    return {
-        'id': idx + 1,
-        'slug': slug,
-        'cat': category,
-        'catCls': cat_cls(category),
-        'img': image,
-        'inline_images': inline_images,
-        'video': video,
-        'audio': audio,
-        'title': title_pt,
-        'title_pt': title_pt,
-        'title_en': title_en,
-        'sub': truncate(summary_pt, 180),
-        'sub_pt': truncate(summary_pt, 180),
-        'sub_en': truncate(summary_en, 180),
-        'excerpt': truncate(summary_pt, 260),
-        'excerpt_pt': truncate(summary_pt, 260),
-        'excerpt_en': truncate(summary_en, 260),
-        'body': body_pt,
-        'body_pt': body_pt,
-        'body_en': body_en,
-        'highlights': highlights_pt,
-        'highlights_pt': highlights_pt,
-        'highlights_en': highlights_en,
-        'date': format_date_pt(dt),
-        'date_pt': format_date_pt(dt),
-        'date_en': format_date_en(dt),
-        'time': dt.strftime('%Hh%M'),
-        'time_pt': dt.strftime('%Hh%M'),
-        'time_en': dt.strftime('%H:%M UTC'),
-        'read': reading_time(body_pt, 'pt'),
-        'read_pt': reading_time(body_pt, 'pt'),
-        'read_en': reading_time(body_en, 'en'),
-        'publishedIso': dt.isoformat(),
-        'lastModifiedIso': dt.isoformat(),
-        'source': item['source'],
-        'sourceDomain': domain,
-        'sourceType': item['source_type'],
-        'sourceTypeLabel': SOURCE_TYPE_LABELS[item['source_type']]['pt'],
-        'sourceTypeLabel_pt': SOURCE_TYPE_LABELS[item['source_type']]['pt'],
-        'sourceTypeLabel_en': SOURCE_TYPE_LABELS[item['source_type']]['en'],
-        'sourceNote': SOURCE_NOTES[item['source_type']]['pt'],
-        'sourceNote_pt': SOURCE_NOTES[item['source_type']]['pt'],
-        'sourceNote_en': SOURCE_NOTES[item['source_type']]['en'],
-        'evidenceKey': evidence_key,
-        'evidenceLabel': EVIDENCE_LABELS[evidence_key]['pt'],
-        'evidenceLabel_pt': EVIDENCE_LABELS[evidence_key]['pt'],
-        'evidenceLabel_en': EVIDENCE_LABELS[evidence_key]['en'],
-        'editorialBand': editorial_band,
-        'editorialBandLabel': EDITORIAL_BANDS[editorial_band]['pt'],
-        'editorialBandLabel_pt': EDITORIAL_BANDS[editorial_band]['pt'],
-        'editorialBandLabel_en': EDITORIAL_BANDS[editorial_band]['en'],
-        'keywords': keywords_pt,
-        'keywords_pt': keywords_pt,
-        'keywords_en': keywords_en,
-        'srcUrl': src_url,
-        'canonicalUrl': canonical,
-        'canonicalUrl_pt': canonical,
-        'canonicalUrl_en': canonical_en,
-        'defaultLanguage': 'pt-BR',
-        'availableLanguages': ['pt-BR', 'en-US'],
-        'featured': is_featured,
-        'trending': is_trending,
-        'isPreprint': item['source_type'] == 'preprint',
-        'geminiReviewed': bool(GEMINI_API_KEY),
-        'geminiModel': GEMINI_MODEL if GEMINI_API_KEY else '',
-        'reviewStatus': 'pending',
-        'reviewProvider': 'gemini',
-        'score': profile['overall'],
-        'scoreBreakdown': {
-            'source': profile['source_score'],
-            'evidence': profile['evidence_score'],
-            'relevance': profile['relevance_score'],
-            'accessibility': profile['accessibility_score'],
-            'novelty': profile['novelty_score'],
-        },
-    }
-
-
-# ── Batch Gemini review ───────────────────────────────────────────────────────
-
-GEMINI_BATCH_SIZE = 5   # posts por chamada — 40 posts ÷ 5 = 8 chamadas no total
-
-
-def _apply_reviewed_post(post: dict, reviewed: dict) -> None:
-    """Aplica o resultado da revisão Gemini a um post in-place."""
-    title  = collapse_ws(str(reviewed.get('title')  or post['title_pt']))
-    summary = collapse_ws(str(reviewed.get('summary') or post['sub_pt']))
-    facts  = [collapse_ws(str(f)) for f in (reviewed.get('facts') or []) if collapse_ws(str(f))]
-    facts  = distinct_facts(facts, 6) or []
-
-    body_raw = str(reviewed.get('body') or '')
-    body_paragraphs = [collapse_ws(p) for p in re.split(r'\n{2,}', body_raw) if collapse_ws(p)]
-    if not body_paragraphs:
-        return   # resposta inesperada — mantém fallback
-
-    body_html = ''.join(
-        f'<p>{html.escape(collapse_ws(p))}</p>'
-        for p in body_paragraphs[:8]
-        if len(collapse_ws(p)) >= 45
-    )
-    if not body_html:
-        return
-
-    # Atualiza todos os campos PT do post
-    post['title']      = title
-    post['title_pt']   = title
-    post['sub']        = truncate(summary, 180)
-    post['sub_pt']     = truncate(summary, 180)
-    post['excerpt']    = truncate(summary, 260)
-    post['excerpt_pt'] = truncate(summary, 260)
-    post['body']       = body_html
-    post['body_pt']    = body_html
-    post['highlights']    = build_highlights(title, summary, facts, post['sourceType'], 'pt')
-    post['highlights_pt'] = post['highlights']
-    post['reviewStatus']  = 'success'
-
-    # Actualizar keywords com base no novo título
-    keywords_pt = unique_keep_order(
-        [post['cat'], post['source'], 'Cosmos Week'] +
-        [frag.strip() for frag in re.split(r'[,;:\-]', title) if len(frag.strip()) > 3]
-    )[:8]
-    post['keywords']    = keywords_pt
-    post['keywords_pt'] = keywords_pt
-
-
-def batch_review_all_posts(posts: list[dict]) -> None:
-    """Revisa todos os posts em lotes de GEMINI_BATCH_SIZE por chamada Gemini.
-
-    Reduz drasticamente o número de chamadas à API:
-      40 posts ÷ 5 por lote = 8 chamadas no total (vs 40 individuais antes).
-    """
-    if not GEMINI_API_KEY:
-        for post in posts:
-            post['reviewStatus'] = 'fallback'
-        return
-
-    total   = len(posts)
-    success = 0
-    fallback = 0
-
-    for batch_start in range(0, total, GEMINI_BATCH_SIZE):
-        batch = posts[batch_start: batch_start + GEMINI_BATCH_SIZE]
-        batch_num = batch_start // GEMINI_BATCH_SIZE + 1
-        total_batches = (total + GEMINI_BATCH_SIZE - 1) // GEMINI_BATCH_SIZE
-
-        # Monta o payload do lote
-        payload_items = []
-        for p in batch:
-            payload_items.append({
-                'slug':    p['slug'],
-                'title':   p['title_pt'],
-                'summary': p['sub_pt'],
-                'facts':   p.get('highlights_pt', [])[:3],
-                'body':    collapse_ws(strip_html(p['body_pt'])),
-            })
-
-        prompt = (
-            'Você é um revisor científico e copy editor sênior em português do Brasil.\n'
-            'Receberá um array JSON com vários artigos. Para CADA artigo:\n\n'
-            'REGRAS OBRIGATÓRIAS:\n'
-            '1. Corrija TODA ortografia, concordância, pontuação, regência e sintaxe.\n'
-            '2. Nunca corte frases no meio — toda frase deve terminar com pontuação completa.\n'
-            '3. Nunca use travessão (—) nem reticências (...).\n'
-            '4. Nunca use marcadores de IA: "Além disso,", "Em resumo,", "Vale ressaltar que", "É importante notar que".\n'
-            '5. Preserve rigor factual: números, nomes próprios, datas, unidades e cautelas científicas.\n'
-            '6. Não invente fatos, não adicione opiniões, não remova ressalvas científicas.\n'
-            '7. No campo "body": texto corrido em português natural, SEM HTML, com 5 a 8 parágrafos completos separados por "\\n\\n".\n'
-            '8. Cada parágrafo: entre 60 e 400 palavras, terminando com ponto final.\n'
-            '9. Mantenha "facts" curtos, claros, objetivos e com frase completa.\n\n'
-            'Responda SOMENTE com um array JSON válido contendo os mesmos slugs mais os campos corrigidos: '
-            'slug, title, summary, facts, body.\n\n'
-            + json.dumps(payload_items, ensure_ascii=False)
-        )
-
-        print(f'  [Gemini] Lote {batch_num}/{total_batches} ({len(batch)} posts) ...')
-        task_key = f'pt_review_batch_{batch_start}'
-        result = call_gemini_json(task_key, prompt)
-
-        if not isinstance(result, (list, dict)):
-            print(f'  [Gemini] Lote {batch_num} falhou — mantendo fallback para {len(batch)} posts')
-            for p in batch:
-                p['reviewStatus'] = 'fallback'
-            fallback += len(batch)
-            continue
-
-        # Gemini pode retornar dict com lista dentro ou lista direto
-        if isinstance(result, dict):
-            items_list = result.get('items') or result.get('posts') or result.get('articles') or list(result.values())
-            if items_list and isinstance(items_list[0], dict):
-                result = items_list
-            else:
-                result = [result]
-
-        # Mapeia por slug
-        reviewed_map = {str(r.get('slug', '')): r for r in result if isinstance(r, dict)}
-
-        for p in batch:
-            reviewed = reviewed_map.get(p['slug'])
-            if reviewed:
-                _apply_reviewed_post(p, reviewed)
-                success += 1
-            else:
-                p['reviewStatus'] = 'fallback'
-                fallback += 1
-
-    print(f'  [Gemini] Revisão em lote concluída: {success} sucesso / {fallback} fallback')
+    reviewed_pt = review_portuguese_content(title_pt_raw, summary_pt_raw, facts_pt_raw, body_pt_raw)
+    title_pt = reviewed_pt['title']
+    summary_pt = reviewed_pt['summary']
+    facts_pt = reviewed_pt['facts']
+    body_pt = reviewed_pt['body']
+    # Extract review status metadata; default to fallback if missing
+    review_status = reviewed_pt.get('status', 'fallback')
+    review_provider = reviewed_pt.get('provider', 'gemini')
 
     highlights_pt = build_highlights(title_pt, summary_pt, facts_pt, item['source_type'], 'pt')
 
@@ -3128,7 +2889,7 @@ def batch_review_all_posts(posts: list[dict]) -> None:
         'featured': is_featured,
         'trending': is_trending,
         'isPreprint': item['source_type'] == 'preprint',
-        'geminiReviewed': bool(GEMINI_API_KEY),
+        'geminiReviewed': review_status == 'success',
         'geminiModel': GEMINI_MODEL if GEMINI_API_KEY else '',
         # Review tracking: record whether the Portuguese content underwent AI review or fell back,
         # along with the provider used. These fields allow downstream consumers to audit
@@ -3261,8 +3022,7 @@ def main() -> None:
             '   Nome: GEMINI_API_KEY  |  Valor: sua chave da API do Google AI Studio\n'
         )
     else:
-        total_batches = (MAX_POSTS + GEMINI_BATCH_SIZE - 1) // GEMINI_BATCH_SIZE
-        print(f'✓  Gemini configurado: modelo={GEMINI_MODEL} | {total_batches} lotes de {GEMINI_BATCH_SIZE} posts')
+        print(f'✓  Gemini configurado: modelo={GEMINI_MODEL}')
 
     items = load_all_items()
     print(f'\nTotal bruto: {len(items)} itens de {len(SOURCES)} fontes')
@@ -3274,18 +3034,11 @@ def main() -> None:
         if item['source_type'] != 'preprint':
             regular_rank += 1
         posts.append(to_post(item, idx, current_rank))
-
-    # ── Revisão Gemini em lote ───────────────────────────────────────────────
-    # Feita após montar todos os posts para usar apenas 8 chamadas (40÷5)
-    # em vez de 40 chamadas individuais, respeitando a cota da free tier.
-    print(f'\nIniciando revisão Gemini em lote ({len(posts)} posts, {GEMINI_BATCH_SIZE} por chamada) ...')
-    batch_review_all_posts(posts)
-
     save_posts(posts)
     counts_type = Counter(post['sourceType'] for post in posts)
-    counts_cat  = Counter(post['cat'] for post in posts)
-    gemini_ok   = sum(1 for p in posts if p.get('reviewStatus') == 'success')
-    gemini_fb   = sum(1 for p in posts if p.get('reviewStatus') == 'fallback')
+    counts_cat = Counter(post['cat'] for post in posts)
+    gemini_ok  = sum(1 for p in posts if p.get('reviewStatus') == 'success')
+    gemini_fb  = sum(1 for p in posts if p.get('reviewStatus') == 'fallback')
     print(f'\n{len(posts)} posts salvos — {datetime.now(timezone.utc).isoformat()}')
     print(f'Por tipo de fonte: {dict(counts_type)}')
     print('Por categoria:')
