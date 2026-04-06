@@ -2,8 +2,9 @@ name: Atualizar notícias
 
 on:
   schedule:
-    # Executa a cada 3 horas no minuto 0
-    - cron: '0 */3 * * *'
+    # Executa 2× por dia: 07:00 UTC (manhã) e 19:00 UTC (noite)
+    - cron: '0 7 * * *'
+    - cron: '0 19 * * *'
   workflow_dispatch:
 
 permissions:
@@ -30,10 +31,10 @@ jobs:
 
     steps:
       - name: Checkout do repositório
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Configurar Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
@@ -49,9 +50,6 @@ jobs:
           else
             echo "✓ GEMINI_API_KEY presente (${#GEMINI_API_KEY} caracteres)"
           fi
-
-      - name: Instalar dependências Python
-        run: pip install feedparser --break-system-packages || pip install feedparser
 
       - name: Gerar portal e metadados estáticos
         run: python scripts/fetch_news.py
