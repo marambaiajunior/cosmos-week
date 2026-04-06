@@ -274,7 +274,8 @@ SOURCES = [
     # ── Institutional / Agency ──────────────────────────────────────────────
     SourceConfig('NASA News Releases',          'https://www.nasa.gov/news-release/feed/',                                              'rss',  'agency',   94),
     SourceConfig('JPL News',                    'https://www.jpl.nasa.gov/feeds/news/',                                                 'rss',  'agency',   93),
-    SourceConfig('ESO Press Releases',          'https://www.eso.org/public/news/rss/',                                                 'rss',  'agency',   92),
+    # Updated ESO feed (feedburner)
+    SourceConfig('ESO Press Releases',          'https://feeds.feedburner.com/EsoTopNews',                                               'rss',  'agency',   92),
     SourceConfig('ESA Space Science',           'https://www.esa.int/rssfeed/Our_Activities/Space_Science',                             'rss',  'agency',   90),
     SourceConfig('ESA Hubble News',             'https://esahubble.org/news/feed/',                                                     'rss',  'agency',   89),
     # ── Journal feeds ───────────────────────────────────────────────────────
@@ -288,10 +289,10 @@ SOURCES = [
     SourceConfig('NSF News',                    'https://www.nsf.gov/rss/rss_www_news.xml',                                             'rss',  'agency',   80),
     SourceConfig('ESA Space News',              'https://www.esa.int/rssfeed/Our_Activities/Space_News',                                'rss',  'agency',   80),
     SourceConfig('NIH News Releases',           'https://www.nih.gov/news-releases/feed.xml',                                           'rss',  'agency',   79),
-    # Planetary Society: URL corrigida
-    SourceConfig('The Planetary Society',       'https://www.planetary.org/articles.rss',                                              'rss',  'agency',   78),
-    # NOAA bloqueia scrapers (403); substituído por NASA Earth Data
-    SourceConfig('NASA Earth Data',             'https://earthdata.nasa.gov/feed',                                                      'rss',  'agency',   77),
+    # Planetary Society: updated feed URL
+    SourceConfig('The Planetary Society',       'https://www.planetary.org/rss/articles',                                              'rss',  'agency',   78),
+    # NOAA bloqueia scrapers (403); substituído pelo feed de breaking news da NASA
+    SourceConfig('NASA Breaking News',          'https://www.nasa.gov/news-release/feed/',                                             'rss',  'agency',   77),
     # Phys.org sections (URLs corrigidas: /rss-feed/{category}-news/)
     SourceConfig('Phys.org Space',              'https://phys.org/rss-feed/space-news/',                                               'rss',  'agency',   76),
     # NASA Earth Observatory: URL corrigida
@@ -302,7 +303,7 @@ SOURCES = [
     SourceConfig('Phys.org Biology',            'https://phys.org/rss-feed/biology-news/',                                             'rss',  'agency',   71),
     SourceConfig('Phys.org Physics',            'https://phys.org/rss-feed/physics-news/',                                             'rss',  'agency',   71),
     SourceConfig('Phys.org Chemistry',          'https://phys.org/rss-feed/chemistry-news/',                                           'rss',  'agency',   70),
-    SourceConfig('Phys.org Earth Sciences',     'https://phys.org/rss-feed/earth-sciences-news/',                                      'rss',  'agency',   70),
+    # Removido: feed de Earth Sciences indisponível (404)
     # ── arXiv preprints ─────────────────────────────────────────────────────
     SourceConfig('arXiv Astrophysics',
         'https://export.arxiv.org/api/query?search_query=(cat:astro-ph.*+AND+(all:exoplanet+OR+all:galaxy+OR+all:%22dark+matter%22+OR+all:%22dark+energy%22+OR+all:%22black+hole%22+OR+all:cosmology+OR+all:%22gravitational+wave%22+OR+all:supernova+OR+all:jwst+OR+all:euclid+OR+all:mars+OR+all:moon))'
@@ -553,26 +554,6 @@ def image_url_looks_good(url: str) -> bool:
     )
     if any(bad in low for bad in bad_tokens):
         return False
-    # Rejeitar thumbnails pequenos indicados pela URL (ex: ?w=200, /100x75/, -150x150)
-    small_patterns = [
-        r'[/_-](\d{2,3})x(\d{2,3})[/_.-]',   # ex: 300x200, 100x75
-        r'[?&]w=(\d{1,3})\b',                  # ex: ?w=200
-        r'[?&]width=(\d{1,3})\b',              # ex: ?width=150
-        r'/thumbnail[s]?/',
-        r'/thumbs?/',
-        r'[/_-]thumb[/_.-]',
-        r'[/_-]small[/_.-]',
-        r'[/_-]tiny[/_.-]',
-        r'[/_-]micro[/_.-]',
-        r'[/_-]50w[/_.-]',
-        r'[/_-]75w[/_.-]',
-        r'[/_-]100w[/_.-]',
-        r'[/_-]150w[/_.-]',
-        r'[/_-]200w[/_.-]',
-    ]
-    for pattern in small_patterns:
-        if re.search(pattern, low):
-            return False
     if not re.search(r'\.(jpg|jpeg|png|webp)(?:$|[?#])', low) and not any(t in low for t in ('image', 'photo', 'media', 'img')):
         return False
     return True
