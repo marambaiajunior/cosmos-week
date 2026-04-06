@@ -471,13 +471,17 @@
     }
     .hero-primary {
       position: relative;
-      min-height: 540px;
+      height: 540px;
       cursor: pointer;
       overflow: hidden;
       display: block;
     }
     .hero-primary > img {
-      width: 100%; height: 100%; object-fit: cover;
+      position: absolute;
+      inset: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+      object-position: center center;
       display: block;
       transition: transform .6s var(--ease);
     }
@@ -506,13 +510,17 @@
     }
     .hero-side-card {
       position: relative;
-      min-height: 265px;
+      height: 265px;
       cursor: pointer;
       overflow: hidden;
       display: block;
     }
     .hero-side-card > img {
-      width: 100%; height: 100%; object-fit: cover;
+      position: absolute;
+      inset: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+      object-position: center center;
       transition: transform .6s var(--ease);
     }
     .hero-side-card:hover > img { transform: scale(1.04); }
@@ -697,12 +705,16 @@
     }
     .article-cover {
       position: relative;
-      min-height: 520px;
+      height: 520px;
       overflow: hidden;
     }
     .article-cover img {
-      width: 100%; height: 100%; object-fit: cover;
-      display: block; min-height: 520px;
+      position: absolute;
+      inset: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+      object-position: center 30%;
+      display: block;
     }
     .article-cover::after {
       content: ''; position: absolute; inset: 0;
@@ -1099,7 +1111,7 @@
       .compact-item { grid-template-columns: 1fr; }
       .compact-cover { height: 160px; }
       .footer-bottom { flex-direction: column; }
-      .hero-primary { min-height: 400px; }
+      .hero-primary { height: 400px; }
       .headline-xl { font-size: 1.75rem; }
     }
 
@@ -1841,7 +1853,17 @@
   // ── Trending ───────────────────────────────────────────────────────────────
   function renderTrending() {
     const mount = document.getElementById('trendingList');
-    const posts = DB.filter(p => p.trending && !p.isPreprint).sort((a,b) => (b.score||0)-(a.score||0)).slice(0,5);
+    // Ordena por: posts frescos (< 120h) primeiro, depois por score, depois por data.
+    // Isso garante que um post novo de score=75 apareça antes de um antigo de score=81.
+    const posts = DB.filter(p => p.trending && !p.isPreprint)
+      .sort((a, b) => {
+        const freshA = isFreshFrontPost(a) ? 1 : 0;
+        const freshB = isFreshFrontPost(b) ? 1 : 0;
+        if (freshB !== freshA) return freshB - freshA;
+        if ((b.score || 0) !== (a.score || 0)) return (b.score || 0) - (a.score || 0);
+        return postTimestamp(b) - postTimestamp(a);
+      })
+      .slice(0, 5);
     mount.innerHTML = posts.map((post, i) => `
       <button class="trend-item" onclick="openArticle('${escapeAttr(post.slug)}')">
         <div class="trend-num">${i+1}</div>
