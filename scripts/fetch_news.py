@@ -76,6 +76,9 @@ GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.0-flash').strip() or 'gemini-
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '').strip()
 GEMINI_ENDPOINT_TEMPLATE = 'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
 
+# Revisão em lote: 5 posts por chamada Gemini → 40 posts = 8 chamadas (vs 40 individuais)
+GEMINI_BATCH_SIZE = 5
+
 NS = {
     'atom': 'http://www.w3.org/2005/Atom',
     'media': 'http://search.yahoo.com/mrss/',
@@ -2782,14 +2785,14 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
     facts_pt_raw = [translate_text(fact, 'pt') for fact in facts_en[:6]]
     body_pt_raw = build_body(title_pt_raw, summary_pt_raw, facts_pt_raw, category, item['source'], item['source_type'], 'pt', src_url)
 
-    reviewed_pt = review_portuguese_content(title_pt_raw, summary_pt_raw, facts_pt_raw, body_pt_raw)
-    title_pt = reviewed_pt['title']
-    summary_pt = reviewed_pt['summary']
-    facts_pt = reviewed_pt['facts']
-    body_pt = reviewed_pt['body']
-    # Extract review status metadata; default to fallback if missing
-    review_status = reviewed_pt.get('status', 'fallback')
-    review_provider = reviewed_pt.get('provider', 'gemini')
+    # A revisão Gemini é feita em lote em main() após todos os posts serem montados.
+    # Aqui guardamos o conteúdo bruto e marcamos como 'pending'.
+    title_pt   = title_pt_raw
+    summary_pt = summary_pt_raw
+    facts_pt   = facts_pt_raw
+    body_pt    = body_pt_raw
+    review_status  = 'pending'
+    review_provider = 'gemini'
 
     highlights_pt = build_highlights(title_pt, summary_pt, facts_pt, item['source_type'], 'pt')
 
@@ -3011,6 +3014,127 @@ def load_all_items() -> list[dict]:
     return all_items
 
 
+def _apply_reviewed_post(post: dict, reviewed: dict) -> None:
+    """Aplica o resultado da revisão Gemini a um post in-place."""
+    title   = collapse_ws(str(reviewed.get('title')   or post['title_pt']))
+    summary = collapse_ws(str(reviewed.get('summary') or post['sub_pt']))
+    facts   = [collapse_ws(str(f)) for f in (reviewed.get('facts') or []) if collapse_ws(str(f))]
+    facts   = distinct_facts(facts, 6) or []
+
+    body_raw = str(reviewed.get('body') or '')
+    body_paragraphs = [collapse_ws(p) for p in re.split(r'\n{2,}', body_raw) if collapse_ws(p)]
+    if not body_paragraphs:
+        return  # resposta inesperada — mantém fallback
+
+    body_html = ''.join(
+        f'<p>{html.escape(collapse_ws(p))}</p>'
+        for p in body_paragraphs[:8]
+        if len(collapse_ws(p)) >= 45
+    )
+    if not body_html:
+        return
+
+    post['title']         = title
+    post['title_pt']      = title
+    post['sub']           = truncate(summary, 180)
+    post['sub_pt']        = truncate(summary, 180)
+    post['excerpt']       = truncate(summary, 260)
+    post['excerpt_pt']    = truncate(summary, 260)
+    post['body']          = body_html
+    post['body_pt']       = body_html
+    post['highlights']    = build_highlights(title, summary, facts, post['sourceType'], 'pt')
+    post['highlights_pt'] = post['highlights']
+    post['reviewStatus']  = 'success'
+    keywords_pt = unique_keep_order(
+        [post['cat'], post['source'], 'Cosmos Week'] +
+        [frag.strip() for frag in re.split(r'[,;:\-]', title) if len(frag.strip()) > 3]
+    )[:8]
+    post['keywords']    = keywords_pt
+    post['keywords_pt'] = keywords_pt
+
+
+def batch_review_all_posts(posts: list[dict]) -> None:
+    """Revisa todos os posts em lotes de GEMINI_BATCH_SIZE por chamada.
+
+    Reduz 40 chamadas individuais para 8 chamadas em lote (40÷5),
+    respeitando a cota diária da free tier do Gemini.
+    """
+    if not GEMINI_API_KEY:
+        for post in posts:
+            post['reviewStatus'] = 'fallback'
+        return
+
+    total         = len(posts)
+    success_count = 0
+    fallback_count = 0
+    total_batches = (total + GEMINI_BATCH_SIZE - 1) // GEMINI_BATCH_SIZE
+
+    for batch_start in range(0, total, GEMINI_BATCH_SIZE):
+        batch     = posts[batch_start: batch_start + GEMINI_BATCH_SIZE]
+        batch_num = batch_start // GEMINI_BATCH_SIZE + 1
+
+        payload_items = [
+            {
+                'slug':    p['slug'],
+                'title':   p['title_pt'],
+                'summary': p['sub_pt'],
+                'facts':   p.get('highlights_pt', [])[:3],
+                'body':    collapse_ws(strip_html(p['body_pt'])),
+            }
+            for p in batch
+        ]
+
+        prompt = (
+            'Você é um revisor científico e copy editor sênior em português do Brasil.\n'
+            'Receberá um array JSON com vários artigos. Para CADA artigo:\n\n'
+            'REGRAS OBRIGATÓRIAS:\n'
+            '1. Corrija TODA ortografia, concordância, pontuação, regência e sintaxe.\n'
+            '2. Nunca corte frases no meio — toda frase deve terminar com pontuação completa.\n'
+            '3. Nunca use travessão (—) nem reticências (...).\n'
+            '4. Nunca use marcadores de IA: "Além disso,", "Em resumo,", "Vale ressaltar que", "É importante notar que".\n'
+            '5. Preserve rigor factual: números, nomes próprios, datas, unidades e cautelas científicas.\n'
+            '6. Não invente fatos, não adicione opiniões, não remova ressalvas científicas.\n'
+            '7. No campo "body": texto corrido em português natural, SEM HTML, '
+            'com 5 a 8 parágrafos completos separados por "\\n\\n".\n'
+            '8. Cada parágrafo: entre 60 e 400 palavras, terminando com ponto final.\n'
+            '9. Mantenha "facts" curtos, claros, objetivos e com frase completa.\n'
+            '10. Responda SOMENTE com um array JSON válido com os campos: '
+            'slug, title, summary, facts, body.\n\n'
+            + json.dumps(payload_items, ensure_ascii=False)
+        )
+
+        print(f'  [Gemini] Lote {batch_num}/{total_batches} ({len(batch)} posts) ...')
+        result = call_gemini_json(f'pt_batch_{batch_start}', prompt)
+
+        # Normaliza resultado — pode vir como lista ou dict com lista dentro
+        if isinstance(result, dict):
+            for key in ('items', 'posts', 'articles', 'results'):
+                if isinstance(result.get(key), list):
+                    result = result[key]
+                    break
+            else:
+                result = list(result.values()) if result else None
+
+        if not isinstance(result, list):
+            print(f'  [Gemini] Lote {batch_num} sem resposta válida — fallback para {len(batch)} posts')
+            for p in batch:
+                p['reviewStatus'] = 'fallback'
+            fallback_count += len(batch)
+            continue
+
+        reviewed_map = {str(r.get('slug', '')): r for r in result if isinstance(r, dict)}
+        for p in batch:
+            reviewed = reviewed_map.get(p['slug'])
+            if reviewed:
+                _apply_reviewed_post(p, reviewed)
+                success_count += 1
+            else:
+                p['reviewStatus'] = 'fallback'
+                fallback_count += 1
+
+    print(f'  [Gemini] Concluído: {success_count} sucesso / {fallback_count} fallback')
+
+
 def main() -> None:
     # ── Validação da chave Gemini ────────────────────────────────────────────
     if not GEMINI_API_KEY:
@@ -3022,7 +3146,7 @@ def main() -> None:
             '   Nome: GEMINI_API_KEY  |  Valor: sua chave da API do Google AI Studio\n'
         )
     else:
-        print(f'✓  Gemini configurado: modelo={GEMINI_MODEL}')
+        print(f'✓  Gemini configurado: modelo={GEMINI_MODEL} | lotes de {GEMINI_BATCH_SIZE} posts')
 
     items = load_all_items()
     print(f'\nTotal bruto: {len(items)} itens de {len(SOURCES)} fontes')
@@ -3034,6 +3158,10 @@ def main() -> None:
         if item['source_type'] != 'preprint':
             regular_rank += 1
         posts.append(to_post(item, idx, current_rank))
+
+    print(f'\nIniciando revisão Gemini em lote ({len(posts)} posts) ...')
+    batch_review_all_posts(posts)
+
     save_posts(posts)
     counts_type = Counter(post['sourceType'] for post in posts)
     counts_cat = Counter(post['cat'] for post in posts)
