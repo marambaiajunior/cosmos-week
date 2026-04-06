@@ -449,8 +449,17 @@ def smooth_prose(text: str) -> str:
         return ''
     text = text.replace('…', '.')
     text = re.sub(r'\.{3,}', '.', text)
-    text = re.sub(r'\s+[–—-]\s+', ', ', text)
+    # Remove em-dashes e en-dashes — substituir por vírgula ou ponto conforme contexto
+    text = re.sub(r'\s+[–—]\s+', ', ', text)
     text = re.sub(r'(?<=\w)[–—](?=\w)', ', ', text)
+    # Remove marcadores típicos de IA
+    ai_markers = [
+        r'^Além disso,\s*', r'^Em resumo,\s*', r'^Vale ressaltar que\s*',
+        r'^É importante notar que\s*', r'^Certamente,?\s*', r'^Claro que\s*',
+        r'^Portanto,\s*', r'^Em conclusão,\s*', r'^De fato,\s*',
+    ]
+    for marker in ai_markers:
+        text = re.sub(marker, '', text, flags=re.I)
     text = re.sub(r'\s*,\s*,+', ', ', text)
     text = re.sub(r'\s*;\s*', '. ', text)
     text = re.sub(r'\s*:\s*', ': ', text)
@@ -535,8 +544,35 @@ def clean_image_url(url: str) -> Optional[str]:
 
 def image_url_looks_good(url: str) -> bool:
     low = normalize_text(url)
-    if any(bad in low for bad in ('logo', 'favicon', 'avatar', 'placeholder', 'sprite', 'icon', 'banner_ad')):
+    # Rejeitar imagens de interface, logos e retratos de pessoas
+    bad_tokens = (
+        'logo', 'favicon', 'avatar', 'placeholder', 'sprite', 'icon', 'banner_ad',
+        'portrait', 'headshot', 'profile', 'author', 'byline', 'staff', 'team',
+        'person', 'people', 'face', 'mugshot', 'contributor', 'editor', 'reporter',
+        '/ads/', '/ad/', 'doubleclick', 'tracking', 'pixel', 'newsletter',
+    )
+    if any(bad in low for bad in bad_tokens):
         return False
+    # Rejeitar thumbnails pequenos indicados pela URL (ex: ?w=200, /100x75/, -150x150)
+    small_patterns = [
+        r'[/_-](\d{2,3})x(\d{2,3})[/_.-]',   # ex: 300x200, 100x75
+        r'[?&]w=(\d{1,3})\b',                  # ex: ?w=200
+        r'[?&]width=(\d{1,3})\b',              # ex: ?width=150
+        r'/thumbnail[s]?/',
+        r'/thumbs?/',
+        r'[/_-]thumb[/_.-]',
+        r'[/_-]small[/_.-]',
+        r'[/_-]tiny[/_.-]',
+        r'[/_-]micro[/_.-]',
+        r'[/_-]50w[/_.-]',
+        r'[/_-]75w[/_.-]',
+        r'[/_-]100w[/_.-]',
+        r'[/_-]150w[/_.-]',
+        r'[/_-]200w[/_.-]',
+    ]
+    for pattern in small_patterns:
+        if re.search(pattern, low):
+            return False
     if not re.search(r'\.(jpg|jpeg|png|webp)(?:$|[?#])', low) and not any(t in low for t in ('image', 'photo', 'media', 'img')):
         return False
     return True
@@ -756,7 +792,11 @@ def _bad_inline_image(url: str, alt: str = '', caption: str = '') -> bool:
     bad_parts = (
         'logo', 'icon', 'avatar', 'author', 'headshot', 'social', 'share', 'banner',
         'sprite', 'favicon', 'badge', 'tracking', 'pixel', 'ads', 'doubleclick',
-        'cookie', 'newsletter', 'promo', 'sponsor', 'placeholder'
+        'cookie', 'newsletter', 'promo', 'sponsor', 'placeholder',
+        # retratos e pessoas — causam a repetição de fotos de pesquisadores
+        'portrait', 'profile', 'staff', 'team', 'person', 'people', 'face',
+        'mugshot', 'contributor', 'editor', 'reporter', 'scientist', 'researcher',
+        'photo of', 'photo by', 'credit:', 'courtesy',
     )
     return any(part in haystack for part in bad_parts)
 
@@ -1330,13 +1370,19 @@ def review_portuguese_content(title_pt: str, summary_pt: str, facts_pt: list[str
         'body': body_pt,
     }
     prompt = (
-        'Você é um revisor científico e copy editor em português do Brasil. '
-        'Corrija ortografia, concordância, pontuação, regência, fluidez e naturalidade. '
-        'Preserve rigor factual, números, nomes próprios, cautelas e o sentido original. '
-        'Não invente fatos, não embeleze demais, não adicione opinião e não remova ressalvas científicas. '
-        'No campo "body", devolva texto corrido em português natural, sem HTML e com 4 a 8 parágrafos separados por "\n\n". '
-        'Mantenha os fatos listados em "facts" curtos, claros e objetivos. '
-        'Responda somente em JSON válido com as chaves exatas title, summary, facts, body.\n\n'
+        'Você é um revisor científico e copy editor sênior em português do Brasil. '
+        'Sua tarefa é corrigir e melhorar o texto científico fornecido em JSON.\n\n'
+        'REGRAS OBRIGATÓRIAS:\n'
+        '1. Corrija TODA ortografia, concordância, pontuação, regência e sintaxe.\n'
+        '2. Nunca corte frases no meio — toda frase deve terminar com pontuação completa.\n'
+        '3. Nunca use travessão (—) nem reticências (...) no texto.\n'
+        '4. Nunca use marcadores de IA como "Além disso,", "Em resumo,", "Vale ressaltar que", "É importante notar que", "Certamente", "Claro que".\n'
+        '5. Preserve rigor factual: números, nomes próprios, datas, unidades e cautelas científicas.\n'
+        '6. Não invente fatos, não adicione opiniões e não remova ressalvas científicas.\n'
+        '7. No campo "body": texto corrido em português natural, SEM HTML, com 5 a 8 parágrafos completos separados por "\\n\\n".\n'
+        '8. Cada parágrafo deve ter entre 60 e 400 palavras e terminar com ponto final.\n'
+        '9. Mantenha "facts" curtos, claros, objetivos e com frase completa.\n'
+        '10. Responda SOMENTE em JSON válido com as chaves exatas: title, summary, facts, body.\n\n'
         + json.dumps(payload, ensure_ascii=False)
     )
     reviewed = call_gemini_json('pt_review_bundle', prompt)
@@ -1371,7 +1417,7 @@ def review_portuguese_content(title_pt: str, summary_pt: str, facts_pt: list[str
     if not body_paragraphs:
         body_paragraphs = [collapse_ws(p) for p in re.split(r'(?<=[.!?])\s+(?=[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ])', payload['body']) if collapse_ws(p)]
     body_html = ''.join(
-        f'<p>{html.escape(truncate(paragraph, 850))}</p>'
+        f'<p>{html.escape(collapse_ws(paragraph))}</p>'
         for paragraph in body_paragraphs[:8]
         if len(paragraph) >= 45
     ) or body_pt
@@ -1942,7 +1988,7 @@ def _cat_field(category: str, lang: str) -> str:
     return (pt_names if lang == 'pt' else en_names).get(category, category.lower())
 
 
-def _fact_clause(text: str, limit: int = 175) -> str:
+def _fact_clause(text: str, limit: int = 260) -> str:
     text = smooth_prose(text)
     text = re.sub(r'^[A-Z][^:]{0,28}:\s+', '', text)
     text = re.sub(r'\s*\[(.*?)\]\s*', ' ', text)
@@ -1950,7 +1996,17 @@ def _fact_clause(text: str, limit: int = 175) -> str:
     text = re.sub(r'https?://\S+', ' ', text, flags=re.I)
     text = re.sub(r'\b10\.\d{4,9}/\S+\b', ' ', text, flags=re.I)
     text = re.sub(r'\s+', ' ', text).strip()
-    return truncate(text, limit).rstrip(' .;:,') + '.' if text else ''
+    # Só trunca se a frase estiver muito longa E tiver um ponto de corte limpo
+    if len(text) <= limit:
+        return text + ('' if text.endswith('.') else '.')
+    # Tenta cortar na última frase completa dentro do limite
+    cut = text[:limit]
+    last_period = max(cut.rfind('.'), cut.rfind('!'), cut.rfind('?'))
+    if last_period > limit // 2:
+        return text[:last_period + 1]
+    # Fallback: corta na última palavra antes do limite
+    cut = text[:limit].rsplit(' ', 1)[0].rstrip(' .;:,–—')
+    return cut + '.' if cut else ''
 
 
 def _fact_bank(facts: list[str], summary: str) -> list[str]:
@@ -1962,13 +2018,13 @@ def _fact_bank(facts: list[str], summary: str) -> list[str]:
     return distinct_facts(bank, 12)
 
 
-def _clean_fact_sentence(text: str, limit: int = 180) -> str:
+def _clean_fact_sentence(text: str, limit: int = 260) -> str:
     text = _fact_clause(text, limit)
     text = _strip_agent_prefix(text)
     return collapse_ws(text)
 
 
-def _fact_for_paragraph(text: str, limit: int = 180, lower: bool = False) -> str:
+def _fact_for_paragraph(text: str, limit: int = 260, lower: bool = False) -> str:
     cleaned = _clean_fact_sentence(text, limit)
     return _lc(cleaned) if lower and cleaned else cleaned
 
@@ -2563,8 +2619,8 @@ def _closing_line(category: str, source_type: str, lang: str) -> str:
 def build_body(title: str, summary: str, facts: list[str], category: str, source: str,
                source_type: str, lang: str, src_url: str) -> str:
     useful = _fact_bank(facts, summary)
-    lead = _clean_fact_sentence(summary or title, 280)
-    detail_bank = distinct_facts([_clean_fact_sentence(f, 200) for f in useful[1:]], 10)
+    lead = _clean_fact_sentence(summary or title, 360)
+    detail_bank = distinct_facts([_clean_fact_sentence(f, 260) for f in useful[1:]], 10)
 
     paragraphs = []
 
@@ -2614,9 +2670,9 @@ def build_body(title: str, summary: str, facts: list[str], category: str, source
             return text
         varied_bridge = _vary_intro(bridge, lang)
         p2_bits = [varied_bridge]
-        p2_bits.append(_fact_for_paragraph(detail_bank[0], 200))
+        p2_bits.append(_fact_for_paragraph(detail_bank[0], 260))
         if len(detail_bank) > 1:
-            p2_bits.append(_fact_for_paragraph(detail_bank[1], 200))
+            p2_bits.append(_fact_for_paragraph(detail_bank[1], 260))
         paragraphs.append(_join_sentences(p2_bits))
 
     # P3 e P4: Blocos de fatos adicionais (pares)
@@ -2625,9 +2681,9 @@ def build_body(title: str, summary: str, facts: list[str], category: str, source
         chunk = remaining[i:i + 2]
         if not chunk:
             continue
-        sentences = [_fact_for_paragraph(chunk[0], 200)]
+        sentences = [_fact_for_paragraph(chunk[0], 260)]
         if len(chunk) > 1:
-            sentences.append(_fact_for_paragraph(chunk[1], 200))
+            sentences.append(_fact_for_paragraph(chunk[1], 260))
         paragraphs.append(_join_sentences(sentences))
 
     # P5: Significado para o campo
