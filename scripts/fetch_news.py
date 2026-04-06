@@ -65,9 +65,9 @@ FULL_TEXT_LIMIT = 9000
 MAX_FACT_SENTENCES = 14
 MAX_INLINE_IMAGES = 3
 GEMINI_TIMEOUT = 45
-GEMINI_RPM_LIMIT = 10            # free tier: 20 req/min; usamos 10 para folga confortável
-GEMINI_RETRY_ON_429 = 4          # tentativas extras com backoff ao receber 429
-GEMINI_RETRY_DELAY_BASE = 8      # segundos base de espera no primeiro retry (dobra a cada tentativa)
+GEMINI_RPM_LIMIT = 8             # conservador: 8 req/min sobre o limite de 20 da free tier
+GEMINI_RETRY_ON_429 = 2          # máximo 2 retries por chamada
+GEMINI_RETRY_DELAY_429 = 65      # espera fixa de 65s: garante reset da janela de 1 minuto do RPM
 GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.0-flash').strip() or 'gemini-2.0-flash'
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '').strip()
 GEMINI_ENDPOINT_TEMPLATE = 'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
@@ -1299,11 +1299,10 @@ def call_gemini_json(task_key: str, prompt: str) -> Optional[dict]:
             except Exception:
                 err_body = '(sem corpo)'
             if exc.code == 429 and attempt < GEMINI_RETRY_ON_429:
-                delay = GEMINI_RETRY_DELAY_BASE * (2 ** attempt)
-                print(f'    [Gemini] 429 quota — retry {attempt + 1}/{GEMINI_RETRY_ON_429} em {delay}s ...')
-                _time.sleep(delay)
+                print(f'    [Gemini] 429 quota — aguardando {GEMINI_RETRY_DELAY_429}s para reset do RPM (retry {attempt + 1}/{GEMINI_RETRY_ON_429}) ...')
+                _time.sleep(GEMINI_RETRY_DELAY_429)
                 continue
-            # Erro definitivo ou retries esgotados — loga apenas uma vez
+            # Erro definitivo ou retries esgotados
             print(f'ERR Gemini HTTP {exc.code} ({exc.reason}): {err_body}')
             GEMINI_CACHE[cache_key] = None
             return None
