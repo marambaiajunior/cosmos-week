@@ -30,10 +30,10 @@ jobs:
 
     steps:
       - name: Checkout do repositório
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Configurar Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -49,6 +49,9 @@ jobs:
           else
             echo "✓ GEMINI_API_KEY presente (${#GEMINI_API_KEY} caracteres)"
           fi
+
+      - name: Instalar dependências Python
+        run: pip install feedparser --break-system-packages || pip install feedparser
 
       - name: Gerar portal e metadados estáticos
         run: python scripts/fetch_news.py
