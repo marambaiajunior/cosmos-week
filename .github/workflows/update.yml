@@ -19,7 +19,7 @@ jobs:
     # Tempo máximo total do job: 25 minutos.
     # Sem Gemini a pipeline termina em ~3 min.
     # Com Gemini (40 posts × ~45s) pode chegar a ~20 min.
-    timeout-minutes: 25
+    timeout-minutes: 40
 
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
