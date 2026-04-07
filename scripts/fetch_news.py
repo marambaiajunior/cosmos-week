@@ -781,25 +781,13 @@ def _candidate_caption(text: str) -> str:
 def _bad_inline_image(url: str, alt: str = '', caption: str = '') -> bool:
     haystack = normalize_text(' '.join([url or '', alt or '', caption or '']))
     bad_parts = (
-        # UI / branding
-        'logo', 'icon', 'avatar', 'social', 'share', 'banner',
+        'logo', 'icon', 'avatar', 'author', 'headshot', 'social', 'share', 'banner',
         'sprite', 'favicon', 'badge', 'tracking', 'pixel', 'ads', 'doubleclick',
         'cookie', 'newsletter', 'promo', 'sponsor', 'placeholder',
-        # Retratos e pessoas individuais — bloquear fotos de pesquisadores/autores
-        'portrait', 'headshot', 'mugshot',
-        'author', 'authors', 'byline',
-        'profile', 'profile-pic', 'profile_pic',
-        'staff', 'team', 'member',
-        'contributor', 'editor', 'reporter',
-        'scientist', 'researcher', 'professor', 'dr-', 'dr_',
-        'photo of', 'photo by', 'photo_by', 'foto de',
-        'credit:', 'courtesy',
-        'face', 'faces', 'selfie',
-        # Padroes de URL comuns em fotos de pessoas em sites de noticias
-        '/people/', '/person/', '/authors/', '/author/', '/staff/', '/team/',
-        '/headshots/', '/portraits/', '/bios/', '/bio/',
-        '_headshot', '_portrait', '_author', '_staff',
-        '-headshot', '-portrait', '-author', '-staff',
+        # retratos e pessoas — causam a repetição de fotos de pesquisadores
+        'portrait', 'profile', 'staff', 'team', 'person', 'people', 'face',
+        'mugshot', 'contributor', 'editor', 'reporter', 'scientist', 'researcher',
+        'photo of', 'photo by', 'credit:', 'courtesy',
     )
     return any(part in haystack for part in bad_parts)
 
@@ -846,9 +834,9 @@ def extract_inline_images(url: str, primary_image: str = '', limit: int = MAX_IN
         src_norm = normalize_text(src)
         if src_norm == primary_norm or src_norm in seen:
             return
-        if width and width < 400:
+        if width and width < 240:
             return
-        if height and height < 250:
+        if height and height < 160:
             return
         caption_en = _candidate_caption(caption_raw) or _candidate_caption(alt_raw)
         alt_en = _candidate_caption(alt_raw) or caption_en
@@ -2769,13 +2757,21 @@ def build_highlights(title: str, summary: str, facts: list[str], source_type: st
 # ── Image selection ───────────────────────────────────────────────────────────
 
 def choose_post_image(item: dict, category: str) -> str:
-    feed_img = clean_image_url(item.get('feed_img') or '')
-    if feed_img and image_url_looks_good(feed_img):
-        return feed_img
+    # Prioridade 1: imagem da página original (og:image / twitter:image)
+    # Essas são sempre de alta resolução e otimizadas para compartilhamento.
+    # A imagem do feed RSS é frequentemente uma miniatura de baixa resolução
+    # que fica borrada quando esticada para cobrir a capa do artigo.
     if item.get('source_type') != 'preprint':
         page_img = fetch_page_image(item.get('link', ''))
         if page_img and image_url_looks_good(page_img):
             return page_img
+
+    # Prioridade 2: imagem do feed RSS (fallback — pode ser baixa resolução)
+    feed_img = clean_image_url(item.get('feed_img') or '')
+    if feed_img and image_url_looks_good(feed_img):
+        return feed_img
+
+    # Prioridade 3: imagem temática baseada no título/categoria
     return infer_thematic_image(item.get('title', ''), item.get('summary', ''), item.get('source', ''), category)
 
 
