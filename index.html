@@ -705,16 +705,19 @@
     }
     .article-cover {
       position: relative;
-      height: 520px;
+      height: 560px;
       overflow: hidden;
+      background: #0d1b35;
     }
     .article-cover img {
       position: absolute;
       inset: 0;
       width: 100%; height: 100%;
       object-fit: cover;
-      object-position: center 30%;
+      object-position: center center;
       display: block;
+      image-rendering: auto;
+      will-change: transform;
     }
     .article-cover::after {
       content: ''; position: absolute; inset: 0;
@@ -1106,6 +1109,7 @@
     @media (max-width: 600px) {
       .hero-content { padding: 24px 22px 20px; }
       .article-cover-content { padding: 28px 22px 24px; }
+      .article-cover { height: 340px; }
       .article-layout { padding: 22px; }
       .about-grid { padding: 28px 22px 36px; }
       .compact-item { grid-template-columns: 1fr; }
@@ -1635,7 +1639,8 @@
     const primary  = escapeAttr(primaryImage(post));
     const fallback = escapeAttr(fallbackImage(post));
     const alt      = escapeAttr(textFor(post, 'title'));
-    return `src="${primary}" alt="${alt}" loading="${loading}" onerror="if(this.src!=='${fallback}'){this.src='${fallback}'}"`;
+    const decode   = loading === 'eager' ? 'sync' : 'async';
+    return `src="${primary}" alt="${alt}" loading="${loading}" decoding="${decode}" onerror="if(this.src!=='${fallback}'){this.src='${fallback}'}"`;
   }
 
   function getURLForArticle(post) {
@@ -2272,12 +2277,11 @@
       </div>
 
       <article class="article-shell">
-        <div class="article-cover" style="min-height:480px;">
-          <img ${imageAttrs(post,'eager')} style="width:100%;height:100%;object-fit:cover;display:block;min-height:480px;">
+        <div class="article-cover">
+          <img ${imageAttrs(post,'eager')}>
           <div class="article-cover-content">
             ${renderBadgeRow(post, `<span class="meta-chip">${post.source}</span>`)}
             <h1 class="headline-xl" style="margin-bottom:14px;">${textFor(post,'title')}</h1>
-            <p class="deck" style="max-width:780px;">${textFor(post,'excerpt')}</p>
             <div class="meta-row" style="margin-top:16px;">
               <span>${tr('newsroom')}</span>
               <span>${meta.date}</span>
@@ -2289,7 +2293,6 @@
 
         <div class="article-layout">
           <div>
-            <p class="article-lede">${textFor(post,'sub')}</p>
             ${articleVideoMarkup(post)}
             ${buildArticleSummary(post)}
             <div class="article-body">${buildArticleBody(post)}</div>
