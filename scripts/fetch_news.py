@@ -787,10 +787,36 @@ def _bad_inline_image(url: str, alt: str = '', caption: str = '', context: str =
         # retratos e pessoas — causam a repetição de fotos de pesquisadores
         'portrait', 'profile', 'staff', 'team', 'person', 'people', 'face',
         'mugshot', 'contributor', 'editor', 'reporter', 'scientist', 'researcher',
-        'journalist', 'correspondent', 'byline', 'edited by', 'written by',
+        'journalist', 'correspondent', 'reviewer', 'byline', 'edited by', 'written by', 'reviewed by',
         'photo of', 'photo by', 'credit:', 'courtesy',
     )
     return any(part in haystack for part in bad_parts)
+
+
+def _extract_surrounding_context(html_fragment: str, start: int, end: int, radius: int = 420) -> str:
+    if not html_fragment:
+        return ''
+    left = max(0, start - radius)
+    right = min(len(html_fragment), end + radius)
+    return html_fragment[left:right]
+
+
+def _looks_like_person_name(text: str) -> bool:
+    text = collapse_ws(strip_html(text or ''))
+    if not text or len(text) < 4 or len(text) > 80:
+        return False
+    if re.search(r'\d', text):
+        return False
+    parts = [p for p in re.split(r'\s+', text) if p]
+    if len(parts) < 2 or len(parts) > 5:
+        return False
+    cleaned = []
+    for part in parts:
+        token = re.sub(r"[^A-Za-zÀ-ÿ'’-]", '', part)
+        if not token:
+            return False
+        cleaned.append(token)
+    return all(re.fullmatch(r"[A-ZÀ-Ý][a-zà-ÿ'’-]+", token) for token in cleaned)
 
 
 def _looks_like_small_editor_headshot(
@@ -803,15 +829,17 @@ def _looks_like_small_editor_headshot(
 ) -> bool:
     haystack = normalize_text(' '.join([url or '', alt or '', caption or '', context or '']))
     context_markers = (
-        'edited by', 'written by', 'byline', 'author', 'author-', 'author_', 'authorphoto',
-        'editor', 'editorial', 'reporter', 'journalist', 'correspondent', 'contributor',
-        'profile', 'avatar', 'headshot', 'head shot', 'portrait', 'staff', 'team-member',
-        'team_member', 'bio', 'biography', 'staffer',
+        'edited by', 'written by', 'reviewed by', 'byline', 'author', 'author-', 'author_', 'authorphoto',
+        'editor', 'editorial', 'reporter', 'journalist', 'correspondent', 'contributor', 'reviewer',
+        'profile', 'profile-card', 'profile_card', 'avatar', 'headshot', 'head shot', 'portrait',
+        'staff', 'team-member', 'team_member', 'bio', 'biography', 'staffer',
     )
-    if any(marker in haystack for marker in context_markers):
+    has_editorial_context = any(marker in haystack for marker in context_markers)
+
+    if has_editorial_context:
         if not width or not height:
             return True
-        if width <= 360 or height <= 360 or (width * height) <= 140000:
+        if width <= 420 or height <= 420 or (width * height) <= 220000:
             return True
 
     if width and height:
@@ -819,9 +847,12 @@ def _looks_like_small_editor_headshot(
         min_side = min(width, height)
         ratio = max_side / max(1, min_side)
         name_like = collapse_ws(caption or alt or '')
-        if max_side <= 320 and min_side <= 320 and ratio <= 1.8:
-            if not name_like or len(name_like) <= 40 or re.fullmatch(r"[A-Za-zÀ-ÿ .'-]{4,80}", name_like):
+        if max_side <= 420 and min_side <= 420 and ratio <= 1.8:
+            if not name_like or len(name_like) <= 48 or _looks_like_person_name(name_like):
                 return True
+
+    if has_editorial_context and _looks_like_person_name(collapse_ws(caption or alt or '')):
+        return True
 
     return False
 
@@ -858,14 +889,7 @@ def extract_inline_images(url: str, primary_image: str = '', limit: int = MAX_IN
     primary_norm = normalize_text(primary_image or '')
     regions = _extract_article_regions_for_images(page)
 
-    def add_image(
-        src_raw: str,
-        alt_raw: str = '',
-        caption_raw: str = '',
-        width: int = 0,
-        height: int = 0,
-        context_raw: str = '',
-    ):
+    def add_image(src_raw: str, alt_raw: str = '', caption_raw: str = '', width: int = 0, height: int = 0, context_raw: str = '', surrounding_raw: str = ''):
         if len(out) >= limit:
             return
         src = urllib.parse.urljoin(url, src_raw or '')
@@ -881,9 +905,10 @@ def extract_inline_images(url: str, primary_image: str = '', limit: int = MAX_IN
             return
         caption_en = _candidate_caption(caption_raw) or _candidate_caption(alt_raw)
         alt_en = _candidate_caption(alt_raw) or caption_en
-        if _bad_inline_image(src, alt_en, caption_en, context_raw):
+        combined_context = ' '.join(part for part in (context_raw, surrounding_raw) if part)
+        if _bad_inline_image(src, alt_en, caption_en, combined_context):
             return
-        if _looks_like_small_editor_headshot(src, alt_en, caption_en, context_raw, width, height):
+        if _looks_like_small_editor_headshot(src, alt_en, caption_en, combined_context, width, height):
             return
         seen.add(src_norm)
         caption_pt = translate_text(caption_en, 'pt') if caption_en else ''
@@ -902,9 +927,11 @@ def extract_inline_images(url: str, primary_image: str = '', limit: int = MAX_IN
         if len(out) >= limit:
             break
 
-        for figure in re.findall(r'<figure\b[^>]*>.*?</figure>', region, flags=re.I | re.S):
+        for figure_match in re.finditer(r'<figure\b[^>]*>.*?</figure>', region, flags=re.I | re.S):
             if len(out) >= limit:
                 break
+            figure = figure_match.group(0)
+            surrounding = _extract_surrounding_context(region, figure_match.start(), figure_match.end())
             img_match = re.search(r'<img\b[^>]*src=["\']([^"\']+)["\'][^>]*>', figure, flags=re.I | re.S)
             if not img_match:
                 continue
@@ -915,18 +942,19 @@ def extract_inline_images(url: str, primary_image: str = '', limit: int = MAX_IN
             height = _extract_numeric_attr(tag_html, 'height')
             cap_match = re.search(r'<figcaption\b[^>]*>(.*?)</figcaption>', figure, flags=re.I | re.S)
             caption_raw = cap_match.group(1) if cap_match else ''
-            add_image(src_raw, alt_raw, caption_raw, width, height, figure)
+            add_image(src_raw, alt_raw, caption_raw, width, height, figure, surrounding)
 
         for img_match in re.finditer(r'<img\b[^>]*src=["\']([^"\']+)["\'][^>]*>', region, flags=re.I | re.S):
             if len(out) >= limit:
                 break
             tag_html = img_match.group(0)
+            surrounding = _extract_surrounding_context(region, img_match.start(), img_match.end())
             src_raw = img_match.group(1)
             alt_raw = _extract_attr(tag_html, 'alt')
             title_raw = _extract_attr(tag_html, 'title')
             width = _extract_numeric_attr(tag_html, 'width')
             height = _extract_numeric_attr(tag_html, 'height')
-            add_image(src_raw, alt_raw, title_raw, width, height, tag_html)
+            add_image(src_raw, alt_raw, title_raw, width, height, tag_html, surrounding)
 
     INLINE_IMAGE_CACHE[cache_key] = out
     return out
