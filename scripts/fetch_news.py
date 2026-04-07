@@ -2757,13 +2757,21 @@ def build_highlights(title: str, summary: str, facts: list[str], source_type: st
 # ── Image selection ───────────────────────────────────────────────────────────
 
 def choose_post_image(item: dict, category: str) -> str:
-    feed_img = clean_image_url(item.get('feed_img') or '')
-    if feed_img and image_url_looks_good(feed_img):
-        return feed_img
+    # Prioridade 1: imagem da página original (og:image / twitter:image)
+    # Essas são sempre de alta resolução e otimizadas para compartilhamento.
+    # A imagem do feed RSS é frequentemente uma miniatura de baixa resolução
+    # que fica borrada quando esticada para cobrir a capa do artigo.
     if item.get('source_type') != 'preprint':
         page_img = fetch_page_image(item.get('link', ''))
         if page_img and image_url_looks_good(page_img):
             return page_img
+
+    # Prioridade 2: imagem do feed RSS (fallback — pode ser baixa resolução)
+    feed_img = clean_image_url(item.get('feed_img') or '')
+    if feed_img and image_url_looks_good(feed_img):
+        return feed_img
+
+    # Prioridade 3: imagem temática baseada no título/categoria
     return infer_thematic_image(item.get('title', ''), item.get('summary', ''), item.get('source', ''), category)
 
 
