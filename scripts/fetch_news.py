@@ -778,18 +778,52 @@ def _candidate_caption(text: str) -> str:
     return text
 
 
-def _bad_inline_image(url: str, alt: str = '', caption: str = '') -> bool:
-    haystack = normalize_text(' '.join([url or '', alt or '', caption or '']))
+def _bad_inline_image(url: str, alt: str = '', caption: str = '', context: str = '') -> bool:
+    haystack = normalize_text(' '.join([url or '', alt or '', caption or '', context or '']))
     bad_parts = (
-        'logo', 'icon', 'avatar', 'author', 'headshot', 'social', 'share', 'banner',
+        'logo', 'icon', 'avatar', 'author', 'headshot', 'head shot', 'social', 'share', 'banner',
         'sprite', 'favicon', 'badge', 'tracking', 'pixel', 'ads', 'doubleclick',
         'cookie', 'newsletter', 'promo', 'sponsor', 'placeholder',
         # retratos e pessoas — causam a repetição de fotos de pesquisadores
         'portrait', 'profile', 'staff', 'team', 'person', 'people', 'face',
         'mugshot', 'contributor', 'editor', 'reporter', 'scientist', 'researcher',
+        'journalist', 'correspondent', 'byline', 'edited by', 'written by',
         'photo of', 'photo by', 'credit:', 'courtesy',
     )
     return any(part in haystack for part in bad_parts)
+
+
+def _looks_like_small_editor_headshot(
+    url: str,
+    alt: str = '',
+    caption: str = '',
+    context: str = '',
+    width: int = 0,
+    height: int = 0,
+) -> bool:
+    haystack = normalize_text(' '.join([url or '', alt or '', caption or '', context or '']))
+    context_markers = (
+        'edited by', 'written by', 'byline', 'author', 'author-', 'author_', 'authorphoto',
+        'editor', 'editorial', 'reporter', 'journalist', 'correspondent', 'contributor',
+        'profile', 'avatar', 'headshot', 'head shot', 'portrait', 'staff', 'team-member',
+        'team_member', 'bio', 'biography', 'staffer',
+    )
+    if any(marker in haystack for marker in context_markers):
+        if not width or not height:
+            return True
+        if width <= 360 or height <= 360 or (width * height) <= 140000:
+            return True
+
+    if width and height:
+        max_side = max(width, height)
+        min_side = min(width, height)
+        ratio = max_side / max(1, min_side)
+        name_like = collapse_ws(caption or alt or '')
+        if max_side <= 320 and min_side <= 320 and ratio <= 1.8:
+            if not name_like or len(name_like) <= 40 or re.fullmatch(r"[A-Za-zÀ-ÿ .'-]{4,80}", name_like):
+                return True
+
+    return False
 
 
 def _extract_article_regions_for_images(page: str) -> list[str]:
@@ -824,7 +858,14 @@ def extract_inline_images(url: str, primary_image: str = '', limit: int = MAX_IN
     primary_norm = normalize_text(primary_image or '')
     regions = _extract_article_regions_for_images(page)
 
-    def add_image(src_raw: str, alt_raw: str = '', caption_raw: str = '', width: int = 0, height: int = 0):
+    def add_image(
+        src_raw: str,
+        alt_raw: str = '',
+        caption_raw: str = '',
+        width: int = 0,
+        height: int = 0,
+        context_raw: str = '',
+    ):
         if len(out) >= limit:
             return
         src = urllib.parse.urljoin(url, src_raw or '')
@@ -840,7 +881,9 @@ def extract_inline_images(url: str, primary_image: str = '', limit: int = MAX_IN
             return
         caption_en = _candidate_caption(caption_raw) or _candidate_caption(alt_raw)
         alt_en = _candidate_caption(alt_raw) or caption_en
-        if _bad_inline_image(src, alt_en, caption_en):
+        if _bad_inline_image(src, alt_en, caption_en, context_raw):
+            return
+        if _looks_like_small_editor_headshot(src, alt_en, caption_en, context_raw, width, height):
             return
         seen.add(src_norm)
         caption_pt = translate_text(caption_en, 'pt') if caption_en else ''
@@ -872,7 +915,7 @@ def extract_inline_images(url: str, primary_image: str = '', limit: int = MAX_IN
             height = _extract_numeric_attr(tag_html, 'height')
             cap_match = re.search(r'<figcaption\b[^>]*>(.*?)</figcaption>', figure, flags=re.I | re.S)
             caption_raw = cap_match.group(1) if cap_match else ''
-            add_image(src_raw, alt_raw, caption_raw, width, height)
+            add_image(src_raw, alt_raw, caption_raw, width, height, figure)
 
         for img_match in re.finditer(r'<img\b[^>]*src=["\']([^"\']+)["\'][^>]*>', region, flags=re.I | re.S):
             if len(out) >= limit:
@@ -883,7 +926,7 @@ def extract_inline_images(url: str, primary_image: str = '', limit: int = MAX_IN
             title_raw = _extract_attr(tag_html, 'title')
             width = _extract_numeric_attr(tag_html, 'width')
             height = _extract_numeric_attr(tag_html, 'height')
-            add_image(src_raw, alt_raw, title_raw, width, height)
+            add_image(src_raw, alt_raw, title_raw, width, height, tag_html)
 
     INLINE_IMAGE_CACHE[cache_key] = out
     return out
