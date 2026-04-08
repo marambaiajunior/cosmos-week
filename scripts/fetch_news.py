@@ -70,16 +70,18 @@ GEMINI_TIMEOUT = 45
 # throttling. By lowering the per‑minute limit we spread calls over a longer
 # window, improving reliability at the cost of longer build times.
 GEMINI_RPM_LIMIT = 4
-GEMINI_RETRY_ON_429 = 2          # máximo 2 retries por chamada (rate limit)
+GEMINI_RETRY_ON_429 = 2          # máximo 2 retries por chamada
 GEMINI_RETRY_DELAY_429 = 65      # espera fixa de 65s: garante reset da janela de 1 minuto do RPM
-GEMINI_RETRY_ON_503 = 3          # máximo 3 retries para sobrecarga temporária (503)
-GEMINI_RETRY_DELAY_503_BASE = 30 # backoff exponencial: 30s, 60s, 120s
+GEMINI_RETRY_ON_503 = 3          # retries extras para indisponibilidade temporária do modelo
+GEMINI_RETRY_BASE_DELAY_503 = 15 # backoff inicial para 503/500/502/504
+GEMINI_RETRY_MAX_DELAY_503 = 75  # teto do backoff para falhas transitórias
 GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.0-flash').strip() or 'gemini-2.0-flash'
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '').strip()
 GEMINI_ENDPOINT_TEMPLATE = 'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
 
 # Revisão em lote: 5 posts por chamada Gemini → 40 posts = 8 chamadas (vs 40 individuais)
-GEMINI_BATCH_SIZE = 5
+# Mantido configurável por ambiente para permitir reduzir o lote sem editar o código.
+GEMINI_BATCH_SIZE = max(1, int(os.getenv('GEMINI_BATCH_SIZE', '5') or '5'))
 
 NS = {
     'atom': 'http://www.w3.org/2005/Atom',
@@ -1358,14 +1360,7 @@ def _gemini_rate_limit_wait() -> None:
     _GEMINI_CALL_TIMES.append(_time.monotonic())
 
 
-def call_gemini_json(task_key: str, prompt: str):
-    """Chama a API Gemini e retorna o JSON parseado (dict OU list) ou None em caso de falha.
-
-    Retorna list quando a resposta é um array JSON — necessário para revisões em lote
-    onde o modelo responde com um array de artigos revisados, não um dict.
-    Retorna dict quando a resposta é um objeto JSON único.
-    Retorna None em caso de erro ou resposta inválida.
-    """
+def call_gemini_json(task_key: str, prompt: str) -> Optional[object]:
     import time as _time
     if not GEMINI_API_KEY:
         return None
@@ -1384,10 +1379,9 @@ def call_gemini_json(task_key: str, prompt: str):
     }
     data = json.dumps(body, ensure_ascii=False).encode('utf-8')
 
-    retry_429 = 0
-    retry_503 = 0
+    max_attempts = max(GEMINI_RETRY_ON_429, GEMINI_RETRY_ON_503) + 1
 
-    while True:
+    for attempt in range(max_attempts):
         # Recriar o objeto Request a cada tentativa: urllib.request.Request
         # com body é consumido após o primeiro urlopen e não pode ser reutilizado.
         req = urllib.request.Request(
@@ -1406,10 +1400,10 @@ def call_gemini_json(task_key: str, prompt: str):
             parsed = json.loads(raw)
             text = _gemini_response_text(parsed)
             out = _extract_json_from_text(text)
-            # Aceita list (batch de artigos) OU dict (resposta única) como resultado válido
             if isinstance(out, (dict, list)):
                 GEMINI_CACHE[cache_key] = out
                 return out
+            print('ERR Gemini: resposta sem JSON utilizável')
             GEMINI_CACHE[cache_key] = None
             return None
         except urllib.error.HTTPError as exc:
@@ -1417,17 +1411,22 @@ def call_gemini_json(task_key: str, prompt: str):
                 err_body = exc.read().decode('utf-8', errors='ignore')[:400]
             except Exception:
                 err_body = '(sem corpo)'
-            if exc.code == 429 and retry_429 < GEMINI_RETRY_ON_429:
-                retry_429 += 1
-                print(f'    [Gemini] 429 quota — aguardando {GEMINI_RETRY_DELAY_429}s para reset do RPM (retry {retry_429}/{GEMINI_RETRY_ON_429}) ...')
+
+            if exc.code == 429 and attempt < GEMINI_RETRY_ON_429:
+                print(f'    [Gemini] 429 quota — aguardando {GEMINI_RETRY_DELAY_429}s para reset do RPM (retry {attempt + 1}/{GEMINI_RETRY_ON_429}) ...')
                 _time.sleep(GEMINI_RETRY_DELAY_429)
                 continue
-            if exc.code == 503 and retry_503 < GEMINI_RETRY_ON_503:
-                retry_503 += 1
-                delay = GEMINI_RETRY_DELAY_503_BASE * (2 ** (retry_503 - 1))  # 30s, 60s, 120s
-                print(f'    [Gemini] 503 sobrecarga — aguardando {delay}s (retry {retry_503}/{GEMINI_RETRY_ON_503}) ...')
-                _time.sleep(delay)
+
+            if exc.code in (500, 502, 503, 504) and attempt < GEMINI_RETRY_ON_503:
+                wait = min(GEMINI_RETRY_BASE_DELAY_503 * (2 ** attempt), GEMINI_RETRY_MAX_DELAY_503)
+                status = 'sobrecarga do modelo' if exc.code == 503 else 'falha transitória'
+                print(
+                    f'    [Gemini] HTTP {exc.code} ({status}) — aguardando {wait}s '
+                    f'(retry {attempt + 1}/{GEMINI_RETRY_ON_503}) ...'
+                )
+                _time.sleep(wait)
                 continue
+
             # Erro definitivo ou retries esgotados
             print(f'ERR Gemini HTTP {exc.code} ({exc.reason}): {err_body}')
             GEMINI_CACHE[cache_key] = None
@@ -1436,6 +1435,9 @@ def call_gemini_json(task_key: str, prompt: str):
             print(f'ERR Gemini: {exc}')
             GEMINI_CACHE[cache_key] = None
             return None
+
+    GEMINI_CACHE[cache_key] = None
+    return None
 
 
 
@@ -3362,10 +3364,21 @@ def batch_review_all_posts(posts: list[dict]) -> None:
                 result = list(result.values()) if result else None
 
         if not isinstance(result, list):
-            print(f'  [Gemini] Lote {batch_num} sem resposta válida — fallback para {len(batch)} posts')
-            for p in batch:
-                p['reviewStatus'] = 'fallback'
-            fallback_count += len(batch)
+            print(f'  [Gemini] Lote {batch_num} sem resposta válida — tentando item a item para {len(batch)} posts')
+            for idx, p in enumerate(batch, start=1):
+                reviewed_single = review_portuguese_content(
+                    p['title_pt'],
+                    p['sub_pt'],
+                    p.get('highlights_pt', [])[:3],
+                    p['body_pt'],
+                )
+                if isinstance(reviewed_single, dict) and reviewed_single.get('status') != 'fallback':
+                    _apply_reviewed_post(p, reviewed_single)
+                    success_count += 1
+                    print(f'    [Gemini] item {idx}/{len(batch)} revisado após fallback do lote')
+                else:
+                    p['reviewStatus'] = 'fallback'
+                    fallback_count += 1
             continue
 
         reviewed_map = {str(r.get('slug', '')): r for r in result if isinstance(r, dict)}
