@@ -1461,13 +1461,23 @@ _BAD_ENDING_TOKENS_PT = {
     'e', 'em', 'no', 'na', 'nos', 'nas', 'ao', 'aos', 'à', 'às', 'com', 'sem', 'por',
     'para', 'pra', 'que', 'se', 'como', 'quando', 'onde', 'esse', 'essa', 'este',
     'esta', 'isso', 'aquele', 'aquela', 'cujo', 'cuja', 'cujos', 'cujas', 'seu', 'sua',
-    'seus', 'suas', 'esse.', 'essa.', 'este.', 'esta.'
+    'seus', 'suas', 'num', 'numa', 'nuns', 'numas', 'apenas', 'durante', 'sobre',
+    'esse.', 'essa.', 'este.', 'esta.', 'numa.', 'num.', 'apenas.', 'apos', 'apos.'
 }
+
+_PROMOTIONAL_OR_CREDIT_MARKERS_PT = [
+    'explore o universo com', 'sua melhor fonte de observacao', 'sua melhor fonte de observação',
+    'siga @', 'bluesky', 'instagram', 'youtube', 'facebook', 'linkedin', 'tiktok',
+    'cobertura detalhada ao vivo', 'acompanhe ao vivo', 'acompanhe em', 'siga os marcos mais importantes',
+    '@esa', '@science.esa', '@transport.esa', '@esascience', 'crédito:', 'credito:',
+    'dominio publico', 'domínio público', 'pixabay/cc0', 'public domain', 'image credit',
+    'photo credit', 'arxiv doi', 'doi:', 'todos os direitos reservados'
+]
 
 
 def _strip_highlight_prefix_pt(text: str) -> str:
     text = collapse_ws(strip_html(text or ''))
-    text = re.sub(r'^(Ponto central|Dado-chave|Dado chave|Core point|Key detail|Institutional origin|Origem institucional)\s*:\s*', '', text, flags=re.I)
+    text = re.sub(r'^(Ponto central|Dado-chave|Dado chave|Core point|Key detail|Institutional origin|Origem institucional)\s*:\s*', '', text, flags=re.I)
     return collapse_ws(text)
 
 
@@ -1476,8 +1486,20 @@ def _looks_generic_template_paragraph_pt(text: str) -> bool:
     return any(marker in low for marker in _GENERIC_TEMPLATE_MARKERS_PT)
 
 
+def _looks_promotional_or_credit_paragraph_pt(text: str) -> bool:
+    low = normalize_text(text)
+    if any(marker in low for marker in _PROMOTIONAL_OR_CREDIT_MARKERS_PT):
+        return True
+    if low.count('@') >= 2:
+        return True
+    social_hits = sum(token in low for token in ('instagram', 'youtube', 'facebook', 'linkedin', 'tiktok', 'bluesky'))
+    if social_hits >= 2:
+        return True
+    return False
+
+
 def _extract_source_paragraph_html(body_html: str) -> str:
-    match = re.search(r'(<p\s+class=["\']art-source["\'][^>]*>.*?</p>)', body_html or '', flags=re.I | re.S)
+    match = re.search(r"(<p\s+class=['\"]art-source['\"][^>]*>.*?</p>)", body_html or '', flags=re.I | re.S)
     return match.group(1) if match else ''
 
 
@@ -1498,37 +1520,65 @@ def _strip_noise_prefix_pt(text: str) -> str:
     text = collapse_ws(strip_html(text or ''))
     text = re.sub(r'^[\*#>•·\-\u2022\u25cf\u25aa\u25ab\s]+', '', text)
     text = re.sub(r'^["“”\'\'`´]+', '', text)
-    text = re.sub(r'^(?:atualizacao|atualização)\s*:\s*', 'Atualização: ', text, flags=re.I)
+    text = re.sub(r'^\*+\s*', '', text)
+    text = re.sub(r'^(?:atualizacao|atualização)\b\s*', 'Atualização ', text, flags=re.I)
+    text = re.sub(r'^(?:cr[eé]dito|credito)\s*:\s*(?:arxiv\s+doi|doi)\s*:\s*\S+\s*', '', text, flags=re.I)
+    text = re.sub(r'^(?:cr[eé]dito|credito)\s*:\s*\S+\s+(?:arxiv\s+doi|doi)\s*:\s*\S+\s*', '', text, flags=re.I)
+    text = re.sub(r'^(?:cr[eé]dito|credito)\s*:\s*[^.!?]{0,220}[.!?]?\s*', '', text, flags=re.I)
+    text = re.sub(r'^(?:arxiv\s+doi|doi)\s*:\s*\S+\s*', '', text, flags=re.I)
+    text = re.sub(r'^(?:pixabay/cc0\s+)?(?:dom[ií]nio p[uú]blico|public domain)\s*', '', text, flags=re.I)
+    text = re.sub(r'^\d{1,2}\s+\d{1,2}\s+(?:CEST|UTC|GMT|EST|EDT|PST|PDT|CET|BST)\b(?:\s+de\s+hoje)?[,:\-\s]*', '', text, flags=re.I)
+    text = re.sub(r'^\d{1,2}:\d{2}\s+(?:CEST|UTC|GMT|EST|EDT|PST|PDT|CET|BST)\b(?:\s+de\s+hoje)?[,:\-\s]*', '', text, flags=re.I)
+    text = re.sub(r'^[-–—,:;\s]+', '', text)
     return collapse_ws(text)
 
 
-def _take_complete_sentences_pt(text: str, max_sentences: int = 2, max_chars: int = 420) -> str:
+def _normalize_fallback_fragment_pt(text: str) -> str:
     text = _strip_noise_prefix_pt(_strip_highlight_prefix_pt(text))
-    text = re.sub(r'\s+', ' ', text).strip()
-    if not text:
+    text = smooth_prose(text)
+    text = re.sub(r'https?://\S+', ' ', text, flags=re.I)
+    text = re.sub(r'\b10\.\d{4,9}/\S+\b', ' ', text, flags=re.I)
+    text = re.sub(r'\s*\((?:credit|image|photo).*?\)\s*', ' ', text, flags=re.I)
+    text = re.sub(r'\s+', ' ', text).strip(' \t\n\r-–—,:;')
+    return collapse_ws(text)
+
+
+def _sentence_is_fragment_pt(text: str) -> bool:
+    norm = normalize_text(text.rstrip('.!?'))
+    words = norm.split()
+    if not words:
+        return True
+    last_word = words[-1]
+    if last_word in _BAD_ENDING_TOKENS_PT or len(last_word) == 1:
+        return True
+    if len(words) < 5:
+        return True
+    return False
+
+
+def _take_complete_sentences_pt(text: str, max_sentences: int = 2, max_chars: int = 420) -> str:
+    text = _normalize_fallback_fragment_pt(text)
+    if not text or _looks_promotional_or_credit_paragraph_pt(text):
         return ''
 
     sentences = [
-        collapse_ws(s) for s in re.split(r'(?<=[.!?])\s+(?=[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ])', text)
+        collapse_ws(s) for s in re.split(r'(?<=[.!?])\s+(?=[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ0-9])', text)
         if collapse_ws(s)
     ]
     clean_sentences: list[str] = []
     for sentence in sentences:
-        sentence = sentence.strip().lstrip('*').strip()
-        sentence = re.sub(r'^["“”\'\'`´]+', '', sentence)
+        sentence = _normalize_fallback_fragment_pt(sentence)
         if not sentence:
             continue
-        if _looks_generic_template_paragraph_pt(sentence):
-            continue
-        norm = normalize_text(sentence.rstrip('.!?'))
-        words = norm.split()
-        last_word = words[-1] if words else ''
-        if last_word in _BAD_ENDING_TOKENS_PT or len(last_word) == 1:
+        if _looks_generic_template_paragraph_pt(sentence) or _looks_promotional_or_credit_paragraph_pt(sentence):
             continue
         if len(sentence) < 28:
             continue
         if len(sentence) > max_chars:
             sentence = truncate(sentence, max_chars)
+            sentence = _normalize_fallback_fragment_pt(sentence)
+        if _sentence_is_fragment_pt(sentence):
+            continue
         sentence = sentence.rstrip(' .;,:')
         if sentence and sentence[0].isalpha():
             sentence = sentence[0].upper() + sentence[1:]
@@ -1538,15 +1588,14 @@ def _take_complete_sentences_pt(text: str, max_sentences: int = 2, max_chars: in
     if clean_sentences:
         return ' '.join(clean_sentences)
 
-    trimmed = collapse_ws(text).rstrip(' .;,:')
+    trimmed = _normalize_fallback_fragment_pt(text).rstrip(' .;,:')
     if not trimmed:
-        return ''
-    norm = normalize_text(trimmed)
-    words = norm.split()
-    if not words or words[-1] in _BAD_ENDING_TOKENS_PT or len(words[-1]) == 1:
         return ''
     if len(trimmed) > max_chars:
         trimmed = truncate(trimmed, max_chars)
+        trimmed = _normalize_fallback_fragment_pt(trimmed).rstrip(' .;,:')
+    if _looks_promotional_or_credit_paragraph_pt(trimmed) or _sentence_is_fragment_pt(trimmed):
+        return ''
     if trimmed and trimmed[0].isalpha():
         trimmed = trimmed[0].upper() + trimmed[1:]
     return trimmed.rstrip('.') + '.'
@@ -1598,6 +1647,8 @@ def _build_natural_fallback_body(title_pt: str, summary_pt: str, facts_pt: list[
             if not cleaned:
                 continue
             if _looks_generic_template_paragraph_pt(cleaned):
+                continue
+            if _looks_promotional_or_credit_paragraph_pt(cleaned):
                 continue
             if normalize_text(cleaned).startswith('fonte'):
                 continue
@@ -2263,24 +2314,23 @@ def _cat_field(category: str, lang: str) -> str:
 
 
 def _fact_clause(text: str, limit: int = 260) -> str:
-    text = smooth_prose(text)
+    text = _normalize_fallback_fragment_pt(text)
     text = re.sub(r'^[A-Z][^:]{0,28}:\s+', '', text)
     text = re.sub(r'\s*\[(.*?)\]\s*', ' ', text)
-    text = re.sub(r'\s*\((?:credit|image|photo).*?\)\s*', ' ', text, flags=re.I)
-    text = re.sub(r'https?://\S+', ' ', text, flags=re.I)
-    text = re.sub(r'\b10\.\d{4,9}/\S+\b', ' ', text, flags=re.I)
     text = re.sub(r'\s+', ' ', text).strip()
-    # Só trunca se a frase estiver muito longa E tiver um ponto de corte limpo
+    if not text or _looks_promotional_or_credit_paragraph_pt(text):
+        return ''
     if len(text) <= limit:
-        return text + ('' if text.endswith('.') else '.')
-    # Tenta cortar na última frase completa dentro do limite
+        return '' if _sentence_is_fragment_pt(text) else text + ('' if text.endswith('.') else '.')
     cut = text[:limit]
     last_period = max(cut.rfind('.'), cut.rfind('!'), cut.rfind('?'))
     if last_period > limit // 2:
-        return text[:last_period + 1]
-    # Fallback: corta na última palavra antes do limite
+        candidate = text[:last_period + 1].strip()
+        return '' if _sentence_is_fragment_pt(candidate) else candidate
     cut = text[:limit].rsplit(' ', 1)[0].rstrip(' .;:,–—')
-    return cut + '.' if cut else ''
+    if not cut or _sentence_is_fragment_pt(cut):
+        return ''
+    return cut + '.'
 
 
 def _fact_bank(facts: list[str], summary: str) -> list[str]:
