@@ -1,157 +1,197 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0d1b35">
+  <title>Política de privacidade | Cosmos Week</title>
+  <meta name="description" content="Como o Cosmos Week trata dados, consentimento e serviços de terceiros. Contato: contato@cosmosweek.com.">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <link rel="canonical" href="https://marambaiajunior.github.io/cosmos-week/politica-de-privacidade.html">
+  <meta property="og:site_name" content="Cosmos Week">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Política de privacidade | Cosmos Week">
+  <meta property="og:description" content="Como o Cosmos Week trata dados, consentimento e serviços de terceiros. Contato: contato@cosmosweek.com.">
+  <meta property="og:url" content="https://marambaiajunior.github.io/cosmos-week/politica-de-privacidade.html">
+  <meta property="og:image" content="https://marambaiajunior.github.io/cosmos-week/assets/og-default.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Política de privacidade | Cosmos Week">
+  <meta name="twitter:description" content="Como o Cosmos Week trata dados, consentimento e serviços de terceiros. Contato: contato@cosmosweek.com.">
+  <meta name="twitter:image" content="https://marambaiajunior.github.io/cosmos-week/assets/og-default.jpg">
+
   <!-- Google tag (gtag.js) — Cosmos Week -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MX20J1ZG06"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('consent', 'default', {
-      analytics_storage: 'denied', ad_storage: 'denied',
-      ad_user_data: 'denied', ad_personalization: 'denied', wait_for_update: 500
+      analytics_storage: 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      wait_for_update: 500
     });
     try {
-      const _c = localStorage.getItem('cw_cookie_consent');
-      const _full = _c === 'full';
-      const _ana  = _c === 'full' || _c === 'analytics' || _c === 'granted';
-      if (_ana) gtag('consent', 'update', {
-        analytics_storage:  'granted',
-        ad_storage:         _full ? 'granted' : 'denied',
-        ad_user_data:       _full ? 'granted' : 'denied',
-        ad_personalization: _full ? 'granted' : 'denied'
+      const consent = localStorage.getItem('cw_cookie_consent');
+      const full = consent === 'full';
+      const analytics = consent === 'full' || consent === 'analytics' || consent === 'granted';
+      if (analytics) gtag('consent', 'update', {
+        analytics_storage: 'granted',
+        ad_storage: full ? 'granted' : 'denied',
+        ad_user_data: full ? 'granted' : 'denied',
+        ad_personalization: full ? 'granted' : 'denied'
       });
     } catch(e) {}
     gtag('js', new Date());
     gtag('config', 'G-MX20J1ZG06', { anonymize_ip: true });
   </script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Política de privacidade — Cosmos Week</title>
-  <meta name="description" content="Política de privacidade do Cosmos Week">
-  <link rel="canonical" href="https://marambaiajunior.github.io/cosmos-week/politica-de-privacidade.html">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
-/* Shared institutional style — Cosmos Week v4 */
-:root {
-  --bg:#f7f5f0; --white:#ffffff; --ink:#1a1917; --ink-2:#3e3c38; --ink-3:#6b6760; --ink-4:#9a9691;
-  --line:#dedad2; --accent:#1451a0; --accent-2:#1d6ed8; --accent-light:#e8f0fb;
-  --hdr:#0d1b35; --hdr-2:#162240; --hdr-line:rgba(255,255,255,.09); --hdr-txt:#e2e6f0; --hdr-muted:#8494b0;
-  --serif:'Libre Baskerville',Georgia,serif; --sans:'Inter',system-ui,sans-serif; --mono:'JetBrains Mono',monospace;
-  --max:1100px; --radius:6px; --radius-lg:10px; --shadow:0 4px 16px rgba(0,0,0,.08);
-}
-*{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.72;-webkit-font-smoothing:antialiased}
-a{color:var(--accent);text-decoration:none}
-a:hover{text-decoration:underline;text-underline-offset:3px}
-img{max-width:100%;display:block}
-.topbar{background:var(--hdr-2);border-bottom:1px solid var(--hdr-line)}
-.topbar .wrap{padding-top:9px;padding-bottom:9px;font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--hdr-muted)}
-.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
-main.wrap{padding-top:40px;padding-bottom:80px}
-.site-header{background:var(--hdr);border-bottom:3px solid var(--accent)}
-.header-inner{max-width:var(--max);margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:20px;height:66px}
-.brand{font:700 22px var(--serif);color:var(--hdr-txt);letter-spacing:-.02em;line-height:1}
-.brand em{font-style:normal;color:var(--accent-2)}
-.sub{font:500 9px var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--hdr-muted);margin-top:3px}
-.main-nav{display:flex;gap:4px;flex-wrap:wrap;margin-left:auto}
-.nav-link{height:34px;padding:0 13px;border-radius:4px;font:500 12.5px var(--sans);color:var(--hdr-muted);transition:color .15s,background .15s}
-.nav-link:hover{color:var(--hdr-txt);background:rgba(255,255,255,.07);text-decoration:none}
-.hero{margin-top:28px;background:var(--white);border:1px solid var(--line);border-radius:var(--radius-lg);padding:40px 44px 36px;box-shadow:var(--shadow);border-top:4px solid var(--accent)}
-.eyebrow{font:700 9.5px var(--mono);letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
-h1{font-family:var(--serif);font-size:clamp(2rem,3.5vw,2.8rem);line-height:1.12;letter-spacing:-.03em;color:var(--ink);margin-bottom:14px}
-.lead{font-size:1.05rem;color:var(--ink-3);max-width:800px;line-height:1.8}
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:32px}
-.card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius-lg);padding:24px;box-shadow:0 1px 4px rgba(0,0,0,.05)}
-.card h2{font-family:var(--serif);font-size:1.15rem;margin-bottom:10px;color:var(--ink)}
-.card p,.card li{color:var(--ink-3);font-size:14px;line-height:1.72}
-.card ul{padding-left:18px;list-style:disc}
-.card ul li{margin-bottom:6px}
-.note{margin-top:16px;padding:14px 16px;border-left:3px solid var(--accent);background:var(--accent-light);border-radius:4px;color:var(--ink-3);font-size:13px}
-.metric{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
-.metric:last-child{border-bottom:none}
-.metric strong{font-family:var(--mono);font-size:13px;color:var(--accent)}
-.footer-inst{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-4)}
-@media(max-width:780px){.grid{grid-template-columns:1fr}.hero{padding:28px 22px 24px}}
-
+    :root {
+      --bg:#f7f5f0; --white:#ffffff; --ink:#1a1917; --ink-2:#3e3c38; --ink-3:#6b6760; --ink-4:#9a9691;
+      --line:#dedad2; --accent:#1451a0; --accent-2:#1d6ed8; --accent-light:#e8f0fb;
+      --hdr:#0d1b35; --hdr-2:#162240; --hdr-line:rgba(255,255,255,.09); --hdr-txt:#e2e6f0; --hdr-muted:#8494b0;
+      --serif:'Libre Baskerville',Georgia,serif; --sans:'Inter',system-ui,sans-serif; --mono:'JetBrains Mono',monospace;
+      --max:1100px; --radius:6px; --radius-lg:10px; --shadow:0 4px 16px rgba(0,0,0,.08);
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.72;-webkit-font-smoothing:antialiased}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline;text-underline-offset:3px}
+    img{max-width:100%;display:block}
+    .skip-link{position:absolute;left:16px;top:-56px;background:var(--white);color:var(--ink);padding:10px 14px;border:2px solid var(--accent);border-radius:6px;z-index:1000;box-shadow:var(--shadow)}
+    .skip-link:focus{top:16px}
+    .topbar{background:var(--hdr-2);border-bottom:1px solid var(--hdr-line)}
+    .topbar .wrap{padding-top:9px;padding-bottom:9px;font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--hdr-muted)}
+    .wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+    main.wrap{padding-top:40px;padding-bottom:80px}
+    .site-header{background:var(--hdr);border-bottom:3px solid var(--accent)}
+    .header-inner{max-width:var(--max);margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:20px;min-height:72px;flex-wrap:wrap}
+    .brand{font:700 22px var(--serif);color:var(--hdr-txt);letter-spacing:-.02em;line-height:1}
+    .brand em{font-style:normal;color:var(--accent-2)}
+    .sub{font:500 9px var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--hdr-muted);margin-top:3px}
+    .main-nav{display:flex;gap:4px;flex-wrap:wrap;margin-left:auto}
+    .nav-link{display:inline-flex;align-items:center;justify-content:center;min-height:34px;padding:0 13px;border-radius:4px;font:500 12.5px var(--sans);color:var(--hdr-muted);transition:color .15s,background .15s}
+    .nav-link:hover{color:var(--hdr-txt);background:rgba(255,255,255,.07);text-decoration:none}
+    .nav-link[aria-current="page"]{color:var(--hdr-txt);background:rgba(255,255,255,.09)}
+    .hero{margin-top:28px;background:var(--white);border:1px solid var(--line);border-radius:var(--radius-lg);padding:40px 44px 36px;box-shadow:var(--shadow);border-top:4px solid var(--accent)}
+    .eyebrow{font:700 9.5px var(--mono);letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
+    h1{font-family:var(--serif);font-size:clamp(2rem,3.5vw,2.8rem);line-height:1.12;letter-spacing:-.03em;color:var(--ink);margin-bottom:14px}
+    .lead{font-size:1.05rem;color:var(--ink-3);max-width:860px;line-height:1.8}
+    .meta-line{margin-top:14px;font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-4)}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:32px}
+    .card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius-lg);padding:24px;box-shadow:0 1px 4px rgba(0,0,0,.05)}
+    .card h2{font-family:var(--serif);font-size:1.15rem;margin-bottom:10px;color:var(--ink)}
+    .card p,.card li{color:var(--ink-3);font-size:14px;line-height:1.72}
+    .card ul{padding-left:18px;list-style:disc}
+    .card ul li{margin-bottom:6px}
+    .note{margin-top:16px;padding:14px 16px;border-left:3px solid var(--accent);background:var(--accent-light);border-radius:4px;color:var(--ink-3);font-size:13px}
+    code{font-family:var(--mono);font-size:.93em;background:#f2f4f8;padding:2px 5px;border-radius:4px}
+    .footer-inst{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-4)}
+    .footer-contact{margin-top:8px;font-size:13px;color:var(--ink-3)}
+    @media(max-width:780px){
+      .grid{grid-template-columns:1fr}
+      .hero{padding:28px 22px 24px}
+      .header-inner{padding-top:14px;padding-bottom:14px}
+      .main-nav{margin-left:0}
+    }
   </style>
 </head>
+
 <body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo principal</a>
   <div class="topbar">
-    <div class="wrap">Cosmos Week · infraestrutura editorial e comercial</div>
+    <div class="wrap">Cosmos Week · privacidade, consentimento e transparência</div>
   </div>
+  
   <header class="site-header">
     <div class="header-inner">
       <a href="index.html" style="text-decoration:none;">
         <div class="brand">Cosmos<em>Week</em></div>
         <div class="sub">Jornalismo científico em português</div>
       </a>
-      <nav class="main-nav">
+      <nav class="main-nav" aria-label="Navegação principal">
         <a href="index.html" class="nav-link">Início</a>
         <a href="anuncie.html" class="nav-link">Anuncie</a>
         <a href="media-kit.html" class="nav-link">Media kit</a>
-        <a href="politica-de-privacidade.html" class="nav-link">Privacidade</a>
+        <a href="politica-de-privacidade.html" class="nav-link" aria-current="page">Privacidade</a>
         <a href="termos-de-uso.html" class="nav-link">Termos</a>
       </nav>
     </div>
   </header>
-  <main class="wrap">
+
+  <main class="wrap" id="conteudo" tabindex="-1">
     <section class="hero">
       <div class="eyebrow">Política de privacidade</div>
-      <h1>Como o Cosmos Week trata dados e medições</h1>
-      <p class="lead">Esta política descreve, em linguagem direta, quais dados podem ser coletados durante a navegação no Cosmos Week, por que eles são usados e quais escolhas o visitante possui.</p>
+      <h1>Como o Cosmos Week trata dados e preferências de navegação</h1>
+      <p class="lead">Esta política explica, em linguagem direta, quais dados podem ser tratados durante a navegação no Cosmos Week, por que isso pode acontecer, quais escolhas você tem e como entrar em contato com o projeto.</p>
+      <p class="meta-line">Última atualização: 8 de abril de 2026</p>
     </section>
 
     <div class="grid">
       <article class="card">
-        <h2>1. Dados de navegação</h2>
-        <p>O site utiliza Google Analytics para medir audiência, compreender páginas mais acessadas, identificar origens de tráfego e melhorar a experiência editorial. Esse processamento pode incluir dados como páginas visitadas, duração da sessão, dispositivo, navegador e localização aproximada baseada em IP.</p>
-        <div class="note">O banner de consentimento do portal permite aceitar ou recusar a medição analítica. Quando recusada, a medição permanece desativada.</div>
+        <h2>1. Quem responde por esta página</h2>
+        <p>O responsável pelos tratamentos diretamente descritos nesta política é o projeto editorial Cosmos Week. Para dúvidas, solicitações ou pedidos relacionados a privacidade, use <a href="mailto:contato@cosmosweek.com">contato@cosmosweek.com</a>.</p>
       </article>
 
       <article class="card">
-        <h2>2. Armazenamento local no navegador</h2>
-        <p>O site pode usar armazenamento local do navegador para lembrar preferências, como idioma, escolha de consentimento e o e-mail digitado no campo de newsletter apenas para conveniência local do usuário.</p>
-        <p style="margin-top:10px;">Na versão atual do portal, o campo de newsletter não envia o e-mail para uma base externa por padrão. Se isso mudar no futuro, esta política será atualizada.</p>
+        <h2>2. Dados que podem ser tratados</h2>
+        <p>Dependendo da sua escolha de consentimento e dos recursos usados na visita, o site pode lidar com dados como páginas acessadas, tempo de navegação, dispositivo, navegador, idioma, preferência de consentimento, endereço IP aproximado e interações técnicas necessárias para carregar a página.</p>
       </article>
 
       <article class="card">
-        <h2>3. Conteúdo incorporado e serviços de terceiros</h2>
-        <p>O portal pode exibir imagens, fontes e links originados de terceiros. Esses serviços podem aplicar suas próprias políticas de privacidade e registros técnicos. O Cosmos Week não controla integralmente a forma como esses terceiros tratam dados.</p>
+        <h2>3. Consentimento, analytics e armazenamento local</h2>
+        <p>O Cosmos Week usa um banner de consentimento para definir se a medição analítica pode ser ativada. A escolha fica salva no navegador por meio de armazenamento local. O site também pode guardar preferências locais, como idioma e o e-mail digitado no campo de newsletter, mas apenas no próprio navegador nesta versão.</p>
+        <div class="note">Hoje, o campo de newsletter da home não envia o e-mail para uma base externa. Ele só salva localmente no navegador do visitante.</div>
       </article>
 
       <article class="card">
-        <h2>4. Publicidade</h2>
-        <p>O portal está tecnicamente preparado para exibir anúncios, mas ainda não ativa nenhuma rede publicitária. Quando isso ocorrer, o sistema de consentimento já em vigor será aplicado:</p>
-        <ul>
-          <li><strong>Aceitar tudo:</strong> ativa analytics e publicidade personalizada;</li>
-          <li><strong>Só analytics:</strong> ativa apenas medição de audiência;</li>
-          <li><strong>Recusar:</strong> nenhuma medição nem publicidade personalizada.</li>
-        </ul>
-        <p style="margin-top:10px;">Esta política será atualizada antes da ativação de qualquer rede publicitária.</p>
+        <h2>4. Base de tratamento e finalidade</h2>
+        <p>Quando aplicável, o tratamento para analytics depende do seu consentimento. Já recursos mínimos de funcionamento, segurança, prevenção de abuso e entrega do conteúdo podem depender de necessidade técnica e interesse legítimo compatível com a operação básica do site.</p>
       </article>
 
       <article class="card">
-        <h2>5. Direitos do usuário</h2>
-        <ul>
-          <li>Recusar a medição analítica pelo banner de consentimento;</li>
-          <li>limpar dados locais salvos pelo site no próprio navegador;</li>
-          <li>usar bloqueadores ou controles de privacidade do navegador;</li>
-          <li>solicitar esclarecimentos sobre esta política por canal de contato oficial do portal.</li>
-        </ul>
+        <h2>5. Serviços de terceiros e transferências internacionais</h2>
+        <p>O site pode carregar recursos de terceiros, como Google Analytics, Google Fonts, GitHub Pages, imagens hospedadas externamente e links para redes sociais. Esses provedores podem receber dados técnicos da conexão, como IP, navegador e horário de acesso, segundo as próprias políticas. Dependendo da sua localização, isso pode envolver processamento internacional de dados.</p>
       </article>
 
       <article class="card">
-        <h2>6. Canal de contato</h2>
-        <p><strong>Contato temporário:</strong> Instagram <a href="https://www.instagram.com/cosmos_week/" target="_blank" rel="noopener">@cosmos_week</a>.</p>
-        <div class="note">Substitua este trecho por um e-mail comercial próprio assim que criar o endereço oficial do site.</div>
+        <h2>6. Retenção</h2>
+        <p>Preferências salvas no navegador permanecem até você limpá-las manualmente ou até que o navegador as remova. Dados analíticos, quando ativados, seguem as configurações e políticas do provedor usado para medição. Se a forma de retenção mudar de maneira relevante, esta política será atualizada.</p>
+      </article>
+
+      <article class="card">
+        <h2>7. Seus direitos</h2>
+        <p>Dependendo da legislação aplicável ao seu caso, você pode pedir acesso, correção, exclusão, oposição, limitação de tratamento, portabilidade ou retirada do consentimento. Também pode usar controles do próprio navegador para bloquear cookies, limpar armazenamento local ou reduzir rastreamento.</p>
+        <p style="margin-top:10px;">Para exercer esses direitos em relação ao que for controlado diretamente pelo projeto, escreva para <a href="mailto:contato@cosmosweek.com">contato@cosmosweek.com</a>.</p>
+      </article>
+
+      <article class="card">
+        <h2>8. Publicidade</h2>
+        <p>O site está tecnicamente preparado para publicidade, mas isso não significa que toda rede ou tecnologia já esteja ativa. Quando houver mudança material nessa operação, o texto desta política será revisado para refletir o cenário real, sem maquiagem de compliance para enfeitar rodapé.</p>
+      </article>
+
+      <article class="card">
+        <h2>9. Reclamações e autoridade competente</h2>
+        <p>Se você entender que houve uso inadequado de dados, primeiro entre em contato pelo e-mail oficial. Dependendo do país em que você estiver, também pode procurar a autoridade de proteção de dados competente da sua jurisdição.</p>
+      </article>
+
+      <article class="card">
+        <h2>10. Mudanças nesta política</h2>
+        <p>Esta política pode ser ajustada quando houver mudança técnica, editorial, comercial ou legal relevante. A versão mais recente será sempre a publicada nesta página, com data de atualização visível.</p>
       </article>
     </div>
   </main>
+
   <footer style="margin-top:0;">
     <div class="wrap">
       <div class="footer-inst">© 2026 Cosmos Week · GitHub Pages · <a href="politica-de-privacidade.html" style="color:inherit;">Privacidade</a> · <a href="termos-de-uso.html" style="color:inherit;">Termos</a></div>
+      <div class="footer-contact">Contato oficial: <a href="mailto:contato@cosmosweek.com">contato@cosmosweek.com</a></div>
     </div>
   </footer>
 </body>

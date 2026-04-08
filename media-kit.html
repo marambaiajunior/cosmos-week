@@ -1,174 +1,202 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0d1b35">
+  <title>Media kit | Cosmos Week</title>
+  <meta name="description" content="Visão institucional e comercial do Cosmos Week. Solicite detalhes pelo e-mail contato@cosmosweek.com.">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <link rel="canonical" href="https://marambaiajunior.github.io/cosmos-week/media-kit.html">
+  <meta property="og:site_name" content="Cosmos Week">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Media kit | Cosmos Week">
+  <meta property="og:description" content="Visão institucional e comercial do Cosmos Week. Solicite detalhes pelo e-mail contato@cosmosweek.com.">
+  <meta property="og:url" content="https://marambaiajunior.github.io/cosmos-week/media-kit.html">
+  <meta property="og:image" content="https://marambaiajunior.github.io/cosmos-week/assets/og-default.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Media kit | Cosmos Week">
+  <meta name="twitter:description" content="Visão institucional e comercial do Cosmos Week. Solicite detalhes pelo e-mail contato@cosmosweek.com.">
+  <meta name="twitter:image" content="https://marambaiajunior.github.io/cosmos-week/assets/og-default.jpg">
+
   <!-- Google tag (gtag.js) — Cosmos Week -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MX20J1ZG06"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('consent', 'default', {
-      analytics_storage: 'denied', ad_storage: 'denied',
-      ad_user_data: 'denied', ad_personalization: 'denied', wait_for_update: 500
+      analytics_storage: 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      wait_for_update: 500
     });
     try {
-      const _c = localStorage.getItem('cw_cookie_consent');
-      const _full = _c === 'full';
-      const _ana  = _c === 'full' || _c === 'analytics' || _c === 'granted';
-      if (_ana) gtag('consent', 'update', {
-        analytics_storage:  'granted',
-        ad_storage:         _full ? 'granted' : 'denied',
-        ad_user_data:       _full ? 'granted' : 'denied',
-        ad_personalization: _full ? 'granted' : 'denied'
+      const consent = localStorage.getItem('cw_cookie_consent');
+      const full = consent === 'full';
+      const analytics = consent === 'full' || consent === 'analytics' || consent === 'granted';
+      if (analytics) gtag('consent', 'update', {
+        analytics_storage: 'granted',
+        ad_storage: full ? 'granted' : 'denied',
+        ad_user_data: full ? 'granted' : 'denied',
+        ad_personalization: full ? 'granted' : 'denied'
       });
     } catch(e) {}
     gtag('js', new Date());
     gtag('config', 'G-MX20J1ZG06', { anonymize_ip: true });
   </script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Media kit — Cosmos Week</title>
-  <meta name="description" content="Template de media kit do Cosmos Week">
-  <link rel="canonical" href="https://marambaiajunior.github.io/cosmos-week/media-kit.html">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
-/* Shared institutional style — Cosmos Week v4 */
-:root {
-  --bg:#f7f5f0; --white:#ffffff; --ink:#1a1917; --ink-2:#3e3c38; --ink-3:#6b6760; --ink-4:#9a9691;
-  --line:#dedad2; --accent:#1451a0; --accent-2:#1d6ed8; --accent-light:#e8f0fb;
-  --hdr:#0d1b35; --hdr-2:#162240; --hdr-line:rgba(255,255,255,.09); --hdr-txt:#e2e6f0; --hdr-muted:#8494b0;
-  --serif:'Libre Baskerville',Georgia,serif; --sans:'Inter',system-ui,sans-serif; --mono:'JetBrains Mono',monospace;
-  --max:1100px; --radius:6px; --radius-lg:10px; --shadow:0 4px 16px rgba(0,0,0,.08);
-}
-*{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.72;-webkit-font-smoothing:antialiased}
-a{color:var(--accent);text-decoration:none}
-a:hover{text-decoration:underline;text-underline-offset:3px}
-img{max-width:100%;display:block}
-.topbar{background:var(--hdr-2);border-bottom:1px solid var(--hdr-line)}
-.topbar .wrap{padding-top:9px;padding-bottom:9px;font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--hdr-muted)}
-.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
-main.wrap{padding-top:40px;padding-bottom:80px}
-.site-header{background:var(--hdr);border-bottom:3px solid var(--accent)}
-.header-inner{max-width:var(--max);margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:20px;height:66px}
-.brand{font:700 22px var(--serif);color:var(--hdr-txt);letter-spacing:-.02em;line-height:1}
-.brand em{font-style:normal;color:var(--accent-2)}
-.sub{font:500 9px var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--hdr-muted);margin-top:3px}
-.main-nav{display:flex;gap:4px;flex-wrap:wrap;margin-left:auto}
-.nav-link{height:34px;padding:0 13px;border-radius:4px;font:500 12.5px var(--sans);color:var(--hdr-muted);transition:color .15s,background .15s}
-.nav-link:hover{color:var(--hdr-txt);background:rgba(255,255,255,.07);text-decoration:none}
-.hero{margin-top:28px;background:var(--white);border:1px solid var(--line);border-radius:var(--radius-lg);padding:40px 44px 36px;box-shadow:var(--shadow);border-top:4px solid var(--accent)}
-.eyebrow{font:700 9.5px var(--mono);letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
-h1{font-family:var(--serif);font-size:clamp(2rem,3.5vw,2.8rem);line-height:1.12;letter-spacing:-.03em;color:var(--ink);margin-bottom:14px}
-.lead{font-size:1.05rem;color:var(--ink-3);max-width:800px;line-height:1.8}
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:32px}
-.card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius-lg);padding:24px;box-shadow:0 1px 4px rgba(0,0,0,.05)}
-.card h2{font-family:var(--serif);font-size:1.15rem;margin-bottom:10px;color:var(--ink)}
-.card p,.card li{color:var(--ink-3);font-size:14px;line-height:1.72}
-.card ul{padding-left:18px;list-style:disc}
-.card ul li{margin-bottom:6px}
-.note{margin-top:16px;padding:14px 16px;border-left:3px solid var(--accent);background:var(--accent-light);border-radius:4px;color:var(--ink-3);font-size:13px}
-.metric{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
-.metric:last-child{border-bottom:none}
-.metric strong{font-family:var(--mono);font-size:13px;color:var(--accent)}
-.footer-inst{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-4)}
-@media(max-width:780px){.grid{grid-template-columns:1fr}.hero{padding:28px 22px 24px}}
-
+    :root {
+      --bg:#f7f5f0; --white:#ffffff; --ink:#1a1917; --ink-2:#3e3c38; --ink-3:#6b6760; --ink-4:#9a9691;
+      --line:#dedad2; --accent:#1451a0; --accent-2:#1d6ed8; --accent-light:#e8f0fb;
+      --hdr:#0d1b35; --hdr-2:#162240; --hdr-line:rgba(255,255,255,.09); --hdr-txt:#e2e6f0; --hdr-muted:#8494b0;
+      --serif:'Libre Baskerville',Georgia,serif; --sans:'Inter',system-ui,sans-serif; --mono:'JetBrains Mono',monospace;
+      --max:1100px; --radius:6px; --radius-lg:10px; --shadow:0 4px 16px rgba(0,0,0,.08);
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.72;-webkit-font-smoothing:antialiased}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline;text-underline-offset:3px}
+    img{max-width:100%;display:block}
+    .skip-link{position:absolute;left:16px;top:-56px;background:var(--white);color:var(--ink);padding:10px 14px;border:2px solid var(--accent);border-radius:6px;z-index:1000;box-shadow:var(--shadow)}
+    .skip-link:focus{top:16px}
+    .topbar{background:var(--hdr-2);border-bottom:1px solid var(--hdr-line)}
+    .topbar .wrap{padding-top:9px;padding-bottom:9px;font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--hdr-muted)}
+    .wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+    main.wrap{padding-top:40px;padding-bottom:80px}
+    .site-header{background:var(--hdr);border-bottom:3px solid var(--accent)}
+    .header-inner{max-width:var(--max);margin:0 auto;padding:0 24px;display:flex;align-items:center;gap:20px;min-height:72px;flex-wrap:wrap}
+    .brand{font:700 22px var(--serif);color:var(--hdr-txt);letter-spacing:-.02em;line-height:1}
+    .brand em{font-style:normal;color:var(--accent-2)}
+    .sub{font:500 9px var(--mono);letter-spacing:.2em;text-transform:uppercase;color:var(--hdr-muted);margin-top:3px}
+    .main-nav{display:flex;gap:4px;flex-wrap:wrap;margin-left:auto}
+    .nav-link{display:inline-flex;align-items:center;justify-content:center;min-height:34px;padding:0 13px;border-radius:4px;font:500 12.5px var(--sans);color:var(--hdr-muted);transition:color .15s,background .15s}
+    .nav-link:hover{color:var(--hdr-txt);background:rgba(255,255,255,.07);text-decoration:none}
+    .nav-link[aria-current="page"]{color:var(--hdr-txt);background:rgba(255,255,255,.09)}
+    .hero{margin-top:28px;background:var(--white);border:1px solid var(--line);border-radius:var(--radius-lg);padding:40px 44px 36px;box-shadow:var(--shadow);border-top:4px solid var(--accent)}
+    .eyebrow{font:700 9.5px var(--mono);letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
+    h1{font-family:var(--serif);font-size:clamp(2rem,3.5vw,2.8rem);line-height:1.12;letter-spacing:-.03em;color:var(--ink);margin-bottom:14px}
+    .lead{font-size:1.05rem;color:var(--ink-3);max-width:860px;line-height:1.8}
+    .meta-line{margin-top:14px;font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-4)}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:32px}
+    .card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius-lg);padding:24px;box-shadow:0 1px 4px rgba(0,0,0,.05)}
+    .card h2{font-family:var(--serif);font-size:1.15rem;margin-bottom:10px;color:var(--ink)}
+    .card p,.card li{color:var(--ink-3);font-size:14px;line-height:1.72}
+    .card ul{padding-left:18px;list-style:disc}
+    .card ul li{margin-bottom:6px}
+    .note{margin-top:16px;padding:14px 16px;border-left:3px solid var(--accent);background:var(--accent-light);border-radius:4px;color:var(--ink-3);font-size:13px}
+    code{font-family:var(--mono);font-size:.93em;background:#f2f4f8;padding:2px 5px;border-radius:4px}
+    .footer-inst{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-4)}
+    .footer-contact{margin-top:8px;font-size:13px;color:var(--ink-3)}
+    @media(max-width:780px){
+      .grid{grid-template-columns:1fr}
+      .hero{padding:28px 22px 24px}
+      .header-inner{padding-top:14px;padding-bottom:14px}
+      .main-nav{margin-left:0}
+    }
   </style>
 </head>
+
 <body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo principal</a>
   <div class="topbar">
-    <div class="wrap">Cosmos Week · infraestrutura editorial e comercial</div>
+    <div class="wrap">Cosmos Week · posicionamento editorial e comercial</div>
   </div>
+  
   <header class="site-header">
     <div class="header-inner">
       <a href="index.html" style="text-decoration:none;">
         <div class="brand">Cosmos<em>Week</em></div>
         <div class="sub">Jornalismo científico em português</div>
       </a>
-      <nav class="main-nav">
+      <nav class="main-nav" aria-label="Navegação principal">
         <a href="index.html" class="nav-link">Início</a>
         <a href="anuncie.html" class="nav-link">Anuncie</a>
-        <a href="media-kit.html" class="nav-link">Media kit</a>
+        <a href="media-kit.html" class="nav-link" aria-current="page">Media kit</a>
         <a href="politica-de-privacidade.html" class="nav-link">Privacidade</a>
         <a href="termos-de-uso.html" class="nav-link">Termos</a>
       </nav>
     </div>
   </header>
-  <main class="wrap">
+
+  <main class="wrap" id="conteudo" tabindex="-1">
     <section class="hero">
-      <div class="eyebrow">Material comercial</div>
-      <h1>Media kit · template pronto para preencher</h1>
-      <p class="lead">Este arquivo foi montado para você só trocar os números reais do GA4 e começar a apresentar o portal como ativo comercial.</p>
-      <p style="margin-top:12px;font:500 11px var(--mono);color:var(--ink-4);letter-spacing:.06em;">
-        Versão: <strong id="mkVersion" style="color:var(--accent);">—</strong>
-        &nbsp;·&nbsp; Métricas válidas até 30 dias após esta data.
-      </p>
+      <div class="eyebrow">Media kit institucional</div>
+      <h1>Cosmos Week · visão geral para parceiros</h1>
+      <p class="lead">Este material resume o posicionamento editorial do Cosmos Week, o tipo de público que o projeto busca reunir e os formatos comerciais que podem fazer sentido sem sacrificar clareza, reputação nem rigor científico.</p>
+      <p class="meta-line">Atualizado em 8 de abril de 2026 · contato comercial: <a href="mailto:contato@cosmosweek.com">contato@cosmosweek.com</a></p>
     </section>
-    <script>
-      (function(){
-        var stored = localStorage.getItem('cw_mediakit_updated');
-        var label  = stored ? new Date(stored).toLocaleDateString('pt-BR',{day:'2-digit',month:'long',year:'numeric'}) : 'não preenchida';
-        document.getElementById('mkVersion').textContent = label;
-      })();
-    </script>
 
     <div class="grid">
       <article class="card">
         <h2>Visão geral</h2>
         <p><strong>Marca:</strong> Cosmos Week</p>
-        <p><strong>Segmento:</strong> Jornalismo científico em português</p>
-        <p><strong>Temas centrais:</strong> astronomia, astrofísica, cosmologia, espaço e ciência de fronteira</p>
-        <p><strong>Tom editorial:</strong> rigoroso, crítico, acessível e anti-pseudociência</p>
+        <p><strong>Segmento:</strong> jornalismo científico em português</p>
+        <p><strong>Temas centrais:</strong> astronomia, astrofísica, cosmologia, espaço, física e ciência de fronteira</p>
+        <p><strong>Tom editorial:</strong> claro, crítico, rigoroso e frontalmente contrário à pseudociência</p>
       </article>
 
       <article class="card">
-        <h2>Métricas principais</h2>
-        <div class="metric"><span>Usuários mensais</span><strong>SUBSTITUIR</strong></div>
-        <div class="metric"><span>Sessões mensais</span><strong>SUBSTITUIR</strong></div>
-        <div class="metric"><span>Visualizações de página</span><strong>SUBSTITUIR</strong></div>
-        <div class="metric"><span>Tempo médio de engajamento</span><strong>SUBSTITUIR</strong></div>
-        <div class="metric"><span>Origem principal do tráfego</span><strong>SUBSTITUIR</strong></div>
+        <h2>Posicionamento</h2>
+        <p>O projeto foi construído para publicar ciência com contexto e hierarquia de evidência. Isso significa dar peso diferente a paper revisado por pares, preprint, comunicado institucional e especulação. Parece o mínimo, eu sei. Na internet, infelizmente, já é quase luxo.</p>
       </article>
 
       <article class="card">
-        <h2>Ativos comerciais</h2>
+        <h2>Público e aderência</h2>
         <ul>
-          <li>Site editorial em crescimento com analytics ativo;</li>
-          <li>público interessado em ciência real e educação;</li>
-          <li>potencial de ações em portal, newsletter e redes sociais;</li>
-          <li>ambiente com forte associação a credibilidade e contexto.</li>
+          <li>leitores interessados em ciência real, tecnologia e educação;</li>
+          <li>público com alta sensibilidade a credibilidade e qualidade de fonte;</li>
+          <li>boa aderência para marcas educacionais, tecnológicas e científicas;</li>
+          <li>ambiente favorável para campanhas de reputação e awareness qualificado.</li>
         </ul>
       </article>
 
       <article class="card">
-        <h2>Possíveis formatos</h2>
+        <h2>Entregas comerciais</h2>
         <ul>
-          <li>Banner topo ou meio de página;</li>
-          <li>patrocínio de categoria;</li>
-          <li>publieditorial identificado;</li>
-          <li>menção em newsletter;</li>
-          <li>pacote site + Instagram.</li>
+          <li>banner institucional em posições definidas;</li>
+          <li>patrocínio de categoria, série ou cobertura especial;</li>
+          <li>publieditorial claramente identificado;</li>
+          <li>menção em iniciativas editoriais futuras, conforme disponibilidade;</li>
+          <li>projetos combinados com redes sociais quando houver encaixe editorial.</li>
         </ul>
       </article>
 
       <article class="card">
-        <h2>Público ideal para parceiros</h2>
-        <p>Editoras, cursos, escolas, plataformas educacionais, apps científicos, instituições acadêmicas, empresas de tecnologia, marcas de astronomia, eventos, feiras, fabricantes de telescópio e produtos ligados a educação de alto valor percebido.</p>
+        <h2>Brand safety e transparência</h2>
+        <p>Conteúdo patrocinado é marcado como tal. O portal evita atalhos de credibilidade e não aceita ações que tentem parecer reportagem independente quando na verdade são peça comercial. Também não abre espaço para alegações pseudocientíficas ou marketing que dependa de confusão deliberada.</p>
       </article>
 
       <article class="card">
-        <h2>Contato comercial</h2>
-        <p><strong>Temporário:</strong> Instagram <a href="https://www.instagram.com/cosmos_week/" target="_blank" rel="noopener">@cosmos_week</a></p>
-        <p style="margin-top:10px;"><strong>Substituir depois por:</strong> ads@seudominio.com</p>
-        <div class="note">Atualize esta página a cada 30 dias com métricas do GA4. Para registrar a data de atualização, abra o console do navegador e rode: <code>localStorage.setItem('cw_mediakit_updated', new Date().toISOString());</code> depois recarregue.</div>
+        <h2>Métricas e disponibilidade</h2>
+        <p>Números atualizados de audiência, formatos disponíveis, cronograma e proposta comercial são compartilhados sob demanda, de acordo com o tipo de campanha e a janela de veiculação. Isso evita circular dado velho ou contexto capado, esporte favorito de muita apresentação bonita e pouco útil.</p>
+        <div class="note">Para receber dados atualizados e proposta, escreva para <a href="mailto:contato@cosmosweek.com">contato@cosmosweek.com</a>.</div>
+      </article>
+
+      <article class="card">
+        <h2>Canais</h2>
+        <p><strong>Site:</strong> <a href="https://marambaiajunior.github.io/cosmos-week/" target="_blank" rel="noopener noreferrer">cosmosweek.com / GitHub Pages</a></p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/cosmos_week/" target="_blank" rel="noopener noreferrer">@cosmos_week</a></p>
+        <p><strong>E-mail oficial:</strong> <a href="mailto:contato@cosmosweek.com">contato@cosmosweek.com</a></p>
+      </article>
+
+      <article class="card">
+        <h2>Próximo passo</h2>
+        <p>Se a marca combina com ciência, educação, tecnologia ou divulgação séria, o caminho mais rápido é mandar objetivo, período pretendido e formato de interesse para <a href="mailto:contato@cosmosweek.com">contato@cosmosweek.com</a>. A partir daí, o pacote é desenhado com base no que realmente faz sentido para a campanha.</p>
       </article>
     </div>
   </main>
+
   <footer style="margin-top:0;">
     <div class="wrap">
       <div class="footer-inst">© 2026 Cosmos Week · GitHub Pages · <a href="politica-de-privacidade.html" style="color:inherit;">Privacidade</a> · <a href="termos-de-uso.html" style="color:inherit;">Termos</a></div>
+      <div class="footer-contact">Contato oficial: <a href="mailto:contato@cosmosweek.com">contato@cosmosweek.com</a></div>
     </div>
   </footer>
 </body>
