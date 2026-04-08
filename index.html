@@ -628,6 +628,33 @@
     }
     .widget-body { padding: 14px 18px; }
     .widget-list { display: flex; flex-direction: column; gap: 0; padding: 0; }
+    .widget-summary { display: flex; flex-direction: column; gap: 12px; }
+    .summary-lead {
+      font: 600 13px var(--serif);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+    .summary-list { display: flex; flex-direction: column; gap: 10px; }
+    .summary-item {
+      border-top: 1px solid var(--line);
+      padding-top: 10px;
+    }
+    .summary-item:first-child {
+      border-top: none;
+      padding-top: 0;
+    }
+    .summary-label {
+      font: 700 9.5px var(--mono);
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--ink-4);
+    }
+    .summary-text {
+      margin-top: 4px;
+      font-size: 12.5px;
+      color: var(--ink-3);
+      line-height: 1.62;
+    }
 
     /* Trending */
     .trend-item {
@@ -1231,6 +1258,10 @@
             -->
           </div>
           <div class="widget">
+            <div class="widget-head"><div class="widget-title" id="frontSummaryTitle">Resumo da capa</div></div>
+            <div class="widget-body" id="frontSummary"></div>
+          </div>
+          <div class="widget">
             <div class="widget-head"><div class="widget-title" id="trendingWidgetTitle">Em alta</div></div>
             <div class="widget-list" id="trendingList"></div>
           </div>
@@ -1388,6 +1419,7 @@
       archiveLink: 'Ver arquivo completo',
       preprintsTitle: 'Radar de preprints',
       preprintsKicker: 'Resultados provisórios em circulação técnica, identificados como não revisados por pares.',
+      frontSummaryTitle: 'Resumo da capa',
       editorialWidgetTitle: 'Como reportamos',
       editorialRulesCopy: 'Separar anúncio de evidência, marcar preprints sem maquiagem e manter contexto físico acima de hype institucional.',
       standardsBtn: 'Ver padrões editoriais',
@@ -1447,6 +1479,7 @@
       archiveLink: 'View full archive',
       preprintsTitle: 'Preprint radar',
       preprintsKicker: 'Provisional results in technical circulation, explicitly marked as not peer reviewed.',
+      frontSummaryTitle: 'Front-page brief',
       editorialWidgetTitle: 'How we report',
       editorialRulesCopy: 'Separate announcement from evidence, label preprints without makeup, and keep physical context above institutional hype.',
       standardsBtn: 'View editorial standards',
@@ -1518,6 +1551,42 @@
   }
 
   const ARCHIVE_CACHE_KEY = 'cw_archive_cache_v3';
+  const FRONT_HISTORY_KEY = 'cw_front_history_v1';
+  const FRONT_ROTATION_COUNTER_KEY = 'cw_front_rotation_counter_v1';
+  const frontLayoutCache = new Map();
+
+  function readFrontHistory() {
+    try {
+      const parsed = JSON.parse(localStorage.getItem(FRONT_HISTORY_KEY) || '{}');
+      return parsed && typeof parsed === 'object' ? parsed : {};
+    } catch (e) {
+      return {};
+    }
+  }
+
+  function writeFrontHistory(history) {
+    try { localStorage.setItem(FRONT_HISTORY_KEY, JSON.stringify(history || {})); } catch (e) {}
+  }
+
+  function rememberFrontSelection(bucket, slugs, limit = 24) {
+    const history = readFrontHistory();
+    const previous = Array.isArray(history[bucket]) ? history[bucket] : [];
+    const incoming = (Array.isArray(slugs) ? slugs : []).filter(Boolean);
+    history[bucket] = [...incoming, ...previous.filter(slug => !incoming.includes(slug))].slice(0, limit);
+    writeFrontHistory(history);
+  }
+
+  function nextPersistentRotationSeed() {
+    let seed = 0;
+    try {
+      seed = Number(localStorage.getItem(FRONT_ROTATION_COUNTER_KEY) || '0') || 0;
+      seed = (seed + 1) % 1000000;
+      localStorage.setItem(FRONT_ROTATION_COUNTER_KEY, String(seed));
+    } catch (e) {
+      seed = Math.floor(Date.now() / 1000) % 1000000;
+    }
+    return seed;
+  }
 
   function postRichnessScore(post) {
     return [
@@ -1567,14 +1636,16 @@
   let currentCategory = 'all';
   let searchTimer = null;
   let toastTimer = null;
-  let heroRotationSeed = Number(sessionStorage.getItem('cw_hero_rotation_seed') || '0') || 0;
+  let heroRotationSeed = nextPersistentRotationSeed();
 
   function persistHeroRotationSeed() {
     try { sessionStorage.setItem('cw_hero_rotation_seed', String(heroRotationSeed)); } catch (e) {}
   }
+  persistHeroRotationSeed();
 
   function bumpHeroRotationSeed(step = 1) {
     heroRotationSeed = (heroRotationSeed + Math.max(1, step|0)) % 1000000;
+    frontLayoutCache.clear();
     persistHeroRotationSeed();
   }
 
@@ -1769,25 +1840,78 @@
     });
   }
 
-  function heroPostsForCurrentCategory() {
-    // Choose hero posts deterministically: always pick the newest regular posts
-    // by priority and timestamp, without rotation. The first (most recent)
-    // post becomes the hero and subsequent posts fill the side cards.
-    const regular = frontRegularPostsForCurrentCategory();
-    const preprints = filteredPreprints();
-    const source = regular.length ? regular : [...preprints].sort((a, b) => postTimestamp(b) - postTimestamp(a));
-    if (!source.length) return [];
-    const sorted = [...source].sort((a, b) => {
-      const byPriority = heroPriority(b) - heroPriority(a);
-      if (byPriority) return byPriority;
-      return postTimestamp(b) - postTimestamp(a);
-    });
-    return sorted.slice(0, 3);
+  function frontHistoryPenalty(post, bucket) {
+    const history = readFrontHistory();
+    const seen = Array.isArray(history[bucket]) ? history[bucket] : [];
+    const idx = seen.indexOf(post?.slug);
+    return idx === -1 ? 0 : (seen.length - idx);
   }
 
-  function renderHero() {
+  function pickRotatedSet(posts, count, bucket, seedOffset = 0) {
+    if (!Array.isArray(posts) || !posts.length || count <= 0) return [];
+    const ranked = [...posts].sort((a, b) => {
+      const penaltyDiff = frontHistoryPenalty(a, bucket) - frontHistoryPenalty(b, bucket);
+      if (penaltyDiff) return penaltyDiff;
+      return 0;
+    });
+    const windowSize = Math.min(ranked.length, Math.max(count * 3, Math.min(12, ranked.length)));
+    const head = ranked.slice(0, windowSize);
+    const tail = ranked.slice(windowSize);
+    const seedBase = `${bucket}|${currentCategory}|${heroRotationSeed + seedOffset}|${DB[0]?.slug || ''}`;
+    const offset = head.length ? (hashString(seedBase) % head.length) : 0;
+    const rotated = head.slice(offset).concat(head.slice(0, offset)).concat(tail);
+    return rotated.slice(0, count);
+  }
+
+  function buildFrontLayout() {
+    const regular = frontRegularPostsForCurrentCategory();
+    const preprints = filteredPreprints();
+    const heroSource = regular.length ? regular : [...preprints].sort((a, b) => postTimestamp(b) - postTimestamp(a));
+    const hero = pickRotatedSet(heroSource, 3, 'hero');
+    const heroSlugs = new Set(hero.map(post => post.slug));
+    const latest = pickRotatedSet(regular.filter(post => !heroSlugs.has(post.slug)), 9, 'latest', 17);
+    const trendingSource = DB.filter(p => p.trending && !p.isPreprint)
+      .sort((a, b) => {
+        const freshA = isFreshFrontPost(a) ? 1 : 0;
+        const freshB = isFreshFrontPost(b) ? 1 : 0;
+        if (freshB !== freshA) return freshB - freshA;
+        if ((b.score || 0) !== (a.score || 0)) return (b.score || 0) - (a.score || 0);
+        return postTimestamp(b) - postTimestamp(a);
+      });
+    const trending = pickRotatedSet(trendingSource, 5, 'trending', 31);
+    const rotatedPreprints = pickRotatedSet(preprints, 6, 'preprints', 47);
+
+    rememberFrontSelection('hero', hero.map(post => post.slug), 18);
+    rememberFrontSelection('latest', latest.map(post => post.slug), 36);
+    rememberFrontSelection('trending', trending.map(post => post.slug), 20);
+
+    return { hero, latest, trending, preprints: rotatedPreprints };
+  }
+
+  function currentFrontLayout() {
+    const key = `${currentCategory}|${heroRotationSeed}|${DB.length}|${DB[0]?.slug || ''}`;
+    if (!frontLayoutCache.has(key)) {
+      frontLayoutCache.set(key, buildFrontLayout());
+    }
+    return frontLayoutCache.get(key);
+  }
+
+  function heroPostsForCurrentCategory() {
+    return currentFrontLayout().hero || [];
+  }
+
+  function truncatePlainText(text = '', limit = 145) {
+    const clean = String(text || '').replace(/\s+/g, ' ').trim();
+    if (clean.length <= limit) return clean;
+    const cut = clean.slice(0, limit);
+    const lastSpace = cut.lastIndexOf(' ');
+    const base = (lastSpace > Math.floor(limit * 0.55) ? cut.slice(0, lastSpace) : cut).trim();
+    return `${base.replace(/[.,;:!?-]+$/, '')}…`;
+  }
+
+  function renderHero(layout = currentFrontLayout()) {
     const mount = document.getElementById('heroMount');
-    const pool = heroPostsForCurrentCategory();
+    const pool = layout.hero || heroPostsForCurrentCategory();
     if (!pool.length) { mount.innerHTML = ''; return; }
     const lead = pool[0];
     const sides = pool.slice(1,3);
@@ -1824,16 +1948,13 @@
 
   // ── Home ───────────────────────────────────────────────────────────────────
   function renderHome() {
-    renderHero();
-    const regular = frontRegularPostsForCurrentCategory();
-    const preprints = filteredPreprints();
-    const heroSlugs = new Set(heroPostsForCurrentCategory().map(p => p.slug));
-    const latest = regular.filter(p => !heroSlugs.has(p.slug)).slice(0,9);
-    document.getElementById('latestGrid').innerHTML = latest.map(cardMarkup).join('');
+    const layout = currentFrontLayout();
+    renderHero(layout);
+    document.getElementById('latestGrid').innerHTML = layout.latest.map(cardMarkup).join('');
 
     // Preprint section
     const preprintMount = document.getElementById('preprintMount');
-    if (preprints.length) {
+    if (layout.preprints.length) {
       preprintMount.innerHTML = `
         <div class="section-head preprint-section-head" style="margin-top:34px;">
           <div>
@@ -1841,34 +1962,73 @@
             <div class="section-kicker">${tr('preprintsKicker')}</div>
           </div>
         </div>
-        <div class="story-grid">${preprints.slice(0,6).map(cardMarkup).join('')}</div>`;
+        <div class="story-grid">${layout.preprints.map(cardMarkup).join('')}</div>`;
     } else {
       preprintMount.innerHTML = '';
     }
 
-    renderTrending();
+    renderFrontSummary(layout);
+    renderTrending(layout.trending);
     renderSourceMix();
-    renderTicker();
+    renderTicker(layout);
     syncCategoryButtons();
     markNav('home');
     activatePage('home');
     updateMetaHome();
   }
 
+  function renderFrontSummary(layout = currentFrontLayout()) {
+    const mount = document.getElementById('frontSummary');
+    if (!mount) return;
+    const hero = Array.isArray(layout?.hero) ? layout.hero : [];
+    const latest = Array.isArray(layout?.latest) ? layout.latest : [];
+    const visible = [...hero, ...latest].filter(Boolean);
+    if (!visible.length) { mount.innerHTML = ''; return; }
+    const lead = hero[0] || visible[0];
+    const leadText = truncatePlainText(textFor(lead, 'excerpt') || textFor(lead, 'sub') || textFor(lead, 'title'), 150);
+    const cats = [...new Set(visible.slice(0, 8).map(post => prettyCategory(post.cat)).filter(Boolean))].slice(0, 3);
+    const sources = [...new Set(visible.slice(0, 8).map(post => post.source).filter(Boolean))].slice(0, 3);
+    const freshCount = visible.filter(post => isFreshFrontPost(post)).length;
+    const labels = currentLang === 'en'
+      ? {
+          lead: 'Lead',
+          mix: 'Mix',
+          freshness: 'Freshness',
+          mixText: cats.length ? `${cats.join(' · ')} shape the current selection.` : 'The current selection mixes multiple desks.',
+          freshText: `${freshCount} ${freshCount === 1 ? 'story is' : 'stories are'} inside the 120-hour freshness window.`
+        }
+      : {
+          lead: 'Foco',
+          mix: 'Mistura',
+          freshness: 'Frescor',
+          mixText: cats.length ? `${cats.join(' · ')} puxam a seleção atual.` : 'A seleção atual mistura diferentes editorias.',
+          freshText: `${freshCount} ${freshCount === 1 ? 'matéria está' : 'matérias estão'} dentro da janela de 120 horas.`
+        };
+
+    mount.innerHTML = `
+      <div class="widget-summary">
+        <p class="summary-lead">${leadText}</p>
+        <div class="summary-list">
+          <div class="summary-item">
+            <div class="summary-label">${labels.lead}</div>
+            <div class="summary-text">${textFor(lead, 'title')}</div>
+          </div>
+          <div class="summary-item">
+            <div class="summary-label">${labels.mix}</div>
+            <div class="summary-text">${labels.mixText}${sources.length ? ` ${sources.join(' · ')}.` : ''}</div>
+          </div>
+          <div class="summary-item">
+            <div class="summary-label">${labels.freshness}</div>
+            <div class="summary-text">${labels.freshText}</div>
+          </div>
+        </div>
+      </div>`;
+  }
+
   // ── Trending ───────────────────────────────────────────────────────────────
-  function renderTrending() {
+  function renderTrending(postsOverride = null) {
     const mount = document.getElementById('trendingList');
-    // Ordena por: posts frescos (< 120h) primeiro, depois por score, depois por data.
-    // Isso garante que um post novo de score=75 apareça antes de um antigo de score=81.
-    const posts = DB.filter(p => p.trending && !p.isPreprint)
-      .sort((a, b) => {
-        const freshA = isFreshFrontPost(a) ? 1 : 0;
-        const freshB = isFreshFrontPost(b) ? 1 : 0;
-        if (freshB !== freshA) return freshB - freshA;
-        if ((b.score || 0) !== (a.score || 0)) return (b.score || 0) - (a.score || 0);
-        return postTimestamp(b) - postTimestamp(a);
-      })
-      .slice(0, 5);
+    const posts = Array.isArray(postsOverride) ? postsOverride : currentFrontLayout().trending;
     mount.innerHTML = posts.map((post, i) => `
       <button class="trend-item" onclick="openArticle('${escapeAttr(post.slug)}')">
         <div class="trend-num">${i+1}</div>
@@ -1903,11 +2063,11 @@
   }
 
   // ── Ticker ─────────────────────────────────────────────────────────────────
-  function renderTicker() {
+  function renderTicker(layout = currentFrontLayout()) {
     const mount = document.getElementById('tickerTrack');
-    const source = filteredRegularPosts().length ? filteredRegularPosts() : filteredPreprints();
+    const source = [...(layout.hero || []), ...(layout.latest || []), ...(layout.preprints || [])].filter(Boolean);
     const items = source.slice(0,8).map(p => textFor(p,'title')).filter(Boolean);
-    const loop = items.length ? [...items,...items] : [];
+    const loop = items.length ? [...items, ...items] : [];
     mount.innerHTML = loop.map(item => `<span class="ticker-item">${item}</span>`).join('');
   }
 
@@ -2462,7 +2622,7 @@
       logoSub:'logoSub', navHome:'home', navArchive:'archive', navAbout:'about',
       navStandards:'standards', methodBtn:'methodology', adsBtn:'advertise', updateBtnLabel:'update',
       tickerBadge:'ticker', latestSectionTitle:'latestTitle', latestSectionKicker:'latestKicker',
-      archiveLinkTop:'archiveLink', trendingWidgetTitle:'trending',
+      archiveLinkTop:'archiveLink', frontSummaryTitle:'frontSummaryTitle', trendingWidgetTitle:'trending',
       sourceMixTitle:'sourceMix', editorialWidgetTitle:'editorialWidgetTitle',
       editorialRulesCopy:'editorialRulesCopy', standardsBtn:'standardsBtn',
       archiveTitle:'archiveTitle', archiveKicker:'archiveKicker', searchTitle:'searchTitle',
@@ -2518,6 +2678,7 @@
         Function('window', js + '; return window.postsData;')(sandboxWindow);
         if (Array.isArray(sandboxWindow.postsData) && sandboxWindow.postsData.length) {
           DB = mergePostCollections(sandboxWindow.postsData, DB);
+          frontLayoutCache.clear();
           persistArchiveCache();
           updateLastUpdatedLabel();
           rerenderCurrentView();
