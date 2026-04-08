@@ -70,8 +70,10 @@ GEMINI_TIMEOUT = 45
 # throttling. By lowering the per‑minute limit we spread calls over a longer
 # window, improving reliability at the cost of longer build times.
 GEMINI_RPM_LIMIT = 4
-GEMINI_RETRY_ON_429 = 2          # máximo 2 retries por chamada
+GEMINI_RETRY_ON_429 = 2          # máximo 2 retries por chamada (rate limit)
 GEMINI_RETRY_DELAY_429 = 65      # espera fixa de 65s: garante reset da janela de 1 minuto do RPM
+GEMINI_RETRY_ON_503 = 3          # máximo 3 retries para sobrecarga temporária (503)
+GEMINI_RETRY_DELAY_503_BASE = 30 # backoff exponencial: 30s, 60s, 120s
 GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.0-flash').strip() or 'gemini-2.0-flash'
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '').strip()
 GEMINI_ENDPOINT_TEMPLATE = 'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
@@ -1356,14 +1358,20 @@ def _gemini_rate_limit_wait() -> None:
     _GEMINI_CALL_TIMES.append(_time.monotonic())
 
 
-def call_gemini_json(task_key: str, prompt: str) -> Optional[dict]:
+def call_gemini_json(task_key: str, prompt: str):
+    """Chama a API Gemini e retorna o JSON parseado (dict OU list) ou None em caso de falha.
+
+    Retorna list quando a resposta é um array JSON — necessário para revisões em lote
+    onde o modelo responde com um array de artigos revisados, não um dict.
+    Retorna dict quando a resposta é um objeto JSON único.
+    Retorna None em caso de erro ou resposta inválida.
+    """
     import time as _time
     if not GEMINI_API_KEY:
         return None
     cache_key = (task_key, prompt)
     if cache_key in GEMINI_CACHE:
-        cached = GEMINI_CACHE[cache_key]
-        return cached if isinstance(cached, dict) else None
+        return GEMINI_CACHE[cache_key]
 
     endpoint = GEMINI_ENDPOINT_TEMPLATE.format(model=urllib.parse.quote(GEMINI_MODEL, safe=''))
     url = f'{endpoint}?key={urllib.parse.quote(GEMINI_API_KEY)}'
@@ -1376,7 +1384,10 @@ def call_gemini_json(task_key: str, prompt: str) -> Optional[dict]:
     }
     data = json.dumps(body, ensure_ascii=False).encode('utf-8')
 
-    for attempt in range(GEMINI_RETRY_ON_429 + 1):
+    retry_429 = 0
+    retry_503 = 0
+
+    while True:
         # Recriar o objeto Request a cada tentativa: urllib.request.Request
         # com body é consumido após o primeiro urlopen e não pode ser reutilizado.
         req = urllib.request.Request(
@@ -1395,16 +1406,27 @@ def call_gemini_json(task_key: str, prompt: str) -> Optional[dict]:
             parsed = json.loads(raw)
             text = _gemini_response_text(parsed)
             out = _extract_json_from_text(text)
-            GEMINI_CACHE[cache_key] = out
-            return out if isinstance(out, dict) else None
+            # Aceita list (batch de artigos) OU dict (resposta única) como resultado válido
+            if isinstance(out, (dict, list)):
+                GEMINI_CACHE[cache_key] = out
+                return out
+            GEMINI_CACHE[cache_key] = None
+            return None
         except urllib.error.HTTPError as exc:
             try:
                 err_body = exc.read().decode('utf-8', errors='ignore')[:400]
             except Exception:
                 err_body = '(sem corpo)'
-            if exc.code == 429 and attempt < GEMINI_RETRY_ON_429:
-                print(f'    [Gemini] 429 quota — aguardando {GEMINI_RETRY_DELAY_429}s para reset do RPM (retry {attempt + 1}/{GEMINI_RETRY_ON_429}) ...')
+            if exc.code == 429 and retry_429 < GEMINI_RETRY_ON_429:
+                retry_429 += 1
+                print(f'    [Gemini] 429 quota — aguardando {GEMINI_RETRY_DELAY_429}s para reset do RPM (retry {retry_429}/{GEMINI_RETRY_ON_429}) ...')
                 _time.sleep(GEMINI_RETRY_DELAY_429)
+                continue
+            if exc.code == 503 and retry_503 < GEMINI_RETRY_ON_503:
+                retry_503 += 1
+                delay = GEMINI_RETRY_DELAY_503_BASE * (2 ** (retry_503 - 1))  # 30s, 60s, 120s
+                print(f'    [Gemini] 503 sobrecarga — aguardando {delay}s (retry {retry_503}/{GEMINI_RETRY_ON_503}) ...')
+                _time.sleep(delay)
                 continue
             # Erro definitivo ou retries esgotados
             print(f'ERR Gemini HTTP {exc.code} ({exc.reason}): {err_body}')
@@ -1414,9 +1436,6 @@ def call_gemini_json(task_key: str, prompt: str) -> Optional[dict]:
             print(f'ERR Gemini: {exc}')
             GEMINI_CACHE[cache_key] = None
             return None
-
-    GEMINI_CACHE[cache_key] = None
-    return None
 
 
 
