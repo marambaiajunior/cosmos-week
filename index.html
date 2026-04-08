@@ -200,7 +200,7 @@
       display: grid;
       grid-template-columns: auto minmax(0, 1fr) auto;
       align-items: center;
-      gap: 24px;
+      gap: clamp(12px, 1.5vw, 22px);
       height: 72px;
     }
 
@@ -224,12 +224,12 @@
     .main-nav {
       display: flex;
       align-items: center;
-      gap: 4px;
+      gap: 2px;
       min-width: 0;
     }
     .nav-link {
-      height: 36px; padding: 0 14px; border-radius: 4px;
-      font: 500 13px var(--sans); color: var(--hdr-muted);
+      height: 36px; padding: 0 10px; border-radius: 4px;
+      font: 500 12.5px var(--sans); color: var(--hdr-muted);
       transition: color .15s, background .15s;
       white-space: nowrap;
       flex: 0 0 auto;
@@ -242,7 +242,7 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
-      gap: 10px;
+      gap: 8px;
       flex-wrap: nowrap;
       min-width: 0;
     }
@@ -252,8 +252,8 @@
       display: flex;
       align-items: center;
       min-width: 0;
-      flex: 0 1 clamp(170px, 18vw, 220px);
-      width: clamp(170px, 18vw, 220px);
+      flex: 0 1 clamp(150px, 15vw, 205px);
+      width: clamp(150px, 15vw, 205px);
       max-width: 100%;
     }
     .searchbox input {
@@ -1175,7 +1175,7 @@
     }
 
     /* ── Responsive ───────────────────────────────────────────────────── */
-    @media (max-width: 1200px) {
+    @media (max-width: 1280px) {
       .header-inner {
         grid-template-columns: auto minmax(0, 1fr);
         grid-template-areas:
@@ -1199,8 +1199,11 @@
         max-width: 100%;
       }
       .searchbox {
-        flex-basis: clamp(160px, 22vw, 210px);
-        width: clamp(160px, 22vw, 210px);
+        flex-basis: clamp(150px, 20vw, 200px);
+        width: clamp(150px, 20vw, 200px);
+      }
+      .nav-link {
+        padding-inline: 9px;
       }
     }
     @media (max-width: 1100px) {
@@ -1216,8 +1219,8 @@
     }
     @media (max-width: 900px) {
       .searchbox {
-        flex-basis: 180px;
-        width: 180px;
+        flex-basis: 170px;
+        width: 170px;
       }
       #updateBtnLabel { display: none; }
       #updateBtn { padding-inline: 11px; }
