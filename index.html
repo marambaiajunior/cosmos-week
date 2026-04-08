@@ -656,6 +656,28 @@
       line-height: 1.62;
     }
 
+    /* Sidebar story lists */
+    .sidebar-story-list { display: flex; flex-direction: column; gap: 0; }
+    .sidebar-story-item {
+      display: block; width: 100%; text-align: left;
+      padding: 13px 18px; border-bottom: 1px solid var(--line);
+      transition: background .15s;
+    }
+    .sidebar-story-item:last-child { border-bottom: none; }
+    .sidebar-story-item:hover { background: var(--bg); text-decoration: none; }
+    .sidebar-story-kicker {
+      font: 600 9.5px var(--mono); color: var(--ink-4);
+      text-transform: uppercase; letter-spacing: .08em;
+    }
+    .sidebar-story-title {
+      margin-top: 5px; font: 600 13px var(--serif);
+      color: var(--ink); line-height: 1.38;
+    }
+    .sidebar-story-meta {
+      margin-top: 4px; font: 400 10.5px var(--mono);
+      color: var(--ink-4); text-transform: uppercase; letter-spacing: .06em;
+    }
+
     /* Trending */
     .trend-item {
       display: flex; gap: 12px; align-items: flex-start;
@@ -673,6 +695,38 @@
     }
     .trend-title { font: 600 13px var(--serif); color: var(--ink); line-height: 1.35; }
     .trend-meta { font: 400 10.5px var(--mono); color: var(--ink-4); margin-top: 3px; text-transform: uppercase; letter-spacing: .06em; }
+
+    /* Topic navigation */
+    .topic-nav-list { display: flex; flex-wrap: wrap; gap: 8px; }
+    .topic-chip {
+      display: inline-flex; align-items: center; gap: 7px;
+      min-height: 32px; padding: 0 11px; border-radius: 999px;
+      border: 1px solid var(--line); background: var(--white);
+      color: var(--ink-3); font: 500 11px var(--sans);
+      transition: all .15s;
+    }
+    .topic-chip:hover { border-color: var(--accent); color: var(--accent); }
+    .topic-chip.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .topic-count {
+      display: inline-flex; align-items: center; justify-content: center;
+      min-width: 18px; height: 18px; padding: 0 5px;
+      border-radius: 999px; font: 700 9px var(--mono);
+      background: var(--bg); color: var(--ink-4);
+    }
+    .topic-chip.on .topic-count { background: rgba(255,255,255,.16); color: #fff; }
+
+    /* Quick links */
+    .sidebar-actions { display: flex; flex-direction: column; gap: 10px; }
+    .sidebar-action {
+      display: flex; align-items: center; justify-content: space-between;
+      width: 100%; min-height: 40px; padding: 0 12px;
+      border: 1px solid var(--line); border-radius: var(--radius);
+      background: var(--white); color: var(--ink-2);
+      font: 600 11px var(--mono); text-transform: uppercase; letter-spacing: .08em;
+      transition: border-color .15s, color .15s, background .15s;
+    }
+    .sidebar-action::after { content: '↗'; color: var(--ink-4); }
+    .sidebar-action:hover { border-color: var(--accent); color: var(--accent); background: var(--bg); text-decoration: none; }
 
     /* Source mix */
     .metric-row {
@@ -1258,23 +1312,28 @@
             -->
           </div>
           <div class="widget">
-            <div class="widget-head"><div class="widget-title" id="frontSummaryTitle">Resumo da capa</div></div>
-            <div class="widget-body" id="frontSummary"></div>
-          </div>
-          <div class="widget">
             <div class="widget-head"><div class="widget-title" id="trendingWidgetTitle">Em alta</div></div>
             <div class="widget-list" id="trendingList"></div>
           </div>
           <div class="widget">
-            <div class="widget-head"><div class="widget-title" id="sourceMixTitle">Composição do feed</div></div>
-            <div class="widget-body" id="sourceMix"></div>
+            <div class="widget-head"><div class="widget-title" id="latestUpdatesTitle">Últimas atualizações</div></div>
+            <div class="widget-list sidebar-story-list" id="latestUpdates"></div>
           </div>
-          <div class="editorial-note-box widget">
-            <div class="widget-head"><div class="widget-title" id="editorialWidgetTitle">Como reportamos</div></div>
+          <div class="widget">
+            <div class="widget-head"><div class="widget-title" id="topicNavTitle">Navegue por tema</div></div>
             <div class="widget-body">
-              <p class="editorial-note-copy" id="editorialRulesCopy">Separar anúncio de evidência, marcar preprints sem maquiagem e manter contexto físico acima de hype institucional.</p>
-              <button class="standards-link-btn" onclick="openPage('standards')" id="standardsBtn">Ver padrões editoriais</button>
+              <div class="topic-nav-list" id="topicNav"></div>
             </div>
+          </div>
+          <div class="widget">
+            <div class="widget-head"><div class="widget-title" id="quickLinksTitle">Acesso rápido</div></div>
+            <div class="widget-body">
+              <div class="sidebar-actions" id="quickLinks"></div>
+            </div>
+          </div>
+          <div class="widget">
+            <div class="widget-head"><div class="widget-title" id="archivePicksTitle">Do arquivo</div></div>
+            <div class="widget-list sidebar-story-list" id="archivePicks"></div>
           </div>
         </aside>
       </div>
@@ -1419,12 +1478,15 @@
       archiveLink: 'Ver arquivo completo',
       preprintsTitle: 'Radar de preprints',
       preprintsKicker: 'Resultados provisórios em circulação técnica, identificados como não revisados por pares.',
-      frontSummaryTitle: 'Resumo da capa',
-      editorialWidgetTitle: 'Como reportamos',
-      editorialRulesCopy: 'Separar anúncio de evidência, marcar preprints sem maquiagem e manter contexto físico acima de hype institucional.',
-      standardsBtn: 'Ver padrões editoriais',
       trending: 'Em alta',
-      sourceMix: 'Composição do feed',
+      latestUpdatesTitle: 'Últimas atualizações',
+      topicNavTitle: 'Navegue por tema',
+      quickLinksTitle: 'Acesso rápido',
+      archivePicksTitle: 'Do arquivo',
+      quickArchive: 'Abrir arquivo',
+      quickRSS: 'Abrir RSS',
+      quickStandards: 'Ver padrões',
+      quickSearch: 'Buscar no site',
       archiveTitle: 'Arquivo editorial',
       archiveKicker: 'Todas as matérias disponíveis do arquivo no portal.',
       searchTitle: 'Busca', noSearch: 'Nenhum resultado encontrado.',
@@ -1479,12 +1541,15 @@
       archiveLink: 'View full archive',
       preprintsTitle: 'Preprint radar',
       preprintsKicker: 'Provisional results in technical circulation, explicitly marked as not peer reviewed.',
-      frontSummaryTitle: 'Front-page brief',
-      editorialWidgetTitle: 'How we report',
-      editorialRulesCopy: 'Separate announcement from evidence, label preprints without makeup, and keep physical context above institutional hype.',
-      standardsBtn: 'View editorial standards',
       trending: 'Trending',
-      sourceMix: 'Feed composition',
+      latestUpdatesTitle: 'Latest updates',
+      topicNavTitle: 'Browse by topic',
+      quickLinksTitle: 'Quick access',
+      archivePicksTitle: 'From the archive',
+      quickArchive: 'Open archive',
+      quickRSS: 'Open RSS',
+      quickStandards: 'View standards',
+      quickSearch: 'Search the site',
       archiveTitle: 'Editorial archive',
       archiveKicker: 'Every story currently available in the editorial archive.',
       searchTitle: 'Search', noSearch: 'No results found.',
@@ -1967,9 +2032,11 @@
       preprintMount.innerHTML = '';
     }
 
-    renderFrontSummary(layout);
     renderTrending(layout.trending);
-    renderSourceMix();
+    renderLatestUpdates(layout);
+    renderTopicNav();
+    renderQuickLinks();
+    renderArchivePicks(layout);
     renderTicker(layout);
     syncCategoryButtons();
     markNav('home');
@@ -1977,52 +2044,95 @@
     updateMetaHome();
   }
 
-  function renderFrontSummary(layout = currentFrontLayout()) {
-    const mount = document.getElementById('frontSummary');
+  function renderLatestUpdates(layout = currentFrontLayout()) {
+    const mount = document.getElementById('latestUpdates');
     if (!mount) return;
-    const hero = Array.isArray(layout?.hero) ? layout.hero : [];
-    const latest = Array.isArray(layout?.latest) ? layout.latest : [];
-    const visible = [...hero, ...latest].filter(Boolean);
-    if (!visible.length) { mount.innerHTML = ''; return; }
-    const lead = hero[0] || visible[0];
-    const leadText = truncatePlainText(textFor(lead, 'excerpt') || textFor(lead, 'sub') || textFor(lead, 'title'), 150);
-    const cats = [...new Set(visible.slice(0, 8).map(post => prettyCategory(post.cat)).filter(Boolean))].slice(0, 3);
-    const sources = [...new Set(visible.slice(0, 8).map(post => post.source).filter(Boolean))].slice(0, 3);
-    const freshCount = visible.filter(post => isFreshFrontPost(post)).length;
-    const labels = currentLang === 'en'
-      ? {
-          lead: 'Lead',
-          mix: 'Mix',
-          freshness: 'Freshness',
-          mixText: cats.length ? `${cats.join(' · ')} shape the current selection.` : 'The current selection mixes multiple desks.',
-          freshText: `${freshCount} ${freshCount === 1 ? 'story is' : 'stories are'} inside the 120-hour freshness window.`
-        }
-      : {
-          lead: 'Foco',
-          mix: 'Mistura',
-          freshness: 'Frescor',
-          mixText: cats.length ? `${cats.join(' · ')} puxam a seleção atual.` : 'A seleção atual mistura diferentes editorias.',
-          freshText: `${freshCount} ${freshCount === 1 ? 'matéria está' : 'matérias estão'} dentro da janela de 120 horas.`
-        };
+    const seen = new Set();
+    const posts = [
+      ...(Array.isArray(layout?.hero) ? layout.hero.slice(0, 1) : []),
+      ...(Array.isArray(layout?.latest) ? layout.latest : [])
+    ].filter(post => {
+      if (!post || seen.has(post.slug)) return false;
+      seen.add(post.slug);
+      return true;
+    }).slice(0, 5);
 
+    if (!posts.length) { mount.innerHTML = ''; return; }
+
+    mount.innerHTML = posts.map(post => {
+      const meta = formatMeta(post);
+      const kicker = meta.time || meta.date;
+      return `
+        <button class="sidebar-story-item" onclick="openArticle('${escapeAttr(post.slug)}')">
+          <div class="sidebar-story-kicker">${kicker}</div>
+          <div class="sidebar-story-title">${textFor(post,'title')}</div>
+          <div class="sidebar-story-meta">${prettyCategory(post.cat)} · ${meta.read}</div>
+        </button>`;
+    }).join('');
+  }
+
+  function renderTopicNav() {
+    const mount = document.getElementById('topicNav');
+    if (!mount) return;
+    const categories = ['all','Astronomia','Cosmologia','Astrofísica','Exoplanetas','Física','Biologia','Química','Ciências da Terra'];
+    const counts = DB.reduce((acc, post) => {
+      if (post?.cat) acc[post.cat] = (acc[post.cat] || 0) + 1;
+      return acc;
+    }, {});
+
+    mount.innerHTML = categories.map(cat => {
+      const isAll = cat === 'all';
+      const count = isAll ? DB.length : (counts[cat] || 0);
+      const label = isAll ? tr('allCategories') : prettyCategory(cat);
+      const active = currentCategory === cat ? ' on' : '';
+      return `<button class="topic-chip${active}" onclick="setCategory('${escapeAttr(cat)}')"><span>${label}</span><span class="topic-count">${count}</span></button>`;
+    }).join('');
+  }
+
+  function focusSearch() {
+    goHome();
+    const input = document.getElementById('searchInput');
+    if (input) {
+      input.focus();
+      input.select();
+      input.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+
+  function renderQuickLinks() {
+    const mount = document.getElementById('quickLinks');
+    if (!mount) return;
     mount.innerHTML = `
-      <div class="widget-summary">
-        <p class="summary-lead">${leadText}</p>
-        <div class="summary-list">
-          <div class="summary-item">
-            <div class="summary-label">${labels.lead}</div>
-            <div class="summary-text">${textFor(lead, 'title')}</div>
-          </div>
-          <div class="summary-item">
-            <div class="summary-label">${labels.mix}</div>
-            <div class="summary-text">${labels.mixText}${sources.length ? ` ${sources.join(' · ')}.` : ''}</div>
-          </div>
-          <div class="summary-item">
-            <div class="summary-label">${labels.freshness}</div>
-            <div class="summary-text">${labels.freshText}</div>
-          </div>
-        </div>
-      </div>`;
+      <button class="sidebar-action" onclick="openPage('archive')">${tr('quickArchive')}</button>
+      <a class="sidebar-action" href="feed.xml" target="_blank" rel="noopener">${tr('quickRSS')}</a>
+      <button class="sidebar-action" onclick="openPage('standards')">${tr('quickStandards')}</button>
+      <button class="sidebar-action" onclick="focusSearch()">${tr('quickSearch')}</button>`;
+  }
+
+  function renderArchivePicks(layout = currentFrontLayout()) {
+    const mount = document.getElementById('archivePicks');
+    if (!mount) return;
+    const blocked = new Set([
+      ...(layout?.hero || []),
+      ...(layout?.latest || []),
+      ...(layout?.trending || []),
+      ...(layout?.preprints || [])
+    ].filter(Boolean).map(post => post.slug));
+
+    const picks = DB
+      .filter(post => !post.isPreprint && !blocked.has(post.slug) && (currentCategory === 'all' || post.cat === currentCategory))
+      .sort((a, b) => ((b.score || 0) - (a.score || 0)) || (postTimestamp(b) - postTimestamp(a)))
+      .slice(0, 3);
+
+    mount.innerHTML = picks.map(post => {
+      const meta = formatMeta(post);
+      return `
+        <button class="sidebar-story-item" onclick="openArticle('${escapeAttr(post.slug)}')">
+          <div class="sidebar-story-kicker">${prettyCategory(post.cat)}</div>
+          <div class="sidebar-story-title">${textFor(post,'title')}</div>
+          <div class="sidebar-story-meta">${meta.date} · ${meta.read}</div>
+        </button>`;
+    }).join('');
   }
 
   // ── Trending ───────────────────────────────────────────────────────────────
@@ -2622,9 +2732,8 @@
       logoSub:'logoSub', navHome:'home', navArchive:'archive', navAbout:'about',
       navStandards:'standards', methodBtn:'methodology', adsBtn:'advertise', updateBtnLabel:'update',
       tickerBadge:'ticker', latestSectionTitle:'latestTitle', latestSectionKicker:'latestKicker',
-      archiveLinkTop:'archiveLink', frontSummaryTitle:'frontSummaryTitle', trendingWidgetTitle:'trending',
-      sourceMixTitle:'sourceMix', editorialWidgetTitle:'editorialWidgetTitle',
-      editorialRulesCopy:'editorialRulesCopy', standardsBtn:'standardsBtn',
+      archiveLinkTop:'archiveLink', trendingWidgetTitle:'trending', latestUpdatesTitle:'latestUpdatesTitle',
+      topicNavTitle:'topicNavTitle', quickLinksTitle:'quickLinksTitle', archivePicksTitle:'archivePicksTitle',
       archiveTitle:'archiveTitle', archiveKicker:'archiveKicker', searchTitle:'searchTitle',
       footerDescription:'footerDescription', footerNavTitle:'footerNavTitle',
       footerAdvertise:'advertise', footerMediaKit:'mediaKit',
