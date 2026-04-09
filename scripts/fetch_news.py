@@ -766,6 +766,21 @@ def _extract_numeric_attr(tag_html: str, attr: str) -> int:
     return int(match.group(0)) if match else 0
 
 
+def _extract_media_src(tag_html: str, base_url: str) -> str:
+    for attr in ('src', 'data-src', 'data-lazy-src', 'data-original', 'data-url', 'data-image'):
+        value = _extract_attr(tag_html, attr)
+        if value:
+            return urllib.parse.urljoin(base_url, value)
+
+    srcset = _extract_attr(tag_html, 'srcset') or _extract_attr(tag_html, 'data-srcset')
+    if srcset:
+        first = srcset.split(',')[0].strip().split()[0].strip()
+        if first:
+            return urllib.parse.urljoin(base_url, first)
+
+    return ''
+
+
 def _candidate_caption(text: str) -> str:
     text = collapse_ws(strip_html(text or ''))
     if not text or len(text) < 12:
@@ -932,11 +947,11 @@ def extract_inline_images(url: str, primary_image: str = '', limit: int = MAX_IN
                 break
             figure = figure_match.group(0)
             surrounding = _extract_surrounding_context(region, figure_match.start(), figure_match.end())
-            img_match = re.search(r'<img\b[^>]*src=["\']([^"\']+)["\'][^>]*>', figure, flags=re.I | re.S)
+            img_match = re.search(r'<img\b[^>]*>', figure, flags=re.I | re.S)
             if not img_match:
                 continue
             tag_html = img_match.group(0)
-            src_raw = img_match.group(1)
+            src_raw = _extract_media_src(tag_html, url)
             alt_raw = _extract_attr(tag_html, 'alt')
             width = _extract_numeric_attr(tag_html, 'width')
             height = _extract_numeric_attr(tag_html, 'height')
@@ -944,59 +959,46 @@ def extract_inline_images(url: str, primary_image: str = '', limit: int = MAX_IN
             caption_raw = cap_match.group(1) if cap_match else ''
             add_image(src_raw, alt_raw, caption_raw, width, height, figure, surrounding)
 
-        for img_match in re.finditer(r'<img\b[^>]*src=["\']([^"\']+)["\'][^>]*>', region, flags=re.I | re.S):
+            for link_match in re.finditer(r'<a\b[^>]*href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', figure, flags=re.I | re.S):
+                if len(out) >= limit:
+                    break
+                href = link_match.group(1)
+                if not re.search(r'\.(?:jpg|jpeg|png|webp)(?:[?#]|$)', href, flags=re.I):
+                    continue
+                label = collapse_ws(strip_html(link_match.group(2)))
+                add_image(href, alt_raw, label or caption_raw, width, height, figure, surrounding)
+
+        for img_match in re.finditer(r'<img\b[^>]*>', region, flags=re.I | re.S):
             if len(out) >= limit:
                 break
             tag_html = img_match.group(0)
             surrounding = _extract_surrounding_context(region, img_match.start(), img_match.end())
-            src_raw = img_match.group(1)
+            src_raw = _extract_media_src(tag_html, url)
             alt_raw = _extract_attr(tag_html, 'alt')
             title_raw = _extract_attr(tag_html, 'title')
             width = _extract_numeric_attr(tag_html, 'width')
             height = _extract_numeric_attr(tag_html, 'height')
             add_image(src_raw, alt_raw, title_raw, width, height, tag_html, surrounding)
 
+        for link_match in re.finditer(r'<a\b[^>]*href=["\']([^"\']+\.(?:jpg|jpeg|png|webp)(?:\?[^"\']*)?)["\'][^>]*>(.*?)</a>', region, flags=re.I | re.S):
+            if len(out) >= limit:
+                break
+            href = link_match.group(1)
+            label_html = link_match.group(2)
+            surrounding = _extract_surrounding_context(region, link_match.start(), link_match.end())
+            img_inside = re.search(r'<img\b[^>]*>', label_html, flags=re.I | re.S)
+            alt_raw = _extract_attr(img_inside.group(0), 'alt') if img_inside else ''
+            title_raw = _extract_attr(img_inside.group(0), 'title') if img_inside else ''
+            width = _extract_numeric_attr(img_inside.group(0), 'width') if img_inside else 0
+            height = _extract_numeric_attr(img_inside.group(0), 'height') if img_inside else 0
+            label = collapse_ws(strip_html(label_html))
+            caption_raw = title_raw or label
+            add_image(href, alt_raw or caption_raw, caption_raw, width, height, label_html, surrounding)
+
     INLINE_IMAGE_CACHE[cache_key] = out
     return out
 
 
-
-
-
-def _parse_json_ld_media_payload(raw_text: str) -> list[object]:
-    raw = html.unescape((raw_text or '').strip())
-    if not raw:
-        return []
-    raw = re.sub(r'^\s*<!--\s*', '', raw)
-    raw = re.sub(r'\s*-->\s*$', '', raw)
-    raw = raw.strip().rstrip(';').strip()
-    attempts = [raw]
-
-    bracket_start = raw.find('[')
-    bracket_end = raw.rfind(']')
-    if 0 <= bracket_start < bracket_end:
-        attempts.append(raw[bracket_start:bracket_end + 1])
-
-    brace_start = raw.find('{')
-    brace_end = raw.rfind('}')
-    if 0 <= brace_start < brace_end:
-        attempts.append(raw[brace_start:brace_end + 1])
-
-    payloads: list[object] = []
-    for candidate in unique_keep_order(attempts):
-        try:
-            payloads.append(json.loads(candidate))
-            break
-        except Exception:
-            continue
-    return payloads
-
-
-def _iter_json_ld_media_payloads(page: str) -> list[object]:
-    payloads: list[object] = []
-    for match in re.finditer(r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>', page, flags=re.I | re.S):
-        payloads.extend(_parse_json_ld_media_payload(match.group(1)))
-    return payloads
 
 
 def _json_ld_video_candidates(payload, base_url: str) -> list[dict]:
@@ -1017,7 +1019,7 @@ def _json_ld_video_candidates(payload, base_url: str) -> list[dict]:
                 thumb = urllib.parse.urljoin(base_url, str(thumb).strip()) if thumb else ''
                 title_en = collapse_ws(strip_html(str(node.get('name') or node.get('headline') or '')))
                 caption_en = collapse_ws(strip_html(str(node.get('description') or '')))
-                if embed or content or page_url:
+                if embed or content:
                     candidates.append({
                         'embed_url': embed,
                         'content_url': content,
@@ -1048,12 +1050,11 @@ def _normalize_video_candidate(base_url: str, raw_url: str) -> Optional[dict]:
         r'youtube\.com/watch\?v=([^&?#]+)',
         r'youtube\.com/embed/([^&?#]+)',
         r'youtube\.com/live/([^&?#]+)',
-        r'youtube\.com/shorts/([^&?#/]+)',
         r'youtu\.be/([^&?#]+)',
         r'youtube-nocookie\.com/embed/([^&?#]+)',
     ]
     for pattern in youtube_patterns:
-        match = re.search(pattern, absolute, flags=re.I)
+        match = re.search(pattern, low, flags=re.I)
         if match:
             video_id = match.group(1)
             return {
@@ -1063,7 +1064,7 @@ def _normalize_video_candidate(base_url: str, raw_url: str) -> Optional[dict]:
                 'fileUrl': '',
             }
 
-    match = re.search(r'(?:player\.)?vimeo\.com/(?:video/)?(\d+)', absolute, flags=re.I)
+    match = re.search(r'(?:player\.)?vimeo\.com/(?:video/)?(\d+)', low, flags=re.I)
     if match:
         video_id = match.group(1)
         return {
@@ -1091,37 +1092,6 @@ def _normalize_video_candidate(base_url: str, raw_url: str) -> Optional[dict]:
     return None
 
 
-def _video_candidate_score(candidate: dict, normalized: dict) -> int:
-    score = 0
-    kind = normalized.get('kind', '')
-    platform = normalized.get('platform', '')
-
-    if kind == 'file':
-        score += 120
-    elif platform in ('youtube', 'vimeo'):
-        score += 95
-    else:
-        score += 80
-
-    if candidate.get('poster'):
-        score += 10
-    if candidate.get('title_en'):
-        score += 8
-    if candidate.get('caption_en'):
-        score += 5
-
-    haystack = normalize_text(' '.join([
-        candidate.get('embed_url') or '',
-        candidate.get('content_url') or '',
-        candidate.get('page_url') or '',
-        candidate.get('title_en') or '',
-        candidate.get('caption_en') or '',
-    ]))
-    if any(token in haystack for token in ('playlist', 'channel', 'profile', 'share', 'social', 'subscribe', 'advert', 'ads', 'cookie', 'consent')):
-        score -= 35
-    return score
-
-
 def extract_page_video(url: str) -> Optional[dict]:
     if not url:
         return None
@@ -1138,26 +1108,15 @@ def extract_page_video(url: str) -> Optional[dict]:
 
     candidates: list[dict] = []
 
-    for payload in _iter_json_ld_media_payloads(page):
+    for match in re.finditer(r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>', search_html, flags=re.I | re.S):
+        raw = html.unescape(match.group(1).strip())
+        if not raw:
+            continue
+        try:
+            payload = json.loads(raw)
+        except Exception:
+            continue
         candidates.extend(_json_ld_video_candidates(payload, url))
-
-    meta_patterns = (
-        r'<meta[^>]+property=["\']og:video(?::url|:secure_url)?["\'][^>]+content=["\']([^"\']+)["\']',
-        r'<meta[^>]+name=["\']twitter:player["\'][^>]+content=["\']([^"\']+)["\']',
-    )
-    for pattern in meta_patterns:
-        for match in re.finditer(pattern, page, flags=re.I):
-            candidate_url = urllib.parse.urljoin(url, match.group(1).strip())
-            normalized = _normalize_video_candidate(url, candidate_url)
-            if normalized:
-                candidates.append({
-                    'embed_url': normalized.get('embedUrl', ''),
-                    'content_url': normalized.get('fileUrl', ''),
-                    'page_url': '',
-                    'poster': '',
-                    'title_en': '',
-                    'caption_en': '',
-                })
 
     for match in re.finditer(r'<iframe\b[^>]*src=["\']([^"\']+)["\'][^>]*>', search_html, flags=re.I | re.S):
         normalized = _normalize_video_candidate(url, match.group(1))
@@ -1174,7 +1133,7 @@ def extract_page_video(url: str) -> Optional[dict]:
     for video_match in re.finditer(r'<video\b([^>]*)>(.*?)</video>', search_html, flags=re.I | re.S):
         attrs = video_match.group(1)
         inner = video_match.group(2)
-        direct = _extract_attr(attrs, 'src')
+        direct = _extract_attr(attrs, 'src') or _extract_attr(attrs, 'data-src') or ''
         poster = urllib.parse.urljoin(url, _extract_attr(attrs, 'poster')) if _extract_attr(attrs, 'poster') else ''
         if not direct:
             source_match = re.search(r'<source\b[^>]*src=["\']([^"\']+)["\']', inner, flags=re.I | re.S)
@@ -1190,20 +1149,6 @@ def extract_page_video(url: str) -> Optional[dict]:
                 'caption_en': '',
             })
 
-    for match in re.finditer(r'<a\b[^>]*href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', search_html, flags=re.I | re.S):
-        normalized = _normalize_video_candidate(url, match.group(1))
-        if normalized:
-            label = collapse_ws(strip_html(match.group(2)))
-            candidates.append({
-                'embed_url': normalized.get('embedUrl', ''),
-                'content_url': normalized.get('fileUrl', ''),
-                'page_url': '',
-                'poster': '',
-                'title_en': label,
-                'caption_en': '',
-            })
-
-    ranked: list[tuple[int, dict, dict]] = []
     seen = set()
     for candidate in candidates:
         raw_video_url = candidate.get('embed_url') or candidate.get('content_url') or candidate.get('page_url') or ''
@@ -1214,43 +1159,31 @@ def extract_page_video(url: str) -> Optional[dict]:
         if key in seen:
             continue
         seen.add(key)
-        ranked.append((_video_candidate_score(candidate, normalized), candidate, normalized))
 
-    if not ranked:
-        VIDEO_CACHE[url] = None
-        return None
+        title_en = collapse_ws(strip_html(candidate.get('title_en') or ''))
+        caption_en = collapse_ws(strip_html(candidate.get('caption_en') or ''))
+        title_pt = translate_text(title_en, 'pt') if title_en else ''
+        caption_pt = translate_text(caption_en, 'pt') if caption_en else ''
 
-    _, candidate, normalized = max(
-        ranked,
-        key=lambda item: (
-            item[0],
-            len(item[1].get('title_en') or ''),
-            len(item[1].get('caption_en') or ''),
-            1 if item[1].get('poster') else 0,
-        ),
-    )
+        result = {
+            'kind': normalized.get('kind', 'embed'),
+            'platform': normalized.get('platform', 'embed'),
+            'embedUrl': normalized.get('embedUrl', ''),
+            'fileUrl': normalized.get('fileUrl', ''),
+            'poster': candidate.get('poster', '') or '',
+            'title': title_pt or title_en,
+            'title_pt': title_pt or title_en,
+            'title_en': title_en or title_pt,
+            'caption': caption_pt or caption_en,
+            'caption_pt': caption_pt or caption_en,
+            'caption_en': caption_en or caption_pt,
+            'sourcePage': url,
+        }
+        VIDEO_CACHE[url] = result
+        return result
 
-    title_en = collapse_ws(strip_html(candidate.get('title_en') or ''))
-    caption_en = collapse_ws(strip_html(candidate.get('caption_en') or ''))
-    title_pt = translate_text(title_en, 'pt') if title_en else ''
-    caption_pt = translate_text(caption_en, 'pt') if caption_en else ''
-
-    result = {
-        'kind': normalized.get('kind', 'embed'),
-        'platform': normalized.get('platform', 'embed'),
-        'embedUrl': normalized.get('embedUrl', ''),
-        'fileUrl': normalized.get('fileUrl', ''),
-        'poster': candidate.get('poster', '') or '',
-        'title': title_pt or title_en,
-        'title_pt': title_pt or title_en,
-        'title_en': title_en or title_pt,
-        'caption': caption_pt or caption_en,
-        'caption_pt': caption_pt or caption_en,
-        'caption_en': caption_en or caption_pt,
-        'sourcePage': url,
-    }
-    VIDEO_CACHE[url] = result
-    return result
+    VIDEO_CACHE[url] = None
+    return None
 
 
 
@@ -1293,70 +1226,15 @@ def _normalize_audio_candidate(base_url: str, raw_url: str) -> Optional[dict]:
     absolute = urllib.parse.urljoin(base_url, raw_url).replace('&amp;', '&')
     low = absolute.lower()
 
-    spotify_match = re.search(r'open\.spotify\.com/(?:embed/)?(episode|show|track)/([^/?#]+)', absolute, flags=re.I)
-    if spotify_match:
-        media_kind = spotify_match.group(1).lower()
-        media_id = spotify_match.group(2)
-        return {
-            'kind': 'embed',
-            'platform': 'spotify',
-            'embedUrl': f'https://open.spotify.com/embed/{media_kind}/{media_id}',
-            'fileUrl': '',
-        }
-
+    if re.search(r'open\.spotify\.com/embed/(episode|show|track)/', low):
+        return {'kind': 'embed', 'platform': 'spotify', 'embedUrl': absolute, 'fileUrl': ''}
     if 'w.soundcloud.com/player' in low or 'soundcloud.com/player' in low:
         return {'kind': 'embed', 'platform': 'soundcloud', 'embedUrl': absolute, 'fileUrl': ''}
-
-    soundcloud_match = re.search(r'https?://(?:www\.)?soundcloud\.com/[^?#"\']+', absolute, flags=re.I)
-    if soundcloud_match:
-        track_url = soundcloud_match.group(0)
-        encoded = urllib.parse.quote(track_url, safe='')
-        return {
-            'kind': 'embed',
-            'platform': 'soundcloud',
-            'embedUrl': f'https://w.soundcloud.com/player/?url={encoded}',
-            'fileUrl': '',
-        }
-
     if any(token in low for token in ('simplecast.com', 'transistor.fm', 'buzzsprout.com', 'podbean.com', 'megaphone.fm', 'omny.fm', 'audioboom.com')) and ('embed' in low or 'player' in low):
         return {'kind': 'embed', 'platform': 'podcast', 'embedUrl': absolute, 'fileUrl': ''}
-
     if re.search(r'\.(mp3|m4a|aac|ogg|wav)(?:[?#]|$)', low):
         return {'kind': 'file', 'platform': 'html5-audio', 'embedUrl': '', 'fileUrl': absolute}
     return None
-
-
-def _audio_candidate_score(candidate: dict, normalized: dict) -> int:
-    score = 0
-    kind = normalized.get('kind', '')
-    platform = normalized.get('platform', '')
-
-    if kind == 'file':
-        score += 110
-    elif platform == 'spotify':
-        score += 95
-    elif platform == 'soundcloud':
-        score += 90
-    elif platform == 'podcast':
-        score += 85
-    else:
-        score += 75
-
-    if candidate.get('title_en'):
-        score += 8
-    if candidate.get('caption_en'):
-        score += 5
-
-    haystack = normalize_text(' '.join([
-        candidate.get('embed_url') or '',
-        candidate.get('content_url') or '',
-        candidate.get('page_url') or '',
-        candidate.get('title_en') or '',
-        candidate.get('caption_en') or '',
-    ]))
-    if any(token in haystack for token in ('playlist', 'profile', 'share', 'social', 'subscribe', 'advert', 'ads', 'cookie', 'consent')):
-        score -= 30
-    return score
 
 
 def extract_page_audio(url: str) -> Optional[dict]:
@@ -1374,7 +1252,14 @@ def extract_page_audio(url: str) -> Optional[dict]:
     search_html = '\n'.join(regions) if regions else page
     candidates: list[dict] = []
 
-    for payload in _iter_json_ld_media_payloads(page):
+    for match in re.finditer(r"<script[^>]+type=['\"]application/ld\+json['\"][^>]*>(.*?)</script>", page, flags=re.I | re.S):
+        raw = html.unescape(match.group(1).strip())
+        if not raw:
+            continue
+        try:
+            payload = json.loads(raw)
+        except Exception:
+            continue
         candidates.extend(_json_ld_audio_candidates(payload, url))
 
     meta_patterns = (
@@ -1403,13 +1288,12 @@ def extract_page_audio(url: str) -> Optional[dict]:
         if normalized:
             candidates.append({'embed_url': normalized.get('embedUrl', ''), 'content_url': normalized.get('fileUrl', ''), 'page_url': '', 'title_en': '', 'caption_en': ''})
 
-    for match in re.finditer(r"<a\b[^>]*href=['\"]([^'\"]+)['\"][^>]*>(.*?)</a>", search_html, flags=re.I | re.S):
+    for match in re.finditer(r"<a\b[^>]*href=['\"]([^'\"]+\.(?:mp3|m4a|aac|ogg|wav)(?:\?[^'\"]*)?)['\"][^>]*>(.*?)</a>", search_html, flags=re.I | re.S):
         normalized = _normalize_audio_candidate(url, match.group(1))
         if normalized:
             label = collapse_ws(strip_html(match.group(2)))
             candidates.append({'embed_url': normalized.get('embedUrl', ''), 'content_url': normalized.get('fileUrl', ''), 'page_url': '', 'title_en': label, 'caption_en': ''})
 
-    ranked: list[tuple[int, dict, dict]] = []
     seen = set()
     for candidate in candidates:
         raw_audio_url = candidate.get('embed_url') or candidate.get('content_url') or candidate.get('page_url') or ''
@@ -1420,41 +1304,30 @@ def extract_page_audio(url: str) -> Optional[dict]:
         if key in seen:
             continue
         seen.add(key)
-        ranked.append((_audio_candidate_score(candidate, normalized), candidate, normalized))
 
-    if not ranked:
-        AUDIO_CACHE[url] = None
-        return None
+        title_en = collapse_ws(strip_html(candidate.get('title_en') or ''))
+        caption_en = collapse_ws(strip_html(candidate.get('caption_en') or ''))
+        title_pt = translate_text(title_en, 'pt') if title_en else ''
+        caption_pt = translate_text(caption_en, 'pt') if caption_en else ''
 
-    _, candidate, normalized = max(
-        ranked,
-        key=lambda item: (
-            item[0],
-            len(item[1].get('title_en') or ''),
-            len(item[1].get('caption_en') or ''),
-        ),
-    )
+        result = {
+            'kind': normalized.get('kind', 'embed'),
+            'platform': normalized.get('platform', 'embed'),
+            'embedUrl': normalized.get('embedUrl', ''),
+            'fileUrl': normalized.get('fileUrl', ''),
+            'title': title_pt or title_en,
+            'title_pt': title_pt or title_en,
+            'title_en': title_en or title_pt,
+            'caption': caption_pt or caption_en,
+            'caption_pt': caption_pt or caption_en,
+            'caption_en': caption_en or caption_pt,
+            'sourcePage': url,
+        }
+        AUDIO_CACHE[url] = result
+        return result
 
-    title_en = collapse_ws(strip_html(candidate.get('title_en') or ''))
-    caption_en = collapse_ws(strip_html(candidate.get('caption_en') or ''))
-    title_pt = translate_text(title_en, 'pt') if title_en else ''
-    caption_pt = translate_text(caption_en, 'pt') if caption_en else ''
-
-    result = {
-        'kind': normalized.get('kind', 'embed'),
-        'platform': normalized.get('platform', 'embed'),
-        'embedUrl': normalized.get('embedUrl', ''),
-        'fileUrl': normalized.get('fileUrl', ''),
-        'title': title_pt or title_en,
-        'title_pt': title_pt or title_en,
-        'title_en': title_en or title_pt,
-        'caption': caption_pt or caption_en,
-        'caption_pt': caption_pt or caption_en,
-        'caption_en': caption_en or caption_pt,
-        'sourcePage': url,
-    }
-    AUDIO_CACHE[url] = result
-    return result
+    AUDIO_CACHE[url] = None
+    return None
 
 def _extract_json_from_text(text: str) -> Optional[dict]:
     text = collapse_ws(text)
