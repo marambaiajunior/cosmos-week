@@ -64,7 +64,7 @@ PAGE_TEXT_MAX_PARAGRAPHS = 24
 FULL_TEXT_LIMIT = 9000
 MAX_FACT_SENTENCES = 14
 MAX_INLINE_IMAGES = 3
-GEMINI_TIMEOUT = 45
+GEMINI_TIMEOUT = 120
 # Reduce Gemini rate to minimise HTTP 429 errors. The free tier allows up to 20
 # requests per minute, but bursts of concurrent requests can trigger quota
 # throttling. By lowering the per‑minute limit we spread calls over a longer
@@ -72,12 +72,15 @@ GEMINI_TIMEOUT = 45
 GEMINI_RPM_LIMIT = 4
 GEMINI_RETRY_ON_429 = 2          # máximo 2 retries por chamada
 GEMINI_RETRY_DELAY_429 = 65      # espera fixa de 65s: garante reset da janela de 1 minuto do RPM
+GEMINI_RETRY_TRANSIENT = 3        # retries para 503, 502, 504 e timeouts
+GEMINI_RETRY_BASE_DELAY = 20      # backoff base para indisponibilidade transitória
+GEMINI_PAYLOAD_BODY_LIMIT = 2600  # reduz o tamanho do prompt para aliviar o modelo
 GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.0-flash').strip() or 'gemini-2.0-flash'
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '').strip()
 GEMINI_ENDPOINT_TEMPLATE = 'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
 
-# Revisão em lote: 5 posts por chamada Gemini → 40 posts = 8 chamadas (vs 40 individuais)
-GEMINI_BATCH_SIZE = 5
+# Revisão em lote: 2 posts por chamada Gemini → mais leve para reduzir timeout e 503
+GEMINI_BATCH_SIZE = 2
 
 NS = {
     'atom': 'http://www.w3.org/2005/Atom',
@@ -1329,7 +1332,7 @@ def extract_page_audio(url: str) -> Optional[dict]:
     AUDIO_CACHE[url] = None
     return None
 
-def _extract_json_from_text(text: str) -> Optional[dict]:
+def _extract_json_from_text(text: str):
     text = collapse_ws(text)
     if not text:
         return None
@@ -1337,13 +1340,21 @@ def _extract_json_from_text(text: str) -> Optional[dict]:
         return json.loads(text)
     except Exception:
         pass
-    match = re.search(r'\{.*\}', text, flags=re.S)
-    if not match:
-        return None
-    try:
-        return json.loads(match.group(0))
-    except Exception:
-        return None
+
+    for pattern in (r'\[.*\]', r'\{.*\}'):
+        match = re.search(pattern, text, flags=re.S)
+        if not match:
+            continue
+        try:
+            return json.loads(match.group(0))
+        except Exception:
+            continue
+    return None
+
+
+def _gemini_prompt_body(text: str) -> str:
+    cleaned = collapse_ws(strip_html(text or ''))
+    return truncate(cleaned, GEMINI_PAYLOAD_BODY_LIMIT) if cleaned else ''
 
 
 def _gemini_response_text(payload: dict) -> str:
@@ -1377,14 +1388,15 @@ def _gemini_rate_limit_wait() -> None:
     _GEMINI_CALL_TIMES.append(_time.monotonic())
 
 
-def call_gemini_json(task_key: str, prompt: str) -> Optional[dict]:
+def call_gemini_json(task_key: str, prompt: str):
+    import socket
     import time as _time
+
     if not GEMINI_API_KEY:
         return None
     cache_key = (task_key, prompt)
     if cache_key in GEMINI_CACHE:
-        cached = GEMINI_CACHE[cache_key]
-        return cached if isinstance(cached, dict) else None
+        return GEMINI_CACHE[cache_key]
 
     endpoint = GEMINI_ENDPOINT_TEMPLATE.format(model=urllib.parse.quote(GEMINI_MODEL, safe=''))
     url = f'{endpoint}?key={urllib.parse.quote(GEMINI_API_KEY)}'
@@ -1397,9 +1409,10 @@ def call_gemini_json(task_key: str, prompt: str) -> Optional[dict]:
     }
     data = json.dumps(body, ensure_ascii=False).encode('utf-8')
 
-    for attempt in range(GEMINI_RETRY_ON_429 + 1):
-        # Recriar o objeto Request a cada tentativa: urllib.request.Request
-        # com body é consumido após o primeiro urlopen e não pode ser reutilizado.
+    max_attempts = 1 + max(GEMINI_RETRY_ON_429, GEMINI_RETRY_TRANSIENT)
+    transient_codes = {408, 500, 502, 503, 504}
+
+    for attempt in range(max_attempts):
         req = urllib.request.Request(
             url,
             data=data,
@@ -1417,18 +1430,34 @@ def call_gemini_json(task_key: str, prompt: str) -> Optional[dict]:
             text = _gemini_response_text(parsed)
             out = _extract_json_from_text(text)
             GEMINI_CACHE[cache_key] = out
-            return out if isinstance(out, dict) else None
+            return out
         except urllib.error.HTTPError as exc:
             try:
                 err_body = exc.read().decode('utf-8', errors='ignore')[:400]
             except Exception:
                 err_body = '(sem corpo)'
+
             if exc.code == 429 and attempt < GEMINI_RETRY_ON_429:
                 print(f'    [Gemini] 429 quota — aguardando {GEMINI_RETRY_DELAY_429}s para reset do RPM (retry {attempt + 1}/{GEMINI_RETRY_ON_429}) ...')
                 _time.sleep(GEMINI_RETRY_DELAY_429)
                 continue
-            # Erro definitivo ou retries esgotados
+
+            if exc.code in transient_codes and attempt < GEMINI_RETRY_TRANSIENT:
+                wait = GEMINI_RETRY_BASE_DELAY * (attempt + 1)
+                print(f'    [Gemini] HTTP {exc.code} transitório — aguardando {wait}s e tentando novamente ({attempt + 1}/{GEMINI_RETRY_TRANSIENT}) ...')
+                _time.sleep(wait)
+                continue
+
             print(f'ERR Gemini HTTP {exc.code} ({exc.reason}): {err_body}')
+            GEMINI_CACHE[cache_key] = None
+            return None
+        except (urllib.error.URLError, TimeoutError, socket.timeout) as exc:
+            if attempt < GEMINI_RETRY_TRANSIENT:
+                wait = GEMINI_RETRY_BASE_DELAY * (attempt + 1)
+                print(f'    [Gemini] timeout/rede — aguardando {wait}s e tentando novamente ({attempt + 1}/{GEMINI_RETRY_TRANSIENT}) ...')
+                _time.sleep(wait)
+                continue
+            print(f'ERR Gemini: {exc}')
             GEMINI_CACHE[cache_key] = None
             return None
         except Exception as exc:
@@ -1697,7 +1726,7 @@ def review_portuguese_content(title_pt: str, summary_pt: str, facts_pt: list[str
         'title': collapse_ws(title_pt),
         'summary': collapse_ws(summary_pt),
         'facts': facts_pt[:6],
-        'body': collapse_ws(strip_html(body_pt)),
+        'body': _gemini_prompt_body(body_pt),
     }
     fallback = {
         'title': payload['title'],
@@ -3430,7 +3459,7 @@ def batch_review_all_posts(posts: list[dict]) -> None:
                 'title':   p['title_pt'],
                 'summary': p['sub_pt'],
                 'facts':   p.get('highlights_pt', [])[:3],
-                'body':    collapse_ws(strip_html(p['body_pt'])),
+                'body':    _gemini_prompt_body(p['body_pt']),
             }
             for p in batch
         ]
@@ -3467,10 +3496,31 @@ def batch_review_all_posts(posts: list[dict]) -> None:
                 result = list(result.values()) if result else None
 
         if not isinstance(result, list):
-            print(f'  [Gemini] Lote {batch_num} sem resposta válida — fallback para {len(batch)} posts')
+            print(f'  [Gemini] Lote {batch_num} sem resposta válida — retry individual para {len(batch)} posts')
             for p in batch:
-                p['reviewStatus'] = 'fallback'
-            fallback_count += len(batch)
+                reviewed_single = review_portuguese_content(
+                    p['title_pt'],
+                    p['sub_pt'],
+                    p.get('highlights_pt', [])[:3],
+                    p['body_pt'],
+                )
+                if reviewed_single.get('status') == 'success':
+                    p['title'] = reviewed_single['title']
+                    p['title_pt'] = reviewed_single['title']
+                    p['sub'] = truncate(reviewed_single['summary'], 180)
+                    p['sub_pt'] = truncate(reviewed_single['summary'], 180)
+                    p['excerpt'] = truncate(reviewed_single['summary'], 260)
+                    p['excerpt_pt'] = truncate(reviewed_single['summary'], 260)
+                    p['body'] = reviewed_single['body']
+                    p['body_pt'] = reviewed_single['body']
+                    facts_single = distinct_facts([collapse_ws(str(f)) for f in reviewed_single.get('facts') or []], 6) or []
+                    p['highlights'] = build_highlights(reviewed_single['title'], reviewed_single['summary'], facts_single, p['sourceType'], 'pt')
+                    p['highlights_pt'] = p['highlights']
+                    p['reviewStatus'] = 'success'
+                    success_count += 1
+                else:
+                    p['reviewStatus'] = 'fallback'
+                    fallback_count += 1
             continue
 
         reviewed_map = {str(r.get('slug', '')): r for r in result if isinstance(r, dict)}
@@ -3480,8 +3530,29 @@ def batch_review_all_posts(posts: list[dict]) -> None:
                 _apply_reviewed_post(p, reviewed)
                 success_count += 1
             else:
-                p['reviewStatus'] = 'fallback'
-                fallback_count += 1
+                reviewed_single = review_portuguese_content(
+                    p['title_pt'],
+                    p['sub_pt'],
+                    p.get('highlights_pt', [])[:3],
+                    p['body_pt'],
+                )
+                if reviewed_single.get('status') == 'success':
+                    p['title'] = reviewed_single['title']
+                    p['title_pt'] = reviewed_single['title']
+                    p['sub'] = truncate(reviewed_single['summary'], 180)
+                    p['sub_pt'] = truncate(reviewed_single['summary'], 180)
+                    p['excerpt'] = truncate(reviewed_single['summary'], 260)
+                    p['excerpt_pt'] = truncate(reviewed_single['summary'], 260)
+                    p['body'] = reviewed_single['body']
+                    p['body_pt'] = reviewed_single['body']
+                    facts_single = distinct_facts([collapse_ws(str(f)) for f in reviewed_single.get('facts') or []], 6) or []
+                    p['highlights'] = build_highlights(reviewed_single['title'], reviewed_single['summary'], facts_single, p['sourceType'], 'pt')
+                    p['highlights_pt'] = p['highlights']
+                    p['reviewStatus'] = 'success'
+                    success_count += 1
+                else:
+                    p['reviewStatus'] = 'fallback'
+                    fallback_count += 1
 
     print(f'  [Gemini] Concluído: {success_count} sucesso / {fallback_count} fallback')
 
