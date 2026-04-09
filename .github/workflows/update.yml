@@ -2,9 +2,12 @@ name: Atualizar notícias
 
 on:
   schedule:
-    # Executa 2× por dia: 07:00 UTC (manhã) e 19:00 UTC (noite)
-    - cron: '0 7 * * *'
-    - cron: '0 19 * * *'
+    # Executa 1× por dia às 04:00 UTC.
+    # Em Utah isso corresponde a:
+    # - 21:00 durante MST (horário padrão)
+    # - 22:00 durante MDT (horário de verão)
+    # Assim, a execução acontece sempre depois das 21:00 no horário de Utah.
+    - cron: '0 4 * * *'
   workflow_dispatch:
 
 permissions:
@@ -17,9 +20,9 @@ concurrency:
 jobs:
   update-news:
     runs-on: ubuntu-latest
-    # Tempo máximo total do job: 25 minutos.
+    # Tempo máximo total do job: 40 minutos.
     # Sem Gemini a pipeline termina em ~3 min.
-    # Com Gemini (40 posts × ~45s) pode chegar a ~20 min.
+    # Com Gemini e retries em dias de alta demanda, pode se aproximar desse limite.
     timeout-minutes: 40
 
     env:
