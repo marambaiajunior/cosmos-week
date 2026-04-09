@@ -277,9 +277,10 @@ class SourceConfig:
 
 
 # A comprehensive set of high‑quality primary and secondary sources. This list
-# restores the original 29 feeds and adds Nature and Nature Astronomy, bringing
-# the total to 31 science and astronomy news feeds. We preserve the ordering
-# and weighting of the original sources where applicable.
+# preserves the strong international core, removes one duplicate NASA feed and
+# adds a curated Brazilian block focused on scientifically reliable reporting.
+# The result is a hybrid mix of institutional, journalistic and preprint feeds
+# without changing the downstream parsing/export pipeline.
 SOURCES = [
     # ── Institutional / Agency ──────────────────────────────────────────────
     SourceConfig('NASA News Releases',          'https://www.nasa.gov/news-release/feed/',                                              'rss',  'agency',   94),
@@ -304,8 +305,9 @@ SOURCES = [
     SourceConfig('NIH News Releases',           'https://www.nih.gov/news-releases/feed.xml',                                           'rss',  'agency',   79),
     # Planetary Society: updated feed URL
     SourceConfig('The Planetary Society',       'https://www.planetary.org/rss/articles',                                              'rss',  'agency',   78),
-    # NOAA bloqueia scrapers (403); substituído pelo feed de breaking news da NASA
-    SourceConfig('NASA Breaking News',          'https://www.nasa.gov/news-release/feed/',                                             'rss',  'agency',   77),
+    # Bloco brasileiro curado: fontes com reputação forte em jornalismo científico.
+    # A duplicata do feed da NASA foi removida para abrir espaço sem degradar cobertura.
+    SourceConfig('Agência FAPESP',             'http://agencia.fapesp.br/rss/',                                                       'rss',  'agency',   77),
     # Phys.org sections (URLs corrigidas: /rss-feed/{category}-news/)
     SourceConfig('Phys.org Space',              'https://phys.org/rss-feed/space-news/',                                               'rss',  'agency',   76),
     # NASA Earth Observatory: URL corrigida
@@ -313,9 +315,14 @@ SOURCES = [
     SourceConfig('Sky & Telescope',             'https://skyandtelescope.org/feed/',                                                    'rss',  'agency',   74),
     SourceConfig('Universe Today',              'https://www.universetoday.com/feed/',                                                  'rss',  'agency',   73),
     SourceConfig('EarthSky',                    'https://earthsky.org/feed/',                                                           'rss',  'agency',   72),
+    # Pesquisa FAPESP é uma revista de jornalismo científico voltada à produção brasileira.
+    SourceConfig('Pesquisa FAPESP Online',      'https://revistapesquisa.fapesp.br/category/online/feed/',                              'rss',  'journal',  72),
+    SourceConfig('Pesquisa FAPESP Ciência',     'https://revistapesquisa.fapesp.br/category/impressa/ciencia/feed/',                    'rss',  'journal',  71),
     SourceConfig('Phys.org Biology',            'https://phys.org/rss-feed/biology-news/',                                             'rss',  'agency',   71),
     SourceConfig('Phys.org Physics',            'https://phys.org/rss-feed/physics-news/',                                             'rss',  'agency',   71),
     SourceConfig('Phys.org Chemistry',          'https://phys.org/rss-feed/chemistry-news/',                                           'rss',  'agency',   70),
+    # Faixa temática brasileira adicional para astronomia e espaço.
+    SourceConfig('Pesquisa FAPESP Astronomia',  'https://revistapesquisa.fapesp.br/tag/astronomia/feed/',                              'rss',  'journal',  69),
     # Removido: feed de Earth Sciences indisponível (404)
     # ── arXiv preprints ─────────────────────────────────────────────────────
     SourceConfig('arXiv Astrophysics',
