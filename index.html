@@ -1705,8 +1705,18 @@
 <script src="giscus-config.js"></script>
   <script src="posts.js"></script>
   <script>
+  const RUNTIME_BASE_PATH = (() => {
+    const path = window.location.pathname || '/';
+    if (/\/index(?:\([^\/]+\))?\.html$/i.test(path)) {
+      const cleaned = path.replace(/index(?:\([^\/]+\))?\.html$/i, '');
+      return cleaned || '/';
+    }
+    return path || '/';
+  })();
+
   const SITE = {
-    baseUrl: 'https://www.cosmosweek.com/',
+    canonicalBaseUrl: 'https://www.cosmosweek.com/',
+    runtimeBasePath: RUNTIME_BASE_PATH,
     title: 'Cosmos Week',
     homeTitlePt: 'Cosmos Week — Notícias Científicas do universo',
     homeTitleEn: 'Cosmos Week — Science journalism for the universe',
@@ -2040,12 +2050,24 @@
   }
 
   function getURLForArticle(post) {
-    return `${SITE.baseUrl}?article=${encodeURIComponent(post.slug)}`;
+    return `${SITE.runtimeBasePath}?article=${encodeURIComponent(post.slug)}`;
+  }
+
+  function getCanonicalURLForArticle(post) {
+    if (currentLang === 'en' && post?.canonicalUrl_en) return post.canonicalUrl_en;
+    if (post?.canonicalUrl_pt) return post.canonicalUrl_pt;
+    if (post?.canonicalUrl) return post.canonicalUrl;
+    return `${SITE.canonicalBaseUrl}?article=${encodeURIComponent(post?.slug || '')}`;
   }
 
   function pageUrl(page) {
     const map = { archive:'?page=arquivo', about:'?page=sobre', standards:'?page=padroes', search:'?page=busca' };
-    return SITE.baseUrl + (map[page] || '');
+    return `${SITE.runtimeBasePath}${map[page] || ''}`;
+  }
+
+  function canonicalPageUrl(page) {
+    const map = { archive:'?page=arquivo', about:'?page=sobre', standards:'?page=padroes', search:'?page=busca' };
+    return `${SITE.canonicalBaseUrl}${map[page] || ''}`;
   }
 
   function keywordListFor(post) {
@@ -2958,18 +2980,28 @@
     if (target) target.classList.add('on');
   }
 
+  function safeReplaceState(url) {
+    try { history.replaceState({}, '', url); }
+    catch (err) { console.warn('History replaceState falhou:', err); }
+  }
+
+  function safePushState(url) {
+    try { history.pushState({}, '', url); }
+    catch (err) { console.warn('History pushState falhou:', err); }
+  }
+
   function openPage(page) {
-    if (page === 'archive')   { history.replaceState({}, '', pageUrl('archive'));   renderArchive(); }
-    else if (page === 'about')     { history.replaceState({}, '', pageUrl('about'));     renderAbout(); }
-    else if (page === 'standards') { history.replaceState({}, '', pageUrl('standards')); renderStandards(); }
+    if (page === 'archive')   { safeReplaceState(pageUrl('archive'));   renderArchive(); }
+    else if (page === 'about')     { safeReplaceState(pageUrl('about'));     renderAbout(); }
+    else if (page === 'standards') { safeReplaceState(pageUrl('standards')); renderStandards(); }
     else goHome();
   }
 
-  function goHome() { history.replaceState({}, '', SITE.baseUrl); renderHome(); }
+  function goHome() { safeReplaceState(SITE.runtimeBasePath); renderHome(); }
 
   function openArticle(slug) {
     const post = DB.find(item => item.slug === slug);
-    if (post) history.pushState({}, '', getURLForArticle(post));
+    if (post) safePushState(getURLForArticle(post));
     renderArticle(slug);
   }
 
@@ -3203,7 +3235,7 @@
   function updateMetaHome() {
     const title = currentLang==='en' ? SITE.homeTitleEn : SITE.homeTitlePt;
     const description = currentLang==='en' ? SITE.homeDescriptionEn : SITE.homeDescriptionPt;
-    updateMetaCommon(title, description, SITE.baseUrl, IMG.pillars, null, {
+    updateMetaCommon(title, description, SITE.canonicalBaseUrl, IMG.pillars, null, {
       robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
       newsKeywords: 'astronomia, astrofísica, cosmologia, ciência, espaço'
     });
@@ -3222,7 +3254,7 @@
       standards: currentLang==='en'?'Methodology, source labeling and editorial safeguards.':'Metodologia, rotulagem de fonte e salvaguardas editoriais.',
       search: currentLang==='en'?'Search results inside Cosmos Week.':'Resultados de busca dentro do Cosmos Week.'
     };
-    updateMetaCommon(`${titles[page]} — ${SITE.title}`, descriptions[page], pageUrl(page), IMG.pillars, null, {
+    updateMetaCommon(`${titles[page]} — ${SITE.title}`, descriptions[page], canonicalPageUrl(page), IMG.pillars, null, {
       robots: page === 'search' ? 'noindex,follow' : 'index,follow',
       newsKeywords: 'Notícias Científicas, astronomia, astrofísica, cosmologia'
     });
@@ -3231,13 +3263,13 @@
   function updateMetaArticle(post) {
     const title = `${textFor(post,'title')} — ${SITE.title}`;
     const description = textFor(post,'excerpt');
-    const url = getURLForArticle(post);
+    const url = getCanonicalURLForArticle(post);
     const keywords = keywordListFor(post);
     const jsonLd = [
-      { '@context':'https://schema.org','@type':'NewsMediaOrganization', name:SITE.title, url:SITE.baseUrl, logo:{'@type':'ImageObject',url:IMG.pillars} },
+      { '@context':'https://schema.org','@type':'NewsMediaOrganization', name:SITE.title, url:SITE.canonicalBaseUrl, logo:{'@type':'ImageObject',url:IMG.pillars} },
       { '@context':'https://schema.org','@type':'BreadcrumbList', itemListElement:[
-        {'@type':'ListItem',position:1,name:currentLang==='en'?'Home':'Início',item:SITE.baseUrl},
-        {'@type':'ListItem',position:2,name:prettyCategory(post.cat),item:`${SITE.baseUrl}?category=${encodeURIComponent(post.cat)}`},
+        {'@type':'ListItem',position:1,name:currentLang==='en'?'Home':'Início',item:SITE.canonicalBaseUrl},
+        {'@type':'ListItem',position:2,name:prettyCategory(post.cat),item:`${SITE.canonicalBaseUrl}?category=${encodeURIComponent(post.cat)}`},
         {'@type':'ListItem',position:3,name:textFor(post,'title'),item:url}
       ]},
       { '@context':'https://schema.org','@type':'NewsArticle',
@@ -3275,7 +3307,7 @@
     document.getElementById('articlePublishedMeta').setAttribute('content', options.published||'');
     document.getElementById('articleModifiedMeta').setAttribute('content', options.modified||options.published||'');
     document.getElementById('siteJsonLd').textContent = JSON.stringify(articleJsonLd || {
-      '@context':'https://schema.org','@type':'WebSite', name:SITE.title, url:SITE.baseUrl, description
+      '@context':'https://schema.org','@type':'WebSite', name:SITE.title, url:SITE.canonicalBaseUrl, description
     });
   }
 
