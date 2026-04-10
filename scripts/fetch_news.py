@@ -40,7 +40,7 @@ FEED_XML = ROOT / 'feed.xml'
 SITEMAP_XML = ROOT / 'sitemap.xml'
 ROBOTS_TXT = ROOT / 'robots.txt'
 
-SITE_URL = os.getenv('COSMOS_SITE_URL', 'https://www.cosmosweek.com/').rstrip('/') + '/'
+SITE_URL = os.getenv('COSMOS_SITE_URL', 'https://marambaiajunior.github.io/cosmos-week1/').rstrip('/') + '/'
 SITE_NAME = 'Cosmos Week'
 SITE_DESCRIPTION_PT = 'Portal de jornalismo científico com foco em astronomia, astrofísica, cosmologia e ciência de fronteira.'
 SITE_DESCRIPTION_EN = 'Science journalism portal focused on astronomy, astrophysics, cosmology and frontier research.'
@@ -79,8 +79,19 @@ GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.0-flash').strip() or 'gemini-
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '').strip()
 GEMINI_ENDPOINT_TEMPLATE = 'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
 
-# Revisão em lote: 2 posts por chamada Gemini → mais leve para reduzir timeout e 503
-GEMINI_BATCH_SIZE = 2
+# Revisão em lote configurável por variável de ambiente.
+# O padrão continua conservador (2 posts por chamada) para reduzir timeout e 503.
+try:
+    GEMINI_BATCH_SIZE = max(1, int((os.getenv('GEMINI_BATCH_SIZE', '2') or '2').strip()))
+except ValueError:
+    GEMINI_BATCH_SIZE = 2
+
+# Se o Gemini devolver 503 repetidamente, desabilitamos a revisão nesta execução
+# para evitar desperdiçar tempo do workflow insistindo num serviço saturado.
+try:
+    GEMINI_DISABLE_AFTER_CONSECUTIVE_503 = max(1, int((os.getenv('GEMINI_DISABLE_AFTER_CONSECUTIVE_503', '3') or '3').strip()))
+except ValueError:
+    GEMINI_DISABLE_AFTER_CONSECUTIVE_503 = 3
 
 NS = {
     'atom': 'http://www.w3.org/2005/Atom',
@@ -370,6 +381,8 @@ GEMINI_CACHE: dict[tuple[str, str], object] = {}
 # Controle de rate limit: rastreia timestamps das chamadas bem-sucedidas
 # para respeitar o limite de GEMINI_RPM_LIMIT req/min da free tier.
 _GEMINI_CALL_TIMES: list[float] = []
+_GEMINI_CONSECUTIVE_503 = 0
+_GEMINI_DISABLED_THIS_RUN = False
 
 
 # ── Utility functions ─────────────────────────────────────────────────────────
@@ -1399,7 +1412,11 @@ def call_gemini_json(task_key: str, prompt: str):
     import socket
     import time as _time
 
+    global _GEMINI_CONSECUTIVE_503, _GEMINI_DISABLED_THIS_RUN
+
     if not GEMINI_API_KEY:
+        return None
+    if _GEMINI_DISABLED_THIS_RUN:
         return None
     cache_key = (task_key, prompt)
     if cache_key in GEMINI_CACHE:
@@ -1436,6 +1453,7 @@ def call_gemini_json(task_key: str, prompt: str):
             parsed = json.loads(raw)
             text = _gemini_response_text(parsed)
             out = _extract_json_from_text(text)
+            _GEMINI_CONSECUTIVE_503 = 0
             GEMINI_CACHE[cache_key] = out
             return out
         except urllib.error.HTTPError as exc:
@@ -1456,6 +1474,17 @@ def call_gemini_json(task_key: str, prompt: str):
                 continue
 
             print(f'ERR Gemini HTTP {exc.code} ({exc.reason}): {err_body}')
+            if exc.code == 503:
+                _GEMINI_CONSECUTIVE_503 += 1
+                if _GEMINI_CONSECUTIVE_503 >= GEMINI_DISABLE_AFTER_CONSECUTIVE_503:
+                    _GEMINI_DISABLED_THIS_RUN = True
+                    print(
+                        '⚠️  Gemini desabilitado nesta execução após '
+                        f'{_GEMINI_CONSECUTIVE_503} falhas consecutivas HTTP 503. '
+                        'Os artigos restantes seguirão em fallback sem revisão.'
+                    )
+            else:
+                _GEMINI_CONSECUTIVE_503 = 0
             GEMINI_CACHE[cache_key] = None
             return None
         except (urllib.error.URLError, TimeoutError, socket.timeout) as exc:
@@ -1465,10 +1494,12 @@ def call_gemini_json(task_key: str, prompt: str):
                 _time.sleep(wait)
                 continue
             print(f'ERR Gemini: {exc}')
+            _GEMINI_CONSECUTIVE_503 = 0
             GEMINI_CACHE[cache_key] = None
             return None
         except Exception as exc:
             print(f'ERR Gemini: {exc}')
+            _GEMINI_CONSECUTIVE_503 = 0
             GEMINI_CACHE[cache_key] = None
             return None
 
@@ -3457,6 +3488,14 @@ def batch_review_all_posts(posts: list[dict]) -> None:
     total_batches = (total + GEMINI_BATCH_SIZE - 1) // GEMINI_BATCH_SIZE
 
     for batch_start in range(0, total, GEMINI_BATCH_SIZE):
+        if _GEMINI_DISABLED_THIS_RUN:
+            remaining = posts[batch_start:]
+            for p in remaining:
+                if p.get('reviewStatus') != 'success':
+                    p['reviewStatus'] = 'fallback'
+                    fallback_count += 1
+            print(f'  [Gemini] Revisão abortada para os {len(remaining)} posts restantes por indisponibilidade do serviço')
+            break
         batch     = posts[batch_start: batch_start + GEMINI_BATCH_SIZE]
         batch_num = batch_start // GEMINI_BATCH_SIZE + 1
 
