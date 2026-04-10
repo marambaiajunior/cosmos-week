@@ -2,12 +2,13 @@ name: Atualizar notícias
 
 on:
   schedule:
-    # Executa 1× por dia às 04:00 UTC.
+    # Executa 1× por dia às 10:00 UTC.
     # Em Utah isso corresponde a:
-    # - 21:00 durante MST (horário padrão)
-    # - 22:00 durante MDT (horário de verão)
-    # Assim, a execução acontece sempre depois das 21:00 no horário de Utah.
-    - cron: '0 4 * * *'
+    # Em Utah isso corresponde aproximadamente a:
+    # - 03:00 durante MST (horário padrão)
+    # - 04:00 durante MDT (horário de verão)
+    # Assim, a execução acontece na madrugada local, fora do pico de uso.
+    - cron: '0 10 * * *'
   workflow_dispatch:
 
 permissions:
@@ -29,7 +30,8 @@ jobs:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
       PYTHONUNBUFFERED: '1'
       COSMOS_SITE_URL: 'https://www.cosmosweek.com/'
-      GEMINI_BATCH_SIZE: '5'
+      GEMINI_BATCH_SIZE: '2'
+      GEMINI_DISABLE_AFTER_CONSECUTIVE_503: '3'
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
 
