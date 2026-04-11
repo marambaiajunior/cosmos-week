@@ -2615,20 +2615,173 @@
       </figure>`;
   }
 
+  function extractKnownVideoEmbedFromHtml(html = '') {
+    const source = String(html || '').trim();
+    if (!source) return '';
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(`<div>${source}</div>`, 'text/html');
+
+    const iframeSrc = doc.querySelector('iframe[src]')?.getAttribute('src') || '';
+    if (iframeSrc) return iframeSrc;
+
+    const selectors = [
+      'a[href*="youtu.be/"]',
+      'a[href*="youtube.com/watch"]',
+      'a[href*="youtube.com/embed/"]',
+      'a[href*="youtube.com/shorts/"]',
+      'a[href*="vimeo.com/"]',
+      'video source[src]',
+      'video[src]'
+    ];
+
+    for (const selector of selectors) {
+      const found = doc.querySelector(selector);
+      if (!found) continue;
+      const attr = found.getAttribute('href') || found.getAttribute('src') || '';
+      if (attr) return attr;
+    }
+
+    return '';
+  }
+
+  function normalizeYouTubeEmbedUrl(url = '') {
+    const value = String(url || '').trim();
+    if (!value) return '';
+
+    const buildEmbed = id => {
+      const cleanId = String(id || '').trim();
+      if (!/^[A-Za-z0-9_-]{6,}$/.test(cleanId)) return '';
+      return `https://www.youtube-nocookie.com/embed/${cleanId}?rel=0&modestbranding=1`;
+    };
+
+    try {
+      const parsed = new URL(value, location.href);
+      const host = parsed.hostname.replace(/^www\./i, '').toLowerCase();
+      const path = parsed.pathname || '';
+      let id = '';
+
+      if (host === 'youtu.be') {
+        id = path.split('/').filter(Boolean)[0] || '';
+      } else if (host.endsWith('youtube.com') || host.endsWith('youtube-nocookie.com')) {
+        if (/^\/embed\//i.test(path)) {
+          id = path.split('/').filter(Boolean)[1] || '';
+        } else if (/^\/watch$/i.test(path)) {
+          id = parsed.searchParams.get('v') || '';
+        } else if (/^\/(shorts|live)\//i.test(path)) {
+          id = path.split('/').filter(Boolean)[1] || '';
+        }
+      }
+
+      const normalized = buildEmbed(id);
+      if (normalized) return normalized;
+    } catch (e) {}
+
+    const match = value.match(/(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/|live\/)|youtu\.be\/)([A-Za-z0-9_-]{6,})/i);
+    return match ? buildEmbed(match[1]) : '';
+  }
+
+  function normalizeVimeoEmbedUrl(url = '') {
+    const value = String(url || '').trim();
+    if (!value) return '';
+    try {
+      const parsed = new URL(value, location.href);
+      const host = parsed.hostname.replace(/^www\./i, '').toLowerCase();
+      if (!host.endsWith('vimeo.com') && !host.endsWith('player.vimeo.com')) return '';
+      const parts = parsed.pathname.split('/').filter(Boolean);
+      const id = parts.find(part => /^\d{6,}$/.test(part)) || '';
+      return id ? `https://player.vimeo.com/video/${id}` : '';
+    } catch (e) {
+      const match = value.match(/vimeo\.com\/(?:video\/)?(\d{6,})/i);
+      return match ? `https://player.vimeo.com/video/${match[1]}` : '';
+    }
+  }
+
+  function normalizeVideoEmbedUrl(url = '', platform = '') {
+    const value = String(url || '').trim();
+    const provider = String(platform || '').trim().toLowerCase();
+    if (!value) return '';
+
+    if (provider.includes('youtube') || /youtu(?:\.be|be\.com)/i.test(value)) {
+      return normalizeYouTubeEmbedUrl(value);
+    }
+    if (provider.includes('vimeo') || /vimeo\.com/i.test(value)) {
+      return normalizeVimeoEmbedUrl(value);
+    }
+    if (/^https?:\/\//i.test(value)) return value;
+    return '';
+  }
+
+  function inferVideoDataFromPost(post) {
+    const rawVideo = post && post.video && typeof post.video === 'object' ? post.video : {};
+    const bodyHtml = currentLang === 'en'
+      ? String(post?.body_en || post?.body || '')
+      : String(post?.body_pt || post?.body || '');
+
+    const candidates = [
+      rawVideo.embedUrl,
+      rawVideo.url,
+      rawVideo.src,
+      rawVideo.watchUrl,
+      rawVideo.watch_url,
+      rawVideo.youtubeUrl,
+      rawVideo.youtube_url,
+      rawVideo.videoUrl,
+      rawVideo.video_url,
+      rawVideo.iframe,
+      rawVideo.embed,
+      post?.videoUrl,
+      post?.video_url,
+      post?.youtubeUrl,
+      post?.youtube_url,
+      post?.embedUrl,
+      post?.embed_url,
+      extractKnownVideoEmbedFromHtml(bodyHtml)
+    ].map(value => String(value || '').trim()).filter(Boolean);
+
+    const platformHint = [
+      rawVideo.platform,
+      post?.videoPlatform,
+      post?.video_platform
+    ].map(value => String(value || '').trim()).find(Boolean) || '';
+
+    const embedUrl = candidates
+      .map(url => normalizeVideoEmbedUrl(url, platformHint))
+      .find(Boolean) || '';
+
+    const fileUrl = [
+      rawVideo.fileUrl,
+      rawVideo.file_url,
+      rawVideo.src,
+      post?.fileUrl,
+      post?.file_url
+    ].map(value => String(value || '').trim())
+     .find(url => /^https?:\/\//i.test(url) && /\.(mp4|webm|ogg)(?:$|[?#])/i.test(url)) || '';
+
+    return {
+      kind: embedUrl ? 'embed' : (fileUrl ? 'file' : ''),
+      platform: platformHint || (embedUrl.includes('youtube') ? 'youtube' : (embedUrl.includes('vimeo') ? 'vimeo' : '')),
+      embedUrl,
+      fileUrl
+    };
+  }
+
   function articleVideoFor(post) {
-    const raw = post && post.video && typeof post.video === 'object' ? post.video : null;
-    if (!raw) return null;
+    const raw = post && post.video && typeof post.video === 'object' ? post.video : {};
+    const inferred = inferVideoDataFromPost(post);
+    if (!inferred.embedUrl && !inferred.fileUrl) return null;
+
     const title = currentLang === 'en'
-      ? String(raw.title_en || raw.title || '').trim()
-      : String(raw.title_pt || raw.title || '').trim();
+      ? String(raw.title_en || raw.title || post?.title_en || post?.title || '').trim()
+      : String(raw.title_pt || raw.title || post?.title_pt || post?.title || '').trim();
     const caption = currentLang === 'en'
       ? String(raw.caption_en || raw.caption || '').trim()
       : String(raw.caption_pt || raw.caption || '').trim();
+
     return {
-      kind: String(raw.kind || '').trim(),
-      platform: String(raw.platform || '').trim(),
-      embedUrl: String(raw.embedUrl || '').trim(),
-      fileUrl: String(raw.fileUrl || '').trim(),
+      kind: inferred.kind,
+      platform: inferred.platform,
+      embedUrl: inferred.embedUrl,
+      fileUrl: inferred.fileUrl,
       poster: String(raw.poster || '').trim(),
       title,
       caption
