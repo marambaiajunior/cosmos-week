@@ -1800,8 +1800,8 @@
         { title: '3. Curadoria contra ruído institucional', body: 'Galerias de imagem, vídeos, perfis pessoais, prêmios e chamadas burocráticas são filtrados antes de chegar à home.' },
         { title: '4. Contexto antes de rotular', body: 'Nossos textos respondem três perguntas na seguinte ordem: o que aconteceu, por que isso importa e o que ainda não sabemos.' }
       ],
-      sourceMixLine: 'item(ns)', clickToRead: 'Abrir matéria', copyLink: 'Copiar link',
-      copied: 'Link copiado.', updateDone: 'Feed atualizado.', updateFail: 'Não foi possível atualizar agora.',
+      sourceMixLine: 'item(ns)', clickToRead: 'Abrir matéria', copyLink: 'Copiar link', shareNow: 'Compartilhar',
+      copied: 'Link copiado.', shareFallback: 'Link copiado para compartilhamento.', updateDone: 'Feed atualizado.', updateFail: 'Não foi possível atualizar agora.',
       welcome: 'Feed carregado. Cobertura atualizada.',
       backHome: 'Voltar ao início', allCategories: 'Todas',
       scoreLabel: 'Relevância editorial', evidenceLabel: 'Evidência', noveltyLabel: 'Novidade',
@@ -1809,7 +1809,7 @@
       preprintWarning: 'Este trabalho é um preprint — resultado em circulação técnica ainda não submetido a revisão por pares formal. Trate-o como evidência em teste, não como conclusão encerrada.'
     },
     en: {
-      logoSub: 'Science journalism in Portuguese-first mode',
+      logoSub: 'Science journalism',
       home: 'Home', archive: 'Archive', about: 'About', standards: 'Standards',
       methodology: 'Methodology', advertise: 'Advertise', mediaKit: 'Media kit', privacy: 'Privacy policy', terms: 'Terms of use', update: 'Refresh',
       searchPlaceholder: 'Search stories, topics or sources...',
@@ -1863,8 +1863,8 @@
         { title: '3. Curation filters institutional noise', body: 'Image galleries, videos, personal profiles, awards and bureaucratic calls are filtered before they can reach the homepage.' },
         { title: '4. Context comes before adjectives', body: 'The reporting structure tries to answer three questions in order: what happened, why it matters and what we still do not know.' }
       ],
-      sourceMixLine: 'item(s)', clickToRead: 'Open story', copyLink: 'Copy link',
-      copied: 'Link copied.', updateDone: 'Feed refreshed.', updateFail: 'Could not refresh right now.',
+      sourceMixLine: 'item(s)', clickToRead: 'Open story', copyLink: 'Copy link', shareNow: 'Share',
+      copied: 'Link copied.', shareFallback: 'Link copied for sharing.', updateDone: 'Feed refreshed.', updateFail: 'Could not refresh right now.',
       welcome: 'Feed loaded. Broader editorial coverage with stronger section balance.',
       backHome: 'Back to home', allCategories: 'All',
       scoreLabel: 'Editorial relevance', evidenceLabel: 'Evidence', noveltyLabel: 'Novelty',
@@ -3028,6 +3028,12 @@
               <div class="box-head">${tr('articleShare')}</div>
               <div class="box-body">
                 <button class="ghost-btn" type="button" onclick="copyArticleLink()">${tr('copyLink')}</button>
+                <button class="ghost-btn" type="button" onclick="shareCurrentArticle()" style="gap:6px;">
+                  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" style="width:14px;height:14px;flex-shrink:0;">
+                    <path fill="currentColor" d="M18 16a3 3 0 0 0-2.39 1.2l-6.94-3.47a3.12 3.12 0 0 0 0-1.46l6.94-3.47A3 3 0 1 0 15 7a3.12 3.12 0 0 0 .06.6L8.12 11.07a3 3 0 1 0 0 1.86l6.94 3.47A3 3 0 1 0 18 16Z"></path>
+                  </svg>
+                  <span>${tr('shareNow')}</span>
+                </button>
                 <a class="ghost-btn" href="${escapeAttr(post.srcUrl)}" target="_blank" rel="noopener">${tr('articleReadOriginal')}</a>
               </div>
             </div>
@@ -3361,8 +3367,29 @@
 
   function copyArticleLink() {
     const post = DB.find(item => item.slug === currentArticleSlug);
-    const url = post ? getURLForArticle(post) : location.href;
+    const url = post ? getCanonicalURLForArticle(post) : location.href;
     navigator.clipboard.writeText(url).then(() => showToast(tr('copied'))).catch(() => showToast(url));
+  }
+
+  async function shareCurrentArticle() {
+    const post = DB.find(item => item.slug === currentArticleSlug);
+    const url = post ? getCanonicalURLForArticle(post) : location.href;
+    const title = post ? textFor(post, 'title') : document.title;
+    const textBody = post ? stripHtml(textFor(post, 'excerpt') || textFor(post, 'sub') || '') : '';
+    const shareData = { title, text: textBody, url };
+
+    if (navigator.share) {
+      try {
+        await navigator.share(shareData);
+        return;
+      } catch (err) {
+        if (err && err.name === 'AbortError') return;
+      }
+    }
+
+    navigator.clipboard.writeText(url)
+      .then(() => showToast(tr('shareFallback')))
+      .catch(() => showToast(url));
   }
 
   function handleNewsletterSubmit(event) {
