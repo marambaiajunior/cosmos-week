@@ -2061,11 +2061,25 @@
     return `${SITE.runtimeBasePath}?article=${encodeURIComponent(post.slug)}`;
   }
 
-  function getCanonicalURLForArticle(post) {
+  function getRealURLForArticle(post) {
+    if (currentLang === 'en' && post?.realUrl_en) return post.realUrl_en;
+    if (post?.realUrl_pt) return post.realUrl_pt;
+    if (post?.realUrl) return post.realUrl;
     if (currentLang === 'en' && post?.canonicalUrl_en) return post.canonicalUrl_en;
     if (post?.canonicalUrl_pt) return post.canonicalUrl_pt;
     if (post?.canonicalUrl) return post.canonicalUrl;
     return `${SITE.canonicalBaseUrl}?article=${encodeURIComponent(post?.slug || '')}`;
+  }
+
+  function getShareURLForArticle(post) {
+    if (currentLang === 'en' && post?.shareUrl_en) return post.shareUrl_en;
+    if (post?.shareUrl_pt) return post.shareUrl_pt;
+    if (post?.shareUrl) return post.shareUrl;
+    return `${SITE.canonicalBaseUrl}noticia/${encodeURIComponent(post?.slug || '')}/`;
+  }
+
+  function getCanonicalURLForArticle(post) {
+    return getRealURLForArticle(post);
   }
 
   function pageUrl(page) {
@@ -3367,13 +3381,13 @@
 
   function copyArticleLink() {
     const post = DB.find(item => item.slug === currentArticleSlug);
-    const url = post ? getCanonicalURLForArticle(post) : location.href;
+    const url = post ? getShareURLForArticle(post) : location.href;
     navigator.clipboard.writeText(url).then(() => showToast(tr('copied'))).catch(() => showToast(url));
   }
 
   async function shareCurrentArticle() {
     const post = DB.find(item => item.slug === currentArticleSlug);
-    const url = post ? getCanonicalURLForArticle(post) : location.href;
+    const url = post ? getShareURLForArticle(post) : location.href;
     const title = post ? textFor(post, 'title') : document.title;
     const textBody = post ? stripHtml(textFor(post, 'excerpt') || textFor(post, 'sub') || '') : '';
     const shareData = { title, text: textBody, url };
@@ -3483,7 +3497,7 @@
   function updateMetaArticle(post) {
     const title = `${textFor(post,'title')} — ${SITE.title}`;
     const description = textFor(post,'excerpt');
-    const url = getCanonicalURLForArticle(post);
+    const url = getRealURLForArticle(post);
     const keywords = keywordListFor(post);
     const jsonLd = [
       { '@context':'https://schema.org','@type':'NewsMediaOrganization', name:SITE.title, url:SITE.canonicalBaseUrl, logo:{'@type':'ImageObject',url:IMG.pillars} },
@@ -3546,7 +3560,10 @@
     const params = new URLSearchParams(window.location.search);
     const article = params.get('article');
     const page = params.get('page');
+    const pathMatch = (window.location.pathname || '').match(/^\/noticia\/([^\/]+)\/?$/i);
+    const articleFromPath = pathMatch ? decodeURIComponent(pathMatch[1]) : '';
     if (article) { renderArticle(article); return; }
+    if (articleFromPath) { renderArticle(articleFromPath); return; }
     if (page==='arquivo') { renderArchive(); return; }
     if (page==='sobre')   { renderAbout();   return; }
     if (page==='padroes') { renderStandards(); return; }

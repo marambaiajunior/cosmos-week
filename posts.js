@@ -106,7 +106,13 @@ window.postsData = [
       "relevance": 66,
       "accessibility": 52,
       "novelty": 55
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=study-measuring-changes-in-protein-structure-establishes-new-class-of-alzheimer-s-biomarkers",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=study-measuring-changes-in-protein-structure-establishes-new-class-of-alzheimer-s-biomarkers",
+    "realUrl_en": "https://www.cosmosweek.com/?article=study-measuring-changes-in-protein-structure-establishes-new-class-of-alzheimer-s-biomarkers&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/study-measuring-changes-in-protein-structure-establishes-new-class-of-alzheimer-s-biomarkers/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/study-measuring-changes-in-protein-structure-establishes-new-class-of-alzheimer-s-biomarkers/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/study-measuring-changes-in-protein-structure-establishes-new-class-of-alzheimer-s-biomarkers/?lang=en"
   },
   {
     "id": 2,
@@ -213,7 +219,13 @@ window.postsData = [
       "relevance": 66,
       "accessibility": 52,
       "novelty": 55
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=automated-ct-scan-analysis-could-fast-track-clinical-assessments",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=automated-ct-scan-analysis-could-fast-track-clinical-assessments",
+    "realUrl_en": "https://www.cosmosweek.com/?article=automated-ct-scan-analysis-could-fast-track-clinical-assessments&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/automated-ct-scan-analysis-could-fast-track-clinical-assessments/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/automated-ct-scan-analysis-could-fast-track-clinical-assessments/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/automated-ct-scan-analysis-could-fast-track-clinical-assessments/?lang=en"
   },
   {
     "id": 3,
@@ -320,7 +332,13 @@ window.postsData = [
       "relevance": 48,
       "accessibility": 52,
       "novelty": 55
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=researchers-develop-ai-tool-to-predict-patients-at-risk-of-intimate-partner-violence",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=researchers-develop-ai-tool-to-predict-patients-at-risk-of-intimate-partner-violence",
+    "realUrl_en": "https://www.cosmosweek.com/?article=researchers-develop-ai-tool-to-predict-patients-at-risk-of-intimate-partner-violence&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/researchers-develop-ai-tool-to-predict-patients-at-risk-of-intimate-partner-violence/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/researchers-develop-ai-tool-to-predict-patients-at-risk-of-intimate-partner-violence/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/researchers-develop-ai-tool-to-predict-patients-at-risk-of-intimate-partner-violence/?lang=en"
   },
   {
     "id": 4,
@@ -427,7 +445,13 @@ window.postsData = [
       "relevance": 66,
       "accessibility": 52,
       "novelty": 55
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi",
+    "realUrl_en": "https://www.cosmosweek.com/?article=clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/?lang=en"
   },
   {
     "id": 5,
@@ -534,7 +558,13 @@ window.postsData = [
       "relevance": 48,
       "accessibility": 42,
       "novelty": 55
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=nih-invests-150-million-in-human-based-research-to-reduce-use-of-animal-models",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nih-invests-150-million-in-human-based-research-to-reduce-use-of-animal-models",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nih-invests-150-million-in-human-based-research-to-reduce-use-of-animal-models&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nih-invests-150-million-in-human-based-research-to-reduce-use-of-animal-models/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nih-invests-150-million-in-human-based-research-to-reduce-use-of-animal-models/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/nih-invests-150-million-in-human-based-research-to-reduce-use-of-animal-models/?lang=en"
   },
   {
     "id": 6,
@@ -646,7 +676,13 @@ window.postsData = [
       "relevance": 62,
       "accessibility": 60,
       "novelty": 55
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=sun-news-quiet-sun-as-coronal-hole-winds-keep-earth-active",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=sun-news-quiet-sun-as-coronal-hole-winds-keep-earth-active",
+    "realUrl_en": "https://www.cosmosweek.com/?article=sun-news-quiet-sun-as-coronal-hole-winds-keep-earth-active&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/sun-news-quiet-sun-as-coronal-hole-winds-keep-earth-active/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/sun-news-quiet-sun-as-coronal-hole-winds-keep-earth-active/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/sun-news-quiet-sun-as-coronal-hole-winds-keep-earth-active/?lang=en"
   },
   {
     "id": 7,
@@ -766,7 +802,13 @@ window.postsData = [
       "relevance": 80,
       "accessibility": 60,
       "novelty": 55
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=artemis-crew-urges-unity-on-lifeboat-earth",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=artemis-crew-urges-unity-on-lifeboat-earth",
+    "realUrl_en": "https://www.cosmosweek.com/?article=artemis-crew-urges-unity-on-lifeboat-earth&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/artemis-crew-urges-unity-on-lifeboat-earth/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/artemis-crew-urges-unity-on-lifeboat-earth/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/artemis-crew-urges-unity-on-lifeboat-earth/?lang=en"
   },
   {
     "id": 8,
@@ -877,7 +919,13 @@ window.postsData = [
       "relevance": 82,
       "accessibility": 60,
       "novelty": 55
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=are-neutrinos-their-own-evil-twins-part-1-so-we-re-going-to-redefine-particle",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=are-neutrinos-their-own-evil-twins-part-1-so-we-re-going-to-redefine-particle",
+    "realUrl_en": "https://www.cosmosweek.com/?article=are-neutrinos-their-own-evil-twins-part-1-so-we-re-going-to-redefine-particle&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/are-neutrinos-their-own-evil-twins-part-1-so-we-re-going-to-redefine-particle/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/are-neutrinos-their-own-evil-twins-part-1-so-we-re-going-to-redefine-particle/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/are-neutrinos-their-own-evil-twins-part-1-so-we-re-going-to-redefine-particle/?lang=en"
   },
   {
     "id": 9,
@@ -984,7 +1032,13 @@ window.postsData = [
       "relevance": 74,
       "accessibility": 52,
       "novelty": 55
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=inquiry-based-biomimicry-course-inspires-students-to-design-solutions-by-learning-from-nature",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=inquiry-based-biomimicry-course-inspires-students-to-design-solutions-by-learning-from-nature",
+    "realUrl_en": "https://www.cosmosweek.com/?article=inquiry-based-biomimicry-course-inspires-students-to-design-solutions-by-learning-from-nature&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/inquiry-based-biomimicry-course-inspires-students-to-design-solutions-by-learning-from-nature/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/inquiry-based-biomimicry-course-inspires-students-to-design-solutions-by-learning-from-nature/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/inquiry-based-biomimicry-course-inspires-students-to-design-solutions-by-learning-from-nature/?lang=en"
   },
   {
     "id": 10,
@@ -1091,7 +1145,13 @@ window.postsData = [
       "relevance": 80,
       "accessibility": 60,
       "novelty": 55
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=flux-pathway-reveals-why-mussel-like-liquid-phase-separation-can-happen-in-seconds",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=flux-pathway-reveals-why-mussel-like-liquid-phase-separation-can-happen-in-seconds",
+    "realUrl_en": "https://www.cosmosweek.com/?article=flux-pathway-reveals-why-mussel-like-liquid-phase-separation-can-happen-in-seconds&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/flux-pathway-reveals-why-mussel-like-liquid-phase-separation-can-happen-in-seconds/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/flux-pathway-reveals-why-mussel-like-liquid-phase-separation-can-happen-in-seconds/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/flux-pathway-reveals-why-mussel-like-liquid-phase-separation-can-happen-in-seconds/?lang=en"
   },
   {
     "id": 16,
@@ -1198,7 +1258,13 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 55
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=astronomers-find-evidence-for-three-subpopulations-of-merging-black-holes",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=astronomers-find-evidence-for-three-subpopulations-of-merging-black-holes",
+    "realUrl_en": "https://www.cosmosweek.com/?article=astronomers-find-evidence-for-three-subpopulations-of-merging-black-holes&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/astronomers-find-evidence-for-three-subpopulations-of-merging-black-holes/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/astronomers-find-evidence-for-three-subpopulations-of-merging-black-holes/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/astronomers-find-evidence-for-three-subpopulations-of-merging-black-holes/?lang=en"
   },
   {
     "id": 11,
@@ -1306,7 +1372,13 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 52
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-science-cargo-launch-aboard-northrop-grumman-crs-24",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-science-cargo-launch-aboard-northrop-grumman-crs-24",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-science-cargo-launch-aboard-northrop-grumman-crs-24&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-science-cargo-launch-aboard-northrop-grumman-crs-24/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-science-cargo-launch-aboard-northrop-grumman-crs-24/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/nasa-science-cargo-launch-aboard-northrop-grumman-crs-24/?lang=en"
   },
   {
     "id": 32,
@@ -1414,7 +1486,13 @@ window.postsData = [
       "relevance": 80,
       "accessibility": 60,
       "novelty": 52
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-welcomes-record-setting-artemis-ii-moonfarers-back-to-earth",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-welcomes-record-setting-artemis-ii-moonfarers-back-to-earth",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-welcomes-record-setting-artemis-ii-moonfarers-back-to-earth&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-welcomes-record-setting-artemis-ii-moonfarers-back-to-earth/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-welcomes-record-setting-artemis-ii-moonfarers-back-to-earth/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/nasa-welcomes-record-setting-artemis-ii-moonfarers-back-to-earth/?lang=en"
   },
   {
     "id": 38,
@@ -1552,7 +1630,13 @@ window.postsData = [
       "relevance": 80,
       "accessibility": 60,
       "novelty": 52
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=artemis-ii-splashdown",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=artemis-ii-splashdown",
+    "realUrl_en": "https://www.cosmosweek.com/?article=artemis-ii-splashdown&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/artemis-ii-splashdown/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/artemis-ii-splashdown/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/artemis-ii-splashdown/?lang=en"
   },
   {
     "id": 34,
@@ -1659,7 +1743,13 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 52
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=student-team-finds-one-of-the-oldest-stars-in-the-universe-that-migrated-to-the-milky-way",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=student-team-finds-one-of-the-oldest-stars-in-the-universe-that-migrated-to-the-milky-way",
+    "realUrl_en": "https://www.cosmosweek.com/?article=student-team-finds-one-of-the-oldest-stars-in-the-universe-that-migrated-to-the-milky-way&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/student-team-finds-one-of-the-oldest-stars-in-the-universe-that-migrated-to-the-milky-way/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/student-team-finds-one-of-the-oldest-stars-in-the-universe-that-migrated-to-the-milky-way/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/student-team-finds-one-of-the-oldest-stars-in-the-universe-that-migrated-to-the-milky-way/?lang=en"
   },
   {
     "id": 26,
@@ -1766,7 +1856,13 @@ window.postsData = [
       "relevance": 68,
       "accessibility": 52,
       "novelty": 52
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=scientists-discover-f-block-metals-yield-new-oxygen-binding-chemistry",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=scientists-discover-f-block-metals-yield-new-oxygen-binding-chemistry",
+    "realUrl_en": "https://www.cosmosweek.com/?article=scientists-discover-f-block-metals-yield-new-oxygen-binding-chemistry&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/scientists-discover-f-block-metals-yield-new-oxygen-binding-chemistry/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/scientists-discover-f-block-metals-yield-new-oxygen-binding-chemistry/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/scientists-discover-f-block-metals-yield-new-oxygen-binding-chemistry/?lang=en"
   },
   {
     "id": 14,
@@ -1886,7 +1982,13 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 52
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=major-new-telescope-on-chilean-summit-opens-window-on-universe",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=major-new-telescope-on-chilean-summit-opens-window-on-universe",
+    "realUrl_en": "https://www.cosmosweek.com/?article=major-new-telescope-on-chilean-summit-opens-window-on-universe&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/major-new-telescope-on-chilean-summit-opens-window-on-universe/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/major-new-telescope-on-chilean-summit-opens-window-on-universe/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/major-new-telescope-on-chilean-summit-opens-window-on-universe/?lang=en"
   },
   {
     "id": 39,
@@ -2012,7 +2114,13 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 52
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=rubin-observatory-announces-11-000-new-asteroids",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=rubin-observatory-announces-11-000-new-asteroids",
+    "realUrl_en": "https://www.cosmosweek.com/?article=rubin-observatory-announces-11-000-new-asteroids&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/rubin-observatory-announces-11-000-new-asteroids/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/rubin-observatory-announces-11-000-new-asteroids/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/rubin-observatory-announces-11-000-new-asteroids/?lang=en"
   },
   {
     "id": 15,
@@ -2129,7 +2237,13 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 52
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=peculiar-core-collapse-supernova-breaks-the-mold-with-a-long-dim-plateau",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=peculiar-core-collapse-supernova-breaks-the-mold-with-a-long-dim-plateau",
+    "realUrl_en": "https://www.cosmosweek.com/?article=peculiar-core-collapse-supernova-breaks-the-mold-with-a-long-dim-plateau&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/peculiar-core-collapse-supernova-breaks-the-mold-with-a-long-dim-plateau/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/peculiar-core-collapse-supernova-breaks-the-mold-with-a-long-dim-plateau/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/peculiar-core-collapse-supernova-breaks-the-mold-with-a-long-dim-plateau/?lang=en"
   },
   {
     "id": 17,
@@ -2237,7 +2351,13 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 52
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=supermassive-black-holes-could-merge-in-100-years",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=supermassive-black-holes-could-merge-in-100-years",
+    "realUrl_en": "https://www.cosmosweek.com/?article=supermassive-black-holes-could-merge-in-100-years&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/supermassive-black-holes-could-merge-in-100-years/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/supermassive-black-holes-could-merge-in-100-years/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/supermassive-black-holes-could-merge-in-100-years/?lang=en"
   },
   {
     "id": 40,
@@ -2375,7 +2495,13 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 49
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=this-week-s-sky-at-a-glance-april-10-19",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=this-week-s-sky-at-a-glance-april-10-19",
+    "realUrl_en": "https://www.cosmosweek.com/?article=this-week-s-sky-at-a-glance-april-10-19&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/this-week-s-sky-at-a-glance-april-10-19/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/this-week-s-sky-at-a-glance-april-10-19/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/this-week-s-sky-at-a-glance-april-10-19/?lang=en"
   },
   {
     "id": 31,
@@ -2492,7 +2618,13 @@ window.postsData = [
       "relevance": 80,
       "accessibility": 60,
       "novelty": 49
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=earthset-from-the-lunar-far-side",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=earthset-from-the-lunar-far-side",
+    "realUrl_en": "https://www.cosmosweek.com/?article=earthset-from-the-lunar-far-side&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/earthset-from-the-lunar-far-side/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/earthset-from-the-lunar-far-side/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/earthset-from-the-lunar-far-side/?lang=en"
   },
   {
     "id": 35,
@@ -2599,7 +2731,13 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 49
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=scientists-spot-a-solar-flare-with-surprising-spectral-behavior",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=scientists-spot-a-solar-flare-with-surprising-spectral-behavior",
+    "realUrl_en": "https://www.cosmosweek.com/?article=scientists-spot-a-solar-flare-with-surprising-spectral-behavior&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/scientists-spot-a-solar-flare-with-surprising-spectral-behavior/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/scientists-spot-a-solar-flare-with-surprising-spectral-behavior/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/scientists-spot-a-solar-flare-with-surprising-spectral-behavior/?lang=en"
   },
   {
     "id": 12,
@@ -2706,7 +2844,13 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 49
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=indoor-testing-facilities-available-at-the-nasa-unmanned-autonomy-research-complex-nuarc",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=indoor-testing-facilities-available-at-the-nasa-unmanned-autonomy-research-complex-nuarc",
+    "realUrl_en": "https://www.cosmosweek.com/?article=indoor-testing-facilities-available-at-the-nasa-unmanned-autonomy-research-complex-nuarc&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/indoor-testing-facilities-available-at-the-nasa-unmanned-autonomy-research-complex-nuarc/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/indoor-testing-facilities-available-at-the-nasa-unmanned-autonomy-research-complex-nuarc/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/indoor-testing-facilities-available-at-the-nasa-unmanned-autonomy-research-complex-nuarc/?lang=en"
   },
   {
     "id": 24,
@@ -2813,7 +2957,13 @@ window.postsData = [
       "relevance": 82,
       "accessibility": 60,
       "novelty": 49
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=a-baby-star-blows-a-giant-gaseous-ring",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=a-baby-star-blows-a-giant-gaseous-ring",
+    "realUrl_en": "https://www.cosmosweek.com/?article=a-baby-star-blows-a-giant-gaseous-ring&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/a-baby-star-blows-a-giant-gaseous-ring/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/a-baby-star-blows-a-giant-gaseous-ring/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/a-baby-star-blows-a-giant-gaseous-ring/?lang=en"
   },
   {
     "id": 20,
@@ -2920,7 +3070,13 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 49
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=new-solar-telescope-turns-sunspots-into-exoplanet-finding-weapons",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=new-solar-telescope-turns-sunspots-into-exoplanet-finding-weapons",
+    "realUrl_en": "https://www.cosmosweek.com/?article=new-solar-telescope-turns-sunspots-into-exoplanet-finding-weapons&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/new-solar-telescope-turns-sunspots-into-exoplanet-finding-weapons/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/new-solar-telescope-turns-sunspots-into-exoplanet-finding-weapons/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/new-solar-telescope-turns-sunspots-into-exoplanet-finding-weapons/?lang=en"
   },
   {
     "id": 19,
@@ -3058,7 +3214,13 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 49
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=first-light-for-poet-shining-sun-light-on-exoplanet-research",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=first-light-for-poet-shining-sun-light-on-exoplanet-research",
+    "realUrl_en": "https://www.cosmosweek.com/?article=first-light-for-poet-shining-sun-light-on-exoplanet-research&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/first-light-for-poet-shining-sun-light-on-exoplanet-research/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/first-light-for-poet-shining-sun-light-on-exoplanet-research/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/first-light-for-poet-shining-sun-light-on-exoplanet-research/?lang=en"
   },
   {
     "id": 21,
@@ -3168,7 +3330,13 @@ window.postsData = [
       "relevance": 94,
       "accessibility": 60,
       "novelty": 49
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=on-the-information-content-of-ariel-transmission-spectra-reassessing-the-tier-system",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=on-the-information-content-of-ariel-transmission-spectra-reassessing-the-tier-system",
+    "realUrl_en": "https://www.cosmosweek.com/?article=on-the-information-content-of-ariel-transmission-spectra-reassessing-the-tier-system&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/on-the-information-content-of-ariel-transmission-spectra-reassessing-the-tier-system/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/on-the-information-content-of-ariel-transmission-spectra-reassessing-the-tier-system/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/on-the-information-content-of-ariel-transmission-spectra-reassessing-the-tier-system/?lang=en"
   },
   {
     "id": 23,
@@ -3278,7 +3446,13 @@ window.postsData = [
       "relevance": 82,
       "accessibility": 60,
       "novelty": 49
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=a-new-class-of-star-merger-remnant",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=a-new-class-of-star-merger-remnant",
+    "realUrl_en": "https://www.cosmosweek.com/?article=a-new-class-of-star-merger-remnant&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/a-new-class-of-star-merger-remnant/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/a-new-class-of-star-merger-remnant/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/a-new-class-of-star-merger-remnant/?lang=en"
   },
   {
     "id": 36,
@@ -3385,7 +3559,13 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 46
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=walk-in-the-footsteps-of-artemis",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=walk-in-the-footsteps-of-artemis",
+    "realUrl_en": "https://www.cosmosweek.com/?article=walk-in-the-footsteps-of-artemis&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/walk-in-the-footsteps-of-artemis/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/walk-in-the-footsteps-of-artemis/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/walk-in-the-footsteps-of-artemis/?lang=en"
   },
   {
     "id": 25,
@@ -3498,7 +3678,13 @@ window.postsData = [
       "relevance": 82,
       "accessibility": 60,
       "novelty": 46
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=review-details-photocatalyst-biocatalyst-systems-for-semi-artificial-photosynthesis",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=review-details-photocatalyst-biocatalyst-systems-for-semi-artificial-photosynthesis",
+    "realUrl_en": "https://www.cosmosweek.com/?article=review-details-photocatalyst-biocatalyst-systems-for-semi-artificial-photosynthesis&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/review-details-photocatalyst-biocatalyst-systems-for-semi-artificial-photosynthesis/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/review-details-photocatalyst-biocatalyst-systems-for-semi-artificial-photosynthesis/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/review-details-photocatalyst-biocatalyst-systems-for-semi-artificial-photosynthesis/?lang=en"
   },
   {
     "id": 18,
@@ -3605,7 +3791,13 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 46
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=the-secrets-of-black-holes-and-the-higgs-mass-could-be-hidden-in-a-7-dimensional-geometry",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=the-secrets-of-black-holes-and-the-higgs-mass-could-be-hidden-in-a-7-dimensional-geometry",
+    "realUrl_en": "https://www.cosmosweek.com/?article=the-secrets-of-black-holes-and-the-higgs-mass-could-be-hidden-in-a-7-dimensional-geometry&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/the-secrets-of-black-holes-and-the-higgs-mass-could-be-hidden-in-a-7-dimensional-geometry/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/the-secrets-of-black-holes-and-the-higgs-mass-could-be-hidden-in-a-7-dimensional-geometry/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/the-secrets-of-black-holes-and-the-higgs-mass-could-be-hidden-in-a-7-dimensional-geometry/?lang=en"
   },
   {
     "id": 37,
@@ -3712,7 +3904,13 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 46
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=do-the-moon-s-poles-hold-less-water-than-we-thought",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=do-the-moon-s-poles-hold-less-water-than-we-thought",
+    "realUrl_en": "https://www.cosmosweek.com/?article=do-the-moon-s-poles-hold-less-water-than-we-thought&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/do-the-moon-s-poles-hold-less-water-than-we-thought/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/do-the-moon-s-poles-hold-less-water-than-we-thought/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/do-the-moon-s-poles-hold-less-water-than-we-thought/?lang=en"
   },
   {
     "id": 13,
@@ -3819,7 +4017,13 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 46
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=how-to-follow-the-smile-launch-live",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=how-to-follow-the-smile-launch-live",
+    "realUrl_en": "https://www.cosmosweek.com/?article=how-to-follow-the-smile-launch-live&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/how-to-follow-the-smile-launch-live/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/how-to-follow-the-smile-launch-live/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/how-to-follow-the-smile-launch-live/?lang=en"
   },
   {
     "id": 22,
@@ -3936,7 +4140,13 @@ window.postsData = [
       "relevance": 82,
       "accessibility": 60,
       "novelty": 46
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=cern-timepix-chips-fly-to-the-moon",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=cern-timepix-chips-fly-to-the-moon",
+    "realUrl_en": "https://www.cosmosweek.com/?article=cern-timepix-chips-fly-to-the-moon&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/cern-timepix-chips-fly-to-the-moon/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/cern-timepix-chips-fly-to-the-moon/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/cern-timepix-chips-fly-to-the-moon/?lang=en"
   },
   {
     "id": 33,
@@ -4043,7 +4253,13 @@ window.postsData = [
       "relevance": 80,
       "accessibility": 60,
       "novelty": 46
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=webb-hubble-capture-new-views-of-saturn",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=webb-hubble-capture-new-views-of-saturn",
+    "realUrl_en": "https://www.cosmosweek.com/?article=webb-hubble-capture-new-views-of-saturn&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/webb-hubble-capture-new-views-of-saturn/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/webb-hubble-capture-new-views-of-saturn/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/webb-hubble-capture-new-views-of-saturn/?lang=en"
   },
   {
     "id": 27,
@@ -4178,7 +4394,13 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 46
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star",
+    "realUrl_en": "https://www.cosmosweek.com/?article=a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star/?lang=en"
   },
   {
     "id": 28,
@@ -4313,7 +4535,13 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 46
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=xrism-solves-famous-star-s-50-year-mystery",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=xrism-solves-famous-star-s-50-year-mystery",
+    "realUrl_en": "https://www.cosmosweek.com/?article=xrism-solves-famous-star-s-50-year-mystery&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/xrism-solves-famous-star-s-50-year-mystery/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/xrism-solves-famous-star-s-50-year-mystery/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/xrism-solves-famous-star-s-50-year-mystery/?lang=en"
   },
   {
     "id": 29,
@@ -4423,7 +4651,13 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 46
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=t-20-days-smile-to-launch-on-9-april",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=t-20-days-smile-to-launch-on-9-april",
+    "realUrl_en": "https://www.cosmosweek.com/?article=t-20-days-smile-to-launch-on-9-april&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/t-20-days-smile-to-launch-on-9-april/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/t-20-days-smile-to-launch-on-9-april/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/t-20-days-smile-to-launch-on-9-april/?lang=en"
   },
   {
     "id": 30,
@@ -4561,6 +4795,12 @@ window.postsData = [
       "relevance": 88,
       "accessibility": 60,
       "novelty": 46
-    }
+    },
+    "realUrl": "https://www.cosmosweek.com/?article=science-release-hubble-unexpectedly-catches-comet-breaking-up",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=science-release-hubble-unexpectedly-catches-comet-breaking-up",
+    "realUrl_en": "https://www.cosmosweek.com/?article=science-release-hubble-unexpectedly-catches-comet-breaking-up&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/science-release-hubble-unexpectedly-catches-comet-breaking-up/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/science-release-hubble-unexpectedly-catches-comet-breaking-up/",
+    "shareUrl_en": "https://www.cosmosweek.com/noticia/science-release-hubble-unexpectedly-catches-comet-breaking-up/?lang=en"
   }
 ];

@@ -22,6 +22,7 @@ import html
 import json
 import os
 import re
+import shutil
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -39,6 +40,7 @@ POSTS_JS = ROOT / 'posts.js'
 FEED_XML = ROOT / 'feed.xml'
 SITEMAP_XML = ROOT / 'sitemap.xml'
 ROBOTS_TXT = ROOT / 'robots.txt'
+PREVIEW_DIR = ROOT / 'noticia'
 
 SITE_URL = os.getenv('COSMOS_SITE_URL', 'https://www.cosmosweek.com/').rstrip('/') + '/'
 SITE_NAME = 'Cosmos Week'
@@ -3218,6 +3220,8 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
     slug = slugify(title_en)
     canonical = f'{SITE_URL}?article={slug}'
     canonical_en = f'{SITE_URL}?article={slug}&lang=en'
+    share_url = urllib.parse.urljoin(SITE_URL, f'noticia/{slug}/')
+    share_url_en = share_url + '?lang=en'
     image = choose_post_image(item, category)
     inline_images = extract_inline_images(src_url, primary_image=image)
     video = extract_page_video(src_url)
@@ -3302,6 +3306,12 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
         'keywords_pt': keywords_pt,
         'keywords_en': keywords_en,
         'srcUrl': src_url,
+        'realUrl': canonical,
+        'realUrl_pt': canonical,
+        'realUrl_en': canonical_en,
+        'shareUrl': share_url,
+        'shareUrl_pt': share_url,
+        'shareUrl_en': share_url_en,
         'canonicalUrl': canonical,
         'canonicalUrl_pt': canonical,
         'canonicalUrl_en': canonical_en,
@@ -3326,6 +3336,56 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
             'novelty': profile['novelty_score'],
         },
     }
+
+
+def strip_tags_for_meta(html_text: str) -> str:
+    return collapse_ws(strip_html(html_text or ''))
+
+def html_escape_attr(value: str) -> str:
+    return html.escape(value or '', quote=True)
+
+def build_preview_pages(posts: list[dict]) -> None:
+    if PREVIEW_DIR.exists():
+        shutil.rmtree(PREVIEW_DIR)
+    PREVIEW_DIR.mkdir(parents=True, exist_ok=True)
+
+    for post in posts:
+        slug = post.get('slug', '').strip()
+        if not slug:
+            continue
+        article_dir = PREVIEW_DIR / slug
+        article_dir.mkdir(parents=True, exist_ok=True)
+        share_url = post.get('shareUrl') or urllib.parse.urljoin(SITE_URL, f'noticia/{slug}/')
+        real_url = post.get('realUrl') or post.get('canonicalUrl') or f'{SITE_URL}?article={slug}'
+        title_raw = collapse_ws(post.get('title_pt') or post.get('title') or SITE_NAME)
+        description_raw = truncate(strip_tags_for_meta(post.get('excerpt_pt') or post.get('excerpt') or post.get('sub_pt') or post.get('sub') or ''), 220)
+        image_raw = clean_image_url(post.get('img') or '') or urllib.parse.urljoin(SITE_URL, 'assets/og-default.jpg')
+        published_raw = post.get('publishedIso') or ''
+        modified_raw = post.get('lastModifiedIso') or post.get('publishedIso') or ''
+        json_ld = json.dumps({
+            '@context': 'https://schema.org',
+            '@type': 'NewsArticle',
+            'headline': title_raw,
+            'description': description_raw,
+            'image': [image_raw],
+            'datePublished': published_raw,
+            'dateModified': modified_raw,
+            'mainEntityOfPage': real_url,
+            'url': real_url,
+            'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'logo': {'@type': 'ImageObject', 'url': urllib.parse.urljoin(SITE_URL, 'assets/og-default.jpg')}},
+            'author': [{'@type': 'Organization', 'name': SITE_NAME}],
+            'articleSection': collapse_ws(post.get('cat') or 'Ciência'),
+            'keywords': unique_keep_order(post.get('keywords_pt') or post.get('keywords') or []),
+            'isAccessibleForFree': True,
+            'inLanguage': 'pt-BR'
+        }, ensure_ascii=False)
+        title = html_escape_attr(title_raw)
+        description = html_escape_attr(description_raw)
+        image = html_escape_attr(image_raw)
+        published = html_escape_attr(published_raw)
+        modified = html_escape_attr(modified_raw)
+        page = f"<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>{title} - {SITE_NAME}</title>\n  <meta name=\"description\" content=\"{description}\">\n  <meta name=\"robots\" content=\"noindex,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1\">\n  <link rel=\"canonical\" href=\"{html_escape_attr(real_url)}\">\n  <meta property=\"og:site_name\" content=\"{SITE_NAME}\">\n  <meta property=\"og:type\" content=\"article\">\n  <meta property=\"og:title\" content=\"{title} - {SITE_NAME}\">\n  <meta property=\"og:description\" content=\"{description}\">\n  <meta property=\"og:url\" content=\"{html_escape_attr(share_url)}\">\n  <meta property=\"og:image\" content=\"{image}\">\n  <meta property=\"og:image:alt\" content=\"{title}\">\n  <meta property=\"article:published_time\" content=\"{published}\">\n  <meta property=\"article:modified_time\" content=\"{modified}\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"{title} - {SITE_NAME}\">\n  <meta name=\"twitter:description\" content=\"{description}\">\n  <meta name=\"twitter:image\" content=\"{image}\">\n  <script type=\"application/ld+json\">{json_ld}</script>\n  <meta http-equiv=\"refresh\" content=\"0; url={html_escape_attr(real_url)}\">\n  <script>window.location.replace({json.dumps(real_url, ensure_ascii=False)});</script>\n</head>\n<body>\n  <p>Redirecionando para a matéria no Cosmos Week... <a href=\"{html_escape_attr(real_url)}\">Abrir matéria</a></p>\n</body>\n</html>\n"
+        (article_dir / 'index.html').write_text(page, encoding='utf-8')
 
 
 # ── Output generation ─────────────────────────────────────────────────────────
@@ -3411,6 +3471,7 @@ def save_posts(posts: list[dict]) -> None:
     build_feed(posts_sorted)
     build_sitemap(posts_sorted)
     build_robots()
+    build_preview_pages(posts_sorted)
 
 
 def load_all_items() -> list[dict]:
