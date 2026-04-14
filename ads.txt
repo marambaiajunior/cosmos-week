@@ -21,7 +21,7 @@
 # automaticamente. Só descomente quando tiver o ID real aprovado.
 #
 # ── LINHA A DESCOMENTAR ────────────────────────────────────────────────────────
-# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+google.com, pub-7289727408346815, DIRECT, f08c47fec0942fa0
 #
 # ── OUTRAS REDES ───────────────────────────────────────────────────────────────
 # Se no futuro usar outras redes (Media.net, Ezoic, Setupad etc.),
