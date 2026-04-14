@@ -1115,27 +1115,21 @@
       .toast.show { transform: translateY(0); }
     }
 
-    /* ── Cookie banner ────────────────────────────────────────────────── */
-    .cookie-banner {
-      position: fixed; left: 18px; right: 18px; bottom: 18px; z-index: 4900;
-      background: var(--hdr);
-      border: 1px solid rgba(255,255,255,.12);
-      border-radius: var(--radius-xl);
-      box-shadow: var(--shadow-lg);
-      padding: 20px 24px;
-      display: none; gap: 18px; align-items: flex-start;
-    }
-    .cookie-banner.show { display: flex; }
-    .cookie-copy { max-width: 760px; }
-    .cookie-title {
-      font: 700 10px var(--mono); text-transform: uppercase; letter-spacing: .14em;
-      color: var(--accent-2); margin-bottom: 8px;
-    }
-    .cookie-text { color: var(--hdr-muted); font-size: 13.5px; line-height: 1.65; }
-    .cookie-text a { color: var(--accent-2); text-decoration: underline; text-underline-offset: 3px; }
-    .cookie-actions { display: flex; gap: 8px; flex-wrap: wrap; flex-shrink: 0; margin-top: 4px; }
-    .cookie-actions .ghost-btn { border-color: rgba(255,255,255,.15); color: var(--hdr-muted); }
-    .cookie-actions .ghost-btn:hover { color: #fff; }
+/* ── Cookie banner desativado para usar a CMP do Google ───────────── */
+.cookie-banner,
+.cookie-banner.show {
+  display: none !important;
+}
+.cookie-copy { max-width: 760px; }
+.cookie-title {
+  font: 700 10px var(--mono); text-transform: uppercase; letter-spacing: .14em;
+  color: var(--accent-2); margin-bottom: 8px;
+}
+.cookie-text { color: var(--hdr-muted); font-size: 13.5px; line-height: 1.65; }
+.cookie-text a { color: var(--accent-2); text-decoration: underline; text-underline-offset: 3px; }
+.cookie-actions { display: flex; gap: 8px; flex-wrap: wrap; flex-shrink: 0; margin-top: 4px; }
+.cookie-actions .ghost-btn { border-color: rgba(255,255,255,.15); color: var(--hdr-muted); }
+.cookie-actions .ghost-btn:hover { color: #fff; }
 
     /* ── Footer ───────────────────────────────────────────────────────── */
     .site-footer {
