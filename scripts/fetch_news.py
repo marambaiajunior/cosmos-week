@@ -439,6 +439,213 @@ def strip_html(text: str) -> str:
     return collapse_ws(text)
 
 
+def unescape_html_loose(text: str, rounds: int = 3) -> str:
+    value = str(text or '')
+    for _ in range(max(1, rounds)):
+        decoded = html.unescape(value)
+        if decoded == value:
+            break
+        value = decoded
+    return value
+
+
+def sanitize_plain_text(text: str) -> str:
+    if text is None:
+        return ''
+    value = unescape_html_loose(str(text), rounds=3).replace('\xa0', ' ')
+    value = re.sub(r'&\s*nbsp\s*;?', ' ', value, flags=re.I)
+    value = re.sub(r'\bnbsp\b\.?', ' ', value, flags=re.I)
+    value = re.sub(r'&\s*amp\s*;?', '&', value, flags=re.I)
+    value = value.replace('&#160;', ' ')
+    value = re.sub(r'\s+([,;:.!?])', r'\1', value)
+    value = re.sub(r'([\(\[{])\s+', r'\1', value)
+    value = re.sub(r'\s+([\)\]}])', r'\1', value)
+    value = re.sub(r'([,;:!?])([^\s"\'”’\)\]}])', r'\1 \2', value)
+    value = re.sub(r'(?<!\d)\.([^\s\d])', r'. \1', value)
+    value = re.sub(r'\s{2,}', ' ', value)
+    return value.strip()
+
+
+def sanitize_text_list(items: list[str], limit: int | None = None) -> list[str]:
+    out: list[str] = []
+    seen = set()
+    for item in items or []:
+        cleaned = sanitize_plain_text(str(item or ''))
+        if not cleaned:
+            continue
+        key = normalize_text(cleaned)
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(cleaned)
+        if limit and len(out) >= limit:
+            break
+    return out
+
+
+def _strip_highlight_prefix(text: str) -> str:
+    return re.sub(
+        r'^(Ponto central|Dado-chave|Origem institucional|Central point|Key detail|Key datum|Institutional origin)\s*:\s*',
+        '',
+        sanitize_plain_text(text or ''),
+        flags=re.I,
+    )
+
+
+def summary_looks_broken(text: str) -> bool:
+    cleaned = sanitize_plain_text(text or '')
+    if not cleaned:
+        return True
+    if 'nbsp' in normalize_text(cleaned):
+        return True
+    weird_periods = len(re.findall(r'\b[a-zà-ÿ]{3,}\.\s+[a-zà-ÿ]{2,}', cleaned, flags=re.I))
+    fragment_periods = len(re.findall(r'\.\s+[a-zà-ÿ]{2,}', cleaned, flags=re.I))
+    return weird_periods >= 2 or fragment_periods >= 3
+
+
+def sanitize_body_html(body_html: str) -> str:
+    raw = str(body_html or '')
+    if not raw:
+        return ''
+
+    paragraphs: list[tuple[str, str]] = []
+    for match in re.finditer(r'<p\b([^>]*)>(.*?)</p>', raw, flags=re.I | re.S):
+        attrs = match.group(1) or ''
+        inner = match.group(2) or ''
+        if 'art-source' in attrs.lower():
+            paragraphs.append(('source', match.group(0).replace('\xa0', ' ')))
+            continue
+        cleaned = sanitize_plain_text(strip_html(inner))
+        if cleaned:
+            paragraphs.append(('text', cleaned))
+
+    text_paragraphs = [text for kind, text in paragraphs if kind == 'text']
+    if len(text_paragraphs) >= 2 and summary_looks_broken(text_paragraphs[0]) and not summary_looks_broken(text_paragraphs[1]):
+        dropped = False
+        rebuilt: list[tuple[str, str]] = []
+        for kind, value in paragraphs:
+            if kind == 'text' and not dropped:
+                dropped = True
+                continue
+            rebuilt.append((kind, value))
+        paragraphs = rebuilt
+
+    out: list[str] = []
+    for kind, value in paragraphs:
+        if kind == 'source':
+            out.append(value)
+        else:
+            out.append(f'<p>{html.escape(value)}</p>')
+    return ''.join(out).strip()
+
+
+def first_summary_from_body_html(body_html: str, lang: str = 'pt') -> str:
+    if not body_html:
+        return ''
+    for match in re.finditer(r'<p\b([^>]*)>(.*?)</p>', str(body_html), flags=re.I | re.S):
+        attrs = (match.group(1) or '').lower()
+        if 'art-source' in attrs:
+            continue
+        cleaned = sanitize_plain_text(strip_html(match.group(2) or ''))
+        if not cleaned or len(cleaned) < 40:
+            continue
+        if lang == 'pt':
+            summary = _take_complete_sentences_pt(cleaned, max_sentences=1, max_chars=220)
+        else:
+            summary = truncate(cleaned, 220)
+        summary = sanitize_plain_text(summary)
+        if summary_looks_broken(summary):
+            continue
+        if summary and len(summary) >= 40:
+            return summary
+    return ''
+
+
+def sanitize_post_record(post: dict) -> dict:
+    if not isinstance(post, dict):
+        return post
+
+    plain_fields = [
+        'title', 'title_pt', 'title_en',
+        'source', 'sourceDomain', 'sourceTypeLabel', 'sourceTypeLabel_pt', 'sourceTypeLabel_en',
+        'sourceNote', 'sourceNote_pt', 'sourceNote_en',
+        'evidenceLabel', 'evidenceLabel_pt', 'evidenceLabel_en',
+        'editorialBandLabel', 'editorialBandLabel_pt', 'editorialBandLabel_en',
+        'date', 'date_pt', 'date_en', 'time', 'time_pt', 'time_en',
+        'read', 'read_pt', 'read_en',
+    ]
+    for field in plain_fields:
+        if field in post and isinstance(post.get(field), str):
+            post[field] = sanitize_plain_text(post.get(field) or '')
+
+    post['body'] = sanitize_body_html(post.get('body') or '')
+    post['body_pt'] = sanitize_body_html(post.get('body_pt') or post.get('body') or '')
+    post['body_en'] = sanitize_body_html(post.get('body_en') or '')
+
+    summary_specs = [
+        ('sub', 'body', 'title', 180, 'pt'),
+        ('sub_pt', 'body_pt', 'title_pt', 180, 'pt'),
+        ('sub_en', 'body_en', 'title_en', 180, 'en'),
+        ('excerpt', 'body', 'title', 260, 'pt'),
+        ('excerpt_pt', 'body_pt', 'title_pt', 260, 'pt'),
+        ('excerpt_en', 'body_en', 'title_en', 260, 'en'),
+    ]
+    for field, body_field, title_field, limit, lang in summary_specs:
+        current = sanitize_plain_text(post.get(field) or '')
+        if summary_looks_broken(current):
+            fallback = first_summary_from_body_html(post.get(body_field) or '', lang=lang) or sanitize_plain_text(post.get(title_field) or '')
+            current = fallback or current
+        post[field] = truncate(sanitize_plain_text(current), limit)
+
+    facts_pt = sanitize_text_list([_strip_highlight_prefix(x) for x in (post.get('highlights_pt') or post.get('highlights') or [])], 6)
+    facts_en = sanitize_text_list([_strip_highlight_prefix(x) for x in (post.get('highlights_en') or [])], 6)
+    post['highlights'] = build_highlights(post.get('title_pt') or post.get('title') or '', post.get('sub_pt') or post.get('sub') or '', facts_pt, post.get('sourceType') or 'news', 'pt')
+    post['highlights_pt'] = post['highlights']
+    post['highlights_en'] = build_highlights(post.get('title_en') or post.get('title') or '', post.get('sub_en') or post.get('sub') or '', facts_en, post.get('sourceType') or 'news', 'en')
+
+    post['keywords'] = sanitize_text_list(post.get('keywords') or [], 10)
+    post['keywords_pt'] = sanitize_text_list(post.get('keywords_pt') or post.get('keywords') or [], 10)
+    post['keywords_en'] = sanitize_text_list(post.get('keywords_en') or post.get('keywords') or [], 10)
+
+    inline_images = []
+    seen_images = set()
+    for item in post.get('inline_images') or []:
+        if not isinstance(item, dict):
+            continue
+        src = clean_image_url(item.get('src') or '')
+        if not src or src in seen_images:
+            continue
+        seen_images.add(src)
+        inline_images.append({
+            'src': src,
+            'alt': sanitize_plain_text(item.get('alt') or ''),
+            'alt_pt': sanitize_plain_text(item.get('alt_pt') or item.get('alt') or ''),
+            'alt_en': sanitize_plain_text(item.get('alt_en') or item.get('alt') or ''),
+            'caption': sanitize_plain_text(item.get('caption') or ''),
+            'caption_pt': sanitize_plain_text(item.get('caption_pt') or item.get('caption') or ''),
+            'caption_en': sanitize_plain_text(item.get('caption_en') or item.get('caption') or ''),
+        })
+    post['inline_images'] = inline_images
+
+    for media_key in ('video', 'audio'):
+        media = post.get(media_key)
+        if isinstance(media, dict):
+            for field in ('title', 'title_pt', 'title_en', 'caption', 'caption_pt', 'caption_en'):
+                if field in media:
+                    media[field] = sanitize_plain_text(media.get(field) or '')
+            for field in ('embedUrl', 'fileUrl', 'poster', 'sourcePage'):
+                if field in media and isinstance(media.get(field), str):
+                    media[field] = collapse_ws(str(media.get(field) or ''))
+
+    return post
+
+
+def sanitize_posts(posts: list[dict]) -> list[dict]:
+    for post in posts:
+        sanitize_post_record(post)
+    return posts
+
+
 def truncate(text: str, limit: int) -> str:
     """
     Truncate a string to at most ``limit`` characters without breaking words or sentences.
@@ -3640,9 +3847,55 @@ def build_preview_pages(posts: list[dict]) -> None:
         read_raw = collapse_ws(post.get('read_pt') or post.get('read') or '')
         source_raw = collapse_ws(post.get('source') or '')
         source_url = collapse_ws(post.get('srcUrl') or '')
-        body_html = (post.get('body_pt') or post.get('body') or '').strip()
+        body_html = sanitize_body_html(post.get('body_pt') or post.get('body') or '').strip()
         if not body_html:
             body_html = f'<p>{html.escape(description_raw)}</p>'
+
+        video = post.get('video') if isinstance(post.get('video'), dict) else {}
+        video_html = ''
+        embed_url = collapse_ws(str(video.get('embedUrl') or ''))
+        file_url = collapse_ws(str(video.get('fileUrl') or ''))
+        video_caption = sanitize_plain_text(video.get('caption_pt') or video.get('caption') or video.get('title_pt') or video.get('title') or '')
+        if embed_url:
+            video_html = (
+                '<figure class="preview-video">'
+                '<div class="preview-video-frame">'
+                f'<iframe src="{html_escape_attr(embed_url)}" title="{html_escape_attr(title_raw)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>'
+                '</div>'
+                + (f'<figcaption>{html.escape(video_caption)}</figcaption>' if video_caption else '')
+                + '</figure>'
+            )
+        elif file_url:
+            poster = clean_image_url(video.get('poster') or '') or ''
+            video_html = (
+                '<figure class="preview-video">'
+                '<div class="preview-video-frame">'
+                f'<video controls preload="metadata" playsinline {'poster="'+html_escape_attr(poster)+'"' if poster else ''}>'
+                f'<source src="{html_escape_attr(file_url)}">'
+                '</video>'
+                '</div>'
+                + (f'<figcaption>{html.escape(video_caption)}</figcaption>' if video_caption else '')
+                + '</figure>'
+            )
+
+        inline_gallery = []
+        seen_inline = set()
+        for item in (post.get('inline_images') or [])[:8]:
+            if not isinstance(item, dict):
+                continue
+            src = clean_image_url(item.get('src') or '')
+            if not src or src in seen_inline or src == image_raw:
+                continue
+            seen_inline.add(src)
+            caption = sanitize_plain_text(item.get('caption_pt') or item.get('caption') or '')
+            alt = sanitize_plain_text(item.get('alt_pt') or item.get('alt') or title_raw)
+            inline_gallery.append(
+                '<figure class="preview-inline-figure">'
+                f'<img src="{html_escape_attr(src)}" alt="{html_escape_attr(alt)}" loading="lazy" referrerpolicy="no-referrer">'
+                + (f'<figcaption>{html.escape(caption)}</figcaption>' if caption else '')
+                + '</figure>'
+            )
+        inline_gallery_html = ('<section class="preview-gallery">' + ''.join(inline_gallery) + '</section>') if inline_gallery else ''
 
         highlights = []
         for item in (post.get('highlights_pt') or post.get('highlights') or [])[:4]:
@@ -3733,6 +3986,13 @@ def build_preview_pages(posts: list[dict]) -> None:
     .dek {{ font-size:1.08rem; color:#333; margin:0 0 18px; }}
     .meta {{ color:var(--muted); font:500 13px/1.5 Arial, sans-serif; letter-spacing:.04em; text-transform:uppercase; margin-bottom:22px; }}
     .body p {{ margin:0 0 1.2em; }}
+    .preview-video {{ margin:0 0 24px; }}
+    .preview-video-frame {{ position:relative; width:100%; aspect-ratio:16/9; border-radius:14px; overflow:hidden; background:#0b1220; }}
+    .preview-video-frame iframe, .preview-video-frame video {{ width:100%; height:100%; border:0; display:block; }}
+    .preview-video figcaption, .preview-inline-figure figcaption {{ color:var(--muted); font:400 14px/1.55 Arial, sans-serif; margin-top:8px; }}
+    .preview-gallery {{ display:grid; grid-template-columns:1fr; gap:18px; margin:22px 0 8px; }}
+    .preview-inline-figure {{ margin:0; }}
+    .preview-inline-figure img {{ width:100%; border-radius:14px; display:block; background:#ece8de; }}
     .highlights {{ margin:26px 0; padding:18px 20px; border-radius:14px; background:#eef4fc; border:1px solid #d9e6f8; }}
     .highlights h2 {{ margin:0 0 10px; font:700 1rem/1.3 Arial, sans-serif; }}
     .highlights ul {{ margin:0; padding-left:20px; }}
@@ -3760,8 +4020,10 @@ def build_preview_pages(posts: list[dict]) -> None:
         <h1>{html.escape(title_raw)}</h1>
         <p class="dek">{html.escape(description_raw)}</p>
         <p class="meta">{html.escape(meta_line)}</p>
+        {video_html}
         {highlights_html}
         <div class="body">{body_html}</div>
+        {inline_gallery_html}
         {source_html}
         <div class="footer-links">
           <a class="btn primary" href="{html_escape_attr(SITE_URL)}">Abrir homepage</a>
@@ -3852,6 +4114,8 @@ def build_robots() -> None:
 
 
 def save_posts(posts: list[dict]) -> None:
+    # Sanitiza campos textuais e mídia antes de serializar qualquer artefato.
+    sanitize_posts(posts)
     # Garantir saída sempre em ordem cronológica decrescente.
     # A lógica de ranking decide *quais* posts entram; a ordem de saída
     # deve ser mais-recente-primeiro para RSS, sitemap e leitores externos.

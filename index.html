@@ -1672,7 +1672,7 @@
       <div class="footer-bottom">
         <span id="footerBottomLeft">© 2026 Cosmos Week</span>
         <span id="footerBottomCenter">Notícias científicas com contexto e compromisso com a evidência.</span>
-        <span id="footerBottomRight">Base atual: GitHub Pages</span>
+        
       </div>
     </div>
   </footer>
@@ -1760,7 +1760,7 @@
       footerCorrections: 'Correções e metodologia',
       footerBottomLeft: '© 2026 Cosmos Week',
       footerBottomCenter: 'Notícias científicas com contexto e compromisso com a evidência.',
-      footerBottomRight: 'Base atual: GitHub Pages',
+      footerBottomRight: '',
       newsletterTitle: 'Newsletter', newsletterLabel: 'Seu e-mail',
       newsletterDescription: 'Receba Notícias semanais do Cosmos Week no seu e-mail.',
       newsletterPlaceholder: 'Seu e-mail', newsletterButton: 'Inscrever',
@@ -1823,7 +1823,7 @@
       footerCorrections: 'Corrections and methodology',
       footerBottomLeft: '© 2026 Cosmos Week',
       footerBottomCenter: 'Science reporting built around context, hierarchy of information and evidence.',
-      footerBottomRight: 'Current stack: GitHub Pages',
+      footerBottomRight: '',
       newsletterTitle: 'Newsletter', newsletterLabel: 'Your email',
       newsletterDescription: 'Get Cosmos Week editorial highlights in your inbox.',
       newsletterPlaceholder: 'Your email', newsletterButton: 'Subscribe',
@@ -1978,18 +1978,61 @@
 
   function tr(key) { return UI[currentLang][key] ?? UI.pt[key] ?? key; }
 
+  function decodeEntitiesLoose(value = '') {
+    let text = String(value ?? '');
+    for (let i = 0; i < 3; i += 1) {
+      const textarea = document.createElement('textarea');
+      textarea.innerHTML = text;
+      const decoded = textarea.value;
+      if (decoded === text) break;
+      text = decoded;
+    }
+    return text;
+  }
+
+  function sanitizeDisplayText(value = '') {
+    let text = decodeEntitiesLoose(String(value ?? ''));
+    text = text
+      .replace(/\u00a0/g, ' ')
+      .replace(/&\s*nbsp\s*;?/gi, ' ')
+      .replace(/\bnbsp\b\.?/gi, ' ')
+      .replace(/&\s*amp\s*;?/gi, '&');
+    text = text
+      .replace(/\s+([,;:.!?])/g, '$1')
+      .replace(/([\(\[{])\s+/g, '$1')
+      .replace(/\s+([\)\]}])/g, '$1')
+      .replace(/([,;:!?])([^\s"'”’\)\]}])/g, '$1 $2')
+      .replace(/(^|[^\d])\.([^\s\d])/g, '$1. $2')
+      .replace(/\s{2,}/g, ' ')
+      .trim();
+    return text;
+  }
+
+  function sanitizeDisplayList(items = []) {
+    if (!Array.isArray(items)) return [];
+    return items
+      .map(item => sanitizeDisplayText(item))
+      .filter(Boolean);
+  }
+
   function textFor(post, field) {
     if (!post) return '';
-    if (currentLang === 'en' && post[`${field}_en`]) return post[`${field}_en`];
-    if (currentLang === 'pt' && post[`${field}_pt`]) return post[`${field}_pt`];
-    return post[field] || '';
+    const value = (currentLang === 'en' && post[`${field}_en`])
+      ? post[`${field}_en`]
+      : (currentLang === 'pt' && post[`${field}_pt`])
+        ? post[`${field}_pt`]
+        : (post[field] || '');
+    return typeof value === 'string' ? sanitizeDisplayText(value) : value;
   }
 
   function listFor(post, field) {
     if (!post) return [];
-    if (currentLang === 'en' && post[`${field}_en`]) return post[`${field}_en`];
-    if (currentLang === 'pt' && post[`${field}_pt`]) return post[`${field}_pt`];
-    return post[field] || [];
+    const value = (currentLang === 'en' && post[`${field}_en`])
+      ? post[`${field}_en`]
+      : (currentLang === 'pt' && post[`${field}_pt`])
+        ? post[`${field}_pt`]
+        : (post[field] || []);
+    return Array.isArray(value) ? sanitizeDisplayList(value) : value;
   }
 
   function normalizarTexto(t = '') {
@@ -2526,8 +2569,8 @@
 
   function stripHtml(htmlText = '') {
     const div = document.createElement('div');
-    div.innerHTML = htmlText;
-    return (div.textContent || div.innerText || '').replace(/\s+/g, ' ').trim();
+    div.innerHTML = decodeEntitiesLoose(String(htmlText || ''));
+    return sanitizeDisplayText((div.textContent || div.innerText || '').replace(/\s+/g, ' ').trim());
   }
 
   function isArticleNoise(text = '') {
@@ -2585,11 +2628,11 @@
       .map(item => {
         const src = String(item.src || '').trim();
         const caption = currentLang === 'en'
-          ? String(item.caption_en || item.caption || '').trim()
-          : String(item.caption_pt || item.caption || '').trim();
+          ? sanitizeDisplayText(String(item.caption_en || item.caption || '').trim())
+          : sanitizeDisplayText(String(item.caption_pt || item.caption || '').trim());
         const alt = currentLang === 'en'
-          ? String(item.alt_en || item.alt || caption || textFor(post, 'title')).trim()
-          : String(item.alt_pt || item.alt || caption || textFor(post, 'title')).trim();
+          ? sanitizeDisplayText(String(item.alt_en || item.alt || caption || textFor(post, 'title')).trim())
+          : sanitizeDisplayText(String(item.alt_pt || item.alt || caption || textFor(post, 'title')).trim());
         return { src, caption, alt };
       })
       .filter(item => item.src)
@@ -2768,11 +2811,11 @@
     if (!inferred.embedUrl && !inferred.fileUrl) return null;
 
     const title = currentLang === 'en'
-      ? String(raw.title_en || raw.title || post?.title_en || post?.title || '').trim()
-      : String(raw.title_pt || raw.title || post?.title_pt || post?.title || '').trim();
+      ? sanitizeDisplayText(String(raw.title_en || raw.title || post?.title_en || post?.title || '').trim())
+      : sanitizeDisplayText(String(raw.title_pt || raw.title || post?.title_pt || post?.title || '').trim());
     const caption = currentLang === 'en'
-      ? String(raw.caption_en || raw.caption || '').trim()
-      : String(raw.caption_pt || raw.caption || '').trim();
+      ? sanitizeDisplayText(String(raw.caption_en || raw.caption || '').trim())
+      : sanitizeDisplayText(String(raw.caption_pt || raw.caption || '').trim());
 
     return {
       kind: inferred.kind,
@@ -2822,11 +2865,11 @@
     const raw = post && post.audio && typeof post.audio === 'object' ? post.audio : null;
     if (!raw) return null;
     const title = currentLang === 'en'
-      ? String(raw.title_en || raw.title || '').trim()
-      : String(raw.title_pt || raw.title || '').trim();
+      ? sanitizeDisplayText(String(raw.title_en || raw.title || '').trim())
+      : sanitizeDisplayText(String(raw.title_pt || raw.title || '').trim());
     const caption = currentLang === 'en'
-      ? String(raw.caption_en || raw.caption || '').trim()
-      : String(raw.caption_pt || raw.caption || '').trim();
+      ? sanitizeDisplayText(String(raw.caption_en || raw.caption || '').trim())
+      : sanitizeDisplayText(String(raw.caption_pt || raw.caption || '').trim());
     return {
       kind: String(raw.kind || '').trim(),
       platform: String(raw.platform || '').trim(),
@@ -3071,7 +3114,7 @@
               <div class="box-body">
                 <div style="font-size:13.5px;font-weight:600;color:var(--txt);">${post.source}</div>
                 <div class="source-domain">${sourceDomainFor(post)}</div>
-                <div class="source-note">${currentLang==='en'?(post.sourceNote_en||post.sourceNote):(post.sourceNote_pt||post.sourceNote)}</div>
+                <div class="source-note">${sanitizeDisplayText(currentLang==='en'?(post.sourceNote_en||post.sourceNote):(post.sourceNote_pt||post.sourceNote))}</div>
                 <div style="margin-top:14px;">
                   <a href="${escapeAttr(post.srcUrl)}" target="_blank" rel="noopener" style="color:var(--accent-2);font-size:13.5px;text-decoration:underline;text-decoration-color:rgba(127,179,255,.3);text-underline-offset:3px;">${tr('articleReadOriginal')}</a>
                 </div>
@@ -3205,7 +3248,7 @@
       footerSourcesTitle:'footerSourcesTitle', footerFeed:'footerFeed', footerPrivacy:'privacy', footerTerms:'terms',
       footerSitemap:'footerSitemap', footerCorrections:'footerCorrections',
       footerBottomLeft:'footerBottomLeft', footerBottomCenter:'footerBottomCenter',
-      footerBottomRight:'footerBottomRight', newsletterTitle:'newsletterTitle',
+      newsletterTitle:'newsletterTitle',
       newsletterDescription:'newsletterDescription', newsletterButton:'newsletterButton',
       newsletterNote:'newsletterNote', newsletterButton:'newsletterButton'
     };
