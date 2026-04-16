@@ -40,6 +40,7 @@ POSTS_JS = ROOT / 'posts.js'
 FEED_XML = ROOT / 'feed.xml'
 SITEMAP_XML = ROOT / 'sitemap.xml'
 ROBOTS_TXT = ROOT / 'robots.txt'
+ARCHIVE_POSTS_JSON = ROOT / 'all_posts.json'
 PREVIEW_DIR = ROOT / 'noticia'
 
 SITE_URL = os.getenv('COSMOS_SITE_URL', 'https://www.cosmosweek.com/').rstrip('/') + '/'
@@ -3344,24 +3345,109 @@ def strip_tags_for_meta(html_text: str) -> str:
 def html_escape_attr(value: str) -> str:
     return html.escape(value or '', quote=True)
 
+def sort_posts_desc(posts: list[dict]) -> list[dict]:
+    return sorted(posts, key=lambda p: p.get('publishedIso', ''), reverse=True)
+
+def load_archive_posts() -> list[dict]:
+    if not ARCHIVE_POSTS_JSON.exists():
+        return []
+    try:
+        data = json.loads(ARCHIVE_POSTS_JSON.read_text(encoding='utf-8'))
+    except Exception:
+        return []
+    if not isinstance(data, list):
+        return []
+
+    out = []
+    seen = set()
+    for item in data:
+        if not isinstance(item, dict):
+            continue
+        slug = collapse_ws(str(item.get('slug') or ''))
+        if not slug or slug in seen:
+            continue
+        seen.add(slug)
+        out.append(item)
+    return sort_posts_desc(out)
+
+def merge_archive_posts(current_posts: list[dict]) -> list[dict]:
+    merged: dict[str, dict] = {}
+
+    for post in load_archive_posts():
+        slug = collapse_ws(str(post.get('slug') or ''))
+        if slug:
+            merged[slug] = post
+
+    for post in current_posts:
+        slug = collapse_ws(str(post.get('slug') or ''))
+        if slug:
+            merged[slug] = post
+
+    archive_posts = sort_posts_desc(list(merged.values()))
+    for idx, post in enumerate(archive_posts, start=1):
+        post['id'] = idx
+    return archive_posts
+
+def save_archive_posts(posts: list[dict]) -> None:
+    ARCHIVE_POSTS_JSON.write_text(
+        json.dumps(sort_posts_desc(posts), ensure_ascii=False, indent=2),
+        encoding='utf-8'
+    )
+
 def build_preview_pages(posts: list[dict]) -> None:
     if PREVIEW_DIR.exists():
         shutil.rmtree(PREVIEW_DIR)
     PREVIEW_DIR.mkdir(parents=True, exist_ok=True)
 
-    for post in posts:
-        slug = post.get('slug', '').strip()
+    for post in sort_posts_desc(posts):
+        slug = collapse_ws(str(post.get('slug') or ''))
         if not slug:
             continue
+
         article_dir = PREVIEW_DIR / slug
         article_dir.mkdir(parents=True, exist_ok=True)
+
         share_url = post.get('shareUrl') or urllib.parse.urljoin(SITE_URL, f'noticia/{slug}/')
         real_url = post.get('realUrl') or post.get('canonicalUrl') or f'{SITE_URL}?article={slug}'
         title_raw = collapse_ws(post.get('title_pt') or post.get('title') or SITE_NAME)
-        description_raw = truncate(strip_tags_for_meta(post.get('excerpt_pt') or post.get('excerpt') or post.get('sub_pt') or post.get('sub') or ''), 220)
+        description_raw = truncate(
+            strip_tags_for_meta(post.get('excerpt_pt') or post.get('excerpt') or post.get('sub_pt') or post.get('sub') or ''),
+            220
+        )
         image_raw = clean_image_url(post.get('img') or '') or urllib.parse.urljoin(SITE_URL, 'assets/og-default.jpg')
         published_raw = post.get('publishedIso') or ''
         modified_raw = post.get('lastModifiedIso') or post.get('publishedIso') or ''
+        category_raw = collapse_ws(post.get('cat') or 'Ciência')
+        date_raw = collapse_ws(post.get('date_pt') or post.get('date') or '')
+        time_raw = collapse_ws(post.get('time_pt') or post.get('time') or '')
+        read_raw = collapse_ws(post.get('read_pt') or post.get('read') or '')
+        source_raw = collapse_ws(post.get('source') or '')
+        source_url = collapse_ws(post.get('srcUrl') or '')
+        body_html = (post.get('body_pt') or post.get('body') or '').strip()
+        if not body_html:
+            body_html = f'<p>{html.escape(description_raw)}</p>'
+
+        highlights = []
+        for item in (post.get('highlights_pt') or post.get('highlights') or [])[:4]:
+            clean = collapse_ws(str(item))
+            if clean:
+                highlights.append(clean)
+
+        highlights_html = ''
+        if highlights:
+            highlights_html = '<section class="highlights"><h2>Pontos-chave</h2><ul>' + ''.join(
+                f'<li>{html.escape(item)}</li>' for item in highlights
+            ) + '</ul></section>'
+
+        source_html = ''
+        if source_url:
+            source_html = f'<p class="source-link"><strong>Fonte original:</strong> <a href="{html_escape_attr(source_url)}" target="_blank" rel="noopener noreferrer">{html.escape(source_raw or source_url)}</a></p>'
+        elif source_raw:
+            source_html = f'<p class="source-link"><strong>Fonte original:</strong> {html.escape(source_raw)}</p>'
+
+        meta_parts = [part for part in (category_raw, date_raw, time_raw, read_raw) if part]
+        meta_line = ' • '.join(meta_parts)
+
         json_ld = json.dumps({
             '@context': 'https://schema.org',
             '@type': 'NewsArticle',
@@ -3370,21 +3456,106 @@ def build_preview_pages(posts: list[dict]) -> None:
             'image': [image_raw],
             'datePublished': published_raw,
             'dateModified': modified_raw,
-            'mainEntityOfPage': real_url,
-            'url': real_url,
-            'publisher': {'@type': 'Organization', 'name': SITE_NAME, 'url': SITE_URL, 'logo': {'@type': 'ImageObject', 'url': urllib.parse.urljoin(SITE_URL, 'assets/og-default.jpg')}},
+            'mainEntityOfPage': share_url,
+            'url': share_url,
+            'publisher': {
+                '@type': 'Organization',
+                'name': SITE_NAME,
+                'url': SITE_URL,
+                'logo': {
+                    '@type': 'ImageObject',
+                    'url': urllib.parse.urljoin(SITE_URL, 'assets/og-default.jpg')
+                }
+            },
             'author': [{'@type': 'Organization', 'name': SITE_NAME}],
-            'articleSection': collapse_ws(post.get('cat') or 'Ciência'),
+            'articleSection': category_raw,
             'keywords': unique_keep_order(post.get('keywords_pt') or post.get('keywords') or []),
             'isAccessibleForFree': True,
             'inLanguage': 'pt-BR'
         }, ensure_ascii=False)
-        title = html_escape_attr(title_raw)
-        description = html_escape_attr(description_raw)
-        image = html_escape_attr(image_raw)
-        published = html_escape_attr(published_raw)
-        modified = html_escape_attr(modified_raw)
-        page = f"<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>{title} - {SITE_NAME}</title>\n  <meta name=\"description\" content=\"{description}\">\n  <meta name=\"robots\" content=\"noindex,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1\">\n  <link rel=\"canonical\" href=\"{html_escape_attr(real_url)}\">\n  <meta property=\"og:site_name\" content=\"{SITE_NAME}\">\n  <meta property=\"og:type\" content=\"article\">\n  <meta property=\"og:title\" content=\"{title} - {SITE_NAME}\">\n  <meta property=\"og:description\" content=\"{description}\">\n  <meta property=\"og:url\" content=\"{html_escape_attr(share_url)}\">\n  <meta property=\"og:image\" content=\"{image}\">\n  <meta property=\"og:image:alt\" content=\"{title}\">\n  <meta property=\"article:published_time\" content=\"{published}\">\n  <meta property=\"article:modified_time\" content=\"{modified}\">\n  <meta name=\"twitter:card\" content=\"summary_large_image\">\n  <meta name=\"twitter:title\" content=\"{title} - {SITE_NAME}\">\n  <meta name=\"twitter:description\" content=\"{description}\">\n  <meta name=\"twitter:image\" content=\"{image}\">\n  <script type=\"application/ld+json\">{json_ld}</script>\n  <meta http-equiv=\"refresh\" content=\"0; url={html_escape_attr(real_url)}\">\n  <script>window.location.replace({json.dumps(real_url, ensure_ascii=False)});</script>\n</head>\n<body>\n  <p>Redirecionando para a matéria no Cosmos Week... <a href=\"{html_escape_attr(real_url)}\">Abrir matéria</a></p>\n</body>\n</html>\n"
+
+        page = f"""<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{html_escape_attr(title_raw)} - {SITE_NAME}</title>
+  <meta name="description" content="{html_escape_attr(description_raw)}">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <link rel="canonical" href="{html_escape_attr(share_url)}">
+  <meta property="og:site_name" content="{SITE_NAME}">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{html_escape_attr(title_raw)} - {SITE_NAME}">
+  <meta property="og:description" content="{html_escape_attr(description_raw)}">
+  <meta property="og:url" content="{html_escape_attr(share_url)}">
+  <meta property="og:image" content="{html_escape_attr(image_raw)}">
+  <meta property="og:image:alt" content="{html_escape_attr(title_raw)}">
+  <meta property="article:published_time" content="{html_escape_attr(published_raw)}">
+  <meta property="article:modified_time" content="{html_escape_attr(modified_raw)}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{html_escape_attr(title_raw)} - {SITE_NAME}">
+  <meta name="twitter:description" content="{html_escape_attr(description_raw)}">
+  <meta name="twitter:image" content="{html_escape_attr(image_raw)}">
+  <script type="application/ld+json">{json_ld}</script>
+  <style>
+    :root {{
+      --bg:#f7f5f0; --panel:#ffffff; --ink:#1a1917; --muted:#6b6760; --line:#dedad2;
+      --accent:#1451a0; --accent-dark:#0d3a75; --shadow:0 10px 30px rgba(0,0,0,.08);
+    }}
+    * {{ box-sizing:border-box; }}
+    body {{ margin:0; background:var(--bg); color:var(--ink); font:18px/1.75 Georgia, 'Times New Roman', serif; }}
+    a {{ color:var(--accent); text-decoration:none; }}
+    a:hover {{ text-decoration:underline; }}
+    .wrap {{ max-width:860px; margin:0 auto; padding:32px 20px 64px; }}
+    .top {{ display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:18px; font:600 12px/1.4 Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; }}
+    .brand {{ color:var(--accent-dark); }}
+    .card {{ background:var(--panel); border:1px solid var(--line); box-shadow:var(--shadow); border-radius:18px; overflow:hidden; }}
+    .hero {{ width:100%; aspect-ratio:16/9; object-fit:cover; background:#ece8de; }}
+    .content {{ padding:28px; }}
+    h1 {{ font-size:clamp(2rem,4vw,3rem); line-height:1.12; margin:0 0 14px; }}
+    .dek {{ font-size:1.08rem; color:#333; margin:0 0 18px; }}
+    .meta {{ color:var(--muted); font:500 13px/1.5 Arial, sans-serif; letter-spacing:.04em; text-transform:uppercase; margin-bottom:22px; }}
+    .body p {{ margin:0 0 1.2em; }}
+    .highlights {{ margin:26px 0; padding:18px 20px; border-radius:14px; background:#eef4fc; border:1px solid #d9e6f8; }}
+    .highlights h2 {{ margin:0 0 10px; font:700 1rem/1.3 Arial, sans-serif; }}
+    .highlights ul {{ margin:0; padding-left:20px; }}
+    .highlights li {{ margin:0 0 8px; }}
+    .footer-links {{ display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; font:600 14px/1.4 Arial, sans-serif; }}
+    .btn {{ display:inline-flex; align-items:center; justify-content:center; padding:12px 16px; border-radius:999px; border:1px solid var(--line); background:#fff; }}
+    .btn.primary {{ background:var(--accent); color:#fff; border-color:var(--accent); }}
+    .source-link {{ margin-top:22px; color:#333; font:400 15px/1.6 Arial, sans-serif; }}
+    @media (max-width: 640px) {{
+      body {{ font-size:17px; }}
+      .content {{ padding:22px 18px; }}
+      .wrap {{ padding:20px 14px 46px; }}
+    }}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div class="brand">Cosmos Week</div>
+      <a href="{html_escape_attr(SITE_URL)}">Voltar ao portal</a>
+    </div>
+    <article class="card">
+      <img class="hero" src="{html_escape_attr(image_raw)}" alt="{html_escape_attr(title_raw)}">
+      <div class="content">
+        <h1>{html.escape(title_raw)}</h1>
+        <p class="dek">{html.escape(description_raw)}</p>
+        <p class="meta">{html.escape(meta_line)}</p>
+        {highlights_html}
+        <div class="body">{body_html}</div>
+        {source_html}
+        <div class="footer-links">
+          <a class="btn primary" href="{html_escape_attr(SITE_URL)}">Abrir homepage</a>
+          <a class="btn" href="{html_escape_attr(real_url)}">Abrir versão dinâmica</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</body>
+</html>
+"""
         (article_dir / 'index.html').write_text(page, encoding='utf-8')
 
 
@@ -3429,7 +3600,7 @@ def build_feed(posts: list[dict]) -> None:
     FEED_XML.write_text(xml, encoding='utf-8')
 
 
-def build_sitemap(posts: list[dict]) -> None:
+def build_sitemap(posts: list[dict], archive_posts: Optional[list[dict]] = None) -> None:
     static_urls = [
         (SITE_URL, datetime.now(timezone.utc).date().isoformat()),
         (f'{SITE_URL}?page=arquivo', datetime.now(timezone.utc).date().isoformat()),
@@ -3437,7 +3608,13 @@ def build_sitemap(posts: list[dict]) -> None:
         (f'{SITE_URL}?page=padroes', datetime.now(timezone.utc).date().isoformat()),
     ]
     dynamic_urls = [(post['canonicalUrl'], post['publishedIso'][:10]) for post in posts]
-    all_urls = unique_keep_order(static_urls + dynamic_urls)
+    archive_urls = []
+    for post in archive_posts or []:
+        share_url = post.get('shareUrl') or urllib.parse.urljoin(SITE_URL, f"noticia/{post.get('slug', '').strip()}/")
+        published = str(post.get('publishedIso') or '')[:10] or datetime.now(timezone.utc).date().isoformat()
+        if share_url:
+            archive_urls.append((share_url, published))
+    all_urls = unique_keep_order(static_urls + dynamic_urls + archive_urls)
     body = '\n'.join(
         f'  <url><loc>{xml_escape(url)}</loc><lastmod>{lastmod}</lastmod></url>'
         for url, lastmod in all_urls
@@ -3461,17 +3638,21 @@ def save_posts(posts: list[dict]) -> None:
     # Garantir saída sempre em ordem cronológica decrescente.
     # A lógica de ranking decide *quais* posts entram; a ordem de saída
     # deve ser mais-recente-primeiro para RSS, sitemap e leitores externos.
-    posts_sorted = sorted(posts, key=lambda p: p.get('publishedIso', ''), reverse=True)
+    posts_sorted = sort_posts_desc(posts)
     POSTS_JSON.write_text(json.dumps(posts_sorted, ensure_ascii=False, indent=2), encoding='utf-8')
     POSTS_JS.write_text(
         '// Dados atualizados automaticamente para o Cosmos Week\n\nwindow.postsData = ' +
         json.dumps(posts_sorted, ensure_ascii=False, indent=2) + ';\n',
         encoding='utf-8'
     )
+
+    archive_posts = merge_archive_posts(posts_sorted)
+    save_archive_posts(archive_posts)
+
     build_feed(posts_sorted)
-    build_sitemap(posts_sorted)
+    build_sitemap(posts_sorted, archive_posts)
     build_robots()
-    build_preview_pages(posts_sorted)
+    build_preview_pages(archive_posts)
 
 
 def load_all_items() -> list[dict]:
