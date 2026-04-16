@@ -66,7 +66,7 @@ MAX_PAGE_FETCHES = 90              # 40 posts × 1 fetch único + 50 de margem p
 PAGE_TEXT_MAX_PARAGRAPHS = 24
 FULL_TEXT_LIMIT = 9000
 MAX_FACT_SENTENCES = 14
-MAX_INLINE_IMAGES = 3
+MAX_INLINE_IMAGES = 12
 GEMINI_TIMEOUT = 120
 # Reduce Gemini rate to minimise HTTP 429 errors. The free tier allows up to 20
 # requests per minute, but bursts of concurrent requests can trigger quota
@@ -590,7 +590,7 @@ def image_url_looks_good(url: str) -> bool:
     )
     if any(bad in low for bad in bad_tokens):
         return False
-    if not re.search(r'\.(jpg|jpeg|png|webp)(?:$|[?#])', low) and not any(t in low for t in ('image', 'photo', 'media', 'img')):
+    if not re.search(r'\.(jpg|jpeg|png|webp|avif)(?:$|[?#])', low) and not any(t in low for t in ('image', 'photo', 'media', 'img', 'asset')):
         return False
     return True
 
@@ -792,17 +792,79 @@ def _extract_numeric_attr(tag_html: str, attr: str) -> int:
     return int(match.group(0)) if match else 0
 
 
+def _extract_style_background_image(tag_html: str, base_url: str) -> str:
+    style = _extract_attr(tag_html, 'style')
+    if not style:
+        return ''
+    match = re.search(r'background-image\s*:\s*url\(([^)]+)\)', style, flags=re.I)
+    if not match:
+        return ''
+    candidate = match.group(1).strip().strip("'\"")
+    return urllib.parse.urljoin(base_url, candidate) if candidate else ''
+
+
+def _best_srcset_candidate(srcset: str, base_url: str) -> str:
+    srcset = collapse_ws(srcset or '')
+    if not srcset:
+        return ''
+    best_url = ''
+    best_score = -1.0
+    for part in srcset.split(','):
+        token = collapse_ws(part)
+        if not token:
+            continue
+        pieces = token.split()
+        candidate = pieces[0].strip()
+        descriptor = pieces[1].strip().lower() if len(pieces) > 1 else ''
+        score = 1.0
+        if descriptor.endswith('w'):
+            try:
+                score = float(descriptor[:-1])
+            except Exception:
+                score = 1.0
+        elif descriptor.endswith('x'):
+            try:
+                score = float(descriptor[:-1]) * 1000.0
+            except Exception:
+                score = 1.0
+        candidate_url = urllib.parse.urljoin(base_url, candidate)
+        if score > best_score and clean_image_url(candidate_url):
+            best_score = score
+            best_url = candidate_url
+    return best_url
+
+
+def _extract_media_dimensions(tag_html: str) -> tuple[int, int]:
+    width = _extract_numeric_attr(tag_html, 'width')
+    height = _extract_numeric_attr(tag_html, 'height')
+    if width and height:
+        return width, height
+    for attr in ('data-width', 'data-image-width', 'data-full-width', 'data-original-width'):
+        width = width or _extract_numeric_attr(tag_html, attr)
+    for attr in ('data-height', 'data-image-height', 'data-full-height', 'data-original-height'):
+        height = height or _extract_numeric_attr(tag_html, attr)
+    return width, height
+
+
 def _extract_media_src(tag_html: str, base_url: str) -> str:
-    for attr in ('src', 'data-src', 'data-lazy-src', 'data-original', 'data-url', 'data-image'):
+    srcset = _extract_attr(tag_html, 'srcset') or _extract_attr(tag_html, 'data-srcset') or _extract_attr(tag_html, 'data-lazy-srcset')
+    if srcset:
+        best = _best_srcset_candidate(srcset, base_url)
+        if best:
+            return best
+
+    for attr in (
+        'src', 'data-src', 'data-lazy-src', 'data-original', 'data-url', 'data-image',
+        'data-full', 'data-full-src', 'data-hires', 'data-large-file', 'data-orig-file',
+        'data-image-full', 'data-native-src', 'data-zoom-src', 'data-download', 'poster'
+    ):
         value = _extract_attr(tag_html, attr)
         if value:
             return urllib.parse.urljoin(base_url, value)
 
-    srcset = _extract_attr(tag_html, 'srcset') or _extract_attr(tag_html, 'data-srcset')
-    if srcset:
-        first = srcset.split(',')[0].strip().split()[0].strip()
-        if first:
-            return urllib.parse.urljoin(base_url, first)
+    bg = _extract_style_background_image(tag_html, base_url)
+    if bg:
+        return bg
 
     return ''
 
@@ -915,6 +977,59 @@ def _extract_article_regions_for_images(page: str) -> list[str]:
     return regions or [page]
 
 
+def _extract_meta_image_candidates(page: str, base_url: str) -> list[tuple[str, str]]:
+    candidates: list[tuple[str, str]] = []
+    patterns = (
+        (r"<meta[^>]+property=['\"]og:image(?:url)?['\"][^>]+content=['\"]([^'\"]+)['\"]", 'og:image'),
+        (r"<meta[^>]+name=['\"]twitter:image(?::src)?['\"][^>]+content=['\"]([^'\"]+)['\"]", 'twitter:image'),
+        (r"<meta[^>]+itemprop=['\"]image['\"][^>]+content=['\"]([^'\"]+)['\"]", 'itemprop:image'),
+        (r"<link[^>]+rel=['\"]image_src['\"][^>]+href=['\"]([^'\"]+)['\"]", 'image_src'),
+    )
+    for pattern, label in patterns:
+        for match in re.finditer(pattern, page, flags=re.I):
+            raw = match.group(1).strip()
+            if raw:
+                candidates.append((urllib.parse.urljoin(base_url, raw), label))
+    return candidates
+
+
+def _json_ld_image_candidates(payload, base_url: str) -> list[tuple[str, str]]:
+    out: list[tuple[str, str]] = []
+
+    def visit(node, hint: str = '') -> None:
+        if isinstance(node, dict):
+            raw_type = node.get('@type') or node.get('type') or ''
+            types = raw_type if isinstance(raw_type, list) else [raw_type]
+            type_hint = ', '.join(str(t) for t in types if t) or hint
+
+            for key in ('image', 'thumbnailUrl', 'thumbnailURL'):
+                value = node.get(key)
+                if isinstance(value, str):
+                    out.append((urllib.parse.urljoin(base_url, value.strip()), f'jsonld:{type_hint or key}'))
+                elif isinstance(value, list):
+                    for item in value:
+                        if isinstance(item, str):
+                            out.append((urllib.parse.urljoin(base_url, item.strip()), f'jsonld:{type_hint or key}'))
+                        else:
+                            visit(item, type_hint or key)
+                elif isinstance(value, dict):
+                    visit(value, type_hint or key)
+
+            if any(normalize_text(str(t)) == 'imageobject' for t in types if t):
+                content = node.get('contentUrl') or node.get('url') or ''
+                if isinstance(content, str) and content.strip():
+                    out.append((urllib.parse.urljoin(base_url, content.strip()), f'jsonld:{type_hint or "ImageObject"}'))
+
+            for child in node.values():
+                visit(child, type_hint)
+        elif isinstance(node, list):
+            for child in node:
+                visit(child, hint)
+
+    visit(payload)
+    return out
+
+
 def extract_inline_images(url: str, primary_image: str = '', limit: int = MAX_INLINE_IMAGES) -> list[dict]:
     cache_key = (url, primary_image or '')
     if cache_key in INLINE_IMAGE_CACHE:
@@ -964,59 +1079,101 @@ def extract_inline_images(url: str, primary_image: str = '', limit: int = MAX_IN
             'alt_en': alt_en or alt_pt,
         })
 
+    def scan_media_block(block_html: str, surrounding: str = '') -> None:
+        if len(out) >= limit or not block_html:
+            return
+        for tag_match in re.finditer(r'<(?:img|source|picture|div|a)\b[^>]*>', block_html, flags=re.I | re.S):
+            if len(out) >= limit:
+                break
+            tag_html = tag_match.group(0)
+            src_raw = _extract_media_src(tag_html, url)
+            href_raw = _extract_attr(tag_html, 'href') if re.match(r'<a\b', tag_html, flags=re.I) else ''
+            chosen = src_raw or href_raw
+            if not chosen:
+                continue
+            alt_raw = _extract_attr(tag_html, 'alt')
+            title_raw = _extract_attr(tag_html, 'title')
+            width, height = _extract_media_dimensions(tag_html)
+            add_image(chosen, alt_raw, title_raw, width, height, block_html, surrounding)
+
+        for link_match in re.finditer(r"<a\b[^>]*href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>", block_html, flags=re.I | re.S):
+            if len(out) >= limit:
+                break
+            href = link_match.group(1)
+            if not re.search(r'\.(?:jpg|jpeg|png|webp|avif)(?:[?#]|$)', href, flags=re.I):
+                continue
+            label_html = link_match.group(2)
+            img_inside = re.search(r'<img\b[^>]*>', label_html, flags=re.I | re.S)
+            img_tag = img_inside.group(0) if img_inside else ''
+            alt_raw = _extract_attr(img_tag, 'alt') if img_tag else ''
+            title_raw = _extract_attr(img_tag, 'title') if img_tag else ''
+            width, height = _extract_media_dimensions(img_tag) if img_tag else (0, 0)
+            label = collapse_ws(strip_html(label_html))
+            add_image(href, alt_raw or label, title_raw or label, width, height, label_html, surrounding)
+
+    for raw_meta_url, origin in _extract_meta_image_candidates(page, url):
+        if len(out) >= limit:
+            break
+        add_image(raw_meta_url, '', '', 0, 0, origin, origin)
+
+    for match in re.finditer(r"<script[^>]+type=[\"']application/ld\+json[\"'][^>]*>(.*?)</script>", page, flags=re.I | re.S):
+        if len(out) >= limit:
+            break
+        raw = html.unescape(match.group(1).strip())
+        if not raw:
+            continue
+        try:
+            payload = json.loads(raw)
+        except Exception:
+            continue
+        for candidate_url, origin in _json_ld_image_candidates(payload, url):
+            if len(out) >= limit:
+                break
+            add_image(candidate_url, '', '', 0, 0, origin, origin)
+
+    gallery_patterns = (
+        r'<figure\b[^>]*>.*?</figure>',
+        r'<picture\b[^>]*>.*?</picture>',
+        r"<div\b[^>]+class=[\"'][^\"']*(?:gallery|carousel|swiper|lightbox|fancybox|article-image|story-image|inline-image|media|slideshow)[^\"']*[\"'][^>]*>.*?</div>",
+        r"<a\b[^>]+(?:data-fancybox|data-lightbox|data-download|data-full|data-hires|class=[\"'][^\"']*(?:gallery|lightbox|fancybox|image)[^\"']*[\"'])[^>]*>.*?</a>",
+    )
+
     for region in regions:
         if len(out) >= limit:
             break
 
-        for figure_match in re.finditer(r'<figure\b[^>]*>.*?</figure>', region, flags=re.I | re.S):
-            if len(out) >= limit:
-                break
-            figure = figure_match.group(0)
-            surrounding = _extract_surrounding_context(region, figure_match.start(), figure_match.end())
-            img_match = re.search(r'<img\b[^>]*>', figure, flags=re.I | re.S)
-            if not img_match:
-                continue
-            tag_html = img_match.group(0)
-            src_raw = _extract_media_src(tag_html, url)
-            alt_raw = _extract_attr(tag_html, 'alt')
-            width = _extract_numeric_attr(tag_html, 'width')
-            height = _extract_numeric_attr(tag_html, 'height')
-            cap_match = re.search(r'<figcaption\b[^>]*>(.*?)</figcaption>', figure, flags=re.I | re.S)
-            caption_raw = cap_match.group(1) if cap_match else ''
-            add_image(src_raw, alt_raw, caption_raw, width, height, figure, surrounding)
-
-            for link_match in re.finditer(r'<a\b[^>]*href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', figure, flags=re.I | re.S):
+        for pattern in gallery_patterns:
+            for block_match in re.finditer(pattern, region, flags=re.I | re.S):
                 if len(out) >= limit:
                     break
-                href = link_match.group(1)
-                if not re.search(r'\.(?:jpg|jpeg|png|webp)(?:[?#]|$)', href, flags=re.I):
-                    continue
-                label = collapse_ws(strip_html(link_match.group(2)))
-                add_image(href, alt_raw, label or caption_raw, width, height, figure, surrounding)
+                block_html = block_match.group(0)
+                surrounding = _extract_surrounding_context(region, block_match.start(), block_match.end(), radius=560)
+                scan_media_block(block_html, surrounding)
 
         for img_match in re.finditer(r'<img\b[^>]*>', region, flags=re.I | re.S):
             if len(out) >= limit:
                 break
             tag_html = img_match.group(0)
-            surrounding = _extract_surrounding_context(region, img_match.start(), img_match.end())
+            surrounding = _extract_surrounding_context(region, img_match.start(), img_match.end(), radius=560)
             src_raw = _extract_media_src(tag_html, url)
             alt_raw = _extract_attr(tag_html, 'alt')
             title_raw = _extract_attr(tag_html, 'title')
-            width = _extract_numeric_attr(tag_html, 'width')
-            height = _extract_numeric_attr(tag_html, 'height')
+            width, height = _extract_media_dimensions(tag_html)
             add_image(src_raw, alt_raw, title_raw, width, height, tag_html, surrounding)
 
-        for link_match in re.finditer(r'<a\b[^>]*href=["\']([^"\']+\.(?:jpg|jpeg|png|webp)(?:\?[^"\']*)?)["\'][^>]*>(.*?)</a>', region, flags=re.I | re.S):
+        for link_match in re.finditer(r"<a\b[^>]*href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>", region, flags=re.I | re.S):
             if len(out) >= limit:
                 break
             href = link_match.group(1)
+            if not re.search(r'\.(?:jpg|jpeg|png|webp|avif)(?:[?#]|$)', href, flags=re.I):
+                continue
             label_html = link_match.group(2)
-            surrounding = _extract_surrounding_context(region, link_match.start(), link_match.end())
+            surrounding = _extract_surrounding_context(region, link_match.start(), link_match.end(), radius=560)
             img_inside = re.search(r'<img\b[^>]*>', label_html, flags=re.I | re.S)
-            alt_raw = _extract_attr(img_inside.group(0), 'alt') if img_inside else ''
-            title_raw = _extract_attr(img_inside.group(0), 'title') if img_inside else ''
-            width = _extract_numeric_attr(img_inside.group(0), 'width') if img_inside else 0
-            height = _extract_numeric_attr(img_inside.group(0), 'height') if img_inside else 0
+            img_tag = img_inside.group(0) if img_inside else ''
+            alt_raw = _extract_attr(img_tag, 'alt') if img_tag else ''
+            title_raw = _extract_attr(img_tag, 'title') if img_tag else ''
+            width, height = _extract_media_dimensions(img_tag) if img_tag else (0, 0)
             label = collapse_ws(strip_html(label_html))
             caption_raw = title_raw or label
             add_image(href, alt_raw or caption_raw, caption_raw, width, height, label_html, surrounding)
@@ -1025,6 +1182,33 @@ def extract_inline_images(url: str, primary_image: str = '', limit: int = MAX_IN
     return out
 
 
+
+
+
+def _extract_meta_video_candidates(page: str, base_url: str) -> list[dict]:
+    candidates: list[dict] = []
+    patterns = (
+        (r"<meta[^>]+property=[\"']og:video(?::url|:secure_url)?[\"'][^>]+content=[\"']([^\"']+)[\"']", 'og:video'),
+        (r"<meta[^>]+name=[\"']twitter:player[\"'][^>]+content=[\"']([^\"']+)[\"']", 'twitter:player'),
+        (r"<meta[^>]+name=[\"']twitter:player:stream[\"'][^>]+content=[\"']([^\"']+)[\"']", 'twitter:player:stream'),
+        (r"<meta[^>]+itemprop=[\"']embedUrl[\"'][^>]+content=[\"']([^\"']+)[\"']", 'itemprop:embedUrl'),
+        (r"<meta[^>]+itemprop=[\"']contentUrl[\"'][^>]+content=[\"']([^\"']+)[\"']", 'itemprop:contentUrl'),
+    )
+    for pattern, origin in patterns:
+        for match in re.finditer(pattern, page, flags=re.I):
+            value = collapse_ws(match.group(1).strip())
+            if not value:
+                continue
+            absolute = urllib.parse.urljoin(base_url, value)
+            candidates.append({
+                'embed_url': absolute,
+                'content_url': absolute,
+                'page_url': '',
+                'poster': '',
+                'title_en': '',
+                'caption_en': origin,
+            })
+    return candidates
 
 
 def _json_ld_video_candidates(payload, base_url: str) -> list[dict]:
@@ -1070,27 +1254,37 @@ def _normalize_video_candidate(base_url: str, raw_url: str) -> Optional[dict]:
         return None
     absolute = urllib.parse.urljoin(base_url, raw_url)
     absolute = absolute.replace('&amp;', '&')
+
+    try:
+        parsed = urllib.parse.urlparse(absolute)
+    except Exception:
+        parsed = urllib.parse.urlparse('')
+
+    host = (parsed.netloc or '').lower()
+    path = parsed.path or ''
     low = absolute.lower()
 
-    youtube_patterns = [
-        r'youtube\.com/watch\?v=([^&?#]+)',
-        r'youtube\.com/embed/([^&?#]+)',
-        r'youtube\.com/live/([^&?#]+)',
-        r'youtu\.be/([^&?#]+)',
-        r'youtube-nocookie\.com/embed/([^&?#]+)',
-    ]
-    for pattern in youtube_patterns:
-        match = re.search(pattern, low, flags=re.I)
-        if match:
-            video_id = match.group(1)
+    video_id = ''
+    if host.endswith('youtu.be'):
+        video_id = path.strip('/').split('/')[0]
+    elif host.endswith('youtube.com') or host.endswith('youtube-nocookie.com') or host.endswith('m.youtube.com'):
+        if path.startswith('/watch'):
+            video_id = urllib.parse.parse_qs(parsed.query).get('v', [''])[0]
+        elif path.startswith('/embed/') or path.startswith('/live/') or path.startswith('/shorts/'):
+            parts = [part for part in path.split('/') if part]
+            video_id = parts[1] if len(parts) >= 2 else ''
+
+    if video_id:
+        clean_id = re.sub(r'[^A-Za-z0-9_-]', '', video_id)
+        if clean_id:
             return {
                 'kind': 'embed',
                 'platform': 'youtube',
-                'embedUrl': f'https://www.youtube-nocookie.com/embed/{video_id}',
+                'embedUrl': f'https://www.youtube-nocookie.com/embed/{clean_id}?rel=0&modestbranding=1',
                 'fileUrl': '',
             }
 
-    match = re.search(r'(?:player\.)?vimeo\.com/(?:video/)?(\d+)', low, flags=re.I)
+    match = re.search(r'(?:player\.)?vimeo\.com/(?:video/)?(\d+)', absolute, flags=re.I)
     if match:
         video_id = match.group(1)
         return {
@@ -1108,7 +1302,7 @@ def _normalize_video_candidate(base_url: str, raw_url: str) -> Optional[dict]:
             'fileUrl': absolute,
         }
 
-    if any(token in low for token in ('/embed/', 'player.', 'streamable.com/', 'brightcove', 'jwplayer')):
+    if any(token in low for token in ('/embed/', 'player.', 'streamable.com/', 'brightcove', 'jwplayer', 'wistia', 'dailymotion.com/embed', 'loom.com/embed')):
         return {
             'kind': 'embed',
             'platform': 'embed',
@@ -1116,6 +1310,7 @@ def _normalize_video_candidate(base_url: str, raw_url: str) -> Optional[dict]:
             'fileUrl': '',
         }
     return None
+
 
 
 def extract_page_video(url: str) -> Optional[dict]:
@@ -1130,11 +1325,12 @@ def extract_page_video(url: str) -> Optional[dict]:
         return None
 
     regions = _extract_article_regions_for_images(page)
-    search_html = '\n'.join(regions) if regions else page
+    search_html = "\n".join(regions) if regions else page
 
     candidates: list[dict] = []
+    candidates.extend(_extract_meta_video_candidates(page, url))
 
-    for match in re.finditer(r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>', search_html, flags=re.I | re.S):
+    for match in re.finditer(r"<script[^>]+type=[\"']application/ld\+json[\"'][^>]*>(.*?)</script>", page, flags=re.I | re.S):
         raw = html.unescape(match.group(1).strip())
         if not raw:
             continue
@@ -1144,7 +1340,7 @@ def extract_page_video(url: str) -> Optional[dict]:
             continue
         candidates.extend(_json_ld_video_candidates(payload, url))
 
-    for match in re.finditer(r'<iframe\b[^>]*src=["\']([^"\']+)["\'][^>]*>', search_html, flags=re.I | re.S):
+    for match in re.finditer(r"<iframe\b[^>]*src=[\"']([^\"']+)[\"'][^>]*>", search_html, flags=re.I | re.S):
         normalized = _normalize_video_candidate(url, match.group(1))
         if normalized:
             candidates.append({
@@ -1162,7 +1358,7 @@ def extract_page_video(url: str) -> Optional[dict]:
         direct = _extract_attr(attrs, 'src') or _extract_attr(attrs, 'data-src') or ''
         poster = urllib.parse.urljoin(url, _extract_attr(attrs, 'poster')) if _extract_attr(attrs, 'poster') else ''
         if not direct:
-            source_match = re.search(r'<source\b[^>]*src=["\']([^"\']+)["\']', inner, flags=re.I | re.S)
+            source_match = re.search(r"<source\b[^>]*src=[\"']([^\"']+)[\"']", inner, flags=re.I | re.S)
             direct = source_match.group(1) if source_match else ''
         normalized = _normalize_video_candidate(url, direct)
         if normalized:
@@ -1174,6 +1370,25 @@ def extract_page_video(url: str) -> Optional[dict]:
                 'title_en': '',
                 'caption_en': '',
             })
+
+    link_patterns = (
+        r"<a\b[^>]*href=[\"']([^\"']*(?:youtu\.be/|youtube\.com/(?:watch|embed|shorts|live)|vimeo\.com/[^\"']+|\.(?:mp4|webm|ogg|m3u8)(?:\?[^\"']*)?))[\"'][^>]*>(.*?)</a>",
+        r"(https?://(?:www\.)?(?:youtu\.be/[^\s\"'<]+|youtube\.com/(?:watch\?v=|embed/|shorts/|live/)[^\s\"'<]+|vimeo\.com/[^\s\"'<]+))",
+    )
+    for pattern in link_patterns:
+        for match in re.finditer(pattern, search_html, flags=re.I | re.S):
+            href = match.group(1)
+            normalized = _normalize_video_candidate(url, href)
+            if normalized:
+                label = collapse_ws(strip_html(match.group(2))) if pattern.startswith(r'<a') else ''
+                candidates.append({
+                    'embed_url': normalized.get('embedUrl', ''),
+                    'content_url': normalized.get('fileUrl', ''),
+                    'page_url': '',
+                    'poster': '',
+                    'title_en': '',
+                    'caption_en': label,
+                })
 
     seen = set()
     for candidate in candidates:
@@ -1188,6 +1403,8 @@ def extract_page_video(url: str) -> Optional[dict]:
 
         title_en = collapse_ws(strip_html(candidate.get('title_en') or ''))
         caption_en = collapse_ws(strip_html(candidate.get('caption_en') or ''))
+        if caption_en.lower().startswith(('og:video', 'twitter:player', 'itemprop:')):
+            caption_en = ''
         title_pt = translate_text(title_en, 'pt') if title_en else ''
         caption_pt = translate_text(caption_en, 'pt') if caption_en else ''
 
@@ -1275,7 +1492,7 @@ def extract_page_audio(url: str) -> Optional[dict]:
         return None
 
     regions = _extract_article_regions_for_images(page)
-    search_html = '\n'.join(regions) if regions else page
+    search_html = "\n".join(regions) if regions else page
     candidates: list[dict] = []
 
     for match in re.finditer(r"<script[^>]+type=['\"]application/ld\+json['\"][^>]*>(.*?)</script>", page, flags=re.I | re.S):

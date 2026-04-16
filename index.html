@@ -2410,7 +2410,7 @@
     const picks = DB
       .filter(post => !post.isPreprint && !blocked.has(post.slug) && (currentCategory === 'all' || post.cat === currentCategory))
       .sort((a, b) => ((b.score || 0) - (a.score || 0)) || (postTimestamp(b) - postTimestamp(a)))
-      .slice(0, 3);
+      ;
 
     mount.innerHTML = picks.map(post => {
       const meta = formatMeta(post);
@@ -2598,8 +2598,7 @@
         if (seen.has(key)) return false;
         seen.add(key);
         return true;
-      })
-      .slice(0, 3);
+      });
   }
 
   function articleInlineFigureMarkup(image, post) {
@@ -2892,18 +2891,27 @@
     const blocks = [];
     // Only insert audio here; video is handled elsewhere.
     if (audioMarkup) blocks.push(audioMarkup);
+    let nextImageIndex = 0;
     finalParagraphs.forEach((text, idx) => {
       blocks.push(`<p>${text}</p>`);
-      if (!inlineImages.length) return;
+      if (!inlineImages.length || !inlineImages[nextImageIndex]) return;
 
-      const imageIndex = idx === 0 ? 0 : idx === 2 ? 1 : idx === 4 ? 2 : -1;
-      if (imageIndex >= 0 && inlineImages[imageIndex]) {
-        blocks.push(articleInlineFigureMarkup(inlineImages[imageIndex], post));
+      const isFirstParagraph = idx === 0;
+      const isEverySecondParagraph = (idx + 1) % 2 === 0;
+      const isLastParagraph = idx === finalParagraphs.length - 1;
+      if (isFirstParagraph || isEverySecondParagraph || isLastParagraph) {
+        blocks.push(articleInlineFigureMarkup(inlineImages[nextImageIndex], post));
+        nextImageIndex += 1;
       }
     });
 
     if (!finalParagraphs.length) {
       inlineImages.forEach(image => blocks.push(articleInlineFigureMarkup(image, post)));
+    } else {
+      while (inlineImages[nextImageIndex]) {
+        blocks.push(articleInlineFigureMarkup(inlineImages[nextImageIndex], post));
+        nextImageIndex += 1;
+      }
     }
 
     return blocks.join('');
