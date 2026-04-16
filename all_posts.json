@@ -1181,7 +1181,7 @@
     }
   },
   {
-    "id": 16,
+    "id": 11,
     "slug": "alma-confirms-rare-quasar-pair-at-redshift-5-7-in-merging-galaxies",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1297,7 +1297,7 @@
     }
   },
   {
-    "id": 32,
+    "id": 12,
     "slug": "eyeing-the-richat-structure",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1420,7 +1420,7 @@
     }
   },
   {
-    "id": 14,
+    "id": 13,
     "slug": "dark-matter-could-explain-the-earliest-supermassive-black-holes",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -1533,7 +1533,7 @@
     }
   },
   {
-    "id": 17,
+    "id": 14,
     "slug": "jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1646,7 +1646,7 @@
     }
   },
   {
-    "id": 12,
+    "id": 15,
     "slug": "nasa-selects-voyager-for-seventh-private-mission-to-space-station",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1759,7 +1759,7 @@
     }
   },
   {
-    "id": 37,
+    "id": 16,
     "slug": "see-the-moon-hide-regulus-the-stellar-heart-of-the-lion",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1903,7 +1903,7 @@
     }
   },
   {
-    "id": 25,
+    "id": 17,
     "slug": "2026-nsta-hyperwall-schedule",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2016,7 +2016,7 @@
     }
   },
   {
-    "id": 26,
+    "id": 18,
     "slug": "interstellar-glaciers-nasa-s-spherex-maps-vast-galactic-ice-regions",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2160,7 +2160,7 @@
     }
   },
   {
-    "id": 11,
+    "id": 19,
     "slug": "honoring-alex-goetz-a-landsat-legend",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2276,7 +2276,7 @@
     }
   },
   {
-    "id": 33,
+    "id": 20,
     "slug": "a-new-eye-opens-at-the-top-of-the-world",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2399,7 +2399,7 @@
     }
   },
   {
-    "id": 36,
+    "id": 21,
     "slug": "ash-creeps-across-mars",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2540,7 +2540,7 @@
     }
   },
   {
-    "id": 15,
+    "id": 22,
     "slug": "not-so-dark-with-alena-tensor-math-framework-could-explain-dark-matter-without-invisible-particl",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -2656,7 +2656,7 @@
     }
   },
   {
-    "id": 18,
+    "id": 23,
     "slug": "the-universe-s-most-powerful-telescope",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2788,7 +2788,7 @@
     }
   },
   {
-    "id": 22,
+    "id": 24,
     "slug": "fluorescent-technique-reveals-hidden-scale-of-microfiber-pollution-from-our-clothes",
     "cat": "Química",
     "catCls": "quimica",
@@ -2901,7 +2901,7 @@
     }
   },
   {
-    "id": 13,
+    "id": 25,
     "slug": "torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -3014,7 +3014,7 @@
     }
   },
   {
-    "id": 21,
+    "id": 26,
     "slug": "the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -3130,7 +3130,7 @@
     }
   },
   {
-    "id": 20,
+    "id": 27,
     "slug": "exoplanet-host-star-shares-elemental-traits-with-its-hot-jupiter",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -3243,7 +3243,7 @@
     }
   },
   {
-    "id": 23,
+    "id": 28,
     "slug": "new-molecular-handle-uses-common-amino-acid-to-build-complex-medicines",
     "cat": "Química",
     "catCls": "quimica",
@@ -3356,7 +3356,7 @@
     }
   },
   {
-    "id": 24,
+    "id": 29,
     "slug": "date-palm-waste-yields-bio-oil-unlocking-energy-use-for-150-million-trees",
     "cat": "Química",
     "catCls": "quimica",
@@ -3475,7 +3475,7 @@
     }
   },
   {
-    "id": 38,
+    "id": 30,
     "slug": "planets-collide-around-young-sun-like-star",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3598,7 +3598,7 @@
     }
   },
   {
-    "id": 34,
+    "id": 31,
     "slug": "84-nasa-missions-at-risk-under-new-proposal",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3730,7 +3730,7 @@
     }
   },
   {
-    "id": 30,
+    "id": 32,
     "slug": "first-proba-3-science-surprisingly-speedy-solar-wind",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3874,7 +3874,7 @@
     }
   },
   {
-    "id": 39,
+    "id": 33,
     "slug": "sky-telescope-reports-new-telescopes-and-more-at-neaf",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -4018,7 +4018,7 @@
     }
   },
   {
-    "id": 19,
+    "id": 34,
     "slug": "first-light-for-poet-shining-sun-light-on-exoplanet-research",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -4162,7 +4162,7 @@
     }
   },
   {
-    "id": 27,
+    "id": 35,
     "slug": "how-to-follow-the-smile-launch-live",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -4303,7 +4303,7 @@
     }
   },
   {
-    "id": 40,
+    "id": 36,
     "slug": "artemis-ii-blasts-off-sending-humans-back-to-the-moon",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -4438,7 +4438,7 @@
     }
   },
   {
-    "id": 35,
+    "id": 37,
     "slug": "cern-timepix-chips-fly-to-the-moon",
     "cat": "Física",
     "catCls": "fisica",
@@ -4561,7 +4561,7 @@
     }
   },
   {
-    "id": 31,
+    "id": 38,
     "slug": "webb-hubble-capture-new-views-of-saturn",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -4684,7 +4684,7 @@
     }
   },
   {
-    "id": 28,
+    "id": 39,
     "slug": "a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -4825,7 +4825,7 @@
     }
   },
   {
-    "id": 29,
+    "id": 40,
     "slug": "science-release-hubble-unexpectedly-catches-comet-breaking-up",
     "cat": "Astronomia",
     "catCls": "astronomia",
