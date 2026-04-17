@@ -6,7 +6,6 @@ on:
     # Em Utah isso corresponde aproximadamente a:
     # - 01:00 durante MST (horário padrão)
     # - 02:00 durante MDT (horário de verão)
-    # Assim, a execução acontece ainda mais cedo na madrugada local.
     - cron: '0 8 * * *'
   workflow_dispatch:
 
@@ -20,9 +19,6 @@ concurrency:
 jobs:
   update-news:
     runs-on: ubuntu-latest
-    # Tempo máximo total do job: 40 minutos.
-    # Sem Gemini a pipeline termina em ~3 min.
-    # Com Gemini e retries em dias de alta demanda, pode se aproximar desse limite.
     timeout-minutes: 40
 
     env:
@@ -43,31 +39,64 @@ jobs:
         with:
           python-version: '3.11'
 
-      # ── Diagnóstico da chave Gemini ──────────────────────────────────────
-      # Este passo não falha o workflow, apenas avisa no log se a chave
-      # estiver ausente para facilitar o diagnóstico.
+      - name: Mostrar versão do Python
+        run: python --version
+
       - name: Verificar chave Gemini
+        shell: bash
         run: |
-          if [ -z "$GEMINI_API_KEY" ]; then
+          set -euo pipefail
+          if [ -z "${GEMINI_API_KEY:-}" ]; then
             echo "::warning::GEMINI_API_KEY não configurada. A revisão do português será pulada."
-            echo "Para ativar: Settings → Secrets and variables → Actions → New repository secret"
-            echo "Nome: GEMINI_API_KEY  |  Valor: sua chave do Google AI Studio (aistudio.google.com)"
+            echo "Para ativar: Settings > Secrets and variables > Actions > New repository secret"
+            echo "Nome: GEMINI_API_KEY  |  Valor: sua chave do Google AI Studio"
           else
             echo "✓ GEMINI_API_KEY presente (${#GEMINI_API_KEY} caracteres)"
           fi
 
+      - name: Validar sintaxe do script
+        run: python -m py_compile scripts/fetch_news.py
+
       - name: Gerar portal e metadados estáticos
         run: python scripts/fetch_news.py
 
-      # ── Commit apenas dos arquivos gerados pelo script ───────────────────
-      # Não incluir index.html, scripts/fetch_news.py nem o próprio workflow,
-      # pois esses não são modificados pelo script e adicionar arquivos não
-      # alterados ao commit gera confusão no histórico do repositório.
-      - name: Commitar mudanças
+      - name: Validar arquivos gerados
+        shell: bash
         run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          required = [
+              Path('posts.json'),
+              Path('posts.js'),
+              Path('all_posts.json'),
+              Path('feed.xml'),
+              Path('sitemap.xml'),
+              Path('robots.txt'),
+              Path('noticia'),
+          ]
+
+          missing = [str(p) for p in required if not p.exists()]
+          if missing:
+              raise SystemExit(f'Arquivos ausentes: {missing}')
+
+          json.loads(Path('posts.json').read_text(encoding='utf-8'))
+          json.loads(Path('all_posts.json').read_text(encoding='utf-8'))
+          print('✓ Arquivos gerados com sucesso e JSON válido')
+          PY
+
+      - name: Mostrar alterações geradas
+        run: git status --short
+
+      - name: Commitar mudanças
+        shell: bash
+        run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add posts.json posts.js all_posts.json feed.xml sitemap.xml robots.txt noticia
+          git add -A posts.json posts.js all_posts.json feed.xml sitemap.xml robots.txt noticia/
           if git diff --cached --quiet; then
             echo "Nenhuma alteração nas notícias."
           else

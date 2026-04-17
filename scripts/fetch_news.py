@@ -3870,7 +3870,7 @@ def build_preview_pages(posts: list[dict]) -> None:
             video_html = (
                 '<figure class="preview-video">'
                 '<div class="preview-video-frame">'
-                f'<video controls preload="metadata" playsinline {'poster="'+html_escape_attr(poster)+'"' if poster else ''}>'
+                f'<video controls preload="metadata" playsinline{f' poster="{html_escape_attr(poster)}"' if poster else ''}>'
                 f'<source src="{html_escape_attr(file_url)}">'
                 '</video>'
                 '</div>'
