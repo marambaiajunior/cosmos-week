@@ -163,10 +163,15 @@ BAD_TITLE_PATTERNS = [
     r'^listen to this audio excerpt', r'^how europe will', r'^nextstep', r'^where spiral arms',
     r'^earth from ', r'^getting to the core of a medicane', r'^\d+ things', r'^quiz:',
     r'^letter from', r'^editorial:', r'^job:', r'^obituary:', r'^correction:',
+    r'^this week.?s sky at a glance', r'^sky at a glance', r'^how to follow\b',
+    r'^how to watch\b', r'^nasa invites media\b', r'^media advisory\b',
+    r'^\d{4} .* schedule\b', r'\bat a glance\b',
 ]
 BAD_URL_PARTS = [
     '/image-article/', '/images/', '/videos/', '/video/', '/week_in_images/',
     '/photojournal/', '/multimedia/', '/gallery/', '/podcast/', '/live/',
+    '/author/', '/authors/', '/people/', '/person/', '/profile/', '/profiles/',
+    '/staff/', '/team/', '/contributors/', '/contributor/',
 ]
 BAD_TEXT_HINTS = [
     'listen to this audio excerpt', 'discover our week through the lens', 'category i:',
@@ -177,7 +182,8 @@ PROMO_HINTS = [
     'award', 'awards', 'profile', 'audio excerpt', 'watch live', 'week in images', 'gallery',
     'contract opportunity', 'broad agency announcement', 'synopsis', 'procurement',
     'solicitation', 'podcast', 'career', 'jobs', 'livestream', 'event coverage',
-    'photo essay', 'webcast', 'subscribe', 'newsletter', 'sign up',
+    'photo essay', 'webcast', 'subscribe', 'newsletter', 'sign up', 'media advisory',
+    'invites media', 'media are invited', 'at a glance', 'schedule', 'agenda', 'program',
 ]
 SCIENTIFIC_RESULT_HINTS = [
     'detect', 'detected', 'discovery', 'discover', 'measurement', 'measured', 'results',
@@ -2034,6 +2040,8 @@ _GENERIC_TEMPLATE_MARKERS_PT = [
     'o caminho de uma descoberta',
     'o que da peso a historia',
     'isso nao as torna nao confiaveis',
+    'os editores destacaram os seguintes atributos',
+    'garantindo a credibilidade do conteudo',
 ]
 
 _GENERIC_FACT_MARKERS_PT = [
@@ -2041,6 +2049,8 @@ _GENERIC_FACT_MARKERS_PT = [
     'resultado ainda sem revisao por pares',
     'material com lastro cientifico publicado',
     'cobertura jornalistica',
+    'os editores destacaram os seguintes atributos',
+    'garantindo a credibilidade do conteudo',
 ]
 
 _BAD_ENDING_TOKENS_PT = {
@@ -2090,6 +2100,16 @@ def _extract_source_paragraph_html(body_html: str) -> str:
     return match.group(1) if match else ''
 
 
+def _source_link_paragraph_html(src_url: str, lang: str = 'pt') -> str:
+    if not src_url:
+        return ''
+    label = 'Fonte' if lang == 'pt' else 'Source'
+    return (
+        f'<p class="art-source"><a href="{html.escape(src_url)}" ' 
+        f'target="_blank" rel="noopener noreferrer">{label}</a></p>'
+    )
+
+
 def _paragraphs_from_html(body_html: str) -> list[str]:
     paragraphs = []
     for raw in re.findall(r'<p\b[^>]*>(.*?)</p>', body_html or '', flags=re.I | re.S):
@@ -2126,6 +2146,7 @@ def _normalize_fallback_fragment_pt(text: str) -> str:
     text = re.sub(r'https?://\S+', ' ', text, flags=re.I)
     text = re.sub(r'\b10\.\d{4,9}/\S+\b', ' ', text, flags=re.I)
     text = re.sub(r'\s*\((?:credit|image|photo).*?\)\s*', ' ', text, flags=re.I)
+    text = re.sub(r'os editores destacaram os seguintes atributos,?\s*garantindo a credibil(?:i|í)dade do conte[úu]do\.?', ' ', text, flags=re.I)
     text = re.sub(r'\s+', ' ', text).strip(' \t\n\r-–—,:;')
     return collapse_ws(text)
 
@@ -2192,66 +2213,112 @@ def _safe_sentence_pt(text: str) -> str:
     return _take_complete_sentences_pt(text, max_sentences=1, max_chars=280)
 
 
-def _build_natural_fallback_body(title_pt: str, summary_pt: str, facts_pt: list[str], body_pt: str) -> str:
-    source_html = _extract_source_paragraph_html(body_pt)
-    paragraphs: list[str] = []
+def _build_natural_fallback_body(
+    title_pt: str,
+    summary_pt: str,
+    facts_pt: list[str],
+    body_pt: str,
+    extra_sentences_pt: Optional[list[str]] = None,
+    src_url: str = '',
+) -> str:
+    source_html = _extract_source_paragraph_html(body_pt) or _source_link_paragraph_html(src_url, 'pt')
+    title_norm = normalize_text(_normalize_fallback_fragment_pt(title_pt))
     seen = set()
 
-    def add_paragraph(text: str) -> None:
-        cleaned = collapse_ws(text)
-        if not cleaned:
-            return
-        key = normalize_text(cleaned)
-        if key in seen:
-            return
-        seen.add(key)
-        paragraphs.append(cleaned)
+    def sentence_candidates(values: list[str]) -> list[str]:
+        out: list[str] = []
+        for value in values:
+            if not value:
+                continue
+            pieces = split_sentences(collapse_ws(strip_html(value))) or [value]
+            for piece in pieces:
+                cleaned = _safe_sentence_pt(piece)
+                if not cleaned:
+                    continue
+                low = normalize_text(cleaned)
+                if low == title_norm:
+                    continue
+                if any(marker in low for marker in _GENERIC_FACT_MARKERS_PT):
+                    continue
+                if _looks_generic_template_paragraph_pt(cleaned):
+                    continue
+                if _looks_promotional_or_credit_paragraph_pt(cleaned):
+                    continue
+                if low in seen:
+                    continue
+                seen.add(low)
+                out.append(cleaned)
+        return out
 
-    summary = _take_complete_sentences_pt(summary_pt or '', max_sentences=2, max_chars=420)
-    if summary:
-        add_paragraph(summary)
+    ordered_sentences: list[str] = []
+    summary_sentence = _take_complete_sentences_pt(summary_pt or '', max_sentences=2, max_chars=420)
+    if summary_sentence and not _looks_generic_template_paragraph_pt(summary_sentence):
+        ordered_sentences.extend(sentence_candidates([summary_sentence]))
 
-    factual_sentences: list[str] = []
-    for fact in facts_pt or []:
-        cleaned = _safe_sentence_pt(fact)
-        low = normalize_text(cleaned)
-        if not cleaned or any(marker in low for marker in _GENERIC_FACT_MARKERS_PT):
+    ordered_sentences.extend(sentence_candidates(facts_pt or []))
+    ordered_sentences.extend(sentence_candidates(extra_sentences_pt or []))
+
+    body_paragraphs = _paragraphs_from_html(body_pt)
+    for paragraph in body_paragraphs:
+        ordered_sentences.extend(sentence_candidates([paragraph]))
+
+    cleaned_sentences: list[str] = []
+    sentence_seen = set()
+    for sentence in ordered_sentences:
+        key = normalize_text(sentence)
+        if key in sentence_seen:
             continue
-        if len(cleaned) < 25:
-            continue
-        factual_sentences.append(cleaned)
-    factual_sentences = unique_keep_order(factual_sentences)
+        sentence_seen.add(key)
+        cleaned_sentences.append(sentence)
+        if len(cleaned_sentences) >= 12:
+            break
 
-    for i in range(0, min(len(factual_sentences), 6), 2):
-        chunk = factual_sentences[i:i + 2]
-        if chunk:
-            add_paragraph(' '.join(chunk))
+    if not cleaned_sentences:
+        backup = _safe_sentence_pt(summary_pt or title_pt or '')
+        if backup:
+            cleaned_sentences = [backup]
+
+    paragraphs: list[str] = []
+    current: list[str] = []
+    current_len = 0
+    for sentence in cleaned_sentences:
+        sentence_len = len(sentence)
+        if current and (len(current) >= 2 or current_len + 1 + sentence_len > 520):
+            paragraph = ' '.join(current)
+            if len(collapse_ws(paragraph)) >= 45:
+                paragraphs.append(paragraph)
+            current = [sentence]
+            current_len = sentence_len
+        else:
+            current.append(sentence)
+            current_len = current_len + (1 if current_len else 0) + sentence_len
+        if len(paragraphs) >= 5:
+            break
+    if current and len(paragraphs) < 6:
+        paragraph = ' '.join(current)
+        if len(collapse_ws(paragraph)) >= 45:
+            paragraphs.append(paragraph)
 
     if len(paragraphs) < 2:
-        body_paragraphs = []
-        for paragraph in _paragraphs_from_html(body_pt):
+        existing_keys = {normalize_text(p) for p in paragraphs}
+        for paragraph in body_paragraphs:
             cleaned = _take_complete_sentences_pt(paragraph, max_sentences=2, max_chars=420)
             if not cleaned:
                 continue
-            if _looks_generic_template_paragraph_pt(cleaned):
+            if _looks_generic_template_paragraph_pt(cleaned) or _looks_promotional_or_credit_paragraph_pt(cleaned):
                 continue
-            if _looks_promotional_or_credit_paragraph_pt(cleaned):
+            key = normalize_text(cleaned)
+            if key in existing_keys:
                 continue
-            if normalize_text(cleaned).startswith('fonte'):
-                continue
-            body_paragraphs.append(cleaned)
-        for paragraph in body_paragraphs[:2]:
-            add_paragraph(paragraph)
-
-    if len(paragraphs) < 2:
-        backup_title = _safe_sentence_pt(title_pt or '')
-        if backup_title:
-            add_paragraph(backup_title)
+            existing_keys.add(key)
+            paragraphs.append(cleaned)
+            if len(paragraphs) >= 4:
+                break
 
     html_parts = [
         f'<p>{html.escape(collapse_ws(paragraph))}</p>'
-        for paragraph in paragraphs[:4]
-        if len(collapse_ws(paragraph)) >= 35
+        for paragraph in paragraphs[:6]
+        if len(collapse_ws(paragraph)) >= 45
     ]
     if source_html:
         html_parts.append(source_html)
@@ -2538,6 +2605,46 @@ def evidence_key_for(item: dict) -> str:
     return 'institutional_update'
 
 
+def _looks_like_author_profile_item(item: dict) -> bool:
+    title = collapse_ws(strip_html(item.get('title') or ''))
+    summary = collapse_ws(strip_html(item.get('summary') or ''))
+    link = normalize_text(item.get('link') or '')
+    haystack = normalize_text(' '.join([title, summary, item.get('link', ''), item.get('source', '')]))
+    if not title:
+        return False
+    profile_url = bool(re.search(r'/(author|authors|people|person|profile|profiles|staff|team|contributor|contributors|biography|bio)/', link))
+    bio_markers = (
+        'author', 'editor', 'reporter', 'journalist', 'researcher', 'scientist', 'professor',
+        'biography', 'biografia', 'profile', 'perfil', 'staff', 'team', 'contributor',
+        'written by', 'edited by', 'reviewed by', 'correspondent'
+    )
+    if _looks_like_person_name(title):
+        if profile_url:
+            return True
+        if len(title.split()) <= 5 and (not summary or len(summary) < 180 or any(marker in haystack for marker in bio_markers)):
+            if not any(hint in haystack for hint in SCIENTIFIC_RESULT_HINTS):
+                return True
+    if profile_url and not any(hint in haystack for hint in SCIENTIFIC_RESULT_HINTS):
+        return True
+    return False
+
+
+def _looks_like_service_or_schedule_item(item: dict) -> bool:
+    title = collapse_ws(strip_html(item.get('title') or ''))
+    low_title = normalize_text(title)
+    haystack = normalize_text(' '.join([title, item.get('summary', ''), item.get('link', ''), item.get('source', '')]))
+    if not title:
+        return False
+    if re.search(r'^(this week.?s sky at a glance|sky at a glance|how to follow\b|how to watch\b|watch live\b|nasa invites media\b|media advisory\b)', low_title):
+        return True
+    if re.search(r'^\d{4} .* schedule\b', low_title):
+        return True
+    if re.search(r'\b(schedule|agenda|program|programme|calendar|at a glance|media advisory|press advisory|invites media|media are invited)\b', haystack):
+        if not any(hint in haystack for hint in SCIENTIFIC_RESULT_HINTS):
+            return True
+    return False
+
+
 def compute_editorial_profile(item: dict) -> dict:
     low = normalize_text(' '.join([item['title'], item['summary'], item['link'], item['source']]))
     category = classify_category(item['title'] + ' ' + item['summary'], item['source'])
@@ -2561,6 +2668,14 @@ def compute_editorial_profile(item: dict) -> dict:
         risk_score += 22
     if re.search(r'\b(profile|interview|award|awards|podcast|career|livestream)\b', low):
         risk_score += 24
+    if _looks_like_author_profile_item(item):
+        risk_score += 90
+        relevance_score -= 28
+        accessibility_score -= 8
+    if _looks_like_service_or_schedule_item(item):
+        risk_score += 80
+        relevance_score -= 22
+        accessibility_score -= 6
     if any(hint in low for hint in TECHNICAL_JARGON_HINTS):
         accessibility_score -= 16
         relevance_score -= 10
@@ -2615,11 +2730,17 @@ def score_item(item: dict) -> int:
 def is_noise(item: dict) -> bool:
     low = normalize_text(' '.join([item['title'], item['summary'], item['link']]))
     profile = compute_editorial_profile(item)
+    if _looks_like_author_profile_item(item):
+        return True
+    if _looks_like_service_or_schedule_item(item):
+        return True
     if profile['overall'] < 58:
         return True
     if len(item['summary']) < 40:
         return True
     if low.startswith('image:'):
+        return True
+    if _looks_like_person_name(collapse_ws(strip_html(item.get('title') or ''))) and not any(hint in low for hint in SCIENTIFIC_RESULT_HINTS):
         return True
     # Rejeitar posts mais velhos que o limite de idade máxima.
     # Isso evita que matérias de meses atrás ocupem vagas no feed apenas
@@ -3699,8 +3820,13 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
     title_pt_raw = translate_text(title_en, 'pt')
     summary_pt_raw = translate_text(summary_en, 'pt')
     facts_pt_raw = [translate_text(fact, 'pt') for fact in facts_en[:6]]
+    extra_story_pt = [translate_text(fact, 'pt') for fact in facts_en[6:12]]
     body_pt_seed = build_body(title_pt_raw, summary_pt_raw, facts_pt_raw, category, item['source'], item['source_type'], 'pt', src_url)
-    body_pt_raw = _build_natural_fallback_body(title_pt_raw, summary_pt_raw, facts_pt_raw, body_pt_seed) or body_pt_seed
+    body_pt_raw = (
+        _build_natural_fallback_body(title_pt_raw, summary_pt_raw, facts_pt_raw, '', extra_story_pt, src_url)
+        or _build_natural_fallback_body(title_pt_raw, summary_pt_raw, facts_pt_raw, body_pt_seed, extra_story_pt, src_url)
+        or body_pt_seed
+    )
 
     # A revisão Gemini é feita em lote em main() após todos os posts serem montados.
     # Aqui guardamos o conteúdo bruto e marcamos como 'pending'.
