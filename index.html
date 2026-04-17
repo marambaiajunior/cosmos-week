@@ -2650,7 +2650,7 @@
     const alt = stripHtml(image.alt || caption || textFor(post, 'title'));
     return `
       <figure class="article-inline-figure">
-        <img src="${escapeAttr(image.src)}" alt="${escapeAttr(alt)}" loading="lazy" referrerpolicy="no-referrer">
+        <img src="${escapeAttr(image.src)}" alt="${escapeAttr(alt)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure').style.display='none'">
         ${caption ? `<figcaption class="article-inline-caption">${caption}</figcaption>` : ''}
       </figure>`;
   }
@@ -2798,7 +2798,7 @@
      .find(url => /^https?:\/\//i.test(url) && /\.(mp4|webm|ogg)(?:$|[?#])/i.test(url)) || '';
 
     return {
-      kind: embedUrl ? 'embed' : (fileUrl ? 'file' : ''),
+      kind: fileUrl ? 'file' : (embedUrl ? 'embed' : ''),
       platform: platformHint || (embedUrl.includes('youtube') ? 'youtube' : (embedUrl.includes('vimeo') ? 'vimeo' : '')),
       embedUrl,
       fileUrl
@@ -2822,7 +2822,7 @@
       platform: inferred.platform,
       embedUrl: inferred.embedUrl,
       fileUrl: inferred.fileUrl,
-      poster: String(raw.poster || '').trim(),
+      poster: String(raw.poster || primaryImage(post) || '').trim(),
       title,
       caption
     };
@@ -2851,7 +2851,7 @@
       return `
         <figure class="article-video">
           <div class="article-video-frame">
-            <video controls preload="metadata" playsinline ${video.poster ? `poster="${escapeAttr(video.poster)}"` : ''}>
+            <video controls preload="metadata" playsinline ${video.poster ? `poster="${escapeAttr(video.poster)}"` : ''} onerror="this.closest('figure').style.display='none'">
               <source src="${escapeAttr(video.fileUrl)}">
             </video>
           </div>

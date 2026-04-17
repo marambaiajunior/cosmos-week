@@ -68,34 +68,47 @@ FULL_TEXT_LIMIT = 9000
 MAX_FACT_SENTENCES = 14
 MAX_INLINE_IMAGES = 12
 GEMINI_TIMEOUT = 120
-# Reduce Gemini rate to minimise HTTP 429 errors. The free tier allows up to 20
-# requests per minute, but bursts of concurrent requests can trigger quota
-# throttling. By lowering the per‑minute limit we spread calls over a longer
-# window, improving reliability at the cost of longer build times.
-GEMINI_RPM_LIMIT = 4
-GEMINI_RETRY_ON_429 = 2          # máximo 2 retries por chamada
-GEMINI_RETRY_DELAY_429 = 65      # espera fixa de 65s: garante reset da janela de 1 minuto do RPM
-GEMINI_RETRY_TRANSIENT = 3        # retries para 503, 502, 504 e timeouts
-GEMINI_RETRY_BASE_DELAY = 20      # backoff base para indisponibilidade transitória
-GEMINI_PAYLOAD_BODY_LIMIT = 2600  # reduz o tamanho do prompt para aliviar o modelo
+# Reduce Gemini rate to minimise HTTP 429/503 errors. The free tier allows up to
+# 20 requests per minute, but congestion can still make the service unavailable.
+try:
+    GEMINI_RPM_LIMIT = max(1, int((os.getenv('GEMINI_RPM_LIMIT', '3') or '3').strip()))
+except ValueError:
+    GEMINI_RPM_LIMIT = 3
+try:
+    GEMINI_RETRY_ON_429 = max(0, int((os.getenv('GEMINI_RETRY_ON_429', '1') or '1').strip()))
+except ValueError:
+    GEMINI_RETRY_ON_429 = 1
+try:
+    GEMINI_RETRY_DELAY_429 = max(15, int((os.getenv('GEMINI_RETRY_DELAY_429', '75') or '75').strip()))
+except ValueError:
+    GEMINI_RETRY_DELAY_429 = 75
+try:
+    GEMINI_RETRY_TRANSIENT = max(0, int((os.getenv('GEMINI_RETRY_TRANSIENT', '1') or '1').strip()))
+except ValueError:
+    GEMINI_RETRY_TRANSIENT = 1
+try:
+    GEMINI_RETRY_BASE_DELAY = max(5, int((os.getenv('GEMINI_RETRY_BASE_DELAY', '25') or '25').strip()))
+except ValueError:
+    GEMINI_RETRY_BASE_DELAY = 25
+GEMINI_PAYLOAD_BODY_LIMIT = 2200
 GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.0-flash').strip() or 'gemini-2.0-flash'
+GEMINI_MODEL_FALLBACKS = [m.strip() for m in (os.getenv('GEMINI_MODEL_FALLBACKS', 'gemini-2.0-flash,gemini-2.0-flash-lite,gemini-1.5-flash') or '').split(',') if m.strip()]
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '').strip()
 GEMINI_ENDPOINT_TEMPLATE = 'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
-
-# Revisão em lote configurável por variável de ambiente.
-# O padrão continua conservador (2 posts por chamada) para reduzir timeout e 503.
 try:
-    GEMINI_BATCH_SIZE = max(1, int((os.getenv('GEMINI_BATCH_SIZE', '2') or '2').strip()))
+    GEMINI_BATCH_SIZE = max(1, int((os.getenv('GEMINI_BATCH_SIZE', '1') or '1').strip()))
 except ValueError:
-    GEMINI_BATCH_SIZE = 2
-
-# Se o Gemini devolver 503 repetidamente, desabilitamos a revisão nesta execução
-# para evitar desperdiçar tempo do workflow insistindo num serviço saturado.
+    GEMINI_BATCH_SIZE = 1
 try:
-    GEMINI_DISABLE_AFTER_CONSECUTIVE_503 = max(1, int((os.getenv('GEMINI_DISABLE_AFTER_CONSECUTIVE_503', '3') or '3').strip()))
+    GEMINI_DISABLE_AFTER_CONSECUTIVE_503 = max(1, int((os.getenv('GEMINI_DISABLE_AFTER_CONSECUTIVE_503', '2') or '2').strip()))
 except ValueError:
-    GEMINI_DISABLE_AFTER_CONSECUTIVE_503 = 3
-
+    GEMINI_DISABLE_AFTER_CONSECUTIVE_503 = 2
+try:
+    GEMINI_PROBE_RETRIES = max(0, int((os.getenv('GEMINI_PROBE_RETRIES', '1') or '1').strip()))
+except ValueError:
+    GEMINI_PROBE_RETRIES = 1
+GEMINI_PROBE_ENABLED = (os.getenv('GEMINI_PROBE_ENABLED', '1') or '1').strip().lower() not in {'0', 'false', 'no'}
+GEMINI_REVIEW_PRIORITY_FIRST = (os.getenv('GEMINI_REVIEW_PRIORITY_FIRST', '1') or '1').strip().lower() not in {'0', 'false', 'no'}
 NS = {
     'atom': 'http://www.w3.org/2005/Atom',
     'media': 'http://search.yahoo.com/mrss/',
@@ -1520,6 +1533,80 @@ def _normalize_video_candidate(base_url: str, raw_url: str) -> Optional[dict]:
 
 
 
+def _video_media_page_links(search_html: str, base_url: str) -> list[str]:
+    links: list[str] = []
+    seen = set()
+    for match in re.finditer(r'<a\b[^>]*href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', search_html or '', flags=re.I | re.S):
+        href = collapse_ws(match.group(1))
+        label = collapse_ws(strip_html(match.group(2) or ''))
+        if not href:
+            continue
+        absolute = urllib.parse.urljoin(base_url, href)
+        low_href = absolute.lower()
+        low_label = normalize_text(label)
+        looks_like_media_page = (
+            '/esa_multimedia/videos/' in low_href
+            or '/videos/' in low_href
+            or 'access the video' in low_label
+            or low_label == 'video'
+            or low_label.startswith('watch video')
+        )
+        if not looks_like_media_page:
+            continue
+        if absolute in seen:
+            continue
+        seen.add(absolute)
+        links.append(absolute)
+    return links[:4]
+
+
+def _extract_video_candidates_from_html(page_html: str, base_url: str) -> list[dict]:
+    candidates: list[dict] = []
+    regions = _extract_article_regions_for_images(page_html)
+    search_html = "\n".join(regions) if regions else page_html
+    candidates.extend(_extract_meta_video_candidates(page_html, base_url))
+
+    for match in re.finditer(r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>', page_html, flags=re.I | re.S):
+        raw = html.unescape(match.group(1).strip())
+        if not raw:
+            continue
+        try:
+            payload = json.loads(raw)
+        except Exception:
+            continue
+        candidates.extend(_json_ld_video_candidates(payload, base_url))
+
+    for match in re.finditer(r'<iframe\b[^>]*src=["\']([^"\']+)["\'][^>]*>', search_html, flags=re.I | re.S):
+        normalized = _normalize_video_candidate(base_url, match.group(1))
+        if normalized:
+            candidates.append({'embed_url': normalized.get('embedUrl', ''), 'content_url': normalized.get('fileUrl', ''), 'page_url': '', 'poster': '', 'title_en': '', 'caption_en': ''})
+
+    for video_match in re.finditer(r'<video\b([^>]*)>(.*?)</video>', search_html, flags=re.I | re.S):
+        attrs = video_match.group(1)
+        inner = video_match.group(2)
+        direct = _extract_attr(attrs, 'src') or _extract_attr(attrs, 'data-src') or ''
+        poster = urllib.parse.urljoin(base_url, _extract_attr(attrs, 'poster')) if _extract_attr(attrs, 'poster') else ''
+        if not direct:
+            source_match = re.search(r'<source\b[^>]*src=["\']([^"\']+)["\']', inner, flags=re.I | re.S)
+            direct = source_match.group(1) if source_match else ''
+        normalized = _normalize_video_candidate(base_url, direct)
+        if normalized:
+            candidates.append({'embed_url': normalized.get('embedUrl', ''), 'content_url': normalized.get('fileUrl', ''), 'page_url': '', 'poster': clean_image_url(poster) if poster else '', 'title_en': '', 'caption_en': ''})
+
+    link_patterns = (
+        r'<a\b[^>]*href=["\']([^"\']*(?:youtu\.be/|youtube\.com/(?:watch|embed|shorts|live)|vimeo\.com/[^"\']+|\.(?:mp4|webm|ogg|m3u8)(?:\?[^"\']*)?))["\'][^>]*>(.*?)</a>',
+        r'(https?://(?:www\.)?(?:youtu\.be/[^\s"\'<]+|youtube\.com/(?:watch\?v=|embed/|shorts/|live/)[^\s"\'<]+|vimeo\.com/[^\s"\'<]+))',
+    )
+    for pattern in link_patterns:
+        for match in re.finditer(pattern, search_html, flags=re.I | re.S):
+            href = match.group(1)
+            normalized = _normalize_video_candidate(base_url, href)
+            if normalized:
+                label = collapse_ws(strip_html(match.group(2))) if pattern.startswith(r'<a') else ''
+                candidates.append({'embed_url': normalized.get('embedUrl', ''), 'content_url': normalized.get('fileUrl', ''), 'page_url': '', 'poster': '', 'title_en': '', 'caption_en': label})
+    return candidates
+
+
 def extract_page_video(url: str) -> Optional[dict]:
     if not url:
         return None
@@ -1531,75 +1618,38 @@ def extract_page_video(url: str) -> Optional[dict]:
         VIDEO_CACHE[url] = None
         return None
 
+    candidates: list[dict] = []
+    candidates.extend(_extract_video_candidates_from_html(page, url))
+
     regions = _extract_article_regions_for_images(page)
     search_html = "\n".join(regions) if regions else page
-
-    candidates: list[dict] = []
-    candidates.extend(_extract_meta_video_candidates(page, url))
-
-    for match in re.finditer(r"<script[^>]+type=[\"']application/ld\+json[\"'][^>]*>(.*?)</script>", page, flags=re.I | re.S):
-        raw = html.unescape(match.group(1).strip())
-        if not raw:
+    for media_page in _video_media_page_links(search_html, url):
+        media_html = fetch_page_html(media_page)
+        if not media_html:
             continue
-        try:
-            payload = json.loads(raw)
-        except Exception:
-            continue
-        candidates.extend(_json_ld_video_candidates(payload, url))
+        for item in _extract_video_candidates_from_html(media_html, media_page):
+            if not item.get('poster'):
+                item['poster'] = clean_image_url(extract_open_graph_image(media_html, media_page) or extract_json_ld_image(media_html, media_page) or '') or ''
+            item['source_page'] = media_page
+            candidates.append(item)
 
-    for match in re.finditer(r"<iframe\b[^>]*src=[\"']([^\"']+)[\"'][^>]*>", search_html, flags=re.I | re.S):
-        normalized = _normalize_video_candidate(url, match.group(1))
-        if normalized:
-            candidates.append({
-                'embed_url': normalized.get('embedUrl', ''),
-                'content_url': normalized.get('fileUrl', ''),
-                'page_url': '',
-                'poster': '',
-                'title_en': '',
-                'caption_en': '',
-            })
-
-    for video_match in re.finditer(r'<video\b([^>]*)>(.*?)</video>', search_html, flags=re.I | re.S):
-        attrs = video_match.group(1)
-        inner = video_match.group(2)
-        direct = _extract_attr(attrs, 'src') or _extract_attr(attrs, 'data-src') or ''
-        poster = urllib.parse.urljoin(url, _extract_attr(attrs, 'poster')) if _extract_attr(attrs, 'poster') else ''
-        if not direct:
-            source_match = re.search(r"<source\b[^>]*src=[\"']([^\"']+)[\"']", inner, flags=re.I | re.S)
-            direct = source_match.group(1) if source_match else ''
-        normalized = _normalize_video_candidate(url, direct)
-        if normalized:
-            candidates.append({
-                'embed_url': normalized.get('embedUrl', ''),
-                'content_url': normalized.get('fileUrl', ''),
-                'page_url': '',
-                'poster': clean_image_url(poster) if poster else '',
-                'title_en': '',
-                'caption_en': '',
-            })
-
-    link_patterns = (
-        r"<a\b[^>]*href=[\"']([^\"']*(?:youtu\.be/|youtube\.com/(?:watch|embed|shorts|live)|vimeo\.com/[^\"']+|\.(?:mp4|webm|ogg|m3u8)(?:\?[^\"']*)?))[\"'][^>]*>(.*?)</a>",
-        r"(https?://(?:www\.)?(?:youtu\.be/[^\s\"'<]+|youtube\.com/(?:watch\?v=|embed/|shorts/|live/)[^\s\"'<]+|vimeo\.com/[^\s\"'<]+))",
-    )
-    for pattern in link_patterns:
-        for match in re.finditer(pattern, search_html, flags=re.I | re.S):
-            href = match.group(1)
-            normalized = _normalize_video_candidate(url, href)
-            if normalized:
-                label = collapse_ws(strip_html(match.group(2))) if pattern.startswith(r'<a') else ''
-                candidates.append({
-                    'embed_url': normalized.get('embedUrl', ''),
-                    'content_url': normalized.get('fileUrl', ''),
-                    'page_url': '',
-                    'poster': '',
-                    'title_en': '',
-                    'caption_en': label,
-                })
+    def _candidate_rank(candidate: dict) -> tuple:
+        content_url = collapse_ws(str(candidate.get('content_url') or ''))
+        embed_url = collapse_ws(str(candidate.get('embed_url') or ''))
+        poster = collapse_ws(str(candidate.get('poster') or ''))
+        source_page = collapse_ws(str(candidate.get('source_page') or ''))
+        low_content = content_url.lower()
+        return (
+            0 if low_content.endswith('.mp4') or '.mp4?' in low_content else 1,
+            0 if poster else 1,
+            0 if '/esa_multimedia/videos/' in source_page.lower() else 1,
+            0 if content_url else 1,
+            0 if embed_url else 1,
+        )
 
     seen = set()
-    for candidate in candidates:
-        raw_video_url = candidate.get('embed_url') or candidate.get('content_url') or candidate.get('page_url') or ''
+    for candidate in sorted(candidates, key=_candidate_rank):
+        raw_video_url = candidate.get('content_url') or candidate.get('embed_url') or candidate.get('page_url') or ''
         normalized = _normalize_video_candidate(url, raw_video_url)
         if not normalized:
             continue
@@ -1627,14 +1677,13 @@ def extract_page_video(url: str) -> Optional[dict]:
             'caption': caption_pt or caption_en,
             'caption_pt': caption_pt or caption_en,
             'caption_en': caption_en or caption_pt,
-            'sourcePage': url,
+            'sourcePage': candidate.get('source_page') or url,
         }
         VIDEO_CACHE[url] = result
         return result
 
     VIDEO_CACHE[url] = None
     return None
-
 
 
 def _json_ld_audio_candidates(payload, base_url: str) -> list[dict]:
@@ -1814,6 +1863,34 @@ def _gemini_response_text(payload: dict) -> str:
     return '\n'.join(parts).strip()
 
 
+
+def _gemini_models() -> list[str]:
+    models = [GEMINI_MODEL] + [m for m in GEMINI_MODEL_FALLBACKS if m and m != GEMINI_MODEL]
+    seen = set()
+    ordered = []
+    for model in models:
+        model = collapse_ws(model)
+        if not model or model in seen:
+            continue
+        seen.add(model)
+        ordered.append(model)
+    return ordered
+
+
+def gemini_probe() -> bool:
+    if not GEMINI_API_KEY or not GEMINI_PROBE_ENABLED:
+        return bool(GEMINI_API_KEY)
+    prompt = '{"ping":"ok"}'
+    for _ in range(GEMINI_PROBE_RETRIES + 1):
+        result = call_gemini_json('__gemini_probe__', prompt)
+        if isinstance(result, dict):
+            print('✓  Gemini respondeu ao probe inicial')
+            return True
+        if _GEMINI_DISABLED_THIS_RUN:
+            break
+    print('⚠️  Gemini indisponível no probe inicial; revisão será pulada nesta execução.')
+    return False
+
 def _gemini_rate_limit_wait() -> None:
     """Aguarda o tempo necessário para não ultrapassar GEMINI_RPM_LIMIT req/min.
 
@@ -1849,8 +1926,6 @@ def call_gemini_json(task_key: str, prompt: str):
     if cache_key in GEMINI_CACHE:
         return GEMINI_CACHE[cache_key]
 
-    endpoint = GEMINI_ENDPOINT_TEMPLATE.format(model=urllib.parse.quote(GEMINI_MODEL, safe=''))
-    url = f'{endpoint}?key={urllib.parse.quote(GEMINI_API_KEY)}'
     body = {
         'contents': [{'parts': [{'text': prompt}]}],
         'generationConfig': {
@@ -1859,82 +1934,79 @@ def call_gemini_json(task_key: str, prompt: str):
         },
     }
     data = json.dumps(body, ensure_ascii=False).encode('utf-8')
-
-    max_attempts = 1 + max(GEMINI_RETRY_ON_429, GEMINI_RETRY_TRANSIENT)
     transient_codes = {408, 500, 502, 503, 504}
 
-    for attempt in range(max_attempts):
-        req = urllib.request.Request(
-            url,
-            data=data,
-            method='POST',
-            headers={
-                'Content-Type': 'application/json; charset=utf-8',
-                'User-Agent': USER_AGENT,
-            },
-        )
-        _gemini_rate_limit_wait()
-        try:
-            with urllib.request.urlopen(req, timeout=GEMINI_TIMEOUT) as response:
-                raw = response.read().decode('utf-8', errors='ignore')
-            parsed = json.loads(raw)
-            text = _gemini_response_text(parsed)
-            out = _extract_json_from_text(text)
-            _GEMINI_CONSECUTIVE_503 = 0
-            GEMINI_CACHE[cache_key] = out
-            return out
-        except urllib.error.HTTPError as exc:
+    for model in _gemini_models():
+        endpoint = GEMINI_ENDPOINT_TEMPLATE.format(model=urllib.parse.quote(model, safe=''))
+        url = f'{endpoint}?key={urllib.parse.quote(GEMINI_API_KEY)}'
+        max_attempts = 1 + max(GEMINI_RETRY_ON_429, GEMINI_RETRY_TRANSIENT)
+        for attempt in range(max_attempts):
+            req = urllib.request.Request(
+                url,
+                data=data,
+                method='POST',
+                headers={
+                    'Content-Type': 'application/json; charset=utf-8',
+                    'User-Agent': USER_AGENT,
+                },
+            )
+            _gemini_rate_limit_wait()
             try:
-                err_body = exc.read().decode('utf-8', errors='ignore')[:400]
-            except Exception:
-                err_body = '(sem corpo)'
-
-            if exc.code == 429 and attempt < GEMINI_RETRY_ON_429:
-                print(f'    [Gemini] 429 quota — aguardando {GEMINI_RETRY_DELAY_429}s para reset do RPM (retry {attempt + 1}/{GEMINI_RETRY_ON_429}) ...')
-                _time.sleep(GEMINI_RETRY_DELAY_429)
-                continue
-
-            if exc.code in transient_codes and attempt < GEMINI_RETRY_TRANSIENT:
-                wait = GEMINI_RETRY_BASE_DELAY * (attempt + 1)
-                print(f'    [Gemini] HTTP {exc.code} transitório — aguardando {wait}s e tentando novamente ({attempt + 1}/{GEMINI_RETRY_TRANSIENT}) ...')
-                _time.sleep(wait)
-                continue
-
-            print(f'ERR Gemini HTTP {exc.code} ({exc.reason}): {err_body}')
-            if exc.code == 503:
-                _GEMINI_CONSECUTIVE_503 += 1
-                if _GEMINI_CONSECUTIVE_503 >= GEMINI_DISABLE_AFTER_CONSECUTIVE_503:
-                    _GEMINI_DISABLED_THIS_RUN = True
-                    print(
-                        '⚠️  Gemini desabilitado nesta execução após '
-                        f'{_GEMINI_CONSECUTIVE_503} falhas consecutivas HTTP 503. '
-                        'Os artigos restantes seguirão em fallback sem revisão.'
-                    )
-            else:
+                with urllib.request.urlopen(req, timeout=GEMINI_TIMEOUT) as response:
+                    raw = response.read().decode('utf-8', errors='ignore')
+                parsed = json.loads(raw)
+                out = _extract_json_from_text(_gemini_response_text(parsed))
                 _GEMINI_CONSECUTIVE_503 = 0
-            GEMINI_CACHE[cache_key] = None
-            return None
-        except (urllib.error.URLError, TimeoutError, socket.timeout) as exc:
-            if attempt < GEMINI_RETRY_TRANSIENT:
-                wait = GEMINI_RETRY_BASE_DELAY * (attempt + 1)
-                print(f'    [Gemini] timeout/rede — aguardando {wait}s e tentando novamente ({attempt + 1}/{GEMINI_RETRY_TRANSIENT}) ...')
-                _time.sleep(wait)
-                continue
-            print(f'ERR Gemini: {exc}')
-            _GEMINI_CONSECUTIVE_503 = 0
-            GEMINI_CACHE[cache_key] = None
-            return None
-        except Exception as exc:
-            print(f'ERR Gemini: {exc}')
-            _GEMINI_CONSECUTIVE_503 = 0
-            GEMINI_CACHE[cache_key] = None
-            return None
+                GEMINI_CACHE[cache_key] = out
+                return out
+            except urllib.error.HTTPError as exc:
+                try:
+                    err_body = exc.read().decode('utf-8', errors='ignore')[:400]
+                except Exception:
+                    err_body = '(sem corpo)'
+
+                if exc.code == 429 and attempt < GEMINI_RETRY_ON_429:
+                    print(f'    [Gemini:{model}] 429 quota — aguardando {GEMINI_RETRY_DELAY_429}s para reset do RPM (retry {attempt + 1}/{GEMINI_RETRY_ON_429}) ...')
+                    _time.sleep(GEMINI_RETRY_DELAY_429)
+                    continue
+
+                if exc.code in transient_codes and attempt < GEMINI_RETRY_TRANSIENT:
+                    wait = GEMINI_RETRY_BASE_DELAY * (attempt + 1)
+                    print(f'    [Gemini:{model}] HTTP {exc.code} transitório — aguardando {wait}s e tentando novamente ({attempt + 1}/{GEMINI_RETRY_TRANSIENT}) ...')
+                    _time.sleep(wait)
+                    continue
+
+                print(f'ERR Gemini {model} HTTP {exc.code} ({exc.reason}): {err_body}')
+                if exc.code == 503:
+                    _GEMINI_CONSECUTIVE_503 += 1
+                    if _GEMINI_CONSECUTIVE_503 >= GEMINI_DISABLE_AFTER_CONSECUTIVE_503:
+                        _GEMINI_DISABLED_THIS_RUN = True
+                        print(
+                            '⚠️  Gemini desabilitado nesta execução após '
+                            f'{_GEMINI_CONSECUTIVE_503} falhas consecutivas HTTP 503. '
+                            'Os artigos restantes seguirão em fallback sem revisão.'
+                        )
+                        GEMINI_CACHE[cache_key] = None
+                        return None
+                else:
+                    _GEMINI_CONSECUTIVE_503 = 0
+                break
+            except (urllib.error.URLError, TimeoutError, socket.timeout) as exc:
+                if attempt < GEMINI_RETRY_TRANSIENT:
+                    wait = GEMINI_RETRY_BASE_DELAY * (attempt + 1)
+                    print(f'    [Gemini:{model}] timeout/rede — aguardando {wait}s e tentando novamente ({attempt + 1}/{GEMINI_RETRY_TRANSIENT}) ...')
+                    _time.sleep(wait)
+                    continue
+                print(f'ERR Gemini {model}: {exc}')
+                _GEMINI_CONSECUTIVE_503 = 0
+                break
+            except Exception as exc:
+                print(f'ERR Gemini {model}: {exc}')
+                _GEMINI_CONSECUTIVE_503 = 0
+                break
 
     GEMINI_CACHE[cache_key] = None
     return None
-
-
-
 
 
 _GENERIC_TEMPLATE_MARKERS_PT = [
@@ -1992,7 +2064,7 @@ _PROMOTIONAL_OR_CREDIT_MARKERS_PT = [
 
 def _strip_highlight_prefix_pt(text: str) -> str:
     text = collapse_ws(strip_html(text or ''))
-    text = re.sub(r'^(Ponto central|Dado-chave|Dado chave|Core point|Key detail|Institutional origin|Origem institucional)\s*:\s*', '', text, flags=re.I)
+    text = re.sub(r'^(Ponto central|Dado-chave|Dado chave|Core point|Key detail|Institutional origin|Origem institucional)\b\s*:\s*', '', text, flags=re.I)
     return collapse_ws(text)
 
 
@@ -4196,67 +4268,78 @@ def _apply_reviewed_post(post: dict, reviewed: dict) -> None:
 
 
 def batch_review_all_posts(posts: list[dict]) -> None:
-    """Revisa todos os posts em lotes de GEMINI_BATCH_SIZE por chamada.
+    """Revisa todos os posts priorizando chance de sucesso do Gemini.
 
-    Reduz 40 chamadas individuais para 8 chamadas em lote (40÷5),
-    respeitando a cota diária da free tier do Gemini.
+    Quando GEMINI_BATCH_SIZE for 1, processa um artigo por chamada. Isso aumenta a
+    chance de aproveitar janelas curtas de disponibilidade do serviço em vez de
+    perder um lote inteiro por causa de um único 503.
     """
     if not GEMINI_API_KEY:
         for post in posts:
             post['reviewStatus'] = 'fallback'
         return
 
-    total         = len(posts)
+    queue = list(posts)
+    if GEMINI_REVIEW_PRIORITY_FIRST:
+        queue.sort(key=lambda p: (-(p.get('score') or 0), p.get('isPreprint', False), p.get('slug', '')))
+
+    success_count = 0
+    fallback_count = 0
+
+    if GEMINI_BATCH_SIZE <= 1:
+        total = len(queue)
+        for idx, p in enumerate(queue, start=1):
+            if _GEMINI_DISABLED_THIS_RUN:
+                p['reviewStatus'] = 'fallback'
+                fallback_count += 1
+                continue
+            print(f'  [Gemini] Artigo {idx}/{total} ({p.get("slug", "")}) ...')
+            reviewed_single = review_portuguese_content(p['title_pt'], p['sub_pt'], p.get('highlights_pt', [])[:3], p['body_pt'])
+            if reviewed_single.get('status') == 'success':
+                p['title'] = reviewed_single['title']
+                p['title_pt'] = reviewed_single['title']
+                p['sub'] = truncate(reviewed_single['summary'], 180)
+                p['sub_pt'] = truncate(reviewed_single['summary'], 180)
+                p['excerpt'] = truncate(reviewed_single['summary'], 260)
+                p['excerpt_pt'] = truncate(reviewed_single['summary'], 260)
+                p['body'] = reviewed_single['body']
+                p['body_pt'] = reviewed_single['body']
+                facts_single = distinct_facts([collapse_ws(str(f)) for f in reviewed_single.get('facts') or []], 6) or []
+                p['highlights'] = build_highlights(reviewed_single['title'], reviewed_single['summary'], facts_single, p['sourceType'], 'pt')
+                p['highlights_pt'] = p['highlights']
+                p['reviewStatus'] = 'success'
+                success_count += 1
+            else:
+                p['reviewStatus'] = 'fallback'
+                fallback_count += 1
+        print(f'  [Gemini] Concluído: {success_count} sucesso / {fallback_count} fallback')
+        return
+
+    total = len(queue)
     success_count = 0
     fallback_count = 0
     total_batches = (total + GEMINI_BATCH_SIZE - 1) // GEMINI_BATCH_SIZE
-
     for batch_start in range(0, total, GEMINI_BATCH_SIZE):
         if _GEMINI_DISABLED_THIS_RUN:
-            remaining = posts[batch_start:]
+            remaining = queue[batch_start:]
             for p in remaining:
                 if p.get('reviewStatus') != 'success':
                     p['reviewStatus'] = 'fallback'
                     fallback_count += 1
             print(f'  [Gemini] Revisão abortada para os {len(remaining)} posts restantes por indisponibilidade do serviço')
             break
-        batch     = posts[batch_start: batch_start + GEMINI_BATCH_SIZE]
+        batch = queue[batch_start: batch_start + GEMINI_BATCH_SIZE]
         batch_num = batch_start // GEMINI_BATCH_SIZE + 1
-
-        payload_items = [
-            {
-                'slug':    p['slug'],
-                'title':   p['title_pt'],
-                'summary': p['sub_pt'],
-                'facts':   p.get('highlights_pt', [])[:3],
-                'body':    _gemini_prompt_body(p['body_pt']),
-            }
-            for p in batch
-        ]
-
+        payload_items = [{'slug': p['slug'], 'title': p['title_pt'], 'summary': p['sub_pt'], 'facts': p.get('highlights_pt', [])[:3], 'body': _gemini_prompt_body(p['body_pt'])} for p in batch]
         prompt = (
-            'Você é um revisor científico e copy editor sênior em português do Brasil.\n'
-            'Receberá um array JSON com vários artigos. Para CADA artigo:\n\n'
-            'REGRAS OBRIGATÓRIAS:\n'
-            '1. Corrija TODA ortografia, concordância, pontuação, regência e sintaxe.\n'
-            '2. Nunca corte frases no meio — toda frase deve terminar com pontuação completa.\n'
-            '3. Nunca use travessão (—) nem reticências (...).\n'
-            '4. Nunca use marcadores de IA: "Além disso,", "Em resumo,", "Vale ressaltar que", "É importante notar que".\n'
-            '5. Preserve rigor factual: números, nomes próprios, datas, unidades e cautelas científicas.\n'
-            '6. Não invente fatos, não adicione opiniões, não remova ressalvas científicas.\n'
-            '7. No campo "body": texto corrido em português natural, SEM HTML, '
-            'com 5 a 8 parágrafos completos separados por "\\n\\n".\n'
-            '8. Cada parágrafo: entre 60 e 400 palavras, terminando com ponto final.\n'
-            '9. Mantenha "facts" curtos, claros, objetivos e com frase completa.\n'
-            '10. Responda SOMENTE com um array JSON válido com os campos: '
-            'slug, title, summary, facts, body.\n\n'
+            'Você é um revisor científico e copy editor sênior em português do Brasil. '
+            'Receberá um array JSON com vários artigos. Para cada artigo, corrija ortografia, gramática, pontuação e coesão; preserve rigor factual; não invente fatos; '
+            'responda somente em JSON válido com slug, title, summary, facts e body. '
+            'O campo body deve vir sem HTML, em 5 a 8 parágrafos completos separados por \\n\\n.\n\n'
             + json.dumps(payload_items, ensure_ascii=False)
         )
-
         print(f'  [Gemini] Lote {batch_num}/{total_batches} ({len(batch)} posts) ...')
         result = call_gemini_json(f'pt_batch_{batch_start}', prompt)
-
-        # Normaliza resultado — pode vir como lista ou dict com lista dentro
         if isinstance(result, dict):
             for key in ('items', 'posts', 'articles', 'results'):
                 if isinstance(result.get(key), list):
@@ -4264,16 +4347,10 @@ def batch_review_all_posts(posts: list[dict]) -> None:
                     break
             else:
                 result = list(result.values()) if result else None
-
         if not isinstance(result, list):
-            print(f'  [Gemini] Lote {batch_num} sem resposta válida — retry individual para {len(batch)} posts')
+            print(f'  [Gemini] Lote {batch_num} sem resposta válida — fallback individual para {len(batch)} posts')
             for p in batch:
-                reviewed_single = review_portuguese_content(
-                    p['title_pt'],
-                    p['sub_pt'],
-                    p.get('highlights_pt', [])[:3],
-                    p['body_pt'],
-                )
+                reviewed_single = review_portuguese_content(p['title_pt'], p['sub_pt'], p.get('highlights_pt', [])[:3], p['body_pt'])
                 if reviewed_single.get('status') == 'success':
                     p['title'] = reviewed_single['title']
                     p['title_pt'] = reviewed_single['title']
@@ -4292,7 +4369,6 @@ def batch_review_all_posts(posts: list[dict]) -> None:
                     p['reviewStatus'] = 'fallback'
                     fallback_count += 1
             continue
-
         reviewed_map = {str(r.get('slug', '')): r for r in result if isinstance(r, dict)}
         for p in batch:
             reviewed = reviewed_map.get(p['slug'])
@@ -4300,30 +4376,8 @@ def batch_review_all_posts(posts: list[dict]) -> None:
                 _apply_reviewed_post(p, reviewed)
                 success_count += 1
             else:
-                reviewed_single = review_portuguese_content(
-                    p['title_pt'],
-                    p['sub_pt'],
-                    p.get('highlights_pt', [])[:3],
-                    p['body_pt'],
-                )
-                if reviewed_single.get('status') == 'success':
-                    p['title'] = reviewed_single['title']
-                    p['title_pt'] = reviewed_single['title']
-                    p['sub'] = truncate(reviewed_single['summary'], 180)
-                    p['sub_pt'] = truncate(reviewed_single['summary'], 180)
-                    p['excerpt'] = truncate(reviewed_single['summary'], 260)
-                    p['excerpt_pt'] = truncate(reviewed_single['summary'], 260)
-                    p['body'] = reviewed_single['body']
-                    p['body_pt'] = reviewed_single['body']
-                    facts_single = distinct_facts([collapse_ws(str(f)) for f in reviewed_single.get('facts') or []], 6) or []
-                    p['highlights'] = build_highlights(reviewed_single['title'], reviewed_single['summary'], facts_single, p['sourceType'], 'pt')
-                    p['highlights_pt'] = p['highlights']
-                    p['reviewStatus'] = 'success'
-                    success_count += 1
-                else:
-                    p['reviewStatus'] = 'fallback'
-                    fallback_count += 1
-
+                p['reviewStatus'] = 'fallback'
+                fallback_count += 1
     print(f'  [Gemini] Concluído: {success_count} sucesso / {fallback_count} fallback')
 
 

@@ -24,9 +24,18 @@ jobs:
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
       PYTHONUNBUFFERED: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
       COSMOS_SITE_URL: 'https://www.cosmosweek.com/'
-      GEMINI_BATCH_SIZE: '2'
-      GEMINI_DISABLE_AFTER_CONSECUTIVE_503: '3'
+      GEMINI_BATCH_SIZE: '1'
+      GEMINI_RPM_LIMIT: '3'
+      GEMINI_RETRY_ON_429: '1'
+      GEMINI_RETRY_TRANSIENT: '1'
+      GEMINI_RETRY_BASE_DELAY: '25'
+      GEMINI_RETRY_DELAY_429: '75'
+      GEMINI_PROBE_ENABLED: '1'
+      GEMINI_PROBE_RETRIES: '1'
+      GEMINI_DISABLE_AFTER_CONSECUTIVE_503: '2'
+      GEMINI_MODEL_FALLBACKS: 'gemini-2.0-flash,gemini-2.0-flash-lite,gemini-1.5-flash'
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
 
@@ -88,7 +97,11 @@ jobs:
           PY
 
       - name: Mostrar alterações geradas
-        run: git status --short
+        shell: bash
+        run: |
+          set -euo pipefail
+          find . -type d -name '__pycache__' -prune -exec rm -rf {} +
+          git status --short
 
       - name: Commitar mudanças
         shell: bash
