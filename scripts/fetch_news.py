@@ -1635,7 +1635,7 @@ def extract_page_video(url: str) -> Optional[dict]:
             continue
         for item in _extract_video_candidates_from_html(media_html, media_page):
             if not item.get('poster'):
-                item['poster'] = clean_image_url(extract_open_graph_image(media_html, media_page) or extract_json_ld_image(media_html, media_page) or '') or ''
+                item['poster'] = fetch_page_image(media_page) or ''
             item['source_page'] = media_page
             candidates.append(item)
 
