@@ -545,6 +545,143 @@
     .hero-side-card .hero-content { padding: 24px 24px 22px; }
     .hero-side-card .hero-content .headline-lg { color: #fff; font-size: 1.25rem; }
 
+    /* ── Front briefing ──────────────────────────────────────────────── */
+    .front-briefing {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      margin: -20px 0 42px;
+      align-items: stretch;
+    }
+    .briefing-panel {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+      min-height: 100%;
+    }
+    .briefing-head {
+      padding: 16px 18px 14px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(20,81,160,.05) 0%, rgba(20,81,160,0) 100%);
+    }
+    .briefing-kicker {
+      font: 700 9.5px var(--mono);
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+    .briefing-title {
+      margin-top: 8px;
+      font-family: var(--serif);
+      font-size: 1.1rem;
+      line-height: 1.2;
+      color: var(--ink);
+    }
+    .briefing-copy {
+      margin-top: 6px;
+      font-size: 12.5px;
+      color: var(--ink-3);
+      line-height: 1.6;
+    }
+    .briefing-body {
+      padding: 8px 18px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .briefing-story {
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 14px 0;
+      border-top: 1px solid var(--line);
+    }
+    .briefing-story:first-child { border-top: none; }
+    .briefing-story:hover { text-decoration: none; }
+    .briefing-story-kicker {
+      font: 600 9.5px var(--mono);
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--ink-4);
+    }
+    .briefing-story-title {
+      margin-top: 5px;
+      font: 600 16px var(--serif);
+      line-height: 1.35;
+      color: var(--ink);
+    }
+    .briefing-story-summary {
+      margin-top: 6px;
+      font-size: 13px;
+      line-height: 1.66;
+      color: var(--ink-3);
+    }
+    .briefing-story-meta {
+      margin-top: 7px;
+      font: 500 10px var(--mono);
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: var(--ink-4);
+    }
+    .briefing-story.compact .briefing-story-title {
+      font-size: 13.5px;
+      line-height: 1.42;
+    }
+    .briefing-story.compact .briefing-story-summary {
+      display: none;
+    }
+    .briefing-topic-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+    .briefing-topic-card {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      width: 100%;
+      text-align: left;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: var(--white);
+      transition: border-color .15s, background .15s, transform .15s;
+    }
+    .briefing-topic-card:hover {
+      border-color: var(--accent);
+      background: var(--bg);
+      transform: translateY(-1px);
+      text-decoration: none;
+    }
+    .briefing-topic-name {
+      font: 600 13.5px var(--sans);
+      color: var(--ink);
+      line-height: 1.35;
+    }
+    .briefing-topic-copy {
+      margin-top: 4px;
+      font-size: 12px;
+      color: var(--ink-3);
+      line-height: 1.55;
+    }
+    .briefing-topic-count {
+      flex-shrink: 0;
+      min-width: 28px;
+      height: 28px;
+      padding: 0 8px;
+      border-radius: 999px;
+      background: var(--accent-light);
+      color: var(--accent);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font: 700 10px var(--mono);
+      letter-spacing: .04em;
+    }
+
     /* ── Section heads ────────────────────────────────────────────────── */
     .section-head {
       display: flex; align-items: flex-end; justify-content: space-between;
@@ -1213,6 +1350,7 @@
     @media (max-width: 1100px) {
       .hero-grid { grid-template-columns: 1fr; }
       .hero-side { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
+      .front-briefing { grid-template-columns: 1fr; margin-top: 22px; }
       .story-layout { grid-template-columns: 1fr; }
       .sidebar { position: static; }
       .story-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
@@ -1230,6 +1368,7 @@
       #updateBtn { padding-inline: 11px; }
       .hero-side { grid-template-columns: 1fr; }
       .story-grid { grid-template-columns: 1fr; }
+      .front-briefing { margin-top: 18px; }
       .newsletter-form { grid-template-columns: 1fr; }
       .footer-grid { grid-template-columns: 1fr; gap: 32px; }
       .cookie-banner { flex-direction: column; }
@@ -1536,12 +1675,13 @@
 
     <section class="page active" id="pageHome">
       <div id="heroMount"></div>
+      <div class="front-briefing" id="frontBriefing"></div>
       <div class="story-layout">
         <div>
-          <div class="section-head">
+          <div class="section-head" id="latestSectionHead">
             <div>
-              <div class="section-title" id="latestSectionTitle">Últimas notícias</div>
-              <div class="section-kicker" id="latestSectionKicker">Cobertura contínua com foco em descoberta, contexto e impacto científico real.</div>
+              <div class="section-title" id="latestSectionTitle">Últimas publicações</div>
+              <div class="section-kicker" id="latestSectionKicker">Cobertura recente organizada para leitura rápida, sem perder contexto editorial.</div>
             </div>
             <button class="section-link" onclick="openPage('archive')" id="archiveLinkTop">Ver arquivo completo</button>
           </div>
@@ -1570,9 +1710,9 @@
             <div class="widget-list sidebar-story-list" id="latestUpdates"></div>
           </div>
           <div class="widget">
-            <div class="widget-head"><div class="widget-title" id="topicNavTitle">Navegue por tema</div></div>
+            <div class="widget-head"><div class="widget-title" id="sourceMixTitle">Mapa editorial</div></div>
             <div class="widget-body">
-              <div class="topic-nav-list" id="topicNav"></div>
+              <div id="sourceMix"></div>
             </div>
           </div>
           <div class="widget">
@@ -1744,14 +1884,21 @@
       methodology: 'Metodologia', advertise: 'Anuncie', mediaKit: 'Media kit', privacy: 'Política de privacidade', terms: 'Termos de uso', update: 'Atualizar',
       searchPlaceholder: 'Buscar notícias, temas ou fontes...',
       ticker: 'Destaques',
-      latestTitle: 'Últimas notícias',
-      latestKicker: 'Cobertura contínua com foco em descoberta, contexto e impacto científico real.',
+      latestTitle: 'Últimas publicações',
+      latestKicker: 'Cobertura recente organizada para leitura rápida, sem perder contexto editorial.',
+      essentialTitle: 'Leitura essencial',
+      essentialKicker: 'Seleção principal da edição atual, priorizando impacto científico, contexto e legibilidade.',
+      monitorTitle: 'Em observação',
+      monitorKicker: 'Sinais, missões, instrumentos e resultados que seguem sob acompanhamento mais próximo na cobertura.',
+      topicShelfTitle: 'Navegação temática',
+      topicShelfKicker: 'Áreas permanentes de cobertura para entrar no arquivo pela porta certa, não pelo acaso cronológico.',
       archiveLink: 'Ver arquivo completo',
       preprintsTitle: 'Radar de preprints',
       preprintsKicker: 'Resultados provisórios em circulação técnica, identificados como não revisados por pares.',
       trending: 'Em alta',
       latestUpdatesTitle: 'Últimas atualizações',
       topicNavTitle: 'Navegue por tema',
+      sourceMixTitle: 'Mapa editorial',
       quickLinksTitle: 'Acesso rápido',
       archivePicksTitle: 'Do arquivo',
       quickArchive: 'Abrir arquivo',
@@ -1808,13 +1955,20 @@
       searchPlaceholder: 'Search stories, topics or sources...',
       ticker: 'Highlights',
       latestTitle: 'Latest stories',
-      latestKicker: 'Continuous coverage focused on discovery, context and real scientific impact.',
+      latestKicker: 'Recent coverage arranged for faster scanning without flattening editorial context.',
+      essentialTitle: 'Essential reading',
+      essentialKicker: 'The core stories of the current edition, selected for scientific weight, context and staying power.',
+      monitorTitle: 'Under observation',
+      monitorKicker: 'Signals, missions, instruments and results that remain under closer editorial watch.',
+      topicShelfTitle: 'Topic map',
+      topicShelfKicker: 'Persistent coverage areas that let readers enter the archive by subject, not by chance.',
       archiveLink: 'View full archive',
       preprintsTitle: 'Preprint radar',
       preprintsKicker: 'Provisional results in technical circulation, explicitly marked as not peer reviewed.',
       trending: 'Trending',
       latestUpdatesTitle: 'Latest updates',
       topicNavTitle: 'Browse by topic',
+      sourceMixTitle: 'Editorial map',
       quickLinksTitle: 'Quick access',
       archivePicksTitle: 'From the archive',
       quickArchive: 'Open archive',
@@ -2290,14 +2444,93 @@
     return rotated.slice(0, count);
   }
 
+  function sectionPriority(post) {
+    let total = heroPriority(post);
+    if (post?.editorialBand === 'flagship') total += 12;
+    else if (post?.editorialBand === 'high') total += 8;
+    else if (post?.editorialBand === 'standard') total += 4;
+    if (post?.coverageKind === 'journal') total += 7;
+    if (post?.coverageKind === 'news') total += 4;
+    if (post?.sourceType === 'agency') total += 2;
+    return total;
+  }
+
+  function observationPriority(post) {
+    let total = sectionPriority(post);
+    const cat = String(post?.cat || '');
+    const source = `${post?.source || ''} ${post?.sourceType || ''} ${post?.coverageKind || ''}`.toLowerCase();
+    const title = `${post?.title || ''} ${post?.title_en || ''}`.toLowerCase();
+    if (['Astronomia', 'Astrofísica', 'Cosmologia', 'Exoplanetas', 'Ciências da Terra'].includes(cat)) total += 12;
+    if (/observ|telescope|jwst|hubble|alma|eso|nasa|esa|euclid|comet|sky|saturn|planet|moon|launch|solar|mars|space|landsat|weather/.test(source + ' ' + title)) total += 10;
+    if (post?.trending) total += 3;
+    return total;
+  }
+
+  function topicDescriptor(cat) {
+    const map = currentLang === 'en'
+      ? {
+          all: 'A broad entry point into the full editorial archive.',
+          'Astronomia': 'Skywatching, observatories, missions and celestial events.',
+          'Cosmologia': 'The large-scale universe, dark sectors and cosmic history.',
+          'Astrofísica': 'Stars, black holes, galaxies and high-energy processes.',
+          'Exoplanetas': 'Planet formation, atmospheres and habitable-world searches.',
+          'Física': 'Theory, experiments, quantum results and particle frontiers.',
+          'Biologia': 'Biomedicine, evolution, ecology and life-science methods.',
+          'Química': 'Molecules, materials, catalysis and laboratory technique.',
+          'Ciências da Terra': 'Climate, oceans, geology and Earth observation.'
+        }
+      : {
+          all: 'Uma porta ampla para entrar no arquivo editorial completo.',
+          'Astronomia': 'Céu, observatórios, missões e eventos celestes.',
+          'Cosmologia': 'O universo em grande escala, setores escuros e história cósmica.',
+          'Astrofísica': 'Estrelas, buracos negros, galáxias e processos de alta energia.',
+          'Exoplanetas': 'Formação planetária, atmosferas e busca por mundos habitáveis.',
+          'Física': 'Teoria, experimentos, resultados quânticos e fronteiras de partículas.',
+          'Biologia': 'Biomedicina, evolução, ecologia e métodos das ciências da vida.',
+          'Química': 'Moléculas, materiais, catálise e técnica de laboratório.',
+          'Ciências da Terra': 'Clima, oceanos, geologia e observação do planeta.'
+        };
+    return map[cat] || map.all;
+  }
+
   function buildFrontLayout() {
     const regular = frontRegularPostsForCurrentCategory();
     const preprints = filteredPreprints();
     const heroSource = regular.length ? regular : [...preprints].sort((a, b) => postTimestamp(b) - postTimestamp(a));
     const hero = pickRotatedSet(heroSource, 3, 'hero');
-    const heroSlugs = new Set(hero.map(post => post.slug));
-    const latest = pickRotatedSet(regular.filter(post => !heroSlugs.has(post.slug)), 9, 'latest', 17);
-    const trendingSource = DB.filter(p => p.trending && !p.isPreprint)
+    const used = new Set(hero.map(post => post.slug));
+
+    const essentialSource = [...regular]
+      .filter(post => !used.has(post.slug))
+      .sort((a, b) => {
+        const scoreDiff = sectionPriority(b) - sectionPriority(a);
+        if (scoreDiff) return scoreDiff;
+        return postTimestamp(b) - postTimestamp(a);
+      });
+    const essential = pickRotatedSet(essentialSource, 4, 'essential', 11);
+    essential.forEach(post => used.add(post.slug));
+
+    const watchPrimary = [...regular]
+      .filter(post => !used.has(post.slug))
+      .sort((a, b) => {
+        const scoreDiff = observationPriority(b) - observationPriority(a);
+        if (scoreDiff) return scoreDiff;
+        return postTimestamp(b) - postTimestamp(a);
+      });
+    let watch = pickRotatedSet(watchPrimary, 4, 'watch', 23);
+    if (watch.length < Math.min(2, watchPrimary.length)) {
+      watch = watchPrimary.slice(0, Math.min(4, watchPrimary.length));
+    }
+    watch.forEach(post => used.add(post.slug));
+
+    const latestSource = regular.filter(post => !used.has(post.slug));
+    let latest = pickRotatedSet(latestSource, 6, 'latest', 17);
+    if (!latest.length && regular.length) {
+      latest = regular.filter(post => !hero.some(h => h.slug === post.slug)).slice(0, 6);
+    }
+
+    const trendingSource = filteredRegularPosts()
+      .filter(p => p.trending)
       .sort((a, b) => {
         const freshA = isFreshFrontPost(a) ? 1 : 0;
         const freshB = isFreshFrontPost(b) ? 1 : 0;
@@ -2306,13 +2539,15 @@
         return postTimestamp(b) - postTimestamp(a);
       });
     const trending = pickRotatedSet(trendingSource, 5, 'trending', 31);
-    const rotatedPreprints = pickRotatedSet(preprints, 6, 'preprints', 47);
+    const rotatedPreprints = pickRotatedSet(preprints, 4, 'preprints', 47);
 
     rememberFrontSelection('hero', hero.map(post => post.slug), 18);
+    rememberFrontSelection('essential', essential.map(post => post.slug), 30);
+    rememberFrontSelection('watch', watch.map(post => post.slug), 30);
     rememberFrontSelection('latest', latest.map(post => post.slug), 36);
     rememberFrontSelection('trending', trending.map(post => post.slug), 20);
 
-    return { hero, latest, trending, preprints: rotatedPreprints };
+    return { hero, essential, watch, latest, trending, preprints: rotatedPreprints };
   }
 
   function currentFrontLayout() {
@@ -2373,10 +2608,88 @@
       </div>`;
   }
 
+  function briefingStoryMarkup(post, { compact = false } = {}) {
+    if (!post) return '';
+    const meta = formatMeta(post);
+    return `
+      <button class="briefing-story${compact ? ' compact' : ''}" onclick="openArticle('${escapeAttr(post.slug)}')">
+        <div class="briefing-story-kicker">${prettyCategory(post.cat)} · ${meta.date}</div>
+        <div class="briefing-story-title">${textFor(post,'title')}</div>
+        <div class="briefing-story-summary">${truncatePlainText(textFor(post,'excerpt'), compact ? 96 : 165)}</div>
+        <div class="briefing-story-meta">${meta.read} · ${post.source}</div>
+      </button>`;
+  }
+
+  function renderFrontBriefing(layout = currentFrontLayout()) {
+    const mount = document.getElementById('frontBriefing');
+    if (!mount) return;
+    const panels = [];
+
+    if (Array.isArray(layout?.essential) && layout.essential.length) {
+      const [lead, ...rest] = layout.essential;
+      panels.push(`
+        <section class="briefing-panel">
+          <div class="briefing-head">
+            <div class="briefing-kicker">${tr('essentialTitle')}</div>
+            <div class="briefing-title">${tr('essentialKicker')}</div>
+          </div>
+          <div class="briefing-body">
+            ${briefingStoryMarkup(lead)}
+            ${rest.map(post => briefingStoryMarkup(post, { compact: true })).join('')}
+          </div>
+        </section>`);
+    }
+
+    if (Array.isArray(layout?.watch) && layout.watch.length) {
+      panels.push(`
+        <section class="briefing-panel">
+          <div class="briefing-head">
+            <div class="briefing-kicker">${tr('monitorTitle')}</div>
+            <div class="briefing-title">${tr('monitorKicker')}</div>
+          </div>
+          <div class="briefing-body">
+            ${layout.watch.map((post, idx) => briefingStoryMarkup(post, { compact: idx > 0 })).join('')}
+          </div>
+        </section>`);
+    }
+
+    const topicCategories = ['all','Astronomia','Cosmologia','Astrofísica','Exoplanetas','Física','Biologia','Química','Ciências da Terra'];
+    const counts = DB.reduce((acc, post) => {
+      if (post?.cat) acc[post.cat] = (acc[post.cat] || 0) + 1;
+      return acc;
+    }, {});
+    panels.push(`
+      <section class="briefing-panel">
+        <div class="briefing-head">
+          <div class="briefing-kicker">${tr('topicShelfTitle')}</div>
+          <div class="briefing-title">${tr('topicShelfKicker')}</div>
+        </div>
+        <div class="briefing-body">
+          <div class="briefing-topic-list">
+            ${topicCategories.map(cat => {
+              const count = cat === 'all' ? DB.length : (counts[cat] || 0);
+              const label = cat === 'all' ? tr('allCategories') : prettyCategory(cat);
+              return `
+                <button class="briefing-topic-card" onclick="setCategory('${escapeAttr(cat)}')">
+                  <div>
+                    <div class="briefing-topic-name">${label}</div>
+                    <div class="briefing-topic-copy">${topicDescriptor(cat)}</div>
+                  </div>
+                  <span class="briefing-topic-count">${count}</span>
+                </button>`;
+            }).join('')}
+          </div>
+        </div>
+      </section>`);
+
+    mount.innerHTML = panels.join('');
+  }
+
   // ── Home ───────────────────────────────────────────────────────────────────
   function renderHome() {
     const layout = currentFrontLayout();
     renderHero(layout);
+    renderFrontBriefing(layout);
     document.getElementById('latestGrid').innerHTML = layout.latest.map(cardMarkup).join('');
 
     // Preprint section
@@ -2396,9 +2709,9 @@
 
     renderTrending(layout.trending);
     renderLatestUpdates(layout);
-    renderTopicNav();
     renderQuickLinks();
     renderArchivePicks(layout);
+    renderSourceMix();
     renderTicker(layout);
     syncCategoryButtons();
     markNav('home');
@@ -2412,6 +2725,8 @@
     const seen = new Set();
     const posts = [
       ...(Array.isArray(layout?.hero) ? layout.hero.slice(0, 1) : []),
+      ...(Array.isArray(layout?.essential) ? layout.essential.slice(0, 2) : []),
+      ...(Array.isArray(layout?.watch) ? layout.watch.slice(0, 2) : []),
       ...(Array.isArray(layout?.latest) ? layout.latest : [])
     ].filter(post => {
       if (!post || seen.has(post.slug)) return false;
@@ -2476,6 +2791,8 @@
     if (!mount) return;
     const blocked = new Set([
       ...(layout?.hero || []),
+      ...(layout?.essential || []),
+      ...(layout?.watch || []),
       ...(layout?.latest || []),
       ...(layout?.trending || []),
       ...(layout?.preprints || [])
@@ -2514,13 +2831,15 @@
   // ── Source mix ─────────────────────────────────────────────────────────────
   function renderSourceMix() {
     const mount = document.getElementById('sourceMix');
+    if (!mount) return;
+    const visible = currentCategory === 'all' ? DB : DB.filter(p => p?.cat === currentCategory);
     const kindFor = (p) => p.coverageKind || p.sourceType || 'agency';
-    const counts = DB.reduce((acc,p) => { const key = kindFor(p); acc[key] = (acc[key]||0)+1; return acc; }, {});
+    const counts = visible.reduce((acc,p) => { const key = kindFor(p); acc[key] = (acc[key]||0)+1; return acc; }, {});
     const rows = [
-      ['agency',   currentLang==='en'?'Institutional':'Institucional',      averageVisibleScore('evidence', p=>kindFor(p)==='agency')],
-      ['news',     currentLang==='en'?'Science reporting':'Jornalismo científico', averageVisibleScore('relevance', p=>kindFor(p)==='news')],
-      ['journal',  currentLang==='en'?'Peer-reviewed':'Revisado por pares', averageVisibleScore('evidence', p=>kindFor(p)==='journal')],
-      ['preprint', currentLang==='en'?'Preprints':'Preprints',              averageVisibleScore('overall',   p=>kindFor(p)==='preprint')]
+      ['agency',   currentLang==='en'?'Institutional':'Institucional',      averageVisibleScore('evidence', p=>kindFor(p)==='agency' && (currentCategory === 'all' || p?.cat === currentCategory))],
+      ['news',     currentLang==='en'?'Science reporting':'Jornalismo científico', averageVisibleScore('relevance', p=>kindFor(p)==='news' && (currentCategory === 'all' || p?.cat === currentCategory))],
+      ['journal',  currentLang==='en'?'Peer-reviewed':'Revisado por pares', averageVisibleScore('evidence', p=>kindFor(p)==='journal' && (currentCategory === 'all' || p?.cat === currentCategory))],
+      ['preprint', currentLang==='en'?'Preprints':'Preprints',              averageVisibleScore('overall',   p=>kindFor(p)==='preprint' && (currentCategory === 'all' || p?.cat === currentCategory))]
     ];
     mount.innerHTML = rows.map(([key,label,metric]) => {
       const n = counts[key]||0;
@@ -2539,7 +2858,7 @@
   // ── Ticker ─────────────────────────────────────────────────────────────────
   function renderTicker(layout = currentFrontLayout()) {
     const mount = document.getElementById('tickerTrack');
-    const source = [...(layout.hero || []), ...(layout.latest || []), ...(layout.preprints || [])].filter(Boolean);
+    const source = [...(layout.hero || []), ...(layout.essential || []), ...(layout.watch || []), ...(layout.latest || []), ...(layout.preprints || [])].filter(Boolean);
     const items = source.slice(0,8).map(p => textFor(p,'title')).filter(Boolean);
     const loop = items.length ? [...items, ...items] : [];
     mount.innerHTML = loop.map(item => `<span class="ticker-item">${item}</span>`).join('');
@@ -3287,7 +3606,7 @@
       navStandards:'standards', methodBtn:'methodology', adsBtn:'advertise', updateBtnLabel:'update',
       tickerBadge:'ticker', latestSectionTitle:'latestTitle', latestSectionKicker:'latestKicker',
       archiveLinkTop:'archiveLink', trendingWidgetTitle:'trending', latestUpdatesTitle:'latestUpdatesTitle',
-      topicNavTitle:'topicNavTitle', quickLinksTitle:'quickLinksTitle', archivePicksTitle:'archivePicksTitle',
+      sourceMixTitle:'sourceMixTitle', quickLinksTitle:'quickLinksTitle', archivePicksTitle:'archivePicksTitle',
       archiveTitle:'archiveTitle', archiveKicker:'archiveKicker', searchTitle:'searchTitle',
       footerDescription:'footerDescription', footerNavTitle:'footerNavTitle',
       footerAdvertise:'advertise', footerMediaKit:'mediaKit',
