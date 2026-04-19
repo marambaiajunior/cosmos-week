@@ -42,6 +42,7 @@ SITEMAP_XML = ROOT / 'sitemap.xml'
 ROBOTS_TXT = ROOT / 'robots.txt'
 ARCHIVE_POSTS_JSON = ROOT / 'all_posts.json'
 PREVIEW_DIR = ROOT / 'noticia'
+PREVIEW_EN_DIR = ROOT / 'en' / 'news'
 
 SITE_URL = os.getenv('COSMOS_SITE_URL', 'https://www.cosmosweek.com/').rstrip('/') + '/'
 SITE_NAME = 'Cosmos Week'
@@ -655,6 +656,24 @@ def sanitize_post_record(post: dict) -> dict:
             for field in ('embedUrl', 'fileUrl', 'poster', 'sourcePage'):
                 if field in media and isinstance(media.get(field), str):
                     media[field] = collapse_ws(str(media.get(field) or ''))
+
+    slug = collapse_ws(str(post.get('slug') or ''))
+    if slug:
+        post['shareUrl'] = article_static_url(slug, 'pt')
+        post['shareUrl_pt'] = article_static_url(slug, 'pt')
+        post['shareUrl_en'] = article_static_url(slug, 'en')
+        post['canonicalUrl'] = article_static_url(slug, 'pt')
+        post['canonicalUrl_pt'] = article_static_url(slug, 'pt')
+        post['canonicalUrl_en'] = article_static_url(slug, 'en')
+        post['realUrl'] = article_dynamic_url(slug, 'pt')
+        post['realUrl_pt'] = article_dynamic_url(slug, 'pt')
+        post['realUrl_en'] = article_dynamic_url(slug, 'en')
+    post['defaultLanguage'] = 'pt-BR'
+    post['availableLanguages'] = ['pt-BR', 'en-US']
+
+    post['imageAlt'] = sanitize_plain_text(post.get('imageAlt') or post.get('title_pt') or post.get('title') or '')
+    post['imageAlt_pt'] = sanitize_plain_text(post.get('imageAlt_pt') or post.get('title_pt') or post.get('imageAlt') or post.get('title') or '')
+    post['imageAlt_en'] = sanitize_plain_text(post.get('imageAlt_en') or post.get('title_en') or post.get('imageAlt') or post.get('title') or '')
 
     return post
 
@@ -3841,10 +3860,10 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
 
     dt = item['published']
     slug = slugify(title_en)
-    canonical = f'{SITE_URL}?article={slug}'
-    canonical_en = f'{SITE_URL}?article={slug}&lang=en'
-    share_url = urllib.parse.urljoin(SITE_URL, f'noticia/{slug}/')
-    share_url_en = canonical_en
+    canonical = article_dynamic_url(slug, 'pt')
+    canonical_en = article_dynamic_url(slug, 'en')
+    share_url = article_static_url(slug, 'pt')
+    share_url_en = article_static_url(slug, 'en')
     image = choose_post_image(item, category)
     inline_images = extract_inline_images(src_url, primary_image=image)
     video = extract_page_video(src_url)
@@ -3967,6 +3986,429 @@ def strip_tags_for_meta(html_text: str) -> str:
 def html_escape_attr(value: str) -> str:
     return html.escape(value or '', quote=True)
 
+def article_static_url(slug: str, lang: str = 'pt') -> str:
+    safe_slug = urllib.parse.quote(collapse_ws(slug or '').strip(), safe='')
+    if not safe_slug:
+        return SITE_URL
+    if lang == 'en':
+        return urllib.parse.urljoin(SITE_URL, f'en/news/{safe_slug}/')
+    return urllib.parse.urljoin(SITE_URL, f'noticia/{safe_slug}/')
+
+
+def article_dynamic_url(slug: str, lang: str = 'pt') -> str:
+    safe_slug = urllib.parse.quote(collapse_ws(slug or '').strip(), safe='')
+    if not safe_slug:
+        return f'{SITE_URL}?lang=en' if lang == 'en' else SITE_URL
+    suffix = f'?article={safe_slug}'
+    if lang == 'en':
+        suffix += '&lang=en'
+    return f'{SITE_URL}{suffix}'
+
+
+def article_meta_description(post: dict, lang: str = 'pt', limit: int = 180) -> str:
+    body_field = 'body_en' if lang == 'en' else 'body_pt'
+    title_field = 'title_en' if lang == 'en' else 'title_pt'
+    candidate_fields = [
+        post.get('excerpt_en') if lang == 'en' else post.get('excerpt_pt'),
+        post.get('excerpt'),
+        post.get('sub_en') if lang == 'en' else post.get('sub_pt'),
+        post.get('sub'),
+        first_summary_from_body_html(post.get(body_field) or '', lang=lang),
+        post.get(title_field),
+        post.get('title'),
+    ]
+    title_fallback = sanitize_plain_text(post.get(title_field) or post.get('title') or '')
+    for idx, candidate in enumerate(candidate_fields):
+        cleaned = sanitize_plain_text(strip_tags_for_meta(candidate or ''))
+        if not cleaned:
+            continue
+        if len(cleaned) < 40 and idx < len(candidate_fields) - 2:
+            continue
+        if summary_looks_broken(cleaned) and cleaned != title_fallback:
+            continue
+        return truncate(cleaned, limit)
+    return truncate(SITE_DESCRIPTION_EN if lang == 'en' else SITE_DESCRIPTION_PT, limit)
+
+
+def article_primary_image(post: dict) -> str:
+    primary = clean_image_url(post.get('img') or '')
+    if primary:
+        return primary
+    for item in (post.get('inline_images') or []):
+        if not isinstance(item, dict):
+            continue
+        src = clean_image_url(item.get('src') or '')
+        if src:
+            return src
+    return urllib.parse.urljoin(SITE_URL, 'assets/og-default.jpg')
+
+
+def article_primary_alt(post: dict, lang: str = 'pt') -> str:
+    if lang == 'en':
+        candidates = [post.get('title_en'), post.get('imageAlt_en'), post.get('imageAlt'), post.get('title')]
+    else:
+        candidates = [post.get('title_pt'), post.get('imageAlt_pt'), post.get('imageAlt'), post.get('title')]
+    for candidate in candidates:
+        cleaned = sanitize_plain_text(candidate or '')
+        if cleaned:
+            return cleaned
+    return SITE_NAME
+
+
+def article_json_ld(
+    post: dict,
+    lang: str,
+    canonical_url: str,
+    home_url: str,
+    alternate_url: str,
+    title: str,
+    description: str,
+    image_url: str,
+    author_name: str,
+    section_label: str,
+    keywords: list[str],
+    body_text: str,
+    source_name: str,
+    source_url: str,
+) -> str:
+    lang_code = 'en-US' if lang == 'en' else 'pt-BR'
+    breadcrumb_home = 'Home' if lang == 'en' else 'Início'
+    schema_graph = [
+        {
+            '@context': 'https://schema.org',
+            '@type': 'NewsMediaOrganization',
+            '@id': f'{SITE_URL}#organization',
+            'name': SITE_NAME,
+            'url': SITE_URL,
+            'logo': {
+                '@type': 'ImageObject',
+                'url': urllib.parse.urljoin(SITE_URL, 'assets/og-default.jpg')
+            }
+        },
+        {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            'itemListElement': [
+                {'@type': 'ListItem', 'position': 1, 'name': breadcrumb_home, 'item': home_url},
+                {'@type': 'ListItem', 'position': 2, 'name': section_label, 'item': home_url},
+                {'@type': 'ListItem', 'position': 3, 'name': title, 'item': canonical_url},
+            ]
+        },
+        {
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            '@id': canonical_url,
+            'url': canonical_url,
+            'name': title,
+            'description': description,
+            'inLanguage': lang_code,
+            'isPartOf': {'@type': 'WebSite', 'name': SITE_NAME, 'url': home_url},
+            'primaryImageOfPage': {'@type': 'ImageObject', 'url': image_url},
+            'about': [{'@type': 'Thing', 'name': key} for key in keywords[:8]],
+            'hasPart': [{'@type': 'WebPage', 'url': alternate_url, 'inLanguage': 'pt-BR' if lang == 'en' else 'en-US'}],
+        },
+        {
+            '@context': 'https://schema.org',
+            '@type': 'NewsArticle',
+            'headline': title,
+            'description': description,
+            'image': [image_url],
+            'thumbnailUrl': image_url,
+            'datePublished': post.get('publishedIso') or '',
+            'dateModified': post.get('lastModifiedIso') or post.get('publishedIso') or '',
+            'mainEntityOfPage': {'@type': 'WebPage', '@id': canonical_url},
+            'url': canonical_url,
+            'isPartOf': {'@type': 'WebSite', 'name': SITE_NAME, 'url': home_url},
+            'publisher': {
+                '@type': 'Organization',
+                'name': SITE_NAME,
+                'url': SITE_URL,
+                'logo': {'@type': 'ImageObject', 'url': urllib.parse.urljoin(SITE_URL, 'assets/og-default.jpg')}
+            },
+            'author': [{'@type': 'Organization', 'name': author_name}],
+            'articleSection': section_label,
+            'keywords': keywords,
+            'isAccessibleForFree': True,
+            'inLanguage': lang_code,
+            'about': [{'@type': 'Thing', 'name': key} for key in keywords[:8]],
+            'articleBody': body_text[:8000],
+        }
+    ]
+    if source_url:
+        schema_graph[-1]['isBasedOn'] = source_url
+        schema_graph[-1]['citation'] = [{'@type': 'CreativeWork', 'name': source_name or source_url, 'url': source_url}]
+    return json.dumps(schema_graph, ensure_ascii=False)
+
+
+def render_static_article_page(post: dict, lang: str = 'pt') -> str:
+    is_en = lang == 'en'
+    labels = {
+        'html_lang': 'en-US' if is_en else 'pt-BR',
+        'locale': 'en_US' if is_en else 'pt_BR',
+        'alt_locale': 'pt_BR' if is_en else 'en_US',
+        'author': 'Cosmos Week Editorial Desk' if is_en else 'Redação do Cosmos Week',
+        'author_meta': 'By Cosmos Week Editorial Desk' if is_en else 'Por Redação do Cosmos Week',
+        'back': 'Back to Cosmos Week' if is_en else 'Voltar ao Cosmos Week',
+        'home': 'Open homepage' if is_en else 'Abrir homepage',
+        'dynamic': 'Open live edition' if is_en else 'Abrir versão dinâmica',
+        'original': 'Read original source' if is_en else 'Ler fonte original',
+        'highlights': 'Key points' if is_en else 'Pontos-chave',
+        'source': 'Original source' if is_en else 'Fonte original',
+        'context': 'Editorial context' if is_en else 'Contexto editorial',
+        'language': 'English edition' if is_en else 'Edição em português',
+        'other_language': 'Ler em português' if is_en else 'Read in English',
+        'published': 'Published' if is_en else 'Publicado',
+        'updated': 'Updated' if is_en else 'Atualizado',
+        'home_url': f'{SITE_URL}?lang=en' if is_en else SITE_URL,
+        'section': (_cat_field(post.get('cat') or ('Science' if is_en else 'Ciência'), 'en').capitalize() if is_en else sanitize_plain_text(post.get('cat') or 'Ciência')),
+    }
+
+    slug = collapse_ws(str(post.get('slug') or ''))
+    canonical_url = article_static_url(slug, 'en' if is_en else 'pt')
+    alternate_url = article_static_url(slug, 'pt' if is_en else 'en')
+    dynamic_url = article_dynamic_url(slug, 'en' if is_en else 'pt')
+    title_value = post.get('title_en') if is_en else post.get('title_pt')
+    title_raw = collapse_ws(title_value or post.get('title') or SITE_NAME)
+    description_raw = article_meta_description(post, 'en' if is_en else 'pt')
+    image_raw = article_primary_image(post)
+    image_alt = article_primary_alt(post, 'en' if is_en else 'pt')
+    published_raw = post.get('publishedIso') or ''
+    modified_raw = post.get('lastModifiedIso') or post.get('publishedIso') or ''
+    date_raw = collapse_ws((post.get('date_en') if is_en else post.get('date_pt')) or post.get('date') or '')
+    time_raw = collapse_ws((post.get('time_en') if is_en else post.get('time_pt')) or post.get('time') or '')
+    read_raw = collapse_ws((post.get('read_en') if is_en else post.get('read_pt')) or post.get('read') or '')
+    source_raw = collapse_ws(post.get('source') or '')
+    source_url = collapse_ws(post.get('srcUrl') or '')
+    source_note = sanitize_plain_text((post.get('sourceNote_en') if is_en else post.get('sourceNote_pt')) or post.get('sourceNote') or '')
+    source_type_label = sanitize_plain_text((post.get('sourceTypeLabel_en') if is_en else post.get('sourceTypeLabel_pt')) or post.get('sourceTypeLabel') or '')
+    body_html = sanitize_body_html((post.get('body_en') if is_en else post.get('body_pt')) or post.get('body') or '').strip()
+    if not body_html:
+        body_html = f'<p>{html.escape(description_raw)}</p>'
+    body_text = strip_tags_for_meta(body_html)
+
+    video = post.get('video') if isinstance(post.get('video'), dict) else {}
+    video_html = ''
+    embed_url = collapse_ws(str(video.get('embedUrl') or ''))
+    file_url = collapse_ws(str(video.get('fileUrl') or ''))
+    video_caption_value = (
+        video.get('caption_en') if is_en else video.get('caption_pt')
+    ) or video.get('caption') or (video.get('title_en') if is_en else video.get('title_pt')) or video.get('title') or ''
+    video_caption = sanitize_plain_text(video_caption_value)
+    if embed_url:
+        video_html = (
+            '<figure class="preview-video">'
+            '<div class="preview-video-frame">'
+            f'<iframe src="{html_escape_attr(embed_url)}" title="{html_escape_attr(title_raw)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>'
+            '</div>'
+            + (f'<figcaption>{html.escape(video_caption)}</figcaption>' if video_caption else '')
+            + '</figure>'
+        )
+    elif file_url:
+        poster = clean_image_url(video.get('poster') or '') or ''
+        poster_attr = f' poster="{html_escape_attr(poster)}"' if poster else ''
+        video_html = (
+            '<figure class="preview-video">'
+            '<div class="preview-video-frame">'
+            f'<video controls preload="metadata" playsinline{poster_attr}><source src="{html_escape_attr(file_url)}"></video>'
+            '</div>'
+            + (f'<figcaption>{html.escape(video_caption)}</figcaption>' if video_caption else '')
+            + '</figure>'
+        )
+
+    inline_gallery = []
+    seen_inline = {image_raw}
+    for item in (post.get('inline_images') or [])[:8]:
+        if not isinstance(item, dict):
+            continue
+        src = clean_image_url(item.get('src') or '')
+        if not src or src in seen_inline:
+            continue
+        seen_inline.add(src)
+        caption = sanitize_plain_text((item.get('caption_en') if is_en else item.get('caption_pt')) or item.get('caption') or '')
+        alt = sanitize_plain_text((item.get('alt_en') if is_en else item.get('alt_pt')) or item.get('alt') or image_alt)
+        inline_gallery.append(
+            '<figure class="preview-inline-figure">'
+            f'<img src="{html_escape_attr(src)}" alt="{html_escape_attr(alt)}" loading="lazy" referrerpolicy="no-referrer">'
+            + (f'<figcaption>{html.escape(caption)}</figcaption>' if caption else '')
+            + '</figure>'
+        )
+    inline_gallery_html = ('<section class="preview-gallery">' + ''.join(inline_gallery) + '</section>') if inline_gallery else ''
+
+    highlights = []
+    highlight_source = (post.get('highlights_en') if is_en else post.get('highlights_pt')) or post.get('highlights') or []
+    for item in highlight_source[:4]:
+        clean = collapse_ws(str(item))
+        if clean:
+            highlights.append(clean)
+    highlights_html = ''
+    if highlights:
+        highlights_html = '<section class="highlights"><h2>' + labels['highlights'] + '</h2><ul>' + ''.join(
+            f'<li>{html.escape(item)}</li>' for item in highlights
+        ) + '</ul></section>'
+
+    source_html = ''
+    if source_url:
+        source_html = f'<p class="source-link"><strong>{labels["source"]}:</strong> <a href="{html_escape_attr(source_url)}" target="_blank" rel="noopener noreferrer">{html.escape(source_raw or source_url)}</a></p>'
+    elif source_raw:
+        source_html = f'<p class="source-link"><strong>{labels["source"]}:</strong> {html.escape(source_raw)}</p>'
+
+    meta_bits = [labels['author_meta']]
+    if date_raw or time_raw:
+        meta_bits.append(' '.join(bit for bit in [labels['published'], date_raw, time_raw] if bit))
+    if read_raw:
+        meta_bits.append(read_raw)
+    meta_line = ' • '.join(bit for bit in meta_bits if bit)
+
+    context_bits = [bit for bit in [source_type_label, source_note] if bit]
+    context_html = ''
+    if context_bits or source_url:
+        body = ''.join(f'<p>{html.escape(bit)}</p>' for bit in context_bits)
+        if source_url:
+            body += f'<p><a href="{html_escape_attr(source_url)}" target="_blank" rel="noopener noreferrer">{labels["original"]}</a></p>'
+        context_html = f'<section class="context-box"><h2>{labels["context"]}</h2>{body}</section>'
+
+    keywords = unique_keep_order((post.get('keywords_en') if is_en else post.get('keywords_pt')) or post.get('keywords') or [])
+    article_tags = ''.join(
+        f'  <meta property="article:tag" content="{html_escape_attr(tag)}">\n'
+        for tag in keywords[:6]
+    )
+    json_ld = article_json_ld(
+        post,
+        'en' if is_en else 'pt',
+        canonical_url,
+        labels['home_url'],
+        alternate_url,
+        title_raw,
+        description_raw,
+        image_raw,
+        labels['author'],
+        labels['section'],
+        keywords,
+        body_text,
+        source_raw,
+        source_url,
+    )
+
+    page = f"""<!DOCTYPE html>
+<html lang=\"{labels['html_lang']}\">
+<head>
+  <meta charset=\"utf-8\">
+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
+  <title>{html_escape_attr(title_raw)} | {SITE_NAME}</title>
+  <meta name=\"description\" content=\"{html_escape_attr(description_raw)}\">
+  <meta name=\"author\" content=\"{html_escape_attr(labels['author'])}\">
+  <meta name=\"robots\" content=\"index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1\">
+  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">
+  <link rel=\"canonical\" href=\"{html_escape_attr(canonical_url)}\">
+  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"{html_escape_attr(article_static_url(slug, 'pt'))}\">
+  <link rel=\"alternate\" hreflang=\"en-US\" href=\"{html_escape_attr(article_static_url(slug, 'en'))}\">
+  <link rel=\"alternate\" hreflang=\"x-default\" href=\"{html_escape_attr(article_static_url(slug, 'pt'))}\">
+  <meta property=\"og:site_name\" content=\"{SITE_NAME}\">
+  <meta property=\"og:type\" content=\"article\">
+  <meta property=\"og:locale\" content=\"{labels['locale']}\">
+  <meta property=\"og:locale:alternate\" content=\"{labels['alt_locale']}\">
+  <meta property=\"og:title\" content=\"{html_escape_attr(title_raw)} | {SITE_NAME}\">
+  <meta property=\"og:description\" content=\"{html_escape_attr(description_raw)}\">
+  <meta property=\"og:url\" content=\"{html_escape_attr(canonical_url)}\">
+  <meta property=\"og:image\" content=\"{html_escape_attr(image_raw)}\">
+  <meta property=\"og:image:secure_url\" content=\"{html_escape_attr(image_raw)}\">
+  <meta property=\"og:image:alt\" content=\"{html_escape_attr(image_alt)}\">
+  <meta property=\"article:published_time\" content=\"{html_escape_attr(published_raw)}\">
+  <meta property=\"article:modified_time\" content=\"{html_escape_attr(modified_raw)}\">
+  <meta property=\"article:section\" content=\"{html_escape_attr(labels['section'])}\">
+{article_tags}  <meta name=\"twitter:card\" content=\"summary_large_image\">
+  <meta name=\"twitter:title\" content=\"{html_escape_attr(title_raw)} | {SITE_NAME}\">
+  <meta name=\"twitter:description\" content=\"{html_escape_attr(description_raw)}\">
+  <meta name=\"twitter:image\" content=\"{html_escape_attr(image_raw)}\">
+  <meta name=\"twitter:image:alt\" content=\"{html_escape_attr(image_alt)}\">
+  <script type=\"application/ld+json\">{json_ld}</script>
+  <style>
+    :root {{
+      --bg:#f7f5f0; --panel:#ffffff; --ink:#1a1917; --muted:#6b6760; --line:#dedad2;
+      --accent:#1451a0; --accent-dark:#0d3a75; --accent-soft:#eef4fc; --shadow:0 12px 36px rgba(0,0,0,.08);
+    }}
+    * {{ box-sizing:border-box; }}
+    body {{ margin:0; background:var(--bg); color:var(--ink); font:18px/1.75 Georgia, 'Times New Roman', serif; }}
+    a {{ color:var(--accent); text-decoration:none; }}
+    a:hover {{ text-decoration:underline; }}
+    .wrap {{ max-width:900px; margin:0 auto; padding:28px 20px 64px; }}
+    .top {{ display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:18px; font:600 12px/1.4 Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; }}
+    .brand {{ color:var(--accent-dark); }}
+    .utility-links {{ display:flex; gap:10px; flex-wrap:wrap; }}
+    .pill-link {{ display:inline-flex; align-items:center; padding:8px 12px; border:1px solid var(--line); border-radius:999px; background:#fff; }}
+    .card {{ background:var(--panel); border:1px solid var(--line); box-shadow:var(--shadow); border-radius:20px; overflow:hidden; }}
+    .hero {{ width:100%; aspect-ratio:16/9; object-fit:cover; background:#ece8de; }}
+    .content {{ padding:32px 30px; }}
+    .kicker-row {{ display:flex; flex-wrap:wrap; gap:10px; margin:0 0 16px; font:700 11px/1.2 Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; }}
+    .kicker-row span {{ display:inline-flex; align-items:center; padding:7px 11px; border-radius:999px; background:#eef4fc; color:var(--accent-dark); border:1px solid #d7e4f8; }}
+    h1 {{ font-size:clamp(2rem,4vw,3.1rem); line-height:1.08; margin:0 0 12px; }}
+    .dek {{ font-size:1.08rem; color:#2f2b26; margin:0 0 18px; max-width:760px; }}
+    .meta {{ color:var(--muted); font:500 13px/1.6 Arial, sans-serif; letter-spacing:.03em; text-transform:uppercase; margin-bottom:24px; }}
+    .body p {{ margin:0 0 1.25em; }}
+    .preview-video {{ margin:0 0 24px; }}
+    .preview-video-frame {{ position:relative; width:100%; aspect-ratio:16/9; border-radius:14px; overflow:hidden; background:#0b1220; }}
+    .preview-video-frame iframe, .preview-video-frame video {{ width:100%; height:100%; border:0; display:block; }}
+    .preview-video figcaption, .preview-inline-figure figcaption {{ color:var(--muted); font:400 14px/1.55 Arial, sans-serif; margin-top:8px; }}
+    .preview-gallery {{ display:grid; grid-template-columns:1fr; gap:18px; margin:24px 0 8px; }}
+    .preview-inline-figure {{ margin:0; }}
+    .preview-inline-figure img {{ width:100%; border-radius:14px; display:block; background:#ece8de; }}
+    .highlights, .context-box {{ margin:26px 0; padding:18px 20px; border-radius:14px; background:var(--accent-soft); border:1px solid #d9e6f8; }}
+    .highlights h2, .context-box h2 {{ margin:0 0 10px; font:700 1rem/1.3 Arial, sans-serif; }}
+    .highlights ul {{ margin:0; padding-left:20px; }}
+    .highlights li {{ margin:0 0 8px; }}
+    .context-box p {{ margin:0 0 10px; font:400 15px/1.65 Arial, sans-serif; }}
+    .context-box p:last-child {{ margin-bottom:0; }}
+    .source-link {{ margin-top:22px; color:#333; font:400 15px/1.6 Arial, sans-serif; }}
+    .footer-links {{ display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; font:600 14px/1.4 Arial, sans-serif; }}
+    .btn {{ display:inline-flex; align-items:center; justify-content:center; padding:12px 16px; border-radius:999px; border:1px solid var(--line); background:#fff; }}
+    .btn.primary {{ background:var(--accent); color:#fff; border-color:var(--accent); }}
+    @media (max-width: 640px) {{
+      body {{ font-size:17px; }}
+      .content {{ padding:24px 18px; }}
+      .wrap {{ padding:18px 14px 44px; }}
+      .top {{ align-items:flex-start; }}
+    }}
+  </style>
+</head>
+<body>
+  <div class=\"wrap\">
+    <div class=\"top\">
+      <div class=\"brand\">Cosmos Week</div>
+      <div class=\"utility-links\">
+        <a class=\"pill-link\" href=\"{html_escape_attr(labels['home_url'])}\">{labels['back']}</a>
+        <a class=\"pill-link\" href=\"{html_escape_attr(alternate_url)}\">{labels['other_language']}</a>
+      </div>
+    </div>
+    <article class=\"card\">
+      <img class=\"hero\" src=\"{html_escape_attr(image_raw)}\" alt=\"{html_escape_attr(image_alt)}\">
+      <div class=\"content\">
+        <div class=\"kicker-row\">
+          <span>{html.escape(labels['section'])}</span>
+          <span>{labels['language']}</span>
+          {f'<span>{html.escape(source_type_label)}</span>' if source_type_label else ''}
+        </div>
+        <h1>{html.escape(title_raw)}</h1>
+        <p class=\"dek\">{html.escape(description_raw)}</p>
+        <p class=\"meta\">{html.escape(meta_line)}</p>
+        {video_html}
+        {highlights_html}
+        <div class=\"body\">{body_html}</div>
+        {inline_gallery_html}
+        {context_html}
+        {source_html}
+        <div class=\"footer-links\">
+          <a class=\"btn primary\" href=\"{html_escape_attr(labels['home_url'])}\">{labels['home']}</a>
+          <a class=\"btn\" href=\"{html_escape_attr(dynamic_url)}\">{labels['dynamic']}</a>
+        </div>
+      </div>
+    </article>
+  </div>
+</body>
+</html>
+"""
+    return page
+
+
 def sort_posts_desc(posts: list[dict]) -> list[dict]:
     return sorted(posts, key=lambda p: p.get('publishedIso', ''), reverse=True)
 
@@ -4011,8 +4453,9 @@ def merge_archive_posts(current_posts: list[dict]) -> list[dict]:
     return archive_posts
 
 def save_archive_posts(posts: list[dict]) -> None:
+    sanitized = sanitize_posts(sort_posts_desc(posts))
     ARCHIVE_POSTS_JSON.write_text(
-        json.dumps(sort_posts_desc(posts), ensure_ascii=False, indent=2),
+        json.dumps(sanitized, ensure_ascii=False, indent=2),
         encoding='utf-8'
     )
 
@@ -4021,220 +4464,22 @@ def build_preview_pages(posts: list[dict]) -> None:
         shutil.rmtree(PREVIEW_DIR)
     PREVIEW_DIR.mkdir(parents=True, exist_ok=True)
 
+    if PREVIEW_EN_DIR.exists():
+        shutil.rmtree(PREVIEW_EN_DIR)
+    PREVIEW_EN_DIR.mkdir(parents=True, exist_ok=True)
+
     for post in sort_posts_desc(posts):
         slug = collapse_ws(str(post.get('slug') or ''))
         if not slug:
             continue
 
-        article_dir = PREVIEW_DIR / slug
-        article_dir.mkdir(parents=True, exist_ok=True)
+        article_dir_pt = PREVIEW_DIR / slug
+        article_dir_pt.mkdir(parents=True, exist_ok=True)
+        (article_dir_pt / 'index.html').write_text(render_static_article_page(post, 'pt'), encoding='utf-8')
 
-        share_url = post.get('shareUrl') or urllib.parse.urljoin(SITE_URL, f'noticia/{slug}/')
-        real_url = post.get('realUrl') or post.get('canonicalUrl') or f'{SITE_URL}?article={slug}'
-        title_raw = collapse_ws(post.get('title_pt') or post.get('title') or SITE_NAME)
-        description_raw = truncate(
-            strip_tags_for_meta(post.get('excerpt_pt') or post.get('excerpt') or post.get('sub_pt') or post.get('sub') or ''),
-            220
-        )
-        image_raw = clean_image_url(post.get('img') or '') or urllib.parse.urljoin(SITE_URL, 'assets/og-default.jpg')
-        published_raw = post.get('publishedIso') or ''
-        modified_raw = post.get('lastModifiedIso') or post.get('publishedIso') or ''
-        category_raw = collapse_ws(post.get('cat') or 'Ciência')
-        date_raw = collapse_ws(post.get('date_pt') or post.get('date') or '')
-        time_raw = collapse_ws(post.get('time_pt') or post.get('time') or '')
-        read_raw = collapse_ws(post.get('read_pt') or post.get('read') or '')
-        source_raw = collapse_ws(post.get('source') or '')
-        source_url = collapse_ws(post.get('srcUrl') or '')
-        body_html = sanitize_body_html(post.get('body_pt') or post.get('body') or '').strip()
-        if not body_html:
-            body_html = f'<p>{html.escape(description_raw)}</p>'
-
-        video = post.get('video') if isinstance(post.get('video'), dict) else {}
-        video_html = ''
-        embed_url = collapse_ws(str(video.get('embedUrl') or ''))
-        file_url = collapse_ws(str(video.get('fileUrl') or ''))
-        video_caption = sanitize_plain_text(video.get('caption_pt') or video.get('caption') or video.get('title_pt') or video.get('title') or '')
-        if embed_url:
-            video_html = (
-                '<figure class="preview-video">'
-                '<div class="preview-video-frame">'
-                f'<iframe src="{html_escape_attr(embed_url)}" title="{html_escape_attr(title_raw)}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>'
-                '</div>'
-                + (f'<figcaption>{html.escape(video_caption)}</figcaption>' if video_caption else '')
-                + '</figure>'
-            )
-        elif file_url:
-            poster = clean_image_url(video.get('poster') or '') or ''
-            poster_attr = f' poster="{html_escape_attr(poster)}"' if poster else ''
-            video_html = (
-                '<figure class="preview-video">'
-                '<div class="preview-video-frame">'
-                f'<video controls preload="metadata" playsinline{poster_attr}>'
-                f'<source src="{html_escape_attr(file_url)}">'
-                '</video>'
-                '</div>'
-                + (f'<figcaption>{html.escape(video_caption)}</figcaption>' if video_caption else '')
-                + '</figure>'
-            )
-
-        inline_gallery = []
-        seen_inline = set()
-        for item in (post.get('inline_images') or [])[:8]:
-            if not isinstance(item, dict):
-                continue
-            src = clean_image_url(item.get('src') or '')
-            if not src or src in seen_inline or src == image_raw:
-                continue
-            seen_inline.add(src)
-            caption = sanitize_plain_text(item.get('caption_pt') or item.get('caption') or '')
-            alt = sanitize_plain_text(item.get('alt_pt') or item.get('alt') or title_raw)
-            inline_gallery.append(
-                '<figure class="preview-inline-figure">'
-                f'<img src="{html_escape_attr(src)}" alt="{html_escape_attr(alt)}" loading="lazy" referrerpolicy="no-referrer">'
-                + (f'<figcaption>{html.escape(caption)}</figcaption>' if caption else '')
-                + '</figure>'
-            )
-        inline_gallery_html = ('<section class="preview-gallery">' + ''.join(inline_gallery) + '</section>') if inline_gallery else ''
-
-        highlights = []
-        for item in (post.get('highlights_pt') or post.get('highlights') or [])[:4]:
-            clean = collapse_ws(str(item))
-            if clean:
-                highlights.append(clean)
-
-        highlights_html = ''
-        if highlights:
-            highlights_html = '<section class="highlights"><h2>Pontos-chave</h2><ul>' + ''.join(
-                f'<li>{html.escape(item)}</li>' for item in highlights
-            ) + '</ul></section>'
-
-        source_html = ''
-        if source_url:
-            source_html = f'<p class="source-link"><strong>Fonte original:</strong> <a href="{html_escape_attr(source_url)}" target="_blank" rel="noopener noreferrer">{html.escape(source_raw or source_url)}</a></p>'
-        elif source_raw:
-            source_html = f'<p class="source-link"><strong>Fonte original:</strong> {html.escape(source_raw)}</p>'
-
-        meta_parts = [part for part in (category_raw, date_raw, time_raw, read_raw) if part]
-        meta_line = ' • '.join(meta_parts)
-
-        json_ld = json.dumps({
-            '@context': 'https://schema.org',
-            '@type': 'NewsArticle',
-            'headline': title_raw,
-            'description': description_raw,
-            'image': [image_raw],
-            'datePublished': published_raw,
-            'dateModified': modified_raw,
-            'mainEntityOfPage': share_url,
-            'url': share_url,
-            'publisher': {
-                '@type': 'Organization',
-                'name': SITE_NAME,
-                'url': SITE_URL,
-                'logo': {
-                    '@type': 'ImageObject',
-                    'url': urllib.parse.urljoin(SITE_URL, 'assets/og-default.jpg')
-                }
-            },
-            'author': [{'@type': 'Organization', 'name': SITE_NAME}],
-            'articleSection': category_raw,
-            'keywords': unique_keep_order(post.get('keywords_pt') or post.get('keywords') or []),
-            'isAccessibleForFree': True,
-            'inLanguage': 'pt-BR'
-        }, ensure_ascii=False)
-
-        page = f"""<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{html_escape_attr(title_raw)} - {SITE_NAME}</title>
-  <meta name="description" content="{html_escape_attr(description_raw)}">
-  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
-  <link rel="canonical" href="{html_escape_attr(share_url)}">
-  <meta property="og:site_name" content="{SITE_NAME}">
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="{html_escape_attr(title_raw)} - {SITE_NAME}">
-  <meta property="og:description" content="{html_escape_attr(description_raw)}">
-  <meta property="og:url" content="{html_escape_attr(share_url)}">
-  <meta property="og:image" content="{html_escape_attr(image_raw)}">
-  <meta property="og:image:alt" content="{html_escape_attr(title_raw)}">
-  <meta property="article:published_time" content="{html_escape_attr(published_raw)}">
-  <meta property="article:modified_time" content="{html_escape_attr(modified_raw)}">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{html_escape_attr(title_raw)} - {SITE_NAME}">
-  <meta name="twitter:description" content="{html_escape_attr(description_raw)}">
-  <meta name="twitter:image" content="{html_escape_attr(image_raw)}">
-  <script type="application/ld+json">{json_ld}</script>
-  <style>
-    :root {{
-      --bg:#f7f5f0; --panel:#ffffff; --ink:#1a1917; --muted:#6b6760; --line:#dedad2;
-      --accent:#1451a0; --accent-dark:#0d3a75; --shadow:0 10px 30px rgba(0,0,0,.08);
-    }}
-    * {{ box-sizing:border-box; }}
-    body {{ margin:0; background:var(--bg); color:var(--ink); font:18px/1.75 Georgia, 'Times New Roman', serif; }}
-    a {{ color:var(--accent); text-decoration:none; }}
-    a:hover {{ text-decoration:underline; }}
-    .wrap {{ max-width:860px; margin:0 auto; padding:32px 20px 64px; }}
-    .top {{ display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:18px; font:600 12px/1.4 Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; }}
-    .brand {{ color:var(--accent-dark); }}
-    .card {{ background:var(--panel); border:1px solid var(--line); box-shadow:var(--shadow); border-radius:18px; overflow:hidden; }}
-    .hero {{ width:100%; aspect-ratio:16/9; object-fit:cover; background:#ece8de; }}
-    .content {{ padding:28px; }}
-    h1 {{ font-size:clamp(2rem,4vw,3rem); line-height:1.12; margin:0 0 14px; }}
-    .dek {{ font-size:1.08rem; color:#333; margin:0 0 18px; }}
-    .meta {{ color:var(--muted); font:500 13px/1.5 Arial, sans-serif; letter-spacing:.04em; text-transform:uppercase; margin-bottom:22px; }}
-    .body p {{ margin:0 0 1.2em; }}
-    .preview-video {{ margin:0 0 24px; }}
-    .preview-video-frame {{ position:relative; width:100%; aspect-ratio:16/9; border-radius:14px; overflow:hidden; background:#0b1220; }}
-    .preview-video-frame iframe, .preview-video-frame video {{ width:100%; height:100%; border:0; display:block; }}
-    .preview-video figcaption, .preview-inline-figure figcaption {{ color:var(--muted); font:400 14px/1.55 Arial, sans-serif; margin-top:8px; }}
-    .preview-gallery {{ display:grid; grid-template-columns:1fr; gap:18px; margin:22px 0 8px; }}
-    .preview-inline-figure {{ margin:0; }}
-    .preview-inline-figure img {{ width:100%; border-radius:14px; display:block; background:#ece8de; }}
-    .highlights {{ margin:26px 0; padding:18px 20px; border-radius:14px; background:#eef4fc; border:1px solid #d9e6f8; }}
-    .highlights h2 {{ margin:0 0 10px; font:700 1rem/1.3 Arial, sans-serif; }}
-    .highlights ul {{ margin:0; padding-left:20px; }}
-    .highlights li {{ margin:0 0 8px; }}
-    .footer-links {{ display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; font:600 14px/1.4 Arial, sans-serif; }}
-    .btn {{ display:inline-flex; align-items:center; justify-content:center; padding:12px 16px; border-radius:999px; border:1px solid var(--line); background:#fff; }}
-    .btn.primary {{ background:var(--accent); color:#fff; border-color:var(--accent); }}
-    .source-link {{ margin-top:22px; color:#333; font:400 15px/1.6 Arial, sans-serif; }}
-    @media (max-width: 640px) {{
-      body {{ font-size:17px; }}
-      .content {{ padding:22px 18px; }}
-      .wrap {{ padding:20px 14px 46px; }}
-    }}
-  </style>
-</head>
-<body>
-  <div class="wrap">
-    <div class="top">
-      <div class="brand">Cosmos Week</div>
-      <a href="{html_escape_attr(SITE_URL)}">Voltar ao portal</a>
-    </div>
-    <article class="card">
-      <img class="hero" src="{html_escape_attr(image_raw)}" alt="{html_escape_attr(title_raw)}">
-      <div class="content">
-        <h1>{html.escape(title_raw)}</h1>
-        <p class="dek">{html.escape(description_raw)}</p>
-        <p class="meta">{html.escape(meta_line)}</p>
-        {video_html}
-        {highlights_html}
-        <div class="body">{body_html}</div>
-        {inline_gallery_html}
-        {source_html}
-        <div class="footer-links">
-          <a class="btn primary" href="{html_escape_attr(SITE_URL)}">Abrir homepage</a>
-          <a class="btn" href="{html_escape_attr(real_url)}">Abrir versão dinâmica</a>
-        </div>
-      </div>
-    </article>
-  </div>
-</body>
-</html>
-"""
-        (article_dir / 'index.html').write_text(page, encoding='utf-8')
+        article_dir_en = PREVIEW_EN_DIR / slug
+        article_dir_en.mkdir(parents=True, exist_ok=True)
+        (article_dir_en / 'index.html').write_text(render_static_article_page(post, 'en'), encoding='utf-8')
 
 
 # ── Output generation ─────────────────────────────────────────────────────────
@@ -4282,24 +4527,36 @@ def build_sitemap(posts: list[dict], archive_posts: Optional[list[dict]] = None)
     today = datetime.now(timezone.utc).date().isoformat()
     static_urls = [
         (SITE_URL, today),
+        (f'{SITE_URL}?lang=en', today),
         (f'{SITE_URL}?page=arquivo', today),
+        (f'{SITE_URL}?page=arquivo&lang=en', today),
         (f'{SITE_URL}?page=sobre', today),
+        (f'{SITE_URL}?page=sobre&lang=en', today),
         (f'{SITE_URL}?page=padroes', today),
+        (f'{SITE_URL}?page=padroes&lang=en', today),
         (urllib.parse.urljoin(SITE_URL, 'anuncie.html'), today),
         (urllib.parse.urljoin(SITE_URL, 'media-kit.html'), today),
         (urllib.parse.urljoin(SITE_URL, 'politica-de-privacidade.html'), today),
         (urllib.parse.urljoin(SITE_URL, 'termos-de-uso.html'), today),
     ]
-    dynamic_urls = [
-        (post.get('shareUrl_pt') or post.get('shareUrl') or post['canonicalUrl'], str(post.get('publishedIso') or '')[:10] or today)
-        for post in posts
-    ]
+    dynamic_urls = []
+    for post in posts:
+        published = str(post.get('publishedIso') or '')[:10] or today
+        pt_url = post.get('shareUrl_pt') or post.get('shareUrl') or post.get('canonicalUrl')
+        en_url = post.get('shareUrl_en') or article_static_url(post.get('slug', ''), 'en')
+        if pt_url:
+            dynamic_urls.append((pt_url, published))
+        if en_url:
+            dynamic_urls.append((en_url, published))
     archive_urls = []
     for post in archive_posts or []:
-        share_url = post.get('shareUrl') or urllib.parse.urljoin(SITE_URL, f"noticia/{post.get('slug', '').strip()}/")
         published = str(post.get('publishedIso') or '')[:10] or today
-        if share_url:
-            archive_urls.append((share_url, published))
+        pt_url = post.get('shareUrl_pt') or post.get('shareUrl') or article_static_url(post.get('slug', '').strip(), 'pt')
+        en_url = post.get('shareUrl_en') or article_static_url(post.get('slug', '').strip(), 'en')
+        if pt_url:
+            archive_urls.append((pt_url, published))
+        if en_url:
+            archive_urls.append((en_url, published))
     all_urls = unique_keep_order(static_urls + dynamic_urls + archive_urls)
     body = '\n'.join(
         f'  <url><loc>{xml_escape(url)}</loc><lastmod>{lastmod}</lastmod></url>'

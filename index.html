@@ -51,17 +51,26 @@
   <meta property="og:description" content="Notícias científicas em português, com contexto, rigor e fontes primárias transparentes.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://www.cosmosweek.com/assets/og-default.jpg">
+  <meta property="og:image:alt" id="ogImageAltMeta" content="Cosmos Week">
   <meta property="og:url" content="https://www.cosmosweek.com/">
+  <meta property="og:locale" id="ogLocaleMeta" content="pt_BR">
+  <meta property="og:locale:alternate" id="ogLocaleAlternateMeta" content="en_US">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Cosmos Week — Notícias científicas do universo">
   <meta name="twitter:description" content="Notícias científicas em português, com contexto, rigor e fontes primárias transparentes.">
   <meta name="twitter:image" content="https://www.cosmosweek.com/assets/og-default.jpg">
+  <meta name="twitter:image:alt" id="twitterImageAltMeta" content="Cosmos Week">
+  <meta name="author" id="authorMeta" content="Redação do Cosmos Week">
   <meta name="robots" id="robotsMeta" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   <meta name="news_keywords" id="newsKeywordsMeta" content="astronomia, astrofísica, cosmologia, ciência">
   <meta property="og:site_name" content="Cosmos Week">
   <meta property="article:published_time" id="articlePublishedMeta" content="">
   <meta property="article:modified_time" id="articleModifiedMeta" content="">
+  <meta property="article:section" id="articleSectionMeta" content="">
   <link rel="canonical" id="canonicalLink" href="https://www.cosmosweek.com/">
+  <link rel="alternate" hreflang="pt-BR" id="alternatePtLink" href="https://www.cosmosweek.com/">
+  <link rel="alternate" hreflang="en-US" id="alternateEnLink" href="https://www.cosmosweek.com/?lang=en">
+  <link rel="alternate" hreflang="x-default" id="alternateDefaultLink" href="https://www.cosmosweek.com/">
   <link rel="alternate" type="application/rss+xml" title="Cosmos Week RSS" href="feed.xml">
 
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7289727408346815"
@@ -1958,6 +1967,12 @@
 
   let DB = hydrateArchive(window.postsData || []);
   let currentLang = localStorage.getItem('cw_lang') === 'en' ? 'en' : 'pt';
+  try {
+    const _params = new URLSearchParams(window.location.search);
+    const _path = window.location.pathname || '';
+    if ((_params.get('lang') || '').toLowerCase() === 'en' || /^\/en\/news\/[^\/]+\/?$/i.test(_path)) currentLang = 'en';
+    if ((_params.get('lang') || '').toLowerCase() === 'pt' || /^\/noticia\/[^\/]+\/?$/i.test(_path)) currentLang = 'pt';
+  } catch (err) {}
   let currentPage = 'home';
   let currentArticleSlug = null;
   let currentCategory = 'all';
@@ -2084,44 +2099,55 @@
     return `src="${primary}" alt="${alt}" loading="${loading}" decoding="${decode}" onerror="if(this.src!=='${fallback}'){this.src='${fallback}'}"`;
   }
 
+  function withLanguageParam(url, lang = currentLang) {
+    try {
+      const resolved = new URL(url, window.location.origin);
+      if (lang === 'en') resolved.searchParams.set('lang', 'en');
+      else resolved.searchParams.delete('lang');
+      return resolved.toString();
+    } catch {
+      return url;
+    }
+  }
+
+  function articleAlternateUrls(post) {
+    const slug = encodeURIComponent(post?.slug || '');
+    return {
+      pt: post?.canonicalUrl_pt || post?.shareUrl_pt || `${SITE.canonicalBaseUrl}noticia/${slug}/`,
+      en: post?.canonicalUrl_en || post?.shareUrl_en || `${SITE.canonicalBaseUrl}en/news/${slug}/`,
+      xDefault: post?.canonicalUrl_pt || post?.shareUrl_pt || `${SITE.canonicalBaseUrl}noticia/${slug}/`
+    };
+  }
+
   function getURLForArticle(post) {
-    return `${SITE.runtimeBasePath}?article=${encodeURIComponent(post.slug)}`;
+    return withLanguageParam(`${SITE.runtimeBasePath}?article=${encodeURIComponent(post.slug)}`);
   }
 
   function getRealURLForArticle(post) {
     if (currentLang === 'en' && post?.realUrl_en) return post.realUrl_en;
     if (post?.realUrl_pt) return post.realUrl_pt;
     if (post?.realUrl) return post.realUrl;
-    if (currentLang === 'en' && post?.canonicalUrl_en) return post.canonicalUrl_en;
-    if (post?.canonicalUrl_pt) return post.canonicalUrl_pt;
-    if (post?.canonicalUrl) return post.canonicalUrl;
-    return `${SITE.canonicalBaseUrl}?article=${encodeURIComponent(post?.slug || '')}`;
+    return withLanguageParam(`${SITE.canonicalBaseUrl}?article=${encodeURIComponent(post?.slug || '')}`);
   }
 
   function getShareURLForArticle(post) {
-    if (currentLang === 'en') return getRealURLForArticle(post);
-    if (post?.shareUrl_pt) return post.shareUrl_pt;
-    if (post?.shareUrl) return post.shareUrl;
-    return `${SITE.canonicalBaseUrl}noticia/${encodeURIComponent(post?.slug || '')}/`;
+    const urls = articleAlternateUrls(post);
+    return currentLang === 'en' ? urls.en : urls.pt;
   }
 
   function getCanonicalURLForArticle(post) {
-    if (currentLang === 'en') return getRealURLForArticle(post);
-    if (post?.shareUrl_pt) return post.shareUrl_pt;
-    if (post?.shareUrl) return post.shareUrl;
-    if (post?.canonicalUrl_pt) return post.canonicalUrl_pt;
-    if (post?.canonicalUrl) return post.canonicalUrl;
-    return `${SITE.canonicalBaseUrl}noticia/${encodeURIComponent(post?.slug || '')}/`;
+    const urls = articleAlternateUrls(post);
+    return currentLang === 'en' ? urls.en : urls.pt;
   }
 
   function pageUrl(page) {
     const map = { archive:'?page=arquivo', about:'?page=sobre', standards:'?page=padroes', search:'?page=busca' };
-    return `${SITE.runtimeBasePath}${map[page] || ''}`;
+    return withLanguageParam(`${SITE.runtimeBasePath}${map[page] || ''}`);
   }
 
   function canonicalPageUrl(page) {
     const map = { archive:'?page=arquivo', about:'?page=sobre', standards:'?page=padroes', search:'?page=busca' };
-    return `${SITE.canonicalBaseUrl}${map[page] || ''}`;
+    return withLanguageParam(`${SITE.canonicalBaseUrl}${map[page] || ''}`);
   }
 
   function keywordListFor(post) {
@@ -3220,7 +3246,7 @@
     else goHome();
   }
 
-  function goHome() { safeReplaceState(SITE.runtimeBasePath); renderHome(); }
+  function goHome() { safeReplaceState(pageUrl('home')); renderHome(); }
 
   function openArticle(slug) {
     const post = DB.find(item => item.slug === slug);
@@ -3234,11 +3260,24 @@
     searchTimer = setTimeout(() => renderSearch(value.trim()), 220);
   }
 
+  function syncCurrentRouteUrl() {
+    if (currentPage === 'search') return;
+    if (currentPage === 'article' && currentArticleSlug) {
+      const post = DB.find(item => item.slug === currentArticleSlug);
+      if (post) { safeReplaceState(getURLForArticle(post)); return; }
+    }
+    if (currentPage === 'archive')   { safeReplaceState(pageUrl('archive')); return; }
+    if (currentPage === 'about')     { safeReplaceState(pageUrl('about')); return; }
+    if (currentPage === 'standards') { safeReplaceState(pageUrl('standards')); return; }
+    safeReplaceState(pageUrl('home'));
+  }
+
   function setLanguage(lang) {
     currentLang = lang === 'en' ? 'en' : 'pt';
     localStorage.setItem('cw_lang', currentLang);
     applyUIStrings();
     rerenderCurrentView();
+    syncCurrentRouteUrl();
   }
 
   function applyUIStrings() {
@@ -3511,9 +3550,17 @@
   function updateMetaHome() {
     const title = currentLang==='en' ? SITE.homeTitleEn : SITE.homeTitlePt;
     const description = currentLang==='en' ? SITE.homeDescriptionEn : SITE.homeDescriptionPt;
-    updateMetaCommon(title, description, SITE.canonicalBaseUrl, IMG.pillars, null, {
+    updateMetaCommon(title, description, canonicalPageUrl('home'), IMG.pillars, null, {
       robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
-      newsKeywords: 'astronomia, astrofísica, cosmologia, ciência, espaço'
+      newsKeywords: 'astronomia, astrofísica, cosmologia, ciência, espaço',
+      alternatePt: withLanguageParam(SITE.canonicalBaseUrl, 'pt'),
+      alternateEn: withLanguageParam(SITE.canonicalBaseUrl, 'en'),
+      alternateDefault: withLanguageParam(SITE.canonicalBaseUrl, 'pt'),
+      locale: currentLang === 'en' ? 'en_US' : 'pt_BR',
+      localeAlternate: currentLang === 'en' ? 'pt_BR' : 'en_US',
+      imageAlt: 'Cosmos Week',
+      author: currentLang === 'en' ? 'Cosmos Week Editorial Desk' : 'Redação do Cosmos Week',
+      ogType: 'website'
     });
   }
 
@@ -3532,38 +3579,67 @@
     };
     updateMetaCommon(`${titles[page]} — ${SITE.title}`, descriptions[page], canonicalPageUrl(page), IMG.pillars, null, {
       robots: page === 'search' ? 'noindex,follow' : 'index,follow',
-      newsKeywords: 'Notícias Científicas, astronomia, astrofísica, cosmologia'
+      newsKeywords: 'Notícias Científicas, astronomia, astrofísica, cosmologia',
+      alternatePt: withLanguageParam(canonicalPageUrl(page), 'pt'),
+      alternateEn: withLanguageParam(canonicalPageUrl(page), 'en'),
+      alternateDefault: withLanguageParam(canonicalPageUrl(page), 'pt'),
+      locale: currentLang === 'en' ? 'en_US' : 'pt_BR',
+      localeAlternate: currentLang === 'en' ? 'pt_BR' : 'en_US',
+      imageAlt: titles[page],
+      author: currentLang === 'en' ? 'Cosmos Week Editorial Desk' : 'Redação do Cosmos Week',
+      ogType: 'website'
     });
   }
 
   function updateMetaArticle(post) {
     const title = `${textFor(post,'title')} — ${SITE.title}`;
-    const description = textFor(post,'excerpt');
+    const description = textFor(post,'excerpt') || textFor(post,'sub') || textFor(post,'title');
     const url = getCanonicalURLForArticle(post);
+    const alternates = articleAlternateUrls(post);
     const keywords = keywordListFor(post);
+    const langCode = currentLang === 'en' ? 'en-US' : 'pt-BR';
+    const authorName = currentLang === 'en' ? 'Cosmos Week Editorial Desk' : 'Redação do Cosmos Week';
+    const image = primaryImage(post);
     const jsonLd = [
-      { '@context':'https://schema.org','@type':'NewsMediaOrganization', name:SITE.title, url:SITE.canonicalBaseUrl, logo:{'@type':'ImageObject',url:IMG.pillars} },
+      { '@context':'https://schema.org','@type':'NewsMediaOrganization', '@id':`${SITE.canonicalBaseUrl}#organization`, name:SITE.title, url:SITE.canonicalBaseUrl, logo:{'@type':'ImageObject',url:IMG.pillars} },
       { '@context':'https://schema.org','@type':'BreadcrumbList', itemListElement:[
-        {'@type':'ListItem',position:1,name:currentLang==='en'?'Home':'Início',item:SITE.canonicalBaseUrl},
-        {'@type':'ListItem',position:2,name:prettyCategory(post.cat),item:`${SITE.canonicalBaseUrl}?category=${encodeURIComponent(post.cat)}`},
+        {'@type':'ListItem',position:1,name:currentLang==='en'?'Home':'Início',item:withLanguageParam(SITE.canonicalBaseUrl, currentLang)},
+        {'@type':'ListItem',position:2,name:prettyCategory(post.cat),item:withLanguageParam(SITE.canonicalBaseUrl, currentLang)},
         {'@type':'ListItem',position:3,name:textFor(post,'title'),item:url}
       ]},
+      { '@context':'https://schema.org','@type':'WebPage', '@id':url, url, name:title, description,
+        inLanguage:langCode,
+        isPartOf:{'@type':'WebSite',name:SITE.title,url:withLanguageParam(SITE.canonicalBaseUrl, currentLang)},
+        primaryImageOfPage:{'@type':'ImageObject',url:image},
+        hasPart:[{'@type':'WebPage',url:currentLang==='en'?alternates.pt:alternates.en,inLanguage:currentLang==='en'?'pt-BR':'en-US'}]
+      },
       { '@context':'https://schema.org','@type':'NewsArticle',
-        headline:textFor(post,'title'), description, image:[primaryImage(post)],
+        headline:textFor(post,'title'), description, image:[image], thumbnailUrl:image,
         datePublished:post.publishedIso, dateModified:post.lastModifiedIso||post.publishedIso,
-        inLanguage:currentLang==='en'?'en':'pt-BR', isAccessibleForFree:true,
+        inLanguage:langCode, isAccessibleForFree:true,
         articleSection:prettyCategory(post.cat), keywords,
-        author:[{'@type':'Organization',name:tr('newsroom')}],
+        author:[{'@type':'Organization',name:authorName}],
         publisher:{'@type':'Organization',name:SITE.title,logo:{'@type':'ImageObject',url:IMG.pillars}},
-        mainEntityOfPage:url,
-        about:keywords.map(k => ({'@type':'Thing',name:k}))
+        mainEntityOfPage:{'@type':'WebPage','@id':url},
+        about:keywords.map(k => ({'@type':'Thing',name:k})),
+        isBasedOn: post.srcUrl || undefined,
+        citation: post.srcUrl ? [{'@type':'CreativeWork', name:post.source || post.srcUrl, url:post.srcUrl}] : undefined
       }
     ];
-    updateMetaCommon(title, description, url, primaryImage(post), jsonLd, {
+    updateMetaCommon(title, description, url, image, jsonLd, {
       robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
       newsKeywords: keywords.join(', '),
       published: post.publishedIso,
-      modified: post.lastModifiedIso || post.publishedIso
+      modified: post.lastModifiedIso || post.publishedIso,
+      alternatePt: alternates.pt,
+      alternateEn: alternates.en,
+      alternateDefault: alternates.xDefault,
+      locale: currentLang === 'en' ? 'en_US' : 'pt_BR',
+      localeAlternate: currentLang === 'en' ? 'pt_BR' : 'en_US',
+      imageAlt: textFor(post,'title'),
+      author: authorName,
+      section: prettyCategory(post.cat),
+      ogType: 'article'
     });
   }
 
@@ -3572,18 +3648,29 @@
     document.querySelector('meta[name="description"]').setAttribute('content', description);
     document.querySelector('meta[property="og:title"]').setAttribute('content', title);
     document.querySelector('meta[property="og:description"]').setAttribute('content', description);
+    document.querySelector('meta[property="og:type"]').setAttribute('content', options.ogType || 'website');
     document.querySelector('meta[property="og:url"]').setAttribute('content', url);
     document.querySelector('meta[property="og:image"]').setAttribute('content', image);
+    document.getElementById('ogImageAltMeta').setAttribute('content', options.imageAlt || title);
+    document.getElementById('ogLocaleMeta').setAttribute('content', options.locale || 'pt_BR');
+    document.getElementById('ogLocaleAlternateMeta').setAttribute('content', options.localeAlternate || 'en_US');
     document.querySelector('meta[name="twitter:title"]').setAttribute('content', title);
     document.querySelector('meta[name="twitter:description"]').setAttribute('content', description);
     document.querySelector('meta[name="twitter:image"]').setAttribute('content', image);
+    document.getElementById('twitterImageAltMeta').setAttribute('content', options.imageAlt || title);
+    document.getElementById('authorMeta').setAttribute('content', options.author || (currentLang === 'en' ? 'Cosmos Week Editorial Desk' : 'Redação do Cosmos Week'));
     document.getElementById('canonicalLink').setAttribute('href', url);
+    document.getElementById('alternatePtLink').setAttribute('href', options.alternatePt || withLanguageParam(url, 'pt'));
+    document.getElementById('alternateEnLink').setAttribute('href', options.alternateEn || withLanguageParam(url, 'en'));
+    document.getElementById('alternateDefaultLink').setAttribute('href', options.alternateDefault || withLanguageParam(url, 'pt'));
     document.getElementById('robotsMeta').setAttribute('content', options.robots||'index,follow');
     document.getElementById('newsKeywordsMeta').setAttribute('content', options.newsKeywords||'astronomia, ciência');
     document.getElementById('articlePublishedMeta').setAttribute('content', options.published||'');
     document.getElementById('articleModifiedMeta').setAttribute('content', options.modified||options.published||'');
+    document.getElementById('articleSectionMeta').setAttribute('content', options.section || '');
     document.getElementById('siteJsonLd').textContent = JSON.stringify(articleJsonLd || {
-      '@context':'https://schema.org','@type':'WebSite', name:SITE.title, url:SITE.canonicalBaseUrl, description
+      '@context':'https://schema.org','@type':'WebSite', name:SITE.title, url:withLanguageParam(SITE.canonicalBaseUrl, currentLang), description,
+      inLanguage: currentLang === 'en' ? 'en-US' : 'pt-BR'
     });
   }
 
@@ -3602,8 +3689,12 @@
     const params = new URLSearchParams(window.location.search);
     const article = params.get('article');
     const page = params.get('page');
-    const pathMatch = (window.location.pathname || '').match(/^\/noticia\/([^\/]+)\/?$/i);
-    const articleFromPath = pathMatch ? decodeURIComponent(pathMatch[1]) : '';
+    const path = window.location.pathname || '';
+    const pathMatchPt = path.match(/^\/noticia\/([^\/]+)\/?$/i);
+    const pathMatchEn = path.match(/^\/en\/news\/([^\/]+)\/?$/i);
+    const articleFromPath = pathMatchEn ? decodeURIComponent(pathMatchEn[1]) : (pathMatchPt ? decodeURIComponent(pathMatchPt[1]) : '');
+    if ((params.get('lang') || '').toLowerCase() === 'en' || pathMatchEn) currentLang = 'en';
+    if ((params.get('lang') || '').toLowerCase() === 'pt' || pathMatchPt) currentLang = 'pt';
     if (article) { renderArticle(article); return; }
     if (articleFromPath) { renderArticle(articleFromPath); return; }
     if (page==='arquivo') { renderArchive(); return; }

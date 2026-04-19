@@ -1,0 +1,13 @@
+python -m py_compile scripts/fetch_news.py
+COSMOS_REBUILD_FROM_EXISTING=1 python scripts/fetch_news.py
+python scripts/editorial_refine.py
+python - <<'PY2'
+# validação estrutural de 89 páginas pt/en, canonical, hreflang, OG, Twitter e JSON-LD
+PY2
+python -m http.server 8002
+curl http://127.0.0.1:8002/
+curl http://127.0.0.1:8002/?lang=en
+curl http://127.0.0.1:8002/noticia/<slug>/
+curl http://127.0.0.1:8002/en/news/<slug>/
+curl http://127.0.0.1:8002/sitemap.xml
+node --check /tmp/cosmos_app.js
