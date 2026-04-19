@@ -69,6 +69,9 @@ jobs:
       - name: Gerar portal e metadados estáticos
         run: python scripts/fetch_news.py
 
+      - name: Aplicar curadoria editorial do Cosmos Week
+        run: python scripts/editorial_refine.py
+
       - name: Validar arquivos gerados
         shell: bash
         run: |

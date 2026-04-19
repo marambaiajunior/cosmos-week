@@ -2488,11 +2488,13 @@
   // ── Source mix ─────────────────────────────────────────────────────────────
   function renderSourceMix() {
     const mount = document.getElementById('sourceMix');
-    const counts = DB.reduce((acc,p) => { acc[p.sourceType] = (acc[p.sourceType]||0)+1; return acc; }, {});
+    const kindFor = (p) => p.coverageKind || p.sourceType || 'agency';
+    const counts = DB.reduce((acc,p) => { const key = kindFor(p); acc[key] = (acc[key]||0)+1; return acc; }, {});
     const rows = [
-      ['agency',   currentLang==='en'?'Institutional':'Institucional',  averageVisibleScore('evidence', p=>p.sourceType==='agency')],
-      ['journal',  currentLang==='en'?'Peer-reviewed':'Revisado por pares', averageVisibleScore('evidence', p=>p.sourceType==='journal')],
-      ['preprint', currentLang==='en'?'Preprints':'Preprints',          averageVisibleScore('overall',   p=>p.sourceType==='preprint')]
+      ['agency',   currentLang==='en'?'Institutional':'Institucional',      averageVisibleScore('evidence', p=>kindFor(p)==='agency')],
+      ['news',     currentLang==='en'?'Science reporting':'Jornalismo científico', averageVisibleScore('relevance', p=>kindFor(p)==='news')],
+      ['journal',  currentLang==='en'?'Peer-reviewed':'Revisado por pares', averageVisibleScore('evidence', p=>kindFor(p)==='journal')],
+      ['preprint', currentLang==='en'?'Preprints':'Preprints',              averageVisibleScore('overall',   p=>kindFor(p)==='preprint')]
     ];
     mount.innerHTML = rows.map(([key,label,metric]) => {
       const n = counts[key]||0;

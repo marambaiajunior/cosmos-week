@@ -1,0 +1,86 @@
+RESUMO CURTO DO QUE FOI MELHORADO NO PIPELINE EDITORIAL
+- etapa nova de curadoria editorial pós-geração;
+- filtros para remover itens administrativos, de agenda, perfis e peças desalinhadas;
+- caps por fonte para reduzir dominância de uma única origem;
+- taxonomia de cobertura mais clara: institucional, jornalismo científico, artigo científico e preprint;
+- metadados editoriais, notas de fonte e mix de cobertura ajustados;
+- homepage continua compatível, com widget de mix de fontes adaptado para news.
+
+ARQUIVOS CRIADOS
+scripts/editorial_rules.json
+scripts/editorial_refine.py
+
+ARQUIVOS ALTERADOS
+all_posts.json
+feed.xml
+index.html
+posts.js
+posts.json
+sitemap.xml
+noticia/automated-ct-scan-analysis-could-fast-track-clinical-assessments/index.html
+noticia/researchers-develop-ai-tool-to-predict-patients-at-risk-of-intimate-partner-violence/index.html
+noticia/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/index.html
+noticia/chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc/index.html
+noticia/dr-elisabeth-armstrong-named-nih-chief-of-staff/index.html
+noticia/warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air/index.html
+noticia/csda-quality-assessment-report-evaluates-satellogic-newsat-data/index.html
+noticia/how-a-black-hole-and-a-shredded-star-could-light-up-a-galaxy/index.html
+noticia/antioxidant-glutathione-discovered-to-play-a-key-role-in-proper-protein-folding/index.html
+noticia/two-bacteria-join-forces-to-turn-chemical-signals-into-electricity-opening-up-low-cost-sensing-o/index.html
+noticia/mining-waste-product-could-help-store-carbon-emissions-study-suggests/index.html
+noticia/life-beyond-biosignatures-a-new-method-in-the-search-for-life/index.html
+noticia/comet-r3-panstarrs-at-perihelion/index.html
+noticia/quality-assessment-report-evaluates-tomorrow-io-precipitation-radar-data/index.html
+noticia/volunteers-discover-rare-space-weather-events-using-their-ears/index.html
+noticia/alma-and-jwst-investigate-giant-disk-galaxy-s-formation-and-evolution/index.html
+noticia/sun-news-huge-coronal-hole-now-faces-earth/index.html
+noticia/desi-s-3d-map-of-the-universe-is-complete/index.html
+noticia/iron-plus-uv-light-turns-alcohol-into-hydrogen-with-catalyst-like-efficiency/index.html
+noticia/a-student-led-experiment-sets-new-limits-in-the-search-for-axions/index.html
+noticia/webb-s-little-red-dots-may-reveal-how-giant-black-holes-formed-soon-after-the-big-bang/index.html
+noticia/how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants/index.html
+noticia/cyanobacteria-surprise-scientists-with-evolutionary-shift/index.html
+noticia/cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso/index.html
+noticia/quantum-fourier-transform-reaches-52-qubits-shattering-the-previous-27-qubit-record/index.html
+noticia/laser-plasma-accelerator-drives-free-electron-laser-for-record-8-hours/index.html
+noticia/what-were-the-flashes-that-artemis-2-astronauts-saw/index.html
+noticia/alma-confirms-rare-quasar-pair-at-redshift-5-7-in-merging-galaxies/index.html
+noticia/dark-matter-could-explain-the-earliest-supermassive-black-holes/index.html
+noticia/jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster/index.html
+noticia/alien-life-may-hide-in-plain-sight-statistical-patterns-across-exoplanets-move-beyond-traditiona/index.html
+noticia/astronomers-reveal-always-changing-multi-planet-system/index.html
+noticia/see-the-moon-hide-regulus-the-stellar-heart-of-the-lion/index.html
+noticia/interstellar-glaciers-nasa-s-spherex-maps-vast-galactic-ice-regions/index.html
+noticia/ash-creeps-across-mars/index.html
+noticia/fluorescent-technique-reveals-hidden-scale-of-microfiber-pollution-from-our-clothes/index.html
+noticia/torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter/index.html
+noticia/the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl/index.html
+noticia/planets-collide-around-young-sun-like-star/index.html
+noticia/84-nasa-missions-at-risk-under-new-proposal/index.html
+noticia/first-proba-3-science-surprisingly-speedy-solar-wind/index.html
+noticia/first-light-for-poet-shining-sun-light-on-exoplanet-research/index.html
+noticia/five-things-juice-has-revealed-about-comet-3i-atlas/index.html
+noticia/artemis-ii-blasts-off-sending-humans-back-to-the-moon/index.html
+noticia/cern-timepix-chips-fly-to-the-moon/index.html
+noticia/on-the-launchpad/index.html
+noticia/webb-hubble-capture-new-views-of-saturn/index.html
+noticia/ignition-a-new-series-of-nasa-initiatives/index.html
+noticia/a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star/index.html
+noticia/science-release-hubble-unexpectedly-catches-comet-breaking-up/index.html
+noticia/stellar-death-and-an-artemis-overhaul/index.html
+.github/workflows/update.yml
+
+ARQUIVOS REMOVIDOS
+REMOVER ARQUIVO: noticia/how-to-feed-your-garden-birds-without-spreading-disease/index.html
+REMOVER ARQUIVO: noticia/immature-lunar-soil-could-be-suitable-for-roadways-on-the-moon/index.html
+REMOVER ARQUIVO: noticia/physics-based-ai-model-opens-new-frontiers-in-dielectric-materials-exploration/index.html
+REMOVER ARQUIVO: noticia/raven-personalities-shape-survival-as-human-pressure-grows-at-the-dead-sea/index.html
+REMOVER ARQUIVO: noticia/what-happens-when-light-goes-boom-part-4-what-brad-bradington-is-good-for/index.html
+
+VALIDACAO LOCAL
+1) python -m py_compile scripts/fetch_news.py scripts/editorial_refine.py -> OK
+2) COSMOS_REBUILD_FROM_EXISTING=1 python scripts/fetch_news.py -> OK
+3) python scripts/editorial_refine.py -> OK
+4) smoke test HTTP local para /, /feed.xml, /sitemap.xml e uma página /noticia/... -> OK
+IMPEDIMENTO
+- não foi possível validar a coleta ao vivo de feeds externos nem a tradução/revisão remota, porque o ambiente local não tem resolução DNS/acesso à internet.
