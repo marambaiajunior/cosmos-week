@@ -2099,19 +2099,14 @@
   }
 
   function getShareURLForArticle(post) {
-    if (currentLang === 'en') return getRealURLForArticle(post);
+    if (currentLang === 'en' && post?.shareUrl_en) return post.shareUrl_en;
     if (post?.shareUrl_pt) return post.shareUrl_pt;
     if (post?.shareUrl) return post.shareUrl;
     return `${SITE.canonicalBaseUrl}noticia/${encodeURIComponent(post?.slug || '')}/`;
   }
 
   function getCanonicalURLForArticle(post) {
-    if (currentLang === 'en') return getRealURLForArticle(post);
-    if (post?.shareUrl_pt) return post.shareUrl_pt;
-    if (post?.shareUrl) return post.shareUrl;
-    if (post?.canonicalUrl_pt) return post.canonicalUrl_pt;
-    if (post?.canonicalUrl) return post.canonicalUrl;
-    return `${SITE.canonicalBaseUrl}noticia/${encodeURIComponent(post?.slug || '')}/`;
+    return getRealURLForArticle(post);
   }
 
   function pageUrl(page) {
@@ -3537,7 +3532,7 @@
   function updateMetaArticle(post) {
     const title = `${textFor(post,'title')} — ${SITE.title}`;
     const description = textFor(post,'excerpt');
-    const url = getCanonicalURLForArticle(post);
+    const url = getRealURLForArticle(post);
     const keywords = keywordListFor(post);
     const jsonLd = [
       { '@context':'https://schema.org','@type':'NewsMediaOrganization', name:SITE.title, url:SITE.canonicalBaseUrl, logo:{'@type':'ImageObject',url:IMG.pillars} },
