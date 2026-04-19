@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d3a75">
   <title>Estrela hospedeira de exoplaneta compartilha características elementares com seu Júpiter quente | Cosmos Week</title>
   <meta name="description" content="Um exoplaneta ultraquente de Júpiter orbitando uma estrela próxima deu aos cientistas, usando o telescópio Gemini South, uma visão de como uma estrela e seu planeta quente podem.">
   <meta name="author" content="Redação do Cosmos Week">
@@ -41,9 +42,14 @@
       --accent:#1451a0; --accent-dark:#0d3a75; --accent-soft:#eef4fc; --shadow:0 12px 36px rgba(0,0,0,.08);
     }
     * { box-sizing:border-box; }
-    body { margin:0; background:var(--bg); color:var(--ink); font:18px/1.75 Georgia, 'Times New Roman', serif; }
+    html { scroll-behavior:smooth; -webkit-text-size-adjust:100%; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:18px/1.75 Georgia, 'Times New Roman', serif; text-rendering:optimizeLegibility; }
+    img { max-width:100%; height:auto; }
     a { color:var(--accent); text-decoration:none; }
     a:hover { text-decoration:underline; }
+    .skip-link { position:absolute; left:16px; top:-56px; z-index:20; padding:10px 14px; border-radius:8px; background:#fff; color:var(--ink); border:2px solid var(--accent); box-shadow:var(--shadow); font:600 13px/1.2 Arial, sans-serif; }
+    .skip-link:focus-visible { top:16px; }
+    a:focus-visible, button:focus-visible, [role="link"]:focus-visible { outline:3px solid rgba(20,81,160,.28); outline-offset:3px; box-shadow:0 0 0 2px rgba(13,58,117,.12); }
     .wrap { max-width:900px; margin:0 auto; padding:28px 20px 64px; }
     .top { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:18px; font:600 12px/1.4 Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; }
     .brand { color:var(--accent-dark); }
@@ -51,6 +57,7 @@
     .pill-link { display:inline-flex; align-items:center; padding:8px 12px; border:1px solid var(--line); border-radius:999px; background:#fff; }
     .card { background:var(--panel); border:1px solid var(--line); box-shadow:var(--shadow); border-radius:20px; overflow:hidden; }
     .hero { width:100%; aspect-ratio:16/9; object-fit:cover; background:#ece8de; }
+    main:focus { outline:none; }
     .content { padding:32px 30px; }
     .kicker-row { display:flex; flex-wrap:wrap; gap:10px; margin:0 0 16px; font:700 11px/1.2 Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; }
     .kicker-row span { display:inline-flex; align-items:center; padding:7px 11px; border-radius:999px; background:#eef4fc; color:var(--accent-dark); border:1px solid #d7e4f8; }
@@ -75,6 +82,10 @@
     .footer-links { display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; font:600 14px/1.4 Arial, sans-serif; }
     .btn { display:inline-flex; align-items:center; justify-content:center; padding:12px 16px; border-radius:999px; border:1px solid var(--line); background:#fff; }
     .btn.primary { background:var(--accent); color:#fff; border-color:var(--accent); }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior:auto; }
+      *, *::before, *::after { animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; scroll-behavior:auto !important; }
+    }
     @media (max-width: 640px) {
       body { font-size:17px; }
       .content { padding:24px 18px; }
@@ -84,7 +95,8 @@
   </style>
 </head>
 <body>
-  <div class="wrap">
+  <a class="skip-link" href="#articleMain">Pular para o conteúdo principal</a>
+  <main class="wrap" id="articleMain" tabindex="-1">
     <div class="top">
       <div class="brand">Cosmos Week</div>
       <div class="utility-links">
@@ -93,7 +105,7 @@
       </div>
     </div>
     <article class="card">
-      <img class="hero" src="https://www.universetoday.com/article_images/noirlab2609a_20260414_011319.jpg" alt="Estrela hospedeira de exoplaneta compartilha características elementares com seu Júpiter quente">
+      <img class="hero" src="https://www.universetoday.com/article_images/noirlab2609a_20260414_011319.jpg" alt="Estrela hospedeira de exoplaneta compartilha características elementares com seu Júpiter quente" loading="eager" fetchpriority="high" decoding="async" referrerpolicy="no-referrer">
       <div class="content">
         <div class="kicker-row">
           <span>Exoplanetas</span>
@@ -115,6 +127,6 @@
         </div>
       </div>
     </article>
-  </div>
+  </main>
 </body>
 </html>

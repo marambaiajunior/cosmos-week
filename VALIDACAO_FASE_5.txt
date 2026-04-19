@@ -1,0 +1,30 @@
+Comandos executados:
+1. python -m py_compile scripts/fetch_news.py scripts/editorial_refine.py
+2. python extraindo o bloco <script> do index.html para /tmp/cosmos_phase5_app.js
+3. node --check /tmp/cosmos_phase5_app.js
+4. COSMOS_REBUILD_FROM_EXISTING=1 python scripts/fetch_news.py
+5. python scripts/editorial_refine.py
+6. python -m http.server 8015
+7. curl -sI http://127.0.0.1:8015/
+8. curl -sI http://127.0.0.1:8015/anuncie.html
+9. curl -sI http://127.0.0.1:8015/en/advertise/
+10. curl -sI http://127.0.0.1:8015/noticia/automated-ct-scan-analysis-could-fast-track-clinical-assessments/
+11. validação Python de:
+   - skip link e focus styles na homepage
+   - rota inglesa do Advertise
+   - semântica de teclado dos cards
+   - fallback do Giscus
+   - skip link, fetchpriority e theme-color nos artigos estáticos
+   - hreflang PT/EN em Anuncie/Advertise
+   - presença do Advertise em inglês no sitemap
+
+Resultado:
+- py_compile: OK
+- node --check do JavaScript do index.html: OK
+- rebuild local do pipeline a partir do snapshot existente: OK
+- refino editorial pós-build: OK
+- smoke test HTTP local de homepage, anuncie PT, advertise EN e artigo estático: OK
+- validação estrutural das mudanças de UX/performance/acessibilidade: OK
+
+Observação:
+- Tentei uma checagem adicional com Chromium headless para inspecionar DOM renderizado em viewport estreito/mobile, mas o runtime do navegador no container emitiu erros de ambiente (DBus/inotify) e não gerou dumps confiáveis. Por isso, a validação responsiva final foi feita por servidor local + inspeção estrutural das breakpoints/atributos/rotas e não por screenshot automatizada.

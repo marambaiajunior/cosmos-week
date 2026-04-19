@@ -4294,6 +4294,7 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
 <head>
   <meta charset=\"utf-8\">
   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
+  <meta name=\"theme-color\" content=\"#0d3a75\">
   <title>{html_escape_attr(title_raw)} | {SITE_NAME}</title>
   <meta name=\"description\" content=\"{html_escape_attr(description_raw)}\">
   <meta name=\"author\" content=\"{html_escape_attr(labels['author'])}\">
@@ -4328,9 +4329,14 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
       --accent:#1451a0; --accent-dark:#0d3a75; --accent-soft:#eef4fc; --shadow:0 12px 36px rgba(0,0,0,.08);
     }}
     * {{ box-sizing:border-box; }}
-    body {{ margin:0; background:var(--bg); color:var(--ink); font:18px/1.75 Georgia, 'Times New Roman', serif; }}
+    html {{ scroll-behavior:smooth; -webkit-text-size-adjust:100%; }}
+    body {{ margin:0; background:var(--bg); color:var(--ink); font:18px/1.75 Georgia, 'Times New Roman', serif; text-rendering:optimizeLegibility; }}
+    img {{ max-width:100%; height:auto; }}
     a {{ color:var(--accent); text-decoration:none; }}
     a:hover {{ text-decoration:underline; }}
+    .skip-link {{ position:absolute; left:16px; top:-56px; z-index:20; padding:10px 14px; border-radius:8px; background:#fff; color:var(--ink); border:2px solid var(--accent); box-shadow:var(--shadow); font:600 13px/1.2 Arial, sans-serif; }}
+    .skip-link:focus-visible {{ top:16px; }}
+    a:focus-visible, button:focus-visible, [role=\"link\"]:focus-visible {{ outline:3px solid rgba(20,81,160,.28); outline-offset:3px; box-shadow:0 0 0 2px rgba(13,58,117,.12); }}
     .wrap {{ max-width:900px; margin:0 auto; padding:28px 20px 64px; }}
     .top {{ display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:18px; font:600 12px/1.4 Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; }}
     .brand {{ color:var(--accent-dark); }}
@@ -4338,6 +4344,7 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
     .pill-link {{ display:inline-flex; align-items:center; padding:8px 12px; border:1px solid var(--line); border-radius:999px; background:#fff; }}
     .card {{ background:var(--panel); border:1px solid var(--line); box-shadow:var(--shadow); border-radius:20px; overflow:hidden; }}
     .hero {{ width:100%; aspect-ratio:16/9; object-fit:cover; background:#ece8de; }}
+    main:focus {{ outline:none; }}
     .content {{ padding:32px 30px; }}
     .kicker-row {{ display:flex; flex-wrap:wrap; gap:10px; margin:0 0 16px; font:700 11px/1.2 Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; }}
     .kicker-row span {{ display:inline-flex; align-items:center; padding:7px 11px; border-radius:999px; background:#eef4fc; color:var(--accent-dark); border:1px solid #d7e4f8; }}
@@ -4362,6 +4369,10 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
     .footer-links {{ display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; font:600 14px/1.4 Arial, sans-serif; }}
     .btn {{ display:inline-flex; align-items:center; justify-content:center; padding:12px 16px; border-radius:999px; border:1px solid var(--line); background:#fff; }}
     .btn.primary {{ background:var(--accent); color:#fff; border-color:var(--accent); }}
+    @media (prefers-reduced-motion: reduce) {{
+      html {{ scroll-behavior:auto; }}
+      *, *::before, *::after {{ animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; scroll-behavior:auto !important; }}
+    }}
     @media (max-width: 640px) {{
       body {{ font-size:17px; }}
       .content {{ padding:24px 18px; }}
@@ -4371,7 +4382,8 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
   </style>
 </head>
 <body>
-  <div class=\"wrap\">
+  <a class=\"skip-link\" href=\"#articleMain\">{'Skip to main content' if is_en else 'Pular para o conteúdo principal'}</a>
+  <main class=\"wrap\" id=\"articleMain\" tabindex=\"-1\">
     <div class=\"top\">
       <div class=\"brand\">Cosmos Week</div>
       <div class=\"utility-links\">
@@ -4380,7 +4392,7 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
       </div>
     </div>
     <article class=\"card\">
-      <img class=\"hero\" src=\"{html_escape_attr(image_raw)}\" alt=\"{html_escape_attr(image_alt)}\">
+      <img class=\"hero\" src=\"{html_escape_attr(image_raw)}\" alt=\"{html_escape_attr(image_alt)}\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\" referrerpolicy=\"no-referrer\">
       <div class=\"content\">
         <div class=\"kicker-row\">
           <span>{html.escape(labels['section'])}</span>
@@ -4402,7 +4414,7 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
         </div>
       </div>
     </article>
-  </div>
+  </main>
 </body>
 </html>
 """
@@ -4535,6 +4547,7 @@ def build_sitemap(posts: list[dict], archive_posts: Optional[list[dict]] = None)
         (f'{SITE_URL}?page=padroes', today),
         (f'{SITE_URL}?page=padroes&lang=en', today),
         (urllib.parse.urljoin(SITE_URL, 'anuncie.html'), today),
+        (urllib.parse.urljoin(SITE_URL, 'en/advertise/'), today),
         (urllib.parse.urljoin(SITE_URL, 'media-kit.html'), today),
         (urllib.parse.urljoin(SITE_URL, 'politica-de-privacidade.html'), today),
         (urllib.parse.urljoin(SITE_URL, 'termos-de-uso.html'), today),

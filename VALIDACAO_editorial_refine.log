@@ -1,14 +1,14 @@
-[editorial-refine] pool: 89 candidatos
+[editorial-refine] pool: 96 candidatos
 [editorial-refine] saída: 40 posts
-[editorial-refine] story kinds no pool: {'science': 64, 'drop': 20, 'guide': 2, 'ops': 3}
+[editorial-refine] story kinds no pool: {'science': 71, 'drop': 20, 'guide': 2, 'ops': 3}
 [editorial-refine] cobertura final: {'agency': 14, 'news': 24, 'preprint': 2}
 [editorial-refine] por categoria:
-  - Astronomia: 9
+  - Astronomia: 8
   - Biologia: 7
   - Ciências da Terra: 6
-  - Exoplanetas: 6
-  - Física: 5
-  - Astrofísica: 3
+  - Física: 6
+  - Exoplanetas: 5
+  - Astrofísica: 4
   - Cosmologia: 2
   - Química: 2
 [editorial-refine] por fonte:
@@ -18,11 +18,11 @@
   - Phys. org Biology: 4
   - Universe Today: 4
   - Phys. org Chemistry: 3
-  - Sky & Telescope: 3
+  - Phys. org Physics: 3
   - ESO Press Releases: 2
   - EarthSky: 2
   - NASA News Releases: 2
-  - Phys. org Physics: 2
+  - Sky & Telescope: 2
   - CERN News: 1
   - ESA Hubble News: 1
   - The Planetary Society: 1

@@ -47,7 +47,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-19T17:33:35.347193+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "NIH News Releases",
     "sourceDomain": "www. nih. gov",
     "sourceType": "agency",
@@ -61,10 +61,10 @@ window.postsData = [
     "evidenceLabel": "Atualização institucional",
     "evidenceLabel_pt": "Atualização institucional",
     "evidenceLabel_en": "Institutional update",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
     "keywords": [
       "Biologia",
       "NIH News Releases",
@@ -89,10 +89,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=automated-ct-scan-analysis-could-fast-track-clinical-assessments&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/automated-ct-scan-analysis-could-fast-track-clinical-assessments/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/automated-ct-scan-analysis-could-fast-track-clinical-assessments/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=automated-ct-scan-analysis-could-fast-track-clinical-assessments&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/automated-ct-scan-analysis-could-fast-track-clinical-assessments/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/automated-ct-scan-analysis-could-fast-track-clinical-assessments/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/automated-ct-scan-analysis-could-fast-track-clinical-assessments/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=automated-ct-scan-analysis-could-fast-track-clinical-assessments&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/automated-ct-scan-analysis-could-fast-track-clinical-assessments/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -105,11 +105,11 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 85,
+    "score": 99,
     "scoreBreakdown": {
       "source": 79,
       "evidence": 88,
-      "relevance": 74,
+      "relevance": 84,
       "accessibility": 52,
       "novelty": 55
     },
@@ -117,7 +117,10 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "A análise automatizada da tomografia computadorizada pode acelerar as avaliações clínicas",
+    "imageAlt_pt": "A análise automatizada da tomografia computadorizada pode acelerar as avaliações clínicas",
+    "imageAlt_en": "Automated CT scan analysis could fast-track clinical assessments"
   },
   {
     "id": 2,
@@ -171,7 +174,7 @@ window.postsData = [
     ],
     "highlights_en": [
       "Focus: That matters because biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern",
-      "Detail: Key detail: NIH-funded, automated. clinical decision support. could. facilitate. timely. interventions for",
+      "Detail: Institutional origin: separate announcement from evidence",
       "Editorial reading: institutional release, useful as a primary source but not independent validation."
     ],
     "date": "19 abr 2026",
@@ -184,7 +187,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-19T17:33:35.347140+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "NIH News Releases",
     "sourceDomain": "www. nih. gov",
     "sourceType": "agency",
@@ -198,10 +201,10 @@ window.postsData = [
     "evidenceLabel": "Atualização institucional",
     "evidenceLabel_pt": "Atualização institucional",
     "evidenceLabel_en": "Institutional update",
-    "editorialBand": "standard",
-    "editorialBandLabel": "Prioridade editorial",
-    "editorialBandLabel_pt": "Prioridade editorial",
-    "editorialBandLabel_en": "Editorial priority",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
     "keywords": [
       "Biologia",
       "NIH News Releases",
@@ -226,10 +229,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=researchers-develop-ai-tool-to-predict-patients-at-risk-of-intimate-partner-violence&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/researchers-develop-ai-tool-to-predict-patients-at-risk-of-intimate-partner-violence/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/researchers-develop-ai-tool-to-predict-patients-at-risk-of-intimate-partner-violence/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=researchers-develop-ai-tool-to-predict-patients-at-risk-of-intimate-partner-violence&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/researchers-develop-ai-tool-to-predict-patients-at-risk-of-intimate-partner-violence/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/researchers-develop-ai-tool-to-predict-patients-at-risk-of-intimate-partner-violence/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/researchers-develop-ai-tool-to-predict-patients-at-risk-of-intimate-partner-violence/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=researchers-develop-ai-tool-to-predict-patients-at-risk-of-intimate-partner-violence&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/researchers-develop-ai-tool-to-predict-patients-at-risk-of-intimate-partner-violence/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -242,11 +245,11 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 79,
+    "score": 93,
     "scoreBreakdown": {
       "source": 79,
       "evidence": 82,
-      "relevance": 74,
+      "relevance": 84,
       "accessibility": 52,
       "novelty": 55
     },
@@ -254,7 +257,10 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Pesquisadores desenvolvem ferramenta de IA para prever o risco de violência por parceiro íntimo em pacientes",
+    "imageAlt_pt": "Pesquisadores desenvolvem ferramenta de IA para prever o risco de violência por parceiro íntimo em pacientes",
+    "imageAlt_en": "Researchers develop AI tool to predict patients at risk of intimate partner violence"
   },
   {
     "id": 3,
@@ -289,7 +295,7 @@ window.postsData = [
     ],
     "highlights_en": [
       "Focus: That matters because biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern",
-      "Detail: Key detail: NIH-supported study shows. this. treatment. resulted in. higher rates of. illicit",
+      "Detail: Institutional origin: separate announcement from evidence",
       "Editorial reading: institutional release, useful as a primary source but not independent validation."
     ],
     "date": "19 abr 2026",
@@ -302,7 +308,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-19T17:33:35.347074+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "NIH News Releases",
     "sourceDomain": "www. nih. gov",
     "sourceType": "agency",
@@ -316,10 +322,10 @@ window.postsData = [
     "evidenceLabel": "Atualização institucional",
     "evidenceLabel_pt": "Atualização institucional",
     "evidenceLabel_en": "Institutional update",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
     "keywords": [
       "Biologia",
       "NIH News Releases",
@@ -344,10 +350,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -360,11 +366,11 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 84,
+    "score": 98,
     "scoreBreakdown": {
       "source": 79,
       "evidence": 82,
-      "relevance": 74,
+      "relevance": 84,
       "accessibility": 52,
       "novelty": 55
     },
@@ -372,7 +378,10 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Resultados de Ensaios Clínicos Apoiam o Uso Semanal de Buprenorfina de Liberação Prolongada no Tratamento do Transtorno por Uso de Opioides Durante a Gravidez",
+    "imageAlt_pt": "Resultados de Ensaios Clínicos Apoiam o Uso Semanal de Buprenorfina de Liberação Prolongada no Tratamento do Transtorno por Uso de Opioides Durante a Gravidez",
+    "imageAlt_en": "Clinical trial results support use of weekly extended-release buprenorphine for treatment of opioid use disorder during pregnancy"
   },
   {
     "id": 4,
@@ -420,7 +429,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-19T17:33:35.346921+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "NIH News Releases",
     "sourceDomain": "www. nih. gov",
     "sourceType": "agency",
@@ -434,10 +443,10 @@ window.postsData = [
     "evidenceLabel": "Atualização institucional",
     "evidenceLabel_pt": "Atualização institucional",
     "evidenceLabel_en": "Institutional update",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
     "keywords": [
       "Biologia",
       "NIH News Releases",
@@ -468,10 +477,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -484,11 +493,11 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 84,
+    "score": 98,
     "scoreBreakdown": {
       "source": 79,
       "evidence": 82,
-      "relevance": 74,
+      "relevance": 84,
       "accessibility": 52,
       "novelty": 55
     },
@@ -496,7 +505,10 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "A inflamação crônica deixa uma impressão duradoura nas células-tronco intestinais, aumentando o risco de câncer colorretal",
+    "imageAlt_pt": "A inflamação crônica deixa uma impressão duradoura nas células-tronco intestinais, aumentando o risco de câncer colorretal",
+    "imageAlt_en": "Chronic inflammation leaves long-lasting impression on gut stem cells, increasing colorectal cancer risk"
   },
   {
     "id": 5,
@@ -531,17 +543,17 @@ window.postsData = [
     "body_en": "<p>The Perseus Cluster is a massive galaxy cluster located in the constellation Perseus. It is one of the largest structures in the observable universe, comprising more than a thousand galaxies, equivalent to roughly a thousand trillion times. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. The left column shows the best-rate models, represented by the three models with SNe Ia fractions f Ia and f Chand closest to the empirical values of 0.007 and 0.33, respectively. The Perseus Cluster is a massive galaxy cluster located in the constellation Perseus.</p><p>These elements are abundantly produced by massive stars, those with masses 10 times that of the sun or greater, suggesting that current models of massive stars and their supernova. In a series of journal articles, the research team systematically develops new models of massive star evolution and their subsequent spherical explosions, calibrated using updated.</p><p>In Paper II, the team expands these calculations to include a wide range of metallicities (a measure of initial metal content, which correlates with cosmic age) and stellar. Through this process, the team reconstructs supernova explosion history and tracks the evolution of individual elements over the past 10 billion years, producing the patterns.</p><p>The participating students, both physics minors, joined the research team in summer 2024 (Walther) and spring 2025 (Yerdon). Discover the latest in science, tech, and space with over 100, 000 subscribers who rely on Phys. org for daily insights.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>The next-generation telescope XRISM, launched in 2024, will continue to provide exciting new data, including precise measurements of supernova remnants and galactic objects. Resolving the Si/S/Ar/Ca Ratios by Stellar Convection, The Astrophysical Journal (2025).</p><p>Because the account originates with Phys. org Space, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-theoretical-supernova-chemistry-overhauled-ray.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: O Aglomerado de Perseu é um enorme aglomerado de galáxias localizado na constelação de Perseu",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: O Aglomerado de Perseu é um enorme aglomerado de galáxias localizado na constelação de Perseu",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: The Perseus Cluster is a massive galaxy cluster located in the constellation Perseus",
-      "Detail: Institutional origin: separate announcement from evidence",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "19 abr 2026",
@@ -554,7 +566,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-19T16:00:05+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Phys. org Space",
     "sourceDomain": "phys. org",
     "sourceType": "news",
@@ -568,10 +580,10 @@ window.postsData = [
     "evidenceLabel": "Cobertura jornalística",
     "evidenceLabel_pt": "Cobertura jornalística",
     "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
     "keywords": [
       "Astrofísica",
       "Phys. org Space",
@@ -596,10 +608,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -612,10 +624,10 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "fallback",
     "reviewProvider": "gemini",
-    "score": 91,
+    "score": 100,
     "scoreBreakdown": {
       "source": 76,
-      "evidence": 64,
+      "evidence": 46,
       "relevance": 88,
       "accessibility": 60,
       "novelty": 55
@@ -624,7 +636,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Modelos teóricos da química das supernovas revisados ​​após dados de raios X do Cluster Perseus revelarem discrepâncias importantes",
+    "imageAlt_pt": "Modelos teóricos da química das supernovas revisados ​​após dados de raios X do Cluster Perseus revelarem discrepâncias importantes",
+    "imageAlt_en": "Theoretical models of supernova chemistry overhauled after X-ray data from Perseus Cluster reveal key discrepancies"
   },
   {
     "id": 6,
@@ -650,26 +665,26 @@ window.postsData = [
     "title_en": "Generalized optical meta-spanners empower arbitrary light paths for multitasking optical manipulation",
     "sub": "Este estudo apresenta uma nova abordagem para a manipulação de matéria microscópica, permitindo a condução de partículas ao longo de trajetórias arbitrárias e complexas, superando.",
     "sub_pt": "Este estudo apresenta uma nova abordagem para a manipulação de matéria microscópica, permitindo a condução de partículas ao longo de trajetórias arbitrárias e complexas, superando.",
-    "sub_en": "Have you ever wished to drive microscopic matter along an arbitrarily tailored trajectory instead of just a circle? .",
+    "sub_en": "Have you ever wished to drive microscopic matter along an arbitrarily tailored trajectory instead of just a circle.",
     "excerpt": "Este estudo apresenta uma nova abordagem para a manipulação de matéria microscópica, permitindo a condução de partículas ao longo de trajetórias arbitrárias e complexas, superando as limitações das manipulações ópticas convencionais que se restringem a.",
     "excerpt_pt": "Este estudo apresenta uma nova abordagem para a manipulação de matéria microscópica, permitindo a condução de partículas ao longo de trajetórias arbitrárias e complexas, superando as limitações das manipulações ópticas convencionais que se restringem a.",
-    "excerpt_en": "Have you ever wished to drive microscopic matter along an arbitrarily tailored trajectory instead of just a circle? . That's exactly what we set out to achieve.",
+    "excerpt_en": "Have you ever wished to drive microscopic matter along an arbitrarily tailored trajectory instead of just a circle. That's exactly what we set out to achieve.",
     "body": "<p>A manipulação de matéria microscópica por meio de forças fotônicas tem revolucionado diversas áreas da ciência e tecnologia, desde a invenção das pinças ópticas em 1986. Essa técnica, que permite a captura e o controle sem contato de partículas utilizando o momento e o momento angular da luz, tornou-se uma ferramenta indispensável em campos como a biofísica, a ciência da matéria mole e a micro-nanotecnologia. No entanto, as abordagens tradicionais frequentemente impõem limitações geométricas, restringindo a movimentação de partículas a trajetórias relativamente simples, como círculos ou linhas retas. A capacidade de guiar a matéria microscópica ao longo de caminhos arbitrariamente adaptados e complexos, em vez de apenas movimentos predefinidos, representa um desafio significativo e uma fronteira para expandir as aplicações da manipulação óptica. É precisamente essa limitação que o presente trabalho busca superar, visando a um controle mais versátil e preciso no mundo microscópico.</p><p>Para enfrentar esses desafios e expandir as fronteiras da manipulação óptica, nossa equipe de pesquisa desenvolveu uma nova classe de dispositivos micro-nanofotônicos, denominados &quot;Meta-Spanners Ópticos Generalizados&quot;. Esses dispositivos representam um avanço conceitual e tecnológico, pois foram projetados especificamente para superar as restrições geométricas inerentes aos vórtices ópticos tradicionais. Ao empregar uma modulação de amplitude complexa completa em uma metassuperfície, os meta-spanners generalizados abrem caminho para a criação de campos de luz com propriedades de momento angular e gradiente de intensidade altamente controláveis. Essa inovação permite uma flexibilidade sem precedentes na forma como as forças fotônicas podem ser aplicadas e direcionadas, pavimentando o caminho para a manipulação de partículas em trajetórias que antes eram consideradas inatingíveis com as tecnologias existentes.</p><p>A principal inovação dos meta-spanners ópticos generalizados reside na sua capacidade de demonstrar, pela primeira vez, chaves ópticas com trajetórias poligonais. Diferentemente dos vórtices ópticos convencionais, que geram armadilhas e movimentos circulares devido à sua simetria rotacional, os meta-spanners utilizam a modulação espacial da luz em uma metassuperfície para esculpir campos ópticos com perfis de intensidade e fase complexos. Essa abordagem permite a geração de padrões de luz que podem guiar partículas ao longo de caminhos com múltiplos segmentos retos e ângulos definidos, formando polígonos de diversas configurações. A demonstração de trajetórias poligonais não é apenas uma prova de conceito, mas um marco que valida a capacidade desses dispositivos de gerar forças fotônicas com direções e magnitudes precisamente controladas em múltiplos pontos do espaço, abrindo um leque de possibilidades para a engenharia de trajetórias complexas e personalizadas para micropartículas.</p><p>Os resultados desta pesquisa foram publicados na prestigiada revista *Science Advances*, um periódico revisado por pares que segue rigorosos processos editoriais e políticas de publicação. A aceitação e publicação neste veículo de alto impacto sublinham a relevância e a solidez científica do trabalho, bem como a originalidade da abordagem proposta. A revisão por especialistas na área garante que as metodologias empregadas, os dados apresentados e as conclusões derivadas atendem aos mais altos padrões de excelência científica. Este reconhecimento valida os meta-spanners ópticos generalizados como uma contribuição significativa para o campo da fotônica e da manipulação de matéria em escala microscópica, estabelecendo uma nova referência para o controle de forças ópticas.</p><p>As implicações dos meta-spanners ópticos generalizados estendem-se tanto para a pesquisa fundamental quanto para aplicações tecnológicas avançadas. No âmbito da pesquisa fundamental, esses dispositivos oferecem novas ferramentas para investigar fenômenos complexos em áreas como os teoremas de flutuação e a física da matéria mole, permitindo experimentos mais controlados e detalhados sobre a dinâmica de sistemas microscópicos. Para aplicações, a capacidade de manipular partículas ao longo de trajetórias arbitrárias abre caminhos para a manipulação óptica integrada em chips, o que pode levar ao desenvolvimento de dispositivos microfluídicos mais sofisticados e sistemas de laboratório em um chip. Além disso, a tecnologia tem potencial para avançar os estudos de automontagem de materiais em nanoescala, onde o controle preciso da posição e orientação de blocos construtivos é crucial para a criação de estruturas complexas e funcionais.</p><p>O desenvolvimento dos meta-spanners ópticos generalizados representa um salto qualitativo na manipulação de matéria microscópica por luz. Ao transcender as limitações geométricas dos métodos convencionais e possibilitar o controle de partículas em trajetórias arbitrárias, esta pesquisa não apenas expande as capacidades da fotônica, mas também abre novas avenidas para a exploração científica e o desenvolvimento tecnológico. A versatilidade e a precisão oferecidas por essa nova classe de dispositivos prometem impulsionar inovações em diversas disciplinas, desde a biotecnologia até a ciência dos materiais, consolidando a manipulação óptica como uma ferramenta ainda mais poderosa e adaptável para desvendar e controlar o mundo em escala micro e nanométrica.</p>",
     "body_pt": "<p>A manipulação de matéria microscópica por meio de forças fotônicas tem revolucionado diversas áreas da ciência e tecnologia, desde a invenção das pinças ópticas em 1986. Essa técnica, que permite a captura e o controle sem contato de partículas utilizando o momento e o momento angular da luz, tornou-se uma ferramenta indispensável em campos como a biofísica, a ciência da matéria mole e a micro-nanotecnologia. No entanto, as abordagens tradicionais frequentemente impõem limitações geométricas, restringindo a movimentação de partículas a trajetórias relativamente simples, como círculos ou linhas retas. A capacidade de guiar a matéria microscópica ao longo de caminhos arbitrariamente adaptados e complexos, em vez de apenas movimentos predefinidos, representa um desafio significativo e uma fronteira para expandir as aplicações da manipulação óptica. É precisamente essa limitação que o presente trabalho busca superar, visando a um controle mais versátil e preciso no mundo microscópico.</p><p>Para enfrentar esses desafios e expandir as fronteiras da manipulação óptica, nossa equipe de pesquisa desenvolveu uma nova classe de dispositivos micro-nanofotônicos, denominados &quot;Meta-Spanners Ópticos Generalizados&quot;. Esses dispositivos representam um avanço conceitual e tecnológico, pois foram projetados especificamente para superar as restrições geométricas inerentes aos vórtices ópticos tradicionais. Ao empregar uma modulação de amplitude complexa completa em uma metassuperfície, os meta-spanners generalizados abrem caminho para a criação de campos de luz com propriedades de momento angular e gradiente de intensidade altamente controláveis. Essa inovação permite uma flexibilidade sem precedentes na forma como as forças fotônicas podem ser aplicadas e direcionadas, pavimentando o caminho para a manipulação de partículas em trajetórias que antes eram consideradas inatingíveis com as tecnologias existentes.</p><p>A principal inovação dos meta-spanners ópticos generalizados reside na sua capacidade de demonstrar, pela primeira vez, chaves ópticas com trajetórias poligonais. Diferentemente dos vórtices ópticos convencionais, que geram armadilhas e movimentos circulares devido à sua simetria rotacional, os meta-spanners utilizam a modulação espacial da luz em uma metassuperfície para esculpir campos ópticos com perfis de intensidade e fase complexos. Essa abordagem permite a geração de padrões de luz que podem guiar partículas ao longo de caminhos com múltiplos segmentos retos e ângulos definidos, formando polígonos de diversas configurações. A demonstração de trajetórias poligonais não é apenas uma prova de conceito, mas um marco que valida a capacidade desses dispositivos de gerar forças fotônicas com direções e magnitudes precisamente controladas em múltiplos pontos do espaço, abrindo um leque de possibilidades para a engenharia de trajetórias complexas e personalizadas para micropartículas.</p><p>Os resultados desta pesquisa foram publicados na prestigiada revista *Science Advances*, um periódico revisado por pares que segue rigorosos processos editoriais e políticas de publicação. A aceitação e publicação neste veículo de alto impacto sublinham a relevância e a solidez científica do trabalho, bem como a originalidade da abordagem proposta. A revisão por especialistas na área garante que as metodologias empregadas, os dados apresentados e as conclusões derivadas atendem aos mais altos padrões de excelência científica. Este reconhecimento valida os meta-spanners ópticos generalizados como uma contribuição significativa para o campo da fotônica e da manipulação de matéria em escala microscópica, estabelecendo uma nova referência para o controle de forças ópticas.</p><p>As implicações dos meta-spanners ópticos generalizados estendem-se tanto para a pesquisa fundamental quanto para aplicações tecnológicas avançadas. No âmbito da pesquisa fundamental, esses dispositivos oferecem novas ferramentas para investigar fenômenos complexos em áreas como os teoremas de flutuação e a física da matéria mole, permitindo experimentos mais controlados e detalhados sobre a dinâmica de sistemas microscópicos. Para aplicações, a capacidade de manipular partículas ao longo de trajetórias arbitrárias abre caminhos para a manipulação óptica integrada em chips, o que pode levar ao desenvolvimento de dispositivos microfluídicos mais sofisticados e sistemas de laboratório em um chip. Além disso, a tecnologia tem potencial para avançar os estudos de automontagem de materiais em nanoescala, onde o controle preciso da posição e orientação de blocos construtivos é crucial para a criação de estruturas complexas e funcionais.</p><p>O desenvolvimento dos meta-spanners ópticos generalizados representa um salto qualitativo na manipulação de matéria microscópica por luz. Ao transcender as limitações geométricas dos métodos convencionais e possibilitar o controle de partículas em trajetórias arbitrárias, esta pesquisa não apenas expande as capacidades da fotônica, mas também abre novas avenidas para a exploração científica e o desenvolvimento tecnológico. A versatilidade e a precisão oferecidas por essa nova classe de dispositivos prometem impulsionar inovações em diversas disciplinas, desde a biotecnologia até a ciência dos materiais, consolidando a manipulação óptica como uma ferramenta ainda mais poderosa e adaptável para desvendar e controlar o mundo em escala micro e nanométrica.</p>",
     "body_en": "<p>Have you ever wished to drive microscopic matter along an arbitrarily tailored trajectory instead of just a circle? That&#x27;s exactly what we set out to achieve. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in physics only takes a result seriously when the measurement chain remains robust under scrutiny. Experimental particle physics and precision metrology both operate in regimes where the signal sits far below the background noise, and where systematic uncertainties can mimic new physics if not controlled rigorously. The history of the field contains numerous anomalies that generated theoretical excitement before better data showed them to be artifacts, and it also contains genuine discoveries that were initially dismissed as noise. The difference is almost always resolved by independent replication with different instruments and different systematics. This article has been reviewed according to Science X&#x27;s editorial process and policies. Editors have highlighted the following attributes while ensuring the content&#x27;s credibility: Add as preferred source Science Advances (2026)&quot;&gt; Fig 1: Concept and schematic of the.</p><p>Adapted from Li et al, Science Advances (2026) Have you ever wished to drive microscopic matter along an arbitrarily tailored trajectory instead of just a circle. The field of photonic force manipulation has opened new avenues for controlling the microscopic world with light.</p><p>Since the invention of optical tweezers in 1986, the non-contact trapping and manipulation of microscopic particles using the momentum and angular momentum of light has become an. The emergence of metasurface technology has opened new pathways toward miniaturized and multifunctional optical manipulation devices, but previously demonstrated metasurface-based.</p><p>To address these challenges, our team developed a new class of micro-nano photonic devices termed &quot;Generalized Optical Meta-Spanners. The work is published in the journal Science Advances.</p><p>The broader interest lies as much in the method as in the headline number, because a durable measurement procedure can travel farther than a single result. When experimental physicists develop a technique that achieves new sensitivity or controls a previously uncharacterized systematic, that methodological contribution persists even if the specific measurement is later revised. This is one reason why precision physics experiments often generate long-term value that is not immediately visible in the original publication.</p><p>The results offer new technological avenues for fundamental research areas such as fluctuation theorems and soft matter physics, as well as for applications including on-chip. Discover the latest in science, tech, and space with over 100, 000 subscribers who rely on Phys. org for daily insights.</p><p>Because the account originates with Phys. org Physics, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is more measurement, tighter systematic control and scrutiny from groups whose experimental setups are genuinely independent. In experimental particle physics and precision metrology, the threshold for a discovery claim is a five-sigma excess surviving multiple analyses; an intriguing signal at lower significance is a reason to run more experiments, not a reason to revise the textbooks. Next-generation experiments currently under construction or commissioning will revisit several of the open questions that give the current result its context.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-generalized-optical-meta-spanners-empower.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: Este estudo apresenta uma nova abordagem para a manipulação de matéria microscópica, permitindo a condução de partículas ao longo de trajetórias",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: Este estudo apresenta uma nova abordagem para a manipulação de matéria microscópica, permitindo a condução de partículas ao longo de trajetórias",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: Have you ever wished to drive microscopic matter along an arbitrarily tailored trajectory instead of just a circle",
-      "Detail: Institutional origin: separate announcement from evidence",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "19 abr 2026",
@@ -682,7 +697,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-19T14:30:02+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Phys. org Physics",
     "sourceDomain": "phys. org",
     "sourceType": "news",
@@ -696,10 +711,10 @@ window.postsData = [
     "evidenceLabel": "Cobertura jornalística",
     "evidenceLabel_pt": "Cobertura jornalística",
     "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "standard",
-    "editorialBandLabel": "Prioridade editorial",
-    "editorialBandLabel_pt": "Prioridade editorial",
-    "editorialBandLabel_en": "Editorial priority",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
     "keywords": [
       "Física",
       "Phys. org Physics",
@@ -727,10 +742,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -743,11 +758,11 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 73,
+    "score": 82,
     "scoreBreakdown": {
       "source": 71,
-      "evidence": 64,
-      "relevance": 50,
+      "evidence": 46,
+      "relevance": 74,
       "accessibility": 52,
       "novelty": 55
     },
@@ -755,7 +770,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Meta-spanners ópticos generalizados possibilitam trajetórias de luz arbitrárias para manipulação óptica multitarefa",
+    "imageAlt_pt": "Meta-spanners ópticos generalizados possibilitam trajetórias de luz arbitrárias para manipulação óptica multitarefa",
+    "imageAlt_en": "Generalized optical meta-spanners empower arbitrary light paths for multitasking optical manipulation"
   },
   {
     "id": 7,
@@ -790,17 +808,17 @@ window.postsData = [
     "body_en": "<p>Newton and Einstein&#x27;s laws of gravity hold true across the largest structures in the universe. This new evidence strengthens the case for dark matter. The post Do Newton and Einstein’s laws of gravity hold across the cosmos. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. The laws of gravity as described by Isaac Newton and Albert Einstein hold true across the universe. Now, by measuring gravity across hundreds of millions of light-years, a new study suggests it does behave the same on cosmic scales as close to home.</p><p>The new study strengthens the case for unseen dark matter existing in large amounts across space. Science news, night sky events and beautiful photos, all in one place.</p><p>Gravity works across the universe Gravity, as Isaac Newton described it, is the familiar force that pulls a falling apple toward Earth. For example, these scientists explore whether the laws of gravity as described by Isaac Newton in the 1600s and Albert Einstein in the early 1900s truly apply everywhere.</p><p>Their findings, published in the peer-reviewed journal Physical Review Letters on April 15, 2026, show that gravity’s strength weakens with distance. And those results are almost exactly as predicted by the equations developed by Newton and later incorporated into Einstein’s theory of general relativity.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>It is remarkable that the law of the inverse of the squares, proposed by Newton in the 17th century and then incorporated by Einstein’s theory of general relativity, is still. The confirmation that gravity behaves as predicted by the established theory over vast, extragalactic distances reinforces a fundamental pillar of modern science.</p><p>Because the account originates with EarthSky, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside.</p><p class=\"art-source\"><a href=\"https://earthsky.org/space/laws-of-gravity-hold-across-the-cosmos/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: As leis da gravidade de Newton e Einstein são válidas nas maiores estruturas do universo, e novas evidências reforçam a hipótese da matéria escura",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: As leis da gravidade de Newton e Einstein são válidas nas maiores estruturas do universo, e novas evidências reforçam a hipótese da matéria escura",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: Newton and Einstein's laws of gravity hold true across the largest structures in the universe",
-      "Detail: Institutional origin: separate announcement from evidence",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "19 abr 2026",
@@ -813,7 +831,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-19T11:30:44+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "EarthSky",
     "sourceDomain": "earthsky. org",
     "sourceType": "news",
@@ -827,10 +845,10 @@ window.postsData = [
     "evidenceLabel": "Cobertura jornalística",
     "evidenceLabel_pt": "Cobertura jornalística",
     "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
     "keywords": [
       "Cosmologia",
       "EarthSky",
@@ -855,10 +873,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=do-newton-and-einstein-s-laws-of-gravity-hold-across-the-cosmos&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/do-newton-and-einstein-s-laws-of-gravity-hold-across-the-cosmos/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/do-newton-and-einstein-s-laws-of-gravity-hold-across-the-cosmos/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=do-newton-and-einstein-s-laws-of-gravity-hold-across-the-cosmos&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/do-newton-and-einstein-s-laws-of-gravity-hold-across-the-cosmos/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/do-newton-and-einstein-s-laws-of-gravity-hold-across-the-cosmos/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/do-newton-and-einstein-s-laws-of-gravity-hold-across-the-cosmos/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=do-newton-and-einstein-s-laws-of-gravity-hold-across-the-cosmos&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/do-newton-and-einstein-s-laws-of-gravity-hold-across-the-cosmos/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -871,10 +889,10 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 90,
+    "score": 100,
     "scoreBreakdown": {
       "source": 72,
-      "evidence": 64,
+      "evidence": 46,
       "relevance": 88,
       "accessibility": 60,
       "novelty": 55
@@ -883,7 +901,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "As Leis da Gravidade de Newton e Einstein se Aplicam a Todo o Cosmos?",
+    "imageAlt_pt": "As Leis da Gravidade de Newton e Einstein se Aplicam a Todo o Cosmos?",
+    "imageAlt_en": "Do Newton and Einstein’s laws of gravity hold across the cosmos?"
   },
   {
     "id": 8,
@@ -918,17 +939,17 @@ window.postsData = [
     "body_en": "<p>Rising stream temperatures may be weakening the foundation of river food webs by altering how carbon moves through these watery ecosystems. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. In a new study published in the journal Ecosphere, researchers from Northern Arizona University found that when water temperatures increase, microbes and aquatic insects process. This article has been reviewed according to Science X&#x27;s editorial process and policies.</p><p>The findings point to a shift in how river ecosystems retain energy under warming conditions, with implications for plants and animals in rivers across the western United States. To examine how warming affects river processes, the NAU researchers built a controlled stream system at The Arboretum at Flagstaff, constructing 48 flow-through mini stream.</p><p>Using pond water, they manipulated the water temperature while maintaining natural light and water chemistry, simulating a range of stream conditions over two years. This system let us manipulate temperature while keeping everything else as close to a real stream as possible, which is critical for understanding how these processes actually.</p><p>Within this system, the team used tracers to follow carbon from leaf litter, the primary energy source in many forested rivers, into microbes and caddisflies. By labeling leaves with a rare form of carbon, they directly measured how much carbon was retained as biomass, how much of it was released into the water and air as CO₂, and how.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Together, these patterns indicate that warming releases more carbon into the atmosphere and converts less carbon into biomass. Even when consumption increases, the system becomes less efficient, more carbon goes to respiration and less to building the food web,&quot; said Jane Marks, professor in the.</p><p>Because the account originates with Phys. org Biology, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-warmer-streams-river-food-webs.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: Rising stream temperatures may be weakening the foundation of river food webs by altering how carbon moves through these watery ecosystems",
-      "Detail: science reporting. whenever possible, verify the cited primary source",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "17 abr 2026",
@@ -941,7 +962,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-17T23:00:01+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Phys. org Biology",
     "sourceDomain": "phys. org",
     "sourceType": "news",
@@ -986,10 +1007,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air/",
-    "shareUrl_en": "https://www.cosmosweek.com/noticia/warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air/?lang=en",
-    "canonicalUrl": "https://www.cosmosweek.com/?article=warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/?article=warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -1014,7 +1035,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Riachos mais quentes podem estar esgotando as teias alimentares fluviais, liberando mais carbono para a atmosfera",
+    "imageAlt_pt": "Riachos mais quentes podem estar esgotando as teias alimentares fluviais, liberando mais carbono para a atmosfera",
+    "imageAlt_en": "Warmer streams may be draining river food webs by sending more carbon into the air"
   },
   {
     "id": 9,
@@ -1039,17 +1063,17 @@ window.postsData = [
     "body_en": "<p>In 2014, a strange cloudy object called G2 made a close approach to Sagittarius A*, the supermassive black hole at the heart of the Milky Way Galaxy. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Instead, G2 skipped around the black hole. In 2014, a strange cloudy object called G2 made a close approach to Sagittarius A*, (Sag A*) the supermassive black hole at the heart of the Milky Way Galaxy.</p><p>G2 skipped around the black hole, survived the flyby, and continued on a shortened orbit. If G2 had experienced a more direct encounter with Sag A*, astronomers might have captured a dazzling spectacle lighting up the galaxy as G2 got shredded and its material heated.</p><p>New research by astronomers at Syracuse University and the University of Zurich (Switzerland), have produced computer simulations that explain how black hole-induced stellar. The debris from that shredding eventually starts to &quot;circle the drain&quot; around the black hole in the accretion disk.</p><p>Artist’s depiction of a supermassive black hole tearing apart a star, with roughly half of the stellar debris flung back into space while the remainder forms a glowing accretion. TDEs offer one of the few ways to study supermassive black holes in more depth, including Sagittarius A*, as well as those in in other galaxies, according to Eric Coughlin.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>To simulate them, the science team had to use a special method to simulate the conditions of the star and its interaction with the black hole. While differences in the mass of the black hole could account for some of these differences, these new simulations suggest that black hole spin may be one of the key reasons for.</p><p>Because the account originates with Universe Today, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/how-a-black-hole-and-a-shredded-star-could-light-up-a-galaxy\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: Em 2014, um objeto nebuloso chamado G2 aproximou-se de Sagitário A*, o buraco negro supermassivo no coração da Via Láctea, mas, contrariando as",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: Em 2014, um objeto nebuloso chamado G2 aproximou-se de Sagitário A*, o buraco negro supermassivo no coração da Via Láctea, mas, contrariando as",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: In 2014, a strange cloudy object called G2 made a close approach to Sagittarius A*, the supermassive black hole at the heart of the Milky Way Galaxy",
-      "Detail: Institutional origin: separate announcement from evidence",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "17 abr 2026",
@@ -1062,7 +1086,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-17T21:03:36+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Universe Today",
     "sourceDomain": "www. universetoday. com",
     "sourceType": "news",
@@ -1076,10 +1100,10 @@ window.postsData = [
     "evidenceLabel": "Cobertura jornalística",
     "evidenceLabel_pt": "Cobertura jornalística",
     "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
     "keywords": [
       "Astrofísica",
       "Universe Today",
@@ -1104,10 +1128,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=how-a-black-hole-and-a-shredded-star-could-light-up-a-galaxy&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/how-a-black-hole-and-a-shredded-star-could-light-up-a-galaxy/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/how-a-black-hole-and-a-shredded-star-could-light-up-a-galaxy/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=how-a-black-hole-and-a-shredded-star-could-light-up-a-galaxy&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/how-a-black-hole-and-a-shredded-star-could-light-up-a-galaxy/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/how-a-black-hole-and-a-shredded-star-could-light-up-a-galaxy/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/how-a-black-hole-and-a-shredded-star-could-light-up-a-galaxy/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=how-a-black-hole-and-a-shredded-star-could-light-up-a-galaxy&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/how-a-black-hole-and-a-shredded-star-could-light-up-a-galaxy/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -1120,10 +1144,10 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 91,
+    "score": 100,
     "scoreBreakdown": {
       "source": 73,
-      "evidence": 70,
+      "evidence": 52,
       "relevance": 88,
       "accessibility": 60,
       "novelty": 52
@@ -1132,7 +1156,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Como um buraco negro e uma estrela dilacerada poderiam iluminar uma galáxia",
+    "imageAlt_pt": "Como um buraco negro e uma estrela dilacerada poderiam iluminar uma galáxia",
+    "imageAlt_en": "How a Black Hole and a Shredded Star Could Light Up a Galaxy"
   },
   {
     "id": 10,
@@ -1157,17 +1184,17 @@ window.postsData = [
     "body_en": "<p>In the past several years, Rockefeller University&#x27;s Kivanç Birsoy and his team in the Laboratory of Metabolic Regulation and Genetics have revealed remarkable details about the antioxidant glutathione, which plays many essential roles in. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern. The gap between identifying a correlation in biological data and understanding the causal chain that produces it is routinely underestimated, and the history of biomedical research is populated with associations that collapsed when the mechanism was sought and not found. A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive finding because it generates testable predictions that can narrow the hypothesis space. This article has been reviewed according to Science X&#x27;s editorial process and policies. Editors have highlighted the following attributes while ensuring the content&#x27;s credibility: Add as preferred source Shanshan Liu and Mark Gad developed a liposome-based transport.</p><p>They shared their results in a paper published in Nature Cell Biology. Among those team members were co-first authors Shanshan Liu, a postdoc in the lab who has long researched mitochondrial metabolism, and Mark Gad, a Ph.</p><p>After developing a new method to rapidly profile the chemical landscape within the ER, Liu began to directly observe functions within the organelle. A genetic screening revealed that a transporter called SLC33A1 oversees this process.</p><p>Structural studies performed by Gad in collaboration with the Hite lab further confirmed that SLC33A1 protein indeed transports GSSG and revealed biochemical details of this. Identifying SLC33A1 as the key exporter, and being able to visualize exactly how it binds its cargo, gives us a handle on a process that, when it goes wrong, is linked to.</p><p>The broader interest lies in whether the reported effect points toward a real mechanism and not merely a reproducible but unexplained association. Biology has learned from decades of biomarker failures that correlation, even robust correlation, is not a substitute for mechanistic understanding. A pathway that can be traced from molecular interaction to cellular response to organismal phenotype provides a far stronger foundation for intervention than a statistical association discovered in a large dataset, however well the statistics are done.</p><p>Discover the latest in science, tech, and space with over 100, 000 subscribers who rely on Phys. org for daily insights. The first is Huppke-Brendel Syndrome, a severe neurodevelopmental disorder characterized by severe intellectual disability, motor deficits, and progressive neurodegeneration.</p><p>Because the account originates with Phys. org Biology, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to test whether the effect repeats across different methods, cell types, model organisms and experimental conditions. Reproducibility is the first test, but mechanistic dissection is the second, and a result that passes both has a substantially better chance of translating into something clinically or biotechnologically useful. The path from a laboratory finding to an applied outcome typically takes a decade or more, and most findings do not complete it; the current result sits at the beginning of that process.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-antioxidant-glutathione-play-key-role.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: In the past several years, Rockefeller University's Kivanç Birsoy and his team in the Laboratory of Metabolic Regulation and Genetics have revealed",
-      "Detail: science reporting. whenever possible, verify the cited primary source",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "17 abr 2026",
@@ -1180,7 +1207,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-17T20:00:01+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Phys. org Biology",
     "sourceDomain": "phys. org",
     "sourceType": "news",
@@ -1225,10 +1252,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=antioxidant-glutathione-discovered-to-play-a-key-role-in-proper-protein-folding&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/antioxidant-glutathione-discovered-to-play-a-key-role-in-proper-protein-folding/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/antioxidant-glutathione-discovered-to-play-a-key-role-in-proper-protein-folding/",
-    "shareUrl_en": "https://www.cosmosweek.com/noticia/antioxidant-glutathione-discovered-to-play-a-key-role-in-proper-protein-folding/?lang=en",
-    "canonicalUrl": "https://www.cosmosweek.com/?article=antioxidant-glutathione-discovered-to-play-a-key-role-in-proper-protein-folding",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/?article=antioxidant-glutathione-discovered-to-play-a-key-role-in-proper-protein-folding",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=antioxidant-glutathione-discovered-to-play-a-key-role-in-proper-protein-folding&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/antioxidant-glutathione-discovered-to-play-a-key-role-in-proper-protein-folding/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/antioxidant-glutathione-discovered-to-play-a-key-role-in-proper-protein-folding/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/antioxidant-glutathione-discovered-to-play-a-key-role-in-proper-protein-folding/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/antioxidant-glutathione-discovered-to-play-a-key-role-in-proper-protein-folding/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -1253,7 +1280,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "O antioxidante glutationa revela papel crucial no enovelamento proteico",
+    "imageAlt_pt": "O antioxidante glutationa revela papel crucial no enovelamento proteico",
+    "imageAlt_en": "Antioxidant glutathione discovered to play a key role in proper protein folding"
   },
   {
     "id": 11,
@@ -1288,17 +1318,17 @@ window.postsData = [
     "body_en": "<p>Bacterial sensors usually rely on emitting light to transfer information about what they&#x27;re sensing, but that method isn&#x27;t practical in many settings. That&#x27;s why most information transmission is done via electricity. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern. The gap between identifying a correlation in biological data and understanding the causal chain that produces it is routinely underestimated, and the history of biomedical research is populated with associations that collapsed when the mechanism was sought and not found. A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive finding because it generates testable predictions that can narrow the hypothesis space. The study is published in Nature Biotechnology. This article has been reviewed according to Science X&#x27;s editorial process and policies.</p><p>Bioelectrical sensing is by no means a new concept,&quot; said Ajo-Franklin, the Ralph and Dorothy Looney Professor of Biosciences and corresponding author on this paper. Instead of forcing a single bacterium to do everything, we split the job between two bacteria,&quot; said Siliang Li, the first author on this study and postdoctoral fellow.</p><p>This means the quinone can be used as a signal, or trigger, to turn electricity on or off. Plantarum would use it to send an electrical signal, which could be read by an electrode, in this case, a current meter.</p><p>Lactis, another quinone-producing bacterium, to sense antimicrobial peptides in human fecal-derived samples provided by Baylor and an antibiotic in milk from the grocery store. Within a few hours, all four current meters showed an electrical charge, revealing the bacteria were responding to the analytes, some in as few as 20 minutes.</p><p>The broader interest lies in whether the reported effect points toward a real mechanism and not merely a reproducible but unexplained association. Biology has learned from decades of biomarker failures that correlation, even robust correlation, is not a substitute for mechanistic understanding. A pathway that can be traced from molecular interaction to cellular response to organismal phenotype provides a far stronger foundation for intervention than a statistical association discovered in a large dataset, however well the statistics are done.</p><p>Luckily, their collaborators at Tufts had a solution: a compact electronic disk roughly the size of a quarter which can be paired with commercially available digital multimeters. The researchers had also identified multiple other bacteria that could either send or receive a quinone signal, increasing the number of possible environments e-COSENS could be.</p><p>Because the account originates with Phys. org Biology, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to test whether the effect repeats across different methods, cell types, model organisms and experimental conditions. Reproducibility is the first test, but mechanistic dissection is the second, and a result that passes both has a substantially better chance of translating into something clinically or biotechnologically useful. The path from a laboratory finding to an applied outcome typically takes a decade or more, and most findings do not complete it; the current result sits at the beginning of that process.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-bacteria-chemical-electricity-options.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: Sensores bacterianos geralmente dependem da emissão de luz para transferir informações sobre o que estão detectando, mas esse método não é prático em",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: Sensores bacterianos geralmente dependem da emissão de luz para transferir informações sobre o que estão detectando, mas esse método não é prático em",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: Bacterial sensors usually rely on emitting light to transfer information about what they're sensing, but that method isn't practical in many settings",
-      "Detail: science reporting. whenever possible, verify the cited primary source",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "17 abr 2026",
@@ -1311,7 +1341,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-17T19:40:01+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Phys. org Biology",
     "sourceDomain": "phys. org",
     "sourceType": "news",
@@ -1356,10 +1386,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=two-bacteria-join-forces-to-turn-chemical-signals-into-electricity-opening-up-low-cost-sensing-o&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/two-bacteria-join-forces-to-turn-chemical-signals-into-electricity-opening-up-low-cost-sensing-o/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/two-bacteria-join-forces-to-turn-chemical-signals-into-electricity-opening-up-low-cost-sensing-o/",
-    "shareUrl_en": "https://www.cosmosweek.com/noticia/two-bacteria-join-forces-to-turn-chemical-signals-into-electricity-opening-up-low-cost-sensing-o/?lang=en",
-    "canonicalUrl": "https://www.cosmosweek.com/?article=two-bacteria-join-forces-to-turn-chemical-signals-into-electricity-opening-up-low-cost-sensing-o",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/?article=two-bacteria-join-forces-to-turn-chemical-signals-into-electricity-opening-up-low-cost-sensing-o",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=two-bacteria-join-forces-to-turn-chemical-signals-into-electricity-opening-up-low-cost-sensing-o&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/two-bacteria-join-forces-to-turn-chemical-signals-into-electricity-opening-up-low-cost-sensing-o/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/two-bacteria-join-forces-to-turn-chemical-signals-into-electricity-opening-up-low-cost-sensing-o/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/two-bacteria-join-forces-to-turn-chemical-signals-into-electricity-opening-up-low-cost-sensing-o/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/two-bacteria-join-forces-to-turn-chemical-signals-into-electricity-opening-up-low-cost-sensing-o/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -1384,7 +1414,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Duas bactérias unem forças para transformar sinais químicos em eletricidade, abrindo opções de detecção de baixo custo",
+    "imageAlt_pt": "Duas bactérias unem forças para transformar sinais químicos em eletricidade, abrindo opções de detecção de baixo custo",
+    "imageAlt_en": "Two bacteria join forces to turn chemical signals into electricity, opening up low-cost sensing options"
   },
   {
     "id": 12,
@@ -1419,17 +1452,17 @@ window.postsData = [
     "body_en": "<p>A new Concordia-led study suggests that iron-rich slag, one of mining&#x27;s biggest waste products, could help store carbon dioxide emissions. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because chemistry gains force when a claimed structure or process can be described with enough precision to be reproduced by others. Synthetic routes, spectroscopic signatures, yield under defined conditions and stability under realistic operating parameters are the currency of credibility in chemistry, and a result that lacks these details cannot be evaluated independently. The distance between a discovery on a laboratory bench and a process that works reliably at scale is measured in years of optimization, and each step reveals constraints that were invisible at smaller scale. A new Concordia-led study suggests that iron-rich slag, one of mining&#x27;s biggest waste products, could help store carbon dioxide (CO₂) emissions. This article has been reviewed according to Science X&#x27;s editorial process and policies.</p><p>Editors have highlighted the following attributes while ensuring the content&#x27;s credibility: Add as preferred source Chemical Engineering Journal (2026). The researchers examined whether slag, a waste material generated from metal processing, can trap the greenhouse gas under realistic conditions.</p><p>This study, published in Chemical Engineering Journal, looks at what happens in conditions that are more realistic, with low-to-moderate moisture. Using slag from a Quebec smelter, the researchers placed samples in sealed containers, injected CO₂ gas, and varied moisture levels, then tracked how much CO₂ remained in the air.</p><p>The slag removed up to 99.5% of CO₂ in lab tests. The results reveal that mineral formation need not be the only avenue for CO₂ storage, while at the same time offering a better understanding of how these materials interact in.</p><p>The broader interest lies in whether the claimed property or reaction pathway can be characterized with enough precision to support replication by other groups. Chemistry has a replication problem that is less discussed than the one in psychology or medicine, but it is real: synthetic procedures that work reliably in one laboratory sometimes fail to transfer, for reasons ranging from impure starting materials to undocumented temperature sensitivities. A result that comes with full experimental detail and a clear characterization of the product is far more valuable than one that reports a discovery without the procedural backbone.</p><p>Captured CO₂ from nearby industrial processes could be injected into these waste piles with minimal processing, even in remote locations, turning a liability into a passive. Wilcox et al, Evaluation of carbon sequestration by iron-rich slag materials, Chemical Engineering Journal (2026).</p><p>Because the account originates with Phys. org Chemistry, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether independent groups working with orthogonal techniques reach compatible conclusions, and whether the result scales beyond the conditions used in the original study. Chemical discoveries that matter tend to be ones whose key properties can be measured by multiple spectroscopic, crystallographic or computational methods that are unlikely to share the same blind spots. Scalability, cost and long-term stability under realistic operating conditions are additional filters that come into play before any practical application becomes viable.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-product-carbon-emissions.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: Um novo estudo liderado pela Universidade Concordia sugere que a escória rica em ferro, um dos maiores resíduos da mineração, pode ser uma solução",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: Um novo estudo liderado pela Universidade Concordia sugere que a escória rica em ferro, um dos maiores resíduos da mineração, pode ser uma solução",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: A new Concordia-led study suggests that iron-rich slag, one of mining's biggest waste products, could help store carbon dioxide emissions",
-      "Detail: Institutional origin: separate announcement from evidence",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "17 abr 2026",
@@ -1442,7 +1475,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-17T17:40:03+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Phys. org Chemistry",
     "sourceDomain": "phys. org",
     "sourceType": "news",
@@ -1456,10 +1489,10 @@ window.postsData = [
     "evidenceLabel": "Cobertura jornalística",
     "evidenceLabel_pt": "Cobertura jornalística",
     "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "standard",
-    "editorialBandLabel": "Prioridade editorial",
-    "editorialBandLabel_pt": "Prioridade editorial",
-    "editorialBandLabel_en": "Editorial priority",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
     "keywords": [
       "Química",
       "Phys. org Chemistry",
@@ -1487,10 +1520,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=mining-waste-product-could-help-store-carbon-emissions-study-suggests&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/mining-waste-product-could-help-store-carbon-emissions-study-suggests/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/mining-waste-product-could-help-store-carbon-emissions-study-suggests/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=mining-waste-product-could-help-store-carbon-emissions-study-suggests&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/mining-waste-product-could-help-store-carbon-emissions-study-suggests/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/mining-waste-product-could-help-store-carbon-emissions-study-suggests/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/mining-waste-product-could-help-store-carbon-emissions-study-suggests/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=mining-waste-product-could-help-store-carbon-emissions-study-suggests&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/mining-waste-product-could-help-store-carbon-emissions-study-suggests/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -1503,11 +1536,11 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 74,
+    "score": 80,
     "scoreBreakdown": {
       "source": 70,
-      "evidence": 64,
-      "relevance": 68,
+      "evidence": 46,
+      "relevance": 74,
       "accessibility": 52,
       "novelty": 52
     },
@@ -1515,7 +1548,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Resíduos de mineração podem ajudar a armazenar emissões de carbono, sugere estudo",
+    "imageAlt_pt": "Resíduos de mineração podem ajudar a armazenar emissões de carbono, sugere estudo",
+    "imageAlt_en": "Mining waste product could help store carbon emissions, study suggests"
   },
   {
     "id": 13,
@@ -1553,17 +1589,17 @@ window.postsData = [
     "body_en": "<p>Researchers from the Earth-Life Science Institute and National Institute for Basic Biology have developed a new method to detect extraterrestrial life without relying on traditional biosignatures. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because exoplanet science has moved beyond the era of simple discovery into a period of comparative characterization. With more than five thousand confirmed planets known, the scientifically productive questions now concern atmospheric composition, internal structure, orbital history and the statistical properties of populations rather than the existence of individual worlds. A new detection or spectral measurement is most valuable when it adds a well-constrained data point to those comparative frameworks, not when it stands alone as an anecdote. Researchers from the Earth-Life Science Institute (ELSI) and National Institute for Basic Biology have developed a new method to detect extraterrestrial life without relying on. By modelling how life might spread between planets, they demonstrate that life could be detected through statistical patterns across planetary populations rather than on.</p><p>This &quot;agnostic biosignature&quot; approach could assist in guiding future searches for life beyond Earth. The first is liquid water, which, as far as we know, is necessary for life.</p><p>One of the reasons the JWST was built was to study exoplanet atmospheres and determine their contents, and it&#x27;s found some very interesting potential biosignatures. But scientists struggle with the fact that an atmospheric biosignature here on Earth could have a non-biological origin on exoplanets that are much different from Earth.</p><p>That&#x27;s the focus of new research in The Astrophysical Journal titled &quot; An Agnostic Biosignature Based on Modeling Panspermia and Terraforming. The authors are Harrison Smith from the Earth-Life Science Institute (ELSI) at Institute of Science Tokyo and Lana Sinapayen from the National Institute for Basic Biology in.</p><p>The broader interest lies in making the target less anecdotal and more comparable with the rest of the known planetary population. Population-level questions, such as the frequency of atmospheres around small rocky planets or the prevalence of water-rich worlds in the habitable zone, require well-characterized individual data points before statistical patterns become meaningful. Each new planet with a measured radius, mass and, ideally, atmospheric constraint is a brick in that larger structure, and the accumulation of bricks eventually allows theorists to test formation models against real distributions rather than projections.</p><p>They&#x27;re based on a whole host of underlying assumptions about the nature of a civilization&#x27;s technology and culture. By clustering planets based only on their observed characteristics and retaining clusters localized in space, we demonstrate (and evaluate) a way to prioritize specific planets.</p><p>Because the account originates with Universe Today, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to improve independent constraints on the mass, radius, atmospheric composition and orbital dynamics of the target. Transmission spectroscopy with JWST, radial velocity campaigns with high-resolution ground-based spectrographs and phase-curve measurements from space photometry represent the observational toolkit that can move characterization from plausible to robust. That convergence of techniques is the standard the community now expects before a planetary atmosphere result is treated as confirmed.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/life-beyond-biosignatures-a-new-method-in-the-search-for-life\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: Pesquisadores do Earth-Life Science Institute e do National Institute for Basic Biology desenvolveram um novo método para detectar vida",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: Pesquisadores do Earth-Life Science Institute e do National Institute for Basic Biology desenvolveram um novo método para detectar vida",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: Researchers from the Earth-Life Science Institute and National Institute for Basic Biology have developed a new method to detect extraterrestrial",
-      "Detail: Institutional origin: separate announcement from evidence",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "17 abr 2026",
@@ -1576,7 +1612,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-17T17:37:00+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Universe Today",
     "sourceDomain": "www. universetoday. com",
     "sourceType": "news",
@@ -1590,10 +1626,10 @@ window.postsData = [
     "evidenceLabel": "Cobertura jornalística",
     "evidenceLabel_pt": "Cobertura jornalística",
     "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
     "keywords": [
       "Exoplanetas",
       "Universe Today",
@@ -1621,10 +1657,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=life-beyond-biosignatures-a-new-method-in-the-search-for-life&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/life-beyond-biosignatures-a-new-method-in-the-search-for-life/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/life-beyond-biosignatures-a-new-method-in-the-search-for-life/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=life-beyond-biosignatures-a-new-method-in-the-search-for-life&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/life-beyond-biosignatures-a-new-method-in-the-search-for-life/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/life-beyond-biosignatures-a-new-method-in-the-search-for-life/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/life-beyond-biosignatures-a-new-method-in-the-search-for-life/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=life-beyond-biosignatures-a-new-method-in-the-search-for-life&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/life-beyond-biosignatures-a-new-method-in-the-search-for-life/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -1637,10 +1673,10 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 88,
+    "score": 100,
     "scoreBreakdown": {
       "source": 73,
-      "evidence": 70,
+      "evidence": 52,
       "relevance": 88,
       "accessibility": 60,
       "novelty": 52
@@ -1649,7 +1685,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "A vida além das bioassinaturas: um novo método na busca pela vida",
+    "imageAlt_pt": "A vida além das bioassinaturas: um novo método na busca pela vida",
+    "imageAlt_en": "Life Beyond Biosignatures: A New Method In The Search For Life"
   },
   {
     "id": 14,
@@ -1674,17 +1713,17 @@ window.postsData = [
     "body_en": "<p>We’re one comet down, and one to go for spring season 2026. We recently wrote about prospects for sungrazer C/2026 A1 MAPS and comet C/2025 R3 Pan-STARRS in April 2026. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. We recently wrote about prospects for sungrazer C/2026 A1 MAPS and comet C/2025 R3 Pan-STARRS in April 2026. While the bad news is, Comet A1 MAPS disintegrated like so many sungrazers before it during its blistering close perihelion passage on April 4th, comet R3 Pan-STARRS put on an.</p><p>Unfortunately, the comet also passes just four degrees from the Sun as seen from our Earthly vantage point on April 25th. Discovered on September 8th, 2025 by the prolific Pan-STARRS sky survey, the comet just made our roundup of top comets to watch for in 2026, late last year.</p><p>The comet reaches perihelion on Sunday, April 19th at 0.499 Astronomical Units (AU), 75 million kilometers from the Sun. A wide-field mosaic from April 14th, showing the amazing full length tail of Comet R3 Pan-STARRS.</p><p>The comet then makes its closest Earth approach a week later on April 26th at 0.523 AU from Earth. Remember, the dust tail of a comet is swept back from its coma by the solar wind, meaning the tail of Comet R3 Pan-STARRS will lead the way from it, preceding ahead of the comet.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>SOHO is an amazing resource, and to date, has discovered 5, 204 sungrazing comets from its Sun-Earth L1 vantage point in well over a quarter century of operation. The course of Comet R3 Pan-STARRS through SOHO&#x27;s LASCO C3 field of view, along with planetary transits for 2026.</p><p>Because the account originates with Universe Today, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/comet-r3-panstarrs-at-perihelion\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: Enquanto o cometa C/2026 A1 MAPS se desintegrou em sua passagem pelo periélio em 4 de abril, o cometa C/2025 R3 Pan-STARRS atingiu o periélio em 19",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: Enquanto o cometa C/2026 A1 MAPS se desintegrou em sua passagem pelo periélio em 4 de abril, o cometa C/2025 R3 Pan-STARRS atingiu o periélio em 19",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: We’re one comet down, and one to go for spring season 2026",
-      "Detail: Institutional origin: separate announcement from evidence",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "17 abr 2026",
@@ -1697,7 +1736,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-17T15:10:00+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Universe Today",
     "sourceDomain": "www. universetoday. com",
     "sourceType": "news",
@@ -1711,10 +1750,10 @@ window.postsData = [
     "evidenceLabel": "Cobertura jornalística",
     "evidenceLabel_pt": "Cobertura jornalística",
     "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
     "keywords": [
       "Astronomia",
       "Universe Today",
@@ -1739,10 +1778,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=comet-r3-panstarrs-at-perihelion&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/comet-r3-panstarrs-at-perihelion/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/comet-r3-panstarrs-at-perihelion/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=comet-r3-panstarrs-at-perihelion&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/comet-r3-panstarrs-at-perihelion/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/comet-r3-panstarrs-at-perihelion/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/comet-r3-panstarrs-at-perihelion/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=comet-r3-panstarrs-at-perihelion&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/comet-r3-panstarrs-at-perihelion/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -1755,10 +1794,10 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 88,
+    "score": 100,
     "scoreBreakdown": {
       "source": 73,
-      "evidence": 70,
+      "evidence": 52,
       "relevance": 88,
       "accessibility": 60,
       "novelty": 49
@@ -1767,7 +1806,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "O Cometa C/2025 R3 Pan-STARRS: Periélio e Perspectivas de Observação",
+    "imageAlt_pt": "O Cometa C/2025 R3 Pan-STARRS: Periélio e Perspectivas de Observação",
+    "imageAlt_en": "Comet R3 PanSTARRS at Perihelion"
   },
   {
     "id": 15,
@@ -1815,7 +1857,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-17T15:04:32+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "NASA News Releases",
     "sourceDomain": "science. nasa. gov",
     "sourceType": "agency",
@@ -1857,10 +1899,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=volunteers-discover-rare-space-weather-events-using-their-ears&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/volunteers-discover-rare-space-weather-events-using-their-ears/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/volunteers-discover-rare-space-weather-events-using-their-ears/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=volunteers-discover-rare-space-weather-events-using-their-ears&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/volunteers-discover-rare-space-weather-events-using-their-ears/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/volunteers-discover-rare-space-weather-events-using-their-ears/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/volunteers-discover-rare-space-weather-events-using-their-ears/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=volunteers-discover-rare-space-weather-events-using-their-ears&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/volunteers-discover-rare-space-weather-events-using-their-ears/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -1873,7 +1915,7 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 96,
+    "score": 100,
     "scoreBreakdown": {
       "source": 94,
       "evidence": 88,
@@ -1885,7 +1927,10 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Voluntários descobrem eventos climáticos espaciais raros usando seus ouvidos",
+    "imageAlt_pt": "Voluntários descobrem eventos climáticos espaciais raros usando seus ouvidos",
+    "imageAlt_en": "Volunteers Discover Rare Space Weather Events Using Their Ears"
   },
   {
     "id": 16,
@@ -1910,17 +1955,17 @@ window.postsData = [
     "body_en": "<p>European astronomers have used the Atacama Large Millimeter Array and the James Webb Space Telescope to observe a recently discovered giant disk galaxy known as ADF22.1. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern. The gap between identifying a correlation in biological data and understanding the causal chain that produces it is routinely underestimated, and the history of biomedical research is populated with associations that collapsed when the mechanism was sought and not found. A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive finding because it generates testable predictions that can narrow the hypothesis space. Editors have highlighted the following attributes while ensuring the content&#x27;s credibility: Add as preferred source arXiv (2026). ALMA and JWST imaging of ADF22.1.</p><p>Results of the new observations, published April 8 on the arXiv preprint server, shed more light on the formation and evolution of this galaxy. Giant disk galaxies with high stellar masses, like ADF22.1, are generally expected to be quiescent, bulge-dominated systems.</p><p>We exploit ALMA and JWST observations to characterize its dynamics, compare it to local counterparts, and use this information to understand its formation and subsequent. Data acquired with ALMA and JWST allowed the team to measure the galaxy&#x27;s rotation velocity and velocity dispersion, perform a rotation-curve decomposition, and constrain the mass.</p><p>The study confirmed that ADF22.1 reaches an exceptionally high outer rotation velocity of about 530 km/s, which was suggested by previous observations, with a flat rotation curve. According to the authors of the study, all these results indicate that ADF22.1 is structurally indistinguishable from local giant disk galaxies.</p><p>The broader interest lies in whether the reported effect points toward a real mechanism and not merely a reproducible but unexplained association. Biology has learned from decades of biomarker failures that correlation, even robust correlation, is not a substitute for mechanistic understanding. A pathway that can be traced from molecular interaction to cellular response to organismal phenotype provides a far stronger foundation for intervention than a statistical association discovered in a large dataset, however well the statistics are done.</p><p>Based on these findings, the researchers assume that the formation of ADF22.1 could be explained by a scenario in which cold gas condenses out of the hot circumgalactic medium. Francesca Rizzo et al, The assembly and fate of a giant disc galaxy in a protocluster at z = 3, arXiv (2026).</p><p>Because the account originates with Phys. org Space, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to test whether the effect repeats across different methods, cell types, model organisms and experimental conditions. Reproducibility is the first test, but mechanistic dissection is the second, and a result that passes both has a substantially better chance of translating into something clinically or biotechnologically useful. The path from a laboratory finding to an applied outcome typically takes a decade or more, and most findings do not complete it; the current result sits at the beginning of that process.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-alma-jwst-giant-disk-galaxy.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: Astrônomos europeus usaram o Atacama Large Millimeter Array e o Telescópio Espacial James Webb para observar uma galáxia de disco gigante",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: Astrônomos europeus usaram o Atacama Large Millimeter Array e o Telescópio Espacial James Webb para observar uma galáxia de disco gigante",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: European astronomers have used the Atacama Large Millimeter Array and the James Webb Space Telescope to observe a recently discovered giant disk",
-      "Detail: science reporting. whenever possible, verify the cited primary source",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "17 abr 2026",
@@ -1933,7 +1978,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-17T12:20:05+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Phys. org Space",
     "sourceDomain": "phys. org",
     "sourceType": "news",
@@ -1975,10 +2020,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=alma-and-jwst-investigate-giant-disk-galaxy-s-formation-and-evolution&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/alma-and-jwst-investigate-giant-disk-galaxy-s-formation-and-evolution/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/alma-and-jwst-investigate-giant-disk-galaxy-s-formation-and-evolution/",
-    "shareUrl_en": "https://www.cosmosweek.com/noticia/alma-and-jwst-investigate-giant-disk-galaxy-s-formation-and-evolution/?lang=en",
-    "canonicalUrl": "https://www.cosmosweek.com/?article=alma-and-jwst-investigate-giant-disk-galaxy-s-formation-and-evolution",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/?article=alma-and-jwst-investigate-giant-disk-galaxy-s-formation-and-evolution",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=alma-and-jwst-investigate-giant-disk-galaxy-s-formation-and-evolution&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/alma-and-jwst-investigate-giant-disk-galaxy-s-formation-and-evolution/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/alma-and-jwst-investigate-giant-disk-galaxy-s-formation-and-evolution/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/alma-and-jwst-investigate-giant-disk-galaxy-s-formation-and-evolution/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/alma-and-jwst-investigate-giant-disk-galaxy-s-formation-and-evolution/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -2003,7 +2048,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "ALMA e JWST investigam a formação e evolução de galáxias de disco gigante",
+    "imageAlt_pt": "ALMA e JWST investigam a formação e evolução de galáxias de disco gigante",
+    "imageAlt_en": "ALMA and JWST investigate giant disk galaxy's formation and evolution"
   },
   {
     "id": 17,
@@ -2038,17 +2086,17 @@ window.postsData = [
     "body_en": "<p>A huge coronal hole now faces Earth. CIR and fast solar wind may spark G1, G2 storms this weekend. Aurora chasers, stay alert! The post Sun news: Huge coronal hole now faces Earth first appeared on EarthSky. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. A huge coronal hole now faces Earth. Huge coronal hole now faces Earth first appeared on EarthSky.</p><p>Huge coronal hole now faces Earth Today’s top story: The huge coronal hole we’ve been tracking, since it emerged on the sun’s northeast earlier this week, is now in a geoeffective. This combination might push Earth’s magnetic field to unsettled-to-active levels, with periods of G1 (minor) geomagnetic storming.</p><p>Past 24 hours of sun news (11 UTC April 16, 11 UTC April 17) Flare activity: Over the past day, solar flare activity jumped to low levels, with a notable increase in flare. Later in the day today, Earth’s magnetic field might start to appear disturbed.</p><p>As you read this, the new moon will have just crossed nearly in front of the sun. As with the previous far-side eruptions this week, NASA’s SOHO spacecraft observed a huge blob of sun stuff, a coronal mass ejection (CME), launch into space, heading far away.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Past 24 hours of sun news (11 UTC April 15, 11 UTC April 16) Flare activity: Solar activity edged up slightly from very low to low levels over the past day, thanks to a pair of. Currently, the Earth-facing side of the sun shows 3 numbered active regions.</p><p>Because the account originates with EarthSky, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://earthsky.org/sun/sun-news-activity-solar-flare-cme-aurora-updates/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: Notícias do Sol para 17 de abril de 2026: Um enorme buraco coronal agora enfrenta a Terra",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: Notícias do Sol para 17 de abril de 2026: Um enorme buraco coronal agora enfrenta a Terra",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and",
-      "Detail: science reporting. whenever possible, verify the cited primary source",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "17 abr 2026",
@@ -2061,7 +2109,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-17T11:45:53+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "EarthSky",
     "sourceDomain": "earthsky. org",
     "sourceType": "news",
@@ -2106,10 +2154,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=sun-news-huge-coronal-hole-now-faces-earth&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/sun-news-huge-coronal-hole-now-faces-earth/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/sun-news-huge-coronal-hole-now-faces-earth/",
-    "shareUrl_en": "https://www.cosmosweek.com/noticia/sun-news-huge-coronal-hole-now-faces-earth/?lang=en",
-    "canonicalUrl": "https://www.cosmosweek.com/?article=sun-news-huge-coronal-hole-now-faces-earth",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/?article=sun-news-huge-coronal-hole-now-faces-earth",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=sun-news-huge-coronal-hole-now-faces-earth&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/sun-news-huge-coronal-hole-now-faces-earth/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/sun-news-huge-coronal-hole-now-faces-earth/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/sun-news-huge-coronal-hole-now-faces-earth/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/sun-news-huge-coronal-hole-now-faces-earth/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -2134,7 +2182,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Notícias do Sol: Enorme buraco coronal agora enfrenta a Terra",
+    "imageAlt_pt": "Notícias do Sol: Enorme buraco coronal agora enfrenta a Terra",
+    "imageAlt_en": "Sun news: Huge coronal hole now faces Earth"
   },
   {
     "id": 18,
@@ -2169,17 +2220,17 @@ window.postsData = [
     "body_en": "<p>Publishing in Communications Chemistry, researchers from Kyushu University have discovered a simple method of generating hydrogen gas by mixing methanol, sodium hydroxide, and iron ions, then irradiating the solution with UV light. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in chemistry gains force when a claimed structure or process can be described with enough precision to be reproduced by others. Synthetic routes, spectroscopic signatures, yield under defined conditions and stability under realistic operating parameters are the currency of credibility in chemistry, and a result that lacks these details cannot be evaluated independently. The distance between a discovery on a laboratory bench and a process that works reliably at scale is measured in years of optimization, and each step reveals constraints that were invisible at smaller scale. This article has been reviewed according to Science X&#x27;s editorial process and policies. Editors have highlighted the following attributes while ensuring the content&#x27;s credibility: Add as preferred source An illustration of the reported new method of generating.</p><p>The team also demonstrated that the method could generate hydrogen gas from other alcohols and biomass-derived materials, such as glucose and cellulose. While conducting their experiments, the team encountered some unusual results.</p><p>It was hard to believe at first. We validated these findings, experimented further, and confirmed them.</p><p>We found that the hydrogen production rate was 921 mmol of hydrogen per hour per gram of catalyst. The team intends to develop their new findings in hopes that further optimization will lead to more sustainable hydrogen technologies.</p><p>The broader interest lies in whether the claimed property or reaction pathway can be characterized with enough precision to support replication by other groups. Chemistry has a replication problem that is less discussed than the one in psychology or medicine, but it is real: synthetic procedures that work reliably in one laboratory sometimes fail to transfer, for reasons ranging from impure starting materials to undocumented temperature sensitivities. A result that comes with full experimental detail and a clear characterization of the product is far more valuable than one that reports a discovery without the procedural backbone.</p><p>Additionally, although we observed hydrogen generation from other materials, the catalytic activity for these substrates is still low,&quot; concludes Matsumoto. Finally, this reaction is so simple that anyone, from elementary school students to curious adults, can reproduce it.</p><p>Because the account originates with Phys. org Chemistry, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether independent groups working with orthogonal techniques reach compatible conclusions, and whether the result scales beyond the conditions used in the original study. Chemical discoveries that matter tend to be ones whose key properties can be measured by multiple spectroscopic, crystallographic or computational methods that are unlikely to share the same blind spots. Scalability, cost and long-term stability under realistic operating conditions are additional filters that come into play before any practical application becomes viable.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-iron-uv-alcohol-hydrogen-catalyst.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: Pesquisadores da Universidade de Kyushu, em um estudo publicado na Communications Chemistry, desenvolveram um método simples para gerar gás",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: Pesquisadores da Universidade de Kyushu, em um estudo publicado na Communications Chemistry, desenvolveram um método simples para gerar gás",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: Publishing in Communications Chemistry, researchers from Kyushu University have discovered a simple method of generating hydrogen gas by mixing",
-      "Detail: Institutional origin: separate announcement from evidence",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "17 abr 2026",
@@ -2192,7 +2243,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-17T09:00:04+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Phys. org Chemistry",
     "sourceDomain": "phys. org",
     "sourceType": "news",
@@ -2206,10 +2257,10 @@ window.postsData = [
     "evidenceLabel": "Cobertura jornalística",
     "evidenceLabel_pt": "Cobertura jornalística",
     "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "standard",
-    "editorialBandLabel": "Prioridade editorial",
-    "editorialBandLabel_pt": "Prioridade editorial",
-    "editorialBandLabel_en": "Editorial priority",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
     "keywords": [
       "Química",
       "Phys. org Chemistry",
@@ -2234,10 +2285,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=iron-plus-uv-light-turns-alcohol-into-hydrogen-with-catalyst-like-efficiency&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/iron-plus-uv-light-turns-alcohol-into-hydrogen-with-catalyst-like-efficiency/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/iron-plus-uv-light-turns-alcohol-into-hydrogen-with-catalyst-like-efficiency/",
-    "shareUrl_en": "https://www.cosmosweek.com/noticia/iron-plus-uv-light-turns-alcohol-into-hydrogen-with-catalyst-like-efficiency/?lang=en",
-    "canonicalUrl": "https://www.cosmosweek.com/?article=iron-plus-uv-light-turns-alcohol-into-hydrogen-with-catalyst-like-efficiency",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/?article=iron-plus-uv-light-turns-alcohol-into-hydrogen-with-catalyst-like-efficiency",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=iron-plus-uv-light-turns-alcohol-into-hydrogen-with-catalyst-like-efficiency&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/iron-plus-uv-light-turns-alcohol-into-hydrogen-with-catalyst-like-efficiency/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/iron-plus-uv-light-turns-alcohol-into-hydrogen-with-catalyst-like-efficiency/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/iron-plus-uv-light-turns-alcohol-into-hydrogen-with-catalyst-like-efficiency/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/iron-plus-uv-light-turns-alcohol-into-hydrogen-with-catalyst-like-efficiency/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -2250,11 +2301,11 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 74,
+    "score": 80,
     "scoreBreakdown": {
       "source": 70,
-      "evidence": 64,
-      "relevance": 68,
+      "evidence": 46,
+      "relevance": 74,
       "accessibility": 52,
       "novelty": 52
     },
@@ -2262,7 +2313,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Ferro e luz UV transformam álcool em hidrogênio com eficiência catalítica comparável",
+    "imageAlt_pt": "Ferro e luz UV transformam álcool em hidrogênio com eficiência catalítica comparável",
+    "imageAlt_en": "Iron plus UV light turns alcohol into hydrogen with catalyst-like efficiency"
   },
   {
     "id": 19,
@@ -2297,17 +2351,17 @@ window.postsData = [
     "body_en": "<p>Developed a technique for detecting and measuring the concentration of many rare-earth elements in plants, without destroying the plant. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because physics only takes a result seriously when the measurement chain remains robust under scrutiny. Experimental particle physics and precision metrology both operate in regimes where the signal sits far below the background noise, and where systematic uncertainties can mimic new physics if not controlled rigorously. The history of the field contains numerous anomalies that generated theoretical excitement before better data showed them to be artifacts, and it also contains genuine discoveries that were initially dismissed as noise. The difference is almost always resolved by independent replication with different instruments and different systematics. This article has been reviewed according to Science X&#x27;s editorial process and policies. Editors have highlighted the following attributes while ensuring the content&#x27;s credibility: Add as preferred source This photo shows Phytolacca americana plants growing in.</p><p>Rare-earth metals are essential for many technologies,&quot; says Colleen Doherty, co-corresponding author of a paper on the work. Obtains most of the rare-earth materials it needs from international sources, so there is a great deal of interest in identifying domestic sources of these critical materials.</p><p>However, while these toxic soils have relatively high concentrations of rare-earth elements compared to other soils, those concentrations are still too low to make this an. Some plant species are capable of taking rare-earth elements out of polluted soil and concentrating it in their tissue,&quot; says Doherty, who is an associate professor of molecular.</p><p>In order to maximize this &#x27;plant mining&#x27; technique, we wanted to find a way to detect and measure the concentration of rare-earth materials in these plants. This can inform not only which plants we want to use for these mining projects, but when the optimal time would be for harvesting those plants to maximize yield of rare-earth.</p><p>The broader interest lies as much in the method as in the headline number, because a durable measurement procedure can travel farther than a single result. When experimental physicists develop a technique that achieves new sensitivity or controls a previously uncharacterized systematic, that methodological contribution persists even if the specific measurement is later revised. This is one reason why precision physics experiments often generate long-term value that is not immediately visible in the original publication.</p><p>So one challenge has been distinguishing the autofluorescence of the plant itself from the fluorescence of rare-earth elements the plant has taken up. The researchers then triggered fluorescence using a deep ultraviolet laser and measured the wavelengths and intensity of light emitted by the plant samples.</p><p>Because the account originates with Phys. org Chemistry, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is more measurement, tighter systematic control and scrutiny from groups whose experimental setups are genuinely independent. In experimental particle physics and precision metrology, the threshold for a discovery claim is a five-sigma excess surviving multiple analyses; an intriguing signal at lower significance is a reason to run more experiments, not a reason to revise the textbooks. Next-generation experiments currently under construction or commissioning will revisit several of the open questions that give the current result its context.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-technique-rare-earth-metals.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: Os pesquisadores desenvolveram uma técnica para detectar e medir a concentração de muitos elementos de terras raras nas plantas, sem destruir a",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: Os pesquisadores desenvolveram uma técnica para detectar e medir a concentração de muitos elementos de terras raras nas plantas, sem destruir a",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: Researchers have developed a technique for detecting and measuring the concentration of many rare-earth elements in plants, without destroying the",
-      "Detail: science reporting. whenever possible, verify the cited primary source",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "16 abr 2026",
@@ -2320,7 +2374,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-16T22:50:01+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Phys. org Chemistry",
     "sourceDomain": "phys. org",
     "sourceType": "news",
@@ -2362,10 +2416,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants/",
-    "shareUrl_en": "https://www.cosmosweek.com/noticia/how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants/?lang=en",
-    "canonicalUrl": "https://www.cosmosweek.com/?article=how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/?article=how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -2390,7 +2444,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Como uma nova técnica nos ajudará a extrair metais de terras raras com plantas",
+    "imageAlt_pt": "Como uma nova técnica nos ajudará a extrair metais de terras raras com plantas",
+    "imageAlt_en": "How a new technique will help us mine rare-earth metals with plants"
   },
   {
     "id": 20,
@@ -2415,17 +2472,17 @@ window.postsData = [
     "body_en": "<p>Photosynthetic bacteria helped shape planet Earth. Among them are cyanobacteria that produced the oxygen in the atmosphere and made complex life possible, captivating scientists for decades. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The results, published in Science, shed light on how protein systems evolve and how multicellularity emerged in this type of ecologically essential bacteria. This article has been reviewed according to Science X&#x27;s editorial process and policies.</p><p>Loose group | ISTA Photosynthetic bacteria helped shape planet Earth. Now, researchers at the Institute of Science and Technology Austria (ISTA) report a surprising new discovery, a system thought to separate DNA has developed to sculpt the shape of.</p><p>Cyanobacteria are essentially pioneers of oxygenic photosynthesis,&quot; says Benjamin Springstein, a postdoc in the Loose group at the Institute of Science and Technology Austria. They are responsible for the Great Oxygenation Event about 2.5 billion years ago, when oxygen accumulated in the atmosphere and made aerobic life possible.</p><p>They thrive in some of Earth&#x27;s most extreme environments, from hot springs to the Arctic, and even on roofs and walls of urban buildings. PCC 7120 (or simply Anabaena), a multicellular cyanobacterium that has been the subject of research for more than 30 years.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Plasmids are especially mobile, as they can easily be transferred from one bacterium to another, allowing bacteria to rapidly acquire new traits and evolve swiftly. Since 2014, Springstein has been captivated by Anabaena, exploring their evolutionary and molecular mysteries.</p><p>Because the account originates with Phys. org Biology, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-cyanobacteria-scientists-evolutionary-shift.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: As bactérias fotossintéticas ajudaram a moldar o planeta Terra",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: As bactérias fotossintéticas ajudaram a moldar o planeta Terra",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: Photosynthetic bacteria helped shape planet Earth",
-      "Detail: science reporting. whenever possible, verify the cited primary source",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "16 abr 2026",
@@ -2438,7 +2495,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-16T18:00:07+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Phys. org Biology",
     "sourceDomain": "phys. org",
     "sourceType": "news",
@@ -2480,10 +2537,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=cyanobacteria-surprise-scientists-with-evolutionary-shift&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/cyanobacteria-surprise-scientists-with-evolutionary-shift/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/cyanobacteria-surprise-scientists-with-evolutionary-shift/",
-    "shareUrl_en": "https://www.cosmosweek.com/noticia/cyanobacteria-surprise-scientists-with-evolutionary-shift/?lang=en",
-    "canonicalUrl": "https://www.cosmosweek.com/?article=cyanobacteria-surprise-scientists-with-evolutionary-shift",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/?article=cyanobacteria-surprise-scientists-with-evolutionary-shift",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=cyanobacteria-surprise-scientists-with-evolutionary-shift&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/cyanobacteria-surprise-scientists-with-evolutionary-shift/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/cyanobacteria-surprise-scientists-with-evolutionary-shift/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/cyanobacteria-surprise-scientists-with-evolutionary-shift/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/cyanobacteria-surprise-scientists-with-evolutionary-shift/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -2508,7 +2565,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Cianobactérias surpreendem cientistas com mudança evolutiva",
+    "imageAlt_pt": "Cianobactérias surpreendem cientistas com mudança evolutiva",
+    "imageAlt_en": "Cyanobacteria surprise scientists with evolutionary shift"
   },
   {
     "id": 21,
@@ -2533,12 +2593,12 @@ window.postsData = [
     "body_en": "<p>Sub-Neptune exoplanets frequently exhibit muted transmission spectra, with GJ 1214 b being the most prominent example. Following years of intense observing campaigns yielding featureless planetary spectra, recent observations with JWST. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>That matters because exoplanet science has moved beyond the era of simple discovery into a period of comparative characterization. With more than five thousand confirmed planets known, the scientifically productive questions now concern atmospheric composition, internal structure, orbital history and the statistical properties of populations rather than the existence of individual worlds. A new detection or spectral measurement is most valuable when it adds a well-constrained data point to those comparative frameworks, not when it stands alone as an anecdote. Following years of intense observing campaigns yielding featureless planetary spectra, recent observations with JWST revealed the first possible atmospheric signatures. We present high-resolution transmission spectroscopy of GJ 1214 b based on eight transits obtained with the CRIRES$^+$ spectrograph in the K band.</p><p>We used SYSREM to remove telluric and stellar signals and searched for signatures of H2O, CO, CH4, H2S, NH3, and CO2 using the cross-correlation technique. We obtained non-detections for the first five molecules and used injection recovery tests to derive upper limits on the atmosphere.</p><p>For CO$_2$ we measure a CCF signal at S/N ~ 3.6, with a detailed investigation showing no obvious indication that it is caused by correlated noise. A Welch t-test confirmed the in-trail and out-of-trail distributions to be different at $3.4 σ$ confidence.</p><p>While these values correspond to relatively large signal amplitudes predicted for CO2 features in the mid-infrared, they are compatible with JWST NIRSpec observations within the. Further modelling and additional data are required to confirm the atmospheric signatures and obtain a comprehensive interpretation of low- and high-resolution data.</p><p>The broader interest lies in making the target less anecdotal and more comparable with the rest of the known planetary population. Population-level questions, such as the frequency of atmospheres around small rocky planets or the prevalence of water-rich worlds in the habitable zone, require well-characterized individual data points before statistical patterns become meaningful. Each new planet with a measured radius, mass and, ideally, atmospheric constraint is a brick in that larger structure, and the accumulation of bricks eventually allows theorists to test formation models against real distributions rather than projections.</p><p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to improve independent constraints on the mass, radius, atmospheric composition and orbital dynamics of the target. Transmission spectroscopy with JWST, radial velocity campaigns with high-resolution ground-based spectrographs and phase-curve measurements from space photometry represent the observational toolkit that can move characterization from plausible to robust. That convergence of techniques is the standard the community now expects before a planetary atmosphere result is treated as confirmed. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.15292v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: Os exoplanetas sub-Netuno exibem frequentemente espectros de transmissão silenciados, sendo GJ 1214 b o exemplo mais proeminente",
-      "Detalhe: resultado provisório, ainda sem revisão por pares formal",
+      "Detalhe: Resultado ainda sem revisão por pares",
       "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
     ],
     "highlights_pt": [
       "Em foco: Os exoplanetas sub-Netuno exibem frequentemente espectros de transmissão silenciados, sendo GJ 1214 b o exemplo mais proeminente",
-      "Detalhe: resultado provisório, ainda sem revisão por pares formal",
+      "Detalhe: Resultado ainda sem revisão por pares",
       "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
     ],
     "highlights_en": [
@@ -2555,7 +2615,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-16T17:54:55+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "arXiv Astrophysics",
     "sourceDomain": "arxiv. org",
     "sourceType": "preprint",
@@ -2569,10 +2629,10 @@ window.postsData = [
     "evidenceLabel": "Resultado provisório",
     "evidenceLabel_pt": "Resultado provisório",
     "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
     "keywords": [
       "Exoplanetas",
       "arXiv Astrophysics",
@@ -2600,10 +2660,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso/",
-    "shareUrl_en": "https://www.cosmosweek.com/noticia/cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso/?lang=en",
-    "canonicalUrl": "https://www.cosmosweek.com/?article=cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/?article=cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -2616,7 +2676,7 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "fallback",
     "reviewProvider": "gemini",
-    "score": 91,
+    "score": 96,
     "scoreBreakdown": {
       "source": 56,
       "evidence": 35,
@@ -2628,7 +2688,10 @@ window.postsData = [
     "coverageKindLabel": "Preprint",
     "coverageKindLabel_pt": "Preprint",
     "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Nublado com possibilidade de metais: Indicações de CO$_2$ na atmosfera de GJ 1214 b a partir de espectroscopia de banda K de alta resolução",
+    "imageAlt_pt": "Nublado com possibilidade de metais: Indicações de CO$_2$ na atmosfera de GJ 1214 b a partir de espectroscopia de banda K de alta resolução",
+    "imageAlt_en": "Cloudy with a chance of metals: Indications of CO$_2$ in the atmosphere of GJ 1214 b from high-resolution K-band spectroscopy"
   },
   {
     "id": 22,
@@ -2653,17 +2716,17 @@ window.postsData = [
     "body_en": "<p>The spin-off company ParityQC has implemented the largest quantum Fourier transform ever reported using an IBM quantum computer, thereby setting a new milestone on the path toward the industrial application of quantum computers. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because physics only takes a result seriously when the measurement chain remains robust under scrutiny. Experimental particle physics and precision metrology both operate in regimes where the signal sits far below the background noise, and where systematic uncertainties can mimic new physics if not controlled rigorously. The history of the field contains numerous anomalies that generated theoretical excitement before better data showed them to be artifacts, and it also contains genuine discoveries that were initially dismissed as noise. The difference is almost always resolved by independent replication with different instruments and different systematics. This article has been reviewed according to Science X&#x27;s editorial process and policies. Editors have highlighted the following attributes while ensuring the content&#x27;s credibility: Add as preferred source arXiv (2026).</p><p>The QFT implements the quantum analog to the discrete Fourier transform of an input state |x⟩. The quantum Fourier transform is a cornerstone algorithm with applications in cryptography, financial modeling, and materials science.</p><p>Innsbruck-based quantum architecture company ParityQC performed a quantum Fourier transform using 52 superconducting qubits on an IBM Heron quantum processor. This surpasses the previous record of 27 qubits, which was set two years ago using an ion-trap quantum computer.</p><p>The results were published this week on the arXiv preprint server. What we are witnessing is European quantum innovation taking a global lead in translating theoretical potential into real-world performance.</p><p>The broader interest lies as much in the method as in the headline number, because a durable measurement procedure can travel farther than a single result. When experimental physicists develop a technique that achieves new sensitivity or controls a previously uncharacterized systematic, that methodological contribution persists even if the specific measurement is later revised. This is one reason why precision physics experiments often generate long-term value that is not immediately visible in the original publication.</p><p>ParityQC was founded in 2019 as a spin-off of the University of Innsbruck and the Austrian Academy of Sciences (ÖAW). The company develops blueprints and operating software for scalable quantum computers and collaborates with hardware partners worldwide.</p><p>Because the account originates with Phys. org Physics, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is more measurement, tighter systematic control and scrutiny from groups whose experimental setups are genuinely independent. In experimental particle physics and precision metrology, the threshold for a discovery claim is a five-sigma excess surviving multiple analyses; an intriguing signal at lower significance is a reason to run more experiments, not a reason to revise the textbooks. Next-generation experiments currently under construction or commissioning will revisit several of the open questions that give the current result its context.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-quantum-fourier-qubits-shattering-previous.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: A empresa spin-off ParityQC implementou a maior transformada quântica de Fourier já relatada usando um computador quântico IBM, estabelecendo assim",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: A empresa spin-off ParityQC implementou a maior transformada quântica de Fourier já relatada usando um computador quântico IBM, estabelecendo assim",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: The spin-off company ParityQC has implemented the largest quantum Fourier transform ever reported using an IBM quantum computer, thereby setting a",
-      "Detail: science reporting. whenever possible, verify the cited primary source",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "16 abr 2026",
@@ -2676,7 +2739,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-16T16:20:08+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Phys. org Physics",
     "sourceDomain": "phys. org",
     "sourceType": "news",
@@ -2721,10 +2784,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=quantum-fourier-transform-reaches-52-qubits-shattering-the-previous-27-qubit-record&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/quantum-fourier-transform-reaches-52-qubits-shattering-the-previous-27-qubit-record/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/quantum-fourier-transform-reaches-52-qubits-shattering-the-previous-27-qubit-record/",
-    "shareUrl_en": "https://www.cosmosweek.com/noticia/quantum-fourier-transform-reaches-52-qubits-shattering-the-previous-27-qubit-record/?lang=en",
-    "canonicalUrl": "https://www.cosmosweek.com/?article=quantum-fourier-transform-reaches-52-qubits-shattering-the-previous-27-qubit-record",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/?article=quantum-fourier-transform-reaches-52-qubits-shattering-the-previous-27-qubit-record",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=quantum-fourier-transform-reaches-52-qubits-shattering-the-previous-27-qubit-record&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/quantum-fourier-transform-reaches-52-qubits-shattering-the-previous-27-qubit-record/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/quantum-fourier-transform-reaches-52-qubits-shattering-the-previous-27-qubit-record/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/quantum-fourier-transform-reaches-52-qubits-shattering-the-previous-27-qubit-record/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/quantum-fourier-transform-reaches-52-qubits-shattering-the-previous-27-qubit-record/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -2737,7 +2800,7 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 95,
+    "score": 100,
     "scoreBreakdown": {
       "source": 71,
       "evidence": 42,
@@ -2749,7 +2812,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "A transformação quântica de Fourier atinge 52 qubits, quebrando o recorde anterior de 27 qubits",
+    "imageAlt_pt": "A transformação quântica de Fourier atinge 52 qubits, quebrando o recorde anterior de 27 qubits",
+    "imageAlt_en": "Quantum Fourier transform reaches 52 qubits, shattering the previous 27-qubit record"
   },
   {
     "id": 23,
@@ -2784,17 +2850,17 @@ window.postsData = [
     "body_en": "<p>For the first time, researchers have demonstrated that a laser-plasma accelerator can reliably drive a free-electron laser for more than eight hours. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because physics only takes a result seriously when the measurement chain remains robust under scrutiny. Experimental particle physics and precision metrology both operate in regimes where the signal sits far below the background noise, and where systematic uncertainties can mimic new physics if not controlled rigorously. The history of the field contains numerous anomalies that generated theoretical excitement before better data showed them to be artifacts, and it also contains genuine discoveries that were initially dismissed as noise. The difference is almost always resolved by independent replication with different instruments and different systematics. Published in Physical Review Accelerators and Beams, the result was achieved by a team led by Finn Kohrell at Lawrence Berkeley National Laboratory, in collaboration with. This article has been reviewed according to Science X&#x27;s editorial process and policies.</p><p>This generates significant instability between laser shots, making it extremely difficult for users to sustain accurate results over long-term use. With these additions, the LPA was able to deliver an extremely stable succession of 100 MeV electron bunches for over 10 hours, at a rate of 1, 000 bunches per second.</p><p>This allowed for more than eight continuous hours of FEL operation at a wavelength of 420 nm, falling within the visible range. Based on the data they have gathered so far, Kohrell&#x27;s team will now aim to refine their control systems even further.</p><p>Their next target is operating at 500 MeV, which would push the FEL output to between 20 and 30 nm, straddling the boundary between ultraviolet and X-rays on the electromagnetic. Altogether, their achievement opens up a new chapter in the development of next-generation light sources, and could help bring compact, affordable sources of coherent ultraviolet.</p><p>The broader interest lies as much in the method as in the headline number, because a durable measurement procedure can travel farther than a single result. When experimental physicists develop a technique that achieves new sensitivity or controls a previously uncharacterized systematic, that methodological contribution persists even if the specific measurement is later revised. This is one reason why precision physics experiments often generate long-term value that is not immediately visible in the original publication.</p><p>We rely on readers like you to keep independent science journalism alive. Kohrell et al, Over 8 hours of continuous operation of a free-electron laser driven by a laser-plasma accelerator, Physical Review Accelerators and Beams (2026).</p><p>Because the account originates with Phys. org Physics, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is more measurement, tighter systematic control and scrutiny from groups whose experimental setups are genuinely independent. In experimental particle physics and precision metrology, the threshold for a discovery claim is a five-sigma excess surviving multiple analyses; an intriguing signal at lower significance is a reason to run more experiments, not a reason to revise the textbooks. Next-generation experiments currently under construction or commissioning will revisit several of the open questions that give the current result its context.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-laser-plasma-free-electron-hours.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: Pela primeira vez, os pesquisadores demonstraram que um acelerador de laser-plasma pode acionar de forma confiável um laser de elétrons livres por",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: Pela primeira vez, os pesquisadores demonstraram que um acelerador de laser-plasma pode acionar de forma confiável um laser de elétrons livres por",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: For the first time, researchers have demonstrated that a laser-plasma accelerator can reliably drive a free-electron laser for more than eight hours",
-      "Detail: science reporting. whenever possible, verify the cited primary source",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "16 abr 2026",
@@ -2807,7 +2873,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-16T15:40:03+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Phys. org Physics",
     "sourceDomain": "phys. org",
     "sourceType": "news",
@@ -2852,10 +2918,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=laser-plasma-accelerator-drives-free-electron-laser-for-record-8-hours&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/laser-plasma-accelerator-drives-free-electron-laser-for-record-8-hours/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/laser-plasma-accelerator-drives-free-electron-laser-for-record-8-hours/",
-    "shareUrl_en": "https://www.cosmosweek.com/noticia/laser-plasma-accelerator-drives-free-electron-laser-for-record-8-hours/?lang=en",
-    "canonicalUrl": "https://www.cosmosweek.com/?article=laser-plasma-accelerator-drives-free-electron-laser-for-record-8-hours",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/?article=laser-plasma-accelerator-drives-free-electron-laser-for-record-8-hours",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=laser-plasma-accelerator-drives-free-electron-laser-for-record-8-hours&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/laser-plasma-accelerator-drives-free-electron-laser-for-record-8-hours/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/laser-plasma-accelerator-drives-free-electron-laser-for-record-8-hours/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/laser-plasma-accelerator-drives-free-electron-laser-for-record-8-hours/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/laser-plasma-accelerator-drives-free-electron-laser-for-record-8-hours/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -2880,7 +2946,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Acelerador laser-plasma aciona laser de elétrons livres por um recorde de 8 horas",
+    "imageAlt_pt": "Acelerador laser-plasma aciona laser de elétrons livres por um recorde de 8 horas",
+    "imageAlt_en": "Laser-plasma accelerator drives free-electron laser for record 8 hours"
   },
   {
     "id": 24,
@@ -2905,17 +2974,17 @@ window.postsData = [
     "body_en": "<p>Using the Atacama Large Millimeter/submillimeter Array, astronomers have discovered a close pair of quasars, which is a result of a distant massive galaxy merger. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Editors have highlighted the following attributes while ensuring the content&#x27;s credibility: Add as preferred source arXiv (2026). The ALMA observation of J2037, 4537.</p><p>Using the Atacama Large Millimeter/submillimeter Array (ALMA), astronomers have discovered a close pair of quasars, which is a result of a distant massive galaxy merger. The detection of the quasar pair was detailed in a research paper published April 7 on the arXiv pre-print server.</p><p>Such systems are relatively rare and usually found at redshifts below 4.0, which is consistent with cosmological simulations suggesting that their abundance peaks at cosmic noon. However, in 2021, astronomers led by Minghao Yue of the Steward Observatory in Tucson, Arizona reported the identification of a first candidate close quasar pair at a redshift of.</p><p>The system, which received designation J2037, 4537, was detected at a redshift of 5.7. Follow-up observations conducted by Yue&#x27;s team have now confirmed this discovery, excluding the scenario in which J2037, 4537 may be a doubly imaged gravitationally lensed quasar.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>These results confirm that J2037, 4537 is a physical close quasar pair. When it comes to the properties of the two host galaxies, they were found to have dynamical masses of at least 20 billion solar masses, and star-formation rates between 500 and.</p><p>Because the account originates with Phys. org Space, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-alma-rare-quasar-pair-redshift.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: Astrônomos utilizaram o Atacama Large Millimeter/submillimeter Array (ALMA) para confirmar a existência de um par raro de quasares próximos",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: Astrônomos utilizaram o Atacama Large Millimeter/submillimeter Array (ALMA) para confirmar a existência de um par raro de quasares próximos",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: Using the Atacama Large Millimeter/submillimeter Array, astronomers have discovered a close pair of quasars, which is a result of a distant massive",
-      "Detail: Institutional origin: separate announcement from evidence",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "16 abr 2026",
@@ -2928,7 +2997,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-16T13:32:51+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Phys. org Space",
     "sourceDomain": "phys. org",
     "sourceType": "news",
@@ -2942,10 +3011,10 @@ window.postsData = [
     "evidenceLabel": "Cobertura jornalística",
     "evidenceLabel_pt": "Cobertura jornalística",
     "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
     "keywords": [
       "Astrofísica",
       "Phys. org Space",
@@ -2973,10 +3042,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=alma-confirms-rare-quasar-pair-at-redshift-5-7-in-merging-galaxies&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/alma-confirms-rare-quasar-pair-at-redshift-5-7-in-merging-galaxies/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/alma-confirms-rare-quasar-pair-at-redshift-5-7-in-merging-galaxies/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=alma-confirms-rare-quasar-pair-at-redshift-5-7-in-merging-galaxies&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/alma-confirms-rare-quasar-pair-at-redshift-5-7-in-merging-galaxies/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/alma-confirms-rare-quasar-pair-at-redshift-5-7-in-merging-galaxies/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/alma-confirms-rare-quasar-pair-at-redshift-5-7-in-merging-galaxies/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=alma-confirms-rare-quasar-pair-at-redshift-5-7-in-merging-galaxies&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/alma-confirms-rare-quasar-pair-at-redshift-5-7-in-merging-galaxies/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -2989,10 +3058,10 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 89,
+    "score": 100,
     "scoreBreakdown": {
       "source": 76,
-      "evidence": 70,
+      "evidence": 52,
       "relevance": 88,
       "accessibility": 60,
       "novelty": 49
@@ -3001,7 +3070,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "ALMA confirma par raro de quasares com desvio para o vermelho de 5, 7 em galáxias em fusão",
+    "imageAlt_pt": "ALMA confirma par raro de quasares com desvio para o vermelho de 5, 7 em galáxias em fusão",
+    "imageAlt_en": "ALMA confirms rare quasar pair at redshift 5.7 in merging galaxies"
   },
   {
     "id": 25,
@@ -3026,17 +3098,17 @@ window.postsData = [
     "body_en": "<p>A pair of dwarf galaxies in the giant Virgo Cluster show what can happen when these stellar cities interact. Scientists at the University of Michigan focused the James Webb Space Telescope onto the galaxies NGC 4486B and UCD736 and found. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Scientists at the University of Michigan focused the James Webb Space Telescope (JWST) onto the galaxies NGC 4486B and UCD736 and found each of them sporting &quot;overmassive&quot; black. The JWST observations revealed that the dwarf galaxy NGC 4486B has a black hole that started out as two less-massive ones.</p><p>That black hole is about 360 million times the mass of the Sun. You can see clearly that it’s off-center in NGC 4486B. ” Previous Hubble Space Telescope and ground-based views showed the off-kilter location of that black hole, but it took JWST.</p><p>JWST observations made using NIRSpec tracked the paths of the stars that got kicked out and gave more information about the resettlement of the black hole, which could occur. It&#x27;s called UCD736, and it didn&#x27;t use to be so little.</p><p>The science team thinks it was originally much larger in the distant past. Today, there&#x27;s just a nucleus of a galaxy left behind, sporting a black hole that&#x27;s 8 percent of the mass of the galaxy.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>According to doctoral student and team member Solveig Thompson, using JWST to study these smaller and dimmer galaxies is uncovering a lot of new information about central black. This galactic commune lies some 55 million light-years from Earth and contains upwards of 2, 000 galaxies.</p><p>Because the account originates with Universe Today, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: Um estudo com o Telescópio Espacial James Webb (JWST) sobre um par de galáxias anãs no Aglomerado de Virgem revela evidências de buracos negros",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: Um estudo com o Telescópio Espacial James Webb (JWST) sobre um par de galáxias anãs no Aglomerado de Virgem revela evidências de buracos negros",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: A pair of dwarf galaxies in the giant Virgo Cluster show what can happen when these stellar cities interact",
-      "Detail: Institutional origin: separate announcement from evidence",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "15 abr 2026",
@@ -3049,7 +3121,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-15T21:43:15+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Universe Today",
     "sourceDomain": "www. universetoday. com",
     "sourceType": "news",
@@ -3063,10 +3135,10 @@ window.postsData = [
     "evidenceLabel": "Cobertura jornalística",
     "evidenceLabel_pt": "Cobertura jornalística",
     "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
     "keywords": [
       "Astrofísica",
       "Universe Today",
@@ -3091,10 +3163,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -3107,10 +3179,10 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 86,
+    "score": 98,
     "scoreBreakdown": {
       "source": 73,
-      "evidence": 64,
+      "evidence": 46,
       "relevance": 88,
       "accessibility": 60,
       "novelty": 49
@@ -3119,7 +3191,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "JWST revela indícios de fusões de buracos negros em galáxias anãs no Aglomerado de Virgem",
+    "imageAlt_pt": "JWST revela indícios de fusões de buracos negros em galáxias anãs no Aglomerado de Virgem",
+    "imageAlt_en": "JWST Sees Smoking Gun for Black Hole Mergers in the Virgo Cluster"
   },
   {
     "id": 26,
@@ -3154,17 +3229,17 @@ window.postsData = [
     "body_en": "<p>Astronomers at The University of New Mexico have published new research confirming three bodies orbiting the dynamic exoplanet system TOI-201. They include a super-Earth, a warm Jupiter, and a brown dwarf. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because exoplanet science has moved beyond the era of simple discovery into a period of comparative characterization. With more than five thousand confirmed planets known, the scientifically productive questions now concern atmospheric composition, internal structure, orbital history and the statistical properties of populations rather than the existence of individual worlds. A new detection or spectral measurement is most valuable when it adds a well-constrained data point to those comparative frameworks, not when it stands alone as an anecdote. They include a super-Earth (TOI-201 d), a warm Jupiter (TOI-201 b), and a brown dwarf (TOI-201 c). The paper titled &quot; Uncovering the Rapidly Evolving Orbits of the Dynamic TOI-201 System &quot; is published in Science Advances.</p><p>The goal was to characterize the TOI-201 planetary system to understand not just what planets are there, but how they interact with each other dynamically,&quot; said Mireles. TOI-201 c is unique because of its extremely long orbital period (~7.9 years) and its location in a system with two interior planets,&quot; said Mireles.</p><p>Most known transiting brown dwarfs orbit much closer to their stars. &quot; &quot;Since the mass of TOI-201 c is near the boundary separating massive planets from brown dwarfs, one mystery. Transits from NASA&#x27;s TESS space telescope and ground-based observations from the ASTEP telescope in Antarctica, a project led by the Observatoire de la Côte d&#x27;Azur, Nice, in.</p><p>Transit observations from the LCOGT global network of telescope sites based in Chile, Australia, and South Africa were also included, and played a critical role in the analysis. While the logistics involved are difficult, the telescope&#x27;s unique location and access to optimal astronomical conditions are key to studying exoplanetary systems with long.</p><p>The broader interest lies in making the target less anecdotal and more comparable with the rest of the known planetary population. Population-level questions, such as the frequency of atmospheres around small rocky planets or the prevalence of water-rich worlds in the habitable zone, require well-characterized individual data points before statistical patterns become meaningful. Each new planet with a measured radius, mass and, ideally, atmospheric constraint is a brick in that larger structure, and the accumulation of bricks eventually allows theorists to test formation models against real distributions rather than projections.</p><p>Discover the latest in science, tech, and space with over 100, 000 subscribers who rely on Phys. org for daily insights. So the next question to answer for TOI-201 is how these three objects ended up with such tilted orbits,&quot; added Dragomir.</p><p>Because the account originates with Phys. org Space, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to improve independent constraints on the mass, radius, atmospheric composition and orbital dynamics of the target. Transmission spectroscopy with JWST, radial velocity campaigns with high-resolution ground-based spectrographs and phase-curve measurements from space photometry represent the observational toolkit that can move characterization from plausible to robust. That convergence of techniques is the standard the community now expects before a planetary atmosphere result is treated as confirmed.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-astronomers-reveal-multi-planet.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: Astrônomos da Universidade do Novo México publicaram uma nova pesquisa que confirma a existência de três corpos em órbita no sistema exoplanetário",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: Astrônomos da Universidade do Novo México publicaram uma nova pesquisa que confirma a existência de três corpos em órbita no sistema exoplanetário",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: Astronomers at The University of New Mexico have published new research confirming three bodies orbiting the dynamic exoplanet system TOI-201",
-      "Detail: science reporting. whenever possible, verify the cited primary source",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "15 abr 2026",
@@ -3177,7 +3252,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-15T18:00:05+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Phys. org Space",
     "sourceDomain": "phys. org",
     "sourceType": "news",
@@ -3219,10 +3294,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=astronomers-reveal-always-changing-multi-planet-system&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/astronomers-reveal-always-changing-multi-planet-system/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/astronomers-reveal-always-changing-multi-planet-system/",
-    "shareUrl_en": "https://www.cosmosweek.com/noticia/astronomers-reveal-always-changing-multi-planet-system/?lang=en",
-    "canonicalUrl": "https://www.cosmosweek.com/?article=astronomers-reveal-always-changing-multi-planet-system",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/?article=astronomers-reveal-always-changing-multi-planet-system",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=astronomers-reveal-always-changing-multi-planet-system&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/astronomers-reveal-always-changing-multi-planet-system/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/astronomers-reveal-always-changing-multi-planet-system/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/astronomers-reveal-always-changing-multi-planet-system/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/astronomers-reveal-always-changing-multi-planet-system/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -3247,7 +3322,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Astrônomos revelam sistema multiplanetário em constante mudança",
+    "imageAlt_pt": "Astrônomos revelam sistema multiplanetário em constante mudança",
+    "imageAlt_en": "Astronomers reveal always-changing multi-planet system"
   },
   {
     "id": 27,
@@ -3322,17 +3400,17 @@ window.postsData = [
     "body_en": "<p>Watch Regulus disappear and reappear before your eyes during its last North American occultation in the current cycle. The post See the Moon Hide Regulus, the Stellar Heart of the Lion appeared first on Sky &amp; Telescope. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. The post See the Moon Hide Regulus, the Stellar Heart of the Lion appeared first on Sky &amp; Telescope. Wonders of the Night Sky You Must See Before You Die (2018) and Urban Legends from Space (2019) and Magnificent Aurora, published in 2024.</p><p>(You can unsubscribe anytime) Only four 1st-magnitude stars lie along the Moon&#x27;s weaving path: Regulus, Spica, Antares, and Aldebaran. Each has its own occultation season, when the Moon briefly occults the star at successive lunations for up to several years.</p><p>Many of these coverups occur at off times, when the Moon lies below the horizon from a particular observing location. The Moon travels eastward in its orbit, so its dark limb will bear down on Regulus before covering it.</p><p>From Princeton, New Jersey, for instance, the star will scrape the edge of the darkened north polar region for about 8 minutes before exiting. Farther south in Miami, it passes more centrally behind the Moon and remains out of view for 1 hour, 24 minutes.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>When the star reappears at the bright limb, night will be underway, but glare will prevent viewing Regulus without optical aid for at least 15 minutes. Yet there it was, a ruddy sparkle of light emerging from behind the Moon into a blue sky.</p><p>Because the account originates with Sky &amp; Telescope, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/see-the-moon-hide-regulus-the-stellar-heart-of-the-lion/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: Observe Regulus desaparecer e reaparecer diante de seus olhos durante sua última ocultação visível na América do Norte neste ciclo atual",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: Observe Regulus desaparecer e reaparecer diante de seus olhos durante sua última ocultação visível na América do Norte neste ciclo atual",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: Watch Regulus disappear and reappear before your eyes during its last North American occultation in the current cycle",
-      "Detail: science reporting. whenever possible, verify the cited primary source",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "15 abr 2026",
@@ -3345,7 +3423,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-15T17:31:24+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Sky & Telescope",
     "sourceDomain": "skyandtelescope. org",
     "sourceType": "news",
@@ -3390,10 +3468,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=see-the-moon-hide-regulus-the-stellar-heart-of-the-lion&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/see-the-moon-hide-regulus-the-stellar-heart-of-the-lion/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/see-the-moon-hide-regulus-the-stellar-heart-of-the-lion/",
-    "shareUrl_en": "https://www.cosmosweek.com/noticia/see-the-moon-hide-regulus-the-stellar-heart-of-the-lion/?lang=en",
-    "canonicalUrl": "https://www.cosmosweek.com/?article=see-the-moon-hide-regulus-the-stellar-heart-of-the-lion",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/?article=see-the-moon-hide-regulus-the-stellar-heart-of-the-lion",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=see-the-moon-hide-regulus-the-stellar-heart-of-the-lion&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/see-the-moon-hide-regulus-the-stellar-heart-of-the-lion/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/see-the-moon-hide-regulus-the-stellar-heart-of-the-lion/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/see-the-moon-hide-regulus-the-stellar-heart-of-the-lion/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/see-the-moon-hide-regulus-the-stellar-heart-of-the-lion/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -3406,7 +3484,7 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 85,
+    "score": 87,
     "scoreBreakdown": {
       "source": 74,
       "evidence": 42,
@@ -3418,7 +3496,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "guide"
+    "storyKind": "guide",
+    "imageAlt": "A Lua Ocultará Regulus, o Coração Estelar do Leão",
+    "imageAlt_pt": "A Lua Ocultará Regulus, o Coração Estelar do Leão",
+    "imageAlt_en": "See the Moon Hide Regulus, the Stellar Heart of the Lion"
   },
   {
     "id": 28,
@@ -3471,15 +3552,17 @@ window.postsData = [
     "body_en": "<p>NASA’s SPHEREx mission has mapped interstellar ice at an unprecedented scale. Covering regions in our Milky Way galaxy more than 600 light-years across, the ice was found inside giant molecular clouds, vast regions of gas and dust where. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. 6 min read Preparations for Next Moonwalk Simulations Underway (and Underwater) Water ice highlighted Interstellar dust highlighted These observations made by NASA’s SPHEREx. Water ice highlighted Interstellar dust highlighted These observations made by NASA’s SPHEREx mission reveal vast frozen complexes in the Cygnus X star-forming region of the Milky.</p><p>NASA/JPL-Caltech/IPAC/Hora et al These observations made by NASA’s SPHEREx mission reveal vast frozen complexes in the Cygnus X star-forming region of the Milky Way galaxy. Water ice highlighted Interstellar dust highlighted Curtain Toggle 2-Up Image Details These observations made by NASA’s SPHEREx mission reveal vast frozen complexes in the Cygnus.</p><p>NASA’s SPHEREx (Spectro-Photometer for the History of the Universe, Epoch of Reionization, and Ices Explorer) mission has mapped interstellar ice at an unprecedented scale. More about SPHEREx The mission is managed by JPL for the agency’s Astrophysics Division within the Science Mission Directorate in Washington.</p><p>NASA’s SPHEREx (Spectro-Photometer for the History of the Universe, Epoch of Reionization, and Ices Explorer) mission has mapped interstellar ice at an NASA’s SPHEREx. Although space telescopes such as NASA’s James Webb Space Telescope and the agency’s retired Spitzer have detected water, carbon dioxide, carbon monoxide, and other icy molecules.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>By late 2025, SPHEREx had completed the first of four all-sky infrared maps of the universe, charting the positions of hundreds of millions of galaxies in 3D to help answer major. The mission is managed by JPL for the agency’s Astrophysics Division within the Science Mission Directorate in Washington.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/spherex/interstellar-glaciers-nasas-spherex-maps-vast-galactic-ice-regions/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: A missão SPHEREx (Espectrofotômetro para a História do Universo, Época de Reionização e Explorador de Gelos) da NASA mapeou o gelo interestelar em",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
       "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
     ],
     "highlights_pt": [
       "Em foco: A missão SPHEREx (Espectrofotômetro para a História do Universo, Época de Reionização e Explorador de Gelos) da NASA mapeou o gelo interestelar em",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
       "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
     ],
     "highlights_en": [
       "Focus: NASA’s SPHEREx mission has mapped interstellar ice at an unprecedented scale",
-      "Detail: institutional release, useful as a primary source but not independent validation",
+      "Detail: Institutional origin: separate announcement from evidence",
       "Editorial reading: institutional release, useful as a primary source but not independent validation."
     ],
     "date": "15 abr 2026",
@@ -3492,7 +3575,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-15T15:02:15+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "NASA News Releases",
     "sourceDomain": "www. nasa. gov",
     "sourceType": "agency",
@@ -3537,10 +3620,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=interstellar-glaciers-nasa-s-spherex-maps-vast-galactic-ice-regions&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/interstellar-glaciers-nasa-s-spherex-maps-vast-galactic-ice-regions/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/interstellar-glaciers-nasa-s-spherex-maps-vast-galactic-ice-regions/",
-    "shareUrl_en": "https://www.cosmosweek.com/noticia/interstellar-glaciers-nasa-s-spherex-maps-vast-galactic-ice-regions/?lang=en",
-    "canonicalUrl": "https://www.cosmosweek.com/?article=interstellar-glaciers-nasa-s-spherex-maps-vast-galactic-ice-regions",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/?article=interstellar-glaciers-nasa-s-spherex-maps-vast-galactic-ice-regions",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=interstellar-glaciers-nasa-s-spherex-maps-vast-galactic-ice-regions&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/interstellar-glaciers-nasa-s-spherex-maps-vast-galactic-ice-regions/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/interstellar-glaciers-nasa-s-spherex-maps-vast-galactic-ice-regions/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/interstellar-glaciers-nasa-s-spherex-maps-vast-galactic-ice-regions/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/interstellar-glaciers-nasa-s-spherex-maps-vast-galactic-ice-regions/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -3565,7 +3648,10 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "‘Glaciares interestelares’: SPHEREx da NASA mapeia vastas regiões galácticas de gelo",
+    "imageAlt_pt": "‘Glaciares interestelares’: SPHEREx da NASA mapeia vastas regiões galácticas de gelo",
+    "imageAlt_en": "‘Interstellar Glaciers’: NASA’s SPHEREx Maps Vast Galactic Ice Regions"
   },
   {
     "id": 29,
@@ -3704,7 +3790,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-15T09:00:00+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "ESA Space Science",
     "sourceDomain": "www. esa. int",
     "sourceType": "agency",
@@ -3746,10 +3832,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=ash-creeps-across-mars&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/ash-creeps-across-mars/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/ash-creeps-across-mars/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=ash-creeps-across-mars&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/ash-creeps-across-mars/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/ash-creeps-across-mars/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/ash-creeps-across-mars/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=ash-creeps-across-mars&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/ash-creeps-across-mars/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -3762,7 +3848,7 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 92,
+    "score": 100,
     "scoreBreakdown": {
       "source": 90,
       "evidence": 88,
@@ -3774,7 +3860,10 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "A Propagação de Cinzas em Marte",
+    "imageAlt_pt": "A Propagação de Cinzas em Marte",
+    "imageAlt_en": "Ash creeps across Mars"
   },
   {
     "id": 30,
@@ -3799,17 +3888,17 @@ window.postsData = [
     "body_en": "<p>Dark matter is believed to make up a large fraction of the matter in the universe, yet its true nature remains unknown. Most past experiments have focused on heavier dark matter candidates, while much lighter dark matter, with masses. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. This article has been reviewed according to Science X&#x27;s editorial process and policies. Editors have highlighted the following attributes while ensuring the content&#x27;s credibility: Add as preferred source How researchers propose to search for dark matter.</p><p>The torsion balance is a geometrically asymmetric structure with a hollow &quot;spherical shell&quot; on the left and a &quot;solid sphere&quot; on the right. Kavli IPMU Dark matter is believed to make up a large fraction of the matter in the universe, yet its true nature remains unknown.</p><p>Most past experiments have focused on heavier dark matter candidates, while much lighter dark matter, with masses closer to the mass of a neutrino, has been difficult to detect. An international team of researchers has found that torsion-balance experiments —precision instruments originally built to test the equivalence principle, can double as detectors.</p><p>The study, published in Physical Review Letters, provides the strongest direct detection limits to date on interactions between dark matter and nucleons in this mass range from. The team further showed that torsion-balance experiments with geometrically asymmetric configurations are especially sensitive to such dark-matter-induced accelerations.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>Based on a systematic analysis of several state-of-the-art torsion balance experiments, they found that instruments originally built to test the equivalence principle can also be. This result shows that precision measurement experiments can play a new role in the search for dark matter.</p><p>Because the account originates with Phys. org Space, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-torsion-strongest-limits-ultralight-dark.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: Acredita-se que a matéria escura constitui uma grande fração da matéria do universo, mas a sua verdadeira natureza permanece desconhecida",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: Acredita-se que a matéria escura constitui uma grande fração da matéria do universo, mas a sua verdadeira natureza permanece desconhecida",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: Dark matter is believed to make up a large fraction of the matter in the universe, yet its true nature remains unknown",
-      "Detail: science reporting. whenever possible, verify the cited primary source",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "14 abr 2026",
@@ -3822,7 +3911,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-14T19:00:04+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Phys. org Space",
     "sourceDomain": "phys. org",
     "sourceType": "news",
@@ -3864,10 +3953,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter/",
-    "shareUrl_en": "https://www.cosmosweek.com/noticia/torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter/?lang=en",
-    "canonicalUrl": "https://www.cosmosweek.com/?article=torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/?article=torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -3892,7 +3981,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Os equilíbrios de torção estabelecem limites diretos mais fortes até agora na matéria escura ultraleve",
+    "imageAlt_pt": "Os equilíbrios de torção estabelecem limites diretos mais fortes até agora na matéria escura ultraleve",
+    "imageAlt_en": "Torsion balances set strongest direct limits yet on ultralight dark matter"
   },
   {
     "id": 31,
@@ -3917,12 +4009,12 @@ window.postsData = [
     "body_en": "<p>Transmission spectroscopy with the James Webb Space Telescope is revealing growing chemical complexity in giant exoplanet atmospheres. Of particular interest is sulfur, which had essentially no observational constraints before JWST. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>That matters because exoplanet science has moved beyond the era of simple discovery into a period of comparative characterization. With more than five thousand confirmed planets known, the scientifically productive questions now concern atmospheric composition, internal structure, orbital history and the statistical properties of populations rather than the existence of individual worlds. A new detection or spectral measurement is most valuable when it adds a well-constrained data point to those comparative frameworks, not when it stands alone as an anecdote. Transmission spectroscopy with the James Webb Space Telescope (JWST) is revealing growing chemical complexity in giant exoplanet atmospheres. Of particular interest is sulfur, which had essentially no observational constraints before JWST.</p><p>Recent work has shown that a planet&#x27;s atmospheric sulfur content traces its refractory budget and is therefore a sensitive indicator of formation pathways. But despite the growing library of JWST data, the sulfur inventory of giant exoplanets remains poorly constrained: sulfur-bearing species are governed by disequilibrium chemistry.</p><p>Here we present a transmission spectrum of the warm giant planet WASP-80 b obtained with JWST/NIRCam and MIRI over 2.4 $μ$m--10$μ$m in three transits. We find evidence for H$_2$O, CH$_4$, CO$_2$, NH$_3$, and CS$_2$ in the atmosphere and place upper limits on CO and SO$_2$.</p><p>Our atmospheric retrievals yield $\\log_{10}\\mathrm{X}_{\\mathrm{CS_2}} = -2.25^{+0.33}_{-0.32}$. This CS$_2$ abundance is substantially higher than predicted by earlier sulfur-chemistry schemes for H$_2$-rich atmospheres in WASP-80 b&#x27;s temperature range, but is consistent.</p><p>The broader interest lies in making the target less anecdotal and more comparable with the rest of the known planetary population. Population-level questions, such as the frequency of atmospheres around small rocky planets or the prevalence of water-rich worlds in the habitable zone, require well-characterized individual data points before statistical patterns become meaningful. Each new planet with a measured radius, mass and, ideally, atmospheric constraint is a brick in that larger structure, and the accumulation of bricks eventually allows theorists to test formation models against real distributions rather than projections.</p><p>These results identify CS$_2$ as an observable tracer of sulfur disequilibrium chemistry and provide observational support for theoretically predicted carbon-sulfur chemical. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to improve independent constraints on the mass, radius, atmospheric composition and orbital dynamics of the target. Transmission spectroscopy with JWST, radial velocity campaigns with high-resolution ground-based spectrographs and phase-curve measurements from space photometry represent the observational toolkit that can move characterization from plausible to robust. That convergence of techniques is the standard the community now expects before a planetary atmosphere result is treated as confirmed. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.13168v2\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: A espectroscopia de transmissão com o Telescópio Espacial James Webb está revelando a crescente complexidade química em atmosferas de exoplanetas",
-      "Detalhe: resultado provisório, ainda sem revisão por pares formal",
+      "Detalhe: Resultado ainda sem revisão por pares",
       "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
     ],
     "highlights_pt": [
       "Em foco: A espectroscopia de transmissão com o Telescópio Espacial James Webb está revelando a crescente complexidade química em atmosferas de exoplanetas",
-      "Detalhe: resultado provisório, ainda sem revisão por pares formal",
+      "Detalhe: Resultado ainda sem revisão por pares",
       "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
     ],
     "highlights_en": [
@@ -3939,7 +4031,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-14T18:00:05+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "arXiv Earth & Planetary",
     "sourceDomain": "arxiv. org",
     "sourceType": "preprint",
@@ -3984,10 +4076,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl/",
-    "shareUrl_en": "https://www.cosmosweek.com/noticia/the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl/?lang=en",
-    "canonicalUrl": "https://www.cosmosweek.com/?article=the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/?article=the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -4000,7 +4092,7 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "fallback",
     "reviewProvider": "gemini",
-    "score": 93,
+    "score": 95,
     "scoreBreakdown": {
       "source": 56,
       "evidence": 35,
@@ -4012,7 +4104,10 @@ window.postsData = [
     "coverageKindLabel": "Preprint",
     "coverageKindLabel_pt": "Preprint",
     "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "A identificação de CS2 e evidências de acoplamento químico carbono-enxofre em uma atmosfera de exoplaneta gigante quente",
+    "imageAlt_pt": "A identificação de CS2 e evidências de acoplamento químico carbono-enxofre em uma atmosfera de exoplaneta gigante quente",
+    "imageAlt_en": "The Identification of CS2 and Evidence for Carbon-Sulfur Chemical Coupling in a Warm Giant Exoplanet Atmosphere"
   },
   {
     "id": 32,
@@ -4037,17 +4132,17 @@ window.postsData = [
     "body_en": "<p>Uncovered evidence that two planets collided around a young star, revealing how giant impacts sculpt baby solar systems. The post Planets Collide Around Young, Sun-like Star appeared first on Sky &amp; Telescope. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. More than 11, 500 light-years away, in an infant version of our solar system, two primordial planets have crashed into each other, vaporizing into a dusty disk of debris that’s now. Astronomers suspect that giant impacts played a role in sculpting our own solar system, from creating the Moon to explaining Uranus’s tilt and Saturn’s rings.</p><p>Tzanidakis first noticed the unusual dimming of a Sun-like star, called Gaia-GIC-1, as part of his research looking “for weird stars that could tell us all sorts of stories. As dust from the collision obscured the star, it would dim Gaia-GIC-1’s light in visible wavelengths, while spiking in the infrared as heat radiated off of the collision’s dusty.</p><p>To explain the observations, the cloud of debris would have to span a whopping 16 million kilometers (10 million miles) across, or about a third of the way from the Sun to Mercury. With the dust cloud weighing as much as a small icy moon, such as Saturn’s Enceladus, the collision is certainly catastrophic enough to form a new moon or planet.</p><p>It’s possible that we observed a collision akin to the very same one theorized to have occurred between Earth (or, Earth 1.0) and a Mars-sized object, nicknamed Theia. That long-ago crash is thought to have pulverized both worlds into a gooey mess that eventually coalesced into our Earth (really, Earth 2.0) and the Moon.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>The Gaia observations initially showed the star’s visible light dimming every 380 days or so, suggesting that the dust cloud is orbiting its star at a little more than the. In 2023, a team of astronomers led by Matthew Kenworthy (Leiden Observatory, The Netherlands) discovered a similar observational signature from what they suppose was a pair of ice.</p><p>Because the account originates with Sky &amp; Telescope, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/planets-collide-around-young-sun-like-star/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: Os astrônomos descobriram evidências de que dois planetas colidiram em torno de uma estrela jovem, revelando como impactos gigantescos esculpem",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: Os astrônomos descobriram evidências de que dois planetas colidiram em torno de uma estrela jovem, revelando como impactos gigantescos esculpem",
-      "Detalhe: reportagem científica. quando possível, confira a fonte primária citada",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: Astronomers have uncovered evidence that two planets collided around a young star, revealing how giant impacts sculpt baby solar systems",
-      "Detail: science reporting. whenever possible, verify the cited primary source",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "13 abr 2026",
@@ -4060,7 +4155,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-13T18:00:00+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "Sky & Telescope",
     "sourceDomain": "skyandtelescope. org",
     "sourceType": "news",
@@ -4102,10 +4197,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=planets-collide-around-young-sun-like-star&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/planets-collide-around-young-sun-like-star/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/planets-collide-around-young-sun-like-star/",
-    "shareUrl_en": "https://www.cosmosweek.com/noticia/planets-collide-around-young-sun-like-star/?lang=en",
-    "canonicalUrl": "https://www.cosmosweek.com/?article=planets-collide-around-young-sun-like-star",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/?article=planets-collide-around-young-sun-like-star",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=planets-collide-around-young-sun-like-star&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/planets-collide-around-young-sun-like-star/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/planets-collide-around-young-sun-like-star/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/planets-collide-around-young-sun-like-star/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/planets-collide-around-young-sun-like-star/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -4130,7 +4225,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Planetas Colidem em Torno de uma Estrela Jovem Semelhante ao Sol",
+    "imageAlt_pt": "Planetas Colidem em Torno de uma Estrela Jovem Semelhante ao Sol",
+    "imageAlt_en": "Planets Collide Around Young, Sun-like Star"
   },
   {
     "id": 33,
@@ -4178,7 +4276,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-13T09:00:00+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "ESA Space Science",
     "sourceDomain": "www. esa. int",
     "sourceType": "agency",
@@ -4223,10 +4321,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=first-proba-3-science-surprisingly-speedy-solar-wind&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/first-proba-3-science-surprisingly-speedy-solar-wind/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/first-proba-3-science-surprisingly-speedy-solar-wind/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=first-proba-3-science-surprisingly-speedy-solar-wind&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/first-proba-3-science-surprisingly-speedy-solar-wind/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/first-proba-3-science-surprisingly-speedy-solar-wind/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/first-proba-3-science-surprisingly-speedy-solar-wind/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=first-proba-3-science-surprisingly-speedy-solar-wind&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/first-proba-3-science-surprisingly-speedy-solar-wind/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -4239,11 +4337,11 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 83,
+    "score": 89,
     "scoreBreakdown": {
       "source": 90,
       "evidence": 88,
-      "relevance": 80,
+      "relevance": 84,
       "accessibility": 60,
       "novelty": 46
     },
@@ -4251,7 +4349,10 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Proba-3: Primeiros Resultados Científicos Revelam Vento Solar Surpreendentemente Rápido",
+    "imageAlt_pt": "Proba-3: Primeiros Resultados Científicos Revelam Vento Solar Surpreendentemente Rápido",
+    "imageAlt_en": "First Proba-3 science: surprisingly speedy solar wind"
   },
   {
     "id": 34,
@@ -4345,7 +4446,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-09T12:00:00+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "ESO Press Releases",
     "sourceDomain": "www. eso. org",
     "sourceType": "agency",
@@ -4359,10 +4460,10 @@ window.postsData = [
     "evidenceLabel": "Atualização institucional",
     "evidenceLabel_pt": "Atualização institucional",
     "evidenceLabel_en": "Institutional update",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
     "keywords": [
       "Exoplanetas",
       "ESO Press Releases",
@@ -4390,10 +4491,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=first-light-for-poet-shining-sun-light-on-exoplanet-research&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/first-light-for-poet-shining-sun-light-on-exoplanet-research/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/first-light-for-poet-shining-sun-light-on-exoplanet-research/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=first-light-for-poet-shining-sun-light-on-exoplanet-research&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/first-light-for-poet-shining-sun-light-on-exoplanet-research/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/first-light-for-poet-shining-sun-light-on-exoplanet-research/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/first-light-for-poet-shining-sun-light-on-exoplanet-research/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=first-light-for-poet-shining-sun-light-on-exoplanet-research&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/first-light-for-poet-shining-sun-light-on-exoplanet-research/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -4406,7 +4507,7 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 90,
+    "score": 100,
     "scoreBreakdown": {
       "source": 92,
       "evidence": 88,
@@ -4418,7 +4519,10 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Primeira Luz para o PoET: A Luz Solar na Pesquisa de Exoplanetas",
+    "imageAlt_pt": "Primeira Luz para o PoET: A Luz Solar na Pesquisa de Exoplanetas",
+    "imageAlt_en": "First light for PoET: shining (sun)light on exoplanet research"
   },
   {
     "id": 35,
@@ -4466,7 +4570,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-02T13:00:00+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "ESA Space Science",
     "sourceDomain": "www. esa. int",
     "sourceType": "agency",
@@ -4480,10 +4584,10 @@ window.postsData = [
     "evidenceLabel": "Atualização institucional",
     "evidenceLabel_pt": "Atualização institucional",
     "evidenceLabel_en": "Institutional update",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
     "keywords": [
       "Astronomia",
       "ESA Space Science",
@@ -4508,10 +4612,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=five-things-juice-has-revealed-about-comet-3i-atlas&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/five-things-juice-has-revealed-about-comet-3i-atlas/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/five-things-juice-has-revealed-about-comet-3i-atlas/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=five-things-juice-has-revealed-about-comet-3i-atlas&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/five-things-juice-has-revealed-about-comet-3i-atlas/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/five-things-juice-has-revealed-about-comet-3i-atlas/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/five-things-juice-has-revealed-about-comet-3i-atlas/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=five-things-juice-has-revealed-about-comet-3i-atlas&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/five-things-juice-has-revealed-about-comet-3i-atlas/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -4524,11 +4628,11 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 85,
+    "score": 95,
     "scoreBreakdown": {
       "source": 90,
       "evidence": 88,
-      "relevance": 74,
+      "relevance": 84,
       "accessibility": 60,
       "novelty": 46
     },
@@ -4536,7 +4640,10 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Cinco coisas que Juice revelou sobre o cometa 3I/ATLAS",
+    "imageAlt_pt": "Cinco coisas que Juice revelou sobre o cometa 3I/ATLAS",
+    "imageAlt_en": "Five things Juice has revealed about Comet 3I/ATLAS"
   },
   {
     "id": 36,
@@ -4589,17 +4696,17 @@ window.postsData = [
     "body_en": "<p>NASA&#x27;s Artemis II mission has just launched people to the Moon for the first time in over 50 years. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Written by Asa Stahl, PhD Science Editor, The Planetary Society April 1, 2026 Four people are now on their way to the Moon. EDT on April 1, NASA’s Artemis II mission lifted off from Kennedy Space Center in Cape Canaveral, Florida, sending astronauts on a 10-day voyage around the Moon and back.</p><p>The flight is humanity’s first crewed mission to the Moon in over 50 years, and it is meant to build toward a future lunar landing. Today’s successful launch is a celebration of science, engineering, and bravery coming together and reminding us that space has the power to bring out the best in ourselves.</p><p>Onboard the spacecraft is Christina Koch, the first woman ever to voyage to the Moon, Victor Glover, the first African American to do so, and Jeremy Hansen, the first Canadian. As a child on a motel balcony in Florida, I witnessed the last launch of humans to the Moon with Apollo 17.</p><p>NASA intends to land astronauts on the Moon with Artemis IV in 2028, eventually building toward a base with a sustained human presence. NASA is also studying how confinement and isolation will affect the four astronauts, as they spend the next 10 days in a crew capsule that is only the size of a moving van.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>After traveling back to Earth, the crew will reenter the atmosphere, descend under parachutes, and splash down in the Pacific Ocean. I look forward to the rest of the Artemis II journey and the choices ahead to catalyze our exploration of space.</p><p>Because the account originates with The Planetary Society, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/artemis-ii-launch\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Em foco: A missão Artemis II da NASA, lançada em 1º de abril de 2026, marca o retorno de seres humanos à órbita lunar após mais de cinco décadas, preparando o",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_pt": [
       "Em foco: A missão Artemis II da NASA, lançada em 1º de abril de 2026, marca o retorno de seres humanos à órbita lunar após mais de cinco décadas, preparando o",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
       "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
     ],
     "highlights_en": [
       "Focus: NASA's Artemis II mission has just launched people to the Moon for the first time in over 50 years",
-      "Detail: Institutional origin: separate announcement from evidence",
+      "Detail: Science reporting: verify primary technical documentation",
       "Editorial reading: science reporting; whenever possible, verify the cited primary source."
     ],
     "date": "01 abr 2026",
@@ -4612,7 +4719,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-01T16:14:00+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "The Planetary Society",
     "sourceDomain": "www. planetary. org",
     "sourceType": "news",
@@ -4657,10 +4764,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=artemis-ii-blasts-off-sending-humans-back-to-the-moon&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/artemis-ii-blasts-off-sending-humans-back-to-the-moon/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/artemis-ii-blasts-off-sending-humans-back-to-the-moon/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=artemis-ii-blasts-off-sending-humans-back-to-the-moon&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/artemis-ii-blasts-off-sending-humans-back-to-the-moon/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/artemis-ii-blasts-off-sending-humans-back-to-the-moon/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/artemis-ii-blasts-off-sending-humans-back-to-the-moon/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=artemis-ii-blasts-off-sending-humans-back-to-the-moon&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/artemis-ii-blasts-off-sending-humans-back-to-the-moon/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -4673,10 +4780,10 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 80,
+    "score": 85,
     "scoreBreakdown": {
       "source": 78,
-      "evidence": 64,
+      "evidence": 46,
       "relevance": 88,
       "accessibility": 60,
       "novelty": 46
@@ -4685,7 +4792,10 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Artemis II: Missão Leva Humanos à Órbita Lunar Após Mais de 50 Anos",
+    "imageAlt_pt": "Artemis II: Missão Leva Humanos à Órbita Lunar Após Mais de 50 Anos",
+    "imageAlt_en": "Artemis II blasts off, sending humans back to the Moon"
   },
   {
     "id": 37,
@@ -4743,7 +4853,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-04-01T14:59:41+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "CERN News",
     "sourceDomain": "home. cern",
     "sourceType": "agency",
@@ -4757,10 +4867,10 @@ window.postsData = [
     "evidenceLabel": "Atualização institucional",
     "evidenceLabel_pt": "Atualização institucional",
     "evidenceLabel_en": "Institutional update",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
     "keywords": [
       "Física",
       "CERN News",
@@ -4785,10 +4895,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=cern-timepix-chips-fly-to-the-moon&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/cern-timepix-chips-fly-to-the-moon/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/cern-timepix-chips-fly-to-the-moon/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=cern-timepix-chips-fly-to-the-moon&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/cern-timepix-chips-fly-to-the-moon/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/cern-timepix-chips-fly-to-the-moon/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/cern-timepix-chips-fly-to-the-moon/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=cern-timepix-chips-fly-to-the-moon&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/cern-timepix-chips-fly-to-the-moon/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -4801,11 +4911,11 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 86,
+    "score": 96,
     "scoreBreakdown": {
       "source": 86,
       "evidence": 82,
-      "relevance": 82,
+      "relevance": 84,
       "accessibility": 60,
       "novelty": 46
     },
@@ -4813,7 +4923,10 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Chips Timepix do CERN voam para a Lua",
+    "imageAlt_pt": "Chips Timepix do CERN voam para a Lua",
+    "imageAlt_en": "CERN Timepix chips fly to the Moon"
   },
   {
     "id": 38,
@@ -4861,7 +4974,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-03-25T18:00:00+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "ESA Space Science",
     "sourceDomain": "www. esa. int",
     "sourceType": "agency",
@@ -4875,10 +4988,10 @@ window.postsData = [
     "evidenceLabel": "Atualização institucional",
     "evidenceLabel_pt": "Atualização institucional",
     "evidenceLabel_en": "Institutional update",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
     "keywords": [
       "Ciências da Terra",
       "ESA Space Science",
@@ -4903,10 +5016,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=webb-hubble-capture-new-views-of-saturn&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/webb-hubble-capture-new-views-of-saturn/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/webb-hubble-capture-new-views-of-saturn/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=webb-hubble-capture-new-views-of-saturn&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/webb-hubble-capture-new-views-of-saturn/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/webb-hubble-capture-new-views-of-saturn/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/webb-hubble-capture-new-views-of-saturn/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=webb-hubble-capture-new-views-of-saturn&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/webb-hubble-capture-new-views-of-saturn/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -4919,11 +5032,11 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 87,
+    "score": 97,
     "scoreBreakdown": {
       "source": 90,
       "evidence": 88,
-      "relevance": 80,
+      "relevance": 84,
       "accessibility": 60,
       "novelty": 46
     },
@@ -4931,7 +5044,10 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Webb e Hubble Capturam Novas Vistas de Saturno",
+    "imageAlt_pt": "Webb e Hubble Capturam Novas Vistas de Saturno",
+    "imageAlt_en": "Webb & Hubble capture new views of Saturn"
   },
   {
     "id": 39,
@@ -5047,7 +5163,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-03-24T13:00:00+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "ESO Press Releases",
     "sourceDomain": "www. eso. org",
     "sourceType": "agency",
@@ -5061,10 +5177,10 @@ window.postsData = [
     "evidenceLabel": "Atualização institucional",
     "evidenceLabel_pt": "Atualização institucional",
     "evidenceLabel_en": "Institutional update",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
     "keywords": [
       "Astronomia",
       "ESO Press Releases",
@@ -5089,10 +5205,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -5105,7 +5221,7 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 90,
+    "score": 100,
     "scoreBreakdown": {
       "source": 92,
       "evidence": 88,
@@ -5117,7 +5233,10 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Dois Planetas em Formação Observados em Disco Protoplanetário ao Redor de Estrela Jovem",
+    "imageAlt_pt": "Dois Planetas em Formação Observados em Disco Protoplanetário ao Redor de Estrela Jovem",
+    "imageAlt_en": "A Solar System in the making? Two planets spotted forming in disc around young star"
   },
   {
     "id": 40,
@@ -5238,7 +5357,7 @@ window.postsData = [
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
     "publishedIso": "2026-03-18T14:00:00+00:00",
-    "lastModifiedIso": "2026-04-19T17:53:40+00:00",
+    "lastModifiedIso": "2026-04-19T19:35:09+00:00",
     "source": "ESA Hubble News",
     "sourceDomain": "esahubble. org",
     "sourceType": "agency",
@@ -5283,10 +5402,10 @@ window.postsData = [
     "realUrl_en": "https://www.cosmosweek.com/?article=science-release-hubble-unexpectedly-catches-comet-breaking-up&lang=en",
     "shareUrl": "https://www.cosmosweek.com/noticia/science-release-hubble-unexpectedly-catches-comet-breaking-up/",
     "shareUrl_pt": "https://www.cosmosweek.com/noticia/science-release-hubble-unexpectedly-catches-comet-breaking-up/",
-    "shareUrl_en": "https://www.cosmosweek.com/?article=science-release-hubble-unexpectedly-catches-comet-breaking-up&lang=en",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/science-release-hubble-unexpectedly-catches-comet-breaking-up/",
     "canonicalUrl": "https://www.cosmosweek.com/noticia/science-release-hubble-unexpectedly-catches-comet-breaking-up/",
     "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/science-release-hubble-unexpectedly-catches-comet-breaking-up/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/?article=science-release-hubble-unexpectedly-catches-comet-breaking-up&lang=en",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/science-release-hubble-unexpectedly-catches-comet-breaking-up/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -5299,7 +5418,7 @@ window.postsData = [
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "success",
     "reviewProvider": "gemini",
-    "score": 81,
+    "score": 83,
     "scoreBreakdown": {
       "source": 89,
       "evidence": 88,
@@ -5311,6 +5430,9 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
+    "storyKind": "science",
+    "imageAlt": "Hubble Registra Inesperada Fragmentação de Cometa",
+    "imageAlt_pt": "Hubble Registra Inesperada Fragmentação de Cometa",
+    "imageAlt_en": "Science Release: Hubble unexpectedly catches comet breaking up"
   }
 ];
