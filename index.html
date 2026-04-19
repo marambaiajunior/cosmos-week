@@ -45,7 +45,6 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#0d1b35">
   <meta name="description" content="Cosmos Week — portal de notícias científicas em português com foco em astronomia, astrofísica, cosmologia e ciência em geral.">
   <meta name="keywords" content="astronomia, astrofísica, cosmologia, ciência, exoplanetas, buracos negros, James Webb, NASA, ESA, divulgação científica">
   <meta property="og:title" content="Cosmos Week — Notícias científicas do universo">
@@ -153,49 +152,14 @@
       font-family: var(--sans);
       font-size: 16px;
       line-height: 1.7;
-      text-rendering: optimizeLegibility;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
-    img { max-width: 100%; display: block; height: auto; }
+    img { max-width: 100%; display: block; }
     button { cursor: pointer; font-family: inherit; border: none; background: none; }
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; text-underline-offset: 3px; }
     ul, ol { list-style: none; }
-    :target { scroll-margin-top: 110px; }
-
-    .skip-link {
-      position: absolute;
-      left: 24px;
-      top: -56px;
-      z-index: 1200;
-      padding: 10px 14px;
-      border-radius: 8px;
-      background: #fff;
-      color: var(--ink);
-      border: 2px solid var(--accent);
-      box-shadow: var(--shadow);
-      font: 600 13px var(--sans);
-    }
-    .skip-link:focus-visible { top: 14px; }
-
-    a:focus-visible,
-    button:focus-visible,
-    input:focus-visible,
-    textarea:focus-visible,
-    select:focus-visible,
-    [role="link"]:focus-visible {
-      outline: 3px solid rgba(29,110,216,.38);
-      outline-offset: 3px;
-      box-shadow: 0 0 0 2px rgba(13,58,117,.18);
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      html { scroll-behavior: auto; }
-      *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
-      .ticker-track { animation: none !important; transform: none !important; }
-      .hero-primary > img, .hero-side-card > img, .card-cover img, .compact-cover img, .article-inline-figure img { transform: none !important; }
-    }
 
     /* ── Reading progress ──────────────────────────────────────────────── */
     #readingProgress {
@@ -771,10 +735,6 @@
       transform: translateY(-4px);
       box-shadow: var(--shadow-lg);
       border-color: var(--line-2);
-    }
-    .story-card:focus-visible, .compact-item:focus-visible, .hero-primary:focus-visible, .hero-side-card:focus-visible, .briefing-story:focus-visible, .logo:focus-visible {
-      outline: 3px solid rgba(29,110,216,.35);
-      outline-offset: 4px;
     }
     .card-cover {
       aspect-ratio: 16/10;
@@ -1634,7 +1594,6 @@
   <meta name="apple-itunes-app" content="app-id=6759013786">
 </head>
 <body>
-  <a class="skip-link" href="#mainContent">Pular para o conteúdo principal</a>
   <div id="readingProgress"></div>
 
   <div class="topbar">
@@ -1646,7 +1605,7 @@
 
   <header class="site-header">
     <div class="header-inner">
-      <div class="logo" onclick="goHome()" role="link" tabindex="0" onkeydown="activateLogo(event)" aria-label="Cosmos Week home">
+      <div class="logo" onclick="goHome()">
         <div class="logo-title">Cosmos<em>Week</em></div>
         <div class="logo-sub" id="logoSub">Notícias Científicas em português</div>
       </div>
@@ -1660,12 +1619,12 @@
 
       <div class="header-tools">
         <label class="searchbox" aria-label="Buscar artigos">
-          <input id="searchInput" type="search" placeholder="Buscar notícias, temas ou fontes..." oninput="handleSearchInput(this.value)" aria-label="Buscar notícias" enterkeyhint="search" spellcheck="false">
+          <input id="searchInput" type="text" placeholder="Buscar notícias, temas ou fontes..." oninput="handleSearchInput(this.value)">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
         </label>
         <div class="lang-switch" aria-label="Selecionar idioma">
-          <button id="langPt" type="button" onclick="setLanguage('pt')" aria-label="Português" title="Português">🇧🇷</button>
-          <button id="langEn" type="button" onclick="setLanguage('en')" aria-label="English" title="English">🇺🇸</button>
+          <button id="langPt" type="button" onclick="setLanguage('pt')">🇧🇷</button>
+          <button id="langEn" type="button" onclick="setLanguage('en')">🇺🇸</button>
         </div>
         <a class="social-icon-link" href="https://www.instagram.com/cosmos_week/" target="_blank" rel="noopener" aria-label="Instagram">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -1701,7 +1660,7 @@
     </div>
   </header>
 
-  <main class="wrap" id="mainContent" tabindex="-1">
+  <main class="wrap">
     <div id="adSlotLeaderboard" class="ad-slot ad-slot--leaderboard" aria-hidden="true">
       <!--
       <ins class="adsbygoogle"
@@ -2286,50 +2245,12 @@
 
   function escapeAttr(v = '') { return String(v).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/'/g,'&#39;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
 
-  function focusMainContent() {
-    const main = document.getElementById('mainContent');
-    if (main) main.focus({ preventScroll: true });
-  }
-
-  function activateLogo(event) {
-    if (event.key === 'Enter' || event.key === ' ') {
-      event.preventDefault();
-      goHome();
-    }
-  }
-
-  function activateCard(event, slug) {
-    if (event.key === 'Enter' || event.key === ' ') {
-      event.preventDefault();
-      openArticle(slug);
-    }
-  }
-
-  function staticPageHref(pageKey, lang = currentLang) {
-    const map = {
-      advertise: { pt: 'anuncie.html', en: 'en/advertise/' },
-      mediaKit: { pt: 'media-kit.html', en: 'media-kit.html' },
-      privacy: { pt: 'politica-de-privacidade.html', en: 'politica-de-privacidade.html' },
-      terms: { pt: 'termos-de-uso.html', en: 'termos-de-uso.html' }
-    };
-    return (map[pageKey] && (map[pageKey][lang] || map[pageKey].pt)) || '';
-  }
-
-  function imageAttrs(post, loading = 'lazy', variant = 'card') {
+  function imageAttrs(post, loading = 'lazy') {
     const primary  = escapeAttr(primaryImage(post));
     const fallback = escapeAttr(fallbackImage(post));
-    const altText  = textFor(post, 'title') || (currentLang === 'en' ? 'Cosmos Week article image' : 'Imagem da matéria do Cosmos Week');
-    const alt      = escapeAttr(altText);
-    const sizesMap = {
-      hero: '(max-width: 980px) 100vw, 66vw',
-      heroSide: '(max-width: 980px) 100vw, 34vw',
-      card: '(max-width: 760px) 100vw, (max-width: 1180px) 50vw, 33vw',
-      compact: '(max-width: 760px) 40vw, 160px',
-      sidebar: '(max-width: 760px) 120px, 96px'
-    };
-    const fetchpriority = loading === 'eager' ? 'high' : 'auto';
-    const sizes = sizesMap[variant] || sizesMap.card;
-    return `src="${primary}" alt="${alt}" loading="${loading}" decoding="async" fetchpriority="${fetchpriority}" sizes="${sizes}" referrerpolicy="no-referrer" onerror="if(this.src!=='${fallback}'){this.src='${fallback}'}"`;
+    const alt      = escapeAttr(textFor(post, 'title'));
+    const decode   = loading === 'eager' ? 'sync' : 'async';
+    return `src="${primary}" alt="${alt}" loading="${loading}" decoding="${decode}" onerror="if(this.src!=='${fallback}'){this.src='${fallback}'}"`;
   }
 
   function withLanguageParam(url, lang = currentLang) {
@@ -2422,8 +2343,8 @@
   function cardMarkup(post) {
     const meta = formatMeta(post);
     return `
-      <article class="story-card" onclick="openArticle('${escapeAttr(post.slug)}')" onkeydown="activateCard(event, '${escapeAttr(post.slug)}')" role="link" tabindex="0" aria-label="${escapeAttr(textFor(post,'title'))}">
-        <div class="card-cover"><img ${imageAttrs(post,'lazy','card')}></div>
+      <article class="story-card" onclick="openArticle('${escapeAttr(post.slug)}')">
+        <div class="card-cover"><img ${imageAttrs(post)}></div>
         <div class="card-body">
           ${renderBadgeRow(post)}
           <h3 class="headline-md">${textFor(post,'title')}</h3>
@@ -2436,8 +2357,8 @@
   function compactMarkup(post) {
     const meta = formatMeta(post);
     return `
-      <article class="compact-item" onclick="openArticle('${escapeAttr(post.slug)}')" onkeydown="activateCard(event, '${escapeAttr(post.slug)}')" role="link" tabindex="0" aria-label="${escapeAttr(textFor(post,'title'))}">
-        <div class="compact-cover"><img ${imageAttrs(post,'lazy','compact')}></div>
+      <article class="compact-item" onclick="openArticle('${escapeAttr(post.slug)}')">
+        <div class="compact-cover"><img ${imageAttrs(post)}></div>
         <div class="compact-body">
           ${renderBadgeRow(post)}
           <h3 class="headline-md" style="font-size:1.05rem;">${textFor(post,'title')}</h3>
@@ -2659,8 +2580,8 @@
     const leadMeta = formatMeta(lead);
     mount.innerHTML = `
       <div class="hero-grid">
-        <article class="hero-primary" onclick="openArticle('${escapeAttr(lead.slug)}')" onkeydown="activateCard(event, '${escapeAttr(lead.slug)}')" role="link" tabindex="0" aria-label="${escapeAttr(textFor(lead,'title'))}">
-          <img ${imageAttrs(lead,'eager','hero')}>
+        <article class="hero-primary" onclick="openArticle('${escapeAttr(lead.slug)}')">
+          <img ${imageAttrs(lead,'eager')}>
           <div class="hero-overlay"></div>
           <div class="hero-content">
             ${renderBadgeRow(lead, `<span class="meta-chip">${lead.source}</span>`)}
@@ -2673,8 +2594,8 @@
           ${sides.map(post => {
             const meta = formatMeta(post);
             return `
-              <article class="hero-side-card" onclick="openArticle('${escapeAttr(post.slug)}')" onkeydown="activateCard(event, '${escapeAttr(post.slug)}')" role="link" tabindex="0" aria-label="${escapeAttr(textFor(post,'title'))}">
-                <img ${imageAttrs(post,'lazy','heroSide')}>
+              <article class="hero-side-card" onclick="openArticle('${escapeAttr(post.slug)}')">
+                <img ${imageAttrs(post)}>
                 <div class="hero-overlay"></div>
                 <div class="hero-content">
                   ${renderBadgeRow(post)}
@@ -2691,7 +2612,7 @@
     if (!post) return '';
     const meta = formatMeta(post);
     return `
-      <button class="briefing-story${compact ? ' compact' : ''}" onclick="openArticle('${escapeAttr(post.slug)}')" aria-label="${escapeAttr(textFor(post,'title'))}">
+      <button class="briefing-story${compact ? ' compact' : ''}" onclick="openArticle('${escapeAttr(post.slug)}')">
         <div class="briefing-story-kicker">${prettyCategory(post.cat)} · ${meta.date}</div>
         <div class="briefing-story-title">${textFor(post,'title')}</div>
         <div class="briefing-story-summary">${truncatePlainText(textFor(post,'excerpt'), compact ? 96 : 165)}</div>
@@ -2819,7 +2740,7 @@
       const meta = formatMeta(post);
       const kicker = meta.time || meta.date;
       return `
-        <button class="sidebar-story-item" onclick="openArticle('${escapeAttr(post.slug)}')" aria-label="${escapeAttr(textFor(post,'title'))}">
+        <button class="sidebar-story-item" onclick="openArticle('${escapeAttr(post.slug)}')">
           <div class="sidebar-story-kicker">${kicker}</div>
           <div class="sidebar-story-title">${textFor(post,'title')}</div>
           <div class="sidebar-story-meta">${prettyCategory(post.cat)} · ${meta.read}</div>
@@ -2885,7 +2806,7 @@
     mount.innerHTML = picks.map(post => {
       const meta = formatMeta(post);
       return `
-        <button class="sidebar-story-item" onclick="openArticle('${escapeAttr(post.slug)}')" aria-label="${escapeAttr(textFor(post,'title'))}">
+        <button class="sidebar-story-item" onclick="openArticle('${escapeAttr(post.slug)}')">
           <div class="sidebar-story-kicker">${prettyCategory(post.cat)}</div>
           <div class="sidebar-story-title">${textFor(post,'title')}</div>
           <div class="sidebar-story-meta">${meta.date} · ${meta.read}</div>
@@ -2898,7 +2819,7 @@
     const mount = document.getElementById('trendingList');
     const posts = Array.isArray(postsOverride) ? postsOverride : currentFrontLayout().trending;
     mount.innerHTML = posts.map((post, i) => `
-      <button class="trend-item" onclick="openArticle('${escapeAttr(post.slug)}')" aria-label="${escapeAttr(textFor(post,'title'))}">
+      <button class="trend-item" onclick="openArticle('${escapeAttr(post.slug)}')">
         <div class="trend-num">${i+1}</div>
         <div>
           <div class="trend-title">${textFor(post,'title')}</div>
@@ -3433,19 +3354,6 @@
     script.src = 'https://giscus.app/client.js';
     script.async = true;
     script.crossOrigin = 'anonymous';
-    const fallbackMessage = currentLang === 'en'
-      ? 'The discussion module could not be loaded right now. Please try again later.'
-      : 'O módulo de comentários não pôde ser carregado agora. Tente novamente mais tarde.';
-    const timeoutId = window.setTimeout(() => {
-      if (!mount.querySelector('iframe.giscus-frame')) {
-        mount.innerHTML = `<div class="engagement-disabled">${fallbackMessage}</div>`;
-      }
-    }, 5000);
-    script.addEventListener('load', () => window.clearTimeout(timeoutId), { once: true });
-    script.addEventListener('error', () => {
-      window.clearTimeout(timeoutId);
-      mount.innerHTML = `<div class="engagement-disabled">${fallbackMessage}</div>`;
-    }, { once: true });
     script.setAttribute('data-repo', cfg.repo);
     script.setAttribute('data-repo-id', cfg.repoId);
     script.setAttribute('data-category', cfg.category);
@@ -3655,16 +3563,14 @@
     else if (page === 'about')     { safeReplaceState(pageUrl('about'));     renderAbout(); }
     else if (page === 'standards') { safeReplaceState(pageUrl('standards')); renderStandards(); }
     else goHome();
-    focusMainContent();
   }
 
-  function goHome() { safeReplaceState(pageUrl('home')); renderHome(); focusMainContent(); }
+  function goHome() { safeReplaceState(pageUrl('home')); renderHome(); }
 
   function openArticle(slug) {
     const post = DB.find(item => item.slug === slug);
     if (post) safePushState(getURLForArticle(post));
     renderArticle(slug);
-    focusMainContent();
   }
 
   function handleSearchInput(value) {
@@ -3724,13 +3630,6 @@
     });
     document.getElementById('langPt').classList.toggle('on', currentLang==='pt');
     document.getElementById('langEn').classList.toggle('on', currentLang==='en');
-    document.getElementById('langPt').setAttribute('aria-pressed', currentLang==='pt' ? 'true' : 'false');
-    document.getElementById('langEn').setAttribute('aria-pressed', currentLang==='en' ? 'true' : 'false');
-    document.getElementById('langPt').setAttribute('aria-label', currentLang==='pt' ? 'Português selecionado' : 'Mudar para português');
-    document.getElementById('langEn').setAttribute('aria-label', currentLang==='en' ? 'English selected' : 'Switch to English');
-    const adsHref = staticPageHref('advertise');
-    document.getElementById('adsBtn').setAttribute('href', adsHref);
-    document.getElementById('footerAdvertise').setAttribute('href', adsHref);
     updateRigSyncBannerLanguage();
     updateLastUpdatedLabel();
   }
@@ -4130,7 +4029,7 @@
     document.getElementById('readingProgress').style.width = `${ratio}%`;
   }, { passive: true });
 
-  window.addEventListener('popstate', () => { parseRoute(); focusMainContent(); });
+  window.addEventListener('popstate', parseRoute);
 
   document.addEventListener('DOMContentLoaded', () => {
     applyUIStrings();
