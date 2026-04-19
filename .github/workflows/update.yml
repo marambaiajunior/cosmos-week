@@ -96,12 +96,6 @@ jobs:
           print('✓ Arquivos gerados com sucesso e JSON válido')
           PY
 
-      - name: Limpar cache temporário do Python
-        shell: bash
-        run: |
-          set -euo pipefail
-          find . -type d -name __pycache__ -prune -exec rm -rf {} +
-
       - name: Mostrar alterações geradas
         shell: bash
         run: |
