@@ -55,7 +55,7 @@ MIN_POSTS_PER_CATEGORY = 3
 MIN_FRESH_POSTS = 10
 FRESH_WINDOW_HOURS = 120
 MAX_POST_AGE_DAYS = 45          # posts mais velhos que isso são descartados como noise
-USER_AGENT = 'CosmosWeekBot/5.0 (+https://github.com/marambaiajunior/cosmos-week1)'
+USER_AGENT = 'CosmosWeekBot/5.0 (+https://github.com/marambaiajunior/cosmos-week)'
 REQUEST_TIMEOUT = 30
 ARXIV_TIMEOUT = 60              # arXiv API pode ser lenta; timeout separado e maior
 ARXIV_RETRIES = 2               # tentativas extras para feeds arXiv antes de desistir
@@ -3844,7 +3844,7 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
     canonical = f'{SITE_URL}?article={slug}'
     canonical_en = f'{SITE_URL}?article={slug}&lang=en'
     share_url = urllib.parse.urljoin(SITE_URL, f'noticia/{slug}/')
-    share_url_en = share_url + '?lang=en'
+    share_url_en = canonical_en
     image = choose_post_image(item, category)
     inline_images = extract_inline_images(src_url, primary_image=image)
     video = extract_page_video(src_url)
@@ -3935,8 +3935,8 @@ def to_post(item: dict, idx: int, regular_rank: int) -> dict:
         'shareUrl': share_url,
         'shareUrl_pt': share_url,
         'shareUrl_en': share_url_en,
-        'canonicalUrl': canonical,
-        'canonicalUrl_pt': canonical,
+        'canonicalUrl': share_url,
+        'canonicalUrl_pt': share_url,
         'canonicalUrl_en': canonical_en,
         'defaultLanguage': 'pt-BR',
         'availableLanguages': ['pt-BR', 'en-US'],
@@ -4251,10 +4251,10 @@ def build_feed(posts: list[dict]) -> None:
         items.append(
             f'''<item>
               <title>{xml_escape(post['title_pt'])}</title>
-              <link>{xml_escape(post['canonicalUrl'])}</link>
-              <guid>{xml_escape(post['canonicalUrl'])}</guid>
+              <link>{xml_escape(post.get('shareUrl_pt') or post.get('shareUrl') or post['canonicalUrl'])}</link>
+              <guid>{xml_escape(post.get('shareUrl_pt') or post.get('shareUrl') or post['canonicalUrl'])}</guid>
               <pubDate>{pub_str}</pubDate>
-              <author>redacao@cosmosweek.com.br (Cosmos Week)</author>
+              <author>contato@cosmosweek.com (Cosmos Week)</author>
               <description>{xml_escape(post['excerpt_pt'])}</description>
               {categories}
               <source url="{xml_escape(post['srcUrl'])}">{xml_escape(post['source'])}</source>
@@ -4279,17 +4279,25 @@ def build_feed(posts: list[dict]) -> None:
 
 
 def build_sitemap(posts: list[dict], archive_posts: Optional[list[dict]] = None) -> None:
+    today = datetime.now(timezone.utc).date().isoformat()
     static_urls = [
-        (SITE_URL, datetime.now(timezone.utc).date().isoformat()),
-        (f'{SITE_URL}?page=arquivo', datetime.now(timezone.utc).date().isoformat()),
-        (f'{SITE_URL}?page=sobre', datetime.now(timezone.utc).date().isoformat()),
-        (f'{SITE_URL}?page=padroes', datetime.now(timezone.utc).date().isoformat()),
+        (SITE_URL, today),
+        (f'{SITE_URL}?page=arquivo', today),
+        (f'{SITE_URL}?page=sobre', today),
+        (f'{SITE_URL}?page=padroes', today),
+        (urllib.parse.urljoin(SITE_URL, 'anuncie.html'), today),
+        (urllib.parse.urljoin(SITE_URL, 'media-kit.html'), today),
+        (urllib.parse.urljoin(SITE_URL, 'politica-de-privacidade.html'), today),
+        (urllib.parse.urljoin(SITE_URL, 'termos-de-uso.html'), today),
     ]
-    dynamic_urls = [(post['canonicalUrl'], post['publishedIso'][:10]) for post in posts]
+    dynamic_urls = [
+        (post.get('shareUrl_pt') or post.get('shareUrl') or post['canonicalUrl'], str(post.get('publishedIso') or '')[:10] or today)
+        for post in posts
+    ]
     archive_urls = []
     for post in archive_posts or []:
         share_url = post.get('shareUrl') or urllib.parse.urljoin(SITE_URL, f"noticia/{post.get('slug', '').strip()}/")
-        published = str(post.get('publishedIso') or '')[:10] or datetime.now(timezone.utc).date().isoformat()
+        published = str(post.get('publishedIso') or '')[:10] or today
         if share_url:
             archive_urls.append((share_url, published))
     all_urls = unique_keep_order(static_urls + dynamic_urls + archive_urls)
@@ -4507,7 +4515,25 @@ def batch_review_all_posts(posts: list[dict]) -> None:
     print(f'  [Gemini] Concluído: {success_count} sucesso / {fallback_count} fallback')
 
 
+def rebuild_from_existing() -> None:
+    if not POSTS_JSON.exists():
+        raise SystemExit('posts.json não encontrado para rebuild local.')
+    try:
+        posts = json.loads(POSTS_JSON.read_text(encoding='utf-8'))
+    except Exception as exc:
+        raise SystemExit(f'Falha ao ler posts.json existente: {exc}') from exc
+    if not isinstance(posts, list):
+        raise SystemExit('posts.json existente não contém uma lista de posts.')
+    print(f'Rebuild local a partir do snapshot existente: {len(posts)} posts')
+    save_posts(posts)
+
+
 def main() -> None:
+    rebuild_mode = (os.getenv('COSMOS_REBUILD_FROM_EXISTING', '') or '').strip().lower() in {'1', 'true', 'yes'}
+    if rebuild_mode:
+        rebuild_from_existing()
+        return
+
     # ── Validação da chave Gemini ────────────────────────────────────────────
     if not GEMINI_API_KEY:
         print(
