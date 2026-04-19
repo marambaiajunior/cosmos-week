@@ -4549,8 +4549,11 @@ def build_sitemap(posts: list[dict], archive_posts: Optional[list[dict]] = None)
         (urllib.parse.urljoin(SITE_URL, 'anuncie.html'), today),
         (urllib.parse.urljoin(SITE_URL, 'en/advertise/'), today),
         (urllib.parse.urljoin(SITE_URL, 'media-kit.html'), today),
+        (urllib.parse.urljoin(SITE_URL, 'en/media-kit/'), today),
         (urllib.parse.urljoin(SITE_URL, 'politica-de-privacidade.html'), today),
+        (urllib.parse.urljoin(SITE_URL, 'en/privacy/'), today),
         (urllib.parse.urljoin(SITE_URL, 'termos-de-uso.html'), today),
+        (urllib.parse.urljoin(SITE_URL, 'en/terms/'), today),
     ]
     dynamic_urls = []
     for post in posts:

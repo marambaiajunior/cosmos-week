@@ -1830,16 +1830,16 @@
 
   <div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Aviso de cookies">
     <div class="cookie-copy">
-      <div class="cookie-title">Privacidade</div>
-      <div class="cookie-text">
+      <div class="cookie-title" id="cookieTitle">Privacidade</div>
+      <div class="cookie-text" id="cookieText">
         Usamos analytics para medir audiência e podemos exibir anúncios no futuro. Você pode aceitar tudo, liberar só analytics ou recusar. Os detalhes estão na
-        <a href="politica-de-privacidade.html">política de privacidade</a>.
+        <a href="politica-de-privacidade.html" id="cookiePolicyLink">política de privacidade</a>.
       </div>
     </div>
     <div class="cookie-actions">
-      <button class="ghost-btn" type="button" onclick="setCookieConsent('denied')">Recusar</button>
-      <button class="ghost-btn" type="button" onclick="setCookieConsent('analytics')">Só analytics</button>
-      <button class="primary-btn" type="button" onclick="setCookieConsent('full')">Aceitar tudo</button>
+      <button class="ghost-btn" type="button" id="cookieDenyBtn" onclick="setCookieConsent('denied')">Recusar</button>
+      <button class="ghost-btn" type="button" id="cookieAnalyticsBtn" onclick="setCookieConsent('analytics')">Só analytics</button>
+      <button class="primary-btn" type="button" id="cookieAcceptBtn" onclick="setCookieConsent('full')">Aceitar tudo</button>
     </div>
   </div>
 
@@ -1921,7 +1921,9 @@
       newsletterDescription: 'Receba Notícias semanais do Cosmos Week no seu e-mail.',
       newsletterPlaceholder: 'Seu e-mail', newsletterButton: 'Inscrever',
       newsletterNote: 'Sem spam. Apenas atualizações editoriais relevantes.',
-      newsletterSuccess: 'E-mail salvo neste navegador.', newsletterInvalid: 'Digite um e-mail válido.',
+      newsletterSuccess: 'E-mail salvo neste navegador.',
+      cookieTitle: 'Privacidade', cookieText: 'Usamos analytics para medir audiência e podemos exibir anúncios no futuro. Você pode aceitar tudo, liberar só analytics ou recusar. Os detalhes estão na política de privacidade.',
+      cookiePolicy: 'política de privacidade', cookieDeny: 'Recusar', cookieAnalytics: 'Só analytics', cookieAccept: 'Aceitar tudo', cookieAria: 'Aviso de cookies', newsletterInvalid: 'Digite um e-mail válido.',
       lastUpdatedPrefix: 'Atualização:', latestFeed: 'feed carregado',
       resultsFor: 'resultado(s) para',
       newsroom: 'Redação Cosmos Week',
@@ -1991,7 +1993,9 @@
       newsletterDescription: 'Get Cosmos Week editorial highlights in your inbox.',
       newsletterPlaceholder: 'Your email', newsletterButton: 'Subscribe',
       newsletterNote: 'No spam. Only relevant editorial updates.',
-      newsletterSuccess: 'Email saved in this browser.', newsletterInvalid: 'Enter a valid email address.',
+      newsletterSuccess: 'Email saved in this browser.',
+      cookieTitle: 'Privacy', cookieText: 'We use analytics to measure audience and may show advertising in the future. You can accept everything, allow analytics only or decline. Details are in the privacy policy.',
+      cookiePolicy: 'privacy policy', cookieDeny: 'Decline', cookieAnalytics: 'Analytics only', cookieAccept: 'Accept all', cookieAria: 'Cookie notice', newsletterInvalid: 'Enter a valid email address.',
       lastUpdatedPrefix: 'Auto update:', latestFeed: 'feed loaded',
       resultsFor: 'result(s) for',
       newsroom: 'Cosmos Week Desk',
@@ -2302,6 +2306,25 @@
   function canonicalPageUrl(page) {
     const map = { archive:'?page=arquivo', about:'?page=sobre', standards:'?page=padroes', search:'?page=busca' };
     return withLanguageParam(`${SITE.canonicalBaseUrl}${map[page] || ''}`);
+  }
+
+  function auxiliaryPageHref(kind, lang = currentLang) {
+    const table = {
+      pt: { advertise: 'anuncie.html', mediaKit: 'media-kit.html', privacy: 'politica-de-privacidade.html', terms: 'termos-de-uso.html' },
+      en: { advertise: 'en/advertise/', mediaKit: 'en/media-kit/', privacy: 'en/privacy/', terms: 'en/terms/' }
+    };
+    const selected = table[lang === 'en' ? 'en' : 'pt'];
+    return selected[kind] || 'index.html';
+  }
+
+  function syncAuxiliaryLinks() {
+    const ids = { adsBtn: 'advertise', footerAdvertise: 'advertise', footerMediaKit: 'mediaKit', footerPrivacy: 'privacy', footerTerms: 'terms' };
+    for (const [id, key] of Object.entries(ids)) {
+      const el = document.getElementById(id);
+      if (el) el.setAttribute('href', auxiliaryPageHref(key));
+    }
+    const cookieLink = document.getElementById('cookiePolicyLink');
+    if (cookieLink) cookieLink.setAttribute('href', auxiliaryPageHref('privacy'));
   }
 
   function keywordListFor(post) {
@@ -3624,6 +3647,17 @@
     const si = document.getElementById('searchInput'); if (si) si.placeholder = tr('searchPlaceholder');
     const nl = document.getElementById('newsletterLabel'); if (nl) nl.textContent = tr('newsletterLabel');
     const ne = document.getElementById('newsletterEmail'); if (ne) ne.placeholder = tr('newsletterPlaceholder');
+    syncAuxiliaryLinks();
+    const cookieTitle = document.getElementById('cookieTitle'); if (cookieTitle) cookieTitle.textContent = tr('cookieTitle');
+    const cookieLink = document.getElementById('cookiePolicyLink'); if (cookieLink) cookieLink.textContent = tr('cookiePolicy');
+    const cookieText = document.getElementById('cookieText'); if (cookieText) {
+      const linkHref = auxiliaryPageHref('privacy');
+      cookieText.innerHTML = `${tr('cookieText').replace(tr('cookiePolicy'), `<a href="${linkHref}" id="cookiePolicyLink">${tr('cookiePolicy')}</a>`)}`;
+    }
+    const cookieBanner = document.getElementById('cookieBanner'); if (cookieBanner) cookieBanner.setAttribute('aria-label', tr('cookieAria'));
+    const denyBtn = document.getElementById('cookieDenyBtn'); if (denyBtn) denyBtn.textContent = tr('cookieDeny');
+    const analyticsBtn = document.getElementById('cookieAnalyticsBtn'); if (analyticsBtn) analyticsBtn.textContent = tr('cookieAnalytics');
+    const acceptBtn = document.getElementById('cookieAcceptBtn'); if (acceptBtn) acceptBtn.textContent = tr('cookieAccept');
     document.querySelectorAll('.cat-pill').forEach(btn => {
       const cat = btn.dataset.cat;
       btn.textContent = cat === 'all' ? tr('allCategories') : prettyCategory(cat);
