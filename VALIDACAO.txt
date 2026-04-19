@@ -1,0 +1,21 @@
+COMANDOS EXECUTADOS
+1) python -m py_compile scripts/fetch_news.py
+Resultado: OK
+
+2) COSMOS_REBUILD_FROM_EXISTING=1 python scripts/fetch_news.py
+Resultado: OK
+Saída principal: "Rebuild local a partir do snapshot existente: 40 posts"
+
+3) python -m http.server 8000
+Resultado: servidor local iniciado para smoke test
+
+4) Smoke test local via urllib/python
+Verificações executadas:
+- HTTP 200 para /, /anuncie.html, /media-kit.html, /politica-de-privacidade.html, /termos-de-uso.html, /feed.xml, /sitemap.xml, /robots.txt e uma página /noticia/.../
+- ausência de marambaiajunior.github.io/cosmos-week e cosmosweek.com.br nas páginas validadas
+- links internos das páginas institucionais retornando 200
+- canonical da home mantido em https://www.cosmosweek.com/
+- canonical da matéria estática validado em /noticia/.../
+- feed.xml apontando para /noticia/.../
+- sitemap.xml contendo páginas institucionais e sem URLs ?article=
+Resultado: OK
