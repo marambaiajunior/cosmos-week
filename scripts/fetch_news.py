@@ -68,32 +68,32 @@ PAGE_TEXT_MAX_PARAGRAPHS = 24
 FULL_TEXT_LIMIT = 9000
 MAX_FACT_SENTENCES = 14
 MAX_INLINE_IMAGES = 12
-GEMINI_TIMEOUT = 120
+GEMINI_TIMEOUT = max(20, int((os.getenv('GEMINI_TIMEOUT', '45') or '45').strip() or '45'))
 # Reduce Gemini rate to minimise HTTP 429/503 errors. The free tier allows up to
 # 20 requests per minute, but congestion can still make the service unavailable.
 try:
-    GEMINI_RPM_LIMIT = max(1, int((os.getenv('GEMINI_RPM_LIMIT', '3') or '3').strip()))
+    GEMINI_RPM_LIMIT = max(1, int((os.getenv('GEMINI_RPM_LIMIT', '6') or '6').strip()))
 except ValueError:
-    GEMINI_RPM_LIMIT = 3
+    GEMINI_RPM_LIMIT = 6
 try:
     GEMINI_RETRY_ON_429 = max(0, int((os.getenv('GEMINI_RETRY_ON_429', '1') or '1').strip()))
 except ValueError:
     GEMINI_RETRY_ON_429 = 1
 try:
-    GEMINI_RETRY_DELAY_429 = max(15, int((os.getenv('GEMINI_RETRY_DELAY_429', '75') or '75').strip()))
+    GEMINI_RETRY_DELAY_429 = max(15, int((os.getenv('GEMINI_RETRY_DELAY_429', '20') or '20').strip()))
 except ValueError:
-    GEMINI_RETRY_DELAY_429 = 75
+    GEMINI_RETRY_DELAY_429 = 20
 try:
-    GEMINI_RETRY_TRANSIENT = max(0, int((os.getenv('GEMINI_RETRY_TRANSIENT', '1') or '1').strip()))
+    GEMINI_RETRY_TRANSIENT = max(0, int((os.getenv('GEMINI_RETRY_TRANSIENT', '0') or '0').strip()))
 except ValueError:
-    GEMINI_RETRY_TRANSIENT = 1
+    GEMINI_RETRY_TRANSIENT = 0
 try:
-    GEMINI_RETRY_BASE_DELAY = max(5, int((os.getenv('GEMINI_RETRY_BASE_DELAY', '25') or '25').strip()))
+    GEMINI_RETRY_BASE_DELAY = max(5, int((os.getenv('GEMINI_RETRY_BASE_DELAY', '8') or '8').strip()))
 except ValueError:
-    GEMINI_RETRY_BASE_DELAY = 25
+    GEMINI_RETRY_BASE_DELAY = 8
 GEMINI_PAYLOAD_BODY_LIMIT = 2200
 GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.0-flash').strip() or 'gemini-2.0-flash'
-GEMINI_MODEL_FALLBACKS = [m.strip() for m in (os.getenv('GEMINI_MODEL_FALLBACKS', 'gemini-2.0-flash,gemini-2.0-flash-lite,gemini-1.5-flash') or '').split(',') if m.strip()]
+GEMINI_MODEL_FALLBACKS = [m.strip() for m in (os.getenv('GEMINI_MODEL_FALLBACKS', '') or '').split(',') if m.strip()]
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '').strip()
 GEMINI_ENDPOINT_TEMPLATE = 'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
 try:
@@ -101,15 +101,19 @@ try:
 except ValueError:
     GEMINI_BATCH_SIZE = 1
 try:
-    GEMINI_DISABLE_AFTER_CONSECUTIVE_503 = max(1, int((os.getenv('GEMINI_DISABLE_AFTER_CONSECUTIVE_503', '2') or '2').strip()))
+    GEMINI_DISABLE_AFTER_CONSECUTIVE_503 = max(1, int((os.getenv('GEMINI_DISABLE_AFTER_CONSECUTIVE_503', '3') or '3').strip()))
 except ValueError:
-    GEMINI_DISABLE_AFTER_CONSECUTIVE_503 = 2
+    GEMINI_DISABLE_AFTER_CONSECUTIVE_503 = 3
 try:
     GEMINI_PROBE_RETRIES = max(0, int((os.getenv('GEMINI_PROBE_RETRIES', '1') or '1').strip()))
 except ValueError:
     GEMINI_PROBE_RETRIES = 1
 GEMINI_PROBE_ENABLED = (os.getenv('GEMINI_PROBE_ENABLED', '1') or '1').strip().lower() not in {'0', 'false', 'no'}
 GEMINI_REVIEW_PRIORITY_FIRST = (os.getenv('GEMINI_REVIEW_PRIORITY_FIRST', '1') or '1').strip().lower() not in {'0', 'false', 'no'}
+try:
+    GEMINI_MAX_REVIEW_SECONDS = max(60, int((os.getenv('GEMINI_MAX_REVIEW_SECONDS', '900') or '900').strip()))
+except ValueError:
+    GEMINI_MAX_REVIEW_SECONDS = 900
 NS = {
     'atom': 'http://www.w3.org/2005/Atom',
     'media': 'http://search.yahoo.com/mrss/',
@@ -406,6 +410,7 @@ GEMINI_CACHE: dict[tuple[str, str], object] = {}
 _GEMINI_CALL_TIMES: list[float] = []
 _GEMINI_CONSECUTIVE_503 = 0
 _GEMINI_DISABLED_THIS_RUN = False
+_GEMINI_UNAVAILABLE_MODELS: set[str] = set()
 
 
 # ── Utility functions ─────────────────────────────────────────────────────────
@@ -1895,11 +1900,35 @@ def _gemini_models() -> list[str]:
     ordered = []
     for model in models:
         model = collapse_ws(model)
-        if not model or model in seen:
+        if not model or model in seen or model in _GEMINI_UNAVAILABLE_MODELS:
             continue
         seen.add(model)
         ordered.append(model)
     return ordered
+
+
+def _disable_gemini_for_run(reason: str) -> None:
+    global _GEMINI_DISABLED_THIS_RUN
+    if _GEMINI_DISABLED_THIS_RUN:
+        return
+    _GEMINI_DISABLED_THIS_RUN = True
+    print(f'⚠️  Gemini desabilitado nesta execução: {reason}')
+
+
+def _mark_gemini_model_unavailable(model: str, reason: str) -> None:
+    cleaned = collapse_ws(model)
+    if not cleaned:
+        return
+    if cleaned not in _GEMINI_UNAVAILABLE_MODELS:
+        _GEMINI_UNAVAILABLE_MODELS.add(cleaned)
+        print(f'⚠️  Modelo Gemini removido desta execução: {cleaned} ({reason})')
+
+
+def _gemini_review_budget_exhausted(started_at: float | None) -> bool:
+    if not started_at or GEMINI_MAX_REVIEW_SECONDS <= 0:
+        return False
+    import time as _time
+    return (_time.monotonic() - started_at) >= GEMINI_MAX_REVIEW_SECONDS
 
 
 def gemini_probe() -> bool:
@@ -1951,6 +1980,11 @@ def call_gemini_json(task_key: str, prompt: str):
     if cache_key in GEMINI_CACHE:
         return GEMINI_CACHE[cache_key]
 
+    models = _gemini_models()
+    if not models:
+        GEMINI_CACHE[cache_key] = None
+        return None
+
     body = {
         'contents': [{'parts': [{'text': prompt}]}],
         'generationConfig': {
@@ -1960,11 +1994,15 @@ def call_gemini_json(task_key: str, prompt: str):
     }
     data = json.dumps(body, ensure_ascii=False).encode('utf-8')
     transient_codes = {408, 500, 502, 503, 504}
+    unavailable_codes = {400, 404}
 
-    for model in _gemini_models():
+    for model in models:
         endpoint = GEMINI_ENDPOINT_TEMPLATE.format(model=urllib.parse.quote(model, safe=''))
         url = f'{endpoint}?key={urllib.parse.quote(GEMINI_API_KEY)}'
-        max_attempts = 1 + max(GEMINI_RETRY_ON_429, GEMINI_RETRY_TRANSIENT)
+        retry_on_429 = max(0, GEMINI_RETRY_ON_429)
+        retry_transient = max(0, GEMINI_RETRY_TRANSIENT)
+        max_attempts = 1 + max(retry_on_429, retry_transient)
+
         for attempt in range(max_attempts):
             req = urllib.request.Request(
                 url,
@@ -1990,36 +2028,40 @@ def call_gemini_json(task_key: str, prompt: str):
                 except Exception:
                     err_body = '(sem corpo)'
 
-                if exc.code == 429 and attempt < GEMINI_RETRY_ON_429:
-                    print(f'    [Gemini:{model}] 429 quota — aguardando {GEMINI_RETRY_DELAY_429}s para reset do RPM (retry {attempt + 1}/{GEMINI_RETRY_ON_429}) ...')
-                    _time.sleep(GEMINI_RETRY_DELAY_429)
+                if exc.code == 429 and attempt < retry_on_429:
+                    wait = GEMINI_RETRY_DELAY_429
+                    print(f'    [Gemini:{model}] 429 quota — aguardando {wait}s e tentando novamente ({attempt + 1}/{retry_on_429}) ...')
+                    _time.sleep(wait)
                     continue
 
-                if exc.code in transient_codes and attempt < GEMINI_RETRY_TRANSIENT:
+                if exc.code in transient_codes and attempt < retry_transient:
                     wait = GEMINI_RETRY_BASE_DELAY * (attempt + 1)
-                    print(f'    [Gemini:{model}] HTTP {exc.code} transitório — aguardando {wait}s e tentando novamente ({attempt + 1}/{GEMINI_RETRY_TRANSIENT}) ...')
+                    print(f'    [Gemini:{model}] HTTP {exc.code} transitório — aguardando {wait}s e tentando novamente ({attempt + 1}/{retry_transient}) ...')
                     _time.sleep(wait)
                     continue
 
                 print(f'ERR Gemini {model} HTTP {exc.code} ({exc.reason}): {err_body}')
+
+                if exc.code in unavailable_codes:
+                    _mark_gemini_model_unavailable(model, f'HTTP {exc.code}')
+                    if model == GEMINI_MODEL:
+                        _disable_gemini_for_run(f'modelo principal inválido ({model}, HTTP {exc.code})')
+                    _GEMINI_CONSECUTIVE_503 = 0
+                    break
+
                 if exc.code == 503:
                     _GEMINI_CONSECUTIVE_503 += 1
                     if _GEMINI_CONSECUTIVE_503 >= GEMINI_DISABLE_AFTER_CONSECUTIVE_503:
-                        _GEMINI_DISABLED_THIS_RUN = True
-                        print(
-                            '⚠️  Gemini desabilitado nesta execução após '
-                            f'{_GEMINI_CONSECUTIVE_503} falhas consecutivas HTTP 503. '
-                            'Os artigos restantes seguirão em fallback sem revisão.'
-                        )
+                        _disable_gemini_for_run(f'{_GEMINI_CONSECUTIVE_503} falhas consecutivas HTTP 503 do modelo principal')
                         GEMINI_CACHE[cache_key] = None
                         return None
                 else:
                     _GEMINI_CONSECUTIVE_503 = 0
                 break
             except (urllib.error.URLError, TimeoutError, socket.timeout) as exc:
-                if attempt < GEMINI_RETRY_TRANSIENT:
+                if attempt < retry_transient:
                     wait = GEMINI_RETRY_BASE_DELAY * (attempt + 1)
-                    print(f'    [Gemini:{model}] timeout/rede — aguardando {wait}s e tentando novamente ({attempt + 1}/{GEMINI_RETRY_TRANSIENT}) ...')
+                    print(f'    [Gemini:{model}] timeout/rede — aguardando {wait}s e tentando novamente ({attempt + 1}/{retry_transient}) ...')
                     _time.sleep(wait)
                     continue
                 print(f'ERR Gemini {model}: {exc}')
@@ -4693,9 +4735,14 @@ def batch_review_all_posts(posts: list[dict]) -> None:
     success_count = 0
     fallback_count = 0
 
+    import time as _time
+    review_started_at = _time.monotonic()
+
     if GEMINI_BATCH_SIZE <= 1:
         total = len(queue)
         for idx, p in enumerate(queue, start=1):
+            if _gemini_review_budget_exhausted(review_started_at):
+                _disable_gemini_for_run(f'limite de tempo de revisão Gemini atingido ({GEMINI_MAX_REVIEW_SECONDS}s)')
             if _GEMINI_DISABLED_THIS_RUN:
                 p['reviewStatus'] = 'fallback'
                 fallback_count += 1
@@ -4727,6 +4774,8 @@ def batch_review_all_posts(posts: list[dict]) -> None:
     fallback_count = 0
     total_batches = (total + GEMINI_BATCH_SIZE - 1) // GEMINI_BATCH_SIZE
     for batch_start in range(0, total, GEMINI_BATCH_SIZE):
+        if _gemini_review_budget_exhausted(review_started_at):
+            _disable_gemini_for_run(f'limite de tempo de revisão Gemini atingido ({GEMINI_MAX_REVIEW_SECONDS}s)')
         if _GEMINI_DISABLED_THIS_RUN:
             remaining = queue[batch_start:]
             for p in remaining:
