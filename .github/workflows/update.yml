@@ -2,11 +2,14 @@ name: Atualizar notícias
 
 on:
   schedule:
-    # Executa 1× por dia às 08:00 UTC.
-    # Em Utah isso corresponde aproximadamente a:
-    # - 01:00 durante MST (horário padrão)
-    # - 02:00 durante MDT (horário de verão)
-    - cron: '0 8 * * *'
+    # Fase 1: atualiza 3× por dia — manhã, tarde e noite (UTC)
+    # Horários em Utah (MT):
+    #   06:00 UTC = 23:00 MST / 00:00 MDT (madrugada)
+    #   13:00 UTC = 06:00 MST / 07:00 MDT (manhã)
+    #   20:00 UTC = 13:00 MST / 14:00 MDT (tarde)
+    - cron: '0 6 * * *'
+    - cron: '0 13 * * *'
+    - cron: '0 20 * * *'
   workflow_dispatch:
 
 permissions:

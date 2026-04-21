@@ -46,7 +46,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Cosmos Week — portal de notícias científicas em português com foco em astronomia, astrofísica, cosmologia e ciência em geral.">
-  <meta name="keywords" content="astronomia, astrofísica, cosmologia, ciência, exoplanetas, buracos negros, James Webb, NASA, ESA, divulgação científica">
   <meta property="og:title" content="Cosmos Week — Notícias científicas do universo">
   <meta property="og:description" content="Notícias científicas em português, com contexto, rigor e fontes primárias transparentes.">
   <meta property="og:type" content="website">
@@ -68,6 +67,8 @@
   <meta property="article:modified_time" id="articleModifiedMeta" content="">
   <meta property="article:section" id="articleSectionMeta" content="">
   <link rel="canonical" id="canonicalLink" href="https://www.cosmosweek.com/">
+  <!-- Fase 1: preload da imagem padrão (LCP) -->
+  <link rel="preload" as="image" href="https://www.cosmosweek.com/assets/og-default.jpg" fetchpriority="high">
   <link rel="alternate" hreflang="pt-BR" id="alternatePtLink" href="https://www.cosmosweek.com/">
   <link rel="alternate" hreflang="en-US" id="alternateEnLink" href="https://www.cosmosweek.com/?lang=en">
   <link rel="alternate" hreflang="x-default" id="alternateDefaultLink" href="https://www.cosmosweek.com/">
@@ -1843,8 +1844,8 @@
     </div>
   </div>
 
-<script src="giscus-config.js"></script>
-  <script src="posts.js"></script>
+<script src="giscus-config.js" defer></script>
+  <script src="posts.js" defer></script>
   <script>
   const RUNTIME_BASE_PATH = (() => {
     const path = window.location.pathname || '/';
@@ -3903,7 +3904,36 @@
   function updateMetaHome() {
     const title = currentLang==='en' ? SITE.homeTitleEn : SITE.homeTitlePt;
     const description = currentLang==='en' ? SITE.homeDescriptionEn : SITE.homeDescriptionPt;
-    updateMetaCommon(title, description, canonicalPageUrl('home'), IMG.pillars, null, {
+    // Fase 1: NewsMediaOrganization + WebSite + SearchAction para Google News
+    const homeJsonLd = [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'NewsMediaOrganization',
+        '@id': SITE.canonicalBaseUrl + '#organization',
+        name: SITE.title,
+        url: SITE.canonicalBaseUrl,
+        logo: { '@type': 'ImageObject', url: 'https://www.cosmosweek.com/assets/og-default.jpg' },
+        description: description,
+        publishingPrinciples: SITE.canonicalBaseUrl + 'padroes',
+        inLanguage: ['pt-BR', 'en-US']
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        '@id': SITE.canonicalBaseUrl + '#website',
+        name: SITE.title,
+        url: SITE.canonicalBaseUrl,
+        description: description,
+        inLanguage: currentLang === 'en' ? 'en-US' : 'pt-BR',
+        publisher: { '@id': SITE.canonicalBaseUrl + '#organization' },
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: { '@type': 'EntryPoint', urlTemplate: SITE.canonicalBaseUrl + '?q={search_term_string}' },
+          'query-input': 'required name=search_term_string'
+        }
+      }
+    ];
+    updateMetaCommon(title, description, canonicalPageUrl('home'), IMG.pillars, homeJsonLd, {
       robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
       newsKeywords: 'astronomia, astrofísica, cosmologia, ciência, espaço',
       alternatePt: withLanguageParam(SITE.canonicalBaseUrl, 'pt'),
