@@ -67,7 +67,6 @@
   <meta property="article:modified_time" id="articleModifiedMeta" content="">
   <meta property="article:section" id="articleSectionMeta" content="">
   <link rel="canonical" id="canonicalLink" href="https://www.cosmosweek.com/">
-  <!-- Fase 1: preload da imagem padrão (LCP) -->
   <link rel="preload" as="image" href="https://www.cosmosweek.com/assets/og-default.jpg" fetchpriority="high">
   <link rel="alternate" hreflang="pt-BR" id="alternatePtLink" href="https://www.cosmosweek.com/">
   <link rel="alternate" hreflang="en-US" id="alternateEnLink" href="https://www.cosmosweek.com/?lang=en">
@@ -1676,7 +1675,6 @@
 
     <section class="page active" id="pageHome">
       <div id="heroMount"></div>
-      <div class="front-briefing" id="frontBriefing"></div>
       <div class="story-layout">
         <div>
           <div class="section-head" id="latestSectionHead">
@@ -1728,6 +1726,7 @@
           </div>
         </aside>
       </div>
+      <div class="front-briefing" id="frontBriefing"></div>
     </section>
 
     <section class="page" id="pageArticle"></section>
@@ -1845,7 +1844,7 @@
   </div>
 
 <script src="giscus-config.js" defer></script>
-  <script src="posts.js" defer></script>
+  <script src="posts.js"></script>
   <script>
   const RUNTIME_BASE_PATH = (() => {
     const path = window.location.pathname || '/';
@@ -3904,7 +3903,6 @@
   function updateMetaHome() {
     const title = currentLang==='en' ? SITE.homeTitleEn : SITE.homeTitlePt;
     const description = currentLang==='en' ? SITE.homeDescriptionEn : SITE.homeDescriptionPt;
-    // Fase 1: NewsMediaOrganization + WebSite + SearchAction para Google News
     const homeJsonLd = [
       {
         '@context': 'https://schema.org',
