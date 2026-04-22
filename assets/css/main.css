@@ -6372,3 +6372,134 @@ html[lang="pt-BR"] .searchbox {
     width: clamp(148px, 16vw, 190px);
   }
 }
+
+
+/* --------------------------------------------------------------------------
+   FASE 6 — acabamento final, consistência global e estabilidade visual
+   -------------------------------------------------------------------------- */
+.hero-primary,
+.hero-side-card,
+.card-cover,
+.compact-cover,
+.visual-card,
+.article-cover,
+.article-inline-figure,
+.preview-inline-figure,
+.preview-gallery {
+  background:
+    linear-gradient(110deg, rgba(255,255,255,.04) 8%, rgba(255,255,255,.12) 18%, rgba(255,255,255,.04) 33%),
+    var(--bg-3);
+  background-size: 220% 100%;
+  animation: cwShimmer 1.6s linear infinite;
+}
+
+.cw-image {
+  opacity: .001;
+  filter: blur(8px);
+  transform: scale(1.02);
+  transition: opacity .35s ease, filter .35s ease, transform .45s ease;
+}
+
+.cw-image.is-ready {
+  opacity: 1;
+  filter: none;
+  transform: none;
+}
+
+.hero-primary > img.is-ready,
+.hero-side-card > img.is-ready,
+.story-card .card-cover img.is-ready,
+.visual-card > img.is-ready,
+.article-cover img.is-ready,
+.article-inline-figure img.is-ready,
+.preview-inline-figure img.is-ready {
+  opacity: 1;
+}
+
+@keyframes cwShimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -20% 0; }
+}
+
+.hero-primary:has(img.is-ready),
+.hero-side-card:has(img.is-ready),
+.card-cover:has(img.is-ready),
+.compact-cover:has(img.is-ready),
+.visual-card:has(img.is-ready),
+.article-cover:has(img.is-ready),
+.article-inline-figure:has(img.is-ready),
+.preview-inline-figure:has(img.is-ready) {
+  animation: none;
+}
+
+.home-loading-shell {
+  display: grid;
+  gap: 22px;
+}
+
+.home-loading-hero {
+  min-height: clamp(320px, 48vw, 540px);
+  border-radius: var(--radius-3xl);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-lg);
+  background:
+    linear-gradient(110deg, rgba(255,255,255,.04) 8%, rgba(255,255,255,.12) 18%, rgba(255,255,255,.04) 33%),
+    var(--bg-2);
+  background-size: 220% 100%;
+  animation: cwShimmer 1.6s linear infinite;
+}
+
+.home-loading-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.home-loading-card {
+  min-height: 280px;
+  border-radius: var(--radius-2xl);
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(110deg, rgba(255,255,255,.04) 8%, rgba(255,255,255,.12) 18%, rgba(255,255,255,.04) 33%),
+    var(--bg-2);
+  background-size: 220% 100%;
+  animation: cwShimmer 1.6s linear infinite;
+}
+
+@media (max-width: 960px) {
+  .home-loading-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-tools {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 10px;
+  }
+
+  .header-tools .searchbox,
+  .header-tools .searchbox input {
+    width: 100%;
+  }
+
+  .header-tools .ghost-btn,
+  .header-tools .primary-btn {
+    width: auto;
+    flex: 0 0 auto;
+  }
+
+  #methodBtn,
+  #adsBtn,
+  #updateBtn {
+    min-width: 0;
+    padding-inline: 14px;
+  }
+
+  #adsBtn,
+  #updateBtn {
+    font-size: 12px;
+  }
+
+}

@@ -394,11 +394,37 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
   }
 
   let DB = hydrateArchive([]);
+  let archivePrefetchScheduled = false;
+
+  function feedRequestUrl(base, force = false) {
+    if (!force) return base;
+    const separator = base.includes('?') ? '&' : '?';
+    return `${base}${separator}cb=${Date.now()}`;
+  }
+
+  function feedRequestOptions(force = false) {
+    return force ? { cache: 'no-store' } : { cache: 'default' };
+  }
+
+  function scheduleArchivePrefetch() {
+    if (archivePrefetchScheduled || fullArchiveLoaded || fullArchivePromise) return;
+    archivePrefetchScheduled = true;
+    const kickoff = () => {
+      const run = () => ensureFullArchiveLoaded().catch(() => DB);
+      if (typeof window.requestIdleCallback === 'function') {
+        window.requestIdleCallback(run, { timeout: 6500 });
+      } else {
+        window.setTimeout(run, 3200);
+      }
+    };
+    if (document.readyState === 'complete') kickoff();
+    else window.addEventListener('load', kickoff, { once: true });
+  }
 
   function ensureSummaryFeedLoaded(force = false) {
     if (DB.length && !force) return Promise.resolve(DB);
     if (fullArchiveLoaded && !force) return Promise.resolve(DB);
-    return fetch(`${SUMMARY_FEED}?cb=${Date.now()}`, { cache: 'no-store' })
+    return fetch(feedRequestUrl(SUMMARY_FEED, force), feedRequestOptions(force))
       .then(resp => {
         if (!resp.ok) throw new Error('summary feed fetch failed');
         return resp.json();
@@ -418,7 +444,7 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
   function ensureFullArchiveLoaded(force = false) {
     if (fullArchiveLoaded && !force) return Promise.resolve(DB);
     if (fullArchivePromise && !force) return fullArchivePromise;
-    fullArchivePromise = fetch(`${FULL_ARCHIVE_FEED}?cb=${Date.now()}`, { cache: 'no-store' })
+    fullArchivePromise = fetch(feedRequestUrl(FULL_ARCHIVE_FEED, force), feedRequestOptions(force))
       .then(resp => {
         if (!resp.ok) throw new Error('archive fetch failed');
         return resp.json();
@@ -547,14 +573,15 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
   }
 
   function fallbackImage(post) {
-    const text = `${post?.title||''} ${post?.title_en||''} ${post?.excerpt||''} ${post?.cat||''}`.toLowerCase();
+    const text = `${post?.title||''} ${post?.title_en||''} ${post?.excerpt||''} ${post?.cat||''} ${post?.source||''} ${post?.keywords||''}`.toLowerCase();
     if (/gravitational wave|kilonova|black hole|neutron star|astrofísica/.test(text)) return IMG.blackhole;
-    if (/particle|lhc|cern|muon|physics|física/.test(text)) return IMG.cern;
-    if (/exoplanet|exoplaneta|biosignature|habitable/.test(text)) return IMG.exoplanet;
+    if (/particle|lhc|cern|muon|physics|física|quantum|quântica|isotope|isótopo/.test(text)) return IMG.cern;
+    if (/exoplanet|exoplaneta|biosignature|habitable|atmosphere|atmosfera|planetary|planetário/.test(text)) return IMG.exoplanet;
     if (/cosmolog|dark energy|dark matter|cmb/.test(text)) return IMG.hubbledeep;
     if (/galaxy|galáxia|spiral|milky way/.test(text)) return IMG.andromeda;
-    if (/earth|clima|climate|ocean|atmosphere/.test(text)) return IMG.earth;
+    if (/earth|clima|climate|ocean|geology|geologia|atmosphere|atmosfera/.test(text)) return IMG.earth;
     if (/supernova/.test(text)) return IMG.supernova;
+    if (/chemistry|química|molecule|molecular|spectroscopy|espectroscopia/.test(text)) return IMG.pillars;
     return ({ 'Astrofísica':IMG.blackhole, 'Física':IMG.cern, 'Exoplanetas':IMG.exoplanet,
                'Ciências da Terra':IMG.earth, 'Cosmologia':IMG.hubbledeep,
                'Astronomia':IMG.milkyway, 'Química':IMG.pillars, 'Biologia':IMG.earth })[post?.cat] || IMG.pillars;
@@ -572,7 +599,8 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
     const fallback = escapeAttr(fallbackImage(post));
     const alt      = escapeAttr(textFor(post, 'title'));
     const decode   = loading === 'eager' ? 'sync' : 'async';
-    return `src="${primary}" alt="${alt}" loading="${loading}" decoding="${decode}" onerror="if(this.src!=='${fallback}'){this.src='${fallback}'}"`;
+    const priority = loading === 'eager' ? 'high' : 'low';
+    return `class="cw-image is-loading" src="${primary}" alt="${alt}" loading="${loading}" fetchpriority="${priority}" decoding="${decode}" referrerpolicy="no-referrer" onload="this.classList.add('is-ready');this.classList.remove('is-loading')" onerror="if(this.src!=='${fallback}'){this.src='${fallback}';return;}this.classList.add('is-ready');this.classList.remove('is-loading')"`;
   }
 
   function withLanguageParam(url, lang = currentLang) {
@@ -1221,7 +1249,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     renderSourceMix();
     renderTicker(layout);
     syncCategoryButtons();
-    ensureFullArchiveLoaded();
+    scheduleArchivePrefetch();
     markNav('home');
     activatePage('home');
     updateMetaHome();
@@ -2703,7 +2731,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     ensureSummaryFeedLoaded().finally(() => {
       parseRoute();
       if (normalizePageKey(document.body?.dataset?.cwPage || '') === 'archive' || routePageFromPath(window.location.pathname || '') === 'archive') {
-        ensureFullArchiveLoaded();
+        scheduleArchivePrefetch();
       }
     });
   });

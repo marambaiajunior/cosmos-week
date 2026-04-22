@@ -1,0 +1,18 @@
+INSTRUCOES SEGURAS DE SUBSTITUICAO - FASE 6
+
+1. Faça backup completo do repositório atual antes de substituir qualquer arquivo.
+2. Substitua o pacote inteiro pelo conteúdo do zip final desta fase para evitar desalinhamento entre HTML, CSS e JS.
+3. Se preferir troca manual, substitua no mínimo estes arquivos em conjunto:
+   - assets/js/app.js
+   - assets/css/main.css
+   - index.html
+   - en/index.html
+4. Publique tudo no mesmo commit/deploy.
+5. Depois da publicação, limpe cache/CDN se houver.
+6. Teste:
+   - home PT
+   - home EN
+   - um preprint
+   - header mobile
+   - página de arquivo
+   - botão Atualizar/Refresh

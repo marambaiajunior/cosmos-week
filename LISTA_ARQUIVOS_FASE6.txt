@@ -1,0 +1,10 @@
+Fase 6 - arquivos alterados
+
+assets/js/app.js
+assets/css/main.css
+index.html
+en/index.html
+REPORT_FASE6.md
+ESTRUTURA_FINAL_CONSOLIDADA_FASE6.txt
+LISTA_ARQUIVOS_FASE6.txt
+INSTRUCOES_SUBSTITUICAO_FASE6.txt
