@@ -4211,7 +4211,7 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
         'evidence_level': 'Evidence level' if is_en else 'Nível de evidência',
         'editorial_signature': 'Editorial signature' if is_en else 'Assinatura editorial',
         'source_analysis': 'Source and framing' if is_en else 'Fonte e enquadramento',
-        'source_analysis_text': 'This box tells the reader what kind of source originated the story and how strongly the result should be interpreted.' if is_en else 'Este bloco informa ao leitor que tipo de fonte originou a matéria e quão forte deve ser a interpretação do resultado.',
+        'source_analysis_text': 'This box tells the reader what kind of source originated the story and how strongly the result should be interpreted.' if is_en else 'Fonte que originou a matéria e a interpretação do resultado.',
         'tools': 'Story tools' if is_en else 'Ferramentas da matéria',
         'copy': 'Copy article link' if is_en else 'Copiar link da matéria',
         'share': 'Share article' if is_en else 'Compartilhar matéria',
