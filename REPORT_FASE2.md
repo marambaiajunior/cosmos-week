@@ -50,3 +50,22 @@ A navegação anterior ainda tratava a homepage como centro absoluto. Isso limit
 - microinterações mais sofisticadas
 - tipografia e espaçamento com tratamento mais autoral
 - possíveis aprimoramentos finos de SEO e UX por matéria
+
+
+---
+
+## Ajuste posterior na home
+
+Depois da primeira entrega da Fase 2, a home foi refinada para eliminar redundância editorial no topo.
+
+### Correções aplicadas
+- unificação da abertura editorial em **um único bloco de destaque** com 5 matérias principais
+- remoção da repetição entre o destaque principal e a faixa visual logo abaixo
+- nova ordem da home:
+  1. destaque principal
+  2. últimas publicações
+  3. navegue por tema
+- ocultação do bloco extra que reintroduzia duplicação estrutural na home
+
+### Resultado editorial
+A capa passa a abrir com uma hierarquia mais limpa: primeiro a vitrine principal, depois o fluxo cronológico recente, e só então a navegação temática.

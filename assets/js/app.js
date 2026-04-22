@@ -986,39 +986,58 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
 
   function renderHero(layout = currentFrontLayout()) {
     const mount = document.getElementById('heroMount');
+    if (!mount) return;
     const pool = layout.hero || heroPostsForCurrentCategory();
     if (!pool.length) { mount.innerHTML = ''; return; }
+
     const lead = pool[0];
-    const sides = pool.slice(1,3);
+    const sides = pool.slice(1, 3);
+    const supplemental = dedupePostsBySlug([
+      ...(layout.essential || []),
+      ...(layout.watch || [])
+    ]).filter(post => !pool.some(item => item.slug === post.slug)).slice(0, 2);
+
     const leadMeta = formatMeta(lead);
     mount.innerHTML = `
-      <div class="hero-grid">
-        <article class="hero-primary" onclick="openArticle('${escapeAttr(lead.slug)}')">
-          <img ${imageAttrs(lead,'eager')}>
-          <div class="hero-overlay"></div>
-          <div class="hero-content">
-            ${renderBadgeRow(lead, `<span class="meta-chip">${lead.source}</span>`)}
-            <h1 class="headline-xl" style="margin-bottom:12px;">${textFor(lead,'title')}</h1>
-            <p class="deck" style="max-width:700px;">${textFor(lead,'excerpt')}</p>
-            <div class="meta-row" style="margin-top:18px;"><span>${leadMeta.date}</span><span>${leadMeta.read}</span><span>${tr('clickToRead')}</span></div>
+      <section class="featured-package">
+        <div class="section-head">
+          <div>
+            <div class="section-title">${extraTr('visualLeadTitle')}</div>
+            <div class="section-kicker">${extraTr('visualLeadKicker')}</div>
           </div>
-        </article>
-        <div class="hero-side">
-          ${sides.map(post => {
-            const meta = formatMeta(post);
-            return `
-              <article class="hero-side-card" onclick="openArticle('${escapeAttr(post.slug)}')">
-                <img ${imageAttrs(post)}>
-                <div class="hero-overlay"></div>
-                <div class="hero-content">
-                  ${renderBadgeRow(post)}
-                  <h2 class="headline-lg">${textFor(post,'title')}</h2>
-                  <div class="meta-row" style="margin-top:10px;"><span>${meta.date}</span><span>${meta.read}</span></div>
-                </div>
-              </article>`;
-          }).join('')}
         </div>
-      </div>`;
+        <div class="hero-grid featured-hero-grid">
+          <article class="hero-primary" onclick="openArticle('${escapeAttr(lead.slug)}')">
+            <img ${imageAttrs(lead,'eager')}>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+              ${renderBadgeRow(lead, `<span class="meta-chip">${lead.source}</span>`)}
+              <h1 class="headline-xl" style="margin-bottom:12px;">${textFor(lead,'title')}</h1>
+              <p class="deck" style="max-width:700px;">${textFor(lead,'excerpt')}</p>
+              <div class="meta-row" style="margin-top:18px;"><span>${leadMeta.date}</span><span>${leadMeta.read}</span><span>${tr('clickToRead')}</span></div>
+            </div>
+          </article>
+          <div class="hero-side">
+            ${sides.map(post => {
+              const meta = formatMeta(post);
+              return `
+                <article class="hero-side-card" onclick="openArticle('${escapeAttr(post.slug)}')">
+                  <img ${imageAttrs(post)}>
+                  <div class="hero-overlay"></div>
+                  <div class="hero-content">
+                    ${renderBadgeRow(post)}
+                    <h2 class="headline-lg">${textFor(post,'title')}</h2>
+                    <div class="meta-row" style="margin-top:10px;"><span>${meta.date}</span><span>${meta.read}</span></div>
+                  </div>
+                </article>`;
+            }).join('')}
+          </div>
+        </div>
+        ${supplemental.length ? `
+          <div class="featured-secondary">
+            ${supplemental.map(post => visualCardMarkup(post, { compact: true })).join('')}
+          </div>` : ''}
+      </section>`;
   }
 
 
@@ -1067,37 +1086,7 @@ function visualCardMarkup(post, { compact = false } = {}) {
 
 function renderVisualStrip(layout = currentFrontLayout()) {
   const mount = document.getElementById('visualStrip');
-  if (!mount) return;
-  const source = dedupePostsBySlug([
-    ...(layout.hero || []),
-    ...(layout.essential || []),
-    ...(layout.watch || []),
-    ...(layout.latest || []),
-    ...(layout.trending || [])
-  ]).sort((a, b) => {
-    const score = visualPriority(b) - visualPriority(a);
-    if (score) return score;
-    return postTimestamp(b) - postTimestamp(a);
-  });
-  const picks = source.slice(0, 4);
-  if (!picks.length) {
-    mount.innerHTML = '';
-    return;
-  }
-  const [lead, ...rest] = picks;
-  mount.innerHTML = `
-    <section class="visual-shelf">
-      <div class="section-head">
-        <div>
-          <div class="section-title">${extraTr('visualLeadTitle')}</div>
-          <div class="section-kicker">${extraTr('visualLeadKicker')}</div>
-        </div>
-      </div>
-      <div class="visual-shelf-grid">
-        <div class="visual-shelf-lead">${visualCardMarkup(lead)}</div>
-        <div class="visual-shelf-rail">${rest.map(post => visualCardMarkup(post, { compact: true })).join('')}</div>
-      </div>
-    </section>`;
+  if (mount) mount.innerHTML = '';
 }
 
   function briefingStoryMarkup(post, { compact = false } = {}) {
@@ -1182,9 +1171,10 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     const layout = currentFrontLayout();
     renderHero(layout);
     renderVisualStrip(layout);
-    renderTopicNav('topicNav');
-    renderFrontBriefing(layout);
     document.getElementById('latestGrid').innerHTML = layout.latest.map(post => visualCardMarkup(post, { compact: true })).join('');
+    renderTopicNav('topicNav');
+    const frontBriefing = document.getElementById('frontBriefing');
+    if (frontBriefing) frontBriefing.innerHTML = '';
 
     const preprintMount = document.getElementById('preprintMount');
     if (layout.preprints.length) {
