@@ -1,0 +1,11 @@
+REPORT_FASE5.md
+scripts/fetch_news.py
+assets/css/main.css
+padroes/index.html
+en/standards/index.html
+noticia/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/index.html
+en/news/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/index.html
+noticia/sun-observing-satellite-uses-artificial-eclipse-to-capture-the-solar-wind/index.html
+en/news/sun-observing-satellite-uses-artificial-eclipse-to-capture-the-solar-wind/index.html
+noticia/cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso/index.html
+en/news/cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso/index.html

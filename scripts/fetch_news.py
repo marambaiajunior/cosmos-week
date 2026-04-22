@@ -4182,6 +4182,7 @@ def article_json_ld(
     return json.dumps(schema_graph, ensure_ascii=False)
 
 
+
 def render_static_article_page(post: dict, lang: str = 'pt') -> str:
     is_en = lang == 'en'
     labels = {
@@ -4198,17 +4199,42 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
         'source': 'Original source' if is_en else 'Fonte original',
         'context': 'Editorial context' if is_en else 'Contexto editorial',
         'language': 'English edition' if is_en else 'Edição em português',
-        'other_language': 'Ler em português' if is_en else 'Read in English',
+        'other_language': 'Read in Portuguese' if is_en else 'Read in English',
         'published': 'Published' if is_en else 'Publicado',
         'updated': 'Updated' if is_en else 'Atualizado',
         'home_url': f'{SITE_URL}?lang=en' if is_en else SITE_URL,
         'section': (_cat_field(post.get('cat') or ('Science' if is_en else 'Ciência'), 'en').capitalize() if is_en else sanitize_plain_text(post.get('cat') or 'Ciência')),
+        'breadcrumbs_home': 'Home' if is_en else 'Início',
+        'breadcrumbs_news': 'News' if is_en else 'Notícias',
+        'editorial_header': 'Editorial header' if is_en else 'Cabeçalho editorial',
+        'coverage_type': 'Coverage type' if is_en else 'Tipo de cobertura',
+        'evidence_level': 'Evidence level' if is_en else 'Nível de evidência',
+        'editorial_signature': 'Editorial signature' if is_en else 'Assinatura editorial',
+        'source_analysis': 'Source and framing' if is_en else 'Fonte e enquadramento',
+        'source_analysis_text': 'This box tells the reader what kind of source originated the story and how strongly the result should be interpreted.' if is_en else 'Este bloco informa ao leitor que tipo de fonte originou a matéria e quão forte deve ser a interpretação do resultado.',
+        'tools': 'Story tools' if is_en else 'Ferramentas da matéria',
+        'copy': 'Copy article link' if is_en else 'Copiar link da matéria',
+        'share': 'Share article' if is_en else 'Compartilhar matéria',
+        'copied': 'Link copied' if is_en else 'Link copiado',
+        'copy_fail': 'Copy failed' if is_en else 'Falha ao copiar',
+        'standards': 'Editorial standards' if is_en else 'Padrões editoriais',
+        'standards_blurb': 'How Cosmos Week labels sources, evidence levels and provisional claims.' if is_en else 'Como o Cosmos Week rotula fontes, níveis de evidência e resultados provisórios.',
+        'related': 'Related reading' if is_en else 'Leitura relacionada',
+        'related_empty': 'More related stories will appear here as the archive expands.' if is_en else 'Mais leituras relacionadas aparecerão aqui conforme o arquivo crescer.',
+        'body_label': 'Full story' if is_en else 'Texto completo',
+        'institutional_note': 'Original source cited and editorially framed by Cosmos Week.' if is_en else 'Fonte original citada e enquadrada editorialmente pelo Cosmos Week.',
+        'standards_cta': 'Read standards page' if is_en else 'Ler página de padrões',
+        'open_source_cta': 'Open source' if is_en else 'Abrir fonte',
+        'live_edition_note': 'Dynamic version keeps live navigation and the current homepage context.' if is_en else 'A versão dinâmica mantém navegação viva e o contexto mais recente da homepage.',
+        'read_time': 'Read time' if is_en else 'Leitura',
     }
 
     slug = collapse_ws(str(post.get('slug') or ''))
     canonical_url = article_static_url(slug, 'en' if is_en else 'pt')
     alternate_url = article_static_url(slug, 'pt' if is_en else 'en')
     dynamic_url = article_dynamic_url(slug, 'en' if is_en else 'pt')
+    standards_url = urllib.parse.urljoin(SITE_URL, 'en/standards/' if is_en else 'padroes/')
+    news_url = urllib.parse.urljoin(SITE_URL, 'en/' if is_en else '')
     title_value = post.get('title_en') if is_en else post.get('title_pt')
     title_raw = collapse_ws(title_value or post.get('title') or SITE_NAME)
     description_raw = article_meta_description(post, 'en' if is_en else 'pt')
@@ -4223,6 +4249,7 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
     source_url = collapse_ws(post.get('srcUrl') or '')
     source_note = sanitize_plain_text((post.get('sourceNote_en') if is_en else post.get('sourceNote_pt')) or post.get('sourceNote') or '')
     source_type_label = sanitize_plain_text((post.get('sourceTypeLabel_en') if is_en else post.get('sourceTypeLabel_pt')) or post.get('sourceTypeLabel') or '')
+    evidence_label = sanitize_plain_text((post.get('evidenceLabel_en') if is_en else post.get('evidenceLabel_pt')) or post.get('evidenceLabel') or '')
     body_html = sanitize_body_html((post.get('body_en') if is_en else post.get('body_pt')) or post.get('body') or '').strip()
     if not body_html:
         body_html = f'<p>{html.escape(description_raw)}</p>'
@@ -4284,7 +4311,7 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
             highlights.append(clean)
     highlights_html = ''
     if highlights:
-        highlights_html = '<section class="highlights"><h2>' + labels['highlights'] + '</h2><ul>' + ''.join(
+        highlights_html = '<section class="highlights editorial-panel"><h2>' + labels['highlights'] + '</h2><ul>' + ''.join(
             f'<li>{html.escape(item)}</li>' for item in highlights
         ) + '</ul></section>'
 
@@ -4294,20 +4321,13 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
     elif source_raw:
         source_html = f'<p class="source-link"><strong>{labels["source"]}:</strong> {html.escape(source_raw)}</p>'
 
-    meta_bits = [labels['author_meta']]
-    if date_raw or time_raw:
-        meta_bits.append(' '.join(bit for bit in [labels['published'], date_raw, time_raw] if bit))
-    if read_raw:
-        meta_bits.append(read_raw)
-    meta_line = ' • '.join(bit for bit in meta_bits if bit)
-
-    context_bits = [bit for bit in [source_type_label, source_note] if bit]
+    context_bits = [bit for bit in [source_type_label, evidence_label, source_note] if bit]
     context_html = ''
     if context_bits or source_url:
         body = ''.join(f'<p>{html.escape(bit)}</p>' for bit in context_bits)
         if source_url:
             body += f'<p><a href="{html_escape_attr(source_url)}" target="_blank" rel="noopener noreferrer">{labels["original"]}</a></p>'
-        context_html = f'<section class="context-box"><h2>{labels["context"]}</h2>{body}</section>'
+        context_html = f'<section class="context-box editorial-panel"><h2>{labels["context"]}</h2>{body}</section>'
 
     keywords = unique_keep_order((post.get('keywords_en') if is_en else post.get('keywords_pt')) or post.get('keywords') or [])
     article_tags = ''.join(
@@ -4331,132 +4351,326 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
         source_url,
     )
 
+    byline_bits = [
+        f'<div class="meta-chip"><span>{html.escape(labels["editorial_signature"])}</span><strong>{html.escape(labels["author"])}</strong></div>',
+        f'<div class="meta-chip"><span>{html.escape(labels["published"])}</span><strong>{html.escape(" ".join(bit for bit in [date_raw, time_raw] if bit) or (published_raw[:10] if published_raw else ""))}</strong></div>',
+        f'<div class="meta-chip"><span>{html.escape(labels["updated"])}</span><strong>{html.escape((modified_raw[:10] if modified_raw else ""))}</strong></div>' if modified_raw else '',
+        f'<div class="meta-chip"><span>{html.escape(labels["coverage_type"])}</span><strong>{html.escape(source_type_label or source_raw)}</strong></div>' if (source_type_label or source_raw) else '',
+        f'<div class="meta-chip"><span>{html.escape(labels["evidence_level"])}</span><strong>{html.escape(evidence_label)}</strong></div>' if evidence_label else '',
+        f'<div class="meta-chip"><span>{html.escape(labels["read_time"])}</span><strong>{html.escape(read_raw)}</strong></div>' if read_raw else '',
+    ]
+    byline_rows = ''.join(bit for bit in byline_bits if bit)
+
+    chips = [f'<span>{html.escape(labels["section"])}</span>', f'<span>{html.escape(labels["language"])}</span>']
+    if source_type_label:
+        chips.append(f'<span>{html.escape(source_type_label)}</span>')
+    if evidence_label:
+        chips.append(f'<span>{html.escape(evidence_label)}</span>')
+    section_lang_chip = ''.join(chips)
+
     page = f"""<!DOCTYPE html>
-<html lang=\"{labels['html_lang']}\">
+<html lang="{labels['html_lang']}">
 <head>
-  <meta charset=\"utf-8\">
-  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-  <meta name=\"theme-color\" content=\"#0d3a75\">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d3a75">
   <title>{html_escape_attr(title_raw)} | {SITE_NAME}</title>
-  <meta name=\"description\" content=\"{html_escape_attr(description_raw)}\">
-  <meta name=\"author\" content=\"{html_escape_attr(labels['author'])}\">
-  <meta name=\"robots\" content=\"index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1\">
-  <meta name=\"referrer\" content=\"strict-origin-when-cross-origin\">
-  <link rel=\"canonical\" href=\"{html_escape_attr(canonical_url)}\">
-  <link rel=\"alternate\" hreflang=\"pt-BR\" href=\"{html_escape_attr(article_static_url(slug, 'pt'))}\">
-  <link rel=\"alternate\" hreflang=\"en-US\" href=\"{html_escape_attr(article_static_url(slug, 'en'))}\">
-  <link rel=\"alternate\" hreflang=\"x-default\" href=\"{html_escape_attr(article_static_url(slug, 'pt'))}\">
-  <meta property=\"og:site_name\" content=\"{SITE_NAME}\">
-  <meta property=\"og:type\" content=\"article\">
-  <meta property=\"og:locale\" content=\"{labels['locale']}\">
-  <meta property=\"og:locale:alternate\" content=\"{labels['alt_locale']}\">
-  <meta property=\"og:title\" content=\"{html_escape_attr(title_raw)} | {SITE_NAME}\">
-  <meta property=\"og:description\" content=\"{html_escape_attr(description_raw)}\">
-  <meta property=\"og:url\" content=\"{html_escape_attr(canonical_url)}\">
-  <meta property=\"og:image\" content=\"{html_escape_attr(image_raw)}\">
-  <meta property=\"og:image:secure_url\" content=\"{html_escape_attr(image_raw)}\">
-  <meta property=\"og:image:alt\" content=\"{html_escape_attr(image_alt)}\">
-  <meta property=\"article:published_time\" content=\"{html_escape_attr(published_raw)}\">
-  <meta property=\"article:modified_time\" content=\"{html_escape_attr(modified_raw)}\">
-  <meta property=\"article:section\" content=\"{html_escape_attr(labels['section'])}\">
-{article_tags}  <meta name=\"twitter:card\" content=\"summary_large_image\">
-  <meta name=\"twitter:title\" content=\"{html_escape_attr(title_raw)} | {SITE_NAME}\">
-  <meta name=\"twitter:description\" content=\"{html_escape_attr(description_raw)}\">
-  <meta name=\"twitter:image\" content=\"{html_escape_attr(image_raw)}\">
-  <meta name=\"twitter:image:alt\" content=\"{html_escape_attr(image_alt)}\">
-  <script type=\"application/ld+json\">{json_ld}</script>
+  <meta name="description" content="{html_escape_attr(description_raw)}">
+  <meta name="author" content="{html_escape_attr(labels['author'])}">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="canonical" href="{html_escape_attr(canonical_url)}">
+  <link rel="alternate" hreflang="pt-BR" href="{html_escape_attr(article_static_url(slug, 'pt'))}">
+  <link rel="alternate" hreflang="en-US" href="{html_escape_attr(article_static_url(slug, 'en'))}">
+  <link rel="alternate" hreflang="x-default" href="{html_escape_attr(article_static_url(slug, 'pt'))}">
+  <meta property="og:site_name" content="{SITE_NAME}">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="{labels['locale']}">
+  <meta property="og:locale:alternate" content="{labels['alt_locale']}">
+  <meta property="og:title" content="{html_escape_attr(title_raw)} | {SITE_NAME}">
+  <meta property="og:description" content="{html_escape_attr(description_raw)}">
+  <meta property="og:url" content="{html_escape_attr(canonical_url)}">
+  <meta property="og:image" content="{html_escape_attr(image_raw)}">
+  <meta property="og:image:secure_url" content="{html_escape_attr(image_raw)}">
+  <meta property="og:image:alt" content="{html_escape_attr(image_alt)}">
+  <meta property="article:published_time" content="{html_escape_attr(published_raw)}">
+  <meta property="article:modified_time" content="{html_escape_attr(modified_raw)}">
+  <meta property="article:section" content="{html_escape_attr(labels['section'])}">
+{article_tags}  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{html_escape_attr(title_raw)} | {SITE_NAME}">
+  <meta name="twitter:description" content="{html_escape_attr(description_raw)}">
+  <meta name="twitter:image" content="{html_escape_attr(image_raw)}">
+  <meta name="twitter:image:alt" content="{html_escape_attr(image_alt)}">
+  <script type="application/ld+json">{json_ld}</script>
   <style>
     :root {{
-      --bg:#f7f5f0; --panel:#ffffff; --ink:#1a1917; --muted:#6b6760; --line:#dedad2;
-      --accent:#1451a0; --accent-dark:#0d3a75; --accent-soft:#eef4fc; --shadow:0 12px 36px rgba(0,0,0,.08);
+      --bg:#f6f3ed; --panel:#ffffff; --panel-soft:#fbfaf7; --ink:#181714; --muted:#615b55; --line:#ddd6cb;
+      --accent:#1451a0; --accent-dark:#0d3a75; --accent-soft:#eef4fc; --accent-ink:#133255; --shadow:0 14px 42px rgba(14,18,25,.08);
     }}
     * {{ box-sizing:border-box; }}
     html {{ scroll-behavior:smooth; -webkit-text-size-adjust:100%; }}
-    body {{ margin:0; background:var(--bg); color:var(--ink); font:18px/1.75 Georgia, 'Times New Roman', serif; text-rendering:optimizeLegibility; }}
+    body {{ margin:0; background:linear-gradient(180deg,#faf8f3 0%, #f5f2eb 100%); color:var(--ink); font:19px/1.85 Georgia, 'Times New Roman', serif; text-rendering:optimizeLegibility; }}
     img {{ max-width:100%; height:auto; }}
     a {{ color:var(--accent); text-decoration:none; }}
     a:hover {{ text-decoration:underline; }}
-    .skip-link {{ position:absolute; left:16px; top:-56px; z-index:20; padding:10px 14px; border-radius:8px; background:#fff; color:var(--ink); border:2px solid var(--accent); box-shadow:var(--shadow); font:600 13px/1.2 Arial, sans-serif; }}
+    .skip-link {{ position:absolute; left:16px; top:-56px; z-index:30; padding:10px 14px; border-radius:10px; background:#fff; color:var(--ink); border:2px solid var(--accent); box-shadow:var(--shadow); font:600 13px/1.2 Arial, sans-serif; }}
     .skip-link:focus-visible {{ top:16px; }}
-    a:focus-visible, button:focus-visible, [role=\"link\"]:focus-visible {{ outline:3px solid rgba(20,81,160,.28); outline-offset:3px; box-shadow:0 0 0 2px rgba(13,58,117,.12); }}
-    .wrap {{ max-width:900px; margin:0 auto; padding:28px 20px 64px; }}
+    a:focus-visible, button:focus-visible, [role="link"]:focus-visible {{ outline:3px solid rgba(20,81,160,.28); outline-offset:3px; box-shadow:0 0 0 2px rgba(13,58,117,.12); }}
+    .wrap {{ max-width:1240px; margin:0 auto; padding:28px 18px 72px; }}
     .top {{ display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:18px; font:600 12px/1.4 Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; }}
-    .brand {{ color:var(--accent-dark); }}
+    .brand {{ color:var(--accent-dark); letter-spacing:.12em; }}
     .utility-links {{ display:flex; gap:10px; flex-wrap:wrap; }}
     .pill-link {{ display:inline-flex; align-items:center; padding:8px 12px; border:1px solid var(--line); border-radius:999px; background:#fff; }}
-    .card {{ background:var(--panel); border:1px solid var(--line); box-shadow:var(--shadow); border-radius:20px; overflow:hidden; }}
-    .hero {{ width:100%; aspect-ratio:16/9; object-fit:cover; background:#ece8de; }}
+    .card {{ background:var(--panel); border:1px solid var(--line); box-shadow:var(--shadow); border-radius:24px; overflow:hidden; }}
+    .hero {{ width:100%; aspect-ratio:16/8.2; object-fit:cover; background:#ece8de; border-bottom:1px solid var(--line); }}
     main:focus {{ outline:none; }}
-    .content {{ padding:32px 30px; }}
-    .kicker-row {{ display:flex; flex-wrap:wrap; gap:10px; margin:0 0 16px; font:700 11px/1.2 Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; }}
-    .kicker-row span {{ display:inline-flex; align-items:center; padding:7px 11px; border-radius:999px; background:#eef4fc; color:var(--accent-dark); border:1px solid #d7e4f8; }}
-    h1 {{ font-size:clamp(2rem,4vw,3.1rem); line-height:1.08; margin:0 0 12px; }}
-    .dek {{ font-size:1.08rem; color:#2f2b26; margin:0 0 18px; max-width:760px; }}
-    .meta {{ color:var(--muted); font:500 13px/1.6 Arial, sans-serif; letter-spacing:.03em; text-transform:uppercase; margin-bottom:24px; }}
-    .body p {{ margin:0 0 1.25em; }}
+    .content {{ padding:28px 28px 34px; }}
+    .breadcrumbs {{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:0 0 18px; color:var(--muted); font:600 12px/1.4 Arial, sans-serif; letter-spacing:.04em; text-transform:uppercase; }}
+    .breadcrumbs .sep {{ opacity:.55; }}
+    .breadcrumbs a {{ color:var(--muted); }}
+    .kicker-row {{ display:flex; flex-wrap:wrap; gap:10px; margin:0 0 18px; font:700 11px/1.2 Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; }}
+    .kicker-row span {{ display:inline-flex; align-items:center; padding:8px 11px; border-radius:999px; background:#eef4fc; color:var(--accent-dark); border:1px solid #d7e4f8; }}
+    .hero-head {{ display:grid; gap:14px; margin-bottom:18px; }}
+    h1 {{ font-size:clamp(2.2rem,4vw,3.5rem); line-height:1.04; margin:0; max-width:980px; }}
+    .dek {{ font-size:1.12rem; color:#2f2b26; margin:0; max-width:820px; }}
+    .editorial-strap {{ display:inline-flex; align-items:center; gap:10px; flex-wrap:wrap; color:var(--accent-ink); font:700 13px/1.5 Arial, sans-serif; background:var(--accent-soft); border:1px solid #d6e4f9; padding:12px 14px; border-radius:16px; }}
+    .editorial-strap strong {{ color:var(--accent-dark); }}
+    .meta-grid {{ display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin:20px 0 28px; }}
+    .meta-chip {{ background:var(--panel-soft); border:1px solid var(--line); border-radius:16px; padding:12px 14px; min-height:78px; }}
+    .meta-chip span {{ display:block; color:var(--muted); font:600 11px/1.4 Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; margin-bottom:7px; }}
+    .meta-chip strong {{ display:block; font:600 15px/1.5 Arial, sans-serif; color:var(--ink); }}
+    .article-grid {{ display:grid; grid-template-columns:minmax(0,1fr) 320px; gap:28px; align-items:start; }}
+    .main-story {{ min-width:0; }}
+    .sidebar {{ display:grid; gap:18px; position:sticky; top:22px; }}
+    .editorial-panel {{ margin:0; padding:18px 18px 16px; border-radius:18px; background:var(--panel-soft); border:1px solid var(--line); box-shadow:0 10px 30px rgba(13,18,25,.04); }}
+    .editorial-panel h2 {{ margin:0 0 10px; font:700 1rem/1.3 Arial, sans-serif; color:var(--ink); }}
+    .editorial-panel p, .editorial-panel li {{ color:#2d2a26; font:400 15px/1.7 Arial, sans-serif; }}
+    .body-label {{ color:var(--muted); font:700 12px/1.3 Arial, sans-serif; letter-spacing:.1em; text-transform:uppercase; margin:0 0 14px; }}
+    .body {{ font-size:1.04em; max-width:70ch; }}
+    .body p {{ margin:0 0 1.28em; }}
+    .body blockquote {{ margin:1.4em 0; padding:0 0 0 18px; border-left:3px solid #cfdcf2; color:#2b3947; font-style:italic; }}
     .preview-video {{ margin:0 0 24px; }}
-    .preview-video-frame {{ position:relative; width:100%; aspect-ratio:16/9; border-radius:14px; overflow:hidden; background:#0b1220; }}
+    .preview-video-frame {{ position:relative; width:100%; aspect-ratio:16/9; border-radius:16px; overflow:hidden; background:#0b1220; }}
     .preview-video-frame iframe, .preview-video-frame video {{ width:100%; height:100%; border:0; display:block; }}
     .preview-video figcaption, .preview-inline-figure figcaption {{ color:var(--muted); font:400 14px/1.55 Arial, sans-serif; margin-top:8px; }}
-    .preview-gallery {{ display:grid; grid-template-columns:1fr; gap:18px; margin:24px 0 8px; }}
+    .preview-gallery {{ display:grid; grid-template-columns:1fr; gap:18px; margin:26px 0 0; }}
     .preview-inline-figure {{ margin:0; }}
-    .preview-inline-figure img {{ width:100%; border-radius:14px; display:block; background:#ece8de; }}
-    .highlights, .context-box {{ margin:26px 0; padding:18px 20px; border-radius:14px; background:var(--accent-soft); border:1px solid #d9e6f8; }}
-    .highlights h2, .context-box h2 {{ margin:0 0 10px; font:700 1rem/1.3 Arial, sans-serif; }}
+    .preview-inline-figure img {{ width:100%; border-radius:16px; display:block; background:#ece8de; }}
     .highlights ul {{ margin:0; padding-left:20px; }}
     .highlights li {{ margin:0 0 8px; }}
-    .context-box p {{ margin:0 0 10px; font:400 15px/1.65 Arial, sans-serif; }}
-    .context-box p:last-child {{ margin-bottom:0; }}
     .source-link {{ margin-top:22px; color:#333; font:400 15px/1.6 Arial, sans-serif; }}
+    .story-tools {{ display:grid; gap:10px; }}
+    .story-tool-btn, .story-link-btn {{ display:inline-flex; align-items:center; justify-content:center; width:100%; min-height:44px; padding:12px 14px; border-radius:999px; border:1px solid var(--line); background:#fff; color:var(--ink); font:600 14px/1.2 Arial, sans-serif; cursor:pointer; text-align:center; }}
+    .story-tool-btn.primary, .story-link-btn.primary {{ background:var(--accent); color:#fff; border-color:var(--accent); }}
+    .story-tool-status {{ color:var(--muted); font:500 12px/1.4 Arial, sans-serif; min-height:18px; }}
+    .related-list {{ display:grid; gap:12px; }}
+    .related-item {{ display:block; padding:14px 14px 12px; border:1px solid var(--line); border-radius:16px; background:#fff; }}
+    .related-item:hover {{ text-decoration:none; border-color:#c9d8ee; box-shadow:0 8px 24px rgba(20,81,160,.08); }}
+    .related-kicker {{ color:var(--accent-dark); font:700 11px/1.3 Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; margin-bottom:6px; }}
+    .related-title {{ color:var(--ink); font:700 15px/1.4 Arial, sans-serif; margin-bottom:4px; }}
+    .related-meta {{ color:var(--muted); font:500 12px/1.5 Arial, sans-serif; }}
     .footer-links {{ display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; font:600 14px/1.4 Arial, sans-serif; }}
     .btn {{ display:inline-flex; align-items:center; justify-content:center; padding:12px 16px; border-radius:999px; border:1px solid var(--line); background:#fff; }}
     .btn.primary {{ background:var(--accent); color:#fff; border-color:var(--accent); }}
+    .article-footer-note {{ margin-top:14px; color:var(--muted); font:500 13px/1.6 Arial, sans-serif; }}
+    @media (max-width: 980px) {{
+      .article-grid {{ grid-template-columns:1fr; }}
+      .sidebar {{ position:static; order:2; }}
+      .body {{ max-width:none; }}
+      .meta-grid {{ grid-template-columns:repeat(2,minmax(0,1fr)); }}
+    }}
+    @media (max-width: 640px) {{
+      body {{ font-size:17px; }}
+      .content {{ padding:22px 16px 28px; }}
+      .wrap {{ padding:16px 12px 44px; }}
+      .top {{ align-items:flex-start; }}
+      .meta-grid {{ grid-template-columns:1fr; }}
+      .hero {{ aspect-ratio:16/10; }}
+      .story-tool-btn, .story-link-btn {{ width:100%; }}
+    }}
     @media (prefers-reduced-motion: reduce) {{
       html {{ scroll-behavior:auto; }}
       *, *::before, *::after {{ animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; scroll-behavior:auto !important; }}
     }}
-    @media (max-width: 640px) {{
-      body {{ font-size:17px; }}
-      .content {{ padding:24px 18px; }}
-      .wrap {{ padding:18px 14px 44px; }}
-      .top {{ align-items:flex-start; }}
-    }}
   </style>
 </head>
 <body>
-  <a class=\"skip-link\" href=\"#articleMain\">{'Skip to main content' if is_en else 'Pular para o conteúdo principal'}</a>
-  <main class=\"wrap\" id=\"articleMain\" tabindex=\"-1\">
-    <div class=\"top\">
-      <div class=\"brand\">Cosmos Week</div>
-      <div class=\"utility-links\">
-        <a class=\"pill-link\" href=\"{html_escape_attr(labels['home_url'])}\">{labels['back']}</a>
-        <a class=\"pill-link\" href=\"{html_escape_attr(alternate_url)}\">{labels['other_language']}</a>
+  <a class="skip-link" href="#articleMain">{'Skip to main content' if is_en else 'Pular para o conteúdo principal'}</a>
+  <main class="wrap" id="articleMain" tabindex="-1">
+    <div class="top">
+      <div class="brand">Cosmos Week</div>
+      <div class="utility-links">
+        <a class="pill-link" href="{html_escape_attr(labels['home_url'])}">{labels['back']}</a>
+        <a class="pill-link" href="{html_escape_attr(alternate_url)}">{labels['other_language']}</a>
       </div>
     </div>
-    <article class=\"card\">
-      <img class=\"hero\" src=\"{html_escape_attr(image_raw)}\" alt=\"{html_escape_attr(image_alt)}\" loading=\"eager\" fetchpriority=\"high\" decoding=\"async\" referrerpolicy=\"no-referrer\">
-      <div class=\"content\">
-        <div class=\"kicker-row\">
+    <article class="card" data-article-slug="{html_escape_attr(slug)}" data-article-category="{html_escape_attr(post.get('cat') or '')}" data-article-lang="{'en' if is_en else 'pt'}" data-article-url="{html_escape_attr(canonical_url)}">
+      <img class="hero" src="{html_escape_attr(image_raw)}" alt="{html_escape_attr(image_alt)}" loading="eager" fetchpriority="high" decoding="async" referrerpolicy="no-referrer">
+      <div class="content">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="{html_escape_attr(labels['home_url'])}">{html.escape(labels['breadcrumbs_home'])}</a>
+          <span class="sep">/</span>
+          <a href="{html_escape_attr(news_url)}">{html.escape(labels['breadcrumbs_news'])}</a>
+          <span class="sep">/</span>
           <span>{html.escape(labels['section'])}</span>
-          <span>{labels['language']}</span>
-          {f'<span>{html.escape(source_type_label)}</span>' if source_type_label else ''}
+        </nav>
+
+        <div class="hero-head">
+          <div class="kicker-row">{section_lang_chip}</div>
+          <h1>{html.escape(title_raw)}</h1>
+          <p class="dek">{html.escape(description_raw)}</p>
+          <div class="editorial-strap"><strong>{html.escape(labels['institutional_note'])}</strong> {html.escape(source_raw or labels['author'])}</div>
         </div>
-        <h1>{html.escape(title_raw)}</h1>
-        <p class=\"dek\">{html.escape(description_raw)}</p>
-        <p class=\"meta\">{html.escape(meta_line)}</p>
-        {video_html}
-        {highlights_html}
-        <div class=\"body\">{body_html}</div>
-        {inline_gallery_html}
-        {context_html}
-        {source_html}
-        <div class=\"footer-links\">
-          <a class=\"btn primary\" href=\"{html_escape_attr(labels['home_url'])}\">{labels['home']}</a>
-          <a class=\"btn\" href=\"{html_escape_attr(dynamic_url)}\">{labels['dynamic']}</a>
+
+        <div class="meta-grid">{byline_rows}</div>
+
+        <div class="article-grid">
+          <div class="main-story">
+            {video_html}
+            {highlights_html}
+            <div class="body-label">{html.escape(labels['body_label'])}</div>
+            <div class="body">{body_html}</div>
+            {inline_gallery_html}
+            {source_html}
+            <div class="footer-links">
+              <a class="btn primary" href="{html_escape_attr(labels['home_url'])}">{labels['home']}</a>
+              <a class="btn" href="{html_escape_attr(dynamic_url)}">{labels['dynamic']}</a>
+            </div>
+            <p class="article-footer-note">{html.escape(labels['live_edition_note'])}</p>
+          </div>
+
+          <aside class="sidebar" aria-label="{html_escape_attr(labels['editorial_header'])}">
+            <section class="editorial-panel">
+              <h2>{html.escape(labels['source_analysis'])}</h2>
+              <p>{html.escape(labels['source_analysis_text'])}</p>
+              <div class="meta-grid" style="grid-template-columns:1fr; margin:14px 0 0; gap:10px;">
+                <div class="meta-chip"><span>{html.escape(labels['coverage_type'])}</span><strong>{html.escape(source_type_label or source_raw or SITE_NAME)}</strong></div>
+                <div class="meta-chip"><span>{html.escape(labels['evidence_level'])}</span><strong>{html.escape(evidence_label or source_type_label or labels['author'])}</strong></div>
+                <div class="meta-chip"><span>{html.escape(labels['source'])}</span><strong>{html.escape(source_raw or canonical_url)}</strong></div>
+              </div>
+            </section>
+            {context_html}
+            <section class="editorial-panel">
+              <h2>{html.escape(labels['tools'])}</h2>
+              <div class="story-tools">
+                <button class="story-tool-btn" id="copyArticleLink" type="button">{html.escape(labels['copy'])}</button>
+                <button class="story-tool-btn primary" id="shareArticleBtn" type="button">{html.escape(labels['share'])}</button>
+                {f'<a class="story-link-btn" href="{html_escape_attr(source_url)}" target="_blank" rel="noopener noreferrer">{html.escape(labels["open_source_cta"])}</a>' if source_url else ''}
+              </div>
+              <div class="story-tool-status" id="storyToolStatus" aria-live="polite"></div>
+            </section>
+            <section class="editorial-panel">
+              <h2>{html.escape(labels['standards'])}</h2>
+              <p>{html.escape(labels['standards_blurb'])}</p>
+              <a class="story-link-btn" href="{html_escape_attr(standards_url)}">{html.escape(labels['standards_cta'])}</a>
+            </section>
+            <section class="editorial-panel">
+              <h2>{html.escape(labels['related'])}</h2>
+              <div class="related-list" id="relatedStories"><p class="related-meta">{html.escape(labels['related_empty'])}</p></div>
+            </section>
+          </aside>
         </div>
       </div>
     </article>
   </main>
+  <script>
+    (function() {{
+      const canonicalUrl = {json.dumps(canonical_url)};
+      const sourceUrl = {json.dumps(source_url)};
+      const articleSlug = {json.dumps(slug)};
+      const articleCat = {json.dumps(post.get('cat') or '')};
+      const articleSourceType = {json.dumps(post.get('sourceType') or '')};
+      const articleSource = {json.dumps(post.get('source') or '')};
+      const isEnglish = {str(is_en).lower()};
+      const copyBtn = document.getElementById('copyArticleLink');
+      const shareBtn = document.getElementById('shareArticleBtn');
+      const statusEl = document.getElementById('storyToolStatus');
+      const relatedEl = document.getElementById('relatedStories');
+      const labels = {{
+        copied: {json.dumps(labels['copied'])},
+        copyFail: {json.dumps(labels['copy_fail'])},
+        relatedEmpty: {json.dumps(labels['related_empty'])},
+      }};
+
+      function setStatus(text) {{
+        if (statusEl) statusEl.textContent = text || '';
+      }}
+
+      async function copyLink() {{
+        try {{
+          await navigator.clipboard.writeText(canonicalUrl);
+          setStatus(labels.copied);
+        }} catch (err) {{
+          setStatus(labels.copyFail);
+        }}
+      }}
+
+      async function shareArticle() {{
+        try {{
+          if (navigator.share) {{
+            await navigator.share({{ title: document.title, text: document.title, url: canonicalUrl }});
+            setStatus('');
+            return;
+          }}
+        }} catch (err) {{
+          if (err && err.name === 'AbortError') return;
+        }}
+        await copyLink();
+      }}
+
+      if (copyBtn) copyBtn.addEventListener('click', copyLink);
+      if (shareBtn) shareBtn.addEventListener('click', shareArticle);
+
+      function pickUrl(item) {{
+        return isEnglish ? (item.shareUrl_en || item.canonicalUrl_en || item.realUrl_en || item.shareUrl) : (item.shareUrl_pt || item.canonicalUrl_pt || item.realUrl_pt || item.shareUrl || item.canonicalUrl);
+      }}
+
+      function pickTitle(item) {{
+        return isEnglish ? (item.title_en || item.title || '') : (item.title_pt || item.title || '');
+      }}
+
+      function pickRead(item) {{
+        return isEnglish ? (item.read_en || item.read || '') : (item.read_pt || item.read || '');
+      }}
+
+      function renderRelated(items) {{
+        if (!relatedEl) return;
+        if (!items.length) {{
+          relatedEl.innerHTML = '<p class="related-meta">' + labels.relatedEmpty + '</p>';
+          return;
+        }}
+        relatedEl.innerHTML = items.map((item) => {{
+          const url = pickUrl(item) || '#';
+          const title = pickTitle(item);
+          const meta = [item.cat || '', isEnglish ? (item.date_en || item.date || '') : (item.date_pt || item.date || ''), pickRead(item)].filter(Boolean).join(' · ');
+          const coverage = isEnglish ? (item.sourceTypeLabel_en || item.sourceTypeLabel || '') : (item.sourceTypeLabel_pt || item.sourceTypeLabel || '');
+          return '<a class="related-item" href="' + url + '"><div class="related-kicker">' + (coverage || (item.cat || '')) + '</div><div class="related-title">' + title + '</div><div class="related-meta">' + meta + '</div></a>';
+        }}).join('');
+      }}
+
+      fetch('/assets/data/posts-index.json', {{ credentials: 'omit' }})
+        .then((response) => response.ok ? response.json() : [])
+        .then((items) => Array.isArray(items) ? items : [])
+        .then((items) => {{
+          const ranked = items
+            .filter((item) => item && item.slug && item.slug !== articleSlug)
+            .map((item) => {{
+              let score = 0;
+              if ((item.cat || '') === articleCat) score += 6;
+              if ((item.sourceType || '') === articleSourceType) score += 2;
+              if ((item.source || '') === articleSource) score += 1;
+              if (sourceUrl && (item.srcUrl || '') === sourceUrl) score += 1;
+              if (item.featured) score += 1;
+              return {{ item, score }};
+            }})
+            .sort((a, b) => (b.score - a.score) || String(b.item.publishedIso || '').localeCompare(String(a.item.publishedIso || '')))
+            .slice(0, 3)
+            .map((entry) => entry.item);
+          renderRelated(ranked);
+        }})
+        .catch(() => renderRelated([]));
+    }})();
+  </script>
 </body>
 </html>
 """
