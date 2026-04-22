@@ -276,12 +276,12 @@ const RUNTIME_BASE_PATH = (() => {
   }
 
   let DB = hydrateArchive(window.postsData || []);
-  let currentLang = localStorage.getItem('cw_lang') === 'en' ? 'en' : 'pt';
+  let currentLang = document.documentElement.lang && document.documentElement.lang.toLowerCase().startsWith('en') ? 'en' : (localStorage.getItem('cw_lang') === 'en' ? 'en' : 'pt');
   try {
     const _params = new URLSearchParams(window.location.search);
     const _path = window.location.pathname || '';
-    if ((_params.get('lang') || '').toLowerCase() === 'en' || /^\/en\/news\/[^\/]+\/?$/i.test(_path)) currentLang = 'en';
-    if ((_params.get('lang') || '').toLowerCase() === 'pt' || /^\/noticia\/[^\/]+\/?$/i.test(_path)) currentLang = 'pt';
+    if ((_params.get('lang') || '').toLowerCase() === 'en' || /^\/en(?:\/|$)/i.test(_path)) currentLang = 'en';
+    if ((_params.get('lang') || '').toLowerCase() === 'pt' || /^\/noticia\/[^\/]+\/?$/i.test(_path) || /^\/(arquivo|sobre|padroes)\/?$/i.test(_path)) currentLang = 'pt';
   } catch (err) {}
   let currentPage = 'home';
   let currentArticleSlug = null;
@@ -429,8 +429,46 @@ const RUNTIME_BASE_PATH = (() => {
     };
   }
 
+  const CATEGORY_SLUGS = {
+    all: 'all',
+    'Astronomia': 'astronomia',
+    'Cosmologia': 'cosmologia',
+    'Astrofísica': 'astrofisica',
+    'Exoplanetas': 'exoplanetas',
+    'Física': 'fisica',
+    'Biologia': 'biologia',
+    'Química': 'quimica',
+    'Ciências da Terra': 'ciencias-da-terra'
+  };
+
+  function categoryToSlug(category = 'all') {
+    return CATEGORY_SLUGS[category] || 'all';
+  }
+
+  function slugToCategory(slug = 'all') {
+    const normalized = normalizarTexto(String(slug || '').replace(/_/g, '-')).replace(/[^a-z0-9-]/g, '');
+    const found = Object.entries(CATEGORY_SLUGS).find(([, value]) => value === normalized);
+    return found ? found[0] : 'all';
+  }
+
+  function runtimePagePath(page, lang = currentLang) {
+    const table = {
+      pt: { home: '/', archive: '/arquivo/', about: '/sobre/', standards: '/padroes/' },
+      en: { home: '/en/', archive: '/en/archive/', about: '/en/about/', standards: '/en/standards/' }
+    };
+    const bucket = lang === 'en' ? 'en' : 'pt';
+    if (page === 'search') return `${table[bucket].home}?page=busca`;
+    return (table[bucket] && table[bucket][page]) || table[bucket].home;
+  }
+
+  function archivePathForCategory(category = 'all', lang = currentLang) {
+    const base = runtimePagePath('archive', lang);
+    const slug = categoryToSlug(category);
+    return slug === 'all' ? base : `${base}?categoria=${encodeURIComponent(slug)}`;
+  }
+
   function getURLForArticle(post) {
-    return withLanguageParam(`${SITE.runtimeBasePath}?article=${encodeURIComponent(post.slug)}`);
+    return getShareURLForArticle(post);
   }
 
   function getRealURLForArticle(post) {
@@ -450,23 +488,21 @@ const RUNTIME_BASE_PATH = (() => {
     return currentLang === 'en' ? urls.en : urls.pt;
   }
 
-  function pageUrl(page) {
-    const map = { archive:'?page=arquivo', about:'?page=sobre', standards:'?page=padroes', search:'?page=busca' };
-    return withLanguageParam(`${SITE.runtimeBasePath}${map[page] || ''}`);
+  function pageUrl(page, lang = currentLang) {
+    return runtimePagePath(page, lang);
   }
 
-  function canonicalPageUrl(page) {
-    const map = { archive:'?page=arquivo', about:'?page=sobre', standards:'?page=padroes', search:'?page=busca' };
-    return withLanguageParam(`${SITE.canonicalBaseUrl}${map[page] || ''}`);
+  function canonicalPageUrl(page, lang = currentLang) {
+    return new URL(runtimePagePath(page, lang), SITE.canonicalBaseUrl).toString();
   }
 
   function auxiliaryPageHref(kind, lang = currentLang) {
     const table = {
-      pt: { advertise: 'anuncie.html', mediaKit: 'media-kit.html', privacy: 'politica-de-privacidade.html', terms: 'termos-de-uso.html' },
-      en: { advertise: 'en/advertise/', mediaKit: 'en/media-kit/', privacy: 'en/privacy/', terms: 'en/terms/' }
+      pt: { advertise: '/anuncie.html', mediaKit: '/media-kit.html', privacy: '/politica-de-privacidade.html', terms: '/termos-de-uso.html' },
+      en: { advertise: '/en/advertise/', mediaKit: '/en/media-kit/', privacy: '/en/privacy/', terms: '/en/terms/' }
     };
     const selected = table[lang === 'en' ? 'en' : 'pt'];
-    return selected[kind] || 'index.html';
+    return selected[kind] || runtimePagePath('home', lang);
   }
 
   function syncAuxiliaryLinks() {
@@ -845,13 +881,13 @@ const RUNTIME_BASE_PATH = (() => {
               const count = cat === 'all' ? DB.length : (counts[cat] || 0);
               const label = cat === 'all' ? tr('allCategories') : prettyCategory(cat);
               return `
-                <button class="briefing-topic-card" onclick="setCategory('${escapeAttr(cat)}')">
+                <a class="briefing-topic-card" href="${archivePathForCategory(cat)}">
                   <div>
                     <div class="briefing-topic-name">${label}</div>
                     <div class="briefing-topic-copy">${topicDescriptor(cat)}</div>
                   </div>
                   <span class="briefing-topic-count">${count}</span>
-                </button>`;
+                </a>`;
             }).join('')}
           </div>
         </div>
@@ -955,9 +991,9 @@ const RUNTIME_BASE_PATH = (() => {
     const mount = document.getElementById('quickLinks');
     if (!mount) return;
     mount.innerHTML = `
-      <button class="sidebar-action" onclick="openPage('archive')">${tr('quickArchive')}</button>
-      <a class="sidebar-action" href="feed.xml" target="_blank" rel="noopener">${tr('quickRSS')}</a>
-      <button class="sidebar-action" onclick="openPage('standards')">${tr('quickStandards')}</button>
+      <a class="sidebar-action" href="${pageUrl('archive')}">${tr('quickArchive')}</a>
+      <a class="sidebar-action" href="/feed.xml" target="_blank" rel="noopener">${tr('quickRSS')}</a>
+      <a class="sidebar-action" href="${pageUrl('standards')}">${tr('quickStandards')}</a>
       <button class="sidebar-action" onclick="focusSearch()">${tr('quickSearch')}</button>`;
   }
 
@@ -1044,8 +1080,11 @@ const RUNTIME_BASE_PATH = (() => {
     const posts = currentCategory==='all' ? DB : DB.filter(p=>p.cat===currentCategory);
     document.getElementById('archiveList').innerHTML = posts.map(compactMarkup).join('');
     document.getElementById('archiveKicker').textContent = currentLang === 'en'
-      ? `${posts.length} stories currently available. New updates are preserved inside the archive instead of replacing older entries.`
-      : `${posts.length} matérias disponíveis. Novas atualizações são preservadas no arquivo.`;
+      ? `${posts.length} stories currently available. New updates remain in the archive instead of erasing older coverage.`
+      : `${posts.length} matérias disponíveis. Novas atualizações permanecem no arquivo, sem apagar a cobertura anterior.`;
+    document.querySelectorAll('.filter-chip[data-cat]').forEach(link => {
+      link.classList.toggle('is-active', (link.dataset.cat || 'all') === currentCategory);
+    });
     markNav('archive'); activatePage('archive'); updateMetaStatic('archive');
   }
 
@@ -1734,18 +1773,32 @@ const RUNTIME_BASE_PATH = (() => {
   }
 
   function openPage(page) {
-    if (page === 'archive')   { safeReplaceState(pageUrl('archive'));   renderArchive(); }
-    else if (page === 'about')     { safeReplaceState(pageUrl('about'));     renderAbout(); }
-    else if (page === 'standards') { safeReplaceState(pageUrl('standards')); renderStandards(); }
-    else goHome();
+    const target = pageUrl(page);
+    if (!target) return goHome();
+    if (window.location.pathname === target && !window.location.search) {
+      if (page === 'archive') renderArchive();
+      else if (page === 'about') renderAbout();
+      else if (page === 'standards') renderStandards();
+      else renderHome();
+      return;
+    }
+    window.location.href = target;
   }
 
-  function goHome() { safeReplaceState(pageUrl('home')); renderHome(); }
+  function goHome() {
+    const target = pageUrl('home');
+    if (window.location.pathname === target && !window.location.search) {
+      safeReplaceState(target);
+      renderHome();
+      return;
+    }
+    window.location.href = target;
+  }
 
   function openArticle(slug) {
     const post = DB.find(item => item.slug === slug);
-    if (post) safePushState(getURLForArticle(post));
-    renderArticle(slug);
+    if (!post) return;
+    window.location.href = getURLForArticle(post);
   }
 
   function handleSearchInput(value) {
@@ -1767,11 +1820,18 @@ const RUNTIME_BASE_PATH = (() => {
   }
 
   function setLanguage(lang) {
-    currentLang = lang === 'en' ? 'en' : 'pt';
-    localStorage.setItem('cw_lang', currentLang);
-    applyUIStrings();
-    rerenderCurrentView();
-    syncCurrentRouteUrl();
+    const targetLang = lang === 'en' ? 'en' : 'pt';
+    localStorage.setItem('cw_lang', targetLang);
+    if (currentPage === 'article' && currentArticleSlug) {
+      const post = DB.find(item => item.slug === currentArticleSlug);
+      if (post) {
+        const alternates = articleAlternateUrls(post);
+        window.location.href = targetLang === 'en' ? alternates.en : alternates.pt;
+        return;
+      }
+    }
+    const destination = ['archive','about','standards'].includes(currentPage) ? currentPage : 'home';
+    window.location.href = pageUrl(destination, targetLang);
   }
 
   function applyUIStrings() {
@@ -2226,17 +2286,21 @@ const RUNTIME_BASE_PATH = (() => {
     const params = new URLSearchParams(window.location.search);
     const article = params.get('article');
     const page = params.get('page');
-    const path = window.location.pathname || '';
+    const path = window.location.pathname || '/';
+    const normalizedPath = path.replace(/\/index\.html$/i, '/').replace(/\/$/, '') || '/';
     const pathMatchPt = path.match(/^\/noticia\/([^\/]+)\/?$/i);
     const pathMatchEn = path.match(/^\/en\/news\/([^\/]+)\/?$/i);
     const articleFromPath = pathMatchEn ? decodeURIComponent(pathMatchEn[1]) : (pathMatchPt ? decodeURIComponent(pathMatchPt[1]) : '');
-    if ((params.get('lang') || '').toLowerCase() === 'en' || pathMatchEn) currentLang = 'en';
-    if ((params.get('lang') || '').toLowerCase() === 'pt' || pathMatchPt) currentLang = 'pt';
+    if ((params.get('lang') || '').toLowerCase() === 'en' || /^\/en(?:\/|$)/i.test(path) || pathMatchEn) currentLang = 'en';
+    if ((params.get('lang') || '').toLowerCase() === 'pt' || /^\/(arquivo|sobre|padroes)(?:\/|$)/i.test(path) || pathMatchPt || normalizedPath === '/') currentLang = 'pt';
+    const categoryParam = params.get('categoria') || params.get('category');
+    currentCategory = categoryParam ? slugToCategory(categoryParam) : 'all';
     if (article) { renderArticle(article); return; }
     if (articleFromPath) { renderArticle(articleFromPath); return; }
+    if (normalizedPath === '/arquivo' || normalizedPath === '/en/archive') { renderArchive(); return; }
+    if (normalizedPath === '/sobre' || normalizedPath === '/en/about' || page==='sobre')   { renderAbout();   return; }
+    if (normalizedPath === '/padroes' || normalizedPath === '/en/standards' || page==='padroes') { renderStandards(); return; }
     if (page==='arquivo') { renderArchive(); return; }
-    if (page==='sobre')   { renderAbout();   return; }
-    if (page==='padroes') { renderStandards(); return; }
     renderHome();
   }
 
