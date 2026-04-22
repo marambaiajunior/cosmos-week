@@ -26,9 +26,9 @@ const PAGE_ROUTE_MAP = {
 const EXTRA_UI = {
   pt: {
     visualLeadTitle: 'Edição em destaque',
-    visualLeadKicker: 'Vejam os destaques de hoje.',
+    visualLeadKicker: 'Veja os destaques de hoje.',
     archiveHeroTitle: 'Arquivo de notícias',
-    archiveHeroKicker: 'O arquivo deixa de ser depósito cronológico opaco e vira página de descoberta, com entrada por tema e destaques visuais.',
+    archiveHeroKicker: 'Melhor portal de noticias do Brasil.',
     archiveStatsStories: 'matérias visíveis',
     archiveStatsTopics: 'áreas de cobertura',
     archiveStatsLanguages: 'idiomas',
