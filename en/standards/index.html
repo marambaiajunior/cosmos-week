@@ -1,61 +1,319 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#0d3a75">
-  <meta name="referrer" content="strict-origin-when-cross-origin">
-  <title>Editorial standards | Cosmos Week</title>
-  <meta name="description" content="Methodology, transparency rules and editorial safeguards for Cosmos Week.">
-  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
-  <link rel="canonical" href="https://www.cosmosweek.com/en/standards/">
-  <link rel="alternate" hreflang="pt-BR" href="https://www.cosmosweek.com/padroes/">
-  <link rel="alternate" hreflang="en-US" href="https://www.cosmosweek.com/en/standards/">
-  <link rel="alternate" hreflang="x-default" href="https://www.cosmosweek.com/">
-  <meta property="og:site_name" content="Cosmos Week">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:locale:alternate" content="pt_BR">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Editorial standards | Cosmos Week">
-  <meta property="og:description" content="Methodology, transparency rules and editorial safeguards for Cosmos Week.">
-  <meta property="og:url" content="https://www.cosmosweek.com/en/standards/">
-  <meta property="og:image" content="https://www.cosmosweek.com/assets/og-default.jpg">
-  <meta property="og:image:alt" content="Cosmos Week">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Editorial standards | Cosmos Week">
-  <meta name="twitter:description" content="Methodology, transparency rules and editorial safeguards for Cosmos Week.">
-  <meta name="twitter:image" content="https://www.cosmosweek.com/assets/og-default.jpg">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MX20J1ZG06"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    gtag('consent', 'default', {analytics_storage:'denied', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied', wait_for_update:500});
+    gtag('consent', 'default', {
+      analytics_storage: 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      wait_for_update: 500
+    });
     try {
-      const consent = localStorage.getItem('cw_cookie_consent');
-      const full = consent === 'full';
-      const analyticsOn = consent === 'full' || consent === 'analytics' || consent === 'granted';
-      if (analyticsOn) gtag('consent', 'update', {
-        analytics_storage:'granted',
-        ad_storage: full ? 'granted' : 'denied',
-        ad_user_data: full ? 'granted' : 'denied',
-        ad_personalization: full ? 'granted' : 'denied'
-      });
-    } catch(e) {}
+      const _c = localStorage.getItem('cw_cookie_consent');
+      if (_c === 'full') {
+        gtag('consent', 'update', { analytics_storage:'granted', ad_storage:'granted', ad_user_data:'granted', ad_personalization:'granted' });
+      } else if (_c === 'analytics') {
+        gtag('consent', 'update', { analytics_storage:'granted', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied' });
+      }
+    } catch (e) {}
     gtag('js', new Date());
     gtag('config', 'G-MX20J1ZG06', { anonymize_ip: true });
+    window.CW_BOOTSTRAP = { page: 'standards', lang: 'en', rootPath: '/' };
   </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0d3a75">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="description" content="Cosmos Week editorial standards: methodology, source transparency and safeguards against institutional noise.">
+  <meta property="og:title" content="Editorial standards — Cosmos Week">
+  <meta property="og:description" content="Cosmos Week editorial standards: methodology, source transparency and safeguards against institutional noise.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.cosmosweek.com/assets/og-default.jpg">
+  <meta property="og:image:alt" id="ogImageAltMeta" content="Cosmos Week">
+  <meta property="og:url" content="https://www.cosmosweek.com/en/standards/">
+  <meta property="og:locale" id="ogLocaleMeta" content="en_US">
+  <meta property="og:locale:alternate" id="ogLocaleAlternateMeta" content="pt_BR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Editorial standards — Cosmos Week">
+  <meta name="twitter:description" content="Cosmos Week editorial standards: methodology, source transparency and safeguards against institutional noise.">
+  <meta name="twitter:image" content="https://www.cosmosweek.com/assets/og-default.jpg">
+  <meta name="twitter:image:alt" id="twitterImageAltMeta" content="Cosmos Week">
+  <meta name="author" id="authorMeta" content="Cosmos Week Editorial Desk">
+  <meta name="robots" id="robotsMeta" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta name="news_keywords" id="newsKeywordsMeta" content="astronomia, astrofísica, cosmologia, ciência">
+  <meta property="og:site_name" content="Cosmos Week">
+  <meta property="article:published_time" id="articlePublishedMeta" content="">
+  <meta property="article:modified_time" id="articleModifiedMeta" content="">
+  <meta property="article:section" id="articleSectionMeta" content="">
+  <link rel="canonical" id="canonicalLink" href="https://www.cosmosweek.com/en/standards/">
+  <link rel="preload" as="image" href="https://www.cosmosweek.com/assets/og-default.jpg" fetchpriority="high">
+  <link rel="alternate" hreflang="pt-BR" id="alternatePtLink" href="https://www.cosmosweek.com/padroes/">
+  <link rel="alternate" hreflang="en-US" id="alternateEnLink" href="https://www.cosmosweek.com/en/standards/">
+  <link rel="alternate" hreflang="x-default" id="alternateDefaultLink" href="https://www.cosmosweek.com/padroes/">
+  <link rel="alternate" type="application/rss+xml" title="Cosmos Week RSS" href="/feed.xml">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7289727408346815" crossorigin="anonymous"></script>
+  <title>Editorial standards — Cosmos Week</title>
+  <script type="application/ld+json" id="siteJsonLd">{"@context":"https://schema.org","@type":"WebSite","name":"Cosmos Week","url":"https://www.cosmosweek.com/en/standards/","description":"Cosmos Week editorial standards: methodology, source transparency and safeguards against institutional noise."}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/main.css">
-</head><body>
-  <a class="skip-link" href="#mainContent">Skip to main content</a>
+  <meta name="apple-itunes-app" content="app-id=6759013786">
+</head>
+<body data-cw-page="standards" data-cw-lang="en">
+  <a class="skip-link" href="#mainContent">Pular para o conteúdo principal</a>
   <div id="readingProgress"></div>
-  <div class="topbar"><div class="topbar-inner"><div id="topbarCopy">A <strong>science news</strong> desk built for continuity, evidence and cleaner navigation.</div><div id="lastUpdatedLabel">Update: editorial architecture phase 2</div></div></div>
+
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div id="topbarCopy">A <strong>science journalism</strong> portal built around continuous coverage, editorial writing and rigorous reporting.</div>
+      <div id="lastUpdatedLabel">Atualização: aguardando feed</div>
+    </div>
+  </div>
+
   <header class="site-header">
     <div class="header-inner">
-      <a class="logo" href="/en/" style="text-decoration:none;"><div class="logo-title">Cosmos<em>Week</em></div><div class="logo-sub" id="logoSub">Science journalism</div></a>
-      <nav class="main-nav" id="mainNav" aria-label="Primary navigation"><a class="nav-link" id="navHome" href="/en/">Home</a><a class="nav-link" id="navArchive" href="/en/archive/">Archive</a><a class="nav-link" id="navAbout" href="/en/about/">About</a><a class="nav-link on" id="navStandards" href="/en/standards/">Standards</a></nav>
-      <div class="header-tools"><div class="lang-switch" aria-label="Select language"><a href="/">PT</a><a class="on" href="/en/">EN</a></div><a class="social-icon-link" href="https://www.instagram.com/cosmos_week/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="5.2" ry="5.2"/><path d="M17.5 6.5h.01"/><circle cx="12" cy="12" r="4.25"/></svg></a><a class="ghost-btn" href="/en/archive/">Archive</a><a class="ghost-btn" href="/en/advertise/" id="adsBtn">Advertise</a></div>
+      <a class="logo" href="/en/" onclick="event.preventDefault(); goHome()">
+        <div class="logo-title">Cosmos<em>Week</em></div>
+        <div class="logo-sub" id="logoSub">Science journalism</div>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+        <a class="nav-link" id="navHome" href="/en/" onclick="event.preventDefault(); goHome()">Início</a>
+        <a class="nav-link" id="navArchive" href="/en/archive/" onclick="event.preventDefault(); openPage('archive')">Arquivo</a>
+        <a class="nav-link" id="navAbout" href="/en/about/" onclick="event.preventDefault(); openPage('about')">Sobre</a>
+        <a class="nav-link" id="navStandards" href="/en/standards/" onclick="event.preventDefault(); openPage('standards')">Padrões</a>
+      </nav>
+
+      <div class="header-tools">
+        <label class="searchbox" aria-label="Buscar artigos">
+          <input id="searchInput" type="text" placeholder="Search stories, topics or sources..." oninput="handleSearchInput(this.value)">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </label>
+        <div class="lang-switch" aria-label="Selecionar idioma">
+          <a id="langPt" href="https://www.cosmosweek.com/padroes/" onclick="event.preventDefault(); setLanguage('pt')">🇧🇷</a>
+          <a id="langEn" href="https://www.cosmosweek.com/en/standards/" onclick="event.preventDefault(); setLanguage('en')">🇺🇸</a>
+        </div>
+        <a class="social-icon-link" href="https://www.instagram.com/cosmos_week/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="5.2" ry="5.2"/><path d="M17.5 6.5h.01"/><circle cx="12" cy="12" r="4.25"/></svg>
+        </a>
+        <a class="ghost-btn" href="/en/standards/" onclick="event.preventDefault(); openPage('standards')" id="methodBtn">Metodologia</a>
+        <a class="ghost-btn" href="/en/advertise/" id="adsBtn" style="display:inline-flex;align-items:center;justify-content:center;">Anuncie</a>
+        <button class="primary-btn" type="button" id="updateBtn" onclick="refreshFeed()">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.13-3.36L23 10"/><path d="M20.49 15a9 9 0 0 1-14.13 3.36L1 14"/></svg>
+          <span id="updateBtnLabel">Atualizar</span>
+        </button>
+      </div>
     </div>
-  </header><main class="wrap" id="mainContent" tabindex="-1"><div class="breadcrumb"><a href="/en/">Home</a><span>·</span><span>Editorial standards</span></div><section class="page-hero"><div class="page-eyebrow">Editorial standards</div><h1 class="page-title">How Cosmos Week tries not to confuse science reporting with science marketing.</h1><p class="page-lead">This page lays out source labeling, preprint treatment, automation boundaries, corrections policy and the separation between editorial work and commercial inventory.</p></section><section class="institution-grid"><article class="institution-card"><h2>1. Real source labeling</h2><p>Readers should be able to understand whether a story comes from a peer-reviewed paper, a preprint, an institutional release, an observatory or reporting work by another outlet.</p></article><article class="institution-card"><h2>2. Preprints are provisional</h2><p>Preprints can be covered, but never as closed verdicts. The label changes the caution level the text owes the reader.</p></article><article class="institution-card"><h2>3. Context before hype</h2><p>A story should answer three questions in order: what happened, why it matters and what remains uncertain.</p></article><article class="institution-card"><h2>4. Automation with guardrails</h2><p>Automation may speed up triage and page structure. It must not erase the difference between editorial judgment and institutional messaging.</p></article><article class="institution-card"><h2>5. Visible corrections</h2><p>Meaningful factual corrections should be traceable. When a correction changes interpretation, that shift deserves explicit disclosure.</p></article><article class="institution-card"><h2>6. Sponsored content disclosure</h2><p>Advertising and sponsorship should be labeled. Commercial presence does not entitle anyone to blur the line between journalism, release and paid messaging.</p></article></section><section class="section-band" style="margin-top:30px;"><div class="info-grid"><article class="info-card"><h2>Practical commitments</h2><ul><li>link to primary sources whenever possible;</li><li>avoid headlines that overstate certainty;</li><li>distinguish discovery, hypothesis, simulation and observational confirmation;</li><li>treat uncertainty as information, not as decorative drama.</li></ul></article><article class="info-card"><h2>Related pages</h2><div class="card-link-row"><a class="text-link-chip" href="/en/about/">About the project</a><a class="text-link-chip" href="/en/archive/">Editorial archive</a></div></article></div></section></main>  <footer class="site-footer"><div class="footer-inner"><div class="footer-grid"><div class="footer-brand"><div class="logo-title" style="font-family:var(--serif);font-size:26px;">Cosmos<em style="font-style:normal;color:var(--accent-2);">Week</em></div><p class="deck small" id="footerDescription">Science journalism with sustained archive logic and clearer editorial framing.</p></div><div><div class="footer-title" id="footerNavTitle">Navigation</div><div class="footer-links"><a href="/en/" id="footerHome">Home</a><a href="/en/archive/" id="footerArchive">Archive</a><a href="/en/about/" id="footerAbout">About</a><a href="/en/standards/" id="footerStandards">Editorial standards</a><a href="/en/advertise/" id="footerAdvertise">Advertise</a><a href="/en/media-kit/" id="footerMediaKit">Media kit</a></div></div><div><div class="footer-title" id="footerSourcesTitle">Transparency</div><div class="footer-links"><a href="/feed.xml" target="_blank" rel="noopener" id="footerFeed">Site RSS</a><a href="/sitemap.xml" target="_blank" rel="noopener" id="footerSitemap">Sitemap</a><a href="/en/privacy/" id="footerPrivacy">Privacy policy</a><a href="/en/terms/" id="footerTerms">Terms of use</a><a href="/en/standards/" id="footerCorrections">Corrections and methodology</a></div></div></div><div class="footer-bottom"><span id="footerBottomLeft">© 2026 Cosmos Week</span><span id="footerBottomCenter">Science coverage with context, caveats and source transparency.</span><span><a href="/" style="color:inherit;">Versão em português</a></span></div></div></footer></body></html>
+
+    <div class="ticker">
+      <div class="ticker-badge" id="tickerBadge">Destaques</div>
+      <div class="ticker-viewport"><div class="ticker-track" id="tickerTrack"></div></div>
+    </div>
+
+    <div class="catbar">
+      <div class="catbar-inner" id="catbarInner">
+        <button class="cat-pill on" data-cat="all" onclick="setCategory('all',this)">Todas</button>
+        <button class="cat-pill" data-cat="Astronomia" onclick="setCategory('Astronomia',this)">Astronomia</button>
+        <button class="cat-pill" data-cat="Cosmologia" onclick="setCategory('Cosmologia',this)">Cosmologia</button>
+        <button class="cat-pill" data-cat="Astrofísica" onclick="setCategory('Astrofísica',this)">Astrofísica</button>
+        <button class="cat-pill" data-cat="Exoplanetas" onclick="setCategory('Exoplanetas',this)">Exoplanetas</button>
+        <button class="cat-pill" data-cat="Física" onclick="setCategory('Física',this)">Física</button>
+        <button class="cat-pill" data-cat="Biologia" onclick="setCategory('Biologia',this)">Biologia</button>
+        <button class="cat-pill" data-cat="Química" onclick="setCategory('Química',this)">Química</button>
+        <button class="cat-pill" data-cat="Ciências da Terra" onclick="setCategory('Ciências da Terra',this)">Ciências da Terra</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap" id="mainContent" tabindex="-1">
+    <div id="adSlotLeaderboard" class="ad-slot ad-slot--leaderboard" aria-hidden="true"></div>
+
+    <noscript>
+      <div class="noscript-message">
+        <strong>JavaScript está desativado.</strong> O Cosmos Week usa uma camada dinâmica para montar a grade editorial. Você ainda pode usar o <a href="/sitemap.xml">sitemap</a>, o <a href="/feed.xml">RSS</a> e as rotas principais do portal.
+      </div>
+    </noscript>
+
+    <section class="page active" id="pageHome">
+      <h1 class="visually-hidden" id="homePageTitle">Cosmos Week scientific news portal</h1>
+      <div id="heroMount"></div>
+      <div id="visualStrip"></div>
+      <div id="topicNav"></div>
+      <div class="story-layout">
+        <div>
+          <div class="section-head" id="latestSectionHead">
+            <div>
+              <div class="section-title" id="latestSectionTitle">Últimas publicações</div>
+              <div class="section-kicker" id="latestSectionKicker">Cobertura recente organizada para leitura rápida, sem perder contexto editorial.</div>
+            </div>
+            <a class="section-link" href="/en/archive/" onclick="event.preventDefault(); openPage('archive')" id="archiveLinkTop">Ver arquivo completo</a>
+          </div>
+          <div class="story-grid" id="latestGrid"></div>
+          <div class="preprint-grid" id="preprintMount"></div>
+        </div>
+
+        <aside class="sidebar">
+          <div id="adSlotSidebar" class="ad-slot ad-slot--sidebar" aria-hidden="true"></div>
+          <div class="widget">
+            <div class="widget-head"><div class="widget-title" id="trendingWidgetTitle">Em alta</div></div>
+            <div class="widget-list" id="trendingList"></div>
+          </div>
+          <div class="widget">
+            <div class="widget-head"><div class="widget-title" id="latestUpdatesTitle">Últimas atualizações</div></div>
+            <div class="widget-list sidebar-story-list" id="latestUpdates"></div>
+          </div>
+          <div class="widget">
+            <div class="widget-head"><div class="widget-title" id="sourceMixTitle">Mapa editorial</div></div>
+            <div class="widget-body"><div id="sourceMix"></div></div>
+          </div>
+          <div class="widget">
+            <div class="widget-head"><div class="widget-title" id="quickLinksTitle">Acesso rápido</div></div>
+            <div class="widget-body"><div class="sidebar-actions" id="quickLinks"></div></div>
+          </div>
+          <div class="widget">
+            <div class="widget-head"><div class="widget-title" id="archivePicksTitle">Do arquivo</div></div>
+            <div class="widget-list sidebar-story-list" id="archivePicks"></div>
+          </div>
+        </aside>
+      </div>
+      <div class="front-briefing" id="frontBriefing"></div>
+    </section>
+
+    <section class="page" id="pageArticle"></section>
+
+    <section class="page" id="pageArchive">
+      <div class="archive-hero">
+        <div class="section-head" style="margin-bottom:18px;">
+          <div>
+            <div class="section-title" id="archiveTitle">Editorial archive</div>
+            <div class="section-kicker" id="archiveKicker">Every story currently available in the editorial archive.</div>
+          </div>
+        </div>
+        <div class="archive-summary" id="archiveSummary"></div>
+        <div class="archive-status" id="archiveStatus"></div>
+        <div id="archiveTopicNav"></div>
+        <div class="section-head section-head--soft">
+          <div>
+            <div class="section-title">Archive selection</div>
+            <div class="section-kicker">A visual entry point into the portal archive.</div>
+          </div>
+        </div>
+        <div class="archive-highlights" id="archiveHighlights"></div>
+      </div>
+      <div class="section-head section-head--soft" style="margin-top:10px;">
+        <div>
+          <div class="section-title">All stories</div>
+          <div class="section-kicker">Continuous listing for the current selection.</div>
+        </div>
+      </div>
+      <div class="compact-list" id="archiveList"></div>
+    </section>
+
+    <section class="page" id="pageAbout"></section>
+    <section class="page" id="pageStandards"></section>
+
+    <section class="page" id="pageSearch">
+      <div class="section-head">
+        <div>
+          <div class="section-title" id="searchTitle">Search</div>
+          <div class="section-kicker results-info" id="searchInfo"></div>
+        </div>
+      </div>
+      <div class="story-grid" id="searchGrid"></div>
+      <div class="search-empty hidden" id="searchEmpty"></div>
+    </section>
+  </main>
+
+  <aside class="rigsync-float" id="rigsyncBanner" aria-label="Espaço patrocinado">
+    <button class="rigsync-float__close" id="rigsyncBannerClose" type="button" aria-label="Fechar anúncio">×</button>
+    <a class="rigsync-float__logo" href="https://apps.apple.com/br/app/rigsync-calendar/id6759013786" target="_blank" rel="noopener sponsored" aria-label="Abrir anúncio patrocinado">
+      <img src="/assets/rigsync-calendar-badge.png" alt="Logo do anúncio patrocinado" width="52" height="52" loading="lazy">
+    </a>
+    <div class="rigsync-float__copy">
+      <div class="rigsync-float__eyebrow" id="rigsyncBannerEyebrow">Espaço patrocinado</div>
+      <div class="rigsync-float__title" id="rigsyncBannerTitle">Sua marca aqui</div>
+      <div class="rigsync-float__text" id="rigsyncBannerText">Este espaço está pronto para receber o link e a mensagem de um patrocinador.</div>
+    </div>
+    <a class="rigsync-float__cta" id="rigsyncBannerCta" href="#" target="_blank" rel="noopener sponsored" aria-label="Abrir anúncio patrocinado">Anunciar</a>
+  </aside>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-title" style="font-family:var(--serif);font-size:26px;">Cosmos<em style="font-style:normal;color:var(--accent-2);">Week</em></div>
+          <p class="deck small" id="footerDescription">Portuguese-first science journalism with editorial writing across astronomy, physics and frontier research.</p>
+          <div class="footer-socials">
+            <a class="social-icon-link" href="https://www.instagram.com/cosmos_week/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="5.2" ry="5.2"/><path d="M17.5 6.5h.01"/><circle cx="12" cy="12" r="4.25"/></svg>
+            </a>
+            <span class="footer-social-label">Instagram</span>
+          </div>
+          <div class="newsletter-compact">
+            <div class="footer-title" id="newsletterTitle">Newsletter</div>
+            <p class="newsletter-copy" id="newsletterDescription">Get Cosmos Week editorial highlights in your inbox.</p>
+            <form class="newsletter-form" id="newsletterForm" onsubmit="handleNewsletterSubmit(event)" novalidate>
+              <label class="sr-only" for="newsletterEmail" id="newsletterLabel">Your email</label>
+              <input class="newsletter-input" type="email" id="newsletterEmail" name="email" autocomplete="email" inputmode="email" placeholder="Your email" required>
+              <button class="primary-btn" type="submit" id="newsletterButton">Subscribe</button>
+            </form>
+            <div class="newsletter-note" id="newsletterNote">No spam. Only relevant editorial updates.</div>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-title" id="footerNavTitle">Navigation</div>
+          <div class="footer-links">
+            <a href="/en/" onclick="event.preventDefault(); goHome()" id="footerHome">Início</a>
+            <a href="/en/archive/" onclick="event.preventDefault(); openPage('archive')" id="footerArchive">Arquivo</a>
+            <a href="/en/about/" onclick="event.preventDefault(); openPage('about')" id="footerAbout">Sobre</a>
+            <a href="/en/standards/" onclick="event.preventDefault(); openPage('standards')" id="footerStandards">Padrões editoriais</a>
+            <a href="/en/advertise/" id="footerAdvertise">Anuncie</a>
+            <a href="/en/media-kit/" id="footerMediaKit">Media kit</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-title" id="footerSourcesTitle">Transparency</div>
+          <div class="footer-links">
+            <a href="/feed.xml" target="_blank" rel="noopener" id="footerFeed">Portal RSS</a>
+            <a href="/sitemap.xml" target="_blank" rel="noopener" id="footerSitemap">Sitemap</a>
+            <a href="/en/privacy/" id="footerPrivacy">Privacy policy</a>
+            <a href="/en/terms/" id="footerTerms">Terms of use</a>
+            <a href="/en/standards/" onclick="event.preventDefault(); openPage('standards')" id="footerCorrections">Corrections and methodology</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span id="footerBottomLeft">© 2026 Cosmos Week</span>
+        <span id="footerBottomCenter">Science reporting built around context, hierarchy of information and evidence.</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+
+  <div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Aviso de cookies">
+    <div class="cookie-copy">
+      <div class="cookie-title" id="cookieTitle">Privacy</div>
+      <div class="cookie-text" id="cookieText">We use analytics to measure audience and may show advertising in the future. You can accept everything, allow analytics only or decline. Details are in the <a href="/en/privacy/" id="cookiePolicyLink">privacy policy</a>.</div>
+    </div>
+    <div class="cookie-actions">
+      <button class="ghost-btn" type="button" id="cookieDenyBtn" onclick="setCookieConsent('denied')">Decline</button>
+      <button class="ghost-btn" type="button" id="cookieAnalyticsBtn" onclick="setCookieConsent('analytics')">Analytics only</button>
+      <button class="primary-btn" type="button" id="cookieAcceptBtn" onclick="setCookieConsent('full')">Accept all</button>
+    </div>
+  </div>
+
+  <script src="/giscus-config.js" defer></script>
+  <script src="/posts.js" defer></script>
+  <script src="/assets/js/app.js" defer></script>
+  <script type="application/json" id="cw-inline-app-disabled">{"status":"externalized-to-assets-js-app-js"}</script>
+</body>
+</html>

@@ -1,60 +1,36 @@
 # REPORT_FASE2.md
 
-## Objetivo da fase
-Consolidar a arquitetura de navegação e a estrutura editorial do front-end do Cosmos Week sem entrar ainda em redesign visual premium. O foco foi transformar a home em entrada editorial de verdade, dar rota própria ao arquivo, criar páginas institucionais explícitas e organizar a base PT/EN com componentes reutilizáveis de navegação.
+## 1. Objetivo da fase
 
-## Resumo do que mudou na arquitetura
-- A navegação principal passou a apontar para rotas reais, não apenas para seções escondidas dentro da homepage.
-- Foram criadas páginas dedicadas para:
-  - `/arquivo/`
-  - `/sobre/`
-  - `/padroes/`
-  - `/en/`
-  - `/en/archive/`
-  - `/en/about/`
-  - `/en/standards/`
-- A homepage foi reorganizada para apresentar o portal como produto editorial, com mapa do portal, entradas institucionais e ligação mais clara com o arquivo.
-- O arquivo ganhou URL própria e filtro compartilhável por área de cobertura via query string.
-- A estrutura PT/EN ganhou simetria mínima viável, melhorando consistência de navegação, discoverability e SEO técnico.
+A Fase 2 reorganiza o Cosmos Week como portal de notícias científicas com navegação profissional. O foco foi arquitetura editorial, descoberta de conteúdo, páginas institucionais e estrutura bilíngue PT/EN, sem tentar empurrar o redesign visual final antes da hora.
 
-## Melhorias aplicadas nesta fase
-1. **Home redefinida como hub editorial**
-   - inclusão de hero institucional da edição
-   - bloco “Mapa do portal”
-   - cards de destinos editoriais
-   - reforço da ligação entre home, arquivo, sobre e padrões
+## 2. Resumo do que mudou na arquitetura
 
-2. **Menu principal reestruturado**
-   - links reais para Home, Arquivo, Sobre e Padrões
-   - mesma lógica replicada em PT e EN
-   - footer alinhado à nova arquitetura
+- criação de rotas limpas para home, arquivo, sobre e padrões em PT e EN;
+- atualização do menu principal e do alternador de idioma para apontar para páginas reais;
+- homepage com hierarquia mais visual, menos textual na primeira dobra;
+- arquivo promovido a página editorial com destaques, métricas e navegação por tema;
+- páginas institucionais reescritas com navegação contextual;
+- componente de mapa temático reutilizado entre home e arquivo;
+- carregamento do acervo completo pelo `all_posts.json`, preservando compatibilidade com a base da Fase 1.
 
-3. **Arquivo de notícias promovido a área principal**
-   - página `/arquivo/` criada como destino próprio
-   - página `/en/archive/` criada como espelho
-   - filtros por cobertura com URLs compartilháveis
-   - suporte em `assets/js/app.js` para reconhecer rota e categoria
+## 3. Melhorias desta fase
 
-4. **Páginas institucionais essenciais criadas/reescritas**
-   - `/sobre/`
-   - `/padroes/`
-   - `/en/about/`
-   - `/en/standards/`
+- `/`, `/arquivo/`, `/sobre/`, `/padroes/`
+- `/en/`, `/en/archive/`, `/en/about/`, `/en/standards/`
+- cards visuais adicionais na home
+- filtro temático mais claro
+- arquivo com destaques visuais e listagem contínua
+- páginas institucionais com escopo editorial e metodologia
+- sincronização PT/EN de navegação, canonical e alternates
+- manutenção das rotas existentes de notícia
 
-5. **Componentes reutilizáveis de navegação**
-   - header consistente
-   - footer consistente
-   - breadcrumbs
-   - cards de destino editorial
-   - filtros reutilizáveis do arquivo
-   - classes novas em `assets/css/main.css` para páginas estruturais
+## 4. Justificativa técnica e editorial
 
-6. **Compatibilidade preservada com a Fase 1**
-   - home continua usando `posts.js` + `assets/js/app.js`
-   - dados e artigos existentes foram preservados
-   - estrutura anterior de conteúdo não foi refeita do zero
+A navegação anterior ainda tratava a homepage como centro absoluto. Isso limita descoberta, confunde a arquitetura e enfraquece o arquivo. Nesta fase, a navegação foi distribuída em rotas claras e a homepage passou a funcionar como capa visual, enquanto o arquivo assumiu o papel de acervo navegável. É o tipo de ajuste que parece óbvio depois de pronto, o que só prova o quanto a web adora insistir em soluções piores.
 
-## Arquivos alterados/criados nesta fase
+## 5. Arquivos completos gerados
+
 - `index.html`
 - `arquivo/index.html`
 - `sobre/index.html`
@@ -63,23 +39,14 @@ Consolidar a arquitetura de navegação e a estrutura editorial do front-end do 
 - `en/archive/index.html`
 - `en/about/index.html`
 - `en/standards/index.html`
-- `assets/css/main.css`
 - `assets/js/app.js`
+- `assets/css/main.css`
+- `REPORT_FASE2.md`
 
-## Justificativa técnica e editorial
-A Fase 1 estabilizou base, performance inicial e organização crítica. A Fase 2 precisava resolver o próximo gargalo: o site ainda se comportava editorialmente como uma homepage centralizadora demais, com páginas institucionais pouco visíveis e rotas dependentes de lógica de SPA. Isso enfraquecia navegação, descoberta de conteúdo, compartilhamento de URLs e legibilidade estrutural do produto.
+## 6. O que fica para a Fase 3
 
-A solução adotada foi conservadora no visual e agressiva na arquitetura:
-- rotas estáveis
-- páginas institucionais explícitas
-- arquivo promovido a eixo do produto
-- simetria PT/EN mínima porém profissional
-- JS atualizado para reconhecer rotas reais e filtros por categoria
-
-## O que fica para a Fase 3
-- refinamento visual mais sofisticado
-- glassmorphism premium e acabamento visual final
-- design system mais refinado
-- tipografia e hierarquia visual de nível internacional
-- evolução do arquivo com paginação, ordenação e busca editorial mais avançada
-- melhoria do fluxo de leitura entre home, arquivo e artigos
+- refinamento visual premium
+- glassmorphism final e acabamento de marca
+- microinterações mais sofisticadas
+- tipografia e espaçamento com tratamento mais autoral
+- possíveis aprimoramentos finos de SEO e UX por matéria

@@ -17,6 +17,123 @@ const RUNTIME_BASE_PATH = (() => {
     homeDescriptionEn: 'Science journalism portal focused on astronomy, astrophysics, cosmology and frontier research.'
   };
 
+
+const PAGE_ROUTE_MAP = {
+  pt: { home: '/', archive: '/arquivo/', about: '/sobre/', standards: '/padroes/', search: '/' },
+  en: { home: '/en/', archive: '/en/archive/', about: '/en/about/', standards: '/en/standards/', search: '/en/' }
+};
+
+const EXTRA_UI = {
+  pt: {
+    visualLeadTitle: 'Edição em destaque',
+    visualLeadKicker: 'A homepage passa a abrir com prioridade visual. Imagens e vídeos puxam a atenção; o aprofundamento fica dentro da matéria.',
+    archiveHeroTitle: 'Arquivo de notícias',
+    archiveHeroKicker: 'O arquivo deixa de ser depósito cronológico opaco e vira página de descoberta, com entrada por tema e destaques visuais.',
+    archiveStatsStories: 'matérias visíveis',
+    archiveStatsTopics: 'áreas de cobertura',
+    archiveStatsLanguages: 'idiomas',
+    archiveLoading: 'Expandindo o arquivo completo...',
+    archiveLoaded: 'Arquivo completo carregado.',
+    archiveNoItems: 'Nenhuma matéria encontrada nesta área no momento.',
+    topicNavTitle: 'Navegue por tema',
+    topicNavKicker: 'Escolha a porta de entrada editorial antes de cair no fluxo cronológico.',
+    localNavAbout: 'Sobre',
+    localNavStandards: 'Padrões',
+    localNavArchive: 'Arquivo',
+    aboutEyebrow: 'Institucional',
+    aboutHeadline: 'Cosmos Week como portal de notícias científicas, não como espelho automático de releases',
+    aboutIntro2: 'A arquitetura desta fase reorganiza navegação, arquivo e páginas institucionais para leitura editorial real.',
+    aboutCards: [
+      { title: 'Missão editorial', body: 'Cobrir ciência com hierarquia de informação, contexto e distinção visível entre anúncio institucional, paper revisado, jornalismo científico e preprint.' },
+      { title: 'Arquitetura de descoberta', body: 'A navegação agora privilegia home, arquivo e temas persistentes. O leitor não depende apenas de uma fila cronológica.' },
+      { title: 'Estrutura bilíngue', body: 'Português e inglês ganham rotas limpas próprias para home, arquivo e páginas institucionais.' },
+      { title: 'Prioridade visual', body: 'Na tela principal, cards visuais puxam a atenção. Texto mais longo fica dentro da notícia, onde faz sentido.' }
+    ],
+    aboutChecklistTitle: 'Compromissos desta fase',
+    aboutChecklist: [
+      'home com hierarquia editorial mais clara',
+      'arquivo com destaque visual e navegação por tema',
+      'páginas institucionais com propósito definido',
+      'compatibilidade com a base estabilizada na fase anterior'
+    ],
+    standardsEyebrow: 'Método',
+    standardsHeadline: 'Padrões editoriais visíveis na arquitetura, não escondidos no rodapé',
+    standardsIntro2: 'Menos ruído institucional, menos espetáculo vazio, mais rastreabilidade do que está sendo publicado.',
+    standardsCards2: [
+      { title: 'Fonte identificada', body: 'A origem do material continua visível e integrada aos cards e às matérias.' },
+      { title: 'Preprint tratado como provisório', body: 'Resultados sem revisão por pares entram com aviso explícito, sem maquiagem de certeza.' },
+      { title: 'Home para chamar atenção, artigo para aprofundar', body: 'A capa favorece entrada visual e escaneabilidade. O contexto denso fica concentrado dentro da matéria.' },
+      { title: 'Arquivo como produto editorial', body: 'O acervo deixa de ser sobra da home e passa a funcionar como página central de descoberta.' },
+      { title: 'Rotas limpas PT/EN', body: 'A experiência institucional e de navegação usa caminhos reais em português e inglês.' },
+      { title: 'Componentes reutilizáveis', body: 'Header, navegação principal, faixa temática, widgets laterais e navegação contextual passam a ser reutilizados.' }
+    ],
+    standardsWorkflowTitle: 'Fluxo editorial resumido',
+    standardsWorkflow: [
+      'triagem e curadoria do material disponível',
+      'seleção de home com peso visual e relevância científica',
+      'preservação do acervo no arquivo, sem apagar cobertura anterior',
+      'sinalização de tipo de fonte, maturidade e contexto'
+    ],
+    visualLabelVideo: 'Vídeo',
+    visualLabelGallery: 'Galeria'
+  },
+  en: {
+    visualLeadTitle: 'Featured edition',
+    visualLeadKicker: 'The homepage now opens with visual priority. Images and video do the grabbing; the deeper reading happens inside each story.',
+    archiveHeroTitle: 'News archive',
+    archiveHeroKicker: 'The archive stops behaving like an opaque chronological dump and becomes a discovery page with topical entry points and visual highlights.',
+    archiveStatsStories: 'visible stories',
+    archiveStatsTopics: 'coverage areas',
+    archiveStatsLanguages: 'languages',
+    archiveLoading: 'Loading the complete archive...',
+    archiveLoaded: 'Complete archive loaded.',
+    archiveNoItems: 'No stories found in this area right now.',
+    topicNavTitle: 'Browse by topic',
+    topicNavKicker: 'Choose the editorial doorway before falling into the chronological stream.',
+    localNavAbout: 'About',
+    localNavStandards: 'Standards',
+    localNavArchive: 'Archive',
+    aboutEyebrow: 'Institutional',
+    aboutHeadline: 'Cosmos Week as a science news portal, not as an automatic release mirror',
+    aboutIntro2: 'This phase reorganizes navigation, archive and institutional pages for actual editorial reading.',
+    aboutCards: [
+      { title: 'Editorial mission', body: 'Cover science with information hierarchy, context and visible distinction between institutional announcement, peer-reviewed paper, science reporting and preprint.' },
+      { title: 'Discovery architecture', body: 'Navigation now privileges home, archive and persistent topics. Readers are no longer trapped in a single chronological rail.' },
+      { title: 'Bilingual structure', body: 'Portuguese and English now have clean dedicated routes for home, archive and institutional pages.' },
+      { title: 'Visual priority', body: 'On the main screen, visual cards pull attention first. Longer text is saved for inside the story.' }
+    ],
+    aboutChecklistTitle: 'Commitments in this phase',
+    aboutChecklist: [
+      'homepage with clearer editorial hierarchy',
+      'archive with visual highlights and topical entry points',
+      'institutional pages with defined roles',
+      'compatibility with the stabilized base from the previous phase'
+    ],
+    standardsEyebrow: 'Method',
+    standardsHeadline: 'Editorial standards visible in the architecture, not buried in the footer',
+    standardsIntro2: 'Less institutional noise, less empty spectacle, more traceability around what is being published.',
+    standardsCards2: [
+      { title: 'Source identified', body: 'The source remains visible and integrated into cards and stories.' },
+      { title: 'Preprints treated as provisional', body: 'Non-peer-reviewed results enter with explicit warnings rather than fake certainty.' },
+      { title: 'Homepage to attract, article to deepen', body: 'The front page favors visual entry and scanability. Dense context lives inside the story.' },
+      { title: 'Archive as editorial product', body: 'The collection stops being residue from the homepage and becomes a central discovery page.' },
+      { title: 'Clean PT/EN routes', body: 'Institutional and navigation experiences now use real Portuguese and English paths.' },
+      { title: 'Reusable components', body: 'Header, main navigation, topical strip, sidebar widgets and contextual navigation are reused.' }
+    ],
+    standardsWorkflowTitle: 'Condensed editorial flow',
+    standardsWorkflow: [
+      'triage and curation of available material',
+      'homepage selection driven by visual weight and scientific relevance',
+      'archive preservation without erasing older coverage',
+      'clear signaling of source type, maturity and context'
+    ],
+    visualLabelVideo: 'Video',
+    visualLabelGallery: 'Gallery'
+  }
+};
+
+const FULL_ARCHIVE_FEED = '/all_posts.json';
+
   const IMG = {
     pillars:         'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg/1280px-Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg',
     andromeda:       'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg/1280px-Andromeda_Galaxy_%28with_h-alpha%29.jpg',
@@ -276,16 +393,44 @@ const RUNTIME_BASE_PATH = (() => {
   }
 
   let DB = hydrateArchive(window.postsData || []);
+
+  function ensureFullArchiveLoaded(force = false) {
+    if (fullArchiveLoaded && !force) return Promise.resolve(DB);
+    if (fullArchivePromise && !force) return fullArchivePromise;
+    fullArchivePromise = fetch(`${FULL_ARCHIVE_FEED}?cb=${Date.now()}`, { cache: 'no-store' })
+      .then(resp => {
+        if (!resp.ok) throw new Error('archive fetch failed');
+        return resp.json();
+      })
+      .then(payload => {
+        if (Array.isArray(payload) && payload.length) {
+          DB = mergePostCollections(payload, DB);
+          fullArchiveLoaded = DB.length >= payload.length || DB.length >= 100;
+          frontLayoutCache.clear();
+          persistArchiveCache();
+        }
+        return DB;
+      })
+      .catch(() => DB)
+      .finally(() => {
+        fullArchivePromise = null;
+      });
+    return fullArchivePromise;
+  }
+
   let currentLang = localStorage.getItem('cw_lang') === 'en' ? 'en' : 'pt';
   try {
     const _params = new URLSearchParams(window.location.search);
     const _path = window.location.pathname || '';
-    if ((_params.get('lang') || '').toLowerCase() === 'en' || /^\/en\/news\/[^\/]+\/?$/i.test(_path)) currentLang = 'en';
-    if ((_params.get('lang') || '').toLowerCase() === 'pt' || /^\/noticia\/[^\/]+\/?$/i.test(_path)) currentLang = 'pt';
+    const _bodyLang = (document.body?.dataset?.cwLang || '').toLowerCase();
+    if ((_params.get('lang') || '').toLowerCase() === 'en' || /^\/en(?:\/|$)/i.test(_path) || _bodyLang === 'en') currentLang = 'en';
+    if ((_params.get('lang') || '').toLowerCase() === 'pt' || /^\/noticia\/[^\/]+\/?$/i.test(_path) || _bodyLang === 'pt') currentLang = 'pt';
   } catch (err) {}
   let currentPage = 'home';
   let currentArticleSlug = null;
   let currentCategory = 'all';
+  let fullArchiveLoaded = DB.length >= 100;
+  let fullArchivePromise = null;
   let searchTimer = null;
   let toastTimer = null;
   let heroRotationSeed = nextPersistentRotationSeed();
@@ -412,6 +557,17 @@ const RUNTIME_BASE_PATH = (() => {
   function withLanguageParam(url, lang = currentLang) {
     try {
       const resolved = new URL(url, window.location.origin);
+      const path = resolved.pathname || '/';
+      const pageFromQuery = normalizePageKey(resolved.searchParams.get('page') || '');
+      const article = resolved.searchParams.get('article');
+      if (article) {
+        const post = DB.find(item => item.slug === article);
+        if (post) return getURLForArticle(post, lang);
+      }
+      if (pageFromQuery !== 'home' || /^\/(?:en(?:\/archive|\/about|\/standards)?|arquivo|sobre|padroes)\/?$/i.test(path) || path === '/') {
+        const inferred = pageFromQuery !== 'home' ? pageFromQuery : routePageFromPath(path);
+        return new URL(primaryPageHref(inferred, lang).replace(/^\//, ''), SITE.canonicalBaseUrl).toString();
+      }
       if (lang === 'en') resolved.searchParams.set('lang', 'en');
       else resolved.searchParams.delete('lang');
       return resolved.toString();
@@ -429,44 +585,43 @@ const RUNTIME_BASE_PATH = (() => {
     };
   }
 
-  function getURLForArticle(post) {
-    return withLanguageParam(`${SITE.runtimeBasePath}?article=${encodeURIComponent(post.slug)}`);
+  function getURLForArticle(post, lang = currentLang) {
+    const urls = articleAlternateUrls(post);
+    return lang === 'en' ? urls.en : urls.pt;
   }
 
-  function getRealURLForArticle(post) {
-    if (currentLang === 'en' && post?.realUrl_en) return post.realUrl_en;
-    if (post?.realUrl_pt) return post.realUrl_pt;
+  function getRealURLForArticle(post, lang = currentLang) {
+    if (lang === 'en' && post?.realUrl_en) return post.realUrl_en;
+    if (lang !== 'en' && post?.realUrl_pt) return post.realUrl_pt;
     if (post?.realUrl) return post.realUrl;
-    return withLanguageParam(`${SITE.canonicalBaseUrl}?article=${encodeURIComponent(post?.slug || '')}`);
+    return getURLForArticle(post, lang);
   }
 
-  function getShareURLForArticle(post) {
+  function getShareURLForArticle(post, lang = currentLang) {
     const urls = articleAlternateUrls(post);
-    return currentLang === 'en' ? urls.en : urls.pt;
+    return lang === 'en' ? urls.en : urls.pt;
   }
 
-  function getCanonicalURLForArticle(post) {
+  function getCanonicalURLForArticle(post, lang = currentLang) {
     const urls = articleAlternateUrls(post);
-    return currentLang === 'en' ? urls.en : urls.pt;
+    return lang === 'en' ? urls.en : urls.pt;
   }
 
-  function pageUrl(page) {
-    const map = { archive:'?page=arquivo', about:'?page=sobre', standards:'?page=padroes', search:'?page=busca' };
-    return withLanguageParam(`${SITE.runtimeBasePath}${map[page] || ''}`);
+  function pageUrl(page, lang = currentLang) {
+    return primaryPageHref(page, lang);
   }
 
-  function canonicalPageUrl(page) {
-    const map = { archive:'?page=arquivo', about:'?page=sobre', standards:'?page=padroes', search:'?page=busca' };
-    return withLanguageParam(`${SITE.canonicalBaseUrl}${map[page] || ''}`);
+  function canonicalPageUrl(page, lang = currentLang) {
+    return new URL(primaryPageHref(page, lang).replace(/^\//, ''), SITE.canonicalBaseUrl).toString();
   }
 
   function auxiliaryPageHref(kind, lang = currentLang) {
     const table = {
-      pt: { advertise: 'anuncie.html', mediaKit: 'media-kit.html', privacy: 'politica-de-privacidade.html', terms: 'termos-de-uso.html' },
-      en: { advertise: 'en/advertise/', mediaKit: 'en/media-kit/', privacy: 'en/privacy/', terms: 'en/terms/' }
+      pt: { advertise: '/anuncie.html', mediaKit: '/media-kit.html', privacy: '/politica-de-privacidade.html', terms: '/termos-de-uso.html' },
+      en: { advertise: '/en/advertise/', mediaKit: '/en/media-kit/', privacy: '/en/privacy/', terms: '/en/terms/' }
     };
     const selected = table[lang === 'en' ? 'en' : 'pt'];
-    return selected[kind] || 'index.html';
+    return selected[kind] || pageUrl('home', lang);
   }
 
   function syncAuxiliaryLinks() {
@@ -477,6 +632,89 @@ const RUNTIME_BASE_PATH = (() => {
     }
     const cookieLink = document.getElementById('cookiePolicyLink');
     if (cookieLink) cookieLink.setAttribute('href', auxiliaryPageHref('privacy'));
+    syncPrimaryNavigationLinks();
+  }
+
+  function extraTr(key) {
+    return (EXTRA_UI[currentLang] && EXTRA_UI[currentLang][key]) || (EXTRA_UI.pt && EXTRA_UI.pt[key]) || key;
+  }
+
+  function normalizePageKey(value = '') {
+    const page = String(value || '').toLowerCase().trim();
+    const map = {
+      home: 'home', inicio: 'home',
+      archive: 'archive', arquivo: 'archive',
+      about: 'about', sobre: 'about',
+      standards: 'standards', padroes: 'standards', padrões: 'standards',
+      search: 'search', busca: 'search'
+    };
+    return map[page] || 'home';
+  }
+
+  function routePageFromPath(path = window.location.pathname || '/') {
+    const cleaned = String(path || '/').replace(/\/+$/, '') || '/';
+    if (/^\/arquivo$/i.test(cleaned) || /^\/en\/archive$/i.test(cleaned)) return 'archive';
+    if (/^\/sobre$/i.test(cleaned) || /^\/en\/about$/i.test(cleaned)) return 'about';
+    if (/^\/padroes$/i.test(cleaned) || /^\/en\/standards$/i.test(cleaned)) return 'standards';
+    return 'home';
+  }
+
+  function primaryPageHref(page, lang = currentLang) {
+    const selected = PAGE_ROUTE_MAP[lang === 'en' ? 'en' : 'pt'];
+    return selected[normalizePageKey(page)] || selected.home;
+  }
+
+  function syncPrimaryNavigationLinks() {
+    const navTargets = {
+      navHome: 'home',
+      navArchive: 'archive',
+      navAbout: 'about',
+      navStandards: 'standards',
+      footerHome: 'home',
+      footerArchive: 'archive',
+      footerAbout: 'about',
+      footerStandards: 'standards',
+      archiveLinkTop: 'archive'
+    };
+    Object.entries(navTargets).forEach(([id, page]) => {
+      const el = document.getElementById(id);
+      if (el) el.setAttribute('href', primaryPageHref(page));
+    });
+
+    const ptSwitcher = document.getElementById('langPt');
+    const enSwitcher = document.getElementById('langEn');
+    if (currentPage === 'article' && currentArticleSlug) {
+      const post = DB.find(item => item.slug === currentArticleSlug);
+      if (post) {
+        if (ptSwitcher) ptSwitcher.setAttribute('href', getURLForArticle(post, 'pt'));
+        if (enSwitcher) enSwitcher.setAttribute('href', getURLForArticle(post, 'en'));
+        return;
+      }
+    }
+    const targetPage = normalizePageKey(currentPage);
+    if (ptSwitcher) ptSwitcher.setAttribute('href', primaryPageHref(targetPage, 'pt'));
+    if (enSwitcher) enSwitcher.setAttribute('href', primaryPageHref(targetPage, 'en'));
+  }
+
+  function contextualNavMarkup(activePage = currentPage) {
+    const links = [
+      ['about', extraTr('localNavAbout')],
+      ['standards', extraTr('localNavStandards')],
+      ['archive', extraTr('localNavArchive')]
+    ];
+    return `
+      <nav class="local-page-nav" aria-label="${currentLang === 'en' ? 'Contextual navigation' : 'Navegação contextual'}">
+        ${links.map(([page, label]) => `
+          <a class="local-page-link${normalizePageKey(activePage) === page ? ' on' : ''}" href="${primaryPageHref(page)}" onclick="event.preventDefault(); openPage('${page}')">${label}</a>
+        `).join('')}
+      </nav>`;
+  }
+
+  function renderChecklist(items = []) {
+    return `
+      <ul class="institution-list">
+        ${items.map(item => `<li>${sanitizeDisplayText(item)}</li>`).join('')}
+      </ul>`;
   }
 
   function keywordListFor(post) {
@@ -783,6 +1021,85 @@ const RUNTIME_BASE_PATH = (() => {
       </div>`;
   }
 
+
+function visualSignalLabel(post) {
+  if (post?.video?.embedUrl || post?.video?.fileUrl) return extraTr('visualLabelVideo');
+  if (Array.isArray(post?.inline_images) && post.inline_images.length > 1) return extraTr('visualLabelGallery');
+  return '';
+}
+
+function visualPriority(post) {
+  let total = sectionPriority(post) + postFreshnessWeight(post);
+  if (post?.video?.embedUrl || post?.video?.fileUrl) total += 30;
+  if (Array.isArray(post?.inline_images) && post.inline_images.length) total += Math.min(12, post.inline_images.length * 3);
+  if (post?.featured) total += 10;
+  return total;
+}
+
+function dedupePostsBySlug(posts = []) {
+  const seen = new Set();
+  return posts.filter(post => {
+    if (!post?.slug || seen.has(post.slug)) return false;
+    seen.add(post.slug);
+    return true;
+  });
+}
+
+function visualCardMarkup(post, { compact = false } = {}) {
+  if (!post) return '';
+  const meta = formatMeta(post);
+  const visualLabel = visualSignalLabel(post);
+  return `
+    <article class="visual-card${compact ? ' compact' : ''}" onclick="openArticle('${escapeAttr(post.slug)}')">
+      <img ${imageAttrs(post)}>
+      <div class="visual-card-overlay"></div>
+      <div class="visual-card-body">
+        <div class="visual-card-top">
+          ${renderBadgeRow(post, visualLabel ? `<span class="status-chip">${visualLabel}</span>` : '')}
+        </div>
+        <div class="visual-card-bottom">
+          <h3 class="headline-${compact ? 'md' : 'lg'}">${textFor(post,'title')}</h3>
+          <div class="meta-row"><span>${prettyCategory(post.cat)}</span><span>${meta.date}</span><span>${post.source}</span></div>
+        </div>
+      </div>
+    </article>`;
+}
+
+function renderVisualStrip(layout = currentFrontLayout()) {
+  const mount = document.getElementById('visualStrip');
+  if (!mount) return;
+  const source = dedupePostsBySlug([
+    ...(layout.hero || []),
+    ...(layout.essential || []),
+    ...(layout.watch || []),
+    ...(layout.latest || []),
+    ...(layout.trending || [])
+  ]).sort((a, b) => {
+    const score = visualPriority(b) - visualPriority(a);
+    if (score) return score;
+    return postTimestamp(b) - postTimestamp(a);
+  });
+  const picks = source.slice(0, 4);
+  if (!picks.length) {
+    mount.innerHTML = '';
+    return;
+  }
+  const [lead, ...rest] = picks;
+  mount.innerHTML = `
+    <section class="visual-shelf">
+      <div class="section-head">
+        <div>
+          <div class="section-title">${extraTr('visualLeadTitle')}</div>
+          <div class="section-kicker">${extraTr('visualLeadKicker')}</div>
+        </div>
+      </div>
+      <div class="visual-shelf-grid">
+        <div class="visual-shelf-lead">${visualCardMarkup(lead)}</div>
+        <div class="visual-shelf-rail">${rest.map(post => visualCardMarkup(post, { compact: true })).join('')}</div>
+      </div>
+    </section>`;
+}
+
   function briefingStoryMarkup(post, { compact = false } = {}) {
     if (!post) return '';
     const meta = formatMeta(post);
@@ -864,10 +1181,11 @@ const RUNTIME_BASE_PATH = (() => {
   function renderHome() {
     const layout = currentFrontLayout();
     renderHero(layout);
+    renderVisualStrip(layout);
+    renderTopicNav('topicNav');
     renderFrontBriefing(layout);
-    document.getElementById('latestGrid').innerHTML = layout.latest.map(cardMarkup).join('');
+    document.getElementById('latestGrid').innerHTML = layout.latest.map(post => visualCardMarkup(post, { compact: true })).join('');
 
-    // Preprint section
     const preprintMount = document.getElementById('preprintMount');
     if (layout.preprints.length) {
       preprintMount.innerHTML = `
@@ -889,6 +1207,7 @@ const RUNTIME_BASE_PATH = (() => {
     renderSourceMix();
     renderTicker(layout);
     syncCategoryButtons();
+    ensureFullArchiveLoaded();
     markNav('home');
     activatePage('home');
     updateMetaHome();
@@ -923,22 +1242,42 @@ const RUNTIME_BASE_PATH = (() => {
     }).join('');
   }
 
-  function renderTopicNav() {
-    const mount = document.getElementById('topicNav');
+  function renderTopicNav(mountId = 'topicNav', options = {}) {
+    const mount = document.getElementById(mountId);
     if (!mount) return;
     const categories = ['all','Astronomia','Cosmologia','Astrofísica','Exoplanetas','Física','Biologia','Química','Ciências da Terra'];
     const counts = DB.reduce((acc, post) => {
       if (post?.cat) acc[post.cat] = (acc[post.cat] || 0) + 1;
       return acc;
     }, {});
+    const dense = !!options.dense;
 
-    mount.innerHTML = categories.map(cat => {
-      const isAll = cat === 'all';
-      const count = isAll ? DB.length : (counts[cat] || 0);
-      const label = isAll ? tr('allCategories') : prettyCategory(cat);
-      const active = currentCategory === cat ? ' on' : '';
-      return `<button class="topic-chip${active}" onclick="setCategory('${escapeAttr(cat)}')"><span>${label}</span><span class="topic-count">${count}</span></button>`;
-    }).join('');
+    mount.innerHTML = `
+      <section class="topic-map${dense ? ' dense' : ''}">
+        <div class="section-head section-head--soft">
+          <div>
+            <div class="section-title">${extraTr('topicNavTitle')}</div>
+            <div class="section-kicker">${extraTr('topicNavKicker')}</div>
+          </div>
+        </div>
+        <div class="topic-map-grid">
+          ${categories.map(cat => {
+            const isAll = cat === 'all';
+            const count = isAll ? DB.length : (counts[cat] || 0);
+            const label = isAll ? tr('allCategories') : prettyCategory(cat);
+            const active = currentCategory === cat ? ' on' : '';
+            const descriptor = dense ? '' : `<span class="topic-map-copy">${sanitizeDisplayText(topicDescriptor(cat))}</span>`;
+            return `
+              <button class="topic-map-card${active}" onclick="setCategory('${escapeAttr(cat)}')">
+                <span class="topic-map-top">
+                  <span class="topic-map-name">${label}</span>
+                  <span class="topic-count">${count}</span>
+                </span>
+                ${descriptor}
+              </button>`;
+          }).join('')}
+        </div>
+      </section>`;
   }
 
   function focusSearch() {
@@ -1041,38 +1380,119 @@ const RUNTIME_BASE_PATH = (() => {
 
   // ── Archive ────────────────────────────────────────────────────────────────
   function renderArchive() {
-    const posts = currentCategory==='all' ? DB : DB.filter(p=>p.cat===currentCategory);
-    document.getElementById('archiveList').innerHTML = posts.map(compactMarkup).join('');
+    const posts = currentCategory === 'all' ? DB : DB.filter(p => p.cat === currentCategory);
+    const hero = posts.slice(0, 4);
+    const remaining = posts.slice(4);
+    const archiveSummary = document.getElementById('archiveSummary');
+    const archiveHighlights = document.getElementById('archiveHighlights');
+    const archiveStatus = document.getElementById('archiveStatus');
+    const listMount = document.getElementById('archiveList');
+
     document.getElementById('archiveKicker').textContent = currentLang === 'en'
-      ? `${posts.length} stories currently available. New updates are preserved inside the archive instead of replacing older entries.`
-      : `${posts.length} matérias disponíveis. Novas atualizações são preservadas no arquivo.`;
-    markNav('archive'); activatePage('archive'); updateMetaStatic('archive');
+      ? `${posts.length} stories available in the selected area. The archive preserves continuity instead of forcing everything through the homepage.`
+      : `${posts.length} matérias disponíveis na área selecionada. O arquivo preserva continuidade em vez de empurrar tudo para a homepage.`;
+
+    if (archiveSummary) {
+      const topicCount = new Set(DB.map(post => post?.cat).filter(Boolean)).size;
+      archiveSummary.innerHTML = `
+        <div class="archive-stat"><span class="archive-stat-num">${posts.length}</span><span class="archive-stat-label">${extraTr('archiveStatsStories')}</span></div>
+        <div class="archive-stat"><span class="archive-stat-num">${topicCount}</span><span class="archive-stat-label">${extraTr('archiveStatsTopics')}</span></div>
+        <div class="archive-stat"><span class="archive-stat-num">2</span><span class="archive-stat-label">${extraTr('archiveStatsLanguages')}</span></div>`;
+    }
+
+    if (archiveHighlights) {
+      archiveHighlights.innerHTML = hero.length
+        ? hero.map((post, idx) => visualCardMarkup(post, { compact: idx > 0 })).join('')
+        : `<div class="archive-empty">${extraTr('archiveNoItems')}</div>`;
+    }
+
+    if (listMount) listMount.innerHTML = remaining.length ? remaining.map(compactMarkup).join('') : '';
+
+    if (archiveStatus) archiveStatus.textContent = fullArchiveLoaded ? extraTr('archiveLoaded') : extraTr('archiveLoading');
+
+    renderTopicNav('archiveTopicNav', { dense: true });
+
+    ensureFullArchiveLoaded().then(() => {
+      if (currentPage !== 'archive') return;
+      const activePosts = currentCategory === 'all' ? DB : DB.filter(p => p.cat === currentCategory);
+      const activeHero = activePosts.slice(0, 4);
+      if (archiveSummary) {
+        const topicCount = new Set(DB.map(post => post?.cat).filter(Boolean)).size;
+        archiveSummary.innerHTML = `
+          <div class="archive-stat"><span class="archive-stat-num">${activePosts.length}</span><span class="archive-stat-label">${extraTr('archiveStatsStories')}</span></div>
+          <div class="archive-stat"><span class="archive-stat-num">${topicCount}</span><span class="archive-stat-label">${extraTr('archiveStatsTopics')}</span></div>
+          <div class="archive-stat"><span class="archive-stat-num">2</span><span class="archive-stat-label">${extraTr('archiveStatsLanguages')}</span></div>`;
+      }
+      if (archiveHighlights) archiveHighlights.innerHTML = activeHero.length
+        ? activeHero.map((post, idx) => visualCardMarkup(post, { compact: idx > 0 })).join('')
+        : `<div class="archive-empty">${extraTr('archiveNoItems')}</div>`;
+      if (listMount) listMount.innerHTML = activePosts.slice(4).map(compactMarkup).join('');
+      if (archiveStatus) archiveStatus.textContent = extraTr('archiveLoaded');
+      renderTopicNav('archiveTopicNav', { dense: true });
+    });
+
+    markNav('archive');
+    activatePage('archive');
+    updateMetaStatic('archive');
   }
 
   // ── About / Standards ──────────────────────────────────────────────────────
   function renderAbout() {
     document.getElementById('pageAbout').innerHTML = `
-      <div class="about-grid">
-        <div class="section-title">${tr('aboutPageTitle')}</div>
-        <h1 class="headline-xl" style="max-width:900px;">${tr('aboutPageTitle')}</h1>
-        <p class="deck">${tr('aboutIntro')}</p>
-        <p class="deck">${tr('aboutBody')}</p>
+      <div class="institution-shell">
+        ${contextualNavMarkup('about')}
+        <div class="about-grid">
+          <div class="section-title">${extraTr('aboutEyebrow')}</div>
+          <h1 class="headline-xl" style="max-width:920px;">${extraTr('aboutHeadline')}</h1>
+          <p class="deck">${extraTr('aboutIntro2')}</p>
+          <div class="institution-cards">
+            ${EXTRA_UI[currentLang].aboutCards.map(card => `
+              <article class="institution-card">
+                <h3>${card.title}</h3>
+                <p>${card.body}</p>
+              </article>`).join('')}
+          </div>
+          <div class="institution-split">
+            <div>
+              <h2 class="institution-subtitle">${tr('aboutPageTitle')}</h2>
+              <p class="deck">${tr('aboutIntro')}</p>
+              <p class="deck">${tr('aboutBody')}</p>
+            </div>
+            <div class="institution-note">
+              <h3>${extraTr('aboutChecklistTitle')}</h3>
+              ${renderChecklist(EXTRA_UI[currentLang].aboutChecklist)}
+            </div>
+          </div>
+        </div>
       </div>`;
     markNav('about'); activatePage('about'); updateMetaStatic('about');
   }
 
   function renderStandards() {
     document.getElementById('pageStandards').innerHTML = `
-      <div class="about-grid">
-        <div class="section-title">${tr('standardsPageTitle')}</div>
-        <h1 class="headline-xl" style="max-width:980px;">${tr('standardsPageTitle')}</h1>
-        <p class="deck">${tr('standardsIntro')}</p>
-        <div class="standards-grid">
-          ${UI[currentLang].standardsCards.map(card=>`
-            <article class="standards-card">
-              <h3>${card.title}</h3>
-              <p>${card.body}</p>
-            </article>`).join('')}
+      <div class="institution-shell">
+        ${contextualNavMarkup('standards')}
+        <div class="about-grid">
+          <div class="section-title">${extraTr('standardsEyebrow')}</div>
+          <h1 class="headline-xl" style="max-width:960px;">${extraTr('standardsHeadline')}</h1>
+          <p class="deck">${extraTr('standardsIntro2')}</p>
+          <div class="standards-grid">
+            ${EXTRA_UI[currentLang].standardsCards2.map(card => `
+              <article class="standards-card">
+                <h3>${card.title}</h3>
+                <p>${card.body}</p>
+              </article>`).join('')}
+          </div>
+          <div class="institution-split">
+            <div>
+              <h2 class="institution-subtitle">${tr('standardsPageTitle')}</h2>
+              <p class="deck">${tr('standardsIntro')}</p>
+            </div>
+            <div class="institution-note">
+              <h3>${extraTr('standardsWorkflowTitle')}</h3>
+              ${renderChecklist(EXTRA_UI[currentLang].standardsWorkflow)}
+            </div>
+          </div>
         </div>
       </div>`;
     markNav('standards'); activatePage('standards'); updateMetaStatic('standards');
@@ -1820,6 +2240,11 @@ const RUNTIME_BASE_PATH = (() => {
     });
     document.getElementById('langPt').classList.toggle('on', currentLang==='pt');
     document.getElementById('langEn').classList.toggle('on', currentLang==='en');
+    const footerHome = document.getElementById('footerHome'); if (footerHome) footerHome.textContent = tr('home');
+    const footerArchive = document.getElementById('footerArchive'); if (footerArchive) footerArchive.textContent = tr('archive');
+    const footerAbout = document.getElementById('footerAbout'); if (footerAbout) footerAbout.textContent = tr('about');
+    const footerStandards = document.getElementById('footerStandards'); if (footerStandards) footerStandards.textContent = tr('standardsPageTitle');
+    syncPrimaryNavigationLinks();
     updateRigSyncBannerLanguage();
     updateLastUpdatedLabel();
   }
@@ -1948,7 +2373,7 @@ const RUNTIME_BASE_PATH = (() => {
     const btn = document.getElementById('updateBtn');
     bumpHeroRotationSeed();
     btn.classList.add('loading'); btn.disabled = true;
-    fetch(`posts.js?cb=${Date.now()}`, { cache:'no-store' })
+    fetch(`/posts.js?cb=${Date.now()}`, { cache:'no-store' })
       .then(resp => { if (!resp.ok) throw new Error('fetch failed'); return resp.text(); })
       .then(js => {
         const sandboxWindow = {};
@@ -2068,7 +2493,7 @@ const RUNTIME_BASE_PATH = (() => {
         url: SITE.canonicalBaseUrl,
         logo: { '@type': 'ImageObject', url: 'https://www.cosmosweek.com/assets/og-default.jpg' },
         description: description,
-        publishingPrinciples: SITE.canonicalBaseUrl + 'padroes',
+        publishingPrinciples: canonicalPageUrl('standards', 'pt'),
         inLanguage: ['pt-BR', 'en-US']
       },
       {
@@ -2090,9 +2515,9 @@ const RUNTIME_BASE_PATH = (() => {
     updateMetaCommon(title, description, canonicalPageUrl('home'), IMG.pillars, homeJsonLd, {
       robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
       newsKeywords: 'astronomia, astrofísica, cosmologia, ciência, espaço',
-      alternatePt: withLanguageParam(SITE.canonicalBaseUrl, 'pt'),
-      alternateEn: withLanguageParam(SITE.canonicalBaseUrl, 'en'),
-      alternateDefault: withLanguageParam(SITE.canonicalBaseUrl, 'pt'),
+      alternatePt: canonicalPageUrl('home', 'pt'),
+      alternateEn: canonicalPageUrl('home', 'en'),
+      alternateDefault: canonicalPageUrl('home', 'pt'),
       locale: currentLang === 'en' ? 'en_US' : 'pt_BR',
       localeAlternate: currentLang === 'en' ? 'pt_BR' : 'en_US',
       imageAlt: 'Cosmos Week',
@@ -2117,9 +2542,9 @@ const RUNTIME_BASE_PATH = (() => {
     updateMetaCommon(`${titles[page]} — ${SITE.title}`, descriptions[page], canonicalPageUrl(page), IMG.pillars, null, {
       robots: page === 'search' ? 'noindex,follow' : 'index,follow',
       newsKeywords: 'Notícias Científicas, astronomia, astrofísica, cosmologia',
-      alternatePt: withLanguageParam(canonicalPageUrl(page), 'pt'),
-      alternateEn: withLanguageParam(canonicalPageUrl(page), 'en'),
-      alternateDefault: withLanguageParam(canonicalPageUrl(page), 'pt'),
+      alternatePt: canonicalPageUrl(page, 'pt'),
+      alternateEn: canonicalPageUrl(page, 'en'),
+      alternateDefault: canonicalPageUrl(page, 'pt'),
       locale: currentLang === 'en' ? 'en_US' : 'pt_BR',
       localeAlternate: currentLang === 'en' ? 'pt_BR' : 'en_US',
       imageAlt: titles[page],
@@ -2140,13 +2565,13 @@ const RUNTIME_BASE_PATH = (() => {
     const jsonLd = [
       { '@context':'https://schema.org','@type':'NewsMediaOrganization', '@id':`${SITE.canonicalBaseUrl}#organization`, name:SITE.title, url:SITE.canonicalBaseUrl, logo:{'@type':'ImageObject',url:IMG.pillars} },
       { '@context':'https://schema.org','@type':'BreadcrumbList', itemListElement:[
-        {'@type':'ListItem',position:1,name:currentLang==='en'?'Home':'Início',item:withLanguageParam(SITE.canonicalBaseUrl, currentLang)},
-        {'@type':'ListItem',position:2,name:prettyCategory(post.cat),item:withLanguageParam(SITE.canonicalBaseUrl, currentLang)},
+        {'@type':'ListItem',position:1,name:currentLang==='en'?'Home':'Início',item: canonicalPageUrl('home', currentLang)},
+        {'@type':'ListItem',position:2,name:prettyCategory(post.cat),item: canonicalPageUrl('home', currentLang)},
         {'@type':'ListItem',position:3,name:textFor(post,'title'),item:url}
       ]},
       { '@context':'https://schema.org','@type':'WebPage', '@id':url, url, name:title, description,
         inLanguage:langCode,
-        isPartOf:{'@type':'WebSite',name:SITE.title,url:withLanguageParam(SITE.canonicalBaseUrl, currentLang)},
+        isPartOf:{'@type':'WebSite',name:SITE.title,url: canonicalPageUrl('home', currentLang)},
         primaryImageOfPage:{'@type':'ImageObject',url:image},
         hasPart:[{'@type':'WebPage',url:currentLang==='en'?alternates.pt:alternates.en,inLanguage:currentLang==='en'?'pt-BR':'en-US'}]
       },
@@ -2206,7 +2631,7 @@ const RUNTIME_BASE_PATH = (() => {
     document.getElementById('articleModifiedMeta').setAttribute('content', options.modified||options.published||'');
     document.getElementById('articleSectionMeta').setAttribute('content', options.section || '');
     document.getElementById('siteJsonLd').textContent = JSON.stringify(articleJsonLd || {
-      '@context':'https://schema.org','@type':'WebSite', name:SITE.title, url:withLanguageParam(SITE.canonicalBaseUrl, currentLang), description,
+      '@context':'https://schema.org','@type':'WebSite', name:SITE.title, url: canonicalPageUrl('home', currentLang), description,
       inLanguage: currentLang === 'en' ? 'en-US' : 'pt-BR'
     });
   }
@@ -2225,18 +2650,21 @@ const RUNTIME_BASE_PATH = (() => {
   function parseRoute() {
     const params = new URLSearchParams(window.location.search);
     const article = params.get('article');
-    const page = params.get('page');
+    const pageParam = normalizePageKey(params.get('page') || '');
     const path = window.location.pathname || '';
+    const bodyPage = normalizePageKey(document.body?.dataset?.cwPage || '');
+    const bodyLang = (document.body?.dataset?.cwLang || '').toLowerCase();
     const pathMatchPt = path.match(/^\/noticia\/([^\/]+)\/?$/i);
     const pathMatchEn = path.match(/^\/en\/news\/([^\/]+)\/?$/i);
     const articleFromPath = pathMatchEn ? decodeURIComponent(pathMatchEn[1]) : (pathMatchPt ? decodeURIComponent(pathMatchPt[1]) : '');
-    if ((params.get('lang') || '').toLowerCase() === 'en' || pathMatchEn) currentLang = 'en';
-    if ((params.get('lang') || '').toLowerCase() === 'pt' || pathMatchPt) currentLang = 'pt';
+    if ((params.get('lang') || '').toLowerCase() === 'en' || /^\/en(?:\/|$)/i.test(path) || pathMatchEn || bodyLang === 'en') currentLang = 'en';
+    if ((params.get('lang') || '').toLowerCase() === 'pt' || pathMatchPt || bodyLang === 'pt' || /^\/(arquivo|sobre|padroes)(?:\/|$)/i.test(path) || path === '/') currentLang = 'pt';
     if (article) { renderArticle(article); return; }
     if (articleFromPath) { renderArticle(articleFromPath); return; }
-    if (page==='arquivo') { renderArchive(); return; }
-    if (page==='sobre')   { renderAbout();   return; }
-    if (page==='padroes') { renderStandards(); return; }
+    const page = pageParam !== 'home' ? pageParam : (routePageFromPath(path) || bodyPage || 'home');
+    if (page === 'archive') { renderArchive(); return; }
+    if (page === 'about') { renderAbout(); return; }
+    if (page === 'standards') { renderStandards(); return; }
     renderHome();
   }
 
@@ -2256,4 +2684,7 @@ const RUNTIME_BASE_PATH = (() => {
     initRigSyncBanner();
     persistArchiveCache();
     parseRoute();
+    if (normalizePageKey(document.body?.dataset?.cwPage || '') === 'archive' || routePageFromPath(window.location.pathname || '') === 'archive') {
+      ensureFullArchiveLoaded();
+    }
   });

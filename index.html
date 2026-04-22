@@ -1,55 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <!-- Google tag (gtag.js) — Cosmos Week -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MX20J1ZG06"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-
-    /* Consent Mode v2 — padrão: tudo negado até o usuário decidir.
-       Três estados possíveis no localStorage['cw_cookie_consent']:
-         'full'      → analytics + anúncios personalizados aceitos
-         'analytics' → só analytics aceito, anúncios não-personalizados
-         'denied'    → tudo recusado                                   */
     gtag('consent', 'default', {
-      analytics_storage:    'denied',
-      ad_storage:           'denied',
-      ad_user_data:         'denied',
-      ad_personalization:   'denied',
-      wait_for_update:      500
+      analytics_storage: 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      wait_for_update: 500
     });
-
     try {
       const _c = localStorage.getItem('cw_cookie_consent');
       if (_c === 'full') {
-        gtag('consent', 'update', {
-          analytics_storage:  'granted',
-          ad_storage:         'granted',
-          ad_user_data:       'granted',
-          ad_personalization: 'granted'
-        });
+        gtag('consent', 'update', { analytics_storage:'granted', ad_storage:'granted', ad_user_data:'granted', ad_personalization:'granted' });
       } else if (_c === 'analytics') {
-        gtag('consent', 'update', {
-          analytics_storage:  'granted',
-          ad_storage:         'denied',
-          ad_user_data:       'denied',
-          ad_personalization: 'denied'
-        });
+        gtag('consent', 'update', { analytics_storage:'granted', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied' });
       }
     } catch (e) {}
-
     gtag('js', new Date());
     gtag('config', 'G-MX20J1ZG06', { anonymize_ip: true });
+    window.CW_BOOTSTRAP = { page: 'home', lang: 'pt', rootPath: '/' };
   </script>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0d3a75">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta name="description" content="Cosmos Week — portal de notícias científicas em português com foco em astronomia, astrofísica, cosmologia e ciência em geral.">
-  <meta property="og:title" content="Cosmos Week — Notícias científicas do universo">
-  <meta property="og:description" content="Notícias científicas em português, com contexto, rigor e fontes primárias transparentes.">
+  <meta name="description" content="Portal de notícias científicas com foco em astronomia, astrofísica, cosmologia e fronteiras da ciência.">
+  <meta property="og:title" content="Cosmos Week — Notícias Científicas do universo">
+  <meta property="og:description" content="Portal de notícias científicas com foco em astronomia, astrofísica, cosmologia e fronteiras da ciência.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://www.cosmosweek.com/assets/og-default.jpg">
   <meta property="og:image:alt" id="ogImageAltMeta" content="Cosmos Week">
@@ -57,8 +38,8 @@
   <meta property="og:locale" id="ogLocaleMeta" content="pt_BR">
   <meta property="og:locale:alternate" id="ogLocaleAlternateMeta" content="en_US">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Cosmos Week — Notícias científicas do universo">
-  <meta name="twitter:description" content="Notícias científicas em português, com contexto, rigor e fontes primárias transparentes.">
+  <meta name="twitter:title" content="Cosmos Week — Notícias Científicas do universo">
+  <meta name="twitter:description" content="Portal de notícias científicas com foco em astronomia, astrofísica, cosmologia e fronteiras da ciência.">
   <meta name="twitter:image" content="https://www.cosmosweek.com/assets/og-default.jpg">
   <meta name="twitter:image:alt" id="twitterImageAltMeta" content="Cosmos Week">
   <meta name="author" id="authorMeta" content="Redação do Cosmos Week">
@@ -71,24 +52,19 @@
   <link rel="canonical" id="canonicalLink" href="https://www.cosmosweek.com/">
   <link rel="preload" as="image" href="https://www.cosmosweek.com/assets/og-default.jpg" fetchpriority="high">
   <link rel="alternate" hreflang="pt-BR" id="alternatePtLink" href="https://www.cosmosweek.com/">
-  <link rel="alternate" hreflang="en-US" id="alternateEnLink" href="https://www.cosmosweek.com/?lang=en">
+  <link rel="alternate" hreflang="en-US" id="alternateEnLink" href="https://www.cosmosweek.com/en/">
   <link rel="alternate" hreflang="x-default" id="alternateDefaultLink" href="https://www.cosmosweek.com/">
-  <link rel="alternate" type="application/rss+xml" title="Cosmos Week RSS" href="feed.xml">
-
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7289727408346815"
-     crossorigin="anonymous"></script>
-
-  <title>Cosmos Week — Notícias científicas do universo</title>
-  <script type="application/ld+json" id="siteJsonLd">{"@context":"https://schema.org","@type":"WebSite","name":"Cosmos Week","url":"https://www.cosmosweek.com/","description":"Portal de Notícias Científicas em português com foco em astronomia, astrofísica, cosmologia e ciência em geral."}</script>
-
+  <link rel="alternate" type="application/rss+xml" title="Cosmos Week RSS" href="/feed.xml">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7289727408346815" crossorigin="anonymous"></script>
+  <title>Cosmos Week — Notícias Científicas do universo</title>
+  <script type="application/ld+json" id="siteJsonLd">{"@context":"https://schema.org","@type":"WebSite","name":"Cosmos Week","url":"https://www.cosmosweek.com/","description":"Portal de notícias científicas com foco em astronomia, astrofísica, cosmologia e fronteiras da ciência."}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
   <meta name="apple-itunes-app" content="app-id=6759013786">
 </head>
-<body>
+<body data-cw-page="home" data-cw-lang="pt">
   <a class="skip-link" href="#mainContent">Pular para o conteúdo principal</a>
   <div id="readingProgress"></div>
 
@@ -101,16 +77,16 @@
 
   <header class="site-header">
     <div class="header-inner">
-      <div class="logo" onclick="goHome()">
+      <a class="logo" href="/" onclick="event.preventDefault(); goHome()">
         <div class="logo-title">Cosmos<em>Week</em></div>
         <div class="logo-sub" id="logoSub">Notícias Científicas em português</div>
-      </div>
+      </a>
 
       <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
-        <button class="nav-link on" id="navHome" onclick="goHome()">Início</button>
-        <button class="nav-link" id="navArchive" onclick="openPage('archive')">Arquivo</button>
-        <button class="nav-link" id="navAbout" onclick="openPage('about')">Sobre</button>
-        <button class="nav-link" id="navStandards" onclick="openPage('standards')">Padrões</button>
+        <a class="nav-link" id="navHome" href="/" onclick="event.preventDefault(); goHome()">Início</a>
+        <a class="nav-link" id="navArchive" href="/arquivo/" onclick="event.preventDefault(); openPage('archive')">Arquivo</a>
+        <a class="nav-link" id="navAbout" href="/sobre/" onclick="event.preventDefault(); openPage('about')">Sobre</a>
+        <a class="nav-link" id="navStandards" href="/padroes/" onclick="event.preventDefault(); openPage('standards')">Padrões</a>
       </nav>
 
       <div class="header-tools">
@@ -119,16 +95,14 @@
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
         </label>
         <div class="lang-switch" aria-label="Selecionar idioma">
-          <button id="langPt" type="button" onclick="setLanguage('pt')">🇧🇷</button>
-          <button id="langEn" type="button" onclick="setLanguage('en')">🇺🇸</button>
+          <a id="langPt" href="https://www.cosmosweek.com/" onclick="event.preventDefault(); setLanguage('pt')">🇧🇷</a>
+          <a id="langEn" href="https://www.cosmosweek.com/en/" onclick="event.preventDefault(); setLanguage('en')">🇺🇸</a>
         </div>
         <a class="social-icon-link" href="https://www.instagram.com/cosmos_week/" target="_blank" rel="noopener" aria-label="Instagram">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2.5" y="2.5" width="19" height="19" rx="5.2" ry="5.2"/><path d="M17.5 6.5h.01"/><circle cx="12" cy="12" r="4.25"/>
-          </svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="5.2" ry="5.2"/><path d="M17.5 6.5h.01"/><circle cx="12" cy="12" r="4.25"/></svg>
         </a>
-        <button class="ghost-btn" type="button" onclick="openPage('standards')" id="methodBtn">Metodologia</button>
-        <a class="ghost-btn" href="anuncie.html" id="adsBtn" style="display:inline-flex;align-items:center;justify-content:center;">Anuncie</a>
+        <a class="ghost-btn" href="/padroes/" onclick="event.preventDefault(); openPage('standards')" id="methodBtn">Metodologia</a>
+        <a class="ghost-btn" href="/anuncie.html" id="adsBtn" style="display:inline-flex;align-items:center;justify-content:center;">Anuncie</a>
         <button class="primary-btn" type="button" id="updateBtn" onclick="refreshFeed()">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.13-3.36L23 10"/><path d="M20.49 15a9 9 0 0 1-14.13 3.36L1 14"/></svg>
           <span id="updateBtnLabel">Atualizar</span>
@@ -157,28 +131,19 @@
   </header>
 
   <main class="wrap" id="mainContent" tabindex="-1">
-    <div id="adSlotLeaderboard" class="ad-slot ad-slot--leaderboard" aria-hidden="true">
-      <!--
-      <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-        data-ad-slot="XXXXXXXXXX"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-      -->
-    </div>
-
+    <div id="adSlotLeaderboard" class="ad-slot ad-slot--leaderboard" aria-hidden="true"></div>
 
     <noscript>
       <div class="noscript-message">
-        <strong>JavaScript está desativado.</strong> A página inicial dinâmica do Cosmos Week precisa de JavaScript para carregar a grade editorial. Enquanto isso, você pode usar o <a href="sitemap.xml">sitemap</a> ou o <a href="feed.xml">feed RSS</a>.
+        <strong>JavaScript está desativado.</strong> O Cosmos Week usa uma camada dinâmica para montar a grade editorial. Você ainda pode usar o <a href="/sitemap.xml">sitemap</a>, o <a href="/feed.xml">RSS</a> e as rotas principais do portal.
       </div>
     </noscript>
 
     <section class="page active" id="pageHome">
       <h1 class="visually-hidden" id="homePageTitle">Portal Cosmos Week de notícias científicas</h1>
       <div id="heroMount"></div>
+      <div id="visualStrip"></div>
+      <div id="topicNav"></div>
       <div class="story-layout">
         <div>
           <div class="section-head" id="latestSectionHead">
@@ -186,24 +151,14 @@
               <div class="section-title" id="latestSectionTitle">Últimas publicações</div>
               <div class="section-kicker" id="latestSectionKicker">Cobertura recente organizada para leitura rápida, sem perder contexto editorial.</div>
             </div>
-            <button class="section-link" onclick="openPage('archive')" id="archiveLinkTop">Ver arquivo completo</button>
+            <a class="section-link" href="/arquivo/" onclick="event.preventDefault(); openPage('archive')" id="archiveLinkTop">Ver arquivo completo</a>
           </div>
           <div class="story-grid" id="latestGrid"></div>
           <div class="preprint-grid" id="preprintMount"></div>
         </div>
 
         <aside class="sidebar">
-          <div id="adSlotSidebar" class="ad-slot ad-slot--sidebar" aria-hidden="true">
-            <!--
-            <ins class="adsbygoogle"
-              style="display:block"
-              data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-              data-ad-slot="XXXXXXXXXX"
-              data-ad-format="rectangle"
-              data-full-width-responsive="true"></ins>
-            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-            -->
-          </div>
+          <div id="adSlotSidebar" class="ad-slot ad-slot--sidebar" aria-hidden="true"></div>
           <div class="widget">
             <div class="widget-head"><div class="widget-title" id="trendingWidgetTitle">Em alta</div></div>
             <div class="widget-list" id="trendingList"></div>
@@ -214,15 +169,11 @@
           </div>
           <div class="widget">
             <div class="widget-head"><div class="widget-title" id="sourceMixTitle">Mapa editorial</div></div>
-            <div class="widget-body">
-              <div id="sourceMix"></div>
-            </div>
+            <div class="widget-body"><div id="sourceMix"></div></div>
           </div>
           <div class="widget">
             <div class="widget-head"><div class="widget-title" id="quickLinksTitle">Acesso rápido</div></div>
-            <div class="widget-body">
-              <div class="sidebar-actions" id="quickLinks"></div>
-            </div>
+            <div class="widget-body"><div class="sidebar-actions" id="quickLinks"></div></div>
           </div>
           <div class="widget">
             <div class="widget-head"><div class="widget-title" id="archivePicksTitle">Do arquivo</div></div>
@@ -236,10 +187,28 @@
     <section class="page" id="pageArticle"></section>
 
     <section class="page" id="pageArchive">
-      <div class="section-head" style="margin-bottom:24px;">
+      <div class="archive-hero">
+        <div class="section-head" style="margin-bottom:18px;">
+          <div>
+            <div class="section-title" id="archiveTitle">Arquivo editorial</div>
+            <div class="section-kicker" id="archiveKicker">Todas as matérias disponíveis do arquivo no portal.</div>
+          </div>
+        </div>
+        <div class="archive-summary" id="archiveSummary"></div>
+        <div class="archive-status" id="archiveStatus"></div>
+        <div id="archiveTopicNav"></div>
+        <div class="section-head section-head--soft">
+          <div>
+            <div class="section-title">Seleção do arquivo</div>
+            <div class="section-kicker">Uma entrada visual para o acervo do portal.</div>
+          </div>
+        </div>
+        <div class="archive-highlights" id="archiveHighlights"></div>
+      </div>
+      <div class="section-head section-head--soft" style="margin-top:10px;">
         <div>
-          <div class="section-title" id="archiveTitle">Arquivo editorial</div>
-          <div class="section-kicker" id="archiveKicker">Todas as matérias disponíveis no portal.</div>
+          <div class="section-title">Todas as matérias</div>
+          <div class="section-kicker">Listagem contínua da seleção atual.</div>
         </div>
       </div>
       <div class="compact-list" id="archiveList"></div>
@@ -260,11 +229,10 @@
     </section>
   </main>
 
-
   <aside class="rigsync-float" id="rigsyncBanner" aria-label="Espaço patrocinado">
     <button class="rigsync-float__close" id="rigsyncBannerClose" type="button" aria-label="Fechar anúncio">×</button>
     <a class="rigsync-float__logo" href="https://apps.apple.com/br/app/rigsync-calendar/id6759013786" target="_blank" rel="noopener sponsored" aria-label="Abrir anúncio patrocinado">
-      <img src="assets/rigsync-calendar-badge.png" alt="Logo do anúncio patrocinado" width="52" height="52" loading="lazy">
+      <img src="/assets/rigsync-calendar-badge.png" alt="Logo do anúncio patrocinado" width="52" height="52" loading="lazy">
     </a>
     <div class="rigsync-float__copy">
       <div class="rigsync-float__eyebrow" id="rigsyncBannerEyebrow">Espaço patrocinado</div>
@@ -301,23 +269,23 @@
         <div>
           <div class="footer-title" id="footerNavTitle">Navegação</div>
           <div class="footer-links">
-            <button onclick="goHome()" id="footerHome">Início</button>
-            <button onclick="openPage('archive')" id="footerArchive">Arquivo</button>
-            <button onclick="openPage('about')" id="footerAbout">Sobre</button>
-            <button onclick="openPage('standards')" id="footerStandards">Padrões editoriais</button>
-            <a href="anuncie.html" id="footerAdvertise">Anuncie</a>
-            <a href="media-kit.html" id="footerMediaKit">Media kit</a>
+            <a href="/" onclick="event.preventDefault(); goHome()" id="footerHome">Início</a>
+            <a href="/arquivo/" onclick="event.preventDefault(); openPage('archive')" id="footerArchive">Arquivo</a>
+            <a href="/sobre/" onclick="event.preventDefault(); openPage('about')" id="footerAbout">Sobre</a>
+            <a href="/padroes/" onclick="event.preventDefault(); openPage('standards')" id="footerStandards">Padrões editoriais</a>
+            <a href="/anuncie.html" id="footerAdvertise">Anuncie</a>
+            <a href="/media-kit.html" id="footerMediaKit">Media kit</a>
           </div>
         </div>
 
         <div>
           <div class="footer-title" id="footerSourcesTitle">Transparência</div>
           <div class="footer-links">
-            <a href="feed.xml" target="_blank" rel="noopener" id="footerFeed">RSS do portal</a>
-            <a href="sitemap.xml" target="_blank" rel="noopener" id="footerSitemap">Sitemap</a>
-            <a href="politica-de-privacidade.html" id="footerPrivacy">Política de privacidade</a>
-            <a href="termos-de-uso.html" id="footerTerms">Termos de uso</a>
-            <button onclick="openPage('standards')" id="footerCorrections">Correções e metodologia</button>
+            <a href="/feed.xml" target="_blank" rel="noopener" id="footerFeed">RSS do portal</a>
+            <a href="/sitemap.xml" target="_blank" rel="noopener" id="footerSitemap">Sitemap</a>
+            <a href="/politica-de-privacidade.html" id="footerPrivacy">Política de privacidade</a>
+            <a href="/termos-de-uso.html" id="footerTerms">Termos de uso</a>
+            <a href="/padroes/" onclick="event.preventDefault(); openPage('standards')" id="footerCorrections">Correções e metodologia</a>
           </div>
         </div>
       </div>
@@ -325,7 +293,6 @@
       <div class="footer-bottom">
         <span id="footerBottomLeft">© 2026 Cosmos Week</span>
         <span id="footerBottomCenter">Notícias científicas com contexto e compromisso com a evidência.</span>
-        
       </div>
     </div>
   </footer>
@@ -335,10 +302,7 @@
   <div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Aviso de cookies">
     <div class="cookie-copy">
       <div class="cookie-title" id="cookieTitle">Privacidade</div>
-      <div class="cookie-text" id="cookieText">
-        Usamos analytics para medir audiência e podemos exibir anúncios no futuro. Você pode aceitar tudo, liberar só analytics ou recusar. Os detalhes estão na
-        <a href="politica-de-privacidade.html" id="cookiePolicyLink">política de privacidade</a>.
-      </div>
+      <div class="cookie-text" id="cookieText">Usamos analytics para medir audiência e podemos exibir anúncios no futuro. Você pode aceitar tudo, liberar só analytics ou recusar. Os detalhes estão na <a href="/politica-de-privacidade.html" id="cookiePolicyLink">política de privacidade</a>.</div>
     </div>
     <div class="cookie-actions">
       <button class="ghost-btn" type="button" id="cookieDenyBtn" onclick="setCookieConsent('denied')">Recusar</button>
@@ -347,9 +311,9 @@
     </div>
   </div>
 
-<script src="giscus-config.js" defer></script>
-  <script src="posts.js" defer></script>
-  <script src="assets/js/app.js" defer></script>
+  <script src="/giscus-config.js" defer></script>
+  <script src="/posts.js" defer></script>
+  <script src="/assets/js/app.js" defer></script>
   <script type="application/json" id="cw-inline-app-disabled">{"status":"externalized-to-assets-js-app-js"}</script>
 </body>
 </html>
