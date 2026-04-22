@@ -26,7 +26,7 @@ const PAGE_ROUTE_MAP = {
 const EXTRA_UI = {
   pt: {
     visualLeadTitle: 'Edição em destaque',
-    visualLeadKicker: 'A homepage passa a abrir com prioridade visual. Imagens e vídeos puxam a atenção; o aprofundamento fica dentro da matéria.',
+    visualLeadKicker: 'Vejam os destaques de hoje.',
     archiveHeroTitle: 'Arquivo de notícias',
     archiveHeroKicker: 'O arquivo deixa de ser depósito cronológico opaco e vira página de descoberta, com entrada por tema e destaques visuais.',
     archiveStatsStories: 'matérias visíveis',
