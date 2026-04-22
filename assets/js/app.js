@@ -11,10 +11,10 @@ const RUNTIME_BASE_PATH = (() => {
     canonicalBaseUrl: 'https://www.cosmosweek.com/',
     runtimeBasePath: RUNTIME_BASE_PATH,
     title: 'Cosmos Week',
-    homeTitlePt: 'Cosmos Week — Notícias Científicas do universo',
-    homeTitleEn: 'Cosmos Week — Science journalism for the universe',
-    homeDescriptionPt: 'Portal de Notícias Científicas em português com foco em astronomia, astrofísica, cosmologia e ciência em geral.',
-    homeDescriptionEn: 'Science journalism portal focused on astronomy, astrophysics, cosmology and frontier research.'
+    homeTitlePt: 'Cosmos Week | Notícias científicas, astronomia, astrofísica e cosmologia',
+    homeTitleEn: 'Cosmos Week | Science news, astronomy, astrophysics and cosmology',
+    homeDescriptionPt: 'Cosmos Week é um portal de notícias científicas com cobertura editorial de astronomia, astrofísica, cosmologia, física e fronteiras da ciência.',
+    homeDescriptionEn: 'Cosmos Week is a science news portal covering astronomy, astrophysics, cosmology, physics and frontier research with editorial context.'
   };
 
 
@@ -132,6 +132,7 @@ const EXTRA_UI = {
   }
 };
 
+const SUMMARY_FEED = '/assets/data/posts-index.json';
 const FULL_ARCHIVE_FEED = '/all_posts.json';
 
   const IMG = {
@@ -392,7 +393,27 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
     return merged;
   }
 
-  let DB = hydrateArchive(window.postsData || []);
+  let DB = hydrateArchive([]);
+
+  function ensureSummaryFeedLoaded(force = false) {
+    if (DB.length && !force) return Promise.resolve(DB);
+    if (fullArchiveLoaded && !force) return Promise.resolve(DB);
+    return fetch(`${SUMMARY_FEED}?cb=${Date.now()}`, { cache: 'no-store' })
+      .then(resp => {
+        if (!resp.ok) throw new Error('summary feed fetch failed');
+        return resp.json();
+      })
+      .then(payload => {
+        if (Array.isArray(payload) && payload.length) {
+          DB = mergePostCollections(payload, DB);
+          frontLayoutCache.clear();
+          persistArchiveCache();
+        }
+        return DB;
+      })
+      .catch(() => DB);
+  }
+
 
   function ensureFullArchiveLoaded(force = false) {
     if (fullArchiveLoaded && !force) return Promise.resolve(DB);
@@ -755,8 +776,9 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
   // ── Card markup ────────────────────────────────────────────────────────────
   function cardMarkup(post) {
     const meta = formatMeta(post);
+    const href = getShareURLForArticle(post);
     return `
-      <article class="story-card" onclick="openArticle('${escapeAttr(post.slug)}')">
+      <a class="story-card" href="${href}">
         <div class="card-cover"><img ${imageAttrs(post)}></div>
         <div class="card-body">
           ${renderBadgeRow(post)}
@@ -764,20 +786,21 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
           <p class="deck small">${textFor(post,'excerpt')}</p>
           <div class="meta-row"><span>${meta.date}</span><span>${meta.read}</span><span>${post.source}</span></div>
         </div>
-      </article>`;
+      </a>`;
   }
 
   function compactMarkup(post) {
     const meta = formatMeta(post);
+    const href = getShareURLForArticle(post);
     return `
-      <article class="compact-item" onclick="openArticle('${escapeAttr(post.slug)}')">
+      <a class="compact-item" href="${href}">
         <div class="compact-cover"><img ${imageAttrs(post)}></div>
         <div class="compact-body">
           ${renderBadgeRow(post)}
           <h3 class="headline-md" style="font-size:1.05rem;">${textFor(post,'title')}</h3>
           <div class="compact-meta">${meta.date} · ${meta.read} · ${post.source}</div>
         </div>
-      </article>`;
+      </a>`;
   }
 
   // ── Hero ───────────────────────────────────────────────────────────────────
@@ -1007,7 +1030,7 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
           </div>
         </div>
         <div class="hero-grid featured-hero-grid">
-          <article class="hero-primary" onclick="openArticle('${escapeAttr(lead.slug)}')">
+          <a class="hero-primary" href="${getShareURLForArticle(lead)}">
             <img ${imageAttrs(lead,'eager')}>
             <div class="hero-overlay"></div>
             <div class="hero-content">
@@ -1016,12 +1039,12 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
               <p class="deck" style="max-width:700px;">${textFor(lead,'excerpt')}</p>
               <div class="meta-row" style="margin-top:18px;"><span>${leadMeta.date}</span><span>${leadMeta.read}</span><span>${tr('clickToRead')}</span></div>
             </div>
-          </article>
+          </a>
           <div class="hero-side">
             ${sides.map(post => {
               const meta = formatMeta(post);
               return `
-                <article class="hero-side-card" onclick="openArticle('${escapeAttr(post.slug)}')">
+                <a class="hero-side-card" href="${getShareURLForArticle(post)}">
                   <img ${imageAttrs(post)}>
                   <div class="hero-overlay"></div>
                   <div class="hero-content">
@@ -1029,7 +1052,7 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
                     <h2 class="headline-lg">${textFor(post,'title')}</h2>
                     <div class="meta-row" style="margin-top:10px;"><span>${meta.date}</span><span>${meta.read}</span></div>
                   </div>
-                </article>`;
+                </a>`;
             }).join('')}
           </div>
         </div>
@@ -1069,7 +1092,7 @@ function visualCardMarkup(post, { compact = false } = {}) {
   const meta = formatMeta(post);
   const visualLabel = visualSignalLabel(post);
   return `
-    <article class="visual-card${compact ? ' compact' : ''}" onclick="openArticle('${escapeAttr(post.slug)}')">
+    <a class="visual-card${compact ? ' compact' : ''}" href="${getShareURLForArticle(post)}">
       <img ${imageAttrs(post)}>
       <div class="visual-card-overlay"></div>
       <div class="visual-card-body">
@@ -1081,8 +1104,9 @@ function visualCardMarkup(post, { compact = false } = {}) {
           <div class="meta-row"><span>${prettyCategory(post.cat)}</span><span>${meta.date}</span><span>${post.source}</span></div>
         </div>
       </div>
-    </article>`;
+    </a>`;
 }
+
 
 function renderVisualStrip(layout = currentFrontLayout()) {
   const mount = document.getElementById('visualStrip');
@@ -1093,12 +1117,12 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     if (!post) return '';
     const meta = formatMeta(post);
     return `
-      <button class="briefing-story${compact ? ' compact' : ''}" onclick="openArticle('${escapeAttr(post.slug)}')">
+      <a class="briefing-story${compact ? ' compact' : ''}" href="${getShareURLForArticle(post)}">
         <div class="briefing-story-kicker">${prettyCategory(post.cat)} · ${meta.date}</div>
         <div class="briefing-story-title">${textFor(post,'title')}</div>
         <div class="briefing-story-summary">${truncatePlainText(textFor(post,'excerpt'), compact ? 96 : 165)}</div>
         <div class="briefing-story-meta">${meta.read} · ${post.source}</div>
-      </button>`;
+      </a>`;
   }
 
   function renderFrontBriefing(layout = currentFrontLayout()) {
@@ -1211,9 +1235,9 @@ function renderVisualStrip(layout = currentFrontLayout()) {
       ...(Array.isArray(layout?.hero) ? layout.hero.slice(0, 1) : []),
       ...(Array.isArray(layout?.essential) ? layout.essential.slice(0, 2) : []),
       ...(Array.isArray(layout?.watch) ? layout.watch.slice(0, 2) : []),
-      ...(Array.isArray(layout?.latest) ? layout.latest : [])
+      ...(Array.isArray(layout?.latest) ? layout.latest.slice(0, 3) : [])
     ].filter(post => {
-      if (!post || seen.has(post.slug)) return false;
+      if (!post?.slug || seen.has(post.slug)) return false;
       seen.add(post.slug);
       return true;
     }).slice(0, 5);
@@ -1224,11 +1248,11 @@ function renderVisualStrip(layout = currentFrontLayout()) {
       const meta = formatMeta(post);
       const kicker = meta.time || meta.date;
       return `
-        <button class="sidebar-story-item" onclick="openArticle('${escapeAttr(post.slug)}')">
+        <a class="sidebar-story-item" href="${getShareURLForArticle(post)}">
           <div class="sidebar-story-kicker">${kicker}</div>
           <div class="sidebar-story-title">${textFor(post,'title')}</div>
           <div class="sidebar-story-meta">${prettyCategory(post.cat)} · ${meta.read}</div>
-        </button>`;
+        </a>`;
     }).join('');
   }
 
@@ -1304,17 +1328,16 @@ function renderVisualStrip(layout = currentFrontLayout()) {
 
     const picks = DB
       .filter(post => !post.isPreprint && !blocked.has(post.slug) && (currentCategory === 'all' || post.cat === currentCategory))
-      .sort((a, b) => ((b.score || 0) - (a.score || 0)) || (postTimestamp(b) - postTimestamp(a)))
-      ;
+      .sort((a, b) => ((b.score || 0) - (a.score || 0)) || (postTimestamp(b) - postTimestamp(a)));
 
     mount.innerHTML = picks.map(post => {
       const meta = formatMeta(post);
       return `
-        <button class="sidebar-story-item" onclick="openArticle('${escapeAttr(post.slug)}')">
+        <a class="sidebar-story-item" href="${getShareURLForArticle(post)}">
           <div class="sidebar-story-kicker">${prettyCategory(post.cat)}</div>
           <div class="sidebar-story-title">${textFor(post,'title')}</div>
           <div class="sidebar-story-meta">${meta.date} · ${meta.read}</div>
-        </button>`;
+        </a>`;
     }).join('');
   }
 
@@ -1323,13 +1346,13 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     const mount = document.getElementById('trendingList');
     const posts = Array.isArray(postsOverride) ? postsOverride : currentFrontLayout().trending;
     mount.innerHTML = posts.map((post, i) => `
-      <button class="trend-item" onclick="openArticle('${escapeAttr(post.slug)}')">
+      <a class="trend-item" href="${getShareURLForArticle(post)}">
         <div class="trend-num">${i+1}</div>
         <div>
           <div class="trend-title">${textFor(post,'title')}</div>
           <div class="trend-meta">${prettyCategory(post.cat)} · ${formatMeta(post).read}</div>
         </div>
-      </button>`).join('');
+      </a>`).join('');
   }
 
   // ── Source mix ─────────────────────────────────────────────────────────────
@@ -2091,8 +2114,13 @@ function renderVisualStrip(layout = currentFrontLayout()) {
   function renderSearch(query) {
     const q = normalizarTexto(query);
     const results = DB.filter(post => normalizarTexto([
-      post.title, post.title_pt, post.title_en, post.excerpt, post.excerpt_pt, post.excerpt_en,
-      post.body, post.body_pt, post.body_en, post.source, post.cat
+      post.title, post.title_pt, post.title_en,
+      post.excerpt, post.excerpt_pt, post.excerpt_en,
+      post.sub, post.sub_pt, post.sub_en,
+      post.source, post.cat,
+      ...(Array.isArray(post.keywords) ? post.keywords : []),
+      ...(Array.isArray(post.keywords_pt) ? post.keywords_pt : []),
+      ...(Array.isArray(post.keywords_en) ? post.keywords_en : [])
     ].join(' ')).includes(q));
     document.getElementById('searchInfo').textContent = `${results.length} ${tr('resultsFor')} "${query}"`;
     document.getElementById('searchGrid').innerHTML = results.map(cardMarkup).join('');
@@ -2154,7 +2182,10 @@ function renderVisualStrip(layout = currentFrontLayout()) {
 
   function openArticle(slug) {
     const post = DB.find(item => item.slug === slug);
-    if (post) safePushState(getURLForArticle(post));
+    if (post) {
+      window.location.href = getShareURLForArticle(post);
+      return;
+    }
     renderArticle(slug);
   }
 
@@ -2362,26 +2393,15 @@ function renderVisualStrip(layout = currentFrontLayout()) {
   function refreshFeed() {
     const btn = document.getElementById('updateBtn');
     bumpHeroRotationSeed();
-    btn.classList.add('loading'); btn.disabled = true;
-    fetch(`/posts.js?cb=${Date.now()}`, { cache:'no-store' })
-      .then(resp => { if (!resp.ok) throw new Error('fetch failed'); return resp.text(); })
-      .then(js => {
-        const sandboxWindow = {};
-        Function('window', js + '; return window.postsData;')(sandboxWindow);
-        if (Array.isArray(sandboxWindow.postsData) && sandboxWindow.postsData.length) {
-          DB = mergePostCollections(sandboxWindow.postsData, DB);
-          frontLayoutCache.clear();
-          persistArchiveCache();
-          updateLastUpdatedLabel();
-          rerenderCurrentView();
-          showToast(tr('updateDone'));
-        } else {
-          rerenderCurrentView();
-          showToast(tr('updateDone'));
-        }
+    if (btn) { btn.classList.add('loading'); btn.disabled = true; }
+    ensureSummaryFeedLoaded(true)
+      .then(() => {
+        updateLastUpdatedLabel();
+        rerenderCurrentView();
+        showToast(tr('updateDone'));
       })
       .catch(() => { rerenderCurrentView(); showToast(tr('updateFail')); })
-      .finally(() => { btn.classList.remove('loading'); btn.disabled = false; });
+      .finally(() => { if (btn) { btn.classList.remove('loading'); btn.disabled = false; } });
   }
 
   function copyArticleLink() {
@@ -2471,67 +2491,56 @@ function renderVisualStrip(layout = currentFrontLayout()) {
   }
 
   // ── SEO / Meta ─────────────────────────────────────────────────────────────
-  function updateMetaHome() {
-    const title = currentLang==='en' ? SITE.homeTitleEn : SITE.homeTitlePt;
-    const description = currentLang==='en' ? SITE.homeDescriptionEn : SITE.homeDescriptionPt;
-    const homeJsonLd = [
-      {
-        '@context': 'https://schema.org',
-        '@type': 'NewsMediaOrganization',
-        '@id': SITE.canonicalBaseUrl + '#organization',
-        name: SITE.title,
-        url: SITE.canonicalBaseUrl,
-        logo: { '@type': 'ImageObject', url: 'https://www.cosmosweek.com/assets/og-default.jpg' },
-        description: description,
-        publishingPrinciples: canonicalPageUrl('standards', 'pt'),
-        inLanguage: ['pt-BR', 'en-US']
-      },
-      {
-        '@context': 'https://schema.org',
-        '@type': 'WebSite',
-        '@id': SITE.canonicalBaseUrl + '#website',
-        name: SITE.title,
-        url: SITE.canonicalBaseUrl,
-        description: description,
-        inLanguage: currentLang === 'en' ? 'en-US' : 'pt-BR',
-        publisher: { '@id': SITE.canonicalBaseUrl + '#organization' },
-        potentialAction: {
-          '@type': 'SearchAction',
-          target: { '@type': 'EntryPoint', urlTemplate: SITE.canonicalBaseUrl + '?q={search_term_string}' },
-          'query-input': 'required name=search_term_string'
-        }
-      }
+  function buildStaticPageJsonLd(page, title, description) {
+    const url = canonicalPageUrl(page, currentLang);
+    const langCode = currentLang === 'en' ? 'en-US' : 'pt-BR';
+    const breadcrumbs = [
+      {'@type':'ListItem',position:1,name:currentLang==='en'?'Home':'Início',item:canonicalPageUrl('home', currentLang)}
     ];
-    updateMetaCommon(title, description, canonicalPageUrl('home'), IMG.pillars, homeJsonLd, {
+    if (page !== 'home') breadcrumbs.push({'@type':'ListItem',position:2,name:title.replace(` — ${SITE.title}`,''),item:url});
+    const graph = [
+      {'@context':'https://schema.org','@type':'NewsMediaOrganization','@id':`${SITE.canonicalBaseUrl}#organization`,name:SITE.title,url:SITE.canonicalBaseUrl,logo:{'@type':'ImageObject',url:IMG.pillars}},
+      {'@context':'https://schema.org','@type':'WebSite','@id':`${canonicalPageUrl('home', currentLang)}#website`,name:SITE.title,url:canonicalPageUrl('home', currentLang),description:currentLang === 'en' ? SITE.homeDescriptionEn : SITE.homeDescriptionPt,inLanguage:langCode,publisher:{'@id':`${SITE.canonicalBaseUrl}#organization`}},
+      {'@context':'https://schema.org','@type': page === 'home' ? 'CollectionPage' : (page === 'archive' ? 'CollectionPage' : (page === 'about' ? 'AboutPage' : 'WebPage')),'@id':url,url,name:title,description,inLanguage:langCode,isPartOf:{'@id':`${canonicalPageUrl('home', currentLang)}#website`},primaryImageOfPage:{'@type':'ImageObject',url:IMG.pillars}},
+      {'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:breadcrumbs}
+    ];
+    if (page === 'home' || page === 'archive') {
+      const items = DB.slice(0, Math.min(page === 'home' ? 8 : 12, DB.length)).map((post, index) => ({'@type':'ListItem',position:index + 1,url:getShareURLForArticle(post),name:textFor(post,'title')}));
+      graph.push({'@context':'https://schema.org','@type':'ItemList',name:title,itemListElement:items});
+    }
+    return graph;
+  }
+
+  function updateMetaHome() {
+    const title = currentLang === 'en' ? SITE.homeTitleEn : SITE.homeTitlePt;
+    const description = currentLang === 'en' ? SITE.homeDescriptionEn : SITE.homeDescriptionPt;
+    updateMetaCommon(title, description, canonicalPageUrl('home', currentLang), IMG.pillars, buildStaticPageJsonLd('home', title, description), {
       robots: 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
-      newsKeywords: 'astronomia, astrofísica, cosmologia, ciência, espaço',
+      newsKeywords: currentLang === 'en' ? 'science news, astronomy, astrophysics, cosmology, physics' : 'notícias científicas, astronomia, astrofísica, cosmologia, física',
       alternatePt: canonicalPageUrl('home', 'pt'),
       alternateEn: canonicalPageUrl('home', 'en'),
       alternateDefault: canonicalPageUrl('home', 'pt'),
       locale: currentLang === 'en' ? 'en_US' : 'pt_BR',
       localeAlternate: currentLang === 'en' ? 'pt_BR' : 'en_US',
-      imageAlt: 'Cosmos Week',
+      imageAlt: SITE.title,
       author: currentLang === 'en' ? 'Cosmos Week Editorial Desk' : 'Redação do Cosmos Week',
       ogType: 'website'
     });
   }
 
   function updateMetaStatic(page) {
-    const titles = {
-      about: currentLang==='en'?'About Cosmos Week':'Sobre o Cosmos Week',
-      archive: currentLang==='en'?'Editorial archive':'Arquivo editorial',
-      standards: currentLang==='en'?'Editorial standards':'Padrões editoriais',
-      search: currentLang==='en'?'Search':'Busca'
-    };
+    const titles = { about: currentLang==='en'?'About Cosmos Week':'Sobre o Cosmos Week', archive: currentLang==='en'?'Archive':'Arquivo', standards: currentLang==='en'?'Editorial standards':'Padrões editoriais', search: currentLang==='en'?'Search':'Busca' };
     const descriptions = {
-      about: currentLang==='en'?'About the editorial ambition and scope of Cosmos Week.':'Sobre a ambição editorial e o escopo do Cosmos Week.',
-      archive: currentLang==='en'?'The complete archive of stories currently available.':'O arquivo completo das matérias disponíveis.',
-      standards: currentLang==='en'?'Methodology, source labeling and editorial safeguards.':'Metodologia, rotulagem de fonte e salvaguardas editoriais.',
+      about: currentLang==='en'?'Learn about the editorial mission, coverage scope and structure behind Cosmos Week.':'Conheça a proposta editorial do Cosmos Week, seu escopo de cobertura científica e a estrutura do portal.',
+      archive: currentLang==='en'?'Browse the Cosmos Week editorial archive with science stories organized by topic, context and editorial relevance.':'Explore o arquivo editorial do Cosmos Week com notícias científicas organizadas por tema, contexto e relevância editorial.',
+      standards: currentLang==='en'?'Read the Cosmos Week editorial standards for sourcing, context, transparency, preprints and evidence hierarchy.':'Veja os padrões editoriais do Cosmos Week para fonte, contexto, transparência, preprints e hierarquia de evidências.',
       search: currentLang==='en'?'Search results inside Cosmos Week.':'Resultados de busca dentro do Cosmos Week.'
     };
-    updateMetaCommon(`${titles[page]} — ${SITE.title}`, descriptions[page], canonicalPageUrl(page), IMG.pillars, null, {
-      robots: page === 'search' ? 'noindex,follow' : 'index,follow',
-      newsKeywords: 'Notícias Científicas, astronomia, astrofísica, cosmologia',
+    const title = `${titles[page]} — ${SITE.title}`;
+    const description = descriptions[page];
+    updateMetaCommon(title, description, canonicalPageUrl(page, currentLang), IMG.pillars, buildStaticPageJsonLd(page, title, description), {
+      robots: page === 'search' ? 'noindex,follow' : 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1',
+      newsKeywords: currentLang === 'en' ? 'science news, astronomy, astrophysics, cosmology, physics' : 'notícias científicas, astronomia, astrofísica, cosmologia, física',
       alternatePt: canonicalPageUrl(page, 'pt'),
       alternateEn: canonicalPageUrl(page, 'en'),
       alternateDefault: canonicalPageUrl(page, 'pt'),
@@ -2642,6 +2651,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     const article = params.get('article');
     const pageParam = normalizePageKey(params.get('page') || '');
     const path = window.location.pathname || '';
+    const query = (params.get('q') || '').trim();
     const bodyPage = normalizePageKey(document.body?.dataset?.cwPage || '');
     const bodyLang = (document.body?.dataset?.cwLang || '').toLowerCase();
     const pathMatchPt = path.match(/^\/noticia\/([^\/]+)\/?$/i);
@@ -2649,9 +2659,14 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     const articleFromPath = pathMatchEn ? decodeURIComponent(pathMatchEn[1]) : (pathMatchPt ? decodeURIComponent(pathMatchPt[1]) : '');
     if ((params.get('lang') || '').toLowerCase() === 'en' || /^\/en(?:\/|$)/i.test(path) || pathMatchEn || bodyLang === 'en') currentLang = 'en';
     if ((params.get('lang') || '').toLowerCase() === 'pt' || pathMatchPt || bodyLang === 'pt' || /^\/(arquivo|sobre|padroes)(?:\/|$)/i.test(path) || path === '/') currentLang = 'pt';
-    if (article) { renderArticle(article); return; }
+    if (article) {
+      const post = DB.find(item => item.slug === article);
+      if (post) { window.location.replace(getShareURLForArticle(post)); return; }
+      renderArticle(article); return;
+    }
     if (articleFromPath) { renderArticle(articleFromPath); return; }
     const page = pageParam !== 'home' ? pageParam : (routePageFromPath(path) || bodyPage || 'home');
+    if (query) { const input = document.getElementById('searchInput'); if (input) input.value = query; renderSearch(query); return; }
     if (page === 'archive') { renderArchive(); return; }
     if (page === 'about') { renderAbout(); return; }
     if (page === 'standards') { renderStandards(); return; }
@@ -2673,8 +2688,22 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     initCookieBanner();
     initRigSyncBanner();
     persistArchiveCache();
-    parseRoute();
-    if (normalizePageKey(document.body?.dataset?.cwPage || '') === 'archive' || routePageFromPath(window.location.pathname || '') === 'archive') {
-      ensureFullArchiveLoaded();
+    const searchForm = document.getElementById('siteSearchForm');
+    if (searchForm) {
+      searchForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const input = document.getElementById('searchInput');
+        const value = (input?.value || '').trim();
+        if (!value) { goHome(); return; }
+        const url = `${pageUrl('home')}?q=${encodeURIComponent(value)}`;
+        safeReplaceState(url);
+        renderSearch(value);
+      });
     }
+    ensureSummaryFeedLoaded().finally(() => {
+      parseRoute();
+      if (normalizePageKey(document.body?.dataset?.cwPage || '') === 'archive' || routePageFromPath(window.location.pathname || '') === 'archive') {
+        ensureFullArchiveLoaded();
+      }
+    });
   });

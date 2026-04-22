@@ -1,8 +1,9 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MX20J1ZG06"></script>
-  <script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-MX20J1ZG06"></script>
+<script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('consent', 'default', {
@@ -24,296 +25,271 @@
     gtag('config', 'G-MX20J1ZG06', { anonymize_ip: true });
     window.CW_BOOTSTRAP = { page: 'archive', lang: 'pt', rootPath: '/' };
   </script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#081425">
-  <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta name="description" content="Arquivo editorial do Cosmos Week com navegação por tema, destaques visuais e acervo contínuo.">
-  <meta property="og:title" content="Arquivo — Cosmos Week">
-  <meta property="og:description" content="Arquivo editorial do Cosmos Week com navegação por tema, destaques visuais e acervo contínuo.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="https://www.cosmosweek.com/assets/og-default.jpg">
-  <meta property="og:image:alt" id="ogImageAltMeta" content="Cosmos Week">
-  <meta property="og:url" content="https://www.cosmosweek.com/arquivo/">
-  <meta property="og:locale" id="ogLocaleMeta" content="pt_BR">
-  <meta property="og:locale:alternate" id="ogLocaleAlternateMeta" content="en_US">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Arquivo — Cosmos Week">
-  <meta name="twitter:description" content="Arquivo editorial do Cosmos Week com navegação por tema, destaques visuais e acervo contínuo.">
-  <meta name="twitter:image" content="https://www.cosmosweek.com/assets/og-default.jpg">
-  <meta name="twitter:image:alt" id="twitterImageAltMeta" content="Cosmos Week">
-  <meta name="author" id="authorMeta" content="Redação do Cosmos Week">
-  <meta name="robots" id="robotsMeta" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
-  <meta name="news_keywords" id="newsKeywordsMeta" content="astronomia, astrofísica, cosmologia, ciência">
-  <meta property="og:site_name" content="Cosmos Week">
-  <meta property="article:published_time" id="articlePublishedMeta" content="">
-  <meta property="article:modified_time" id="articleModifiedMeta" content="">
-  <meta property="article:section" id="articleSectionMeta" content="">
-  <link rel="canonical" id="canonicalLink" href="https://www.cosmosweek.com/arquivo/">
-  <link rel="preload" as="image" href="https://www.cosmosweek.com/assets/og-default.jpg" fetchpriority="high">
-  <link rel="alternate" hreflang="pt-BR" id="alternatePtLink" href="https://www.cosmosweek.com/arquivo/">
-  <link rel="alternate" hreflang="en-US" id="alternateEnLink" href="https://www.cosmosweek.com/en/archive/">
-  <link rel="alternate" hreflang="x-default" id="alternateDefaultLink" href="https://www.cosmosweek.com/arquivo/">
-  <link rel="alternate" type="application/rss+xml" title="Cosmos Week RSS" href="/feed.xml">
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7289727408346815" crossorigin="anonymous"></script>
-  <title>Arquivo — Cosmos Week</title>
-  <script type="application/ld+json" id="siteJsonLd">{"@context":"https://schema.org","@type":"WebSite","name":"Cosmos Week","url":"https://www.cosmosweek.com/arquivo/","description":"Arquivo editorial do Cosmos Week com navegação por tema, destaques visuais e acervo contínuo."}</script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/main.css">
-  <meta name="apple-itunes-app" content="app-id=6759013786">
-</head>
-<body class="phase3-premium" data-ui-phase="3" data-cw-page="archive" data-cw-lang="pt">
-  <a class="skip-link" href="#mainContent">Pular para o conteúdo principal</a>
-  <div id="readingProgress"></div>
-
-  <div class="topbar">
-    <div class="topbar-inner">
-      <div id="topbarCopy">Portal de <strong>Notícias Científicas</strong> com cobertura contínua e rigor na apuração.</div>
-      <div id="lastUpdatedLabel">Atualização: aguardando feed</div>
-    </div>
-  </div>
-
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="logo" href="/" onclick="event.preventDefault(); goHome()">
-        <div class="logo-title">Cosmos<em>Week</em></div>
-        <div class="logo-sub" id="logoSub">Notícias Científicas em português</div>
-      </a>
-
-      <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
-        <a class="nav-link" id="navHome" href="/" onclick="event.preventDefault(); goHome()">Início</a>
-        <a class="nav-link" id="navArchive" href="/arquivo/" onclick="event.preventDefault(); openPage('archive')">Arquivo</a>
-        <a class="nav-link" id="navAbout" href="/sobre/" onclick="event.preventDefault(); openPage('about')">Sobre</a>
-        <a class="nav-link" id="navStandards" href="/padroes/" onclick="event.preventDefault(); openPage('standards')">Padrões</a>
-      </nav>
-
-      <div class="header-tools">
-        <label class="searchbox" aria-label="Buscar artigos">
-          <input id="searchInput" type="text" placeholder="Buscar notícias, temas ou fontes..." oninput="handleSearchInput(this.value)">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        </label>
-        <div class="lang-switch" aria-label="Selecionar idioma">
-          <a id="langPt" href="https://www.cosmosweek.com/arquivo/" onclick="event.preventDefault(); setLanguage('pt')">🇧🇷</a>
-          <a id="langEn" href="https://www.cosmosweek.com/en/archive/" onclick="event.preventDefault(); setLanguage('en')">🇺🇸</a>
-        </div>
-        <a class="social-icon-link" href="https://www.instagram.com/cosmos_week/" target="_blank" rel="noopener" aria-label="Instagram">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="5.2" ry="5.2"/><path d="M17.5 6.5h.01"/><circle cx="12" cy="12" r="4.25"/></svg>
-        </a>
-        <a class="ghost-btn" href="/padroes/" onclick="event.preventDefault(); openPage('standards')" id="methodBtn">Metodologia</a>
-        <a class="ghost-btn" href="/anuncie.html" id="adsBtn" style="display:inline-flex;align-items:center;justify-content:center;">Anuncie</a>
-        <button class="primary-btn" type="button" id="updateBtn" onclick="refreshFeed()">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.13-3.36L23 10"/><path d="M20.49 15a9 9 0 0 1-14.13 3.36L1 14"/></svg>
-          <span id="updateBtnLabel">Atualizar</span>
-        </button>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#081425" name="theme-color"/>
+<meta content="strict-origin-when-cross-origin" name="referrer"/>
+<meta content="Explore o arquivo editorial do Cosmos Week com notícias científicas organizadas por tema, contexto e relevância editorial." name="description"/>
+<meta content="Arquivo | Cosmos Week" property="og:title"/>
+<meta content="Explore o arquivo editorial do Cosmos Week com notícias científicas organizadas por tema, contexto e relevância editorial." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://www.cosmosweek.com/assets/og-default.jpg" property="og:image"/>
+<meta content="Cosmos Week" id="ogImageAltMeta" property="og:image:alt"/>
+<meta content="https://www.cosmosweek.com/arquivo/" property="og:url"/>
+<meta content="pt_BR" id="ogLocaleMeta" property="og:locale"/>
+<meta content="en_US" id="ogLocaleAlternateMeta" property="og:locale:alternate"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Arquivo | Cosmos Week" name="twitter:title"/>
+<meta content="Explore o arquivo editorial do Cosmos Week com notícias científicas organizadas por tema, contexto e relevância editorial." name="twitter:description"/>
+<meta content="https://www.cosmosweek.com/assets/og-default.jpg" name="twitter:image"/>
+<meta content="Cosmos Week" id="twitterImageAltMeta" name="twitter:image:alt"/>
+<meta content="Redação do Cosmos Week" id="authorMeta" name="author"/>
+<meta content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" id="robotsMeta" name="robots"/>
+<meta content="arquivo de notícias científicas, astronomia, astrofísica, cosmologia, ciência" id="newsKeywordsMeta" name="news_keywords"/>
+<meta content="Cosmos Week" property="og:site_name"/>
+<meta content="" id="articlePublishedMeta" property="article:published_time"/>
+<meta content="" id="articleModifiedMeta" property="article:modified_time"/>
+<meta content="" id="articleSectionMeta" property="article:section"/>
+<link href="https://www.cosmosweek.com/arquivo/" id="canonicalLink" rel="canonical"/>
+<link as="image" fetchpriority="high" href="https://www.cosmosweek.com/assets/og-default.jpg" rel="preload"/>
+<link href="https://www.cosmosweek.com/arquivo/" hreflang="pt-BR" id="alternatePtLink" rel="alternate"/>
+<link href="https://www.cosmosweek.com/en/archive/" hreflang="en-US" id="alternateEnLink" rel="alternate"/>
+<link href="https://www.cosmosweek.com/arquivo/" hreflang="x-default" id="alternateDefaultLink" rel="alternate"/>
+<link href="/feed.xml" rel="alternate" title="Cosmos Week RSS" type="application/rss+xml"/>
+<script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7289727408346815"></script>
+<title>Arquivo | Cosmos Week</title>
+<script id="siteJsonLd" type="application/ld+json">[{"@context": "https://schema.org", "@type": "NewsMediaOrganization", "@id": "https://www.cosmosweek.com/#organization", "name": "Cosmos Week", "url": "https://www.cosmosweek.com/", "logo": {"@type": "ImageObject", "url": "https://www.cosmosweek.com/assets/og-default.jpg"}}, {"@context": "https://schema.org", "@type": "WebSite", "@id": "https://www.cosmosweek.com/#website", "name": "Cosmos Week", "url": "https://www.cosmosweek.com/", "description": "Cosmos Week é um portal de notícias científicas com cobertura editorial de astronomia, astrofísica, cosmologia, física e fronteiras da ciência.", "inLanguage": "pt-BR", "publisher": {"@id": "https://www.cosmosweek.com/#organization"}}, {"@context": "https://schema.org", "@type": "CollectionPage", "@id": "https://www.cosmosweek.com/arquivo/", "url": "https://www.cosmosweek.com/arquivo/", "name": "Arquivo | Cosmos Week", "description": "Explore o arquivo editorial do Cosmos Week com notícias científicas organizadas por tema, contexto e relevância editorial.", "inLanguage": "pt-BR", "primaryImageOfPage": {"@type": "ImageObject", "url": "https://www.cosmosweek.com/assets/og-default.jpg"}, "isPartOf": {"@id": "https://www.cosmosweek.com/#website"}}, {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Início", "item": "https://www.cosmosweek.com/"}, {"@type": "ListItem", "position": 2, "name": "Arquivo", "item": "https://www.cosmosweek.com/arquivo/"}]}, {"@context": "https://schema.org", "@type": "ItemList", "name": "Arquivo | Cosmos Week", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://www.cosmosweek.com/noticia/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/", "name": "Ensaios Clínicos Apoiam o Uso Semanal de Buprenorfina de Liberação Prolongada para o Tratamento do Transtorno por Uso de Opioides na Gravidez"}, {"@type": "ListItem", "position": 2, "url": "https://www.cosmosweek.com/noticia/chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc/", "name": "A inflamação crônica deixa uma marca duradoura nas células-tronco intestinais, elevando o risco de câncer colorretal"}, {"@type": "ListItem", "position": 3, "url": "https://www.cosmosweek.com/noticia/stellar-flares-may-expand-habitable-zones-around-small-stars/", "name": "Explosões Estelares Podem Expandir Zonas Habitáveis em Torno de Estrelas de Pequena Massa"}, {"@type": "ListItem", "position": 4, "url": "https://www.cosmosweek.com/noticia/what-are-ames-contributions-to-artemis-ii/", "name": "As Contribuições do Centro de Pesquisa Ames para a Missão Artemis II"}, {"@type": "ListItem", "position": 5, "url": "https://www.cosmosweek.com/noticia/astronomers-find-the-edge-of-the-milky-way/", "name": "Astrônomos Identificam o Limite da Formação Estelar na Via Láctea"}, {"@type": "ListItem", "position": 6, "url": "https://www.cosmosweek.com/noticia/automated-ct-scan-analysis-could-fast-track-clinical-assessments/", "name": "A análise automatizada da tomografia computadorizada pode acelerar as avaliações clínicas"}, {"@type": "ListItem", "position": 7, "url": "https://www.cosmosweek.com/noticia/behold-the-solar-system-in-all-its-x-ray-glory/", "name": "A Glória do Sistema Solar em Raios X: Novas Revelações do eROSITA"}, {"@type": "ListItem", "position": 8, "url": "https://www.cosmosweek.com/noticia/nasa-on-track-for-future-missions-with-initial-artemis-ii-assessments/", "name": "Análise Pós-Missão Artemis II da NASA: Avaliações Iniciais Impulsionam Futuras Explorações"}, {"@type": "ListItem", "position": 9, "url": "https://www.cosmosweek.com/noticia/nasa-rolls-out-artemis-iii-moon-rocket-core-stage/", "name": "NASA move estágio central do foguete SLS para a missão Artemis III"}, {"@type": "ListItem", "position": 10, "url": "https://www.cosmosweek.com/noticia/the-vera-c-rubin-observatory-has-discovered-11-000-new-asteroids-and-it-s-barely-even-started/", "name": "O Observatório Vera C. Rubin descobriu 11.000 novos asteróides e mal começou!"}, {"@type": "ListItem", "position": 11, "url": "https://www.cosmosweek.com/noticia/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/", "name": "Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres"}, {"@type": "ListItem", "position": 12, "url": "https://www.cosmosweek.com/noticia/theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea/", "name": "Modelos Teóricos da Química de Supernovas Revisados Após Dados de Raios X do Aglomerado de Perseu Revelarem Discrepâncias Importantes"}]}]</script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;family=Lora:ital,wght@0,400;0,500;1,400&amp;family=Inter:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/><noscript><link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;family=Lora:ital,wght@0,400;0,500;1,400&amp;family=Inter:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/></noscript>
+<link href="/assets/css/main.css" rel="stylesheet"/>
+<meta content="app-id=6759013786" name="apple-itunes-app"/>
+<link as="fetch" crossorigin="anonymous" href="/assets/data/posts-index.json" rel="preload"/></head>
+<body class="phase3-premium" data-cw-lang="pt" data-cw-page="archive" data-ui-phase="3">
+<a class="skip-link" href="#mainContent">Pular para o conteúdo principal</a>
+<div id="readingProgress"></div>
+<div class="topbar">
+<div class="topbar-inner">
+<div id="topbarCopy">Portal de <strong>Notícias Científicas</strong> com cobertura contínua e rigor na apuração.</div>
+<div id="lastUpdatedLabel">Atualização: aguardando feed</div>
+</div>
+</div>
+<header class="site-header">
+<div class="header-inner">
+<a class="logo" href="/" onclick="event.preventDefault(); goHome()">
+<div class="logo-title">Cosmos<em>Week</em></div>
+<div class="logo-sub" id="logoSub">Notícias Científicas em português</div>
+</a>
+<nav aria-label="Navegação principal" class="main-nav" id="mainNav">
+<a class="nav-link" href="/" id="navHome" onclick="event.preventDefault(); goHome()">Início</a>
+<a class="nav-link" href="/arquivo/" id="navArchive" onclick="event.preventDefault(); openPage('archive')">Arquivo</a>
+<a class="nav-link" href="/sobre/" id="navAbout" onclick="event.preventDefault(); openPage('about')">Sobre</a>
+<a class="nav-link" href="/padroes/" id="navStandards" onclick="event.preventDefault(); openPage('standards')">Padrões</a>
+</nav>
+<div class="header-tools">
+<form action="https://www.cosmosweek.com/" class="searchbox" id="siteSearchForm" method="get" role="search"><input autocomplete="off" enterkeyhint="search" id="searchInput" name="q" oninput="handleSearchInput(this.value)" placeholder="Buscar notícias, temas ou fontes..." type="text"/><button aria-label="Buscar" type="submit"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg></button></form>
+<div aria-label="Selecionar idioma" class="lang-switch">
+<a href="https://www.cosmosweek.com/arquivo/" id="langPt" onclick="event.preventDefault(); setLanguage('pt')">🇧🇷</a>
+<a href="https://www.cosmosweek.com/en/archive/" id="langEn" onclick="event.preventDefault(); setLanguage('en')">🇺🇸</a>
+</div>
+<a aria-label="Instagram" class="social-icon-link" href="https://www.instagram.com/cosmos_week/" rel="noopener" target="_blank">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><rect height="19" rx="5.2" ry="5.2" width="19" x="2.5" y="2.5"></rect><path d="M17.5 6.5h.01"></path><circle cx="12" cy="12" r="4.25"></circle></svg>
+</a>
+<a class="ghost-btn" href="/padroes/" id="methodBtn" onclick="event.preventDefault(); openPage('standards')">Metodologia</a>
+<a class="ghost-btn" href="/anuncie.html" id="adsBtn" style="display:inline-flex;align-items:center;justify-content:center;">Anuncie</a>
+<button class="primary-btn" id="updateBtn" onclick="refreshFeed()" type="button">
+<svg fill="none" height="13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" viewbox="0 0 24 24" width="13"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.13-3.36L23 10"></path><path d="M20.49 15a9 9 0 0 1-14.13 3.36L1 14"></path></svg>
+<span id="updateBtnLabel">Atualizar</span>
+</button>
+</div>
+</div>
+<div class="ticker">
+<div class="ticker-badge" id="tickerBadge">Destaques</div>
+<div class="ticker-viewport"><div class="ticker-track" id="tickerTrack"></div></div>
+</div>
+<div class="catbar">
+<div class="catbar-inner" id="catbarInner">
+<button class="cat-pill on" data-cat="all" onclick="setCategory('all',this)">Todas</button>
+<button class="cat-pill" data-cat="Astronomia" onclick="setCategory('Astronomia',this)">Astronomia</button>
+<button class="cat-pill" data-cat="Cosmologia" onclick="setCategory('Cosmologia',this)">Cosmologia</button>
+<button class="cat-pill" data-cat="Astrofísica" onclick="setCategory('Astrofísica',this)">Astrofísica</button>
+<button class="cat-pill" data-cat="Exoplanetas" onclick="setCategory('Exoplanetas',this)">Exoplanetas</button>
+<button class="cat-pill" data-cat="Física" onclick="setCategory('Física',this)">Física</button>
+<button class="cat-pill" data-cat="Biologia" onclick="setCategory('Biologia',this)">Biologia</button>
+<button class="cat-pill" data-cat="Química" onclick="setCategory('Química',this)">Química</button>
+<button class="cat-pill" data-cat="Ciências da Terra" onclick="setCategory('Ciências da Terra',this)">Ciências da Terra</button>
+</div>
+</div>
+</header>
+<main class="wrap site-main" id="mainContent" tabindex="-1">
+<div aria-hidden="true" class="ad-slot ad-slot--leaderboard" id="adSlotLeaderboard"></div>
+<noscript>
+<div class="noscript-message">
+<strong>JavaScript está desativado.</strong> O Cosmos Week usa uma camada dinâmica para montar a grade editorial. Você ainda pode usar o <a href="/sitemap.xml">sitemap</a>, o <a href="/feed.xml">RSS</a> e as rotas principais do portal.
       </div>
-    </div>
+</noscript>
+<section class="page active" id="pageHome">
+<h1 class="visually-hidden" id="homePageTitle">Portal Cosmos Week de notícias científicas</h1>
+<div id="heroMount"><section class="featured-package"><div class="section-head"><div><div class="section-title">Edição em destaque</div><div class="section-kicker">Uma abertura curada com as histórias científicas mais relevantes do momento.</div></div></div><div class="hero-grid featured-hero-grid"><a class="hero-primary" href="https://www.cosmosweek.com/noticia/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/"><img alt="Ensaios Clínicos Apoiam o Uso Semanal de Buprenorfina de Liberação Prolongada para o Tratamento do Transtorno por Uso de Opioides na Gravidez" decoding="async" fetchpriority="high" loading="eager" src="https://www.nih.gov/sites/default/files/styles/max_650x650/public/2026-03/20260316-preg.jpg?itok=wkkS3xYQ"/><div class="hero-overlay"></div><div class="hero-content"><div class="label-row"><span class="label biologia">Biologia</span></div><h2 class="headline-xl" style="margin-bottom:12px;">Ensaios Clínicos Apoiam o Uso Semanal de Buprenorfina de Liberação Prolongada para o Tratamento do Transtorno por Uso de Opioides na Gravidez</h2><p class="deck" style="max-width:700px;">Um estudo apoiado pelo NIH demonstrou que o tratamento com buprenorfina de liberação prolongada, administrada semanalmente, resultou em taxas mais elevadas de…</p><div class="meta-row" style="margin-top:18px;"><span>22 abr 2026</span><span>4 min de leitura</span><span>Abrir matéria</span></div></div></a><div class="hero-side"><a class="hero-side-card" href="https://www.cosmosweek.com/noticia/chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc/"><img alt="A inflamação crônica deixa uma marca duradoura nas células-tronco intestinais, elevando o risco de câncer colorretal" decoding="async" loading="lazy" src="https://www.nih.gov/sites/default/files/styles/max_650x650/public/2026-03/20260325-memories-research.jpg?itok=oHNvQp-y"/><div class="hero-overlay"></div><div class="hero-content"><div class="label-row"><span class="label biologia">Biologia</span></div><h2 class="headline-lg">A inflamação crônica deixa uma marca duradoura nas células-tronco intestinais, elevando o risco de câncer colorretal</h2><div class="meta-row" style="margin-top:10px;"><span>22 abr 2026</span><span>4 min de leitura</span></div></div></a><a class="hero-side-card" href="https://www.cosmosweek.com/noticia/stellar-flares-may-expand-habitable-zones-around-small-stars/"><img alt="Explosões Estelares Podem Expandir Zonas Habitáveis em Torno de Estrelas de Pequena Massa" decoding="async" loading="lazy" src="https://www.universetoday.com/article_images/cropped_750_20260422_033917.jpg"/><div class="hero-overlay"></div><div class="hero-content"><div class="label-row"><span class="label exoplanetas">Exoplanetas</span></div><h2 class="headline-lg">Explosões Estelares Podem Expandir Zonas Habitáveis em Torno de Estrelas de Pequena Massa</h2><div class="meta-row" style="margin-top:10px;"><span>22 abr 2026</span><span>4 min de leitura</span></div></div></a></div></div></section></div>
+<div id="visualStrip"></div>
+<div id="topicNav"><section class="topic-map"><div class="section-head section-head--soft"><div><div class="section-title">Navegue por tema</div><div class="section-kicker">Escolha uma porta de entrada temática para o arquivo.</div></div></div><div class="topic-nav-list"><a class="topic-chip on" href="https://www.cosmosweek.com/"><span>Todas</span><span class="topic-count">148</span></a><a aria-label="Astronomia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Astronomia</span><span class="topic-count">35</span></a><a aria-label="Cosmologia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Cosmologia</span><span class="topic-count">10</span></a><a aria-label="Astrofísica" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Astrofísica</span><span class="topic-count">11</span></a><a aria-label="Exoplanetas" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Exoplanetas</span><span class="topic-count">10</span></a><a aria-label="Física" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Física</span><span class="topic-count">15</span></a><a aria-label="Biologia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Biologia</span><span class="topic-count">34</span></a><a aria-label="Química" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Química</span><span class="topic-count">10</span></a><a aria-label="Ciências da Terra" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Ciências da Terra</span><span class="topic-count">23</span></a></div></section></div>
+<div class="story-layout">
+<div>
+<div class="section-head" id="latestSectionHead">
+<div>
+<div class="section-title" id="latestSectionTitle">Últimas publicações</div>
+<div class="section-kicker" id="latestSectionKicker">Cobertura recente organizada para leitura rápida, sem perder contexto editorial.</div>
+</div>
+<a class="section-link" href="/arquivo/" id="archiveLinkTop" onclick="event.preventDefault(); openPage('archive')">Ver arquivo completo</a>
+</div>
+<div class="story-grid" id="latestGrid"><a class="story-card" href="https://www.cosmosweek.com/noticia/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/"><div class="card-cover"><img alt="Ensaios Clínicos Apoiam o Uso Semanal de Buprenorfina de Liberação Prolongada para o Tratamento do Transtorno por Uso de Opioides na Gravidez" decoding="async" loading="lazy" src="https://www.nih.gov/sites/default/files/styles/max_650x650/public/2026-03/20260316-preg.jpg?itok=wkkS3xYQ"/></div><div class="card-body"><div class="label-row"><span class="label biologia">Biologia</span></div><h3 class="headline-md">Ensaios Clínicos Apoiam o Uso Semanal de Buprenorfina de Liberação Prolongada para o Tratamento do Transtorno por Uso de Opioides na Gravidez</h3><p class="deck small">Um estudo apoiado pelo NIH demonstrou que o tratamento com buprenorfina de liberação prolongada, administrada semanalmente, resultou em taxas mais elevadas de…</p><div class="meta-row"><span>22 abr 2026</span><span>4 min de leitura</span><span>NIH News Releases</span></div></div></a><a class="story-card" href="https://www.cosmosweek.com/noticia/chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc/"><div class="card-cover"><img alt="A inflamação crônica deixa uma marca duradoura nas células-tronco intestinais, elevando o risco de câncer colorretal" decoding="async" loading="lazy" src="https://www.nih.gov/sites/default/files/styles/max_650x650/public/2026-03/20260325-memories-research.jpg?itok=oHNvQp-y"/></div><div class="card-body"><div class="label-row"><span class="label biologia">Biologia</span></div><h3 class="headline-md">A inflamação crônica deixa uma marca duradoura nas células-tronco intestinais, elevando o risco de câncer colorretal</h3><p class="deck small">Um estudo em animais, financiado pelo NIH, revelou que alterações hereditárias decorrentes de danos persistiram nas células-tronco intestinais meses após a…</p><div class="meta-row"><span>22 abr 2026</span><span>4 min de leitura</span><span>NIH News Releases</span></div></div></a><a class="story-card" href="https://www.cosmosweek.com/noticia/stellar-flares-may-expand-habitable-zones-around-small-stars/"><div class="card-cover"><img alt="Explosões Estelares Podem Expandir Zonas Habitáveis em Torno de Estrelas de Pequena Massa" decoding="async" loading="lazy" src="https://www.universetoday.com/article_images/cropped_750_20260422_033917.jpg"/></div><div class="card-body"><div class="label-row"><span class="label exoplanetas">Exoplanetas</span></div><h3 class="headline-md">Explosões Estelares Podem Expandir Zonas Habitáveis em Torno de Estrelas de Pequena Massa</h3><p class="deck small">A busca por vida extraterrestre tem se concentrado tradicionalmente em exoplanetas que orbitam estrelas semelhantes ao Sol, uma estrela do tipo G.</p><div class="meta-row"><span>22 abr 2026</span><span>4 min de leitura</span><span>Universe Today</span></div></div></a><a class="story-card" href="https://www.cosmosweek.com/noticia/what-are-ames-contributions-to-artemis-ii/"><div class="card-cover"><img alt="As Contribuições do Centro de Pesquisa Ames para a Missão Artemis II" decoding="async" loading="lazy" src="https://www.nasa.gov/wp-content/uploads/2026/04/nhq202604110022orig.jpg"/></div><div class="card-body"><div class="label-row"><span class="label astronomia">Astronomia</span><span class="status-chip">Destaque</span></div><h3 class="headline-md">As Contribuições do Centro de Pesquisa Ames para a Missão Artemis II</h3><p class="deck small">O Centro de Pesquisa Ames da NASA tem fornecido apoio crucial na preparação para a missão Artemis II, que levará quatro astronautas em uma viagem ao redor da Lua…</p><div class="meta-row"><span>21 abr 2026</span><span>4 min de leitura</span><span>NASA News Releases</span></div></div></a><a class="story-card" href="https://www.cosmosweek.com/noticia/astronomers-find-the-edge-of-the-milky-way/"><div class="card-cover"><img alt="Astrônomos Identificam o Limite da Formação Estelar na Via Láctea" decoding="async" loading="lazy" src="https://dq0hsqwjhea1.cloudfront.net/Milky_Way_warp_pillars-MC-1000px.webp"/></div><div class="card-body"><div class="label-row"><span class="label astronomia">Astronomia</span></div><h3 class="headline-md">Astrônomos Identificam o Limite da Formação Estelar na Via Láctea</h3><p class="deck small">Astrônomos localizaram pela primeira vez o limite do disco de formação estelar da Via Láctea, revelando que a atividade de formação de estrelas se concentra até…</p><div class="meta-row"><span>21 abr 2026</span><span>4 min de leitura</span><span>Sky &amp; Telescope</span></div></div></a><a class="story-card" href="https://www.cosmosweek.com/noticia/automated-ct-scan-analysis-could-fast-track-clinical-assessments/"><div class="card-cover"><img alt="A análise automatizada da tomografia computadorizada pode acelerar as avaliações clínicas" decoding="async" loading="lazy" src="https://www.nih.gov/sites/default/files/styles/max_650x650/public/2026-03/20260304-brain.jpg?itok=AnRFoToA"/></div><div class="card-body"><div class="label-row"><span class="label biologia">Biologia</span><span class="status-chip">Destaque</span></div><h3 class="headline-md">A análise automatizada da tomografia computadorizada pode acelerar as avaliações clínicas</h3><p class="deck small">Uma pesquisa financiada pelo NIH sugere que uma ferramenta alimentada por IA poderia agilizar diagnósticos e revelar marcadores precoces de doenças crônicas.</p><div class="meta-row"><span>21 abr 2026</span><span>4 min de leitura</span><span>NIH News Releases</span></div></div></a></div>
+<div class="preprint-grid" id="preprintMount"></div>
+</div>
+<aside class="sidebar">
+<div aria-hidden="true" class="ad-slot ad-slot--sidebar" id="adSlotSidebar"></div>
+<div class="widget">
+<div class="widget-head"><div class="widget-title" id="trendingWidgetTitle">Em alta</div></div>
+<div class="widget-list" id="trendingList"><a class="trend-item" href="https://www.cosmosweek.com/noticia/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/"><div class="trend-num">1</div><div><div class="trend-title">Ensaios Clínicos Apoiam o Uso Semanal de Buprenorfina de Liberação Prolongada para o Tratamento do Transtorno por Uso de Opioides na Gravidez</div><div class="trend-meta">Biologia · 4 min de leitura</div></div></a><a class="trend-item" href="https://www.cosmosweek.com/noticia/chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc/"><div class="trend-num">2</div><div><div class="trend-title">A inflamação crônica deixa uma marca duradoura nas células-tronco intestinais, elevando o risco de câncer colorretal</div><div class="trend-meta">Biologia · 4 min de leitura</div></div></a><a class="trend-item" href="https://www.cosmosweek.com/noticia/stellar-flares-may-expand-habitable-zones-around-small-stars/"><div class="trend-num">3</div><div><div class="trend-title">Explosões Estelares Podem Expandir Zonas Habitáveis em Torno de Estrelas de Pequena Massa</div><div class="trend-meta">Exoplanetas · 4 min de leitura</div></div></a><a class="trend-item" href="https://www.cosmosweek.com/noticia/what-are-ames-contributions-to-artemis-ii/"><div class="trend-num">4</div><div><div class="trend-title">As Contribuições do Centro de Pesquisa Ames para a Missão Artemis II</div><div class="trend-meta">Astronomia · 4 min de leitura</div></div></a><a class="trend-item" href="https://www.cosmosweek.com/noticia/astronomers-find-the-edge-of-the-milky-way/"><div class="trend-num">5</div><div><div class="trend-title">Astrônomos Identificam o Limite da Formação Estelar na Via Láctea</div><div class="trend-meta">Astronomia · 4 min de leitura</div></div></a></div>
+</div>
+<div class="widget">
+<div class="widget-head"><div class="widget-title" id="latestUpdatesTitle">Últimas atualizações</div></div>
+<div class="widget-list sidebar-story-list" id="latestUpdates"><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/"><div class="sidebar-story-kicker">07h25</div><div class="sidebar-story-title">Ensaios Clínicos Apoiam o Uso Semanal de Buprenorfina de Liberação Prolongada para o Tratamento do Transtorno por Uso de Opioides na Gravidez</div><div class="sidebar-story-meta">22 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc/"><div class="sidebar-story-kicker">07h25</div><div class="sidebar-story-title">A inflamação crônica deixa uma marca duradoura nas células-tronco intestinais, elevando o risco de câncer colorretal</div><div class="sidebar-story-meta">22 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/stellar-flares-may-expand-habitable-zones-around-small-stars/"><div class="sidebar-story-kicker">03h39</div><div class="sidebar-story-title">Explosões Estelares Podem Expandir Zonas Habitáveis em Torno de Estrelas de Pequena Massa</div><div class="sidebar-story-meta">22 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/what-are-ames-contributions-to-artemis-ii/"><div class="sidebar-story-kicker">17h41</div><div class="sidebar-story-title">As Contribuições do Centro de Pesquisa Ames para a Missão Artemis II</div><div class="sidebar-story-meta">21 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/astronomers-find-the-edge-of-the-milky-way/"><div class="sidebar-story-kicker">16h12</div><div class="sidebar-story-title">Astrônomos Identificam o Limite da Formação Estelar na Via Láctea</div><div class="sidebar-story-meta">21 abr 2026 · 4 min de leitura</div></a></div>
+</div>
+<div class="widget">
+<div class="widget-head"><div class="widget-title" id="sourceMixTitle">Mapa editorial</div></div>
+<div class="widget-body"><div id="sourceMix"><div class="metric-row"><div class="metric-badge">1</div><div><div class="metric-label">Phys. org Space</div><div class="metric-sub">5 item(ns)</div></div></div><div class="metric-row"><div class="metric-badge">2</div><div><div class="metric-label">Universe Today</div><div class="metric-sub">4 item(ns)</div></div></div><div class="metric-row"><div class="metric-badge">3</div><div><div class="metric-label">NASA News Releases</div><div class="metric-sub">4 item(ns)</div></div></div><div class="metric-row"><div class="metric-badge">4</div><div><div class="metric-label">Phys. org Biology</div><div class="metric-sub">4 item(ns)</div></div></div></div></div>
+</div>
+<div class="widget">
+<div class="widget-head"><div class="widget-title" id="quickLinksTitle">Acesso rápido</div></div>
+<div class="widget-body"><div class="sidebar-actions" id="quickLinks"><a class="sidebar-action" href="https://www.cosmosweek.com/arquivo/">Abrir arquivo</a><a class="sidebar-action" href="/feed.xml" rel="noopener" target="_blank">Abrir RSS</a><a class="sidebar-action" href="https://www.cosmosweek.com/padroes/">Ver padrões</a><a class="sidebar-action" href="https://www.cosmosweek.com/#searchInput">Buscar no site</a></div></div>
+</div>
+<div class="widget">
+<div class="widget-head"><div class="widget-title" id="archivePicksTitle">Do arquivo</div></div>
+<div class="widget-list sidebar-story-list" id="archivePicks"><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/behold-the-solar-system-in-all-its-x-ray-glory/"><div class="sidebar-story-kicker">Física</div><div class="sidebar-story-title">A Glória do Sistema Solar em Raios X: Novas Revelações do eROSITA</div><div class="sidebar-story-meta">21 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/nasa-on-track-for-future-missions-with-initial-artemis-ii-assessments/"><div class="sidebar-story-kicker">Ciências da Terra</div><div class="sidebar-story-title">Análise Pós-Missão Artemis II da NASA: Avaliações Iniciais Impulsionam Futuras Explorações</div><div class="sidebar-story-meta">20 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/nasa-rolls-out-artemis-iii-moon-rocket-core-stage/"><div class="sidebar-story-kicker">Astronomia</div><div class="sidebar-story-title">NASA move estágio central do foguete SLS para a missão Artemis III</div><div class="sidebar-story-meta">20 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/the-vera-c-rubin-observatory-has-discovered-11-000-new-asteroids-and-it-s-barely-even-started/"><div class="sidebar-story-kicker">Astronomia</div><div class="sidebar-story-title">O Observatório Vera C. Rubin descobriu 11.000 novos asteróides e mal começou!</div><div class="sidebar-story-meta">19 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/"><div class="sidebar-story-kicker">Ciências da Terra</div><div class="sidebar-story-title">Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres</div><div class="sidebar-story-meta">19 abr 2026 · 4 min de leitura</div></a></div>
+</div>
+</aside>
+</div>
+<div class="front-briefing" id="frontBriefing"></div>
+</section>
+<section class="page" id="pageArticle"></section>
+<section class="page" id="pageArchive">
+<div class="archive-hero">
+<div class="section-head" style="margin-bottom:18px;">
+<div>
+<div class="section-title" id="archiveTitle">Arquivo editorial</div>
+<div class="section-kicker" id="archiveKicker">Todas as matérias disponíveis do arquivo no portal.</div>
+</div>
+</div>
+<div class="archive-summary" id="archiveSummary"><div class="archive-stat"><span class="archive-stat-num">148</span><span class="archive-stat-label">matérias indexadas</span></div><div class="archive-stat"><span class="archive-stat-num">8</span><span class="archive-stat-label">áreas de cobertura</span></div><div class="archive-stat"><span class="archive-stat-num">2</span><span class="archive-stat-label">idiomas</span></div></div>
+<div class="archive-status" id="archiveStatus">Instantâneo do arquivo pronto para crawlers e leitores.</div>
+<div id="archiveTopicNav"><section class="topic-map"><div class="section-head section-head--soft"><div><div class="section-title">Navegue por tema</div><div class="section-kicker">Escolha uma porta de entrada temática para o arquivo.</div></div></div><div class="topic-nav-list"><a class="topic-chip on" href="https://www.cosmosweek.com/"><span>Todas</span><span class="topic-count">148</span></a><a aria-label="Astronomia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Astronomia</span><span class="topic-count">35</span></a><a aria-label="Cosmologia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Cosmologia</span><span class="topic-count">10</span></a><a aria-label="Astrofísica" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Astrofísica</span><span class="topic-count">11</span></a><a aria-label="Exoplanetas" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Exoplanetas</span><span class="topic-count">10</span></a><a aria-label="Física" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Física</span><span class="topic-count">15</span></a><a aria-label="Biologia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Biologia</span><span class="topic-count">34</span></a><a aria-label="Química" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Química</span><span class="topic-count">10</span></a><a aria-label="Ciências da Terra" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Ciências da Terra</span><span class="topic-count">23</span></a></div></section></div>
+<div class="section-head section-head--soft">
+<div>
+<div class="section-title">Seleção do arquivo</div>
+<div class="section-kicker">Uma entrada visual para o acervo do portal.</div>
+</div>
+</div>
+<div class="archive-highlights" id="archiveHighlights"><a class="visual-card" href="https://www.cosmosweek.com/noticia/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/"><img alt="Ensaios Clínicos Apoiam o Uso Semanal de Buprenorfina de Liberação Prolongada para o Tratamento do Transtorno por Uso de Opioides na Gravidez" decoding="async" loading="lazy" src="https://www.nih.gov/sites/default/files/styles/max_650x650/public/2026-03/20260316-preg.jpg?itok=wkkS3xYQ"/><div class="visual-card-overlay"></div><div class="visual-card-body"><div class="visual-card-top"><div class="label-row"><span class="label biologia">Biologia</span></div></div><div class="visual-card-bottom"><h3 class="headline-lg">Ensaios Clínicos Apoiam o Uso Semanal de Buprenorfina de Liberação Prolongada para o Tratamento do Transtorno por Uso de Opioides na Gravidez</h3><div class="meta-row"><span>Biologia</span><span>22 abr 2026</span><span>NIH News Releases</span></div></div></div></a><a class="visual-card compact" href="https://www.cosmosweek.com/noticia/chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc/"><img alt="A inflamação crônica deixa uma marca duradoura nas células-tronco intestinais, elevando o risco de câncer colorretal" decoding="async" loading="lazy" src="https://www.nih.gov/sites/default/files/styles/max_650x650/public/2026-03/20260325-memories-research.jpg?itok=oHNvQp-y"/><div class="visual-card-overlay"></div><div class="visual-card-body"><div class="visual-card-top"><div class="label-row"><span class="label biologia">Biologia</span></div></div><div class="visual-card-bottom"><h3 class="headline-md">A inflamação crônica deixa uma marca duradoura nas células-tronco intestinais, elevando o risco de câncer colorretal</h3><div class="meta-row"><span>Biologia</span><span>22 abr 2026</span><span>NIH News Releases</span></div></div></div></a><a class="visual-card compact" href="https://www.cosmosweek.com/noticia/stellar-flares-may-expand-habitable-zones-around-small-stars/"><img alt="Explosões Estelares Podem Expandir Zonas Habitáveis em Torno de Estrelas de Pequena Massa" decoding="async" loading="lazy" src="https://www.universetoday.com/article_images/cropped_750_20260422_033917.jpg"/><div class="visual-card-overlay"></div><div class="visual-card-body"><div class="visual-card-top"><div class="label-row"><span class="label exoplanetas">Exoplanetas</span></div></div><div class="visual-card-bottom"><h3 class="headline-md">Explosões Estelares Podem Expandir Zonas Habitáveis em Torno de Estrelas de Pequena Massa</h3><div class="meta-row"><span>Exoplanetas</span><span>22 abr 2026</span><span>Universe Today</span></div></div></div></a><a class="visual-card compact" href="https://www.cosmosweek.com/noticia/what-are-ames-contributions-to-artemis-ii/"><img alt="As Contribuições do Centro de Pesquisa Ames para a Missão Artemis II" decoding="async" loading="lazy" src="https://www.nasa.gov/wp-content/uploads/2026/04/nhq202604110022orig.jpg"/><div class="visual-card-overlay"></div><div class="visual-card-body"><div class="visual-card-top"><div class="label-row"><span class="label astronomia">Astronomia</span><span class="status-chip">Destaque</span></div></div><div class="visual-card-bottom"><h3 class="headline-md">As Contribuições do Centro de Pesquisa Ames para a Missão Artemis II</h3><div class="meta-row"><span>Astronomia</span><span>21 abr 2026</span><span>NASA News Releases</span></div></div></div></a></div>
+</div>
+<div class="section-head section-head--soft" style="margin-top:10px;">
+<div>
+<div class="section-title">Todas as matérias</div>
+<div class="section-kicker">Listagem contínua da seleção atual.</div>
+</div>
+</div>
+<div class="compact-list" id="archiveList"><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/"><div class="sidebar-story-kicker">Biologia</div><div class="sidebar-story-title">Ensaios Clínicos Apoiam o Uso Semanal de Buprenorfina de Liberação Prolongada para o Tratamento do Transtorno por Uso de Opioides na Gravidez</div><div class="sidebar-story-meta">22 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc/"><div class="sidebar-story-kicker">Biologia</div><div class="sidebar-story-title">A inflamação crônica deixa uma marca duradoura nas células-tronco intestinais, elevando o risco de câncer colorretal</div><div class="sidebar-story-meta">22 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/stellar-flares-may-expand-habitable-zones-around-small-stars/"><div class="sidebar-story-kicker">Exoplanetas</div><div class="sidebar-story-title">Explosões Estelares Podem Expandir Zonas Habitáveis em Torno de Estrelas de Pequena Massa</div><div class="sidebar-story-meta">22 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/what-are-ames-contributions-to-artemis-ii/"><div class="sidebar-story-kicker">Astronomia</div><div class="sidebar-story-title">As Contribuições do Centro de Pesquisa Ames para a Missão Artemis II</div><div class="sidebar-story-meta">21 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/astronomers-find-the-edge-of-the-milky-way/"><div class="sidebar-story-kicker">Astronomia</div><div class="sidebar-story-title">Astrônomos Identificam o Limite da Formação Estelar na Via Láctea</div><div class="sidebar-story-meta">21 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/automated-ct-scan-analysis-could-fast-track-clinical-assessments/"><div class="sidebar-story-kicker">Biologia</div><div class="sidebar-story-title">A análise automatizada da tomografia computadorizada pode acelerar as avaliações clínicas</div><div class="sidebar-story-meta">21 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/behold-the-solar-system-in-all-its-x-ray-glory/"><div class="sidebar-story-kicker">Física</div><div class="sidebar-story-title">A Glória do Sistema Solar em Raios X: Novas Revelações do eROSITA</div><div class="sidebar-story-meta">21 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/nasa-on-track-for-future-missions-with-initial-artemis-ii-assessments/"><div class="sidebar-story-kicker">Ciências da Terra</div><div class="sidebar-story-title">Análise Pós-Missão Artemis II da NASA: Avaliações Iniciais Impulsionam Futuras Explorações</div><div class="sidebar-story-meta">20 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/nasa-rolls-out-artemis-iii-moon-rocket-core-stage/"><div class="sidebar-story-kicker">Astronomia</div><div class="sidebar-story-title">NASA move estágio central do foguete SLS para a missão Artemis III</div><div class="sidebar-story-meta">20 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/the-vera-c-rubin-observatory-has-discovered-11-000-new-asteroids-and-it-s-barely-even-started/"><div class="sidebar-story-kicker">Astronomia</div><div class="sidebar-story-title">O Observatório Vera C. Rubin descobriu 11.000 novos asteróides e mal começou!</div><div class="sidebar-story-meta">19 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/"><div class="sidebar-story-kicker">Ciências da Terra</div><div class="sidebar-story-title">Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres</div><div class="sidebar-story-meta">19 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea/"><div class="sidebar-story-kicker">Astrofísica</div><div class="sidebar-story-title">Modelos Teóricos da Química de Supernovas Revisados Após Dados de Raios X do Aglomerado de Perseu Revelarem Discrepâncias Importantes</div><div class="sidebar-story-meta">19 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul/"><div class="sidebar-story-kicker">Física</div><div class="sidebar-story-title">Meta-spanners ópticos generalizados possibilitam trajetórias de luz arbitrárias para manipulação óptica multitarefa</div><div class="sidebar-story-meta">19 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air/"><div class="sidebar-story-kicker">Ciências da Terra</div><div class="sidebar-story-title">Riachos mais quentes podem estar esgotando as teias alimentares fluviais, liberando mais carbono para a atmosfera</div><div class="sidebar-story-meta">17 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/antioxidant-glutathione-discovered-to-play-a-key-role-in-proper-protein-folding/"><div class="sidebar-story-kicker">Biologia</div><div class="sidebar-story-title">O antioxidante glutationa revela papel crucial no enovelamento proteico</div><div class="sidebar-story-meta">17 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/two-bacteria-join-forces-to-turn-chemical-signals-into-electricity-opening-up-low-cost-sensing-o/"><div class="sidebar-story-kicker">Biologia</div><div class="sidebar-story-title">Duas bactérias unem forças para transformar sinais químicos em eletricidade, abrindo opções de detecção de baixo custo</div><div class="sidebar-story-meta">17 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/mining-waste-product-could-help-store-carbon-emissions-study-suggests/"><div class="sidebar-story-kicker">Química</div><div class="sidebar-story-title">Resíduos de mineração podem ajudar a armazenar emissões de carbono, sugere estudo</div><div class="sidebar-story-meta">17 abr 2026 · 4 min de leitura</div></a><a class="sidebar-story-item" href="https://www.cosmosweek.com/noticia/volunteers-discover-rare-space-weather-events-using-their-ears/"><div class="sidebar-story-kicker">Física</div><div class="sidebar-story-title">Voluntários descobrem eventos climáticos espaciais raros usando seus ouvidos</div><div class="sidebar-story-meta">17 abr 2026 · 4 min de leitura</div></a></div>
+</section>
+<section class="page" id="pageAbout"><div class="institutional-shell"><div class="section-head"><div><div class="section-title">Institucional</div><h1 class="headline-xl" style="margin-top:10px;">Cosmos Week como portal de notícias científicas, não como espelho automático de releases</h1><div class="section-kicker">O Cosmos Week organiza cobertura científica em estrutura editorial clara, com rotas limpas, páginas institucionais rastreáveis e distinção entre tipos de fonte.</div></div></div><div class="topic-nav-list" style="margin-bottom:18px;"><a class="topic-chip" href="https://www.cosmosweek.com/arquivo/">Arquivo</a><a class="topic-chip" href="https://www.cosmosweek.com/padroes/">Padrões</a></div><div class="insight-grid"><article class="insight-card"><h2>Missão editorial</h2><p>Cobrir ciência com hierarquia de informação, contexto e distinção visível entre anúncio institucional, paper revisado, jornalismo científico e preprint.</p></article><article class="insight-card"><h2>Arquitetura de descoberta</h2><p>Home, arquivo e temas persistentes servem como entradas reais de navegação e indexação.</p></article><article class="insight-card"><h2>Estrutura bilíngue</h2><p>Português e inglês possuem rotas próprias com canonical e hreflang consistentes.</p></article><article class="insight-card"><h2>Escopo</h2><p>Astronomia, astrofísica, cosmologia, física e fronteiras da ciência aparecem como eixo principal do portal.</p></article></div></div></section>
+<section class="page" id="pageStandards"><div class="institutional-shell"><div class="section-head"><div><div class="section-title">Método</div><h1 class="headline-xl" style="margin-top:10px;">Padrões editoriais visíveis na arquitetura, não escondidos no rodapé</h1><div class="section-kicker">Menos ruído institucional, menos espetáculo vazio e mais rastreabilidade sobre o que está sendo publicado.</div></div></div><div class="insight-grid"><article class="insight-card"><h2>Fonte identificada</h2><p>As páginas e matérias deixam explícito o tipo de fonte e o contexto de origem.</p></article><article class="insight-card"><h2>Preprint tratado como provisório</h2><p>Resultados sem revisão por pares entram rotulados como provisórios.</p></article><article class="insight-card"><h2>Contexto antes do impacto</h2><p>A matéria prioriza o que aconteceu, por que importa e o que ainda não sabemos.</p></article><article class="insight-card"><h2>Rotas limpas</h2><p>Home, arquivo e institucionais respondem com canonical, hreflang e links internos consistentes.</p></article></div></div></section>
+<section class="page" id="pageSearch">
+<div class="section-head">
+<div>
+<div class="section-title" id="searchTitle">Busca</div>
+<div class="section-kicker results-info" id="searchInfo"></div>
+</div>
+</div>
+<div class="story-grid" id="searchGrid"></div>
+<div class="search-empty hidden" id="searchEmpty"></div>
+</section>
+</main>
+<aside aria-label="Espaço patrocinado" class="rigsync-float" id="rigsyncBanner">
+<button aria-label="Fechar anúncio" class="rigsync-float__close" id="rigsyncBannerClose" type="button">×</button>
+<a aria-label="Abrir anúncio patrocinado" class="rigsync-float__logo" href="https://apps.apple.com/br/app/rigsync-calendar/id6759013786" rel="noopener sponsored" target="_blank">
+<img alt="Logo do anúncio patrocinado" height="52" loading="lazy" src="/assets/rigsync-calendar-badge.png" width="52"/>
+</a>
+<div class="rigsync-float__copy">
+<div class="rigsync-float__eyebrow" id="rigsyncBannerEyebrow">Espaço patrocinado</div>
+<div class="rigsync-float__title" id="rigsyncBannerTitle">Sua marca aqui</div>
+<div class="rigsync-float__text" id="rigsyncBannerText">Este espaço está pronto para receber o link e a mensagem de um patrocinador.</div>
+</div>
+<a aria-label="Abrir anúncio patrocinado" class="rigsync-float__cta" href="#" id="rigsyncBannerCta" rel="noopener sponsored" target="_blank">Anunciar</a>
+</aside>
+<footer class="site-footer site-footer--premium">
+<div class="footer-inner">
+<div class="footer-grid">
+<div class="footer-brand">
+<div class="logo-title footer-logo-title">Cosmos<em>Week</em></div>
+<p class="deck small" id="footerDescription">Portal de Notícias Científicas em português, com cobertura de astronomia, física e ciência em geral.</p>
+<div class="footer-socials">
+<a aria-label="Instagram" class="social-icon-link" href="https://www.instagram.com/cosmos_week/" rel="noopener" target="_blank">
+<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><rect height="19" rx="5.2" ry="5.2" width="19" x="2.5" y="2.5"></rect><path d="M17.5 6.5h.01"></path><circle cx="12" cy="12" r="4.25"></circle></svg>
+</a>
+<span class="footer-social-label">Instagram</span>
+</div>
+<div class="newsletter-compact">
+<div class="footer-title" id="newsletterTitle">Newsletter</div>
+<p class="newsletter-copy" id="newsletterDescription">Receba notícias semanais do Cosmos Week no seu e-mail.</p>
+<form class="newsletter-form" id="newsletterForm" novalidate="" onsubmit="handleNewsletterSubmit(event)">
+<label class="sr-only" for="newsletterEmail" id="newsletterLabel">Seu e-mail</label>
+<input autocomplete="email" class="newsletter-input" id="newsletterEmail" inputmode="email" name="email" placeholder="Seu e-mail" required="" type="email"/>
+<button class="primary-btn" id="newsletterButton" type="submit">Inscrever</button>
+</form>
+<div class="newsletter-note" id="newsletterNote">Sem spam. Apenas atualizações editoriais relevantes.</div>
+</div>
+</div>
+<div>
+<div class="footer-title" id="footerNavTitle">Navegação</div>
+<div class="footer-links">
+<a href="/" id="footerHome" onclick="event.preventDefault(); goHome()">Início</a>
+<a href="/arquivo/" id="footerArchive" onclick="event.preventDefault(); openPage('archive')">Arquivo</a>
+<a href="/sobre/" id="footerAbout" onclick="event.preventDefault(); openPage('about')">Sobre</a>
+<a href="/padroes/" id="footerStandards" onclick="event.preventDefault(); openPage('standards')">Padrões editoriais</a>
+<a href="/anuncie.html" id="footerAdvertise">Anuncie</a>
+<a href="/media-kit.html" id="footerMediaKit">Media kit</a>
+</div>
+</div>
+<div>
+<div class="footer-title" id="footerSourcesTitle">Transparência</div>
+<div class="footer-links">
+<a href="/feed.xml" id="footerFeed" rel="noopener" target="_blank">RSS do portal</a>
+<a href="/sitemap.xml" id="footerSitemap" rel="noopener" target="_blank">Sitemap</a>
+<a href="/politica-de-privacidade.html" id="footerPrivacy">Política de privacidade</a>
+<a href="/termos-de-uso.html" id="footerTerms">Termos de uso</a>
+<a href="/padroes/" id="footerCorrections" onclick="event.preventDefault(); openPage('standards')">Correções e metodologia</a>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+<span id="footerBottomLeft">© 2026 Cosmos Week</span>
+<span id="footerBottomCenter">Notícias científicas com contexto e compromisso com a evidência.</span>
+</div>
+</div>
+</footer>
+<div class="toast" id="toast"></div>
+<div aria-label="Aviso de cookies" aria-live="polite" class="cookie-banner" id="cookieBanner" role="dialog">
+<div class="cookie-copy">
+<div class="cookie-title" id="cookieTitle">Privacidade</div>
+<div class="cookie-text" id="cookieText">Usamos analytics para medir audiência e podemos exibir anúncios no futuro. Você pode aceitar tudo, liberar só analytics ou recusar. Os detalhes estão na <a href="/politica-de-privacidade.html" id="cookiePolicyLink">política de privacidade</a>.</div>
+</div>
+<div class="cookie-actions">
+<button class="ghost-btn" id="cookieDenyBtn" onclick="setCookieConsent('denied')" type="button">Recusar</button>
+<button class="ghost-btn" id="cookieAnalyticsBtn" onclick="setCookieConsent('analytics')" type="button">Só analytics</button>
+<button class="primary-btn" id="cookieAcceptBtn" onclick="setCookieConsent('full')" type="button">Aceitar tudo</button>
+</div>
+</div>
 
-    <div class="ticker">
-      <div class="ticker-badge" id="tickerBadge">Destaques</div>
-      <div class="ticker-viewport"><div class="ticker-track" id="tickerTrack"></div></div>
-    </div>
 
-    <div class="catbar">
-      <div class="catbar-inner" id="catbarInner">
-        <button class="cat-pill on" data-cat="all" onclick="setCategory('all',this)">Todas</button>
-        <button class="cat-pill" data-cat="Astronomia" onclick="setCategory('Astronomia',this)">Astronomia</button>
-        <button class="cat-pill" data-cat="Cosmologia" onclick="setCategory('Cosmologia',this)">Cosmologia</button>
-        <button class="cat-pill" data-cat="Astrofísica" onclick="setCategory('Astrofísica',this)">Astrofísica</button>
-        <button class="cat-pill" data-cat="Exoplanetas" onclick="setCategory('Exoplanetas',this)">Exoplanetas</button>
-        <button class="cat-pill" data-cat="Física" onclick="setCategory('Física',this)">Física</button>
-        <button class="cat-pill" data-cat="Biologia" onclick="setCategory('Biologia',this)">Biologia</button>
-        <button class="cat-pill" data-cat="Química" onclick="setCategory('Química',this)">Química</button>
-        <button class="cat-pill" data-cat="Ciências da Terra" onclick="setCategory('Ciências da Terra',this)">Ciências da Terra</button>
-      </div>
-    </div>
-  </header>
-
-  <main class="wrap site-main" id="mainContent" tabindex="-1">
-    <div id="adSlotLeaderboard" class="ad-slot ad-slot--leaderboard" aria-hidden="true"></div>
-
-    <noscript>
-      <div class="noscript-message">
-        <strong>JavaScript está desativado.</strong> O Cosmos Week usa uma camada dinâmica para montar a grade editorial. Você ainda pode usar o <a href="/sitemap.xml">sitemap</a>, o <a href="/feed.xml">RSS</a> e as rotas principais do portal.
-      </div>
-    </noscript>
-
-    <section class="page active" id="pageHome">
-      <h1 class="visually-hidden" id="homePageTitle">Portal Cosmos Week de notícias científicas</h1>
-      <div id="heroMount"></div>
-      <div id="visualStrip"></div>
-      <div id="topicNav"></div>
-      <div class="story-layout">
-        <div>
-          <div class="section-head" id="latestSectionHead">
-            <div>
-              <div class="section-title" id="latestSectionTitle">Últimas publicações</div>
-              <div class="section-kicker" id="latestSectionKicker">Cobertura recente organizada para leitura rápida, sem perder contexto editorial.</div>
-            </div>
-            <a class="section-link" href="/arquivo/" onclick="event.preventDefault(); openPage('archive')" id="archiveLinkTop">Ver arquivo completo</a>
-          </div>
-          <div class="story-grid" id="latestGrid"></div>
-          <div class="preprint-grid" id="preprintMount"></div>
-        </div>
-
-        <aside class="sidebar">
-          <div id="adSlotSidebar" class="ad-slot ad-slot--sidebar" aria-hidden="true"></div>
-          <div class="widget">
-            <div class="widget-head"><div class="widget-title" id="trendingWidgetTitle">Em alta</div></div>
-            <div class="widget-list" id="trendingList"></div>
-          </div>
-          <div class="widget">
-            <div class="widget-head"><div class="widget-title" id="latestUpdatesTitle">Últimas atualizações</div></div>
-            <div class="widget-list sidebar-story-list" id="latestUpdates"></div>
-          </div>
-          <div class="widget">
-            <div class="widget-head"><div class="widget-title" id="sourceMixTitle">Mapa editorial</div></div>
-            <div class="widget-body"><div id="sourceMix"></div></div>
-          </div>
-          <div class="widget">
-            <div class="widget-head"><div class="widget-title" id="quickLinksTitle">Acesso rápido</div></div>
-            <div class="widget-body"><div class="sidebar-actions" id="quickLinks"></div></div>
-          </div>
-          <div class="widget">
-            <div class="widget-head"><div class="widget-title" id="archivePicksTitle">Do arquivo</div></div>
-            <div class="widget-list sidebar-story-list" id="archivePicks"></div>
-          </div>
-        </aside>
-      </div>
-      <div class="front-briefing" id="frontBriefing"></div>
-    </section>
-
-    <section class="page" id="pageArticle"></section>
-
-    <section class="page" id="pageArchive">
-      <div class="archive-hero">
-        <div class="section-head" style="margin-bottom:18px;">
-          <div>
-            <div class="section-title" id="archiveTitle">Arquivo editorial</div>
-            <div class="section-kicker" id="archiveKicker">Todas as matérias disponíveis do arquivo no portal.</div>
-          </div>
-        </div>
-        <div class="archive-summary" id="archiveSummary"></div>
-        <div class="archive-status" id="archiveStatus"></div>
-        <div id="archiveTopicNav"></div>
-        <div class="section-head section-head--soft">
-          <div>
-            <div class="section-title">Seleção do arquivo</div>
-            <div class="section-kicker">Uma entrada visual para o acervo do portal.</div>
-          </div>
-        </div>
-        <div class="archive-highlights" id="archiveHighlights"></div>
-      </div>
-      <div class="section-head section-head--soft" style="margin-top:10px;">
-        <div>
-          <div class="section-title">Todas as matérias</div>
-          <div class="section-kicker">Listagem contínua da seleção atual.</div>
-        </div>
-      </div>
-      <div class="compact-list" id="archiveList"></div>
-    </section>
-
-    <section class="page" id="pageAbout"></section>
-    <section class="page" id="pageStandards"></section>
-
-    <section class="page" id="pageSearch">
-      <div class="section-head">
-        <div>
-          <div class="section-title" id="searchTitle">Busca</div>
-          <div class="section-kicker results-info" id="searchInfo"></div>
-        </div>
-      </div>
-      <div class="story-grid" id="searchGrid"></div>
-      <div class="search-empty hidden" id="searchEmpty"></div>
-    </section>
-  </main>
-
-  <aside class="rigsync-float" id="rigsyncBanner" aria-label="Espaço patrocinado">
-    <button class="rigsync-float__close" id="rigsyncBannerClose" type="button" aria-label="Fechar anúncio">×</button>
-    <a class="rigsync-float__logo" href="https://apps.apple.com/br/app/rigsync-calendar/id6759013786" target="_blank" rel="noopener sponsored" aria-label="Abrir anúncio patrocinado">
-      <img src="/assets/rigsync-calendar-badge.png" alt="Logo do anúncio patrocinado" width="52" height="52" loading="lazy">
-    </a>
-    <div class="rigsync-float__copy">
-      <div class="rigsync-float__eyebrow" id="rigsyncBannerEyebrow">Espaço patrocinado</div>
-      <div class="rigsync-float__title" id="rigsyncBannerTitle">Sua marca aqui</div>
-      <div class="rigsync-float__text" id="rigsyncBannerText">Este espaço está pronto para receber o link e a mensagem de um patrocinador.</div>
-    </div>
-    <a class="rigsync-float__cta" id="rigsyncBannerCta" href="#" target="_blank" rel="noopener sponsored" aria-label="Abrir anúncio patrocinado">Anunciar</a>
-  </aside>
-
-  <footer class="site-footer site-footer--premium">
-    <div class="footer-inner">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <div class="logo-title footer-logo-title">Cosmos<em>Week</em></div>
-          <p class="deck small" id="footerDescription">Portal de Notícias Científicas em português, com cobertura de astronomia, física e ciência em geral.</p>
-          <div class="footer-socials">
-            <a class="social-icon-link" href="https://www.instagram.com/cosmos_week/" target="_blank" rel="noopener" aria-label="Instagram">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="5.2" ry="5.2"/><path d="M17.5 6.5h.01"/><circle cx="12" cy="12" r="4.25"/></svg>
-            </a>
-            <span class="footer-social-label">Instagram</span>
-          </div>
-          <div class="newsletter-compact">
-            <div class="footer-title" id="newsletterTitle">Newsletter</div>
-            <p class="newsletter-copy" id="newsletterDescription">Receba notícias semanais do Cosmos Week no seu e-mail.</p>
-            <form class="newsletter-form" id="newsletterForm" onsubmit="handleNewsletterSubmit(event)" novalidate>
-              <label class="sr-only" for="newsletterEmail" id="newsletterLabel">Seu e-mail</label>
-              <input class="newsletter-input" type="email" id="newsletterEmail" name="email" autocomplete="email" inputmode="email" placeholder="Seu e-mail" required>
-              <button class="primary-btn" type="submit" id="newsletterButton">Inscrever</button>
-            </form>
-            <div class="newsletter-note" id="newsletterNote">Sem spam. Apenas atualizações editoriais relevantes.</div>
-          </div>
-        </div>
-
-        <div>
-          <div class="footer-title" id="footerNavTitle">Navegação</div>
-          <div class="footer-links">
-            <a href="/" onclick="event.preventDefault(); goHome()" id="footerHome">Início</a>
-            <a href="/arquivo/" onclick="event.preventDefault(); openPage('archive')" id="footerArchive">Arquivo</a>
-            <a href="/sobre/" onclick="event.preventDefault(); openPage('about')" id="footerAbout">Sobre</a>
-            <a href="/padroes/" onclick="event.preventDefault(); openPage('standards')" id="footerStandards">Padrões editoriais</a>
-            <a href="/anuncie.html" id="footerAdvertise">Anuncie</a>
-            <a href="/media-kit.html" id="footerMediaKit">Media kit</a>
-          </div>
-        </div>
-
-        <div>
-          <div class="footer-title" id="footerSourcesTitle">Transparência</div>
-          <div class="footer-links">
-            <a href="/feed.xml" target="_blank" rel="noopener" id="footerFeed">RSS do portal</a>
-            <a href="/sitemap.xml" target="_blank" rel="noopener" id="footerSitemap">Sitemap</a>
-            <a href="/politica-de-privacidade.html" id="footerPrivacy">Política de privacidade</a>
-            <a href="/termos-de-uso.html" id="footerTerms">Termos de uso</a>
-            <a href="/padroes/" onclick="event.preventDefault(); openPage('standards')" id="footerCorrections">Correções e metodologia</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <span id="footerBottomLeft">© 2026 Cosmos Week</span>
-        <span id="footerBottomCenter">Notícias científicas com contexto e compromisso com a evidência.</span>
-      </div>
-    </div>
-  </footer>
-
-  <div class="toast" id="toast"></div>
-
-  <div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Aviso de cookies">
-    <div class="cookie-copy">
-      <div class="cookie-title" id="cookieTitle">Privacidade</div>
-      <div class="cookie-text" id="cookieText">Usamos analytics para medir audiência e podemos exibir anúncios no futuro. Você pode aceitar tudo, liberar só analytics ou recusar. Os detalhes estão na <a href="/politica-de-privacidade.html" id="cookiePolicyLink">política de privacidade</a>.</div>
-    </div>
-    <div class="cookie-actions">
-      <button class="ghost-btn" type="button" id="cookieDenyBtn" onclick="setCookieConsent('denied')">Recusar</button>
-      <button class="ghost-btn" type="button" id="cookieAnalyticsBtn" onclick="setCookieConsent('analytics')">Só analytics</button>
-      <button class="primary-btn" type="button" id="cookieAcceptBtn" onclick="setCookieConsent('full')">Aceitar tudo</button>
-    </div>
-  </div>
-
-  <script src="/giscus-config.js" defer></script>
-  <script src="/posts.js" defer></script>
-  <script src="/assets/js/app.js" defer></script>
-  <script type="application/json" id="cw-inline-app-disabled">{"status":"externalized-to-assets-js-app-js"}</script>
+<script defer="" src="/assets/js/app.js"></script>
+<script id="cw-inline-app-disabled" type="application/json">{"status":"externalized-to-assets-js-app-js"}</script>
 </body>
 </html>
