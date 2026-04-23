@@ -6,18 +6,37 @@
     var style = document.createElement('style');
     style.id = 'cw-article-layout-styles';
     style.textContent = [
-      'html.cw-story-reflow .article-lead-block { padding-bottom: 18px; }',
-      'html.cw-story-reflow .article-lead-block .hero-head { margin-bottom: 0; }',
+      'html.cw-story-reflow .article-lead-block { padding-bottom: 18px; max-width: 980px; margin-left: auto; margin-right: auto; text-align: center; }',
+      'html.cw-story-reflow .article-lead-block .breadcrumbs { justify-content: center; text-align: center; }',
+      'html.cw-story-reflow .article-lead-block .hero-head { margin-bottom: 0; justify-items: center; text-align: center; }',
+      'html.cw-story-reflow .article-lead-block h1, html.cw-story-reflow .article-lead-block .dek, html.cw-story-reflow .article-lead-block .editorial-strap, html.cw-story-reflow .article-lead-block .kicker-row { margin-left: auto; margin-right: auto; text-align: center; justify-content: center; }',
       'html.cw-story-reflow .article-grid { display: block; }',
-      'html.cw-story-reflow .main-story { min-width: 0; }',
-      'html.cw-story-reflow .sidebar { position: static; top: auto; margin-top: 18px; max-width: 980px; }',
-      'html.cw-story-reflow .after-story-stack { display: grid; gap: 18px; margin-top: 28px; max-width: 980px; }',
+      'html.cw-story-reflow .main-story { min-width: 0; max-width: 980px; margin-left: auto; margin-right: auto; display: flex; flex-direction: column; align-items: center; }',
+      'html.cw-story-reflow .main-story > * { width: 100%; }',
+      'html.cw-story-reflow .main-story .body-label, html.cw-story-reflow .main-story .body, html.cw-story-reflow .main-story .highlights, html.cw-story-reflow .main-story .source-link, html.cw-story-reflow .main-story .article-footer-note { margin-left: auto; margin-right: auto; text-align: center; }',
+      'html.cw-story-reflow .main-story .body { max-width: 70ch; }',
+      'html.cw-story-reflow .main-story .body, html.cw-story-reflow .main-story .body > * { text-align: center; }',
+      'html.cw-story-reflow .main-story .body p, html.cw-story-reflow .main-story .body h2, html.cw-story-reflow .main-story .body h3, html.cw-story-reflow .main-story .body h4, html.cw-story-reflow .main-story .body figcaption { text-align: center; margin-left: auto; margin-right: auto; }',
+      'html.cw-story-reflow .main-story .body blockquote { border-left: 0; border-top: 3px solid #cfdcf2; padding: 18px 0 0; text-align: center; }',
+      'html.cw-story-reflow .main-story .body ul, html.cw-story-reflow .main-story .body ol { display: inline-block; text-align: left; margin-left: auto; margin-right: auto; }',
+      'html.cw-story-reflow .main-story .highlights { max-width: 70ch; }',
+      'html.cw-story-reflow .main-story .highlights h2, html.cw-story-reflow .main-story .highlights p { text-align: center; }',
+      'html.cw-story-reflow .main-story .highlights ul, html.cw-story-reflow .main-story .highlights ol { display: inline-block; text-align: left; margin-left: auto; margin-right: auto; }',
+      'html.cw-story-reflow .main-story .footer-links { justify-content: center; display: flex; flex-wrap: wrap; gap: 12px; }',
+      'html.cw-story-reflow .main-story .preview-gallery, html.cw-story-reflow .main-story .preview-inline-figure, html.cw-story-reflow .main-story .preview-video { margin-left: auto; margin-right: auto; }',
+      'html.cw-story-reflow .sidebar { position: static; top: auto; margin-top: 18px; max-width: 980px; margin-left: auto; margin-right: auto; text-align: center; }',
+      'html.cw-story-reflow .sidebar .editorial-panel, html.cw-story-reflow .sidebar .context-box, html.cw-story-reflow .sidebar .story-tools, html.cw-story-reflow .sidebar .meta-grid, html.cw-story-reflow .sidebar .related-links { text-align: center; }',
+      'html.cw-story-reflow .sidebar ul, html.cw-story-reflow .sidebar ol { display: inline-block; text-align: left; margin-left: auto; margin-right: auto; }',
+      'html.cw-story-reflow .after-story-stack { display: grid; gap: 18px; margin-top: 28px; max-width: 980px; margin-left: auto; margin-right: auto; justify-items: center; }',
+      'html.cw-story-reflow .after-story-stack > * { width: 100%; }',
       'html.cw-story-reflow .after-story-stack .meta-grid { margin: 0; }',
       'html.cw-story-reflow .after-story-stack > .source-link, html.cw-story-reflow .after-story-stack > .footer-links, html.cw-story-reflow .after-story-stack > .article-footer-note { max-width: 70ch; }',
-      'html.cw-story-reflow .body .preview-gallery { margin: 28px 0 30px; max-width: 100%; }',
-      'html.cw-story-reflow .body .preview-inline-figure, html.cw-story-reflow .body .preview-video { margin: 0; }',
+      'html.cw-story-reflow .after-story-stack .meta-chip { text-align: center; }',
+      'html.cw-story-reflow .body .preview-gallery { margin: 28px auto 30px; max-width: 100%; }',
+      'html.cw-story-reflow .body .preview-inline-figure, html.cw-story-reflow .body .preview-video { margin: 0 auto; }',
       'html.cw-story-reflow .body .preview-inline-figure img { width: 100%; height: auto; display: block; }',
-      'html.cw-story-reflow .body .preview-video-frame { max-width: 100%; }'
+      'html.cw-story-reflow .body .preview-video-frame { max-width: 100%; }',
+      '@media (max-width: 720px) { html.cw-story-reflow .main-story .body { max-width: min(70ch, 100%); } }'
     ].join('\n');
     document.head.appendChild(style);
   }
