@@ -4573,6 +4573,7 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
       </div>
     </article>
   </main>
+  <script src="/assets/js/article-layout.js"></script>
   <script>
     (function() {{
       const canonicalUrl = {json.dumps(canonical_url)};
