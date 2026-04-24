@@ -99,6 +99,20 @@ def coverage_kind_for(post: dict) -> str:
     return RULES['source_coverage_kind'].get(source, 'agency')
 
 
+def source_group_for(post: dict) -> str:
+    source = normalize_source_name(post.get('source') or '')
+    if source.startswith('Phys.org') or source.startswith('Phys. org'):
+        return 'phys_org'
+    kind = coverage_kind_for(post)
+    if kind == 'agency':
+        return 'primary_institutional'
+    if kind == 'journal':
+        return 'peer_reviewed_journals'
+    if kind == 'preprint':
+        return 'preprints'
+    return 'science_journalism'
+
+
 def evidence_key_for_kind(kind: str) -> str:
     if kind == 'preprint':
         return 'preprint'
@@ -168,12 +182,21 @@ def refined_score(post: dict) -> int:
     score = int(post.get('score') or 0)
     hay = normalized_haystack(post)
     kind = coverage_kind_for(post)
+    group = source_group_for(post)
     kind_story = story_kind(post)
 
-    if kind == 'news':
+    # Peso editorial: o portal deve favorecer fonte primária e periódico
+    # revisado, usar jornalismo científico como ponte, e limitar agregadores.
+    if group == 'primary_institutional':
+        score += 5
+    elif group == 'peer_reviewed_journals':
+        score += 4
+    elif group == 'phys_org':
+        score -= 12
+    elif kind == 'news':
         score -= 5
     elif kind == 'preprint':
-        score -= 12
+        score -= 10
 
     if kind_story == 'guide':
         score -= 10
@@ -442,63 +465,128 @@ def load_candidate_pool() -> list[dict]:
 def choose_posts(pool: list[dict]) -> list[dict]:
     base_caps = defaultdict(lambda: 3, {k: int(v) for k, v in RULES['base_source_caps'].items()})
     max_caps = defaultdict(lambda: 5, {k: int(v) for k, v in RULES['max_source_caps'].items()})
+    base_group_caps = defaultdict(lambda: TARGET_POST_COUNT, {k: int(v) for k, v in RULES.get('base_source_group_caps', {}).items()})
+    max_group_caps = defaultdict(lambda: TARGET_POST_COUNT, {k: int(v) for k, v in RULES.get('max_source_group_caps', {}).items()})
+    group_minimums = {k: int(v) for k, v in RULES.get('source_group_minimums', {}).items()}
+    group_order = list(RULES.get('source_group_order') or [
+        'primary_institutional',
+        'peer_reviewed_journals',
+        'science_journalism',
+        'preprints',
+    ])
 
-    science = [p for p in pool if p.get('storyKind') == 'science']
-    guides = [p for p in pool if p.get('storyKind') == 'guide']
-    ops = [p for p in pool if p.get('storyKind') == 'ops']
+    def post_story_kind(post: dict) -> str:
+        return post.get('storyKind') or story_kind(post)
+
+    science = [p for p in pool if post_story_kind(p) == 'science']
+    guides = [p for p in pool if post_story_kind(p) == 'guide']
+    ops = [p for p in pool if post_story_kind(p) == 'ops']
 
     for collection in (science, guides, ops):
-        collection.sort(key=lambda post: (int(post.get('score') or 0), post.get('publishedIso') or ''), reverse=True)
+        collection.sort(key=lambda post: (
+            int(post.get('score') or 0),
+            1 if source_group_for(post) == 'primary_institutional' else 0,
+            1 if source_group_for(post) == 'peer_reviewed_journals' else 0,
+            post.get('publishedIso') or '',
+        ), reverse=True)
 
     selected: list[dict] = []
     seen: set[str] = set()
     per_source: Counter = Counter()
+    per_group: Counter = Counter()
     per_category: Counter = Counter()
 
-    def can_take(post: dict, caps: dict[str, int]) -> bool:
+    def can_take(post: dict, caps: dict[str, int], group_caps: dict[str, int]) -> bool:
         slug = cw.collapse_ws(str(post.get('slug') or ''))
         source = normalize_source_name(post.get('source') or '')
-        return bool(slug) and slug not in seen and per_source[source] < caps[source]
+        group = source_group_for(post)
+        return (
+            bool(slug)
+            and slug not in seen
+            and per_source[source] < caps[source]
+            and per_group[group] < group_caps[group]
+        )
 
     def take(post: dict) -> None:
         slug = cw.collapse_ws(str(post.get('slug') or ''))
         source = normalize_source_name(post.get('source') or '')
+        group = source_group_for(post)
         seen.add(slug)
         per_source[source] += 1
+        per_group[group] += 1
         per_category[post.get('cat') or 'Astronomia'] += 1
         selected.append(post)
 
-    for category in CATEGORY_ORDER:
-        while per_category[category] < CATEGORY_FLOOR and len(selected) < TARGET_POST_COUNT:
+    # 1) Piso por família editorial: garante presença real de fonte primária,
+    # periódico e preprint relevante antes de completar por volume.
+    for group in group_order:
+        target = group_minimums.get(group, 0)
+        while per_group[group] < target and len(selected) < TARGET_POST_COUNT:
             picked = False
             for post in science:
-                if post.get('cat') != category:
+                if source_group_for(post) != group:
                     continue
-                if can_take(post, base_caps):
+                if can_take(post, base_caps, base_group_caps):
                     take(post)
                     picked = True
                     break
             if not picked:
                 break
 
+    # 2) Piso temático, ainda respeitando os limites-base.
+    for category in CATEGORY_ORDER:
+        while per_category[category] < CATEGORY_FLOOR and len(selected) < TARGET_POST_COUNT:
+            picked = False
+            for post in science:
+                if post.get('cat') != category:
+                    continue
+                if can_take(post, base_caps, base_group_caps):
+                    take(post)
+                    picked = True
+                    break
+            if not picked:
+                break
+
+    # 3) Completa com ciência pura dentro dos limites-base.
     for post in science:
         if len(selected) >= TARGET_POST_COUNT:
             break
-        if can_take(post, base_caps):
+        if can_take(post, base_caps, base_group_caps):
             take(post)
 
+    # 4) Relaxa até o teto máximo quando fontes melhores não tiverem volume.
     for post in science:
         if len(selected) >= TARGET_POST_COUNT:
             break
-        if can_take(post, max_caps):
+        if can_take(post, max_caps, max_group_caps):
             take(post)
 
+    # 5) Guias e itens operacionais só entram no fim e ainda com teto máximo.
     for pool_name in (guides, ops):
         for post in pool_name:
             if len(selected) >= TARGET_POST_COUNT:
                 break
-            if can_take(post, max_caps):
+            if can_take(post, max_caps, max_group_caps):
                 take(post)
+
+    # 6) Preenchimento de segurança: se o acervo atual não tiver periódicos ou
+    # fontes suficientes dentro de algum teto por fonte, completa até 40 sem
+    # liberar Phys.org acima do teto de grupo. Site vazio por excesso de pureza
+    # também não é padrão internacional; é só uma vitrine com ansiedade.
+    emergency_group_caps = defaultdict(lambda: TARGET_POST_COUNT)
+    emergency_group_caps.update(max_group_caps)
+    emergency_group_caps['phys_org'] = max_group_caps['phys_org']
+
+    def can_take_emergency(post: dict) -> bool:
+        slug = cw.collapse_ws(str(post.get('slug') or ''))
+        group = source_group_for(post)
+        return bool(slug) and slug not in seen and per_group[group] < emergency_group_caps[group]
+
+    for post in science + guides + ops:
+        if len(selected) >= TARGET_POST_COUNT:
+            break
+        if can_take_emergency(post):
+            take(post)
 
     selected.sort(key=lambda post: post.get('publishedIso') or '', reverse=True)
     for idx, post in enumerate(selected, start=1):

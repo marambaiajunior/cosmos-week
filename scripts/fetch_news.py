@@ -276,12 +276,13 @@ SOURCE_TYPE_LABELS = {
     'agency': {'pt': 'Fonte institucional', 'en': 'Institutional source'},
     'preprint': {'pt': 'Preprint', 'en': 'Preprint'},
     'journal': {'pt': 'Artigo científico', 'en': 'Research paper'},
+    'news': {'pt': 'Jornalismo científico', 'en': 'Science journalism'},
 }
 
 SOURCE_NOTES = {
     'agency': {
-        'pt': 'Fonte primária institucional.',
-        'en': 'Primary institutional source.',
+        'pt': 'Fonte primária institucional. Preferida para missões, observatórios, agências e laboratórios oficiais.',
+        'en': 'Primary institutional source. Preferred for missions, observatories, agencies and official laboratories.',
     },
     'preprint': {
         'pt': 'Preprint ainda sem revisão por pares.',
@@ -290,6 +291,10 @@ SOURCE_NOTES = {
     'journal': {
         'pt': 'Artigo científico revisado por pares.',
         'en': 'Peer-reviewed research paper.',
+    },
+    'news': {
+        'pt': 'Cobertura de jornalismo científico. Útil para contexto, mas recebe peso menor que fonte primária ou periódico.',
+        'en': 'Science journalism coverage. Useful for context, but weighted below primary sources and journals.',
     },
 }
 
@@ -304,6 +309,7 @@ EVIDENCE_LABELS = {
     'peer_reviewed': {'pt': 'Evidência revisada', 'en': 'Peer-reviewed evidence'},
     'institutional_update': {'pt': 'Atualização institucional', 'en': 'Institutional update'},
     'preprint': {'pt': 'Resultado provisório', 'en': 'Preliminary result'},
+    'journalistic': {'pt': 'Cobertura jornalística', 'en': 'Journalistic coverage'},
 }
 
 
@@ -322,82 +328,207 @@ class SourceConfig:
 # The result is a hybrid mix of institutional, journalistic and preprint feeds
 # without changing the downstream parsing/export pipeline.
 SOURCES = [
-    # ── Institutional / Agency ──────────────────────────────────────────────
-    SourceConfig('NASA News Releases',          'https://www.nasa.gov/news-release/feed/',                                              'rss',  'agency',   94),
-    SourceConfig('JPL News',                    'https://www.jpl.nasa.gov/feeds/news/',                                                 'rss',  'agency',   93),
-    # Updated ESO feed (feedburner)
-    SourceConfig('ESO Press Releases',          'https://feeds.feedburner.com/EsoTopNews',                                               'rss',  'agency',   92),
-    SourceConfig('ESA Space Science',           'https://www.esa.int/rssfeed/Our_Activities/Space_Science',                             'rss',  'agency',   90),
-    SourceConfig('ESA Hubble News',             'https://esahubble.org/news/feed/',                                                     'rss',  'agency',   89),
-    # ── Journal feeds ───────────────────────────────────────────────────────
-    SourceConfig('Nature',                      'http://feeds.nature.com/nature/rss/current',                                           'rss',  'journal',  88),
-    SourceConfig('Nature Astronomy',            'http://feeds.nature.com/natastron/rss/current',                                        'rss',  'journal',  87),
-    SourceConfig('Science Magazine',            'https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science',                'rss',  'journal',  86),
-    # ── Major institutions ──────────────────────────────────────────────────
-    # CERN updated feed: the old '/news/feed' page is a HTML landing page that breaks XML parsing.
-    # Use the dedicated API feed which provides well‑formed RSS items.
-    SourceConfig('CERN News',                   'https://home.cern/api/news/news/feed.rss',                                            'rss',  'agency',   86),
-    # APS Physics: the physics.aps.org domain requires JavaScript and triggers Cloudflare protection.
-    # Use the feeds.aps.org mirror which provides the same recent Physics articles without a 403 barrier.
-    SourceConfig('APS Physics',                 'https://feeds.aps.org/rss/recent/physics.xml',                                         'rss',  'journal',  83),
-    SourceConfig('NSF News',                    'https://www.nsf.gov/rss/rss_www_news.xml',                                             'rss',  'agency',   80),
-    SourceConfig('ESA Space News',              'https://www.esa.int/rssfeed/Our_Activities/Space_News',                                'rss',  'agency',   80),
-    SourceConfig('NIH News Releases',           'https://www.nih.gov/news-releases/feed.xml',                                           'rss',  'agency',   79),
-    # Planetary Society: updated feed URL
-    SourceConfig('The Planetary Society',       'https://www.planetary.org/rss/articles',                                              'rss',  'agency',   78),
-    # Bloco brasileiro curado: fontes com reputação forte em jornalismo científico.
-    # A duplicata do feed da NASA foi removida para abrir espaço sem degradar cobertura.
-    SourceConfig('Agência FAPESP',             'http://agencia.fapesp.br/rss/',                                                       'rss',  'agency',   77),
-    # Phys.org sections (URLs corrigidas: /rss-feed/{category}-news/)
-    SourceConfig('Phys.org Space',              'https://phys.org/rss-feed/space-news/',                                               'rss',  'agency',   76),
-    # NASA Earth Observatory: URL corrigida
-    SourceConfig('NASA Earth Observatory',      'https://earthobservatory.nasa.gov/feeds/earth-observatory.rss',                        'rss',  'agency',   75),
-    SourceConfig('Sky & Telescope',             'https://skyandtelescope.org/feed/',                                                    'rss',  'agency',   74),
-    SourceConfig('Universe Today',              'https://www.universetoday.com/feed/',                                                  'rss',  'agency',   73),
-    SourceConfig('EarthSky',                    'https://earthsky.org/feed/',                                                           'rss',  'agency',   72),
-    # Pesquisa FAPESP é uma revista de jornalismo científico voltada à produção brasileira.
-    SourceConfig('Pesquisa FAPESP Online',      'https://revistapesquisa.fapesp.br/category/online/feed/',                              'rss',  'journal',  72),
-    SourceConfig('Pesquisa FAPESP Ciência',     'https://revistapesquisa.fapesp.br/category/impressa/ciencia/feed/',                    'rss',  'journal',  71),
-    SourceConfig('Phys.org Biology',            'https://phys.org/rss-feed/biology-news/',                                             'rss',  'agency',   71),
-    SourceConfig('Phys.org Physics',            'https://phys.org/rss-feed/physics-news/',                                             'rss',  'agency',   71),
-    SourceConfig('Phys.org Chemistry',          'https://phys.org/rss-feed/chemistry-news/',                                           'rss',  'agency',   70),
-    # Faixa temática brasileira adicional para astronomia e espaço.
-    SourceConfig('Pesquisa FAPESP Astronomia',  'https://revistapesquisa.fapesp.br/tag/astronomia/feed/',                              'rss',  'journal',  69),
-    # Removido: feed de Earth Sciences indisponível (404)
-    # ── arXiv preprints ─────────────────────────────────────────────────────
+    # ── Fontes primárias institucionais: maior peso editorial ────────────────
+    SourceConfig('NASA News Releases',          'https://www.nasa.gov/news-release/feed/',                                              'rss',  'agency',   98),
+    SourceConfig('JPL News',                    'https://www.jpl.nasa.gov/feeds/news/',                                                 'rss',  'agency',   97),
+    SourceConfig('ESO Press Releases',          'https://feeds.feedburner.com/EsoTopNews',                                               'rss',  'agency',   96),
+    SourceConfig('ESA Space Science',           'https://www.esa.int/rssfeed/Our_Activities/Space_Science',                             'rss',  'agency',   95),
+    SourceConfig('ESA Hubble News',             'https://esahubble.org/news/feed/',                                                     'rss',  'agency',   94),
+    SourceConfig('CERN News',                   'https://home.cern/api/news/news/feed.rss',                                            'rss',  'agency',   93),
+    SourceConfig('NASA Earth Observatory',      'https://earthobservatory.nasa.gov/feeds/earth-observatory.rss',                        'rss',  'agency',   92),
+    SourceConfig('NSF News',                    'https://www.nsf.gov/rss/rss_www_news.xml',                                             'rss',  'agency',   91),
+    SourceConfig('ESA Space News',              'https://www.esa.int/rssfeed/Our_Activities/Space_News',                                'rss',  'agency',   90),
+    SourceConfig('NIH News Releases',           'https://www.nih.gov/news-releases/feed.xml',                                           'rss',  'agency',   86),
+
+    # ── Periódicos e canais científicos: alto peso, mas sem dominar volume ───
+    SourceConfig('Nature',                      'http://feeds.nature.com/nature/rss/current',                                           'rss',  'journal',  92),
+    SourceConfig('Nature Astronomy',            'http://feeds.nature.com/natastron/rss/current',                                        'rss',  'journal',  91),
+    SourceConfig('Science Magazine',            'https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science',                'rss',  'journal',  90),
+    SourceConfig('APS Physics',                 'https://feeds.aps.org/rss/recent/physics.xml',                                         'rss',  'journal',  89),
+
+    # ── Jornalismo científico confiável: bom para contexto e leitura ─────────
+    SourceConfig('The Planetary Society',       'https://www.planetary.org/rss/articles',                                              'rss',  'news',     83),
+    SourceConfig('Agência FAPESP',              'http://agencia.fapesp.br/rss/',                                                       'rss',  'news',     82),
+    SourceConfig('Pesquisa FAPESP Online',      'https://revistapesquisa.fapesp.br/category/online/feed/',                              'rss',  'news',     81),
+    SourceConfig('Pesquisa FAPESP Ciência',     'https://revistapesquisa.fapesp.br/category/impressa/ciencia/feed/',                    'rss',  'news',     80),
+    SourceConfig('Pesquisa FAPESP Astronomia',  'https://revistapesquisa.fapesp.br/tag/astronomia/feed/',                              'rss',  'news',     80),
+    SourceConfig('Sky & Telescope',             'https://skyandtelescope.org/feed/',                                                    'rss',  'news',     79),
+    SourceConfig('Universe Today',              'https://www.universetoday.com/feed/',                                                  'rss',  'news',     78),
+    SourceConfig('EarthSky',                    'https://earthsky.org/feed/',                                                           'rss',  'news',     74),
+
+    # ── Phys.org: útil para volume, mas limitado para não virar agregador cru ─
+    SourceConfig('Phys.org Space',              'https://phys.org/rss-feed/space-news/',                                               'rss',  'news',     66),
+    SourceConfig('Phys.org Physics',            'https://phys.org/rss-feed/physics-news/',                                             'rss',  'news',     62),
+    SourceConfig('Phys.org Biology',            'https://phys.org/rss-feed/biology-news/',                                             'rss',  'news',     60),
+    SourceConfig('Phys.org Chemistry',          'https://phys.org/rss-feed/chemistry-news/',                                           'rss',  'news',     59),
+
+    # ── arXiv preprints: ciência de ponta, sempre como resultado provisório ──
     SourceConfig('arXiv Astrophysics',
         'https://export.arxiv.org/api/query?search_query=(cat:astro-ph.*+AND+(all:exoplanet+OR+all:galaxy+OR+all:%22dark+matter%22+OR+all:%22dark+energy%22+OR+all:%22black+hole%22+OR+all:cosmology+OR+all:%22gravitational+wave%22+OR+all:supernova+OR+all:jwst+OR+all:euclid+OR+all:mars+OR+all:moon))'
         '&sortBy=submittedDate&sortOrder=descending&max_results=20',
-        'atom', 'preprint', 56),
+        'atom', 'preprint', 66),
     SourceConfig('arXiv Cosmology',
         'https://export.arxiv.org/api/query?search_query=(cat:astro-ph.CO+AND+(all:%22dark+energy%22+OR+all:%22dark+matter%22+OR+all:%22hubble+tension%22+OR+all:cmb+OR+all:inflation+OR+all:%22large+scale+structure%22+OR+all:euclid+OR+all:desi+OR+all:cosmology))'
         '&sortBy=submittedDate&sortOrder=descending&max_results=16',
-        'atom', 'preprint', 57),
+        'atom', 'preprint', 64),
     SourceConfig('arXiv High Energy Astrophysics',
         'https://export.arxiv.org/api/query?search_query=(cat:astro-ph.HE+AND+(all:%22black+hole%22+OR+all:%22neutron+star%22+OR+all:%22gravitational+wave%22+OR+all:%22gamma-ray+burst%22+OR+all:pulsar+OR+all:%22fast+radio+burst%22+OR+all:kilonova+OR+all:ligo))'
         '&sortBy=submittedDate&sortOrder=descending&max_results=16',
-        'atom', 'preprint', 54),
+        'atom', 'preprint', 63),
     SourceConfig('arXiv Earth & Planetary',
         'https://export.arxiv.org/api/query?search_query=(cat:astro-ph.EP+AND+(all:exoplanet+OR+all:mars+OR+all:moon+OR+all:venus+OR+all:atmosphere+OR+all:biosignature+OR+all:habitability+OR+all:%22solar+system%22))'
         '&sortBy=submittedDate&sortOrder=descending&max_results=16',
-        'atom', 'preprint', 56),
+        'atom', 'preprint', 63),
     SourceConfig('arXiv Physics Frontiers',
         'https://export.arxiv.org/api/query?search_query=((cat:quant-ph+OR+cat:hep-ph+OR+cat:hep-ex+OR+cat:physics.plasm-ph+OR+cat:cond-mat.mtrl-sci)+AND+(all:quantum+OR+all:particle+OR+all:muon+OR+all:plasma+OR+all:higgs+OR+all:quark+OR+all:superconductor+OR+all:topological))'
         '&sortBy=submittedDate&sortOrder=descending&max_results=16',
-        'atom', 'preprint', 53),
+        'atom', 'preprint', 61),
     SourceConfig('arXiv Quantitative Biology',
         'https://export.arxiv.org/api/query?search_query=(cat:q-bio.*+AND+(all:biology+OR+all:cell+OR+all:genome+OR+all:protein+OR+all:disease+OR+all:microbe+OR+all:evolution+OR+all:crispr))'
         '&sortBy=submittedDate&sortOrder=descending&max_results=16',
-        'atom', 'preprint', 50),
+        'atom', 'preprint', 56),
     SourceConfig('arXiv Chemical Physics',
         'https://export.arxiv.org/api/query?search_query=((cat:physics.chem-ph+OR+cat:cond-mat.soft)+AND+(all:chemistry+OR+all:chemical+OR+all:molecule+OR+all:catalyst+OR+all:spectroscopy+OR+all:reaction+OR+all:polymer+OR+all:synthesis))'
         '&sortBy=submittedDate&sortOrder=descending&max_results=16',
-        'atom', 'preprint', 49),
+        'atom', 'preprint', 55),
     SourceConfig('arXiv Geophysics',
         'https://export.arxiv.org/api/query?search_query=((cat:physics.geo-ph+OR+cat:physics.ao-ph)+AND+(all:earth+OR+all:climate+OR+all:ocean+OR+all:atmosphere+OR+all:geophysics+OR+all:magnetic+OR+all:weather+OR+all:glacier))'
         '&sortBy=submittedDate&sortOrder=descending&max_results=16',
-        'atom', 'preprint', 51),
+        'atom', 'preprint', 55),
 ]
+
+
+# Distribuição editorial desejada para a vitrine de 40 posts.
+# A regra é simples: fontes primárias e periódicos ganham prioridade; Phys.org
+# continua disponível, mas não pode ocupar a homepage como se fosse dono do
+# telescópio. Se várias fontes falharem em uma rodada, os limites máximos ainda
+# permitem preencher a página sem quebrar o workflow.
+SOURCE_BASE_CAPS = {
+    'NASA News Releases': 4,
+    'JPL News': 3,
+    'ESO Press Releases': 3,
+    'ESA Space Science': 3,
+    'ESA Hubble News': 2,
+    'CERN News': 2,
+    'NASA Earth Observatory': 3,
+    'NSF News': 3,
+    'ESA Space News': 3,
+    'NIH News Releases': 2,
+
+    'Nature': 2,
+    'Nature Astronomy': 2,
+    'Science Magazine': 2,
+    'APS Physics': 2,
+
+    'The Planetary Society': 2,
+    'Agência FAPESP': 2,
+    'Pesquisa FAPESP Online': 2,
+    'Pesquisa FAPESP Ciência': 2,
+    'Pesquisa FAPESP Astronomia': 2,
+    'Sky & Telescope': 2,
+    'Universe Today': 2,
+    'EarthSky': 1,
+
+    'Phys.org Space': 2,
+    'Phys.org Physics': 1,
+    'Phys.org Biology': 1,
+    'Phys.org Chemistry': 1,
+
+    'arXiv Astrophysics': 2,
+    'arXiv Cosmology': 1,
+    'arXiv High Energy Astrophysics': 1,
+    'arXiv Earth & Planetary': 1,
+    'arXiv Physics Frontiers': 1,
+    'arXiv Quantitative Biology': 1,
+    'arXiv Chemical Physics': 1,
+    'arXiv Geophysics': 1,
+}
+
+SOURCE_MAX_CAPS = {
+    'NASA News Releases': 5,
+    'JPL News': 4,
+    'ESO Press Releases': 4,
+    'ESA Space Science': 4,
+    'ESA Hubble News': 3,
+    'CERN News': 3,
+    'NASA Earth Observatory': 4,
+    'NSF News': 4,
+    'ESA Space News': 4,
+    'NIH News Releases': 3,
+
+    'Nature': 3,
+    'Nature Astronomy': 3,
+    'Science Magazine': 3,
+    'APS Physics': 3,
+
+    'The Planetary Society': 3,
+    'Agência FAPESP': 3,
+    'Pesquisa FAPESP Online': 3,
+    'Pesquisa FAPESP Ciência': 3,
+    'Pesquisa FAPESP Astronomia': 3,
+    'Sky & Telescope': 3,
+    'Universe Today': 3,
+    'EarthSky': 2,
+
+    # Phys.org fica limitado também em grupo, abaixo.
+    'Phys.org Space': 3,
+    'Phys.org Physics': 2,
+    'Phys.org Biology': 2,
+    'Phys.org Chemistry': 1,
+
+    'arXiv Astrophysics': 2,
+    'arXiv Cosmology': 2,
+    'arXiv High Energy Astrophysics': 2,
+    'arXiv Earth & Planetary': 2,
+    'arXiv Physics Frontiers': 2,
+    'arXiv Quantitative Biology': 1,
+    'arXiv Chemical Physics': 1,
+    'arXiv Geophysics': 1,
+}
+
+SOURCE_GROUP_MINIMUMS = {
+    'primary_institutional': 14,
+    'peer_reviewed_journals': 4,
+    'science_journalism': 6,
+    'preprints': 3,
+}
+
+SOURCE_GROUP_BASE_CAPS = {
+    'primary_institutional': 22,
+    'peer_reviewed_journals': 8,
+    'science_journalism': 13,
+    'phys_org': 5,
+    'preprints': 6,
+}
+
+SOURCE_GROUP_MAX_CAPS = {
+    'primary_institutional': 28,
+    'peer_reviewed_journals': 10,
+    'science_journalism': 16,
+    'phys_org': 8,
+    'preprints': 8,
+}
+
+SOURCE_GROUP_ORDER = [
+    'primary_institutional',
+    'peer_reviewed_journals',
+    'science_journalism',
+    'preprints',
+]
+
+
+def source_group_for(source_name: str, source_type: str) -> str:
+    source_name = collapse_ws(source_name or '')
+    if source_name.startswith('Phys.org') or source_name.startswith('Phys. org'):
+        return 'phys_org'
+    if source_type == 'preprint':
+        return 'preprints'
+    if source_type == 'journal':
+        return 'peer_reviewed_journals'
+    if source_type == 'news':
+        return 'science_journalism'
+    return 'primary_institutional'
+
 
 TRANSLATION_CACHE: dict[tuple[str, str], str] = {}
 PAGE_CACHE: dict[str, str] = {}
@@ -2689,6 +2820,8 @@ def evidence_key_for(item: dict) -> str:
         return 'preprint'
     if item.get('source_type') == 'journal':
         return 'peer_reviewed'
+    if item.get('source_type') == 'news':
+        return 'journalistic'
     return 'institutional_update'
 
 
@@ -2736,8 +2869,18 @@ def compute_editorial_profile(item: dict) -> dict:
     low = normalize_text(' '.join([item['title'], item['summary'], item['link'], item['source']]))
     category = classify_category(item['title'] + ' ' + item['summary'], item['source'])
 
+    source_type = item.get('source_type')
     source_score = int(item.get('source_priority', 50))
-    evidence_score = 58 if item.get('source_type') == 'preprint' else 82
+    if source_type == 'journal':
+        evidence_score = 90
+    elif source_type == 'agency':
+        evidence_score = 86
+    elif source_type == 'news':
+        evidence_score = 72
+    elif source_type == 'preprint':
+        evidence_score = 58
+    else:
+        evidence_score = 70
     relevance_score = 48
     accessibility_score = 52
     novelty_score = 45 + freshness_points(item['published'])
@@ -2846,6 +2989,7 @@ def is_fresh_item(item: dict) -> bool:
 def dedupe_and_rank(items: list[dict]) -> list[dict]:
     seen = set()
     per_source: Counter = Counter()
+    per_group: Counter = Counter()
     preprints = 0
     per_category: Counter = Counter()
     ranked = []
@@ -2858,22 +3002,37 @@ def dedupe_and_rank(items: list[dict]) -> list[dict]:
     for item in items:
         profile = compute_editorial_profile(item)
         item['editorial_profile'] = profile
+        item['source_group'] = source_group_for(item.get('source') or '', item.get('source_type') or '')
         decorated.append(item)
 
     decorated.sort(
-        key=lambda x: (x['editorial_profile']['overall'], x['editorial_profile']['relevance_score'], x['published']),
+        key=lambda x: (
+            x['editorial_profile']['overall'],
+            x['editorial_profile']['source_score'],
+            x['editorial_profile']['relevance_score'],
+            x['published'],
+        ),
         reverse=True
     )
 
-    def can_take(item: dict) -> bool:
+    def can_take(item: dict, relaxed: bool = False) -> bool:
         key = re.sub(r'\W+', '', normalize_text(item['title']))
         if key in seen:
             return False
         if is_noise(item):
             return False
-        if per_source[item['source']] >= MAX_POSTS_PER_SOURCE:
+
+        source = item.get('source') or ''
+        group = item.get('source_group') or source_group_for(source, item.get('source_type') or '')
+        source_caps = SOURCE_MAX_CAPS if relaxed else SOURCE_BASE_CAPS
+        group_caps = SOURCE_GROUP_MAX_CAPS if relaxed else SOURCE_GROUP_BASE_CAPS
+        default_source_cap = MAX_POSTS_PER_SOURCE if relaxed else min(3, MAX_POSTS_PER_SOURCE)
+
+        if per_source[source] >= source_caps.get(source, default_source_cap):
             return False
-        if item['source_type'] == 'preprint' and preprints >= MAX_PREPRINTS:
+        if per_group[group] >= group_caps.get(group, MAX_POSTS):
+            return False
+        if item['source_type'] == 'preprint' and preprints >= min(MAX_PREPRINTS, SOURCE_GROUP_MAX_CAPS.get('preprints', MAX_PREPRINTS)):
             return False
         if len(ranked) >= MAX_POSTS:
             return False
@@ -2884,16 +3043,24 @@ def dedupe_and_rank(items: list[dict]) -> list[dict]:
         key = re.sub(r'\W+', '', normalize_text(item['title']))
         seen.add(key)
         item['score'] = item['editorial_profile']['overall']
+        item['source_group'] = item.get('source_group') or source_group_for(item.get('source') or '', item.get('source_type') or '')
         ranked.append(item)
         per_source[item['source']] += 1
+        per_group[item['source_group']] += 1
         per_category[item['editorial_profile']['category']] += 1
         if item['source_type'] == 'preprint':
             preprints += 1
 
-    # Pull in a minimum quota of truly fresh stories first so the homepage stops feeling stale.
+    # Primeiro: garantir frescor, mas sem deixar uma única família de fontes
+    # capturar a vitrine inteira.
     fresh_candidates = [item for item in decorated if is_fresh_item(item)]
     fresh_candidates.sort(
-        key=lambda x: (x['published'], x['editorial_profile']['overall'], x['editorial_profile']['relevance_score']),
+        key=lambda x: (
+            x['published'],
+            x['editorial_profile']['overall'],
+            x['editorial_profile']['source_score'],
+            x['editorial_profile']['relevance_score'],
+        ),
         reverse=True
     )
     fresh_taken = 0
@@ -2904,11 +3071,29 @@ def dedupe_and_rank(items: list[dict]) -> list[dict]:
             take(item)
             fresh_taken += 1
 
-    # Guarantee minimum coverage per category
+    # Segundo: piso por família editorial. Isso força o site a parecer um portal
+    # científico internacional: agências/laboratórios e periódicos aparecem com
+    # peso real, e não apenas como decoração enquanto o agregador faz carnaval.
+    for group in SOURCE_GROUP_ORDER:
+        target = SOURCE_GROUP_MINIMUMS.get(group, 0)
+        while per_group[group] < target and len(ranked) < MAX_POSTS:
+            picked = False
+            for item in decorated:
+                item_group = item.get('source_group') or source_group_for(item.get('source') or '', item.get('source_type') or '')
+                if item_group != group:
+                    continue
+                if can_take(item):
+                    take(item)
+                    picked = True
+                    break
+            if not picked:
+                break
+
+    # Terceiro: cobertura temática mínima.
     for category in category_order:
         if MIN_POSTS_PER_CATEGORY <= 0:
             break
-        while per_category[category] < MIN_POSTS_PER_CATEGORY:
+        while per_category[category] < MIN_POSTS_PER_CATEGORY and len(ranked) < MAX_POSTS:
             filled = False
             for item in decorated:
                 if item['editorial_profile']['category'] != category:
@@ -2920,11 +3105,20 @@ def dedupe_and_rank(items: list[dict]) -> list[dict]:
             if not filled:
                 break
 
+    # Quarto: completa com o melhor ranqueamento dentro dos limites-base.
     for item in decorated:
         if can_take(item):
             take(item)
         if len(ranked) >= MAX_POSTS:
             break
+
+    # Quinto: se feeds de alta qualidade falharem em uma rodada, relaxa os caps
+    # com teto máximo. Mesmo nesse fallback operacional, Phys.org segue limitado.
+    for item in decorated:
+        if len(ranked) >= MAX_POSTS:
+            break
+        if can_take(item, relaxed=True):
+            take(item)
 
     return ranked
 
