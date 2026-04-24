@@ -3357,17 +3357,23 @@ def _join_sentences(sentences: list[str]) -> str:
 
 
 def _intro_connector(lang: str, source_type: str) -> str:
+    # Keep this table tolerant: source types are editorial taxonomy, not a reason
+    # for the workflow to crash when a new class is introduced. The "news" type
+    # is used for reputable science journalism and aggregators with lower weight
+    # than primary institutions or journals.
     if lang == 'en':
         return {
             'preprint': 'The new analysis still awaits peer review, but it already lays out the central claim clearly.',
             'agency': 'The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.',
             'journal': 'The published study gives the result a firmer scientific footing and helps place it inside the wider research landscape.',
-        }[source_type]
+            'news': 'The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.',
+        }.get(source_type, 'The report adds context to the story, while the strongest conclusions still depend on the underlying evidence and independent verification.')
     return {
         'preprint': 'A análise ainda aguarda revisão por pares, mas já apresenta com clareza o ponto central da história.',
         'agency': 'O relato institucional enquadra o desenvolvimento de forma concreta e o conecta ao esforço mais amplo de observação ou missão.',
         'journal': 'O estudo publicado dá ao resultado um lastro científico mais firme e ajuda a situá-lo no panorama mais amplo da pesquisa.',
-    }[source_type]
+        'news': 'A cobertura de jornalismo científico acrescenta contexto útil, enquanto o lastro evidencial mais forte ainda vem dos dados, artigos ou documentos institucionais de base.',
+    }.get(source_type, 'O relato acrescenta contexto à história, enquanto as conclusões mais fortes ainda dependem da evidência de base e da verificação independente.')
 
 
 def _context_bridge(category: str, lang: str) -> str:
@@ -3715,15 +3721,30 @@ def _evidence_note(source: str, source_type: str, lang: str) -> str:
                 'Technical documentation and peer-reviewed publications, where they exist, '
                 'provide the complementary layer that institutional releases cannot substitute.'
             )
+        if source_type == 'journal':
+            return (
+                'Because the study has cleared peer review, the evidential footing is stronger than it would '
+                'be for a preprint or institutional release, though no published result is beyond revision '
+                'when better data or better analysis arrive. '
+                'Publication in a peer-reviewed journal signals that independent specialists found the '
+                'methodology defensible and the conclusions proportionate to the evidence presented. '
+                'It does not signal that the result is final; the scientific record contains many peer-reviewed '
+                'papers that were later qualified, partially retracted or superseded by studies with broader samples '
+                'or improved controls.'
+            )
+        if source_type == 'news':
+            return (
+                f'Because this item comes through {source} as science journalism, it should be treated as '
+                'contextual reporting rather than primary evidence. Good science reporting can identify why '
+                'a result matters, connect it to the wider literature and make technical work readable, but '
+                'the decisive evidence remains in the original paper, dataset, mission release or technical record. '
+                'That distinction is especially important when a story is later repeated by aggregators, because '
+                'repetition increases visibility, not evidential strength.'
+            )
         return (
-            'Because the study has cleared peer review, the evidential footing is stronger than it would '
-            'be for a preprint or institutional release, though no published result is beyond revision '
-            'when better data or better analysis arrive. '
-            'Publication in a peer-reviewed journal signals that independent specialists found the '
-            'methodology defensible and the conclusions proportionate to the evidence presented. '
-            'It does not signal that the result is final; the scientific record contains many peer-reviewed '
-            'papers that were later qualified, partially retracted or superseded by studies with broader samples '
-            'or improved controls.'
+            'The responsible reading is to separate useful context from evidential weight. '
+            'The strongest conclusions depend on the original data, methods and independent verification, '
+            'not only on how prominently the story is presented.'
         )
     if source_type == 'preprint':
         return (
@@ -3747,15 +3768,30 @@ def _evidence_note(source: str, source_type: str, lang: str) -> str:
             'Documentação técnica e publicações revisadas por pares, quando existem, '
             'fornecem a camada complementar que releases institucionais não podem substituir.'
         )
+    if source_type == 'journal':
+        return (
+            'Como o estudo passou pela revisão por pares, o lastro evidencial é mais sólido do que seria '
+            'para um preprint ou comunicado institucional, embora nenhum resultado publicado esteja imune '
+            'a revisão quando chegam dados melhores ou análises mais rigorosas. '
+            'A publicação em periódico revisado por pares sinaliza que especialistas independentes '
+            'consideraram a metodologia defensável e as conclusões proporcionais à evidência apresentada. '
+            'Isso não sinaliza que o resultado é definitivo; o registro científico contém muitos artigos '
+            'revisados por pares que foram posteriormente qualificados, parcialmente retratados '
+            'ou superados por estudos com amostras mais amplas ou controles aprimorados.'
+        )
+    if source_type == 'news':
+        return (
+            f'Como este item chega por meio de {source} como jornalismo científico, ele deve ser tratado '
+            'como cobertura contextual, não como evidência primária. Bom jornalismo científico pode explicar '
+            'por que um resultado importa, conectá-lo à literatura mais ampla e tornar trabalho técnico legível, '
+            'mas a evidência decisiva continua no artigo original, no conjunto de dados, no comunicado de missão '
+            'ou no registro técnico. Essa distinção é especialmente importante quando uma história é repetida '
+            'por agregadores, porque repetição aumenta visibilidade, não força evidencial.'
+        )
     return (
-        'Como o estudo passou pela revisão por pares, o lastro evidencial é mais sólido do que seria '
-        'para um preprint ou comunicado institucional, embora nenhum resultado publicado esteja imune '
-        'a revisão quando chegam dados melhores ou análises mais rigorosas. '
-        'A publicação em periódico revisado por pares sinaliza que especialistas independentes '
-        'consideraram a metodologia defensável e as conclusões proporcionais à evidência apresentada. '
-        'Isso não sinaliza que o resultado é definitivo; o registro científico contém muitos artigos '
-        'revisados por pares que foram posteriormente qualificados, parcialmente retratados '
-        'ou superados por estudos com amostras mais amplas ou controles aprimorados.'
+        'A leitura responsável separa contexto útil de peso evidencial. '
+        'As conclusões mais fortes dependem dos dados originais, dos métodos e da verificação independente, '
+        'não apenas da forma como a história foi apresentada.'
     )
 
 
