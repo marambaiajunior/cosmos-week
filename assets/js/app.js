@@ -892,6 +892,68 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
     return idx === -1 ? 0 : (seen.length - idx);
   }
 
+  const FRONT_ASTRO_CATEGORIES = new Set(['Astronomia', 'Astrofísica']);
+  const FRONT_COSMOLOGY_CATEGORIES = new Set(['Cosmologia']);
+  const FRONT_EXOPLANET_CATEGORIES = new Set(['Exoplanetas']);
+
+  function frontCategoryGroup(post) {
+    const cat = String(post?.cat || '').trim();
+    if (FRONT_ASTRO_CATEGORIES.has(cat)) return 'astro';
+    if (FRONT_COSMOLOGY_CATEGORIES.has(cat)) return 'cosmology';
+    if (FRONT_EXOPLANET_CATEGORIES.has(cat)) return 'exoplanets';
+    return 'other';
+  }
+
+  function frontEditorialSort(a, b) {
+    const freshDiff = Number(isFreshFrontPost(b)) - Number(isFreshFrontPost(a));
+    if (freshDiff) return freshDiff;
+    const stampDiff = postTimestamp(b) - postTimestamp(a);
+    if (stampDiff) return stampDiff;
+    const scoreDiff = sectionPriority(b) - sectionPriority(a);
+    if (scoreDiff) return scoreDiff;
+    return String(b.slug || '').localeCompare(String(a.slug || ''));
+  }
+
+  function selectFrontBucket(candidates, count, bucketName, seedOffset = 0, used = new Set()) {
+    const available = dedupePostsBySlug(candidates)
+      .filter(post => post?.slug && !used.has(post.slug))
+      .sort(frontEditorialSort);
+    const chosen = pickRotatedSet(available, count, bucketName, seedOffset);
+    chosen.forEach(post => used.add(post.slug));
+    return chosen;
+  }
+
+  function buildFeaturedFiveForAll(regular) {
+    const used = new Set();
+    const groups = {
+      astro: regular.filter(post => frontCategoryGroup(post) === 'astro'),
+      cosmology: regular.filter(post => frontCategoryGroup(post) === 'cosmology'),
+      exoplanets: regular.filter(post => frontCategoryGroup(post) === 'exoplanets'),
+      other: regular.filter(post => frontCategoryGroup(post) === 'other')
+    };
+
+    const featured = [];
+    featured.push(...selectFrontBucket(groups.astro, 3, 'featured-astro', 3, used));
+    featured.push(...selectFrontBucket(groups.cosmology, 1, 'featured-cosmology', 7, used));
+
+    // O quinto espaço alterna entre Exoplanetas e demais áreas: em 5 cards, 10% exato seria meio card,
+    // e até agora nenhum navegador renderiza meia matéria sem virar performance art.
+    const fifthPrefersExoplanets = (heroRotationSeed % 2) === 0;
+    const fifthPrimary = fifthPrefersExoplanets ? groups.exoplanets : groups.other;
+    const fifthFallback = fifthPrefersExoplanets ? groups.other : groups.exoplanets;
+    featured.push(...selectFrontBucket(fifthPrimary, 1, fifthPrefersExoplanets ? 'featured-exoplanets' : 'featured-other', 13, used));
+    if (featured.length < 5) {
+      featured.push(...selectFrontBucket(fifthFallback, 5 - featured.length, fifthPrefersExoplanets ? 'featured-other-fallback' : 'featured-exoplanets-fallback', 19, used));
+    }
+
+    // Se o feed do dia não tem volume suficiente em algum grupo, completa com as matérias mais novas, sem duplicar.
+    if (featured.length < 5) {
+      featured.push(...selectFrontBucket(regular, 5 - featured.length, 'featured-general-fill', 29, used));
+    }
+
+    return featured.slice(0, 5);
+  }
+
   function pickRotatedSet(posts, count, bucket, seedOffset = 0) {
     if (!Array.isArray(posts) || !posts.length || count <= 0) return [];
     const ranked = [...posts].sort((a, b) => {
@@ -961,7 +1023,9 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
     const regular = frontRegularPostsForCurrentCategory();
     const preprints = filteredPreprints();
     const heroSource = regular.length ? regular : [...preprints].sort((a, b) => postTimestamp(b) - postTimestamp(a));
-    const hero = pickRotatedSet(heroSource, 3, 'hero');
+    const hero = currentCategory === 'all'
+      ? buildFeaturedFiveForAll(heroSource)
+      : pickRotatedSet(heroSource, 5, 'hero');
     const used = new Set(hero.map(post => post.slug));
 
     const essentialSource = [...regular]
@@ -1005,7 +1069,7 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
     const trending = pickRotatedSet(trendingSource, 5, 'trending', 31);
     const rotatedPreprints = pickRotatedSet(preprints, 4, 'preprints', 47);
 
-    rememberFrontSelection('hero', hero.map(post => post.slug), 18);
+    rememberFrontSelection('hero', hero.map(post => post.slug), 30);
     rememberFrontSelection('essential', essential.map(post => post.slug), 30);
     rememberFrontSelection('watch', watch.map(post => post.slug), 30);
     rememberFrontSelection('latest', latest.map(post => post.slug), 36);
@@ -1044,9 +1108,10 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
     const lead = pool[0];
     const sides = pool.slice(1, 3);
     const supplemental = dedupePostsBySlug([
+      ...pool.slice(3, 5),
       ...(layout.essential || []),
       ...(layout.watch || [])
-    ]).filter(post => !pool.some(item => item.slug === post.slug)).slice(0, 2);
+    ]).filter(post => !pool.slice(0, 3).some(item => item.slug === post.slug)).slice(0, 2);
 
     const leadMeta = formatMeta(lead);
     mount.innerHTML = `
@@ -2728,7 +2793,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
         renderSearch(value);
       });
     }
-    ensureSummaryFeedLoaded().finally(() => {
+    ensureSummaryFeedLoaded(true).finally(() => {
       parseRoute();
       if (normalizePageKey(document.body?.dataset?.cwPage || '') === 'archive' || routePageFromPath(window.location.pathname || '') === 'archive') {
         scheduleArchivePrefetch();

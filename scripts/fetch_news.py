@@ -43,6 +43,8 @@ ROBOTS_TXT = ROOT / 'robots.txt'
 ARCHIVE_POSTS_JSON = ROOT / 'all_posts.json'
 PREVIEW_DIR = ROOT / 'noticia'
 PREVIEW_EN_DIR = ROOT / 'en' / 'news'
+RUN_NEW_SLUGS_JSON = ROOT / '.cosmos-new-slugs.json'
+INTERNAL_POST_FIELDS = {'_preserveContent'}
 
 SITE_URL = os.getenv('COSMOS_SITE_URL', 'https://www.cosmosweek.com/').rstrip('/') + '/'
 SITE_NAME = 'Cosmos Week'
@@ -586,6 +588,25 @@ def first_summary_from_body_html(body_html: str, lang: str = 'pt') -> str:
     return ''
 
 
+
+def strip_internal_post_fields(post: dict) -> dict:
+    """Return a copy without transient workflow-only fields."""
+    if not isinstance(post, dict):
+        return post
+    return {k: v for k, v in post.items() if k not in INTERNAL_POST_FIELDS}
+
+
+def serializable_posts(posts: list[dict]) -> list[dict]:
+    return [strip_internal_post_fields(post) for post in posts]
+
+
+def mark_preserve_content(post: dict) -> dict:
+    """Mark a previously published post so save/export does not rewrite its editorial text."""
+    if isinstance(post, dict):
+        post['_preserveContent'] = True
+    return post
+
+
 def sanitize_post_record(post: dict) -> dict:
     if not isinstance(post, dict):
         return post
@@ -685,6 +706,11 @@ def sanitize_post_record(post: dict) -> dict:
 
 def sanitize_posts(posts: list[dict]) -> list[dict]:
     for post in posts:
+        if isinstance(post, dict) and post.get('_preserveContent'):
+            # This post was already published in a previous run. Do not rebuild
+            # summaries, highlights or body text, because that would silently
+            # renew old articles during Gemini fallback/success paths.
+            continue
         sanitize_post_record(post)
     return posts
 
@@ -4681,6 +4707,102 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
 def sort_posts_desc(posts: list[dict]) -> list[dict]:
     return sorted(posts, key=lambda p: p.get('publishedIso', ''), reverse=True)
 
+
+def normalized_identity_url(url: str) -> str:
+    raw = collapse_ws(str(url or ''))
+    if not raw:
+        return ''
+    try:
+        parsed = urllib.parse.urlsplit(raw)
+        query_pairs = urllib.parse.parse_qsl(parsed.query, keep_blank_values=True)
+        filtered = [
+            (k, v) for k, v in query_pairs
+            if not k.lower().startswith('utm_') and k.lower() not in {'fbclid', 'gclid', 'mc_cid', 'mc_eid'}
+        ]
+        query = urllib.parse.urlencode(filtered, doseq=True)
+        path = parsed.path.rstrip('/') or parsed.path
+        return urllib.parse.urlunsplit((parsed.scheme.lower(), parsed.netloc.lower(), path, query, ''))
+    except Exception:
+        return raw.rstrip('/')
+
+
+def post_identity_keys(post: dict) -> set[str]:
+    keys: set[str] = set()
+    slug = collapse_ws(str(post.get('slug') or ''))
+    if slug:
+        keys.add(f'slug:{slug}')
+    for field in ('srcUrl', 'canonicalUrl', 'canonicalUrl_pt', 'shareUrl', 'shareUrl_pt'):
+        url_key = normalized_identity_url(post.get(field) or '')
+        if url_key:
+            keys.add(f'url:{url_key}')
+    return keys
+
+
+def item_identity_keys(item: dict) -> set[str]:
+    keys: set[str] = set()
+    title = collapse_ws(str(item.get('title') or ''))
+    slug = slugify(title)
+    if slug:
+        keys.add(f'slug:{slug}')
+    url_key = normalized_identity_url(item.get('link') or '')
+    if url_key:
+        keys.add(f'url:{url_key}')
+    return keys
+
+
+def load_existing_posts_lookup() -> dict[str, dict]:
+    """Load already published posts so repeated feed items can be reused unchanged."""
+    lookup: dict[str, dict] = {}
+    for path in (ARCHIVE_POSTS_JSON, POSTS_JSON):
+        if not path.exists():
+            continue
+        try:
+            data = json.loads(path.read_text(encoding='utf-8'))
+        except Exception:
+            continue
+        if not isinstance(data, list):
+            continue
+        for post in data:
+            if not isinstance(post, dict):
+                continue
+            clean_post = strip_internal_post_fields(dict(post))
+            for key in post_identity_keys(clean_post):
+                lookup[key] = clean_post
+    return lookup
+
+
+def find_existing_post_for_item(item: dict, lookup: dict[str, dict]) -> Optional[dict]:
+    for key in item_identity_keys(item):
+        existing = lookup.get(key)
+        if existing:
+            return dict(existing)
+    return None
+
+
+def write_run_new_slugs(slugs: Iterable[str]) -> None:
+    clean = sorted({collapse_ws(str(slug or '')) for slug in slugs if collapse_ws(str(slug or ''))})
+    RUN_NEW_SLUGS_JSON.write_text(json.dumps(clean, ensure_ascii=False, indent=2), encoding='utf-8')
+
+
+def load_run_new_slugs_marker() -> Optional[set[str]]:
+    if not RUN_NEW_SLUGS_JSON.exists():
+        return None
+    try:
+        data = json.loads(RUN_NEW_SLUGS_JSON.read_text(encoding='utf-8'))
+    except Exception:
+        return set()
+    if not isinstance(data, list):
+        return set()
+    return {collapse_ws(str(slug or '')) for slug in data if collapse_ws(str(slug or ''))}
+
+
+def remove_run_new_slugs_marker() -> None:
+    try:
+        RUN_NEW_SLUGS_JSON.unlink(missing_ok=True)
+    except Exception:
+        pass
+
+
 def load_archive_posts() -> list[dict]:
     if not ARCHIVE_POSTS_JSON.exists():
         return []
@@ -4724,18 +4846,18 @@ def merge_archive_posts(current_posts: list[dict]) -> list[dict]:
 def save_archive_posts(posts: list[dict]) -> None:
     sanitized = sanitize_posts(sort_posts_desc(posts))
     ARCHIVE_POSTS_JSON.write_text(
-        json.dumps(sanitized, ensure_ascii=False, indent=2),
+        json.dumps(serializable_posts(sanitized), ensure_ascii=False, indent=2),
         encoding='utf-8'
     )
 
-def build_preview_pages(posts: list[dict]) -> None:
-    if PREVIEW_DIR.exists():
-        shutil.rmtree(PREVIEW_DIR)
+def build_preview_pages(posts: list[dict], rebuild_slugs: Optional[set[str]] = None) -> None:
+    # Do not wipe old article directories on every run. Existing articles should
+    # remain byte-stable unless they are new in this workflow run or their static
+    # page is missing. Humanity survives another filesystem operation.
     PREVIEW_DIR.mkdir(parents=True, exist_ok=True)
-
-    if PREVIEW_EN_DIR.exists():
-        shutil.rmtree(PREVIEW_EN_DIR)
     PREVIEW_EN_DIR.mkdir(parents=True, exist_ok=True)
+
+    rebuild_all = rebuild_slugs is None
 
     for post in sort_posts_desc(posts):
         slug = collapse_ws(str(post.get('slug') or ''))
@@ -4743,12 +4865,18 @@ def build_preview_pages(posts: list[dict]) -> None:
             continue
 
         article_dir_pt = PREVIEW_DIR / slug
-        article_dir_pt.mkdir(parents=True, exist_ok=True)
-        (article_dir_pt / 'index.html').write_text(render_static_article_page(post, 'pt'), encoding='utf-8')
-
         article_dir_en = PREVIEW_EN_DIR / slug
+        page_pt = article_dir_pt / 'index.html'
+        page_en = article_dir_en / 'index.html'
+        should_rebuild = rebuild_all or slug in rebuild_slugs or not page_pt.exists() or not page_en.exists()
+        if not should_rebuild:
+            continue
+
+        article_dir_pt.mkdir(parents=True, exist_ok=True)
+        page_pt.write_text(render_static_article_page(post, 'pt'), encoding='utf-8')
+
         article_dir_en.mkdir(parents=True, exist_ok=True)
-        (article_dir_en / 'index.html').write_text(render_static_article_page(post, 'en'), encoding='utf-8')
+        page_en.write_text(render_static_article_page(post, 'en'), encoding='utf-8')
 
 
 # ── Output generation ─────────────────────────────────────────────────────────
@@ -4857,20 +4985,21 @@ def save_posts(posts: list[dict]) -> None:
     # A lógica de ranking decide *quais* posts entram; a ordem de saída
     # deve ser mais-recente-primeiro para RSS, sitemap e leitores externos.
     posts_sorted = sort_posts_desc(posts)
-    POSTS_JSON.write_text(json.dumps(posts_sorted, ensure_ascii=False, indent=2), encoding='utf-8')
+    output_posts = serializable_posts(posts_sorted)
+    POSTS_JSON.write_text(json.dumps(output_posts, ensure_ascii=False, indent=2), encoding='utf-8')
     POSTS_JS.write_text(
         '// Dados atualizados automaticamente para o Cosmos Week\n\nwindow.postsData = ' +
-        json.dumps(posts_sorted, ensure_ascii=False, indent=2) + ';\n',
+        json.dumps(output_posts, ensure_ascii=False, indent=2) + ';\n',
         encoding='utf-8'
     )
 
     archive_posts = merge_archive_posts(posts_sorted)
     save_archive_posts(archive_posts)
 
-    build_feed(posts_sorted)
-    build_sitemap(posts_sorted, archive_posts)
+    build_feed(output_posts)
+    build_sitemap(output_posts, serializable_posts(archive_posts))
     build_robots()
-    build_preview_pages(archive_posts)
+    build_preview_pages(archive_posts, rebuild_slugs=load_run_new_slugs_marker())
 
 
 def load_all_items() -> list[dict]:
@@ -5062,7 +5191,8 @@ def rebuild_from_existing() -> None:
     if not isinstance(posts, list):
         raise SystemExit('posts.json existente não contém uma lista de posts.')
     print(f'Rebuild local a partir do snapshot existente: {len(posts)} posts')
-    save_posts(posts)
+    write_run_new_slugs([])
+    save_posts([mark_preserve_content(dict(post)) for post in posts])
 
 
 def main() -> None:
@@ -5086,16 +5216,37 @@ def main() -> None:
     items = load_all_items()
     print(f'\nTotal bruto: {len(items)} itens de {len(SOURCES)} fontes')
     ranked = dedupe_and_rank(items)
+    existing_lookup = load_existing_posts_lookup()
     posts = []
+    new_posts = []
+    new_slugs = []
+    reused_count = 0
     regular_rank = 0
     for idx, item in enumerate(ranked):
         current_rank = regular_rank if item['source_type'] != 'preprint' else 99
         if item['source_type'] != 'preprint':
             regular_rank += 1
-        posts.append(to_post(item, idx, current_rank))
 
-    print(f'\nIniciando revisão Gemini em lote ({len(posts)} posts) ...')
-    batch_review_all_posts(posts)
+        existing_post = find_existing_post_for_item(item, existing_lookup)
+        if existing_post:
+            posts.append(mark_preserve_content(existing_post))
+            reused_count += 1
+            continue
+
+        post = to_post(item, idx, current_rank)
+        posts.append(post)
+        new_posts.append(post)
+        if post.get('slug'):
+            new_slugs.append(post['slug'])
+
+    write_run_new_slugs(new_slugs)
+    print(f'\nPreservação editorial: {reused_count} posts existentes reutilizados sem reescrita; {len(new_posts)} posts novos serão processados.')
+
+    if new_posts:
+        print(f'\nIniciando revisão Gemini em lote apenas dos posts novos ({len(new_posts)} posts) ...')
+        batch_review_all_posts(new_posts)
+    else:
+        print('\nNenhum post novo para revisão Gemini; conteúdo antigo preservado.')
 
     save_posts(posts)
     counts_type = Counter(post['sourceType'] for post in posts)

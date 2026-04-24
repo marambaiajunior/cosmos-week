@@ -403,9 +403,15 @@ def refresh_post_fields(post: dict) -> dict:
     return post
 
 
+def load_run_new_slugs() -> set[str]:
+    slugs = cw.load_run_new_slugs_marker()
+    return set() if slugs is None else slugs
+
+
 def load_candidate_pool() -> list[dict]:
     current = []
     archive = []
+    new_slugs = load_run_new_slugs()
     if cw.POSTS_JSON.exists():
         current = json.loads(cw.POSTS_JSON.read_text(encoding='utf-8'))
     if cw.ARCHIVE_POSTS_JSON.exists():
@@ -420,7 +426,17 @@ def load_candidate_pool() -> list[dict]:
             continue
         merged[slug] = item
 
-    return [refresh_post_fields(item) for item in merged.values()]
+    pool: list[dict] = []
+    for item in merged.values():
+        slug = cw.collapse_ws(str(item.get('slug') or ''))
+        if slug in new_slugs:
+            pool.append(refresh_post_fields(item))
+        else:
+            # Existing articles are treated as immutable editorial artifacts.
+            # They may be selected, sorted and republished in indexes, but their
+            # text fields are not regenerated just because another workflow ran.
+            pool.append(cw.mark_preserve_content(dict(item)))
+    return pool
 
 
 def choose_posts(pool: list[dict]) -> list[dict]:
@@ -518,6 +534,7 @@ def main() -> None:
     print_report(selected, pool)
     cw.build_highlights = build_highlights_wrapper
     cw.save_posts(selected)
+    cw.remove_run_new_slugs_marker()
     print('[editorial-refine] artefatos reconstruídos com sucesso')
 
 
