@@ -1051,10 +1051,22 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
     }
     watch.forEach(post => used.add(post.slug));
 
-    const latestSource = regular.filter(post => !used.has(post.slug));
-    let latest = pickRotatedSet(latestSource, 6, 'latest', 17);
+    // A faixa de "Últimas publicações" precisa ser realmente cronológica.
+    // A rotação editorial continua valendo para hero/essenciais/observação, mas notícia nova
+    // não pode desaparecer da home só porque o algoritmo resolveu brincar de curador insondável.
+    const latestSource = regular
+      .filter(post => !used.has(post.slug))
+      .sort((a, b) => {
+        const stampDiff = postTimestamp(b) - postTimestamp(a);
+        if (stampDiff) return stampDiff;
+        return String(b.slug || '').localeCompare(String(a.slug || ''));
+      });
+    let latest = latestSource.slice(0, 6);
     if (!latest.length && regular.length) {
-      latest = regular.filter(post => !hero.some(h => h.slug === post.slug)).slice(0, 6);
+      latest = regular
+        .filter(post => !hero.some(h => h.slug === post.slug))
+        .sort((a, b) => postTimestamp(b) - postTimestamp(a))
+        .slice(0, 6);
     }
 
     const trendingSource = filteredRegularPosts()
@@ -1324,16 +1336,18 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     const mount = document.getElementById('latestUpdates');
     if (!mount) return;
     const seen = new Set();
-    const posts = [
-      ...(Array.isArray(layout?.hero) ? layout.hero.slice(0, 1) : []),
-      ...(Array.isArray(layout?.essential) ? layout.essential.slice(0, 2) : []),
-      ...(Array.isArray(layout?.watch) ? layout.watch.slice(0, 2) : []),
-      ...(Array.isArray(layout?.latest) ? layout.latest.slice(0, 3) : [])
-    ].filter(post => {
-      if (!post?.slug || seen.has(post.slug)) return false;
-      seen.add(post.slug);
-      return true;
-    }).slice(0, 5);
+    const posts = filteredRegularPosts()
+      .sort((a, b) => {
+        const stampDiff = postTimestamp(b) - postTimestamp(a);
+        if (stampDiff) return stampDiff;
+        return String(b.slug || '').localeCompare(String(a.slug || ''));
+      })
+      .filter(post => {
+        if (!post?.slug || seen.has(post.slug)) return false;
+        seen.add(post.slug);
+        return true;
+      })
+      .slice(0, 5);
 
     if (!posts.length) { mount.innerHTML = ''; return; }
 
@@ -1352,7 +1366,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
   function renderTopicNav(mountId = 'topicNav', options = {}) {
     const mount = document.getElementById(mountId);
     if (!mount) return;
-    const categories = ['all','Astronomia','Cosmologia','Astrofísica','Exoplanetas','Física','Biologia','Química','Ciências da Terra'];
+    const categories = ['Astronomia','Cosmologia','Astrofísica','Exoplanetas','Física','Biologia','Química','Ciências da Terra'];
     const counts = DB.reduce((acc, post) => {
       if (post?.cat) acc[post.cat] = (acc[post.cat] || 0) + 1;
       return acc;
@@ -2250,7 +2264,8 @@ function renderVisualStrip(layout = currentFrontLayout()) {
   function syncCategoryButtons(activeBtn) {
     document.querySelectorAll('.cat-pill').forEach(btn => btn.classList.remove('on'));
     if (activeBtn) { activeBtn.classList.add('on'); return; }
-    const target = document.querySelector(`.cat-pill[data-cat="${CSS.escape(currentCategory)}"]`) || document.querySelector('.cat-pill[data-cat="all"]');
+    if (currentCategory === 'all') return;
+    const target = document.querySelector(`.cat-pill[data-cat="${CSS.escape(currentCategory)}"]`);
     if (target) target.classList.add('on');
   }
 
@@ -2265,13 +2280,17 @@ function renderVisualStrip(layout = currentFrontLayout()) {
   }
 
   function openPage(page) {
-    if (page === 'archive')   { safeReplaceState(pageUrl('archive'));   renderArchive(); }
+    if (page === 'archive')   { currentCategory = 'all'; safeReplaceState(pageUrl('archive'));   renderArchive(); }
     else if (page === 'about')     { safeReplaceState(pageUrl('about'));     renderAbout(); }
     else if (page === 'standards') { safeReplaceState(pageUrl('standards')); renderStandards(); }
     else goHome();
   }
 
-  function goHome() { safeReplaceState(pageUrl('home')); renderHome(); }
+  function goHome() {
+    currentCategory = 'all';
+    safeReplaceState(pageUrl('home'));
+    renderHome();
+  }
 
   function openArticle(slug) {
     const post = DB.find(item => item.slug === slug);
