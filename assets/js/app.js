@@ -183,7 +183,7 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
       footerDescription: 'Portal de Notícias Científicas em português, com cobertura de astronomia, física e ciência em geral.',
       footerNavTitle: 'Navegação', footerSourcesTitle: 'Transparência',
       footerFeed: 'RSS do portal', footerSitemap: 'Sitemap',
-      footerCorrections: 'Correções e metodologia',
+      footerCorrections: 'Correções e metodologia', footerContact: 'Contato',
       footerBottomLeft: '© 2026 Cosmos Week',
       footerBottomCenter: 'Notícias científicas com contexto e compromisso com a evidência.',
       footerBottomRight: '',
@@ -255,7 +255,7 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
       footerDescription: 'Portuguese-first science journalism with editorial writing across astronomy, physics and frontier research.',
       footerNavTitle: 'Navigation', footerSourcesTitle: 'Transparency',
       footerFeed: 'Portal RSS', footerSitemap: 'Sitemap',
-      footerCorrections: 'Corrections and methodology',
+      footerCorrections: 'Corrections and methodology', footerContact: 'Contact',
       footerBottomLeft: '© 2026 Cosmos Week',
       footerBottomCenter: 'Science reporting built around context, hierarchy of information and evidence.',
       footerBottomRight: '',
@@ -666,15 +666,15 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
 
   function auxiliaryPageHref(kind, lang = currentLang) {
     const table = {
-      pt: { advertise: '/anuncie.html', mediaKit: '/media-kit.html', privacy: '/politica-de-privacidade.html', terms: '/termos-de-uso.html' },
-      en: { advertise: '/en/advertise/', mediaKit: '/en/media-kit/', privacy: '/en/privacy/', terms: '/en/terms/' }
+      pt: { advertise: '/anuncie.html', mediaKit: '/media-kit.html', privacy: '/politica-de-privacidade.html', terms: '/termos-de-uso.html', contact: '/contato/' },
+      en: { advertise: '/en/advertise/', mediaKit: '/en/media-kit/', privacy: '/en/privacy/', terms: '/en/terms/', contact: '/en/contact/' }
     };
     const selected = table[lang === 'en' ? 'en' : 'pt'];
     return selected[kind] || pageUrl('home', lang);
   }
 
   function syncAuxiliaryLinks() {
-    const ids = { adsBtn: 'advertise', footerAdvertise: 'advertise', footerMediaKit: 'mediaKit', footerPrivacy: 'privacy', footerTerms: 'terms' };
+    const ids = { adsBtn: 'advertise', footerAdvertise: 'advertise', footerMediaKit: 'mediaKit', footerPrivacy: 'privacy', footerTerms: 'terms', footerContact: 'contact' };
     for (const [id, key] of Object.entries(ids)) {
       const el = document.getElementById(id);
       if (el) el.setAttribute('href', auxiliaryPageHref(key));
@@ -2342,7 +2342,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
       archiveTitle:'archiveTitle', archiveKicker:'archiveKicker', searchTitle:'searchTitle',
       footerDescription:'footerDescription', footerNavTitle:'footerNavTitle',
       footerAdvertise:'advertise', footerMediaKit:'mediaKit',
-      footerSourcesTitle:'footerSourcesTitle', footerFeed:'footerFeed', footerPrivacy:'privacy', footerTerms:'terms',
+      footerSourcesTitle:'footerSourcesTitle', footerFeed:'footerFeed', footerPrivacy:'privacy', footerTerms:'terms', footerContact:'footerContact',
       footerSitemap:'footerSitemap', footerCorrections:'footerCorrections',
       footerBottomLeft:'footerBottomLeft', footerBottomCenter:'footerBottomCenter',
       newsletterTitle:'newsletterTitle',

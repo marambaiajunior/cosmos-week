@@ -6610,3 +6610,75 @@ html[lang="pt-BR"] .searchbox {
     margin: 0;
   }
 }
+
+/* Cosmos Week mobile readability patch — hero title no longer gets clipped on phones */
+@media (max-width: 720px) {
+  .hero-primary {
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .hero-primary > img,
+  .hero-primary .hero-overlay {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .hero-content {
+    position: relative !important;
+    inset: auto !important;
+    min-height: 560px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-end !important;
+    padding: 130px 22px 24px !important;
+    overflow: visible !important;
+  }
+
+  .hero-content .headline-xl {
+    max-width: 100% !important;
+    font-size: clamp(1.62rem, 7.2vw, 2.15rem) !important;
+    line-height: 1.12 !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.025em !important;
+    white-space: normal !important;
+    overflow: visible !important;
+    display: block !important;
+    text-wrap: pretty !important;
+    overflow-wrap: anywhere !important;
+    hyphens: auto !important;
+    -webkit-hyphens: auto !important;
+  }
+
+  .hero-content .deck {
+    max-width: 100% !important;
+    font-size: 0.98rem !important;
+    line-height: 1.62 !important;
+    overflow: visible !important;
+    display: block !important;
+  }
+
+  .hero-content .meta-row {
+    overflow: visible !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .hero-content {
+    min-height: 620px !important;
+    padding: 118px 20px 24px !important;
+  }
+
+  .hero-content .headline-xl {
+    font-size: clamp(1.48rem, 7.6vw, 1.95rem) !important;
+    line-height: 1.14 !important;
+  }
+
+  .hero-content .deck {
+    font-size: 0.95rem !important;
+    line-height: 1.58 !important;
+  }
+}
