@@ -1,6 +1,647 @@
 [
   {
     "id": 1,
+    "slug": "toi-201-planets-are-wobbling-out-of-our-line-of-sight",
+    "cat": "Exoplanetas",
+    "catCls": "exoplanetas",
+    "img": "https://www.universetoday.com/article_images/ce3d8d20-3960-11f1-9d4c-4fe8a18dba16_1200_630_750_20260425_041943.jpg",
+    "inline_images": [],
+    "video": {
+      "kind": "embed",
+      "platform": "youtube",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/k6YCKi_rIig?rel=0&modestbranding=1",
+      "fileUrl": "",
+      "poster": "",
+      "title": "",
+      "title_pt": "",
+      "title_en": "",
+      "caption": "",
+      "caption_pt": "",
+      "caption_en": "",
+      "sourcePage": "https://www.universetoday.com/articles/toi-201-planets-are-wobbling-out-of-our-line-of-sight"
+    },
+    "audio": null,
+    "title": "Os Exoplanetas do Sistema TOI-201 Deixarão de Ser Visíveis por Trânsito",
+    "title_pt": "Os Exoplanetas do Sistema TOI-201 Deixarão de Ser Visíveis por Trânsito",
+    "title_en": "TOI-201 Planets Are Wobbling Out of Our Line of Sight",
+    "sub": "Uma equipe internacional de pesquisadores descobriu que os três exoplanetas do sistema TOI-201, localizado a 371 anos-luz da Terra, deixarão de transitar sua estrela hospedeira em.",
+    "sub_pt": "Uma equipe internacional de pesquisadores descobriu que os três exoplanetas do sistema TOI-201, localizado a 371 anos-luz da Terra, deixarão de transitar sua estrela hospedeira em.",
+    "sub_en": "It turns out that even after studying our solar system in depth and discovering more than 6, 100 exoplanets across more than 4, 500 exoplanetary systems, not all solar systems are.",
+    "excerpt": "Uma equipe internacional de pesquisadores descobriu que os três exoplanetas do sistema TOI-201, localizado a 371 anos-luz da Terra, deixarão de transitar sua estrela hospedeira em aproximadamente 200 anos.",
+    "excerpt_pt": "Uma equipe internacional de pesquisadores descobriu que os três exoplanetas do sistema TOI-201, localizado a 371 anos-luz da Terra, deixarão de transitar sua estrela hospedeira em aproximadamente 200 anos.",
+    "excerpt_en": "It turns out that even after studying our solar system in depth and discovering more than 6, 100 exoplanets across more than 4, 500 exoplanetary systems, not all solar systems are created equal.",
+    "body": "<p>Apesar de estudos aprofundados do nosso Sistema Solar e da descoberta de mais de 6.100 exoplanetas em mais de 4.500 sistemas exoplanetários, a diversidade arquitetônica entre os sistemas planetários permanece um campo de intensa investigação. Recentemente, uma equipe internacional composta por mais de 50 pesquisadores dedicou-se a desvendar as particularidades de um sistema exoplanetário único, o TOI-201. Por meio da observação de três exoplanetas com tamanhos, períodos orbitais e inclinações variados, e utilizando uma combinação de dados coletados por diversos telescópios ao redor do mundo, juntamente com simulações computacionais avançadas, a equipe avaliou a complexa arquitetura desse sistema. As descobertas foram publicadas na revista Science Advances no início deste mês, revelando insights cruciais sobre a dinâmica orbital de exoplanetas.</p><p>A pesquisa envolveu o uso de múltiplos instrumentos, incluindo um telescópio situado nas instalações do ASTEP (Antarctic Search for Transiting ExoPlanets). Este local estratégico na Antártida oferece uma vantagem significativa para observações astronômicas, beneficiando-se de períodos de escuridão contínua que se estendem por três a quatro meses durante o inverno austral, de março a setembro. Os pesquisadores focaram no sistema TOI-201, que se encontra a aproximadamente 371 anos-luz da Terra e é orbitado por uma estrela do tipo F. Este sistema é notável por abrigar três exoplanetas distintos: uma super-Terra, um gigante gasoso denominado TOI-201 b, e um gigante gasoso massivo, TOI-201 c. A análise detalhada de suas características e períodos orbitais foi fundamental para compreender a dinâmica interna do sistema.</p><p>Uma das características mais marcantes do sistema TOI-201 é a órbita do exoplaneta TOI-201 c. Diferentemente do nosso Sistema Solar, onde a maioria dos planetas segue trajetórias majoritariamente circulares, TOI-201 c descreve uma órbita altamente elíptica, ou seja, de formato oval. Essa configuração orbital é comparável à de muitos cometas em nosso próprio sistema estelar, sugerindo uma história de formação e evolução dinâmica que difere significativamente dos padrões mais comuns observados. A excentricidade da órbita de TOI-201 c desempenha um papel crucial na interação gravitacional com os outros corpos celestes do sistema.</p><p>Por meio de uma extensa série de modelos computacionais e simulações dinâmicas, os pesquisadores conseguiram prever o futuro orbital dos exoplanetas de TOI-201. As estimativas indicam que, em aproximadamente 200 anos, todos os três exoplanetas deixarão de transitar sua estrela hospedeira, do ponto de vista de observadores na Terra. Esse fenômeno significa que eles não mais passarão em frente à estrela, impedindo a detecção por meio do método de trânsito. Além disso, os modelos sugerem que levará aproximadamente mais 10 mil anos para que esses exoplanetas voltem a apresentar trânsitos visíveis, marcando um longo período de invisibilidade para as técnicas atuais de observação.</p><p>A equipe de pesquisa concluiu que a órbita marcadamente elíptica de TOI-201 c é o fator determinante para essa mudança orbital. Quando TOI-201 c se aproxima de sua estrela hospedeira em seu periastro, sua forte influência gravitacional desestabiliza e perturba as órbitas dos dois exoplanetas internos. Essa interação gravitacional complexa altera gradualmente a inclinação orbital dos planetas em relação à nossa linha de visão, fazendo com que eles se afastem do plano de trânsito. Esse mecanismo ilustra como a arquitetura e a dinâmica de um sistema podem evoluir significativamente ao longo do tempo, impulsionadas por interações gravitacionais entre seus componentes.</p><p>A compreensão da evolução orbital de sistemas como TOI-201 é fundamental para aprimorar nossos modelos de formação e dinâmica planetária. A capacidade de prever a cessação e o retorno de trânsitos exoplanetários destaca a importância de observações de longo prazo e de modelos computacionais sofisticados. Este estudo não apenas revela a complexidade do sistema TOI-201, mas também oferece insights valiosos sobre a diversidade de arquiteturas planetárias e os mecanismos que podem levar à instabilidade orbital, impactando diretamente as estratégias futuras para a detecção e caracterização de exoplanetas.</p>",
+    "body_pt": "<p>Apesar de estudos aprofundados do nosso Sistema Solar e da descoberta de mais de 6.100 exoplanetas em mais de 4.500 sistemas exoplanetários, a diversidade arquitetônica entre os sistemas planetários permanece um campo de intensa investigação. Recentemente, uma equipe internacional composta por mais de 50 pesquisadores dedicou-se a desvendar as particularidades de um sistema exoplanetário único, o TOI-201. Por meio da observação de três exoplanetas com tamanhos, períodos orbitais e inclinações variados, e utilizando uma combinação de dados coletados por diversos telescópios ao redor do mundo, juntamente com simulações computacionais avançadas, a equipe avaliou a complexa arquitetura desse sistema. As descobertas foram publicadas na revista Science Advances no início deste mês, revelando insights cruciais sobre a dinâmica orbital de exoplanetas.</p><p>A pesquisa envolveu o uso de múltiplos instrumentos, incluindo um telescópio situado nas instalações do ASTEP (Antarctic Search for Transiting ExoPlanets). Este local estratégico na Antártida oferece uma vantagem significativa para observações astronômicas, beneficiando-se de períodos de escuridão contínua que se estendem por três a quatro meses durante o inverno austral, de março a setembro. Os pesquisadores focaram no sistema TOI-201, que se encontra a aproximadamente 371 anos-luz da Terra e é orbitado por uma estrela do tipo F. Este sistema é notável por abrigar três exoplanetas distintos: uma super-Terra, um gigante gasoso denominado TOI-201 b, e um gigante gasoso massivo, TOI-201 c. A análise detalhada de suas características e períodos orbitais foi fundamental para compreender a dinâmica interna do sistema.</p><p>Uma das características mais marcantes do sistema TOI-201 é a órbita do exoplaneta TOI-201 c. Diferentemente do nosso Sistema Solar, onde a maioria dos planetas segue trajetórias majoritariamente circulares, TOI-201 c descreve uma órbita altamente elíptica, ou seja, de formato oval. Essa configuração orbital é comparável à de muitos cometas em nosso próprio sistema estelar, sugerindo uma história de formação e evolução dinâmica que difere significativamente dos padrões mais comuns observados. A excentricidade da órbita de TOI-201 c desempenha um papel crucial na interação gravitacional com os outros corpos celestes do sistema.</p><p>Por meio de uma extensa série de modelos computacionais e simulações dinâmicas, os pesquisadores conseguiram prever o futuro orbital dos exoplanetas de TOI-201. As estimativas indicam que, em aproximadamente 200 anos, todos os três exoplanetas deixarão de transitar sua estrela hospedeira, do ponto de vista de observadores na Terra. Esse fenômeno significa que eles não mais passarão em frente à estrela, impedindo a detecção por meio do método de trânsito. Além disso, os modelos sugerem que levará aproximadamente mais 10 mil anos para que esses exoplanetas voltem a apresentar trânsitos visíveis, marcando um longo período de invisibilidade para as técnicas atuais de observação.</p><p>A equipe de pesquisa concluiu que a órbita marcadamente elíptica de TOI-201 c é o fator determinante para essa mudança orbital. Quando TOI-201 c se aproxima de sua estrela hospedeira em seu periastro, sua forte influência gravitacional desestabiliza e perturba as órbitas dos dois exoplanetas internos. Essa interação gravitacional complexa altera gradualmente a inclinação orbital dos planetas em relação à nossa linha de visão, fazendo com que eles se afastem do plano de trânsito. Esse mecanismo ilustra como a arquitetura e a dinâmica de um sistema podem evoluir significativamente ao longo do tempo, impulsionadas por interações gravitacionais entre seus componentes.</p><p>A compreensão da evolução orbital de sistemas como TOI-201 é fundamental para aprimorar nossos modelos de formação e dinâmica planetária. A capacidade de prever a cessação e o retorno de trânsitos exoplanetários destaca a importância de observações de longo prazo e de modelos computacionais sofisticados. Este estudo não apenas revela a complexidade do sistema TOI-201, mas também oferece insights valiosos sobre a diversidade de arquiteturas planetárias e os mecanismos que podem levar à instabilidade orbital, impactando diretamente as estratégias futuras para a detecção e caracterização de exoplanetas.</p>",
+    "body_en": "<p>It turns out that even after studying our solar system in depth and discovering more than 6, 100 exoplanets across more than 4, 500 exoplanetary systems, not all solar systems are created equal. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>The significance lies in exoplanet science has moved beyond the era of simple discovery into a period of comparative characterization. With more than five thousand confirmed planets known, the scientifically productive questions now concern atmospheric composition, internal structure, orbital history and the statistical properties of populations rather than the existence of individual worlds. A new detection or spectral measurement is most valuable when it adds a well-constrained data point to those comparative frameworks, not when it stands alone as an anecdote. Recently, an international team of more than 50 researchers addressed this conundrum, as they observed three exoplanets of varying sizes, orbital times, and orbital angles. Using a combination of data obtained from several worldwide telescopes and computer simulations, the team evaluated the architecture of a very unique exoplanetary system, with.</p><p>One of the telescopes was located at the ASTEP (Antarctic Search for Transiting ExoPlanets) facility, which benefits from having between 3-4 months of consecutive darkness during. For the study, the researchers examined the TOI-201 system, which hosts an F-type star, is located approximately 371 light-years from Earth, and consists of a super-Earth, gas.</p><p>Also, unlike our solar system, where all the planets orbit in mostly circular orbits, TOI-201 c has a highly elliptical (oval-shaped) orbit, which is similar to comet orbits in. Through a series of computer models, the researchers estimated that all three exoplanets will stop passing in front of their star, from our point of view, in approximately 200.</p><p>The team concluded that the highly elliptical orbit of TOI-201 c throws the orbits of the two inner exoplanets in disarray when its orbit takes it closer to its star. However, we were following TOI-201b, and suddenly the planet started transiting about half an hour late.</p><p>The broader interest lies in making the target less anecdotal and more comparable with the rest of the known planetary population. Population-level questions, such as the frequency of atmospheres around small rocky planets or the prevalence of water-rich worlds in the habitable zone, require well-characterized individual data points before statistical patterns become meaningful. Each new planet with a measured radius, mass and, ideally, atmospheric constraint is a brick in that larger structure, and the accumulation of bricks eventually allows theorists to test formation models against real distributions rather than projections.</p><p>The researchers note the TOI-201 system draws parallels to other exoplanets whose orbits are also tugged by a large and eccentric outer planet, including Kepler-419 b, Kepler-448. While the two exoplanets in Kepler-419 and Kepler-448 are confirmed, the second, and elliptical, exoplanet in Kepler-693 is not yet confirmed to exist.</p><p>Because this item comes through Universe Today as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to improve independent constraints on the mass, radius, atmospheric composition and orbital dynamics of the target. Transmission spectroscopy with JWST, radial velocity campaigns with high-resolution ground-based spectrographs and phase-curve measurements from space photometry represent the observational toolkit that can move characterization from plausible to robust. That convergence of techniques is the standard the community now expects before a planetary atmosphere result is treated as confirmed.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/toi-201-planets-are-wobbling-out-of-our-line-of-sight\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Uma equipe internacional de pesquisadores descobriu que os três exoplanetas do sistema TOI-201, localizado a 371 anos-luz da Terra, deixarão de",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_pt": [
+      "Em foco: Uma equipe internacional de pesquisadores descobriu que os três exoplanetas do sistema TOI-201, localizado a 371 anos-luz da Terra, deixarão de",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_en": [
+      "Focus: It turns out that even after studying our solar system in depth and discovering more than 6, 100 exoplanets across more than 4, 500 exoplanetary",
+      "Detail: Science reporting: verify primary technical documentation",
+      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+    ],
+    "date": "25 abr 2026",
+    "date_pt": "25 abr 2026",
+    "date_en": "25 Apr 2026",
+    "time": "04h20",
+    "time_pt": "04h20",
+    "time_en": "04: 20 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-25T04:20:16+00:00",
+    "lastModifiedIso": "2026-04-25T04:20:16+00:00",
+    "source": "Universe Today",
+    "sourceDomain": "www. universetoday. com",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura de jornalismo científico. Útil para contexto, mas recebe peso menor que fonte primária ou periódico.",
+    "sourceNote_pt": "Cobertura de jornalismo científico. Útil para contexto, mas recebe peso menor que fonte primária ou periódico.",
+    "sourceNote_en": "Science journalism coverage. Useful for context, but weighted below primary sources and journals.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Exoplanetas",
+      "Universe Today",
+      "Cosmos Week",
+      "Os planetas TOI",
+      "201 estão saindo da nossa linha de visão"
+    ],
+    "keywords_pt": [
+      "Exoplanetas",
+      "Universe Today",
+      "Cosmos Week",
+      "Os planetas TOI",
+      "201 estão saindo da nossa linha de visão"
+    ],
+    "keywords_en": [
+      "Exoplanets",
+      "Universe Today",
+      "Cosmos Week",
+      "The TOI planets",
+      "201 are moving out of our line of sight"
+    ],
+    "srcUrl": "https://www.universetoday.com/articles/toi-201-planets-are-wobbling-out-of-our-line-of-sight",
+    "realUrl": "https://www.cosmosweek.com/?article=toi-201-planets-are-wobbling-out-of-our-line-of-sight",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=toi-201-planets-are-wobbling-out-of-our-line-of-sight",
+    "realUrl_en": "https://www.cosmosweek.com/?article=toi-201-planets-are-wobbling-out-of-our-line-of-sight&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/toi-201-planets-are-wobbling-out-of-our-line-of-sight/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/toi-201-planets-are-wobbling-out-of-our-line-of-sight/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/toi-201-planets-are-wobbling-out-of-our-line-of-sight/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/toi-201-planets-are-wobbling-out-of-our-line-of-sight/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/toi-201-planets-are-wobbling-out-of-our-line-of-sight/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/toi-201-planets-are-wobbling-out-of-our-line-of-sight/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 74,
+    "scoreBreakdown": {
+      "source": 78,
+      "evidence": 72,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Os Exoplanetas do Sistema TOI-201 Deixarão de Ser Visíveis por Trânsito",
+    "imageAlt_pt": "Os Exoplanetas do Sistema TOI-201 Deixarão de Ser Visíveis por Trânsito",
+    "imageAlt_en": "TOI-201 Planets Are Wobbling Out of Our Line of Sight"
+  },
+  {
+    "id": 2,
+    "slug": "the-most-energetic-neutrino-ever-detected-could-be-primordial",
+    "cat": "Física",
+    "catCls": "fisica",
+    "img": "https://scx2.b-cdn.net/gfx/news/2026/the-most-energetic-neu.jpg",
+    "inline_images": [],
+    "video": {
+      "kind": "embed",
+      "platform": "youtube",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/WkqpZx6bt_0?rel=0&modestbranding=1",
+      "fileUrl": "",
+      "poster": "",
+      "title": "",
+      "title_pt": "",
+      "title_en": "",
+      "caption": "",
+      "caption_pt": "",
+      "caption_en": "",
+      "sourcePage": "https://phys.org/news/2026-04-energetic-neutrino-primordial.html"
+    },
+    "audio": null,
+    "title": "O neutrino mais energético já detectado pode ser primordial",
+    "title_pt": "O neutrino mais energético já detectado pode ser primordial",
+    "title_en": "The most energetic neutrino ever detected could be primordial",
+    "sub": "No mundo exótico da física de partículas, os neutrinos podem ser os membros mais misteriosos.",
+    "sub_pt": "No mundo exótico da física de partículas, os neutrinos podem ser os membros mais misteriosos.",
+    "sub_en": "In the exotic world of particle physics, neutrinos may be the most mysterious members. They rarely interact with other matter, have almost no mass, and have no electrical charge.",
+    "excerpt": "No mundo exótico da física de partículas, os neutrinos podem ser os membros mais misteriosos. Em fevereiro de 2023, o detector KM3NeT registrou o neutrino mais energético já observado, o KM3-230213A, com 220 PeV, levantando questões sobre sua origem.",
+    "excerpt_pt": "No mundo exótico da física de partículas, os neutrinos podem ser os membros mais misteriosos. Em fevereiro de 2023, o detector KM3NeT registrou o neutrino mais energético já observado, o KM3-230213A, com 220 PeV, levantando questões sobre sua origem.",
+    "excerpt_en": "In the exotic world of particle physics, neutrinos may be the most mysterious members. They rarely interact with other matter, have almost no mass, and have no electrical charge.",
+    "body": "<p>No mundo exótico da física de partículas, os neutrinos são, talvez, os membros mais enigmáticos. Eles interagem raramente com outras formas de matéria, possuem uma massa quase desprezível e não carregam carga elétrica. Um dos principais instrumentos dedicados à sua detecção é o KM3NeT, sigla para Telescópio de Neutrinos de Quilômetro Cúbico. Localizado no fundo do Mar Mediterrâneo, este observatório submarino registrou, em fevereiro de 2023, o neutrino mais energético já observado. Denominado KM3-230213A, sua energia foi estimada em impressionantes 220 petaelétron-volts (PeV), o equivalente a 220 milhões de bilhões de elétron-volts.</p><p>A detecção de neutrinos de alta energia, como o KM3-230213A, não ocorre diretamente. Em vez disso, os detectores registram as partículas secundárias produzidas quando um neutrino interage com a matéria. No caso específico do KM3-230213A, foi um múon que sinalizou sua passagem. Contudo, rastrear a fonte exata de um neutrino cósmico de energia tão extrema representa um desafio científico considerável, pois essas partículas viajam grandes distâncias sem serem desviadas por campos magnéticos, apontando diretamente para suas origens, mas exigindo precisão na triangulação.</p><p>Após uma investigação meticulosa do evento de alta energia, os pesquisadores associados à Colaboração KM3NeT publicaram suas descobertas na prestigiada revista Nature. O estudo, intitulado “Observação de um neutrino cósmico de ultra-alta energia com KM3NeT”, lista a própria Colaboração KM3NeT como autora principal, refletindo o esforço conjunto de uma vasta equipe internacional. O professor Coniglione, que atuava como vice-porta-voz do KM3NeT no momento da detecção, desempenhou um papel crucial neste marco científico.</p><p>Neutrinos de ultra-alta energia são mensageiros cósmicos únicos, pois não são afetados por campos magnéticos galácticos ou intergalácticos, o que significa que apontam diretamente para suas fontes. A detecção de um neutrino com 220 PeV oferece uma janela sem precedentes para os processos mais energéticos do universo, como buracos negros supermassivos em galáxias ativas, explosões de raios gama ou outros fenômenos astrofísicos extremos que atuam como aceleradores de partículas cósmicas. A raridade desses eventos sublinha a importância de cada detecção para a compreensão da física de partículas e da astrofísica de altas energias.</p><p>A possibilidade de que um neutrino de energia tão colossal possa ser de origem primordial, conforme sugerido pelo título, adiciona uma camada fascinante de especulação científica. Neutrinos primordiais seriam relíquias do Big Bang, formados nos primeiros instantes do universo. Embora a maioria dos neutrinos primordiais esperados tenha energias muito mais baixas, a detecção de um evento tão energético levanta questões sobre mecanismos exóticos no universo primitivo que poderiam ter acelerado essas partículas a níveis extremos, ou sobre a existência de novas físicas que ainda não compreendemos. Esta hipótese, embora desafiadora de verificar, impulsiona a busca por evidências que possam conectar o universo atual aos seus primórdios mais distantes.</p><p>A descoberta do KM3-230213A não apenas estabelece um novo recorde de energia para neutrinos detectados, mas também reforça o papel vital de observatórios como o KM3NeT na vanguarda da astrofísica de partículas. A continuidade da coleta de dados e a análise aprofundada de eventos semelhantes serão cruciais para desvendar a natureza e a origem desses mensageiros cósmicos. Cada nova detecção contribui para refinar nossos modelos do universo e, potencialmente, para revelar fenômenos que desafiam nossa compreensão atual da física.</p>",
+    "body_pt": "<p>No mundo exótico da física de partículas, os neutrinos são, talvez, os membros mais enigmáticos. Eles interagem raramente com outras formas de matéria, possuem uma massa quase desprezível e não carregam carga elétrica. Um dos principais instrumentos dedicados à sua detecção é o KM3NeT, sigla para Telescópio de Neutrinos de Quilômetro Cúbico. Localizado no fundo do Mar Mediterrâneo, este observatório submarino registrou, em fevereiro de 2023, o neutrino mais energético já observado. Denominado KM3-230213A, sua energia foi estimada em impressionantes 220 petaelétron-volts (PeV), o equivalente a 220 milhões de bilhões de elétron-volts.</p><p>A detecção de neutrinos de alta energia, como o KM3-230213A, não ocorre diretamente. Em vez disso, os detectores registram as partículas secundárias produzidas quando um neutrino interage com a matéria. No caso específico do KM3-230213A, foi um múon que sinalizou sua passagem. Contudo, rastrear a fonte exata de um neutrino cósmico de energia tão extrema representa um desafio científico considerável, pois essas partículas viajam grandes distâncias sem serem desviadas por campos magnéticos, apontando diretamente para suas origens, mas exigindo precisão na triangulação.</p><p>Após uma investigação meticulosa do evento de alta energia, os pesquisadores associados à Colaboração KM3NeT publicaram suas descobertas na prestigiada revista Nature. O estudo, intitulado “Observação de um neutrino cósmico de ultra-alta energia com KM3NeT”, lista a própria Colaboração KM3NeT como autora principal, refletindo o esforço conjunto de uma vasta equipe internacional. O professor Coniglione, que atuava como vice-porta-voz do KM3NeT no momento da detecção, desempenhou um papel crucial neste marco científico.</p><p>Neutrinos de ultra-alta energia são mensageiros cósmicos únicos, pois não são afetados por campos magnéticos galácticos ou intergalácticos, o que significa que apontam diretamente para suas fontes. A detecção de um neutrino com 220 PeV oferece uma janela sem precedentes para os processos mais energéticos do universo, como buracos negros supermassivos em galáxias ativas, explosões de raios gama ou outros fenômenos astrofísicos extremos que atuam como aceleradores de partículas cósmicas. A raridade desses eventos sublinha a importância de cada detecção para a compreensão da física de partículas e da astrofísica de altas energias.</p><p>A possibilidade de que um neutrino de energia tão colossal possa ser de origem primordial, conforme sugerido pelo título, adiciona uma camada fascinante de especulação científica. Neutrinos primordiais seriam relíquias do Big Bang, formados nos primeiros instantes do universo. Embora a maioria dos neutrinos primordiais esperados tenha energias muito mais baixas, a detecção de um evento tão energético levanta questões sobre mecanismos exóticos no universo primitivo que poderiam ter acelerado essas partículas a níveis extremos, ou sobre a existência de novas físicas que ainda não compreendemos. Esta hipótese, embora desafiadora de verificar, impulsiona a busca por evidências que possam conectar o universo atual aos seus primórdios mais distantes.</p><p>A descoberta do KM3-230213A não apenas estabelece um novo recorde de energia para neutrinos detectados, mas também reforça o papel vital de observatórios como o KM3NeT na vanguarda da astrofísica de partículas. A continuidade da coleta de dados e a análise aprofundada de eventos semelhantes serão cruciais para desvendar a natureza e a origem desses mensageiros cósmicos. Cada nova detecção contribui para refinar nossos modelos do universo e, potencialmente, para revelar fenômenos que desafiam nossa compreensão atual da física.</p>",
+    "body_en": "<p>In the exotic world of particle physics, neutrinos may be the most mysterious members. They rarely interact with other matter, have almost no mass, and have no electrical charge. These characteristics make them extremely difficult to study. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>This matters because physics only takes a result seriously when the measurement chain remains robust under scrutiny. Experimental particle physics and precision metrology both operate in regimes where the signal sits far below the background noise, and where systematic uncertainties can mimic new physics if not controlled rigorously. The history of the field contains numerous anomalies that generated theoretical excitement before better data showed them to be artifacts, and it also contains genuine discoveries that were initially dismissed as noise. The difference is almost always resolved by independent replication with different instruments and different systematics. This article has been reviewed according to Science X&#x27;s editorial process and policies. One of the foremost neutrino detectors is called KM3NeT, which stands for the Cubic Kilometer Neutrino Telescope.</p><p>It&#x27;s on the seafloor in the Mediterranean, and in February 2023, it detected the most energetic neutron ever observed. It&#x27;s called KM3-230213A, and its estimated energy was 220 PeV (220 x 10 15 electron volts or 220 million billion electron volts).</p><p>But tracing KM3-230213A back to one of these has been a scientific challenge. In the case of KM3-230213A, it was a muon that was detected.</p><p>After meticulous research into the high-energy event, researchers associated with KM3NeT have published their results in Nature. The research is titled &quot;Observation of an ultra-high-energy cosmic neutrino with KM3NeT. &quot; The KM3NeT Collaboration is listed as the author.</p><p>The broader interest lies as much in the method as in the headline number, because a durable measurement procedure can travel farther than a single result. When experimental physicists develop a technique that achieves new sensitivity or controls a previously uncharacterized systematic, that methodological contribution persists even if the specific measurement is later revised. This is one reason why precision physics experiments often generate long-term value that is not immediately visible in the original publication.</p><p>Coniglione was the KM3NeT deputy-spokesperson at the time of the detection. In their paper, the authors remind us that the energy in KM3-230213A was far greater than any other detection so far.</p><p>Because this item comes through Phys. org Space as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is more measurement, tighter systematic control and scrutiny from groups whose experimental setups are genuinely independent. In experimental particle physics and precision metrology, the threshold for a discovery claim is a five-sigma excess surviving multiple analyses; an intriguing signal at lower significance is a reason to run more experiments, not a reason to revise the textbooks. Next-generation experiments currently under construction or commissioning will revisit several of the open questions that give the current result its context.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-energetic-neutrino-primordial.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: No mundo exótico da física de partículas, os neutrinos podem ser os membros mais misteriosos",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_pt": [
+      "Em foco: No mundo exótico da física de partículas, os neutrinos podem ser os membros mais misteriosos",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_en": [
+      "Focus: In the exotic world of particle physics, neutrinos may be the most mysterious members",
+      "Detail: Science reporting: verify primary technical documentation",
+      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+    ],
+    "date": "25 abr 2026",
+    "date_pt": "25 abr 2026",
+    "date_en": "25 Apr 2026",
+    "time": "02h20",
+    "time_pt": "02h20",
+    "time_en": "02: 20 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-25T02:20:01+00:00",
+    "lastModifiedIso": "2026-04-25T02:20:01+00:00",
+    "source": "Phys. org Space",
+    "sourceDomain": "phys. org",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura de jornalismo científico. Útil para contexto, mas recebe peso menor que fonte primária ou periódico.",
+    "sourceNote_pt": "Cobertura de jornalismo científico. Útil para contexto, mas recebe peso menor que fonte primária ou periódico.",
+    "sourceNote_en": "Science journalism coverage. Useful for context, but weighted below primary sources and journals.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Física",
+      "Phys. org Space",
+      "Cosmos Week",
+      "O neutrino mais energético já detectado pode ser primordial"
+    ],
+    "keywords_pt": [
+      "Física",
+      "Phys. org Space",
+      "Cosmos Week",
+      "O neutrino mais energético já detectado pode ser primordial"
+    ],
+    "keywords_en": [
+      "Physical",
+      "Phys. org Space",
+      "Cosmos Week",
+      "The most energetic neutrino ever detected could be primordial"
+    ],
+    "srcUrl": "https://phys.org/news/2026-04-energetic-neutrino-primordial.html",
+    "realUrl": "https://www.cosmosweek.com/?article=the-most-energetic-neutrino-ever-detected-could-be-primordial",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=the-most-energetic-neutrino-ever-detected-could-be-primordial",
+    "realUrl_en": "https://www.cosmosweek.com/?article=the-most-energetic-neutrino-ever-detected-could-be-primordial&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/the-most-energetic-neutrino-ever-detected-could-be-primordial/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/the-most-energetic-neutrino-ever-detected-could-be-primordial/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/the-most-energetic-neutrino-ever-detected-could-be-primordial/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/the-most-energetic-neutrino-ever-detected-could-be-primordial/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/the-most-energetic-neutrino-ever-detected-could-be-primordial/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/the-most-energetic-neutrino-ever-detected-could-be-primordial/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 69,
+    "scoreBreakdown": {
+      "source": 66,
+      "evidence": 72,
+      "relevance": 82,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "O neutrino mais energético já detectado pode ser primordial",
+    "imageAlt_pt": "O neutrino mais energético já detectado pode ser primordial",
+    "imageAlt_en": "The most energetic neutrino ever detected could be primordial"
+  },
+  {
+    "id": 3,
+    "slug": "jwst-hunts-for-an-earth-moon-twin-in-a-habitable-zone-but-the-star-has-other-plans",
+    "cat": "Exoplanetas",
+    "catCls": "exoplanetas",
+    "img": "https://www.universetoday.com/article_images/TOI_700_System_Still_E_20260422_145346.jpg",
+    "inline_images": [],
+    "video": {
+      "kind": "embed",
+      "platform": "youtube",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/J2SjAgc8JAs?rel=0&modestbranding=1",
+      "fileUrl": "",
+      "poster": "",
+      "title": "",
+      "title_pt": "",
+      "title_en": "",
+      "caption": "",
+      "caption_pt": "",
+      "caption_en": "",
+      "sourcePage": "https://www.universetoday.com/articles/jwst-hunts-for-an-earth-moon-twin-in-a-habitable-zone-but-the-star-has-other-plans"
+    },
+    "audio": null,
+    "title": "O JWST investiga sistemas análogos Terra-Lua em zonas habitáveis, enfrentando desafios estelares",
+    "title_pt": "O JWST investiga sistemas análogos Terra-Lua em zonas habitáveis, enfrentando desafios estelares",
+    "title_en": "JWST Hunts for an 'Earth-Moon' Twin in a Habitable Zone, But the Star Has Other Plans",
+    "sub": "A Lua é crucial para a estabilidade e habitabilidade da Terra, influenciando desde a estabilização planetária até o aquecimento das marés.",
+    "sub_pt": "A Lua é crucial para a estabilidade e habitabilidade da Terra, influenciando desde a estabilização planetária até o aquecimento das marés.",
+    "sub_en": "The Moon has played a huge role in the development of Earth. It stabilizes the planet, tempered dramatic climate swings, and possibly even provided the tidal heating that might.",
+    "excerpt": "A Lua é crucial para a estabilidade e habitabilidade da Terra, influenciando desde a estabilização planetária até o aquecimento das marés.",
+    "excerpt_pt": "A Lua é crucial para a estabilidade e habitabilidade da Terra, influenciando desde a estabilização planetária até o aquecimento das marés.",
+    "excerpt_en": "The Moon has played a huge role in the development of Earth. It stabilizes the planet, tempered dramatic climate swings, and possibly even provided the tidal heating that might have led to the first life forms.",
+    "body": "<p>A pesquisa focou em planetas considerados os melhores candidatos para abrigar uma lua estável, principalmente devido à sua proximidade e forte atração gravitacional. A equipe de Pass empregou o JWST, uma ferramenta de ponta para observações astronômicas, na esperança de detectar sinais tênues que indicassem a presença de satélites naturais orbitando esses exoplanetas. No entanto, a busca por evidências definitivas de uma lua em órbita de qualquer um desses planetas não obteve sucesso, principalmente devido a desafios inesperados impostos pela estrela hospedeira.</p><p>Os pesquisadores calcularam que, para detectar um análogo da Lua, o JWST precisaria registrar uma queda de aproximadamente 20 partes por milhão (ppm) na luz estelar, um sinal sutil que indicaria o trânsito de uma exolua. Contudo, a estrela hospedeira dos sistemas estudados apresentou uma variabilidade intrínseca significativa, gerando um &quot;ruído vermelho&quot; que complicou a análise. O sinal da própria estrela oscilava a cada 16 minutos e possuía uma amplitude de cerca de 46 ppm, um valor substancialmente maior do que o sinal esperado de uma exolua. Essa flutuação estelar essencialmente mascarou qualquer sinal de 20 ppm que uma lua pudesse emitir, tornando sua detecção inviável com os métodos atuais.</p><p>A partir das observações realizadas, a conclusão mais robusta que os investigadores puderam extrair foi que a sensibilidade de seus dados permitia a detecção apenas de luas maiores que Ganimedes, o maior satélite natural do nosso sistema solar, e que estivessem em órbitas com períodos superiores a dois dias. Essa limitação ressalta a dificuldade de identificar exoluas menores, especialmente aquelas que poderiam ser análogas à nossa própria Lua, em meio ao ruído estelar. A ausência de um sinal claro para exoluas menores destaca a necessidade de abordagens mais sofisticadas para superar esses obstáculos observacionais.</p><p>Apesar dos desafios, o estudo aponta para caminhos futuros na busca por exoluas. Os pesquisadores determinaram que, caso fosse possível desenvolver um algoritmo de redução de ruído eficaz, capaz de remover o &quot;ruído vermelho&quot; gerado pela estrela, e se de fato existisse uma lua no sistema, o conjunto de dados atual deveria ser capaz de revelá-la. Isso sugere que aprimoramentos nas técnicas de processamento de dados podem ser a chave para desvendar a presença de exoluas em sistemas estelares variáveis, mantendo viva a esperança de encontrar um gêmeo Terra-Lua em algum ponto do vasto universo.</p>",
+    "body_pt": "<p>A pesquisa focou em planetas considerados os melhores candidatos para abrigar uma lua estável, principalmente devido à sua proximidade e forte atração gravitacional. A equipe de Pass empregou o JWST, uma ferramenta de ponta para observações astronômicas, na esperança de detectar sinais tênues que indicassem a presença de satélites naturais orbitando esses exoplanetas. No entanto, a busca por evidências definitivas de uma lua em órbita de qualquer um desses planetas não obteve sucesso, principalmente devido a desafios inesperados impostos pela estrela hospedeira.</p><p>Os pesquisadores calcularam que, para detectar um análogo da Lua, o JWST precisaria registrar uma queda de aproximadamente 20 partes por milhão (ppm) na luz estelar, um sinal sutil que indicaria o trânsito de uma exolua. Contudo, a estrela hospedeira dos sistemas estudados apresentou uma variabilidade intrínseca significativa, gerando um &quot;ruído vermelho&quot; que complicou a análise. O sinal da própria estrela oscilava a cada 16 minutos e possuía uma amplitude de cerca de 46 ppm, um valor substancialmente maior do que o sinal esperado de uma exolua. Essa flutuação estelar essencialmente mascarou qualquer sinal de 20 ppm que uma lua pudesse emitir, tornando sua detecção inviável com os métodos atuais.</p><p>A partir das observações realizadas, a conclusão mais robusta que os investigadores puderam extrair foi que a sensibilidade de seus dados permitia a detecção apenas de luas maiores que Ganimedes, o maior satélite natural do nosso sistema solar, e que estivessem em órbitas com períodos superiores a dois dias. Essa limitação ressalta a dificuldade de identificar exoluas menores, especialmente aquelas que poderiam ser análogas à nossa própria Lua, em meio ao ruído estelar. A ausência de um sinal claro para exoluas menores destaca a necessidade de abordagens mais sofisticadas para superar esses obstáculos observacionais.</p><p>Apesar dos desafios, o estudo aponta para caminhos futuros na busca por exoluas. Os pesquisadores determinaram que, caso fosse possível desenvolver um algoritmo de redução de ruído eficaz, capaz de remover o &quot;ruído vermelho&quot; gerado pela estrela, e se de fato existisse uma lua no sistema, o conjunto de dados atual deveria ser capaz de revelá-la. Isso sugere que aprimoramentos nas técnicas de processamento de dados podem ser a chave para desvendar a presença de exoluas em sistemas estelares variáveis, mantendo viva a esperança de encontrar um gêmeo Terra-Lua em algum ponto do vasto universo.</p>",
+    "body_en": "<p>The Moon has played a huge role in the development of Earth. It stabilizes the planet, tempered dramatic climate swings, and possibly even provided the tidal heating that might have led to the first life forms. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>It matters because exoplanet science has moved beyond the era of simple discovery into a period of comparative characterization. With more than five thousand confirmed planets known, the scientifically productive questions now concern atmospheric composition, internal structure, orbital history and the statistical properties of populations rather than the existence of individual worlds. A new detection or spectral measurement is most valuable when it adds a well-constrained data point to those comparative frameworks, not when it stands alone as an anecdote. And a new paper from Emily Pass and her colleagues at MIT, Harvard, and the University of Chicago describes using the James Webb Space Telescope to track some of the most. So it’s natural we would want to find a similar Earth/Luna system somewhere else in the cosmos.</p><p>And a new paper, available in pre-print on arXiv, from Emily Pass and her colleagues at MIT, Harvard, and the University of Chicago describes using the James Webb Space Telescope. Located about 100 light years away from Earth, TOI-700 is a small M-dwarf star that has a wide variety of known exoplanets, including two Earth-sized ones in the “habitable” zone.</p><p>According to the paper, these planets are the best candidates we have for holding onto a stable moon, due to their proximity and gravitational pull. Data described in the paper increased the accuracy of our orbital estimates of the planets by an order of magnitude, and improved our measure of their radius (1.</p><p>Alex Teachey But one thing it couldn’t do was find definitive evidence of a moon orbiting either planet. The researchers calculated that, in order to detect a Luna-analog, JWST would need to detect a 20 parts per million (ppm) dip in starlight.</p><p>The broader interest lies in making the target less anecdotal and more comparable with the rest of the known planetary population. Population-level questions, such as the frequency of atmospheres around small rocky planets or the prevalence of water-rich worlds in the habitable zone, require well-characterized individual data points before statistical patterns become meaningful. Each new planet with a measured radius, mass and, ideally, atmospheric constraint is a brick in that larger structure, and the accumulation of bricks eventually allows theorists to test formation models against real distributions rather than projections.</p><p>The signal itself oscillated every 16 minutes, and had an amplitude of around 46 ppm - essentially washing out any 20 ppm signal a moon might give off. The best conclusion the researchers could draw with that level of certainty was that their observations were only sensitive to moons larger than Ganymede (the largest moon in our.</p><p>Because this item comes through Universe Today as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to improve independent constraints on the mass, radius, atmospheric composition and orbital dynamics of the target. Transmission spectroscopy with JWST, radial velocity campaigns with high-resolution ground-based spectrographs and phase-curve measurements from space photometry represent the observational toolkit that can move characterization from plausible to robust. That convergence of techniques is the standard the community now expects before a planetary atmosphere result is treated as confirmed.</p><p class=\"art-source\"><a href=\"https://www.universetoday.com/articles/jwst-hunts-for-an-earth-moon-twin-in-a-habitable-zone-but-the-star-has-other-plans\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: A Lua é crucial para a estabilidade e habitabilidade da Terra, influenciando desde a estabilização planetária até o aquecimento das marés",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_pt": [
+      "Em foco: A Lua é crucial para a estabilidade e habitabilidade da Terra, influenciando desde a estabilização planetária até o aquecimento das marés",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_en": [
+      "Focus: The Moon has played a huge role in the development of Earth",
+      "Detail: Science reporting: verify primary technical documentation",
+      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+    ],
+    "date": "25 abr 2026",
+    "date_pt": "25 abr 2026",
+    "date_en": "25 Apr 2026",
+    "time": "02h08",
+    "time_pt": "02h08",
+    "time_en": "02: 08 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-25T02:08:51+00:00",
+    "lastModifiedIso": "2026-04-25T02:08:51+00:00",
+    "source": "Universe Today",
+    "sourceDomain": "www. universetoday. com",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura de jornalismo científico. Útil para contexto, mas recebe peso menor que fonte primária ou periódico.",
+    "sourceNote_pt": "Cobertura de jornalismo científico. Útil para contexto, mas recebe peso menor que fonte primária ou periódico.",
+    "sourceNote_en": "Science journalism coverage. Useful for context, but weighted below primary sources and journals.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Exoplanetas",
+      "Universe Today",
+      "Cosmos Week",
+      "JWST procura um gêmeo ‘Terra",
+      "Lua’ em uma zona habitável",
+      "mas a estrela tem outros planos"
+    ],
+    "keywords_pt": [
+      "Exoplanetas",
+      "Universe Today",
+      "Cosmos Week",
+      "JWST procura um gêmeo ‘Terra",
+      "Lua’ em uma zona habitável",
+      "mas a estrela tem outros planos"
+    ],
+    "keywords_en": [
+      "Exoplanets",
+      "Universe Today",
+      "Cosmos Week",
+      "JWST seeks an ‘Earth twin",
+      "Moon’ in a habitable zone",
+      "but the star has other plans"
+    ],
+    "srcUrl": "https://www.universetoday.com/articles/jwst-hunts-for-an-earth-moon-twin-in-a-habitable-zone-but-the-star-has-other-plans",
+    "realUrl": "https://www.cosmosweek.com/?article=jwst-hunts-for-an-earth-moon-twin-in-a-habitable-zone-but-the-star-has-other-plans",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=jwst-hunts-for-an-earth-moon-twin-in-a-habitable-zone-but-the-star-has-other-plans",
+    "realUrl_en": "https://www.cosmosweek.com/?article=jwst-hunts-for-an-earth-moon-twin-in-a-habitable-zone-but-the-star-has-other-plans&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/jwst-hunts-for-an-earth-moon-twin-in-a-habitable-zone-but-the-star-has-other-plans/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/jwst-hunts-for-an-earth-moon-twin-in-a-habitable-zone-but-the-star-has-other-plans/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/jwst-hunts-for-an-earth-moon-twin-in-a-habitable-zone-but-the-star-has-other-plans/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/jwst-hunts-for-an-earth-moon-twin-in-a-habitable-zone-but-the-star-has-other-plans/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/jwst-hunts-for-an-earth-moon-twin-in-a-habitable-zone-but-the-star-has-other-plans/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/jwst-hunts-for-an-earth-moon-twin-in-a-habitable-zone-but-the-star-has-other-plans/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 74,
+    "scoreBreakdown": {
+      "source": 78,
+      "evidence": 72,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "O JWST investiga sistemas análogos Terra-Lua em zonas habitáveis, enfrentando desafios estelares",
+    "imageAlt_pt": "O JWST investiga sistemas análogos Terra-Lua em zonas habitáveis, enfrentando desafios estelares",
+    "imageAlt_en": "JWST Hunts for an 'Earth-Moon' Twin in a Habitable Zone, But the Star Has Other Plans"
+  },
+  {
+    "id": 4,
+    "slug": "chernobyl-s-exclusion-zone-is-a-beacon-of-biodiversity-but-it-faces-new-threats-from-russia-s-in",
+    "cat": "Exoplanetas",
+    "catCls": "exoplanetas",
+    "img": "https://scx2.b-cdn.net/gfx/news/2026/chernobyls-exclusion-z.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "A Zona de Exclusão de Chernobyl: Farol de Biodiversidade sob Ameaça da Invasão Russa",
+    "title_pt": "A Zona de Exclusão de Chernobyl: Farol de Biodiversidade sob Ameaça da Invasão Russa",
+    "title_en": "Chernobyl's exclusion zone is a beacon of biodiversity—but it faces new threats from Russia's invasion",
+    "sub": "O dia 26 de abril marca o 40º aniversário da explosão do Reator 4 da usina nuclear de Chernobyl, na Ucrânia.",
+    "sub_pt": "O dia 26 de abril marca o 40º aniversário da explosão do Reator 4 da usina nuclear de Chernobyl, na Ucrânia.",
+    "sub_en": "April 26 marks the 40th anniversary of the explosion at Reactor 4 of the Chernobyl nuclear power plant in Ukraine.",
+    "excerpt": "O dia 26 de abril marca o 40º aniversário da explosão do Reator 4 da usina nuclear de Chernobyl, na Ucrânia.",
+    "excerpt_pt": "O dia 26 de abril marca o 40º aniversário da explosão do Reator 4 da usina nuclear de Chernobyl, na Ucrânia.",
+    "excerpt_en": "April 26 marks the 40th anniversary of the explosion at Reactor 4 of the Chernobyl nuclear power plant in Ukraine. The accident caused the largest ever release of radioactive material into the environment, and at the time people predicted.",
+    "body": "<p>O dia 26 de abril marca o 40º aniversário da explosão do Reator 4 da usina nuclear de Chernobyl, na Ucrânia. Este evento catastrófico resultou na maior liberação de material radioativo já registrada no meio ambiente. Na época, as previsões para a região eram sombrias, com a expectativa de que a área permaneceria inabitável e estéril por séculos. Contudo, a criação da Zona de Exclusão, uma vasta área de segurança estabelecida para conter a contaminação, inadvertidamente abriu caminho para um desenvolvimento ecológico surpreendente.</p><p>Quatro décadas após o acidente, a Zona de Exclusão de Chernobyl transformou-se em uma das maiores e mais singulares reservas naturais da Europa. Abrangendo uma área de mais de 4.500 km², ela supera em extensão a maioria dos parques nacionais do continente. A ausência quase total de atividade humana permitiu que a natureza retomasse seu curso, resultando em um ecossistema florescente e inesperadamente rico. Este fenômeno desafia as expectativas iniciais de um deserto biológico, revelando a resiliência da vida selvagem mesmo em ambientes severamente alterados.</p><p>A biodiversidade na Zona de Exclusão é notável. Mais de 200 espécies de aves foram registradas na área, muitas das quais estão ameaçadas em nível continental. Além das aves, a região abriga populações robustas de lobos, ursos, linces, alces e bisões europeus, que prosperam na ausência de pressão humana. A floresta, antes afetada pela radiação, recuperou-se, criando habitats complexos e interconectados que sustentam essa rica fauna. Este ambiente único oferece uma oportunidade ímpar para o estudo da ecologia em condições de baixa interferência humana e alta radiação residual.</p><p>Desde 2016, equipes de pesquisadores têm trabalhado intensamente em Chernobyl para avaliar o estado do ambiente na Zona de Exclusão. Esses estudos são cruciais para compreender os efeitos a longo prazo da radiação na vida selvagem e nos ecossistemas, bem como para monitorar a recuperação natural da área. A pesquisa abrange diversas disciplinas, desde a radioecologia até a biologia da conservação, fornecendo dados valiosos sobre a capacidade de adaptação das espécies e a dinâmica de ecossistemas em ambientes extremos. Os resultados contribuem significativamente para o conhecimento científico global sobre resiliência ambiental.</p><p>Contudo, essa recuperação ambiental e o trabalho científico foram abruptamente interrompidos e ameaçados em fevereiro de 2022, quando tropas russas iniciaram uma invasão em larga escala da Ucrânia, utilizando a região de Chernobyl como uma das principais rotas de avanço. A presença militar na Zona de Exclusão trouxe consigo uma série de novos perigos, incluindo a interrupção das atividades de monitoramento e conservação, além de riscos diretos à infraestrutura e aos ecossistemas locais. A invasão representou um revés significativo para os esforços de preservação e pesquisa na área.</p><p>Durante a ocupação russa, a Zona de Exclusão foi palco de incêndios florestais de grandes proporções. Estima-se que cerca de 22 mil hectares foram queimados, uma área considerável que afetou diretamente a biodiversidade e os solos da região. Esses incêndios não apenas destruíram habitats e mataram animais, mas também levantaram preocupações sérias sobre a possível liberação de radionuclídeos que estavam contidos na biomassa e no solo, potencialmente espalhando partículas radioativas para áreas mais amplas. A fumaça e as cinzas carregadas de material radioativo representaram um risco adicional para a saúde humana e ambiental.</p><p>Atualmente, a Zona de Exclusão de Chernobyl, que por décadas foi um símbolo de desastre e, paradoxalmente, de recuperação ecológica, enfrenta uma nova e complexa camada de ameaças. A resiliência da natureza em um ambiente radioativo é um testemunho notável, mas a interferência humana, especialmente em tempos de conflito, pode comprometer seriamente esses avanços. A proteção contínua e a retomada das pesquisas são essenciais para garantir que este farol de biodiversidade possa persistir e continuar a oferecer lições valiosas sobre a interação entre desastre, recuperação e conservação.</p>",
+    "body_pt": "<p>O dia 26 de abril marca o 40º aniversário da explosão do Reator 4 da usina nuclear de Chernobyl, na Ucrânia. Este evento catastrófico resultou na maior liberação de material radioativo já registrada no meio ambiente. Na época, as previsões para a região eram sombrias, com a expectativa de que a área permaneceria inabitável e estéril por séculos. Contudo, a criação da Zona de Exclusão, uma vasta área de segurança estabelecida para conter a contaminação, inadvertidamente abriu caminho para um desenvolvimento ecológico surpreendente.</p><p>Quatro décadas após o acidente, a Zona de Exclusão de Chernobyl transformou-se em uma das maiores e mais singulares reservas naturais da Europa. Abrangendo uma área de mais de 4.500 km², ela supera em extensão a maioria dos parques nacionais do continente. A ausência quase total de atividade humana permitiu que a natureza retomasse seu curso, resultando em um ecossistema florescente e inesperadamente rico. Este fenômeno desafia as expectativas iniciais de um deserto biológico, revelando a resiliência da vida selvagem mesmo em ambientes severamente alterados.</p><p>A biodiversidade na Zona de Exclusão é notável. Mais de 200 espécies de aves foram registradas na área, muitas das quais estão ameaçadas em nível continental. Além das aves, a região abriga populações robustas de lobos, ursos, linces, alces e bisões europeus, que prosperam na ausência de pressão humana. A floresta, antes afetada pela radiação, recuperou-se, criando habitats complexos e interconectados que sustentam essa rica fauna. Este ambiente único oferece uma oportunidade ímpar para o estudo da ecologia em condições de baixa interferência humana e alta radiação residual.</p><p>Desde 2016, equipes de pesquisadores têm trabalhado intensamente em Chernobyl para avaliar o estado do ambiente na Zona de Exclusão. Esses estudos são cruciais para compreender os efeitos a longo prazo da radiação na vida selvagem e nos ecossistemas, bem como para monitorar a recuperação natural da área. A pesquisa abrange diversas disciplinas, desde a radioecologia até a biologia da conservação, fornecendo dados valiosos sobre a capacidade de adaptação das espécies e a dinâmica de ecossistemas em ambientes extremos. Os resultados contribuem significativamente para o conhecimento científico global sobre resiliência ambiental.</p><p>Contudo, essa recuperação ambiental e o trabalho científico foram abruptamente interrompidos e ameaçados em fevereiro de 2022, quando tropas russas iniciaram uma invasão em larga escala da Ucrânia, utilizando a região de Chernobyl como uma das principais rotas de avanço. A presença militar na Zona de Exclusão trouxe consigo uma série de novos perigos, incluindo a interrupção das atividades de monitoramento e conservação, além de riscos diretos à infraestrutura e aos ecossistemas locais. A invasão representou um revés significativo para os esforços de preservação e pesquisa na área.</p><p>Durante a ocupação russa, a Zona de Exclusão foi palco de incêndios florestais de grandes proporções. Estima-se que cerca de 22 mil hectares foram queimados, uma área considerável que afetou diretamente a biodiversidade e os solos da região. Esses incêndios não apenas destruíram habitats e mataram animais, mas também levantaram preocupações sérias sobre a possível liberação de radionuclídeos que estavam contidos na biomassa e no solo, potencialmente espalhando partículas radioativas para áreas mais amplas. A fumaça e as cinzas carregadas de material radioativo representaram um risco adicional para a saúde humana e ambiental.</p><p>Atualmente, a Zona de Exclusão de Chernobyl, que por décadas foi um símbolo de desastre e, paradoxalmente, de recuperação ecológica, enfrenta uma nova e complexa camada de ameaças. A resiliência da natureza em um ambiente radioativo é um testemunho notável, mas a interferência humana, especialmente em tempos de conflito, pode comprometer seriamente esses avanços. A proteção contínua e a retomada das pesquisas são essenciais para garantir que este farol de biodiversidade possa persistir e continuar a oferecer lições valiosas sobre a interação entre desastre, recuperação e conservação.</p>",
+    "body_en": "<p>April 26 marks the 40th anniversary of the explosion at Reactor 4 of the Chernobyl nuclear power plant in Ukraine. The accident caused the largest ever release of radioactive material into the environment, and at the time people predicted. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>That matters because exoplanet science has moved beyond the era of simple discovery into a period of comparative characterization. With more than five thousand confirmed planets known, the scientifically productive questions now concern atmospheric composition, internal structure, orbital history and the statistical properties of populations rather than the existence of individual worlds. A new detection or spectral measurement is most valuable when it adds a well-constrained data point to those comparative frameworks, not when it stands alone as an anecdote. This article has been reviewed according to Science X&#x27;s editorial process and policies. Editors have highlighted the following attributes while ensuring the content&#x27;s credibility: Add as preferred source CC BY &quot;&gt; Chernobyl exclusion zone, Ukraine, November 2019.</p><p>Denis Vishnevskiy (Chornobyl Radiation and Ecological Biosphere Reserve), CC BY April 26 marks the 40th anniversary of the explosion at Reactor 4 of the Chernobyl nuclear power. Four decades after the accident, Chernobyl has become one of Europe&#x27;s largest nature reserves.</p><p>Covering an area of over 4, 500 km², it is larger than almost any other national park on the continent. With next to no human activity at all, the land has been left entirely to nature.</p><p>Over 200 species of birds have been recorded in the area, many of which are threatened at the continental level. Since 2016, we have been working in Chernobyl to assess the state of the environment in the exclusion zone.</p><p>The broader interest lies in making the target less anecdotal and more comparable with the rest of the known planetary population. Population-level questions, such as the frequency of atmospheres around small rocky planets or the prevalence of water-rich worlds in the habitable zone, require well-characterized individual data points before statistical patterns become meaningful. Each new planet with a measured radius, mass and, ideally, atmospheric constraint is a brick in that larger structure, and the accumulation of bricks eventually allows theorists to test formation models against real distributions rather than projections.</p><p>Discover the latest in science, tech, and space with over 100, 000 subscribers who rely on Phys. org for daily insights. In February 2022, Russian troops launched a large-scale invasion of Ukraine via Chernobyl.</p><p>Because this item comes through Phys. org Biology as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to improve independent constraints on the mass, radius, atmospheric composition and orbital dynamics of the target. Transmission spectroscopy with JWST, radial velocity campaigns with high-resolution ground-based spectrographs and phase-curve measurements from space photometry represent the observational toolkit that can move characterization from plausible to robust. That convergence of techniques is the standard the community now expects before a planetary atmosphere result is treated as confirmed.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-chernobyl-exclusion-zone-beacon-biodiversity.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: O dia 26 de abril marca o 40º aniversário da explosão do Reator 4 da usina nuclear de Chernobyl, na Ucrânia",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_pt": [
+      "Em foco: O dia 26 de abril marca o 40º aniversário da explosão do Reator 4 da usina nuclear de Chernobyl, na Ucrânia",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_en": [
+      "Focus: April 26 marks the 40th anniversary of the explosion at Reactor 4 of the Chernobyl nuclear power plant in Ukraine",
+      "Detail: Science reporting: verify primary technical documentation",
+      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+    ],
+    "date": "24 abr 2026",
+    "date_pt": "24 abr 2026",
+    "date_en": "24 Apr 2026",
+    "time": "22h40",
+    "time_pt": "22h40",
+    "time_en": "22: 40 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-24T22:40:01+00:00",
+    "lastModifiedIso": "2026-04-24T22:40:01+00:00",
+    "source": "Phys. org Biology",
+    "sourceDomain": "phys. org",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura de jornalismo científico. Útil para contexto, mas recebe peso menor que fonte primária ou periódico.",
+    "sourceNote_pt": "Cobertura de jornalismo científico. Útil para contexto, mas recebe peso menor que fonte primária ou periódico.",
+    "sourceNote_en": "Science journalism coverage. Useful for context, but weighted below primary sources and journals.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "watch",
+    "editorialBandLabel": "Leitura monitorada",
+    "editorialBandLabel_pt": "Leitura monitorada",
+    "editorialBandLabel_en": "Watchlist",
+    "keywords": [
+      "Exoplanetas",
+      "Phys. org Biology",
+      "Cosmos Week",
+      "A zona de exclusão de Chernobyl é um farol de biodiversidade – mas enfrenta novas ameaças da invasão da Rússia"
+    ],
+    "keywords_pt": [
+      "Exoplanetas",
+      "Phys. org Biology",
+      "Cosmos Week",
+      "A zona de exclusão de Chernobyl é um farol de biodiversidade – mas enfrenta novas ameaças da invasão da Rússia"
+    ],
+    "keywords_en": [
+      "Exoplanets",
+      "Phys. org Biology",
+      "Cosmos Week",
+      "The Chernobyl exclusion zone is a beacon of biodiversity – but faces new threats from invading Russia"
+    ],
+    "srcUrl": "https://phys.org/news/2026-04-chernobyl-exclusion-zone-beacon-biodiversity.html",
+    "realUrl": "https://www.cosmosweek.com/?article=chernobyl-s-exclusion-zone-is-a-beacon-of-biodiversity-but-it-faces-new-threats-from-russia-s-in",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=chernobyl-s-exclusion-zone-is-a-beacon-of-biodiversity-but-it-faces-new-threats-from-russia-s-in",
+    "realUrl_en": "https://www.cosmosweek.com/?article=chernobyl-s-exclusion-zone-is-a-beacon-of-biodiversity-but-it-faces-new-threats-from-russia-s-in&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/chernobyl-s-exclusion-zone-is-a-beacon-of-biodiversity-but-it-faces-new-threats-from-russia-s-in/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/chernobyl-s-exclusion-zone-is-a-beacon-of-biodiversity-but-it-faces-new-threats-from-russia-s-in/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/chernobyl-s-exclusion-zone-is-a-beacon-of-biodiversity-but-it-faces-new-threats-from-russia-s-in/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/chernobyl-s-exclusion-zone-is-a-beacon-of-biodiversity-but-it-faces-new-threats-from-russia-s-in/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/chernobyl-s-exclusion-zone-is-a-beacon-of-biodiversity-but-it-faces-new-threats-from-russia-s-in/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/chernobyl-s-exclusion-zone-is-a-beacon-of-biodiversity-but-it-faces-new-threats-from-russia-s-in/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 65,
+    "scoreBreakdown": {
+      "source": 60,
+      "evidence": 72,
+      "relevance": 70,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "A Zona de Exclusão de Chernobyl: Farol de Biodiversidade sob Ameaça da Invasão Russa",
+    "imageAlt_pt": "A Zona de Exclusão de Chernobyl: Farol de Biodiversidade sob Ameaça da Invasão Russa",
+    "imageAlt_en": "Chernobyl's exclusion zone is a beacon of biodiversity—but it faces new threats from Russia's invasion"
+  },
+  {
+    "id": 5,
+    "slug": "neutrinos-caught-on-camera-testing-the-first-prototype-of-a-new-elementary-particle-detector",
+    "cat": "Física",
+    "catCls": "fisica",
+    "img": "https://scx2.b-cdn.net/gfx/news/hires/2026/neutrinos-caught-on-ca.jpg",
+    "inline_images": [
+      {
+        "src": "https://scx2.b-cdn.net/gfx/news/2026/neutrinos-caught-on-ca.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Neutrinos capturados por câmera: Testando o primeiro protótipo de um novo detector de partículas elementares",
+    "title_pt": "Neutrinos capturados por câmera: Testando o primeiro protótipo de um novo detector de partículas elementares",
+    "title_en": "Neutrinos caught on camera: Testing the first prototype of a new elementary particle detector",
+    "sub": "Este artigo explora a inovação na física de partículas por meio da combinação de tecnologias existentes, como câmeras plenópticas e sensores de matriz de diodo de avalanche de.",
+    "sub_pt": "Este artigo explora a inovação na física de partículas por meio da combinação de tecnologias existentes, como câmeras plenópticas e sensores de matriz de diodo de avalanche de.",
+    "sub_en": "Some innovations in physics come from entirely new technologies, others from fresh theoretical insights.",
+    "excerpt": "Este artigo explora a inovação na física de partículas por meio da combinação de tecnologias existentes, como câmeras plenópticas e sensores de matriz de diodo de avalanche de fóton único (SPAD).",
+    "excerpt_pt": "Este artigo explora a inovação na física de partículas por meio da combinação de tecnologias existentes, como câmeras plenópticas e sensores de matriz de diodo de avalanche de fóton único (SPAD).",
+    "excerpt_en": "Some innovations in physics come from entirely new technologies, others from fresh theoretical insights. Others still take shape by bringing together existing tools in new ways, working out how to combine them to outperform other solutions.",
+    "body": "<p>A inovação na física frequentemente emerge de diversas fontes: algumas vezes, provém de tecnologias inteiramente novas; outras, de percepções teóricas revolucionárias. Há, contudo, uma terceira via igualmente frutífera, que consiste em reunir ferramentas existentes de maneiras inéditas, descobrindo como combiná-las para superar as soluções previamente disponíveis. Essa abordagem, que busca otimizar o uso de recursos já conhecidos, tem se mostrado crucial para o avanço de diversas áreas da pesquisa científica, especialmente na física de partículas, onde a demanda por maior precisão e eficiência na detecção é constante.</p><p>Exemplos notáveis dessa engenhosidade podem ser observados em grandes experimentos internacionais. No experimento de oscilação de neutrinos T2K, localizado no Japão, um detector possui um volume sensível de aproximadamente duas toneladas, meticulosamente montado a partir de cerca de dois milhões de cubos e 60.000 fibras. De forma similar, nos renomados centros de pesquisa CERN e Instituto Paul Scherrer, os experimentos LHCb e Mu3e alcançam uma impressionante resolução espacial submilimétrica, um feito atribuído à utilização de milhões de finas fibras ópticas cintilantes. Esses sistemas demonstram a complexidade e a escala das tecnologias empregadas atualmente para desvendar os mistérios do universo subatômico, estabelecendo um alto padrão para novas abordagens.</p><p>Nesse contexto de busca por maior precisão, uma demonstração recente, acompanhada de um estudo de simulação abrangente, foi publicada na prestigiada revista Nature Communications. Este trabalho destaca o grande potencial das câmeras plenópticas para a geração de imagens. Quando combinadas com sensores de matriz de diodo de avalanche de fóton único (SPAD), essas câmeras podem alcançar o rastreamento 3D de alta resolução de partículas elementares, uma capacidade crucial mesmo em condições de escassez de fótons. Essa sinergia tecnológica representa um avanço significativo, prometendo novas perspectivas para a observação de fenômenos que antes eram difíceis de capturar com a clareza necessária.</p><p>Um elemento crucial dessa configuração inovadora é o SwissSPAD2, que integra a detecção de fótons de forma controlada ao sistema. Isso significa que os eventos de detecção ocorrem dentro de janelas temporais fixas, uma característica que permite isolar com precisão os intervalos de tempo nos quais o sinal proveniente dos fótons detectados domina as contagens. Essa capacidade de controle temporal é fundamental para minimizar o ruído de fundo e maximizar a clareza do sinal, otimizando a identificação e o rastreamento das partículas. A precisão temporal oferecida pelo SwissSPAD2 é, portanto, um pilar para a eficácia do novo detector.</p><p>Os investigadores dedicaram-se a estudar o desempenho do demonstrador, batizado de PLATON, caracterizando sua resolução espacial. Para isso, foram coletados dados em laboratório sob intensidades de luz variadas, que oscilaram entre cinco e algumas centenas de fótons detectados. Essa gama de condições permitiu uma avaliação robusta da capacidade do sistema em diferentes cenários de luminosidade, simulando as condições desafiadoras frequentemente encontradas em experimentos de física de partículas. A análise desses dados é essencial para compreender as limitações e os pontos fortes do protótipo em um ambiente controlado.</p><p>Além da caracterização da resolução espacial, a equipe também submeteu o protótipo a testes para avaliar sua capacidade de detectar e reconstruir a posição de elétrons. Para este propósito, utilizou-se um bloco cintilador de plástico e uma fonte de estrôncio-90, que emite elétrons. Este tipo de teste é fundamental para validar a funcionalidade do detector em um cenário mais próximo ao de um experimento real de partículas, onde a identificação precisa da trajetória e do ponto de interação das partículas é de suma importância. Os resultados obtidos nessas etapas experimentais fornecem dados empíricos valiosos para o aprimoramento contínuo do sistema.</p><p>Complementando os testes experimentais, os resultados de simulação publicados, que avaliam o desempenho projetado do PLATON na detecção de neutrinos, são baseados na versão atualizada do sistema, que se encontra atualmente em desenvolvimento. Essa abordagem combinada de experimentação e simulação é crucial na física de partículas, permitindo que os pesquisadores otimizem o design e prevejam o comportamento do detector antes de sua implementação em larga escala. O progresso contínuo neste protótipo sugere um futuro promissor para a detecção de neutrinos com alta resolução, abrindo caminho para novas descobertas.</p>",
+    "body_pt": "<p>A inovação na física frequentemente emerge de diversas fontes: algumas vezes, provém de tecnologias inteiramente novas; outras, de percepções teóricas revolucionárias. Há, contudo, uma terceira via igualmente frutífera, que consiste em reunir ferramentas existentes de maneiras inéditas, descobrindo como combiná-las para superar as soluções previamente disponíveis. Essa abordagem, que busca otimizar o uso de recursos já conhecidos, tem se mostrado crucial para o avanço de diversas áreas da pesquisa científica, especialmente na física de partículas, onde a demanda por maior precisão e eficiência na detecção é constante.</p><p>Exemplos notáveis dessa engenhosidade podem ser observados em grandes experimentos internacionais. No experimento de oscilação de neutrinos T2K, localizado no Japão, um detector possui um volume sensível de aproximadamente duas toneladas, meticulosamente montado a partir de cerca de dois milhões de cubos e 60.000 fibras. De forma similar, nos renomados centros de pesquisa CERN e Instituto Paul Scherrer, os experimentos LHCb e Mu3e alcançam uma impressionante resolução espacial submilimétrica, um feito atribuído à utilização de milhões de finas fibras ópticas cintilantes. Esses sistemas demonstram a complexidade e a escala das tecnologias empregadas atualmente para desvendar os mistérios do universo subatômico, estabelecendo um alto padrão para novas abordagens.</p><p>Nesse contexto de busca por maior precisão, uma demonstração recente, acompanhada de um estudo de simulação abrangente, foi publicada na prestigiada revista Nature Communications. Este trabalho destaca o grande potencial das câmeras plenópticas para a geração de imagens. Quando combinadas com sensores de matriz de diodo de avalanche de fóton único (SPAD), essas câmeras podem alcançar o rastreamento 3D de alta resolução de partículas elementares, uma capacidade crucial mesmo em condições de escassez de fótons. Essa sinergia tecnológica representa um avanço significativo, prometendo novas perspectivas para a observação de fenômenos que antes eram difíceis de capturar com a clareza necessária.</p><p>Um elemento crucial dessa configuração inovadora é o SwissSPAD2, que integra a detecção de fótons de forma controlada ao sistema. Isso significa que os eventos de detecção ocorrem dentro de janelas temporais fixas, uma característica que permite isolar com precisão os intervalos de tempo nos quais o sinal proveniente dos fótons detectados domina as contagens. Essa capacidade de controle temporal é fundamental para minimizar o ruído de fundo e maximizar a clareza do sinal, otimizando a identificação e o rastreamento das partículas. A precisão temporal oferecida pelo SwissSPAD2 é, portanto, um pilar para a eficácia do novo detector.</p><p>Os investigadores dedicaram-se a estudar o desempenho do demonstrador, batizado de PLATON, caracterizando sua resolução espacial. Para isso, foram coletados dados em laboratório sob intensidades de luz variadas, que oscilaram entre cinco e algumas centenas de fótons detectados. Essa gama de condições permitiu uma avaliação robusta da capacidade do sistema em diferentes cenários de luminosidade, simulando as condições desafiadoras frequentemente encontradas em experimentos de física de partículas. A análise desses dados é essencial para compreender as limitações e os pontos fortes do protótipo em um ambiente controlado.</p><p>Além da caracterização da resolução espacial, a equipe também submeteu o protótipo a testes para avaliar sua capacidade de detectar e reconstruir a posição de elétrons. Para este propósito, utilizou-se um bloco cintilador de plástico e uma fonte de estrôncio-90, que emite elétrons. Este tipo de teste é fundamental para validar a funcionalidade do detector em um cenário mais próximo ao de um experimento real de partículas, onde a identificação precisa da trajetória e do ponto de interação das partículas é de suma importância. Os resultados obtidos nessas etapas experimentais fornecem dados empíricos valiosos para o aprimoramento contínuo do sistema.</p><p>Complementando os testes experimentais, os resultados de simulação publicados, que avaliam o desempenho projetado do PLATON na detecção de neutrinos, são baseados na versão atualizada do sistema, que se encontra atualmente em desenvolvimento. Essa abordagem combinada de experimentação e simulação é crucial na física de partículas, permitindo que os pesquisadores otimizem o design e prevejam o comportamento do detector antes de sua implementação em larga escala. O progresso contínuo neste protótipo sugere um futuro promissor para a detecção de neutrinos com alta resolução, abrindo caminho para novas descobertas.</p>",
+    "body_en": "<p>Some innovations in physics come from entirely new technologies, others from fresh theoretical insights. Others still take shape by bringing together existing tools in new ways, working out how to combine them to outperform other solutions. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>It is relevant because physics only takes a result seriously when the measurement chain remains robust under scrutiny. Experimental particle physics and precision metrology both operate in regimes where the signal sits far below the background noise, and where systematic uncertainties can mimic new physics if not controlled rigorously. The history of the field contains numerous anomalies that generated theoretical excitement before better data showed them to be artifacts, and it also contains genuine discoveries that were initially dismissed as noise. The difference is almost always resolved by independent replication with different instruments and different systematics. Editors have highlighted the following attributes while ensuring the content&#x27;s credibility: Add as preferred source Illustration of the first prototype of a new monolithic. In the T2K neutrino-oscillation experiment in Japan, for example, one detector boasts about two tons of sensitive volume assembled from approximately two million cubes and 60, 000.</p><p>Over at CERN and the Paul Scherrer Institute, the LHCb and Mu3e experiments achieve sub-millimeter spatial resolution thanks to millions of thin scintillating optical fibers. Their demonstration, along with a comprehensive simulation study, appeared recently in Nature Communications.</p><p>Plenoptic cameras hold great potential for imaging and, if combined with single-photon avalanche diode (SPAD) array sensors, can achieve high-resolution 3D tracking of elementary. Crucially, SwissSPAD2 adds gated photon detection to the setup: this means that detection events fall into fixed temporal windows, making it possible to isolate the time intervals.</p><p>Discover the latest in science, tech, and space with over 100, 000 subscribers who rely on Phys. org for daily insights. The researchers studied the performance of the PLATON demonstrator by characterizing its spatial resolution with data collected in the laboratory for light intensities ranging.</p><p>The broader interest lies as much in the method as in the headline number, because a durable measurement procedure can travel farther than a single result. When experimental physicists develop a technique that achieves new sensitivity or controls a previously uncharacterized systematic, that methodological contribution persists even if the specific measurement is later revised. This is one reason why precision physics experiments often generate long-term value that is not immediately visible in the original publication.</p><p>The team also tested the prototype on its ability to detect and reconstruct the position of electrons in a plastic scintillator block from a strontium-90 source. The published simulation results, which test PLATON&#x27;s projected performance when detecting neutrinos, are based on the upgraded version of the system that&#x27;s currently under.</p><p>Because this item comes through Phys. org Physics as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is more measurement, tighter systematic control and scrutiny from groups whose experimental setups are genuinely independent. In experimental particle physics and precision metrology, the threshold for a discovery claim is a five-sigma excess surviving multiple analyses; an intriguing signal at lower significance is a reason to run more experiments, not a reason to revise the textbooks. Next-generation experiments currently under construction or commissioning will revisit several of the open questions that give the current result its context.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-neutrinos-caught-camera-prototype-elementary.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Este artigo explora a inovação na física de partículas por meio da combinação de tecnologias existentes, como câmeras plenópticas e sensores de",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_pt": [
+      "Em foco: Este artigo explora a inovação na física de partículas por meio da combinação de tecnologias existentes, como câmeras plenópticas e sensores de",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_en": [
+      "Focus: Some innovations in physics come from entirely new technologies, others from fresh theoretical insights",
+      "Detail: Science reporting: verify primary technical documentation",
+      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+    ],
+    "date": "24 abr 2026",
+    "date_pt": "24 abr 2026",
+    "date_en": "24 Apr 2026",
+    "time": "22h20",
+    "time_pt": "22h20",
+    "time_en": "22: 20 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-24T22:20:01+00:00",
+    "lastModifiedIso": "2026-04-24T22:20:01+00:00",
+    "source": "Phys. org Physics",
+    "sourceDomain": "phys. org",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura de jornalismo científico. Útil para contexto, mas recebe peso menor que fonte primária ou periódico.",
+    "sourceNote_pt": "Cobertura de jornalismo científico. Útil para contexto, mas recebe peso menor que fonte primária ou periódico.",
+    "sourceNote_en": "Science journalism coverage. Useful for context, but weighted below primary sources and journals.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "watch",
+    "editorialBandLabel": "Leitura monitorada",
+    "editorialBandLabel_pt": "Leitura monitorada",
+    "editorialBandLabel_en": "Watchlist",
+    "keywords": [
+      "Física",
+      "Phys. org Physics",
+      "Cosmos Week",
+      "Neutrinos capturados pela câmera",
+      "Testando o primeiro protótipo de um novo detector de partículas elementares"
+    ],
+    "keywords_pt": [
+      "Física",
+      "Phys. org Physics",
+      "Cosmos Week",
+      "Neutrinos capturados pela câmera",
+      "Testando o primeiro protótipo de um novo detector de partículas elementares"
+    ],
+    "keywords_en": [
+      "Physical",
+      "Phys. org Physics",
+      "Cosmos Week",
+      "Neutrinos captured by the camera",
+      "Testing the first prototype of a new elementary particle detector"
+    ],
+    "srcUrl": "https://phys.org/news/2026-04-neutrinos-caught-camera-prototype-elementary.html",
+    "realUrl": "https://www.cosmosweek.com/?article=neutrinos-caught-on-camera-testing-the-first-prototype-of-a-new-elementary-particle-detector",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=neutrinos-caught-on-camera-testing-the-first-prototype-of-a-new-elementary-particle-detector",
+    "realUrl_en": "https://www.cosmosweek.com/?article=neutrinos-caught-on-camera-testing-the-first-prototype-of-a-new-elementary-particle-detector&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/neutrinos-caught-on-camera-testing-the-first-prototype-of-a-new-elementary-particle-detector/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/neutrinos-caught-on-camera-testing-the-first-prototype-of-a-new-elementary-particle-detector/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/neutrinos-caught-on-camera-testing-the-first-prototype-of-a-new-elementary-particle-detector/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/neutrinos-caught-on-camera-testing-the-first-prototype-of-a-new-elementary-particle-detector/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/neutrinos-caught-on-camera-testing-the-first-prototype-of-a-new-elementary-particle-detector/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/neutrinos-caught-on-camera-testing-the-first-prototype-of-a-new-elementary-particle-detector/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 64,
+    "scoreBreakdown": {
+      "source": 62,
+      "evidence": 72,
+      "relevance": 68,
+      "accessibility": 52,
+      "novelty": 55
+    },
+    "imageAlt": "Neutrinos capturados por câmera: Testando o primeiro protótipo de um novo detector de partículas elementares",
+    "imageAlt_pt": "Neutrinos capturados por câmera: Testando o primeiro protótipo de um novo detector de partículas elementares",
+    "imageAlt_en": "Neutrinos caught on camera: Testing the first prototype of a new elementary particle detector"
+  },
+  {
+    "id": 6,
     "slug": "light-activated-electrolyte-oxidizes-water-to-promote-tumor-cell-death",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -116,7 +757,7 @@
     "imageAlt_en": "Light-activated electrolyte oxidizes water to promote tumor cell death"
   },
   {
-    "id": 2,
+    "id": 7,
     "slug": "colibre-a-new-cosmic-simulation-with-cinematic-flair",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -248,7 +889,7 @@
     "imageAlt_en": "Colibre: A New Cosmic Simulation With Cinematic Flair"
   },
   {
-    "id": 3,
+    "id": 8,
     "slug": "chromosomes-condense-in-three-timed-chemical-waves-during-cell-division-study-shows",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -367,7 +1008,7 @@
     "imageAlt_en": "Chromosomes condense in three timed chemical waves during cell division, study shows"
   },
   {
-    "id": 4,
+    "id": 9,
     "slug": "self-regulating-process-governs-cosmic-order-inside-star-clusters",
     "cat": "Física",
     "catCls": "fisica",
@@ -493,7 +1134,7 @@
     "imageAlt_en": "Self-regulating process governs cosmic order inside star clusters"
   },
   {
-    "id": 5,
+    "id": 10,
     "slug": "save-nasa-science-returns-to-capitol-hill",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -682,7 +1323,7 @@
     "imageAlt_en": "Save NASA Science returns to Capitol Hill"
   },
   {
-    "id": 6,
+    "id": 11,
     "slug": "scientists-map-hidden-magnetism-on-the-sun-s-far-side",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -798,7 +1439,7 @@
     "imageAlt_en": "Scientists map hidden magnetism on the sun's far side"
   },
   {
-    "id": 7,
+    "id": 12,
     "slug": "gravity-s-subtle-effect-on-light-could-improve-groundwater-volcano-and-carbon-storage-monitoring",
     "cat": "Física",
     "catCls": "fisica",
@@ -927,7 +1568,7 @@
     "imageAlt_en": "Gravity's subtle effect on light could improve groundwater, volcano and carbon storage monitoring"
   },
   {
-    "id": 8,
+    "id": 13,
     "slug": "nasa-astronauts-to-answer-questions-from-missouri-students",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1043,7 +1684,7 @@
     "imageAlt_en": "NASA Astronauts to Answer Questions from Missouri Students"
   },
   {
-    "id": 9,
+    "id": 14,
     "slug": "new-approach-to-detect-ultra-rare-part-per-sextillion-isotopes-could-also-sharpen-dark-matter-se",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -1172,7 +1813,7 @@
     "imageAlt_en": "New approach to detect ultra-rare part-per-sextillion isotopes could also sharpen dark matter searches"
   },
   {
-    "id": 10,
+    "id": 15,
     "slug": "earth-looks-best-when-we-explore-the-rest",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1194,12 +1835,12 @@
     "body_en": "<p>On this week’s Planetary Radio, we dive into the real science behind the sci-fi blockbuster with award-winning Nature correspondent Alexandra Witze, Virginia Tech astrophysicist Nahum Arav, and Planetary Society chief scientist Bruce Betts. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. Even from light-years away, Earth’s most fascinating quality, life, would be detectable. The new design, created by Arturo Jimenez in collaboration with Green Splendor Designs, combines the red rocks and sands of Mars with the vibrancy of Earth and the intrigue of the.</p><p>Saving NASA Science starts with you. Right now, the FY 2027 budget proposal would slash space science funding by 46% and terminate more than 50 missions.</p><p>A recent report from NASA’s Inspector General, though, is less certain. NASA has been accused of prematurely implementing Trump’s last budget cuts.</p><p>A report from members of the House Committee on Science, Space, and Technology argues that in 2025, NASA began shutting down and defunding programs targeted in the FY2026 budget. NASA must heed the warning of this report and prevent what happened in 2025 from happening again. ” The Nancy Grace Roman Space Telescope is ahead of schedule.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>NASA said this week that the telescope, which will study dark matter, dark energy, and exoplanets, will launch in September, eight months ahead of schedule and under budget. This week, look for Saturn, Mars, Mercury, and, if you have a telescope, Neptune.</p><p>Because this item comes through The Planetary Society as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/the-downlink/earth-looks-best-when-we-explore-the-rest\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Nesta edição da Rádio Planetária, exploramos a ciência por trás de um blockbuster de ficção científica com a correspondente da Nature Alexandra.",
-      "Dado-chave: Nesta edição da Rádio Planetária, exploramos a ciência por trás de um blockbuster de ficção científica com a correspondente da Nature Alexandra",
+      "Dado-chave: Nesta edição da Rádio Planetária, exploramos a ciência por trás de um blockbuster de ficção científica com a correspondente da Nature Alexandra.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
       "Ponto central: Nesta edição da Rádio Planetária, exploramos a ciência por trás de um blockbuster de ficção científica com a correspondente da Nature Alexandra.",
-      "Dado-chave: Nesta edição da Rádio Planetária, exploramos a ciência por trás de um blockbuster de ficção científica com a correspondente da Nature Alexandra",
+      "Dado-chave: Nesta edição da Rádio Planetária, exploramos a ciência por trás de um blockbuster de ficção científica com a correspondente da Nature Alexandra.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
@@ -1293,7 +1934,7 @@
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 16,
     "slug": "could-warming-seas-bring-great-white-sharks-back-to-the-north-sea-a-5-million-year-old-shark-too",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1419,7 +2060,7 @@
     "imageAlt_en": "Could warming seas bring great white sharks back to the North Sea? A 5‑million‑year‑old shark tooth may provide clues"
   },
   {
-    "id": 12,
+    "id": 17,
     "slug": "see-the-moon-occult-regulus-for-the-americas-saturday-night",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1548,7 +2189,7 @@
     "imageAlt_en": "See the Moon Occult Regulus for The Americas Saturday Night"
   },
   {
-    "id": 13,
+    "id": 18,
     "slug": "orbital-dances-unlock-true-masses-of-orion-s-young-stars",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1677,7 +2318,7 @@
     "imageAlt_en": "Orbital dances unlock true masses of Orion's young stars"
   },
   {
-    "id": 14,
+    "id": 19,
     "slug": "william-marciel-de-souza",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1815,7 +2456,7 @@
     "imageAlt_en": "William Marciel de Souza"
   },
   {
-    "id": 15,
+    "id": 20,
     "slug": "catching-the-earliest-stars-in-the-universe",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1936,7 +2577,7 @@
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 21,
     "slug": "multiday-severe-weather-outbreak-forecast-for-the-plains",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2062,7 +2703,7 @@
     "imageAlt_en": "Multiday severe weather outbreak forecast for the Plains"
   },
   {
-    "id": 17,
+    "id": 22,
     "slug": "braving-the-arctic-for-upcoming-polar-focused-satellites",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2202,7 +2843,7 @@
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 23,
     "slug": "hilumi-lhc-cern-s-full-scale-test-stand-enters-the-powering-phase",
     "cat": "Física",
     "catCls": "fisica",
@@ -2336,7 +2977,7 @@
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 24,
     "slug": "an-agricultural-mosaic-in-taiwan",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2467,7 +3108,7 @@
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 25,
     "slug": "interstellar-comet-3i-atlas-left-a-trail-of-methane-in-its-wake",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2596,7 +3237,7 @@
     "imageAlt_en": "Interstellar Comet 3I/ATLAS Left a Trail of Methane in its Wake"
   },
   {
-    "id": 21,
+    "id": 26,
     "slug": "clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2617,19 +3258,19 @@
     "body_pt": "<p>Um estudo recente, financiado pelos Institutos Nacionais de Saúde (NIH), revelou que o tratamento com buprenorfina de liberação prolongada resultou em taxas significativamente mais elevadas de abstinência de opioides ilícitos em comparação com o tratamento padrão atual. Esta descoberta representa um avanço promissor no manejo do transtorno por uso de opioides (TUO) em gestantes, uma população vulnerável que requer abordagens terapêuticas eficazes e seguras. A pesquisa sublinha a importância de explorar novas modalidades de tratamento que possam otimizar os resultados para mães e bebês, minimizando os riscos associados ao uso de opioides durante a gravidez.</p><p>O ensaio clínico multicêntrico envolveu 140 gestantes, que foram randomizadas para receber buprenorfina injetável de liberação prolongada ou buprenorfina sublingual, esta última administrada com ou sem naloxona. Este desenho de estudo permitiu uma comparação direta entre a nova formulação de liberação prolongada e a terapia sublingual já estabelecida, fornecendo dados robustos sobre a eficácia e segurança de cada abordagem. A randomização é crucial para garantir a validade dos resultados, minimizando vieses e permitindo que os pesquisadores atribuam as diferenças observadas nos desfechos ao tratamento específico.</p><p>Este ensaio, apoiado pela NIDA Clinical Trials Network como parte da iniciativa NIH Helping to End Addiction Long-term® (NIH HEAL Initiative®), marca um marco importante. Foi o primeiro ensaio randomizado a testar a buprenorfina de liberação prolongada especificamente para o transtorno por uso de opioides durante a gravidez e o período pós-parto. A iniciativa NIH HEAL visa acelerar a pesquisa para combater a crise de opioides, e este estudo contribui diretamente para esse objetivo, oferecendo uma nova opção terapêutica que pode melhorar a qualidade de vida de muitas famílias afetadas.</p><p>O Instituto Nacional sobre Abuso de Drogas (NIDA), parte do NIH, desempenhou um papel fundamental no apoio a esta pesquisa. O NIDA é a principal agência federal que apoia a maior parte da pesquisa mundial sobre os aspectos de saúde relacionados ao uso de drogas e ao vício. O Instituto realiza uma vasta gama de programas destinados a informar políticas públicas, aprimorar práticas clínicas e promover a ciência do vício, buscando soluções baseadas em evidências para um dos desafios de saúde pública mais prementes da atualidade.</p><p>Os Institutos Nacionais de Saúde (NIH) representam a agência de pesquisa médica do país, compreendendo 27 institutos e centros, e são um componente do Departamento de Saúde e Serviços Humanos dos EUA. A missão do NIH é buscar conhecimentos fundamentais sobre a natureza e o comportamento dos sistemas vivos e aplicar esse conhecimento para aprimorar a saúde, prolongar a vida e reduzir a carga de doenças e deficiências. O apoio a estudos como este reflete o compromisso contínuo do NIH em abordar questões críticas de saúde pública por meio de pesquisa inovadora e rigorosa.</p><p>Para indivíduos que buscam apoio ou tratamento para o transtorno por uso de opioides, existem recursos disponíveis. É possível ligar ou enviar uma mensagem de texto para 988, ou conversar online em 988lifeline. org, para obter assistência imediata. Além disso, para localizar uma instalação ou provedor de tratamento, pode-se acessar diretamente FindTreatment. gov ou ligar para 800-662-HELP (4357). A disponibilidade desses recursos é vital para garantir que as descobertas científicas, como as deste estudo, se traduzam em acesso efetivo a cuidados para aqueles que mais precisam.</p><p>Para obter mais informações detalhadas sobre o NIDA e seus diversos programas de pesquisa e iniciativas, os interessados podem visitar o site oficial em www. nida. nih. gov. A transparência e a acessibilidade das informações científicas são pilares fundamentais para o avanço do conhecimento e para a disseminação de práticas baseadas em evidências, permitindo que profissionais de saúde, pesquisadores e o público em geral se mantenham atualizados sobre os progressos na área do vício e da saúde mental.</p>",
     "body_en": "<p>NIH-supported study shows. this. treatment. resulted in. higher rates of. illicit. opioid abstinence than current. standard of care. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern. The gap between identifying a correlation in biological data and understanding the causal chain that produces it is routinely underestimated, and the history of biomedical research is populated with associations that collapsed when the mechanism was sought and not found. A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive finding because it generates testable predictions that can narrow the hypothesis space. NIH-supported study shows this treatment resulted in higher rates of illicit opioid abstinence than current standard of care. Volkow, M. D, director of NIH’s National Institute on Drug Abuse (NIDA).</p><p>In the multicenter trial, 140 pregnant adults were randomized to receive either injectable extended-release or sublingual buprenorphine (with or without naloxone). The trial, supported by the NIDA Clinical Trials Network as part of the NIH Helping to End Addiction Long-term ® Initiative (NIH HEAL Initiative®), was the first randomized trial.</p><p>The researchers found that rates of illicit opioid abstinence during pregnancy, as measured by urine drug screens, were significantly higher for those receiving weekly. Call or text 988 or chat at 988lifeline. org.</p><p>If you are ready to locate a treatment facility or provider, you can go directly to FindTreatment. gov or call 800-662-HELP (4357). The Institute carries out a large variety of programs to inform policy, improve practice, and advance addiction science.</p><p>The broader interest lies in whether the reported effect points toward a real mechanism and not merely a reproducible but unexplained association. Biology has learned from decades of biomarker failures that correlation, even robust correlation, is not a substitute for mechanistic understanding. A pathway that can be traced from molecular interaction to cellular response to organismal phenotype provides a far stronger foundation for intervention than a statistical association discovered in a large dataset, however well the statistics are done.</p><p>For more information about NIDA and its programs, visit www. nida. nih. gov. NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both.</p><p>Because the account originates with NIH News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to test whether the effect repeats across different methods, cell types, model organisms and experimental conditions. Reproducibility is the first test, but mechanistic dissection is the second, and a result that passes both has a substantially better chance of translating into something clinically or biotechnologically useful. The path from a laboratory finding to an applied outcome typically takes a decade or more, and most findings do not complete it; the current result sits at the beginning of that process.</p><p class=\"art-source\"><a href=\"https://www.nih.gov/news-events/news-releases/clinical-trial-results-support-use-weekly-extended-release-buprenorphine-treatment-opioid-use-disorder-during-pregnancy\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Um estudo financiado pelo NIH demonstra que o tratamento com buprenorfina de liberação prolongada resultou em taxas mais elevadas de abstinência de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Um estudo financiado pelo NIH demonstra que o tratamento com buprenorfina de liberação prolongada resultou em taxas mais elevadas de abstinência de.",
+      "Dado-chave: Um estudo financiado pelo NIH demonstra que o tratamento com buprenorfina de liberação prolongada resultou em taxas mais elevadas de abstinência.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Um estudo financiado pelo NIH demonstra que o tratamento com buprenorfina de liberação prolongada resultou em taxas mais elevadas de abstinência de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Um estudo financiado pelo NIH demonstra que o tratamento com buprenorfina de liberação prolongada resultou em taxas mais elevadas de abstinência de.",
+      "Dado-chave: Um estudo financiado pelo NIH demonstra que o tratamento com buprenorfina de liberação prolongada resultou em taxas mais elevadas de abstinência.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: That matters because biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern",
-      "Detail: Key detail: NIH-supported study shows. this. treatment. resulted in. higher rates of. illicit",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: That matters because biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern.",
+      "Key detail: That matters because biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "23 abr 2026",
     "date_pt": "23 abr 2026",
@@ -2717,7 +3358,7 @@
     "storyKind": "science"
   },
   {
-    "id": 22,
+    "id": 27,
     "slug": "chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2839,7 +3480,7 @@
     "imageAlt_en": "Chronic inflammation leaves long-lasting impression on gut stem cells, increasing colorectal cancer risk"
   },
   {
-    "id": 23,
+    "id": 28,
     "slug": "dr-elisabeth-armstrong-named-nih-chief-of-staff",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2955,7 +3596,7 @@
     "imageAlt_en": "Dr. Elisabeth Armstrong named NIH Chief of Staff"
   },
   {
-    "id": 24,
+    "id": 29,
     "slug": "low-cost-care-model-reduces-blood-pressure-in-high-risk-populations",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -3071,7 +3712,7 @@
     "imageAlt_en": "Low-cost care model reduces blood pressure in high-risk populations"
   },
   {
-    "id": 25,
+    "id": 30,
     "slug": "nih-funded-breakthrough-shrinks-crispr-for-precision-delivery-in-the-body",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -3187,7 +3828,7 @@
     "imageAlt_en": "NIH-funded breakthrough shrinks CRISPR for precision delivery in the body"
   },
   {
-    "id": 26,
+    "id": 31,
     "slug": "milky-way-s-little-cousins-may-hold-clues-about-infant-universe",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3303,7 +3944,7 @@
     "imageAlt_en": "Milky Way's 'little cousins' may hold clues about infant universe"
   },
   {
-    "id": 27,
+    "id": 32,
     "slug": "moon-dust-could-stop-being-a-nuisance-and-start-reshaping-how-humans-may-build-beyond-earth",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3429,7 +4070,7 @@
     "imageAlt_en": "Moon dust could stop being a nuisance and start reshaping how humans may build beyond Earth"
   },
   {
-    "id": 28,
+    "id": 33,
     "slug": "these-good-viruses-hold-up-a-booming-industry-ai-just-found-a-faster-way-to-track-them",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -3555,7 +4196,7 @@
     "imageAlt_en": "These 'good' viruses hold up a booming industry—AI just found a faster way to track them"
   },
   {
-    "id": 29,
+    "id": 34,
     "slug": "giant-octopuses-may-have-ruled-the-oceans-100-million-years-ago",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3694,7 +4335,7 @@
     "imageAlt_en": "Giant octopuses may have ruled the oceans 100 million years ago"
   },
   {
-    "id": 30,
+    "id": 35,
     "slug": "life-s-earliest-proteins-may-have-folded-into-complex-shapes-with-far-fewer-amino-acids",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3820,7 +4461,7 @@
     "imageAlt_en": "Life's earliest proteins may have folded into complex shapes with far fewer amino acids"
   },
   {
-    "id": 31,
+    "id": 36,
     "slug": "nasa-shares-spacex-crew-13-assignments-for-space-station-mission",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3939,7 +4580,7 @@
     "imageAlt_en": "NASA Shares SpaceX Crew-13 Assignments for Space Station Mission"
   },
   {
-    "id": 32,
+    "id": 37,
     "slug": "atomic-level-snapshots-reveal-how-a-key-copper-enzyme-powers-nature-s-chemistry",
     "cat": "Química",
     "catCls": "quimica",
@@ -4055,7 +4696,7 @@
     "imageAlt_en": "Atomic-level snapshots reveal how a key copper enzyme powers nature's chemistry"
   },
   {
-    "id": 33,
+    "id": 38,
     "slug": "rye-mulch-stabilizes-vegetable-yields-clover-living-mulch-can-significantly-reduce-yields",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -4184,7 +4825,7 @@
     "imageAlt_en": "Rye mulch stabilizes vegetable yields—clover living mulch can significantly reduce yields"
   },
   {
-    "id": 34,
+    "id": 39,
     "slug": "e-coli-editing-technique-expands-into-a-universal-toolkit-for-rewriting-bacterial-dna",
     "cat": "Física",
     "catCls": "fisica",
@@ -4310,7 +4951,7 @@
     "imageAlt_en": "E. coli editing technique expands into a universal toolkit for rewriting bacterial DNA"
   },
   {
-    "id": 35,
+    "id": 40,
     "slug": "this-bathtub-ring-of-minerals-is-more-evidence-for-an-ancient-warm-wet-mars",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -4426,7 +5067,7 @@
     "imageAlt_en": "This Bathtub Ring of Minerals is More Evidence for an Ancient Warm, Wet Mars"
   },
   {
-    "id": 36,
+    "id": 41,
     "slug": "tiny-songbird-crosses-sahara-by-flying-night-after-night",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -4542,7 +5183,7 @@
     "imageAlt_en": "Tiny songbird crosses Sahara by flying night after night"
   },
   {
-    "id": 37,
+    "id": 42,
     "slug": "nasa-kennedy-prepares-facility-for-roman-space-telescope-arrival",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -4658,7 +5299,7 @@
     "imageAlt_en": "NASA Kennedy Prepares Facility for Roman Space Telescope Arrival"
   },
   {
-    "id": 38,
+    "id": 43,
     "slug": "apple-byproducts-could-power-vehicles-and-feed-livestock",
     "cat": "Química",
     "catCls": "quimica",
@@ -4784,7 +5425,7 @@
     "imageAlt_en": "Apple byproducts could power vehicles and feed livestock"
   },
   {
-    "id": 39,
+    "id": 44,
     "slug": "brazil-unearths-a-bizarre-beaked-reptile-with-a-trans-atlantic-prehistoric-link",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -4926,7 +5567,7 @@
     "imageAlt_en": "Brazil unearths a bizarre beaked reptile with a trans-Atlantic prehistoric link"
   },
   {
-    "id": 40,
+    "id": 45,
     "slug": "the-fy-2027-nasa-budget-request",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -5102,7 +5743,7 @@
     "storyKind": "science"
   },
   {
-    "id": 41,
+    "id": 46,
     "slug": "the-dyson-minds-2025-workshop-seti-around-black-holes",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -5225,7 +5866,7 @@
     "storyKind": "science"
   },
   {
-    "id": 42,
+    "id": 47,
     "slug": "mitigating-systematic-errors-in-parameter-estimation-of-binary-black-hole-mergers-in-o1-o3-ligo-",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -5346,7 +5987,7 @@
     "imageAlt_en": "Mitigating Systematic Errors in Parameter Estimation of Binary Black Hole Mergers in O1-O3 LIGO-Virgo Data"
   },
   {
-    "id": 43,
+    "id": 48,
     "slug": "toward-inferring-the-surface-fluxes-of-biosignature-gases-on-rocky-exoplanets-from-telescope-spe",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -5461,7 +6102,7 @@
     "imageAlt_en": "Toward Inferring the Surface Fluxes of Biosignature Gases on Rocky Exoplanets from Telescope Spectra"
   },
   {
-    "id": 44,
+    "id": 49,
     "slug": "liquid-lifeline-nasa-tech-could-create-iv-fluid-in-space",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -5617,7 +6258,7 @@
     "imageAlt_en": "Liquid Lifeline: NASA Tech Could Create IV Fluid In Space"
   },
   {
-    "id": 45,
+    "id": 50,
     "slug": "nasa-releases-powerful-lava-software-to-us-aerospace-industry",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -5746,7 +6387,7 @@
     "imageAlt_en": "NASA Releases Powerful LAVA Software to US Aerospace Industry"
   },
   {
-    "id": 46,
+    "id": 51,
     "slug": "mysterious-gas-clouds-near-milky-way-s-black-hole-now-have-a-likely-source",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -5872,7 +6513,7 @@
     "imageAlt_en": "Mysterious gas clouds near Milky Way's black hole now have a likely source"
   },
   {
-    "id": 47,
+    "id": 52,
     "slug": "accelerating-scaling-solutions-from-dark-matter-particle-creation",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -5992,7 +6633,7 @@
     "storyKind": "science"
   },
   {
-    "id": 48,
+    "id": 53,
     "slug": "smile-set-to-launch-on-19-may",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -6145,7 +6786,7 @@
     "imageAlt_en": "Smile set to launch on 19 May"
   },
   {
-    "id": 49,
+    "id": 54,
     "slug": "uranus-s-outermost-rings-are-made-of-two-different-things",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -6266,7 +6907,7 @@
     "storyKind": "science"
   },
   {
-    "id": 50,
+    "id": 55,
     "slug": "xrism-high-resolution-x-ray-spectroscopy-of-cygnus-x-1-orbital-and-short-term-variability-of-iro",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -6389,7 +7030,7 @@
     "storyKind": "science"
   },
   {
-    "id": 51,
+    "id": 56,
     "slug": "how-much-water-on-exoplanets-does-life-need",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -6515,7 +7156,7 @@
     "imageAlt_en": "How much water on exoplanets does life need?"
   },
   {
-    "id": 52,
+    "id": 57,
     "slug": "two-worlds-where-the-sun-never-moves",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -6636,7 +7277,7 @@
     "storyKind": "science"
   },
   {
-    "id": 53,
+    "id": 58,
     "slug": "the-stars-feeding-our-galaxy-s-monster",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -6762,7 +7403,7 @@
     "imageAlt_en": "The Stars Feeding our Galaxy’s Monster"
   },
   {
-    "id": 54,
+    "id": 59,
     "slug": "plato-aces-space-like-tests",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -6978,7 +7619,7 @@
     "imageAlt_en": "Plato aces space-like tests"
   },
   {
-    "id": 55,
+    "id": 60,
     "slug": "assessing-emulator-design-and-training-for-modal-aerosol-microphysics-parameterizations-in-e3smv",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -7093,7 +7734,7 @@
     "imageAlt_en": "Assessing Emulator Design and Training for Modal Aerosol Microphysics Parameterizations in E3SMv2"
   },
   {
-    "id": 56,
+    "id": 61,
     "slug": "accelerating-drug-discovery-with-fragment-screening",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -7219,7 +7860,7 @@
     "imageAlt_en": "Accelerating drug discovery with fragment screening"
   },
   {
-    "id": 57,
+    "id": 62,
     "slug": "new-study-presents-the-elter-framework-of-standard-observations-for-long-term-integrated-environ",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -7335,7 +7976,7 @@
     "imageAlt_en": "New study presents the eLTER Framework of Standard Observations for long-term, integrated environmental monitoring"
   },
   {
-    "id": 58,
+    "id": 63,
     "slug": "peptide-synthesis-could-stop-global-potato-pathogen-once-linked-to-ireland-s-great-famine",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -7454,7 +8095,7 @@
     "imageAlt_en": "Peptide synthesis could stop global potato pathogen once linked to Ireland's Great Famine"
   },
   {
-    "id": 59,
+    "id": 64,
     "slug": "promiscuity-and-parental-behavior-in-birds-are-driven-by-demographics-not-the-other-way-around",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -7583,7 +8224,7 @@
     "imageAlt_en": "Promiscuity and parental behavior in birds are driven by demographics, not the other way around"
   },
   {
-    "id": 60,
+    "id": 65,
     "slug": "chicken-gene-editing-advance-opens-path-to-drug-producing-eggs",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -7709,7 +8350,7 @@
     "imageAlt_en": "Chicken gene-editing advance opens path to drug-producing eggs"
   },
   {
-    "id": 61,
+    "id": 66,
     "slug": "exploding-stars-black-holes-and-the-forbidden-gap",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -7828,7 +8469,7 @@
     "imageAlt_en": "Exploding Stars, Black Holes, and the Forbidden Gap"
   },
   {
-    "id": 62,
+    "id": 67,
     "slug": "soundwaves-settle-debate-about-elusive-quantum-particle",
     "cat": "Física",
     "catCls": "fisica",
@@ -7944,7 +8585,7 @@
     "imageAlt_en": "Soundwaves settle debate about elusive quantum particle"
   },
   {
-    "id": 63,
+    "id": 68,
     "slug": "nasa-s-777-aircraft-returns-home-with-science-flights-on-the-horizon",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -8070,7 +8711,7 @@
     "imageAlt_en": "NASA’s 777 Aircraft Returns Home with Science Flights on the Horizon"
   },
   {
-    "id": 64,
+    "id": 69,
     "slug": "chalk-stream-salmon-could-become-an-official-sub-species",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -8189,7 +8830,7 @@
     "imageAlt_en": "Chalk-stream salmon could become an official sub-species"
   },
   {
-    "id": 65,
+    "id": 70,
     "slug": "what-s-in-a-name-study-finds-two-dahlia-damaging-viruses-are-variants-of-same-species",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -8305,7 +8946,7 @@
     "imageAlt_en": "What's in a name? Study finds two dahlia-damaging viruses are variants of same species"
   },
   {
-    "id": 66,
+    "id": 71,
     "slug": "quantum-simulations-that-bypass-resolution-limits-offer-insights-into-high-temperature-supercond",
     "cat": "Física",
     "catCls": "fisica",
@@ -8431,7 +9072,7 @@
     "imageAlt_en": "Quantum simulations that bypass resolution limits offer insights into high-temperature superconductivity"
   },
   {
-    "id": 67,
+    "id": 72,
     "slug": "catalyst-reveals-temperature-driven-shape-shifts-behind-methanol-production-efficiency",
     "cat": "Química",
     "catCls": "quimica",
@@ -8557,7 +9198,7 @@
     "imageAlt_en": "Catalyst reveals temperature-driven shape shifts behind methanol production efficiency"
   },
   {
-    "id": 68,
+    "id": 73,
     "slug": "msl-curiosity-found-new-organic-chemicals-on-mars-proof-that-the-planet-can-preserve-ancient-bio",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -8689,7 +9330,7 @@
     "imageAlt_en": "MSL Curiosity Found New Organic Chemicals On Mars, Proof That The Planet Can Preserve Ancient Biosignatures"
   },
   {
-    "id": 69,
+    "id": 74,
     "slug": "astronomers-reveal-spectacular-birthplace-of-cosmic-buckyballs",
     "cat": "Física",
     "catCls": "fisica",
@@ -8828,7 +9469,7 @@
     "imageAlt_en": "Astronomers reveal spectacular birthplace of cosmic buckyballs"
   },
   {
-    "id": 70,
+    "id": 75,
     "slug": "lights-out-for-birds-during-spring-migration",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -8944,7 +9585,7 @@
     "imageAlt_en": "Lights out for birds during spring migration!"
   },
   {
-    "id": 71,
+    "id": 76,
     "slug": "discovery-of-new-polymer-class-provides-compostable-alternative-to-conventional-thermoplastics",
     "cat": "Química",
     "catCls": "quimica",
@@ -9070,7 +9711,7 @@
     "imageAlt_en": "Discovery of new polymer class provides compostable alternative to conventional thermoplastics"
   },
   {
-    "id": 72,
+    "id": 77,
     "slug": "nasa-astronaut-anil-menon-to-discuss-upcoming-launch-mission",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -9186,7 +9827,7 @@
     "imageAlt_en": "NASA Astronaut Anil Menon to Discuss Upcoming Launch, Mission"
   },
   {
-    "id": 73,
+    "id": 78,
     "slug": "the-nancy-grace-roman-space-telescope-is-ready-to-fly",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -9352,7 +9993,7 @@
     "imageAlt_en": "The Nancy Grace Roman Space Telescope Is Ready to Fly"
   },
   {
-    "id": 74,
+    "id": 79,
     "slug": "a-new-route-for-plasma-based-particle-accelerators",
     "cat": "Física",
     "catCls": "fisica",
@@ -9468,7 +10109,7 @@
     "imageAlt_en": "A new route for plasma-based particle accelerators"
   },
   {
-    "id": 75,
+    "id": 80,
     "slug": "nasa-unveils-roman-telescope-to-map-universe-find-10-000s-of-exoplanets",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -9584,7 +10225,7 @@
     "imageAlt_en": "NASA unveils Roman telescope to map universe, find 10, 000s of exoplanets"
   },
   {
-    "id": 76,
+    "id": 81,
     "slug": "new-technology-helps-flat-faced-dogs-breathe-easy",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -9700,7 +10341,7 @@
     "imageAlt_en": "New technology helps flat-faced dogs breathe easy"
   },
   {
-    "id": 77,
+    "id": 82,
     "slug": "tracking-changes-in-the-trifid-nebula-with-the-hubble",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -9829,7 +10470,7 @@
     "imageAlt_en": "Tracking Changes in the Trifid Nebula With the Hubble"
   },
   {
-    "id": 78,
+    "id": 83,
     "slug": "whale-strandings-draw-emotional-responses-but-repeated-rescues-can-cause-more-harm",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -9968,7 +10609,7 @@
     "imageAlt_en": "Whale strandings draw emotional responses. But repeated rescues can cause more harm"
   },
   {
-    "id": 79,
+    "id": 84,
     "slug": "wild-apple-genes-still-shape-modern-fruit-and-that-could-matter-for-climate-ready-crops",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -10097,7 +10738,7 @@
     "imageAlt_en": "Wild apple genes still shape modern fruit, and that could matter for climate-ready crops"
   },
   {
-    "id": 80,
+    "id": 85,
     "slug": "bursting-the-barrier-catalysts-unlock-hydrogen-from-magnesium-hydride",
     "cat": "Química",
     "catCls": "quimica",
@@ -10226,7 +10867,7 @@
     "imageAlt_en": "Bursting the barrier: Catalysts unlock hydrogen from magnesium hydride"
   },
   {
-    "id": 81,
+    "id": 86,
     "slug": "sun-observing-satellite-uses-artificial-eclipse-to-capture-the-solar-wind",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -10347,7 +10988,7 @@
     "storyKind": "science"
   },
   {
-    "id": 82,
+    "id": 87,
     "slug": "openwavelogger-v2026-owl-v2026-an-open-source-low-cost-easy-to-build-high-performance-logger-for",
     "cat": "Física",
     "catCls": "fisica",
@@ -10369,12 +11010,12 @@
     "body_en": "<p>Ocean wave models are critical for weather and climate forecasting, and accurate in-situ wave observations are essential for validating and improving these models. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>The significance lies in physics only takes a result seriously when the measurement chain remains robust under scrutiny. Experimental particle physics and precision metrology both operate in regimes where the signal sits far below the background noise, and where systematic uncertainties can mimic new physics if not controlled rigorously. The history of the field contains numerous anomalies that generated theoretical excitement before better data showed them to be artifacts, and it also contains genuine discoveries that were initially dismissed as noise. The difference is almost always resolved by independent replication with different instruments and different systematics. Open-source, community-driven buoys have democratized wave observations via telemetry in recent years, but these systems transmit only limited amounts of data. Full high-frequency time series, required to study detailed wave physics, can still in most cases only be collected in situ using data loggers.</p><p>Yet open-source, low-cost logger solutions remain scarce compared to their telemetry-enabled counterparts. Here we present the Openlogartemis Wave Logger (OWL-v2026), an open-source, low-cost, easy-to-build, high-performance logger for wave data measurements.</p><p>The OWL-v2026 is built from off-the-shelf components from the maker community, requiring only through-hole soldering for assembly, and totals approximately 220USD per unit. Custom firmware enables high-frequency, low-jitter logging of six-axis inertial measurement unit (IMU) data at 208 or 416Hz, and GNSS position and Doppler velocity at 10Hz, with.</p><p>We have successfully validated continuous logging over more than 10 days at 208Hz, a power consumption of approximately 80mA (approximately 20 days of autonomy with three D-cell. Though the OWL-v2026 is a purely technical contribution, it has the potential to substantially expand the availability and affordability of high-frequency in-situ wave time.</p><p>The broader interest lies as much in the method as in the headline number, because a durable measurement procedure can travel farther than a single result. When experimental physicists develop a technique that achieves new sensitivity or controls a previously uncharacterized systematic, that methodological contribution persists even if the specific measurement is later revised. This is one reason why precision physics experiments often generate long-term value that is not immediately visible in the original publication.</p><p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is more measurement, tighter systematic control and scrutiny from groups whose experimental setups are genuinely independent. In experimental particle physics and precision metrology, the threshold for a discovery claim is a five-sigma excess surviving multiple analyses; an intriguing signal at lower significance is a reason to run more experiments, not a reason to revise the textbooks. Next-generation experiments currently under construction or commissioning will revisit several of the open questions that give the current result its context. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.20502v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Modelos de ondas oceânicas são cruciais para a previsão do tempo e do clima, e observações in situ precisas são fundamentais para sua validação e.",
-      "Dado-chave: Modelos de ondas oceânicas são cruciais para a previsão do tempo e do clima, e observações in situ precisas são fundamentais para sua validação e",
+      "Dado-chave: Modelos de ondas oceânicas são cruciais para a previsão do tempo e do clima, e observações in situ precisas são fundamentais para sua validação.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
       "Ponto central: Modelos de ondas oceânicas são cruciais para a previsão do tempo e do clima, e observações in situ precisas são fundamentais para sua validação e.",
-      "Dado-chave: Modelos de ondas oceânicas são cruciais para a previsão do tempo e do clima, e observações in situ precisas são fundamentais para sua validação e",
+      "Dado-chave: Modelos de ondas oceânicas são cruciais para a previsão do tempo e do clima, e observações in situ precisas são fundamentais para sua validação.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
@@ -10480,7 +11121,7 @@
     "storyKind": "science"
   },
   {
-    "id": 83,
+    "id": 88,
     "slug": "black-hole-cygnus-x-1-has-fast-powerful-dancing-jets",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -10609,7 +11250,7 @@
     "imageAlt_en": "Black hole Cygnus X-1 has fast, powerful dancing jets"
   },
   {
-    "id": 84,
+    "id": 89,
     "slug": "do-decoherence-gravity-dark-matter-and-dark-energy-all-originate-from-quantum-corrections",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -10741,7 +11382,7 @@
     "imageAlt_en": "Do decoherence, gravity, dark matter and dark energy all originate from quantum corrections?"
   },
   {
-    "id": 85,
+    "id": 90,
     "slug": "belts-of-green-in-the-washington-suburbs",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -10867,7 +11508,7 @@
     "imageAlt_en": "Belts of Green in the Washington Suburbs"
   },
   {
-    "id": 86,
+    "id": 91,
     "slug": "stellar-flares-may-expand-habitable-zones-around-small-stars",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -11001,7 +11642,7 @@
     "storyKind": "science"
   },
   {
-    "id": 87,
+    "id": 92,
     "slug": "q-a-icecube-observatory-upgrades-improve-search-for-elusive-cosmic-messenger",
     "cat": "Física",
     "catCls": "fisica",
@@ -11130,7 +11771,7 @@
     "imageAlt_en": "Q&A: IceCube Observatory upgrades improve search for elusive cosmic messenger"
   },
   {
-    "id": 88,
+    "id": 93,
     "slug": "curiosity-blog-sols-4867-4872-sand-fill-in-antofagasta-crater-and-finding-our-next-drill-target",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -11265,7 +11906,7 @@
     "imageAlt_en": "Curiosity Blog, Sols 4867-4872: Sand Fill In Antofagasta Crater and Finding Our Next Drill Target"
   },
   {
-    "id": 89,
+    "id": 94,
     "slug": "getting-the-jump-on-evolution-cane-toads-adapt-at-speed",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -11397,7 +12038,7 @@
     "imageAlt_en": "Getting the jump on evolution: Cane toads adapt at speed"
   },
   {
-    "id": 90,
+    "id": 95,
     "slug": "mapping-the-hidden-structure-of-the-universe",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -11523,7 +12164,7 @@
     "imageAlt_en": "Mapping the hidden structure of the universe"
   },
   {
-    "id": 91,
+    "id": 96,
     "slug": "new-nasa-views-of-earth-from-s-pace",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -11692,7 +12333,7 @@
     "imageAlt_en": "New NASA Views of Earth, From (S)PACE"
   },
   {
-    "id": 92,
+    "id": 97,
     "slug": "hubble-reveals-crab-nebula-filaments-racing-outward-at-3-4-million-mph",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -11821,7 +12462,7 @@
     "imageAlt_en": "Hubble reveals Crab Nebula filaments racing outward at 3.4 million mph"
   },
   {
-    "id": 93,
+    "id": 98,
     "slug": "nasa-organ-sharing-network-unos-to-study-faster-organ-transport",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -11959,7 +12600,7 @@
     "imageAlt_en": "NASA, Organ Sharing Network UNOS to Study Faster Organ Transport"
   },
   {
-    "id": 94,
+    "id": 99,
     "slug": "what-are-ames-contributions-to-artemis-ii",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -12080,7 +12721,7 @@
     "storyKind": "science"
   },
   {
-    "id": 95,
+    "id": 100,
     "slug": "astronomers-find-the-edge-of-the-milky-way",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -12196,7 +12837,7 @@
     "imageAlt_en": "Astronomers Find the Edge of the Milky Way"
   },
   {
-    "id": 96,
+    "id": 101,
     "slug": "which-types-of-civilizations-collapse-and-which-can-endure",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -12325,7 +12966,7 @@
     "imageAlt_en": "Which Types of Civilizations Collapse and Which Can Endure?"
   },
   {
-    "id": 97,
+    "id": 102,
     "slug": "euclid-space-warps-citizen-science-project-helps-hunt-for-strong-gravitational-lenses",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -12441,7 +13082,7 @@
     "imageAlt_en": "Euclid Space Warps citizen science project helps hunt for strong gravitational lenses"
   },
   {
-    "id": 98,
+    "id": 103,
     "slug": "a-laser-inspired-by-black-holes-extreme-physics-recreated-in-the-lab",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -12560,7 +13201,7 @@
     "imageAlt_en": "A laser inspired by black holes: Extreme physics recreated in the lab"
   },
   {
-    "id": 99,
+    "id": 104,
     "slug": "automated-ct-scan-analysis-could-fast-track-clinical-assessments",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -12681,7 +13322,7 @@
     "storyKind": "science"
   },
   {
-    "id": 100,
+    "id": 105,
     "slug": "researchers-develop-ai-tool-to-predict-patients-at-risk-of-intimate-partner-violence",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -12816,7 +13457,7 @@
     "imageAlt_en": "Researchers develop AI tool to predict patients at risk of intimate partner violence"
   },
   {
-    "id": 101,
+    "id": 106,
     "slug": "meteor-showers-are-here-10-easy-tips-for-watching",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -12951,7 +13592,7 @@
     "imageAlt_en": "Meteor showers are here! 10 easy tips for watching"
   },
   {
-    "id": 102,
+    "id": 107,
     "slug": "mars-rover-detects-never-before-seen-organic-compounds-in-new-experiment",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -13077,7 +13718,7 @@
     "imageAlt_en": "Mars rover detects never-before-seen organic compounds in new experiment"
   },
   {
-    "id": 103,
+    "id": 108,
     "slug": "meet-m13-the-great-globular-cluster-in-hercules",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -13196,7 +13837,7 @@
     "imageAlt_en": "Meet M13, the Great Globular Cluster in Hercules"
   },
   {
-    "id": 104,
+    "id": 109,
     "slug": "a-school-of-mud-volcano-islands-in-azerbaijan",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -13322,7 +13963,7 @@
     "imageAlt_en": "A School of Mud Volcano Islands in Azerbaijan"
   },
   {
-    "id": 105,
+    "id": 110,
     "slug": "daily-probiotic-could-help-prevent-skin-infections-in-dogs",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -13448,7 +14089,7 @@
     "imageAlt_en": "Daily probiotic could help prevent skin infections in dogs"
   },
   {
-    "id": 106,
+    "id": 111,
     "slug": "behold-the-solar-system-in-all-its-x-ray-glory",
     "cat": "Física",
     "catCls": "fisica",
@@ -13564,7 +14205,7 @@
     "imageAlt_en": "Behold, the Solar System in All its X-ray Glory"
   },
   {
-    "id": 107,
+    "id": 112,
     "slug": "nasa-on-track-for-future-missions-with-initial-artemis-ii-assessments",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -13685,7 +14326,7 @@
     "storyKind": "science"
   },
   {
-    "id": 108,
+    "id": 113,
     "slug": "new-ai-method-captures-long-range-atomic-interactions-in-complex-molecules",
     "cat": "Química",
     "catCls": "quimica",
@@ -13811,7 +14452,7 @@
     "imageAlt_en": "New AI method captures long-range atomic interactions in complex molecules"
   },
   {
-    "id": 109,
+    "id": 114,
     "slug": "nasa-rolls-out-artemis-iii-moon-rocket-core-stage",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -13932,7 +14573,7 @@
     "storyKind": "science"
   },
   {
-    "id": 110,
+    "id": 115,
     "slug": "chemists-stabilize-rare-three-atom-metal-ring-revealing-new-form-of-aromaticity",
     "cat": "Química",
     "catCls": "quimica",
@@ -14051,7 +14692,7 @@
     "imageAlt_en": "Chemists stabilize rare three‑atom metal ring, revealing new form of aromaticity"
   },
   {
-    "id": 111,
+    "id": 116,
     "slug": "exoplanets-without-lots-of-water-can-t-maintain-their-carbon-cycles",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -14185,7 +14826,7 @@
     "storyKind": "science"
   },
   {
-    "id": 112,
+    "id": 117,
     "slug": "new-research-finds-few-improvements-for-british-columbia-s-endangered-wildlife",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -14311,7 +14952,7 @@
     "imageAlt_en": "New research finds few improvements for British Columbia's endangered wildlife"
   },
   {
-    "id": 113,
+    "id": 118,
     "slug": "how-do-astronauts-adapt-their-grip-and-move-objects-when-transitioning-between-earth-and-space",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -14437,7 +15078,7 @@
     "imageAlt_en": "How do astronauts adapt their grip and move objects when transitioning between Earth and space?"
   },
   {
-    "id": 114,
+    "id": 119,
     "slug": "cells-switch-on-protein-factories-after-injury-study-finds",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -14556,7 +15197,7 @@
     "imageAlt_en": "Cells 'switch' on protein factories after injury, study finds"
   },
   {
-    "id": 115,
+    "id": 120,
     "slug": "heat-loving-enzyme-reveals-how-plastic-recycling-could-work-near-70-c",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -14672,7 +15313,7 @@
     "imageAlt_en": "Heat-loving enzyme reveals how plastic recycling could work near 70 °C"
   },
   {
-    "id": 116,
+    "id": 121,
     "slug": "six-new-isolated-millisecond-pulsars-discovered-with-fast",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -14798,7 +15439,7 @@
     "imageAlt_en": "Six new isolated millisecond pulsars discovered with FAST"
   },
   {
-    "id": 117,
+    "id": 122,
     "slug": "nasa-welcomes-latvia-as-newest-artemis-accords-signatory",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -14917,7 +15558,7 @@
     "imageAlt_en": "NASA Welcomes Latvia as Newest Artemis Accords Signatory"
   },
   {
-    "id": 118,
+    "id": 123,
     "slug": "hawaiian-green-sea-turtles-emerge-as-reef-defenders-against-invasive-algae",
     "cat": "Física",
     "catCls": "fisica",
@@ -15033,7 +15674,7 @@
     "imageAlt_en": "Hawaiian green sea turtles emerge as reef defenders against invasive algae"
   },
   {
-    "id": 119,
+    "id": 124,
     "slug": "desmond-morris-from-naked-ape-to-watching-big-brother",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -15162,7 +15803,7 @@
     "imageAlt_en": "Desmond Morris: from 'Naked Ape' to watching 'Big Brother'"
   },
   {
-    "id": 120,
+    "id": 125,
     "slug": "tis-the-season-sharing-resources-sustains-ocean-microbial-biodiversity",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -15281,7 +15922,7 @@
     "imageAlt_en": "'Tis the season: Sharing resources sustains ocean microbial biodiversity"
   },
   {
-    "id": 121,
+    "id": 126,
     "slug": "preserved-orchids-show-pollination-has-fallen-60-since-the-1970s",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -15407,7 +16048,7 @@
     "imageAlt_en": "Preserved orchids show pollination has fallen 60% since the 1970s"
   },
   {
-    "id": 122,
+    "id": 127,
     "slug": "tiny-structural-shift-leads-to-big-leap-in-solar-fuel",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -15523,7 +16164,7 @@
     "imageAlt_en": "Tiny structural shift leads to big leap in solar fuel"
   },
   {
-    "id": 123,
+    "id": 128,
     "slug": "nasa-s-spherex-telescope-just-mapped-the-cosmic-ices-that-will-someday-build-planets",
     "cat": "Química",
     "catCls": "quimica",
@@ -15652,7 +16293,7 @@
     "imageAlt_en": "NASA’s SPHEREx Telescope Just Mapped the Cosmic Ices That Will Someday Build Planets"
   },
   {
-    "id": 124,
+    "id": 129,
     "slug": "how-tiny-cave-shrimps-power-the-underworld-of-the-yucatan",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -15791,7 +16432,7 @@
     "imageAlt_en": "How tiny cave shrimps power the underworld of the Yucatan"
   },
   {
-    "id": 125,
+    "id": 130,
     "slug": "seaweed-compound-shows-major-methane-cuts-in-beef-cattle",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -15917,7 +16558,7 @@
     "imageAlt_en": "Seaweed compound shows major methane cuts in beef cattle"
   },
   {
-    "id": 126,
+    "id": 131,
     "slug": "how-resilient-fungus-might-survive-mars-and-space",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -16043,7 +16684,7 @@
     "imageAlt_en": "How resilient fungus might survive Mars and space"
   },
   {
-    "id": 127,
+    "id": 132,
     "slug": "galaxies-don-t-die-all-at-once",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -16178,7 +16819,7 @@
     "imageAlt_en": "Galaxies Don’t Die All at Once"
   },
   {
-    "id": 128,
+    "id": 133,
     "slug": "small-ants-clean-larger-ants-in-a-surprising-twist-of-nature",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -16304,7 +16945,7 @@
     "imageAlt_en": "Small ants clean larger ants in a surprising twist of nature"
   },
   {
-    "id": 129,
+    "id": 134,
     "slug": "a-cheaper-way-to-fight-forever-chemicals-how-ph-controlled-traps-could-clean-drinking-water",
     "cat": "Química",
     "catCls": "quimica",
@@ -16433,7 +17074,7 @@
     "imageAlt_en": "A cheaper way to fight 'forever chemicals': How pH-controlled traps could clean drinking water"
   },
   {
-    "id": 130,
+    "id": 135,
     "slug": "a-light-controlled-muscle-could-give-synthetic-cells-a-new-way-to-move",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -16549,7 +17190,7 @@
     "imageAlt_en": "A light-controlled 'muscle' could give synthetic cells a new way to move"
   },
   {
-    "id": 131,
+    "id": 136,
     "slug": "the-vera-c-rubin-observatory-has-discovered-11-000-new-asteroids-and-it-s-barely-even-started",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -16678,7 +17319,7 @@
     "imageAlt_en": "The Vera C. Rubin Observatory has Discovered 11, 000 New Asteroids, and It's Barely Even Started!"
   },
   {
-    "id": 132,
+    "id": 137,
     "slug": "protected-seagrass-meadows-aren-t-necessarily-healthy-because-pollution-doesn-t-stop-at-the-shor",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -16807,7 +17448,7 @@
     "imageAlt_en": "'Protected' seagrass meadows aren't necessarily healthy, because pollution doesn't stop at the shoreline"
   },
   {
-    "id": 133,
+    "id": 138,
     "slug": "sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -16931,7 +17572,7 @@
     "storyKind": "science"
   },
   {
-    "id": 134,
+    "id": 139,
     "slug": "moroccan-dinosaur-s-fearsome-tail-spikes-evolved-much-earlier-than-we-thought-new-discovery",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -17060,7 +17701,7 @@
     "imageAlt_en": "Moroccan dinosaur's fearsome tail spikes evolved much earlier than we thought—new discovery"
   },
   {
-    "id": 135,
+    "id": 140,
     "slug": "these-blazing-blue-explosions-may-be-born-when-a-compact-dead-star-slams-into-a-wolf-rayet-star",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -17189,7 +17830,7 @@
     "imageAlt_en": "These blazing blue explosions may be born when a compact dead star slams into a Wolf-Rayet star"
   },
   {
-    "id": 136,
+    "id": 141,
     "slug": "theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -17320,7 +17961,7 @@
     "storyKind": "science"
   },
   {
-    "id": 137,
+    "id": 142,
     "slug": "your-local-fishing-hole-is-getting-browner-changing-which-fish-species-thrive-and-which-ones-str",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -17449,7 +18090,7 @@
     "imageAlt_en": "Your local fishing hole is getting browner, changing which fish species thrive and which ones struggle"
   },
   {
-    "id": 138,
+    "id": 143,
     "slug": "hollow-sphere-catalyst-enables-greener-production-of-99-pure-propane-at-room-temperature",
     "cat": "Química",
     "catCls": "quimica",
@@ -17565,7 +18206,7 @@
     "imageAlt_en": "Hollow-sphere catalyst enables greener production of 99% pure propane at room temperature"
   },
   {
-    "id": 139,
+    "id": 144,
     "slug": "generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul",
     "cat": "Física",
     "catCls": "fisica",
@@ -17699,7 +18340,7 @@
     "imageAlt_en": "Generalized optical meta-spanners empower arbitrary light paths for multitasking optical manipulation"
   },
   {
-    "id": 140,
+    "id": 145,
     "slug": "do-newton-and-einstein-s-laws-of-gravity-hold-across-the-cosmos",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -17825,7 +18466,7 @@
     "imageAlt_en": "Do Newton and Einstein’s laws of gravity hold across the cosmos?"
   },
   {
-    "id": 141,
+    "id": 146,
     "slug": "simulating-how-black-holes-light-up-the-dark",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -17951,7 +18592,7 @@
     "imageAlt_en": "Simulating how black holes light up the dark"
   },
   {
-    "id": 142,
+    "id": 147,
     "slug": "what-happens-when-light-goes-boom-part-3-brad-bradington-sprints",
     "cat": "Física",
     "catCls": "fisica",
@@ -18070,7 +18711,7 @@
     "imageAlt_en": "What Happens When Light Goes Boom? Part 3: Brad Bradington Sprints"
   },
   {
-    "id": 143,
+    "id": 148,
     "slug": "warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -18204,7 +18845,7 @@
     "imageAlt_en": "Warmer streams may be draining river food webs by sending more carbon into the air"
   },
   {
-    "id": 144,
+    "id": 149,
     "slug": "csda-quality-assessment-report-evaluates-satellogic-newsat-data",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -18333,7 +18974,7 @@
     "imageAlt_en": "CSDA Quality Assessment Report Evaluates Satellogic NewSat Data"
   },
   {
-    "id": 145,
+    "id": 150,
     "slug": "how-a-black-hole-and-a-shredded-star-could-light-up-a-galaxy",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -18449,7 +19090,7 @@
     "imageAlt_en": "How a Black Hole and a Shredded Star Could Light Up a Galaxy"
   },
   {
-    "id": 146,
+    "id": 151,
     "slug": "antioxidant-glutathione-discovered-to-play-a-key-role-in-proper-protein-folding",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -18573,7 +19214,7 @@
     "imageAlt_en": "Antioxidant glutathione discovered to play a key role in proper protein folding"
   },
   {
-    "id": 147,
+    "id": 152,
     "slug": "two-bacteria-join-forces-to-turn-chemical-signals-into-electricity-opening-up-low-cost-sensing-o",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -18707,7 +19348,7 @@
     "imageAlt_en": "Two bacteria join forces to turn chemical signals into electricity, opening up low-cost sensing options"
   },
   {
-    "id": 148,
+    "id": 153,
     "slug": "want-to-restore-oyster-reefs-find-a-site-where-they-don-t-wash-away-or-become-buried-under-the-s",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -18823,7 +19464,7 @@
     "imageAlt_en": "Want to restore oyster reefs? Find a site where they don't wash away or become buried under the sand"
   },
   {
-    "id": 149,
+    "id": 154,
     "slug": "shrink-remove-and-modify-team-successfully-trims-wheat-chromosomes",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -18955,7 +19596,7 @@
     "imageAlt_en": "Shrink, remove and modify: Team successfully 'trims' wheat chromosomes"
   },
   {
-    "id": 150,
+    "id": 155,
     "slug": "mining-waste-product-could-help-store-carbon-emissions-study-suggests",
     "cat": "Química",
     "catCls": "quimica",
@@ -19089,7 +19730,7 @@
     "imageAlt_en": "Mining waste product could help store carbon emissions, study suggests"
   },
   {
-    "id": 151,
+    "id": 156,
     "slug": "life-beyond-biosignatures-a-new-method-in-the-search-for-life",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -19221,7 +19862,7 @@
     "imageAlt_en": "Life Beyond Biosignatures: A New Method In The Search For Life"
   },
   {
-    "id": 152,
+    "id": 157,
     "slug": "comet-r3-panstarrs-at-perihelion",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -19337,7 +19978,7 @@
     "imageAlt_en": "Comet R3 PanSTARRS at Perihelion"
   },
   {
-    "id": 153,
+    "id": 158,
     "slug": "quality-assessment-report-evaluates-tomorrow-io-precipitation-radar-data",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -19466,7 +20107,7 @@
     "imageAlt_en": "Quality Assessment Report Evaluates Tomorrow. io Precipitation Radar Data"
   },
   {
-    "id": 154,
+    "id": 159,
     "slug": "volunteers-discover-rare-space-weather-events-using-their-ears",
     "cat": "Física",
     "catCls": "fisica",
@@ -19587,7 +20228,7 @@
     "storyKind": "science"
   },
   {
-    "id": 155,
+    "id": 160,
     "slug": "key-gene-enables-tomato-seed-germination-under-high-temperature-conditions",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -19713,7 +20354,7 @@
     "imageAlt_en": "Key gene enables tomato seed germination under high-temperature conditions"
   },
   {
-    "id": 156,
+    "id": 161,
     "slug": "saving-coral-reefs-will-require-ruthless-selection-over-generations-to-beat-future-heat-waves",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -19839,7 +20480,7 @@
     "imageAlt_en": "Saving coral reefs will require ruthless selection over generations to beat future heat waves"
   },
   {
-    "id": 157,
+    "id": 162,
     "slug": "as-modern-crops-turn-lazy-underground-old-sorghum-may-hold-key-to-future-food-security",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -19958,7 +20599,7 @@
     "imageAlt_en": "As modern crops turn 'lazy' underground, old sorghum may hold key to future food security"
   },
   {
-    "id": 158,
+    "id": 163,
     "slug": "triumph-and-turmoil",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -20074,7 +20715,7 @@
     "imageAlt_en": "Triumph and turmoil"
   },
   {
-    "id": 159,
+    "id": 164,
     "slug": "nih-invests-150-million-in-human-based-research-to-reduce-use-of-animal-models",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -20209,7 +20850,7 @@
     "imageAlt_en": "NIH invests $150 million in human-based research to reduce use of animal models"
   },
   {
-    "id": 160,
+    "id": 165,
     "slug": "machine-learning-isotope-shifts-in-molecular-energy-levels",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -20324,7 +20965,7 @@
     "imageAlt_en": "Machine learning isotope shifts in molecular energy levels"
   },
   {
-    "id": 161,
+    "id": 166,
     "slug": "dna-cracks-nutmeg-s-hidden-past-revealing-a-south-moluccas-origin-and-a-prehuman-journey-north",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -20459,7 +21100,7 @@
     "imageAlt_en": "DNA cracks nutmeg's hidden past, revealing a South Moluccas origin and a prehuman journey north"
   },
   {
-    "id": 162,
+    "id": 167,
     "slug": "if-birds-are-fancy-dancers-are-they-smarter-too",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -20588,7 +21229,7 @@
     "imageAlt_en": "If birds are fancy dancers, are they smarter, too?"
   },
   {
-    "id": 163,
+    "id": 168,
     "slug": "how-whaling-evolved-from-its-basque-origins-into-a-vast-global-business",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -20714,7 +21355,7 @@
     "imageAlt_en": "How whaling evolved from its Basque origins into a vast global business"
   },
   {
-    "id": 164,
+    "id": 169,
     "slug": "aurelio-favarin",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -20852,7 +21493,7 @@
     "imageAlt_en": "Aurélio Favarin"
   },
   {
-    "id": 165,
+    "id": 170,
     "slug": "sandro-schreiber-de-oliveira",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -20990,7 +21631,7 @@
     "imageAlt_en": "Sandro Schreiber de Oliveira"
   },
   {
-    "id": 166,
+    "id": 171,
     "slug": "alma-and-jwst-investigate-giant-disk-galaxy-s-formation-and-evolution",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -21111,7 +21752,7 @@
     "imageAlt_en": "ALMA and JWST investigate giant disk galaxy's formation and evolution"
   },
   {
-    "id": 167,
+    "id": 172,
     "slug": "to-survive-deep-space-astronauts-may-owe-a-debt-to-microscopic-worms",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -21243,7 +21884,7 @@
     "imageAlt_en": "To Survive Deep Space, Astronauts May Owe a Debt to Microscopic Worms"
   },
   {
-    "id": 168,
+    "id": 173,
     "slug": "sun-news-huge-coronal-hole-now-faces-earth",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -21377,7 +22018,7 @@
     "imageAlt_en": "Sun news: Huge coronal hole now faces Earth"
   },
   {
-    "id": 169,
+    "id": 174,
     "slug": "desi-s-3d-map-of-the-universe-is-complete",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -21508,7 +22149,7 @@
     "storyKind": "science"
   },
   {
-    "id": 170,
+    "id": 175,
     "slug": "this-week-s-sky-at-a-glance-april-17-26",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -21682,7 +22323,7 @@
     "imageAlt_en": "This Week's Sky at a Glance, April 17 – 26"
   },
   {
-    "id": 171,
+    "id": 176,
     "slug": "iron-plus-uv-light-turns-alcohol-into-hydrogen-with-catalyst-like-efficiency",
     "cat": "Química",
     "catCls": "quimica",
@@ -21813,7 +22454,7 @@
     "imageAlt_en": "Iron plus UV light turns alcohol into hydrogen with catalyst-like efficiency"
   },
   {
-    "id": 172,
+    "id": 177,
     "slug": "a-student-led-experiment-sets-new-limits-in-the-search-for-axions",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -21939,7 +22580,7 @@
     "imageAlt_en": "A student-led experiment sets new limits in the search for axions"
   },
   {
-    "id": 173,
+    "id": 178,
     "slug": "webb-s-little-red-dots-may-reveal-how-giant-black-holes-formed-soon-after-the-big-bang",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -22065,7 +22706,7 @@
     "imageAlt_en": "Webb's Little Red Dots may reveal how giant black holes formed soon after the Big Bang"
   },
   {
-    "id": 174,
+    "id": 179,
     "slug": "early-galaxies-were-surrounded-by-huge-clouds-of-hydrogen-and-astronomers-found-a-whole-bunch",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -22181,7 +22822,7 @@
     "imageAlt_en": "Early Galaxies Were Surrounded by Huge Clouds of Hydrogen, and Astronomers Found a Whole Bunch!"
   },
   {
-    "id": 175,
+    "id": 180,
     "slug": "how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants",
     "cat": "Física",
     "catCls": "fisica",
@@ -22312,7 +22953,7 @@
     "storyKind": "science"
   },
   {
-    "id": 176,
+    "id": 181,
     "slug": "erosita-disentangles-the-solar-system-s-x-ray-glow-from-deep-space-signals",
     "cat": "Física",
     "catCls": "fisica",
@@ -22441,7 +23082,7 @@
     "imageAlt_en": "eROSITA disentangles the solar system's X-ray glow from deep-space signals"
   },
   {
-    "id": 177,
+    "id": 182,
     "slug": "cyanobacteria-surprise-scientists-with-evolutionary-shift",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -22562,7 +23203,7 @@
     "imageAlt_en": "Cyanobacteria surprise scientists with evolutionary shift"
   },
   {
-    "id": 178,
+    "id": 183,
     "slug": "cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -22686,7 +23327,7 @@
     "imageAlt_en": "Cloudy with a chance of metals: Indications of CO$_2$ in the atmosphere of GJ 1214 b from high-resolution K-band spectroscopy"
   },
   {
-    "id": 179,
+    "id": 184,
     "slug": "nasa-invites-media-to-latvia-artemis-accords-signing-ceremony",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -22802,7 +23443,7 @@
     "imageAlt_en": "NASA Invites Media to Latvia Artemis Accords Signing Ceremony"
   },
   {
-    "id": 180,
+    "id": 185,
     "slug": "quantum-fourier-transform-reaches-52-qubits-shattering-the-previous-27-qubit-record",
     "cat": "Física",
     "catCls": "fisica",
@@ -22926,7 +23567,7 @@
     "imageAlt_en": "Quantum Fourier transform reaches 52 qubits, shattering the previous 27-qubit record"
   },
   {
-    "id": 181,
+    "id": 186,
     "slug": "patagonia-yields-155-million-year-old-long-necked-dinosaur-with-links-to-two-famous-lineages",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -23042,7 +23683,7 @@
     "imageAlt_en": "Patagonia yields 155-million-year-old long-necked dinosaur with links to two famous lineages"
   },
   {
-    "id": 182,
+    "id": 187,
     "slug": "laser-plasma-accelerator-drives-free-electron-laser-for-record-8-hours",
     "cat": "Física",
     "catCls": "fisica",
@@ -23176,7 +23817,7 @@
     "imageAlt_en": "Laser-plasma accelerator drives free-electron laser for record 8 hours"
   },
   {
-    "id": 183,
+    "id": 188,
     "slug": "tomato-industry-taking-steps-to-stop-spread-of-parasitic-weed",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -23305,7 +23946,7 @@
     "imageAlt_en": "Tomato industry taking steps to stop spread of parasitic weed"
   },
   {
-    "id": 184,
+    "id": 189,
     "slug": "solar-flares-domino-effect-isn-t-limited-to-the-sun-16-000-star-sweep-reveals",
     "cat": "Física",
     "catCls": "fisica",
@@ -23447,7 +24088,7 @@
     "imageAlt_en": "Solar flares' domino effect isn't limited to the sun, 16, 000-star sweep reveals"
   },
   {
-    "id": 185,
+    "id": 190,
     "slug": "polymer-physics-reveals-dna-loops-are-formed-by-single-molecular-motors",
     "cat": "Física",
     "catCls": "fisica",
@@ -23563,7 +24204,7 @@
     "imageAlt_en": "Polymer physics reveals DNA loops are formed by single molecular motors"
   },
   {
-    "id": 186,
+    "id": 191,
     "slug": "why-nasa-s-cheapest-missions-produce-the-least-science",
     "cat": "Física",
     "catCls": "fisica",
@@ -23702,7 +24343,7 @@
     "imageAlt_en": "Why NASA’s Cheapest Missions Produce the Least Science"
   },
   {
-    "id": 187,
+    "id": 192,
     "slug": "what-were-the-flashes-that-artemis-2-astronauts-saw",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -23818,7 +24459,7 @@
     "imageAlt_en": "What Were the Flashes That Artemis 2 Astronauts Saw?"
   },
   {
-    "id": 188,
+    "id": 193,
     "slug": "titan-s-lakes-may-spawn-10-foot-waves-in-gentle-winds-new-model-suggests",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -23950,7 +24591,7 @@
     "imageAlt_en": "Titan's lakes may spawn 10-foot waves in gentle winds, new model suggests"
   },
   {
-    "id": 189,
+    "id": 194,
     "slug": "tracing-anglers-in-the-gulf-coast-new-machine-learning-tools-reveal-when-where-and-how-anglers-f",
     "cat": "Física",
     "catCls": "fisica",
@@ -24072,7 +24713,7 @@
     "imageAlt_en": "Tracing anglers in the Gulf Coast: New machine learning tools reveal when, where and how anglers fish"
   },
   {
-    "id": 190,
+    "id": 195,
     "slug": "alma-confirms-rare-quasar-pair-at-redshift-5-7-in-merging-galaxies",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -24191,7 +24832,7 @@
     "imageAlt_en": "ALMA confirms rare quasar pair at redshift 5.7 in merging galaxies"
   },
   {
-    "id": 191,
+    "id": 196,
     "slug": "dancing-jets-from-black-hole-reveal-an-immense-power-equivalent-to-10-000-suns",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -24330,7 +24971,7 @@
     "imageAlt_en": "'Dancing jets' from black hole reveal an immense power equivalent to 10, 000 suns"
   },
   {
-    "id": 192,
+    "id": 197,
     "slug": "eyeing-the-richat-structure",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -24456,7 +25097,7 @@
     "imageAlt_en": "Eyeing the Richat Structure"
   },
   {
-    "id": 193,
+    "id": 198,
     "slug": "dark-matter-could-explain-the-earliest-supermassive-black-holes",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -24582,7 +25223,7 @@
     "imageAlt_en": "Dark matter could explain the earliest supermassive black holes"
   },
   {
-    "id": 194,
+    "id": 199,
     "slug": "jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -24703,7 +25344,7 @@
     "imageAlt_en": "JWST Sees Smoking Gun for Black Hole Mergers in the Virgo Cluster"
   },
   {
-    "id": 195,
+    "id": 200,
     "slug": "nasa-selects-voyager-for-seventh-private-mission-to-space-station",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -24819,7 +25460,7 @@
     "imageAlt_en": "NASA Selects Voyager for Seventh Private Mission to Space Station"
   },
   {
-    "id": 196,
+    "id": 201,
     "slug": "alien-life-may-hide-in-plain-sight-statistical-patterns-across-exoplanets-move-beyond-traditiona",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -24948,7 +25589,7 @@
     "imageAlt_en": "Alien life may hide in plain sight: Statistical patterns across exoplanets move beyond traditional biosignatures"
   },
   {
-    "id": 197,
+    "id": 202,
     "slug": "the-world-welcomes-the-crew-of-artemis-ii-home",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -25080,7 +25721,7 @@
     "imageAlt_en": "The World Welcomes the Crew of Artemis II Home!"
   },
   {
-    "id": 198,
+    "id": 203,
     "slug": "astronomers-reveal-always-changing-multi-planet-system",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -25211,7 +25852,7 @@
     "imageAlt_en": "Astronomers reveal always-changing multi-planet system"
   },
   {
-    "id": 199,
+    "id": 204,
     "slug": "see-the-moon-hide-regulus-the-stellar-heart-of-the-lion",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -25385,7 +26026,7 @@
     "imageAlt_en": "See the Moon Hide Regulus, the Stellar Heart of the Lion"
   },
   {
-    "id": 200,
+    "id": 205,
     "slug": "2026-nsta-hyperwall-schedule",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -25501,7 +26142,7 @@
     "imageAlt_en": "2026 NSTA Hyperwall Schedule"
   },
   {
-    "id": 201,
+    "id": 206,
     "slug": "interstellar-glaciers-nasa-s-spherex-maps-vast-galactic-ice-regions",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -25653,7 +26294,7 @@
     "imageAlt_en": "‘Interstellar Glaciers’: NASA’s SPHEREx Maps Vast Galactic Ice Regions"
   },
   {
-    "id": 202,
+    "id": 207,
     "slug": "honoring-alex-goetz-a-landsat-legend",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -25772,7 +26413,7 @@
     "imageAlt_en": "Honoring Alex Goetz, a Landsat Legend"
   },
   {
-    "id": 203,
+    "id": 208,
     "slug": "computer-security-food-for-your-brain",
     "cat": "Física",
     "catCls": "fisica",
@@ -25919,7 +26560,7 @@
     "storyKind": "science"
   },
   {
-    "id": 204,
+    "id": 209,
     "slug": "a-new-eye-opens-at-the-top-of-the-world",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -26045,7 +26686,7 @@
     "imageAlt_en": "A New Eye Opens at the Top of the World."
   },
   {
-    "id": 205,
+    "id": 210,
     "slug": "ash-creeps-across-mars",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -26166,7 +26807,7 @@
     "storyKind": "science"
   },
   {
-    "id": 206,
+    "id": 211,
     "slug": "not-so-dark-with-alena-tensor-math-framework-could-explain-dark-matter-without-invisible-particl",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -26295,7 +26936,7 @@
     "imageAlt_en": "Not so dark with Alena Tensor: Math framework could explain dark matter without invisible particles"
   },
   {
-    "id": 207,
+    "id": 212,
     "slug": "the-universe-s-most-powerful-telescope",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -26430,7 +27071,7 @@
     "imageAlt_en": "The Universe’s Most Powerful Telescope."
   },
   {
-    "id": 208,
+    "id": 213,
     "slug": "fluorescent-technique-reveals-hidden-scale-of-microfiber-pollution-from-our-clothes",
     "cat": "Química",
     "catCls": "quimica",
@@ -26556,7 +27197,7 @@
     "imageAlt_en": "Fluorescent technique reveals hidden scale of microfiber pollution from our clothes"
   },
   {
-    "id": 209,
+    "id": 214,
     "slug": "torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -26677,7 +27318,7 @@
     "imageAlt_en": "Torsion balances set strongest direct limits yet on ultralight dark matter"
   },
   {
-    "id": 210,
+    "id": 215,
     "slug": "the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -26801,7 +27442,7 @@
     "storyKind": "science"
   },
   {
-    "id": 211,
+    "id": 216,
     "slug": "exoplanet-host-star-shares-elemental-traits-with-its-hot-jupiter",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -26917,7 +27558,7 @@
     "imageAlt_en": "Exoplanet Host Star Shares Elemental Traits with Its Hot Jupiter"
   },
   {
-    "id": 212,
+    "id": 217,
     "slug": "new-molecular-handle-uses-common-amino-acid-to-build-complex-medicines",
     "cat": "Química",
     "catCls": "quimica",
@@ -27043,7 +27684,7 @@
     "imageAlt_en": "New 'molecular handle' uses common amino acid to build complex medicines"
   },
   {
-    "id": 213,
+    "id": 218,
     "slug": "date-palm-waste-yields-bio-oil-unlocking-energy-use-for-150-million-trees",
     "cat": "Química",
     "catCls": "quimica",
@@ -27165,7 +27806,7 @@
     "imageAlt_en": "Date palm waste yields bio-oil, unlocking energy use for 150 million trees"
   },
   {
-    "id": 214,
+    "id": 219,
     "slug": "planets-collide-around-young-sun-like-star",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -27286,7 +27927,7 @@
     "imageAlt_en": "Planets Collide Around Young, Sun-like Star"
   },
   {
-    "id": 215,
+    "id": 220,
     "slug": "84-nasa-missions-at-risk-under-new-proposal",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -27511,7 +28152,7 @@
     "imageAlt_en": "84 NASA missions at risk under new proposal"
   },
   {
-    "id": 216,
+    "id": 221,
     "slug": "first-proba-3-science-surprisingly-speedy-solar-wind",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -27630,7 +28271,7 @@
     "imageAlt_en": "First Proba-3 science: surprisingly speedy solar wind"
   },
   {
-    "id": 217,
+    "id": 222,
     "slug": "sky-telescope-reports-new-telescopes-and-more-at-neaf",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -27777,7 +28418,7 @@
     "imageAlt_en": "Sky & Telescope Reports: New Telescopes and More at NEAF"
   },
   {
-    "id": 218,
+    "id": 223,
     "slug": "first-light-for-poet-shining-sun-light-on-exoplanet-research",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -27947,7 +28588,7 @@
     "storyKind": "science"
   },
   {
-    "id": 219,
+    "id": 224,
     "slug": "pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -27968,19 +28609,19 @@
     "body_pt": "<p>A detecção de um neutrino de energia extraordinariamente alta, batizado de KM3-230213A, gerou um profundo mistério na comunidade científica. Sua origem permanece desconhecida, desafiando os modelos atuais de astrofísica de partículas. A energia registrada para essa superpartícula é colossal, situando-se entre aproximadamente 100 mil e 1 milhão de trilhões de vezes a energia de um fóton na faixa visível do espectro eletromagnético. Este evento singular, capturado por detectores terrestres, levanta questões fundamentais sobre os fenômenos mais energéticos do universo e as fontes capazes de produzir partículas com tamanha magnitude. A busca por explicações para o KM3-230213A pode revelar novos insights sobre buracos negros, matéria escura ou outros processos cósmicos extremos.</p><p>O registro do KM3-230213A foi um feito notável para a instrumentação de detecção de neutrinos. Em menos de dois microssegundos, a passagem de um múon, resultante da interação do neutrino com a matéria, provocou um rastro de luz tão intenso que ativou mais de um quarto dos 12 mil sensores do instrumento. Este evento, de magnitude sem precedentes, destaca a capacidade dos observatórios de neutrinos de capturar sinais de partículas cósmicas ultraenergéticas. A análise detalhada desse rastro de luz é crucial para reconstruir as características do neutrino incidente e inferir sua direção de origem, embora, neste caso, a fonte específica ainda não tenha sido identificada. A precisão e a sensibilidade dos detectores são essenciais para discernir eventos tão raros e energéticos em meio ao ruído de fundo cósmico.</p><p>Modelos teóricos preveem que neutrinos cosmogênicos, originados de processos de alta energia no universo primordial ou em galáxias distantes, deveriam chegar à Terra com energias na faixa de 100 PeV a 1 EeV. Contudo, ao longo de uma década de operação do observatório IceCube e três anos do KM3NeT, nenhum sinal de neutrino com essas características foi registrado. Os dez neutrinos mais energéticos detectados pelo IceCube atingiram, no máximo, energias entre 1 PeV e 10 PeV. O KM3NeT, por sua vez, não havia detectado absolutamente nada próximo a esses valores até o registro do extraordinário KM3-230213A, que superou significativamente todas as detecções anteriores, tornando-o um evento anômalo e de grande interesse científico.</p><p>Uma das hipóteses levantadas para explicar a origem do KM3-230213A é a de que ele poderia ter sido produzido por um buraco negro primordial, surgido nos primeiros instantes do Universo. No entanto, não há consenso científico sobre essa possibilidade. Buracos negros primordiais são objetos hipotéticos que teriam se formado a partir de flutuações de densidade no universo primitivo, e não do colapso de estrelas massivas. A detecção de um neutrino com a energia do KM3-230213A poderia, em tese, fornecer evidências para a existência desses buracos negros, que são difíceis de observar diretamente. A ausência de outras detecções semelhantes, porém, mantém a questão em aberto e exige investigações mais aprofundadas.</p><p>A teoria da radiação de Hawking, proposta pelo físico britânico Stephen Hawking em 1974, prevê que buracos negros emitem partículas elementares de todos os tipos, incluindo prótons, fótons e neutrinos. Esse processo de emissão faz com que os buracos negros percam massa e, eventualmente, evaporem. Para buracos negros primordiais com massas específicas, a taxa de evaporação seria tal que eles poderiam estar emitindo partículas de alta energia, como o KM3-230213A, nos dias atuais. A detecção de um neutrino com as características do KM3-230213A poderia, portanto, ser interpretada como um sinal dessa radiação, oferecendo uma janela única para estudar a física de buracos negros em escalas extremas.</p><p>A evaporação de um buraco negro primordial é um processo que se intensifica à medida que sua massa diminui. Quando a massa de um buraco negro primordial cai para cerca de 6 mil toneladas, o processo de evaporação torna-se extremamente violento, produzindo partículas cada vez mais energéticas. Esse estágio culmina no desaparecimento completo do buraco negro em uma explosão final, que pode durar aproximadamente 100 segundos. De acordo com estudos teóricos, a probabilidade de tal explosão ocorrer uma vez a cada 14 anos seria de 8%. A detecção de um neutrino de energia tão elevada como o KM3-230213A poderia, assim, ser um indício de um desses eventos cataclísmicos, embora a raridade e a incerteza associadas a essa hipótese exijam mais dados e análises.</p><p>A descoberta do KM3-230213A representa um marco na astrofísica de neutrinos, abrindo novas avenidas para a pesquisa de fenômenos cósmicos extremos. A ausência de uma explicação consensual para sua origem sublinha a complexidade do universo e a necessidade de aprimorar tanto os modelos teóricos quanto as capacidades observacionais. Cientistas continuarão a analisar os dados existentes e a buscar por eventos semelhantes, na esperança de desvendar o mistério por trás dessa superpartícula. A compreensão de sua fonte pode não apenas confirmar a existência de buracos negros primordiais, mas também revelar novas partículas ou interações fundamentais, expandindo nosso conhecimento sobre a física do universo em suas fronteiras mais energéticas.</p>",
     "body_en": "<p>Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>The significance lies in astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Em menos de 2 microssegundos, a passagem do múon provocou um rastro de luz tão intenso que ativou mais de um quarto dos 12 mil sensores do instrumento. O valor se situa entre cerca de 100 mil e 1 milhão de trilhões de vezes a energia de uma partícula de luz (fóton) no comprimento de onda visível.</p><p>A origem desse superneutrino, batizado de KM3-230213A, permanece um total mistério. De acordo com os modelos teóricos, essas partículas deveriam chegar à Terra, vindas de todas as partes do céu, com energias em torno de 100 PeV a 1 EeV.</p><p>Entretanto, ao longo de 10 anos de operação do IceCube e 3 anos do KM3NeT, nenhum sinal de neutrino cosmogênico foi registrado. Os 10 neutrinos mais energéticos detectados pelo IceCube chegaram no máximo a energias entre 1 PeV e 10 PeV.</p><p>O KM3NeT não detectou absolutamente nada próximo disso, até o registro do extraordinário KM3-230213A. Emitiriam partículas elementares de todos os tipos, incluindo prótons, fótons e neutrinos, um efeito previsto pelo físico britânico Stephen Hawking (1942-2018), em 1974.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>Quando ela cai para cerca de 6 mil toneladas, o processo se torna extremamente violento: produz partículas cada vez mais energéticas até o buraco negro desaparecer em uma explosão. A chance de tal explosão ocorrer uma vez a cada 14 anos seria de 8%, de acordo com o estudo.</p><p>Because this item comes through Pesquisa FAPESP Ciência as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind.</p><p class=\"art-source\"><a href=\"https://revistapesquisa.fapesp.br/pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A origem da superpartícula, e a hipótese de sua produção por um buraco negro primordial, ainda são objeto de debate na comunidade científica",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: A origem da superpartícula, e a hipótese de sua produção por um buraco negro primordial, ainda são objeto de debate na comunidade científica.",
+      "Dado-chave: A origem da superpartícula, e a hipótese de sua produção por um buraco negro primordial, ainda são objeto de debate na comunidade científica",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
-      "Em foco: A origem da superpartícula, e a hipótese de sua produção por um buraco negro primordial, ainda são objeto de debate na comunidade científica",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: A origem da superpartícula, e a hipótese de sua produção por um buraco negro primordial, ainda são objeto de debate na comunidade científica.",
+      "Dado-chave: A origem da superpartícula, e a hipótese de sua produção por um buraco negro primordial, ainda são objeto de debate na comunidade científica",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
-      "Focus: Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo",
-      "Detail: Science reporting: verify primary technical documentation",
-      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+      "Core point: Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo.",
+      "Key detail: Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo",
+      "Science reporting: verify primary technical documentation."
     ],
     "date": "08 abr 2026",
     "date_pt": "08 abr 2026",
@@ -28068,7 +28709,7 @@
     "storyKind": "science"
   },
   {
-    "id": 220,
+    "id": 225,
     "slug": "how-to-follow-the-smile-launch-live",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -28184,7 +28825,7 @@
     "imageAlt_en": "How to follow the Smile launch live"
   },
   {
-    "id": 221,
+    "id": 226,
     "slug": "five-things-juice-has-revealed-about-comet-3i-atlas",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -28305,7 +28946,7 @@
     "storyKind": "science"
   },
   {
-    "id": 222,
+    "id": 227,
     "slug": "artemis-ii-blasts-off-sending-humans-back-to-the-moon",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -28457,7 +29098,7 @@
     "storyKind": "science"
   },
   {
-    "id": 223,
+    "id": 228,
     "slug": "cern-timepix-chips-fly-to-the-moon",
     "cat": "Física",
     "catCls": "fisica",
@@ -28588,7 +29229,7 @@
     "storyKind": "science"
   },
   {
-    "id": 224,
+    "id": 229,
     "slug": "on-the-launchpad",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -28704,7 +29345,7 @@
     "imageAlt_en": "On the launchpad"
   },
   {
-    "id": 225,
+    "id": 230,
     "slug": "webb-hubble-capture-new-views-of-saturn",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -28825,7 +29466,7 @@
     "storyKind": "science"
   },
   {
-    "id": 226,
+    "id": 231,
     "slug": "nsf-initiative-aims-to-make-every-american-worker-business-and-community-ai-ready",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -28981,7 +29622,7 @@
     "imageAlt_en": "NSF initiative aims to make every American worker, business and community AI-ready"
   },
   {
-    "id": 227,
+    "id": 232,
     "slug": "ignition-a-new-series-of-nasa-initiatives",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -29146,7 +29787,7 @@
     "imageAlt_en": "'Ignition': A new series of NASA initiatives"
   },
   {
-    "id": 228,
+    "id": 233,
     "slug": "nsf-announces-winners-of-the-u-s-critical-minerals-challenge-to-secure-key-domestic-supply-chain",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -29304,7 +29945,7 @@
     "storyKind": "science"
   },
   {
-    "id": 229,
+    "id": 234,
     "slug": "a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -29493,7 +30134,7 @@
     "storyKind": "science"
   },
   {
-    "id": 230,
+    "id": 235,
     "slug": "science-release-hubble-unexpectedly-catches-comet-breaking-up",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -29690,7 +30331,7 @@
     "storyKind": "science"
   },
   {
-    "id": 231,
+    "id": 236,
     "slug": "stellar-death-and-an-artemis-overhaul",
     "cat": "Astronomia",
     "catCls": "astronomia",
