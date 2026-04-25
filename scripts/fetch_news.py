@@ -51,6 +51,30 @@ SITE_NAME = 'Cosmos Week'
 SITE_DESCRIPTION_PT = 'Portal de jornalismo científico com foco em astronomia, astrofísica, cosmologia e ciência de fronteira.'
 SITE_DESCRIPTION_EN = 'Science journalism portal focused on astronomy, astrophysics, cosmology and frontier research.'
 
+GA_MEASUREMENT_ID = os.getenv('COSMOS_GA_MEASUREMENT_ID', 'G-MX20J1ZG06').strip()
+
+def analytics_head_snippet() -> str:
+    """Return the single Analytics loader used by every static article page.
+
+    The heavy consent logic lives in assets/js/cw-analytics.js so existing pages,
+    newly generated articles and future templates do not drift into separate
+    tracking implementations.
+    """
+    if not GA_MEASUREMENT_ID:
+        return ''
+    ga_id = html.escape(GA_MEASUREMENT_ID, quote=True)
+    return f'  <script src="/assets/js/cw-analytics.js" data-ga-id="{ga_id}"></script>\n'
+
+def static_article_needs_rebuild(path: Path) -> bool:
+    if not path.exists():
+        return True
+    try:
+        text = path.read_text(encoding='utf-8', errors='ignore')
+    except Exception:
+        return True
+    return '/assets/js/cw-analytics.js' not in text or 'googletagmanager.com/gtag/js?id=' in text
+
+
 MAX_POSTS = 40
 MAX_POSTS_PER_SOURCE = 5
 MAX_PREPRINTS = 14
@@ -4627,7 +4651,7 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
     page = f"""<!DOCTYPE html>
 <html lang="{labels['html_lang']}">
 <head>
-  <meta charset="utf-8">
+{analytics_head_snippet()}  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0d3a75">
   <title>{html_escape_attr(title_raw)} | {SITE_NAME}</title>
@@ -5098,7 +5122,12 @@ def build_preview_pages(posts: list[dict], rebuild_slugs: Optional[set[str]] = N
         article_dir_en = PREVIEW_EN_DIR / slug
         page_pt = article_dir_pt / 'index.html'
         page_en = article_dir_en / 'index.html'
-        should_rebuild = rebuild_all or slug in rebuild_slugs or not page_pt.exists() or not page_en.exists()
+        should_rebuild = (
+            rebuild_all
+            or slug in rebuild_slugs
+            or static_article_needs_rebuild(page_pt)
+            or static_article_needs_rebuild(page_en)
+        )
         if not should_rebuild:
             continue
 

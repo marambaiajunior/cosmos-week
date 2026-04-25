@@ -2577,7 +2577,11 @@ function renderVisualStrip(layout = currentFrontLayout()) {
   function setCookieConsent(mode) {
     // mode: 'full' | 'analytics' | 'denied'
     try { localStorage.setItem(CONSENT_KEY, mode); } catch (e) {}
-    if (typeof gtag === 'function') gtag('consent', 'update', _consentSignals(mode));
+    if (typeof window.cwUpdateConsent === 'function') {
+      window.cwUpdateConsent(mode, { force: true });
+    } else if (typeof gtag === 'function') {
+      gtag('consent', 'update', _consentSignals(mode));
+    }
     const banner = document.getElementById('cookieBanner');
     if (banner) banner.classList.remove('show');
   }
