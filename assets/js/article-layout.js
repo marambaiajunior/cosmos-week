@@ -280,8 +280,9 @@
       'html.cw-story-reflow .main-story .body li { margin-bottom: .58em; line-height: 1.78; }',
 
       'html.cw-story-reflow .main-story .highlights {',
+      '  order: -1;',
       '  max-width: 780px;',
-      '  margin: clamp(34px, 6vw, 58px) auto clamp(28px, 4vw, 44px);',
+      '  margin: 0 auto clamp(28px, 4vw, 44px);',
       '  padding: clamp(18px, 3vw, 28px);',
       '  border-radius: 28px;',
       '  border: 1px solid rgba(125,177,224,.24);',
@@ -511,7 +512,6 @@
       'html.cw-story-reflow article.card > img.hero { display: block !important; margin-left: auto !important; margin-right: auto !important; }',
       'html.cw-story-reflow .body .preview-gallery, html.cw-story-reflow .main-story > .preview-gallery { justify-items: center !important; }',
       'html.cw-story-reflow .preview-inline-figure { width: 100%; margin-left: auto !important; margin-right: auto !important; }',
-      'html.cw-story-reflow .main-story .highlights { order: initial !important; margin-top: clamp(34px, 6vw, 58px) !important; }',
 
       'html.cw-story-reflow .cw-action-dock {',
       '  position: fixed !important;',
@@ -885,16 +885,11 @@
     var afterStory = document.createElement('div');
     afterStory.className = 'after-story-stack';
     moveAll([sourceLink, footerLinks, footerNote], afterStory);
-
-    if (highlights) {
-      if (afterStory.children.length) {
-        mainStory.insertBefore(highlights, afterStory);
-      } else {
-        mainStory.appendChild(highlights);
-      }
-    }
-
     if (afterStory.children.length) mainStory.appendChild(afterStory);
+
+    if (highlights && mainStory.firstElementChild !== highlights) {
+      mainStory.insertBefore(highlights, mainStory.firstElementChild || null);
+    }
 
     if (sidebar) {
       var relatedPanel = null;
