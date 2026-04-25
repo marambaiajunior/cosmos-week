@@ -26,6 +26,31 @@
 <meta content="Privacy policy | Cosmos Week" name="twitter:title"/>
 <meta content="Cosmos Week privacy policy covering data, cookies and measurement practices." name="twitter:description"/>
 <meta content="https://www.cosmosweek.com/assets/og-default.jpg" name="twitter:image"/>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-MX20J1ZG06"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      analytics_storage: 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      wait_for_update: 500
+    });
+    try {
+      const consent = localStorage.getItem('cw_cookie_consent');
+      const full = consent === 'full';
+      const analytics = consent === 'full' || consent === 'analytics' || consent === 'granted';
+      if (analytics) gtag('consent', 'update', {
+        analytics_storage: 'granted',
+        ad_storage: full ? 'granted' : 'denied',
+        ad_user_data: full ? 'granted' : 'denied',
+        ad_personalization: full ? 'granted' : 'denied'
+      });
+    } catch(e) {}
+    gtag('js', new Date());
+    gtag('config', 'G-MX20J1ZG06', { anonymize_ip: true });
+  </script>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link as="style" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&amp;family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/><noscript><link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&amp;family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/></noscript>
@@ -104,7 +129,7 @@
 <div class="eyebrow">Privacy policy</div>
 <h1>How Cosmos Week handles data and browsing preferences</h1>
 <p class="lead">This policy explains, in direct language, which data may be processed while you browse Cosmos Week, why that may happen, which choices you have and how to contact the project.</p>
-<p class="meta-line">Last updated: April 8, 2026</p>
+<p class="meta-line">Last updated: April 25, 2026</p>
 </section>
 <div class="grid">
 <article class="card">
@@ -142,7 +167,12 @@
 </article>
 </div>
 </main>
-<footer>
+<section id="adsense-required-disclosure">
+<h2>Personalized advertising, Google AdSense and control options</h2>
+<p>Third parties, including Google, may use cookies to serve ads based on a user's prior visits to Cosmos Week or to other websites. Google's use of advertising cookies enables Google and its partners to serve ads based on visits to this site and/or other sites on the internet.</p>
+<p>Visitors may opt out of or manage personalized ads in <a href="https://adssettings.google.com/" rel="noopener noreferrer" target="_blank">Google Ads Settings</a>. When other vendors or ad networks are used, visitors may also review those vendors' own opt-out pages or industry options such as <a href="https://www.aboutads.info/" rel="noopener noreferrer" target="_blank">aboutads.info</a>, where available.</p>
+<p>Cosmos Week also maintains a consent banner that lets visitors accept, reject or limit analytics and advertising features when applicable.</p>
+</section><footer>
 <div class="wrap">
 <div class="footer-inst">© 2026 Cosmos Week · GitHub Pages · <a href="../privacy/" style="color:inherit;">Privacy</a> · <a href="../terms/" style="color:inherit;">Terms</a></div>
 <div class="footer-contact">Official contact: <a href="mailto:contato@cosmosweek.com">contato@cosmosweek.com</a></div>

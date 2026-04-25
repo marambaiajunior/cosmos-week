@@ -3,6 +3,29 @@
 <html lang="pt-BR">
 <head>
   <script src="/assets/js/cw-analytics.js" data-ga-id="G-MX20J1ZG06"></script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-MX20J1ZG06"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      analytics_storage: 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      wait_for_update: 500
+    });
+    try {
+      const _c = localStorage.getItem('cw_cookie_consent');
+      if (_c === 'full') {
+        gtag('consent', 'update', { analytics_storage:'granted', ad_storage:'granted', ad_user_data:'granted', ad_personalization:'granted' });
+      } else if (_c === 'analytics') {
+        gtag('consent', 'update', { analytics_storage:'granted', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied' });
+      }
+    } catch (e) {}
+    gtag('js', new Date());
+    gtag('config', 'G-MX20J1ZG06', { anonymize_ip: true });
+    window.CW_BOOTSTRAP = { page: 'about', lang: 'pt', rootPath: '/' };
+  </script>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="#081425" name="theme-color"/>
@@ -62,7 +85,7 @@
 <a class="nav-link" href="/" id="navHome" onclick="event.preventDefault(); goHome()">Início</a>
 <a class="nav-link" href="/arquivo/" id="navArchive" onclick="event.preventDefault(); openPage('archive')">Arquivo</a>
 <a class="nav-link" href="/sobre/" id="navAbout" onclick="event.preventDefault(); openPage('about')">Sobre</a>
-<a class="nav-link" href="/padroes/" id="navStandards" onclick="event.preventDefault(); openPage('standards')">Padrões</a>
+<a class="nav-link" href="/padroes/" id="navStandards" onclick="event.preventDefault(); openPage('standards')">Padrões</a><a class="nav-link" href="/guias/">Guias</a>
 </nav>
 <div class="header-tools">
 <form action="https://www.cosmosweek.com/" class="searchbox" id="siteSearchForm" method="get" role="search"><input autocomplete="off" enterkeyhint="search" id="searchInput" name="q" oninput="handleSearchInput(this.value)" placeholder="Buscar notícias, temas ou fontes..." type="text"/><button aria-label="Buscar" type="submit"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg></button></form>
@@ -98,7 +121,6 @@
 </div>
 </header>
 <main class="wrap site-main" id="mainContent" tabindex="-1">
-<div aria-hidden="true" class="ad-slot ad-slot--leaderboard" id="adSlotLeaderboard"></div>
 <noscript>
 <div class="noscript-message">
 <strong>JavaScript está desativado.</strong> O Cosmos Week usa uma camada dinâmica para montar a grade editorial. Você ainda pode usar o <a href="/sitemap.xml">sitemap</a>, o <a href="/feed.xml">RSS</a> e as rotas principais do portal.
@@ -108,7 +130,24 @@
 <h1 class="visually-hidden" id="homePageTitle">Portal Cosmos Week de notícias científicas</h1>
 <div id="heroMount"><section class="featured-package"><div class="section-head"><div><div class="section-title">Edição em destaque</div><div class="section-kicker">Uma abertura curada com as histórias científicas mais relevantes do momento.</div></div></div><div class="hero-grid featured-hero-grid"><a class="hero-primary" href="https://www.cosmosweek.com/noticia/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/"><img alt="Ensaios Clínicos Apoiam o Uso Semanal de Buprenorfina de Liberação Prolongada para o Tratamento do Transtorno por Uso de Opioides na Gravidez" decoding="async" fetchpriority="high" loading="eager" src="https://www.nih.gov/sites/default/files/styles/max_650x650/public/2026-03/20260316-preg.jpg?itok=wkkS3xYQ"/><div class="hero-overlay"></div><div class="hero-content"><div class="label-row"><span class="label biologia">Biologia</span></div><h2 class="headline-xl" style="margin-bottom:12px;">Ensaios Clínicos Apoiam o Uso Semanal de Buprenorfina de Liberação Prolongada para o Tratamento do Transtorno por Uso de Opioides na Gravidez</h2><p class="deck" style="max-width:700px;">Um estudo apoiado pelo NIH demonstrou que o tratamento com buprenorfina de liberação prolongada, administrada semanalmente, resultou em taxas mais elevadas de…</p><div class="meta-row" style="margin-top:18px;"><span>22 abr 2026</span><span>4 min de leitura</span><span>Abrir matéria</span></div></div></a><div class="hero-side"><a class="hero-side-card" href="https://www.cosmosweek.com/noticia/chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc/"><img alt="A inflamação crônica deixa uma marca duradoura nas células-tronco intestinais, elevando o risco de câncer colorretal" decoding="async" loading="lazy" src="https://www.nih.gov/sites/default/files/styles/max_650x650/public/2026-03/20260325-memories-research.jpg?itok=oHNvQp-y"/><div class="hero-overlay"></div><div class="hero-content"><div class="label-row"><span class="label biologia">Biologia</span></div><h2 class="headline-lg">A inflamação crônica deixa uma marca duradoura nas células-tronco intestinais, elevando o risco de câncer colorretal</h2><div class="meta-row" style="margin-top:10px;"><span>22 abr 2026</span><span>4 min de leitura</span></div></div></a><a class="hero-side-card" href="https://www.cosmosweek.com/noticia/stellar-flares-may-expand-habitable-zones-around-small-stars/"><img alt="Explosões Estelares Podem Expandir Zonas Habitáveis em Torno de Estrelas de Pequena Massa" decoding="async" loading="lazy" src="https://www.universetoday.com/article_images/cropped_750_20260422_033917.jpg"/><div class="hero-overlay"></div><div class="hero-content"><div class="label-row"><span class="label exoplanetas">Exoplanetas</span></div><h2 class="headline-lg">Explosões Estelares Podem Expandir Zonas Habitáveis em Torno de Estrelas de Pequena Massa</h2><div class="meta-row" style="margin-top:10px;"><span>22 abr 2026</span><span>4 min de leitura</span></div></div></a></div></div></section></div>
 <div id="visualStrip"></div>
-<div id="topicNav"><section class="topic-map"><div class="section-head section-head--soft"><div><div class="section-title">Navegue por tema</div><div class="section-kicker">Escolha uma porta de entrada temática para o arquivo.</div></div></div><div class="topic-nav-list"><a aria-label="Astronomia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Astronomia</span><span class="topic-count">35</span></a><a aria-label="Cosmologia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Cosmologia</span><span class="topic-count">10</span></a><a aria-label="Astrofísica" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Astrofísica</span><span class="topic-count">11</span></a><a aria-label="Exoplanetas" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Exoplanetas</span><span class="topic-count">10</span></a><a aria-label="Física" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Física</span><span class="topic-count">15</span></a><a aria-label="Biologia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Biologia</span><span class="topic-count">34</span></a><a aria-label="Química" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Química</span><span class="topic-count">10</span></a><a aria-label="Ciências da Terra" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Ciências da Terra</span><span class="topic-count">23</span></a></div></section></div>
+<div id="topicNav"><section class="topic-map"><div class="section-head section-head--soft"><div><div class="section-title">Navegue por tema</div><div class="section-kicker">Escolha uma porta de entrada temática para o arquivo.</div></div></div><div class="topic-nav-list"><a aria-label="Astronomia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Astronomia</span><span class="topic-count">10</span></a><a aria-label="Cosmologia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Cosmologia</span><span class="topic-count">2</span></a><a aria-label="Astrofísica" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Astrofísica</span><span class="topic-count">2</span></a><a aria-label="Exoplanetas" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Exoplanetas</span><span class="topic-count">5</span></a><a aria-label="Física" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Física</span><span class="topic-count">7</span></a><a aria-label="Biologia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Biologia</span><span class="topic-count">6</span></a><a aria-label="Química" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Química</span><span class="topic-count">2</span></a><a aria-label="Ciências da Terra" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Ciências da Terra</span><span class="topic-count">6</span></a></div></section></div>
+<section class="topic-map" id="originalGuidesBlock">
+<div class="section-head section-head--soft">
+<div>
+<div class="section-title">Guias originais</div>
+<div class="section-kicker">Conteúdo autoral de contexto científico para reduzir dependência de releases e notícias reescritas.</div>
+</div>
+</div>
+<div class="topic-nav-list">
+<a class="topic-chip" href="/guias/como-distinguir-ciencia-de-pseudociencia/"><span>Ciência vs pseudociência</span></a>
+<a class="topic-chip" href="/guias/como-ler-um-paper-cientifico/"><span>Como ler papers</span></a>
+<a class="topic-chip" href="/guias/o-que-e-espectroscopia/"><span>Espectroscopia</span></a>
+<a class="topic-chip" href="/guias/como-a-ciencia-detecta-exoplanetas/"><span>Exoplanetas</span></a>
+<a class="topic-chip" href="/guias/materia-escura-o-que-sabemos/"><span>Matéria escura</span></a>
+<a class="topic-chip" href="/guias/"><span>Todos os guias</span></a>
+</div>
+</section>
+
 <div class="story-layout">
 <div>
 <div class="section-head" id="latestSectionHead">
@@ -122,7 +161,6 @@
 <div class="preprint-grid" id="preprintMount"></div>
 </div>
 <aside class="sidebar">
-<div aria-hidden="true" class="ad-slot ad-slot--sidebar" id="adSlotSidebar"></div>
 <div class="widget">
 <div class="widget-head"><div class="widget-title" id="trendingWidgetTitle">Em alta</div></div>
 <div class="widget-list" id="trendingList"><a class="trend-item" href="https://www.cosmosweek.com/noticia/clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi/"><div class="trend-num">1</div><div><div class="trend-title">Ensaios Clínicos Apoiam o Uso Semanal de Buprenorfina de Liberação Prolongada para o Tratamento do Transtorno por Uso de Opioides na Gravidez</div><div class="trend-meta">Biologia · 4 min de leitura</div></div></a><a class="trend-item" href="https://www.cosmosweek.com/noticia/chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc/"><div class="trend-num">2</div><div><div class="trend-title">A inflamação crônica deixa uma marca duradoura nas células-tronco intestinais, elevando o risco de câncer colorretal</div><div class="trend-meta">Biologia · 4 min de leitura</div></div></a><a class="trend-item" href="https://www.cosmosweek.com/noticia/stellar-flares-may-expand-habitable-zones-around-small-stars/"><div class="trend-num">3</div><div><div class="trend-title">Explosões Estelares Podem Expandir Zonas Habitáveis em Torno de Estrelas de Pequena Massa</div><div class="trend-meta">Exoplanetas · 4 min de leitura</div></div></a><a class="trend-item" href="https://www.cosmosweek.com/noticia/what-are-ames-contributions-to-artemis-ii/"><div class="trend-num">4</div><div><div class="trend-title">As Contribuições do Centro de Pesquisa Ames para a Missão Artemis II</div><div class="trend-meta">Astronomia · 4 min de leitura</div></div></a><a class="trend-item" href="https://www.cosmosweek.com/noticia/astronomers-find-the-edge-of-the-milky-way/"><div class="trend-num">5</div><div><div class="trend-title">Astrônomos Identificam o Limite da Formação Estelar na Via Láctea</div><div class="trend-meta">Astronomia · 4 min de leitura</div></div></a></div>
@@ -158,7 +196,7 @@
 </div>
 <div class="archive-summary" id="archiveSummary"><div class="archive-stat"><span class="archive-stat-num">148</span><span class="archive-stat-label">matérias indexadas</span></div><div class="archive-stat"><span class="archive-stat-num">8</span><span class="archive-stat-label">áreas de cobertura</span></div><div class="archive-stat"><span class="archive-stat-num">2</span><span class="archive-stat-label">idiomas</span></div></div>
 <div class="archive-status" id="archiveStatus">Instantâneo do arquivo pronto para crawlers e leitores.</div>
-<div id="archiveTopicNav"><section class="topic-map"><div class="section-head section-head--soft"><div><div class="section-title">Navegue por tema</div><div class="section-kicker">Escolha uma porta de entrada temática para o arquivo.</div></div></div><div class="topic-nav-list"><a aria-label="Astronomia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Astronomia</span><span class="topic-count">35</span></a><a aria-label="Cosmologia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Cosmologia</span><span class="topic-count">10</span></a><a aria-label="Astrofísica" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Astrofísica</span><span class="topic-count">11</span></a><a aria-label="Exoplanetas" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Exoplanetas</span><span class="topic-count">10</span></a><a aria-label="Física" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Física</span><span class="topic-count">15</span></a><a aria-label="Biologia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Biologia</span><span class="topic-count">34</span></a><a aria-label="Química" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Química</span><span class="topic-count">10</span></a><a aria-label="Ciências da Terra" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Ciências da Terra</span><span class="topic-count">23</span></a></div></section></div>
+<div id="archiveTopicNav"><section class="topic-map"><div class="section-head section-head--soft"><div><div class="section-title">Navegue por tema</div><div class="section-kicker">Escolha uma porta de entrada temática para o arquivo.</div></div></div><div class="topic-nav-list"><a aria-label="Astronomia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Astronomia</span><span class="topic-count">10</span></a><a aria-label="Cosmologia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Cosmologia</span><span class="topic-count">2</span></a><a aria-label="Astrofísica" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Astrofísica</span><span class="topic-count">2</span></a><a aria-label="Exoplanetas" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Exoplanetas</span><span class="topic-count">5</span></a><a aria-label="Física" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Física</span><span class="topic-count">7</span></a><a aria-label="Biologia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Biologia</span><span class="topic-count">6</span></a><a aria-label="Química" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Química</span><span class="topic-count">2</span></a><a aria-label="Ciências da Terra" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Ciências da Terra</span><span class="topic-count">6</span></a></div></section></div>
 <div class="section-head section-head--soft">
 <div>
 <div class="section-title">Seleção do arquivo</div>
@@ -188,18 +226,6 @@
 <div class="search-empty hidden" id="searchEmpty"></div>
 </section>
 </main>
-<aside aria-label="Espaço patrocinado" class="rigsync-float" id="rigsyncBanner">
-<button aria-label="Fechar anúncio" class="rigsync-float__close" id="rigsyncBannerClose" type="button">×</button>
-<a aria-label="Abrir anúncio patrocinado" class="rigsync-float__logo" href="https://apps.apple.com/br/app/rigsync-calendar/id6759013786" rel="noopener sponsored" target="_blank">
-<img alt="Logo do anúncio patrocinado" height="52" loading="lazy" src="/assets/rigsync-calendar-badge.png" width="52"/>
-</a>
-<div class="rigsync-float__copy">
-<div class="rigsync-float__eyebrow" id="rigsyncBannerEyebrow">Espaço patrocinado</div>
-<div class="rigsync-float__title" id="rigsyncBannerTitle">Sua marca aqui</div>
-<div class="rigsync-float__text" id="rigsyncBannerText">Este espaço está pronto para receber o link e a mensagem de um patrocinador.</div>
-</div>
-<a aria-label="Abrir anúncio patrocinado" class="rigsync-float__cta" href="#" id="rigsyncBannerCta" rel="noopener sponsored" target="_blank">Anunciar</a>
-</aside>
 <footer class="site-footer site-footer--premium">
 <div class="footer-inner">
 <div class="footer-grid">
@@ -251,7 +277,7 @@
 <span id="footerBottomCenter">Notícias científicas com contexto e compromisso com a evidência.</span>
 </div>
 </div>
-</footer>
+ · <a href="/guias/">Guias</a></footer>
 <div class="toast" id="toast"></div>
 <div aria-label="Aviso de cookies" aria-live="polite" class="cookie-banner" id="cookieBanner" role="dialog">
 <div class="cookie-copy">
@@ -264,8 +290,6 @@
 <button class="primary-btn" id="cookieAcceptBtn" onclick="setCookieConsent('full')" type="button">Aceitar tudo</button>
 </div>
 </div>
-
-
 <script defer="" src="/assets/js/app.js"></script>
 <script id="cw-inline-app-disabled" type="application/json">{"status":"externalized-to-assets-js-app-js"}</script>
 </body>
