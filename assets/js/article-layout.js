@@ -216,8 +216,9 @@
       '}',
       'html.cw-story-reflow .main-story .body-label {',
       '  width: fit-content;',
-      '  margin: 0 0 18px;',
+      '  margin: 0 auto 18px;',
       '  padding: 8px 12px;',
+      '  text-align: center;',
       '  border-radius: 999px;',
       '  border: 1px solid rgba(125,177,224,.24);',
       '  background: rgba(255,255,255,.62);',
@@ -510,6 +511,7 @@
       'html.cw-story-reflow .cw-article-byline { justify-content: center !important; text-align: center !important; margin-left: auto !important; margin-right: auto !important; }',
       'html.cw-story-reflow .cw-topic-row { justify-content: center !important; }',
       'html.cw-story-reflow article.card > img.hero { display: block !important; margin-left: auto !important; margin-right: auto !important; }',
+      'html.cw-story-reflow .main-story .body-label { margin-left: auto !important; margin-right: auto !important; text-align: center !important; }',
       'html.cw-story-reflow .body .preview-gallery, html.cw-story-reflow .main-story > .preview-gallery { justify-items: center !important; }',
       'html.cw-story-reflow .preview-inline-figure { width: 100%; margin-left: auto !important; margin-right: auto !important; }',
 
@@ -850,6 +852,11 @@
     var bodyLabel = mainStory.querySelector('.body-label');
     var body = mainStory.querySelector('.body');
     var highlights = mainStory.querySelector('.highlights');
+    if (highlights && highlights.parentElement) {
+      highlights.parentElement.removeChild(highlights);
+      highlights = null;
+    }
+
     var previewGallery = mainStory.querySelector('.preview-gallery');
     var sourceLink = mainStory.querySelector('.source-link');
     var footerLinks = mainStory.querySelector('.footer-links');
@@ -886,10 +893,6 @@
     afterStory.className = 'after-story-stack';
     moveAll([sourceLink, footerLinks, footerNote], afterStory);
     if (afterStory.children.length) mainStory.appendChild(afterStory);
-
-    if (highlights && mainStory.firstElementChild !== highlights) {
-      mainStory.insertBefore(highlights, mainStory.firstElementChild || null);
-    }
 
     if (sidebar) {
       var relatedPanel = null;
