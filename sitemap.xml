@@ -16,6 +16,8 @@
   <url><loc>https://www.cosmosweek.com/en/privacy/</loc><lastmod>2026-04-26</lastmod></url>
   <url><loc>https://www.cosmosweek.com/termos-de-uso.html</loc><lastmod>2026-04-26</lastmod></url>
   <url><loc>https://www.cosmosweek.com/en/terms/</loc><lastmod>2026-04-26</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/noticia/aquecimento-global-empurra-corais-para-ponto-de-nao-retorno/</loc><lastmod>2026-04-26</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/en/news/aquecimento-global-empurra-corais-para-ponto-de-nao-retorno/</loc><lastmod>2026-04-26</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/catching-the-earliest-stars-in-the-universe/</loc><lastmod>2026-04-24</lastmod></url>
   <url><loc>https://www.cosmosweek.com/en/news/catching-the-earliest-stars-in-the-universe/</loc><lastmod>2026-04-24</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/braving-the-arctic-for-upcoming-polar-focused-satellites/</loc><lastmod>2026-04-24</lastmod></url>
@@ -32,6 +34,8 @@
   <url><loc>https://www.cosmosweek.com/en/news/accelerating-scaling-solutions-from-dark-matter-particle-creation/</loc><lastmod>2026-04-23</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/smile-set-to-launch-on-19-may/</loc><lastmod>2026-04-23</lastmod></url>
   <url><loc>https://www.cosmosweek.com/en/news/smile-set-to-launch-on-19-may/</loc><lastmod>2026-04-23</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/noticia/xrism-high-resolution-x-ray-spectroscopy-of-cygnus-x-1-orbital-and-short-term-variability-of-iro/</loc><lastmod>2026-04-23</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/en/news/xrism-high-resolution-x-ray-spectroscopy-of-cygnus-x-1-orbital-and-short-term-variability-of-iro/</loc><lastmod>2026-04-23</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/assessing-emulator-design-and-training-for-modal-aerosol-microphysics-parameterizations-in-e3smv/</loc><lastmod>2026-04-23</lastmod></url>
   <url><loc>https://www.cosmosweek.com/en/news/assessing-emulator-design-and-training-for-modal-aerosol-microphysics-parameterizations-in-e3smv/</loc><lastmod>2026-04-23</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/belts-of-green-in-the-washington-suburbs/</loc><lastmod>2026-04-22</lastmod></url>
@@ -64,12 +68,8 @@
   <url><loc>https://www.cosmosweek.com/en/news/volunteers-discover-rare-space-weather-events-using-their-ears/</loc><lastmod>2026-04-17</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/sun-news-huge-coronal-hole-now-faces-earth/</loc><lastmod>2026-04-17</lastmod></url>
   <url><loc>https://www.cosmosweek.com/en/news/sun-news-huge-coronal-hole-now-faces-earth/</loc><lastmod>2026-04-17</lastmod></url>
-  <url><loc>https://www.cosmosweek.com/noticia/desi-s-3d-map-of-the-universe-is-complete/</loc><lastmod>2026-04-17</lastmod></url>
-  <url><loc>https://www.cosmosweek.com/en/news/desi-s-3d-map-of-the-universe-is-complete/</loc><lastmod>2026-04-17</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso/</loc><lastmod>2026-04-16</lastmod></url>
   <url><loc>https://www.cosmosweek.com/en/news/cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso/</loc><lastmod>2026-04-16</lastmod></url>
-  <url><loc>https://www.cosmosweek.com/noticia/quantum-fourier-transform-reaches-52-qubits-shattering-the-previous-27-qubit-record/</loc><lastmod>2026-04-16</lastmod></url>
-  <url><loc>https://www.cosmosweek.com/en/news/quantum-fourier-transform-reaches-52-qubits-shattering-the-previous-27-qubit-record/</loc><lastmod>2026-04-16</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster/</loc><lastmod>2026-04-15</lastmod></url>
   <url><loc>https://www.cosmosweek.com/en/news/jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster/</loc><lastmod>2026-04-15</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter/</loc><lastmod>2026-04-14</lastmod></url>
@@ -96,8 +96,18 @@
   <url><loc>https://www.cosmosweek.com/en/news/a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star/</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/science-release-hubble-unexpectedly-catches-comet-breaking-up/</loc><lastmod>2026-03-18</lastmod></url>
   <url><loc>https://www.cosmosweek.com/en/news/science-release-hubble-unexpectedly-catches-comet-breaking-up/</loc><lastmod>2026-03-18</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/noticia/another-instrument-shut-down-on-voyager-1-to-extend-its-interstellar-mission/</loc><lastmod>2026-04-26</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/en/news/another-instrument-shut-down-on-voyager-1-to-extend-its-interstellar-mission/</loc><lastmod>2026-04-26</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/noticia/two-blazing-quasars-caught-waltzing-into-a-merger/</loc><lastmod>2026-04-26</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/en/news/two-blazing-quasars-caught-waltzing-into-a-merger/</loc><lastmod>2026-04-26</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/noticia/the-threat-of-light-pollution-puts-the-world-s-darkest-skies-in-the-atacama-desert-at-risk/</loc><lastmod>2026-04-26</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/en/news/the-threat-of-light-pollution-puts-the-world-s-darkest-skies-in-the-atacama-desert-at-risk/</loc><lastmod>2026-04-26</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/noticia/small-antarctic-telescope-makes-an-outsized-impact-on-exoplanetary-science/</loc><lastmod>2026-04-26</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/en/news/small-antarctic-telescope-makes-an-outsized-impact-on-exoplanetary-science/</loc><lastmod>2026-04-26</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/deep-under-antarctic-ice-a-long-predicted-cosmic-whisper-finally-breaks-through-in-13-strange-bu/</loc><lastmod>2026-04-26</lastmod></url>
   <url><loc>https://www.cosmosweek.com/en/news/deep-under-antarctic-ice-a-long-predicted-cosmic-whisper-finally-breaks-through-in-13-strange-bu/</loc><lastmod>2026-04-26</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/noticia/visible-planets-and-night-sky-guide-for-april-and-may/</loc><lastmod>2026-04-26</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/en/news/visible-planets-and-night-sky-guide-for-april-and-may/</loc><lastmod>2026-04-26</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/paris-has-successfully-cut-noise-pollution-but-urban-birds-still-can-t-sing-at-their-natural-pit/</loc><lastmod>2026-04-26</lastmod></url>
   <url><loc>https://www.cosmosweek.com/en/news/paris-has-successfully-cut-noise-pollution-but-urban-birds-still-can-t-sing-at-their-natural-pit/</loc><lastmod>2026-04-26</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/interstellar-comet-3i-atlas-born-in-a-cold-environment/</loc><lastmod>2026-04-26</lastmod></url>
@@ -136,6 +146,8 @@
   <url><loc>https://www.cosmosweek.com/en/news/uranus-s-outermost-rings-are-made-of-two-different-things/</loc><lastmod>2026-04-23</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/plato-aces-space-like-tests/</loc><lastmod>2026-04-23</lastmod></url>
   <url><loc>https://www.cosmosweek.com/en/news/plato-aces-space-like-tests/</loc><lastmod>2026-04-23</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/noticia/engineers-develop-a-new-system-to-track-material-design-processes/</loc><lastmod>2026-04-22</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/en/news/engineers-develop-a-new-system-to-track-material-design-processes/</loc><lastmod>2026-04-22</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc/</loc><lastmod>2026-04-22</lastmod></url>
   <url><loc>https://www.cosmosweek.com/en/news/chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc/</loc><lastmod>2026-04-22</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/astronomers-find-the-edge-of-the-milky-way/</loc><lastmod>2026-04-21</lastmod></url>
@@ -152,12 +164,16 @@
   <url><loc>https://www.cosmosweek.com/en/news/sandro-schreiber-de-oliveira/</loc><lastmod>2026-04-17</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/alma-and-jwst-investigate-giant-disk-galaxy-s-formation-and-evolution/</loc><lastmod>2026-04-17</lastmod></url>
   <url><loc>https://www.cosmosweek.com/en/news/alma-and-jwst-investigate-giant-disk-galaxy-s-formation-and-evolution/</loc><lastmod>2026-04-17</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/noticia/desi-s-3d-map-of-the-universe-is-complete/</loc><lastmod>2026-04-17</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/en/news/desi-s-3d-map-of-the-universe-is-complete/</loc><lastmod>2026-04-17</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/iron-plus-uv-light-turns-alcohol-into-hydrogen-with-catalyst-like-efficiency/</loc><lastmod>2026-04-17</lastmod></url>
   <url><loc>https://www.cosmosweek.com/en/news/iron-plus-uv-light-turns-alcohol-into-hydrogen-with-catalyst-like-efficiency/</loc><lastmod>2026-04-17</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants/</loc><lastmod>2026-04-16</lastmod></url>
   <url><loc>https://www.cosmosweek.com/en/news/how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants/</loc><lastmod>2026-04-16</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/cyanobacteria-surprise-scientists-with-evolutionary-shift/</loc><lastmod>2026-04-16</lastmod></url>
   <url><loc>https://www.cosmosweek.com/en/news/cyanobacteria-surprise-scientists-with-evolutionary-shift/</loc><lastmod>2026-04-16</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/noticia/quantum-fourier-transform-reaches-52-qubits-shattering-the-previous-27-qubit-record/</loc><lastmod>2026-04-16</lastmod></url>
+  <url><loc>https://www.cosmosweek.com/en/news/quantum-fourier-transform-reaches-52-qubits-shattering-the-previous-27-qubit-record/</loc><lastmod>2026-04-16</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/laser-plasma-accelerator-drives-free-electron-laser-for-record-8-hours/</loc><lastmod>2026-04-16</lastmod></url>
   <url><loc>https://www.cosmosweek.com/en/news/laser-plasma-accelerator-drives-free-electron-laser-for-record-8-hours/</loc><lastmod>2026-04-16</lastmod></url>
   <url><loc>https://www.cosmosweek.com/noticia/eyeing-the-richat-structure/</loc><lastmod>2026-04-16</lastmod></url>

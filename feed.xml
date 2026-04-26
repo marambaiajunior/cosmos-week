@@ -5,9 +5,19 @@
     <link>https://www.cosmosweek.com/</link>
     <description>Portal de jornalismo científico com foco em astronomia, astrofísica, cosmologia e ciência de fronteira.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Sun, 26 Apr 2026 14:05:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 20:37:54 +0000</lastBuildDate>
     <generator>CosmosWeekBot 5.0</generator>
     <item>
+              <title>Aquecimento global empurra corais para ponto de não retorno</title>
+              <link>https://www.cosmosweek.com/noticia/aquecimento-global-empurra-corais-para-ponto-de-nao-retorno/</link>
+              <guid>https://www.cosmosweek.com/noticia/aquecimento-global-empurra-corais-para-ponto-de-nao-retorno/</guid>
+              <pubDate>Sun, 26 Apr 2026 14:05:37 +0000</pubDate>
+              <author>contato@cosmosweek.com (Cosmos Week)</author>
+              <description>A mortalidade em massa de corais, observada entre 2024 e 2025, acende um alerta crítico sobre o futuro dos recifes no Brasil e globalmente, indicando que esses ecossistemas podem estar se aproximando de um ponto de não retorno.</description>
+              <category>Astronomia</category><category>Pesquisa FAPESP Online</category><category>Cosmos Week</category><category>Aquecimento global empurra corais para ponto de não retorno</category>
+              <source url="https://revistapesquisa.fapesp.br/aquecimento-global-empurra-corais-para-ponto-de-nao-retorno/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=aquecimento-global-empurra-corais-para-ponto-de-nao-retorno">Pesquisa FAPESP Online</source>
+              <content:encoded>A recente e alarmante mortalidade em massa de corais, observada entre 2024 e 2025, representa um marco sombrio na crise climática global, sinalizando que os ecossistemas recifais podem estar se aproximando de um ponto de não retorno. Este fenômeno devastador, que afeta tanto os recifes brasileiros quanto os de outras regiões do planeta, é uma consequência direta do aquecimento global e das alterações climáticas induzidas pela atividade humana. A escala e a intensidade dessa mortalidade sem precedentes acendem um alerta urgente para a comunidade científica e para os formuladores de políticas públicas, exigindo uma reavaliação das estratégias de conservação e mitigação. A saúde dos oceanos, e em particular a dos ecossistemas de coral, é um indicador crucial da saúde planetária, e sua deterioração acelerada aponta para um futuro incerto para a biodiversidade marinha e para as comunidades hu</content:encoded>
+            </item><item>
               <title>Capturando as Primeiras Estrelas do Universo</title>
               <link>https://www.cosmosweek.com/noticia/catching-the-earliest-stars-in-the-universe/</link>
               <guid>https://www.cosmosweek.com/noticia/catching-the-earliest-stars-in-the-universe/</guid>
@@ -87,6 +97,16 @@
               <category>Astronomia</category><category>ESA Space Science</category><category>Cosmos Week</category><category>Smile será lançado em 19 de maio</category>
               <source url="https://www.esa.int/Science_Exploration/Space_Science/Smile/Smile_set_to_launch_on_19_May">ESA Space Science</source>
               <content:encoded>A missão Smile europeia-chinesa está programada para ser lançada na terça-feira, 19 de maio de 2026, às 05h52 CEST/04h52 BST/00h52 horário local, a bordo de um foguete europeu Vega-C. Esta data foi cuidadosamente selecionada e acordada por todos os parceiros após extensas investigações sobre o cronograma. O Smile, acrônimo para Solar Wind Magnetosphere Ionosphere Link Explorer, representa uma colaboração científica de grande envergadura entre a Agência Espacial Europeia (ESA) e a Academia Chinesa de Ciências (CAS), visando aprofundar nossa compreensão sobre a interação entre o vento solar e a magnetosfera terrestre. Durante a fase de lançamento, o foguete Vega-C executará uma sequência de separação de seus quatro estágios, culminando na liberação da sonda Smile após 57 minutos de voo. Um momento crítico ocorrerá seis minutos depois, aos 63 minutos, quando os painéis solares do Smile serã</content:encoded>
+            </item><item>
+              <title>Espectroscopia de raios X de alta resolução do Cygnus X-1 com XRISM: Variabilidade orbital e de curto prazo da absorção de ferro</title>
+              <link>https://www.cosmosweek.com/noticia/xrism-high-resolution-x-ray-spectroscopy-of-cygnus-x-1-orbital-and-short-term-variability-of-iro/</link>
+              <guid>https://www.cosmosweek.com/noticia/xrism-high-resolution-x-ray-spectroscopy-of-cygnus-x-1-orbital-and-short-term-variability-of-iro/</guid>
+              <pubDate>Thu, 23 Apr 2026 11:31:08 +0000</pubDate>
+              <author>contato@cosmosweek.com (Cosmos Week)</author>
+              <description>Este estudo apresenta a primeira espectroscopia de alta resolução do binário de raios X de alta massa Cygnus X-1, utilizando dados do XRISM.</description>
+              <category>Astrofísica</category><category>arXiv High Energy Astrophysics</category><category>Cosmos Week</category><category>Espectroscopia de raios X de alta resolução XRISM de Cygnus X</category>
+              <source url="https://arxiv.org/abs/2604.21557v1">arXiv High Energy Astrophysics</source>
+              <content:encoded>Este estudo apresenta a primeira espectroscopia de alta resolução do binário de raios X de alta massa Cygnus X-1, um buraco negro, utilizando dados do satélite XRISM. O objetivo principal foi investigar a variabilidade orbital e de curto prazo da absorção de ferro, fornecendo uma compreensão mais aprofundada dos processos físicos que ocorrem neste sistema astrofísico complexo. A análise detalhada das características espectrais do Cygnus X-1 é crucial para desvendar a dinâmica do vento estelar e a interação com o buraco negro, aspectos fundamentais para a astrofísica de raios X. Os dados foram coletados durante a fase de verificação de desempenho do XRISM, especificamente em abril de 2024. Para a análise, empregou-se o microcalorímetro Resolve e o gerador de imagens Xtend CCD, ambos instrumentos a bordo do satélite. A combinação desses instrumentos permitiu uma investigação abrangente da </content:encoded>
             </item><item>
               <title>Avaliação do Projeto e Treinamento de Emuladores para Parametrizações Microfísicas Modais de Aerossóis no E3SMv2</title>
               <link>https://www.cosmosweek.com/noticia/assessing-emulator-design-and-training-for-modal-aerosol-microphysics-parameterizations-in-e3smv/</link>
@@ -187,26 +207,6 @@
               <category>Astrofísica</category><category>Phys. org Space</category><category>Cosmos Week</category><category>Modelos teóricos da química das supernovas revisados ​​após dados de raios X do Cluster Perseus revelarem discrepâncias importantes</category>
               <source url="https://phys.org/news/2026-04-theoretical-supernova-chemistry-overhauled-ray.html">Phys. org Space</source>
               <content:encoded>A produção abundante de certos elementos por estrelas massivas, aquelas com massa dez vezes superior à do Sol ou mais, é um ponto crucial. A discrepância entre as previsões dos modelos e as observações de raios X sugere que a compreensão atual da evolução dessas estrelas e dos mecanismos de suas explosões de supernovas pode estar incompleta. A revisão dos modelos é, portanto, essencial para explicar a distribuição e a abundância desses elementos no universo, especialmente no contexto de aglomerados de galáxias como o de Perseu, onde a história de formação estelar e de supernovas é complexa. Diante dessas descobertas, uma equipe de pesquisa tem se dedicado ao desenvolvimento sistemático de novos modelos para a evolução de estrelas massivas e suas subsequentes explosões esféricas. Este trabalho, que se desdobra em uma série de artigos científicos, visa aprimorar a precisão das previsões te</content:encoded>
-            </item><item>
-              <title>Meta-spanners ópticos generalizados possibilitam trajetórias de luz arbitrárias para manipulação óptica multitarefa</title>
-              <link>https://www.cosmosweek.com/noticia/generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul/</link>
-              <guid>https://www.cosmosweek.com/noticia/generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul/</guid>
-              <pubDate>Sun, 19 Apr 2026 14:30:02 +0000</pubDate>
-              <author>contato@cosmosweek.com (Cosmos Week)</author>
-              <description>Este estudo apresenta uma nova abordagem para a manipulação de matéria microscópica, permitindo a condução de partículas ao longo de trajetórias arbitrárias e complexas, superando as limitações das manipulações ópticas convencionais que se restringem a.</description>
-              <category>Física</category><category>Phys. org Physics</category><category>Cosmos Week</category><category>Meta</category>
-              <source url="https://phys.org/news/2026-04-generalized-optical-meta-spanners-empower.html">Phys. org Physics</source>
-              <content:encoded>A manipulação de matéria microscópica por meio de forças fotônicas tem revolucionado diversas áreas da ciência e tecnologia, desde a invenção das pinças ópticas em 1986. Essa técnica, que permite a captura e o controle sem contato de partículas utilizando o momento e o momento angular da luz, tornou-se uma ferramenta indispensável em campos como a biofísica, a ciência da matéria mole e a micro-nanotecnologia. No entanto, as abordagens tradicionais frequentemente impõem limitações geométricas, restringindo a movimentação de partículas a trajetórias relativamente simples, como círculos ou linhas retas. A capacidade de guiar a matéria microscópica ao longo de caminhos arbitrariamente adaptados e complexos, em vez de apenas movimentos predefinidos, representa um desafio significativo e uma fronteira para expandir as aplicações da manipulação óptica. É precisamente essa limitação que o presen</content:encoded>
-            </item><item>
-              <title>Riachos mais quentes podem estar esgotando as teias alimentares fluviais, liberando mais carbono para a atmosfera</title>
-              <link>https://www.cosmosweek.com/noticia/warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air/</link>
-              <guid>https://www.cosmosweek.com/noticia/warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air/</guid>
-              <pubDate>Fri, 17 Apr 2026 23:00:01 +0000</pubDate>
-              <author>contato@cosmosweek.com (Cosmos Week)</author>
-              <description>O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se move através desses ecossistemas.</description>
-              <category>Ciências da Terra</category><category>Phys. org Biology</category><category>Cosmos Week</category><category>Riachos mais quentes podem estar drenando as teias alimentares dos rios</category>
-              <source url="https://phys.org/news/2026-04-warmer-streams-river-food-webs.html">Phys. org Biology</source>
-              <content:encoded>O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se move através desses ecossistemas aquáticos. Em um novo estudo publicado na revista *Ecosphere*, pesquisadores da Universidade do Norte do Arizona (NAU) descobriram que, com o aumento da temperatura da água, micróbios e insetos aquáticos processam folhas, galhos e cascas caídas mais rapidamente, mas uma fração menor dessa matéria orgânica é incorporada em suas biomassas. Essas descobertas apontam para uma mudança significativa na maneira como os ecossistemas fluviais retêm energia em condições de aquecimento, com implicações importantes para a flora e a fauna nos rios do oeste dos Estados Unidos. Para investigar como o aquecimento afeta os processos fluviais, os pesquisadores da NAU desenvolveram um sistema de fluxo controlado no The Arboretum a</content:encoded>
             </item>
   </channel>
 </rss>
