@@ -3,6 +3,221 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x630_crop_center-center_82_none/20170518_building-nasa.jpg?mtime=1753473841",
+    "inline_images": [
+      {
+        "src": "https://www.planetary.org/space-images/juno-during-orbital-insertion-burn",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x1241_crop_center-center_82_line/20160706_juno3_hr.jpg.webp",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x1241_crop_center-center_82_line/20160706_juno3_hr.jpg",
+        "alt": "Juno durante queimadura de inserção orbital",
+        "alt_pt": "Juno durante queimadura de inserção orbital",
+        "alt_en": "Juno during orbital insertion burn",
+        "caption": "Juno durante queimadura de inserção orbital",
+        "caption_pt": "Juno durante queimadura de inserção orbital",
+        "caption_en": "Juno during orbital insertion burn"
+      },
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x1350_crop_center-center_82_line/habitable-worlds-observatory.jpg.webp",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x1350_crop_center-center_82_line/habitable-worlds-observatory.jpg",
+        "alt": "Observatório de Mundos Habitáveis",
+        "alt_pt": "Observatório de Mundos Habitáveis",
+        "alt_en": "Habitable Worlds Observatory",
+        "caption": "Observatório de Mundos Habitáveis",
+        "caption_pt": "Observatório de Mundos Habitáveis",
+        "caption_en": "Habitable Worlds Observatory"
+      },
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x1712_crop_center-center_82_line/ExoMars-2022-rover-ESA.jpg",
+        "alt": "ExoMarte 2022",
+        "alt_pt": "ExoMarte 2022",
+        "alt_en": "ExoMars 2022",
+        "caption": "ExoMarte 2022",
+        "caption_pt": "ExoMarte 2022",
+        "caption_en": "ExoMars 2022"
+      },
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x1596_crop_center-center_82_line/VERITAS-concept-art.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x657_crop_center-center_82_line/esa-envision-spacecraft.jpg",
+        "alt": "EnVision da ESA",
+        "alt_pt": "EnVision da ESA",
+        "alt_en": "ESA's EnVision",
+        "caption": "EnVision da ESA",
+        "caption_pt": "EnVision da ESA",
+        "caption_en": "ESA's EnVision"
+      },
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x1200_crop_center-center_82_line/20170518_vab-at-night.jpg",
+        "alt": "NO VAB à noite",
+        "alt_pt": "NO VAB à noite",
+        "alt_en": "NASA VAB at night",
+        "caption": "NO VAB à noite",
+        "caption_pt": "NO VAB à noite",
+        "caption_en": "NASA VAB at night"
+      },
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_576x576_crop_center-center_82_line/vab-ml-at-night.jpg",
+        "alt": "Vab ml à noite",
+        "alt_pt": "Vab ml à noite",
+        "alt_en": "Vab ml at night",
+        "caption": "Vab ml à noite",
+        "caption_pt": "Vab ml à noite",
+        "caption_en": "Vab ml at night"
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Dias depois do Artemis II, cientistas alertam sobre cortes profundos nas missões da NASA",
+    "title_pt": "Dias depois do Artemis II, cientistas alertam sobre cortes profundos nas missões da NASA",
+    "title_en": "Days after Artemis II, scientists warn of deep cuts to NASA missions",
+    "sub": "Escrito por Asa Stahl, PhD Editor Científico, The Planetary Society 27 de abril de 2026 Em 3 de abril de 2026, a Casa Branca anunciou um plano para cancelar mais de 50 missões.",
+    "sub_pt": "Escrito por Asa Stahl, PhD Editor Científico, The Planetary Society 27 de abril de 2026 Em 3 de abril de 2026, a Casa Branca anunciou um plano para cancelar mais de 50 missões.",
+    "sub_en": "Written by Asa Stahl, PhD Science Editor, The Planetary Society April 27, 2026 On April 3, 2026, the White House announced a plan to cancel over 50 space missions, including.",
+    "excerpt": "Escrito por Asa Stahl, PhD Editor Científico, The Planetary Society 27 de abril de 2026 Em 3 de abril de 2026, a Casa Branca anunciou um plano para cancelar mais de 50 missões espaciais, incluindo naves espaciais já pagas, lançadas e fazendo descobertas, como.",
+    "excerpt_pt": "Escrito por Asa Stahl, PhD Editor Científico, The Planetary Society 27 de abril de 2026 Em 3 de abril de 2026, a Casa Branca anunciou um plano para cancelar mais de 50 missões espaciais, incluindo naves espaciais já pagas, lançadas e fazendo descobertas, como.",
+    "excerpt_en": "Written by Asa Stahl, PhD Science Editor, The Planetary Society April 27, 2026 On April 3, 2026, the White House announced a plan to cancel over 50 space missions, including spacecraft already paid for, launched, and making discoveries, as.",
+    "body": "<p>Escrito por Asa Stahl, PhD Editor Científico, The Planetary Society 27 de abril de 2026 Em 3 de abril de 2026, a Casa Branca anunciou um plano para cancelar mais de 50 missões espaciais - incluindo naves espaciais já pagas, lançadas e fazendo descobertas - como parte de um corte. A proposta provavelmente eliminaria milhares de empregos numa agência que acaba de lançar astronautas à Lua pela primeira vez em décadas, e dezenas de outras missões espaciais veriam as suas operações reduzidas ou lentamente interrompidas.</p><p>O Observatório de Mundos Habitáveis ​​é a próxima missão emblemática em desenvolvimento da NASA, construída para procurar vida em dezenas de planetas semelhantes à Terra, fora do nosso Sistema Solar, ao mesmo tempo que aborda questões fundamentais sobre o nosso Universo. HWO é o sucessor direto do Telescópio Espacial Hubble e do Telescópio Espacial James Webb, avançando a missão principal da NASA de explorar o Universo e procurar vida.</p><p>Especialistas em astronomia e aeroespacial oferecendo seu tempo e experiência por meio de grupos de trabalho, grupos de análise de programas e grupos de interesse científico. Pelo menos 16 estados estão representados nos centros da NASA, parceiros da indústria e na equipe comunitária de ciência e instrumentos da HWO.</p><p>OSIRIS-APEX aproveita o sobrevôo excepcionalmente raro da Terra em 2029 pelo asteróide potencialmente perigoso Apophis para avançar estratégias de defesa planetária e revelar como a gravidade da Terra altera a superfície e o interior de um asteróide. Cancelar a missão significaria perder a nossa única oportunidade de voo, e a única missão planeada da NASA, de observar como a gravidade da Terra afecta o asteróide próximo da Terra Apophis durante o seu encontro que ocorre uma vez a cada 7.500 anos.</p><p>Como o OSIRIS-APEX se enquadra na missão geral da NASA? . OSIRIS-APEX avança diretamente os objetivos da NASA em defesa planetária, exploração do Sistema Solar e reutilização de naves espaciais, permitindo a ciência transformadora a baixo custo, reaproveitando a nave espacial OSIRIS-REx existente para uma nova missão.</p><p>Na sexta-feira, 13 de abril de 2029, o asteróide Apophis passará pela Terra a um décimo da distância da Terra à Lua, mais próximo do que os satélites geossíncronos, e será visível a olho nu por dois mil milhões de pessoas em todo o mundo.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/meet-the-people-behind-nasas-endangered-missions\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Escrito por Asa Stahl, PhD Editor Científico, The Planetary Society 27 de abril de 2026 Em 3 de abril de 2026, a Casa Branca anunciou um plano para cancelar mais de 50 missões espaciais - incluindo naves espaciais já pagas, lançadas e fazendo descobertas - como parte de um corte. A proposta provavelmente eliminaria milhares de empregos numa agência que acaba de lançar astronautas à Lua pela primeira vez em décadas, e dezenas de outras missões espaciais veriam as suas operações reduzidas ou lentamente interrompidas.</p><p>O Observatório de Mundos Habitáveis ​​é a próxima missão emblemática em desenvolvimento da NASA, construída para procurar vida em dezenas de planetas semelhantes à Terra, fora do nosso Sistema Solar, ao mesmo tempo que aborda questões fundamentais sobre o nosso Universo. HWO é o sucessor direto do Telescópio Espacial Hubble e do Telescópio Espacial James Webb, avançando a missão principal da NASA de explorar o Universo e procurar vida.</p><p>Especialistas em astronomia e aeroespacial oferecendo seu tempo e experiência por meio de grupos de trabalho, grupos de análise de programas e grupos de interesse científico. Pelo menos 16 estados estão representados nos centros da NASA, parceiros da indústria e na equipe comunitária de ciência e instrumentos da HWO.</p><p>OSIRIS-APEX aproveita o sobrevôo excepcionalmente raro da Terra em 2029 pelo asteróide potencialmente perigoso Apophis para avançar estratégias de defesa planetária e revelar como a gravidade da Terra altera a superfície e o interior de um asteróide. Cancelar a missão significaria perder a nossa única oportunidade de voo, e a única missão planeada da NASA, de observar como a gravidade da Terra afecta o asteróide próximo da Terra Apophis durante o seu encontro que ocorre uma vez a cada 7.500 anos.</p><p>Como o OSIRIS-APEX se enquadra na missão geral da NASA? . OSIRIS-APEX avança diretamente os objetivos da NASA em defesa planetária, exploração do Sistema Solar e reutilização de naves espaciais, permitindo a ciência transformadora a baixo custo, reaproveitando a nave espacial OSIRIS-REx existente para uma nova missão.</p><p>Na sexta-feira, 13 de abril de 2029, o asteróide Apophis passará pela Terra a um décimo da distância da Terra à Lua, mais próximo do que os satélites geossíncronos, e será visível a olho nu por dois mil milhões de pessoas em todo o mundo.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/meet-the-people-behind-nasas-endangered-missions\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>This matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. The proposal would likely eliminate thousands of jobs at an agency that has just launched astronauts to the Moon for the first time in decades, and dozens of other space missions. The Habitable Worlds Observatory is NASA’s next flagship mission in development, built to search for life on dozens of Earth-like planets beyond our Solar System while addressing.</p><p>HWO is the direct successor to the Hubble Space Telescope and the James Webb Space Telescope, advancing NASA’s core mission to explore the Universe and search for life. Astronomy and aerospace experts volunteering their time and expertise through working groups, program analysis groups, and science interest groups.</p><p>At least 16 states are represented across NASA centers, industry partners, and the HWO Community Science and Instrument Team. OSIRIS-APEX capitalizes on the exceptionally rare 2029 Earth flyby of the potentially hazardous asteroid Apophis to advance planetary defense strategies and reveal how Earth’s.</p><p>Canceling the mission would forfeit our only in-flight opportunity, and NASA’s sole planned mission, to observe how Earth’s gravity affects the near-Earth asteroid Apophis during. How does OSIRIS-APEX fit into NASA’s overall mission.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>OSIRIS-APEX directly advances NASA’s goals in planetary defense, Solar System exploration, and spacecraft reusability by enabling transformative science at low cost, repurposing. On Friday, April 13, 2029, asteroid Apophis will fly by the Earth at one-tenth the distance from the Earth to the Moon, closer than geosynchronous satellites, and will be.</p><p>Because this item comes through The Planetary Society as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/meet-the-people-behind-nasas-endangered-missions\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Escrito por Asa Stahl, PhD Editor Científico, The Planetary Society 27 de abril de 2026 Em 3 de abril de 2026, a Casa Branca anunciou um plano para",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_pt": [
+      "Em foco: Escrito por Asa Stahl, PhD Editor Científico, The Planetary Society 27 de abril de 2026 Em 3 de abril de 2026, a Casa Branca anunciou um plano para",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_en": [
+      "Focus: Written by Asa Stahl, PhD Science Editor, The Planetary Society April 27, 2026 On April 3, 2026, the White House announced a plan to cancel over 50",
+      "Detail: Science reporting: verify primary technical documentation",
+      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+    ],
+    "date": "27 abr 2026",
+    "date_pt": "27 abr 2026",
+    "date_en": "27 Apr 2026",
+    "time": "14h00",
+    "time_pt": "14h00",
+    "time_en": "14: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-27T14:00:00+00:00",
+    "lastModifiedIso": "2026-04-27T15:20:01+00:00",
+    "source": "The Planetary Society",
+    "sourceDomain": "www. planetary. org",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Astronomia",
+      "The Planetary Society",
+      "Cosmos Week",
+      "Dias depois do Artemis II",
+      "cientistas alertam sobre cortes profundos nas missões da NASA"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "The Planetary Society",
+      "Cosmos Week",
+      "Dias depois do Artemis II",
+      "cientistas alertam sobre cortes profundos nas missões da NASA"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "The Planetary Society",
+      "Cosmos Week",
+      "Days after Artemis II",
+      "Scientists warn of deep cuts to NASA missions"
+    ],
+    "srcUrl": "https://www.planetary.org/articles/meet-the-people-behind-nasas-endangered-missions",
+    "realUrl": "https://www.cosmosweek.com/?article=days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions",
+    "realUrl_en": "https://www.cosmosweek.com/?article=days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 90,
+    "scoreBreakdown": {
+      "source": 83,
+      "evidence": 54,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Dias depois do Artemis II, cientistas alertam sobre cortes profundos nas missões da NASA",
+    "imageAlt_pt": "Dias depois do Artemis II, cientistas alertam sobre cortes profundos nas missões da NASA",
+    "imageAlt_en": "Days after Artemis II, scientists warn of deep cuts to NASA missions",
+    "coverageKind": "news",
+    "coverageKindLabel": "Jornalismo científico",
+    "coverageKindLabel_pt": "Jornalismo científico",
+    "coverageKindLabel_en": "Science journalism",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
     "slug": "snow-is-scarce-in-the-upper-colorado-basin",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -133,7 +348,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "aquecimento-global-empurra-corais-para-ponto-de-nao-retorno",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -167,19 +382,19 @@ window.postsData = [
     "body_pt": "<p>A recente e alarmante mortalidade em massa de corais, observada entre 2024 e 2025, representa um marco sombrio na crise climática global, sinalizando que os ecossistemas recifais podem estar se aproximando de um ponto de não retorno. Este fenômeno devastador, que afeta tanto os recifes brasileiros quanto os de outras regiões do planeta, é uma consequência direta do aquecimento global e das alterações climáticas induzidas pela atividade humana. A escala e a intensidade dessa mortalidade sem precedentes acendem um alerta urgente para a comunidade científica e para os formuladores de políticas públicas, exigindo uma reavaliação das estratégias de conservação e mitigação. A saúde dos oceanos, e em particular a dos ecossistemas de coral, é um indicador crucial da saúde planetária, e sua deterioração acelerada aponta para um futuro incerto para a biodiversidade marinha e para as comunidades humanas que dependem desses ambientes.</p><p>O principal mecanismo por trás dessa mortalidade em massa é o branqueamento de corais, um processo desencadeado pelo estresse térmico. Quando as temperaturas da água do mar excedem os limites de tolerância dos corais por períodos prolongados, as algas simbióticas (zooxantelas) que vivem em seus tecidos e fornecem a maior parte de sua energia são expelidas. Sem essas algas, os corais perdem sua coloração e sua principal fonte de alimento, tornando-se vulneráveis a doenças e à fome. Embora os corais possam se recuperar de eventos de branqueamento leves, a frequência e a severidade crescentes desses episódios, impulsionadas pelas ondas de calor marinhas cada vez mais intensas, comprometem sua capacidade de regeneração, levando à morte em larga escala e à degradação estrutural dos recifes.</p><p>Os recifes de coral são frequentemente chamados de &quot;florestas tropicais do mar&quot; devido à sua extraordinária biodiversidade. Eles abrigam cerca de 25% de todas as espécies marinhas conhecidas, apesar de cobrirem menos de 0, 1% da superfície oceânica. Além de serem berçários e áreas de alimentação para uma vasta gama de peixes, invertebrados e outras formas de vida marinha, os recifes desempenham um papel vital na proteção costeira, atuando como barreiras naturais contra tempestades e erosão. Sua estrutura complexa dissipa a energia das ondas, protegendo as comunidades costeiras e a infraestrutura. Economicamente, sustentam indústrias de pesca e turismo que geram bilhões de dólares anualmente e empregam milhões de pessoas em todo o mundo.</p><p>A perda generalizada de corais tem implicações catastróficas que se estendem muito além dos próprios recifes. A diminuição da biodiversidade marinha pode levar ao colapso de ecossistemas inteiros, afetando as cadeias alimentares e a produtividade pesqueira, o que, por sua vez, ameaça a segurança alimentar de milhões de pessoas. A degradação dos recifes também aumenta a vulnerabilidade das costas a eventos climáticos extremos, resultando em maior erosão e danos a propriedades e infraestruturas costeiras. Além disso, a perda de recifes vibrantes e saudáveis impacta negativamente o turismo ecológico, privando as economias locais de uma fonte crucial de renda e emprego, e diminuindo o valor cultural e recreativo desses ambientes únicos.</p><p>O conceito de &quot;ponto de não retorno&quot; para os recifes de coral sugere que, uma vez ultrapassado um certo limiar de estresse ambiental, a capacidade de recuperação natural desses ecossistemas é severamente comprometida ou perdida. Isso significa que, mesmo que as condições ambientais melhorem, a recuperação pode ser extremamente lenta, incompleta ou até impossível, levando a uma mudança irreversível para um estado degradado dominado por algas ou outros organismos menos complexos. A mortalidade observada entre 2024 e 2025 pode indicar que muitos recifes estão perigosamente próximos, ou já ultrapassaram, esse limiar, tornando a ação imediata e drástica para reduzir as emissões de gases de efeito estufa ainda mais imperativa.</p><p>No contexto brasileiro, os recifes de coral, como os encontrados na Costa dos Corais e no Parque Nacional Marinho de Abrolhos, são de importância ecológica e econômica inestimável. Embora a extensão exata da mortalidade de 2024-2025 nesses locais específicos ainda esteja sob investigação detalhada, a vulnerabilidade dos recifes brasileiros às mudanças climáticas é bem documentada. A combinação de águas mais quentes, acidificação dos oceanos e pressões locais, como poluição e pesca excessiva, cria um cenário de alto risco para esses ecossistemas. A proteção desses recifes exige não apenas a mitigação das causas globais do aquecimento, mas também a implementação de medidas de gestão local eficazes para aumentar sua resiliência.</p><p>A urgência da situação exige uma resposta multifacetada e coordenada em escala global. A redução drástica das emissões de gases de efeito estufa é a medida mais fundamental para desacelerar o aquecimento global e, consequentemente, aliviar o estresse térmico sobre os corais. Paralelamente, são necessárias estratégias de conservação local, incluindo a criação e o fortalecimento de áreas marinhas protegidas, o controle da poluição costeira, a gestão sustentável da pesca e a restauração ativa de recifes degradados. A pesquisa científica contínua é crucial para monitorar a saúde dos recifes, entender sua resiliência e desenvolver novas abordagens para sua proteção e recuperação em um clima em mudança.</p><p>Em suma, a mortalidade em massa de corais registrada entre 2024 e 2025 serve como um lembrete contundente da fragilidade dos ecossistemas marinhos diante das mudanças climáticas. A perspectiva de que os recifes de coral possam estar se aproximando de um ponto de não retorno sublinha a necessidade premente de ação global e local. O futuro desses ecossistemas vitais, e de toda a vida marinha que deles depende, está intrinsecamente ligado à nossa capacidade de enfrentar os desafios do aquecimento global com determinação e urgência sem precedentes. A inação não é uma opção, pois as consequências da perda dos recifes seriam irreversíveis e devastadoras para o planeta e para a humanidade.</p>",
     "body_en": "<p>Mortalidade em massa registrada entre 2024 e 2025 acende alerta sobre o futuro dos recifes no Brasil e no mundo | 7&#x27;28. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>The significance lies in astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Mortalidade em massa registrada entre 2024 e 2025 acende alerta sobre o futuro dos recifes no Brasil e no mundo. É permitida a republicação desta reportagem em meios digitais de acordo com a licença Creative Commons CC-BY-NC-ND.</p><p>É obrigatório o cumprimento da Política de Republicação Digital de Conteúdo de Pesquisa FAPESP, aqui especificada. O conteúdo não pode ser protegido por paywall, isto é, não pode ter acesso limitado a assinantes ou mediante pagamento, não deve ser editado e a autoria deve ser atribuída, assim.</p><p>O uso do botão HTML permite o atendimento a essas normas. Em caso de reprodução apenas do texto, por favor, consulte a Política de Republicação Digital.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Because this item comes through Pesquisa FAPESP Online as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://revistapesquisa.fapesp.br/aquecimento-global-empurra-corais-para-ponto-de-nao-retorno/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=aquecimento-global-empurra-corais-para-ponto-de-nao-retorno\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A mortalidade em massa de corais, observada entre 2024 e 2025, acende um alerta crítico sobre o futuro dos recifes no Brasil e globalmente, indicando",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: A mortalidade em massa de corais, observada entre 2024 e 2025, acende um alerta crítico sobre o futuro dos recifes no Brasil e globalmente, indicando.",
+      "Dado-chave: A mortalidade em massa de corais, observada entre 2024 e 2025, acende um alerta crítico sobre o futuro dos recifes no Brasil e globalmente.",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
-      "Em foco: A mortalidade em massa de corais, observada entre 2024 e 2025, acende um alerta crítico sobre o futuro dos recifes no Brasil e globalmente, indicando",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: A mortalidade em massa de corais, observada entre 2024 e 2025, acende um alerta crítico sobre o futuro dos recifes no Brasil e globalmente, indicando.",
+      "Dado-chave: A mortalidade em massa de corais, observada entre 2024 e 2025, acende um alerta crítico sobre o futuro dos recifes no Brasil e globalmente.",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
-      "Focus: Mortalidade em massa registrada entre 2024 e 2025 acende alerta sobre o futuro dos recifes no Brasil e no mundo | 7'28",
-      "Detail: Science reporting: verify primary technical documentation",
-      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+      "Core point: Mortalidade em massa registrada entre 2024 e 2025 acende alerta sobre o futuro dos recifes no Brasil e no mundo | 7'28.",
+      "Key detail: Mortalidade em massa registrada entre 2024 e 2025 acende alerta sobre o futuro dos recifes no Brasil e no mundo | 7'28",
+      "Science reporting: verify primary technical documentation."
     ],
     "date": "26 abr 2026",
     "date_pt": "26 abr 2026",
@@ -267,7 +482,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -387,7 +602,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "demographics-of-mesoscale-eddies-in-an-eddy-permitting-ocean-model-and-reanalysis",
     "cat": "Física",
     "catCls": "fisica",
@@ -507,7 +722,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "catching-the-earliest-stars-in-the-universe",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -628,7 +843,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "braving-the-arctic-for-upcoming-polar-focused-satellites",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -749,7 +964,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "hilumi-lhc-cern-s-full-scale-test-stand-enters-the-powering-phase",
     "cat": "Física",
     "catCls": "fisica",
@@ -883,7 +1098,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1004,7 +1219,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "the-fy-2027-nasa-budget-request",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1180,7 +1395,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "accelerating-scaling-solutions-from-dark-matter-particle-creation",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -1202,17 +1417,17 @@ window.postsData = [
     "body_en": "<p>This article opens new window to obtain accelerating scaling attractors without any need of dark energy. We study cosmological dynamics in a two-fluid system where pressureless dark matter undergoes adiabatic particle creation and. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>The significance lies in cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Have an idea for a project that will add value for arXiv&#x27;s community. We study cosmological dynamics in a two-fluid system where pressureless dark matter (DM) undergoes adiabatic particle creation and exchanges energy with a barotropic fluid.</p><p>Considering six widely used interaction prescriptions, we formulate the corresponding autonomous systems in a compact phase space and perform a unified dynamical analysis. We find that accelerating scaling attractors, namely late-time states where both fluids coexist with fixed energy fractions, arise only when the interaction is controlled by the.</p><p>Such attractors appear in the global and local DM-based interactions, and in the global mixed case, but are entirely absent when the interaction depends on the second fluid or on. These results clarify the unique conditions under which matter creation can mimic dark-energy-like behaviour without introducing a dark-energy component.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.21770v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Este artigo apresenta uma nova perspectiva para a obtenção de atratores de escala acelerada, eliminando a necessidade de energia escura.",
-      "Dado-chave: Este artigo apresenta uma nova perspectiva para a obtenção de atratores de escala acelerada, eliminando a necessidade de energia escura",
+      "Dado-chave: Este artigo apresenta uma nova perspectiva para a obtenção de atratores de escala acelerada, eliminando a necessidade de energia escura.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
       "Ponto central: Este artigo apresenta uma nova perspectiva para a obtenção de atratores de escala acelerada, eliminando a necessidade de energia escura.",
-      "Dado-chave: Este artigo apresenta uma nova perspectiva para a obtenção de atratores de escala acelerada, eliminando a necessidade de energia escura",
+      "Dado-chave: Este artigo apresenta uma nova perspectiva para a obtenção de atratores de escala acelerada, eliminando a necessidade de energia escura.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
       "Core point: This article opens new window to obtain accelerating scaling attractors without any need of dark energy.",
-      "Key detail: This article opens new window to obtain accelerating scaling attractors without any need of dark energy",
+      "Key detail: This article opens new window to obtain accelerating scaling attractors without any need of dark energy.",
       "Result not yet peer reviewed."
     ],
     "date": "23 abr 2026",
@@ -1301,7 +1516,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "smile-set-to-launch-on-19-may",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1459,7 +1674,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "xrism-high-resolution-x-ray-spectroscopy-of-cygnus-x-1-orbital-and-short-term-variability-of-iro",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1481,12 +1696,12 @@ window.postsData = [
     "body_en": "<p>We present the first high-resolution spectroscopy of the black hole high-mass X-ray binary Cygnus X-1 with XRISM, including orbital-phase-resolved analyses and tentative evidence of short-term variability in the Fe-K band on second. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>This matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Have an idea for a project that will add value for arXiv&#x27;s community. Using data from the Performance Verification phase in April 2024, we analyzed spectral variability across orbital phases with the Resolve microcalorimeter and the Xtend CCD imager.</p><p>The unprecedented resolution of Resolve reveals variability in highly ionized Fe absorption lines. The absorption features show orbital-phase-dependent variability in column density, ionization state, and blueshifted velocity, suggesting structural variations in the focused.</p><p>We also find indications of subtle broadening of the neutral Fe emission profile. In addition, intensity-sorted spectroscopy during dip phases suggests possible variability on timescales of a few seconds in the absorption features, consistent with cooler.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>Although the statistical significance is limited, these results hint that the stellar wind and the X-rays from the accretion disk around the black hole may interact on timescales. These XRISM results constrain wind-fed accretion in Cyg X-1 and highlight Resolve&#x27;s capability to probe plasma environments in high-mass X-ray binaries.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.21557v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Este estudo apresenta a primeira espectroscopia de alta resolução do binário de raios X de alta massa Cygnus X-1, utilizando dados do XRISM.",
-      "Dado-chave: Este estudo apresenta a primeira espectroscopia de alta resolução do binário de raios X de alta massa Cygnus X-1, utilizando dados do XRISM",
+      "Dado-chave: Este estudo apresenta a primeira espectroscopia de alta resolução do binário de raios X de alta massa Cygnus X-1, utilizando dados do XRISM.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
       "Ponto central: Este estudo apresenta a primeira espectroscopia de alta resolução do binário de raios X de alta massa Cygnus X-1, utilizando dados do XRISM.",
-      "Dado-chave: Este estudo apresenta a primeira espectroscopia de alta resolução do binário de raios X de alta massa Cygnus X-1, utilizando dados do XRISM",
+      "Dado-chave: Este estudo apresenta a primeira espectroscopia de alta resolução do binário de raios X de alta massa Cygnus X-1, utilizando dados do XRISM.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
@@ -1583,7 +1798,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "belts-of-green-in-the-washington-suburbs",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1714,7 +1929,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "stellar-flares-may-expand-habitable-zones-around-small-stars",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -1848,7 +2063,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "what-are-ames-contributions-to-artemis-ii",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1969,7 +2184,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "automated-ct-scan-analysis-could-fast-track-clinical-assessments",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2090,7 +2305,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "a-school-of-mud-volcano-islands-in-azerbaijan",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2221,7 +2436,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "nasa-on-track-for-future-missions-with-initial-artemis-ii-assessments",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2342,7 +2557,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "nasa-rolls-out-artemis-iii-moon-rocket-core-stage",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2463,7 +2678,240 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 21,
+    "slug": "photo-release-hubble-dazzles-with-young-stars-in-trifid-nebula-for-36th-anniversary",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "http://cdn.esahubble.org/archives/images/screen/heic2608a.jpg",
+    "inline_images": [
+      {
+        "src": "https://cdn.esahubble.org/archives/images/newsfeature/heic2608a.jpg",
+        "alt": "Nebulosa Trífida (Imagem da Câmera de Campo Amplo 3)",
+        "alt_pt": "Nebulosa Trífida (Imagem da Câmera de Campo Amplo 3)",
+        "alt_en": "Trifid Nebula (Wide Field Camera 3 Image)",
+        "caption": "Nebulosa Trífida (Imagem da Câmera de Campo Amplo 3)",
+        "caption_pt": "Nebulosa Trífida (Imagem da Câmera de Campo Amplo 3)",
+        "caption_en": "Trifid Nebula (Wide Field Camera 3 Image)"
+      },
+      {
+        "src": "https://cdn.esahubble.org/archives/images/news/heic2608a.jpg",
+        "alt": "Nebulosa Trífida (Imagem da Câmera de Campo Amplo 3)",
+        "alt_pt": "Nebulosa Trífida (Imagem da Câmera de Campo Amplo 3)",
+        "alt_en": "Trifid Nebula (Wide Field Camera 3 Image)",
+        "caption": "Nebulosa Trífida (Imagem da Câmera de Campo Amplo 3)",
+        "caption_pt": "Nebulosa Trífida (Imagem da Câmera de Campo Amplo 3)",
+        "caption_en": "Trifid Nebula (Wide Field Camera 3 Image)"
+      },
+      {
+        "src": "https://cdn.esahubble.org/archives/images/news/heic2608b.jpg",
+        "alt": "Nebulosa Trífida completa (imagem de Rubin com close-up do Hubble)",
+        "alt_pt": "Nebulosa Trífida completa (imagem de Rubin com close-up do Hubble)",
+        "alt_en": "Full Trifid Nebula (Rubin Image with Hubble Close-up)",
+        "caption": "Nebulosa Trífida completa (imagem de Rubin com close-up do Hubble)",
+        "caption_pt": "Nebulosa Trífida completa (imagem de Rubin com close-up do Hubble)",
+        "caption_en": "Full Trifid Nebula (Rubin Image with Hubble Close-up)"
+      },
+      {
+        "src": "https://cdn.esahubble.org/archives/images/news/heic2608c.jpg",
+        "alt": "Nebulosa Trífida (anotada)",
+        "alt_pt": "Nebulosa Trífida (anotada)",
+        "alt_en": "Trifid Nebula (annotated)",
+        "caption": "Nebulosa Trífida (anotada)",
+        "caption_pt": "Nebulosa Trífida (anotada)",
+        "caption_en": "Trifid Nebula (annotated)"
+      },
+      {
+        "src": "https://cdn.esahubble.org/archives/videos/news/heic2608a.jpg",
+        "alt": "Vídeo panorâmico: A Nebulosa Trífida",
+        "alt_pt": "Vídeo panorâmico: A Nebulosa Trífida",
+        "alt_en": "Pan video: The Trifid Nebula",
+        "caption": "Vídeo panorâmico: A Nebulosa Trífida",
+        "caption_pt": "Vídeo panorâmico: A Nebulosa Trífida",
+        "caption_en": "Pan video: The Trifid Nebula"
+      },
+      {
+        "src": "https://cdn.esahubble.org/archives/videos/news/heic2608b.jpg",
+        "alt": "Space Spark Episódio 26: Destaques de imagens do 36º ano do Hubble",
+        "alt_pt": "Space Spark Episódio 26: Destaques de imagens do 36º ano do Hubble",
+        "alt_en": "Space Spark Episode 26: Image highlights from Hubble's 36th year",
+        "caption": "Space Spark Episódio 26: Destaques de imagens do 36º ano do Hubble",
+        "caption_pt": "Space Spark Episódio 26: Destaques de imagens do 36º ano do Hubble",
+        "caption_en": "Space Spark Episode 26: Image highlights from Hubble's 36th year"
+      },
+      {
+        "src": "https://cdn.esahubble.org/archives/videos/news/heic2608c.jpg",
+        "alt": "Space Spark Episódio 27: Destaques científicos do 36º ano do Hubble",
+        "alt_pt": "Space Spark Episódio 27: Destaques científicos do 36º ano do Hubble",
+        "alt_en": "Space Spark Episode 27: Science highlights from Hubble's 36th year",
+        "caption": "Space Spark Episódio 27: Destaques científicos do 36º ano do Hubble",
+        "caption_pt": "Space Spark Episódio 27: Destaques científicos do 36º ano do Hubble",
+        "caption_en": "Space Spark Episode 27: Science highlights from Hubble's 36th year"
+      },
+      {
+        "src": "https://cdn.esahubble.org/archives/videos/news/heic2608d.jpg",
+        "alt": "Explore a Nebulosa Trífida",
+        "alt_pt": "Explore a Nebulosa Trífida",
+        "alt_en": "Explore the Trifid Nebula",
+        "caption": "Explore a Nebulosa Trífida",
+        "caption_pt": "Explore a Nebulosa Trífida",
+        "caption_en": "Explore the Trifid Nebula"
+      },
+      {
+        "src": "https://cdn.esahubble.org/archives/videos/news/heic2608e.jpg",
+        "alt": "Mudanças na Nebulosa Trífida (observações de 1997 e 2026)",
+        "alt_pt": "Mudanças na Nebulosa Trífida (observações de 1997 e 2026)",
+        "alt_en": "Changes in the Trifid Nebula (1997 and 2026 observations)",
+        "caption": "Mudanças na Nebulosa Trífida (observações de 1997 e 2026)",
+        "caption_pt": "Mudanças na Nebulosa Trífida (observações de 1997 e 2026)",
+        "caption_en": "Changes in the Trifid Nebula (1997 and 2026 observations)"
+      },
+      {
+        "src": "https://cdn.esahubble.org/archives/images/screen/heic2608a.jpg",
+        "alt": "Nebulosa Trífida (Imagem da Câmera de Campo Amplo 3)",
+        "alt_pt": "Nebulosa Trífida (Imagem da Câmera de Campo Amplo 3)",
+        "alt_en": "Trifid Nebula (Wide Field Camera 3 Image)",
+        "caption": "Nebulosa Trífida (Imagem da Câmera de Campo Amplo 3)",
+        "caption_pt": "Nebulosa Trífida (Imagem da Câmera de Campo Amplo 3)",
+        "caption_en": "Trifid Nebula (Wide Field Camera 3 Image)"
+      },
+      {
+        "src": "https://cdn.esahubble.org/archives/images/screen/heic2608b.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://cdn.esahubble.org/archives/images/screen/heic2608c.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Lançamento de foto: Hubble deslumbra com jovens estrelas na Nebulosa Trífida para o 36º aniversário",
+    "title_pt": "Lançamento de foto: Hubble deslumbra com jovens estrelas na Nebulosa Trífida para o 36º aniversário",
+    "title_en": "Photo Release: Hubble dazzles with young stars in Trifid Nebula for 36th anniversary",
+    "sub": "O Telescópio Espacial Hubble da NASA/ESA observou uma cena que capturou pela primeira vez em 1997, em homenagem ao seu 36º aniversário: uma pequena porção de uma região de.",
+    "sub_pt": "O Telescópio Espacial Hubble da NASA/ESA observou uma cena que capturou pela primeira vez em 1997, em homenagem ao seu 36º aniversário: uma pequena porção de uma região de.",
+    "sub_en": "The NASA/ESA Hubble Space Telescope looked at a scene it first captured in 1997 in honour of its 36th anniversary: a small portion of a star-forming region about 5000 light-years.",
+    "excerpt": "O Telescópio Espacial Hubble da NASA/ESA observou uma cena que capturou pela primeira vez em 1997, em homenagem ao seu 36º aniversário: uma pequena porção de uma região de formação estelar a cerca de 5.",
+    "excerpt_pt": "O Telescópio Espacial Hubble da NASA/ESA observou uma cena que capturou pela primeira vez em 1997, em homenagem ao seu 36º aniversário: uma pequena porção de uma região de formação estelar a cerca de 5.",
+    "excerpt_en": "The NASA/ESA Hubble Space Telescope looked at a scene it first captured in 1997 in honour of its 36th anniversary: a small portion of a star-forming region about 5000 light-years away in the constellation Sagittarius, known as the Trifid.",
+    "body": "<p>O Telescópio Espacial Hubble da NASA/ESA observou uma cena que capturou pela primeira vez em 1997, em homenagem ao seu 36º aniversário: uma pequena porção de uma região de formação estelar a cerca de 5.000 anos-luz de distância, na constelação de Sagitário, conhecida como Trífida. O telescópio observou a Trífida em 1997 e agora, 29 anos depois, aproveitou quase toda a sua vida operacional para nos mostrar mudanças na nebulosa em escalas de tempo humanas.</p><p>Além de observar as mudanças ao longo do tempo, o Hubble também está equipado com uma câmera aprimorada com um campo de visão mais amplo e maior sensibilidade que foi instalada durante a quarta missão de manutenção. A visão do Hubble da Nebulosa Trífida (também conhecida como Messier 20 ou M20) centra-se numa “cabeça” e num “corpo” ondulante de uma nuvem de gás e poeira de cor enferrujada que se assemelha a um limão marinho, ou lesma do mar, que parece estar a deslizar pelo cosmos.</p><p>Os variados instrumentos do Hubble e a vasta gama de luz que recolhe, do ultravioleta ao infravermelho próximo, têm ajudado os investigadores a fazer descobertas inovadoras durante décadas e a fornecer diariamente novos dados que inevitavelmente levarão a mais. Os pesquisadores detectaram asteróides colidindo em outro sistema estelar pela primeira vez, enquanto em nosso próprio Sistema Solar o Hubble capturou acidentalmente um cometa se desintegrando.</p><p>A previsão de longa data de que a nossa galáxia, a Via Láctea, irá colidir com Andrómeda num futuro distante foi desafiada por um novo estudo, utilizando dados do Hubble e do Gaia da ESA. O Hubble também rastreou o cometa interestelar 3I/ATLAS que apareceu inesperadamente no Sistema Solar no ano passado, contribuindo com uma rápida estimativa do seu tamanho.</p><p>O 36º ano de operações do Hubble também trouxe vistas mais impressionantes do cosmos. Entre estas estavam a região de formação estelar N11 na Grande Nuvem de Magalhães, as conchas de poeira estelar que constituem a Nebulosa do Ovo, a Nebulosa Olho de Gato juntamente com a Euclides da ESA, e uma imagem totalmente nova da famosa Nebulosa do Caranguejo.</p><p>O Hubble também mostrou o coração fumegante de M82, as galáxias espirais UGC 11397 e Arp 4, os anéis de poeira ao redor da galáxia NGC 7722, as estrelas brilhantes do aglomerado globular NGC 1786 e o ​​imenso aglomerado de galáxias Abell 209.</p><p class=\"art-source\"><a href=\"https://esahubble.org/news/heic2608/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>O Telescópio Espacial Hubble da NASA/ESA observou uma cena que capturou pela primeira vez em 1997, em homenagem ao seu 36º aniversário: uma pequena porção de uma região de formação estelar a cerca de 5.000 anos-luz de distância, na constelação de Sagitário, conhecida como Trífida. O telescópio observou a Trífida em 1997 e agora, 29 anos depois, aproveitou quase toda a sua vida operacional para nos mostrar mudanças na nebulosa em escalas de tempo humanas.</p><p>Além de observar as mudanças ao longo do tempo, o Hubble também está equipado com uma câmera aprimorada com um campo de visão mais amplo e maior sensibilidade que foi instalada durante a quarta missão de manutenção. A visão do Hubble da Nebulosa Trífida (também conhecida como Messier 20 ou M20) centra-se numa “cabeça” e num “corpo” ondulante de uma nuvem de gás e poeira de cor enferrujada que se assemelha a um limão marinho, ou lesma do mar, que parece estar a deslizar pelo cosmos.</p><p>Os variados instrumentos do Hubble e a vasta gama de luz que recolhe, do ultravioleta ao infravermelho próximo, têm ajudado os investigadores a fazer descobertas inovadoras durante décadas e a fornecer diariamente novos dados que inevitavelmente levarão a mais. Os pesquisadores detectaram asteróides colidindo em outro sistema estelar pela primeira vez, enquanto em nosso próprio Sistema Solar o Hubble capturou acidentalmente um cometa se desintegrando.</p><p>A previsão de longa data de que a nossa galáxia, a Via Láctea, irá colidir com Andrómeda num futuro distante foi desafiada por um novo estudo, utilizando dados do Hubble e do Gaia da ESA. O Hubble também rastreou o cometa interestelar 3I/ATLAS que apareceu inesperadamente no Sistema Solar no ano passado, contribuindo com uma rápida estimativa do seu tamanho.</p><p>O 36º ano de operações do Hubble também trouxe vistas mais impressionantes do cosmos. Entre estas estavam a região de formação estelar N11 na Grande Nuvem de Magalhães, as conchas de poeira estelar que constituem a Nebulosa do Ovo, a Nebulosa Olho de Gato juntamente com a Euclides da ESA, e uma imagem totalmente nova da famosa Nebulosa do Caranguejo.</p><p>O Hubble também mostrou o coração fumegante de M82, as galáxias espirais UGC 11397 e Arp 4, os anéis de poeira ao redor da galáxia NGC 7722, as estrelas brilhantes do aglomerado globular NGC 1786 e o ​​imenso aglomerado de galáxias Abell 209.</p><p class=\"art-source\"><a href=\"https://esahubble.org/news/heic2608/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>The NASA/ESA Hubble Space Telescope looked at a scene it first captured in 1997 in honour of its 36th anniversary: a small portion of a star-forming region about 5000 light-years away in the constellation Sagittarius, known as the Trifid. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. The telescope observed the Trifid in 1997 and now, 29 years later, it has leveraged almost its full operational lifetime to show us changes in the nebula on human time scales. In addition to seeing changes over time, Hubble is also equipped with an improved camera with a wider field of view and greater sensitivity that was installed during the fourth.</p><p>Hubble’s view of the Trifid Nebula (also known as Messier 20 or M20) focuses on a “head” and undulating “body” of a rusty-coloured cloud of gas and dust that resembles a marine. Hubble’s varied instruments and the expansive range of light it collects, from ultraviolet to near-infrared, have helped researchers make ground-breaking discoveries for decades.</p><p>Researchers spotted asteroids colliding in another star system for the first time, while in our own Solar System Hubble serendipitously captured a comet breaking up. The long-held prediction that our Milky Way galaxy will collide with Andromeda in the distant future was challenged by a new study, using data from Hubble and ESA’s Gaia.</p><p>Hubble also tracked the interstellar comet 3I/ATLAS that unexpectedly appeared in the Solar System last year, contributing with a rapid estimation of its size. Hubble’s 36th year of operations has also brought more impressive views of the cosmos.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Among these were the star-forming region N11 in the Large Magellanic Cloud, the shells of stardust that make up the Egg Nebula, the Cat’s Eye Nebula together with ESA’s Euclid. Hubble also showcased the smouldering heart of M82, swirling spiral galaxies UGC 11397 and Arp 4, dust rings around galaxy NGC 7722, the glittering stars of globular cluster NGC.</p><p>Because the account originates with ESA Hubble News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://esahubble.org/news/heic2608/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: O Telescópio Espacial Hubble da NASA/ESA observou uma cena que capturou pela primeira vez em 1997, em homenagem ao seu 36º aniversário: uma pequena",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: O Telescópio Espacial Hubble da NASA/ESA observou uma cena que capturou pela primeira vez em 1997, em homenagem ao seu 36º aniversário: uma pequena",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: The NASA/ESA Hubble Space Telescope looked at a scene it first captured in 1997 in honour of its 36th anniversary: a small portion of a star-forming",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "20 abr 2026",
+    "date_pt": "20 abr 2026",
+    "date_en": "20 Apr 2026",
+    "time": "14h00",
+    "time_pt": "14h00",
+    "time_en": "14: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-20T14:00:00+00:00",
+    "lastModifiedIso": "2026-04-27T15:20:01+00:00",
+    "source": "ESA Hubble News",
+    "sourceDomain": "esahubble. org",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Astronomia",
+      "ESA Hubble News",
+      "Cosmos Week",
+      "Lançamento de foto",
+      "Hubble deslumbra com jovens estrelas na Nebulosa Trífida para o 36º aniversário"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "ESA Hubble News",
+      "Cosmos Week",
+      "Lançamento de foto",
+      "Hubble deslumbra com jovens estrelas na Nebulosa Trífida para o 36º aniversário"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "ESA Hubble News",
+      "Cosmos Week",
+      "Photo release",
+      "Hubble dazzles with young stars in Trifid Nebula for 36th anniversary"
+    ],
+    "srcUrl": "https://esahubble.org/news/heic2608/",
+    "realUrl": "https://www.cosmosweek.com/?article=photo-release-hubble-dazzles-with-young-stars-in-trifid-nebula-for-36th-anniversary",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=photo-release-hubble-dazzles-with-young-stars-in-trifid-nebula-for-36th-anniversary",
+    "realUrl_en": "https://www.cosmosweek.com/?article=photo-release-hubble-dazzles-with-young-stars-in-trifid-nebula-for-36th-anniversary&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/photo-release-hubble-dazzles-with-young-stars-in-trifid-nebula-for-36th-anniversary/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/photo-release-hubble-dazzles-with-young-stars-in-trifid-nebula-for-36th-anniversary/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/photo-release-hubble-dazzles-with-young-stars-in-trifid-nebula-for-36th-anniversary/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/photo-release-hubble-dazzles-with-young-stars-in-trifid-nebula-for-36th-anniversary/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/photo-release-hubble-dazzles-with-young-stars-in-trifid-nebula-for-36th-anniversary/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/photo-release-hubble-dazzles-with-young-stars-in-trifid-nebula-for-36th-anniversary/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 69,
+    "scoreBreakdown": {
+      "source": 94,
+      "evidence": 86,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 46
+    },
+    "imageAlt": "Lançamento de foto: Hubble deslumbra com jovens estrelas na Nebulosa Trífida para o 36º aniversário",
+    "imageAlt_pt": "Lançamento de foto: Hubble deslumbra com jovens estrelas na Nebulosa Trífida para o 36º aniversário",
+    "imageAlt_en": "Photo Release: Hubble dazzles with young stars in Trifid Nebula for 36th anniversary",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 22,
     "slug": "sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2587,138 +3035,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 21,
-    "slug": "theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea",
-    "cat": "Astrofísica",
-    "catCls": "astrofisica",
-    "img": "https://scx2.b-cdn.net/gfx/news/hires/2026/research-on-new-supern-1.jpg",
-    "inline_images": [
-      {
-        "src": "https://scx2.b-cdn.net/gfx/news/2026/research-on-new-supern-1.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Modelos Teóricos da Química de Supernovas Revisados Após Dados de Raios X do Aglomerado de Perseu Revelarem Discrepâncias Importantes",
-    "title_pt": "Modelos Teóricos da Química de Supernovas Revisados Após Dados de Raios X do Aglomerado de Perseu Revelarem Discrepâncias Importantes",
-    "title_en": "Theoretical models of supernova chemistry overhauled after X-ray data from Perseus Cluster reveal key discrepancies",
-    "sub": "Dados de raios X do Aglomerado de Perseu revelaram discrepâncias importantes nos modelos teóricos da química de supernovas, levando à revisão desses modelos para melhor.",
-    "sub_pt": "Dados de raios X do Aglomerado de Perseu revelaram discrepâncias importantes nos modelos teóricos da química de supernovas, levando à revisão desses modelos para melhor.",
-    "sub_en": "The Perseus Cluster is a massive galaxy cluster located in the constellation Perseus. It is one of the largest structures in the observable universe, comprising more than a.",
-    "excerpt": "Dados de raios X do Aglomerado de Perseu revelaram discrepâncias importantes nos modelos teóricos da química de supernovas, levando à revisão desses modelos para melhor alinhamento com as observações.",
-    "excerpt_pt": "Dados de raios X do Aglomerado de Perseu revelaram discrepâncias importantes nos modelos teóricos da química de supernovas, levando à revisão desses modelos para melhor alinhamento com as observações.",
-    "excerpt_en": "The Perseus Cluster is a massive galaxy cluster located in the constellation Perseus. It is one of the largest structures in the observable universe, comprising more than a thousand galaxies, equivalent to roughly a thousand trillion times.",
-    "body": "<p>A produção abundante de certos elementos por estrelas massivas, aquelas com massa dez vezes superior à do Sol ou mais, é um ponto crucial. A discrepância entre as previsões dos modelos e as observações de raios X sugere que a compreensão atual da evolução dessas estrelas e dos mecanismos de suas explosões de supernovas pode estar incompleta. A revisão dos modelos é, portanto, essencial para explicar a distribuição e a abundância desses elementos no universo, especialmente no contexto de aglomerados de galáxias como o de Perseu, onde a história de formação estelar e de supernovas é complexa.</p><p>Diante dessas descobertas, uma equipe de pesquisa tem se dedicado ao desenvolvimento sistemático de novos modelos para a evolução de estrelas massivas e suas subsequentes explosões esféricas. Este trabalho, que se desdobra em uma série de artigos científicos, visa aprimorar a precisão das previsões teóricas. Os modelos estão sendo cuidadosamente calibrados com base em dados observacionais atualizados, buscando uma representação mais fiel dos processos astrofísicos envolvidos na formação e explosão de supernovas, que são cruciais para a dispersão de elementos pesados no cosmos.</p><p>No Artigo II dessa série, a equipe expandiu significativamente o escopo de seus cálculos. Foram incluídas uma ampla gama de metalicidades, que servem como uma medida do conteúdo inicial de metais em uma estrela e se correlacionam diretamente com sua idade cósmica, e massas estelares, variando de 15 a 60 massas solares. Essa abordagem abrangente permite investigar como diferentes condições iniciais afetam a evolução estelar e as características das supernovas, proporcionando uma visão mais completa da diversidade desses eventos cósmicos e de sua contribuição para a composição química do universo.</p><p>Através desse processo meticuloso, a equipe de pesquisa está apta a reconstruir a história das explosões de supernovas e a acompanhar a evolução de elementos individuais ao longo dos últimos dez bilhões de anos. Essa reconstrução detalhada é fundamental para compreender como os padrões de abundância de elementos observados hoje em aglomerados de galáxias e em outras estruturas cósmicas foram formados. Ao correlacionar as previsões dos novos modelos com os dados observacionais, os cientistas buscam validar e refinar sua compreensão dos ciclos de vida estelar e do enriquecimento químico do universo.</p><p>O futuro da pesquisa nessa área é promissor, especialmente com o lançamento do telescópio de próxima geração XRISM em 2024. Este instrumento está configurado para fornecer novos e empolgantes dados, incluindo medições ainda mais precisas de remanescentes de supernovas e de outros objetos galácticos. Tais dados serão cruciais para continuar a refinar os modelos teóricos e para validar as previsões da equipe, permitindo uma compreensão cada vez mais aprofundada dos processos que moldam a química do universo e a evolução das estrelas massivas.</p>",
-    "body_pt": "<p>A produção abundante de certos elementos por estrelas massivas, aquelas com massa dez vezes superior à do Sol ou mais, é um ponto crucial. A discrepância entre as previsões dos modelos e as observações de raios X sugere que a compreensão atual da evolução dessas estrelas e dos mecanismos de suas explosões de supernovas pode estar incompleta. A revisão dos modelos é, portanto, essencial para explicar a distribuição e a abundância desses elementos no universo, especialmente no contexto de aglomerados de galáxias como o de Perseu, onde a história de formação estelar e de supernovas é complexa.</p><p>Diante dessas descobertas, uma equipe de pesquisa tem se dedicado ao desenvolvimento sistemático de novos modelos para a evolução de estrelas massivas e suas subsequentes explosões esféricas. Este trabalho, que se desdobra em uma série de artigos científicos, visa aprimorar a precisão das previsões teóricas. Os modelos estão sendo cuidadosamente calibrados com base em dados observacionais atualizados, buscando uma representação mais fiel dos processos astrofísicos envolvidos na formação e explosão de supernovas, que são cruciais para a dispersão de elementos pesados no cosmos.</p><p>No Artigo II dessa série, a equipe expandiu significativamente o escopo de seus cálculos. Foram incluídas uma ampla gama de metalicidades, que servem como uma medida do conteúdo inicial de metais em uma estrela e se correlacionam diretamente com sua idade cósmica, e massas estelares, variando de 15 a 60 massas solares. Essa abordagem abrangente permite investigar como diferentes condições iniciais afetam a evolução estelar e as características das supernovas, proporcionando uma visão mais completa da diversidade desses eventos cósmicos e de sua contribuição para a composição química do universo.</p><p>Através desse processo meticuloso, a equipe de pesquisa está apta a reconstruir a história das explosões de supernovas e a acompanhar a evolução de elementos individuais ao longo dos últimos dez bilhões de anos. Essa reconstrução detalhada é fundamental para compreender como os padrões de abundância de elementos observados hoje em aglomerados de galáxias e em outras estruturas cósmicas foram formados. Ao correlacionar as previsões dos novos modelos com os dados observacionais, os cientistas buscam validar e refinar sua compreensão dos ciclos de vida estelar e do enriquecimento químico do universo.</p><p>O futuro da pesquisa nessa área é promissor, especialmente com o lançamento do telescópio de próxima geração XRISM em 2024. Este instrumento está configurado para fornecer novos e empolgantes dados, incluindo medições ainda mais precisas de remanescentes de supernovas e de outros objetos galácticos. Tais dados serão cruciais para continuar a refinar os modelos teóricos e para validar as previsões da equipe, permitindo uma compreensão cada vez mais aprofundada dos processos que moldam a química do universo e a evolução das estrelas massivas.</p>",
-    "body_en": "<p>The Perseus Cluster is a massive galaxy cluster located in the constellation Perseus. It is one of the largest structures in the observable universe, comprising more than a thousand galaxies, equivalent to roughly a thousand trillion times. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. The left column shows the best-rate models, represented by the three models with SNe Ia fractions f Ia and f Chand closest to the empirical values of 0.007 and 0.33, respectively. The Perseus Cluster is a massive galaxy cluster located in the constellation Perseus.</p><p>These elements are abundantly produced by massive stars, those with masses 10 times that of the sun or greater, suggesting that current models of massive stars and their supernova. In a series of journal articles, the research team systematically develops new models of massive star evolution and their subsequent spherical explosions, calibrated using updated.</p><p>In Paper II, the team expands these calculations to include a wide range of metallicities (a measure of initial metal content, which correlates with cosmic age) and stellar. Through this process, the team reconstructs supernova explosion history and tracks the evolution of individual elements over the past 10 billion years, producing the patterns.</p><p>The participating students, both physics minors, joined the research team in summer 2024 (Walther) and spring 2025 (Yerdon). Discover the latest in science, tech, and space with over 100, 000 subscribers who rely on Phys. org for daily insights.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>The next-generation telescope XRISM, launched in 2024, will continue to provide exciting new data, including precise measurements of supernova remnants and galactic objects. Resolving the Si/S/Ar/Ca Ratios by Stellar Convection, The Astrophysical Journal (2025).</p><p>Because the account originates with Phys. org Space, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-theoretical-supernova-chemistry-overhauled-ray.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Dados de raios X do Aglomerado de Perseu revelaram discrepâncias importantes nos modelos teóricos da química de supernovas, levando à revisão desses.",
-      "Dado-chave: Dados de raios X do Aglomerado de Perseu revelaram discrepâncias importantes nos modelos teóricos da química de supernovas, levando à revisão.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_pt": [
-      "Ponto central: Dados de raios X do Aglomerado de Perseu revelaram discrepâncias importantes nos modelos teóricos da química de supernovas, levando à revisão desses.",
-      "Dado-chave: Dados de raios X do Aglomerado de Perseu revelaram discrepâncias importantes nos modelos teóricos da química de supernovas, levando à revisão.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_en": [
-      "Core point: The Perseus Cluster is a massive galaxy cluster located in the constellation Perseus.",
-      "Key detail: The Perseus Cluster is a massive galaxy cluster located in the constellation Perseus.",
-      "Science reporting: verify primary technical documentation."
-    ],
-    "date": "19 abr 2026",
-    "date_pt": "19 abr 2026",
-    "date_en": "19 Apr 2026",
-    "time": "16h00",
-    "time_pt": "16h00",
-    "time_en": "16: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-19T16:00:05+00:00",
-    "lastModifiedIso": "2026-04-23T23:29:07+00:00",
-    "source": "Phys. org Space",
-    "sourceDomain": "phys. org",
-    "sourceType": "news",
-    "sourceTypeLabel": "Jornalismo científico",
-    "sourceTypeLabel_pt": "Jornalismo científico",
-    "sourceTypeLabel_en": "Science journalism",
-    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
-    "evidenceKey": "journalistic",
-    "evidenceLabel": "Cobertura jornalística",
-    "evidenceLabel_pt": "Cobertura jornalística",
-    "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astrofísica",
-      "Phys. org Space",
-      "Cosmos Week",
-      "Modelos teóricos da química das supernovas revisados ​​após dados de raios X do Cluster Perseus revelarem discrepâncias importantes"
-    ],
-    "keywords_pt": [
-      "Astrofísica",
-      "Phys. org Space",
-      "Cosmos Week",
-      "Modelos teóricos da química das supernovas revisados ​​após dados de raios X do Cluster Perseus revelarem discrepâncias importantes"
-    ],
-    "keywords_en": [
-      "Astrophysics",
-      "Phys. org Space",
-      "Cosmos Week",
-      "Theoretical models of supernova chemistry revised after Perseus Cluster X-ray data reveal key discrepancies"
-    ],
-    "srcUrl": "https://phys.org/news/2026-04-theoretical-supernova-chemistry-overhauled-ray.html",
-    "realUrl": "https://www.cosmosweek.com/?article=theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea",
-    "realUrl_en": "https://www.cosmosweek.com/?article=theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 76,
-      "evidence": 42,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "Modelos Teóricos da Química de Supernovas Revisados Após Dados de Raios X do Aglomerado de Perseu Revelarem Discrepâncias Importantes",
-    "imageAlt_pt": "Modelos Teóricos da Química de Supernovas Revisados Após Dados de Raios X do Aglomerado de Perseu Revelarem Discrepâncias Importantes",
-    "imageAlt_en": "Theoretical models of supernova chemistry overhauled after X-ray data from Perseus Cluster reveal key discrepancies",
-    "coverageKind": "news",
-    "coverageKindLabel": "Jornalismo científico",
-    "coverageKindLabel_pt": "Jornalismo científico",
-    "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
-  },
-  {
-    "id": 22,
+    "id": 23,
     "slug": "generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul",
     "cat": "Física",
     "catCls": "fisica",
@@ -2852,7 +3169,7 @@ window.postsData = [
     "imageAlt_en": "Generalized optical meta-spanners empower arbitrary light paths for multitasking optical manipulation"
   },
   {
-    "id": 23,
+    "id": 24,
     "slug": "antioxidant-glutathione-discovered-to-play-a-key-role-in-proper-protein-folding",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2976,7 +3293,7 @@ window.postsData = [
     "imageAlt_en": "Antioxidant glutathione discovered to play a key role in proper protein folding"
   },
   {
-    "id": 24,
+    "id": 25,
     "slug": "mining-waste-product-could-help-store-carbon-emissions-study-suggests",
     "cat": "Química",
     "catCls": "quimica",
@@ -3110,7 +3427,7 @@ window.postsData = [
     "imageAlt_en": "Mining waste product could help store carbon emissions, study suggests"
   },
   {
-    "id": 25,
+    "id": 26,
     "slug": "volunteers-discover-rare-space-weather-events-using-their-ears",
     "cat": "Física",
     "catCls": "fisica",
@@ -3231,7 +3548,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 26,
+    "id": 27,
     "slug": "sun-news-huge-coronal-hole-now-faces-earth",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3365,7 +3682,7 @@ window.postsData = [
     "imageAlt_en": "Sun news: Huge coronal hole now faces Earth"
   },
   {
-    "id": 27,
+    "id": 28,
     "slug": "cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -3489,7 +3806,7 @@ window.postsData = [
     "imageAlt_en": "Cloudy with a chance of metals: Indications of CO$_2$ in the atmosphere of GJ 1214 b from high-resolution K-band spectroscopy"
   },
   {
-    "id": 28,
+    "id": 29,
     "slug": "jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -3610,7 +3927,7 @@ window.postsData = [
     "imageAlt_en": "JWST Sees Smoking Gun for Black Hole Mergers in the Virgo Cluster"
   },
   {
-    "id": 29,
+    "id": 30,
     "slug": "torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -3731,7 +4048,7 @@ window.postsData = [
     "imageAlt_en": "Torsion balances set strongest direct limits yet on ultralight dark matter"
   },
   {
-    "id": 30,
+    "id": 31,
     "slug": "the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -3855,7 +4172,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 31,
+    "id": 32,
     "slug": "planets-collide-around-young-sun-like-star",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3976,7 +4293,7 @@ window.postsData = [
     "imageAlt_en": "Planets Collide Around Young, Sun-like Star"
   },
   {
-    "id": 32,
+    "id": 33,
     "slug": "first-light-for-poet-shining-sun-light-on-exoplanet-research",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -4128,7 +4445,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 33,
+    "id": 34,
     "slug": "pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -4249,7 +4566,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 34,
+    "id": 35,
     "slug": "five-things-juice-has-revealed-about-comet-3i-atlas",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -4367,158 +4684,6 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 35,
-    "slug": "artemis-ii-blasts-off-sending-humans-back-to-the-moon",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x630_crop_center-center_82_none/artemis-ii-launch_2026-04-02-132243_kglx.jpg?mtime=1775136182",
-    "inline_images": [
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x1609_crop_center-center_82_line/artemis-ii-launch_2026-04-02-132243_kglx.jpg",
-        "alt": "Lançamento Artemis II",
-        "alt_pt": "Lançamento Artemis II",
-        "alt_en": "Artemis II launch",
-        "caption": "Lançamento Artemis II",
-        "caption_pt": "Lançamento Artemis II",
-        "caption_en": "Artemis II launch"
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_576x576_crop_center-center_82_line/artemis-ii-astronauts-white-room.jpg",
-        "alt": "Quarto branco dos astronautas Artemis ii",
-        "alt_pt": "Quarto branco dos astronautas Artemis ii",
-        "alt_en": "Artemis ii astronauts white room",
-        "caption": "Quarto branco dos astronautas Artemis ii",
-        "caption_pt": "Quarto branco dos astronautas Artemis ii",
-        "caption_en": "Artemis ii astronauts white room"
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_576x576_crop_center-center_82_line/artemis-ii-launch_2026-04-02-132243_kglx.jpg",
-        "alt": "Lançamento Artemis II",
-        "alt_pt": "Lançamento Artemis II",
-        "alt_en": "Artemis ii launch",
-        "caption": "Lançamento Artemis II",
-        "caption_pt": "Lançamento Artemis II",
-        "caption_en": "Artemis ii launch"
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Artemis II: Missão Histórica Envia Humanos à Órbita Lunar Após Mais de 50 Anos",
-    "title_pt": "Artemis II: Missão Histórica Envia Humanos à Órbita Lunar Após Mais de 50 Anos",
-    "title_en": "Artemis II blasts off, sending humans back to the Moon",
-    "sub": "Em 1º de abril de 2026, a missão Artemis II da NASA lançou quatro astronautas em uma jornada de 10 dias ao redor da Lua, marcando o retorno de humanos ao ambiente lunar após mais.",
-    "sub_pt": "Em 1º de abril de 2026, a missão Artemis II da NASA lançou quatro astronautas em uma jornada de 10 dias ao redor da Lua, marcando o retorno de humanos ao ambiente lunar após mais.",
-    "sub_en": "NASA's Artemis II mission has just launched people to the Moon for the first time in over 50 years.",
-    "excerpt": "Em 1º de abril de 2026, a missão Artemis II da NASA lançou quatro astronautas em uma jornada de 10 dias ao redor da Lua, marcando o retorno de humanos ao ambiente lunar após mais de cinco décadas e preparando o caminho para futuros pousos.",
-    "excerpt_pt": "Em 1º de abril de 2026, a missão Artemis II da NASA lançou quatro astronautas em uma jornada de 10 dias ao redor da Lua, marcando o retorno de humanos ao ambiente lunar após mais de cinco décadas e preparando o caminho para futuros pousos.",
-    "excerpt_en": "NASA's Artemis II mission has just launched people to the Moon for the first time in over 50 years.",
-    "body": "<p>A bordo da espaçonave Orion, a tripulação é composta por Christina Koch, que se torna a primeira mulher a participar de uma missão lunar; Victor Glover, o primeiro afro-americano a realizar tal feito; Jeremy Hansen, o primeiro canadense a integrar uma tripulação em direção à Lua; e Reid Wiseman, o comandante da missão. A seleção desses astronautas reflete o compromisso da NASA com a diversidade e a inclusão na exploração espacial, abrindo novos caminhos para a representatividade em missões de grande envergadura. A experiência e o perfil de cada membro são cruciais para o sucesso dos objetivos científicos e operacionais da Artemis II.</p><p>Durante os próximos 10 dias, a tripulação enfrentará as condições de confinamento e isolamento dentro da cápsula Orion, cujo espaço é comparável ao de uma van de mudança. A NASA está ativamente estudando os efeitos psicológicos e fisiológicos dessas condições nos astronautas, coletando dados cruciais para missões de longa duração e futuras estadias em bases lunares. Essa pesquisa é vital para garantir a saúde e o bem-estar dos exploradores espaciais em ambientes extremos, fornecendo informações valiosas para o planejamento de viagens ainda mais ambiciosas, como as missões a Marte.</p><p>Após completar sua órbita lunar e a fase de testes dos sistemas da espaçonave, a Orion iniciará sua jornada de retorno à Terra. A tripulação passará por uma reentrada controlada na atmosfera terrestre, um procedimento de alta precisão que exige a máxima eficiência dos sistemas de proteção térmica. Em seguida, a cápsula descerá de paraquedas e realizará um pouso planejado no Oceano Pacífico. Este procedimento de retorno é uma etapa crítica da missão, validando os sistemas de segurança e a capacidade da Orion de trazer os astronautas de volta em segurança, concluindo com êxito a primeira fase tripulada do programa Artemis.</p><p>A missão Artemis II é um passo fundamental no programa Artemis da NASA, que visa estabelecer uma presença humana sustentada na Lua. A agência espacial planeja pousar astronautas na superfície lunar com a missão Artemis IV, prevista para 2028, com o objetivo final de construir uma base lunar permanente. Essa iniciativa representa um avanço significativo na exploração espacial, abrindo portas para a pesquisa científica aprofundada, o desenvolvimento de tecnologias inovadoras e a preparação para futuras missões tripuladas a Marte. O sucesso da Artemis II é crucial para pavimentar o caminho para esses ambiciosos objetivos de longo prazo.</p><p>O lançamento da Artemis II não apenas impulsiona a exploração espacial, mas também inspira pessoas em todo o mundo, reacendendo o fascínio pela Lua que marcou gerações passadas. Para muitos, a lembrança do último lançamento tripulado à Lua, a Apollo 17, evoca um senso de continuidade e progresso na jornada humana pelo cosmos. Como Bill Nye, CEO da The Planetary Society, afirmou, &quot;O lançamento da Artemis II irá entusiasmar e inspirar as pessoas em todos os lugares da Terra&quot;. A expectativa pelo restante da jornada da Artemis II e pelas futuras escolhas que moldarão a exploração espacial é palpável, prometendo novas descobertas e avanços que expandirão os limites do conhecimento humano.</p>",
-    "body_pt": "<p>A bordo da espaçonave Orion, a tripulação é composta por Christina Koch, que se torna a primeira mulher a participar de uma missão lunar; Victor Glover, o primeiro afro-americano a realizar tal feito; Jeremy Hansen, o primeiro canadense a integrar uma tripulação em direção à Lua; e Reid Wiseman, o comandante da missão. A seleção desses astronautas reflete o compromisso da NASA com a diversidade e a inclusão na exploração espacial, abrindo novos caminhos para a representatividade em missões de grande envergadura. A experiência e o perfil de cada membro são cruciais para o sucesso dos objetivos científicos e operacionais da Artemis II.</p><p>Durante os próximos 10 dias, a tripulação enfrentará as condições de confinamento e isolamento dentro da cápsula Orion, cujo espaço é comparável ao de uma van de mudança. A NASA está ativamente estudando os efeitos psicológicos e fisiológicos dessas condições nos astronautas, coletando dados cruciais para missões de longa duração e futuras estadias em bases lunares. Essa pesquisa é vital para garantir a saúde e o bem-estar dos exploradores espaciais em ambientes extremos, fornecendo informações valiosas para o planejamento de viagens ainda mais ambiciosas, como as missões a Marte.</p><p>Após completar sua órbita lunar e a fase de testes dos sistemas da espaçonave, a Orion iniciará sua jornada de retorno à Terra. A tripulação passará por uma reentrada controlada na atmosfera terrestre, um procedimento de alta precisão que exige a máxima eficiência dos sistemas de proteção térmica. Em seguida, a cápsula descerá de paraquedas e realizará um pouso planejado no Oceano Pacífico. Este procedimento de retorno é uma etapa crítica da missão, validando os sistemas de segurança e a capacidade da Orion de trazer os astronautas de volta em segurança, concluindo com êxito a primeira fase tripulada do programa Artemis.</p><p>A missão Artemis II é um passo fundamental no programa Artemis da NASA, que visa estabelecer uma presença humana sustentada na Lua. A agência espacial planeja pousar astronautas na superfície lunar com a missão Artemis IV, prevista para 2028, com o objetivo final de construir uma base lunar permanente. Essa iniciativa representa um avanço significativo na exploração espacial, abrindo portas para a pesquisa científica aprofundada, o desenvolvimento de tecnologias inovadoras e a preparação para futuras missões tripuladas a Marte. O sucesso da Artemis II é crucial para pavimentar o caminho para esses ambiciosos objetivos de longo prazo.</p><p>O lançamento da Artemis II não apenas impulsiona a exploração espacial, mas também inspira pessoas em todo o mundo, reacendendo o fascínio pela Lua que marcou gerações passadas. Para muitos, a lembrança do último lançamento tripulado à Lua, a Apollo 17, evoca um senso de continuidade e progresso na jornada humana pelo cosmos. Como Bill Nye, CEO da The Planetary Society, afirmou, &quot;O lançamento da Artemis II irá entusiasmar e inspirar as pessoas em todos os lugares da Terra&quot;. A expectativa pelo restante da jornada da Artemis II e pelas futuras escolhas que moldarão a exploração espacial é palpável, prometendo novas descobertas e avanços que expandirão os limites do conhecimento humano.</p>",
-    "body_en": "<p>NASA&#x27;s Artemis II mission has just launched people to the Moon for the first time in over 50 years. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Written by Asa Stahl, PhD Science Editor, The Planetary Society April 1, 2026 Four people are now on their way to the Moon. EDT on April 1, NASA’s Artemis II mission lifted off from Kennedy Space Center in Cape Canaveral, Florida, sending astronauts on a 10-day voyage around the Moon and back.</p><p>The flight is humanity’s first crewed mission to the Moon in over 50 years, and it is meant to build toward a future lunar landing. Today’s successful launch is a celebration of science, engineering, and bravery coming together and reminding us that space has the power to bring out the best in ourselves.</p><p>Onboard the spacecraft is Christina Koch, the first woman ever to voyage to the Moon, Victor Glover, the first African American to do so, and Jeremy Hansen, the first Canadian. As a child on a motel balcony in Florida, I witnessed the last launch of humans to the Moon with Apollo 17.</p><p>NASA intends to land astronauts on the Moon with Artemis IV in 2028, eventually building toward a base with a sustained human presence. NASA is also studying how confinement and isolation will affect the four astronauts, as they spend the next 10 days in a crew capsule that is only the size of a moving van.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>After traveling back to Earth, the crew will reenter the atmosphere, descend under parachutes, and splash down in the Pacific Ocean. I look forward to the rest of the Artemis II journey and the choices ahead to catalyze our exploration of space.</p><p>Because the account originates with The Planetary Society, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/artemis-ii-launch\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Em 1º de abril de 2026, a missão Artemis II da NASA lançou quatro astronautas em uma jornada de 10 dias ao redor da Lua, marcando o retorno de.",
-      "Dado-chave: Em 1º de abril de 2026, a missão Artemis II da NASA lançou quatro astronautas em uma jornada de 10 dias ao redor da Lua, marcando o retorno de.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_pt": [
-      "Ponto central: Em 1º de abril de 2026, a missão Artemis II da NASA lançou quatro astronautas em uma jornada de 10 dias ao redor da Lua, marcando o retorno de.",
-      "Dado-chave: Em 1º de abril de 2026, a missão Artemis II da NASA lançou quatro astronautas em uma jornada de 10 dias ao redor da Lua, marcando o retorno de.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_en": [
-      "Core point: NASA's Artemis II mission has just launched people to the Moon for the first time in over 50 years.",
-      "Key detail: NASA's Artemis II mission has just launched people to the Moon for the first time in over 50 years.",
-      "Science reporting: verify primary technical documentation."
-    ],
-    "date": "01 abr 2026",
-    "date_pt": "01 abr 2026",
-    "date_en": "01 Apr 2026",
-    "time": "16h14",
-    "time_pt": "16h14",
-    "time_en": "16: 14 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-01T16:14:00+00:00",
-    "lastModifiedIso": "2026-04-23T07:47:44+00:00",
-    "source": "The Planetary Society",
-    "sourceDomain": "www. planetary. org",
-    "sourceType": "news",
-    "sourceTypeLabel": "Jornalismo científico",
-    "sourceTypeLabel_pt": "Jornalismo científico",
-    "sourceTypeLabel_en": "Science journalism",
-    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
-    "evidenceKey": "journalistic",
-    "evidenceLabel": "Cobertura jornalística",
-    "evidenceLabel_pt": "Cobertura jornalística",
-    "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Astronomia",
-      "The Planetary Society",
-      "Cosmos Week",
-      "Artemis II decola",
-      "enviando humanos de volta à Lua"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "The Planetary Society",
-      "Cosmos Week",
-      "Artemis II decola",
-      "enviando humanos de volta à Lua"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "The Planetary Society",
-      "Cosmos Week",
-      "Artemis II takes off",
-      "sending humans back to the Moon"
-    ],
-    "srcUrl": "https://www.planetary.org/articles/artemis-ii-launch",
-    "realUrl": "https://www.cosmosweek.com/?article=artemis-ii-blasts-off-sending-humans-back-to-the-moon",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=artemis-ii-blasts-off-sending-humans-back-to-the-moon",
-    "realUrl_en": "https://www.cosmosweek.com/?article=artemis-ii-blasts-off-sending-humans-back-to-the-moon&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/artemis-ii-blasts-off-sending-humans-back-to-the-moon/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/artemis-ii-blasts-off-sending-humans-back-to-the-moon/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/artemis-ii-blasts-off-sending-humans-back-to-the-moon/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/artemis-ii-blasts-off-sending-humans-back-to-the-moon/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/artemis-ii-blasts-off-sending-humans-back-to-the-moon/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/artemis-ii-blasts-off-sending-humans-back-to-the-moon/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 80,
-    "scoreBreakdown": {
-      "source": 78,
-      "evidence": 64,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 46
-    },
-    "imageAlt": "Artemis II: Missão Histórica Envia Humanos à Órbita Lunar Após Mais de 50 Anos",
-    "imageAlt_pt": "Artemis II: Missão Histórica Envia Humanos à Órbita Lunar Após Mais de 50 Anos",
-    "imageAlt_en": "Artemis II blasts off, sending humans back to the Moon",
-    "coverageKind": "news",
-    "coverageKindLabel": "Jornalismo científico",
-    "coverageKindLabel_pt": "Jornalismo científico",
-    "coverageKindLabel_en": "Science journalism",
     "storyKind": "science"
   },
   {
