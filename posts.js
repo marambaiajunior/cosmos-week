@@ -3,6 +3,137 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "snow-is-scarce-in-the-upper-colorado-basin",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/snow-is-scarce-in-the-upper-colorado-basin/coloradobasin_swe_20260315_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/snow-is-scarce-in-the-upper-colorado-basin/coloradobasin_swe_20260315_lrg.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "A Escassez de Neve na Bacia do Alto Colorado",
+    "title_pt": "A Escassez de Neve na Bacia do Alto Colorado",
+    "title_en": "Snow Is Scarce in the Upper Colorado Basin",
+    "sub": "As montanhas de Utah e Colorado, no oeste dos EUA, enfrentam uma escassez significativa de neve, gerando preocupações com o abastecimento de água para a primavera de 2026.",
+    "sub_pt": "As montanhas de Utah e Colorado, no oeste dos EUA, enfrentam uma escassez significativa de neve, gerando preocupações com o abastecimento de água para a primavera de 2026.",
+    "sub_en": "The mountains of Utah and Colorado are among the areas of the western U. S. that are low on snow and facing water worries in spring 2026.",
+    "excerpt": "As montanhas de Utah e Colorado, no oeste dos EUA, enfrentam uma escassez significativa de neve, gerando preocupações com o abastecimento de água para a primavera de 2026.",
+    "excerpt_pt": "As montanhas de Utah e Colorado, no oeste dos EUA, enfrentam uma escassez significativa de neve, gerando preocupações com o abastecimento de água para a primavera de 2026.",
+    "excerpt_en": "The mountains of Utah and Colorado are among the areas of the western U. S. that are low on snow and facing water worries in spring 2026.",
+    "body": "<p>As montanhas de Utah e Colorado, localizadas no oeste dos Estados Unidos, estão enfrentando uma escassez notável de neve, o que gera sérias preocupações com o abastecimento de água para a primavera de 2026. A situação é particularmente crítica na Bacia do Alto Colorado, uma região vital para o fornecimento hídrico de grande parte do oeste americano. A linha direta para o oeste dos Estados Unidos até agora no ano hídrico de 2026 é simples: há muito pouca neve. Esta condição alarmante tem implicações significativas para a gestão dos recursos hídricos e para as comunidades que dependem da água proveniente do derretimento da neve.</p><p>Na Bacia do Alto Colorado, o Equivalente em Água da Neve (SWE), uma medida crucial da quantidade de água contida na neve, atinge seu pico, em média, em 6 de abril. Esta informação é baseada em dados publicados pelo Serviço de Conservação de Recursos Naturais (USDA). A análise desses dados revela uma tendência preocupante de baixos níveis de SWE, indicando uma diminuição na reserva de água que normalmente seria liberada durante o degelo primaveril. A monitorização contínua desses indicadores é fundamental para prever a disponibilidade de água e planejar as estratégias de mitigação.</p><p>Esta escassez de neve foi agravada por condições climáticas extremas. A Bacia do Colorado experimentou o mês de março mais quente já registrado, de acordo com o Sistema Nacional Integrado de Informações sobre Secas (NIDIS). As temperaturas foram alarmantes, atingindo 13, 7 graus Fahrenheit (7, 6 graus Celsius) acima do normal para o período. Este calor recorde teve um impacto direto e visível na cobertura de neve, que diminuiu significativamente durante a onda de calor do final de março, conforme observado por dados do NSIDC Snow Today e imagens do NASA Earth Observatory.</p><p>A situação na Bacia do Alto Colorado reflete uma tendência mais ampla observada em todo o oeste dos Estados Unidos. Conforme reportado pelo The New York Times em 21 de março de 2026, &quot;em todo o oeste, o calor recorde está colidindo com uma seca de neve&quot;. Esta combinação perigosa de altas temperaturas e pouca precipitação em forma de neve cria um cenário de &quot;seca de neve&quot;, onde a quantidade de água armazenada na forma de neve é drasticamente reduzida. As implicações dessa seca prolongada são vastas, afetando a agricultura, o abastecimento urbano e os ecossistemas naturais da região.</p><p>A compreensão e o monitoramento dessa crise hídrica são possíveis graças a esforços colaborativos e dados de diversas fontes científicas. O NASA Earth Observatory, com contribuições de Michala Garrison, e os dados do NSIDC Snow Today, por exemplo, fornecem informações cruciais sobre a cobertura de neve. Adicionalmente, o Mountain Hydrology Group da Universidade do Colorado, Boulder, contribui com dados especializados que são essenciais para avaliar a saúde hidrológica da bacia. A integração dessas informações permite uma análise abrangente e a formulação de respostas informadas diante dos desafios impostos pela escassez de neve.</p>",
+    "body_pt": "<p>As montanhas de Utah e Colorado, localizadas no oeste dos Estados Unidos, estão enfrentando uma escassez notável de neve, o que gera sérias preocupações com o abastecimento de água para a primavera de 2026. A situação é particularmente crítica na Bacia do Alto Colorado, uma região vital para o fornecimento hídrico de grande parte do oeste americano. A linha direta para o oeste dos Estados Unidos até agora no ano hídrico de 2026 é simples: há muito pouca neve. Esta condição alarmante tem implicações significativas para a gestão dos recursos hídricos e para as comunidades que dependem da água proveniente do derretimento da neve.</p><p>Na Bacia do Alto Colorado, o Equivalente em Água da Neve (SWE), uma medida crucial da quantidade de água contida na neve, atinge seu pico, em média, em 6 de abril. Esta informação é baseada em dados publicados pelo Serviço de Conservação de Recursos Naturais (USDA). A análise desses dados revela uma tendência preocupante de baixos níveis de SWE, indicando uma diminuição na reserva de água que normalmente seria liberada durante o degelo primaveril. A monitorização contínua desses indicadores é fundamental para prever a disponibilidade de água e planejar as estratégias de mitigação.</p><p>Esta escassez de neve foi agravada por condições climáticas extremas. A Bacia do Colorado experimentou o mês de março mais quente já registrado, de acordo com o Sistema Nacional Integrado de Informações sobre Secas (NIDIS). As temperaturas foram alarmantes, atingindo 13, 7 graus Fahrenheit (7, 6 graus Celsius) acima do normal para o período. Este calor recorde teve um impacto direto e visível na cobertura de neve, que diminuiu significativamente durante a onda de calor do final de março, conforme observado por dados do NSIDC Snow Today e imagens do NASA Earth Observatory.</p><p>A situação na Bacia do Alto Colorado reflete uma tendência mais ampla observada em todo o oeste dos Estados Unidos. Conforme reportado pelo The New York Times em 21 de março de 2026, &quot;em todo o oeste, o calor recorde está colidindo com uma seca de neve&quot;. Esta combinação perigosa de altas temperaturas e pouca precipitação em forma de neve cria um cenário de &quot;seca de neve&quot;, onde a quantidade de água armazenada na forma de neve é drasticamente reduzida. As implicações dessa seca prolongada são vastas, afetando a agricultura, o abastecimento urbano e os ecossistemas naturais da região.</p><p>A compreensão e o monitoramento dessa crise hídrica são possíveis graças a esforços colaborativos e dados de diversas fontes científicas. O NASA Earth Observatory, com contribuições de Michala Garrison, e os dados do NSIDC Snow Today, por exemplo, fornecem informações cruciais sobre a cobertura de neve. Adicionalmente, o Mountain Hydrology Group da Universidade do Colorado, Boulder, contribui com dados especializados que são essenciais para avaliar a saúde hidrológica da bacia. A integração dessas informações permite uma análise abrangente e a formulação de respostas informadas diante dos desafios impostos pela escassez de neve.</p>",
+    "body_en": "<p>The mountains of Utah and Colorado are among the areas of the western U. S. that are low on snow and facing water worries in spring 2026. The post Snow Is Scarce in the Upper Colorado Basin appeared first on NASA Science. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The post Snow Is Scarce in the Upper Colorado Basin appeared first on NASA Science. NASA Earth Observatory/Michala Garrison, with data from NSIDC Snow Today Snow cover across the West (above) dropped noticeably during the late-March heatwave.</p><p>Earth Observatory Image of the Day NASA&#x27;s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery. Explore Earth Science Earth Science Data Open access to NASA’s archive of Earth science data The post Snow Is Scarce in the Upper Colorado Basin appeared first on NASA Science.</p><p>NASA Earth Observatory/Michala Garrison, with data from Mountain Hydrology Group, University of Colorado, Boulder The through line for the western United States so far in the 2026. In the Upper Colorado Basin, SWE peaks on April 6, on average, according to data published by the USDA Natural Resources Conservation Service.</p><p>The Colorado Basin experienced its warmest March on record, according to NIDIS, with temperatures 13.7 degrees Fahrenheit (7.6 degrees Celsius) above normal. The New York Times (2026, March 21) Across the West, Record Heat Is Colliding With a Snow Drought.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet. Interior and East 2 min read Satellites observed a frozen landscape across much of the country after a massive winter storm.</p><p>Because the account originates with NASA Earth Observatory, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/snow-is-scarce-in-the-upper-colorado-basin/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: As montanhas de Utah e Colorado, no oeste dos EUA, enfrentam uma escassez significativa de neve, gerando preocupações com o abastecimento de água",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: As montanhas de Utah e Colorado, no oeste dos EUA, enfrentam uma escassez significativa de neve, gerando preocupações com o abastecimento de água",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: The mountains of Utah and Colorado are among the areas of the western U. S. that are low on snow and facing water worries in spring 2026",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "27 abr 2026",
+    "date_pt": "27 abr 2026",
+    "date_en": "27 Apr 2026",
+    "time": "04h01",
+    "time_pt": "04h01",
+    "time_en": "04: 01 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-27T04:01:00+00:00",
+    "lastModifiedIso": "2026-04-27T08:24:47+00:00",
+    "source": "NASA Earth Observatory",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "A neve é ​​escassa na Bacia do Alto Colorado"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "A neve é ​​escassa na Bacia do Alto Colorado"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "Snow is scarce in the Upper Colorado Basin"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/snow-is-scarce-in-the-upper-colorado-basin/",
+    "realUrl": "https://www.cosmosweek.com/?article=snow-is-scarce-in-the-upper-colorado-basin",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=snow-is-scarce-in-the-upper-colorado-basin",
+    "realUrl_en": "https://www.cosmosweek.com/?article=snow-is-scarce-in-the-upper-colorado-basin&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/snow-is-scarce-in-the-upper-colorado-basin/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/snow-is-scarce-in-the-upper-colorado-basin/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/snow-is-scarce-in-the-upper-colorado-basin/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/snow-is-scarce-in-the-upper-colorado-basin/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/snow-is-scarce-in-the-upper-colorado-basin/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/snow-is-scarce-in-the-upper-colorado-basin/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 92,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "A Escassez de Neve na Bacia do Alto Colorado",
+    "imageAlt_pt": "A Escassez de Neve na Bacia do Alto Colorado",
+    "imageAlt_en": "Snow Is Scarce in the Upper Colorado Basin",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
     "slug": "aquecimento-global-empurra-corais-para-ponto-de-nao-retorno",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -136,7 +267,247 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 3,
+    "slug": "constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts",
+    "cat": "Astrofísica",
+    "catCls": "astrofisica",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/M87_jet.jpg/1280px-M87_jet.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Restrições na abundância de buracos negros primordiais usando desvios de parâmetros de pulsares",
+    "title_pt": "Restrições na abundância de buracos negros primordiais usando desvios de parâmetros de pulsares",
+    "title_en": "Constraints on the Primordial Black Hole Abundance using Pulsar Parameter Drifts",
+    "sub": "Buracos negros primordiais (PBHs) oferecem uma explicação plausível para a origem de buracos negros binários (BBHs) detectados por observatórios de ondas gravitacionais.",
+    "sub_pt": "Buracos negros primordiais (PBHs) oferecem uma explicação plausível para a origem de buracos negros binários (BBHs) detectados por observatórios de ondas gravitacionais.",
+    "sub_en": "Primordial black holes provide a compelling interpretation for the binary black holes observed by ground-based gravitational-wave detectors, especially for those BBHs in the.",
+    "excerpt": "Buracos negros primordiais (PBHs) oferecem uma explicação plausível para a origem de buracos negros binários (BBHs) detectados por observatórios de ondas gravitacionais terrestres, especialmente aqueles com massas na lacuna teórica.",
+    "excerpt_pt": "Buracos negros primordiais (PBHs) oferecem uma explicação plausível para a origem de buracos negros binários (BBHs) detectados por observatórios de ondas gravitacionais terrestres, especialmente aqueles com massas na lacuna teórica.",
+    "excerpt_en": "Primordial black holes provide a compelling interpretation for the binary black holes observed by ground-based gravitational-wave detectors, especially for those BBHs in the theoretical mass gap.",
+    "body": "<p>Buracos negros primordiais (PBHs) representam uma hipótese atraente para explicar a origem de buracos negros binários (BBHs) observados por detectores de ondas gravitacionais terrestres, particularmente aqueles cujas massas se situam na lacuna teórica. Essa lacuna de massa, que se estende aproximadamente de 50 a 150 massas solares, é um desafio para modelos astrofísicos convencionais de formação de buracos negros estelares, tornando os PBHs uma alternativa convincente. A detecção de BBHs com massas dentro ou próximas a essa faixa por colaborações como LIGO-Virgo-KAGRA (LVK) tem impulsionado a pesquisa sobre a viabilidade dos PBHs como constituintes significativos do universo.</p><p>A formação de PBHs no Universo primitivo, impulsionada por perturbações escalares significativas, tem uma consequência inevitável: a geração de ondas gravitacionais induzidas por escalar (SIGWs). Essas ondas gravitacionais secundárias são um subproduto direto dos processos cosmológicos que poderiam ter levado à criação de PBHs. A intensidade e o espectro dessas SIGWs estão intrinsecamente ligados às condições do Universo primordial e aos mecanismos de formação dos PBHs, oferecendo uma janela única para investigar a física do cosmos em suas fases mais iniciais.</p><p>As SIGWs, conforme previsto teoricamente, atingem seu pico de energia na banda de sub-nanohertz. Essa faixa de frequência é particularmente interessante porque se manifesta de forma secular como variações mensuráveis na segunda derivada dos períodos de rotação dos pulsares, conhecidas como &#x27;jerks&#x27; ou movimentos bruscos. Pulsares, estrelas de nêutrons altamente magnetizadas e em rotação rápida, emitem feixes de radiação que varrem a Terra, funcionando como relógios cósmicos de precisão extraordinária. Pequenas perturbações em seus períodos de rotação podem ser detectadas com grande sensibilidade por meio de observatórios de pulsares, tornando-os detectores naturais de ondas gravitacionais de baixa frequência.</p><p>Neste contexto, o presente estudo representa um avanço significativo ao realizar a primeira pesquisa sistemática por SIGWs utilizando desvios nos parâmetros de pulsares. A metodologia empregada envolve a análise detalhada de dados de temporização de pulsares, buscando as assinaturas características que as SIGWs imprimiriam nos períodos de rotação observados. A precisão dos dados de temporização de pulsares, acumulados ao longo de décadas por redes de temporização de pulsares (PTAs), permite a detecção de variações extremamente sutis, abrindo um novo caminho para testar modelos cosmológicos e a existência de PBHs.</p><p>Os resultados desta investigação estabelecem um limite superior de 95% de nível de confiança na abundância de PBHs, denotada por $f_{\\mathrm{PBH}}$. Este limite quantifica a fração da matéria escura que poderia ser composta por PBHs, com base na ausência de um sinal detectável de SIGWs nos dados analisados. A obtenção de um limite tão rigoroso é crucial para restringir os modelos teóricos de formação de PBHs e para avaliar sua contribuição potencial para a matéria escura do universo. A ausência de um sinal claro de SIGWs, dentro da sensibilidade atual dos detectores de pulsares, impõe restrições importantes sobre a densidade de energia dessas ondas e, consequentemente, sobre a abundância de PBHs.</p><p>As implicações desses achados são profundas, especialmente no que tange à interpretação das detecções de BBHs pelas Colaborações LIGO-Virgo-KAGRA (LVK). Nossos resultados desfavorecem fortemente uma origem puramente primordial para os BBHs atualmente detectados pelo LVK. Embora a existência de PBHs não seja completamente descartada, a abundância necessária para explicar a totalidade ou uma fração substancial dos BBHs observados parece ser incompatível com os limites impostos pela busca por SIGWs. Isso sugere que a maioria dos BBHs detectados provavelmente se forma através de canais astrofísicos convencionais, como a evolução de estrelas massivas em sistemas binários.</p><p>Este estudo não apenas fornece restrições cruciais sobre a abundância de buracos negros primordiais, mas também demonstra o poder das redes de temporização de pulsares como ferramentas para sondar o Universo primordial e a física de ondas gravitacionais de baixa frequência. A continuidade das observações e o aprimoramento das técnicas de análise prometem refinar ainda mais esses limites, potencialmente revelando a presença de SIGWs ou impondo restrições ainda mais rigorosas sobre a cosmologia de PBHs. A busca por essas assinaturas cósmicas continua sendo uma área vibrante e essencial da pesquisa astrofísica e cosmológica.</p>",
+    "body_pt": "<p>Buracos negros primordiais (PBHs) representam uma hipótese atraente para explicar a origem de buracos negros binários (BBHs) observados por detectores de ondas gravitacionais terrestres, particularmente aqueles cujas massas se situam na lacuna teórica. Essa lacuna de massa, que se estende aproximadamente de 50 a 150 massas solares, é um desafio para modelos astrofísicos convencionais de formação de buracos negros estelares, tornando os PBHs uma alternativa convincente. A detecção de BBHs com massas dentro ou próximas a essa faixa por colaborações como LIGO-Virgo-KAGRA (LVK) tem impulsionado a pesquisa sobre a viabilidade dos PBHs como constituintes significativos do universo.</p><p>A formação de PBHs no Universo primitivo, impulsionada por perturbações escalares significativas, tem uma consequência inevitável: a geração de ondas gravitacionais induzidas por escalar (SIGWs). Essas ondas gravitacionais secundárias são um subproduto direto dos processos cosmológicos que poderiam ter levado à criação de PBHs. A intensidade e o espectro dessas SIGWs estão intrinsecamente ligados às condições do Universo primordial e aos mecanismos de formação dos PBHs, oferecendo uma janela única para investigar a física do cosmos em suas fases mais iniciais.</p><p>As SIGWs, conforme previsto teoricamente, atingem seu pico de energia na banda de sub-nanohertz. Essa faixa de frequência é particularmente interessante porque se manifesta de forma secular como variações mensuráveis na segunda derivada dos períodos de rotação dos pulsares, conhecidas como &#x27;jerks&#x27; ou movimentos bruscos. Pulsares, estrelas de nêutrons altamente magnetizadas e em rotação rápida, emitem feixes de radiação que varrem a Terra, funcionando como relógios cósmicos de precisão extraordinária. Pequenas perturbações em seus períodos de rotação podem ser detectadas com grande sensibilidade por meio de observatórios de pulsares, tornando-os detectores naturais de ondas gravitacionais de baixa frequência.</p><p>Neste contexto, o presente estudo representa um avanço significativo ao realizar a primeira pesquisa sistemática por SIGWs utilizando desvios nos parâmetros de pulsares. A metodologia empregada envolve a análise detalhada de dados de temporização de pulsares, buscando as assinaturas características que as SIGWs imprimiriam nos períodos de rotação observados. A precisão dos dados de temporização de pulsares, acumulados ao longo de décadas por redes de temporização de pulsares (PTAs), permite a detecção de variações extremamente sutis, abrindo um novo caminho para testar modelos cosmológicos e a existência de PBHs.</p><p>Os resultados desta investigação estabelecem um limite superior de 95% de nível de confiança na abundância de PBHs, denotada por $f_{\\mathrm{PBH}}$. Este limite quantifica a fração da matéria escura que poderia ser composta por PBHs, com base na ausência de um sinal detectável de SIGWs nos dados analisados. A obtenção de um limite tão rigoroso é crucial para restringir os modelos teóricos de formação de PBHs e para avaliar sua contribuição potencial para a matéria escura do universo. A ausência de um sinal claro de SIGWs, dentro da sensibilidade atual dos detectores de pulsares, impõe restrições importantes sobre a densidade de energia dessas ondas e, consequentemente, sobre a abundância de PBHs.</p><p>As implicações desses achados são profundas, especialmente no que tange à interpretação das detecções de BBHs pelas Colaborações LIGO-Virgo-KAGRA (LVK). Nossos resultados desfavorecem fortemente uma origem puramente primordial para os BBHs atualmente detectados pelo LVK. Embora a existência de PBHs não seja completamente descartada, a abundância necessária para explicar a totalidade ou uma fração substancial dos BBHs observados parece ser incompatível com os limites impostos pela busca por SIGWs. Isso sugere que a maioria dos BBHs detectados provavelmente se forma através de canais astrofísicos convencionais, como a evolução de estrelas massivas em sistemas binários.</p><p>Este estudo não apenas fornece restrições cruciais sobre a abundância de buracos negros primordiais, mas também demonstra o poder das redes de temporização de pulsares como ferramentas para sondar o Universo primordial e a física de ondas gravitacionais de baixa frequência. A continuidade das observações e o aprimoramento das técnicas de análise prometem refinar ainda mais esses limites, potencialmente revelando a presença de SIGWs ou impondo restrições ainda mais rigorosas sobre a cosmologia de PBHs. A busca por essas assinaturas cósmicas continua sendo uma área vibrante e essencial da pesquisa astrofísica e cosmológica.</p>",
+    "body_en": "<p>Primordial black holes provide a compelling interpretation for the binary black holes observed by ground-based gravitational-wave detectors, especially for those BBHs in the theoretical mass gap. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It is relevant because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Primordial black holes (PBHs) provide a compelling interpretation for the binary black holes (BBHs) observed by ground-based gravitational-wave (GW) detectors, especially for. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>In the early Universe, the scalar perturbations required to produce such PBHs inevitably generate scalar-induced GWs (SIGWs). These SIGWs peak in the sub-nanohertz band, and manifest secularly as measurable jerk-like drifts in the second derivative of pulsar spin periods.</p><p>Our results strongly disfavor a PBH origin for the BBHs currently detected by the LIGO-Virgo-KAGRA (LVK) Collaborations.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.22634v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Buracos negros primordiais (PBHs) oferecem uma explicação plausível para a origem de buracos negros binários (BBHs) detectados por observatórios de",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: Buracos negros primordiais (PBHs) oferecem uma explicação plausível para a origem de buracos negros binários (BBHs) detectados por observatórios de",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: Primordial black holes provide a compelling interpretation for the binary black holes observed by ground-based gravitational-wave detectors",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "24 abr 2026",
+    "date_pt": "24 abr 2026",
+    "date_en": "24 Apr 2026",
+    "time": "15h07",
+    "time_pt": "15h07",
+    "time_en": "15: 07 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-24T15:07:45+00:00",
+    "lastModifiedIso": "2026-04-27T08:24:47+00:00",
+    "source": "arXiv Astrophysics",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Astrofísica",
+      "arXiv Astrophysics",
+      "Cosmos Week",
+      "Restrições na abundância do buraco negro primordial usando desvios de parâmetros pulsares"
+    ],
+    "keywords_pt": [
+      "Astrofísica",
+      "arXiv Astrophysics",
+      "Cosmos Week",
+      "Restrições na abundância do buraco negro primordial usando desvios de parâmetros pulsares"
+    ],
+    "keywords_en": [
+      "Astrophysics",
+      "arXiv Astrophysics",
+      "Cosmos Week",
+      "Constraints on primordial black hole abundance using pulsar parameter biases"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2604.22634v1",
+    "realUrl": "https://www.cosmosweek.com/?article=constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts",
+    "realUrl_en": "https://www.cosmosweek.com/?article=constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 77,
+    "scoreBreakdown": {
+      "source": 66,
+      "evidence": 39,
+      "relevance": 94,
+      "accessibility": 60,
+      "novelty": 49
+    },
+    "imageAlt": "Restrições na abundância de buracos negros primordiais usando desvios de parâmetros de pulsares",
+    "imageAlt_pt": "Restrições na abundância de buracos negros primordiais usando desvios de parâmetros de pulsares",
+    "imageAlt_en": "Constraints on the Primordial Black Hole Abundance using Pulsar Parameter Drifts",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 4,
+    "slug": "demographics-of-mesoscale-eddies-in-an-eddy-permitting-ocean-model-and-reanalysis",
+    "cat": "Física",
+    "catCls": "fisica",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Global_Surface_Temperature_Anomalies_1880-2013.jpg/1280px-Global_Surface_Temperature_Anomalies_1880-2013.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Demografia de Redemoinhos de Mesoescala em um Modelo Oceânico com Resolução de Redemoinhos e Reanálise",
+    "title_pt": "Demografia de Redemoinhos de Mesoescala em um Modelo Oceânico com Resolução de Redemoinhos e Reanálise",
+    "title_en": "Demographics of Mesoscale Eddies in an Eddy-Permitting Ocean Model and Reanalysis",
+    "sub": "Os redemoinhos de mesoescala oceânicos podem ser considerados o \"clima\" do oceano, influenciando fortemente a física, a química e a biologia marinhas.",
+    "sub_pt": "Os redemoinhos de mesoescala oceânicos podem ser considerados o \"clima\" do oceano, influenciando fortemente a física, a química e a biologia marinhas.",
+    "sub_en": "Ocean mesoscale eddies can be thought of as the \"weather\" of the ocean and strongly influence the ocean's physics, chemistry, and biology.",
+    "excerpt": "Os redemoinhos de mesoescala oceânicos podem ser considerados o \"clima\" do oceano, influenciando fortemente a física, a química e a biologia marinhas.",
+    "excerpt_pt": "Os redemoinhos de mesoescala oceânicos podem ser considerados o \"clima\" do oceano, influenciando fortemente a física, a química e a biologia marinhas.",
+    "excerpt_en": "Ocean mesoscale eddies can be thought of as the \"weather\" of the ocean and strongly influence the ocean's physics, chemistry, and biology.",
+    "body": "<p>Os redemoinhos de mesoescala oceânicos são considerados o &quot;clima&quot; do oceano e influenciam fortemente a física, a química e a biologia marinhas. Esses fenômenos também afetam outros componentes do sistema terrestre por meio de interações ar-mar e gelo marinho, sendo impulsionadores cruciais das ondas de calor marinhas. A modelagem adequada de redemoinhos em cenários climáticos históricos e futuros é, portanto, crucial para representar com precisão o sistema terrestre.</p><p>As projeções climáticas que utilizam modelos globais acoplados com componentes oceânicos turbulentos somente recentemente começaram a ser mais amplamente empregadas. Apesar do seu papel crítico na compreensão e previsão das características climáticas, esses modelos, denominados modelos com resolução de redemoinhos, não foram suficientemente explorados para verificar a realisticidade dos redemoinhos resolvidos e, consequentemente, para validar testes científicos subsequentes de hipóteses.</p><p>O presente estudo compara redemoinhos observados com tempo de vida superior a seis semanas, identificados em dados de altimetria de satélite de 0, 25°, com aqueles observados em dados de reanálise de 0, 25° e nos resultados de modelos oceânicos. Esta análise visa avaliar a capacidade dos modelos e reanálises em reproduzir fielmente a demografia e as características dos redemoinhos de mesoescala, um passo fundamental para aprimorar a representação do oceano em projeções climáticas.</p><p>Os resultados revelam que, quando comparados aos redemoinhos observados nos dados de altimetria de satélite, os redemoinhos nos dados de reanálise e nos resultados do modelo oceânico subestimam em quase 30% o número total de trajetórias de redemoinhos. Essa discrepância sugere uma limitação significativa na representação da formação e propagação desses fenômenos nos modelos e reanálises, o que pode ter implicações importantes para a compreensão da dinâmica oceânica e seus impactos climáticos.</p><p>Adicionalmente à subestimação do número de trajetórias, as características individuais dos redemoinhos nos dados de reanálise e nos resultados do modelo oceânico diferem substancialmente daquelas observadas nos dados de altimetria de satélite. Em termos gerais, os redemoinhos simulados tendem a apresentar maior duração, são maiores em extensão e mais fracos em intensidade do que os redemoinhos observados por altimetria. Essas diferenças nas propriedades físicas dos redemoinhos podem afetar a forma como eles transportam calor, sal e nutrientes, impactando processos biogeoquímicos e a circulação oceânica.</p><p>O presente estudo detalha diversas estatísticas que descrevem essas diferenças, tanto em termos espaciais quanto no agregado global, fornecendo uma avaliação abrangente da demografia dos redemoinhos em modelos oceânicos e reanálises. As descobertas sublinham a necessidade contínua de aprimoramento na parametrização e resolução de redemoinhos em modelos climáticos, a fim de garantir uma representação mais precisa dos processos oceânicos e suas interações com o sistema terrestre. A validação rigorosa dos modelos é essencial para aumentar a confiança nas projeções climáticas futuras.</p>",
+    "body_pt": "<p>Os redemoinhos de mesoescala oceânicos são considerados o &quot;clima&quot; do oceano e influenciam fortemente a física, a química e a biologia marinhas. Esses fenômenos também afetam outros componentes do sistema terrestre por meio de interações ar-mar e gelo marinho, sendo impulsionadores cruciais das ondas de calor marinhas. A modelagem adequada de redemoinhos em cenários climáticos históricos e futuros é, portanto, crucial para representar com precisão o sistema terrestre.</p><p>As projeções climáticas que utilizam modelos globais acoplados com componentes oceânicos turbulentos somente recentemente começaram a ser mais amplamente empregadas. Apesar do seu papel crítico na compreensão e previsão das características climáticas, esses modelos, denominados modelos com resolução de redemoinhos, não foram suficientemente explorados para verificar a realisticidade dos redemoinhos resolvidos e, consequentemente, para validar testes científicos subsequentes de hipóteses.</p><p>O presente estudo compara redemoinhos observados com tempo de vida superior a seis semanas, identificados em dados de altimetria de satélite de 0, 25°, com aqueles observados em dados de reanálise de 0, 25° e nos resultados de modelos oceânicos. Esta análise visa avaliar a capacidade dos modelos e reanálises em reproduzir fielmente a demografia e as características dos redemoinhos de mesoescala, um passo fundamental para aprimorar a representação do oceano em projeções climáticas.</p><p>Os resultados revelam que, quando comparados aos redemoinhos observados nos dados de altimetria de satélite, os redemoinhos nos dados de reanálise e nos resultados do modelo oceânico subestimam em quase 30% o número total de trajetórias de redemoinhos. Essa discrepância sugere uma limitação significativa na representação da formação e propagação desses fenômenos nos modelos e reanálises, o que pode ter implicações importantes para a compreensão da dinâmica oceânica e seus impactos climáticos.</p><p>Adicionalmente à subestimação do número de trajetórias, as características individuais dos redemoinhos nos dados de reanálise e nos resultados do modelo oceânico diferem substancialmente daquelas observadas nos dados de altimetria de satélite. Em termos gerais, os redemoinhos simulados tendem a apresentar maior duração, são maiores em extensão e mais fracos em intensidade do que os redemoinhos observados por altimetria. Essas diferenças nas propriedades físicas dos redemoinhos podem afetar a forma como eles transportam calor, sal e nutrientes, impactando processos biogeoquímicos e a circulação oceânica.</p><p>O presente estudo detalha diversas estatísticas que descrevem essas diferenças, tanto em termos espaciais quanto no agregado global, fornecendo uma avaliação abrangente da demografia dos redemoinhos em modelos oceânicos e reanálises. As descobertas sublinham a necessidade contínua de aprimoramento na parametrização e resolução de redemoinhos em modelos climáticos, a fim de garantir uma representação mais precisa dos processos oceânicos e suas interações com o sistema terrestre. A validação rigorosa dos modelos é essencial para aumentar a confiança nas projeções climáticas futuras.</p>",
+    "body_en": "<p>Ocean mesoscale eddies can be thought of as the &quot;weather&quot; of the ocean and strongly influence the ocean&#x27;s physics, chemistry, and biology. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>This matters because physics only takes a result seriously when the measurement chain remains robust under scrutiny. Experimental particle physics and precision metrology both operate in regimes where the signal sits far below the background noise, and where systematic uncertainties can mimic new physics if not controlled rigorously. The history of the field contains numerous anomalies that generated theoretical excitement before better data showed them to be artifacts, and it also contains genuine discoveries that were initially dismissed as noise. The difference is almost always resolved by independent replication with different instruments and different systematics. They influence other components of the Earth system via air-sea and sea-ice interactions, and are crucial drivers of marine heat waves. Thus, proper modeling of eddies in both historical and future climates is crucial to accurately capturing the Earth system.</p><p>Climate projections using global coupled models with eddying ocean components are only recently starting to be more widely used. Despite their critical role in understanding and forecasting climate characteristics, these so-called eddy-permitting models have not been explored to verify that resolved eddies.</p><p>This paper compares observed eddies with lifetimes longer than 6 weeks present in $1/4^\\circ$ satellite altimetry data with observed eddies in $1/4^\\circ$ reanalysis data and. When compared to eddies observed in satellite altimetry data, eddies in reanalysis data and ocean model output are missing almost 30% of the number of eddy trajectories.</p><p>In addition to missing eddy trajectories, the characteristics of eddies in reanalysis data and ocean model output differ from eddies observed in satellite altimetry data. At a high level, eddies in reanalysis data and ocean model output tend to live longer, are larger, and are weaker than eddies in observed altimetry data.</p><p>The broader interest lies as much in the method as in the headline number, because a durable measurement procedure can travel farther than a single result. When experimental physicists develop a technique that achieves new sensitivity or controls a previously uncharacterized systematic, that methodological contribution persists even if the specific measurement is later revised. This is one reason why precision physics experiments often generate long-term value that is not immediately visible in the original publication.</p><p>This paper presents a variety of statistics describing these differences both spatially and in global aggregate. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is more measurement, tighter systematic control and scrutiny from groups whose experimental setups are genuinely independent. In experimental particle physics and precision metrology, the threshold for a discovery claim is a five-sigma excess surviving multiple analyses; an intriguing signal at lower significance is a reason to run more experiments, not a reason to revise the textbooks. Next-generation experiments currently under construction or commissioning will revisit several of the open questions that give the current result its context. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.22524v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Os redemoinhos de mesoescala oceânicos podem ser considerados o \"clima\" do oceano, influenciando fortemente a física, a química e a biologia marinhas",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: Os redemoinhos de mesoescala oceânicos podem ser considerados o \"clima\" do oceano, influenciando fortemente a física, a química e a biologia marinhas",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: Ocean mesoscale eddies can be thought of as the \"weather\" of the ocean and strongly influence the ocean's physics, chemistry, and biology",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "24 abr 2026",
+    "date_pt": "24 abr 2026",
+    "date_en": "24 Apr 2026",
+    "time": "13h08",
+    "time_pt": "13h08",
+    "time_en": "13: 08 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-24T13:08:20+00:00",
+    "lastModifiedIso": "2026-04-27T08:24:47+00:00",
+    "source": "arXiv Geophysics",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "watch",
+    "editorialBandLabel": "Leitura monitorada",
+    "editorialBandLabel_pt": "Leitura monitorada",
+    "editorialBandLabel_en": "Watchlist",
+    "keywords": [
+      "Física",
+      "arXiv Geophysics",
+      "Cosmos Week",
+      "Demografia de redemoinhos de mesoescala em um modelo oceânico que permite redemoinhos e reanálise"
+    ],
+    "keywords_pt": [
+      "Física",
+      "arXiv Geophysics",
+      "Cosmos Week",
+      "Demografia de redemoinhos de mesoescala em um modelo oceânico que permite redemoinhos e reanálise"
+    ],
+    "keywords_en": [
+      "Physical",
+      "arXiv Geophysics",
+      "Cosmos Week",
+      "Demographics of mesoscale eddies in an ocean model that allows for eddies and reanalysis"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2604.22524v1",
+    "realUrl": "https://www.cosmosweek.com/?article=demographics-of-mesoscale-eddies-in-an-eddy-permitting-ocean-model-and-reanalysis",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=demographics-of-mesoscale-eddies-in-an-eddy-permitting-ocean-model-and-reanalysis",
+    "realUrl_en": "https://www.cosmosweek.com/?article=demographics-of-mesoscale-eddies-in-an-eddy-permitting-ocean-model-and-reanalysis&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/demographics-of-mesoscale-eddies-in-an-eddy-permitting-ocean-model-and-reanalysis/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/demographics-of-mesoscale-eddies-in-an-eddy-permitting-ocean-model-and-reanalysis/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/demographics-of-mesoscale-eddies-in-an-eddy-permitting-ocean-model-and-reanalysis/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/demographics-of-mesoscale-eddies-in-an-eddy-permitting-ocean-model-and-reanalysis/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/demographics-of-mesoscale-eddies-in-an-eddy-permitting-ocean-model-and-reanalysis/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/demographics-of-mesoscale-eddies-in-an-eddy-permitting-ocean-model-and-reanalysis/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 67,
+    "scoreBreakdown": {
+      "source": 55,
+      "evidence": 39,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 49
+    },
+    "imageAlt": "Demografia de Redemoinhos de Mesoescala em um Modelo Oceânico com Resolução de Redemoinhos e Reanálise",
+    "imageAlt_pt": "Demografia de Redemoinhos de Mesoescala em um Modelo Oceânico com Resolução de Redemoinhos e Reanálise",
+    "imageAlt_en": "Demographics of Mesoscale Eddies in an Eddy-Permitting Ocean Model and Reanalysis",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 5,
     "slug": "catching-the-earliest-stars-in-the-universe",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -257,7 +628,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 6,
     "slug": "braving-the-arctic-for-upcoming-polar-focused-satellites",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -378,7 +749,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 7,
     "slug": "hilumi-lhc-cern-s-full-scale-test-stand-enters-the-powering-phase",
     "cat": "Física",
     "catCls": "fisica",
@@ -512,7 +883,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 8,
     "slug": "clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -633,7 +1004,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 6,
+    "id": 9,
     "slug": "the-fy-2027-nasa-budget-request",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -809,130 +1180,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 7,
-    "slug": "the-dyson-minds-2025-workshop-seti-around-black-holes",
-    "cat": "Astrofísica",
-    "catCls": "astrofisica",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1280px-Black_hole_-_Messier_87_crop_max_res.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Workshop Dyson Minds 2025: SETI em torno dos buracos negros",
-    "title_pt": "Workshop Dyson Minds 2025: SETI em torno dos buracos negros",
-    "title_en": "The Dyson Minds 2025 Workshop: SETI around Black Holes",
-    "sub": "O Workshop Dyson Minds 2025, realizado no Center for Brains, Minds & Machines do MIT e organizado pela Penn State, MIT e The Ultraintelligence Foundation, reuniu pesquisadores.",
-    "sub_pt": "O Workshop Dyson Minds 2025, realizado no Center for Brains, Minds & Machines do MIT e organizado pela Penn State, MIT e The Ultraintelligence Foundation, reuniu pesquisadores.",
-    "sub_en": "The Dyson Minds 2025 Workshop, held at the Center for Brains, Minds & Machines at MIT and organized by Penn State, MIT, and The Ultraintelligence Foundation, brought together.",
-    "excerpt": "O Workshop Dyson Minds 2025, realizado no Center for Brains, Minds & Machines do MIT e organizado pela Penn State, MIT e The Ultraintelligence Foundation, reuniu pesquisadores para explorar as implicações físicas, de engenharia e observacionais de.",
-    "excerpt_pt": "O Workshop Dyson Minds 2025, realizado no Center for Brains, Minds & Machines do MIT e organizado pela Penn State, MIT e The Ultraintelligence Foundation, reuniu pesquisadores para explorar as implicações físicas, de engenharia e observacionais de.",
-    "excerpt_en": "The Dyson Minds 2025 Workshop, held at the Center for Brains, Minds & Machines at MIT and organized by Penn State, MIT, and The Ultraintelligence Foundation, brought together researchers in astrophysics, engineering, artificial.",
-    "body": "<p>O principal objetivo do workshop foi desenvolver novas e inovadoras estratégias observacionais, capazes de identificar assinaturas tecnológicas ou energéticas que pudessem indicar a presença desses sistemas avançados. A busca por inteligência extraterrestre (SETI) foi um pilar central, direcionando as discussões para métodos de detecção que transcendam as abordagens convencionais.</p><p>Apesar do caráter altamente interdisciplinar do evento, as discussões convergiram para questões fundamentais sobre a natureza das Mentes Dyson. Os pesquisadores debateram intensamente como uma Mente Dyson poderia ser construída, quais seriam seus padrões de comportamento esperados e, crucialmente, como esses fatores intrínsecos moldariam as estratégias mais eficazes para a busca por inteligência extraterrestre (SETI). A complexidade de tais entidades exigiu uma análise multifacetada, abrangendo desde a sua concepção teórica até as implicações práticas para a observação astronômica.</p><p>Entre os temas principais abordados, destacaram-se os limites termodinâmicos, mecânicos e de estabilidade que regeriam os enxames Dyson. Foram exploradas as complexas compensações entre a disponibilidade de energia e a latência de comunicação inerentes a mentes distribuídas em escalas cósmicas. Além disso, uma parte significativa das discussões focou em como a observabilidade dessas estruturas mudaria drasticamente, dependendo se as Mentes Dyson operassem como entidades coerentes e unificadas ou como coletivos mais vagamente coordenados, cada configuração apresentando desafios e oportunidades distintas para a detecção.</p><p>Em relação a esses tópicos cruciais, um consenso emergiu entre os participantes: os detalhes específicos da arquitetura interna e do comportamento operacional de uma Mente Dyson influenciam de maneira determinante suas assinaturas observacionais. Isso implica que a compreensão aprofundada de sua engenharia e psicologia hipotética é essencial para refinar as estratégias de busca, permitindo que os pesquisadores saibam o que procurar e onde, maximizando as chances de uma detecção bem-sucedida.</p><p>Uma recomendação prática e de grande relevância que surgiu do workshop foi a aplicação de métodos avançados de detecção de anomalias a vastos conjuntos de dados de arquivo. Especificamente, sugeriu-se analisar dados provenientes de missões e observatórios como o Wide-field Infrared Survey Explorer (WISE), o James Webb Space Telescope (JWST) e o Event Horizon Telescope. O objetivo é identificar fontes incomuns ou padrões atípicos que poderiam ter sido inadvertidamente ignorados pelos pipelines de redução de dados padrão, que geralmente são otimizados para fenômenos astrofísicos conhecidos.</p><p>A expectativa é que essa abordagem sistemática e a exploração de novas metodologias possam revelar evidências sutis de tecnologias avançadas, expandindo significativamente o escopo da busca por vida inteligente além da Terra e redefinindo nossa compreensão do universo habitado. Tais esforços são cruciais para avançar no campo da astrobiologia e da SETI, abrindo caminho para descobertas que poderiam transformar a perspectiva humana sobre seu lugar no cosmos.</p>",
-    "body_pt": "<p>O principal objetivo do workshop foi desenvolver novas e inovadoras estratégias observacionais, capazes de identificar assinaturas tecnológicas ou energéticas que pudessem indicar a presença desses sistemas avançados. A busca por inteligência extraterrestre (SETI) foi um pilar central, direcionando as discussões para métodos de detecção que transcendam as abordagens convencionais.</p><p>Apesar do caráter altamente interdisciplinar do evento, as discussões convergiram para questões fundamentais sobre a natureza das Mentes Dyson. Os pesquisadores debateram intensamente como uma Mente Dyson poderia ser construída, quais seriam seus padrões de comportamento esperados e, crucialmente, como esses fatores intrínsecos moldariam as estratégias mais eficazes para a busca por inteligência extraterrestre (SETI). A complexidade de tais entidades exigiu uma análise multifacetada, abrangendo desde a sua concepção teórica até as implicações práticas para a observação astronômica.</p><p>Entre os temas principais abordados, destacaram-se os limites termodinâmicos, mecânicos e de estabilidade que regeriam os enxames Dyson. Foram exploradas as complexas compensações entre a disponibilidade de energia e a latência de comunicação inerentes a mentes distribuídas em escalas cósmicas. Além disso, uma parte significativa das discussões focou em como a observabilidade dessas estruturas mudaria drasticamente, dependendo se as Mentes Dyson operassem como entidades coerentes e unificadas ou como coletivos mais vagamente coordenados, cada configuração apresentando desafios e oportunidades distintas para a detecção.</p><p>Em relação a esses tópicos cruciais, um consenso emergiu entre os participantes: os detalhes específicos da arquitetura interna e do comportamento operacional de uma Mente Dyson influenciam de maneira determinante suas assinaturas observacionais. Isso implica que a compreensão aprofundada de sua engenharia e psicologia hipotética é essencial para refinar as estratégias de busca, permitindo que os pesquisadores saibam o que procurar e onde, maximizando as chances de uma detecção bem-sucedida.</p><p>Uma recomendação prática e de grande relevância que surgiu do workshop foi a aplicação de métodos avançados de detecção de anomalias a vastos conjuntos de dados de arquivo. Especificamente, sugeriu-se analisar dados provenientes de missões e observatórios como o Wide-field Infrared Survey Explorer (WISE), o James Webb Space Telescope (JWST) e o Event Horizon Telescope. O objetivo é identificar fontes incomuns ou padrões atípicos que poderiam ter sido inadvertidamente ignorados pelos pipelines de redução de dados padrão, que geralmente são otimizados para fenômenos astrofísicos conhecidos.</p><p>A expectativa é que essa abordagem sistemática e a exploração de novas metodologias possam revelar evidências sutis de tecnologias avançadas, expandindo significativamente o escopo da busca por vida inteligente além da Terra e redefinindo nossa compreensão do universo habitado. Tais esforços são cruciais para avançar no campo da astrobiologia e da SETI, abrindo caminho para descobertas que poderiam transformar a perspectiva humana sobre seu lugar no cosmos.</p>",
-    "body_en": "<p>The Dyson Minds 2025 Workshop, held at the Center for Brains, Minds &amp; Machines at MIT and organized by Penn State, MIT, and The Ultraintelligence Foundation, brought together researchers in astrophysics, engineering, artificial. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>This matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. The Dyson Minds 2025 Workshop, held at the Center for Brains. Minds &amp; Machines at MIT and organized by Penn State.</p><p>Good (1966), participants explored the physical, engineering, behavioral, and observational consequences of civilizations embodied as machinery operating near the universe&#x27;s most. The workshop aimed to develop new observational strategies capable of detecting signatures of such systems.</p><p>Despite the highly cross-disciplinary scope, discussions centered on how a Dyson Mind might be constructed, how it might behave, and how those factors would shape strategies for. Key themes included the thermodynamic, mechanical, and stability limits of Dyson swarms.</p><p>The trade-offs between power availability and communication latency in distributed minds. And how observability changes depending on whether Dyson Minds act as coherent entities or as loosely coordinated collectives.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>Across these topics, the consensus was that details of architecture and behavior strongly influence observational signatures. A major recommendation was to apply anomaly-detection methods to archival datasets, including those from WISE, JWST, and the Event Horizon Telescope, to identify unusual sources.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.21886v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Em foco: O Workshop Dyson Minds 2025, realizado no Center for Brains, Minds & Machines do MIT e organizado pela Penn State, MIT e The Ultraintelligence",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
-    ],
-    "highlights_pt": [
-      "Em foco: O Workshop Dyson Minds 2025, realizado no Center for Brains, Minds & Machines do MIT e organizado pela Penn State, MIT e The Ultraintelligence",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
-    ],
-    "highlights_en": [
-      "Focus: The Dyson Minds 2025 Workshop, held at the Center for Brains, Minds & Machines at MIT and organized by Penn State, MIT, and The Ultraintelligence",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
-    ],
-    "date": "23 abr 2026",
-    "date_pt": "23 abr 2026",
-    "date_en": "23 Apr 2026",
-    "time": "17h38",
-    "time_pt": "17h38",
-    "time_en": "17: 38 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-23T17:38:36+00:00",
-    "lastModifiedIso": "2026-04-26T07:40:11+00:00",
-    "source": "arXiv Astrophysics",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "standard",
-    "editorialBandLabel": "Prioridade editorial",
-    "editorialBandLabel_pt": "Prioridade editorial",
-    "editorialBandLabel_en": "Editorial priority",
-    "keywords": [
-      "Astrofísica",
-      "arXiv Astrophysics",
-      "Cosmos Week",
-      "Workshop Dyson Minds 2025",
-      "SETI em torno dos buracos negros"
-    ],
-    "keywords_pt": [
-      "Astrofísica",
-      "arXiv Astrophysics",
-      "Cosmos Week",
-      "Workshop Dyson Minds 2025",
-      "SETI em torno dos buracos negros"
-    ],
-    "keywords_en": [
-      "Astrophysics",
-      "arXiv Astrophysics",
-      "Cosmos Week",
-      "Workshop Dyson Minds 2025",
-      "SETI around black holes"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2604.21886v1",
-    "realUrl": "https://www.cosmosweek.com/?article=the-dyson-minds-2025-workshop-seti-around-black-holes",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=the-dyson-minds-2025-workshop-seti-around-black-holes",
-    "realUrl_en": "https://www.cosmosweek.com/?article=the-dyson-minds-2025-workshop-seti-around-black-holes&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/the-dyson-minds-2025-workshop-seti-around-black-holes/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/the-dyson-minds-2025-workshop-seti-around-black-holes/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/the-dyson-minds-2025-workshop-seti-around-black-holes/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/the-dyson-minds-2025-workshop-seti-around-black-holes/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/the-dyson-minds-2025-workshop-seti-around-black-holes/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/the-dyson-minds-2025-workshop-seti-around-black-holes/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 77,
-    "scoreBreakdown": {
-      "source": 66,
-      "evidence": 39,
-      "relevance": 94,
-      "accessibility": 60,
-      "novelty": 49
-    },
-    "imageAlt": "Workshop Dyson Minds 2025: SETI em torno dos buracos negros",
-    "imageAlt_pt": "Workshop Dyson Minds 2025: SETI em torno dos buracos negros",
-    "imageAlt_en": "The Dyson Minds 2025 Workshop: SETI around Black Holes",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 8,
+    "id": 10,
     "slug": "accelerating-scaling-solutions-from-dark-matter-particle-creation",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -953,18 +1201,19 @@ window.postsData = [
     "body_pt": "<p>O presente estudo explora uma abordagem inovadora para compreender os atratores de escala acelerada no contexto cosmológico, propondo uma alternativa à necessidade de energia escura. Tradicionalmente, a aceleração cósmica é atribuída à energia escura, um componente misterioso que domina o universo tardio. No entanto, esta pesquisa investiga a possibilidade de alcançar tais atratores por meio da criação adiabática de partículas de matéria escura (DM) sem pressão, que interage e troca energia com um fluido barotrópico. Esta perspectiva abre uma nova janela para a obtenção de cenários de expansão acelerada, desafiando as premissas convencionais sobre os constituintes fundamentais do universo.</p><p>Para investigar essa dinâmica, formulamos sistemas autônomos correspondentes em um espaço de fase compacto, permitindo uma análise dinâmica unificada. A metodologia empregada envolveu a consideração de um sistema de dois fluidos, onde a matéria escura (DM) sem pressão é submetida a um processo de criação de partículas adiabáticas, estabelecendo uma troca de energia com um fluido barotrópico. Foram examinadas seis prescrições de interação amplamente utilizadas para modelar essa troca de energia entre os dois componentes. Essa abordagem sistemática permitiu mapear as condições sob as quais diferentes regimes cosmológicos podem emergir, com foco particular nos atratores de escala acelerada.</p><p>Nossas descobertas revelam que os atratores de escala acelerada — definidos como estados tardios do universo onde ambos os fluidos coexistem com frações de energia fixas — surgem exclusivamente sob condições específicas. A ocorrência desses atratores está intrinsecamente ligada à natureza da interação entre os fluidos: eles se manifestam apenas quando a interação é controlada pela densidade da matéria escura (DM) e, crucialmente, quando a energia flui da DM para o segundo fluido. Este resultado é fundamental, pois aponta para um mecanismo intrínseco à matéria escura que pode impulsionar a aceleração cósmica sem a necessidade de um campo de energia escura adicional.</p><p>A análise detalhada das prescrições de interação demonstrou que esses atratores são observados em cenários de interações globais e locais baseadas na matéria escura, bem como no caso misto global. Por outro lado, os atratores de escala acelerada estão completamente ausentes quando a interação depende do segundo fluido ou de termos mistos locais. Nesses últimos casos, a dinâmica cosmológica é alterada, conduzindo o universo a uma fase de aceleração que é dominada pela própria matéria escura. Essa distinção clara entre os diferentes regimes de interação sublinha a sensibilidade do comportamento cosmológico às especificidades da troca de energia entre a matéria escura e outros componentes.</p><p>As implicações desses achados são significativas para a cosmologia moderna. Ao demonstrar que atratores de escala acelerada podem surgir da criação de partículas de matéria escura, este trabalho oferece uma alternativa convincente aos modelos que dependem exclusivamente da energia escura para explicar a aceleração do universo. A capacidade de gerar tais atratores por meio de um mecanismo intrínseco à matéria escura sugere que a compreensão da natureza e das interações da DM pode ser ainda mais complexa e rica do que se pensava, potencialmente abrindo novos caminhos para resolver o problema da energia escura e refinar nosso modelo cosmológico padrão.</p>",
     "body_en": "<p>This article opens new window to obtain accelerating scaling attractors without any need of dark energy. We study cosmological dynamics in a two-fluid system where pressureless dark matter undergoes adiabatic particle creation and. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>The significance lies in cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Have an idea for a project that will add value for arXiv&#x27;s community. We study cosmological dynamics in a two-fluid system where pressureless dark matter (DM) undergoes adiabatic particle creation and exchanges energy with a barotropic fluid.</p><p>Considering six widely used interaction prescriptions, we formulate the corresponding autonomous systems in a compact phase space and perform a unified dynamical analysis. We find that accelerating scaling attractors, namely late-time states where both fluids coexist with fixed energy fractions, arise only when the interaction is controlled by the.</p><p>Such attractors appear in the global and local DM-based interactions, and in the global mixed case, but are entirely absent when the interaction depends on the second fluid or on. These results clarify the unique conditions under which matter creation can mimic dark-energy-like behaviour without introducing a dark-energy component.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.21770v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Este artigo apresenta uma nova perspectiva para a obtenção de atratores de escala acelerada, eliminando a necessidade de energia escura",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Este artigo apresenta uma nova perspectiva para a obtenção de atratores de escala acelerada, eliminando a necessidade de energia escura.",
+      "Dado-chave: Este artigo apresenta uma nova perspectiva para a obtenção de atratores de escala acelerada, eliminando a necessidade de energia escura",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Este artigo apresenta uma nova perspectiva para a obtenção de atratores de escala acelerada, eliminando a necessidade de energia escura",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Este artigo apresenta uma nova perspectiva para a obtenção de atratores de escala acelerada, eliminando a necessidade de energia escura.",
+      "Dado-chave: Este artigo apresenta uma nova perspectiva para a obtenção de atratores de escala acelerada, eliminando a necessidade de energia escura",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: This article opens new window to obtain accelerating scaling attractors without any need of dark energy",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: This article opens new window to obtain accelerating scaling attractors without any need of dark energy.",
+      "Key detail: This article opens new window to obtain accelerating scaling attractors without any need of dark energy",
+      "Result not yet peer reviewed."
     ],
     "date": "23 abr 2026",
     "date_pt": "23 abr 2026",
@@ -1052,7 +1301,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 9,
+    "id": 11,
     "slug": "smile-set-to-launch-on-19-may",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1210,7 +1459,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 12,
     "slug": "xrism-high-resolution-x-ray-spectroscopy-of-cygnus-x-1-orbital-and-short-term-variability-of-iro",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1231,18 +1480,19 @@ window.postsData = [
     "body_pt": "<p>Este estudo apresenta a primeira espectroscopia de alta resolução do binário de raios X de alta massa Cygnus X-1, um buraco negro, utilizando dados do satélite XRISM. O objetivo principal foi investigar a variabilidade orbital e de curto prazo da absorção de ferro, fornecendo uma compreensão mais aprofundada dos processos físicos que ocorrem neste sistema astrofísico complexo. A análise detalhada das características espectrais do Cygnus X-1 é crucial para desvendar a dinâmica do vento estelar e a interação com o buraco negro, aspectos fundamentais para a astrofísica de raios X.</p><p>Os dados foram coletados durante a fase de verificação de desempenho do XRISM, especificamente em abril de 2024. Para a análise, empregou-se o microcalorímetro Resolve e o gerador de imagens Xtend CCD, ambos instrumentos a bordo do satélite. A combinação desses instrumentos permitiu uma investigação abrangente da variabilidade espectral entre as diferentes fases orbitais do Cygnus X-1. A capacidade de alta resolução do Resolve foi particularmente importante para discernir detalhes finos nas linhas de absorção, que seriam inacessíveis com tecnologias anteriores.</p><p>A resolução sem precedentes oferecida pelo Resolve revelou uma variabilidade significativa nas linhas de absorção de ferro altamente ionizado. Essas características espectrais demonstraram uma clara dependência da fase orbital, indicando mudanças dinâmicas no ambiente ao redor do buraco negro. A detecção dessas variações é um avanço importante, pois permite mapear as condições físicas do gás que absorve os raios X emitidos pelo sistema. A precisão dos dados permitiu identificar nuances que antes eram apenas inferidas.</p><p>Mais especificamente, as características de absorção exibiram variabilidade dependente da fase orbital na densidade da coluna, no estado de ionização e na velocidade desviada para o azul. Essa observação sugere variações estruturais no vento estelar focado que se estende ao longo da linha de visão do observador. A modulação dessas propriedades com a fase orbital é um indicativo forte de que a geometria e a densidade do vento estelar não são uniformes, mas sim influenciadas pela órbita do buraco negro em torno de sua estrela companheira massiva. A compreensão desses parâmetros é vital para modelar a complexa interação entre o vento e o objeto compacto.</p><p>As variações observadas na densidade da coluna e no estado de ionização do ferro ionizado fornecem evidências diretas de que o vento estelar do Cygnus X-1 possui uma estrutura complexa e não homogênea. A detecção de velocidades desviadas para o azul, que também variam com a fase orbital, reforça a hipótese de que o vento é focado e interage de maneira dinâmica com o sistema binário. Essa estrutura variável do vento estelar é um fator crítico para entender como a matéria é ejetada da estrela companheira e como parte dela pode ser eventualmente acrecionada pelo buraco negro, influenciando a emissão de raios X observada.</p><p>Além das observações sobre o ferro altamente ionizado, o estudo também encontrou indicações de um alargamento sutil do perfil de emissão neutra de ferro. Este achado, embora preliminar, pode oferecer informações adicionais sobre a distribuição e o estado do gás mais frio e menos ionizado no sistema. É importante ressaltar que os resultados apresentados são provisórios e representam evidências preliminares de variabilidade de curto prazo na banda Fe-K em escalas de tempo de segundos. A pesquisa ainda não foi submetida à revisão por pares, e futuras análises e observações serão necessárias para confirmar e aprofundar esses achados.</p>",
     "body_en": "<p>We present the first high-resolution spectroscopy of the black hole high-mass X-ray binary Cygnus X-1 with XRISM, including orbital-phase-resolved analyses and tentative evidence of short-term variability in the Fe-K band on second. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>This matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Have an idea for a project that will add value for arXiv&#x27;s community. Using data from the Performance Verification phase in April 2024, we analyzed spectral variability across orbital phases with the Resolve microcalorimeter and the Xtend CCD imager.</p><p>The unprecedented resolution of Resolve reveals variability in highly ionized Fe absorption lines. The absorption features show orbital-phase-dependent variability in column density, ionization state, and blueshifted velocity, suggesting structural variations in the focused.</p><p>We also find indications of subtle broadening of the neutral Fe emission profile. In addition, intensity-sorted spectroscopy during dip phases suggests possible variability on timescales of a few seconds in the absorption features, consistent with cooler.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>Although the statistical significance is limited, these results hint that the stellar wind and the X-rays from the accretion disk around the black hole may interact on timescales. These XRISM results constrain wind-fed accretion in Cyg X-1 and highlight Resolve&#x27;s capability to probe plasma environments in high-mass X-ray binaries.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.21557v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Este estudo apresenta a primeira espectroscopia de alta resolução do binário de raios X de alta massa Cygnus X-1, utilizando dados do XRISM",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Este estudo apresenta a primeira espectroscopia de alta resolução do binário de raios X de alta massa Cygnus X-1, utilizando dados do XRISM.",
+      "Dado-chave: Este estudo apresenta a primeira espectroscopia de alta resolução do binário de raios X de alta massa Cygnus X-1, utilizando dados do XRISM",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Este estudo apresenta a primeira espectroscopia de alta resolução do binário de raios X de alta massa Cygnus X-1, utilizando dados do XRISM",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Este estudo apresenta a primeira espectroscopia de alta resolução do binário de raios X de alta massa Cygnus X-1, utilizando dados do XRISM.",
+      "Dado-chave: Este estudo apresenta a primeira espectroscopia de alta resolução do binário de raios X de alta massa Cygnus X-1, utilizando dados do XRISM",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: We present the first high-resolution spectroscopy of the black hole high-mass X-ray binary Cygnus X-1 with XRISM, including orbital-phase-resolved",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: We present the first high-resolution spectroscopy of the black hole high-mass X-ray binary Cygnus X-1 with XRISM, including orbital-phase-resolved.",
+      "Key detail: We present the first high-resolution spectroscopy of the black hole high-mass X-ray binary Cygnus X-1 with XRISM, including.",
+      "Result not yet peer reviewed."
     ],
     "date": "23 abr 2026",
     "date_pt": "23 abr 2026",
@@ -1333,128 +1583,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 11,
-    "slug": "assessing-emulator-design-and-training-for-modal-aerosol-microphysics-parameterizations-in-e3smv",
-    "cat": "Cosmologia",
-    "catCls": "cosmologia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Earth%27s_magnetic_field_and_magnetosphere.jpg/1280px-Earth%27s_magnetic_field_and_magnetosphere.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Avaliação do Projeto e Treinamento de Emuladores para Parametrizações Microfísicas Modais de Aerossóis no E3SMv2",
-    "title_pt": "Avaliação do Projeto e Treinamento de Emuladores para Parametrizações Microfísicas Modais de Aerossóis no E3SMv2",
-    "title_en": "Assessing Emulator Design and Training for Modal Aerosol Microphysics Parameterizations in E3SMv2",
-    "sub": "Este estudo explora a aplicação de emuladores de aprendizado de máquina científico (SciML) para aprimorar a representação numérica de processos microfísicos de aerossóis em.",
-    "sub_pt": "Este estudo explora a aplicação de emuladores de aprendizado de máquina científico (SciML) para aprimorar a representação numérica de processos microfísicos de aerossóis em.",
-    "sub_en": "Toward the goal of using Scientific Machine Learning emulators to improve the numerical representation of aerosol processes in global atmospheric models, we explore the emulation.",
-    "excerpt": "Este estudo explora a aplicação de emuladores de aprendizado de máquina científico (SciML) para aprimorar a representação numérica de processos microfísicos de aerossóis em modelos atmosféricos globais, especificamente sob condições livres de nuvens.",
-    "excerpt_pt": "Este estudo explora a aplicação de emuladores de aprendizado de máquina científico (SciML) para aprimorar a representação numérica de processos microfísicos de aerossóis em modelos atmosféricos globais, especificamente sob condições livres de nuvens.",
-    "excerpt_en": "Toward the goal of using Scientific Machine Learning emulators to improve the numerical representation of aerosol processes in global atmospheric models, we explore the emulation of aerosol microphysics processes under cloud-free.",
-    "body": "<p>Neste trabalho, focamos especificamente na emulação de processos microfísicos de aerossóis em condições livres de nuvens, um componente fundamental para a dinâmica atmosférica. A investigação foi realizada no contexto do modelo Modal Aerosol, parte integrante do E3SMv2 (Energy Exascale Earth System Model versão 2), um modelo climático global de ponta. A escolha de emuladores de SciML para esta tarefa visa não apenas replicar o comportamento dos processos físicos subjacentes, mas também identificar os fatores críticos que governam a performance e a confiabilidade desses substitutos computacionais. A metodologia envolveu a concepção e o treinamento de redes neurais para aprender as relações complexas entre as variáveis de entrada e saída dos processos microfísicos de aerossóis, com o objetivo de substituir as parametrizações tradicionais, que são computacionalmente intensivas.</p><p>Nossos resultados revelam que a precisão da emulação é fortemente influenciada por uma combinação de fatores inter-relacionados. Primeiramente, a convergência do processo de otimização durante o treinamento do emulador demonstrou ser um determinante crucial. Uma otimização inadequada pode levar a emuladores que não capturam fielmente a física subjacente, resultando em erros significativos. Em segundo lugar, a estratégia de escalonamento dos dados de entrada e saída desempenha um papel vital. Escalonamentos apropriados podem melhorar a estabilidade do treinamento e a capacidade de generalização do emulador, enquanto escolhas inadequadas podem dificultar o aprendizado eficaz. Por fim, a complexidade da arquitetura da rede neural, incluindo o número de camadas e neurônios, precisa ser cuidadosamente balanceada. Redes excessivamente simples podem não ter a capacidade de representar a complexidade dos processos de aerossóis, enquanto redes excessivamente complexas podem levar a overfitting e exigir recursos computacionais desnecessários.</p><p>Essas descobertas fornecem diretrizes práticas e valiosas para os próximos estágios do desenvolvimento de emuladores de aerossóis. A compreensão de como a otimização, o escalonamento e a complexidade da rede interagem para determinar a precisão da emulação permite que os pesquisadores projetem e treinem emuladores de forma mais eficaz. Por exemplo, a seleção de algoritmos de otimização robustos, a implementação de técnicas de pré-processamento de dados mais sofisticadas e a exploração de arquiteturas de rede que equilibrem capacidade e eficiência computacional são passos essenciais. Ao focar nesses aspectos, é possível desenvolver emuladores que não apenas reproduzam com alta fidelidade os processos microfísicos de aerossóis, mas que também sejam computacionalmente eficientes o suficiente para serem integrados em modelos climáticos de larga escala sem comprometer o desempenho.</p><p>Além de suas implicações diretas para a modelagem de aerossóis, os insights obtidos neste estudo possuem uma aplicabilidade mais ampla. A metodologia e as lições aprendidas sobre os fatores que afetam a precisão da emulação são provavelmente relevantes para a emulação de outros processos atmosféricos e geofísicos. Muitos desses processos também envolvem variabilidade em múltiplas escalas e interações não lineares complexas, tornando-os candidatos ideais para a aplicação de técnicas de aprendizado de máquina. A capacidade de desenvolver emuladores precisos e eficientes para uma gama diversificada de fenômenos físicos pode acelerar significativamente o progresso na modelagem climática e ambiental, permitindo a exploração de cenários mais complexos e a realização de projeções mais robustas e confiáveis.</p>",
-    "body_pt": "<p>Neste trabalho, focamos especificamente na emulação de processos microfísicos de aerossóis em condições livres de nuvens, um componente fundamental para a dinâmica atmosférica. A investigação foi realizada no contexto do modelo Modal Aerosol, parte integrante do E3SMv2 (Energy Exascale Earth System Model versão 2), um modelo climático global de ponta. A escolha de emuladores de SciML para esta tarefa visa não apenas replicar o comportamento dos processos físicos subjacentes, mas também identificar os fatores críticos que governam a performance e a confiabilidade desses substitutos computacionais. A metodologia envolveu a concepção e o treinamento de redes neurais para aprender as relações complexas entre as variáveis de entrada e saída dos processos microfísicos de aerossóis, com o objetivo de substituir as parametrizações tradicionais, que são computacionalmente intensivas.</p><p>Nossos resultados revelam que a precisão da emulação é fortemente influenciada por uma combinação de fatores inter-relacionados. Primeiramente, a convergência do processo de otimização durante o treinamento do emulador demonstrou ser um determinante crucial. Uma otimização inadequada pode levar a emuladores que não capturam fielmente a física subjacente, resultando em erros significativos. Em segundo lugar, a estratégia de escalonamento dos dados de entrada e saída desempenha um papel vital. Escalonamentos apropriados podem melhorar a estabilidade do treinamento e a capacidade de generalização do emulador, enquanto escolhas inadequadas podem dificultar o aprendizado eficaz. Por fim, a complexidade da arquitetura da rede neural, incluindo o número de camadas e neurônios, precisa ser cuidadosamente balanceada. Redes excessivamente simples podem não ter a capacidade de representar a complexidade dos processos de aerossóis, enquanto redes excessivamente complexas podem levar a overfitting e exigir recursos computacionais desnecessários.</p><p>Essas descobertas fornecem diretrizes práticas e valiosas para os próximos estágios do desenvolvimento de emuladores de aerossóis. A compreensão de como a otimização, o escalonamento e a complexidade da rede interagem para determinar a precisão da emulação permite que os pesquisadores projetem e treinem emuladores de forma mais eficaz. Por exemplo, a seleção de algoritmos de otimização robustos, a implementação de técnicas de pré-processamento de dados mais sofisticadas e a exploração de arquiteturas de rede que equilibrem capacidade e eficiência computacional são passos essenciais. Ao focar nesses aspectos, é possível desenvolver emuladores que não apenas reproduzam com alta fidelidade os processos microfísicos de aerossóis, mas que também sejam computacionalmente eficientes o suficiente para serem integrados em modelos climáticos de larga escala sem comprometer o desempenho.</p><p>Além de suas implicações diretas para a modelagem de aerossóis, os insights obtidos neste estudo possuem uma aplicabilidade mais ampla. A metodologia e as lições aprendidas sobre os fatores que afetam a precisão da emulação são provavelmente relevantes para a emulação de outros processos atmosféricos e geofísicos. Muitos desses processos também envolvem variabilidade em múltiplas escalas e interações não lineares complexas, tornando-os candidatos ideais para a aplicação de técnicas de aprendizado de máquina. A capacidade de desenvolver emuladores precisos e eficientes para uma gama diversificada de fenômenos físicos pode acelerar significativamente o progresso na modelagem climática e ambiental, permitindo a exploração de cenários mais complexos e a realização de projeções mais robustas e confiáveis.</p>",
-    "body_en": "<p>Toward the goal of using Scientific Machine Learning emulators to improve the numerical representation of aerosol processes in global atmospheric models, we explore the emulation of aerosol microphysics processes under cloud-free. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Toward the goal of using Scientific Machine Learning (SciML) emulators to improve the numerical representation of aerosol processes in global atmospheric models, we explore the. Our results show that optimization convergence, scaling strategy, and network complexity strongly influence emulation accuracy.</p><p>When effective scaling is applied and convergence is achieved, the relatively simple architecture, used together with a moderate network size, can reproduce key features of the. These findings provide practical clues for the next stages of emulator development.</p><p>They also provide general insights that are likely applicable to the emulation of other aerosol processes, as well as other atmospheric physics involving multi-scale variability. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.21233v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Este estudo explora a aplicação de emuladores de aprendizado de máquina científico (SciML) para aprimorar a representação numérica de processos.",
-      "Dado-chave: Este estudo explora a aplicação de emuladores de aprendizado de máquina científico (SciML) para aprimorar a representação numérica de processos",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_pt": [
-      "Ponto central: Este estudo explora a aplicação de emuladores de aprendizado de máquina científico (SciML) para aprimorar a representação numérica de processos.",
-      "Dado-chave: Este estudo explora a aplicação de emuladores de aprendizado de máquina científico (SciML) para aprimorar a representação numérica de processos",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_en": [
-      "Core point: Toward the goal of using Scientific Machine Learning emulators to improve the numerical representation of aerosol processes in global atmospheric.",
-      "Key detail: Toward the goal of using Scientific Machine Learning emulators to improve the numerical representation of aerosol processes in global atmospheric",
-      "Result not yet peer reviewed."
-    ],
-    "date": "23 abr 2026",
-    "date_pt": "23 abr 2026",
-    "date_en": "23 Apr 2026",
-    "time": "02h58",
-    "time_pt": "02h58",
-    "time_en": "02: 58 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-23T02:58:50+00:00",
-    "lastModifiedIso": "2026-04-26T07:40:11+00:00",
-    "source": "arXiv Geophysics",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "watch",
-    "editorialBandLabel": "Leitura monitorada",
-    "editorialBandLabel_pt": "Leitura monitorada",
-    "editorialBandLabel_en": "Watchlist",
-    "keywords": [
-      "Cosmologia",
-      "arXiv Geophysics",
-      "Cosmos Week",
-      "Avaliando o projeto e o treinamento do emulador para parametrizações microfísicas modais de aerossóis no E3SMv2"
-    ],
-    "keywords_pt": [
-      "Cosmologia",
-      "arXiv Geophysics",
-      "Cosmos Week",
-      "Avaliando o projeto e o treinamento do emulador para parametrizações microfísicas modais de aerossóis no E3SMv2"
-    ],
-    "keywords_en": [
-      "Cosmology",
-      "arXiv Geophysics",
-      "Cosmos Week",
-      "Evaluating Emulator Design and Training for Aerosol Modal Microphysics Parameterizations in E3SMv2"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2604.21233v1",
-    "realUrl": "https://www.cosmosweek.com/?article=assessing-emulator-design-and-training-for-modal-aerosol-microphysics-parameterizations-in-e3smv",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=assessing-emulator-design-and-training-for-modal-aerosol-microphysics-parameterizations-in-e3smv",
-    "realUrl_en": "https://www.cosmosweek.com/?article=assessing-emulator-design-and-training-for-modal-aerosol-microphysics-parameterizations-in-e3smv&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/assessing-emulator-design-and-training-for-modal-aerosol-microphysics-parameterizations-in-e3smv/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/assessing-emulator-design-and-training-for-modal-aerosol-microphysics-parameterizations-in-e3smv/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/assessing-emulator-design-and-training-for-modal-aerosol-microphysics-parameterizations-in-e3smv/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/assessing-emulator-design-and-training-for-modal-aerosol-microphysics-parameterizations-in-e3smv/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/assessing-emulator-design-and-training-for-modal-aerosol-microphysics-parameterizations-in-e3smv/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/assessing-emulator-design-and-training-for-modal-aerosol-microphysics-parameterizations-in-e3smv/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 62,
-    "scoreBreakdown": {
-      "source": 55,
-      "evidence": 35,
-      "relevance": 76,
-      "accessibility": 60,
-      "novelty": 49
-    },
-    "imageAlt": "Avaliação do Projeto e Treinamento de Emuladores para Parametrizações Microfísicas Modais de Aerossóis no E3SMv2",
-    "imageAlt_pt": "Avaliação do Projeto e Treinamento de Emuladores para Parametrizações Microfísicas Modais de Aerossóis no E3SMv2",
-    "imageAlt_en": "Assessing Emulator Design and Training for Modal Aerosol Microphysics Parameterizations in E3SMv2",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 12,
+    "id": 13,
     "slug": "belts-of-green-in-the-washington-suburbs",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1585,7 +1714,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "stellar-flares-may-expand-habitable-zones-around-small-stars",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -1719,7 +1848,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "what-are-ames-contributions-to-artemis-ii",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1840,7 +1969,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "automated-ct-scan-analysis-could-fast-track-clinical-assessments",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1961,7 +2090,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "a-school-of-mud-volcano-islands-in-azerbaijan",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2092,7 +2221,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "nasa-on-track-for-future-missions-with-initial-artemis-ii-assessments",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2213,7 +2342,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "nasa-rolls-out-artemis-iii-moon-rocket-core-stage",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2334,7 +2463,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2458,7 +2587,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 21,
     "slug": "theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2589,7 +2718,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 21,
+    "id": 22,
     "slug": "generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul",
     "cat": "Física",
     "catCls": "fisica",
@@ -2721,140 +2850,6 @@ window.postsData = [
     "imageAlt": "Meta-spanners ópticos generalizados possibilitam trajetórias de luz arbitrárias para manipulação óptica multitarefa",
     "imageAlt_pt": "Meta-spanners ópticos generalizados possibilitam trajetórias de luz arbitrárias para manipulação óptica multitarefa",
     "imageAlt_en": "Generalized optical meta-spanners empower arbitrary light paths for multitasking optical manipulation"
-  },
-  {
-    "id": 22,
-    "slug": "warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://scx2.b-cdn.net/gfx/news/hires/2026/study-finds-warmer-str-2.jpg",
-    "inline_images": [
-      {
-        "src": "https://scx2.b-cdn.net/gfx/news/2026/study-finds-warmer-str-2.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Riachos mais quentes podem estar esgotando as teias alimentares fluviais, liberando mais carbono para a atmosfera",
-    "title_pt": "Riachos mais quentes podem estar esgotando as teias alimentares fluviais, liberando mais carbono para a atmosfera",
-    "title_en": "Warmer streams may be draining river food webs by sending more carbon into the air",
-    "sub": "O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se move através desses ecossistemas.",
-    "sub_pt": "O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se move através desses ecossistemas.",
-    "sub_en": "Rising stream temperatures may be weakening the foundation of river food webs by altering how carbon moves through these watery ecosystems.",
-    "excerpt": "O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se move através desses ecossistemas.",
-    "excerpt_pt": "O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se move através desses ecossistemas.",
-    "excerpt_en": "Rising stream temperatures may be weakening the foundation of river food webs by altering how carbon moves through these watery ecosystems.",
-    "body": "<p>O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se move através desses ecossistemas aquáticos. Em um novo estudo publicado na revista *Ecosphere*, pesquisadores da Universidade do Norte do Arizona (NAU) descobriram que, com o aumento da temperatura da água, micróbios e insetos aquáticos processam folhas, galhos e cascas caídas mais rapidamente, mas uma fração menor dessa matéria orgânica é incorporada em suas biomassas. Essas descobertas apontam para uma mudança significativa na maneira como os ecossistemas fluviais retêm energia em condições de aquecimento, com implicações importantes para a flora e a fauna nos rios do oeste dos Estados Unidos.</p><p>Para investigar como o aquecimento afeta os processos fluviais, os pesquisadores da NAU desenvolveram um sistema de fluxo controlado no The Arboretum at Flagstaff. Eles construíram 48 minicâmaras de fluxo dentro de uma estufa, utilizando água de lago e manipulando a temperatura da água, enquanto mantiveram a luz natural e a química da água constantes. Esse arranjo permitiu simular uma variedade de condições de riacho ao longo de dois anos. &quot;Este sistema permite-nos manipular a temperatura enquanto mantemos todo o restante o mais próximo possível de um riacho real, o que é fundamental para entender como esses processos realmente ocorrem na natureza&quot;, afirmou Zampini.</p><p>Dentro desse sistema experimental, a equipe empregou rastreadores para acompanhar o carbono da serapilheira – a principal fonte de energia em muitos rios florestados – até os micróbios e as moscas-caddis (tricópteros). Ao rotular as folhas com uma forma rara de carbono, os cientistas puderam medir diretamente a quantidade de carbono retida como biomassa, a quantidade liberada na água e no ar como dióxido de carbono (CO₂), e a quantidade transferida para micróbios e insetos. Essa abordagem permitiu quantificar a eficácia com que os organismos processam e utilizam o carbono disponível.</p><p>Em conjunto, esses padrões indicam que o aquecimento dos cursos de água libera mais carbono na atmosfera e converte menos carbono em biomassa. Mesmo quando o consumo de matéria orgânica aumenta, o sistema se torna menos eficiente. &quot;Mais carbono é direcionado para a respiração e menos para a construção da cadeia alimentar&quot;, explicou Jane Marks, professora do Departamento de Ciências Biológicas e do Centro de Ciência e Sociedade de Ecossistemas (Ecoss). Essa ineficiência sugere que, embora a atividade microbiana e dos insetos possa ser acelerada pelo calor, a capacidade do ecossistema de reter e transferir energia para níveis tróficos superiores é comprometida.</p><p>As consequências dessa alteração na eficiência do processamento de carbono são vastas. Ao reduzir a quantidade de carbono que se torna biomassa, o aquecimento dos rios pode enfraquecer a base das teias alimentares, afetando indiretamente peixes e outros predadores que dependem desses insetos e micróbios como fonte de alimento. Além disso, a maior liberação de CO₂ para a atmosfera a partir de riachos mais quentes contribui para o ciclo global do carbono, potencialmente exacerbando as mudanças climáticas. Compreender esses mecanismos é crucial para prever e mitigar os impactos do aquecimento global nos ecossistemas aquáticos e nos serviços ecossistêmicos que eles fornecem.</p>",
-    "body_pt": "<p>O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se move através desses ecossistemas aquáticos. Em um novo estudo publicado na revista *Ecosphere*, pesquisadores da Universidade do Norte do Arizona (NAU) descobriram que, com o aumento da temperatura da água, micróbios e insetos aquáticos processam folhas, galhos e cascas caídas mais rapidamente, mas uma fração menor dessa matéria orgânica é incorporada em suas biomassas. Essas descobertas apontam para uma mudança significativa na maneira como os ecossistemas fluviais retêm energia em condições de aquecimento, com implicações importantes para a flora e a fauna nos rios do oeste dos Estados Unidos.</p><p>Para investigar como o aquecimento afeta os processos fluviais, os pesquisadores da NAU desenvolveram um sistema de fluxo controlado no The Arboretum at Flagstaff. Eles construíram 48 minicâmaras de fluxo dentro de uma estufa, utilizando água de lago e manipulando a temperatura da água, enquanto mantiveram a luz natural e a química da água constantes. Esse arranjo permitiu simular uma variedade de condições de riacho ao longo de dois anos. &quot;Este sistema permite-nos manipular a temperatura enquanto mantemos todo o restante o mais próximo possível de um riacho real, o que é fundamental para entender como esses processos realmente ocorrem na natureza&quot;, afirmou Zampini.</p><p>Dentro desse sistema experimental, a equipe empregou rastreadores para acompanhar o carbono da serapilheira – a principal fonte de energia em muitos rios florestados – até os micróbios e as moscas-caddis (tricópteros). Ao rotular as folhas com uma forma rara de carbono, os cientistas puderam medir diretamente a quantidade de carbono retida como biomassa, a quantidade liberada na água e no ar como dióxido de carbono (CO₂), e a quantidade transferida para micróbios e insetos. Essa abordagem permitiu quantificar a eficácia com que os organismos processam e utilizam o carbono disponível.</p><p>Em conjunto, esses padrões indicam que o aquecimento dos cursos de água libera mais carbono na atmosfera e converte menos carbono em biomassa. Mesmo quando o consumo de matéria orgânica aumenta, o sistema se torna menos eficiente. &quot;Mais carbono é direcionado para a respiração e menos para a construção da cadeia alimentar&quot;, explicou Jane Marks, professora do Departamento de Ciências Biológicas e do Centro de Ciência e Sociedade de Ecossistemas (Ecoss). Essa ineficiência sugere que, embora a atividade microbiana e dos insetos possa ser acelerada pelo calor, a capacidade do ecossistema de reter e transferir energia para níveis tróficos superiores é comprometida.</p><p>As consequências dessa alteração na eficiência do processamento de carbono são vastas. Ao reduzir a quantidade de carbono que se torna biomassa, o aquecimento dos rios pode enfraquecer a base das teias alimentares, afetando indiretamente peixes e outros predadores que dependem desses insetos e micróbios como fonte de alimento. Além disso, a maior liberação de CO₂ para a atmosfera a partir de riachos mais quentes contribui para o ciclo global do carbono, potencialmente exacerbando as mudanças climáticas. Compreender esses mecanismos é crucial para prever e mitigar os impactos do aquecimento global nos ecossistemas aquáticos e nos serviços ecossistêmicos que eles fornecem.</p>",
-    "body_en": "<p>Rising stream temperatures may be weakening the foundation of river food webs by altering how carbon moves through these watery ecosystems. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. In a new study published in the journal Ecosphere, researchers from Northern Arizona University found that when water temperatures increase, microbes and aquatic insects process. This article has been reviewed according to Science X&#x27;s editorial process and policies.</p><p>The findings point to a shift in how river ecosystems retain energy under warming conditions, with implications for plants and animals in rivers across the western United States. To examine how warming affects river processes, the NAU researchers built a controlled stream system at The Arboretum at Flagstaff, constructing 48 flow-through mini stream.</p><p>Using pond water, they manipulated the water temperature while maintaining natural light and water chemistry, simulating a range of stream conditions over two years. This system let us manipulate temperature while keeping everything else as close to a real stream as possible, which is critical for understanding how these processes actually.</p><p>Within this system, the team used tracers to follow carbon from leaf litter, the primary energy source in many forested rivers, into microbes and caddisflies. By labeling leaves with a rare form of carbon, they directly measured how much carbon was retained as biomass, how much of it was released into the water and air as CO₂, and how.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Together, these patterns indicate that warming releases more carbon into the atmosphere and converts less carbon into biomass. Even when consumption increases, the system becomes less efficient, more carbon goes to respiration and less to building the food web,&quot; said Jane Marks, professor in the.</p><p>Because the account originates with Phys. org Biology, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-warmer-streams-river-food-webs.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se.",
-      "Dado-chave: O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_pt": [
-      "Ponto central: O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se.",
-      "Dado-chave: O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_en": [
-      "Core point: Rising stream temperatures may be weakening the foundation of river food webs by altering how carbon moves through these watery ecosystems.",
-      "Key detail: Rising stream temperatures may be weakening the foundation of river food webs by altering how carbon moves through these watery ecosystems.",
-      "Science reporting: verify primary technical documentation."
-    ],
-    "date": "17 abr 2026",
-    "date_pt": "17 abr 2026",
-    "date_en": "17 Apr 2026",
-    "time": "23h00",
-    "time_pt": "23h00",
-    "time_en": "23: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-17T23:00:01+00:00",
-    "lastModifiedIso": "2026-04-23T23:29:07+00:00",
-    "source": "Phys. org Biology",
-    "sourceDomain": "phys. org",
-    "sourceType": "news",
-    "sourceTypeLabel": "Jornalismo científico",
-    "sourceTypeLabel_pt": "Jornalismo científico",
-    "sourceTypeLabel_en": "Science journalism",
-    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
-    "evidenceKey": "journalistic",
-    "evidenceLabel": "Cobertura jornalística",
-    "evidenceLabel_pt": "Cobertura jornalística",
-    "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "Phys. org Biology",
-      "Cosmos Week",
-      "Riachos mais quentes podem estar drenando as teias alimentares dos rios",
-      "enviando mais carbono para o ar"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "Phys. org Biology",
-      "Cosmos Week",
-      "Riachos mais quentes podem estar drenando as teias alimentares dos rios",
-      "enviando mais carbono para o ar"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "Phys. org Biology",
-      "Cosmos Week",
-      "Warmer streams may be draining river food webs",
-      "sending more carbon into the air"
-    ],
-    "srcUrl": "https://phys.org/news/2026-04-warmer-streams-river-food-webs.html",
-    "realUrl": "https://www.cosmosweek.com/?article=warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air",
-    "realUrl_en": "https://www.cosmosweek.com/?article=warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": true,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 71,
-      "evidence": 42,
-      "relevance": 84,
-      "accessibility": 52,
-      "novelty": 55
-    },
-    "coverageKind": "news",
-    "coverageKindLabel": "Jornalismo científico",
-    "coverageKindLabel_pt": "Jornalismo científico",
-    "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science",
-    "imageAlt": "Riachos mais quentes podem estar esgotando as teias alimentares fluviais, liberando mais carbono para a atmosfera",
-    "imageAlt_pt": "Riachos mais quentes podem estar esgotando as teias alimentares fluviais, liberando mais carbono para a atmosfera",
-    "imageAlt_en": "Warmer streams may be draining river food webs by sending more carbon into the air"
   },
   {
     "id": 23,
