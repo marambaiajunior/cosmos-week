@@ -2,14 +2,12 @@ name: Atualizar notícias
 
 on:
   schedule:
-    # Fase 1: atualiza 3× por dia — manhã, tarde e noite (UTC)
-    # Horários em Utah (MT):
-    #   06:00 UTC = 23:00 MST / 00:00 MDT (madrugada)
-    #   13:00 UTC = 06:00 MST / 07:00 MDT (manhã)
-    #   20:00 UTC = 13:00 MST / 14:00 MDT (tarde)
-    - cron: '0 6 * * *'
-    - cron: '0 13 * * *'
-    - cron: '0 20 * * *'
+    # Atualiza 1× por dia, fora da madrugada em Utah.
+    # GitHub Actions usa UTC e pode atrasar/descartar jobs em horários de pico,
+    # especialmente no começo de cada hora. Por isso usamos um minuto quebrado (:37).
+    # Horário em Utah (Mountain Time):
+    #   15:37 UTC = 09:37 MDT (verão) / 08:37 MST (inverno)
+    - cron: '37 15 * * *'
   workflow_dispatch:
 
 permissions:
