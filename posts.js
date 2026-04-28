@@ -3,6 +3,247 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "fiery-fall-color-in-southern-chile",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/fiery-fall-color-in-southern-chile/fallinpatagonia_oli2_20260412_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Cor ardente do outono no sul do Chile",
+    "title_pt": "Cor ardente do outono no sul do Chile",
+    "title_en": "Fiery Fall Color in Southern Chile",
+    "sub": "Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da página.",
+    "sub_pt": "Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da página.",
+    "sub_en": "A band of reddish vegetation covers the slopes of a snow-capped mountain about 40 kilometers west of the area shown at the top of the page.",
+    "excerpt": "Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da página.",
+    "excerpt_pt": "Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da página.",
+    "excerpt_en": "A band of reddish vegetation covers the slopes of a snow-capped mountain about 40 kilometers west of the area shown at the top of the page.",
+    "body": "<p>Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da página. Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve a cerca de 40 quilómetros (25 milhas) a oeste da área mostrada no topo da página.</p><p>Observatório da Terra da NASA/Lauren Dauphin Exibições coloridas de outono de lengas e outras florestas de faias do sul deslumbram os observadores de folhas em locais icônicos da Patagônia. Neve na sombra dos Andes 2 min de leitura Uma tempestade no início do outono deixou as altitudes mais elevadas no sul da Argentina com uma camada branca fresca e fugaz.</p><p>Imagem do dia do Observatório da Terra O Observatório da Terra da NASA traz para você a Terra, todos os dias, com histórias detalhadas e imagens impressionantes. NASA Earth Observatory/Lauren Dauphin Os brancos brilhantes da neve das montanhas, os marrons suaves das planícies áridas e os azuis e marrecos semelhantes a pedras preciosas dos lagos glaciais normalmente dominam a paleta de cores da Patagônia.</p><p>Em 12 de abril de 2026, uma ruptura nas nuvens permitiu ao satélite Landsat 9 capturar uma imagem de encostas avermelhadas na região de Magalhães, no sul do Chile. Uma dessas espécies, conhecida como faia lenga (Nothofagus pumilio), ocorre desde cerca de 36 graus de latitude sul até a Terra do Fogo, cerca de 55 graus ao sul.</p><p>Os cumes vermelhos na cena acima, localizados a cerca de 100 quilômetros (60 milhas) a noroeste de Punta Arenas, estão a cerca de 600 metros (2.000 pés) acima do nível do mar. Imagens do Observatório da Terra da NASA por Lauren Dauphin, usando dados Landsat dos EUA.</p><p>Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/fiery-fall-color-in-southern-chile/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da página. Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve a cerca de 40 quilómetros (25 milhas) a oeste da área mostrada no topo da página.</p><p>Observatório da Terra da NASA/Lauren Dauphin Exibições coloridas de outono de lengas e outras florestas de faias do sul deslumbram os observadores de folhas em locais icônicos da Patagônia. Neve na sombra dos Andes 2 min de leitura Uma tempestade no início do outono deixou as altitudes mais elevadas no sul da Argentina com uma camada branca fresca e fugaz.</p><p>Imagem do dia do Observatório da Terra O Observatório da Terra da NASA traz para você a Terra, todos os dias, com histórias detalhadas e imagens impressionantes. NASA Earth Observatory/Lauren Dauphin Os brancos brilhantes da neve das montanhas, os marrons suaves das planícies áridas e os azuis e marrecos semelhantes a pedras preciosas dos lagos glaciais normalmente dominam a paleta de cores da Patagônia.</p><p>Em 12 de abril de 2026, uma ruptura nas nuvens permitiu ao satélite Landsat 9 capturar uma imagem de encostas avermelhadas na região de Magalhães, no sul do Chile. Uma dessas espécies, conhecida como faia lenga (Nothofagus pumilio), ocorre desde cerca de 36 graus de latitude sul até a Terra do Fogo, cerca de 55 graus ao sul.</p><p>Os cumes vermelhos na cena acima, localizados a cerca de 100 quilômetros (60 milhas) a noroeste de Punta Arenas, estão a cerca de 600 metros (2.000 pés) acima do nível do mar. Imagens do Observatório da Terra da NASA por Lauren Dauphin, usando dados Landsat dos EUA.</p><p>Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/fiery-fall-color-in-southern-chile/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>A band of reddish vegetation covers the slopes of a snow-capped mountain about 40 kilometers west of the area shown at the top of the page. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. A band of reddish vegetation covers the slopes of a snow-capped mountain about 40 kilometers (25 miles) west of the area shown at the top of the page. NASA Earth Observatory/Lauren Dauphin Colorful autumn displays of lenga and other southern beech forests dazzle leaf-peepers across Patagonia’s iconic locales.</p><p>Snow in the Shadow of the Andes 2 min read An early autumn storm left higher elevations in southern Argentina with a fresh and fleeting coat of white. Earth Observatory Image of the Day NASA’s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>NASA Earth Observatory/Lauren Dauphin The bright whites of mountain snow, muted browns of the arid plains, and gem-like blues and teals of glacial lakes typically dominate the. On April 12, 2026, a break in the clouds allowed the Landsat 9 satellite to capture an image of reddish hillsides in the Magallanes region of southern Chile.</p><p>One of these species, known as the lenga beech (Nothofagus pumilio), occurs from about 36 degrees south latitude down to Tierra del Fuego at around 55 degrees south. The red ridgetops in the scene above, located about 100 kilometers (60 miles) northwest of Punta Arenas, are at about 600 meters (2, 000 feet) above sea level.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet. Article Seasons Change in Southwest Virginia 3 min read From autumn color to a winter-white finish, forested areas around Blacksburg trade foliage for snow over the span of two.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/fiery-fall-color-in-southern-chile/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: A band of reddish vegetation covers the slopes of a snow-capped mountain about 40 kilometers west of the area shown at the top of the page",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "28 abr 2026",
+    "date_pt": "28 abr 2026",
+    "date_en": "28 Apr 2026",
+    "time": "04h01",
+    "time_pt": "04h01",
+    "time_en": "04: 01 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-28T04:01:00+00:00",
+    "lastModifiedIso": "2026-04-28T08:22:11+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Cor ardente do outono no sul do Chile"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Cor ardente do outono no sul do Chile"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Fiery autumn color in southern Chile"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/fiery-fall-color-in-southern-chile/",
+    "realUrl": "https://www.cosmosweek.com/?article=fiery-fall-color-in-southern-chile",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=fiery-fall-color-in-southern-chile",
+    "realUrl_en": "https://www.cosmosweek.com/?article=fiery-fall-color-in-southern-chile&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/fiery-fall-color-in-southern-chile/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/fiery-fall-color-in-southern-chile/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/fiery-fall-color-in-southern-chile/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/fiery-fall-color-in-southern-chile/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/fiery-fall-color-in-southern-chile/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/fiery-fall-color-in-southern-chile/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Cor ardente do outono no sul do Chile",
+    "imageAlt_pt": "Cor ardente do outono no sul do Chile",
+    "imageAlt_en": "Fiery Fall Color in Southern Chile",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint",
+    "cat": "Astrofísica",
+    "catCls": "astrofisica",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1280px-Black_hole_-_Messier_87_crop_max_res.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Modelagem Dinâmica da Região de Linha Larga com Núcleos Galácticos Ativos de Alta Massa e Restrições no Fator Virial",
+    "title_pt": "Modelagem Dinâmica da Região de Linha Larga com Núcleos Galácticos Ativos de Alta Massa e Restrições no Fator Virial",
+    "title_en": "Dynamical Modeling of the Broad-Line Region with High-Mass Active Galactic Nuclei and Constraints on the Virial Factor",
+    "sub": "Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de Monitoramento AGN da Universidade.",
+    "sub_pt": "Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de Monitoramento AGN da Universidade.",
+    "sub_en": "We present the results of broad-line region dynamical modeling for eight high-mass active galactic nuclei from the Seoul National University AGN Monitoring Project, by.",
+    "excerpt": "Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de Monitoramento AGN da Universidade Nacional de Seul, restringindo a geometria e a cinemática do BLR, bem como a massa do.",
+    "excerpt_pt": "Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de Monitoramento AGN da Universidade Nacional de Seul, restringindo a geometria e a cinemática do BLR, bem como a massa do.",
+    "excerpt_en": "We present the results of broad-line region dynamical modeling for eight high-mass active galactic nuclei from the Seoul National University AGN Monitoring Project, by constraining BLR geometry and kinematics as well as black hole mass.",
+    "body": "<p>Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de Monitoramento AGN da Universidade Nacional de Seul, restringindo a geometria e a cinemática do BLR, bem como a massa do buraco negro.</p><p>Apresentamos os resultados da modelagem dinâmica da região de linha larga (BLR) para oito núcleos galácticos ativos (AGNs) de alta massa do Projeto de Monitoramento AGN da Universidade Nacional de Seul, restringindo a geometria e a cinemática do BLR, bem como a massa do buraco. Descobrimos que os BLRs emissores de H$β$ são melhor descritos como discos espessos vistos em inclinações intermediárias, com a emissão originando-se preferencialmente do lado mais distante do BLR.</p><p>A cinemática BLR mostra uma combinação de componentes rotacionais, de entrada e de saída. Ao comparar o $M_{\\rm BH}$ da modelagem dinâmica com os produtos viriais baseados em atrasos de reverberação e larguras de linha, determinamos o fator virial $f$ para AGNs individuais.</p><p>Combinando nossa amostra com aqueles $M_{\\rm BH}$ consistentemente determinados a partir da modelagem dinâmica BLR, produzindo um total de 38 objetos, derivamos um fator virial para $M_{\\rm BH}$ estimativa futura de log$_{10}({f})_{\\rm pred}=0, 69\\pm0, 21$ com base em $σ_{\\rm.</p><p>O fator virial derivado é consistente com aquele inferido pelo alinhamento dos AGNs mapeados por reverberação com galáxias quiescentes na relação $M_{\\rm BH}$-$σ_{\\ast}$, apoiando a suposição de que galáxias ativas e inativas locais seguem a mesma relação $M_{\\rm BH}$-$σ_{\\ast}$. Nossos valores $f$ atualizados exibem uma dispersão intrínseca de $\\sim0.2$ dex, o que permite estimativas $M_{\\rm BH}$ mais precisas do que aquelas baseadas na relação $M_{\\rm BH}$-$σ_{\\ast}$.</p><p>Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.24721v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de Monitoramento AGN da Universidade Nacional de Seul, restringindo a geometria e a cinemática do BLR, bem como a massa do buraco negro.</p><p>Apresentamos os resultados da modelagem dinâmica da região de linha larga (BLR) para oito núcleos galácticos ativos (AGNs) de alta massa do Projeto de Monitoramento AGN da Universidade Nacional de Seul, restringindo a geometria e a cinemática do BLR, bem como a massa do buraco. Descobrimos que os BLRs emissores de H$β$ são melhor descritos como discos espessos vistos em inclinações intermediárias, com a emissão originando-se preferencialmente do lado mais distante do BLR.</p><p>A cinemática BLR mostra uma combinação de componentes rotacionais, de entrada e de saída. Ao comparar o $M_{\\rm BH}$ da modelagem dinâmica com os produtos viriais baseados em atrasos de reverberação e larguras de linha, determinamos o fator virial $f$ para AGNs individuais.</p><p>Combinando nossa amostra com aqueles $M_{\\rm BH}$ consistentemente determinados a partir da modelagem dinâmica BLR, produzindo um total de 38 objetos, derivamos um fator virial para $M_{\\rm BH}$ estimativa futura de log$_{10}({f})_{\\rm pred}=0, 69\\pm0, 21$ com base em $σ_{\\rm.</p><p>O fator virial derivado é consistente com aquele inferido pelo alinhamento dos AGNs mapeados por reverberação com galáxias quiescentes na relação $M_{\\rm BH}$-$σ_{\\ast}$, apoiando a suposição de que galáxias ativas e inativas locais seguem a mesma relação $M_{\\rm BH}$-$σ_{\\ast}$. Nossos valores $f$ atualizados exibem uma dispersão intrínseca de $\\sim0.2$ dex, o que permite estimativas $M_{\\rm BH}$ mais precisas do que aquelas baseadas na relação $M_{\\rm BH}$-$σ_{\\ast}$.</p><p>Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.24721v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>We present the results of broad-line region dynamical modeling for eight high-mass active galactic nuclei from the Seoul National University AGN Monitoring Project, by constraining BLR geometry and kinematics as well as black hole mass. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>This matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. We present the results of broad-line region (BLR) dynamical modeling for eight high-mass active galactic nuclei (AGNs) from the Seoul National University AGN Monitoring Project. We find that the H$β$-emitting BLRs are best described as thick disks viewed at intermediate inclinations, with emission preferentially originating from the far side of the BLR.</p><p>BLR kinematics show a combination of rotational, inflowing and outflowing components. By comparing the $M_{\\rm BH}$ from dynamical modeling with the virial products based on reverberation lags and line widths, we determine the virial factor $f$ for individual AGNs.</p><p>Combining our sample with those $M_{\\rm BH}$ consistently determined from BLR dynamical modeling, yielding a total of 38 objects, we derive a virial factor for future $M_{\\rm BH}$. The derived virial factor is consistent with that inferred by aligning the reverberation-mapped AGNs with quiescent galaxies in the $M_{\\rm BH}$-$σ_{\\ast}$relation, supporting the.</p><p>Our updated $f$ values exhibit an intrinsic dispersion of $\\sim0.2$ dex, which allows for a more precise $M_{\\rm BH}$ estimates than those based on the $M_{\\rm BH}$-$σ_{\\ast}$. Our sample extends the dynamical modeling-based reverberation sample to $M_{\\rm BH}$ $\\sim$ $M_{\\odot}$ range, where the virial factor from the the AGN $M_{\\rm BH}$-$σ_{\\ast}$.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.24721v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: We present the results of broad-line region dynamical modeling for eight high-mass active galactic nuclei from the Seoul National University AGN",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "27 abr 2026",
+    "date_pt": "27 abr 2026",
+    "date_en": "27 Apr 2026",
+    "time": "17h31",
+    "time_pt": "17h31",
+    "time_en": "17: 31 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-27T17:31:17+00:00",
+    "lastModifiedIso": "2026-04-28T08:22:11+00:00",
+    "source": "arXiv Astrophysics",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Astrofísica",
+      "arXiv Astrophysics",
+      "Cosmos Week",
+      "Modelagem Dinâmica da Região de Linha Larga com Núcleos Galácticos Ativos de Alta Massa e Restrições no Fator Virial"
+    ],
+    "keywords_pt": [
+      "Astrofísica",
+      "arXiv Astrophysics",
+      "Cosmos Week",
+      "Modelagem Dinâmica da Região de Linha Larga com Núcleos Galácticos Ativos de Alta Massa e Restrições no Fator Virial"
+    ],
+    "keywords_en": [
+      "Astrophysics",
+      "arXiv Astrophysics",
+      "Cosmos Week",
+      "Dynamic Modeling of the Broad-Line Region with High-Mass Active Galactic Nuclei and Virial Factor Constraints"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2604.24721v1",
+    "realUrl": "https://www.cosmosweek.com/?article=dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint",
+    "realUrl_en": "https://www.cosmosweek.com/?article=dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 81,
+    "scoreBreakdown": {
+      "source": 66,
+      "evidence": 39,
+      "relevance": 94,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Modelagem Dinâmica da Região de Linha Larga com Núcleos Galácticos Ativos de Alta Massa e Restrições no Fator Virial",
+    "imageAlt_pt": "Modelagem Dinâmica da Região de Linha Larga com Núcleos Galácticos Ativos de Alta Massa e Restrições no Fator Virial",
+    "imageAlt_en": "Dynamical Modeling of the Broad-Line Region with High-Mass Active Galactic Nuclei and Constraints on the Virial Factor",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
     "slug": "nasa-s-perseverance-curiosity-panoramas-capture-two-sides-of-mars",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -164,7 +405,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 4,
     "slug": "you-can-help-humans-thrive-in-space",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -285,7 +526,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 5,
     "slug": "volunteers-help-nasa-astronauts-record-lunar-flashes",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -406,7 +647,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 6,
     "slug": "days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -621,7 +862,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 7,
     "slug": "snow-is-scarce-in-the-upper-colorado-basin",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -752,7 +993,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 6,
+    "id": 8,
     "slug": "aquecimento-global-empurra-corais-para-ponto-de-nao-retorno",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -886,7 +1127,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 9,
     "slug": "revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -907,18 +1148,19 @@ window.postsData = [
     "body_pt": "<p>Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados tecnologicamente acessíveis, reabrindo o espaço de design para reatores tokamak compactos e de alto campo. Como as projeções de desempenho do reator permanecem ancoradas em escalas empíricas de confinamento, a recente atualização do banco de dados global de confinamento do modo H da ITPA levanta uma questão importante: o que significa o atual registro experimental e seus efeitos.</p><p>Neste trabalho, revisitamos a extrapolação de confinamento a partir de uma perspectiva explicitamente orientada para a extrapolação e, para complementar suas implicações em termos de uma medida direta de desempenho do reator, apresentamos um escalonamento empírico entre máquinas. Procuramos sistematicamente por um escalonamento de confinamento minimamente complexo que otimize o equilíbrio entre captura de variância e robustez extrapolativa.</p><p>Projetando para reatores, esses resultados sugerem que dispositivos de alto campo com paredes metálicas podem exigir corrente de plasma mais alta do que as expectativas baseadas em IPB98$(y, 2)$ padrão implicam, e que o desempenho do tokamak de classe gigawatt provavelmente exige. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.22728v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Recent advances in high-temperature-superconductor technology have made substantially higher toroidal magnetic fields technologically accessible, reopening the design space for compact, high-field tokamak reactors. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Because reactor performance projections remain anchored to empirical confinement scalings, the recent update to the ITPA global H-mode confinement database raises an important. In this work, we revisit confinement extrapolation from an explicitly extrapolation-oriented perspective and, to complement its implications in terms of a direct reactor.</p><p>We systematically search for a minimally complex confinement scaling that optimizes the tradeoff between variance capture and extrapolative robustness. We find that low-order models centered near $N=3$ to $N=4$ optimize this tradeoff, with plasma current, machine size, heating power, and elongation emerging as the dominant.</p><p>Recast in reactor-performance terms, the results indicate that both the fusion triple product and fusion power are governed primarily by plasma current: the triple product scales. Projecting to reactors, these results suggest that high-field devices with metal walls may require higher plasma current than standard IPB98$(y, 2)$-based expectations imply, and.</p><p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.22728v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados.",
+      "Dado-chave: Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados.",
+      "Dado-chave: Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: Recent advances in high-temperature-superconductor technology have made substantially higher toroidal magnetic fields technologically accessible",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: Recent advances in high-temperature-superconductor technology have made substantially higher toroidal magnetic fields technologically accessible.",
+      "Key detail: Recent advances in high-temperature-superconductor technology have made substantially higher toroidal magnetic fields technologically accessible",
+      "Result not yet peer reviewed."
     ],
     "date": "24 abr 2026",
     "date_pt": "24 abr 2026",
@@ -1006,127 +1248,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 8,
-    "slug": "constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts",
-    "cat": "Astrofísica",
-    "catCls": "astrofisica",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/M87_jet.jpg/1280px-M87_jet.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Restrições na abundância de buracos negros primordiais usando desvios de parâmetros de pulsares",
-    "title_pt": "Restrições na abundância de buracos negros primordiais usando desvios de parâmetros de pulsares",
-    "title_en": "Constraints on the Primordial Black Hole Abundance using Pulsar Parameter Drifts",
-    "sub": "Buracos negros primordiais (PBHs) oferecem uma explicação plausível para a origem de buracos negros binários (BBHs) detectados por observatórios de ondas gravitacionais.",
-    "sub_pt": "Buracos negros primordiais (PBHs) oferecem uma explicação plausível para a origem de buracos negros binários (BBHs) detectados por observatórios de ondas gravitacionais.",
-    "sub_en": "Primordial black holes provide a compelling interpretation for the binary black holes observed by ground-based gravitational-wave detectors, especially for those BBHs in the.",
-    "excerpt": "Buracos negros primordiais (PBHs) oferecem uma explicação plausível para a origem de buracos negros binários (BBHs) detectados por observatórios de ondas gravitacionais terrestres, especialmente aqueles com massas na lacuna teórica.",
-    "excerpt_pt": "Buracos negros primordiais (PBHs) oferecem uma explicação plausível para a origem de buracos negros binários (BBHs) detectados por observatórios de ondas gravitacionais terrestres, especialmente aqueles com massas na lacuna teórica.",
-    "excerpt_en": "Primordial black holes provide a compelling interpretation for the binary black holes observed by ground-based gravitational-wave detectors, especially for those BBHs in the theoretical mass gap.",
-    "body": "<p>Buracos negros primordiais (PBHs) representam uma hipótese atraente para explicar a origem de buracos negros binários (BBHs) observados por detectores de ondas gravitacionais terrestres, particularmente aqueles cujas massas se situam na lacuna teórica. Essa lacuna de massa, que se estende aproximadamente de 50 a 150 massas solares, é um desafio para modelos astrofísicos convencionais de formação de buracos negros estelares, tornando os PBHs uma alternativa convincente. A detecção de BBHs com massas dentro ou próximas a essa faixa por colaborações como LIGO-Virgo-KAGRA (LVK) tem impulsionado a pesquisa sobre a viabilidade dos PBHs como constituintes significativos do universo.</p><p>A formação de PBHs no Universo primitivo, impulsionada por perturbações escalares significativas, tem uma consequência inevitável: a geração de ondas gravitacionais induzidas por escalar (SIGWs). Essas ondas gravitacionais secundárias são um subproduto direto dos processos cosmológicos que poderiam ter levado à criação de PBHs. A intensidade e o espectro dessas SIGWs estão intrinsecamente ligados às condições do Universo primordial e aos mecanismos de formação dos PBHs, oferecendo uma janela única para investigar a física do cosmos em suas fases mais iniciais.</p><p>As SIGWs, conforme previsto teoricamente, atingem seu pico de energia na banda de sub-nanohertz. Essa faixa de frequência é particularmente interessante porque se manifesta de forma secular como variações mensuráveis na segunda derivada dos períodos de rotação dos pulsares, conhecidas como &#x27;jerks&#x27; ou movimentos bruscos. Pulsares, estrelas de nêutrons altamente magnetizadas e em rotação rápida, emitem feixes de radiação que varrem a Terra, funcionando como relógios cósmicos de precisão extraordinária. Pequenas perturbações em seus períodos de rotação podem ser detectadas com grande sensibilidade por meio de observatórios de pulsares, tornando-os detectores naturais de ondas gravitacionais de baixa frequência.</p><p>Neste contexto, o presente estudo representa um avanço significativo ao realizar a primeira pesquisa sistemática por SIGWs utilizando desvios nos parâmetros de pulsares. A metodologia empregada envolve a análise detalhada de dados de temporização de pulsares, buscando as assinaturas características que as SIGWs imprimiriam nos períodos de rotação observados. A precisão dos dados de temporização de pulsares, acumulados ao longo de décadas por redes de temporização de pulsares (PTAs), permite a detecção de variações extremamente sutis, abrindo um novo caminho para testar modelos cosmológicos e a existência de PBHs.</p><p>Os resultados desta investigação estabelecem um limite superior de 95% de nível de confiança na abundância de PBHs, denotada por $f_{\\mathrm{PBH}}$. Este limite quantifica a fração da matéria escura que poderia ser composta por PBHs, com base na ausência de um sinal detectável de SIGWs nos dados analisados. A obtenção de um limite tão rigoroso é crucial para restringir os modelos teóricos de formação de PBHs e para avaliar sua contribuição potencial para a matéria escura do universo. A ausência de um sinal claro de SIGWs, dentro da sensibilidade atual dos detectores de pulsares, impõe restrições importantes sobre a densidade de energia dessas ondas e, consequentemente, sobre a abundância de PBHs.</p><p>As implicações desses achados são profundas, especialmente no que tange à interpretação das detecções de BBHs pelas Colaborações LIGO-Virgo-KAGRA (LVK). Nossos resultados desfavorecem fortemente uma origem puramente primordial para os BBHs atualmente detectados pelo LVK. Embora a existência de PBHs não seja completamente descartada, a abundância necessária para explicar a totalidade ou uma fração substancial dos BBHs observados parece ser incompatível com os limites impostos pela busca por SIGWs. Isso sugere que a maioria dos BBHs detectados provavelmente se forma através de canais astrofísicos convencionais, como a evolução de estrelas massivas em sistemas binários.</p><p>Este estudo não apenas fornece restrições cruciais sobre a abundância de buracos negros primordiais, mas também demonstra o poder das redes de temporização de pulsares como ferramentas para sondar o Universo primordial e a física de ondas gravitacionais de baixa frequência. A continuidade das observações e o aprimoramento das técnicas de análise prometem refinar ainda mais esses limites, potencialmente revelando a presença de SIGWs ou impondo restrições ainda mais rigorosas sobre a cosmologia de PBHs. A busca por essas assinaturas cósmicas continua sendo uma área vibrante e essencial da pesquisa astrofísica e cosmológica.</p>",
-    "body_pt": "<p>Buracos negros primordiais (PBHs) representam uma hipótese atraente para explicar a origem de buracos negros binários (BBHs) observados por detectores de ondas gravitacionais terrestres, particularmente aqueles cujas massas se situam na lacuna teórica. Essa lacuna de massa, que se estende aproximadamente de 50 a 150 massas solares, é um desafio para modelos astrofísicos convencionais de formação de buracos negros estelares, tornando os PBHs uma alternativa convincente. A detecção de BBHs com massas dentro ou próximas a essa faixa por colaborações como LIGO-Virgo-KAGRA (LVK) tem impulsionado a pesquisa sobre a viabilidade dos PBHs como constituintes significativos do universo.</p><p>A formação de PBHs no Universo primitivo, impulsionada por perturbações escalares significativas, tem uma consequência inevitável: a geração de ondas gravitacionais induzidas por escalar (SIGWs). Essas ondas gravitacionais secundárias são um subproduto direto dos processos cosmológicos que poderiam ter levado à criação de PBHs. A intensidade e o espectro dessas SIGWs estão intrinsecamente ligados às condições do Universo primordial e aos mecanismos de formação dos PBHs, oferecendo uma janela única para investigar a física do cosmos em suas fases mais iniciais.</p><p>As SIGWs, conforme previsto teoricamente, atingem seu pico de energia na banda de sub-nanohertz. Essa faixa de frequência é particularmente interessante porque se manifesta de forma secular como variações mensuráveis na segunda derivada dos períodos de rotação dos pulsares, conhecidas como &#x27;jerks&#x27; ou movimentos bruscos. Pulsares, estrelas de nêutrons altamente magnetizadas e em rotação rápida, emitem feixes de radiação que varrem a Terra, funcionando como relógios cósmicos de precisão extraordinária. Pequenas perturbações em seus períodos de rotação podem ser detectadas com grande sensibilidade por meio de observatórios de pulsares, tornando-os detectores naturais de ondas gravitacionais de baixa frequência.</p><p>Neste contexto, o presente estudo representa um avanço significativo ao realizar a primeira pesquisa sistemática por SIGWs utilizando desvios nos parâmetros de pulsares. A metodologia empregada envolve a análise detalhada de dados de temporização de pulsares, buscando as assinaturas características que as SIGWs imprimiriam nos períodos de rotação observados. A precisão dos dados de temporização de pulsares, acumulados ao longo de décadas por redes de temporização de pulsares (PTAs), permite a detecção de variações extremamente sutis, abrindo um novo caminho para testar modelos cosmológicos e a existência de PBHs.</p><p>Os resultados desta investigação estabelecem um limite superior de 95% de nível de confiança na abundância de PBHs, denotada por $f_{\\mathrm{PBH}}$. Este limite quantifica a fração da matéria escura que poderia ser composta por PBHs, com base na ausência de um sinal detectável de SIGWs nos dados analisados. A obtenção de um limite tão rigoroso é crucial para restringir os modelos teóricos de formação de PBHs e para avaliar sua contribuição potencial para a matéria escura do universo. A ausência de um sinal claro de SIGWs, dentro da sensibilidade atual dos detectores de pulsares, impõe restrições importantes sobre a densidade de energia dessas ondas e, consequentemente, sobre a abundância de PBHs.</p><p>As implicações desses achados são profundas, especialmente no que tange à interpretação das detecções de BBHs pelas Colaborações LIGO-Virgo-KAGRA (LVK). Nossos resultados desfavorecem fortemente uma origem puramente primordial para os BBHs atualmente detectados pelo LVK. Embora a existência de PBHs não seja completamente descartada, a abundância necessária para explicar a totalidade ou uma fração substancial dos BBHs observados parece ser incompatível com os limites impostos pela busca por SIGWs. Isso sugere que a maioria dos BBHs detectados provavelmente se forma através de canais astrofísicos convencionais, como a evolução de estrelas massivas em sistemas binários.</p><p>Este estudo não apenas fornece restrições cruciais sobre a abundância de buracos negros primordiais, mas também demonstra o poder das redes de temporização de pulsares como ferramentas para sondar o Universo primordial e a física de ondas gravitacionais de baixa frequência. A continuidade das observações e o aprimoramento das técnicas de análise prometem refinar ainda mais esses limites, potencialmente revelando a presença de SIGWs ou impondo restrições ainda mais rigorosas sobre a cosmologia de PBHs. A busca por essas assinaturas cósmicas continua sendo uma área vibrante e essencial da pesquisa astrofísica e cosmológica.</p>",
-    "body_en": "<p>Primordial black holes provide a compelling interpretation for the binary black holes observed by ground-based gravitational-wave detectors, especially for those BBHs in the theoretical mass gap. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It is relevant because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Primordial black holes (PBHs) provide a compelling interpretation for the binary black holes (BBHs) observed by ground-based gravitational-wave (GW) detectors, especially for. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>In the early Universe, the scalar perturbations required to produce such PBHs inevitably generate scalar-induced GWs (SIGWs). These SIGWs peak in the sub-nanohertz band, and manifest secularly as measurable jerk-like drifts in the second derivative of pulsar spin periods.</p><p>Our results strongly disfavor a PBH origin for the BBHs currently detected by the LIGO-Virgo-KAGRA (LVK) Collaborations.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.22634v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Em foco: Buracos negros primordiais (PBHs) oferecem uma explicação plausível para a origem de buracos negros binários (BBHs) detectados por observatórios de",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
-    ],
-    "highlights_pt": [
-      "Em foco: Buracos negros primordiais (PBHs) oferecem uma explicação plausível para a origem de buracos negros binários (BBHs) detectados por observatórios de",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
-    ],
-    "highlights_en": [
-      "Focus: Primordial black holes provide a compelling interpretation for the binary black holes observed by ground-based gravitational-wave detectors",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
-    ],
-    "date": "24 abr 2026",
-    "date_pt": "24 abr 2026",
-    "date_en": "24 Apr 2026",
-    "time": "15h07",
-    "time_pt": "15h07",
-    "time_en": "15: 07 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-24T15:07:45+00:00",
-    "lastModifiedIso": "2026-04-27T08:24:47+00:00",
-    "source": "arXiv Astrophysics",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "standard",
-    "editorialBandLabel": "Prioridade editorial",
-    "editorialBandLabel_pt": "Prioridade editorial",
-    "editorialBandLabel_en": "Editorial priority",
-    "keywords": [
-      "Astrofísica",
-      "arXiv Astrophysics",
-      "Cosmos Week",
-      "Restrições na abundância do buraco negro primordial usando desvios de parâmetros pulsares"
-    ],
-    "keywords_pt": [
-      "Astrofísica",
-      "arXiv Astrophysics",
-      "Cosmos Week",
-      "Restrições na abundância do buraco negro primordial usando desvios de parâmetros pulsares"
-    ],
-    "keywords_en": [
-      "Astrophysics",
-      "arXiv Astrophysics",
-      "Cosmos Week",
-      "Constraints on primordial black hole abundance using pulsar parameter biases"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2604.22634v1",
-    "realUrl": "https://www.cosmosweek.com/?article=constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts",
-    "realUrl_en": "https://www.cosmosweek.com/?article=constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 77,
-    "scoreBreakdown": {
-      "source": 66,
-      "evidence": 39,
-      "relevance": 94,
-      "accessibility": 60,
-      "novelty": 49
-    },
-    "imageAlt": "Restrições na abundância de buracos negros primordiais usando desvios de parâmetros de pulsares",
-    "imageAlt_pt": "Restrições na abundância de buracos negros primordiais usando desvios de parâmetros de pulsares",
-    "imageAlt_en": "Constraints on the Primordial Black Hole Abundance using Pulsar Parameter Drifts",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 9,
+    "id": 10,
     "slug": "catching-the-earliest-stars-in-the-universe",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1247,7 +1369,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "braving-the-arctic-for-upcoming-polar-focused-satellites",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1368,7 +1490,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "hilumi-lhc-cern-s-full-scale-test-stand-enters-the-powering-phase",
     "cat": "Física",
     "catCls": "fisica",
@@ -1502,7 +1624,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1623,7 +1745,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "the-fy-2027-nasa-budget-request",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1799,7 +1921,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "accelerating-scaling-solutions-from-dark-matter-particle-creation",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -1920,7 +2042,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "smile-set-to-launch-on-19-may",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2078,7 +2200,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "xrism-high-resolution-x-ray-spectroscopy-of-cygnus-x-1-orbital-and-short-term-variability-of-iro",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2202,7 +2324,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "belts-of-green-in-the-washington-suburbs",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2333,7 +2455,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "stellar-flares-may-expand-habitable-zones-around-small-stars",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -2464,127 +2586,6 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
-  },
-  {
-    "id": 19,
-    "slug": "what-are-ames-contributions-to-artemis-ii",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://www.nasa.gov/wp-content/uploads/2026/04/nhq202604110022orig.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Quais são as contribuições de Ames para Artemis II?",
-    "title_pt": "Quais são as contribuições de Ames para Artemis II?",
-    "title_en": "What Are Ames’ Contributions to Artemis II?",
-    "sub": "A NASA enviou com sucesso quatro astronautas ao redor da Lua pela primeira vez em mais de 50 anos, preparando o terreno para futuras missões de pouso lunar.",
-    "sub_pt": "A NASA enviou com sucesso quatro astronautas ao redor da Lua pela primeira vez em mais de 50 anos, preparando o terreno para futuras missões de pouso lunar.",
-    "sub_en": "NASA successfully sent four astronauts around the Moon for the first time in more than 50 years, setting the stage for future lunar landing missions.",
-    "excerpt": "A NASA enviou com sucesso quatro astronautas ao redor da Lua pela primeira vez em mais de 50 anos, preparando o terreno para futuras missões de pouso lunar.",
-    "excerpt_pt": "A NASA enviou com sucesso quatro astronautas ao redor da Lua pela primeira vez em mais de 50 anos, preparando o terreno para futuras missões de pouso lunar.",
-    "excerpt_en": "NASA successfully sent four astronauts around the Moon for the first time in more than 50 years, setting the stage for future lunar landing missions.",
-    "body": "<p>A NASA enviou com sucesso quatro astronautas ao redor da Lua pela primeira vez em mais de 50 anos, preparando o terreno para futuras missões de pouso lunar. 6 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento (e subaquáticas) Astronautas do Artemis II da NASA Reid Wiseman, comandante, à esquerda.</p><p>Ciência Como membros da equipe científica lunar Artemis II, os cientistas da Ames trabalharam com operações de voo no Centro de Controle de Missão da NASA no Centro Espacial Johnson da agência em Houston para liderar e guiar a tripulação do Artemis II através das observações. NASA/Bill Ingalls A NASA enviou com sucesso quatro astronautas ao redor da Lua pela primeira vez em mais de 50 anos, preparando o terreno para futuras missões de pouso lunar.</p><p>À medida que a agência continua a expandir os limites da exploração espacial, o Centro de Pesquisa Ames da NASA, no Vale do Silício, na Califórnia, forneceu apoio essencial na preparação para a missão. Quatro astronautas, Reid Wiseman, Victor Glover e Christina Koch da NASA, e o astronauta Jeremy Hansen da CSA (Agência Espacial Canadense), passaram aproximadamente 10 dias viajando ao redor da Lua e de volta à espaçonave Orion.</p><p>O voo de teste baseou-se nas lições aprendidas e nos resultados do voo de teste não tripulado do Artemis I, lançado em 16 de novembro de 2022. Orion regressou à Terra numa trajetória de retorno livre, sendo naturalmente puxado para trás pela gravidade da Terra e entrando na atmosfera a cerca de 40.000 km/h.</p><p>Desenvolvido em colaboração com pequenas empresas, o 3D-MAT demonstra como as inovações da NASA podem impactar os voos espaciais tripulados e muito mais. O resultado previu o caminho da nave espacial de volta à Terra com mais precisão, tornando a reentrada mais segura e precisa e melhorando a confiança na missão.</p><p>Após o lançamento, uma linha do tempo de observações direcionadas construída pela equipe científica lunar orientou a tripulação a descrever e fotografar alvos lunares específicos, incluindo crateras, formações vulcânicas e colorações de superfície.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/ames/what-are-ames-contributions-to-artemis-ii/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>A NASA enviou com sucesso quatro astronautas ao redor da Lua pela primeira vez em mais de 50 anos, preparando o terreno para futuras missões de pouso lunar. 6 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento (e subaquáticas) Astronautas do Artemis II da NASA Reid Wiseman, comandante, à esquerda.</p><p>Ciência Como membros da equipe científica lunar Artemis II, os cientistas da Ames trabalharam com operações de voo no Centro de Controle de Missão da NASA no Centro Espacial Johnson da agência em Houston para liderar e guiar a tripulação do Artemis II através das observações. NASA/Bill Ingalls A NASA enviou com sucesso quatro astronautas ao redor da Lua pela primeira vez em mais de 50 anos, preparando o terreno para futuras missões de pouso lunar.</p><p>À medida que a agência continua a expandir os limites da exploração espacial, o Centro de Pesquisa Ames da NASA, no Vale do Silício, na Califórnia, forneceu apoio essencial na preparação para a missão. Quatro astronautas, Reid Wiseman, Victor Glover e Christina Koch da NASA, e o astronauta Jeremy Hansen da CSA (Agência Espacial Canadense), passaram aproximadamente 10 dias viajando ao redor da Lua e de volta à espaçonave Orion.</p><p>O voo de teste baseou-se nas lições aprendidas e nos resultados do voo de teste não tripulado do Artemis I, lançado em 16 de novembro de 2022. Orion regressou à Terra numa trajetória de retorno livre, sendo naturalmente puxado para trás pela gravidade da Terra e entrando na atmosfera a cerca de 40.000 km/h.</p><p>Desenvolvido em colaboração com pequenas empresas, o 3D-MAT demonstra como as inovações da NASA podem impactar os voos espaciais tripulados e muito mais. O resultado previu o caminho da nave espacial de volta à Terra com mais precisão, tornando a reentrada mais segura e precisa e melhorando a confiança na missão.</p><p>Após o lançamento, uma linha do tempo de observações direcionadas construída pela equipe científica lunar orientou a tripulação a descrever e fotografar alvos lunares específicos, incluindo crateras, formações vulcânicas e colorações de superfície.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/ames/what-are-ames-contributions-to-artemis-ii/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>NASA successfully sent four astronauts around the Moon for the first time in more than 50 years, setting the stage for future lunar landing missions. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. 6 min read Preparations for Next Moonwalk Simulations Underway (and Underwater) NASA Artemis II astronauts Reid Wiseman, commander, left. Science As members of the Artemis II lunar science team, Ames scientists worked with flight operations at NASA’s Mission Control Center at the agency’s Johnson Space Center in.</p><p>NASA/Bill Ingalls NASA successfully sent four astronauts around the Moon for the first time in more than 50 years, setting the stage for future lunar landing missions. As the agency continues to push the bounds of space exploration, NASA’s Ames Research Center in California’s Silicon Valley provided essential support in preparing for the mission.</p><p>Four astronauts, NASA’s Reid Wiseman, Victor Glover, and Christina Koch, and CSA’s (Canadian Space Agency) astronaut Jeremy Hansen, spent approximately 10 days traveling around. The test flight built on lessons learned and results from the uncrewed test flight of Artemis I, which launched on November 16, 2022.</p><p>Orion returned home to Earth on a free return trajectory, being naturally pulled back by Earth’s gravity and entering the atmosphere at about 25, 000 mph. Developed through collaboration with small businesses, 3D-MAT demonstrates how NASA innovations can impact human spaceflight and beyond.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>The result predicted the spacecraft’s path back to Earth more accurately, making reentry safer, more precise, and improving mission confidence. As members of the Artemis II lunar science team, Ames scientists worked with flight operations at NASA’s Mission Control Center at the agency’s Johnson Space Center in Houston to.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/ames/what-are-ames-contributions-to-artemis-ii/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: A NASA enviou com sucesso quatro astronautas ao redor da Lua pela primeira vez em mais de 50 anos, preparando o terreno para futuras missões de pouso.",
-      "Dado-chave: A NASA enviou com sucesso quatro astronautas ao redor da Lua pela primeira vez em mais de 50 anos, preparando o terreno para futuras missões de.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: A NASA enviou com sucesso quatro astronautas ao redor da Lua pela primeira vez em mais de 50 anos, preparando o terreno para futuras missões de pouso.",
-      "Dado-chave: A NASA enviou com sucesso quatro astronautas ao redor da Lua pela primeira vez em mais de 50 anos, preparando o terreno para futuras missões de.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: NASA successfully sent four astronauts around the Moon for the first time in more than 50 years, setting the stage for future lunar landing missions.",
-      "Key detail: NASA successfully sent four astronauts around the Moon for the first time in more than 50 years, setting the stage for future lunar landing.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "21 abr 2026",
-    "date_pt": "21 abr 2026",
-    "date_en": "21 Apr 2026",
-    "time": "17h41",
-    "time_pt": "17h41",
-    "time_en": "17: 41 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-21T17:41:48+00:00",
-    "lastModifiedIso": "2026-04-23T23:29:07+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Quais são as contribuições de Ames para Artemis II?"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Quais são as contribuições de Ames para Artemis II?"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "NASA News Releases",
-      "Cosmos Week",
-      "What are Ames's contributions to Artemis II?"
-    ],
-    "srcUrl": "https://www.nasa.gov/centers-and-facilities/ames/what-are-ames-contributions-to-artemis-ii/",
-    "realUrl": "https://www.cosmosweek.com/?article=what-are-ames-contributions-to-artemis-ii",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=what-are-ames-contributions-to-artemis-ii",
-    "realUrl_en": "https://www.cosmosweek.com/?article=what-are-ames-contributions-to-artemis-ii&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/what-are-ames-contributions-to-artemis-ii/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/what-are-ames-contributions-to-artemis-ii/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/what-are-ames-contributions-to-artemis-ii/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/what-are-ames-contributions-to-artemis-ii/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/what-are-ames-contributions-to-artemis-ii/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/what-are-ames-contributions-to-artemis-ii/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 94,
-      "evidence": 82,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "Quais são as contribuições de Ames para Artemis II?",
-    "imageAlt_pt": "Quais são as contribuições de Ames para Artemis II?",
-    "imageAlt_en": "What Are Ames’ Contributions to Artemis II?",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
     "storyKind": "science"
   },
   {
@@ -2740,19 +2741,19 @@ window.postsData = [
     "body_pt": "<p>As ilhas em forma de girino, localizadas ao longo da Península de Absheron, no Azerbaijão, são formações geológicas singulares que resultaram de erupções explosivas de vulcões de lama. A morfologia peculiar dessas ilhas, caracterizada por um corpo principal e uma &quot;cauda&quot; alongada, é um testemunho da interação contínua entre a atividade vulcânica e os processos erosivos que as moldam ao longo do tempo. Essas estruturas emergem de um ambiente geodinâmico complexo, onde a liberação de gases e sedimentos do subsolo oceânico ou terrestre cria paisagens em constante transformação. A região do Azerbaijão é particularmente conhecida por sua abundância de vulcões de lama, que desempenham um papel crucial na formação e evolução dessas características insulares.</p><p>O Azerbaijão é um país notavelmente rico em vulcões de lama, abrigando uma das maiores concentrações globais desses fenômenos geológicos. Dados do governo azeri indicam a existência de pelo menos 220 vulcões de lama, embora algumas pesquisas independentes sugiram que o número total possa se aproximar de 350. Essa disparidade nos números reflete a dificuldade em catalogar todas as ocorrências, especialmente as subaquáticas ou as de menor porte. Independentemente da contagem exata, a presença massiva desses vulcões sublinha a intensa atividade tectônica e a riqueza de depósitos de hidrocarbonetos na região, que são os principais impulsionadores dessas erupções.</p><p>Em ambientes terrestres, os vulcões de lama manifestam-se tipicamente como estruturas cônicas, cujas dimensões podem variar significativamente. Observa-se que essas formações atingem alturas entre 20 e 400 metros e diâmetros que podem se estender de 100 a 4.500 metros. Essas estruturas são construídas pela acumulação gradual de lama, água e gases que são expelidos do subsolo. A consistência da lama e a frequência das erupções influenciam diretamente a forma e o tamanho final do cone, criando uma diversidade de paisagens vulcânicas que são características da geologia azeri.</p><p>As erupções dos vulcões de lama são eventos dinâmicos e, por vezes, espetaculares. Em certas ocasiões, essas erupções são acompanhadas por enormes bolas de fogo, resultantes da ignição de gases metano liberados junto com a lama. A força dessas explosões é tamanha que podem dar origem a ilhas completamente novas em questão de minutos, alterando rapidamente a geografia local. Esse processo de formação e remodelação contínua é um testemunho da energia liberada por esses sistemas geológicos, que não apenas criam novas terras, mas também contribuem para a instabilidade e a constante evolução do ambiente costeiro e marinho.</p><p>A forma de girino dessas ilhas é particularmente intrigante. Além das ilhas principais, existem outras duas formações semelhantes ao sul, cujas &quot;caudas&quot; de sedimentos também se orientam predominantemente para sudoeste. Essa orientação consistente das caudas sugere a influência de correntes marinhas ou ventos dominantes que atuam como agentes erosivos, esculpindo o material expelido pelos vulcões. A erosão desempenha um papel fundamental na modelagem dessas ilhas recém-formadas, redistribuindo os sedimentos e conferindo-lhes a silhueta alongada que as caracteriza, demonstrando a complexa interação entre forças geológicas internas e externas.</p><p>A observação e o estudo dessas ilhas vulcânicas de lama oferecem uma janela valiosa para compreender os processos geológicos ativos na Terra. A capacidade de vulcões de lama de criar e remodelar paisagens em curtos períodos de tempo, como evidenciado pelas ilhas da Península de Absheron, destaca a natureza dinâmica do nosso planeta. As imagens que documentam essas formações são frequentemente capturadas por entidades como o Observatório da Terra da NASA, utilizando dados de satélites como o Landsat dos EUA, com contribuições de especialistas como Lauren Dauphin, que ajudam a monitorar e divulgar esses fenômenos naturais.</p>",
     "body_en": "<p>The tadpole-shaped islands along the Absheron Peninsula were born by explosive mud volcano eruptions and reshaped by erosion. The post A School of Mud Volcano Islands in Azerbaijan appeared first on NASA Science. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The post A School of Mud Volcano Islands in Azerbaijan appeared first on NASA Science. NASA Earth Observatory/Lauren Dauphin There are two more tadpole-shaped islands to the south, with sediment “tails” also oriented to the southwest.</p><p>They sometimes fuel huge fireballs and have created whole new islands in the space of a few minutes. Islands of Fire and Ice Veiled in Cloud 3 min read Puffs of low-level clouds mingle with the volcanic terrain of Candlemas and Vindication islands in the remote South Atlantic.</p><p>Earth Observatory Image of the Day NASA&#x27;s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery. Explore Earth Science Earth Science Data Open access to NASA’s archive of Earth science data The post A School of Mud Volcano Islands in Azerbaijan appeared first on NASA Science.</p><p>NASA Earth Observatory/Lauren Dauphin Today’s story is the answer to the April 2026 puzzler. Azerbaijan is also home to at least 220 mud volcanoes, according to data from the Azerbaijani government, though some researchers put the total number closer to 350.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>On land, mud volcanoes typically form conical structures anywhere from 20 to 400 meters (70 to 1, 300 feet) tall and 100 to 4, 500 meters in diameter. Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet.</p><p>Because the account originates with NASA Earth Observatory, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/a-school-of-mud-volcano-islands-in-azerbaijan/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: As ilhas em forma de girino na Península de Absheron, Azerbaijão, são o resultado de erupções explosivas de vulcões de lama e foram subsequentemente",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: As ilhas em forma de girino na Península de Absheron, Azerbaijão, são o resultado de erupções explosivas de vulcões de lama e foram subsequentemente.",
+      "Dado-chave: As ilhas em forma de girino na Península de Absheron, Azerbaijão, são o resultado de erupções explosivas de vulcões de lama e foram.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: As ilhas em forma de girino na Península de Absheron, Azerbaijão, são o resultado de erupções explosivas de vulcões de lama e foram subsequentemente",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: As ilhas em forma de girino na Península de Absheron, Azerbaijão, são o resultado de erupções explosivas de vulcões de lama e foram subsequentemente.",
+      "Dado-chave: As ilhas em forma de girino na Península de Absheron, Azerbaijão, são o resultado de erupções explosivas de vulcões de lama e foram.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The tadpole-shaped islands along the Absheron Peninsula were born by explosive mud volcano eruptions and reshaped by erosion",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The tadpole-shaped islands along the Absheron Peninsula were born by explosive mud volcano eruptions and reshaped by erosion.",
+      "Key detail: The tadpole-shaped islands along the Absheron Peninsula were born by explosive mud volcano eruptions and reshaped by erosion",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "21 abr 2026",
     "date_pt": "21 abr 2026",
@@ -3363,17 +3364,17 @@ window.postsData = [
     "body_en": "<p>Rising stream temperatures may be weakening the foundation of river food webs by altering how carbon moves through these watery ecosystems. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. In a new study published in the journal Ecosphere, researchers from Northern Arizona University found that when water temperatures increase, microbes and aquatic insects process. This article has been reviewed according to Science X&#x27;s editorial process and policies.</p><p>The findings point to a shift in how river ecosystems retain energy under warming conditions, with implications for plants and animals in rivers across the western United States. To examine how warming affects river processes, the NAU researchers built a controlled stream system at The Arboretum at Flagstaff, constructing 48 flow-through mini stream.</p><p>Using pond water, they manipulated the water temperature while maintaining natural light and water chemistry, simulating a range of stream conditions over two years. This system let us manipulate temperature while keeping everything else as close to a real stream as possible, which is critical for understanding how these processes actually.</p><p>Within this system, the team used tracers to follow carbon from leaf litter, the primary energy source in many forested rivers, into microbes and caddisflies. By labeling leaves with a rare form of carbon, they directly measured how much carbon was retained as biomass, how much of it was released into the water and air as CO₂, and how.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Together, these patterns indicate that warming releases more carbon into the atmosphere and converts less carbon into biomass. Even when consumption increases, the system becomes less efficient, more carbon goes to respiration and less to building the food web,&quot; said Jane Marks, professor in the.</p><p>Because the account originates with Phys. org Biology, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-warmer-streams-river-food-webs.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se.",
-      "Dado-chave: O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se",
+      "Dado-chave: O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
       "Ponto central: O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se.",
-      "Dado-chave: O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se",
+      "Dado-chave: O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
       "Core point: Rising stream temperatures may be weakening the foundation of river food webs by altering how carbon moves through these watery ecosystems.",
-      "Key detail: Rising stream temperatures may be weakening the foundation of river food webs by altering how carbon moves through these watery ecosystems",
+      "Key detail: Rising stream temperatures may be weakening the foundation of river food webs by altering how carbon moves through these watery ecosystems.",
       "Science reporting: verify primary technical documentation."
     ],
     "date": "17 abr 2026",
@@ -3631,12 +3632,12 @@ window.postsData = [
     "body_en": "<p>Developed a technique for detecting and measuring the concentration of many rare-earth elements in plants, without destroying the plant. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because physics only takes a result seriously when the measurement chain remains robust under scrutiny. Experimental particle physics and precision metrology both operate in regimes where the signal sits far below the background noise, and where systematic uncertainties can mimic new physics if not controlled rigorously. The history of the field contains numerous anomalies that generated theoretical excitement before better data showed them to be artifacts, and it also contains genuine discoveries that were initially dismissed as noise. The difference is almost always resolved by independent replication with different instruments and different systematics. This article has been reviewed according to Science X&#x27;s editorial process and policies. Editors have highlighted the following attributes while ensuring the content&#x27;s credibility: Add as preferred source This photo shows Phytolacca americana plants growing in.</p><p>Rare-earth metals are essential for many technologies,&quot; says Colleen Doherty, co-corresponding author of a paper on the work. Obtains most of the rare-earth materials it needs from international sources, so there is a great deal of interest in identifying domestic sources of these critical materials.</p><p>However, while these toxic soils have relatively high concentrations of rare-earth elements compared to other soils, those concentrations are still too low to make this an. Some plant species are capable of taking rare-earth elements out of polluted soil and concentrating it in their tissue,&quot; says Doherty, who is an associate professor of molecular.</p><p>In order to maximize this &#x27;plant mining&#x27; technique, we wanted to find a way to detect and measure the concentration of rare-earth materials in these plants. This can inform not only which plants we want to use for these mining projects, but when the optimal time would be for harvesting those plants to maximize yield of rare-earth.</p><p>The broader interest lies as much in the method as in the headline number, because a durable measurement procedure can travel farther than a single result. When experimental physicists develop a technique that achieves new sensitivity or controls a previously uncharacterized systematic, that methodological contribution persists even if the specific measurement is later revised. This is one reason why precision physics experiments often generate long-term value that is not immediately visible in the original publication.</p><p>So one challenge has been distinguishing the autofluorescence of the plant itself from the fluorescence of rare-earth elements the plant has taken up. The researchers then triggered fluorescence using a deep ultraviolet laser and measured the wavelengths and intensity of light emitted by the plant samples.</p><p>Because the account originates with Phys. org Chemistry, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is more measurement, tighter systematic control and scrutiny from groups whose experimental setups are genuinely independent. In experimental particle physics and precision metrology, the threshold for a discovery claim is a five-sigma excess surviving multiple analyses; an intriguing signal at lower significance is a reason to run more experiments, not a reason to revise the textbooks. Next-generation experiments currently under construction or commissioning will revisit several of the open questions that give the current result its context.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-technique-rare-earth-metals.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Os pesquisadores desenvolveram uma técnica para detectar e medir a concentração de muitos elementos de terras raras nas plantas, sem destruir a.",
-      "Dado-chave: Os pesquisadores desenvolveram uma técnica para detectar e medir a concentração de muitos elementos de terras raras nas plantas, sem destruir a",
+      "Dado-chave: Os pesquisadores desenvolveram uma técnica para detectar e medir a concentração de muitos elementos de terras raras nas plantas, sem destruir a.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
       "Ponto central: Os pesquisadores desenvolveram uma técnica para detectar e medir a concentração de muitos elementos de terras raras nas plantas, sem destruir a.",
-      "Dado-chave: Os pesquisadores desenvolveram uma técnica para detectar e medir a concentração de muitos elementos de terras raras nas plantas, sem destruir a",
+      "Dado-chave: Os pesquisadores desenvolveram uma técnica para detectar e medir a concentração de muitos elementos de terras raras nas plantas, sem destruir a.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
