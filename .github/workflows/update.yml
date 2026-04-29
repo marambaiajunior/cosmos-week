@@ -85,6 +85,7 @@ jobs:
               Path('posts.json'),
               Path('posts.js'),
               Path('all_posts.json'),
+              Path('assets/data/posts-index.json'),
               Path('feed.xml'),
               Path('sitemap.xml'),
               Path('robots.txt'),
@@ -98,6 +99,7 @@ jobs:
 
           json.loads(Path('posts.json').read_text(encoding='utf-8'))
           json.loads(Path('all_posts.json').read_text(encoding='utf-8'))
+          json.loads(Path('assets/data/posts-index.json').read_text(encoding='utf-8'))
           print('✓ Arquivos gerados com sucesso e JSON válido')
           PY
 
