@@ -5,7 +5,7 @@
     <link>https://www.cosmosweek.com/</link>
     <description>Portal de jornalismo científico com foco em astronomia, astrofísica, cosmologia e ciência de fronteira.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 29 Apr 2026 14:12:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 17:18:53 +0000</lastBuildDate>
     <generator>CosmosWeekBot 5.0</generator>
     <item>
               <title>Imagens Impressionantes da Missão Biomass Marcam Seu Primeiro Ano em Órbita</title>
@@ -38,6 +38,16 @@
               <source url="https://science.nasa.gov/missions/landsat/nighttime-imaging-grows-landsats-science-value/">NASA News Releases</source>
               <content:encoded>Por mais de cinco décadas, o programa Landsat tem sido uma fonte inestimável de dados sobre a superfície terrestre e as áreas costeiras do nosso planeta. Desde o seu lançamento, os satélites Landsat têm orbitado a Terra, tradicionalmente capturando imagens durante o meio da manhã, um período considerado ideal devido à iluminação solar diurna. Essa abordagem garantiu a consistência e a qualidade das observações ao longo do tempo, permitindo o monitoramento de mudanças ambientais, o mapeamento de recursos naturais e a compreensão de diversos fenômenos geográficos e ecológicos em escala global. A vasta coleção de dados do Landsat constitui um registro contínuo e detalhado da evolução da paisagem terrestre, fundamental para a pesquisa científica e a tomada de decisões em diversas áreas. No entanto, a ciência moderna exige uma compreensão mais completa dos processos terrestres, muitos dos qua</content:encoded>
             </item><item>
+              <title>Medindo simetrias axiónicas e matéria escura: em memória de George Lazarides</title>
+              <link>https://www.cosmosweek.com/noticia/gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides/</link>
+              <guid>https://www.cosmosweek.com/noticia/gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides/</guid>
+              <pubDate>Tue, 28 Apr 2026 17:30:21 +0000</pubDate>
+              <author>contato@cosmosweek.com (Cosmos Week)</author>
+              <description>Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de calibre e o inserem em um contexto mais amplo de ideias.</description>
+              <category>Cosmologia</category><category>arXiv Physics Frontiers</category><category>Cosmos Week</category><category>Medindo simetrias axiônicas e matéria escura</category>
+              <source url="https://arxiv.org/abs/2604.25888v1">arXiv Physics Frontiers</source>
+              <content:encoded>Estas notas foram elaboradas para uma sessão memorial dedicada a George Lazarides, um renomado pesquisador cujas contribuições foram fundamentais para o campo da física de partículas e cosmologia. O presente texto revisita um trabalho conjunto sobre a cosmologia de um áxion de calibre, inserindo-o em um contexto mais amplo de ideias que interligam simetrias de calibre anômalas, ações efetivas, campos de Stueckelberg e a natureza da matéria escura. A discussão visa não apenas homenagear a memória de Lazarides, mas também aprofundar a compreensão sobre a complexidade e a interconexão desses fenômenos fundamentais no universo. A pesquisa em questão explora as implicações teóricas e observacionais de modelos que buscam unificar diferentes aspectos da física de altas energias e da cosmologia, com foco particular na busca por candidatos à matéria escura que se alinhem com as observações astrof</content:encoded>
+            </item><item>
               <title>Terminal de laser da NASA aprimora a transmissão de dados visuais na missão Artemis II</title>
               <link>https://www.cosmosweek.com/noticia/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/</link>
               <guid>https://www.cosmosweek.com/noticia/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/</guid>
@@ -57,16 +67,6 @@
               <category>Cosmologia</category><category>arXiv Cosmology</category><category>Cosmos Week</category><category>Subestrutura em clusters redMaPPer e seu impacto na morfologia de raios X e relações de escala</category>
               <source url="https://arxiv.org/abs/2604.25770v1">arXiv Cosmology</source>
               <content:encoded>Este estudo se propôs a quantificar estatisticamente a prevalência e as propriedades da subestrutura em aglomerados ópticos de galáxias, investigando diretamente seu impacto na morfologia de raios X e nas relações de escala. Para tanto, foram utilizados novos e abrangentes dados provenientes do DECaLS Legacy Survey e do SRG/eROSITA all-sky, que permitiram uma análise detalhada e multifrequência desses sistemas complexos. A compreensão da subestrutura é crucial para desvendar os processos de formação e evolução dos aglomerados de galáxias, que são as maiores estruturas ligadas gravitacionalmente no universo. A metodologia empregada envolveu a aplicação do algoritmo de agrupamento hierárquico baseado em densidade HDBSCAN ao catálogo de aglomerados de galáxias redMaPPer. Este algoritmo foi fundamental para identificar e caracterizar a subestrutura a partir das atribuições de membros probabi</content:encoded>
-            </item><item>
-              <title>O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite</title>
-              <link>https://www.cosmosweek.com/noticia/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/</link>
-              <guid>https://www.cosmosweek.com/noticia/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/</guid>
-              <pubDate>Tue, 28 Apr 2026 13:13:44 +0000</pubDate>
-              <author>contato@cosmosweek.com (Cosmos Week)</author>
-              <description>A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo. O oxigénio inferior consumido pela respiração não pode ser renovado, tornando a monitorização essencial para proteger os ecossistemas marinhos vulneráveis ​​e reduzir a perda de biodiversidade.</description>
-              <category>Física</category><category>arXiv Geophysics</category><category>Cosmos Week</category><category>O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite</category>
-              <source url="https://arxiv.org/abs/2604.25608v1">arXiv Geophysics</source>
-              <content:encoded>A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo. O oxigénio inferior consumido pela respiração não pode ser renovado, tornando a monitorização essencial para proteger os ecossistemas marinhos vulneráveis ​​e reduzir a perda de biodiversidade. A hipóxia costeira (O_2 ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? . Saiba mais sobre o arXivLabs. [Enviado em 28 de abril de 2026] Título: O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite Autores: Victor Mangeleer. Apesar da crescente disponibilidade de observações por satélite do Mar Negro, nenhum sistema operacional as explora atualmente para inferir diretamente o estado do oxigénio em tempo real. Isto pode ser enquadrado como um problema inverso bayesiano relacionando observações </content:encoded>
             </item><item>
               <title>Cor ardente do outono no sul do Chile</title>
               <link>https://www.cosmosweek.com/noticia/fiery-fall-color-in-southern-chile/</link>

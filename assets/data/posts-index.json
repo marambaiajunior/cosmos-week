@@ -436,6 +436,126 @@
   },
   {
     "id": 4,
+    "slug": "gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides",
+    "cat": "Cosmologia",
+    "catCls": "cosmologia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg/1280px-Andromeda_Galaxy_%28with_h-alpha%29.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Medindo simetrias axiónicas e matéria escura: em memória de George Lazarides",
+    "title_pt": "Medindo simetrias axiónicas e matéria escura: em memória de George Lazarides",
+    "title_en": "Gauging Axionic Symmetries and Dark Matter: In memory of George Lazarides",
+    "sub": "Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de calibre e o inserem em um contexto.",
+    "sub_pt": "Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de calibre e o inserem em um contexto.",
+    "sub_en": "These notes are written for a memorial Session dedicated to George Lazarides. They revisit a joint work on the cosmology of a gauged axion and place it in a broader line of ideas.",
+    "excerpt": "Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de calibre e o inserem em um contexto mais amplo de ideias.",
+    "excerpt_pt": "Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de calibre e o inserem em um contexto mais amplo de ideias.",
+    "excerpt_en": "These notes are written for a memorial Session dedicated to George Lazarides. They revisit a joint work on the cosmology of a gauged axion and place it in a broader line of ideas connecting anomalous gauge symmetries, orientifold effective.",
+    "highlights": [
+      "Em foco: Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: These notes are written for a memorial Session dedicated to George Lazarides",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "28 abr 2026",
+    "date_pt": "28 abr 2026",
+    "date_en": "28 Apr 2026",
+    "time": "17h30",
+    "time_pt": "17h30",
+    "time_en": "17: 30 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-28T17:30:21+00:00",
+    "lastModifiedIso": "2026-04-29T17:17:55+00:00",
+    "source": "arXiv Physics Frontiers",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Cosmologia",
+      "arXiv Physics Frontiers",
+      "Cosmos Week",
+      "Medindo simetrias axiônicas e matéria escura",
+      "em memória de George Lazarides"
+    ],
+    "keywords_pt": [
+      "Cosmologia",
+      "arXiv Physics Frontiers",
+      "Cosmos Week",
+      "Medindo simetrias axiônicas e matéria escura",
+      "em memória de George Lazarides"
+    ],
+    "keywords_en": [
+      "Cosmology",
+      "arXiv Physics Frontiers",
+      "Cosmos Week",
+      "Measuring axionic symmetries and dark matter",
+      "in memory of George Lazarides"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2604.25888v1",
+    "realUrl": "https://www.cosmosweek.com/?article=gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides",
+    "realUrl_en": "https://www.cosmosweek.com/?article=gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 78,
+    "scoreBreakdown": {
+      "source": 61,
+      "evidence": 35,
+      "relevance": 94,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Medindo simetrias axiónicas e matéria escura: em memória de George Lazarides",
+    "imageAlt_pt": "Medindo simetrias axiónicas e matéria escura: em memória de George Lazarides",
+    "imageAlt_en": "Gauging Axionic Symmetries and Dark Matter: In memory of George Lazarides",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 5,
     "slug": "nasa-laser-terminal-enhances-views-during-artemis-ii-mission",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -443,12 +563,12 @@
     "inline_images": [
       {
         "src": "https://images-assets.nasa.gov/image/art002e015231/art002e015231~large.jpg",
-        "caption": "outras imagens de missão",
-        "caption_pt": "outras imagens de missão",
-        "caption_en": "other mission images",
         "alt": "outras imagens de missão",
         "alt_pt": "outras imagens de missão",
-        "alt_en": "other mission images"
+        "alt_en": "other mission images",
+        "caption": "outras imagens de missão",
+        "caption_pt": "outras imagens de missão",
+        "caption_en": "other mission images"
       }
     ],
     "video": {
@@ -476,19 +596,19 @@
     "excerpt_pt": "A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA.",
     "excerpt_en": "Millions of people watched the historic launch of Artemis II and were captivated by the mission’s 10-day journey around the Moon as NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA astronaut Jeremy Hansen ventured.",
     "highlights": [
-      "Em foco: A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA.",
+      "Dado-chave: A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA.",
+      "Dado-chave: A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Millions of people watched the historic launch of Artemis II and were captivated by the mission’s 10-day journey around the Moon as NASA astronauts",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Millions of people watched the historic launch of Artemis II and were captivated by the mission’s 10-day journey around the Moon as NASA astronauts.",
+      "Key detail: Millions of people watched the historic launch of Artemis II and were captivated by the mission’s 10-day journey around the Moon as NASA.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "28 abr 2026",
     "date_pt": "28 abr 2026",
@@ -576,7 +696,7 @@
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -686,123 +806,6 @@
     "imageAlt": "Subestrutura em aglomerados redMaPPer e seu impacto na morfologia de raios X e relações de escala",
     "imageAlt_pt": "Subestrutura em aglomerados redMaPPer e seu impacto na morfologia de raios X e relações de escala",
     "imageAlt_en": "Substructure in redMaPPer clusters and its impact on X-ray morphology and scaling relations",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 6,
-    "slug": "the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations",
-    "cat": "Física",
-    "catCls": "fisica",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Global_Surface_Temperature_Anomalies_1880-2013.jpg/1280px-Global_Surface_Temperature_Anomalies_1880-2013.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite",
-    "title_pt": "O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite",
-    "title_en": "The Physical Limit of Neural Hypoxia Detection in the Black Sea from Satellite Observations",
-    "sub": "A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo. O oxigénio inferior consumido pela respiração não pode ser renovado, tornando a monitorização essencial para.",
-    "sub_pt": "A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo. O oxigénio inferior consumido pela respiração não pode ser renovado, tornando a monitorização essencial para.",
-    "sub_en": "Coastal hypoxia threatens ocean health worldwide. Bottom oxygen consumed by respiration cannot be renewed, making monitoring essential to protect vulnerable marine ecosystems and.",
-    "excerpt": "A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo. O oxigénio inferior consumido pela respiração não pode ser renovado, tornando a monitorização essencial para proteger os ecossistemas marinhos vulneráveis ​​e reduzir a perda de biodiversidade.",
-    "excerpt_pt": "A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo. O oxigénio inferior consumido pela respiração não pode ser renovado, tornando a monitorização essencial para proteger os ecossistemas marinhos vulneráveis ​​e reduzir a perda de biodiversidade.",
-    "excerpt_en": "Coastal hypoxia threatens ocean health worldwide. Bottom oxygen consumed by respiration cannot be renewed, making monitoring essential to protect vulnerable marine ecosystems and reduce biodiversity loss.",
-    "highlights": [
-      "Em foco: A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
-    ],
-    "highlights_pt": [
-      "Em foco: A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
-    ],
-    "highlights_en": [
-      "Focus: Coastal hypoxia threatens ocean health worldwide",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
-    ],
-    "date": "28 abr 2026",
-    "date_pt": "28 abr 2026",
-    "date_en": "28 Apr 2026",
-    "time": "13h13",
-    "time_pt": "13h13",
-    "time_en": "13: 13 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-28T13:13:44+00:00",
-    "lastModifiedIso": "2026-04-29T14:11:54+00:00",
-    "source": "arXiv Geophysics",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "standard",
-    "editorialBandLabel": "Prioridade editorial",
-    "editorialBandLabel_pt": "Prioridade editorial",
-    "editorialBandLabel_en": "Editorial priority",
-    "keywords": [
-      "Física",
-      "arXiv Geophysics",
-      "Cosmos Week",
-      "O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite"
-    ],
-    "keywords_pt": [
-      "Física",
-      "arXiv Geophysics",
-      "Cosmos Week",
-      "O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite"
-    ],
-    "keywords_en": [
-      "Physical",
-      "arXiv Geophysics",
-      "Cosmos Week",
-      "The physical limit of neural hypoxia detection in the Black Sea from satellite observations"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2604.25608v1",
-    "realUrl": "https://www.cosmosweek.com/?article=the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations",
-    "realUrl_en": "https://www.cosmosweek.com/?article=the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 70,
-    "scoreBreakdown": {
-      "source": 55,
-      "evidence": 39,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite",
-    "imageAlt_pt": "O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite",
-    "imageAlt_en": "The Physical Limit of Neural Hypoxia Detection in the Black Sea from Satellite Observations",
     "coverageKind": "preprint",
     "coverageKindLabel": "Preprint",
     "coverageKindLabel_pt": "Preprint",
@@ -2209,19 +2212,19 @@
     "excerpt_pt": "A missão Smile europeia-chinesa está programada para ser lançada na terça-feira, 19 de maio de 2026, às 05h52 CEST/04h52 BST/00h52 horário local, a bordo de um foguete europeu Vega-C.",
     "excerpt_en": "The European-Chinese Smile mission is due to launch on Tuesday 19 May 2026, at 05: 52 CEST / 04: 52 BST / 00: 52 local time on a European Vega-C rocket.",
     "highlights": [
-      "Em foco: A missão Smile europeia-chinesa está programada para ser lançada na terça-feira, 19 de maio de 2026, às 05h52 CEST/04h52 BST/00h52 horário local, a",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A missão Smile europeia-chinesa está programada para ser lançada na terça-feira, 19 de maio de 2026, às 05h52 CEST/04h52 BST/00h52 horário local, a.",
+      "Dado-chave: A missão Smile europeia-chinesa está programada para ser lançada na terça-feira, 19 de maio de 2026, às 05h52 CEST/04h52 BST/00h52 horário.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A missão Smile europeia-chinesa está programada para ser lançada na terça-feira, 19 de maio de 2026, às 05h52 CEST/04h52 BST/00h52 horário local, a",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A missão Smile europeia-chinesa está programada para ser lançada na terça-feira, 19 de maio de 2026, às 05h52 CEST/04h52 BST/00h52 horário local, a.",
+      "Dado-chave: A missão Smile europeia-chinesa está programada para ser lançada na terça-feira, 19 de maio de 2026, às 05h52 CEST/04h52 BST/00h52 horário.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The European-Chinese Smile mission is due to launch on Tuesday 19 May 2026, at 05: 52 CEST / 04: 52 BST / 00: 52 local time on a European Vega-C",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The European-Chinese Smile mission is due to launch on Tuesday 19 May 2026, at 05: 52 CEST / 04: 52 BST / 00: 52 local time on a European Vega-C.",
+      "Key detail: The European-Chinese Smile mission is due to launch on Tuesday 19 May 2026, at 05: 52 CEST / 04: 52 BST / 00: 52 local time on a European Vega-C",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "23 abr 2026",
     "date_pt": "23 abr 2026",
