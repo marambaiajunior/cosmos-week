@@ -53,7 +53,7 @@ SITE_DESCRIPTION_PT = 'Portal de jornalismo científico com foco em astronomia, 
 SITE_DESCRIPTION_EN = 'Science journalism portal focused on astronomy, astrophysics, cosmology and frontier research.'
 
 GA_MEASUREMENT_ID = os.getenv('COSMOS_GA_MEASUREMENT_ID', 'G-MX20J1ZG06').strip()
-STATIC_ARTICLE_TEMPLATE_VERSION = 'inline-media-v2-2026-04-28'
+STATIC_ARTICLE_TEMPLATE_VERSION = 'inline-media-v3-2026-04-29'
 
 def analytics_head_snippet() -> str:
     """Return the single Analytics loader used by every static article page.
@@ -1025,9 +1025,34 @@ def clean_image_url(url: str) -> Optional[str]:
     return url if parsed.netloc else None
 
 
+def image_url_has_direct_file(url: str) -> bool:
+    """Return True only when the URL itself looks like an image asset.
+
+    This deliberately rejects HTML landing pages such as /images/, /news/...
+    or article URLs containing the word "photo". Those can be useful as
+    pages to inspect, but they must never be emitted as <img src>. Browsers
+    quite reasonably refuse to render an HTML page as an image.
+    """
+    decoded = urllib.parse.unquote(html.unescape(url or ''))
+    return bool(re.search(r'\.(?:jpg|jpeg|png|webp|avif)(?:$|[?#/])', decoded, flags=re.I))
+
+
+def image_url_has_image_format_query(url: str) -> bool:
+    try:
+        parsed = urllib.parse.urlparse(url or '')
+        query = urllib.parse.parse_qs(parsed.query)
+    except Exception:
+        return False
+    for key in ('format', 'fm', 'type', 'ext'):
+        for value in query.get(key, []):
+            if normalize_text(str(value)) in {'jpg', 'jpeg', 'png', 'webp', 'avif'}:
+                return True
+    return False
+
+
 def image_url_looks_good(url: str) -> bool:
     low = normalize_text(url)
-    # Rejeitar imagens de interface, logos e retratos de pessoas
+    # Rejeitar imagens de interface, logos, tracking e retratos de pessoas.
     bad_tokens = (
         'logo', 'favicon', 'avatar', 'placeholder', 'sprite', 'icon', 'banner_ad',
         'portrait', 'headshot', 'profile', 'author', 'byline', 'staff', 'team',
@@ -1036,8 +1061,14 @@ def image_url_looks_good(url: str) -> bool:
     )
     if any(bad in low for bad in bad_tokens):
         return False
-    if not re.search(r'\.(jpg|jpeg|png|webp|avif)(?:$|[?#])', low) and not any(t in low for t in ('image', 'photo', 'media', 'img', 'asset')):
+
+    # A regra anterior aceitava qualquer URL contendo "image", "photo",
+    # "media" ou "asset". Isso capturava páginas HTML como
+    # https://www.nasa.gov/images/ e artigos com "photo" no slug, gerando
+    # cartões com imagem quebrada. Para <img src>, exigimos URL de arquivo.
+    if not image_url_has_direct_file(url) and not image_url_has_image_format_query(url):
         return False
+
     return True
 
 
@@ -5431,7 +5462,7 @@ def merge_inline_image_lists(existing: list[dict], fresh: list[dict], limit: int
         if not isinstance(item, dict):
             continue
         src = clean_image_url(item.get('src') or '')
-        if not src:
+        if not src or not image_url_looks_good(src):
             continue
         key = normalize_text(src)
         if key in seen:
@@ -5452,6 +5483,9 @@ def enrich_post_media(post: dict) -> dict:
     if post.get('sourceType') == 'preprint' or post.get('isPreprint'):
         return post
     existing = post.get('inline_images') if isinstance(post.get('inline_images'), list) else []
+    # Filtra URLs antigas que apontavam para páginas HTML, não imagens reais.
+    existing = merge_inline_image_lists([], existing, MAX_INLINE_IMAGES)
+    post['inline_images'] = existing
     if len(existing) >= MIN_INLINE_IMAGES:
         return post
     src_url = collapse_ws(str(post.get('srcUrl') or ''))
