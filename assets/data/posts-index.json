@@ -7,15 +7,6 @@
     "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/gallery_forests_of_the_angola_drc_borderlands/27246328-1-eng-GB/Gallery_forests_of_the_Angola_DRC_borderlands_pillars.png",
     "inline_images": [
       {
-        "src": "https://www.esa.int/ESA_Multimedia/Images/2026/04/Andean_foothills",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/andean_foothills/27246982-1-eng-GB/Andean_foothills_pillars.png",
         "alt": "Sopé andino",
         "alt_pt": "Sopé andino",
@@ -23,15 +14,6 @@
         "caption": "Sopé andino",
         "caption_pt": "Sopé andino",
         "caption_en": "Andean foothills"
-      },
-      {
-        "src": "https://www.esa.int/ESA_Multimedia/Images/2026/04/Mamore_River_Bolivia",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
       },
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/mamore_river_bolivia/27246935-1-eng-GB/Mamore_River_Bolivia_pillars.png",
@@ -43,15 +25,6 @@
         "caption_en": "Mamoré River, Bolivia"
       },
       {
-        "src": "https://www.esa.int/ESA_Multimedia/Images/2026/04/Northern_Brazil_silty_channels",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/northern_brazil_silty_channels/27246888-1-eng-GB/Northern_Brazil_silty_channels_pillars.png",
         "alt": "Canais sedimentares do Norte do Brasil",
         "alt_pt": "Canais sedimentares do Norte do Brasil",
@@ -59,15 +32,6 @@
         "caption": "Canais sedimentares do Norte do Brasil",
         "caption_pt": "Canais sedimentares do Norte do Brasil",
         "caption_en": "Northern Brazil silty channels"
-      },
-      {
-        "src": "https://www.esa.int/ESA_Multimedia/Images/2026/04/Savanna_landscape_Gulf_Country_Australia",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
       },
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/savanna_landscape_gulf_country_australia/27246794-1-eng-GB/Savanna_landscape_Gulf_Country_Australia_pillars.png",
@@ -79,15 +43,6 @@
         "caption_en": "Savanna landscape Gulf Country, Australia"
       },
       {
-        "src": "https://www.esa.int/ESA_Multimedia/Images/2026/04/Circular_mountain_plateau_Malaysia",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/circular_mountain_plateau_malaysia/27246747-1-eng-GB/Circular_mountain_plateau_Malaysia_pillars.png",
         "alt": "Planalto montanhoso circular, Malásia",
         "alt_pt": "Planalto montanhoso circular, Malásia",
@@ -95,15 +50,6 @@
         "caption": "Planalto montanhoso circular, Malásia",
         "caption_pt": "Planalto montanhoso circular, Malásia",
         "caption_en": "Circular mountain plateau, Malaysia"
-      },
-      {
-        "src": "https://www.esa.int/ESA_Multimedia/Images/2026/04/Berau_River_delta_Indonesia",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
       },
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/berau_river_delta_indonesia/27246653-1-eng-GB/Berau_River_delta_Indonesia_pillars.png",
@@ -356,12 +302,12 @@
     "inline_images": [
       {
         "src": "https://videojs.org/og/support.png",
-        "caption": "suporta vídeo HTML5",
-        "caption_pt": "suporta vídeo HTML5",
-        "caption_en": "supports HTML5 video",
         "alt": "suporta vídeo HTML5",
         "alt_pt": "suporta vídeo HTML5",
-        "alt_en": "supports HTML5 video"
+        "alt_en": "supports HTML5 video",
+        "caption": "suporta vídeo HTML5",
+        "caption_pt": "suporta vídeo HTML5",
+        "caption_en": "supports HTML5 video"
       }
     ],
     "video": {
@@ -390,12 +336,12 @@
     "excerpt_en": "By Earth Resources Observation and Science Center For more than 50 years, Landsat has imaged Earth’s land and near-shore surfaces as the satellites descend in midmorning orbit, when daily sunlight is optimal.",
     "highlights": [
       "Ponto central: Por mais de cinco décadas, o programa Landsat tem monitorado a Terra, tradicionalmente focando em imagens diurnas.",
-      "Dado-chave: Por mais de cinco décadas, o programa Landsat tem monitorado a Terra, tradicionalmente focando em imagens diurnas",
+      "Dado-chave: Por mais de cinco décadas, o programa Landsat tem monitorado a Terra, tradicionalmente focando em imagens diurnas.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: Por mais de cinco décadas, o programa Landsat tem monitorado a Terra, tradicionalmente focando em imagens diurnas.",
-      "Dado-chave: Por mais de cinco décadas, o programa Landsat tem monitorado a Terra, tradicionalmente focando em imagens diurnas",
+      "Dado-chave: Por mais de cinco décadas, o programa Landsat tem monitorado a Terra, tradicionalmente focando em imagens diurnas.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
@@ -496,40 +442,13 @@
     "img": "https://www.nasa.gov/wp-content/uploads/2026/02/o2o.jpg",
     "inline_images": [
       {
-        "src": "https://www.nasa.gov/images/",
-        "caption": "sistema de comunicações ópticas",
-        "caption_pt": "sistema de comunicações ópticas",
-        "caption_en": "optical communications system",
-        "alt": "sistema de comunicações ópticas",
-        "alt_pt": "sistema de comunicações ópticas",
-        "alt_en": "optical communications system"
-      },
-      {
-        "src": "https://www.nasa.gov/image-of-the-day/",
-        "caption": "sistema de comunicações ópticas",
-        "caption_pt": "sistema de comunicações ópticas",
-        "caption_en": "optical communications system",
-        "alt": "sistema de comunicações ópticas",
-        "alt_pt": "sistema de comunicações ópticas",
-        "alt_en": "optical communications system"
-      },
-      {
-        "src": "https://www.nasa.gov/centers-and-facilities/johnson/artemis-ii-mission-milestones-an-image-and-video-recap/",
-        "caption": "sistema de comunicações ópticas",
-        "caption_pt": "sistema de comunicações ópticas",
-        "caption_en": "optical communications system",
-        "alt": "sistema de comunicações ópticas",
-        "alt_pt": "sistema de comunicações ópticas",
-        "alt_en": "optical communications system"
-      },
-      {
-        "src": "https://science.nasa.gov/earth/advancing-earth-observation-at-nasa-since-release-of-earthrise-photo/",
-        "caption": "sistema de comunicações ópticas",
-        "caption_pt": "sistema de comunicações ópticas",
-        "caption_en": "optical communications system",
-        "alt": "sistema de comunicações ópticas",
-        "alt_pt": "sistema de comunicações ópticas",
-        "alt_en": "optical communications system"
+        "src": "https://images-assets.nasa.gov/image/art002e015231/art002e015231~large.jpg",
+        "caption": "outras imagens de missão",
+        "caption_pt": "outras imagens de missão",
+        "caption_en": "other mission images",
+        "alt": "outras imagens de missão",
+        "alt_pt": "outras imagens de missão",
+        "alt_en": "other mission images"
       }
     ],
     "video": {
@@ -775,6 +694,123 @@
   },
   {
     "id": 6,
+    "slug": "the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations",
+    "cat": "Física",
+    "catCls": "fisica",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Global_Surface_Temperature_Anomalies_1880-2013.jpg/1280px-Global_Surface_Temperature_Anomalies_1880-2013.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite",
+    "title_pt": "O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite",
+    "title_en": "The Physical Limit of Neural Hypoxia Detection in the Black Sea from Satellite Observations",
+    "sub": "A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo. O oxigénio inferior consumido pela respiração não pode ser renovado, tornando a monitorização essencial para.",
+    "sub_pt": "A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo. O oxigénio inferior consumido pela respiração não pode ser renovado, tornando a monitorização essencial para.",
+    "sub_en": "Coastal hypoxia threatens ocean health worldwide. Bottom oxygen consumed by respiration cannot be renewed, making monitoring essential to protect vulnerable marine ecosystems and.",
+    "excerpt": "A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo. O oxigénio inferior consumido pela respiração não pode ser renovado, tornando a monitorização essencial para proteger os ecossistemas marinhos vulneráveis ​​e reduzir a perda de biodiversidade.",
+    "excerpt_pt": "A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo. O oxigénio inferior consumido pela respiração não pode ser renovado, tornando a monitorização essencial para proteger os ecossistemas marinhos vulneráveis ​​e reduzir a perda de biodiversidade.",
+    "excerpt_en": "Coastal hypoxia threatens ocean health worldwide. Bottom oxygen consumed by respiration cannot be renewed, making monitoring essential to protect vulnerable marine ecosystems and reduce biodiversity loss.",
+    "highlights": [
+      "Em foco: A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: Coastal hypoxia threatens ocean health worldwide",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "28 abr 2026",
+    "date_pt": "28 abr 2026",
+    "date_en": "28 Apr 2026",
+    "time": "13h13",
+    "time_pt": "13h13",
+    "time_en": "13: 13 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-28T13:13:44+00:00",
+    "lastModifiedIso": "2026-04-29T14:11:54+00:00",
+    "source": "arXiv Geophysics",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Física",
+      "arXiv Geophysics",
+      "Cosmos Week",
+      "O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite"
+    ],
+    "keywords_pt": [
+      "Física",
+      "arXiv Geophysics",
+      "Cosmos Week",
+      "O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite"
+    ],
+    "keywords_en": [
+      "Physical",
+      "arXiv Geophysics",
+      "Cosmos Week",
+      "The physical limit of neural hypoxia detection in the Black Sea from satellite observations"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2604.25608v1",
+    "realUrl": "https://www.cosmosweek.com/?article=the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations",
+    "realUrl_en": "https://www.cosmosweek.com/?article=the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 70,
+    "scoreBreakdown": {
+      "source": 55,
+      "evidence": 39,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite",
+    "imageAlt_pt": "O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite",
+    "imageAlt_en": "The Physical Limit of Neural Hypoxia Detection in the Black Sea from Satellite Observations",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 7,
     "slug": "fiery-fall-color-in-southern-chile",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -782,60 +818,6 @@
     "inline_images": [
       {
         "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/images/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/centers-and-facilities/johnson/artemis-ii-mission-milestones-an-image-and-video-recap/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/earth/advancing-earth-observation-at-nasa-since-release-of-earthrise-photo/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/earth/multimedia",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/photojournal/nisars-view-of-mount-rainier/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/photojournal/nisar-views-mount-st-helens/",
         "caption": "",
         "caption_pt": "",
         "caption_en": "",
@@ -956,7 +938,7 @@
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1073,7 +1055,7 @@
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1092,17 +1074,17 @@
     "excerpt_en": "We present the results of broad-line region dynamical modeling for eight high-mass active galactic nuclei from the Seoul National University AGN Monitoring Project, by constraining BLR geometry and kinematics as well as black hole mass.",
     "highlights": [
       "Ponto central: Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de.",
-      "Dado-chave: Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de",
+      "Dado-chave: Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
       "Ponto central: Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de.",
-      "Dado-chave: Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de",
+      "Dado-chave: Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
       "Core point: We present the results of broad-line region dynamical modeling for eight high-mass active galactic nuclei from the Seoul National University AGN.",
-      "Key detail: We present the results of broad-line region dynamical modeling for eight high-mass active galactic nuclei from the Seoul National University AGN",
+      "Key detail: We present the results of broad-line region dynamical modeling for eight high-mass active galactic nuclei from the Seoul National University AGN.",
       "Result not yet peer reviewed."
     ],
     "date": "27 abr 2026",
@@ -1191,21 +1173,12 @@
     "storyKind": "science"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions",
     "cat": "Astronomia",
     "catCls": "astronomia",
     "img": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x630_crop_center-center_82_none/20170518_building-nasa.jpg?mtime=1753473841",
     "inline_images": [
-      {
-        "src": "https://www.planetary.org/space-images/juno-during-orbital-insertion-burn",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
       {
         "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x1241_crop_center-center_82_line/20160706_juno3_hr.jpg.webp",
         "alt": "",
@@ -1403,7 +1376,7 @@
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "snow-is-scarce-in-the-upper-colorado-basin",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1420,60 +1393,6 @@
       },
       {
         "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/images/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/centers-and-facilities/johnson/artemis-ii-mission-milestones-an-image-and-video-recap/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/earth/advancing-earth-observation-at-nasa-since-release-of-earthrise-photo/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/earth/multimedia",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/photojournal/nisars-view-of-mount-rainier/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/photojournal/nisar-views-mount-st-helens/",
         "caption": "",
         "caption_pt": "",
         "caption_en": "",
@@ -1594,140 +1513,12 @@
     "storyKind": "science"
   },
   {
-    "id": 11,
-    "slug": "revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol",
-    "cat": "Cosmologia",
-    "catCls": "cosmologia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Earth%27s_magnetic_field_and_magnetosphere.jpg/1280px-Earth%27s_magnetic_field_and_magnetosphere.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Revisitando escalas de confinamento e desempenho de fusão com uma perspectiva otimizada para extrapolação",
-    "title_pt": "Revisitando escalas de confinamento e desempenho de fusão com uma perspectiva otimizada para extrapolação",
-    "title_en": "Revisiting confinement scalings and fusion performance with a perspective optimized for extrapolation",
-    "sub": "Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados tecnologicamente acessíveis, reabrindo o.",
-    "sub_pt": "Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados tecnologicamente acessíveis, reabrindo o.",
-    "sub_en": "Recent advances in high-temperature-superconductor technology have made substantially higher toroidal magnetic fields technologically accessible, reopening the design space for.",
-    "excerpt": "Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados tecnologicamente acessíveis, reabrindo o espaço de design para reatores tokamak compactos e de alto campo.",
-    "excerpt_pt": "Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados tecnologicamente acessíveis, reabrindo o espaço de design para reatores tokamak compactos e de alto campo.",
-    "excerpt_en": "Recent advances in high-temperature-superconductor technology have made substantially higher toroidal magnetic fields technologically accessible, reopening the design space for compact, high-field tokamak reactors.",
-    "highlights": [
-      "Ponto central: Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados.",
-      "Dado-chave: Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados.",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_pt": [
-      "Ponto central: Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados.",
-      "Dado-chave: Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados.",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_en": [
-      "Core point: Recent advances in high-temperature-superconductor technology have made substantially higher toroidal magnetic fields technologically accessible.",
-      "Key detail: Recent advances in high-temperature-superconductor technology have made substantially higher toroidal magnetic fields technologically accessible.",
-      "Result not yet peer reviewed."
-    ],
-    "date": "24 abr 2026",
-    "date_pt": "24 abr 2026",
-    "date_en": "24 Apr 2026",
-    "time": "17h26",
-    "time_pt": "17h26",
-    "time_en": "17: 26 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-24T17:26:25+00:00",
-    "lastModifiedIso": "2026-04-27T21:05:02+00:00",
-    "source": "arXiv Physics Frontiers",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "standard",
-    "editorialBandLabel": "Prioridade editorial",
-    "editorialBandLabel_pt": "Prioridade editorial",
-    "editorialBandLabel_en": "Editorial priority",
-    "keywords": [
-      "Cosmologia",
-      "arXiv Physics Frontiers",
-      "Cosmos Week",
-      "Revisitando escalas de confinamento e desempenho de fusão com uma perspectiva otimizada para extrapolação"
-    ],
-    "keywords_pt": [
-      "Cosmologia",
-      "arXiv Physics Frontiers",
-      "Cosmos Week",
-      "Revisitando escalas de confinamento e desempenho de fusão com uma perspectiva otimizada para extrapolação"
-    ],
-    "keywords_en": [
-      "Cosmology",
-      "arXiv Physics Frontiers",
-      "Cosmos Week",
-      "Revisiting confinement scales and fusion performance with an optimized perspective for extrapolation"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2604.22728v1",
-    "realUrl": "https://www.cosmosweek.com/?article=revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol",
-    "realUrl_en": "https://www.cosmosweek.com/?article=revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 68,
-    "scoreBreakdown": {
-      "source": 61,
-      "evidence": 35,
-      "relevance": 94,
-      "accessibility": 60,
-      "novelty": 49
-    },
-    "imageAlt": "Revisitando escalas de confinamento e desempenho de fusão com uma perspectiva otimizada para extrapolação",
-    "imageAlt_pt": "Revisitando escalas de confinamento e desempenho de fusão com uma perspectiva otimizada para extrapolação",
-    "imageAlt_en": "Revisiting confinement scalings and fusion performance with a perspective optimized for extrapolation",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
     "id": 12,
     "slug": "catching-the-earliest-stars-in-the-universe",
     "cat": "Astronomia",
     "catCls": "astronomia",
     "img": "https://dq0hsqwjhea1.cloudfront.net/first-stars-ANU-600px.jpg",
-    "inline_images": [
-      {
-        "src": "https://skyandtelescope.org/submitting-astrophotography-faqs/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      }
-    ],
+    "inline_images": [],
     "video": null,
     "audio": null,
     "title": "Capturando as Primeiras Estrelas do Universo",
@@ -1848,15 +1639,6 @@
     "inline_images": [
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/not_your_normal_commute/27239667-3-eng-GB/Not_your_normal_commute_pillars.jpg",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://www.esa.int/ESA_Multimedia/Images/2026/04/Arctic_sea-ice_extent",
         "caption": "",
         "caption_pt": "",
         "caption_en": "",
@@ -2000,24 +1782,6 @@
         "caption": "",
         "caption_pt": "",
         "caption_en": ""
-      },
-      {
-        "src": "https://cds.cern.ch/images/OPEN-PHO-ACCEL-2017-010-2/file?size=medium",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://home.cern/resources/image/accelerators/high-luminosity-lhc-gallery",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
       }
     ],
     "video": null,
@@ -2260,15 +2024,6 @@
     "img": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x630_crop_center-center_82_none/vab-ml-at-night.jpg?mtime=1753482388",
     "inline_images": [
       {
-        "src": "https://www.planetary.org/space-images/missing-mission-line-items",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
         "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x637_crop_center-center_82_line/fy2027-pbr-missing-missions.jpg.webp",
         "alt": "",
         "alt_pt": "",
@@ -2285,15 +2040,6 @@
         "caption": "Itens de linha de missão ausentes",
         "caption_pt": "Itens de linha de missão ausentes",
         "caption_en": "Missing mission line-items"
-      },
-      {
-        "src": "https://www.planetary.org/space-images/missing-funding-data",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
       },
       {
         "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x991_crop_center-center_82_line/fy2027-pbr-no-fy2025-reporting.jpg.webp",
@@ -2433,15 +2179,6 @@
     "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/02/smile_delivered_to_space_artist_impression_gif/27126681-1-eng-GB/Smile_delivered_to_space_artist_impression_GIF_pillars.gif",
     "inline_images": [
       {
-        "src": "https://www.esa.int/ESA_Multimedia/Images/2026/02/Smile_launch_timeline",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/02/smile_launch_timeline/27119760-2-eng-GB/Smile_launch_timeline_article.jpg",
         "alt": "Cronograma de lançamento do Smile",
         "alt_pt": "Cronograma de lançamento do Smile",
@@ -2449,15 +2186,6 @@
         "caption": "Cronograma de lançamento do Smile",
         "caption_pt": "Cronograma de lançamento do Smile",
         "caption_en": "Smile launch timeline"
-      },
-      {
-        "src": "https://www.esa.int/extension/pillars/design/pillars/images/play-button.svg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
       },
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/03/what_is_smile_about_to_discover/27167698-1-eng-GB/What_is_Smile_about_to_discover_pillars.jpg",
@@ -2598,66 +2326,12 @@
       },
       {
         "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/images/",
+        "alt_en": "",
         "caption": "",
         "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/centers-and-facilities/johnson/artemis-ii-mission-milestones-an-image-and-video-recap/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/earth/advancing-earth-observation-at-nasa-since-release-of-earthrise-photo/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/earth/multimedia",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/photojournal/nisars-view-of-mount-rainier/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/photojournal/nisar-views-mount-st-helens/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
+        "caption_en": ""
       }
     ],
     "video": null,
@@ -3038,66 +2712,12 @@
       },
       {
         "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/images/",
+        "alt_en": "",
         "caption": "",
         "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/centers-and-facilities/johnson/artemis-ii-mission-milestones-an-image-and-video-recap/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/earth/advancing-earth-observation-at-nasa-since-release-of-earthrise-photo/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/earth/multimedia",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/photojournal/nisars-view-of-mount-rainier/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/photojournal/nisar-views-mount-st-helens/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
+        "caption_en": ""
       }
     ],
     "video": null,
@@ -3713,12 +3333,12 @@
     "excerpt_en": "In the past several years, Rockefeller University's Kivanç Birsoy and his team in the Laboratory of Metabolic Regulation and Genetics have revealed remarkable details about the antioxidant glutathione, which plays many essential roles in.",
     "highlights": [
       "Ponto central: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
-      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes",
+      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
       "Ponto central: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
-      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes",
+      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
@@ -3832,12 +3452,12 @@
       },
       {
         "src": "https://earthsky.org/upl/2026/04/Apr-28-26-Sun-activity-3-Mflares.-ezgif.com-video-to-webp-converter.webp",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
       }
     ],
     "video": null,
@@ -4566,17 +4186,7 @@
     "cat": "Astronomia",
     "catCls": "astronomia",
     "img": "https://dq0hsqwjhea1.cloudfront.net/planet-collision.webp",
-    "inline_images": [
-      {
-        "src": "https://skyandtelescope.org/submitting-astrophotography-faqs/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      }
-    ],
+    "inline_images": [],
     "video": null,
     "audio": null,
     "title": "Planetas Colidem em Torno de uma Estrela Jovem Semelhante ao Sol",
@@ -4860,17 +4470,17 @@
     "excerpt_en": "Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo.",
     "highlights": [
       "Ponto central: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-      "Dado-chave: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial",
+      "Dado-chave: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
       "Ponto central: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-      "Dado-chave: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial",
+      "Dado-chave: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
       "Core point: Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo.",
-      "Key detail: Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo",
+      "Key detail: Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo.",
       "Science reporting: verify primary technical documentation."
     ],
     "date": "08 abr 2026",
@@ -5091,24 +4701,6 @@
         "caption": "",
         "caption_pt": "",
         "caption_en": ""
-      },
-      {
-        "src": "https://cds.cern.ch/images//file?size=medium",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://home.cern/resources/image/accelerators/high-luminosity-lhc-gallery",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
       }
     ],
     "video": null,

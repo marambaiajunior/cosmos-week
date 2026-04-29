@@ -9,15 +9,6 @@ window.postsData = [
     "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/gallery_forests_of_the_angola_drc_borderlands/27246328-1-eng-GB/Gallery_forests_of_the_Angola_DRC_borderlands_pillars.png",
     "inline_images": [
       {
-        "src": "https://www.esa.int/ESA_Multimedia/Images/2026/04/Andean_foothills",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/andean_foothills/27246982-1-eng-GB/Andean_foothills_pillars.png",
         "alt": "Sopé andino",
         "alt_pt": "Sopé andino",
@@ -25,15 +16,6 @@ window.postsData = [
         "caption": "Sopé andino",
         "caption_pt": "Sopé andino",
         "caption_en": "Andean foothills"
-      },
-      {
-        "src": "https://www.esa.int/ESA_Multimedia/Images/2026/04/Mamore_River_Bolivia",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
       },
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/mamore_river_bolivia/27246935-1-eng-GB/Mamore_River_Bolivia_pillars.png",
@@ -45,15 +27,6 @@ window.postsData = [
         "caption_en": "Mamoré River, Bolivia"
       },
       {
-        "src": "https://www.esa.int/ESA_Multimedia/Images/2026/04/Northern_Brazil_silty_channels",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/northern_brazil_silty_channels/27246888-1-eng-GB/Northern_Brazil_silty_channels_pillars.png",
         "alt": "Canais sedimentares do Norte do Brasil",
         "alt_pt": "Canais sedimentares do Norte do Brasil",
@@ -61,15 +34,6 @@ window.postsData = [
         "caption": "Canais sedimentares do Norte do Brasil",
         "caption_pt": "Canais sedimentares do Norte do Brasil",
         "caption_en": "Northern Brazil silty channels"
-      },
-      {
-        "src": "https://www.esa.int/ESA_Multimedia/Images/2026/04/Savanna_landscape_Gulf_Country_Australia",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
       },
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/savanna_landscape_gulf_country_australia/27246794-1-eng-GB/Savanna_landscape_Gulf_Country_Australia_pillars.png",
@@ -81,15 +45,6 @@ window.postsData = [
         "caption_en": "Savanna landscape Gulf Country, Australia"
       },
       {
-        "src": "https://www.esa.int/ESA_Multimedia/Images/2026/04/Circular_mountain_plateau_Malaysia",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/circular_mountain_plateau_malaysia/27246747-1-eng-GB/Circular_mountain_plateau_Malaysia_pillars.png",
         "alt": "Planalto montanhoso circular, Malásia",
         "alt_pt": "Planalto montanhoso circular, Malásia",
@@ -97,15 +52,6 @@ window.postsData = [
         "caption": "Planalto montanhoso circular, Malásia",
         "caption_pt": "Planalto montanhoso circular, Malásia",
         "caption_en": "Circular mountain plateau, Malaysia"
-      },
-      {
-        "src": "https://www.esa.int/ESA_Multimedia/Images/2026/04/Berau_River_delta_Indonesia",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
       },
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/berau_river_delta_indonesia/27246653-1-eng-GB/Berau_River_delta_Indonesia_pillars.png",
@@ -364,12 +310,12 @@ window.postsData = [
     "inline_images": [
       {
         "src": "https://videojs.org/og/support.png",
-        "caption": "suporta vídeo HTML5",
-        "caption_pt": "suporta vídeo HTML5",
-        "caption_en": "supports HTML5 video",
         "alt": "suporta vídeo HTML5",
         "alt_pt": "suporta vídeo HTML5",
-        "alt_en": "supports HTML5 video"
+        "alt_en": "supports HTML5 video",
+        "caption": "suporta vídeo HTML5",
+        "caption_pt": "suporta vídeo HTML5",
+        "caption_en": "supports HTML5 video"
       }
     ],
     "video": {
@@ -401,12 +347,12 @@ window.postsData = [
     "body_en": "<p>By Earth Resources Observation and Science Center For more than 50 years, Landsat has imaged Earth’s land and near-shore surfaces as the satellites descend in midmorning orbit, when daily sunlight is optimal. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. By Earth Resources Observation and Science (EROS) Center For more than 50 years, Landsat has imaged Earth’s land and near-shore surfaces as the satellites descend in midmorning. To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video Watch a video about imagery related to the discovery of a new.</p><p>A Landsat 8 nighttime thermal infrared image from April 2017 shows the Tern Lake area in Yellowstone National Park. Crawford weighs this type of request carefully, posing these questions: “Does this advance the science mission.</p><p>I look for areas where Landsat imaging data may be underutilized, as well as areas for strategic science mission advancement and societal benefits, and in many ways, these growth. Landsat 8’s thermal infrared, shortwave infrared and near infrared spectral bands expose the Caldor Fire’s advancing edge south of Lake Tahoe in California in a nighttime image.</p><p>A LEAP Forward A significant advancement in learning about Landsat’s nighttime capabilities came with the effort to monitor polar regions year-round, with leadership from former. Currently, Landsat 8 and Landsat 9 circle the globe while also making better use of their ascending paths, peering into the darkness for special requests.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Geological Survey (USGS) Earth Resources Observation and Science (EROS) Center. After Landsat 9 launched in 2021, when two satellites with the same high-quality sensors would together yield an image of each area of land every eight days, it seemed like a good.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/landsat/nighttime-imaging-grows-landsats-science-value/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Por mais de cinco décadas, o programa Landsat tem monitorado a Terra, tradicionalmente focando em imagens diurnas.",
-      "Dado-chave: Por mais de cinco décadas, o programa Landsat tem monitorado a Terra, tradicionalmente focando em imagens diurnas",
+      "Dado-chave: Por mais de cinco décadas, o programa Landsat tem monitorado a Terra, tradicionalmente focando em imagens diurnas.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: Por mais de cinco décadas, o programa Landsat tem monitorado a Terra, tradicionalmente focando em imagens diurnas.",
-      "Dado-chave: Por mais de cinco décadas, o programa Landsat tem monitorado a Terra, tradicionalmente focando em imagens diurnas",
+      "Dado-chave: Por mais de cinco décadas, o programa Landsat tem monitorado a Terra, tradicionalmente focando em imagens diurnas.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
@@ -507,40 +453,13 @@ window.postsData = [
     "img": "https://www.nasa.gov/wp-content/uploads/2026/02/o2o.jpg",
     "inline_images": [
       {
-        "src": "https://www.nasa.gov/images/",
-        "caption": "sistema de comunicações ópticas",
-        "caption_pt": "sistema de comunicações ópticas",
-        "caption_en": "optical communications system",
-        "alt": "sistema de comunicações ópticas",
-        "alt_pt": "sistema de comunicações ópticas",
-        "alt_en": "optical communications system"
-      },
-      {
-        "src": "https://www.nasa.gov/image-of-the-day/",
-        "caption": "sistema de comunicações ópticas",
-        "caption_pt": "sistema de comunicações ópticas",
-        "caption_en": "optical communications system",
-        "alt": "sistema de comunicações ópticas",
-        "alt_pt": "sistema de comunicações ópticas",
-        "alt_en": "optical communications system"
-      },
-      {
-        "src": "https://www.nasa.gov/centers-and-facilities/johnson/artemis-ii-mission-milestones-an-image-and-video-recap/",
-        "caption": "sistema de comunicações ópticas",
-        "caption_pt": "sistema de comunicações ópticas",
-        "caption_en": "optical communications system",
-        "alt": "sistema de comunicações ópticas",
-        "alt_pt": "sistema de comunicações ópticas",
-        "alt_en": "optical communications system"
-      },
-      {
-        "src": "https://science.nasa.gov/earth/advancing-earth-observation-at-nasa-since-release-of-earthrise-photo/",
-        "caption": "sistema de comunicações ópticas",
-        "caption_pt": "sistema de comunicações ópticas",
-        "caption_en": "optical communications system",
-        "alt": "sistema de comunicações ópticas",
-        "alt_pt": "sistema de comunicações ópticas",
-        "alt_en": "optical communications system"
+        "src": "https://images-assets.nasa.gov/image/art002e015231/art002e015231~large.jpg",
+        "caption": "outras imagens de missão",
+        "caption_pt": "outras imagens de missão",
+        "caption_en": "other mission images",
+        "alt": "outras imagens de missão",
+        "alt_pt": "outras imagens de missão",
+        "alt_en": "other mission images"
       }
     ],
     "video": {
@@ -792,6 +711,126 @@ window.postsData = [
   },
   {
     "id": 6,
+    "slug": "the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations",
+    "cat": "Física",
+    "catCls": "fisica",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Global_Surface_Temperature_Anomalies_1880-2013.jpg/1280px-Global_Surface_Temperature_Anomalies_1880-2013.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite",
+    "title_pt": "O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite",
+    "title_en": "The Physical Limit of Neural Hypoxia Detection in the Black Sea from Satellite Observations",
+    "sub": "A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo. O oxigénio inferior consumido pela respiração não pode ser renovado, tornando a monitorização essencial para.",
+    "sub_pt": "A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo. O oxigénio inferior consumido pela respiração não pode ser renovado, tornando a monitorização essencial para.",
+    "sub_en": "Coastal hypoxia threatens ocean health worldwide. Bottom oxygen consumed by respiration cannot be renewed, making monitoring essential to protect vulnerable marine ecosystems and.",
+    "excerpt": "A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo. O oxigénio inferior consumido pela respiração não pode ser renovado, tornando a monitorização essencial para proteger os ecossistemas marinhos vulneráveis ​​e reduzir a perda de biodiversidade.",
+    "excerpt_pt": "A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo. O oxigénio inferior consumido pela respiração não pode ser renovado, tornando a monitorização essencial para proteger os ecossistemas marinhos vulneráveis ​​e reduzir a perda de biodiversidade.",
+    "excerpt_en": "Coastal hypoxia threatens ocean health worldwide. Bottom oxygen consumed by respiration cannot be renewed, making monitoring essential to protect vulnerable marine ecosystems and reduce biodiversity loss.",
+    "body": "<p>A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo. O oxigénio inferior consumido pela respiração não pode ser renovado, tornando a monitorização essencial para proteger os ecossistemas marinhos vulneráveis ​​e reduzir a perda de biodiversidade.</p><p>A hipóxia costeira (O_2 &lt;63 [mmol/m^3]) ameaça a saúde dos oceanos em todo o mundo. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p>Saiba mais sobre o arXivLabs. [Enviado em 28 de abril de 2026] Título: O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite Autores: Victor Mangeleer.</p><p>Apesar da crescente disponibilidade de observações por satélite do Mar Negro, nenhum sistema operacional as explora atualmente para inferir diretamente o estado do oxigénio em tempo real. Isto pode ser enquadrado como um problema inverso bayesiano relacionando observações de superfície com todos os estados do Mar Negro.</p><p>Aqui, nós o resolvemos usando uma rede neural generativa profunda treinada em resultados de modelos numéricos, fornecendo uma aproximação tratável da verdadeira distribuição posterior dos estados do mar.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.25608v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo. O oxigénio inferior consumido pela respiração não pode ser renovado, tornando a monitorização essencial para proteger os ecossistemas marinhos vulneráveis ​​e reduzir a perda de biodiversidade.</p><p>A hipóxia costeira (O_2 &lt;63 [mmol/m^3]) ameaça a saúde dos oceanos em todo o mundo. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p>Saiba mais sobre o arXivLabs. [Enviado em 28 de abril de 2026] Título: O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite Autores: Victor Mangeleer.</p><p>Apesar da crescente disponibilidade de observações por satélite do Mar Negro, nenhum sistema operacional as explora atualmente para inferir diretamente o estado do oxigénio em tempo real. Isto pode ser enquadrado como um problema inverso bayesiano relacionando observações de superfície com todos os estados do Mar Negro.</p><p>Aqui, nós o resolvemos usando uma rede neural generativa profunda treinada em resultados de modelos numéricos, fornecendo uma aproximação tratável da verdadeira distribuição posterior dos estados do mar.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.25608v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Coastal hypoxia threatens ocean health worldwide. Bottom oxygen consumed by respiration cannot be renewed, making monitoring essential to protect vulnerable marine ecosystems and reduce biodiversity loss. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It is relevant because physics only takes a result seriously when the measurement chain remains robust under scrutiny. Experimental particle physics and precision metrology both operate in regimes where the signal sits far below the background noise, and where systematic uncertainties can mimic new physics if not controlled rigorously. The history of the field contains numerous anomalies that generated theoretical excitement before better data showed them to be artifacts, and it also contains genuine discoveries that were initially dismissed as noise. The difference is almost always resolved by independent replication with different instruments and different systematics. Coastal hypoxia (O_2 &lt; 63) threatens ocean health worldwide. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>The Physical Limit of Neural Hypoxia Detection in the Black Sea from Satellite Observations Authors: Victor Mangeleer. Bottom oxygen consumed by respiration cannot be renewed, making monitoring essential to protect vulnerable marine ecosystems and reduce biodiversity loss.</p><p>Despite the growing availability of Black Sea satellite observations, no operational system currently exploits them to directly infer the oxygen state in real time. This can be framed as a Bayesian inverse problem relating surface observations to the complete Black Sea states.</p><p>The broader interest lies as much in the method as in the headline number, because a durable measurement procedure can travel farther than a single result. When experimental physicists develop a technique that achieves new sensitivity or controls a previously uncharacterized systematic, that methodological contribution persists even if the specific measurement is later revised. This is one reason why precision physics experiments often generate long-term value that is not immediately visible in the original publication.</p><p>Here, we solve it using a deep generative neural network trained on numerical model outputs, providing a tractable approximation of the true posterior distribution of sea states. We find that accurate state estimation is limited to the mixing layer, because its homogeneity makes surface conditions representative of subsurface states.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is more measurement, tighter systematic control and scrutiny from groups whose experimental setups are genuinely independent. In experimental particle physics and precision metrology, the threshold for a discovery claim is a five-sigma excess surviving multiple analyses; an intriguing signal at lower significance is a reason to run more experiments, not a reason to revise the textbooks. Next-generation experiments currently under construction or commissioning will revisit several of the open questions that give the current result its context. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.25608v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: A hipóxia costeira ameaça a saúde dos oceanos em todo o mundo",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: Coastal hypoxia threatens ocean health worldwide",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "28 abr 2026",
+    "date_pt": "28 abr 2026",
+    "date_en": "28 Apr 2026",
+    "time": "13h13",
+    "time_pt": "13h13",
+    "time_en": "13: 13 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-28T13:13:44+00:00",
+    "lastModifiedIso": "2026-04-29T14:11:54+00:00",
+    "source": "arXiv Geophysics",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Física",
+      "arXiv Geophysics",
+      "Cosmos Week",
+      "O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite"
+    ],
+    "keywords_pt": [
+      "Física",
+      "arXiv Geophysics",
+      "Cosmos Week",
+      "O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite"
+    ],
+    "keywords_en": [
+      "Physical",
+      "arXiv Geophysics",
+      "Cosmos Week",
+      "The physical limit of neural hypoxia detection in the Black Sea from satellite observations"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2604.25608v1",
+    "realUrl": "https://www.cosmosweek.com/?article=the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations",
+    "realUrl_en": "https://www.cosmosweek.com/?article=the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 70,
+    "scoreBreakdown": {
+      "source": 55,
+      "evidence": 39,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite",
+    "imageAlt_pt": "O limite físico da detecção de hipóxia neural no Mar Negro a partir de observações de satélite",
+    "imageAlt_en": "The Physical Limit of Neural Hypoxia Detection in the Black Sea from Satellite Observations",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 7,
     "slug": "fiery-fall-color-in-southern-chile",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -799,60 +838,6 @@ window.postsData = [
     "inline_images": [
       {
         "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/images/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/centers-and-facilities/johnson/artemis-ii-mission-milestones-an-image-and-video-recap/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/earth/advancing-earth-observation-at-nasa-since-release-of-earthrise-photo/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/earth/multimedia",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/photojournal/nisars-view-of-mount-rainier/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/photojournal/nisar-views-mount-st-helens/",
         "caption": "",
         "caption_pt": "",
         "caption_en": "",
@@ -976,7 +961,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1096,7 +1081,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1118,17 +1103,17 @@ window.postsData = [
     "body_en": "<p>We present the results of broad-line region dynamical modeling for eight high-mass active galactic nuclei from the Seoul National University AGN Monitoring Project, by constraining BLR geometry and kinematics as well as black hole mass. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>This matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. We present the results of broad-line region (BLR) dynamical modeling for eight high-mass active galactic nuclei (AGNs) from the Seoul National University AGN Monitoring Project. We find that the H$β$-emitting BLRs are best described as thick disks viewed at intermediate inclinations, with emission preferentially originating from the far side of the BLR.</p><p>BLR kinematics show a combination of rotational, inflowing and outflowing components. By comparing the $M_{\\rm BH}$ from dynamical modeling with the virial products based on reverberation lags and line widths, we determine the virial factor $f$ for individual AGNs.</p><p>Combining our sample with those $M_{\\rm BH}$ consistently determined from BLR dynamical modeling, yielding a total of 38 objects, we derive a virial factor for future $M_{\\rm BH}$. The derived virial factor is consistent with that inferred by aligning the reverberation-mapped AGNs with quiescent galaxies in the $M_{\\rm BH}$-$σ_{\\ast}$relation, supporting the.</p><p>Our updated $f$ values exhibit an intrinsic dispersion of $\\sim0.2$ dex, which allows for a more precise $M_{\\rm BH}$ estimates than those based on the $M_{\\rm BH}$-$σ_{\\ast}$. Our sample extends the dynamical modeling-based reverberation sample to $M_{\\rm BH}$ $\\sim$ $M_{\\odot}$ range, where the virial factor from the the AGN $M_{\\rm BH}$-$σ_{\\ast}$.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.24721v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de.",
-      "Dado-chave: Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de",
+      "Dado-chave: Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
       "Ponto central: Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de.",
-      "Dado-chave: Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de",
+      "Dado-chave: Apresentamos os resultados da modelagem dinâmica de região de linha larga para oito núcleos galácticos ativos de alta massa do Projeto de.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
       "Core point: We present the results of broad-line region dynamical modeling for eight high-mass active galactic nuclei from the Seoul National University AGN.",
-      "Key detail: We present the results of broad-line region dynamical modeling for eight high-mass active galactic nuclei from the Seoul National University AGN",
+      "Key detail: We present the results of broad-line region dynamical modeling for eight high-mass active galactic nuclei from the Seoul National University AGN.",
       "Result not yet peer reviewed."
     ],
     "date": "27 abr 2026",
@@ -1217,21 +1202,12 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions",
     "cat": "Astronomia",
     "catCls": "astronomia",
     "img": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x630_crop_center-center_82_none/20170518_building-nasa.jpg?mtime=1753473841",
     "inline_images": [
-      {
-        "src": "https://www.planetary.org/space-images/juno-during-orbital-insertion-burn",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
       {
         "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x1241_crop_center-center_82_line/20160706_juno3_hr.jpg.webp",
         "alt": "",
@@ -1432,7 +1408,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "snow-is-scarce-in-the-upper-colorado-basin",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1449,60 +1425,6 @@ window.postsData = [
       },
       {
         "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/images/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/centers-and-facilities/johnson/artemis-ii-mission-milestones-an-image-and-video-recap/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/earth/advancing-earth-observation-at-nasa-since-release-of-earthrise-photo/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/earth/multimedia",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/photojournal/nisars-view-of-mount-rainier/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/photojournal/nisar-views-mount-st-helens/",
         "caption": "",
         "caption_pt": "",
         "caption_en": "",
@@ -1626,143 +1548,12 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 11,
-    "slug": "revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol",
-    "cat": "Cosmologia",
-    "catCls": "cosmologia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Earth%27s_magnetic_field_and_magnetosphere.jpg/1280px-Earth%27s_magnetic_field_and_magnetosphere.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Revisitando escalas de confinamento e desempenho de fusão com uma perspectiva otimizada para extrapolação",
-    "title_pt": "Revisitando escalas de confinamento e desempenho de fusão com uma perspectiva otimizada para extrapolação",
-    "title_en": "Revisiting confinement scalings and fusion performance with a perspective optimized for extrapolation",
-    "sub": "Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados tecnologicamente acessíveis, reabrindo o.",
-    "sub_pt": "Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados tecnologicamente acessíveis, reabrindo o.",
-    "sub_en": "Recent advances in high-temperature-superconductor technology have made substantially higher toroidal magnetic fields technologically accessible, reopening the design space for.",
-    "excerpt": "Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados tecnologicamente acessíveis, reabrindo o espaço de design para reatores tokamak compactos e de alto campo.",
-    "excerpt_pt": "Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados tecnologicamente acessíveis, reabrindo o espaço de design para reatores tokamak compactos e de alto campo.",
-    "excerpt_en": "Recent advances in high-temperature-superconductor technology have made substantially higher toroidal magnetic fields technologically accessible, reopening the design space for compact, high-field tokamak reactors.",
-    "body": "<p>Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados tecnologicamente acessíveis, reabrindo o espaço de design para reatores tokamak compactos e de alto campo. Como as projeções de desempenho do reator permanecem ancoradas em escalas empíricas de confinamento, a recente atualização do banco de dados global de confinamento do modo H da ITPA levanta uma questão importante: o que significa o atual registro experimental e seus efeitos.</p><p>Neste trabalho, revisitamos a extrapolação de confinamento a partir de uma perspectiva explicitamente orientada para a extrapolação e, para complementar suas implicações em termos de uma medida direta de desempenho do reator, apresentamos um escalonamento empírico entre máquinas. Procuramos sistematicamente por um escalonamento de confinamento minimamente complexo que otimize o equilíbrio entre captura de variância e robustez extrapolativa.</p><p>Projetando para reatores, esses resultados sugerem que dispositivos de alto campo com paredes metálicas podem exigir corrente de plasma mais alta do que as expectativas baseadas em IPB98$(y, 2)$ padrão implicam, e que o desempenho do tokamak de classe gigawatt provavelmente exige. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.22728v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados tecnologicamente acessíveis, reabrindo o espaço de design para reatores tokamak compactos e de alto campo. Como as projeções de desempenho do reator permanecem ancoradas em escalas empíricas de confinamento, a recente atualização do banco de dados global de confinamento do modo H da ITPA levanta uma questão importante: o que significa o atual registro experimental e seus efeitos.</p><p>Neste trabalho, revisitamos a extrapolação de confinamento a partir de uma perspectiva explicitamente orientada para a extrapolação e, para complementar suas implicações em termos de uma medida direta de desempenho do reator, apresentamos um escalonamento empírico entre máquinas. Procuramos sistematicamente por um escalonamento de confinamento minimamente complexo que otimize o equilíbrio entre captura de variância e robustez extrapolativa.</p><p>Projetando para reatores, esses resultados sugerem que dispositivos de alto campo com paredes metálicas podem exigir corrente de plasma mais alta do que as expectativas baseadas em IPB98$(y, 2)$ padrão implicam, e que o desempenho do tokamak de classe gigawatt provavelmente exige. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.22728v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Recent advances in high-temperature-superconductor technology have made substantially higher toroidal magnetic fields technologically accessible, reopening the design space for compact, high-field tokamak reactors. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Because reactor performance projections remain anchored to empirical confinement scalings, the recent update to the ITPA global H-mode confinement database raises an important. In this work, we revisit confinement extrapolation from an explicitly extrapolation-oriented perspective and, to complement its implications in terms of a direct reactor.</p><p>We systematically search for a minimally complex confinement scaling that optimizes the tradeoff between variance capture and extrapolative robustness. We find that low-order models centered near $N=3$ to $N=4$ optimize this tradeoff, with plasma current, machine size, heating power, and elongation emerging as the dominant.</p><p>Recast in reactor-performance terms, the results indicate that both the fusion triple product and fusion power are governed primarily by plasma current: the triple product scales. Projecting to reactors, these results suggest that high-field devices with metal walls may require higher plasma current than standard IPB98$(y, 2)$-based expectations imply, and.</p><p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.22728v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados.",
-      "Dado-chave: Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados.",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_pt": [
-      "Ponto central: Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados.",
-      "Dado-chave: Avanços recentes na tecnologia de supercondutores de alta temperatura tornaram campos magnéticos toroidais substancialmente mais elevados.",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_en": [
-      "Core point: Recent advances in high-temperature-superconductor technology have made substantially higher toroidal magnetic fields technologically accessible.",
-      "Key detail: Recent advances in high-temperature-superconductor technology have made substantially higher toroidal magnetic fields technologically accessible.",
-      "Result not yet peer reviewed."
-    ],
-    "date": "24 abr 2026",
-    "date_pt": "24 abr 2026",
-    "date_en": "24 Apr 2026",
-    "time": "17h26",
-    "time_pt": "17h26",
-    "time_en": "17: 26 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-24T17:26:25+00:00",
-    "lastModifiedIso": "2026-04-27T21:05:02+00:00",
-    "source": "arXiv Physics Frontiers",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "standard",
-    "editorialBandLabel": "Prioridade editorial",
-    "editorialBandLabel_pt": "Prioridade editorial",
-    "editorialBandLabel_en": "Editorial priority",
-    "keywords": [
-      "Cosmologia",
-      "arXiv Physics Frontiers",
-      "Cosmos Week",
-      "Revisitando escalas de confinamento e desempenho de fusão com uma perspectiva otimizada para extrapolação"
-    ],
-    "keywords_pt": [
-      "Cosmologia",
-      "arXiv Physics Frontiers",
-      "Cosmos Week",
-      "Revisitando escalas de confinamento e desempenho de fusão com uma perspectiva otimizada para extrapolação"
-    ],
-    "keywords_en": [
-      "Cosmology",
-      "arXiv Physics Frontiers",
-      "Cosmos Week",
-      "Revisiting confinement scales and fusion performance with an optimized perspective for extrapolation"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2604.22728v1",
-    "realUrl": "https://www.cosmosweek.com/?article=revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol",
-    "realUrl_en": "https://www.cosmosweek.com/?article=revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 68,
-    "scoreBreakdown": {
-      "source": 61,
-      "evidence": 35,
-      "relevance": 94,
-      "accessibility": 60,
-      "novelty": 49
-    },
-    "imageAlt": "Revisitando escalas de confinamento e desempenho de fusão com uma perspectiva otimizada para extrapolação",
-    "imageAlt_pt": "Revisitando escalas de confinamento e desempenho de fusão com uma perspectiva otimizada para extrapolação",
-    "imageAlt_en": "Revisiting confinement scalings and fusion performance with a perspective optimized for extrapolation",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
     "id": 12,
     "slug": "catching-the-earliest-stars-in-the-universe",
     "cat": "Astronomia",
     "catCls": "astronomia",
     "img": "https://dq0hsqwjhea1.cloudfront.net/first-stars-ANU-600px.jpg",
-    "inline_images": [
-      {
-        "src": "https://skyandtelescope.org/submitting-astrophotography-faqs/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      }
-    ],
+    "inline_images": [],
     "video": null,
     "audio": null,
     "title": "Capturando as Primeiras Estrelas do Universo",
@@ -1886,15 +1677,6 @@ window.postsData = [
     "inline_images": [
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/not_your_normal_commute/27239667-3-eng-GB/Not_your_normal_commute_pillars.jpg",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://www.esa.int/ESA_Multimedia/Images/2026/04/Arctic_sea-ice_extent",
         "caption": "",
         "caption_pt": "",
         "caption_en": "",
@@ -2041,24 +1823,6 @@ window.postsData = [
         "caption": "",
         "caption_pt": "",
         "caption_en": ""
-      },
-      {
-        "src": "https://cds.cern.ch/images/OPEN-PHO-ACCEL-2017-010-2/file?size=medium",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://home.cern/resources/image/accelerators/high-luminosity-lhc-gallery",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
       }
     ],
     "video": null,
@@ -2307,15 +2071,6 @@ window.postsData = [
     "img": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x630_crop_center-center_82_none/vab-ml-at-night.jpg?mtime=1753482388",
     "inline_images": [
       {
-        "src": "https://www.planetary.org/space-images/missing-mission-line-items",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
         "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x637_crop_center-center_82_line/fy2027-pbr-missing-missions.jpg.webp",
         "alt": "",
         "alt_pt": "",
@@ -2332,15 +2087,6 @@ window.postsData = [
         "caption": "Itens de linha de missão ausentes",
         "caption_pt": "Itens de linha de missão ausentes",
         "caption_en": "Missing mission line-items"
-      },
-      {
-        "src": "https://www.planetary.org/space-images/missing-funding-data",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
       },
       {
         "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x991_crop_center-center_82_line/fy2027-pbr-no-fy2025-reporting.jpg.webp",
@@ -2483,15 +2229,6 @@ window.postsData = [
     "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/02/smile_delivered_to_space_artist_impression_gif/27126681-1-eng-GB/Smile_delivered_to_space_artist_impression_GIF_pillars.gif",
     "inline_images": [
       {
-        "src": "https://www.esa.int/ESA_Multimedia/Images/2026/02/Smile_launch_timeline",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/02/smile_launch_timeline/27119760-2-eng-GB/Smile_launch_timeline_article.jpg",
         "alt": "Cronograma de lançamento do Smile",
         "alt_pt": "Cronograma de lançamento do Smile",
@@ -2499,15 +2236,6 @@ window.postsData = [
         "caption": "Cronograma de lançamento do Smile",
         "caption_pt": "Cronograma de lançamento do Smile",
         "caption_en": "Smile launch timeline"
-      },
-      {
-        "src": "https://www.esa.int/extension/pillars/design/pillars/images/play-button.svg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
       },
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/03/what_is_smile_about_to_discover/27167698-1-eng-GB/What_is_Smile_about_to_discover_pillars.jpg",
@@ -2651,66 +2379,12 @@ window.postsData = [
       },
       {
         "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/images/",
+        "alt_en": "",
         "caption": "",
         "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/centers-and-facilities/johnson/artemis-ii-mission-milestones-an-image-and-video-recap/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/earth/advancing-earth-observation-at-nasa-since-release-of-earthrise-photo/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/earth/multimedia",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/photojournal/nisars-view-of-mount-rainier/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/photojournal/nisar-views-mount-st-helens/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
+        "caption_en": ""
       }
     ],
     "video": null,
@@ -3100,66 +2774,12 @@ window.postsData = [
       },
       {
         "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/images/",
+        "alt_en": "",
         "caption": "",
         "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/centers-and-facilities/johnson/artemis-ii-mission-milestones-an-image-and-video-recap/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/earth/advancing-earth-observation-at-nasa-since-release-of-earthrise-photo/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/earth/multimedia",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/photojournal/nisars-view-of-mount-rainier/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/photojournal/nisar-views-mount-st-helens/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
+        "caption_en": ""
       }
     ],
     "video": null,
@@ -3790,12 +3410,12 @@ window.postsData = [
     "body_en": "<p>In the past several years, Rockefeller University&#x27;s Kivanç Birsoy and his team in the Laboratory of Metabolic Regulation and Genetics have revealed remarkable details about the antioxidant glutathione, which plays many essential roles in. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern. The gap between identifying a correlation in biological data and understanding the causal chain that produces it is routinely underestimated, and the history of biomedical research is populated with associations that collapsed when the mechanism was sought and not found. A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive finding because it generates testable predictions that can narrow the hypothesis space. This article has been reviewed according to Science X&#x27;s editorial process and policies. Editors have highlighted the following attributes while ensuring the content&#x27;s credibility: Add as preferred source Shanshan Liu and Mark Gad developed a liposome-based transport.</p><p>They shared their results in a paper published in Nature Cell Biology. Among those team members were co-first authors Shanshan Liu, a postdoc in the lab who has long researched mitochondrial metabolism, and Mark Gad, a Ph.</p><p>After developing a new method to rapidly profile the chemical landscape within the ER, Liu began to directly observe functions within the organelle. A genetic screening revealed that a transporter called SLC33A1 oversees this process.</p><p>Structural studies performed by Gad in collaboration with the Hite lab further confirmed that SLC33A1 protein indeed transports GSSG and revealed biochemical details of this. Identifying SLC33A1 as the key exporter, and being able to visualize exactly how it binds its cargo, gives us a handle on a process that, when it goes wrong, is linked to.</p><p>The broader interest lies in whether the reported effect points toward a real mechanism and not merely a reproducible but unexplained association. Biology has learned from decades of biomarker failures that correlation, even robust correlation, is not a substitute for mechanistic understanding. A pathway that can be traced from molecular interaction to cellular response to organismal phenotype provides a far stronger foundation for intervention than a statistical association discovered in a large dataset, however well the statistics are done.</p><p>Discover the latest in science, tech, and space with over 100, 000 subscribers who rely on Phys. org for daily insights. The first is Huppke-Brendel Syndrome, a severe neurodevelopmental disorder characterized by severe intellectual disability, motor deficits, and progressive neurodegeneration.</p><p>Because the account originates with Phys. org Biology, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to test whether the effect repeats across different methods, cell types, model organisms and experimental conditions. Reproducibility is the first test, but mechanistic dissection is the second, and a result that passes both has a substantially better chance of translating into something clinically or biotechnologically useful. The path from a laboratory finding to an applied outcome typically takes a decade or more, and most findings do not complete it; the current result sits at the beginning of that process.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-antioxidant-glutathione-play-key-role.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
-      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes",
+      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
       "Ponto central: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
-      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes",
+      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
@@ -3909,12 +3529,12 @@ window.postsData = [
       },
       {
         "src": "https://earthsky.org/upl/2026/04/Apr-28-26-Sun-activity-3-Mflares.-ezgif.com-video-to-webp-converter.webp",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
       }
     ],
     "video": null,
@@ -4661,17 +4281,7 @@ window.postsData = [
     "cat": "Astronomia",
     "catCls": "astronomia",
     "img": "https://dq0hsqwjhea1.cloudfront.net/planet-collision.webp",
-    "inline_images": [
-      {
-        "src": "https://skyandtelescope.org/submitting-astrophotography-faqs/",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      }
-    ],
+    "inline_images": [],
     "video": null,
     "audio": null,
     "title": "Planetas Colidem em Torno de uma Estrela Jovem Semelhante ao Sol",
@@ -4961,17 +4571,17 @@ window.postsData = [
     "body_en": "<p>Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>The significance lies in astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Em menos de 2 microssegundos, a passagem do múon provocou um rastro de luz tão intenso que ativou mais de um quarto dos 12 mil sensores do instrumento. O valor se situa entre cerca de 100 mil e 1 milhão de trilhões de vezes a energia de uma partícula de luz (fóton) no comprimento de onda visível.</p><p>A origem desse superneutrino, batizado de KM3-230213A, permanece um total mistério. De acordo com os modelos teóricos, essas partículas deveriam chegar à Terra, vindas de todas as partes do céu, com energias em torno de 100 PeV a 1 EeV.</p><p>Entretanto, ao longo de 10 anos de operação do IceCube e 3 anos do KM3NeT, nenhum sinal de neutrino cosmogênico foi registrado. Os 10 neutrinos mais energéticos detectados pelo IceCube chegaram no máximo a energias entre 1 PeV e 10 PeV.</p><p>O KM3NeT não detectou absolutamente nada próximo disso, até o registro do extraordinário KM3-230213A. Emitiriam partículas elementares de todos os tipos, incluindo prótons, fótons e neutrinos, um efeito previsto pelo físico britânico Stephen Hawking (1942-2018), em 1974.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>Quando ela cai para cerca de 6 mil toneladas, o processo se torna extremamente violento: produz partículas cada vez mais energéticas até o buraco negro desaparecer em uma explosão. A chance de tal explosão ocorrer uma vez a cada 14 anos seria de 8%, de acordo com o estudo.</p><p>Because this item comes through Pesquisa FAPESP Ciência as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind.</p><p class=\"art-source\"><a href=\"https://revistapesquisa.fapesp.br/pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-      "Dado-chave: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial",
+      "Dado-chave: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
       "Ponto central: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-      "Dado-chave: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial",
+      "Dado-chave: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
       "Core point: Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo.",
-      "Key detail: Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo",
+      "Key detail: Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo.",
       "Science reporting: verify primary technical documentation."
     ],
     "date": "08 abr 2026",
@@ -5195,24 +4805,6 @@ window.postsData = [
         "caption": "",
         "caption_pt": "",
         "caption_en": ""
-      },
-      {
-        "src": "https://cds.cern.ch/images//file?size=medium",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      },
-      {
-        "src": "https://home.cern/resources/image/accelerators/high-luminosity-lhc-gallery",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
       }
     ],
     "video": null,
