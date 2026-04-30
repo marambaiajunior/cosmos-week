@@ -1,6 +1,583 @@
 [
   {
     "id": 1,
+    "slug": "another-one-ariane-6-flies-with-four-boosters-once-more",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/ariane_6_lifts_off_for_flight_va268/27250500-2-eng-GB/Ariane_6_lifts_off_for_flight_VA268_card_full.jpg",
+    "inline_images": [
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/ariane_6_lifts_off_for_flight_va268/27250500-2-eng-GB/Ariane_6_lifts_off_for_flight_VA268_pillars.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/08/ariane_6_blueprint/26286160-1-eng-GB/Ariane_6_blueprint_article.png",
+        "alt": "Projeto do Ariane 6",
+        "alt_pt": "Projeto do Ariane 6",
+        "alt_en": "Ariane 6 blueprint",
+        "caption": "Projeto do Ariane 6",
+        "caption_pt": "Projeto do Ariane 6",
+        "caption_en": "Ariane 6 blueprint"
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Ariane 6: Segundo Voo com Quatro Propulsores",
+    "title_pt": "Ariane 6: Segundo Voo com Quatro Propulsores",
+    "title_en": "Another one: Ariane 6 flies with four boosters once more",
+    "sub": "Em 30 de abril de 2026, o foguete Ariane 6 realizou seu segundo voo, impulsionado por quatro propulsores P120C, para lançar 32 satélites da constelação de Leão da Amazon.",
+    "sub_pt": "Em 30 de abril de 2026, o foguete Ariane 6 realizou seu segundo voo, impulsionado por quatro propulsores P120C, para lançar 32 satélites da constelação de Leão da Amazon.",
+    "sub_en": "Updated on 30 April 2026 On 30 April 2026, four P120C boosters ignited and lifted Ariane 6 to the skies, for the second time.",
+    "excerpt": "Em 30 de abril de 2026, o foguete Ariane 6 realizou seu segundo voo, impulsionado por quatro propulsores P120C, para lançar 32 satélites da constelação de Leão da Amazon.",
+    "excerpt_pt": "Em 30 de abril de 2026, o foguete Ariane 6 realizou seu segundo voo, impulsionado por quatro propulsores P120C, para lançar 32 satélites da constelação de Leão da Amazon.",
+    "excerpt_en": "Updated on 30 April 2026 On 30 April 2026, four P120C boosters ignited and lifted Ariane 6 to the skies, for the second time. Flight VA268 took 32 satellites for Amazon’s Leo constellation to low-Earth orbit.",
+    "highlights": [
+      "Em foco: Em 30 de abril de 2026, o foguete Ariane 6 realizou seu segundo voo, impulsionado por quatro propulsores P120C, para lançar 32 satélites da",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Em 30 de abril de 2026, o foguete Ariane 6 realizou seu segundo voo, impulsionado por quatro propulsores P120C, para lançar 32 satélites da",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Updated on 30 April 2026 On 30 April 2026, four P120C boosters ignited and lifted Ariane 6 to the skies, for the second time",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "30 abr 2026",
+    "date_pt": "30 abr 2026",
+    "date_en": "30 Apr 2026",
+    "time": "12h00",
+    "time_pt": "12h00",
+    "time_en": "12: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-30T12:00:00+00:00",
+    "lastModifiedIso": "2026-04-30T17:15:10+00:00",
+    "source": "ESA Space News",
+    "sourceDomain": "www. esa. int",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Ciências da Terra",
+      "ESA Space News",
+      "Cosmos Week",
+      "Mais um",
+      "Ariane 6 voa com quatro boosters mais uma vez"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "ESA Space News",
+      "Cosmos Week",
+      "Mais um",
+      "Ariane 6 voa com quatro boosters mais uma vez"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "ESA Space News",
+      "Cosmos Week",
+      "One more",
+      "Ariane 6 flies with four boosters once again"
+    ],
+    "srcUrl": "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/Another_one_Ariane_6_flies_with_four_boosters_once_more",
+    "realUrl": "https://www.cosmosweek.com/?article=another-one-ariane-6-flies-with-four-boosters-once-more",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=another-one-ariane-6-flies-with-four-boosters-once-more",
+    "realUrl_en": "https://www.cosmosweek.com/?article=another-one-ariane-6-flies-with-four-boosters-once-more&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/another-one-ariane-6-flies-with-four-boosters-once-more/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/another-one-ariane-6-flies-with-four-boosters-once-more/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/another-one-ariane-6-flies-with-four-boosters-once-more/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/another-one-ariane-6-flies-with-four-boosters-once-more/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/another-one-ariane-6-flies-with-four-boosters-once-more/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/another-one-ariane-6-flies-with-four-boosters-once-more/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 90,
+    "scoreBreakdown": {
+      "source": 90,
+      "evidence": 86,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Ariane 6: Segundo Voo com Quatro Propulsores",
+    "imageAlt_pt": "Ariane 6: Segundo Voo com Quatro Propulsores",
+    "imageAlt_en": "Another one: Ariane 6 flies with four boosters once more",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "winter-s-end-is-written-in-the-clouds",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg/1280px-Andromeda_Galaxy_%28with_h-alpha%29.jpg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/winter's-end-is-written-in-the-clouds/akcloudswirls_tmo_20260319_lrg.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": {
+      "kind": "embed",
+      "platform": "youtube",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/12JNDSwouAg?rel=0&modestbranding=1",
+      "fileUrl": "",
+      "poster": "",
+      "title": "",
+      "title_pt": "",
+      "title_en": "",
+      "caption": "",
+      "caption_pt": "",
+      "caption_en": "",
+      "sourcePage": "https://science.nasa.gov/earth/earth-observatory/winters-end-is-written-in-the-clouds/"
+    },
+    "audio": null,
+    "title": "Formações de Nuvens no Golfo do Alasca Marcam o Fim do Inverno",
+    "title_pt": "Formações de Nuvens no Golfo do Alasca Marcam o Fim do Inverno",
+    "title_en": "Winter’s End Is Written in the Clouds",
+    "sub": "No final do inverno astronômico de 2026, os céus do Golfo do Alasca apresentaram uma variedade de formações de nuvens clássicas, capturadas por satélite, que refletiam as.",
+    "sub_pt": "No final do inverno astronômico de 2026, os céus do Golfo do Alasca apresentaram uma variedade de formações de nuvens clássicas, capturadas por satélite, que refletiam as.",
+    "sub_en": "As winter turned to spring, the skies over the Gulf of Alaska displayed textbook examples of numerous cloud formations.",
+    "excerpt": "No final do inverno astronômico de 2026, os céus do Golfo do Alasca apresentaram uma variedade de formações de nuvens clássicas, capturadas por satélite, que refletiam as condições meteorológicas da transição para a primavera.",
+    "excerpt_pt": "No final do inverno astronômico de 2026, os céus do Golfo do Alasca apresentaram uma variedade de formações de nuvens clássicas, capturadas por satélite, que refletiam as condições meteorológicas da transição para a primavera.",
+    "excerpt_en": "As winter turned to spring, the skies over the Gulf of Alaska displayed textbook examples of numerous cloud formations.",
+    "highlights": [
+      "Em foco: No final do inverno astronômico de 2026, os céus do Golfo do Alasca apresentaram uma variedade de formações de nuvens clássicas, capturadas por",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: No final do inverno astronômico de 2026, os céus do Golfo do Alasca apresentaram uma variedade de formações de nuvens clássicas, capturadas por",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: As winter turned to spring, the skies over the Gulf of Alaska displayed textbook examples of numerous cloud formations",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "30 abr 2026",
+    "date_pt": "30 abr 2026",
+    "date_en": "30 Apr 2026",
+    "time": "04h00",
+    "time_pt": "04h00",
+    "time_en": "04: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-30T04:00:00+00:00",
+    "lastModifiedIso": "2026-04-30T17:15:10+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "O fim do inverno está escrito nas nuvens"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "O fim do inverno está escrito nas nuvens"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "The end of winter is written in the clouds"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/winters-end-is-written-in-the-clouds/",
+    "realUrl": "https://www.cosmosweek.com/?article=winter-s-end-is-written-in-the-clouds",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=winter-s-end-is-written-in-the-clouds",
+    "realUrl_en": "https://www.cosmosweek.com/?article=winter-s-end-is-written-in-the-clouds&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/winter-s-end-is-written-in-the-clouds/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/winter-s-end-is-written-in-the-clouds/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/winter-s-end-is-written-in-the-clouds/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/winter-s-end-is-written-in-the-clouds/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/winter-s-end-is-written-in-the-clouds/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/winter-s-end-is-written-in-the-clouds/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Formações de Nuvens no Golfo do Alasca Marcam o Fim do Inverno",
+    "imageAlt_pt": "Formações de Nuvens no Golfo do Alasca Marcam o Fim do Inverno",
+    "imageAlt_en": "Winter’s End Is Written in the Clouds",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
+    "slug": "us-indian-space-mission-maps-extreme-subsidence-in-mexico-city",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://www.nasa.gov/wp-content/uploads/2026/04/1-pia26709-mexico-city.jpg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/winter's-end-is-written-in-the-clouds/akcloudswirls_tmo_20260319_th.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/fires-rage-in-georgia/georgia_firehwy82_oli_20260423_th.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/kids/nasa-kids-science/earth/mission-nisar/nisar.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/content-feature/earth-book-2019/images/singles/single_082.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Missão espacial EUA-Índia mapeia subsidência extrema na Cidade do México",
+    "title_pt": "Missão espacial EUA-Índia mapeia subsidência extrema na Cidade do México",
+    "title_en": "US-Indian Space Mission Maps Extreme Subsidence in Mexico City",
+    "sub": "Um dos sistemas de radar mais poderosos já lançados no espaço mapeou o movimento do solo sob uma das capitais em declínio mais rápido do mundo: a Cidade do México.",
+    "sub_pt": "Um dos sistemas de radar mais poderosos já lançados no espaço mapeou o movimento do solo sob uma das capitais em declínio mais rápido do mundo: a Cidade do México.",
+    "sub_en": "One of the most powerful radar systems ever launched into space has mapped the ground moving beneath one of fastest subsiding capitals in the world: Mexico City.",
+    "excerpt": "Um dos sistemas de radar mais poderosos já lançados no espaço mapeou o movimento do solo sob uma das capitais em declínio mais rápido do mundo: a Cidade do México.",
+    "excerpt_pt": "Um dos sistemas de radar mais poderosos já lançados no espaço mapeou o movimento do solo sob uma das capitais em declínio mais rápido do mundo: a Cidade do México.",
+    "excerpt_en": "One of the most powerful radar systems ever launched into space has mapped the ground moving beneath one of fastest subsiding capitals in the world: Mexico City.",
+    "highlights": [
+      "Em foco: Um dos sistemas de radar mais poderosos já lançados no espaço mapeou o movimento do solo sob uma das capitais em declínio mais rápido do mundo: a",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Um dos sistemas de radar mais poderosos já lançados no espaço mapeou o movimento do solo sob uma das capitais em declínio mais rápido do mundo: a",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: One of the most powerful radar systems ever launched into space has mapped the ground moving beneath one of fastest subsiding capitals in the world",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "29 abr 2026",
+    "date_pt": "29 abr 2026",
+    "date_en": "29 Apr 2026",
+    "time": "20h23",
+    "time_pt": "20h23",
+    "time_en": "20: 23 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-29T20:23:12+00:00",
+    "lastModifiedIso": "2026-04-30T17:15:10+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Missão espacial EUA",
+      "Índia mapeia subsidência extrema na Cidade do México"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Missão espacial EUA",
+      "Índia mapeia subsidência extrema na Cidade do México"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA News Releases",
+      "Cosmos Week",
+      "USA space mission",
+      "India maps extreme subsidence in Mexico City"
+    ],
+    "srcUrl": "https://www.nasa.gov/missions/nisar/us-indian-space-mission-maps-extreme-subsidence-in-mexico-city/",
+    "realUrl": "https://www.cosmosweek.com/?article=us-indian-space-mission-maps-extreme-subsidence-in-mexico-city",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=us-indian-space-mission-maps-extreme-subsidence-in-mexico-city",
+    "realUrl_en": "https://www.cosmosweek.com/?article=us-indian-space-mission-maps-extreme-subsidence-in-mexico-city&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/us-indian-space-mission-maps-extreme-subsidence-in-mexico-city/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/us-indian-space-mission-maps-extreme-subsidence-in-mexico-city/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/us-indian-space-mission-maps-extreme-subsidence-in-mexico-city/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/us-indian-space-mission-maps-extreme-subsidence-in-mexico-city/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/us-indian-space-mission-maps-extreme-subsidence-in-mexico-city/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/us-indian-space-mission-maps-extreme-subsidence-in-mexico-city/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Missão espacial EUA-Índia mapeia subsidência extrema na Cidade do México",
+    "imageAlt_pt": "Missão espacial EUA-Índia mapeia subsidência extrema na Cidade do México",
+    "imageAlt_en": "US-Indian Space Mission Maps Extreme Subsidence in Mexico City",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 4,
+    "slug": "mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza",
+    "cat": "Cosmologia",
+    "catCls": "cosmologia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hubble_ultra_deep_field.jpg/1280px-Hubble_ultra_deep_field.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "MujicΛ: Reconstrução de Condições Iniciais a Partir de Levantamentos de Redshift Incompletos com Otimização Projetada",
+    "title_pt": "MujicΛ: Reconstrução de Condições Iniciais a Partir de Levantamentos de Redshift Incompletos com Otimização Projetada",
+    "title_en": "MujicΛ: Reconstructing Initial Conditions from Incomplete Redshift Surveys with Projected Optimization",
+    "sub": "Este artigo apresenta MujicΛ, uma estrutura baseada em otimização para reconstruir condições iniciais a partir de levantamentos espectroscópicos de redshift de galáxias.",
+    "sub_pt": "Este artigo apresenta MujicΛ, uma estrutura baseada em otimização para reconstruir condições iniciais a partir de levantamentos espectroscópicos de redshift de galáxias.",
+    "sub_en": "In this paper, we introduce MujicΛ, an optimization-based framework for reconstructing initial conditions from realistic galaxy spectroscopic redshift surveys.",
+    "excerpt": "Este artigo apresenta MujicΛ, uma estrutura baseada em otimização para reconstruir condições iniciais a partir de levantamentos espectroscópicos de redshift de galáxias.",
+    "excerpt_pt": "Este artigo apresenta MujicΛ, uma estrutura baseada em otimização para reconstruir condições iniciais a partir de levantamentos espectroscópicos de redshift de galáxias.",
+    "excerpt_en": "In this paper, we introduce MujicΛ, an optimization-based framework for reconstructing initial conditions from realistic galaxy spectroscopic redshift surveys.",
+    "highlights": [
+      "Em foco: Este artigo apresenta MujicΛ, uma estrutura baseada em otimização para reconstruir condições iniciais a partir de levantamentos espectroscópicos de",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: Este artigo apresenta MujicΛ, uma estrutura baseada em otimização para reconstruir condições iniciais a partir de levantamentos espectroscópicos de",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: In this paper, we introduce MujicΛ, an optimization-based framework for reconstructing initial conditions from realistic galaxy spectroscopic",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "29 abr 2026",
+    "date_pt": "29 abr 2026",
+    "date_en": "29 Apr 2026",
+    "time": "15h49",
+    "time_pt": "15h49",
+    "time_en": "15: 49 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-29T15:49:01+00:00",
+    "lastModifiedIso": "2026-04-30T17:15:10+00:00",
+    "source": "arXiv Cosmology",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Cosmologia",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "MujicΛ",
+      "Reconstruindo Condições Iniciais de Pesquisas Redshift Incompletas com Otimização Projetada"
+    ],
+    "keywords_pt": [
+      "Cosmologia",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "MujicΛ",
+      "Reconstruindo Condições Iniciais de Pesquisas Redshift Incompletas com Otimização Projetada"
+    ],
+    "keywords_en": [
+      "Cosmology",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "MujicΛ",
+      "Reconstructing Initial Conditions from Incomplete Redshift Searches with Engineered Optimization"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2604.26823v1",
+    "realUrl": "https://www.cosmosweek.com/?article=mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza",
+    "realUrl_en": "https://www.cosmosweek.com/?article=mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 80,
+    "scoreBreakdown": {
+      "source": 64,
+      "evidence": 39,
+      "relevance": 94,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "MujicΛ: Reconstrução de Condições Iniciais a Partir de Levantamentos de Redshift Incompletos com Otimização Projetada",
+    "imageAlt_pt": "MujicΛ: Reconstrução de Condições Iniciais a Partir de Levantamentos de Redshift Incompletos com Otimização Projetada",
+    "imageAlt_en": "MujicΛ: Reconstructing Initial Conditions from Incomplete Redshift Surveys with Projected Optimization",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 5,
     "slug": "stunning-images-from-biomass-mark-its-one-year-in-orbit",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -173,7 +750,130 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 6,
+    "slug": "trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters",
+    "cat": "Astrofísica",
+    "catCls": "astrofisica",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/M87_jet.jpg/1280px-M87_jet.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Captura, formas de onda irregulares e radiação eficiente em encontros ultra-relativísticos de buracos negros",
+    "title_pt": "Captura, formas de onda irregulares e radiação eficiente em encontros ultra-relativísticos de buracos negros",
+    "title_en": "Trapping, Irregular Waveforms, and Efficient Radiation in Ultra-relativistic Black Hole Encounters",
+    "sub": "Demonstramos que os encontros ultra-relativísticos com buracos negros revelam um novo regime de interação de dois corpos na relatividade geral.",
+    "sub_pt": "Demonstramos que os encontros ultra-relativísticos com buracos negros revelam um novo regime de interação de dois corpos na relatividade geral.",
+    "sub_en": "We demonstrate that ultra-relativistic black hole encounters reveal a new regime of the two-body interaction in general relativity.",
+    "excerpt": "Demonstramos que os encontros ultra-relativísticos com buracos negros revelam um novo regime de interação de dois corpos na relatividade geral.",
+    "excerpt_pt": "Demonstramos que os encontros ultra-relativísticos com buracos negros revelam um novo regime de interação de dois corpos na relatividade geral.",
+    "excerpt_en": "We demonstrate that ultra-relativistic black hole encounters reveal a new regime of the two-body interaction in general relativity.",
+    "highlights": [
+      "Em foco: Demonstramos que os encontros ultra-relativísticos com buracos negros revelam um novo regime de interação de dois corpos na relatividade geral",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: Demonstramos que os encontros ultra-relativísticos com buracos negros revelam um novo regime de interação de dois corpos na relatividade geral",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: We demonstrate that ultra-relativistic black hole encounters reveal a new regime of the two-body interaction in general relativity",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "29 abr 2026",
+    "date_pt": "29 abr 2026",
+    "date_en": "29 Apr 2026",
+    "time": "03h22",
+    "time_pt": "03h22",
+    "time_en": "03: 22 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-29T03:22:25+00:00",
+    "lastModifiedIso": "2026-04-30T17:15:10+00:00",
+    "source": "arXiv High Energy Astrophysics",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Astrofísica",
+      "arXiv High Energy Astrophysics",
+      "Cosmos Week",
+      "Captura",
+      "formas de onda irregulares e radiação eficiente em encontros ultra",
+      "relativísticos de buracos negros"
+    ],
+    "keywords_pt": [
+      "Astrofísica",
+      "arXiv High Energy Astrophysics",
+      "Cosmos Week",
+      "Captura",
+      "formas de onda irregulares e radiação eficiente em encontros ultra",
+      "relativísticos de buracos negros"
+    ],
+    "keywords_en": [
+      "Astrophysics",
+      "arXiv High Energy Astrophysics",
+      "Cosmos Week",
+      "Capture",
+      "irregular waveforms and efficient radiation in ultra-high encounters",
+      "relativistic black holes"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2604.26253v1",
+    "realUrl": "https://www.cosmosweek.com/?article=trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters",
+    "realUrl_en": "https://www.cosmosweek.com/?article=trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 80,
+    "scoreBreakdown": {
+      "source": 63,
+      "evidence": 39,
+      "relevance": 94,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Captura, formas de onda irregulares e radiação eficiente em encontros ultra-relativísticos de buracos negros",
+    "imageAlt_pt": "Captura, formas de onda irregulares e radiação eficiente em encontros ultra-relativísticos de buracos negros",
+    "imageAlt_en": "Trapping, Irregular Waveforms, and Efficient Radiation in Ultra-relativistic Black Hole Encounters",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 7,
     "slug": "nasa-connects-little-red-dots-with-chandra-webb",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -191,19 +891,19 @@
     "excerpt_pt": "Um objeto recém-descoberto pode ser crucial para desvendar a verdadeira natureza de uma misteriosa classe de fontes que os astrônomos têm observado no Universo primitivo.",
     "excerpt_en": "A newly discovered object may be a key to unlocking the true nature of a mysterious class of sources that astronomers have found in the early universe in recent years.",
     "highlights": [
-      "Em foco: Um objeto recém-descoberto pode ser crucial para desvendar a verdadeira natureza de uma misteriosa classe de fontes que os astrônomos têm observado",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Um objeto recém-descoberto pode ser crucial para desvendar a verdadeira natureza de uma misteriosa classe de fontes que os astrônomos têm observado.",
+      "Dado-chave: Um objeto recém-descoberto pode ser crucial para desvendar a verdadeira natureza de uma misteriosa classe de fontes que os astrônomos têm.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Um objeto recém-descoberto pode ser crucial para desvendar a verdadeira natureza de uma misteriosa classe de fontes que os astrônomos têm observado",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Um objeto recém-descoberto pode ser crucial para desvendar a verdadeira natureza de uma misteriosa classe de fontes que os astrônomos têm observado.",
+      "Dado-chave: Um objeto recém-descoberto pode ser crucial para desvendar a verdadeira natureza de uma misteriosa classe de fontes que os astrônomos têm.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: A newly discovered object may be a key to unlocking the true nature of a mysterious class of sources that astronomers have found in the early",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: A newly discovered object may be a key to unlocking the true nature of a mysterious class of sources that astronomers have found in the early.",
+      "Key detail: A newly discovered object may be a key to unlocking the true nature of a mysterious class of sources that astronomers have found in the early",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "28 abr 2026",
     "date_pt": "28 abr 2026",
@@ -294,7 +994,7 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 8,
     "slug": "nighttime-imaging-grows-landsat-s-science-value",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -435,7 +1135,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 9,
     "slug": "gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -453,18 +1153,19 @@
     "excerpt_pt": "Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de calibre e o inserem em um contexto mais amplo de ideias.",
     "excerpt_en": "These notes are written for a memorial Session dedicated to George Lazarides. They revisit a joint work on the cosmology of a gauged axion and place it in a broader line of ideas connecting anomalous gauge symmetries, orientifold effective.",
     "highlights": [
-      "Em foco: Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de.",
+      "Dado-chave: Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de.",
+      "Dado-chave: Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: These notes are written for a memorial Session dedicated to George Lazarides",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: These notes are written for a memorial Session dedicated to George Lazarides.",
+      "Key detail: These notes are written for a memorial Session dedicated to George Lazarides",
+      "Result not yet peer reviewed."
     ],
     "date": "28 abr 2026",
     "date_pt": "28 abr 2026",
@@ -555,510 +1256,7 @@
     "storyKind": "science"
   },
   {
-    "id": 5,
-    "slug": "nasa-laser-terminal-enhances-views-during-artemis-ii-mission",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://www.nasa.gov/wp-content/uploads/2026/02/o2o.jpg",
-    "inline_images": [
-      {
-        "src": "https://images-assets.nasa.gov/image/art002e015231/art002e015231~large.jpg",
-        "alt": "outras imagens de missão",
-        "alt_pt": "outras imagens de missão",
-        "alt_en": "other mission images",
-        "caption": "outras imagens de missão",
-        "caption_pt": "outras imagens de missão",
-        "caption_en": "other mission images"
-      }
-    ],
-    "video": {
-      "kind": "file",
-      "platform": "html5",
-      "embedUrl": "",
-      "fileUrl": "https://www.nasa.gov/wp-content/uploads/2026/04/orion-shot-04-1.mp4",
-      "poster": "https://www.nasa.gov/wp-content/uploads/2026/02/o2o.jpg",
-      "title": "Terminal de laser da NASA aprimora vistas durante a missão Artemis II - NASA",
-      "title_pt": "Terminal de laser da NASA aprimora vistas durante a missão Artemis II - NASA",
-      "title_en": "NASA Laser Terminal Enhances Views During Artemis II Mission - NASA",
-      "caption": "Milhões de pessoas assistiram ao histórico lançamento do Artemis II e ficaram cativadas pela viagem de 10 dias da missão ao redor da Lua, enquanto os astronautas da NASA Reid",
-      "caption_pt": "Milhões de pessoas assistiram ao histórico lançamento do Artemis II e ficaram cativadas pela viagem de 10 dias da missão ao redor da Lua, enquanto os astronautas da NASA Reid",
-      "caption_en": "Millions of people watched the historic launch of Artemis II and were captivated by the mission’s 10-day journey around the Moon as NASA astronauts Reid",
-      "sourcePage": "https://www.nasa.gov/missions/artemis/artemis-2/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/"
-    },
-    "audio": null,
-    "title": "Terminal de laser da NASA aprimora a transmissão de dados visuais na missão Artemis II",
-    "title_pt": "Terminal de laser da NASA aprimora a transmissão de dados visuais na missão Artemis II",
-    "title_en": "NASA Laser Terminal Enhances Views During Artemis II Mission",
-    "sub": "A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA.",
-    "sub_pt": "A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA.",
-    "sub_en": "Millions of people watched the historic launch of Artemis II and were captivated by the mission’s 10-day journey around the Moon as NASA astronauts Reid Wiseman, Victor Glover.",
-    "excerpt": "A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA.",
-    "excerpt_pt": "A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA.",
-    "excerpt_en": "Millions of people watched the historic launch of Artemis II and were captivated by the mission’s 10-day journey around the Moon as NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA astronaut Jeremy Hansen ventured.",
-    "highlights": [
-      "Ponto central: A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA.",
-      "Dado-chave: A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA.",
-      "Dado-chave: A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Millions of people watched the historic launch of Artemis II and were captivated by the mission’s 10-day journey around the Moon as NASA astronauts.",
-      "Key detail: Millions of people watched the historic launch of Artemis II and were captivated by the mission’s 10-day journey around the Moon as NASA.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "28 abr 2026",
-    "date_pt": "28 abr 2026",
-    "date_en": "28 Apr 2026",
-    "time": "16h10",
-    "time_pt": "16h10",
-    "time_en": "16: 10 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-28T16:10:25+00:00",
-    "lastModifiedIso": "2026-04-28T21:10:32+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Terminal de laser da NASA aprimora vistas durante a missão Artemis II"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Terminal de laser da NASA aprimora vistas durante a missão Artemis II"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA Laser Terminal Enhances Views During Artemis II Mission"
-    ],
-    "srcUrl": "https://www.nasa.gov/missions/artemis/artemis-2/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-laser-terminal-enhances-views-during-artemis-ii-mission",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-laser-terminal-enhances-views-during-artemis-ii-mission",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-laser-terminal-enhances-views-during-artemis-ii-mission&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 86,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Terminal de laser da NASA aprimora a transmissão de dados visuais na missão Artemis II",
-    "imageAlt_pt": "Terminal de laser da NASA aprimora a transmissão de dados visuais na missão Artemis II",
-    "imageAlt_en": "NASA Laser Terminal Enhances Views During Artemis II Mission",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 6,
-    "slug": "substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations",
-    "cat": "Cosmologia",
-    "catCls": "cosmologia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Milky_Way%2C_above_Mauna_Kea_-_by_Luc_Viatour.jpg/1280px-Milky_Way%2C_above_Mauna_Kea_-_by_Luc_Viatour.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Subestrutura em aglomerados redMaPPer e seu impacto na morfologia de raios X e relações de escala",
-    "title_pt": "Subestrutura em aglomerados redMaPPer e seu impacto na morfologia de raios X e relações de escala",
-    "title_en": "Substructure in redMaPPer clusters and its impact on X-ray morphology and scaling relations",
-    "sub": "Este estudo quantificou a prevalência e as propriedades da subestrutura em aglomerados ópticos de galáxias, revelando seu impacto significativo na morfologia de raios X e nas.",
-    "sub_pt": "Este estudo quantificou a prevalência e as propriedades da subestrutura em aglomerados ópticos de galáxias, revelando seu impacto significativo na morfologia de raios X e nas.",
-    "sub_en": "We statistically quantified the prevalence and properties of substructure in optical galaxy clusters and directly investigated its impact on X-ray morphology and scaling.",
-    "excerpt": "Este estudo quantificou a prevalência e as propriedades da subestrutura em aglomerados ópticos de galáxias, revelando seu impacto significativo na morfologia de raios X e nas relações de escala, especialmente em aglomerados de alta massa e na evolução da.",
-    "excerpt_pt": "Este estudo quantificou a prevalência e as propriedades da subestrutura em aglomerados ópticos de galáxias, revelando seu impacto significativo na morfologia de raios X e nas relações de escala, especialmente em aglomerados de alta massa e na evolução da.",
-    "excerpt_en": "We statistically quantified the prevalence and properties of substructure in optical galaxy clusters and directly investigated its impact on X-ray morphology and scaling relations, leveraging new data from the DECaLS Legacy Survey and the.",
-    "highlights": [
-      "Em foco: Este estudo quantificou a prevalência e as propriedades da subestrutura em aglomerados ópticos de galáxias, revelando seu impacto significativo na",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
-    ],
-    "highlights_pt": [
-      "Em foco: Este estudo quantificou a prevalência e as propriedades da subestrutura em aglomerados ópticos de galáxias, revelando seu impacto significativo na",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
-    ],
-    "highlights_en": [
-      "Focus: We statistically quantified the prevalence and properties of substructure in optical galaxy clusters and directly investigated its impact on X-ray",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
-    ],
-    "date": "28 abr 2026",
-    "date_pt": "28 abr 2026",
-    "date_en": "28 Apr 2026",
-    "time": "15h33",
-    "time_pt": "15h33",
-    "time_en": "15: 33 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-28T15:33:27+00:00",
-    "lastModifiedIso": "2026-04-29T13:10:24+00:00",
-    "source": "arXiv Cosmology",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Cosmologia",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Subestrutura em clusters redMaPPer e seu impacto na morfologia de raios X e relações de escala"
-    ],
-    "keywords_pt": [
-      "Cosmologia",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Subestrutura em clusters redMaPPer e seu impacto na morfologia de raios X e relações de escala"
-    ],
-    "keywords_en": [
-      "Cosmology",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Substructure in redMaPPer clusters and its impact on X-ray morphology and scaling relationships"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2604.25770v1",
-    "realUrl": "https://www.cosmosweek.com/?article=substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations",
-    "realUrl_en": "https://www.cosmosweek.com/?article=substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 80,
-    "scoreBreakdown": {
-      "source": 64,
-      "evidence": 39,
-      "relevance": 94,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "Subestrutura em aglomerados redMaPPer e seu impacto na morfologia de raios X e relações de escala",
-    "imageAlt_pt": "Subestrutura em aglomerados redMaPPer e seu impacto na morfologia de raios X e relações de escala",
-    "imageAlt_en": "Substructure in redMaPPer clusters and its impact on X-ray morphology and scaling relations",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 7,
-    "slug": "fiery-fall-color-in-southern-chile",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/fiery-fall-color-in-southern-chile/fallinpatagonia_oli2_20260412_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Cor ardente do outono no sul do Chile",
-    "title_pt": "Cor ardente do outono no sul do Chile",
-    "title_en": "Fiery Fall Color in Southern Chile",
-    "sub": "Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da página.",
-    "sub_pt": "Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da página.",
-    "sub_en": "A band of reddish vegetation covers the slopes of a snow-capped mountain about 40 kilometers west of the area shown at the top of the page.",
-    "excerpt": "Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da página.",
-    "excerpt_pt": "Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da página.",
-    "excerpt_en": "A band of reddish vegetation covers the slopes of a snow-capped mountain about 40 kilometers west of the area shown at the top of the page.",
-    "highlights": [
-      "Em foco: Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: A band of reddish vegetation covers the slopes of a snow-capped mountain about 40 kilometers west of the area shown at the top of the page",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "28 abr 2026",
-    "date_pt": "28 abr 2026",
-    "date_en": "28 Apr 2026",
-    "time": "04h01",
-    "time_pt": "04h01",
-    "time_en": "04: 01 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-28T04:01:00+00:00",
-    "lastModifiedIso": "2026-04-28T08:22:11+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Cor ardente do outono no sul do Chile"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Cor ardente do outono no sul do Chile"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Fiery autumn color in southern Chile"
-    ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/fiery-fall-color-in-southern-chile/",
-    "realUrl": "https://www.cosmosweek.com/?article=fiery-fall-color-in-southern-chile",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=fiery-fall-color-in-southern-chile",
-    "realUrl_en": "https://www.cosmosweek.com/?article=fiery-fall-color-in-southern-chile&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/fiery-fall-color-in-southern-chile/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/fiery-fall-color-in-southern-chile/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/fiery-fall-color-in-southern-chile/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/fiery-fall-color-in-southern-chile/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/fiery-fall-color-in-southern-chile/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/fiery-fall-color-in-southern-chile/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": true,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Cor ardente do outono no sul do Chile",
-    "imageAlt_pt": "Cor ardente do outono no sul do Chile",
-    "imageAlt_en": "Fiery Fall Color in Southern Chile",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 8,
-    "slug": "the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates",
-    "cat": "Astrofísica",
-    "catCls": "astrofisica",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/M87_jet.jpg/1280px-M87_jet.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "O Impacto das Geometrias Elípticas de Linhas Largas nas Estimativas de Massa de Buracos Negros Baseadas na Reverberação",
-    "title_pt": "O Impacto das Geometrias Elípticas de Linhas Largas nas Estimativas de Massa de Buracos Negros Baseadas na Reverberação",
-    "title_en": "The Impact of Elliptical Broad-Line Regions on Reverberation-Based Black Hole Mass Estimates",
-    "sub": "O fator virial $f$ é crucial para estimativas precisas da massa de buracos negros supermassivos (SMBH) por mapeamento de reverberação (RM) e pela relação raio-luminosidade.",
-    "sub_pt": "O fator virial $f$ é crucial para estimativas precisas da massa de buracos negros supermassivos (SMBH) por mapeamento de reverberação (RM) e pela relação raio-luminosidade.",
-    "sub_en": "The virial factor $f$ is critical for accurate supermassive black hole mass measurements using reverberation mapping and the radius--luminosity relation, yet its value remains.",
-    "excerpt": "O fator virial $f$ é crucial para estimativas precisas da massa de buracos negros supermassivos (SMBH) por mapeamento de reverberação (RM) e pela relação raio-luminosidade ($R$--$L$), mas seu valor é incerto devido a geometrias assimétricas da região de.",
-    "excerpt_pt": "O fator virial $f$ é crucial para estimativas precisas da massa de buracos negros supermassivos (SMBH) por mapeamento de reverberação (RM) e pela relação raio-luminosidade ($R$--$L$), mas seu valor é incerto devido a geometrias assimétricas da região de.",
-    "excerpt_en": "The virial factor $f$ is critical for accurate supermassive black hole mass measurements using reverberation mapping and the radius--luminosity relation, yet its value remains highly uncertain.",
-    "highlights": [
-      "Em foco: O fator virial $f$ é crucial para estimativas precisas da massa de buracos negros supermassivos (SMBH) por mapeamento de reverberação (RM) e pela",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
-    ],
-    "highlights_pt": [
-      "Em foco: O fator virial $f$ é crucial para estimativas precisas da massa de buracos negros supermassivos (SMBH) por mapeamento de reverberação (RM) e pela",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
-    ],
-    "highlights_en": [
-      "Focus: The virial factor $f$ is critical for accurate supermassive black hole mass measurements using reverberation mapping and the radius--luminosity",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
-    ],
-    "date": "28 abr 2026",
-    "date_pt": "28 abr 2026",
-    "date_en": "28 Apr 2026",
-    "time": "03h14",
-    "time_pt": "03h14",
-    "time_en": "03: 14 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-28T03:14:00+00:00",
-    "lastModifiedIso": "2026-04-29T13:10:24+00:00",
-    "source": "arXiv High Energy Astrophysics",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Astrofísica",
-      "arXiv High Energy Astrophysics",
-      "Cosmos Week",
-      "O impacto das regiões elípticas de linha larga nas estimativas de massa do buraco negro baseadas na reverberação"
-    ],
-    "keywords_pt": [
-      "Astrofísica",
-      "arXiv High Energy Astrophysics",
-      "Cosmos Week",
-      "O impacto das regiões elípticas de linha larga nas estimativas de massa do buraco negro baseadas na reverberação"
-    ],
-    "keywords_en": [
-      "Astrophysics",
-      "arXiv High Energy Astrophysics",
-      "Cosmos Week",
-      "The impact of broad-line elliptical regions on reverberation-based black hole mass estimates"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2604.25163v1",
-    "realUrl": "https://www.cosmosweek.com/?article=the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates",
-    "realUrl_en": "https://www.cosmosweek.com/?article=the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 80,
-    "scoreBreakdown": {
-      "source": 63,
-      "evidence": 39,
-      "relevance": 94,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "O Impacto das Geometrias Elípticas de Linhas Largas nas Estimativas de Massa de Buracos Negros Baseadas na Reverberação",
-    "imageAlt_pt": "O Impacto das Geometrias Elípticas de Linhas Largas nas Estimativas de Massa de Buracos Negros Baseadas na Reverberação",
-    "imageAlt_en": "The Impact of Elliptical Broad-Line Regions on Reverberation-Based Black Hole Mass Estimates",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 9,
+    "id": 10,
     "slug": "dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1176,7 +1374,7 @@
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1379,7 +1577,7 @@
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "snow-is-scarce-in-the-upper-colorado-basin",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1516,7 +1714,7 @@
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "catching-the-earliest-stars-in-the-universe",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1545,7 +1743,7 @@
     ],
     "highlights_en": [
       "Core point: New observations from the James Webb Space Telescope might have caught the signature of the universe's first stars.",
-      "Key detail: New observations from the James Webb Space Telescope might have caught the signature of the universe's first stars",
+      "Key detail: New observations from the James Webb Space Telescope might have caught the signature of the universe's first stars.",
       "Science reporting: verify primary technical documentation."
     ],
     "date": "24 abr 2026",
@@ -1634,7 +1832,7 @@
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "braving-the-arctic-for-upcoming-polar-focused-satellites",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1642,21 +1840,21 @@
     "inline_images": [
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/not_your_normal_commute/27239667-3-eng-GB/Not_your_normal_commute_pillars.jpg",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
       },
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/arctic_sea-ice_extent/27239808-1-eng-GB/Arctic_sea-ice_extent_article.jpg",
-        "caption": "Extensão do gelo marinho do Ártico",
-        "caption_pt": "Extensão do gelo marinho do Ártico",
-        "caption_en": "Arctic sea-ice extent",
         "alt": "Extensão do gelo marinho do Ártico",
         "alt_pt": "Extensão do gelo marinho do Ártico",
-        "alt_en": "Arctic sea-ice extent"
+        "alt_en": "Arctic sea-ice extent",
+        "caption": "Extensão do gelo marinho do Ártico",
+        "caption_pt": "Extensão do gelo marinho do Ártico",
+        "caption_en": "Arctic sea-ice extent"
       }
     ],
     "video": null,
@@ -1671,19 +1869,19 @@
     "excerpt_pt": "Com o contínuo recuo do gelo marinho devido à crise climática, a medição precisa de sua diminuição tornou-se uma prioridade inadiável.",
     "excerpt_en": "As sea ice continues to succumb to the climate crisis, measuring its decline with precision has never been more urgent. To meet this challenge, the European Space Agency is developing three new Copernicus satellites, each employing.",
     "highlights": [
-      "Em foco: Com o contínuo recuo do gelo marinho devido à crise climática, a medição precisa de sua diminuição tornou-se uma prioridade inadiável",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Com o contínuo recuo do gelo marinho devido à crise climática, a medição precisa de sua diminuição tornou-se uma prioridade inadiável.",
+      "Dado-chave: Com o contínuo recuo do gelo marinho devido à crise climática, a medição precisa de sua diminuição tornou-se uma prioridade inadiável",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Com o contínuo recuo do gelo marinho devido à crise climática, a medição precisa de sua diminuição tornou-se uma prioridade inadiável",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Com o contínuo recuo do gelo marinho devido à crise climática, a medição precisa de sua diminuição tornou-se uma prioridade inadiável.",
+      "Dado-chave: Com o contínuo recuo do gelo marinho devido à crise climática, a medição precisa de sua diminuição tornou-se uma prioridade inadiável",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: As sea ice continues to succumb to the climate crisis, measuring its decline with precision has never been more urgent",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: As sea ice continues to succumb to the climate crisis, measuring its decline with precision has never been more urgent.",
+      "Key detail: As sea ice continues to succumb to the climate crisis, measuring its decline with precision has never been more urgent",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "24 abr 2026",
     "date_pt": "24 abr 2026",
@@ -1771,7 +1969,7 @@
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "hilumi-lhc-cern-s-full-scale-test-stand-enters-the-powering-phase",
     "cat": "Física",
     "catCls": "fisica",
@@ -1902,7 +2100,7 @@
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2020,7 +2218,7 @@
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "the-fy-2027-nasa-budget-request",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2175,7 +2373,7 @@
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "smile-set-to-launch-on-19-may",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2312,7 +2510,7 @@
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "belts-of-green-in-the-washington-suburbs",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2449,7 +2647,7 @@
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "stellar-flares-may-expand-habitable-zones-around-small-stars",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -2580,7 +2778,7 @@
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 21,
     "slug": "automated-ct-scan-analysis-could-fast-track-clinical-assessments",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2698,7 +2896,7 @@
     "storyKind": "science"
   },
   {
-    "id": 21,
+    "id": 22,
     "slug": "a-school-of-mud-volcano-islands-in-azerbaijan",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2835,7 +3033,7 @@
     "storyKind": "science"
   },
   {
-    "id": 22,
+    "id": 23,
     "slug": "photo-release-hubble-dazzles-with-young-stars-in-trifid-nebula-for-36th-anniversary",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3065,7 +3263,7 @@
     "storyKind": "science"
   },
   {
-    "id": 23,
+    "id": 24,
     "slug": "sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3186,7 +3384,7 @@
     "storyKind": "science"
   },
   {
-    "id": 24,
+    "id": 25,
     "slug": "generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul",
     "cat": "Física",
     "catCls": "fisica",
@@ -3317,7 +3515,7 @@
     "imageAlt_en": "Generalized optical meta-spanners empower arbitrary light paths for multitasking optical manipulation"
   },
   {
-    "id": 25,
+    "id": 26,
     "slug": "antioxidant-glutathione-discovered-to-play-a-key-role-in-proper-protein-folding",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -3438,7 +3636,7 @@
     "imageAlt_en": "Antioxidant glutathione discovered to play a key role in proper protein folding"
   },
   {
-    "id": 26,
+    "id": 27,
     "slug": "sun-news-huge-coronal-hole-now-faces-earth",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3461,6 +3659,15 @@
         "caption": "",
         "caption_pt": "",
         "caption_en": ""
+      },
+      {
+        "src": "https://earthsky.org/upl/2026/04/apr-30-26-Sun-activity-coronal-holes-e1777545281302.png",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
       }
     ],
     "video": null,
@@ -3578,7 +3785,7 @@
     "imageAlt_en": "Sun news: Huge coronal hole now faces Earth"
   },
   {
-    "id": 27,
+    "id": 28,
     "slug": "how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants",
     "cat": "Física",
     "catCls": "fisica",
@@ -3706,7 +3913,7 @@
     "storyKind": "science"
   },
   {
-    "id": 28,
+    "id": 29,
     "slug": "cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -3827,7 +4034,7 @@
     "imageAlt_en": "Cloudy with a chance of metals: Indications of CO$_2$ in the atmosphere of GJ 1214 b from high-resolution K-band spectroscopy"
   },
   {
-    "id": 29,
+    "id": 30,
     "slug": "jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -3945,7 +4152,7 @@
     "imageAlt_en": "JWST Sees Smoking Gun for Black Hole Mergers in the Virgo Cluster"
   },
   {
-    "id": 30,
+    "id": 31,
     "slug": "torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -4063,7 +4270,7 @@
     "imageAlt_en": "Torsion balances set strongest direct limits yet on ultralight dark matter"
   },
   {
-    "id": 31,
+    "id": 32,
     "slug": "the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -4184,7 +4391,7 @@
     "storyKind": "science"
   },
   {
-    "id": 32,
+    "id": 33,
     "slug": "planets-collide-around-young-sun-like-star",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -4302,7 +4509,7 @@
     "imageAlt_en": "Planets Collide Around Young, Sun-like Star"
   },
   {
-    "id": 33,
+    "id": 34,
     "slug": "first-light-for-poet-shining-sun-light-on-exoplanet-research",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -4451,124 +4658,6 @@
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 34,
-    "slug": "pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra",
-    "cat": "Astrofísica",
-    "catCls": "astrofisica",
-    "img": "https://revistapesquisa.fapesp.br/wp-content/thumbs/03fb824ba2d60a7c5674f2d53910f8a2bc26fa4b_1200-630.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "A origem do neutrino mais energético detectado na Terra ainda é desconhecida",
-    "title_pt": "A origem do neutrino mais energético detectado na Terra ainda é desconhecida",
-    "title_en": "Pesquisadores desconhecem que fenômeno gerou o neutrino mais energético detectado na Terra",
-    "sub": "Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-    "sub_pt": "Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-    "sub_en": "Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo.",
-    "excerpt": "Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-    "excerpt_pt": "Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-    "excerpt_en": "Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo.",
-    "highlights": [
-      "Ponto central: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-      "Dado-chave: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_pt": [
-      "Ponto central: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-      "Dado-chave: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_en": [
-      "Core point: Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo.",
-      "Key detail: Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo.",
-      "Science reporting: verify primary technical documentation."
-    ],
-    "date": "08 abr 2026",
-    "date_pt": "08 abr 2026",
-    "date_en": "08 Apr 2026",
-    "time": "14h35",
-    "time_pt": "14h35",
-    "time_en": "14: 35 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-08T14:35:20+00:00",
-    "lastModifiedIso": "2026-04-26T07:40:11+00:00",
-    "source": "Pesquisa FAPESP Ciência",
-    "sourceDomain": "revistapesquisa. fapesp. br",
-    "sourceType": "news",
-    "sourceTypeLabel": "Jornalismo científico",
-    "sourceTypeLabel_pt": "Jornalismo científico",
-    "sourceTypeLabel_en": "Science journalism",
-    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
-    "evidenceKey": "journalistic",
-    "evidenceLabel": "Cobertura jornalística",
-    "evidenceLabel_pt": "Cobertura jornalística",
-    "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "standard",
-    "editorialBandLabel": "Prioridade editorial",
-    "editorialBandLabel_pt": "Prioridade editorial",
-    "editorialBandLabel_en": "Editorial priority",
-    "keywords": [
-      "Astrofísica",
-      "Pesquisa FAPESP Ciência",
-      "Cosmos Week",
-      "Pesquisadores desconhecem que fenômeno gerou o neutrino mais energético detectado na Terra"
-    ],
-    "keywords_pt": [
-      "Astrofísica",
-      "Pesquisa FAPESP Ciência",
-      "Cosmos Week",
-      "Pesquisadores desconhecem que fenômeno gerou o neutrino mais energético detectado na Terra"
-    ],
-    "keywords_en": [
-      "Astrophysics",
-      "Pesquisa FAPESP Ciência",
-      "Cosmos Week",
-      "Researchers do not know which phenomenon generated the most energetic neutrino detected on Earth"
-    ],
-    "srcUrl": "https://revistapesquisa.fapesp.br/pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra/?utm_source=rss&utm_medium=rss&utm_campaign=pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra",
-    "realUrl": "https://www.cosmosweek.com/?article=pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra",
-    "realUrl_en": "https://www.cosmosweek.com/?article=pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 68,
-    "scoreBreakdown": {
-      "source": 80,
-      "evidence": 54,
-      "relevance": 74,
-      "accessibility": 52,
-      "novelty": 46
-    },
-    "imageAlt": "A origem do neutrino mais energético detectado na Terra ainda é desconhecida",
-    "imageAlt_pt": "A origem do neutrino mais energético detectado na Terra ainda é desconhecida",
-    "imageAlt_en": "Pesquisadores desconhecem que fenômeno gerou o neutrino mais energético detectado na Terra",
-    "coverageKind": "news",
-    "coverageKindLabel": "Jornalismo científico",
-    "coverageKindLabel_pt": "Jornalismo científico",
-    "coverageKindLabel_en": "Science journalism",
     "storyKind": "science"
   },
   {

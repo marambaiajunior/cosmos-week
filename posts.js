@@ -3,6 +3,595 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "another-one-ariane-6-flies-with-four-boosters-once-more",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/ariane_6_lifts_off_for_flight_va268/27250500-2-eng-GB/Ariane_6_lifts_off_for_flight_VA268_card_full.jpg",
+    "inline_images": [
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/ariane_6_lifts_off_for_flight_va268/27250500-2-eng-GB/Ariane_6_lifts_off_for_flight_VA268_pillars.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/08/ariane_6_blueprint/26286160-1-eng-GB/Ariane_6_blueprint_article.png",
+        "alt": "Projeto do Ariane 6",
+        "alt_pt": "Projeto do Ariane 6",
+        "alt_en": "Ariane 6 blueprint",
+        "caption": "Projeto do Ariane 6",
+        "caption_pt": "Projeto do Ariane 6",
+        "caption_en": "Ariane 6 blueprint"
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Ariane 6: Segundo Voo com Quatro Propulsores",
+    "title_pt": "Ariane 6: Segundo Voo com Quatro Propulsores",
+    "title_en": "Another one: Ariane 6 flies with four boosters once more",
+    "sub": "Em 30 de abril de 2026, o foguete Ariane 6 realizou seu segundo voo, impulsionado por quatro propulsores P120C, para lançar 32 satélites da constelação de Leão da Amazon.",
+    "sub_pt": "Em 30 de abril de 2026, o foguete Ariane 6 realizou seu segundo voo, impulsionado por quatro propulsores P120C, para lançar 32 satélites da constelação de Leão da Amazon.",
+    "sub_en": "Updated on 30 April 2026 On 30 April 2026, four P120C boosters ignited and lifted Ariane 6 to the skies, for the second time.",
+    "excerpt": "Em 30 de abril de 2026, o foguete Ariane 6 realizou seu segundo voo, impulsionado por quatro propulsores P120C, para lançar 32 satélites da constelação de Leão da Amazon.",
+    "excerpt_pt": "Em 30 de abril de 2026, o foguete Ariane 6 realizou seu segundo voo, impulsionado por quatro propulsores P120C, para lançar 32 satélites da constelação de Leão da Amazon.",
+    "excerpt_en": "Updated on 30 April 2026 On 30 April 2026, four P120C boosters ignited and lifted Ariane 6 to the skies, for the second time. Flight VA268 took 32 satellites for Amazon’s Leo constellation to low-Earth orbit.",
+    "body": "<p>Em 30 de abril de 2026, o foguete Ariane 6 realizou com sucesso seu segundo voo, marcando mais um passo importante no programa espacial europeu. Impulsionado por quatro propulsores P120C, a configuração mais potente disponível, o veículo de lançamento decolou para a missão VA268. Esta operação teve como objetivo principal a inserção de 32 satélites da constelação de Leão, parte do ambicioso Projeto Kuiper da Amazon, em órbita baixa da Terra. O sucesso deste lançamento reforça a capacidade do Ariane 6 de atender às crescentes demandas do mercado de satélites, especialmente para megaconstelações.</p><p>A decolagem ocorreu precisamente às 05h57, horário local, no Porto Espacial Europeu, localizado na Guiana Francesa. Este horário correspondeu às 09h57 BST e 10h57 CET, demonstrando a coordenação internacional envolvida na operação. Após um voo meticulosamente planejado, a separação dos últimos satélites foi concluída aproximadamente 114 minutos após o lançamento. A precisão na inserção orbital é crucial para a funcionalidade e longevidade dos satélites, garantindo que cada um atinja sua posição designada na constelação.</p><p>Um aspecto fundamental desta missão foi a operação do estágio superior do Ariane 6. Após a liberação de todos os satélites, o estágio superior foi acionado uma terceira vez. Esta manobra não é apenas uma formalidade, mas uma etapa crítica para garantir uma saída de órbita segura e controlada. Ao realizar esta queima adicional, o Ariane 6 adere estritamente à abordagem de &quot;zero detritos&quot;, uma política ambiental que visa minimizar a quantidade de lixo espacial. Esta prática é essencial para a sustentabilidade das operações espaciais futuras, prevenindo colisões e a proliferação de fragmentos que poderiam ameaçar outras missões.</p><p>Os quatro propulsores P120C desempenham um papel vital na capacidade de elevação do Ariane 6. Estes propulsores de combustível sólido, que também são utilizados como estágio principal no foguete Vega C, representam uma solução modular e eficiente para o programa espacial europeu. A utilização de múltiplos P120C permite ao Ariane 6 adaptar-se a diferentes requisitos de carga útil, oferecendo flexibilidade para missões variadas, desde o lançamento de satélites únicos até a implantação de grandes constelações. A performance robusta desses propulsores é um fator chave para a competitividade do Ariane 6 no mercado global de lançamentos.</p><p>O sucesso deste segundo voo é particularmente significativo para o programa Ariane 6, que representa a próxima geração de veículos de lançamento pesados da Europa. Projetado para substituir o bem-sucedido Ariane 5, o Ariane 6 visa oferecer maior flexibilidade, custos operacionais reduzidos e uma cadência de lançamento mais elevada. A capacidade de realizar missões complexas, como a implantação de megaconstelações, é crucial para a Europa manter seu acesso independente ao espaço e sua posição de liderança na indústria espacial global. Cada voo de teste e operacional contribui para a validação e otimização contínua do sistema.</p><p>A implantação bem-sucedida dos 32 satélites da constelação de Leão é um marco importante para o Projeto Kuiper da Amazon, que busca fornecer internet de banda larga globalmente. A colaboração entre a Agência Espacial Europeia (ESA), a Arianespace e empresas como a Amazon demonstra a natureza interconectada da indústria espacial moderna. Com este segundo voo bem-sucedido, o Ariane 6 solidifica sua posição como um lançador confiável e versátil, pronto para futuras missões que impulsionarão a inovação tecnológica e a exploração espacial.</p>",
+    "body_pt": "<p>Em 30 de abril de 2026, o foguete Ariane 6 realizou com sucesso seu segundo voo, marcando mais um passo importante no programa espacial europeu. Impulsionado por quatro propulsores P120C, a configuração mais potente disponível, o veículo de lançamento decolou para a missão VA268. Esta operação teve como objetivo principal a inserção de 32 satélites da constelação de Leão, parte do ambicioso Projeto Kuiper da Amazon, em órbita baixa da Terra. O sucesso deste lançamento reforça a capacidade do Ariane 6 de atender às crescentes demandas do mercado de satélites, especialmente para megaconstelações.</p><p>A decolagem ocorreu precisamente às 05h57, horário local, no Porto Espacial Europeu, localizado na Guiana Francesa. Este horário correspondeu às 09h57 BST e 10h57 CET, demonstrando a coordenação internacional envolvida na operação. Após um voo meticulosamente planejado, a separação dos últimos satélites foi concluída aproximadamente 114 minutos após o lançamento. A precisão na inserção orbital é crucial para a funcionalidade e longevidade dos satélites, garantindo que cada um atinja sua posição designada na constelação.</p><p>Um aspecto fundamental desta missão foi a operação do estágio superior do Ariane 6. Após a liberação de todos os satélites, o estágio superior foi acionado uma terceira vez. Esta manobra não é apenas uma formalidade, mas uma etapa crítica para garantir uma saída de órbita segura e controlada. Ao realizar esta queima adicional, o Ariane 6 adere estritamente à abordagem de &quot;zero detritos&quot;, uma política ambiental que visa minimizar a quantidade de lixo espacial. Esta prática é essencial para a sustentabilidade das operações espaciais futuras, prevenindo colisões e a proliferação de fragmentos que poderiam ameaçar outras missões.</p><p>Os quatro propulsores P120C desempenham um papel vital na capacidade de elevação do Ariane 6. Estes propulsores de combustível sólido, que também são utilizados como estágio principal no foguete Vega C, representam uma solução modular e eficiente para o programa espacial europeu. A utilização de múltiplos P120C permite ao Ariane 6 adaptar-se a diferentes requisitos de carga útil, oferecendo flexibilidade para missões variadas, desde o lançamento de satélites únicos até a implantação de grandes constelações. A performance robusta desses propulsores é um fator chave para a competitividade do Ariane 6 no mercado global de lançamentos.</p><p>O sucesso deste segundo voo é particularmente significativo para o programa Ariane 6, que representa a próxima geração de veículos de lançamento pesados da Europa. Projetado para substituir o bem-sucedido Ariane 5, o Ariane 6 visa oferecer maior flexibilidade, custos operacionais reduzidos e uma cadência de lançamento mais elevada. A capacidade de realizar missões complexas, como a implantação de megaconstelações, é crucial para a Europa manter seu acesso independente ao espaço e sua posição de liderança na indústria espacial global. Cada voo de teste e operacional contribui para a validação e otimização contínua do sistema.</p><p>A implantação bem-sucedida dos 32 satélites da constelação de Leão é um marco importante para o Projeto Kuiper da Amazon, que busca fornecer internet de banda larga globalmente. A colaboração entre a Agência Espacial Europeia (ESA), a Arianespace e empresas como a Amazon demonstra a natureza interconectada da indústria espacial moderna. Com este segundo voo bem-sucedido, o Ariane 6 solidifica sua posição como um lançador confiável e versátil, pronto para futuras missões que impulsionarão a inovação tecnológica e a exploração espacial.</p>",
+    "body_en": "<p>Updated on 30 April 2026 On 30 April 2026, four P120C boosters ignited and lifted Ariane 6 to the skies, for the second time. Flight VA268 took 32 satellites for Amazon’s Leo constellation to low-Earth orbit. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. Flight VA268 took 32 satellites for Amazon’s Leo constellation to low-Earth orbit. 57 local time (09: 57 BST/10: 57 CET) from Europe’s Spaceport in French Guiana, with separation of the last satellites after 114 minutes.</p><p>The upper stage was then fired a third time to ensure a safe deorbit and allowing Ariane 6 to adhere to the zero debris approach.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Because the account originates with ESA Space News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/Another_one_Ariane_6_flies_with_four_boosters_once_more\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Em 30 de abril de 2026, o foguete Ariane 6 realizou seu segundo voo, impulsionado por quatro propulsores P120C, para lançar 32 satélites da",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Em 30 de abril de 2026, o foguete Ariane 6 realizou seu segundo voo, impulsionado por quatro propulsores P120C, para lançar 32 satélites da",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Updated on 30 April 2026 On 30 April 2026, four P120C boosters ignited and lifted Ariane 6 to the skies, for the second time",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "30 abr 2026",
+    "date_pt": "30 abr 2026",
+    "date_en": "30 Apr 2026",
+    "time": "12h00",
+    "time_pt": "12h00",
+    "time_en": "12: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-30T12:00:00+00:00",
+    "lastModifiedIso": "2026-04-30T17:15:10+00:00",
+    "source": "ESA Space News",
+    "sourceDomain": "www. esa. int",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Ciências da Terra",
+      "ESA Space News",
+      "Cosmos Week",
+      "Mais um",
+      "Ariane 6 voa com quatro boosters mais uma vez"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "ESA Space News",
+      "Cosmos Week",
+      "Mais um",
+      "Ariane 6 voa com quatro boosters mais uma vez"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "ESA Space News",
+      "Cosmos Week",
+      "One more",
+      "Ariane 6 flies with four boosters once again"
+    ],
+    "srcUrl": "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/Another_one_Ariane_6_flies_with_four_boosters_once_more",
+    "realUrl": "https://www.cosmosweek.com/?article=another-one-ariane-6-flies-with-four-boosters-once-more",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=another-one-ariane-6-flies-with-four-boosters-once-more",
+    "realUrl_en": "https://www.cosmosweek.com/?article=another-one-ariane-6-flies-with-four-boosters-once-more&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/another-one-ariane-6-flies-with-four-boosters-once-more/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/another-one-ariane-6-flies-with-four-boosters-once-more/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/another-one-ariane-6-flies-with-four-boosters-once-more/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/another-one-ariane-6-flies-with-four-boosters-once-more/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/another-one-ariane-6-flies-with-four-boosters-once-more/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/another-one-ariane-6-flies-with-four-boosters-once-more/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 90,
+    "scoreBreakdown": {
+      "source": 90,
+      "evidence": 86,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Ariane 6: Segundo Voo com Quatro Propulsores",
+    "imageAlt_pt": "Ariane 6: Segundo Voo com Quatro Propulsores",
+    "imageAlt_en": "Another one: Ariane 6 flies with four boosters once more",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "winter-s-end-is-written-in-the-clouds",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg/1280px-Andromeda_Galaxy_%28with_h-alpha%29.jpg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/winter's-end-is-written-in-the-clouds/akcloudswirls_tmo_20260319_lrg.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": {
+      "kind": "embed",
+      "platform": "youtube",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/12JNDSwouAg?rel=0&modestbranding=1",
+      "fileUrl": "",
+      "poster": "",
+      "title": "",
+      "title_pt": "",
+      "title_en": "",
+      "caption": "",
+      "caption_pt": "",
+      "caption_en": "",
+      "sourcePage": "https://science.nasa.gov/earth/earth-observatory/winters-end-is-written-in-the-clouds/"
+    },
+    "audio": null,
+    "title": "Formações de Nuvens no Golfo do Alasca Marcam o Fim do Inverno",
+    "title_pt": "Formações de Nuvens no Golfo do Alasca Marcam o Fim do Inverno",
+    "title_en": "Winter’s End Is Written in the Clouds",
+    "sub": "No final do inverno astronômico de 2026, os céus do Golfo do Alasca apresentaram uma variedade de formações de nuvens clássicas, capturadas por satélite, que refletiam as.",
+    "sub_pt": "No final do inverno astronômico de 2026, os céus do Golfo do Alasca apresentaram uma variedade de formações de nuvens clássicas, capturadas por satélite, que refletiam as.",
+    "sub_en": "As winter turned to spring, the skies over the Gulf of Alaska displayed textbook examples of numerous cloud formations.",
+    "excerpt": "No final do inverno astronômico de 2026, os céus do Golfo do Alasca apresentaram uma variedade de formações de nuvens clássicas, capturadas por satélite, que refletiam as condições meteorológicas da transição para a primavera.",
+    "excerpt_pt": "No final do inverno astronômico de 2026, os céus do Golfo do Alasca apresentaram uma variedade de formações de nuvens clássicas, capturadas por satélite, que refletiam as condições meteorológicas da transição para a primavera.",
+    "excerpt_en": "As winter turned to spring, the skies over the Gulf of Alaska displayed textbook examples of numerous cloud formations.",
+    "body": "<p>À medida que o inverno astronômico de 2026 chegava ao seu término, os céus sobre o Golfo do Alasca apresentavam uma rica tapeçaria de formações de nuvens, oferecendo exemplos clássicos de fenômenos atmosféricos. Essas estruturas foram registradas em 19 de março de 2026, o último dia do inverno, por meio de uma imagem capturada pelo Espectrorradiômetro de Imagem de Resolução Moderada (MODIS) a bordo do satélite Terra da NASA. A observação dessas nuvens forneceu um vislumbre das complexas interações meteorológicas que caracterizam a transição sazonal na região.</p><p>O inverno de 2026 no sul do Alasca foi marcado por temperaturas abaixo do normal em algumas áreas costeiras, acompanhadas por episódios de neve de intensidade moderada a forte. Essas condições climáticas rigorosas prepararam o cenário para os padrões atmosféricos observados no final da estação, influenciando diretamente a formação e a distribuição das nuvens sobre a vasta extensão do Golfo do Alasca. A persistência do frio e da precipitação destacou a natureza desafiadora do clima ártico e subártico.</p><p>A análise meteorológica daquele dia, conforme um boletim da Administração Oceânica e Atmosférica Nacional (NOAA), revelou uma configuração de pressão atmosférica específica que contribuiu para as formações de nuvens observadas. Uma área de baixa pressão predominava sobre o Golfo do Alasca, enquanto um sistema de alta pressão se estabelecia sobre o leste da Rússia e o norte do Alasca. Essa diferença de pressão gerou um fluxo de ar frio do Ártico, que se deslocou para sudeste, derramando-se sobre a Península do Alasca e as águas adjacentes do golfo. Esse movimento de massas de ar é crucial para a dinâmica das nuvens na região.</p><p>O influxo de ar frio ártico sobre as águas relativamente mais quentes do Golfo do Alasca é um mecanismo fundamental para a formação de diversas tipologias de nuvens. À medida que o ar frio e seco se move sobre a superfície oceânica, ele absorve umidade e é aquecido por baixo, tornando-se instável. Essa instabilidade térmica favorece a convecção e a condensação, resultando na formação de nuvens estratiformes e cumuliformes, muitas vezes organizadas em padrões distintos, como as ruas de nuvens. Tais formações são consideradas exemplos clássicos da interação entre massas de ar e superfícies oceânicas, fornecendo dados valiosos para estudos climatológicos e meteorológicos.</p><p>A capacidade de satélites como o Terra da NASA, equipado com o MODIS, de capturar imagens de alta resolução de vastas áreas geográficas é indispensável para a compreensão desses fenômenos atmosféricos em grande escala. As imagens fornecem dados cruciais para monitorar as mudanças climáticas, prever padrões meteorológicos e estudar a dinâmica da atmosfera terrestre. A observação contínua dessas formações de nuvens permite aos cientistas analisar a evolução dos sistemas meteorológicos e a influência das condições sazonais na circulação atmosférica global, contribuindo para modelos climáticos mais precisos.</p><p>Assim, as nuvens que adornavam os céus do Golfo do Alasca em 19 de março de 2026 não eram apenas um espetáculo visual, mas também um indicador meteorológico claro da transição do inverno para a primavera. Elas encapsulavam a complexidade dos processos atmosféricos que governam as mudanças sazonais, especialmente em regiões de alta latitude. A análise detalhada dessas formações contribui significativamente para o nosso entendimento sobre como as diferentes massas de ar interagem e moldam o clima regional e global, marcando o fim de uma estação e o início de outra com suas características atmosféricas distintas.</p>",
+    "body_pt": "<p>À medida que o inverno astronômico de 2026 chegava ao seu término, os céus sobre o Golfo do Alasca apresentavam uma rica tapeçaria de formações de nuvens, oferecendo exemplos clássicos de fenômenos atmosféricos. Essas estruturas foram registradas em 19 de março de 2026, o último dia do inverno, por meio de uma imagem capturada pelo Espectrorradiômetro de Imagem de Resolução Moderada (MODIS) a bordo do satélite Terra da NASA. A observação dessas nuvens forneceu um vislumbre das complexas interações meteorológicas que caracterizam a transição sazonal na região.</p><p>O inverno de 2026 no sul do Alasca foi marcado por temperaturas abaixo do normal em algumas áreas costeiras, acompanhadas por episódios de neve de intensidade moderada a forte. Essas condições climáticas rigorosas prepararam o cenário para os padrões atmosféricos observados no final da estação, influenciando diretamente a formação e a distribuição das nuvens sobre a vasta extensão do Golfo do Alasca. A persistência do frio e da precipitação destacou a natureza desafiadora do clima ártico e subártico.</p><p>A análise meteorológica daquele dia, conforme um boletim da Administração Oceânica e Atmosférica Nacional (NOAA), revelou uma configuração de pressão atmosférica específica que contribuiu para as formações de nuvens observadas. Uma área de baixa pressão predominava sobre o Golfo do Alasca, enquanto um sistema de alta pressão se estabelecia sobre o leste da Rússia e o norte do Alasca. Essa diferença de pressão gerou um fluxo de ar frio do Ártico, que se deslocou para sudeste, derramando-se sobre a Península do Alasca e as águas adjacentes do golfo. Esse movimento de massas de ar é crucial para a dinâmica das nuvens na região.</p><p>O influxo de ar frio ártico sobre as águas relativamente mais quentes do Golfo do Alasca é um mecanismo fundamental para a formação de diversas tipologias de nuvens. À medida que o ar frio e seco se move sobre a superfície oceânica, ele absorve umidade e é aquecido por baixo, tornando-se instável. Essa instabilidade térmica favorece a convecção e a condensação, resultando na formação de nuvens estratiformes e cumuliformes, muitas vezes organizadas em padrões distintos, como as ruas de nuvens. Tais formações são consideradas exemplos clássicos da interação entre massas de ar e superfícies oceânicas, fornecendo dados valiosos para estudos climatológicos e meteorológicos.</p><p>A capacidade de satélites como o Terra da NASA, equipado com o MODIS, de capturar imagens de alta resolução de vastas áreas geográficas é indispensável para a compreensão desses fenômenos atmosféricos em grande escala. As imagens fornecem dados cruciais para monitorar as mudanças climáticas, prever padrões meteorológicos e estudar a dinâmica da atmosfera terrestre. A observação contínua dessas formações de nuvens permite aos cientistas analisar a evolução dos sistemas meteorológicos e a influência das condições sazonais na circulação atmosférica global, contribuindo para modelos climáticos mais precisos.</p><p>Assim, as nuvens que adornavam os céus do Golfo do Alasca em 19 de março de 2026 não eram apenas um espetáculo visual, mas também um indicador meteorológico claro da transição do inverno para a primavera. Elas encapsulavam a complexidade dos processos atmosféricos que governam as mudanças sazonais, especialmente em regiões de alta latitude. A análise detalhada dessas formações contribui significativamente para o nosso entendimento sobre como as diferentes massas de ar interagem e moldam o clima regional e global, marcando o fim de uma estação e o início de outra com suas características atmosféricas distintas.</p>",
+    "body_en": "<p>As winter turned to spring, the skies over the Gulf of Alaska displayed textbook examples of numerous cloud formations. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. 2026, by the MODIS (Moderate Resolution Imaging Spectroradiometer) on NASA’s Terra satellite. Earth Observatory Image of the Day NASA’s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>Article View more Images of the Day: Apr 29, 2026 Instruments: Terra, MODIS Topics: Clouds Clouds line up, curl, and spin over the Gulf of Alaska in this image, acquired on March. NASA Earth Observatory/Michala Garrison Winter 2026 roared to an end in southern Alaska as parts of the coast saw below-normal temperatures and bouts of moderate to heavy snow.</p><p>A NASA satellite captured this image of the clouds on March 19, 2026, the final day of astronomical winter. According to a NOAA weather briefing, low pressure over the Gulf of Alaska that day combined with high pressure over eastern Russia and northern Alaska, causing cold Arctic air to.</p><p>NASA Earth Observatory image by Michala Garrison, using MODIS data from NASA EOSDIS LANCE and GIBS/Worldview. Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Article Clouds Swimming over Lago Argentino 6 min read A collection of fish-shaped clouds hovered above the glacial lake in Patagonia in December 2025. Article 1 2 3 4 Next Keep Exploring Discover More from NASA Earth Science Subscribe to Earth Observatory Newsletters Subscribe to the Earth Observatory and get the Earth in your.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/winters-end-is-written-in-the-clouds/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: No final do inverno astronômico de 2026, os céus do Golfo do Alasca apresentaram uma variedade de formações de nuvens clássicas, capturadas por",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: No final do inverno astronômico de 2026, os céus do Golfo do Alasca apresentaram uma variedade de formações de nuvens clássicas, capturadas por",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: As winter turned to spring, the skies over the Gulf of Alaska displayed textbook examples of numerous cloud formations",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "30 abr 2026",
+    "date_pt": "30 abr 2026",
+    "date_en": "30 Apr 2026",
+    "time": "04h00",
+    "time_pt": "04h00",
+    "time_en": "04: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-30T04:00:00+00:00",
+    "lastModifiedIso": "2026-04-30T17:15:10+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "O fim do inverno está escrito nas nuvens"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "O fim do inverno está escrito nas nuvens"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "The end of winter is written in the clouds"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/winters-end-is-written-in-the-clouds/",
+    "realUrl": "https://www.cosmosweek.com/?article=winter-s-end-is-written-in-the-clouds",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=winter-s-end-is-written-in-the-clouds",
+    "realUrl_en": "https://www.cosmosweek.com/?article=winter-s-end-is-written-in-the-clouds&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/winter-s-end-is-written-in-the-clouds/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/winter-s-end-is-written-in-the-clouds/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/winter-s-end-is-written-in-the-clouds/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/winter-s-end-is-written-in-the-clouds/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/winter-s-end-is-written-in-the-clouds/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/winter-s-end-is-written-in-the-clouds/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Formações de Nuvens no Golfo do Alasca Marcam o Fim do Inverno",
+    "imageAlt_pt": "Formações de Nuvens no Golfo do Alasca Marcam o Fim do Inverno",
+    "imageAlt_en": "Winter’s End Is Written in the Clouds",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
+    "slug": "us-indian-space-mission-maps-extreme-subsidence-in-mexico-city",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://www.nasa.gov/wp-content/uploads/2026/04/1-pia26709-mexico-city.jpg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/winter's-end-is-written-in-the-clouds/akcloudswirls_tmo_20260319_th.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/fires-rage-in-georgia/georgia_firehwy82_oli_20260423_th.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/kids/nasa-kids-science/earth/mission-nisar/nisar.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/content-feature/earth-book-2019/images/singles/single_082.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Missão espacial EUA-Índia mapeia subsidência extrema na Cidade do México",
+    "title_pt": "Missão espacial EUA-Índia mapeia subsidência extrema na Cidade do México",
+    "title_en": "US-Indian Space Mission Maps Extreme Subsidence in Mexico City",
+    "sub": "Um dos sistemas de radar mais poderosos já lançados no espaço mapeou o movimento do solo sob uma das capitais em declínio mais rápido do mundo: a Cidade do México.",
+    "sub_pt": "Um dos sistemas de radar mais poderosos já lançados no espaço mapeou o movimento do solo sob uma das capitais em declínio mais rápido do mundo: a Cidade do México.",
+    "sub_en": "One of the most powerful radar systems ever launched into space has mapped the ground moving beneath one of fastest subsiding capitals in the world: Mexico City.",
+    "excerpt": "Um dos sistemas de radar mais poderosos já lançados no espaço mapeou o movimento do solo sob uma das capitais em declínio mais rápido do mundo: a Cidade do México.",
+    "excerpt_pt": "Um dos sistemas de radar mais poderosos já lançados no espaço mapeou o movimento do solo sob uma das capitais em declínio mais rápido do mundo: a Cidade do México.",
+    "excerpt_en": "One of the most powerful radar systems ever launched into space has mapped the ground moving beneath one of fastest subsiding capitals in the world: Mexico City.",
+    "body": "<p>Um dos sistemas de radar mais poderosos já lançados no espaço mapeou o movimento do solo sob uma das capitais em declínio mais rápido do mundo: a Cidade do México. As descobertas mostram quão rápida e confiável o satélite NISAR (NASA-ISRO Synthetic Aperture Radar) pode rastrear mudanças em tempo real na superfície da Terra a partir da órbita, sem ser impedido por nuvens ou vegetação [. ].</p><p>Novos dados do NISAR mostram onde a Cidade do México e seus arredores diminuíram até alguns centímetros por mês (mostrados em azul) entre outubro de 2019 e 2017. Para saber mais sobre o NISAR, visite: https: //science. nasa. gov/mission/nisar/ Contatos de mídia Andrew Wang / Andrew Good Jet Propulsion Laboratory, Pasadena, Califórnia.</p><p>464 milhas (747 km) da Terra O que o NISAR faz. Um dos sistemas de radar mais poderosos já lançados ao espaço mapeou o movimento do solo sob uma das capitais em declínio mais rápido do mundo: México Artigo Novos dados do NISAR mostram onde a Cidade do México e seus arredores diminuíram até alguns centímetros por mês.</p><p>NASA/JPL-Caltech/David Bekaert Um dos sistemas de radar mais poderosos já lançados no espaço mapeou o movimento do solo sob uma das capitais em declínio mais rápido do mundo: a Cidade do México. As descobertas mostram quão rápida e confiável o satélite NISAR (NASA-ISRO Synthetic Aperture Radar) pode rastrear mudanças em tempo real na superfície da Terra a partir da órbita, sem ser impedido por nuvens ou vegetação que impedem sensores ópticos e radares de frequência mais.</p><p>Um engenheiro documentou o problema pela primeira vez em 1925 e, nas décadas de 1990 e 2000, partes da área metropolitana afundavam cerca de 35 centímetros por ano, danificando infraestruturas, incluindo o Metro, um dos maiores sistemas de trânsito rápido das Américas. A missão NISAR, lançada em julho de 2025, está agora a avançar nestes esforços, analisando áreas em rápida mudança que são difíceis de observar a partir do espaço.</p><p>Imagens como esta confirmam que as medições do NISAR estão alinhadas com as expectativas”, disse Craig Ferguson, vice-gerente de projetos na sede da NASA em Washington.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/nisar/us-indian-space-mission-maps-extreme-subsidence-in-mexico-city/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Um dos sistemas de radar mais poderosos já lançados no espaço mapeou o movimento do solo sob uma das capitais em declínio mais rápido do mundo: a Cidade do México. As descobertas mostram quão rápida e confiável o satélite NISAR (NASA-ISRO Synthetic Aperture Radar) pode rastrear mudanças em tempo real na superfície da Terra a partir da órbita, sem ser impedido por nuvens ou vegetação [. ].</p><p>Novos dados do NISAR mostram onde a Cidade do México e seus arredores diminuíram até alguns centímetros por mês (mostrados em azul) entre outubro de 2019 e 2017. Para saber mais sobre o NISAR, visite: https: //science. nasa. gov/mission/nisar/ Contatos de mídia Andrew Wang / Andrew Good Jet Propulsion Laboratory, Pasadena, Califórnia.</p><p>464 milhas (747 km) da Terra O que o NISAR faz. Um dos sistemas de radar mais poderosos já lançados ao espaço mapeou o movimento do solo sob uma das capitais em declínio mais rápido do mundo: México Artigo Novos dados do NISAR mostram onde a Cidade do México e seus arredores diminuíram até alguns centímetros por mês.</p><p>NASA/JPL-Caltech/David Bekaert Um dos sistemas de radar mais poderosos já lançados no espaço mapeou o movimento do solo sob uma das capitais em declínio mais rápido do mundo: a Cidade do México. As descobertas mostram quão rápida e confiável o satélite NISAR (NASA-ISRO Synthetic Aperture Radar) pode rastrear mudanças em tempo real na superfície da Terra a partir da órbita, sem ser impedido por nuvens ou vegetação que impedem sensores ópticos e radares de frequência mais.</p><p>Um engenheiro documentou o problema pela primeira vez em 1925 e, nas décadas de 1990 e 2000, partes da área metropolitana afundavam cerca de 35 centímetros por ano, danificando infraestruturas, incluindo o Metro, um dos maiores sistemas de trânsito rápido das Américas. A missão NISAR, lançada em julho de 2025, está agora a avançar nestes esforços, analisando áreas em rápida mudança que são difíceis de observar a partir do espaço.</p><p>Imagens como esta confirmam que as medições do NISAR estão alinhadas com as expectativas”, disse Craig Ferguson, vice-gerente de projetos na sede da NASA em Washington.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/nisar/us-indian-space-mission-maps-extreme-subsidence-in-mexico-city/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>One of the most powerful radar systems ever launched into space has mapped the ground moving beneath one of fastest subsiding capitals in the world: Mexico City. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The findings show how quickly and reliably the NISAR (NASA-ISRO Synthetic Aperture Radar) satellite can track real-time changes across Earth’s surface from orbit, unhindered by. New data from NISAR shows where Mexico City and its environs subsided by up to a few centimeters per month (shown in blue) between Oct.</p><p>To learn more about NISAR, visit: https: //science. nasa. gov/mission/nisar/ Media Contacts Andrew Wang / Andrew Good Jet Propulsion Laboratory, Pasadena, Calif. 464 miles (747 km) from Earth What does NISAR do. Water | Earth, A Photo-Essay We shall not cease from exploration, and the end of all our exploring will be to arrive where we.</p><p>One of the most powerful radar systems ever launched into space has mapped the ground moving beneath one of fastest subsiding capitals in the world: Mexico Article New data from. NASA/JPL-Caltech/David Bekaert One of the most powerful radar systems ever launched into space has mapped the ground moving beneath one of fastest subsiding capitals in the world.</p><p>An engineer first documented the issue in 1925, and by the 1990s and 2000s, parts of the metropolitan area were sinking by around 14 inches (35 centimeters) per year, damaging. The NISAR mission, launched in July 2025, is now advancing these efforts, analyzing fast-changing areas that are challenging to survey from space.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Images like this confirm that NISAR’s measurements align with expectations,” said Craig Ferguson, deputy project manager at NASA Headquarters in Washington. Built in 1910 to commemorate 100 years of Mexico’s independence, the towering monument stands 114 feet (36 meters) high and has had 14 steps added to its base as the land around.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/nisar/us-indian-space-mission-maps-extreme-subsidence-in-mexico-city/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Um dos sistemas de radar mais poderosos já lançados no espaço mapeou o movimento do solo sob uma das capitais em declínio mais rápido do mundo: a",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Um dos sistemas de radar mais poderosos já lançados no espaço mapeou o movimento do solo sob uma das capitais em declínio mais rápido do mundo: a",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: One of the most powerful radar systems ever launched into space has mapped the ground moving beneath one of fastest subsiding capitals in the world",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "29 abr 2026",
+    "date_pt": "29 abr 2026",
+    "date_en": "29 Apr 2026",
+    "time": "20h23",
+    "time_pt": "20h23",
+    "time_en": "20: 23 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-29T20:23:12+00:00",
+    "lastModifiedIso": "2026-04-30T17:15:10+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Missão espacial EUA",
+      "Índia mapeia subsidência extrema na Cidade do México"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Missão espacial EUA",
+      "Índia mapeia subsidência extrema na Cidade do México"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA News Releases",
+      "Cosmos Week",
+      "USA space mission",
+      "India maps extreme subsidence in Mexico City"
+    ],
+    "srcUrl": "https://www.nasa.gov/missions/nisar/us-indian-space-mission-maps-extreme-subsidence-in-mexico-city/",
+    "realUrl": "https://www.cosmosweek.com/?article=us-indian-space-mission-maps-extreme-subsidence-in-mexico-city",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=us-indian-space-mission-maps-extreme-subsidence-in-mexico-city",
+    "realUrl_en": "https://www.cosmosweek.com/?article=us-indian-space-mission-maps-extreme-subsidence-in-mexico-city&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/us-indian-space-mission-maps-extreme-subsidence-in-mexico-city/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/us-indian-space-mission-maps-extreme-subsidence-in-mexico-city/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/us-indian-space-mission-maps-extreme-subsidence-in-mexico-city/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/us-indian-space-mission-maps-extreme-subsidence-in-mexico-city/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/us-indian-space-mission-maps-extreme-subsidence-in-mexico-city/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/us-indian-space-mission-maps-extreme-subsidence-in-mexico-city/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Missão espacial EUA-Índia mapeia subsidência extrema na Cidade do México",
+    "imageAlt_pt": "Missão espacial EUA-Índia mapeia subsidência extrema na Cidade do México",
+    "imageAlt_en": "US-Indian Space Mission Maps Extreme Subsidence in Mexico City",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 4,
+    "slug": "mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza",
+    "cat": "Cosmologia",
+    "catCls": "cosmologia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hubble_ultra_deep_field.jpg/1280px-Hubble_ultra_deep_field.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "MujicΛ: Reconstrução de Condições Iniciais a Partir de Levantamentos de Redshift Incompletos com Otimização Projetada",
+    "title_pt": "MujicΛ: Reconstrução de Condições Iniciais a Partir de Levantamentos de Redshift Incompletos com Otimização Projetada",
+    "title_en": "MujicΛ: Reconstructing Initial Conditions from Incomplete Redshift Surveys with Projected Optimization",
+    "sub": "Este artigo apresenta MujicΛ, uma estrutura baseada em otimização para reconstruir condições iniciais a partir de levantamentos espectroscópicos de redshift de galáxias.",
+    "sub_pt": "Este artigo apresenta MujicΛ, uma estrutura baseada em otimização para reconstruir condições iniciais a partir de levantamentos espectroscópicos de redshift de galáxias.",
+    "sub_en": "In this paper, we introduce MujicΛ, an optimization-based framework for reconstructing initial conditions from realistic galaxy spectroscopic redshift surveys.",
+    "excerpt": "Este artigo apresenta MujicΛ, uma estrutura baseada em otimização para reconstruir condições iniciais a partir de levantamentos espectroscópicos de redshift de galáxias.",
+    "excerpt_pt": "Este artigo apresenta MujicΛ, uma estrutura baseada em otimização para reconstruir condições iniciais a partir de levantamentos espectroscópicos de redshift de galáxias.",
+    "excerpt_en": "In this paper, we introduce MujicΛ, an optimization-based framework for reconstructing initial conditions from realistic galaxy spectroscopic redshift surveys.",
+    "body": "<p>Este artigo apresenta MujicΛ (Mapeando o Universo com Reconstrução de Condição Inicial baseada em Jax), uma estrutura inovadora baseada em otimização, desenvolvida para reconstruir as condições iniciais a partir de levantamentos espectroscópicos de redshift de galáxias realistas. A capacidade de inferir as condições primordiais do universo a partir de dados observacionais atuais é crucial para a cosmologia, permitindo uma compreensão mais profunda da formação e evolução das estruturas cósmicas. A precisão na reconstrução dessas condições é fundamental para simulações cosmológicas restritas e para a interpretação de dados de levantamentos de galáxias em grande escala.</p><p>Diferentemente das abordagens de otimização padrão, MujicΛ aprimora o algoritmo L-BFGS com a inclusão de um operador de projeção e correspondência de ordem de classificação. Essa modificação é essencial para impor a gaussianidade das condições iniciais, um pressuposto fundamental em muitos modelos cosmológicos, e para melhorar substancialmente a robustez do método. A integração desses operadores permite que a estrutura lide de forma mais eficaz com as complexidades e incompletudes inerentes aos dados de levantamentos astronômicos, garantindo resultados mais confiáveis e consistentes com a teoria.</p><p>A validação de MujicΛ foi realizada utilizando um catálogo simulado de lightcone, que foi derivado de modelos semi-analíticos aplicados à renomada simulação Millennium. Este ambiente de teste controlado e detalhado é crucial para avaliar a performance da estrutura em cenários que replicam as condições observacionais. A escolha de um catálogo de lightcone permite simular os efeitos de seleção e incompletude que são característicos dos levantamentos reais de galáxias, proporcionando uma avaliação rigorosa da capacidade de MujicΛ de lidar com dados do mundo real.</p><p>Para sustentar a reconstrução, construímos um modelo direto diferenciável que integra uma simulação rápida de malha de partículas com resolução de megaparsec. Este modelo é complementado por um tratamento abrangente dos efeitos observacionais e da incompletude dos levantamentos. A capacidade de diferenciação do modelo direto é um aspecto chave, pois permite a aplicação eficiente de algoritmos de otimização baseados em gradiente, como o L-BFGS, facilitando a exploração do espaço de parâmetros e a convergência para as condições iniciais mais prováveis.</p><p>Os resultados demonstram que MujicΛ alcança uma boa concordância com o campo de densidade real até a escala do modelo direto. Essa consistência é mantida durante a etapa de projeção, garantindo a aderência ao prior gaussiano. A estrutura também se mostrou eficaz na recuperação da classificação da teia cósmica, um aspecto crucial para a compreensão da distribuição de matéria em larga escala. Essa capacidade ressalta o valor de MujicΛ para decifrar informações ambientais detalhadas em estudos de evolução de galáxias, fornecendo insights sobre como as galáxias se formam e evoluem em diferentes ambientes cósmicos.</p><p>Além de seu papel fundamental nas simulações restritas da próxima geração, a metodologia proposta por MujicΛ oferece uma maneira prática de gerar suposições iniciais robustas. Isso é particularmente útil para acelerar a inferência em nível de campo, um desafio computacional significativo em cosmologia. A aplicabilidade de MujicΛ é vasta, especialmente para futuros levantamentos de galáxias em grande escala, onde a eficiência e a precisão na reconstrução das condições iniciais serão cada vez mais críticas para extrair o máximo de informação científica.</p>",
+    "body_pt": "<p>Este artigo apresenta MujicΛ (Mapeando o Universo com Reconstrução de Condição Inicial baseada em Jax), uma estrutura inovadora baseada em otimização, desenvolvida para reconstruir as condições iniciais a partir de levantamentos espectroscópicos de redshift de galáxias realistas. A capacidade de inferir as condições primordiais do universo a partir de dados observacionais atuais é crucial para a cosmologia, permitindo uma compreensão mais profunda da formação e evolução das estruturas cósmicas. A precisão na reconstrução dessas condições é fundamental para simulações cosmológicas restritas e para a interpretação de dados de levantamentos de galáxias em grande escala.</p><p>Diferentemente das abordagens de otimização padrão, MujicΛ aprimora o algoritmo L-BFGS com a inclusão de um operador de projeção e correspondência de ordem de classificação. Essa modificação é essencial para impor a gaussianidade das condições iniciais, um pressuposto fundamental em muitos modelos cosmológicos, e para melhorar substancialmente a robustez do método. A integração desses operadores permite que a estrutura lide de forma mais eficaz com as complexidades e incompletudes inerentes aos dados de levantamentos astronômicos, garantindo resultados mais confiáveis e consistentes com a teoria.</p><p>A validação de MujicΛ foi realizada utilizando um catálogo simulado de lightcone, que foi derivado de modelos semi-analíticos aplicados à renomada simulação Millennium. Este ambiente de teste controlado e detalhado é crucial para avaliar a performance da estrutura em cenários que replicam as condições observacionais. A escolha de um catálogo de lightcone permite simular os efeitos de seleção e incompletude que são característicos dos levantamentos reais de galáxias, proporcionando uma avaliação rigorosa da capacidade de MujicΛ de lidar com dados do mundo real.</p><p>Para sustentar a reconstrução, construímos um modelo direto diferenciável que integra uma simulação rápida de malha de partículas com resolução de megaparsec. Este modelo é complementado por um tratamento abrangente dos efeitos observacionais e da incompletude dos levantamentos. A capacidade de diferenciação do modelo direto é um aspecto chave, pois permite a aplicação eficiente de algoritmos de otimização baseados em gradiente, como o L-BFGS, facilitando a exploração do espaço de parâmetros e a convergência para as condições iniciais mais prováveis.</p><p>Os resultados demonstram que MujicΛ alcança uma boa concordância com o campo de densidade real até a escala do modelo direto. Essa consistência é mantida durante a etapa de projeção, garantindo a aderência ao prior gaussiano. A estrutura também se mostrou eficaz na recuperação da classificação da teia cósmica, um aspecto crucial para a compreensão da distribuição de matéria em larga escala. Essa capacidade ressalta o valor de MujicΛ para decifrar informações ambientais detalhadas em estudos de evolução de galáxias, fornecendo insights sobre como as galáxias se formam e evoluem em diferentes ambientes cósmicos.</p><p>Além de seu papel fundamental nas simulações restritas da próxima geração, a metodologia proposta por MujicΛ oferece uma maneira prática de gerar suposições iniciais robustas. Isso é particularmente útil para acelerar a inferência em nível de campo, um desafio computacional significativo em cosmologia. A aplicabilidade de MujicΛ é vasta, especialmente para futuros levantamentos de galáxias em grande escala, onde a eficiência e a precisão na reconstrução das condições iniciais serão cada vez mais críticas para extrair o máximo de informação científica.</p>",
+    "body_en": "<p>In this paper, we introduce MujicΛ, an optimization-based framework for reconstructing initial conditions from realistic galaxy spectroscopic redshift surveys. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It is relevant because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Unlike standard optimization-based approaches, MujicΛ augments the L-BFGS algorithm with a projection operator and rank-order matching to enforce Gaussianity of the initial. In this paper, we introduce MujicΛ (Mapping the Universe with Jax-based Initial Condition ReconstrΛction), an optimization-based framework for reconstructing initial conditions.</p><p>We validate MujicΛ on a mock lightcone catalog derived from semi-analytic models applied to the Millennium simulation. We construct a differentiable forward model that incorporates a fast particle-mesh simulation at megaparsec resolution and a comprehensive treatment of observational effects and.</p><p>MujicΛ reaches good agreement with the true density field down to the scale of the forward model, while maintaining consistency with the Gaussian prior through the projection step. It also broadly recovers the cosmic web classification, underscoring its value for deciphering environmental information in galaxy evolution studies.</p><p>Beyond its key role in next-generation constrained simulations, the methodology offers a practical way to generate initial guesses and speed up field-level inference, especially. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.26823v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Este artigo apresenta MujicΛ, uma estrutura baseada em otimização para reconstruir condições iniciais a partir de levantamentos espectroscópicos de",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: Este artigo apresenta MujicΛ, uma estrutura baseada em otimização para reconstruir condições iniciais a partir de levantamentos espectroscópicos de",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: In this paper, we introduce MujicΛ, an optimization-based framework for reconstructing initial conditions from realistic galaxy spectroscopic",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "29 abr 2026",
+    "date_pt": "29 abr 2026",
+    "date_en": "29 Apr 2026",
+    "time": "15h49",
+    "time_pt": "15h49",
+    "time_en": "15: 49 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-29T15:49:01+00:00",
+    "lastModifiedIso": "2026-04-30T17:15:10+00:00",
+    "source": "arXiv Cosmology",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Cosmologia",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "MujicΛ",
+      "Reconstruindo Condições Iniciais de Pesquisas Redshift Incompletas com Otimização Projetada"
+    ],
+    "keywords_pt": [
+      "Cosmologia",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "MujicΛ",
+      "Reconstruindo Condições Iniciais de Pesquisas Redshift Incompletas com Otimização Projetada"
+    ],
+    "keywords_en": [
+      "Cosmology",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "MujicΛ",
+      "Reconstructing Initial Conditions from Incomplete Redshift Searches with Engineered Optimization"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2604.26823v1",
+    "realUrl": "https://www.cosmosweek.com/?article=mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza",
+    "realUrl_en": "https://www.cosmosweek.com/?article=mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 80,
+    "scoreBreakdown": {
+      "source": 64,
+      "evidence": 39,
+      "relevance": 94,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "MujicΛ: Reconstrução de Condições Iniciais a Partir de Levantamentos de Redshift Incompletos com Otimização Projetada",
+    "imageAlt_pt": "MujicΛ: Reconstrução de Condições Iniciais a Partir de Levantamentos de Redshift Incompletos com Otimização Projetada",
+    "imageAlt_en": "MujicΛ: Reconstructing Initial Conditions from Incomplete Redshift Surveys with Projected Optimization",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 5,
     "slug": "stunning-images-from-biomass-mark-its-one-year-in-orbit",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -178,7 +767,133 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 6,
+    "slug": "trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters",
+    "cat": "Astrofísica",
+    "catCls": "astrofisica",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/M87_jet.jpg/1280px-M87_jet.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Captura, formas de onda irregulares e radiação eficiente em encontros ultra-relativísticos de buracos negros",
+    "title_pt": "Captura, formas de onda irregulares e radiação eficiente em encontros ultra-relativísticos de buracos negros",
+    "title_en": "Trapping, Irregular Waveforms, and Efficient Radiation in Ultra-relativistic Black Hole Encounters",
+    "sub": "Demonstramos que os encontros ultra-relativísticos com buracos negros revelam um novo regime de interação de dois corpos na relatividade geral.",
+    "sub_pt": "Demonstramos que os encontros ultra-relativísticos com buracos negros revelam um novo regime de interação de dois corpos na relatividade geral.",
+    "sub_en": "We demonstrate that ultra-relativistic black hole encounters reveal a new regime of the two-body interaction in general relativity.",
+    "excerpt": "Demonstramos que os encontros ultra-relativísticos com buracos negros revelam um novo regime de interação de dois corpos na relatividade geral.",
+    "excerpt_pt": "Demonstramos que os encontros ultra-relativísticos com buracos negros revelam um novo regime de interação de dois corpos na relatividade geral.",
+    "excerpt_en": "We demonstrate that ultra-relativistic black hole encounters reveal a new regime of the two-body interaction in general relativity.",
+    "body": "<p>Neste estudo, demonstramos que encontros ultra-relativísticos envolvendo buracos negros revelam um regime de interação de dois corpos inédito no contexto da relatividade geral. Nossas simulações numéricas aprofundam a compreensão desses fenômenos extremos, desafiando expectativas anteriores e fornecendo novas perspectivas sobre a dinâmica de sistemas binários de buracos negros em velocidades próximas à da luz. A investigação desses cenários é crucial para a astrofísica de ondas gravitacionais, especialmente com o avanço de observatórios capazes de detectar eventos cósmicos de alta energia.</p><p>Para investigar esses encontros, evoluímos buracos negros de massa igual e não giratórios, utilizando a relatividade numérica, com fatores iniciais de Lorentz de centro de massa que atingem até $\\gamma\\approx 5, 1$. Contrariando a expectativa padrão de uma descrição pós-newtoniana seguida por uma fase de coalescência, as formas de onda resultantes mostraram-se significativamente mais complexas. Em vez de um padrão previsível, observamos comportamentos que indicam uma interação mais intrincada e menos linear do que o previamente teorizado para esses regimes de alta energia.</p><p>Especificamente, em parâmetros de impacto diferentes de zero, o sistema binário pode exibir emissões de ondas gravitacionais prolongadas e altamente irregulares. Além disso, notamos uma absorção significativa de energia no horizonte dos buracos negros, mesmo em cenários onde a coalescência final não ocorre. Essa observação é particularmente notável, pois sugere que a interação gravitacional em regimes ultra-relativísticos pode levar a perdas de energia substanciais e dinâmicas complexas que não se encaixam facilmente nos modelos simplificados existentes.</p><p>Nossa análise revela que esses fenômenos são impulsionados por dois mecanismos principais: a captura nula transitória e as lentes repetidas de radiação na região de interação binária. A captura nula transitória refere-se a situações em que a luz ou as ondas gravitacionais são temporariamente capturadas e reemitidas, enquanto as lentes de radiação implicam que a própria radiação gravitacional é curvada e focada pela forte gravidade dos buracos negros, influenciando a dinâmica do sistema de maneiras complexas e não lineares. Esses processos contribuem para a natureza irregular das formas de onda observadas.</p><p>As simulações indicam que uma fração notável da energia inicial do ADM (Arnowitt-Deser-Misner) pode ser irradiada como ondas gravitacionais. Mais de $65\\%$ dessa energia foi observada sendo emitida em $\\gamma\\approx 5, 1$. Este valor é substancialmente maior do que as estimativas anteriores, que eram baseadas na extrapolação de dados obtidos em impulsos mais baixos. A magnitude dessa radiação de energia sublinha a eficiência com que os encontros ultra-relativísticos podem converter massa-energia em ondas gravitacionais, tornando-os fontes potencialmente poderosas para detecção.</p><p>Os resultados obtidos neste trabalho abrem novas avenidas para a compreensão da relatividade geral em regimes extremos e têm implicações significativas para a astrofísica de buracos negros. A identificação de um novo regime de interação de dois corpos, caracterizado por formas de onda irregulares e alta eficiência de radiação, sugere a necessidade de refinar os modelos teóricos e computacionais existentes. Futuras pesquisas podem explorar a influência de outros parâmetros, como o spin dos buracos negros e diferentes razões de massa, para mapear completamente a paisagem dessas interações ultra-relativísticas.</p>",
+    "body_pt": "<p>Neste estudo, demonstramos que encontros ultra-relativísticos envolvendo buracos negros revelam um regime de interação de dois corpos inédito no contexto da relatividade geral. Nossas simulações numéricas aprofundam a compreensão desses fenômenos extremos, desafiando expectativas anteriores e fornecendo novas perspectivas sobre a dinâmica de sistemas binários de buracos negros em velocidades próximas à da luz. A investigação desses cenários é crucial para a astrofísica de ondas gravitacionais, especialmente com o avanço de observatórios capazes de detectar eventos cósmicos de alta energia.</p><p>Para investigar esses encontros, evoluímos buracos negros de massa igual e não giratórios, utilizando a relatividade numérica, com fatores iniciais de Lorentz de centro de massa que atingem até $\\gamma\\approx 5, 1$. Contrariando a expectativa padrão de uma descrição pós-newtoniana seguida por uma fase de coalescência, as formas de onda resultantes mostraram-se significativamente mais complexas. Em vez de um padrão previsível, observamos comportamentos que indicam uma interação mais intrincada e menos linear do que o previamente teorizado para esses regimes de alta energia.</p><p>Especificamente, em parâmetros de impacto diferentes de zero, o sistema binário pode exibir emissões de ondas gravitacionais prolongadas e altamente irregulares. Além disso, notamos uma absorção significativa de energia no horizonte dos buracos negros, mesmo em cenários onde a coalescência final não ocorre. Essa observação é particularmente notável, pois sugere que a interação gravitacional em regimes ultra-relativísticos pode levar a perdas de energia substanciais e dinâmicas complexas que não se encaixam facilmente nos modelos simplificados existentes.</p><p>Nossa análise revela que esses fenômenos são impulsionados por dois mecanismos principais: a captura nula transitória e as lentes repetidas de radiação na região de interação binária. A captura nula transitória refere-se a situações em que a luz ou as ondas gravitacionais são temporariamente capturadas e reemitidas, enquanto as lentes de radiação implicam que a própria radiação gravitacional é curvada e focada pela forte gravidade dos buracos negros, influenciando a dinâmica do sistema de maneiras complexas e não lineares. Esses processos contribuem para a natureza irregular das formas de onda observadas.</p><p>As simulações indicam que uma fração notável da energia inicial do ADM (Arnowitt-Deser-Misner) pode ser irradiada como ondas gravitacionais. Mais de $65\\%$ dessa energia foi observada sendo emitida em $\\gamma\\approx 5, 1$. Este valor é substancialmente maior do que as estimativas anteriores, que eram baseadas na extrapolação de dados obtidos em impulsos mais baixos. A magnitude dessa radiação de energia sublinha a eficiência com que os encontros ultra-relativísticos podem converter massa-energia em ondas gravitacionais, tornando-os fontes potencialmente poderosas para detecção.</p><p>Os resultados obtidos neste trabalho abrem novas avenidas para a compreensão da relatividade geral em regimes extremos e têm implicações significativas para a astrofísica de buracos negros. A identificação de um novo regime de interação de dois corpos, caracterizado por formas de onda irregulares e alta eficiência de radiação, sugere a necessidade de refinar os modelos teóricos e computacionais existentes. Futuras pesquisas podem explorar a influência de outros parâmetros, como o spin dos buracos negros e diferentes razões de massa, para mapear completamente a paisagem dessas interações ultra-relativísticas.</p>",
+    "body_en": "<p>The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>That matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Have an idea for a project that will add value for arXiv&#x27;s community. Instead, at nonzero impact parameter, the system can exhibit prolonged, highly irregular emission and significant horizon absorption, even without coalescence.</p><p>We show these phenomena are driven by transient null trapping and repeated lensing of radiation in the binary interaction region.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.26253v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Demonstramos que os encontros ultra-relativísticos com buracos negros revelam um novo regime de interação de dois corpos na relatividade geral",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: Demonstramos que os encontros ultra-relativísticos com buracos negros revelam um novo regime de interação de dois corpos na relatividade geral",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: We demonstrate that ultra-relativistic black hole encounters reveal a new regime of the two-body interaction in general relativity",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "29 abr 2026",
+    "date_pt": "29 abr 2026",
+    "date_en": "29 Apr 2026",
+    "time": "03h22",
+    "time_pt": "03h22",
+    "time_en": "03: 22 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-29T03:22:25+00:00",
+    "lastModifiedIso": "2026-04-30T17:15:10+00:00",
+    "source": "arXiv High Energy Astrophysics",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Astrofísica",
+      "arXiv High Energy Astrophysics",
+      "Cosmos Week",
+      "Captura",
+      "formas de onda irregulares e radiação eficiente em encontros ultra",
+      "relativísticos de buracos negros"
+    ],
+    "keywords_pt": [
+      "Astrofísica",
+      "arXiv High Energy Astrophysics",
+      "Cosmos Week",
+      "Captura",
+      "formas de onda irregulares e radiação eficiente em encontros ultra",
+      "relativísticos de buracos negros"
+    ],
+    "keywords_en": [
+      "Astrophysics",
+      "arXiv High Energy Astrophysics",
+      "Cosmos Week",
+      "Capture",
+      "irregular waveforms and efficient radiation in ultra-high encounters",
+      "relativistic black holes"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2604.26253v1",
+    "realUrl": "https://www.cosmosweek.com/?article=trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters",
+    "realUrl_en": "https://www.cosmosweek.com/?article=trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 80,
+    "scoreBreakdown": {
+      "source": 63,
+      "evidence": 39,
+      "relevance": 94,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Captura, formas de onda irregulares e radiação eficiente em encontros ultra-relativísticos de buracos negros",
+    "imageAlt_pt": "Captura, formas de onda irregulares e radiação eficiente em encontros ultra-relativísticos de buracos negros",
+    "imageAlt_en": "Trapping, Irregular Waveforms, and Efficient Radiation in Ultra-relativistic Black Hole Encounters",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 7,
     "slug": "nasa-connects-little-red-dots-with-chandra-webb",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -199,19 +914,19 @@ window.postsData = [
     "body_pt": "<p>Um objeto recém-descoberto pode ser a chave para desvendar a verdadeira natureza de uma misteriosa classe de fontes que os astrônomos encontraram no Universo primitivo nos últimos anos. Este objeto especial, apelidado de &#x27;ponto de raios X&#x27;, representa uma descoberta do Observatório Chandra que pode ajudar a explicar a natureza de uma classe enigmática de fontes no Universo primordial. A equipe de pesquisa identificou este objeto após comparar novos dados do Telescópio Espacial James Webb (Webb) com uma pesquisa profunda realizada anteriormente pelo Observatório de Raios-X Chandra (Chandra). Este novo &#x27;ponto de raios X&#x27;, oficialmente conhecido como 3DHST-AEGIS-12014, está localizado a aproximadamente 11, 8 bilhões de anos-luz da Terra.</p><p>Pouco depois de o Telescópio Espacial James Webb da NASA ter iniciado suas observações científicas, surgiram relatos de uma nova classe de objetos misteriosos. Os astrônomos encontraram pequenos objetos vermelhos a cerca de 12 bilhões de anos-luz da Terra ou mais longe, que ficaram conhecidos como &#x27;pequenos pontos vermelhos&#x27; (LRDs). Esses LRDs representam uma classe de objetos enigmáticos, e o &#x27;ponto de raios X&#x27; (3DHST-AEGIS-12014) pode, portanto, fornecer uma ponte crucial entre estrelas de buracos negros e buracos negros supermassivos em crescimento, que são os tipos mais comuns de buracos negros observados.</p><p>Para a análise deste objeto especial, foi essencial a combinação de dados de múltiplos observatórios. Imagens ópticas e infravermelhas do Telescópio Espacial Hubble revelaram a região circundante ao &#x27;ponto de raios X&#x27;, enquanto as observações de raios X do Chandra forneceram um close-up detalhado da fonte. A sinergia entre as capacidades do Webb, que explora o infravermelho, e do Chandra, que detecta raios X, foi fundamental para a identificação e caracterização precisa deste objeto celeste.</p><p>Este único objeto de raios X pode ser o elo que permite aos cientistas conectar os pontos e desvendar a natureza desses objetos enigmáticos no Universo primordial. A detecção de raios X provenientes de 3DHST-AEGIS-12014 sugere que ele pode ser um buraco negro em crescimento, embora de massa menor do que os buracos negros supermassivos típicos encontrados em galáxias massivas. Essa descoberta é vital para entender como os buracos negros se formaram e evoluíram nos primeiros bilhões de anos após o Big Bang.</p><p>A compreensão da natureza dos &#x27;pequenos pontos vermelhos&#x27; é um dos grandes desafios da cosmologia moderna. A hipótese de que alguns desses objetos possam ser buracos negros de massa intermediária ou buracos negros supermassivos em seus estágios iniciais de crescimento é fortalecida pela observação do &#x27;ponto de raios X&#x27;. Este achado abre novas avenidas para a pesquisa, permitindo que os astrônomos busquem por assinaturas de raios X em outros LRDs, a fim de confirmar se a presença de buracos negros é uma característica comum dessa população.</p><p>A colaboração entre diferentes observatórios, como Chandra, Webb e Hubble, demonstra a importância da astronomia multi-comprimento de onda para desvendar os mistérios do cosmos. Cada telescópio oferece uma perspectiva única, e a combinação de seus dados permite uma compreensão mais completa dos fenômenos astrofísicos. A capacidade de observar tanto a luz visível e infravermelha quanto os raios X é crucial para identificar e caracterizar objetos que, de outra forma, permaneceriam ocultos ou mal compreendidos, especialmente em regiões distantes e antigas do universo.</p><p>A descoberta do &#x27;ponto de raios X&#x27; não apenas elucida a natureza dos &#x27;pequenos pontos vermelhos&#x27;, mas também contribui significativamente para o nosso conhecimento sobre a formação e evolução dos buracos negros e das galáxias no Universo primitivo. Ao fornecer um elo potencial entre diferentes classes de buracos negros, este objeto oferece insights valiosos sobre os processos que moldaram o cosmos em suas fases iniciais, pavimentando o caminho para futuras investigações e descobertas ainda mais profundas sobre a história e a estrutura do universo.</p>",
     "body_en": "<p>A newly discovered object may be a key to unlocking the true nature of a mysterious class of sources that astronomers have found in the early universe in recent years. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. This image of a special object, dubbed the “X-ray dot,” represents a discovery from Chandra that could help explain the nature of a mysterious class of sources in the early. Major The team found this one special object after comparing new data from Webb with a deep survey previously performed by Chandra.</p><p>The Smithsonian Astrophysical Observatory’s Chandra X-ray Center controls science operations from Cambridge, Massachusetts, and flight operations from Burlington, Massachusetts. Read more from NASA’s Chandra X-ray Observatory Learn more about the Chandra X-ray Observatory and its mission here: https: //science. nasa. gov/chandra https: //chandra. si.</p><p>Article This image of a special object, dubbed the “X-ray dot,” represents a discovery from Chandra that could help explain the nature of a mysterious class of. The optical and infrared image from Hubble show the region around the X-ray dot, while the Chandra X-ray image shows the close up.</p><p>Shortly after NASA’s James Webb Space Telescope started its science observations, reports of a new class of mysterious objects emerged. Small, red objects about 12 billion light-years from Earth or farther, which became known as “little red dots” (LRDs).</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>This new “X-ray dot” (officially known as 3DHST-AEGIS-12014), which is located about 11.8 billion light-years from Earth, may provide a crucial bridge between black hole stars and. This single X-ray object may be, to use a phrase, what lets us connect all of the dots. ” The team found this one special object after comparing new data from Webb with a deep.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/chandra/nasa-connects-little-red-dots-with-chandra-webb/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Um objeto recém-descoberto pode ser crucial para desvendar a verdadeira natureza de uma misteriosa classe de fontes que os astrônomos têm observado",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Um objeto recém-descoberto pode ser crucial para desvendar a verdadeira natureza de uma misteriosa classe de fontes que os astrônomos têm observado.",
+      "Dado-chave: Um objeto recém-descoberto pode ser crucial para desvendar a verdadeira natureza de uma misteriosa classe de fontes que os astrônomos têm.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Um objeto recém-descoberto pode ser crucial para desvendar a verdadeira natureza de uma misteriosa classe de fontes que os astrônomos têm observado",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Um objeto recém-descoberto pode ser crucial para desvendar a verdadeira natureza de uma misteriosa classe de fontes que os astrônomos têm observado.",
+      "Dado-chave: Um objeto recém-descoberto pode ser crucial para desvendar a verdadeira natureza de uma misteriosa classe de fontes que os astrônomos têm.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: A newly discovered object may be a key to unlocking the true nature of a mysterious class of sources that astronomers have found in the early",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: A newly discovered object may be a key to unlocking the true nature of a mysterious class of sources that astronomers have found in the early.",
+      "Key detail: A newly discovered object may be a key to unlocking the true nature of a mysterious class of sources that astronomers have found in the early",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "28 abr 2026",
     "date_pt": "28 abr 2026",
@@ -302,7 +1017,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 8,
     "slug": "nighttime-imaging-grows-landsat-s-science-value",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -446,7 +1161,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 9,
     "slug": "gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -467,18 +1182,19 @@ window.postsData = [
     "body_pt": "<p>Estas notas foram elaboradas para uma sessão memorial dedicada a George Lazarides, um renomado pesquisador cujas contribuições foram fundamentais para o campo da física de partículas e cosmologia. O presente texto revisita um trabalho conjunto sobre a cosmologia de um áxion de calibre, inserindo-o em um contexto mais amplo de ideias que interligam simetrias de calibre anômalas, ações efetivas, campos de Stueckelberg e a natureza da matéria escura. A discussão visa não apenas homenagear a memória de Lazarides, mas também aprofundar a compreensão sobre a complexidade e a interconexão desses fenômenos fundamentais no universo. A pesquisa em questão explora as implicações teóricas e observacionais de modelos que buscam unificar diferentes aspectos da física de altas energias e da cosmologia, com foco particular na busca por candidatos à matéria escura que se alinhem com as observações astrofísicas e cosmológicas atuais. A relevância desse estudo reside na sua capacidade de propor novas vias para a detecção e caracterização de partículas de matéria escura, utilizando abordagens que transcendem os modelos padrão.</p><p>Em modelos que incorporam uma simetria extra anômala $U(1)$, o pseudoescalar de Stueckelberg desempenha um papel crucial na restauração da invariância de calibre. Este processo ocorre por meio da introdução de contratermos de Wess-Zumino, que são essenciais para manter a consistência teórica do modelo. Após a quebra de simetria eletrofraca, este pseudoescalar pode dar origem a um estado físico que se assemelha a um áxion, uma partícula hipotética que é um forte candidato à matéria escura. A interação entre a simetria $U(1)$ e os mecanismos de quebra de simetria é um ponto central para entender a fenomenologia desses modelos. A presença de uma simetria anômala implica que certas correntes conservadas no nível clássico não são conservadas no nível quântico, o que exige a introdução de termos adicionais para preservar a invariância de calibre. O mecanismo de Stueckelberg oferece uma maneira elegante de lidar com essas anomalias, resultando em um campo pseudoescalar que pode ter implicações cosmológicas significativas.</p><p>A história cosmológica de um áxion derivado do mecanismo de Stueckelberg difere substancialmente daquela de um áxion Peccei-Quinn comum. Enquanto o áxion Peccei-Quinn surge de uma quebra de simetria global, o campo físico no cenário de Stueckelberg emerge apenas após a mistura de Higgs-Stueckelberg. Essa distinção é fundamental, pois implica que o campo está sujeito a desalinhamentos eletrofracos e, subsequentemente, a desalinhamentos sequenciais da Cromodinâmica Quântica (QCD). Tais processos influenciam diretamente a abundância de relíquias de matéria escura que podem ser geradas por essa partícula. A complexidade da sua evolução cosmológica oferece uma rica fenomenologia que pode ser explorada em experimentos e observações astrofísicas. A compreensão detalhada desses desalinhamentos é vital para prever a densidade de energia do áxion de Stueckelberg no universo atual e para determinar se ele pode, de fato, constituir uma fração apreciável da matéria escura observada.</p><p>A capacidade de um áxion de Stueckelberg de fornecer uma abundância apreciável de relíquia de matéria escura é uma das suas características mais intrigantes. Ao contrário dos áxions Peccei-Quinn, cuja densidade de energia é determinada principalmente pelo desalinhamento inicial do campo antes da transição de fase da QCD, os áxions de Stueckelberg têm uma história mais complexa, influenciada por múltiplas escalas de energia. A mistura com o bóson de Higgs e os efeitos da quebra de simetria eletrofraca introduzem novas dependências na sua densidade de relíquia. Isso abre a possibilidade de que esses áxions possam explicar a totalidade ou uma parte significativa da matéria escura, mesmo com parâmetros de modelo que seriam restritos para áxions Peccei-Quinn. A investigação desses cenários cosmológicos é crucial para refinar as previsões teóricas e guiar a busca experimental por essas partículas elusivas.</p><p>A pesquisa sobre áxions de Stueckelberg e suas implicações para a matéria escura representa uma fronteira ativa na física de partículas e cosmologia. A complexidade de sua história cosmológica e a interação com simetrias anômalas oferecem um caminho promissor para além do Modelo Padrão. A memória de George Lazarides serve como inspiração para continuar explorando essas ideias inovadoras, buscando respostas para algumas das questões mais profundas sobre a composição e evolução do nosso universo. A colaboração e o rigor científico, marcas do trabalho de Lazarides, são essenciais para avançar nesse campo e, eventualmente, desvendar os mistérios da matéria escura e das simetrias fundamentais que governam o cosmos.</p>",
     "body_en": "<p>These notes are written for a memorial Session dedicated to George Lazarides. They revisit a joint work on the cosmology of a gauged axion and place it in a broader line of ideas connecting anomalous gauge symmetries, orientifold effective. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>That matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. These notes are written for a memorial Session dedicated to George Lazarides. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>They revisit a joint work on the cosmology of a gauged axion and place it in a broader line of ideas connecting anomalous gauge symmetries, orientifold effective actions. In models with an anomalous extra $U(1)$ symmetry, the Stueckelberg pseudoscalar participates in the restoration of gauge invariance through Wess-Zumino counterterms and, after.</p><p>Its cosmological history differs from that of an ordinary Peccei-Quinn axion: the physical field appears only after Higgs-Stueckelberg mixing, is subject to sequential electroweak. This perspective connects naturally with George&#x27;s earlier insight that the vacuum structure of axion models must be understood together with the gauge structure in which it is.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>I dedicate these notes to his memory, with gratitude for the collaboration and for the clarity with which he connected particle physics to the early universe.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.25888v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de.",
+      "Dado-chave: Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de.",
+      "Dado-chave: Estas notas, elaboradas para uma sessão memorial dedicada a George Lazarides, revisitam um trabalho conjunto sobre a cosmologia de um áxion de",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: These notes are written for a memorial Session dedicated to George Lazarides",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: These notes are written for a memorial Session dedicated to George Lazarides.",
+      "Key detail: These notes are written for a memorial Session dedicated to George Lazarides",
+      "Result not yet peer reviewed."
     ],
     "date": "28 abr 2026",
     "date_pt": "28 abr 2026",
@@ -569,522 +1285,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 5,
-    "slug": "nasa-laser-terminal-enhances-views-during-artemis-ii-mission",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://www.nasa.gov/wp-content/uploads/2026/02/o2o.jpg",
-    "inline_images": [
-      {
-        "src": "https://images-assets.nasa.gov/image/art002e015231/art002e015231~large.jpg",
-        "alt": "outras imagens de missão",
-        "alt_pt": "outras imagens de missão",
-        "alt_en": "other mission images",
-        "caption": "outras imagens de missão",
-        "caption_pt": "outras imagens de missão",
-        "caption_en": "other mission images"
-      }
-    ],
-    "video": {
-      "kind": "file",
-      "platform": "html5",
-      "embedUrl": "",
-      "fileUrl": "https://www.nasa.gov/wp-content/uploads/2026/04/orion-shot-04-1.mp4",
-      "poster": "https://www.nasa.gov/wp-content/uploads/2026/02/o2o.jpg",
-      "title": "Terminal de laser da NASA aprimora vistas durante a missão Artemis II - NASA",
-      "title_pt": "Terminal de laser da NASA aprimora vistas durante a missão Artemis II - NASA",
-      "title_en": "NASA Laser Terminal Enhances Views During Artemis II Mission - NASA",
-      "caption": "Milhões de pessoas assistiram ao histórico lançamento do Artemis II e ficaram cativadas pela viagem de 10 dias da missão ao redor da Lua, enquanto os astronautas da NASA Reid",
-      "caption_pt": "Milhões de pessoas assistiram ao histórico lançamento do Artemis II e ficaram cativadas pela viagem de 10 dias da missão ao redor da Lua, enquanto os astronautas da NASA Reid",
-      "caption_en": "Millions of people watched the historic launch of Artemis II and were captivated by the mission’s 10-day journey around the Moon as NASA astronauts Reid",
-      "sourcePage": "https://www.nasa.gov/missions/artemis/artemis-2/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/"
-    },
-    "audio": null,
-    "title": "Terminal de laser da NASA aprimora a transmissão de dados visuais na missão Artemis II",
-    "title_pt": "Terminal de laser da NASA aprimora a transmissão de dados visuais na missão Artemis II",
-    "title_en": "NASA Laser Terminal Enhances Views During Artemis II Mission",
-    "sub": "A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA.",
-    "sub_pt": "A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA.",
-    "sub_en": "Millions of people watched the historic launch of Artemis II and were captivated by the mission’s 10-day journey around the Moon as NASA astronauts Reid Wiseman, Victor Glover.",
-    "excerpt": "A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA.",
-    "excerpt_pt": "A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA.",
-    "excerpt_en": "Millions of people watched the historic launch of Artemis II and were captivated by the mission’s 10-day journey around the Moon as NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA astronaut Jeremy Hansen ventured.",
-    "body": "<p>Milhões de pessoas acompanharam o histórico lançamento da missão Artemis II, cativadas pela sua jornada de 10 dias ao redor da Lua. A bordo da espaçonave Orion estavam os astronautas da NASA Reid Wiseman, Victor Glover e Christina Koch, juntamente com o astronauta da Agência Espacial Canadense (CSA) Jeremy Hansen. Esta missão não apenas marcou um passo crucial no retorno da humanidade à Lua, mas também ofereceu uma oportunidade sem precedentes para o público vivenciar a exploração espacial de perto, graças a avanços tecnológicos na transmissão de dados.</p><p>Um componente fundamental para essa experiência imersiva foi o terminal de laser da NASA, projetado para aprimorar significativamente a transmissão de dados visuais e científicos. Este sistema de comunicação avançado permitiu que a espaçonave Orion enviasse uma vasta gama de informações para a Terra, incluindo vídeo de alta definição, procedimentos de voo detalhados, fotografias, dados de engenharia cruciais e comunicações de voz. A capacidade de transmitir esses dados por meio de sinais de laser, sempre que a Orion tinha linha de visão com os terminais terrestres, representou um salto qualitativo na comunicação espacial, garantindo que informações vitais chegassem rapidamente aos cientistas e ao público.</p><p>O acesso a imagens de alta resolução e outros dados científicos durante as fases mais dinâmicas da missão é considerado um divisor de águas para a exploração espacial. Conforme destacado por especialistas, essa capacidade maximizou o impacto científico lunar da missão, permitindo, por exemplo, uma conferência científica da tripulação mais produtiva na manhã seguinte ao sobrevoo lunar. A sensação de estar &quot;ali com a tripulação&quot; não é apenas uma metáfora para o público, mas uma realidade para os cientistas, que podem analisar dados com uma riqueza de detalhes sem precedentes, facilitando a tomada de decisões e a compreensão dos fenômenos observados.</p><p>Um exemplo notável da eficácia desse sistema foi a contribuição do site australiano, que, ao longo da missão, obteve vídeo dual-stream com a Orion por mais de 15, 5 horas. Esses dados foram essenciais para o feed &quot;Live Views from Orion&quot; da NASA, que permitiu a milhões de espectadores em todo o mundo acompanhar os marcos e as paisagens lunares em tempo real. A colaboração internacional e a infraestrutura terrestre foram cruciais para sustentar essa comunicação contínua e de alta largura de banda, demonstrando a interconexão necessária para missões espaciais complexas.</p><p>Aprimorar a capacidade de transmissão de dados significa obter insights mais rápidos e possibilitar uma melhor tomada de decisões científicas, o que é fundamental para apoiar a tripulação enquanto completam a exploração científica. Uma missão com uma presença científica mais integrada, onde os dados são acessíveis quase instantaneamente, permite que os pesquisadores na Terra colaborem de forma mais eficaz com os astronautas, ajustando planos e respondendo a descobertas inesperadas em tempo real. Essa sinergia entre a tripulação em órbita e as equipes em solo acelera o ritmo da descoberta e otimiza cada momento da missão.</p><p>Em suma, a tecnologia de comunicação a laser empregada na Artemis II não apenas enriqueceu a experiência do público, mas também elevou o padrão para a coleta e análise de dados científicos em missões espaciais. Ao garantir um fluxo constante de informações de alta qualidade, a NASA e seus parceiros estão pavimentando o caminho para futuras explorações lunares e além, onde a comunicação eficiente e robusta será cada vez mais vital para o sucesso e a segurança das tripulações, bem como para a maximização do retorno científico.</p>",
-    "body_pt": "<p>Milhões de pessoas acompanharam o histórico lançamento da missão Artemis II, cativadas pela sua jornada de 10 dias ao redor da Lua. A bordo da espaçonave Orion estavam os astronautas da NASA Reid Wiseman, Victor Glover e Christina Koch, juntamente com o astronauta da Agência Espacial Canadense (CSA) Jeremy Hansen. Esta missão não apenas marcou um passo crucial no retorno da humanidade à Lua, mas também ofereceu uma oportunidade sem precedentes para o público vivenciar a exploração espacial de perto, graças a avanços tecnológicos na transmissão de dados.</p><p>Um componente fundamental para essa experiência imersiva foi o terminal de laser da NASA, projetado para aprimorar significativamente a transmissão de dados visuais e científicos. Este sistema de comunicação avançado permitiu que a espaçonave Orion enviasse uma vasta gama de informações para a Terra, incluindo vídeo de alta definição, procedimentos de voo detalhados, fotografias, dados de engenharia cruciais e comunicações de voz. A capacidade de transmitir esses dados por meio de sinais de laser, sempre que a Orion tinha linha de visão com os terminais terrestres, representou um salto qualitativo na comunicação espacial, garantindo que informações vitais chegassem rapidamente aos cientistas e ao público.</p><p>O acesso a imagens de alta resolução e outros dados científicos durante as fases mais dinâmicas da missão é considerado um divisor de águas para a exploração espacial. Conforme destacado por especialistas, essa capacidade maximizou o impacto científico lunar da missão, permitindo, por exemplo, uma conferência científica da tripulação mais produtiva na manhã seguinte ao sobrevoo lunar. A sensação de estar &quot;ali com a tripulação&quot; não é apenas uma metáfora para o público, mas uma realidade para os cientistas, que podem analisar dados com uma riqueza de detalhes sem precedentes, facilitando a tomada de decisões e a compreensão dos fenômenos observados.</p><p>Um exemplo notável da eficácia desse sistema foi a contribuição do site australiano, que, ao longo da missão, obteve vídeo dual-stream com a Orion por mais de 15, 5 horas. Esses dados foram essenciais para o feed &quot;Live Views from Orion&quot; da NASA, que permitiu a milhões de espectadores em todo o mundo acompanhar os marcos e as paisagens lunares em tempo real. A colaboração internacional e a infraestrutura terrestre foram cruciais para sustentar essa comunicação contínua e de alta largura de banda, demonstrando a interconexão necessária para missões espaciais complexas.</p><p>Aprimorar a capacidade de transmissão de dados significa obter insights mais rápidos e possibilitar uma melhor tomada de decisões científicas, o que é fundamental para apoiar a tripulação enquanto completam a exploração científica. Uma missão com uma presença científica mais integrada, onde os dados são acessíveis quase instantaneamente, permite que os pesquisadores na Terra colaborem de forma mais eficaz com os astronautas, ajustando planos e respondendo a descobertas inesperadas em tempo real. Essa sinergia entre a tripulação em órbita e as equipes em solo acelera o ritmo da descoberta e otimiza cada momento da missão.</p><p>Em suma, a tecnologia de comunicação a laser empregada na Artemis II não apenas enriqueceu a experiência do público, mas também elevou o padrão para a coleta e análise de dados científicos em missões espaciais. Ao garantir um fluxo constante de informações de alta qualidade, a NASA e seus parceiros estão pavimentando o caminho para futuras explorações lunares e além, onde a comunicação eficiente e robusta será cada vez mais vital para o sucesso e a segurança das tripulações, bem como para a maximização do retorno científico.</p>",
-    "body_en": "<p>Millions of people watched the historic launch of Artemis II and were captivated by the mission’s 10-day journey around the Moon as NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA astronaut Jeremy Hansen ventured. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. NASA “Access to high-resolution imagery and other scientific data during dynamic science mission phases is a game changer,” said Dr. It felt like we were right there with the crew, and it maximized the lunar science impact of the mission as it allowed for a more productive crew science conference the morning.</p><p>Kelsey young Artemis II Lunar Science Lead During the about 10-day journey, the laser communications system exchanged 484 gigabytes of data between Orion and Earth, roughly. ANU/Nic Vevers Throughout the mission, the Australian site achieved dual-stream video with Orion for more than 15.</p><p>Learn more about the Artemis II mission: https: //www. nasa. gov/artemis-ii Share Details Last Updated Apr 28. The terminal collected and transmitted high-definition video, flight procedures, photos, engineering and science data, and voice communications to Earth over laser signals when.</p><p>Access to high-resolution imagery and other scientific data during dynamic science mission phases is a game changer,” said Dr. It means faster insights, better science decision-making to support the crew as they’re completing science exploration, and a mission with a more integrated science presence.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>On Earth, NASA ground station telescopes at the NASA’s Jet Propulsion Laboratory in Southern California and White Sands Complex in New Mexico were selected for their. These stations collected the bulk of Orion’s optical signals, hitting a record of 26 gigabytes of data received, downloaded, and transmitted to mission control in under an hour.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/artemis/artemis-2/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA.",
-      "Dado-chave: A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA.",
-      "Dado-chave: A missão Artemis II, que cativou milhões com sua viagem de 10 dias ao redor da Lua, foi aprimorada por um terminal de laser da NASA",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Millions of people watched the historic launch of Artemis II and were captivated by the mission’s 10-day journey around the Moon as NASA astronauts.",
-      "Key detail: Millions of people watched the historic launch of Artemis II and were captivated by the mission’s 10-day journey around the Moon as NASA.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "28 abr 2026",
-    "date_pt": "28 abr 2026",
-    "date_en": "28 Apr 2026",
-    "time": "16h10",
-    "time_pt": "16h10",
-    "time_en": "16: 10 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-28T16:10:25+00:00",
-    "lastModifiedIso": "2026-04-28T21:10:32+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Terminal de laser da NASA aprimora vistas durante a missão Artemis II"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Terminal de laser da NASA aprimora vistas durante a missão Artemis II"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA Laser Terminal Enhances Views During Artemis II Mission"
-    ],
-    "srcUrl": "https://www.nasa.gov/missions/artemis/artemis-2/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-laser-terminal-enhances-views-during-artemis-ii-mission",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-laser-terminal-enhances-views-during-artemis-ii-mission",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-laser-terminal-enhances-views-during-artemis-ii-mission&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-laser-terminal-enhances-views-during-artemis-ii-mission/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 86,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Terminal de laser da NASA aprimora a transmissão de dados visuais na missão Artemis II",
-    "imageAlt_pt": "Terminal de laser da NASA aprimora a transmissão de dados visuais na missão Artemis II",
-    "imageAlt_en": "NASA Laser Terminal Enhances Views During Artemis II Mission",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 6,
-    "slug": "substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations",
-    "cat": "Cosmologia",
-    "catCls": "cosmologia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Milky_Way%2C_above_Mauna_Kea_-_by_Luc_Viatour.jpg/1280px-Milky_Way%2C_above_Mauna_Kea_-_by_Luc_Viatour.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Subestrutura em aglomerados redMaPPer e seu impacto na morfologia de raios X e relações de escala",
-    "title_pt": "Subestrutura em aglomerados redMaPPer e seu impacto na morfologia de raios X e relações de escala",
-    "title_en": "Substructure in redMaPPer clusters and its impact on X-ray morphology and scaling relations",
-    "sub": "Este estudo quantificou a prevalência e as propriedades da subestrutura em aglomerados ópticos de galáxias, revelando seu impacto significativo na morfologia de raios X e nas.",
-    "sub_pt": "Este estudo quantificou a prevalência e as propriedades da subestrutura em aglomerados ópticos de galáxias, revelando seu impacto significativo na morfologia de raios X e nas.",
-    "sub_en": "We statistically quantified the prevalence and properties of substructure in optical galaxy clusters and directly investigated its impact on X-ray morphology and scaling.",
-    "excerpt": "Este estudo quantificou a prevalência e as propriedades da subestrutura em aglomerados ópticos de galáxias, revelando seu impacto significativo na morfologia de raios X e nas relações de escala, especialmente em aglomerados de alta massa e na evolução da.",
-    "excerpt_pt": "Este estudo quantificou a prevalência e as propriedades da subestrutura em aglomerados ópticos de galáxias, revelando seu impacto significativo na morfologia de raios X e nas relações de escala, especialmente em aglomerados de alta massa e na evolução da.",
-    "excerpt_en": "We statistically quantified the prevalence and properties of substructure in optical galaxy clusters and directly investigated its impact on X-ray morphology and scaling relations, leveraging new data from the DECaLS Legacy Survey and the.",
-    "body": "<p>Este estudo se propôs a quantificar estatisticamente a prevalência e as propriedades da subestrutura em aglomerados ópticos de galáxias, investigando diretamente seu impacto na morfologia de raios X e nas relações de escala. Para tanto, foram utilizados novos e abrangentes dados provenientes do DECaLS Legacy Survey e do SRG/eROSITA all-sky, que permitiram uma análise detalhada e multifrequência desses sistemas complexos. A compreensão da subestrutura é crucial para desvendar os processos de formação e evolução dos aglomerados de galáxias, que são as maiores estruturas ligadas gravitacionalmente no universo.</p><p>A metodologia empregada envolveu a aplicação do algoritmo de agrupamento hierárquico baseado em densidade HDBSCAN ao catálogo de aglomerados de galáxias redMaPPer. Este algoritmo foi fundamental para identificar e caracterizar a subestrutura a partir das atribuições de membros probabilísticos, permitindo uma análise robusta das configurações espaciais das galáxias dentro dos aglomerados. A escolha do HDBSCAN é justificada por sua capacidade de detectar agrupamentos de densidade variável e de lidar com ruído, características essenciais para a análise de dados astronômicos complexos como os de aglomerados de galáxias.</p><p>Nossas análises revelaram que a subestrutura é uma característica notavelmente comum nos aglomerados estudados, estando presente em aproximadamente 40% deles. Além disso, constatou-se que um quarto da amostra completa exibe uma contribuição fracionária para a riqueza superior a 35%, indicando que uma parcela significativa dos aglomerados possui subcomponentes substanciais. Essa prevalência sugere que os aglomerados de galáxias estão em constante processo de acreção e fusão, com a subestrutura servindo como um indicador direto desses eventos dinâmicos em andamento.</p><p>Observamos uma correlação altamente significativa entre a subestrutura óptica e as morfologias perturbadas de raios X. Essa tendência é particularmente mais pronunciada em aglomerados de alta massa, o que sugere que a dinâmica interna e os processos de fusão nesses sistemas massivos têm um impacto mais direto e visível na distribuição do gás quente intracluster, detectado em raios X. A perturbação da morfologia de raios X é um forte indicativo de eventos de fusão recentes ou em curso, onde a energia cinética dos subaglomerados é dissipada no meio intracluster, alterando sua distribuição e temperatura.</p><p>Adicionalmente, os aglomerados que exibem subestrutura demonstram uma evolução mais acentuada do desvio para o vermelho na dispersão da relação Lx-lambda. Esta relação de escala, que conecta a luminosidade de raios X (Lx) à riqueza óptica (lambda), é uma ferramenta crucial para entender a física dos aglomerados. A maior dispersão observada em aglomerados com subestrutura, especialmente em redshifts mais baixos, pode ser atribuída à complexidade dinâmica introduzida pelos processos de fusão, que afetam tanto a distribuição de galáxias quanto a emissão de raios X do gás intracluster. Isso implica que a subestrutura é um fator importante a ser considerado ao se utilizar relações de escala para inferir propriedades cosmológicas ou evolutivas dos aglomerados.</p><p>Em suma, este estudo fornece evidências robustas de que a subestrutura é um componente intrínseco e dinamicamente relevante nos aglomerados de galáxias. A forte ligação entre a subestrutura óptica e as perturbações na morfologia de raios X, juntamente com seu impacto nas relações de escala, sublinha a importância de considerar a dinâmica interna ao interpretar as propriedades observacionais dos aglomerados. Esses resultados contribuem significativamente para a nossa compreensão da formação e evolução dos aglomerados de galáxias, destacando a necessidade de modelos que incorporem a complexidade da subestrutura para uma descrição mais precisa desses objetos cósmicos.</p>",
-    "body_pt": "<p>Este estudo se propôs a quantificar estatisticamente a prevalência e as propriedades da subestrutura em aglomerados ópticos de galáxias, investigando diretamente seu impacto na morfologia de raios X e nas relações de escala. Para tanto, foram utilizados novos e abrangentes dados provenientes do DECaLS Legacy Survey e do SRG/eROSITA all-sky, que permitiram uma análise detalhada e multifrequência desses sistemas complexos. A compreensão da subestrutura é crucial para desvendar os processos de formação e evolução dos aglomerados de galáxias, que são as maiores estruturas ligadas gravitacionalmente no universo.</p><p>A metodologia empregada envolveu a aplicação do algoritmo de agrupamento hierárquico baseado em densidade HDBSCAN ao catálogo de aglomerados de galáxias redMaPPer. Este algoritmo foi fundamental para identificar e caracterizar a subestrutura a partir das atribuições de membros probabilísticos, permitindo uma análise robusta das configurações espaciais das galáxias dentro dos aglomerados. A escolha do HDBSCAN é justificada por sua capacidade de detectar agrupamentos de densidade variável e de lidar com ruído, características essenciais para a análise de dados astronômicos complexos como os de aglomerados de galáxias.</p><p>Nossas análises revelaram que a subestrutura é uma característica notavelmente comum nos aglomerados estudados, estando presente em aproximadamente 40% deles. Além disso, constatou-se que um quarto da amostra completa exibe uma contribuição fracionária para a riqueza superior a 35%, indicando que uma parcela significativa dos aglomerados possui subcomponentes substanciais. Essa prevalência sugere que os aglomerados de galáxias estão em constante processo de acreção e fusão, com a subestrutura servindo como um indicador direto desses eventos dinâmicos em andamento.</p><p>Observamos uma correlação altamente significativa entre a subestrutura óptica e as morfologias perturbadas de raios X. Essa tendência é particularmente mais pronunciada em aglomerados de alta massa, o que sugere que a dinâmica interna e os processos de fusão nesses sistemas massivos têm um impacto mais direto e visível na distribuição do gás quente intracluster, detectado em raios X. A perturbação da morfologia de raios X é um forte indicativo de eventos de fusão recentes ou em curso, onde a energia cinética dos subaglomerados é dissipada no meio intracluster, alterando sua distribuição e temperatura.</p><p>Adicionalmente, os aglomerados que exibem subestrutura demonstram uma evolução mais acentuada do desvio para o vermelho na dispersão da relação Lx-lambda. Esta relação de escala, que conecta a luminosidade de raios X (Lx) à riqueza óptica (lambda), é uma ferramenta crucial para entender a física dos aglomerados. A maior dispersão observada em aglomerados com subestrutura, especialmente em redshifts mais baixos, pode ser atribuída à complexidade dinâmica introduzida pelos processos de fusão, que afetam tanto a distribuição de galáxias quanto a emissão de raios X do gás intracluster. Isso implica que a subestrutura é um fator importante a ser considerado ao se utilizar relações de escala para inferir propriedades cosmológicas ou evolutivas dos aglomerados.</p><p>Em suma, este estudo fornece evidências robustas de que a subestrutura é um componente intrínseco e dinamicamente relevante nos aglomerados de galáxias. A forte ligação entre a subestrutura óptica e as perturbações na morfologia de raios X, juntamente com seu impacto nas relações de escala, sublinha a importância de considerar a dinâmica interna ao interpretar as propriedades observacionais dos aglomerados. Esses resultados contribuem significativamente para a nossa compreensão da formação e evolução dos aglomerados de galáxias, destacando a necessidade de modelos que incorporem a complexidade da subestrutura para uma descrição mais precisa desses objetos cósmicos.</p>",
-    "body_en": "<p>We statistically quantified the prevalence and properties of substructure in optical galaxy clusters and directly investigated its impact on X-ray morphology and scaling relations, leveraging new data from the DECaLS Legacy Survey and the. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. We applied the hierarchical density-based clustering algorithm HDBSCAN to the redMaPPer galaxy cluster catalog to identify and characterize substructure from the probabilistic. We then cross-matched this sample with the eROSITA X-ray morphology catalog to correlate optical substructure with a comprehensive set of X-ray morphological parameters.</p><p>Finally, we analyzed the scaling relation between X-ray luminosity and optical richness for clusters with and without substructure. Substructure is a common feature, present in approximately 40% of clusters.</p><p>A quarter of the full sample exhibits a fractional contribution to richness in excess of 35%. We find a highly significant correlation between optical substructure and disturbed X-ray morphologies, a trend that is strongest for high-mass clusters.</p><p>The clusters with substructure also drive a stronger redshift evolution in the scatter of the Lx-lambda relation. At low redshifts (z&lt;0.2), they display a systematically higher X-ray luminosity at fixed richness compared to relaxed systems.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>At lower cluster richness, a discordance between X-ray morphology and the merging state indicates a growing relative importance of active galactic nucleus feedback in governing. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.25770v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Em foco: Este estudo quantificou a prevalência e as propriedades da subestrutura em aglomerados ópticos de galáxias, revelando seu impacto significativo na",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
-    ],
-    "highlights_pt": [
-      "Em foco: Este estudo quantificou a prevalência e as propriedades da subestrutura em aglomerados ópticos de galáxias, revelando seu impacto significativo na",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
-    ],
-    "highlights_en": [
-      "Focus: We statistically quantified the prevalence and properties of substructure in optical galaxy clusters and directly investigated its impact on X-ray",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
-    ],
-    "date": "28 abr 2026",
-    "date_pt": "28 abr 2026",
-    "date_en": "28 Apr 2026",
-    "time": "15h33",
-    "time_pt": "15h33",
-    "time_en": "15: 33 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-28T15:33:27+00:00",
-    "lastModifiedIso": "2026-04-29T13:10:24+00:00",
-    "source": "arXiv Cosmology",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Cosmologia",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Subestrutura em clusters redMaPPer e seu impacto na morfologia de raios X e relações de escala"
-    ],
-    "keywords_pt": [
-      "Cosmologia",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Subestrutura em clusters redMaPPer e seu impacto na morfologia de raios X e relações de escala"
-    ],
-    "keywords_en": [
-      "Cosmology",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Substructure in redMaPPer clusters and its impact on X-ray morphology and scaling relationships"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2604.25770v1",
-    "realUrl": "https://www.cosmosweek.com/?article=substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations",
-    "realUrl_en": "https://www.cosmosweek.com/?article=substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 80,
-    "scoreBreakdown": {
-      "source": 64,
-      "evidence": 39,
-      "relevance": 94,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "Subestrutura em aglomerados redMaPPer e seu impacto na morfologia de raios X e relações de escala",
-    "imageAlt_pt": "Subestrutura em aglomerados redMaPPer e seu impacto na morfologia de raios X e relações de escala",
-    "imageAlt_en": "Substructure in redMaPPer clusters and its impact on X-ray morphology and scaling relations",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 7,
-    "slug": "fiery-fall-color-in-southern-chile",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/fiery-fall-color-in-southern-chile/fallinpatagonia_oli2_20260412_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Cor ardente do outono no sul do Chile",
-    "title_pt": "Cor ardente do outono no sul do Chile",
-    "title_en": "Fiery Fall Color in Southern Chile",
-    "sub": "Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da página.",
-    "sub_pt": "Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da página.",
-    "sub_en": "A band of reddish vegetation covers the slopes of a snow-capped mountain about 40 kilometers west of the area shown at the top of the page.",
-    "excerpt": "Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da página.",
-    "excerpt_pt": "Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da página.",
-    "excerpt_en": "A band of reddish vegetation covers the slopes of a snow-capped mountain about 40 kilometers west of the area shown at the top of the page.",
-    "body": "<p>Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da página. Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve a cerca de 40 quilómetros (25 milhas) a oeste da área mostrada no topo da página.</p><p>Observatório da Terra da NASA/Lauren Dauphin Exibições coloridas de outono de lengas e outras florestas de faias do sul deslumbram os observadores de folhas em locais icônicos da Patagônia. Neve na sombra dos Andes 2 min de leitura Uma tempestade no início do outono deixou as altitudes mais elevadas no sul da Argentina com uma camada branca fresca e fugaz.</p><p>Imagem do dia do Observatório da Terra O Observatório da Terra da NASA traz para você a Terra, todos os dias, com histórias detalhadas e imagens impressionantes. NASA Earth Observatory/Lauren Dauphin Os brancos brilhantes da neve das montanhas, os marrons suaves das planícies áridas e os azuis e marrecos semelhantes a pedras preciosas dos lagos glaciais normalmente dominam a paleta de cores da Patagônia.</p><p>Em 12 de abril de 2026, uma ruptura nas nuvens permitiu ao satélite Landsat 9 capturar uma imagem de encostas avermelhadas na região de Magalhães, no sul do Chile. Uma dessas espécies, conhecida como faia lenga (Nothofagus pumilio), ocorre desde cerca de 36 graus de latitude sul até a Terra do Fogo, cerca de 55 graus ao sul.</p><p>Os cumes vermelhos na cena acima, localizados a cerca de 100 quilômetros (60 milhas) a noroeste de Punta Arenas, estão a cerca de 600 metros (2.000 pés) acima do nível do mar. Imagens do Observatório da Terra da NASA por Lauren Dauphin, usando dados Landsat dos EUA.</p><p>Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/fiery-fall-color-in-southern-chile/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da página. Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve a cerca de 40 quilómetros (25 milhas) a oeste da área mostrada no topo da página.</p><p>Observatório da Terra da NASA/Lauren Dauphin Exibições coloridas de outono de lengas e outras florestas de faias do sul deslumbram os observadores de folhas em locais icônicos da Patagônia. Neve na sombra dos Andes 2 min de leitura Uma tempestade no início do outono deixou as altitudes mais elevadas no sul da Argentina com uma camada branca fresca e fugaz.</p><p>Imagem do dia do Observatório da Terra O Observatório da Terra da NASA traz para você a Terra, todos os dias, com histórias detalhadas e imagens impressionantes. NASA Earth Observatory/Lauren Dauphin Os brancos brilhantes da neve das montanhas, os marrons suaves das planícies áridas e os azuis e marrecos semelhantes a pedras preciosas dos lagos glaciais normalmente dominam a paleta de cores da Patagônia.</p><p>Em 12 de abril de 2026, uma ruptura nas nuvens permitiu ao satélite Landsat 9 capturar uma imagem de encostas avermelhadas na região de Magalhães, no sul do Chile. Uma dessas espécies, conhecida como faia lenga (Nothofagus pumilio), ocorre desde cerca de 36 graus de latitude sul até a Terra do Fogo, cerca de 55 graus ao sul.</p><p>Os cumes vermelhos na cena acima, localizados a cerca de 100 quilômetros (60 milhas) a noroeste de Punta Arenas, estão a cerca de 600 metros (2.000 pés) acima do nível do mar. Imagens do Observatório da Terra da NASA por Lauren Dauphin, usando dados Landsat dos EUA.</p><p>Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/fiery-fall-color-in-southern-chile/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>A band of reddish vegetation covers the slopes of a snow-capped mountain about 40 kilometers west of the area shown at the top of the page. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. A band of reddish vegetation covers the slopes of a snow-capped mountain about 40 kilometers (25 miles) west of the area shown at the top of the page. NASA Earth Observatory/Lauren Dauphin Colorful autumn displays of lenga and other southern beech forests dazzle leaf-peepers across Patagonia’s iconic locales.</p><p>Snow in the Shadow of the Andes 2 min read An early autumn storm left higher elevations in southern Argentina with a fresh and fleeting coat of white. Earth Observatory Image of the Day NASA’s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>NASA Earth Observatory/Lauren Dauphin The bright whites of mountain snow, muted browns of the arid plains, and gem-like blues and teals of glacial lakes typically dominate the. On April 12, 2026, a break in the clouds allowed the Landsat 9 satellite to capture an image of reddish hillsides in the Magallanes region of southern Chile.</p><p>One of these species, known as the lenga beech (Nothofagus pumilio), occurs from about 36 degrees south latitude down to Tierra del Fuego at around 55 degrees south. The red ridgetops in the scene above, located about 100 kilometers (60 miles) northwest of Punta Arenas, are at about 600 meters (2, 000 feet) above sea level.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet. Article Seasons Change in Southwest Virginia 3 min read From autumn color to a winter-white finish, forested areas around Blacksburg trade foliage for snow over the span of two.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/fiery-fall-color-in-southern-chile/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Em foco: Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: Uma faixa de vegetação avermelhada cobre as encostas de uma montanha coberta de neve, cerca de 40 quilómetros a oeste da área mostrada no topo da",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: A band of reddish vegetation covers the slopes of a snow-capped mountain about 40 kilometers west of the area shown at the top of the page",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "28 abr 2026",
-    "date_pt": "28 abr 2026",
-    "date_en": "28 Apr 2026",
-    "time": "04h01",
-    "time_pt": "04h01",
-    "time_en": "04: 01 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-28T04:01:00+00:00",
-    "lastModifiedIso": "2026-04-28T08:22:11+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Cor ardente do outono no sul do Chile"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Cor ardente do outono no sul do Chile"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Fiery autumn color in southern Chile"
-    ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/fiery-fall-color-in-southern-chile/",
-    "realUrl": "https://www.cosmosweek.com/?article=fiery-fall-color-in-southern-chile",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=fiery-fall-color-in-southern-chile",
-    "realUrl_en": "https://www.cosmosweek.com/?article=fiery-fall-color-in-southern-chile&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/fiery-fall-color-in-southern-chile/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/fiery-fall-color-in-southern-chile/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/fiery-fall-color-in-southern-chile/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/fiery-fall-color-in-southern-chile/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/fiery-fall-color-in-southern-chile/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/fiery-fall-color-in-southern-chile/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": true,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Cor ardente do outono no sul do Chile",
-    "imageAlt_pt": "Cor ardente do outono no sul do Chile",
-    "imageAlt_en": "Fiery Fall Color in Southern Chile",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 8,
-    "slug": "the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates",
-    "cat": "Astrofísica",
-    "catCls": "astrofisica",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/M87_jet.jpg/1280px-M87_jet.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "O Impacto das Geometrias Elípticas de Linhas Largas nas Estimativas de Massa de Buracos Negros Baseadas na Reverberação",
-    "title_pt": "O Impacto das Geometrias Elípticas de Linhas Largas nas Estimativas de Massa de Buracos Negros Baseadas na Reverberação",
-    "title_en": "The Impact of Elliptical Broad-Line Regions on Reverberation-Based Black Hole Mass Estimates",
-    "sub": "O fator virial $f$ é crucial para estimativas precisas da massa de buracos negros supermassivos (SMBH) por mapeamento de reverberação (RM) e pela relação raio-luminosidade.",
-    "sub_pt": "O fator virial $f$ é crucial para estimativas precisas da massa de buracos negros supermassivos (SMBH) por mapeamento de reverberação (RM) e pela relação raio-luminosidade.",
-    "sub_en": "The virial factor $f$ is critical for accurate supermassive black hole mass measurements using reverberation mapping and the radius--luminosity relation, yet its value remains.",
-    "excerpt": "O fator virial $f$ é crucial para estimativas precisas da massa de buracos negros supermassivos (SMBH) por mapeamento de reverberação (RM) e pela relação raio-luminosidade ($R$--$L$), mas seu valor é incerto devido a geometrias assimétricas da região de.",
-    "excerpt_pt": "O fator virial $f$ é crucial para estimativas precisas da massa de buracos negros supermassivos (SMBH) por mapeamento de reverberação (RM) e pela relação raio-luminosidade ($R$--$L$), mas seu valor é incerto devido a geometrias assimétricas da região de.",
-    "excerpt_en": "The virial factor $f$ is critical for accurate supermassive black hole mass measurements using reverberation mapping and the radius--luminosity relation, yet its value remains highly uncertain.",
-    "body": "<p>Diante dessa lacuna, nosso estudo investigou sistematicamente o impacto das geometrias de disco elíptico da BLR nas determinações de massa de SMBH. Para isso, empregamos simulações numéricas abrangentes, projetadas para modelar o comportamento dinâmico e a emissão de luz de BLRs com configurações não-axissimétricas. O objetivo foi quantificar como desvios da simetria axial, especificamente a presença de formas elípticas, podem influenciar as medições de largura de velocidade e, consequentemente, o fator virial $f$. Essa abordagem permitiu-nos explorar cenários que se afastam dos pressupostos simplificados dos modelos tradicionais, oferecendo uma visão mais realista das complexidades observadas em sistemas astrofísicos reais.</p><p>Os resultados das simulações revelaram que o alargamento local das linhas espectrais, induzido pelas geometrias elípticas da BLR, introduz incertezas sistemáticas significativas nas medições de largura de velocidade. Esse efeito tem uma consequência direta e substancial sobre o fator virial $f$, distorcendo seu valor em até um fator de aproximadamente 3. Tal distorção é crucial, pois um fator $f$ impreciso leva diretamente a estimativas de massa de SMBH incorretas. A magnitude dessa incerteza sistemática sugere que a suposição de geometrias BLR simples pode estar subestimando consideravelmente a variabilidade e a complexidade inerentes a esses sistemas, impactando a confiabilidade das massas de buracos negros derivadas.</p><p>Além do impacto no fator virial, as configurações assimétricas da BLR também demonstraram induzir um espalhamento considerável na relação $R$--$L$. Nossas simulações indicaram um espalhamento de aproximadamente 0, 18 dex, atribuível principalmente a efeitos de projeção. Este valor é notavelmente comparável ao espalhamento intrínseco que tem sido observado em estudos de mapeamento de reverberação. A implicação é que uma parte significativa do espalhamento na relação $R$--$L$, frequentemente atribuída a outros fatores, pode ser explicada simplesmente pela geometria não-esférica ou não-axissimétrica da BLR. Isso sugere que a variabilidade observada pode não ser inteiramente devida a processos físicos complexos ou a movimentos não viriais, mas sim a uma característica geométrica fundamental.</p><p>Esses resultados têm implicações profundas para a interpretação das incertezas nas medições de massa de SMBH baseadas em RM. Tradicionalmente, as incertezas observadas são frequentemente atribuídas a movimentos não viriais dentro da BLR ou à pressão de radiação exercida pelo buraco negro central. No entanto, nosso estudo desafia essa atribuição convencional, ao demonstrar que a geometria da BLR, especificamente a presença de estruturas elípticas e assimétricas, desempenha um papel fundamental na introdução dessas incertezas. A capacidade de explicar uma parte substancial do espalhamento e da distorção observados apenas com base na geometria ressalta a necessidade de reavaliar os modelos atuais e incorporar representações mais realistas da BLR.</p><p>Em suma, a geometria da região de linhas largas emerge como um fator determinante para a precisão das estimativas de massa de buracos negros supermassivos. A consideração de geometrias elípticas e assimétricas é crucial para aprimorar a confiabilidade das medições de massa de SMBH e para uma compreensão mais completa da dinâmica dessas regiões. Este trabalho sublinha a importância de desenvolver modelos mais sofisticados que integrem a complexidade geométrica da BLR, a fim de reduzir as incertezas sistemáticas e intrínsecas. Futuras investigações, tanto teóricas quanto observacionais, deverão focar na caracterização detalhada dessas geometrias para avançar significativamente no campo da astrofísica de buracos negros.</p>",
-    "body_pt": "<p>Diante dessa lacuna, nosso estudo investigou sistematicamente o impacto das geometrias de disco elíptico da BLR nas determinações de massa de SMBH. Para isso, empregamos simulações numéricas abrangentes, projetadas para modelar o comportamento dinâmico e a emissão de luz de BLRs com configurações não-axissimétricas. O objetivo foi quantificar como desvios da simetria axial, especificamente a presença de formas elípticas, podem influenciar as medições de largura de velocidade e, consequentemente, o fator virial $f$. Essa abordagem permitiu-nos explorar cenários que se afastam dos pressupostos simplificados dos modelos tradicionais, oferecendo uma visão mais realista das complexidades observadas em sistemas astrofísicos reais.</p><p>Os resultados das simulações revelaram que o alargamento local das linhas espectrais, induzido pelas geometrias elípticas da BLR, introduz incertezas sistemáticas significativas nas medições de largura de velocidade. Esse efeito tem uma consequência direta e substancial sobre o fator virial $f$, distorcendo seu valor em até um fator de aproximadamente 3. Tal distorção é crucial, pois um fator $f$ impreciso leva diretamente a estimativas de massa de SMBH incorretas. A magnitude dessa incerteza sistemática sugere que a suposição de geometrias BLR simples pode estar subestimando consideravelmente a variabilidade e a complexidade inerentes a esses sistemas, impactando a confiabilidade das massas de buracos negros derivadas.</p><p>Além do impacto no fator virial, as configurações assimétricas da BLR também demonstraram induzir um espalhamento considerável na relação $R$--$L$. Nossas simulações indicaram um espalhamento de aproximadamente 0, 18 dex, atribuível principalmente a efeitos de projeção. Este valor é notavelmente comparável ao espalhamento intrínseco que tem sido observado em estudos de mapeamento de reverberação. A implicação é que uma parte significativa do espalhamento na relação $R$--$L$, frequentemente atribuída a outros fatores, pode ser explicada simplesmente pela geometria não-esférica ou não-axissimétrica da BLR. Isso sugere que a variabilidade observada pode não ser inteiramente devida a processos físicos complexos ou a movimentos não viriais, mas sim a uma característica geométrica fundamental.</p><p>Esses resultados têm implicações profundas para a interpretação das incertezas nas medições de massa de SMBH baseadas em RM. Tradicionalmente, as incertezas observadas são frequentemente atribuídas a movimentos não viriais dentro da BLR ou à pressão de radiação exercida pelo buraco negro central. No entanto, nosso estudo desafia essa atribuição convencional, ao demonstrar que a geometria da BLR, especificamente a presença de estruturas elípticas e assimétricas, desempenha um papel fundamental na introdução dessas incertezas. A capacidade de explicar uma parte substancial do espalhamento e da distorção observados apenas com base na geometria ressalta a necessidade de reavaliar os modelos atuais e incorporar representações mais realistas da BLR.</p><p>Em suma, a geometria da região de linhas largas emerge como um fator determinante para a precisão das estimativas de massa de buracos negros supermassivos. A consideração de geometrias elípticas e assimétricas é crucial para aprimorar a confiabilidade das medições de massa de SMBH e para uma compreensão mais completa da dinâmica dessas regiões. Este trabalho sublinha a importância de desenvolver modelos mais sofisticados que integrem a complexidade geométrica da BLR, a fim de reduzir as incertezas sistemáticas e intrínsecas. Futuras investigações, tanto teóricas quanto observacionais, deverão focar na caracterização detalhada dessas geometrias para avançar significativamente no campo da astrofísica de buracos negros.</p>",
-    "body_en": "<p>The virial factor $f$ is critical for accurate supermassive black hole mass measurements using reverberation mapping and the radius--luminosity relation, yet its value remains highly uncertain. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It is relevant because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. The virial factor $f$ is critical for accurate supermassive black hole (SMBH) mass measurements using reverberation mapping (RM) and the radius--luminosity ($R$--$L$) relation. While traditional models assume axisymmetric broad-line region (BLR) geometries, growing evidence suggests that BLRs may possess more complex, asymmetric structures.</p><p>We systematically investigate the impact of elliptical-disk BLR geometries on SMBH mass determinations through comprehensive numerical simulations. Additionally, local broadening introduces further systematic uncertainties in velocity width measurements, biasing $f$ by up to a factor of $\\sim$3.</p><p>Asymmetric BLR configurations also induce a scatter of $\\sim$0.18 dex in the $R$--$L$ relation due to projection effects, comparable to the intrinsic scatter observed in RM. These results challenge the conventional attribution of RM uncertainties to non-virial motions or radiation pressure, and instead highlight the fundamental role of BLR geometry in.</p><p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.25163v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Em foco: O fator virial $f$ é crucial para estimativas precisas da massa de buracos negros supermassivos (SMBH) por mapeamento de reverberação (RM) e pela",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
-    ],
-    "highlights_pt": [
-      "Em foco: O fator virial $f$ é crucial para estimativas precisas da massa de buracos negros supermassivos (SMBH) por mapeamento de reverberação (RM) e pela",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
-    ],
-    "highlights_en": [
-      "Focus: The virial factor $f$ is critical for accurate supermassive black hole mass measurements using reverberation mapping and the radius--luminosity",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
-    ],
-    "date": "28 abr 2026",
-    "date_pt": "28 abr 2026",
-    "date_en": "28 Apr 2026",
-    "time": "03h14",
-    "time_pt": "03h14",
-    "time_en": "03: 14 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-28T03:14:00+00:00",
-    "lastModifiedIso": "2026-04-29T13:10:24+00:00",
-    "source": "arXiv High Energy Astrophysics",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Astrofísica",
-      "arXiv High Energy Astrophysics",
-      "Cosmos Week",
-      "O impacto das regiões elípticas de linha larga nas estimativas de massa do buraco negro baseadas na reverberação"
-    ],
-    "keywords_pt": [
-      "Astrofísica",
-      "arXiv High Energy Astrophysics",
-      "Cosmos Week",
-      "O impacto das regiões elípticas de linha larga nas estimativas de massa do buraco negro baseadas na reverberação"
-    ],
-    "keywords_en": [
-      "Astrophysics",
-      "arXiv High Energy Astrophysics",
-      "Cosmos Week",
-      "The impact of broad-line elliptical regions on reverberation-based black hole mass estimates"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2604.25163v1",
-    "realUrl": "https://www.cosmosweek.com/?article=the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates",
-    "realUrl_en": "https://www.cosmosweek.com/?article=the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 80,
-    "scoreBreakdown": {
-      "source": 63,
-      "evidence": 39,
-      "relevance": 94,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "O Impacto das Geometrias Elípticas de Linhas Largas nas Estimativas de Massa de Buracos Negros Baseadas na Reverberação",
-    "imageAlt_pt": "O Impacto das Geometrias Elípticas de Linhas Largas nas Estimativas de Massa de Buracos Negros Baseadas na Reverberação",
-    "imageAlt_en": "The Impact of Elliptical Broad-Line Regions on Reverberation-Based Black Hole Mass Estimates",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 9,
+    "id": 10,
     "slug": "dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1205,7 +1406,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1411,7 +1612,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "snow-is-scarce-in-the-upper-colorado-basin",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1551,7 +1752,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "catching-the-earliest-stars-in-the-universe",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1583,7 +1784,7 @@ window.postsData = [
     ],
     "highlights_en": [
       "Core point: New observations from the James Webb Space Telescope might have caught the signature of the universe's first stars.",
-      "Key detail: New observations from the James Webb Space Telescope might have caught the signature of the universe's first stars",
+      "Key detail: New observations from the James Webb Space Telescope might have caught the signature of the universe's first stars.",
       "Science reporting: verify primary technical documentation."
     ],
     "date": "24 abr 2026",
@@ -1672,7 +1873,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "braving-the-arctic-for-upcoming-polar-focused-satellites",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1680,21 +1881,21 @@ window.postsData = [
     "inline_images": [
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/not_your_normal_commute/27239667-3-eng-GB/Not_your_normal_commute_pillars.jpg",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
       },
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/arctic_sea-ice_extent/27239808-1-eng-GB/Arctic_sea-ice_extent_article.jpg",
-        "caption": "Extensão do gelo marinho do Ártico",
-        "caption_pt": "Extensão do gelo marinho do Ártico",
-        "caption_en": "Arctic sea-ice extent",
         "alt": "Extensão do gelo marinho do Ártico",
         "alt_pt": "Extensão do gelo marinho do Ártico",
-        "alt_en": "Arctic sea-ice extent"
+        "alt_en": "Arctic sea-ice extent",
+        "caption": "Extensão do gelo marinho do Ártico",
+        "caption_pt": "Extensão do gelo marinho do Ártico",
+        "caption_en": "Arctic sea-ice extent"
       }
     ],
     "video": null,
@@ -1712,19 +1913,19 @@ window.postsData = [
     "body_pt": "<p>O recuo do gelo marinho, uma das manifestações mais visíveis e preocupantes da crise climática global, exige uma atenção científica sem precedentes. A precisão na medição desse declínio é mais urgente do que nunca, pois os dados coletados são fundamentais para compreender as complexas interações do sistema terrestre e prever cenários futuros. A perda contínua de gelo não afeta apenas os ecossistemas polares, mas também influencia padrões climáticos globais, níveis do mar e a circulação oceânica, tornando o monitoramento uma peça-chave para a formulação de políticas ambientais e estratégias de mitigação.</p><p>Para enfrentar este desafio monumental, a Agência Espacial Europeia (ESA), por meio de seu programa Copernicus, está desenvolvendo uma nova geração de satélites. Serão três novas missões, cada uma projetada para empregar técnicas distintas, mas complementares, no monitoramento do gelo marinho. Essa abordagem multifacetada é essencial para capturar a complexidade e a dinâmica dessa frágil componente do sistema terrestre, garantindo uma cobertura abrangente e dados de alta resolução que superem as capacidades atuais. O objetivo é fornecer informações cruciais para cientistas, formuladores de políticas e comunidades afetadas pelas mudanças climáticas.</p><p>Cada um desses satélites será equipado com instrumentação de ponta, utilizando diferentes princípios de sensoriamento remoto, como altimetria, radiometria e radar de abertura sintética. A combinação dessas tecnologias permitirá uma avaliação mais completa de parâmetros como espessura, extensão e tipo de gelo marinho. A precisão dos dados obtidos por esses novos satélites é de suma importância, pois erros ou incertezas podem levar a interpretações equivocadas sobre o estado do Ártico e suas implicações globais. Por isso, a calibração e validação rigorosas são etapas indispensáveis no processo de desenvolvimento e operação dessas missões espaciais.</p><p>Para assegurar que os dados coletados por esses futuros satélites sejam da mais alta qualidade e confiabilidade, uma equipe internacional de cientistas experientes está atualmente imersa em uma expedição desafiadora no gelo marinho do Ártico. Enfrentando condições climáticas extremas e temperaturas gélidas, esses pesquisadores estão realizando medições críticas in situ. Essas observações diretas são vitais para a calibração dos instrumentos dos satélites, servindo como &quot;verdade terrestre&quot; para validar as leituras remotas e ajustar os algoritmos de processamento de dados. Sem essa etapa fundamental, a confiança nos dados espaciais seria comprometida.</p><p>A logística de uma expedição científica no Ártico é complexa e exige planejamento meticuloso. Além de enfrentar o frio intenso e os perigos inerentes a um ambiente tão hostil, a equipe utiliza aeronaves equipadas com sensores especializados para complementar as medições terrestres. Esses voos sobre a área de estudo permitem a coleta de dados em uma escala espacial maior, preenchendo lacunas e fornecendo um contexto mais amplo para as medições pontuais realizadas no solo. A combinação de dados terrestres e aéreos é crucial para criar um conjunto de dados robusto que possa ser efetivamente comparado e integrado com as futuras observações dos satélites.</p><p>Essa colaboração internacional de cientistas representa um esforço conjunto para aprimorar nossa capacidade de monitorar e compreender as mudanças no Ártico. Os dados coletados durante esta expedição não apenas garantirão a precisão dos próximos satélites Copernicus, mas também contribuirão diretamente para modelos climáticos mais sofisticados e previsões mais acuradas. A compreensão detalhada do comportamento do gelo marinho é indispensável para avaliar o impacto das mudanças climáticas em escala global e para informar decisões estratégicas sobre a proteção ambiental e a sustentabilidade do planeta.</p><p>O investimento em tecnologia espacial avançada e em expedições de campo rigorosas reflete o compromisso da comunidade científica em fornecer as ferramentas necessárias para enfrentar a crise climática. À medida que o Ártico continua a se transformar, a capacidade de monitorar essas mudanças com precisão sem precedentes será fundamental para adaptar estratégias e mitigar os impactos mais severos. Este trabalho no gelo marinho não é apenas uma missão de coleta de dados, mas um passo crucial na construção de um futuro mais informado e resiliente diante dos desafios ambientais globais.</p>",
     "body_en": "<p>As sea ice continues to succumb to the climate crisis, measuring its decline with precision has never been more urgent. To meet this challenge, the European Space Agency is developing three new Copernicus satellites, each employing. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. To meet this challenge, the European Space Agency is developing three new Copernicus satellites, each employing distinct but complementary techniques to monitor this fragile. To ensure the data from these new satellites are razor-sharp, an international team of hardy scientists is now out on the Arctic sea ice braving the cold and flying above to.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Because the account originates with ESA Space News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Braving_the_Arctic_for_upcoming_polar-focused_satellites\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Com o contínuo recuo do gelo marinho devido à crise climática, a medição precisa de sua diminuição tornou-se uma prioridade inadiável",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Com o contínuo recuo do gelo marinho devido à crise climática, a medição precisa de sua diminuição tornou-se uma prioridade inadiável.",
+      "Dado-chave: Com o contínuo recuo do gelo marinho devido à crise climática, a medição precisa de sua diminuição tornou-se uma prioridade inadiável",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Com o contínuo recuo do gelo marinho devido à crise climática, a medição precisa de sua diminuição tornou-se uma prioridade inadiável",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Com o contínuo recuo do gelo marinho devido à crise climática, a medição precisa de sua diminuição tornou-se uma prioridade inadiável.",
+      "Dado-chave: Com o contínuo recuo do gelo marinho devido à crise climática, a medição precisa de sua diminuição tornou-se uma prioridade inadiável",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: As sea ice continues to succumb to the climate crisis, measuring its decline with precision has never been more urgent",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: As sea ice continues to succumb to the climate crisis, measuring its decline with precision has never been more urgent.",
+      "Key detail: As sea ice continues to succumb to the climate crisis, measuring its decline with precision has never been more urgent",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "24 abr 2026",
     "date_pt": "24 abr 2026",
@@ -1812,7 +2013,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "hilumi-lhc-cern-s-full-scale-test-stand-enters-the-powering-phase",
     "cat": "Física",
     "catCls": "fisica",
@@ -1946,7 +2147,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2067,7 +2268,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "the-fy-2027-nasa-budget-request",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2225,7 +2426,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "smile-set-to-launch-on-19-may",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2365,7 +2566,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "belts-of-green-in-the-washington-suburbs",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2505,7 +2706,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "stellar-flares-may-expand-habitable-zones-around-small-stars",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -2639,7 +2840,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 21,
     "slug": "automated-ct-scan-analysis-could-fast-track-clinical-assessments",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2760,7 +2961,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 21,
+    "id": 22,
     "slug": "a-school-of-mud-volcano-islands-in-azerbaijan",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2900,7 +3101,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 22,
+    "id": 23,
     "slug": "photo-release-hubble-dazzles-with-young-stars-in-trifid-nebula-for-36th-anniversary",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3133,7 +3334,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 23,
+    "id": 24,
     "slug": "sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3257,7 +3458,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 24,
+    "id": 25,
     "slug": "generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul",
     "cat": "Física",
     "catCls": "fisica",
@@ -3391,7 +3592,7 @@ window.postsData = [
     "imageAlt_en": "Generalized optical meta-spanners empower arbitrary light paths for multitasking optical manipulation"
   },
   {
-    "id": 25,
+    "id": 26,
     "slug": "antioxidant-glutathione-discovered-to-play-a-key-role-in-proper-protein-folding",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -3515,7 +3716,7 @@ window.postsData = [
     "imageAlt_en": "Antioxidant glutathione discovered to play a key role in proper protein folding"
   },
   {
-    "id": 26,
+    "id": 27,
     "slug": "sun-news-huge-coronal-hole-now-faces-earth",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3538,6 +3739,15 @@ window.postsData = [
         "caption": "",
         "caption_pt": "",
         "caption_en": ""
+      },
+      {
+        "src": "https://earthsky.org/upl/2026/04/apr-30-26-Sun-activity-coronal-holes-e1777545281302.png",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
       }
     ],
     "video": null,
@@ -3658,7 +3868,7 @@ window.postsData = [
     "imageAlt_en": "Sun news: Huge coronal hole now faces Earth"
   },
   {
-    "id": 27,
+    "id": 28,
     "slug": "how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants",
     "cat": "Física",
     "catCls": "fisica",
@@ -3789,7 +3999,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 28,
+    "id": 29,
     "slug": "cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -3913,7 +4123,7 @@ window.postsData = [
     "imageAlt_en": "Cloudy with a chance of metals: Indications of CO$_2$ in the atmosphere of GJ 1214 b from high-resolution K-band spectroscopy"
   },
   {
-    "id": 29,
+    "id": 30,
     "slug": "jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -4034,7 +4244,7 @@ window.postsData = [
     "imageAlt_en": "JWST Sees Smoking Gun for Black Hole Mergers in the Virgo Cluster"
   },
   {
-    "id": 30,
+    "id": 31,
     "slug": "torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -4155,7 +4365,7 @@ window.postsData = [
     "imageAlt_en": "Torsion balances set strongest direct limits yet on ultralight dark matter"
   },
   {
-    "id": 31,
+    "id": 32,
     "slug": "the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -4279,7 +4489,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 32,
+    "id": 33,
     "slug": "planets-collide-around-young-sun-like-star",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -4400,7 +4610,7 @@ window.postsData = [
     "imageAlt_en": "Planets Collide Around Young, Sun-like Star"
   },
   {
-    "id": 33,
+    "id": 34,
     "slug": "first-light-for-poet-shining-sun-light-on-exoplanet-research",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -4549,127 +4759,6 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 34,
-    "slug": "pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra",
-    "cat": "Astrofísica",
-    "catCls": "astrofisica",
-    "img": "https://revistapesquisa.fapesp.br/wp-content/thumbs/03fb824ba2d60a7c5674f2d53910f8a2bc26fa4b_1200-630.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "A origem do neutrino mais energético detectado na Terra ainda é desconhecida",
-    "title_pt": "A origem do neutrino mais energético detectado na Terra ainda é desconhecida",
-    "title_en": "Pesquisadores desconhecem que fenômeno gerou o neutrino mais energético detectado na Terra",
-    "sub": "Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-    "sub_pt": "Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-    "sub_en": "Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo.",
-    "excerpt": "Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-    "excerpt_pt": "Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-    "excerpt_en": "Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo.",
-    "body": "<p>A comunidade científica enfrenta um enigma com a detecção de um neutrino de energia sem precedentes, batizado de KM3-230213A. Sua origem permanece um mistério, e não há consenso sobre a hipótese de que essa superpartícula tenha sido produzida por um buraco negro surgido nos primórdios do Universo. Este evento extraordinário desafia as expectativas e os modelos teóricos atuais sobre a astrofísica de partículas de alta energia, impulsionando novas investigações sobre os fenômenos cósmicos mais extremos.</p><p>O registro do KM3-230213A foi notável. Em menos de 2 microssegundos, a passagem de um múon associado a este neutrino provocou um rastro de luz tão intenso que ativou mais de um quarto dos 12 mil sensores do instrumento de detecção. A energia desse superneutrino é verdadeiramente colossal, situando-se entre aproximadamente 100 mil e 1 milhão de trilhões de vezes a energia de uma partícula de luz, ou fóton, no comprimento de onda visível. Essa magnitude energética o coloca em uma categoria única, muito além dos eventos de neutrinos observados anteriormente.</p><p>De acordo com os modelos teóricos predominantes, neutrinos cosmogênicos, que seriam produzidos em eventos astrofísicos extremos, deveriam chegar à Terra vindos de todas as direções do céu, com energias na faixa de 100 PeV a 1 EeV. Contudo, ao longo de uma década de operação do observatório IceCube e três anos de funcionamento do KM3NeT, nenhum sinal de neutrino com essas características foi registrado. Essa ausência de detecção de neutrinos cosmogênicos, conforme previsto, adiciona uma camada de complexidade ao mistério do KM3-230213A, que se destaca como uma anomalia.</p><p>Antes do KM3-230213A, os dez neutrinos mais energéticos detectados pelo IceCube haviam atingido, no máximo, energias entre 1 PeV e 10 PeV. O KM3NeT, por sua vez, não havia registrado absolutamente nada próximo a esses valores até a ocorrência do extraordinário evento KM3-230213A. Essa diferença substancial na energia observada sublinha a singularidade do novo neutrino e a necessidade de reavaliar as fontes potenciais e os mecanismos de produção de partículas de tão alta energia no Universo.</p><p>Uma das hipóteses para explicar a origem de neutrinos tão energéticos envolve buracos negros primordiais, que teriam surgido no início do Universo. Segundo essa teoria, esses buracos negros emitiriam partículas elementares de todos os tipos, incluindo prótons, fótons e neutrinos, um fenômeno previsto pelo físico britânico Stephen Hawking em 1974, conhecido como radiação Hawking. A detecção de um neutrino com a energia do KM3-230213A poderia, em tese, ser um indício da existência e da atividade desses objetos cósmicos.</p><p>O processo de evaporação de um buraco negro primordial é teoricamente descrito como extremamente violento. Quando a massa de um buraco negro primordial diminui para cerca de 6 mil toneladas, a emissão de partículas se intensifica drasticamente, produzindo partículas cada vez mais energéticas. Esse processo culmina no desaparecimento completo do buraco negro em uma explosão final que pode durar aproximadamente 100 segundos. Tal evento liberaria uma quantidade imensa de energia e partículas, potencialmente gerando neutrinos com as características observadas no KM3-230213A.</p><p>A probabilidade de uma explosão de buraco negro primordial com essas características ocorrer uma vez a cada 14 anos é estimada em 8%, de acordo com o estudo que investiga a origem do KM3-230213A. Embora essa seja uma possibilidade intrigante, a ausência de outras detecções similares e a complexidade dos modelos teóricos mantêm a origem exata do neutrino KM3-230213A como um dos maiores mistérios da astrofísica de partículas atual. A pesquisa continua para desvendar os fenômenos cósmicos capazes de gerar eventos tão energéticos.</p>",
-    "body_pt": "<p>A comunidade científica enfrenta um enigma com a detecção de um neutrino de energia sem precedentes, batizado de KM3-230213A. Sua origem permanece um mistério, e não há consenso sobre a hipótese de que essa superpartícula tenha sido produzida por um buraco negro surgido nos primórdios do Universo. Este evento extraordinário desafia as expectativas e os modelos teóricos atuais sobre a astrofísica de partículas de alta energia, impulsionando novas investigações sobre os fenômenos cósmicos mais extremos.</p><p>O registro do KM3-230213A foi notável. Em menos de 2 microssegundos, a passagem de um múon associado a este neutrino provocou um rastro de luz tão intenso que ativou mais de um quarto dos 12 mil sensores do instrumento de detecção. A energia desse superneutrino é verdadeiramente colossal, situando-se entre aproximadamente 100 mil e 1 milhão de trilhões de vezes a energia de uma partícula de luz, ou fóton, no comprimento de onda visível. Essa magnitude energética o coloca em uma categoria única, muito além dos eventos de neutrinos observados anteriormente.</p><p>De acordo com os modelos teóricos predominantes, neutrinos cosmogênicos, que seriam produzidos em eventos astrofísicos extremos, deveriam chegar à Terra vindos de todas as direções do céu, com energias na faixa de 100 PeV a 1 EeV. Contudo, ao longo de uma década de operação do observatório IceCube e três anos de funcionamento do KM3NeT, nenhum sinal de neutrino com essas características foi registrado. Essa ausência de detecção de neutrinos cosmogênicos, conforme previsto, adiciona uma camada de complexidade ao mistério do KM3-230213A, que se destaca como uma anomalia.</p><p>Antes do KM3-230213A, os dez neutrinos mais energéticos detectados pelo IceCube haviam atingido, no máximo, energias entre 1 PeV e 10 PeV. O KM3NeT, por sua vez, não havia registrado absolutamente nada próximo a esses valores até a ocorrência do extraordinário evento KM3-230213A. Essa diferença substancial na energia observada sublinha a singularidade do novo neutrino e a necessidade de reavaliar as fontes potenciais e os mecanismos de produção de partículas de tão alta energia no Universo.</p><p>Uma das hipóteses para explicar a origem de neutrinos tão energéticos envolve buracos negros primordiais, que teriam surgido no início do Universo. Segundo essa teoria, esses buracos negros emitiriam partículas elementares de todos os tipos, incluindo prótons, fótons e neutrinos, um fenômeno previsto pelo físico britânico Stephen Hawking em 1974, conhecido como radiação Hawking. A detecção de um neutrino com a energia do KM3-230213A poderia, em tese, ser um indício da existência e da atividade desses objetos cósmicos.</p><p>O processo de evaporação de um buraco negro primordial é teoricamente descrito como extremamente violento. Quando a massa de um buraco negro primordial diminui para cerca de 6 mil toneladas, a emissão de partículas se intensifica drasticamente, produzindo partículas cada vez mais energéticas. Esse processo culmina no desaparecimento completo do buraco negro em uma explosão final que pode durar aproximadamente 100 segundos. Tal evento liberaria uma quantidade imensa de energia e partículas, potencialmente gerando neutrinos com as características observadas no KM3-230213A.</p><p>A probabilidade de uma explosão de buraco negro primordial com essas características ocorrer uma vez a cada 14 anos é estimada em 8%, de acordo com o estudo que investiga a origem do KM3-230213A. Embora essa seja uma possibilidade intrigante, a ausência de outras detecções similares e a complexidade dos modelos teóricos mantêm a origem exata do neutrino KM3-230213A como um dos maiores mistérios da astrofísica de partículas atual. A pesquisa continua para desvendar os fenômenos cósmicos capazes de gerar eventos tão energéticos.</p>",
-    "body_en": "<p>Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>The significance lies in astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Em menos de 2 microssegundos, a passagem do múon provocou um rastro de luz tão intenso que ativou mais de um quarto dos 12 mil sensores do instrumento. O valor se situa entre cerca de 100 mil e 1 milhão de trilhões de vezes a energia de uma partícula de luz (fóton) no comprimento de onda visível.</p><p>A origem desse superneutrino, batizado de KM3-230213A, permanece um total mistério. De acordo com os modelos teóricos, essas partículas deveriam chegar à Terra, vindas de todas as partes do céu, com energias em torno de 100 PeV a 1 EeV.</p><p>Entretanto, ao longo de 10 anos de operação do IceCube e 3 anos do KM3NeT, nenhum sinal de neutrino cosmogênico foi registrado. Os 10 neutrinos mais energéticos detectados pelo IceCube chegaram no máximo a energias entre 1 PeV e 10 PeV.</p><p>O KM3NeT não detectou absolutamente nada próximo disso, até o registro do extraordinário KM3-230213A. Emitiriam partículas elementares de todos os tipos, incluindo prótons, fótons e neutrinos, um efeito previsto pelo físico britânico Stephen Hawking (1942-2018), em 1974.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>Quando ela cai para cerca de 6 mil toneladas, o processo se torna extremamente violento: produz partículas cada vez mais energéticas até o buraco negro desaparecer em uma explosão. A chance de tal explosão ocorrer uma vez a cada 14 anos seria de 8%, de acordo com o estudo.</p><p>Because this item comes through Pesquisa FAPESP Ciência as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind.</p><p class=\"art-source\"><a href=\"https://revistapesquisa.fapesp.br/pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-      "Dado-chave: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_pt": [
-      "Ponto central: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-      "Dado-chave: Não há consenso sobre a origem da superpartícula, especificamente se ela foi produzida por um buraco negro primordial.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_en": [
-      "Core point: Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo.",
-      "Key detail: Não há consenso de que a superpartícula teria sido produzida por um buraco negro surgido no início do Universo.",
-      "Science reporting: verify primary technical documentation."
-    ],
-    "date": "08 abr 2026",
-    "date_pt": "08 abr 2026",
-    "date_en": "08 Apr 2026",
-    "time": "14h35",
-    "time_pt": "14h35",
-    "time_en": "14: 35 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-08T14:35:20+00:00",
-    "lastModifiedIso": "2026-04-26T07:40:11+00:00",
-    "source": "Pesquisa FAPESP Ciência",
-    "sourceDomain": "revistapesquisa. fapesp. br",
-    "sourceType": "news",
-    "sourceTypeLabel": "Jornalismo científico",
-    "sourceTypeLabel_pt": "Jornalismo científico",
-    "sourceTypeLabel_en": "Science journalism",
-    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
-    "evidenceKey": "journalistic",
-    "evidenceLabel": "Cobertura jornalística",
-    "evidenceLabel_pt": "Cobertura jornalística",
-    "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "standard",
-    "editorialBandLabel": "Prioridade editorial",
-    "editorialBandLabel_pt": "Prioridade editorial",
-    "editorialBandLabel_en": "Editorial priority",
-    "keywords": [
-      "Astrofísica",
-      "Pesquisa FAPESP Ciência",
-      "Cosmos Week",
-      "Pesquisadores desconhecem que fenômeno gerou o neutrino mais energético detectado na Terra"
-    ],
-    "keywords_pt": [
-      "Astrofísica",
-      "Pesquisa FAPESP Ciência",
-      "Cosmos Week",
-      "Pesquisadores desconhecem que fenômeno gerou o neutrino mais energético detectado na Terra"
-    ],
-    "keywords_en": [
-      "Astrophysics",
-      "Pesquisa FAPESP Ciência",
-      "Cosmos Week",
-      "Researchers do not know which phenomenon generated the most energetic neutrino detected on Earth"
-    ],
-    "srcUrl": "https://revistapesquisa.fapesp.br/pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra/?utm_source=rss&utm_medium=rss&utm_campaign=pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra",
-    "realUrl": "https://www.cosmosweek.com/?article=pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra",
-    "realUrl_en": "https://www.cosmosweek.com/?article=pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 68,
-    "scoreBreakdown": {
-      "source": 80,
-      "evidence": 54,
-      "relevance": 74,
-      "accessibility": 52,
-      "novelty": 46
-    },
-    "imageAlt": "A origem do neutrino mais energético detectado na Terra ainda é desconhecida",
-    "imageAlt_pt": "A origem do neutrino mais energético detectado na Terra ainda é desconhecida",
-    "imageAlt_en": "Pesquisadores desconhecem que fenômeno gerou o neutrino mais energético detectado na Terra",
-    "coverageKind": "news",
-    "coverageKindLabel": "Jornalismo científico",
-    "coverageKindLabel_pt": "Jornalismo científico",
-    "coverageKindLabel_en": "Science journalism",
     "storyKind": "science"
   },
   {
