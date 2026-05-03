@@ -1,6 +1,537 @@
 [
   {
     "id": 1,
+    "slug": "how-a-newly-discovered-organelle-could-help-reduce-cow-methane-emissions",
+    "cat": "Biologia",
+    "catCls": "biologia",
+    "img": "https://scx2.b-cdn.net/gfx/news/hires/2026/how-a-newly-discovered.jpg",
+    "inline_images": [
+      {
+        "src": "https://scx2.b-cdn.net/gfx/news/2026/how-a-newly-discovered.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": {
+      "kind": "file",
+      "platform": "html5",
+      "embedUrl": "",
+      "fileUrl": "https://scx2.b-cdn.net/gfx/video/2026/how-a-newly-discovered-1.mp4",
+      "poster": "https://scx1.b-cdn.net/gfx/video_tmb/2026/how-a-newly-discovered-1.mp4.jpg",
+      "title": "",
+      "title_pt": "",
+      "title_en": "",
+      "caption": "",
+      "caption_pt": "",
+      "caption_en": "",
+      "sourcePage": "https://phys.org/news/2026-05-newly-organelle-cow-methane-emissions.html"
+    },
+    "audio": null,
+    "title": "Como uma organela recém-descoberta poderia ajudar a reduzir as emissões de metano das vacas",
+    "title_pt": "Como uma organela recém-descoberta poderia ajudar a reduzir as emissões de metano das vacas",
+    "title_en": "How a newly discovered organelle could help reduce cow methane emissions",
+    "sub": "Quando as vacas arrotam, elas liberam uma quantidade substancial de gás metano na atmosfera, tornando-se um dos principais contribuintes para as emissões de gases de efeito estufa.",
+    "sub_pt": "Quando as vacas arrotam, elas liberam uma quantidade substancial de gás metano na atmosfera, tornando-se um dos principais contribuintes para as emissões de gases de efeito estufa.",
+    "sub_en": "When cows burp, they send a substantial amount of methane gas into the air, which makes them a leading contributor to greenhouse gas emissions.",
+    "excerpt": "Quando as vacas arrotam, elas liberam uma quantidade substancial de gás metano na atmosfera, tornando-se um dos principais contribuintes para as emissões de gases de efeito estufa.",
+    "excerpt_pt": "Quando as vacas arrotam, elas liberam uma quantidade substancial de gás metano na atmosfera, tornando-se um dos principais contribuintes para as emissões de gases de efeito estufa.",
+    "excerpt_en": "When cows burp, they send a substantial amount of methane gas into the air, which makes them a leading contributor to greenhouse gas emissions.",
+    "body": "<p>As vacas, ao arrotarem, liberam uma quantidade substancial de gás metano na atmosfera, o que as posiciona como um dos principais contribuintes para as emissões globais de gases de efeito estufa. Contudo, uma pesquisa recente, publicada na revista Science, aponta para uma descoberta promissora: uma estrutura produtora de hidrogênio, identificada nos micróbios presentes no estômago desses animais, pode ter um papel crucial na modulação da quantidade de metano expelido. Essa nova compreensão oferece perspectivas inovadoras para o desenvolvimento de estratégias que visam mitigar o impacto ambiental da pecuária.</p><p>Para aprofundar o conhecimento sobre esse fenômeno, uma equipe de investigadores na China empreendeu um estudo abrangente. Eles sequenciaram o DNA de 450 tipos distintos de ciliados ruminais e monitoraram cuidadosamente 100 vacas leiteiras. O objetivo principal era quantificar a emissão de metano por esses animais e, subsequentemente, correlacionar esses níveis com a composição específica dos micróbios que habitam seus estômagos. Essa abordagem sistemática permitiu estabelecer uma ligação direta entre a microbiota ruminal e a produção de metano.</p><p>Utilizando técnicas avançadas de microscopia eletrônica, incluindo a tomografia, que possibilita a construção de mapas tridimensionais de alta resolução das estruturas celulares internas, os cientistas fizeram uma descoberta notável. Eles identificaram uma organela celular até então desconhecida, um compartimento especializado dentro de uma célula, que foi posteriormente confirmada por meio de uma técnica de marcação genética. Essa técnica permitiu aos autores do estudo verificar que genes específicos estavam associados à formação e função dessa nova organela, revelando um componente fundamental na maquinaria celular dos ciliados ruminais.</p><p>Os mapas tridimensionais detalhados revelaram que essas organelas, denominadas hidrogenocorpos, estão localizadas estrategicamente dentro das células ciliadas. Sua proximidade com os metanógenos, que são micróbios simbióticos que coexistem nas mesmas células, é particularmente significativa. Essa disposição sugere uma interação funcional direta, onde os hidrogenocorpos podem fornecer o hidrogênio necessário para os metanógenos realizarem a metanogênese, o processo de produção de metano. A compreensão dessa interação simbiótica é vital para desvendar os mecanismos subjacentes à emissão de metano em ruminantes.</p><p>Os autores do estudo enfatizam que sua pesquisa oferece um recurso genômico abrangente para os ciliados ruminais. Eles destacam a revelação de uma nova organela produtora de hidrogênio que estabelece uma conexão clara entre a atividade celular dos ciliados e as emissões de metano. O trabalho também elucida a base mecanicista da metanogênese impulsionada por ciliados em ruminantes, fornecendo insights cruciais sobre como esses microrganismos contribuem para a produção de um dos gases de efeito estufa mais potentes.</p><p>A identificação e caracterização desses hidrogenocorpos abrem novas avenidas para o desenvolvimento de intervenções. Ao compreender como essa organela influencia a produção de hidrogênio e, consequentemente, a atividade dos metanógenos, os cientistas podem explorar métodos para modular essa via metabólica. Isso poderia incluir a criação de aditivos alimentares específicos ou a seleção de animais com microbiotas ruminais que naturalmente produzam menos metano, contribuindo assim para a redução das emissões de gases de efeito estufa provenientes da pecuária bovina em escala global.</p>",
+    "body_pt": "<p>As vacas, ao arrotarem, liberam uma quantidade substancial de gás metano na atmosfera, o que as posiciona como um dos principais contribuintes para as emissões globais de gases de efeito estufa. Contudo, uma pesquisa recente, publicada na revista Science, aponta para uma descoberta promissora: uma estrutura produtora de hidrogênio, identificada nos micróbios presentes no estômago desses animais, pode ter um papel crucial na modulação da quantidade de metano expelido. Essa nova compreensão oferece perspectivas inovadoras para o desenvolvimento de estratégias que visam mitigar o impacto ambiental da pecuária.</p><p>Para aprofundar o conhecimento sobre esse fenômeno, uma equipe de investigadores na China empreendeu um estudo abrangente. Eles sequenciaram o DNA de 450 tipos distintos de ciliados ruminais e monitoraram cuidadosamente 100 vacas leiteiras. O objetivo principal era quantificar a emissão de metano por esses animais e, subsequentemente, correlacionar esses níveis com a composição específica dos micróbios que habitam seus estômagos. Essa abordagem sistemática permitiu estabelecer uma ligação direta entre a microbiota ruminal e a produção de metano.</p><p>Utilizando técnicas avançadas de microscopia eletrônica, incluindo a tomografia, que possibilita a construção de mapas tridimensionais de alta resolução das estruturas celulares internas, os cientistas fizeram uma descoberta notável. Eles identificaram uma organela celular até então desconhecida, um compartimento especializado dentro de uma célula, que foi posteriormente confirmada por meio de uma técnica de marcação genética. Essa técnica permitiu aos autores do estudo verificar que genes específicos estavam associados à formação e função dessa nova organela, revelando um componente fundamental na maquinaria celular dos ciliados ruminais.</p><p>Os mapas tridimensionais detalhados revelaram que essas organelas, denominadas hidrogenocorpos, estão localizadas estrategicamente dentro das células ciliadas. Sua proximidade com os metanógenos, que são micróbios simbióticos que coexistem nas mesmas células, é particularmente significativa. Essa disposição sugere uma interação funcional direta, onde os hidrogenocorpos podem fornecer o hidrogênio necessário para os metanógenos realizarem a metanogênese, o processo de produção de metano. A compreensão dessa interação simbiótica é vital para desvendar os mecanismos subjacentes à emissão de metano em ruminantes.</p><p>Os autores do estudo enfatizam que sua pesquisa oferece um recurso genômico abrangente para os ciliados ruminais. Eles destacam a revelação de uma nova organela produtora de hidrogênio que estabelece uma conexão clara entre a atividade celular dos ciliados e as emissões de metano. O trabalho também elucida a base mecanicista da metanogênese impulsionada por ciliados em ruminantes, fornecendo insights cruciais sobre como esses microrganismos contribuem para a produção de um dos gases de efeito estufa mais potentes.</p><p>A identificação e caracterização desses hidrogenocorpos abrem novas avenidas para o desenvolvimento de intervenções. Ao compreender como essa organela influencia a produção de hidrogênio e, consequentemente, a atividade dos metanógenos, os cientistas podem explorar métodos para modular essa via metabólica. Isso poderia incluir a criação de aditivos alimentares específicos ou a seleção de animais com microbiotas ruminais que naturalmente produzam menos metano, contribuindo assim para a redução das emissões de gases de efeito estufa provenientes da pecuária bovina em escala global.</p>",
+    "body_en": "<p>When cows burp, they send a substantial amount of methane gas into the air, which makes them a leading contributor to greenhouse gas emissions. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>It matters because biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern. The gap between identifying a correlation in biological data and understanding the causal chain that produces it is routinely underestimated, and the history of biomedical research is populated with associations that collapsed when the mechanism was sought and not found. A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive finding because it generates testable predictions that can narrow the hypothesis space. This article has been reviewed according to Science X&#x27;s editorial process and policies. Editors have highlighted the following attributes while ensuring the content&#x27;s credibility: Add as preferred source 3D fluorescence of rumen ciliate, Entodinium caudatum.</p><p>According to research published in the journal Science, a newly discovered hydrogen-producing structure within the microbes of cow stomachs may influence how much of that gas is. To understand more, researchers in China sequenced the DNA of 450 types of rumen ciliates and monitored 100 dairy cows.</p><p>They measured how much methane they emit and compared these levels to the specific microbes living in their stomachs. Using electron microscopy techniques, including tomography, which allows scientists to build high-resolution 3D maps of internal cell structures, they identified a previously.</p><p>The study authors then used a genetic labeling technique, which confirmed that these genes were associated with the formation of this organelle. The 3D maps revealed that the hydrogenobodies are located within ciliate cells, alongside methanogens, symbiotic microbes that live within the same cells.</p><p>The broader interest lies in whether the reported effect points toward a real mechanism and not merely a reproducible but unexplained association. Biology has learned from decades of biomarker failures that correlation, even robust correlation, is not a substitute for mechanistic understanding. A pathway that can be traced from molecular interaction to cellular response to organismal phenotype provides a far stronger foundation for intervention than a statistical association discovered in a large dataset, however well the statistics are done.</p><p>Our study provides a comprehensive genomic resource for rumen ciliates, reveals a new hydrogen-producing organelle that connects ciliate cellular activity to methane emissions. We rely on readers like you to keep independent science journalism alive.</p><p>Because this item comes through Phys. org Biology as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to test whether the effect repeats across different methods, cell types, model organisms and experimental conditions. Reproducibility is the first test, but mechanistic dissection is the second, and a result that passes both has a substantially better chance of translating into something clinically or biotechnologically useful. The path from a laboratory finding to an applied outcome typically takes a decade or more, and most findings do not complete it; the current result sits at the beginning of that process.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-05-newly-organelle-cow-methane-emissions.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Quando as vacas arrotam, elas liberam uma quantidade substancial de gás metano na atmosfera, tornando-se um dos principais contribuintes para as",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_pt": [
+      "Em foco: Quando as vacas arrotam, elas liberam uma quantidade substancial de gás metano na atmosfera, tornando-se um dos principais contribuintes para as",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_en": [
+      "Focus: When cows burp, they send a substantial amount of methane gas into the air, which makes them a leading contributor to greenhouse gas emissions",
+      "Detail: Science reporting: verify primary technical documentation",
+      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+    ],
+    "date": "03 mai 2026",
+    "date_pt": "03 mai 2026",
+    "date_en": "03 May 2026",
+    "time": "15h40",
+    "time_pt": "15h40",
+    "time_en": "15: 40 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-03T15:40:02+00:00",
+    "lastModifiedIso": "2026-05-03T15:40:02+00:00",
+    "source": "Phys. org Biology",
+    "sourceDomain": "phys. org",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura de jornalismo científico. Útil para contexto, mas recebe peso menor que fonte primária ou periódico.",
+    "sourceNote_pt": "Cobertura de jornalismo científico. Útil para contexto, mas recebe peso menor que fonte primária ou periódico.",
+    "sourceNote_en": "Science journalism coverage. Useful for context, but weighted below primary sources and journals.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "watch",
+    "editorialBandLabel": "Leitura monitorada",
+    "editorialBandLabel_pt": "Leitura monitorada",
+    "editorialBandLabel_en": "Watchlist",
+    "keywords": [
+      "Biologia",
+      "Phys. org Biology",
+      "Cosmos Week",
+      "Como uma organela recém",
+      "descoberta poderia ajudar a reduzir as emissões de metano das vacas"
+    ],
+    "keywords_pt": [
+      "Biologia",
+      "Phys. org Biology",
+      "Cosmos Week",
+      "Como uma organela recém",
+      "descoberta poderia ajudar a reduzir as emissões de metano das vacas"
+    ],
+    "keywords_en": [
+      "Biology",
+      "Phys. org Biology",
+      "Cosmos Week",
+      "Like a newly formed organelle",
+      "discovery could help reduce methane emissions from cows"
+    ],
+    "srcUrl": "https://phys.org/news/2026-05-newly-organelle-cow-methane-emissions.html",
+    "realUrl": "https://www.cosmosweek.com/?article=how-a-newly-discovered-organelle-could-help-reduce-cow-methane-emissions",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=how-a-newly-discovered-organelle-could-help-reduce-cow-methane-emissions",
+    "realUrl_en": "https://www.cosmosweek.com/?article=how-a-newly-discovered-organelle-could-help-reduce-cow-methane-emissions&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/how-a-newly-discovered-organelle-could-help-reduce-cow-methane-emissions/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/how-a-newly-discovered-organelle-could-help-reduce-cow-methane-emissions/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/how-a-newly-discovered-organelle-could-help-reduce-cow-methane-emissions/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/how-a-newly-discovered-organelle-could-help-reduce-cow-methane-emissions/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/how-a-newly-discovered-organelle-could-help-reduce-cow-methane-emissions/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/how-a-newly-discovered-organelle-could-help-reduce-cow-methane-emissions/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 64,
+    "scoreBreakdown": {
+      "source": 60,
+      "evidence": 78,
+      "relevance": 66,
+      "accessibility": 52,
+      "novelty": 55
+    },
+    "imageAlt": "Como uma organela recém-descoberta poderia ajudar a reduzir as emissões de metano das vacas",
+    "imageAlt_pt": "Como uma organela recém-descoberta poderia ajudar a reduzir as emissões de metano das vacas",
+    "imageAlt_en": "How a newly discovered organelle could help reduce cow methane emissions"
+  },
+  {
+    "id": 2,
+    "slug": "this-living-plastic-activates-and-self-destructs-on-command",
+    "cat": "Cosmologia",
+    "catCls": "cosmologia",
+    "img": "https://scx2.b-cdn.net/gfx/news/hires/2026/this-living-plastic-ac.jpg",
+    "inline_images": [
+      {
+        "src": "https://scx2.b-cdn.net/gfx/news/2026/this-living-plastic-ac.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Este ‘plástico vivo’ é ativado e se autodestrói sob comando",
+    "title_pt": "Este ‘plástico vivo’ é ativado e se autodestrói sob comando",
+    "title_en": "This 'living plastic' activates and self-destructs on command",
+    "sub": "Muitos produtos plásticos são projetados para serem usados apenas uma vez, mas o material em si persiste por anos.",
+    "sub_pt": "Muitos produtos plásticos são projetados para serem usados apenas uma vez, mas o material em si persiste por anos.",
+    "sub_en": "Many plastic products are designed to be used only once, yet the material itself lasts for years.",
+    "excerpt": "Muitos produtos plásticos são projetados para serem usados apenas uma vez, mas o material em si persiste por anos.",
+    "excerpt_pt": "Muitos produtos plásticos são projetados para serem usados apenas uma vez, mas o material em si persiste por anos.",
+    "excerpt_en": "Many plastic products are designed to be used only once, yet the material itself lasts for years. But a new strategy is addressing this problem by creating products that self-destruct on command, known as living plastics.",
+    "body": "<p>Muitos produtos plásticos são projetados para serem usados apenas uma vez, mas o material em si persiste por anos. Esse descompasso gera um problema ambiental significativo. Uma nova estratégia, no entanto, busca resolver essa questão por meio da criação de produtos que se autodestroem sob comando, os chamados plásticos vivos. Essa abordagem inovadora visa transformar a durabilidade do plástico, de um problema persistente, em um recurso programável e controlável.</p><p>Uma equipe de pesquisadores, cujos achados foram publicados na ACS Applied Polymer Materials, demonstrou a eficácia dessa estratégia. Eles utilizaram duas cepas bacterianas que, em conjunto, foram capazes de decompor completamente o material plástico em apenas seis dias, sem gerar microplásticos. Essa descoberta representa um avanço notável na busca por soluções sustentáveis para o descarte de plásticos, oferecendo uma alternativa promissora aos métodos tradicionais de reciclagem ou descarte que frequentemente resultam na acumulação de resíduos por longos períodos.</p><p>Zhuojun Dai, autor correspondente do artigo, elucidou a motivação por trás da pesquisa. Ele explicou: &quot;A constatação de que os plásticos tradicionais persistem durante séculos, enquanto muitas aplicações, como embalagens, têm vida curta, nos levou a questionar: poderíamos incorporar a degradação diretamente no ciclo de vida? Ao incorporar esses micróbios, os plásticos poderiam efetivamente ‘ganhar vida’ e se autodestruir sob comando, transformando a durabilidade de um problema em um recurso programável. &quot; Essa visão sublinha a mudança de paradigma proposta, onde a biodegradação é intrínseca ao design do material.</p><p>O processo de degradação envolve a ação coordenada de duas enzimas. Uma delas atua como um &quot;picador&quot; aleatório, cortando as longas cadeias poliméricas em pedaços menores. A outra enzima, por sua vez, &quot;mastiga&quot; lentamente esses pedaços, transformando-os em suas unidades de construção de monômeros a partir de cada extremidade. Essa abordagem de duas etapas garante uma quebra eficiente e completa do material, evitando a formação de fragmentos maiores que poderiam persistir no ambiente.</p><p>Para proteger os micróbios antes de sua ativação, as duas cepas bacterianas foram combinadas com policaprolactona, um polímero comum na impressão 3D e em algumas suturas cirúrgicas. Essa encapsulação ou incorporação estratégica permite que os microrganismos permaneçam dormentes até o momento desejado para a degradação. A ativação ocorre de forma controlada: uma vez adicionado um caldo nutriente a 50 graus Celsius (122 graus Fahrenheit), os esporos são ativados, iniciando o processo de quebra do plástico até seus blocos de construção básicos em apenas seis dias.</p><p>A notável cooperação entre as enzimas e as cepas bacterianas demonstrou ser extremamente eficiente. Um dos resultados mais significativos dessa sinergia é a capacidade de impedir a formação de microplásticos durante todo o processo de degradação. Isso é crucial, pois os microplásticos representam uma preocupação ambiental crescente, com impactos negativos conhecidos em ecossistemas aquáticos e terrestres, bem como na saúde humana. A ausência desses fragmentos indesejáveis valida ainda mais o potencial dessa tecnologia como uma solução verdadeiramente sustentável.</p><p>Como prova de conceito para a aplicabilidade prática dessa tecnologia, os pesquisadores criaram um eletrodo de plástico vestível utilizando o material vivo. Testes subsequentes confirmaram que o dispositivo funcionou conforme o esperado e, o mais importante, degradou-se por completo em apenas duas semanas. Este experimento demonstra a viabilidade de integrar esses plásticos vivos em produtos de uso diário, abrindo caminho para uma nova geração de materiais que podem ser programados para desaparecer após cumprir sua função, mitigando assim o problema global da poluição plástica.</p>",
+    "body_pt": "<p>Muitos produtos plásticos são projetados para serem usados apenas uma vez, mas o material em si persiste por anos. Esse descompasso gera um problema ambiental significativo. Uma nova estratégia, no entanto, busca resolver essa questão por meio da criação de produtos que se autodestroem sob comando, os chamados plásticos vivos. Essa abordagem inovadora visa transformar a durabilidade do plástico, de um problema persistente, em um recurso programável e controlável.</p><p>Uma equipe de pesquisadores, cujos achados foram publicados na ACS Applied Polymer Materials, demonstrou a eficácia dessa estratégia. Eles utilizaram duas cepas bacterianas que, em conjunto, foram capazes de decompor completamente o material plástico em apenas seis dias, sem gerar microplásticos. Essa descoberta representa um avanço notável na busca por soluções sustentáveis para o descarte de plásticos, oferecendo uma alternativa promissora aos métodos tradicionais de reciclagem ou descarte que frequentemente resultam na acumulação de resíduos por longos períodos.</p><p>Zhuojun Dai, autor correspondente do artigo, elucidou a motivação por trás da pesquisa. Ele explicou: &quot;A constatação de que os plásticos tradicionais persistem durante séculos, enquanto muitas aplicações, como embalagens, têm vida curta, nos levou a questionar: poderíamos incorporar a degradação diretamente no ciclo de vida? Ao incorporar esses micróbios, os plásticos poderiam efetivamente ‘ganhar vida’ e se autodestruir sob comando, transformando a durabilidade de um problema em um recurso programável. &quot; Essa visão sublinha a mudança de paradigma proposta, onde a biodegradação é intrínseca ao design do material.</p><p>O processo de degradação envolve a ação coordenada de duas enzimas. Uma delas atua como um &quot;picador&quot; aleatório, cortando as longas cadeias poliméricas em pedaços menores. A outra enzima, por sua vez, &quot;mastiga&quot; lentamente esses pedaços, transformando-os em suas unidades de construção de monômeros a partir de cada extremidade. Essa abordagem de duas etapas garante uma quebra eficiente e completa do material, evitando a formação de fragmentos maiores que poderiam persistir no ambiente.</p><p>Para proteger os micróbios antes de sua ativação, as duas cepas bacterianas foram combinadas com policaprolactona, um polímero comum na impressão 3D e em algumas suturas cirúrgicas. Essa encapsulação ou incorporação estratégica permite que os microrganismos permaneçam dormentes até o momento desejado para a degradação. A ativação ocorre de forma controlada: uma vez adicionado um caldo nutriente a 50 graus Celsius (122 graus Fahrenheit), os esporos são ativados, iniciando o processo de quebra do plástico até seus blocos de construção básicos em apenas seis dias.</p><p>A notável cooperação entre as enzimas e as cepas bacterianas demonstrou ser extremamente eficiente. Um dos resultados mais significativos dessa sinergia é a capacidade de impedir a formação de microplásticos durante todo o processo de degradação. Isso é crucial, pois os microplásticos representam uma preocupação ambiental crescente, com impactos negativos conhecidos em ecossistemas aquáticos e terrestres, bem como na saúde humana. A ausência desses fragmentos indesejáveis valida ainda mais o potencial dessa tecnologia como uma solução verdadeiramente sustentável.</p><p>Como prova de conceito para a aplicabilidade prática dessa tecnologia, os pesquisadores criaram um eletrodo de plástico vestível utilizando o material vivo. Testes subsequentes confirmaram que o dispositivo funcionou conforme o esperado e, o mais importante, degradou-se por completo em apenas duas semanas. Este experimento demonstra a viabilidade de integrar esses plásticos vivos em produtos de uso diário, abrindo caminho para uma nova geração de materiais que podem ser programados para desaparecer após cumprir sua função, mitigando assim o problema global da poluição plástica.</p>",
+    "body_en": "<p>Many plastic products are designed to be used only once, yet the material itself lasts for years. But a new strategy is addressing this problem by creating products that self-destruct on command, known as living plastics. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>The significance lies in cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. This article has been reviewed according to Science X&#x27;s editorial process and policies. Editors have highlighted the following attributes while ensuring the content&#x27;s credibility: Add as preferred source A living plastic with a pair of cooperative, plastic-busting.</p><p>But a new strategy is addressing this problem by creating products that self-destruct on command, known as living plastics. One team reporting in ACS Applied Polymer Materials used two bacterial strains that worked together and completely broke down the material within just six days, without making.</p><p>Zhuojun Dai, a corresponding author on the paper, explains that &quot;the realization that traditional plastics persist for centuries, while many applications, like packaging, are. By embedding these microbes, plastics could effectively &#x27;come alive&#x27; and self-destruct on command, turning durability from a problem into a programmable feature,&quot; explains Dai.</p><p>One enzyme acts as a random chopper, snipping the long polymer chains into smaller pieces, while the other slowly chews these pieces into their monomer building units from each. Subtilis with polycaprolactone (a polymer common in 3D printing and some surgical sutures) to protect the microbes before they were needed.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>However, once a nutrient broth at 122 degrees Fahrenheit (50 degrees Celsius) was added, the spores activated, breaking the plastic all the way down to its base building blocks. The cooperation between the enzymes was so efficient, it even prevented microplastic particles from being created during the degradation process.</p><p>Because this item comes through Phys. org Chemistry as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-plastic-destructs.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Muitos produtos plásticos são projetados para serem usados apenas uma vez, mas o material em si persiste por anos",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_pt": [
+      "Em foco: Muitos produtos plásticos são projetados para serem usados apenas uma vez, mas o material em si persiste por anos",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_en": [
+      "Focus: Many plastic products are designed to be used only once, yet the material itself lasts for years",
+      "Detail: Science reporting: verify primary technical documentation",
+      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+    ],
+    "date": "03 mai 2026",
+    "date_pt": "03 mai 2026",
+    "date_en": "03 May 2026",
+    "time": "12h00",
+    "time_pt": "12h00",
+    "time_en": "12: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-03T12:00:06+00:00",
+    "lastModifiedIso": "2026-05-03T12:00:06+00:00",
+    "source": "Phys. org Chemistry",
+    "sourceDomain": "phys. org",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura de jornalismo científico. Útil para contexto, mas recebe peso menor que fonte primária ou periódico.",
+    "sourceNote_pt": "Cobertura de jornalismo científico. Útil para contexto, mas recebe peso menor que fonte primária ou periódico.",
+    "sourceNote_en": "Science journalism coverage. Useful for context, but weighted below primary sources and journals.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "watch",
+    "editorialBandLabel": "Leitura monitorada",
+    "editorialBandLabel_pt": "Leitura monitorada",
+    "editorialBandLabel_en": "Watchlist",
+    "keywords": [
+      "Cosmologia",
+      "Phys. org Chemistry",
+      "Cosmos Week",
+      "Este ‘plástico vivo’ é ativado e se autodestrói sob comando"
+    ],
+    "keywords_pt": [
+      "Cosmologia",
+      "Phys. org Chemistry",
+      "Cosmos Week",
+      "Este ‘plástico vivo’ é ativado e se autodestrói sob comando"
+    ],
+    "keywords_en": [
+      "Cosmology",
+      "Phys. org Chemistry",
+      "Cosmos Week",
+      "This ‘living plastic’ activates and self-destructs on command"
+    ],
+    "srcUrl": "https://phys.org/news/2026-04-plastic-destructs.html",
+    "realUrl": "https://www.cosmosweek.com/?article=this-living-plastic-activates-and-self-destructs-on-command",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=this-living-plastic-activates-and-self-destructs-on-command",
+    "realUrl_en": "https://www.cosmosweek.com/?article=this-living-plastic-activates-and-self-destructs-on-command&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/this-living-plastic-activates-and-self-destructs-on-command/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/this-living-plastic-activates-and-self-destructs-on-command/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/this-living-plastic-activates-and-self-destructs-on-command/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/this-living-plastic-activates-and-self-destructs-on-command/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/this-living-plastic-activates-and-self-destructs-on-command/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/this-living-plastic-activates-and-self-destructs-on-command/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 60,
+    "scoreBreakdown": {
+      "source": 59,
+      "evidence": 72,
+      "relevance": 56,
+      "accessibility": 52,
+      "novelty": 55
+    },
+    "imageAlt": "Este ‘plástico vivo’ é ativado e se autodestrói sob comando",
+    "imageAlt_pt": "Este ‘plástico vivo’ é ativado e se autodestrói sob comando",
+    "imageAlt_en": "This 'living plastic' activates and self-destructs on command"
+  },
+  {
+    "id": 3,
+    "slug": "a-bright-moon-may-dim-the-eta-aquarid-meteor-shower-made-up-of-halley-s-comet-debris",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://scx2.b-cdn.net/gfx/news/hires/2026/a-bright-moon-may-dim.jpg",
+    "inline_images": [
+      {
+        "src": "https://scx2.b-cdn.net/gfx/news/2026/a-bright-moon-may-dim.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://scx2.b-cdn.net/gfx/news/hires/2023/meteor-showersits-wort.jpg",
+        "alt": "Chuvas de meteoros",
+        "alt_pt": "Chuvas de meteoros",
+        "alt_en": "Meteor showers",
+        "caption": "Chuvas de meteoros",
+        "caption_pt": "Chuvas de meteoros",
+        "caption_en": "Meteor showers"
+      },
+      {
+        "src": "https://scx2.b-cdn.net/gfx/news/2023/meteor-showersits-wort.jpg",
+        "alt": "Chuvas de meteoros",
+        "alt_pt": "Chuvas de meteoros",
+        "alt_en": "Meteor showers",
+        "caption": "Chuvas de meteoros",
+        "caption_pt": "Chuvas de meteoros",
+        "caption_en": "Meteor showers"
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Lua Brilhante Pode Ofuscar a Chuva de Meteoros Eta Aquáridas, Formada por Detritos do Cometa Halley",
+    "title_pt": "Lua Brilhante Pode Ofuscar a Chuva de Meteoros Eta Aquáridas, Formada por Detritos do Cometa Halley",
+    "title_en": "A bright moon may dim the Eta Aquarid meteor shower made up of Halley's comet debris",
+    "sub": "A chuva de meteoros Eta Aquáridas, composta por detritos do cometa Halley, em breve iluminará o céu.",
+    "sub_pt": "A chuva de meteoros Eta Aquáridas, composta por detritos do cometa Halley, em breve iluminará o céu.",
+    "sub_en": "The Eta Aquarid meteor shower soon will light the sky with debris from Halley's comet. But a bright moon will spoil the fun this year, making the display harder to glimpse.",
+    "excerpt": "A chuva de meteoros Eta Aquáridas, composta por detritos do cometa Halley, em breve iluminará o céu. No entanto, a presença de uma lua brilhante este ano dificultará a observação do fenômeno.",
+    "excerpt_pt": "A chuva de meteoros Eta Aquáridas, composta por detritos do cometa Halley, em breve iluminará o céu. No entanto, a presença de uma lua brilhante este ano dificultará a observação do fenômeno.",
+    "excerpt_en": "The Eta Aquarid meteor shower soon will light the sky with debris from Halley's comet. But a bright moon will spoil the fun this year, making the display harder to glimpse.",
+    "body": "<p>A chuva de meteoros Eta Aquáridas, um espetáculo celeste anual, é formada por detritos deixados pelo famoso cometa Halley. Embora seja um evento aguardado por entusiastas da astronomia, a observação deste ano será significativamente prejudicada pela intensa luminosidade da lua. Este fenômeno, que ocorre quando a Terra atravessa a trilha de poeira e rochas do cometa, promete uma exibição mais discreta do que o habitual, especialmente para aqueles que não estiverem em condições ideais de observação. A interferência lunar é um fator crucial que reduz a visibilidade dos meteoros, transformando um evento potencialmente deslumbrante em um desafio para os observadores.</p><p>Tradicionalmente, os observadores localizados no Hemisfério Sul desfrutam de uma visão privilegiada das Eta Aquáridas, podendo avistar até 50 meteoros por hora durante o pico da atividade. Contudo, a presença da lua brilhante pode reduzir essa taxa pela metade, diminuindo consideravelmente a intensidade do espetáculo. No Hemisfério Norte, a situação é ainda mais desafiadora, com as expectativas de observação caindo para menos de 10 meteoros por hora. A regra geral para a visibilidade deste evento é clara: quanto mais ao sul o observador estiver, maiores serão suas chances de testemunhar um número mais elevado de &#x27;estrelas cadentes&#x27;, embora sempre sob a influência atenuante da luz lunar.</p><p>As chuvas de meteoros são fenômenos astronômicos que ocorrem quando o planeta Terra intercepta as trilhas de detritos cósmicos deixadas por cometas ou, em alguns casos, por asteroides. Esses fragmentos, ao entrarem em contato com a atmosfera terrestre em velocidades extremamente elevadas, sofrem atrito e incandescem, produzindo os brilhantes raios de luz que popularmente conhecemos como estrelas cadentes. A maioria dessas chuvas é originada a partir de restos de cometas, e as Eta Aquáridas são um exemplo notável, associadas a um dos cometas mais célebres e estudados da história da astronomia.</p><p>O cometa Halley, responsável pelos detritos que formam as Eta Aquáridas, é um corpo celeste periódico que completa uma órbita ao redor do Sol a cada 76 anos. Sua passagem próxima à Terra é um evento raro e aguardado, tendo sido observado e registrado por civilizações antigas ao longo da história. A próxima aparição visível do cometa Halley está prevista para o ano de 2061, o que o torna um objeto de estudo e fascínio contínuo para astrônomos e o público em geral. A cada passagem, ele deixa para trás uma nuvem de partículas que, ao longo do tempo, se espalha pelo espaço e é eventualmente cruzada pela órbita terrestre, dando origem a chuvas de meteoros como as Eta Aquáridas e as Oriônidas.</p><p>Apesar da interferência lunar, ainda é possível tentar observar as Eta Aquáridas. Recomenda-se procurar um local com o mínimo de poluição luminosa possível, longe das luzes da cidade. A melhor janela de observação geralmente ocorre nas horas que antecedem o amanhecer, quando a lua pode estar mais baixa no horizonte ou já ter se posto, dependendo da localização geográfica. Adaptar os olhos à escuridão por pelo menos 20 a 30 minutos é crucial para maximizar a visibilidade dos meteoros mais tênues. Paciência e um campo de visão amplo, sem a necessidade de equipamentos ópticos como telescópios, são os melhores aliados para quem deseja apreciar este fenômeno, mesmo sob condições desafiadoras.</p>",
+    "body_pt": "<p>A chuva de meteoros Eta Aquáridas, um espetáculo celeste anual, é formada por detritos deixados pelo famoso cometa Halley. Embora seja um evento aguardado por entusiastas da astronomia, a observação deste ano será significativamente prejudicada pela intensa luminosidade da lua. Este fenômeno, que ocorre quando a Terra atravessa a trilha de poeira e rochas do cometa, promete uma exibição mais discreta do que o habitual, especialmente para aqueles que não estiverem em condições ideais de observação. A interferência lunar é um fator crucial que reduz a visibilidade dos meteoros, transformando um evento potencialmente deslumbrante em um desafio para os observadores.</p><p>Tradicionalmente, os observadores localizados no Hemisfério Sul desfrutam de uma visão privilegiada das Eta Aquáridas, podendo avistar até 50 meteoros por hora durante o pico da atividade. Contudo, a presença da lua brilhante pode reduzir essa taxa pela metade, diminuindo consideravelmente a intensidade do espetáculo. No Hemisfério Norte, a situação é ainda mais desafiadora, com as expectativas de observação caindo para menos de 10 meteoros por hora. A regra geral para a visibilidade deste evento é clara: quanto mais ao sul o observador estiver, maiores serão suas chances de testemunhar um número mais elevado de &#x27;estrelas cadentes&#x27;, embora sempre sob a influência atenuante da luz lunar.</p><p>As chuvas de meteoros são fenômenos astronômicos que ocorrem quando o planeta Terra intercepta as trilhas de detritos cósmicos deixadas por cometas ou, em alguns casos, por asteroides. Esses fragmentos, ao entrarem em contato com a atmosfera terrestre em velocidades extremamente elevadas, sofrem atrito e incandescem, produzindo os brilhantes raios de luz que popularmente conhecemos como estrelas cadentes. A maioria dessas chuvas é originada a partir de restos de cometas, e as Eta Aquáridas são um exemplo notável, associadas a um dos cometas mais célebres e estudados da história da astronomia.</p><p>O cometa Halley, responsável pelos detritos que formam as Eta Aquáridas, é um corpo celeste periódico que completa uma órbita ao redor do Sol a cada 76 anos. Sua passagem próxima à Terra é um evento raro e aguardado, tendo sido observado e registrado por civilizações antigas ao longo da história. A próxima aparição visível do cometa Halley está prevista para o ano de 2061, o que o torna um objeto de estudo e fascínio contínuo para astrônomos e o público em geral. A cada passagem, ele deixa para trás uma nuvem de partículas que, ao longo do tempo, se espalha pelo espaço e é eventualmente cruzada pela órbita terrestre, dando origem a chuvas de meteoros como as Eta Aquáridas e as Oriônidas.</p><p>Apesar da interferência lunar, ainda é possível tentar observar as Eta Aquáridas. Recomenda-se procurar um local com o mínimo de poluição luminosa possível, longe das luzes da cidade. A melhor janela de observação geralmente ocorre nas horas que antecedem o amanhecer, quando a lua pode estar mais baixa no horizonte ou já ter se posto, dependendo da localização geográfica. Adaptar os olhos à escuridão por pelo menos 20 a 30 minutos é crucial para maximizar a visibilidade dos meteoros mais tênues. Paciência e um campo de visão amplo, sem a necessidade de equipamentos ópticos como telescópios, são os melhores aliados para quem deseja apreciar este fenômeno, mesmo sob condições desafiadoras.</p>",
+    "body_en": "<p>The Eta Aquarid meteor shower soon will light the sky with debris from Halley&#x27;s comet. But a bright moon will spoil the fun this year, making the display harder to glimpse. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. The Eta Aquarid meteor shower soon will light the sky with debris from Halley&#x27;s comet. This article has been reviewed according to Science X&#x27;s editorial process and policies.</p><p>Editors have highlighted the following attributes while ensuring the content&#x27;s credibility: Add as preferred source This photo provided by NASA shows an Eta Aquarid meteor. Cooke/Marshall Space Flight Center/NASA via AP, File The Eta Aquarid meteor shower soon will light the sky with debris from Halley&#x27;s comet.</p><p>But a bright moon will spoil the fun this year, making the display harder to glimpse. Viewers from the Southern Hemisphere typically see 50 meteors per hour during the peak, but the interfering moon could cut that number by half.</p><p>In the north, skywatchers will likely see fewer than 10 per hour. The farther south you are, the better you&#x27;ll see it. &quot; Meteor showers happen when the Earth charges through trails of debris left behind from comets or asteroids.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Those bits collide with Earth&#x27;s atmosphere at extremely high speeds, producing streaks of light that are also known as shooting stars. Most meteor showers are caused by leftovers from comets, and the Eta Aquarids feature debris from one of the most well-known.</p><p>Because this item comes through Phys. org Space as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-05-bright-moon-dim-eta-aquarid.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: A chuva de meteoros Eta Aquáridas, composta por detritos do cometa Halley, em breve iluminará o céu",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_pt": [
+      "Em foco: A chuva de meteoros Eta Aquáridas, composta por detritos do cometa Halley, em breve iluminará o céu",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_en": [
+      "Focus: The Eta Aquarid meteor shower soon will light the sky with debris from Halley's comet",
+      "Detail: Science reporting: verify primary technical documentation",
+      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+    ],
+    "date": "03 mai 2026",
+    "date_pt": "03 mai 2026",
+    "date_en": "03 May 2026",
+    "time": "10h40",
+    "time_pt": "10h40",
+    "time_en": "10: 40 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-03T10:40:22+00:00",
+    "lastModifiedIso": "2026-05-03T10:40:22+00:00",
+    "source": "Phys. org Space",
+    "sourceDomain": "phys. org",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura de jornalismo científico. Útil para contexto, mas recebe peso menor que fonte primária ou periódico.",
+    "sourceNote_pt": "Cobertura de jornalismo científico. Útil para contexto, mas recebe peso menor que fonte primária ou periódico.",
+    "sourceNote_en": "Science journalism coverage. Useful for context, but weighted below primary sources and journals.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "watch",
+    "editorialBandLabel": "Leitura monitorada",
+    "editorialBandLabel_pt": "Leitura monitorada",
+    "editorialBandLabel_en": "Watchlist",
+    "keywords": [
+      "Astronomia",
+      "Phys. org Space",
+      "Cosmos Week",
+      "Uma lua brilhante pode ofuscar a chuva de meteoros Eta Aquarid composta por detritos do cometa Halley"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "Phys. org Space",
+      "Cosmos Week",
+      "Uma lua brilhante pode ofuscar a chuva de meteoros Eta Aquarid composta por detritos do cometa Halley"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "Phys. org Space",
+      "Cosmos Week",
+      "A bright moon could outshine the Eta Aquarid meteor shower made up of debris from Halley's Comet"
+    ],
+    "srcUrl": "https://phys.org/news/2026-05-bright-moon-dim-eta-aquarid.html",
+    "realUrl": "https://www.cosmosweek.com/?article=a-bright-moon-may-dim-the-eta-aquarid-meteor-shower-made-up-of-halley-s-comet-debris",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=a-bright-moon-may-dim-the-eta-aquarid-meteor-shower-made-up-of-halley-s-comet-debris",
+    "realUrl_en": "https://www.cosmosweek.com/?article=a-bright-moon-may-dim-the-eta-aquarid-meteor-shower-made-up-of-halley-s-comet-debris&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/a-bright-moon-may-dim-the-eta-aquarid-meteor-shower-made-up-of-halley-s-comet-debris/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/a-bright-moon-may-dim-the-eta-aquarid-meteor-shower-made-up-of-halley-s-comet-debris/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/a-bright-moon-may-dim-the-eta-aquarid-meteor-shower-made-up-of-halley-s-comet-debris/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/a-bright-moon-may-dim-the-eta-aquarid-meteor-shower-made-up-of-halley-s-comet-debris/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/a-bright-moon-may-dim-the-eta-aquarid-meteor-shower-made-up-of-halley-s-comet-debris/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/a-bright-moon-may-dim-the-eta-aquarid-meteor-shower-made-up-of-halley-s-comet-debris/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 66,
+    "scoreBreakdown": {
+      "source": 66,
+      "evidence": 72,
+      "relevance": 70,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Lua Brilhante Pode Ofuscar a Chuva de Meteoros Eta Aquáridas, Formada por Detritos do Cometa Halley",
+    "imageAlt_pt": "Lua Brilhante Pode Ofuscar a Chuva de Meteoros Eta Aquáridas, Formada por Detritos do Cometa Halley",
+    "imageAlt_en": "A bright moon may dim the Eta Aquarid meteor shower made up of Halley's comet debris"
+  },
+  {
+    "id": 4,
+    "slug": "solar-radio-bursts-reveal-hidden-magnetic-switchbacks-near-the-sun-parker-solar-probe-data-sugge",
+    "cat": "Física",
+    "catCls": "fisica",
+    "img": "https://scx2.b-cdn.net/gfx/news/2026/signatures-of-large-sc.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Explosões de rádio solar revelam ziguezagues magnéticos ocultos perto do Sol, sugerem dados da Parker Solar Probe",
+    "title_pt": "Explosões de rádio solar revelam ziguezagues magnéticos ocultos perto do Sol, sugerem dados da Parker Solar Probe",
+    "title_en": "Solar radio bursts reveal hidden magnetic switchbacks near the sun, Parker Solar Probe data suggest",
+    "sub": "As explosões de rádio solares estão intrinsecamente ligadas ao movimento de sua fonte emissora através do plasma coronal e heliosférico.",
+    "sub_pt": "As explosões de rádio solares estão intrinsecamente ligadas ao movimento de sua fonte emissora através do plasma coronal e heliosférico.",
+    "sub_en": "Solar radio bursts are intrinsically linked to the motion of their emitting source through the coronal and heliospheric plasma.",
+    "excerpt": "As explosões de rádio solares estão intrinsecamente ligadas ao movimento de sua fonte emissora através do plasma coronal e heliosférico.",
+    "excerpt_pt": "As explosões de rádio solares estão intrinsecamente ligadas ao movimento de sua fonte emissora através do plasma coronal e heliosférico.",
+    "excerpt_en": "Solar radio bursts are intrinsically linked to the motion of their emitting source through the coronal and heliospheric plasma. Electron transport is mostly confined to magnetic field lines.",
+    "body": "<p>Dada a natureza inerentemente turbulenta da atmosfera solar, surge a questão de saber se as mudanças nas taxas de desvio das explosões de rádio do tipo III poderiam ser atribuídas a desvios do campo magnético, como ziguezagues ou deflexões em grande escala. Essa hipótese é crucial para a compreensão da dinâmica do campo magnético solar, especialmente em regiões próximas ao Sol, onde as condições são extremas e as medições diretas são desafiadoras. A investigação dessas variações pode, portanto, oferecer uma nova perspectiva sobre a complexa topologia magnética que governa o transporte de partículas energéticas e a propagação de ondas no meio interplanetário.</p><p>Para testar essa hipótese, uma análise detalhada foi realizada em 24 explosões interplanetárias do tipo III. Esses eventos foram observados pela sonda Parker Solar Probe (PSP) durante um período de uma semana, fornecendo dados cruciais de uma região próxima ao Sol. A PSP, com sua capacidade única de se aproximar do Sol, oferece uma plataforma ideal para investigar fenômenos solares em alta resolução espacial e temporal. Os resultados deste trabalho foram publicados no prestigiado periódico The Astrophysical Journal, submetendo as descobertas ao rigoroso escrutínio da comunidade científica.</p><p>Durante a análise, foi estabelecido um nível de ruído de 0, 57 raios solares para os desvios observados. Desvios que excedem esse limite são considerados indicativos de perturbações reais no campo magnético ou na densidade do plasma. Dos 24 eventos estudados, uma proporção significativa, precisamente 50%, exibiu desvios que ultrapassaram esse nível de ruído. O deslocamento médio observado nesses eventos foi de 1, 1 raios solares, um valor que sugere uma influência considerável das condições locais sobre a trajetória das fontes emissoras de rádio. Esses dados quantificam a extensão das perturbações e fornecem uma base para a interpretação de suas causas subjacentes.</p><p>As variações observadas podem ser explicadas por duas principais causas: mudanças na densidade do plasma ou desvios significativos no campo magnético. Especificamente, as mudanças de densidade necessárias para justificar esses desvios variam entre 10% e 30%. Alternativamente, desvios do campo magnético na faixa de 23 a 88 graus poderiam produzir os mesmos efeitos. Essas perturbações ocorrem em escalas espaciais que variam de 1, 8 a 6, 4 raios solares, indicando que as estruturas magnéticas ou de densidade que as causam são de proporções consideráveis e podem influenciar o transporte de partículas em uma vasta região do ambiente solar. A capacidade de distinguir entre essas duas causas potenciais é fundamental para refinar nossos modelos da heliosfera interna.</p><p>Essas descobertas da Parker Solar Probe são cruciais para aprofundar nossa compreensão dos ziguezagues magnéticos e outras deflexões que moldam o ambiente solar. Ao revelar a ligação entre as explosões de rádio solares e as perturbações do campo magnético, o estudo oferece uma ferramenta diagnóstica poderosa para mapear a complexa topologia magnética perto do Sol. A identificação e quantificação desses desvios contribuem significativamente para a física solar, ajudando a desvendar os mecanismos que impulsionam o vento solar e a propagação de partículas energéticas, elementos essenciais para a previsão do clima espacial.</p>",
+    "body_pt": "<p>Dada a natureza inerentemente turbulenta da atmosfera solar, surge a questão de saber se as mudanças nas taxas de desvio das explosões de rádio do tipo III poderiam ser atribuídas a desvios do campo magnético, como ziguezagues ou deflexões em grande escala. Essa hipótese é crucial para a compreensão da dinâmica do campo magnético solar, especialmente em regiões próximas ao Sol, onde as condições são extremas e as medições diretas são desafiadoras. A investigação dessas variações pode, portanto, oferecer uma nova perspectiva sobre a complexa topologia magnética que governa o transporte de partículas energéticas e a propagação de ondas no meio interplanetário.</p><p>Para testar essa hipótese, uma análise detalhada foi realizada em 24 explosões interplanetárias do tipo III. Esses eventos foram observados pela sonda Parker Solar Probe (PSP) durante um período de uma semana, fornecendo dados cruciais de uma região próxima ao Sol. A PSP, com sua capacidade única de se aproximar do Sol, oferece uma plataforma ideal para investigar fenômenos solares em alta resolução espacial e temporal. Os resultados deste trabalho foram publicados no prestigiado periódico The Astrophysical Journal, submetendo as descobertas ao rigoroso escrutínio da comunidade científica.</p><p>Durante a análise, foi estabelecido um nível de ruído de 0, 57 raios solares para os desvios observados. Desvios que excedem esse limite são considerados indicativos de perturbações reais no campo magnético ou na densidade do plasma. Dos 24 eventos estudados, uma proporção significativa, precisamente 50%, exibiu desvios que ultrapassaram esse nível de ruído. O deslocamento médio observado nesses eventos foi de 1, 1 raios solares, um valor que sugere uma influência considerável das condições locais sobre a trajetória das fontes emissoras de rádio. Esses dados quantificam a extensão das perturbações e fornecem uma base para a interpretação de suas causas subjacentes.</p><p>As variações observadas podem ser explicadas por duas principais causas: mudanças na densidade do plasma ou desvios significativos no campo magnético. Especificamente, as mudanças de densidade necessárias para justificar esses desvios variam entre 10% e 30%. Alternativamente, desvios do campo magnético na faixa de 23 a 88 graus poderiam produzir os mesmos efeitos. Essas perturbações ocorrem em escalas espaciais que variam de 1, 8 a 6, 4 raios solares, indicando que as estruturas magnéticas ou de densidade que as causam são de proporções consideráveis e podem influenciar o transporte de partículas em uma vasta região do ambiente solar. A capacidade de distinguir entre essas duas causas potenciais é fundamental para refinar nossos modelos da heliosfera interna.</p><p>Essas descobertas da Parker Solar Probe são cruciais para aprofundar nossa compreensão dos ziguezagues magnéticos e outras deflexões que moldam o ambiente solar. Ao revelar a ligação entre as explosões de rádio solares e as perturbações do campo magnético, o estudo oferece uma ferramenta diagnóstica poderosa para mapear a complexa topologia magnética perto do Sol. A identificação e quantificação desses desvios contribuem significativamente para a física solar, ajudando a desvendar os mecanismos que impulsionam o vento solar e a propagação de partículas energéticas, elementos essenciais para a previsão do clima espacial.</p>",
+    "body_en": "<p>Solar radio bursts are intrinsically linked to the motion of their emitting source through the coronal and heliospheric plasma. Electron transport is mostly confined to magnetic field lines. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>This matters because physics only takes a result seriously when the measurement chain remains robust under scrutiny. Experimental particle physics and precision metrology both operate in regimes where the signal sits far below the background noise, and where systematic uncertainties can mimic new physics if not controlled rigorously. The history of the field contains numerous anomalies that generated theoretical excitement before better data showed them to be artifacts, and it also contains genuine discoveries that were initially dismissed as noise. The difference is almost always resolved by independent replication with different instruments and different systematics. This article has been reviewed according to Science X&#x27;s editorial process and policies. 2026 Solar radio bursts are intrinsically linked to the motion of their emitting source through the coronal and heliospheric plasma.</p><p>For example, fine structures such as striae, which arise from density fluctuations along the beam path, can produce substantial variation in the drift rate over the burst lifetime. This provides a clear example of how large-scale magnetic field structures affect burst morphology in dynamic spectra.</p><p>Given the turbulent nature of the solar atmosphere, we test whether changes in type III burst drift rates can also be explained by magnetic field deviations such as switchbacks or. Following these findings, 24 interplanetary type III bursts observed by Parker Solar Probe (PSP) over one week were analyzed.</p><p>The work is published in The Astrophysical Journal. We estimate a noise level of 0.57 solar radii, so deviations above this threshold indicate real disturbances.</p><p>The broader interest lies as much in the method as in the headline number, because a durable measurement procedure can travel farther than a single result. When experimental physicists develop a technique that achieves new sensitivity or controls a previously uncharacterized systematic, that methodological contribution persists even if the specific measurement is later revised. This is one reason why precision physics experiments often generate long-term value that is not immediately visible in the original publication.</p><p>Across the 24 events, 50% show deviations beyond this level, with an average displacement of 1.1 solar radii. These can be explained by density changes of 10, 30%, or magnetic field deviations of 23, 88 degrees, over spatial scales of 1.8, 6.4 solar radii.</p><p>Because this item comes through Phys. org Space as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is more measurement, tighter systematic control and scrutiny from groups whose experimental setups are genuinely independent. In experimental particle physics and precision metrology, the threshold for a discovery claim is a five-sigma excess surviving multiple analyses; an intriguing signal at lower significance is a reason to run more experiments, not a reason to revise the textbooks. Next-generation experiments currently under construction or commissioning will revisit several of the open questions that give the current result its context.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-solar-radio-reveal-hidden-magnetic.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: As explosões de rádio solares estão intrinsecamente ligadas ao movimento de sua fonte emissora através do plasma coronal e heliosférico",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_pt": [
+      "Em foco: As explosões de rádio solares estão intrinsecamente ligadas ao movimento de sua fonte emissora através do plasma coronal e heliosférico",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_en": [
+      "Focus: Solar radio bursts are intrinsically linked to the motion of their emitting source through the coronal and heliospheric plasma",
+      "Detail: Science reporting: verify primary technical documentation",
+      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+    ],
+    "date": "02 mai 2026",
+    "date_pt": "02 mai 2026",
+    "date_en": "02 May 2026",
+    "time": "23h30",
+    "time_pt": "23h30",
+    "time_en": "23: 30 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-02T23:30:01+00:00",
+    "lastModifiedIso": "2026-05-02T23:30:01+00:00",
+    "source": "Phys. org Space",
+    "sourceDomain": "phys. org",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura de jornalismo científico. Útil para contexto, mas recebe peso menor que fonte primária ou periódico.",
+    "sourceNote_pt": "Cobertura de jornalismo científico. Útil para contexto, mas recebe peso menor que fonte primária ou periódico.",
+    "sourceNote_en": "Science journalism coverage. Useful for context, but weighted below primary sources and journals.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Física",
+      "Phys. org Space",
+      "Cosmos Week",
+      "Explosões de rádio solar revelam ziguezagues magnéticos ocultos perto do sol",
+      "sugerem dados da Parker Solar Probe"
+    ],
+    "keywords_pt": [
+      "Física",
+      "Phys. org Space",
+      "Cosmos Week",
+      "Explosões de rádio solar revelam ziguezagues magnéticos ocultos perto do sol",
+      "sugerem dados da Parker Solar Probe"
+    ],
+    "keywords_en": [
+      "Physical",
+      "Phys. org Space",
+      "Cosmos Week",
+      "Solar radio bursts reveal hidden magnetic zigzags near the sun",
+      "suggests data from Parker Solar Probe"
+    ],
+    "srcUrl": "https://phys.org/news/2026-04-solar-radio-reveal-hidden-magnetic.html",
+    "realUrl": "https://www.cosmosweek.com/?article=solar-radio-bursts-reveal-hidden-magnetic-switchbacks-near-the-sun-parker-solar-probe-data-sugge",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=solar-radio-bursts-reveal-hidden-magnetic-switchbacks-near-the-sun-parker-solar-probe-data-sugge",
+    "realUrl_en": "https://www.cosmosweek.com/?article=solar-radio-bursts-reveal-hidden-magnetic-switchbacks-near-the-sun-parker-solar-probe-data-sugge&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/solar-radio-bursts-reveal-hidden-magnetic-switchbacks-near-the-sun-parker-solar-probe-data-sugge/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/solar-radio-bursts-reveal-hidden-magnetic-switchbacks-near-the-sun-parker-solar-probe-data-sugge/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/solar-radio-bursts-reveal-hidden-magnetic-switchbacks-near-the-sun-parker-solar-probe-data-sugge/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/solar-radio-bursts-reveal-hidden-magnetic-switchbacks-near-the-sun-parker-solar-probe-data-sugge/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/solar-radio-bursts-reveal-hidden-magnetic-switchbacks-near-the-sun-parker-solar-probe-data-sugge/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/solar-radio-bursts-reveal-hidden-magnetic-switchbacks-near-the-sun-parker-solar-probe-data-sugge/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 69,
+    "scoreBreakdown": {
+      "source": 66,
+      "evidence": 72,
+      "relevance": 82,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Explosões de rádio solar revelam ziguezagues magnéticos ocultos perto do Sol, sugerem dados da Parker Solar Probe",
+    "imageAlt_pt": "Explosões de rádio solar revelam ziguezagues magnéticos ocultos perto do Sol, sugerem dados da Parker Solar Probe",
+    "imageAlt_en": "Solar radio bursts reveal hidden magnetic switchbacks near the sun, Parker Solar Probe data suggest"
+  },
+  {
+    "id": 5,
     "slug": "deadly-feline-coronavirus-variant-has-been-present-in-the-us-for-more-than-a-decade",
     "cat": "Física",
     "catCls": "fisica",
@@ -126,7 +657,7 @@
     "imageAlt_en": "Deadly feline coronavirus variant has been present in the US for more than a decade"
   },
   {
-    "id": 2,
+    "id": 6,
     "slug": "hidden-plant-molecules-show-up-to-25-times-stronger-activity-against-ebola-and-covid-19",
     "cat": "Química",
     "catCls": "quimica",
@@ -242,7 +773,7 @@
     "imageAlt_en": "Hidden plant molecules show up to 25 times stronger activity against Ebola and COVID-19"
   },
   {
-    "id": 3,
+    "id": 7,
     "slug": "astronautas-da-missao-lunar-artemis-ii-usaram-relogio-brasileiro-para-monitorar-a-saude",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -363,7 +894,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 8,
     "slug": "radio-telescope-array-reveals-the-masses-of-hidden-young-stars",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -479,7 +1010,7 @@
     "imageAlt_en": "Radio Telescope Array Reveals the Masses of Hidden Young Stars"
   },
   {
-    "id": 5,
+    "id": 9,
     "slug": "proton-beam-timing-tool-could-check-radiotherapy-energy-before-nearly-every-treatment",
     "cat": "Física",
     "catCls": "fisica",
@@ -605,7 +1136,7 @@
     "imageAlt_en": "Proton beam timing tool could check radiotherapy energy before nearly every treatment"
   },
   {
-    "id": 6,
+    "id": 10,
     "slug": "seeing-an-eclipse-from-earth-is-awe-inspiring-for-astronauts-in-space-the-scene-was-even-more-gr",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -810,7 +1341,7 @@
     "imageAlt_en": "Seeing an eclipse from Earth is awe‑inspiring—for astronauts in space, the scene was even more grand"
   },
   {
-    "id": 7,
+    "id": 11,
     "slug": "low-cost-care-model-reduces-blood-pressure-in-high-risk-populations",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -931,7 +1462,7 @@
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 12,
     "slug": "new-lithium-plasma-engine-passes-key-mars-propulsion-test",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -1060,7 +1591,7 @@
     "imageAlt_en": "New lithium-plasma engine passes key Mars propulsion test"
   },
   {
-    "id": 9,
+    "id": 13,
     "slug": "how-genetic-information-helps-cells-resist-chaos-and-stay-alive",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1186,7 +1717,7 @@
     "imageAlt_en": "How genetic information helps cells resist chaos and stay alive"
   },
   {
-    "id": 10,
+    "id": 14,
     "slug": "is-the-large-magellanic-cloud-a-first-time-visitor",
     "cat": "Física",
     "catCls": "fisica",
@@ -1315,7 +1846,7 @@
     "imageAlt_en": "Is the Large Magellanic Cloud a First-Time Visitor?"
   },
   {
-    "id": 11,
+    "id": 15,
     "slug": "explosive-evaporation-unlocks-new-possibilities-in-3d-printing-and-chemical-analysis",
     "cat": "Física",
     "catCls": "fisica",
@@ -1454,7 +1985,7 @@
     "imageAlt_en": "Explosive evaporation unlocks new possibilities in 3D printing and chemical analysis"
   },
   {
-    "id": 12,
+    "id": 16,
     "slug": "sentinel-1d-goes-live-a-milestone-for-europe-s-radar-mission",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1586,7 +2117,7 @@
     "imageAlt_en": "Sentinel-1D goes live: A milestone for Europe's radar mission"
   },
   {
-    "id": 13,
+    "id": 17,
     "slug": "nasa-s-storie-mission-to-tell-tale-of-earth-s-ring-current",
     "cat": "Física",
     "catCls": "fisica",
@@ -1757,7 +2288,7 @@
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 18,
     "slug": "shortchanging-nasa-is-simply-not-smart",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1901,7 +2432,7 @@
     "imageAlt_en": "“Shortchanging NASA is simply not smart. ”"
   },
   {
-    "id": 15,
+    "id": 19,
     "slug": "space-out-this-summer-with-variety-of-nasa-stem-activities",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2017,7 +2548,7 @@
     "imageAlt_en": "Space Out This Summer with Variety of NASA STEM Activities"
   },
   {
-    "id": 16,
+    "id": 20,
     "slug": "hubble-spots-a-starry-spiral",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2138,7 +2669,7 @@
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 21,
     "slug": "surprise-a-jupiter-like-exoplanet-with-water-ice-clouds",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -2264,7 +2795,7 @@
     "imageAlt_en": "Surprise! A Jupiter-like exoplanet with water-ice clouds"
   },
   {
-    "id": 18,
+    "id": 22,
     "slug": "cyclone-rains-spur-papua-new-guinea-landslides",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2422,7 +2953,7 @@
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 23,
     "slug": "how-do-you-study-something-you-can-never-step-outside-of",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2538,7 +3069,7 @@
     "imageAlt_en": "How do you study something you can never step outside of?"
   },
   {
-    "id": 20,
+    "id": 24,
     "slug": "what-s-up-may-2026-skywatching-tips-from-nasa",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2675,7 +3206,7 @@
     "storyKind": "science"
   },
   {
-    "id": 21,
+    "id": 25,
     "slug": "beyond-the-separatrix-analytic-continuation-of-darwin-variables-for-plunging-geodesics-in-schwar",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -2796,7 +3327,7 @@
     "imageAlt_en": "Beyond the Separatrix: Analytic Continuation of Darwin Variables for Plunging Geodesics in Schwarzschild Spacetime"
   },
   {
-    "id": 22,
+    "id": 26,
     "slug": "finding-the-one-identifying-the-host-of-compact-binary-mergers",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -2919,7 +3450,7 @@
     "storyKind": "science"
   },
   {
-    "id": 23,
+    "id": 27,
     "slug": "a-lost-galaxy-called-loki-may-be-hiding-inside-the-milky-way",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3045,7 +3576,7 @@
     "imageAlt_en": "A lost galaxy called 'Loki' may be hiding inside the Milky Way"
   },
   {
-    "id": 24,
+    "id": 28,
     "slug": "biomarkers-help-crack-the-code-on-saving-more-equine-lives",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -3161,7 +3692,7 @@
     "imageAlt_en": "Biomarkers help crack the code on saving more equine lives"
   },
   {
-    "id": 25,
+    "id": 29,
     "slug": "western-us-wildfires-less-frequent-but-more-massive",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3280,7 +3811,7 @@
     "imageAlt_en": "Western US wildfires less frequent but more massive"
   },
   {
-    "id": 26,
+    "id": 30,
     "slug": "one-overlooked-mineral-may-have-quietly-powered-a-crucial-step-toward-life-on-early-earth",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3406,7 +3937,7 @@
     "imageAlt_en": "One overlooked mineral may have quietly powered a crucial step toward life on early Earth"
   },
   {
-    "id": 27,
+    "id": 31,
     "slug": "interstellar-comet-3i-atlas-has-cold-ancient-origins",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3554,7 +4085,7 @@
     "imageAlt_en": "Interstellar Comet 3I/ATLAS Has Cold, Ancient Origins"
   },
   {
-    "id": 28,
+    "id": 32,
     "slug": "applications-of-1-4-ghz-diagnostics-to-type-ia-supernova-host-galaxies",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -3672,7 +4203,7 @@
     "imageAlt_en": "Applications of 1.4 GHz diagnostics to Type Ia Supernova host galaxies"
   },
   {
-    "id": 29,
+    "id": 33,
     "slug": "a-new-way-to-plan-trajectories-to-asteroids",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3801,7 +4332,7 @@
     "imageAlt_en": "A New Way to Plan Trajectories to Asteroids"
   },
   {
-    "id": 30,
+    "id": 34,
     "slug": "hemp-based-thermoplastic-offers-a-greener-alternative-to-plastic-packaging",
     "cat": "Química",
     "catCls": "quimica",
@@ -3917,7 +4448,7 @@
     "imageAlt_en": "Hemp-based thermoplastic offers a greener alternative to plastic packaging"
   },
   {
-    "id": 31,
+    "id": 35,
     "slug": "hunting-the-elusive-eta-aquariid-meteors",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -4033,7 +4564,7 @@
     "imageAlt_en": "Hunting the Elusive Eta Aquariid Meteors"
   },
   {
-    "id": 32,
+    "id": 36,
     "slug": "axion-dark-matter-from-extended-misalignment-with-a-constant-pre-oscillatory-phase-and-dark-radi",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -4151,7 +4682,122 @@
     "imageAlt_en": "Axion dark matter from extended misalignment with a constant-$ω_φ$ pre-oscillatory phase and dark radiation"
   },
   {
-    "id": 33,
+    "id": 37,
+    "slug": "asteroseismic-modelling-of-main-sequence-solar-like-stars-and-kepler-exoplanet-host-stars-with-t",
+    "cat": "Exoplanetas",
+    "catCls": "exoplanetas",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Artist%E2%80%99s_impression_of_an_exoplanet.jpg/1280px-Artist%E2%80%99s_impression_of_an_exoplanet.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Modelagem asterossísmica de estrelas semelhantes ao Sol da sequência principal e estrelas hospedeiras do exoplaneta Kepler com o procedimento FICO I. Catálogo de propriedades estelares fundamentais",
+    "title_pt": "Modelagem asterossísmica de estrelas semelhantes ao Sol da sequência principal e estrelas hospedeiras do exoplaneta Kepler com o procedimento FICO I. Catálogo de propriedades estelares fundamentais",
+    "title_en": "Asteroseismic modelling of main-sequence solar-like stars and Kepler exoplanet host stars with the FICO procedure I. Catalogue of fundamental stellar properties",
+    "sub": "Apresentamos a modelagem asterossísmica detalhada de 95 estrelas semelhantes ao Sol da sequência principal e estrelas hospedeiras do exoplaneta Kepler usando o procedimento FICO.",
+    "sub_pt": "Apresentamos a modelagem asterossísmica detalhada de 95 estrelas semelhantes ao Sol da sequência principal e estrelas hospedeiras do exoplaneta Kepler usando o procedimento FICO.",
+    "sub_en": "We present detailed asteroseismic modelling of 95 main-sequence solar-like stars and Kepler exoplanet host stars using the FICO procedure, a three-step method that combines.",
+    "excerpt": "Apresentamos a modelagem asterossísmica detalhada de 95 estrelas semelhantes ao Sol da sequência principal e estrelas hospedeiras do exoplaneta Kepler usando o procedimento FICO.",
+    "excerpt_pt": "Apresentamos a modelagem asterossísmica detalhada de 95 estrelas semelhantes ao Sol da sequência principal e estrelas hospedeiras do exoplaneta Kepler usando o procedimento FICO.",
+    "excerpt_en": "We present detailed asteroseismic modelling of 95 main-sequence solar-like stars and Kepler exoplanet host stars using the FICO procedure, a three-step method that combines forward and inverse techniques that enables precise inference of.",
+    "body": "<p>Apresentamos a modelagem asterossísmica detalhada de 95 estrelas semelhantes ao Sol da sequência principal e estrelas hospedeiras do exoplaneta Kepler, utilizando o procedimento FICO. Este método de três etapas combina técnicas diretas e inversas, permitindo uma inferência precisa das propriedades estelares. Aplicamos o procedimento FICO a um catálogo de estrelas com observações asterossísmicas e clássicas de alta qualidade, comparando seus resultados com os valores disponíveis na literatura. Adicionalmente, avaliamos seu desempenho em contraste com o ajuste direto de frequência, que emprega correções de superfície semi-empíricas.</p><p>O procedimento FICO demonstrou alcançar precisões estatísticas notáveis: 2, 3% para massa, 0, 82% para raio, 6, 9% para idade e 0, 49% para densidade média, respectivamente. Essas precisões, em média, estão bem dentro dos requisitos de qualidade estabelecidos para a missão PLATO. A análise revelou a existência de dois regimes distintos. No primeiro, correspondente a condições próximas às do Sol, ambas as abordagens (FICO e ajuste direto) exibem desempenho semelhante. No segundo regime, que abrange estrelas de maior massa, os métodos independentes de superfície, como os empregados pelo FICO, superam consistentemente os métodos de ajuste direto.</p><p>Embora nossos resultados sejam consistentes com os valores encontrados na literatura, observamos vieses de idade significativos, com uma média de aproximadamente 11, 5% para a amostra Kepler LEGACY. Esses vieses são comparáveis ao requisito de precisão de 10% estabelecido pela missão PLATO para estrelas semelhantes ao Sol e, portanto, requerem consideração cuidadosa. A identificação desses vieses sublinha a complexidade da determinação precisa da idade estelar e a necessidade de abordagens robustas para mitigar tais incertezas.</p><p>O procedimento FICO oferece uma estrutura robusta para a caracterização estelar de alta precisão, especialmente relevante na era da missão PLATO. Sua arquitetura híbrida é particularmente eficaz na abordagem dos efeitos de superfície, que frequentemente representam um desafio na modelagem asterossísmica. Essa capacidade o estabelece como uma ferramenta promissora para a determinação precisa das propriedades de estrelas hospedeiras de exoplanetas, contribuindo significativamente para a exoplanetologia.</p><p>Nossas descobertas também ressaltam a importância crítica de selecionar e validar cuidadosamente as suposições físicas incorporadas nos modelos estelares. A precisão dos resultados obtidos depende diretamente da validade dessas premissas, especialmente no contexto de missões espaciais da próxima geração, como a PLATO, que exigem um nível de detalhe e confiabilidade sem precedentes. A contínua evolução dos modelos estelares e a validação empírica são essenciais para avançar nossa compreensão da estrutura e evolução estelar.</p>",
+    "body_pt": "<p>Apresentamos a modelagem asterossísmica detalhada de 95 estrelas semelhantes ao Sol da sequência principal e estrelas hospedeiras do exoplaneta Kepler, utilizando o procedimento FICO. Este método de três etapas combina técnicas diretas e inversas, permitindo uma inferência precisa das propriedades estelares. Aplicamos o procedimento FICO a um catálogo de estrelas com observações asterossísmicas e clássicas de alta qualidade, comparando seus resultados com os valores disponíveis na literatura. Adicionalmente, avaliamos seu desempenho em contraste com o ajuste direto de frequência, que emprega correções de superfície semi-empíricas.</p><p>O procedimento FICO demonstrou alcançar precisões estatísticas notáveis: 2, 3% para massa, 0, 82% para raio, 6, 9% para idade e 0, 49% para densidade média, respectivamente. Essas precisões, em média, estão bem dentro dos requisitos de qualidade estabelecidos para a missão PLATO. A análise revelou a existência de dois regimes distintos. No primeiro, correspondente a condições próximas às do Sol, ambas as abordagens (FICO e ajuste direto) exibem desempenho semelhante. No segundo regime, que abrange estrelas de maior massa, os métodos independentes de superfície, como os empregados pelo FICO, superam consistentemente os métodos de ajuste direto.</p><p>Embora nossos resultados sejam consistentes com os valores encontrados na literatura, observamos vieses de idade significativos, com uma média de aproximadamente 11, 5% para a amostra Kepler LEGACY. Esses vieses são comparáveis ao requisito de precisão de 10% estabelecido pela missão PLATO para estrelas semelhantes ao Sol e, portanto, requerem consideração cuidadosa. A identificação desses vieses sublinha a complexidade da determinação precisa da idade estelar e a necessidade de abordagens robustas para mitigar tais incertezas.</p><p>O procedimento FICO oferece uma estrutura robusta para a caracterização estelar de alta precisão, especialmente relevante na era da missão PLATO. Sua arquitetura híbrida é particularmente eficaz na abordagem dos efeitos de superfície, que frequentemente representam um desafio na modelagem asterossísmica. Essa capacidade o estabelece como uma ferramenta promissora para a determinação precisa das propriedades de estrelas hospedeiras de exoplanetas, contribuindo significativamente para a exoplanetologia.</p><p>Nossas descobertas também ressaltam a importância crítica de selecionar e validar cuidadosamente as suposições físicas incorporadas nos modelos estelares. A precisão dos resultados obtidos depende diretamente da validade dessas premissas, especialmente no contexto de missões espaciais da próxima geração, como a PLATO, que exigem um nível de detalhe e confiabilidade sem precedentes. A contínua evolução dos modelos estelares e a validação empírica são essenciais para avançar nossa compreensão da estrutura e evolução estelar.</p>",
+    "body_en": "<p>We present detailed asteroseismic modelling of 95 main-sequence solar-like stars and Kepler exoplanet host stars using the FICO procedure, a three-step method that combines forward and inverse techniques that enables precise inference of. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It is relevant because exoplanet science has moved beyond the era of simple discovery into a period of comparative characterization. With more than five thousand confirmed planets known, the scientifically productive questions now concern atmospheric composition, internal structure, orbital history and the statistical properties of populations rather than the existence of individual worlds. A new detection or spectral measurement is most valuable when it adds a well-constrained data point to those comparative frameworks, not when it stands alone as an anecdote. We applied the FICO procedure to a catalogue of stars with high-quality asteroseismic and classical observations, and compared its results against literature values. We also compared its performance with direct frequency fitting using semi-empirical surface corrections.</p><p>The FICO procedure achieved statistical precisions of 2.3%, 0.82%, 6.9%, and 0.49% in mass, radius, age, and mean density, respectively on average, well within PLATO quality. Near-solar conditions, where both approaches perform similarly, and higher-mass stars, where surface-independent methods consistently outperform direct fitting methods.</p><p>While our results are consistent with literature values, we observed age biases (~11.5% on average for the Kepler LEGACY sample) that are comparable to the PLATO accuracy. The FICO procedure provides a robust framework for high-precision stellar characterisation in the PLATO era.</p><p>Its hybrid architecture effectively addresses surface effects, making it a promising tool for the accurate determination of exoplanet host-star properties. Our findings also highlight the importance of carefully selecting and validating the physical assumptions embedded in stellar models, particularly in the context of.</p><p>The broader interest lies in making the target less anecdotal and more comparable with the rest of the known planetary population. Population-level questions, such as the frequency of atmospheres around small rocky planets or the prevalence of water-rich worlds in the habitable zone, require well-characterized individual data points before statistical patterns become meaningful. Each new planet with a measured radius, mass and, ideally, atmospheric constraint is a brick in that larger structure, and the accumulation of bricks eventually allows theorists to test formation models against real distributions rather than projections.</p><p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to improve independent constraints on the mass, radius, atmospheric composition and orbital dynamics of the target. Transmission spectroscopy with JWST, radial velocity campaigns with high-resolution ground-based spectrographs and phase-curve measurements from space photometry represent the observational toolkit that can move characterization from plausible to robust. That convergence of techniques is the standard the community now expects before a planetary atmosphere result is treated as confirmed. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2604.27842v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Apresentamos a modelagem asterossísmica detalhada de 95 estrelas semelhantes ao Sol da sequência principal e estrelas hospedeiras do exoplaneta",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: Apresentamos a modelagem asterossísmica detalhada de 95 estrelas semelhantes ao Sol da sequência principal e estrelas hospedeiras do exoplaneta",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: We present detailed asteroseismic modelling of 95 main-sequence solar-like stars and Kepler exoplanet host stars using the FICO procedure, a",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "30 abr 2026",
+    "date_pt": "30 abr 2026",
+    "date_en": "30 Apr 2026",
+    "time": "13h28",
+    "time_pt": "13h28",
+    "time_en": "13: 28 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-30T13:28:30+00:00",
+    "lastModifiedIso": "2026-04-30T13:28:30+00:00",
+    "source": "arXiv Astrophysics",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint ainda sem revisão por pares.",
+    "sourceNote_pt": "Preprint ainda sem revisão por pares.",
+    "sourceNote_en": "Preprint not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "watch",
+    "editorialBandLabel": "Leitura monitorada",
+    "editorialBandLabel_pt": "Leitura monitorada",
+    "editorialBandLabel_en": "Watchlist",
+    "keywords": [
+      "Exoplanetas",
+      "arXiv Astrophysics",
+      "Cosmos Week",
+      "Modelagem asterossísmica de estrelas semelhantes ao Sol da sequência principal e estrelas hospedeiras do exoplaneta Kepler com o procedimento FICO I. Catálogo de propriedades estelares fundamentais"
+    ],
+    "keywords_pt": [
+      "Exoplanetas",
+      "arXiv Astrophysics",
+      "Cosmos Week",
+      "Modelagem asterossísmica de estrelas semelhantes ao Sol da sequência principal e estrelas hospedeiras do exoplaneta Kepler com o procedimento FICO I. Catálogo de propriedades estelares fundamentais"
+    ],
+    "keywords_en": [
+      "Exoplanets",
+      "arXiv Astrophysics",
+      "Cosmos Week",
+      "Asteroseismic modeling of main sequence Sun-like stars and exoplanet Kepler host stars with the FICO I procedure. Catalog of fundamental stellar properties"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2604.27842v1",
+    "realUrl": "https://www.cosmosweek.com/?article=asteroseismic-modelling-of-main-sequence-solar-like-stars-and-kepler-exoplanet-host-stars-with-t",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=asteroseismic-modelling-of-main-sequence-solar-like-stars-and-kepler-exoplanet-host-stars-with-t",
+    "realUrl_en": "https://www.cosmosweek.com/?article=asteroseismic-modelling-of-main-sequence-solar-like-stars-and-kepler-exoplanet-host-stars-with-t&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/asteroseismic-modelling-of-main-sequence-solar-like-stars-and-kepler-exoplanet-host-stars-with-t/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/asteroseismic-modelling-of-main-sequence-solar-like-stars-and-kepler-exoplanet-host-stars-with-t/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/asteroseismic-modelling-of-main-sequence-solar-like-stars-and-kepler-exoplanet-host-stars-with-t/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/asteroseismic-modelling-of-main-sequence-solar-like-stars-and-kepler-exoplanet-host-stars-with-t/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/asteroseismic-modelling-of-main-sequence-solar-like-stars-and-kepler-exoplanet-host-stars-with-t/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/asteroseismic-modelling-of-main-sequence-solar-like-stars-and-kepler-exoplanet-host-stars-with-t/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 67,
+    "scoreBreakdown": {
+      "source": 66,
+      "evidence": 58,
+      "relevance": 94,
+      "accessibility": 52,
+      "novelty": 49
+    },
+    "imageAlt": "Modelagem asterossísmica de estrelas semelhantes ao Sol da sequência principal e estrelas hospedeiras do exoplaneta Kepler com o procedimento FICO I. Catálogo de propriedades estelares fundamentais",
+    "imageAlt_pt": "Modelagem asterossísmica de estrelas semelhantes ao Sol da sequência principal e estrelas hospedeiras do exoplaneta Kepler com o procedimento FICO I. Catálogo de propriedades estelares fundamentais",
+    "imageAlt_en": "Asteroseismic modelling of main-sequence solar-like stars and Kepler exoplanet host stars with the FICO procedure I. Catalogue of fundamental stellar properties"
+  },
+  {
+    "id": 38,
     "slug": "another-one-ariane-6-flies-with-four-boosters-once-more",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -4294,7 +4940,7 @@
     "storyKind": "science"
   },
   {
-    "id": 34,
+    "id": 39,
     "slug": "winter-s-end-is-written-in-the-clouds",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -4447,7 +5093,7 @@
     "storyKind": "science"
   },
   {
-    "id": 35,
+    "id": 40,
     "slug": "us-indian-space-mission-maps-extreme-subsidence-in-mexico-city",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -4617,7 +5263,7 @@
     "storyKind": "science"
   },
   {
-    "id": 36,
+    "id": 41,
     "slug": "searching-for-gems-three-warm-saturns-and-a-super-jupiter-orbiting-four-early-m-dwarfs",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -4738,7 +5384,7 @@
     "imageAlt_en": "Searching for GEMS: Three warm Saturns and a super-Jupiter orbiting four early M-dwarfs"
   },
   {
-    "id": 37,
+    "id": 42,
     "slug": "the-effect-of-spectral-resolution-on-biosignature-detection-via-reflected-light-observations-of-",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -4853,7 +5499,7 @@
     "imageAlt_en": "The effect of spectral resolution on biosignature detection via reflected light observations of the Earth through time"
   },
   {
-    "id": 38,
+    "id": 43,
     "slug": "eccentricity-as-a-signature-of-hierarchical-subsolar-mass-mergers-in-collapsar-disks",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -4968,7 +5614,7 @@
     "imageAlt_en": "Eccentricity as a signature of hierarchical subsolar-mass mergers in collapsar disks"
   },
   {
-    "id": 39,
+    "id": 44,
     "slug": "observing-exotic-quasiparticle-states-in-kagome-superconductor-csv-sb",
     "cat": "Física",
     "catCls": "fisica",
@@ -5084,7 +5730,7 @@
     "imageAlt_en": "Observing exotic quasiparticle states in kagome superconductor CsV₃Sb₅"
   },
   {
-    "id": 40,
+    "id": 45,
     "slug": "the-last-dance-of-a-dying-star",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -5200,7 +5846,7 @@
     "imageAlt_en": "The Last Dance of a Dying Star"
   },
   {
-    "id": 41,
+    "id": 46,
     "slug": "cities-rethink-beekeeping-as-honeybee-boom-may-strain-wild-bees",
     "cat": "Física",
     "catCls": "fisica",
@@ -5329,7 +5975,7 @@
     "imageAlt_en": "Cities rethink beekeeping as honeybee boom may strain wild bees"
   },
   {
-    "id": 42,
+    "id": 47,
     "slug": "the-universe-builds-stars-by-the-book",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -5445,7 +6091,7 @@
     "imageAlt_en": "The Universe Builds Stars by the Book"
   },
   {
-    "id": 43,
+    "id": 48,
     "slug": "the-most-common-planets-in-the-galaxy-don-t-appear-around-the-most-common-stars-tess-observation",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -5574,7 +6220,7 @@
     "imageAlt_en": "The most common planets in the galaxy don't appear around the most common stars, TESS observations suggest"
   },
   {
-    "id": 44,
+    "id": 49,
     "slug": "mujic-reconstructing-initial-conditions-from-incomplete-redshift-surveys-with-projected-optimiza",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -5697,7 +6343,7 @@
     "storyKind": "science"
   },
   {
-    "id": 45,
+    "id": 50,
     "slug": "marigold-flowers-show-potential-as-a-source-of-plant-based-protein",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -5813,7 +6459,7 @@
     "imageAlt_en": "Marigold flowers show potential as a source of plant-based protein"
   },
   {
-    "id": 46,
+    "id": 51,
     "slug": "curiosity-team-hits-jackpot-a-sample-full-of-complex-organic-molecules",
     "cat": "Química",
     "catCls": "quimica",
@@ -5942,7 +6588,7 @@
     "imageAlt_en": "Curiosity Team Hits Jackpot: A Sample Full of Complex Organic Molecules"
   },
   {
-    "id": 47,
+    "id": 52,
     "slug": "nasa-demonstrates-new-prescribed-burn-capability-for-spaceport",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -6058,7 +6704,7 @@
     "imageAlt_en": "NASA Demonstrates New Prescribed Burn Capability for Spaceport"
   },
   {
-    "id": 48,
+    "id": 53,
     "slug": "ruthless-predator-of-red-tide-plankton-reveals-unusual-bioluminescence",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -6187,7 +6833,7 @@
     "imageAlt_en": "'Ruthless predator' of red tide plankton reveals unusual bioluminescence"
   },
   {
-    "id": 49,
+    "id": 54,
     "slug": "stunning-images-from-biomass-mark-its-one-year-in-orbit",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -6363,7 +7009,7 @@
     "storyKind": "science"
   },
   {
-    "id": 50,
+    "id": 55,
     "slug": "36cl-concentrations-from-polar-ice-cores-set-new-constraints-on-the-carrington-event",
     "cat": "Física",
     "catCls": "fisica",
@@ -6478,7 +7124,7 @@
     "imageAlt_en": "36Cl Concentrations from Polar Ice Cores Set New Constraints on the Carrington Event"
   },
   {
-    "id": 51,
+    "id": 56,
     "slug": "newly-confirmed-supernova-remnant-is-one-of-the-faintest-ever-detected",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -6594,7 +7240,7 @@
     "imageAlt_en": "Newly confirmed supernova remnant is one of the faintest ever detected"
   },
   {
-    "id": 52,
+    "id": 57,
     "slug": "how-cells-decide-when-to-react-could-shape-future-treatments-for-cancer-and-fibrosis",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -6710,7 +7356,7 @@
     "imageAlt_en": "How cells decide when to react could shape future treatments for cancer and fibrosis"
   },
   {
-    "id": 53,
+    "id": 58,
     "slug": "euclid-space-warps-help-spot-galaxies-bending-spacetime",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -6851,7 +7497,7 @@
     "imageAlt_en": "Euclid Space Warps: Help spot galaxies bending spacetime!"
   },
   {
-    "id": 54,
+    "id": 59,
     "slug": "canada-proposes-poet-mission-to-hunt-earth-sized-planets",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -6980,7 +7626,7 @@
     "imageAlt_en": "Canada Proposes POET Mission to Hunt Earth-Sized Planets"
   },
   {
-    "id": 55,
+    "id": 60,
     "slug": "nasa-s-artemis-ii-moonship-returns-home-to-its-launch-site-after-historic-voyage",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -7143,7 +7789,7 @@
     "imageAlt_en": "NASA's Artemis II moonship returns home to its launch site after historic voyage"
   },
   {
-    "id": 56,
+    "id": 61,
     "slug": "fires-rage-in-georgia",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -7278,7 +7924,7 @@
     "imageAlt_en": "Fires Rage in Georgia"
   },
   {
-    "id": 57,
+    "id": 62,
     "slug": "trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -7405,7 +8051,7 @@
     "storyKind": "science"
   },
   {
-    "id": 58,
+    "id": 63,
     "slug": "designing-in-situ-power-stations-for-future-mars-missions",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -7534,7 +8180,7 @@
     "imageAlt_en": "Designing In Situ Power Stations for Future Mars Missions"
   },
   {
-    "id": 59,
+    "id": 64,
     "slug": "study-reveals-insights-for-climate-resilience-in-smallholder-cacao-farms",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -7660,7 +8306,7 @@
     "imageAlt_en": "Study reveals insights for climate resilience in smallholder cacao farms"
   },
   {
-    "id": 60,
+    "id": 65,
     "slug": "investigating-the-disordered-heart-of-glass",
     "cat": "Física",
     "catCls": "fisica",
@@ -7786,7 +8432,7 @@
     "imageAlt_en": "Investigating the disordered heart of glass"
   },
   {
-    "id": 61,
+    "id": 66,
     "slug": "nasa-connects-little-red-dots-with-chandra-webb",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -7910,7 +8556,7 @@
     "storyKind": "science"
   },
   {
-    "id": 62,
+    "id": 67,
     "slug": "nasa-fires-up-powerful-lithium-fed-thruster-for-trips-to-mars",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -8039,7 +8685,7 @@
     "imageAlt_en": "NASA fires up powerful lithium-fed thruster for trips to Mars"
   },
   {
-    "id": 63,
+    "id": 68,
     "slug": "there-s-no-place-like-nasa-s-new-x-59-hangar-home",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -8171,7 +8817,7 @@
     "imageAlt_en": "There’s No Place Like NASA’s New X-59 Hangar Home"
   },
   {
-    "id": 64,
+    "id": 69,
     "slug": "measuring-apsidal-clustering",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -8286,7 +8932,7 @@
     "imageAlt_en": "Measuring Apsidal Clustering"
   },
   {
-    "id": 65,
+    "id": 70,
     "slug": "nighttime-imaging-grows-landsat-s-science-value",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -8430,7 +9076,7 @@
     "storyKind": "science"
   },
   {
-    "id": 66,
+    "id": 71,
     "slug": "gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -8554,7 +9200,7 @@
     "storyKind": "science"
   },
   {
-    "id": 67,
+    "id": 72,
     "slug": "geometric-constraints-on-the-pre-recombination-expansion-history-from-the-hubble-tension",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -8672,7 +9318,7 @@
     "imageAlt_en": "Geometric Constraints on the Pre-Recombination Expansion History from the Hubble Tension"
   },
   {
-    "id": 68,
+    "id": 73,
     "slug": "astronomers-find-the-edge-of-the-milky-way-s-star-forming-disc",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -8801,7 +9447,7 @@
     "imageAlt_en": "Astronomers Find the Edge of the Milky Way’s Star-Forming Disc"
   },
   {
-    "id": 69,
+    "id": 74,
     "slug": "nasa-laser-terminal-enhances-views-during-artemis-ii-mission",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -8945,7 +9591,7 @@
     "storyKind": "science"
   },
   {
-    "id": 70,
+    "id": 75,
     "slug": "substructure-in-redmapper-clusters-and-its-impact-on-x-ray-morphology-and-scaling-relations",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -9065,7 +9711,7 @@
     "storyKind": "science"
   },
   {
-    "id": 71,
+    "id": 76,
     "slug": "tough-fungi-could-survive-the-trip-to-mars",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -9194,7 +9840,7 @@
     "imageAlt_en": "Tough Fungi Could Survive the Trip to Mars"
   },
   {
-    "id": 72,
+    "id": 77,
     "slug": "the-physical-limit-of-neural-hypoxia-detection-in-the-black-sea-from-satellite-observations",
     "cat": "Física",
     "catCls": "fisica",
@@ -9314,7 +9960,7 @@
     "storyKind": "science"
   },
   {
-    "id": 73,
+    "id": 78,
     "slug": "enabling-real-time-multi-messenger-follow-up-of-transient-events-with-astro-colibri",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -9435,7 +10081,7 @@
     "imageAlt_en": "Enabling real-time multi-messenger follow-up of transient events with Astro-COLIBRI"
   },
   {
-    "id": 74,
+    "id": 79,
     "slug": "ancient-lake-on-mars-rover-finds-strong-new-evidence",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -9561,7 +10207,7 @@
     "imageAlt_en": "Ancient lake on Mars? Rover finds strong new evidence"
   },
   {
-    "id": 75,
+    "id": 80,
     "slug": "rare-two-colored-lobster-caught-by-fishermen-off-cape-cod-donated-to-aquarium",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -9687,7 +10333,7 @@
     "imageAlt_en": "Rare two-colored lobster caught by fishermen off Cape Cod donated to aquarium"
   },
   {
-    "id": 76,
+    "id": 81,
     "slug": "space-travel-may-impact-human-fertility-and-fertilization",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -9816,7 +10462,7 @@
     "imageAlt_en": "Space Travel May Impact Human Fertility and Fertilization"
   },
   {
-    "id": 77,
+    "id": 82,
     "slug": "fiery-fall-color-in-southern-chile",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -9947,7 +10593,7 @@
     "storyKind": "science"
   },
   {
-    "id": 78,
+    "id": 83,
     "slug": "the-impact-of-elliptical-broad-line-regions-on-reverberation-based-black-hole-mass-estimates",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -10067,7 +10713,7 @@
     "storyKind": "science"
   },
   {
-    "id": 79,
+    "id": 84,
     "slug": "what-is-black-garlic-how-heat-and-humidity-turn-a-pungent-ingredient-mild-and-slightly-sweet",
     "cat": "Química",
     "catCls": "quimica",
@@ -10193,7 +10839,7 @@
     "imageAlt_en": "What is black garlic? How heat and humidity turn a pungent ingredient mild and slightly sweet"
   },
   {
-    "id": 80,
+    "id": 85,
     "slug": "jwst-hunts-for-an-earth-moon-twin-in-a-habitable-zone-but-the-star-has-other-plans",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -10338,7 +10984,7 @@
     "imageAlt_en": "JWST hunts for an 'Earth-moon' twin in a habitable zone, but the star has other plans"
   },
   {
-    "id": 81,
+    "id": 86,
     "slug": "this-ultracold-quantum-device-turns-electricity-into-something-far-stranger-that-could-unlock-so",
     "cat": "Física",
     "catCls": "fisica",
@@ -10454,7 +11100,7 @@
     "imageAlt_en": "This ultracold quantum device turns electricity into something far stranger that could unlock sound-based lasers"
   },
   {
-    "id": 82,
+    "id": 87,
     "slug": "breaking-connections-helps-ideas-spread-farther-says-physics-based-study",
     "cat": "Física",
     "catCls": "fisica",
@@ -10573,7 +11219,7 @@
     "imageAlt_en": "Breaking connections helps ideas spread farther, says physics-based study"
   },
   {
-    "id": 83,
+    "id": 88,
     "slug": "beyond-city-limits-new-ecology-framework-links-urban-rural-and-wild-landscapes",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -10695,7 +11341,7 @@
     "imageAlt_en": "Beyond city limits: New ecology framework links urban, rural and wild landscapes"
   },
   {
-    "id": 84,
+    "id": 89,
     "slug": "specially-designed-material-combines-light-and-electricity-to-remove-pfas-from-water-without-har",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -10821,7 +11467,7 @@
     "imageAlt_en": "Specially designed material combines light and electricity to remove PFAS from water without harmful byproducts"
   },
   {
-    "id": 85,
+    "id": 90,
     "slug": "tiny-ultra-faint-dwarf-galaxies-reflect-the-conditions-in-the-early-universe",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -10937,7 +11583,7 @@
     "imageAlt_en": "Tiny Ultra-Faint Dwarf Galaxies Reflect The Conditions In The Early Universe"
   },
   {
-    "id": 86,
+    "id": 91,
     "slug": "why-stars-spin-down-or-up-before-they-die",
     "cat": "Física",
     "catCls": "fisica",
@@ -11063,7 +11709,7 @@
     "imageAlt_en": "Why stars spin down, or up, before they die"
   },
   {
-    "id": 87,
+    "id": 92,
     "slug": "voyager-1-shuts-down-another-instrument",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -11238,7 +11884,7 @@
     "imageAlt_en": "Voyager 1 Shuts Down Another Instrument"
   },
   {
-    "id": 88,
+    "id": 93,
     "slug": "synchrotron-safety-monitoring-sheds-light-on-dark-photons",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -11364,7 +12010,7 @@
     "imageAlt_en": "Synchrotron safety monitoring sheds light on dark photons"
   },
   {
-    "id": 89,
+    "id": 94,
     "slug": "potential-signs-of-life-on-distant-planets-sound-exciting-but-confirmation-can-take-years",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -11493,7 +12139,7 @@
     "imageAlt_en": "Potential signs of life on distant planets sound exciting, but confirmation can take years"
   },
   {
-    "id": 90,
+    "id": 95,
     "slug": "dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -11614,7 +12260,7 @@
     "storyKind": "science"
   },
   {
-    "id": 91,
+    "id": 96,
     "slug": "young-sun-like-stars-are-not-as-menacing-as-thought",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -11730,7 +12376,7 @@
     "imageAlt_en": "Young Sun-like Stars Are Not As Menacing As Thought"
   },
   {
-    "id": 92,
+    "id": 97,
     "slug": "nasa-s-perseverance-curiosity-panoramas-capture-two-sides-of-mars",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -11892,7 +12538,7 @@
     "storyKind": "science"
   },
   {
-    "id": 93,
+    "id": 98,
     "slug": "you-can-help-humans-thrive-in-space",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -12013,7 +12659,7 @@
     "storyKind": "science"
   },
   {
-    "id": 94,
+    "id": 99,
     "slug": "volunteers-help-nasa-astronauts-record-lunar-flashes",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -12134,7 +12780,7 @@
     "storyKind": "science"
   },
   {
-    "id": 95,
+    "id": 100,
     "slug": "researchers-say-remote-lake-superior-island-s-wolves-are-thriving-as-packs-prey-on-moose",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -12250,7 +12896,7 @@
     "imageAlt_en": "Researchers say remote Lake Superior island's wolves are thriving as packs prey on moose"
   },
   {
-    "id": 96,
+    "id": 101,
     "slug": "tests-of-scalar-polarizations-with-multi-messenger-events",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -12365,7 +13011,7 @@
     "imageAlt_en": "Tests of scalar polarizations with multi-messenger events"
   },
   {
-    "id": 97,
+    "id": 102,
     "slug": "an-interplanetary-shortcut-can-speed-up-trips-to-mars",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -12491,7 +13137,7 @@
     "imageAlt_en": "An interplanetary shortcut can speed up trips to Mars"
   },
   {
-    "id": 98,
+    "id": 103,
     "slug": "days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -12697,7 +13343,7 @@
     "storyKind": "science"
   },
   {
-    "id": 99,
+    "id": 104,
     "slug": "how-tilted-orbits-impact-supermassive-black-hole-collisions",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -12823,7 +13469,7 @@
     "imageAlt_en": "How Tilted Orbits Impact Supermassive Black Hole Collisions"
   },
   {
-    "id": 100,
+    "id": 105,
     "slug": "why-dolphins-swim-so-fast-the-secrets-of-hidden-whirlpools",
     "cat": "Física",
     "catCls": "fisica",
@@ -12965,7 +13611,7 @@
     "imageAlt_en": "Why dolphins swim so fast: The secrets of hidden whirlpools"
   },
   {
-    "id": 101,
+    "id": 106,
     "slug": "the-planet-haul-that-changes-everything",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -13081,7 +13727,7 @@
     "imageAlt_en": "The planet haul that changes everything"
   },
   {
-    "id": 102,
+    "id": 107,
     "slug": "the-coded-mask-of-the-eclairs-telescope-onboard-the-svom-space-mission",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -13196,7 +13842,7 @@
     "imageAlt_en": "The coded mask of the ECLAIRs telescope onboard the SVOM space mission"
   },
   {
-    "id": 103,
+    "id": 108,
     "slug": "orangutan-uses-indonesia-canopy-bridge-in-world-first-ngo",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -13312,7 +13958,7 @@
     "imageAlt_en": "Orangutan uses Indonesia canopy bridge in 'world first': NGO"
   },
   {
-    "id": 104,
+    "id": 109,
     "slug": "snow-is-scarce-in-the-upper-colorado-basin",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -13452,7 +14098,7 @@
     "storyKind": "science"
   },
   {
-    "id": 105,
+    "id": 110,
     "slug": "reconstructing-the-cosmic-expansion-with-a-generalized-q-z-parameterization-a-decelerating-unive",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -13570,7 +14216,7 @@
     "imageAlt_en": "Reconstructing the cosmic expansion with a generalized q(z) parameterization: A decelerating Universe from late-time constraints"
   },
   {
-    "id": 106,
+    "id": 111,
     "slug": "scientists-find-peculiar-differences-in-two-uranian-rings",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -13696,7 +14342,7 @@
     "imageAlt_en": "Scientists Find Peculiar Differences in Two Uranian Rings"
   },
   {
-    "id": 107,
+    "id": 112,
     "slug": "uncovering-the-rapidly-evolving-orbits-of-the-dynamic-toi-201-system",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -13811,7 +14457,7 @@
     "imageAlt_en": "Uncovering the Rapidly Evolving Orbits of the Dynamic TOI-201 System"
   },
   {
-    "id": 108,
+    "id": 113,
     "slug": "crab-shell-by-products-could-help-regulate-the-marine-lifetime-of-biodegradable-plastics",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -13937,7 +14583,7 @@
     "imageAlt_en": "Crab shell by-products could help regulate the marine lifetime of biodegradable plastics"
   },
   {
-    "id": 109,
+    "id": 114,
     "slug": "the-universe-is-bending-light-and-astronomers-need-your-help-to-find-it",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -14053,7 +14699,7 @@
     "imageAlt_en": "The Universe is Bending Light, and Astronomers Need Your Help to Find it"
   },
   {
-    "id": 110,
+    "id": 115,
     "slug": "mining-the-solar-system-to-build-a-new-world",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -14169,7 +14815,7 @@
     "imageAlt_en": "Mining the Solar System to Build a New World"
   },
   {
-    "id": 111,
+    "id": 116,
     "slug": "another-instrument-shut-down-on-voyager-1-to-extend-its-interstellar-mission",
     "cat": "Física",
     "catCls": "fisica",
@@ -14285,7 +14931,7 @@
     "imageAlt_en": "Another Instrument Shut Down on Voyager 1 to Extend its Interstellar Mission"
   },
   {
-    "id": 112,
+    "id": 117,
     "slug": "two-blazing-quasars-caught-waltzing-into-a-merger",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -14411,7 +15057,7 @@
     "imageAlt_en": "Two blazing quasars caught waltzing into a merger"
   },
   {
-    "id": 113,
+    "id": 118,
     "slug": "the-threat-of-light-pollution-puts-the-world-s-darkest-skies-in-the-atacama-desert-at-risk",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -14537,7 +15183,7 @@
     "imageAlt_en": "The threat of light pollution puts the world's darkest skies in the Atacama Desert at risk"
   },
   {
-    "id": 114,
+    "id": 119,
     "slug": "small-antarctic-telescope-makes-an-outsized-impact-on-exoplanetary-science",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -14666,7 +15312,7 @@
     "imageAlt_en": "Small Antarctic Telescope Makes An Outsized Impact On Exoplanetary Science"
   },
   {
-    "id": 115,
+    "id": 120,
     "slug": "aquecimento-global-empurra-corais-para-ponto-de-nao-retorno",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -14800,7 +15446,7 @@
     "storyKind": "science"
   },
   {
-    "id": 116,
+    "id": 121,
     "slug": "deep-under-antarctic-ice-a-long-predicted-cosmic-whisper-finally-breaks-through-in-13-strange-bu",
     "cat": "Física",
     "catCls": "fisica",
@@ -14919,7 +15565,7 @@
     "imageAlt_en": "Deep under Antarctic ice, a long-predicted cosmic whisper finally breaks through in 13 strange bursts"
   },
   {
-    "id": 117,
+    "id": 122,
     "slug": "visible-planets-and-night-sky-guide-for-april-and-may",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -15045,7 +15691,7 @@
     "imageAlt_en": "Visible planets and night sky guide for April and May"
   },
   {
-    "id": 118,
+    "id": 123,
     "slug": "paris-has-successfully-cut-noise-pollution-but-urban-birds-still-can-t-sing-at-their-natural-pit",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -15174,7 +15820,7 @@
     "imageAlt_en": "Paris has successfully cut noise pollution, but urban birds still can't sing at their natural pitch"
   },
   {
-    "id": 119,
+    "id": 124,
     "slug": "interstellar-comet-3i-atlas-born-in-a-cold-environment",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -15290,7 +15936,7 @@
     "imageAlt_en": "Interstellar comet 3I/ATLAS born in a cold environment"
   },
   {
-    "id": 120,
+    "id": 125,
     "slug": "dr-elisabeth-armstrong-named-nih-chief-of-staff",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -15406,7 +16052,7 @@
     "imageAlt_en": "Dr. Elisabeth Armstrong named NIH Chief of Staff"
   },
   {
-    "id": 121,
+    "id": 126,
     "slug": "webb-finds-water-ice-clouds-on-nearby-super-jupiter",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -15538,7 +16184,7 @@
     "imageAlt_en": "Webb Finds Water-Ice Clouds on Nearby Super-Jupiter"
   },
   {
-    "id": 122,
+    "id": 127,
     "slug": "microfluidic-device-tracks-cell-squishiness-faster-and-more-reliably-than-standard-methods",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -15654,7 +16300,7 @@
     "imageAlt_en": "Microfluidic device tracks cell 'squishiness' faster and more reliably than standard methods"
   },
   {
-    "id": 123,
+    "id": 128,
     "slug": "catalysis-app-structured-research-data-for-developing-sustainable-catalysts",
     "cat": "Química",
     "catCls": "quimica",
@@ -15773,7 +16419,7 @@
     "imageAlt_en": "Catalysis App: Structured research data for developing sustainable catalysts"
   },
   {
-    "id": 124,
+    "id": 129,
     "slug": "contribution-to-artemis-ii-moon-mission-sees-successful-test-of-a-space-camera-under-cosmic-ray-",
     "cat": "Física",
     "catCls": "fisica",
@@ -15902,7 +16548,7 @@
     "imageAlt_en": "Contribution to Artemis II Moon mission sees successful test of a space camera under cosmic ray conditions"
   },
   {
-    "id": 125,
+    "id": 130,
     "slug": "more-activity-means-less-response-in-active-materials",
     "cat": "Física",
     "catCls": "fisica",
@@ -16028,7 +16674,7 @@
     "imageAlt_en": "More activity means less response in active materials"
   },
   {
-    "id": 126,
+    "id": 131,
     "slug": "multiday-severe-weather-outbreak-forecast-for-the-plains",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -16154,7 +16800,7 @@
     "imageAlt_en": "Multiday severe weather outbreak forecast for the Plains"
   },
   {
-    "id": 127,
+    "id": 132,
     "slug": "toi-201-planets-are-wobbling-out-of-our-line-of-sight",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -16286,7 +16932,7 @@
     "imageAlt_en": "TOI-201 Planets Are Wobbling Out of Our Line of Sight"
   },
   {
-    "id": 128,
+    "id": 133,
     "slug": "the-most-energetic-neutrino-ever-detected-could-be-primordial",
     "cat": "Física",
     "catCls": "fisica",
@@ -16415,7 +17061,7 @@
     "imageAlt_en": "The most energetic neutrino ever detected could be primordial"
   },
   {
-    "id": 129,
+    "id": 134,
     "slug": "simplifying-clean-hydrogen-production-with-a-new-all-in-one-photocatalytic-cocatalyst",
     "cat": "Química",
     "catCls": "quimica",
@@ -16541,7 +17187,7 @@
     "imageAlt_en": "Simplifying clean hydrogen production with a new all-in-one photocatalytic cocatalyst"
   },
   {
-    "id": 130,
+    "id": 135,
     "slug": "the-oort-cloud-as-a-gravitational-detector-for-primordial-black-holes",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -16656,7 +17302,7 @@
     "imageAlt_en": "The Oort Cloud as a Gravitational Detector for Primordial Black Holes"
   },
   {
-    "id": 131,
+    "id": 136,
     "slug": "revisiting-confinement-scalings-and-fusion-performance-with-a-perspective-optimized-for-extrapol",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -16776,7 +17422,7 @@
     "storyKind": "science"
   },
   {
-    "id": 132,
+    "id": 137,
     "slug": "constraints-on-the-primordial-black-hole-abundance-using-pulsar-parameter-drifts",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -16896,7 +17542,7 @@
     "storyKind": "science"
   },
   {
-    "id": 133,
+    "id": 138,
     "slug": "demographics-of-mesoscale-eddies-in-an-eddy-permitting-ocean-model-and-reanalysis",
     "cat": "Física",
     "catCls": "fisica",
@@ -17016,7 +17662,7 @@
     "storyKind": "science"
   },
   {
-    "id": 134,
+    "id": 139,
     "slug": "catching-the-earliest-stars-in-the-universe",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -17137,7 +17783,7 @@
     "storyKind": "science"
   },
   {
-    "id": 135,
+    "id": 140,
     "slug": "spatially-resolved-metallicity-and-ionization-in-the-merging-system-gz9p3-at-z-9-3",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -17252,7 +17898,7 @@
     "imageAlt_en": "Spatially resolved metallicity and ionization in the merging system Gz9p3 at z=9.3"
   },
   {
-    "id": 136,
+    "id": 141,
     "slug": "braving-the-arctic-for-upcoming-polar-focused-satellites",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -17392,7 +18038,7 @@
     "storyKind": "science"
   },
   {
-    "id": 137,
+    "id": 142,
     "slug": "hilumi-lhc-cern-s-full-scale-test-stand-enters-the-powering-phase",
     "cat": "Física",
     "catCls": "fisica",
@@ -17526,7 +18172,7 @@
     "storyKind": "science"
   },
   {
-    "id": 138,
+    "id": 143,
     "slug": "an-agricultural-mosaic-in-taiwan",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -17652,7 +18298,7 @@
     "imageAlt_en": "An Agricultural Mosaic in Taiwan"
   },
   {
-    "id": 139,
+    "id": 144,
     "slug": "clinical-trial-results-support-use-of-weekly-extended-release-buprenorphine-for-treatment-of-opi",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -17773,7 +18419,7 @@
     "storyKind": "science"
   },
   {
-    "id": 140,
+    "id": 145,
     "slug": "nasa-shares-spacex-crew-13-assignments-for-space-station-mission",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -17892,7 +18538,7 @@
     "imageAlt_en": "NASA Shares SpaceX Crew-13 Assignments for Space Station Mission"
   },
   {
-    "id": 141,
+    "id": 146,
     "slug": "nasa-kennedy-prepares-facility-for-roman-space-telescope-arrival",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -18008,7 +18654,7 @@
     "imageAlt_en": "NASA Kennedy Prepares Facility for Roman Space Telescope Arrival"
   },
   {
-    "id": 142,
+    "id": 147,
     "slug": "differentiable-forward-modeling-for-efficient-and-accurate-shear-inference",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -18123,7 +18769,7 @@
     "imageAlt_en": "Differentiable Forward Modeling for Efficient and Accurate Shear Inference"
   },
   {
-    "id": 143,
+    "id": 148,
     "slug": "the-fy-2027-nasa-budget-request",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -18281,7 +18927,7 @@
     "storyKind": "science"
   },
   {
-    "id": 144,
+    "id": 149,
     "slug": "the-dyson-minds-2025-workshop-seti-around-black-holes",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -18404,7 +19050,7 @@
     "storyKind": "science"
   },
   {
-    "id": 145,
+    "id": 150,
     "slug": "nasa-welcomes-jordan-as-63rd-artemis-accords-signatory",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -18523,7 +19169,7 @@
     "imageAlt_en": "NASA Welcomes Jordan as 63rd Artemis Accords Signatory"
   },
   {
-    "id": 146,
+    "id": 151,
     "slug": "mitigating-systematic-errors-in-parameter-estimation-of-binary-black-hole-mergers-in-o1-o3-ligo-",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -18644,7 +19290,7 @@
     "imageAlt_en": "Mitigating Systematic Errors in Parameter Estimation of Binary Black Hole Mergers in O1-O3 LIGO-Virgo Data"
   },
   {
-    "id": 147,
+    "id": 152,
     "slug": "toward-inferring-the-surface-fluxes-of-biosignature-gases-on-rocky-exoplanets-from-telescope-spe",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -18759,7 +19405,7 @@
     "imageAlt_en": "Toward Inferring the Surface Fluxes of Biosignature Gases on Rocky Exoplanets from Telescope Spectra"
   },
   {
-    "id": 148,
+    "id": 153,
     "slug": "liquid-lifeline-nasa-tech-could-create-iv-fluid-in-space",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -18915,7 +19561,7 @@
     "imageAlt_en": "Liquid Lifeline: NASA Tech Could Create IV Fluid In Space"
   },
   {
-    "id": 149,
+    "id": 154,
     "slug": "accelerating-scaling-solutions-from-dark-matter-particle-creation",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -19035,7 +19681,7 @@
     "storyKind": "science"
   },
   {
-    "id": 150,
+    "id": 155,
     "slug": "smile-set-to-launch-on-19-may",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -19202,7 +19848,7 @@
     "storyKind": "science"
   },
   {
-    "id": 151,
+    "id": 156,
     "slug": "uranus-s-outermost-rings-are-made-of-two-different-things",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -19318,7 +19964,7 @@
     "imageAlt_en": "Uranus’s Outermost Rings Are Made of Two Different Things"
   },
   {
-    "id": 152,
+    "id": 157,
     "slug": "xrism-high-resolution-x-ray-spectroscopy-of-cygnus-x-1-orbital-and-short-term-variability-of-iro",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -19441,7 +20087,7 @@
     "storyKind": "science"
   },
   {
-    "id": 153,
+    "id": 158,
     "slug": "plato-aces-space-like-tests",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -19612,7 +20258,7 @@
     "imageAlt_en": "Plato aces space-like tests"
   },
   {
-    "id": 154,
+    "id": 159,
     "slug": "assessing-emulator-design-and-training-for-modal-aerosol-microphysics-parameterizations-in-e3smv",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -19732,7 +20378,7 @@
     "storyKind": "science"
   },
   {
-    "id": 155,
+    "id": 160,
     "slug": "microbes-contribute-a-surprisingly-large-array-of-proteins-in-fermented-foods",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -19858,7 +20504,7 @@
     "imageAlt_en": "Microbes contribute a surprisingly large array of proteins in fermented foods"
   },
   {
-    "id": 156,
+    "id": 161,
     "slug": "engineers-develop-a-new-system-to-track-material-design-processes",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -19974,7 +20620,7 @@
     "imageAlt_en": "Engineers develop a new system to track material design processes"
   },
   {
-    "id": 157,
+    "id": 162,
     "slug": "hospitais-do-sus-em-sao-paulo-recebem-alimentos-organicos",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -20090,7 +20736,7 @@
     "imageAlt_en": "Hospitais do SUS em São Paulo recebem alimentos orgânicos"
   },
   {
-    "id": 158,
+    "id": 163,
     "slug": "do-decoherence-gravity-dark-matter-and-dark-energy-all-originate-from-quantum-corrections",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -20222,7 +20868,7 @@
     "imageAlt_en": "Do decoherence, gravity, dark matter and dark energy all originate from quantum corrections?"
   },
   {
-    "id": 159,
+    "id": 164,
     "slug": "chronic-inflammation-leaves-long-lasting-impression-on-gut-stem-cells-increasing-colorectal-canc",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -20349,7 +20995,7 @@
     ]
   },
   {
-    "id": 160,
+    "id": 165,
     "slug": "belts-of-green-in-the-washington-suburbs",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -20489,7 +21135,7 @@
     "storyKind": "science"
   },
   {
-    "id": 161,
+    "id": 166,
     "slug": "stellar-flares-may-expand-habitable-zones-around-small-stars",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -20623,7 +21269,7 @@
     "storyKind": "science"
   },
   {
-    "id": 162,
+    "id": 167,
     "slug": "what-are-ames-contributions-to-artemis-ii",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -20744,7 +21390,7 @@
     "storyKind": "science"
   },
   {
-    "id": 163,
+    "id": 168,
     "slug": "astronomers-find-the-edge-of-the-milky-way",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -20860,7 +21506,7 @@
     "imageAlt_en": "Astronomers Find the Edge of the Milky Way"
   },
   {
-    "id": 164,
+    "id": 169,
     "slug": "automated-ct-scan-analysis-could-fast-track-clinical-assessments",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -20981,7 +21627,7 @@
     "storyKind": "science"
   },
   {
-    "id": 165,
+    "id": 170,
     "slug": "a-school-of-mud-volcano-islands-in-azerbaijan",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -21121,7 +21767,7 @@
     "storyKind": "science"
   },
   {
-    "id": 166,
+    "id": 171,
     "slug": "behold-the-solar-system-in-all-its-x-ray-glory",
     "cat": "Física",
     "catCls": "fisica",
@@ -21237,7 +21883,7 @@
     "imageAlt_en": "Behold, the Solar System in All its X-ray Glory"
   },
   {
-    "id": 167,
+    "id": 172,
     "slug": "nasa-on-track-for-future-missions-with-initial-artemis-ii-assessments",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -21358,7 +22004,7 @@
     "storyKind": "science"
   },
   {
-    "id": 168,
+    "id": 173,
     "slug": "nasa-rolls-out-artemis-iii-moon-rocket-core-stage",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -21479,7 +22125,7 @@
     "storyKind": "science"
   },
   {
-    "id": 169,
+    "id": 174,
     "slug": "photo-release-hubble-dazzles-with-young-stars-in-trifid-nebula-for-36th-anniversary",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -21712,7 +22358,7 @@
     "storyKind": "science"
   },
   {
-    "id": 170,
+    "id": 175,
     "slug": "the-vera-c-rubin-observatory-has-discovered-11-000-new-asteroids-and-it-s-barely-even-started",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -21841,7 +22487,7 @@
     "imageAlt_en": "The Vera C. Rubin Observatory has Discovered 11, 000 New Asteroids, and It's Barely Even Started!"
   },
   {
-    "id": 171,
+    "id": 176,
     "slug": "sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -21965,7 +22611,7 @@
     "storyKind": "science"
   },
   {
-    "id": 172,
+    "id": 177,
     "slug": "theoretical-models-of-supernova-chemistry-overhauled-after-x-ray-data-from-perseus-cluster-revea",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -22096,7 +22742,7 @@
     "storyKind": "science"
   },
   {
-    "id": 173,
+    "id": 178,
     "slug": "generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul",
     "cat": "Física",
     "catCls": "fisica",
@@ -22230,7 +22876,7 @@
     "imageAlt_en": "Generalized optical meta-spanners empower arbitrary light paths for multitasking optical manipulation"
   },
   {
-    "id": 174,
+    "id": 179,
     "slug": "warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -22364,7 +23010,7 @@
     "imageAlt_en": "Warmer streams may be draining river food webs by sending more carbon into the air"
   },
   {
-    "id": 175,
+    "id": 180,
     "slug": "antioxidant-glutathione-discovered-to-play-a-key-role-in-proper-protein-folding",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -22488,7 +23134,7 @@
     "imageAlt_en": "Antioxidant glutathione discovered to play a key role in proper protein folding"
   },
   {
-    "id": 176,
+    "id": 181,
     "slug": "two-bacteria-join-forces-to-turn-chemical-signals-into-electricity-opening-up-low-cost-sensing-o",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -22622,7 +23268,7 @@
     "imageAlt_en": "Two bacteria join forces to turn chemical signals into electricity, opening up low-cost sensing options"
   },
   {
-    "id": 177,
+    "id": 182,
     "slug": "mining-waste-product-could-help-store-carbon-emissions-study-suggests",
     "cat": "Química",
     "catCls": "quimica",
@@ -22756,7 +23402,7 @@
     "imageAlt_en": "Mining waste product could help store carbon emissions, study suggests"
   },
   {
-    "id": 178,
+    "id": 183,
     "slug": "volunteers-discover-rare-space-weather-events-using-their-ears",
     "cat": "Física",
     "catCls": "fisica",
@@ -22877,7 +23523,7 @@
     "storyKind": "science"
   },
   {
-    "id": 179,
+    "id": 184,
     "slug": "aurelio-favarin",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -23005,7 +23651,7 @@
     "imageAlt_en": "Aurélio Favarin"
   },
   {
-    "id": 180,
+    "id": 185,
     "slug": "sandro-schreiber-de-oliveira",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -23133,7 +23779,7 @@
     "imageAlt_en": "Sandro Schreiber de Oliveira"
   },
   {
-    "id": 181,
+    "id": 186,
     "slug": "alma-and-jwst-investigate-giant-disk-galaxy-s-formation-and-evolution",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -23254,7 +23900,7 @@
     "imageAlt_en": "ALMA and JWST investigate giant disk galaxy's formation and evolution"
   },
   {
-    "id": 182,
+    "id": 187,
     "slug": "sun-news-huge-coronal-hole-now-faces-earth",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -23406,7 +24052,7 @@
     "imageAlt_en": "Sun news: Huge coronal hole now faces Earth"
   },
   {
-    "id": 183,
+    "id": 188,
     "slug": "desi-s-3d-map-of-the-universe-is-complete",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -23537,7 +24183,7 @@
     "storyKind": "science"
   },
   {
-    "id": 184,
+    "id": 189,
     "slug": "iron-plus-uv-light-turns-alcohol-into-hydrogen-with-catalyst-like-efficiency",
     "cat": "Química",
     "catCls": "quimica",
@@ -23668,7 +24314,7 @@
     "imageAlt_en": "Iron plus UV light turns alcohol into hydrogen with catalyst-like efficiency"
   },
   {
-    "id": 185,
+    "id": 190,
     "slug": "how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants",
     "cat": "Física",
     "catCls": "fisica",
@@ -23799,7 +24445,7 @@
     "storyKind": "science"
   },
   {
-    "id": 186,
+    "id": 191,
     "slug": "cyanobacteria-surprise-scientists-with-evolutionary-shift",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -23920,7 +24566,7 @@
     "imageAlt_en": "Cyanobacteria surprise scientists with evolutionary shift"
   },
   {
-    "id": 187,
+    "id": 192,
     "slug": "cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -24044,7 +24690,7 @@
     "imageAlt_en": "Cloudy with a chance of metals: Indications of CO$_2$ in the atmosphere of GJ 1214 b from high-resolution K-band spectroscopy"
   },
   {
-    "id": 188,
+    "id": 193,
     "slug": "quantum-fourier-transform-reaches-52-qubits-shattering-the-previous-27-qubit-record",
     "cat": "Física",
     "catCls": "fisica",
@@ -24168,7 +24814,7 @@
     "imageAlt_en": "Quantum Fourier transform reaches 52 qubits, shattering the previous 27-qubit record"
   },
   {
-    "id": 189,
+    "id": 194,
     "slug": "laser-plasma-accelerator-drives-free-electron-laser-for-record-8-hours",
     "cat": "Física",
     "catCls": "fisica",
@@ -24302,7 +24948,7 @@
     "imageAlt_en": "Laser-plasma accelerator drives free-electron laser for record 8 hours"
   },
   {
-    "id": 190,
+    "id": 195,
     "slug": "eyeing-the-richat-structure",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -24428,7 +25074,7 @@
     "imageAlt_en": "Eyeing the Richat Structure"
   },
   {
-    "id": 191,
+    "id": 196,
     "slug": "jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -24549,7 +25195,7 @@
     "imageAlt_en": "JWST Sees Smoking Gun for Black Hole Mergers in the Virgo Cluster"
   },
   {
-    "id": 192,
+    "id": 197,
     "slug": "astronomers-reveal-always-changing-multi-planet-system",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -24680,7 +25326,7 @@
     "imageAlt_en": "Astronomers reveal always-changing multi-planet system"
   },
   {
-    "id": 193,
+    "id": 198,
     "slug": "computer-security-food-for-your-brain",
     "cat": "Física",
     "catCls": "fisica",
@@ -24822,7 +25468,7 @@
     "imageAlt_en": "Computer Security: Food for your brain"
   },
   {
-    "id": 194,
+    "id": 199,
     "slug": "ash-creeps-across-mars",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -24998,7 +25644,7 @@
     ]
   },
   {
-    "id": 195,
+    "id": 200,
     "slug": "torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -25119,7 +25765,7 @@
     "imageAlt_en": "Torsion balances set strongest direct limits yet on ultralight dark matter"
   },
   {
-    "id": 196,
+    "id": 201,
     "slug": "the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -25243,7 +25889,7 @@
     "storyKind": "science"
   },
   {
-    "id": 197,
+    "id": 202,
     "slug": "planets-collide-around-young-sun-like-star",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -25364,7 +26010,7 @@
     "imageAlt_en": "Planets Collide Around Young, Sun-like Star"
   },
   {
-    "id": 198,
+    "id": 203,
     "slug": "84-nasa-missions-at-risk-under-new-proposal",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -25589,7 +26235,7 @@
     "imageAlt_en": "84 NASA missions at risk under new proposal"
   },
   {
-    "id": 199,
+    "id": 204,
     "slug": "first-light-for-poet-shining-sun-light-on-exoplanet-research",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -25741,7 +26387,7 @@
     "storyKind": "science"
   },
   {
-    "id": 200,
+    "id": 205,
     "slug": "pesquisadores-desconhecem-que-fenomeno-gerou-o-neutrino-mais-energetico-detectado-na-terra",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -25862,7 +26508,7 @@
     "storyKind": "science"
   },
   {
-    "id": 201,
+    "id": 206,
     "slug": "five-things-juice-has-revealed-about-comet-3i-atlas",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -25983,7 +26629,7 @@
     "storyKind": "science"
   },
   {
-    "id": 202,
+    "id": 207,
     "slug": "artemis-ii-blasts-off-sending-humans-back-to-the-moon",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -26135,7 +26781,7 @@
     "storyKind": "science"
   },
   {
-    "id": 203,
+    "id": 208,
     "slug": "cern-timepix-chips-fly-to-the-moon",
     "cat": "Física",
     "catCls": "fisica",
@@ -26266,7 +26912,7 @@
     "storyKind": "science"
   },
   {
-    "id": 204,
+    "id": 209,
     "slug": "webb-hubble-capture-new-views-of-saturn",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -26387,7 +27033,7 @@
     "storyKind": "science"
   },
   {
-    "id": 205,
+    "id": 210,
     "slug": "nsf-initiative-aims-to-make-every-american-worker-business-and-community-ai-ready",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -26543,7 +27189,7 @@
     "imageAlt_en": "NSF initiative aims to make every American worker, business and community AI-ready"
   },
   {
-    "id": 206,
+    "id": 211,
     "slug": "nsf-announces-winners-of-the-u-s-critical-minerals-challenge-to-secure-key-domestic-supply-chain",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -26701,7 +27347,7 @@
     "storyKind": "science"
   },
   {
-    "id": 207,
+    "id": 212,
     "slug": "a-solar-system-in-the-making-two-planets-spotted-forming-in-disc-around-young-star",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -26872,7 +27518,7 @@
     "storyKind": "science"
   },
   {
-    "id": 208,
+    "id": 213,
     "slug": "photo-release-hubble-revisits-crab-nebula-to-track-25-years-of-expansion",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -27100,7 +27746,7 @@
     "imageAlt_en": "Photo Release: Hubble revisits Crab Nebula to track 25 years of expansion"
   },
   {
-    "id": 209,
+    "id": 214,
     "slug": "science-release-hubble-unexpectedly-catches-comet-breaking-up",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -27282,14 +27928,17 @@
     "body_en": "",
     "highlights": [
       "Ponto central: O Telescópio Espacial Hubble da NASA/ESA capturou a inesperada fragmentação do Cometa K1 (C/2025 K1) em pelo menos quatro pedaços.",
+      "Dado-chave: O Telescópio Espacial Hubble da NASA/ESA capturou a inesperada fragmentação do Cometa K1 (C/2025 K1) em pelo menos quatro pedaços.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: O Telescópio Espacial Hubble da NASA/ESA capturou a inesperada fragmentação do Cometa K1 (C/2025 K1) em pelo menos quatro pedaços.",
+      "Dado-chave: O Telescópio Espacial Hubble da NASA/ESA capturou a inesperada fragmentação do Cometa K1 (C/2025 K1) em pelo menos quatro pedaços.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: Comet K1, whose full name is Comet C/2025 K1, had just passed its closest approach to the Sun and was heading out of the Solar System.",
+      "Key detail: Comet K1, whose full name is Comet C/2025 K1, had just passed its closest approach to the Sun and was heading out of the Solar System.",
       "Institutional origin: separate announcement from evidence."
     ]
   }

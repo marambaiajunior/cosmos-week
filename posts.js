@@ -5584,14 +5584,17 @@ window.postsData = [
     "body_en": "",
     "highlights": [
       "Ponto central: O Telescópio Espacial Hubble da NASA/ESA capturou a inesperada fragmentação do Cometa K1 (C/2025 K1) em pelo menos quatro pedaços.",
+      "Dado-chave: O Telescópio Espacial Hubble da NASA/ESA capturou a inesperada fragmentação do Cometa K1 (C/2025 K1) em pelo menos quatro pedaços.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: O Telescópio Espacial Hubble da NASA/ESA capturou a inesperada fragmentação do Cometa K1 (C/2025 K1) em pelo menos quatro pedaços.",
+      "Dado-chave: O Telescópio Espacial Hubble da NASA/ESA capturou a inesperada fragmentação do Cometa K1 (C/2025 K1) em pelo menos quatro pedaços.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: Comet K1, whose full name is Comet C/2025 K1, had just passed its closest approach to the Sun and was heading out of the Solar System.",
+      "Key detail: Comet K1, whose full name is Comet C/2025 K1, had just passed its closest approach to the Sun and was heading out of the Solar System.",
       "Institutional origin: separate announcement from evidence."
     ]
   }
