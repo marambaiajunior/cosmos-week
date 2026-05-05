@@ -1,6 +1,379 @@
 [
   {
     "id": 1,
+    "slug": "nasa-volunteers-double-known-population-of-brown-dwarfs",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://assets.science.nasa.gov/content/dam/science/cds/citizen-science/highlights/2026/BrownDwarf_Citsci.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Voluntários da NASA duplicam população conhecida de anãs marrons",
+    "title_pt": "Voluntários da NASA duplicam população conhecida de anãs marrons",
+    "title_en": "NASA Volunteers Double Known Population of Brown Dwarfs",
+    "sub": "Um novo artigo do projeto Backyard Worlds: Planet 9 da NASA anuncia que voluntários praticamente duplicaram o número de anãs marrons conhecidas, com mais de 3.",
+    "sub_pt": "Um novo artigo do projeto Backyard Worlds: Planet 9 da NASA anuncia que voluntários praticamente duplicaram o número de anãs marrons conhecidas, com mais de 3.",
+    "sub_en": "A new paper from NASA’s Backyard Worlds: Planet 9 project announces that volunteers have essentially doubled the number of known brown dwarfs, with over 3, 000 new discoveries.",
+    "excerpt": "Um novo artigo do projeto Backyard Worlds: Planet 9 da NASA anuncia que voluntários praticamente duplicaram o número de anãs marrons conhecidas, com mais de 3.000 novas descobertas.",
+    "excerpt_pt": "Um novo artigo do projeto Backyard Worlds: Planet 9 da NASA anuncia que voluntários praticamente duplicaram o número de anãs marrons conhecidas, com mais de 3.000 novas descobertas.",
+    "excerpt_en": "A new paper from NASA’s Backyard Worlds: Planet 9 project announces that volunteers have essentially doubled the number of known brown dwarfs, with over 3, 000 new discoveries made over the past 10 years since the project began.",
+    "highlights": [
+      "Em foco: Um novo artigo do projeto Backyard Worlds: Planet 9 da NASA anuncia que voluntários praticamente duplicaram o número de anãs marrons conhecidas, com",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Um novo artigo do projeto Backyard Worlds: Planet 9 da NASA anuncia que voluntários praticamente duplicaram o número de anãs marrons conhecidas, com",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: A new paper from NASA’s Backyard Worlds: Planet 9 project announces that volunteers have essentially doubled the number of known brown dwarfs, with",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "05 mai 2026",
+    "date_pt": "05 mai 2026",
+    "date_en": "05 May 2026",
+    "time": "13h48",
+    "time_pt": "13h48",
+    "time_en": "13: 48 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-05T13:48:55+00:00",
+    "lastModifiedIso": "2026-05-05T17:19:00+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Voluntários da NASA duplicam população conhecida de anãs marrons"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Voluntários da NASA duplicam população conhecida de anãs marrons"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA volunteers double known population of brown dwarfs"
+    ],
+    "srcUrl": "https://science.nasa.gov/get-involved/citizen-science/nasa-volunteers-double-known-population-of-brown-dwarfs/",
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-volunteers-double-known-population-of-brown-dwarfs",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-volunteers-double-known-population-of-brown-dwarfs",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-volunteers-double-known-population-of-brown-dwarfs&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-volunteers-double-known-population-of-brown-dwarfs/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-volunteers-double-known-population-of-brown-dwarfs/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-volunteers-double-known-population-of-brown-dwarfs/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-volunteers-double-known-population-of-brown-dwarfs/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-volunteers-double-known-population-of-brown-dwarfs/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-volunteers-double-known-population-of-brown-dwarfs/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Voluntários da NASA duplicam população conhecida de anãs marrons",
+    "imageAlt_pt": "Voluntários da NASA duplicam população conhecida de anãs marrons",
+    "imageAlt_en": "NASA Volunteers Double Known Population of Brown Dwarfs",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "ahuachapan-and-its-restive-neighbors",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/ahuachapán-and-its-restive-neighbors/ahuachapan_oli_20241125_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/ahuachapán-and-its-restive-neighbors/ahuachapan_oli_20241125_lrg.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Ahuachapán e seus vizinhos inquietos",
+    "title_pt": "Ahuachapán e seus vizinhos inquietos",
+    "title_en": "Ahuachapán and Its Restive Neighbors",
+    "sub": "De um ponto de acesso geotérmico ao antigo “Farol do Pacífico”, o calor aumenta sob a paisagem vulcânica do oeste de El Salvador.",
+    "sub_pt": "De um ponto de acesso geotérmico ao antigo “Farol do Pacífico”, o calor aumenta sob a paisagem vulcânica do oeste de El Salvador.",
+    "sub_en": "From a geothermal hotspot to the one-time “Lighthouse of the Pacific,” the heat is on beneath the volcanic landscape of western El Salvador.",
+    "excerpt": "De um ponto de acesso geotérmico ao antigo “Farol do Pacífico”, o calor aumenta sob a paisagem vulcânica do oeste de El Salvador.",
+    "excerpt_pt": "De um ponto de acesso geotérmico ao antigo “Farol do Pacífico”, o calor aumenta sob a paisagem vulcânica do oeste de El Salvador.",
+    "excerpt_en": "From a geothermal hotspot to the one-time “Lighthouse of the Pacific,” the heat is on beneath the volcanic landscape of western El Salvador.",
+    "highlights": [
+      "Em foco: De um ponto de acesso geotérmico ao antigo “Farol do Pacífico”, o calor aumenta sob a paisagem vulcânica do oeste de El Salvador",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: De um ponto de acesso geotérmico ao antigo “Farol do Pacífico”, o calor aumenta sob a paisagem vulcânica do oeste de El Salvador",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: From a geothermal hotspot to the one-time “Lighthouse of the Pacific,” the heat is on beneath the volcanic landscape of western El Salvador",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "05 mai 2026",
+    "date_pt": "05 mai 2026",
+    "date_en": "05 May 2026",
+    "time": "04h01",
+    "time_pt": "04h01",
+    "time_en": "04: 01 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-05T04:01:00+00:00",
+    "lastModifiedIso": "2026-05-05T17:19:00+00:00",
+    "source": "NASA Earth Observatory",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "Ahuachapán e seus vizinhos inquietos"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "Ahuachapán e seus vizinhos inquietos"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "Ahuachapán and its restless neighbors"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/ahuachapan-and-its-restive-neighbors/",
+    "realUrl": "https://www.cosmosweek.com/?article=ahuachapan-and-its-restive-neighbors",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=ahuachapan-and-its-restive-neighbors",
+    "realUrl_en": "https://www.cosmosweek.com/?article=ahuachapan-and-its-restive-neighbors&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/ahuachapan-and-its-restive-neighbors/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/ahuachapan-and-its-restive-neighbors/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/ahuachapan-and-its-restive-neighbors/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/ahuachapan-and-its-restive-neighbors/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/ahuachapan-and-its-restive-neighbors/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/ahuachapan-and-its-restive-neighbors/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 92,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Ahuachapán e seus vizinhos inquietos",
+    "imageAlt_pt": "Ahuachapán e seus vizinhos inquietos",
+    "imageAlt_en": "Ahuachapán and Its Restive Neighbors",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
+    "slug": "nasa-fosters-development-of-lunar-resource-seeking-technologies",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://images-assets.nasa.gov/image/art002e009287/art002e009287~large.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "NASA Impulsiona o Desenvolvimento de Tecnologias para Exploração de Recursos Lunares",
+    "title_pt": "NASA Impulsiona o Desenvolvimento de Tecnologias para Exploração de Recursos Lunares",
+    "title_en": "NASA Fosters Development of Lunar Resource-Seeking Technologies",
+    "sub": "A NASA e a indústria estão desenvolvendo tecnologias para extrair recursos como hidrogênio e hélio-3 do solo lunar, o que é essencial para apoiar missões de longa duração à Lua e.",
+    "sub_pt": "A NASA e a indústria estão desenvolvendo tecnologias para extrair recursos como hidrogênio e hélio-3 do solo lunar, o que é essencial para apoiar missões de longa duração à Lua e.",
+    "sub_en": "To support long-duration missions to the Moon and Mars, NASA and industry are developing technologies that can extract resources such as hydrogen and helium-3 from lunar soil.",
+    "excerpt": "A NASA e a indústria estão desenvolvendo tecnologias para extrair recursos como hidrogênio e hélio-3 do solo lunar, o que é essencial para apoiar missões de longa duração à Lua e a Marte.",
+    "excerpt_pt": "A NASA e a indústria estão desenvolvendo tecnologias para extrair recursos como hidrogênio e hélio-3 do solo lunar, o que é essencial para apoiar missões de longa duração à Lua e a Marte.",
+    "excerpt_en": "To support long-duration missions to the Moon and Mars, NASA and industry are developing technologies that can extract resources such as hydrogen and helium-3 from lunar soil, known as regolith.",
+    "highlights": [
+      "Em foco: A NASA e a indústria estão desenvolvendo tecnologias para extrair recursos como hidrogênio e hélio-3 do solo lunar, o que é essencial para apoiar",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A NASA e a indústria estão desenvolvendo tecnologias para extrair recursos como hidrogênio e hélio-3 do solo lunar, o que é essencial para apoiar",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: To support long-duration missions to the Moon and Mars, NASA and industry are developing technologies that can extract resources such as hydrogen and",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "04 mai 2026",
+    "date_pt": "04 mai 2026",
+    "date_en": "04 May 2026",
+    "time": "20h32",
+    "time_pt": "20h32",
+    "time_en": "20: 32 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-04T20:32:47+00:00",
+    "lastModifiedIso": "2026-05-05T17:19:00+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA promove desenvolvimento de tecnologias de busca de recursos lunares"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA promove desenvolvimento de tecnologias de busca de recursos lunares"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA promotes development of lunar resource search technologies"
+    ],
+    "srcUrl": "https://www.nasa.gov/technology/nasa-fosters-development-of-lunar-resource-seeking-technologies/",
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-fosters-development-of-lunar-resource-seeking-technologies",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-fosters-development-of-lunar-resource-seeking-technologies",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-fosters-development-of-lunar-resource-seeking-technologies&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-fosters-development-of-lunar-resource-seeking-technologies/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-fosters-development-of-lunar-resource-seeking-technologies/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-fosters-development-of-lunar-resource-seeking-technologies/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-fosters-development-of-lunar-resource-seeking-technologies/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-fosters-development-of-lunar-resource-seeking-technologies/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-fosters-development-of-lunar-resource-seeking-technologies/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 86,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "NASA Impulsiona o Desenvolvimento de Tecnologias para Exploração de Recursos Lunares",
+    "imageAlt_pt": "NASA Impulsiona o Desenvolvimento de Tecnologias para Exploração de Recursos Lunares",
+    "imageAlt_en": "NASA Fosters Development of Lunar Resource-Seeking Technologies",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 4,
     "slug": "for-nasa-s-tess-stellar-eclipses-shed-light-on-possible-new-worlds",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -18,19 +391,19 @@
     "excerpt_pt": "Um estudo dos dados do TESS da NASA sobre pares estelares submetidos a eclipses mútuos descobriu mais de duas dúzias de candidatos a exoplanetas, ou mundos além do nosso sistema solar.",
     "excerpt_en": "A study of NASA’s TESS data on stellar pairs undergoing mutual eclipses has uncovered more than two dozen candidate exoplanets, or worlds beyond our solar system.",
     "highlights": [
-      "Em foco: Um estudo dos dados do TESS da NASA sobre pares estelares submetidos a eclipses mútuos descobriu mais de duas dúzias de candidatos a exoplanetas, ou",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Um estudo dos dados do TESS da NASA sobre pares estelares submetidos a eclipses mútuos descobriu mais de duas dúzias de candidatos a exoplanetas, ou.",
+      "Dado-chave: Um estudo dos dados do TESS da NASA sobre pares estelares submetidos a eclipses mútuos descobriu mais de duas dúzias de candidatos a.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Um estudo dos dados do TESS da NASA sobre pares estelares submetidos a eclipses mútuos descobriu mais de duas dúzias de candidatos a exoplanetas, ou",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Um estudo dos dados do TESS da NASA sobre pares estelares submetidos a eclipses mútuos descobriu mais de duas dúzias de candidatos a exoplanetas, ou.",
+      "Dado-chave: Um estudo dos dados do TESS da NASA sobre pares estelares submetidos a eclipses mútuos descobriu mais de duas dúzias de candidatos a.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: A study of NASA’s TESS data on stellar pairs undergoing mutual eclipses has uncovered more than two dozen candidate exoplanets, or worlds beyond our",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: A study of NASA’s TESS data on stellar pairs undergoing mutual eclipses has uncovered more than two dozen candidate exoplanets, or worlds beyond our.",
+      "Key detail: A study of NASA’s TESS data on stellar pairs undergoing mutual eclipses has uncovered more than two dozen candidate exoplanets, or worlds beyond.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "04 mai 2026",
     "date_pt": "04 mai 2026",
@@ -121,7 +494,7 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 5,
     "slug": "lageos-an-earth-science-mission-built-for-enduring-precision",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -149,19 +522,19 @@
     "excerpt_pt": "Em 4 de maio de 1976, uma espaçonave semelhante a uma bola de discoteca entrou em órbita a quase 6.000 quilômetros acima da Terra.",
     "excerpt_en": "On May 4, 1976, a spacecraft resembling a disco ball entered orbit almost 3, 700 miles above Earth. This shiny, two‑foot‑wide sphere called the Laser Geodynamics Satellite, or LAGEOS, is covered with 426 retroreflectors, small mirrored.",
     "highlights": [
-      "Em foco: Em 4 de maio de 1976, uma espaçonave semelhante a uma bola de discoteca entrou em órbita a quase 6.000 quilômetros acima da Terra",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Em 4 de maio de 1976, uma espaçonave semelhante a uma bola de discoteca entrou em órbita a quase 6.000 quilômetros acima da Terra.",
+      "Dado-chave: Em 4 de maio de 1976, uma espaçonave semelhante a uma bola de discoteca entrou em órbita a quase 6.000 quilômetros acima da Terra",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Em 4 de maio de 1976, uma espaçonave semelhante a uma bola de discoteca entrou em órbita a quase 6.000 quilômetros acima da Terra",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Em 4 de maio de 1976, uma espaçonave semelhante a uma bola de discoteca entrou em órbita a quase 6.000 quilômetros acima da Terra.",
+      "Dado-chave: Em 4 de maio de 1976, uma espaçonave semelhante a uma bola de discoteca entrou em órbita a quase 6.000 quilômetros acima da Terra",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: On May 4, 1976, a spacecraft resembling a disco ball entered orbit almost 3, 700 miles above Earth",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: On May 4, 1976, a spacecraft resembling a disco ball entered orbit almost 3, 700 miles above Earth.",
+      "Key detail: On May 4, 1976, a spacecraft resembling a disco ball entered orbit almost 3, 700 miles above Earth",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "04 mai 2026",
     "date_pt": "04 mai 2026",
@@ -252,153 +625,7 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
-    "slug": "record-setting-retreat-of-hektoria-glacier",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/record-setting-retreat-of-hektoria-glacier/hektoria_oli_20240325_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/record-setting-retreat-of-hektoria-glacier/hektoria_oli_20221030.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/record-setting-retreat-of-hektoria-glacier/hektoria_oli_20240325.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/record-setting-retreat-of-hektoria-glacier/hektoria_oli_20240325_lrg.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Recuo Recorde da Geleira Hektoria",
-    "title_pt": "Recuo Recorde da Geleira Hektoria",
-    "title_en": "Record-Setting Retreat of Hektoria Glacier",
-    "sub": "Cientistas utilizaram dados de satélite para compreender a rápida e significativa perda de gelo da Geleira Hektoria, na Antártida.",
-    "sub_pt": "Cientistas utilizaram dados de satélite para compreender a rápida e significativa perda de gelo da Geleira Hektoria, na Antártida.",
-    "sub_en": "Scientists relied on satellite data to understand how the Antarctic glacier lost so much ice so rapidly.",
-    "excerpt": "Cientistas utilizaram dados de satélite para compreender a rápida e significativa perda de gelo da Geleira Hektoria, na Antártida.",
-    "excerpt_pt": "Cientistas utilizaram dados de satélite para compreender a rápida e significativa perda de gelo da Geleira Hektoria, na Antártida.",
-    "excerpt_en": "Scientists relied on satellite data to understand how the Antarctic glacier lost so much ice so rapidly.",
-    "highlights": [
-      "Em foco: Cientistas utilizaram dados de satélite para compreender a rápida e significativa perda de gelo da Geleira Hektoria, na Antártida",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: Cientistas utilizaram dados de satélite para compreender a rápida e significativa perda de gelo da Geleira Hektoria, na Antártida",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: Scientists relied on satellite data to understand how the Antarctic glacier lost so much ice so rapidly",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "04 mai 2026",
-    "date_pt": "04 mai 2026",
-    "date_en": "04 May 2026",
-    "time": "04h01",
-    "time_pt": "04h01",
-    "time_en": "04: 01 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-04T04:01:00+00:00",
-    "lastModifiedIso": "2026-05-04T17:34:04+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Retiro recorde da Geleira Hektoria"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Retiro recorde da Geleira Hektoria"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Record-breaking Hektoria Glacier retreat"
-    ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/record-setting-retreat-of-hektoria-glacier/",
-    "realUrl": "https://www.cosmosweek.com/?article=record-setting-retreat-of-hektoria-glacier",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=record-setting-retreat-of-hektoria-glacier",
-    "realUrl_en": "https://www.cosmosweek.com/?article=record-setting-retreat-of-hektoria-glacier&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/record-setting-retreat-of-hektoria-glacier/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/record-setting-retreat-of-hektoria-glacier/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/record-setting-retreat-of-hektoria-glacier/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/record-setting-retreat-of-hektoria-glacier/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/record-setting-retreat-of-hektoria-glacier/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/record-setting-retreat-of-hektoria-glacier/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Recuo Recorde da Geleira Hektoria",
-    "imageAlt_pt": "Recuo Recorde da Geleira Hektoria",
-    "imageAlt_en": "Record-Setting Retreat of Hektoria Glacier",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 4,
+    "id": 6,
     "slug": "astronautas-da-missao-lunar-artemis-ii-usaram-relogio-brasileiro-para-monitorar-a-saude",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -416,19 +643,19 @@
     "excerpt_pt": "A tecnologia brasileira foi selecionada para a missão Artemis II, a primeira viagem tripulada ao redor da Lua em mais de meio século, com o objetivo de monitorar a saúde dos astronautas.",
     "excerpt_en": "Quando a missão Artemis II partiu em 1º de abril para a primeira viagem tripulada ao redor da Lua em mais de meio século, um pouco da tecnologia brasileira também foi ao espaço pela primeira vez.",
     "highlights": [
-      "Em foco: A tecnologia brasileira foi selecionada para a missão Artemis II, a primeira viagem tripulada ao redor da Lua em mais de meio século, com o objetivo",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: A tecnologia brasileira foi selecionada para a missão Artemis II, a primeira viagem tripulada ao redor da Lua em mais de meio século, com o objetivo.",
+      "Dado-chave: A tecnologia brasileira foi selecionada para a missão Artemis II, a primeira viagem tripulada ao redor da Lua em mais de meio século, com o.",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
-      "Em foco: A tecnologia brasileira foi selecionada para a missão Artemis II, a primeira viagem tripulada ao redor da Lua em mais de meio século, com o objetivo",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: A tecnologia brasileira foi selecionada para a missão Artemis II, a primeira viagem tripulada ao redor da Lua em mais de meio século, com o objetivo.",
+      "Dado-chave: A tecnologia brasileira foi selecionada para a missão Artemis II, a primeira viagem tripulada ao redor da Lua em mais de meio século, com o.",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
-      "Focus: Quando a missão Artemis II partiu em 1º de abril para a primeira viagem tripulada ao redor da Lua em mais de meio século, um pouco da tecnologia",
-      "Detail: Science reporting: verify primary technical documentation",
-      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+      "Core point: Quando a missão Artemis II partiu em 1º de abril para a primeira viagem tripulada ao redor da Lua em mais de meio século, um pouco da tecnologia.",
+      "Key detail: Quando a missão Artemis II partiu em 1º de abril para a primeira viagem tripulada ao redor da Lua em mais de meio século, um pouco da tecnologia",
+      "Science reporting: verify primary technical documentation."
     ],
     "date": "02 mai 2026",
     "date_pt": "02 mai 2026",
@@ -516,7 +743,7 @@
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 7,
     "slug": "low-cost-care-model-reduces-blood-pressure-in-high-risk-populations",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -634,175 +861,7 @@
     "storyKind": "science"
   },
   {
-    "id": 6,
-    "slug": "nasa-s-storie-mission-to-tell-tale-of-earth-s-ring-current",
-    "cat": "Física",
-    "catCls": "fisica",
-    "img": "https://assets.science.nasa.gov/content/dam/science/hpd/STORIE_pallet_IMG_3227.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-1.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-2.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-3.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-4.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": {
-      "kind": "file",
-      "platform": "html5",
-      "embedUrl": "",
-      "fileUrl": "https://assets.science.nasa.gov/content/dam/science/hpd/geospace/ISS_RENA_Magnetic_Field.mp4",
-      "poster": "",
-      "title": "",
-      "title_pt": "",
-      "title_en": "",
-      "caption": "",
-      "caption_pt": "",
-      "caption_en": "",
-      "sourcePage": "https://science.nasa.gov/science-research/heliophysics/nasas-storie-mission-to-tell-tale-of-earths-ring-current/"
-    },
-    "audio": null,
-    "title": "Missão STORIE da NASA: Uma Nova Perspectiva sobre a Corrente de Anel da Terra",
-    "title_pt": "Missão STORIE da NASA: Uma Nova Perspectiva sobre a Corrente de Anel da Terra",
-    "title_en": "NASA’s STORIE Mission to Tell Tale of Earth’s Ring Current",
-    "sub": "O campo magnético terrestre atua como uma armadilha natural, capturando partículas eletricamente carregadas no espaço próximo ao planeta e as confinando em uma estrutura invisível.",
-    "sub_pt": "O campo magnético terrestre atua como uma armadilha natural, capturando partículas eletricamente carregadas no espaço próximo ao planeta e as confinando em uma estrutura invisível.",
-    "sub_en": "Earth’s magnetic field is like a powerful trap. It lures electrically charged particles in space, near our planet, and snares them in an invisible, doughnut-shaped pen around.",
-    "excerpt": "O campo magnético terrestre atua como uma armadilha natural, capturando partículas eletricamente carregadas no espaço próximo ao planeta e as confinando em uma estrutura invisível em forma de anel, conhecida como corrente de anel.",
-    "excerpt_pt": "O campo magnético terrestre atua como uma armadilha natural, capturando partículas eletricamente carregadas no espaço próximo ao planeta e as confinando em uma estrutura invisível em forma de anel, conhecida como corrente de anel.",
-    "excerpt_en": "Earth’s magnetic field is like a powerful trap. It lures electrically charged particles in space, near our planet, and snares them in an invisible, doughnut-shaped pen around Earth known as the ring current.",
-    "highlights": [
-      "Em foco: O campo magnético terrestre atua como uma armadilha natural, capturando partículas eletricamente carregadas no espaço próximo ao planeta e as",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: O campo magnético terrestre atua como uma armadilha natural, capturando partículas eletricamente carregadas no espaço próximo ao planeta e as",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: Earth’s magnetic field is like a powerful trap",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "01 mai 2026",
-    "date_pt": "01 mai 2026",
-    "date_en": "01 May 2026",
-    "time": "15h31",
-    "time_pt": "15h31",
-    "time_en": "15: 31 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-01T15:31:08+00:00",
-    "lastModifiedIso": "2026-05-01T16:51:17+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Física",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Missão STORIE da NASA para contar a história da corrente do anel da Terra"
-    ],
-    "keywords_pt": [
-      "Física",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Missão STORIE da NASA para contar a história da corrente do anel da Terra"
-    ],
-    "keywords_en": [
-      "Physical",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA's STORIE mission to tell the story of Earth's ring current"
-    ],
-    "srcUrl": "https://science.nasa.gov/science-research/heliophysics/nasas-storie-mission-to-tell-tale-of-earths-ring-current/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-s-storie-mission-to-tell-tale-of-earth-s-ring-current",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-s-storie-mission-to-tell-tale-of-earth-s-ring-current",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-s-storie-mission-to-tell-tale-of-earth-s-ring-current&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-s-storie-mission-to-tell-tale-of-earth-s-ring-current/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-storie-mission-to-tell-tale-of-earth-s-ring-current/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-storie-mission-to-tell-tale-of-earth-s-ring-current/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-s-storie-mission-to-tell-tale-of-earth-s-ring-current/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-storie-mission-to-tell-tale-of-earth-s-ring-current/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-storie-mission-to-tell-tale-of-earth-s-ring-current/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": true,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Missão STORIE da NASA: Uma Nova Perspectiva sobre a Corrente de Anel da Terra",
-    "imageAlt_pt": "Missão STORIE da NASA: Uma Nova Perspectiva sobre a Corrente de Anel da Terra",
-    "imageAlt_en": "NASA’s STORIE Mission to Tell Tale of Earth’s Ring Current",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 7,
+    "id": 8,
     "slug": "cyclone-rains-spur-papua-new-guinea-landslides",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -957,7 +1016,7 @@
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "finding-the-one-identifying-the-host-of-compact-binary-mergers",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -976,17 +1035,17 @@
     "excerpt_en": "Finding the host galaxies of stellar-mass compact binary mergers will open a new window for studying their formation histories and measuring key cosmological parameters, such as the Hubble constant.",
     "highlights": [
       "Ponto central: A identificação das galáxias hospedeiras de fusões binárias compactas de massa estelar abrirá uma nova janela para o estudo de suas histórias de.",
-      "Dado-chave: A identificação das galáxias hospedeiras de fusões binárias compactas de massa estelar abrirá uma nova janela para o estudo de suas histórias de",
+      "Dado-chave: A identificação das galáxias hospedeiras de fusões binárias compactas de massa estelar abrirá uma nova janela para o estudo de suas histórias de.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
       "Ponto central: A identificação das galáxias hospedeiras de fusões binárias compactas de massa estelar abrirá uma nova janela para o estudo de suas histórias de.",
-      "Dado-chave: A identificação das galáxias hospedeiras de fusões binárias compactas de massa estelar abrirá uma nova janela para o estudo de suas histórias de",
+      "Dado-chave: A identificação das galáxias hospedeiras de fusões binárias compactas de massa estelar abrirá uma nova janela para o estudo de suas histórias de.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
       "Core point: Finding the host galaxies of stellar-mass compact binary mergers will open a new window for studying their formation histories and measuring key.",
-      "Key detail: Finding the host galaxies of stellar-mass compact binary mergers will open a new window for studying their formation histories and measuring key",
+      "Key detail: Finding the host galaxies of stellar-mass compact binary mergers will open a new window for studying their formation histories and measuring key.",
       "Result not yet peer reviewed."
     ],
     "date": "30 abr 2026",
@@ -1078,7 +1137,7 @@
     "storyKind": "science"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "another-one-ariane-6-flies-with-four-boosters-once-more",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1218,7 +1277,7 @@
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "stunning-images-from-biomass-mark-its-one-year-in-orbit",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1391,7 +1450,7 @@
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "trapping-irregular-waveforms-and-efficient-radiation-in-ultra-relativistic-black-hole-encounters",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1515,7 +1574,7 @@
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -1636,7 +1695,7 @@
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1754,7 +1813,7 @@
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1957,7 +2016,7 @@
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "snow-is-scarce-in-the-upper-colorado-basin",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2094,7 +2153,7 @@
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "catching-the-earliest-stars-in-the-universe",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2212,7 +2271,7 @@
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "braving-the-arctic-for-upcoming-polar-focused-satellites",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2349,7 +2408,7 @@
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "hilumi-lhc-cern-s-full-scale-test-stand-enters-the-powering-phase",
     "cat": "Física",
     "catCls": "fisica",
@@ -2480,7 +2539,7 @@
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "the-fy-2027-nasa-budget-request",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2635,7 +2694,7 @@
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 21,
     "slug": "smile-set-to-launch-on-19-may",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2792,143 +2851,6 @@
     "imageAlt": "Lançamento da Missão Smile Agendado para 19 de Maio de 2026",
     "imageAlt_pt": "Lançamento da Missão Smile Agendado para 19 de Maio de 2026",
     "imageAlt_en": "Smile set to launch on 19 May",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 21,
-    "slug": "belts-of-green-in-the-washington-suburbs",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/belts-of-green-in-the-washington-suburbs/ISS069-E-39302_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/belts-of-green-in-the-washington-suburbs/ISS069-E-39302_lrg.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Cinturões verdes nos subúrbios de Washington",
-    "title_pt": "Cinturões verdes nos subúrbios de Washington",
-    "title_en": "Belts of Green in the Washington Suburbs",
-    "sub": "Ao longo do lado nordeste da Capital Beltway, em Maryland, espaços verdes serpenteiam pela paisagem desenvolvida.",
-    "sub_pt": "Ao longo do lado nordeste da Capital Beltway, em Maryland, espaços verdes serpenteiam pela paisagem desenvolvida.",
-    "sub_en": "Along the northeast side of the Capital Beltway in Maryland, green spaces weave through the developed landscape.",
-    "excerpt": "Ao longo do lado nordeste da Capital Beltway, em Maryland, espaços verdes serpenteiam pela paisagem desenvolvida.",
-    "excerpt_pt": "Ao longo do lado nordeste da Capital Beltway, em Maryland, espaços verdes serpenteiam pela paisagem desenvolvida.",
-    "excerpt_en": "Along the northeast side of the Capital Beltway in Maryland, green spaces weave through the developed landscape. The post Belts of Green in the Washington Suburbs appeared first on NASA Science.",
-    "highlights": [
-      "Ponto central: Ao longo do lado nordeste da Capital Beltway, em Maryland, espaços verdes serpenteiam pela paisagem desenvolvida.",
-      "Dado-chave: Ao longo do lado nordeste da Capital Beltway, em Maryland, espaços verdes serpenteiam pela paisagem desenvolvida.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Ao longo do lado nordeste da Capital Beltway, em Maryland, espaços verdes serpenteiam pela paisagem desenvolvida.",
-      "Dado-chave: Ao longo do lado nordeste da Capital Beltway, em Maryland, espaços verdes serpenteiam pela paisagem desenvolvida.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Along the northeast side of the Capital Beltway in Maryland, green spaces weave through the developed landscape.",
-      "Key detail: Along the northeast side of the Capital Beltway in Maryland, green spaces weave through the developed landscape.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "22 abr 2026",
-    "date_pt": "22 abr 2026",
-    "date_en": "22 Apr 2026",
-    "time": "04h01",
-    "time_pt": "04h01",
-    "time_en": "04: 01 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-22T04:01:00+00:00",
-    "lastModifiedIso": "2026-04-26T07:40:11+00:00",
-    "source": "NASA Earth Observatory",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA Earth Observatory",
-      "Cosmos Week",
-      "Cinturões verdes nos subúrbios de Washington"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA Earth Observatory",
-      "Cosmos Week",
-      "Cinturões verdes nos subúrbios de Washington"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA Earth Observatory",
-      "Cosmos Week",
-      "Greenbelts in Washington Suburbs"
-    ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/belts-of-green-in-the-washington-suburbs/",
-    "realUrl": "https://www.cosmosweek.com/?article=belts-of-green-in-the-washington-suburbs",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=belts-of-green-in-the-washington-suburbs",
-    "realUrl_en": "https://www.cosmosweek.com/?article=belts-of-green-in-the-washington-suburbs&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/belts-of-green-in-the-washington-suburbs/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/belts-of-green-in-the-washington-suburbs/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/belts-of-green-in-the-washington-suburbs/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/belts-of-green-in-the-washington-suburbs/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/belts-of-green-in-the-washington-suburbs/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/belts-of-green-in-the-washington-suburbs/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 96,
-    "scoreBreakdown": {
-      "source": 92,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 46
-    },
-    "imageAlt": "Cinturões verdes nos subúrbios de Washington",
-    "imageAlt_pt": "Cinturões verdes nos subúrbios de Washington",
-    "imageAlt_en": "Belts of Green in the Washington Suburbs",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
@@ -3456,12 +3378,12 @@
     "excerpt_en": "In the past several years, Rockefeller University's Kivanç Birsoy and his team in the Laboratory of Metabolic Regulation and Genetics have revealed remarkable details about the antioxidant glutathione, which plays many essential roles in.",
     "highlights": [
       "Ponto central: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
-      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes",
+      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
       "Ponto central: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
-      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes",
+      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
@@ -3559,137 +3481,6 @@
   },
   {
     "id": 27,
-    "slug": "mining-waste-product-could-help-store-carbon-emissions-study-suggests",
-    "cat": "Química",
-    "catCls": "quimica",
-    "img": "https://scx2.b-cdn.net/gfx/news/hires/2026/mining-waste-product-c.jpg",
-    "inline_images": [
-      {
-        "src": "https://scx2.b-cdn.net/gfx/news/2026/mining-waste-product-c.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Resíduos de mineração podem ajudar a armazenar emissões de carbono, sugere estudo",
-    "title_pt": "Resíduos de mineração podem ajudar a armazenar emissões de carbono, sugere estudo",
-    "title_en": "Mining waste product could help store carbon emissions, study suggests",
-    "sub": "Um novo estudo liderado pela Universidade Concordia sugere que a escória rica em ferro, um dos maiores resíduos da mineração, pode ser uma solução promissora para o armazenamento.",
-    "sub_pt": "Um novo estudo liderado pela Universidade Concordia sugere que a escória rica em ferro, um dos maiores resíduos da mineração, pode ser uma solução promissora para o armazenamento.",
-    "sub_en": "A new Concordia-led study suggests that iron-rich slag, one of mining's biggest waste products, could help store carbon dioxide emissions.",
-    "excerpt": "Um novo estudo liderado pela Universidade Concordia sugere que a escória rica em ferro, um dos maiores resíduos da mineração, pode ser uma solução promissora para o armazenamento de dióxido de carbono.",
-    "excerpt_pt": "Um novo estudo liderado pela Universidade Concordia sugere que a escória rica em ferro, um dos maiores resíduos da mineração, pode ser uma solução promissora para o armazenamento de dióxido de carbono.",
-    "excerpt_en": "A new Concordia-led study suggests that iron-rich slag, one of mining's biggest waste products, could help store carbon dioxide emissions.",
-    "highlights": [
-      "Ponto central: Um novo estudo liderado pela Universidade Concordia sugere que a escória rica em ferro, um dos maiores resíduos da mineração, pode ser uma solução.",
-      "Dado-chave: Um novo estudo liderado pela Universidade Concordia sugere que a escória rica em ferro, um dos maiores resíduos da mineração, pode ser uma.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_pt": [
-      "Ponto central: Um novo estudo liderado pela Universidade Concordia sugere que a escória rica em ferro, um dos maiores resíduos da mineração, pode ser uma solução.",
-      "Dado-chave: Um novo estudo liderado pela Universidade Concordia sugere que a escória rica em ferro, um dos maiores resíduos da mineração, pode ser uma.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_en": [
-      "Core point: A new Concordia-led study suggests that iron-rich slag, one of mining's biggest waste products, could help store carbon dioxide emissions.",
-      "Key detail: A new Concordia-led study suggests that iron-rich slag, one of mining's biggest waste products, could help store carbon dioxide emissions.",
-      "Science reporting: verify primary technical documentation."
-    ],
-    "date": "17 abr 2026",
-    "date_pt": "17 abr 2026",
-    "date_en": "17 Apr 2026",
-    "time": "17h40",
-    "time_pt": "17h40",
-    "time_en": "17: 40 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-17T17:40:03+00:00",
-    "lastModifiedIso": "2026-04-23T23:29:07+00:00",
-    "source": "Phys. org Chemistry",
-    "sourceDomain": "phys. org",
-    "sourceType": "news",
-    "sourceTypeLabel": "Jornalismo científico",
-    "sourceTypeLabel_pt": "Jornalismo científico",
-    "sourceTypeLabel_en": "Science journalism",
-    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
-    "evidenceKey": "journalistic",
-    "evidenceLabel": "Cobertura jornalística",
-    "evidenceLabel_pt": "Cobertura jornalística",
-    "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Química",
-      "Phys. org Chemistry",
-      "Cosmos Week",
-      "Resíduos de mineração podem ajudar a armazenar emissões de carbono",
-      "sugere estudo"
-    ],
-    "keywords_pt": [
-      "Química",
-      "Phys. org Chemistry",
-      "Cosmos Week",
-      "Resíduos de mineração podem ajudar a armazenar emissões de carbono",
-      "sugere estudo"
-    ],
-    "keywords_en": [
-      "Chemical",
-      "Phys. org Chemistry",
-      "Cosmos Week",
-      "Mining waste can help store carbon emissions",
-      "suggests study"
-    ],
-    "srcUrl": "https://phys.org/news/2026-04-product-carbon-emissions.html",
-    "realUrl": "https://www.cosmosweek.com/?article=mining-waste-product-could-help-store-carbon-emissions-study-suggests",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=mining-waste-product-could-help-store-carbon-emissions-study-suggests",
-    "realUrl_en": "https://www.cosmosweek.com/?article=mining-waste-product-could-help-store-carbon-emissions-study-suggests&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/mining-waste-product-could-help-store-carbon-emissions-study-suggests/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/mining-waste-product-could-help-store-carbon-emissions-study-suggests/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/mining-waste-product-could-help-store-carbon-emissions-study-suggests/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/mining-waste-product-could-help-store-carbon-emissions-study-suggests/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/mining-waste-product-could-help-store-carbon-emissions-study-suggests/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/mining-waste-product-could-help-store-carbon-emissions-study-suggests/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 70,
-      "evidence": 42,
-      "relevance": 84,
-      "accessibility": 52,
-      "novelty": 52
-    },
-    "coverageKind": "news",
-    "coverageKindLabel": "Jornalismo científico",
-    "coverageKindLabel_pt": "Jornalismo científico",
-    "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science",
-    "imageAlt": "Resíduos de mineração podem ajudar a armazenar emissões de carbono, sugere estudo",
-    "imageAlt_pt": "Resíduos de mineração podem ajudar a armazenar emissões de carbono, sugere estudo",
-    "imageAlt_en": "Mining waste product could help store carbon emissions, study suggests"
-  },
-  {
-    "id": 28,
     "slug": "sun-news-huge-coronal-hole-now-faces-earth",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3836,6 +3627,134 @@
     "imageAlt": "Notícias do Sol: Enorme buraco coronal agora enfrenta a Terra",
     "imageAlt_pt": "Notícias do Sol: Enorme buraco coronal agora enfrenta a Terra",
     "imageAlt_en": "Sun news: Huge coronal hole now faces Earth"
+  },
+  {
+    "id": 28,
+    "slug": "how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants",
+    "cat": "Física",
+    "catCls": "fisica",
+    "img": "https://scx2.b-cdn.net/gfx/news/hires/2026/how-a-new-technique-wi.jpg",
+    "inline_images": [
+      {
+        "src": "https://scx2.b-cdn.net/gfx/news/2026/how-a-new-technique-wi.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Como uma nova técnica nos ajudará a extrair metais de terras raras com plantas",
+    "title_pt": "Como uma nova técnica nos ajudará a extrair metais de terras raras com plantas",
+    "title_en": "How a new technique will help us mine rare-earth metals with plants",
+    "sub": "Os pesquisadores desenvolveram uma técnica para detectar e medir a concentração de muitos elementos de terras raras nas plantas, sem destruir a planta.",
+    "sub_pt": "Os pesquisadores desenvolveram uma técnica para detectar e medir a concentração de muitos elementos de terras raras nas plantas, sem destruir a planta.",
+    "sub_en": "Researchers have developed a technique for detecting and measuring the concentration of many rare-earth elements in plants, without destroying the plant.",
+    "excerpt": "Os pesquisadores desenvolveram uma técnica para detectar e medir a concentração de muitos elementos de terras raras nas plantas, sem destruir a planta.",
+    "excerpt_pt": "Os pesquisadores desenvolveram uma técnica para detectar e medir a concentração de muitos elementos de terras raras nas plantas, sem destruir a planta.",
+    "excerpt_en": "Researchers have developed a technique for detecting and measuring the concentration of many rare-earth elements in plants, without destroying the plant.",
+    "highlights": [
+      "Ponto central: Os pesquisadores desenvolveram uma técnica para detectar e medir a concentração de muitos elementos de terras raras nas plantas, sem destruir a.",
+      "Dado-chave: Os pesquisadores desenvolveram uma técnica para detectar e medir a concentração de muitos elementos de terras raras nas plantas, sem destruir a",
+      "Cobertura jornalística: verificar documentação técnica primária."
+    ],
+    "highlights_pt": [
+      "Ponto central: Os pesquisadores desenvolveram uma técnica para detectar e medir a concentração de muitos elementos de terras raras nas plantas, sem destruir a.",
+      "Dado-chave: Os pesquisadores desenvolveram uma técnica para detectar e medir a concentração de muitos elementos de terras raras nas plantas, sem destruir a",
+      "Cobertura jornalística: verificar documentação técnica primária."
+    ],
+    "highlights_en": [
+      "Core point: Researchers have developed a technique for detecting and measuring the concentration of many rare-earth elements in plants, without destroying the.",
+      "Key detail: Researchers have developed a technique for detecting and measuring the concentration of many rare-earth elements in plants, without destroying.",
+      "Science reporting: verify primary technical documentation."
+    ],
+    "date": "16 abr 2026",
+    "date_pt": "16 abr 2026",
+    "date_en": "16 Apr 2026",
+    "time": "22h50",
+    "time_pt": "22h50",
+    "time_en": "22: 50 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-04-16T22:50:01+00:00",
+    "lastModifiedIso": "2026-04-23T23:29:07+00:00",
+    "source": "Phys. org Chemistry",
+    "sourceDomain": "phys. org",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Física",
+      "Phys. org Chemistry",
+      "Cosmos Week",
+      "Como uma nova técnica nos ajudará a extrair metais de terras raras com plantas"
+    ],
+    "keywords_pt": [
+      "Física",
+      "Phys. org Chemistry",
+      "Cosmos Week",
+      "Como uma nova técnica nos ajudará a extrair metais de terras raras com plantas"
+    ],
+    "keywords_en": [
+      "Physical",
+      "Phys. org Chemistry",
+      "Cosmos Week",
+      "How a new technique will help us extract rare earth metals with plants"
+    ],
+    "srcUrl": "https://phys.org/news/2026-04-technique-rare-earth-metals.html",
+    "realUrl": "https://www.cosmosweek.com/?article=how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants",
+    "realUrl_en": "https://www.cosmosweek.com/?article=how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 70,
+      "evidence": 42,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 49
+    },
+    "imageAlt": "Como uma nova técnica nos ajudará a extrair metais de terras raras com plantas",
+    "imageAlt_pt": "Como uma nova técnica nos ajudará a extrair metais de terras raras com plantas",
+    "imageAlt_en": "How a new technique will help us mine rare-earth metals with plants",
+    "coverageKind": "news",
+    "coverageKindLabel": "Jornalismo científico",
+    "coverageKindLabel_pt": "Jornalismo científico",
+    "coverageKindLabel_en": "Science journalism",
+    "storyKind": "science"
   },
   {
     "id": 29,
