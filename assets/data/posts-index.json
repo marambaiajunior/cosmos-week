@@ -1,6 +1,124 @@
 [
   {
     "id": 1,
+    "slug": "nasa-s-spacex-34th-commercial-resupply-mission-overview",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://www.nasa.gov/wp-content/uploads/2026/05/nasa-spacex-crs-34-mission-overview.png",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Visão geral da 34ª missão de reabastecimento comercial da SpaceX da NASA",
+    "title_pt": "Visão geral da 34ª missão de reabastecimento comercial da SpaceX da NASA",
+    "title_en": "NASA’s SpaceX 34th Commercial Resupply Mission Overview",
+    "sub": "A NASA e a SpaceX têm como meta um lançamento em meados de maio para entregar investigações científicas, suprimentos e equipamentos à Estação Espacial Internacional.",
+    "sub_pt": "A NASA e a SpaceX têm como meta um lançamento em meados de maio para entregar investigações científicas, suprimentos e equipamentos à Estação Espacial Internacional.",
+    "sub_en": "NASA and SpaceX are targeting a mid-May launch to deliver scientific investigations, supplies, and equipment to the International Space Station.",
+    "excerpt": "A NASA e a SpaceX têm como meta um lançamento em meados de maio para entregar investigações científicas, suprimentos e equipamentos à Estação Espacial Internacional.",
+    "excerpt_pt": "A NASA e a SpaceX têm como meta um lançamento em meados de maio para entregar investigações científicas, suprimentos e equipamentos à Estação Espacial Internacional.",
+    "excerpt_en": "NASA and SpaceX are targeting a mid-May launch to deliver scientific investigations, supplies, and equipment to the International Space Station.",
+    "highlights": [
+      "Em foco: A NASA e a SpaceX têm como meta um lançamento em meados de maio para entregar investigações científicas, suprimentos e equipamentos à Estação",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A NASA e a SpaceX têm como meta um lançamento em meados de maio para entregar investigações científicas, suprimentos e equipamentos à Estação",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: NASA and SpaceX are targeting a mid-May launch to deliver scientific investigations, supplies, and equipment to the International Space Station",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "08 mai 2026",
+    "date_pt": "08 mai 2026",
+    "date_en": "08 May 2026",
+    "time": "22h50",
+    "time_pt": "22h50",
+    "time_en": "22: 50 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-08T22:50:03+00:00",
+    "lastModifiedIso": "2026-05-09T16:42:39+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Visão geral da 34ª missão de reabastecimento comercial da SpaceX da NASA"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Visão geral da 34ª missão de reabastecimento comercial da SpaceX da NASA"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Overview of NASA's 34th SpaceX Commercial Resupply Mission"
+    ],
+    "srcUrl": "https://www.nasa.gov/general/nasas-spacex-34th-commercial-resupply-mission-overview/",
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-s-spacex-34th-commercial-resupply-mission-overview",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-s-spacex-34th-commercial-resupply-mission-overview",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-s-spacex-34th-commercial-resupply-mission-overview&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-s-spacex-34th-commercial-resupply-mission-overview/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-spacex-34th-commercial-resupply-mission-overview/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-spacex-34th-commercial-resupply-mission-overview/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-s-spacex-34th-commercial-resupply-mission-overview/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-spacex-34th-commercial-resupply-mission-overview/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-spacex-34th-commercial-resupply-mission-overview/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 86,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Visão geral da 34ª missão de reabastecimento comercial da SpaceX da NASA",
+    "imageAlt_pt": "Visão geral da 34ª missão de reabastecimento comercial da SpaceX da NASA",
+    "imageAlt_en": "NASA’s SpaceX 34th Commercial Resupply Mission Overview",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
     "slug": "nasa-fuel-cell-tests-pave-way-for-energy-storage-on-moon",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -18,19 +136,19 @@
     "excerpt_pt": "A NASA está realizando testes cruciais com um sistema regenerativo de células de combustível, uma tecnologia promissora para o armazenamento de energia em futuras missões lunares do programa Artemis.",
     "excerpt_en": "With a small blue crane, four researchers hoist a cylindrical fuel cell, which looks like a stack of flattened silver and gold soda cans bundled together, into the air and lower it into a rectangular cart on wheels.",
     "highlights": [
-      "Em foco: A NASA está realizando testes cruciais com um sistema regenerativo de células de combustível, uma tecnologia promissora para o armazenamento de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A NASA está realizando testes cruciais com um sistema regenerativo de células de combustível, uma tecnologia promissora para o armazenamento de.",
+      "Dado-chave: A NASA está realizando testes cruciais com um sistema regenerativo de células de combustível, uma tecnologia promissora para o armazenamento de",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A NASA está realizando testes cruciais com um sistema regenerativo de células de combustível, uma tecnologia promissora para o armazenamento de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A NASA está realizando testes cruciais com um sistema regenerativo de células de combustível, uma tecnologia promissora para o armazenamento de.",
+      "Dado-chave: A NASA está realizando testes cruciais com um sistema regenerativo de células de combustível, uma tecnologia promissora para o armazenamento de",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: With a small blue crane, four researchers hoist a cylindrical fuel cell, which looks like a stack of flattened silver and gold soda cans bundled",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: With a small blue crane, four researchers hoist a cylindrical fuel cell, which looks like a stack of flattened silver and gold soda cans bundled.",
+      "Key detail: With a small blue crane, four researchers hoist a cylindrical fuel cell, which looks like a stack of flattened silver and gold soda cans bundled",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "08 mai 2026",
     "date_pt": "08 mai 2026",
@@ -118,7 +236,7 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "nasa-pushes-next-gen-mars-helicopter-rotor-blades-past-mach-1",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -168,19 +286,19 @@
     "excerpt_pt": "As pás de rotor projetadas para os helicópteros de próxima geração da NASA, que explorarão novas altitudes em Marte, superaram a barreira do som durante testes realizados em março no Laboratório de Propulsão a Jato (JPL).",
     "excerpt_en": "The rotor blades that will carry NASA’s next-generation helicopters to new Martian heights broke the sound barrier during March tests at NASA’s Jet Propulsion Laboratory in Southern California.",
     "highlights": [
-      "Em foco: As pás de rotor projetadas para os helicópteros de próxima geração da NASA, que explorarão novas altitudes em Marte, superaram a barreira do som",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: As pás de rotor projetadas para os helicópteros de próxima geração da NASA, que explorarão novas altitudes em Marte, superaram a barreira do som.",
+      "Dado-chave: As pás de rotor projetadas para os helicópteros de próxima geração da NASA, que explorarão novas altitudes em Marte, superaram a barreira do som",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: As pás de rotor projetadas para os helicópteros de próxima geração da NASA, que explorarão novas altitudes em Marte, superaram a barreira do som",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: As pás de rotor projetadas para os helicópteros de próxima geração da NASA, que explorarão novas altitudes em Marte, superaram a barreira do som.",
+      "Dado-chave: As pás de rotor projetadas para os helicópteros de próxima geração da NASA, que explorarão novas altitudes em Marte, superaram a barreira do som",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The rotor blades that will carry NASA’s next-generation helicopters to new Martian heights broke the sound barrier during March tests at NASA’s Jet",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The rotor blades that will carry NASA’s next-generation helicopters to new Martian heights broke the sound barrier during March tests at NASA’s Jet.",
+      "Key detail: The rotor blades that will carry NASA’s next-generation helicopters to new Martian heights broke the sound barrier during March tests at NASA’s.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "07 mai 2026",
     "date_pt": "07 mai 2026",
@@ -268,7 +386,7 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "esa-and-jaxa-team-up-on-planetary-defence-ramses-mission-to-asteroid-apophis",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -392,7 +510,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "nasa-supported-small-spacecraft-launches-to-study-solar-particles",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -411,12 +529,12 @@
     "excerpt_en": "Through NASA, a university-designed small spacecraft is paving the way to studying particles, known as neutrinos, that move through the universe at near-light speeds.",
     "highlights": [
       "Ponto central: Uma pequena nave espacial, desenvolvida por uma universidade com o apoio da NASA, foi lançada para iniciar o estudo de neutrinos, partículas que.",
-      "Dado-chave: Uma pequena nave espacial, desenvolvida por uma universidade com o apoio da NASA, foi lançada para iniciar o estudo de neutrinos, partículas que",
+      "Dado-chave: Uma pequena nave espacial, desenvolvida por uma universidade com o apoio da NASA, foi lançada para iniciar o estudo de neutrinos, partículas que.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: Uma pequena nave espacial, desenvolvida por uma universidade com o apoio da NASA, foi lançada para iniciar o estudo de neutrinos, partículas que.",
-      "Dado-chave: Uma pequena nave espacial, desenvolvida por uma universidade com o apoio da NASA, foi lançada para iniciar o estudo de neutrinos, partículas que",
+      "Dado-chave: Uma pequena nave espacial, desenvolvida por uma universidade com o apoio da NASA, foi lançada para iniciar o estudo de neutrinos, partículas que.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
@@ -510,124 +628,6 @@
     "storyKind": "science"
   },
   {
-    "id": 5,
-    "slug": "nasa-s-simulated-mars-mission-marks-200-days-inside-habitat",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://www.nasa.gov/wp-content/uploads/2026/05/chapea200-1.png",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Missão simulada da NASA em Marte marca 200 dias dentro do habitat",
-    "title_pt": "Missão simulada da NASA em Marte marca 200 dias dentro do habitat",
-    "title_en": "NASA’s Simulated Mars Mission Marks 200 Days Inside Habitat",
-    "sub": "Os quatro membros da tripulação da simulação de Marte da NASA completaram 200 dias de sua missão de 378 dias no Planeta Vermelho, em 7 de maio.",
-    "sub_pt": "Os quatro membros da tripulação da simulação de Marte da NASA completaram 200 dias de sua missão de 378 dias no Planeta Vermelho, em 7 de maio.",
-    "sub_en": "The four crew members of NASA’s Mars simulation recently marked 200 days into their 378-day Red Planet mission on May 7.",
-    "excerpt": "Os quatro membros da tripulação da simulação de Marte da NASA completaram 200 dias de sua missão de 378 dias no Planeta Vermelho, em 7 de maio.",
-    "excerpt_pt": "Os quatro membros da tripulação da simulação de Marte da NASA completaram 200 dias de sua missão de 378 dias no Planeta Vermelho, em 7 de maio.",
-    "excerpt_en": "The four crew members of NASA’s Mars simulation recently marked 200 days into their 378-day Red Planet mission on May 7. Currently, the crew is in a simulated two‑week loss‑of‑signal period that mimics a Mars-Earth communications blackout.",
-    "highlights": [
-      "Ponto central: Os quatro membros da tripulação da simulação de Marte da NASA completaram 200 dias de sua missão de 378 dias no Planeta Vermelho, em 7 de maio.",
-      "Dado-chave: Os quatro membros da tripulação da simulação de Marte da NASA completaram 200 dias de sua missão de 378 dias no Planeta Vermelho, em 7 de maio",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Os quatro membros da tripulação da simulação de Marte da NASA completaram 200 dias de sua missão de 378 dias no Planeta Vermelho, em 7 de maio.",
-      "Dado-chave: Os quatro membros da tripulação da simulação de Marte da NASA completaram 200 dias de sua missão de 378 dias no Planeta Vermelho, em 7 de maio",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: The four crew members of NASA’s Mars simulation recently marked 200 days into their 378-day Red Planet mission on May 7.",
-      "Key detail: The four crew members of NASA’s Mars simulation recently marked 200 days into their 378-day Red Planet mission on May 7",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "07 mai 2026",
-    "date_pt": "07 mai 2026",
-    "date_en": "07 May 2026",
-    "time": "14h07",
-    "time_pt": "14h07",
-    "time_en": "14: 07 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-07T14:07:53+00:00",
-    "lastModifiedIso": "2026-05-07T17:34:38+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Missão simulada da NASA em Marte marca 200 dias dentro do habitat"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Missão simulada da NASA em Marte marca 200 dias dentro do habitat"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA's simulated mission to Mars marks 200 days inside the habitat"
-    ],
-    "srcUrl": "https://www.nasa.gov/humans-in-space/nasas-simulated-mars-mission-marks-200-days-inside-habitat/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-s-simulated-mars-mission-marks-200-days-inside-habitat",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-s-simulated-mars-mission-marks-200-days-inside-habitat",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-s-simulated-mars-mission-marks-200-days-inside-habitat&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-s-simulated-mars-mission-marks-200-days-inside-habitat/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-simulated-mars-mission-marks-200-days-inside-habitat/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-simulated-mars-mission-marks-200-days-inside-habitat/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-s-simulated-mars-mission-marks-200-days-inside-habitat/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-simulated-mars-mission-marks-200-days-inside-habitat/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-simulated-mars-mission-marks-200-days-inside-habitat/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": true,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 86,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Missão simulada da NASA em Marte marca 200 dias dentro do habitat",
-    "imageAlt_pt": "Missão simulada da NASA em Marte marca 200 dias dentro do habitat",
-    "imageAlt_en": "NASA’s Simulated Mars Mission Marks 200 Days Inside Habitat",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
     "id": 6,
     "slug": "revisiting-the-constancy-of-the-speed-of-light-galaxy-cluster-mass-bias-implications",
     "cat": "Cosmologia",
@@ -646,18 +646,19 @@
     "excerpt_pt": "Avanços recentes nas observações de aglomerados de galáxias têm possibilitado a realização de diversos testes de física fundamental.",
     "excerpt_en": "In recent years, improvements in galaxy cluster observations have enabled a variety of tests of fundamental physics using these systems.",
     "highlights": [
-      "Em foco: Avanços recentes nas observações de aglomerados de galáxias têm possibilitado a realização de diversos testes de física fundamental",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Avanços recentes nas observações de aglomerados de galáxias têm possibilitado a realização de diversos testes de física fundamental.",
+      "Dado-chave: Avanços recentes nas observações de aglomerados de galáxias têm possibilitado a realização de diversos testes de física fundamental",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Avanços recentes nas observações de aglomerados de galáxias têm possibilitado a realização de diversos testes de física fundamental",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Avanços recentes nas observações de aglomerados de galáxias têm possibilitado a realização de diversos testes de física fundamental.",
+      "Dado-chave: Avanços recentes nas observações de aglomerados de galáxias têm possibilitado a realização de diversos testes de física fundamental",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: In recent years, improvements in galaxy cluster observations have enabled a variety of tests of fundamental physics using these systems",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: In recent years, improvements in galaxy cluster observations have enabled a variety of tests of fundamental physics using these systems.",
+      "Key detail: In recent years, improvements in galaxy cluster observations have enabled a variety of tests of fundamental physics using these systems",
+      "Result not yet peer reviewed."
     ],
     "date": "07 mai 2026",
     "date_pt": "07 mai 2026",
@@ -766,18 +767,19 @@
     "excerpt_pt": "Fontes de raios X ultraluminosas são principalmente fontes pontuais extragalácticas não nucleares com luminosidade de raios X excedendo a luminosidade de Eddington do buraco negro.",
     "excerpt_en": "Ultraluminous X-ray sources are mostly extragalactic non-nuclear point sources having X-ray luminosity exceeding the Eddington luminosity of 10 $M_\\odot$ black hole i.",
     "highlights": [
-      "Em foco: Fontes de raios X ultraluminosas são principalmente fontes pontuais extragalácticas não nucleares com luminosidade de raios X excedendo a",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Fontes de raios X ultraluminosas são principalmente fontes pontuais extragalácticas não nucleares com luminosidade de raios X excedendo a.",
+      "Dado-chave: Fontes de raios X ultraluminosas são principalmente fontes pontuais extragalácticas não nucleares com luminosidade de raios X excedendo a",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Fontes de raios X ultraluminosas são principalmente fontes pontuais extragalácticas não nucleares com luminosidade de raios X excedendo a",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Fontes de raios X ultraluminosas são principalmente fontes pontuais extragalácticas não nucleares com luminosidade de raios X excedendo a.",
+      "Dado-chave: Fontes de raios X ultraluminosas são principalmente fontes pontuais extragalácticas não nucleares com luminosidade de raios X excedendo a",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: Ultraluminous X-ray sources are mostly extragalactic non-nuclear point sources having X-ray luminosity exceeding the Eddington luminosity of 10",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: Ultraluminous X-ray sources are mostly extragalactic non-nuclear point sources having X-ray luminosity exceeding the Eddington luminosity of 10.",
+      "Key detail: Ultraluminous X-ray sources are mostly extragalactic non-nuclear point sources having X-ray luminosity exceeding the Eddington luminosity of 10",
+      "Result not yet peer reviewed."
     ],
     "date": "07 mai 2026",
     "date_pt": "07 mai 2026",
@@ -4918,17 +4920,17 @@
     "excerpt_en": "The U. S. National Science Foundation Directorate for Technology, Innovation and Partnerships announced eight winners of the Tech Metal Transformation Challenge launched by STRIDE Ventures.",
     "highlights": [
       "Ponto central: A Diretoria de Tecnologia, Inovação e Parcerias da Fundação Nacional de Ciência dos EUA (NSF TIP) anunciou os oito vencedores do Tech Metal.",
-      "Dado-chave: A Diretoria de Tecnologia, Inovação e Parcerias da Fundação Nacional de Ciência dos EUA (NSF TIP) anunciou os oito vencedores do Tech Metal",
+      "Dado-chave: A Diretoria de Tecnologia, Inovação e Parcerias da Fundação Nacional de Ciência dos EUA (NSF TIP) anunciou os oito vencedores do Tech Metal.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: A Diretoria de Tecnologia, Inovação e Parcerias da Fundação Nacional de Ciência dos EUA (NSF TIP) anunciou os oito vencedores do Tech Metal.",
-      "Dado-chave: A Diretoria de Tecnologia, Inovação e Parcerias da Fundação Nacional de Ciência dos EUA (NSF TIP) anunciou os oito vencedores do Tech Metal",
+      "Dado-chave: A Diretoria de Tecnologia, Inovação e Parcerias da Fundação Nacional de Ciência dos EUA (NSF TIP) anunciou os oito vencedores do Tech Metal.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: The U. S. National Science Foundation Directorate for Technology, Innovation and Partnerships announced eight winners of the Tech Metal.",
-      "Key detail: The U. S",
+      "Key detail: The U. S. National Science Foundation Directorate for Technology, Innovation and Partnerships announced eight winners of the Tech Metal.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "24 mar 2026",
@@ -5188,14 +5190,17 @@
     "storyKind": "science",
     "highlights": [
       "Ponto central: Astrônomos observaram dois planetas em formação no disco protoplanetário ao redor de uma estrela jovem, nomeada WISPIT 2.",
+      "Dado-chave: Astrônomos observaram dois planetas em formação no disco protoplanetário ao redor de uma estrela jovem, nomeada WISPIT 2.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: Astrônomos observaram dois planetas em formação no disco protoplanetário ao redor de uma estrela jovem, nomeada WISPIT 2.",
+      "Dado-chave: Astrônomos observaram dois planetas em formação no disco protoplanetário ao redor de uma estrela jovem, nomeada WISPIT 2.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: Astronomers have observed two planets forming in the disc around a young star named WISPIT 2.",
+      "Key detail: Astronomers have observed two planets forming in the disc around a young star named WISPIT 2.",
       "Institutional origin: separate announcement from evidence."
     ]
   },
