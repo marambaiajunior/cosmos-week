@@ -1,6 +1,156 @@
 [
   {
     "id": 1,
+    "slug": "sistema-solar-ganha-novo-misterio-com-aneis-de-quiron",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://revistapesquisa.fapesp.br/wp-content/thumbs/983bbeace7280d6ad4deefc28ebb37155d6bc2c8_1200-630.png",
+    "inline_images": [
+      {
+        "src": "https://revistapesquisa.fapesp.br/wp-content/thumbs/1df80494ec716fba731d62935bc69016a0d045ac_300-200cropped.png",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://revistapesquisa.fapesp.br/wp-content/thumbs/13657bdc03804ae8552aec00f19baca024517057_1200-630.jpg",
+        "alt": "mostra centauro com estrutura anelar ainda em transformação.",
+        "alt_pt": "mostra centauro com estrutura anelar ainda em transformação.",
+        "alt_en": "mostra centauro com estrutura anelar ainda em transformação.",
+        "caption": "mostra centauro com estrutura anelar ainda em transformação.",
+        "caption_pt": "mostra centauro com estrutura anelar ainda em transformação.",
+        "caption_en": "mostra centauro com estrutura anelar ainda em transformação."
+      }
+    ],
+    "video": {
+      "kind": "embed",
+      "platform": "youtube",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/-XoylCbDYDA?rel=0&modestbranding=1",
+      "fileUrl": "",
+      "poster": "",
+      "title": "",
+      "title_pt": "",
+      "title_en": "",
+      "caption": "",
+      "caption_pt": "",
+      "caption_en": "",
+      "sourcePage": "https://revistapesquisa.fapesp.br/sistema-solar-ganha-novo-misterio-com-aneis-de-quiron/?utm_source=rss&utm_medium=rss&utm_campaign=sistema-solar-ganha-novo-misterio-com-aneis-de-quiron"
+    },
+    "audio": null,
+    "title": "Sistema Solar ganha novo mistério com anéis de Quíron",
+    "title_pt": "Sistema Solar ganha novo mistério com anéis de Quíron",
+    "title_en": "Sistema Solar ganha novo mistério com anéis de Quíron",
+    "sub": "Pesquisadores brasileiros revelam a existência de anéis em Quíron, um corpo celeste classificado como centauro, indicando uma estrutura anelar em constante evolução no Sistema.",
+    "sub_pt": "Pesquisadores brasileiros revelam a existência de anéis em Quíron, um corpo celeste classificado como centauro, indicando uma estrutura anelar em constante evolução no Sistema.",
+    "sub_en": "Descoberta liderada por brasileiros mostra centauro com estrutura anelar ainda em transformação | 4'12.",
+    "excerpt": "Pesquisadores brasileiros revelam a existência de anéis em Quíron, um corpo celeste classificado como centauro, indicando uma estrutura anelar em constante evolução no Sistema Solar.",
+    "excerpt_pt": "Pesquisadores brasileiros revelam a existência de anéis em Quíron, um corpo celeste classificado como centauro, indicando uma estrutura anelar em constante evolução no Sistema Solar.",
+    "excerpt_en": "Descoberta liderada por brasileiros mostra centauro com estrutura anelar ainda em transformação | 4'12.",
+    "highlights": [
+      "Em foco: Pesquisadores brasileiros revelam a existência de anéis em Quíron, um corpo celeste classificado como centauro, indicando uma estrutura anelar em",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_pt": [
+      "Em foco: Pesquisadores brasileiros revelam a existência de anéis em Quíron, um corpo celeste classificado como centauro, indicando uma estrutura anelar em",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_en": [
+      "Focus: Descoberta liderada por brasileiros mostra centauro com estrutura anelar ainda em transformação | 4'12",
+      "Detail: Science reporting: verify primary technical documentation",
+      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+    ],
+    "date": "10 mai 2026",
+    "date_pt": "10 mai 2026",
+    "date_en": "10 May 2026",
+    "time": "14h00",
+    "time_pt": "14h00",
+    "time_en": "14: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-10T14:00:46+00:00",
+    "lastModifiedIso": "2026-05-10T16:35:25+00:00",
+    "source": "Pesquisa FAPESP Astronomia",
+    "sourceDomain": "revistapesquisa. fapesp. br",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Astronomia",
+      "Pesquisa FAPESP Astronomia",
+      "Cosmos Week",
+      "Sistema Solar ganha novo mistério com anéis de Quíron"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "Pesquisa FAPESP Astronomia",
+      "Cosmos Week",
+      "Sistema Solar ganha novo mistério com anéis de Quíron"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "Pesquisa FAPESP Astronomia",
+      "Cosmos Week",
+      "Solar System gains new mystery with Chiron rings"
+    ],
+    "srcUrl": "https://revistapesquisa.fapesp.br/sistema-solar-ganha-novo-misterio-com-aneis-de-quiron/?utm_source=rss&utm_medium=rss&utm_campaign=sistema-solar-ganha-novo-misterio-com-aneis-de-quiron",
+    "realUrl": "https://www.cosmosweek.com/?article=sistema-solar-ganha-novo-misterio-com-aneis-de-quiron",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=sistema-solar-ganha-novo-misterio-com-aneis-de-quiron",
+    "realUrl_en": "https://www.cosmosweek.com/?article=sistema-solar-ganha-novo-misterio-com-aneis-de-quiron&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/sistema-solar-ganha-novo-misterio-com-aneis-de-quiron/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/sistema-solar-ganha-novo-misterio-com-aneis-de-quiron/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/sistema-solar-ganha-novo-misterio-com-aneis-de-quiron/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/sistema-solar-ganha-novo-misterio-com-aneis-de-quiron/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/sistema-solar-ganha-novo-misterio-com-aneis-de-quiron/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/sistema-solar-ganha-novo-misterio-com-aneis-de-quiron/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 77,
+    "scoreBreakdown": {
+      "source": 80,
+      "evidence": 54,
+      "relevance": 70,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Sistema Solar ganha novo mistério com anéis de Quíron",
+    "imageAlt_pt": "Sistema Solar ganha novo mistério com anéis de Quíron",
+    "imageAlt_en": "Sistema Solar ganha novo mistério com anéis de Quíron",
+    "coverageKind": "news",
+    "coverageKindLabel": "Jornalismo científico",
+    "coverageKindLabel_pt": "Jornalismo científico",
+    "coverageKindLabel_en": "Science journalism",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
     "slug": "nasa-s-spacex-34th-commercial-resupply-mission-overview",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -118,7 +268,7 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "nasa-fuel-cell-tests-pave-way-for-energy-storage-on-moon",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -137,17 +287,17 @@
     "excerpt_en": "With a small blue crane, four researchers hoist a cylindrical fuel cell, which looks like a stack of flattened silver and gold soda cans bundled together, into the air and lower it into a rectangular cart on wheels.",
     "highlights": [
       "Ponto central: A NASA está realizando testes cruciais com um sistema regenerativo de células de combustível, uma tecnologia promissora para o armazenamento de.",
-      "Dado-chave: A NASA está realizando testes cruciais com um sistema regenerativo de células de combustível, uma tecnologia promissora para o armazenamento de",
+      "Dado-chave: A NASA está realizando testes cruciais com um sistema regenerativo de células de combustível, uma tecnologia promissora para o armazenamento de.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: A NASA está realizando testes cruciais com um sistema regenerativo de células de combustível, uma tecnologia promissora para o armazenamento de.",
-      "Dado-chave: A NASA está realizando testes cruciais com um sistema regenerativo de células de combustível, uma tecnologia promissora para o armazenamento de",
+      "Dado-chave: A NASA está realizando testes cruciais com um sistema regenerativo de células de combustível, uma tecnologia promissora para o armazenamento de.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: With a small blue crane, four researchers hoist a cylindrical fuel cell, which looks like a stack of flattened silver and gold soda cans bundled.",
-      "Key detail: With a small blue crane, four researchers hoist a cylindrical fuel cell, which looks like a stack of flattened silver and gold soda cans bundled",
+      "Key detail: With a small blue crane, four researchers hoist a cylindrical fuel cell, which looks like a stack of flattened silver and gold soda cans bundled.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "08 mai 2026",
@@ -236,7 +386,7 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "nasa-pushes-next-gen-mars-helicopter-rotor-blades-past-mach-1",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -287,12 +437,12 @@
     "excerpt_en": "The rotor blades that will carry NASA’s next-generation helicopters to new Martian heights broke the sound barrier during March tests at NASA’s Jet Propulsion Laboratory in Southern California.",
     "highlights": [
       "Ponto central: As pás de rotor projetadas para os helicópteros de próxima geração da NASA, que explorarão novas altitudes em Marte, superaram a barreira do som.",
-      "Dado-chave: As pás de rotor projetadas para os helicópteros de próxima geração da NASA, que explorarão novas altitudes em Marte, superaram a barreira do som",
+      "Dado-chave: As pás de rotor projetadas para os helicópteros de próxima geração da NASA, que explorarão novas altitudes em Marte, superaram a barreira do som.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: As pás de rotor projetadas para os helicópteros de próxima geração da NASA, que explorarão novas altitudes em Marte, superaram a barreira do som.",
-      "Dado-chave: As pás de rotor projetadas para os helicópteros de próxima geração da NASA, que explorarão novas altitudes em Marte, superaram a barreira do som",
+      "Dado-chave: As pás de rotor projetadas para os helicópteros de próxima geração da NASA, que explorarão novas altitudes em Marte, superaram a barreira do som.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
@@ -386,7 +536,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "esa-and-jaxa-team-up-on-planetary-defence-ramses-mission-to-asteroid-apophis",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -510,7 +660,7 @@
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "nasa-supported-small-spacecraft-launches-to-study-solar-particles",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -628,7 +778,7 @@
     "storyKind": "science"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "revisiting-the-constancy-of-the-speed-of-light-galaxy-cluster-mass-bias-implications",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -749,7 +899,7 @@
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "a-comparative-study-of-occurrence-rates-and-nature-of-ultraluminous-x-ray-sources-in-spiral-and-",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -867,12 +1017,49 @@
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "a-beacon-of-light-in-swirls-of-dust",
     "cat": "Astronomia",
     "catCls": "astronomia",
     "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/a_beacon_of_light_in_swirls_of_dust/27263088-1-eng-GB/A_beacon_of_light_in_swirls_of_dust_card_full.jpg",
-    "inline_images": [],
+    "inline_images": [
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/a_beacon_of_light_in_swirls_of_dust/27263088-1-eng-GB/A_beacon_of_light_in_swirls_of_dust_pillars.jpg",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/a_beacon_of_light_in_swirls_of_dust/27263088-1-eng-GB/A_beacon_of_light_in_swirls_of_dust_article.jpg",
+        "caption": "Um farol de luz em redemoinhos de poeira",
+        "caption_pt": "Um farol de luz em redemoinhos de poeira",
+        "caption_en": "A beacon of light in swirls of dust",
+        "alt": "Um farol de luz em redemoinhos de poeira",
+        "alt_pt": "Um farol de luz em redemoinhos de poeira",
+        "alt_en": "A beacon of light in swirls of dust"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/messier_77_nircam/27263539-1-eng-GB/Messier_77_NIRCam_article.jpg",
+        "caption": "Messier 77 (NIRCam)",
+        "caption_pt": "Messier 77 (NIRCam)",
+        "caption_en": "Messier 77 (NIRCam)",
+        "alt": "Messier 77 (NIRCam)",
+        "alt_pt": "Messier 77 (NIRCam)",
+        "alt_en": "Messier 77 (NIRCam)"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/messier_77_miri_nircam/27263254-1-eng-GB/Messier_77_MIRI_NIRCam_article.jpg",
+        "caption": "Messier 77 (MIRI e NIRCam combinados)",
+        "caption_pt": "Messier 77 (MIRI e NIRCam combinados)",
+        "caption_en": "Messier 77 (MIRI and NIRCam combined)",
+        "alt": "Messier 77 (MIRI e NIRCam combinados)",
+        "alt_pt": "Messier 77 (MIRI e NIRCam combinados)",
+        "alt_en": "Messier 77 (MIRI and NIRCam combined)"
+      }
+    ],
     "video": null,
     "audio": null,
     "title": "Um farol de luz em redemoinhos de poeira",
@@ -985,7 +1172,7 @@
     "storyKind": "science"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "a-sea-of-spinning-clouds",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1113,7 +1300,7 @@
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "nih-funded-breakthrough-shrinks-crispr-for-precision-delivery-in-the-body",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1231,7 +1418,7 @@
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "putting-the-super-into-a-supersite-for-earth-observation",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1305,17 +1492,17 @@
     "excerpt_en": "In the far northern reaches of Finnish Lapland, an ambitious new chapter in Earth observation is unfolding. The European Space Agency, together with the Finnish Meteorological Institute and Finnish industrial partners, is advancing plans.",
     "highlights": [
       "Ponto central: No extremo norte da Lapónia finlandesa, está a desenrolar-se um novo e ambicioso capítulo na observação da Terra.",
-      "Dado-chave: No extremo norte da Lapónia finlandesa, está a desenrolar-se um novo e ambicioso capítulo na observação da Terra",
+      "Dado-chave: No extremo norte da Lapónia finlandesa, está a desenrolar-se um novo e ambicioso capítulo na observação da Terra.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: No extremo norte da Lapónia finlandesa, está a desenrolar-se um novo e ambicioso capítulo na observação da Terra.",
-      "Dado-chave: No extremo norte da Lapónia finlandesa, está a desenrolar-se um novo e ambicioso capítulo na observação da Terra",
+      "Dado-chave: No extremo norte da Lapónia finlandesa, está a desenrolar-se um novo e ambicioso capítulo na observação da Terra.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: In the far northern reaches of Finnish Lapland, an ambitious new chapter in Earth observation is unfolding.",
-      "Key detail: In the far northern reaches of Finnish Lapland, an ambitious new chapter in Earth observation is unfolding",
+      "Key detail: In the far northern reaches of Finnish Lapland, an ambitious new chapter in Earth observation is unfolding.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "06 mai 2026",
@@ -1404,7 +1591,7 @@
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "webb-hubble-find-massive-star-clusters-emerge-faster",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1532,7 +1719,7 @@
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "ahuachapan-and-its-restive-neighbors",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1666,124 +1853,6 @@
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 14,
-    "slug": "astronautas-da-missao-lunar-artemis-ii-usaram-relogio-brasileiro-para-monitorar-a-saude",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://revistapesquisa.fapesp.br/wp-content/thumbs/cc3730b631d4abb6b2945aa77199c25fa5fc1dd2_1200-630.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Tecnologia brasileira é selecionada para monitorar a saúde de astronautas na missão lunar Artemis II",
-    "title_pt": "Tecnologia brasileira é selecionada para monitorar a saúde de astronautas na missão lunar Artemis II",
-    "title_en": "Astronautas da missão lunar Artemis II usaram “relógio” brasileiro para monitorar a saúde",
-    "sub": "A tecnologia brasileira foi selecionada para a missão Artemis II, a primeira viagem tripulada ao redor da Lua em mais de meio século, com o objetivo de monitorar a saúde dos.",
-    "sub_pt": "A tecnologia brasileira foi selecionada para a missão Artemis II, a primeira viagem tripulada ao redor da Lua em mais de meio século, com o objetivo de monitorar a saúde dos.",
-    "sub_en": "Quando a missão Artemis II partiu em 1º de abril para a primeira viagem tripulada ao redor da Lua em mais de meio século, um pouco da tecnologia brasileira também foi ao espaço.",
-    "excerpt": "A tecnologia brasileira foi selecionada para a missão Artemis II, a primeira viagem tripulada ao redor da Lua em mais de meio século, com o objetivo de monitorar a saúde dos astronautas.",
-    "excerpt_pt": "A tecnologia brasileira foi selecionada para a missão Artemis II, a primeira viagem tripulada ao redor da Lua em mais de meio século, com o objetivo de monitorar a saúde dos astronautas.",
-    "excerpt_en": "Quando a missão Artemis II partiu em 1º de abril para a primeira viagem tripulada ao redor da Lua em mais de meio século, um pouco da tecnologia brasileira também foi ao espaço pela primeira vez.",
-    "highlights": [
-      "Ponto central: A tecnologia brasileira foi selecionada para a missão Artemis II, a primeira viagem tripulada ao redor da Lua em mais de meio século, com o objetivo.",
-      "Dado-chave: A tecnologia brasileira foi selecionada para a missão Artemis II, a primeira viagem tripulada ao redor da Lua em mais de meio século, com o.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_pt": [
-      "Ponto central: A tecnologia brasileira foi selecionada para a missão Artemis II, a primeira viagem tripulada ao redor da Lua em mais de meio século, com o objetivo.",
-      "Dado-chave: A tecnologia brasileira foi selecionada para a missão Artemis II, a primeira viagem tripulada ao redor da Lua em mais de meio século, com o.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_en": [
-      "Core point: Quando a missão Artemis II partiu em 1º de abril para a primeira viagem tripulada ao redor da Lua em mais de meio século, um pouco da tecnologia.",
-      "Key detail: Quando a missão Artemis II partiu em 1º de abril para a primeira viagem tripulada ao redor da Lua em mais de meio século, um pouco da tecnologia.",
-      "Science reporting: verify primary technical documentation."
-    ],
-    "date": "02 mai 2026",
-    "date_pt": "02 mai 2026",
-    "date_en": "02 May 2026",
-    "time": "12h57",
-    "time_pt": "12h57",
-    "time_en": "12: 57 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-02T12:57:52+00:00",
-    "lastModifiedIso": "2026-05-02T16:19:26+00:00",
-    "source": "Pesquisa FAPESP Ciência",
-    "sourceDomain": "revistapesquisa. fapesp. br",
-    "sourceType": "news",
-    "sourceTypeLabel": "Jornalismo científico",
-    "sourceTypeLabel_pt": "Jornalismo científico",
-    "sourceTypeLabel_en": "Science journalism",
-    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
-    "evidenceKey": "journalistic",
-    "evidenceLabel": "Cobertura jornalística",
-    "evidenceLabel_pt": "Cobertura jornalística",
-    "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "standard",
-    "editorialBandLabel": "Prioridade editorial",
-    "editorialBandLabel_pt": "Prioridade editorial",
-    "editorialBandLabel_en": "Editorial priority",
-    "keywords": [
-      "Astronomia",
-      "Pesquisa FAPESP Ciência",
-      "Cosmos Week",
-      "Astronautas da missão lunar Artemis II usaram “relógio” brasileiro para monitorar a saúde"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "Pesquisa FAPESP Ciência",
-      "Cosmos Week",
-      "Astronautas da missão lunar Artemis II usaram “relógio” brasileiro para monitorar a saúde"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "Pesquisa FAPESP Ciência",
-      "Cosmos Week",
-      "Astronauts on the Artemis II lunar mission used a Brazilian “watch” to monitor their health"
-    ],
-    "srcUrl": "https://revistapesquisa.fapesp.br/astronautas-da-missao-lunar-artemis-usaram-relogio-brasileiro-para-monitorar-saude/?utm_source=rss&utm_medium=rss&utm_campaign=astronautas-da-missao-lunar-artemis-usaram-relogio-brasileiro-para-monitorar-saude",
-    "realUrl": "https://www.cosmosweek.com/?article=astronautas-da-missao-lunar-artemis-ii-usaram-relogio-brasileiro-para-monitorar-a-saude",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=astronautas-da-missao-lunar-artemis-ii-usaram-relogio-brasileiro-para-monitorar-a-saude",
-    "realUrl_en": "https://www.cosmosweek.com/?article=astronautas-da-missao-lunar-artemis-ii-usaram-relogio-brasileiro-para-monitorar-a-saude&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/astronautas-da-missao-lunar-artemis-ii-usaram-relogio-brasileiro-para-monitorar-a-saude/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/astronautas-da-missao-lunar-artemis-ii-usaram-relogio-brasileiro-para-monitorar-a-saude/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/astronautas-da-missao-lunar-artemis-ii-usaram-relogio-brasileiro-para-monitorar-a-saude/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/astronautas-da-missao-lunar-artemis-ii-usaram-relogio-brasileiro-para-monitorar-a-saude/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/astronautas-da-missao-lunar-artemis-ii-usaram-relogio-brasileiro-para-monitorar-a-saude/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/astronautas-da-missao-lunar-artemis-ii-usaram-relogio-brasileiro-para-monitorar-a-saude/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": true,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 72,
-    "scoreBreakdown": {
-      "source": 80,
-      "evidence": 54,
-      "relevance": 56,
-      "accessibility": 52,
-      "novelty": 55
-    },
-    "imageAlt": "Tecnologia brasileira é selecionada para monitorar a saúde de astronautas na missão lunar Artemis II",
-    "imageAlt_pt": "Tecnologia brasileira é selecionada para monitorar a saúde de astronautas na missão lunar Artemis II",
-    "imageAlt_en": "Astronautas da missão lunar Artemis II usaram “relógio” brasileiro para monitorar a saúde",
-    "coverageKind": "news",
-    "coverageKindLabel": "Jornalismo científico",
-    "coverageKindLabel_pt": "Jornalismo científico",
-    "coverageKindLabel_en": "Science journalism",
     "storyKind": "science"
   },
   {
@@ -3215,7 +3284,17 @@
     "cat": "Ciências da Terra",
     "catCls": "terra",
     "img": "https://scx2.b-cdn.net/gfx/news/hires/2026/rice-researchers-find.jpg",
-    "inline_images": [],
+    "inline_images": [
+      {
+        "src": "https://phys.b-cdn.net/tmpl/v6/img/medx308px.png",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
+      }
+    ],
     "video": null,
     "audio": null,
     "title": "Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres",
@@ -3345,6 +3424,15 @@
         "caption": "",
         "caption_pt": "",
         "caption_en": ""
+      },
+      {
+        "src": "https://phys.b-cdn.net/tmpl/v6/img/medx308px.png",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
       }
     ],
     "video": null,
@@ -3476,6 +3564,15 @@
         "caption": "",
         "caption_pt": "",
         "caption_en": ""
+      },
+      {
+        "src": "https://phys.b-cdn.net/tmpl/v6/img/medx308px.png",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
       }
     ],
     "video": null,
@@ -3756,6 +3853,15 @@
         "caption": "",
         "caption_pt": "",
         "caption_en": ""
+      },
+      {
+        "src": "https://phys.b-cdn.net/tmpl/v6/img/medx308px.png",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
       }
     ],
     "video": null,
@@ -4114,7 +4220,17 @@
     "cat": "Cosmologia",
     "catCls": "cosmologia",
     "img": "https://scx2.b-cdn.net/gfx/news/2026/researchers-adapt-tors.jpg",
-    "inline_images": [],
+    "inline_images": [
+      {
+        "src": "https://phys.b-cdn.net/tmpl/v6/img/medx308px.png",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
+      }
+    ],
     "video": null,
     "audio": null,
     "title": "Os equilíbrios de torção estabelecem limites diretos mais fortes até agora na matéria escura ultraleve",
