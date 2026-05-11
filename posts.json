@@ -1,6 +1,295 @@
 [
   {
     "id": 1,
+    "slug": "hubble-survey-sets-up-roman-s-future-look-near-milky-way-s-center",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/05/STScI-01KQZBQ6A6G5BMNZAYZ8CZ6TYB.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
+    "inline_images": [
+      {
+        "src": "https://svs.gsfc.nasa.gov/vis/a010000/a013600/a013606/Trailer_still_1_searchweb.png",
+        "alt": "Vídeos e animações",
+        "alt_pt": "Vídeos e animações",
+        "alt_en": "Videos and Animations",
+        "caption": "Vídeos e animações",
+        "caption_pt": "Vídeos e animações",
+        "caption_en": "Videos and Animations"
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/rst/science/galaxy-pink.png",
+        "alt": "Videogame do Observador Romano",
+        "alt_pt": "Videogame do Observador Romano",
+        "alt_en": "Roman Observer Video Game",
+        "caption": "Videogame do Observador Romano",
+        "caption_pt": "Videogame do Observador Romano",
+        "caption_en": "Roman Observer Video Game"
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/rst/science/b-hole.png",
+        "alt": "Videogame do Observador Romano",
+        "alt_pt": "Videogame do Observador Romano",
+        "alt_en": "Roman Observer Video Game",
+        "caption": "Videogame do Observador Romano",
+        "caption_pt": "Videogame do Observador Romano",
+        "caption_en": "Roman Observer Video Game"
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Pesquisa do Hubble Orienta a Futura Observação do Roman Perto do Centro da Via Láctea",
+    "title_pt": "Pesquisa do Hubble Orienta a Futura Observação do Roman Perto do Centro da Via Láctea",
+    "title_en": "Hubble Survey Sets Up Roman’s Future Look Near Milky Way’s Center",
+    "sub": "O bojo galáctico da Via Láctea, a região bulbosa que circunda o centro galáctico, abriga uma densa concentração de estrelas, planetas e outros objetos celestes.",
+    "sub_pt": "O bojo galáctico da Via Láctea, a região bulbosa que circunda o centro galáctico, abriga uma densa concentração de estrelas, planetas e outros objetos celestes.",
+    "sub_en": "The Milky Way’s galactic bulge, the bulbous region that surrounds the galactic center, contains a dense collection of stars, planets, and other free-floating objects.",
+    "excerpt": "O bojo galáctico da Via Láctea, a região bulbosa que circunda o centro galáctico, abriga uma densa concentração de estrelas, planetas e outros objetos celestes.",
+    "excerpt_pt": "O bojo galáctico da Via Láctea, a região bulbosa que circunda o centro galáctico, abriga uma densa concentração de estrelas, planetas e outros objetos celestes.",
+    "excerpt_en": "The Milky Way’s galactic bulge, the bulbous region that surrounds the galactic center, contains a dense collection of stars, planets, and other free-floating objects.",
+    "body": "<p>Para auxiliar o Roman na caracterização de inúmeras estrelas e planetas, os astrônomos utilizaram o Telescópio Espacial Hubble para observar muitas das mesmas áreas do bojo galáctico que o Roman investigará em seu levantamento principal, o Galactic Bulge Time-Domain Survey. A expectativa é que, quando um evento for detectado durante a prolongada observação do Roman, será possível retroceder e analisar os dados prévios do Hubble para identificar as características das estrelas envolvidas. Por exemplo, será possível determinar se &#x27;esta era uma estrela vermelha, esta era uma estrela azul, e o evento ocorreu quando a estrela vermelha passou na frente da estrela azul&#x27;, fornecendo um contexto crucial para a interpretação dos fenômenos observados.</p><p>Sean Terry, líder do projeto e cientista assistente de pesquisa da Universidade de Maryland, College Park, e do Goddard Space Flight Center da NASA em Greenbelt, afirmou que &#x27;uma das principais prioridades da nossa pesquisa do Hubble é cobrir a maior área possível do céu&#x27;. Para coletar esses dados preliminares para o Roman, os astrônomos empregaram o Telescópio Espacial Hubble para conduzir um levantamento em larga escala, iniciado na primavera de 2025. Este levantamento abrange grande parte da mesma área que o Roman observará em seu Galactic Bulge Time-Domain Survey. A magnitude deste programa do Hubble supera a de dois levantamentos anteriores (cada um com aproximadamente 0, 5 graus quadrados), que resultaram no maior mosaico já produzido pelo Hubble: o da galáxia de Andrômeda, nossa vizinha, cuja montagem levou mais de uma década. Essa vasta cobertura é essencial para estabelecer uma linha de base robusta para as futuras observações do Roman.</p><p>O levantamento do Roman, por sua vez, consistirá em seis temporadas de observação, cada uma com 72 dias de duração. Durante esses períodos, o telescópio capturará uma imagem a cada 12 minutos de uma vasta porção do bojo galáctico, cobrindo aproximadamente 1, 7 graus quadrados da região, o equivalente à área de 8, 5 luas cheias. Essa estratégia de observação contínua e de alta cadência permitirá ao Roman detectar eventos transitórios, como microlentes gravitacionais, que são cruciais para a descoberta de exoplanetas e para o estudo da distribuição de massa no bojo.</p><p>Finalmente, a região de pesquisa do bojo galáctico, alvo tanto do Roman quanto do Hubble, é ilustrada por imagens como as da pesquisa VISTA VVV, que revelam a área próxima a Sagitário A*, o buraco negro supermassivo localizado no centro da Via Láctea. A complexidade e a densidade estelar dessa área a tornam um laboratório natural ideal para testar modelos de formação e evolução galáctica, bem como para investigar a população de objetos celestes em ambientes extremos. A sinergia entre os dados do Hubble e do Roman promete desvendar segredos sobre a história e a dinâmica do coração da nossa galáxia.</p>",
+    "body_pt": "<p>Para auxiliar o Roman na caracterização de inúmeras estrelas e planetas, os astrônomos utilizaram o Telescópio Espacial Hubble para observar muitas das mesmas áreas do bojo galáctico que o Roman investigará em seu levantamento principal, o Galactic Bulge Time-Domain Survey. A expectativa é que, quando um evento for detectado durante a prolongada observação do Roman, será possível retroceder e analisar os dados prévios do Hubble para identificar as características das estrelas envolvidas. Por exemplo, será possível determinar se &#x27;esta era uma estrela vermelha, esta era uma estrela azul, e o evento ocorreu quando a estrela vermelha passou na frente da estrela azul&#x27;, fornecendo um contexto crucial para a interpretação dos fenômenos observados.</p><p>Sean Terry, líder do projeto e cientista assistente de pesquisa da Universidade de Maryland, College Park, e do Goddard Space Flight Center da NASA em Greenbelt, afirmou que &#x27;uma das principais prioridades da nossa pesquisa do Hubble é cobrir a maior área possível do céu&#x27;. Para coletar esses dados preliminares para o Roman, os astrônomos empregaram o Telescópio Espacial Hubble para conduzir um levantamento em larga escala, iniciado na primavera de 2025. Este levantamento abrange grande parte da mesma área que o Roman observará em seu Galactic Bulge Time-Domain Survey. A magnitude deste programa do Hubble supera a de dois levantamentos anteriores (cada um com aproximadamente 0, 5 graus quadrados), que resultaram no maior mosaico já produzido pelo Hubble: o da galáxia de Andrômeda, nossa vizinha, cuja montagem levou mais de uma década. Essa vasta cobertura é essencial para estabelecer uma linha de base robusta para as futuras observações do Roman.</p><p>O levantamento do Roman, por sua vez, consistirá em seis temporadas de observação, cada uma com 72 dias de duração. Durante esses períodos, o telescópio capturará uma imagem a cada 12 minutos de uma vasta porção do bojo galáctico, cobrindo aproximadamente 1, 7 graus quadrados da região, o equivalente à área de 8, 5 luas cheias. Essa estratégia de observação contínua e de alta cadência permitirá ao Roman detectar eventos transitórios, como microlentes gravitacionais, que são cruciais para a descoberta de exoplanetas e para o estudo da distribuição de massa no bojo.</p><p>Finalmente, a região de pesquisa do bojo galáctico, alvo tanto do Roman quanto do Hubble, é ilustrada por imagens como as da pesquisa VISTA VVV, que revelam a área próxima a Sagitário A*, o buraco negro supermassivo localizado no centro da Via Láctea. A complexidade e a densidade estelar dessa área a tornam um laboratório natural ideal para testar modelos de formação e evolução galáctica, bem como para investigar a população de objetos celestes em ambientes extremos. A sinergia entre os dados do Hubble e do Roman promete desvendar segredos sobre a história e a dinâmica do coração da nossa galáxia.</p>",
+    "body_en": "<p>The Milky Way’s galactic bulge, the bulbous region that surrounds the galactic center, contains a dense collection of stars, planets, and other free-floating objects. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Soon, NASA’s Nancy Grace Roman Space Telescope will be the first to make studying the galactic bulge a part of its core science objectives, building on the data collected from all. To support Roman in characterizing numerous stars and planets, astronomers sought to use Hubble to observe many of the same areas of the galactic bulge that Roman will observe in.</p><p>When, in a couple of years, an event happens during Roman’s long stare at the field, we can go back and say, ‘This was a red star, this was a blue star, and the event happened. Related Images &amp; Videos Hubble/Roman Galactic Bulge Survey Region (VISTA VVV Survey) This VISTA VVV Survey image shows the galactic bulge near Sagittarius A*, the supermassive.</p><p>A top priority of our Hubble survey is to cover as much sky area as possible,” said Sean Terry, project lead and assistant research scientist from the University of Maryland. To collect this pre-Roman data, astronomers used the Hubble Space Telescope to conduct a large-scale survey, which began in the spring of 2025, covering much of the same area that.</p><p>The size of this program is even larger than two previous surveys (each around 0.5 square degrees) that led to Hubble’s largest mosaic, that of our neighboring Andromeda galaxy. When, in a couple of years, an event happens during Roman&#x27;s long stare at the field, we can go back and say, ‘This was a red star, this was a blue star, and the event happened.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>This Hubble survey will build a catalog of 20 to 30 million point sources,” said Terry. But, by the end of the Galactic Bulge Time-Domain Survey, Roman may measure about 200 to 300 million, and it will produce, essentially, some of the deepest images ever taken of.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/roman-space-telescope/hubble-survey-sets-up-romans-future-look-near-milky-ways-center/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: O bojo galáctico da Via Láctea, a região bulbosa que circunda o centro galáctico, abriga uma densa concentração de estrelas, planetas e outros",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: O bojo galáctico da Via Láctea, a região bulbosa que circunda o centro galáctico, abriga uma densa concentração de estrelas, planetas e outros",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: The Milky Way’s galactic bulge, the bulbous region that surrounds the galactic center, contains a dense collection of stars, planets, and other",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "11 mai 2026",
+    "date_pt": "11 mai 2026",
+    "date_en": "11 May 2026",
+    "time": "14h00",
+    "time_pt": "14h00",
+    "time_en": "14: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-11T14:00:39+00:00",
+    "lastModifiedIso": "2026-05-11T17:43:45+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Pesquisa do Hubble define a visão futura de Roman perto do centro da Via Láctea"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Pesquisa do Hubble define a visão futura de Roman perto do centro da Via Láctea"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Hubble survey sets Roman's future view near center of Milky Way"
+    ],
+    "srcUrl": "https://science.nasa.gov/missions/roman-space-telescope/hubble-survey-sets-up-romans-future-look-near-milky-ways-center/",
+    "realUrl": "https://www.cosmosweek.com/?article=hubble-survey-sets-up-roman-s-future-look-near-milky-way-s-center",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=hubble-survey-sets-up-roman-s-future-look-near-milky-way-s-center",
+    "realUrl_en": "https://www.cosmosweek.com/?article=hubble-survey-sets-up-roman-s-future-look-near-milky-way-s-center&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/hubble-survey-sets-up-roman-s-future-look-near-milky-way-s-center/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/hubble-survey-sets-up-roman-s-future-look-near-milky-way-s-center/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/hubble-survey-sets-up-roman-s-future-look-near-milky-way-s-center/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/hubble-survey-sets-up-roman-s-future-look-near-milky-way-s-center/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/hubble-survey-sets-up-roman-s-future-look-near-milky-way-s-center/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/hubble-survey-sets-up-roman-s-future-look-near-milky-way-s-center/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Pesquisa do Hubble Orienta a Futura Observação do Roman Perto do Centro da Via Láctea",
+    "imageAlt_pt": "Pesquisa do Hubble Orienta a Futura Observação do Roman Perto do Centro da Via Láctea",
+    "imageAlt_en": "Hubble Survey Sets Up Roman’s Future Look Near Milky Way’s Center",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "color-off-the-mid-atlantic-coast",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/color-off-the-mid-atlantic-coast/eastcoastbloom_amo_20260503_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/color-off-the-mid-atlantic-coast/eastcoastbloom_amo_20260503_lrg.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Detecção de Coloração Anômala na Costa Mesoatlântica",
+    "title_pt": "Detecção de Coloração Anômala na Costa Mesoatlântica",
+    "title_en": "Color Off the Mid-Atlantic Coast",
+    "sub": "Satélites da NASA detectaram uma extensa mancha de água acastanhada e azul-esverdeada em águas costeiras rasas de Delaware, Nova Jersey, Maryland e Virgínia, indicando um possível.",
+    "sub_pt": "Satélites da NASA detectaram uma extensa mancha de água acastanhada e azul-esverdeada em águas costeiras rasas de Delaware, Nova Jersey, Maryland e Virgínia, indicando um possível.",
+    "sub_en": "Something is brewing in shallow waters offshore of Delaware, New Jersey, Maryland, and Virginia.",
+    "excerpt": "Satélites da NASA detectaram uma extensa mancha de água acastanhada e azul-esverdeada em águas costeiras rasas de Delaware, Nova Jersey, Maryland e Virgínia, indicando um possível fenômeno de floração de fitoplâncton.",
+    "excerpt_pt": "Satélites da NASA detectaram uma extensa mancha de água acastanhada e azul-esverdeada em águas costeiras rasas de Delaware, Nova Jersey, Maryland e Virgínia, indicando um possível fenômeno de floração de fitoplâncton.",
+    "excerpt_en": "Something is brewing in shallow waters offshore of Delaware, New Jersey, Maryland, and Virginia. The post Color Off the Mid-Atlantic Coast appeared first on NASA Science.",
+    "body": "<p>A partir do início de abril, os satélites da NASA começaram a detectar uma mancha de água acastanhada e azul-esverdeada nas costas de Nova Jersey, Delaware, Maryland e Virgínia. Este fenômeno, visível em águas rasas ao largo da costa mesoatlântica, tem chamado a atenção de cientistas e observadores. Embora a natureza exata da coloração esteja sob investigação, a principal hipótese é que se trata de uma extensa floração de fitoplâncton, organismos microscópicos que proliferam em condições específicas, alterando a tonalidade da água de forma perceptível.</p><p>A detecção inicial foi realizada por satélites da NASA, que monitoram continuamente as condições oceânicas globais. As imagens do NASA Earth Observatory, especificamente as processadas por Michala Garrison, utilizam dados MODIS da NASA EOSDIS LANCE e GIBS/Worldview, ferramentas cruciais para a observação da Terra. Esses dados permitem aos pesquisadores acompanhar a dinâmica das massas d&#x27;água e identificar anomalias que podem indicar mudanças ambientais ou eventos biológicos importantes, como as florações de algas, fornecendo uma base sólida para a análise científica.</p><p>Flotações de fitoplâncton são fenômenos naturais que ocorrem quando há uma combinação favorável de luz solar, temperatura da água e disponibilidade de nutrientes. Embora muitas florações sejam inofensivas e até benéficas para a cadeia alimentar marinha, algumas podem ser prejudiciais, dependendo da espécie de fitoplâncton envolvida e da sua densidade. No caso da costa mesoatlântica, a coloração acastanhada e azul-esverdeada sugere uma proliferação significativa desses microrganismos, que podem alterar a transparência da água e, em casos extremos, afetar a vida marinha local, exigindo monitoramento contínuo.</p><p>A expectativa é que essa floração comece a diminuir nas próximas semanas, a menos que haja um reabastecimento substancial de nutrientes. Grandes vazões de rios ou tempestades intensas são os principais mecanismos que podem introduzir novos nutrientes nas águas costeiras, prolongando a vida da floração. Sem esses aportes, o esgotamento dos nutrientes existentes e as mudanças nas condições ambientais, como a intensidade da luz solar e a temperatura da água, tendem a levar ao declínio natural da população de fitoplâncton, completando seu ciclo de vida.</p><p>A NASA tem um interesse contínuo na exploração do fitoplâncton, como evidenciado por suas publicações e recursos, incluindo o &#x27;Phytoplankton Exploration&#x27; de 2026. O monitoramento dessas florações é vital para entender os ecossistemas marinhos, o ciclo do carbono e as mudanças climáticas globais. Artigos como &#x27;Mares florescentes ao redor das Ilhas Chatham&#x27;, que descrevem exibições vibrantes de fitoplâncton em ilhas remotas da Nova Zelândia, demonstram a ubiquidade e a diversidade desses fenômenos em diferentes partes do mundo, ressaltando a importância da pesquisa global.</p><p>A capacidade de acessar e analisar dados científicos da Terra, como os disponibilizados pelo arquivo de dados de ciências da Terra da NASA, é fundamental para a pesquisa e a compreensão desses eventos. A observação contínua por satélites permite que os cientistas acompanhem a evolução das florações, avaliem seus impactos e prevejam tendências futuras com maior precisão. Essa abordagem baseada em evidências é crucial para distinguir entre fenômenos naturais e aqueles que podem ser influenciados por atividades humanas ou mudanças ambientais de longo prazo, garantindo a integridade da análise científica.</p><p>O evento atual na costa mesoatlântica serve como um lembrete da complexidade e da interconexão dos sistemas oceânicos. A compreensão aprofundada das florações de fitoplâncton não apenas enriquece nosso conhecimento sobre a biologia marinha, mas também fornece informações valiosas para a gestão costeira e a conservação ambiental. A ciência da Terra, através de iniciativas como o Observatório da Terra da NASA, continua a desvendar os mistérios de nosso planeta, oferecendo uma perspectiva única sobre os processos naturais que moldam nossos oceanos e a vida que neles habita.</p>",
+    "body_pt": "<p>A partir do início de abril, os satélites da NASA começaram a detectar uma mancha de água acastanhada e azul-esverdeada nas costas de Nova Jersey, Delaware, Maryland e Virgínia. Este fenômeno, visível em águas rasas ao largo da costa mesoatlântica, tem chamado a atenção de cientistas e observadores. Embora a natureza exata da coloração esteja sob investigação, a principal hipótese é que se trata de uma extensa floração de fitoplâncton, organismos microscópicos que proliferam em condições específicas, alterando a tonalidade da água de forma perceptível.</p><p>A detecção inicial foi realizada por satélites da NASA, que monitoram continuamente as condições oceânicas globais. As imagens do NASA Earth Observatory, especificamente as processadas por Michala Garrison, utilizam dados MODIS da NASA EOSDIS LANCE e GIBS/Worldview, ferramentas cruciais para a observação da Terra. Esses dados permitem aos pesquisadores acompanhar a dinâmica das massas d&#x27;água e identificar anomalias que podem indicar mudanças ambientais ou eventos biológicos importantes, como as florações de algas, fornecendo uma base sólida para a análise científica.</p><p>Flotações de fitoplâncton são fenômenos naturais que ocorrem quando há uma combinação favorável de luz solar, temperatura da água e disponibilidade de nutrientes. Embora muitas florações sejam inofensivas e até benéficas para a cadeia alimentar marinha, algumas podem ser prejudiciais, dependendo da espécie de fitoplâncton envolvida e da sua densidade. No caso da costa mesoatlântica, a coloração acastanhada e azul-esverdeada sugere uma proliferação significativa desses microrganismos, que podem alterar a transparência da água e, em casos extremos, afetar a vida marinha local, exigindo monitoramento contínuo.</p><p>A expectativa é que essa floração comece a diminuir nas próximas semanas, a menos que haja um reabastecimento substancial de nutrientes. Grandes vazões de rios ou tempestades intensas são os principais mecanismos que podem introduzir novos nutrientes nas águas costeiras, prolongando a vida da floração. Sem esses aportes, o esgotamento dos nutrientes existentes e as mudanças nas condições ambientais, como a intensidade da luz solar e a temperatura da água, tendem a levar ao declínio natural da população de fitoplâncton, completando seu ciclo de vida.</p><p>A NASA tem um interesse contínuo na exploração do fitoplâncton, como evidenciado por suas publicações e recursos, incluindo o &#x27;Phytoplankton Exploration&#x27; de 2026. O monitoramento dessas florações é vital para entender os ecossistemas marinhos, o ciclo do carbono e as mudanças climáticas globais. Artigos como &#x27;Mares florescentes ao redor das Ilhas Chatham&#x27;, que descrevem exibições vibrantes de fitoplâncton em ilhas remotas da Nova Zelândia, demonstram a ubiquidade e a diversidade desses fenômenos em diferentes partes do mundo, ressaltando a importância da pesquisa global.</p><p>A capacidade de acessar e analisar dados científicos da Terra, como os disponibilizados pelo arquivo de dados de ciências da Terra da NASA, é fundamental para a pesquisa e a compreensão desses eventos. A observação contínua por satélites permite que os cientistas acompanhem a evolução das florações, avaliem seus impactos e prevejam tendências futuras com maior precisão. Essa abordagem baseada em evidências é crucial para distinguir entre fenômenos naturais e aqueles que podem ser influenciados por atividades humanas ou mudanças ambientais de longo prazo, garantindo a integridade da análise científica.</p><p>O evento atual na costa mesoatlântica serve como um lembrete da complexidade e da interconexão dos sistemas oceânicos. A compreensão aprofundada das florações de fitoplâncton não apenas enriquece nosso conhecimento sobre a biologia marinha, mas também fornece informações valiosas para a gestão costeira e a conservação ambiental. A ciência da Terra, através de iniciativas como o Observatório da Terra da NASA, continua a desvendar os mistérios de nosso planeta, oferecendo uma perspectiva única sobre os processos naturais que moldam nossos oceanos e a vida que neles habita.</p>",
+    "body_en": "<p>Something is brewing in shallow waters offshore of Delaware, New Jersey, Maryland, and Virginia. The post Color Off the Mid-Atlantic Coast appeared first on NASA Science. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The post Color Off the Mid-Atlantic Coast appeared first on NASA Science. Unless big river outflows or storms replenish the nutrients, we’ll likely see this bloom start to decline in the coming weeks.</p><p>Downloads May 3, 2026 JPEG (4.34 MB) References &amp; Resources NASA (2026) Phytoplankton Exploration. Explore Earth Science Earth Science Data Open access to NASA’s archive of Earth science data The post Color Off the Mid-Atlantic Coast appeared first on NASA Science.</p><p>Article View more Images of the Day: May 8, 2026 Instruments: Aqua, MODIS PACE Topics: Oceans Water Blooms Colorful waters swirl off the Mid-Atlantic coast in an image captured by. NASA Earth Observatory/Michala Garrison Starting in early April, NASA satellites began to detect a patch of brownish, blue-green water lingering off the coasts of New Jersey.</p><p>References &amp; Resources NASA (2026) Phytoplankton Exploration. Article Blooming Seas Around the Chatham Islands 2 min read A vibrant display of phytoplankton encircled the remote New Zealand islands.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Article 1 2 3 4 Next Keep Exploring Discover More from NASA Earth Science Subscribe to Earth Observatory Newsletters Subscribe to the Earth Observatory and get the Earth in your. Open access to NASA’s archive of Earth science data NASA (2026) Phytoplankton Exploration.</p><p>Because the account originates with NASA Earth Observatory, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/color-off-the-mid-atlantic-coast/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Satélites da NASA detectaram uma extensa mancha de água acastanhada e azul-esverdeada em águas costeiras rasas de Delaware, Nova Jersey, Maryland e",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Satélites da NASA detectaram uma extensa mancha de água acastanhada e azul-esverdeada em águas costeiras rasas de Delaware, Nova Jersey, Maryland e",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Something is brewing in shallow waters offshore of Delaware, New Jersey, Maryland, and Virginia",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "11 mai 2026",
+    "date_pt": "11 mai 2026",
+    "date_en": "11 May 2026",
+    "time": "04h01",
+    "time_pt": "04h01",
+    "time_en": "04: 01 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-11T04:01:00+00:00",
+    "lastModifiedIso": "2026-05-11T17:43:45+00:00",
+    "source": "NASA Earth Observatory",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "Cor na costa mesoatlântica"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "Cor na costa mesoatlântica"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "Color on the Mid-Atlantic Coast"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/color-off-the-mid-atlantic-coast/",
+    "realUrl": "https://www.cosmosweek.com/?article=color-off-the-mid-atlantic-coast",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=color-off-the-mid-atlantic-coast",
+    "realUrl_en": "https://www.cosmosweek.com/?article=color-off-the-mid-atlantic-coast&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/color-off-the-mid-atlantic-coast/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/color-off-the-mid-atlantic-coast/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/color-off-the-mid-atlantic-coast/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/color-off-the-mid-atlantic-coast/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/color-off-the-mid-atlantic-coast/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/color-off-the-mid-atlantic-coast/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 92,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Detecção de Coloração Anômala na Costa Mesoatlântica",
+    "imageAlt_pt": "Detecção de Coloração Anômala na Costa Mesoatlântica",
+    "imageAlt_en": "Color Off the Mid-Atlantic Coast",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
     "slug": "sistema-solar-ganha-novo-misterio-com-aneis-de-quiron",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -23,6 +312,24 @@
         "caption": "mostra centauro com estrutura anelar ainda em transformação.",
         "caption_pt": "mostra centauro com estrutura anelar ainda em transformação.",
         "caption_en": "mostra centauro com estrutura anelar ainda em transformação."
+      },
+      {
+        "src": "https://revistapesquisa.fapesp.br/wp-content/thumbs/5095542c90084c52c47f69c01465a3d2adb2b5b4_1200-630.png",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
+      },
+      {
+        "src": "https://revistapesquisa.fapesp.br/wp-content/thumbs/5f1944b0dd42f65228228134aa26626fb8d2ba2d_300-200cropped.png",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
       }
     ],
     "video": {
@@ -153,7 +460,7 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 4,
     "slug": "nasa-s-spacex-34th-commercial-resupply-mission-overview",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -274,7 +581,7 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 5,
     "slug": "nasa-fuel-cell-tests-pave-way-for-energy-storage-on-moon",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -395,7 +702,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 6,
     "slug": "nasa-pushes-next-gen-mars-helicopter-rotor-blades-past-mach-1",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -548,7 +855,7 @@
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 7,
     "slug": "esa-and-jaxa-team-up-on-planetary-defence-ramses-mission-to-asteroid-apophis",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -675,128 +982,7 @@
     "storyKind": "science"
   },
   {
-    "id": 6,
-    "slug": "nasa-supported-small-spacecraft-launches-to-study-solar-particles",
-    "cat": "Cosmologia",
-    "catCls": "cosmologia",
-    "img": "https://www.nasa.gov/wp-content/uploads/2026/05/spacex-cas500-2-2.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Nave Espacial de Pequeno Porte Apoiada pela NASA Lançada para Estudar Partículas Solares",
-    "title_pt": "Nave Espacial de Pequeno Porte Apoiada pela NASA Lançada para Estudar Partículas Solares",
-    "title_en": "NASA-Supported Small Spacecraft Launches to Study Solar Particles",
-    "sub": "Uma pequena nave espacial, desenvolvida por uma universidade com o apoio da NASA, foi lançada para iniciar o estudo de neutrinos, partículas que viajam pelo Universo a velocidades.",
-    "sub_pt": "Uma pequena nave espacial, desenvolvida por uma universidade com o apoio da NASA, foi lançada para iniciar o estudo de neutrinos, partículas que viajam pelo Universo a velocidades.",
-    "sub_en": "Through NASA, a university-designed small spacecraft is paving the way to studying particles, known as neutrinos, that move through the universe at near-light speeds.",
-    "excerpt": "Uma pequena nave espacial, desenvolvida por uma universidade com o apoio da NASA, foi lançada para iniciar o estudo de neutrinos, partículas que viajam pelo Universo a velocidades próximas à da luz.",
-    "excerpt_pt": "Uma pequena nave espacial, desenvolvida por uma universidade com o apoio da NASA, foi lançada para iniciar o estudo de neutrinos, partículas que viajam pelo Universo a velocidades próximas à da luz.",
-    "excerpt_en": "Through NASA, a university-designed small spacecraft is paving the way to studying particles, known as neutrinos, that move through the universe at near-light speeds.",
-    "body": "<p>O Solar Neutrino Astro-Particle PhYsics (SNAPPY) CubeSat, uma pequena nave espacial desenvolvida com o apoio da NASA, foi lançado com sucesso em um domingo, 3 de maio, às 3h (horário de verão do Pacífico – PDT). A bordo de um foguete SpaceX Falcon 9, o lançamento ocorreu a partir do Complexo de Lançamento Espacial 4 Leste na Base da Força Espacial de Vandenberg, na Califórnia. Este CubeSat representa um avanço significativo no estudo de neutrinos, partículas subatômicas que atravessam o Universo em velocidades próximas à da luz, oferecendo uma nova perspectiva sobre fenômenos solares e cósmicos. A implantação do SNAPPY foi realizada por meio do integrador de lançamento Exolaunch, marcando o início de sua jornada científica.</p><p>Os neutrinos são partículas elusivas, com massa extremamente pequena e sem carga elétrica, que interagem muito fracamente com a matéria. Bilhões deles atravessam nossos corpos a cada segundo, originários principalmente do Sol, onde são produzidos em reações de fusão nuclear. O estudo dessas partículas é crucial para a compreensão dos processos internos do Sol, pois eles fornecem informações diretas sobre o núcleo solar, algo que a luz não consegue fazer devido à sua interação com a matéria solar. Ao observar os neutrinos, os cientistas podem desvendar mistérios sobre a energia solar, a composição estelar e até mesmo a física de partículas fundamental, abrindo novas fronteiras na astrofísica.</p><p>A concepção do SNAPPY foi diretamente inspirada pelo interesse gerado pela missão Parker Solar Probe da NASA. Lançada em 2018, a Parker Solar Probe tem como objetivo estudar a coroa solar e o vento solar, aproximando-se mais do Sol do que qualquer outra espaçonave. Embora a Parker Solar Probe se concentre em campos magnéticos e partículas carregadas, o SNAPPY complementa esses esforços ao focar nos neutrinos, que oferecem uma janela diferente para os fenômenos solares. Essa sinergia entre missões permite uma compreensão mais abrangente do ambiente solar, desde seu núcleo até as camadas externas e o espaço interplanetário, enriquecendo o conhecimento sobre a estrela que sustenta a vida na Terra.</p><p>O desenvolvimento de projetos como o SNAPPY CubeSat demonstra a importância da colaboração entre agências espaciais e instituições acadêmicas. A NASA, por meio de programas de apoio à inovação, fomenta a criação de tecnologias de ponta e conceitos científicos que podem revolucionar a exploração espacial e a pesquisa astrofísica. A participação de universidades no design e na execução dessas missões não apenas impulsiona a pesquisa científica, mas também capacita futuras gerações de engenheiros e cientistas, garantindo um fluxo contínuo de ideias e talentos para enfrentar os desafios do espaço. Essa abordagem colaborativa é fundamental para expandir os limites do conhecimento humano.</p><p>Os dados coletados pelo SNAPPY CubeSat prometem fornecer informações inéditas sobre a produção e o comportamento dos neutrinos solares. Ao analisar essas partículas, os cientistas esperam refinar modelos teóricos do interior solar, testar a validade de diferentes teorias sobre a natureza dos neutrinos e, potencialmente, descobrir novos fenômenos físicos. A capacidade de monitorar neutrinos com uma plataforma de pequeno porte e baixo custo, como um CubeSat, abre portas para futuras missões mais complexas e para uma rede de observatórios de neutrinos espaciais, que poderiam oferecer um monitoramento contínuo e detalhado do Sol e de outras fontes cósmicas de neutrinos. Este é um passo crucial para a próxima era da astronomia de neutrinos.</p><p>A utilização de CubeSats, como o SNAPPY, representa uma tendência crescente na exploração espacial. Essas pequenas naves espaciais, padronizadas em unidades de 10x10x10 cm, oferecem uma plataforma versátil e econômica para a realização de experimentos científicos e o teste de novas tecnologias. Sua flexibilidade permite que universidades e centros de pesquisa com orçamentos mais limitados participem ativamente da corrida espacial, democratizando o acesso ao espaço. Além disso, o tempo de desenvolvimento e lançamento de um CubeSat é geralmente muito menor em comparação com missões maiores, o que acelera o ritmo da descoberta científica e permite uma resposta mais ágil a novas questões de pesquisa. O SNAPPY é um exemplo claro do potencial transformador dessas plataformas.</p><p>Em suma, a missão do SNAPPY CubeSat é um testemunho da engenhosidade científica e da capacidade de inovação no campo da astrofísica. Ao focar no estudo dos neutrinos solares, esta pequena nave espacial não só promete desvendar segredos do nosso Sol, mas também pavimenta o caminho para futuras explorações de partículas cósmicas. A colaboração entre a NASA e a comunidade acadêmica, aliada à eficiência dos CubeSats, demonstra um modelo eficaz para avançar o conhecimento científico e inspirar novas gerações a olhar para as estrelas com curiosidade e determinação. O sucesso do SNAPPY será um marco importante na nossa busca contínua por compreender o Universo.</p>",
-    "body_pt": "<p>O Solar Neutrino Astro-Particle PhYsics (SNAPPY) CubeSat, uma pequena nave espacial desenvolvida com o apoio da NASA, foi lançado com sucesso em um domingo, 3 de maio, às 3h (horário de verão do Pacífico – PDT). A bordo de um foguete SpaceX Falcon 9, o lançamento ocorreu a partir do Complexo de Lançamento Espacial 4 Leste na Base da Força Espacial de Vandenberg, na Califórnia. Este CubeSat representa um avanço significativo no estudo de neutrinos, partículas subatômicas que atravessam o Universo em velocidades próximas à da luz, oferecendo uma nova perspectiva sobre fenômenos solares e cósmicos. A implantação do SNAPPY foi realizada por meio do integrador de lançamento Exolaunch, marcando o início de sua jornada científica.</p><p>Os neutrinos são partículas elusivas, com massa extremamente pequena e sem carga elétrica, que interagem muito fracamente com a matéria. Bilhões deles atravessam nossos corpos a cada segundo, originários principalmente do Sol, onde são produzidos em reações de fusão nuclear. O estudo dessas partículas é crucial para a compreensão dos processos internos do Sol, pois eles fornecem informações diretas sobre o núcleo solar, algo que a luz não consegue fazer devido à sua interação com a matéria solar. Ao observar os neutrinos, os cientistas podem desvendar mistérios sobre a energia solar, a composição estelar e até mesmo a física de partículas fundamental, abrindo novas fronteiras na astrofísica.</p><p>A concepção do SNAPPY foi diretamente inspirada pelo interesse gerado pela missão Parker Solar Probe da NASA. Lançada em 2018, a Parker Solar Probe tem como objetivo estudar a coroa solar e o vento solar, aproximando-se mais do Sol do que qualquer outra espaçonave. Embora a Parker Solar Probe se concentre em campos magnéticos e partículas carregadas, o SNAPPY complementa esses esforços ao focar nos neutrinos, que oferecem uma janela diferente para os fenômenos solares. Essa sinergia entre missões permite uma compreensão mais abrangente do ambiente solar, desde seu núcleo até as camadas externas e o espaço interplanetário, enriquecendo o conhecimento sobre a estrela que sustenta a vida na Terra.</p><p>O desenvolvimento de projetos como o SNAPPY CubeSat demonstra a importância da colaboração entre agências espaciais e instituições acadêmicas. A NASA, por meio de programas de apoio à inovação, fomenta a criação de tecnologias de ponta e conceitos científicos que podem revolucionar a exploração espacial e a pesquisa astrofísica. A participação de universidades no design e na execução dessas missões não apenas impulsiona a pesquisa científica, mas também capacita futuras gerações de engenheiros e cientistas, garantindo um fluxo contínuo de ideias e talentos para enfrentar os desafios do espaço. Essa abordagem colaborativa é fundamental para expandir os limites do conhecimento humano.</p><p>Os dados coletados pelo SNAPPY CubeSat prometem fornecer informações inéditas sobre a produção e o comportamento dos neutrinos solares. Ao analisar essas partículas, os cientistas esperam refinar modelos teóricos do interior solar, testar a validade de diferentes teorias sobre a natureza dos neutrinos e, potencialmente, descobrir novos fenômenos físicos. A capacidade de monitorar neutrinos com uma plataforma de pequeno porte e baixo custo, como um CubeSat, abre portas para futuras missões mais complexas e para uma rede de observatórios de neutrinos espaciais, que poderiam oferecer um monitoramento contínuo e detalhado do Sol e de outras fontes cósmicas de neutrinos. Este é um passo crucial para a próxima era da astronomia de neutrinos.</p><p>A utilização de CubeSats, como o SNAPPY, representa uma tendência crescente na exploração espacial. Essas pequenas naves espaciais, padronizadas em unidades de 10x10x10 cm, oferecem uma plataforma versátil e econômica para a realização de experimentos científicos e o teste de novas tecnologias. Sua flexibilidade permite que universidades e centros de pesquisa com orçamentos mais limitados participem ativamente da corrida espacial, democratizando o acesso ao espaço. Além disso, o tempo de desenvolvimento e lançamento de um CubeSat é geralmente muito menor em comparação com missões maiores, o que acelera o ritmo da descoberta científica e permite uma resposta mais ágil a novas questões de pesquisa. O SNAPPY é um exemplo claro do potencial transformador dessas plataformas.</p><p>Em suma, a missão do SNAPPY CubeSat é um testemunho da engenhosidade científica e da capacidade de inovação no campo da astrofísica. Ao focar no estudo dos neutrinos solares, esta pequena nave espacial não só promete desvendar segredos do nosso Sol, mas também pavimenta o caminho para futuras explorações de partículas cósmicas. A colaboração entre a NASA e a comunidade acadêmica, aliada à eficiência dos CubeSats, demonstra um modelo eficaz para avançar o conhecimento científico e inspirar novas gerações a olhar para as estrelas com curiosidade e determinação. O sucesso do SNAPPY será um marco importante na nossa busca contínua por compreender o Universo.</p>",
-    "body_en": "<p>Through NASA, a university-designed small spacecraft is paving the way to studying particles, known as neutrinos, that move through the universe at near-light speeds. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. PDT on Sunday aboard a SpaceX Falcon 9 rocket from Space Launch Complex 4 East at Vandenberg Space. PDT) on Sunday, May 3, aboard a SpaceX Falcon 9 rocket from Space Launch Complex 4 East at Vandenburg Space Force Base in California.</p><p>SpaceX The idea behind SNAPPY was sparked by interest in NASA’s Parker Solar Probe mission. Https: //www. nasa. gov/about-niac/ Explore More 4 min read NASA Fosters Innovative.</p><p>Far-Out Tech for the Future of Aerospace Article 11 months ago 3 min read NASA Doubles Down. Advances Six Innovative Tech Concepts to New Phase Article 2 years ago 4 min read Mycotecture off Planet: En route to the Moon and Mars Article 2 years ago Share Details Last.</p><p>2026 Editor Loura Hall Related Terms Space Technology Mission Directorate Jet Propulsion Laboratory Marshall Space Flight Center NASA Innovative Advanced Concepts (NIAC) Program. PDT on Sunday aboard a SpaceX Falcon 9 rocket from Space Launch Complex 4 East at Vandenberg Space Force Base in California and was deployed via launch integraor Exolaunch.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>The idea behind SNAPPY was sparked by interest in NASA’s Parker Solar Probe mission. As the probe prepared to become the first spacecraft to fly through the Sun’s corona, Nick Solomey, a professor of mathematics, statistics, and physics at Wichita State.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/directorates/stmd/nasa-supported-small-spacecraft-launches-to-study-solar-particles/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Uma pequena nave espacial, desenvolvida por uma universidade com o apoio da NASA, foi lançada para iniciar o estudo de neutrinos, partículas que.",
-      "Dado-chave: Uma pequena nave espacial, desenvolvida por uma universidade com o apoio da NASA, foi lançada para iniciar o estudo de neutrinos, partículas que.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Uma pequena nave espacial, desenvolvida por uma universidade com o apoio da NASA, foi lançada para iniciar o estudo de neutrinos, partículas que.",
-      "Dado-chave: Uma pequena nave espacial, desenvolvida por uma universidade com o apoio da NASA, foi lançada para iniciar o estudo de neutrinos, partículas que.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Through NASA, a university-designed small spacecraft is paving the way to studying particles, known as neutrinos, that move through the universe at.",
-      "Key detail: Through NASA, a university-designed small spacecraft is paving the way to studying particles, known as neutrinos, that move through the universe.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "07 mai 2026",
-    "date_pt": "07 mai 2026",
-    "date_en": "07 May 2026",
-    "time": "14h44",
-    "time_pt": "14h44",
-    "time_en": "14: 44 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-07T14:44:59+00:00",
-    "lastModifiedIso": "2026-05-07T17:34:38+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Cosmologia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Pequena nave espacial apoiada pela NASA é lançada para estudar partículas solares"
-    ],
-    "keywords_pt": [
-      "Cosmologia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Pequena nave espacial apoiada pela NASA é lançada para estudar partículas solares"
-    ],
-    "keywords_en": [
-      "Cosmology",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Small NASA-supported spacecraft launches to study solar particles"
-    ],
-    "srcUrl": "https://www.nasa.gov/directorates/stmd/nasa-supported-small-spacecraft-launches-to-study-solar-particles/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-supported-small-spacecraft-launches-to-study-solar-particles",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-supported-small-spacecraft-launches-to-study-solar-particles",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-supported-small-spacecraft-launches-to-study-solar-particles&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-supported-small-spacecraft-launches-to-study-solar-particles/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-supported-small-spacecraft-launches-to-study-solar-particles/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-supported-small-spacecraft-launches-to-study-solar-particles/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-supported-small-spacecraft-launches-to-study-solar-particles/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-supported-small-spacecraft-launches-to-study-solar-particles/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-supported-small-spacecraft-launches-to-study-solar-particles/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": true,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 86,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Nave Espacial de Pequeno Porte Apoiada pela NASA Lançada para Estudar Partículas Solares",
-    "imageAlt_pt": "Nave Espacial de Pequeno Porte Apoiada pela NASA Lançada para Estudar Partículas Solares",
-    "imageAlt_en": "NASA-Supported Small Spacecraft Launches to Study Solar Particles",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 7,
+    "id": 8,
     "slug": "revisiting-the-constancy-of-the-speed-of-light-galaxy-cluster-mass-bias-implications",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -818,17 +1004,17 @@
     "body_en": "<p>In recent years, improvements in galaxy cluster observations have enabled a variety of tests of fundamental physics using these systems. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. We adopt the SH0ES prior on $H_0$ and the $Ω_b/Ω_m$ ratio from galaxy clustering observations, thereby minimizing the dependence of our analysis on any specific cosmological model. We find no deviation from a constant $c$ when adopting \\textsc{CLASH} or \\textsc{CCCP} priors, while Planck-based calibration yields a mild tension, with the hypothesis of.</p><p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Have an idea for a project that will add value for arXiv&#x27;s community. In this work, we test the constancy of the speed of light, $c$, by combining X-ray gas mass fraction measurements from galaxy clusters with SNe Ia luminosity distance measurements.</p><p>We adopt the SH0ES prior on $H_0$ and the $\\Omega_b/\\Omega_m$ ratio from galaxy clustering observations, thereby minimizing the dependence of our analysis on any specific. We explore different assumptions for the cluster mass calibration (mass bias), including \\textsc{CLASH}, \\textsc{CCCP}, and Planck-based estimates.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2605.06267v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Avanços recentes nas observações de aglomerados de galáxias têm possibilitado a realização de diversos testes de física fundamental.",
-      "Dado-chave: Avanços recentes nas observações de aglomerados de galáxias têm possibilitado a realização de diversos testes de física fundamental",
+      "Dado-chave: Avanços recentes nas observações de aglomerados de galáxias têm possibilitado a realização de diversos testes de física fundamental.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
       "Ponto central: Avanços recentes nas observações de aglomerados de galáxias têm possibilitado a realização de diversos testes de física fundamental.",
-      "Dado-chave: Avanços recentes nas observações de aglomerados de galáxias têm possibilitado a realização de diversos testes de física fundamental",
+      "Dado-chave: Avanços recentes nas observações de aglomerados de galáxias têm possibilitado a realização de diversos testes de física fundamental.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
       "Core point: In recent years, improvements in galaxy cluster observations have enabled a variety of tests of fundamental physics using these systems.",
-      "Key detail: In recent years, improvements in galaxy cluster observations have enabled a variety of tests of fundamental physics using these systems",
+      "Key detail: In recent years, improvements in galaxy cluster observations have enabled a variety of tests of fundamental physics using these systems.",
       "Result not yet peer reviewed."
     ],
     "date": "07 mai 2026",
@@ -920,7 +1106,7 @@
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "a-comparative-study-of-occurrence-rates-and-nature-of-ultraluminous-x-ray-sources-in-spiral-and-",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -942,17 +1128,17 @@
     "body_en": "<p>Ultraluminous X-ray sources are mostly extragalactic non-nuclear point sources having X-ray luminosity exceeding the Eddington luminosity of 10 $M_\\odot$ black hole i. e, $L_X \\geq $ 10$^{39}$ erg ~s$^{-1}$. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>That matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Spirals, ellipticals and dwarf irregulars. But the rate of occurrence of ULXs per galaxy varies, some might host a single ULX, whereas some host a large number.</p><p>ULXs occurring at a rate of one per galaxy ($N=1$) and those occurring at larger rate. We adopt an effective scheme to generate flux limited, credible samples corresponding to the two groups in spirals and ellipticals.</p><p>From this study, we infer the presence of a separate population of ULXs in the $N=1$ spiral group which contains a reasonable fraction of both soft and hard sources, while the. We also find six ULXs in $N=1$ ellipticals with globular cluster association.</p><p>In addition, we identify few luminous candidates likely hosting massive accretors. This study provides crucial hints of a potential link between ULX types and their occurrence rates and host morphology, a finding that warrants validation via targeted.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2605.06133v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Fontes de raios X ultraluminosas são principalmente fontes pontuais extragalácticas não nucleares com luminosidade de raios X excedendo a.",
-      "Dado-chave: Fontes de raios X ultraluminosas são principalmente fontes pontuais extragalácticas não nucleares com luminosidade de raios X excedendo a",
+      "Dado-chave: Fontes de raios X ultraluminosas são principalmente fontes pontuais extragalácticas não nucleares com luminosidade de raios X excedendo a.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
       "Ponto central: Fontes de raios X ultraluminosas são principalmente fontes pontuais extragalácticas não nucleares com luminosidade de raios X excedendo a.",
-      "Dado-chave: Fontes de raios X ultraluminosas são principalmente fontes pontuais extragalácticas não nucleares com luminosidade de raios X excedendo a",
+      "Dado-chave: Fontes de raios X ultraluminosas são principalmente fontes pontuais extragalácticas não nucleares com luminosidade de raios X excedendo a.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
       "Core point: Ultraluminous X-ray sources are mostly extragalactic non-nuclear point sources having X-ray luminosity exceeding the Eddington luminosity of 10.",
-      "Key detail: Ultraluminous X-ray sources are mostly extragalactic non-nuclear point sources having X-ray luminosity exceeding the Eddington luminosity of 10",
+      "Key detail: Ultraluminous X-ray sources are mostly extragalactic non-nuclear point sources having X-ray luminosity exceeding the Eddington luminosity of 10.",
       "Result not yet peer reviewed."
     ],
     "date": "07 mai 2026",
@@ -1041,7 +1227,7 @@
     "storyKind": "science"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "a-beacon-of-light-in-swirls-of-dust",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1199,7 +1385,7 @@
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "a-sea-of-spinning-clouds",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1330,7 +1516,7 @@
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "nih-funded-breakthrough-shrinks-crispr-for-precision-delivery-in-the-body",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1451,7 +1637,7 @@
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "putting-the-super-into-a-supersite-for-earth-observation",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1627,7 +1813,7 @@
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "webb-hubble-find-massive-star-clusters-emerge-faster",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1758,7 +1944,7 @@
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "ahuachapan-and-its-restive-neighbors",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1798,19 +1984,19 @@
     "body_pt": "<p>No oeste de El Salvador, a região de Ahuachapán repousa sobre uma paisagem vulcânica dinâmica, onde o calor geotérmico se manifesta intensamente sob a superfície. Esta área é um ponto de acesso geológico, caracterizado por uma atividade subterrânea que remonta a tempos imemoriais, e que se conecta à história do antigo “Farol do Pacífico”. A presença de águas azuis tranquilas, como as que preenchem a caldeira do Lago Coatepeque, formada por erupções antigas, contrasta com a energia latente que pulsa sob a crosta terrestre, moldando continuamente a geografia local.</p><p>Esta paisagem faz parte de uma vasta formação geológica conhecida como o Arco Vulcânico Centro-Americano, que se estende por mais de 1.000 quilômetros (600 milhas) ao longo da costa do Pacífico, desde a Guatemala até o Panamá. Dentro deste arco, o vulcão Izalco, outrora apelidado de “Farol do Pacífico” devido às suas erupções quase contínuas e visíveis a grandes distâncias, tem um histórico de atividade explosiva. Pequenas a moderadas erupções foram registradas desde o século XVI, testemunhando a natureza inquieta desta região.</p><p>O “farol” natural do Izalco, no entanto, foi desativado, com a sua atividade mais recente ocorrendo em 1966. Embora não haja erupções registradas de alguns desses vulcões no Holoceno — o período geológico que abrange os últimos 11.700 anos — a atividade geotérmica persistente ao longo da cordilheira vulcânica é uma constante. Essa energia subterrânea se manifesta de diversas formas, revelando a contínua dinâmica geológica da área.</p><p>As manifestações dessa atividade geotérmica incluem fumarolas, fontes termais e fontes de vapor, que pontilham a paisagem e servem como lembretes visíveis do calor que emana do interior da Terra. Contudo, essa energia também pode apresentar riscos. Explosões de vapor repentinas e potencialmente mortais ocorrem ocasionalmente na área, como a registrada em outubro de 1990, perto do vulcão Laguna Verde, na mesma cordilheira, sublinhando a necessidade de monitoramento e cautela.</p><p>Aproveitando essa riqueza geotérmica, a Usina Geotérmica Ahuachapán tem operado desde 1975. Esta instalação estratégica utiliza águas subterrâneas naturalmente aquecidas a cerca de 250 graus Celsius (480 graus Fahrenheit), canalizando essa energia através de sistemas de falhas locais para a produção de eletricidade. A usina representa um exemplo notável de como a engenharia humana pode coexistir e se beneficiar das forças geológicas naturais, transformando o calor subterrâneo em um recurso valioso para a região.</p><p>Assim, a área de Ahuachapán e seus arredores continuam a ser um laboratório natural de geologia ativa, onde a história vulcânica se entrelaça com a energia geotérmica contemporânea. Desde as caldeiras tranquilas até as usinas de energia, a paisagem de El Salvador é um testemunho da incessante interação entre as forças profundas da Terra e a vida na superfície, com o calor subjacente moldando tanto o ambiente natural quanto as atividades humanas.</p>",
     "body_en": "<p>From a geothermal hotspot to the one-time “Lighthouse of the Pacific,” the heat is on beneath the volcanic landscape of western El Salvador. The post Ahuachapán and Its Restive Neighbors appeared first on NASA Science. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The post Ahuachapán and Its Restive Neighbors appeared first on NASA Science. Lake Coatepeque 3 min read Set amid El Salvador’s modern, active volcanic landscape, tranquil blue waters fill a caldera formed by ancient eruptions.</p><p>Earth Observatory Image of the Day NASA&#x27;s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery. Explore Earth Science Earth Science Data Open access to NASA’s archive of Earth science data The post Ahuachapán and Its Restive Neighbors appeared first on NASA Science.</p><p>The area is part of a volcanic landscape that stretches more than 1, 000 kilometers (600 miles) along the Pacific coast from Guatemala to Panama, composing the Central American. The volcano remains active, with small to moderate explosive eruptions recorded since the 16th century.</p><p>The “lighthouse” has since powered down, with Izalco’s most recent activity occurring in 1966. There are no recorded eruptions of these volcanoes in the Holocene (the past 11, 700 years), but persistent geothermal activity along the range manifests in the form of fumaroles.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Sudden and deadly steam explosions occasionally occur in the area, including a blast in October 1990 near the range’s Laguna Verde volcano. The Ahuachapán Geothermal Power Plant has operated since 1975, leveraging groundwater naturally heated to around 250 degrees Celsius (480 degrees Fahrenheit) and local fault.</p><p>Because the account originates with NASA Earth Observatory, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/ahuachapan-and-its-restive-neighbors/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: De um ponto de acesso geotérmico ao antigo “Farol do Pacífico”, o calor aumenta sob a paisagem vulcânica do oeste de El Salvador",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: De um ponto de acesso geotérmico ao antigo “Farol do Pacífico”, o calor aumenta sob a paisagem vulcânica do oeste de El Salvador.",
+      "Dado-chave: De um ponto de acesso geotérmico ao antigo “Farol do Pacífico”, o calor aumenta sob a paisagem vulcânica do oeste de El Salvador",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: De um ponto de acesso geotérmico ao antigo “Farol do Pacífico”, o calor aumenta sob a paisagem vulcânica do oeste de El Salvador",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: De um ponto de acesso geotérmico ao antigo “Farol do Pacífico”, o calor aumenta sob a paisagem vulcânica do oeste de El Salvador.",
+      "Dado-chave: De um ponto de acesso geotérmico ao antigo “Farol do Pacífico”, o calor aumenta sob a paisagem vulcânica do oeste de El Salvador",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: From a geothermal hotspot to the one-time “Lighthouse of the Pacific,” the heat is on beneath the volcanic landscape of western El Salvador",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: From a geothermal hotspot to the one-time “Lighthouse of the Pacific,” the heat is on beneath the volcanic landscape of western El Salvador.",
+      "Key detail: From a geothermal hotspot to the one-time “Lighthouse of the Pacific,” the heat is on beneath the volcanic landscape of western El Salvador",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "05 mai 2026",
     "date_pt": "05 mai 2026",
@@ -1891,164 +2077,6 @@
     "imageAlt": "Ahuachapán e seus vizinhos inquietos",
     "imageAlt_pt": "Ahuachapán e seus vizinhos inquietos",
     "imageAlt_en": "Ahuachapán and Its Restive Neighbors",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 15,
-    "slug": "cyclone-rains-spur-papua-new-guinea-landslides",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/cyclone-rains-spur-papua-new-guinea-landslides/papuanewguinea_landslide_oli2_20260420_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/cyclone-rains-spur-papua-new-guinea-landslides/papuanewguinea_landslide_oli2_20250924.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/cyclone-rains-spur-papua-new-guinea-landslides/papuanewguinea_landslide_oli2_20260420.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://svs.gsfc.nasa.gov/vis/a000000/a005500/a005584/frames/archive/landslides.04_10_2026.png",
-        "alt": "risco elevado",
-        "alt_pt": "risco elevado",
-        "alt_en": "elevated risk",
-        "caption": "risco elevado",
-        "caption_pt": "risco elevado",
-        "caption_en": "elevated risk"
-      },
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/cyclone-rains-spur-papua-new-guinea-landslides/papuanewguinea_landslide_oli2_20260420_lrg.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Chuvas de Ciclone Provocam Deslizamentos de Terra em Papua Nova Guiné",
-    "title_pt": "Chuvas de Ciclone Provocam Deslizamentos de Terra em Papua Nova Guiné",
-    "title_en": "Cyclone Rains Spur Papua New Guinea Landslides",
-    "sub": "As fortes chuvas do ciclone tropical Maila provocaram um deslizamento de terra mortal nas montanhas do leste da Nova Grã-Bretanha, em Papua Nova Guiné.",
-    "sub_pt": "As fortes chuvas do ciclone tropical Maila provocaram um deslizamento de terra mortal nas montanhas do leste da Nova Grã-Bretanha, em Papua Nova Guiné.",
-    "sub_en": "Heavy rains from Tropical Cyclone Maila triggered a deadly landslide in the mountains of East New Britain.",
-    "excerpt": "As fortes chuvas do ciclone tropical Maila provocaram um deslizamento de terra mortal nas montanhas do leste da Nova Grã-Bretanha, em Papua Nova Guiné.",
-    "excerpt_pt": "As fortes chuvas do ciclone tropical Maila provocaram um deslizamento de terra mortal nas montanhas do leste da Nova Grã-Bretanha, em Papua Nova Guiné.",
-    "excerpt_en": "Heavy rains from Tropical Cyclone Maila triggered a deadly landslide in the mountains of East New Britain. The post Cyclone Rains Spur Papua New Guinea Landslides appeared first on NASA Science.",
-    "body": "<p>As fortes chuvas associadas ao ciclone tropical Maila desencadearam um deslizamento de terra devastador nas montanhas do leste da Nova Grã-Bretanha, uma província de Papua Nova Guiné. O incidente, ocorrido por volta de 9 de abril de 2026, resultou em perdas humanas significativas e causou grande destruição na região. Este evento ressalta a vulnerabilidade de áreas montanhosas a fenômenos climáticos extremos, especialmente em regiões tropicais propensas a ciclones, e a urgência de sistemas de monitoramento e alerta eficazes para proteger as comunidades locais.</p><p>No distrito de Gazelle, em East New Britain, os terrenos íngremes foram severamente saturados pelas chuvas torrenciais. Essa saturação do solo foi o fator primordial para a instabilidade das encostas, culminando nos deslizamentos de terra que atingiram localidades como Lamarain. De acordo com reportagens da mídia local, como a veiculada pela RNZ em 16 de abril de 2026, o desastre ceifou a vida de pelo menos 10 pessoas, transformando o evento em uma tragédia de grande proporção para as comunidades afetadas. A extensão total dos danos e o número exato de vítimas ainda estavam sendo avaliados nas semanas seguintes ao ocorrido.</p><p>Para compreender a magnitude das chuvas que precederam o deslizamento, cientistas utilizaram dados de precipitação baseados em satélite da missão Global Precipitation Measurement (GPM) da NASA. As estimativas indicam que centenas de milímetros de chuva caíram sobre a região em menos de uma semana. Tal volume de precipitação é extraordinariamente alto e excede a capacidade de absorção do solo, especialmente em áreas com topografia acidentada. A análise desses dados é crucial para modelar eventos futuros e aprimorar os sistemas de alerta precoce, fornecendo informações valiosas para a gestão de desastres.</p><p>Ciclones tropicais como o Maila são conhecidos por trazerem consigo chuvas intensas e prolongadas, que representam um risco significativo para regiões montanhosas. A combinação de ventos fortes e precipitação excessiva pode desestabilizar encostas, mesmo aquelas que parecem estáveis em condições normais. Papua Nova Guiné, com sua geografia complexa e clima tropical, é particularmente suscetível a esses eventos. A ocorrência de deslizamentos de terra em resposta a ciclones é um fenômeno recorrente na região, exigindo constante monitoramento e estratégias de mitigação para reduzir o impacto sobre as populações e a infraestrutura.</p><p>A compreensão desses eventos extremos é fundamental para a gestão de riscos e a proteção de populações vulneráveis. Instituições como o Observatório da Terra da NASA desempenham um papel vital na coleta e disseminação de dados científicos que ajudam a monitorar e analisar fenômenos naturais. O acesso aberto a arquivos de dados de ciências da Terra, como os disponibilizados pela NASA, permite que pesquisadores em todo o mundo estudem esses eventos, aprimorem modelos climáticos e desenvolvam soluções para os desafios impostos pelas mudanças ambientais. A colaboração internacional e a partilha de informações são essenciais para enfrentar os impactos de desastres naturais e construir resiliência nas comunidades afetadas.</p>",
-    "body_pt": "<p>As fortes chuvas associadas ao ciclone tropical Maila desencadearam um deslizamento de terra devastador nas montanhas do leste da Nova Grã-Bretanha, uma província de Papua Nova Guiné. O incidente, ocorrido por volta de 9 de abril de 2026, resultou em perdas humanas significativas e causou grande destruição na região. Este evento ressalta a vulnerabilidade de áreas montanhosas a fenômenos climáticos extremos, especialmente em regiões tropicais propensas a ciclones, e a urgência de sistemas de monitoramento e alerta eficazes para proteger as comunidades locais.</p><p>No distrito de Gazelle, em East New Britain, os terrenos íngremes foram severamente saturados pelas chuvas torrenciais. Essa saturação do solo foi o fator primordial para a instabilidade das encostas, culminando nos deslizamentos de terra que atingiram localidades como Lamarain. De acordo com reportagens da mídia local, como a veiculada pela RNZ em 16 de abril de 2026, o desastre ceifou a vida de pelo menos 10 pessoas, transformando o evento em uma tragédia de grande proporção para as comunidades afetadas. A extensão total dos danos e o número exato de vítimas ainda estavam sendo avaliados nas semanas seguintes ao ocorrido.</p><p>Para compreender a magnitude das chuvas que precederam o deslizamento, cientistas utilizaram dados de precipitação baseados em satélite da missão Global Precipitation Measurement (GPM) da NASA. As estimativas indicam que centenas de milímetros de chuva caíram sobre a região em menos de uma semana. Tal volume de precipitação é extraordinariamente alto e excede a capacidade de absorção do solo, especialmente em áreas com topografia acidentada. A análise desses dados é crucial para modelar eventos futuros e aprimorar os sistemas de alerta precoce, fornecendo informações valiosas para a gestão de desastres.</p><p>Ciclones tropicais como o Maila são conhecidos por trazerem consigo chuvas intensas e prolongadas, que representam um risco significativo para regiões montanhosas. A combinação de ventos fortes e precipitação excessiva pode desestabilizar encostas, mesmo aquelas que parecem estáveis em condições normais. Papua Nova Guiné, com sua geografia complexa e clima tropical, é particularmente suscetível a esses eventos. A ocorrência de deslizamentos de terra em resposta a ciclones é um fenômeno recorrente na região, exigindo constante monitoramento e estratégias de mitigação para reduzir o impacto sobre as populações e a infraestrutura.</p><p>A compreensão desses eventos extremos é fundamental para a gestão de riscos e a proteção de populações vulneráveis. Instituições como o Observatório da Terra da NASA desempenham um papel vital na coleta e disseminação de dados científicos que ajudam a monitorar e analisar fenômenos naturais. O acesso aberto a arquivos de dados de ciências da Terra, como os disponibilizados pela NASA, permite que pesquisadores em todo o mundo estudem esses eventos, aprimorem modelos climáticos e desenvolvam soluções para os desafios impostos pelas mudanças ambientais. A colaboração internacional e a partilha de informações são essenciais para enfrentar os impactos de desastres naturais e construir resiliência nas comunidades afetadas.</p>",
-    "body_en": "<p>Heavy rains from Tropical Cyclone Maila triggered a deadly landslide in the mountains of East New Britain. The post Cyclone Rains Spur Papua New Guinea Landslides appeared first on NASA Science. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. Downloads September 24, 2025 JPEG (18.10 MB) April 20, 2026 JPEG (17.23 MB) References &amp; Resources Eos (2026, April 17) The 9 April 2026 landslide at Lamarain in Papua New Guinea. RNZ (2026, April 16) Deadly landslide claims 10 lives in PNG’s East New Britain, local media report.</p><p>Explore Earth Science Earth Science Data Open access to NASA’s archive of Earth science data The post Cyclone Rains Spur Papua New Guinea Landslides appeared first on NASA Science. 24, 2025 April 20, 2026 NASA Earth Observatory/Michala Garrison NASA Earth Observatory/Michala Garrison Sept.</p><p>The heavy rains saturated steep terrain in the Gazelle district of East New Britain, triggering landslides on and around April 9 that led to several deaths, according to news. Satellite-based precipitation estimates from NASA’s Global Precipitation Measurement (GPM) mission indicate that hundreds of millimeters of rain likely fell across the region in.</p><p>Article 1 2 3 4 Next Keep Exploring Discover More from NASA Earth Science Subscribe to Earth Observatory Newsletters Subscribe to the Earth Observatory and get the Earth in your. Open access to NASA’s archive of Earth science data Eos (2026, April 17) The 9 April 2026 landslide at Lamarain in Papua New Guinea.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>NASA (2026) GPM Precipitation &amp; Applications Global Viewer. NASA Scientific Visualization Studio (2026) Daily Global Landslide Exposure Map.</p><p>Because the account originates with NASA Earth Observatory, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/cyclone-rains-spur-papua-new-guinea-landslides/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: As fortes chuvas do ciclone tropical Maila provocaram um deslizamento de terra mortal nas montanhas do leste da Nova Grã-Bretanha, em Papua Nova.",
-      "Dado-chave: As fortes chuvas do ciclone tropical Maila provocaram um deslizamento de terra mortal nas montanhas do leste da Nova Grã-Bretanha, em Papua Nova.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: As fortes chuvas do ciclone tropical Maila provocaram um deslizamento de terra mortal nas montanhas do leste da Nova Grã-Bretanha, em Papua Nova.",
-      "Dado-chave: As fortes chuvas do ciclone tropical Maila provocaram um deslizamento de terra mortal nas montanhas do leste da Nova Grã-Bretanha, em Papua Nova.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Heavy rains from Tropical Cyclone Maila triggered a deadly landslide in the mountains of East New Britain.",
-      "Key detail: Heavy rains from Tropical Cyclone Maila triggered a deadly landslide in the mountains of East New Britain.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "01 mai 2026",
-    "date_pt": "01 mai 2026",
-    "date_en": "01 May 2026",
-    "time": "04h01",
-    "time_pt": "04h01",
-    "time_en": "04: 01 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-01T04:01:00+00:00",
-    "lastModifiedIso": "2026-05-01T16:51:17+00:00",
-    "source": "NASA Earth Observatory",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA Earth Observatory",
-      "Cosmos Week",
-      "Chuvas de ciclone provocam deslizamentos de terra em Papua Nova Guiné"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA Earth Observatory",
-      "Cosmos Week",
-      "Chuvas de ciclone provocam deslizamentos de terra em Papua Nova Guiné"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA Earth Observatory",
-      "Cosmos Week",
-      "Cyclone rains trigger landslides in Papua New Guinea"
-    ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/cyclone-rains-spur-papua-new-guinea-landslides/",
-    "realUrl": "https://www.cosmosweek.com/?article=cyclone-rains-spur-papua-new-guinea-landslides",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=cyclone-rains-spur-papua-new-guinea-landslides",
-    "realUrl_en": "https://www.cosmosweek.com/?article=cyclone-rains-spur-papua-new-guinea-landslides&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/cyclone-rains-spur-papua-new-guinea-landslides/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/cyclone-rains-spur-papua-new-guinea-landslides/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/cyclone-rains-spur-papua-new-guinea-landslides/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/cyclone-rains-spur-papua-new-guinea-landslides/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/cyclone-rains-spur-papua-new-guinea-landslides/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/cyclone-rains-spur-papua-new-guinea-landslides/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 92,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Chuvas de Ciclone Provocam Deslizamentos de Terra em Papua Nova Guiné",
-    "imageAlt_pt": "Chuvas de Ciclone Provocam Deslizamentos de Terra em Papua Nova Guiné",
-    "imageAlt_en": "Cyclone Rains Spur Papua New Guinea Landslides",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
@@ -3359,12 +3387,12 @@
     "inline_images": [
       {
         "src": "https://phys.b-cdn.net/tmpl/v6/img/medx308px.png",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
       }
     ],
     "video": null,
@@ -3502,12 +3530,12 @@
       },
       {
         "src": "https://phys.b-cdn.net/tmpl/v6/img/medx308px.png",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
       }
     ],
     "video": null,
@@ -3645,12 +3673,12 @@
       },
       {
         "src": "https://phys.b-cdn.net/tmpl/v6/img/medx308px.png",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
       }
     ],
     "video": null,
@@ -3940,12 +3968,12 @@
       },
       {
         "src": "https://phys.b-cdn.net/tmpl/v6/img/medx308px.png",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
       }
     ],
     "video": null,
@@ -4316,12 +4344,12 @@
     "inline_images": [
       {
         "src": "https://phys.b-cdn.net/tmpl/v6/img/medx308px.png",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
       }
     ],
     "video": null,
