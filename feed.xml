@@ -5,9 +5,39 @@
     <link>https://www.cosmosweek.com/</link>
     <description>Portal de jornalismo científico com foco em astronomia, astrofísica, cosmologia e ciência de fronteira.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 13 May 2026 17:45:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 17:35:12 +0000</lastBuildDate>
     <generator>CosmosWeekBot 5.0</generator>
     <item>
+              <title>Modelo de IA financiado pelo NIH prevê sobrevivência ao câncer a partir de dados de tumores unicelulares</title>
+              <link>https://www.cosmosweek.com/noticia/nih-funded-ai-model-predicts-cancer-survival-from-single-cell-tumor-data/</link>
+              <guid>https://www.cosmosweek.com/noticia/nih-funded-ai-model-predicts-cancer-survival-from-single-cell-tumor-data/</guid>
+              <pubDate>Thu, 14 May 2026 17:21:03 +0000</pubDate>
+              <author>contato@cosmosweek.com (Cosmos Week)</author>
+              <description>Em um estudo financiado pelos Institutos Nacionais de Saúde (NIH), pesquisadores desenvolveram uma ferramenta de avaliação do câncer capaz de identificar pacientes de alto risco e as células tumorais associadas a esse risco.</description>
+              <category>Biologia</category><category>NIH News Releases</category><category>Cosmos Week</category><category>Modelo de IA financiado pelo NIH prevê sobrevivência ao câncer a partir de dados de tumores unicelulares</category>
+              <source url="https://www.nih.gov/news-events/news-releases/nih-funded-ai-model-predicts-cancer-survival-single-cell-tumor-data">NIH News Releases</source>
+              <content:encoded>Em um avanço significativo para a oncologia, pesquisadores desenvolveram uma inovadora ferramenta de avaliação do câncer, financiada pelos Institutos Nacionais de Saúde (NIH). Este modelo é capaz de identificar pacientes de alto risco e as células tumorais específicas associadas a esse prognóstico desfavorável. A pesquisa, conduzida com o apoio do NIH, envolveu a Oregon Health &amp; Science University (OHSU), onde o modelo foi testado em dados clínicos de mais de 150 pacientes com diversos tipos de câncer. A capacidade de analisar dados de expressão genética unicelular, que podem abranger milhares a milhões de células tumorais, representa um desafio complexo para a medicina personalizada. Anteriormente, a vasta quantidade de informações geradas por essas análises dificultava a extração de insights clinicamente relevantes, muitas vezes obscurecendo os detalhes mais sutis que poderiam ser cruc</content:encoded>
+            </item><item>
+              <title>Dinâmica do Gelo Fluvial em Aniak, Alasca</title>
+              <link>https://www.cosmosweek.com/noticia/ice-moves-out-of-aniak/</link>
+              <guid>https://www.cosmosweek.com/noticia/ice-moves-out-of-aniak/</guid>
+              <pubDate>Thu, 14 May 2026 04:01:00 +0000</pubDate>
+              <author>contato@cosmosweek.com (Cosmos Week)</author>
+              <description>Imagens do Observatório da Terra da NASA, capturadas por Michala Garrison entre 21 de abril e 7 de maio de 2026, documentam o processo de descongelamento de um rio que serpenteia de leste a oeste, passando pela cidade de Aniak, no Alasca.</description>
+              <category>Ciências da Terra</category><category>NASA News Releases</category><category>Cosmos Week</category><category>Gelo sai de Aniak</category>
+              <source url="https://science.nasa.gov/earth/earth-observatory/ice-moves-out-of-aniak/">NASA News Releases</source>
+              <content:encoded>Em 16 de abril, pouco antes do período de observação principal, o Centro de Previsão do Rio Alasca-Pacífico publicou dados indicando que o gelo do rio nas proximidades de Aniak era consideravelmente espesso e ainda estava coberto por uma camada profunda de neve. Essa condição inicial sugere um inverno rigoroso ou prolongado, que manteve o rio solidificado por um período estendido. O monitoramento contínuo dessas características é vital para prever inundações e outros riscos associados ao degelo, que podem afetar a infraestrutura e a segurança das populações locais. A espessura do gelo e a cobertura de neve são fatores determinantes na velocidade e na intensidade do processo de descongelamento. As imagens que ilustram essa transição sazonal foram fornecidas pelo Observatório da Terra da NASA e atribuídas a Michala Garrison, utilizando dados provenientes dos satélites Landsat dos Estados U</content:encoded>
+            </item><item>
+              <title>Preenchendo as lacunas: desafios na aplicação de estudos de pré-fusão de binários de buracos negros massivos a conjuntos de dados realistas do LISA</title>
+              <link>https://www.cosmosweek.com/noticia/inpainting-over-the-cracks-challenges-of-applying-pre-merger-searches-for-massive-black-hole-bin/</link>
+              <guid>https://www.cosmosweek.com/noticia/inpainting-over-the-cracks-challenges-of-applying-pre-merger-searches-for-massive-black-hole-bin/</guid>
+              <pubDate>Wed, 13 May 2026 16:15:06 +0000</pubDate>
+              <author>contato@cosmosweek.com (Cosmos Week)</author>
+              <description>Este trabalho aborda os desafios na identificação pré-fusão de binários de buracos negros massivos em dados do LISA, um objetivo central para observações multi-mensageiras.</description>
+              <category>Cosmologia</category><category>arXiv Cosmology</category><category>Cosmos Week</category><category>Pintando as rachaduras</category>
+              <source url="https://arxiv.org/abs/2605.13738v1">arXiv Cosmology</source>
+              <content:encoded>Neste estudo, demonstramos e comparamos dois métodos distintos para a identificação pré-fusão de binários massivos de buracos negros. A primeira abordagem consiste em um filtro de latência zero, projetado para detecção em tempo real. A segunda, e apresentada pela primeira vez neste contexto, utiliza uma técnica de 'inpainting'. Essa técnica, comumente empregada para preencher lacunas em imagens ou dados, é adaptada aqui para inferir a presença de sinais mesmo em segmentos de dados incompletos. A comparação entre essas duas metodologias visa avaliar sua eficácia e robustez em cenários realistas de observação. Para testar a eficácia dessas abordagens, aplicamos ambos os métodos ao conjunto de dados 2a do LISA Data Challenge, especificamente à simulação Sangria-HM. Este conjunto de dados é representativo dos desafios e características esperadas das observações reais do LISA. Os resultados i</content:encoded>
+            </item><item>
               <title>Estudando Pneumonia no Espaço para a Saúde do Coração na Terra</title>
               <link>https://www.cosmosweek.com/noticia/studying-pneumonia-in-space-for-heart-health-on-earth/</link>
               <guid>https://www.cosmosweek.com/noticia/studying-pneumonia-in-space-for-heart-health-on-earth/</guid>
@@ -17,6 +47,16 @@
               <category>Ciências da Terra</category><category>NASA News Releases</category><category>Cosmos Week</category><category>Estudando Pneumonia no Espaço para a Saúde do Coração na Terra</category>
               <source url="https://www.nasa.gov/missions/station/iss-research/studying-pneumonia-in-space-for-heart-health-on-earth/">NASA News Releases</source>
               <content:encoded>A Expedição 74 a bordo da Estação Espacial Internacional (EEI) está realizando uma pesquisa crucial para entender como as bactérias causadoras de pneumonia podem provocar danos cardíacos a longo prazo. O astronauta da NASA Jack Hathaway desempenha um papel fundamental neste estudo, trabalhando com a investigação MVP Cell-09 dentro de um porta-luvas portátil na EEI. Esta pesquisa aproveita o ambiente singular do espaço para observar reações biológicas que seriam difíceis de replicar ou detectar com a mesma clareza na Terra, abrindo novas perspectivas para a saúde cardiovascular e o manejo de doenças infecciosas. O experimento MVP Cell-09 utiliza modelos de tecido cardíaco derivados de células-tronco, que são preparados meticulosamente antes do voo. Imagens pré-voo desses modelos revelam a complexidade e o cuidado envolvidos na sua criação. Ian Berg, por exemplo, é um dos responsáveis pela</content:encoded>
+            </item><item>
+              <title>Revisitando a Explosão de 2021 do Candidato a Buraco Negro MAXI J1803-298 com Dados NICER, NuSTAR e Insight-HXMT</title>
+              <link>https://www.cosmosweek.com/noticia/revisiting-the-2021-outburst-of-the-bhc-maxi-j1803-298-using-nicer-nustar-and-insight-hxmt-data/</link>
+              <guid>https://www.cosmosweek.com/noticia/revisiting-the-2021-outburst-of-the-bhc-maxi-j1803-298-using-nicer-nustar-and-insight-hxmt-data/</guid>
+              <pubDate>Wed, 13 May 2026 09:20:37 +0000</pubDate>
+              <author>contato@cosmosweek.com (Cosmos Week)</author>
+              <description>Este estudo apresenta uma análise espectral e temporal de banda larga do candidato a buraco negro MAXI J1803-298 durante sua explosão de 2021, utilizando observações simultâneas dos telescópios NICER, NuSTAR e Insight-HXMT.</description>
+              <category>Astrofísica</category><category>arXiv High Energy Astrophysics</category><category>Cosmos Week</category><category>Revisitando a explosão de 2021 do BHC MAXI J1803</category>
+              <source url="https://arxiv.org/abs/2605.13232v1">arXiv High Energy Astrophysics</source>
+              <content:encoded>Este trabalho apresenta um estudo detalhado das propriedades espectrais e temporais de banda larga do candidato a buraco negro MAXI J1803-298, durante sua explosão de 2021. Para tal, foram utilizadas observações simultâneas e complementares dos telescópios NICER, NuSTAR e Insight-HXMT. A combinação de dados provenientes de múltiplos instrumentos espaciais é crucial, pois permite uma cobertura energética abrangente, essencial para investigar a complexa evolução das oscilações quase periódicas de baixa frequência (LFQPOs) e as características espectrais da fonte em uma vasta gama de energias. O objetivo principal é compreender os mecanismos físicos que impulsionam a variabilidade e a emissão de raios-X em sistemas binários de buracos negros, fornecendo insights sobre a dinâmica de acreção e a formação de jatos relativísticos. A análise conjunta desses dados oferece uma perspectiva única so</content:encoded>
             </item><item>
               <title>Shalbatana Vallis: Um Vale Marciano de Água, Lava e Caos</title>
               <link>https://www.cosmosweek.com/noticia/waterworn-chaos-on-mars/</link>
@@ -48,26 +88,6 @@
               <source url="https://science.nasa.gov/blog/curiosity-blog-sols-4886-4892-ingenuity-and-perseverance-curiosity-style/">NASA News Releases</source>
               <content:encoded>Este blog, cobrindo os Sols 4886 a 4892, foi escrito por Michelle Minitti, investigadora principal adjunta da MAHLI, com a data de planejamento terrestre em 8 de maio de 2026. Embora os nomes 'Ingenuity' e 'Perseverance' sejam oficialmente atribuídos ao helicóptero e ao rover irmãos da missão Marte 2020, o espírito de engenhosidade e perseverança é uma constante em todas as missões de exploração marciana da NASA. O rover Curiosity, em particular, tem demonstrado essas qualidades de forma notável em suas operações contínuas na base do Monte Sharp, enfrentando desafios e adaptando-se para maximizar a coleta de dados científicos. As atividades recentes do Curiosity exemplificam essa dedicação, com a equipe da missão superando obstáculos para garantir o progresso da pesquisa em Marte. Um dos marcos recentes nas operações do Curiosity ocorreu em 6 de maio de 2026, correspondendo ao Sol 4887, </content:encoded>
             </item><item>
-              <title>Revivendo a formação de buracos negros primordiais em transições de fase lentas de primeira ordem</title>
-              <link>https://www.cosmosweek.com/noticia/reviving-primordial-black-hole-formation-in-slow-first-order-phase-transitions/</link>
-              <guid>https://www.cosmosweek.com/noticia/reviving-primordial-black-hole-formation-in-slow-first-order-phase-transitions/</guid>
-              <pubDate>Mon, 11 May 2026 23:34:38 +0000</pubDate>
-              <author>contato@cosmosweek.com (Cosmos Week)</author>
-              <description>Grandes perturbações de curvatura geradas durante transições de fase lentas de primeira ordem são uma fonte promissora de buracos negros primordiais.</description>
-              <category>Cosmologia</category><category>arXiv Cosmology</category><category>Cosmos Week</category><category>Revivendo a formação de buracos negros primordiais em transições de fase lentas de primeira ordem</category>
-              <source url="https://arxiv.org/abs/2605.11332v1">arXiv Cosmology</source>
-              <content:encoded>Buracos negros primordiais (BNPs) representam um dos mais intrigantes candidatos para a matéria escura e oferecem janelas valiosas para a física do universo primordial. A sua formação é frequentemente associada a condições extremas nos primeiros instantes cósmicos, como as grandes perturbações de curvatura que poderiam ter sido geradas durante transições de fase lentas de primeira ordem. Essas transições, caracterizadas por bolhas de vácuo verdadeiro que se expandem e colidem, são fenômenos previstos em diversas teorias de física de partículas além do Modelo Padrão, ocorrendo em energias muito elevadas. A energia liberada e a dinâmica dessas bolhas podem criar flutuações de densidade significativas no plasma primordial, que, sob certas condições, poderiam ter colapsado gravitacionalmente para formar buracos negros antes da nucleossíntese primordial. A compreensão detalhada desses process</content:encoded>
-            </item><item>
-              <title>Pesquisa do Hubble Orienta a Futura Observação do Roman Perto do Centro da Via Láctea</title>
-              <link>https://www.cosmosweek.com/noticia/hubble-survey-sets-up-roman-s-future-look-near-milky-way-s-center/</link>
-              <guid>https://www.cosmosweek.com/noticia/hubble-survey-sets-up-roman-s-future-look-near-milky-way-s-center/</guid>
-              <pubDate>Mon, 11 May 2026 14:00:39 +0000</pubDate>
-              <author>contato@cosmosweek.com (Cosmos Week)</author>
-              <description>O bojo galáctico da Via Láctea, a região bulbosa que circunda o centro galáctico, abriga uma densa concentração de estrelas, planetas e outros objetos celestes.</description>
-              <category>Astronomia</category><category>NASA News Releases</category><category>Cosmos Week</category><category>Pesquisa do Hubble define a visão futura de Roman perto do centro da Via Láctea</category>
-              <source url="https://science.nasa.gov/missions/roman-space-telescope/hubble-survey-sets-up-romans-future-look-near-milky-ways-center/">NASA News Releases</source>
-              <content:encoded>Para auxiliar o Roman na caracterização de inúmeras estrelas e planetas, os astrônomos utilizaram o Telescópio Espacial Hubble para observar muitas das mesmas áreas do bojo galáctico que o Roman investigará em seu levantamento principal, o Galactic Bulge Time-Domain Survey. A expectativa é que, quando um evento for detectado durante a prolongada observação do Roman, será possível retroceder e analisar os dados prévios do Hubble para identificar as características das estrelas envolvidas. Por exemplo, será possível determinar se 'esta era uma estrela vermelha, esta era uma estrela azul, e o evento ocorreu quando a estrela vermelha passou na frente da estrela azul', fornecendo um contexto crucial para a interpretação dos fenômenos observados. Sean Terry, líder do projeto e cientista assistente de pesquisa da Universidade de Maryland, College Park, e do Goddard Space Flight Center da NASA e</content:encoded>
-            </item><item>
               <title>Detecção de Coloração Anômala na Costa Mesoatlântica</title>
               <link>https://www.cosmosweek.com/noticia/color-off-the-mid-atlantic-coast/</link>
               <guid>https://www.cosmosweek.com/noticia/color-off-the-mid-atlantic-coast/</guid>
@@ -98,16 +118,6 @@
               <source url="https://www.esa.int/Space_Safety/Planetary_Defence/ESA_and_JAXA_team_up_on_planetary_defence_Ramses_mission_to_asteroid_Apophis">ESA Space News</source>
               <content:encoded>A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para aprofundar a colaboração em defesa planetária, juntamente com um acordo específico para a Missão Rapid Apophis para Segurança Espacial (RAMSES). Os acordos foram formalizados em 7 de maio pelo Diretor Geral da ESA, Josef Aschbacher, e pelo Presidente da JAXA, Hiroshi Yamakawa. A cerimônia ocorreu na Embaixada da Itália em Berlim, Alemanha, na presença de líderes institucionais e industriais europeus e japoneses, marcando um passo significativo na proteção do nosso planeta contra ameaças cósmicas. O evento de assinatura foi organizado em colaboração com a Agência Espacial Italiana (ASI), em virtude da seleção da OHB Italia pela ESA como contratante principal para a missão RAMSES. Esta iniciativa se fundamenta em uma declaração conjunta de novembro de 2024, na </content:encoded>
             </item><item>
-              <title>Um estudo comparativo das taxas de ocorrência e natureza de fontes de raios X ultraluminosos em galáxias espirais e elípticas</title>
-              <link>https://www.cosmosweek.com/noticia/a-comparative-study-of-occurrence-rates-and-nature-of-ultraluminous-x-ray-sources-in-spiral-and-/</link>
-              <guid>https://www.cosmosweek.com/noticia/a-comparative-study-of-occurrence-rates-and-nature-of-ultraluminous-x-ray-sources-in-spiral-and-/</guid>
-              <pubDate>Thu, 07 May 2026 12:34:00 +0000</pubDate>
-              <author>contato@cosmosweek.com (Cosmos Week)</author>
-              <description>Fontes de raios X ultraluminosas são principalmente fontes pontuais extragalácticas não nucleares com luminosidade de raios X excedendo a luminosidade de Eddington do buraco negro.</description>
-              <category>Astrofísica</category><category>arXiv High Energy Astrophysics</category><category>Cosmos Week</category><category>Um estudo comparativo das taxas de ocorrência e natureza de fontes de raios X ultraluminosos em galáxias espirais e elípticas</category>
-              <source url="https://arxiv.org/abs/2605.06133v1">arXiv High Energy Astrophysics</source>
-              <content:encoded>Fontes de raios X ultraluminosas (ULXs) são objetos astronômicos extragalácticos não nucleares, caracterizados por serem fontes pontuais com uma luminosidade de raios X ($L_X$) que excede o limite de Eddington para um buraco negro estelar de 10 massas solares ($M_\odot$), ou seja, $L_X \geq 10^{39}$ erg s$^{-1}$. Esses objetos são observados em diversos tipos de galáxias, incluindo espirais, elípticas e anãs irregulares. A natureza exata dos ULXs ainda é objeto de debate, mas eles são geralmente considerados buracos negros de massa estelar com acreção super-Eddington ou buracos negros de massa intermediária. A compreensão de suas propriedades e distribuição é crucial para avançar no conhecimento sobre a evolução de buracos negros e galáxias. A taxa de ocorrência de ULXs varia significativamente entre as galáxias; algumas podem hospedar apenas uma única ULX, enquanto outras abrigam um gra</content:encoded>
-            </item><item>
               <title>Um farol de luz em redemoinhos de poeira</title>
               <link>https://www.cosmosweek.com/noticia/a-beacon-of-light-in-swirls-of-dust/</link>
               <guid>https://www.cosmosweek.com/noticia/a-beacon-of-light-in-swirls-of-dust/</guid>
@@ -127,16 +137,6 @@
               <category>Ciências da Terra</category><category>NASA Earth Observatory</category><category>Cosmos Week</category><category>Um mar de nuvens giratórias</category>
               <source url="https://science.nasa.gov/earth/earth-observatory/a-sea-of-spinning-clouds/">NASA Earth Observatory</source>
               <content:encoded>Este vulcão coberto de gelo está situado a 68, 86 graus de latitude sul, no Mar de Bellingshausen. Sua localização é particularmente isolada, a aproximadamente 400 quilômetros (250 milhas) da costa oeste da Antártida e a mais de 1.800 quilômetros (1.100 milhas) do Cabo Horn, no Chile. A extrema distância de outras massas de terra e a sua posição geográfica no Oceano Antártico contribuem para as condições climáticas severas e para a formação de padrões atmosféricos singulares observados em seu entorno. A NASA conduziu pesquisas na Ilha Pedro I como parte da campanha da Operação IceBridge em 2011. Esta missão científica aérea foi projetada para coletar um conjunto abrangente de medições sobre o gelo polar da Terra. Seu objetivo principal era preencher a lacuna de dados entre as missões dos satélites ICESat e ICESat-2, garantindo a continuidade do registro de observações cruciais para o mon</content:encoded>
-            </item><item>
-              <title>Avanço financiado pelo NIH reduz o CRISPR para entrega precisa no corpo</title>
-              <link>https://www.cosmosweek.com/noticia/nih-funded-breakthrough-shrinks-crispr-for-precision-delivery-in-the-body/</link>
-              <guid>https://www.cosmosweek.com/noticia/nih-funded-breakthrough-shrinks-crispr-for-precision-delivery-in-the-body/</guid>
-              <pubDate>Wed, 06 May 2026 17:06:05 +0000</pubDate>
-              <author>contato@cosmosweek.com (Cosmos Week)</author>
-              <description>Um sistema menor de edição genética poderia expandir as opções de tratamento para câncer, ELA e outras doenças.</description>
-              <category>Biologia</category><category>NIH News Releases</category><category>Cosmos Week</category><category>Avanço financiado pelo NIH reduz o CRISPR para entrega precisa no corpo</category>
-              <source url="https://www.nih.gov/news-events/news-releases/nih-funded-breakthrough-shrinks-crispr-precision-delivery-body">NIH News Releases</source>
-              <content:encoded>Um sistema menor de edição genética poderia expandir as opções de tratamento para câncer, ELA e outras doenças. Uma equipe de pesquisa financiada pelos Institutos Nacionais de Saúde (NIH) descobriu um sistema aprimorado de edição genética CRISPR que poderia permitir a entrega direcionada dentro do corpo humano, um passo fundamental para um uso clínico mais amplo. Os pesquisadores identificaram uma enzima que ocorre naturalmente, Al3Cas12f, que é pequena o suficiente para caber em vetores de vírus adeno-associados, um método líder de entrega direcionada para terapias genéticas. A entrega inteligente de sistemas de edição genética é uma noção poderosa com amplas implicações clínicas, e esta descoberta científica básica nos leva a um passo significativo em direção a esse futuro”, disse Erica Brown, Ph. Em comparação com os outros que analisamos, o Al3Cas12f basicamente vem pré-montado e pro</content:encoded>
             </item><item>
               <title>Webb e Hubble descobrem que aglomerados estelares massivos emergem mais rápido</title>
               <link>https://www.cosmosweek.com/noticia/webb-hubble-find-massive-star-clusters-emerge-faster/</link>
