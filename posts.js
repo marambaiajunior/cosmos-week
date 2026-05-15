@@ -3,51 +3,51 @@
 window.postsData = [
   {
     "id": 1,
-    "slug": "nih-funded-ai-model-predicts-cancer-survival-from-single-cell-tumor-data",
+    "slug": "clinical-trial-finds-no-difference-in-fluid-treatment-options-for-pediatric-sepsis",
     "cat": "Biologia",
     "catCls": "biologia",
-    "img": "https://www.nih.gov/sites/default/files/styles/max_650x650/public/2026-04/20260421-melanoma.jpeg?itok=t8SMliez",
+    "img": "https://www.nih.gov/sites/default/files/styles/max_650x650/public/2026-04/2026042-saline.jpeg?itok=_xh31i5O",
     "inline_images": [],
     "video": null,
     "audio": null,
-    "title": "Modelo de IA financiado pelo NIH prevê sobrevivência ao câncer a partir de dados de tumores unicelulares",
-    "title_pt": "Modelo de IA financiado pelo NIH prevê sobrevivência ao câncer a partir de dados de tumores unicelulares",
-    "title_en": "NIH-funded AI model predicts cancer survival from single-cell tumor data",
-    "sub": "Em um estudo financiado pelos Institutos Nacionais de Saúde (NIH), pesquisadores desenvolveram uma ferramenta de avaliação do câncer capaz de identificar pacientes de alto risco e.",
-    "sub_pt": "Em um estudo financiado pelos Institutos Nacionais de Saúde (NIH), pesquisadores desenvolveram uma ferramenta de avaliação do câncer capaz de identificar pacientes de alto risco e.",
-    "sub_en": "In a National Institutes of Health-funded study, researchers developed a cancer assessment tool that can identify high-risk patients and the tumor cells linked to that risk.",
-    "excerpt": "Em um estudo financiado pelos Institutos Nacionais de Saúde (NIH), pesquisadores desenvolveram uma ferramenta de avaliação do câncer capaz de identificar pacientes de alto risco e as células tumorais associadas a esse risco.",
-    "excerpt_pt": "Em um estudo financiado pelos Institutos Nacionais de Saúde (NIH), pesquisadores desenvolveram uma ferramenta de avaliação do câncer capaz de identificar pacientes de alto risco e as células tumorais associadas a esse risco.",
-    "excerpt_en": "In a National Institutes of Health-funded study, researchers developed a cancer assessment tool that can identify high-risk patients and the tumor cells linked to that risk.",
-    "body": "<p>Em um avanço significativo para a oncologia, pesquisadores desenvolveram uma inovadora ferramenta de avaliação do câncer, financiada pelos Institutos Nacionais de Saúde (NIH). Este modelo é capaz de identificar pacientes de alto risco e as células tumorais específicas associadas a esse prognóstico desfavorável. A pesquisa, conduzida com o apoio do NIH, envolveu a Oregon Health &amp; Science University (OHSU), onde o modelo foi testado em dados clínicos de mais de 150 pacientes com diversos tipos de câncer. A capacidade de analisar dados de expressão genética unicelular, que podem abranger milhares a milhões de células tumorais, representa um desafio complexo para a medicina personalizada. Anteriormente, a vasta quantidade de informações geradas por essas análises dificultava a extração de insights clinicamente relevantes, muitas vezes obscurecendo os detalhes mais sutis que poderiam ser cruciais para a compreensão da doença e a previsão de sua progressão.</p><p>A coleta de dados de expressão genética unicelular revolucionou a compreensão da heterogeneidade tumoral, permitindo uma visão sem precedentes das características individuais de cada célula dentro de um tumor. No entanto, a análise desses vastos e complexos conjuntos de dados sempre representou um gargalo. Métodos tradicionais frequentemente simplificavam demais as informações, perdendo a riqueza dos detalhes que poderiam diferenciar células cruciais para a progressão da doença daquelas menos relevantes. Diante dessa limitação, os autores do novo estudo buscaram desenvolver uma abordagem computacional que pudesse utilizar de forma mais eficaz os ricos conjuntos de dados disponíveis, preservando a integralidade de suas informações e, consequentemente, aprofundando a compreensão sobre a biologia do câncer.</p><p>Para superar os desafios analíticos, a equipe de pesquisa desenvolveu uma ferramenta inovadora denominada scSurvival. Este modelo opera atribuindo um peso específico a cada célula individual, com base no grau em que essa célula está relacionada à sobrevivência do paciente. Ao fazer isso, o scSurvival consegue filtrar e priorizar informações provenientes de células que possuem maior impacto prognóstico, enquanto minimiza o ruído gerado por células menos importantes para a previsão do desfecho clínico. Essa metodologia permite uma análise mais focada e precisa, direcionando a atenção para os componentes celulares que realmente influenciam a trajetória da doença, o que é fundamental para a identificação de biomarcadores e alvos terapêuticos.</p><p>A eficácia do scSurvival foi rigorosamente testada em dados clínicos de pacientes diagnosticados com melanoma ou câncer de fígado. Os resultados foram promissores, demonstrando que a ferramenta previu os desfechos clínicos com uma precisão significativamente maior em comparação com os métodos tradicionais de análise. Essa capacidade aprimorada de previsão pode ter implicações profundas para a estratificação de risco de pacientes, permitindo que médicos identifiquem com maior antecedência aqueles que necessitam de intervenções mais agressivas ou monitoramento mais intensivo. A validação em diferentes tipos de câncer sugere a robustez e a aplicabilidade generalizada do modelo, abrindo caminho para sua potencial implementação em diversas outras neoplasias.</p><p>A introdução do scSurvival representa um passo crucial na direção da medicina de precisão em oncologia. Ao fornecer uma ferramenta que não apenas identifica pacientes de alto risco, mas também aponta para as células tumorais específicas que impulsionam esse risco, os pesquisadores estão equipando a comunidade médica com um recurso poderoso para personalizar estratégias de tratamento. Essa abordagem pode levar ao desenvolvimento de terapias mais direcionadas, à otimização de regimes de dosagem e à identificação de novos alvos terapêuticos, resultando em melhores resultados para os pacientes. A capacidade de prever a sobrevivência com base em dados unicelulares detalhados pode transformar a forma como o câncer é diagnosticado, monitorado e tratado, oferecendo esperança para intervenções mais eficazes e menos tóxicas.</p><p>Esta pesquisa inovadora foi substancialmente apoiada pelo National Cancer Institute (NCI), um dos 27 institutos e centros que compõem os Institutos Nacionais de Saúde (NIH), a principal agência de pesquisa médica do país. O financiamento foi concedido por meio de diversos subsídios, incluindo R01CA283171, U01CA253472, U01CA281902 e U24CA264128, o que sublinha o compromisso do NCI com o avanço da ciência oncológica. O NCI desempenha um papel fundamental na liderança do Programa Nacional do Câncer e nos esforços contínuos do NIH para reduzir drasticamente a prevalência da doença e melhorar a qualidade de vida dos pacientes e suas famílias, por meio de pesquisas abrangentes em prevenção, biologia do câncer e desenvolvimento de novas terapias.</p>",
-    "body_pt": "<p>Em um avanço significativo para a oncologia, pesquisadores desenvolveram uma inovadora ferramenta de avaliação do câncer, financiada pelos Institutos Nacionais de Saúde (NIH). Este modelo é capaz de identificar pacientes de alto risco e as células tumorais específicas associadas a esse prognóstico desfavorável. A pesquisa, conduzida com o apoio do NIH, envolveu a Oregon Health &amp; Science University (OHSU), onde o modelo foi testado em dados clínicos de mais de 150 pacientes com diversos tipos de câncer. A capacidade de analisar dados de expressão genética unicelular, que podem abranger milhares a milhões de células tumorais, representa um desafio complexo para a medicina personalizada. Anteriormente, a vasta quantidade de informações geradas por essas análises dificultava a extração de insights clinicamente relevantes, muitas vezes obscurecendo os detalhes mais sutis que poderiam ser cruciais para a compreensão da doença e a previsão de sua progressão.</p><p>A coleta de dados de expressão genética unicelular revolucionou a compreensão da heterogeneidade tumoral, permitindo uma visão sem precedentes das características individuais de cada célula dentro de um tumor. No entanto, a análise desses vastos e complexos conjuntos de dados sempre representou um gargalo. Métodos tradicionais frequentemente simplificavam demais as informações, perdendo a riqueza dos detalhes que poderiam diferenciar células cruciais para a progressão da doença daquelas menos relevantes. Diante dessa limitação, os autores do novo estudo buscaram desenvolver uma abordagem computacional que pudesse utilizar de forma mais eficaz os ricos conjuntos de dados disponíveis, preservando a integralidade de suas informações e, consequentemente, aprofundando a compreensão sobre a biologia do câncer.</p><p>Para superar os desafios analíticos, a equipe de pesquisa desenvolveu uma ferramenta inovadora denominada scSurvival. Este modelo opera atribuindo um peso específico a cada célula individual, com base no grau em que essa célula está relacionada à sobrevivência do paciente. Ao fazer isso, o scSurvival consegue filtrar e priorizar informações provenientes de células que possuem maior impacto prognóstico, enquanto minimiza o ruído gerado por células menos importantes para a previsão do desfecho clínico. Essa metodologia permite uma análise mais focada e precisa, direcionando a atenção para os componentes celulares que realmente influenciam a trajetória da doença, o que é fundamental para a identificação de biomarcadores e alvos terapêuticos.</p><p>A eficácia do scSurvival foi rigorosamente testada em dados clínicos de pacientes diagnosticados com melanoma ou câncer de fígado. Os resultados foram promissores, demonstrando que a ferramenta previu os desfechos clínicos com uma precisão significativamente maior em comparação com os métodos tradicionais de análise. Essa capacidade aprimorada de previsão pode ter implicações profundas para a estratificação de risco de pacientes, permitindo que médicos identifiquem com maior antecedência aqueles que necessitam de intervenções mais agressivas ou monitoramento mais intensivo. A validação em diferentes tipos de câncer sugere a robustez e a aplicabilidade generalizada do modelo, abrindo caminho para sua potencial implementação em diversas outras neoplasias.</p><p>A introdução do scSurvival representa um passo crucial na direção da medicina de precisão em oncologia. Ao fornecer uma ferramenta que não apenas identifica pacientes de alto risco, mas também aponta para as células tumorais específicas que impulsionam esse risco, os pesquisadores estão equipando a comunidade médica com um recurso poderoso para personalizar estratégias de tratamento. Essa abordagem pode levar ao desenvolvimento de terapias mais direcionadas, à otimização de regimes de dosagem e à identificação de novos alvos terapêuticos, resultando em melhores resultados para os pacientes. A capacidade de prever a sobrevivência com base em dados unicelulares detalhados pode transformar a forma como o câncer é diagnosticado, monitorado e tratado, oferecendo esperança para intervenções mais eficazes e menos tóxicas.</p><p>Esta pesquisa inovadora foi substancialmente apoiada pelo National Cancer Institute (NCI), um dos 27 institutos e centros que compõem os Institutos Nacionais de Saúde (NIH), a principal agência de pesquisa médica do país. O financiamento foi concedido por meio de diversos subsídios, incluindo R01CA283171, U01CA253472, U01CA281902 e U24CA264128, o que sublinha o compromisso do NCI com o avanço da ciência oncológica. O NCI desempenha um papel fundamental na liderança do Programa Nacional do Câncer e nos esforços contínuos do NIH para reduzir drasticamente a prevalência da doença e melhorar a qualidade de vida dos pacientes e suas famílias, por meio de pesquisas abrangentes em prevenção, biologia do câncer e desenvolvimento de novas terapias.</p>",
-    "body_en": "<p>In a National Institutes of Health-funded study, researchers developed a cancer assessment tool that can identify high-risk patients and the tumor cells linked to that risk. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern. The gap between identifying a correlation in biological data and understanding the causal chain that produces it is routinely underestimated, and the history of biomedical research is populated with associations that collapsed when the mechanism was sought and not found. A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive finding because it generates testable predictions that can narrow the hypothesis space. In a National Institutes of Health (NIH)-funded study, researchers developed a cancer assessment tool that can identify high-risk patients and the tumor cells linked to that risk. With NIH support, Oregon Health &amp; Science University (OHSU) tested the model on clinical data from more than 150 cancer patients.</p><p>While researchers have managed to collect single-cell gene expression data from thousands to millions of tumor cells, analyzing it has been another story entirely. The authors of the new study sought to devise an approach that better utilizes the rich datasets that are available, preserving their finer details.</p><p>To accomplish this, scSurvival assigns each cell a weight based on the degree that the cell is related to survival, filtering out information from less important cells. They then tested it on clinical data from patients with melanoma or liver cancer and found it predicted outcomes more accurately than traditional methods.</p><p>This research was supported in part by NCI through grants R01CA283171, U01CA253472, U01CA281902, and U24CA264128. About the National Cancer Institute (NCI): NCI leads the National Cancer Program and NIH’s efforts to dramatically reduce the prevalence of cancer and improve the lives of cancer.</p><p>The broader interest lies in whether the reported effect points toward a real mechanism and not merely a reproducible but unexplained association. Biology has learned from decades of biomarker failures that correlation, even robust correlation, is not a substitute for mechanistic understanding. A pathway that can be traced from molecular interaction to cellular response to organismal phenotype provides a far stronger foundation for intervention than a statistical association discovered in a large dataset, however well the statistics are done.</p><p>NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both. For more information about NIH and its programs, visit www. nih. gov.</p><p>Because the account originates with NIH News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to test whether the effect repeats across different methods, cell types, model organisms and experimental conditions. Reproducibility is the first test, but mechanistic dissection is the second, and a result that passes both has a substantially better chance of translating into something clinically or biotechnologically useful. The path from a laboratory finding to an applied outcome typically takes a decade or more, and most findings do not complete it; the current result sits at the beginning of that process.</p><p class=\"art-source\"><a href=\"https://www.nih.gov/news-events/news-releases/nih-funded-ai-model-predicts-cancer-survival-single-cell-tumor-data\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "title": "Ensaio Clínico Não Demonstra Diferença entre Opções de Fluidos para Tratamento de Sepse Pediátrica",
+    "title_pt": "Ensaio Clínico Não Demonstra Diferença entre Opções de Fluidos para Tratamento de Sepse Pediátrica",
+    "title_en": "Clinical trial finds no difference in fluid treatment options for pediatric sepsis",
+    "sub": "O estudo apoiado pelo NIH é o maior já realizado para comparar intervenções com fluidos para prevenir danos renais graves em crianças tratadas de choque séptico.",
+    "sub_pt": "O estudo apoiado pelo NIH é o maior já realizado para comparar intervenções com fluidos para prevenir danos renais graves em crianças tratadas de choque séptico.",
+    "sub_en": "NIH-supported study is largest ever to compare fluid interventions to prevent major kidney damage in children treated for septic shock.",
+    "excerpt": "O estudo apoiado pelo NIH é o maior já realizado para comparar intervenções com fluidos para prevenir danos renais graves em crianças tratadas de choque séptico.",
+    "excerpt_pt": "O estudo apoiado pelo NIH é o maior já realizado para comparar intervenções com fluidos para prevenir danos renais graves em crianças tratadas de choque séptico.",
+    "excerpt_en": "NIH-supported study is largest ever to compare fluid interventions to prevent major kidney damage in children treated for septic shock.",
+    "body": "<p>Um extenso ensaio clínico, financiado pelos Institutos Nacionais de Saúde (NIH), comparou dois tratamentos com fluidos intravenosos frequentemente utilizados em pacientes pediátricos com choque séptico. Este estudo, o maior já realizado com esse objetivo, buscou determinar qual tipo de fluido cristaloide seria superior para prevenir danos renais graves em crianças nessa condição potencialmente fatal. Com a participação de mais de 9.000 indivíduos em cinco países, a pesquisa não encontrou diferenças significativas nos resultados entre as opções de tratamento avaliadas.</p><p>Os participantes foram divididos em dois grupos, recebendo um tipo específico de fluido intravenoso por um período de 24 a 48 horas. O principal desfecho avaliado foi o número de dias sem hospitalização. Ambos os grupos alcançaram uma mediana de 23 dias sem necessidade de internação durante os 28 dias subsequentes à inscrição no estudo. Essa similaridade nos resultados primários sugere que, em termos de recuperação geral e tempo de hospitalização, as duas abordagens são comparáveis.</p><p>Apesar da ausência de diferenças nos desfechos primários, foram observadas algumas distinções em parâmetros secundários. As crianças que receberam solução salina a 0, 9% apresentaram incidências significativamente mais altas de níveis anormalmente elevados de cloreto e sódio no sangue. Por outro lado, aquelas que receberam o fluido balanceado tiveram uma incidência ligeiramente maior de lactato anormalmente elevado. Essas variações nos eletrólitos e metabólitos sanguíneos são importantes para a monitorização clínica, mas não se traduziram em diferenças nos resultados clínicos significativos avaliados pelo estudo.</p><p>Os autores do estudo ressaltam algumas limitações importantes. A pesquisa focou em crianças com sepse adquirida na comunidade que foram atendidas em prontos-socorros de locais com muitos recursos. Consequentemente, não há certeza se esses resultados podem ser generalizados para ambientes com poucos recursos ou para pacientes com condições clínicas subjacentes mais complexas que não foram o foco deste ensaio. A aplicabilidade dos achados a outras populações ou contextos clínicos ainda precisa ser investigada.</p><p>Apesar das limitações mencionadas, os resultados deste ensaio clínico fornecem uma importante confirmação para os médicos de emergência. Eles podem ter a certeza de que tanto o fluido balanceado quanto a solução salina a 0, 9% são opções seguras e eficazes para o tratamento de crianças com choque séptico. Esta evidência robusta pode guiar a prática clínica, oferecendo flexibilidade na escolha do fluido, dependendo da disponibilidade e da experiência local. Para mais informações sobre o estudo e as atividades do NIH, é possível visitar o site oficial da instituição. Os Institutos Nacionais de Saúde (NIH) são a principal agência de pesquisa médica do país, compreendendo 27 institutos e centros, e fazem parte do Departamento de Saúde e Serviços Humanos dos EUA.</p>",
+    "body_pt": "<p>Um extenso ensaio clínico, financiado pelos Institutos Nacionais de Saúde (NIH), comparou dois tratamentos com fluidos intravenosos frequentemente utilizados em pacientes pediátricos com choque séptico. Este estudo, o maior já realizado com esse objetivo, buscou determinar qual tipo de fluido cristaloide seria superior para prevenir danos renais graves em crianças nessa condição potencialmente fatal. Com a participação de mais de 9.000 indivíduos em cinco países, a pesquisa não encontrou diferenças significativas nos resultados entre as opções de tratamento avaliadas.</p><p>Os participantes foram divididos em dois grupos, recebendo um tipo específico de fluido intravenoso por um período de 24 a 48 horas. O principal desfecho avaliado foi o número de dias sem hospitalização. Ambos os grupos alcançaram uma mediana de 23 dias sem necessidade de internação durante os 28 dias subsequentes à inscrição no estudo. Essa similaridade nos resultados primários sugere que, em termos de recuperação geral e tempo de hospitalização, as duas abordagens são comparáveis.</p><p>Apesar da ausência de diferenças nos desfechos primários, foram observadas algumas distinções em parâmetros secundários. As crianças que receberam solução salina a 0, 9% apresentaram incidências significativamente mais altas de níveis anormalmente elevados de cloreto e sódio no sangue. Por outro lado, aquelas que receberam o fluido balanceado tiveram uma incidência ligeiramente maior de lactato anormalmente elevado. Essas variações nos eletrólitos e metabólitos sanguíneos são importantes para a monitorização clínica, mas não se traduziram em diferenças nos resultados clínicos significativos avaliados pelo estudo.</p><p>Os autores do estudo ressaltam algumas limitações importantes. A pesquisa focou em crianças com sepse adquirida na comunidade que foram atendidas em prontos-socorros de locais com muitos recursos. Consequentemente, não há certeza se esses resultados podem ser generalizados para ambientes com poucos recursos ou para pacientes com condições clínicas subjacentes mais complexas que não foram o foco deste ensaio. A aplicabilidade dos achados a outras populações ou contextos clínicos ainda precisa ser investigada.</p><p>Apesar das limitações mencionadas, os resultados deste ensaio clínico fornecem uma importante confirmação para os médicos de emergência. Eles podem ter a certeza de que tanto o fluido balanceado quanto a solução salina a 0, 9% são opções seguras e eficazes para o tratamento de crianças com choque séptico. Esta evidência robusta pode guiar a prática clínica, oferecendo flexibilidade na escolha do fluido, dependendo da disponibilidade e da experiência local. Para mais informações sobre o estudo e as atividades do NIH, é possível visitar o site oficial da instituição. Os Institutos Nacionais de Saúde (NIH) são a principal agência de pesquisa médica do país, compreendendo 27 institutos e centros, e fazem parte do Departamento de Saúde e Serviços Humanos dos EUA.</p>",
+    "body_en": "<p>NIH-supported study is largest ever to compare fluid interventions to prevent major kidney damage in children treated for septic shock. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern. The gap between identifying a correlation in biological data and understanding the causal chain that produces it is routinely underestimated, and the history of biomedical research is populated with associations that collapsed when the mechanism was sought and not found. A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive finding because it generates testable predictions that can narrow the hypothesis space. The trial, which enrolled over 9, 000 participants across five countries, sought to answer a longstanding question about which intravenous crystalloid fluid type was the superior. For decades, pediatricians have debated which is the best intravenous resuscitation treatment for children with severe infections who have suspected septic shock,” said Rohan.</p><p>They assigned over 4, 200 participants between the ages of 2 months and 17 years into each arm of the trial and found no significant differences between the groups for incidences. Participants in both groups received their assigned IV fluid type for 24-48 hours and achieved a median of 23 hospital-free days during the 28 days following enrollment.</p><p>Children receiving the 0.9% saline solution had significantly higher incidences of abnormally high levels of chloride and sodium in their blood, while those receiving the balanced. Because the study targeted children with community-acquired sepsis who presented to an emergency department in high-resource locations, the authors are uncertain if these results.</p><p>New Zealand, and Costa Rica. For more information, visit https: //www. nichd. nih. gov.</p><p>The broader interest lies in whether the reported effect points toward a real mechanism and not merely a reproducible but unexplained association. Biology has learned from decades of biomarker failures that correlation, even robust correlation, is not a substitute for mechanistic understanding. A pathway that can be traced from molecular interaction to cellular response to organismal phenotype provides a far stronger foundation for intervention than a statistical association discovered in a large dataset, however well the statistics are done.</p><p>NIH is the primary federal agency conducting and supporting basic, clinical, and translational medical research, and is investigating the causes, treatments, and cures for both. For more information about NIH and its programs, visit www. nih. gov.</p><p>Because the account originates with NIH News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to test whether the effect repeats across different methods, cell types, model organisms and experimental conditions. Reproducibility is the first test, but mechanistic dissection is the second, and a result that passes both has a substantially better chance of translating into something clinically or biotechnologically useful. The path from a laboratory finding to an applied outcome typically takes a decade or more, and most findings do not complete it; the current result sits at the beginning of that process.</p><p class=\"art-source\"><a href=\"https://www.nih.gov/news-events/news-releases/clinical-trial-finds-no-difference-fluid-treatment-options-pediatric-sepsis\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Em um estudo financiado pelos Institutos Nacionais de Saúde (NIH), pesquisadores desenvolveram uma ferramenta de avaliação do câncer capaz de",
+      "Em foco: O estudo apoiado pelo NIH é o maior já realizado para comparar intervenções com fluidos para prevenir danos renais graves em crianças tratadas de",
       "Detalhe: Origem institucional: distinguir anúncio de evidência",
       "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
     ],
     "highlights_pt": [
-      "Em foco: Em um estudo financiado pelos Institutos Nacionais de Saúde (NIH), pesquisadores desenvolveram uma ferramenta de avaliação do câncer capaz de",
+      "Em foco: O estudo apoiado pelo NIH é o maior já realizado para comparar intervenções com fluidos para prevenir danos renais graves em crianças tratadas de",
       "Detalhe: Origem institucional: distinguir anúncio de evidência",
       "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
     ],
     "highlights_en": [
-      "Focus: In a National Institutes of Health-funded study, researchers developed a cancer assessment tool that can identify high-risk patients and the tumor",
+      "Focus: NIH-supported study is largest ever to compare fluid interventions to prevent major kidney damage in children treated for septic shock",
       "Detail: Institutional origin: separate announcement from evidence",
       "Editorial reading: institutional release, useful as a primary source but not independent validation."
     ],
-    "date": "14 mai 2026",
-    "date_pt": "14 mai 2026",
-    "date_en": "14 May 2026",
-    "time": "17h21",
-    "time_pt": "17h21",
-    "time_en": "17: 21 UTC",
+    "date": "15 mai 2026",
+    "date_pt": "15 mai 2026",
+    "date_en": "15 May 2026",
+    "time": "17h11",
+    "time_pt": "17h11",
+    "time_en": "17: 11 UTC",
     "read": "4 min de leitura",
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
-    "publishedIso": "2026-05-14T17:21:03.486596+00:00",
-    "lastModifiedIso": "2026-05-14T17:34:21+00:00",
+    "publishedIso": "2026-05-15T17:11:18.384037+00:00",
+    "lastModifiedIso": "2026-05-15T17:23:29+00:00",
     "source": "NIH News Releases",
     "sourceDomain": "www. nih. gov",
     "sourceType": "agency",
@@ -69,30 +69,30 @@ window.postsData = [
       "Biologia",
       "NIH News Releases",
       "Cosmos Week",
-      "Modelo de IA financiado pelo NIH prevê sobrevivência ao câncer a partir de dados de tumores unicelulares"
+      "Ensaio clínico não encontra diferença nas opções de tratamento com fluidos para sepse pediátrica"
     ],
     "keywords_pt": [
       "Biologia",
       "NIH News Releases",
       "Cosmos Week",
-      "Modelo de IA financiado pelo NIH prevê sobrevivência ao câncer a partir de dados de tumores unicelulares"
+      "Ensaio clínico não encontra diferença nas opções de tratamento com fluidos para sepse pediátrica"
     ],
     "keywords_en": [
       "Biology",
       "NIH News Releases",
       "Cosmos Week",
-      "NIH-funded AI model predicts cancer survival from single-cell tumor data"
+      "Clinical trial finds no difference in fluid treatment options for pediatric sepsis"
     ],
-    "srcUrl": "https://www.nih.gov/news-events/news-releases/nih-funded-ai-model-predicts-cancer-survival-single-cell-tumor-data",
-    "realUrl": "https://www.cosmosweek.com/?article=nih-funded-ai-model-predicts-cancer-survival-from-single-cell-tumor-data",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nih-funded-ai-model-predicts-cancer-survival-from-single-cell-tumor-data",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nih-funded-ai-model-predicts-cancer-survival-from-single-cell-tumor-data&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nih-funded-ai-model-predicts-cancer-survival-from-single-cell-tumor-data/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nih-funded-ai-model-predicts-cancer-survival-from-single-cell-tumor-data/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nih-funded-ai-model-predicts-cancer-survival-from-single-cell-tumor-data/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nih-funded-ai-model-predicts-cancer-survival-from-single-cell-tumor-data/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nih-funded-ai-model-predicts-cancer-survival-from-single-cell-tumor-data/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nih-funded-ai-model-predicts-cancer-survival-from-single-cell-tumor-data/",
+    "srcUrl": "https://www.nih.gov/news-events/news-releases/clinical-trial-finds-no-difference-fluid-treatment-options-pediatric-sepsis",
+    "realUrl": "https://www.cosmosweek.com/?article=clinical-trial-finds-no-difference-in-fluid-treatment-options-for-pediatric-sepsis",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=clinical-trial-finds-no-difference-in-fluid-treatment-options-for-pediatric-sepsis",
+    "realUrl_en": "https://www.cosmosweek.com/?article=clinical-trial-finds-no-difference-in-fluid-treatment-options-for-pediatric-sepsis&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/clinical-trial-finds-no-difference-in-fluid-treatment-options-for-pediatric-sepsis/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/clinical-trial-finds-no-difference-in-fluid-treatment-options-for-pediatric-sepsis/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/clinical-trial-finds-no-difference-in-fluid-treatment-options-for-pediatric-sepsis/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/clinical-trial-finds-no-difference-in-fluid-treatment-options-for-pediatric-sepsis/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/clinical-trial-finds-no-difference-in-fluid-treatment-options-for-pediatric-sepsis/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/clinical-trial-finds-no-difference-in-fluid-treatment-options-for-pediatric-sepsis/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
@@ -113,9 +113,9 @@ window.postsData = [
       "accessibility": 52,
       "novelty": 55
     },
-    "imageAlt": "Modelo de IA financiado pelo NIH prevê sobrevivência ao câncer a partir de dados de tumores unicelulares",
-    "imageAlt_pt": "Modelo de IA financiado pelo NIH prevê sobrevivência ao câncer a partir de dados de tumores unicelulares",
-    "imageAlt_en": "NIH-funded AI model predicts cancer survival from single-cell tumor data",
+    "imageAlt": "Ensaio Clínico Não Demonstra Diferença entre Opções de Fluidos para Tratamento de Sepse Pediátrica",
+    "imageAlt_pt": "Ensaio Clínico Não Demonstra Diferença entre Opções de Fluidos para Tratamento de Sepse Pediátrica",
+    "imageAlt_en": "Clinical trial finds no difference in fluid treatment options for pediatric sepsis",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
@@ -124,6 +124,270 @@ window.postsData = [
   },
   {
     "id": 2,
+    "slug": "uap-in-this-case-it-s-only-a-model",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/OSIRIS_Mars_true_color.jpg/1280px-OSIRIS_Mars_true_color.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Panorama Recente da Exploração Espacial e Descobertas Científicas",
+    "title_pt": "Panorama Recente da Exploração Espacial e Descobertas Científicas",
+    "title_en": "UAP? In this case, it’s only a model.",
+    "sub": "Este artigo apresenta um panorama de desenvolvimentos recentes na exploração espacial e ciência planetária, abordando desde a geologia marciana e missões a asteroides até.",
+    "sub_pt": "Este artigo apresenta um panorama de desenvolvimentos recentes na exploração espacial e ciência planetária, abordando desde a geologia marciana e missões a asteroides até.",
+    "sub_en": "The Lac de Charmes area on Mars is very scientifically promising because of its diversity of rock types.",
+    "excerpt": "Este artigo apresenta um panorama de desenvolvimentos recentes na exploração espacial e ciência planetária, abordando desde a geologia marciana e missões a asteroides até lançamentos de veículos espaciais e eventos astronômicos, além de questões.",
+    "excerpt_pt": "Este artigo apresenta um panorama de desenvolvimentos recentes na exploração espacial e ciência planetária, abordando desde a geologia marciana e missões a asteroides até lançamentos de veículos espaciais e eventos astronômicos, além de questões.",
+    "excerpt_en": "The Lac de Charmes area on Mars is very scientifically promising because of its diversity of rock types.",
+    "body": "<p>No âmbito da cooperação internacional em exploração espacial, a Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) formalizaram um acordo para uma missão conjunta. O objetivo é estudar o asteroide Apophis durante sua passagem próxima à Terra, prevista para 2029. Esta colaboração representa um esforço significativo para aprofundar o conhecimento sobre asteroides próximos da Terra, avaliando suas características físicas e orbitais. A missão permitirá coletar dados valiosos que podem auxiliar na compreensão dos riscos de impacto e no desenvolvimento de estratégias de defesa planetária, além de fornecer informações sobre a composição e origem desses corpos celestes.</p><p>SpaceX estabeleceu 19 de maio como a data-alvo para o lançamento inaugural da Starship V3. Este veículo de nova geração é projetado para desempenhar um papel fundamental em futuras missões tripuladas à Lua e a Marte, representando um avanço significativo nas capacidades de transporte espacial. A Starship V3 visa otimizar a eficiência e a capacidade de carga para viagens interplanetárias, com o potencial de revolucionar a exploração humana do sistema solar. O sucesso deste lançamento é crucial para os planos de longo prazo da empresa e para a concretização de objetivos ambiciosos na exploração espacial.</p><p>A equipe de política e defesa espacial da Sociedade Planetária tem uma participação ativa na Conferência de Ciência Astrobiológica deste ano, que ocorrerá em Madison, Wisconsin. Durante o evento, serão apresentadas duas sessões importantes. Em 18 de maio, Jack Kiraly, Diretor de Relações Governamentais, conduzirá um treinamento focado em estratégias eficazes para interagir com o Congresso. Essas sessões visam capacitar os membros da comunidade científica e do público interessado a influenciar políticas públicas relacionadas à ciência e exploração espacial, garantindo o apoio contínuo a iniciativas de pesquisa e desenvolvimento.</p><p>Observadores do céu terão a oportunidade de presenciar alguns eventos celestes notáveis. Na madrugada de 18 de maio, uma fina lua crescente estará em proximidade com Vênus, proporcionando um espetáculo visual interessante. Adicionalmente, Saturno, com sua tonalidade amarelada, e Marte, com seu brilho avermelhado, estarão visíveis baixos em direção ao horizonte leste. Esses alinhamentos planetários e fases lunares oferecem momentos propícios para a observação astronômica amadora e profissional, conectando o público com a beleza e a dinâmica do nosso sistema solar.</p><p>Em um desenvolvimento institucional, a Casa Branca anunciou, em 24 de abril, a demissão de todos os 22 membros do conselho de especialistas que supervisiona a National Science Foundation (NSF). Este conselho, com uma longa história de atuação, desempenha um papel crucial na orientação das políticas e prioridades de pesquisa científica nos Estados Unidos. A mudança na composição do conselho pode ter implicações significativas para a direção futura da pesquisa científica financiada pela NSF e para a governança da agência, gerando discussões sobre a continuidade e a estabilidade das políticas científicas.</p>",
+    "body_pt": "<p>No âmbito da cooperação internacional em exploração espacial, a Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) formalizaram um acordo para uma missão conjunta. O objetivo é estudar o asteroide Apophis durante sua passagem próxima à Terra, prevista para 2029. Esta colaboração representa um esforço significativo para aprofundar o conhecimento sobre asteroides próximos da Terra, avaliando suas características físicas e orbitais. A missão permitirá coletar dados valiosos que podem auxiliar na compreensão dos riscos de impacto e no desenvolvimento de estratégias de defesa planetária, além de fornecer informações sobre a composição e origem desses corpos celestes.</p><p>SpaceX estabeleceu 19 de maio como a data-alvo para o lançamento inaugural da Starship V3. Este veículo de nova geração é projetado para desempenhar um papel fundamental em futuras missões tripuladas à Lua e a Marte, representando um avanço significativo nas capacidades de transporte espacial. A Starship V3 visa otimizar a eficiência e a capacidade de carga para viagens interplanetárias, com o potencial de revolucionar a exploração humana do sistema solar. O sucesso deste lançamento é crucial para os planos de longo prazo da empresa e para a concretização de objetivos ambiciosos na exploração espacial.</p><p>A equipe de política e defesa espacial da Sociedade Planetária tem uma participação ativa na Conferência de Ciência Astrobiológica deste ano, que ocorrerá em Madison, Wisconsin. Durante o evento, serão apresentadas duas sessões importantes. Em 18 de maio, Jack Kiraly, Diretor de Relações Governamentais, conduzirá um treinamento focado em estratégias eficazes para interagir com o Congresso. Essas sessões visam capacitar os membros da comunidade científica e do público interessado a influenciar políticas públicas relacionadas à ciência e exploração espacial, garantindo o apoio contínuo a iniciativas de pesquisa e desenvolvimento.</p><p>Observadores do céu terão a oportunidade de presenciar alguns eventos celestes notáveis. Na madrugada de 18 de maio, uma fina lua crescente estará em proximidade com Vênus, proporcionando um espetáculo visual interessante. Adicionalmente, Saturno, com sua tonalidade amarelada, e Marte, com seu brilho avermelhado, estarão visíveis baixos em direção ao horizonte leste. Esses alinhamentos planetários e fases lunares oferecem momentos propícios para a observação astronômica amadora e profissional, conectando o público com a beleza e a dinâmica do nosso sistema solar.</p><p>Em um desenvolvimento institucional, a Casa Branca anunciou, em 24 de abril, a demissão de todos os 22 membros do conselho de especialistas que supervisiona a National Science Foundation (NSF). Este conselho, com uma longa história de atuação, desempenha um papel crucial na orientação das políticas e prioridades de pesquisa científica nos Estados Unidos. A mudança na composição do conselho pode ter implicações significativas para a direção futura da pesquisa científica financiada pela NSF e para a governança da agência, gerando discussões sobre a continuidade e a estabilidade das políticas científicas.</p>",
+    "body_en": "<p>The Lac de Charmes area on Mars is very scientifically promising because of its diversity of rock types. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. This includes megabreccia, huge chunks of rock (some the size of skyscrapers) ejected by a massive meteorite impact about 3.9 billion years ago. On April 24, the White House dismissed all 22 members of the long-standing expert board that oversees the National Science Foundation.</p><p>ESA and JAXA are teaming up on a mission to Apophis. The European Space Agency and Japan Aerospace Exploration Agency recently finalized an agreement to collaborate on a mission to study the asteroid Apophis during its close flyby.</p><p>SpaceX is targeting May 19 for the first launch of Starship V3, a vehicle intended to eventually send crewed missions to the Moon and Mars. The Planetary Society’s space policy and advocacy team will be presenting two sessions at this year’s Astrobiology Science Conference in Madison, Wisconsin.</p><p>On May 18, Director of Government Relations Jack Kiraly will lead a training session on how to work with Congress. On May 18, a thin crescent Moon will be near Venus.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>In the predawn, yellowish Saturn and reddish Mars are low toward the eastern horizon. If you are not one already, become a member TODAY and help shape the future of space science and exploration by fueling mission-critical advocacy efforts.</p><p>Because this item comes through The Planetary Society as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/the-downlink/uap-in-this-case-its-only-a-model\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Este artigo apresenta um panorama de desenvolvimentos recentes na exploração espacial e ciência planetária, abordando desde a geologia marciana e",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_pt": [
+      "Em foco: Este artigo apresenta um panorama de desenvolvimentos recentes na exploração espacial e ciência planetária, abordando desde a geologia marciana e",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_en": [
+      "Focus: The Lac de Charmes area on Mars is very scientifically promising because of its diversity of rock types",
+      "Detail: Science reporting: verify primary technical documentation",
+      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+    ],
+    "date": "15 mai 2026",
+    "date_pt": "15 mai 2026",
+    "date_en": "15 May 2026",
+    "time": "14h30",
+    "time_pt": "14h30",
+    "time_en": "14: 30 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-15T14:30:00+00:00",
+    "lastModifiedIso": "2026-05-15T17:23:29+00:00",
+    "source": "The Planetary Society",
+    "sourceDomain": "www. planetary. org",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Astronomia",
+      "The Planetary Society",
+      "Cosmos Week",
+      "UAP? Neste caso",
+      "é apenas um modelo."
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "The Planetary Society",
+      "Cosmos Week",
+      "UAP? Neste caso",
+      "é apenas um modelo."
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "The Planetary Society",
+      "Cosmos Week",
+      "UAP? In this case",
+      "It's just a model."
+    ],
+    "srcUrl": "https://www.planetary.org/the-downlink/uap-in-this-case-its-only-a-model",
+    "realUrl": "https://www.cosmosweek.com/?article=uap-in-this-case-it-s-only-a-model",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=uap-in-this-case-it-s-only-a-model",
+    "realUrl_en": "https://www.cosmosweek.com/?article=uap-in-this-case-it-s-only-a-model&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/uap-in-this-case-it-s-only-a-model/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/uap-in-this-case-it-s-only-a-model/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/uap-in-this-case-it-s-only-a-model/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/uap-in-this-case-it-s-only-a-model/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/uap-in-this-case-it-s-only-a-model/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/uap-in-this-case-it-s-only-a-model/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 85,
+    "scoreBreakdown": {
+      "source": 83,
+      "evidence": 54,
+      "relevance": 74,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Panorama Recente da Exploração Espacial e Descobertas Científicas",
+    "imageAlt_pt": "Panorama Recente da Exploração Espacial e Descobertas Científicas",
+    "imageAlt_en": "UAP? In this case, it’s only a model.",
+    "coverageKind": "news",
+    "coverageKindLabel": "Jornalismo científico",
+    "coverageKindLabel_pt": "Jornalismo científico",
+    "coverageKindLabel_en": "Science journalism",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
+    "slug": "picturing-earth-in-a-new-light",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/picturing-earth-in-a-new-light/nightlights_20142022_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/picturing-earth-in-a-new-light/nightlights_20142022_lrg.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Retratando a Terra sob uma nova luz",
+    "title_pt": "Retratando a Terra sob uma nova luz",
+    "title_en": "Picturing Earth in a New Light",
+    "sub": "Uma análise recente revelou onde a luz artificial à noite se intensificou, bem como onde diminuiu.",
+    "sub_pt": "Uma análise recente revelou onde a luz artificial à noite se intensificou, bem como onde diminuiu.",
+    "sub_en": "A recent analysis revealed where artificial light at night has intensified, as well as where it has diminished.",
+    "excerpt": "Uma análise recente revelou onde a luz artificial à noite se intensificou, bem como onde diminuiu.",
+    "excerpt_pt": "Uma análise recente revelou onde a luz artificial à noite se intensificou, bem como onde diminuiu.",
+    "excerpt_en": "A recent analysis revealed where artificial light at night has intensified, as well as where it has diminished.",
+    "body": "<p>O produto Black Marble da NASA é fundamental para essa compreensão aprofundada. Ele utiliza observações dos sensores VIIRS (Visible Infrared Imaging Radiometer Suite) a bordo dos satélites Suomi-NPP, NOAA-20 e NOAA-21. Esses instrumentos são capazes de capturar registros detalhados das luzes noturnas em diversas escalas de tempo, incluindo dados diários, mensais e anuais. A capacidade de monitorar a Terra à noite com tal precisão permite aos cientistas identificar tendências e anomalias que seriam imperceptíveis por outros meios, fornecendo uma base robusta para análises sobre o uso de energia, urbanização e impactos ambientais da poluição luminosa.</p><p>Os mapas gerados a partir desta análise, como os visualizados pelo Observatório da Terra da NASA e Michala Garrison, ilustram de forma vívida as mudanças ocorridas. Neles, as áreas representadas em tons de amarelo e dourado indicam regiões onde houve um aumento notável no brilho da luz artificial durante o período de estudo, de 2014 a 2022. Em contraste, as áreas marcadas em roxo sinalizam locais onde o escurecimento foi mais pronunciado. Essa representação visual não apenas localiza as mudanças, mas também permite uma compreensão intuitiva da complexidade dos padrões de iluminação global, revelando que a evolução da luz noturna é muito mais matizada do que um simples crescimento linear.</p><p>A descoberta de que os padrões de luz artificial noturna são muito mais matizados do que um aumento gradual e uniforme ao longo de quase uma década é um dos pontos mais relevantes do estudo. Isso sugere que fatores locais e regionais desempenham um papel crucial na forma como a iluminação artificial evolui. Enquanto algumas regiões experimentam um crescimento contínuo devido à expansão urbana e ao desenvolvimento econômico, outras podem estar implementando medidas de eficiência energética, substituindo tecnologias de iluminação ou enfrentando declínios populacionais ou econômicos que resultam em menor uso de luz. Compreender essas dinâmicas é essencial para formular políticas eficazes de gestão da luz e mitigar seus efeitos adversos.</p><p>A relevância desta pesquisa transcende a mera quantificação da luz. Ela oferece insights valiosos sobre as dimensões humanas da mudança global, conectando o uso da luz artificial a tendências socioeconômicas e ambientais. A capacidade de mapear e monitorar essas alterações em escala planetária é crucial para estudos sobre poluição luminosa, consumo de energia e até mesmo para a saúde de ecossistemas noturnos. A importância do trabalho foi reconhecida pela comunidade científica, culminando na publicação da imagem e do estudo na prestigiada revista Nature, em abril de 2026, destacando a vanguarda da pesquisa da NASA nesta área.</p>",
+    "body_pt": "<p>O produto Black Marble da NASA é fundamental para essa compreensão aprofundada. Ele utiliza observações dos sensores VIIRS (Visible Infrared Imaging Radiometer Suite) a bordo dos satélites Suomi-NPP, NOAA-20 e NOAA-21. Esses instrumentos são capazes de capturar registros detalhados das luzes noturnas em diversas escalas de tempo, incluindo dados diários, mensais e anuais. A capacidade de monitorar a Terra à noite com tal precisão permite aos cientistas identificar tendências e anomalias que seriam imperceptíveis por outros meios, fornecendo uma base robusta para análises sobre o uso de energia, urbanização e impactos ambientais da poluição luminosa.</p><p>Os mapas gerados a partir desta análise, como os visualizados pelo Observatório da Terra da NASA e Michala Garrison, ilustram de forma vívida as mudanças ocorridas. Neles, as áreas representadas em tons de amarelo e dourado indicam regiões onde houve um aumento notável no brilho da luz artificial durante o período de estudo, de 2014 a 2022. Em contraste, as áreas marcadas em roxo sinalizam locais onde o escurecimento foi mais pronunciado. Essa representação visual não apenas localiza as mudanças, mas também permite uma compreensão intuitiva da complexidade dos padrões de iluminação global, revelando que a evolução da luz noturna é muito mais matizada do que um simples crescimento linear.</p><p>A descoberta de que os padrões de luz artificial noturna são muito mais matizados do que um aumento gradual e uniforme ao longo de quase uma década é um dos pontos mais relevantes do estudo. Isso sugere que fatores locais e regionais desempenham um papel crucial na forma como a iluminação artificial evolui. Enquanto algumas regiões experimentam um crescimento contínuo devido à expansão urbana e ao desenvolvimento econômico, outras podem estar implementando medidas de eficiência energética, substituindo tecnologias de iluminação ou enfrentando declínios populacionais ou econômicos que resultam em menor uso de luz. Compreender essas dinâmicas é essencial para formular políticas eficazes de gestão da luz e mitigar seus efeitos adversos.</p><p>A relevância desta pesquisa transcende a mera quantificação da luz. Ela oferece insights valiosos sobre as dimensões humanas da mudança global, conectando o uso da luz artificial a tendências socioeconômicas e ambientais. A capacidade de mapear e monitorar essas alterações em escala planetária é crucial para estudos sobre poluição luminosa, consumo de energia e até mesmo para a saúde de ecossistemas noturnos. A importância do trabalho foi reconhecida pela comunidade científica, culminando na publicação da imagem e do estudo na prestigiada revista Nature, em abril de 2026, destacando a vanguarda da pesquisa da NASA nesta área.</p>",
+    "body_en": "<p>A recent analysis revealed where artificial light at night has intensified, as well as where it has diminished. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. An analysis of nearly a decade of nighttime lights data (2014-2022) from NASA’s Black Marble product revealed areas of brightening (gold) and dimming (purple) shown here across. NASA Earth Observatory/Michala Garrison Overall, the researchers found that global radiance increased by 34 percent during the study period, but that surge masks large areas of.</p><p>Article View more Images of the Day: May 14, 2026 Instruments: NOAA-20, VIIRS NOAA-21, VIIRS Suomi NPP, VIIRS Collections: Earth at Night Topics: Human Dimensions Some parts of. NASA Earth Observatory/Michala Garrison Maps can show more than just where things are, they can also show how things change.</p><p>NASA’s Black Marble product uses observations from the VIIRS (Visible Infrared Imaging Radiometer Suite) sensors on the Suomi-NPP, NOAA-20, and NOAA-21 satellites to produce. Yellow and gold areas are where there has been more brightening during the study period, from 2014 to 2022, and purple areas are where there has been more dimming.</p><p>The image was featured on the cover of Nature, where the study was published in April 2026. Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Article Northern Glow Spans Iceland and Canada 3 min read A vivid display of the aurora lit up skies over the Denmark Strait and eastern Canada during a minor geomagnetic. Article 1 2 3 4 Next Keep Exploring Discover More from NASA Earth Science Subscribe to Earth Observatory Newsletters Subscribe to the Earth Observatory and get the Earth in your.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/picturing-earth-in-a-new-light/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Uma análise recente revelou onde a luz artificial à noite se intensificou, bem como onde diminuiu",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Uma análise recente revelou onde a luz artificial à noite se intensificou, bem como onde diminuiu",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: A recent analysis revealed where artificial light at night has intensified, as well as where it has diminished",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "15 mai 2026",
+    "date_pt": "15 mai 2026",
+    "date_en": "15 May 2026",
+    "time": "04h00",
+    "time_pt": "04h00",
+    "time_en": "04: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-15T04:00:00+00:00",
+    "lastModifiedIso": "2026-05-15T17:23:29+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Retratando a Terra sob uma nova luz"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Retratando a Terra sob uma nova luz"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Portraying Earth in a New Light"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/picturing-earth-in-a-new-light/",
+    "realUrl": "https://www.cosmosweek.com/?article=picturing-earth-in-a-new-light",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=picturing-earth-in-a-new-light",
+    "realUrl_en": "https://www.cosmosweek.com/?article=picturing-earth-in-a-new-light&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/picturing-earth-in-a-new-light/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/picturing-earth-in-a-new-light/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/picturing-earth-in-a-new-light/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/picturing-earth-in-a-new-light/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/picturing-earth-in-a-new-light/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/picturing-earth-in-a-new-light/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Retratando a Terra sob uma nova luz",
+    "imageAlt_pt": "Retratando a Terra sob uma nova luz",
+    "imageAlt_en": "Picturing Earth in a New Light",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 4,
     "slug": "ice-moves-out-of-aniak",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -272,7 +536,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 5,
     "slug": "inpainting-over-the-cracks-challenges-of-applying-pre-merger-searches-for-massive-black-hole-bin",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -293,18 +557,19 @@ window.postsData = [
     "body_pt": "<p>Neste estudo, demonstramos e comparamos dois métodos distintos para a identificação pré-fusão de binários massivos de buracos negros. A primeira abordagem consiste em um filtro de latência zero, projetado para detecção em tempo real. A segunda, e apresentada pela primeira vez neste contexto, utiliza uma técnica de &#x27;inpainting&#x27;. Essa técnica, comumente empregada para preencher lacunas em imagens ou dados, é adaptada aqui para inferir a presença de sinais mesmo em segmentos de dados incompletos. A comparação entre essas duas metodologias visa avaliar sua eficácia e robustez em cenários realistas de observação.</p><p>Para testar a eficácia dessas abordagens, aplicamos ambos os métodos ao conjunto de dados 2a do LISA Data Challenge, especificamente à simulação Sangria-HM. Este conjunto de dados é representativo dos desafios e características esperadas das observações reais do LISA. Os resultados iniciais foram promissores: demonstramos a recuperação bem-sucedida dos 14 sinais presentes no conjunto de dados que se esperava serem identificáveis com pelo menos meio dia de antecedência em relação à fusão. Essa capacidade de detecção precoce é vital para coordenar observações complementares em diferentes comprimentos de onda do espectro eletromagnético.</p><p>Um dos achados mais significativos deste trabalho reside na demonstração da robustez do método de &#x27;inpainting&#x27; frente à presença de lacunas nos dados. Mostramos que essa técnica é capaz de identificar sinais pré-fusão mesmo quando há interrupções consideráveis na coleta de informações. Por exemplo, conseguimos recuperar um sinal mesmo após a introdução artificial de lacunas de dados de três dias nos quatorze dias que antecederam a fusão. Essa resiliência é particularmente relevante, pois lacunas nos dados podem ocorrer devido a interrupções operacionais ou interferências, e a capacidade de superá-las amplia significativamente o potencial de detecção do LISA.</p><p>Finalmente, exploramos o complexo desafio da sobreposição de sinais, uma situação comum em ambientes astrofísicos densos. Utilizamos uma região do conjunto de dados Sangria-HM onde múltiplos sinais estavam sobrepostos, todos eles se fundindo em uma janela de dez dias. Demonstramos como a remoção de sinais que foram identificados com segurança nos dados permite a detecção e análise de outros sinais subjacentes que, de outra forma, permaneceriam ocultos. Essa capacidade de &#x27;desemaranhar&#x27; sinais sobrepostos é crucial para maximizar o número de eventos detectáveis e para uma compreensão mais completa da população de binários de buracos negros massivos.</p><p>Em síntese, este estudo valida a eficácia de abordagens computacionais para a identificação pré-fusão de binários de buracos negros massivos, um passo fundamental para a astronomia multi-mensageira com o LISA. A comparação entre o filtro de latência zero e a técnica de &#x27;inpainting&#x27; revela ferramentas poderosas para a detecção precoce, mesmo em condições desafiadoras como a presença de lacunas ou a sobreposição de sinais. Os resultados obtidos com o LISA Data Challenge 2a - Sangria-HM reforçam a viabilidade de alertar observatórios eletromagnéticos com antecedência suficiente, abrindo novas janelas para a compreensão dos fenômenos mais energéticos do universo.</p>",
     "body_en": "<p>A key science target of the Large Interferometer Space Antenna is to carry out multi-messenger observations of massive black hole binaries, observing the merger simultaneously in gravitational waves and with electromagnetic observatories. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>That matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. A key science target of the Large Interferometer Space Antenna (LISA) is to carry out multi-messenger observations of massive black hole binaries, observing the merger. Identifying that a merger is happening and providing an updating estimate of the sky location in the hours, days and weeks before the merger is critical to enable electromagnetic.</p><p>In this work we demonstrate and compare two methods for premerger identification of massive black hole binaries. A zero-latency filter approach and, for the first time, an approach using an ``inpainting&#x27;&#x27; technique.</p><p>We apply these methods to the LISA Data Challenge dataset 2a--Sangria-HM--and demonstrate the successful recovery of the 14 signals in the dataset that we expected to be. We show that the inpainting method can identify premerger signals even when gaps are present in the data, demonstrating the recovery of a signal even when 3 day-long data gaps are.</p><p>Finally, we explore the challenge of overlapping signals, using a region of overlapping signals in the Sangria-HM dataset, all of which merge within a 10-day window, and show how. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2605.13738v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Este trabalho aborda os desafios na identificação pré-fusão de binários de buracos negros massivos em dados do LISA, um objetivo central para",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Este trabalho aborda os desafios na identificação pré-fusão de binários de buracos negros massivos em dados do LISA, um objetivo central para.",
+      "Dado-chave: Este trabalho aborda os desafios na identificação pré-fusão de binários de buracos negros massivos em dados do LISA, um objetivo central para",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Este trabalho aborda os desafios na identificação pré-fusão de binários de buracos negros massivos em dados do LISA, um objetivo central para",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Este trabalho aborda os desafios na identificação pré-fusão de binários de buracos negros massivos em dados do LISA, um objetivo central para.",
+      "Dado-chave: Este trabalho aborda os desafios na identificação pré-fusão de binários de buracos negros massivos em dados do LISA, um objetivo central para",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: A key science target of the Large Interferometer Space Antenna is to carry out multi-messenger observations of massive black hole binaries, observing",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: A key science target of the Large Interferometer Space Antenna is to carry out multi-messenger observations of massive black hole binaries, observing.",
+      "Key detail: A key science target of the Large Interferometer Space Antenna is to carry out multi-messenger observations of massive black hole binaries.",
+      "Result not yet peer reviewed."
     ],
     "date": "13 mai 2026",
     "date_pt": "13 mai 2026",
@@ -398,7 +663,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 6,
     "slug": "studying-pneumonia-in-space-for-heart-health-on-earth",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -419,19 +684,19 @@ window.postsData = [
     "body_pt": "<p>A Expedição 74 a bordo da Estação Espacial Internacional (EEI) está realizando uma pesquisa crucial para entender como as bactérias causadoras de pneumonia podem provocar danos cardíacos a longo prazo. O astronauta da NASA Jack Hathaway desempenha um papel fundamental neste estudo, trabalhando com a investigação MVP Cell-09 dentro de um porta-luvas portátil na EEI. Esta pesquisa aproveita o ambiente singular do espaço para observar reações biológicas que seriam difíceis de replicar ou detectar com a mesma clareza na Terra, abrindo novas perspectivas para a saúde cardiovascular e o manejo de doenças infecciosas.</p><p>O experimento MVP Cell-09 utiliza modelos de tecido cardíaco derivados de células-tronco, que são preparados meticulosamente antes do voo. Imagens pré-voo desses modelos revelam a complexidade e o cuidado envolvidos na sua criação. Ian Berg, por exemplo, é um dos responsáveis pela preparação do MVP Cell-09 antes do seu lançamento para a estação espacial. A microgravidade e outras condições espaciais permitem que os cientistas observem como esses tecidos respondem a infecções bacterianas de uma maneira amplificada, revelando respostas celulares importantes que seriam difíceis de identificar em condições terrestres. Essa amplificação dos efeitos é crucial para desvendar mecanismos subjacentes às doenças cardíacas induzidas por infecções.</p><p>A Estação Espacial Internacional, com o apoio de instituições como a Universidade do Alabama em Birmingham, serve como um laboratório orbital que permite a pesquisadores de todo o mundo abordar problemas complexos de saúde humana, tanto na Terra quanto no espaço. A capacidade de conduzir experimentos em um ambiente de microgravidade oferece uma plataforma única para avançar na compreensão de diversas condições médicas. Ao estudar a interação entre patógenos e tecidos cardíacos em um ambiente espacial, os cientistas esperam desenvolver novas estratégias para a gestão da saúde cardiovascular e o tratamento de doenças infecciosas, beneficiando pacientes em todo o planeta.</p><p>Há mais de 25 anos, a Estação Espacial Internacional tem sido um palco para investigações aprofundadas sobre como o corpo humano e os microrganismos respondem ao ambiente espacial. Essas pesquisas são vitais não apenas para a saúde dos astronautas em missões de longa duração, mas também para a compreensão de processos biológicos fundamentais que afetam a saúde na Terra. O ambiente espacial pode alterar a virulência de bactérias e a resposta imune humana, fornecendo um modelo acelerado para o estudo de doenças. O conhecimento adquirido nessas missões é indispensável para o planejamento de futuras explorações espaciais profundas, que exigirão estratégias robustas para manter a saúde e a segurança da tripulação.</p><p>A pesquisa atual com o MVP Cell-09 busca desvendar os mecanismos exatos pelos quais as bactérias causadoras de pneumonia podem induzir danos cardíacos persistentes. A observação de tecidos cardíacos derivados de células-tronco em microgravidade permite aos cientistas identificar alterações moleculares e celulares que podem não ser evidentes em estudos terrestres. Este foco na resposta celular a infecções bacterianas no espaço é crucial para identificar biomarcadores e alvos terapêuticos que poderiam levar a tratamentos mais eficazes para doenças cardíacas pós-infecciosas. A compreensão aprofundada desses processos é um passo significativo para proteger a saúde cardiovascular de indivíduos suscetíveis.</p><p>Os resultados desta investigação têm o potencial de transformar a abordagem à gestão da saúde cardiovascular e de doenças infecciosas. Ao identificar como as bactérias interagem com o tecido cardíaco em um ambiente de estresse único, os pesquisadores podem desenvolver intervenções mais direcionadas e preventivas. A colaboração internacional, exemplificada pela participação de astronautas de diferentes agências espaciais, como a ESA, sublinha a importância global desses esforços. A Estação Espacial Internacional continua a ser um farol de inovação, impulsionando descobertas que transcendem as fronteiras da Terra e do espaço, com um impacto direto na melhoria da qualidade de vida e na prevenção de doenças.</p>",
     "body_en": "<p>Expedition 74 astronauts aboard the International Space Station are uncovering how bacteria that causes pneumonia can lead to long-term damage in the heart. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. NASA astronaut Jack Hathaway works on MVP Cell-09 research inside a portable glovebag aboard the International Space Station. Preflight imagery of stem cell derived heart tissue models produced for the MVP Cell-09 investigation.</p><p>Ian Berg prepare MVP Cell-09 ahead of launch to the space station. University of Alabama at Birmingham The space station allows researchers from around the world to address complex human health problems on Earth and in space.</p><p>Learn more about MVP Cell-09 Keep Exploring Discover More Topics From NASA Latest News from Space Station Research International Space Station Humans In Space Space Station. International Space Station Research Communications Team Article NASA astronaut Jack Hathaway works on MVP Cell-09 research inside a portable glovebag aboard the International.</p><p>ESA/Sophie Adenot Expedition 74 astronauts aboard the International Space Station are uncovering how bacteria that causes pneumonia can lead to long-term damage in the heart. Researchers are leveraging the space environment to observe how stem cell derived heart tissues respond to bacterial infections, to discover new methods to manage cardiovascular.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Scientists are harnessing these traits to exaggerate their effect on heart cells and reveal important cellular responses that would be difficult to detect on Earth. For over 25 years, researchers have utilized the space station to study how the human body and microbes respond to space, and deep space missions will require the strategies and.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/station/iss-research/studying-pneumonia-in-space-for-heart-health-on-earth/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem provocar",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem provocar.",
+      "Dado-chave: Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem provocar",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem provocar.",
+      "Dado-chave: Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Expedition 74 astronauts aboard the International Space Station are uncovering how bacteria that causes pneumonia can lead to long-term damage in the",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Expedition 74 astronauts aboard the International Space Station are uncovering how bacteria that causes pneumonia can lead to long-term damage in the.",
+      "Key detail: Expedition 74 astronauts aboard the International Space Station are uncovering how bacteria that causes pneumonia can lead to long-term damage.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "13 mai 2026",
     "date_pt": "13 mai 2026",
@@ -519,7 +784,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 7,
     "slug": "revisiting-the-2021-outburst-of-the-bhc-maxi-j1803-298-using-nicer-nustar-and-insight-hxmt-data",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -540,18 +805,19 @@ window.postsData = [
     "body_pt": "<p>Este trabalho apresenta um estudo detalhado das propriedades espectrais e temporais de banda larga do candidato a buraco negro MAXI J1803-298, durante sua explosão de 2021. Para tal, foram utilizadas observações simultâneas e complementares dos telescópios NICER, NuSTAR e Insight-HXMT. A combinação de dados provenientes de múltiplos instrumentos espaciais é crucial, pois permite uma cobertura energética abrangente, essencial para investigar a complexa evolução das oscilações quase periódicas de baixa frequência (LFQPOs) e as características espectrais da fonte em uma vasta gama de energias. O objetivo principal é compreender os mecanismos físicos que impulsionam a variabilidade e a emissão de raios-X em sistemas binários de buracos negros, fornecendo insights sobre a dinâmica de acreção e a formação de jatos relativísticos. A análise conjunta desses dados oferece uma perspectiva única sobre a transição de estados e os fenômenos de variabilidade observados em buracos negros galácticos.</p><p>Durante a fase inicial das observações, MAXI J1803-298 exibiu um estado espectral rígido ou intermediário rígido, caracterizado por uma emissão predominantemente Comptonizada e a presença de características de reflexão. A modelagem espectral foi realizada no âmbito do modelo de fluxo advectivo de dois componentes (TCAF), uma estrutura teórica que descreve o fluxo de acreção em torno de buracos negros. Esta abordagem indicou a existência de um halo sub-Kepleriano e de um disco Kepleriano, com um choque localizado a aproximadamente 130 raios de Schwarzschild. A aplicação do modelo TCAF não apenas permitiu caracterizar a geometria do fluxo de acreção, mas também forneceu uma estimativa independente da massa do buraco negro, um parâmetro fundamental para a compreensão da física desses objetos compactos. A presença de um choque no disco de acreção é um elemento chave para a geração de emissão de raios-X de alta energia e para a modulação da variabilidade observada.</p><p>Nesta mesma fase inicial, um LFQPO proeminente foi detectado, com sua frequência central evoluindo de 0, 35 Hz para 0, 5 Hz e estendendo-se até energias de 100 keV. A detecção de LFQPOs é um fenômeno comum em sistemas binários de buracos negros e é frequentemente associada a processos dinâmicos no fluxo de acreção interno. A análise da variabilidade rms fracionária, que é dependente da energia, sugere que a modulação observada se origina principalmente do fluxo de acreção interno que sofre Comptonização. Isso implica que as flutuações na região mais interna do disco, onde os fótons de baixa energia são espalhados para energias mais altas por elétrons quentes, são as principais responsáveis pela variabilidade de raios-X detectada. A evolução da frequência do LFQPO é um indicador importante das mudanças na geometria e nas condições físicas do fluxo de acreção à medida que o sistema transita entre diferentes estados espectrais.</p><p>Em contraste com a fase inicial, uma fase de observação posterior revelou um estado espectral mais suave para MAXI J1803-298. Este estado foi caracterizado por uma emissão de disco mais intensa e um índice de fótons mais íngreme, indicando um resfriamento da coroa e um aumento na contribuição do disco de acreção para a emissão total de raios-X. Durante esta fase, notavelmente, nenhum LFQPO foi detectado. A ausência de LFQPOs em estados espectrais suaves é consistente com observações anteriores de outros sistemas binários de buracos negros, sugerindo que esses fenômenos de variabilidade estão intrinsecamente ligados à presença de uma coroa quente e opticamente fina, que é mais proeminente em estados rígidos ou intermediários. A transição de um estado rígido para um estado suave é um processo complexo que envolve mudanças significativas na estrutura do disco de acreção e na coroa de raios-X.</p><p>Adicionalmente, demonstramos que a aplicação da análise co-espectral é eficaz na mitigação das distorções induzidas pelo tempo morto, um desafio comum em estudos de temporização com dados do NuSTAR. Esta técnica foi fundamental para confirmar a natureza intrínseca da variabilidade detectada, garantindo que os sinais observados não eram artefatos instrumentais, mas sim fenômenos astrofísicos reais. Os resultados espectrais e temporais combinados, obtidos a partir da análise multi-instrumento, apoiam consistentemente um cenário em que os LFQPOs em MAXI J1803-298 emergem do fluxo de acreção interno em evolução dinâmica. Esta pesquisa reforça a compreensão de que a variabilidade de raios-X em buracos negros galácticos é um reflexo direto das complexas interações entre o disco de acreção e a coroa, fornecendo evidências cruciais para modelos teóricos de acreção e emissão em objetos compactos.</p>",
     "body_en": "<p>We present a broadband spectral and timing study of the black hole candidate MAXI J1803-298 during its 2021 outburst using simultaneous observations from NICER, NuSTAR, and Insight-HXMT. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>That matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. The combined multi-instrument coverage allows us to investigate the evolution of low-frequency quasi-periodic oscillations (LFQPOs) together with the spectral properties of the. During the early observation epoch, the source exhibits a hard or hard-intermediate spectral state dominated by Comptonized emission with reflection features.</p><p>Spectral modeling within the framework of the two-component advective flow (TCAF) model indicates the presence of a sub-Keplerian halo and a Keplerian disk with a shock located at. A prominent LFQPO is detected during this epoch with a centroid frequency evolving from 0.35 Hz to 0.5 Hz and extending up to 100 keV.</p><p>The energy-dependent fractional rms variability suggests that the modulation originates primarily from the Comptonizing inner accretion flow. In contrast, a later observation epoch shows a softer spectral state characterized by stronger disk emission and a steeper photon index, during which no LFQPO is detected.</p><p>We also demonstrate that cospectral analysis effectively mitigates dead-time-induced distortions in NuSTAR timing studies, confirming the intrinsic nature of the detected. The combined spectral and timing results support a scenario in which LFQPOs in MAXI J1803-298 arise from the dynamically evolving inner accretion flow.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2605.13232v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Este estudo apresenta uma análise espectral e temporal de banda larga do candidato a buraco negro MAXI J1803-298 durante sua explosão de 2021",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Este estudo apresenta uma análise espectral e temporal de banda larga do candidato a buraco negro MAXI J1803-298 durante sua explosão de 2021.",
+      "Dado-chave: Este estudo apresenta uma análise espectral e temporal de banda larga do candidato a buraco negro MAXI J1803-298 durante sua explosão de 2021",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Este estudo apresenta uma análise espectral e temporal de banda larga do candidato a buraco negro MAXI J1803-298 durante sua explosão de 2021",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Este estudo apresenta uma análise espectral e temporal de banda larga do candidato a buraco negro MAXI J1803-298 durante sua explosão de 2021.",
+      "Dado-chave: Este estudo apresenta uma análise espectral e temporal de banda larga do candidato a buraco negro MAXI J1803-298 durante sua explosão de 2021",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: We present a broadband spectral and timing study of the black hole candidate MAXI J1803-298 during its 2021 outburst using simultaneous observations",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: We present a broadband spectral and timing study of the black hole candidate MAXI J1803-298 during its 2021 outburst using simultaneous observations.",
+      "Key detail: We present a broadband spectral and timing study of the black hole candidate MAXI J1803-298 during its 2021 outburst using simultaneous.",
+      "Result not yet peer reviewed."
     ],
     "date": "13 mai 2026",
     "date_pt": "13 mai 2026",
@@ -648,7 +914,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 6,
+    "id": 8,
     "slug": "waterworn-chaos-on-mars",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -824,7 +1090,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 9,
     "slug": "nasa-s-perseverance-rover-snaps-selfie-in-mars-western-frontier",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -905,12 +1171,12 @@ window.postsData = [
     "body_en": "<p>NASA’s Perseverance Mars rover recently took a self-portrait against a sweeping backdrop of ancient Martian terrain at a location the science team calls “Lac de Charmes. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. NASA’s Perseverance captured this enhanced-color panorama of an area nicknamed “Arbot” on April 5, the 1, 882nd Martian day, or sol, of the mission. Made of 46 images, the panorama offers one of the richest geological vistas of the rover’s mission, revealing a windswept landscape of diverse rock textures.</p><p>Significant science Along with the selfie, Perseverance used Mastcam-Z, located on its mast, to capture a mosaic of the “Arbot” area in Lac de Charmes on April 5, or Sol 1882. To learn more about NASA’s Perseverance: https: //science. nasa. gov/mission/mars-2020-perseverance News Media Contacts DC Agle Jet Propulsion Laboratory, Pasadena, Calif.</p><p>Its job is to. Ingenuity Mars Helicopter NASA’s Ingenuity Mars Helicopter completed 72 historic flights since first taking to the skies above the Red Planet. Perseverance acquired the selfie, its sixth since landing on Mars in 2021, using the WATSON (Wide Angle Topographic Sensor for Operations and eNgineering) camera mounted at the.</p><p>Made of 46 images, the panorama offers one of the richest geological vistas of the mission, revealing a windswept landscape of diverse rock textures. Having the benefit of four previous rover missions, the Perseverance team has always known our mission was a marathon and not a sprint,” said acting Perseverance project manager.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Https: //science. nasa. gov/mission/mars-2020-perseverance DC Agle Jet Propulsion Laboratory, Pasadena, Calif. 818-393-9011 agle@jpl. nasa. gov Karen Fox / Alana Johnson NASA Headquarters.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-snaps-selfie-in-mars-western-frontier/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: O rover Perseverance da NASA capturou um autorretrato em um local no antigo terreno marciano que a equipe científica denominou “Lac de Charmes”.",
-      "Dado-chave: O rover Perseverance da NASA capturou um autorretrato em um local no antigo terreno marciano que a equipe científica denominou “Lac de Charmes”",
+      "Dado-chave: O rover Perseverance da NASA capturou um autorretrato em um local no antigo terreno marciano que a equipe científica denominou “Lac de Charmes”.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: O rover Perseverance da NASA capturou um autorretrato em um local no antigo terreno marciano que a equipe científica denominou “Lac de Charmes”.",
-      "Dado-chave: O rover Perseverance da NASA capturou um autorretrato em um local no antigo terreno marciano que a equipe científica denominou “Lac de Charmes”",
+      "Dado-chave: O rover Perseverance da NASA capturou um autorretrato em um local no antigo terreno marciano que a equipe científica denominou “Lac de Charmes”.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
@@ -1004,150 +1270,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 8,
-    "slug": "curiosity-blog-sols-4886-4892-ingenuity-and-perseverance-curiosity-style",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://assets.science.nasa.gov/content/dam/science/missions/msl/2026/curiosity-rover-updates/may/https___mars.nasa.gov_msl-raw-images_msss_04887_mhli_4887MH0004350001800890R00_DXXX.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/psd/mars/resources/detail_files/2/5/25757_1-PIA24543-Curiositys-Selfie-at-Mont-Mercou-main-web.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Blog Curiosity, Sols 4886-4892: Engenhosidade e Perseverança no Estilo Curiosity",
-    "title_pt": "Blog Curiosity, Sols 4886-4892: Engenhosidade e Perseverança no Estilo Curiosity",
-    "title_en": "Curiosity Blog, Sols 4886-4892: Ingenuity and Perseverance, Curiosity Style",
-    "sub": "Este blog, escrito por Michelle Minitti, investigadora principal adjunta da MAHLI, detalha as operações do rover Curiosity entre os Sols 4886 e 4892, com planejamento terrestre em.",
-    "sub_pt": "Este blog, escrito por Michelle Minitti, investigadora principal adjunta da MAHLI, detalha as operações do rover Curiosity entre os Sols 4886 e 4892, com planejamento terrestre em.",
-    "sub_en": "Written by Michelle Minitti, MAHLI Deputy Principal Investigator Earth planning date: Friday, May 8, 2026 While we know the monikers Ingenuity and Perseverance are attached to our.",
-    "excerpt": "Este blog, escrito por Michelle Minitti, investigadora principal adjunta da MAHLI, detalha as operações do rover Curiosity entre os Sols 4886 e 4892, com planejamento terrestre em 8 de maio de 2026.",
-    "excerpt_pt": "Este blog, escrito por Michelle Minitti, investigadora principal adjunta da MAHLI, detalha as operações do rover Curiosity entre os Sols 4886 e 4892, com planejamento terrestre em 8 de maio de 2026.",
-    "excerpt_en": "Written by Michelle Minitti, MAHLI Deputy Principal Investigator Earth planning date: Friday, May 8, 2026 While we know the monikers Ingenuity and Perseverance are attached to our sister helicopter and rover on the Mars 2020 mission, those.",
-    "body": "<p>Este blog, cobrindo os Sols 4886 a 4892, foi escrito por Michelle Minitti, investigadora principal adjunta da MAHLI, com a data de planejamento terrestre em 8 de maio de 2026. Embora os nomes &#x27;Ingenuity&#x27; e &#x27;Perseverance&#x27; sejam oficialmente atribuídos ao helicóptero e ao rover irmãos da missão Marte 2020, o espírito de engenhosidade e perseverança é uma constante em todas as missões de exploração marciana da NASA. O rover Curiosity, em particular, tem demonstrado essas qualidades de forma notável em suas operações contínuas na base do Monte Sharp, enfrentando desafios e adaptando-se para maximizar a coleta de dados científicos. As atividades recentes do Curiosity exemplificam essa dedicação, com a equipe da missão superando obstáculos para garantir o progresso da pesquisa em Marte.</p><p>Um dos marcos recentes nas operações do Curiosity ocorreu em 6 de maio de 2026, correspondendo ao Sol 4887, ou o dia marciano 4.887 da Missão do Laboratório Científico de Marte. Nesse dia, precisamente às 01: 39: 34 UTC, o rover executou com sucesso uma fusão de foco. Esta técnica é crucial para a obtenção de imagens nítidas e detalhadas de alvos geológicos, permitindo que os cientistas analisem a morfologia e a composição das rochas e do solo marciano com maior precisão. A capacidade de realizar tais manobras complexas remotamente, a milhões de quilômetros de distância, sublinha a sofisticação da engenharia por trás do Curiosity e a expertise da equipe de controle da missão.</p><p>A equipe científica aproveitou uma oportunidade única criada por um evento envolvendo uma formação geológica ou material denominado &#x27;Atacama&#x27;. Quando este se desintegrou ou se moveu, expondo novas superfícies no terreno marciano, os pesquisadores puderam acessar materiais que antes estavam ocultos. Essa exposição de areia e rochas recém-quebradas oferece uma janela valiosa para a composição interna e a história geológica da área, sem a interferência de processos de intemperismo superficial prolongados. A agilidade em identificar e capitalizar tais eventos inesperados é um testemunho da vigilância e da adaptabilidade da equipe científica, que está sempre pronta para ajustar os planos de operação do rover em resposta a descobertas no campo.</p><p>Após a análise das novas superfícies, e com a saúde da broca e do braço robótico do Curiosity confirmada pelos engenheiros da missão, o rover demonstrou sua persistência ao se deslocar para um novo espaço de trabalho. Este novo local foi escolhido por apresentar um bloco rochoso promissor, de tamanho considerável, ideal para uma nova tentativa de perfuração. A perfuração é uma das capacidades mais críticas do Curiosity, permitindo a coleta de amostras do interior das rochas para análise aprofundada pelos instrumentos a bordo, como o CheMin e o SAM. A capacidade de perfurar e analisar amostras subsuperficiais é fundamental para a busca por evidências de ambientes habitáveis passados em Marte.</p><p>A busca por alvos de perfuração adequados e a execução de operações complexas como a fusão de foco são parte de um esforço contínuo para desvendar os segredos de Marte. A missão do Curiosity, que já se estende por mais de uma década, continua a fornecer dados cruciais sobre a geologia, a atmosfera e a potencial habitabilidade passada do planeta vermelho. Cada sol marciano traz novos desafios e oportunidades, exigindo uma combinação de planejamento meticuloso, engenhosidade técnica e uma dose considerável de perseverança por parte de toda a equipe da missão, tanto na Terra quanto através do rover em Marte.</p>",
-    "body_pt": "<p>Este blog, cobrindo os Sols 4886 a 4892, foi escrito por Michelle Minitti, investigadora principal adjunta da MAHLI, com a data de planejamento terrestre em 8 de maio de 2026. Embora os nomes &#x27;Ingenuity&#x27; e &#x27;Perseverance&#x27; sejam oficialmente atribuídos ao helicóptero e ao rover irmãos da missão Marte 2020, o espírito de engenhosidade e perseverança é uma constante em todas as missões de exploração marciana da NASA. O rover Curiosity, em particular, tem demonstrado essas qualidades de forma notável em suas operações contínuas na base do Monte Sharp, enfrentando desafios e adaptando-se para maximizar a coleta de dados científicos. As atividades recentes do Curiosity exemplificam essa dedicação, com a equipe da missão superando obstáculos para garantir o progresso da pesquisa em Marte.</p><p>Um dos marcos recentes nas operações do Curiosity ocorreu em 6 de maio de 2026, correspondendo ao Sol 4887, ou o dia marciano 4.887 da Missão do Laboratório Científico de Marte. Nesse dia, precisamente às 01: 39: 34 UTC, o rover executou com sucesso uma fusão de foco. Esta técnica é crucial para a obtenção de imagens nítidas e detalhadas de alvos geológicos, permitindo que os cientistas analisem a morfologia e a composição das rochas e do solo marciano com maior precisão. A capacidade de realizar tais manobras complexas remotamente, a milhões de quilômetros de distância, sublinha a sofisticação da engenharia por trás do Curiosity e a expertise da equipe de controle da missão.</p><p>A equipe científica aproveitou uma oportunidade única criada por um evento envolvendo uma formação geológica ou material denominado &#x27;Atacama&#x27;. Quando este se desintegrou ou se moveu, expondo novas superfícies no terreno marciano, os pesquisadores puderam acessar materiais que antes estavam ocultos. Essa exposição de areia e rochas recém-quebradas oferece uma janela valiosa para a composição interna e a história geológica da área, sem a interferência de processos de intemperismo superficial prolongados. A agilidade em identificar e capitalizar tais eventos inesperados é um testemunho da vigilância e da adaptabilidade da equipe científica, que está sempre pronta para ajustar os planos de operação do rover em resposta a descobertas no campo.</p><p>Após a análise das novas superfícies, e com a saúde da broca e do braço robótico do Curiosity confirmada pelos engenheiros da missão, o rover demonstrou sua persistência ao se deslocar para um novo espaço de trabalho. Este novo local foi escolhido por apresentar um bloco rochoso promissor, de tamanho considerável, ideal para uma nova tentativa de perfuração. A perfuração é uma das capacidades mais críticas do Curiosity, permitindo a coleta de amostras do interior das rochas para análise aprofundada pelos instrumentos a bordo, como o CheMin e o SAM. A capacidade de perfurar e analisar amostras subsuperficiais é fundamental para a busca por evidências de ambientes habitáveis passados em Marte.</p><p>A busca por alvos de perfuração adequados e a execução de operações complexas como a fusão de foco são parte de um esforço contínuo para desvendar os segredos de Marte. A missão do Curiosity, que já se estende por mais de uma década, continua a fornecer dados cruciais sobre a geologia, a atmosfera e a potencial habitabilidade passada do planeta vermelho. Cada sol marciano traz novos desafios e oportunidades, exigindo uma combinação de planejamento meticuloso, engenhosidade técnica e uma dose considerável de perseverança por parte de toda a equipe da missão, tanto na Terra quanto através do rover em Marte.</p>",
-    "body_en": "<p>Written by Michelle Minitti, MAHLI Deputy Principal Investigator Earth planning date: Friday, May 8, 2026 While we know the monikers Ingenuity and Perseverance are attached to our sister helicopter and rover on the Mars 2020 mission, those. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. Curiosity created the image using its Mars Hand Lens Imager (MAHLI), a close-up camera located on the turret at the end of the rover’s robotic arm, and an onboard focusing process. NASA/JPL-Caltech/MSSS Written by Michelle Minitti, MAHLI Deputy Principal Investigator Earth planning date: Friday, May 8, 2026 While we know the monikers Ingenuity and.</p><p>Visit the Science Instruments page NASA’s Curiosity rover at the base of Mount Sharp NASA/JPL-Caltech/MSSS Share Details Last Updated May 11. Discover valuable content designed to inform, educate, and inspire. Rover Basics Each robotic explorer sent to the Red Planet has its own unique capabilities driven by science.</p><p>Curiosity created the image using its Mars Hand Lens Imager (MAHLI), a close-up camera located on the turret at the end of the rover&#x27;s robotic arm, and an onboard focusing process. Curiosity performed the focus merge on May 6, 2026, Sol 4887, or Martian day 4, 887 of the Mars Science Laboratory Mission, at 01: 39: 34 UTC.</p><p>NASA/JPL-Caltech/MSSS Written by Michelle Minitti, MAHLI Deputy Principal Investigator While we know the monikers Ingenuity and Perseverance are attached to our sister helicopter. The science team made the most of the freshly-broken surfaces created when Atacama fell back to Mars, and the freshly-exposed sand once hidden underneath Atacama.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>With the health of the drill and arm confirmed by the engineers, Curiosity exhibited perseverance by heading toward a new workspace with a promising (larger) block for a new drill. Sand Fill In Antofagasta Crater and Finding Our Next Drill Target Article 3 weeks ago Keep Exploring Discover More Topics From NASA Mars Mars is the fourth planet from the Sun.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/blog/curiosity-blog-sols-4886-4892-ingenuity-and-perseverance-curiosity-style/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Este blog, escrito por Michelle Minitti, investigadora principal adjunta da MAHLI, detalha as operações do rover Curiosity entre os Sols 4886 e 4892.",
-      "Dado-chave: Este blog, escrito por Michelle Minitti, investigadora principal adjunta da MAHLI, detalha as operações do rover Curiosity entre os Sols 4886 e.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Este blog, escrito por Michelle Minitti, investigadora principal adjunta da MAHLI, detalha as operações do rover Curiosity entre os Sols 4886 e 4892.",
-      "Dado-chave: Este blog, escrito por Michelle Minitti, investigadora principal adjunta da MAHLI, detalha as operações do rover Curiosity entre os Sols 4886 e.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Written by Michelle Minitti, MAHLI Deputy Principal Investigator Earth planning date: Friday, May 8, 2026 While we know the monikers Ingenuity and.",
-      "Key detail: Written by Michelle Minitti, MAHLI Deputy Principal Investigator Earth planning date: Friday, May 8, 2026 While we know the monikers Ingenuity.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "12 mai 2026",
-    "date_pt": "12 mai 2026",
-    "date_en": "12 May 2026",
-    "time": "01h38",
-    "time_pt": "01h38",
-    "time_en": "01: 38 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-12T01:38:30+00:00",
-    "lastModifiedIso": "2026-05-12T17:47:05+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Blog Curiosity",
-      "Sols 4886",
-      "4892",
-      "Engenhosidade e Perseverança",
-      "Estilo Curiosidade"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Blog Curiosity",
-      "Sols 4886",
-      "4892",
-      "Engenhosidade e Perseverança",
-      "Estilo Curiosidade"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Blog Curiosity",
-      "Sols 4886",
-      "4892",
-      "Ingenuity and Perseverance",
-      "Curiosity Style"
-    ],
-    "srcUrl": "https://science.nasa.gov/blog/curiosity-blog-sols-4886-4892-ingenuity-and-perseverance-curiosity-style/",
-    "realUrl": "https://www.cosmosweek.com/?article=curiosity-blog-sols-4886-4892-ingenuity-and-perseverance-curiosity-style",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=curiosity-blog-sols-4886-4892-ingenuity-and-perseverance-curiosity-style",
-    "realUrl_en": "https://www.cosmosweek.com/?article=curiosity-blog-sols-4886-4892-ingenuity-and-perseverance-curiosity-style&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4886-4892-ingenuity-and-perseverance-curiosity-style/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4886-4892-ingenuity-and-perseverance-curiosity-style/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/curiosity-blog-sols-4886-4892-ingenuity-and-perseverance-curiosity-style/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4886-4892-ingenuity-and-perseverance-curiosity-style/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4886-4892-ingenuity-and-perseverance-curiosity-style/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/curiosity-blog-sols-4886-4892-ingenuity-and-perseverance-curiosity-style/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Blog Curiosity, Sols 4886-4892: Engenhosidade e Perseverança no Estilo Curiosity",
-    "imageAlt_pt": "Blog Curiosity, Sols 4886-4892: Engenhosidade e Perseverança no Estilo Curiosity",
-    "imageAlt_en": "Curiosity Blog, Sols 4886-4892: Ingenuity and Perseverance, Curiosity Style",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 9,
+    "id": 10,
     "slug": "color-off-the-mid-atlantic-coast",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1287,7 +1410,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "sistema-solar-ganha-novo-misterio-com-aneis-de-quiron",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1458,7 +1581,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "esa-and-jaxa-team-up-on-planetary-defence-ramses-mission-to-asteroid-apophis",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1585,7 +1708,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "a-beacon-of-light-in-swirls-of-dust",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1743,7 +1866,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "a-sea-of-spinning-clouds",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1874,7 +1997,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "webb-hubble-find-massive-star-clusters-emerge-faster",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2005,7 +2128,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "ahuachapan-and-its-restive-neighbors",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2145,7 +2268,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "stunning-images-from-biomass-mark-its-one-year-in-orbit",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2321,7 +2444,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -2445,7 +2568,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2566,7 +2689,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2772,7 +2895,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 21,
     "slug": "catching-the-earliest-stars-in-the-universe",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2893,7 +3016,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 21,
+    "id": 22,
     "slug": "hilumi-lhc-cern-s-full-scale-test-stand-enters-the-powering-phase",
     "cat": "Física",
     "catCls": "fisica",
@@ -3024,164 +3147,6 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 22,
-    "slug": "the-fy-2027-nasa-budget-request",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x630_crop_center-center_82_none/vab-ml-at-night.jpg?mtime=1753482388",
-    "inline_images": [
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x637_crop_center-center_82_line/fy2027-pbr-missing-missions.jpg.webp",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x637_crop_center-center_82_line/fy2027-pbr-missing-missions.jpg",
-        "alt": "Itens de linha de missão ausentes",
-        "alt_pt": "Itens de linha de missão ausentes",
-        "alt_en": "Missing mission line-items",
-        "caption": "Itens de linha de missão ausentes",
-        "caption_pt": "Itens de linha de missão ausentes",
-        "caption_en": "Missing mission line-items"
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x991_crop_center-center_82_line/fy2027-pbr-no-fy2025-reporting.jpg.webp",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x991_crop_center-center_82_line/fy2027-pbr-no-fy2025-reporting.jpg",
-        "alt": "Faltam dados de financiamento",
-        "alt_pt": "Faltam dados de financiamento",
-        "alt_en": "Missing funding data",
-        "caption": "Faltam dados de financiamento",
-        "caption_pt": "Faltam dados de financiamento",
-        "caption_en": "Missing funding data"
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Proposta Orçamentária da NASA para 2027: Cortes Drásticos e Impactos Científicos",
-    "title_pt": "Proposta Orçamentária da NASA para 2027: Cortes Drásticos e Impactos Científicos",
-    "title_en": "The FY 2027 NASA budget request",
-    "sub": "A proposta de orçamento presidencial para a NASA no ano fiscal de 2027 prevê cortes significativos, especialmente em atividades científicas, atingindo o menor valor ajustado pela.",
-    "sub_pt": "A proposta de orçamento presidencial para a NASA no ano fiscal de 2027 prevê cortes significativos, especialmente em atividades científicas, atingindo o menor valor ajustado pela.",
-    "sub_en": "An analysis of the latest President's Budget Request for NASA.",
-    "excerpt": "A proposta de orçamento presidencial para a NASA no ano fiscal de 2027 prevê cortes significativos, especialmente em atividades científicas, atingindo o menor valor ajustado pela inflação em décadas e ameaçando dezenas de missões cruciais.",
-    "excerpt_pt": "A proposta de orçamento presidencial para a NASA no ano fiscal de 2027 prevê cortes significativos, especialmente em atividades científicas, atingindo o menor valor ajustado pela inflação em décadas e ameaçando dezenas de missões cruciais.",
-    "excerpt_en": "An analysis of the latest President's Budget Request for NASA.",
-    "body": "<p>Ao ajustar o valor proposto pela inflação, o orçamento da NASA para o ano fiscal de 2027 seria o mais baixo em 66 anos. A proposta da Casa Branca, se implementada, representaria o menor orçamento para a agência espacial desde 1961, um período que antecede muitos dos marcos mais emblemáticos da exploração espacial, como o pouso na Lua. Essa redução histórica levanta sérias preocupações sobre a capacidade da NASA de manter sua liderança em pesquisa e desenvolvimento científico, bem como sua infraestrutura e força de trabalho altamente especializadas.</p><p>A Casa Branca justificou o corte proposto de 46% afirmando que ele encerraria “mais de 40 missões científicas de baixa prioridade”. No entanto, a forma como essas missões foram tratadas no pedido de orçamento é notável: os itens de missão simplesmente desaparecem da proposta em comparação com o ano fiscal de 2026. Esta prática é considerada sem precedentes em propostas orçamentárias anteriores, levantando questões sobre a transparência do processo e os critérios utilizados para a classificação de “baixa prioridade”, especialmente para projetos de longa duração e alto valor científico.</p><p>Entre as missões de Ciências da Terra propostas para cancelamento, muitas são cruciais para o monitoramento do clima, do carbono e da composição atmosférica do planeta. Exemplos incluem as missões OCO-2 e OCO-3, que monitoram o dióxido de carbono atmosférico; a missão Aura, dedicada ao estudo da camada de ozônio; e o Sistema de Observação da Atmosfera, focado em aerossóis. A eliminação dessas missões teria implicações significativas para a compreensão das mudanças climáticas, da saúde ambiental global e para a formulação de políticas baseadas em dados científicos robustos.</p><p>Além das missões de Ciências da Terra, a proposta orçamentária também prevê a eliminação da contribuição da NASA para a missão EnVision da Agência Espacial Europeia (ESA), um projeto vital para o estudo de Vênus. No total, quase metade dos 53 cancelamentos propostos afeta missões que já estão operando na fase de missão estendida, o que significa que são projetos comprovados e de longa duração que continuam a fornecer dados valiosos e a expandir o conhecimento científico. A interrupção dessas missões estabelecidas representa uma perda considerável de dados e conhecimento acumulado, com impactos duradouros na comunidade científica global.</p>",
-    "body_pt": "<p>Ao ajustar o valor proposto pela inflação, o orçamento da NASA para o ano fiscal de 2027 seria o mais baixo em 66 anos. A proposta da Casa Branca, se implementada, representaria o menor orçamento para a agência espacial desde 1961, um período que antecede muitos dos marcos mais emblemáticos da exploração espacial, como o pouso na Lua. Essa redução histórica levanta sérias preocupações sobre a capacidade da NASA de manter sua liderança em pesquisa e desenvolvimento científico, bem como sua infraestrutura e força de trabalho altamente especializadas.</p><p>A Casa Branca justificou o corte proposto de 46% afirmando que ele encerraria “mais de 40 missões científicas de baixa prioridade”. No entanto, a forma como essas missões foram tratadas no pedido de orçamento é notável: os itens de missão simplesmente desaparecem da proposta em comparação com o ano fiscal de 2026. Esta prática é considerada sem precedentes em propostas orçamentárias anteriores, levantando questões sobre a transparência do processo e os critérios utilizados para a classificação de “baixa prioridade”, especialmente para projetos de longa duração e alto valor científico.</p><p>Entre as missões de Ciências da Terra propostas para cancelamento, muitas são cruciais para o monitoramento do clima, do carbono e da composição atmosférica do planeta. Exemplos incluem as missões OCO-2 e OCO-3, que monitoram o dióxido de carbono atmosférico; a missão Aura, dedicada ao estudo da camada de ozônio; e o Sistema de Observação da Atmosfera, focado em aerossóis. A eliminação dessas missões teria implicações significativas para a compreensão das mudanças climáticas, da saúde ambiental global e para a formulação de políticas baseadas em dados científicos robustos.</p><p>Além das missões de Ciências da Terra, a proposta orçamentária também prevê a eliminação da contribuição da NASA para a missão EnVision da Agência Espacial Europeia (ESA), um projeto vital para o estudo de Vênus. No total, quase metade dos 53 cancelamentos propostos afeta missões que já estão operando na fase de missão estendida, o que significa que são projetos comprovados e de longa duração que continuam a fornecer dados valiosos e a expandir o conhecimento científico. A interrupção dessas missões estabelecidas representa uma perda considerável de dados e conhecimento acumulado, com impactos duradouros na comunidade científica global.</p>",
-    "body_en": "<p>An analysis of the latest President&#x27;s Budget Request for NASA. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>This matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. For NASA’s science program, it very well may be the FY 2027 Presidential Budget Request. It proposed a $5.6 billion cut (23%) to the space agency, of which a disproportionate $3.4 billion would be taken from science activities, a decrease of 46% from the prior year.</p><p>NASA’s proposed top-line amount, when adjusted for inflation, would be its lowest in 66 years. Adjusted for inflation, the FY2027 White House budget proposal for NASA would again attempt to provide the smallest budget for the space agency since 1961.</p><p>The White House claimed that its 46% proposed cut would terminate “over 40 low-priority” science missions. Mission line-items simply disappear from the budget request compared to 2026, a practice without precedent in prior budget proposals.</p><p>The Earth Science missions proposed for cancellation monitor climate, carbon, or atmospheric composition: OCO-2 and OCO-3 (atmospheric CO₂), Aura (ozone layer), Atmosphere. Contribution to ESA&#x27;s EnVision mission, would be eliminated.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Nearly half of the 53 cancellations are operating in their extended mission phase. Terminating nearly half of the United States’ space science fleet spanning from the Sun to beyond Pluto will not improve “science per dollar. ” NASA will not do more with less.</p><p>Because this item comes through The Planetary Society as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/analyzing-the-fy-2027-nasa-budget-request\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Em foco: A proposta de orçamento presidencial para a NASA no ano fiscal de 2027 prevê cortes significativos, especialmente em atividades científicas",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
-    ],
-    "highlights_pt": [
-      "Em foco: A proposta de orçamento presidencial para a NASA no ano fiscal de 2027 prevê cortes significativos, especialmente em atividades científicas",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
-    ],
-    "highlights_en": [
-      "Focus: An analysis of the latest President's Budget Request for NASA",
-      "Detail: Science reporting: verify primary technical documentation",
-      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
-    ],
-    "date": "23 abr 2026",
-    "date_pt": "23 abr 2026",
-    "date_en": "23 Apr 2026",
-    "time": "18h16",
-    "time_pt": "18h16",
-    "time_en": "18: 16 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-23T18:16:00+00:00",
-    "lastModifiedIso": "2026-04-26T07:40:11+00:00",
-    "source": "The Planetary Society",
-    "sourceDomain": "www. planetary. org",
-    "sourceType": "news",
-    "sourceTypeLabel": "Jornalismo científico",
-    "sourceTypeLabel_pt": "Jornalismo científico",
-    "sourceTypeLabel_en": "Science journalism",
-    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
-    "evidenceKey": "journalistic",
-    "evidenceLabel": "Cobertura jornalística",
-    "evidenceLabel_pt": "Cobertura jornalística",
-    "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Astronomia",
-      "The Planetary Society",
-      "Cosmos Week",
-      "A solicitação de orçamento da NASA para o ano fiscal de 2027"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "The Planetary Society",
-      "Cosmos Week",
-      "A solicitação de orçamento da NASA para o ano fiscal de 2027"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "The Planetary Society",
-      "Cosmos Week",
-      "NASA's budget request for fiscal year 2027"
-    ],
-    "srcUrl": "https://www.planetary.org/articles/analyzing-the-fy-2027-nasa-budget-request",
-    "realUrl": "https://www.cosmosweek.com/?article=the-fy-2027-nasa-budget-request",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=the-fy-2027-nasa-budget-request",
-    "realUrl_en": "https://www.cosmosweek.com/?article=the-fy-2027-nasa-budget-request&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/the-fy-2027-nasa-budget-request/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/the-fy-2027-nasa-budget-request/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/the-fy-2027-nasa-budget-request/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/the-fy-2027-nasa-budget-request/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/the-fy-2027-nasa-budget-request/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/the-fy-2027-nasa-budget-request/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 82,
-    "scoreBreakdown": {
-      "source": 83,
-      "evidence": 60,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 49
-    },
-    "imageAlt": "Proposta Orçamentária da NASA para 2027: Cortes Drásticos e Impactos Científicos",
-    "imageAlt_pt": "Proposta Orçamentária da NASA para 2027: Cortes Drásticos e Impactos Científicos",
-    "imageAlt_en": "The FY 2027 NASA budget request",
-    "coverageKind": "news",
-    "coverageKindLabel": "Jornalismo científico",
-    "coverageKindLabel_pt": "Jornalismo científico",
-    "coverageKindLabel_en": "Science journalism",
     "storyKind": "science"
   },
   {
