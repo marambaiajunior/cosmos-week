@@ -1,6 +1,127 @@
 [
   {
     "id": 1,
+    "slug": "nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://www.nasa.gov/wp-content/uploads/2026/05/crs-34-mission-dragon-liftoff-image-2.png",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Lançamento da 34ª Missão de Reabastecimento da SpaceX Leva Carga Científica da NASA à Estação Espacial Internacional",
+    "title_pt": "Lançamento da 34ª Missão de Reabastecimento da SpaceX Leva Carga Científica da NASA à Estação Espacial Internacional",
+    "title_en": "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station",
+    "sub": "A 34ª missão comercial de reabastecimento da SpaceX, sob contrato com a NASA, partiu rumo à Estação Espacial Internacional com novos experimentos científicos, após decolar às.",
+    "sub_pt": "A 34ª missão comercial de reabastecimento da SpaceX, sob contrato com a NASA, partiu rumo à Estação Espacial Internacional com novos experimentos científicos, após decolar às.",
+    "sub_en": "The 34th SpaceX commercial resupply mission under contract with NASA is headed to the International Space Station with new scientific experiments after lifting off at 6: 05 p.",
+    "excerpt": "A 34ª missão comercial de reabastecimento da SpaceX, sob contrato com a NASA, partiu rumo à Estação Espacial Internacional com novos experimentos científicos, após decolar às 18h05.",
+    "excerpt_pt": "A 34ª missão comercial de reabastecimento da SpaceX, sob contrato com a NASA, partiu rumo à Estação Espacial Internacional com novos experimentos científicos, após decolar às 18h05.",
+    "excerpt_en": "The 34th SpaceX commercial resupply mission under contract with NASA is headed to the International Space Station with new scientific experiments after lifting off at 6: 05 p.",
+    "highlights": [
+      "Em foco: A 34ª missão comercial de reabastecimento da SpaceX, sob contrato com a NASA, partiu rumo à Estação Espacial Internacional com novos experimentos",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A 34ª missão comercial de reabastecimento da SpaceX, sob contrato com a NASA, partiu rumo à Estação Espacial Internacional com novos experimentos",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: The 34th SpaceX commercial resupply mission under contract with NASA is headed to the International Space Station with new scientific experiments",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "15 mai 2026",
+    "date_pt": "15 mai 2026",
+    "date_en": "15 May 2026",
+    "time": "22h52",
+    "time_pt": "22h52",
+    "time_en": "22: 52 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-15T22:52:14+00:00",
+    "lastModifiedIso": "2026-05-16T16:36:39+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA Science",
+      "lançamento de carga na 34ª missão de reabastecimento da SpaceX para a estação"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA Science",
+      "lançamento de carga na 34ª missão de reabastecimento da SpaceX para a estação"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA Science",
+      "cargo launch on SpaceX's 34th resupply mission to the station"
+    ],
+    "srcUrl": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/",
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Lançamento da 34ª Missão de Reabastecimento da SpaceX Leva Carga Científica da NASA à Estação Espacial Internacional",
+    "imageAlt_pt": "Lançamento da 34ª Missão de Reabastecimento da SpaceX Leva Carga Científica da NASA à Estação Espacial Internacional",
+    "imageAlt_en": "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
     "slug": "clinical-trial-finds-no-difference-in-fluid-treatment-options-for-pediatric-sepsis",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -118,7 +239,7 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "uap-in-this-case-it-s-only-a-model",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -239,7 +360,7 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "picturing-earth-in-a-new-light",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -262,6 +383,24 @@
         "caption": "",
         "caption_pt": "",
         "caption_en": ""
+      },
+      {
+        "src": "https://earthdata.nasa.gov/s3fs-public/2023-06/NighttimeLights_Radiance_India_th.jpg?VersionId=LsC1EwbMdgZM.CPwQwYwVI3TezVAX2fn",
+        "caption": "Mármore Preto",
+        "caption_pt": "Mármore Preto",
+        "caption_en": "Black Marble",
+        "alt": "Mármore Preto",
+        "alt_pt": "Mármore Preto",
+        "alt_en": "Black Marble"
+      },
+      {
+        "src": "https://earthdata.nasa.gov/s3fs-public/2025-11/black-marble-10282025.png?VersionId=eu6sMBHQ6csEsuMD9TaypzP_1s1DVzf7",
+        "caption": "Mármore Preto",
+        "caption_pt": "Mármore Preto",
+        "caption_en": "Black Marble",
+        "alt": "Mármore Preto",
+        "alt_pt": "Mármore Preto",
+        "alt_en": "Black Marble"
       }
     ],
     "video": null,
@@ -376,7 +515,128 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 5,
+    "slug": "q-a-is-it-time-to-expand-our-thinking-about-dark-matter-a-new-study-says-yes",
+    "cat": "Cosmologia",
+    "catCls": "cosmologia",
+    "img": "https://scx2.b-cdn.net/gfx/news/2026/is-it-time-to-expand-o.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Matéria Escura: É Tempo de Reavaliar Nossas Concepções? Uma Nova Análise Sugere Que Sim",
+    "title_pt": "Matéria Escura: É Tempo de Reavaliar Nossas Concepções? Uma Nova Análise Sugere Que Sim",
+    "title_en": "Q&A: Is it time to expand our thinking about dark matter? A new study says yes",
+    "sub": "Podemos estar mais no escuro sobre a matéria escura do que se pensava anteriormente, de acordo com uma nova análise de aglomerados de galáxias distantes.",
+    "sub_pt": "Podemos estar mais no escuro sobre a matéria escura do que se pensava anteriormente, de acordo com uma nova análise de aglomerados de galáxias distantes.",
+    "sub_en": "We may be more in the dark about dark matter than previously thought, according to a new analysis of distant galaxy clusters.",
+    "excerpt": "Podemos estar mais no escuro sobre a matéria escura do que se pensava anteriormente, de acordo com uma nova análise de aglomerados de galáxias distantes.",
+    "excerpt_pt": "Podemos estar mais no escuro sobre a matéria escura do que se pensava anteriormente, de acordo com uma nova análise de aglomerados de galáxias distantes.",
+    "excerpt_en": "We may be more in the dark about dark matter than previously thought, according to a new analysis of distant galaxy clusters.",
+    "highlights": [
+      "Em foco: Podemos estar mais no escuro sobre a matéria escura do que se pensava anteriormente, de acordo com uma nova análise de aglomerados de galáxias",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_pt": [
+      "Em foco: Podemos estar mais no escuro sobre a matéria escura do que se pensava anteriormente, de acordo com uma nova análise de aglomerados de galáxias",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_en": [
+      "Focus: We may be more in the dark about dark matter than previously thought, according to a new analysis of distant galaxy clusters",
+      "Detail: Science reporting: verify primary technical documentation",
+      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+    ],
+    "date": "14 mai 2026",
+    "date_pt": "14 mai 2026",
+    "date_en": "14 May 2026",
+    "time": "20h55",
+    "time_pt": "20h55",
+    "time_en": "20: 55 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-14T20:55:12+00:00",
+    "lastModifiedIso": "2026-05-16T16:36:39+00:00",
+    "source": "Phys. org Space",
+    "sourceDomain": "phys. org",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Cosmologia",
+      "Phys. org Space",
+      "Cosmos Week",
+      "Perguntas e Respostas",
+      "É hora de expandir nosso pensamento sobre a matéria escura? Um novo estudo diz que sim"
+    ],
+    "keywords_pt": [
+      "Cosmologia",
+      "Phys. org Space",
+      "Cosmos Week",
+      "Perguntas e Respostas",
+      "É hora de expandir nosso pensamento sobre a matéria escura? Um novo estudo diz que sim"
+    ],
+    "keywords_en": [
+      "Cosmology",
+      "Phys. org Space",
+      "Cosmos Week",
+      "Questions and Answers",
+      "Is it time to expand our thinking about dark matter? A new study says yes"
+    ],
+    "srcUrl": "https://phys.org/news/2026-05-qa-dark.html",
+    "realUrl": "https://www.cosmosweek.com/?article=q-a-is-it-time-to-expand-our-thinking-about-dark-matter-a-new-study-says-yes",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=q-a-is-it-time-to-expand-our-thinking-about-dark-matter-a-new-study-says-yes",
+    "realUrl_en": "https://www.cosmosweek.com/?article=q-a-is-it-time-to-expand-our-thinking-about-dark-matter-a-new-study-says-yes&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/q-a-is-it-time-to-expand-our-thinking-about-dark-matter-a-new-study-says-yes/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/q-a-is-it-time-to-expand-our-thinking-about-dark-matter-a-new-study-says-yes/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/q-a-is-it-time-to-expand-our-thinking-about-dark-matter-a-new-study-says-yes/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/q-a-is-it-time-to-expand-our-thinking-about-dark-matter-a-new-study-says-yes/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/q-a-is-it-time-to-expand-our-thinking-about-dark-matter-a-new-study-says-yes/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/q-a-is-it-time-to-expand-our-thinking-about-dark-matter-a-new-study-says-yes/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 80,
+    "scoreBreakdown": {
+      "source": 66,
+      "evidence": 60,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Matéria Escura: É Tempo de Reavaliar Nossas Concepções? Uma Nova Análise Sugere Que Sim",
+    "imageAlt_pt": "Matéria Escura: É Tempo de Reavaliar Nossas Concepções? Uma Nova Análise Sugere Que Sim",
+    "imageAlt_en": "Q&A: Is it time to expand our thinking about dark matter? A new study says yes",
+    "coverageKind": "news",
+    "coverageKindLabel": "Jornalismo científico",
+    "coverageKindLabel_pt": "Jornalismo científico",
+    "coverageKindLabel_en": "Science journalism",
+    "storyKind": "science"
+  },
+  {
+    "id": 6,
     "slug": "ice-moves-out-of-aniak",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -522,7 +782,7 @@
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 7,
     "slug": "inpainting-over-the-cracks-challenges-of-applying-pre-merger-searches-for-massive-black-hole-bin",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -541,12 +801,12 @@
     "excerpt_en": "A key science target of the Large Interferometer Space Antenna is to carry out multi-messenger observations of massive black hole binaries, observing the merger simultaneously in gravitational waves and with electromagnetic observatories.",
     "highlights": [
       "Ponto central: Este trabalho aborda os desafios na identificação pré-fusão de binários de buracos negros massivos em dados do LISA, um objetivo central para.",
-      "Dado-chave: Este trabalho aborda os desafios na identificação pré-fusão de binários de buracos negros massivos em dados do LISA, um objetivo central para",
+      "Dado-chave: Este trabalho aborda os desafios na identificação pré-fusão de binários de buracos negros massivos em dados do LISA, um objetivo central para.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
       "Ponto central: Este trabalho aborda os desafios na identificação pré-fusão de binários de buracos negros massivos em dados do LISA, um objetivo central para.",
-      "Dado-chave: Este trabalho aborda os desafios na identificação pré-fusão de binários de buracos negros massivos em dados do LISA, um objetivo central para",
+      "Dado-chave: Este trabalho aborda os desafios na identificação pré-fusão de binários de buracos negros massivos em dados do LISA, um objetivo central para.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
@@ -646,7 +906,7 @@
     "storyKind": "science"
   },
   {
-    "id": 6,
+    "id": 8,
     "slug": "studying-pneumonia-in-space-for-heart-health-on-earth",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -764,7 +1024,7 @@
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 9,
     "slug": "revisiting-the-2021-outburst-of-the-bhc-maxi-j1803-298-using-nicer-nustar-and-insight-hxmt-data",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -783,12 +1043,12 @@
     "excerpt_en": "We present a broadband spectral and timing study of the black hole candidate MAXI J1803-298 during its 2021 outburst using simultaneous observations from NICER, NuSTAR, and Insight-HXMT.",
     "highlights": [
       "Ponto central: Este estudo apresenta uma análise espectral e temporal de banda larga do candidato a buraco negro MAXI J1803-298 durante sua explosão de 2021.",
-      "Dado-chave: Este estudo apresenta uma análise espectral e temporal de banda larga do candidato a buraco negro MAXI J1803-298 durante sua explosão de 2021",
+      "Dado-chave: Este estudo apresenta uma análise espectral e temporal de banda larga do candidato a buraco negro MAXI J1803-298 durante sua explosão de 2021.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
       "Ponto central: Este estudo apresenta uma análise espectral e temporal de banda larga do candidato a buraco negro MAXI J1803-298 durante sua explosão de 2021.",
-      "Dado-chave: Este estudo apresenta uma análise espectral e temporal de banda larga do candidato a buraco negro MAXI J1803-298 durante sua explosão de 2021",
+      "Dado-chave: Este estudo apresenta uma análise espectral e temporal de banda larga do candidato a buraco negro MAXI J1803-298 durante sua explosão de 2021.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
@@ -891,7 +1151,7 @@
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 10,
     "slug": "waterworn-chaos-on-mars",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1064,184 +1324,7 @@
     "storyKind": "science"
   },
   {
-    "id": 9,
-    "slug": "nasa-s-perseverance-rover-snaps-selfie-in-mars-western-frontier",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://www.nasa.gov/wp-content/uploads/2026/05/thumb-for-web-pia26752a-western-selfie-watson-take-6-up.jpg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26753/PIA26753.png",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26752/PIA26752.png",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://d2pn8kiwq2w21t.cloudfront.net/original_images/PIA24542-1-1041.jpg",
-        "alt": "saiba mais sobre como as selfies são feitas",
-        "alt_pt": "saiba mais sobre como as selfies são feitas",
-        "alt_en": "learn more about how selfies are made",
-        "caption": "saiba mais sobre como as selfies são feitas",
-        "caption_pt": "saiba mais sobre como as selfies são feitas",
-        "caption_en": "learn more about how selfies are made"
-      },
-      {
-        "src": "https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA24542.jpg",
-        "alt": "saiba mais sobre como as selfies são feitas",
-        "alt_pt": "saiba mais sobre como as selfies são feitas",
-        "alt_en": "learn more about how selfies are made",
-        "caption": "saiba mais sobre como as selfies são feitas",
-        "caption_pt": "saiba mais sobre como as selfies são feitas",
-        "caption_en": "learn more about how selfies are made"
-      },
-      {
-        "src": "https://d2pn8kiwq2w21t.cloudfront.net/original_images/3-PIA24669.jpg",
-        "alt": "saiba mais sobre como as selfies são feitas",
-        "alt_pt": "saiba mais sobre como as selfies são feitas",
-        "alt_en": "learn more about how selfies are made",
-        "caption": "saiba mais sobre como as selfies são feitas",
-        "caption_pt": "saiba mais sobre como as selfies são feitas",
-        "caption_en": "learn more about how selfies are made"
-      }
-    ],
-    "video": {
-      "kind": "file",
-      "platform": "html5",
-      "embedUrl": "",
-      "fileUrl": "https://www.nasa.gov/wp-content/uploads/2026/05/1-pia26752-western-selfie-10x-nasa.mp4",
-      "poster": "https://www.nasa.gov/wp-content/uploads/2026/05/thumb-for-web-pia26752a-western-selfie-watson-take-6-up.jpg",
-      "title": "Perseverance Rover da NASA tira selfie na fronteira ocidental de Marte - NASA",
-      "title_pt": "Perseverance Rover da NASA tira selfie na fronteira ocidental de Marte - NASA",
-      "title_en": "NASA’s Perseverance Rover Snaps Selfie in Mars’ Western Frontier - NASA",
-      "caption": "O rover Perseverance Mars da NASA recentemente tirou um autorretrato contra um amplo cenário de antigo terreno marciano em um local que a equipe científica chama de “Lac”.",
-      "caption_pt": "O rover Perseverance Mars da NASA recentemente tirou um autorretrato contra um amplo cenário de antigo terreno marciano em um local que a equipe científica chama de “Lac”.",
-      "caption_en": "NASA’s Perseverance Mars rover recently took a self-portrait against a sweeping backdrop of ancient Martian terrain at a location the science team calls “Lac",
-      "sourcePage": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-snaps-selfie-in-mars-western-frontier/"
-    },
-    "audio": null,
-    "title": "O Rover Perseverance da NASA Tira Autorretrato na Fronteira Ocidental de Marte",
-    "title_pt": "O Rover Perseverance da NASA Tira Autorretrato na Fronteira Ocidental de Marte",
-    "title_en": "NASA’s Perseverance Rover Snaps Selfie in Mars’ Western Frontier",
-    "sub": "O rover Perseverance da NASA capturou um autorretrato em um local no antigo terreno marciano que a equipe científica denominou “Lac de Charmes”, oferecendo uma perspectiva única.",
-    "sub_pt": "O rover Perseverance da NASA capturou um autorretrato em um local no antigo terreno marciano que a equipe científica denominou “Lac de Charmes”, oferecendo uma perspectiva única.",
-    "sub_en": "NASA’s Perseverance Mars rover recently took a self-portrait against a sweeping backdrop of ancient Martian terrain at a location the science team calls “Lac de Charmes.",
-    "excerpt": "O rover Perseverance da NASA capturou um autorretrato em um local no antigo terreno marciano que a equipe científica denominou “Lac de Charmes”, oferecendo uma perspectiva única da paisagem marciana.",
-    "excerpt_pt": "O rover Perseverance da NASA capturou um autorretrato em um local no antigo terreno marciano que a equipe científica denominou “Lac de Charmes”, oferecendo uma perspectiva única da paisagem marciana.",
-    "excerpt_en": "NASA’s Perseverance Mars rover recently took a self-portrait against a sweeping backdrop of ancient Martian terrain at a location the science team calls “Lac de Charmes.",
-    "highlights": [
-      "Ponto central: O rover Perseverance da NASA capturou um autorretrato em um local no antigo terreno marciano que a equipe científica denominou “Lac de Charmes”.",
-      "Dado-chave: O rover Perseverance da NASA capturou um autorretrato em um local no antigo terreno marciano que a equipe científica denominou “Lac de Charmes”.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: O rover Perseverance da NASA capturou um autorretrato em um local no antigo terreno marciano que a equipe científica denominou “Lac de Charmes”.",
-      "Dado-chave: O rover Perseverance da NASA capturou um autorretrato em um local no antigo terreno marciano que a equipe científica denominou “Lac de Charmes”.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: NASA’s Perseverance Mars rover recently took a self-portrait against a sweeping backdrop of ancient Martian terrain at a location the science team.",
-      "Key detail: NASA’s Perseverance Mars rover recently took a self-portrait against a sweeping backdrop of ancient Martian terrain at a location the science.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "12 mai 2026",
-    "date_pt": "12 mai 2026",
-    "date_en": "12 May 2026",
-    "time": "16h48",
-    "time_pt": "16h48",
-    "time_en": "16: 48 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-12T16:48:31+00:00",
-    "lastModifiedIso": "2026-05-12T17:47:05+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Perseverance Rover da NASA tira selfie na fronteira ocidental de Marte"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Perseverance Rover da NASA tira selfie na fronteira ocidental de Marte"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA's Perseverance Rover takes selfie on Mars' western border"
-    ],
-    "srcUrl": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-snaps-selfie-in-mars-western-frontier/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-s-perseverance-rover-snaps-selfie-in-mars-western-frontier",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-s-perseverance-rover-snaps-selfie-in-mars-western-frontier",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-s-perseverance-rover-snaps-selfie-in-mars-western-frontier&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-s-perseverance-rover-snaps-selfie-in-mars-western-frontier/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-perseverance-rover-snaps-selfie-in-mars-western-frontier/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-perseverance-rover-snaps-selfie-in-mars-western-frontier/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-s-perseverance-rover-snaps-selfie-in-mars-western-frontier/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-perseverance-rover-snaps-selfie-in-mars-western-frontier/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-perseverance-rover-snaps-selfie-in-mars-western-frontier/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": true,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "O Rover Perseverance da NASA Tira Autorretrato na Fronteira Ocidental de Marte",
-    "imageAlt_pt": "O Rover Perseverance da NASA Tira Autorretrato na Fronteira Ocidental de Marte",
-    "imageAlt_en": "NASA’s Perseverance Rover Snaps Selfie in Mars’ Western Frontier",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 10,
+    "id": 11,
     "slug": "color-off-the-mid-atlantic-coast",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1378,7 +1461,7 @@
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "sistema-solar-ganha-novo-misterio-com-aneis-de-quiron",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1546,7 +1629,7 @@
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "esa-and-jaxa-team-up-on-planetary-defence-ramses-mission-to-asteroid-apophis",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1670,7 +1753,7 @@
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "a-beacon-of-light-in-swirls-of-dust",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1825,7 +1908,7 @@
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "a-sea-of-spinning-clouds",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1953,7 +2036,7 @@
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "webb-hubble-find-massive-star-clusters-emerge-faster",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2081,7 +2164,7 @@
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "ahuachapan-and-its-restive-neighbors",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2218,7 +2301,7 @@
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "stunning-images-from-biomass-mark-its-one-year-in-orbit",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2391,7 +2474,7 @@
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -2512,7 +2595,7 @@
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2630,7 +2713,7 @@
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 21,
     "slug": "days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2833,7 +2916,7 @@
     "storyKind": "science"
   },
   {
-    "id": 21,
+    "id": 22,
     "slug": "catching-the-earliest-stars-in-the-universe",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2951,7 +3034,7 @@
     "storyKind": "science"
   },
   {
-    "id": 22,
+    "id": 23,
     "slug": "hilumi-lhc-cern-s-full-scale-test-stand-enters-the-powering-phase",
     "cat": "Física",
     "catCls": "fisica",
@@ -3082,7 +3165,7 @@
     "storyKind": "science"
   },
   {
-    "id": 23,
+    "id": 24,
     "slug": "stellar-flares-may-expand-habitable-zones-around-small-stars",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -3213,7 +3296,7 @@
     "storyKind": "science"
   },
   {
-    "id": 24,
+    "id": 25,
     "slug": "automated-ct-scan-analysis-could-fast-track-clinical-assessments",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -3328,137 +3411,6 @@
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 25,
-    "slug": "sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://scx2.b-cdn.net/gfx/news/hires/2026/rice-researchers-find.jpg",
-    "inline_images": [
-      {
-        "src": "https://phys.b-cdn.net/tmpl/v6/img/medx308px.png",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres",
-    "title_pt": "Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres",
-    "title_en": "Sulfur-rich Mercury magmas behave differently than Earth's do",
-    "sub": "Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus magmas se comportam de maneira.",
-    "sub_pt": "Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus magmas se comportam de maneira.",
-    "sub_en": "Mercury is a small, rocky planet about which researchers know relatively little. Two missions, taking readings as they passed over the planet, have revealed that Mercury is.",
-    "excerpt": "Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus magmas se comportam de maneira diferente dos da Terra, permanecendo derretidos em temperaturas mais baixas.",
-    "excerpt_pt": "Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus magmas se comportam de maneira diferente dos da Terra, permanecendo derretidos em temperaturas mais baixas.",
-    "excerpt_en": "Mercury is a small, rocky planet about which researchers know relatively little. Two missions, taking readings as they passed over the planet, have revealed that Mercury is covered by an iron-poor and sulfur-rich crust.",
-    "highlights": [
-      "Ponto central: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
-      "Dado-chave: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_pt": [
-      "Ponto central: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
-      "Dado-chave: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_en": [
-      "Core point: Mercury is a small, rocky planet about which researchers know relatively little.",
-      "Key detail: Mercury is a small, rocky planet about which researchers know relatively little.",
-      "Science reporting: verify primary technical documentation."
-    ],
-    "date": "19 abr 2026",
-    "date_pt": "19 abr 2026",
-    "date_en": "19 Apr 2026",
-    "time": "19h00",
-    "time_pt": "19h00",
-    "time_en": "19: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-19T19:00:01+00:00",
-    "lastModifiedIso": "2026-04-23T23:29:07+00:00",
-    "source": "Phys. org Space",
-    "sourceDomain": "phys. org",
-    "sourceType": "news",
-    "sourceTypeLabel": "Jornalismo científico",
-    "sourceTypeLabel_pt": "Jornalismo científico",
-    "sourceTypeLabel_en": "Science journalism",
-    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
-    "evidenceKey": "journalistic",
-    "evidenceLabel": "Cobertura jornalística",
-    "evidenceLabel_pt": "Cobertura jornalística",
-    "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "Phys. org Space",
-      "Cosmos Week",
-      "Magmas de Mercúrio ricos em enxofre comportam",
-      "se de maneira diferente dos da Terra"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "Phys. org Space",
-      "Cosmos Week",
-      "Magmas de Mercúrio ricos em enxofre comportam",
-      "se de maneira diferente dos da Terra"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "Phys. org Space",
-      "Cosmos Week",
-      "Sulfur-rich Mercury magmas contain",
-      "if different from those on Earth"
-    ],
-    "srcUrl": "https://phys.org/news/2026-04-sulfur-rich-mercury-magmas-differently.html",
-    "realUrl": "https://www.cosmosweek.com/?article=sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do",
-    "realUrl_en": "https://www.cosmosweek.com/?article=sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 76,
-      "evidence": 42,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres",
-    "imageAlt_pt": "Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres",
-    "imageAlt_en": "Sulfur-rich Mercury magmas behave differently than Earth's do",
-    "coverageKind": "news",
-    "coverageKindLabel": "Jornalismo científico",
-    "coverageKindLabel_pt": "Jornalismo científico",
-    "coverageKindLabel_en": "Science journalism",
     "storyKind": "science"
   },
   {
