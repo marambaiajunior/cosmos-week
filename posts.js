@@ -3,6 +3,636 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://www.nasa.gov/wp-content/uploads/2026/05/dscn0407-evans.jpg",
+    "inline_images": [
+      {
+        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-1.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-2.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-3.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-4.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar",
+    "title_pt": "Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar",
+    "title_en": "Johnson’s Cindy Evans Prepares Artemis Teams for Lunar Science",
+    "sub": "A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como.",
+    "sub_pt": "A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como.",
+    "sub_en": "NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an important role as scientific.",
+    "excerpt": "A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como embaixadores científicos no vizinho mais próximo da Terra.",
+    "excerpt_pt": "A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como embaixadores científicos no vizinho mais próximo da Terra.",
+    "excerpt_en": "NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an important role as scientific ambassadors to Earth’s nearest neighbor.",
+    "body": "<p>A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como embaixadores científicos no vizinho mais próximo da Terra. Na sua viagem de 10 dias, a tripulação voou pelo outro lado da Lua, analisando e fotografando características geológicas, como crateras de impacto e [. ].</p><p>4 Min Read Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar Cindy Evans, cientista de exploração Artemis e líder de treinamento em geologia no Centro Espacial Johnson da NASA em Houston, preparando-se para uma implantação em campo profundo para coletar.</p><p>Créditos: Cindy Evans A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante sua missão histórica à Lua, mas também desempenhou um papel importante como embaixadores científicos no vizinho mais próximo da Terra.</p><p>Desempenhei muitos papéis diferentes, e cada posição me ensinou coisas novas e ampliou minha perspectiva. ” Cindy Evans orienta o astronauta da NASA Marcos Berríos na observação e descrição de amostras de rochas durante um treinamento de geologia em campo em Flagstaff, Arizona. A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante.</p><p>Artigo A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como embaixadores científicos no vizinho mais próximo da Terra. Na sua viagem de 10 dias, a tripulação voou pelo outro lado da Lua, analisando e fotografando características geológicas, como crateras de impacto e antigos fluxos de lava.</p><p>A tripulação baseou-se no extenso treinamento em geologia que recebeu na Terra para descrever nuances de formas, texturas e cores, o tipo de informação que revela a história geológica de uma área.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/johnson/johnsons-cindy-evans-prepares-artemis-teams-for-lunar-science/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como embaixadores científicos no vizinho mais próximo da Terra. Na sua viagem de 10 dias, a tripulação voou pelo outro lado da Lua, analisando e fotografando características geológicas, como crateras de impacto e [. ].</p><p>4 Min Read Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar Cindy Evans, cientista de exploração Artemis e líder de treinamento em geologia no Centro Espacial Johnson da NASA em Houston, preparando-se para uma implantação em campo profundo para coletar.</p><p>Créditos: Cindy Evans A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante sua missão histórica à Lua, mas também desempenhou um papel importante como embaixadores científicos no vizinho mais próximo da Terra.</p><p>Desempenhei muitos papéis diferentes, e cada posição me ensinou coisas novas e ampliou minha perspectiva. ” Cindy Evans orienta o astronauta da NASA Marcos Berríos na observação e descrição de amostras de rochas durante um treinamento de geologia em campo em Flagstaff, Arizona. A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante.</p><p>Artigo A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como embaixadores científicos no vizinho mais próximo da Terra. Na sua viagem de 10 dias, a tripulação voou pelo outro lado da Lua, analisando e fotografando características geológicas, como crateras de impacto e antigos fluxos de lava.</p><p>A tripulação baseou-se no extenso treinamento em geologia que recebeu na Terra para descrever nuances de formas, texturas e cores, o tipo de informação que revela a história geológica de uma área.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/johnson/johnsons-cindy-evans-prepares-artemis-teams-for-lunar-science/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an important role as scientific ambassadors to Earth’s nearest neighbor. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. On their 10-day journey, the crew flew by the far side of the Moon, analyzing and photographing geologic features such as impact craters and. 4 Min Read Johnson’s Cindy Evans Prepares Artemis Teams for Lunar Science Cindy Evans, Artemis exploration scientist and geology training lead at NASA’s Johnson Space Center in.</p><p>Artemis geology training lead at NASA’s Johnson Space Center in Houston, Cindy Evans (left) and NASA astronaut and Artemis II mission specialist Christina Koch study geologic. I have enjoyed many different roles, and each and every position taught me new things and stretched my perspective.</p><p>NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an important role Article NASA’s Artemis. On their 10-day journey, the crew flew by the far side of the Moon, analyzing and photographing geologic features such as impact craters and ancient lava flows.</p><p>The crew relied on the extensive geology training they received on Earth to describe nuances in shapes, textures, and colors, the type of information that reveals the geologic. Based at NASA’s Johnson Space Center in Houston in the Astromaterials Research and Exploration Science (ARES) Division, Evans is part of the Artemis Internal Science Team and.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>As the scientists ‘on the ground,’ Artemis crew members require geology and field skills so that they can execute the mission science requirements from lunar orbit and on the. In her 37 years with the agency, Evans contributed to the Space Shuttle Program, Shuttle-Mir Program, and the International Space Station before transitioning to NASA’s Artemis.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/johnson/johnsons-cindy-evans-prepares-artemis-teams-for-lunar-science/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "19 mai 2026",
+    "date_pt": "19 mai 2026",
+    "date_en": "19 May 2026",
+    "time": "15h00",
+    "time_pt": "15h00",
+    "time_en": "15: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-19T15:00:00+00:00",
+    "lastModifiedIso": "2026-05-19T18:11:34+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Johnson's Cindy Evans Prepares Artemis Teams for Lunar Science"
+    ],
+    "srcUrl": "https://www.nasa.gov/centers-and-facilities/johnson/johnsons-cindy-evans-prepares-artemis-teams-for-lunar-science/",
+    "realUrl": "https://www.cosmosweek.com/?article=johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science",
+    "realUrl_en": "https://www.cosmosweek.com/?article=johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar",
+    "imageAlt_pt": "Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar",
+    "imageAlt_en": "Johnson’s Cindy Evans Prepares Artemis Teams for Lunar Science",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://assets.science.nasa.gov/content/dam/science/cds/citizen-science/highlights/2026/earth_magnetosphere_solar_wind.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [],
+    "video": {
+      "kind": "embed",
+      "platform": "youtube",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/4MWU7GDIlgs?rel=0&modestbranding=1",
+      "fileUrl": "",
+      "poster": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/citizen-science/highlights/2026/earth_magnetosphere_solar_wind.jpg?w=1000&h=656&fit=clip&crop=faces%2Cfocalpoint",
+      "title": "Detetives de choque",
+      "title_pt": "Detetives de choque",
+      "title_en": "Shock Detectives",
+      "caption": "Shock Detectives é um projeto onde voluntários ajudam a classificar dados espaciais próximos a ondas de choque usando dados da missão MMS da NASA. Não é necessária experiência prévia - apenas. ..",
+      "caption_pt": "Shock Detectives é um projeto onde voluntários ajudam a classificar dados espaciais próximos a ondas de choque usando dados da missão MMS da NASA. Não é necessária experiência prévia - apenas. ..",
+      "caption_en": "Shock Detectives is a project where volunteers help classify space data near shock waves using data from NASA’s MMS mission. No prior experience is needed-ju. ..",
+      "sourcePage": "https://science.nasa.gov/get-involved/citizen-science/nasas-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind/"
+    },
+    "audio": null,
+    "title": "Projeto 'Shock Detectives' da NASA Convida Voluntários para Estudar o Vento Solar",
+    "title_pt": "Projeto 'Shock Detectives' da NASA Convida Voluntários para Estudar o Vento Solar",
+    "title_en": "NASA’s New Shock Detectives Project Invites Volunteers to Help Study Solar Wind",
+    "sub": "A missão Magnetospheric Multiscale (MMS) da NASA acumulou mais de uma década de dados sobre a interação entre o vento solar e a magnetosfera terrestre.",
+    "sub_pt": "A missão Magnetospheric Multiscale (MMS) da NASA acumulou mais de uma década de dados sobre a interação entre o vento solar e a magnetosfera terrestre.",
+    "sub_en": "NASA’s Magnetospheric Multiscale mission has collected more than ten years of data from this zone, more than scientists can analyze alone.",
+    "excerpt": "A missão Magnetospheric Multiscale (MMS) da NASA acumulou mais de uma década de dados sobre a interação entre o vento solar e a magnetosfera terrestre.",
+    "excerpt_pt": "A missão Magnetospheric Multiscale (MMS) da NASA acumulou mais de uma década de dados sobre a interação entre o vento solar e a magnetosfera terrestre.",
+    "excerpt_en": "NASA’s Magnetospheric Multiscale mission has collected more than ten years of data from this zone, more than scientists can analyze alone.",
+    "body": "<p>A interação entre o vento solar e a magnetosfera terrestre é um fenômeno complexo e crucial para a compreensão do ambiente espacial que nos cerca. A aproximadamente 90.000 quilômetros à frente da Terra, na direção do Sol, o vento solar colide com o campo magnético protetor do nosso planeta, gerando uma onda de choque duradoura que se estende por centenas de milhares de quilômetros. Essa região, conhecida como choque em arco, é de grande interesse científico, pois é ali que a energia do vento solar pode ser transferida para a magnetosfera, com potenciais impactos na Terra.</p><p>Para investigar essa dinâmica, a missão Magnetospheric Multiscale (MMS) da NASA tem coletado dados detalhados por mais de uma década. No entanto, a vasta quantidade de informações acumuladas excede a capacidade de análise dos cientistas sozinhos. É nesse contexto que surge o projeto &#x27;Shock Detectives&#x27;, uma iniciativa de ciência cidadã que convida voluntários a colaborar na classificação desses dados espaciais. Ao participar, os voluntários desempenham um papel fundamental em ajudar os pesquisadores a desvendar os mistérios do choque em arco e a entender melhor como o vento solar afeta a vida na Terra.</p><p>Um dos principais focos de estudo é a transição do plasma entre estados &#x27;pacíficos&#x27; e &#x27;caóticos&#x27;. Quando o plasma &#x27;caótico&#x27; domina, uma quantidade maior de energia pode atingir a magnetosfera terrestre. Esse influxo energético tem o potencial de causar interrupções significativas em tecnologias essenciais, como sinais de GPS, sistemas de comunicação e redes elétricas. Os cientistas ainda buscam compreender completamente os gatilhos para essas mudanças de estado do plasma e como elas influenciam a transferência de energia para o nosso planeta.</p><p>No projeto &#x27;Shock Detectives&#x27;, os voluntários examinarão dados coletados pela missão MMS para identificar e classificar características das ondas de choque. Essa análise colaborativa é vital para construir um panorama mais completo dos fenômenos que ocorrem nessa região crítica do espaço. A contribuição de cada participante ajuda a acelerar o processo de pesquisa, permitindo que os cientistas avancem na compreensão de quando e como o vento solar interage com a magnetosfera terrestre, e quais as consequências dessas interações.</p><p>O conhecimento gerado por meio do &#x27;Shock Detectives&#x27; transcende a órbita terrestre. As descobertas sobre o choque em arco Terra-Sol não apenas aprimorarão nossa capacidade de prever e mitigar os efeitos do clima espacial em nosso próprio planeta, mas também fornecerão insights valiosos sobre como o vento solar de outras estrelas impacta seus planetas em órbita. Essa perspectiva exoplanetária é crucial para a busca por vida fora da Terra e para a compreensão da habitabilidade de outros mundos. Além disso, este projeto mantém uma ligação estreita com outra iniciativa apoiada pela NASA, o &#x27;Space Umbrella&#x27;, que igualmente se baseia em dados e imagens da missão MMS.</p>",
+    "body_pt": "<p>A interação entre o vento solar e a magnetosfera terrestre é um fenômeno complexo e crucial para a compreensão do ambiente espacial que nos cerca. A aproximadamente 90.000 quilômetros à frente da Terra, na direção do Sol, o vento solar colide com o campo magnético protetor do nosso planeta, gerando uma onda de choque duradoura que se estende por centenas de milhares de quilômetros. Essa região, conhecida como choque em arco, é de grande interesse científico, pois é ali que a energia do vento solar pode ser transferida para a magnetosfera, com potenciais impactos na Terra.</p><p>Para investigar essa dinâmica, a missão Magnetospheric Multiscale (MMS) da NASA tem coletado dados detalhados por mais de uma década. No entanto, a vasta quantidade de informações acumuladas excede a capacidade de análise dos cientistas sozinhos. É nesse contexto que surge o projeto &#x27;Shock Detectives&#x27;, uma iniciativa de ciência cidadã que convida voluntários a colaborar na classificação desses dados espaciais. Ao participar, os voluntários desempenham um papel fundamental em ajudar os pesquisadores a desvendar os mistérios do choque em arco e a entender melhor como o vento solar afeta a vida na Terra.</p><p>Um dos principais focos de estudo é a transição do plasma entre estados &#x27;pacíficos&#x27; e &#x27;caóticos&#x27;. Quando o plasma &#x27;caótico&#x27; domina, uma quantidade maior de energia pode atingir a magnetosfera terrestre. Esse influxo energético tem o potencial de causar interrupções significativas em tecnologias essenciais, como sinais de GPS, sistemas de comunicação e redes elétricas. Os cientistas ainda buscam compreender completamente os gatilhos para essas mudanças de estado do plasma e como elas influenciam a transferência de energia para o nosso planeta.</p><p>No projeto &#x27;Shock Detectives&#x27;, os voluntários examinarão dados coletados pela missão MMS para identificar e classificar características das ondas de choque. Essa análise colaborativa é vital para construir um panorama mais completo dos fenômenos que ocorrem nessa região crítica do espaço. A contribuição de cada participante ajuda a acelerar o processo de pesquisa, permitindo que os cientistas avancem na compreensão de quando e como o vento solar interage com a magnetosfera terrestre, e quais as consequências dessas interações.</p><p>O conhecimento gerado por meio do &#x27;Shock Detectives&#x27; transcende a órbita terrestre. As descobertas sobre o choque em arco Terra-Sol não apenas aprimorarão nossa capacidade de prever e mitigar os efeitos do clima espacial em nosso próprio planeta, mas também fornecerão insights valiosos sobre como o vento solar de outras estrelas impacta seus planetas em órbita. Essa perspectiva exoplanetária é crucial para a busca por vida fora da Terra e para a compreensão da habitabilidade de outros mundos. Além disso, este projeto mantém uma ligação estreita com outra iniciativa apoiada pela NASA, o &#x27;Space Umbrella&#x27;, que igualmente se baseia em dados e imagens da missão MMS.</p>",
+    "body_en": "<p>NASA’s Magnetospheric Multiscale mission has collected more than ten years of data from this zone, more than scientists can analyze alone. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. When “chaotic” plasma dominates, more energy can reach Earth’s magnetosphere, possibly leading to disruptions in GPS signals, communications, and power grids. Scientists don’t yet fully understand when the plasma changes between “peaceful” and “chaotic” states or how those changes affect energy transfer to Earth.</p><p>The Earth’s magnetosphere (blue) interacts with the solar wind, creating a shock wave (red), like a sonic boom in space. Join the Shock Detectives project and help scientists study this region and better understand how the solar wind affects our lives Mark Garlick/Science Photo Library via Getty.</p><p>Shock Detectives is a project where volunteers help classify space data near shock waves using data from NASA’s MMS mission. Now, you can help scientists examine data about this “ bow shock ” to better understand how the solar wind affects the Earth by joining a new research project: Shock Detectives.</p><p>When &quot;chaotic&quot; plasma dominates, more energy can reach Earth&#x27;s magnetosphere, possibly leading to disruptions in GPS signals, communications, and power grids. Scientists don&#x27;t yet fully understand when the plasma changes between &quot;peaceful&quot; and &quot;chaotic&quot; states or how those changes affect energy transfer to Earth.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>NASA’s Magnetospheric Multiscale (MMS) mission has collected more than ten years of data from this zone, more than scientists can analyze alone. The value of this new knowledge doesn’t end at Earth, what scientists learn about the Earth-Sun bow shock will help them understand how the solar wind of other stars impacts their.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/get-involved/citizen-science/nasas-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: A missão Magnetospheric Multiscale (MMS) da NASA acumulou mais de uma década de dados sobre a interação entre o vento solar e a magnetosfera",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A missão Magnetospheric Multiscale (MMS) da NASA acumulou mais de uma década de dados sobre a interação entre o vento solar e a magnetosfera",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: NASA’s Magnetospheric Multiscale mission has collected more than ten years of data from this zone, more than scientists can analyze alone",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "19 mai 2026",
+    "date_pt": "19 mai 2026",
+    "date_en": "19 May 2026",
+    "time": "13h05",
+    "time_pt": "13h05",
+    "time_en": "13: 05 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-19T13:05:00+00:00",
+    "lastModifiedIso": "2026-05-19T18:11:34+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "O novo projeto de detetives de choque da NASA convida voluntários para ajudar a estudar o vento solar"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "O novo projeto de detetives de choque da NASA convida voluntários para ajudar a estudar o vento solar"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA's New Shock Detective Project Invites Volunteers to Help Study Solar Wind"
+    ],
+    "srcUrl": "https://science.nasa.gov/get-involved/citizen-science/nasas-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind/",
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Projeto 'Shock Detectives' da NASA Convida Voluntários para Estudar o Vento Solar",
+    "imageAlt_pt": "Projeto 'Shock Detectives' da NASA Convida Voluntários para Estudar o Vento Solar",
+    "imageAlt_en": "NASA’s New Shock Detectives Project Invites Volunteers to Help Study Solar Wind",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
+    "slug": "smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/wide_view_of_vega-c_liftoff_with_smile/27281047-2-eng-GB/Wide_view_of_Vega-C_liftoff_with_Smile_pillars.jpg",
+    "inline_images": [
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/vega-c_shoots_through_the_sky_with_a_smile/27280936-2-eng-GB/Vega-C_shoots_through_the_sky_with_a_Smile_pillars.jpg",
+        "alt": "Vega-C dispara pelo céu com um sorriso",
+        "alt_pt": "Vega-C dispara pelo céu com um sorriso",
+        "alt_en": "Vega-C shoots through the sky with a Smile",
+        "caption": "Vega-C dispara pelo céu com um sorriso",
+        "caption_pt": "Vega-C dispara pelo céu com um sorriso",
+        "caption_en": "Vega-C shoots through the sky with a Smile"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/vega-c_liftoff_with_smile/27281000-2-eng-GB/Vega-C_liftoff_with_Smile_pillars.jpg",
+        "alt": "Decolagem Vega-C com Smile",
+        "alt_pt": "Decolagem Vega-C com Smile",
+        "alt_en": "Vega-C liftoff with Smile",
+        "caption": "Decolagem Vega-C com Smile",
+        "caption_pt": "Decolagem Vega-C com Smile",
+        "caption_en": "Vega-C liftoff with Smile"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/vega-c_complete_with_smile_inside/27268196-1-eng-GB/Vega-C_complete_with_Smile_inside_pillars.png",
+        "alt": "Vega-C completo com Smile dentro",
+        "alt_pt": "Vega-C completo com Smile dentro",
+        "alt_en": "Vega-C complete with Smile inside",
+        "caption": "Vega-C completo com Smile dentro",
+        "caption_pt": "Vega-C completo com Smile dentro",
+        "caption_en": "Vega-C complete with Smile inside"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/10/vega-c_blueprint/26341181-1-eng-GB/Vega-C_blueprint_pillars.png",
+        "alt": "Projeto Vega-C",
+        "alt_pt": "Projeto Vega-C",
+        "alt_en": "Vega-C blueprint",
+        "caption": "Projeto Vega-C",
+        "caption_pt": "Projeto Vega-C",
+        "caption_en": "Vega-C blueprint"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/02/smile_in_numbers/27124317-1-eng-GB/Smile_in_numbers_article.jpg",
+        "alt": "Sorria em números",
+        "alt_pt": "Sorria em números",
+        "alt_en": "Smile in numbers",
+        "caption": "Sorria em números",
+        "caption_pt": "Sorria em números",
+        "caption_en": "Smile in numbers"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/12/labelled_smile_spacecraft_artist_impression/25358137-5-eng-GB/Labelled_Smile_spacecraft_artist_impression_article.jpg",
+        "alt": "Nave espacial Smile rotulada (impressão artística)",
+        "alt_pt": "Nave espacial Smile rotulada (impressão artística)",
+        "alt_en": "Labelled Smile spacecraft (artist impression)",
+        "caption": "Nave espacial Smile rotulada (impressão artística)",
+        "caption_pt": "Nave espacial Smile rotulada (impressão artística)",
+        "caption_en": "Labelled Smile spacecraft (artist impression)"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/05/smile_launch_highlights/27281512-1-eng-GB/Smile_launch_highlights_pillars.png",
+        "alt": "$video. data_map. short_description. content",
+        "alt_pt": "$video. data_map. short_description. content",
+        "alt_en": "$video. data_map. short_description. content",
+        "caption": "$video. data_map. short_description. content",
+        "caption_pt": "$video. data_map. short_description. content",
+        "caption_en": "$video. data_map. short_description. content"
+      }
+    ],
+    "video": {
+      "kind": "embed",
+      "platform": "youtube",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/JZcSEdz54k0?rel=0&modestbranding=1",
+      "fileUrl": "",
+      "poster": "",
+      "title": "",
+      "title_pt": "",
+      "title_en": "",
+      "caption": "",
+      "caption_pt": "",
+      "caption_en": "",
+      "sourcePage": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Smile_lifts_off_on_quest_to_reveal_Earth_s_invisible_shield_against_the_solar_wind"
+    },
+    "audio": null,
+    "title": "Smile decola em busca de revelar o escudo invisível da Terra contra o vento solar",
+    "title_pt": "Smile decola em busca de revelar o escudo invisível da Terra contra o vento solar",
+    "title_en": "Smile lifts off on quest to reveal Earth’s invisible shield against the solar wind",
+    "sub": "A espaçonave Smile decolou em um foguete Vega-C do porto espacial europeu na Guiana Francesa às 04h52 BST/05h52 CEST em 19 de maio de 2026, iniciando uma missão para compreender.",
+    "sub_pt": "A espaçonave Smile decolou em um foguete Vega-C do porto espacial europeu na Guiana Francesa às 04h52 BST/05h52 CEST em 19 de maio de 2026, iniciando uma missão para compreender.",
+    "sub_en": "The Smile spacecraft lifted off on a Vega-C rocket from Europe’s Spaceport in French Guiana at 04: 52 BST / 05: 52 CEST on 19 May 2026.",
+    "excerpt": "A espaçonave Smile decolou em um foguete Vega-C do porto espacial europeu na Guiana Francesa às 04h52 BST/05h52 CEST em 19 de maio de 2026, iniciando uma missão para compreender as tempestades solares e o clima espacial.",
+    "excerpt_pt": "A espaçonave Smile decolou em um foguete Vega-C do porto espacial europeu na Guiana Francesa às 04h52 BST/05h52 CEST em 19 de maio de 2026, iniciando uma missão para compreender as tempestades solares e o clima espacial.",
+    "excerpt_en": "The Smile spacecraft lifted off on a Vega-C rocket from Europe’s Spaceport in French Guiana at 04: 52 BST / 05: 52 CEST on 19 May 2026.",
+    "body": "<p>Esta missão representa um testemunho do compromisso da ESA com a colaboração internacional, visando o avanço do conhecimento científico e a promoção da utilização pacífica do espaço. A sua concretização é fruto de uma colaboração bem-sucedida entre a ESA e o CAS (Academia Chinesa de Ciências), com contribuições significativas de parceiros de toda a Europa. A Professora Carole Mundell, Diretora de Ciência da ESA, expressou seu entusiasmo, afirmando: &#x27;A Smile é o mais novo membro da frota de missões científicas espaciais da ESA. É emocionante testemunhar este momento e estou ansiosa pelas novas descobertas científicas que a Smile proporcionará. &#x27;</p><p>A Smile está equipada com um conjunto de instrumentos exclusivo, projetado para fornecer a primeira visão completa de como o campo magnético da Terra responde às interações com o ambiente espacial. Esta será a primeira missão a observar o escudo magnético do nosso planeta com capacidade de observação em raios X, um recurso crucial para revelar exatamente onde e como ele é atingido pelo vento solar. Essa perspectiva inovadora permitirá aos cientistas mapear as regiões de impacto e compreender melhor a dinâmica complexa entre a magnetosfera terrestre e as partículas energéticas provenientes do Sol.</p><p>Além da observação em raios X, a Smile utilizará sua capacidade de observação em ultravioleta para registrar as auroras boreais por períodos de até 45 horas consecutivas. Esta característica a torna a primeira missão a observar as auroras por um período tão extenso e a primeira desde 2008 a capturar o círculo auroral completo ao redor do Polo Norte em luz ultravioleta. A duração e a abrangência dessas observações são inéditas, prometendo dados valiosos para o estudo da formação e evolução das auroras, fenômenos que refletem diretamente a interação entre o vento solar e a magnetosfera terrestre.</p><p>As descobertas científicas que a Smile proporcionará são esperadas para aprimorar significativamente os modelos existentes do ambiente magnético da Terra. Uma compreensão mais profunda desses processos é fundamental para prever e mitigar os efeitos das tempestades geomagnéticas, que podem impactar infraestruturas tecnológicas na Terra e no espaço. Em última análise, os dados coletados pela missão poderão contribuir para a segurança de nossos astronautas e para a proteção de tecnologias espaciais críticas nas próximas décadas, garantindo a sustentabilidade das operações espaciais e a proteção de ativos valiosos.</p>",
+    "body_pt": "<p>Esta missão representa um testemunho do compromisso da ESA com a colaboração internacional, visando o avanço do conhecimento científico e a promoção da utilização pacífica do espaço. A sua concretização é fruto de uma colaboração bem-sucedida entre a ESA e o CAS (Academia Chinesa de Ciências), com contribuições significativas de parceiros de toda a Europa. A Professora Carole Mundell, Diretora de Ciência da ESA, expressou seu entusiasmo, afirmando: &#x27;A Smile é o mais novo membro da frota de missões científicas espaciais da ESA. É emocionante testemunhar este momento e estou ansiosa pelas novas descobertas científicas que a Smile proporcionará. &#x27;</p><p>A Smile está equipada com um conjunto de instrumentos exclusivo, projetado para fornecer a primeira visão completa de como o campo magnético da Terra responde às interações com o ambiente espacial. Esta será a primeira missão a observar o escudo magnético do nosso planeta com capacidade de observação em raios X, um recurso crucial para revelar exatamente onde e como ele é atingido pelo vento solar. Essa perspectiva inovadora permitirá aos cientistas mapear as regiões de impacto e compreender melhor a dinâmica complexa entre a magnetosfera terrestre e as partículas energéticas provenientes do Sol.</p><p>Além da observação em raios X, a Smile utilizará sua capacidade de observação em ultravioleta para registrar as auroras boreais por períodos de até 45 horas consecutivas. Esta característica a torna a primeira missão a observar as auroras por um período tão extenso e a primeira desde 2008 a capturar o círculo auroral completo ao redor do Polo Norte em luz ultravioleta. A duração e a abrangência dessas observações são inéditas, prometendo dados valiosos para o estudo da formação e evolução das auroras, fenômenos que refletem diretamente a interação entre o vento solar e a magnetosfera terrestre.</p><p>As descobertas científicas que a Smile proporcionará são esperadas para aprimorar significativamente os modelos existentes do ambiente magnético da Terra. Uma compreensão mais profunda desses processos é fundamental para prever e mitigar os efeitos das tempestades geomagnéticas, que podem impactar infraestruturas tecnológicas na Terra e no espaço. Em última análise, os dados coletados pela missão poderão contribuir para a segurança de nossos astronautas e para a proteção de tecnologias espaciais críticas nas próximas décadas, garantindo a sustentabilidade das operações espaciais e a proteção de ativos valiosos.</p>",
+    "body_en": "<p>The Smile spacecraft lifted off on a Vega-C rocket from Europe’s Spaceport in French Guiana at 04: 52 BST / 05: 52 CEST on 19 May 2026. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The launch marks the beginning of an ambitious mission to better understand solar storms, geomagnetic storms, and the science of space weather. Following launch and separation from the rocket, the first signal from Smile was received by ESA’s New Norcia ground station in Australia at 06: 48 CEST.</p><p>The spacecraft’s solar panels then deployed at 06: 49 CEST, meaning that Smile can now collect sunlight to power its systems and science instruments. It will reveal how Earth responds to the streams of particles and bursts of radiation from the Sun, using an X-ray camera to make the world’s first X-ray observations of Earth’s.</p><p>This mission stands as a testament to ESA’s commitment to international collaboration, advancing scientific knowledge and promoting the peaceful use of space. The mission is made possible thanks to a smooth collaboration between ESA and CAS, with contributions from partners across Europe.</p><p>Professor Carole Mundell, ESA’s Director of Science says: “Smile is the newest member of ESA’s space science mission fleet. It’s exciting to see this all come together today and I’m looking forward to the new scientific discoveries Smile will deliver.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>It will be the first mission to look at Earth’s magnetic shield with X-ray vision, to reveal where and how it is hit by the solar wind. Smile will use ultraviolet vision to record the northern lights for 45 hours at a time, becoming the first mission to observe them for so long, and the first since 2008 to observe.</p><p>Because the account originates with ESA Space Science, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Smile/Smile_lifts_off_on_quest_to_reveal_Earth_s_invisible_shield_against_the_solar_wind\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: A espaçonave Smile decolou em um foguete Vega-C do porto espacial europeu na Guiana Francesa às 04h52 BST/05h52 CEST em 19 de maio de 2026, iniciando",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A espaçonave Smile decolou em um foguete Vega-C do porto espacial europeu na Guiana Francesa às 04h52 BST/05h52 CEST em 19 de maio de 2026, iniciando",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: The Smile spacecraft lifted off on a Vega-C rocket from Europe’s Spaceport in French Guiana at 04: 52 BST / 05: 52 CEST on 19 May 2026",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "19 mai 2026",
+    "date_pt": "19 mai 2026",
+    "date_en": "19 May 2026",
+    "time": "05h00",
+    "time_pt": "05h00",
+    "time_en": "05: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-19T05:00:00+00:00",
+    "lastModifiedIso": "2026-05-19T18:11:34+00:00",
+    "source": "ESA Space Science",
+    "sourceDomain": "www. esa. int",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "ESA Space Science",
+      "Cosmos Week",
+      "Smile decola em busca de revelar o escudo invisível da Terra contra o vento solar"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "ESA Space Science",
+      "Cosmos Week",
+      "Smile decola em busca de revelar o escudo invisível da Terra contra o vento solar"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "ESA Space Science",
+      "Cosmos Week",
+      "Smile takes off in search of revealing Earth's invisible shield against the solar wind"
+    ],
+    "srcUrl": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Smile_lifts_off_on_quest_to_reveal_Earth_s_invisible_shield_against_the_solar_wind",
+    "realUrl": "https://www.cosmosweek.com/?article=smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind",
+    "realUrl_en": "https://www.cosmosweek.com/?article=smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 95,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Smile decola em busca de revelar o escudo invisível da Terra contra o vento solar",
+    "imageAlt_pt": "Smile decola em busca de revelar o escudo invisível da Terra contra o vento solar",
+    "imageAlt_en": "Smile lifts off on quest to reveal Earth’s invisible shield against the solar wind",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 4,
+    "slug": "farming-in-ancient-lake-agassiz",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/farming-in-ancient-lake-agassiz/ISS074-E-494130_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/farming-in-ancient-lake-agassiz/ISS074-E-494130_lrg.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "A Herança Agrícola do Antigo Lago Agassiz em Manitoba",
+    "title_pt": "A Herança Agrícola do Antigo Lago Agassiz em Manitoba",
+    "title_en": "Farming in Ancient Lake Agassiz",
+    "sub": "O antigo lago glacial Agassiz depositou uma camada de lodo e argila no sudeste de Manitoba, resultando em terras agrícolas férteis que foram demarcadas durante levantamentos.",
+    "sub_pt": "O antigo lago glacial Agassiz depositou uma camada de lodo e argila no sudeste de Manitoba, resultando em terras agrícolas férteis que foram demarcadas durante levantamentos.",
+    "sub_en": "The glacial lake left a layer of silt and clay in southeastern Manitoba, creating fertile farmland that was divided during 19th-century land surveys and is still farmed today.",
+    "excerpt": "O antigo lago glacial Agassiz depositou uma camada de lodo e argila no sudeste de Manitoba, resultando em terras agrícolas férteis que foram demarcadas durante levantamentos topográficos do século XIX e são cultivadas até hoje.",
+    "excerpt_pt": "O antigo lago glacial Agassiz depositou uma camada de lodo e argila no sudeste de Manitoba, resultando em terras agrícolas férteis que foram demarcadas durante levantamentos topográficos do século XIX e são cultivadas até hoje.",
+    "excerpt_en": "The glacial lake left a layer of silt and clay in southeastern Manitoba, creating fertile farmland that was divided during 19th-century land surveys and is still farmed today.",
+    "body": "<p>O antigo lago glacial Agassiz, que cobriu vastas áreas da América do Norte durante a última era glacial, deixou um legado duradouro no sudeste de Manitoba. À medida que o lago recuava, depositou uma espessa camada de lodo e argila, criando um solo excepcionalmente fértil. Essas terras agrícolas, formadas por processos geológicos milenares, foram subsequentemente demarcadas e organizadas por levantamentos topográficos no século XIX, e continuam a ser cultivadas intensivamente até os dias atuais, sustentando uma próspera atividade agrícola na região.</p><p>A organização dessas terras foi em grande parte resultado do Dominion Land Survey (DLS), um dos maiores e mais sistemáticos esforços de levantamento topográfico já empreendidos globalmente. Este ambicioso projeto foi iniciado após a aquisição da Rupert&#x27;s Land pela Hudson&#x27;s Bay Company pelo governo canadense em 1869. O DLS teve como objetivo principal dividir grande parte do oeste do Canadá em seções padronizadas de uma milha quadrada, facilitando a colonização, a distribuição de terras e o desenvolvimento agrícola da vasta região.</p><p>A metodologia rigorosa do Dominion Land Survey impôs uma grade geométrica precisa sobre a paisagem natural, uma estrutura que ainda é visível e fundamental para a agricultura moderna em Manitoba. A divisão em seções de uma milha quadrada permitiu uma distribuição equitativa de terras e a criação de um sistema de propriedade claro, que moldou o desenvolvimento rural e a infraestrutura da região. A persistência dessa estrutura de levantamento é um testemunho da sua eficácia e da sua influência duradoura na organização espacial e econômica do território.</p><p>A continuidade dessa herança geológica e histórica é vividamente ilustrada por uma fotografia recente, capturada por um astronauta a bordo da Estação Espacial Internacional (ISS). Adquirida em 19 de abril de 2026, esta imagem oferece uma perspectiva aérea das terras agrícolas ao longo da margem sul do Lago Winnipeg, uma área diretamente impactada pelos depósitos do Lago Agassiz. A fotografia, identificada como ISS074-E-494130, foi obtida com uma câmera digital Nikon Z9, utilizando uma distância focal de 560 milímetros, destacando a precisão das observações espaciais.</p><p>A imagem revela os padrões distintos das fazendas que se estendem sobre o leito quase plano e espesso de lodo e argila, rico em nutrientes, deixado pelo Lago Agassiz. Essa camada fértil é a base para a produtividade agrícola da região, permitindo o cultivo de diversas culturas. A observação a partir da órbita terrestre não apenas documenta a paisagem atual, mas também serve como um lembrete visual da profunda interação entre os processos geológicos de longa duração e as atividades humanas de uso da terra.</p><p>O Observatório da Terra da NASA, que regularmente publica histórias detalhadas e imagens impressionantes do nosso planeta, destaca a importância de tais fotografias de astronautas. Elas contribuem para a compreensão contínua da Terra, oferecendo dados visuais valiosos sobre fenômenos naturais e transformações antrópicas. A análise dessas imagens, combinada com informações de levantamentos históricos como o Dominion Land Survey, permite uma apreciação mais completa da evolução das paisagens agrícolas e dos fatores que as moldam.</p><p>Em suma, a história agrícola do sudeste de Manitoba é uma narrativa complexa que entrelaça a geologia glacial do Lago Agassiz com a engenharia humana do Dominion Land Survey. A fertilidade do solo, um presente de um passado geológico distante, foi organizada e otimizada por um dos maiores projetos de mapeamento da história. Essa combinação resultou em uma região agrícola próspera, cujos padrões são tão evidentes hoje quanto eram há mais de um século, e continuam a ser monitorados e estudados por meio de tecnologias avançadas de observação da Terra.</p>",
+    "body_pt": "<p>O antigo lago glacial Agassiz, que cobriu vastas áreas da América do Norte durante a última era glacial, deixou um legado duradouro no sudeste de Manitoba. À medida que o lago recuava, depositou uma espessa camada de lodo e argila, criando um solo excepcionalmente fértil. Essas terras agrícolas, formadas por processos geológicos milenares, foram subsequentemente demarcadas e organizadas por levantamentos topográficos no século XIX, e continuam a ser cultivadas intensivamente até os dias atuais, sustentando uma próspera atividade agrícola na região.</p><p>A organização dessas terras foi em grande parte resultado do Dominion Land Survey (DLS), um dos maiores e mais sistemáticos esforços de levantamento topográfico já empreendidos globalmente. Este ambicioso projeto foi iniciado após a aquisição da Rupert&#x27;s Land pela Hudson&#x27;s Bay Company pelo governo canadense em 1869. O DLS teve como objetivo principal dividir grande parte do oeste do Canadá em seções padronizadas de uma milha quadrada, facilitando a colonização, a distribuição de terras e o desenvolvimento agrícola da vasta região.</p><p>A metodologia rigorosa do Dominion Land Survey impôs uma grade geométrica precisa sobre a paisagem natural, uma estrutura que ainda é visível e fundamental para a agricultura moderna em Manitoba. A divisão em seções de uma milha quadrada permitiu uma distribuição equitativa de terras e a criação de um sistema de propriedade claro, que moldou o desenvolvimento rural e a infraestrutura da região. A persistência dessa estrutura de levantamento é um testemunho da sua eficácia e da sua influência duradoura na organização espacial e econômica do território.</p><p>A continuidade dessa herança geológica e histórica é vividamente ilustrada por uma fotografia recente, capturada por um astronauta a bordo da Estação Espacial Internacional (ISS). Adquirida em 19 de abril de 2026, esta imagem oferece uma perspectiva aérea das terras agrícolas ao longo da margem sul do Lago Winnipeg, uma área diretamente impactada pelos depósitos do Lago Agassiz. A fotografia, identificada como ISS074-E-494130, foi obtida com uma câmera digital Nikon Z9, utilizando uma distância focal de 560 milímetros, destacando a precisão das observações espaciais.</p><p>A imagem revela os padrões distintos das fazendas que se estendem sobre o leito quase plano e espesso de lodo e argila, rico em nutrientes, deixado pelo Lago Agassiz. Essa camada fértil é a base para a produtividade agrícola da região, permitindo o cultivo de diversas culturas. A observação a partir da órbita terrestre não apenas documenta a paisagem atual, mas também serve como um lembrete visual da profunda interação entre os processos geológicos de longa duração e as atividades humanas de uso da terra.</p><p>O Observatório da Terra da NASA, que regularmente publica histórias detalhadas e imagens impressionantes do nosso planeta, destaca a importância de tais fotografias de astronautas. Elas contribuem para a compreensão contínua da Terra, oferecendo dados visuais valiosos sobre fenômenos naturais e transformações antrópicas. A análise dessas imagens, combinada com informações de levantamentos históricos como o Dominion Land Survey, permite uma apreciação mais completa da evolução das paisagens agrícolas e dos fatores que as moldam.</p><p>Em suma, a história agrícola do sudeste de Manitoba é uma narrativa complexa que entrelaça a geologia glacial do Lago Agassiz com a engenharia humana do Dominion Land Survey. A fertilidade do solo, um presente de um passado geológico distante, foi organizada e otimizada por um dos maiores projetos de mapeamento da história. Essa combinação resultou em uma região agrícola próspera, cujos padrões são tão evidentes hoje quanto eram há mais de um século, e continuam a ser monitorados e estudados por meio de tecnologias avançadas de observação da Terra.</p>",
+    "body_en": "<p>The glacial lake left a layer of silt and clay in southeastern Manitoba, creating fertile farmland that was divided during 19th-century land surveys and is still farmed today. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. The Dominion Land Survey, one of the world’s largest and most systematic surveying efforts, divided much of western Canada into one-square-mile sections after the Canadian. Downloads April 19, 2026 JPEG (14.14 MB) References &amp; Resources Alberta Geomatics Historical Society (2024, October 25) The Dominion Land Survey System.</p><p>Earth Observatory Image of the Day NASA’s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery. Article View more Images of the Day: May 18, 2026 Instruments: Photograph Collections: Astronaut Photography Food and Agriculture Topics: Agriculture Editor&#x27;s Note: Today&#x27;s story.</p><p>In April 2026, an astronaut aboard the International Space Station snapped this photograph of farmland along the southern shore of Lake Winnipeg, where Lake Agassiz once deposited. Astronaut photograph ISS074-E-494130 was acquired on April 19, 2026, with a Nikon Z9 digital camera using a focal length of 560 millimeters.</p><p>References &amp; Resources Alberta Geomatics Historical Society (2024, October 25) The Dominion Land Survey System. Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Article 1 2 3 4 Next Keep Exploring Discover More from NASA Earth Science Subscribe to Earth Observatory Newsletters Subscribe to the Earth Observatory and get the Earth in your. NASA&#x27;s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/farming-in-ancient-lake-agassiz/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: O antigo lago glacial Agassiz depositou uma camada de lodo e argila no sudeste de Manitoba, resultando em terras agrícolas férteis que foram",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: O antigo lago glacial Agassiz depositou uma camada de lodo e argila no sudeste de Manitoba, resultando em terras agrícolas férteis que foram",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: The glacial lake left a layer of silt and clay in southeastern Manitoba, creating fertile farmland that was divided during 19th-century land surveys",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "19 mai 2026",
+    "date_pt": "19 mai 2026",
+    "date_en": "19 May 2026",
+    "time": "04h01",
+    "time_pt": "04h01",
+    "time_en": "04: 01 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-19T04:01:00+00:00",
+    "lastModifiedIso": "2026-05-19T18:11:34+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Agricultura no Antigo Lago Agassiz"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Agricultura no Antigo Lago Agassiz"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Agriculture on Old Lake Agassiz"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/farming-in-ancient-lake-agassiz/",
+    "realUrl": "https://www.cosmosweek.com/?article=farming-in-ancient-lake-agassiz",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=farming-in-ancient-lake-agassiz",
+    "realUrl_en": "https://www.cosmosweek.com/?article=farming-in-ancient-lake-agassiz&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/farming-in-ancient-lake-agassiz/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/farming-in-ancient-lake-agassiz/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/farming-in-ancient-lake-agassiz/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/farming-in-ancient-lake-agassiz/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/farming-in-ancient-lake-agassiz/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/farming-in-ancient-lake-agassiz/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "A Herança Agrícola do Antigo Lago Agassiz em Manitoba",
+    "imageAlt_pt": "A Herança Agrícola do Antigo Lago Agassiz em Manitoba",
+    "imageAlt_en": "Farming in Ancient Lake Agassiz",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 5,
     "slug": "nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -126,7 +756,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 6,
     "slug": "clinical-trial-finds-no-difference-in-fluid-treatment-options-for-pediatric-sepsis",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -247,7 +877,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 7,
     "slug": "uap-in-this-case-it-s-only-a-model",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -371,165 +1001,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
-    "slug": "picturing-earth-in-a-new-light",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/picturing-earth-in-a-new-light/nightlights_20142022_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/picturing-earth-in-a-new-light/nightlights_20142022_lrg.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://earthdata.nasa.gov/s3fs-public/2023-06/NighttimeLights_Radiance_India_th.jpg?VersionId=LsC1EwbMdgZM.CPwQwYwVI3TezVAX2fn",
-        "caption": "Mármore Preto",
-        "caption_pt": "Mármore Preto",
-        "caption_en": "Black Marble",
-        "alt": "Mármore Preto",
-        "alt_pt": "Mármore Preto",
-        "alt_en": "Black Marble"
-      },
-      {
-        "src": "https://earthdata.nasa.gov/s3fs-public/2025-11/black-marble-10282025.png?VersionId=eu6sMBHQ6csEsuMD9TaypzP_1s1DVzf7",
-        "caption": "Mármore Preto",
-        "caption_pt": "Mármore Preto",
-        "caption_en": "Black Marble",
-        "alt": "Mármore Preto",
-        "alt_pt": "Mármore Preto",
-        "alt_en": "Black Marble"
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Retratando a Terra sob uma nova luz",
-    "title_pt": "Retratando a Terra sob uma nova luz",
-    "title_en": "Picturing Earth in a New Light",
-    "sub": "Uma análise recente revelou onde a luz artificial à noite se intensificou, bem como onde diminuiu.",
-    "sub_pt": "Uma análise recente revelou onde a luz artificial à noite se intensificou, bem como onde diminuiu.",
-    "sub_en": "A recent analysis revealed where artificial light at night has intensified, as well as where it has diminished.",
-    "excerpt": "Uma análise recente revelou onde a luz artificial à noite se intensificou, bem como onde diminuiu.",
-    "excerpt_pt": "Uma análise recente revelou onde a luz artificial à noite se intensificou, bem como onde diminuiu.",
-    "excerpt_en": "A recent analysis revealed where artificial light at night has intensified, as well as where it has diminished.",
-    "body": "<p>O produto Black Marble da NASA é fundamental para essa compreensão aprofundada. Ele utiliza observações dos sensores VIIRS (Visible Infrared Imaging Radiometer Suite) a bordo dos satélites Suomi-NPP, NOAA-20 e NOAA-21. Esses instrumentos são capazes de capturar registros detalhados das luzes noturnas em diversas escalas de tempo, incluindo dados diários, mensais e anuais. A capacidade de monitorar a Terra à noite com tal precisão permite aos cientistas identificar tendências e anomalias que seriam imperceptíveis por outros meios, fornecendo uma base robusta para análises sobre o uso de energia, urbanização e impactos ambientais da poluição luminosa.</p><p>Os mapas gerados a partir desta análise, como os visualizados pelo Observatório da Terra da NASA e Michala Garrison, ilustram de forma vívida as mudanças ocorridas. Neles, as áreas representadas em tons de amarelo e dourado indicam regiões onde houve um aumento notável no brilho da luz artificial durante o período de estudo, de 2014 a 2022. Em contraste, as áreas marcadas em roxo sinalizam locais onde o escurecimento foi mais pronunciado. Essa representação visual não apenas localiza as mudanças, mas também permite uma compreensão intuitiva da complexidade dos padrões de iluminação global, revelando que a evolução da luz noturna é muito mais matizada do que um simples crescimento linear.</p><p>A descoberta de que os padrões de luz artificial noturna são muito mais matizados do que um aumento gradual e uniforme ao longo de quase uma década é um dos pontos mais relevantes do estudo. Isso sugere que fatores locais e regionais desempenham um papel crucial na forma como a iluminação artificial evolui. Enquanto algumas regiões experimentam um crescimento contínuo devido à expansão urbana e ao desenvolvimento econômico, outras podem estar implementando medidas de eficiência energética, substituindo tecnologias de iluminação ou enfrentando declínios populacionais ou econômicos que resultam em menor uso de luz. Compreender essas dinâmicas é essencial para formular políticas eficazes de gestão da luz e mitigar seus efeitos adversos.</p><p>A relevância desta pesquisa transcende a mera quantificação da luz. Ela oferece insights valiosos sobre as dimensões humanas da mudança global, conectando o uso da luz artificial a tendências socioeconômicas e ambientais. A capacidade de mapear e monitorar essas alterações em escala planetária é crucial para estudos sobre poluição luminosa, consumo de energia e até mesmo para a saúde de ecossistemas noturnos. A importância do trabalho foi reconhecida pela comunidade científica, culminando na publicação da imagem e do estudo na prestigiada revista Nature, em abril de 2026, destacando a vanguarda da pesquisa da NASA nesta área.</p>",
-    "body_pt": "<p>O produto Black Marble da NASA é fundamental para essa compreensão aprofundada. Ele utiliza observações dos sensores VIIRS (Visible Infrared Imaging Radiometer Suite) a bordo dos satélites Suomi-NPP, NOAA-20 e NOAA-21. Esses instrumentos são capazes de capturar registros detalhados das luzes noturnas em diversas escalas de tempo, incluindo dados diários, mensais e anuais. A capacidade de monitorar a Terra à noite com tal precisão permite aos cientistas identificar tendências e anomalias que seriam imperceptíveis por outros meios, fornecendo uma base robusta para análises sobre o uso de energia, urbanização e impactos ambientais da poluição luminosa.</p><p>Os mapas gerados a partir desta análise, como os visualizados pelo Observatório da Terra da NASA e Michala Garrison, ilustram de forma vívida as mudanças ocorridas. Neles, as áreas representadas em tons de amarelo e dourado indicam regiões onde houve um aumento notável no brilho da luz artificial durante o período de estudo, de 2014 a 2022. Em contraste, as áreas marcadas em roxo sinalizam locais onde o escurecimento foi mais pronunciado. Essa representação visual não apenas localiza as mudanças, mas também permite uma compreensão intuitiva da complexidade dos padrões de iluminação global, revelando que a evolução da luz noturna é muito mais matizada do que um simples crescimento linear.</p><p>A descoberta de que os padrões de luz artificial noturna são muito mais matizados do que um aumento gradual e uniforme ao longo de quase uma década é um dos pontos mais relevantes do estudo. Isso sugere que fatores locais e regionais desempenham um papel crucial na forma como a iluminação artificial evolui. Enquanto algumas regiões experimentam um crescimento contínuo devido à expansão urbana e ao desenvolvimento econômico, outras podem estar implementando medidas de eficiência energética, substituindo tecnologias de iluminação ou enfrentando declínios populacionais ou econômicos que resultam em menor uso de luz. Compreender essas dinâmicas é essencial para formular políticas eficazes de gestão da luz e mitigar seus efeitos adversos.</p><p>A relevância desta pesquisa transcende a mera quantificação da luz. Ela oferece insights valiosos sobre as dimensões humanas da mudança global, conectando o uso da luz artificial a tendências socioeconômicas e ambientais. A capacidade de mapear e monitorar essas alterações em escala planetária é crucial para estudos sobre poluição luminosa, consumo de energia e até mesmo para a saúde de ecossistemas noturnos. A importância do trabalho foi reconhecida pela comunidade científica, culminando na publicação da imagem e do estudo na prestigiada revista Nature, em abril de 2026, destacando a vanguarda da pesquisa da NASA nesta área.</p>",
-    "body_en": "<p>A recent analysis revealed where artificial light at night has intensified, as well as where it has diminished. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. An analysis of nearly a decade of nighttime lights data (2014-2022) from NASA’s Black Marble product revealed areas of brightening (gold) and dimming (purple) shown here across. NASA Earth Observatory/Michala Garrison Overall, the researchers found that global radiance increased by 34 percent during the study period, but that surge masks large areas of.</p><p>Article View more Images of the Day: May 14, 2026 Instruments: NOAA-20, VIIRS NOAA-21, VIIRS Suomi NPP, VIIRS Collections: Earth at Night Topics: Human Dimensions Some parts of. NASA Earth Observatory/Michala Garrison Maps can show more than just where things are, they can also show how things change.</p><p>NASA’s Black Marble product uses observations from the VIIRS (Visible Infrared Imaging Radiometer Suite) sensors on the Suomi-NPP, NOAA-20, and NOAA-21 satellites to produce. Yellow and gold areas are where there has been more brightening during the study period, from 2014 to 2022, and purple areas are where there has been more dimming.</p><p>The image was featured on the cover of Nature, where the study was published in April 2026. Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Article Northern Glow Spans Iceland and Canada 3 min read A vivid display of the aurora lit up skies over the Denmark Strait and eastern Canada during a minor geomagnetic. Article 1 2 3 4 Next Keep Exploring Discover More from NASA Earth Science Subscribe to Earth Observatory Newsletters Subscribe to the Earth Observatory and get the Earth in your.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/picturing-earth-in-a-new-light/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Em foco: Uma análise recente revelou onde a luz artificial à noite se intensificou, bem como onde diminuiu",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: Uma análise recente revelou onde a luz artificial à noite se intensificou, bem como onde diminuiu",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: A recent analysis revealed where artificial light at night has intensified, as well as where it has diminished",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "15 mai 2026",
-    "date_pt": "15 mai 2026",
-    "date_en": "15 May 2026",
-    "time": "04h00",
-    "time_pt": "04h00",
-    "time_en": "04: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-15T04:00:00+00:00",
-    "lastModifiedIso": "2026-05-15T17:23:29+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Retratando a Terra sob uma nova luz"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Retratando a Terra sob uma nova luz"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Portraying Earth in a New Light"
-    ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/picturing-earth-in-a-new-light/",
-    "realUrl": "https://www.cosmosweek.com/?article=picturing-earth-in-a-new-light",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=picturing-earth-in-a-new-light",
-    "realUrl_en": "https://www.cosmosweek.com/?article=picturing-earth-in-a-new-light&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/picturing-earth-in-a-new-light/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/picturing-earth-in-a-new-light/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/picturing-earth-in-a-new-light/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/picturing-earth-in-a-new-light/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/picturing-earth-in-a-new-light/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/picturing-earth-in-a-new-light/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Retratando a Terra sob uma nova luz",
-    "imageAlt_pt": "Retratando a Terra sob uma nova luz",
-    "imageAlt_en": "Picturing Earth in a New Light",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 5,
+    "id": 8,
     "slug": "q-a-is-it-time-to-expand-our-thinking-about-dark-matter-a-new-study-says-yes",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -653,156 +1125,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 6,
-    "slug": "ice-moves-out-of-aniak",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/ice-moves-out-of-aniak/alaskaicebreak_oli2_20260507_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/ice-moves-out-of-aniak/alaskaicebreak_oli2_20260421.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/ice-moves-out-of-aniak/alaskaicebreak_oli2_20260507.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Dinâmica do Gelo Fluvial em Aniak, Alasca",
-    "title_pt": "Dinâmica do Gelo Fluvial em Aniak, Alasca",
-    "title_en": "Ice Moves Out of Aniak",
-    "sub": "Imagens do Observatório da Terra da NASA, capturadas por Michala Garrison entre 21 de abril e 7 de maio de 2026, documentam o processo de descongelamento de um rio que serpenteia.",
-    "sub_pt": "Imagens do Observatório da Terra da NASA, capturadas por Michala Garrison entre 21 de abril e 7 de maio de 2026, documentam o processo de descongelamento de um rio que serpenteia.",
-    "sub_en": "NASA Earth Observatory/Michala Garrison April 21, 2026 May 7, 2026 A frozen river winds from east to west past Aniak, Alaska.",
-    "excerpt": "Imagens do Observatório da Terra da NASA, capturadas por Michala Garrison entre 21 de abril e 7 de maio de 2026, documentam o processo de descongelamento de um rio que serpenteia de leste a oeste, passando pela cidade de Aniak, no Alasca.",
-    "excerpt_pt": "Imagens do Observatório da Terra da NASA, capturadas por Michala Garrison entre 21 de abril e 7 de maio de 2026, documentam o processo de descongelamento de um rio que serpenteia de leste a oeste, passando pela cidade de Aniak, no Alasca.",
-    "excerpt_en": "NASA Earth Observatory/Michala Garrison April 21, 2026 May 7, 2026 A frozen river winds from east to west past Aniak, Alaska.",
-    "body": "<p>Em 16 de abril, pouco antes do período de observação principal, o Centro de Previsão do Rio Alasca-Pacífico publicou dados indicando que o gelo do rio nas proximidades de Aniak era consideravelmente espesso e ainda estava coberto por uma camada profunda de neve. Essa condição inicial sugere um inverno rigoroso ou prolongado, que manteve o rio solidificado por um período estendido. O monitoramento contínuo dessas características é vital para prever inundações e outros riscos associados ao degelo, que podem afetar a infraestrutura e a segurança das populações locais. A espessura do gelo e a cobertura de neve são fatores determinantes na velocidade e na intensidade do processo de descongelamento.</p><p>As imagens que ilustram essa transição sazonal foram fornecidas pelo Observatório da Terra da NASA e atribuídas a Michala Garrison, utilizando dados provenientes dos satélites Landsat dos Estados Unidos. O Observatório da Terra tem como missão diária apresentar informações detalhadas e imagens impactantes sobre o nosso planeta, contribuindo para a ciência e a conscientização pública sobre fenômenos naturais e alterações ambientais. A série de satélites Landsat, em operação há quase cinco décadas, é uma ferramenta indispensável para o monitoramento de longo prazo da superfície terrestre, incluindo a cobertura de gelo e neve em rios e lagos.</p><p>A capacidade de observar e documentar o gelo em corpos d&#x27;água não é um fenômeno recente para o programa Landsat. Há quase 50 anos, o primeiro satélite Landsat capturou uma visão rara dos cursos d&#x27;água do Meio-Atlântico completamente congelados, incluindo a Baía de Chesapeake. Esse registro histórico demonstra a importância da continuidade das missões de observação da Terra para a construção de séries temporais robustas, que permitem aos cientistas analisar tendências climáticas e ambientais em escalas decadais. Tais dados são cruciais para entender como o planeta está mudando e para informar políticas de adaptação e mitigação.</p><p>A dinâmica do gelo fluvial, como a observada em Aniak, possui implicações significativas para diversos aspectos ambientais e socioeconômicos. O regime de congelamento e descongelamento dos rios afeta a hidrologia, a qualidade da água, a biodiversidade aquática e a navegação. Em regiões polares e subpolares, a duração da cobertura de gelo influencia diretamente o transporte, a pesca e as atividades de subsistência das comunidades indígenas. Mudanças nos padrões de gelo podem indicar alterações climáticas mais amplas, com potenciais impactos na circulação oceânica e atmosférica, e na estabilidade de ecossistemas sensíveis.</p><p>O trabalho contínuo do Observatório da Terra da NASA, ao fornecer imagens e histórias detalhadas sobre o nosso planeta, é essencial para manter o público e a comunidade científica informados sobre as complexas interações que moldam o ambiente terrestre. A exploração do universo e a descoberta sobre nosso planeta natal são missões interligadas, onde a observação da Terra desempenha um papel central na compreensão dos desafios e oportunidades que enfrentamos. A disseminação dessas informações contribui para uma maior conscientização e para o desenvolvimento de soluções baseadas em evidências científicas.</p>",
-    "body_pt": "<p>Em 16 de abril, pouco antes do período de observação principal, o Centro de Previsão do Rio Alasca-Pacífico publicou dados indicando que o gelo do rio nas proximidades de Aniak era consideravelmente espesso e ainda estava coberto por uma camada profunda de neve. Essa condição inicial sugere um inverno rigoroso ou prolongado, que manteve o rio solidificado por um período estendido. O monitoramento contínuo dessas características é vital para prever inundações e outros riscos associados ao degelo, que podem afetar a infraestrutura e a segurança das populações locais. A espessura do gelo e a cobertura de neve são fatores determinantes na velocidade e na intensidade do processo de descongelamento.</p><p>As imagens que ilustram essa transição sazonal foram fornecidas pelo Observatório da Terra da NASA e atribuídas a Michala Garrison, utilizando dados provenientes dos satélites Landsat dos Estados Unidos. O Observatório da Terra tem como missão diária apresentar informações detalhadas e imagens impactantes sobre o nosso planeta, contribuindo para a ciência e a conscientização pública sobre fenômenos naturais e alterações ambientais. A série de satélites Landsat, em operação há quase cinco décadas, é uma ferramenta indispensável para o monitoramento de longo prazo da superfície terrestre, incluindo a cobertura de gelo e neve em rios e lagos.</p><p>A capacidade de observar e documentar o gelo em corpos d&#x27;água não é um fenômeno recente para o programa Landsat. Há quase 50 anos, o primeiro satélite Landsat capturou uma visão rara dos cursos d&#x27;água do Meio-Atlântico completamente congelados, incluindo a Baía de Chesapeake. Esse registro histórico demonstra a importância da continuidade das missões de observação da Terra para a construção de séries temporais robustas, que permitem aos cientistas analisar tendências climáticas e ambientais em escalas decadais. Tais dados são cruciais para entender como o planeta está mudando e para informar políticas de adaptação e mitigação.</p><p>A dinâmica do gelo fluvial, como a observada em Aniak, possui implicações significativas para diversos aspectos ambientais e socioeconômicos. O regime de congelamento e descongelamento dos rios afeta a hidrologia, a qualidade da água, a biodiversidade aquática e a navegação. Em regiões polares e subpolares, a duração da cobertura de gelo influencia diretamente o transporte, a pesca e as atividades de subsistência das comunidades indígenas. Mudanças nos padrões de gelo podem indicar alterações climáticas mais amplas, com potenciais impactos na circulação oceânica e atmosférica, e na estabilidade de ecossistemas sensíveis.</p><p>O trabalho contínuo do Observatório da Terra da NASA, ao fornecer imagens e histórias detalhadas sobre o nosso planeta, é essencial para manter o público e a comunidade científica informados sobre as complexas interações que moldam o ambiente terrestre. A exploração do universo e a descoberta sobre nosso planeta natal são missões interligadas, onde a observação da Terra desempenha um papel central na compreensão dos desafios e oportunidades que enfrentamos. A disseminação dessas informações contribui para uma maior conscientização e para o desenvolvimento de soluções baseadas em evidências científicas.</p>",
-    "body_en": "<p>NASA Earth Observatory/Michala Garrison April 21, 2026 May 7, 2026 A frozen river winds from east to west past Aniak, Alaska. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. NASA Earth Observatory/Michala Garrison A river winds from east to west past Aniak, Alaska. NASA Earth Observatory/Michala Garrison April 21, 2026 May 7, 2026 Curtain Toggle 2-Up Image Details The landscape along the Kuskokwim River near Aniak, Alaska, is frozen on April.</p><p>Chilled New York City 3 min read Ice in the Hudson River hugged the shore of Manhattan amid a deep freeze. Earth Observatory Image of the Day NASA’s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>According to observations published by the Alaska-Pacific River Forecast Center, river ice near the town of Aniak was thick and still covered in deep snow as of April 16. Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet.</p><p>Article Chesapeake Bay Locked in Ice 3 min read Nearly 50 years ago, the first Landsat satellite captured the rare sight of Mid-Atlantic waterways frozen over. Article 1 2 3 4 Next Keep Exploring Discover More from NASA Earth Science Subscribe to Earth Observatory Newsletters Subscribe to the Earth Observatory and get the Earth in your.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>NASA&#x27;s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery. Open access to NASA’s archive of Earth science data Alaska and Arctic Climate Newsletter (2026, May 8) Spring 2026 River Break-up to May 8th.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/ice-moves-out-of-aniak/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Em foco: Imagens do Observatório da Terra da NASA, capturadas por Michala Garrison entre 21 de abril e 7 de maio de 2026, documentam o processo de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: Imagens do Observatório da Terra da NASA, capturadas por Michala Garrison entre 21 de abril e 7 de maio de 2026, documentam o processo de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: NASA Earth Observatory/Michala Garrison April 21, 2026 May 7, 2026 A frozen river winds from east to west past Aniak, Alaska",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "14 mai 2026",
-    "date_pt": "14 mai 2026",
-    "date_en": "14 May 2026",
-    "time": "04h01",
-    "time_pt": "04h01",
-    "time_en": "04: 01 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-14T04:01:00+00:00",
-    "lastModifiedIso": "2026-05-14T17:34:21+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Gelo sai de Aniak"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Gelo sai de Aniak"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Frost out of Aniak"
-    ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/ice-moves-out-of-aniak/",
-    "realUrl": "https://www.cosmosweek.com/?article=ice-moves-out-of-aniak",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=ice-moves-out-of-aniak",
-    "realUrl_en": "https://www.cosmosweek.com/?article=ice-moves-out-of-aniak&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/ice-moves-out-of-aniak/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/ice-moves-out-of-aniak/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/ice-moves-out-of-aniak/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/ice-moves-out-of-aniak/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/ice-moves-out-of-aniak/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/ice-moves-out-of-aniak/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Dinâmica do Gelo Fluvial em Aniak, Alasca",
-    "imageAlt_pt": "Dinâmica do Gelo Fluvial em Aniak, Alasca",
-    "imageAlt_en": "Ice Moves Out of Aniak",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 7,
+    "id": 9,
     "slug": "inpainting-over-the-cracks-challenges-of-applying-pre-merger-searches-for-massive-black-hole-bin",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -929,128 +1252,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 8,
-    "slug": "studying-pneumonia-in-space-for-heart-health-on-earth",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://images-assets.nasa.gov/image/iss074e0490731/iss074e0490731~large.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Estudando Pneumonia no Espaço para a Saúde do Coração na Terra",
-    "title_pt": "Estudando Pneumonia no Espaço para a Saúde do Coração na Terra",
-    "title_en": "Studying Pneumonia in Space for Heart Health on Earth",
-    "sub": "Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem provocar danos a longo prazo no coração.",
-    "sub_pt": "Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem provocar danos a longo prazo no coração.",
-    "sub_en": "Expedition 74 astronauts aboard the International Space Station are uncovering how bacteria that causes pneumonia can lead to long-term damage in the heart.",
-    "excerpt": "Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem provocar danos a longo prazo no coração.",
-    "excerpt_pt": "Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem provocar danos a longo prazo no coração.",
-    "excerpt_en": "Expedition 74 astronauts aboard the International Space Station are uncovering how bacteria that causes pneumonia can lead to long-term damage in the heart.",
-    "body": "<p>A Expedição 74 a bordo da Estação Espacial Internacional (EEI) está realizando uma pesquisa crucial para entender como as bactérias causadoras de pneumonia podem provocar danos cardíacos a longo prazo. O astronauta da NASA Jack Hathaway desempenha um papel fundamental neste estudo, trabalhando com a investigação MVP Cell-09 dentro de um porta-luvas portátil na EEI. Esta pesquisa aproveita o ambiente singular do espaço para observar reações biológicas que seriam difíceis de replicar ou detectar com a mesma clareza na Terra, abrindo novas perspectivas para a saúde cardiovascular e o manejo de doenças infecciosas.</p><p>O experimento MVP Cell-09 utiliza modelos de tecido cardíaco derivados de células-tronco, que são preparados meticulosamente antes do voo. Imagens pré-voo desses modelos revelam a complexidade e o cuidado envolvidos na sua criação. Ian Berg, por exemplo, é um dos responsáveis pela preparação do MVP Cell-09 antes do seu lançamento para a estação espacial. A microgravidade e outras condições espaciais permitem que os cientistas observem como esses tecidos respondem a infecções bacterianas de uma maneira amplificada, revelando respostas celulares importantes que seriam difíceis de identificar em condições terrestres. Essa amplificação dos efeitos é crucial para desvendar mecanismos subjacentes às doenças cardíacas induzidas por infecções.</p><p>A Estação Espacial Internacional, com o apoio de instituições como a Universidade do Alabama em Birmingham, serve como um laboratório orbital que permite a pesquisadores de todo o mundo abordar problemas complexos de saúde humana, tanto na Terra quanto no espaço. A capacidade de conduzir experimentos em um ambiente de microgravidade oferece uma plataforma única para avançar na compreensão de diversas condições médicas. Ao estudar a interação entre patógenos e tecidos cardíacos em um ambiente espacial, os cientistas esperam desenvolver novas estratégias para a gestão da saúde cardiovascular e o tratamento de doenças infecciosas, beneficiando pacientes em todo o planeta.</p><p>Há mais de 25 anos, a Estação Espacial Internacional tem sido um palco para investigações aprofundadas sobre como o corpo humano e os microrganismos respondem ao ambiente espacial. Essas pesquisas são vitais não apenas para a saúde dos astronautas em missões de longa duração, mas também para a compreensão de processos biológicos fundamentais que afetam a saúde na Terra. O ambiente espacial pode alterar a virulência de bactérias e a resposta imune humana, fornecendo um modelo acelerado para o estudo de doenças. O conhecimento adquirido nessas missões é indispensável para o planejamento de futuras explorações espaciais profundas, que exigirão estratégias robustas para manter a saúde e a segurança da tripulação.</p><p>A pesquisa atual com o MVP Cell-09 busca desvendar os mecanismos exatos pelos quais as bactérias causadoras de pneumonia podem induzir danos cardíacos persistentes. A observação de tecidos cardíacos derivados de células-tronco em microgravidade permite aos cientistas identificar alterações moleculares e celulares que podem não ser evidentes em estudos terrestres. Este foco na resposta celular a infecções bacterianas no espaço é crucial para identificar biomarcadores e alvos terapêuticos que poderiam levar a tratamentos mais eficazes para doenças cardíacas pós-infecciosas. A compreensão aprofundada desses processos é um passo significativo para proteger a saúde cardiovascular de indivíduos suscetíveis.</p><p>Os resultados desta investigação têm o potencial de transformar a abordagem à gestão da saúde cardiovascular e de doenças infecciosas. Ao identificar como as bactérias interagem com o tecido cardíaco em um ambiente de estresse único, os pesquisadores podem desenvolver intervenções mais direcionadas e preventivas. A colaboração internacional, exemplificada pela participação de astronautas de diferentes agências espaciais, como a ESA, sublinha a importância global desses esforços. A Estação Espacial Internacional continua a ser um farol de inovação, impulsionando descobertas que transcendem as fronteiras da Terra e do espaço, com um impacto direto na melhoria da qualidade de vida e na prevenção de doenças.</p>",
-    "body_pt": "<p>A Expedição 74 a bordo da Estação Espacial Internacional (EEI) está realizando uma pesquisa crucial para entender como as bactérias causadoras de pneumonia podem provocar danos cardíacos a longo prazo. O astronauta da NASA Jack Hathaway desempenha um papel fundamental neste estudo, trabalhando com a investigação MVP Cell-09 dentro de um porta-luvas portátil na EEI. Esta pesquisa aproveita o ambiente singular do espaço para observar reações biológicas que seriam difíceis de replicar ou detectar com a mesma clareza na Terra, abrindo novas perspectivas para a saúde cardiovascular e o manejo de doenças infecciosas.</p><p>O experimento MVP Cell-09 utiliza modelos de tecido cardíaco derivados de células-tronco, que são preparados meticulosamente antes do voo. Imagens pré-voo desses modelos revelam a complexidade e o cuidado envolvidos na sua criação. Ian Berg, por exemplo, é um dos responsáveis pela preparação do MVP Cell-09 antes do seu lançamento para a estação espacial. A microgravidade e outras condições espaciais permitem que os cientistas observem como esses tecidos respondem a infecções bacterianas de uma maneira amplificada, revelando respostas celulares importantes que seriam difíceis de identificar em condições terrestres. Essa amplificação dos efeitos é crucial para desvendar mecanismos subjacentes às doenças cardíacas induzidas por infecções.</p><p>A Estação Espacial Internacional, com o apoio de instituições como a Universidade do Alabama em Birmingham, serve como um laboratório orbital que permite a pesquisadores de todo o mundo abordar problemas complexos de saúde humana, tanto na Terra quanto no espaço. A capacidade de conduzir experimentos em um ambiente de microgravidade oferece uma plataforma única para avançar na compreensão de diversas condições médicas. Ao estudar a interação entre patógenos e tecidos cardíacos em um ambiente espacial, os cientistas esperam desenvolver novas estratégias para a gestão da saúde cardiovascular e o tratamento de doenças infecciosas, beneficiando pacientes em todo o planeta.</p><p>Há mais de 25 anos, a Estação Espacial Internacional tem sido um palco para investigações aprofundadas sobre como o corpo humano e os microrganismos respondem ao ambiente espacial. Essas pesquisas são vitais não apenas para a saúde dos astronautas em missões de longa duração, mas também para a compreensão de processos biológicos fundamentais que afetam a saúde na Terra. O ambiente espacial pode alterar a virulência de bactérias e a resposta imune humana, fornecendo um modelo acelerado para o estudo de doenças. O conhecimento adquirido nessas missões é indispensável para o planejamento de futuras explorações espaciais profundas, que exigirão estratégias robustas para manter a saúde e a segurança da tripulação.</p><p>A pesquisa atual com o MVP Cell-09 busca desvendar os mecanismos exatos pelos quais as bactérias causadoras de pneumonia podem induzir danos cardíacos persistentes. A observação de tecidos cardíacos derivados de células-tronco em microgravidade permite aos cientistas identificar alterações moleculares e celulares que podem não ser evidentes em estudos terrestres. Este foco na resposta celular a infecções bacterianas no espaço é crucial para identificar biomarcadores e alvos terapêuticos que poderiam levar a tratamentos mais eficazes para doenças cardíacas pós-infecciosas. A compreensão aprofundada desses processos é um passo significativo para proteger a saúde cardiovascular de indivíduos suscetíveis.</p><p>Os resultados desta investigação têm o potencial de transformar a abordagem à gestão da saúde cardiovascular e de doenças infecciosas. Ao identificar como as bactérias interagem com o tecido cardíaco em um ambiente de estresse único, os pesquisadores podem desenvolver intervenções mais direcionadas e preventivas. A colaboração internacional, exemplificada pela participação de astronautas de diferentes agências espaciais, como a ESA, sublinha a importância global desses esforços. A Estação Espacial Internacional continua a ser um farol de inovação, impulsionando descobertas que transcendem as fronteiras da Terra e do espaço, com um impacto direto na melhoria da qualidade de vida e na prevenção de doenças.</p>",
-    "body_en": "<p>Expedition 74 astronauts aboard the International Space Station are uncovering how bacteria that causes pneumonia can lead to long-term damage in the heart. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. NASA astronaut Jack Hathaway works on MVP Cell-09 research inside a portable glovebag aboard the International Space Station. Preflight imagery of stem cell derived heart tissue models produced for the MVP Cell-09 investigation.</p><p>Ian Berg prepare MVP Cell-09 ahead of launch to the space station. University of Alabama at Birmingham The space station allows researchers from around the world to address complex human health problems on Earth and in space.</p><p>Learn more about MVP Cell-09 Keep Exploring Discover More Topics From NASA Latest News from Space Station Research International Space Station Humans In Space Space Station. International Space Station Research Communications Team Article NASA astronaut Jack Hathaway works on MVP Cell-09 research inside a portable glovebag aboard the International.</p><p>ESA/Sophie Adenot Expedition 74 astronauts aboard the International Space Station are uncovering how bacteria that causes pneumonia can lead to long-term damage in the heart. Researchers are leveraging the space environment to observe how stem cell derived heart tissues respond to bacterial infections, to discover new methods to manage cardiovascular.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Scientists are harnessing these traits to exaggerate their effect on heart cells and reveal important cellular responses that would be difficult to detect on Earth. For over 25 years, researchers have utilized the space station to study how the human body and microbes respond to space, and deep space missions will require the strategies and.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/station/iss-research/studying-pneumonia-in-space-for-heart-health-on-earth/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem provocar.",
-      "Dado-chave: Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem provocar.",
-      "Dado-chave: Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Expedition 74 astronauts aboard the International Space Station are uncovering how bacteria that causes pneumonia can lead to long-term damage in the.",
-      "Key detail: Expedition 74 astronauts aboard the International Space Station are uncovering how bacteria that causes pneumonia can lead to long-term damage.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "13 mai 2026",
-    "date_pt": "13 mai 2026",
-    "date_en": "13 May 2026",
-    "time": "14h45",
-    "time_pt": "14h45",
-    "time_en": "14: 45 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-13T14:45:00+00:00",
-    "lastModifiedIso": "2026-05-13T17:44:00+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Estudando Pneumonia no Espaço para a Saúde do Coração na Terra"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Estudando Pneumonia no Espaço para a Saúde do Coração na Terra"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Studying Pneumonia in Space for Heart Health on Earth"
-    ],
-    "srcUrl": "https://www.nasa.gov/missions/station/iss-research/studying-pneumonia-in-space-for-heart-health-on-earth/",
-    "realUrl": "https://www.cosmosweek.com/?article=studying-pneumonia-in-space-for-heart-health-on-earth",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=studying-pneumonia-in-space-for-heart-health-on-earth",
-    "realUrl_en": "https://www.cosmosweek.com/?article=studying-pneumonia-in-space-for-heart-health-on-earth&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/studying-pneumonia-in-space-for-heart-health-on-earth/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/studying-pneumonia-in-space-for-heart-health-on-earth/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/studying-pneumonia-in-space-for-heart-health-on-earth/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/studying-pneumonia-in-space-for-heart-health-on-earth/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/studying-pneumonia-in-space-for-heart-health-on-earth/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/studying-pneumonia-in-space-for-heart-health-on-earth/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 86,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Estudando Pneumonia no Espaço para a Saúde do Coração na Terra",
-    "imageAlt_pt": "Estudando Pneumonia no Espaço para a Saúde do Coração na Terra",
-    "imageAlt_en": "Studying Pneumonia in Space for Heart Health on Earth",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 9,
+    "id": 10,
     "slug": "revisiting-the-2021-outburst-of-the-bhc-maxi-j1803-298-using-nicer-nustar-and-insight-hxmt-data",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1180,7 +1382,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "waterworn-chaos-on-mars",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1356,7 +1558,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "color-off-the-mid-atlantic-coast",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1396,19 +1598,19 @@ window.postsData = [
     "body_pt": "<p>A partir do início de abril, os satélites da NASA começaram a detectar uma mancha de água acastanhada e azul-esverdeada nas costas de Nova Jersey, Delaware, Maryland e Virgínia. Este fenômeno, visível em águas rasas ao largo da costa mesoatlântica, tem chamado a atenção de cientistas e observadores. Embora a natureza exata da coloração esteja sob investigação, a principal hipótese é que se trata de uma extensa floração de fitoplâncton, organismos microscópicos que proliferam em condições específicas, alterando a tonalidade da água de forma perceptível.</p><p>A detecção inicial foi realizada por satélites da NASA, que monitoram continuamente as condições oceânicas globais. As imagens do NASA Earth Observatory, especificamente as processadas por Michala Garrison, utilizam dados MODIS da NASA EOSDIS LANCE e GIBS/Worldview, ferramentas cruciais para a observação da Terra. Esses dados permitem aos pesquisadores acompanhar a dinâmica das massas d&#x27;água e identificar anomalias que podem indicar mudanças ambientais ou eventos biológicos importantes, como as florações de algas, fornecendo uma base sólida para a análise científica.</p><p>Flotações de fitoplâncton são fenômenos naturais que ocorrem quando há uma combinação favorável de luz solar, temperatura da água e disponibilidade de nutrientes. Embora muitas florações sejam inofensivas e até benéficas para a cadeia alimentar marinha, algumas podem ser prejudiciais, dependendo da espécie de fitoplâncton envolvida e da sua densidade. No caso da costa mesoatlântica, a coloração acastanhada e azul-esverdeada sugere uma proliferação significativa desses microrganismos, que podem alterar a transparência da água e, em casos extremos, afetar a vida marinha local, exigindo monitoramento contínuo.</p><p>A expectativa é que essa floração comece a diminuir nas próximas semanas, a menos que haja um reabastecimento substancial de nutrientes. Grandes vazões de rios ou tempestades intensas são os principais mecanismos que podem introduzir novos nutrientes nas águas costeiras, prolongando a vida da floração. Sem esses aportes, o esgotamento dos nutrientes existentes e as mudanças nas condições ambientais, como a intensidade da luz solar e a temperatura da água, tendem a levar ao declínio natural da população de fitoplâncton, completando seu ciclo de vida.</p><p>A NASA tem um interesse contínuo na exploração do fitoplâncton, como evidenciado por suas publicações e recursos, incluindo o &#x27;Phytoplankton Exploration&#x27; de 2026. O monitoramento dessas florações é vital para entender os ecossistemas marinhos, o ciclo do carbono e as mudanças climáticas globais. Artigos como &#x27;Mares florescentes ao redor das Ilhas Chatham&#x27;, que descrevem exibições vibrantes de fitoplâncton em ilhas remotas da Nova Zelândia, demonstram a ubiquidade e a diversidade desses fenômenos em diferentes partes do mundo, ressaltando a importância da pesquisa global.</p><p>A capacidade de acessar e analisar dados científicos da Terra, como os disponibilizados pelo arquivo de dados de ciências da Terra da NASA, é fundamental para a pesquisa e a compreensão desses eventos. A observação contínua por satélites permite que os cientistas acompanhem a evolução das florações, avaliem seus impactos e prevejam tendências futuras com maior precisão. Essa abordagem baseada em evidências é crucial para distinguir entre fenômenos naturais e aqueles que podem ser influenciados por atividades humanas ou mudanças ambientais de longo prazo, garantindo a integridade da análise científica.</p><p>O evento atual na costa mesoatlântica serve como um lembrete da complexidade e da interconexão dos sistemas oceânicos. A compreensão aprofundada das florações de fitoplâncton não apenas enriquece nosso conhecimento sobre a biologia marinha, mas também fornece informações valiosas para a gestão costeira e a conservação ambiental. A ciência da Terra, através de iniciativas como o Observatório da Terra da NASA, continua a desvendar os mistérios de nosso planeta, oferecendo uma perspectiva única sobre os processos naturais que moldam nossos oceanos e a vida que neles habita.</p>",
     "body_en": "<p>Something is brewing in shallow waters offshore of Delaware, New Jersey, Maryland, and Virginia. The post Color Off the Mid-Atlantic Coast appeared first on NASA Science. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The post Color Off the Mid-Atlantic Coast appeared first on NASA Science. Unless big river outflows or storms replenish the nutrients, we’ll likely see this bloom start to decline in the coming weeks.</p><p>Downloads May 3, 2026 JPEG (4.34 MB) References &amp; Resources NASA (2026) Phytoplankton Exploration. Explore Earth Science Earth Science Data Open access to NASA’s archive of Earth science data The post Color Off the Mid-Atlantic Coast appeared first on NASA Science.</p><p>Article View more Images of the Day: May 8, 2026 Instruments: Aqua, MODIS PACE Topics: Oceans Water Blooms Colorful waters swirl off the Mid-Atlantic coast in an image captured by. NASA Earth Observatory/Michala Garrison Starting in early April, NASA satellites began to detect a patch of brownish, blue-green water lingering off the coasts of New Jersey.</p><p>References &amp; Resources NASA (2026) Phytoplankton Exploration. Article Blooming Seas Around the Chatham Islands 2 min read A vibrant display of phytoplankton encircled the remote New Zealand islands.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Article 1 2 3 4 Next Keep Exploring Discover More from NASA Earth Science Subscribe to Earth Observatory Newsletters Subscribe to the Earth Observatory and get the Earth in your. Open access to NASA’s archive of Earth science data NASA (2026) Phytoplankton Exploration.</p><p>Because the account originates with NASA Earth Observatory, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/color-off-the-mid-atlantic-coast/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Satélites da NASA detectaram uma extensa mancha de água acastanhada e azul-esverdeada em águas costeiras rasas de Delaware, Nova Jersey, Maryland e",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Satélites da NASA detectaram uma extensa mancha de água acastanhada e azul-esverdeada em águas costeiras rasas de Delaware, Nova Jersey, Maryland e.",
+      "Dado-chave: Satélites da NASA detectaram uma extensa mancha de água acastanhada e azul-esverdeada em águas costeiras rasas de Delaware, Nova Jersey.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Satélites da NASA detectaram uma extensa mancha de água acastanhada e azul-esverdeada em águas costeiras rasas de Delaware, Nova Jersey, Maryland e",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Satélites da NASA detectaram uma extensa mancha de água acastanhada e azul-esverdeada em águas costeiras rasas de Delaware, Nova Jersey, Maryland e.",
+      "Dado-chave: Satélites da NASA detectaram uma extensa mancha de água acastanhada e azul-esverdeada em águas costeiras rasas de Delaware, Nova Jersey.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Something is brewing in shallow waters offshore of Delaware, New Jersey, Maryland, and Virginia",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Something is brewing in shallow waters offshore of Delaware, New Jersey, Maryland, and Virginia.",
+      "Key detail: Something is brewing in shallow waters offshore of Delaware, New Jersey, Maryland, and Virginia",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "11 mai 2026",
     "date_pt": "11 mai 2026",
@@ -1496,7 +1698,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "sistema-solar-ganha-novo-misterio-com-aneis-de-quiron",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1667,7 +1869,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "esa-and-jaxa-team-up-on-planetary-defence-ramses-mission-to-asteroid-apophis",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1688,19 +1890,19 @@ window.postsData = [
     "body_pt": "<p>A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para aprofundar a colaboração em defesa planetária, juntamente com um acordo específico para a Missão Rapid Apophis para Segurança Espacial (RAMSES). Os acordos foram formalizados em 7 de maio pelo Diretor Geral da ESA, Josef Aschbacher, e pelo Presidente da JAXA, Hiroshi Yamakawa. A cerimônia ocorreu na Embaixada da Itália em Berlim, Alemanha, na presença de líderes institucionais e industriais europeus e japoneses, marcando um passo significativo na proteção do nosso planeta contra ameaças cósmicas.</p><p>O evento de assinatura foi organizado em colaboração com a Agência Espacial Italiana (ASI), em virtude da seleção da OHB Italia pela ESA como contratante principal para a missão RAMSES. Esta iniciativa se fundamenta em uma declaração conjunta de novembro de 2024, na qual a ESA e a JAXA já haviam se comprometido a expandir a cooperação em larga escala, incluindo a área de defesa planetária. Com as assinaturas recentes, ambas as agências estão passando decisivamente da intenção compartilhada para a implementação concreta, traduzindo o compromisso em cooperação efetiva no nível de missão.</p><p>A colaboração entre a ESA e a JAXA é vista como um avanço crucial para os esforços internacionais no campo da defesa planetária. Representantes das agências expressaram gratidão à ESA e aos seus Estados-Membros, especialmente à Itália, e manifestaram a esperança de que esta parceria impulsione ainda mais a segurança espacial global. A defesa planetária é um desafio que afeta todos os seres humanos e seres vivos na Terra, exigindo uma abordagem unificada e coordenada para proteger nosso planeta de potenciais ameaças cósmicas.</p><p>Como um campo de pesquisa científica aplicada, a defesa planetária reúne a comunidade internacional para detectar e caracterizar precocemente objetos próximos da Terra (NEOs), acompanhar suas trajetórias, avaliar os riscos de impacto e desenvolver estratégias de mitigação, se necessário. Este esforço colaborativo é fundamental para garantir que a humanidade esteja preparada para responder a qualquer ameaça potencial, minimizando os perigos representados por asteroides e cometas que se aproximam de nosso planeta.</p><p>O Centro de Coordenação de Objetos Próximos à Terra (NEOCC), parte integrante do programa de defesa planetária, desempenha um papel vital ao monitorar continuamente as ameaças de asteroides e refinar as previsões de órbita. Paralelamente, as missões espaciais dedicadas supervisionam o desenvolvimento de tecnologias rápidas de reconhecimento e deflexão, que são essenciais para uma resposta eficaz em caso de detecção de um objeto em rota de colisão. A combinação de monitoramento terrestre e capacidades espaciais é a chave para uma estratégia robusta de defesa planetária.</p>",
     "body_en": "<p>The European Space Agency and the Japan Aerospace Exploration Agency have signed a Memorandum of Cooperation to deepen collaboration in planetary defence, alongside a dedicated agreement for collaboration on the Rapid Apophis Mission for. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The agreements were signed on 7 May by ESA Director General Josef Aschbacher and JAXA President Hiroshi Yamakawa at the Embassy of Italy in Berlin, Germany, in the presence of. The event was hosted in collaboration with the Italian Space Agency (ASI), in light of ESA’s selection of OHB Italia as prime contractor for the Ramses mission.</p><p>The move builds on a joint statement from November 2024, in which ESA and JAXA committed to expanding large-scale cooperation, including on planetary defence. With today’s signatures, ESA and JAXA are moving decisively from shared intention to concrete implementation, translating commitment into mission‑level cooperation.</p><p>We sincerely appreciate ESA and its Member States, including Italy, and expect this cooperation to further advance international efforts in this field. As a field of applied scientific research, it brings together the international community to detect and characterise near-Earth objects early, track their trajectories, assess.</p><p>The programme’s Near-Earth Object Coordination Centre (NEOCC) monitors asteroid threats and refines orbit predictions, while its space missions oversee the development of rapid. The first major outcome of the new ESA-JAXA cooperation is collaboration on the Ramses mission.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Ramses will launch in 2028 and rendezvous with the asteroid (99942) Apophis ahead of its exceptionally rare, close flyby of Earth in April 2029. Roughly 375 metres across, Apophis will pass just 32 000 km above Earth’s surface on Friday 13 April 2029, one tenth the distance to the Moon and closer than satellites in.</p><p>Because the account originates with ESA Space News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Space_Safety/Planetary_Defence/ESA_and_JAXA_team_up_on_planetary_defence_Ramses_mission_to_asteroid_Apophis\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar a",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar a.",
+      "Dado-chave: A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar a",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar a",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar a.",
+      "Dado-chave: A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar a",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The European Space Agency and the Japan Aerospace Exploration Agency have signed a Memorandum of Cooperation to deepen collaboration in planetary",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The European Space Agency and the Japan Aerospace Exploration Agency have signed a Memorandum of Cooperation to deepen collaboration in planetary.",
+      "Key detail: The European Space Agency and the Japan Aerospace Exploration Agency have signed a Memorandum of Cooperation to deepen collaboration in planetary",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "07 mai 2026",
     "date_pt": "07 mai 2026",
@@ -1794,7 +1996,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "a-beacon-of-light-in-swirls-of-dust",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1952,7 +2154,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "a-sea-of-spinning-clouds",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2083,7 +2285,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "webb-hubble-find-massive-star-clusters-emerge-faster",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2214,7 +2416,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "ahuachapan-and-its-restive-neighbors",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2354,7 +2556,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "stunning-images-from-biomass-mark-its-one-year-in-orbit",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2530,7 +2732,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -2654,7 +2856,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 21,
     "slug": "dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2775,7 +2977,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 21,
+    "id": 22,
     "slug": "days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2981,7 +3183,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 22,
+    "id": 23,
     "slug": "catching-the-earliest-stars-in-the-universe",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3102,7 +3304,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 23,
+    "id": 24,
     "slug": "hilumi-lhc-cern-s-full-scale-test-stand-enters-the-powering-phase",
     "cat": "Física",
     "catCls": "fisica",
@@ -3236,7 +3438,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 24,
+    "id": 25,
     "slug": "stellar-flares-may-expand-habitable-zones-around-small-stars",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -3370,7 +3572,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 25,
+    "id": 26,
     "slug": "automated-ct-scan-analysis-could-fast-track-clinical-assessments",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -3491,7 +3693,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 26,
+    "id": 27,
     "slug": "generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul",
     "cat": "Física",
     "catCls": "fisica",
@@ -3634,7 +3836,7 @@ window.postsData = [
     "imageAlt_en": "Generalized optical meta-spanners empower arbitrary light paths for multitasking optical manipulation"
   },
   {
-    "id": 27,
+    "id": 28,
     "slug": "warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3777,7 +3979,7 @@ window.postsData = [
     "imageAlt_en": "Warmer streams may be draining river food webs by sending more carbon into the air"
   },
   {
-    "id": 28,
+    "id": 29,
     "slug": "sun-news-huge-coronal-hole-now-faces-earth",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3929,7 +4131,7 @@ window.postsData = [
     "imageAlt_en": "Sun news: Huge coronal hole now faces Earth"
   },
   {
-    "id": 29,
+    "id": 30,
     "slug": "how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants",
     "cat": "Física",
     "catCls": "fisica",
@@ -4069,7 +4271,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 30,
+    "id": 31,
     "slug": "cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -4193,7 +4395,7 @@ window.postsData = [
     "imageAlt_en": "Cloudy with a chance of metals: Indications of CO$_2$ in the atmosphere of GJ 1214 b from high-resolution K-band spectroscopy"
   },
   {
-    "id": 31,
+    "id": 32,
     "slug": "jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -4314,7 +4516,7 @@ window.postsData = [
     "imageAlt_en": "JWST Sees Smoking Gun for Black Hole Mergers in the Virgo Cluster"
   },
   {
-    "id": 32,
+    "id": 33,
     "slug": "torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -4445,7 +4647,7 @@ window.postsData = [
     "imageAlt_en": "Torsion balances set strongest direct limits yet on ultralight dark matter"
   },
   {
-    "id": 33,
+    "id": 34,
     "slug": "the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -4569,7 +4771,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 34,
+    "id": 35,
     "slug": "planets-collide-around-young-sun-like-star",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -4690,7 +4892,7 @@ window.postsData = [
     "imageAlt_en": "Planets Collide Around Young, Sun-like Star"
   },
   {
-    "id": 35,
+    "id": 36,
     "slug": "first-light-for-poet-shining-sun-light-on-exoplanet-research",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -4835,127 +5037,6 @@ window.postsData = [
     "imageAlt": "Primeira Luz para o PoET: A Contribuição da Luz Solar na Busca por Exoplanetas",
     "imageAlt_pt": "Primeira Luz para o PoET: A Contribuição da Luz Solar na Busca por Exoplanetas",
     "imageAlt_en": "First light for PoET: shining (sun)light on exoplanet research",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 36,
-    "slug": "five-things-juice-has-revealed-about-comet-3i-atlas",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/comet_3i_atlas_seen_by_juice_s_science_camera_janus/27186903-1-eng-GB/Comet_3I_ATLAS_seen_by_Juice_s_science_camera_JANUS_card_full.gif",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Cinco coisas que Juice revelou sobre o cometa 3I/ATLAS",
-    "title_pt": "Cinco coisas que Juice revelou sobre o cometa 3I/ATLAS",
-    "title_en": "Five things Juice has revealed about Comet 3I/ATLAS",
-    "sub": "‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia.",
-    "sub_pt": "‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia.",
-    "sub_en": "‘Extreme but not exotic,’, a glimpse at Comet 3I/ATLAS through the eyes of the European Space Agency’s Jupiter Icy Moons Explorer.",
-    "excerpt": "‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia.",
-    "excerpt_pt": "‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia.",
-    "excerpt_en": "‘Extreme but not exotic,’, a glimpse at Comet 3I/ATLAS through the eyes of the European Space Agency’s Jupiter Icy Moons Explorer.",
-    "body": "<p>‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia. ‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia (Juice).</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Juice/Five_things_Juice_has_revealed_about_Comet_3I_ATLAS\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia. ‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia (Juice).</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Juice/Five_things_Juice_has_revealed_about_Comet_3I_ATLAS\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>‘Extreme but not exotic,’, a glimpse at Comet 3I/ATLAS through the eyes of the European Space Agency’s Jupiter Icy Moons Explorer. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Because the account originates with ESA Space Science, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Juice/Five_things_Juice_has_revealed_about_Comet_3I_ATLAS\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: ‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia.",
-      "Dado-chave: ‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: ‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia.",
-      "Dado-chave: ‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: ‘Extreme but not exotic,’, a glimpse at Comet 3I/ATLAS through the eyes of the European Space Agency’s Jupiter Icy Moons Explorer.",
-      "Key detail: ‘Extreme but not exotic,’, a glimpse at Comet 3I/ATLAS through the eyes of the European Space Agency’s Jupiter Icy Moons Explorer.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "02 abr 2026",
-    "date_pt": "02 abr 2026",
-    "date_en": "02 Apr 2026",
-    "time": "13h00",
-    "time_pt": "13h00",
-    "time_en": "13: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-02T13:00:00+00:00",
-    "lastModifiedIso": "2026-04-23T23:29:07+00:00",
-    "source": "ESA Space Science",
-    "sourceDomain": "www. esa. int",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Cinco coisas que Juice revelou sobre o cometa 3I/ATLAS"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Cinco coisas que Juice revelou sobre o cometa 3I/ATLAS"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Five things Juice revealed about comet 3I/ATLAS"
-    ],
-    "srcUrl": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Five_things_Juice_has_revealed_about_Comet_3I_ATLAS",
-    "realUrl": "https://www.cosmosweek.com/?article=five-things-juice-has-revealed-about-comet-3i-atlas",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=five-things-juice-has-revealed-about-comet-3i-atlas",
-    "realUrl_en": "https://www.cosmosweek.com/?article=five-things-juice-has-revealed-about-comet-3i-atlas&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/five-things-juice-has-revealed-about-comet-3i-atlas/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/five-things-juice-has-revealed-about-comet-3i-atlas/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/five-things-juice-has-revealed-about-comet-3i-atlas/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/five-things-juice-has-revealed-about-comet-3i-atlas/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/five-things-juice-has-revealed-about-comet-3i-atlas/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/five-things-juice-has-revealed-about-comet-3i-atlas/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 90,
-      "evidence": 88,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 46
-    },
-    "imageAlt": "Cinco coisas que Juice revelou sobre o cometa 3I/ATLAS",
-    "imageAlt_pt": "Cinco coisas que Juice revelou sobre o cometa 3I/ATLAS",
-    "imageAlt_en": "Five things Juice has revealed about Comet 3I/ATLAS",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",

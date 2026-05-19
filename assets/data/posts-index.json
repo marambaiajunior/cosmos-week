@@ -1,6 +1,624 @@
 [
   {
     "id": 1,
+    "slug": "johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://www.nasa.gov/wp-content/uploads/2026/05/dscn0407-evans.jpg",
+    "inline_images": [
+      {
+        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-1.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-2.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-3.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-4.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar",
+    "title_pt": "Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar",
+    "title_en": "Johnson’s Cindy Evans Prepares Artemis Teams for Lunar Science",
+    "sub": "A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como.",
+    "sub_pt": "A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como.",
+    "sub_en": "NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an important role as scientific.",
+    "excerpt": "A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como embaixadores científicos no vizinho mais próximo da Terra.",
+    "excerpt_pt": "A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como embaixadores científicos no vizinho mais próximo da Terra.",
+    "excerpt_en": "NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an important role as scientific ambassadors to Earth’s nearest neighbor.",
+    "highlights": [
+      "Em foco: A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "19 mai 2026",
+    "date_pt": "19 mai 2026",
+    "date_en": "19 May 2026",
+    "time": "15h00",
+    "time_pt": "15h00",
+    "time_en": "15: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-19T15:00:00+00:00",
+    "lastModifiedIso": "2026-05-19T18:11:34+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Johnson's Cindy Evans Prepares Artemis Teams for Lunar Science"
+    ],
+    "srcUrl": "https://www.nasa.gov/centers-and-facilities/johnson/johnsons-cindy-evans-prepares-artemis-teams-for-lunar-science/",
+    "realUrl": "https://www.cosmosweek.com/?article=johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science",
+    "realUrl_en": "https://www.cosmosweek.com/?article=johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar",
+    "imageAlt_pt": "Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar",
+    "imageAlt_en": "Johnson’s Cindy Evans Prepares Artemis Teams for Lunar Science",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://assets.science.nasa.gov/content/dam/science/cds/citizen-science/highlights/2026/earth_magnetosphere_solar_wind.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [],
+    "video": {
+      "kind": "embed",
+      "platform": "youtube",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/4MWU7GDIlgs?rel=0&modestbranding=1",
+      "fileUrl": "",
+      "poster": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/citizen-science/highlights/2026/earth_magnetosphere_solar_wind.jpg?w=1000&h=656&fit=clip&crop=faces%2Cfocalpoint",
+      "title": "Detetives de choque",
+      "title_pt": "Detetives de choque",
+      "title_en": "Shock Detectives",
+      "caption": "Shock Detectives é um projeto onde voluntários ajudam a classificar dados espaciais próximos a ondas de choque usando dados da missão MMS da NASA. Não é necessária experiência prévia - apenas. ..",
+      "caption_pt": "Shock Detectives é um projeto onde voluntários ajudam a classificar dados espaciais próximos a ondas de choque usando dados da missão MMS da NASA. Não é necessária experiência prévia - apenas. ..",
+      "caption_en": "Shock Detectives is a project where volunteers help classify space data near shock waves using data from NASA’s MMS mission. No prior experience is needed-ju. ..",
+      "sourcePage": "https://science.nasa.gov/get-involved/citizen-science/nasas-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind/"
+    },
+    "audio": null,
+    "title": "Projeto 'Shock Detectives' da NASA Convida Voluntários para Estudar o Vento Solar",
+    "title_pt": "Projeto 'Shock Detectives' da NASA Convida Voluntários para Estudar o Vento Solar",
+    "title_en": "NASA’s New Shock Detectives Project Invites Volunteers to Help Study Solar Wind",
+    "sub": "A missão Magnetospheric Multiscale (MMS) da NASA acumulou mais de uma década de dados sobre a interação entre o vento solar e a magnetosfera terrestre.",
+    "sub_pt": "A missão Magnetospheric Multiscale (MMS) da NASA acumulou mais de uma década de dados sobre a interação entre o vento solar e a magnetosfera terrestre.",
+    "sub_en": "NASA’s Magnetospheric Multiscale mission has collected more than ten years of data from this zone, more than scientists can analyze alone.",
+    "excerpt": "A missão Magnetospheric Multiscale (MMS) da NASA acumulou mais de uma década de dados sobre a interação entre o vento solar e a magnetosfera terrestre.",
+    "excerpt_pt": "A missão Magnetospheric Multiscale (MMS) da NASA acumulou mais de uma década de dados sobre a interação entre o vento solar e a magnetosfera terrestre.",
+    "excerpt_en": "NASA’s Magnetospheric Multiscale mission has collected more than ten years of data from this zone, more than scientists can analyze alone.",
+    "highlights": [
+      "Em foco: A missão Magnetospheric Multiscale (MMS) da NASA acumulou mais de uma década de dados sobre a interação entre o vento solar e a magnetosfera",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A missão Magnetospheric Multiscale (MMS) da NASA acumulou mais de uma década de dados sobre a interação entre o vento solar e a magnetosfera",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: NASA’s Magnetospheric Multiscale mission has collected more than ten years of data from this zone, more than scientists can analyze alone",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "19 mai 2026",
+    "date_pt": "19 mai 2026",
+    "date_en": "19 May 2026",
+    "time": "13h05",
+    "time_pt": "13h05",
+    "time_en": "13: 05 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-19T13:05:00+00:00",
+    "lastModifiedIso": "2026-05-19T18:11:34+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "O novo projeto de detetives de choque da NASA convida voluntários para ajudar a estudar o vento solar"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "O novo projeto de detetives de choque da NASA convida voluntários para ajudar a estudar o vento solar"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA's New Shock Detective Project Invites Volunteers to Help Study Solar Wind"
+    ],
+    "srcUrl": "https://science.nasa.gov/get-involved/citizen-science/nasas-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind/",
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Projeto 'Shock Detectives' da NASA Convida Voluntários para Estudar o Vento Solar",
+    "imageAlt_pt": "Projeto 'Shock Detectives' da NASA Convida Voluntários para Estudar o Vento Solar",
+    "imageAlt_en": "NASA’s New Shock Detectives Project Invites Volunteers to Help Study Solar Wind",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
+    "slug": "smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/wide_view_of_vega-c_liftoff_with_smile/27281047-2-eng-GB/Wide_view_of_Vega-C_liftoff_with_Smile_pillars.jpg",
+    "inline_images": [
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/vega-c_shoots_through_the_sky_with_a_smile/27280936-2-eng-GB/Vega-C_shoots_through_the_sky_with_a_Smile_pillars.jpg",
+        "alt": "Vega-C dispara pelo céu com um sorriso",
+        "alt_pt": "Vega-C dispara pelo céu com um sorriso",
+        "alt_en": "Vega-C shoots through the sky with a Smile",
+        "caption": "Vega-C dispara pelo céu com um sorriso",
+        "caption_pt": "Vega-C dispara pelo céu com um sorriso",
+        "caption_en": "Vega-C shoots through the sky with a Smile"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/vega-c_liftoff_with_smile/27281000-2-eng-GB/Vega-C_liftoff_with_Smile_pillars.jpg",
+        "alt": "Decolagem Vega-C com Smile",
+        "alt_pt": "Decolagem Vega-C com Smile",
+        "alt_en": "Vega-C liftoff with Smile",
+        "caption": "Decolagem Vega-C com Smile",
+        "caption_pt": "Decolagem Vega-C com Smile",
+        "caption_en": "Vega-C liftoff with Smile"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/vega-c_complete_with_smile_inside/27268196-1-eng-GB/Vega-C_complete_with_Smile_inside_pillars.png",
+        "alt": "Vega-C completo com Smile dentro",
+        "alt_pt": "Vega-C completo com Smile dentro",
+        "alt_en": "Vega-C complete with Smile inside",
+        "caption": "Vega-C completo com Smile dentro",
+        "caption_pt": "Vega-C completo com Smile dentro",
+        "caption_en": "Vega-C complete with Smile inside"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/10/vega-c_blueprint/26341181-1-eng-GB/Vega-C_blueprint_pillars.png",
+        "alt": "Projeto Vega-C",
+        "alt_pt": "Projeto Vega-C",
+        "alt_en": "Vega-C blueprint",
+        "caption": "Projeto Vega-C",
+        "caption_pt": "Projeto Vega-C",
+        "caption_en": "Vega-C blueprint"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/02/smile_in_numbers/27124317-1-eng-GB/Smile_in_numbers_article.jpg",
+        "alt": "Sorria em números",
+        "alt_pt": "Sorria em números",
+        "alt_en": "Smile in numbers",
+        "caption": "Sorria em números",
+        "caption_pt": "Sorria em números",
+        "caption_en": "Smile in numbers"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/12/labelled_smile_spacecraft_artist_impression/25358137-5-eng-GB/Labelled_Smile_spacecraft_artist_impression_article.jpg",
+        "alt": "Nave espacial Smile rotulada (impressão artística)",
+        "alt_pt": "Nave espacial Smile rotulada (impressão artística)",
+        "alt_en": "Labelled Smile spacecraft (artist impression)",
+        "caption": "Nave espacial Smile rotulada (impressão artística)",
+        "caption_pt": "Nave espacial Smile rotulada (impressão artística)",
+        "caption_en": "Labelled Smile spacecraft (artist impression)"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/05/smile_launch_highlights/27281512-1-eng-GB/Smile_launch_highlights_pillars.png",
+        "alt": "$video. data_map. short_description. content",
+        "alt_pt": "$video. data_map. short_description. content",
+        "alt_en": "$video. data_map. short_description. content",
+        "caption": "$video. data_map. short_description. content",
+        "caption_pt": "$video. data_map. short_description. content",
+        "caption_en": "$video. data_map. short_description. content"
+      }
+    ],
+    "video": {
+      "kind": "embed",
+      "platform": "youtube",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/JZcSEdz54k0?rel=0&modestbranding=1",
+      "fileUrl": "",
+      "poster": "",
+      "title": "",
+      "title_pt": "",
+      "title_en": "",
+      "caption": "",
+      "caption_pt": "",
+      "caption_en": "",
+      "sourcePage": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Smile_lifts_off_on_quest_to_reveal_Earth_s_invisible_shield_against_the_solar_wind"
+    },
+    "audio": null,
+    "title": "Smile decola em busca de revelar o escudo invisível da Terra contra o vento solar",
+    "title_pt": "Smile decola em busca de revelar o escudo invisível da Terra contra o vento solar",
+    "title_en": "Smile lifts off on quest to reveal Earth’s invisible shield against the solar wind",
+    "sub": "A espaçonave Smile decolou em um foguete Vega-C do porto espacial europeu na Guiana Francesa às 04h52 BST/05h52 CEST em 19 de maio de 2026, iniciando uma missão para compreender.",
+    "sub_pt": "A espaçonave Smile decolou em um foguete Vega-C do porto espacial europeu na Guiana Francesa às 04h52 BST/05h52 CEST em 19 de maio de 2026, iniciando uma missão para compreender.",
+    "sub_en": "The Smile spacecraft lifted off on a Vega-C rocket from Europe’s Spaceport in French Guiana at 04: 52 BST / 05: 52 CEST on 19 May 2026.",
+    "excerpt": "A espaçonave Smile decolou em um foguete Vega-C do porto espacial europeu na Guiana Francesa às 04h52 BST/05h52 CEST em 19 de maio de 2026, iniciando uma missão para compreender as tempestades solares e o clima espacial.",
+    "excerpt_pt": "A espaçonave Smile decolou em um foguete Vega-C do porto espacial europeu na Guiana Francesa às 04h52 BST/05h52 CEST em 19 de maio de 2026, iniciando uma missão para compreender as tempestades solares e o clima espacial.",
+    "excerpt_en": "The Smile spacecraft lifted off on a Vega-C rocket from Europe’s Spaceport in French Guiana at 04: 52 BST / 05: 52 CEST on 19 May 2026.",
+    "highlights": [
+      "Em foco: A espaçonave Smile decolou em um foguete Vega-C do porto espacial europeu na Guiana Francesa às 04h52 BST/05h52 CEST em 19 de maio de 2026, iniciando",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A espaçonave Smile decolou em um foguete Vega-C do porto espacial europeu na Guiana Francesa às 04h52 BST/05h52 CEST em 19 de maio de 2026, iniciando",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: The Smile spacecraft lifted off on a Vega-C rocket from Europe’s Spaceport in French Guiana at 04: 52 BST / 05: 52 CEST on 19 May 2026",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "19 mai 2026",
+    "date_pt": "19 mai 2026",
+    "date_en": "19 May 2026",
+    "time": "05h00",
+    "time_pt": "05h00",
+    "time_en": "05: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-19T05:00:00+00:00",
+    "lastModifiedIso": "2026-05-19T18:11:34+00:00",
+    "source": "ESA Space Science",
+    "sourceDomain": "www. esa. int",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "ESA Space Science",
+      "Cosmos Week",
+      "Smile decola em busca de revelar o escudo invisível da Terra contra o vento solar"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "ESA Space Science",
+      "Cosmos Week",
+      "Smile decola em busca de revelar o escudo invisível da Terra contra o vento solar"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "ESA Space Science",
+      "Cosmos Week",
+      "Smile takes off in search of revealing Earth's invisible shield against the solar wind"
+    ],
+    "srcUrl": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Smile_lifts_off_on_quest_to_reveal_Earth_s_invisible_shield_against_the_solar_wind",
+    "realUrl": "https://www.cosmosweek.com/?article=smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind",
+    "realUrl_en": "https://www.cosmosweek.com/?article=smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 95,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Smile decola em busca de revelar o escudo invisível da Terra contra o vento solar",
+    "imageAlt_pt": "Smile decola em busca de revelar o escudo invisível da Terra contra o vento solar",
+    "imageAlt_en": "Smile lifts off on quest to reveal Earth’s invisible shield against the solar wind",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 4,
+    "slug": "farming-in-ancient-lake-agassiz",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/farming-in-ancient-lake-agassiz/ISS074-E-494130_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/farming-in-ancient-lake-agassiz/ISS074-E-494130_lrg.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "A Herança Agrícola do Antigo Lago Agassiz em Manitoba",
+    "title_pt": "A Herança Agrícola do Antigo Lago Agassiz em Manitoba",
+    "title_en": "Farming in Ancient Lake Agassiz",
+    "sub": "O antigo lago glacial Agassiz depositou uma camada de lodo e argila no sudeste de Manitoba, resultando em terras agrícolas férteis que foram demarcadas durante levantamentos.",
+    "sub_pt": "O antigo lago glacial Agassiz depositou uma camada de lodo e argila no sudeste de Manitoba, resultando em terras agrícolas férteis que foram demarcadas durante levantamentos.",
+    "sub_en": "The glacial lake left a layer of silt and clay in southeastern Manitoba, creating fertile farmland that was divided during 19th-century land surveys and is still farmed today.",
+    "excerpt": "O antigo lago glacial Agassiz depositou uma camada de lodo e argila no sudeste de Manitoba, resultando em terras agrícolas férteis que foram demarcadas durante levantamentos topográficos do século XIX e são cultivadas até hoje.",
+    "excerpt_pt": "O antigo lago glacial Agassiz depositou uma camada de lodo e argila no sudeste de Manitoba, resultando em terras agrícolas férteis que foram demarcadas durante levantamentos topográficos do século XIX e são cultivadas até hoje.",
+    "excerpt_en": "The glacial lake left a layer of silt and clay in southeastern Manitoba, creating fertile farmland that was divided during 19th-century land surveys and is still farmed today.",
+    "highlights": [
+      "Em foco: O antigo lago glacial Agassiz depositou uma camada de lodo e argila no sudeste de Manitoba, resultando em terras agrícolas férteis que foram",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: O antigo lago glacial Agassiz depositou uma camada de lodo e argila no sudeste de Manitoba, resultando em terras agrícolas férteis que foram",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: The glacial lake left a layer of silt and clay in southeastern Manitoba, creating fertile farmland that was divided during 19th-century land surveys",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "19 mai 2026",
+    "date_pt": "19 mai 2026",
+    "date_en": "19 May 2026",
+    "time": "04h01",
+    "time_pt": "04h01",
+    "time_en": "04: 01 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-19T04:01:00+00:00",
+    "lastModifiedIso": "2026-05-19T18:11:34+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Agricultura no Antigo Lago Agassiz"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Agricultura no Antigo Lago Agassiz"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Agriculture on Old Lake Agassiz"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/farming-in-ancient-lake-agassiz/",
+    "realUrl": "https://www.cosmosweek.com/?article=farming-in-ancient-lake-agassiz",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=farming-in-ancient-lake-agassiz",
+    "realUrl_en": "https://www.cosmosweek.com/?article=farming-in-ancient-lake-agassiz&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/farming-in-ancient-lake-agassiz/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/farming-in-ancient-lake-agassiz/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/farming-in-ancient-lake-agassiz/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/farming-in-ancient-lake-agassiz/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/farming-in-ancient-lake-agassiz/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/farming-in-ancient-lake-agassiz/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "A Herança Agrícola do Antigo Lago Agassiz em Manitoba",
+    "imageAlt_pt": "A Herança Agrícola do Antigo Lago Agassiz em Manitoba",
+    "imageAlt_en": "Farming in Ancient Lake Agassiz",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 5,
     "slug": "nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -121,7 +739,7 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 6,
     "slug": "clinical-trial-finds-no-difference-in-fluid-treatment-options-for-pediatric-sepsis",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -239,7 +857,7 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 7,
     "slug": "uap-in-this-case-it-s-only-a-model",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -360,162 +978,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
-    "slug": "picturing-earth-in-a-new-light",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/picturing-earth-in-a-new-light/nightlights_20142022_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/picturing-earth-in-a-new-light/nightlights_20142022_lrg.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://earthdata.nasa.gov/s3fs-public/2023-06/NighttimeLights_Radiance_India_th.jpg?VersionId=LsC1EwbMdgZM.CPwQwYwVI3TezVAX2fn",
-        "caption": "Mármore Preto",
-        "caption_pt": "Mármore Preto",
-        "caption_en": "Black Marble",
-        "alt": "Mármore Preto",
-        "alt_pt": "Mármore Preto",
-        "alt_en": "Black Marble"
-      },
-      {
-        "src": "https://earthdata.nasa.gov/s3fs-public/2025-11/black-marble-10282025.png?VersionId=eu6sMBHQ6csEsuMD9TaypzP_1s1DVzf7",
-        "caption": "Mármore Preto",
-        "caption_pt": "Mármore Preto",
-        "caption_en": "Black Marble",
-        "alt": "Mármore Preto",
-        "alt_pt": "Mármore Preto",
-        "alt_en": "Black Marble"
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Retratando a Terra sob uma nova luz",
-    "title_pt": "Retratando a Terra sob uma nova luz",
-    "title_en": "Picturing Earth in a New Light",
-    "sub": "Uma análise recente revelou onde a luz artificial à noite se intensificou, bem como onde diminuiu.",
-    "sub_pt": "Uma análise recente revelou onde a luz artificial à noite se intensificou, bem como onde diminuiu.",
-    "sub_en": "A recent analysis revealed where artificial light at night has intensified, as well as where it has diminished.",
-    "excerpt": "Uma análise recente revelou onde a luz artificial à noite se intensificou, bem como onde diminuiu.",
-    "excerpt_pt": "Uma análise recente revelou onde a luz artificial à noite se intensificou, bem como onde diminuiu.",
-    "excerpt_en": "A recent analysis revealed where artificial light at night has intensified, as well as where it has diminished.",
-    "highlights": [
-      "Em foco: Uma análise recente revelou onde a luz artificial à noite se intensificou, bem como onde diminuiu",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: Uma análise recente revelou onde a luz artificial à noite se intensificou, bem como onde diminuiu",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: A recent analysis revealed where artificial light at night has intensified, as well as where it has diminished",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "15 mai 2026",
-    "date_pt": "15 mai 2026",
-    "date_en": "15 May 2026",
-    "time": "04h00",
-    "time_pt": "04h00",
-    "time_en": "04: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-15T04:00:00+00:00",
-    "lastModifiedIso": "2026-05-15T17:23:29+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Retratando a Terra sob uma nova luz"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Retratando a Terra sob uma nova luz"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Portraying Earth in a New Light"
-    ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/picturing-earth-in-a-new-light/",
-    "realUrl": "https://www.cosmosweek.com/?article=picturing-earth-in-a-new-light",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=picturing-earth-in-a-new-light",
-    "realUrl_en": "https://www.cosmosweek.com/?article=picturing-earth-in-a-new-light&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/picturing-earth-in-a-new-light/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/picturing-earth-in-a-new-light/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/picturing-earth-in-a-new-light/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/picturing-earth-in-a-new-light/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/picturing-earth-in-a-new-light/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/picturing-earth-in-a-new-light/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Retratando a Terra sob uma nova luz",
-    "imageAlt_pt": "Retratando a Terra sob uma nova luz",
-    "imageAlt_en": "Picturing Earth in a New Light",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 5,
+    "id": 8,
     "slug": "q-a-is-it-time-to-expand-our-thinking-about-dark-matter-a-new-study-says-yes",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -636,153 +1099,7 @@
     "storyKind": "science"
   },
   {
-    "id": 6,
-    "slug": "ice-moves-out-of-aniak",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/ice-moves-out-of-aniak/alaskaicebreak_oli2_20260507_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/ice-moves-out-of-aniak/alaskaicebreak_oli2_20260421.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/ice-moves-out-of-aniak/alaskaicebreak_oli2_20260507.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Dinâmica do Gelo Fluvial em Aniak, Alasca",
-    "title_pt": "Dinâmica do Gelo Fluvial em Aniak, Alasca",
-    "title_en": "Ice Moves Out of Aniak",
-    "sub": "Imagens do Observatório da Terra da NASA, capturadas por Michala Garrison entre 21 de abril e 7 de maio de 2026, documentam o processo de descongelamento de um rio que serpenteia.",
-    "sub_pt": "Imagens do Observatório da Terra da NASA, capturadas por Michala Garrison entre 21 de abril e 7 de maio de 2026, documentam o processo de descongelamento de um rio que serpenteia.",
-    "sub_en": "NASA Earth Observatory/Michala Garrison April 21, 2026 May 7, 2026 A frozen river winds from east to west past Aniak, Alaska.",
-    "excerpt": "Imagens do Observatório da Terra da NASA, capturadas por Michala Garrison entre 21 de abril e 7 de maio de 2026, documentam o processo de descongelamento de um rio que serpenteia de leste a oeste, passando pela cidade de Aniak, no Alasca.",
-    "excerpt_pt": "Imagens do Observatório da Terra da NASA, capturadas por Michala Garrison entre 21 de abril e 7 de maio de 2026, documentam o processo de descongelamento de um rio que serpenteia de leste a oeste, passando pela cidade de Aniak, no Alasca.",
-    "excerpt_en": "NASA Earth Observatory/Michala Garrison April 21, 2026 May 7, 2026 A frozen river winds from east to west past Aniak, Alaska.",
-    "highlights": [
-      "Em foco: Imagens do Observatório da Terra da NASA, capturadas por Michala Garrison entre 21 de abril e 7 de maio de 2026, documentam o processo de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: Imagens do Observatório da Terra da NASA, capturadas por Michala Garrison entre 21 de abril e 7 de maio de 2026, documentam o processo de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: NASA Earth Observatory/Michala Garrison April 21, 2026 May 7, 2026 A frozen river winds from east to west past Aniak, Alaska",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "14 mai 2026",
-    "date_pt": "14 mai 2026",
-    "date_en": "14 May 2026",
-    "time": "04h01",
-    "time_pt": "04h01",
-    "time_en": "04: 01 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-14T04:01:00+00:00",
-    "lastModifiedIso": "2026-05-14T17:34:21+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Gelo sai de Aniak"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Gelo sai de Aniak"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Frost out of Aniak"
-    ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/ice-moves-out-of-aniak/",
-    "realUrl": "https://www.cosmosweek.com/?article=ice-moves-out-of-aniak",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=ice-moves-out-of-aniak",
-    "realUrl_en": "https://www.cosmosweek.com/?article=ice-moves-out-of-aniak&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/ice-moves-out-of-aniak/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/ice-moves-out-of-aniak/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/ice-moves-out-of-aniak/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/ice-moves-out-of-aniak/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/ice-moves-out-of-aniak/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/ice-moves-out-of-aniak/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Dinâmica do Gelo Fluvial em Aniak, Alasca",
-    "imageAlt_pt": "Dinâmica do Gelo Fluvial em Aniak, Alasca",
-    "imageAlt_en": "Ice Moves Out of Aniak",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 7,
+    "id": 9,
     "slug": "inpainting-over-the-cracks-challenges-of-applying-pre-merger-searches-for-massive-black-hole-bin",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -906,125 +1223,7 @@
     "storyKind": "science"
   },
   {
-    "id": 8,
-    "slug": "studying-pneumonia-in-space-for-heart-health-on-earth",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://images-assets.nasa.gov/image/iss074e0490731/iss074e0490731~large.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Estudando Pneumonia no Espaço para a Saúde do Coração na Terra",
-    "title_pt": "Estudando Pneumonia no Espaço para a Saúde do Coração na Terra",
-    "title_en": "Studying Pneumonia in Space for Heart Health on Earth",
-    "sub": "Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem provocar danos a longo prazo no coração.",
-    "sub_pt": "Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem provocar danos a longo prazo no coração.",
-    "sub_en": "Expedition 74 astronauts aboard the International Space Station are uncovering how bacteria that causes pneumonia can lead to long-term damage in the heart.",
-    "excerpt": "Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem provocar danos a longo prazo no coração.",
-    "excerpt_pt": "Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem provocar danos a longo prazo no coração.",
-    "excerpt_en": "Expedition 74 astronauts aboard the International Space Station are uncovering how bacteria that causes pneumonia can lead to long-term damage in the heart.",
-    "highlights": [
-      "Ponto central: Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem provocar.",
-      "Dado-chave: Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem provocar.",
-      "Dado-chave: Os astronautas da Expedição 74 a bordo da Estação Espacial Internacional estão investigando como as bactérias causadoras de pneumonia podem.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Expedition 74 astronauts aboard the International Space Station are uncovering how bacteria that causes pneumonia can lead to long-term damage in the.",
-      "Key detail: Expedition 74 astronauts aboard the International Space Station are uncovering how bacteria that causes pneumonia can lead to long-term damage.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "13 mai 2026",
-    "date_pt": "13 mai 2026",
-    "date_en": "13 May 2026",
-    "time": "14h45",
-    "time_pt": "14h45",
-    "time_en": "14: 45 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-13T14:45:00+00:00",
-    "lastModifiedIso": "2026-05-13T17:44:00+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Estudando Pneumonia no Espaço para a Saúde do Coração na Terra"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Estudando Pneumonia no Espaço para a Saúde do Coração na Terra"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Studying Pneumonia in Space for Heart Health on Earth"
-    ],
-    "srcUrl": "https://www.nasa.gov/missions/station/iss-research/studying-pneumonia-in-space-for-heart-health-on-earth/",
-    "realUrl": "https://www.cosmosweek.com/?article=studying-pneumonia-in-space-for-heart-health-on-earth",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=studying-pneumonia-in-space-for-heart-health-on-earth",
-    "realUrl_en": "https://www.cosmosweek.com/?article=studying-pneumonia-in-space-for-heart-health-on-earth&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/studying-pneumonia-in-space-for-heart-health-on-earth/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/studying-pneumonia-in-space-for-heart-health-on-earth/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/studying-pneumonia-in-space-for-heart-health-on-earth/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/studying-pneumonia-in-space-for-heart-health-on-earth/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/studying-pneumonia-in-space-for-heart-health-on-earth/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/studying-pneumonia-in-space-for-heart-health-on-earth/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 86,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Estudando Pneumonia no Espaço para a Saúde do Coração na Terra",
-    "imageAlt_pt": "Estudando Pneumonia no Espaço para a Saúde do Coração na Terra",
-    "imageAlt_en": "Studying Pneumonia in Space for Heart Health on Earth",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 9,
+    "id": 10,
     "slug": "revisiting-the-2021-outburst-of-the-bhc-maxi-j1803-298-using-nicer-nustar-and-insight-hxmt-data",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1151,7 +1350,7 @@
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "waterworn-chaos-on-mars",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1324,7 +1523,7 @@
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "color-off-the-mid-atlantic-coast",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1361,19 +1560,19 @@
     "excerpt_pt": "Satélites da NASA detectaram uma extensa mancha de água acastanhada e azul-esverdeada em águas costeiras rasas de Delaware, Nova Jersey, Maryland e Virgínia, indicando um possível fenômeno de floração de fitoplâncton.",
     "excerpt_en": "Something is brewing in shallow waters offshore of Delaware, New Jersey, Maryland, and Virginia. The post Color Off the Mid-Atlantic Coast appeared first on NASA Science.",
     "highlights": [
-      "Em foco: Satélites da NASA detectaram uma extensa mancha de água acastanhada e azul-esverdeada em águas costeiras rasas de Delaware, Nova Jersey, Maryland e",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Satélites da NASA detectaram uma extensa mancha de água acastanhada e azul-esverdeada em águas costeiras rasas de Delaware, Nova Jersey, Maryland e.",
+      "Dado-chave: Satélites da NASA detectaram uma extensa mancha de água acastanhada e azul-esverdeada em águas costeiras rasas de Delaware, Nova Jersey.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Satélites da NASA detectaram uma extensa mancha de água acastanhada e azul-esverdeada em águas costeiras rasas de Delaware, Nova Jersey, Maryland e",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Satélites da NASA detectaram uma extensa mancha de água acastanhada e azul-esverdeada em águas costeiras rasas de Delaware, Nova Jersey, Maryland e.",
+      "Dado-chave: Satélites da NASA detectaram uma extensa mancha de água acastanhada e azul-esverdeada em águas costeiras rasas de Delaware, Nova Jersey.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Something is brewing in shallow waters offshore of Delaware, New Jersey, Maryland, and Virginia",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Something is brewing in shallow waters offshore of Delaware, New Jersey, Maryland, and Virginia.",
+      "Key detail: Something is brewing in shallow waters offshore of Delaware, New Jersey, Maryland, and Virginia",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "11 mai 2026",
     "date_pt": "11 mai 2026",
@@ -1461,7 +1660,7 @@
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "sistema-solar-ganha-novo-misterio-com-aneis-de-quiron",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1629,7 +1828,7 @@
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "esa-and-jaxa-team-up-on-planetary-defence-ramses-mission-to-asteroid-apophis",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1647,19 +1846,19 @@
     "excerpt_pt": "A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar a colaboração em defesa planetária, incluindo um acordo específico para a Missão Rapid Apophis para Segurança.",
     "excerpt_en": "The European Space Agency and the Japan Aerospace Exploration Agency have signed a Memorandum of Cooperation to deepen collaboration in planetary defence, alongside a dedicated agreement for collaboration on the Rapid Apophis Mission for.",
     "highlights": [
-      "Em foco: A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar a",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar a.",
+      "Dado-chave: A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar a",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar a",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar a.",
+      "Dado-chave: A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar a",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The European Space Agency and the Japan Aerospace Exploration Agency have signed a Memorandum of Cooperation to deepen collaboration in planetary",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The European Space Agency and the Japan Aerospace Exploration Agency have signed a Memorandum of Cooperation to deepen collaboration in planetary.",
+      "Key detail: The European Space Agency and the Japan Aerospace Exploration Agency have signed a Memorandum of Cooperation to deepen collaboration in planetary",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "07 mai 2026",
     "date_pt": "07 mai 2026",
@@ -1753,7 +1952,7 @@
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "a-beacon-of-light-in-swirls-of-dust",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1908,7 +2107,7 @@
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "a-sea-of-spinning-clouds",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2036,7 +2235,7 @@
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "webb-hubble-find-massive-star-clusters-emerge-faster",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2164,7 +2363,7 @@
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "ahuachapan-and-its-restive-neighbors",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2301,7 +2500,7 @@
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "stunning-images-from-biomass-mark-its-one-year-in-orbit",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2474,7 +2673,7 @@
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "gauging-axionic-symmetries-and-dark-matter-in-memory-of-george-lazarides",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -2595,7 +2794,7 @@
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 21,
     "slug": "dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2713,7 +2912,7 @@
     "storyKind": "science"
   },
   {
-    "id": 21,
+    "id": 22,
     "slug": "days-after-artemis-ii-scientists-warn-of-deep-cuts-to-nasa-missions",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2916,7 +3115,7 @@
     "storyKind": "science"
   },
   {
-    "id": 22,
+    "id": 23,
     "slug": "catching-the-earliest-stars-in-the-universe",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3034,7 +3233,7 @@
     "storyKind": "science"
   },
   {
-    "id": 23,
+    "id": 24,
     "slug": "hilumi-lhc-cern-s-full-scale-test-stand-enters-the-powering-phase",
     "cat": "Física",
     "catCls": "fisica",
@@ -3165,7 +3364,7 @@
     "storyKind": "science"
   },
   {
-    "id": 24,
+    "id": 25,
     "slug": "stellar-flares-may-expand-habitable-zones-around-small-stars",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -3296,7 +3495,7 @@
     "storyKind": "science"
   },
   {
-    "id": 25,
+    "id": 26,
     "slug": "automated-ct-scan-analysis-could-fast-track-clinical-assessments",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -3414,7 +3613,7 @@
     "storyKind": "science"
   },
   {
-    "id": 26,
+    "id": 27,
     "slug": "generalized-optical-meta-spanners-empower-arbitrary-light-paths-for-multitasking-optical-manipul",
     "cat": "Física",
     "catCls": "fisica",
@@ -3554,7 +3753,7 @@
     "imageAlt_en": "Generalized optical meta-spanners empower arbitrary light paths for multitasking optical manipulation"
   },
   {
-    "id": 27,
+    "id": 28,
     "slug": "warmer-streams-may-be-draining-river-food-webs-by-sending-more-carbon-into-the-air",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3694,7 +3893,7 @@
     "imageAlt_en": "Warmer streams may be draining river food webs by sending more carbon into the air"
   },
   {
-    "id": 28,
+    "id": 29,
     "slug": "sun-news-huge-coronal-hole-now-faces-earth",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3843,7 +4042,7 @@
     "imageAlt_en": "Sun news: Huge coronal hole now faces Earth"
   },
   {
-    "id": 29,
+    "id": 30,
     "slug": "how-a-new-technique-will-help-us-mine-rare-earth-metals-with-plants",
     "cat": "Física",
     "catCls": "fisica",
@@ -3980,7 +4179,7 @@
     "storyKind": "science"
   },
   {
-    "id": 30,
+    "id": 31,
     "slug": "cloudy-with-a-chance-of-metals-indications-of-co-2-in-the-atmosphere-of-gj-1214-b-from-high-reso",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -4101,7 +4300,7 @@
     "imageAlt_en": "Cloudy with a chance of metals: Indications of CO$_2$ in the atmosphere of GJ 1214 b from high-resolution K-band spectroscopy"
   },
   {
-    "id": 31,
+    "id": 32,
     "slug": "jwst-sees-smoking-gun-for-black-hole-mergers-in-the-virgo-cluster",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -4219,7 +4418,7 @@
     "imageAlt_en": "JWST Sees Smoking Gun for Black Hole Mergers in the Virgo Cluster"
   },
   {
-    "id": 32,
+    "id": 33,
     "slug": "torsion-balances-set-strongest-direct-limits-yet-on-ultralight-dark-matter",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -4347,7 +4546,7 @@
     "imageAlt_en": "Torsion balances set strongest direct limits yet on ultralight dark matter"
   },
   {
-    "id": 33,
+    "id": 34,
     "slug": "the-identification-of-cs2-and-evidence-for-carbon-sulfur-chemical-coupling-in-a-warm-giant-exopl",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -4468,7 +4667,7 @@
     "storyKind": "science"
   },
   {
-    "id": 34,
+    "id": 35,
     "slug": "planets-collide-around-young-sun-like-star",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -4586,7 +4785,7 @@
     "imageAlt_en": "Planets Collide Around Young, Sun-like Star"
   },
   {
-    "id": 35,
+    "id": 36,
     "slug": "first-light-for-poet-shining-sun-light-on-exoplanet-research",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -4731,124 +4930,6 @@
     "imageAlt": "Primeira Luz para o PoET: A Contribuição da Luz Solar na Busca por Exoplanetas",
     "imageAlt_pt": "Primeira Luz para o PoET: A Contribuição da Luz Solar na Busca por Exoplanetas",
     "imageAlt_en": "First light for PoET: shining (sun)light on exoplanet research",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 36,
-    "slug": "five-things-juice-has-revealed-about-comet-3i-atlas",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/04/comet_3i_atlas_seen_by_juice_s_science_camera_janus/27186903-1-eng-GB/Comet_3I_ATLAS_seen_by_Juice_s_science_camera_JANUS_card_full.gif",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Cinco coisas que Juice revelou sobre o cometa 3I/ATLAS",
-    "title_pt": "Cinco coisas que Juice revelou sobre o cometa 3I/ATLAS",
-    "title_en": "Five things Juice has revealed about Comet 3I/ATLAS",
-    "sub": "‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia.",
-    "sub_pt": "‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia.",
-    "sub_en": "‘Extreme but not exotic,’, a glimpse at Comet 3I/ATLAS through the eyes of the European Space Agency’s Jupiter Icy Moons Explorer.",
-    "excerpt": "‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia.",
-    "excerpt_pt": "‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia.",
-    "excerpt_en": "‘Extreme but not exotic,’, a glimpse at Comet 3I/ATLAS through the eyes of the European Space Agency’s Jupiter Icy Moons Explorer.",
-    "highlights": [
-      "Ponto central: ‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia.",
-      "Dado-chave: ‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: ‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia.",
-      "Dado-chave: ‘Extremo, mas não exótico’, um vislumbre do Cometa 3I/ATLAS através dos olhos do Júpiter Icy Moons Explorer da Agência Espacial Europeia.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: ‘Extreme but not exotic,’, a glimpse at Comet 3I/ATLAS through the eyes of the European Space Agency’s Jupiter Icy Moons Explorer.",
-      "Key detail: ‘Extreme but not exotic,’, a glimpse at Comet 3I/ATLAS through the eyes of the European Space Agency’s Jupiter Icy Moons Explorer.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "02 abr 2026",
-    "date_pt": "02 abr 2026",
-    "date_en": "02 Apr 2026",
-    "time": "13h00",
-    "time_pt": "13h00",
-    "time_en": "13: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-02T13:00:00+00:00",
-    "lastModifiedIso": "2026-04-23T23:29:07+00:00",
-    "source": "ESA Space Science",
-    "sourceDomain": "www. esa. int",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Cinco coisas que Juice revelou sobre o cometa 3I/ATLAS"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Cinco coisas que Juice revelou sobre o cometa 3I/ATLAS"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Five things Juice revealed about comet 3I/ATLAS"
-    ],
-    "srcUrl": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Five_things_Juice_has_revealed_about_Comet_3I_ATLAS",
-    "realUrl": "https://www.cosmosweek.com/?article=five-things-juice-has-revealed-about-comet-3i-atlas",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=five-things-juice-has-revealed-about-comet-3i-atlas",
-    "realUrl_en": "https://www.cosmosweek.com/?article=five-things-juice-has-revealed-about-comet-3i-atlas&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/five-things-juice-has-revealed-about-comet-3i-atlas/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/five-things-juice-has-revealed-about-comet-3i-atlas/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/five-things-juice-has-revealed-about-comet-3i-atlas/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/five-things-juice-has-revealed-about-comet-3i-atlas/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/five-things-juice-has-revealed-about-comet-3i-atlas/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/five-things-juice-has-revealed-about-comet-3i-atlas/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 90,
-      "evidence": 88,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 46
-    },
-    "imageAlt": "Cinco coisas que Juice revelou sobre o cometa 3I/ATLAS",
-    "imageAlt_pt": "Cinco coisas que Juice revelou sobre o cometa 3I/ATLAS",
-    "imageAlt_en": "Five things Juice has revealed about Comet 3I/ATLAS",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
