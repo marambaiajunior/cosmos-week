@@ -3,6 +3,412 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "tornado-draws-a-jagged-line-in-mississippi",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/tornado-draws-a-jagged-line-in-mississippi/mississippitornado_oli_20260512_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://www.weather.gov/images/jan/Tor_Stats/AverageTors.PNG",
+        "alt": "tornados mensais",
+        "alt_pt": "tornados mensais",
+        "alt_en": "monthly tornadoes",
+        "caption": "tornados mensais",
+        "caption_pt": "tornados mensais",
+        "caption_en": "monthly tornadoes"
+      },
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/tornado-draws-a-jagged-line-in-mississippi/mississippitornado_oli_20260512_lrg.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": {
+      "kind": "embed",
+      "platform": "youtube",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/pC7uX0ShXHA?rel=0&modestbranding=1",
+      "fileUrl": "",
+      "poster": "",
+      "title": "",
+      "title_pt": "",
+      "title_en": "",
+      "caption": "",
+      "caption_pt": "",
+      "caption_en": "",
+      "sourcePage": "https://science.nasa.gov/earth/earth-observatory/tornado-draws-a-jagged-line-in-mississippi/"
+    },
+    "audio": null,
+    "title": "Tornado Deixa Rastro Visível de Destruição no Mississippi",
+    "title_pt": "Tornado Deixa Rastro Visível de Destruição no Mississippi",
+    "title_en": "Tornado Draws a Jagged Line in Mississippi",
+    "sub": "O mais forte dos vários tornados que atingiu a região sul do Mississippi no início de maio de 2026 deixou um caminho visível de vegetação danificada, evidenciando a intensidade do.",
+    "sub_pt": "O mais forte dos vários tornados que atingiu a região sul do Mississippi no início de maio de 2026 deixou um caminho visível de vegetação danificada, evidenciando a intensidade do.",
+    "sub_en": "The strongest of several twisters to touch down in the southern part of the state in early May 2026 left a visible path of damaged vegetation.",
+    "excerpt": "O mais forte dos vários tornados que atingiu a região sul do Mississippi no início de maio de 2026 deixou um caminho visível de vegetação danificada, evidenciando a intensidade do fenômeno.",
+    "excerpt_pt": "O mais forte dos vários tornados que atingiu a região sul do Mississippi no início de maio de 2026 deixou um caminho visível de vegetação danificada, evidenciando a intensidade do fenômeno.",
+    "excerpt_en": "The strongest of several twisters to touch down in the southern part of the state in early May 2026 left a visible path of damaged vegetation.",
+    "body": "<p>No início de maio de 2026, uma série de tornados assolou a parte sul do estado do Mississippi, com o mais potente deles deixando um rastro inconfundível de vegetação danificada. Este fenômeno meteorológico extremo, resultado de uma poderosa tempestade supercelular que se formou em 6 de maio de 2026, esculpiu uma linha irregular e visível na paisagem, testemunho da força devastadora desses eventos. A observação desse caminho de destruição, capturada por imagens de satélite, oferece uma perspectiva crucial sobre o impacto direto de tais desastres naturais na superfície terrestre, permitindo aos cientistas e equipes de resposta avaliar a extensão dos danos de forma abrangente.</p><p>As investigações conduzidas pelo Serviço Nacional de Meteorologia (NWS) confirmaram a severidade dos estragos ao longo de todo o percurso do tornado. Foram registrados danos extensos em árvores, com inúmeros casos de estruturas atingidas e classificadas como EF-2 na escala Fujita Aprimorada, que mede a intensidade dos tornados com base nos danos causados. Além disso, torres de transmissão foram dobradas ou completamente desabadas, indicando a força extrema dos ventos. Esses achados detalhados são fundamentais para compreender a dinâmica dos tornados e para aprimorar os sistemas de alerta e as estratégias de mitigação de riscos em áreas vulneráveis.</p><p>A documentação desses eventos é uma das missões centrais do Observatório da Terra da NASA, que se dedica a apresentar a Terra diariamente por meio de histórias detalhadas e imagens impressionantes. O artigo original sobre o tornado no Mississippi, intitulado &#x27;Tornado desenha uma linha irregular no Mississippi&#x27;, foi publicado pela primeira vez na plataforma NASA Science, destacando a importância da divulgação científica para o público e a comunidade de pesquisa. A capacidade de monitorar e registrar as mudanças na superfície do planeta, sejam elas causadas por fenômenos naturais ou atividades humanas, é essencial para a ciência do sistema terrestre.</p><p>As imagens que revelam o caminho do tornado foram processadas por Lauren Dauphin, do Observatório da Terra da NASA, utilizando dados do satélite Landsat dos Estados Unidos. A tecnologia Landsat, com sua capacidade de fornecer observações de longo prazo da superfície terrestre, é indispensável para mapear e analisar os impactos de desastres naturais como tornados, inundações e incêndios florestais. Essas imagens de alta resolução permitem aos pesquisadores identificar padrões de danos, estimar a área afetada e, consequentemente, auxiliar nos esforços de recuperação e planejamento futuro. A precisão desses dados é vital para a validação das avaliações de campo e para a modelagem de eventos climáticos extremos.</p><p>A NASA não apenas captura essas imagens, mas também promove o acesso aberto ao seu vasto arquivo de dados de ciências da Terra. Essa política de dados abertos é crucial para a comunidade científica global, pois permite que pesquisadores de diversas instituições e países acessem, analisem e utilizem informações valiosas para seus estudos. A exploração desses dados de ciências da Terra contribui significativamente para o avanço do conhecimento sobre o nosso planeta, desde a compreensão dos complexos sistemas climáticos até a previsão de eventos meteorológicos severos e a gestão de recursos naturais. A transparência e a disponibilidade desses recursos são pilares da pesquisa científica moderna.</p><p>A observação contínua de eventos como o tornado no Mississippi sublinha a necessidade de um monitoramento robusto e constante do nosso planeta. Cada imagem e cada conjunto de dados coletados pela NASA e outras agências espaciais contribuem para um panorama mais completo da saúde da Terra e de suas vulnerabilidades. Ao documentar a linha irregular deixada por este tornado, a ciência não apenas registra um evento isolado, mas também adiciona uma peça valiosa ao quebra-cabeça da compreensão dos padrões climáticos globais e da crescente frequência e intensidade de fenômenos extremos. Este trabalho é fundamental para a proteção de comunidades e ecossistemas em todo o mundo.</p>",
+    "body_pt": "<p>No início de maio de 2026, uma série de tornados assolou a parte sul do estado do Mississippi, com o mais potente deles deixando um rastro inconfundível de vegetação danificada. Este fenômeno meteorológico extremo, resultado de uma poderosa tempestade supercelular que se formou em 6 de maio de 2026, esculpiu uma linha irregular e visível na paisagem, testemunho da força devastadora desses eventos. A observação desse caminho de destruição, capturada por imagens de satélite, oferece uma perspectiva crucial sobre o impacto direto de tais desastres naturais na superfície terrestre, permitindo aos cientistas e equipes de resposta avaliar a extensão dos danos de forma abrangente.</p><p>As investigações conduzidas pelo Serviço Nacional de Meteorologia (NWS) confirmaram a severidade dos estragos ao longo de todo o percurso do tornado. Foram registrados danos extensos em árvores, com inúmeros casos de estruturas atingidas e classificadas como EF-2 na escala Fujita Aprimorada, que mede a intensidade dos tornados com base nos danos causados. Além disso, torres de transmissão foram dobradas ou completamente desabadas, indicando a força extrema dos ventos. Esses achados detalhados são fundamentais para compreender a dinâmica dos tornados e para aprimorar os sistemas de alerta e as estratégias de mitigação de riscos em áreas vulneráveis.</p><p>A documentação desses eventos é uma das missões centrais do Observatório da Terra da NASA, que se dedica a apresentar a Terra diariamente por meio de histórias detalhadas e imagens impressionantes. O artigo original sobre o tornado no Mississippi, intitulado &#x27;Tornado desenha uma linha irregular no Mississippi&#x27;, foi publicado pela primeira vez na plataforma NASA Science, destacando a importância da divulgação científica para o público e a comunidade de pesquisa. A capacidade de monitorar e registrar as mudanças na superfície do planeta, sejam elas causadas por fenômenos naturais ou atividades humanas, é essencial para a ciência do sistema terrestre.</p><p>As imagens que revelam o caminho do tornado foram processadas por Lauren Dauphin, do Observatório da Terra da NASA, utilizando dados do satélite Landsat dos Estados Unidos. A tecnologia Landsat, com sua capacidade de fornecer observações de longo prazo da superfície terrestre, é indispensável para mapear e analisar os impactos de desastres naturais como tornados, inundações e incêndios florestais. Essas imagens de alta resolução permitem aos pesquisadores identificar padrões de danos, estimar a área afetada e, consequentemente, auxiliar nos esforços de recuperação e planejamento futuro. A precisão desses dados é vital para a validação das avaliações de campo e para a modelagem de eventos climáticos extremos.</p><p>A NASA não apenas captura essas imagens, mas também promove o acesso aberto ao seu vasto arquivo de dados de ciências da Terra. Essa política de dados abertos é crucial para a comunidade científica global, pois permite que pesquisadores de diversas instituições e países acessem, analisem e utilizem informações valiosas para seus estudos. A exploração desses dados de ciências da Terra contribui significativamente para o avanço do conhecimento sobre o nosso planeta, desde a compreensão dos complexos sistemas climáticos até a previsão de eventos meteorológicos severos e a gestão de recursos naturais. A transparência e a disponibilidade desses recursos são pilares da pesquisa científica moderna.</p><p>A observação contínua de eventos como o tornado no Mississippi sublinha a necessidade de um monitoramento robusto e constante do nosso planeta. Cada imagem e cada conjunto de dados coletados pela NASA e outras agências espaciais contribuem para um panorama mais completo da saúde da Terra e de suas vulnerabilidades. Ao documentar a linha irregular deixada por este tornado, a ciência não apenas registra um evento isolado, mas também adiciona uma peça valiosa ao quebra-cabeça da compreensão dos padrões climáticos globais e da crescente frequência e intensidade de fenômenos extremos. Este trabalho é fundamental para a proteção de comunidades e ecossistemas em todo o mundo.</p>",
+    "body_en": "<p>The strongest of several twisters to touch down in the southern part of the state in early May 2026 left a visible path of damaged vegetation. The post Tornado Draws a Jagged Line in Mississippi appeared first on NASA Science. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The post Tornado Draws a Jagged Line in Mississippi appeared first on NASA Science. Earth Observatory Image of the Day NASA&#x27;s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>Explore Earth Science Earth Science Data Open access to NASA’s archive of Earth science data The post Tornado Draws a Jagged Line in Mississippi appeared first on NASA Science. NASA Earth Observatory/Lauren Dauphin A powerful supercell storm produced multiple tornadoes across southern Mississippi on May 6, 2026.</p><p>Heavy tree damage occurred along its entire path, NWS surveys found, with several instances of EF-2 structural damage and bent or collapsed transmission towers. Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet.</p><p>Article Wave of Dust Rolls Through Texas 3 min read An advancing cold front kicked up a sharp line of sand and other small particles that swept over the high. Article 1 2 3 4 Next Keep Exploring Discover More from NASA Earth Science Subscribe to Earth Observatory Newsletters Subscribe to the Earth Observatory and get the Earth in your.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>NASA&#x27;s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery. Open access to NASA’s archive of Earth science data AccuWeather (2026, May 7) EF3 tornado damages hundreds of homes, injures 17 in Mississippi.</p><p>Because the account originates with NASA Earth Observatory, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/tornado-draws-a-jagged-line-in-mississippi/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: O mais forte dos vários tornados que atingiu a região sul do Mississippi no início de maio de 2026 deixou um caminho visível de vegetação danificada",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: O mais forte dos vários tornados que atingiu a região sul do Mississippi no início de maio de 2026 deixou um caminho visível de vegetação danificada",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: The strongest of several twisters to touch down in the southern part of the state in early May 2026 left a visible path of damaged vegetation",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "22 mai 2026",
+    "date_pt": "22 mai 2026",
+    "date_en": "22 May 2026",
+    "time": "04h01",
+    "time_pt": "04h01",
+    "time_en": "04: 01 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-22T04:01:00+00:00",
+    "lastModifiedIso": "2026-05-22T17:46:32+00:00",
+    "source": "NASA Earth Observatory",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "Tornado desenha uma linha irregular no Mississippi"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "Tornado desenha uma linha irregular no Mississippi"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "Tornado draws jagged line across Mississippi"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/tornado-draws-a-jagged-line-in-mississippi/",
+    "realUrl": "https://www.cosmosweek.com/?article=tornado-draws-a-jagged-line-in-mississippi",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=tornado-draws-a-jagged-line-in-mississippi",
+    "realUrl_en": "https://www.cosmosweek.com/?article=tornado-draws-a-jagged-line-in-mississippi&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/tornado-draws-a-jagged-line-in-mississippi/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/tornado-draws-a-jagged-line-in-mississippi/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/tornado-draws-a-jagged-line-in-mississippi/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/tornado-draws-a-jagged-line-in-mississippi/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/tornado-draws-a-jagged-line-in-mississippi/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/tornado-draws-a-jagged-line-in-mississippi/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 92,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Tornado Deixa Rastro Visível de Destruição no Mississippi",
+    "imageAlt_pt": "Tornado Deixa Rastro Visível de Destruição no Mississippi",
+    "imageAlt_en": "Tornado Draws a Jagged Line in Mississippi",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "nasa-seeks-interest-for-artemis-mission-cubesats",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://www.nasa.gov/wp-content/uploads/2026/05/artemisiispls.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "NASA Solicita Manifestação de Interesse para CubeSats das Missões Artemis",
+    "title_pt": "NASA Solicita Manifestação de Interesse para CubeSats das Missões Artemis",
+    "title_en": "NASA Seeks Interest for Artemis Mission CubeSats",
+    "sub": "A NASA convida organizações interessadas em lançar CubeSats em futuras missões Artemis a responderem à sua Solicitação de Informações (RFI) até segunda-feira, 1º de junho, para.",
+    "sub_pt": "A NASA convida organizações interessadas em lançar CubeSats em futuras missões Artemis a responderem à sua Solicitação de Informações (RFI) até segunda-feira, 1º de junho, para.",
+    "sub_en": "Organizations interested in launching CubeSats on future Artemis missions should respond to NASA’s request for information by Monday, June 1, for initial consideration.",
+    "excerpt": "A NASA convida organizações interessadas em lançar CubeSats em futuras missões Artemis a responderem à sua Solicitação de Informações (RFI) até segunda-feira, 1º de junho, para consideração inicial.",
+    "excerpt_pt": "A NASA convida organizações interessadas em lançar CubeSats em futuras missões Artemis a responderem à sua Solicitação de Informações (RFI) até segunda-feira, 1º de junho, para consideração inicial.",
+    "excerpt_en": "Organizations interested in launching CubeSats on future Artemis missions should respond to NASA’s request for information by Monday, June 1, for initial consideration.",
+    "body": "<p>Atualmente, a NASA está revisando perfis de missão específicos e prevê acomodar CubeSats de tamanhos 6U e 12U. Estes nanossatélites poderiam ser implantados tanto na órbita da Terra quanto em uma trajetória de descarte heliocêntrica, após a separação da espaçonave Orion do foguete SLS. Além dessas opções, a agência também considera a possibilidade de CubeSats serem implantados em uma trajetória de reentrada da órbita terrestre, abrindo um leque ainda maior de possibilidades para experimentos e demonstrações tecnológicas. A flexibilidade de implantação é um fator chave para maximizar o retorno científico e tecnológico dessas missões.</p><p>Para contextualizar, os tamanhos dos CubeSats são padronizados e medidos em incrementos de &quot;uma unidade&quot; ou &quot;1U&quot;. Cada unidade &quot;1U&quot; corresponde a um cubo com dimensões de 10x10x10 centímetros. Essa modularidade permite que os CubeSats sejam desenvolvidos e lançados de forma mais econômica e eficiente, tornando-os ferramentas valiosas para universidades, instituições de pesquisa e empresas privadas que buscam acesso ao espaço para suas inovações. A padronização facilita a integração em adaptadores de carga útil, como os utilizados nas missões Artemis.</p><p>Um exemplo prático da integração desses pequenos satélites pode ser observado nas missões anteriores. Dois dos CubeSats da missão Artemis II, por exemplo, podem ser visualizados na parte inferior do adaptador de estágio Orion, especificamente no lado direito da imagem de referência divulgada pela NASA. Essa disposição demonstra a capacidade de integrar múltiplos CubeSats em uma única missão, aproveitando o volume disponível e as oportunidades de lançamento para maximizar o número de experimentos e demonstrações tecnológicas realizadas em cada voo.</p><p>A participação de diversas organizações através desta Solicitação de Informações é crucial para o sucesso das futuras missões Artemis. Ao fornecer uma plataforma para a inovação em CubeSats, a NASA não apenas impulsiona a pesquisa científica e o desenvolvimento tecnológico, mas também fomenta a colaboração global e a formação de novas gerações de engenheiros e cientistas espaciais. Essas investigações são fundamentais para aprofundar nossa compreensão do espaço e para preparar a humanidade para a exploração de longo prazo da Lua e, eventualmente, de Marte, consolidando o papel dos CubeSats como elementos estratégicos na jornada espacial.</p>",
+    "body_pt": "<p>Atualmente, a NASA está revisando perfis de missão específicos e prevê acomodar CubeSats de tamanhos 6U e 12U. Estes nanossatélites poderiam ser implantados tanto na órbita da Terra quanto em uma trajetória de descarte heliocêntrica, após a separação da espaçonave Orion do foguete SLS. Além dessas opções, a agência também considera a possibilidade de CubeSats serem implantados em uma trajetória de reentrada da órbita terrestre, abrindo um leque ainda maior de possibilidades para experimentos e demonstrações tecnológicas. A flexibilidade de implantação é um fator chave para maximizar o retorno científico e tecnológico dessas missões.</p><p>Para contextualizar, os tamanhos dos CubeSats são padronizados e medidos em incrementos de &quot;uma unidade&quot; ou &quot;1U&quot;. Cada unidade &quot;1U&quot; corresponde a um cubo com dimensões de 10x10x10 centímetros. Essa modularidade permite que os CubeSats sejam desenvolvidos e lançados de forma mais econômica e eficiente, tornando-os ferramentas valiosas para universidades, instituições de pesquisa e empresas privadas que buscam acesso ao espaço para suas inovações. A padronização facilita a integração em adaptadores de carga útil, como os utilizados nas missões Artemis.</p><p>Um exemplo prático da integração desses pequenos satélites pode ser observado nas missões anteriores. Dois dos CubeSats da missão Artemis II, por exemplo, podem ser visualizados na parte inferior do adaptador de estágio Orion, especificamente no lado direito da imagem de referência divulgada pela NASA. Essa disposição demonstra a capacidade de integrar múltiplos CubeSats em uma única missão, aproveitando o volume disponível e as oportunidades de lançamento para maximizar o número de experimentos e demonstrações tecnológicas realizadas em cada voo.</p><p>A participação de diversas organizações através desta Solicitação de Informações é crucial para o sucesso das futuras missões Artemis. Ao fornecer uma plataforma para a inovação em CubeSats, a NASA não apenas impulsiona a pesquisa científica e o desenvolvimento tecnológico, mas também fomenta a colaboração global e a formação de novas gerações de engenheiros e cientistas espaciais. Essas investigações são fundamentais para aprofundar nossa compreensão do espaço e para preparar a humanidade para a exploração de longo prazo da Lua e, eventualmente, de Marte, consolidando o papel dos CubeSats como elementos estratégicos na jornada espacial.</p>",
+    "body_en": "<p>Organizations interested in launching CubeSats on future Artemis missions should respond to NASA’s request for information by Monday, June 1, for initial consideration. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Organizations interested in launching CubeSats on future Artemis missions should respond to NASA’s request for information (RFI) by Monday, June 1, for initial consideration. The SLS (Space Launch System) rocket and the Artemis missions provide great opportunities for teams to conduct important, science and technology investigations that contribute to.</p><p>Two of the Artemis II CubeSats can be seen in the lower portion of the Orion stage adapter on the right side of the image. Share Details Last Updated May 21, 2026 Editor Lee Mohon Contact Jonathan Deal jonathan. e. deal@nasa.</p><p>Organizations interested in launching CubeSats on future Artemis missions should respond to NASA’s request for information (RFI) by Monday, June 1, for Article Two of the Artemis. NASA Organizations interested in launching CubeSats on future Artemis missions should respond to NASA’s request for information (RFI) by Monday, June 1, for initial consideration.</p><p>While NASA is reviewing specific mission profiles, the agency expects to accommodate 6U and 12U-sized CubeSats that would deploy in Earth orbit or on a heliocentric disposal. Opportunities may also exist for CubeSats deployed on a reentry trajectory from Earth orbit.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>CubeSat sizes are measured in “one unit” or “1U” increments, each measuring 10x10x10 centimeters. NASA flew 10 CubeSats on the uncrewed Artemis I mission in 2022 and four on the crewed Artemis II mission, deploying each after the upper stage detached from the spacecraft and.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/artemis/nasa-seeks-interest-for-artemis-mission-cubesats/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: A NASA convida organizações interessadas em lançar CubeSats em futuras missões Artemis a responderem à sua Solicitação de Informações (RFI) até",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A NASA convida organizações interessadas em lançar CubeSats em futuras missões Artemis a responderem à sua Solicitação de Informações (RFI) até",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Organizations interested in launching CubeSats on future Artemis missions should respond to NASA’s request for information by Monday, June 1, for",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "21 mai 2026",
+    "date_pt": "21 mai 2026",
+    "date_en": "21 May 2026",
+    "time": "20h11",
+    "time_pt": "20h11",
+    "time_en": "20: 11 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-21T20:11:17+00:00",
+    "lastModifiedIso": "2026-05-22T17:46:32+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA busca interesse pela missão Artemis CubeSats"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA busca interesse pela missão Artemis CubeSats"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA seeks interest in Artemis CubeSats mission"
+    ],
+    "srcUrl": "https://www.nasa.gov/missions/artemis/nasa-seeks-interest-for-artemis-mission-cubesats/",
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-seeks-interest-for-artemis-mission-cubesats",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-seeks-interest-for-artemis-mission-cubesats",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-seeks-interest-for-artemis-mission-cubesats&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-seeks-interest-for-artemis-mission-cubesats/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-seeks-interest-for-artemis-mission-cubesats/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-seeks-interest-for-artemis-mission-cubesats/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-seeks-interest-for-artemis-mission-cubesats/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-seeks-interest-for-artemis-mission-cubesats/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-seeks-interest-for-artemis-mission-cubesats/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "NASA Solicita Manifestação de Interesse para CubeSats das Missões Artemis",
+    "imageAlt_pt": "NASA Solicita Manifestação de Interesse para CubeSats das Missões Artemis",
+    "imageAlt_en": "NASA Seeks Interest for Artemis Mission CubeSats",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
+    "slug": "from-protogalaxy-through-thick-and-thin-why-did-the-milky-way-evolve-in-three-kinematic-phases",
+    "cat": "Cosmologia",
+    "catCls": "cosmologia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Milky_Way%2C_above_Mauna_Kea_-_by_Luc_Viatour.jpg/1280px-Milky_Way%2C_above_Mauna_Kea_-_by_Luc_Viatour.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Da Protogaláxia ao Disco Espesso e Fino: A Evolução da Via Láctea em Três Fases Cinemáticas",
+    "title_pt": "Da Protogaláxia ao Disco Espesso e Fino: A Evolução da Via Láctea em Três Fases Cinemáticas",
+    "title_en": "From protogalaxy through thick and thin: Why did the Milky Way evolve in three kinematic phases?",
+    "sub": "Os dados do APOGEE e do Gaia revelaram que a estrutura da Via Láctea parece ter evoluído através de três fases cinemáticas distintas.",
+    "sub_pt": "Os dados do APOGEE e do Gaia revelaram que a estrutura da Via Láctea parece ter evoluído através de três fases cinemáticas distintas.",
+    "sub_en": "APOGEE and Gaia data have revealed that the Milky Way's structure appears to have evolved through three distinct kinematic phases.",
+    "excerpt": "Os dados do APOGEE e do Gaia revelaram que a estrutura da Via Láctea parece ter evoluído através de três fases cinemáticas distintas.",
+    "excerpt_pt": "Os dados do APOGEE e do Gaia revelaram que a estrutura da Via Láctea parece ter evoluído através de três fases cinemáticas distintas.",
+    "excerpt_en": "APOGEE and Gaia data have revealed that the Milky Way's structure appears to have evolved through three distinct kinematic phases.",
+    "body": "<p>Dados recentes obtidos pelos levantamentos APOGEE e Gaia revelaram que a estrutura da Via Láctea parece ter evoluído através de três fases cinemáticas distintas. Inicialmente, nos primórdios do cosmos, a Via Láctea existia como uma protogaláxia caótica e desordenada. Posteriormente, essa estrutura primordial evoluiu para uma segunda fase cinemática, caracterizada pela formação estelar em um disco espesso e rotativo. A transição para a terceira e última fase ocorreu com a formação de estrelas em um disco estelar fino e frio. Neste estudo, empregamos um conjunto de simulações cosmológicas ampliadas de galáxias com massa similar à da Via Láctea, utilizando o modelo FIRE-2, para demonstrar que essas mesmas três fases emergem em nossos modelos e para investigar suas origens físicas subjacentes.</p><p>A análise das simulações indica que o gás na galáxia começa a girar de forma coerente após o término da fase protogaláctica inicial, que era intrinsecamente agitada. Esse processo é seguido pela rotação de estrelas jovens, marcando o início da fase do disco espesso. Esta segunda fase coincide com um período de elevada taxa de conversão de gás frio em estrelas, embora a formação estelar nesse estágio ainda ocorra em episódios de rajadas. A dinâmica observada nas simulações sugere que a formação do disco espesso é um passo crucial na estruturação galáctica, estabelecendo as bases para a evolução subsequente.</p><p>A transição final para a fase de disco fino é desencadeada quando o meio circungaláctico interno atinge a virialização. Esta fase é caracterizada por um regime de formação estelar mais constante e por taxas intermediárias de conversão de gás frio em estrelas, em contraste com as rajadas observadas na fase anterior. A estabilização do meio circungaláctico interno é, portanto, um evento chave que permite a formação de uma estrutura de disco mais organizada e menos turbulenta, resultando no disco fino que observamos atualmente na Via Láctea.</p><p>As condições para a formação de um disco espesso parecem ser relativamente mínimas, exigindo principalmente a presença de um centro de movimento de massa estável. Essa estabilidade inicial permite que o gás comece a se organizar e a formar uma estrutura rotacional, mesmo que ainda com características de turbulência e formação estelar em rajadas. A emergência de um núcleo gravitacional coeso é fundamental para iniciar o processo de disco, servindo como um ponto de ancoragem para a matéria circundante e facilitando a coalescência do gás e das estrelas em uma configuração mais discóide.</p><p>Em contrapartida, a formação de um disco fino impõe requisitos mais rigorosos. Para que essa estrutura se desenvolva, o gás deve acumular-se na galáxia de forma suficientemente lenta, permitindo que seu momento angular se misture e se torne coerente antes de ser incorporado à estrutura galáctica. Esse processo gradual de acreção e mistura é essencial para a formação de um disco estelar frio e geometricamente fino, onde as órbitas estelares são mais ordenadas e menos dispersas verticalmente. A lentidão da acreção garante que o gás tenha tempo para relaxar e se assentar no plano do disco, resultando na morfologia observada.</p><p>Nossas simulações FIRE-2, ao replicarem com sucesso as três fases cinemáticas observadas na Via Láctea, fornecem um arcabouço robusto para compreender os mecanismos físicos que impulsionam a evolução galáctica. A capacidade de modelar a transição de uma protogaláxia caótica para discos espessos e finos, correlacionando-os com processos como a virialização do meio circungaláctico e as taxas de formação estelar, reforça a validade desses modelos cosmológicos. Este estudo aprofunda nosso entendimento sobre como as galáxias, incluindo a nossa própria, adquirem suas complexas estruturas ao longo do tempo cósmico.</p>",
+    "body_pt": "<p>Dados recentes obtidos pelos levantamentos APOGEE e Gaia revelaram que a estrutura da Via Láctea parece ter evoluído através de três fases cinemáticas distintas. Inicialmente, nos primórdios do cosmos, a Via Láctea existia como uma protogaláxia caótica e desordenada. Posteriormente, essa estrutura primordial evoluiu para uma segunda fase cinemática, caracterizada pela formação estelar em um disco espesso e rotativo. A transição para a terceira e última fase ocorreu com a formação de estrelas em um disco estelar fino e frio. Neste estudo, empregamos um conjunto de simulações cosmológicas ampliadas de galáxias com massa similar à da Via Láctea, utilizando o modelo FIRE-2, para demonstrar que essas mesmas três fases emergem em nossos modelos e para investigar suas origens físicas subjacentes.</p><p>A análise das simulações indica que o gás na galáxia começa a girar de forma coerente após o término da fase protogaláctica inicial, que era intrinsecamente agitada. Esse processo é seguido pela rotação de estrelas jovens, marcando o início da fase do disco espesso. Esta segunda fase coincide com um período de elevada taxa de conversão de gás frio em estrelas, embora a formação estelar nesse estágio ainda ocorra em episódios de rajadas. A dinâmica observada nas simulações sugere que a formação do disco espesso é um passo crucial na estruturação galáctica, estabelecendo as bases para a evolução subsequente.</p><p>A transição final para a fase de disco fino é desencadeada quando o meio circungaláctico interno atinge a virialização. Esta fase é caracterizada por um regime de formação estelar mais constante e por taxas intermediárias de conversão de gás frio em estrelas, em contraste com as rajadas observadas na fase anterior. A estabilização do meio circungaláctico interno é, portanto, um evento chave que permite a formação de uma estrutura de disco mais organizada e menos turbulenta, resultando no disco fino que observamos atualmente na Via Láctea.</p><p>As condições para a formação de um disco espesso parecem ser relativamente mínimas, exigindo principalmente a presença de um centro de movimento de massa estável. Essa estabilidade inicial permite que o gás comece a se organizar e a formar uma estrutura rotacional, mesmo que ainda com características de turbulência e formação estelar em rajadas. A emergência de um núcleo gravitacional coeso é fundamental para iniciar o processo de disco, servindo como um ponto de ancoragem para a matéria circundante e facilitando a coalescência do gás e das estrelas em uma configuração mais discóide.</p><p>Em contrapartida, a formação de um disco fino impõe requisitos mais rigorosos. Para que essa estrutura se desenvolva, o gás deve acumular-se na galáxia de forma suficientemente lenta, permitindo que seu momento angular se misture e se torne coerente antes de ser incorporado à estrutura galáctica. Esse processo gradual de acreção e mistura é essencial para a formação de um disco estelar frio e geometricamente fino, onde as órbitas estelares são mais ordenadas e menos dispersas verticalmente. A lentidão da acreção garante que o gás tenha tempo para relaxar e se assentar no plano do disco, resultando na morfologia observada.</p><p>Nossas simulações FIRE-2, ao replicarem com sucesso as três fases cinemáticas observadas na Via Láctea, fornecem um arcabouço robusto para compreender os mecanismos físicos que impulsionam a evolução galáctica. A capacidade de modelar a transição de uma protogaláxia caótica para discos espessos e finos, correlacionando-os com processos como a virialização do meio circungaláctico e as taxas de formação estelar, reforça a validade desses modelos cosmológicos. Este estudo aprofunda nosso entendimento sobre como as galáxias, incluindo a nossa própria, adquirem suas complexas estruturas ao longo do tempo cósmico.</p>",
+    "body_en": "<p>APOGEE and Gaia data have revealed that the Milky Way&#x27;s structure appears to have evolved through three distinct kinematic phases. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It is relevant because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. The thick disk phase later transitioned to a third (and final) phase with star formation occurring in a cold, thin stellar disk. In this paper, we use a suite of FIRE-2 simulations of Milky Way-mass galaxies to demonstrate that the same three phases arise in our cosmological zoom-in simulations, and study.</p><p>In all of our galaxies, the early disordered phase occurs when the rate of cool gas ($T \\leq 10^4$ K) converting into stars is low, the star formation rate is bursty, and the. The gas in the galaxy begins to spin coherently after the sloshing phase ends, followed by the spin-up of young stars.</p><p>This second, thick disk phase coincides with a period when the rate of cool gas converting into stars is highest, even though the star formation rate remains bursty in this phase. The final transition to the thin disk phase occurs when the inner circumgalactic medium virializes.</p><p>The thin disk phase is associated with a time of steady star formation and intermediate rates of cool gas converting into stars. The condition for the formation of a thick disk appears to be fairly minimal: a stable center of mass motion.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>The formation of a thin disk requires more: gas must accrete slowly enough for its angular momentum to mix and become coherent prior to joining the galaxy. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2605.22806v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Os dados do APOGEE e do Gaia revelaram que a estrutura da Via Láctea parece ter evoluído através de três fases cinemáticas distintas",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: Os dados do APOGEE e do Gaia revelaram que a estrutura da Via Láctea parece ter evoluído através de três fases cinemáticas distintas",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: APOGEE and Gaia data have revealed that the Milky Way's structure appears to have evolved through three distinct kinematic phases",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "21 mai 2026",
+    "date_pt": "21 mai 2026",
+    "date_en": "21 May 2026",
+    "time": "17h56",
+    "time_pt": "17h56",
+    "time_en": "17: 56 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-21T17:56:09+00:00",
+    "lastModifiedIso": "2026-05-22T17:46:32+00:00",
+    "source": "arXiv Cosmology",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Cosmologia",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "Da protogaláxia até o grosso e o fino",
+      "por que a Via Láctea evoluiu em três fases cinemáticas?"
+    ],
+    "keywords_pt": [
+      "Cosmologia",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "Da protogaláxia até o grosso e o fino",
+      "por que a Via Láctea evoluiu em três fases cinemáticas?"
+    ],
+    "keywords_en": [
+      "Cosmology",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "From the protogalaxy to the thick and thin",
+      "Why did the Milky Way evolve in three kinematic phases?"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2605.22806v1",
+    "realUrl": "https://www.cosmosweek.com/?article=from-protogalaxy-through-thick-and-thin-why-did-the-milky-way-evolve-in-three-kinematic-phases",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=from-protogalaxy-through-thick-and-thin-why-did-the-milky-way-evolve-in-three-kinematic-phases",
+    "realUrl_en": "https://www.cosmosweek.com/?article=from-protogalaxy-through-thick-and-thin-why-did-the-milky-way-evolve-in-three-kinematic-phases&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/from-protogalaxy-through-thick-and-thin-why-did-the-milky-way-evolve-in-three-kinematic-phases/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/from-protogalaxy-through-thick-and-thin-why-did-the-milky-way-evolve-in-three-kinematic-phases/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/from-protogalaxy-through-thick-and-thin-why-did-the-milky-way-evolve-in-three-kinematic-phases/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/from-protogalaxy-through-thick-and-thin-why-did-the-milky-way-evolve-in-three-kinematic-phases/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/from-protogalaxy-through-thick-and-thin-why-did-the-milky-way-evolve-in-three-kinematic-phases/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/from-protogalaxy-through-thick-and-thin-why-did-the-milky-way-evolve-in-three-kinematic-phases/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 80,
+    "scoreBreakdown": {
+      "source": 64,
+      "evidence": 39,
+      "relevance": 94,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Da Protogaláxia ao Disco Espesso e Fino: A Evolução da Via Láctea em Três Fases Cinemáticas",
+    "imageAlt_pt": "Da Protogaláxia ao Disco Espesso e Fino: A Evolução da Via Láctea em Três Fases Cinemáticas",
+    "imageAlt_en": "From protogalaxy through thick and thin: Why did the Milky Way evolve in three kinematic phases?",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 4,
     "slug": "nasa-highlights-2025-international-space-station-science-results",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -23,19 +429,19 @@ window.postsData = [
     "body_pt": "<p>Para se aprofundar nas conquistas de pesquisa da Estação Espacial Internacional no ano passado, navegue nos Destaques Anuais de Resultados de 2025, que a NASA divulgou em maio de 2026. Em 2025, os investigadores que utilizaram o laboratório orbital conduziram mais de 750 investigações que avançaram na compreensão da vida no espaço, impulsionaram inovações para beneficiar as pessoas na Terra e apoiaram [. ].</p><p>Komlev, Biomedical Technology A investigação da Roscosmos Magnetic 3D Bioprinter usou levitação magnética para formar estruturas de tecidos complexos em microgravidade com alta precisão e materiais mínimos. Rastreando fenômenos elétricos do espaço Relâmpagos azuis iluminam o topo das nuvens perto da costa do Pacífico no centro do México em junho de 2025 em uma imagem tirada da Estação Espacial Internacional.</p><p>Continue explorando Descubra mais tópicos dos resultados da pesquisa da estação espacial da NASA Estação Espacial Internacional Últimas notícias da pesquisa da estação espacial Recursos de pesquisa e tecnologia da estação espacial. Em 2025, investigadores que utilizaram o laboratório orbital conduziram mais de 750 investigações que avançaram a compreensão da vida no espaço, impulsionaram inovações para beneficiar as pessoas na Terra e apoiaram a exploração da Lua e de Marte pela NASA.</p><p>Os pesquisadores usaram elásticos para simular tarefas cirúrgicas a bordo da estação espacial, permitindo observar atrasos na comunicação da Terra e testar a precisão robótica no espaço durante operações remotas. Os materiais derivados biologicamente oferecem uma opção leve e sustentável para proteção contra radiação durante futuras missões fora da Terra, com aplicações potenciais na Terra em proteção médica, defesa UV e estruturas resistentes à radiação.</p><p>Os pesquisadores montaram uma bateria a partir de várias baterias de íon de lítio de estado sólido no espaço e a expuseram ao espaço por 434 dias para monitorar o desempenho, a degradação e a resposta à radiação. Estes resultados demonstram que estas baterias poderiam fornecer sistemas de energia mais seguros e confiáveis ​​para missões à Lua e a Marte, bem como para uso em ambientes extremos na Terra.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/station/iss-research/nasa-highlights-2025-international-space-station-science-results/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>To dive deeper into the International Space Station research achievements from the past year, browse the 2025 Annual Highlights of Results, which NASA released in May 2026. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. In 2025, researchers using the orbital laboratory conducted more than 750 investigations that advanced understanding of life in space, drove innovations to benefit people on. 5 Min Read NASA Highlights 2025 International Space Station Science Results To dive deeper into the International Space Station research achievements from the past year, browse.</p><p>Komlev, Biomedical Technology The Roscosmos investigation Magnetic 3D Bioprinter used magnetic levitation to form complex tissue structures in microgravity with high precision and. Tracking electrical phenomena from space Blue lightning flashes illuminate cloud tops near the Pacific coast of central Mexico in June 2025 in an image taken from the.</p><p>Keep Exploring Discover More Topics From NASA Space Station Research Results International Space Station Latest News from Space Station Research Space Station Research and. Researchers used rubber bands to simulate surgical tasks aboard the space station, allowing them to observe communication delays from Earth and test robotic precision in space.</p><p>Biologically derived materials offer a lightweight, sustainable option for radiation shielding during future missions beyond Earth, with potential applications on Earth in medical. Learn more about the Materials International Space Station Experiment-13-NASA (MISSE-13-NASA) investigation.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Researchers assembled a battery pack from multiple all solid-state lithium ion batteries in space and exposed it to space for 434 days to track performance, degradation, and. These results demonstrate that these batteries could provide safer, more reliable power systems for missions to the Moon and Mars, as well as for use in extreme environments on.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/station/iss-research/nasa-highlights-2025-international-space-station-science-results/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Para se aprofundar nas conquistas de pesquisa da Estação Espacial Internacional no ano passado, navegue nos Destaques Anuais de Resultados de 2025",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Para se aprofundar nas conquistas de pesquisa da Estação Espacial Internacional no ano passado, navegue nos Destaques Anuais de Resultados de 2025.",
+      "Dado-chave: Para se aprofundar nas conquistas de pesquisa da Estação Espacial Internacional no ano passado, navegue nos Destaques Anuais de Resultados de.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Para se aprofundar nas conquistas de pesquisa da Estação Espacial Internacional no ano passado, navegue nos Destaques Anuais de Resultados de 2025",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Para se aprofundar nas conquistas de pesquisa da Estação Espacial Internacional no ano passado, navegue nos Destaques Anuais de Resultados de 2025.",
+      "Dado-chave: Para se aprofundar nas conquistas de pesquisa da Estação Espacial Internacional no ano passado, navegue nos Destaques Anuais de Resultados de.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: To dive deeper into the International Space Station research achievements from the past year, browse the 2025 Annual Highlights of Results, which",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: To dive deeper into the International Space Station research achievements from the past year, browse the 2025 Annual Highlights of Results, which.",
+      "Key detail: To dive deeper into the International Space Station research achievements from the past year, browse the 2025 Annual Highlights of Results, which",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "21 mai 2026",
     "date_pt": "21 mai 2026",
@@ -123,7 +529,165 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 5,
+    "slug": "insights-into-earth-s-molten-outer-core-from-space",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2012/09/earth_s_stormy_heart/11856791-2-eng-GB/Earth_s_stormy_heart_pillars.jpg",
+    "inline_images": [
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/earth_s_molten_core_flow_in_1999/27286927-1-eng-GB/Earth_s_molten_core_flow_in_1999_article.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/earth_s_molten_core_flow_1999_and_2016/27277753-2-eng-GB/Earth_s_molten_core_flow_1999_and_2016_article.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/05/change_in_earth_s_molten_core_flow_1997_2025/27287003-1-eng-GB/Change_in_Earth_s_molten_core_flow_1997_2025_pillars.png",
+        "alt": "$video. data_map. short_description. content",
+        "alt_pt": "$video. data_map. short_description. content",
+        "alt_en": "$video. data_map. short_description. content",
+        "caption": "$video. data_map. short_description. content",
+        "caption_pt": "$video. data_map. short_description. content",
+        "caption_en": "$video. data_map. short_description. content"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2013/10/swarm_constellation/13069393-1-eng-GB/Swarm_constellation_article.jpg",
+        "alt": "Constelação de enxame",
+        "alt_pt": "Constelação de enxame",
+        "alt_en": "Swarm constellation",
+        "caption": "Constelação de enxame",
+        "caption_pt": "Constelação de enxame",
+        "caption_en": "Swarm constellation"
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Novas Perspectivas sobre o Núcleo Externo Líquido da Terra a Partir de Dados Espaciais",
+    "title_pt": "Novas Perspectivas sobre o Núcleo Externo Líquido da Terra a Partir de Dados Espaciais",
+    "title_en": "Insights into Earth’s molten outer core from space",
+    "sub": "O comportamento do ferro líquido no núcleo externo da Terra nem sempre segue padrões esperados.",
+    "sub_pt": "O comportamento do ferro líquido no núcleo externo da Terra nem sempre segue padrões esperados.",
+    "sub_en": "The liquid iron in Earth’s outer core doesn’t always behave as expected. When it changed direction in an unexplained way, ESA satellites provided data on the direction of flow.",
+    "excerpt": "O comportamento do ferro líquido no núcleo externo da Terra nem sempre segue padrões esperados. Satélites da ESA forneceram dados cruciais para compreender uma mudança inexplicável na direção do fluxo, oferecendo novas perspectivas sobre a dinâmica interna do.",
+    "excerpt_pt": "O comportamento do ferro líquido no núcleo externo da Terra nem sempre segue padrões esperados. Satélites da ESA forneceram dados cruciais para compreender uma mudança inexplicável na direção do fluxo, oferecendo novas perspectivas sobre a dinâmica interna do.",
+    "excerpt_en": "The liquid iron in Earth’s outer core doesn’t always behave as expected. When it changed direction in an unexplained way, ESA satellites provided data on the direction of flow, helping scientists gain better insight into the dynamics at.",
+    "body": "<p>Um estudo recente, publicado no *Journal of Studies of Earth’s Deep Interior*, analisou observações terrestres e dados de satélite coletados entre 1997 e 2025. Essa pesquisa utilizou informações provenientes de diversas missões espaciais, incluindo os satélites Swarm e CryoSat da ESA, a missão alemã CHAMP e a missão Ørsted. A combinação desses conjuntos de dados de longo prazo foi fundamental para rastrear as variações no campo magnético e, consequentemente, inferir os movimentos do núcleo externo.</p><p>A investigação revelou um achado notável: em 2010, uma vasta região de fluido rico em ferro, situada sob o Pacífico equatorial, inverteu seu movimento. Anteriormente, essa corrente apresentava um deslocamento fraco para oeste, mas passou a exibir um movimento forte para leste. Essa reversão de fluxo em grande escala representa um evento significativo, desafiando modelos existentes e indicando uma complexidade maior na dinâmica do núcleo terrestre do que se supunha.</p><p>Frederik Dahl Madsen, autor principal do estudo e pesquisador da Escola de Geociências da Universidade de Edimburgo, enfatizou a importância dessa descoberta. Segundo Madsen, &quot;a reversão do fluxo em grande escala abaixo do Pacífico levanta novas questões sobre o comportamento do interior profundo da Terra&quot;. Essa observação sugere que os processos que governam o geodínamo são mais variáveis e imprevisíveis do que se pensava, exigindo uma revisão das teorias atuais sobre a evolução e a estabilidade do campo magnético terrestre.</p><p>Lançados em 2013, os três satélites da missão Swarm da ESA são equipados com magnetômetros altamente sensíveis, capazes de mapear o campo magnético da Terra com precisão excepcional. Essas observações detalhadas permitiram aos pesquisadores reconstruir os padrões de fluxo em constante evolução na fronteira entre o núcleo e o manto. Foi por meio desses dados que se tornou possível identificar as mudanças repentinas associadas tanto à reversão do fluxo no Pacífico quanto ao &quot;solavanco geomagnético&quot; observado em 2017, um evento de aceleração do campo magnético.</p><p>A gestora da missão Swarm da ESA, Anja Stromme, ressaltou a importância do conjunto de dados de longo prazo fornecido pelos satélites Swarm para este tipo de pesquisa. A capacidade de monitorar continuamente as variações do campo magnético ao longo de anos é crucial para detectar e analisar fenômenos como as reversões de fluxo e outras anomalias. Esses dados não apenas aprimoram nossa compreensão do núcleo terrestre, mas também são vitais para prever futuras mudanças no campo geomagnético, que têm implicações para tecnologias de navegação e comunicação.</p>",
+    "body_pt": "<p>Um estudo recente, publicado no *Journal of Studies of Earth’s Deep Interior*, analisou observações terrestres e dados de satélite coletados entre 1997 e 2025. Essa pesquisa utilizou informações provenientes de diversas missões espaciais, incluindo os satélites Swarm e CryoSat da ESA, a missão alemã CHAMP e a missão Ørsted. A combinação desses conjuntos de dados de longo prazo foi fundamental para rastrear as variações no campo magnético e, consequentemente, inferir os movimentos do núcleo externo.</p><p>A investigação revelou um achado notável: em 2010, uma vasta região de fluido rico em ferro, situada sob o Pacífico equatorial, inverteu seu movimento. Anteriormente, essa corrente apresentava um deslocamento fraco para oeste, mas passou a exibir um movimento forte para leste. Essa reversão de fluxo em grande escala representa um evento significativo, desafiando modelos existentes e indicando uma complexidade maior na dinâmica do núcleo terrestre do que se supunha.</p><p>Frederik Dahl Madsen, autor principal do estudo e pesquisador da Escola de Geociências da Universidade de Edimburgo, enfatizou a importância dessa descoberta. Segundo Madsen, &quot;a reversão do fluxo em grande escala abaixo do Pacífico levanta novas questões sobre o comportamento do interior profundo da Terra&quot;. Essa observação sugere que os processos que governam o geodínamo são mais variáveis e imprevisíveis do que se pensava, exigindo uma revisão das teorias atuais sobre a evolução e a estabilidade do campo magnético terrestre.</p><p>Lançados em 2013, os três satélites da missão Swarm da ESA são equipados com magnetômetros altamente sensíveis, capazes de mapear o campo magnético da Terra com precisão excepcional. Essas observações detalhadas permitiram aos pesquisadores reconstruir os padrões de fluxo em constante evolução na fronteira entre o núcleo e o manto. Foi por meio desses dados que se tornou possível identificar as mudanças repentinas associadas tanto à reversão do fluxo no Pacífico quanto ao &quot;solavanco geomagnético&quot; observado em 2017, um evento de aceleração do campo magnético.</p><p>A gestora da missão Swarm da ESA, Anja Stromme, ressaltou a importância do conjunto de dados de longo prazo fornecido pelos satélites Swarm para este tipo de pesquisa. A capacidade de monitorar continuamente as variações do campo magnético ao longo de anos é crucial para detectar e analisar fenômenos como as reversões de fluxo e outras anomalias. Esses dados não apenas aprimoram nossa compreensão do núcleo terrestre, mas também são vitais para prever futuras mudanças no campo geomagnético, que têm implicações para tecnologias de navegação e comunicação.</p>",
+    "body_en": "<p>The liquid iron in Earth’s outer core doesn’t always behave as expected. When it changed direction in an unexplained way, ESA satellites provided data on the direction of flow, helping scientists gain better insight into the dynamics at. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The molten core, which swirls about 2200 km beneath our feet, generates Earth’s geomagnetic field as it moves. But satellites, including ESA’s Swarm and CryoSat, provided data that have now been analysed and published.</p><p>The study, in the Journal of Studies of Earth’s Deep Interior, analyses both ground observations and satellite data between 1997 and 2025. Data from ESA’s Swarm and Cryosat missions were used in the study as well as data from the German CHAMP mission and the Ørsted mission.</p><p>The research found that in 2010, a broad region of iron-rich fluid beneath the equatorial Pacific switched from moving weakly westwards to strongly eastwards. Lead author of the study, Frederik Dahl Madsen, of the University of Edinburgh, School of Geosciences, said, “The large-scale flow reversal beneath the Pacific raises new.</p><p>Launched in 2013, the three Swarm satellites carry highly sensitive magnetometers capable of mapping Earth’s magnetic field with exceptional precision. These observations enabled researchers to reconstruct evolving flow patterns at the core, mantle boundary and identify the sudden changes associated with the Pacific reversal and.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>According to ESA’s Swarm Mission Manager, Anja Stromme, the long-term dataset provided by Swarm is important for this study. She noted, “Although Swarm was launched after the dramatic reversal event of 2010, it has provided high-precision data that tell us about Earth’s inner core in the period that.</p><p>Because the account originates with ESA Space News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm/Insights_into_Earth_s_molten_outer_core_from_space\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: O comportamento do ferro líquido no núcleo externo da Terra nem sempre segue padrões esperados",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: O comportamento do ferro líquido no núcleo externo da Terra nem sempre segue padrões esperados",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: The liquid iron in Earth’s outer core doesn’t always behave as expected",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "21 mai 2026",
+    "date_pt": "21 mai 2026",
+    "date_en": "21 May 2026",
+    "time": "13h00",
+    "time_pt": "13h00",
+    "time_en": "13: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-21T13:00:00+00:00",
+    "lastModifiedIso": "2026-05-22T17:46:32+00:00",
+    "source": "ESA Space News",
+    "sourceDomain": "www. esa. int",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "ESA Space News",
+      "Cosmos Week",
+      "Insights sobre o núcleo externo derretido da Terra a partir do espaço"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "ESA Space News",
+      "Cosmos Week",
+      "Insights sobre o núcleo externo derretido da Terra a partir do espaço"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "ESA Space News",
+      "Cosmos Week",
+      "Insights into Earth's molten outer core from space"
+    ],
+    "srcUrl": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Swarm/Insights_into_Earth_s_molten_outer_core_from_space",
+    "realUrl": "https://www.cosmosweek.com/?article=insights-into-earth-s-molten-outer-core-from-space",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=insights-into-earth-s-molten-outer-core-from-space",
+    "realUrl_en": "https://www.cosmosweek.com/?article=insights-into-earth-s-molten-outer-core-from-space&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/insights-into-earth-s-molten-outer-core-from-space/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/insights-into-earth-s-molten-outer-core-from-space/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/insights-into-earth-s-molten-outer-core-from-space/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/insights-into-earth-s-molten-outer-core-from-space/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/insights-into-earth-s-molten-outer-core-from-space/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/insights-into-earth-s-molten-outer-core-from-space/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 90,
+      "evidence": 86,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Novas Perspectivas sobre o Núcleo Externo Líquido da Terra a Partir de Dados Espaciais",
+    "imageAlt_pt": "Novas Perspectivas sobre o Núcleo Externo Líquido da Terra a Partir de Dados Espaciais",
+    "imageAlt_en": "Insights into Earth’s molten outer core from space",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 6,
     "slug": "lunar-robots-nasa-spotlights-moon-base-at-2026-first-robotics-competition",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -157,19 +721,19 @@ window.postsData = [
     "body_pt": "<p>A Fase 1 do plano da Base Lunar da NASA concentra-se em uma série acelerada de missões robóticas e não tripuladas, projetadas para explorar, experimentar e preparar o terreno para futuras operações de superfície. Essas missões são precursoras das missões Artemis tripuladas, estabelecendo a infraestrutura e o conhecimento necessários para a presença humana sustentada na Lua.</p><p>Este estágio inicial inclui uma cadência acelerada de voos do programa CLPS (Commercial Lunar Payload Services), com a previsão de até 30 aterrissagens lunares robóticas até 2027. O objetivo é agilizar a entrega de cargas úteis de ciência e tecnologia essenciais, que abrangem desde rovers e hoppers até drones, fundamentais para a coleta de dados e o desenvolvimento de novas capacidades operacionais na superfície lunar.</p><p>Desde 1996, a NASA tem sido uma apoiadora e mentora ativa das equipes da FIRST Robotics em todo o país, reconhecendo a importância de nutrir talentos em ciência, tecnologia, engenharia e matemática (STEM). Este compromisso contínuo reflete a visão da agência de inspirar e capacitar a próxima geração de exploradores e inovadores, preparando-os para os desafios futuros da exploração espacial e da inovação tecnológica. Em 2026, a NASA patrocinou mais de 160 equipes da FIRST Robotics, e 50 delas contaram com a orientação direta de um mentor da agência.</p><p>O Centro Espacial Johnson da NASA, por exemplo, orientou diretamente seis equipes, e duas delas alcançaram o prestigiado FIRST Championship. Além do patrocínio e da mentoria, a NASA também ofereceu suporte prático no Campeonato, disponibilizando uma oficina mecânica móvel onde as equipes podiam levar peças danificadas e contar com maquinistas da NASA para auxiliar nos reparos, garantindo que os jovens competidores pudessem manter seus robôs em funcionamento e continuar suas jornadas na competição.</p>",
     "body_en": "<p>Robotics will play a critical role in NASA’s ambitious plan to establish a long-term presence on the Moon, presenting opportunities for the next generation of engineers, technologists, and innovators to contribute to a bold vision for the. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. That was the agency’s message to students, partners, and industry leaders at the 2026 FIRST Robotics World. Students observe a demonstration of NASA’s Automated Reconfigurable Mission Adaptive Digital Assembly Systems.</p><p>NASA connected directly with the future workforce at the event, engaging more than 51, 000 students, parents, and mentors through interactive exhibits and Article NASA’s exhibit at. That was the agency’s message to students, partners, and industry leaders at the 2026 FIRST Robotics World Championship in Houston, where more than 1, 000 student teams convened.</p><p>NASA connected directly with the future workforce at the event, engaging more than 51, 000 students, parents, and mentors through interactive exhibits and discussions. Phase 1 of NASA’s Moon Base plan centers around a rapid series of robotic and early uncrewed missions to scout, experiment, and prepare for surface operations ahead of crewed.</p><p>That includes an accelerated cadence of CLPS (Commercial Lunar Payload Services) flights, with up to 30 robotic lunar landings targeted for 2027, to expedite the delivery of. Since 1996, NASA has supported and mentored FIRST Robotics teams across the country.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>This year, NASA sponsored more than 160 FIRST Robotics Teams, 50 of which also had a NASA mentor. NASA Johnson directly mentored six teams, with two of them making it all the way to the FIRST Championship.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/johnson/lunar-robots-nasa-spotlights-moon-base-at-2026-first-robotics-competition/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A robótica desempenhará um papel crucial no ambicioso plano da NASA para estabelecer uma presença de longo prazo na Lua, criando oportunidades",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A robótica desempenhará um papel crucial no ambicioso plano da NASA para estabelecer uma presença de longo prazo na Lua, criando oportunidades.",
+      "Dado-chave: A robótica desempenhará um papel crucial no ambicioso plano da NASA para estabelecer uma presença de longo prazo na Lua, criando oportunidades",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A robótica desempenhará um papel crucial no ambicioso plano da NASA para estabelecer uma presença de longo prazo na Lua, criando oportunidades",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A robótica desempenhará um papel crucial no ambicioso plano da NASA para estabelecer uma presença de longo prazo na Lua, criando oportunidades.",
+      "Dado-chave: A robótica desempenhará um papel crucial no ambicioso plano da NASA para estabelecer uma presença de longo prazo na Lua, criando oportunidades",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Robotics will play a critical role in NASA’s ambitious plan to establish a long-term presence on the Moon, presenting opportunities for the next",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Robotics will play a critical role in NASA’s ambitious plan to establish a long-term presence on the Moon, presenting opportunities for the next.",
+      "Key detail: Robotics will play a critical role in NASA’s ambitious plan to establish a long-term presence on the Moon, presenting opportunities for the next",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "21 mai 2026",
     "date_pt": "21 mai 2026",
@@ -260,7 +824,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 7,
     "slug": "new-eruption-in-the-bismarck-sea",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -409,7 +973,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 8,
     "slug": "nasa-developed-ai-could-help-track-harmful-algae",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -458,19 +1022,19 @@ window.postsData = [
     "body_pt": "<p>A eficácia da ferramenta de IA foi comprovada ao detectar proliferações de algas nocivas que ocorreram em regiões específicas, como o oeste da Flórida e o sul da Califórnia. Essa precisão geográfica é vital para as autoridades locais e federais na tomada de decisões rápidas e eficazes. A tecnologia promete impulsionar a colaboração entre especialistas de diversas áreas, fomentando novas abordagens para a pesquisa científica e o desenvolvimento de produtos que apoiem a decisão. A integração de dados de diferentes fontes e a análise automatizada pela IA oferecem um potencial sem precedentes para a compreensão e o combate a esses fenômenos naturais.</p><p>O rastreamento de proliferações de algas nocivas não é uma novidade para a NASA. Satélites em órbita terrestre já monitoram esses eventos com uma visão global única, fornecendo dados essenciais para a compreensão de sua dinâmica e distribuição. Paralelamente, a Administração Oceânica e Atmosférica Nacional (NOAA) desempenha um papel fundamental, trabalhando em conjunto com estados e outros parceiros locais. A NOAA emite previsões de proliferação de algas prejudiciais, de forma similar às previsões meteorológicas, especialmente durante as épocas de floração mais intensas. Essa colaboração entre agências e a utilização de tecnologias avançadas são cruciais para mitigar os impactos negativos das florações.</p><p>A capacidade de detecção de algas está sendo aprimorada com o uso de tecnologias avançadas, como o satélite Plankton, Aerosol, Cloud, Ocean Ecosystem (PACE) da NASA. Lançado recentemente, o PACE carrega um sensor hiperespectral que representa um salto qualitativo no monitoramento oceânico. Este instrumento é capaz de identificar comunidades de algas não apenas pela sua presença, mas também por características detalhadas como tamanho, forma e pigmento. Essa riqueza de informações permite uma classificação mais precisa das espécies de fitoplâncton, distinguindo entre as inofensivas e as que produzem toxinas, o que é fundamental para a saúde pública e a gestão ambiental.</p><p>A fusão de dados de múltiplos satélites, incluindo os do PACE, é o cerne da inovação trazida pela IA. Essa abordagem permite uma visão mais completa e dinâmica dos oceanos, superando as limitações de um único sensor ou plataforma. A capacidade de processar grandes volumes de dados de forma autônoma e identificar padrões complexos é o que torna a inteligência artificial tão valiosa neste contexto. A expectativa é que essa tecnologia não apenas melhore a precisão das previsões e alertas, mas também abra caminho para novas descobertas científicas sobre os fatores que impulsionam as proliferações de algas nocivas, contribuindo para estratégias de mitigação mais eficazes no futuro.</p>",
     "body_en": "<p>NASA scientists have developed an artificial intelligence tool to take on a longstanding challenge in ocean waters. In a study recently published in AGU Earth and Space Science, researchers reported the tool was able to fuse data from. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. To do that, we’re going to bring all our NASA assets to the table. ” Media Contacts Andrew Wang / Andrew Good Jet Propulsion Laboratory, Pasadena, Calif. 420 miles (676.5 km) from Earth What does PACE do. Jet Propulsion Laboratory.</p><p>21, 2024, by the Ocean Color Instrument on NASA’s PACE satellite. In a study recently published in AGU Earth and Space Science, researchers reported the tool was able to fuse data from multiple satellites and detect harmful algal blooms that.</p><p>The National Oceanic and Atmospheric Administration (NOAA) works with states and other local partners to issue harmful algal bloom forecasts, like weather forecasts, during bloom. NASA’s Earth-orbiting satellites already track harmful algal blooms with their unique global view.</p><p>It can also drive collaboration between specialists, fostering new ways to conduct the science and deliver decision-support products. A hyperspectral sensor aboard NASA’s Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) satellite, for example, can identify algal communities by their size, shape, and pigment.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>The study team, consisting of Gierach, Kelly Luis of NASA JPL, and research data scientist Nick LaHaye of Spatial Informatics Group, brought together findings from five space. Applying self-supervised AI to massive streams of satellite data is rapidly becoming a powerful tool for generating actionable ocean intelligence,” said Nadya Vinogradova Shiffer.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/science-research/earth-science/nasa-developed-ai-could-help-track-harmful-algae/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Cientistas da NASA desenvolveram uma ferramenta de inteligência artificial para enfrentar um desafio de longa data nas águas oceânicas",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Cientistas da NASA desenvolveram uma ferramenta de inteligência artificial para enfrentar um desafio de longa data nas águas oceânicas.",
+      "Dado-chave: Cientistas da NASA desenvolveram uma ferramenta de inteligência artificial para enfrentar um desafio de longa data nas águas oceânicas",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Cientistas da NASA desenvolveram uma ferramenta de inteligência artificial para enfrentar um desafio de longa data nas águas oceânicas",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Cientistas da NASA desenvolveram uma ferramenta de inteligência artificial para enfrentar um desafio de longa data nas águas oceânicas.",
+      "Dado-chave: Cientistas da NASA desenvolveram uma ferramenta de inteligência artificial para enfrentar um desafio de longa data nas águas oceânicas",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: NASA scientists have developed an artificial intelligence tool to take on a longstanding challenge in ocean waters",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: NASA scientists have developed an artificial intelligence tool to take on a longstanding challenge in ocean waters.",
+      "Key detail: NASA scientists have developed an artificial intelligence tool to take on a longstanding challenge in ocean waters",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "20 mai 2026",
     "date_pt": "20 mai 2026",
@@ -558,7 +1122,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 9,
     "slug": "greenlight-for-next-two-esa-scout-missions",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -589,19 +1153,19 @@ window.postsData = [
     "body_pt": "<p>A Agência Espacial Europeia (ESA) está expandindo sua crescente frota de missões científicas de observação da Terra com a seleção de dois novos satélites: Hibidis e SOVA-S. Escolhidas entre quatro conceitos concorrentes finais, essas missões abordarão questões científicas muito distintas, mas igualmente prementes, que variam desde a biodiversidade abaixo das copas das florestas até os efeitos das ondas de gravidade atmosférica muito acima da Terra. O satélite Hibidis foi projetado para revelar novos conhecimentos sobre a biodiversidade do sub-bosque e o funcionamento dos ecossistemas, enquanto o SOVA-S investigará como as ondas gravitacionais atmosféricas influenciam a alta atmosfera e a termosfera. A seleção foi formalmente aprovada pelo Conselho do Programa de Observação da Terra da ESA, após um processo intensivo de avaliação que durou 10 meses.</p><p>Complementando a série bem-estabelecida de missões de satélite de investigação Earth Explorer, as missões Scout representam um componente relativamente recente do programa Earth Observation FutureEO da ESA. Essa família de pequenos satélites tem como objetivo proporcionar ciência de valor agregado, seja através da miniaturização de tecnologias espaciais existentes, seja pela demonstração de novas técnicas de observação. A iniciativa Scout destaca-se por sua agilidade e capacidade de desenvolver projetos científicos de alto impacto em prazos mais curtos, promovendo a inovação e a exploração de novas abordagens na observação terrestre.</p><p>Simonetta Cheli, Diretora de Programas de Observação da Terra da ESA, afirmou que &#x27;as missões Scout da ESA demonstram que alcançar avanços inovadores nas ciências da Terra nem sempre requer grandes orçamentos e longos períodos de desenvolvimento. Ao avançar rapidamente, abraçar a inovação e capacitar ideias emergentes, essas missões mostram como a agilidade e a criatividade podem acelerar o progresso, proporcionando ciência e tecnologia impactantes em um período de tempo notavelmente curto. &#x27; Essa visão ressalta o compromisso da agência em fomentar a pesquisa de ponta por meio de abordagens mais flexíveis e eficientes.</p><p>Para a missão Hibidis, liderada pela SITAEL, o foco é o estudo aprofundado da biodiversidade. Seu instrumento inteligente, ao visualizar áreas selecionadas da superfície terrestre a partir de três ângulos diferentes, será capaz de separar as copas das florestas dos sub-bosques. Essa capacidade permitirá a avaliação de diversas Variáveis Essenciais da Biodiversidade, fornecendo dados cruciais para a compreensão e conservação dos ecossistemas. Chiara Pertosa, CEO da SITAEL, declarou: &#x27;Estamos orgulhosos de que a SITAEL esteja liderando a missão Scout Hibidis da ESA, dedicada à biodiversidade&#x27;, reforçando a importância da colaboração para o sucesso da iniciativa.</p><p>Por outro lado, a missão SOVA-S se concentrará em desvendar os mistérios das ondas gravitacionais atmosféricas. Essas ondas desempenham um papel fundamental na dinâmica da alta atmosfera e da termosfera, influenciando fenômenos climáticos e espaciais. A compreensão de como elas se propagam e interagem com as camadas superiores da atmosfera é vital para aprimorar modelos climáticos e prever eventos que afetam a infraestrutura espacial. A seleção de Hibidis e SOVA-S sublinha o compromisso contínuo da ESA em expandir o conhecimento sobre o nosso planeta, utilizando tecnologias inovadoras e abordagens ágeis para enfrentar desafios científicos complexos.</p>",
     "body_en": "<p>The European Space Agency is expanding its growing fleet of Earth-observing science Scout missions with the selection of two new satellites: Hibidis and SOVA-S. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. Chosen from four final competing concepts, these missions will tackle very different but equally pressing scientific questions, from biodiversity below forest canopies to the. Hibidis is designed to reveal new insights into understorey biodiversity and ecosystem functioning, while SOVA-S will investigate how atmospheric gravity waves influence the upper.</p><p>The selection was formally approved today by ESA’s Earth Observation Programme Board following an intensive 10-month evaluation process. Complementing the well-established series of Earth Explorer research satellite missions, Scouts are a relatively recent component of ESA&#x27;s Earth Observation FutureEO programme.</p><p>This family of small satellites delivers value-added science, either by miniaturising existing space technologies or by demonstrating new observing techniques. Director of ESA’s Earth Observation Programmes, Simonetta Cheli, said, “The ESA Scout missions show that achieving groundbreaking Earth science doesn’t always require large.</p><p>By moving fast, embracing innovation and empowering emerging ideas, these missions demonstrate how agility and creativity can accelerate progress, delivering impactful science and. By viewing selected areas of Earth’s surface from three different angles, this clever instrument will be able to separate forest canopies from understories so that various.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>SITAEL CEO, Chiara Pertosa, said, “We are proud that SITAEL is leading the ESA Scout Hibidis mission, dedicated to biodiversity. It will carry a shortwave infrared imager to provide near-global daily observations of gravity waves at an altitude of between 80 km and 120 km.</p><p>Because the account originates with ESA Space News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Greenlight_for_next_two_ESA_Scout_missions\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A Agência Espacial Europeia está expandindo sua crescente frota de missões científicas de observação da Terra com a seleção de dois novos satélites",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Agência Espacial Europeia está expandindo sua crescente frota de missões científicas de observação da Terra com a seleção de dois novos satélites.",
+      "Dado-chave: A Agência Espacial Europeia está expandindo sua crescente frota de missões científicas de observação da Terra com a seleção de dois novos.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A Agência Espacial Europeia está expandindo sua crescente frota de missões científicas de observação da Terra com a seleção de dois novos satélites",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Agência Espacial Europeia está expandindo sua crescente frota de missões científicas de observação da Terra com a seleção de dois novos satélites.",
+      "Dado-chave: A Agência Espacial Europeia está expandindo sua crescente frota de missões científicas de observação da Terra com a seleção de dois novos.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The European Space Agency is expanding its growing fleet of Earth-observing science Scout missions with the selection of two new satellites: Hibidis",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The European Space Agency is expanding its growing fleet of Earth-observing science Scout missions with the selection of two new satellites: Hibidis.",
+      "Key detail: The European Space Agency is expanding its growing fleet of Earth-observing science Scout missions with the selection of two new satellites.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "20 mai 2026",
     "date_pt": "20 mai 2026",
@@ -689,289 +1253,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 6,
-    "slug": "galaxy-proximate-damped-lyman-alpha-systems-and-hi-reionization-topology-in-technicolor-dawn",
-    "cat": "Cosmologia",
-    "catCls": "cosmologia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hubble_ultra_deep_field.jpg/1280px-Hubble_ultra_deep_field.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Sistemas Lyman-Alfa Amortecidos Próximos a Galáxias e a Topologia da Reionização de HI na Simulação TECHNICOLOR DAWN",
-    "title_pt": "Sistemas Lyman-Alfa Amortecidos Próximos a Galáxias e a Topologia da Reionização de HI na Simulação TECHNICOLOR DAWN",
-    "title_en": "Galaxy Proximate Damped Lyman-Alpha Systems and HI Reionization Topology in TECHNICOLOR DAWN",
-    "sub": "Observações recentes do Telescópio Espacial James Webb revelaram sistemas Lyman-$α$ amortecidos próximos no primeiro plano de galáxias de alto redshift, que foram interpretados.",
-    "sub_pt": "Observações recentes do Telescópio Espacial James Webb revelaram sistemas Lyman-$α$ amortecidos próximos no primeiro plano de galáxias de alto redshift, que foram interpretados.",
-    "sub_en": "Recent observations from the James Webb Space Telescope have revealed proximate damped Lyman-$α$ systems in the foreground of high redshift galaxies, which have been interpreted.",
-    "excerpt": "Observações recentes do Telescópio Espacial James Webb revelaram sistemas Lyman-$α$ amortecidos próximos no primeiro plano de galáxias de alto redshift, que foram interpretados como meios circungalácticos neutros.",
-    "excerpt_pt": "Observações recentes do Telescópio Espacial James Webb revelaram sistemas Lyman-$α$ amortecidos próximos no primeiro plano de galáxias de alto redshift, que foram interpretados como meios circungalácticos neutros.",
-    "excerpt_en": "Recent observations from the James Webb Space Telescope have revealed proximate damped Lyman-$α$ systems in the foreground of high redshift galaxies, which have been interpreted as neutral circumgalactic media.",
-    "body": "<p>Observações recentes realizadas com o Telescópio Espacial James Webb (JWST) revelaram a presença de sistemas Lyman-alfa amortecidos próximos (PDLAs) no primeiro plano de galáxias de alto redshift ($z &gt; 5$). Esses sistemas foram interpretados como meios circungalácticos neutros (CGM), sugerindo um papel crucial na compreensão do estado de ionização do universo primordial. A capacidade de inferir o estado de ionização do CGM, potencialmente a partir da força dos PDLAs, oferece uma nova abordagem para monitorar o progresso da reionização cósmica, de maneira análoga ao que é feito com o meio intergaláctico (IGM).</p><p>Para avaliar a validade e o mérito desse método de rastreamento da reionização, empregamos a simulação hidrodinâmica cosmológica TECHNICOLOR DAWN. Nosso estudo focou na análise de halos de gás simulados em diversos redshifts, especificamente $z = 10, 8, 6, $ e $5, 5$. Esta abordagem permitiu-nos investigar a evolução do estado de ionização do CGM e sua relação com o IGM ao longo do tempo cósmico.</p><p>Os resultados da simulação revelaram uma topologia de reionização que progride de dentro para fora, indicando que o meio circungaláctico reioniza-se após o meio intergaláctico. Notavelmente, o CGM permanece parcialmente neutro mesmo em redshifts tão baixos quanto $z = 5, 5$. Essa persistência de gás neutro no entorno das galáxias de alto redshift é um achado significativo, pois sugere que o processo de reionização não é homogêneo e que regiões densas, como o CGM, podem atrasar a completa ionização.</p><p>A densidade de coluna de hidrogênio neutro observada em primeiro plano demonstrou depender principalmente da massa do halo. Curiosamente, observamos uma fraca dependência dessa densidade em relação à fração neutra do gás ou ao próprio redshift. Este resultado implica que, para uma dada massa de halo, a quantidade de hidrogênio neutro detectável nos PDLAs é relativamente estável, independentemente de pequenas variações na fração neutra ou na época cosmológica dentro da faixa estudada.</p><p>Esses achados sugerem que os PDLAs podem ser ferramentas valiosas para rastrear o progresso da reionização, especialmente em altos redshifts. Contudo, a precisão dessa aplicação depende criticamente da obtenção de estimativas acuradas da massa do halo ou da massa estelar associada às galáxias. Se essas estimativas puderem ser determinadas com confiabilidade, os PDLAs oferecerão uma janela única para investigar a evolução do universo durante uma de suas fases mais transformadoras.</p>",
-    "body_pt": "<p>Observações recentes realizadas com o Telescópio Espacial James Webb (JWST) revelaram a presença de sistemas Lyman-alfa amortecidos próximos (PDLAs) no primeiro plano de galáxias de alto redshift ($z &gt; 5$). Esses sistemas foram interpretados como meios circungalácticos neutros (CGM), sugerindo um papel crucial na compreensão do estado de ionização do universo primordial. A capacidade de inferir o estado de ionização do CGM, potencialmente a partir da força dos PDLAs, oferece uma nova abordagem para monitorar o progresso da reionização cósmica, de maneira análoga ao que é feito com o meio intergaláctico (IGM).</p><p>Para avaliar a validade e o mérito desse método de rastreamento da reionização, empregamos a simulação hidrodinâmica cosmológica TECHNICOLOR DAWN. Nosso estudo focou na análise de halos de gás simulados em diversos redshifts, especificamente $z = 10, 8, 6, $ e $5, 5$. Esta abordagem permitiu-nos investigar a evolução do estado de ionização do CGM e sua relação com o IGM ao longo do tempo cósmico.</p><p>Os resultados da simulação revelaram uma topologia de reionização que progride de dentro para fora, indicando que o meio circungaláctico reioniza-se após o meio intergaláctico. Notavelmente, o CGM permanece parcialmente neutro mesmo em redshifts tão baixos quanto $z = 5, 5$. Essa persistência de gás neutro no entorno das galáxias de alto redshift é um achado significativo, pois sugere que o processo de reionização não é homogêneo e que regiões densas, como o CGM, podem atrasar a completa ionização.</p><p>A densidade de coluna de hidrogênio neutro observada em primeiro plano demonstrou depender principalmente da massa do halo. Curiosamente, observamos uma fraca dependência dessa densidade em relação à fração neutra do gás ou ao próprio redshift. Este resultado implica que, para uma dada massa de halo, a quantidade de hidrogênio neutro detectável nos PDLAs é relativamente estável, independentemente de pequenas variações na fração neutra ou na época cosmológica dentro da faixa estudada.</p><p>Esses achados sugerem que os PDLAs podem ser ferramentas valiosas para rastrear o progresso da reionização, especialmente em altos redshifts. Contudo, a precisão dessa aplicação depende criticamente da obtenção de estimativas acuradas da massa do halo ou da massa estelar associada às galáxias. Se essas estimativas puderem ser determinadas com confiabilidade, os PDLAs oferecerão uma janela única para investigar a evolução do universo durante uma de suas fases mais transformadoras.</p>",
-    "body_en": "<p>Recent observations from the James Webb Space Telescope have revealed proximate damped Lyman-$α$ systems in the foreground of high redshift galaxies, which have been interpreted as neutral circumgalactic media. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Recent observations from the James Webb Space Telescope (JWST) have revealed proximate damped Lyman-$α$ systems (PDLAs) in the foreground of high redshift galaxies ($z \\gt 5$). The ionization state of the CGM, potentially inferred from DLA strength, may serve as a probe to trace the progress of reionization, similarly to the ionization state of the.</p><p>To determine if this method has merit, we use the cosmological hydrodynamical simulation TECHNICOLOR DAWN to study simulated gas halos at redshifts $z = 10, 8, 6, $ and $5.5$. We investigate the reionization topology to determine whether the CGM and IGM have similar ionization histories, and we study the relation between column density of neutral.</p><p>We find an inside-out-middle reionization topology, where the CGM reionizes after the IGM and remains partially neutral at $ z= 5.5$. The foreground column density of neutral hydrogen depends mostly on halo mass, with a weak dependence on neutral fraction or redshift.</p><p>Therefore, provided precise estimates of halo or stellar mass, PDLAs may be used to trace the progress of reionization particularly at high redshifts. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2605.20121v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Observações recentes do Telescópio Espacial James Webb revelaram sistemas Lyman-$α$ amortecidos próximos no primeiro plano de galáxias de alto.",
-      "Dado-chave: Observações recentes do Telescópio Espacial James Webb revelaram sistemas Lyman-$α$ amortecidos próximos no primeiro plano de galáxias de alto",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_pt": [
-      "Ponto central: Observações recentes do Telescópio Espacial James Webb revelaram sistemas Lyman-$α$ amortecidos próximos no primeiro plano de galáxias de alto.",
-      "Dado-chave: Observações recentes do Telescópio Espacial James Webb revelaram sistemas Lyman-$α$ amortecidos próximos no primeiro plano de galáxias de alto",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_en": [
-      "Core point: Recent observations from the James Webb Space Telescope have revealed proximate damped Lyman-$α$ systems in the foreground of high redshift galaxies.",
-      "Key detail: Recent observations from the James Webb Space Telescope have revealed proximate damped Lyman-$α$ systems in the foreground of high redshift.",
-      "Result not yet peer reviewed."
-    ],
-    "date": "19 mai 2026",
-    "date_pt": "19 mai 2026",
-    "date_en": "19 May 2026",
-    "time": "17h10",
-    "time_pt": "17h10",
-    "time_en": "17: 10 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-19T17:10:26+00:00",
-    "lastModifiedIso": "2026-05-20T18:14:57+00:00",
-    "source": "arXiv Cosmology",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Cosmologia",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Sistemas Lyman",
-      "Alpha com amortecimento próximo Galaxy e topologia de reionização HI em TECHNICOLOR DAWN"
-    ],
-    "keywords_pt": [
-      "Cosmologia",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Sistemas Lyman",
-      "Alpha com amortecimento próximo Galaxy e topologia de reionização HI em TECHNICOLOR DAWN"
-    ],
-    "keywords_en": [
-      "Cosmology",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Lyman System",
-      "Galaxy near damped alpha and HI reionization topology in TECHNICOLOR DAWN"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2605.20121v1",
-    "realUrl": "https://www.cosmosweek.com/?article=galaxy-proximate-damped-lyman-alpha-systems-and-hi-reionization-topology-in-technicolor-dawn",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=galaxy-proximate-damped-lyman-alpha-systems-and-hi-reionization-topology-in-technicolor-dawn",
-    "realUrl_en": "https://www.cosmosweek.com/?article=galaxy-proximate-damped-lyman-alpha-systems-and-hi-reionization-topology-in-technicolor-dawn&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/galaxy-proximate-damped-lyman-alpha-systems-and-hi-reionization-topology-in-technicolor-dawn/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/galaxy-proximate-damped-lyman-alpha-systems-and-hi-reionization-topology-in-technicolor-dawn/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/galaxy-proximate-damped-lyman-alpha-systems-and-hi-reionization-topology-in-technicolor-dawn/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/galaxy-proximate-damped-lyman-alpha-systems-and-hi-reionization-topology-in-technicolor-dawn/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/galaxy-proximate-damped-lyman-alpha-systems-and-hi-reionization-topology-in-technicolor-dawn/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/galaxy-proximate-damped-lyman-alpha-systems-and-hi-reionization-topology-in-technicolor-dawn/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 80,
-    "scoreBreakdown": {
-      "source": 64,
-      "evidence": 39,
-      "relevance": 94,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "Sistemas Lyman-Alfa Amortecidos Próximos a Galáxias e a Topologia da Reionização de HI na Simulação TECHNICOLOR DAWN",
-    "imageAlt_pt": "Sistemas Lyman-Alfa Amortecidos Próximos a Galáxias e a Topologia da Reionização de HI na Simulação TECHNICOLOR DAWN",
-    "imageAlt_en": "Galaxy Proximate Damped Lyman-Alpha Systems and HI Reionization Topology in TECHNICOLOR DAWN",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 7,
-    "slug": "johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://www.nasa.gov/wp-content/uploads/2026/05/dscn0407-evans.jpg",
-    "inline_images": [
-      {
-        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-1.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-2.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-3.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-4.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar",
-    "title_pt": "Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar",
-    "title_en": "Johnson’s Cindy Evans Prepares Artemis Teams for Lunar Science",
-    "sub": "A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como.",
-    "sub_pt": "A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como.",
-    "sub_en": "NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an important role as scientific.",
-    "excerpt": "A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como embaixadores científicos no vizinho mais próximo da Terra.",
-    "excerpt_pt": "A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como embaixadores científicos no vizinho mais próximo da Terra.",
-    "excerpt_en": "NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an important role as scientific ambassadors to Earth’s nearest neighbor.",
-    "body": "<p>A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como embaixadores científicos no vizinho mais próximo da Terra. Na sua viagem de 10 dias, a tripulação voou pelo outro lado da Lua, analisando e fotografando características geológicas, como crateras de impacto e [. ].</p><p>4 Min Read Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar Cindy Evans, cientista de exploração Artemis e líder de treinamento em geologia no Centro Espacial Johnson da NASA em Houston, preparando-se para uma implantação em campo profundo para coletar.</p><p>Créditos: Cindy Evans A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante sua missão histórica à Lua, mas também desempenhou um papel importante como embaixadores científicos no vizinho mais próximo da Terra.</p><p>Desempenhei muitos papéis diferentes, e cada posição me ensinou coisas novas e ampliou minha perspectiva. ” Cindy Evans orienta o astronauta da NASA Marcos Berríos na observação e descrição de amostras de rochas durante um treinamento de geologia em campo em Flagstaff, Arizona. A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante.</p><p>Artigo A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como embaixadores científicos no vizinho mais próximo da Terra. Na sua viagem de 10 dias, a tripulação voou pelo outro lado da Lua, analisando e fotografando características geológicas, como crateras de impacto e antigos fluxos de lava.</p><p>A tripulação baseou-se no extenso treinamento em geologia que recebeu na Terra para descrever nuances de formas, texturas e cores, o tipo de informação que revela a história geológica de uma área.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/johnson/johnsons-cindy-evans-prepares-artemis-teams-for-lunar-science/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como embaixadores científicos no vizinho mais próximo da Terra. Na sua viagem de 10 dias, a tripulação voou pelo outro lado da Lua, analisando e fotografando características geológicas, como crateras de impacto e [. ].</p><p>4 Min Read Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar Cindy Evans, cientista de exploração Artemis e líder de treinamento em geologia no Centro Espacial Johnson da NASA em Houston, preparando-se para uma implantação em campo profundo para coletar.</p><p>Créditos: Cindy Evans A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante sua missão histórica à Lua, mas também desempenhou um papel importante como embaixadores científicos no vizinho mais próximo da Terra.</p><p>Desempenhei muitos papéis diferentes, e cada posição me ensinou coisas novas e ampliou minha perspectiva. ” Cindy Evans orienta o astronauta da NASA Marcos Berríos na observação e descrição de amostras de rochas durante um treinamento de geologia em campo em Flagstaff, Arizona. A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante.</p><p>Artigo A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou um papel importante como embaixadores científicos no vizinho mais próximo da Terra. Na sua viagem de 10 dias, a tripulação voou pelo outro lado da Lua, analisando e fotografando características geológicas, como crateras de impacto e antigos fluxos de lava.</p><p>A tripulação baseou-se no extenso treinamento em geologia que recebeu na Terra para descrever nuances de formas, texturas e cores, o tipo de informação que revela a história geológica de uma área.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/johnson/johnsons-cindy-evans-prepares-artemis-teams-for-lunar-science/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an important role as scientific ambassadors to Earth’s nearest neighbor. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. On their 10-day journey, the crew flew by the far side of the Moon, analyzing and photographing geologic features such as impact craters and. 4 Min Read Johnson’s Cindy Evans Prepares Artemis Teams for Lunar Science Cindy Evans, Artemis exploration scientist and geology training lead at NASA’s Johnson Space Center in.</p><p>Artemis geology training lead at NASA’s Johnson Space Center in Houston, Cindy Evans (left) and NASA astronaut and Artemis II mission specialist Christina Koch study geologic. I have enjoyed many different roles, and each and every position taught me new things and stretched my perspective.</p><p>NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an important role Article NASA’s Artemis. On their 10-day journey, the crew flew by the far side of the Moon, analyzing and photographing geologic features such as impact craters and ancient lava flows.</p><p>The crew relied on the extensive geology training they received on Earth to describe nuances in shapes, textures, and colors, the type of information that reveals the geologic. Based at NASA’s Johnson Space Center in Houston in the Astromaterials Research and Exploration Science (ARES) Division, Evans is part of the Artemis Internal Science Team and.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>As the scientists ‘on the ground,’ Artemis crew members require geology and field skills so that they can execute the mission science requirements from lunar orbit and on the. In her 37 years with the agency, Evans contributed to the Space Shuttle Program, Shuttle-Mir Program, and the International Space Station before transitioning to NASA’s Artemis.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/johnson/johnsons-cindy-evans-prepares-artemis-teams-for-lunar-science/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou.",
-      "Dado-chave: A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também desempenhou.",
-      "Dado-chave: A tripulação do Artemis II da NASA teve muitas responsabilidades técnicas e operacionais durante a sua missão histórica à Lua, mas também.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an.",
-      "Key detail: NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "19 mai 2026",
-    "date_pt": "19 mai 2026",
-    "date_en": "19 May 2026",
-    "time": "15h00",
-    "time_pt": "15h00",
-    "time_en": "15: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-19T15:00:00+00:00",
-    "lastModifiedIso": "2026-05-19T18:11:34+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Johnson's Cindy Evans Prepares Artemis Teams for Lunar Science"
-    ],
-    "srcUrl": "https://www.nasa.gov/centers-and-facilities/johnson/johnsons-cindy-evans-prepares-artemis-teams-for-lunar-science/",
-    "realUrl": "https://www.cosmosweek.com/?article=johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science",
-    "realUrl_en": "https://www.cosmosweek.com/?article=johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/johnson-s-cindy-evans-prepares-artemis-teams-for-lunar-science/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar",
-    "imageAlt_pt": "Cindy Evans de Johnson prepara equipes Artemis para a ciência lunar",
-    "imageAlt_en": "Johnson’s Cindy Evans Prepares Artemis Teams for Lunar Science",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 8,
+    "id": 10,
     "slug": "evidence-for-intermediate-mass-black-holes-from-microlensing-signatures-in-chime-frb-catalog-2",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1003,7 +1285,7 @@ window.postsData = [
     ],
     "highlights_en": [
       "Core point: Intermediate-mass black holes are the missing link in the cosmic hierarchy of black holes, bridging the gap between stellar-mass black holes and.",
-      "Key detail: Intermediate-mass black holes are the missing link in the cosmic hierarchy of black holes, bridging the gap between stellar-mass black holes and",
+      "Key detail: Intermediate-mass black holes are the missing link in the cosmic hierarchy of black holes, bridging the gap between stellar-mass black holes and.",
       "Result not yet peer reviewed."
     ],
     "date": "19 mai 2026",
@@ -1092,7 +1374,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 9,
+    "id": 11,
     "slug": "smile-lifts-off-on-quest-to-reveal-earth-s-invisible-shield-against-the-solar-wind",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1290,7 +1572,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 12,
     "slug": "clinical-trial-finds-no-difference-in-fluid-treatment-options-for-pediatric-sepsis",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1411,7 +1693,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 13,
     "slug": "uap-in-this-case-it-s-only-a-model",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1535,7 +1817,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 14,
     "slug": "waterworn-chaos-on-mars",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1611,19 +1893,19 @@ window.postsData = [
     "body_pt": "<p>Neste mês de outubro de 2025, a sonda Mars Express da ESA nos leva a Shalbatana Vallis, um notável vale marciano caracterizado por sinais de água, lava, crateras e regiões de caos. Este impressionante canal, localizado próximo ao equador de Marte, foi capturado em detalhes pela Câmara Estéreo de Alta Resolução (HRSC) da Mars Express. A imagem revela a porção norte do canal, que se estende por aproximadamente 1300 km pela superfície marciana, uma distância comparável à extensão da Itália. Uma viagem em vídeo da Mars Express já destacou este canal sinuoso, traçando seu percurso desde a região montanhosa de Xanthe Terra até as planícies mais suaves de Chryse Planitia.</p><p>A formação de Shalbatana Vallis remonta a cerca de 3, 5 bilhões de anos, um período em que vastas quantidades de água subterrânea ascenderam à superfície de Marte. Esse evento geológico moldou o vale principal, que serpenteia desde o canto inferior esquerdo da imagem e se estende para a direita, em direção ao norte. Com aproximadamente 10 km de largura e 500 m de profundidade, suas dimensões são mais claramente perceptíveis em vistas topográficas detalhadas. A presença de água em tal escala sugere um passado marciano significativamente diferente do que observamos hoje, com condições que poderiam ter sido mais propícias à existência de ambientes líquidos na superfície.</p><p>Embora a composição exata dos materiais que preencheram o vale não seja totalmente conhecida, uma mancha isolada de material preto-azulada, depositada mais recentemente, é visível na porção mais irregular do canal. Essa mancha é interpretada como cinzas vulcânicas, que foram transportadas e depositadas pelos ventos marcianos, conforme ilustrado em vistas em perspectiva. A presença de depósitos vulcânicos adiciona uma camada de complexidade à história geológica de Shalbatana Vallis, indicando que, além da ação da água, processos vulcânicos também desempenharam um papel na modelagem da paisagem local ao longo do tempo. A interação entre forças hídricas e vulcânicas é um tema recorrente no estudo da geologia marciana.</p><p>Esta região de Marte serve como uma fronteira natural, dividindo as terras altas do sul do planeta, que são densamente marcadas por crateras, das terras baixas mais suaves localizadas ao norte. Muitos dos maiores canais de escoamento de Marte convergem e terminam em Chryse Planitia. Essa característica levou alguns cientistas a especular que Chryse Planitia pode ter sido, em algum momento da história mais quente e úmida de Marte, coberta por um oceano considerável. A análise desses canais e das planícies de Chryse Planitia oferece pistas cruciais sobre a distribuição de água líquida e a evolução climática do planeta vermelho em épocas passadas.</p><p>Terrenos com características semelhantes às de Shalbatana Vallis são relativamente comuns em Marte e já foram documentados anteriormente pela Mars Express em diversas outras regiões. Exemplos notáveis incluem Pyrrhae Regio, Iani Chaos, Ariadnes Colles, Aram Chaos e, também em formato de vídeo, Hydraotes Chaos. A capacidade de observar e analisar essas formações geológicas em diferentes locais do planeta é fundamental para compreender os processos que moldaram a superfície marciana. A Câmara Estéreo de Alta Resolução (HRSC), um dos oito instrumentos de última geração a bordo da Mars Express, continua a ser uma ferramenta indispensável para essas investigações, fornecendo dados cruciais para a comunidade científica.</p>",
     "body_en": "<p>This month, ESA’s Mars Express takes us to Shalbatana Vallis: a fascinating martian valley surrounded by signs of water, lava, craters and chaos. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Shalbatana Vallis is an impressive channel near Mars’s equator. This image, taken by Mars Express&#x27;s High Resolution Stereo Camera (HRSC), captures the northern part of the channel, which weaves its way across Mars’s surface for some 1300 km.</p><p>We visited this part of the Red Planet in October 2025, releasing a Mars Express video journey that followed this gently meandering channel from its beginning (the highland region. Shalbatana Vallis formed around 3.5 billion years ago, when huge quantities of groundwater rose up to Mars’s surface.</p><p>The main valley, which snakes in from the bottom-left and weaves out of frame to the right (north), is about 10 km wide and 500 m deep, something seen most clearly in the. While we don’t know exactly which materials filled the valley, one isolated patch of more recently deposited blue-black material can be seen in the most knobbly part of the.</p><p>This part of Mars divides the planet’s heavily cratered southern highlands (to the left) from the smoother northern lowlands (right). Many of Mars’s largest outflow channels end at Chryse Planitia, leading some to suggest that it may have once been covered by a sizeable ocean at some point in Mars’s warmer.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>This kind of terrain is common on Mars, and has been captured before by Mars Express in regions such as Pyrrhae Regio, Iani Chaos, Ariadnes Colles, Aram Chaos and, in video form. This image comes courtesy of the HRSC camera, one of eight state-of-the-art instruments aboard Mars Express.</p><p>Because the account originates with ESA Space News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Waterworn_chaos_on_Mars\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Neste mês, a sonda Mars Express da ESA nos leva a Shalbatana Vallis, um notável vale marciano caracterizado por sinais de água, lava, crateras e",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Neste mês, a sonda Mars Express da ESA nos leva a Shalbatana Vallis, um notável vale marciano caracterizado por sinais de água, lava, crateras e.",
+      "Dado-chave: Neste mês, a sonda Mars Express da ESA nos leva a Shalbatana Vallis, um notável vale marciano caracterizado por sinais de água, lava, crateras e",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Neste mês, a sonda Mars Express da ESA nos leva a Shalbatana Vallis, um notável vale marciano caracterizado por sinais de água, lava, crateras e",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Neste mês, a sonda Mars Express da ESA nos leva a Shalbatana Vallis, um notável vale marciano caracterizado por sinais de água, lava, crateras e.",
+      "Dado-chave: Neste mês, a sonda Mars Express da ESA nos leva a Shalbatana Vallis, um notável vale marciano caracterizado por sinais de água, lava, crateras e",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: This month, ESA’s Mars Express takes us to Shalbatana Vallis: a fascinating martian valley surrounded by signs of water, lava, craters and chaos",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: This month, ESA’s Mars Express takes us to Shalbatana Vallis: a fascinating martian valley surrounded by signs of water, lava, craters and chaos.",
+      "Key detail: This month, ESA’s Mars Express takes us to Shalbatana Vallis: a fascinating martian valley surrounded by signs of water, lava, craters and chaos",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "13 mai 2026",
     "date_pt": "13 mai 2026",
@@ -1711,7 +1993,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 15,
     "slug": "color-off-the-mid-atlantic-coast",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1851,7 +2133,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 16,
     "slug": "sistema-solar-ganha-novo-misterio-com-aneis-de-quiron",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2022,134 +2304,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 15,
-    "slug": "esa-and-jaxa-team-up-on-planetary-defence-ramses-mission-to-asteroid-apophis",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2025/10/ramses_esa_s_mission_to_rendezvous_with_asteroid_apophis/26908615-3-eng-GB/Ramses_ESA_s_mission_to_rendezvous_with_asteroid_Apophis_pillars.png",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "ESA e JAXA Unem Forças na Defesa Planetária: A Missão RAMSES ao Asteroide Apophis",
-    "title_pt": "ESA e JAXA Unem Forças na Defesa Planetária: A Missão RAMSES ao Asteroide Apophis",
-    "title_en": "ESA and JAXA team up on planetary defence, Ramses mission to asteroid Apophis",
-    "sub": "A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar a colaboração em defesa planetária.",
-    "sub_pt": "A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar a colaboração em defesa planetária.",
-    "sub_en": "The European Space Agency and the Japan Aerospace Exploration Agency have signed a Memorandum of Cooperation to deepen collaboration in planetary defence, alongside a dedicated.",
-    "excerpt": "A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar a colaboração em defesa planetária, incluindo um acordo específico para a Missão Rapid Apophis para Segurança.",
-    "excerpt_pt": "A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar a colaboração em defesa planetária, incluindo um acordo específico para a Missão Rapid Apophis para Segurança.",
-    "excerpt_en": "The European Space Agency and the Japan Aerospace Exploration Agency have signed a Memorandum of Cooperation to deepen collaboration in planetary defence, alongside a dedicated agreement for collaboration on the Rapid Apophis Mission for.",
-    "body": "<p>A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para aprofundar a colaboração em defesa planetária, juntamente com um acordo específico para a Missão Rapid Apophis para Segurança Espacial (RAMSES). Os acordos foram formalizados em 7 de maio pelo Diretor Geral da ESA, Josef Aschbacher, e pelo Presidente da JAXA, Hiroshi Yamakawa. A cerimônia ocorreu na Embaixada da Itália em Berlim, Alemanha, na presença de líderes institucionais e industriais europeus e japoneses, marcando um passo significativo na proteção do nosso planeta contra ameaças cósmicas.</p><p>O evento de assinatura foi organizado em colaboração com a Agência Espacial Italiana (ASI), em virtude da seleção da OHB Italia pela ESA como contratante principal para a missão RAMSES. Esta iniciativa se fundamenta em uma declaração conjunta de novembro de 2024, na qual a ESA e a JAXA já haviam se comprometido a expandir a cooperação em larga escala, incluindo a área de defesa planetária. Com as assinaturas recentes, ambas as agências estão passando decisivamente da intenção compartilhada para a implementação concreta, traduzindo o compromisso em cooperação efetiva no nível de missão.</p><p>A colaboração entre a ESA e a JAXA é vista como um avanço crucial para os esforços internacionais no campo da defesa planetária. Representantes das agências expressaram gratidão à ESA e aos seus Estados-Membros, especialmente à Itália, e manifestaram a esperança de que esta parceria impulsione ainda mais a segurança espacial global. A defesa planetária é um desafio que afeta todos os seres humanos e seres vivos na Terra, exigindo uma abordagem unificada e coordenada para proteger nosso planeta de potenciais ameaças cósmicas.</p><p>Como um campo de pesquisa científica aplicada, a defesa planetária reúne a comunidade internacional para detectar e caracterizar precocemente objetos próximos da Terra (NEOs), acompanhar suas trajetórias, avaliar os riscos de impacto e desenvolver estratégias de mitigação, se necessário. Este esforço colaborativo é fundamental para garantir que a humanidade esteja preparada para responder a qualquer ameaça potencial, minimizando os perigos representados por asteroides e cometas que se aproximam de nosso planeta.</p><p>O Centro de Coordenação de Objetos Próximos à Terra (NEOCC), parte integrante do programa de defesa planetária, desempenha um papel vital ao monitorar continuamente as ameaças de asteroides e refinar as previsões de órbita. Paralelamente, as missões espaciais dedicadas supervisionam o desenvolvimento de tecnologias rápidas de reconhecimento e deflexão, que são essenciais para uma resposta eficaz em caso de detecção de um objeto em rota de colisão. A combinação de monitoramento terrestre e capacidades espaciais é a chave para uma estratégia robusta de defesa planetária.</p>",
-    "body_pt": "<p>A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para aprofundar a colaboração em defesa planetária, juntamente com um acordo específico para a Missão Rapid Apophis para Segurança Espacial (RAMSES). Os acordos foram formalizados em 7 de maio pelo Diretor Geral da ESA, Josef Aschbacher, e pelo Presidente da JAXA, Hiroshi Yamakawa. A cerimônia ocorreu na Embaixada da Itália em Berlim, Alemanha, na presença de líderes institucionais e industriais europeus e japoneses, marcando um passo significativo na proteção do nosso planeta contra ameaças cósmicas.</p><p>O evento de assinatura foi organizado em colaboração com a Agência Espacial Italiana (ASI), em virtude da seleção da OHB Italia pela ESA como contratante principal para a missão RAMSES. Esta iniciativa se fundamenta em uma declaração conjunta de novembro de 2024, na qual a ESA e a JAXA já haviam se comprometido a expandir a cooperação em larga escala, incluindo a área de defesa planetária. Com as assinaturas recentes, ambas as agências estão passando decisivamente da intenção compartilhada para a implementação concreta, traduzindo o compromisso em cooperação efetiva no nível de missão.</p><p>A colaboração entre a ESA e a JAXA é vista como um avanço crucial para os esforços internacionais no campo da defesa planetária. Representantes das agências expressaram gratidão à ESA e aos seus Estados-Membros, especialmente à Itália, e manifestaram a esperança de que esta parceria impulsione ainda mais a segurança espacial global. A defesa planetária é um desafio que afeta todos os seres humanos e seres vivos na Terra, exigindo uma abordagem unificada e coordenada para proteger nosso planeta de potenciais ameaças cósmicas.</p><p>Como um campo de pesquisa científica aplicada, a defesa planetária reúne a comunidade internacional para detectar e caracterizar precocemente objetos próximos da Terra (NEOs), acompanhar suas trajetórias, avaliar os riscos de impacto e desenvolver estratégias de mitigação, se necessário. Este esforço colaborativo é fundamental para garantir que a humanidade esteja preparada para responder a qualquer ameaça potencial, minimizando os perigos representados por asteroides e cometas que se aproximam de nosso planeta.</p><p>O Centro de Coordenação de Objetos Próximos à Terra (NEOCC), parte integrante do programa de defesa planetária, desempenha um papel vital ao monitorar continuamente as ameaças de asteroides e refinar as previsões de órbita. Paralelamente, as missões espaciais dedicadas supervisionam o desenvolvimento de tecnologias rápidas de reconhecimento e deflexão, que são essenciais para uma resposta eficaz em caso de detecção de um objeto em rota de colisão. A combinação de monitoramento terrestre e capacidades espaciais é a chave para uma estratégia robusta de defesa planetária.</p>",
-    "body_en": "<p>The European Space Agency and the Japan Aerospace Exploration Agency have signed a Memorandum of Cooperation to deepen collaboration in planetary defence, alongside a dedicated agreement for collaboration on the Rapid Apophis Mission for. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The agreements were signed on 7 May by ESA Director General Josef Aschbacher and JAXA President Hiroshi Yamakawa at the Embassy of Italy in Berlin, Germany, in the presence of. The event was hosted in collaboration with the Italian Space Agency (ASI), in light of ESA’s selection of OHB Italia as prime contractor for the Ramses mission.</p><p>The move builds on a joint statement from November 2024, in which ESA and JAXA committed to expanding large-scale cooperation, including on planetary defence. With today’s signatures, ESA and JAXA are moving decisively from shared intention to concrete implementation, translating commitment into mission‑level cooperation.</p><p>We sincerely appreciate ESA and its Member States, including Italy, and expect this cooperation to further advance international efforts in this field. As a field of applied scientific research, it brings together the international community to detect and characterise near-Earth objects early, track their trajectories, assess.</p><p>The programme’s Near-Earth Object Coordination Centre (NEOCC) monitors asteroid threats and refines orbit predictions, while its space missions oversee the development of rapid. The first major outcome of the new ESA-JAXA cooperation is collaboration on the Ramses mission.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Ramses will launch in 2028 and rendezvous with the asteroid (99942) Apophis ahead of its exceptionally rare, close flyby of Earth in April 2029. Roughly 375 metres across, Apophis will pass just 32 000 km above Earth’s surface on Friday 13 April 2029, one tenth the distance to the Moon and closer than satellites in.</p><p>Because the account originates with ESA Space News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Space_Safety/Planetary_Defence/ESA_and_JAXA_team_up_on_planetary_defence_Ramses_mission_to_asteroid_Apophis\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar a.",
-      "Dado-chave: A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar a.",
-      "Dado-chave: A Agência Espacial Europeia (ESA) e a Agência de Exploração Aeroespacial do Japão (JAXA) assinaram um Memorando de Cooperação para intensificar.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: The European Space Agency and the Japan Aerospace Exploration Agency have signed a Memorandum of Cooperation to deepen collaboration in planetary.",
-      "Key detail: The European Space Agency and the Japan Aerospace Exploration Agency have signed a Memorandum of Cooperation to deepen collaboration in.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "07 mai 2026",
-    "date_pt": "07 mai 2026",
-    "date_en": "07 May 2026",
-    "time": "16h00",
-    "time_pt": "16h00",
-    "time_en": "16: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-07T16:00:00+00:00",
-    "lastModifiedIso": "2026-05-08T17:02:51+00:00",
-    "source": "ESA Space News",
-    "sourceDomain": "www. esa. int",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "ESA Space News",
-      "Cosmos Week",
-      "ESA e JAXA unem",
-      "se na defesa planetária",
-      "missão Ramsés ao asteróide Apophis"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "ESA Space News",
-      "Cosmos Week",
-      "ESA e JAXA unem",
-      "se na defesa planetária",
-      "missão Ramsés ao asteróide Apophis"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "ESA Space News",
-      "Cosmos Week",
-      "ESA and JAXA unite",
-      "whether in planetary defense",
-      "Ramses mission to asteroid Apophis"
-    ],
-    "srcUrl": "https://www.esa.int/Space_Safety/Planetary_Defence/ESA_and_JAXA_team_up_on_planetary_defence_Ramses_mission_to_asteroid_Apophis",
-    "realUrl": "https://www.cosmosweek.com/?article=esa-and-jaxa-team-up-on-planetary-defence-ramses-mission-to-asteroid-apophis",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=esa-and-jaxa-team-up-on-planetary-defence-ramses-mission-to-asteroid-apophis",
-    "realUrl_en": "https://www.cosmosweek.com/?article=esa-and-jaxa-team-up-on-planetary-defence-ramses-mission-to-asteroid-apophis&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/esa-and-jaxa-team-up-on-planetary-defence-ramses-mission-to-asteroid-apophis/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/esa-and-jaxa-team-up-on-planetary-defence-ramses-mission-to-asteroid-apophis/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/esa-and-jaxa-team-up-on-planetary-defence-ramses-mission-to-asteroid-apophis/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/esa-and-jaxa-team-up-on-planetary-defence-ramses-mission-to-asteroid-apophis/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/esa-and-jaxa-team-up-on-planetary-defence-ramses-mission-to-asteroid-apophis/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/esa-and-jaxa-team-up-on-planetary-defence-ramses-mission-to-asteroid-apophis/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 90,
-      "evidence": 86,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "ESA e JAXA Unem Forças na Defesa Planetária: A Missão RAMSES ao Asteroide Apophis",
-    "imageAlt_pt": "ESA e JAXA Unem Forças na Defesa Planetária: A Missão RAMSES ao Asteroide Apophis",
-    "imageAlt_en": "ESA and JAXA team up on planetary defence, Ramses mission to asteroid Apophis",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 16,
+    "id": 17,
     "slug": "a-beacon-of-light-in-swirls-of-dust",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2157,39 +2312,39 @@ window.postsData = [
     "inline_images": [
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/a_beacon_of_light_in_swirls_of_dust/27263088-1-eng-GB/A_beacon_of_light_in_swirls_of_dust_pillars.jpg",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
       },
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/a_beacon_of_light_in_swirls_of_dust/27263088-1-eng-GB/A_beacon_of_light_in_swirls_of_dust_article.jpg",
-        "caption": "Um farol de luz em redemoinhos de poeira",
-        "caption_pt": "Um farol de luz em redemoinhos de poeira",
-        "caption_en": "A beacon of light in swirls of dust",
         "alt": "Um farol de luz em redemoinhos de poeira",
         "alt_pt": "Um farol de luz em redemoinhos de poeira",
-        "alt_en": "A beacon of light in swirls of dust"
+        "alt_en": "A beacon of light in swirls of dust",
+        "caption": "Um farol de luz em redemoinhos de poeira",
+        "caption_pt": "Um farol de luz em redemoinhos de poeira",
+        "caption_en": "A beacon of light in swirls of dust"
       },
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/messier_77_nircam/27263539-1-eng-GB/Messier_77_NIRCam_article.jpg",
-        "caption": "Messier 77 (NIRCam)",
-        "caption_pt": "Messier 77 (NIRCam)",
-        "caption_en": "Messier 77 (NIRCam)",
         "alt": "Messier 77 (NIRCam)",
         "alt_pt": "Messier 77 (NIRCam)",
-        "alt_en": "Messier 77 (NIRCam)"
+        "alt_en": "Messier 77 (NIRCam)",
+        "caption": "Messier 77 (NIRCam)",
+        "caption_pt": "Messier 77 (NIRCam)",
+        "caption_en": "Messier 77 (NIRCam)"
       },
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/messier_77_miri_nircam/27263254-1-eng-GB/Messier_77_MIRI_NIRCam_article.jpg",
-        "caption": "Messier 77 (MIRI e NIRCam combinados)",
-        "caption_pt": "Messier 77 (MIRI e NIRCam combinados)",
-        "caption_en": "Messier 77 (MIRI and NIRCam combined)",
         "alt": "Messier 77 (MIRI e NIRCam combinados)",
         "alt_pt": "Messier 77 (MIRI e NIRCam combinados)",
-        "alt_en": "Messier 77 (MIRI and NIRCam combined)"
+        "alt_en": "Messier 77 (MIRI and NIRCam combined)",
+        "caption": "Messier 77 (MIRI e NIRCam combinados)",
+        "caption_pt": "Messier 77 (MIRI e NIRCam combinados)",
+        "caption_en": "Messier 77 (MIRI and NIRCam combined)"
       }
     ],
     "video": null,
@@ -2207,19 +2362,19 @@ window.postsData = [
     "body_pt": "<p>A mais recente Imagem do Mês divulgada pelo Telescópio Espacial James Webb (JWST), uma colaboração entre a NASA, ESA e CSA, oferece uma visão sem precedentes de Messier 77 (M77), também conhecida como NGC 1068. Esta galáxia espiral barrada, localizada a aproximadamente 45 milhões de anos-luz de distância na constelação de Cetus (A Baleia), é um objeto de grande interesse para a comunidade astronômica. Sua fama deriva da combinação de sua relativa proximidade com a Terra e a riqueza de suas características espetaculares, que a tornam um laboratório natural ideal para o estudo de fenômenos galácticos complexos. A capacidade do Webb de observar no infravermelho médio permite penetrar as densas nuvens de poeira que obscurecem o centro galáctico, revelando detalhes que antes eram inacessíveis aos telescópios ópticos.</p><p>A nova imagem, capturada pelo instrumento MIRI (Mid-Infrared Instrument) do Webb, destaca com clareza notável os braços espirais rodopiantes da galáxia, as intrincadas estruturas de poeira em seu disco e, de forma particularmente impressionante, seu núcleo penetrantemente brilhante. O MIRI é projetado para detectar a luz infravermelha de comprimento de onda médio, que é crucial para observar regiões onde a formação estelar ocorre intensamente e para estudar a poeira e o gás que compõem grande parte do meio interestelar. Essa capacidade permite aos cientistas investigar a distribuição e a composição da poeira, bem como a atividade do buraco negro supermassivo que se acredita residir no centro de M77.</p><p>Messier 77 é classificada como uma galáxia Seyfert tipo 2, o que significa que ela abriga um Núcleo Galáctico Ativo (AGN) extremamente luminoso. Este brilho intenso é impulsionado por um buraco negro supermassivo que está ativamente engolindo matéria, liberando vastas quantidades de energia em forma de radiação. A poeira e o gás que circundam o buraco negro formam um toro denso, que, visto de certos ângulos, pode obscurecer a região central em comprimentos de onda visíveis. A observação no infravermelho médio pelo Webb é fundamental para atravessar essa barreira de poeira, permitindo aos astrônomos estudar diretamente a região do AGN e os processos físicos que ocorrem em suas proximidades.</p><p>O estudo detalhado de M77 com o JWST oferece uma oportunidade única para compreender melhor a interação entre um buraco negro supermassivo e sua galáxia hospedeira. A energia liberada pelo AGN pode influenciar significativamente a formação estelar nos braços espirais e no disco galáctico, tanto estimulando quanto suprimindo esse processo. Ao mapear a distribuição de gás e poeira aquecidos pelo AGN, os cientistas podem traçar os caminhos pelos quais a energia e a matéria são transportadas para fora do núcleo, impactando a evolução da galáxia como um todo. Essas observações são cruciais para refinar nossos modelos de evolução galáctica e para entender como as galáxias adquirem suas formas e características ao longo do tempo cósmico.</p><p>A imagem de Messier 77 é mais um exemplo da capacidade transformadora do Telescópio Espacial James Webb na astronomia moderna. Desde seu lançamento, o Webb tem fornecido dados e imagens de uma clareza e profundidade sem precedentes, revolucionando nossa compreensão do universo distante, da formação das primeiras galáxias, da evolução estelar e planetária, e da busca por bioassinaturas em exoplanetas. Cada nova observação, como esta de M77, não apenas responde a perguntas antigas, mas também levanta novas questões, impulsionando a pesquisa científica para fronteiras inexploradas.</p><p>A beleza intrínseca da galáxia Messier 77, com seus braços espirais bem definidos e seu núcleo brilhante, é magnificamente capturada pelo Webb, servindo como um lembrete visual da complexidade e grandiosidade do cosmos. Além de seu apelo estético, a imagem é uma ferramenta científica poderosa, permitindo que pesquisadores de todo o mundo desvendem os mistérios de uma das galáxias ativas mais estudadas. A combinação de dados infravermelhos de alta resolução com a proximidade relativa de M77 garante que esta galáxia continuará a ser um farol de luz para futuras descobertas astronômicas.</p>",
     "body_en": "<p>This latest Picture of the Month from the NASA/ESA/CSA James Webb Space Telescope features Messier 77, a barred spiral galaxy famous among astronomers for its combination of relative proximity and spectacular features to study. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. This latest Picture of the Month from the NASA/ESA/CSA James Webb Space Telescope features Messier 77 (M77), a barred spiral galaxy famous among astronomers for its combination of. It is located 45 million light-years away in the constellation Cetus (The Whale).</p><p>This new image from Webb’s Mid-Infrared Instrument (MIRI) highlights its swirling spiral arms, the dust in its disc and its piercingly bright core like never before.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Because the account originates with ESA Space Science, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Webb/A_beacon_of_light_in_swirls_of_dust\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A mais recente Imagem do Mês do Telescópio Espacial James Webb (NASA/ESA/CSA) revela Messier 77, uma galáxia espiral barrada notável por sua",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A mais recente Imagem do Mês do Telescópio Espacial James Webb (NASA/ESA/CSA) revela Messier 77, uma galáxia espiral barrada notável por sua.",
+      "Dado-chave: A mais recente Imagem do Mês do Telescópio Espacial James Webb (NASA/ESA/CSA) revela Messier 77, uma galáxia espiral barrada notável por sua",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A mais recente Imagem do Mês do Telescópio Espacial James Webb (NASA/ESA/CSA) revela Messier 77, uma galáxia espiral barrada notável por sua",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A mais recente Imagem do Mês do Telescópio Espacial James Webb (NASA/ESA/CSA) revela Messier 77, uma galáxia espiral barrada notável por sua.",
+      "Dado-chave: A mais recente Imagem do Mês do Telescópio Espacial James Webb (NASA/ESA/CSA) revela Messier 77, uma galáxia espiral barrada notável por sua",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: This latest Picture of the Month from the NASA/ESA/CSA James Webb Space Telescope features Messier 77, a barred spiral galaxy famous among",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: This latest Picture of the Month from the NASA/ESA/CSA James Webb Space Telescope features Messier 77, a barred spiral galaxy famous among.",
+      "Key detail: This latest Picture of the Month from the NASA/ESA/CSA James Webb Space Telescope features Messier 77, a barred spiral galaxy famous among",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "07 mai 2026",
     "date_pt": "07 mai 2026",
@@ -2300,137 +2455,6 @@ window.postsData = [
     "imageAlt": "Um farol de luz em redemoinhos de poeira",
     "imageAlt_pt": "Um farol de luz em redemoinhos de poeira",
     "imageAlt_en": "A beacon of light in swirls of dust",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 17,
-    "slug": "a-sea-of-spinning-clouds",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/a-sea-of-spinning-clouds/peteriisland_oli_20260211_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Um Mar de Nuvens Giratórias",
-    "title_pt": "Um Mar de Nuvens Giratórias",
-    "title_en": "A Sea of Spinning Clouds",
-    "sub": "A remota e gelada Ilha Pedro I, na costa oeste da Antártida, foi palco de um notável fenômeno atmosférico, com a formação de redemoinhos de nuvens capturados durante um voo da.",
-    "sub_pt": "A remota e gelada Ilha Pedro I, na costa oeste da Antártida, foi palco de um notável fenômeno atmosférico, com a formação de redemoinhos de nuvens capturados durante um voo da.",
-    "sub_en": "Icy, isolated Peter I Island stirred up a show in the atmosphere off the West Antarctic coast.",
-    "excerpt": "A remota e gelada Ilha Pedro I, na costa oeste da Antártida, foi palco de um notável fenômeno atmosférico, com a formação de redemoinhos de nuvens capturados durante um voo da Operação IceBridge da NASA.",
-    "excerpt_pt": "A remota e gelada Ilha Pedro I, na costa oeste da Antártida, foi palco de um notável fenômeno atmosférico, com a formação de redemoinhos de nuvens capturados durante um voo da Operação IceBridge da NASA.",
-    "excerpt_en": "Icy, isolated Peter I Island stirred up a show in the atmosphere off the West Antarctic coast. The post A Sea of Spinning Clouds appeared first on NASA Science.",
-    "body": "<p>Este vulcão coberto de gelo está situado a 68, 86 graus de latitude sul, no Mar de Bellingshausen. Sua localização é particularmente isolada, a aproximadamente 400 quilômetros (250 milhas) da costa oeste da Antártida e a mais de 1.800 quilômetros (1.100 milhas) do Cabo Horn, no Chile. A extrema distância de outras massas de terra e a sua posição geográfica no Oceano Antártico contribuem para as condições climáticas severas e para a formação de padrões atmosféricos singulares observados em seu entorno.</p><p>A NASA conduziu pesquisas na Ilha Pedro I como parte da campanha da Operação IceBridge em 2011. Esta missão científica aérea foi projetada para coletar um conjunto abrangente de medições sobre o gelo polar da Terra. Seu objetivo principal era preencher a lacuna de dados entre as missões dos satélites ICESat e ICESat-2, garantindo a continuidade do registro de observações cruciais para o monitoramento das mudanças climáticas nas regiões polares. A Operação IceBridge utilizou aeronaves equipadas com instrumentos avançados para mapear a espessura do gelo marinho, das plataformas de gelo e das geleiras, fornecendo dados essenciais para a compreensão da criosfera terrestre.</p><p>Durante o voo de retorno da aeronave DC-8 da NASA, que partia da Antártida em direção ao Chile, a tripulação a bordo teve a oportunidade de testemunhar um vislumbre raro da ilha remota. Naquele dia, as equipes haviam se dedicado a medir a plataforma de gelo Getz e a geleira Thwaites a partir do ar. Foi nesse contexto que os redemoinhos de nuvens, um espetáculo atmosférico impressionante, foram observados ao redor da Ilha Pedro I, destacando a capacidade da topografia insular de influenciar os padrões de vento e a formação de nuvens em seu entorno.</p><p>O fenômeno observado na Ilha Pedro I é um exemplo clássico de vórtices de von Kármán, um padrão de redemoinhos que se forma quando um fluido, neste caso o ar, flui em torno de um obstáculo. A topografia da ilha atua como um obstáculo para os ventos predominantes, causando a separação do fluxo de ar e a formação de redemoinhos alternados. Um fenômeno análogo foi documentado ao redor da ilha vulcânica de Jeju, perto da Península Coreana, onde os ventos também criaram um rastro de nuvens em espiral. Tais formações são de grande interesse para a meteorologia e a dinâmica dos fluidos, pois revelam como as características geográficas podem moldar as condições atmosféricas locais e regionais.</p><p>A observação desses padrões de nuvens em espiral não é apenas visualmente cativante, mas também cientificamente relevante. Ela fornece dados valiosos para a validação de modelos atmosféricos e para o estudo da interação entre a superfície terrestre e a atmosfera. Compreender como ilhas isoladas e outras características topográficas influenciam os padrões de vento e a formação de nuvens é fundamental para aprimorar as previsões meteorológicas e para entender melhor os processos climáticos em regiões remotas e de difícil acesso, como a Antártida. Esses estudos contribuem para um conhecimento mais aprofundado da complexidade dos sistemas terrestres.</p><p>As missões como a Operação IceBridge, ao combinar observações aéreas detalhadas com dados de satélite, desempenham um papel crucial na documentação e análise de fenômenos como os redemoinhos de nuvens da Ilha Pedro I. Elas permitem que a comunidade científica monitore as mudanças ambientais em tempo real e em longo prazo, fornecendo a base empírica necessária para pesquisas futuras e para a formulação de políticas ambientais. A capacidade de capturar e analisar esses eventos efêmeros, mas significativos, ressalta a importância contínua da exploração científica em ambientes extremos.</p>",
-    "body_pt": "<p>Este vulcão coberto de gelo está situado a 68, 86 graus de latitude sul, no Mar de Bellingshausen. Sua localização é particularmente isolada, a aproximadamente 400 quilômetros (250 milhas) da costa oeste da Antártida e a mais de 1.800 quilômetros (1.100 milhas) do Cabo Horn, no Chile. A extrema distância de outras massas de terra e a sua posição geográfica no Oceano Antártico contribuem para as condições climáticas severas e para a formação de padrões atmosféricos singulares observados em seu entorno.</p><p>A NASA conduziu pesquisas na Ilha Pedro I como parte da campanha da Operação IceBridge em 2011. Esta missão científica aérea foi projetada para coletar um conjunto abrangente de medições sobre o gelo polar da Terra. Seu objetivo principal era preencher a lacuna de dados entre as missões dos satélites ICESat e ICESat-2, garantindo a continuidade do registro de observações cruciais para o monitoramento das mudanças climáticas nas regiões polares. A Operação IceBridge utilizou aeronaves equipadas com instrumentos avançados para mapear a espessura do gelo marinho, das plataformas de gelo e das geleiras, fornecendo dados essenciais para a compreensão da criosfera terrestre.</p><p>Durante o voo de retorno da aeronave DC-8 da NASA, que partia da Antártida em direção ao Chile, a tripulação a bordo teve a oportunidade de testemunhar um vislumbre raro da ilha remota. Naquele dia, as equipes haviam se dedicado a medir a plataforma de gelo Getz e a geleira Thwaites a partir do ar. Foi nesse contexto que os redemoinhos de nuvens, um espetáculo atmosférico impressionante, foram observados ao redor da Ilha Pedro I, destacando a capacidade da topografia insular de influenciar os padrões de vento e a formação de nuvens em seu entorno.</p><p>O fenômeno observado na Ilha Pedro I é um exemplo clássico de vórtices de von Kármán, um padrão de redemoinhos que se forma quando um fluido, neste caso o ar, flui em torno de um obstáculo. A topografia da ilha atua como um obstáculo para os ventos predominantes, causando a separação do fluxo de ar e a formação de redemoinhos alternados. Um fenômeno análogo foi documentado ao redor da ilha vulcânica de Jeju, perto da Península Coreana, onde os ventos também criaram um rastro de nuvens em espiral. Tais formações são de grande interesse para a meteorologia e a dinâmica dos fluidos, pois revelam como as características geográficas podem moldar as condições atmosféricas locais e regionais.</p><p>A observação desses padrões de nuvens em espiral não é apenas visualmente cativante, mas também cientificamente relevante. Ela fornece dados valiosos para a validação de modelos atmosféricos e para o estudo da interação entre a superfície terrestre e a atmosfera. Compreender como ilhas isoladas e outras características topográficas influenciam os padrões de vento e a formação de nuvens é fundamental para aprimorar as previsões meteorológicas e para entender melhor os processos climáticos em regiões remotas e de difícil acesso, como a Antártida. Esses estudos contribuem para um conhecimento mais aprofundado da complexidade dos sistemas terrestres.</p><p>As missões como a Operação IceBridge, ao combinar observações aéreas detalhadas com dados de satélite, desempenham um papel crucial na documentação e análise de fenômenos como os redemoinhos de nuvens da Ilha Pedro I. Elas permitem que a comunidade científica monitore as mudanças ambientais em tempo real e em longo prazo, fornecendo a base empírica necessária para pesquisas futuras e para a formulação de políticas ambientais. A capacidade de capturar e analisar esses eventos efêmeros, mas significativos, ressalta a importância contínua da exploração científica em ambientes extremos.</p>",
-    "body_en": "<p>Icy, isolated Peter I Island stirred up a show in the atmosphere off the West Antarctic coast. The post A Sea of Spinning Clouds appeared first on NASA Science. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The post A Sea of Spinning Clouds appeared first on NASA Science. Peter I Island is nestled among sea ice and clouds in this photo, taken from NASA’s DC-8 airborne science laboratory during an Operation IceBridge flight on November 3, 2011.</p><p>Showy Swirls Around Jeju Island 2 min read Winds blowing past the volcanic landmass near the Korean Peninsula created a trail of spiraling clouds, while murky water churned. Earth Observatory Image of the Day NASA&#x27;s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>Explore Earth Science Earth Science Data Open access to NASA’s archive of Earth science data The post A Sea of Spinning Clouds appeared first on NASA Science. This ice-cloaked volcano lies at 68.86 degrees south latitude in the Bellingshausen Sea, some 400 kilometers (250 miles) off the coast of West Antarctica and more than 1, 800.</p><p>NASA surveyed the island during an Operation IceBridge campaign in 2011. This airborne science mission collected a suite of measurements over Earth’s polar ice in the period between the ICESat and ICESat-2 satellite missions to sustain the record of.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet. Article Seeing Blue During Schirmacher’s Summer Melt Season 5 min read A network of meltwater lakes and drainage channels made an Antarctic ice shelf known for its blue ice areas.</p><p>Because the account originates with NASA Earth Observatory, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/a-sea-of-spinning-clouds/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: A remota e gelada Ilha Pedro I, na costa oeste da Antártida, foi palco de um notável fenômeno atmosférico, com a formação de redemoinhos de nuvens.",
-      "Dado-chave: A remota e gelada Ilha Pedro I, na costa oeste da Antártida, foi palco de um notável fenômeno atmosférico, com a formação de redemoinhos de.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: A remota e gelada Ilha Pedro I, na costa oeste da Antártida, foi palco de um notável fenômeno atmosférico, com a formação de redemoinhos de nuvens.",
-      "Dado-chave: A remota e gelada Ilha Pedro I, na costa oeste da Antártida, foi palco de um notável fenômeno atmosférico, com a formação de redemoinhos de.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Icy, isolated Peter I Island stirred up a show in the atmosphere off the West Antarctic coast.",
-      "Key detail: Icy, isolated Peter I Island stirred up a show in the atmosphere off the West Antarctic coast.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "07 mai 2026",
-    "date_pt": "07 mai 2026",
-    "date_en": "07 May 2026",
-    "time": "04h01",
-    "time_pt": "04h01",
-    "time_en": "04: 01 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-07T04:01:00+00:00",
-    "lastModifiedIso": "2026-05-07T17:34:38+00:00",
-    "source": "NASA Earth Observatory",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA Earth Observatory",
-      "Cosmos Week",
-      "Um mar de nuvens giratórias"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA Earth Observatory",
-      "Cosmos Week",
-      "Um mar de nuvens giratórias"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA Earth Observatory",
-      "Cosmos Week",
-      "A sea of ​​swirling clouds"
-    ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/a-sea-of-spinning-clouds/",
-    "realUrl": "https://www.cosmosweek.com/?article=a-sea-of-spinning-clouds",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=a-sea-of-spinning-clouds",
-    "realUrl_en": "https://www.cosmosweek.com/?article=a-sea-of-spinning-clouds&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/a-sea-of-spinning-clouds/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/a-sea-of-spinning-clouds/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/a-sea-of-spinning-clouds/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/a-sea-of-spinning-clouds/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/a-sea-of-spinning-clouds/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/a-sea-of-spinning-clouds/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 92,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Um Mar de Nuvens Giratórias",
-    "imageAlt_pt": "Um Mar de Nuvens Giratórias",
-    "imageAlt_en": "A Sea of Spinning Clouds",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
