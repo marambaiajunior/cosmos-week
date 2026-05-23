@@ -1,6 +1,282 @@
 [
   {
     "id": 1,
+    "slug": "call-for-creatives-nasa-seeks-help-illuminating-mission-storytelling",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://www.nasa.gov/wp-content/uploads/2026/04/nasa-meatball-1.webp?w=1920",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Chamada para Criativos: NASA Busca Parceiros para Contar Histórias de Missões",
+    "title_pt": "Chamada para Criativos: NASA Busca Parceiros para Contar Histórias de Missões",
+    "title_en": "Call for Creatives: NASA Seeks Help Illuminating Mission Storytelling",
+    "sub": "A NASA, em sua contínua busca por inovação e exploração em benefício da humanidade, está convidando criadores de diversas áreas a se tornarem parceiros na divulgação das histórias.",
+    "sub_pt": "A NASA, em sua contínua busca por inovação e exploração em benefício da humanidade, está convidando criadores de diversas áreas a se tornarem parceiros na divulgação das histórias.",
+    "sub_en": "As NASA pushes the boundaries of exploration and innovation for the benefit of humanity, the agency is looking for partners to share mission stories covering Artemis Moon.",
+    "excerpt": "A NASA, em sua contínua busca por inovação e exploração em benefício da humanidade, está convidando criadores de diversas áreas a se tornarem parceiros na divulgação das histórias de suas missões, que abrangem desde o Programa Artemis até avanços em propulsão.",
+    "excerpt_pt": "A NASA, em sua contínua busca por inovação e exploração em benefício da humanidade, está convidando criadores de diversas áreas a se tornarem parceiros na divulgação das histórias de suas missões, que abrangem desde o Programa Artemis até avanços em propulsão.",
+    "excerpt_en": "As NASA pushes the boundaries of exploration and innovation for the benefit of humanity, the agency is looking for partners to share mission stories covering Artemis Moon missions, nuclear propulsion, aeronautics, and more.",
+    "highlights": [
+      "Em foco: A NASA, em sua contínua busca por inovação e exploração em benefício da humanidade, está convidando criadores de diversas áreas a se tornarem",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A NASA, em sua contínua busca por inovação e exploração em benefício da humanidade, está convidando criadores de diversas áreas a se tornarem",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: As NASA pushes the boundaries of exploration and innovation for the benefit of humanity, the agency is looking for partners to share mission stories",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "22 mai 2026",
+    "date_pt": "22 mai 2026",
+    "date_en": "22 May 2026",
+    "time": "22h12",
+    "time_pt": "22h12",
+    "time_en": "22: 12 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-22T22:12:40+00:00",
+    "lastModifiedIso": "2026-05-23T16:38:38+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Chamada para criativos",
+      "NASA busca ajuda para contar histórias de missões"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Chamada para criativos",
+      "NASA busca ajuda para contar histórias de missões"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Call for creatives",
+      "NASA seeks help telling mission stories"
+    ],
+    "srcUrl": "https://www.nasa.gov/news-release/call-for-creatives-nasa-seeks-help-illuminating-mission-storytelling/",
+    "realUrl": "https://www.cosmosweek.com/?article=call-for-creatives-nasa-seeks-help-illuminating-mission-storytelling",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=call-for-creatives-nasa-seeks-help-illuminating-mission-storytelling",
+    "realUrl_en": "https://www.cosmosweek.com/?article=call-for-creatives-nasa-seeks-help-illuminating-mission-storytelling&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/call-for-creatives-nasa-seeks-help-illuminating-mission-storytelling/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/call-for-creatives-nasa-seeks-help-illuminating-mission-storytelling/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/call-for-creatives-nasa-seeks-help-illuminating-mission-storytelling/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/call-for-creatives-nasa-seeks-help-illuminating-mission-storytelling/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/call-for-creatives-nasa-seeks-help-illuminating-mission-storytelling/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/call-for-creatives-nasa-seeks-help-illuminating-mission-storytelling/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Chamada para Criativos: NASA Busca Parceiros para Contar Histórias de Missões",
+    "imageAlt_pt": "Chamada para Criativos: NASA Busca Parceiros para Contar Histórias de Missões",
+    "imageAlt_en": "Call for Creatives: NASA Seeks Help Illuminating Mission Storytelling",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "new-material-could-help-nasa-melt-moon-rocks-harness-lunar-resources",
+    "cat": "Biologia",
+    "catCls": "biologia",
+    "img": "https://www.nasa.gov/wp-content/uploads/2026/05/feature-image-grc-2024-c-11488.jpg?w=2048",
+    "inline_images": [
+      {
+        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-1.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-2.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-3.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-4.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Material Inovador Ajuda NASA a Derreter Rochas Lunares para Aproveitamento de Recursos",
+    "title_pt": "Material Inovador Ajuda NASA a Derreter Rochas Lunares para Aproveitamento de Recursos",
+    "title_en": "New Material Could Help NASA Melt Moon Rocks, Harness Lunar Resources",
+    "sub": "Um material inovador, testado no Centro de Pesquisa Glenn da NASA em Cleveland, pode otimizar o equipamento dos astronautas para futuras missões lunares, facilitando o.",
+    "sub_pt": "Um material inovador, testado no Centro de Pesquisa Glenn da NASA em Cleveland, pode otimizar o equipamento dos astronautas para futuras missões lunares, facilitando o.",
+    "sub_en": "A material recently discovered and tested at NASA’s Glenn Research Center in Cleveland could help astronauts pack lighter for future missions to the Moon.",
+    "excerpt": "Um material inovador, testado no Centro de Pesquisa Glenn da NASA em Cleveland, pode otimizar o equipamento dos astronautas para futuras missões lunares, facilitando o derretimento de rochas e o aproveitamento de recursos.",
+    "excerpt_pt": "Um material inovador, testado no Centro de Pesquisa Glenn da NASA em Cleveland, pode otimizar o equipamento dos astronautas para futuras missões lunares, facilitando o derretimento de rochas e o aproveitamento de recursos.",
+    "excerpt_en": "A material recently discovered and tested at NASA’s Glenn Research Center in Cleveland could help astronauts pack lighter for future missions to the Moon.",
+    "highlights": [
+      "Em foco: Um material inovador, testado no Centro de Pesquisa Glenn da NASA em Cleveland, pode otimizar o equipamento dos astronautas para futuras missões",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Um material inovador, testado no Centro de Pesquisa Glenn da NASA em Cleveland, pode otimizar o equipamento dos astronautas para futuras missões",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: A material recently discovered and tested at NASA’s Glenn Research Center in Cleveland could help astronauts pack lighter for future missions to the",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "22 mai 2026",
+    "date_pt": "22 mai 2026",
+    "date_en": "22 May 2026",
+    "time": "14h00",
+    "time_pt": "14h00",
+    "time_en": "14: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-22T14:00:00+00:00",
+    "lastModifiedIso": "2026-05-23T16:38:38+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Biologia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Novo material pode ajudar a NASA a derreter rochas lunares e aproveitar os recursos lunares"
+    ],
+    "keywords_pt": [
+      "Biologia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Novo material pode ajudar a NASA a derreter rochas lunares e aproveitar os recursos lunares"
+    ],
+    "keywords_en": [
+      "Biology",
+      "NASA News Releases",
+      "Cosmos Week",
+      "New material could help NASA melt lunar rocks and harness lunar resources"
+    ],
+    "srcUrl": "https://www.nasa.gov/general/new-material-melt-moon-rocks/",
+    "realUrl": "https://www.cosmosweek.com/?article=new-material-could-help-nasa-melt-moon-rocks-harness-lunar-resources",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=new-material-could-help-nasa-melt-moon-rocks-harness-lunar-resources",
+    "realUrl_en": "https://www.cosmosweek.com/?article=new-material-could-help-nasa-melt-moon-rocks-harness-lunar-resources&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/new-material-could-help-nasa-melt-moon-rocks-harness-lunar-resources/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/new-material-could-help-nasa-melt-moon-rocks-harness-lunar-resources/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/new-material-could-help-nasa-melt-moon-rocks-harness-lunar-resources/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/new-material-could-help-nasa-melt-moon-rocks-harness-lunar-resources/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/new-material-could-help-nasa-melt-moon-rocks-harness-lunar-resources/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/new-material-could-help-nasa-melt-moon-rocks-harness-lunar-resources/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 86,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Material Inovador Ajuda NASA a Derreter Rochas Lunares para Aproveitamento de Recursos",
+    "imageAlt_pt": "Material Inovador Ajuda NASA a Derreter Rochas Lunares para Aproveitamento de Recursos",
+    "imageAlt_en": "New Material Could Help NASA Melt Moon Rocks, Harness Lunar Resources",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
     "slug": "tornado-draws-a-jagged-line-in-mississippi",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -159,7 +435,7 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 4,
     "slug": "nasa-seeks-interest-for-artemis-mission-cubesats",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -177,19 +453,19 @@
     "excerpt_pt": "A NASA convida organizações interessadas em lançar CubeSats em futuras missões Artemis a responderem à sua Solicitação de Informações (RFI) até segunda-feira, 1º de junho, para consideração inicial.",
     "excerpt_en": "Organizations interested in launching CubeSats on future Artemis missions should respond to NASA’s request for information by Monday, June 1, for initial consideration.",
     "highlights": [
-      "Em foco: A NASA convida organizações interessadas em lançar CubeSats em futuras missões Artemis a responderem à sua Solicitação de Informações (RFI) até",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A NASA convida organizações interessadas em lançar CubeSats em futuras missões Artemis a responderem à sua Solicitação de Informações (RFI) até.",
+      "Dado-chave: A NASA convida organizações interessadas em lançar CubeSats em futuras missões Artemis a responderem à sua Solicitação de Informações (RFI) até",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A NASA convida organizações interessadas em lançar CubeSats em futuras missões Artemis a responderem à sua Solicitação de Informações (RFI) até",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A NASA convida organizações interessadas em lançar CubeSats em futuras missões Artemis a responderem à sua Solicitação de Informações (RFI) até.",
+      "Dado-chave: A NASA convida organizações interessadas em lançar CubeSats em futuras missões Artemis a responderem à sua Solicitação de Informações (RFI) até",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Organizations interested in launching CubeSats on future Artemis missions should respond to NASA’s request for information by Monday, June 1, for",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Organizations interested in launching CubeSats on future Artemis missions should respond to NASA’s request for information by Monday, June 1, for.",
+      "Key detail: Organizations interested in launching CubeSats on future Artemis missions should respond to NASA’s request for information by Monday, June 1, for",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "21 mai 2026",
     "date_pt": "21 mai 2026",
@@ -277,7 +553,7 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 5,
     "slug": "from-protogalaxy-through-thick-and-thin-why-did-the-milky-way-evolve-in-three-kinematic-phases",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -397,7 +673,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 6,
     "slug": "nasa-highlights-2025-international-space-station-science-results",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -426,7 +702,7 @@
     ],
     "highlights_en": [
       "Core point: To dive deeper into the International Space Station research achievements from the past year, browse the 2025 Annual Highlights of Results, which.",
-      "Key detail: To dive deeper into the International Space Station research achievements from the past year, browse the 2025 Annual Highlights of Results, which",
+      "Key detail: To dive deeper into the International Space Station research achievements from the past year, browse the 2025 Annual Highlights of Results.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "21 mai 2026",
@@ -515,7 +791,7 @@
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 7,
     "slug": "insights-into-earth-s-molten-outer-core-from-space",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -670,141 +946,7 @@
     "storyKind": "science"
   },
   {
-    "id": 6,
-    "slug": "lunar-robots-nasa-spotlights-moon-base-at-2026-first-robotics-competition",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://www.nasa.gov/wp-content/uploads/2026/05/2m2a1740-1.jpg",
-    "inline_images": [],
-    "video": {
-      "kind": "embed",
-      "platform": "youtube",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/TYasUWRkv4E?rel=0&modestbranding=1",
-      "fileUrl": "",
-      "poster": "",
-      "title": "",
-      "title_pt": "",
-      "title_en": "",
-      "caption": "",
-      "caption_pt": "",
-      "caption_en": "",
-      "sourcePage": "https://www.nasa.gov/centers-and-facilities/johnson/lunar-robots-nasa-spotlights-moon-base-at-2026-first-robotics-competition/"
-    },
-    "audio": null,
-    "title": "Robôs lunares: NASA destaca base lunar na FIRST Robotics Competition de 2026",
-    "title_pt": "Robôs lunares: NASA destaca base lunar na FIRST Robotics Competition de 2026",
-    "title_en": "Lunar Robots: NASA Spotlights Moon Base at 2026 FIRST Robotics Competition",
-    "sub": "A robótica desempenhará um papel crucial no ambicioso plano da NASA para estabelecer uma presença de longo prazo na Lua, criando oportunidades significativas para a próxima.",
-    "sub_pt": "A robótica desempenhará um papel crucial no ambicioso plano da NASA para estabelecer uma presença de longo prazo na Lua, criando oportunidades significativas para a próxima.",
-    "sub_en": "Robotics will play a critical role in NASA’s ambitious plan to establish a long-term presence on the Moon, presenting opportunities for the next generation of engineers.",
-    "excerpt": "A robótica desempenhará um papel crucial no ambicioso plano da NASA para estabelecer uma presença de longo prazo na Lua, criando oportunidades significativas para a próxima geração de engenheiros e inovadores.",
-    "excerpt_pt": "A robótica desempenhará um papel crucial no ambicioso plano da NASA para estabelecer uma presença de longo prazo na Lua, criando oportunidades significativas para a próxima geração de engenheiros e inovadores.",
-    "excerpt_en": "Robotics will play a critical role in NASA’s ambitious plan to establish a long-term presence on the Moon, presenting opportunities for the next generation of engineers, technologists, and innovators to contribute to a bold vision for the.",
-    "highlights": [
-      "Ponto central: A robótica desempenhará um papel crucial no ambicioso plano da NASA para estabelecer uma presença de longo prazo na Lua, criando oportunidades.",
-      "Dado-chave: A robótica desempenhará um papel crucial no ambicioso plano da NASA para estabelecer uma presença de longo prazo na Lua, criando oportunidades",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: A robótica desempenhará um papel crucial no ambicioso plano da NASA para estabelecer uma presença de longo prazo na Lua, criando oportunidades.",
-      "Dado-chave: A robótica desempenhará um papel crucial no ambicioso plano da NASA para estabelecer uma presença de longo prazo na Lua, criando oportunidades",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Robotics will play a critical role in NASA’s ambitious plan to establish a long-term presence on the Moon, presenting opportunities for the next.",
-      "Key detail: Robotics will play a critical role in NASA’s ambitious plan to establish a long-term presence on the Moon, presenting opportunities for the next",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "21 mai 2026",
-    "date_pt": "21 mai 2026",
-    "date_en": "21 May 2026",
-    "time": "09h00",
-    "time_pt": "09h00",
-    "time_en": "09: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-21T09:00:00+00:00",
-    "lastModifiedIso": "2026-05-21T17:57:38+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Robôs lunares",
-      "NASA destaca base lunar na FIRST Robotics Competition de 2026"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Robôs lunares",
-      "NASA destaca base lunar na FIRST Robotics Competition de 2026"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Lunar robots",
-      "NASA Highlights Lunar Base at 2026 FIRST Robotics Competition"
-    ],
-    "srcUrl": "https://www.nasa.gov/centers-and-facilities/johnson/lunar-robots-nasa-spotlights-moon-base-at-2026-first-robotics-competition/",
-    "realUrl": "https://www.cosmosweek.com/?article=lunar-robots-nasa-spotlights-moon-base-at-2026-first-robotics-competition",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=lunar-robots-nasa-spotlights-moon-base-at-2026-first-robotics-competition",
-    "realUrl_en": "https://www.cosmosweek.com/?article=lunar-robots-nasa-spotlights-moon-base-at-2026-first-robotics-competition&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/lunar-robots-nasa-spotlights-moon-base-at-2026-first-robotics-competition/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/lunar-robots-nasa-spotlights-moon-base-at-2026-first-robotics-competition/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/lunar-robots-nasa-spotlights-moon-base-at-2026-first-robotics-competition/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/lunar-robots-nasa-spotlights-moon-base-at-2026-first-robotics-competition/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/lunar-robots-nasa-spotlights-moon-base-at-2026-first-robotics-competition/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/lunar-robots-nasa-spotlights-moon-base-at-2026-first-robotics-competition/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 86,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Robôs lunares: NASA destaca base lunar na FIRST Robotics Competition de 2026",
-    "imageAlt_pt": "Robôs lunares: NASA destaca base lunar na FIRST Robotics Competition de 2026",
-    "imageAlt_en": "Lunar Robots: NASA Spotlights Moon Base at 2026 FIRST Robotics Competition",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 7,
+    "id": 8,
     "slug": "new-eruption-in-the-bismarck-sea",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -850,19 +992,19 @@
     "excerpt_pt": "Imagens de satélite mostram uma onda de nova atividade vulcânica no oceano perto de Papua Nova Guiné.",
     "excerpt_en": "Satellite imagery shows a surge of new volcanic activity in the ocean near Papua New Guinea. The post New Eruption in the Bismarck Sea appeared first on NASA Science.",
     "highlights": [
-      "Em foco: Imagens de satélite mostram uma onda de nova atividade vulcânica no oceano perto de Papua Nova Guiné",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Imagens de satélite mostram uma onda de nova atividade vulcânica no oceano perto de Papua Nova Guiné.",
+      "Dado-chave: Imagens de satélite mostram uma onda de nova atividade vulcânica no oceano perto de Papua Nova Guiné",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Imagens de satélite mostram uma onda de nova atividade vulcânica no oceano perto de Papua Nova Guiné",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Imagens de satélite mostram uma onda de nova atividade vulcânica no oceano perto de Papua Nova Guiné.",
+      "Dado-chave: Imagens de satélite mostram uma onda de nova atividade vulcânica no oceano perto de Papua Nova Guiné",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Satellite imagery shows a surge of new volcanic activity in the ocean near Papua New Guinea",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Satellite imagery shows a surge of new volcanic activity in the ocean near Papua New Guinea.",
+      "Key detail: Satellite imagery shows a surge of new volcanic activity in the ocean near Papua New Guinea",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "21 mai 2026",
     "date_pt": "21 mai 2026",
@@ -943,152 +1085,6 @@
     "imageAlt": "Nova Erupção no Mar de Bismarck",
     "imageAlt_pt": "Nova Erupção no Mar de Bismarck",
     "imageAlt_en": "New Eruption in the Bismarck Sea",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 8,
-    "slug": "nasa-developed-ai-could-help-track-harmful-algae",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://www.nasa.gov/wp-content/uploads/2026/05/pace-gulf.png",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/fire-chars-santa-rosa-island/channelislandsfire_oli2_20260516_th.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/farming-in-ancient-lake-agassiz/ISS074-E-494130_th.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/kids/nasa-kids-science/earth/mission-pace/pace.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "IA desenvolvida pela NASA pode ajudar a rastrear algas nocivas",
-    "title_pt": "IA desenvolvida pela NASA pode ajudar a rastrear algas nocivas",
-    "title_en": "NASA-developed AI Could Help Track Harmful Algae",
-    "sub": "Cientistas da NASA desenvolveram uma ferramenta de inteligência artificial para enfrentar um desafio de longa data nas águas oceânicas.",
-    "sub_pt": "Cientistas da NASA desenvolveram uma ferramenta de inteligência artificial para enfrentar um desafio de longa data nas águas oceânicas.",
-    "sub_en": "NASA scientists have developed an artificial intelligence tool to take on a longstanding challenge in ocean waters.",
-    "excerpt": "Cientistas da NASA desenvolveram uma ferramenta de inteligência artificial para enfrentar um desafio de longa data nas águas oceânicas.",
-    "excerpt_pt": "Cientistas da NASA desenvolveram uma ferramenta de inteligência artificial para enfrentar um desafio de longa data nas águas oceânicas.",
-    "excerpt_en": "NASA scientists have developed an artificial intelligence tool to take on a longstanding challenge in ocean waters. In a study recently published in AGU Earth and Space Science, researchers reported the tool was able to fuse data from.",
-    "highlights": [
-      "Ponto central: Cientistas da NASA desenvolveram uma ferramenta de inteligência artificial para enfrentar um desafio de longa data nas águas oceânicas.",
-      "Dado-chave: Cientistas da NASA desenvolveram uma ferramenta de inteligência artificial para enfrentar um desafio de longa data nas águas oceânicas",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Cientistas da NASA desenvolveram uma ferramenta de inteligência artificial para enfrentar um desafio de longa data nas águas oceânicas.",
-      "Dado-chave: Cientistas da NASA desenvolveram uma ferramenta de inteligência artificial para enfrentar um desafio de longa data nas águas oceânicas",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: NASA scientists have developed an artificial intelligence tool to take on a longstanding challenge in ocean waters.",
-      "Key detail: NASA scientists have developed an artificial intelligence tool to take on a longstanding challenge in ocean waters",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "20 mai 2026",
-    "date_pt": "20 mai 2026",
-    "date_en": "20 May 2026",
-    "time": "17h39",
-    "time_pt": "17h39",
-    "time_en": "17: 39 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-20T17:39:10+00:00",
-    "lastModifiedIso": "2026-05-20T18:14:57+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "IA desenvolvida pela NASA pode ajudar a rastrear algas nocivas"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "IA desenvolvida pela NASA pode ajudar a rastrear algas nocivas"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "AI developed by NASA could help track harmful algae"
-    ],
-    "srcUrl": "https://www.nasa.gov/science-research/earth-science/nasa-developed-ai-could-help-track-harmful-algae/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-developed-ai-could-help-track-harmful-algae",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-developed-ai-could-help-track-harmful-algae",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-developed-ai-could-help-track-harmful-algae&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-developed-ai-could-help-track-harmful-algae/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-developed-ai-could-help-track-harmful-algae/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-developed-ai-could-help-track-harmful-algae/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-developed-ai-could-help-track-harmful-algae/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-developed-ai-could-help-track-harmful-algae/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-developed-ai-could-help-track-harmful-algae/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": true,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "IA desenvolvida pela NASA pode ajudar a rastrear algas nocivas",
-    "imageAlt_pt": "IA desenvolvida pela NASA pode ajudar a rastrear algas nocivas",
-    "imageAlt_en": "NASA-developed AI Could Help Track Harmful Algae",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
@@ -2310,17 +2306,17 @@
     "excerpt_en": "This latest Picture of the Month from the NASA/ESA/CSA James Webb Space Telescope features Messier 77, a barred spiral galaxy famous among astronomers for its combination of relative proximity and spectacular features to study.",
     "highlights": [
       "Ponto central: A mais recente Imagem do Mês do Telescópio Espacial James Webb (NASA/ESA/CSA) revela Messier 77, uma galáxia espiral barrada notável por sua.",
-      "Dado-chave: A mais recente Imagem do Mês do Telescópio Espacial James Webb (NASA/ESA/CSA) revela Messier 77, uma galáxia espiral barrada notável por sua",
+      "Dado-chave: A mais recente Imagem do Mês do Telescópio Espacial James Webb (NASA/ESA/CSA) revela Messier 77, uma galáxia espiral barrada notável por sua.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: A mais recente Imagem do Mês do Telescópio Espacial James Webb (NASA/ESA/CSA) revela Messier 77, uma galáxia espiral barrada notável por sua.",
-      "Dado-chave: A mais recente Imagem do Mês do Telescópio Espacial James Webb (NASA/ESA/CSA) revela Messier 77, uma galáxia espiral barrada notável por sua",
+      "Dado-chave: A mais recente Imagem do Mês do Telescópio Espacial James Webb (NASA/ESA/CSA) revela Messier 77, uma galáxia espiral barrada notável por sua.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: This latest Picture of the Month from the NASA/ESA/CSA James Webb Space Telescope features Messier 77, a barred spiral galaxy famous among.",
-      "Key detail: This latest Picture of the Month from the NASA/ESA/CSA James Webb Space Telescope features Messier 77, a barred spiral galaxy famous among",
+      "Key detail: This latest Picture of the Month from the NASA/ESA/CSA James Webb Space Telescope features Messier 77, a barred spiral galaxy famous among.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "07 mai 2026",
