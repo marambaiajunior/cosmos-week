@@ -466,17 +466,17 @@
     "body_en": "<p>Organizations interested in launching CubeSats on future Artemis missions should respond to NASA’s request for information by Monday, June 1, for initial consideration. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Organizations interested in launching CubeSats on future Artemis missions should respond to NASA’s request for information (RFI) by Monday, June 1, for initial consideration. The SLS (Space Launch System) rocket and the Artemis missions provide great opportunities for teams to conduct important, science and technology investigations that contribute to.</p><p>Two of the Artemis II CubeSats can be seen in the lower portion of the Orion stage adapter on the right side of the image. Share Details Last Updated May 21, 2026 Editor Lee Mohon Contact Jonathan Deal jonathan. e. deal@nasa.</p><p>Organizations interested in launching CubeSats on future Artemis missions should respond to NASA’s request for information (RFI) by Monday, June 1, for Article Two of the Artemis. NASA Organizations interested in launching CubeSats on future Artemis missions should respond to NASA’s request for information (RFI) by Monday, June 1, for initial consideration.</p><p>While NASA is reviewing specific mission profiles, the agency expects to accommodate 6U and 12U-sized CubeSats that would deploy in Earth orbit or on a heliocentric disposal. Opportunities may also exist for CubeSats deployed on a reentry trajectory from Earth orbit.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>CubeSat sizes are measured in “one unit” or “1U” increments, each measuring 10x10x10 centimeters. NASA flew 10 CubeSats on the uncrewed Artemis I mission in 2022 and four on the crewed Artemis II mission, deploying each after the upper stage detached from the spacecraft and.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/artemis/nasa-seeks-interest-for-artemis-mission-cubesats/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: A NASA convida organizações interessadas em lançar CubeSats em futuras missões Artemis a responderem à sua Solicitação de Informações (RFI) até.",
-      "Dado-chave: A NASA convida organizações interessadas em lançar CubeSats em futuras missões Artemis a responderem à sua Solicitação de Informações (RFI) até",
+      "Dado-chave: A NASA convida organizações interessadas em lançar CubeSats em futuras missões Artemis a responderem à sua Solicitação de Informações (RFI) até.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: A NASA convida organizações interessadas em lançar CubeSats em futuras missões Artemis a responderem à sua Solicitação de Informações (RFI) até.",
-      "Dado-chave: A NASA convida organizações interessadas em lançar CubeSats em futuras missões Artemis a responderem à sua Solicitação de Informações (RFI) até",
+      "Dado-chave: A NASA convida organizações interessadas em lançar CubeSats em futuras missões Artemis a responderem à sua Solicitação de Informações (RFI) até.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: Organizations interested in launching CubeSats on future Artemis missions should respond to NASA’s request for information by Monday, June 1, for.",
-      "Key detail: Organizations interested in launching CubeSats on future Artemis missions should respond to NASA’s request for information by Monday, June 1, for",
+      "Key detail: Organizations interested in launching CubeSats on future Artemis missions should respond to NASA’s request for information by Monday, June 1.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "21 mai 2026",
@@ -5030,7 +5030,22 @@
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
+    "storyKind": "science",
+    "body": "",
+    "body_pt": "",
+    "body_en": "",
+    "highlights": [
+      "Ponto central: O Telescópio solar ESPRESSO do Paranal (PoET), instalado no Observatório Europeu do Sul (ESO), no Chile, realizou suas primeiras observações.",
+      "Origem institucional: distinguir anúncio de evidência."
+    ],
+    "highlights_pt": [
+      "Ponto central: O Telescópio solar ESPRESSO do Paranal (PoET), instalado no Observatório Europeu do Sul (ESO), no Chile, realizou suas primeiras observações.",
+      "Origem institucional: distinguir anúncio de evidência."
+    ],
+    "highlights_en": [
+      "Core point: The Paranal solar ESPRESSO Telescope, installed at the European Southern Observatory's Paranal site in Chile, has made its first observations.",
+      "Institutional origin: separate announcement from evidence."
+    ]
   },
   {
     "id": 37,
