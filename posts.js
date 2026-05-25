@@ -5038,14 +5038,17 @@ window.postsData = [
     "body_en": "",
     "highlights": [
       "Ponto central: O Telescópio solar ESPRESSO do Paranal (PoET), instalado no Observatório Europeu do Sul (ESO), no Chile, realizou suas primeiras observações.",
+      "Dado-chave: O Telescópio solar ESPRESSO do Paranal (PoET), instalado no Observatório Europeu do Sul (ESO), no Chile, realizou suas primeiras observações.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: O Telescópio solar ESPRESSO do Paranal (PoET), instalado no Observatório Europeu do Sul (ESO), no Chile, realizou suas primeiras observações.",
+      "Dado-chave: O Telescópio solar ESPRESSO do Paranal (PoET), instalado no Observatório Europeu do Sul (ESO), no Chile, realizou suas primeiras observações.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: The Paranal solar ESPRESSO Telescope, installed at the European Southern Observatory's Paranal site in Chile, has made its first observations.",
+      "Key detail: The Paranal solar ESPRESSO Telescope, installed at the European Southern Observatory's Paranal site in Chile, has made its first observations.",
       "Institutional origin: separate announcement from evidence."
     ]
   },
