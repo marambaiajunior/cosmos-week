@@ -1,6 +1,161 @@
 [
   {
     "id": 1,
+    "slug": "jaclyn-kagey-shapes-humanity-s-return-to-the-moon",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://www.nasa.gov/wp-content/uploads/2026/01/4-nb2-9930-a.jpg",
+    "inline_images": [
+      {
+        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-1.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-2.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-3.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-4.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Jaclyn Kagey molda o retorno da humanidade à Lua",
+    "title_pt": "Jaclyn Kagey molda o retorno da humanidade à Lua",
+    "title_en": "Jaclyn Kagey Shapes Humanity’s Return to the Moon",
+    "sub": "Jaclyn Kagey, líder de atividade extraveicular do programa Artemis na NASA, desempenha um papel crucial na preparação diária dos astronautas para as futuras missões lunares.",
+    "sub_pt": "Jaclyn Kagey, líder de atividade extraveicular do programa Artemis na NASA, desempenha um papel crucial na preparação diária dos astronautas para as futuras missões lunares.",
+    "sub_en": "For Jaclyn Kagey, preparing astronauts to put boots on the Moon is part of her daily work.",
+    "excerpt": "Jaclyn Kagey, líder de atividade extraveicular do programa Artemis na NASA, desempenha um papel crucial na preparação diária dos astronautas para as futuras missões lunares.",
+    "excerpt_pt": "Jaclyn Kagey, líder de atividade extraveicular do programa Artemis na NASA, desempenha um papel crucial na preparação diária dos astronautas para as futuras missões lunares.",
+    "excerpt_en": "For Jaclyn Kagey, preparing astronauts to put boots on the Moon is part of her daily work. As the Artemis extravehicular activity lead in NASA’s Flight Operations Directorate, Kagey plays a central role in preparing astronauts to safely.",
+    "highlights": [
+      "Em foco: Jaclyn Kagey, líder de atividade extraveicular do programa Artemis na NASA, desempenha um papel crucial na preparação diária dos astronautas para as",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Jaclyn Kagey, líder de atividade extraveicular do programa Artemis na NASA, desempenha um papel crucial na preparação diária dos astronautas para as",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: For Jaclyn Kagey, preparing astronauts to put boots on the Moon is part of her daily work",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "26 mai 2026",
+    "date_pt": "26 mai 2026",
+    "date_en": "26 May 2026",
+    "time": "03h09",
+    "time_pt": "03h09",
+    "time_en": "03: 09 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-05-26T03:09:55+00:00",
+    "lastModifiedIso": "2026-05-26T18:28:43+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Jaclyn Kagey molda o retorno da humanidade à Lua"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Jaclyn Kagey molda o retorno da humanidade à Lua"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Jaclyn Kagey Shapes Humanity's Return to the Moon"
+    ],
+    "srcUrl": "https://www.nasa.gov/centers-and-facilities/johnson/jaclyn-kagey-shapes-humanitys-return-to-the-moon/",
+    "realUrl": "https://www.cosmosweek.com/?article=jaclyn-kagey-shapes-humanity-s-return-to-the-moon",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=jaclyn-kagey-shapes-humanity-s-return-to-the-moon",
+    "realUrl_en": "https://www.cosmosweek.com/?article=jaclyn-kagey-shapes-humanity-s-return-to-the-moon&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/jaclyn-kagey-shapes-humanity-s-return-to-the-moon/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/jaclyn-kagey-shapes-humanity-s-return-to-the-moon/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/jaclyn-kagey-shapes-humanity-s-return-to-the-moon/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/jaclyn-kagey-shapes-humanity-s-return-to-the-moon/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/jaclyn-kagey-shapes-humanity-s-return-to-the-moon/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/jaclyn-kagey-shapes-humanity-s-return-to-the-moon/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 86,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Jaclyn Kagey molda o retorno da humanidade à Lua",
+    "imageAlt_pt": "Jaclyn Kagey molda o retorno da humanidade à Lua",
+    "imageAlt_en": "Jaclyn Kagey Shapes Humanity’s Return to the Moon",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
     "slug": "call-for-creatives-nasa-seeks-help-illuminating-mission-storytelling",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -121,7 +276,7 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "new-material-could-help-nasa-melt-moon-rocks-harness-lunar-resources",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -176,19 +331,19 @@
     "excerpt_pt": "Um material inovador, testado no Centro de Pesquisa Glenn da NASA em Cleveland, pode otimizar o equipamento dos astronautas para futuras missões lunares, facilitando o derretimento de rochas e o aproveitamento de recursos.",
     "excerpt_en": "A material recently discovered and tested at NASA’s Glenn Research Center in Cleveland could help astronauts pack lighter for future missions to the Moon.",
     "highlights": [
-      "Em foco: Um material inovador, testado no Centro de Pesquisa Glenn da NASA em Cleveland, pode otimizar o equipamento dos astronautas para futuras missões",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Um material inovador, testado no Centro de Pesquisa Glenn da NASA em Cleveland, pode otimizar o equipamento dos astronautas para futuras missões.",
+      "Dado-chave: Um material inovador, testado no Centro de Pesquisa Glenn da NASA em Cleveland, pode otimizar o equipamento dos astronautas para futuras missões",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Um material inovador, testado no Centro de Pesquisa Glenn da NASA em Cleveland, pode otimizar o equipamento dos astronautas para futuras missões",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Um material inovador, testado no Centro de Pesquisa Glenn da NASA em Cleveland, pode otimizar o equipamento dos astronautas para futuras missões.",
+      "Dado-chave: Um material inovador, testado no Centro de Pesquisa Glenn da NASA em Cleveland, pode otimizar o equipamento dos astronautas para futuras missões",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: A material recently discovered and tested at NASA’s Glenn Research Center in Cleveland could help astronauts pack lighter for future missions to the",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: A material recently discovered and tested at NASA’s Glenn Research Center in Cleveland could help astronauts pack lighter for future missions to the.",
+      "Key detail: A material recently discovered and tested at NASA’s Glenn Research Center in Cleveland could help astronauts pack lighter for future missions to.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "22 mai 2026",
     "date_pt": "22 mai 2026",
@@ -276,7 +431,7 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "tornado-draws-a-jagged-line-in-mississippi",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -435,7 +590,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "nasa-seeks-interest-for-artemis-mission-cubesats",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -553,7 +708,7 @@
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "from-protogalaxy-through-thick-and-thin-why-did-the-milky-way-evolve-in-three-kinematic-phases",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -571,18 +726,19 @@
     "excerpt_pt": "Os dados do APOGEE e do Gaia revelaram que a estrutura da Via Láctea parece ter evoluído através de três fases cinemáticas distintas.",
     "excerpt_en": "APOGEE and Gaia data have revealed that the Milky Way's structure appears to have evolved through three distinct kinematic phases.",
     "highlights": [
-      "Em foco: Os dados do APOGEE e do Gaia revelaram que a estrutura da Via Láctea parece ter evoluído através de três fases cinemáticas distintas",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Os dados do APOGEE e do Gaia revelaram que a estrutura da Via Láctea parece ter evoluído através de três fases cinemáticas distintas.",
+      "Dado-chave: Os dados do APOGEE e do Gaia revelaram que a estrutura da Via Láctea parece ter evoluído através de três fases cinemáticas distintas",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Os dados do APOGEE e do Gaia revelaram que a estrutura da Via Láctea parece ter evoluído através de três fases cinemáticas distintas",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Os dados do APOGEE e do Gaia revelaram que a estrutura da Via Láctea parece ter evoluído através de três fases cinemáticas distintas.",
+      "Dado-chave: Os dados do APOGEE e do Gaia revelaram que a estrutura da Via Láctea parece ter evoluído através de três fases cinemáticas distintas",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: APOGEE and Gaia data have revealed that the Milky Way's structure appears to have evolved through three distinct kinematic phases",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: APOGEE and Gaia data have revealed that the Milky Way's structure appears to have evolved through three distinct kinematic phases.",
+      "Key detail: APOGEE and Gaia data have revealed that the Milky Way's structure appears to have evolved through three distinct kinematic phases",
+      "Result not yet peer reviewed."
     ],
     "date": "21 mai 2026",
     "date_pt": "21 mai 2026",
@@ -670,124 +826,6 @@
     "coverageKindLabel": "Preprint",
     "coverageKindLabel_pt": "Preprint",
     "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 6,
-    "slug": "nasa-highlights-2025-international-space-station-science-results",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://www.nasa.gov/wp-content/uploads/2026/05/iss072e279980.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "NASA destaca resultados científicos da Estação Espacial Internacional de 2025",
-    "title_pt": "NASA destaca resultados científicos da Estação Espacial Internacional de 2025",
-    "title_en": "NASA Highlights 2025 International Space Station Science Results",
-    "sub": "Para se aprofundar nas conquistas de pesquisa da Estação Espacial Internacional no ano passado, navegue nos Destaques Anuais de Resultados de 2025, que a NASA divulgou em maio de.",
-    "sub_pt": "Para se aprofundar nas conquistas de pesquisa da Estação Espacial Internacional no ano passado, navegue nos Destaques Anuais de Resultados de 2025, que a NASA divulgou em maio de.",
-    "sub_en": "To dive deeper into the International Space Station research achievements from the past year, browse the 2025 Annual Highlights of Results, which NASA released in May 2026.",
-    "excerpt": "Para se aprofundar nas conquistas de pesquisa da Estação Espacial Internacional no ano passado, navegue nos Destaques Anuais de Resultados de 2025, que a NASA divulgou em maio de 2026.",
-    "excerpt_pt": "Para se aprofundar nas conquistas de pesquisa da Estação Espacial Internacional no ano passado, navegue nos Destaques Anuais de Resultados de 2025, que a NASA divulgou em maio de 2026.",
-    "excerpt_en": "To dive deeper into the International Space Station research achievements from the past year, browse the 2025 Annual Highlights of Results, which NASA released in May 2026.",
-    "highlights": [
-      "Ponto central: Para se aprofundar nas conquistas de pesquisa da Estação Espacial Internacional no ano passado, navegue nos Destaques Anuais de Resultados de 2025.",
-      "Dado-chave: Para se aprofundar nas conquistas de pesquisa da Estação Espacial Internacional no ano passado, navegue nos Destaques Anuais de Resultados de.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Para se aprofundar nas conquistas de pesquisa da Estação Espacial Internacional no ano passado, navegue nos Destaques Anuais de Resultados de 2025.",
-      "Dado-chave: Para se aprofundar nas conquistas de pesquisa da Estação Espacial Internacional no ano passado, navegue nos Destaques Anuais de Resultados de.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: To dive deeper into the International Space Station research achievements from the past year, browse the 2025 Annual Highlights of Results, which.",
-      "Key detail: To dive deeper into the International Space Station research achievements from the past year, browse the 2025 Annual Highlights of Results.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "21 mai 2026",
-    "date_pt": "21 mai 2026",
-    "date_en": "21 May 2026",
-    "time": "14h00",
-    "time_pt": "14h00",
-    "time_en": "14: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-05-21T14:00:00+00:00",
-    "lastModifiedIso": "2026-05-21T17:57:38+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA destaca resultados científicos da Estação Espacial Internacional de 2025"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA destaca resultados científicos da Estação Espacial Internacional de 2025"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA highlights scientific results from the 2025 International Space Station"
-    ],
-    "srcUrl": "https://www.nasa.gov/missions/station/iss-research/nasa-highlights-2025-international-space-station-science-results/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-highlights-2025-international-space-station-science-results",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-highlights-2025-international-space-station-science-results",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-highlights-2025-international-space-station-science-results&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-highlights-2025-international-space-station-science-results/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-highlights-2025-international-space-station-science-results/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-highlights-2025-international-space-station-science-results/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-highlights-2025-international-space-station-science-results/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-highlights-2025-international-space-station-science-results/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-highlights-2025-international-space-station-science-results/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "NASA destaca resultados científicos da Estação Espacial Internacional de 2025",
-    "imageAlt_pt": "NASA destaca resultados científicos da Estação Espacial Internacional de 2025",
-    "imageAlt_en": "NASA Highlights 2025 International Space Station Science Results",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
     "storyKind": "science"
   },
   {
