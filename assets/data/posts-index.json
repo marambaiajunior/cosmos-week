@@ -1,6 +1,242 @@
 [
   {
     "id": 1,
+    "slug": "ames-science-stars-of-the-month-august-2026",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://www.nasa.gov/wp-content/uploads/2026/08/slide1.jpeg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Estrelas do mês da Ames Science – agosto de 2026",
+    "title_pt": "Estrelas do mês da Ames Science – agosto de 2026",
+    "title_en": "Ames Science Stars of the Month – August 2026",
+    "sub": "A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
+    "sub_pt": "A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
+    "sub_en": "The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud.",
+    "excerpt": "A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
+    "excerpt_pt": "A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
+    "excerpt_en": "The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud.",
+    "highlights": [
+      "Em foco: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "04 ago 2026",
+    "date_pt": "04 ago 2026",
+    "date_en": "04 Aug 2026",
+    "time": "17h08",
+    "time_pt": "17h08",
+    "time_en": "17: 08 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-04T17:08:04+00:00",
+    "lastModifiedIso": "2026-08-04T17:31:21+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Estrelas do mês da Ames Science – agosto de 2026"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Estrelas do mês da Ames Science – agosto de 2026"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Ames Science Stars of the Month – August 2026"
+    ],
+    "srcUrl": "https://www.nasa.gov/general/ames-science-stars-of-the-month-august-2026/",
+    "realUrl": "https://www.cosmosweek.com/?article=ames-science-stars-of-the-month-august-2026",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=ames-science-stars-of-the-month-august-2026",
+    "realUrl_en": "https://www.cosmosweek.com/?article=ames-science-stars-of-the-month-august-2026&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/ames-science-stars-of-the-month-august-2026/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/ames-science-stars-of-the-month-august-2026/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/ames-science-stars-of-the-month-august-2026/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/ames-science-stars-of-the-month-august-2026/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/ames-science-stars-of-the-month-august-2026/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/ames-science-stars-of-the-month-august-2026/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": true,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Estrelas do mês da Ames Science – agosto de 2026",
+    "imageAlt_pt": "Estrelas do mês da Ames Science – agosto de 2026",
+    "imageAlt_en": "Ames Science Stars of the Month – August 2026",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://www.nasa.gov/wp-content/uploads/2026/08/moon-base-update-slate.jpg?w=1920",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas",
+    "title_pt": "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas",
+    "title_en": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
+    "sub": "A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações.",
+    "sub_pt": "A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações.",
+    "sub_en": "NASA is making progress in building the Moon Base, which will become a resilient outpost near the Moon’s South Pole for science, technology, and eventual human operations.",
+    "excerpt": "A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações humanas.",
+    "excerpt_pt": "A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações humanas.",
+    "excerpt_en": "NASA is making progress in building the Moon Base, which will become a resilient outpost near the Moon’s South Pole for science, technology, and eventual human operations.",
+    "highlights": [
+      "Em foco: A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: NASA is making progress in building the Moon Base, which will become a resilient outpost near the Moon’s South Pole for science, technology, and",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "04 ago 2026",
+    "date_pt": "04 ago 2026",
+    "date_en": "04 Aug 2026",
+    "time": "16h14",
+    "time_pt": "16h14",
+    "time_en": "16: 14 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-04T16:14:51+00:00",
+    "lastModifiedIso": "2026-08-04T17:31:21+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA provides updates on lunar base payload modules and technical demonstrations"
+    ],
+    "srcUrl": "https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas",
+    "imageAlt_pt": "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas",
+    "imageAlt_en": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
     "slug": "a-bare-summer-for-barnes-ice-cap",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -137,7 +373,7 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 4,
     "slug": "nsf-stands-up-2-materials-innovation-platforms-with-50m-investment",
     "cat": "Física",
     "catCls": "fisica",
@@ -301,7 +537,7 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 5,
     "slug": "ike-theriot-helps-prepare-astronauts-to-work-on-the-moon",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -356,19 +592,19 @@
     "excerpt_pt": "Desde servir no Exército dos EUA até ajudar a preparar astronautas para explorar a superfície lunar, Ike Theriot construiu um caminho para a NASA através de disciplina e determinação.",
     "excerpt_en": "From serving in the U. S. Army to helping prepare astronauts to explore the lunar surface, Ike Theriot built a path to NASA through discipline and determination.",
     "highlights": [
-      "Em foco: Desde servir no Exército dos EUA até ajudar a preparar astronautas para explorar a superfície lunar, Ike Theriot construiu um caminho para a NASA",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Desde servir no Exército dos EUA até ajudar a preparar astronautas para explorar a superfície lunar, Ike Theriot construiu um caminho para a NASA.",
+      "Dado-chave: Desde servir no Exército dos EUA até ajudar a preparar astronautas para explorar a superfície lunar, Ike Theriot construiu um caminho para a NASA",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Desde servir no Exército dos EUA até ajudar a preparar astronautas para explorar a superfície lunar, Ike Theriot construiu um caminho para a NASA",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Desde servir no Exército dos EUA até ajudar a preparar astronautas para explorar a superfície lunar, Ike Theriot construiu um caminho para a NASA.",
+      "Dado-chave: Desde servir no Exército dos EUA até ajudar a preparar astronautas para explorar a superfície lunar, Ike Theriot construiu um caminho para a NASA",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: From serving in the U. S",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: From serving in the U. S. Army to helping prepare astronauts to explore the lunar surface, Ike Theriot built a path to NASA through discipline and.",
+      "Key detail: From serving in the U. S",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "03 ago 2026",
     "date_pt": "03 ago 2026",
@@ -456,7 +692,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 6,
     "slug": "tb-26-04-webbings-for-use-in-elevated-oxygen-environments",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -485,7 +721,7 @@
     ],
     "highlights_en": [
       "Core point: Flammability test results for commercial-off-the-shelf webbings that meet NASA flammability requirements are reported for use in elevated oxygen.",
-      "Key detail: Flammability test results for commercial-off-the-shelf webbings that meet NASA flammability requirements are reported for use in elevated oxygen",
+      "Key detail: Flammability test results for commercial-off-the-shelf webbings that meet NASA flammability requirements are reported for use in elevated oxygen.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "31 jul 2026",
@@ -577,128 +813,7 @@
     "storyKind": "science"
   },
   {
-    "id": 5,
-    "slug": "tb-26-05-webbings-for-use-in-elevated-oxygen-environments",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://www.nasa.gov/wp-content/uploads/2015/04/prepost-flammability-test-photo-of-natural-webbing.png",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "TB 26-05 Correias para Uso em Ambientes com Elevado Oxigênio",
-    "title_pt": "TB 26-05 Correias para Uso em Ambientes com Elevado Oxigênio",
-    "title_en": "TB 26-05 Webbings for Use in Elevated Oxygen Environments",
-    "sub": "Os resultados dos testes de inflamabilidade para correias comerciais que atendem aos requisitos de inflamabilidade da NASA são relatados para uso em ambientes com alto teor de.",
-    "sub_pt": "Os resultados dos testes de inflamabilidade para correias comerciais que atendem aos requisitos de inflamabilidade da NASA são relatados para uso em ambientes com alto teor de.",
-    "sub_en": "Flammability test results for commercial-off-the-shelf webbings that meet NASA flammability requirements are reported for use in elevated oxygen environments anticipated for.",
-    "excerpt": "Os resultados dos testes de inflamabilidade para correias comerciais que atendem aos requisitos de inflamabilidade da NASA são relatados para uso em ambientes com alto teor de oxigênio previstos para futuras missões lunares e marcianas.",
-    "excerpt_pt": "Os resultados dos testes de inflamabilidade para correias comerciais que atendem aos requisitos de inflamabilidade da NASA são relatados para uso em ambientes com alto teor de oxigênio previstos para futuras missões lunares e marcianas.",
-    "excerpt_en": "Flammability test results for commercial-off-the-shelf webbings that meet NASA flammability requirements are reported for use in elevated oxygen environments anticipated for future lunar and Martian missions.",
-    "highlights": [
-      "Em foco: Os resultados dos testes de inflamabilidade para correias comerciais que atendem aos requisitos de inflamabilidade da NASA são relatados para uso em",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: Os resultados dos testes de inflamabilidade para correias comerciais que atendem aos requisitos de inflamabilidade da NASA são relatados para uso em",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: Flammability test results for commercial-off-the-shelf webbings that meet NASA flammability requirements are reported for use in elevated oxygen",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "31 jul 2026",
-    "date_pt": "31 jul 2026",
-    "date_en": "31 Jul 2026",
-    "time": "19h05",
-    "time_pt": "19h05",
-    "time_en": "19: 05 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-07-31T19:05:25+00:00",
-    "lastModifiedIso": "2026-08-03T17:45:08+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "TB 26",
-      "05 Correias para Uso em Ambientes com Elevado Oxigênio"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "TB 26",
-      "05 Correias para Uso em Ambientes com Elevado Oxigênio"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "TB 26",
-      "05 Belts for Use in High Oxygen Environments"
-    ],
-    "srcUrl": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-05-webbings-for-use-in-elevated-oxygen-environments/",
-    "realUrl": "https://www.cosmosweek.com/?article=tb-26-05-webbings-for-use-in-elevated-oxygen-environments",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=tb-26-05-webbings-for-use-in-elevated-oxygen-environments",
-    "realUrl_en": "https://www.cosmosweek.com/?article=tb-26-05-webbings-for-use-in-elevated-oxygen-environments&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/tb-26-05-webbings-for-use-in-elevated-oxygen-environments/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/tb-26-05-webbings-for-use-in-elevated-oxygen-environments/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/tb-26-05-webbings-for-use-in-elevated-oxygen-environments/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/tb-26-05-webbings-for-use-in-elevated-oxygen-environments/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/tb-26-05-webbings-for-use-in-elevated-oxygen-environments/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/tb-26-05-webbings-for-use-in-elevated-oxygen-environments/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 86,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 49
-    },
-    "imageAlt": "TB 26-05 Correias para Uso em Ambientes com Elevado Oxigênio",
-    "imageAlt_pt": "TB 26-05 Correias para Uso em Ambientes com Elevado Oxigênio",
-    "imageAlt_en": "TB 26-05 Webbings for Use in Elevated Oxygen Environments",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 6,
+    "id": 7,
     "slug": "hydrognss-data-open-for-new-insights-into-earth-s-water",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -826,7 +941,7 @@
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -845,17 +960,17 @@
     "excerpt_en": "Cold, collisionless dark matter successfully explains a wide range of observations, including the formation of large-scale structure.",
     "highlights": [
       "Ponto central: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-      "Dado-chave: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala",
+      "Dado-chave: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
       "Ponto central: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-      "Dado-chave: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala",
+      "Dado-chave: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
       "Core point: Cold, collisionless dark matter successfully explains a wide range of observations, including the formation of large-scale structure.",
-      "Key detail: Cold, collisionless dark matter successfully explains a wide range of observations, including the formation of large-scale structure",
+      "Key detail: Cold, collisionless dark matter successfully explains a wide range of observations, including the formation of large-scale structure.",
       "Result not yet peer reviewed."
     ],
     "date": "30 jul 2026",
@@ -947,7 +1062,7 @@
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "smos-salinity-could-offer-early-indicator-of-el-nino",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -955,12 +1070,12 @@
     "inline_images": [
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/pacific_ocean_salinity_june_2026/27397989-1-eng-GB/Pacific_Ocean_salinity_June_2026_pillars.jpg",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
       }
     ],
     "video": null,
@@ -975,19 +1090,19 @@
     "excerpt_pt": "À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas também a salinidade da superfície do mar, que é outro indicador-chave deste fenómeno.",
     "excerpt_en": "As the Pacific Ocean moves into an El Niño phase, scientists are monitoring changes in sea-surface temperature, but also sea-surface salinity, which is another key indicator of this phenomenon.",
     "highlights": [
-      "Em foco: À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas também a",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas também a.",
+      "Dado-chave: À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas também a",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas também a.",
+      "Dado-chave: À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: As the Pacific Ocean moves into an El Niño phase, scientists are monitoring changes in sea-surface temperature, but also sea-surface salinity, which",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: As the Pacific Ocean moves into an El Niño phase, scientists are monitoring changes in sea-surface temperature, but also sea-surface salinity, which.",
+      "Key detail: As the Pacific Ocean moves into an El Niño phase, scientists are monitoring changes in sea-surface temperature, but also sea-surface salinity.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "30 jul 2026",
     "date_pt": "30 jul 2026",
@@ -1068,143 +1183,6 @@
     "imageAlt": "A salinidade do SMOS pode oferecer um indicador precoce do El Niño",
     "imageAlt_pt": "A salinidade do SMOS pode oferecer um indicador precoce do El Niño",
     "imageAlt_en": "SMOS salinity could offer early indicator of El Niño",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 9,
-    "slug": "nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://www.nasa.gov/wp-content/uploads/2026/07/1-pia26729-curiosity-discovers-a-field-of-martian-polygons.png",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2024/03/pia24173-crop.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/4740_NRA_402388588EDR_F0043416NCAM00442M_-full2.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Curiosity Mars Rover da NASA descobre campo de texturas de favo de mel",
-    "title_pt": "Curiosity Mars Rover da NASA descobre campo de texturas de favo de mel",
-    "title_en": "NASA’s Curiosity Mars Rover Discovers Field of Honeycomb Textures",
-    "sub": "Quando o rover Curiosity da NASA começou recentemente a escalar um vale marciano apelidado de “Valle Grande”, enviou imagens que eram familiares aos cientistas da missão: texturas.",
-    "sub_pt": "Quando o rover Curiosity da NASA começou recentemente a escalar um vale marciano apelidado de “Valle Grande”, enviou imagens que eram familiares aos cientistas da missão: texturas.",
-    "sub_en": "As NASA’s Curiosity rover recently began climbing up a Martian valley nicknamed “Valle Grande,” it sent back images that were a familiar sight to mission scientists.",
-    "excerpt": "Quando o rover Curiosity da NASA começou recentemente a escalar um vale marciano apelidado de “Valle Grande”, enviou imagens que eram familiares aos cientistas da missão: texturas semelhantes a favos de mel chamadas fracturas poligonais, cada uma com cerca de.",
-    "excerpt_pt": "Quando o rover Curiosity da NASA começou recentemente a escalar um vale marciano apelidado de “Valle Grande”, enviou imagens que eram familiares aos cientistas da missão: texturas semelhantes a favos de mel chamadas fracturas poligonais, cada uma com cerca de.",
-    "excerpt_en": "As NASA’s Curiosity rover recently began climbing up a Martian valley nicknamed “Valle Grande,” it sent back images that were a familiar sight to mission scientists: honeycomb-like textures called polygonal fractures, each one about 1.",
-    "highlights": [
-      "Ponto central: Quando o rover Curiosity da NASA começou recentemente a escalar um vale marciano apelidado de “Valle Grande”, enviou imagens que eram familiares aos.",
-      "Dado-chave: Quando o rover Curiosity da NASA começou recentemente a escalar um vale marciano apelidado de “Valle Grande”, enviou imagens que eram familiares.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Quando o rover Curiosity da NASA começou recentemente a escalar um vale marciano apelidado de “Valle Grande”, enviou imagens que eram familiares aos.",
-      "Dado-chave: Quando o rover Curiosity da NASA começou recentemente a escalar um vale marciano apelidado de “Valle Grande”, enviou imagens que eram familiares.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: As NASA’s Curiosity rover recently began climbing up a Martian valley nicknamed “Valle Grande,” it sent back images that were a familiar sight to.",
-      "Key detail: As NASA’s Curiosity rover recently began climbing up a Martian valley nicknamed “Valle Grande,” it sent back images that were a familiar sight.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "29 jul 2026",
-    "date_pt": "29 jul 2026",
-    "date_en": "29 Jul 2026",
-    "time": "15h30",
-    "time_pt": "15h30",
-    "time_en": "15: 30 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-07-29T15:30:00+00:00",
-    "lastModifiedIso": "2026-07-29T17:08:45+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Curiosity Mars Rover da NASA descobre campo de texturas de favo de mel"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Curiosity Mars Rover da NASA descobre campo de texturas de favo de mel"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA's Curiosity Mars Rover Discovers Field of Honeycomb Textures"
-    ],
-    "srcUrl": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-discovers-field-of-honeycomb-textures/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": true,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Curiosity Mars Rover da NASA descobre campo de texturas de favo de mel",
-    "imageAlt_pt": "Curiosity Mars Rover da NASA descobre campo de texturas de favo de mel",
-    "imageAlt_en": "NASA’s Curiosity Mars Rover Discovers Field of Honeycomb Textures",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",

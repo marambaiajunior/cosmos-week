@@ -3,6 +3,248 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "ames-science-stars-of-the-month-august-2026",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://www.nasa.gov/wp-content/uploads/2026/08/slide1.jpeg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Estrelas do mês da Ames Science – agosto de 2026",
+    "title_pt": "Estrelas do mês da Ames Science – agosto de 2026",
+    "title_en": "Ames Science Stars of the Month – August 2026",
+    "sub": "A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
+    "sub_pt": "A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
+    "sub_en": "The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud.",
+    "excerpt": "A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
+    "excerpt_pt": "A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
+    "excerpt_en": "The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud.",
+    "body": "<p>A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud. Estrela do mês em biociências espaciais: Danielle Lopez Danielle Lopez é vice-gerente de projeto do Repositório de dados científicos abertos da Amentum na Divisão de Biociências Espaciais.</p><p>Estrela do mês em astrofísica: Duncan Mifsud Duncan Mifsud é pesquisador de pós-doutorado no Bay Area Environmental Research Institute (BAERI) na Divisão de Astrofísica. A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de (foto da esquerda para a direita) Danielle Lopez, Jennifer Claudio e Duncan Mifsud.</p><p>Conteúdo do artigo Estrela do mês em biociências espaciais: Danielle Lopez Estrela do mês em biociências espaciais: Jennifer Claudio Estrela do mês em astrofísica: Duncan Mifsud A Diretoria de Ciências Ames da NASA reconhece as contribuições notáveis ​​​​de (foto da esquerda. O seu compromisso com a missão da NASA representa o espírito empreendedor, o conhecimento técnico e a disposição colaborativa necessários para explorar este mundo e mais além.</p><p>Danielle Lopez é vice-gerente de projeto do Open Science Data Repository da Amentum na Divisão de Biociências Espaciais. Ela é reconhecida por seus esforços de gestão que foram fundamentais para o sucesso da Ciência Aberta na NASA, incluindo colaborações entre diretorias da Ames, entre centros da NASA e com o público.</p><p>Danielle tem sido uma força estabilizadora crítica durante tempos desafiadores e tumultuados, mantendo vários projetos não apenas no caminho certo, mas na vanguarda da Ciência Aberta para toda a Agência. Estrela do mês em biociências espaciais: Jennifer Claudio Jennifer Claudio é membro da equipe de pesquisa da Blue Marble Space na Divisão de Biociências Espaciais.</p><p>Jennifer fez contribuições notáveis ​​no apoio ao programa de verão 2026 GeneLab for High School (GL4HS).</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/general/ames-science-stars-of-the-month-august-2026/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud. Estrela do mês em biociências espaciais: Danielle Lopez Danielle Lopez é vice-gerente de projeto do Repositório de dados científicos abertos da Amentum na Divisão de Biociências Espaciais.</p><p>Estrela do mês em astrofísica: Duncan Mifsud Duncan Mifsud é pesquisador de pós-doutorado no Bay Area Environmental Research Institute (BAERI) na Divisão de Astrofísica. A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de (foto da esquerda para a direita) Danielle Lopez, Jennifer Claudio e Duncan Mifsud.</p><p>Conteúdo do artigo Estrela do mês em biociências espaciais: Danielle Lopez Estrela do mês em biociências espaciais: Jennifer Claudio Estrela do mês em astrofísica: Duncan Mifsud A Diretoria de Ciências Ames da NASA reconhece as contribuições notáveis ​​​​de (foto da esquerda. O seu compromisso com a missão da NASA representa o espírito empreendedor, o conhecimento técnico e a disposição colaborativa necessários para explorar este mundo e mais além.</p><p>Danielle Lopez é vice-gerente de projeto do Open Science Data Repository da Amentum na Divisão de Biociências Espaciais. Ela é reconhecida por seus esforços de gestão que foram fundamentais para o sucesso da Ciência Aberta na NASA, incluindo colaborações entre diretorias da Ames, entre centros da NASA e com o público.</p><p>Danielle tem sido uma força estabilizadora crítica durante tempos desafiadores e tumultuados, mantendo vários projetos não apenas no caminho certo, mas na vanguarda da Ciência Aberta para toda a Agência. Estrela do mês em biociências espaciais: Jennifer Claudio Jennifer Claudio é membro da equipe de pesquisa da Blue Marble Space na Divisão de Biociências Espaciais.</p><p>Jennifer fez contribuições notáveis ​​no apoio ao programa de verão 2026 GeneLab for High School (GL4HS).</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/general/ames-science-stars-of-the-month-august-2026/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Space Biosciences Star of the Month: Danielle Lopez Danielle Lopez is the Deputy Project Manager for the Open Science Data Repository with Amentum in the Space Biosciences. Astrophysics Star of the Month: Duncan Mifsud Duncan Mifsud is a postdoctoral research scientist for the Bay Area Environmental Research Institute (BAERI) in the Astrophysics.</p><p>The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Danielle Lopez, Jennifer Claudio, and Duncan Mifsud. Article Contents Space Biosciences Star of the Month: Danielle Lopez Space Biosciences Star of the Month: Jennifer Claudio Astrophysics Star of the Month: Duncan Mifsud The NASA.</p><p>Their commitment to the NASA mission represents the entrepreneurial spirit, technical expertise, and collaborative disposition needed to explore this world and beyond. Danielle Lopez is the Deputy Project Manager for the Open Science Data Repository with Amentum in the Space Biosciences Division.</p><p>She is recognized for her management efforts that have been critical to the success of Open Science at NASA including collaborations across directorates at Ames, across NASA. Danielle has been a critical stabilizing force during challenging and tumultuous times, keeping multiple projects not only on track, but at the forefront of Open Science for the.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Space Biosciences Star of the Month: Jennifer Claudio Jennifer Claudio is a research staff member with Blue Marble Space in the Space Biosciences Division. Jennifer has made outstanding contributions in supporting the 2026 GeneLab for High School (GL4HS) summer program.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/general/ames-science-stars-of-the-month-august-2026/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "04 ago 2026",
+    "date_pt": "04 ago 2026",
+    "date_en": "04 Aug 2026",
+    "time": "17h08",
+    "time_pt": "17h08",
+    "time_en": "17: 08 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-04T17:08:04+00:00",
+    "lastModifiedIso": "2026-08-04T17:31:21+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Estrelas do mês da Ames Science – agosto de 2026"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Estrelas do mês da Ames Science – agosto de 2026"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Ames Science Stars of the Month – August 2026"
+    ],
+    "srcUrl": "https://www.nasa.gov/general/ames-science-stars-of-the-month-august-2026/",
+    "realUrl": "https://www.cosmosweek.com/?article=ames-science-stars-of-the-month-august-2026",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=ames-science-stars-of-the-month-august-2026",
+    "realUrl_en": "https://www.cosmosweek.com/?article=ames-science-stars-of-the-month-august-2026&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/ames-science-stars-of-the-month-august-2026/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/ames-science-stars-of-the-month-august-2026/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/ames-science-stars-of-the-month-august-2026/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/ames-science-stars-of-the-month-august-2026/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/ames-science-stars-of-the-month-august-2026/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/ames-science-stars-of-the-month-august-2026/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": true,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Estrelas do mês da Ames Science – agosto de 2026",
+    "imageAlt_pt": "Estrelas do mês da Ames Science – agosto de 2026",
+    "imageAlt_en": "Ames Science Stars of the Month – August 2026",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://www.nasa.gov/wp-content/uploads/2026/08/moon-base-update-slate.jpg?w=1920",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas",
+    "title_pt": "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas",
+    "title_en": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
+    "sub": "A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações.",
+    "sub_pt": "A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações.",
+    "sub_en": "NASA is making progress in building the Moon Base, which will become a resilient outpost near the Moon’s South Pole for science, technology, and eventual human operations.",
+    "excerpt": "A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações humanas.",
+    "excerpt_pt": "A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações humanas.",
+    "excerpt_en": "NASA is making progress in building the Moon Base, which will become a resilient outpost near the Moon’s South Pole for science, technology, and eventual human operations.",
+    "body": "<p>A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações humanas. 6 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento (e subaquáticas) Representação artística da região do Pólo Sul da Lua.</p><p>A Fase I do plano de arquitetura da Base Lunar, que ocorre até 2029, inclui mais de vinte pousos robóticos, com cada missão projetada para avançar gradativamente as capacidades do sistema e validar componentes operacionais para as seguintes. Blue Origin O módulo de pouso Blue Moon MK1 da Blue Origin está progredindo em testes integrados para se preparar para sua próxima entrega lunar.</p><p>Firefly Aerospace A Blue Ghost Mission 2 da Firefly baseia-se em seu primeiro pouso lunar bem-sucedido com uma configuração maior de espaçonave dupla construída especificamente para operações no outro lado da Lua. O Blue Ghost está empilhado no topo da Elytra, a espaçonave orbital da Firefly, formando um sistema de 22 pés de altura, quase três vezes a altura da espaçonave voada para a Missão 1 do Blue Ghost em 2025.</p><p>Planejada para ser o primeiro pouso americano no outro lado da Lua, a Blue Ghost Mission 2 irá explorar uma região excepcionalmente tranquila, permitindo o estudo da geologia do outro lado lunar e da Idade das Trevas cósmica, uma época em que estrelas recém-formadas estavam. A reutilização de subsistemas da missão anterior permite que a Firefly acelere o desenvolvimento e reduza os riscos, apoiando os objetivos da Base Lunar para capacidades de pouso comercial escalonáveis ​​e repetíveis.</p><p>A missão IM-3 da Intuitive Machines da Intuitive Machines destaca como as sondas comerciais são uma infraestrutura essencial para estabelecer a Base Lunar. Esta missão representa o terceiro pouso lunar Nova-C da Intuitive Machines na Lua e apresenta o Altus-1, o primeiro satélite lunar de retransmissão de dados da empresa, que voará ao lado do módulo de pouso.</p><p>A missão IM-3 será a primeira a explorar a superfície de um redemoinho lunar, permitindo que a robótica e os instrumentos implantados aprofundem a investigação científica desta região misteriosa.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações humanas. 6 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento (e subaquáticas) Representação artística da região do Pólo Sul da Lua.</p><p>A Fase I do plano de arquitetura da Base Lunar, que ocorre até 2029, inclui mais de vinte pousos robóticos, com cada missão projetada para avançar gradativamente as capacidades do sistema e validar componentes operacionais para as seguintes. Blue Origin O módulo de pouso Blue Moon MK1 da Blue Origin está progredindo em testes integrados para se preparar para sua próxima entrega lunar.</p><p>Firefly Aerospace A Blue Ghost Mission 2 da Firefly baseia-se em seu primeiro pouso lunar bem-sucedido com uma configuração maior de espaçonave dupla construída especificamente para operações no outro lado da Lua. O Blue Ghost está empilhado no topo da Elytra, a espaçonave orbital da Firefly, formando um sistema de 22 pés de altura, quase três vezes a altura da espaçonave voada para a Missão 1 do Blue Ghost em 2025.</p><p>Planejada para ser o primeiro pouso americano no outro lado da Lua, a Blue Ghost Mission 2 irá explorar uma região excepcionalmente tranquila, permitindo o estudo da geologia do outro lado lunar e da Idade das Trevas cósmica, uma época em que estrelas recém-formadas estavam. A reutilização de subsistemas da missão anterior permite que a Firefly acelere o desenvolvimento e reduza os riscos, apoiando os objetivos da Base Lunar para capacidades de pouso comercial escalonáveis ​​e repetíveis.</p><p>A missão IM-3 da Intuitive Machines da Intuitive Machines destaca como as sondas comerciais são uma infraestrutura essencial para estabelecer a Base Lunar. Esta missão representa o terceiro pouso lunar Nova-C da Intuitive Machines na Lua e apresenta o Altus-1, o primeiro satélite lunar de retransmissão de dados da empresa, que voará ao lado do módulo de pouso.</p><p>A missão IM-3 será a primeira a explorar a superfície de um redemoinho lunar, permitindo que a robótica e os instrumentos implantados aprofundem a investigação científica desta região misteriosa.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>NASA is making progress in building the Moon Base, which will become a resilient outpost near the Moon’s South Pole for science, technology, and eventual human operations. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. 6 min read Preparations for Next Moonwalk Simulations Underway (and Underwater) Artist’s rendering of the Moon’s South Pole region. Phase I of the Moon Base architecture plan, taking place now through 2029, includes more than twenty robotic landings, with each mission designed to incrementally advance system.</p><p>Blue Origin Blue Origin’s Blue Moon MK1 lander is progressing through integrated testing to prepare for its upcoming lunar delivery. Firefly Aerospace Firefly’s Blue Ghost Mission 2 builds on its first successful lunar landing with a larger, dual‑spacecraft configuration built specifically for operations on the.</p><p>Planned to be the first American landing on the Moon’s far side, Blue Ghost Mission 2 will explore a uniquely quiet region, allowing study of lunar far side geology and the cosmic. Reusing subsystems from the previous mission allows Firefly to accelerate development and reduce risk, supporting Moon Base objectives for scalable and repeatable commercial.</p><p>Intuitive Machines Intuitive Machines’ IM‑3 mission highlights how commercial landers are essential infrastructure to establish the Moon Base. This mission represents Intuitive Machines’ third Nova-C lunar landing on the Moon, and introduces Altus-1, the company’s first lunar data‑relay satellite, which will fly.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>By deploying Altus-1 in lunar orbit with its three payloads and delivering five NASA payloads along with six commercial and one civil payload to the surface on IM-3, Intuitive. The IM-3 mission will be the first to explore the surface of a lunar swirl, enabling robotics and deployed instruments to deepen the scientific investigation of this mysterious.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: NASA is making progress in building the Moon Base, which will become a resilient outpost near the Moon’s South Pole for science, technology, and",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "04 ago 2026",
+    "date_pt": "04 ago 2026",
+    "date_en": "04 Aug 2026",
+    "time": "16h14",
+    "time_pt": "16h14",
+    "time_en": "16: 14 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-04T16:14:51+00:00",
+    "lastModifiedIso": "2026-08-04T17:31:21+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA provides updates on lunar base payload modules and technical demonstrations"
+    ],
+    "srcUrl": "https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas",
+    "imageAlt_pt": "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas",
+    "imageAlt_en": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
     "slug": "a-bare-summer-for-barnes-ice-cap",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -142,7 +384,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 4,
     "slug": "nsf-stands-up-2-materials-innovation-platforms-with-50m-investment",
     "cat": "Física",
     "catCls": "fisica",
@@ -309,7 +551,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 5,
     "slug": "ike-theriot-helps-prepare-astronauts-to-work-on-the-moon",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -367,19 +609,19 @@ window.postsData = [
     "body_pt": "<p>Desde servir no Exército dos EUA até ajudar a preparar astronautas para explorar a superfície lunar, Ike Theriot construiu um caminho para a NASA através de disciplina e determinação. Créditos: NASA Por servir nos EUA.</p><p>NASA/Robert Markowitz Ajudo a garantir que tenhamos os testes necessários para atender às expectativas da missão e o conhecimento e a experiência para treinar o corpo de astronautas para cumprir essa missão. NASA Ele também avaliou novas configurações de iluminação durante testes adequados, apoiando o desenvolvimento do currículo de treinamento da tripulação Artemis, avaliando como a visibilidade afeta a segurança e a execução de tarefas em um ambiente lunar simulado.</p><p>Artigo 7 dias atrás Continue explorando Descubra mais tópicos das missões da NASA Humanos no espaço Mudanças climáticas Sistema Solar. Exército para ajudar a preparar astronautas para explorar a superfície lunar, Ike Theriot construiu um caminho para a NASA através da disciplina e do artigo de servir nos EUA.</p><p>Atualmente, ele está fazendo a transição desta função para se concentrar no desenvolvimento da missão, no treinamento de astronautas e na execução da missão para o próximo pouso lunar. Ele começou o treinamento de simulação para essa função, onde servirá como voz entre o Centro de Controle da Missão e os astronautas na órbita baixa da Terra.</p><p>Formada há aproximadamente 36 milhões de anos, a cratera de impacto proporciona um terreno semelhante às áreas que os astronautas podem encontrar na Lua e oferece uma valiosa formação em geologia num ambiente remoto acessível apenas por barco. Depois de deixar o Exército, Theriot formou-se em engenharia mecânica pela Universidade de Houston e conseguiu um estágio na Johnson em 2016, alternando entre equipes de engenharia e operações de voo.</p><p>Ele aceitou um cargo de tempo integral em 2019, no momento em que a NASA anunciou planos para devolver astronautas à Lua no âmbito do programa Artemis.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/johnson/ike-theriot-helps-prepare-astronauts-to-work-on-the-moon/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>From serving in the U. S. Army to helping prepare astronauts to explore the lunar surface, Ike Theriot built a path to NASA through discipline and determination. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. 5 Min Read Ike Theriot Helps Prepare Astronauts to Work on the Moon During a nighttime simulation run in NASA’s Neutral Buoyancy Laboratory at Johnson Space Center in Houston, Ike. NASA/Robert Markowitz I help ensure we have the testing needed to meet mission expectations, and the knowledge and experience to train the astronaut corps to meet that mission.</p><p>NASA He has also evaluated new lighting configurations during suited test runs supporting development of Artemis crew training curriculum, assessing how visibility affects safety. 2026, to share. Article 7 days ago Keep Exploring Discover More Topics From NASA Missions Humans in Space Climate Change Solar System.</p><p>He is currently transitioning from this role to focus on mission development, astronaut training, and mission execution for the next lunar landing. In the Neutral Buoyancy Laboratory, the agency’s 40-foot-deep pool used to simulate microgravity, Theriot has supported International Space Station spacewalk rehearsals and lunar.</p><p>He has begun simulation training for that role, where he will serve as the voice between the Mission Control Center and astronauts in low Earth orbit. After leaving the Army, Theriot earned a mechanical engineering degree from the University of Houston and secured an internship at Johnson in 2016, rotating between engineering.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>He accepted a full-time position in 2019, just as NASA announced plans to return astronauts to the Moon under the Artemis program. For the mission to the Moon and beyond, Theriot hopes the agency demonstrates something larger than exploration alone.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/johnson/ike-theriot-helps-prepare-astronauts-to-work-on-the-moon/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Desde servir no Exército dos EUA até ajudar a preparar astronautas para explorar a superfície lunar, Ike Theriot construiu um caminho para a NASA",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Desde servir no Exército dos EUA até ajudar a preparar astronautas para explorar a superfície lunar, Ike Theriot construiu um caminho para a NASA.",
+      "Dado-chave: Desde servir no Exército dos EUA até ajudar a preparar astronautas para explorar a superfície lunar, Ike Theriot construiu um caminho para a NASA",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Desde servir no Exército dos EUA até ajudar a preparar astronautas para explorar a superfície lunar, Ike Theriot construiu um caminho para a NASA",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Desde servir no Exército dos EUA até ajudar a preparar astronautas para explorar a superfície lunar, Ike Theriot construiu um caminho para a NASA.",
+      "Dado-chave: Desde servir no Exército dos EUA até ajudar a preparar astronautas para explorar a superfície lunar, Ike Theriot construiu um caminho para a NASA",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: From serving in the U. S",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: From serving in the U. S. Army to helping prepare astronauts to explore the lunar surface, Ike Theriot built a path to NASA through discipline and.",
+      "Key detail: From serving in the U. S",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "03 ago 2026",
     "date_pt": "03 ago 2026",
@@ -467,7 +709,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 6,
     "slug": "tb-26-04-webbings-for-use-in-elevated-oxygen-environments",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -499,7 +741,7 @@ window.postsData = [
     ],
     "highlights_en": [
       "Core point: Flammability test results for commercial-off-the-shelf webbings that meet NASA flammability requirements are reported for use in elevated oxygen.",
-      "Key detail: Flammability test results for commercial-off-the-shelf webbings that meet NASA flammability requirements are reported for use in elevated oxygen",
+      "Key detail: Flammability test results for commercial-off-the-shelf webbings that meet NASA flammability requirements are reported for use in elevated oxygen.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "31 jul 2026",
@@ -591,131 +833,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 5,
-    "slug": "tb-26-05-webbings-for-use-in-elevated-oxygen-environments",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://www.nasa.gov/wp-content/uploads/2015/04/prepost-flammability-test-photo-of-natural-webbing.png",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "TB 26-05 Correias para Uso em Ambientes com Elevado Oxigênio",
-    "title_pt": "TB 26-05 Correias para Uso em Ambientes com Elevado Oxigênio",
-    "title_en": "TB 26-05 Webbings for Use in Elevated Oxygen Environments",
-    "sub": "Os resultados dos testes de inflamabilidade para correias comerciais que atendem aos requisitos de inflamabilidade da NASA são relatados para uso em ambientes com alto teor de.",
-    "sub_pt": "Os resultados dos testes de inflamabilidade para correias comerciais que atendem aos requisitos de inflamabilidade da NASA são relatados para uso em ambientes com alto teor de.",
-    "sub_en": "Flammability test results for commercial-off-the-shelf webbings that meet NASA flammability requirements are reported for use in elevated oxygen environments anticipated for.",
-    "excerpt": "Os resultados dos testes de inflamabilidade para correias comerciais que atendem aos requisitos de inflamabilidade da NASA são relatados para uso em ambientes com alto teor de oxigênio previstos para futuras missões lunares e marcianas.",
-    "excerpt_pt": "Os resultados dos testes de inflamabilidade para correias comerciais que atendem aos requisitos de inflamabilidade da NASA são relatados para uso em ambientes com alto teor de oxigênio previstos para futuras missões lunares e marcianas.",
-    "excerpt_en": "Flammability test results for commercial-off-the-shelf webbings that meet NASA flammability requirements are reported for use in elevated oxygen environments anticipated for future lunar and Martian missions.",
-    "body": "<p>Os resultados dos testes de inflamabilidade para correias comerciais que atendem aos requisitos de inflamabilidade da NASA são relatados para uso em ambientes com alto teor de oxigênio previstos para futuras missões lunares e marcianas. Os testes demonstraram que uma teia composta por 60% Kevlar®/40% polibenzimidazol (PBI) da Sturges Manufacturing Company, Inc, especificamente a versão natural, passou no teste de inflamabilidade de acordo com o Teste 1 NASA-STD-6001B usando um [. ].</p><p>Os resultados dos testes de inflamabilidade para correias comerciais que atendem aos requisitos de inflamabilidade da NASA são relatados para uso em ambientes com alto teor de oxigênio. Antecedentes Um ambiente de oxigênio elevado está planejado para futuras missões tripuladas à Lua e a Marte para reduzir o tempo de pré-respiração antes das atividades extraveiculares.</p><p>A estratégia está sendo implementada pelo Mars Campaign Office e pelo Johnson Space Center com o apoio do NESC. A primeira fase consiste em testar têxteis comerciais prontos para uso (COTS) com alto potencial para atender aos requisitos de inflamabilidade.</p><p>Métodos de teste/coleta de dados NASA-STD-6001B O teste 1 foi realizado nos candidatos a correias no White Sands Test Facility (WSTF) para determinar a concentração máxima de oxigênio (MOC) a uma pressão de 8, 2 psia. O teste MOC refere-se à concentração máxima de oxigênio na qual um mínimo de cinco amostras testadas passam nos critérios NASA-STD-6001B a uma pressão fixa.</p><p>Foram testadas correias naturais e pretas de uma polegada de largura, compostas por 60% de Kevlar e 40% de PBI produzidas pela Sturges Manufacturing (ver Figura 1). As larguras de correia disponíveis variam de ¼ a 8 polegadas.</p><p>Análise e Resultados A Tabela 1 resume as propriedades da correia e os resultados dos testes.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/nesc/tb-26-05-webbings-for-use-in-elevated-oxygen-environments/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Os resultados dos testes de inflamabilidade para correias comerciais que atendem aos requisitos de inflamabilidade da NASA são relatados para uso em ambientes com alto teor de oxigênio previstos para futuras missões lunares e marcianas. Os testes demonstraram que uma teia composta por 60% Kevlar®/40% polibenzimidazol (PBI) da Sturges Manufacturing Company, Inc, especificamente a versão natural, passou no teste de inflamabilidade de acordo com o Teste 1 NASA-STD-6001B usando um [. ].</p><p>Os resultados dos testes de inflamabilidade para correias comerciais que atendem aos requisitos de inflamabilidade da NASA são relatados para uso em ambientes com alto teor de oxigênio. Antecedentes Um ambiente de oxigênio elevado está planejado para futuras missões tripuladas à Lua e a Marte para reduzir o tempo de pré-respiração antes das atividades extraveiculares.</p><p>A estratégia está sendo implementada pelo Mars Campaign Office e pelo Johnson Space Center com o apoio do NESC. A primeira fase consiste em testar têxteis comerciais prontos para uso (COTS) com alto potencial para atender aos requisitos de inflamabilidade.</p><p>Métodos de teste/coleta de dados NASA-STD-6001B O teste 1 foi realizado nos candidatos a correias no White Sands Test Facility (WSTF) para determinar a concentração máxima de oxigênio (MOC) a uma pressão de 8, 2 psia. O teste MOC refere-se à concentração máxima de oxigênio na qual um mínimo de cinco amostras testadas passam nos critérios NASA-STD-6001B a uma pressão fixa.</p><p>Foram testadas correias naturais e pretas de uma polegada de largura, compostas por 60% de Kevlar e 40% de PBI produzidas pela Sturges Manufacturing (ver Figura 1). As larguras de correia disponíveis variam de ¼ a 8 polegadas.</p><p>Análise e Resultados A Tabela 1 resume as propriedades da correia e os resultados dos testes.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/nesc/tb-26-05-webbings-for-use-in-elevated-oxygen-environments/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Flammability test results for commercial-off-the-shelf webbings that meet NASA flammability requirements are reported for use in elevated oxygen environments anticipated for future lunar and Martian missions. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. Testing demonstrated that a webbing composed of 60% Kevlar®/40% polybenzimidazole (PBI) from Sturges Manufacturing Company, Inc, specifically the natural version, passed. Flammability test results for commercial-off-the-shelf webbings that meet NASA flammability requirements are reported for use in elevated oxygen environments Article Flammability.</p><p>Background An elevated oxygen environment is planned for future crewed missions to the Moon and Mars to reduce the prebreathe time before extravehicular activities. The strategy is being implemented by the Mars Campaign Office and Johnson Space Center with support from the NESC.</p><p>The first phase is testing commercial-off-the-shelf (COTS) textiles with high potential to meet flammability requirements. Test Methods/Data Collection NASA-STD-6001B Test 1 was performed on the webbing candidates at White Sands Test Facility (WSTF) to determine the maximum oxygen concentration (MOC).</p><p>The MOC test refers to the maximum oxygen concentration at which a minimum of five samples tested pass the NASA-STD-6001B criteria at a fixed pressure. One-inch-width natural and black webbings, composed of 60% Kevlar and 40% PBI produced by Sturges Manufacturing (see Figure 1), were tested.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>The available webbing widths range from ¼ to 8 inches. Analysis and Results Table 1 summarizes the webbing properties and test results.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/nesc/tb-26-05-webbings-for-use-in-elevated-oxygen-environments/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Em foco: Os resultados dos testes de inflamabilidade para correias comerciais que atendem aos requisitos de inflamabilidade da NASA são relatados para uso em",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: Os resultados dos testes de inflamabilidade para correias comerciais que atendem aos requisitos de inflamabilidade da NASA são relatados para uso em",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: Flammability test results for commercial-off-the-shelf webbings that meet NASA flammability requirements are reported for use in elevated oxygen",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "31 jul 2026",
-    "date_pt": "31 jul 2026",
-    "date_en": "31 Jul 2026",
-    "time": "19h05",
-    "time_pt": "19h05",
-    "time_en": "19: 05 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-07-31T19:05:25+00:00",
-    "lastModifiedIso": "2026-08-03T17:45:08+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "TB 26",
-      "05 Correias para Uso em Ambientes com Elevado Oxigênio"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "TB 26",
-      "05 Correias para Uso em Ambientes com Elevado Oxigênio"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "TB 26",
-      "05 Belts for Use in High Oxygen Environments"
-    ],
-    "srcUrl": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-05-webbings-for-use-in-elevated-oxygen-environments/",
-    "realUrl": "https://www.cosmosweek.com/?article=tb-26-05-webbings-for-use-in-elevated-oxygen-environments",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=tb-26-05-webbings-for-use-in-elevated-oxygen-environments",
-    "realUrl_en": "https://www.cosmosweek.com/?article=tb-26-05-webbings-for-use-in-elevated-oxygen-environments&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/tb-26-05-webbings-for-use-in-elevated-oxygen-environments/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/tb-26-05-webbings-for-use-in-elevated-oxygen-environments/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/tb-26-05-webbings-for-use-in-elevated-oxygen-environments/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/tb-26-05-webbings-for-use-in-elevated-oxygen-environments/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/tb-26-05-webbings-for-use-in-elevated-oxygen-environments/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/tb-26-05-webbings-for-use-in-elevated-oxygen-environments/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 86,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 49
-    },
-    "imageAlt": "TB 26-05 Correias para Uso em Ambientes com Elevado Oxigênio",
-    "imageAlt_pt": "TB 26-05 Correias para Uso em Ambientes com Elevado Oxigênio",
-    "imageAlt_en": "TB 26-05 Webbings for Use in Elevated Oxygen Environments",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 6,
+    "id": 7,
     "slug": "hydrognss-data-open-for-new-insights-into-earth-s-water",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -846,7 +964,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -868,17 +986,17 @@ window.postsData = [
     "body_en": "<p>Cold, collisionless dark matter successfully explains a wide range of observations, including the formation of large-scale structure. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>That matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Have an idea for a project that will add value for arXiv&#x27;s community. Nevertheless, tensions remain on small, galactic scales, most notably the cusp-core, or inner-mass-deficit, problem and the diversity of inner rotation-curve shapes and central.</p><p>These observations suggest that additional dark-sector physics may affect the inner structure of halos, although no generally accepted explanation has yet emerged. Produced in the early Universe in the dark sector, these Q-balls grow in the dense central regions of halos, while their interaction cross section decreases as the soliton mass.</p><p>This process operates preferentially in halo centers, converting part of the rest-mass energy stored in massive Q-balls into relativistic dark-sector particles and thereby. The resulting density-dependent, self-regulating energy loss provides a dynamical mechanism for flattening halo cusps while leaving the outer halo largely unaffected.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2607.28517v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-      "Dado-chave: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala",
+      "Dado-chave: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
       "Ponto central: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-      "Dado-chave: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala",
+      "Dado-chave: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
       "Core point: Cold, collisionless dark matter successfully explains a wide range of observations, including the formation of large-scale structure.",
-      "Key detail: Cold, collisionless dark matter successfully explains a wide range of observations, including the formation of large-scale structure",
+      "Key detail: Cold, collisionless dark matter successfully explains a wide range of observations, including the formation of large-scale structure.",
       "Result not yet peer reviewed."
     ],
     "date": "30 jul 2026",
@@ -970,7 +1088,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "smos-salinity-could-offer-early-indicator-of-el-nino",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -978,12 +1096,12 @@ window.postsData = [
     "inline_images": [
       {
         "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/pacific_ocean_salinity_june_2026/27397989-1-eng-GB/Pacific_Ocean_salinity_June_2026_pillars.jpg",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
       }
     ],
     "video": null,
@@ -1001,19 +1119,19 @@ window.postsData = [
     "body_pt": "<p>À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas também a salinidade da superfície do mar, que é outro indicador-chave deste fenómeno. À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as mudanças na temperatura da superfície do mar, mas também na salinidade da superfície do mar, que é outro indicador-chave deste fenómeno.</p><p>As medições efectuadas por satélites como a missão SMOS da Agência Espacial Europeia estão a revelar como os padrões da água doce e do sal mudam no Pacífico à medida que o El Niño deste ano se desenvolve, oferecendo um novo caminho potencial para a detecção precoce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Observing_the_Earth/FutureEO/SMOS/SMOS_salinity_could_offer_early_indicator_of_El_Nino\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>As the Pacific Ocean moves into an El Niño phase, scientists are monitoring changes in sea-surface temperature, but also sea-surface salinity, which is another key indicator of this phenomenon. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. Measurements from satellites such as the European Space Agency&#x27;s SMOS mission are revealing how freshwater and salt patterns shift across the Pacific as this year’s El Niño.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Because the account originates with ESA Space News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Observing_the_Earth/FutureEO/SMOS/SMOS_salinity_could_offer_early_indicator_of_El_Nino\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas também a",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas também a.",
+      "Dado-chave: À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas também a",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas também a.",
+      "Dado-chave: À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: As the Pacific Ocean moves into an El Niño phase, scientists are monitoring changes in sea-surface temperature, but also sea-surface salinity, which",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: As the Pacific Ocean moves into an El Niño phase, scientists are monitoring changes in sea-surface temperature, but also sea-surface salinity, which.",
+      "Key detail: As the Pacific Ocean moves into an El Niño phase, scientists are monitoring changes in sea-surface temperature, but also sea-surface salinity.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "30 jul 2026",
     "date_pt": "30 jul 2026",
@@ -1094,146 +1212,6 @@ window.postsData = [
     "imageAlt": "A salinidade do SMOS pode oferecer um indicador precoce do El Niño",
     "imageAlt_pt": "A salinidade do SMOS pode oferecer um indicador precoce do El Niño",
     "imageAlt_en": "SMOS salinity could offer early indicator of El Niño",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 9,
-    "slug": "nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://www.nasa.gov/wp-content/uploads/2026/07/1-pia26729-curiosity-discovers-a-field-of-martian-polygons.png",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2024/03/pia24173-crop.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/4740_NRA_402388588EDR_F0043416NCAM00442M_-full2.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Curiosity Mars Rover da NASA descobre campo de texturas de favo de mel",
-    "title_pt": "Curiosity Mars Rover da NASA descobre campo de texturas de favo de mel",
-    "title_en": "NASA’s Curiosity Mars Rover Discovers Field of Honeycomb Textures",
-    "sub": "Quando o rover Curiosity da NASA começou recentemente a escalar um vale marciano apelidado de “Valle Grande”, enviou imagens que eram familiares aos cientistas da missão: texturas.",
-    "sub_pt": "Quando o rover Curiosity da NASA começou recentemente a escalar um vale marciano apelidado de “Valle Grande”, enviou imagens que eram familiares aos cientistas da missão: texturas.",
-    "sub_en": "As NASA’s Curiosity rover recently began climbing up a Martian valley nicknamed “Valle Grande,” it sent back images that were a familiar sight to mission scientists.",
-    "excerpt": "Quando o rover Curiosity da NASA começou recentemente a escalar um vale marciano apelidado de “Valle Grande”, enviou imagens que eram familiares aos cientistas da missão: texturas semelhantes a favos de mel chamadas fracturas poligonais, cada uma com cerca de.",
-    "excerpt_pt": "Quando o rover Curiosity da NASA começou recentemente a escalar um vale marciano apelidado de “Valle Grande”, enviou imagens que eram familiares aos cientistas da missão: texturas semelhantes a favos de mel chamadas fracturas poligonais, cada uma com cerca de.",
-    "excerpt_en": "As NASA’s Curiosity rover recently began climbing up a Martian valley nicknamed “Valle Grande,” it sent back images that were a familiar sight to mission scientists: honeycomb-like textures called polygonal fractures, each one about 1.",
-    "body": "<p>Quando o rover Curiosity da NASA começou recentemente a escalar um vale marciano apelidado de “Valle Grande”, enviou imagens que eram familiares aos cientistas da missão: texturas semelhantes a favos de mel chamadas fracturas poligonais, cada uma com cerca de 4 a 8 centímetros. 3 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento (e subaquáticas) O rover Curiosity da NASA descobriu uma extensão de terreno coberta por características de superfície chamadas polígonos.</p><p>O rover Curiosity Mars da NASA capturou este monte coberto de areia, apelidado de “Miraflores”, estimado em cerca de 6 metros de altura, em 11 de junho de 2026. NASA/JPL-Caltech/MSSS Gerenciado pela Caltech em Pasadena, o JPL construiu o Curiosity e lidera a missão em nome da Diretoria de Missões Científicas da NASA em Washington como parte do portfólio do Programa de Exploração de Marte da agência.</p><p>Para saber mais sobre o Curiosity, visite: https: //science. nasa. gov/mission/msl-curiosity Notícias Contatos com a mídia Andrew Good Jet Propulsion Laboratory, Pasadena, Califórnia. Num panorama de 360 ​​graus que o rover capturou em 19 e 20 de junho, os 4.930 e 4.931 dias marcianos, ou sóis, da missão, as formas poligonais espalham-se em todas as direções até onde o rover consegue ver.</p><p>Vimos muitas paisagens fascinantes através dos olhos do Curiosity, mas este mar de polígonos deixou-nos sem fôlego”, disse o cientista do projeto da missão, Ashwin Vasavada, do Laboratório de Propulsão a Jato da NASA, no sul da Califórnia. Esses polígonos recém-descobertos estão entre as muitas surpresas que o Curiosity encontrou desde que pousou em Marte, há 14 anos, em 20 de agosto.</p><p>Gerenciado pela Caltech em Pasadena, o JPL construiu o Curiosity e lidera a missão em nome da Diretoria de Missões Científicas da NASA em Washington como parte do portfólio do Programa de Exploração de Marte da agência. 818-393-2433 andrew. c. good@jpl. nasa. gov Karen Fox / Alana Johnson Sede da NASA.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-discovers-field-of-honeycomb-textures/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Quando o rover Curiosity da NASA começou recentemente a escalar um vale marciano apelidado de “Valle Grande”, enviou imagens que eram familiares aos cientistas da missão: texturas semelhantes a favos de mel chamadas fracturas poligonais, cada uma com cerca de 4 a 8 centímetros. 3 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento (e subaquáticas) O rover Curiosity da NASA descobriu uma extensão de terreno coberta por características de superfície chamadas polígonos.</p><p>O rover Curiosity Mars da NASA capturou este monte coberto de areia, apelidado de “Miraflores”, estimado em cerca de 6 metros de altura, em 11 de junho de 2026. NASA/JPL-Caltech/MSSS Gerenciado pela Caltech em Pasadena, o JPL construiu o Curiosity e lidera a missão em nome da Diretoria de Missões Científicas da NASA em Washington como parte do portfólio do Programa de Exploração de Marte da agência.</p><p>Para saber mais sobre o Curiosity, visite: https: //science. nasa. gov/mission/msl-curiosity Notícias Contatos com a mídia Andrew Good Jet Propulsion Laboratory, Pasadena, Califórnia. Num panorama de 360 ​​graus que o rover capturou em 19 e 20 de junho, os 4.930 e 4.931 dias marcianos, ou sóis, da missão, as formas poligonais espalham-se em todas as direções até onde o rover consegue ver.</p><p>Vimos muitas paisagens fascinantes através dos olhos do Curiosity, mas este mar de polígonos deixou-nos sem fôlego”, disse o cientista do projeto da missão, Ashwin Vasavada, do Laboratório de Propulsão a Jato da NASA, no sul da Califórnia. Esses polígonos recém-descobertos estão entre as muitas surpresas que o Curiosity encontrou desde que pousou em Marte, há 14 anos, em 20 de agosto.</p><p>Gerenciado pela Caltech em Pasadena, o JPL construiu o Curiosity e lidera a missão em nome da Diretoria de Missões Científicas da NASA em Washington como parte do portfólio do Programa de Exploração de Marte da agência. 818-393-2433 andrew. c. good@jpl. nasa. gov Karen Fox / Alana Johnson Sede da NASA.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-discovers-field-of-honeycomb-textures/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. 3 min read Preparations for Next Moonwalk Simulations Underway (and Underwater) NASA’s Curiosity rover discovered an expanse of terrain covered in surface features called polygons. NASA’s Curiosity Mars rover captured this sand-capped butte, nicknamed “Miraflores,” estimated to be about 20 feet (6 meters) tall, on June 11, 2026.</p><p>NASA/JPL-Caltech/MSSS Managed by Caltech in Pasadena, JPL built Curiosity and leads the mission on behalf of NASA’s Science Mission Directorate in Washington as part of the. To learn more about Curiosity, visit: https: //science. nasa. gov/mission/msl-curiosity News Media Contacts Andrew Good Jet Propulsion Laboratory, Pasadena, Calif.</p><p>NASA/JPL-Caltech/MSSS As NASA’s Curiosity rover recently began climbing up a Martian valley nicknamed “Valle Grande,” it sent back images that were a familiar sight to mission. In a 360-degree panorama that the rover captured on June 19 and 20, the 4, 930th and 4, 931st Martian days, or sols, of the mission, the polygonal shapes spread in all directions.</p><p>We’ve seen a lot of fascinating landscapes through Curiosity’s eyes, but this sea of polygons took our breath away,” said the mission’s project scientist, Ashwin Vasavada of. These newly discovered polygons are among the many surprises Curiosity has trundled across since landing on Mars 14 years ago, on Aug.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Managed by Caltech in Pasadena, JPL built Curiosity and leads the mission on behalf of NASA’s Science Mission Directorate in Washington as part of the agency’s Mars Exploration. 818-393-2433 andrew. c. good@jpl. nasa. gov Karen Fox / Alana Johnson NASA Headquarters.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-discovers-field-of-honeycomb-textures/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Quando o rover Curiosity da NASA começou recentemente a escalar um vale marciano apelidado de “Valle Grande”, enviou imagens que eram familiares aos.",
-      "Dado-chave: Quando o rover Curiosity da NASA começou recentemente a escalar um vale marciano apelidado de “Valle Grande”, enviou imagens que eram familiares.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Quando o rover Curiosity da NASA começou recentemente a escalar um vale marciano apelidado de “Valle Grande”, enviou imagens que eram familiares aos.",
-      "Dado-chave: Quando o rover Curiosity da NASA começou recentemente a escalar um vale marciano apelidado de “Valle Grande”, enviou imagens que eram familiares.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: As NASA’s Curiosity rover recently began climbing up a Martian valley nicknamed “Valle Grande,” it sent back images that were a familiar sight to.",
-      "Key detail: As NASA’s Curiosity rover recently began climbing up a Martian valley nicknamed “Valle Grande,” it sent back images that were a familiar sight.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "29 jul 2026",
-    "date_pt": "29 jul 2026",
-    "date_en": "29 Jul 2026",
-    "time": "15h30",
-    "time_pt": "15h30",
-    "time_en": "15: 30 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-07-29T15:30:00+00:00",
-    "lastModifiedIso": "2026-07-29T17:08:45+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Curiosity Mars Rover da NASA descobre campo de texturas de favo de mel"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Curiosity Mars Rover da NASA descobre campo de texturas de favo de mel"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA's Curiosity Mars Rover Discovers Field of Honeycomb Textures"
-    ],
-    "srcUrl": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-mars-rover-discovers-field-of-honeycomb-textures/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-curiosity-mars-rover-discovers-field-of-honeycomb-textures/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": true,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Curiosity Mars Rover da NASA descobre campo de texturas de favo de mel",
-    "imageAlt_pt": "Curiosity Mars Rover da NASA descobre campo de texturas de favo de mel",
-    "imageAlt_en": "NASA’s Curiosity Mars Rover Discovers Field of Honeycomb Textures",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
