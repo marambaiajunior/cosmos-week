@@ -12,6 +12,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: cosmos-week-feed
@@ -73,6 +75,15 @@ jobs:
       - name: Aplicar curadoria editorial do Cosmos Week
         run: python scripts/editorial_refine.py
 
+      - name: Criar índice público otimizado
+        run: node scripts/build_archive_index.mjs
+
+      - name: Sincronizar a interface das páginas principais
+        run: node scripts/upgrade_shell_pages.mjs
+
+      - name: Atualizar o mapa do site
+        run: node scripts/build_sitemap.mjs
+
       - name: Validar arquivos gerados
         shell: bash
         run: |
@@ -80,12 +91,14 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
+          from xml.etree import ElementTree
 
           required = [
               Path('posts.json'),
               Path('posts.js'),
               Path('all_posts.json'),
               Path('assets/data/posts-index.json'),
+              Path('assets/data/archive-index.json'),
               Path('feed.xml'),
               Path('sitemap.xml'),
               Path('robots.txt'),
@@ -100,6 +113,11 @@ jobs:
           json.loads(Path('posts.json').read_text(encoding='utf-8'))
           json.loads(Path('all_posts.json').read_text(encoding='utf-8'))
           json.loads(Path('assets/data/posts-index.json').read_text(encoding='utf-8'))
+          json.loads(Path('assets/data/archive-index.json').read_text(encoding='utf-8'))
+          ElementTree.parse('feed.xml')
+          sitemap = ElementTree.parse('sitemap.xml')
+          if len(sitemap.getroot()) < 100:
+              raise SystemExit('Sitemap incompleto: menos de 100 URLs')
           print('✓ Arquivos gerados com sucesso e JSON válido')
           PY
 
@@ -116,10 +134,37 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A posts.json posts.js all_posts.json assets/data/posts-index.json feed.xml sitemap.xml robots.txt noticia/ en/
+          git add -A posts.json posts.js all_posts.json assets/data/posts-index.json assets/data/archive-index.json feed.xml sitemap.xml robots.txt index.html arquivo/ sobre/ padroes/ noticia/ en/
           if git diff --cached --quiet; then
             echo "Nenhuma alteração nas notícias."
           else
             git commit -m "Atualização automática das notícias [skip ci]"
             git push
           fi
+
+  deploy-pages:
+    needs: update-news
+    runs-on: ubuntu-latest
+    concurrency:
+      group: github-pages
+      cancel-in-progress: true
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout atualizado
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Preparar artefato do site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .
+
+      - name: Publicar no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

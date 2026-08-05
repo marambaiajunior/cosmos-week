@@ -1,0 +1,18 @@
+{
+  "name": "Cosmos Week",
+  "short_name": "CosmosWeek",
+  "description": "Notícias científicas com contexto, evidência e clareza.",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#07111f",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

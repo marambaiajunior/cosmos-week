@@ -133,7 +133,7 @@ const EXTRA_UI = {
 };
 
 const SUMMARY_FEED = '/assets/data/posts-index.json';
-const FULL_ARCHIVE_FEED = '/all_posts.json';
+const FULL_ARCHIVE_FEED = '/assets/data/archive-index.json';
 
   const IMG = {
     pillars:         'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg/1280px-Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg',
@@ -179,7 +179,7 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
       archiveKicker: 'Todas as matérias disponíveis do arquivo no portal.',
       searchTitle: 'Busca', noSearch: 'Nenhum resultado encontrado.',
       trySearch: 'Experimente termos como JWST, matéria escura, exoplaneta, buraco negro ou Euclid.',
-      topbarCopy: 'Portal de <strong>Notícias Científicas</strong> com cobertura contínua e rigor na apuração.',
+      topbarCopy: 'Ciência com <strong>contexto, evidência e clareza</strong>.',
       footerDescription: 'Portal de Notícias Científicas em português, com cobertura de astronomia, física e ciência em geral.',
       footerNavTitle: 'Navegação', footerSourcesTitle: 'Transparência',
       footerFeed: 'RSS do portal', footerSitemap: 'Sitemap',
@@ -251,7 +251,7 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
       archiveKicker: 'Every story currently available in the editorial archive.',
       searchTitle: 'Search', noSearch: 'No results found.',
       trySearch: 'Try terms such as JWST, dark matter, exoplanet, black hole or Euclid.',
-      topbarCopy: 'A <strong>science journalism</strong> portal built around continuous coverage, editorial writing and rigorous reporting.',
+      topbarCopy: 'Science with <strong>context, evidence and clarity</strong>.',
       footerDescription: 'Portuguese-first science journalism with editorial writing across astronomy, physics and frontier research.',
       footerNavTitle: 'Navigation', footerSourcesTitle: 'Transparency',
       footerFeed: 'Portal RSS', footerSitemap: 'Sitemap',
@@ -314,7 +314,8 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
       .sort((a, b) => String(b.publishedIso || '').localeCompare(String(a.publishedIso || '')));
   }
 
-  const ARCHIVE_CACHE_KEY = 'cw_archive_cache_v3';
+  const ARCHIVE_CACHE_KEY = 'cw_archive_cache_v4';
+  const ARCHIVE_CACHE_LIMIT = 80;
   const FRONT_HISTORY_KEY = 'cw_front_history_v1';
   const FRONT_ROTATION_COUNTER_KEY = 'cw_front_rotation_counter_v1';
   const frontLayoutCache = new Map();
@@ -378,8 +379,15 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
     return normalizePosts([...map.values()]);
   }
 
+  function archiveCacheSnapshot() {
+    return DB.slice(0, ARCHIVE_CACHE_LIMIT).map(post => {
+      const { body, body_pt, body_en, ...summary } = post;
+      return summary;
+    });
+  }
+
   function persistArchiveCache() {
-    try { localStorage.setItem(ARCHIVE_CACHE_KEY, JSON.stringify(DB)); } catch (e) {}
+    try { localStorage.setItem(ARCHIVE_CACHE_KEY, JSON.stringify(archiveCacheSnapshot())); } catch (e) {}
   }
 
   function hydrateArchive(rawPosts) {
@@ -478,6 +486,9 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
   let currentCategory = 'all';
   let fullArchiveLoaded = DB.length >= 100;
   let fullArchivePromise = null;
+  const ARCHIVE_PAGE_SIZE = 30;
+  let archiveVisibleCount = ARCHIVE_PAGE_SIZE;
+  let currentArchivePosts = [];
   let searchTimer = null;
   let toastTimer = null;
   let heroRotationSeed = nextPersistentRotationSeed();
@@ -597,10 +608,11 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
   function imageAttrs(post, loading = 'lazy') {
     const primary  = escapeAttr(primaryImage(post));
     const fallback = escapeAttr(fallbackImage(post));
+    const localFallback = '/assets/cosmic-placeholder.svg';
     const alt      = escapeAttr(textFor(post, 'title'));
     const decode   = loading === 'eager' ? 'sync' : 'async';
     const priority = loading === 'eager' ? 'high' : 'low';
-    return `class="cw-image is-loading" src="${primary}" alt="${alt}" loading="${loading}" fetchpriority="${priority}" decoding="${decode}" referrerpolicy="no-referrer" onload="this.classList.add('is-ready');this.classList.remove('is-loading')" onerror="if(this.src!=='${fallback}'){this.src='${fallback}';return;}this.classList.add('is-ready');this.classList.remove('is-loading')"`;
+    return `class="cw-image is-loading" src="${primary}" alt="${alt}" loading="${loading}" fetchpriority="${priority}" decoding="${decode}" referrerpolicy="no-referrer" onload="this.classList.add('is-ready');this.classList.remove('is-loading')" onerror="if(this.src!=='${fallback}'&&!this.src.endsWith('${localFallback}')){this.src='${fallback}';return;}if(!this.src.endsWith('${localFallback}')){this.src='${localFallback}';return;}this.classList.add('is-ready');this.classList.remove('is-loading')"`;
   }
 
   function withLanguageParam(url, lang = currentLang) {
@@ -956,18 +968,7 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
 
   function pickRotatedSet(posts, count, bucket, seedOffset = 0) {
     if (!Array.isArray(posts) || !posts.length || count <= 0) return [];
-    const ranked = [...posts].sort((a, b) => {
-      const penaltyDiff = frontHistoryPenalty(a, bucket) - frontHistoryPenalty(b, bucket);
-      if (penaltyDiff) return penaltyDiff;
-      return 0;
-    });
-    const windowSize = Math.min(ranked.length, Math.max(count * 3, Math.min(12, ranked.length)));
-    const head = ranked.slice(0, windowSize);
-    const tail = ranked.slice(windowSize);
-    const seedBase = `${bucket}|${currentCategory}|${heroRotationSeed + seedOffset}|${DB[0]?.slug || ''}`;
-    const offset = head.length ? (hashString(seedBase) % head.length) : 0;
-    const rotated = head.slice(offset).concat(head.slice(0, offset)).concat(tail);
-    return rotated.slice(0, count);
+    return dedupePostsBySlug(posts).slice(0, count);
   }
 
   function sectionPriority(post) {
@@ -1081,12 +1082,6 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
     const trending = pickRotatedSet(trendingSource, 5, 'trending', 31);
     const rotatedPreprints = pickRotatedSet(preprints, 4, 'preprints', 47);
 
-    rememberFrontSelection('hero', hero.map(post => post.slug), 30);
-    rememberFrontSelection('essential', essential.map(post => post.slug), 30);
-    rememberFrontSelection('watch', watch.map(post => post.slug), 30);
-    rememberFrontSelection('latest', latest.map(post => post.slug), 36);
-    rememberFrontSelection('trending', trending.map(post => post.slug), 20);
-
     return { hero, essential, watch, latest, trending, preprints: rotatedPreprints };
   }
 
@@ -1140,7 +1135,7 @@ const FULL_ARCHIVE_FEED = '/all_posts.json';
             <div class="hero-overlay"></div>
             <div class="hero-content">
               ${renderBadgeRow(lead, `<span class="meta-chip">${lead.source}</span>`)}
-              <h1 class="headline-xl" style="margin-bottom:12px;">${textFor(lead,'title')}</h1>
+            <h2 class="headline-xl" style="margin-bottom:12px;">${textFor(lead,'title')}</h2>
               <p class="deck" style="max-width:700px;">${textFor(lead,'excerpt')}</p>
               <div class="meta-row" style="margin-top:18px;"><span>${leadMeta.date}</span><span>${leadMeta.read}</span><span>${tr('clickToRead')}</span></div>
             </div>
@@ -1326,7 +1321,6 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     renderSourceMix();
     renderTicker(layout);
     syncCategoryButtons();
-    scheduleArchivePrefetch();
     markNav('home');
     activatePage('home');
     updateMetaHome();
@@ -1435,7 +1429,8 @@ function renderVisualStrip(layout = currentFrontLayout()) {
 
     const picks = DB
       .filter(post => !post.isPreprint && !blocked.has(post.slug) && (currentCategory === 'all' || post.cat === currentCategory))
-      .sort((a, b) => ((b.score || 0) - (a.score || 0)) || (postTimestamp(b) - postTimestamp(a)));
+      .sort((a, b) => ((b.score || 0) - (a.score || 0)) || (postTimestamp(b) - postTimestamp(a)))
+      .slice(0, 5);
 
     mount.innerHTML = picks.map(post => {
       const meta = formatMeta(post);
@@ -1499,7 +1494,16 @@ function renderVisualStrip(layout = currentFrontLayout()) {
   }
 
   // ── Archive ────────────────────────────────────────────────────────────────
+  function updateArchiveKicker(count) {
+    const kicker = document.getElementById('archiveKicker');
+    if (!kicker) return;
+    kicker.textContent = currentLang === 'en'
+      ? `${count} stories available in the selected area. The archive preserves continuity instead of forcing everything through the homepage.`
+      : `${count} matérias disponíveis na área selecionada. O arquivo preserva continuidade em vez de empurrar tudo para a homepage.`;
+  }
+
   function renderArchive() {
+    archiveVisibleCount = ARCHIVE_PAGE_SIZE;
     const posts = currentCategory === 'all' ? DB : DB.filter(p => p.cat === currentCategory);
     const hero = posts.slice(0, 4);
     const remaining = posts.slice(4);
@@ -1508,9 +1512,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     const archiveStatus = document.getElementById('archiveStatus');
     const listMount = document.getElementById('archiveList');
 
-    document.getElementById('archiveKicker').textContent = currentLang === 'en'
-      ? `${posts.length} stories available in the selected area. The archive preserves continuity instead of forcing everything through the homepage.`
-      : `${posts.length} matérias disponíveis na área selecionada. O arquivo preserva continuidade em vez de empurrar tudo para a homepage.`;
+    updateArchiveKicker(posts.length);
 
     if (archiveSummary) {
       const topicCount = new Set(DB.map(post => post?.cat).filter(Boolean)).size;
@@ -1526,7 +1528,8 @@ function renderVisualStrip(layout = currentFrontLayout()) {
         : `<div class="archive-empty">${extraTr('archiveNoItems')}</div>`;
     }
 
-    if (listMount) listMount.innerHTML = remaining.length ? remaining.map(compactMarkup).join('') : '';
+    currentArchivePosts = posts;
+    renderArchiveList();
 
     if (archiveStatus) archiveStatus.textContent = fullArchiveLoaded ? extraTr('archiveLoaded') : extraTr('archiveLoading');
 
@@ -1536,6 +1539,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
       if (currentPage !== 'archive') return;
       const activePosts = currentCategory === 'all' ? DB : DB.filter(p => p.cat === currentCategory);
       const activeHero = activePosts.slice(0, 4);
+      updateArchiveKicker(activePosts.length);
       if (archiveSummary) {
         const topicCount = new Set(DB.map(post => post?.cat).filter(Boolean)).size;
         archiveSummary.innerHTML = `
@@ -1546,7 +1550,8 @@ function renderVisualStrip(layout = currentFrontLayout()) {
       if (archiveHighlights) archiveHighlights.innerHTML = activeHero.length
         ? activeHero.map((post, idx) => visualCardMarkup(post, { compact: idx > 0 })).join('')
         : `<div class="archive-empty">${extraTr('archiveNoItems')}</div>`;
-      if (listMount) listMount.innerHTML = activePosts.slice(4).map(compactMarkup).join('');
+      currentArchivePosts = activePosts;
+      renderArchiveList();
       if (archiveStatus) archiveStatus.textContent = extraTr('archiveLoaded');
       renderTopicNav('archiveTopicNav', { dense: true });
     });
@@ -1554,6 +1559,38 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     markNav('archive');
     activatePage('archive');
     updateMetaStatic('archive');
+  }
+
+  function renderArchiveList() {
+    const listMount = document.getElementById('archiveList');
+    if (!listMount) return;
+    let loadMore = document.getElementById('archiveLoadMore');
+    if (!loadMore) {
+      const wrap = document.createElement('div');
+      wrap.className = 'archive-load-more-wrap';
+      loadMore = document.createElement('button');
+      loadMore.className = 'archive-load-more';
+      loadMore.id = 'archiveLoadMore';
+      loadMore.type = 'button';
+      loadMore.addEventListener('click', loadMoreArchive);
+      wrap.appendChild(loadMore);
+      listMount.insertAdjacentElement('afterend', wrap);
+    }
+    const remaining = currentArchivePosts.slice(4);
+    const visible = remaining.slice(0, archiveVisibleCount);
+    listMount.innerHTML = visible.length ? visible.map(compactMarkup).join('') : '';
+    if (loadMore) {
+      const pending = Math.max(0, remaining.length - visible.length);
+      loadMore.hidden = pending === 0;
+      loadMore.textContent = currentLang === 'en'
+        ? `Load more stories (${pending})`
+        : `Carregar mais matérias (${pending})`;
+    }
+  }
+
+  function loadMoreArchive() {
+    archiveVisibleCount += ARCHIVE_PAGE_SIZE;
+    renderArchiveList();
   }
 
   // ── About / Standards ──────────────────────────────────────────────────────
@@ -2028,6 +2065,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
   }
 
   function engagementBoxMarkup() {
+    if (!getGiscusConfig().enabled) return '';
     return `
       <section class="engagement-box">
         <div class="engagement-head">
@@ -2098,9 +2136,9 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     const mount = document.getElementById('pageArticle');
     mount.innerHTML = `
       <div class="breadcrumbs">
-        <button onclick="goHome()">${tr('home')}</button>
+        <button onclick="backFromArticle()">← ${currentLang === 'en' ? 'Back' : 'Voltar'}</button>
         <span>›</span>
-        <button onclick="setCategory('${escapeAttr(post.cat)}');goHome();">${prettyCategory(post.cat)}</button>
+        <button onclick="goHome(${escapeAttr(JSON.stringify(post.cat))})">${prettyCategory(post.cat)}</button>
         <span>›</span>
         <span>${post.source}</span>
       </div>
@@ -2110,10 +2148,10 @@ function renderVisualStrip(layout = currentFrontLayout()) {
           <img ${imageAttrs(post,'eager')}>
           <div class="article-cover-content">
             ${renderBadgeRow(post, `<span class="meta-chip">${post.source}</span>`)}
-            <h1 class="headline-xl" style="margin-bottom:14px;">${textFor(post,'title')}</h1>
+            <h1 class="headline-xl" id="articleTitle" tabindex="-1" style="margin-bottom:14px;">${textFor(post,'title')}</h1>
             <div class="meta-row" style="margin-top:16px;">
               <span>${tr('newsroom')}</span>
-              <span>${meta.date}</span>
+              <time datetime="${escapeAttr(post.publishedIso || '')}">${meta.date}</time>
               <span>${meta.time}</span>
               <span>${meta.read}</span>
             </div>
@@ -2240,65 +2278,255 @@ function renderVisualStrip(layout = currentFrontLayout()) {
   }
 
   // ── Navigation helpers ─────────────────────────────────────────────────────
-  function activatePage(page) {
+  function activatePage(page, { scroll = 'top' } = {}) {
     currentPage = page;
     document.querySelectorAll('.page').forEach(el => el.classList.remove('active'));
     const map = { home:'pageHome', article:'pageArticle', archive:'pageArchive', about:'pageAbout', standards:'pageStandards', search:'pageSearch' };
     const el = document.getElementById(map[page]);
     if (el) el.classList.add('active');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.body.classList.toggle('is-reading-article', page === 'article');
+    document.body.dataset.cwView = page;
+    if (scroll === 'top') window.scrollTo({ top: 0, behavior: 'auto' });
   }
 
   function markNav(which) {
-    ['navHome','navArchive','navAbout','navStandards'].forEach(id => document.getElementById(id).classList.remove('on'));
+    ['navHome','navArchive','navAbout','navStandards'].forEach(id => {
+      const link = document.getElementById(id);
+      if (!link) return;
+      link.classList.remove('on');
+      link.removeAttribute('aria-current');
+    });
     const map = { home:'navHome', archive:'navArchive', about:'navAbout', standards:'navStandards' };
-    if (map[which]) document.getElementById(map[which]).classList.add('on');
+    const active = map[which] ? document.getElementById(map[which]) : null;
+    if (active) {
+      active.classList.add('on');
+      active.setAttribute('aria-current', 'page');
+    }
   }
 
   function setCategory(category, btn) {
     currentCategory = category || 'all';
     if (btn) syncCategoryButtons(btn);
-    if (currentPage === 'archive') renderArchive(); else renderHome();
+    if (currentPage === 'archive') renderArchive();
+    else if (currentPage === 'home') renderHome();
+    else goHome(currentCategory);
   }
 
   function syncCategoryButtons(activeBtn) {
-    document.querySelectorAll('.cat-pill').forEach(btn => btn.classList.remove('on'));
-    if (activeBtn) { activeBtn.classList.add('on'); return; }
-    if (currentCategory === 'all') return;
+    document.querySelectorAll('.cat-pill').forEach(btn => {
+      btn.classList.remove('on');
+      btn.setAttribute('aria-pressed', 'false');
+    });
+    if (activeBtn) {
+      activeBtn.classList.add('on');
+      activeBtn.setAttribute('aria-pressed', 'true');
+      return;
+    }
     const target = document.querySelector(`.cat-pill[data-cat="${CSS.escape(currentCategory)}"]`);
-    if (target) target.classList.add('on');
+    if (target) {
+      target.classList.add('on');
+      target.setAttribute('aria-pressed', 'true');
+    }
   }
 
-  function safeReplaceState(url) {
-    try { history.replaceState({}, '', url); }
+  function safeReplaceState(url, state = history.state || {}) {
+    try { history.replaceState(state, '', url); }
     catch (err) { console.warn('History replaceState falhou:', err); }
   }
 
-  function safePushState(url) {
-    try { history.pushState({}, '', url); }
+  function safePushState(url, state = {}) {
+    try { history.pushState(state, '', url); }
     catch (err) { console.warn('History pushState falhou:', err); }
   }
 
+  function storeCurrentScrollInHistory() {
+    const state = Object.assign({}, history.state || {}, {
+      cwRoute: currentPage,
+      cwSlug: currentArticleSlug || '',
+      cwScrollY: Math.max(0, Math.round(window.scrollY || 0))
+    });
+    safeReplaceState(`${location.pathname}${location.search}${location.hash}`, state);
+  }
+
+  function articleRouteFromUrl(value) {
+    try {
+      const url = new URL(value, window.location.href);
+      const allowedHost = url.origin === window.location.origin || /(^|\.)cosmosweek\.com$/i.test(url.hostname);
+      if (!allowedHost) return null;
+      const matchPt = url.pathname.match(/^\/noticia\/([^/]+)\/?$/i);
+      const matchEn = url.pathname.match(/^\/en\/news\/([^/]+)\/?$/i);
+      const match = matchEn || matchPt;
+      if (!match) return null;
+      const slug = decodeURIComponent(match[1]);
+      return {
+        slug,
+        lang: matchEn ? 'en' : 'pt',
+        path: `${matchEn ? '/en/news/' : '/noticia/'}${encodeURIComponent(slug)}/`
+      };
+    } catch (err) {
+      return null;
+    }
+  }
+
+  function articleRouteForPost(post, lang = currentLang) {
+    return articleRouteFromUrl(getURLForArticle(post, lang));
+  }
+
+  function articleHasBody(post, lang = currentLang) {
+    const body = lang === 'en' ? (post?.body_en || post?.body || '') : (post?.body_pt || post?.body || '');
+    return stripHtml(body).length > 80;
+  }
+
+  async function hydrateArticleFromStaticPage(post, route) {
+    if (articleHasBody(post, route.lang)) return post;
+    const response = await fetch(route.path, { cache: 'force-cache', credentials: 'same-origin' });
+    if (!response.ok) throw new Error(`article fetch failed (${response.status})`);
+    const html = await response.text();
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    const article = doc.querySelector(`article[data-article-slug="${CSS.escape(route.slug)}"]`) || doc.querySelector('article');
+    const body = article?.querySelector('.body') || doc.querySelector('.body');
+    const bodyHtml = (body?.innerHTML || '').trim();
+    if (!bodyHtml) throw new Error('article body not found');
+
+    const bodyKey = route.lang === 'en' ? 'body_en' : 'body_pt';
+    post[bodyKey] = bodyHtml;
+    if (!post.body) post.body = bodyHtml;
+
+    const dek = (article?.querySelector('.dek')?.textContent || '').replace(/\s+/g, ' ').trim();
+    if (dek) {
+      const subKey = route.lang === 'en' ? 'sub_en' : 'sub_pt';
+      post[subKey] = post[subKey] || dek;
+    }
+
+    const highlights = [...(article?.querySelectorAll('.highlights li') || [])]
+      .map(item => (item.textContent || '').replace(/\s+/g, ' ').trim())
+      .filter(Boolean);
+    if (highlights.length) {
+      const highlightsKey = route.lang === 'en' ? 'highlights_en' : 'highlights_pt';
+      post[highlightsKey] = highlights;
+      if (!Array.isArray(post.highlights) || !post.highlights.length) post.highlights = highlights;
+    }
+
+    const sourceLink = article?.querySelector('.source-link a[href]');
+    if (!post.srcUrl && sourceLink?.href) post.srcUrl = sourceLink.href;
+
+    const contextNote = [...(article?.querySelectorAll('.context-box p') || [])]
+      .map(item => (item.textContent || '').replace(/\s+/g, ' ').trim())
+      .filter(text => text.length > 45)
+      .sort((a, b) => b.length - a.length)[0] || '';
+    if (contextNote) {
+      const noteKey = route.lang === 'en' ? 'sourceNote_en' : 'sourceNote_pt';
+      post[noteKey] = contextNote;
+      if (!post.sourceNote) post.sourceNote = contextNote;
+    }
+
+    const figures = [...(article?.querySelectorAll('.preview-inline-figure') || [])]
+      .map(figure => {
+        const img = figure.querySelector('img[src]');
+        const caption = (figure.querySelector('figcaption')?.textContent || '').replace(/\s+/g, ' ').trim();
+        return img ? { src: img.src, alt: img.alt || caption, caption } : null;
+      })
+      .filter(Boolean);
+    if (figures.length && (!Array.isArray(post.inline_images) || !post.inline_images.length)) post.inline_images = figures;
+
+    const heroImage = article?.querySelector('img.hero[src]');
+    if (!post.img && heroImage?.src) post.img = heroImage.src;
+    return post;
+  }
+
+  function renderArticleLoading() {
+    const mount = document.getElementById('pageArticle');
+    if (!mount) return;
+    mount.innerHTML = `<div class="article-loading" role="status" aria-live="polite"><div class="article-loading-inner"><span class="article-loading-orbit" aria-hidden="true"></span><span>${currentLang === 'en' ? 'Opening story…' : 'Abrindo matéria…'}</span></div></div>`;
+    markNav('');
+    activatePage('article');
+  }
+
+  function focusArticleHeading() {
+    requestAnimationFrame(() => {
+      const title = document.getElementById('articleTitle');
+      if (title) title.focus({ preventScroll: true });
+    });
+  }
+
+  let articleNavigationToken = 0;
+
+  async function navigateToArticle(route, { historyMode = 'push' } = {}) {
+    const post = DB.find(item => item.slug === route.slug);
+    if (!post) return false;
+
+    const token = ++articleNavigationToken;
+    if (historyMode === 'push') {
+      storeCurrentScrollInHistory();
+      safePushState(route.path, { cwRoute: 'article', cwSlug: route.slug, cwScrollY: 0 });
+    } else if (historyMode === 'replace') {
+      safeReplaceState(route.path, { cwRoute: 'article', cwSlug: route.slug, cwScrollY: 0 });
+    }
+
+    currentLang = route.lang;
+    currentArticleSlug = route.slug;
+    applyUIStrings();
+    renderArticleLoading();
+
+    try {
+      await hydrateArticleFromStaticPage(post, route);
+      if (token !== articleNavigationToken) return false;
+      const render = () => renderArticle(route.slug);
+      const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+      if (document.startViewTransition && !reduceMotion) {
+        const transition = document.startViewTransition(render);
+        transition.finished.catch(() => {});
+      } else {
+        render();
+      }
+      focusArticleHeading();
+      return true;
+    } catch (err) {
+      console.warn('A leitura integrada não pôde ser carregada:', err);
+      if (`${location.pathname}` === route.path) window.location.reload();
+      else window.location.assign(route.path);
+      return false;
+    }
+  }
+
   function openPage(page) {
-    if (page === 'archive')   { currentCategory = 'all'; safeReplaceState(pageUrl('archive'));   renderArchive(); }
-    else if (page === 'about')     { safeReplaceState(pageUrl('about'));     renderAbout(); }
-    else if (page === 'standards') { safeReplaceState(pageUrl('standards')); renderStandards(); }
+    storeCurrentScrollInHistory();
+    if (page === 'archive')   { currentCategory = 'all'; safePushState(pageUrl('archive'), { cwRoute: 'archive', cwScrollY: 0 }); renderArchive(); }
+    else if (page === 'about')     { safePushState(pageUrl('about'), { cwRoute: 'about', cwScrollY: 0 }); renderAbout(); }
+    else if (page === 'standards') { safePushState(pageUrl('standards'), { cwRoute: 'standards', cwScrollY: 0 }); renderStandards(); }
     else goHome();
   }
 
-  function goHome() {
-    currentCategory = 'all';
-    safeReplaceState(pageUrl('home'));
+  function goHome(category = 'all') {
+    storeCurrentScrollInHistory();
+    currentCategory = category || 'all';
+    safePushState(pageUrl('home'), { cwRoute: 'home', cwScrollY: 0 });
     renderHome();
   }
 
-  function openArticle(slug) {
+  function backFromArticle() {
+    if (history.state?.cwRoute === 'article' && history.length > 1) history.back();
+    else goHome();
+  }
+
+  async function openArticle(slug) {
     const post = DB.find(item => item.slug === slug);
-    if (post) {
-      window.location.href = getShareURLForArticle(post);
-      return;
-    }
-    renderArticle(slug);
+    const route = post ? articleRouteForPost(post) : null;
+    if (!route) return false;
+    return navigateToArticle(route, { historyMode: 'push' });
+  }
+
+  function handleInternalArticleClick(event) {
+    if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    const anchor = event.target.closest?.('a[href]');
+    if (!anchor || anchor.hasAttribute('download') || anchor.target) return;
+    const route = articleRouteFromUrl(anchor.href);
+    if (!route || !DB.some(item => item.slug === route.slug)) return;
+    event.preventDefault();
+    document.body.classList.remove('nav-open');
+    const toggle = document.getElementById('mobileNavToggle');
+    if (toggle) toggle.setAttribute('aria-expanded', 'false');
+    navigateToArticle(route, { historyMode: 'push' });
   }
 
   function handleSearchInput(value) {
@@ -2311,7 +2539,8 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     if (currentPage === 'search') return;
     if (currentPage === 'article' && currentArticleSlug) {
       const post = DB.find(item => item.slug === currentArticleSlug);
-      if (post) { safeReplaceState(getURLForArticle(post)); return; }
+      const route = post ? articleRouteForPost(post) : null;
+      if (route) { safeReplaceState(route.path, Object.assign({}, history.state || {}, { cwRoute: 'article', cwSlug: post.slug })); return; }
     }
     if (currentPage === 'archive')   { safeReplaceState(pageUrl('archive')); return; }
     if (currentPage === 'about')     { safeReplaceState(pageUrl('about')); return; }
@@ -2319,9 +2548,17 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     safeReplaceState(pageUrl('home'));
   }
 
-  function setLanguage(lang) {
+  async function setLanguage(lang) {
     currentLang = lang === 'en' ? 'en' : 'pt';
     localStorage.setItem('cw_lang', currentLang);
+    if (currentPage === 'article' && currentArticleSlug) {
+      const post = DB.find(item => item.slug === currentArticleSlug);
+      const route = post ? articleRouteForPost(post, currentLang) : null;
+      if (route) {
+        await navigateToArticle(route, { historyMode: 'replace' });
+        return;
+      }
+    }
     applyUIStrings();
     rerenderCurrentView();
     syncCurrentRouteUrl();
@@ -2371,8 +2608,18 @@ function renderVisualStrip(layout = currentFrontLayout()) {
       const cat = btn.dataset.cat;
       btn.textContent = cat === 'all' ? tr('allCategories') : prettyCategory(cat);
     });
-    document.getElementById('langPt').classList.toggle('on', currentLang==='pt');
-    document.getElementById('langEn').classList.toggle('on', currentLang==='en');
+    const langPt = document.getElementById('langPt');
+    const langEn = document.getElementById('langEn');
+    if (langPt) {
+      langPt.classList.toggle('on', currentLang === 'pt');
+      if (currentLang === 'pt') langPt.setAttribute('aria-current', 'true');
+      else langPt.removeAttribute('aria-current');
+    }
+    if (langEn) {
+      langEn.classList.toggle('on', currentLang === 'en');
+      if (currentLang === 'en') langEn.setAttribute('aria-current', 'true');
+      else langEn.removeAttribute('aria-current');
+    }
     const footerHome = document.getElementById('footerHome'); if (footerHome) footerHome.textContent = tr('home');
     const footerArchive = document.getElementById('footerArchive'); if (footerArchive) footerArchive.textContent = tr('archive');
     const footerAbout = document.getElementById('footerAbout'); if (footerAbout) footerAbout.textContent = tr('about');
@@ -2762,7 +3009,13 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     } else renderHome();
   }
 
-  function parseRoute() {
+  function restoreHistoryScroll(state) {
+    const y = Number(state?.cwScrollY || 0);
+    if (!Number.isFinite(y) || y <= 0) return;
+    requestAnimationFrame(() => requestAnimationFrame(() => window.scrollTo({ top: y, behavior: 'auto' })));
+  }
+
+  async function parseRoute({ historyNavigation = false, state = history.state } = {}) {
     const params = new URLSearchParams(window.location.search);
     const article = params.get('article');
     const pageParam = normalizePageKey(params.get('page') || '');
@@ -2770,23 +3023,25 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     const query = (params.get('q') || '').trim();
     const bodyPage = normalizePageKey(document.body?.dataset?.cwPage || '');
     const bodyLang = (document.body?.dataset?.cwLang || '').toLowerCase();
-    const pathMatchPt = path.match(/^\/noticia\/([^\/]+)\/?$/i);
-    const pathMatchEn = path.match(/^\/en\/news\/([^\/]+)\/?$/i);
-    const articleFromPath = pathMatchEn ? decodeURIComponent(pathMatchEn[1]) : (pathMatchPt ? decodeURIComponent(pathMatchPt[1]) : '');
-    if ((params.get('lang') || '').toLowerCase() === 'en' || /^\/en(?:\/|$)/i.test(path) || pathMatchEn || bodyLang === 'en') currentLang = 'en';
-    if ((params.get('lang') || '').toLowerCase() === 'pt' || pathMatchPt || bodyLang === 'pt' || /^\/(arquivo|sobre|padroes)(?:\/|$)/i.test(path) || path === '/') currentLang = 'pt';
+    const routeFromPath = articleRouteFromUrl(path);
+    if ((params.get('lang') || '').toLowerCase() === 'en' || /^\/en(?:\/|$)/i.test(path) || routeFromPath?.lang === 'en' || bodyLang === 'en') currentLang = 'en';
+    else if ((params.get('lang') || '').toLowerCase() === 'pt' || routeFromPath?.lang === 'pt' || bodyLang === 'pt' || /^\/(arquivo|sobre|padroes)(?:\/|$)/i.test(path) || path === '/') currentLang = 'pt';
     if (article) {
       const post = DB.find(item => item.slug === article);
-      if (post) { window.location.replace(getShareURLForArticle(post)); return; }
-      renderArticle(article); return;
+      const route = post ? articleRouteForPost(post) : null;
+      if (route) { await navigateToArticle(route, { historyMode: 'replace' }); return; }
     }
-    if (articleFromPath) { renderArticle(articleFromPath); return; }
+    if (routeFromPath) { await navigateToArticle(routeFromPath, { historyMode: 'none' }); return; }
     const page = pageParam !== 'home' ? pageParam : (routePageFromPath(path) || bodyPage || 'home');
-    if (query) { const input = document.getElementById('searchInput'); if (input) input.value = query; renderSearch(query); return; }
-    if (page === 'archive') { renderArchive(); return; }
-    if (page === 'about') { renderAbout(); return; }
-    if (page === 'standards') { renderStandards(); return; }
-    renderHome();
+    if (query) {
+      const input = document.getElementById('searchInput');
+      if (input) input.value = query;
+      renderSearch(query);
+    } else if (page === 'archive') renderArchive();
+    else if (page === 'about') renderAbout();
+    else if (page === 'standards') renderStandards();
+    else renderHome();
+    if (historyNavigation) restoreHistoryScroll(state);
   }
 
   // Reading progress
@@ -2796,9 +3051,10 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     document.getElementById('readingProgress').style.width = `${ratio}%`;
   }, { passive: true });
 
-  window.addEventListener('popstate', parseRoute);
+  window.addEventListener('popstate', event => parseRoute({ historyNavigation: true, state: event.state }));
 
   document.addEventListener('DOMContentLoaded', () => {
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
     applyUIStrings();
     loadSavedNewsletterEmail();
     initCookieBanner();
@@ -2812,14 +3068,40 @@ function renderVisualStrip(layout = currentFrontLayout()) {
         const value = (input?.value || '').trim();
         if (!value) { goHome(); return; }
         const url = `${pageUrl('home')}?q=${encodeURIComponent(value)}`;
-        safeReplaceState(url);
+        storeCurrentScrollInHistory();
+        safePushState(url, { cwRoute: 'search', cwScrollY: 0 });
         renderSearch(value);
       });
     }
-    ensureSummaryFeedLoaded(true).finally(() => {
-      parseRoute();
-      if (normalizePageKey(document.body?.dataset?.cwPage || '') === 'archive' || routePageFromPath(window.location.pathname || '') === 'archive') {
-        scheduleArchivePrefetch();
+    const mobileToggle = document.getElementById('mobileNavToggle');
+    if (mobileToggle) {
+      mobileToggle.addEventListener('click', () => {
+        const open = document.body.classList.toggle('nav-open');
+        mobileToggle.setAttribute('aria-expanded', String(open));
+        mobileToggle.setAttribute('aria-label', open ? (currentLang === 'en' ? 'Close menu' : 'Fechar menu') : (currentLang === 'en' ? 'Open menu' : 'Abrir menu'));
+      });
+    }
+    const mainNav = document.getElementById('mainNav');
+    if (mainNav) {
+      mainNav.addEventListener('click', event => {
+        if (!event.target.closest('a,button')) return;
+        document.body.classList.remove('nav-open');
+        if (mobileToggle) mobileToggle.setAttribute('aria-expanded', 'false');
+      });
+    }
+    document.addEventListener('click', handleInternalArticleClick);
+    document.addEventListener('keydown', event => {
+      if (event.key !== 'Escape' || !document.body.classList.contains('nav-open')) return;
+      document.body.classList.remove('nav-open');
+      if (mobileToggle) {
+        mobileToggle.setAttribute('aria-expanded', 'false');
+        mobileToggle.focus();
       }
+    });
+    ensureSummaryFeedLoaded(false).finally(() => {
+      if (!history.state?.cwRoute) {
+        safeReplaceState(`${location.pathname}${location.search}${location.hash}`, { cwRoute: 'home', cwScrollY: window.scrollY || 0 });
+      }
+      parseRoute();
     });
   });

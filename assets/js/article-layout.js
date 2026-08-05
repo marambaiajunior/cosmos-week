@@ -239,8 +239,7 @@
       '}',
       'html.cw-story-reflow .main-story .body p {',
       '  margin: 0 0 1.35em;',
-      '  text-align: justify;',
-      '  text-justify: inter-word;',
+      '  text-align: left;',
       '  hyphens: auto;',
       '  -webkit-hyphens: auto;',
       '  -ms-hyphens: auto;',
@@ -823,6 +822,9 @@
     var hero = article.querySelector('img.hero');
     var content = article.querySelector('.content');
     if (!hero || !content) return;
+    hero.addEventListener('error', function() {
+      if (!hero.src.endsWith('/assets/cosmic-placeholder.svg')) hero.src = '/assets/cosmic-placeholder.svg';
+    }, { once: true });
 
     var lang = (document.documentElement.getAttribute('lang') || '').toLowerCase();
     var isEnglish = lang.indexOf('en') === 0 || location.pathname.indexOf('/en/') === 0;

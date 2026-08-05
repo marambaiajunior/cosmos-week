@@ -52,7 +52,6 @@
 <meta content="" id="articleModifiedMeta" property="article:modified_time"/>
 <meta content="" id="articleSectionMeta" property="article:section"/>
 <link href="https://www.cosmosweek.com/en/archive/" id="canonicalLink" rel="canonical"/>
-<link as="image" fetchpriority="high" href="https://www.cosmosweek.com/assets/og-default.jpg" rel="preload"/>
 <link href="https://www.cosmosweek.com/arquivo/" hreflang="pt-BR" id="alternatePtLink" rel="alternate"/>
 <link href="https://www.cosmosweek.com/en/archive/" hreflang="en-US" id="alternateEnLink" rel="alternate"/>
 <link href="https://www.cosmosweek.com/arquivo/" hreflang="x-default" id="alternateDefaultLink" rel="alternate"/>
@@ -63,10 +62,13 @@
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link as="style" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;family=Lora:ital,wght@0,400;0,500;1,400&amp;family=Inter:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/><noscript><link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;family=Lora:ital,wght@0,400;0,500;1,400&amp;family=Inter:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/></noscript>
+<link href="/assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/site.webmanifest" rel="manifest"/>
 <link href="/assets/css/main.css" rel="stylesheet"/>
+<link href="/assets/css/modern.css" rel="stylesheet"/>
 <meta content="app-id=6759013786" name="apple-itunes-app"/>
 <link as="fetch" crossorigin="anonymous" href="/assets/data/posts-index.json" rel="preload"/></head>
-<body data-cw-lang="en" data-cw-page="archive">
+<body class="phase3-premium modern-editorial" data-cw-lang="en" data-cw-page="archive" data-ui-phase="4">
 <a class="skip-link" href="#mainContent">Pular para o conteúdo principal</a>
 <div id="readingProgress"></div>
 <div class="topbar">
@@ -81,6 +83,7 @@
 <div class="logo-title">Cosmos<em>Week</em></div>
 <div class="logo-sub" id="logoSub">Science journalism</div>
 </a>
+<button aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menu" class="mobile-nav-toggle" id="mobileNavToggle" type="button"><span></span><span></span><span></span></button>
 <nav aria-label="Navegação principal" class="main-nav" id="mainNav">
 <a class="nav-link" href="/en/" id="navHome" onclick="event.preventDefault(); goHome()">Início</a>
 <a class="nav-link" href="/en/archive/" id="navArchive" onclick="event.preventDefault(); openPage('archive')">Arquivo</a>
@@ -88,10 +91,10 @@
 <a class="nav-link" href="/en/standards/" id="navStandards" onclick="event.preventDefault(); openPage('standards')">Padrões</a><a class="nav-link" href="/guias/">Guias</a>
 </nav>
 <div class="header-tools">
-<form action="https://www.cosmosweek.com/en/" class="searchbox" id="siteSearchForm" method="get" role="search"><input autocomplete="off" enterkeyhint="search" id="searchInput" name="q" oninput="handleSearchInput(this.value)" placeholder="Search stories, topics or sources..." type="text"/><button aria-label="Search" type="submit"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg></button></form>
+<form action="https://www.cosmosweek.com/en/" class="searchbox" id="siteSearchForm" method="get" role="search"><input aria-label="Search Cosmos Week" autocomplete="off" enterkeyhint="search" id="searchInput" name="q" oninput="handleSearchInput(this.value)" placeholder="Search stories, topics or sources..." type="text"/><button aria-label="Search" type="submit"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg></button></form>
 <div aria-label="Selecionar idioma" class="lang-switch">
-<a href="https://www.cosmosweek.com/arquivo/" id="langPt" onclick="event.preventDefault(); setLanguage('pt')">🇧🇷</a>
-<a href="https://www.cosmosweek.com/en/archive/" id="langEn" onclick="event.preventDefault(); setLanguage('en')">🇺🇸</a>
+<a aria-label="Português" href="https://www.cosmosweek.com/arquivo/" id="langPt" onclick="event.preventDefault(); setLanguage('pt')">PT</a>
+<a aria-label="English" href="https://www.cosmosweek.com/en/archive/" id="langEn" onclick="event.preventDefault(); setLanguage('en')">EN</a>
 </div>
 <a aria-label="Instagram" class="social-icon-link" href="https://www.instagram.com/cosmos_week/" rel="noopener" target="_blank">
 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><rect height="19" rx="5.2" ry="5.2" width="19" x="2.5" y="2.5"></rect><path d="M17.5 6.5h.01"></path><circle cx="12" cy="12" r="4.25"></circle></svg>
@@ -109,7 +112,8 @@
 <div class="ticker-viewport"><div class="ticker-track" id="tickerTrack"></div></div>
 </div>
 <div class="catbar">
-<div class="catbar-inner" id="catbarInner"><button class="cat-pill" data-cat="Astronomia" onclick="setCategory('Astronomia',this)">Astronomia</button>
+<div class="catbar-inner" id="catbarInner"><button aria-pressed="true" class="cat-pill on" data-cat="all" onclick="setCategory('all',this)">All</button>
+<button class="cat-pill" data-cat="Astronomia" onclick="setCategory('Astronomia',this)">Astronomia</button>
 <button class="cat-pill" data-cat="Cosmologia" onclick="setCategory('Cosmologia',this)">Cosmologia</button>
 <button class="cat-pill" data-cat="Astrofísica" onclick="setCategory('Astrofísica',this)">Astrofísica</button>
 <button class="cat-pill" data-cat="Exoplanetas" onclick="setCategory('Exoplanetas',this)">Exoplanetas</button>
@@ -262,9 +266,8 @@
 <span id="footerBottomLeft">© 2026 Cosmos Week</span>
 <span id="footerBottomCenter">Science reporting built around context, hierarchy of information and evidence.</span>
 </div>
-</div>
- · <a href="/guias/">Guias</a></footer>
-<div class="toast" id="toast"></div>
+</div></footer>
+<div aria-live="polite" class="toast" id="toast" role="status"></div>
 <div aria-label="Aviso de cookies" aria-live="polite" class="cookie-banner" id="cookieBanner" role="dialog">
 <div class="cookie-copy">
 <div class="cookie-title" id="cookieTitle">Privacy</div>
