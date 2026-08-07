@@ -1,6 +1,700 @@
 [
   {
     "id": 1,
+    "slug": "a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
+    "cat": "Biologia",
+    "catCls": "biologia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/DNA_orbit_animated_static_thumb.png/1280px-DNA_orbit_animated_static_thumb.png",
+    "inline_images": [
+      {
+        "src": "https://www.nih.gov/sites/default/files/styles/max_650x650/public/2026-07/20260731-doctors.jpg?itok=A3KaQSH9",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
+    "title_pt": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
+    "title_en": "A child’s language may predict the arrival of depression and anxiety disorders years before onset",
+    "sub": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
+    "sub_pt": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
+    "sub_en": "The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern.",
+    "excerpt": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
+    "excerpt_pt": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
+    "excerpt_en": "The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern.",
+    "highlights": [
+      "Em foco: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
+      "Detalhe: Dado-chave: Financiado pelo NIH, Alimentado por IA. análise de. entrevistas sugerem. isso",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
+      "Detalhe: Dado-chave: Financiado pelo NIH, Alimentado por IA. análise de. entrevistas sugerem. isso",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern",
+      "Detail: Key detail: NIH-funded. AI-powered. analysis of. interviews suggests. that. a. youth’s. framing of stressful events",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "07 ago 2026",
+    "date_pt": "07 ago 2026",
+    "date_en": "07 Aug 2026",
+    "time": "16h25",
+    "time_pt": "16h25",
+    "time_en": "16: 25 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-07T16:25:49.200033+00:00",
+    "lastModifiedIso": "2026-08-07T16:43:53+00:00",
+    "source": "NIH News Releases",
+    "sourceDomain": "www. nih. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Biologia",
+      "NIH News Releases",
+      "Cosmos Week",
+      "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início"
+    ],
+    "keywords_pt": [
+      "Biologia",
+      "NIH News Releases",
+      "Cosmos Week",
+      "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início"
+    ],
+    "keywords_en": [
+      "Biology",
+      "NIH News Releases",
+      "Cosmos Week",
+      "A child's language can predict the arrival of depression and anxiety disorders years before they begin"
+    ],
+    "srcUrl": "https://www.nih.gov/news-events/news-releases/childs-language-may-predict-arrival-depression-anxiety-disorders-years-before-onset",
+    "realUrl": "https://www.cosmosweek.com/?article=a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
+    "realUrl_en": "https://www.cosmosweek.com/?article=a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 93,
+    "scoreBreakdown": {
+      "source": 86,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 52,
+      "novelty": 55
+    },
+    "imageAlt": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
+    "imageAlt_pt": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
+    "imageAlt_en": "A child’s language may predict the arrival of depression and anxiety disorders years before onset",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "science-campaigns-planned-for-the-august-12th-total-solar-eclipse",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://dq0hsqwjhea1.cloudfront.net/Screenshot2026-08-02125624-ezgif.com-jpg-to-webp-converter.webp",
+    "inline_images": [
+      {
+        "src": "https://dq0hsqwjhea1.cloudfront.net/eclipse_map_20260812_preview-ezgif.com-png-to-webp-converter.webp",
+        "alt": "Mapa mostrando a trajetória do eclipse em todo o mundo",
+        "alt_pt": "Mapa mostrando a trajetória do eclipse em todo o mundo",
+        "alt_en": "Map showing eclipse track across the globe",
+        "caption": "Mapa mostrando a trajetória do eclipse em todo o mundo",
+        "caption_pt": "Mapa mostrando a trajetória do eclipse em todo o mundo",
+        "caption_en": "Map showing eclipse track across the globe"
+      },
+      {
+        "src": "https://dq0hsqwjhea1.cloudfront.net/Visualisation_of_the_Sun_s_magnetic_skeleton_pillars-ezgif.com-png-to-webp-converter.webp",
+        "alt": "A previsão do eclipse virtual mostra serpentinas coronais emergindo do Sol",
+        "alt_pt": "A previsão do eclipse virtual mostra serpentinas coronais emergindo do Sol",
+        "alt_en": "Virtual eclipse prediction shows coronal streamers emerging from the Sun",
+        "caption": "A previsão do eclipse virtual mostra serpentinas coronais emergindo do Sol",
+        "caption_pt": "A previsão do eclipse virtual mostra serpentinas coronais emergindo do Sol",
+        "caption_en": "Virtual eclipse prediction shows coronal streamers emerging from the Sun"
+      },
+      {
+        "src": "https://dq0hsqwjhea1.cloudfront.net/theme/src/img/comment.png",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": {
+      "kind": "embed",
+      "platform": "youtube",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/q4jfPfMKBgU?rel=0&modestbranding=1",
+      "fileUrl": "",
+      "poster": "",
+      "title": "",
+      "title_pt": "",
+      "title_en": "",
+      "caption": "",
+      "caption_pt": "",
+      "caption_en": "",
+      "sourcePage": "https://skyandtelescope.org/astronomy-news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/"
+    },
+    "audio": null,
+    "title": "Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto",
+    "title_pt": "Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto",
+    "title_en": "Science Campaigns Planned for the August 12th Total Solar Eclipse",
+    "sub": "Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto. O post Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto apareceu.",
+    "sub_pt": "Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto. O post Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto apareceu.",
+    "sub_en": "Several science campaigns plan to greet the racing shadow of the Moon on August 12th. The post Science Campaigns Planned for the August 12th Total Solar Eclipse appeared first on.",
+    "excerpt": "Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto. O post Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto apareceu pela primeira vez na Sky & Telescope.",
+    "excerpt_pt": "Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto. O post Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto apareceu pela primeira vez na Sky & Telescope.",
+    "excerpt_en": "Several science campaigns plan to greet the racing shadow of the Moon on August 12th. The post Science Campaigns Planned for the August 12th Total Solar Eclipse appeared first on Sky & Telescope.",
+    "highlights": [
+      "Em foco: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_pt": [
+      "Em foco: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_en": [
+      "Focus: Several science campaigns plan to greet the racing shadow of the Moon on August 12th",
+      "Detail: Science reporting: verify primary technical documentation",
+      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+    ],
+    "date": "07 ago 2026",
+    "date_pt": "07 ago 2026",
+    "date_en": "07 Aug 2026",
+    "time": "12h00",
+    "time_pt": "12h00",
+    "time_en": "12: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-07T12:00:00+00:00",
+    "lastModifiedIso": "2026-08-07T16:43:53+00:00",
+    "source": "Sky & Telescope",
+    "sourceDomain": "skyandtelescope. org",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Astronomia",
+      "Sky & Telescope",
+      "Cosmos Week",
+      "Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "Sky & Telescope",
+      "Cosmos Week",
+      "Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "Sky & Telescope",
+      "Cosmos Week",
+      "Science campaigns planned for the August 12th Total Solar Eclipse"
+    ],
+    "srcUrl": "https://skyandtelescope.org/astronomy-news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
+    "realUrl": "https://www.cosmosweek.com/?article=science-campaigns-planned-for-the-august-12th-total-solar-eclipse",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=science-campaigns-planned-for-the-august-12th-total-solar-eclipse",
+    "realUrl_en": "https://www.cosmosweek.com/?article=science-campaigns-planned-for-the-august-12th-total-solar-eclipse&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 91,
+    "scoreBreakdown": {
+      "source": 79,
+      "evidence": 60,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto",
+    "imageAlt_pt": "Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto",
+    "imageAlt_en": "Science Campaigns Planned for the August 12th Total Solar Eclipse",
+    "coverageKind": "news",
+    "coverageKindLabel": "Jornalismo científico",
+    "coverageKindLabel_pt": "Jornalismo científico",
+    "coverageKindLabel_en": "Science journalism",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
+    "slug": "sensing-the-poles-hidden-heat",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/sensing-the-poles’-hidden-heat/seasonaltempbal_prefire_2026_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": {
+      "kind": "file",
+      "platform": "html5",
+      "embedUrl": "",
+      "fileUrl": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/sensing-the-poles’-hidden-heat/seasonaltempbal_prefire_2026_loop.mp4",
+      "poster": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/sensing-the-poles’-hidden-heat/seasonaltempbal_prefire_2026_th.jpg?w=1920&h=1080&fit=clip&crop=faces%2Cfocalpoint",
+      "title": "Sentindo o calor oculto dos poloneses - NASA Science",
+      "title_pt": "Sentindo o calor oculto dos poloneses - NASA Science",
+      "title_en": "Sensing the Poles’ Hidden Heat - NASA Science",
+      "caption": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
+      "caption_pt": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
+      "caption_en": "New animations from NASA's PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
+      "sourcePage": "https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/"
+    },
+    "audio": null,
+    "title": "Sentindo o calor oculto dos poloneses",
+    "title_pt": "Sentindo o calor oculto dos poloneses",
+    "title_en": "Sensing the Poles’ Hidden Heat",
+    "sub": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
+    "sub_pt": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
+    "sub_en": "New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
+    "excerpt": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
+    "excerpt_pt": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
+    "excerpt_en": "New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
+    "highlights": [
+      "Em foco: Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "07 ago 2026",
+    "date_pt": "07 ago 2026",
+    "date_en": "07 Aug 2026",
+    "time": "04h00",
+    "time_pt": "04h00",
+    "time_en": "04: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-07T04:00:00+00:00",
+    "lastModifiedIso": "2026-08-07T16:43:53+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Sentindo o calor oculto dos poloneses"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Sentindo o calor oculto dos poloneses"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Feeling the hidden warmth of the Poles"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/",
+    "realUrl": "https://www.cosmosweek.com/?article=sensing-the-poles-hidden-heat",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=sensing-the-poles-hidden-heat",
+    "realUrl_en": "https://www.cosmosweek.com/?article=sensing-the-poles-hidden-heat&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/sensing-the-poles-hidden-heat/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/sensing-the-poles-hidden-heat/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/sensing-the-poles-hidden-heat/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/sensing-the-poles-hidden-heat/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/sensing-the-poles-hidden-heat/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/sensing-the-poles-hidden-heat/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Sentindo o calor oculto dos poloneses",
+    "imageAlt_pt": "Sentindo o calor oculto dos poloneses",
+    "imageAlt_en": "Sensing the Poles’ Hidden Heat",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 4,
+    "slug": "how-the-tide-turns-at-the-mouth-of-the-elbe",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/how-the-tide-turns-at-the-mouth-of-the-elbe/germanytide_oli2_20250815_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/how-the-tide-turns-at-the-mouth-of-the-elbe/germanytide_oli2_20250815.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/how-the-tide-turns-at-the-mouth-of-the-elbe/germanytide_oli2_20250511.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/how-the-tide-turns-at-the-mouth-of-the-elbe/germanytide_oli2_20250511_lrg.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Como a maré muda na foz do Elba",
+    "title_pt": "Como a maré muda na foz do Elba",
+    "title_en": "How the Tide Turns at the Mouth of the Elbe",
+    "sub": "Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha.",
+    "sub_pt": "Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha.",
+    "sub_en": "The ocean’s ebbs and flows reveal dynamic tidal flats and a well-traveled shipping route along the coast of Germany.",
+    "excerpt": "Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha.",
+    "excerpt_pt": "Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha.",
+    "excerpt_en": "The ocean’s ebbs and flows reveal dynamic tidal flats and a well-traveled shipping route along the coast of Germany. The post How the Tide Turns at the Mouth of the Elbe appeared first on NASA Science.",
+    "highlights": [
+      "Em foco: Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: The ocean’s ebbs and flows reveal dynamic tidal flats and a well-traveled shipping route along the coast of Germany",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "06 ago 2026",
+    "date_pt": "06 ago 2026",
+    "date_en": "06 Aug 2026",
+    "time": "04h01",
+    "time_pt": "04h01",
+    "time_en": "04: 01 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-06T04:01:00+00:00",
+    "lastModifiedIso": "2026-08-07T16:43:53+00:00",
+    "source": "NASA Earth Observatory",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "Como a maré muda na foz do Elba"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "Como a maré muda na foz do Elba"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "How the tide changes at the mouth of the Elbe"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/how-the-tide-turns-at-the-mouth-of-the-elbe/",
+    "realUrl": "https://www.cosmosweek.com/?article=how-the-tide-turns-at-the-mouth-of-the-elbe",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=how-the-tide-turns-at-the-mouth-of-the-elbe",
+    "realUrl_en": "https://www.cosmosweek.com/?article=how-the-tide-turns-at-the-mouth-of-the-elbe&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/how-the-tide-turns-at-the-mouth-of-the-elbe/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/how-the-tide-turns-at-the-mouth-of-the-elbe/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/how-the-tide-turns-at-the-mouth-of-the-elbe/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/how-the-tide-turns-at-the-mouth-of-the-elbe/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/how-the-tide-turns-at-the-mouth-of-the-elbe/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/how-the-tide-turns-at-the-mouth-of-the-elbe/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 92,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Como a maré muda na foz do Elba",
+    "imageAlt_pt": "Como a maré muda na foz do Elba",
+    "imageAlt_en": "How the Tide Turns at the Mouth of the Elbe",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 5,
+    "slug": "a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana",
+    "cat": "Cosmologia",
+    "catCls": "cosmologia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hubble_ultra_deep_field.jpg/1280px-Hubble_ultra_deep_field.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Uma matriz de covariância gaussiana para análise de espectro de potência de forma completa pré e pós-reconstrução conjunta",
+    "title_pt": "Uma matriz de covariância gaussiana para análise de espectro de potência de forma completa pré e pós-reconstrução conjunta",
+    "title_en": "A Gaussian Covariance Matrix for Joint Pre- and Post-Reconstruction Full-Shape Power Spectrum Analysis",
+    "sub": "Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de potência de galáxias.",
+    "sub_pt": "Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de potência de galáxias.",
+    "sub_en": "We apply the Gaussian covariance formalism to develop a semi-analytical covariance model for the joint analysis of pre-reconstruction, post-reconstruction, and cross full-shape.",
+    "excerpt": "Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de potência de galáxias pré-reconstrução, pós-reconstrução e cruzadas de forma completa.",
+    "excerpt_pt": "Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de potência de galáxias pré-reconstrução, pós-reconstrução e cruzadas de forma completa.",
+    "excerpt_en": "We apply the Gaussian covariance formalism to develop a semi-analytical covariance model for the joint analysis of pre-reconstruction, post-reconstruction, and cross full-shape galaxy power spectra.",
+    "highlights": [
+      "Em foco: Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: We apply the Gaussian covariance formalism to develop a semi-analytical covariance model for the joint analysis of pre-reconstruction",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "06 ago 2026",
+    "date_pt": "06 ago 2026",
+    "date_en": "06 Aug 2026",
+    "time": "01h15",
+    "time_pt": "01h15",
+    "time_en": "01: 15 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-06T01:15:00+00:00",
+    "lastModifiedIso": "2026-08-07T16:43:53+00:00",
+    "source": "arXiv Cosmology",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Cosmologia",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "Uma matriz de covariância gaussiana para análise de espectro de potência de forma completa pré e pós",
+      "reconstrução conjunta"
+    ],
+    "keywords_pt": [
+      "Cosmologia",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "Uma matriz de covariância gaussiana para análise de espectro de potência de forma completa pré e pós",
+      "reconstrução conjunta"
+    ],
+    "keywords_en": [
+      "Cosmology",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "A Gaussian covariance matrix for pre-post full-form power spectrum analysis",
+      "joint reconstruction"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2608.05504v1",
+    "realUrl": "https://www.cosmosweek.com/?article=a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana",
+    "realUrl_en": "https://www.cosmosweek.com/?article=a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 80,
+    "scoreBreakdown": {
+      "source": 64,
+      "evidence": 39,
+      "relevance": 94,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Uma matriz de covariância gaussiana para análise de espectro de potência de forma completa pré e pós-reconstrução conjunta",
+    "imageAlt_pt": "Uma matriz de covariância gaussiana para análise de espectro de potência de forma completa pré e pós-reconstrução conjunta",
+    "imageAlt_en": "A Gaussian Covariance Matrix for Joint Pre- and Post-Reconstruction Full-Shape Power Spectrum Analysis",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 6,
     "slug": "nasa-s-perseverance-rover-watches-earth-vanish-behind-martian-moon",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -55,19 +749,19 @@
     "excerpt_pt": "A Terra e a lua marciana Fobos dançam juntas em uma série de imagens recentemente adquiridas pelo rover Perseverance Mars da NASA.",
     "excerpt_en": "Earth and the Martian moon Phobos dance together in a series of images recently acquired by NASA’s Perseverance Mars rover.",
     "highlights": [
-      "Em foco: A Terra e a lua marciana Fobos dançam juntas em uma série de imagens recentemente adquiridas pelo rover Perseverance Mars da NASA",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Terra e a lua marciana Fobos dançam juntas em uma série de imagens recentemente adquiridas pelo rover Perseverance Mars da NASA.",
+      "Dado-chave: A Terra e a lua marciana Fobos dançam juntas em uma série de imagens recentemente adquiridas pelo rover Perseverance Mars da NASA",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A Terra e a lua marciana Fobos dançam juntas em uma série de imagens recentemente adquiridas pelo rover Perseverance Mars da NASA",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Terra e a lua marciana Fobos dançam juntas em uma série de imagens recentemente adquiridas pelo rover Perseverance Mars da NASA.",
+      "Dado-chave: A Terra e a lua marciana Fobos dançam juntas em uma série de imagens recentemente adquiridas pelo rover Perseverance Mars da NASA",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Earth and the Martian moon Phobos dance together in a series of images recently acquired by NASA’s Perseverance Mars rover",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Earth and the Martian moon Phobos dance together in a series of images recently acquired by NASA’s Perseverance Mars rover.",
+      "Key detail: Earth and the Martian moon Phobos dance together in a series of images recently acquired by NASA’s Perseverance Mars rover",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "05 ago 2026",
     "date_pt": "05 ago 2026",
@@ -155,7 +849,7 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 7,
     "slug": "europe-s-forests-losing-more-biomass-since-2018",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -173,19 +867,19 @@
     "excerpt_pt": "As florestas da Europa estão a perder mais biomassa do que se pensava anteriormente, com perturbações como secas e pragas a causar perdas cada vez maiores em algumas das florestas mais antigas da Europa.",
     "excerpt_en": "Europe’s forests are losing more biomass than previously thought, with disturbances such as drought and pests causing increasingly large losses from some of the oldest forests in Europe.",
     "highlights": [
-      "Em foco: As florestas da Europa estão a perder mais biomassa do que se pensava anteriormente, com perturbações como secas e pragas a causar perdas cada vez",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: As florestas da Europa estão a perder mais biomassa do que se pensava anteriormente, com perturbações como secas e pragas a causar perdas cada vez.",
+      "Dado-chave: As florestas da Europa estão a perder mais biomassa do que se pensava anteriormente, com perturbações como secas e pragas a causar perdas cada.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: As florestas da Europa estão a perder mais biomassa do que se pensava anteriormente, com perturbações como secas e pragas a causar perdas cada vez",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: As florestas da Europa estão a perder mais biomassa do que se pensava anteriormente, com perturbações como secas e pragas a causar perdas cada vez.",
+      "Dado-chave: As florestas da Europa estão a perder mais biomassa do que se pensava anteriormente, com perturbações como secas e pragas a causar perdas cada.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Europe’s forests are losing more biomass than previously thought, with disturbances such as drought and pests causing increasingly large losses from",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Europe’s forests are losing more biomass than previously thought, with disturbances such as drought and pests causing increasingly large losses from.",
+      "Key detail: Europe’s forests are losing more biomass than previously thought, with disturbances such as drought and pests causing increasingly large losses.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "05 ago 2026",
     "date_pt": "05 ago 2026",
@@ -273,7 +967,7 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 8,
     "slug": "the-paradox-of-lencois-maranhenses-national-park",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -410,7 +1104,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 9,
     "slug": "nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -441,19 +1135,19 @@
     "excerpt_pt": "Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de conceito.",
     "excerpt_en": "Using continuous imagery from NASA’s PUNCH mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an initial proof of concept test.",
     "highlights": [
-      "Em foco: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um.",
+      "Dado-chave: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um.",
+      "Dado-chave: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Using continuous imagery from NASA’s PUNCH mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Using continuous imagery from NASA’s PUNCH mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an.",
+      "Key detail: Using continuous imagery from NASA’s PUNCH mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "04 ago 2026",
     "date_pt": "04 ago 2026",
@@ -541,7 +1235,7 @@
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 10,
     "slug": "ames-science-stars-of-the-month-august-2026",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -559,19 +1253,19 @@
     "excerpt_pt": "A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
     "excerpt_en": "The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud.",
     "highlights": [
-      "Em foco: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
+      "Dado-chave: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
+      "Dado-chave: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud.",
+      "Key detail: The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "04 ago 2026",
     "date_pt": "04 ago 2026",
@@ -659,175 +1353,7 @@
     "storyKind": "science"
   },
   {
-    "id": 6,
-    "slug": "nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://www.nasa.gov/wp-content/uploads/2026/08/moon-base-update-slate.jpg",
-    "inline_images": [
-      {
-        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-1.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-2.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-3.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-4.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": {
-      "kind": "embed",
-      "platform": "youtube",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Sempwv5MPMQ?rel=0&modestbranding=1",
-      "fileUrl": "",
-      "poster": "https://www.nasa.gov/wp-content/uploads/2026/08/moon-base-update-slate.jpg",
-      "title": "Base lunar da NASA: Lunar Landers (atualização de agosto de 2026)",
-      "title_pt": "Base lunar da NASA: Lunar Landers (atualização de agosto de 2026)",
-      "title_en": "NASA Moon Base: Lunar Landers (August 2026 Update)",
-      "caption": "Uma presença humana permanente na Lua pode parecer ficção científica, mas já está tomando forma. Ao longo de uma série de pousos na Lua, entregaremos a ciência. ..",
-      "caption_pt": "Uma presença humana permanente na Lua pode parecer ficção científica, mas já está tomando forma. Ao longo de uma série de pousos na Lua, entregaremos a ciência. ..",
-      "caption_en": "A permanent human presence on the Moon may sound like science fiction, but it's already taking shape. Over a series of Moon landings, we'll deliver the scienc. ..",
-      "sourcePage": "https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/"
-    },
-    "audio": null,
-    "title": "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas",
-    "title_pt": "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas",
-    "title_en": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
-    "sub": "A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações.",
-    "sub_pt": "A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações.",
-    "sub_en": "NASA is making progress in building the Moon Base, which will become a resilient outpost near the Moon’s South Pole for science, technology, and eventual human operations.",
-    "excerpt": "A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações humanas.",
-    "excerpt_pt": "A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações humanas.",
-    "excerpt_en": "NASA is making progress in building the Moon Base, which will become a resilient outpost near the Moon’s South Pole for science, technology, and eventual human operations.",
-    "highlights": [
-      "Em foco: A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: NASA is making progress in building the Moon Base, which will become a resilient outpost near the Moon’s South Pole for science, technology, and",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "04 ago 2026",
-    "date_pt": "04 ago 2026",
-    "date_en": "04 Aug 2026",
-    "time": "16h14",
-    "time_pt": "16h14",
-    "time_en": "16: 14 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-04T16:14:51+00:00",
-    "lastModifiedIso": "2026-08-05T17:22:03+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA provides updates on lunar base payload modules and technical demonstrations"
-    ],
-    "srcUrl": "https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas",
-    "imageAlt_pt": "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas",
-    "imageAlt_en": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 7,
+    "id": 11,
     "slug": "a-bare-summer-for-barnes-ice-cap",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -964,171 +1490,7 @@
     "storyKind": "science"
   },
   {
-    "id": 8,
-    "slug": "nsf-stands-up-2-materials-innovation-platforms-with-50m-investment",
-    "cat": "Física",
-    "catCls": "fisica",
-    "img": "https://nsf-gov-resources.nsf.gov/styles/_inline_image_full_width/s3/media_hub/2534344_TAMU_AutoLab_3DRender_91_graded_cropped_16x9.jpg?itok=RwYewXvb",
-    "inline_images": [
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/featured_news/s3/media_hub/2534344_TAMU_AutoLab_3DRender_91_graded_cropped_16x9.jpg?itok=AB0pWW3c",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/news_sidebar_teaser/s3/media_hub/Differential_privacy.png?itok=E1oxMJqt",
-        "alt": "Ilustração representando o reconhecimento de identidade facial",
-        "alt_pt": "Ilustração representando o reconhecimento de identidade facial",
-        "alt_en": "Illustration depicting facial identity recognition",
-        "caption": "Ilustração representando o reconhecimento de identidade facial",
-        "caption_pt": "Ilustração representando o reconhecimento de identidade facial",
-        "caption_en": "Illustration depicting facial identity recognition"
-      },
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/_inline_image_full_width/s3/media_hub/Differential_privacy.png?itok=IY1kDRtk",
-        "alt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "alt_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "alt_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program",
-        "caption": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "caption_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "caption_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program"
-      },
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/featured_news/s3/media_hub/Differential_privacy.png?itok=Cslui841",
-        "alt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "alt_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "alt_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program",
-        "caption": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "caption_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "caption_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program"
-      },
-      {
-        "src": "https://www.nsf.gov/themes/custom/nsf_theme/plugins/uswds/dist/img/us_flag_small.png",
-        "alt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "alt_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "alt_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program",
-        "caption": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "caption_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "caption_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program"
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
-    "title_pt": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
-    "title_en": "NSF stands up 2 Materials Innovation Platforms with $50M investment",
-    "sub": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir.",
-    "sub_pt": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir.",
-    "sub_en": "The U. S. National Science Foundation is investing $50 million in research infrastructure to enable the discovery and development of materials that can withstand extreme.",
-    "excerpt": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir a condições extremas, desde compósitos leves para melhor blindagem até.",
-    "excerpt_pt": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir a condições extremas, desde compósitos leves para melhor blindagem até.",
-    "excerpt_en": "The U. S. National Science Foundation is investing $50 million in research infrastructure to enable the discovery and development of materials that can withstand extreme conditions, from lightweight composites for better armor to.",
-    "highlights": [
-      "Em foco: A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: The U. S",
-      "Detail: Core point: The U. S",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "03 ago 2026",
-    "date_pt": "03 ago 2026",
-    "date_en": "03 Aug 2026",
-    "time": "14h00",
-    "time_pt": "14h00",
-    "time_en": "14: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-03T14:00:50+00:00",
-    "lastModifiedIso": "2026-08-03T17:45:08+00:00",
-    "source": "NSF News",
-    "sourceDomain": "www. nsf. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Física",
-      "NSF News",
-      "Cosmos Week",
-      "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões"
-    ],
-    "keywords_pt": [
-      "Física",
-      "NSF News",
-      "Cosmos Week",
-      "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões"
-    ],
-    "keywords_en": [
-      "Physical",
-      "NSF News",
-      "Cosmos Week",
-      "NSF raises 2 materials innovation platforms with investment of US$50 million"
-    ],
-    "srcUrl": "https://www.nsf.gov/news/nsf-stands-2-materials-innovation-platforms-50m-investment",
-    "realUrl": "https://www.cosmosweek.com/?article=nsf-stands-up-2-materials-innovation-platforms-with-50m-investment",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nsf-stands-up-2-materials-innovation-platforms-with-50m-investment",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nsf-stands-up-2-materials-innovation-platforms-with-50m-investment&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 93,
-    "scoreBreakdown": {
-      "source": 91,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 42,
-      "novelty": 55
-    },
-    "imageAlt": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
-    "imageAlt_pt": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
-    "imageAlt_en": "NSF stands up 2 Materials Innovation Platforms with $50M investment",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 9,
+    "id": 12,
     "slug": "hydrognss-data-open-for-new-insights-into-earth-s-water",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1157,17 +1519,17 @@
     "excerpt_en": "The European Space Agency's two-satellite HydroGNSS Scout mission has completed commissioning and is now in full scientific operations.",
     "highlights": [
       "Ponto central: A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica.",
-      "Dado-chave: A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica",
+      "Dado-chave: A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica.",
-      "Dado-chave: A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica",
+      "Dado-chave: A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: The European Space Agency's two-satellite HydroGNSS Scout mission has completed commissioning and is now in full scientific operations.",
-      "Key detail: The European Space Agency's two-satellite HydroGNSS Scout mission has completed commissioning and is now in full scientific operations",
+      "Key detail: The European Space Agency's two-satellite HydroGNSS Scout mission has completed commissioning and is now in full scientific operations.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "31 jul 2026",
@@ -1256,128 +1618,7 @@
     "storyKind": "science"
   },
   {
-    "id": 10,
-    "slug": "dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter",
-    "cat": "Cosmologia",
-    "catCls": "cosmologia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hubble_ultra_deep_field.jpg/1280px-Hubble_ultra_deep_field.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Achatamento dinâmico de cúspides de densidade de halo pela matéria escura Q-ball",
-    "title_pt": "Achatamento dinâmico de cúspides de densidade de halo pela matéria escura Q-ball",
-    "title_en": "Dynamical flattening of halo density cusps by Q-ball dark matter",
-    "sub": "A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-    "sub_pt": "A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-    "sub_en": "Cold, collisionless dark matter successfully explains a wide range of observations, including the formation of large-scale structure.",
-    "excerpt": "A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-    "excerpt_pt": "A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-    "excerpt_en": "Cold, collisionless dark matter successfully explains a wide range of observations, including the formation of large-scale structure.",
-    "highlights": [
-      "Ponto central: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-      "Dado-chave: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_pt": [
-      "Ponto central: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-      "Dado-chave: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_en": [
-      "Core point: Cold, collisionless dark matter successfully explains a wide range of observations, including the formation of large-scale structure.",
-      "Key detail: Cold, collisionless dark matter successfully explains a wide range of observations, including the formation of large-scale structure.",
-      "Result not yet peer reviewed."
-    ],
-    "date": "30 jul 2026",
-    "date_pt": "30 jul 2026",
-    "date_en": "30 Jul 2026",
-    "time": "16h55",
-    "time_pt": "16h55",
-    "time_en": "16: 55 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-07-30T16:55:29+00:00",
-    "lastModifiedIso": "2026-07-31T17:26:27+00:00",
-    "source": "arXiv Cosmology",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Cosmologia",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Achatamento dinâmico de cúspides de densidade de halo pela matéria escura Q",
-      "ball"
-    ],
-    "keywords_pt": [
-      "Cosmologia",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Achatamento dinâmico de cúspides de densidade de halo pela matéria escura Q",
-      "ball"
-    ],
-    "keywords_en": [
-      "Cosmology",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Dynamic flattening of halo density cusps by dark matter Q",
-      "ball"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2607.28517v1",
-    "realUrl": "https://www.cosmosweek.com/?article=dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter",
-    "realUrl_en": "https://www.cosmosweek.com/?article=dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 80,
-    "scoreBreakdown": {
-      "source": 64,
-      "evidence": 39,
-      "relevance": 94,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "Achatamento dinâmico de cúspides de densidade de halo pela matéria escura Q-ball",
-    "imageAlt_pt": "Achatamento dinâmico de cúspides de densidade de halo pela matéria escura Q-ball",
-    "imageAlt_en": "Dynamical flattening of halo density cusps by Q-ball dark matter",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 11,
+    "id": 13,
     "slug": "smos-salinity-could-offer-early-indicator-of-el-nino",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1505,144 +1746,7 @@
     "storyKind": "science"
   },
   {
-    "id": 12,
-    "slug": "sizing-up-the-sargassum-belt",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/1280px-The_Earth_seen_from_Apollo_17.jpg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/sizing-up-the-sargassum-belt/sargassum_pace_202606_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Dimensionando o Cinturão dos Sargaços",
-    "title_pt": "Dimensionando o Cinturão dos Sargaços",
-    "title_en": "Sizing Up the Sargassum Belt",
-    "sub": "As algas marinhas que compõem o Grande Cinturão Atlântico de Sargaços atingiram níveis quase recordes em junho de 2026, com o Mar do Caribe e o Golfo da América atingindo níveis.",
-    "sub_pt": "As algas marinhas que compõem o Grande Cinturão Atlântico de Sargaços atingiram níveis quase recordes em junho de 2026, com o Mar do Caribe e o Golfo da América atingindo níveis.",
-    "sub_en": "Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching all-time highs.",
-    "excerpt": "As algas marinhas que compõem o Grande Cinturão Atlântico de Sargaços atingiram níveis quase recordes em junho de 2026, com o Mar do Caribe e o Golfo da América atingindo níveis máximos históricos.",
-    "excerpt_pt": "As algas marinhas que compõem o Grande Cinturão Atlântico de Sargaços atingiram níveis quase recordes em junho de 2026, com o Mar do Caribe e o Golfo da América atingindo níveis máximos históricos.",
-    "excerpt_en": "Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching all-time highs.",
-    "highlights": [
-      "Em foco: As algas marinhas que compõem o Grande Cinturão Atlântico de Sargaços atingiram níveis quase recordes em junho de 2026, com o Mar do Caribe e o Golfo",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: As algas marinhas que compõem o Grande Cinturão Atlântico de Sargaços atingiram níveis quase recordes em junho de 2026, com o Mar do Caribe e o Golfo",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "29 jul 2026",
-    "date_pt": "29 jul 2026",
-    "date_en": "29 Jul 2026",
-    "time": "04h00",
-    "time_pt": "04h00",
-    "time_en": "04: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-07-29T04:00:00+00:00",
-    "lastModifiedIso": "2026-07-29T17:08:45+00:00",
-    "source": "NASA Earth Observatory",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA Earth Observatory",
-      "Cosmos Week",
-      "Dimensionando o Cinturão dos Sargaços"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA Earth Observatory",
-      "Cosmos Week",
-      "Dimensionando o Cinturão dos Sargaços"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA Earth Observatory",
-      "Cosmos Week",
-      "Sizing the Sargasso Belt"
-    ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/",
-    "realUrl": "https://www.cosmosweek.com/?article=sizing-up-the-sargassum-belt",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=sizing-up-the-sargassum-belt",
-    "realUrl_en": "https://www.cosmosweek.com/?article=sizing-up-the-sargassum-belt&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/sizing-up-the-sargassum-belt/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/sizing-up-the-sargassum-belt/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/sizing-up-the-sargassum-belt/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/sizing-up-the-sargassum-belt/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/sizing-up-the-sargassum-belt/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/sizing-up-the-sargassum-belt/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 92,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Dimensionando o Cinturão dos Sargaços",
-    "imageAlt_pt": "Dimensionando o Cinturão dos Sargaços",
-    "imageAlt_en": "Sizing Up the Sargassum Belt",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 13,
+    "id": 14,
     "slug": "unchanged-x-ray-polarization-during-accretion-dips-in-the-low-hard-state-of-cygnus-x-1",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1760,7 +1864,7 @@
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "watch-the-total-solar-eclipse-with-esa-in-leon",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1829,17 +1933,17 @@
     "excerpt_en": "Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency, the City of León and the University of León.",
     "highlights": [
       "Ponto central: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial.",
-      "Dado-chave: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial",
+      "Dado-chave: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial.",
-      "Dado-chave: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial",
+      "Dado-chave: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency, the.",
-      "Key detail: Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency, the",
+      "Key detail: Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "23 jul 2026",
@@ -1928,7 +2032,7 @@
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "new-exomoon-detection-challenges-cosmic-labels",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2105,7 +2209,7 @@
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "dark-matter-searches-with-a-13-mev-threshold-superconducting-sensor-array",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -2223,7 +2327,7 @@
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "the-nancy-grace-roman-space-telescope-launch-what-to-expect",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2417,7 +2521,7 @@
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "faintest-planet-ever-imaged-from-earth-found-after-more-than-10-years-of-hide-and-seek",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -2597,7 +2701,7 @@
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "science-release-hubble-discovers-first-of-star-cluster-s-missing-black-holes",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2773,7 +2877,7 @@
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 21,
     "slug": "older-than-the-sun-astronomers-find-new-clues-to-the-origin-of-interstellar-comet-3i-atlas",
     "cat": "Química",
     "catCls": "quimica",
@@ -2950,137 +3054,6 @@
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 21,
-    "slug": "cotton-candy-exoplanets-two-for-the-price-of-one",
-    "cat": "Exoplanetas",
-    "catCls": "exoplanetas",
-    "img": "https://dq0hsqwjhea1.cloudfront.net/super-puff-03-v03-scaled.webp",
-    "inline_images": [
-      {
-        "src": "https://dq0hsqwjhea1.cloudfront.net/theme/src/img/comment.png",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Descoberta de Dois Exoplanetas 'Super-Puff' no Mesmo Sistema: Gigantes Gasosos com Densidade de Algodão Doce",
-    "title_pt": "Descoberta de Dois Exoplanetas 'Super-Puff' no Mesmo Sistema: Gigantes Gasosos com Densidade de Algodão Doce",
-    "title_en": "Cotton-Candy Exoplanets: Two for the Price of One!",
-    "sub": "O Transiting Exoplanet Survey Satellite (TESS) da NASA identificou dois exoplanetas 'super-puff' no mesmo sistema estelar, cada um com uma densidade comparável à do algodão doce.",
-    "sub_pt": "O Transiting Exoplanet Survey Satellite (TESS) da NASA identificou dois exoplanetas 'super-puff' no mesmo sistema estelar, cada um com uma densidade comparável à do algodão doce.",
-    "sub_en": "NASA’s Transiting Exoplanet Survey Satellite has found two “super-puff” planets in the same system, each one as light as cotton candy.",
-    "excerpt": "O Transiting Exoplanet Survey Satellite (TESS) da NASA identificou dois exoplanetas 'super-puff' no mesmo sistema estelar, cada um com uma densidade comparável à do algodão doce.",
-    "excerpt_pt": "O Transiting Exoplanet Survey Satellite (TESS) da NASA identificou dois exoplanetas 'super-puff' no mesmo sistema estelar, cada um com uma densidade comparável à do algodão doce.",
-    "excerpt_en": "NASA’s Transiting Exoplanet Survey Satellite has found two “super-puff” planets in the same system, each one as light as cotton candy.",
-    "highlights": [
-      "Ponto central: O Transiting Exoplanet Survey Satellite (TESS) da NASA identificou dois exoplanetas 'super-puff' no mesmo sistema estelar, cada um com uma densidade.",
-      "Dado-chave: O Transiting Exoplanet Survey Satellite (TESS) da NASA identificou dois exoplanetas 'super-puff' no mesmo sistema estelar, cada um com uma.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_pt": [
-      "Ponto central: O Transiting Exoplanet Survey Satellite (TESS) da NASA identificou dois exoplanetas 'super-puff' no mesmo sistema estelar, cada um com uma densidade.",
-      "Dado-chave: O Transiting Exoplanet Survey Satellite (TESS) da NASA identificou dois exoplanetas 'super-puff' no mesmo sistema estelar, cada um com uma.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_en": [
-      "Core point: NASA’s Transiting Exoplanet Survey Satellite has found two “super-puff” planets in the same system, each one as light as cotton candy.",
-      "Key detail: NASA’s Transiting Exoplanet Survey Satellite has found two “super-puff” planets in the same system, each one as light as cotton candy.",
-      "Science reporting: verify primary technical documentation."
-    ],
-    "date": "02 jul 2026",
-    "date_pt": "02 jul 2026",
-    "date_en": "02 Jul 2026",
-    "time": "12h00",
-    "time_pt": "12h00",
-    "time_en": "12: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-07-02T12:00:00+00:00",
-    "lastModifiedIso": "2026-07-02T17:22:06+00:00",
-    "source": "Sky & Telescope",
-    "sourceDomain": "skyandtelescope. org",
-    "sourceType": "news",
-    "sourceTypeLabel": "Jornalismo científico",
-    "sourceTypeLabel_pt": "Jornalismo científico",
-    "sourceTypeLabel_en": "Science journalism",
-    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
-    "evidenceKey": "journalistic",
-    "evidenceLabel": "Cobertura jornalística",
-    "evidenceLabel_pt": "Cobertura jornalística",
-    "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Exoplanetas",
-      "Sky & Telescope",
-      "Cosmos Week",
-      "Exoplanetas de algodão doce",
-      "dois pelo preço de um!"
-    ],
-    "keywords_pt": [
-      "Exoplanetas",
-      "Sky & Telescope",
-      "Cosmos Week",
-      "Exoplanetas de algodão doce",
-      "dois pelo preço de um!"
-    ],
-    "keywords_en": [
-      "Exoplanets",
-      "Sky & Telescope",
-      "Cosmos Week",
-      "Cotton Candy Exoplanets",
-      "two for the price of one!"
-    ],
-    "srcUrl": "https://skyandtelescope.org/astronomy-news/cotton-candy-exoplanets-two-for-the-price-of-one/",
-    "realUrl": "https://www.cosmosweek.com/?article=cotton-candy-exoplanets-two-for-the-price-of-one",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=cotton-candy-exoplanets-two-for-the-price-of-one",
-    "realUrl_en": "https://www.cosmosweek.com/?article=cotton-candy-exoplanets-two-for-the-price-of-one&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/cotton-candy-exoplanets-two-for-the-price-of-one/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/cotton-candy-exoplanets-two-for-the-price-of-one/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/cotton-candy-exoplanets-two-for-the-price-of-one/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/cotton-candy-exoplanets-two-for-the-price-of-one/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/cotton-candy-exoplanets-two-for-the-price-of-one/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/cotton-candy-exoplanets-two-for-the-price-of-one/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": true,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 91,
-    "scoreBreakdown": {
-      "source": 79,
-      "evidence": 60,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Descoberta de Dois Exoplanetas 'Super-Puff' no Mesmo Sistema: Gigantes Gasosos com Densidade de Algodão Doce",
-    "imageAlt_pt": "Descoberta de Dois Exoplanetas 'Super-Puff' no Mesmo Sistema: Gigantes Gasosos com Densidade de Algodão Doce",
-    "imageAlt_en": "Cotton-Candy Exoplanets: Two for the Price of One!",
-    "coverageKind": "news",
-    "coverageKindLabel": "Jornalismo científico",
-    "coverageKindLabel_pt": "Jornalismo científico",
-    "coverageKindLabel_en": "Science journalism",
     "storyKind": "science"
   },
   {
@@ -3452,19 +3425,19 @@
     "excerpt_pt": "Astrônomos, utilizando o Telescópio Espacial Hubble da NASA/ESA, fizeram uma descoberta inesperada: luz ultravioleta proveniente de uma galáxia que existiu apenas 1, 4 bilhões de anos após o Big Bang.",
     "excerpt_en": "Astronomers using the NASA/ESA Hubble Space Telescope have found something they never expected: ultraviolet light from a galaxy that existed just 1.4 billion years after the Big Bang.",
     "highlights": [
-      "Em foco: Astrônomos, utilizando o Telescópio Espacial Hubble da NASA/ESA, fizeram uma descoberta inesperada: luz ultravioleta proveniente de uma galáxia que",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Astrônomos, utilizando o Telescópio Espacial Hubble da NASA/ESA, fizeram uma descoberta inesperada: luz ultravioleta proveniente de uma galáxia que.",
+      "Dado-chave: Astrônomos, utilizando o Telescópio Espacial Hubble da NASA/ESA, fizeram uma descoberta inesperada: luz ultravioleta proveniente de uma galáxia.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Astrônomos, utilizando o Telescópio Espacial Hubble da NASA/ESA, fizeram uma descoberta inesperada: luz ultravioleta proveniente de uma galáxia que",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Astrônomos, utilizando o Telescópio Espacial Hubble da NASA/ESA, fizeram uma descoberta inesperada: luz ultravioleta proveniente de uma galáxia que.",
+      "Dado-chave: Astrônomos, utilizando o Telescópio Espacial Hubble da NASA/ESA, fizeram uma descoberta inesperada: luz ultravioleta proveniente de uma galáxia.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Astronomers using the NASA/ESA Hubble Space Telescope have found something they never expected: ultraviolet light from a galaxy that existed just 1",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Astronomers using the NASA/ESA Hubble Space Telescope have found something they never expected: ultraviolet light from a galaxy that existed just 1.",
+      "Key detail: Astronomers using the NASA/ESA Hubble Space Telescope have found something they never expected: ultraviolet light from a galaxy that existed.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "23 jun 2026",
     "date_pt": "23 jun 2026",

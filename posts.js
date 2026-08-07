@@ -3,6 +3,715 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
+    "cat": "Biologia",
+    "catCls": "biologia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/DNA_orbit_animated_static_thumb.png/1280px-DNA_orbit_animated_static_thumb.png",
+    "inline_images": [
+      {
+        "src": "https://www.nih.gov/sites/default/files/styles/max_650x650/public/2026-07/20260731-doctors.jpg?itok=A3KaQSH9",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
+    "title_pt": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
+    "title_en": "A child’s language may predict the arrival of depression and anxiety disorders years before onset",
+    "sub": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
+    "sub_pt": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
+    "sub_en": "The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern.",
+    "excerpt": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
+    "excerpt_pt": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
+    "excerpt_en": "The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern.",
+    "body": "<p>Financiado pelo NIH, Alimentado por IA. A análise de entrevistas financiada pelo NIH e alimentada por IA sugere que o enquadramento de eventos estressantes por um jovem é um forte indicador de risco para distúrbios futuros.</p><p class=\"art-source\"><a href=\"https://www.nih.gov/news-events/news-releases/childs-language-may-predict-arrival-depression-anxiety-disorders-years-before-onset\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Financiado pelo NIH, Alimentado por IA. A análise de entrevistas financiada pelo NIH e alimentada por IA sugere que o enquadramento de eventos estressantes por um jovem é um forte indicador de risco para distúrbios futuros.</p><p class=\"art-source\"><a href=\"https://www.nih.gov/news-events/news-releases/childs-language-may-predict-arrival-depression-anxiety-disorders-years-before-onset\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>NIH-funded. AI-powered. analysis of. interviews suggests. that. a. youth’s. framing of stressful events. is. a strong. indicator. of. risk for. future. disorders. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern. The gap between identifying a correlation in biological data and understanding the causal chain that produces it is routinely underestimated, and the history of biomedical research is populated with associations that collapsed when the mechanism was sought and not found. A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive finding because it generates testable predictions that can narrow the hypothesis space. NIH-funded, AI-powered analysis of interviews suggests that a youth’s framing of stressful events is a strong indicator of risk for future disorders.</p><p>The broader interest lies in whether the reported effect points toward a real mechanism and not merely a reproducible but unexplained association. Biology has learned from decades of biomarker failures that correlation, even robust correlation, is not a substitute for mechanistic understanding. A pathway that can be traced from molecular interaction to cellular response to organismal phenotype provides a far stronger foundation for intervention than a statistical association discovered in a large dataset, however well the statistics are done.</p><p>Because the account originates with NIH News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to test whether the effect repeats across different methods, cell types, model organisms and experimental conditions. Reproducibility is the first test, but mechanistic dissection is the second, and a result that passes both has a substantially better chance of translating into something clinically or biotechnologically useful. The path from a laboratory finding to an applied outcome typically takes a decade or more, and most findings do not complete it; the current result sits at the beginning of that process.</p><p class=\"art-source\"><a href=\"https://www.nih.gov/news-events/news-releases/childs-language-may-predict-arrival-depression-anxiety-disorders-years-before-onset\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
+      "Detalhe: Dado-chave: Financiado pelo NIH, Alimentado por IA. análise de. entrevistas sugerem. isso",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
+      "Detalhe: Dado-chave: Financiado pelo NIH, Alimentado por IA. análise de. entrevistas sugerem. isso",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern",
+      "Detail: Key detail: NIH-funded. AI-powered. analysis of. interviews suggests. that. a. youth’s. framing of stressful events",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "07 ago 2026",
+    "date_pt": "07 ago 2026",
+    "date_en": "07 Aug 2026",
+    "time": "16h25",
+    "time_pt": "16h25",
+    "time_en": "16: 25 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-07T16:25:49.200033+00:00",
+    "lastModifiedIso": "2026-08-07T16:43:53+00:00",
+    "source": "NIH News Releases",
+    "sourceDomain": "www. nih. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Biologia",
+      "NIH News Releases",
+      "Cosmos Week",
+      "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início"
+    ],
+    "keywords_pt": [
+      "Biologia",
+      "NIH News Releases",
+      "Cosmos Week",
+      "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início"
+    ],
+    "keywords_en": [
+      "Biology",
+      "NIH News Releases",
+      "Cosmos Week",
+      "A child's language can predict the arrival of depression and anxiety disorders years before they begin"
+    ],
+    "srcUrl": "https://www.nih.gov/news-events/news-releases/childs-language-may-predict-arrival-depression-anxiety-disorders-years-before-onset",
+    "realUrl": "https://www.cosmosweek.com/?article=a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
+    "realUrl_en": "https://www.cosmosweek.com/?article=a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 93,
+    "scoreBreakdown": {
+      "source": 86,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 52,
+      "novelty": 55
+    },
+    "imageAlt": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
+    "imageAlt_pt": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
+    "imageAlt_en": "A child’s language may predict the arrival of depression and anxiety disorders years before onset",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "science-campaigns-planned-for-the-august-12th-total-solar-eclipse",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://dq0hsqwjhea1.cloudfront.net/Screenshot2026-08-02125624-ezgif.com-jpg-to-webp-converter.webp",
+    "inline_images": [
+      {
+        "src": "https://dq0hsqwjhea1.cloudfront.net/eclipse_map_20260812_preview-ezgif.com-png-to-webp-converter.webp",
+        "alt": "Mapa mostrando a trajetória do eclipse em todo o mundo",
+        "alt_pt": "Mapa mostrando a trajetória do eclipse em todo o mundo",
+        "alt_en": "Map showing eclipse track across the globe",
+        "caption": "Mapa mostrando a trajetória do eclipse em todo o mundo",
+        "caption_pt": "Mapa mostrando a trajetória do eclipse em todo o mundo",
+        "caption_en": "Map showing eclipse track across the globe"
+      },
+      {
+        "src": "https://dq0hsqwjhea1.cloudfront.net/Visualisation_of_the_Sun_s_magnetic_skeleton_pillars-ezgif.com-png-to-webp-converter.webp",
+        "alt": "A previsão do eclipse virtual mostra serpentinas coronais emergindo do Sol",
+        "alt_pt": "A previsão do eclipse virtual mostra serpentinas coronais emergindo do Sol",
+        "alt_en": "Virtual eclipse prediction shows coronal streamers emerging from the Sun",
+        "caption": "A previsão do eclipse virtual mostra serpentinas coronais emergindo do Sol",
+        "caption_pt": "A previsão do eclipse virtual mostra serpentinas coronais emergindo do Sol",
+        "caption_en": "Virtual eclipse prediction shows coronal streamers emerging from the Sun"
+      },
+      {
+        "src": "https://dq0hsqwjhea1.cloudfront.net/theme/src/img/comment.png",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": {
+      "kind": "embed",
+      "platform": "youtube",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/q4jfPfMKBgU?rel=0&modestbranding=1",
+      "fileUrl": "",
+      "poster": "",
+      "title": "",
+      "title_pt": "",
+      "title_en": "",
+      "caption": "",
+      "caption_pt": "",
+      "caption_en": "",
+      "sourcePage": "https://skyandtelescope.org/astronomy-news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/"
+    },
+    "audio": null,
+    "title": "Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto",
+    "title_pt": "Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto",
+    "title_en": "Science Campaigns Planned for the August 12th Total Solar Eclipse",
+    "sub": "Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto. O post Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto apareceu.",
+    "sub_pt": "Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto. O post Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto apareceu.",
+    "sub_en": "Several science campaigns plan to greet the racing shadow of the Moon on August 12th. The post Science Campaigns Planned for the August 12th Total Solar Eclipse appeared first on.",
+    "excerpt": "Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto. O post Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto apareceu pela primeira vez na Sky & Telescope.",
+    "excerpt_pt": "Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto. O post Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto apareceu pela primeira vez na Sky & Telescope.",
+    "excerpt_en": "Several science campaigns plan to greet the racing shadow of the Moon on August 12th. The post Science Campaigns Planned for the August 12th Total Solar Eclipse appeared first on Sky & Telescope.",
+    "body": "<p>Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto. O post Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto apareceu pela primeira vez na Sky &amp; Telescope.</p><p>(Você pode cancelar a inscrição a qualquer momento) Várias campanhas científicas planejam saudar a sombra acelerada da Lua em 12 de agosto. O mágico e diretor de fotografia Nevil Maskelyne também capturou a primeira sequência de vídeo em movimento da totalidade durante um eclipse em 28 de maio de 1900, visto da Carolina do Norte.</p><p>A NASA planeja liderar o caminho em 12 de agosto, pilotando uma de suas aeronaves WB-57 Canberra (um bombardeiro militar convertido) para perseguir a sombra da Lua. O WB-57 da NASA encontrará a sombra da Lua sob um céu sem nuvens a 50.000 pés sobre o Atlântico Norte, a oeste da Islândia, perto do ponto máximo de totalidade.</p><p>A sombra estará correndo pela Terra a mais de 3.300 km/h, então o vôo a 740 km/h estenderá a totalidade de 2 minutos e 18 segundos para cerca de 3 minutos de duração. A NASA realizou interceptações de eclipses semelhantes em 2017 e 2024.</p><p>O instrumento é o mesmo, mas estamos a implementar as lições aprendidas a partir de 2024 para ajustar melhor as configurações do instrumento, e os dados serão processados ​​muito mais rapidamente utilizando o pipeline de processamento que foi desenvolvido com os dados de 2024. As câmeras a bordo que podem ter campos de visão de 360 ​​graus também devem capturar imagens dramáticas da sombra da Lua que se aproxima.</p><p>Um voo conjunto C295 da ESA/Irish Air Corps irá perseguir a sombra da Lua no dia 12 de agosto.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto. O post Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto apareceu pela primeira vez na Sky &amp; Telescope.</p><p>(Você pode cancelar a inscrição a qualquer momento) Várias campanhas científicas planejam saudar a sombra acelerada da Lua em 12 de agosto. O mágico e diretor de fotografia Nevil Maskelyne também capturou a primeira sequência de vídeo em movimento da totalidade durante um eclipse em 28 de maio de 1900, visto da Carolina do Norte.</p><p>A NASA planeja liderar o caminho em 12 de agosto, pilotando uma de suas aeronaves WB-57 Canberra (um bombardeiro militar convertido) para perseguir a sombra da Lua. O WB-57 da NASA encontrará a sombra da Lua sob um céu sem nuvens a 50.000 pés sobre o Atlântico Norte, a oeste da Islândia, perto do ponto máximo de totalidade.</p><p>A sombra estará correndo pela Terra a mais de 3.300 km/h, então o vôo a 740 km/h estenderá a totalidade de 2 minutos e 18 segundos para cerca de 3 minutos de duração. A NASA realizou interceptações de eclipses semelhantes em 2017 e 2024.</p><p>O instrumento é o mesmo, mas estamos a implementar as lições aprendidas a partir de 2024 para ajustar melhor as configurações do instrumento, e os dados serão processados ​​muito mais rapidamente utilizando o pipeline de processamento que foi desenvolvido com os dados de 2024. As câmeras a bordo que podem ter campos de visão de 360 ​​graus também devem capturar imagens dramáticas da sombra da Lua que se aproxima.</p><p>Um voo conjunto C295 da ESA/Irish Air Corps irá perseguir a sombra da Lua no dia 12 de agosto.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Several science campaigns plan to greet the racing shadow of the Moon on August 12th. The post Science Campaigns Planned for the August 12th Total Solar Eclipse appeared first on Sky &amp; Telescope. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Several science campaigns plan to greet the racing shadow of the Moon on August 12th. The post Science Campaigns Planned for the August 12th Total Solar Eclipse appeared first on Sky &amp; Telescope.</p><p>(You can unsubscribe anytime) Several science campaigns plan to greet the racing shadow of the Moon on August 12th. Magician and cinematographer Nevil Maskelyne also caught the first moving video sequence of totality during an eclipse on May 28, 1900, as seen from North Carolina.</p><p>NASA plans to lead the way on August 12th, flying one of its WB-57 Canberra aircraft (a converted military bomber) to chase the shadow of the Moon. NASA’s WB-57 will meet the Moon’s shadow under cloudless skies at 50, 000 feet over the North Atlantic west of Iceland, near the maximum point of totality.</p><p>The shadow will be racing across Earth at over 2, 100 mph, so the 460 mph flight will extend totality from 2 minutes, 18 seconds, to about 3 minutes duration. NASA has performed similar eclipse intercepts in 2017 and 2024.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>The instrument is the same, but we are implementing lessons learned from 2024 to better dial in the instrument settings, and the data will be processed much faster using the. Cameras on board that can have 360-degree fields of view should also capture dramatic views of the Moon’s approaching shadow.</p><p>Because this item comes through Sky &amp; Telescope as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_pt": [
+      "Em foco: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_en": [
+      "Focus: Several science campaigns plan to greet the racing shadow of the Moon on August 12th",
+      "Detail: Science reporting: verify primary technical documentation",
+      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+    ],
+    "date": "07 ago 2026",
+    "date_pt": "07 ago 2026",
+    "date_en": "07 Aug 2026",
+    "time": "12h00",
+    "time_pt": "12h00",
+    "time_en": "12: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-07T12:00:00+00:00",
+    "lastModifiedIso": "2026-08-07T16:43:53+00:00",
+    "source": "Sky & Telescope",
+    "sourceDomain": "skyandtelescope. org",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Astronomia",
+      "Sky & Telescope",
+      "Cosmos Week",
+      "Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "Sky & Telescope",
+      "Cosmos Week",
+      "Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "Sky & Telescope",
+      "Cosmos Week",
+      "Science campaigns planned for the August 12th Total Solar Eclipse"
+    ],
+    "srcUrl": "https://skyandtelescope.org/astronomy-news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
+    "realUrl": "https://www.cosmosweek.com/?article=science-campaigns-planned-for-the-august-12th-total-solar-eclipse",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=science-campaigns-planned-for-the-august-12th-total-solar-eclipse",
+    "realUrl_en": "https://www.cosmosweek.com/?article=science-campaigns-planned-for-the-august-12th-total-solar-eclipse&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 91,
+    "scoreBreakdown": {
+      "source": 79,
+      "evidence": 60,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto",
+    "imageAlt_pt": "Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto",
+    "imageAlt_en": "Science Campaigns Planned for the August 12th Total Solar Eclipse",
+    "coverageKind": "news",
+    "coverageKindLabel": "Jornalismo científico",
+    "coverageKindLabel_pt": "Jornalismo científico",
+    "coverageKindLabel_en": "Science journalism",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
+    "slug": "sensing-the-poles-hidden-heat",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/sensing-the-poles’-hidden-heat/seasonaltempbal_prefire_2026_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": {
+      "kind": "file",
+      "platform": "html5",
+      "embedUrl": "",
+      "fileUrl": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/sensing-the-poles’-hidden-heat/seasonaltempbal_prefire_2026_loop.mp4",
+      "poster": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/sensing-the-poles’-hidden-heat/seasonaltempbal_prefire_2026_th.jpg?w=1920&h=1080&fit=clip&crop=faces%2Cfocalpoint",
+      "title": "Sentindo o calor oculto dos poloneses - NASA Science",
+      "title_pt": "Sentindo o calor oculto dos poloneses - NASA Science",
+      "title_en": "Sensing the Poles’ Hidden Heat - NASA Science",
+      "caption": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
+      "caption_pt": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
+      "caption_en": "New animations from NASA's PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
+      "sourcePage": "https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/"
+    },
+    "audio": null,
+    "title": "Sentindo o calor oculto dos poloneses",
+    "title_pt": "Sentindo o calor oculto dos poloneses",
+    "title_en": "Sensing the Poles’ Hidden Heat",
+    "sub": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
+    "sub_pt": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
+    "sub_en": "New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
+    "excerpt": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
+    "excerpt_pt": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
+    "excerpt_en": "New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
+    "body": "<p>Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida. Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal.</p><p>Imagem do dia do Observatório da Terra O Observatório da Terra da NASA traz para você a Terra, todos os dias, com histórias detalhadas e imagens impressionantes. Os dados para a animação vêm dos satélites PREFIRE (Polar Radiant Energy in the Far-InfraRed Experiment) da NASA.</p><p>Os CubeSats gêmeos da missão começaram a coletar dados científicos em julho de 2024 e agora capturaram dois ciclos sazonais completos em cada pólo. A luz solar absorvida pela superfície é re-irradiada como calor infravermelho, que salta entre a superfície da Terra e a atmosfera antes de escapar para o espaço.</p><p>Os cientistas sabem há muito tempo que a radiação infravermelha representa quase 60% da energia que a Terra perde para o espaço, mas essa parte do espectro, invisível aos olhos humanos, nunca tinha sido medida de forma abrangente à escala global. Ao rastrear diretamente esta energia invisível quase em tempo real, a missão PREFIRE está a ajudar os cientistas a refinar modelos e a obter uma melhor compreensão do sistema terrestre.</p><p>Agora que o invisível se tornou visível, podemos começar a melhorar as previsões meteorológicas e climáticas nas quais as indústrias, a nossa defesa nacional e as comunidades do Ártico dependem. ” Mapas cortesia de Chad Greene, NASA/JPL, usando dados da missão PREFIRE da NASA. Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal.</p><p>Artigo 1 2 3 4 Próximo Continue explorando Descubra mais da NASA Earth Science Assine os boletins informativos do Observatório da Terra Assine o Observatório da Terra e receba a Terra em sua caixa de entrada.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida. Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal.</p><p>Imagem do dia do Observatório da Terra O Observatório da Terra da NASA traz para você a Terra, todos os dias, com histórias detalhadas e imagens impressionantes. Os dados para a animação vêm dos satélites PREFIRE (Polar Radiant Energy in the Far-InfraRed Experiment) da NASA.</p><p>Os CubeSats gêmeos da missão começaram a coletar dados científicos em julho de 2024 e agora capturaram dois ciclos sazonais completos em cada pólo. A luz solar absorvida pela superfície é re-irradiada como calor infravermelho, que salta entre a superfície da Terra e a atmosfera antes de escapar para o espaço.</p><p>Os cientistas sabem há muito tempo que a radiação infravermelha representa quase 60% da energia que a Terra perde para o espaço, mas essa parte do espectro, invisível aos olhos humanos, nunca tinha sido medida de forma abrangente à escala global. Ao rastrear diretamente esta energia invisível quase em tempo real, a missão PREFIRE está a ajudar os cientistas a refinar modelos e a obter uma melhor compreensão do sistema terrestre.</p><p>Agora que o invisível se tornou visível, podemos começar a melhorar as previsões meteorológicas e climáticas nas quais as indústrias, a nossa defesa nacional e as comunidades do Ártico dependem. ” Mapas cortesia de Chad Greene, NASA/JPL, usando dados da missão PREFIRE da NASA. Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal.</p><p>Artigo 1 2 3 4 Próximo Continue explorando Descubra mais da NASA Earth Science Assine os boletins informativos do Observatório da Terra Assine o Observatório da Terra e receba a Terra em sua caixa de entrada.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet. Earth Observatory Image of the Day NASA’s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>Data for the animation come from NASA’s PREFIRE (Polar Radiant Energy in the Far-InfraRed Experiment) satellites. The mission’s twin CubeSats began collecting science data in July 2024 and have now captured two complete seasonal cycles at each pole.</p><p>Sunlight absorbed by the surface is re-radiated as infrared heat, which bounces between Earth’s surface and atmosphere before escaping to space. Long known that far-infrared radiation accounts for nearly 60 percent of the energy Earth loses to space, but that portion of the spectrum, invisible to human.</p><p>By directly tracking this invisible energy in near-real-time, the PREFIRE mission is helping scientists refine models and gain a better understanding of the Earth system. Now that the invisible has been made visible, we can begin to improve weather and climate predictions that industries, our national defense, and Arctic communities rely on.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Article 1 2 3 4 Next Keep Exploring Discover More from NASA Earth Science Subscribe to Earth Observatory Newsletters Subscribe to the Earth Observatory and get the Earth in your. NASA&#x27;s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "07 ago 2026",
+    "date_pt": "07 ago 2026",
+    "date_en": "07 Aug 2026",
+    "time": "04h00",
+    "time_pt": "04h00",
+    "time_en": "04: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-07T04:00:00+00:00",
+    "lastModifiedIso": "2026-08-07T16:43:53+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Sentindo o calor oculto dos poloneses"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Sentindo o calor oculto dos poloneses"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Feeling the hidden warmth of the Poles"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/",
+    "realUrl": "https://www.cosmosweek.com/?article=sensing-the-poles-hidden-heat",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=sensing-the-poles-hidden-heat",
+    "realUrl_en": "https://www.cosmosweek.com/?article=sensing-the-poles-hidden-heat&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/sensing-the-poles-hidden-heat/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/sensing-the-poles-hidden-heat/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/sensing-the-poles-hidden-heat/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/sensing-the-poles-hidden-heat/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/sensing-the-poles-hidden-heat/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/sensing-the-poles-hidden-heat/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Sentindo o calor oculto dos poloneses",
+    "imageAlt_pt": "Sentindo o calor oculto dos poloneses",
+    "imageAlt_en": "Sensing the Poles’ Hidden Heat",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 4,
+    "slug": "how-the-tide-turns-at-the-mouth-of-the-elbe",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/how-the-tide-turns-at-the-mouth-of-the-elbe/germanytide_oli2_20250815_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/how-the-tide-turns-at-the-mouth-of-the-elbe/germanytide_oli2_20250815.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/how-the-tide-turns-at-the-mouth-of-the-elbe/germanytide_oli2_20250511.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/how-the-tide-turns-at-the-mouth-of-the-elbe/germanytide_oli2_20250511_lrg.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Como a maré muda na foz do Elba",
+    "title_pt": "Como a maré muda na foz do Elba",
+    "title_en": "How the Tide Turns at the Mouth of the Elbe",
+    "sub": "Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha.",
+    "sub_pt": "Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha.",
+    "sub_en": "The ocean’s ebbs and flows reveal dynamic tidal flats and a well-traveled shipping route along the coast of Germany.",
+    "excerpt": "Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha.",
+    "excerpt_pt": "Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha.",
+    "excerpt_en": "The ocean’s ebbs and flows reveal dynamic tidal flats and a well-traveled shipping route along the coast of Germany. The post How the Tide Turns at the Mouth of the Elbe appeared first on NASA Science.",
+    "body": "<p>Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha. O post Como a maré vira na foz do Elba apareceu pela primeira vez na NASA Science.</p><p>Imagem do Dia do Observatório da Terra O Observatório da Terra da NASA traz para você a Terra, todos os dias, com histórias detalhadas e imagens impressionantes. Explore dados de ciências da terra na foz do Elba Acesso aberto ao arquivo de dados de ciências da terra da NASA A postagem Como a maré muda na foz do Elba apareceu pela primeira vez em NASA Science.</p><p>Observatório da Terra da NASA / Lauren Dauphin 15 de agosto de 2025 11 de maio de 2025 Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima bastante movimentada ao longo da costa alemã. Observatório da Terra da NASA / Lauren Dauphin 15 de agosto de 2025 11 de maio de 2025 Curtain Toggle 2-Up Um dos principais rios da Europa, o Elba flui por mais de 1.000 quilômetros (600 milhas) através do continente antes de chegar ao Mar do Norte.</p><p>Seus habitats servem como importantes locais de estadia, muda e invernada para aves migratórias, com mais de 10 milhões passando por lá todos os anos. Uma torre de tijolos, concluída em 1310 e posteriormente convertida em farol, foi construída para proteger a navegação no Elba de piratas e destruidores.</p><p>O nível de água mais alto medido em Cuxhaven, 5, 1 metros (16, 7 pés) acima da referência oficial do nível do mar na Europa, ocorreu em 3 de janeiro de 1976, quando uma tempestade rápida varreu o Mar do Norte e atingiu a costa com ventos fortes. Dois novos satélites de observação da Terra permitem medir com maior detalhe os níveis da água nas zonas costeiras.</p><p>Os primeiros dados do satélite SWOT (Surface Water and Ocean Topography) da NASA demonstraram o potencial para medir com precisão os níveis de água em torno de linhas costeiras complexas e para melhorar os modelos de marés.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/how-the-tide-turns-at-the-mouth-of-the-elbe/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha. O post Como a maré vira na foz do Elba apareceu pela primeira vez na NASA Science.</p><p>Imagem do Dia do Observatório da Terra O Observatório da Terra da NASA traz para você a Terra, todos os dias, com histórias detalhadas e imagens impressionantes. Explore dados de ciências da terra na foz do Elba Acesso aberto ao arquivo de dados de ciências da terra da NASA A postagem Como a maré muda na foz do Elba apareceu pela primeira vez em NASA Science.</p><p>Observatório da Terra da NASA / Lauren Dauphin 15 de agosto de 2025 11 de maio de 2025 Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima bastante movimentada ao longo da costa alemã. Observatório da Terra da NASA / Lauren Dauphin 15 de agosto de 2025 11 de maio de 2025 Curtain Toggle 2-Up Um dos principais rios da Europa, o Elba flui por mais de 1.000 quilômetros (600 milhas) através do continente antes de chegar ao Mar do Norte.</p><p>Seus habitats servem como importantes locais de estadia, muda e invernada para aves migratórias, com mais de 10 milhões passando por lá todos os anos. Uma torre de tijolos, concluída em 1310 e posteriormente convertida em farol, foi construída para proteger a navegação no Elba de piratas e destruidores.</p><p>O nível de água mais alto medido em Cuxhaven, 5, 1 metros (16, 7 pés) acima da referência oficial do nível do mar na Europa, ocorreu em 3 de janeiro de 1976, quando uma tempestade rápida varreu o Mar do Norte e atingiu a costa com ventos fortes. Dois novos satélites de observação da Terra permitem medir com maior detalhe os níveis da água nas zonas costeiras.</p><p>Os primeiros dados do satélite SWOT (Surface Water and Ocean Topography) da NASA demonstraram o potencial para medir com precisão os níveis de água em torno de linhas costeiras complexas e para melhorar os modelos de marés.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/how-the-tide-turns-at-the-mouth-of-the-elbe/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>The ocean’s ebbs and flows reveal dynamic tidal flats and a well-traveled shipping route along the coast of Germany. The post How the Tide Turns at the Mouth of the Elbe appeared first on NASA Science. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The post How the Tide Turns at the Mouth of the Elbe appeared first on NASA Science. Earth Observatory Image of the Day NASA&#x27;s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>Explore Earth Science Earth Science Data Open access to NASA’s archive of Earth science data The post How the Tide Turns at the Mouth of the Elbe appeared first on NASA Science. NASA Earth Observatory/Lauren Dauphin August 15, 2025 May 11, 2025 The ocean’s ebbs and flows reveal dynamic tidal flats and a well-traveled shipping route along the German coast.</p><p>NASA Earth Observatory/Lauren Dauphin August 15, 2025 May 11, 2025 Curtain Toggle 2-Up One of the major rivers of Europe, the Elbe flows more than 1, 000 kilometers (600 miles). Its habitats serve as important staging, molting, and wintering grounds for migratory birds, with more than 10 million passing through every year.</p><p>A brick tower, completed in 1310 and later converted to a lighthouse, was built to protect shipping on the Elbe from pirates and wreckers. The highest water level measured at Cuxhaven, 5.1 meters (16.7 feet) above Europe’s official sea level reference —occurred on January 3, 1976, when a fast-moving storm swept.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Two new Earth-observing satellites are making it possible to measure water levels in coastal areas in greater detail. In addition, early data from NASA’s SWOT (Surface Water and Ocean Topography) satellite has demonstrated the potential to accurately measure water levels around complex coastlines.</p><p>Because the account originates with NASA Earth Observatory, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/how-the-tide-turns-at-the-mouth-of-the-elbe/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: The ocean’s ebbs and flows reveal dynamic tidal flats and a well-traveled shipping route along the coast of Germany",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "06 ago 2026",
+    "date_pt": "06 ago 2026",
+    "date_en": "06 Aug 2026",
+    "time": "04h01",
+    "time_pt": "04h01",
+    "time_en": "04: 01 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-06T04:01:00+00:00",
+    "lastModifiedIso": "2026-08-07T16:43:53+00:00",
+    "source": "NASA Earth Observatory",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "Como a maré muda na foz do Elba"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "Como a maré muda na foz do Elba"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "How the tide changes at the mouth of the Elbe"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/how-the-tide-turns-at-the-mouth-of-the-elbe/",
+    "realUrl": "https://www.cosmosweek.com/?article=how-the-tide-turns-at-the-mouth-of-the-elbe",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=how-the-tide-turns-at-the-mouth-of-the-elbe",
+    "realUrl_en": "https://www.cosmosweek.com/?article=how-the-tide-turns-at-the-mouth-of-the-elbe&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/how-the-tide-turns-at-the-mouth-of-the-elbe/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/how-the-tide-turns-at-the-mouth-of-the-elbe/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/how-the-tide-turns-at-the-mouth-of-the-elbe/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/how-the-tide-turns-at-the-mouth-of-the-elbe/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/how-the-tide-turns-at-the-mouth-of-the-elbe/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/how-the-tide-turns-at-the-mouth-of-the-elbe/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 92,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Como a maré muda na foz do Elba",
+    "imageAlt_pt": "Como a maré muda na foz do Elba",
+    "imageAlt_en": "How the Tide Turns at the Mouth of the Elbe",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 5,
+    "slug": "a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana",
+    "cat": "Cosmologia",
+    "catCls": "cosmologia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hubble_ultra_deep_field.jpg/1280px-Hubble_ultra_deep_field.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Uma matriz de covariância gaussiana para análise de espectro de potência de forma completa pré e pós-reconstrução conjunta",
+    "title_pt": "Uma matriz de covariância gaussiana para análise de espectro de potência de forma completa pré e pós-reconstrução conjunta",
+    "title_en": "A Gaussian Covariance Matrix for Joint Pre- and Post-Reconstruction Full-Shape Power Spectrum Analysis",
+    "sub": "Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de potência de galáxias.",
+    "sub_pt": "Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de potência de galáxias.",
+    "sub_en": "We apply the Gaussian covariance formalism to develop a semi-analytical covariance model for the joint analysis of pre-reconstruction, post-reconstruction, and cross full-shape.",
+    "excerpt": "Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de potência de galáxias pré-reconstrução, pós-reconstrução e cruzadas de forma completa.",
+    "excerpt_pt": "Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de potência de galáxias pré-reconstrução, pós-reconstrução e cruzadas de forma completa.",
+    "excerpt_en": "We apply the Gaussian covariance formalism to develop a semi-analytical covariance model for the joint analysis of pre-reconstruction, post-reconstruction, and cross full-shape galaxy power spectra.",
+    "body": "<p>Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de potência de galáxias pré-reconstrução, pós-reconstrução e cruzadas de forma completa. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p>Saiba mais sobre o arXivLabs. Resumo: Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de potência de galáxias pré-reconstrução, pós-reconstrução e cruzadas de forma completa.</p><p>Modelamos o ruído cruzado dependente da escala e reduzido pela reconstrução usando estatísticas de campo de deslocamento e introduzimos um novo estimador que mede diretamente esse termo. Usando os espectros de potência medidos e as previsões de ruído de disparo modeladas como entradas, construímos a covariância gaussiana enquanto contabilizamos as correlações entre os campos de densidade pré e pós-reconstrução.</p><p>Validamos a covariância gaussiana semi-analítica resultante em relação a catálogos simulados. Usando inferência de parâmetros baseada em emulador, demonstramos que a covariância gaussiana semi-analítica captura adequadamente a contribuição dominante para a estrutura de covariância do vetor de dados completo ($P_{\\ell}^{\\rm pre}, P_{\\ell}^{\\rm post}, P_{\\ell}^{\\rm.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.05504v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de potência de galáxias pré-reconstrução, pós-reconstrução e cruzadas de forma completa. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p>Saiba mais sobre o arXivLabs. Resumo: Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de potência de galáxias pré-reconstrução, pós-reconstrução e cruzadas de forma completa.</p><p>Modelamos o ruído cruzado dependente da escala e reduzido pela reconstrução usando estatísticas de campo de deslocamento e introduzimos um novo estimador que mede diretamente esse termo. Usando os espectros de potência medidos e as previsões de ruído de disparo modeladas como entradas, construímos a covariância gaussiana enquanto contabilizamos as correlações entre os campos de densidade pré e pós-reconstrução.</p><p>Validamos a covariância gaussiana semi-analítica resultante em relação a catálogos simulados. Usando inferência de parâmetros baseada em emulador, demonstramos que a covariância gaussiana semi-analítica captura adequadamente a contribuição dominante para a estrutura de covariância do vetor de dados completo ($P_{\\ell}^{\\rm pre}, P_{\\ell}^{\\rm post}, P_{\\ell}^{\\rm.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.05504v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>We apply the Gaussian covariance formalism to develop a semi-analytical covariance model for the joint analysis of pre-reconstruction, post-reconstruction, and cross full-shape galaxy power spectra. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>The significance lies in cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Have an idea for a project that will add value for arXiv&#x27;s community. We model the reconstruction-reduced, scale-dependent cross shot noise using displacement-field statistics and introduce a new estimator that directly measures this term.</p><p>Using the measured power spectra and the modeled shot-noise predictions as inputs, we construct the Gaussian covariance while accounting for correlations between the pre- and. We validate the resulting semi-analytical Gaussian covariance against mock catalogues.</p><p>Using emulator-based parameter inference, we demonstrate that the semi-analytical Gaussian covariance adequately captures the dominant contribution to the covariance structure of. For the joint fit to these three power spectra, it yields cosmological constraints consistent with those obtained using the mock-based numerical covariance over the adopted.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.05504v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: We apply the Gaussian covariance formalism to develop a semi-analytical covariance model for the joint analysis of pre-reconstruction",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "06 ago 2026",
+    "date_pt": "06 ago 2026",
+    "date_en": "06 Aug 2026",
+    "time": "01h15",
+    "time_pt": "01h15",
+    "time_en": "01: 15 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-06T01:15:00+00:00",
+    "lastModifiedIso": "2026-08-07T16:43:53+00:00",
+    "source": "arXiv Cosmology",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Cosmologia",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "Uma matriz de covariância gaussiana para análise de espectro de potência de forma completa pré e pós",
+      "reconstrução conjunta"
+    ],
+    "keywords_pt": [
+      "Cosmologia",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "Uma matriz de covariância gaussiana para análise de espectro de potência de forma completa pré e pós",
+      "reconstrução conjunta"
+    ],
+    "keywords_en": [
+      "Cosmology",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "A Gaussian covariance matrix for pre-post full-form power spectrum analysis",
+      "joint reconstruction"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2608.05504v1",
+    "realUrl": "https://www.cosmosweek.com/?article=a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana",
+    "realUrl_en": "https://www.cosmosweek.com/?article=a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 80,
+    "scoreBreakdown": {
+      "source": 64,
+      "evidence": 39,
+      "relevance": 94,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Uma matriz de covariância gaussiana para análise de espectro de potência de forma completa pré e pós-reconstrução conjunta",
+    "imageAlt_pt": "Uma matriz de covariância gaussiana para análise de espectro de potência de forma completa pré e pós-reconstrução conjunta",
+    "imageAlt_en": "A Gaussian Covariance Matrix for Joint Pre- and Post-Reconstruction Full-Shape Power Spectrum Analysis",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 6,
     "slug": "nasa-s-perseverance-rover-watches-earth-vanish-behind-martian-moon",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -60,19 +769,19 @@ window.postsData = [
     "body_pt": "<p>A Terra e a lua marciana Fobos dançam juntas em uma série de imagens recentemente adquiridas pelo rover Perseverance Mars da NASA. 3 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento (e subaquáticas) Esta composição anotada de nove imagens tiradas pelo Mastcam-Z do Perseverance em 2 de julho de 2026, mostra a Terra, o pequeno ponto brilhante movendo-se do canto superior.</p><p>Esta composição de sete imagens da Terra passando por trás da lua marciana Fobos foi adquirida a partir de dados obtidos em 2 de julho de 2026, 1.907º dia marciano, ou sol, da missão. Para mais informações sobre o Perseverance: https: //science. nasa. gov/mission/mars-2020-perseverance Notícias Contatos com a mídia DC Agle Jet Propulsion Laboratory, Pasadena, Califórnia.</p><p>A Terra aparece como um ponto de luz Artigo Conteúdo Trânsitos, ocultações, eclipses Mais sobre o Perseverance Esta composição anotada de nove imagens tiradas pela Mastcam-Z do Perseverance em 2 de julho de 2026, mostra a Terra, o pequeno ponto brilhante movendo-se do canto. NASA/JPL-Caltech/ASU/MSSS/SSI As anotações do código de tempo na inserção mostram a hora solar local em Marte durante a qual cinco imagens individuais da ocultação foram capturadas pelo Perseverance da NASA em 2 de julho de 2026.</p><p>Esta é a primeira vez que a humanidade captura da superfície de outro planeta uma observação da Terra desaparecendo atrás de um objeto. Hora solar local (o horário noturno marciano onde o rover está localizado) em 2 de julho, o 1.907º dia marciano, ou sol, da missão.</p><p>A cerca de 314 milhões de quilômetros de distância na época, a Terra está reduzida a um único ponto do tamanho de um pixel. O Perseverance também observou isso: quando Fobos ou Deimos cruzam o disco do Sol visto de Marte.</p><p>Https: //science. nasa. gov/mission/mars-2020-perseverance Laboratório de Propulsão a Jato DC Agle, Pasadena, Califórnia.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/solar-system/planets/mars/nasas-perseverance-rover-watches-earth-vanish-behind-martian-moon/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Earth and the Martian moon Phobos dance together in a series of images recently acquired by NASA’s Perseverance Mars rover. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. 3 min read Preparations for Next Moonwalk Simulations Underway (and Underwater) This annotated composite of nine images taken by Perseverance’s Mastcam-Z on July 2, 2026, shows. This composite of seven images of Earth passing behind the Martian moon Phobos was acquired from data taken on July 2, 2026, 1, 907th Martian day, or sol, of the mission.</p><p>Https: //science. nasa. gov/mission/mars-2020-perseverance News Media Contacts DC Agle Jet Propulsion Laboratory, Pasadena, Calif. Earth appears as a point of light Article Contents Transits, occultations, eclipses More about Perseverance This annotated composite of nine images taken by Perseverance’s.</p><p>NASA/JPL-Caltech/ASU/MSSS/SSI The timecode annotations in the inset show the local solar time on Mars during which five individual images of the occultation were captured by. This is the first time humanity has captured from the surface of another planet an observation of Earth disappearing behind an object.</p><p>Local solar time (the Martian evening time where the rover is located) on July 2, the 1, 907th Martian day, or sol, of the mission. Phobos, a lumpy, potato-shaped moon about 17 miles (27 kilometers) across at its widest, orbits so close to Mars (4, 850 miles, or 7, 800 kilometers, away) that when the images were.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Some 195 million miles (314 million kilometers) away at the time, Earth is reduced to a single, pixel-size dot. Perseverance has observed those, too: when Phobos or Deimos crosses the disk of the Sun as seen from Mars.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/solar-system/planets/mars/nasas-perseverance-rover-watches-earth-vanish-behind-martian-moon/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A Terra e a lua marciana Fobos dançam juntas em uma série de imagens recentemente adquiridas pelo rover Perseverance Mars da NASA",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Terra e a lua marciana Fobos dançam juntas em uma série de imagens recentemente adquiridas pelo rover Perseverance Mars da NASA.",
+      "Dado-chave: A Terra e a lua marciana Fobos dançam juntas em uma série de imagens recentemente adquiridas pelo rover Perseverance Mars da NASA",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A Terra e a lua marciana Fobos dançam juntas em uma série de imagens recentemente adquiridas pelo rover Perseverance Mars da NASA",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Terra e a lua marciana Fobos dançam juntas em uma série de imagens recentemente adquiridas pelo rover Perseverance Mars da NASA.",
+      "Dado-chave: A Terra e a lua marciana Fobos dançam juntas em uma série de imagens recentemente adquiridas pelo rover Perseverance Mars da NASA",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Earth and the Martian moon Phobos dance together in a series of images recently acquired by NASA’s Perseverance Mars rover",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Earth and the Martian moon Phobos dance together in a series of images recently acquired by NASA’s Perseverance Mars rover.",
+      "Key detail: Earth and the Martian moon Phobos dance together in a series of images recently acquired by NASA’s Perseverance Mars rover",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "05 ago 2026",
     "date_pt": "05 ago 2026",
@@ -160,7 +869,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 7,
     "slug": "europe-s-forests-losing-more-biomass-since-2018",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -181,19 +890,19 @@ window.postsData = [
     "body_pt": "<p>As florestas da Europa estão a perder mais biomassa do que se pensava anteriormente, com perturbações como secas e pragas a causar perdas cada vez maiores em algumas das florestas mais antigas da Europa. Esta situação deteriorou-se acentuadamente desde 2018.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Europe_s_forests_losing_more_biomass_since_2018\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Europe’s forests are losing more biomass than previously thought, with disturbances such as drought and pests causing increasingly large losses from some of the oldest forests in Europe. This situation has deteriorated markedly since 2018. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. This situation has deteriorated markedly since 2018.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Because the account originates with ESA Space News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Europe_s_forests_losing_more_biomass_since_2018\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: As florestas da Europa estão a perder mais biomassa do que se pensava anteriormente, com perturbações como secas e pragas a causar perdas cada vez",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: As florestas da Europa estão a perder mais biomassa do que se pensava anteriormente, com perturbações como secas e pragas a causar perdas cada vez.",
+      "Dado-chave: As florestas da Europa estão a perder mais biomassa do que se pensava anteriormente, com perturbações como secas e pragas a causar perdas cada.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: As florestas da Europa estão a perder mais biomassa do que se pensava anteriormente, com perturbações como secas e pragas a causar perdas cada vez",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: As florestas da Europa estão a perder mais biomassa do que se pensava anteriormente, com perturbações como secas e pragas a causar perdas cada vez.",
+      "Dado-chave: As florestas da Europa estão a perder mais biomassa do que se pensava anteriormente, com perturbações como secas e pragas a causar perdas cada.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Europe’s forests are losing more biomass than previously thought, with disturbances such as drought and pests causing increasingly large losses from",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Europe’s forests are losing more biomass than previously thought, with disturbances such as drought and pests causing increasingly large losses from.",
+      "Key detail: Europe’s forests are losing more biomass than previously thought, with disturbances such as drought and pests causing increasingly large losses.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "05 ago 2026",
     "date_pt": "05 ago 2026",
@@ -281,7 +990,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 8,
     "slug": "the-paradox-of-lencois-maranhenses-national-park",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -421,7 +1130,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 9,
     "slug": "nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -455,19 +1164,19 @@ window.postsData = [
     "body_pt": "<p>Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de conceito. Para visualizar este vídeo, habilite o JavaScript e considere atualizar para um navegador da web que suporte vídeo HTML5.</p><p>Este vídeo criado a partir de imagens PUNCH mostra a ejeção de massa coronal (CME) de 31 de maio de 2025 saindo do Sol. Os cientistas da NASA/PUNCH/SwRI usaram dados de uma ejeção de massa coronal que deixou o Sol em 31 de maio de 2025, para testar retroativamente se poderiam melhorar a modelagem de previsão.</p><p>Usando imagens contínuas da missão PUNCH (Polarímetro para Unificar a Corona e a Heliosfera) da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de conceito. Artigo Usando imagens contínuas da missão PUNCH (Polarímetro para Unificar a Corona e a Heliosfera) da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de conceito.</p><p>Os resultados, apresentados terça-feira na Reunião Científica do Comitê de Pesquisa Espacial e em revisão na revista Space Weather, podem revolucionar a forma como as tempestades com impacto na Terra são previstas. Pensamos que o PUNCH seria bom nisso, mas é um resultado impressionante”, disse Craig DeForest, investigador principal do PUNCH na Divisão de Ciência e Exploração do Sistema Solar do Southwest Research Institute em Boulder, Colorado.</p><p>Isso mudou em 2025 com o lançamento da missão PUNCH, que utiliza quatro naves espaciais em órbita baixa da Terra para fazer observações contínuas em 3D do interior do sistema solar. Antes do PUNCH, as ejeções de massa coronal só podiam ser vistas enquanto percorriam um quinto do caminho do Sol até a Terra, deixando os cientistas adivinhando o que aconteceu no resto da distância.</p><p>Com o campo de visão mais amplo do PUNCH, os cientistas podem agora rastrear rotineiramente as explosões solares quase até à Terra, capturando uma nova imagem a cada quatro minutos.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Using continuous imagery from NASA’s PUNCH mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an initial proof of concept test. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video This video created from PUNCH images shows the May 31, 2025 coronal. NASA/PUNCH/SwRI Scientists used data from a coronal mass ejection that left the Sun on May 31, 2025, to retroactively test if they could improve forecast modeling.</p><p>Using continuous imagery from NASA’s PUNCH (Polarimeter to Unify the Corona and Heliosphere) mission, scientists predicted the near-Earth arrival of a solar eruption to within 30. Article Using continuous imagery from NASA’s PUNCH (Polarimeter to Unify the Corona and Heliosphere) mission, scientists predicted the near-Earth arrival of a solar eruption to.</p><p>The results, presented Tuesday at the Committee on Space Research Scientific Meeting and under review at the journal Space Weather, could revolutionize the way Earth-impacting. We thought PUNCH would be good at this, but it’s a stunning result,” said Craig DeForest, principal investigator for PUNCH at Southwest Research Institute’s Solar System Science.</p><p>That changed in 2025 with the launch of the PUNCH mission, which uses four spacecraft in low Earth orbit to make continuous 3D observations of the inner solar system. Before PUNCH, coronal mass ejections could only be seen as they traversed one-fifth the way from the Sun to Earth, leaving scientists to guess what happened over the rest of the.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>With PUNCH’s wider field-of-view, scientists can now routinely track the solar explosions nearly all the way to Earth, capturing a new image every four minutes. To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video Scientists used data from a coronal mass ejection that left the Sun.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um.",
+      "Dado-chave: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um.",
+      "Dado-chave: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Using continuous imagery from NASA’s PUNCH mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Using continuous imagery from NASA’s PUNCH mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an.",
+      "Key detail: Using continuous imagery from NASA’s PUNCH mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "04 ago 2026",
     "date_pt": "04 ago 2026",
@@ -555,7 +1264,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 10,
     "slug": "ames-science-stars-of-the-month-august-2026",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -576,19 +1285,19 @@ window.postsData = [
     "body_pt": "<p>A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud. Estrela do mês em biociências espaciais: Danielle Lopez Danielle Lopez é vice-gerente de projeto do Repositório de dados científicos abertos da Amentum na Divisão de Biociências Espaciais.</p><p>Estrela do mês em astrofísica: Duncan Mifsud Duncan Mifsud é pesquisador de pós-doutorado no Bay Area Environmental Research Institute (BAERI) na Divisão de Astrofísica. A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de (foto da esquerda para a direita) Danielle Lopez, Jennifer Claudio e Duncan Mifsud.</p><p>Conteúdo do artigo Estrela do mês em biociências espaciais: Danielle Lopez Estrela do mês em biociências espaciais: Jennifer Claudio Estrela do mês em astrofísica: Duncan Mifsud A Diretoria de Ciências Ames da NASA reconhece as contribuições notáveis ​​​​de (foto da esquerda. O seu compromisso com a missão da NASA representa o espírito empreendedor, o conhecimento técnico e a disposição colaborativa necessários para explorar este mundo e mais além.</p><p>Danielle Lopez é vice-gerente de projeto do Open Science Data Repository da Amentum na Divisão de Biociências Espaciais. Ela é reconhecida por seus esforços de gestão que foram fundamentais para o sucesso da Ciência Aberta na NASA, incluindo colaborações entre diretorias da Ames, entre centros da NASA e com o público.</p><p>Danielle tem sido uma força estabilizadora crítica durante tempos desafiadores e tumultuados, mantendo vários projetos não apenas no caminho certo, mas na vanguarda da Ciência Aberta para toda a Agência. Estrela do mês em biociências espaciais: Jennifer Claudio Jennifer Claudio é membro da equipe de pesquisa da Blue Marble Space na Divisão de Biociências Espaciais.</p><p>Jennifer fez contribuições notáveis ​​no apoio ao programa de verão 2026 GeneLab for High School (GL4HS).</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/general/ames-science-stars-of-the-month-august-2026/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Space Biosciences Star of the Month: Danielle Lopez Danielle Lopez is the Deputy Project Manager for the Open Science Data Repository with Amentum in the Space Biosciences. Astrophysics Star of the Month: Duncan Mifsud Duncan Mifsud is a postdoctoral research scientist for the Bay Area Environmental Research Institute (BAERI) in the Astrophysics.</p><p>The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Danielle Lopez, Jennifer Claudio, and Duncan Mifsud. Article Contents Space Biosciences Star of the Month: Danielle Lopez Space Biosciences Star of the Month: Jennifer Claudio Astrophysics Star of the Month: Duncan Mifsud The NASA.</p><p>Their commitment to the NASA mission represents the entrepreneurial spirit, technical expertise, and collaborative disposition needed to explore this world and beyond. Danielle Lopez is the Deputy Project Manager for the Open Science Data Repository with Amentum in the Space Biosciences Division.</p><p>She is recognized for her management efforts that have been critical to the success of Open Science at NASA including collaborations across directorates at Ames, across NASA. Danielle has been a critical stabilizing force during challenging and tumultuous times, keeping multiple projects not only on track, but at the forefront of Open Science for the.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Space Biosciences Star of the Month: Jennifer Claudio Jennifer Claudio is a research staff member with Blue Marble Space in the Space Biosciences Division. Jennifer has made outstanding contributions in supporting the 2026 GeneLab for High School (GL4HS) summer program.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/general/ames-science-stars-of-the-month-august-2026/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
+      "Dado-chave: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
+      "Dado-chave: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud.",
+      "Key detail: The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "04 ago 2026",
     "date_pt": "04 ago 2026",
@@ -676,178 +1385,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 6,
-    "slug": "nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://www.nasa.gov/wp-content/uploads/2026/08/moon-base-update-slate.jpg",
-    "inline_images": [
-      {
-        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-1.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-2.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-3.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-4.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": {
-      "kind": "embed",
-      "platform": "youtube",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/Sempwv5MPMQ?rel=0&modestbranding=1",
-      "fileUrl": "",
-      "poster": "https://www.nasa.gov/wp-content/uploads/2026/08/moon-base-update-slate.jpg",
-      "title": "Base lunar da NASA: Lunar Landers (atualização de agosto de 2026)",
-      "title_pt": "Base lunar da NASA: Lunar Landers (atualização de agosto de 2026)",
-      "title_en": "NASA Moon Base: Lunar Landers (August 2026 Update)",
-      "caption": "Uma presença humana permanente na Lua pode parecer ficção científica, mas já está tomando forma. Ao longo de uma série de pousos na Lua, entregaremos a ciência. ..",
-      "caption_pt": "Uma presença humana permanente na Lua pode parecer ficção científica, mas já está tomando forma. Ao longo de uma série de pousos na Lua, entregaremos a ciência. ..",
-      "caption_en": "A permanent human presence on the Moon may sound like science fiction, but it's already taking shape. Over a series of Moon landings, we'll deliver the scienc. ..",
-      "sourcePage": "https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/"
-    },
-    "audio": null,
-    "title": "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas",
-    "title_pt": "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas",
-    "title_en": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
-    "sub": "A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações.",
-    "sub_pt": "A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações.",
-    "sub_en": "NASA is making progress in building the Moon Base, which will become a resilient outpost near the Moon’s South Pole for science, technology, and eventual human operations.",
-    "excerpt": "A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações humanas.",
-    "excerpt_pt": "A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações humanas.",
-    "excerpt_en": "NASA is making progress in building the Moon Base, which will become a resilient outpost near the Moon’s South Pole for science, technology, and eventual human operations.",
-    "body": "<p>A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações humanas. 6 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento (e subaquáticas) Representação artística da região do Pólo Sul da Lua.</p><p>A Fase I do plano de arquitetura da Base Lunar, que ocorre até 2029, inclui mais de vinte pousos robóticos, com cada missão projetada para avançar gradativamente as capacidades do sistema e validar componentes operacionais para as seguintes. Blue Origin O módulo de pouso Blue Moon MK1 da Blue Origin está progredindo em testes integrados para se preparar para sua próxima entrega lunar.</p><p>2026 Termos relacionados Base Lunar Serviços comerciais de carga útil lunar (CLPS) Laboratório de propulsão a jato Centro Espacial Johnson Centro de Voo Espacial Marshall Sede da NASA Continue Explorando Descubra Tópicos Relacionados Missões Humanos no Espaço Mudanças Climáticas. O módulo de pouso Blue Moon MK1 da Blue Origin está progredindo em testes integrados para se preparar para sua próxima entrega lunar.</p><p>Firefly Aerospace A Blue Ghost Mission 2 da Firefly baseia-se em seu primeiro pouso lunar bem-sucedido com uma configuração maior de espaçonave dupla construída especificamente para operações no outro lado da Lua. Planejada para ser o primeiro pouso americano no outro lado da Lua, a Blue Ghost Mission 2 irá explorar uma região excepcionalmente tranquila, permitindo o estudo da geologia do outro lado lunar e da Idade das Trevas cósmica, uma época em que estrelas recém-formadas estavam.</p><p>A reutilização de subsistemas da missão anterior permite que a Firefly acelere o desenvolvimento e reduza os riscos, apoiando os objetivos da Base Lunar para capacidades de pouso comercial escalonáveis ​​e repetíveis. A missão IM-3 da Intuitive Machines da Intuitive Machines destaca como as sondas comerciais são uma infraestrutura essencial para estabelecer a Base Lunar.</p><p>Esta missão representa o terceiro pouso lunar Nova-C da Intuitive Machines na Lua e apresenta o Altus-1, o primeiro satélite lunar de retransmissão de dados da empresa, que voará ao lado do módulo de pouso.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência, tecnologia e eventuais operações humanas. 6 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento (e subaquáticas) Representação artística da região do Pólo Sul da Lua.</p><p>A Fase I do plano de arquitetura da Base Lunar, que ocorre até 2029, inclui mais de vinte pousos robóticos, com cada missão projetada para avançar gradativamente as capacidades do sistema e validar componentes operacionais para as seguintes. Blue Origin O módulo de pouso Blue Moon MK1 da Blue Origin está progredindo em testes integrados para se preparar para sua próxima entrega lunar.</p><p>2026 Termos relacionados Base Lunar Serviços comerciais de carga útil lunar (CLPS) Laboratório de propulsão a jato Centro Espacial Johnson Centro de Voo Espacial Marshall Sede da NASA Continue Explorando Descubra Tópicos Relacionados Missões Humanos no Espaço Mudanças Climáticas. O módulo de pouso Blue Moon MK1 da Blue Origin está progredindo em testes integrados para se preparar para sua próxima entrega lunar.</p><p>Firefly Aerospace A Blue Ghost Mission 2 da Firefly baseia-se em seu primeiro pouso lunar bem-sucedido com uma configuração maior de espaçonave dupla construída especificamente para operações no outro lado da Lua. Planejada para ser o primeiro pouso americano no outro lado da Lua, a Blue Ghost Mission 2 irá explorar uma região excepcionalmente tranquila, permitindo o estudo da geologia do outro lado lunar e da Idade das Trevas cósmica, uma época em que estrelas recém-formadas estavam.</p><p>A reutilização de subsistemas da missão anterior permite que a Firefly acelere o desenvolvimento e reduza os riscos, apoiando os objetivos da Base Lunar para capacidades de pouso comercial escalonáveis ​​e repetíveis. A missão IM-3 da Intuitive Machines da Intuitive Machines destaca como as sondas comerciais são uma infraestrutura essencial para estabelecer a Base Lunar.</p><p>Esta missão representa o terceiro pouso lunar Nova-C da Intuitive Machines na Lua e apresenta o Altus-1, o primeiro satélite lunar de retransmissão de dados da empresa, que voará ao lado do módulo de pouso.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>NASA is making progress in building the Moon Base, which will become a resilient outpost near the Moon’s South Pole for science, technology, and eventual human operations. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. 6 min read Preparations for Next Moonwalk Simulations Underway (and Underwater) Artist’s rendering of the Moon’s South Pole region. Phase I of the Moon Base architecture plan, taking place now through 2029, includes more than twenty robotic landings, with each mission designed to incrementally advance system.</p><p>Blue Origin Blue Origin’s Blue Moon MK1 lander is progressing through integrated testing to prepare for its upcoming lunar delivery. 2026 Related Terms Moon Base Commercial Lunar Payload Services (CLPS) Jet Propulsion Laboratory Johnson Space Center Marshall Space Flight Center NASA Headquarters Keep Exploring.</p><p>Blue Origin’s Blue Moon MK1 lander is progressing through integrated testing to prepare for its upcoming lunar delivery. Firefly Aerospace Firefly’s Blue Ghost Mission 2 builds on its first successful lunar landing with a larger, dual‑spacecraft configuration built specifically for operations on the.</p><p>Planned to be the first American landing on the Moon’s far side, Blue Ghost Mission 2 will explore a uniquely quiet region, allowing study of lunar far side geology and the cosmic. Reusing subsystems from the previous mission allows Firefly to accelerate development and reduce risk, supporting Moon Base objectives for scalable and repeatable commercial.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Intuitive Machines Intuitive Machines’ IM‑3 mission highlights how commercial landers are essential infrastructure to establish the Moon Base. This mission represents Intuitive Machines’ third Nova-C lunar landing on the Moon, and introduces Altus-1, the company’s first lunar data‑relay satellite, which will fly.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Em foco: A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: A NASA está a fazer progressos na construção da Base Lunar, que se tornará um posto avançado resiliente perto do Pólo Sul da Lua para ciência",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: NASA is making progress in building the Moon Base, which will become a resilient outpost near the Moon’s South Pole for science, technology, and",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "04 ago 2026",
-    "date_pt": "04 ago 2026",
-    "date_en": "04 Aug 2026",
-    "time": "16h14",
-    "time_pt": "16h14",
-    "time_en": "16: 14 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-04T16:14:51+00:00",
-    "lastModifiedIso": "2026-08-05T17:22:03+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA provides updates on lunar base payload modules and technical demonstrations"
-    ],
-    "srcUrl": "https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas",
-    "imageAlt_pt": "NASA fornece atualizações sobre módulos de carga da base lunar e demonstrações técnicas",
-    "imageAlt_en": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 7,
+    "id": 11,
     "slug": "a-bare-summer-for-barnes-ice-cap",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -987,174 +1525,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 8,
-    "slug": "nsf-stands-up-2-materials-innovation-platforms-with-50m-investment",
-    "cat": "Física",
-    "catCls": "fisica",
-    "img": "https://nsf-gov-resources.nsf.gov/styles/_inline_image_full_width/s3/media_hub/2534344_TAMU_AutoLab_3DRender_91_graded_cropped_16x9.jpg?itok=RwYewXvb",
-    "inline_images": [
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/featured_news/s3/media_hub/2534344_TAMU_AutoLab_3DRender_91_graded_cropped_16x9.jpg?itok=AB0pWW3c",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/news_sidebar_teaser/s3/media_hub/Differential_privacy.png?itok=E1oxMJqt",
-        "alt": "Ilustração representando o reconhecimento de identidade facial",
-        "alt_pt": "Ilustração representando o reconhecimento de identidade facial",
-        "alt_en": "Illustration depicting facial identity recognition",
-        "caption": "Ilustração representando o reconhecimento de identidade facial",
-        "caption_pt": "Ilustração representando o reconhecimento de identidade facial",
-        "caption_en": "Illustration depicting facial identity recognition"
-      },
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/_inline_image_full_width/s3/media_hub/Differential_privacy.png?itok=IY1kDRtk",
-        "alt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "alt_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "alt_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program",
-        "caption": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "caption_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "caption_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program"
-      },
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/featured_news/s3/media_hub/Differential_privacy.png?itok=Cslui841",
-        "alt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "alt_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "alt_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program",
-        "caption": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "caption_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "caption_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program"
-      },
-      {
-        "src": "https://www.nsf.gov/themes/custom/nsf_theme/plugins/uswds/dist/img/us_flag_small.png",
-        "alt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "alt_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "alt_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program",
-        "caption": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "caption_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "caption_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program"
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
-    "title_pt": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
-    "title_en": "NSF stands up 2 Materials Innovation Platforms with $50M investment",
-    "sub": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir.",
-    "sub_pt": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir.",
-    "sub_en": "The U. S. National Science Foundation is investing $50 million in research infrastructure to enable the discovery and development of materials that can withstand extreme.",
-    "excerpt": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir a condições extremas, desde compósitos leves para melhor blindagem até.",
-    "excerpt_pt": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir a condições extremas, desde compósitos leves para melhor blindagem até.",
-    "excerpt_en": "The U. S. National Science Foundation is investing $50 million in research infrastructure to enable the discovery and development of materials that can withstand extreme conditions, from lightweight composites for better armor to.",
-    "body": "<p>A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir a condições extremas, desde compósitos leves para melhor blindagem até. Cada uma das novas Plataformas de Inovação de Materiais da NSF, uma no Texas e outra em Wisconsin, adquirirá equipamentos científicos e construirá um sistema, ou plataforma, que os incorpore.</p><p>Desses cientistas, estima-se que 10-20% provirão de universidades e faculdades que gastam comparativamente menos em investigação e podem não ter recursos ou infra-estruturas para equipamentos e sistemas semelhantes. As plataformas de inovação de materiais da NSF atendem a uma ampla necessidade nacional como instalações de usuários que fornecem acesso a alguns dos melhores equipamentos e conhecimentos para pesquisa em ciência de materiais&quot;, disse Tie Luo, chefe da Diretoria de Ciências.</p><p>O NSF ARM-MIP integrará robótica e IA em um único laboratório autônomo capaz de criar novas ligas em uma fração do tempo normalmente necessário. As aplicações para novas ligas incluem turbinas a jato com baixo consumo de combustível, blindagem mais forte para tanques e outros veículos, materiais resistentes à radiação para reatores nucleares, pontes resistentes à corrosão e implantes biocompatíveis.</p><p>O NSF MATRIX-MIP investigará como a complexidade química e estrutural dos materiais influencia seu desempenho em ambientes extremos, como aqueles com alto calor ou forte radiação. Os pesquisadores projetarão experimentos que usam IA para prever rapidamente as propriedades de muitos novos materiais, fabricá-los usando métodos de síntese de alto rendimento e, em seguida, medir as propriedades físicas resultantes.</p><p>Além de investir em duas novas plataformas de inovação de materiais, a NSF também está apoiando os esforços de uma plataforma existente para continuar o seu trabalho científico enquanto expande o seu trabalho com os EUA. A Plataforma de Inovação de Materiais do NSF 2D Crystal Consortium da Universidade Estadual da Pensilvânia recebeu financiamento contínuo da NSF desde a sua criação, há 10 anos, permitindo que se tornasse um centro de pesquisa estabelecido e de classe mundial.</p><p>A NSF está a fornecer 4, 6 milhões de dólares ao longo de quatro anos para fazer a transição das operações da plataforma para um modelo autossustentável que dependerá principalmente de taxas de utilização, pelo que continuará a ser um recurso nacional durante muitos anos.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-stands-2-materials-innovation-platforms-50m-investment\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir a condições extremas, desde compósitos leves para melhor blindagem até. Cada uma das novas Plataformas de Inovação de Materiais da NSF, uma no Texas e outra em Wisconsin, adquirirá equipamentos científicos e construirá um sistema, ou plataforma, que os incorpore.</p><p>Desses cientistas, estima-se que 10-20% provirão de universidades e faculdades que gastam comparativamente menos em investigação e podem não ter recursos ou infra-estruturas para equipamentos e sistemas semelhantes. As plataformas de inovação de materiais da NSF atendem a uma ampla necessidade nacional como instalações de usuários que fornecem acesso a alguns dos melhores equipamentos e conhecimentos para pesquisa em ciência de materiais&quot;, disse Tie Luo, chefe da Diretoria de Ciências.</p><p>O NSF ARM-MIP integrará robótica e IA em um único laboratório autônomo capaz de criar novas ligas em uma fração do tempo normalmente necessário. As aplicações para novas ligas incluem turbinas a jato com baixo consumo de combustível, blindagem mais forte para tanques e outros veículos, materiais resistentes à radiação para reatores nucleares, pontes resistentes à corrosão e implantes biocompatíveis.</p><p>O NSF MATRIX-MIP investigará como a complexidade química e estrutural dos materiais influencia seu desempenho em ambientes extremos, como aqueles com alto calor ou forte radiação. Os pesquisadores projetarão experimentos que usam IA para prever rapidamente as propriedades de muitos novos materiais, fabricá-los usando métodos de síntese de alto rendimento e, em seguida, medir as propriedades físicas resultantes.</p><p>Além de investir em duas novas plataformas de inovação de materiais, a NSF também está apoiando os esforços de uma plataforma existente para continuar o seu trabalho científico enquanto expande o seu trabalho com os EUA. A Plataforma de Inovação de Materiais do NSF 2D Crystal Consortium da Universidade Estadual da Pensilvânia recebeu financiamento contínuo da NSF desde a sua criação, há 10 anos, permitindo que se tornasse um centro de pesquisa estabelecido e de classe mundial.</p><p>A NSF está a fornecer 4, 6 milhões de dólares ao longo de quatro anos para fazer a transição das operações da plataforma para um modelo autossustentável que dependerá principalmente de taxas de utilização, pelo que continuará a ser um recurso nacional durante muitos anos.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-stands-2-materials-innovation-platforms-50m-investment\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>The U. S. National Science Foundation is investing $50 million in research infrastructure to enable the discovery and development of materials that can withstand extreme conditions, from lightweight composites for better armor to. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because physics only takes a result seriously when the measurement chain remains robust under scrutiny. Experimental particle physics and precision metrology both operate in regimes where the signal sits far below the background noise, and where systematic uncertainties can mimic new physics if not controlled rigorously. The history of the field contains numerous anomalies that generated theoretical excitement before better data showed them to be artifacts, and it also contains genuine discoveries that were initially dismissed as noise. The difference is almost always resolved by independent replication with different instruments and different systematics. National Science Foundation is investing $50 million in research infrastructure to enable the discovery and development of materials that can withstand extreme conditions, from. Each of the new NSF Materials Innovation Platforms, one in Texas and one in Wisconsin, will acquire scientific equipment and build a system, or platform, that incorporates it.</p><p>Of those scientists, an estimated 10-20% will come from universities and colleges that spend comparatively less on research and may not have the resources or infrastructure for. The NSF Materials Innovation Platforms serve a broad national need as user facilities that provide access to some of the best equipment and expertise for materials science.</p><p>NSF ARM-MIP will integrate robotics and AI into a single autonomous laboratory capable of creating new alloys in a fraction of the time typically required. The applications for new alloys include fuel-efficient jet turbines, stronger armor for tanks and other vehicles, radiation-resistant materials for nuclear reactors.</p><p>NSF MATRIX-MIP will investigate how the chemical and structural complexity of materials influences their performance in extreme environments, like those with high heat or strong. Researchers will design experiments that use AI to rapidly predict the properties of many new materials, fabricate them using high-throughput synthesis methods and then measure.</p><p>The broader interest lies as much in the method as in the headline number, because a durable measurement procedure can travel farther than a single result. When experimental physicists develop a technique that achieves new sensitivity or controls a previously uncharacterized systematic, that methodological contribution persists even if the specific measurement is later revised. This is one reason why precision physics experiments often generate long-term value that is not immediately visible in the original publication.</p><p>In addition to investing in two new Materials Innovation Platforms, NSF is also supporting an existing platform&#x27;s efforts to continue its scientific work while expanding its work. The NSF 2D Crystal Consortium Materials Innovation Platform at Pennsylvania State University has received continuous funding from NSF since its inception 10 years ago, allowing it.</p><p>Because the account originates with NSF News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is more measurement, tighter systematic control and scrutiny from groups whose experimental setups are genuinely independent. In experimental particle physics and precision metrology, the threshold for a discovery claim is a five-sigma excess surviving multiple analyses; an intriguing signal at lower significance is a reason to run more experiments, not a reason to revise the textbooks. Next-generation experiments currently under construction or commissioning will revisit several of the open questions that give the current result its context.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-stands-2-materials-innovation-platforms-50m-investment\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Em foco: A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: The U. S",
-      "Detail: Core point: The U. S",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "03 ago 2026",
-    "date_pt": "03 ago 2026",
-    "date_en": "03 Aug 2026",
-    "time": "14h00",
-    "time_pt": "14h00",
-    "time_en": "14: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-03T14:00:50+00:00",
-    "lastModifiedIso": "2026-08-03T17:45:08+00:00",
-    "source": "NSF News",
-    "sourceDomain": "www. nsf. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Física",
-      "NSF News",
-      "Cosmos Week",
-      "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões"
-    ],
-    "keywords_pt": [
-      "Física",
-      "NSF News",
-      "Cosmos Week",
-      "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões"
-    ],
-    "keywords_en": [
-      "Physical",
-      "NSF News",
-      "Cosmos Week",
-      "NSF raises 2 materials innovation platforms with investment of US$50 million"
-    ],
-    "srcUrl": "https://www.nsf.gov/news/nsf-stands-2-materials-innovation-platforms-50m-investment",
-    "realUrl": "https://www.cosmosweek.com/?article=nsf-stands-up-2-materials-innovation-platforms-with-50m-investment",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nsf-stands-up-2-materials-innovation-platforms-with-50m-investment",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nsf-stands-up-2-materials-innovation-platforms-with-50m-investment&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 93,
-    "scoreBreakdown": {
-      "source": 91,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 42,
-      "novelty": 55
-    },
-    "imageAlt": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
-    "imageAlt_pt": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
-    "imageAlt_en": "NSF stands up 2 Materials Innovation Platforms with $50M investment",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 9,
+    "id": 12,
     "slug": "hydrognss-data-open-for-new-insights-into-earth-s-water",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1186,17 +1557,17 @@ window.postsData = [
     "body_en": "<p>The European Space Agency&#x27;s two-satellite HydroGNSS Scout mission has completed commissioning and is now in full scientific operations. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. Following extensive testing and validation of the satellites, instruments and ground segment, HydroGNSS data are now freely available to users worldwide, opening new opportunities.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Because the account originates with ESA Space News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Observing_the_Earth/FutureEO/HydroGNSS/HydroGNSS_data_open_for_new_insights_into_Earth_s_water\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica.",
-      "Dado-chave: A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica",
+      "Dado-chave: A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica.",
-      "Dado-chave: A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica",
+      "Dado-chave: A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: The European Space Agency's two-satellite HydroGNSS Scout mission has completed commissioning and is now in full scientific operations.",
-      "Key detail: The European Space Agency's two-satellite HydroGNSS Scout mission has completed commissioning and is now in full scientific operations",
+      "Key detail: The European Space Agency's two-satellite HydroGNSS Scout mission has completed commissioning and is now in full scientific operations.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "31 jul 2026",
@@ -1285,131 +1656,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 10,
-    "slug": "dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter",
-    "cat": "Cosmologia",
-    "catCls": "cosmologia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hubble_ultra_deep_field.jpg/1280px-Hubble_ultra_deep_field.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Achatamento dinâmico de cúspides de densidade de halo pela matéria escura Q-ball",
-    "title_pt": "Achatamento dinâmico de cúspides de densidade de halo pela matéria escura Q-ball",
-    "title_en": "Dynamical flattening of halo density cusps by Q-ball dark matter",
-    "sub": "A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-    "sub_pt": "A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-    "sub_en": "Cold, collisionless dark matter successfully explains a wide range of observations, including the formation of large-scale structure.",
-    "excerpt": "A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-    "excerpt_pt": "A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-    "excerpt_en": "Cold, collisionless dark matter successfully explains a wide range of observations, including the formation of large-scale structure.",
-    "body": "<p>A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p>Saiba mais sobre o arXivLabs. Resumo: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.</p><p>No entanto, as tensões permanecem em pequenas escalas galácticas, mais notavelmente o problema do núcleo da cúspide, ou déficit de massa interna, e a diversidade de formas de curvas de rotação internas e densidades centrais em massa fixa de halo. Estas observações sugerem que a física adicional do sector escuro pode afectar a estrutura interna dos halos, embora ainda não tenha surgido nenhuma explicação geralmente aceite.</p><p>Aqui, fazendo uso de um modelo de brinquedo, mas representativo, mostramos que a interação de bolas Q de matéria escura - sólitons não topológicos estabilizados por uma carga conservada - pode fornecer um mecanismo natural para o achatamento das cúspides do halo e pode. Produzidas no Universo primitivo, no setor escuro, essas bolas Q crescem nas densas regiões centrais dos halos, enquanto sua seção transversal de interação diminui à medida que a massa do soliton aumenta.</p><p>Este processo opera preferencialmente em centros de halo, convertendo parte da energia da massa restante armazenada em bolas Q massivas em partículas relativísticas do setor escuro e, assim, modificando o perfil interno de densidade de massa.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2607.28517v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p>Saiba mais sobre o arXivLabs. Resumo: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.</p><p>No entanto, as tensões permanecem em pequenas escalas galácticas, mais notavelmente o problema do núcleo da cúspide, ou déficit de massa interna, e a diversidade de formas de curvas de rotação internas e densidades centrais em massa fixa de halo. Estas observações sugerem que a física adicional do sector escuro pode afectar a estrutura interna dos halos, embora ainda não tenha surgido nenhuma explicação geralmente aceite.</p><p>Aqui, fazendo uso de um modelo de brinquedo, mas representativo, mostramos que a interação de bolas Q de matéria escura - sólitons não topológicos estabilizados por uma carga conservada - pode fornecer um mecanismo natural para o achatamento das cúspides do halo e pode. Produzidas no Universo primitivo, no setor escuro, essas bolas Q crescem nas densas regiões centrais dos halos, enquanto sua seção transversal de interação diminui à medida que a massa do soliton aumenta.</p><p>Este processo opera preferencialmente em centros de halo, convertendo parte da energia da massa restante armazenada em bolas Q massivas em partículas relativísticas do setor escuro e, assim, modificando o perfil interno de densidade de massa.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2607.28517v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Cold, collisionless dark matter successfully explains a wide range of observations, including the formation of large-scale structure. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>That matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Have an idea for a project that will add value for arXiv&#x27;s community. Nevertheless, tensions remain on small, galactic scales, most notably the cusp-core, or inner-mass-deficit, problem and the diversity of inner rotation-curve shapes and central.</p><p>These observations suggest that additional dark-sector physics may affect the inner structure of halos, although no generally accepted explanation has yet emerged. Produced in the early Universe in the dark sector, these Q-balls grow in the dense central regions of halos, while their interaction cross section decreases as the soliton mass.</p><p>This process operates preferentially in halo centers, converting part of the rest-mass energy stored in massive Q-balls into relativistic dark-sector particles and thereby. The resulting density-dependent, self-regulating energy loss provides a dynamical mechanism for flattening halo cusps while leaving the outer halo largely unaffected.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2607.28517v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-      "Dado-chave: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_pt": [
-      "Ponto central: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-      "Dado-chave: A matéria escura fria e sem colisões explica com sucesso uma ampla gama de observações, incluindo a formação de estruturas em grande escala.",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_en": [
-      "Core point: Cold, collisionless dark matter successfully explains a wide range of observations, including the formation of large-scale structure.",
-      "Key detail: Cold, collisionless dark matter successfully explains a wide range of observations, including the formation of large-scale structure.",
-      "Result not yet peer reviewed."
-    ],
-    "date": "30 jul 2026",
-    "date_pt": "30 jul 2026",
-    "date_en": "30 Jul 2026",
-    "time": "16h55",
-    "time_pt": "16h55",
-    "time_en": "16: 55 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-07-30T16:55:29+00:00",
-    "lastModifiedIso": "2026-07-31T17:26:27+00:00",
-    "source": "arXiv Cosmology",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Cosmologia",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Achatamento dinâmico de cúspides de densidade de halo pela matéria escura Q",
-      "ball"
-    ],
-    "keywords_pt": [
-      "Cosmologia",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Achatamento dinâmico de cúspides de densidade de halo pela matéria escura Q",
-      "ball"
-    ],
-    "keywords_en": [
-      "Cosmology",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Dynamic flattening of halo density cusps by dark matter Q",
-      "ball"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2607.28517v1",
-    "realUrl": "https://www.cosmosweek.com/?article=dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter",
-    "realUrl_en": "https://www.cosmosweek.com/?article=dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/dynamical-flattening-of-halo-density-cusps-by-q-ball-dark-matter/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 80,
-    "scoreBreakdown": {
-      "source": 64,
-      "evidence": 39,
-      "relevance": 94,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "Achatamento dinâmico de cúspides de densidade de halo pela matéria escura Q-ball",
-    "imageAlt_pt": "Achatamento dinâmico de cúspides de densidade de halo pela matéria escura Q-ball",
-    "imageAlt_en": "Dynamical flattening of halo density cusps by Q-ball dark matter",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 11,
+    "id": 13,
     "slug": "smos-salinity-could-offer-early-indicator-of-el-nino",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1540,147 +1787,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 12,
-    "slug": "sizing-up-the-sargassum-belt",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/1280px-The_Earth_seen_from_Apollo_17.jpg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/sizing-up-the-sargassum-belt/sargassum_pace_202606_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Dimensionando o Cinturão dos Sargaços",
-    "title_pt": "Dimensionando o Cinturão dos Sargaços",
-    "title_en": "Sizing Up the Sargassum Belt",
-    "sub": "As algas marinhas que compõem o Grande Cinturão Atlântico de Sargaços atingiram níveis quase recordes em junho de 2026, com o Mar do Caribe e o Golfo da América atingindo níveis.",
-    "sub_pt": "As algas marinhas que compõem o Grande Cinturão Atlântico de Sargaços atingiram níveis quase recordes em junho de 2026, com o Mar do Caribe e o Golfo da América atingindo níveis.",
-    "sub_en": "Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching all-time highs.",
-    "excerpt": "As algas marinhas que compõem o Grande Cinturão Atlântico de Sargaços atingiram níveis quase recordes em junho de 2026, com o Mar do Caribe e o Golfo da América atingindo níveis máximos históricos.",
-    "excerpt_pt": "As algas marinhas que compõem o Grande Cinturão Atlântico de Sargaços atingiram níveis quase recordes em junho de 2026, com o Mar do Caribe e o Golfo da América atingindo níveis máximos históricos.",
-    "excerpt_en": "Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching all-time highs.",
-    "body": "<p>As algas marinhas que compõem o Grande Cinturão Atlântico de Sargaços atingiram níveis quase recordes em junho de 2026, com o Mar do Caribe e o Golfo da América atingindo níveis máximos históricos. O post Dimensionando o Cinturão dos Sargaços apareceu pela primeira vez na NASA Science.</p><p>A abundância de sargaços no cinturão em junho de 2026 tornou-o o segundo maior ano de sargaços no registro de satélite, um pouco atrás de 2025, de acordo com cientistas da Faculdade de Ciências Marinhas da Universidade do Sul da Flórida (USF). Os dados para os mapas foram fornecidos por Lin Qi, oceanógrafo do Centro de Aplicações e Pesquisa de Satélites da NOAA, que tem trabalhado para gerar mapas de Sargassum com base em dados do PACE, lançado em fevereiro de 2024.</p><p>NASA Earth Observatory/Lauren Dauphin O gráfico acima usa o registro MODIS contínuo desde março de 2000 para mostrar como a biomassa de Sargassum através do Grande Cinturão Atlântico de Sargassum mudou até junho de 2026. Observe o aumento que começou por volta de 2011, quando o cinturão estava se desenvolvendo pela primeira vez, e as quedas sazonais no inverno e os picos na primavera e no verão.</p><p>Destaca-se o máximo histórico em julho de 2025, seguido pela rápida subida no início de 2026, especialmente nos primeiros quatro meses do ano, que culminou no pico do ano em junho. Um estudo recente do Atlântico centro-oeste liderado por Qi, abrangendo maio a agosto de 2024, descobriu que o OCI oferece várias vantagens sobre os seus antecessores, observando mais o oceano e detectando Sargassum com maior sensibilidade.</p><p>Downloads Junho de 2026 JPEG (2, 43 MB) Referências e recursos NASA Earth Observatory (2023, 8 de abril) Uma enorme floração de algas marinhas no Atlântico. Observatório da Terra da NASA (2019, 9 de julho) Cientistas descobrem a maior floração de algas marinhas do mundo&quot;.</p><p>Universidade do Sul da Flórida, Faculdade de Ciências Marinhas (2026, 30 de junho) Perspectiva de florescimento de Sargassum em 2026&quot;.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>As algas marinhas que compõem o Grande Cinturão Atlântico de Sargaços atingiram níveis quase recordes em junho de 2026, com o Mar do Caribe e o Golfo da América atingindo níveis máximos históricos. O post Dimensionando o Cinturão dos Sargaços apareceu pela primeira vez na NASA Science.</p><p>A abundância de sargaços no cinturão em junho de 2026 tornou-o o segundo maior ano de sargaços no registro de satélite, um pouco atrás de 2025, de acordo com cientistas da Faculdade de Ciências Marinhas da Universidade do Sul da Flórida (USF). Os dados para os mapas foram fornecidos por Lin Qi, oceanógrafo do Centro de Aplicações e Pesquisa de Satélites da NOAA, que tem trabalhado para gerar mapas de Sargassum com base em dados do PACE, lançado em fevereiro de 2024.</p><p>NASA Earth Observatory/Lauren Dauphin O gráfico acima usa o registro MODIS contínuo desde março de 2000 para mostrar como a biomassa de Sargassum através do Grande Cinturão Atlântico de Sargassum mudou até junho de 2026. Observe o aumento que começou por volta de 2011, quando o cinturão estava se desenvolvendo pela primeira vez, e as quedas sazonais no inverno e os picos na primavera e no verão.</p><p>Destaca-se o máximo histórico em julho de 2025, seguido pela rápida subida no início de 2026, especialmente nos primeiros quatro meses do ano, que culminou no pico do ano em junho. Um estudo recente do Atlântico centro-oeste liderado por Qi, abrangendo maio a agosto de 2024, descobriu que o OCI oferece várias vantagens sobre os seus antecessores, observando mais o oceano e detectando Sargassum com maior sensibilidade.</p><p>Downloads Junho de 2026 JPEG (2, 43 MB) Referências e recursos NASA Earth Observatory (2023, 8 de abril) Uma enorme floração de algas marinhas no Atlântico. Observatório da Terra da NASA (2019, 9 de julho) Cientistas descobrem a maior floração de algas marinhas do mundo&quot;.</p><p>Universidade do Sul da Flórida, Faculdade de Ciências Marinhas (2026, 30 de junho) Perspectiva de florescimento de Sargassum em 2026&quot;.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching all-time highs. The post Sizing Up the Sargassum Belt appeared first on NASA Science. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The post Sizing Up the Sargassum Belt appeared first on NASA Science. The belt’s Sargassum abundance in June 2026 made it the second-highest Sargassum year in the satellite record, slightly behind 2025, according to scientists at the University of.</p><p>Data for the maps were provided by Lin Qi, an oceanographer at NOAA’s Center for Satellite Applications and Research, who has been working to generate Sargassum maps based on data. This team first developed Sargassum detection techniques using MODIS (Moderate Resolution Imaging Spectroradiometer) on NASA’s long-running Terra and Aqua satellites and VIIRS.</p><p>NASA Earth Observatory/Lauren Dauphin The chart above uses the continuous MODIS record since March 2000 to show how Sargassum biomass across the Great Atlantic Sargassum Belt has. Notice the uptick beginning around 2011, when the belt was first developing, and the seasonal dips in winter and peaks in spring and summer.</p><p>The record high in July 2025 stands out, followed by the quick rise in early 2026, especially in the first four months of the year, that culminated in the year’s peak in June. A recent study of the central-west Atlantic led by Qi, spanning May through August 2024, found that OCI offers several advantages over its predecessors, observing more of the.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>OCI has started a true renaissance in aquatic ecosystem monitoring from space. ” NASA Earth Observatory maps and chart by Lauren Dauphin, using PACE and MODIS data courtesy of Lin. Downloads June 2026 JPEG (2.43 MB) References &amp; Resources NASA Earth Observatory (2023, April 8) A Massive Seaweed Bloom in the Atlantic.</p><p>Because the account originates with NASA Earth Observatory, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Em foco: As algas marinhas que compõem o Grande Cinturão Atlântico de Sargaços atingiram níveis quase recordes em junho de 2026, com o Mar do Caribe e o Golfo",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: As algas marinhas que compõem o Grande Cinturão Atlântico de Sargaços atingiram níveis quase recordes em junho de 2026, com o Mar do Caribe e o Golfo",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "29 jul 2026",
-    "date_pt": "29 jul 2026",
-    "date_en": "29 Jul 2026",
-    "time": "04h00",
-    "time_pt": "04h00",
-    "time_en": "04: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-07-29T04:00:00+00:00",
-    "lastModifiedIso": "2026-07-29T17:08:45+00:00",
-    "source": "NASA Earth Observatory",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA Earth Observatory",
-      "Cosmos Week",
-      "Dimensionando o Cinturão dos Sargaços"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA Earth Observatory",
-      "Cosmos Week",
-      "Dimensionando o Cinturão dos Sargaços"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA Earth Observatory",
-      "Cosmos Week",
-      "Sizing the Sargasso Belt"
-    ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/",
-    "realUrl": "https://www.cosmosweek.com/?article=sizing-up-the-sargassum-belt",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=sizing-up-the-sargassum-belt",
-    "realUrl_en": "https://www.cosmosweek.com/?article=sizing-up-the-sargassum-belt&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/sizing-up-the-sargassum-belt/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/sizing-up-the-sargassum-belt/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/sizing-up-the-sargassum-belt/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/sizing-up-the-sargassum-belt/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/sizing-up-the-sargassum-belt/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/sizing-up-the-sargassum-belt/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 92,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Dimensionando o Cinturão dos Sargaços",
-    "imageAlt_pt": "Dimensionando o Cinturão dos Sargaços",
-    "imageAlt_en": "Sizing Up the Sargassum Belt",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 13,
+    "id": 14,
     "slug": "unchanged-x-ray-polarization-during-accretion-dips-in-the-low-hard-state-of-cygnus-x-1",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1801,7 +1908,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "watch-the-total-solar-eclipse-with-esa-in-leon",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1873,17 +1980,17 @@ window.postsData = [
     "body_en": "<p>Discover the science behind one of nature&#x27;s most extraordinary phenomena and experience a total solar eclipse with the European Space Agency, the City of León and the University of León. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Discover the science behind one of nature&#x27;s most extraordinary phenomena and experience a total solar eclipse with the European Space Agency (ESA), the City of León and the. On 12 August, millions of people across Europe will look to the sky to witness one of nature&#x27;s most spectacular phenomena: a total solar eclipse.</p><p>Northern Spain will be one of the best places in the world to experience totality, when the Moon completely covers the Sun. To mark this extraordinary occasion, ESA, together with the City of León and the University of León, is organising a free public event at the Palacio de Exposiciones y Congresos.</p><p>The event will bring together scientists, engineers and astronomy experts, who will guide visitors through the science behind the eclipse with interactive activities, talks and. 00, 14: 00 CEST, visitors can explore a wide range of hands-on workshops, experiments and interactive activities designed for all ages.</p><p>From the science of the Sun and eclipses to Europe&#x27;s space missions, aerospace engineering and the history of astronomy, the daytime programme offers something for families, space. 30 CEST, giving visitors plenty of time to find a place before the main stage programme begins at 18: 30 CEST.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>The evening programme combines science talks and expert commentary to guide visitors through every stage of the eclipse, explaining what is happening in the sky and why the 12. From family workshops and interactive demonstrations in the daytime to an evening of science and eclipse observation, here is what visitors can expect throughout the day: A DAY OF.</p><p>Because the account originates with ESA Space Science, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Watch_the_total_solar_eclipse_with_ESA_in_Leon\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial.",
-      "Dado-chave: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial",
+      "Dado-chave: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial.",
-      "Dado-chave: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial",
+      "Dado-chave: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency, the.",
-      "Key detail: Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency, the",
+      "Key detail: Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "23 jul 2026",
@@ -1972,7 +2079,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "new-exomoon-detection-challenges-cosmic-labels",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2152,7 +2259,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "dark-matter-searches-with-a-13-mev-threshold-superconducting-sensor-array",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -2273,7 +2380,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "the-nancy-grace-roman-space-telescope-launch-what-to-expect",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2470,7 +2577,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "faintest-planet-ever-imaged-from-earth-found-after-more-than-10-years-of-hide-and-seek",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -2653,7 +2760,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "science-release-hubble-discovers-first-of-star-cluster-s-missing-black-holes",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2832,7 +2939,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 21,
     "slug": "older-than-the-sun-astronomers-find-new-clues-to-the-origin-of-interstellar-comet-3i-atlas",
     "cat": "Química",
     "catCls": "quimica",
@@ -3012,140 +3119,6 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 21,
-    "slug": "cotton-candy-exoplanets-two-for-the-price-of-one",
-    "cat": "Exoplanetas",
-    "catCls": "exoplanetas",
-    "img": "https://dq0hsqwjhea1.cloudfront.net/super-puff-03-v03-scaled.webp",
-    "inline_images": [
-      {
-        "src": "https://dq0hsqwjhea1.cloudfront.net/theme/src/img/comment.png",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Descoberta de Dois Exoplanetas 'Super-Puff' no Mesmo Sistema: Gigantes Gasosos com Densidade de Algodão Doce",
-    "title_pt": "Descoberta de Dois Exoplanetas 'Super-Puff' no Mesmo Sistema: Gigantes Gasosos com Densidade de Algodão Doce",
-    "title_en": "Cotton-Candy Exoplanets: Two for the Price of One!",
-    "sub": "O Transiting Exoplanet Survey Satellite (TESS) da NASA identificou dois exoplanetas 'super-puff' no mesmo sistema estelar, cada um com uma densidade comparável à do algodão doce.",
-    "sub_pt": "O Transiting Exoplanet Survey Satellite (TESS) da NASA identificou dois exoplanetas 'super-puff' no mesmo sistema estelar, cada um com uma densidade comparável à do algodão doce.",
-    "sub_en": "NASA’s Transiting Exoplanet Survey Satellite has found two “super-puff” planets in the same system, each one as light as cotton candy.",
-    "excerpt": "O Transiting Exoplanet Survey Satellite (TESS) da NASA identificou dois exoplanetas 'super-puff' no mesmo sistema estelar, cada um com uma densidade comparável à do algodão doce.",
-    "excerpt_pt": "O Transiting Exoplanet Survey Satellite (TESS) da NASA identificou dois exoplanetas 'super-puff' no mesmo sistema estelar, cada um com uma densidade comparável à do algodão doce.",
-    "excerpt_en": "NASA’s Transiting Exoplanet Survey Satellite has found two “super-puff” planets in the same system, each one as light as cotton candy.",
-    "body": "<p>O Transiting Exoplanet Survey Satellite (TESS) da NASA realizou uma descoberta notável ao identificar dois exoplanetas do tipo &#x27;super-puff&#x27; orbitando a mesma estrela. Esses mundos celestes, caracterizados por sua densidade extremamente baixa, comparável à do algodão doce, representam um desafio significativo para os modelos atuais de formação planetária. A detecção simultânea de dois desses objetos peculiares em um único sistema oferece uma oportunidade ímpar para os cientistas investigarem os mecanismos subjacentes à sua estrutura incomum. A pesquisa detalhada sobre esses exoplanetas, designados TOI-791b e TOI-791c, foi publicada na prestigiada revista Monthly Notices of the Royal Astronomical Society, fornecendo dados cruciais para a compreensão desses gigantes gasosos extraordinariamente leves.</p><p>Localizados a pouco mais de 1.100 anos-luz da Terra, os exoplanetas TOI-791b e TOI-791c revelaram sua presença aos astrônomos por meio do método de trânsito. Este método consiste na observação de pequenas e periódicas quedas no brilho da estrela hospedeira, causadas pela passagem de um planeta à sua frente. A precisão do TESS, projetado especificamente para monitorar grandes áreas do céu em busca desses eventos, foi fundamental para a identificação desses mundos distantes. A análise cuidadosa dos dados de trânsito permitiu não apenas confirmar a existência dos planetas, mas também inferir suas dimensões e, em combinação com outras técnicas, estimar suas massas e densidades surpreendentemente baixas.</p><p>O exoplaneta TOI-791b apresenta características particularmente intrigantes. Embora possua um tamanho comparável ao de Júpiter, o maior planeta do nosso Sistema Solar, sua massa corresponde a apenas 3% da massa joviana. Essa combinação resulta em uma densidade extraordinariamente baixa, de aproximadamente 0, 038 gramas por centímetro cúbico. Para contextualizar, essa densidade é cerca de 26 vezes inferior à da água, o que o torna um dos planetas mais leves já descobertos em relação ao seu volume. Essa estrutura &#x27;inchada&#x27; sugere uma atmosfera extremamente expandida e de baixa densidade, levantando questões sobre a composição e os processos físicos que moldam esses mundos.</p><p>Por sua vez, TOI-791c é ainda maior que Júpiter e possui o dobro da massa de TOI-791b. Apesar de sua massa ser maior, sua densidade ainda é notavelmente baixa, embora ligeiramente superior à de seu companheiro. A existência de dois planetas com tais características no mesmo sistema oferece uma oportunidade única para estudos comparativos. A proximidade orbital e a estrela hospedeira compartilhada implicam que ambos os planetas foram submetidos a condições de formação e evolução semelhantes, tornando as diferenças observadas em suas densidades e tamanhos ainda mais relevantes para a compreensão dos fatores que influenciam a formação de exoplanetas &#x27;super-puff&#x27;.</p><p>A determinação precisa das massas desses exoplanetas é um desafio complexo, especialmente em sistemas com múltiplos corpos. A atração gravitacional mútua entre TOI-791b e TOI-791c causa variações nos tempos de trânsito em frente à estrela hospedeira, que podem chegar a até 50 minutos. Essas variações, conhecidas como Variações no Tempo de Trânsito (TTVs), são cruciais para inferir as massas planetárias. No entanto, diferentes combinações de massas para os dois planetas podem produzir sinais de TTVs semelhantes, o que exige modelos computacionais sofisticados e observações adicionais para desvendar as massas reais com maior precisão. Essa complexidade ressalta a necessidade de abordagens observacionais e teóricas avançadas para caracterizar esses sistemas exoplanetários.</p><p>A descoberta desses &#x27;super-puffs&#x27; no sistema TOI-791 fornece o teste mais robusto até o momento para as teorias sobre a formação de planetas com densidades tão baixas. Modelos atuais sugerem que esses planetas podem ter atmosferas ricas em hidrogênio e hélio, que foram aquecidas e expandidas por radiação estelar intensa, ou que se formaram em regiões do disco protoplanetário com abundância de gases leves. A presença de dois desses mundos em um único sistema permite aos cientistas refinar esses modelos, investigando se a proximidade com a estrela, a composição do disco de formação ou outros fatores ambientais desempenham um papel dominante na criação dessas estruturas planetárias incomuns. A compreensão de TOI-791b e TOI-791c pode, portanto, redefinir nossa percepção sobre a diversidade e os processos de formação de exoplanetas.</p><p>A pesquisa sobre os exoplanetas TOI-791b e TOI-791c está apenas começando. Observações futuras com telescópios mais avançados, como o James Webb Space Telescope (JWST), poderão fornecer dados espectroscópicos detalhados de suas atmosferas, revelando sua composição química e temperatura. Tais informações seriam cruciais para distinguir entre os diferentes cenários de formação e evolução propostos para os &#x27;super-puffs&#x27;. A contínua exploração desses sistemas exóticos não só expande nosso catálogo de mundos conhecidos, mas também aprofunda nossa compreensão sobre a física fundamental que governa a arquitetura e a evolução dos sistemas planetários além do nosso.</p>",
-    "body_pt": "<p>O Transiting Exoplanet Survey Satellite (TESS) da NASA realizou uma descoberta notável ao identificar dois exoplanetas do tipo &#x27;super-puff&#x27; orbitando a mesma estrela. Esses mundos celestes, caracterizados por sua densidade extremamente baixa, comparável à do algodão doce, representam um desafio significativo para os modelos atuais de formação planetária. A detecção simultânea de dois desses objetos peculiares em um único sistema oferece uma oportunidade ímpar para os cientistas investigarem os mecanismos subjacentes à sua estrutura incomum. A pesquisa detalhada sobre esses exoplanetas, designados TOI-791b e TOI-791c, foi publicada na prestigiada revista Monthly Notices of the Royal Astronomical Society, fornecendo dados cruciais para a compreensão desses gigantes gasosos extraordinariamente leves.</p><p>Localizados a pouco mais de 1.100 anos-luz da Terra, os exoplanetas TOI-791b e TOI-791c revelaram sua presença aos astrônomos por meio do método de trânsito. Este método consiste na observação de pequenas e periódicas quedas no brilho da estrela hospedeira, causadas pela passagem de um planeta à sua frente. A precisão do TESS, projetado especificamente para monitorar grandes áreas do céu em busca desses eventos, foi fundamental para a identificação desses mundos distantes. A análise cuidadosa dos dados de trânsito permitiu não apenas confirmar a existência dos planetas, mas também inferir suas dimensões e, em combinação com outras técnicas, estimar suas massas e densidades surpreendentemente baixas.</p><p>O exoplaneta TOI-791b apresenta características particularmente intrigantes. Embora possua um tamanho comparável ao de Júpiter, o maior planeta do nosso Sistema Solar, sua massa corresponde a apenas 3% da massa joviana. Essa combinação resulta em uma densidade extraordinariamente baixa, de aproximadamente 0, 038 gramas por centímetro cúbico. Para contextualizar, essa densidade é cerca de 26 vezes inferior à da água, o que o torna um dos planetas mais leves já descobertos em relação ao seu volume. Essa estrutura &#x27;inchada&#x27; sugere uma atmosfera extremamente expandida e de baixa densidade, levantando questões sobre a composição e os processos físicos que moldam esses mundos.</p><p>Por sua vez, TOI-791c é ainda maior que Júpiter e possui o dobro da massa de TOI-791b. Apesar de sua massa ser maior, sua densidade ainda é notavelmente baixa, embora ligeiramente superior à de seu companheiro. A existência de dois planetas com tais características no mesmo sistema oferece uma oportunidade única para estudos comparativos. A proximidade orbital e a estrela hospedeira compartilhada implicam que ambos os planetas foram submetidos a condições de formação e evolução semelhantes, tornando as diferenças observadas em suas densidades e tamanhos ainda mais relevantes para a compreensão dos fatores que influenciam a formação de exoplanetas &#x27;super-puff&#x27;.</p><p>A determinação precisa das massas desses exoplanetas é um desafio complexo, especialmente em sistemas com múltiplos corpos. A atração gravitacional mútua entre TOI-791b e TOI-791c causa variações nos tempos de trânsito em frente à estrela hospedeira, que podem chegar a até 50 minutos. Essas variações, conhecidas como Variações no Tempo de Trânsito (TTVs), são cruciais para inferir as massas planetárias. No entanto, diferentes combinações de massas para os dois planetas podem produzir sinais de TTVs semelhantes, o que exige modelos computacionais sofisticados e observações adicionais para desvendar as massas reais com maior precisão. Essa complexidade ressalta a necessidade de abordagens observacionais e teóricas avançadas para caracterizar esses sistemas exoplanetários.</p><p>A descoberta desses &#x27;super-puffs&#x27; no sistema TOI-791 fornece o teste mais robusto até o momento para as teorias sobre a formação de planetas com densidades tão baixas. Modelos atuais sugerem que esses planetas podem ter atmosferas ricas em hidrogênio e hélio, que foram aquecidas e expandidas por radiação estelar intensa, ou que se formaram em regiões do disco protoplanetário com abundância de gases leves. A presença de dois desses mundos em um único sistema permite aos cientistas refinar esses modelos, investigando se a proximidade com a estrela, a composição do disco de formação ou outros fatores ambientais desempenham um papel dominante na criação dessas estruturas planetárias incomuns. A compreensão de TOI-791b e TOI-791c pode, portanto, redefinir nossa percepção sobre a diversidade e os processos de formação de exoplanetas.</p><p>A pesquisa sobre os exoplanetas TOI-791b e TOI-791c está apenas começando. Observações futuras com telescópios mais avançados, como o James Webb Space Telescope (JWST), poderão fornecer dados espectroscópicos detalhados de suas atmosferas, revelando sua composição química e temperatura. Tais informações seriam cruciais para distinguir entre os diferentes cenários de formação e evolução propostos para os &#x27;super-puffs&#x27;. A contínua exploração desses sistemas exóticos não só expande nosso catálogo de mundos conhecidos, mas também aprofunda nossa compreensão sobre a física fundamental que governa a arquitetura e a evolução dos sistemas planetários além do nosso.</p>",
-    "body_en": "<p>NASA’s Transiting Exoplanet Survey Satellite has found two “super-puff” planets in the same system, each one as light as cotton candy. The post Cotton-Candy Exoplanets: Two for the Price of One! appeared first on Sky &amp; Telescope. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>The significance lies in exoplanet science has moved beyond the era of simple discovery into a period of comparative characterization. With more than five thousand confirmed planets known, the scientifically productive questions now concern atmospheric composition, internal structure, orbital history and the statistical properties of populations rather than the existence of individual worlds. A new detection or spectral measurement is most valuable when it adds a well-constrained data point to those comparative frameworks, not when it stands alone as an anecdote. Appeared first on Sky &amp; Telescope. (You can unsubscribe anytime) NASA’s Transiting Exoplanet Survey Satellite has found two “super-puff” planets in the same system, each one as light as cotton candy.</p><p>Found using the Transiting Exoplanet Survey Satellite (TESS), these “super-puffs” provide the strongest test yet of how such strange planets form. Sitting a little more than 1, 100 light-years from Earth, these two planets, TOI-791b and TOI-791c, made their presence known when they transited in front of their shared host star.</p><p>TOI-791b is the same size as Jupiter but has only 3% of its mass. That gives the world a density of just 0.038 grams per cubic centimetre, 26 times less than the density of water.</p><p>TOI-791c is larger than Jupiter and has twice the mass of TOI-791b, giving it a marginally higher density. Details of the discoveries are published in Monthly Notices of the Royal Astronomical Society.</p><p>The broader interest lies in making the target less anecdotal and more comparable with the rest of the known planetary population. Population-level questions, such as the frequency of atmospheres around small rocky planets or the prevalence of water-rich worlds in the habitable zone, require well-characterized individual data points before statistical patterns become meaningful. Each new planet with a measured radius, mass and, ideally, atmospheric constraint is a brick in that larger structure, and the accumulation of bricks eventually allows theorists to test formation models against real distributions rather than projections.</p><p>As the planets pull on one another, the timings with which they transit their host star shift by up to 50 minutes. It is really difficult to know the true planet masses, because different combinations of the masses of the two planets can cause the same signal,” she says.</p><p>Because this item comes through Sky &amp; Telescope as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to improve independent constraints on the mass, radius, atmospheric composition and orbital dynamics of the target. Transmission spectroscopy with JWST, radial velocity campaigns with high-resolution ground-based spectrographs and phase-curve measurements from space photometry represent the observational toolkit that can move characterization from plausible to robust. That convergence of techniques is the standard the community now expects before a planetary atmosphere result is treated as confirmed.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/cotton-candy-exoplanets-two-for-the-price-of-one/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: O Transiting Exoplanet Survey Satellite (TESS) da NASA identificou dois exoplanetas 'super-puff' no mesmo sistema estelar, cada um com uma densidade.",
-      "Dado-chave: O Transiting Exoplanet Survey Satellite (TESS) da NASA identificou dois exoplanetas 'super-puff' no mesmo sistema estelar, cada um com uma.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_pt": [
-      "Ponto central: O Transiting Exoplanet Survey Satellite (TESS) da NASA identificou dois exoplanetas 'super-puff' no mesmo sistema estelar, cada um com uma densidade.",
-      "Dado-chave: O Transiting Exoplanet Survey Satellite (TESS) da NASA identificou dois exoplanetas 'super-puff' no mesmo sistema estelar, cada um com uma.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_en": [
-      "Core point: NASA’s Transiting Exoplanet Survey Satellite has found two “super-puff” planets in the same system, each one as light as cotton candy.",
-      "Key detail: NASA’s Transiting Exoplanet Survey Satellite has found two “super-puff” planets in the same system, each one as light as cotton candy.",
-      "Science reporting: verify primary technical documentation."
-    ],
-    "date": "02 jul 2026",
-    "date_pt": "02 jul 2026",
-    "date_en": "02 Jul 2026",
-    "time": "12h00",
-    "time_pt": "12h00",
-    "time_en": "12: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-07-02T12:00:00+00:00",
-    "lastModifiedIso": "2026-07-02T17:22:06+00:00",
-    "source": "Sky & Telescope",
-    "sourceDomain": "skyandtelescope. org",
-    "sourceType": "news",
-    "sourceTypeLabel": "Jornalismo científico",
-    "sourceTypeLabel_pt": "Jornalismo científico",
-    "sourceTypeLabel_en": "Science journalism",
-    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
-    "evidenceKey": "journalistic",
-    "evidenceLabel": "Cobertura jornalística",
-    "evidenceLabel_pt": "Cobertura jornalística",
-    "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Exoplanetas",
-      "Sky & Telescope",
-      "Cosmos Week",
-      "Exoplanetas de algodão doce",
-      "dois pelo preço de um!"
-    ],
-    "keywords_pt": [
-      "Exoplanetas",
-      "Sky & Telescope",
-      "Cosmos Week",
-      "Exoplanetas de algodão doce",
-      "dois pelo preço de um!"
-    ],
-    "keywords_en": [
-      "Exoplanets",
-      "Sky & Telescope",
-      "Cosmos Week",
-      "Cotton Candy Exoplanets",
-      "two for the price of one!"
-    ],
-    "srcUrl": "https://skyandtelescope.org/astronomy-news/cotton-candy-exoplanets-two-for-the-price-of-one/",
-    "realUrl": "https://www.cosmosweek.com/?article=cotton-candy-exoplanets-two-for-the-price-of-one",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=cotton-candy-exoplanets-two-for-the-price-of-one",
-    "realUrl_en": "https://www.cosmosweek.com/?article=cotton-candy-exoplanets-two-for-the-price-of-one&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/cotton-candy-exoplanets-two-for-the-price-of-one/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/cotton-candy-exoplanets-two-for-the-price-of-one/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/cotton-candy-exoplanets-two-for-the-price-of-one/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/cotton-candy-exoplanets-two-for-the-price-of-one/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/cotton-candy-exoplanets-two-for-the-price-of-one/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/cotton-candy-exoplanets-two-for-the-price-of-one/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": true,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 91,
-    "scoreBreakdown": {
-      "source": 79,
-      "evidence": 60,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Descoberta de Dois Exoplanetas 'Super-Puff' no Mesmo Sistema: Gigantes Gasosos com Densidade de Algodão Doce",
-    "imageAlt_pt": "Descoberta de Dois Exoplanetas 'Super-Puff' no Mesmo Sistema: Gigantes Gasosos com Densidade de Algodão Doce",
-    "imageAlt_en": "Cotton-Candy Exoplanets: Two for the Price of One!",
-    "coverageKind": "news",
-    "coverageKindLabel": "Jornalismo científico",
-    "coverageKindLabel_pt": "Jornalismo científico",
-    "coverageKindLabel_en": "Science journalism",
     "storyKind": "science"
   },
   {
@@ -3526,19 +3499,19 @@ window.postsData = [
     "body_pt": "<p>Astrônomos, utilizando o Telescópio Espacial Hubble da NASA/ESA, fizeram uma descoberta inesperada: luz ultravioleta de uma galáxia que existiu apenas 1, 4 bilhões de anos após o Big Bang. Um artigo que descreve essa descoberta foi publicado em 23 de junho de 2026 no Astrophysical Journal. À medida que essa luz viajou por mais de 12 bilhões de anos para alcançar o Hubble, o espaço se expandiu e a luz sofreu um deslocamento para o vermelho, transformando-se em luz visível. A cobertura do comprimento de onda do Hubble, combinada com a sensibilidade e a resolução de seu ponto de vista espacial, o torna o único telescópio capaz de capturar essa luz ultravioleta do Universo primordial.</p><p>Embora astrônomos tenham encontrado muitas galáxias que existiam nesse ponto da história do Universo, &#x27;não detectamos fótons ionizantes de nenhuma delas, tornando o MXDFz4.4 único&#x27;, afirmou Marc Rafelski, coautor e vice-chefe da missão do Hubble no STScI. As longas exposições do Hubble, extraídas de várias pesquisas existentes, revelaram que as estrelas jovens e massivas da galáxia são a fonte da luz ultravioleta, que clareou o espaço circundante.</p><p>Antes dessa descoberta, os pesquisadores haviam identificado apenas uma galáxia que emitia luz ionizada em uma época em que o Universo tinha 1, 6 bilhões de anos. &#x27;Essas informações sobre o MXDFz4.4 foram possíveis graças à poderosa combinação do Hubble, do Webb e do VLT&#x27;, disse o coautor Alexander Beckett, pós-doutorando no Laboratoire d&#x27;Astrophysique de Marseille.</p><p>Em 2023, pesquisadores que utilizaram o Webb mostraram que as estrelas das galáxias emitiam luz suficiente para aquecer e ionizar o gás que as rodeava 900 milhões de anos após o Big Bang. Isso representou um avanço, mas os astrônomos precisam de galáxias como a MXDFz4.4 para explicar completamente como o processo aconteceu, uma vez que ela demonstra como a luz de alta energia das estrelas jovens conseguiu escapar do gás e da poeira dentro da própria galáxia.</p><p>&#x27;As observações do Hubble sobre o MXDFz4.4 permitiram testar hipóteses sobre a Era da Reionização muito mais perto do que nunca&#x27;, concluiu Rafelski. Essa capacidade de observar fenômenos tão remotos e cruciais para a formação do Universo primitivo ressalta a importância contínua dos telescópios espaciais na astrofísica moderna.</p>",
     "body_en": "<p>Astronomers using the NASA/ESA Hubble Space Telescope have found something they never expected: ultraviolet light from a galaxy that existed just 1.4 billion years after the Big Bang. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. As this light traveled for over 12 billion years to reach Hubble, space expanded, and the light stretched or redshifted into visible light. Hubble’s wavelength coverage, combined with the sensitivity and resolution of its space-based vantage point, makes it the only telescope capable of capturing this ultraviolet.</p><p>Found many galaxies that existed at this point in the history of the Universe, but we haven’t detected ionising photons from any of them, making MXDFz4. Hubble’s long exposures, pulled from several existing surveys, revealed that the galaxy’s young, massive stars are the source of the ultraviolet light, which cleared the.</p><p>These conclusions are supported by survey data taken by the NASA/ESA/CSA James Webb Space Telescope in near-infrared light and the MUSE eXtremely Deep Field or MXDF, the galaxy’s. Before this discovery, researchers had only identified a galaxy emitting ionised light from a time when the Universe was 1.6 billion years old.</p><p>These insights into MXDFz4.4 were possible thanks to the powerful combination of Hubble, Webb and the VLT,&quot; said co-author Alexander Beckett, a postdoctoral fellow at the. In 2023, researchers using Webb showed that galaxies’ stars emitted enough light to heat and ionise the gas around them 900 million years after the Big Bang.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>This was a breakthrough, but astronomers need galaxies like MXDFz4.4 to fully explain how the process happened, since it shows how the high-energy light from young stars managed. Hubble’s observations of MXDFz4.4 let us test our hypotheses much closer to the Era of Reionisation than ever before,” Rafelski said.</p><p>Because the account originates with ESA Hubble News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://esahubble.org/news/heic2609/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Astrônomos, utilizando o Telescópio Espacial Hubble da NASA/ESA, fizeram uma descoberta inesperada: luz ultravioleta proveniente de uma galáxia que",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Astrônomos, utilizando o Telescópio Espacial Hubble da NASA/ESA, fizeram uma descoberta inesperada: luz ultravioleta proveniente de uma galáxia que.",
+      "Dado-chave: Astrônomos, utilizando o Telescópio Espacial Hubble da NASA/ESA, fizeram uma descoberta inesperada: luz ultravioleta proveniente de uma galáxia.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Astrônomos, utilizando o Telescópio Espacial Hubble da NASA/ESA, fizeram uma descoberta inesperada: luz ultravioleta proveniente de uma galáxia que",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Astrônomos, utilizando o Telescópio Espacial Hubble da NASA/ESA, fizeram uma descoberta inesperada: luz ultravioleta proveniente de uma galáxia que.",
+      "Dado-chave: Astrônomos, utilizando o Telescópio Espacial Hubble da NASA/ESA, fizeram uma descoberta inesperada: luz ultravioleta proveniente de uma galáxia.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Astronomers using the NASA/ESA Hubble Space Telescope have found something they never expected: ultraviolet light from a galaxy that existed just 1",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Astronomers using the NASA/ESA Hubble Space Telescope have found something they never expected: ultraviolet light from a galaxy that existed just 1.",
+      "Key detail: Astronomers using the NASA/ESA Hubble Space Telescope have found something they never expected: ultraviolet light from a galaxy that existed.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "23 jun 2026",
     "date_pt": "23 jun 2026",
