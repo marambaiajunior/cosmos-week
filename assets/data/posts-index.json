@@ -1,6 +1,398 @@
 [
   {
     "id": 1,
+    "slug": "lion-nebula-roars-to-life-with-nasa-s-webb",
+    "cat": "Biologia",
+    "catCls": "biologia",
+    "img": "https://assets.science.nasa.gov/content/dam/science/missions/webb/science/2026/08/STScI-01KX6D0XBHSYP7Q1EM5QTC43RP.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Nebulosa do Leão ganha vida com Webb da NASA",
+    "title_pt": "Nebulosa do Leão ganha vida com Webb da NASA",
+    "title_en": "Lion Nebula Roars to Life With NASA’s Webb",
+    "sub": "Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de Nebulosa do Leão.",
+    "sub_pt": "Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de Nebulosa do Leão.",
+    "sub_en": "Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula.",
+    "excerpt": "Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de Nebulosa do Leão.",
+    "excerpt_pt": "Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de Nebulosa do Leão.",
+    "excerpt_en": "Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula.",
+    "highlights": [
+      "Em foco: Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "10 ago 2026",
+    "date_pt": "10 ago 2026",
+    "date_en": "10 Aug 2026",
+    "time": "14h00",
+    "time_pt": "14h00",
+    "time_en": "14: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-10T14:00:00+00:00",
+    "lastModifiedIso": "2026-08-10T16:45:37+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Biologia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Nebulosa do Leão ganha vida com Webb da NASA"
+    ],
+    "keywords_pt": [
+      "Biologia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Nebulosa do Leão ganha vida com Webb da NASA"
+    ],
+    "keywords_en": [
+      "Biology",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Lion Nebula Comes to Life with NASA's Webb"
+    ],
+    "srcUrl": "https://science.nasa.gov/missions/webb/lion-nebula-roars-to-life-with-nasas-webb/",
+    "realUrl": "https://www.cosmosweek.com/?article=lion-nebula-roars-to-life-with-nasa-s-webb",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=lion-nebula-roars-to-life-with-nasa-s-webb",
+    "realUrl_en": "https://www.cosmosweek.com/?article=lion-nebula-roars-to-life-with-nasa-s-webb&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/lion-nebula-roars-to-life-with-nasa-s-webb/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/lion-nebula-roars-to-life-with-nasa-s-webb/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/lion-nebula-roars-to-life-with-nasa-s-webb/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/lion-nebula-roars-to-life-with-nasa-s-webb/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/lion-nebula-roars-to-life-with-nasa-s-webb/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/lion-nebula-roars-to-life-with-nasa-s-webb/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Nebulosa do Leão ganha vida com Webb da NASA",
+    "imageAlt_pt": "Nebulosa do Leão ganha vida com Webb da NASA",
+    "imageAlt_en": "Lion Nebula Roars to Life With NASA’s Webb",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "how-esa-mimics-and-models-the-2026-total-solar-eclipse",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/proba-3_mimics_the_2026_total_solar_eclipse/27410604-1-eng-GB/Proba-3_mimics_the_2026_total_solar_eclipse_pillars.png",
+    "inline_images": [
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/proba-3_mimics_the_2026_total_solar_eclipse/27410604-1-eng-GB/Proba-3_mimics_the_2026_total_solar_eclipse_article.png",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Como a ESA imita e modela o eclipse solar total de 2026",
+    "title_pt": "Como a ESA imita e modela o eclipse solar total de 2026",
+    "title_en": "How ESA mimics and models the 2026 total solar eclipse",
+    "sub": "Em 12 de agosto de 2026, partes da Europa sofrerão um eclipse solar total. Com o disco brilhante do Sol coberto, a atmosfera circundante, a coroa solar, tornar-se-á visível a olho.",
+    "sub_pt": "Em 12 de agosto de 2026, partes da Europa sofrerão um eclipse solar total. Com o disco brilhante do Sol coberto, a atmosfera circundante, a coroa solar, tornar-se-á visível a olho.",
+    "sub_en": "On 12 August 2026, parts of Europe will experience a total solar eclipse. With the Sun's bright disc covered, its surrounding atmosphere, the solar corona, will become visible to.",
+    "excerpt": "Em 12 de agosto de 2026, partes da Europa sofrerão um eclipse solar total. Com o disco brilhante do Sol coberto, a atmosfera circundante, a coroa solar, tornar-se-á visível a olho nu.",
+    "excerpt_pt": "Em 12 de agosto de 2026, partes da Europa sofrerão um eclipse solar total. Com o disco brilhante do Sol coberto, a atmosfera circundante, a coroa solar, tornar-se-á visível a olho nu.",
+    "excerpt_en": "On 12 August 2026, parts of Europe will experience a total solar eclipse. With the Sun's bright disc covered, its surrounding atmosphere, the solar corona, will become visible to the naked eye.",
+    "highlights": [
+      "Em foco: Em 12 de agosto de 2026, partes da Europa sofrerão um eclipse solar total",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Em 12 de agosto de 2026, partes da Europa sofrerão um eclipse solar total",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: On 12 August 2026, parts of Europe will experience a total solar eclipse",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "10 ago 2026",
+    "date_pt": "10 ago 2026",
+    "date_en": "10 Aug 2026",
+    "time": "11h59",
+    "time_pt": "11h59",
+    "time_en": "11: 59 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-10T11:59:00+00:00",
+    "lastModifiedIso": "2026-08-10T16:45:37+00:00",
+    "source": "ESA Space Science",
+    "sourceDomain": "www. esa. int",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "ESA Space Science",
+      "Cosmos Week",
+      "Como a ESA imita e modela o eclipse solar total de 2026"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "ESA Space Science",
+      "Cosmos Week",
+      "Como a ESA imita e modela o eclipse solar total de 2026"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "ESA Space Science",
+      "Cosmos Week",
+      "How ESA imitates and models the 2026 total solar eclipse"
+    ],
+    "srcUrl": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/How_ESA_mimics_and_models_the_2026_total_solar_eclipse",
+    "realUrl": "https://www.cosmosweek.com/?article=how-esa-mimics-and-models-the-2026-total-solar-eclipse",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=how-esa-mimics-and-models-the-2026-total-solar-eclipse",
+    "realUrl_en": "https://www.cosmosweek.com/?article=how-esa-mimics-and-models-the-2026-total-solar-eclipse&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/how-esa-mimics-and-models-the-2026-total-solar-eclipse/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/how-esa-mimics-and-models-the-2026-total-solar-eclipse/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/how-esa-mimics-and-models-the-2026-total-solar-eclipse/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/how-esa-mimics-and-models-the-2026-total-solar-eclipse/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/how-esa-mimics-and-models-the-2026-total-solar-eclipse/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/how-esa-mimics-and-models-the-2026-total-solar-eclipse/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 95,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Como a ESA imita e modela o eclipse solar total de 2026",
+    "imageAlt_pt": "Como a ESA imita e modela o eclipse solar total de 2026",
+    "imageAlt_en": "How ESA mimics and models the 2026 total solar eclipse",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
+    "slug": "el-nino-alters-marine-life-in-the-pacific",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/el-niño alters-marine-life-in-the-pacific/chlorophyll_pace_globes_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño alters-marine-life-in-the-pacific/chlorophyll_pace_202506.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño alters-marine-life-in-the-pacific/chlorophyll_pace_202606.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/el-niño alters-marine-life-in-the-pacific/chlorophyll_pace_globes_lrg.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "El Niño altera a vida marinha no Pacífico",
+    "title_pt": "El Niño altera a vida marinha no Pacífico",
+    "title_en": "El Niño Alters Marine Life in the Pacific",
+    "sub": "Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026.",
+    "sub_pt": "Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026.",
+    "sub_en": "Satellite measurements of chlorophyll at the sea surface signal shifts in the ocean’s nutrient supplies in mid-2026.",
+    "excerpt": "Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026.",
+    "excerpt_pt": "Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026.",
+    "excerpt_en": "Satellite measurements of chlorophyll at the sea surface signal shifts in the ocean’s nutrient supplies in mid-2026.",
+    "highlights": [
+      "Em foco: Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Satellite measurements of chlorophyll at the sea surface signal shifts in the ocean’s nutrient supplies in mid-2026",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "10 ago 2026",
+    "date_pt": "10 ago 2026",
+    "date_en": "10 Aug 2026",
+    "time": "04h01",
+    "time_pt": "04h01",
+    "time_en": "04: 01 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-10T04:01:00+00:00",
+    "lastModifiedIso": "2026-08-10T16:45:37+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "El Niño altera a vida marinha no Pacífico"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "El Niño altera a vida marinha no Pacífico"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA News Releases",
+      "Cosmos Week",
+      "El Niño alters marine life in the Pacific"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/el-nino-alters-marine-life-in-the-pacific/",
+    "realUrl": "https://www.cosmosweek.com/?article=el-nino-alters-marine-life-in-the-pacific",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=el-nino-alters-marine-life-in-the-pacific",
+    "realUrl_en": "https://www.cosmosweek.com/?article=el-nino-alters-marine-life-in-the-pacific&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/el-nino-alters-marine-life-in-the-pacific/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/el-nino-alters-marine-life-in-the-pacific/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/el-nino-alters-marine-life-in-the-pacific/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/el-nino-alters-marine-life-in-the-pacific/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/el-nino-alters-marine-life-in-the-pacific/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/el-nino-alters-marine-life-in-the-pacific/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "El Niño altera a vida marinha no Pacífico",
+    "imageAlt_pt": "El Niño altera a vida marinha no Pacífico",
+    "imageAlt_en": "El Niño Alters Marine Life in the Pacific",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 4,
     "slug": "a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -28,19 +420,19 @@
     "excerpt_pt": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
     "excerpt_en": "The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern.",
     "highlights": [
-      "Em foco: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
-      "Detalhe: Dado-chave: Financiado pelo NIH, Alimentado por IA. análise de. entrevistas sugerem. isso",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
+      "Dado-chave: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
-      "Detalhe: Dado-chave: Financiado pelo NIH, Alimentado por IA. análise de. entrevistas sugerem. isso",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
+      "Dado-chave: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern",
-      "Detail: Key detail: NIH-funded. AI-powered. analysis of. interviews suggests. that. a. youth’s. framing of stressful events",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern.",
+      "Key detail: The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "07 ago 2026",
     "date_pt": "07 ago 2026",
@@ -128,7 +520,7 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 5,
     "slug": "science-campaigns-planned-for-the-august-12th-total-solar-eclipse",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -287,7 +679,7 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 6,
     "slug": "sensing-the-poles-hidden-heat",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -428,7 +820,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 7,
     "slug": "how-the-tide-turns-at-the-mouth-of-the-elbe",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -574,7 +966,7 @@
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 8,
     "slug": "a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -592,18 +984,19 @@
     "excerpt_pt": "Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de potência de galáxias pré-reconstrução, pós-reconstrução e cruzadas de forma completa.",
     "excerpt_en": "We apply the Gaussian covariance formalism to develop a semi-analytical covariance model for the joint analysis of pre-reconstruction, post-reconstruction, and cross full-shape galaxy power spectra.",
     "highlights": [
-      "Em foco: Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de.",
+      "Dado-chave: Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de.",
+      "Dado-chave: Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: We apply the Gaussian covariance formalism to develop a semi-analytical covariance model for the joint analysis of pre-reconstruction",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: We apply the Gaussian covariance formalism to develop a semi-analytical covariance model for the joint analysis of pre-reconstruction.",
+      "Key detail: We apply the Gaussian covariance formalism to develop a semi-analytical covariance model for the joint analysis of pre-reconstruction",
+      "Result not yet peer reviewed."
     ],
     "date": "06 ago 2026",
     "date_pt": "06 ago 2026",
@@ -694,7 +1087,7 @@
     "storyKind": "science"
   },
   {
-    "id": 6,
+    "id": 9,
     "slug": "nasa-s-perseverance-rover-watches-earth-vanish-behind-martian-moon",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -849,7 +1242,7 @@
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 10,
     "slug": "europe-s-forests-losing-more-biomass-since-2018",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -967,7 +1360,7 @@
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 11,
     "slug": "the-paradox-of-lencois-maranhenses-national-park",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1104,256 +1497,7 @@
     "storyKind": "science"
   },
   {
-    "id": 9,
-    "slug": "nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://science.nasa.gov/wp-content/uploads/2026/08/punch-cme-overlay-image.jpg",
-    "inline_images": [],
-    "video": {
-      "kind": "file",
-      "platform": "html5",
-      "embedUrl": "",
-      "fileUrl": "https://assets.science.nasa.gov/content/dam/science/missions/punch/PUNCH_cme-front-overlay.mp4",
-      "poster": "https://science.nasa.gov/wp-content/uploads/2026/08/punch-cme-overlay-image.jpg",
-      "title": "PUNCH da NASA aprimora previsão de tempestade solar no primeiro teste",
-      "title_pt": "PUNCH da NASA aprimora previsão de tempestade solar no primeiro teste",
-      "title_en": "NASA’s PUNCH Sharpens Solar Storm Forecasting in First Test",
-      "caption": "Usando imagens contínuas da missão PUNCH (Polarímetro para Unificar a Corona e a Heliosfera) da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de conceito. Os resultados, apresentados terça-feira na Reunião Científica do Comitê de Pesquisa Espacial e em revisão na revista Space Weather, podem revolucionar a forma como as tempestades com impacto na Terra são previstas.",
-      "caption_pt": "Usando imagens contínuas da missão PUNCH (Polarímetro para Unificar a Corona e a Heliosfera) da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de conceito. Os resultados, apresentados terça-feira na Reunião Científica do Comitê de Pesquisa Espacial e em revisão na revista Space Weather, podem revolucionar a forma como as tempestades com impacto na Terra são previstas.",
-      "caption_en": "Using continuous imagery from NASA’s PUNCH (Polarimeter to Unify the Corona and Heliosphere) mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an initial proof of concept test. The results, presented Tuesday at the Committee on Space Research Scientific Meeting and under review at the journal Space Weather, could revolutionize the way Earth-impacting storms are forecasted.",
-      "sourcePage": "https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/"
-    },
-    "audio": null,
-    "title": "PUNCH da NASA aprimora previsão de tempestade solar no primeiro teste",
-    "title_pt": "PUNCH da NASA aprimora previsão de tempestade solar no primeiro teste",
-    "title_en": "NASA’s PUNCH Sharpens Solar Storm Forecasting in First Test",
-    "sub": "Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de.",
-    "sub_pt": "Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de.",
-    "sub_en": "Using continuous imagery from NASA’s PUNCH mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an initial proof of concept test.",
-    "excerpt": "Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de conceito.",
-    "excerpt_pt": "Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de conceito.",
-    "excerpt_en": "Using continuous imagery from NASA’s PUNCH mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an initial proof of concept test.",
-    "highlights": [
-      "Ponto central: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um.",
-      "Dado-chave: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um.",
-      "Dado-chave: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Using continuous imagery from NASA’s PUNCH mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an.",
-      "Key detail: Using continuous imagery from NASA’s PUNCH mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "04 ago 2026",
-    "date_pt": "04 ago 2026",
-    "date_en": "04 Aug 2026",
-    "time": "18h02",
-    "time_pt": "18h02",
-    "time_en": "18: 02 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-04T18:02:55+00:00",
-    "lastModifiedIso": "2026-08-05T17:22:03+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "PUNCH da NASA aprimora previsão de tempestade solar no primeiro teste"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "PUNCH da NASA aprimora previsão de tempestade solar no primeiro teste"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA's PUNCH Improves Solar Storm Forecast in First Test"
-    ],
-    "srcUrl": "https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "PUNCH da NASA aprimora previsão de tempestade solar no primeiro teste",
-    "imageAlt_pt": "PUNCH da NASA aprimora previsão de tempestade solar no primeiro teste",
-    "imageAlt_en": "NASA’s PUNCH Sharpens Solar Storm Forecasting in First Test",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 10,
-    "slug": "ames-science-stars-of-the-month-august-2026",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://www.nasa.gov/wp-content/uploads/2026/08/slide1.jpeg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Estrelas do mês da Ames Science – agosto de 2026",
-    "title_pt": "Estrelas do mês da Ames Science – agosto de 2026",
-    "title_en": "Ames Science Stars of the Month – August 2026",
-    "sub": "A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
-    "sub_pt": "A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
-    "sub_en": "The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud.",
-    "excerpt": "A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
-    "excerpt_pt": "A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
-    "excerpt_en": "The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud.",
-    "highlights": [
-      "Ponto central: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
-      "Dado-chave: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
-      "Dado-chave: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud.",
-      "Key detail: The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "04 ago 2026",
-    "date_pt": "04 ago 2026",
-    "date_en": "04 Aug 2026",
-    "time": "17h08",
-    "time_pt": "17h08",
-    "time_en": "17: 08 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-04T17:08:04+00:00",
-    "lastModifiedIso": "2026-08-05T17:22:03+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Estrelas do mês da Ames Science – agosto de 2026"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Estrelas do mês da Ames Science – agosto de 2026"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Ames Science Stars of the Month – August 2026"
-    ],
-    "srcUrl": "https://www.nasa.gov/general/ames-science-stars-of-the-month-august-2026/",
-    "realUrl": "https://www.cosmosweek.com/?article=ames-science-stars-of-the-month-august-2026",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=ames-science-stars-of-the-month-august-2026",
-    "realUrl_en": "https://www.cosmosweek.com/?article=ames-science-stars-of-the-month-august-2026&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/ames-science-stars-of-the-month-august-2026/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/ames-science-stars-of-the-month-august-2026/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/ames-science-stars-of-the-month-august-2026/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/ames-science-stars-of-the-month-august-2026/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/ames-science-stars-of-the-month-august-2026/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/ames-science-stars-of-the-month-august-2026/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "Estrelas do mês da Ames Science – agosto de 2026",
-    "imageAlt_pt": "Estrelas do mês da Ames Science – agosto de 2026",
-    "imageAlt_en": "Ames Science Stars of the Month – August 2026",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 11,
+    "id": 12,
     "slug": "a-bare-summer-for-barnes-ice-cap",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1390,19 +1534,19 @@
     "excerpt_pt": "A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de características de derretimento.",
     "excerpt_en": "The expanse of glacial ice on Canada’s Baffin Island lost its snow cover quickly and early in summer 2026, revealing a network of melt features.",
     "highlights": [
-      "Em foco: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de.",
+      "Dado-chave: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de.",
+      "Dado-chave: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The expanse of glacial ice on Canada’s Baffin Island lost its snow cover quickly and early in summer 2026, revealing a network of melt features",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The expanse of glacial ice on Canada’s Baffin Island lost its snow cover quickly and early in summer 2026, revealing a network of melt features.",
+      "Key detail: The expanse of glacial ice on Canada’s Baffin Island lost its snow cover quickly and early in summer 2026, revealing a network of melt features",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "03 ago 2026",
     "date_pt": "03 ago 2026",
@@ -1490,7 +1634,7 @@
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "hydrognss-data-open-for-new-insights-into-earth-s-water",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1618,7 +1762,7 @@
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "smos-salinity-could-offer-early-indicator-of-el-nino",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1746,7 +1890,7 @@
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "unchanged-x-ray-polarization-during-accretion-dips-in-the-low-hard-state-of-cygnus-x-1",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1864,7 +2008,7 @@
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "watch-the-total-solar-eclipse-with-esa-in-leon",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2032,7 +2176,7 @@
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "new-exomoon-detection-challenges-cosmic-labels",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2209,7 +2353,7 @@
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "dark-matter-searches-with-a-13-mev-threshold-superconducting-sensor-array",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -2327,7 +2471,7 @@
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "the-nancy-grace-roman-space-telescope-launch-what-to-expect",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2521,7 +2665,7 @@
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "faintest-planet-ever-imaged-from-earth-found-after-more-than-10-years-of-hide-and-seek",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -2701,7 +2845,7 @@
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 21,
     "slug": "science-release-hubble-discovers-first-of-star-cluster-s-missing-black-holes",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2877,7 +3021,7 @@
     "storyKind": "science"
   },
   {
-    "id": 21,
+    "id": 22,
     "slug": "older-than-the-sun-astronomers-find-new-clues-to-the-origin-of-interstellar-comet-3i-atlas",
     "cat": "Química",
     "catCls": "quimica",
@@ -3057,7 +3201,7 @@
     "storyKind": "science"
   },
   {
-    "id": 22,
+    "id": 23,
     "slug": "action-nsf-doe-vera-c-rubin-observatory-begins-capturing-the-greatest-cosmic-movie-ever-made",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3215,7 +3359,135 @@
     "storyKind": "science"
   },
   {
-    "id": 23,
+    "id": 24,
+    "slug": "chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen",
+    "cat": "Química",
+    "catCls": "quimica",
+    "img": "https://scx2.b-cdn.net/gfx/news/hires/2026/astronomers-find-most.jpg",
+    "inline_images": [
+      {
+        "src": "https://scx2.b-cdn.net/gfx/news/2026/astronomers-find-most.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Galáxia Quimicamente Primitiva de 13 Bilhões de Anos Revela Nível Recorde de Oxigênio",
+    "title_pt": "Galáxia Quimicamente Primitiva de 13 Bilhões de Anos Revela Nível Recorde de Oxigênio",
+    "title_en": "Chemically primitive galaxy from 13 billion years ago reveals record-low oxygen",
+    "sub": "Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia LAP1-B, revelando uma abundância.",
+    "sub_pt": "Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia LAP1-B, revelando uma abundância.",
+    "sub_en": "An international team of astronomers has used the James Webb Space Telescope and a natural phenomenon known as gravitational lensing to achieve a definitive characterization of.",
+    "excerpt": "Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia LAP1-B, revelando uma abundância de oxigênio recorde de apenas 1/240 da do Sol.",
+    "excerpt_pt": "Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia LAP1-B, revelando uma abundância de oxigênio recorde de apenas 1/240 da do Sol.",
+    "excerpt_en": "An international team of astronomers has used the James Webb Space Telescope and a natural phenomenon known as gravitational lensing to achieve a definitive characterization of LAP1-B, an ultra-faint galaxy from 13 billion years ago.",
+    "highlights": [
+      "Ponto central: Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia.",
+      "Dado-chave: Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia",
+      "Cobertura jornalística: verificar documentação técnica primária."
+    ],
+    "highlights_pt": [
+      "Ponto central: Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia.",
+      "Dado-chave: Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia",
+      "Cobertura jornalística: verificar documentação técnica primária."
+    ],
+    "highlights_en": [
+      "Core point: An international team of astronomers has used the James Webb Space Telescope and a natural phenomenon known as gravitational lensing to achieve a.",
+      "Key detail: An international team of astronomers has used the James Webb Space Telescope and a natural phenomenon known as gravitational lensing to achieve a",
+      "Science reporting: verify primary technical documentation."
+    ],
+    "date": "26 jun 2026",
+    "date_pt": "26 jun 2026",
+    "date_en": "26 Jun 2026",
+    "time": "16h40",
+    "time_pt": "16h40",
+    "time_en": "16: 40 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-06-26T16:40:05+00:00",
+    "lastModifiedIso": "2026-06-26T17:27:34+00:00",
+    "source": "Phys. org Space",
+    "sourceDomain": "phys. org",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Química",
+      "Phys. org Space",
+      "Cosmos Week",
+      "Galáxia quimicamente primitiva de 13 bilhões de anos atrás revela nível recorde de oxigênio"
+    ],
+    "keywords_pt": [
+      "Química",
+      "Phys. org Space",
+      "Cosmos Week",
+      "Galáxia quimicamente primitiva de 13 bilhões de anos atrás revela nível recorde de oxigênio"
+    ],
+    "keywords_en": [
+      "Chemical",
+      "Phys. org Space",
+      "Cosmos Week",
+      "Chemically primitive galaxy from 13 billion years ago reveals record level of oxygen"
+    ],
+    "srcUrl": "https://phys.org/news/2026-05-chemically-primitive-galaxy-billion-years.html",
+    "realUrl": "https://www.cosmosweek.com/?article=chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen",
+    "realUrl_en": "https://www.cosmosweek.com/?article=chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 77,
+    "scoreBreakdown": {
+      "source": 66,
+      "evidence": 54,
+      "relevance": 82,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Galáxia Quimicamente Primitiva de 13 Bilhões de Anos Revela Nível Recorde de Oxigênio",
+    "imageAlt_pt": "Galáxia Quimicamente Primitiva de 13 Bilhões de Anos Revela Nível Recorde de Oxigênio",
+    "imageAlt_en": "Chemically primitive galaxy from 13 billion years ago reveals record-low oxygen",
+    "coverageKind": "news",
+    "coverageKindLabel": "Jornalismo científico",
+    "coverageKindLabel_pt": "Jornalismo científico",
+    "coverageKindLabel_en": "Science journalism",
+    "storyKind": "science"
+  },
+  {
+    "id": 25,
     "slug": "nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -3361,7 +3633,7 @@
     "storyKind": "science"
   },
   {
-    "id": 24,
+    "id": 26,
     "slug": "science-release-hubble-details-early-galaxy-transforming-neighbourhood",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3528,139 +3800,7 @@
     "storyKind": "science"
   },
   {
-    "id": 25,
-    "slug": "webb-finds-clues-to-ancient-origin-of-comet-3i-atlas",
-    "cat": "Química",
-    "catCls": "quimica",
-    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/interstellar_comet_3i_atlas_nirspec_ifu/27338945-1-eng-GB/Interstellar_Comet_3I_ATLAS_NIRSpec_IFU_pillars.jpg",
-    "inline_images": [
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/interstellar_comet_3i_atlas_nirspec_ifu/27338945-1-eng-GB/Interstellar_Comet_3I_ATLAS_NIRSpec_IFU_article.jpg",
-        "alt": "Cometa Interestelar 3I/ATLAS (NIRSpec IFU)",
-        "alt_pt": "Cometa Interestelar 3I/ATLAS (NIRSpec IFU)",
-        "alt_en": "Interstellar Comet 3I/ATLAS (NIRSpec IFU)",
-        "caption": "Cometa Interestelar 3I/ATLAS (NIRSpec IFU)",
-        "caption_pt": "Cometa Interestelar 3I/ATLAS (NIRSpec IFU)",
-        "caption_en": "Interstellar Comet 3I/ATLAS (NIRSpec IFU)"
-      },
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/3i_atlas_compared_to_solar_system_comets/27339111-1-eng-GB/3I_ATLAS_compared_to_Solar_System_comets_article.jpg",
-        "alt": "3I/ATLAS comparado com cometas do Sistema Solar",
-        "alt_pt": "3I/ATLAS comparado com cometas do Sistema Solar",
-        "alt_en": "3I/ATLAS compared to Solar System comets",
-        "caption": "3I/ATLAS comparado com cometas do Sistema Solar",
-        "caption_pt": "3I/ATLAS comparado com cometas do Sistema Solar",
-        "caption_en": "3I/ATLAS compared to Solar System comets"
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Webb encontra pistas sobre a origem antiga do cometa 3I/ATLAS",
-    "title_pt": "Webb encontra pistas sobre a origem antiga do cometa 3I/ATLAS",
-    "title_en": "Webb finds clues to ancient origin of Comet 3I/ATLAS",
-    "sub": "O terceiro cometa interestelar identificado na história da humanidade tem uma composição química surpreendente, levantando questões sobre quão comuns ou incomuns podem ser as.",
-    "sub_pt": "O terceiro cometa interestelar identificado na história da humanidade tem uma composição química surpreendente, levantando questões sobre quão comuns ou incomuns podem ser as.",
-    "sub_en": "The third identified interstellar comet in human history has a surprising chemical makeup, raising questions as to how common, or unusual, conditions in our own Solar System may.",
-    "excerpt": "O terceiro cometa interestelar identificado na história da humanidade tem uma composição química surpreendente, levantando questões sobre quão comuns ou incomuns podem ser as condições no nosso Sistema Solar.",
-    "excerpt_pt": "O terceiro cometa interestelar identificado na história da humanidade tem uma composição química surpreendente, levantando questões sobre quão comuns ou incomuns podem ser as condições no nosso Sistema Solar.",
-    "excerpt_en": "The third identified interstellar comet in human history has a surprising chemical makeup, raising questions as to how common, or unusual, conditions in our own Solar System may be.",
-    "highlights": [
-      "Ponto central: O terceiro cometa interestelar identificado na história da humanidade tem uma composição química surpreendente, levantando questões sobre quão comuns.",
-      "Dado-chave: O terceiro cometa interestelar identificado na história da humanidade tem uma composição química surpreendente, levantando questões sobre quão.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: O terceiro cometa interestelar identificado na história da humanidade tem uma composição química surpreendente, levantando questões sobre quão comuns.",
-      "Dado-chave: O terceiro cometa interestelar identificado na história da humanidade tem uma composição química surpreendente, levantando questões sobre quão.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: The third identified interstellar comet in human history has a surprising chemical makeup, raising questions as to how common, or unusual, conditions.",
-      "Key detail: The third identified interstellar comet in human history has a surprising chemical makeup, raising questions as to how common, or unusual.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "22 jun 2026",
-    "date_pt": "22 jun 2026",
-    "date_en": "22 Jun 2026",
-    "time": "15h00",
-    "time_pt": "15h00",
-    "time_en": "15: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-06-22T15:00:00+00:00",
-    "lastModifiedIso": "2026-06-22T15:00:00+00:00",
-    "source": "ESA Space Science",
-    "sourceDomain": "www. esa. int",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Preferida para missões, observatórios, agências e laboratórios oficiais.",
-    "sourceNote_pt": "Fonte primária institucional. Preferida para missões, observatórios, agências e laboratórios oficiais.",
-    "sourceNote_en": "Primary institutional source. Preferred for missions, observatories, agencies and official laboratories.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Química",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Webb encontra pistas sobre a origem antiga do cometa 3I/ATLAS"
-    ],
-    "keywords_pt": [
-      "Química",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Webb encontra pistas sobre a origem antiga do cometa 3I/ATLAS"
-    ],
-    "keywords_en": [
-      "Chemical",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Webb finds clues to ancient origin of comet 3I/ATLAS"
-    ],
-    "srcUrl": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_finds_clues_to_ancient_origin_of_Comet_3I_ATLAS",
-    "realUrl": "https://www.cosmosweek.com/?article=webb-finds-clues-to-ancient-origin-of-comet-3i-atlas",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=webb-finds-clues-to-ancient-origin-of-comet-3i-atlas",
-    "realUrl_en": "https://www.cosmosweek.com/?article=webb-finds-clues-to-ancient-origin-of-comet-3i-atlas&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/webb-finds-clues-to-ancient-origin-of-comet-3i-atlas/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/webb-finds-clues-to-ancient-origin-of-comet-3i-atlas/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/webb-finds-clues-to-ancient-origin-of-comet-3i-atlas/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/webb-finds-clues-to-ancient-origin-of-comet-3i-atlas/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/webb-finds-clues-to-ancient-origin-of-comet-3i-atlas/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/webb-finds-clues-to-ancient-origin-of-comet-3i-atlas/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 81,
-    "scoreBreakdown": {
-      "source": 95,
-      "evidence": 92,
-      "relevance": 82,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Webb encontra pistas sobre a origem antiga do cometa 3I/ATLAS",
-    "imageAlt_pt": "Webb encontra pistas sobre a origem antiga do cometa 3I/ATLAS",
-    "imageAlt_en": "Webb finds clues to ancient origin of Comet 3I/ATLAS"
-  },
-  {
-    "id": 26,
+    "id": 27,
     "slug": "are-we-ready-to-send-humans-to-mars",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3869,7 +4009,7 @@
     "storyKind": "science"
   },
   {
-    "id": 27,
+    "id": 28,
     "slug": "webb-hubble-find-massive-star-clusters-emerge-faster",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -3997,7 +4137,7 @@
     "storyKind": "science"
   },
   {
-    "id": 28,
+    "id": 29,
     "slug": "dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -4115,7 +4255,7 @@
     "storyKind": "science"
   },
   {
-    "id": 29,
+    "id": 30,
     "slug": "stellar-flares-may-expand-habitable-zones-around-small-stars",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -4246,7 +4386,7 @@
     "storyKind": "science"
   },
   {
-    "id": 30,
+    "id": 31,
     "slug": "automated-ct-scan-analysis-could-fast-track-clinical-assessments",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -4361,137 +4501,6 @@
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 31,
-    "slug": "sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://scx2.b-cdn.net/gfx/news/hires/2026/rice-researchers-find.jpg",
-    "inline_images": [
-      {
-        "src": "https://phys.b-cdn.net/tmpl/v6/img/medx308px.png",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres",
-    "title_pt": "Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres",
-    "title_en": "Sulfur-rich Mercury magmas behave differently than Earth's do",
-    "sub": "Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus magmas se comportam de maneira.",
-    "sub_pt": "Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus magmas se comportam de maneira.",
-    "sub_en": "Mercury is a small, rocky planet about which researchers know relatively little. Two missions, taking readings as they passed over the planet, have revealed that Mercury is.",
-    "excerpt": "Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus magmas se comportam de maneira diferente dos da Terra, permanecendo derretidos em temperaturas mais baixas.",
-    "excerpt_pt": "Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus magmas se comportam de maneira diferente dos da Terra, permanecendo derretidos em temperaturas mais baixas.",
-    "excerpt_en": "Mercury is a small, rocky planet about which researchers know relatively little. Two missions, taking readings as they passed over the planet, have revealed that Mercury is covered by an iron-poor and sulfur-rich crust.",
-    "highlights": [
-      "Ponto central: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
-      "Dado-chave: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_pt": [
-      "Ponto central: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
-      "Dado-chave: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_en": [
-      "Core point: Mercury is a small, rocky planet about which researchers know relatively little.",
-      "Key detail: Mercury is a small, rocky planet about which researchers know relatively little.",
-      "Science reporting: verify primary technical documentation."
-    ],
-    "date": "19 abr 2026",
-    "date_pt": "19 abr 2026",
-    "date_en": "19 Apr 2026",
-    "time": "19h00",
-    "time_pt": "19h00",
-    "time_en": "19: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-19T19:00:01+00:00",
-    "lastModifiedIso": "2026-04-23T23:29:07+00:00",
-    "source": "Phys. org Space",
-    "sourceDomain": "phys. org",
-    "sourceType": "news",
-    "sourceTypeLabel": "Jornalismo científico",
-    "sourceTypeLabel_pt": "Jornalismo científico",
-    "sourceTypeLabel_en": "Science journalism",
-    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
-    "evidenceKey": "journalistic",
-    "evidenceLabel": "Cobertura jornalística",
-    "evidenceLabel_pt": "Cobertura jornalística",
-    "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "Phys. org Space",
-      "Cosmos Week",
-      "Magmas de Mercúrio ricos em enxofre comportam",
-      "se de maneira diferente dos da Terra"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "Phys. org Space",
-      "Cosmos Week",
-      "Magmas de Mercúrio ricos em enxofre comportam",
-      "se de maneira diferente dos da Terra"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "Phys. org Space",
-      "Cosmos Week",
-      "Sulfur-rich Mercury magmas contain",
-      "if different from those on Earth"
-    ],
-    "srcUrl": "https://phys.org/news/2026-04-sulfur-rich-mercury-magmas-differently.html",
-    "realUrl": "https://www.cosmosweek.com/?article=sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do",
-    "realUrl_en": "https://www.cosmosweek.com/?article=sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 76,
-      "evidence": 42,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres",
-    "imageAlt_pt": "Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres",
-    "imageAlt_en": "Sulfur-rich Mercury magmas behave differently than Earth's do",
-    "coverageKind": "news",
-    "coverageKindLabel": "Jornalismo científico",
-    "coverageKindLabel_pt": "Jornalismo científico",
-    "coverageKindLabel_en": "Science journalism",
     "storyKind": "science"
   },
   {

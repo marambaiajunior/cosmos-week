@@ -3,6 +3,407 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "lion-nebula-roars-to-life-with-nasa-s-webb",
+    "cat": "Biologia",
+    "catCls": "biologia",
+    "img": "https://assets.science.nasa.gov/content/dam/science/missions/webb/science/2026/08/STScI-01KX6D0XBHSYP7Q1EM5QTC43RP.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Nebulosa do Leão ganha vida com Webb da NASA",
+    "title_pt": "Nebulosa do Leão ganha vida com Webb da NASA",
+    "title_en": "Lion Nebula Roars to Life With NASA’s Webb",
+    "sub": "Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de Nebulosa do Leão.",
+    "sub_pt": "Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de Nebulosa do Leão.",
+    "sub_en": "Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula.",
+    "excerpt": "Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de Nebulosa do Leão.",
+    "excerpt_pt": "Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de Nebulosa do Leão.",
+    "excerpt_en": "Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula.",
+    "body": "<p>Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de Nebulosa do Leão. 3d Webb no sistema solar 3d Podcasts Webb Image Sonifications Webb’s First Images Team International Team People Of Webb Mais Para a mídia Para cientistas Para educadores Para diversão/aprendizagem 4 min Ler Nebulosa do Leão ruge para a vida com Webb da NASA O Telescópio.</p><p>Processamento de imagem: Alyssa Pagan (STScI) Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA obteve novas imagens de NGC 2392, apelidada de Nebulosa do Leão. Nebulosa do Leão O Telescópio Espacial James Webb da NASA capturou imagens da nebulosa planetária NGC 2392, a Nebulosa do Leão, usando os instrumentos NIRCam e MIRI do observatório.</p><p>Processamento de imagem: Alyssa Pagan (STScI) À primeira vista, a estrutura geral da nebulosa nas imagens infravermelhas de Webb, com os instrumentos NIRCam (Near Infrared Camera) e MIRI (Mid Infrared Instrument), pode parecer bastante semelhante à anterior visão de luz visível. Nebulosa do Leão A imagem infravermelha média da nebulosa planetária NGC 2392, apelidada de Nebulosa do Leão, do Telescópio Espacial James Webb da NASA, destaca as diferentes estruturas de poeira.</p><p>Imagens e vídeos relacionados Nebulosa do Leão O Telescópio Espacial James Webb da NASA capturou imagens da nebulosa planetária NGC 2392, a Nebulosa do Leão, usando os instrumentos NIRCam e MIRI do observatório. Links relacionados Explore mais: Sonificação de NGC 2392 Veja mais: Imagem Hubble de NGC 2392 Veja mais: Observatório de raios X Chandra Imagem de NGC 2392 Mais Webb: Notícias | Imagens | Ciência | Detalhes de compartilhamento da página inicial atualizados pela última vez em 10.</p><p>O Telescópio Espacial Hubble da NASA já viu esta nebulosa planetária em 2000, visualizando o alvo em forma de rosto de leão na luz visível e revelando características como a “juba” de objetos nebulosos em forma de cometa. Webb é um programa internacional liderado pela NASA com os seus parceiros, ESA (Agência Espacial Europeia) e CSA (Agência Espacial Canadense).</p><p>O Telescópio Espacial James Webb da NASA capturou imagens da nebulosa planetária NGC 2392, a Nebulosa do Leão, usando os instrumentos NIRCam e MIRI do observatório.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/webb/lion-nebula-roars-to-life-with-nasas-webb/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de Nebulosa do Leão. 3d Webb no sistema solar 3d Podcasts Webb Image Sonifications Webb’s First Images Team International Team People Of Webb Mais Para a mídia Para cientistas Para educadores Para diversão/aprendizagem 4 min Ler Nebulosa do Leão ruge para a vida com Webb da NASA O Telescópio.</p><p>Processamento de imagem: Alyssa Pagan (STScI) Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA obteve novas imagens de NGC 2392, apelidada de Nebulosa do Leão. Nebulosa do Leão O Telescópio Espacial James Webb da NASA capturou imagens da nebulosa planetária NGC 2392, a Nebulosa do Leão, usando os instrumentos NIRCam e MIRI do observatório.</p><p>Processamento de imagem: Alyssa Pagan (STScI) À primeira vista, a estrutura geral da nebulosa nas imagens infravermelhas de Webb, com os instrumentos NIRCam (Near Infrared Camera) e MIRI (Mid Infrared Instrument), pode parecer bastante semelhante à anterior visão de luz visível. Nebulosa do Leão A imagem infravermelha média da nebulosa planetária NGC 2392, apelidada de Nebulosa do Leão, do Telescópio Espacial James Webb da NASA, destaca as diferentes estruturas de poeira.</p><p>Imagens e vídeos relacionados Nebulosa do Leão O Telescópio Espacial James Webb da NASA capturou imagens da nebulosa planetária NGC 2392, a Nebulosa do Leão, usando os instrumentos NIRCam e MIRI do observatório. Links relacionados Explore mais: Sonificação de NGC 2392 Veja mais: Imagem Hubble de NGC 2392 Veja mais: Observatório de raios X Chandra Imagem de NGC 2392 Mais Webb: Notícias | Imagens | Ciência | Detalhes de compartilhamento da página inicial atualizados pela última vez em 10.</p><p>O Telescópio Espacial Hubble da NASA já viu esta nebulosa planetária em 2000, visualizando o alvo em forma de rosto de leão na luz visível e revelando características como a “juba” de objetos nebulosos em forma de cometa. Webb é um programa internacional liderado pela NASA com os seus parceiros, ESA (Agência Espacial Europeia) e CSA (Agência Espacial Canadense).</p><p>O Telescópio Espacial James Webb da NASA capturou imagens da nebulosa planetária NGC 2392, a Nebulosa do Leão, usando os instrumentos NIRCam e MIRI do observatório.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/webb/lion-nebula-roars-to-life-with-nasas-webb/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern. The gap between identifying a correlation in biological data and understanding the causal chain that produces it is routinely underestimated, and the history of biomedical research is populated with associations that collapsed when the mechanism was sought and not found. A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive finding because it generates testable predictions that can narrow the hypothesis space. 3d Webb in 3d Solar System Podcasts Webb Image Sonifications Webb’s First Images Team International Team People Of Webb More For the Media For Scientists For Educators For. Alyssa Pagan (STScI) Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula.</p><p>Lion Nebula (NIRCam and MIRI Image) NASA’s James Webb Space Telescope imaged the planetary nebula NGC 2392, the Lion Nebula, using the observatory’s NIRCam and MIRI instruments. Alyssa Pagan (STScI) At first glance the nebula’s overall structure in Webb’s infrared images, with both the NIRCam (Near Infrared Camera) and MIRI (Mid Infrared Instrument).</p><p>Lion Nebula (MIRI Image) NASA’s James Webb Space Telescope’s mid-infrared image of planetary nebula NGC 2392, nicknamed the Lion Nebula, highlights the varying dust structures. Related Images &amp; Videos Lion Nebula (NIRCam and MIRI Image) NASA’s James Webb Space Telescope imaged the planetary nebula NGC 2392, the Lion Nebula, using the observatory’s NIRCam.</p><p>Sonification of NGC 2392 View more: Hubble Image of NGC 2392 View more: Chandra X-ray Observatory Image of NGC 2392 More Webb: News | Images | Science | Home Page Share Details. NASA’s Hubble Article Contents Lion Nebula (NIRCam and MIRI Image) Lion Nebula (MIRI Image) Downloads &amp; Related Information Related Links Observing across the starry “plains” of.</p><p>The broader interest lies in whether the reported effect points toward a real mechanism and not merely a reproducible but unexplained association. Biology has learned from decades of biomarker failures that correlation, even robust correlation, is not a substitute for mechanistic understanding. A pathway that can be traced from molecular interaction to cellular response to organismal phenotype provides a far stronger foundation for intervention than a statistical association discovered in a large dataset, however well the statistics are done.</p><p>NASA’s Hubble Space Telescope previously viewed this planetary nebula in 2000, imaging the lion face-shaped target in visible light and revealing features such as the “mane” of. Webb is an international program led by NASA with its partners, ESA (European Space Agency) and CSA (Canadian Space Agency).</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to test whether the effect repeats across different methods, cell types, model organisms and experimental conditions. Reproducibility is the first test, but mechanistic dissection is the second, and a result that passes both has a substantially better chance of translating into something clinically or biotechnologically useful. The path from a laboratory finding to an applied outcome typically takes a decade or more, and most findings do not complete it; the current result sits at the beginning of that process.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/webb/lion-nebula-roars-to-life-with-nasas-webb/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "10 ago 2026",
+    "date_pt": "10 ago 2026",
+    "date_en": "10 Aug 2026",
+    "time": "14h00",
+    "time_pt": "14h00",
+    "time_en": "14: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-10T14:00:00+00:00",
+    "lastModifiedIso": "2026-08-10T16:45:37+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Biologia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Nebulosa do Leão ganha vida com Webb da NASA"
+    ],
+    "keywords_pt": [
+      "Biologia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Nebulosa do Leão ganha vida com Webb da NASA"
+    ],
+    "keywords_en": [
+      "Biology",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Lion Nebula Comes to Life with NASA's Webb"
+    ],
+    "srcUrl": "https://science.nasa.gov/missions/webb/lion-nebula-roars-to-life-with-nasas-webb/",
+    "realUrl": "https://www.cosmosweek.com/?article=lion-nebula-roars-to-life-with-nasa-s-webb",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=lion-nebula-roars-to-life-with-nasa-s-webb",
+    "realUrl_en": "https://www.cosmosweek.com/?article=lion-nebula-roars-to-life-with-nasa-s-webb&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/lion-nebula-roars-to-life-with-nasa-s-webb/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/lion-nebula-roars-to-life-with-nasa-s-webb/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/lion-nebula-roars-to-life-with-nasa-s-webb/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/lion-nebula-roars-to-life-with-nasa-s-webb/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/lion-nebula-roars-to-life-with-nasa-s-webb/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/lion-nebula-roars-to-life-with-nasa-s-webb/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Nebulosa do Leão ganha vida com Webb da NASA",
+    "imageAlt_pt": "Nebulosa do Leão ganha vida com Webb da NASA",
+    "imageAlt_en": "Lion Nebula Roars to Life With NASA’s Webb",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "how-esa-mimics-and-models-the-2026-total-solar-eclipse",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/proba-3_mimics_the_2026_total_solar_eclipse/27410604-1-eng-GB/Proba-3_mimics_the_2026_total_solar_eclipse_pillars.png",
+    "inline_images": [
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/proba-3_mimics_the_2026_total_solar_eclipse/27410604-1-eng-GB/Proba-3_mimics_the_2026_total_solar_eclipse_article.png",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Como a ESA imita e modela o eclipse solar total de 2026",
+    "title_pt": "Como a ESA imita e modela o eclipse solar total de 2026",
+    "title_en": "How ESA mimics and models the 2026 total solar eclipse",
+    "sub": "Em 12 de agosto de 2026, partes da Europa sofrerão um eclipse solar total. Com o disco brilhante do Sol coberto, a atmosfera circundante, a coroa solar, tornar-se-á visível a olho.",
+    "sub_pt": "Em 12 de agosto de 2026, partes da Europa sofrerão um eclipse solar total. Com o disco brilhante do Sol coberto, a atmosfera circundante, a coroa solar, tornar-se-á visível a olho.",
+    "sub_en": "On 12 August 2026, parts of Europe will experience a total solar eclipse. With the Sun's bright disc covered, its surrounding atmosphere, the solar corona, will become visible to.",
+    "excerpt": "Em 12 de agosto de 2026, partes da Europa sofrerão um eclipse solar total. Com o disco brilhante do Sol coberto, a atmosfera circundante, a coroa solar, tornar-se-á visível a olho nu.",
+    "excerpt_pt": "Em 12 de agosto de 2026, partes da Europa sofrerão um eclipse solar total. Com o disco brilhante do Sol coberto, a atmosfera circundante, a coroa solar, tornar-se-á visível a olho nu.",
+    "excerpt_en": "On 12 August 2026, parts of Europe will experience a total solar eclipse. With the Sun's bright disc covered, its surrounding atmosphere, the solar corona, will become visible to the naked eye.",
+    "body": "<p>Em 12 de agosto de 2026, partes da Europa sofrerão um eclipse solar total. Com o disco brilhante do Sol coberto, a atmosfera circundante, a coroa solar, tornar-se-á visível a olho nu.</p><p>Até recentemente, a coroa completa só podia ser observada da Terra durante os curtos períodos de eclipses totais. Um eclipse solar é um exemplo de “ocultação solar” natural, quando um objeto (neste caso a Lua) bloqueia o disco solar da perspectiva de um observador.</p><p>Para preencher esta lacuna de observação, a ESA desenvolveu e lançou o seu criador de eclipses artificiais Proba-3, uma missão que consiste num par de satélites que voam a 150 metros de distância e operam autonomamente como uma única nave espacial.</p><p>Andrei Zhukov, investigador principal do instrumento ASPIICS no Observatório Real da Bélgica, comenta sobre um dos eclipses artificiais mais recentes da missão: “Este é o 62º eclipse das operações nominais do Proba-3, uma parte da missão durante a qual adquirimos imagens. O Sol leva duas semanas para girar até a metade em torno de seu eixo, então, se espelharmos a imagem horizontalmente, teremos uma previsão de como será a aparência da coroa durante o eclipse natural visto da Terra daqui a dois dias.</p><p>Nos dias que antecedem 12 de Agosto, a missão Solar Orbiter liderada pela ESA está a realizar uma campanha especial de observação com os seus vários instrumentos de detecção remota. Um eclipse solar total permite-nos verificar se os nossos modelos estão corretos, comparando as previsões com as observações reais”, diz Jorge Amaya, Coordenador de Modelação do Clima Espacial da ESA.</p><p>A maioria das observações solares são feitas perto da Terra, fornecendo apenas uma visão limitada de um vasto sistema tridimensional.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Enabling_Support/Space_Engineering_Technology/How_ESA_mimics_and_models_the_2026_total_solar_eclipse\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Em 12 de agosto de 2026, partes da Europa sofrerão um eclipse solar total. Com o disco brilhante do Sol coberto, a atmosfera circundante, a coroa solar, tornar-se-á visível a olho nu.</p><p>Até recentemente, a coroa completa só podia ser observada da Terra durante os curtos períodos de eclipses totais. Um eclipse solar é um exemplo de “ocultação solar” natural, quando um objeto (neste caso a Lua) bloqueia o disco solar da perspectiva de um observador.</p><p>Para preencher esta lacuna de observação, a ESA desenvolveu e lançou o seu criador de eclipses artificiais Proba-3, uma missão que consiste num par de satélites que voam a 150 metros de distância e operam autonomamente como uma única nave espacial.</p><p>Andrei Zhukov, investigador principal do instrumento ASPIICS no Observatório Real da Bélgica, comenta sobre um dos eclipses artificiais mais recentes da missão: “Este é o 62º eclipse das operações nominais do Proba-3, uma parte da missão durante a qual adquirimos imagens. O Sol leva duas semanas para girar até a metade em torno de seu eixo, então, se espelharmos a imagem horizontalmente, teremos uma previsão de como será a aparência da coroa durante o eclipse natural visto da Terra daqui a dois dias.</p><p>Nos dias que antecedem 12 de Agosto, a missão Solar Orbiter liderada pela ESA está a realizar uma campanha especial de observação com os seus vários instrumentos de detecção remota. Um eclipse solar total permite-nos verificar se os nossos modelos estão corretos, comparando as previsões com as observações reais”, diz Jorge Amaya, Coordenador de Modelação do Clima Espacial da ESA.</p><p>A maioria das observações solares são feitas perto da Terra, fornecendo apenas uma visão limitada de um vasto sistema tridimensional.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Enabling_Support/Space_Engineering_Technology/How_ESA_mimics_and_models_the_2026_total_solar_eclipse\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>On 12 August 2026, parts of Europe will experience a total solar eclipse. With the Sun&#x27;s bright disc covered, its surrounding atmosphere, the solar corona, will become visible to the naked eye. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. Until recently, the full corona could only be observed from Earth during the short periods of total eclipses. A solar eclipse is an example of a natural &#x27;solar occultation’, when an object (in this case the Moon) blocks the Sun&#x27;s disc from an observer&#x27;s perspective.</p><p>To fill this observation gap, ESA developed and launched its artificial eclipse-maker Proba-3, a mission that consists of a pair of satellites flying 150 metres apart and. Andrei Zhukov, principal investigator for the ASPIICS instrument at the Royal Observatory of Belgium, comments on one of the mission&#x27;s most recent artificial eclipses: “This is.</p><p>It takes the Sun two weeks to rotate halfway around its axis, so if we mirror the image horizontally, we get a prediction of what the corona will look like during the natural. In the days leading up to 12 August, the ESA-led Solar Orbiter mission is running a special observation campaign with its various remote-sensing instruments.</p><p>A total solar eclipse lets us verify that our models are correct by comparing forecasts with actual observations,” says Jorge Amaya, ESA Space Weather Modelling Coordinator. Most solar observations are made from near Earth, providing only a limited view of a vast three-dimensional system.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>That is the key to dramatically improving forecasts of how solar activity will affect our technology. Planned for launch in 2031, Vigil will tail Earth to provide continuous, near real-time observations of the Sun’s side.</p><p>Because the account originates with ESA Space Science, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Enabling_Support/Space_Engineering_Technology/How_ESA_mimics_and_models_the_2026_total_solar_eclipse\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Em 12 de agosto de 2026, partes da Europa sofrerão um eclipse solar total",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Em 12 de agosto de 2026, partes da Europa sofrerão um eclipse solar total",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: On 12 August 2026, parts of Europe will experience a total solar eclipse",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "10 ago 2026",
+    "date_pt": "10 ago 2026",
+    "date_en": "10 Aug 2026",
+    "time": "11h59",
+    "time_pt": "11h59",
+    "time_en": "11: 59 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-10T11:59:00+00:00",
+    "lastModifiedIso": "2026-08-10T16:45:37+00:00",
+    "source": "ESA Space Science",
+    "sourceDomain": "www. esa. int",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "ESA Space Science",
+      "Cosmos Week",
+      "Como a ESA imita e modela o eclipse solar total de 2026"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "ESA Space Science",
+      "Cosmos Week",
+      "Como a ESA imita e modela o eclipse solar total de 2026"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "ESA Space Science",
+      "Cosmos Week",
+      "How ESA imitates and models the 2026 total solar eclipse"
+    ],
+    "srcUrl": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/How_ESA_mimics_and_models_the_2026_total_solar_eclipse",
+    "realUrl": "https://www.cosmosweek.com/?article=how-esa-mimics-and-models-the-2026-total-solar-eclipse",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=how-esa-mimics-and-models-the-2026-total-solar-eclipse",
+    "realUrl_en": "https://www.cosmosweek.com/?article=how-esa-mimics-and-models-the-2026-total-solar-eclipse&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/how-esa-mimics-and-models-the-2026-total-solar-eclipse/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/how-esa-mimics-and-models-the-2026-total-solar-eclipse/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/how-esa-mimics-and-models-the-2026-total-solar-eclipse/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/how-esa-mimics-and-models-the-2026-total-solar-eclipse/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/how-esa-mimics-and-models-the-2026-total-solar-eclipse/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/how-esa-mimics-and-models-the-2026-total-solar-eclipse/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 95,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Como a ESA imita e modela o eclipse solar total de 2026",
+    "imageAlt_pt": "Como a ESA imita e modela o eclipse solar total de 2026",
+    "imageAlt_en": "How ESA mimics and models the 2026 total solar eclipse",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
+    "slug": "el-nino-alters-marine-life-in-the-pacific",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/el-niño alters-marine-life-in-the-pacific/chlorophyll_pace_globes_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño alters-marine-life-in-the-pacific/chlorophyll_pace_202506.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño alters-marine-life-in-the-pacific/chlorophyll_pace_202606.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/el-niño alters-marine-life-in-the-pacific/chlorophyll_pace_globes_lrg.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "El Niño altera a vida marinha no Pacífico",
+    "title_pt": "El Niño altera a vida marinha no Pacífico",
+    "title_en": "El Niño Alters Marine Life in the Pacific",
+    "sub": "Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026.",
+    "sub_pt": "Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026.",
+    "sub_en": "Satellite measurements of chlorophyll at the sea surface signal shifts in the ocean’s nutrient supplies in mid-2026.",
+    "excerpt": "Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026.",
+    "excerpt_pt": "Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026.",
+    "excerpt_en": "Satellite measurements of chlorophyll at the sea surface signal shifts in the ocean’s nutrient supplies in mid-2026.",
+    "body": "<p>Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026. Estes mapas representam as concentrações médias mensais de clorofila para junho de 2025 (esquerda), sob condições neutras, e junho de 2026 (direita), à medida que o El Niño se intensificava.</p><p>O Centro de Previsão Climática da NOAA espera que o actual El Niño continue a fortalecer-se até ao final de 2026, com 97 por cento de hipóteses de durar até ao início da Primavera de 2027 no Hemisfério Norte. Os mapas acima mostram as concentrações de clorofila-a, o pigmento presente na maior parte do fitoplâncton, conforme observado pelo OCI (Ocean Color Instrument) no satélite PACE (Plankton, Aerosol, Cloud, ocean Ecosystem) da NASA.</p><p>A diferença mais notável aparece no Pacífico central, em torno do equador, a norte da Nova Zelândia: as concentrações de clorofila, uma indicação da abundância do fitoplâncton, são substancialmente mais baixas em 2026. A missão PACE foi lançada em fevereiro de 2024, tornando este o primeiro evento El Niño completo para o qual o satélite irá recolher medições hiperespectrais globais, quase diárias.</p><p>Observatório da Terra da NASA (2025, 25 de setembro) El Niño. Observatório da Terra da NASA (2015, 29 de outubro) El Niño perturba a teia alimentar marinha&quot;.</p><p>Estúdio de Visualização Científica da NASA (2016, 29 de janeiro) 2015 El Niño perturba a clorofila do oceano. Artigo Color Off the Mid-Atlantic Coast 4 min read Algo está se formando em águas rasas ao largo da costa de Delaware, Nova Jersey, Maryland e Virgínia.</p><p>Artigo 1 2 3 4 Próximo Continue explorando Descubra mais da NASA Earth Science Assine os boletins informativos do Observatório da Terra Assine o Observatório da Terra e receba a Terra em sua caixa de entrada.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/el-nino-alters-marine-life-in-the-pacific/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026. Estes mapas representam as concentrações médias mensais de clorofila para junho de 2025 (esquerda), sob condições neutras, e junho de 2026 (direita), à medida que o El Niño se intensificava.</p><p>O Centro de Previsão Climática da NOAA espera que o actual El Niño continue a fortalecer-se até ao final de 2026, com 97 por cento de hipóteses de durar até ao início da Primavera de 2027 no Hemisfério Norte. Os mapas acima mostram as concentrações de clorofila-a, o pigmento presente na maior parte do fitoplâncton, conforme observado pelo OCI (Ocean Color Instrument) no satélite PACE (Plankton, Aerosol, Cloud, ocean Ecosystem) da NASA.</p><p>A diferença mais notável aparece no Pacífico central, em torno do equador, a norte da Nova Zelândia: as concentrações de clorofila, uma indicação da abundância do fitoplâncton, são substancialmente mais baixas em 2026. A missão PACE foi lançada em fevereiro de 2024, tornando este o primeiro evento El Niño completo para o qual o satélite irá recolher medições hiperespectrais globais, quase diárias.</p><p>Observatório da Terra da NASA (2025, 25 de setembro) El Niño. Observatório da Terra da NASA (2015, 29 de outubro) El Niño perturba a teia alimentar marinha&quot;.</p><p>Estúdio de Visualização Científica da NASA (2016, 29 de janeiro) 2015 El Niño perturba a clorofila do oceano. Artigo Color Off the Mid-Atlantic Coast 4 min read Algo está se formando em águas rasas ao largo da costa de Delaware, Nova Jersey, Maryland e Virgínia.</p><p>Artigo 1 2 3 4 Próximo Continue explorando Descubra mais da NASA Earth Science Assine os boletins informativos do Observatório da Terra Assine o Observatório da Terra e receba a Terra em sua caixa de entrada.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/el-nino-alters-marine-life-in-the-pacific/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Satellite measurements of chlorophyll at the sea surface signal shifts in the ocean’s nutrient supplies in mid-2026. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. These maps depict monthly average chlorophyll concentrations for June 2025 (left), under neutral conditions, and June 2026 (right), as El Niño was strengthening. NOAA’s Climate Prediction Center expects the current El Niño to continue to strengthen through the end of 2026, with a 97 percent chance of lasting through early Northern.</p><p>The maps above show chlorophyll-a concentrations, the pigment present in most phytoplankton —as observed by the OCI (Ocean Color Instrument) on NASA’s PACE (Plankton, Aerosol. The most noticeable difference appears in the central Pacific, around the equator due north of New Zealand: chlorophyll concentrations, an indication of phytoplankton abundance.</p><p>The PACE mission launched in February 2024, making this the first complete El Niño event for which the satellite will gather global, near-daily hyperspectral measurements. NASA Earth Observatory (2025, September 25) El Niño.</p><p>NASA Earth Observatory (2015, October 29) El Niño Disrupts the Marine Food Web. NASA Scientific Visualization Studio (2016, January 29) 2015 El Niño Disrupts Ocean Chlorophyll.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Article Color Off the Mid-Atlantic Coast 4 min read Something is brewing in shallow waters offshore of Delaware, New Jersey, Maryland, and Virginia. Article Sizing Up the Sargassum Belt 6 min read Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/el-nino-alters-marine-life-in-the-pacific/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Satellite measurements of chlorophyll at the sea surface signal shifts in the ocean’s nutrient supplies in mid-2026",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "10 ago 2026",
+    "date_pt": "10 ago 2026",
+    "date_en": "10 Aug 2026",
+    "time": "04h01",
+    "time_pt": "04h01",
+    "time_en": "04: 01 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-10T04:01:00+00:00",
+    "lastModifiedIso": "2026-08-10T16:45:37+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "El Niño altera a vida marinha no Pacífico"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "El Niño altera a vida marinha no Pacífico"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA News Releases",
+      "Cosmos Week",
+      "El Niño alters marine life in the Pacific"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/el-nino-alters-marine-life-in-the-pacific/",
+    "realUrl": "https://www.cosmosweek.com/?article=el-nino-alters-marine-life-in-the-pacific",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=el-nino-alters-marine-life-in-the-pacific",
+    "realUrl_en": "https://www.cosmosweek.com/?article=el-nino-alters-marine-life-in-the-pacific&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/el-nino-alters-marine-life-in-the-pacific/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/el-nino-alters-marine-life-in-the-pacific/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/el-nino-alters-marine-life-in-the-pacific/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/el-nino-alters-marine-life-in-the-pacific/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/el-nino-alters-marine-life-in-the-pacific/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/el-nino-alters-marine-life-in-the-pacific/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "El Niño altera a vida marinha no Pacífico",
+    "imageAlt_pt": "El Niño altera a vida marinha no Pacífico",
+    "imageAlt_en": "El Niño Alters Marine Life in the Pacific",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 4,
     "slug": "a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -33,19 +434,19 @@ window.postsData = [
     "body_pt": "<p>Financiado pelo NIH, Alimentado por IA. A análise de entrevistas financiada pelo NIH e alimentada por IA sugere que o enquadramento de eventos estressantes por um jovem é um forte indicador de risco para distúrbios futuros.</p><p class=\"art-source\"><a href=\"https://www.nih.gov/news-events/news-releases/childs-language-may-predict-arrival-depression-anxiety-disorders-years-before-onset\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>NIH-funded. AI-powered. analysis of. interviews suggests. that. a. youth’s. framing of stressful events. is. a strong. indicator. of. risk for. future. disorders. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern. The gap between identifying a correlation in biological data and understanding the causal chain that produces it is routinely underestimated, and the history of biomedical research is populated with associations that collapsed when the mechanism was sought and not found. A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive finding because it generates testable predictions that can narrow the hypothesis space. NIH-funded, AI-powered analysis of interviews suggests that a youth’s framing of stressful events is a strong indicator of risk for future disorders.</p><p>The broader interest lies in whether the reported effect points toward a real mechanism and not merely a reproducible but unexplained association. Biology has learned from decades of biomarker failures that correlation, even robust correlation, is not a substitute for mechanistic understanding. A pathway that can be traced from molecular interaction to cellular response to organismal phenotype provides a far stronger foundation for intervention than a statistical association discovered in a large dataset, however well the statistics are done.</p><p>Because the account originates with NIH News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to test whether the effect repeats across different methods, cell types, model organisms and experimental conditions. Reproducibility is the first test, but mechanistic dissection is the second, and a result that passes both has a substantially better chance of translating into something clinically or biotechnologically useful. The path from a laboratory finding to an applied outcome typically takes a decade or more, and most findings do not complete it; the current result sits at the beginning of that process.</p><p class=\"art-source\"><a href=\"https://www.nih.gov/news-events/news-releases/childs-language-may-predict-arrival-depression-anxiety-disorders-years-before-onset\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
-      "Detalhe: Dado-chave: Financiado pelo NIH, Alimentado por IA. análise de. entrevistas sugerem. isso",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
+      "Dado-chave: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
-      "Detalhe: Dado-chave: Financiado pelo NIH, Alimentado por IA. análise de. entrevistas sugerem. isso",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
+      "Dado-chave: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern",
-      "Detail: Key detail: NIH-funded. AI-powered. analysis of. interviews suggests. that. a. youth’s. framing of stressful events",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern.",
+      "Key detail: The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "07 ago 2026",
     "date_pt": "07 ago 2026",
@@ -133,7 +534,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 5,
     "slug": "science-campaigns-planned-for-the-august-12th-total-solar-eclipse",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -295,7 +696,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 6,
     "slug": "sensing-the-poles-hidden-heat",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -439,7 +840,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 7,
     "slug": "how-the-tide-turns-at-the-mouth-of-the-elbe",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -588,7 +989,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 8,
     "slug": "a-gaussian-covariance-matrix-for-joint-pre-and-post-reconstruction-full-shape-power-spectrum-ana",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -609,18 +1010,19 @@ window.postsData = [
     "body_pt": "<p>Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de potência de galáxias pré-reconstrução, pós-reconstrução e cruzadas de forma completa. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p>Saiba mais sobre o arXivLabs. Resumo: Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de potência de galáxias pré-reconstrução, pós-reconstrução e cruzadas de forma completa.</p><p>Modelamos o ruído cruzado dependente da escala e reduzido pela reconstrução usando estatísticas de campo de deslocamento e introduzimos um novo estimador que mede diretamente esse termo. Usando os espectros de potência medidos e as previsões de ruído de disparo modeladas como entradas, construímos a covariância gaussiana enquanto contabilizamos as correlações entre os campos de densidade pré e pós-reconstrução.</p><p>Validamos a covariância gaussiana semi-analítica resultante em relação a catálogos simulados. Usando inferência de parâmetros baseada em emulador, demonstramos que a covariância gaussiana semi-analítica captura adequadamente a contribuição dominante para a estrutura de covariância do vetor de dados completo ($P_{\\ell}^{\\rm pre}, P_{\\ell}^{\\rm post}, P_{\\ell}^{\\rm.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.05504v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>We apply the Gaussian covariance formalism to develop a semi-analytical covariance model for the joint analysis of pre-reconstruction, post-reconstruction, and cross full-shape galaxy power spectra. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>The significance lies in cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Have an idea for a project that will add value for arXiv&#x27;s community. We model the reconstruction-reduced, scale-dependent cross shot noise using displacement-field statistics and introduce a new estimator that directly measures this term.</p><p>Using the measured power spectra and the modeled shot-noise predictions as inputs, we construct the Gaussian covariance while accounting for correlations between the pre- and. We validate the resulting semi-analytical Gaussian covariance against mock catalogues.</p><p>Using emulator-based parameter inference, we demonstrate that the semi-analytical Gaussian covariance adequately captures the dominant contribution to the covariance structure of. For the joint fit to these three power spectra, it yields cosmological constraints consistent with those obtained using the mock-based numerical covariance over the adopted.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.05504v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de.",
+      "Dado-chave: Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de.",
+      "Dado-chave: Aplicamos o formalismo de covariância gaussiana para desenvolver um modelo de covariância semi-analítico para a análise conjunta de espectros de",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: We apply the Gaussian covariance formalism to develop a semi-analytical covariance model for the joint analysis of pre-reconstruction",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: We apply the Gaussian covariance formalism to develop a semi-analytical covariance model for the joint analysis of pre-reconstruction.",
+      "Key detail: We apply the Gaussian covariance formalism to develop a semi-analytical covariance model for the joint analysis of pre-reconstruction",
+      "Result not yet peer reviewed."
     ],
     "date": "06 ago 2026",
     "date_pt": "06 ago 2026",
@@ -711,7 +1113,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 6,
+    "id": 9,
     "slug": "nasa-s-perseverance-rover-watches-earth-vanish-behind-martian-moon",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -869,7 +1271,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 10,
     "slug": "europe-s-forests-losing-more-biomass-since-2018",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -990,7 +1392,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 11,
     "slug": "the-paradox-of-lencois-maranhenses-national-park",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1130,262 +1532,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 9,
-    "slug": "nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://science.nasa.gov/wp-content/uploads/2026/08/punch-cme-overlay-image.jpg",
-    "inline_images": [],
-    "video": {
-      "kind": "file",
-      "platform": "html5",
-      "embedUrl": "",
-      "fileUrl": "https://assets.science.nasa.gov/content/dam/science/missions/punch/PUNCH_cme-front-overlay.mp4",
-      "poster": "https://science.nasa.gov/wp-content/uploads/2026/08/punch-cme-overlay-image.jpg",
-      "title": "PUNCH da NASA aprimora previsão de tempestade solar no primeiro teste",
-      "title_pt": "PUNCH da NASA aprimora previsão de tempestade solar no primeiro teste",
-      "title_en": "NASA’s PUNCH Sharpens Solar Storm Forecasting in First Test",
-      "caption": "Usando imagens contínuas da missão PUNCH (Polarímetro para Unificar a Corona e a Heliosfera) da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de conceito. Os resultados, apresentados terça-feira na Reunião Científica do Comitê de Pesquisa Espacial e em revisão na revista Space Weather, podem revolucionar a forma como as tempestades com impacto na Terra são previstas.",
-      "caption_pt": "Usando imagens contínuas da missão PUNCH (Polarímetro para Unificar a Corona e a Heliosfera) da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de conceito. Os resultados, apresentados terça-feira na Reunião Científica do Comitê de Pesquisa Espacial e em revisão na revista Space Weather, podem revolucionar a forma como as tempestades com impacto na Terra são previstas.",
-      "caption_en": "Using continuous imagery from NASA’s PUNCH (Polarimeter to Unify the Corona and Heliosphere) mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an initial proof of concept test. The results, presented Tuesday at the Committee on Space Research Scientific Meeting and under review at the journal Space Weather, could revolutionize the way Earth-impacting storms are forecasted.",
-      "sourcePage": "https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/"
-    },
-    "audio": null,
-    "title": "PUNCH da NASA aprimora previsão de tempestade solar no primeiro teste",
-    "title_pt": "PUNCH da NASA aprimora previsão de tempestade solar no primeiro teste",
-    "title_en": "NASA’s PUNCH Sharpens Solar Storm Forecasting in First Test",
-    "sub": "Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de.",
-    "sub_pt": "Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de.",
-    "sub_en": "Using continuous imagery from NASA’s PUNCH mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an initial proof of concept test.",
-    "excerpt": "Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de conceito.",
-    "excerpt_pt": "Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de conceito.",
-    "excerpt_en": "Using continuous imagery from NASA’s PUNCH mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an initial proof of concept test.",
-    "body": "<p>Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de conceito. Para visualizar este vídeo, habilite o JavaScript e considere atualizar para um navegador da web que suporte vídeo HTML5.</p><p>Este vídeo criado a partir de imagens PUNCH mostra a ejeção de massa coronal (CME) de 31 de maio de 2025 saindo do Sol. Os cientistas da NASA/PUNCH/SwRI usaram dados de uma ejeção de massa coronal que deixou o Sol em 31 de maio de 2025, para testar retroativamente se poderiam melhorar a modelagem de previsão.</p><p>Usando imagens contínuas da missão PUNCH (Polarímetro para Unificar a Corona e a Heliosfera) da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de conceito. Artigo Usando imagens contínuas da missão PUNCH (Polarímetro para Unificar a Corona e a Heliosfera) da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de conceito.</p><p>Os resultados, apresentados terça-feira na Reunião Científica do Comitê de Pesquisa Espacial e em revisão na revista Space Weather, podem revolucionar a forma como as tempestades com impacto na Terra são previstas. Pensamos que o PUNCH seria bom nisso, mas é um resultado impressionante”, disse Craig DeForest, investigador principal do PUNCH na Divisão de Ciência e Exploração do Sistema Solar do Southwest Research Institute em Boulder, Colorado.</p><p>Isso mudou em 2025 com o lançamento da missão PUNCH, que utiliza quatro naves espaciais em órbita baixa da Terra para fazer observações contínuas em 3D do interior do sistema solar. Antes do PUNCH, as ejeções de massa coronal só podiam ser vistas enquanto percorriam um quinto do caminho do Sol até a Terra, deixando os cientistas adivinhando o que aconteceu no resto da distância.</p><p>Com o campo de visão mais amplo do PUNCH, os cientistas podem agora rastrear rotineiramente as explosões solares quase até à Terra, capturando uma nova imagem a cada quatro minutos.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de conceito. Para visualizar este vídeo, habilite o JavaScript e considere atualizar para um navegador da web que suporte vídeo HTML5.</p><p>Este vídeo criado a partir de imagens PUNCH mostra a ejeção de massa coronal (CME) de 31 de maio de 2025 saindo do Sol. Os cientistas da NASA/PUNCH/SwRI usaram dados de uma ejeção de massa coronal que deixou o Sol em 31 de maio de 2025, para testar retroativamente se poderiam melhorar a modelagem de previsão.</p><p>Usando imagens contínuas da missão PUNCH (Polarímetro para Unificar a Corona e a Heliosfera) da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de conceito. Artigo Usando imagens contínuas da missão PUNCH (Polarímetro para Unificar a Corona e a Heliosfera) da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um teste inicial de prova de conceito.</p><p>Os resultados, apresentados terça-feira na Reunião Científica do Comitê de Pesquisa Espacial e em revisão na revista Space Weather, podem revolucionar a forma como as tempestades com impacto na Terra são previstas. Pensamos que o PUNCH seria bom nisso, mas é um resultado impressionante”, disse Craig DeForest, investigador principal do PUNCH na Divisão de Ciência e Exploração do Sistema Solar do Southwest Research Institute em Boulder, Colorado.</p><p>Isso mudou em 2025 com o lançamento da missão PUNCH, que utiliza quatro naves espaciais em órbita baixa da Terra para fazer observações contínuas em 3D do interior do sistema solar. Antes do PUNCH, as ejeções de massa coronal só podiam ser vistas enquanto percorriam um quinto do caminho do Sol até a Terra, deixando os cientistas adivinhando o que aconteceu no resto da distância.</p><p>Com o campo de visão mais amplo do PUNCH, os cientistas podem agora rastrear rotineiramente as explosões solares quase até à Terra, capturando uma nova imagem a cada quatro minutos.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Using continuous imagery from NASA’s PUNCH mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an initial proof of concept test. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video This video created from PUNCH images shows the May 31, 2025 coronal. NASA/PUNCH/SwRI Scientists used data from a coronal mass ejection that left the Sun on May 31, 2025, to retroactively test if they could improve forecast modeling.</p><p>Using continuous imagery from NASA’s PUNCH (Polarimeter to Unify the Corona and Heliosphere) mission, scientists predicted the near-Earth arrival of a solar eruption to within 30. Article Using continuous imagery from NASA’s PUNCH (Polarimeter to Unify the Corona and Heliosphere) mission, scientists predicted the near-Earth arrival of a solar eruption to.</p><p>The results, presented Tuesday at the Committee on Space Research Scientific Meeting and under review at the journal Space Weather, could revolutionize the way Earth-impacting. We thought PUNCH would be good at this, but it’s a stunning result,” said Craig DeForest, principal investigator for PUNCH at Southwest Research Institute’s Solar System Science.</p><p>That changed in 2025 with the launch of the PUNCH mission, which uses four spacecraft in low Earth orbit to make continuous 3D observations of the inner solar system. Before PUNCH, coronal mass ejections could only be seen as they traversed one-fifth the way from the Sun to Earth, leaving scientists to guess what happened over the rest of the.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>With PUNCH’s wider field-of-view, scientists can now routinely track the solar explosions nearly all the way to Earth, capturing a new image every four minutes. To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video Scientists used data from a coronal mass ejection that left the Sun.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um.",
-      "Dado-chave: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em um.",
-      "Dado-chave: Usando imagens contínuas da missão PUNCH da NASA, os cientistas previram a chegada de uma erupção solar perto da Terra dentro de 30 minutos em.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Using continuous imagery from NASA’s PUNCH mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an.",
-      "Key detail: Using continuous imagery from NASA’s PUNCH mission, scientists predicted the near-Earth arrival of a solar eruption to within 30 minutes in an.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "04 ago 2026",
-    "date_pt": "04 ago 2026",
-    "date_en": "04 Aug 2026",
-    "time": "18h02",
-    "time_pt": "18h02",
-    "time_en": "18: 02 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-04T18:02:55+00:00",
-    "lastModifiedIso": "2026-08-05T17:22:03+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "PUNCH da NASA aprimora previsão de tempestade solar no primeiro teste"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "PUNCH da NASA aprimora previsão de tempestade solar no primeiro teste"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA's PUNCH Improves Solar Storm Forecast in First Test"
-    ],
-    "srcUrl": "https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-punch-sharpens-solar-storm-forecasting-in-first-test/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "PUNCH da NASA aprimora previsão de tempestade solar no primeiro teste",
-    "imageAlt_pt": "PUNCH da NASA aprimora previsão de tempestade solar no primeiro teste",
-    "imageAlt_en": "NASA’s PUNCH Sharpens Solar Storm Forecasting in First Test",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 10,
-    "slug": "ames-science-stars-of-the-month-august-2026",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://www.nasa.gov/wp-content/uploads/2026/08/slide1.jpeg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Estrelas do mês da Ames Science – agosto de 2026",
-    "title_pt": "Estrelas do mês da Ames Science – agosto de 2026",
-    "title_en": "Ames Science Stars of the Month – August 2026",
-    "sub": "A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
-    "sub_pt": "A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
-    "sub_en": "The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud.",
-    "excerpt": "A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
-    "excerpt_pt": "A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
-    "excerpt_en": "The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud.",
-    "body": "<p>A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud. Estrela do mês em biociências espaciais: Danielle Lopez Danielle Lopez é vice-gerente de projeto do Repositório de dados científicos abertos da Amentum na Divisão de Biociências Espaciais.</p><p>Estrela do mês em astrofísica: Duncan Mifsud Duncan Mifsud é pesquisador de pós-doutorado no Bay Area Environmental Research Institute (BAERI) na Divisão de Astrofísica. A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de (foto da esquerda para a direita) Danielle Lopez, Jennifer Claudio e Duncan Mifsud.</p><p>Conteúdo do artigo Estrela do mês em biociências espaciais: Danielle Lopez Estrela do mês em biociências espaciais: Jennifer Claudio Estrela do mês em astrofísica: Duncan Mifsud A Diretoria de Ciências Ames da NASA reconhece as contribuições notáveis ​​​​de (foto da esquerda. O seu compromisso com a missão da NASA representa o espírito empreendedor, o conhecimento técnico e a disposição colaborativa necessários para explorar este mundo e mais além.</p><p>Danielle Lopez é vice-gerente de projeto do Open Science Data Repository da Amentum na Divisão de Biociências Espaciais. Ela é reconhecida por seus esforços de gestão que foram fundamentais para o sucesso da Ciência Aberta na NASA, incluindo colaborações entre diretorias da Ames, entre centros da NASA e com o público.</p><p>Danielle tem sido uma força estabilizadora crítica durante tempos desafiadores e tumultuados, mantendo vários projetos não apenas no caminho certo, mas na vanguarda da Ciência Aberta para toda a Agência. Estrela do mês em biociências espaciais: Jennifer Claudio Jennifer Claudio é membro da equipe de pesquisa da Blue Marble Space na Divisão de Biociências Espaciais.</p><p>Jennifer fez contribuições notáveis ​​no apoio ao programa de verão 2026 GeneLab for High School (GL4HS).</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/general/ames-science-stars-of-the-month-august-2026/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud. Estrela do mês em biociências espaciais: Danielle Lopez Danielle Lopez é vice-gerente de projeto do Repositório de dados científicos abertos da Amentum na Divisão de Biociências Espaciais.</p><p>Estrela do mês em astrofísica: Duncan Mifsud Duncan Mifsud é pesquisador de pós-doutorado no Bay Area Environmental Research Institute (BAERI) na Divisão de Astrofísica. A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de (foto da esquerda para a direita) Danielle Lopez, Jennifer Claudio e Duncan Mifsud.</p><p>Conteúdo do artigo Estrela do mês em biociências espaciais: Danielle Lopez Estrela do mês em biociências espaciais: Jennifer Claudio Estrela do mês em astrofísica: Duncan Mifsud A Diretoria de Ciências Ames da NASA reconhece as contribuições notáveis ​​​​de (foto da esquerda. O seu compromisso com a missão da NASA representa o espírito empreendedor, o conhecimento técnico e a disposição colaborativa necessários para explorar este mundo e mais além.</p><p>Danielle Lopez é vice-gerente de projeto do Open Science Data Repository da Amentum na Divisão de Biociências Espaciais. Ela é reconhecida por seus esforços de gestão que foram fundamentais para o sucesso da Ciência Aberta na NASA, incluindo colaborações entre diretorias da Ames, entre centros da NASA e com o público.</p><p>Danielle tem sido uma força estabilizadora crítica durante tempos desafiadores e tumultuados, mantendo vários projetos não apenas no caminho certo, mas na vanguarda da Ciência Aberta para toda a Agência. Estrela do mês em biociências espaciais: Jennifer Claudio Jennifer Claudio é membro da equipe de pesquisa da Blue Marble Space na Divisão de Biociências Espaciais.</p><p>Jennifer fez contribuições notáveis ​​no apoio ao programa de verão 2026 GeneLab for High School (GL4HS).</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/general/ames-science-stars-of-the-month-august-2026/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Space Biosciences Star of the Month: Danielle Lopez Danielle Lopez is the Deputy Project Manager for the Open Science Data Repository with Amentum in the Space Biosciences. Astrophysics Star of the Month: Duncan Mifsud Duncan Mifsud is a postdoctoral research scientist for the Bay Area Environmental Research Institute (BAERI) in the Astrophysics.</p><p>The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Danielle Lopez, Jennifer Claudio, and Duncan Mifsud. Article Contents Space Biosciences Star of the Month: Danielle Lopez Space Biosciences Star of the Month: Jennifer Claudio Astrophysics Star of the Month: Duncan Mifsud The NASA.</p><p>Their commitment to the NASA mission represents the entrepreneurial spirit, technical expertise, and collaborative disposition needed to explore this world and beyond. Danielle Lopez is the Deputy Project Manager for the Open Science Data Repository with Amentum in the Space Biosciences Division.</p><p>She is recognized for her management efforts that have been critical to the success of Open Science at NASA including collaborations across directorates at Ames, across NASA. Danielle has been a critical stabilizing force during challenging and tumultuous times, keeping multiple projects not only on track, but at the forefront of Open Science for the.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Space Biosciences Star of the Month: Jennifer Claudio Jennifer Claudio is a research staff member with Blue Marble Space in the Space Biosciences Division. Jennifer has made outstanding contributions in supporting the 2026 GeneLab for High School (GL4HS) summer program.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/general/ames-science-stars-of-the-month-august-2026/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
-      "Dado-chave: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
-      "Dado-chave: A Diretoria Científica Ames da NASA reconhece as contribuições notáveis ​​​​de Danielle Lopez, Jennifer Claudio e Duncan Mifsud.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud.",
-      "Key detail: The NASA Ames Science Directorate recognizes the outstanding contributions of Danielle Lopez, Jennifer Claudio, and Duncan Mifsud.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "04 ago 2026",
-    "date_pt": "04 ago 2026",
-    "date_en": "04 Aug 2026",
-    "time": "17h08",
-    "time_pt": "17h08",
-    "time_en": "17: 08 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-04T17:08:04+00:00",
-    "lastModifiedIso": "2026-08-05T17:22:03+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Estrelas do mês da Ames Science – agosto de 2026"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Estrelas do mês da Ames Science – agosto de 2026"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Ames Science Stars of the Month – August 2026"
-    ],
-    "srcUrl": "https://www.nasa.gov/general/ames-science-stars-of-the-month-august-2026/",
-    "realUrl": "https://www.cosmosweek.com/?article=ames-science-stars-of-the-month-august-2026",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=ames-science-stars-of-the-month-august-2026",
-    "realUrl_en": "https://www.cosmosweek.com/?article=ames-science-stars-of-the-month-august-2026&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/ames-science-stars-of-the-month-august-2026/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/ames-science-stars-of-the-month-august-2026/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/ames-science-stars-of-the-month-august-2026/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/ames-science-stars-of-the-month-august-2026/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/ames-science-stars-of-the-month-august-2026/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/ames-science-stars-of-the-month-august-2026/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "Estrelas do mês da Ames Science – agosto de 2026",
-    "imageAlt_pt": "Estrelas do mês da Ames Science – agosto de 2026",
-    "imageAlt_en": "Ames Science Stars of the Month – August 2026",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 11,
+    "id": 12,
     "slug": "a-bare-summer-for-barnes-ice-cap",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1425,19 +1572,19 @@ window.postsData = [
     "body_pt": "<p>A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de características de derretimento. A postagem Um verão nu para a calota polar de Barnes apareceu pela primeira vez na NASA Science.</p><p>O post Um verão nu para a calota polar de Barnes apareceu pela primeira vez na NASA Science. A perda precoce de neve e o retorno dos canais de água de degelo em 2026 significam que o escoamento de água de degelo também começará mais cedo, com implicações para o equilíbrio de massa da calota polar.</p><p>Downloads em 12 de julho de 2026 JPEG (18, 16 MB) Referências e recursos da perspectiva das geleiras (2026, 18 de julho) As geleiras da calota polar Barnes e da Ilha Baffin perdem a cobertura de neve em julho de 2026. Explore dados de ciências da terra da Terra Acesso aberto ao arquivo de dados de ciências da Terra da NASA A postagem Um verão nu para a calota polar de Barnes apareceu pela primeira vez em NASA Science.</p><p>A perda precoce de neve e o retorno dos canais de água do degelo em 2026 significam que o escoamento da água do degelo também começará mais cedo, com implicações para o equilíbrio de massa da calota polar. A investigação indica que a calota polar diminuiu cerca de 1 metro (3 pés) por ano entre 2000 e 2020 e, nos últimos 40 anos, a sua margem recuou cerca de 4 metros (13 pés) por ano, em média.</p><p>Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal. Artigo 1 2 3 4 Próximo Continue explorando Descubra mais da NASA Earth Science Assine os boletins informativos do Observatório da Terra Assine o Observatório da Terra e receba a Terra em sua caixa de entrada.</p><p>Acesso aberto ao arquivo de dados científicos da Terra da NASA De uma perspectiva das geleiras (2026, 18 de julho) As geleiras da calota polar Barnes e da Ilha Baffin perdem a cobertura de neve em julho de 2026.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/a-bare-summer-for-barnes-ice-cap/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>The expanse of glacial ice on Canada’s Baffin Island lost its snow cover quickly and early in summer 2026, revealing a network of melt features. The post A Bare Summer for Barnes Ice Cap appeared first on NASA Science. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The post A Bare Summer for Barnes Ice Cap appeared first on NASA Science. NASA Earth Observatory/Lauren Dauphin Meltwater ponds in vivid blue pools on the surface of the Barnes Ice Cap’s southwest side in this July 12, 2026, image from the OLI.</p><p>The early snow loss and return of meltwater channels in 2026 means that meltwater runoff is starting earlier too, with implications for the ice cap’s mass balance. Downloads July 12, 2026 JPEG (18.16 MB) References &amp; Resources From a Glaciers Perspective (2026, July 18) Barnes Ice Cap and Baffin Island Glaciers Lose Snow Cover in July 2026.</p><p>Explore Earth Science Earth Science Data Open access to NASA’s archive of Earth science data The post A Bare Summer for Barnes Ice Cap appeared first on NASA Science. NASA Earth Observatory/Lauren Dauphin Meltwater ponds in vivid blue pools on the surface of the Barnes Ice Cap&#x27;s southwest side in this July 12, 2026, image from the OLI.</p><p>The early snow loss and return of meltwater channels in 2026 means that meltwater runoff is starting earlier too, with implications for the ice cap&#x27;s mass balance. Research indicates the ice cap thinned roughly 1 meter (3 feet) per year from 2000 to 2020, and over the past 40 years its margin has retreated about 4 meters (13 feet) per year.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet. Article 1 2 3 4 Next Keep Exploring Discover More from NASA Earth Science Subscribe to Earth Observatory Newsletters Subscribe to the Earth Observatory and get the Earth in your.</p><p>Because the account originates with NASA Earth Observatory, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/a-bare-summer-for-barnes-ice-cap/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de.",
+      "Dado-chave: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de.",
+      "Dado-chave: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The expanse of glacial ice on Canada’s Baffin Island lost its snow cover quickly and early in summer 2026, revealing a network of melt features",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The expanse of glacial ice on Canada’s Baffin Island lost its snow cover quickly and early in summer 2026, revealing a network of melt features.",
+      "Key detail: The expanse of glacial ice on Canada’s Baffin Island lost its snow cover quickly and early in summer 2026, revealing a network of melt features",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "03 ago 2026",
     "date_pt": "03 ago 2026",
@@ -1525,7 +1672,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "hydrognss-data-open-for-new-insights-into-earth-s-water",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1656,7 +1803,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "smos-salinity-could-offer-early-indicator-of-el-nino",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1787,7 +1934,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "unchanged-x-ray-polarization-during-accretion-dips-in-the-low-hard-state-of-cygnus-x-1",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1908,7 +2055,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "watch-the-total-solar-eclipse-with-esa-in-leon",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2079,7 +2226,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "new-exomoon-detection-challenges-cosmic-labels",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2259,7 +2406,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "dark-matter-searches-with-a-13-mev-threshold-superconducting-sensor-array",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -2380,7 +2527,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "the-nancy-grace-roman-space-telescope-launch-what-to-expect",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2577,7 +2724,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "faintest-planet-ever-imaged-from-earth-found-after-more-than-10-years-of-hide-and-seek",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -2760,7 +2907,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 21,
     "slug": "science-release-hubble-discovers-first-of-star-cluster-s-missing-black-holes",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2939,7 +3086,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 21,
+    "id": 22,
     "slug": "older-than-the-sun-astronomers-find-new-clues-to-the-origin-of-interstellar-comet-3i-atlas",
     "cat": "Química",
     "catCls": "quimica",
@@ -3122,7 +3269,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 22,
+    "id": 23,
     "slug": "action-nsf-doe-vera-c-rubin-observatory-begins-capturing-the-greatest-cosmic-movie-ever-made",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3283,7 +3430,138 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 23,
+    "id": 24,
+    "slug": "chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen",
+    "cat": "Química",
+    "catCls": "quimica",
+    "img": "https://scx2.b-cdn.net/gfx/news/hires/2026/astronomers-find-most.jpg",
+    "inline_images": [
+      {
+        "src": "https://scx2.b-cdn.net/gfx/news/2026/astronomers-find-most.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Galáxia Quimicamente Primitiva de 13 Bilhões de Anos Revela Nível Recorde de Oxigênio",
+    "title_pt": "Galáxia Quimicamente Primitiva de 13 Bilhões de Anos Revela Nível Recorde de Oxigênio",
+    "title_en": "Chemically primitive galaxy from 13 billion years ago reveals record-low oxygen",
+    "sub": "Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia LAP1-B, revelando uma abundância.",
+    "sub_pt": "Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia LAP1-B, revelando uma abundância.",
+    "sub_en": "An international team of astronomers has used the James Webb Space Telescope and a natural phenomenon known as gravitational lensing to achieve a definitive characterization of.",
+    "excerpt": "Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia LAP1-B, revelando uma abundância de oxigênio recorde de apenas 1/240 da do Sol.",
+    "excerpt_pt": "Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia LAP1-B, revelando uma abundância de oxigênio recorde de apenas 1/240 da do Sol.",
+    "excerpt_en": "An international team of astronomers has used the James Webb Space Telescope and a natural phenomenon known as gravitational lensing to achieve a definitive characterization of LAP1-B, an ultra-faint galaxy from 13 billion years ago.",
+    "body": "<p>Uma equipe internacional de astrônomos empregou o Telescópio Espacial James Webb (JWST) e um fenômeno natural conhecido como lente gravitacional para obter uma caracterização definitiva da LAP1-B, uma galáxia ultrafraca que se formou há 13 bilhões de anos. Esta abordagem inovadora permitiu aos pesquisadores investigar as propriedades de um objeto celeste extremamente distante e tênue, fornecendo insights cruciais sobre as condições do universo primordial. A utilização da lente gravitacional, que amplifica a luz de objetos distantes, foi fundamental para superar os desafios observacionais impostos pela grande distância e baixa luminosidade da galáxia LAP1-B.</p><p>Expandindo as detecções iniciais, este novo estudo revelou uma abundância de oxigênio excepcionalmente baixa na LAP1-B, atingindo apenas 1/240 da concentração encontrada no Sol. Este é um nível recorde de baixa concentração de oxigênio já detectado em uma galáxia, indicando um estado quimicamente primitivo. A composição química de uma galáxia é um indicador direto de sua história evolutiva, e a escassez de elementos mais pesados, como o oxigênio, sugere que a LAP1-B é uma das primeiras galáxias a se formar no universo, antes que muitas gerações estelares tivessem tempo de enriquecer o meio interestelar com elementos produzidos em seus núcleos.</p><p>O estado quimicamente primitivo da LAP1-B, combinado com uma elevada proporção de carbono para oxigênio e a presença de um halo dominante de matéria escura, oferece pistas importantes sobre sua natureza. Essas características sugerem que a LAP1-B pode ser o tão procurado “ancestral” das misteriosas galáxias fósseis que são encontradas hoje nas proximidades da Via Láctea. As galáxias fósseis são sistemas estelares antigos e isolados que parecem ter parado de formar estrelas muito cedo em sua história, e a LAP1-B pode representar um estágio inicial desse tipo de evolução galáctica.</p><p>A descoberta foi publicada na prestigiada revista Nature, destacando a relevância e o impacto científico do trabalho. A pesquisa foi liderada por Kimihiko Nakajima, da Universidade de Kanazawa, e contou com a participação de Masami Ouchi, do Observatório Astronômico Nacional do Japão (NAOJ) e da Universidade de Tóquio. A colaboração internacional foi essencial para a coleta e análise dos dados complexos obtidos pelo JWST, demonstrando a importância da cooperação global na astronomia moderna.</p><p>A equipe de pesquisa concentrou seus esforços em LAP1-B, uma galáxia minúscula e ultrafraca que representa um desafio observacional significativo. Ao observar este local por mais de 30 horas com o JWST, os astrônomos conseguiram coletar dados espectroscópicos detalhados. Essa longa exposição foi crucial para determinar com precisão a composição química da galáxia, confirmando a baixa abundância de oxigênio e fornecendo evidências robustas para as conclusões do estudo. Os dados foram obtidos com a câmera Near-Infrared (NIRCam) do JWST, que permitiu a criação de uma imagem de três cores da galáxia, auxiliando na sua caracterização.</p><p>Os resultados deste estudo não apenas aprofundam nossa compreensão sobre as primeiras galáxias, mas também fornecem um novo alvo para futuras investigações. A identificação de uma galáxia com características tão primitivas abre caminho para explorar os mecanismos de formação estelar e o enriquecimento químico nos primórdios do universo. A LAP1-B serve como um laboratório natural para testar modelos cosmológicos e teorias sobre a evolução galáctica, oferecendo uma janela única para o passado distante do cosmos.</p>",
+    "body_pt": "<p>Uma equipe internacional de astrônomos empregou o Telescópio Espacial James Webb (JWST) e um fenômeno natural conhecido como lente gravitacional para obter uma caracterização definitiva da LAP1-B, uma galáxia ultrafraca que se formou há 13 bilhões de anos. Esta abordagem inovadora permitiu aos pesquisadores investigar as propriedades de um objeto celeste extremamente distante e tênue, fornecendo insights cruciais sobre as condições do universo primordial. A utilização da lente gravitacional, que amplifica a luz de objetos distantes, foi fundamental para superar os desafios observacionais impostos pela grande distância e baixa luminosidade da galáxia LAP1-B.</p><p>Expandindo as detecções iniciais, este novo estudo revelou uma abundância de oxigênio excepcionalmente baixa na LAP1-B, atingindo apenas 1/240 da concentração encontrada no Sol. Este é um nível recorde de baixa concentração de oxigênio já detectado em uma galáxia, indicando um estado quimicamente primitivo. A composição química de uma galáxia é um indicador direto de sua história evolutiva, e a escassez de elementos mais pesados, como o oxigênio, sugere que a LAP1-B é uma das primeiras galáxias a se formar no universo, antes que muitas gerações estelares tivessem tempo de enriquecer o meio interestelar com elementos produzidos em seus núcleos.</p><p>O estado quimicamente primitivo da LAP1-B, combinado com uma elevada proporção de carbono para oxigênio e a presença de um halo dominante de matéria escura, oferece pistas importantes sobre sua natureza. Essas características sugerem que a LAP1-B pode ser o tão procurado “ancestral” das misteriosas galáxias fósseis que são encontradas hoje nas proximidades da Via Láctea. As galáxias fósseis são sistemas estelares antigos e isolados que parecem ter parado de formar estrelas muito cedo em sua história, e a LAP1-B pode representar um estágio inicial desse tipo de evolução galáctica.</p><p>A descoberta foi publicada na prestigiada revista Nature, destacando a relevância e o impacto científico do trabalho. A pesquisa foi liderada por Kimihiko Nakajima, da Universidade de Kanazawa, e contou com a participação de Masami Ouchi, do Observatório Astronômico Nacional do Japão (NAOJ) e da Universidade de Tóquio. A colaboração internacional foi essencial para a coleta e análise dos dados complexos obtidos pelo JWST, demonstrando a importância da cooperação global na astronomia moderna.</p><p>A equipe de pesquisa concentrou seus esforços em LAP1-B, uma galáxia minúscula e ultrafraca que representa um desafio observacional significativo. Ao observar este local por mais de 30 horas com o JWST, os astrônomos conseguiram coletar dados espectroscópicos detalhados. Essa longa exposição foi crucial para determinar com precisão a composição química da galáxia, confirmando a baixa abundância de oxigênio e fornecendo evidências robustas para as conclusões do estudo. Os dados foram obtidos com a câmera Near-Infrared (NIRCam) do JWST, que permitiu a criação de uma imagem de três cores da galáxia, auxiliando na sua caracterização.</p><p>Os resultados deste estudo não apenas aprofundam nossa compreensão sobre as primeiras galáxias, mas também fornecem um novo alvo para futuras investigações. A identificação de uma galáxia com características tão primitivas abre caminho para explorar os mecanismos de formação estelar e o enriquecimento químico nos primórdios do universo. A LAP1-B serve como um laboratório natural para testar modelos cosmológicos e teorias sobre a evolução galáctica, oferecendo uma janela única para o passado distante do cosmos.</p>",
+    "body_en": "<p>An international team of astronomers has used the James Webb Space Telescope and a natural phenomenon known as gravitational lensing to achieve a definitive characterization of LAP1-B, an ultra-faint galaxy from 13 billion years ago. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>That matters because chemistry gains force when a claimed structure or process can be described with enough precision to be reproduced by others. Synthetic routes, spectroscopic signatures, yield under defined conditions and stability under realistic operating parameters are the currency of credibility in chemistry, and a result that lacks these details cannot be evaluated independently. The distance between a discovery on a laboratory bench and a process that works reliably at scale is measured in years of optimization, and each step reveals constraints that were invisible at smaller scale. An international team of astronomers has used the James Webb Space Telescope (JWST) and a natural phenomenon known as gravitational lensing to achieve a definitive. Editors have highlighted the following attributes while ensuring the content&#x27;s credibility: Add as preferred source Nature (2026).</p><p>Revealing the nature of the ultra-faint galaxy LAP1-B through a giant gravitational lens. A three-color image created from data taken with the Near-Infrared Camera (NIRCam) on the James Webb Space Telescope (JWST).</p><p>Expanding upon initial detections, this new study revealed a record-breaking low oxygen abundance, merely 1/240th that of the sun. This chemically primitive state, coupled with an elevated carbon-to-oxygen ratio and a dominant dark matter halo, suggests that LAP1-B is the long-sought &quot;ancestor&quot; of the.</p><p>The finding is published in Nature. A research team led by Kimihiko Nakajima of Kanazawa University and including Masami Ouchi at the National Astronomical Observatory of Japan (NAOJ) and the University of Tokyo.</p><p>The broader interest lies in whether the claimed property or reaction pathway can be characterized with enough precision to support replication by other groups. Chemistry has a replication problem that is less discussed than the one in psychology or medicine, but it is real: synthetic procedures that work reliably in one laboratory sometimes fail to transfer, for reasons ranging from impure starting materials to undocumented temperature sensitivities. A result that comes with full experimental detail and a clear characterization of the product is far more valuable than one that reports a discovery without the procedural backbone.</p><p>By staring at this spot for over 30 hours with JWST, the team determined that the galaxy&#x27;s oxygen abundance is roughly 1/240th that of the sun. This unique ratio of elements aligns closely with theoretical predictions for the material dispersed by the explosions of the universe&#x27;s first-generation stars.</p><p>Because this item comes through Phys. org Space as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether independent groups working with orthogonal techniques reach compatible conclusions, and whether the result scales beyond the conditions used in the original study. Chemical discoveries that matter tend to be ones whose key properties can be measured by multiple spectroscopic, crystallographic or computational methods that are unlikely to share the same blind spots. Scalability, cost and long-term stability under realistic operating conditions are additional filters that come into play before any practical application becomes viable.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-05-chemically-primitive-galaxy-billion-years.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Ponto central: Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia.",
+      "Dado-chave: Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia",
+      "Cobertura jornalística: verificar documentação técnica primária."
+    ],
+    "highlights_pt": [
+      "Ponto central: Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia.",
+      "Dado-chave: Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia",
+      "Cobertura jornalística: verificar documentação técnica primária."
+    ],
+    "highlights_en": [
+      "Core point: An international team of astronomers has used the James Webb Space Telescope and a natural phenomenon known as gravitational lensing to achieve a.",
+      "Key detail: An international team of astronomers has used the James Webb Space Telescope and a natural phenomenon known as gravitational lensing to achieve a",
+      "Science reporting: verify primary technical documentation."
+    ],
+    "date": "26 jun 2026",
+    "date_pt": "26 jun 2026",
+    "date_en": "26 Jun 2026",
+    "time": "16h40",
+    "time_pt": "16h40",
+    "time_en": "16: 40 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-06-26T16:40:05+00:00",
+    "lastModifiedIso": "2026-06-26T17:27:34+00:00",
+    "source": "Phys. org Space",
+    "sourceDomain": "phys. org",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Química",
+      "Phys. org Space",
+      "Cosmos Week",
+      "Galáxia quimicamente primitiva de 13 bilhões de anos atrás revela nível recorde de oxigênio"
+    ],
+    "keywords_pt": [
+      "Química",
+      "Phys. org Space",
+      "Cosmos Week",
+      "Galáxia quimicamente primitiva de 13 bilhões de anos atrás revela nível recorde de oxigênio"
+    ],
+    "keywords_en": [
+      "Chemical",
+      "Phys. org Space",
+      "Cosmos Week",
+      "Chemically primitive galaxy from 13 billion years ago reveals record level of oxygen"
+    ],
+    "srcUrl": "https://phys.org/news/2026-05-chemically-primitive-galaxy-billion-years.html",
+    "realUrl": "https://www.cosmosweek.com/?article=chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen",
+    "realUrl_en": "https://www.cosmosweek.com/?article=chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 77,
+    "scoreBreakdown": {
+      "source": 66,
+      "evidence": 54,
+      "relevance": 82,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Galáxia Quimicamente Primitiva de 13 Bilhões de Anos Revela Nível Recorde de Oxigênio",
+    "imageAlt_pt": "Galáxia Quimicamente Primitiva de 13 Bilhões de Anos Revela Nível Recorde de Oxigênio",
+    "imageAlt_en": "Chemically primitive galaxy from 13 billion years ago reveals record-low oxygen",
+    "coverageKind": "news",
+    "coverageKindLabel": "Jornalismo científico",
+    "coverageKindLabel_pt": "Jornalismo científico",
+    "coverageKindLabel_en": "Science journalism",
+    "storyKind": "science"
+  },
+  {
+    "id": 25,
     "slug": "nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -3432,7 +3710,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 24,
+    "id": 26,
     "slug": "science-release-hubble-details-early-galaxy-transforming-neighbourhood",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3602,142 +3880,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 25,
-    "slug": "webb-finds-clues-to-ancient-origin-of-comet-3i-atlas",
-    "cat": "Química",
-    "catCls": "quimica",
-    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/interstellar_comet_3i_atlas_nirspec_ifu/27338945-1-eng-GB/Interstellar_Comet_3I_ATLAS_NIRSpec_IFU_pillars.jpg",
-    "inline_images": [
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/interstellar_comet_3i_atlas_nirspec_ifu/27338945-1-eng-GB/Interstellar_Comet_3I_ATLAS_NIRSpec_IFU_article.jpg",
-        "alt": "Cometa Interestelar 3I/ATLAS (NIRSpec IFU)",
-        "alt_pt": "Cometa Interestelar 3I/ATLAS (NIRSpec IFU)",
-        "alt_en": "Interstellar Comet 3I/ATLAS (NIRSpec IFU)",
-        "caption": "Cometa Interestelar 3I/ATLAS (NIRSpec IFU)",
-        "caption_pt": "Cometa Interestelar 3I/ATLAS (NIRSpec IFU)",
-        "caption_en": "Interstellar Comet 3I/ATLAS (NIRSpec IFU)"
-      },
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/3i_atlas_compared_to_solar_system_comets/27339111-1-eng-GB/3I_ATLAS_compared_to_Solar_System_comets_article.jpg",
-        "alt": "3I/ATLAS comparado com cometas do Sistema Solar",
-        "alt_pt": "3I/ATLAS comparado com cometas do Sistema Solar",
-        "alt_en": "3I/ATLAS compared to Solar System comets",
-        "caption": "3I/ATLAS comparado com cometas do Sistema Solar",
-        "caption_pt": "3I/ATLAS comparado com cometas do Sistema Solar",
-        "caption_en": "3I/ATLAS compared to Solar System comets"
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Webb encontra pistas sobre a origem antiga do cometa 3I/ATLAS",
-    "title_pt": "Webb encontra pistas sobre a origem antiga do cometa 3I/ATLAS",
-    "title_en": "Webb finds clues to ancient origin of Comet 3I/ATLAS",
-    "sub": "O terceiro cometa interestelar identificado na história da humanidade tem uma composição química surpreendente, levantando questões sobre quão comuns ou incomuns podem ser as.",
-    "sub_pt": "O terceiro cometa interestelar identificado na história da humanidade tem uma composição química surpreendente, levantando questões sobre quão comuns ou incomuns podem ser as.",
-    "sub_en": "The third identified interstellar comet in human history has a surprising chemical makeup, raising questions as to how common, or unusual, conditions in our own Solar System may.",
-    "excerpt": "O terceiro cometa interestelar identificado na história da humanidade tem uma composição química surpreendente, levantando questões sobre quão comuns ou incomuns podem ser as condições no nosso Sistema Solar.",
-    "excerpt_pt": "O terceiro cometa interestelar identificado na história da humanidade tem uma composição química surpreendente, levantando questões sobre quão comuns ou incomuns podem ser as condições no nosso Sistema Solar.",
-    "excerpt_en": "The third identified interstellar comet in human history has a surprising chemical makeup, raising questions as to how common, or unusual, conditions in our own Solar System may be.",
-    "body": "<p>O terceiro cometa interestelar identificado na história da humanidade tem uma composição química surpreendente, levantando questões sobre quão comuns ou incomuns podem ser as condições no nosso Sistema Solar. Quando o cometa interestelar 3I/ATLAS começou a afastar-se do Sol em dezembro de 2025, os astrónomos aproveitaram a oportunidade para virar o poderoso Telescópio Espacial James Webb da NASA/ESA/CSA na sua direção e capturar medições detalhadas dos seus componentes químicos.</p><p>Trabalhando de trás para frente, os astrônomos usaram os componentes que compõem o Cometa 3I/ATLAS para compreender o ambiente em que ele se formou. Um artigo detalhando as descobertas foi publicado em 22 de junho de 2026 na revista Nature.</p><p>O nome do cometa vem de seu status como o terceiro cometa interestelar confirmado, o que significa que ele se originou fora do Sistema Solar, e do telescópio que o detectou pela primeira vez, o ATLAS (Asteroid Terrestrial-impact Last Alert System), financiado pela NASA.</p><p>Esta foi uma oportunidade única para estudar um objeto antigo da galáxia distante, provavelmente anterior ao nosso Sol e ao nosso Sistema Solar”, disse o astroquímico Martin Cordiner do Centro de Voo Espacial Goddard da NASA em Greenbelt, Maryland, e autor principal do estudo. Por um lado, obtemos uma visão direta desse tempo e lugar distantes e, por outro, aprendemos algo sobre o quão incomum o nosso Sistema Solar pode ser.</p><p>Durante a sua formação, o material que foi incorporado no 3I/ATLAS foi provavelmente exposto a muita radiação, mas não a qualquer calor de longo prazo que teria reprocessado o seu gelo de “água pesada”, com deutério, no tipo de gelo H2O com o qual estamos familiarizados na Terra. Isto também aponta para uma origem muito antiga do 3I/ATLAS, à medida que os sistemas estelares se tornam enriquecidos com carbono-13 ao longo do tempo, à medida que gerações de estrelas nascem e morrem na galáxia.</p><p>É por isso que existem níveis mais elevados de carbono-13 no nosso sistema, em torno do nosso Sol, que se formou há relativamente pouco tempo, há 4, 5 mil milhões de anos.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_finds_clues_to_ancient_origin_of_Comet_3I_ATLAS\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>O terceiro cometa interestelar identificado na história da humanidade tem uma composição química surpreendente, levantando questões sobre quão comuns ou incomuns podem ser as condições no nosso Sistema Solar. Quando o cometa interestelar 3I/ATLAS começou a afastar-se do Sol em dezembro de 2025, os astrónomos aproveitaram a oportunidade para virar o poderoso Telescópio Espacial James Webb da NASA/ESA/CSA na sua direção e capturar medições detalhadas dos seus componentes químicos.</p><p>Trabalhando de trás para frente, os astrônomos usaram os componentes que compõem o Cometa 3I/ATLAS para compreender o ambiente em que ele se formou. Um artigo detalhando as descobertas foi publicado em 22 de junho de 2026 na revista Nature.</p><p>O nome do cometa vem de seu status como o terceiro cometa interestelar confirmado, o que significa que ele se originou fora do Sistema Solar, e do telescópio que o detectou pela primeira vez, o ATLAS (Asteroid Terrestrial-impact Last Alert System), financiado pela NASA.</p><p>Esta foi uma oportunidade única para estudar um objeto antigo da galáxia distante, provavelmente anterior ao nosso Sol e ao nosso Sistema Solar”, disse o astroquímico Martin Cordiner do Centro de Voo Espacial Goddard da NASA em Greenbelt, Maryland, e autor principal do estudo. Por um lado, obtemos uma visão direta desse tempo e lugar distantes e, por outro, aprendemos algo sobre o quão incomum o nosso Sistema Solar pode ser.</p><p>Durante a sua formação, o material que foi incorporado no 3I/ATLAS foi provavelmente exposto a muita radiação, mas não a qualquer calor de longo prazo que teria reprocessado o seu gelo de “água pesada”, com deutério, no tipo de gelo H2O com o qual estamos familiarizados na Terra. Isto também aponta para uma origem muito antiga do 3I/ATLAS, à medida que os sistemas estelares se tornam enriquecidos com carbono-13 ao longo do tempo, à medida que gerações de estrelas nascem e morrem na galáxia.</p><p>É por isso que existem níveis mais elevados de carbono-13 no nosso sistema, em torno do nosso Sol, que se formou há relativamente pouco tempo, há 4, 5 mil milhões de anos.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_finds_clues_to_ancient_origin_of_Comet_3I_ATLAS\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>The third identified interstellar comet in human history has a surprising chemical makeup, raising questions as to how common, or unusual, conditions in our own Solar System may be. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because chemistry gains force when a claimed structure or process can be described with enough precision to be reproduced by others. Synthetic routes, spectroscopic signatures, yield under defined conditions and stability under realistic operating parameters are the currency of credibility in chemistry, and a result that lacks these details cannot be evaluated independently. The distance between a discovery on a laboratory bench and a process that works reliably at scale is measured in years of optimization, and each step reveals constraints that were invisible at smaller scale. As interstellar Comet 3I/ATLAS began moving away from the Sun in December 2025, astronomers took the opportunity to turn the powerful NASA/ESA/CSA James Webb Space Telescope in. Working backward, astronomers used the components that make up Comet 3I/ATLAS to understand the environment in which it formed.</p><p>A paper detailing the findings was published on 22 June 2026 in the journal Nature. The comet’s name comes from its status as the third confirmed interstellar comet, meaning it originated outside the Solar System, and the telescope that first spotted it, the.</p><p>This was a unique opportunity to study an ancient object from the distant Galaxy, probably pre-dating our Sun and Solar System,” said astro-chemist Martin Cordiner of NASA’s. On the one hand, we get direct insight into that distant time and place, and on the other, we learn something about how unusual our own Solar System may be.</p><p>During its formation, the material that became incorporated into 3I/ATLAS was likely exposed to plenty of radiation, but not any long-term warmth that would have reprocessed its. This also points to a very old origin for 3I/ATLAS, as stellar systems become enriched with carbon-13 over time as generations of stars are born and die in the galaxy.</p><p>The broader interest lies in whether the claimed property or reaction pathway can be characterized with enough precision to support replication by other groups. Chemistry has a replication problem that is less discussed than the one in psychology or medicine, but it is real: synthetic procedures that work reliably in one laboratory sometimes fail to transfer, for reasons ranging from impure starting materials to undocumented temperature sensitivities. A result that comes with full experimental detail and a clear characterization of the product is far more valuable than one that reports a discovery without the procedural backbone.</p><p>That is why there are higher levels of carbon-13 in our system, around our Sun, which formed relatively recently, 4.5 billion years ago. The research team estimates that 3I/ATLAS could have formed as long as 10 to 12 billion years ago, during the Universe’s &#x27; cosmic noon,&#x27; when star formation was at its height.</p><p>Because the account originates with ESA Space Science, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether independent groups working with orthogonal techniques reach compatible conclusions, and whether the result scales beyond the conditions used in the original study. Chemical discoveries that matter tend to be ones whose key properties can be measured by multiple spectroscopic, crystallographic or computational methods that are unlikely to share the same blind spots. Scalability, cost and long-term stability under realistic operating conditions are additional filters that come into play before any practical application becomes viable.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_finds_clues_to_ancient_origin_of_Comet_3I_ATLAS\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: O terceiro cometa interestelar identificado na história da humanidade tem uma composição química surpreendente, levantando questões sobre quão comuns.",
-      "Dado-chave: O terceiro cometa interestelar identificado na história da humanidade tem uma composição química surpreendente, levantando questões sobre quão.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: O terceiro cometa interestelar identificado na história da humanidade tem uma composição química surpreendente, levantando questões sobre quão comuns.",
-      "Dado-chave: O terceiro cometa interestelar identificado na história da humanidade tem uma composição química surpreendente, levantando questões sobre quão.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: The third identified interstellar comet in human history has a surprising chemical makeup, raising questions as to how common, or unusual, conditions.",
-      "Key detail: The third identified interstellar comet in human history has a surprising chemical makeup, raising questions as to how common, or unusual.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "22 jun 2026",
-    "date_pt": "22 jun 2026",
-    "date_en": "22 Jun 2026",
-    "time": "15h00",
-    "time_pt": "15h00",
-    "time_en": "15: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-06-22T15:00:00+00:00",
-    "lastModifiedIso": "2026-06-22T15:00:00+00:00",
-    "source": "ESA Space Science",
-    "sourceDomain": "www. esa. int",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Preferida para missões, observatórios, agências e laboratórios oficiais.",
-    "sourceNote_pt": "Fonte primária institucional. Preferida para missões, observatórios, agências e laboratórios oficiais.",
-    "sourceNote_en": "Primary institutional source. Preferred for missions, observatories, agencies and official laboratories.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Química",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Webb encontra pistas sobre a origem antiga do cometa 3I/ATLAS"
-    ],
-    "keywords_pt": [
-      "Química",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Webb encontra pistas sobre a origem antiga do cometa 3I/ATLAS"
-    ],
-    "keywords_en": [
-      "Chemical",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Webb finds clues to ancient origin of comet 3I/ATLAS"
-    ],
-    "srcUrl": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_finds_clues_to_ancient_origin_of_Comet_3I_ATLAS",
-    "realUrl": "https://www.cosmosweek.com/?article=webb-finds-clues-to-ancient-origin-of-comet-3i-atlas",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=webb-finds-clues-to-ancient-origin-of-comet-3i-atlas",
-    "realUrl_en": "https://www.cosmosweek.com/?article=webb-finds-clues-to-ancient-origin-of-comet-3i-atlas&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/webb-finds-clues-to-ancient-origin-of-comet-3i-atlas/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/webb-finds-clues-to-ancient-origin-of-comet-3i-atlas/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/webb-finds-clues-to-ancient-origin-of-comet-3i-atlas/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/webb-finds-clues-to-ancient-origin-of-comet-3i-atlas/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/webb-finds-clues-to-ancient-origin-of-comet-3i-atlas/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/webb-finds-clues-to-ancient-origin-of-comet-3i-atlas/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 81,
-    "scoreBreakdown": {
-      "source": 95,
-      "evidence": 92,
-      "relevance": 82,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Webb encontra pistas sobre a origem antiga do cometa 3I/ATLAS",
-    "imageAlt_pt": "Webb encontra pistas sobre a origem antiga do cometa 3I/ATLAS",
-    "imageAlt_en": "Webb finds clues to ancient origin of Comet 3I/ATLAS"
-  },
-  {
-    "id": 26,
+    "id": 27,
     "slug": "are-we-ready-to-send-humans-to-mars",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3949,7 +4092,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 27,
+    "id": 28,
     "slug": "webb-hubble-find-massive-star-clusters-emerge-faster",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -4080,7 +4223,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 28,
+    "id": 29,
     "slug": "dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -4201,7 +4344,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 29,
+    "id": 30,
     "slug": "stellar-flares-may-expand-habitable-zones-around-small-stars",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -4335,7 +4478,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 30,
+    "id": 31,
     "slug": "automated-ct-scan-analysis-could-fast-track-clinical-assessments",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -4453,140 +4596,6 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 31,
-    "slug": "sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://scx2.b-cdn.net/gfx/news/hires/2026/rice-researchers-find.jpg",
-    "inline_images": [
-      {
-        "src": "https://phys.b-cdn.net/tmpl/v6/img/medx308px.png",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres",
-    "title_pt": "Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres",
-    "title_en": "Sulfur-rich Mercury magmas behave differently than Earth's do",
-    "sub": "Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus magmas se comportam de maneira.",
-    "sub_pt": "Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus magmas se comportam de maneira.",
-    "sub_en": "Mercury is a small, rocky planet about which researchers know relatively little. Two missions, taking readings as they passed over the planet, have revealed that Mercury is.",
-    "excerpt": "Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus magmas se comportam de maneira diferente dos da Terra, permanecendo derretidos em temperaturas mais baixas.",
-    "excerpt_pt": "Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus magmas se comportam de maneira diferente dos da Terra, permanecendo derretidos em temperaturas mais baixas.",
-    "excerpt_en": "Mercury is a small, rocky planet about which researchers know relatively little. Two missions, taking readings as they passed over the planet, have revealed that Mercury is covered by an iron-poor and sulfur-rich crust.",
-    "body": "<p>Mercúrio é um planeta rochoso de pequenas dimensões sobre o qual os pesquisadores ainda possuem conhecimento relativamente limitado. Duas missões espaciais, que realizaram medições detalhadas durante seus sobrevoos pelo planeta, revelaram que Mercúrio é coberto por uma crosta peculiar, caracterizada por ser pobre em ferro e rica em enxofre. Essa composição singular distingue-o drasticamente da Terra. Rajdeep Dasgupta, professor Maurice Ewing em Ciência de Sistemas Terrestres e diretor do Centro de Origens Planetárias à Habitabilidade do Instituto Espacial Rice, enfatizou a diferença: &quot;A superfície de Mercúrio parece completamente diferente da da Terra&quot;. Ele também destacou a dificuldade em estudar sua evolução magmática com base em suposições terrestres, dada a complexidade na interpretação dos dados das missões.</p><p>Diante desses desafios, a equipe de pesquisa buscou uma abordagem inovadora para simular as condições mercurianas em laboratório. A solução foi encontrada no meteorito Indarch, um corpo celeste que caiu no Azerbaião em 1891 e que apresenta uma notável semelhança com a composição química de Mercúrio. Os cientistas perceberam que o Indarch poderia servir como um análogo crucial para investigar como a química única de Mercúrio moldou o planeta ao longo do tempo. Essa estratégia permitiu contornar a ausência de amostras diretas do planeta, um obstáculo significativo para a compreensão de sua geologia interna.</p><p>Yishen Zhang, pesquisador de pós-doutorado no laboratório de Dasgupta e primeiro autor do artigo, explicou a relevância do meteorito: &quot;O Indarch é quimicamente tão reduzido quanto as rochas de Mercúrio&quot;. Utilizando parâmetros de temperatura, pressão e restrições químicas derivados de observações de naves espaciais e modelos planetários, a equipe conseguiu recriar em laboratório um ambiente que mimetiza as condições internas de Mercúrio. Esse meticuloso trabalho experimental foi fundamental para desvendar os processos de formação e evolução dos magmas mercurianos, oferecendo insights valiosos sobre a dinâmica geológica de um planeta tão enigmático.</p><p>Os resultados dessa pesquisa revelaram uma diferença fundamental no comportamento dos magmas de Mercúrio em comparação com os da Terra. Especificamente, os magmas ricos em enxofre presentes em Mercúrio demonstram a capacidade de permanecer em estado líquido a temperaturas consideravelmente mais baixas do que magmas de composição similar encontrados em nosso planeta. Essa característica tem implicações profundas para a compreensão da atividade vulcânica e da formação da crosta mercuriana, sugerindo uma história geológica moldada por processos magmáticos distintos.</p><p>A explicação para essa diferença reside na química dos elementos. Em planetas ricos em ferro, como Marte e a Terra, a maior parte do enxofre tende a se ligar ao ferro. Na Terra, os elementos formadores de rocha tipicamente se associam ao oxigênio, resultando na formação de uma estrutura estável conhecida como rede de silicato, composta por silício, oxigênio e outros elementos. A ausência de ferro abundante e a alta concentração de enxofre em Mercúrio alteram fundamentalmente essas interações químicas, permitindo que o enxofre atue de forma diferente na fusão e solidificação dos magmas.</p><p>Essa descoberta é crucial para aprimorar os modelos de evolução planetária e para interpretar os dados coletados pelas missões espaciais a Mercúrio. Ao compreender as particularidades dos magmas mercurianos, os cientistas podem inferir com maior precisão a história térmica e tectônica do planeta, bem como a formação de suas feições superficiais únicas. O estudo demonstra a importância de considerar as composições químicas específicas de cada corpo celeste para desvendar seus segredos geológicos, em vez de aplicar indiscriminadamente modelos baseados na Terra.</p>",
-    "body_pt": "<p>Mercúrio é um planeta rochoso de pequenas dimensões sobre o qual os pesquisadores ainda possuem conhecimento relativamente limitado. Duas missões espaciais, que realizaram medições detalhadas durante seus sobrevoos pelo planeta, revelaram que Mercúrio é coberto por uma crosta peculiar, caracterizada por ser pobre em ferro e rica em enxofre. Essa composição singular distingue-o drasticamente da Terra. Rajdeep Dasgupta, professor Maurice Ewing em Ciência de Sistemas Terrestres e diretor do Centro de Origens Planetárias à Habitabilidade do Instituto Espacial Rice, enfatizou a diferença: &quot;A superfície de Mercúrio parece completamente diferente da da Terra&quot;. Ele também destacou a dificuldade em estudar sua evolução magmática com base em suposições terrestres, dada a complexidade na interpretação dos dados das missões.</p><p>Diante desses desafios, a equipe de pesquisa buscou uma abordagem inovadora para simular as condições mercurianas em laboratório. A solução foi encontrada no meteorito Indarch, um corpo celeste que caiu no Azerbaião em 1891 e que apresenta uma notável semelhança com a composição química de Mercúrio. Os cientistas perceberam que o Indarch poderia servir como um análogo crucial para investigar como a química única de Mercúrio moldou o planeta ao longo do tempo. Essa estratégia permitiu contornar a ausência de amostras diretas do planeta, um obstáculo significativo para a compreensão de sua geologia interna.</p><p>Yishen Zhang, pesquisador de pós-doutorado no laboratório de Dasgupta e primeiro autor do artigo, explicou a relevância do meteorito: &quot;O Indarch é quimicamente tão reduzido quanto as rochas de Mercúrio&quot;. Utilizando parâmetros de temperatura, pressão e restrições químicas derivados de observações de naves espaciais e modelos planetários, a equipe conseguiu recriar em laboratório um ambiente que mimetiza as condições internas de Mercúrio. Esse meticuloso trabalho experimental foi fundamental para desvendar os processos de formação e evolução dos magmas mercurianos, oferecendo insights valiosos sobre a dinâmica geológica de um planeta tão enigmático.</p><p>Os resultados dessa pesquisa revelaram uma diferença fundamental no comportamento dos magmas de Mercúrio em comparação com os da Terra. Especificamente, os magmas ricos em enxofre presentes em Mercúrio demonstram a capacidade de permanecer em estado líquido a temperaturas consideravelmente mais baixas do que magmas de composição similar encontrados em nosso planeta. Essa característica tem implicações profundas para a compreensão da atividade vulcânica e da formação da crosta mercuriana, sugerindo uma história geológica moldada por processos magmáticos distintos.</p><p>A explicação para essa diferença reside na química dos elementos. Em planetas ricos em ferro, como Marte e a Terra, a maior parte do enxofre tende a se ligar ao ferro. Na Terra, os elementos formadores de rocha tipicamente se associam ao oxigênio, resultando na formação de uma estrutura estável conhecida como rede de silicato, composta por silício, oxigênio e outros elementos. A ausência de ferro abundante e a alta concentração de enxofre em Mercúrio alteram fundamentalmente essas interações químicas, permitindo que o enxofre atue de forma diferente na fusão e solidificação dos magmas.</p><p>Essa descoberta é crucial para aprimorar os modelos de evolução planetária e para interpretar os dados coletados pelas missões espaciais a Mercúrio. Ao compreender as particularidades dos magmas mercurianos, os cientistas podem inferir com maior precisão a história térmica e tectônica do planeta, bem como a formação de suas feições superficiais únicas. O estudo demonstra a importância de considerar as composições químicas específicas de cada corpo celeste para desvendar seus segredos geológicos, em vez de aplicar indiscriminadamente modelos baseados na Terra.</p>",
-    "body_en": "<p>Mercury is a small, rocky planet about which researchers know relatively little. Two missions, taking readings as they passed over the planet, have revealed that Mercury is covered by an iron-poor and sulfur-rich crust. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. This article has been reviewed according to Science X&#x27;s editorial process and policies. Mercury&#x27;s surface looks completely different than Earth&#x27;s,&quot; said Rajdeep Dasgupta, the Maurice Ewing Professor in Earth Systems Science and director of the Rice Space Institute.</p><p>We couldn&#x27;t study its magmatic evolution using assumptions built off our understanding of Earth, and missions data are difficult to interpret. We had to find ways to bring the planet closer to our lab, specifically, through the meteorite Indarch.</p><p>The researchers realized they could use Indarch to study how Mercury&#x27;s unique chemical makeup had shaped the planet, sharing their results in a recent publication. Indarch chemically is as reduced as rocks on Mercury,&quot; said Yishen Zhang, a postdoctoral researcher in Dasgupta&#x27;s lab and first author on the paper.</p><p>By using the temperature, pressure and chemical constraints derived from spacecraft observations and models, we recreate Mercurylike conditions to understand how magmas form and. That means sulfur-rich magmas on Mercury may stay molten at lower temperatures than similar magmas on Earth.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Iron-rich planets like Mars and Earth have most of their sulfur bound to iron. On Earth, these rock-forming elements would typically bind to oxygen, resulting in a stable structure called a silicate network made up of silicon, oxygen and rock-forming.</p><p>Because the account originates with Phys. org Space, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-sulfur-rich-mercury-magmas-differently.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
-      "Dado-chave: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_pt": [
-      "Ponto central: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
-      "Dado-chave: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_en": [
-      "Core point: Mercury is a small, rocky planet about which researchers know relatively little.",
-      "Key detail: Mercury is a small, rocky planet about which researchers know relatively little.",
-      "Science reporting: verify primary technical documentation."
-    ],
-    "date": "19 abr 2026",
-    "date_pt": "19 abr 2026",
-    "date_en": "19 Apr 2026",
-    "time": "19h00",
-    "time_pt": "19h00",
-    "time_en": "19: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-19T19:00:01+00:00",
-    "lastModifiedIso": "2026-04-23T23:29:07+00:00",
-    "source": "Phys. org Space",
-    "sourceDomain": "phys. org",
-    "sourceType": "news",
-    "sourceTypeLabel": "Jornalismo científico",
-    "sourceTypeLabel_pt": "Jornalismo científico",
-    "sourceTypeLabel_en": "Science journalism",
-    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
-    "evidenceKey": "journalistic",
-    "evidenceLabel": "Cobertura jornalística",
-    "evidenceLabel_pt": "Cobertura jornalística",
-    "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "Phys. org Space",
-      "Cosmos Week",
-      "Magmas de Mercúrio ricos em enxofre comportam",
-      "se de maneira diferente dos da Terra"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "Phys. org Space",
-      "Cosmos Week",
-      "Magmas de Mercúrio ricos em enxofre comportam",
-      "se de maneira diferente dos da Terra"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "Phys. org Space",
-      "Cosmos Week",
-      "Sulfur-rich Mercury magmas contain",
-      "if different from those on Earth"
-    ],
-    "srcUrl": "https://phys.org/news/2026-04-sulfur-rich-mercury-magmas-differently.html",
-    "realUrl": "https://www.cosmosweek.com/?article=sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do",
-    "realUrl_en": "https://www.cosmosweek.com/?article=sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 76,
-      "evidence": 42,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres",
-    "imageAlt_pt": "Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres",
-    "imageAlt_en": "Sulfur-rich Mercury magmas behave differently than Earth's do",
-    "coverageKind": "news",
-    "coverageKindLabel": "Jornalismo científico",
-    "coverageKindLabel_pt": "Jornalismo científico",
-    "coverageKindLabel_en": "Science journalism",
     "storyKind": "science"
   },
   {
