@@ -1,6 +1,398 @@
 [
   {
     "id": 1,
+    "slug": "stops-along-the-path-of-totality",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/stops-along-the-path-of-totality/eclipsepath_modis_20260812_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/stops-along-the-path-of-totality/spain_oli_20260721_lrg.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Para ao longo do caminho da totalidade",
+    "title_pt": "Para ao longo do caminho da totalidade",
+    "title_en": "Stops Along the Path of Totality",
+    "sub": "A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto de 2026.",
+    "sub_pt": "A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto de 2026.",
+    "sub_en": "Western Iceland and northern Spain are among the few Northern Hemisphere locations experiencing a total solar eclipse on August 12, 2026.",
+    "excerpt": "A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto de 2026.",
+    "excerpt_pt": "A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto de 2026.",
+    "excerpt_en": "Western Iceland and northern Spain are among the few Northern Hemisphere locations experiencing a total solar eclipse on August 12, 2026.",
+    "highlights": [
+      "Em foco: A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Western Iceland and northern Spain are among the few Northern Hemisphere locations experiencing a total solar eclipse on August 12, 2026",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "12 ago 2026",
+    "date_pt": "12 ago 2026",
+    "date_en": "12 Aug 2026",
+    "time": "04h01",
+    "time_pt": "04h01",
+    "time_en": "04: 01 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-12T04:01:00+00:00",
+    "lastModifiedIso": "2026-08-12T16:55:26+00:00",
+    "source": "NASA Earth Observatory",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "Para ao longo do caminho da totalidade"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "Para ao longo do caminho da totalidade"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "For along the path of totality"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/stops-along-the-path-of-totality/",
+    "realUrl": "https://www.cosmosweek.com/?article=stops-along-the-path-of-totality",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=stops-along-the-path-of-totality",
+    "realUrl_en": "https://www.cosmosweek.com/?article=stops-along-the-path-of-totality&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/stops-along-the-path-of-totality/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/stops-along-the-path-of-totality/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/stops-along-the-path-of-totality/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/stops-along-the-path-of-totality/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/stops-along-the-path-of-totality/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/stops-along-the-path-of-totality/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 92,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Para ao longo do caminho da totalidade",
+    "imageAlt_pt": "Para ao longo do caminho da totalidade",
+    "imageAlt_en": "Stops Along the Path of Totality",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "what-is-the-nancy-grace-roman-space-telescope-grades-5-8",
+    "cat": "Exoplanetas",
+    "catCls": "exoplanetas",
+    "img": "https://www.nasa.gov/wp-content/uploads/2023/02/nancy-grace-roman-space-telescope-visualization.jpeg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)",
+    "title_pt": "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)",
+    "title_en": "What Is the Nancy Grace Roman Space Telescope? (Grades 5-8)",
+    "sub": "Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
+    "sub_pt": "Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
+    "sub_en": "This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory.",
+    "excerpt": "Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
+    "excerpt_pt": "Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
+    "excerpt_en": "This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory. The telescope will scan large sections of space.",
+    "highlights": [
+      "Em foco: Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA",
+      "Detalhe: Ponto central: Este artigo é para alunos da 5ª à 8ª série",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA",
+      "Detalhe: Ponto central: Este artigo é para alunos da 5ª à 8ª série",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "11 ago 2026",
+    "date_pt": "11 ago 2026",
+    "date_en": "11 Aug 2026",
+    "time": "21h04",
+    "time_pt": "21h04",
+    "time_en": "21: 04 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-11T21:04:39+00:00",
+    "lastModifiedIso": "2026-08-12T16:55:26+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Exoplanetas",
+      "NASA News Releases",
+      "Cosmos Week",
+      "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)"
+    ],
+    "keywords_pt": [
+      "Exoplanetas",
+      "NASA News Releases",
+      "Cosmos Week",
+      "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)"
+    ],
+    "keywords_en": [
+      "Exoplanets",
+      "NASA News Releases",
+      "Cosmos Week",
+      "What is the Nancy Grace Roman Space Telescope? (5th to 8th grades)"
+    ],
+    "srcUrl": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
+    "realUrl": "https://www.cosmosweek.com/?article=what-is-the-nancy-grace-roman-space-telescope-grades-5-8",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=what-is-the-nancy-grace-roman-space-telescope-grades-5-8",
+    "realUrl_en": "https://www.cosmosweek.com/?article=what-is-the-nancy-grace-roman-space-telescope-grades-5-8&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)",
+    "imageAlt_pt": "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)",
+    "imageAlt_en": "What Is the Nancy Grace Roman Space Telescope? (Grades 5-8)",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
+    "slug": "nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface",
+    "cat": "Cosmologia",
+    "catCls": "cosmologia",
+    "img": "https://assets.science.nasa.gov/content/dam/science/psd/solar-system/moon/GSFC_20260331_LEMSA3_006915~orig.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/lunar-science/2023/09/133_lro_nearside.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://images-assets.nasa.gov/image/KSC-20260806-PH-RCR01_0149/KSC-20260806-PH-RCR01_0149~large.jpg",
+        "alt": "5 minutos de leitura Perseguindo o sonho de trabalhar para a NASA Quando jovem, criada em Worcester, Massachusetts, Lindsey Waitt sonhava em trabalhar para a NASA. … Artigo 58 minutos atrás",
+        "alt_pt": "5 minutos de leitura Perseguindo o sonho de trabalhar para a NASA Quando jovem, criada em Worcester, Massachusetts, Lindsey Waitt sonhava em trabalhar para a NASA. … Artigo 58 minutos atrás",
+        "alt_en": "5 min read Pursuing a Dream of Working for NASA As a young girl raised in Worcester, Massachusetts, Lindsey Waitt dreamed of working for NASA. … Article 58 minutes ago",
+        "caption": "5 minutos de leitura Perseguindo o sonho de trabalhar para a NASA Quando jovem, criada em Worcester, Massachusetts, Lindsey Waitt sonhava em trabalhar para a NASA. … Artigo 58 minutos atrás",
+        "caption_pt": "5 minutos de leitura Perseguindo o sonho de trabalhar para a NASA Quando jovem, criada em Worcester, Massachusetts, Lindsey Waitt sonhava em trabalhar para a NASA. … Artigo 58 minutos atrás",
+        "caption_en": "5 min read Pursuing a Dream of Working for NASA As a young girl raised in Worcester, Massachusetts, Lindsey Waitt dreamed of working for NASA. … Article 58 minutes ago"
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "NASA conclui instrumento científico implantado por astronautas para a superfície lunar",
+    "title_pt": "NASA conclui instrumento científico implantado por astronautas para a superfície lunar",
+    "title_en": "NASA Completes Astronaut-Deployed Science Instrument for Lunar Surface",
+    "sub": "A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua.",
+    "sub_pt": "A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua.",
+    "sub_en": "NASA has declared “wrenches down” on the first completed payload designed for Artemis astronauts to deploy on the Moon’s surface.",
+    "excerpt": "A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua.",
+    "excerpt_pt": "A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua.",
+    "excerpt_en": "NASA has declared “wrenches down” on the first completed payload designed for Artemis astronauts to deploy on the Moon’s surface.",
+    "highlights": [
+      "Em foco: A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: NASA has declared “wrenches down” on the first completed payload designed for Artemis astronauts to deploy on the Moon’s surface",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "11 ago 2026",
+    "date_pt": "11 ago 2026",
+    "date_en": "11 Aug 2026",
+    "time": "19h41",
+    "time_pt": "19h41",
+    "time_en": "19: 41 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-11T19:41:34+00:00",
+    "lastModifiedIso": "2026-08-12T16:55:26+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Cosmologia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA conclui instrumento científico implantado por astronautas para a superfície lunar"
+    ],
+    "keywords_pt": [
+      "Cosmologia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA conclui instrumento científico implantado por astronautas para a superfície lunar"
+    ],
+    "keywords_en": [
+      "Cosmology",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA completes scientific instrument deployed by astronauts to lunar surface"
+    ],
+    "srcUrl": "https://science.nasa.gov/missions/artemis/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/",
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "NASA conclui instrumento científico implantado por astronautas para a superfície lunar",
+    "imageAlt_pt": "NASA conclui instrumento científico implantado por astronautas para a superfície lunar",
+    "imageAlt_en": "NASA Completes Astronaut-Deployed Science Instrument for Lunar Surface",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 4,
     "slug": "nasa-shares-station-research-today-supporting-moon-mars-tomorrow",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -68,19 +460,19 @@
     "excerpt_pt": "A Estação Espacial Internacional esteve ocupada ao longo de 2026, pois continua a ser um espaço de trabalho movimentado para astronautas que conduzem uma variedade de experiências científicas que estabelecem as bases para missões à Lua e mais além.",
     "excerpt_en": "The International Space Station has been busy throughout 2026, as it continues to be a bustling workspace for astronauts conducting a variety of scientific experiments that lay the groundwork for missions to the Moon and beyond.",
     "highlights": [
-      "Em foco: A Estação Espacial Internacional esteve ocupada ao longo de 2026, pois continua a ser um espaço de trabalho movimentado para astronautas que conduzem",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Estação Espacial Internacional esteve ocupada ao longo de 2026, pois continua a ser um espaço de trabalho movimentado para astronautas que conduzem.",
+      "Dado-chave: A Estação Espacial Internacional esteve ocupada ao longo de 2026, pois continua a ser um espaço de trabalho movimentado para astronautas que.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A Estação Espacial Internacional esteve ocupada ao longo de 2026, pois continua a ser um espaço de trabalho movimentado para astronautas que conduzem",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Estação Espacial Internacional esteve ocupada ao longo de 2026, pois continua a ser um espaço de trabalho movimentado para astronautas que conduzem.",
+      "Dado-chave: A Estação Espacial Internacional esteve ocupada ao longo de 2026, pois continua a ser um espaço de trabalho movimentado para astronautas que.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The International Space Station has been busy throughout 2026, as it continues to be a bustling workspace for astronauts conducting a variety of",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The International Space Station has been busy throughout 2026, as it continues to be a bustling workspace for astronauts conducting a variety of.",
+      "Key detail: The International Space Station has been busy throughout 2026, as it continues to be a bustling workspace for astronauts conducting a variety of",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "11 ago 2026",
     "date_pt": "11 ago 2026",
@@ -168,7 +560,7 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 5,
     "slug": "dust-and-water-spotted-close-to-giant-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -305,7 +697,7 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 6,
     "slug": "the-quadratic-growth-of-krylov-spread-complexity-in-the-btz-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -323,18 +715,19 @@
     "excerpt_pt": "A quantidade limite que captura o crescimento do interior dos buracos negros quantificado pela complexidade holográfica permanece desconhecida além da gravidade dilaton 2d.",
     "excerpt_en": "The boundary quantity that captures the growth of black-hole interiors quantified by holographic complexity remains unknown beyond 2d dilaton gravity.",
     "highlights": [
-      "Em foco: A quantidade limite que captura o crescimento do interior dos buracos negros quantificado pela complexidade holográfica permanece desconhecida além",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: A quantidade limite que captura o crescimento do interior dos buracos negros quantificado pela complexidade holográfica permanece desconhecida além.",
+      "Dado-chave: A quantidade limite que captura o crescimento do interior dos buracos negros quantificado pela complexidade holográfica permanece desconhecida.",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: A quantidade limite que captura o crescimento do interior dos buracos negros quantificado pela complexidade holográfica permanece desconhecida além",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: A quantidade limite que captura o crescimento do interior dos buracos negros quantificado pela complexidade holográfica permanece desconhecida além.",
+      "Dado-chave: A quantidade limite que captura o crescimento do interior dos buracos negros quantificado pela complexidade holográfica permanece desconhecida.",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: The boundary quantity that captures the growth of black-hole interiors quantified by holographic complexity remains unknown beyond 2d dilaton gravity",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: The boundary quantity that captures the growth of black-hole interiors quantified by holographic complexity remains unknown beyond 2d dilaton gravity.",
+      "Key detail: The boundary quantity that captures the growth of black-hole interiors quantified by holographic complexity remains unknown beyond 2d dilaton.",
+      "Result not yet peer reviewed."
     ],
     "date": "10 ago 2026",
     "date_pt": "10 ago 2026",
@@ -422,7 +815,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 7,
     "slug": "lion-nebula-roars-to-life-with-nasa-s-webb",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -440,19 +833,19 @@
     "excerpt_pt": "Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de Nebulosa do Leão.",
     "excerpt_en": "Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula.",
     "highlights": [
-      "Em foco: Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de.",
+      "Dado-chave: Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de.",
+      "Dado-chave: Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula.",
+      "Key detail: Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "10 ago 2026",
     "date_pt": "10 ago 2026",
@@ -540,7 +933,7 @@
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 8,
     "slug": "how-esa-mimics-and-models-the-2026-total-solar-eclipse",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -668,7 +1061,7 @@
     "storyKind": "science"
   },
   {
-    "id": 6,
+    "id": 9,
     "slug": "big-bang-nucleosynthesis-and-wimp-dark-matter-freeze-out-as-probes-of-yukawa-cosmology",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -686,18 +1079,19 @@
     "excerpt_pt": "Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa. Primeiro derivamos as equações de Friedmann modificadas partindo da primeira lei da termodinâmica no horizonte aparente.",
     "excerpt_en": "We investigate Big-Bang Nucleosynthesis in the context of Yukawa cosmology. We first derive the modified Friedmann equations by starting from the first law of thermodynamics on the apparent horizon.",
     "highlights": [
-      "Em foco: Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa. Primeiro derivamos as equações de Friedmann modificadas partindo da.",
+      "Dado-chave: Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa. Primeiro derivamos as equações de Friedmann modificadas partindo da.",
+      "Dado-chave: Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: We investigate Big-Bang Nucleosynthesis in the context of Yukawa cosmology",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: We investigate Big-Bang Nucleosynthesis in the context of Yukawa cosmology. We first derive the modified Friedmann equations by starting from the.",
+      "Key detail: We investigate Big-Bang Nucleosynthesis in the context of Yukawa cosmology",
+      "Result not yet peer reviewed."
     ],
     "date": "10 ago 2026",
     "date_pt": "10 ago 2026",
@@ -788,7 +1182,7 @@
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 10,
     "slug": "statistical-inference-of-fast-radio-burst-environments-using-galaxy-number-density",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -806,18 +1200,19 @@
     "excerpt_pt": "As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida. Eles são categorizados como repetidores e não repetidores, possivelmente indicando tipos distintos de progenitores.",
     "excerpt_en": "Fast radio bursts are bright, millisecond-duration radio transients of unknown origin. They are categorized as repeaters and non-repeaters, possibly indicating distinct progenitor types.",
     "highlights": [
-      "Em foco: As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida.",
+      "Dado-chave: As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida.",
+      "Dado-chave: As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: Fast radio bursts are bright, millisecond-duration radio transients of unknown origin",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: Fast radio bursts are bright, millisecond-duration radio transients of unknown origin.",
+      "Key detail: Fast radio bursts are bright, millisecond-duration radio transients of unknown origin",
+      "Result not yet peer reviewed."
     ],
     "date": "10 ago 2026",
     "date_pt": "10 ago 2026",
@@ -905,153 +1300,7 @@
     "storyKind": "science"
   },
   {
-    "id": 8,
-    "slug": "el-nino-alters-marine-life-in-the-pacific",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/el-niño alters-marine-life-in-the-pacific/chlorophyll_pace_globes_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño alters-marine-life-in-the-pacific/chlorophyll_pace_202506.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño alters-marine-life-in-the-pacific/chlorophyll_pace_202606.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/el-niño alters-marine-life-in-the-pacific/chlorophyll_pace_globes_lrg.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "El Niño altera a vida marinha no Pacífico",
-    "title_pt": "El Niño altera a vida marinha no Pacífico",
-    "title_en": "El Niño Alters Marine Life in the Pacific",
-    "sub": "Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026.",
-    "sub_pt": "Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026.",
-    "sub_en": "Satellite measurements of chlorophyll at the sea surface signal shifts in the ocean’s nutrient supplies in mid-2026.",
-    "excerpt": "Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026.",
-    "excerpt_pt": "Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026.",
-    "excerpt_en": "Satellite measurements of chlorophyll at the sea surface signal shifts in the ocean’s nutrient supplies in mid-2026.",
-    "highlights": [
-      "Em foco: Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: Satellite measurements of chlorophyll at the sea surface signal shifts in the ocean’s nutrient supplies in mid-2026",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "10 ago 2026",
-    "date_pt": "10 ago 2026",
-    "date_en": "10 Aug 2026",
-    "time": "04h01",
-    "time_pt": "04h01",
-    "time_en": "04: 01 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-10T04:01:00+00:00",
-    "lastModifiedIso": "2026-08-10T16:45:37+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "El Niño altera a vida marinha no Pacífico"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "El Niño altera a vida marinha no Pacífico"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "El Niño alters marine life in the Pacific"
-    ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/el-nino-alters-marine-life-in-the-pacific/",
-    "realUrl": "https://www.cosmosweek.com/?article=el-nino-alters-marine-life-in-the-pacific",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=el-nino-alters-marine-life-in-the-pacific",
-    "realUrl_en": "https://www.cosmosweek.com/?article=el-nino-alters-marine-life-in-the-pacific&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/el-nino-alters-marine-life-in-the-pacific/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/el-nino-alters-marine-life-in-the-pacific/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/el-nino-alters-marine-life-in-the-pacific/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/el-nino-alters-marine-life-in-the-pacific/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/el-nino-alters-marine-life-in-the-pacific/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/el-nino-alters-marine-life-in-the-pacific/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "El Niño altera a vida marinha no Pacífico",
-    "imageAlt_pt": "El Niño altera a vida marinha no Pacífico",
-    "imageAlt_en": "El Niño Alters Marine Life in the Pacific",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 9,
+    "id": 11,
     "slug": "a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1179,7 +1428,7 @@
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 12,
     "slug": "science-campaigns-planned-for-the-august-12th-total-solar-eclipse",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1238,19 +1487,19 @@
     "excerpt_pt": "Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto. O post Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto apareceu pela primeira vez na Sky & Telescope.",
     "excerpt_en": "Several science campaigns plan to greet the racing shadow of the Moon on August 12th. The post Science Campaigns Planned for the August 12th Total Solar Eclipse appeared first on Sky & Telescope.",
     "highlights": [
-      "Em foco: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto.",
+      "Dado-chave: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
-      "Em foco: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto.",
+      "Dado-chave: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
-      "Focus: Several science campaigns plan to greet the racing shadow of the Moon on August 12th",
-      "Detail: Science reporting: verify primary technical documentation",
-      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+      "Core point: Several science campaigns plan to greet the racing shadow of the Moon on August 12th.",
+      "Key detail: Several science campaigns plan to greet the racing shadow of the Moon on August 12th",
+      "Science reporting: verify primary technical documentation."
     ],
     "date": "07 ago 2026",
     "date_pt": "07 ago 2026",
@@ -1338,148 +1587,7 @@
     "storyKind": "science"
   },
   {
-    "id": 11,
-    "slug": "sensing-the-poles-hidden-heat",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/sensing-the-poles’-hidden-heat/seasonaltempbal_prefire_2026_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": {
-      "kind": "file",
-      "platform": "html5",
-      "embedUrl": "",
-      "fileUrl": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/sensing-the-poles’-hidden-heat/seasonaltempbal_prefire_2026_loop.mp4",
-      "poster": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/sensing-the-poles’-hidden-heat/seasonaltempbal_prefire_2026_th.jpg?w=1920&h=1080&fit=clip&crop=faces%2Cfocalpoint",
-      "title": "Sentindo o calor oculto dos poloneses - NASA Science",
-      "title_pt": "Sentindo o calor oculto dos poloneses - NASA Science",
-      "title_en": "Sensing the Poles’ Hidden Heat - NASA Science",
-      "caption": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
-      "caption_pt": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
-      "caption_en": "New animations from NASA's PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
-      "sourcePage": "https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/"
-    },
-    "audio": null,
-    "title": "Sentindo o calor oculto dos poloneses",
-    "title_pt": "Sentindo o calor oculto dos poloneses",
-    "title_en": "Sensing the Poles’ Hidden Heat",
-    "sub": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
-    "sub_pt": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
-    "sub_en": "New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
-    "excerpt": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
-    "excerpt_pt": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
-    "excerpt_en": "New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
-    "highlights": [
-      "Em foco: Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "07 ago 2026",
-    "date_pt": "07 ago 2026",
-    "date_en": "07 Aug 2026",
-    "time": "04h00",
-    "time_pt": "04h00",
-    "time_en": "04: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-07T04:00:00+00:00",
-    "lastModifiedIso": "2026-08-07T16:43:53+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Sentindo o calor oculto dos poloneses"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Sentindo o calor oculto dos poloneses"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Feeling the hidden warmth of the Poles"
-    ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/",
-    "realUrl": "https://www.cosmosweek.com/?article=sensing-the-poles-hidden-heat",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=sensing-the-poles-hidden-heat",
-    "realUrl_en": "https://www.cosmosweek.com/?article=sensing-the-poles-hidden-heat&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/sensing-the-poles-hidden-heat/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/sensing-the-poles-hidden-heat/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/sensing-the-poles-hidden-heat/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/sensing-the-poles-hidden-heat/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/sensing-the-poles-hidden-heat/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/sensing-the-poles-hidden-heat/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Sentindo o calor oculto dos poloneses",
-    "imageAlt_pt": "Sentindo o calor oculto dos poloneses",
-    "imageAlt_en": "Sensing the Poles’ Hidden Heat",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 12,
+    "id": 13,
     "slug": "how-the-tide-turns-at-the-mouth-of-the-elbe",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1625,7 +1733,7 @@
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "europe-s-forests-losing-more-biomass-since-2018",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1743,7 +1851,7 @@
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "the-paradox-of-lencois-maranhenses-national-park",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1781,17 +1889,17 @@
     "excerpt_en": "The coastal dune field in Brazil looks like a desert but fills with freshwater lagoons every year. The post The Paradox of Lençóis Maranhenses National Park appeared first on NASA Science.",
     "highlights": [
       "Ponto central: O campo de dunas costeiras do Brasil parece um deserto, mas se enche de lagoas de água doce todos os anos.",
-      "Dado-chave: O campo de dunas costeiras do Brasil parece um deserto, mas se enche de lagoas de água doce todos os anos",
+      "Dado-chave: O campo de dunas costeiras do Brasil parece um deserto, mas se enche de lagoas de água doce todos os anos.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: O campo de dunas costeiras do Brasil parece um deserto, mas se enche de lagoas de água doce todos os anos.",
-      "Dado-chave: O campo de dunas costeiras do Brasil parece um deserto, mas se enche de lagoas de água doce todos os anos",
+      "Dado-chave: O campo de dunas costeiras do Brasil parece um deserto, mas se enche de lagoas de água doce todos os anos.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: The coastal dune field in Brazil looks like a desert but fills with freshwater lagoons every year.",
-      "Key detail: The coastal dune field in Brazil looks like a desert but fills with freshwater lagoons every year",
+      "Key detail: The coastal dune field in Brazil looks like a desert but fills with freshwater lagoons every year.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "05 ago 2026",
@@ -1880,14 +1988,14 @@
     "storyKind": "science"
   },
   {
-    "id": 15,
-    "slug": "a-bare-summer-for-barnes-ice-cap",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/a-bare-summer-for-barnes-ice-cap/barnesicecapwide_oli2_20260712_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "id": 16,
+    "slug": "nsf-stands-up-2-materials-innovation-platforms-with-50m-investment",
+    "cat": "Física",
+    "catCls": "fisica",
+    "img": "https://nsf-gov-resources.nsf.gov/styles/_inline_image_full_width/s3/media_hub/2534344_TAMU_AutoLab_3DRender_91_graded_cropped_16x9.jpg?itok=RwYewXvb",
     "inline_images": [
       {
-        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/a-bare-summer-for-barnes-ice-cap/barnesicecap_oli2_20260712_lrg.jpg",
+        "src": "https://nsf-gov-resources.nsf.gov/styles/featured_news/s3/media_hub/2534344_TAMU_AutoLab_3DRender_91_graded_cropped_16x9.jpg?itok=AB0pWW3c",
         "alt": "",
         "alt_pt": "",
         "alt_en": "",
@@ -1896,54 +2004,81 @@
         "caption_en": ""
       },
       {
-        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
+        "src": "https://nsf-gov-resources.nsf.gov/styles/news_sidebar_teaser/s3/media_hub/Differential_privacy.png?itok=E1oxMJqt",
+        "alt": "Ilustração representando o reconhecimento de identidade facial",
+        "alt_pt": "Ilustração representando o reconhecimento de identidade facial",
+        "alt_en": "Illustration depicting facial identity recognition",
+        "caption": "Ilustração representando o reconhecimento de identidade facial",
+        "caption_pt": "Ilustração representando o reconhecimento de identidade facial",
+        "caption_en": "Illustration depicting facial identity recognition"
+      },
+      {
+        "src": "https://nsf-gov-resources.nsf.gov/styles/_inline_image_full_width/s3/media_hub/Differential_privacy.png?itok=IY1kDRtk",
+        "alt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "alt_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "alt_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program",
+        "caption": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "caption_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "caption_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program"
+      },
+      {
+        "src": "https://nsf-gov-resources.nsf.gov/styles/featured_news/s3/media_hub/Differential_privacy.png?itok=Cslui841",
+        "alt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "alt_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "alt_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program",
+        "caption": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "caption_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "caption_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program"
+      },
+      {
+        "src": "https://www.nsf.gov/themes/custom/nsf_theme/plugins/uswds/dist/img/us_flag_small.png",
+        "alt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "alt_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "alt_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program",
+        "caption": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "caption_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "caption_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program"
       }
     ],
     "video": null,
     "audio": null,
-    "title": "Um verão nu para a calota polar de Barnes",
-    "title_pt": "Um verão nu para a calota polar de Barnes",
-    "title_en": "A Bare Summer for Barnes Ice Cap",
-    "sub": "A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de características de derretimento.",
-    "sub_pt": "A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de características de derretimento.",
-    "sub_en": "The expanse of glacial ice on Canada’s Baffin Island lost its snow cover quickly and early in summer 2026, revealing a network of melt features.",
-    "excerpt": "A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de características de derretimento.",
-    "excerpt_pt": "A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de características de derretimento.",
-    "excerpt_en": "The expanse of glacial ice on Canada’s Baffin Island lost its snow cover quickly and early in summer 2026, revealing a network of melt features.",
+    "title": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
+    "title_pt": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
+    "title_en": "NSF stands up 2 Materials Innovation Platforms with $50M investment",
+    "sub": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir.",
+    "sub_pt": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir.",
+    "sub_en": "The U. S. National Science Foundation is investing $50 million in research infrastructure to enable the discovery and development of materials that can withstand extreme.",
+    "excerpt": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir a condições extremas, desde compósitos leves para melhor blindagem até.",
+    "excerpt_pt": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir a condições extremas, desde compósitos leves para melhor blindagem até.",
+    "excerpt_en": "The U. S. National Science Foundation is investing $50 million in research infrastructure to enable the discovery and development of materials that can withstand extreme conditions, from lightweight composites for better armor to.",
     "highlights": [
-      "Ponto central: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de.",
-      "Dado-chave: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de.",
-      "Origem institucional: distinguir anúncio de evidência."
+      "Em foco: A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de",
+      "Detalhe: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
     ],
     "highlights_pt": [
-      "Ponto central: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de.",
-      "Dado-chave: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de.",
-      "Origem institucional: distinguir anúncio de evidência."
+      "Em foco: A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de",
+      "Detalhe: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
     ],
     "highlights_en": [
-      "Core point: The expanse of glacial ice on Canada’s Baffin Island lost its snow cover quickly and early in summer 2026, revealing a network of melt features.",
-      "Key detail: The expanse of glacial ice on Canada’s Baffin Island lost its snow cover quickly and early in summer 2026, revealing a network of melt features.",
-      "Institutional origin: separate announcement from evidence."
+      "Focus: The U. S",
+      "Detail: Core point: The U. S",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
     ],
     "date": "03 ago 2026",
     "date_pt": "03 ago 2026",
     "date_en": "03 Aug 2026",
-    "time": "16h00",
-    "time_pt": "16h00",
-    "time_en": "16: 00 UTC",
+    "time": "14h00",
+    "time_pt": "14h00",
+    "time_en": "14: 00 UTC",
     "read": "4 min de leitura",
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
-    "publishedIso": "2026-08-03T16:00:00+00:00",
+    "publishedIso": "2026-08-03T14:00:50+00:00",
     "lastModifiedIso": "2026-08-03T17:45:08+00:00",
-    "source": "NASA Earth Observatory",
-    "sourceDomain": "science. nasa. gov",
+    "source": "NSF News",
+    "sourceDomain": "www. nsf. gov",
     "sourceType": "agency",
     "sourceTypeLabel": "Fonte institucional",
     "sourceTypeLabel_pt": "Fonte institucional",
@@ -1960,56 +2095,56 @@
     "editorialBandLabel_pt": "Prioridade máxima",
     "editorialBandLabel_en": "Top priority",
     "keywords": [
-      "Ciências da Terra",
-      "NASA Earth Observatory",
+      "Física",
+      "NSF News",
       "Cosmos Week",
-      "Um verão nu para a calota polar de Barnes"
+      "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões"
     ],
     "keywords_pt": [
-      "Ciências da Terra",
-      "NASA Earth Observatory",
+      "Física",
+      "NSF News",
       "Cosmos Week",
-      "Um verão nu para a calota polar de Barnes"
+      "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões"
     ],
     "keywords_en": [
-      "Earth Sciences",
-      "NASA Earth Observatory",
+      "Physical",
+      "NSF News",
       "Cosmos Week",
-      "A Naked Summer for the Barnes Ice Cap"
+      "NSF raises 2 materials innovation platforms with investment of US$50 million"
     ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/a-bare-summer-for-barnes-ice-cap/",
-    "realUrl": "https://www.cosmosweek.com/?article=a-bare-summer-for-barnes-ice-cap",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=a-bare-summer-for-barnes-ice-cap",
-    "realUrl_en": "https://www.cosmosweek.com/?article=a-bare-summer-for-barnes-ice-cap&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/a-bare-summer-for-barnes-ice-cap/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/a-bare-summer-for-barnes-ice-cap/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/a-bare-summer-for-barnes-ice-cap/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/a-bare-summer-for-barnes-ice-cap/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/a-bare-summer-for-barnes-ice-cap/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/a-bare-summer-for-barnes-ice-cap/",
+    "srcUrl": "https://www.nsf.gov/news/nsf-stands-2-materials-innovation-platforms-50m-investment",
+    "realUrl": "https://www.cosmosweek.com/?article=nsf-stands-up-2-materials-innovation-platforms-with-50m-investment",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nsf-stands-up-2-materials-innovation-platforms-with-50m-investment",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nsf-stands-up-2-materials-innovation-platforms-with-50m-investment&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
       "en-US"
     ],
     "featured": false,
-    "trending": true,
+    "trending": false,
     "isPreprint": false,
     "geminiReviewed": false,
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "fallback",
     "reviewProvider": "gemini",
-    "score": 100,
+    "score": 93,
     "scoreBreakdown": {
-      "source": 92,
+      "source": 91,
       "evidence": 92,
       "relevance": 84,
-      "accessibility": 60,
+      "accessibility": 42,
       "novelty": 55
     },
-    "imageAlt": "Um verão nu para a calota polar de Barnes",
-    "imageAlt_pt": "Um verão nu para a calota polar de Barnes",
-    "imageAlt_en": "A Bare Summer for Barnes Ice Cap",
+    "imageAlt": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
+    "imageAlt_pt": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
+    "imageAlt_en": "NSF stands up 2 Materials Innovation Platforms with $50M investment",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
@@ -2017,7 +2152,7 @@
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "hydrognss-data-open-for-new-insights-into-earth-s-water",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2145,7 +2280,7 @@
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "smos-salinity-could-offer-early-indicator-of-el-nino",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2273,7 +2408,7 @@
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "watch-the-total-solar-eclipse-with-esa-in-leon",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2441,7 +2576,7 @@
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "new-exomoon-detection-challenges-cosmic-labels",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2618,7 +2753,7 @@
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 21,
     "slug": "the-nancy-grace-roman-space-telescope-launch-what-to-expect",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2812,7 +2947,7 @@
     "storyKind": "science"
   },
   {
-    "id": 21,
+    "id": 22,
     "slug": "faintest-planet-ever-imaged-from-earth-found-after-more-than-10-years-of-hide-and-seek",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -2992,7 +3127,7 @@
     "storyKind": "science"
   },
   {
-    "id": 22,
+    "id": 23,
     "slug": "science-release-hubble-discovers-first-of-star-cluster-s-missing-black-holes",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -3168,7 +3303,7 @@
     "storyKind": "science"
   },
   {
-    "id": 23,
+    "id": 24,
     "slug": "older-than-the-sun-astronomers-find-new-clues-to-the-origin-of-interstellar-comet-3i-atlas",
     "cat": "Química",
     "catCls": "quimica",
@@ -3348,7 +3483,7 @@
     "storyKind": "science"
   },
   {
-    "id": 24,
+    "id": 25,
     "slug": "action-nsf-doe-vera-c-rubin-observatory-begins-capturing-the-greatest-cosmic-movie-ever-made",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3506,7 +3641,7 @@
     "storyKind": "science"
   },
   {
-    "id": 25,
+    "id": 26,
     "slug": "chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen",
     "cat": "Química",
     "catCls": "quimica",
@@ -3631,152 +3766,6 @@
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
-  },
-  {
-    "id": 26,
-    "slug": "nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition",
-    "cat": "Cosmologia",
-    "catCls": "cosmologia",
-    "img": "https://nsf-gov-resources.nsf.gov/styles/_inline_image_full_width/s3/media_hub/NSF_NQVL_hero%202026.png?itok=zBBhkIw8",
-    "inline_images": [
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/featured_news/s3/media_hub/NSF_NQVL_hero%202026.png?itok=bCcXQX3p",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/news_sidebar_teaser/s3/media_hub/noirlab2616a.jpg?itok=OzjsSWXp",
-        "alt": "Um denso campo de estrelas coloridas brilhando através de uma nuvem de poeira",
-        "alt_pt": "Um denso campo de estrelas coloridas brilhando através de uma nuvem de poeira",
-        "alt_en": "A dense field of colorful stars shining through a dust cloud",
-        "caption": "Um denso campo de estrelas coloridas brilhando através de uma nuvem de poeira",
-        "caption_pt": "Um denso campo de estrelas coloridas brilhando através de uma nuvem de poeira",
-        "caption_en": "A dense field of colorful stars shining through a dust cloud"
-      },
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/news_sidebar_teaser/s3/media/images/DFPod_GraphicForNSFNews_QuantumCryptography_240x160.jpg?itok=k3Ao5c00",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "NSF seleciona cinco equipes adicionais na competição nacional de design do Laboratório Quântico Virtual",
-    "title_pt": "NSF seleciona cinco equipes adicionais na competição nacional de design do Laboratório Quântico Virtual",
-    "title_en": "NSF selects five additional teams in National Quantum Virtual Laboratory design competition",
-    "sub": "A Fundação Nacional de Ciência dos EUA (NSF) selecionou cinco novas equipes para desenvolver tecnologias quânticas experimentais, abrangendo desde redes capazes de transportar.",
-    "sub_pt": "A Fundação Nacional de Ciência dos EUA (NSF) selecionou cinco novas equipes para desenvolver tecnologias quânticas experimentais, abrangendo desde redes capazes de transportar.",
-    "sub_en": "The U. S. National Science Foundation has selected five new teams to design experimental quantum technologies, from networks that can ferry fragile quantum information across long.",
-    "excerpt": "A Fundação Nacional de Ciência dos EUA (NSF) selecionou cinco novas equipes para desenvolver tecnologias quânticas experimentais, abrangendo desde redes capazes de transportar informações quânticas até sensores de alta precisão.",
-    "excerpt_pt": "A Fundação Nacional de Ciência dos EUA (NSF) selecionou cinco novas equipes para desenvolver tecnologias quânticas experimentais, abrangendo desde redes capazes de transportar informações quânticas até sensores de alta precisão.",
-    "excerpt_en": "The U. S. National Science Foundation has selected five new teams to design experimental quantum technologies, from networks that can ferry fragile quantum information across long distances to sensors that can measure faint properties.",
-    "highlights": [
-      "Ponto central: A Fundação Nacional de Ciência dos EUA (NSF) selecionou cinco novas equipes para desenvolver tecnologias quânticas experimentais, abrangendo desde.",
-      "Dado-chave: A Fundação Nacional de Ciência dos EUA (NSF) selecionou cinco novas equipes para desenvolver tecnologias quânticas experimentais, abrangendo.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: A Fundação Nacional de Ciência dos EUA (NSF) selecionou cinco novas equipes para desenvolver tecnologias quânticas experimentais, abrangendo desde.",
-      "Dado-chave: A Fundação Nacional de Ciência dos EUA (NSF) selecionou cinco novas equipes para desenvolver tecnologias quânticas experimentais, abrangendo.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: The U. S. National Science Foundation has selected five new teams to design experimental quantum technologies, from networks that can ferry fragile.",
-      "Key detail: The U. S. National Science Foundation has selected five new teams to design experimental quantum technologies, from networks that can ferry.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "24 jun 2026",
-    "date_pt": "24 jun 2026",
-    "date_en": "24 Jun 2026",
-    "time": "14h00",
-    "time_pt": "14h00",
-    "time_en": "14: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-06-24T14:00:08+00:00",
-    "lastModifiedIso": "2026-06-24T17:41:19+00:00",
-    "source": "NSF News",
-    "sourceDomain": "www. nsf. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Cosmologia",
-      "NSF News",
-      "Cosmos Week",
-      "NSF seleciona cinco equipes adicionais na competição nacional de design do Laboratório Virtual Quantum"
-    ],
-    "keywords_pt": [
-      "Cosmologia",
-      "NSF News",
-      "Cosmos Week",
-      "NSF seleciona cinco equipes adicionais na competição nacional de design do Laboratório Virtual Quantum"
-    ],
-    "keywords_en": [
-      "Cosmology",
-      "NSF News",
-      "Cosmos Week",
-      "NSF Selects Five Additional Teams in National Virtual Quantum Laboratory Design Competition"
-    ],
-    "srcUrl": "https://www.nsf.gov/news/nsf-selects-five-additional-teams-national-quantum-virtual",
-    "realUrl": "https://www.cosmosweek.com/?article=nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 91,
-    "scoreBreakdown": {
-      "source": 91,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 52,
-      "novelty": 55
-    },
-    "imageAlt": "NSF seleciona cinco equipes adicionais na competição nacional de design do Laboratório Quântico Virtual",
-    "imageAlt_pt": "NSF seleciona cinco equipes adicionais na competição nacional de design do Laboratório Quântico Virtual",
-    "imageAlt_en": "NSF selects five additional teams in National Quantum Virtual Laboratory design competition",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
     "storyKind": "science"
   },
   {

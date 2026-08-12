@@ -3,6 +3,407 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "stops-along-the-path-of-totality",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/stops-along-the-path-of-totality/eclipsepath_modis_20260812_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/stops-along-the-path-of-totality/spain_oli_20260721_lrg.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Para ao longo do caminho da totalidade",
+    "title_pt": "Para ao longo do caminho da totalidade",
+    "title_en": "Stops Along the Path of Totality",
+    "sub": "A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto de 2026.",
+    "sub_pt": "A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto de 2026.",
+    "sub_en": "Western Iceland and northern Spain are among the few Northern Hemisphere locations experiencing a total solar eclipse on August 12, 2026.",
+    "excerpt": "A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto de 2026.",
+    "excerpt_pt": "A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto de 2026.",
+    "excerpt_en": "Western Iceland and northern Spain are among the few Northern Hemisphere locations experiencing a total solar eclipse on August 12, 2026.",
+    "body": "<p>A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto de 2026. O post Paradas ao Longo do Caminho da Totalidade apareceu pela primeira vez na NASA Science.</p><p>Observatório da Terra da NASA/Michala Garrison O vulcão Snæfellsjökull, no extremo oeste da península, está coberto de gelo e entrou em erupção pela última vez há cerca de 1.800 anos. NASA Earth Observatory/Michala Garrison O alto Ebro emerge de um terreno acidentado no Parque Natural de Montes Obarenes-San Zadornil, onde esculpe desfiladeiros e desfiladeiros no sopé oriental das montanhas Cantábricas.</p><p>Downloads 25 de julho de 2026 JPEG (14, 69 MB) 12 de agosto de 2026 JPEG (1, 92 MB) 21 de julho de 2026 JPEG (34, 46 MB) Referências e recursos NASA (2026) 12 de agosto de 2026, Eclipse solar total. Explore dados de ciências da terra da Terra Acesso aberto ao arquivo de dados de ciências da Terra da NASA O post Paradas ao longo do caminho da totalidade apareceu pela primeira vez em NASA Science.</p><p>Observatório da Terra da NASA / Michala Garrison O Sol, a Lua e a Terra se alinham em 12 de agosto de 2026, para produzir um eclipse solar total. Em 12 de agosto, a sombra da Lua cruzará primeiro o Círculo Polar Ártico vindo do norte da Rússia e depois seguirá ao longo do lado oriental da Groenlândia.</p><p>Referências e recursos NASA (2026) 12 de agosto de 2026, Eclipse Solar Total. Artigo Earthset do outro lado lunar 2 min de leitura A tripulação da missão Artemis II da NASA capturou imagens extraordinárias de nosso planeta natal durante sua jornada ao redor do distante.</p><p>Acesso aberto ao arquivo de dados científicos da Terra da NASA NASA (2026) 12 de agosto de 2026, Eclipse Solar Total.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/stops-along-the-path-of-totality/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto de 2026. O post Paradas ao Longo do Caminho da Totalidade apareceu pela primeira vez na NASA Science.</p><p>Observatório da Terra da NASA/Michala Garrison O vulcão Snæfellsjökull, no extremo oeste da península, está coberto de gelo e entrou em erupção pela última vez há cerca de 1.800 anos. NASA Earth Observatory/Michala Garrison O alto Ebro emerge de um terreno acidentado no Parque Natural de Montes Obarenes-San Zadornil, onde esculpe desfiladeiros e desfiladeiros no sopé oriental das montanhas Cantábricas.</p><p>Downloads 25 de julho de 2026 JPEG (14, 69 MB) 12 de agosto de 2026 JPEG (1, 92 MB) 21 de julho de 2026 JPEG (34, 46 MB) Referências e recursos NASA (2026) 12 de agosto de 2026, Eclipse solar total. Explore dados de ciências da terra da Terra Acesso aberto ao arquivo de dados de ciências da Terra da NASA O post Paradas ao longo do caminho da totalidade apareceu pela primeira vez em NASA Science.</p><p>Observatório da Terra da NASA / Michala Garrison O Sol, a Lua e a Terra se alinham em 12 de agosto de 2026, para produzir um eclipse solar total. Em 12 de agosto, a sombra da Lua cruzará primeiro o Círculo Polar Ártico vindo do norte da Rússia e depois seguirá ao longo do lado oriental da Groenlândia.</p><p>Referências e recursos NASA (2026) 12 de agosto de 2026, Eclipse Solar Total. Artigo Earthset do outro lado lunar 2 min de leitura A tripulação da missão Artemis II da NASA capturou imagens extraordinárias de nosso planeta natal durante sua jornada ao redor do distante.</p><p>Acesso aberto ao arquivo de dados científicos da Terra da NASA NASA (2026) 12 de agosto de 2026, Eclipse Solar Total.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/stops-along-the-path-of-totality/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Western Iceland and northern Spain are among the few Northern Hemisphere locations experiencing a total solar eclipse on August 12, 2026. The post Stops Along the Path of Totality appeared first on NASA Science. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The post Stops Along the Path of Totality appeared first on NASA Science. NASA Earth Observatory/Michala Garrison The Snæfellsjökull volcano on the western end of the peninsula is covered in ice and last erupted about 1, 800 years ago.</p><p>NASA Earth Observatory/Michala Garrison The upper Ebro emerges from rugged terrain in Parque Natural de Montes Obarenes-San Zadornil, where it carves canyons and gorges through. Downloads July 25, 2026 JPEG (14.69 MB) August 12, 2026 JPEG (1.92 MB) July 21, 2026 JPEG (34.46 MB) References &amp; Resources NASA (2026) August 12, 2026, Total Solar Eclipse.</p><p>Explore Earth Science Earth Science Data Open access to NASA’s archive of Earth science data The post Stops Along the Path of Totality appeared first on NASA Science. Article View more Images of the Day: Aug 11, 2026 Instruments: Landsat 8, OLI Landsat 9, OLI Collections: International Parks and UNESCO Sites Topics: Sun-Earth Interactions The.</p><p>NASA Earth Observatory/Michala Garrison The Sun, Moon, and Earth align on August 12, 2026, to produce a total solar eclipse. On August 12, the Moon’s shadow will first cross over the Arctic Circle from northern Russia and then track along the eastern side of Greenland.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>References &amp; Resources NASA (2026) August 12, 2026, Total Solar Eclipse. Article Earthset From the Lunar Far Side 2 min read The crew of NASA’s Artemis II mission captured extraordinary images of our home planet during their journey around the far.</p><p>Because the account originates with NASA Earth Observatory, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/stops-along-the-path-of-totality/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Western Iceland and northern Spain are among the few Northern Hemisphere locations experiencing a total solar eclipse on August 12, 2026",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "12 ago 2026",
+    "date_pt": "12 ago 2026",
+    "date_en": "12 Aug 2026",
+    "time": "04h01",
+    "time_pt": "04h01",
+    "time_en": "04: 01 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-12T04:01:00+00:00",
+    "lastModifiedIso": "2026-08-12T16:55:26+00:00",
+    "source": "NASA Earth Observatory",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "Para ao longo do caminho da totalidade"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "Para ao longo do caminho da totalidade"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA Earth Observatory",
+      "Cosmos Week",
+      "For along the path of totality"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/stops-along-the-path-of-totality/",
+    "realUrl": "https://www.cosmosweek.com/?article=stops-along-the-path-of-totality",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=stops-along-the-path-of-totality",
+    "realUrl_en": "https://www.cosmosweek.com/?article=stops-along-the-path-of-totality&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/stops-along-the-path-of-totality/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/stops-along-the-path-of-totality/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/stops-along-the-path-of-totality/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/stops-along-the-path-of-totality/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/stops-along-the-path-of-totality/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/stops-along-the-path-of-totality/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 92,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Para ao longo do caminho da totalidade",
+    "imageAlt_pt": "Para ao longo do caminho da totalidade",
+    "imageAlt_en": "Stops Along the Path of Totality",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "what-is-the-nancy-grace-roman-space-telescope-grades-5-8",
+    "cat": "Exoplanetas",
+    "catCls": "exoplanetas",
+    "img": "https://www.nasa.gov/wp-content/uploads/2023/02/nancy-grace-roman-space-telescope-visualization.jpeg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)",
+    "title_pt": "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)",
+    "title_en": "What Is the Nancy Grace Roman Space Telescope? (Grades 5-8)",
+    "sub": "Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
+    "sub_pt": "Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
+    "sub_en": "This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory.",
+    "excerpt": "Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
+    "excerpt_pt": "Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
+    "excerpt_en": "This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory. The telescope will scan large sections of space.",
+    "body": "<p>Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.</p><p>______________________________________________________________________ Palavras para saber Astrofísica: um ramo da ciência espacial que aplica física e matemática a [. ]. Centro de Voo Espacial Goddard da NASA ______________________________________________________________________ Palavras para Saber Astrofísica: um ramo da ciência espacial que aplica física e matemática para estudar o universo.</p><p>NASA / Sydney Rohde O que os cientistas estudarão com o Telescópio Espacial Nancy Grace Roman? . Nancy Grace Roman foi a primeira astrônoma-chefe da NASA.</p><p>Ela é conhecida como “a mãe do Telescópio Espacial Hubble”. Canto de Carreira da NASA Mais de mil técnicos e engenheiros montaram Roman a partir de milhões de componentes individuais.</p><p>Mais sobre o site da missão Nancy Grace Roman Space Telescope: Nancy Grace Roman Space Telescope Videogame: Roman Space Observer Roman Space Telescope Materiais de educação e divulgação Explore mais para alunos da 5ª à 8ª série. ______________________________________________________________________ Astrofísica: um ramo da ciência espacial que aplica física e matemática para estudar o universo.</p><p>A decolagem ocorrerá no Complexo de Lançamento 39A no Centro Espacial Kennedy da NASA, na Flórida.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.</p><p>______________________________________________________________________ Palavras para saber Astrofísica: um ramo da ciência espacial que aplica física e matemática a [. ]. Centro de Voo Espacial Goddard da NASA ______________________________________________________________________ Palavras para Saber Astrofísica: um ramo da ciência espacial que aplica física e matemática para estudar o universo.</p><p>NASA / Sydney Rohde O que os cientistas estudarão com o Telescópio Espacial Nancy Grace Roman? . Nancy Grace Roman foi a primeira astrônoma-chefe da NASA.</p><p>Ela é conhecida como “a mãe do Telescópio Espacial Hubble”. Canto de Carreira da NASA Mais de mil técnicos e engenheiros montaram Roman a partir de milhões de componentes individuais.</p><p>Mais sobre o site da missão Nancy Grace Roman Space Telescope: Nancy Grace Roman Space Telescope Videogame: Roman Space Observer Roman Space Telescope Materiais de educação e divulgação Explore mais para alunos da 5ª à 8ª série. ______________________________________________________________________ Astrofísica: um ramo da ciência espacial que aplica física e matemática para estudar o universo.</p><p>A decolagem ocorrerá no Complexo de Lançamento 39A no Centro Espacial Kennedy da NASA, na Flórida.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>It matters because exoplanet science has moved beyond the era of simple discovery into a period of comparative characterization. With more than five thousand confirmed planets known, the scientifically productive questions now concern atmospheric composition, internal structure, orbital history and the statistical properties of populations rather than the existence of individual worlds. A new detection or spectral measurement is most valuable when it adds a well-constrained data point to those comparative frameworks, not when it stands alone as an anecdote. ______________________________________________________________________ Words to Know Astrophysics: a branch of space science that applies physics and mathematics to. NASA’s Goddard Space Flight Center ______________________________________________________________________ Words to Know Astrophysics: a branch of space science that applies.</p><p>NASA / Sydney Rohde What Will Scientists Study With the Nancy Grace Roman Space Telescope. Nancy Grace Roman was NASA’s first chief astronomer.</p><p>She is knows as “the mother of the Hubble Space Telescope. ” NASA Career Corner More than a thousand technicians and engineers assembled Roman from millions of individual. More About the Nancy Grace Roman Space Telescope Mission Website: Nancy Grace Roman Space Telescope Video Game: Roman Space Observer Roman Space Telescope Education and Outreach.</p><p>______________________________________________________________________ Astrophysics: a branch of space science that applies physics and mathematics to study the universe. Liftoff will take place from Launch Complex 39A at NASA’s Kennedy Space Center in Florida.</p><p>The broader interest lies in making the target less anecdotal and more comparable with the rest of the known planetary population. Population-level questions, such as the frequency of atmospheres around small rocky planets or the prevalence of water-rich worlds in the habitable zone, require well-characterized individual data points before statistical patterns become meaningful. Each new planet with a measured radius, mass and, ideally, atmospheric constraint is a brick in that larger structure, and the accumulation of bricks eventually allows theorists to test formation models against real distributions rather than projections.</p><p>The Nancy Grace Roman Space Telescope will orbit about 930, 000 miles (1.5 million kilometers) away from Earth. It will orbit around a special place in space called the second Sun-Earth Lagrange point, or L2.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to improve independent constraints on the mass, radius, atmospheric composition and orbital dynamics of the target. Transmission spectroscopy with JWST, radial velocity campaigns with high-resolution ground-based spectrographs and phase-curve measurements from space photometry represent the observational toolkit that can move characterization from plausible to robust. That convergence of techniques is the standard the community now expects before a planetary atmosphere result is treated as confirmed.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA",
+      "Detalhe: Ponto central: Este artigo é para alunos da 5ª à 8ª série",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA",
+      "Detalhe: Ponto central: Este artigo é para alunos da 5ª à 8ª série",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "11 ago 2026",
+    "date_pt": "11 ago 2026",
+    "date_en": "11 Aug 2026",
+    "time": "21h04",
+    "time_pt": "21h04",
+    "time_en": "21: 04 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-11T21:04:39+00:00",
+    "lastModifiedIso": "2026-08-12T16:55:26+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Exoplanetas",
+      "NASA News Releases",
+      "Cosmos Week",
+      "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)"
+    ],
+    "keywords_pt": [
+      "Exoplanetas",
+      "NASA News Releases",
+      "Cosmos Week",
+      "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)"
+    ],
+    "keywords_en": [
+      "Exoplanets",
+      "NASA News Releases",
+      "Cosmos Week",
+      "What is the Nancy Grace Roman Space Telescope? (5th to 8th grades)"
+    ],
+    "srcUrl": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
+    "realUrl": "https://www.cosmosweek.com/?article=what-is-the-nancy-grace-roman-space-telescope-grades-5-8",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=what-is-the-nancy-grace-roman-space-telescope-grades-5-8",
+    "realUrl_en": "https://www.cosmosweek.com/?article=what-is-the-nancy-grace-roman-space-telescope-grades-5-8&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)",
+    "imageAlt_pt": "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)",
+    "imageAlt_en": "What Is the Nancy Grace Roman Space Telescope? (Grades 5-8)",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
+    "slug": "nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface",
+    "cat": "Cosmologia",
+    "catCls": "cosmologia",
+    "img": "https://assets.science.nasa.gov/content/dam/science/psd/solar-system/moon/GSFC_20260331_LEMSA3_006915~orig.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/lunar-science/2023/09/133_lro_nearside.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://images-assets.nasa.gov/image/KSC-20260806-PH-RCR01_0149/KSC-20260806-PH-RCR01_0149~large.jpg",
+        "alt": "5 minutos de leitura Perseguindo o sonho de trabalhar para a NASA Quando jovem, criada em Worcester, Massachusetts, Lindsey Waitt sonhava em trabalhar para a NASA. … Artigo 58 minutos atrás",
+        "alt_pt": "5 minutos de leitura Perseguindo o sonho de trabalhar para a NASA Quando jovem, criada em Worcester, Massachusetts, Lindsey Waitt sonhava em trabalhar para a NASA. … Artigo 58 minutos atrás",
+        "alt_en": "5 min read Pursuing a Dream of Working for NASA As a young girl raised in Worcester, Massachusetts, Lindsey Waitt dreamed of working for NASA. … Article 58 minutes ago",
+        "caption": "5 minutos de leitura Perseguindo o sonho de trabalhar para a NASA Quando jovem, criada em Worcester, Massachusetts, Lindsey Waitt sonhava em trabalhar para a NASA. … Artigo 58 minutos atrás",
+        "caption_pt": "5 minutos de leitura Perseguindo o sonho de trabalhar para a NASA Quando jovem, criada em Worcester, Massachusetts, Lindsey Waitt sonhava em trabalhar para a NASA. … Artigo 58 minutos atrás",
+        "caption_en": "5 min read Pursuing a Dream of Working for NASA As a young girl raised in Worcester, Massachusetts, Lindsey Waitt dreamed of working for NASA. … Article 58 minutes ago"
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "NASA conclui instrumento científico implantado por astronautas para a superfície lunar",
+    "title_pt": "NASA conclui instrumento científico implantado por astronautas para a superfície lunar",
+    "title_en": "NASA Completes Astronaut-Deployed Science Instrument for Lunar Surface",
+    "sub": "A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua.",
+    "sub_pt": "A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua.",
+    "sub_en": "NASA has declared “wrenches down” on the first completed payload designed for Artemis astronauts to deploy on the Moon’s surface.",
+    "excerpt": "A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua.",
+    "excerpt_pt": "A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua.",
+    "excerpt_en": "NASA has declared “wrenches down” on the first completed payload designed for Artemis astronauts to deploy on the Moon’s surface.",
+    "body": "<p>A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua. NASA Goddard / Mike Guinto A NASA declarou “afundar” a primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua.</p><p>NASA/Denny Henry “Quando concebemos o LEMS, não estávamos apenas pensando na próxima missão, estávamos pensando na próxima geração de exploração lunar”, disse Mehdi Benna, cientista do condado de Baltimore da Universidade de Maryland que lidera o LEMS da NASA Goddard. Explore mais 3 min de leitura Paradas ao longo do caminho da totalidade A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentam um total.</p><p>A NASA declarou “afundar” a primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua. NASA Goddard/Mike Guinto A NASA declarou “afundar” a primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua.</p><p>A carga permanecerá em uma sala limpa no Goddard Space Flight Center da NASA em Greenbelt, Maryland, onde foi construída, até que seja designada para uma missão Artemis para implantação na superfície lunar. Os astronautas da Apollo implantaram uma rede de sismógrafos na região equatorial próxima da Lua entre 1969 e 1972.</p><p>Esses instrumentos funcionaram até 1977, registando cerca de 13.000 terremotos lunares e outras vibrações do solo que ajudaram os cientistas a começar a compreender a composição do interior da Lua. Agora, o LEMS transportará os primeiros sismógrafos a serem implantados pelos futuros astronautas para ouvir as fracas vibrações do solo, recolhendo novas pistas sobre a estrutura interna da Lua e a actividade sísmica em curso.</p><p>O próprio LEMS tem aproximadamente o tamanho de uma pequena mala, pesando 11 libras no ambiente de baixa gravidade da Lua.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/artemis/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua. NASA Goddard / Mike Guinto A NASA declarou “afundar” a primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua.</p><p>NASA/Denny Henry “Quando concebemos o LEMS, não estávamos apenas pensando na próxima missão, estávamos pensando na próxima geração de exploração lunar”, disse Mehdi Benna, cientista do condado de Baltimore da Universidade de Maryland que lidera o LEMS da NASA Goddard. Explore mais 3 min de leitura Paradas ao longo do caminho da totalidade A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentam um total.</p><p>A NASA declarou “afundar” a primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua. NASA Goddard/Mike Guinto A NASA declarou “afundar” a primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua.</p><p>A carga permanecerá em uma sala limpa no Goddard Space Flight Center da NASA em Greenbelt, Maryland, onde foi construída, até que seja designada para uma missão Artemis para implantação na superfície lunar. Os astronautas da Apollo implantaram uma rede de sismógrafos na região equatorial próxima da Lua entre 1969 e 1972.</p><p>Esses instrumentos funcionaram até 1977, registando cerca de 13.000 terremotos lunares e outras vibrações do solo que ajudaram os cientistas a começar a compreender a composição do interior da Lua. Agora, o LEMS transportará os primeiros sismógrafos a serem implantados pelos futuros astronautas para ouvir as fracas vibrações do solo, recolhendo novas pistas sobre a estrutura interna da Lua e a actividade sísmica em curso.</p><p>O próprio LEMS tem aproximadamente o tamanho de uma pequena mala, pesando 11 libras no ambiente de baixa gravidade da Lua.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/artemis/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>NASA has declared “wrenches down” on the first completed payload designed for Artemis astronauts to deploy on the Moon’s surface. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. NASA Goddard/Mike Guinto NASA has declared “wrenches down” on the first completed payload designed for Artemis astronauts to deploy on the Moon’s surface. Explore More 3 min read Stops Along the Path of Totality Western Iceland and northern Spain are among the few Northern Hemisphere locations experiencing a total.</p><p>NASA has declared “wrenches down” on the first completed payload designed for Artemis astronauts to deploy on the Moon&#x27;s surface. NASA Goddard/Mike Guinto NASA has declared “wrenches down” on the first completed payload designed for Artemis astronauts to deploy on the Moon&#x27;s surface.</p><p>The payload will remain in a clean room at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, where it was built, until it is assigned to an Artemis mission for deployment. Apollo astronauts deployed a network of seismometers on the Moon’s nearside equatorial region between 1969 and 1972.</p><p>Those instruments operated until 1977, recording about 13, 000 moonquakes and other ground vibrations that helped scientists begin to understand the composition of the Moon’s. Now, LEMS will carry the first seismometers to be deployed by future astronauts to listen for faint ground vibrations, collecting new clues to the Moon’s internal structure and.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>LEMS itself is about the size of a small suitcase, weighing 11 pounds in the Moon’s low-gravity environment. When we conceived of LEMS, we weren’t just thinking about the next mission, we were thinking about the next generation of lunar exploration,” said Mehdi Benna, a University of.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/artemis/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: NASA has declared “wrenches down” on the first completed payload designed for Artemis astronauts to deploy on the Moon’s surface",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "11 ago 2026",
+    "date_pt": "11 ago 2026",
+    "date_en": "11 Aug 2026",
+    "time": "19h41",
+    "time_pt": "19h41",
+    "time_en": "19: 41 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-11T19:41:34+00:00",
+    "lastModifiedIso": "2026-08-12T16:55:26+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Cosmologia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA conclui instrumento científico implantado por astronautas para a superfície lunar"
+    ],
+    "keywords_pt": [
+      "Cosmologia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA conclui instrumento científico implantado por astronautas para a superfície lunar"
+    ],
+    "keywords_en": [
+      "Cosmology",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA completes scientific instrument deployed by astronauts to lunar surface"
+    ],
+    "srcUrl": "https://science.nasa.gov/missions/artemis/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/",
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "NASA conclui instrumento científico implantado por astronautas para a superfície lunar",
+    "imageAlt_pt": "NASA conclui instrumento científico implantado por astronautas para a superfície lunar",
+    "imageAlt_en": "NASA Completes Astronaut-Deployed Science Instrument for Lunar Surface",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 4,
     "slug": "nasa-shares-station-research-today-supporting-moon-mars-tomorrow",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -73,19 +474,19 @@ window.postsData = [
     "body_pt": "<p>A Estação Espacial Internacional esteve ocupada ao longo de 2026, pois continua a ser um espaço de trabalho movimentado para astronautas que conduzem uma variedade de experiências científicas que estabelecem as bases para missões à Lua e mais além. A missão Artemis II da NASA em abril foi o primeiro voo tripulado ao redor da Lua em mais de 50 anos, [. ].</p><p>Expedição à Estação Espacial Internacional 74 astronautas (a partir da esquerda) Chris Williams, Jack Hathaway, Sophie Adenot e Jessica Meir dentro da cúpula da estação espacial esperando para observar a espaçonave Orion - com a tripulação Artemis II dentro - enquanto ela.</p><p>Otimizando a tecnologia espacial Para assistir a este vídeo, habilite o JavaScript e considere atualizar para um navegador da Web que suporte vídeo HTML5 A astronauta da ESA (Agência Espacial Europeia), Sophie Adenot, ativa o Dispositivo Europeu de Exercício de Exploração. Estudando o corpo no espaço Os astronautas da NASA Jessica Meir e Chris Williams coletam amostras congeladas de pesquisa dentro do módulo de laboratório Destiny da Estação Espacial Internacional.</p><p>Para saber mais sobre a pesquisa em andamento a bordo da estação espacial, visite: NASA. gov/ISS-Research Compartilhar detalhes Última atualização em 10 de agosto de 2026 Termos relacionados Pesquisa da ISS Estação Espacial Internacional (ISS) Continue explorando Descubra mais. Sophie Adenot e Jessica Meir dentro da cúpula da estação espacial esperando para observar a espaçonave Orion, com a tripulação Artemis II dentro, enquanto ela reentra na atmosfera da Terra.</p><p>NASA A Estação Espacial Internacional esteve ocupada ao longo de 2026, pois continua a ser um espaço de trabalho movimentado para astronautas que conduzem uma variedade de experimentos científicos que estabelecem as bases para missões à Lua e além. A missão Artemis II da NASA em abril foi o primeiro voo tripulado ao redor da Lua em mais de 50 anos, marcando um marco importante para o retorno da humanidade à superfície lunar.</p><p>A pesquisa a bordo da estação espacial, juntamente com os programas Artemis e Moon Base, continuarão a demonstrar como a NASA está se preparando para a exploração sustentada da Lua pelos astronautas e, eventualmente, de Marte.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/station/iss-research/nasa-shares-station-research-today-supporting-moon-mars-tomorrow/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>The International Space Station has been busy throughout 2026, as it continues to be a bustling workspace for astronauts conducting a variety of scientific experiments that lay the groundwork for missions to the Moon and beyond. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. NASA’s Artemis II mission in April was the first crewed flight around the Moon in more than 50 years. International Space Station Expedition 74 astronauts (from left) Chris Williams, Jack Hathaway, Sophie Adenot, and Jessica Meir inside the space station’s cupola waiting to.</p><p>Optimizing space technology To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video ESA (European Space Agency) astronaut. Studying the body in space NASA astronauts Jessica Meir and Chris Williams collect frozen research samples from inside the International Space Station’s Destiny laboratory module.</p><p>To learn more about ongoing research aboard the space station, visit: NASA. gov/ISS-Research Share Details Last Updated Aug 10, 2026 Related Terms ISS Research International Space. Sophie Adenot, and Jessica Meir inside the space station’s cupola waiting to observe the Orion spacecraft, with the Artemis II crew inside, as it reenters Earth’s atmosphere.</p><p>NASA The International Space Station has been busy throughout 2026, as it continues to be a bustling workspace for astronauts conducting a variety of scientific experiments that. NASA’s Artemis II mission in April was the first crewed flight around the Moon in more than 50 years, marking a major milestone for humanity’s return to the lunar surface.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Research aboard the space station, coupled with Artemis and Moon Base programs, will continue to demonstrate how NASA is preparing for sustained astronaut exploration of the Moon. To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video Astronauts aboard the International Space Station demonstrate and.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/station/iss-research/nasa-shares-station-research-today-supporting-moon-mars-tomorrow/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A Estação Espacial Internacional esteve ocupada ao longo de 2026, pois continua a ser um espaço de trabalho movimentado para astronautas que conduzem",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Estação Espacial Internacional esteve ocupada ao longo de 2026, pois continua a ser um espaço de trabalho movimentado para astronautas que conduzem.",
+      "Dado-chave: A Estação Espacial Internacional esteve ocupada ao longo de 2026, pois continua a ser um espaço de trabalho movimentado para astronautas que.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A Estação Espacial Internacional esteve ocupada ao longo de 2026, pois continua a ser um espaço de trabalho movimentado para astronautas que conduzem",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Estação Espacial Internacional esteve ocupada ao longo de 2026, pois continua a ser um espaço de trabalho movimentado para astronautas que conduzem.",
+      "Dado-chave: A Estação Espacial Internacional esteve ocupada ao longo de 2026, pois continua a ser um espaço de trabalho movimentado para astronautas que.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The International Space Station has been busy throughout 2026, as it continues to be a bustling workspace for astronauts conducting a variety of",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The International Space Station has been busy throughout 2026, as it continues to be a bustling workspace for astronauts conducting a variety of.",
+      "Key detail: The International Space Station has been busy throughout 2026, as it continues to be a bustling workspace for astronauts conducting a variety of",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "11 ago 2026",
     "date_pt": "11 ago 2026",
@@ -173,7 +574,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 5,
     "slug": "dust-and-water-spotted-close-to-giant-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -313,7 +714,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 6,
     "slug": "the-quadratic-growth-of-krylov-spread-complexity-in-the-btz-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -334,18 +735,19 @@ window.postsData = [
     "body_pt": "<p>A quantidade limite que captura o crescimento do interior dos buracos negros quantificado pela complexidade holográfica permanece desconhecida além da gravidade dilaton 2d. Nós fornecemos uma análise crítica de uma construção de função de partição da complexidade de propagação de Krylov para estados duplos de campo térmico que fornece uma reconstrução de limite independente de dimensão a partir de funções de partição holográfica semiclássica.</p><p>No modelo Sachdev-Ye-Kitaev de escala dupla, onde resultados exatos e semiclássicos podem ser comparados, mostramos que o limite clássico é confiável apenas quando tomado após a reconstrução da complexidade. Considerar este limite ao nível dos coeficientes de Lanczos individuais descarta informações essenciais.</p><p>Em seguida, combinamos esse comportamento de limite com um objeto volumoso de complexidade generalizada = qualquer coisa construído a partir de uma série infinita de invariantes de curvatura extrínseca. A construção fornece uma rota sistemática da termodinâmica dos buracos negros à dinâmica de Krylov e pode naturalmente ser estendida a buracos negros holográficos de dimensões superiores.</p><p>Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário. ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem.</p><p>Tem uma ideia de um projeto que agregue valor à comunidade arXiv? . Saiba mais sobre o arXivLabs.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.09922v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>The boundary quantity that captures the growth of black-hole interiors quantified by holographic complexity remains unknown beyond 2d dilaton gravity. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>That matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. We provide a critical analysis of a partition-function construction of Krylov spread complexity for thermofield-double states that provides a dimension-independent boundary. In the double-scaled Sachdev-Ye-Kitaev model, where exact and semiclassical results can be compared, we show that the classical limit is reliable only when taken after the.</p><p>Taking this limit at the level of individual Lanczos coefficients discards essential information. We then match this boundary behavior to a generalized complexity = anything bulk object built from an infinite series of extrinsic-curvature invariants.</p><p>The construction provides a systematic route from black-hole thermodynamics to Krylov dynamics and can naturally be extended to higher-dimensional holographic black holes. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.09922v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A quantidade limite que captura o crescimento do interior dos buracos negros quantificado pela complexidade holográfica permanece desconhecida além",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: A quantidade limite que captura o crescimento do interior dos buracos negros quantificado pela complexidade holográfica permanece desconhecida além.",
+      "Dado-chave: A quantidade limite que captura o crescimento do interior dos buracos negros quantificado pela complexidade holográfica permanece desconhecida.",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: A quantidade limite que captura o crescimento do interior dos buracos negros quantificado pela complexidade holográfica permanece desconhecida além",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: A quantidade limite que captura o crescimento do interior dos buracos negros quantificado pela complexidade holográfica permanece desconhecida além.",
+      "Dado-chave: A quantidade limite que captura o crescimento do interior dos buracos negros quantificado pela complexidade holográfica permanece desconhecida.",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: The boundary quantity that captures the growth of black-hole interiors quantified by holographic complexity remains unknown beyond 2d dilaton gravity",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: The boundary quantity that captures the growth of black-hole interiors quantified by holographic complexity remains unknown beyond 2d dilaton gravity.",
+      "Key detail: The boundary quantity that captures the growth of black-hole interiors quantified by holographic complexity remains unknown beyond 2d dilaton.",
+      "Result not yet peer reviewed."
     ],
     "date": "10 ago 2026",
     "date_pt": "10 ago 2026",
@@ -433,7 +835,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 7,
     "slug": "lion-nebula-roars-to-life-with-nasa-s-webb",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -454,19 +856,19 @@ window.postsData = [
     "body_pt": "<p>Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de Nebulosa do Leão. 3d Webb no sistema solar 3d Podcasts Webb Image Sonifications Webb’s First Images Team International Team People Of Webb Mais Para a mídia Para cientistas Para educadores Para diversão/aprendizagem 4 min Ler Nebulosa do Leão ruge para a vida com Webb da NASA O Telescópio.</p><p>Processamento de imagem: Alyssa Pagan (STScI) Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA obteve novas imagens de NGC 2392, apelidada de Nebulosa do Leão. Nebulosa do Leão O Telescópio Espacial James Webb da NASA capturou imagens da nebulosa planetária NGC 2392, a Nebulosa do Leão, usando os instrumentos NIRCam e MIRI do observatório.</p><p>Processamento de imagem: Alyssa Pagan (STScI) À primeira vista, a estrutura geral da nebulosa nas imagens infravermelhas de Webb, com os instrumentos NIRCam (Near Infrared Camera) e MIRI (Mid Infrared Instrument), pode parecer bastante semelhante à anterior visão de luz visível. Nebulosa do Leão A imagem infravermelha média da nebulosa planetária NGC 2392, apelidada de Nebulosa do Leão, do Telescópio Espacial James Webb da NASA, destaca as diferentes estruturas de poeira.</p><p>Imagens e vídeos relacionados Nebulosa do Leão O Telescópio Espacial James Webb da NASA capturou imagens da nebulosa planetária NGC 2392, a Nebulosa do Leão, usando os instrumentos NIRCam e MIRI do observatório. Links relacionados Explore mais: Sonificação de NGC 2392 Veja mais: Imagem Hubble de NGC 2392 Veja mais: Observatório de raios X Chandra Imagem de NGC 2392 Mais Webb: Notícias | Imagens | Ciência | Detalhes de compartilhamento da página inicial atualizados pela última vez em 10.</p><p>O Telescópio Espacial Hubble da NASA já viu esta nebulosa planetária em 2000, visualizando o alvo em forma de rosto de leão na luz visível e revelando características como a “juba” de objetos nebulosos em forma de cometa. Webb é um programa internacional liderado pela NASA com os seus parceiros, ESA (Agência Espacial Europeia) e CSA (Agência Espacial Canadense).</p><p>O Telescópio Espacial James Webb da NASA capturou imagens da nebulosa planetária NGC 2392, a Nebulosa do Leão, usando os instrumentos NIRCam e MIRI do observatório.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/webb/lion-nebula-roars-to-life-with-nasas-webb/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern. The gap between identifying a correlation in biological data and understanding the causal chain that produces it is routinely underestimated, and the history of biomedical research is populated with associations that collapsed when the mechanism was sought and not found. A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive finding because it generates testable predictions that can narrow the hypothesis space. 3d Webb in 3d Solar System Podcasts Webb Image Sonifications Webb’s First Images Team International Team People Of Webb More For the Media For Scientists For Educators For. Alyssa Pagan (STScI) Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula.</p><p>Lion Nebula (NIRCam and MIRI Image) NASA’s James Webb Space Telescope imaged the planetary nebula NGC 2392, the Lion Nebula, using the observatory’s NIRCam and MIRI instruments. Alyssa Pagan (STScI) At first glance the nebula’s overall structure in Webb’s infrared images, with both the NIRCam (Near Infrared Camera) and MIRI (Mid Infrared Instrument).</p><p>Lion Nebula (MIRI Image) NASA’s James Webb Space Telescope’s mid-infrared image of planetary nebula NGC 2392, nicknamed the Lion Nebula, highlights the varying dust structures. Related Images &amp; Videos Lion Nebula (NIRCam and MIRI Image) NASA’s James Webb Space Telescope imaged the planetary nebula NGC 2392, the Lion Nebula, using the observatory’s NIRCam.</p><p>Sonification of NGC 2392 View more: Hubble Image of NGC 2392 View more: Chandra X-ray Observatory Image of NGC 2392 More Webb: News | Images | Science | Home Page Share Details. NASA’s Hubble Article Contents Lion Nebula (NIRCam and MIRI Image) Lion Nebula (MIRI Image) Downloads &amp; Related Information Related Links Observing across the starry “plains” of.</p><p>The broader interest lies in whether the reported effect points toward a real mechanism and not merely a reproducible but unexplained association. Biology has learned from decades of biomarker failures that correlation, even robust correlation, is not a substitute for mechanistic understanding. A pathway that can be traced from molecular interaction to cellular response to organismal phenotype provides a far stronger foundation for intervention than a statistical association discovered in a large dataset, however well the statistics are done.</p><p>NASA’s Hubble Space Telescope previously viewed this planetary nebula in 2000, imaging the lion face-shaped target in visible light and revealing features such as the “mane” of. Webb is an international program led by NASA with its partners, ESA (European Space Agency) and CSA (Canadian Space Agency).</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to test whether the effect repeats across different methods, cell types, model organisms and experimental conditions. Reproducibility is the first test, but mechanistic dissection is the second, and a result that passes both has a substantially better chance of translating into something clinically or biotechnologically useful. The path from a laboratory finding to an applied outcome typically takes a decade or more, and most findings do not complete it; the current result sits at the beginning of that process.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/webb/lion-nebula-roars-to-life-with-nasas-webb/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de.",
+      "Dado-chave: Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada de.",
+      "Dado-chave: Observando através das “planícies” estreladas do espaço, o Telescópio Espacial James Webb da NASA capturou novas imagens da NGC 2392, apelidada.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula.",
+      "Key detail: Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "10 ago 2026",
     "date_pt": "10 ago 2026",
@@ -554,7 +956,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 8,
     "slug": "how-esa-mimics-and-models-the-2026-total-solar-eclipse",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -685,7 +1087,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 6,
+    "id": 9,
     "slug": "big-bang-nucleosynthesis-and-wimp-dark-matter-freeze-out-as-probes-of-yukawa-cosmology",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -706,18 +1108,19 @@ window.postsData = [
     "body_pt": "<p>Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa. Primeiro derivamos as equações de Friedmann modificadas partindo da primeira lei da termodinâmica no horizonte aparente.</p><p>Usando dados observacionais sobre abundâncias de \\(^4\\mathrm{He}\\), deutério e \\(^7\\mathrm{Li}\\), colocamos limites rigorosos no acoplamento Yukawa \\(α\\). As restrições \\(^4\\mathrm{He}\\) e de deutério são mutuamente consistentes (\\(-0.24 \\lesssim α\\lesssim 0.12\\)), enquanto \\(^7\\mathrm{Li}\\) requer $α\\in [-0.76, \\, -0.72]$.</p><p>Em seguida, estendemos nossa análise para o congelamento do WIMP e mostramos que o parâmetro de Hubble modificado altera a abundância de relíquias, produzindo uma restrição independente \\(-0, 017 \\lesssim α\\lesssim 0, 018\\) de \\(Ω_{\\mathrm{CDM}}h^2 = 0, 120 \\pm 0, 001\\). Também derivamos a relação tempo-temperatura modificada e mostramos que o \\(α\\) positivo aumenta a temperatura do Universo inicial.</p><p>Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário. ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem.</p><p>Tem uma ideia de um projeto que agregue valor à comunidade arXiv? . Usando dados observacionais sobre abundâncias de \\(^4\\mathrm{He}\\), deutério e \\(^7\\mathrm{Li}\\), colocamos limites rigorosos no acoplamento Yukawa \\(\\alpha\\).</p><p>As restrições \\(^4\\mathrm{He}\\) e de deutério são mutuamente consistentes (\\(-0.24 \\lesssim \\alpha \\lesssim 0.12\\)), enquanto \\(^7\\mathrm{Li}\\) requer $\\alpha \\in [-0.76, \\, -0.72]$.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.09390v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>We investigate Big-Bang Nucleosynthesis in the context of Yukawa cosmology. We first derive the modified Friedmann equations by starting from the first law of thermodynamics on the apparent horizon. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>The significance lies in cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Using observational data on \\(^4\\mathrm{He}\\), deuterium, and \\(^7\\mathrm{Li}\\) abundances, we place stringent bounds on the Yukawa coupling \\(α\\). We then extend our analysis to WIMP freeze-out, and show that the modified Hubble parameter alters the relic abundance, yielding an independent constraint \\(-0.</p><p>We also derive the modified time-temperature relation, and show that the positive \\(α\\) raises the early Universe temperature. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>We first derive the modified Friedmann equations by starting from the first law of thermodynamics on the apparent horizon. Using observational data on \\(^4\\mathrm{He}\\), deuterium, and \\(^7\\mathrm{Li}\\) abundances, we place stringent bounds on the Yukawa coupling \\(\\alpha\\).</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>We also derive the modified time-temperature relation, and show that the positive \\(\\alpha\\) raises the early Universe temperature. Our analysis demonstrates that BBN and dark matter relic abundance serve as complementary probes of modified gravity.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.09390v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa. Primeiro derivamos as equações de Friedmann modificadas partindo da.",
+      "Dado-chave: Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa. Primeiro derivamos as equações de Friedmann modificadas partindo da.",
+      "Dado-chave: Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: We investigate Big-Bang Nucleosynthesis in the context of Yukawa cosmology",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: We investigate Big-Bang Nucleosynthesis in the context of Yukawa cosmology. We first derive the modified Friedmann equations by starting from the.",
+      "Key detail: We investigate Big-Bang Nucleosynthesis in the context of Yukawa cosmology",
+      "Result not yet peer reviewed."
     ],
     "date": "10 ago 2026",
     "date_pt": "10 ago 2026",
@@ -808,7 +1211,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 10,
     "slug": "statistical-inference-of-fast-radio-burst-environments-using-galaxy-number-density",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -829,18 +1232,19 @@ window.postsData = [
     "body_pt": "<p>As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida. Eles são categorizados como repetidores e não repetidores, possivelmente indicando tipos distintos de progenitores.</p><p>As rajadas rápidas de rádio (FRBs) são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p>Saiba mais sobre o arXivLabs. Resumo: Explosões rápidas de rádio (FRBs) são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida.</p><p>No entanto, validar esta distinção é difícil devido ao número limitado de FRBs localizados. Ambientes galácticos em grande escala podem fornecer informações sobre a natureza das galáxias hospedeiras de FRBs e seus progenitores.</p><p>Regiões de alta densidade numérica estão normalmente associadas a galáxias antigas, enquanto regiões de baixa densidade numérica estão ligadas a galáxias jovens em formação de estrelas ou menos massivas.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.09192v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Fast radio bursts are bright, millisecond-duration radio transients of unknown origin. They are categorized as repeaters and non-repeaters, possibly indicating distinct progenitor types. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It is relevant because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Fast radio bursts (FRBs) are bright, millisecond-duration radio transients of unknown origin. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>They are categorized as repeaters and non-repeaters, possibly indicating distinct progenitor types. However, validating this distinction is difficult because of the limited number of localized FRBs.</p><p>Large-scale galactic environments can provide insight into the nature of the host galaxies of FRBs and their progenitors. High-number-density regions are typically associated with old galaxies, whereas low-number-density regions are linked to young star-forming or less massive quiescent galaxies.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>In this study, we use galaxy number density to statistically assess the environments of 19 repeaters and 253 non-repeaters from CHIME Catalog 1, using galaxies from the WISE x PS1. A Kolmogorov-Smirnov (KS) test showed no significant difference between the two populations ($p_{\\rm KS} = 0.673$).</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.09192v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida.",
+      "Dado-chave: As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida.",
+      "Dado-chave: As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: Fast radio bursts are bright, millisecond-duration radio transients of unknown origin",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: Fast radio bursts are bright, millisecond-duration radio transients of unknown origin.",
+      "Key detail: Fast radio bursts are bright, millisecond-duration radio transients of unknown origin",
+      "Result not yet peer reviewed."
     ],
     "date": "10 ago 2026",
     "date_pt": "10 ago 2026",
@@ -928,156 +1332,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 8,
-    "slug": "el-nino-alters-marine-life-in-the-pacific",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/el-niño alters-marine-life-in-the-pacific/chlorophyll_pace_globes_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño alters-marine-life-in-the-pacific/chlorophyll_pace_202506.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño alters-marine-life-in-the-pacific/chlorophyll_pace_202606.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/el-niño alters-marine-life-in-the-pacific/chlorophyll_pace_globes_lrg.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "El Niño altera a vida marinha no Pacífico",
-    "title_pt": "El Niño altera a vida marinha no Pacífico",
-    "title_en": "El Niño Alters Marine Life in the Pacific",
-    "sub": "Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026.",
-    "sub_pt": "Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026.",
-    "sub_en": "Satellite measurements of chlorophyll at the sea surface signal shifts in the ocean’s nutrient supplies in mid-2026.",
-    "excerpt": "Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026.",
-    "excerpt_pt": "Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026.",
-    "excerpt_en": "Satellite measurements of chlorophyll at the sea surface signal shifts in the ocean’s nutrient supplies in mid-2026.",
-    "body": "<p>Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026. Estes mapas representam as concentrações médias mensais de clorofila para junho de 2025 (esquerda), sob condições neutras, e junho de 2026 (direita), à medida que o El Niño se intensificava.</p><p>O Centro de Previsão Climática da NOAA espera que o actual El Niño continue a fortalecer-se até ao final de 2026, com 97 por cento de hipóteses de durar até ao início da Primavera de 2027 no Hemisfério Norte. Os mapas acima mostram as concentrações de clorofila-a, o pigmento presente na maior parte do fitoplâncton, conforme observado pelo OCI (Ocean Color Instrument) no satélite PACE (Plankton, Aerosol, Cloud, ocean Ecosystem) da NASA.</p><p>A diferença mais notável aparece no Pacífico central, em torno do equador, a norte da Nova Zelândia: as concentrações de clorofila, uma indicação da abundância do fitoplâncton, são substancialmente mais baixas em 2026. A missão PACE foi lançada em fevereiro de 2024, tornando este o primeiro evento El Niño completo para o qual o satélite irá recolher medições hiperespectrais globais, quase diárias.</p><p>Observatório da Terra da NASA (2025, 25 de setembro) El Niño. Observatório da Terra da NASA (2015, 29 de outubro) El Niño perturba a teia alimentar marinha&quot;.</p><p>Estúdio de Visualização Científica da NASA (2016, 29 de janeiro) 2015 El Niño perturba a clorofila do oceano. Artigo Color Off the Mid-Atlantic Coast 4 min read Algo está se formando em águas rasas ao largo da costa de Delaware, Nova Jersey, Maryland e Virgínia.</p><p>Artigo 1 2 3 4 Próximo Continue explorando Descubra mais da NASA Earth Science Assine os boletins informativos do Observatório da Terra Assine o Observatório da Terra e receba a Terra em sua caixa de entrada.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/el-nino-alters-marine-life-in-the-pacific/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026. Estes mapas representam as concentrações médias mensais de clorofila para junho de 2025 (esquerda), sob condições neutras, e junho de 2026 (direita), à medida que o El Niño se intensificava.</p><p>O Centro de Previsão Climática da NOAA espera que o actual El Niño continue a fortalecer-se até ao final de 2026, com 97 por cento de hipóteses de durar até ao início da Primavera de 2027 no Hemisfério Norte. Os mapas acima mostram as concentrações de clorofila-a, o pigmento presente na maior parte do fitoplâncton, conforme observado pelo OCI (Ocean Color Instrument) no satélite PACE (Plankton, Aerosol, Cloud, ocean Ecosystem) da NASA.</p><p>A diferença mais notável aparece no Pacífico central, em torno do equador, a norte da Nova Zelândia: as concentrações de clorofila, uma indicação da abundância do fitoplâncton, são substancialmente mais baixas em 2026. A missão PACE foi lançada em fevereiro de 2024, tornando este o primeiro evento El Niño completo para o qual o satélite irá recolher medições hiperespectrais globais, quase diárias.</p><p>Observatório da Terra da NASA (2025, 25 de setembro) El Niño. Observatório da Terra da NASA (2015, 29 de outubro) El Niño perturba a teia alimentar marinha&quot;.</p><p>Estúdio de Visualização Científica da NASA (2016, 29 de janeiro) 2015 El Niño perturba a clorofila do oceano. Artigo Color Off the Mid-Atlantic Coast 4 min read Algo está se formando em águas rasas ao largo da costa de Delaware, Nova Jersey, Maryland e Virgínia.</p><p>Artigo 1 2 3 4 Próximo Continue explorando Descubra mais da NASA Earth Science Assine os boletins informativos do Observatório da Terra Assine o Observatório da Terra e receba a Terra em sua caixa de entrada.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/el-nino-alters-marine-life-in-the-pacific/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Satellite measurements of chlorophyll at the sea surface signal shifts in the ocean’s nutrient supplies in mid-2026. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. These maps depict monthly average chlorophyll concentrations for June 2025 (left), under neutral conditions, and June 2026 (right), as El Niño was strengthening. NOAA’s Climate Prediction Center expects the current El Niño to continue to strengthen through the end of 2026, with a 97 percent chance of lasting through early Northern.</p><p>The maps above show chlorophyll-a concentrations, the pigment present in most phytoplankton —as observed by the OCI (Ocean Color Instrument) on NASA’s PACE (Plankton, Aerosol. The most noticeable difference appears in the central Pacific, around the equator due north of New Zealand: chlorophyll concentrations, an indication of phytoplankton abundance.</p><p>The PACE mission launched in February 2024, making this the first complete El Niño event for which the satellite will gather global, near-daily hyperspectral measurements. NASA Earth Observatory (2025, September 25) El Niño.</p><p>NASA Earth Observatory (2015, October 29) El Niño Disrupts the Marine Food Web. NASA Scientific Visualization Studio (2016, January 29) 2015 El Niño Disrupts Ocean Chlorophyll.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Article Color Off the Mid-Atlantic Coast 4 min read Something is brewing in shallow waters offshore of Delaware, New Jersey, Maryland, and Virginia. Article Sizing Up the Sargassum Belt 6 min read Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/el-nino-alters-marine-life-in-the-pacific/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Em foco: Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: Medições de clorofila por satélite na superfície do mar sinalizam mudanças nas reservas de nutrientes do oceano em meados de 2026",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: Satellite measurements of chlorophyll at the sea surface signal shifts in the ocean’s nutrient supplies in mid-2026",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "10 ago 2026",
-    "date_pt": "10 ago 2026",
-    "date_en": "10 Aug 2026",
-    "time": "04h01",
-    "time_pt": "04h01",
-    "time_en": "04: 01 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-10T04:01:00+00:00",
-    "lastModifiedIso": "2026-08-10T16:45:37+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "El Niño altera a vida marinha no Pacífico"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "El Niño altera a vida marinha no Pacífico"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "El Niño alters marine life in the Pacific"
-    ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/el-nino-alters-marine-life-in-the-pacific/",
-    "realUrl": "https://www.cosmosweek.com/?article=el-nino-alters-marine-life-in-the-pacific",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=el-nino-alters-marine-life-in-the-pacific",
-    "realUrl_en": "https://www.cosmosweek.com/?article=el-nino-alters-marine-life-in-the-pacific&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/el-nino-alters-marine-life-in-the-pacific/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/el-nino-alters-marine-life-in-the-pacific/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/el-nino-alters-marine-life-in-the-pacific/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/el-nino-alters-marine-life-in-the-pacific/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/el-nino-alters-marine-life-in-the-pacific/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/el-nino-alters-marine-life-in-the-pacific/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "El Niño altera a vida marinha no Pacífico",
-    "imageAlt_pt": "El Niño altera a vida marinha no Pacífico",
-    "imageAlt_en": "El Niño Alters Marine Life in the Pacific",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 9,
+    "id": 11,
     "slug": "a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1208,7 +1463,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 12,
     "slug": "science-campaigns-planned-for-the-august-12th-total-solar-eclipse",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1270,19 +1525,19 @@ window.postsData = [
     "body_pt": "<p>Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto. O post Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto apareceu pela primeira vez na Sky &amp; Telescope.</p><p>(Você pode cancelar a inscrição a qualquer momento) Várias campanhas científicas planejam saudar a sombra acelerada da Lua em 12 de agosto. O mágico e diretor de fotografia Nevil Maskelyne também capturou a primeira sequência de vídeo em movimento da totalidade durante um eclipse em 28 de maio de 1900, visto da Carolina do Norte.</p><p>A NASA planeja liderar o caminho em 12 de agosto, pilotando uma de suas aeronaves WB-57 Canberra (um bombardeiro militar convertido) para perseguir a sombra da Lua. O WB-57 da NASA encontrará a sombra da Lua sob um céu sem nuvens a 50.000 pés sobre o Atlântico Norte, a oeste da Islândia, perto do ponto máximo de totalidade.</p><p>A sombra estará correndo pela Terra a mais de 3.300 km/h, então o vôo a 740 km/h estenderá a totalidade de 2 minutos e 18 segundos para cerca de 3 minutos de duração. A NASA realizou interceptações de eclipses semelhantes em 2017 e 2024.</p><p>O instrumento é o mesmo, mas estamos a implementar as lições aprendidas a partir de 2024 para ajustar melhor as configurações do instrumento, e os dados serão processados ​​muito mais rapidamente utilizando o pipeline de processamento que foi desenvolvido com os dados de 2024. As câmeras a bordo que podem ter campos de visão de 360 ​​graus também devem capturar imagens dramáticas da sombra da Lua que se aproxima.</p><p>Um voo conjunto C295 da ESA/Irish Air Corps irá perseguir a sombra da Lua no dia 12 de agosto.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Several science campaigns plan to greet the racing shadow of the Moon on August 12th. The post Science Campaigns Planned for the August 12th Total Solar Eclipse appeared first on Sky &amp; Telescope. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Several science campaigns plan to greet the racing shadow of the Moon on August 12th. The post Science Campaigns Planned for the August 12th Total Solar Eclipse appeared first on Sky &amp; Telescope.</p><p>(You can unsubscribe anytime) Several science campaigns plan to greet the racing shadow of the Moon on August 12th. Magician and cinematographer Nevil Maskelyne also caught the first moving video sequence of totality during an eclipse on May 28, 1900, as seen from North Carolina.</p><p>NASA plans to lead the way on August 12th, flying one of its WB-57 Canberra aircraft (a converted military bomber) to chase the shadow of the Moon. NASA’s WB-57 will meet the Moon’s shadow under cloudless skies at 50, 000 feet over the North Atlantic west of Iceland, near the maximum point of totality.</p><p>The shadow will be racing across Earth at over 2, 100 mph, so the 460 mph flight will extend totality from 2 minutes, 18 seconds, to about 3 minutes duration. NASA has performed similar eclipse intercepts in 2017 and 2024.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>The instrument is the same, but we are implementing lessons learned from 2024 to better dial in the instrument settings, and the data will be processed much faster using the. Cameras on board that can have 360-degree fields of view should also capture dramatic views of the Moon’s approaching shadow.</p><p>Because this item comes through Sky &amp; Telescope as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto.",
+      "Dado-chave: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
-      "Em foco: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto.",
+      "Dado-chave: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
-      "Focus: Several science campaigns plan to greet the racing shadow of the Moon on August 12th",
-      "Detail: Science reporting: verify primary technical documentation",
-      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+      "Core point: Several science campaigns plan to greet the racing shadow of the Moon on August 12th.",
+      "Key detail: Several science campaigns plan to greet the racing shadow of the Moon on August 12th",
+      "Science reporting: verify primary technical documentation."
     ],
     "date": "07 ago 2026",
     "date_pt": "07 ago 2026",
@@ -1370,151 +1625,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 11,
-    "slug": "sensing-the-poles-hidden-heat",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/sensing-the-poles’-hidden-heat/seasonaltempbal_prefire_2026_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": {
-      "kind": "file",
-      "platform": "html5",
-      "embedUrl": "",
-      "fileUrl": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/sensing-the-poles’-hidden-heat/seasonaltempbal_prefire_2026_loop.mp4",
-      "poster": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/sensing-the-poles’-hidden-heat/seasonaltempbal_prefire_2026_th.jpg?w=1920&h=1080&fit=clip&crop=faces%2Cfocalpoint",
-      "title": "Sentindo o calor oculto dos poloneses - NASA Science",
-      "title_pt": "Sentindo o calor oculto dos poloneses - NASA Science",
-      "title_en": "Sensing the Poles’ Hidden Heat - NASA Science",
-      "caption": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
-      "caption_pt": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
-      "caption_en": "New animations from NASA's PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
-      "sourcePage": "https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/"
-    },
-    "audio": null,
-    "title": "Sentindo o calor oculto dos poloneses",
-    "title_pt": "Sentindo o calor oculto dos poloneses",
-    "title_en": "Sensing the Poles’ Hidden Heat",
-    "sub": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
-    "sub_pt": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
-    "sub_en": "New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
-    "excerpt": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
-    "excerpt_pt": "Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.",
-    "excerpt_en": "New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic.",
-    "body": "<p>Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida. Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal.</p><p>Imagem do dia do Observatório da Terra O Observatório da Terra da NASA traz para você a Terra, todos os dias, com histórias detalhadas e imagens impressionantes. Os dados para a animação vêm dos satélites PREFIRE (Polar Radiant Energy in the Far-InfraRed Experiment) da NASA.</p><p>Os CubeSats gêmeos da missão começaram a coletar dados científicos em julho de 2024 e agora capturaram dois ciclos sazonais completos em cada pólo. A luz solar absorvida pela superfície é re-irradiada como calor infravermelho, que salta entre a superfície da Terra e a atmosfera antes de escapar para o espaço.</p><p>Os cientistas sabem há muito tempo que a radiação infravermelha representa quase 60% da energia que a Terra perde para o espaço, mas essa parte do espectro, invisível aos olhos humanos, nunca tinha sido medida de forma abrangente à escala global. Ao rastrear diretamente esta energia invisível quase em tempo real, a missão PREFIRE está a ajudar os cientistas a refinar modelos e a obter uma melhor compreensão do sistema terrestre.</p><p>Agora que o invisível se tornou visível, podemos começar a melhorar as previsões meteorológicas e climáticas nas quais as indústrias, a nossa defesa nacional e as comunidades do Ártico dependem. ” Mapas cortesia de Chad Greene, NASA/JPL, usando dados da missão PREFIRE da NASA. Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal.</p><p>Artigo 1 2 3 4 Próximo Continue explorando Descubra mais da NASA Earth Science Assine os boletins informativos do Observatório da Terra Assine o Observatório da Terra e receba a Terra em sua caixa de entrada.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida. Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal.</p><p>Imagem do dia do Observatório da Terra O Observatório da Terra da NASA traz para você a Terra, todos os dias, com histórias detalhadas e imagens impressionantes. Os dados para a animação vêm dos satélites PREFIRE (Polar Radiant Energy in the Far-InfraRed Experiment) da NASA.</p><p>Os CubeSats gêmeos da missão começaram a coletar dados científicos em julho de 2024 e agora capturaram dois ciclos sazonais completos em cada pólo. A luz solar absorvida pela superfície é re-irradiada como calor infravermelho, que salta entre a superfície da Terra e a atmosfera antes de escapar para o espaço.</p><p>Os cientistas sabem há muito tempo que a radiação infravermelha representa quase 60% da energia que a Terra perde para o espaço, mas essa parte do espectro, invisível aos olhos humanos, nunca tinha sido medida de forma abrangente à escala global. Ao rastrear diretamente esta energia invisível quase em tempo real, a missão PREFIRE está a ajudar os cientistas a refinar modelos e a obter uma melhor compreensão do sistema terrestre.</p><p>Agora que o invisível se tornou visível, podemos começar a melhorar as previsões meteorológicas e climáticas nas quais as indústrias, a nossa defesa nacional e as comunidades do Ártico dependem. ” Mapas cortesia de Chad Greene, NASA/JPL, usando dados da missão PREFIRE da NASA. Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal.</p><p>Artigo 1 2 3 4 Próximo Continue explorando Descubra mais da NASA Earth Science Assine os boletins informativos do Observatório da Terra Assine o Observatório da Terra e receba a Terra em sua caixa de entrada.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet. Earth Observatory Image of the Day NASA’s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>Data for the animation come from NASA’s PREFIRE (Polar Radiant Energy in the Far-InfraRed Experiment) satellites. The mission’s twin CubeSats began collecting science data in July 2024 and have now captured two complete seasonal cycles at each pole.</p><p>Sunlight absorbed by the surface is re-radiated as infrared heat, which bounces between Earth’s surface and atmosphere before escaping to space. Long known that far-infrared radiation accounts for nearly 60 percent of the energy Earth loses to space, but that portion of the spectrum, invisible to human.</p><p>By directly tracking this invisible energy in near-real-time, the PREFIRE mission is helping scientists refine models and gain a better understanding of the Earth system. Now that the invisible has been made visible, we can begin to improve weather and climate predictions that industries, our national defense, and Arctic communities rely on.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Article 1 2 3 4 Next Keep Exploring Discover More from NASA Earth Science Subscribe to Earth Observatory Newsletters Subscribe to the Earth Observatory and get the Earth in your. NASA&#x27;s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Em foco: Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "07 ago 2026",
-    "date_pt": "07 ago 2026",
-    "date_en": "07 Aug 2026",
-    "time": "04h00",
-    "time_pt": "04h00",
-    "time_en": "04: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-07T04:00:00+00:00",
-    "lastModifiedIso": "2026-08-07T16:43:53+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Sentindo o calor oculto dos poloneses"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Sentindo o calor oculto dos poloneses"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Feeling the hidden warmth of the Poles"
-    ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/sensing-the-poles-hidden-heat/",
-    "realUrl": "https://www.cosmosweek.com/?article=sensing-the-poles-hidden-heat",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=sensing-the-poles-hidden-heat",
-    "realUrl_en": "https://www.cosmosweek.com/?article=sensing-the-poles-hidden-heat&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/sensing-the-poles-hidden-heat/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/sensing-the-poles-hidden-heat/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/sensing-the-poles-hidden-heat/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/sensing-the-poles-hidden-heat/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/sensing-the-poles-hidden-heat/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/sensing-the-poles-hidden-heat/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Sentindo o calor oculto dos poloneses",
-    "imageAlt_pt": "Sentindo o calor oculto dos poloneses",
-    "imageAlt_en": "Sensing the Poles’ Hidden Heat",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 12,
+    "id": 13,
     "slug": "how-the-tide-turns-at-the-mouth-of-the-elbe",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1663,7 +1774,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "europe-s-forests-losing-more-biomass-since-2018",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1784,7 +1895,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "the-paradox-of-lencois-maranhenses-national-park",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1825,17 +1936,17 @@ window.postsData = [
     "body_en": "<p>The coastal dune field in Brazil looks like a desert but fills with freshwater lagoons every year. The post The Paradox of Lençóis Maranhenses National Park appeared first on NASA Science. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The post The Paradox of Lençóis Maranhenses National Park appeared first on NASA Science. Winds blowing from the northeast created the lines of dunes visible in this detailed view of a portion of the Landsat 9 image shown above.</p><p>Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet. Article 1 2 3 4 Next Keep Exploring Discover More from NASA Earth Science Subscribe to Earth Observatory Newsletters Subscribe to the Earth Observatory and get the Earth in your.</p><p>Earth Observatory Image of the Day NASA&#x27;s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery. Explore Earth Science Earth Science Data Open access to NASA’s archive of Earth science data The post The Paradox of Lençóis Maranhenses National Park appeared first on NASA.</p><p>It spans about 900 square kilometers (350 square miles), roughly the size of New York City. NASA&#x27;s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Open access to NASA’s archive of Earth science data Atlas Obscura (2020, July 16) The Brazilian Desert That Turns Into a Thousand Lagoons. (2019) Modelling Dunes from Lençóis Maranhenses National Park (Brazil): Largest dune field in South America.</p><p>Because the account originates with NASA Earth Observatory, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/the-paradox-of-lencois-maranhenses-national-park/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: O campo de dunas costeiras do Brasil parece um deserto, mas se enche de lagoas de água doce todos os anos.",
-      "Dado-chave: O campo de dunas costeiras do Brasil parece um deserto, mas se enche de lagoas de água doce todos os anos",
+      "Dado-chave: O campo de dunas costeiras do Brasil parece um deserto, mas se enche de lagoas de água doce todos os anos.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: O campo de dunas costeiras do Brasil parece um deserto, mas se enche de lagoas de água doce todos os anos.",
-      "Dado-chave: O campo de dunas costeiras do Brasil parece um deserto, mas se enche de lagoas de água doce todos os anos",
+      "Dado-chave: O campo de dunas costeiras do Brasil parece um deserto, mas se enche de lagoas de água doce todos os anos.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: The coastal dune field in Brazil looks like a desert but fills with freshwater lagoons every year.",
-      "Key detail: The coastal dune field in Brazil looks like a desert but fills with freshwater lagoons every year",
+      "Key detail: The coastal dune field in Brazil looks like a desert but fills with freshwater lagoons every year.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "05 ago 2026",
@@ -1924,14 +2035,14 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 15,
-    "slug": "a-bare-summer-for-barnes-ice-cap",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/a-bare-summer-for-barnes-ice-cap/barnesicecapwide_oli2_20260712_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "id": 16,
+    "slug": "nsf-stands-up-2-materials-innovation-platforms-with-50m-investment",
+    "cat": "Física",
+    "catCls": "fisica",
+    "img": "https://nsf-gov-resources.nsf.gov/styles/_inline_image_full_width/s3/media_hub/2534344_TAMU_AutoLab_3DRender_91_graded_cropped_16x9.jpg?itok=RwYewXvb",
     "inline_images": [
       {
-        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/a-bare-summer-for-barnes-ice-cap/barnesicecap_oli2_20260712_lrg.jpg",
+        "src": "https://nsf-gov-resources.nsf.gov/styles/featured_news/s3/media_hub/2534344_TAMU_AutoLab_3DRender_91_graded_cropped_16x9.jpg?itok=AB0pWW3c",
         "alt": "",
         "alt_pt": "",
         "alt_en": "",
@@ -1940,57 +2051,84 @@ window.postsData = [
         "caption_en": ""
       },
       {
-        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
+        "src": "https://nsf-gov-resources.nsf.gov/styles/news_sidebar_teaser/s3/media_hub/Differential_privacy.png?itok=E1oxMJqt",
+        "alt": "Ilustração representando o reconhecimento de identidade facial",
+        "alt_pt": "Ilustração representando o reconhecimento de identidade facial",
+        "alt_en": "Illustration depicting facial identity recognition",
+        "caption": "Ilustração representando o reconhecimento de identidade facial",
+        "caption_pt": "Ilustração representando o reconhecimento de identidade facial",
+        "caption_en": "Illustration depicting facial identity recognition"
+      },
+      {
+        "src": "https://nsf-gov-resources.nsf.gov/styles/_inline_image_full_width/s3/media_hub/Differential_privacy.png?itok=IY1kDRtk",
+        "alt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "alt_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "alt_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program",
+        "caption": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "caption_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "caption_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program"
+      },
+      {
+        "src": "https://nsf-gov-resources.nsf.gov/styles/featured_news/s3/media_hub/Differential_privacy.png?itok=Cslui841",
+        "alt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "alt_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "alt_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program",
+        "caption": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "caption_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "caption_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program"
+      },
+      {
+        "src": "https://www.nsf.gov/themes/custom/nsf_theme/plugins/uswds/dist/img/us_flag_small.png",
+        "alt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "alt_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "alt_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program",
+        "caption": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "caption_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
+        "caption_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program"
       }
     ],
     "video": null,
     "audio": null,
-    "title": "Um verão nu para a calota polar de Barnes",
-    "title_pt": "Um verão nu para a calota polar de Barnes",
-    "title_en": "A Bare Summer for Barnes Ice Cap",
-    "sub": "A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de características de derretimento.",
-    "sub_pt": "A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de características de derretimento.",
-    "sub_en": "The expanse of glacial ice on Canada’s Baffin Island lost its snow cover quickly and early in summer 2026, revealing a network of melt features.",
-    "excerpt": "A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de características de derretimento.",
-    "excerpt_pt": "A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de características de derretimento.",
-    "excerpt_en": "The expanse of glacial ice on Canada’s Baffin Island lost its snow cover quickly and early in summer 2026, revealing a network of melt features.",
-    "body": "<p>A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de características de derretimento. A postagem Um verão nu para a calota polar de Barnes apareceu pela primeira vez na NASA Science.</p><p>O post Um verão nu para a calota polar de Barnes apareceu pela primeira vez na NASA Science. A perda precoce de neve e o retorno dos canais de água de degelo em 2026 significam que o escoamento de água de degelo também começará mais cedo, com implicações para o equilíbrio de massa da calota polar.</p><p>Downloads em 12 de julho de 2026 JPEG (18, 16 MB) Referências e recursos da perspectiva das geleiras (2026, 18 de julho) As geleiras da calota polar Barnes e da Ilha Baffin perdem a cobertura de neve em julho de 2026. Explore dados de ciências da terra da Terra Acesso aberto ao arquivo de dados de ciências da Terra da NASA A postagem Um verão nu para a calota polar de Barnes apareceu pela primeira vez em NASA Science.</p><p>A perda precoce de neve e o retorno dos canais de água do degelo em 2026 significam que o escoamento da água do degelo também começará mais cedo, com implicações para o equilíbrio de massa da calota polar. A investigação indica que a calota polar diminuiu cerca de 1 metro (3 pés) por ano entre 2000 e 2020 e, nos últimos 40 anos, a sua margem recuou cerca de 4 metros (13 pés) por ano, em média.</p><p>Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal. Artigo 1 2 3 4 Próximo Continue explorando Descubra mais da NASA Earth Science Assine os boletins informativos do Observatório da Terra Assine o Observatório da Terra e receba a Terra em sua caixa de entrada.</p><p>Acesso aberto ao arquivo de dados científicos da Terra da NASA De uma perspectiva das geleiras (2026, 18 de julho) As geleiras da calota polar Barnes e da Ilha Baffin perdem a cobertura de neve em julho de 2026.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/a-bare-summer-for-barnes-ice-cap/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de características de derretimento. A postagem Um verão nu para a calota polar de Barnes apareceu pela primeira vez na NASA Science.</p><p>O post Um verão nu para a calota polar de Barnes apareceu pela primeira vez na NASA Science. A perda precoce de neve e o retorno dos canais de água de degelo em 2026 significam que o escoamento de água de degelo também começará mais cedo, com implicações para o equilíbrio de massa da calota polar.</p><p>Downloads em 12 de julho de 2026 JPEG (18, 16 MB) Referências e recursos da perspectiva das geleiras (2026, 18 de julho) As geleiras da calota polar Barnes e da Ilha Baffin perdem a cobertura de neve em julho de 2026. Explore dados de ciências da terra da Terra Acesso aberto ao arquivo de dados de ciências da Terra da NASA A postagem Um verão nu para a calota polar de Barnes apareceu pela primeira vez em NASA Science.</p><p>A perda precoce de neve e o retorno dos canais de água do degelo em 2026 significam que o escoamento da água do degelo também começará mais cedo, com implicações para o equilíbrio de massa da calota polar. A investigação indica que a calota polar diminuiu cerca de 1 metro (3 pés) por ano entre 2000 e 2020 e, nos últimos 40 anos, a sua margem recuou cerca de 4 metros (13 pés) por ano, em média.</p><p>Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal. Artigo 1 2 3 4 Próximo Continue explorando Descubra mais da NASA Earth Science Assine os boletins informativos do Observatório da Terra Assine o Observatório da Terra e receba a Terra em sua caixa de entrada.</p><p>Acesso aberto ao arquivo de dados científicos da Terra da NASA De uma perspectiva das geleiras (2026, 18 de julho) As geleiras da calota polar Barnes e da Ilha Baffin perdem a cobertura de neve em julho de 2026.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/a-bare-summer-for-barnes-ice-cap/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>The expanse of glacial ice on Canada’s Baffin Island lost its snow cover quickly and early in summer 2026, revealing a network of melt features. The post A Bare Summer for Barnes Ice Cap appeared first on NASA Science. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The post A Bare Summer for Barnes Ice Cap appeared first on NASA Science. NASA Earth Observatory/Lauren Dauphin Meltwater ponds in vivid blue pools on the surface of the Barnes Ice Cap’s southwest side in this July 12, 2026, image from the OLI.</p><p>The early snow loss and return of meltwater channels in 2026 means that meltwater runoff is starting earlier too, with implications for the ice cap’s mass balance. Downloads July 12, 2026 JPEG (18.16 MB) References &amp; Resources From a Glaciers Perspective (2026, July 18) Barnes Ice Cap and Baffin Island Glaciers Lose Snow Cover in July 2026.</p><p>Explore Earth Science Earth Science Data Open access to NASA’s archive of Earth science data The post A Bare Summer for Barnes Ice Cap appeared first on NASA Science. NASA Earth Observatory/Lauren Dauphin Meltwater ponds in vivid blue pools on the surface of the Barnes Ice Cap&#x27;s southwest side in this July 12, 2026, image from the OLI.</p><p>The early snow loss and return of meltwater channels in 2026 means that meltwater runoff is starting earlier too, with implications for the ice cap&#x27;s mass balance. Research indicates the ice cap thinned roughly 1 meter (3 feet) per year from 2000 to 2020, and over the past 40 years its margin has retreated about 4 meters (13 feet) per year.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet. Article 1 2 3 4 Next Keep Exploring Discover More from NASA Earth Science Subscribe to Earth Observatory Newsletters Subscribe to the Earth Observatory and get the Earth in your.</p><p>Because the account originates with NASA Earth Observatory, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/a-bare-summer-for-barnes-ice-cap/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "title": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
+    "title_pt": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
+    "title_en": "NSF stands up 2 Materials Innovation Platforms with $50M investment",
+    "sub": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir.",
+    "sub_pt": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir.",
+    "sub_en": "The U. S. National Science Foundation is investing $50 million in research infrastructure to enable the discovery and development of materials that can withstand extreme.",
+    "excerpt": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir a condições extremas, desde compósitos leves para melhor blindagem até.",
+    "excerpt_pt": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir a condições extremas, desde compósitos leves para melhor blindagem até.",
+    "excerpt_en": "The U. S. National Science Foundation is investing $50 million in research infrastructure to enable the discovery and development of materials that can withstand extreme conditions, from lightweight composites for better armor to.",
+    "body": "<p>A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir a condições extremas, desde compósitos leves para melhor blindagem até. Cada uma das novas Plataformas de Inovação de Materiais da NSF, uma no Texas e outra em Wisconsin, adquirirá equipamentos científicos e construirá um sistema, ou plataforma, que os incorpore.</p><p>Desses cientistas, estima-se que 10-20% provirão de universidades e faculdades que gastam comparativamente menos em investigação e podem não ter recursos ou infra-estruturas para equipamentos e sistemas semelhantes. As plataformas de inovação de materiais da NSF atendem a uma ampla necessidade nacional como instalações de usuários que fornecem acesso a alguns dos melhores equipamentos e conhecimentos para pesquisa em ciência de materiais&quot;, disse Tie Luo, chefe da Diretoria de Ciências.</p><p>O NSF ARM-MIP integrará robótica e IA em um único laboratório autônomo capaz de criar novas ligas em uma fração do tempo normalmente necessário. As aplicações para novas ligas incluem turbinas a jato com baixo consumo de combustível, blindagem mais forte para tanques e outros veículos, materiais resistentes à radiação para reatores nucleares, pontes resistentes à corrosão e implantes biocompatíveis.</p><p>O NSF MATRIX-MIP investigará como a complexidade química e estrutural dos materiais influencia seu desempenho em ambientes extremos, como aqueles com alto calor ou forte radiação. Os pesquisadores projetarão experimentos que usam IA para prever rapidamente as propriedades de muitos novos materiais, fabricá-los usando métodos de síntese de alto rendimento e, em seguida, medir as propriedades físicas resultantes.</p><p>Além de investir em duas novas plataformas de inovação de materiais, a NSF também está apoiando os esforços de uma plataforma existente para continuar o seu trabalho científico enquanto expande o seu trabalho com os EUA. A Plataforma de Inovação de Materiais do NSF 2D Crystal Consortium da Universidade Estadual da Pensilvânia recebeu financiamento contínuo da NSF desde a sua criação, há 10 anos, permitindo que se tornasse um centro de pesquisa estabelecido e de classe mundial.</p><p>A NSF está a fornecer 4, 6 milhões de dólares ao longo de quatro anos para fazer a transição das operações da plataforma para um modelo autossustentável que dependerá principalmente de taxas de utilização, pelo que continuará a ser um recurso nacional durante muitos anos.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-stands-2-materials-innovation-platforms-50m-investment\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir a condições extremas, desde compósitos leves para melhor blindagem até. Cada uma das novas Plataformas de Inovação de Materiais da NSF, uma no Texas e outra em Wisconsin, adquirirá equipamentos científicos e construirá um sistema, ou plataforma, que os incorpore.</p><p>Desses cientistas, estima-se que 10-20% provirão de universidades e faculdades que gastam comparativamente menos em investigação e podem não ter recursos ou infra-estruturas para equipamentos e sistemas semelhantes. As plataformas de inovação de materiais da NSF atendem a uma ampla necessidade nacional como instalações de usuários que fornecem acesso a alguns dos melhores equipamentos e conhecimentos para pesquisa em ciência de materiais&quot;, disse Tie Luo, chefe da Diretoria de Ciências.</p><p>O NSF ARM-MIP integrará robótica e IA em um único laboratório autônomo capaz de criar novas ligas em uma fração do tempo normalmente necessário. As aplicações para novas ligas incluem turbinas a jato com baixo consumo de combustível, blindagem mais forte para tanques e outros veículos, materiais resistentes à radiação para reatores nucleares, pontes resistentes à corrosão e implantes biocompatíveis.</p><p>O NSF MATRIX-MIP investigará como a complexidade química e estrutural dos materiais influencia seu desempenho em ambientes extremos, como aqueles com alto calor ou forte radiação. Os pesquisadores projetarão experimentos que usam IA para prever rapidamente as propriedades de muitos novos materiais, fabricá-los usando métodos de síntese de alto rendimento e, em seguida, medir as propriedades físicas resultantes.</p><p>Além de investir em duas novas plataformas de inovação de materiais, a NSF também está apoiando os esforços de uma plataforma existente para continuar o seu trabalho científico enquanto expande o seu trabalho com os EUA. A Plataforma de Inovação de Materiais do NSF 2D Crystal Consortium da Universidade Estadual da Pensilvânia recebeu financiamento contínuo da NSF desde a sua criação, há 10 anos, permitindo que se tornasse um centro de pesquisa estabelecido e de classe mundial.</p><p>A NSF está a fornecer 4, 6 milhões de dólares ao longo de quatro anos para fazer a transição das operações da plataforma para um modelo autossustentável que dependerá principalmente de taxas de utilização, pelo que continuará a ser um recurso nacional durante muitos anos.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-stands-2-materials-innovation-platforms-50m-investment\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>The U. S. National Science Foundation is investing $50 million in research infrastructure to enable the discovery and development of materials that can withstand extreme conditions, from lightweight composites for better armor to. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because physics only takes a result seriously when the measurement chain remains robust under scrutiny. Experimental particle physics and precision metrology both operate in regimes where the signal sits far below the background noise, and where systematic uncertainties can mimic new physics if not controlled rigorously. The history of the field contains numerous anomalies that generated theoretical excitement before better data showed them to be artifacts, and it also contains genuine discoveries that were initially dismissed as noise. The difference is almost always resolved by independent replication with different instruments and different systematics. National Science Foundation is investing $50 million in research infrastructure to enable the discovery and development of materials that can withstand extreme conditions, from. Each of the new NSF Materials Innovation Platforms, one in Texas and one in Wisconsin, will acquire scientific equipment and build a system, or platform, that incorporates it.</p><p>Of those scientists, an estimated 10-20% will come from universities and colleges that spend comparatively less on research and may not have the resources or infrastructure for. The NSF Materials Innovation Platforms serve a broad national need as user facilities that provide access to some of the best equipment and expertise for materials science.</p><p>NSF ARM-MIP will integrate robotics and AI into a single autonomous laboratory capable of creating new alloys in a fraction of the time typically required. The applications for new alloys include fuel-efficient jet turbines, stronger armor for tanks and other vehicles, radiation-resistant materials for nuclear reactors.</p><p>NSF MATRIX-MIP will investigate how the chemical and structural complexity of materials influences their performance in extreme environments, like those with high heat or strong. Researchers will design experiments that use AI to rapidly predict the properties of many new materials, fabricate them using high-throughput synthesis methods and then measure.</p><p>The broader interest lies as much in the method as in the headline number, because a durable measurement procedure can travel farther than a single result. When experimental physicists develop a technique that achieves new sensitivity or controls a previously uncharacterized systematic, that methodological contribution persists even if the specific measurement is later revised. This is one reason why precision physics experiments often generate long-term value that is not immediately visible in the original publication.</p><p>In addition to investing in two new Materials Innovation Platforms, NSF is also supporting an existing platform&#x27;s efforts to continue its scientific work while expanding its work. The NSF 2D Crystal Consortium Materials Innovation Platform at Pennsylvania State University has received continuous funding from NSF since its inception 10 years ago, allowing it.</p><p>Because the account originates with NSF News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is more measurement, tighter systematic control and scrutiny from groups whose experimental setups are genuinely independent. In experimental particle physics and precision metrology, the threshold for a discovery claim is a five-sigma excess surviving multiple analyses; an intriguing signal at lower significance is a reason to run more experiments, not a reason to revise the textbooks. Next-generation experiments currently under construction or commissioning will revisit several of the open questions that give the current result its context.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-stands-2-materials-innovation-platforms-50m-investment\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Ponto central: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de.",
-      "Dado-chave: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de.",
-      "Origem institucional: distinguir anúncio de evidência."
+      "Em foco: A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de",
+      "Detalhe: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
     ],
     "highlights_pt": [
-      "Ponto central: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de.",
-      "Dado-chave: A extensão de gelo glacial na Ilha Baffin, no Canadá, perdeu a cobertura de neve rapidamente e no início do verão de 2026, revelando uma rede de.",
-      "Origem institucional: distinguir anúncio de evidência."
+      "Em foco: A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de",
+      "Detalhe: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
     ],
     "highlights_en": [
-      "Core point: The expanse of glacial ice on Canada’s Baffin Island lost its snow cover quickly and early in summer 2026, revealing a network of melt features.",
-      "Key detail: The expanse of glacial ice on Canada’s Baffin Island lost its snow cover quickly and early in summer 2026, revealing a network of melt features.",
-      "Institutional origin: separate announcement from evidence."
+      "Focus: The U. S",
+      "Detail: Core point: The U. S",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
     ],
     "date": "03 ago 2026",
     "date_pt": "03 ago 2026",
     "date_en": "03 Aug 2026",
-    "time": "16h00",
-    "time_pt": "16h00",
-    "time_en": "16: 00 UTC",
+    "time": "14h00",
+    "time_pt": "14h00",
+    "time_en": "14: 00 UTC",
     "read": "4 min de leitura",
     "read_pt": "4 min de leitura",
     "read_en": "4 min read",
-    "publishedIso": "2026-08-03T16:00:00+00:00",
+    "publishedIso": "2026-08-03T14:00:50+00:00",
     "lastModifiedIso": "2026-08-03T17:45:08+00:00",
-    "source": "NASA Earth Observatory",
-    "sourceDomain": "science. nasa. gov",
+    "source": "NSF News",
+    "sourceDomain": "www. nsf. gov",
     "sourceType": "agency",
     "sourceTypeLabel": "Fonte institucional",
     "sourceTypeLabel_pt": "Fonte institucional",
@@ -2007,56 +2145,56 @@ window.postsData = [
     "editorialBandLabel_pt": "Prioridade máxima",
     "editorialBandLabel_en": "Top priority",
     "keywords": [
-      "Ciências da Terra",
-      "NASA Earth Observatory",
+      "Física",
+      "NSF News",
       "Cosmos Week",
-      "Um verão nu para a calota polar de Barnes"
+      "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões"
     ],
     "keywords_pt": [
-      "Ciências da Terra",
-      "NASA Earth Observatory",
+      "Física",
+      "NSF News",
       "Cosmos Week",
-      "Um verão nu para a calota polar de Barnes"
+      "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões"
     ],
     "keywords_en": [
-      "Earth Sciences",
-      "NASA Earth Observatory",
+      "Physical",
+      "NSF News",
       "Cosmos Week",
-      "A Naked Summer for the Barnes Ice Cap"
+      "NSF raises 2 materials innovation platforms with investment of US$50 million"
     ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/a-bare-summer-for-barnes-ice-cap/",
-    "realUrl": "https://www.cosmosweek.com/?article=a-bare-summer-for-barnes-ice-cap",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=a-bare-summer-for-barnes-ice-cap",
-    "realUrl_en": "https://www.cosmosweek.com/?article=a-bare-summer-for-barnes-ice-cap&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/a-bare-summer-for-barnes-ice-cap/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/a-bare-summer-for-barnes-ice-cap/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/a-bare-summer-for-barnes-ice-cap/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/a-bare-summer-for-barnes-ice-cap/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/a-bare-summer-for-barnes-ice-cap/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/a-bare-summer-for-barnes-ice-cap/",
+    "srcUrl": "https://www.nsf.gov/news/nsf-stands-2-materials-innovation-platforms-50m-investment",
+    "realUrl": "https://www.cosmosweek.com/?article=nsf-stands-up-2-materials-innovation-platforms-with-50m-investment",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nsf-stands-up-2-materials-innovation-platforms-with-50m-investment",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nsf-stands-up-2-materials-innovation-platforms-with-50m-investment&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
     "defaultLanguage": "pt-BR",
     "availableLanguages": [
       "pt-BR",
       "en-US"
     ],
     "featured": false,
-    "trending": true,
+    "trending": false,
     "isPreprint": false,
     "geminiReviewed": false,
     "geminiModel": "gemini-2.5-flash",
     "reviewStatus": "fallback",
     "reviewProvider": "gemini",
-    "score": 100,
+    "score": 93,
     "scoreBreakdown": {
-      "source": 92,
+      "source": 91,
       "evidence": 92,
       "relevance": 84,
-      "accessibility": 60,
+      "accessibility": 42,
       "novelty": 55
     },
-    "imageAlt": "Um verão nu para a calota polar de Barnes",
-    "imageAlt_pt": "Um verão nu para a calota polar de Barnes",
-    "imageAlt_en": "A Bare Summer for Barnes Ice Cap",
+    "imageAlt": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
+    "imageAlt_pt": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
+    "imageAlt_en": "NSF stands up 2 Materials Innovation Platforms with $50M investment",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
@@ -2064,7 +2202,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "hydrognss-data-open-for-new-insights-into-earth-s-water",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2195,7 +2333,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "smos-salinity-could-offer-early-indicator-of-el-nino",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2326,7 +2464,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "watch-the-total-solar-eclipse-with-esa-in-leon",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2497,7 +2635,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "new-exomoon-detection-challenges-cosmic-labels",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2677,7 +2815,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 21,
     "slug": "the-nancy-grace-roman-space-telescope-launch-what-to-expect",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2874,7 +3012,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 21,
+    "id": 22,
     "slug": "faintest-planet-ever-imaged-from-earth-found-after-more-than-10-years-of-hide-and-seek",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -3057,7 +3195,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 22,
+    "id": 23,
     "slug": "science-release-hubble-discovers-first-of-star-cluster-s-missing-black-holes",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -3236,7 +3374,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 23,
+    "id": 24,
     "slug": "older-than-the-sun-astronomers-find-new-clues-to-the-origin-of-interstellar-comet-3i-atlas",
     "cat": "Química",
     "catCls": "quimica",
@@ -3419,7 +3557,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 24,
+    "id": 25,
     "slug": "action-nsf-doe-vera-c-rubin-observatory-begins-capturing-the-greatest-cosmic-movie-ever-made",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3580,7 +3718,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 25,
+    "id": 26,
     "slug": "chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen",
     "cat": "Química",
     "catCls": "quimica",
@@ -3708,155 +3846,6 @@ window.postsData = [
     "coverageKindLabel": "Jornalismo científico",
     "coverageKindLabel_pt": "Jornalismo científico",
     "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
-  },
-  {
-    "id": 26,
-    "slug": "nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition",
-    "cat": "Cosmologia",
-    "catCls": "cosmologia",
-    "img": "https://nsf-gov-resources.nsf.gov/styles/_inline_image_full_width/s3/media_hub/NSF_NQVL_hero%202026.png?itok=zBBhkIw8",
-    "inline_images": [
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/featured_news/s3/media_hub/NSF_NQVL_hero%202026.png?itok=bCcXQX3p",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/news_sidebar_teaser/s3/media_hub/noirlab2616a.jpg?itok=OzjsSWXp",
-        "alt": "Um denso campo de estrelas coloridas brilhando através de uma nuvem de poeira",
-        "alt_pt": "Um denso campo de estrelas coloridas brilhando através de uma nuvem de poeira",
-        "alt_en": "A dense field of colorful stars shining through a dust cloud",
-        "caption": "Um denso campo de estrelas coloridas brilhando através de uma nuvem de poeira",
-        "caption_pt": "Um denso campo de estrelas coloridas brilhando através de uma nuvem de poeira",
-        "caption_en": "A dense field of colorful stars shining through a dust cloud"
-      },
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/news_sidebar_teaser/s3/media/images/DFPod_GraphicForNSFNews_QuantumCryptography_240x160.jpg?itok=k3Ao5c00",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "NSF seleciona cinco equipes adicionais na competição nacional de design do Laboratório Quântico Virtual",
-    "title_pt": "NSF seleciona cinco equipes adicionais na competição nacional de design do Laboratório Quântico Virtual",
-    "title_en": "NSF selects five additional teams in National Quantum Virtual Laboratory design competition",
-    "sub": "A Fundação Nacional de Ciência dos EUA (NSF) selecionou cinco novas equipes para desenvolver tecnologias quânticas experimentais, abrangendo desde redes capazes de transportar.",
-    "sub_pt": "A Fundação Nacional de Ciência dos EUA (NSF) selecionou cinco novas equipes para desenvolver tecnologias quânticas experimentais, abrangendo desde redes capazes de transportar.",
-    "sub_en": "The U. S. National Science Foundation has selected five new teams to design experimental quantum technologies, from networks that can ferry fragile quantum information across long.",
-    "excerpt": "A Fundação Nacional de Ciência dos EUA (NSF) selecionou cinco novas equipes para desenvolver tecnologias quânticas experimentais, abrangendo desde redes capazes de transportar informações quânticas até sensores de alta precisão.",
-    "excerpt_pt": "A Fundação Nacional de Ciência dos EUA (NSF) selecionou cinco novas equipes para desenvolver tecnologias quânticas experimentais, abrangendo desde redes capazes de transportar informações quânticas até sensores de alta precisão.",
-    "excerpt_en": "The U. S. National Science Foundation has selected five new teams to design experimental quantum technologies, from networks that can ferry fragile quantum information across long distances to sensors that can measure faint properties.",
-    "body": "<p>A Fundação Nacional de Ciência dos EUA (NSF) selecionou cinco novas equipes para a competição nacional de design do Laboratório Quântico Virtual. Essas equipes terão a missão de desenvolver tecnologias quânticas experimentais inovadoras, que vão desde redes capazes de transportar informações quânticas frágeis por longas distâncias até sensores de alta precisão aptos a medir propriedades sutis em sistemas complexos. A iniciativa visa impulsionar o avanço da ciência e tecnologia quântica no país, fomentando a pesquisa e o desenvolvimento de soluções com potencial transformador para diversas áreas.</p><p>Cada uma das cinco equipes selecionadas receberá um financiamento de US$ 4 milhões, distribuído ao longo de dois anos. Este aporte financeiro será crucial para que as equipes possam refinar seus planos de desenvolvimento e se preparar adequadamente para a fase de implementação de seus projetos. O objetivo central é construir e aprimorar as capacidades científicas de teste e avaliação, visando a integração de três pilares fundamentais da tecnologia quântica: sensores, redes e computadores. A meta é criar um sistema unificado que demonstre a funcionalidade de tecnologias quânticas para aplicações práticas e reais.</p><p>Brian Stone, diretor interino da NSF, enfatiza a importância da colaboração e do talento humano para o progresso neste campo. &quot;Na academia, no governo e na indústria, a América possui um conjunto incomparável de pessoas brilhantes trabalhando na ciência e tecnologia quântica, com um potencial incrível para melhorar nossa qualidade de vida&quot;, afirma Stone. Ele complementa: &quot;Precisamos reunir seus talentos e ideias, e a NSF está em uma posição única para fazer isso acontecer. &quot; Essa visão ressalta o compromisso da fundação em catalisar a inovação por meio da união de mentes brilhantes de diferentes setores.</p><p>As cinco equipes recém-selecionadas são um exemplo claro dessa filosofia colaborativa. Elas são compostas por pesquisadores e outros profissionais de diversas instituições de ensino superior, abrangendo 20 estados norte-americanos. A colaboração se estende, ainda, a laboratórios nacionais vinculados ao Departamento de Energia, à NASA e ao Instituto Nacional de Padrões e Tecnologia (NIST). Essa diversidade geográfica e institucional garante uma ampla gama de conhecimentos e perspectivas, essenciais para abordar os desafios complexos inerentes ao desenvolvimento de tecnologias quânticas.</p><p>Paralelamente ao apoio à pesquisa e desenvolvimento, a NSF também está investindo ativamente em atividades de educação e treinamento. O objetivo é fortalecer e expandir a força de trabalho em ciência, tecnologia, engenharia e matemática (STEM) nos Estados Unidos, especificamente na área quântica. Essa iniciativa é fundamental para garantir que o país tenha profissionais qualificados para sustentar o crescimento e a inovação contínuos no setor de tecnologias quânticas, desde a pesquisa básica até a aplicação industrial.</p>",
-    "body_pt": "<p>A Fundação Nacional de Ciência dos EUA (NSF) selecionou cinco novas equipes para a competição nacional de design do Laboratório Quântico Virtual. Essas equipes terão a missão de desenvolver tecnologias quânticas experimentais inovadoras, que vão desde redes capazes de transportar informações quânticas frágeis por longas distâncias até sensores de alta precisão aptos a medir propriedades sutis em sistemas complexos. A iniciativa visa impulsionar o avanço da ciência e tecnologia quântica no país, fomentando a pesquisa e o desenvolvimento de soluções com potencial transformador para diversas áreas.</p><p>Cada uma das cinco equipes selecionadas receberá um financiamento de US$ 4 milhões, distribuído ao longo de dois anos. Este aporte financeiro será crucial para que as equipes possam refinar seus planos de desenvolvimento e se preparar adequadamente para a fase de implementação de seus projetos. O objetivo central é construir e aprimorar as capacidades científicas de teste e avaliação, visando a integração de três pilares fundamentais da tecnologia quântica: sensores, redes e computadores. A meta é criar um sistema unificado que demonstre a funcionalidade de tecnologias quânticas para aplicações práticas e reais.</p><p>Brian Stone, diretor interino da NSF, enfatiza a importância da colaboração e do talento humano para o progresso neste campo. &quot;Na academia, no governo e na indústria, a América possui um conjunto incomparável de pessoas brilhantes trabalhando na ciência e tecnologia quântica, com um potencial incrível para melhorar nossa qualidade de vida&quot;, afirma Stone. Ele complementa: &quot;Precisamos reunir seus talentos e ideias, e a NSF está em uma posição única para fazer isso acontecer. &quot; Essa visão ressalta o compromisso da fundação em catalisar a inovação por meio da união de mentes brilhantes de diferentes setores.</p><p>As cinco equipes recém-selecionadas são um exemplo claro dessa filosofia colaborativa. Elas são compostas por pesquisadores e outros profissionais de diversas instituições de ensino superior, abrangendo 20 estados norte-americanos. A colaboração se estende, ainda, a laboratórios nacionais vinculados ao Departamento de Energia, à NASA e ao Instituto Nacional de Padrões e Tecnologia (NIST). Essa diversidade geográfica e institucional garante uma ampla gama de conhecimentos e perspectivas, essenciais para abordar os desafios complexos inerentes ao desenvolvimento de tecnologias quânticas.</p><p>Paralelamente ao apoio à pesquisa e desenvolvimento, a NSF também está investindo ativamente em atividades de educação e treinamento. O objetivo é fortalecer e expandir a força de trabalho em ciência, tecnologia, engenharia e matemática (STEM) nos Estados Unidos, especificamente na área quântica. Essa iniciativa é fundamental para garantir que o país tenha profissionais qualificados para sustentar o crescimento e a inovação contínuos no setor de tecnologias quânticas, desde a pesquisa básica até a aplicação industrial.</p>",
-    "body_en": "<p>The U. S. National Science Foundation has selected five new teams to design experimental quantum technologies, from networks that can ferry fragile quantum information across long distances to sensors that can measure faint properties. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. National Science Foundation has selected five new teams to design experimental quantum technologies, from networks that can ferry fragile quantum information across long distances. Each of the five teams will receive $4 million over two years to refine their development plans and prepare for the implementation phase.</p><p>Their projects will help build scientific testing and evaluation capabilities to integrate three broad areas of quantum science and technology, sensors, networks and computers, in. Across academia, government and industry, America has an unmatched array of brilliant people working on quantum science and tech with incredible potential to improve our quality.</p><p>We need to bring their talent and ideas together, and NSF is uniquely positioned to make that happen. Department of Energy national laboratories, NASA and the National Institute of Standards and Technology.</p><p>Those activities include co-creating evidence-based quantum science educational curriculum with K-12 teachers to use in classrooms. The NSF National Quantum Virtual Laboratory is also part of NSF&#x27;s strategy to fulfill the vision of the &quot; National Quantum Initiative Act &quot; passed by Congress in 2018.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>NSF expects to select the first teams to transition from the design to the implementation phase later in 2026, subject to appropriations from Congress. Erasure Qubits and Dynamic Circuits for Quantum Advantage The team will design new error-detection and correction methods for quantum computers using superconducting hardware.</p><p>Because the account originates with NSF News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-selects-five-additional-teams-national-quantum-virtual\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: A Fundação Nacional de Ciência dos EUA (NSF) selecionou cinco novas equipes para desenvolver tecnologias quânticas experimentais, abrangendo desde.",
-      "Dado-chave: A Fundação Nacional de Ciência dos EUA (NSF) selecionou cinco novas equipes para desenvolver tecnologias quânticas experimentais, abrangendo.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: A Fundação Nacional de Ciência dos EUA (NSF) selecionou cinco novas equipes para desenvolver tecnologias quânticas experimentais, abrangendo desde.",
-      "Dado-chave: A Fundação Nacional de Ciência dos EUA (NSF) selecionou cinco novas equipes para desenvolver tecnologias quânticas experimentais, abrangendo.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: The U. S. National Science Foundation has selected five new teams to design experimental quantum technologies, from networks that can ferry fragile.",
-      "Key detail: The U. S. National Science Foundation has selected five new teams to design experimental quantum technologies, from networks that can ferry.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "24 jun 2026",
-    "date_pt": "24 jun 2026",
-    "date_en": "24 Jun 2026",
-    "time": "14h00",
-    "time_pt": "14h00",
-    "time_en": "14: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-06-24T14:00:08+00:00",
-    "lastModifiedIso": "2026-06-24T17:41:19+00:00",
-    "source": "NSF News",
-    "sourceDomain": "www. nsf. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Cosmologia",
-      "NSF News",
-      "Cosmos Week",
-      "NSF seleciona cinco equipes adicionais na competição nacional de design do Laboratório Virtual Quantum"
-    ],
-    "keywords_pt": [
-      "Cosmologia",
-      "NSF News",
-      "Cosmos Week",
-      "NSF seleciona cinco equipes adicionais na competição nacional de design do Laboratório Virtual Quantum"
-    ],
-    "keywords_en": [
-      "Cosmology",
-      "NSF News",
-      "Cosmos Week",
-      "NSF Selects Five Additional Teams in National Virtual Quantum Laboratory Design Competition"
-    ],
-    "srcUrl": "https://www.nsf.gov/news/nsf-selects-five-additional-teams-national-quantum-virtual",
-    "realUrl": "https://www.cosmosweek.com/?article=nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nsf-selects-five-additional-teams-in-national-quantum-virtual-laboratory-design-competition/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 91,
-    "scoreBreakdown": {
-      "source": 91,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 52,
-      "novelty": 55
-    },
-    "imageAlt": "NSF seleciona cinco equipes adicionais na competição nacional de design do Laboratório Quântico Virtual",
-    "imageAlt_pt": "NSF seleciona cinco equipes adicionais na competição nacional de design do Laboratório Quântico Virtual",
-    "imageAlt_en": "NSF selects five additional teams in National Quantum Virtual Laboratory design competition",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
     "storyKind": "science"
   },
   {
