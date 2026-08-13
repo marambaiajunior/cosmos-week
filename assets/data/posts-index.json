@@ -155,19 +155,19 @@
     "excerpt_pt": "Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
     "excerpt_en": "This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory. The telescope will scan large sections of space.",
     "highlights": [
-      "Em foco: Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA",
-      "Detalhe: Ponto central: Este artigo é para alunos da 5ª à 8ª série",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
+      "Dado-chave: Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA",
-      "Detalhe: Ponto central: Este artigo é para alunos da 5ª à 8ª série",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
+      "Dado-chave: Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory.",
+      "Key detail: This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "11 ago 2026",
     "date_pt": "11 ago 2026",
@@ -292,19 +292,19 @@
     "excerpt_pt": "A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua.",
     "excerpt_en": "NASA has declared “wrenches down” on the first completed payload designed for Artemis astronauts to deploy on the Moon’s surface.",
     "highlights": [
-      "Em foco: A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua.",
+      "Dado-chave: A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua.",
+      "Dado-chave: A NASA declarou “resistência” à primeira carga completa projetada para os astronautas Artemis implantarem na superfície da Lua",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: NASA has declared “wrenches down” on the first completed payload designed for Artemis astronauts to deploy on the Moon’s surface",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: NASA has declared “wrenches down” on the first completed payload designed for Artemis astronauts to deploy on the Moon’s surface.",
+      "Key detail: NASA has declared “wrenches down” on the first completed payload designed for Artemis astronauts to deploy on the Moon’s surface",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "11 ago 2026",
     "date_pt": "11 ago 2026",
@@ -471,7 +471,7 @@
     ],
     "highlights_en": [
       "Core point: The International Space Station has been busy throughout 2026, as it continues to be a bustling workspace for astronauts conducting a variety of.",
-      "Key detail: The International Space Station has been busy throughout 2026, as it continues to be a bustling workspace for astronauts conducting a variety of",
+      "Key detail: The International Space Station has been busy throughout 2026, as it continues to be a bustling workspace for astronauts conducting a variety of.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "11 ago 2026",
@@ -844,7 +844,7 @@
     ],
     "highlights_en": [
       "Core point: Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula.",
-      "Key detail: Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula",
+      "Key detail: Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "10 ago 2026",
@@ -1080,17 +1080,17 @@
     "excerpt_en": "We investigate Big-Bang Nucleosynthesis in the context of Yukawa cosmology. We first derive the modified Friedmann equations by starting from the first law of thermodynamics on the apparent horizon.",
     "highlights": [
       "Ponto central: Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa. Primeiro derivamos as equações de Friedmann modificadas partindo da.",
-      "Dado-chave: Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa",
+      "Dado-chave: Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa. Primeiro derivamos as equações de Friedmann modificadas partindo da.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
       "Ponto central: Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa. Primeiro derivamos as equações de Friedmann modificadas partindo da.",
-      "Dado-chave: Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa",
+      "Dado-chave: Investigamos a Nucleossíntese do Big-Bang no contexto da cosmologia Yukawa. Primeiro derivamos as equações de Friedmann modificadas partindo da.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
       "Core point: We investigate Big-Bang Nucleosynthesis in the context of Yukawa cosmology. We first derive the modified Friedmann equations by starting from the.",
-      "Key detail: We investigate Big-Bang Nucleosynthesis in the context of Yukawa cosmology",
+      "Key detail: We investigate Big-Bang Nucleosynthesis in the context of Yukawa cosmology.",
       "Result not yet peer reviewed."
     ],
     "date": "10 ago 2026",
@@ -1201,17 +1201,17 @@
     "excerpt_en": "Fast radio bursts are bright, millisecond-duration radio transients of unknown origin. They are categorized as repeaters and non-repeaters, possibly indicating distinct progenitor types.",
     "highlights": [
       "Ponto central: As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida.",
-      "Dado-chave: As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida",
+      "Dado-chave: As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
       "Ponto central: As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida.",
-      "Dado-chave: As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida",
+      "Dado-chave: As rajadas rápidas de rádio são transientes de rádio brilhantes, com duração de milissegundos e de origem desconhecida.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
       "Core point: Fast radio bursts are bright, millisecond-duration radio transients of unknown origin.",
-      "Key detail: Fast radio bursts are bright, millisecond-duration radio transients of unknown origin",
+      "Key detail: Fast radio bursts are bright, millisecond-duration radio transients of unknown origin.",
       "Result not yet peer reviewed."
     ],
     "date": "10 ago 2026",
@@ -1488,17 +1488,17 @@
     "excerpt_en": "Several science campaigns plan to greet the racing shadow of the Moon on August 12th. The post Science Campaigns Planned for the August 12th Total Solar Eclipse appeared first on Sky & Telescope.",
     "highlights": [
       "Ponto central: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto.",
-      "Dado-chave: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto",
+      "Dado-chave: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
       "Ponto central: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto.",
-      "Dado-chave: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto",
+      "Dado-chave: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
       "Core point: Several science campaigns plan to greet the racing shadow of the Moon on August 12th.",
-      "Key detail: Several science campaigns plan to greet the racing shadow of the Moon on August 12th",
+      "Key detail: Several science campaigns plan to greet the racing shadow of the Moon on August 12th.",
       "Science reporting: verify primary technical documentation."
     ],
     "date": "07 ago 2026",
@@ -2052,19 +2052,19 @@
     "excerpt_pt": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir a condições extremas, desde compósitos leves para melhor blindagem até.",
     "excerpt_en": "The U. S. National Science Foundation is investing $50 million in research infrastructure to enable the discovery and development of materials that can withstand extreme conditions, from lightweight composites for better armor to.",
     "highlights": [
-      "Em foco: A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de",
-      "Detalhe: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de.",
+      "Dado-chave: A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de",
-      "Detalhe: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de.",
+      "Dado-chave: A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The U. S",
-      "Detail: Core point: The U. S",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The U. S. National Science Foundation is investing $50 million in research infrastructure to enable the discovery and development of materials that.",
+      "Key detail: The U. S",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "03 ago 2026",
     "date_pt": "03 ago 2026",
