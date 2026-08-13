@@ -3,6 +3,9 @@ name: Publicar site
 on:
   push:
     branches: [main]
+  workflow_run:
+    workflows: ["Atualizar notícias"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -10,19 +13,27 @@ permissions:
   pages: write
   id-token: write
 
+# GitHub Pages deve ter somente um deployment ativo por vez.
+# Em vez de cancelar um deployment no meio (o que pode deixá-lo preso),
+# enfileiramos publicações concorrentes e processamos uma por vez.
 concurrency:
   group: github-pages
-  cancel-in-progress: true
+  queue: max
 
 jobs:
   deploy:
+    # workflow_run dispara mesmo quando o workflow anterior falha.
+    # Só publicamos após uma atualização diária bem-sucedida.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout
+      - name: Checkout da versão mais recente da main
         uses: actions/checkout@v5
+        with:
+          ref: main
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
