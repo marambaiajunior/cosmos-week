@@ -206,3 +206,34 @@ body.book-page{background:#f7f4ef;color:var(--book-ink)}
   .author-note-bottom{left:14px;bottom:14px;max-width:132px}
   .author-stat-right{right:14px;bottom:14px;max-width:118px}
 }
+
+
+/* 2026-08-13 refinement v5: professional author showcase with centered portrait and cover */
+.book-author-canvas{min-height:430px;padding:18px 18px 20px;border-radius:30px;background:linear-gradient(145deg,#26211f 0%,#4c362d 58%,#9a6647 100%);box-shadow:0 24px 56px rgba(31,22,17,.16)}
+.book-author-canvas:before{background:radial-gradient(circle at 50% 18%,rgba(255,255,255,.10),transparent 24%),radial-gradient(circle at 18% 76%,rgba(255,255,255,.07),transparent 30%),radial-gradient(circle at 88% 74%,rgba(255,255,255,.08),transparent 26%)}
+.book-author-photo{left:50%;top:26px;transform:translateX(-50%);width:118px;height:118px;border:5px solid rgba(250,245,239,.96);box-shadow:0 16px 36px rgba(20,14,11,.34);z-index:5}
+.book-author-mini-cover{left:50%;top:164px;transform:translateX(-50%) rotate(-1.5deg);width:128px;border-radius:10px;box-shadow:0 18px 36px rgba(20,14,11,.32);z-index:4}
+.author-note,.author-stat,.author-quote{z-index:3}
+.author-note{max-width:148px;padding:12px 13px;border-radius:18px;background:rgba(249,244,238,.93);font:700 10.5px/1.45 Inter,Arial,sans-serif;color:#4f4035;box-shadow:0 12px 24px rgba(19,14,11,.12)}
+.author-note-top{left:18px;top:22px;right:auto}
+.author-note-bottom{left:18px;bottom:18px;max-width:160px}
+.author-stat{max-width:136px;padding:12px 12px;border-radius:18px;background:rgba(28,22,19,.40);border:1px solid rgba(255,255,255,.18);color:#f7efe7;backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px)}
+.author-stat strong{font:700 24px/1 Newsreader,Georgia,serif;color:#f1c4a3}
+.author-stat span{font:700 9px/1.42 Inter,Arial,sans-serif;letter-spacing:.05em;text-transform:uppercase;color:#eadfd3}
+.author-stat-left{right:18px;top:22px;left:auto}
+.author-stat-right{right:18px;bottom:18px}
+.author-quote{left:auto;right:18px;top:188px;max-width:144px;padding:12px 13px;border-left:3px solid #e3ad83;border-radius:0 16px 16px 0;background:rgba(248,242,235,.94);font:600 10.5px/1.5 Inter,Arial,sans-serif;color:#4f4138}
+
+@media(max-width:980px){
+  .book-author-canvas{min-height:440px}
+}
+@media(max-width:680px){
+  .book-author-canvas{min-height:448px;padding:16px}
+  .book-author-photo{top:24px;width:108px;height:108px}
+  .book-author-mini-cover{top:154px;width:118px}
+  .author-note-top{left:14px;top:16px;max-width:138px}
+  .author-stat-left{right:14px;top:16px;max-width:126px}
+  .author-quote{right:14px;top:178px;max-width:132px}
+  .author-note-bottom{left:14px;bottom:14px;max-width:148px}
+  .author-stat-right{right:14px;bottom:14px;max-width:126px}
+}
