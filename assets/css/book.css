@@ -122,3 +122,47 @@ body.book-page{background:#f7f4ef;color:var(--book-ink)}
   .author-stat-right{right:16px;bottom:112px;max-width:148px}
   .author-quote{left:16px;right:16px;top:auto;bottom:186px;max-width:none}
 }
+
+
+/* 2026-08-13 refinement v2: title spacing, author card de-overlap, custom logo */
+.book-page .logo-mark{overflow:hidden;width:42px;height:42px;padding:0;border-radius:999px;background:linear-gradient(145deg,rgba(51,41,78,.10),rgba(255,92,165,.10));border:1px solid rgba(71,58,91,.18);box-shadow:0 6px 16px rgba(40,34,52,.08)}
+.book-page-logo-avatar{display:block;width:100%;height:100%;object-fit:cover;border-radius:999px}
+.book-page .logo-copy{gap:2px}
+.book-page .logo-title{color:#2e3642}
+.book-page .logo-sub{color:#718091}
+
+.book-hero-copy{padding-top:26px}
+.book-hero .book-kicker{margin-bottom:18px}
+.book-hero h1{margin:12px 0 12px;line-height:.90}
+
+.book-author-canvas{min-height:388px;padding:20px 18px 18px}
+.book-author-mini-cover{left:16px;top:16px;width:86px;transform:rotate(-3deg)}
+.book-author-photo{left:188px;top:197px;transform:translate(-50%,-50%);width:108px;height:108px;border-width:5px}
+.author-note{max-width:148px;padding:10px 12px;font-size:10px;line-height:1.38}
+.author-note-top{right:14px;top:16px}
+.author-note-bottom{left:16px;bottom:14px;max-width:180px}
+.author-stat{max-width:136px;padding:12px 12px}
+.author-stat strong{font-size:23px}
+.author-stat span{font-size:9px;line-height:1.38}
+.author-stat-left{left:16px;top:146px}
+.author-stat-right{right:16px;bottom:16px}
+.author-quote{right:14px;top:170px;max-width:176px;padding:12px 13px;font-size:11px;line-height:1.45}
+
+@media(max-width:980px){
+  .book-hero-copy{padding-top:8px}
+  .book-hero h1{margin-top:10px}
+}
+@media(max-width:680px){
+  .book-page .logo-mark{width:38px;height:38px}
+  .book-hero-copy{padding-top:0}
+  .book-hero .book-kicker{margin-bottom:12px}
+  .book-hero h1{margin-top:8px}
+  .book-author-canvas{min-height:470px;padding:16px}
+  .book-author-mini-cover{width:82px;left:14px;top:14px}
+  .book-author-photo{left:50%;top:188px;width:102px;height:102px}
+  .author-note-top{right:14px;top:14px;max-width:138px}
+  .author-stat-left{left:14px;top:132px;max-width:126px}
+  .author-quote{right:14px;top:154px;max-width:154px}
+  .author-note-bottom{left:14px;bottom:14px;max-width:172px}
+  .author-stat-right{right:14px;bottom:14px;max-width:126px}
+}
