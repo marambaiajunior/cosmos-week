@@ -1,0 +1,17 @@
+Ajustes adicionais da landing page do livro Vórtice Maligno - 2026-08-13 REV4
+
+Arquivos alterados:
+- assets/css/book.css
+- livro/vortice-maligno/index.html
+- index.html
+- scripts/fetch_news.py
+- noticia/alan-valejo/index.html
+- noticia/seti-panel-revises-recommendations-for-dealing-with-disclosure-day/index.html
+
+Ajustes aplicados:
+1) Mais espaço acima do título VÓRTICE MALIGNO para evitar que o acento encoste no kicker após o carregamento final das fontes.
+2) Reorganização do painel "O autor" com foto central e conteúdo distribuído ao redor de maneira mais ordenada.
+3) Todos os links de compra do livro atualizados para: https://www.amazon.com.br/s?k=9786526681633
+
+Observação:
+Este pacote substitui a REV3 para a landing page do livro.

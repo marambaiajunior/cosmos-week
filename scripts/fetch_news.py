@@ -4775,7 +4775,7 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
             '<p>O livro investiga como pseudociência, teorias conspiratórias e desinformação podem se combinar com redes sociais e identidade, e discute caminhos para fortalecer critérios de evidência e resiliência epistêmica.</p>'
             '<div class="book-context-actions">'
             '<a class="book-context-btn primary" href="/livro/vortice-maligno/" data-book-cta="article_context">Conheça o livro</a>'
-            '<a class="book-context-btn" href="https://www.amazon.com.br/dp/6502266509" target="_blank" rel="noopener noreferrer sponsored" data-book-cta="article_context_amazon" data-book-store="amazon-br">Comprar na Amazon.com.br</a>'
+            '<a class="book-context-btn" href="https://www.amazon.com.br/s?k=9786526681633" target="_blank" rel="noopener noreferrer sponsored" data-book-cta="article_context_amazon" data-book-store="amazon-br">Comprar na Amazon.com.br</a>'
             '</div>'
             '</aside>'
         )

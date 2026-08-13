@@ -166,3 +166,43 @@ body.book-page{background:#f7f4ef;color:var(--book-ink)}
   .author-note-bottom{left:14px;bottom:14px;max-width:172px}
   .author-stat-right{right:14px;bottom:14px;max-width:126px}
 }
+
+
+/* 2026-08-13 refinement v4: robust title spacing and ordered author composition */
+.book-hero-copy{padding-top:40px}
+.book-hero .book-kicker{margin-bottom:22px}
+.book-hero h1{margin:20px 0 14px;line-height:.98;letter-spacing:-.042em;padding-top:4px}
+.book-subtitle{margin-top:16px}
+
+.book-author-canvas{min-height:392px;padding:18px;border-radius:28px}
+.book-author-mini-cover{left:18px;top:18px;width:74px;transform:rotate(-2.5deg);z-index:2}
+.book-author-photo{left:150px;top:186px;transform:translate(-50%,-50%);width:92px;height:92px;border-width:4px;z-index:4}
+.author-note,.author-stat,.author-quote{z-index:3}
+.author-note{max-width:132px;padding:10px 11px;font-size:10px;line-height:1.42}
+.author-note-top{right:14px;top:14px}
+.author-note-bottom{left:14px;bottom:14px;max-width:136px}
+.author-stat{max-width:122px;padding:10px 11px;border-radius:16px}
+.author-stat strong{font-size:20px;line-height:1}
+.author-stat span{font-size:8px;line-height:1.42;letter-spacing:.04em}
+.author-stat-left{left:14px;top:114px}
+.author-stat-right{right:14px;bottom:14px}
+.author-quote{right:14px;top:126px;max-width:124px;padding:10px 11px;font-size:10px;line-height:1.46;border-left-width:2px}
+
+@media(max-width:980px){
+  .book-hero-copy{padding-top:14px}
+  .book-hero .book-kicker{margin-bottom:16px}
+  .book-hero h1{margin-top:16px;line-height:.96}
+}
+@media(max-width:680px){
+  .book-hero-copy{padding-top:2px}
+  .book-hero .book-kicker{margin-bottom:14px}
+  .book-hero h1{margin-top:12px;line-height:.94}
+  .book-author-canvas{min-height:420px;padding:14px}
+  .book-author-mini-cover{left:14px;top:14px;width:72px}
+  .book-author-photo{left:126px;top:178px;width:86px;height:86px}
+  .author-note-top{right:14px;top:14px;max-width:128px}
+  .author-stat-left{left:14px;top:110px;max-width:118px}
+  .author-quote{right:14px;top:122px;max-width:118px}
+  .author-note-bottom{left:14px;bottom:14px;max-width:132px}
+  .author-stat-right{right:14px;bottom:14px;max-width:118px}
+}
