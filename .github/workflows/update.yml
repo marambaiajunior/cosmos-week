@@ -12,8 +12,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: cosmos-week-feed
@@ -104,6 +102,8 @@ jobs:
               Path('robots.txt'),
               Path('noticia'),
               Path('en/news'),
+              Path('livro/vortice-maligno/index.html'),
+              Path('assets/img/livro/vortice-maligno-capa.webp'),
           ]
 
           missing = [str(p) for p in required if not p.exists()]
@@ -134,37 +134,10 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A posts.json posts.js all_posts.json assets/data/posts-index.json assets/data/archive-index.json feed.xml sitemap.xml robots.txt index.html arquivo/ sobre/ padroes/ noticia/ en/
+          git add -A posts.json posts.js all_posts.json assets/data/posts-index.json assets/data/archive-index.json feed.xml sitemap.xml robots.txt index.html arquivo/ sobre/ padroes/ noticia/ en/ livro/ assets/img/livro/ assets/css/book.css assets/js/book.js
           if git diff --cached --quiet; then
             echo "Nenhuma alteração nas notícias."
           else
             git commit -m "Atualização automática das notícias [skip ci]"
             git push
           fi
-
-  deploy-pages:
-    needs: update-news
-    runs-on: ubuntu-latest
-    concurrency:
-      group: github-pages
-      cancel-in-progress: true
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Checkout atualizado
-        uses: actions/checkout@v5
-        with:
-          ref: ${{ github.ref_name }}
-
-      - name: Configurar GitHub Pages
-        uses: actions/configure-pages@v5
-
-      - name: Preparar artefato do site
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: .
-
-      - name: Publicar no GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4

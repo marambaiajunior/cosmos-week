@@ -66,6 +66,7 @@
 <link href="/site.webmanifest" rel="manifest"/>
 <link href="/assets/css/main.css" rel="stylesheet"/>
 <link href="/assets/css/modern.css" rel="stylesheet"/>
+<link href="/assets/css/book.css" rel="stylesheet"/>
 <meta content="app-id=6759013786" name="apple-itunes-app"/>
 <link as="fetch" crossorigin="anonymous" href="/assets/data/posts-index.json" rel="preload"/></head>
 <body class="phase3-premium modern-editorial" data-cw-lang="pt" data-cw-page="about" data-ui-phase="4">
@@ -89,6 +90,7 @@
 <a class="nav-link" href="/arquivo/" id="navArchive" onclick="event.preventDefault(); openPage('archive')">Arquivo</a>
 <a class="nav-link" href="/sobre/" id="navAbout" onclick="event.preventDefault(); openPage('about')">Sobre</a>
 <a class="nav-link" href="/padroes/" id="navStandards" onclick="event.preventDefault(); openPage('standards')">Padrões</a><a class="nav-link" href="/guias/">Guias</a>
+<a class="nav-link" href="/livro/vortice-maligno/" id="navBook">Livro</a>
 </nav>
 <div class="header-tools">
 <form action="https://www.cosmosweek.com/" class="searchbox" id="siteSearchForm" method="get" role="search"><input aria-label="Buscar no Cosmos Week" autocomplete="off" enterkeyhint="search" id="searchInput" name="q" oninput="handleSearchInput(this.value)" placeholder="Buscar notícias, temas ou fontes..." type="text"/><button aria-label="Buscar" type="submit"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg></button></form>
@@ -258,6 +260,7 @@
 <div class="footer-links">
 <a href="/" id="footerHome" onclick="event.preventDefault(); goHome()">Início</a>
 <a href="/arquivo/" id="footerArchive" onclick="event.preventDefault(); openPage('archive')">Arquivo</a>
+<a href="/livro/vortice-maligno/" id="footerBook">Livro</a>
 <a href="/sobre/" id="footerAbout" onclick="event.preventDefault(); openPage('about')">Sobre</a>
 <a href="/padroes/" id="footerStandards" onclick="event.preventDefault(); openPage('standards')">Padrões editoriais</a>
 <a href="/anuncie.html" id="footerAdvertise">Anuncie</a>
@@ -295,5 +298,6 @@
 </div>
 <script defer="" src="/assets/js/app.js"></script>
 <script id="cw-inline-app-disabled" type="application/json">{"status":"externalized-to-assets-js-app-js"}</script>
+<script src="/assets/js/book.js"></script>
 </body>
 </html>

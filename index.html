@@ -66,6 +66,7 @@
   <link href="/site.webmanifest" rel="manifest"/>
   <link href="/assets/css/main.css" rel="stylesheet"/>
   <link href="/assets/css/modern.css" rel="stylesheet"/>
+<link href="/assets/css/book.css" rel="stylesheet"/>
 <meta content="app-id=6759013786" name="apple-itunes-app"/>
 <link as="fetch" crossorigin="anonymous" href="/assets/data/posts-index.json" rel="preload"/></head>
 <body class="phase3-premium modern-editorial" data-cw-lang="pt" data-cw-page="home" data-ui-phase="4">
@@ -89,6 +90,7 @@
 <a class="nav-link" href="/arquivo/" id="navArchive" onclick="event.preventDefault(); openPage('archive')">Arquivo</a>
 <a class="nav-link" href="/sobre/" id="navAbout" onclick="event.preventDefault(); openPage('about')">Sobre</a>
 <a class="nav-link" href="/padroes/" id="navStandards" onclick="event.preventDefault(); openPage('standards')">Padrões</a><a class="nav-link" href="/guias/">Guias</a>
+<a class="nav-link" href="/livro/vortice-maligno/" id="navBook">Livro</a>
 </nav>
 <div class="header-tools">
 <form action="https://www.cosmosweek.com/" class="searchbox" id="siteSearchForm" method="get" role="search"><label class="sr-only" for="searchInput">Buscar no Cosmos Week</label><input aria-label="Buscar no Cosmos Week" autocomplete="off" enterkeyhint="search" id="searchInput" name="q" oninput="handleSearchInput(this.value)" placeholder="Buscar notícias e temas" type="search"/><button aria-label="Buscar" type="submit"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg></button></form>
@@ -169,6 +171,20 @@
 </div>
 </aside>
 </div>
+
+<section class="book-promo" id="vorticeMalignoPromo" aria-labelledby="vorticePromoTitle">
+  <div><img class="book-promo-cover" src="/assets/img/livro/vortice-maligno-capa.webp" alt="Capa do livro Vórtice Maligno" loading="lazy" decoding="async"></div>
+  <div>
+    <div class="book-promo-kicker">Livro • Pensamento crítico</div>
+    <h2 id="vorticePromoTitle">Vórtice Maligno</h2>
+    <p class="book-promo-sub">Uma investigação sobre pseudociência, teorias conspiratórias e os mecanismos que transformam desinformação em certeza, pertencimento e fechamento cognitivo.</p>
+    <div class="book-promo-actions">
+      <a class="book-promo-btn primary" href="/livro/vortice-maligno/" data-book-cta="homepage_promo">Conheça o livro</a>
+      <a class="book-promo-btn secondary" href="https://www.amazon.com.br/dp/6502266509" data-amazon-br data-book-cta="homepage_amazon" rel="noopener noreferrer" target="_blank">Comprar na Amazon.com.br ↗</a>
+    </div>
+    <div class="book-promo-note">Humberto Marambaia Junior • ISBN 978-65-02-26650-2</div>
+  </div>
+</section>
 <div id="topicNav"><section class="topic-map"><div class="section-head section-head--soft"><div><div class="section-title">Navegue por tema</div><div class="section-kicker">Escolha uma porta de entrada temática para o arquivo.</div></div></div><div class="topic-nav-list"><a aria-label="Astronomia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Astronomia</span><span class="topic-count">10</span></a><a aria-label="Cosmologia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Cosmologia</span><span class="topic-count">2</span></a><a aria-label="Astrofísica" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Astrofísica</span><span class="topic-count">2</span></a><a aria-label="Exoplanetas" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Exoplanetas</span><span class="topic-count">5</span></a><a aria-label="Física" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Física</span><span class="topic-count">7</span></a><a aria-label="Biologia" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Biologia</span><span class="topic-count">6</span></a><a aria-label="Química" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Química</span><span class="topic-count">2</span></a><a aria-label="Ciências da Terra" class="topic-chip" href="https://www.cosmosweek.com/arquivo/"><span>Ciências da Terra</span><span class="topic-count">6</span></a></div></section></div>
 <section class="topic-map" id="originalGuidesBlock">
 <div class="section-head section-head--soft">
@@ -259,6 +275,7 @@
 <div class="footer-links">
 <a href="/" id="footerHome" onclick="event.preventDefault(); goHome()">Início</a>
 <a href="/arquivo/" id="footerArchive" onclick="event.preventDefault(); openPage('archive')">Arquivo</a>
+<a href="/livro/vortice-maligno/" id="footerBook">Livro</a>
 <a href="/sobre/" id="footerAbout" onclick="event.preventDefault(); openPage('about')">Sobre</a>
 <a href="/padroes/" id="footerStandards" onclick="event.preventDefault(); openPage('standards')">Padrões editoriais</a>
 <a href="/anuncie.html" id="footerAdvertise">Anuncie</a>
@@ -297,5 +314,6 @@
 </div>
 <script defer="" src="/assets/js/app.js"></script>
 <script id="cw-inline-app-disabled" type="application/json">{"status":"externalized-to-assets-js-app-js"}</script>
+<script src="/assets/js/book.js"></script>
 </body>
 </html>

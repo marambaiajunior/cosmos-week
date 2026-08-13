@@ -8,6 +8,8 @@ const pages = [
   'arquivo/index.html',
   'sobre/index.html',
   'padroes/index.html',
+  'guias/index.html',
+  'livro/vortice-maligno/index.html',
   'en/index.html',
   'en/archive/index.html',
   'en/about/index.html',
@@ -31,6 +33,13 @@ for (const relativePath of pages) {
     html = html.replace(
       /<link href="\/assets\/css\/main\.css" rel="stylesheet"\s*\/>/,
       '<link href="/assets/css/main.css" rel="stylesheet"/>\n<link href="/assets/css/modern.css" rel="stylesheet"/>'
+    );
+  }
+
+  if (!isEnglish && !html.includes('/assets/css/book.css')) {
+    html = html.replace(
+      /<link href="\/assets\/css\/modern\.css" rel="stylesheet"\s*\/>/,
+      '<link href="/assets/css/modern.css" rel="stylesheet"/>\n<link href="/assets/css/book.css" rel="stylesheet"/>'
     );
   }
 
@@ -62,6 +71,14 @@ for (const relativePath of pages) {
 
   if (!html.includes('id="mobileNavToggle"')) {
     html = html.replace(/(<nav[^>]+class="main-nav"[^>]*id="mainNav"[^>]*>)/, `${mobileMenu}\n$1`);
+  }
+
+
+  if (!isEnglish && !html.includes('id="navBook"')) {
+    html = html.replace(
+      /(<a class="nav-link" href="\/guias\/">Guias<\/a>)/,
+      '$1\n<a class="nav-link" href="/livro/vortice-maligno/" id="navBook">Livro</a>'
+    );
   }
 
   html = html.replace(/<a([^>]*id="langPt"[^>]*)>[^<]*<\/a>/, (match, attrs) => {
