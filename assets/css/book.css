@@ -237,3 +237,30 @@ body.book-page{background:#f7f4ef;color:var(--book-ink)}
   .author-note-bottom{left:14px;bottom:14px;max-width:148px}
   .author-stat-right{right:14px;bottom:14px;max-width:126px}
 }
+
+
+/* 2026-08-13 refinement v6: organized quote balloons around centered portrait and book cover */
+.book-author-canvas{min-height:456px;padding:20px 20px 22px;border-radius:30px}
+.book-author-photo{left:50%;top:24px;transform:translateX(-50%);width:116px;height:116px;border-width:5px;z-index:5}
+.book-author-mini-cover{left:50%;top:166px;transform:translateX(-50%) rotate(-1.4deg);width:132px;z-index:4}
+.author-note,.author-stat,.author-quote{z-index:3}
+.author-note{max-width:154px;padding:12px 13px;border-radius:18px;background:rgba(249,244,238,.95);font:700 10.5px/1.48 Inter,Arial,sans-serif;color:#4f4035;box-shadow:0 12px 24px rgba(19,14,11,.12)}
+.author-note-top{left:16px;top:18px;right:auto}
+.author-note-bottom{left:16px;bottom:16px;max-width:170px}
+.author-stat{display:grid;gap:6px;max-width:142px;padding:12px 12px;border-radius:18px;background:rgba(28,22,19,.42);border:1px solid rgba(255,255,255,.18);color:#f7efe7;backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px)}
+.author-stat strong{font:700 23px/1 Newsreader,Georgia,serif;color:#f1c4a3}
+.author-stat span{font:700 9px/1.42 Inter,Arial,sans-serif;letter-spacing:.05em;text-transform:uppercase;color:#eadfd3}
+.author-stat-left{right:16px;top:18px;left:auto}
+.author-stat-right{right:16px;bottom:16px;left:auto}
+.author-quote{left:auto;right:16px;top:190px;max-width:154px;padding:12px 13px;border-left:3px solid #e3ad83;border-radius:0 16px 16px 0;background:rgba(248,242,235,.95);font:600 10.5px/1.5 Inter,Arial,sans-serif;color:#4f4138}
+
+@media(max-width:680px){
+  .book-author-canvas{min-height:470px;padding:16px}
+  .book-author-photo{top:22px;width:108px;height:108px}
+  .book-author-mini-cover{top:156px;width:124px}
+  .author-note-top{left:14px;top:14px;max-width:146px}
+  .author-stat-left{right:14px;top:14px;max-width:132px}
+  .author-quote{right:14px;top:184px;max-width:142px}
+  .author-note-bottom{left:14px;bottom:14px;max-width:160px}
+  .author-stat-right{right:14px;bottom:14px;max-width:132px}
+}
