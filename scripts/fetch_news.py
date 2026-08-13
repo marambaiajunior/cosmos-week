@@ -4750,6 +4750,37 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
         body_html = f'<p>{html.escape(description_raw)}</p>'
     body_text = strip_tags_for_meta(body_html)
 
+    # Contextual promotion for the Portuguese edition of Vórtice Maligno.
+    # Keep this deliberately narrow: the book appears only when the article
+    # actually touches pseudoscience, conspiratorial thinking or misinformation.
+    book_context_terms = (
+        'pseudociência', 'pseudociencia',
+        'teoria conspiratória', 'teorias conspiratórias',
+        'teoria conspiratoria', 'teorias conspiratorias',
+        'desinformação', 'desinformacao',
+        'negacionismo', 'antivacina', 'terraplan'
+    )
+    book_context_haystack = ' '.join([
+        title_raw, description_raw, body_text,
+        ' '.join(str(v) for v in ((post.get('keywords_pt') or post.get('keywords') or [])))
+    ]).lower()
+    show_book_context = (not is_en) and any(term in book_context_haystack for term in book_context_terms)
+    book_context_html = ''
+    book_context_script = ''
+    if show_book_context:
+        book_context_html = (
+            '<aside class="book-context-box" aria-labelledby="bookContextTitle">'
+            '<div class="book-context-kicker">Pensamento crítico · Livro</div>'
+            '<h2 id="bookContextTitle">Aprofunde: Vórtice Maligno</h2>'
+            '<p>O livro investiga como pseudociência, teorias conspiratórias e desinformação podem se combinar com redes sociais e identidade, e discute caminhos para fortalecer critérios de evidência e resiliência epistêmica.</p>'
+            '<div class="book-context-actions">'
+            '<a class="book-context-btn primary" href="/livro/vortice-maligno/" data-book-cta="article_context">Conheça o livro</a>'
+            '<a class="book-context-btn" href="https://www.amazon.com.br/dp/6502266509" target="_blank" rel="noopener noreferrer sponsored" data-book-cta="article_context_amazon" data-book-store="amazon-br">Comprar na Amazon.com.br</a>'
+            '</div>'
+            '</aside>'
+        )
+        book_context_script = '<script src="/assets/js/book.js"></script>'
+
     video = post.get('video') if isinstance(post.get('video'), dict) else {}
     video_html = ''
     embed_url = collapse_ws(str(video.get('embedUrl') or ''))
@@ -4969,6 +5000,14 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
     .btn {{ display:inline-flex; align-items:center; justify-content:center; padding:12px 16px; border-radius:999px; border:1px solid var(--line); background:#fff; }}
     .btn.primary {{ background:var(--accent); color:#fff; border-color:var(--accent); }}
     .article-footer-note {{ margin-top:14px; color:var(--muted); font:500 13px/1.6 Arial, sans-serif; }}
+    .book-context-box {{ margin:34px 0 6px; padding:24px; border:1px solid #dcc7b2; border-radius:20px; background:linear-gradient(135deg,#fbf6ee,#f2e7d9); color:#2b2723; }}
+    .book-context-kicker {{ margin-bottom:8px; color:#95563a; font:800 11px/1.3 Arial,sans-serif; letter-spacing:.1em; text-transform:uppercase; }}
+    .book-context-box h2 {{ margin:0 0 10px; font:700 clamp(22px,3vw,30px)/1.1 Georgia,'Times New Roman',serif; color:#2b2723; }}
+    .book-context-box p {{ margin:0; color:#5e554d; font:400 15px/1.7 Arial,sans-serif; }}
+    .book-context-actions {{ display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; }}
+    .book-context-btn {{ display:inline-flex; align-items:center; justify-content:center; min-height:42px; padding:10px 14px; border:1px solid #b88d70; border-radius:999px; color:#6f3f2d; background:#fffaf4; font:700 13px/1.2 Arial,sans-serif; }}
+    .book-context-btn:hover {{ text-decoration:none; }}
+    .book-context-btn.primary {{ color:#fff; background:#8d4f36; border-color:#8d4f36; }}
     @media (max-width: 980px) {{
       .article-grid {{ grid-template-columns:1fr; }}
       .sidebar {{ position:static; order:2; }}
@@ -5027,6 +5066,7 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
             <div class="body-label">{html.escape(labels['body_label'])}</div>
             <div class="body">{body_html}</div>
             {inline_gallery_html}
+            {book_context_html}
             {source_html}
             <div class="footer-links">
               <a class="btn primary" href="{html_escape_attr(labels['home_url'])}">{labels['home']}</a>
@@ -5069,6 +5109,7 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
       </div>
     </article>
   </main>
+  {book_context_script}
   <script src="/assets/js/article-layout.js"></script>
   <script>
     (function() {{
