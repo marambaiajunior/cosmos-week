@@ -13,8 +13,8 @@
       cta_location: el.getAttribute('data-book-cta') || 'unknown',
       link_url: el.href || ''
     });
-    if (el.matches('[data-amazon-br]')) {
-      track('book_amazon_br_click', {
+    if (el.matches('[data-clube-autores]')) {
+      track('book_clube_autores_click', {
         book_title: 'Vórtice Maligno',
         cta_location: el.getAttribute('data-book-cta') || 'unknown',
         link_url: el.href || ''

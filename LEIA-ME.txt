@@ -1,0 +1,18 @@
+COSMOS WEEK — TROCA DO LINK DE COMPRA DO VÓRTICE MALIGNO
+
+Novo destino:
+https://clubedeautores.com.br/livro/vortice-maligno
+
+Arquivos incluídos:
+- livro/vortice-maligno/index.html
+- index.html
+- scripts/fetch_news.py
+- assets/js/book.js
+- noticia/alan-valejo/index.html
+- noticia/seti-panel-revises-recommendations-for-dealing-with-disclosure-day/index.html
+
+Substitua os arquivos existentes no GitHub mantendo exatamente os mesmos caminhos.
+
+Também foram alterados os textos visíveis de "Comprar na Amazon.com.br"
+para "Comprar no Clube de Autores" e o rastreamento específico da Amazon
+foi renomeado para Clube de Autores.
