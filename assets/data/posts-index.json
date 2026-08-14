@@ -1,6 +1,363 @@
 [
   {
     "id": 1,
+    "slug": "a-look-back-at-the-2026-total-solar-eclipse",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/12_august_total_eclipse_imaged_by_miguel_claro/27418378-1-eng-GB/12_August_total_eclipse_imaged_by_Miguel_Claro_pillars.jpg",
+    "inline_images": [
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/totality_in_leon_12_august_2026/27416484-1-eng-GB/Totality_in_Leon_12_August_2026_pillars.jpg",
+        "alt": "Totalidade em Leão, 12 de agosto de 2026",
+        "alt_pt": "Totalidade em Leão, 12 de agosto de 2026",
+        "alt_en": "Totality in León, 12 August 2026",
+        "caption": "Totalidade em Leão, 12 de agosto de 2026",
+        "caption_pt": "Totalidade em Leão, 12 de agosto de 2026",
+        "caption_en": "Totality in León, 12 August 2026"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/12_august_total_eclipse_imaged_by_marina_prol2/27418472-1-eng-GB/12_August_total_eclipse_imaged_by_Marina_Prol_pillars.jpg",
+        "alt": "Eclipse total de 12 de agosto fotografado por Marina Prol",
+        "alt_pt": "Eclipse total de 12 de agosto fotografado por Marina Prol",
+        "alt_en": "12 August total eclipse imaged by Marina Prol",
+        "caption": "Eclipse total de 12 de agosto fotografado por Marina Prol",
+        "caption_pt": "Eclipse total de 12 de agosto fotografado por Marina Prol",
+        "caption_en": "12 August total eclipse imaged by Marina Prol"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/12_august_2026_eclipse_from_javalambre/27417939-1-eng-GB/12_August_2026_eclipse_from_Javalambre_pillars.png",
+        "alt": "Eclipse de 12 de agosto de 2026 em Javalambre",
+        "alt_pt": "Eclipse de 12 de agosto de 2026 em Javalambre",
+        "alt_en": "12 August 2026 eclipse from Javalambre",
+        "caption": "Eclipse de 12 de agosto de 2026 em Javalambre",
+        "caption_pt": "Eclipse de 12 de agosto de 2026 em Javalambre",
+        "caption_en": "12 August 2026 eclipse from Javalambre"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/12_august_2026_eclipse_from_palencia/27418033-1-eng-GB/12_August_2026_eclipse_from_Palencia_pillars.png",
+        "alt": "Eclipse de 12 de agosto de 2026 em Palência",
+        "alt_pt": "Eclipse de 12 de agosto de 2026 em Palência",
+        "alt_en": "12 August 2026 eclipse from Palencia",
+        "caption": "Eclipse de 12 de agosto de 2026 em Palência",
+        "caption_pt": "Eclipse de 12 de agosto de 2026 em Palência",
+        "caption_en": "12 August 2026 eclipse from Palencia"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/12_august_2026_eclipse_from_leon/27417986-1-eng-GB/12_August_2026_eclipse_from_Leon_pillars.png",
+        "alt": "Eclipse de 12 de agosto de 2026 em Leão",
+        "alt_pt": "Eclipse de 12 de agosto de 2026 em Leão",
+        "alt_en": "12 August 2026 eclipse from León",
+        "caption": "Eclipse de 12 de agosto de 2026 em Leão",
+        "caption_pt": "Eclipse de 12 de agosto de 2026 em Leão",
+        "caption_en": "12 August 2026 eclipse from León"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/proba-3_s_eclipse_hours_before_totality_in_europe/27416531-1-eng-GB/Proba-3_s_eclipse_hours_before_totality_in_Europe_pillars.png",
+        "alt": "Eclipse solar artificial pela missão Proba-3",
+        "alt_pt": "Eclipse solar artificial pela missão Proba-3",
+        "alt_en": "Artificial solar eclipse by Proba-3 mission",
+        "caption": "Eclipse solar artificial pela missão Proba-3",
+        "caption_pt": "Eclipse solar artificial pela missão Proba-3",
+        "caption_en": "Artificial solar eclipse by Proba-3 mission"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/eclipse_over_cebreros_ground_station/27416880-1-eng-GB/Eclipse_over_Cebreros_Ground_Station_pillars.jpg",
+        "alt": "Eclipse sobre a estação terrestre de Cebreros",
+        "alt_pt": "Eclipse sobre a estação terrestre de Cebreros",
+        "alt_en": "Eclipse over Cebreros Ground Station",
+        "caption": "Eclipse sobre a estação terrestre de Cebreros",
+        "caption_pt": "Eclipse sobre a estação terrestre de Cebreros",
+        "caption_en": "Eclipse over Cebreros Ground Station"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/the_12_august_2026_eclipse_from_a_plane/27418080-1-eng-GB/The_12_August_2026_eclipse_from_a_plane_pillars.jpg",
+        "alt": "O eclipse de 12 de agosto de 2026 de um avião",
+        "alt_pt": "O eclipse de 12 de agosto de 2026 de um avião",
+        "alt_en": "The 12 August 2026 eclipse from a plane",
+        "caption": "O eclipse de 12 de agosto de 2026 de um avião",
+        "caption_pt": "O eclipse de 12 de agosto de 2026 de um avião",
+        "caption_en": "The 12 August 2026 eclipse from a plane"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/behind_the_scenes_at_esa_s_solar_eclipse_broadcast_in_the_control_room/27417892-1-eng-GB/Behind_the_scenes_at_ESA_s_solar_eclipse_broadcast_in_the_control_room_pillars.jpg",
+        "alt": "Nos bastidores da ESA",
+        "alt_pt": "Nos bastidores da ESA",
+        "alt_en": "Behind the scenes at ESA",
+        "caption": "Nos bastidores da ESA",
+        "caption_pt": "Nos bastidores da ESA",
+        "caption_en": "Behind the scenes at ESA"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/celebrating_the_2026_solar_eclipse/27416697-1-eng-GB/Celebrating_the_2026_solar_eclipse_pillars.jpg",
+        "alt": "Comemorando o eclipse solar de 2026",
+        "alt_pt": "Comemorando o eclipse solar de 2026",
+        "alt_en": "Celebrating the 2026 solar eclipse",
+        "caption": "Comemorando o eclipse solar de 2026",
+        "caption_pt": "Comemorando o eclipse solar de 2026",
+        "caption_en": "Celebrating the 2026 solar eclipse"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/seeing_an_eclipse_through_a_colander/27416343-1-eng-GB/Seeing_an_eclipse_through_a_colander_pillars.jpg",
+        "alt": "Vendo um eclipse através de uma peneira",
+        "alt_pt": "Vendo um eclipse através de uma peneira",
+        "alt_en": "Seeing an eclipse through a colander",
+        "caption": "Vendo um eclipse através de uma peneira",
+        "caption_pt": "Vendo um eclipse através de uma peneira",
+        "caption_en": "Seeing an eclipse through a colander"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/solar_crescents_cast_by_a_tree/27416390-1-eng-GB/Solar_crescents_cast_by_a_tree_pillars.jpg",
+        "alt": "Crescentes solares lançados por uma árvore",
+        "alt_pt": "Crescentes solares lançados por uma árvore",
+        "alt_en": "Solar crescents cast by a tree",
+        "caption": "Crescentes solares lançados por uma árvore",
+        "caption_pt": "Crescentes solares lançados por uma árvore",
+        "caption_en": "Solar crescents cast by a tree"
+      }
+    ],
+    "video": {
+      "kind": "embed",
+      "platform": "youtube",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/DRDx2xDR8NA?rel=0&modestbranding=1",
+      "fileUrl": "",
+      "poster": "",
+      "title": "",
+      "title_pt": "",
+      "title_en": "",
+      "caption": "",
+      "caption_pt": "",
+      "caption_en": "",
+      "sourcePage": "https://www.esa.int/Science_Exploration/Space_Science/A_look_back_at_the_2026_total_solar_eclipse"
+    },
+    "audio": null,
+    "title": "Uma retrospectiva do eclipse solar total de 2026",
+    "title_pt": "Uma retrospectiva do eclipse solar total de 2026",
+    "title_en": "A look back at the 2026 total solar eclipse",
+    "sub": "Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas.",
+    "sub_pt": "Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas.",
+    "sub_en": "On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades. Millions of people were awed by the Moon completely covering the Sun's bright disc, briefly.",
+    "excerpt": "Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas. Milhões de pessoas ficaram impressionadas com a Lua cobrindo completamente o disco brilhante do Sol, transformando brevemente o dia em noite e revelando a.",
+    "excerpt_pt": "Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas. Milhões de pessoas ficaram impressionadas com a Lua cobrindo completamente o disco brilhante do Sol, transformando brevemente o dia em noite e revelando a.",
+    "excerpt_en": "On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades. Millions of people were awed by the Moon completely covering the Sun's bright disc, briefly turning day into night and revealing the Sun's outer.",
+    "highlights": [
+      "Em foco: Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "14 ago 2026",
+    "date_pt": "14 ago 2026",
+    "date_en": "14 Aug 2026",
+    "time": "10h00",
+    "time_pt": "10h00",
+    "time_en": "10: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-14T10:00:00+00:00",
+    "lastModifiedIso": "2026-08-14T16:43:52+00:00",
+    "source": "ESA Space Science",
+    "sourceDomain": "www. esa. int",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "ESA Space Science",
+      "Cosmos Week",
+      "Uma retrospectiva do eclipse solar total de 2026"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "ESA Space Science",
+      "Cosmos Week",
+      "Uma retrospectiva do eclipse solar total de 2026"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "ESA Space Science",
+      "Cosmos Week",
+      "A look back at the 2026 total solar eclipse"
+    ],
+    "srcUrl": "https://www.esa.int/Science_Exploration/Space_Science/A_look_back_at_the_2026_total_solar_eclipse",
+    "realUrl": "https://www.cosmosweek.com/?article=a-look-back-at-the-2026-total-solar-eclipse",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=a-look-back-at-the-2026-total-solar-eclipse",
+    "realUrl_en": "https://www.cosmosweek.com/?article=a-look-back-at-the-2026-total-solar-eclipse&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/a-look-back-at-the-2026-total-solar-eclipse/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/a-look-back-at-the-2026-total-solar-eclipse/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/a-look-back-at-the-2026-total-solar-eclipse/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/a-look-back-at-the-2026-total-solar-eclipse/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/a-look-back-at-the-2026-total-solar-eclipse/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/a-look-back-at-the-2026-total-solar-eclipse/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 95,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Uma retrospectiva do eclipse solar total de 2026",
+    "imageAlt_pt": "Uma retrospectiva do eclipse solar total de 2026",
+    "imageAlt_en": "A look back at the 2026 total solar eclipse",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co",
+    "cat": "Cosmologia",
+    "catCls": "cosmologia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg/1280px-Andromeda_Galaxy_%28with_h-alpha%29.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Detecção automática de oscilações rápidas do campo escalar da matéria escura e restrições cosmológicas atualizadas no QCDM",
+    "title_pt": "Detecção automática de oscilações rápidas do campo escalar da matéria escura e restrições cosmológicas atualizadas no QCDM",
+    "title_en": "Automatic detection of fast oscillations of dark matter scalar field and updated cosmological constraints on QCDM",
+    "sub": "É bem conhecido que um campo escalar de matéria escura com potencial quadrático sofre oscilações rápidas quando o período de tempo representado pela escala de massa na equação de.",
+    "sub_pt": "É bem conhecido que um campo escalar de matéria escura com potencial quadrático sofre oscilações rápidas quando o período de tempo representado pela escala de massa na equação de.",
+    "sub_en": "It is well known that a scalar field dark matter with a quadratic potential undergoes fast oscillations when the time period represented by the mass scale in the Klein-Gordon.",
+    "excerpt": "É bem conhecido que um campo escalar de matéria escura com potencial quadrático sofre oscilações rápidas quando o período de tempo representado pela escala de massa na equação de Klein-Gordon se torna muito menor do que o definido pelo Hubble.",
+    "excerpt_pt": "É bem conhecido que um campo escalar de matéria escura com potencial quadrático sofre oscilações rápidas quando o período de tempo representado pela escala de massa na equação de Klein-Gordon se torna muito menor do que o definido pelo Hubble.",
+    "excerpt_en": "It is well known that a scalar field dark matter with a quadratic potential undergoes fast oscillations when the time period represented by the mass scale in the Klein-Gordon equation becomes much smaller than that set by the Hubble.",
+    "highlights": [
+      "Em foco: É bem conhecido que um campo escalar de matéria escura com potencial quadrático sofre oscilações rápidas quando o período de tempo representado pela",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: É bem conhecido que um campo escalar de matéria escura com potencial quadrático sofre oscilações rápidas quando o período de tempo representado pela",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: It is well known that a scalar field dark matter with a quadratic potential undergoes fast oscillations when the time period represented by the mass",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "13 ago 2026",
+    "date_pt": "13 ago 2026",
+    "date_en": "13 Aug 2026",
+    "time": "15h16",
+    "time_pt": "15h16",
+    "time_en": "15: 16 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-13T15:16:11+00:00",
+    "lastModifiedIso": "2026-08-14T16:43:52+00:00",
+    "source": "arXiv Cosmology",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Cosmologia",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "Detecção automática de oscilações rápidas do campo escalar da matéria escura e restrições cosmológicas atualizadas no QCDM"
+    ],
+    "keywords_pt": [
+      "Cosmologia",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "Detecção automática de oscilações rápidas do campo escalar da matéria escura e restrições cosmológicas atualizadas no QCDM"
+    ],
+    "keywords_en": [
+      "Cosmology",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "Automatic detection of rapid oscillations of the dark matter scalar field and updated cosmological constraints in QCDM"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2608.13346v1",
+    "realUrl": "https://www.cosmosweek.com/?article=automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co",
+    "realUrl_en": "https://www.cosmosweek.com/?article=automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 80,
+    "scoreBreakdown": {
+      "source": 64,
+      "evidence": 39,
+      "relevance": 94,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Detecção automática de oscilações rápidas do campo escalar da matéria escura e restrições cosmológicas atualizadas no QCDM",
+    "imageAlt_pt": "Detecção automática de oscilações rápidas do campo escalar da matéria escura e restrições cosmológicas atualizadas no QCDM",
+    "imageAlt_en": "Automatic detection of fast oscillations of dark matter scalar field and updated cosmological constraints on QCDM",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
     "slug": "cascade-volcanoes-shrouded-in-smoke",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -137,7 +494,7 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 4,
     "slug": "nasa-data-helps-commercial-space-plan-living-off-our-moon",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -255,7 +612,7 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 5,
     "slug": "nasa-upgrades-vertical-motion-simulator-for-modern-mission-needs",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -286,19 +643,19 @@
     "excerpt_pt": "Imagine entrar em uma máquina que pode fazer você se sentir como se estivesse pilotando uma espaçonave, pilotando um táxi aéreo de última geração ou pousando na Lua, tudo isso sem sair do solo.",
     "excerpt_en": "Imagine stepping into a machine that can make you feel like you’re flying a spacecraft, piloting a next generation air taxi, or landing on the Moon, all without leaving the ground.",
     "highlights": [
-      "Em foco: Imagine entrar em uma máquina que pode fazer você se sentir como se estivesse pilotando uma espaçonave, pilotando um táxi aéreo de última geração ou",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Imagine entrar em uma máquina que pode fazer você se sentir como se estivesse pilotando uma espaçonave, pilotando um táxi aéreo de última geração ou.",
+      "Dado-chave: Imagine entrar em uma máquina que pode fazer você se sentir como se estivesse pilotando uma espaçonave, pilotando um táxi aéreo de última.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Imagine entrar em uma máquina que pode fazer você se sentir como se estivesse pilotando uma espaçonave, pilotando um táxi aéreo de última geração ou",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Imagine entrar em uma máquina que pode fazer você se sentir como se estivesse pilotando uma espaçonave, pilotando um táxi aéreo de última geração ou.",
+      "Dado-chave: Imagine entrar em uma máquina que pode fazer você se sentir como se estivesse pilotando uma espaçonave, pilotando um táxi aéreo de última.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Imagine stepping into a machine that can make you feel like you’re flying a spacecraft, piloting a next generation air taxi, or landing on the Moon",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Imagine stepping into a machine that can make you feel like you’re flying a spacecraft, piloting a next generation air taxi, or landing on the Moon.",
+      "Key detail: Imagine stepping into a machine that can make you feel like you’re flying a spacecraft, piloting a next generation air taxi, or landing on the.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "12 ago 2026",
     "date_pt": "12 ago 2026",
@@ -386,124 +743,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
-    "slug": "meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency",
-    "cat": "Cosmologia",
-    "catCls": "cosmologia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg/1280px-Andromeda_Galaxy_%28with_h-alpha%29.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "MeerKAT revela evidências de um rádio Megahalo na frequência de GHz",
-    "title_pt": "MeerKAT revela evidências de um rádio Megahalo na frequência de GHz",
-    "title_en": "MeerKAT Reveals Evidence of a Radio Megahalo at GHz Frequency",
-    "sub": "Megahalos de rádio são fontes síncrotron difusas em grande escala recentemente descobertas, identificadas através de observações LOFAR.",
-    "sub_pt": "Megahalos de rádio são fontes síncrotron difusas em grande escala recentemente descobertas, identificadas através de observações LOFAR.",
-    "sub_en": "Radio megahalos are recently discovered large-scale diffuse synchrotron sources identified through LOFAR observations.",
-    "excerpt": "Megahalos de rádio são fontes síncrotron difusas em grande escala recentemente descobertas, identificadas através de observações LOFAR.",
-    "excerpt_pt": "Megahalos de rádio são fontes síncrotron difusas em grande escala recentemente descobertas, identificadas através de observações LOFAR.",
-    "excerpt_en": "Radio megahalos are recently discovered large-scale diffuse synchrotron sources identified through LOFAR observations. We present MeerKAT L-band observations of the massive galaxy cluster RXC~J0528.",
-    "highlights": [
-      "Em foco: Megahalos de rádio são fontes síncrotron difusas em grande escala recentemente descobertas, identificadas através de observações LOFAR",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
-    ],
-    "highlights_pt": [
-      "Em foco: Megahalos de rádio são fontes síncrotron difusas em grande escala recentemente descobertas, identificadas através de observações LOFAR",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
-    ],
-    "highlights_en": [
-      "Focus: Radio megahalos are recently discovered large-scale diffuse synchrotron sources identified through LOFAR observations",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
-    ],
-    "date": "12 ago 2026",
-    "date_pt": "12 ago 2026",
-    "date_en": "12 Aug 2026",
-    "time": "13h25",
-    "time_pt": "13h25",
-    "time_en": "13: 25 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-12T13:25:25+00:00",
-    "lastModifiedIso": "2026-08-13T16:45:36+00:00",
-    "source": "arXiv Cosmology",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Cosmologia",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "MeerKAT revela evidências de um rádio Megahalo na frequência de GHz"
-    ],
-    "keywords_pt": [
-      "Cosmologia",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "MeerKAT revela evidências de um rádio Megahalo na frequência de GHz"
-    ],
-    "keywords_en": [
-      "Cosmology",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "MeerKAT reveals evidence of a Megahalo radio at GHz frequency"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2608.12042v1",
-    "realUrl": "https://www.cosmosweek.com/?article=meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency",
-    "realUrl_en": "https://www.cosmosweek.com/?article=meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 80,
-    "scoreBreakdown": {
-      "source": 64,
-      "evidence": 39,
-      "relevance": 94,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "MeerKAT revela evidências de um rádio Megahalo na frequência de GHz",
-    "imageAlt_pt": "MeerKAT revela evidências de um rádio Megahalo na frequência de GHz",
-    "imageAlt_en": "MeerKAT Reveals Evidence of a Radio Megahalo at GHz Frequency",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 5,
+    "id": 6,
     "slug": "radio-flares-and-x-ray-hardening-embedded-in-the-long-soft-state-of-4u-1543-475",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -521,18 +761,19 @@
     "excerpt_pt": "Apresentamos um estudo abrangente de vários comprimentos de onda do binário de raios X do buraco negro 4U 1543-475 durante sua explosão de 2021, com foco em episódios de explosões de rádio que são comumente interpretados como assinaturas de produção episódica.",
     "excerpt_en": "We present a comprehensive multi-wavelength study of the black hole X-ray binary 4U 1543-475 during its 2021 outburst, focusing on radio flaring episodes that are commonly interpreted as signatures of episodic jet production and are.",
     "highlights": [
-      "Em foco: Apresentamos um estudo abrangente de vários comprimentos de onda do binário de raios X do buraco negro 4U 1543-475 durante sua explosão de 2021, com",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Apresentamos um estudo abrangente de vários comprimentos de onda do binário de raios X do buraco negro 4U 1543-475 durante sua explosão de 2021, com.",
+      "Dado-chave: Apresentamos um estudo abrangente de vários comprimentos de onda do binário de raios X do buraco negro 4U 1543-475 durante sua explosão de 2021.",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Apresentamos um estudo abrangente de vários comprimentos de onda do binário de raios X do buraco negro 4U 1543-475 durante sua explosão de 2021, com",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Apresentamos um estudo abrangente de vários comprimentos de onda do binário de raios X do buraco negro 4U 1543-475 durante sua explosão de 2021, com.",
+      "Dado-chave: Apresentamos um estudo abrangente de vários comprimentos de onda do binário de raios X do buraco negro 4U 1543-475 durante sua explosão de 2021.",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: We present a comprehensive multi-wavelength study of the black hole X-ray binary 4U 1543-475 during its 2021 outburst, focusing on radio flaring",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: We present a comprehensive multi-wavelength study of the black hole X-ray binary 4U 1543-475 during its 2021 outburst, focusing on radio flaring.",
+      "Key detail: We present a comprehensive multi-wavelength study of the black hole X-ray binary 4U 1543-475 during its 2021 outburst, focusing on radio flaring",
+      "Result not yet peer reviewed."
     ],
     "date": "12 ago 2026",
     "date_pt": "12 ago 2026",
@@ -620,7 +861,7 @@
     "storyKind": "science"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "stops-along-the-path-of-totality",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -757,7 +998,7 @@
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "what-is-the-nancy-grace-roman-space-telescope-grades-5-8",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -875,7 +1116,7 @@
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "dust-and-water-spotted-close-to-giant-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1012,7 +1253,7 @@
     "storyKind": "science"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "the-quadratic-growth-of-krylov-spread-complexity-in-the-btz-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1130,7 +1371,7 @@
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "how-esa-mimics-and-models-the-2026-total-solar-eclipse",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1258,7 +1499,7 @@
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1386,7 +1627,7 @@
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "science-campaigns-planned-for-the-august-12th-total-solar-eclipse",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1545,7 +1786,7 @@
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "how-the-tide-turns-at-the-mouth-of-the-elbe",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1592,17 +1833,17 @@
     "excerpt_en": "The ocean’s ebbs and flows reveal dynamic tidal flats and a well-traveled shipping route along the coast of Germany. The post How the Tide Turns at the Mouth of the Elbe appeared first on NASA Science.",
     "highlights": [
       "Ponto central: Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha.",
-      "Dado-chave: Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha",
+      "Dado-chave: Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha.",
-      "Dado-chave: Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha",
+      "Dado-chave: Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: The ocean’s ebbs and flows reveal dynamic tidal flats and a well-traveled shipping route along the coast of Germany.",
-      "Key detail: The ocean’s ebbs and flows reveal dynamic tidal flats and a well-traveled shipping route along the coast of Germany",
+      "Key detail: The ocean’s ebbs and flows reveal dynamic tidal flats and a well-traveled shipping route along the coast of Germany.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "06 ago 2026",
@@ -1691,7 +1932,7 @@
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "europe-s-forests-losing-more-biomass-since-2018",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1809,7 +2050,7 @@
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "the-paradox-of-lencois-maranhenses-national-park",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1946,7 +2187,7 @@
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "hydrognss-data-open-for-new-insights-into-earth-s-water",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2074,7 +2315,7 @@
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "smos-salinity-could-offer-early-indicator-of-el-nino",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2195,174 +2436,6 @@
     "imageAlt": "A salinidade do SMOS pode oferecer um indicador precoce do El Niño",
     "imageAlt_pt": "A salinidade do SMOS pode oferecer um indicador precoce do El Niño",
     "imageAlt_en": "SMOS salinity could offer early indicator of El Niño",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 18,
-    "slug": "watch-the-total-solar-eclipse-with-esa-in-leon",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/03/solar_eclipse_artist_impression/27150246-1-eng-GB/Solar_eclipse_artist_impression_pillars.png",
-    "inline_images": [
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/total_solar_eclipse_12_august_2026_map_of_totality_in_spain/27245996-1-eng-GB/Total_solar_eclipse_12_August_2026_Map_of_totality_in_Spain_article.png",
-        "alt": "Eclipse solar total 12 de agosto de 2026 – Mapa da totalidade na Espanha",
-        "alt_pt": "Eclipse solar total 12 de agosto de 2026 – Mapa da totalidade na Espanha",
-        "alt_en": "Total solar eclipse 12 August 2026 – Map of totality in Spain",
-        "caption": "Eclipse solar total 12 de agosto de 2026 – Mapa da totalidade na Espanha",
-        "caption_pt": "Eclipse solar total 12 de agosto de 2026 – Mapa da totalidade na Espanha",
-        "caption_en": "Total solar eclipse 12 August 2026 – Map of totality in Spain"
-      },
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/total_solar_eclipse_2026_leon_event_daytime_workshop_programme/27388350-2-eng-GB/Total_solar_eclipse_2026_Leon_event_daytime_workshop_programme_article.jpg",
-        "alt": "Eclipse solar total 2026: uma manhã de ciência para toda a família",
-        "alt_pt": "Eclipse solar total 2026: uma manhã de ciência para toda a família",
-        "alt_en": "Total solar eclipse 2026: a morning of science for the whole family",
-        "caption": "Eclipse solar total 2026: uma manhã de ciência para toda a família",
-        "caption_pt": "Eclipse solar total 2026: uma manhã de ciência para toda a família",
-        "caption_en": "Total solar eclipse 2026: a morning of science for the whole family"
-      },
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/total_solar_eclipse_2026_leon_event_evening_stage_show_programme/27388397-1-eng-GB/Total_solar_eclipse_2026_Leon_event_evening_stage_show_programme_article.jpg",
-        "alt": "Eclipse solar total 2026: experimente o eclipse conosco",
-        "alt_pt": "Eclipse solar total 2026: experimente o eclipse conosco",
-        "alt_en": "Total solar eclipse 2026: experience the eclipse with us",
-        "caption": "Eclipse solar total 2026: experimente o eclipse conosco",
-        "caption_pt": "Eclipse solar total 2026: experimente o eclipse conosco",
-        "caption_en": "Total solar eclipse 2026: experience the eclipse with us"
-      },
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/total_solar_eclipse_12_august_2026_global_map/27246043-1-eng-GB/Total_solar_eclipse_12_August_2026_Global_map_article.png",
-        "alt": "Eclipse solar total 12 de agosto de 2026 – Mapa global",
-        "alt_pt": "Eclipse solar total 12 de agosto de 2026 – Mapa global",
-        "alt_en": "Total solar eclipse 12 August 2026 – Global map",
-        "caption": "Eclipse solar total 12 de agosto de 2026 – Mapa global",
-        "caption_pt": "Eclipse solar total 12 de agosto de 2026 – Mapa global",
-        "caption_en": "Total solar eclipse 12 August 2026 – Global map"
-      }
-    ],
-    "video": {
-      "kind": "embed",
-      "platform": "youtube",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/DRDx2xDR8NA?rel=0&modestbranding=1",
-      "fileUrl": "",
-      "poster": "",
-      "title": "",
-      "title_pt": "",
-      "title_en": "",
-      "caption": "",
-      "caption_pt": "",
-      "caption_en": "",
-      "sourcePage": "https://www.esa.int/Science_Exploration/Space_Science/Watch_the_total_solar_eclipse_with_ESA_in_Leon"
-    },
-    "audio": null,
-    "title": "Assista ao eclipse solar total com a ESA em León",
-    "title_pt": "Assista ao eclipse solar total com a ESA em León",
-    "title_en": "Watch the total solar eclipse with ESA in León",
-    "sub": "Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial Europeia, a cidade de León e a.",
-    "sub_pt": "Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial Europeia, a cidade de León e a.",
-    "sub_en": "Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency, the City of León and the University.",
-    "excerpt": "Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial Europeia, a cidade de León e a Universidade de León.",
-    "excerpt_pt": "Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial Europeia, a cidade de León e a Universidade de León.",
-    "excerpt_en": "Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency, the City of León and the University of León.",
-    "highlights": [
-      "Ponto central: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial.",
-      "Dado-chave: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial.",
-      "Dado-chave: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency, the.",
-      "Key detail: Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "23 jul 2026",
-    "date_pt": "23 jul 2026",
-    "date_en": "23 Jul 2026",
-    "time": "10h00",
-    "time_pt": "10h00",
-    "time_en": "10: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-07-23T10:00:00+00:00",
-    "lastModifiedIso": "2026-07-23T17:19:30+00:00",
-    "source": "ESA Space Science",
-    "sourceDomain": "www. esa. int",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Assista ao eclipse solar total com a ESA em León"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Assista ao eclipse solar total com a ESA em León"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Watch the total solar eclipse with ESA in León"
-    ],
-    "srcUrl": "https://www.esa.int/Science_Exploration/Space_Science/Watch_the_total_solar_eclipse_with_ESA_in_Leon",
-    "realUrl": "https://www.cosmosweek.com/?article=watch-the-total-solar-eclipse-with-esa-in-leon",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=watch-the-total-solar-eclipse-with-esa-in-leon",
-    "realUrl_en": "https://www.cosmosweek.com/?article=watch-the-total-solar-eclipse-with-esa-in-leon&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/watch-the-total-solar-eclipse-with-esa-in-leon/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/watch-the-total-solar-eclipse-with-esa-in-leon/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/watch-the-total-solar-eclipse-with-esa-in-leon/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/watch-the-total-solar-eclipse-with-esa-in-leon/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/watch-the-total-solar-eclipse-with-esa-in-leon/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/watch-the-total-solar-eclipse-with-esa-in-leon/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 95,
-      "evidence": 92,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Assista ao eclipse solar total com a ESA em León",
-    "imageAlt_pt": "Assista ao eclipse solar total com a ESA em León",
-    "imageAlt_en": "Watch the total solar eclipse with ESA in León",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
@@ -2638,19 +2711,19 @@
     "excerpt_pt": "O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia.",
     "excerpt_en": "NASA’s next flagship orbital observatory will reshape what we know about planets throughout the galaxy.",
     "highlights": [
-      "Em foco: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia.",
+      "Dado-chave: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
-      "Em foco: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia.",
+      "Dado-chave: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
-      "Focus: NASA’s next flagship orbital observatory will reshape what we know about planets throughout the galaxy",
-      "Detail: Science reporting: verify primary technical documentation",
-      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+      "Core point: NASA’s next flagship orbital observatory will reshape what we know about planets throughout the galaxy.",
+      "Key detail: NASA’s next flagship orbital observatory will reshape what we know about planets throughout the galaxy",
+      "Science reporting: verify primary technical documentation."
     ],
     "date": "17 jul 2026",
     "date_pt": "17 jul 2026",
@@ -3620,7 +3693,7 @@
     ],
     "highlights_en": [
       "Core point: The U. S. National Science Foundation has selected five new teams to design experimental quantum technologies, from networks that can ferry fragile.",
-      "Key detail: The U. S",
+      "Key detail: The U. S. National Science Foundation has selected five new teams to design experimental quantum technologies, from networks that can ferry.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "24 jun 2026",
@@ -4621,12 +4694,12 @@
     "excerpt_en": "In the past several years, Rockefeller University's Kivanç Birsoy and his team in the Laboratory of Metabolic Regulation and Genetics have revealed remarkable details about the antioxidant glutathione, which plays many essential roles in.",
     "highlights": [
       "Ponto central: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
-      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes",
+      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
       "Ponto central: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
-      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes",
+      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [

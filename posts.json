@@ -1,6 +1,369 @@
 [
   {
     "id": 1,
+    "slug": "a-look-back-at-the-2026-total-solar-eclipse",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/12_august_total_eclipse_imaged_by_miguel_claro/27418378-1-eng-GB/12_August_total_eclipse_imaged_by_Miguel_Claro_pillars.jpg",
+    "inline_images": [
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/totality_in_leon_12_august_2026/27416484-1-eng-GB/Totality_in_Leon_12_August_2026_pillars.jpg",
+        "alt": "Totalidade em Leão, 12 de agosto de 2026",
+        "alt_pt": "Totalidade em Leão, 12 de agosto de 2026",
+        "alt_en": "Totality in León, 12 August 2026",
+        "caption": "Totalidade em Leão, 12 de agosto de 2026",
+        "caption_pt": "Totalidade em Leão, 12 de agosto de 2026",
+        "caption_en": "Totality in León, 12 August 2026"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/12_august_total_eclipse_imaged_by_marina_prol2/27418472-1-eng-GB/12_August_total_eclipse_imaged_by_Marina_Prol_pillars.jpg",
+        "alt": "Eclipse total de 12 de agosto fotografado por Marina Prol",
+        "alt_pt": "Eclipse total de 12 de agosto fotografado por Marina Prol",
+        "alt_en": "12 August total eclipse imaged by Marina Prol",
+        "caption": "Eclipse total de 12 de agosto fotografado por Marina Prol",
+        "caption_pt": "Eclipse total de 12 de agosto fotografado por Marina Prol",
+        "caption_en": "12 August total eclipse imaged by Marina Prol"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/12_august_2026_eclipse_from_javalambre/27417939-1-eng-GB/12_August_2026_eclipse_from_Javalambre_pillars.png",
+        "alt": "Eclipse de 12 de agosto de 2026 em Javalambre",
+        "alt_pt": "Eclipse de 12 de agosto de 2026 em Javalambre",
+        "alt_en": "12 August 2026 eclipse from Javalambre",
+        "caption": "Eclipse de 12 de agosto de 2026 em Javalambre",
+        "caption_pt": "Eclipse de 12 de agosto de 2026 em Javalambre",
+        "caption_en": "12 August 2026 eclipse from Javalambre"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/12_august_2026_eclipse_from_palencia/27418033-1-eng-GB/12_August_2026_eclipse_from_Palencia_pillars.png",
+        "alt": "Eclipse de 12 de agosto de 2026 em Palência",
+        "alt_pt": "Eclipse de 12 de agosto de 2026 em Palência",
+        "alt_en": "12 August 2026 eclipse from Palencia",
+        "caption": "Eclipse de 12 de agosto de 2026 em Palência",
+        "caption_pt": "Eclipse de 12 de agosto de 2026 em Palência",
+        "caption_en": "12 August 2026 eclipse from Palencia"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/12_august_2026_eclipse_from_leon/27417986-1-eng-GB/12_August_2026_eclipse_from_Leon_pillars.png",
+        "alt": "Eclipse de 12 de agosto de 2026 em Leão",
+        "alt_pt": "Eclipse de 12 de agosto de 2026 em Leão",
+        "alt_en": "12 August 2026 eclipse from León",
+        "caption": "Eclipse de 12 de agosto de 2026 em Leão",
+        "caption_pt": "Eclipse de 12 de agosto de 2026 em Leão",
+        "caption_en": "12 August 2026 eclipse from León"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/proba-3_s_eclipse_hours_before_totality_in_europe/27416531-1-eng-GB/Proba-3_s_eclipse_hours_before_totality_in_Europe_pillars.png",
+        "alt": "Eclipse solar artificial pela missão Proba-3",
+        "alt_pt": "Eclipse solar artificial pela missão Proba-3",
+        "alt_en": "Artificial solar eclipse by Proba-3 mission",
+        "caption": "Eclipse solar artificial pela missão Proba-3",
+        "caption_pt": "Eclipse solar artificial pela missão Proba-3",
+        "caption_en": "Artificial solar eclipse by Proba-3 mission"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/eclipse_over_cebreros_ground_station/27416880-1-eng-GB/Eclipse_over_Cebreros_Ground_Station_pillars.jpg",
+        "alt": "Eclipse sobre a estação terrestre de Cebreros",
+        "alt_pt": "Eclipse sobre a estação terrestre de Cebreros",
+        "alt_en": "Eclipse over Cebreros Ground Station",
+        "caption": "Eclipse sobre a estação terrestre de Cebreros",
+        "caption_pt": "Eclipse sobre a estação terrestre de Cebreros",
+        "caption_en": "Eclipse over Cebreros Ground Station"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/the_12_august_2026_eclipse_from_a_plane/27418080-1-eng-GB/The_12_August_2026_eclipse_from_a_plane_pillars.jpg",
+        "alt": "O eclipse de 12 de agosto de 2026 de um avião",
+        "alt_pt": "O eclipse de 12 de agosto de 2026 de um avião",
+        "alt_en": "The 12 August 2026 eclipse from a plane",
+        "caption": "O eclipse de 12 de agosto de 2026 de um avião",
+        "caption_pt": "O eclipse de 12 de agosto de 2026 de um avião",
+        "caption_en": "The 12 August 2026 eclipse from a plane"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/behind_the_scenes_at_esa_s_solar_eclipse_broadcast_in_the_control_room/27417892-1-eng-GB/Behind_the_scenes_at_ESA_s_solar_eclipse_broadcast_in_the_control_room_pillars.jpg",
+        "alt": "Nos bastidores da ESA",
+        "alt_pt": "Nos bastidores da ESA",
+        "alt_en": "Behind the scenes at ESA",
+        "caption": "Nos bastidores da ESA",
+        "caption_pt": "Nos bastidores da ESA",
+        "caption_en": "Behind the scenes at ESA"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/celebrating_the_2026_solar_eclipse/27416697-1-eng-GB/Celebrating_the_2026_solar_eclipse_pillars.jpg",
+        "alt": "Comemorando o eclipse solar de 2026",
+        "alt_pt": "Comemorando o eclipse solar de 2026",
+        "alt_en": "Celebrating the 2026 solar eclipse",
+        "caption": "Comemorando o eclipse solar de 2026",
+        "caption_pt": "Comemorando o eclipse solar de 2026",
+        "caption_en": "Celebrating the 2026 solar eclipse"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/seeing_an_eclipse_through_a_colander/27416343-1-eng-GB/Seeing_an_eclipse_through_a_colander_pillars.jpg",
+        "alt": "Vendo um eclipse através de uma peneira",
+        "alt_pt": "Vendo um eclipse através de uma peneira",
+        "alt_en": "Seeing an eclipse through a colander",
+        "caption": "Vendo um eclipse através de uma peneira",
+        "caption_pt": "Vendo um eclipse através de uma peneira",
+        "caption_en": "Seeing an eclipse through a colander"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/solar_crescents_cast_by_a_tree/27416390-1-eng-GB/Solar_crescents_cast_by_a_tree_pillars.jpg",
+        "alt": "Crescentes solares lançados por uma árvore",
+        "alt_pt": "Crescentes solares lançados por uma árvore",
+        "alt_en": "Solar crescents cast by a tree",
+        "caption": "Crescentes solares lançados por uma árvore",
+        "caption_pt": "Crescentes solares lançados por uma árvore",
+        "caption_en": "Solar crescents cast by a tree"
+      }
+    ],
+    "video": {
+      "kind": "embed",
+      "platform": "youtube",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/DRDx2xDR8NA?rel=0&modestbranding=1",
+      "fileUrl": "",
+      "poster": "",
+      "title": "",
+      "title_pt": "",
+      "title_en": "",
+      "caption": "",
+      "caption_pt": "",
+      "caption_en": "",
+      "sourcePage": "https://www.esa.int/Science_Exploration/Space_Science/A_look_back_at_the_2026_total_solar_eclipse"
+    },
+    "audio": null,
+    "title": "Uma retrospectiva do eclipse solar total de 2026",
+    "title_pt": "Uma retrospectiva do eclipse solar total de 2026",
+    "title_en": "A look back at the 2026 total solar eclipse",
+    "sub": "Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas.",
+    "sub_pt": "Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas.",
+    "sub_en": "On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades. Millions of people were awed by the Moon completely covering the Sun's bright disc, briefly.",
+    "excerpt": "Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas. Milhões de pessoas ficaram impressionadas com a Lua cobrindo completamente o disco brilhante do Sol, transformando brevemente o dia em noite e revelando a.",
+    "excerpt_pt": "Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas. Milhões de pessoas ficaram impressionadas com a Lua cobrindo completamente o disco brilhante do Sol, transformando brevemente o dia em noite e revelando a.",
+    "excerpt_en": "On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades. Millions of people were awed by the Moon completely covering the Sun's bright disc, briefly turning day into night and revealing the Sun's outer.",
+    "body": "<p>Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas. Milhões de pessoas ficaram impressionadas com a Lua cobrindo completamente o disco brilhante do Sol, transformando brevemente o dia em noite e revelando a parte externa do Sol.</p><p>Milhões de pessoas ficaram maravilhadas com a Lua cobrindo completamente o disco brilhante do Sol, transformando brevemente o dia em noite e revelando a atmosfera externa do Sol. Acho que ‘confunde a mente’ resume tudo”, disse a Diretora de Ciências da Agência Espacial Europeia, Professora Carole Mundell, durante a transmissão ao vivo da ESA a partir do Observatório Astrofísico de Javalambre, Espanha.</p><p>A ESA organizou transmissões ao vivo de telescópios dos locais espanhóis de León, Palencia e Javalambre, e fotógrafos de toda a Europa partilharam as suas fotos connosco. O satélite de observação da Terra MTG-I1 capturou a sombra da Lua movendo-se pela Terra, e o criador de eclipses artificiais da ESA, Proba-3, capturou um eclipse duplo da órbita da Terra.</p><p>Para aqueles que não puderam viajar para regiões onde a totalidade era visível, a transmissão ao vivo da ESA permitiu-lhes vivenciar o eclipse juntamente com cientistas da ESA e do observatório. Maggie Aderin, o programa explorou tópicos que vão desde os mistérios do Sol e da sua coroa, até como um famoso eclipse mudou a nossa compreensão da gravidade e como a ESA está agora a criar eclipses solares artificiais no espaço.</p><p>O destaque foi a cobertura de 1 minuto e 21 segundos de totalidade, enquanto a Lua mergulhava Javalambre na escuridão total. A ESA, juntamente com a Cidade de Leão e a Universidade de Leão, organizou um evento público gratuito no Palácio de Exposições e Congressos de Leão (Espanha) no dia do eclipse.</p><p>Um destaque foi o workshop “um eclipse inclusivo”, onde membros da equipa de educação científica CESAR da ESA demonstraram ferramentas para experienciar um eclipse sem usar os olhos.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/A_look_back_at_the_2026_total_solar_eclipse\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas. Milhões de pessoas ficaram impressionadas com a Lua cobrindo completamente o disco brilhante do Sol, transformando brevemente o dia em noite e revelando a parte externa do Sol.</p><p>Milhões de pessoas ficaram maravilhadas com a Lua cobrindo completamente o disco brilhante do Sol, transformando brevemente o dia em noite e revelando a atmosfera externa do Sol. Acho que ‘confunde a mente’ resume tudo”, disse a Diretora de Ciências da Agência Espacial Europeia, Professora Carole Mundell, durante a transmissão ao vivo da ESA a partir do Observatório Astrofísico de Javalambre, Espanha.</p><p>A ESA organizou transmissões ao vivo de telescópios dos locais espanhóis de León, Palencia e Javalambre, e fotógrafos de toda a Europa partilharam as suas fotos connosco. O satélite de observação da Terra MTG-I1 capturou a sombra da Lua movendo-se pela Terra, e o criador de eclipses artificiais da ESA, Proba-3, capturou um eclipse duplo da órbita da Terra.</p><p>Para aqueles que não puderam viajar para regiões onde a totalidade era visível, a transmissão ao vivo da ESA permitiu-lhes vivenciar o eclipse juntamente com cientistas da ESA e do observatório. Maggie Aderin, o programa explorou tópicos que vão desde os mistérios do Sol e da sua coroa, até como um famoso eclipse mudou a nossa compreensão da gravidade e como a ESA está agora a criar eclipses solares artificiais no espaço.</p><p>O destaque foi a cobertura de 1 minuto e 21 segundos de totalidade, enquanto a Lua mergulhava Javalambre na escuridão total. A ESA, juntamente com a Cidade de Leão e a Universidade de Leão, organizou um evento público gratuito no Palácio de Exposições e Congressos de Leão (Espanha) no dia do eclipse.</p><p>Um destaque foi o workshop “um eclipse inclusivo”, onde membros da equipa de educação científica CESAR da ESA demonstraram ferramentas para experienciar um eclipse sem usar os olhos.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/A_look_back_at_the_2026_total_solar_eclipse\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades. Millions of people were awed by the Moon completely covering the Sun&#x27;s bright disc, briefly turning day into night and revealing the Sun&#x27;s outer. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades. Millions of people were awed by the Moon completely covering the Sun&#x27;s bright disc, briefly turning day into night and revealing the Sun&#x27;s outer atmosphere.</p><p>I think ‘boggles the mind’ sums it up,” says the European Space Agency&#x27;s Director of Science Professor Carole Mundell, during ESA&#x27;s live broadcast from the Observatorio. ESA arranged for live telescope feeds from the Spanish sites of León, Palencia and Javalambre, and photographers across Europe shared their photos with us.</p><p>Earth observation satellite MTG-I1 captured the Moon’s shadow moving across Earth, and ESA&#x27;s artificial eclipse-maker Proba-3 captured a double eclipse from Earth orbit. For those unable to travel to regions from where totality was visible, ESA&#x27;s live broadcast allowed them to experience the eclipse together with scientists from ESA and the.</p><p>Hosted by Dame Dr Maggie Aderin, the programme explored topics ranging from the mysteries of the Sun and its corona, to how one famous eclipse changed our understanding of. The highlight was the coverage of 1 minute and 21 seconds of totality, as the Moon plunged Javalambre into complete darkness.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>ESA, together with the City of León and the University of León, organised a free public event at the Palacio de Exposiciones y Congresos de León (Spain) on the day of the eclipse. A highlight was the ‘an inclusive eclipse’ workshop, where members of ESA’s CESAR science education team demonstrated tools to experience an eclipse without using your eyes.</p><p>Because the account originates with ESA Space Science, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/A_look_back_at_the_2026_total_solar_eclipse\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "14 ago 2026",
+    "date_pt": "14 ago 2026",
+    "date_en": "14 Aug 2026",
+    "time": "10h00",
+    "time_pt": "10h00",
+    "time_en": "10: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-14T10:00:00+00:00",
+    "lastModifiedIso": "2026-08-14T16:43:52+00:00",
+    "source": "ESA Space Science",
+    "sourceDomain": "www. esa. int",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "ESA Space Science",
+      "Cosmos Week",
+      "Uma retrospectiva do eclipse solar total de 2026"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "ESA Space Science",
+      "Cosmos Week",
+      "Uma retrospectiva do eclipse solar total de 2026"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "ESA Space Science",
+      "Cosmos Week",
+      "A look back at the 2026 total solar eclipse"
+    ],
+    "srcUrl": "https://www.esa.int/Science_Exploration/Space_Science/A_look_back_at_the_2026_total_solar_eclipse",
+    "realUrl": "https://www.cosmosweek.com/?article=a-look-back-at-the-2026-total-solar-eclipse",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=a-look-back-at-the-2026-total-solar-eclipse",
+    "realUrl_en": "https://www.cosmosweek.com/?article=a-look-back-at-the-2026-total-solar-eclipse&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/a-look-back-at-the-2026-total-solar-eclipse/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/a-look-back-at-the-2026-total-solar-eclipse/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/a-look-back-at-the-2026-total-solar-eclipse/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/a-look-back-at-the-2026-total-solar-eclipse/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/a-look-back-at-the-2026-total-solar-eclipse/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/a-look-back-at-the-2026-total-solar-eclipse/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 95,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Uma retrospectiva do eclipse solar total de 2026",
+    "imageAlt_pt": "Uma retrospectiva do eclipse solar total de 2026",
+    "imageAlt_en": "A look back at the 2026 total solar eclipse",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co",
+    "cat": "Cosmologia",
+    "catCls": "cosmologia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg/1280px-Andromeda_Galaxy_%28with_h-alpha%29.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Detecção automática de oscilações rápidas do campo escalar da matéria escura e restrições cosmológicas atualizadas no QCDM",
+    "title_pt": "Detecção automática de oscilações rápidas do campo escalar da matéria escura e restrições cosmológicas atualizadas no QCDM",
+    "title_en": "Automatic detection of fast oscillations of dark matter scalar field and updated cosmological constraints on QCDM",
+    "sub": "É bem conhecido que um campo escalar de matéria escura com potencial quadrático sofre oscilações rápidas quando o período de tempo representado pela escala de massa na equação de.",
+    "sub_pt": "É bem conhecido que um campo escalar de matéria escura com potencial quadrático sofre oscilações rápidas quando o período de tempo representado pela escala de massa na equação de.",
+    "sub_en": "It is well known that a scalar field dark matter with a quadratic potential undergoes fast oscillations when the time period represented by the mass scale in the Klein-Gordon.",
+    "excerpt": "É bem conhecido que um campo escalar de matéria escura com potencial quadrático sofre oscilações rápidas quando o período de tempo representado pela escala de massa na equação de Klein-Gordon se torna muito menor do que o definido pelo Hubble.",
+    "excerpt_pt": "É bem conhecido que um campo escalar de matéria escura com potencial quadrático sofre oscilações rápidas quando o período de tempo representado pela escala de massa na equação de Klein-Gordon se torna muito menor do que o definido pelo Hubble.",
+    "excerpt_en": "It is well known that a scalar field dark matter with a quadratic potential undergoes fast oscillations when the time period represented by the mass scale in the Klein-Gordon equation becomes much smaller than that set by the Hubble.",
+    "body": "<p>É bem conhecido que um campo escalar de matéria escura com potencial quadrático sofre oscilações rápidas quando o período de tempo representado pela escala de massa na equação de Klein-Gordon se torna muito menor do que o definido pelo Hubble. É bem conhecido que um campo escalar de matéria escura com potencial quadrático sofre oscilações rápidas quando o período de tempo representado pela escala de massa na equação de Klein-Gordon se torna muito menor do que aquele definido pelo parâmetro de Hubble.</p><p>Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário. ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem.</p><p>Tem uma ideia de um projeto que agregue valor à comunidade arXiv? . Saiba mais sobre o arXivLabs.</p><p>Resumo: É bem conhecido que um campo escalar de matéria escura com potencial quadrático sofre oscilações rápidas quando o período de tempo representado pela escala de massa na equação de Klein-Gordon se torna muito menor que aquele definido pelo parâmetro de Hubble. Isso torna uma solução para a equação numericamente intratável.</p><p>Muitos trabalhos na literatura abordaram o problema alternando entre a resolução da equação de Klein-Gordon no regime bem comportado para a resolução das equações de fluidos no início das oscilações, ou introduzindo um novo conjunto de variáveis ​​​​que podem absorver essas. Apesar de bem sucedidas, estas técnicas baseiam-se numa estimativa de quando as oscilações começam.</p><p>Para varreduras em grande escala do espaço de parâmetros de um modelo, isso pode se tornar complicado.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.13346v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>É bem conhecido que um campo escalar de matéria escura com potencial quadrático sofre oscilações rápidas quando o período de tempo representado pela escala de massa na equação de Klein-Gordon se torna muito menor do que o definido pelo Hubble. É bem conhecido que um campo escalar de matéria escura com potencial quadrático sofre oscilações rápidas quando o período de tempo representado pela escala de massa na equação de Klein-Gordon se torna muito menor do que aquele definido pelo parâmetro de Hubble.</p><p>Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário. ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem.</p><p>Tem uma ideia de um projeto que agregue valor à comunidade arXiv? . Saiba mais sobre o arXivLabs.</p><p>Resumo: É bem conhecido que um campo escalar de matéria escura com potencial quadrático sofre oscilações rápidas quando o período de tempo representado pela escala de massa na equação de Klein-Gordon se torna muito menor que aquele definido pelo parâmetro de Hubble. Isso torna uma solução para a equação numericamente intratável.</p><p>Muitos trabalhos na literatura abordaram o problema alternando entre a resolução da equação de Klein-Gordon no regime bem comportado para a resolução das equações de fluidos no início das oscilações, ou introduzindo um novo conjunto de variáveis ​​​​que podem absorver essas. Apesar de bem sucedidas, estas técnicas baseiam-se numa estimativa de quando as oscilações começam.</p><p>Para varreduras em grande escala do espaço de parâmetros de um modelo, isso pode se tornar complicado.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.13346v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>It is well known that a scalar field dark matter with a quadratic potential undergoes fast oscillations when the time period represented by the mass scale in the Klein-Gordon equation becomes much smaller than that set by the Hubble. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Have an idea for a project that will add value for arXiv&#x27;s community. This makes a solution to the equation numerically intractable.</p><p>Many works in the literature have addressed the problem by either switching between solving the Klein-Gordon equation in the well-behaved regime to solving the fluid equations at. Despite being successful, these techniques rely on an estimate of when the oscillations start.</p><p>For large scale scans of a model&#x27;s parameter space, this can become cumbersome. Furthermore, the techniques have been used mainly for non-interacting dark matter models.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>In this work, we introduce an averaging technique with an automatic detection of the onset of oscillations, capable of capturing the non-interacting as well as the interacting. The technique, implemented in \\texttt{CLASS}, is tested on the QCDM model and shows excellent detection and averaging abilities.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.13346v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: É bem conhecido que um campo escalar de matéria escura com potencial quadrático sofre oscilações rápidas quando o período de tempo representado pela",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: É bem conhecido que um campo escalar de matéria escura com potencial quadrático sofre oscilações rápidas quando o período de tempo representado pela",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: It is well known that a scalar field dark matter with a quadratic potential undergoes fast oscillations when the time period represented by the mass",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "13 ago 2026",
+    "date_pt": "13 ago 2026",
+    "date_en": "13 Aug 2026",
+    "time": "15h16",
+    "time_pt": "15h16",
+    "time_en": "15: 16 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-13T15:16:11+00:00",
+    "lastModifiedIso": "2026-08-14T16:43:52+00:00",
+    "source": "arXiv Cosmology",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Cosmologia",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "Detecção automática de oscilações rápidas do campo escalar da matéria escura e restrições cosmológicas atualizadas no QCDM"
+    ],
+    "keywords_pt": [
+      "Cosmologia",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "Detecção automática de oscilações rápidas do campo escalar da matéria escura e restrições cosmológicas atualizadas no QCDM"
+    ],
+    "keywords_en": [
+      "Cosmology",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "Automatic detection of rapid oscillations of the dark matter scalar field and updated cosmological constraints in QCDM"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2608.13346v1",
+    "realUrl": "https://www.cosmosweek.com/?article=automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co",
+    "realUrl_en": "https://www.cosmosweek.com/?article=automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 80,
+    "scoreBreakdown": {
+      "source": 64,
+      "evidence": 39,
+      "relevance": 94,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Detecção automática de oscilações rápidas do campo escalar da matéria escura e restrições cosmológicas atualizadas no QCDM",
+    "imageAlt_pt": "Detecção automática de oscilações rápidas do campo escalar da matéria escura e restrições cosmológicas atualizadas no QCDM",
+    "imageAlt_en": "Automatic detection of fast oscillations of dark matter scalar field and updated cosmological constraints on QCDM",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
     "slug": "cascade-volcanoes-shrouded-in-smoke",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -140,7 +503,7 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 4,
     "slug": "nasa-data-helps-commercial-space-plan-living-off-our-moon",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -261,7 +624,7 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 5,
     "slug": "nasa-upgrades-vertical-motion-simulator-for-modern-mission-needs",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -295,19 +658,19 @@
     "body_pt": "<p>Imagine entrar em uma máquina que pode fazer você se sentir como se estivesse pilotando uma espaçonave, pilotando um táxi aéreo de última geração ou pousando na Lua, tudo isso sem sair do solo. E agora, com novas atualizações, está mais poderoso e [. ].</p><p>2 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento (e subaquáticas) O Simulador de Movimento Vertical no Ames Research Center da NASA, no Vale do Silício, na Califórnia, é capaz de realizar movimentos verticais e horizontais para simular uma série. A cabine atualizada do Simulador de Movimento Vertical no Ames Research Center da NASA, no Vale do Silício, na Califórnia, fornece aos pesquisadores clareza visual quase 20/20, fornecendo imagens mais claras e nítidas.</p><p>NASA/Brandon Torres-Navarrete “A nova configuração de cúpula e os sistemas aprimorados podem suportar tarefas de missão muito mais agressivas, ao mesmo tempo que proporcionam aos pilotos e tripulações um ambiente mais realista para trabalhar”, disse Diana Acosta, chefe do ramo. NASA/Jesse Carpenter Imagine entrar em uma máquina que pode fazer você se sentir como se estivesse pilotando uma espaçonave, pilotando um táxi aéreo de última geração ou pousando na Lua, tudo isso sem sair do solo.</p><p>E agora, com novas atualizações, está mais poderoso e realista do que antes. O Simulador de Movimento Vertical, localizado no Centro de Pesquisa Ames da NASA, no Vale do Silício, na Califórnia, moldou o futuro da aviação e dos voos espaciais desde 1979.</p><p>Ele permite que pilotos e pesquisadores experimentem movimentos realistas de aeronaves devido à sua capacidade de viajar 60 pés na vertical e 40 pés na horizontal, simulando veículos que vão desde helicópteros a naves espaciais com alta precisão. Esta atualização inclui uma cúpula ao redor da cabine do simulador com projetores 4K avançados que criam imagens com clareza quase 20/20, proporcionando aos pilotos imagens mais claras e nítidas e um campo de visão maior do mundo fora da cabine.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/ames/nasa-upgrades-vertical-motion-simulator-for-modern-mission-needs/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Imagine stepping into a machine that can make you feel like you’re flying a spacecraft, piloting a next generation air taxi, or landing on the Moon, all without leaving the ground. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. And now, with new upgrades, it’s more powerful and. 2 min read Preparations for Next Moonwalk Simulations Underway (and Underwater) The Vertical Motion Simulator at NASA’s Ames Research Center in California’s Silicon Valley is.</p><p>The upgraded cab of the Vertical Motion Simulator at NASA’s Ames Research Center in California’s Silicon Valley provides researchers with near-20/20 visual clarity, providing. NASA/Brandon Torres-Navarrete “The new dome configuration and improved systems can support far more aggressive mission tasks while giving pilots and crews a more realistic.</p><p>Share Details Last Updated Aug 12. NASA/Jesse Carpenter Imagine stepping into a machine that can make you feel like you’re flying a spacecraft, piloting a next generation air taxi, or landing on the Moon, all.</p><p>NASA’s Vertical Motion Simulator, the largest of its kind in the world, does exactly that. And now, with new upgrades, it’s more powerful and realistic than before.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>The Vertical Motion Simulator, located at NASA’s Ames Research Center in California’s Silicon Valley, has shaped the future of aviation and spaceflight since 1979. It allows pilots and researchers to experience realistic aircraft motion due to its ability to travel 60 feet vertically and 40 feet horizontally, simulating vehicles ranging from.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/ames/nasa-upgrades-vertical-motion-simulator-for-modern-mission-needs/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Imagine entrar em uma máquina que pode fazer você se sentir como se estivesse pilotando uma espaçonave, pilotando um táxi aéreo de última geração ou",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Imagine entrar em uma máquina que pode fazer você se sentir como se estivesse pilotando uma espaçonave, pilotando um táxi aéreo de última geração ou.",
+      "Dado-chave: Imagine entrar em uma máquina que pode fazer você se sentir como se estivesse pilotando uma espaçonave, pilotando um táxi aéreo de última.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Imagine entrar em uma máquina que pode fazer você se sentir como se estivesse pilotando uma espaçonave, pilotando um táxi aéreo de última geração ou",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Imagine entrar em uma máquina que pode fazer você se sentir como se estivesse pilotando uma espaçonave, pilotando um táxi aéreo de última geração ou.",
+      "Dado-chave: Imagine entrar em uma máquina que pode fazer você se sentir como se estivesse pilotando uma espaçonave, pilotando um táxi aéreo de última.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Imagine stepping into a machine that can make you feel like you’re flying a spacecraft, piloting a next generation air taxi, or landing on the Moon",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Imagine stepping into a machine that can make you feel like you’re flying a spacecraft, piloting a next generation air taxi, or landing on the Moon.",
+      "Key detail: Imagine stepping into a machine that can make you feel like you’re flying a spacecraft, piloting a next generation air taxi, or landing on the.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "12 ago 2026",
     "date_pt": "12 ago 2026",
@@ -395,127 +758,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
-    "slug": "meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency",
-    "cat": "Cosmologia",
-    "catCls": "cosmologia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg/1280px-Andromeda_Galaxy_%28with_h-alpha%29.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "MeerKAT revela evidências de um rádio Megahalo na frequência de GHz",
-    "title_pt": "MeerKAT revela evidências de um rádio Megahalo na frequência de GHz",
-    "title_en": "MeerKAT Reveals Evidence of a Radio Megahalo at GHz Frequency",
-    "sub": "Megahalos de rádio são fontes síncrotron difusas em grande escala recentemente descobertas, identificadas através de observações LOFAR.",
-    "sub_pt": "Megahalos de rádio são fontes síncrotron difusas em grande escala recentemente descobertas, identificadas através de observações LOFAR.",
-    "sub_en": "Radio megahalos are recently discovered large-scale diffuse synchrotron sources identified through LOFAR observations.",
-    "excerpt": "Megahalos de rádio são fontes síncrotron difusas em grande escala recentemente descobertas, identificadas através de observações LOFAR.",
-    "excerpt_pt": "Megahalos de rádio são fontes síncrotron difusas em grande escala recentemente descobertas, identificadas através de observações LOFAR.",
-    "excerpt_en": "Radio megahalos are recently discovered large-scale diffuse synchrotron sources identified through LOFAR observations. We present MeerKAT L-band observations of the massive galaxy cluster RXC~J0528.",
-    "body": "<p>Megahalos de rádio são fontes síncrotron difusas em grande escala recentemente descobertas, identificadas através de observações LOFAR. Apresentamos observações da banda L MeerKAT do enorme aglomerado de galáxias RXC ~ J0528.</p><p>Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário. ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem.</p><p>Tem uma ideia de um projeto que agregue valor à comunidade arXiv? . Saiba mais sobre o arXivLabs.</p><p>Resumo: Megahalos de rádio são fontes síncrotron difusas de grande escala recentemente descobertas, identificadas através de observações LOFAR. Apresentamos observações da banda L MeerKAT do enorme aglomerado de galáxias RXC~J0528.9$-$3927, que revela uma emissão fraca em torno de seu halo de rádio central.</p><p>Em 1, 28 GHz, o halo conhecido de $\\sim1.14$ Mpc está incorporado em emissões de baixo brilho de superfície anteriormente não relatadas, estendendo-se até $\\sim2$ Mpc. O perfil de brilho superficial da emissão mostra um achatamento distinto além de $\\sim0.55R_{500}$, sugerindo que a emissão externa forma um componente adicional.</p><p>Essas propriedades tornam o cluster um candidato a sistema megahalo e potencialmente o primeiro detectado nas frequências de GHz, embora sejam necessárias observações multifrequenciais mais profundas para confirmação.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.12042v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Megahalos de rádio são fontes síncrotron difusas em grande escala recentemente descobertas, identificadas através de observações LOFAR. Apresentamos observações da banda L MeerKAT do enorme aglomerado de galáxias RXC ~ J0528.</p><p>Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário. ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem.</p><p>Tem uma ideia de um projeto que agregue valor à comunidade arXiv? . Saiba mais sobre o arXivLabs.</p><p>Resumo: Megahalos de rádio são fontes síncrotron difusas de grande escala recentemente descobertas, identificadas através de observações LOFAR. Apresentamos observações da banda L MeerKAT do enorme aglomerado de galáxias RXC~J0528.9$-$3927, que revela uma emissão fraca em torno de seu halo de rádio central.</p><p>Em 1, 28 GHz, o halo conhecido de $\\sim1.14$ Mpc está incorporado em emissões de baixo brilho de superfície anteriormente não relatadas, estendendo-se até $\\sim2$ Mpc. O perfil de brilho superficial da emissão mostra um achatamento distinto além de $\\sim0.55R_{500}$, sugerindo que a emissão externa forma um componente adicional.</p><p>Essas propriedades tornam o cluster um candidato a sistema megahalo e potencialmente o primeiro detectado nas frequências de GHz, embora sejam necessárias observações multifrequenciais mais profundas para confirmação.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.12042v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Radio megahalos are recently discovered large-scale diffuse synchrotron sources identified through LOFAR observations. We present MeerKAT L-band observations of the massive galaxy cluster RXC~J0528. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>This matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Have an idea for a project that will add value for arXiv&#x27;s community. We present MeerKAT L-band observations of the massive galaxy cluster RXC~J0528.9$-$3927, that reveals faint emission surrounding its central radio halo.</p><p>At 1.28 GHz, the known $\\sim1.14$ Mpc halo is embedded within previously unreported low-surface-brightness emission extending to $\\sim2$ Mpc. The surface-brightness profile of the emission shows a distinct flattening beyond $\\sim0.55R_{500}$, suggesting that the outer emission forms an additional component.</p><p>These properties make the cluster a candidate megahalo system and potentially the first detected at GHz frequencies, although deeper multi-frequency observations are required for.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.12042v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Em foco: Megahalos de rádio são fontes síncrotron difusas em grande escala recentemente descobertas, identificadas através de observações LOFAR",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
-    ],
-    "highlights_pt": [
-      "Em foco: Megahalos de rádio são fontes síncrotron difusas em grande escala recentemente descobertas, identificadas através de observações LOFAR",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
-    ],
-    "highlights_en": [
-      "Focus: Radio megahalos are recently discovered large-scale diffuse synchrotron sources identified through LOFAR observations",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
-    ],
-    "date": "12 ago 2026",
-    "date_pt": "12 ago 2026",
-    "date_en": "12 Aug 2026",
-    "time": "13h25",
-    "time_pt": "13h25",
-    "time_en": "13: 25 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-12T13:25:25+00:00",
-    "lastModifiedIso": "2026-08-13T16:45:36+00:00",
-    "source": "arXiv Cosmology",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Cosmologia",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "MeerKAT revela evidências de um rádio Megahalo na frequência de GHz"
-    ],
-    "keywords_pt": [
-      "Cosmologia",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "MeerKAT revela evidências de um rádio Megahalo na frequência de GHz"
-    ],
-    "keywords_en": [
-      "Cosmology",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "MeerKAT reveals evidence of a Megahalo radio at GHz frequency"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2608.12042v1",
-    "realUrl": "https://www.cosmosweek.com/?article=meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency",
-    "realUrl_en": "https://www.cosmosweek.com/?article=meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/meerkat-reveals-evidence-of-a-radio-megahalo-at-ghz-frequency/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 80,
-    "scoreBreakdown": {
-      "source": 64,
-      "evidence": 39,
-      "relevance": 94,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "MeerKAT revela evidências de um rádio Megahalo na frequência de GHz",
-    "imageAlt_pt": "MeerKAT revela evidências de um rádio Megahalo na frequência de GHz",
-    "imageAlt_en": "MeerKAT Reveals Evidence of a Radio Megahalo at GHz Frequency",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 5,
+    "id": 6,
     "slug": "radio-flares-and-x-ray-hardening-embedded-in-the-long-soft-state-of-4u-1543-475",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -536,18 +779,19 @@
     "body_pt": "<p>Apresentamos um estudo abrangente de vários comprimentos de onda do binário de raios X do buraco negro 4U 1543-475 durante sua explosão de 2021, com foco em episódios de explosões de rádio que são comumente interpretados como assinaturas de produção episódica de jatos e são.</p><p>Apresentamos um estudo abrangente de vários comprimentos de onda do binário de raios X do buraco negro 4U 1543-475 durante sua explosão de 2021, com foco em episódios de queima de rádio que são comumente interpretados como assinaturas de produção de jatos episódicos e estão. O monitoramento de rádio revela pelo menos duas explosões discretas que coincidem com períodos de maior emissão de raios X Comptonizados.</p><p>A modelagem espectral de banda larga mostra uma diminuição significativa na razão de fluxo reflexão-disco (por um fator de ~3-4) durante esses episódios, consistente com uma mudança temporária na geometria do fluxo de acreção interno, embora os dados não permitam que a sequência. A fotometria óptica exibe variabilidade que rastreia amplamente a fração de reflexão, consistente com mudanças no componente de iluminação.</p><p>O endurecimento espectral que o acompanha indica que as explosões de rádio estavam associadas a excursões de curta duração em direção a um estado &quot;mais duro&quot;, partindo do estado suave. A análise do tempo de raios X sugere que as explosões de rádio podem estar associadas a mudanças na variabilidade rms fracionária.</p><p>No entanto, nenhum padrão consistente ou unificado pode ser firmemente estabelecido em diferentes eventos. Estes resultados fornecem um exemplo observacional de vários comprimentos de onda da atividade de explosão de rádio em um buraco negro binário e destacam a complexa interação entre a geometria do fluxo de acreção, a emissão coronal e os fenômenos relacionados ao jato.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.11774v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>We present a comprehensive multi-wavelength study of the black hole X-ray binary 4U 1543-475 during its 2021 outburst, focusing on radio flaring episodes that are commonly interpreted as signatures of episodic jet production and are. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>The significance lies in astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. The radio monitoring reveals at least two discrete flares that coincide with periods of enhanced Comptonized X-ray emission. Broadband spectral modelling shows a significant decrease in the reflection-to-disk flux ratio (by a factor of ~3-4) during these episodes, consistent with a temporary change in.</p><p>Optical photometry exhibits variability that broadly tracks the reflection fraction, consistent with changes in the illuminating component. The accompanying spectral hardening indicates that the radio flares were associated with short-lived excursions toward a &quot;harder&quot; state, departing from the soft state.</p><p>X-ray timing analysis suggests that the radio flares may be associated with changes in the fractional rms variability. However, no consistent or unified pattern can be firmly established across different events.</p><p>These results provide a multi-wavelength observational example of radio flaring activity in a black hole binary and highlight the complex interplay between accretion flow.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.11774v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Apresentamos um estudo abrangente de vários comprimentos de onda do binário de raios X do buraco negro 4U 1543-475 durante sua explosão de 2021, com",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Apresentamos um estudo abrangente de vários comprimentos de onda do binário de raios X do buraco negro 4U 1543-475 durante sua explosão de 2021, com.",
+      "Dado-chave: Apresentamos um estudo abrangente de vários comprimentos de onda do binário de raios X do buraco negro 4U 1543-475 durante sua explosão de 2021.",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Apresentamos um estudo abrangente de vários comprimentos de onda do binário de raios X do buraco negro 4U 1543-475 durante sua explosão de 2021, com",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Apresentamos um estudo abrangente de vários comprimentos de onda do binário de raios X do buraco negro 4U 1543-475 durante sua explosão de 2021, com.",
+      "Dado-chave: Apresentamos um estudo abrangente de vários comprimentos de onda do binário de raios X do buraco negro 4U 1543-475 durante sua explosão de 2021.",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: We present a comprehensive multi-wavelength study of the black hole X-ray binary 4U 1543-475 during its 2021 outburst, focusing on radio flaring",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: We present a comprehensive multi-wavelength study of the black hole X-ray binary 4U 1543-475 during its 2021 outburst, focusing on radio flaring.",
+      "Key detail: We present a comprehensive multi-wavelength study of the black hole X-ray binary 4U 1543-475 during its 2021 outburst, focusing on radio flaring",
+      "Result not yet peer reviewed."
     ],
     "date": "12 ago 2026",
     "date_pt": "12 ago 2026",
@@ -635,7 +879,7 @@
     "storyKind": "science"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "stops-along-the-path-of-totality",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -775,7 +1019,7 @@
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "what-is-the-nancy-grace-roman-space-telescope-grades-5-8",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -896,7 +1140,7 @@
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "dust-and-water-spotted-close-to-giant-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1036,7 +1280,7 @@
     "storyKind": "science"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "the-quadratic-growth-of-krylov-spread-complexity-in-the-btz-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1157,7 +1401,7 @@
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "how-esa-mimics-and-models-the-2026-total-solar-eclipse",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1288,7 +1532,7 @@
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1419,7 +1663,7 @@
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "science-campaigns-planned-for-the-august-12th-total-solar-eclipse",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1581,7 +1825,7 @@
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "how-the-tide-turns-at-the-mouth-of-the-elbe",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1631,17 +1875,17 @@
     "body_en": "<p>The ocean’s ebbs and flows reveal dynamic tidal flats and a well-traveled shipping route along the coast of Germany. The post How the Tide Turns at the Mouth of the Elbe appeared first on NASA Science. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The post How the Tide Turns at the Mouth of the Elbe appeared first on NASA Science. Earth Observatory Image of the Day NASA&#x27;s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>Explore Earth Science Earth Science Data Open access to NASA’s archive of Earth science data The post How the Tide Turns at the Mouth of the Elbe appeared first on NASA Science. NASA Earth Observatory/Lauren Dauphin August 15, 2025 May 11, 2025 The ocean’s ebbs and flows reveal dynamic tidal flats and a well-traveled shipping route along the German coast.</p><p>NASA Earth Observatory/Lauren Dauphin August 15, 2025 May 11, 2025 Curtain Toggle 2-Up One of the major rivers of Europe, the Elbe flows more than 1, 000 kilometers (600 miles). Its habitats serve as important staging, molting, and wintering grounds for migratory birds, with more than 10 million passing through every year.</p><p>A brick tower, completed in 1310 and later converted to a lighthouse, was built to protect shipping on the Elbe from pirates and wreckers. The highest water level measured at Cuxhaven, 5.1 meters (16.7 feet) above Europe’s official sea level reference —occurred on January 3, 1976, when a fast-moving storm swept.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Two new Earth-observing satellites are making it possible to measure water levels in coastal areas in greater detail. In addition, early data from NASA’s SWOT (Surface Water and Ocean Topography) satellite has demonstrated the potential to accurately measure water levels around complex coastlines.</p><p>Because the account originates with NASA Earth Observatory, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/how-the-tide-turns-at-the-mouth-of-the-elbe/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha.",
-      "Dado-chave: Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha",
+      "Dado-chave: Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha.",
-      "Dado-chave: Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha",
+      "Dado-chave: Os fluxos e refluxos do oceano revelam planícies de maré dinâmicas e uma rota marítima muito movimentada ao longo da costa da Alemanha.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: The ocean’s ebbs and flows reveal dynamic tidal flats and a well-traveled shipping route along the coast of Germany.",
-      "Key detail: The ocean’s ebbs and flows reveal dynamic tidal flats and a well-traveled shipping route along the coast of Germany",
+      "Key detail: The ocean’s ebbs and flows reveal dynamic tidal flats and a well-traveled shipping route along the coast of Germany.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "06 ago 2026",
@@ -1730,7 +1974,7 @@
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "europe-s-forests-losing-more-biomass-since-2018",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1851,7 +2095,7 @@
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "the-paradox-of-lencois-maranhenses-national-park",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1991,7 +2235,7 @@
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "hydrognss-data-open-for-new-insights-into-earth-s-water",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2122,7 +2366,7 @@
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "smos-salinity-could-offer-early-indicator-of-el-nino",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2246,177 +2490,6 @@
     "imageAlt": "A salinidade do SMOS pode oferecer um indicador precoce do El Niño",
     "imageAlt_pt": "A salinidade do SMOS pode oferecer um indicador precoce do El Niño",
     "imageAlt_en": "SMOS salinity could offer early indicator of El Niño",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 18,
-    "slug": "watch-the-total-solar-eclipse-with-esa-in-leon",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/03/solar_eclipse_artist_impression/27150246-1-eng-GB/Solar_eclipse_artist_impression_pillars.png",
-    "inline_images": [
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/total_solar_eclipse_12_august_2026_map_of_totality_in_spain/27245996-1-eng-GB/Total_solar_eclipse_12_August_2026_Map_of_totality_in_Spain_article.png",
-        "alt": "Eclipse solar total 12 de agosto de 2026 – Mapa da totalidade na Espanha",
-        "alt_pt": "Eclipse solar total 12 de agosto de 2026 – Mapa da totalidade na Espanha",
-        "alt_en": "Total solar eclipse 12 August 2026 – Map of totality in Spain",
-        "caption": "Eclipse solar total 12 de agosto de 2026 – Mapa da totalidade na Espanha",
-        "caption_pt": "Eclipse solar total 12 de agosto de 2026 – Mapa da totalidade na Espanha",
-        "caption_en": "Total solar eclipse 12 August 2026 – Map of totality in Spain"
-      },
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/total_solar_eclipse_2026_leon_event_daytime_workshop_programme/27388350-2-eng-GB/Total_solar_eclipse_2026_Leon_event_daytime_workshop_programme_article.jpg",
-        "alt": "Eclipse solar total 2026: uma manhã de ciência para toda a família",
-        "alt_pt": "Eclipse solar total 2026: uma manhã de ciência para toda a família",
-        "alt_en": "Total solar eclipse 2026: a morning of science for the whole family",
-        "caption": "Eclipse solar total 2026: uma manhã de ciência para toda a família",
-        "caption_pt": "Eclipse solar total 2026: uma manhã de ciência para toda a família",
-        "caption_en": "Total solar eclipse 2026: a morning of science for the whole family"
-      },
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/total_solar_eclipse_2026_leon_event_evening_stage_show_programme/27388397-1-eng-GB/Total_solar_eclipse_2026_Leon_event_evening_stage_show_programme_article.jpg",
-        "alt": "Eclipse solar total 2026: experimente o eclipse conosco",
-        "alt_pt": "Eclipse solar total 2026: experimente o eclipse conosco",
-        "alt_en": "Total solar eclipse 2026: experience the eclipse with us",
-        "caption": "Eclipse solar total 2026: experimente o eclipse conosco",
-        "caption_pt": "Eclipse solar total 2026: experimente o eclipse conosco",
-        "caption_en": "Total solar eclipse 2026: experience the eclipse with us"
-      },
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/05/total_solar_eclipse_12_august_2026_global_map/27246043-1-eng-GB/Total_solar_eclipse_12_August_2026_Global_map_article.png",
-        "alt": "Eclipse solar total 12 de agosto de 2026 – Mapa global",
-        "alt_pt": "Eclipse solar total 12 de agosto de 2026 – Mapa global",
-        "alt_en": "Total solar eclipse 12 August 2026 – Global map",
-        "caption": "Eclipse solar total 12 de agosto de 2026 – Mapa global",
-        "caption_pt": "Eclipse solar total 12 de agosto de 2026 – Mapa global",
-        "caption_en": "Total solar eclipse 12 August 2026 – Global map"
-      }
-    ],
-    "video": {
-      "kind": "embed",
-      "platform": "youtube",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/DRDx2xDR8NA?rel=0&modestbranding=1",
-      "fileUrl": "",
-      "poster": "",
-      "title": "",
-      "title_pt": "",
-      "title_en": "",
-      "caption": "",
-      "caption_pt": "",
-      "caption_en": "",
-      "sourcePage": "https://www.esa.int/Science_Exploration/Space_Science/Watch_the_total_solar_eclipse_with_ESA_in_Leon"
-    },
-    "audio": null,
-    "title": "Assista ao eclipse solar total com a ESA em León",
-    "title_pt": "Assista ao eclipse solar total com a ESA em León",
-    "title_en": "Watch the total solar eclipse with ESA in León",
-    "sub": "Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial Europeia, a cidade de León e a.",
-    "sub_pt": "Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial Europeia, a cidade de León e a.",
-    "sub_en": "Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency, the City of León and the University.",
-    "excerpt": "Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial Europeia, a cidade de León e a Universidade de León.",
-    "excerpt_pt": "Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial Europeia, a cidade de León e a Universidade de León.",
-    "excerpt_en": "Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency, the City of León and the University of León.",
-    "body": "<p>Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial Europeia, a cidade de León e a Universidade de León. Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial Europeia (ESA), a cidade de León e a Universidade de León.</p><p>No dia 12 de Agosto, milhões de pessoas em toda a Europa olharão para o céu para testemunhar um dos fenómenos mais espectaculares da natureza: um eclipse solar total. O norte da Espanha será um dos melhores lugares do mundo para vivenciar a totalidade, quando a Lua cobrir completamente o Sol.</p><p>Para assinalar esta ocasião extraordinária, a ESA, juntamente com a Cidade de Leão e a Universidade de Leão, está a organizar um evento público gratuito no Palácio de Exposições e Congressos de Leão. O evento reunirá cientistas, engenheiros e especialistas em astronomia, que guiarão os visitantes pela ciência por trás do eclipse com atividades interativas, palestras e observações ao vivo ao longo do dia.</p><p>Das 10h00 às 14h00 CEST, os visitantes podem explorar uma ampla variedade de workshops práticos, experimentos e atividades interativas projetadas para todas as idades. Da ciência do Sol e dos eclipses às missões espaciais da Europa, à engenharia aeroespacial e à história da astronomia, o programa diurno oferece algo para famílias, entusiastas do espaço e qualquer pessoa curiosa sobre como exploramos e entendemos o nosso Universo.</p><p>Os portões abrem às 17h30 CEST, dando aos visitantes bastante tempo para encontrar um lugar antes do início do programa do palco principal, às 18h30 CEST. O programa noturno combina palestras científicas e comentários de especialistas para guiar os visitantes em todas as fases do eclipse, explicando o que está acontecendo no céu e por que o eclipse de 12 de agosto de 2026 é um evento tão notável.</p><p>Desde workshops familiares e demonstrações interativas durante o dia até uma noite de ciência e observação de eclipses, aqui está o que os visitantes podem esperar durante todo o dia: UM DIA DE CIÊNCIA PARA TODA A FAMÍLIA Área interna do Palacio de Exposiciones y Congresos, León.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Watch_the_total_solar_eclipse_with_ESA_in_Leon\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial Europeia, a cidade de León e a Universidade de León. Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial Europeia (ESA), a cidade de León e a Universidade de León.</p><p>No dia 12 de Agosto, milhões de pessoas em toda a Europa olharão para o céu para testemunhar um dos fenómenos mais espectaculares da natureza: um eclipse solar total. O norte da Espanha será um dos melhores lugares do mundo para vivenciar a totalidade, quando a Lua cobrir completamente o Sol.</p><p>Para assinalar esta ocasião extraordinária, a ESA, juntamente com a Cidade de Leão e a Universidade de Leão, está a organizar um evento público gratuito no Palácio de Exposições e Congressos de Leão. O evento reunirá cientistas, engenheiros e especialistas em astronomia, que guiarão os visitantes pela ciência por trás do eclipse com atividades interativas, palestras e observações ao vivo ao longo do dia.</p><p>Das 10h00 às 14h00 CEST, os visitantes podem explorar uma ampla variedade de workshops práticos, experimentos e atividades interativas projetadas para todas as idades. Da ciência do Sol e dos eclipses às missões espaciais da Europa, à engenharia aeroespacial e à história da astronomia, o programa diurno oferece algo para famílias, entusiastas do espaço e qualquer pessoa curiosa sobre como exploramos e entendemos o nosso Universo.</p><p>Os portões abrem às 17h30 CEST, dando aos visitantes bastante tempo para encontrar um lugar antes do início do programa do palco principal, às 18h30 CEST. O programa noturno combina palestras científicas e comentários de especialistas para guiar os visitantes em todas as fases do eclipse, explicando o que está acontecendo no céu e por que o eclipse de 12 de agosto de 2026 é um evento tão notável.</p><p>Desde workshops familiares e demonstrações interativas durante o dia até uma noite de ciência e observação de eclipses, aqui está o que os visitantes podem esperar durante todo o dia: UM DIA DE CIÊNCIA PARA TODA A FAMÍLIA Área interna do Palacio de Exposiciones y Congresos, León.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Watch_the_total_solar_eclipse_with_ESA_in_Leon\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Discover the science behind one of nature&#x27;s most extraordinary phenomena and experience a total solar eclipse with the European Space Agency, the City of León and the University of León. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Discover the science behind one of nature&#x27;s most extraordinary phenomena and experience a total solar eclipse with the European Space Agency (ESA), the City of León and the. On 12 August, millions of people across Europe will look to the sky to witness one of nature&#x27;s most spectacular phenomena: a total solar eclipse.</p><p>Northern Spain will be one of the best places in the world to experience totality, when the Moon completely covers the Sun. To mark this extraordinary occasion, ESA, together with the City of León and the University of León, is organising a free public event at the Palacio de Exposiciones y Congresos.</p><p>The event will bring together scientists, engineers and astronomy experts, who will guide visitors through the science behind the eclipse with interactive activities, talks and. 00, 14: 00 CEST, visitors can explore a wide range of hands-on workshops, experiments and interactive activities designed for all ages.</p><p>From the science of the Sun and eclipses to Europe&#x27;s space missions, aerospace engineering and the history of astronomy, the daytime programme offers something for families, space. 30 CEST, giving visitors plenty of time to find a place before the main stage programme begins at 18: 30 CEST.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>The evening programme combines science talks and expert commentary to guide visitors through every stage of the eclipse, explaining what is happening in the sky and why the 12. From family workshops and interactive demonstrations in the daytime to an evening of science and eclipse observation, here is what visitors can expect throughout the day: A DAY OF.</p><p>Because the account originates with ESA Space Science, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Watch_the_total_solar_eclipse_with_ESA_in_Leon\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial.",
-      "Dado-chave: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial.",
-      "Dado-chave: Descubra a ciência por trás de um dos fenômenos mais extraordinários da natureza e experimente um eclipse solar total com a Agência Espacial.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency, the.",
-      "Key detail: Discover the science behind one of nature's most extraordinary phenomena and experience a total solar eclipse with the European Space Agency.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "23 jul 2026",
-    "date_pt": "23 jul 2026",
-    "date_en": "23 Jul 2026",
-    "time": "10h00",
-    "time_pt": "10h00",
-    "time_en": "10: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-07-23T10:00:00+00:00",
-    "lastModifiedIso": "2026-07-23T17:19:30+00:00",
-    "source": "ESA Space Science",
-    "sourceDomain": "www. esa. int",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Assista ao eclipse solar total com a ESA em León"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Assista ao eclipse solar total com a ESA em León"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Watch the total solar eclipse with ESA in León"
-    ],
-    "srcUrl": "https://www.esa.int/Science_Exploration/Space_Science/Watch_the_total_solar_eclipse_with_ESA_in_Leon",
-    "realUrl": "https://www.cosmosweek.com/?article=watch-the-total-solar-eclipse-with-esa-in-leon",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=watch-the-total-solar-eclipse-with-esa-in-leon",
-    "realUrl_en": "https://www.cosmosweek.com/?article=watch-the-total-solar-eclipse-with-esa-in-leon&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/watch-the-total-solar-eclipse-with-esa-in-leon/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/watch-the-total-solar-eclipse-with-esa-in-leon/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/watch-the-total-solar-eclipse-with-esa-in-leon/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/watch-the-total-solar-eclipse-with-esa-in-leon/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/watch-the-total-solar-eclipse-with-esa-in-leon/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/watch-the-total-solar-eclipse-with-esa-in-leon/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 95,
-      "evidence": 92,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Assista ao eclipse solar total com a ESA em León",
-    "imageAlt_pt": "Assista ao eclipse solar total com a ESA em León",
-    "imageAlt_en": "Watch the total solar eclipse with ESA in León",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
@@ -2698,19 +2771,19 @@
     "body_pt": "<p>O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia. Science Review por Bruce Betts, PhD 17 de julho de 2026 O Telescópio Espacial Nancy Grace Roman é o próximo observatório orbital carro-chefe da NASA, com o poder de remodelar o que sabemos sobre os planetas em toda a galáxia e ajudar a descobrir a verdadeira natureza da matéria.</p><p>É uma missão da mesma escala do Telescópio Espacial Hubble ou do Telescópio Espacial James Webb. Embora a humanidade tenha confirmado cerca de 6.000 desses mundos (conhecidos como exoplanetas) nas últimas décadas, Roman poderia descobrir muito mais do que isso por conta própria.</p><p>A missão também tirará fotografias diretas de planetas e explorará algumas das suas atmosferas, bem como encontrará mundos potencialmente semelhantes à Terra em torno de outras estrelas. A comunidade astronômica classificou Roman como a grande missão espacial de maior prioridade da década de 2010.</p><p>Permitirá que Roman detecte planetas que são cerca de mil milhões de vezes mais escuros do que as estrelas que orbitam, testando a tecnologia para missões futuras, como o planeado Observatório de Mundos Habitáveis ​​da NASA. Após cerca de 90 dias de comissionamento, o telescópio iniciará as operações científicas no início de 2027.</p><p>Em certos comprimentos de onda ópticos e infravermelhos, Roman será capaz de obter imagens tão nítidas como as do Hubble, mas capturar 100 vezes mais céu numa única fotografia. Isto significa que, combinado com outras atualizações, Roman será capaz de pesquisar o céu cerca de 100 a 1.500 vezes mais rápido do que o Hubble.</p><p>Nancy Grace Roman foi a primeira chefe de astronomia da NASA.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/the-nancy-grace-roman-space-telescope-launch-what-to-expect\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>NASA’s next flagship orbital observatory will reshape what we know about planets throughout the galaxy. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>The significance lies in astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Science Review by Bruce Betts, PhD July 17, 2026 The Nancy Grace Roman Space Telescope is NASA’s next flagship orbital observatory, with the power to reshape what we know about. It is a mission on the same scale as the Hubble Space Telescope or the James Webb Space Telescope.</p><p>While humanity has confirmed about 6, 000 such worlds (known as exoplanets) over the past few decades, Roman could discover many more than that entirely on its own. The mission will also take direct photographs of planets and explore some of their atmospheres, as well as find potentially Earth-like worlds around other stars.</p><p>Astronomical community rated Roman the highest-priority large space mission of the 2010s. Scientists predict Roman will detect somewhere within the range of 60, 000-200, 000 candidate planets using the transit method, which involves watching stars to see them temporarily.</p><p>It will allow Roman to detect planets that are roughly 1 billion times dimmer than the stars they orbit, testing out the technology for future missions like NASA’s planned. After roughly 90 days of commissioning, the telescope will begin science operations at the beginning of 2027.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>At certain optical and infrared wavelengths, Roman will be able to take images just as sharp as Hubble’s but capture 100 times more of the sky in a single shot. This means that, combined with other upgrades, Roman will be able to survey the sky about 100 to 1, 500 times faster than Hubble could.</p><p>Because this item comes through The Planetary Society as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/the-nancy-grace-roman-space-telescope-launch-what-to-expect\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia.",
+      "Dado-chave: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
-      "Em foco: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia.",
+      "Dado-chave: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
-      "Focus: NASA’s next flagship orbital observatory will reshape what we know about planets throughout the galaxy",
-      "Detail: Science reporting: verify primary technical documentation",
-      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+      "Core point: NASA’s next flagship orbital observatory will reshape what we know about planets throughout the galaxy.",
+      "Key detail: NASA’s next flagship orbital observatory will reshape what we know about planets throughout the galaxy",
+      "Science reporting: verify primary technical documentation."
     ],
     "date": "17 jul 2026",
     "date_pt": "17 jul 2026",
@@ -3698,7 +3771,7 @@
     ],
     "highlights_en": [
       "Core point: The U. S. National Science Foundation has selected five new teams to design experimental quantum technologies, from networks that can ferry fragile.",
-      "Key detail: The U. S",
+      "Key detail: The U. S. National Science Foundation has selected five new teams to design experimental quantum technologies, from networks that can ferry.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "24 jun 2026",
@@ -4720,12 +4793,12 @@
     "body_en": "<p>In the past several years, Rockefeller University&#x27;s Kivanç Birsoy and his team in the Laboratory of Metabolic Regulation and Genetics have revealed remarkable details about the antioxidant glutathione, which plays many essential roles in. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern. The gap between identifying a correlation in biological data and understanding the causal chain that produces it is routinely underestimated, and the history of biomedical research is populated with associations that collapsed when the mechanism was sought and not found. A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive finding because it generates testable predictions that can narrow the hypothesis space. This article has been reviewed according to Science X&#x27;s editorial process and policies. Editors have highlighted the following attributes while ensuring the content&#x27;s credibility: Add as preferred source Shanshan Liu and Mark Gad developed a liposome-based transport.</p><p>They shared their results in a paper published in Nature Cell Biology. Among those team members were co-first authors Shanshan Liu, a postdoc in the lab who has long researched mitochondrial metabolism, and Mark Gad, a Ph.</p><p>After developing a new method to rapidly profile the chemical landscape within the ER, Liu began to directly observe functions within the organelle. A genetic screening revealed that a transporter called SLC33A1 oversees this process.</p><p>Structural studies performed by Gad in collaboration with the Hite lab further confirmed that SLC33A1 protein indeed transports GSSG and revealed biochemical details of this. Identifying SLC33A1 as the key exporter, and being able to visualize exactly how it binds its cargo, gives us a handle on a process that, when it goes wrong, is linked to.</p><p>The broader interest lies in whether the reported effect points toward a real mechanism and not merely a reproducible but unexplained association. Biology has learned from decades of biomarker failures that correlation, even robust correlation, is not a substitute for mechanistic understanding. A pathway that can be traced from molecular interaction to cellular response to organismal phenotype provides a far stronger foundation for intervention than a statistical association discovered in a large dataset, however well the statistics are done.</p><p>Discover the latest in science, tech, and space with over 100, 000 subscribers who rely on Phys. org for daily insights. The first is Huppke-Brendel Syndrome, a severe neurodevelopmental disorder characterized by severe intellectual disability, motor deficits, and progressive neurodegeneration.</p><p>Because the account originates with Phys. org Biology, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to test whether the effect repeats across different methods, cell types, model organisms and experimental conditions. Reproducibility is the first test, but mechanistic dissection is the second, and a result that passes both has a substantially better chance of translating into something clinically or biotechnologically useful. The path from a laboratory finding to an applied outcome typically takes a decade or more, and most findings do not complete it; the current result sits at the beginning of that process.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-antioxidant-glutathione-play-key-role.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
-      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes",
+      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
       "Ponto central: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
-      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes",
+      "Dado-chave: Nos últimos anos, Kivanç Birsoy, da Universidade Rockefeller, e sua equipe do Laboratório de Regulação Metabólica e Genética revelaram detalhes.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
