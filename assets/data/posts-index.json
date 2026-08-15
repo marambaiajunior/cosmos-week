@@ -1,6 +1,156 @@
 [
   {
     "id": 1,
+    "slug": "nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://science.nasa.gov/wp-content/uploads/2026/08/coffies-ar-emergence-model-screenshot.jpg",
+    "inline_images": [
+      {
+        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-2.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-4.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": {
+      "kind": "file",
+      "platform": "html5",
+      "embedUrl": "",
+      "fileUrl": "https://science.nasa.gov/wp-content/uploads/2026/08/coffies-ai-model-for-ar-emergence.mp4",
+      "poster": "https://science.nasa.gov/wp-content/uploads/2026/08/coffies-ar-emergence-model-screenshot.jpg",
+      "title": "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades",
+      "title_pt": "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades",
+      "title_en": "NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions",
+      "caption": "Uma equipe do COFFIES da NASA desenvolveu um novo modelo de aprendizado de máquina capaz de prever o surgimento de regiões ativas no Sol até 12 horas antes de elas aparecerem.",
+      "caption_pt": "Uma equipe do COFFIES da NASA desenvolveu um novo modelo de aprendizado de máquina capaz de prever o surgimento de regiões ativas no Sol até 12 horas antes de elas aparecerem.",
+      "caption_en": "A team with NASA’s COFFIES has developed a novel machine-learning model capable of predicting the emergence of active regions on the Sun up to 12 hours before they appear.",
+      "sourcePage": "https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/"
+    },
+    "audio": null,
+    "title": "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol",
+    "title_pt": "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol",
+    "title_en": "NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions on Sun",
+    "sub": "À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas principalmente pelo Sol, é mais.",
+    "sub_pt": "À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas principalmente pelo Sol, é mais.",
+    "sub_en": "As humanity looks to the Moon and stars for future exploration, predicting space weather, conditions in space primarily driven by the Sun, is more important than ever.",
+    "excerpt": "À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas principalmente pelo Sol, é mais importante do que nunca.",
+    "excerpt_pt": "À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas principalmente pelo Sol, é mais importante do que nunca.",
+    "excerpt_en": "As humanity looks to the Moon and stars for future exploration, predicting space weather, conditions in space primarily driven by the Sun, is more important than ever.",
+    "highlights": [
+      "Em foco: À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: As humanity looks to the Moon and stars for future exploration, predicting space weather, conditions in space primarily driven by the Sun, is more",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "14 ago 2026",
+    "date_pt": "14 ago 2026",
+    "date_en": "14 Aug 2026",
+    "time": "17h00",
+    "time_pt": "17h00",
+    "time_en": "17: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-14T17:00:23+00:00",
+    "lastModifiedIso": "2026-08-15T16:05:16+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA COFFIES uses AI to predict active storm-causing regions on the Sun"
+    ],
+    "srcUrl": "https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol",
+    "imageAlt_pt": "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol",
+    "imageAlt_en": "NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions on Sun",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
     "slug": "a-look-back-at-the-2026-total-solar-eclipse",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -240,7 +390,7 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -357,7 +507,7 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "cascade-volcanoes-shrouded-in-smoke",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -494,7 +644,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "nasa-data-helps-commercial-space-plan-living-off-our-moon",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -512,19 +662,19 @@
     "excerpt_pt": "A árida paisagem lunar possui alguns recursos importantes, como água e minerais como ferro e titânio, mas extraí-los e processá-los exigirá equipamentos especiais.",
     "excerpt_en": "The barren lunar landscape has some important resources, such as water and minerals like iron and titanium, but extracting and processing them will require special equipment.",
     "highlights": [
-      "Em foco: A árida paisagem lunar possui alguns recursos importantes, como água e minerais como ferro e titânio, mas extraí-los e processá-los exigirá",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A árida paisagem lunar possui alguns recursos importantes, como água e minerais como ferro e titânio, mas extraí-los e processá-los exigirá.",
+      "Dado-chave: A árida paisagem lunar possui alguns recursos importantes, como água e minerais como ferro e titânio, mas extraí-los e processá-los exigirá",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A árida paisagem lunar possui alguns recursos importantes, como água e minerais como ferro e titânio, mas extraí-los e processá-los exigirá",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A árida paisagem lunar possui alguns recursos importantes, como água e minerais como ferro e titânio, mas extraí-los e processá-los exigirá.",
+      "Dado-chave: A árida paisagem lunar possui alguns recursos importantes, como água e minerais como ferro e titânio, mas extraí-los e processá-los exigirá",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The barren lunar landscape has some important resources, such as water and minerals like iron and titanium, but extracting and processing them will",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The barren lunar landscape has some important resources, such as water and minerals like iron and titanium, but extracting and processing them will.",
+      "Key detail: The barren lunar landscape has some important resources, such as water and minerals like iron and titanium, but extracting and processing them.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "12 ago 2026",
     "date_pt": "12 ago 2026",
@@ -612,7 +762,7 @@
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "nasa-upgrades-vertical-motion-simulator-for-modern-mission-needs",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -743,7 +893,7 @@
     "storyKind": "science"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "radio-flares-and-x-ray-hardening-embedded-in-the-long-soft-state-of-4u-1543-475",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -772,7 +922,7 @@
     ],
     "highlights_en": [
       "Core point: We present a comprehensive multi-wavelength study of the black hole X-ray binary 4U 1543-475 during its 2021 outburst, focusing on radio flaring.",
-      "Key detail: We present a comprehensive multi-wavelength study of the black hole X-ray binary 4U 1543-475 during its 2021 outburst, focusing on radio flaring",
+      "Key detail: We present a comprehensive multi-wavelength study of the black hole X-ray binary 4U 1543-475 during its 2021 outburst, focusing on radio flaring.",
       "Result not yet peer reviewed."
     ],
     "date": "12 ago 2026",
@@ -861,7 +1011,7 @@
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "stops-along-the-path-of-totality",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -898,19 +1048,19 @@
     "excerpt_pt": "A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto de 2026.",
     "excerpt_en": "Western Iceland and northern Spain are among the few Northern Hemisphere locations experiencing a total solar eclipse on August 12, 2026.",
     "highlights": [
-      "Em foco: A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto.",
+      "Dado-chave: A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto.",
+      "Dado-chave: A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Western Iceland and northern Spain are among the few Northern Hemisphere locations experiencing a total solar eclipse on August 12, 2026",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Western Iceland and northern Spain are among the few Northern Hemisphere locations experiencing a total solar eclipse on August 12, 2026.",
+      "Key detail: Western Iceland and northern Spain are among the few Northern Hemisphere locations experiencing a total solar eclipse on August 12, 2026",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "12 ago 2026",
     "date_pt": "12 ago 2026",
@@ -991,124 +1141,6 @@
     "imageAlt": "Para ao longo do caminho da totalidade",
     "imageAlt_pt": "Para ao longo do caminho da totalidade",
     "imageAlt_en": "Stops Along the Path of Totality",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 8,
-    "slug": "what-is-the-nancy-grace-roman-space-telescope-grades-5-8",
-    "cat": "Exoplanetas",
-    "catCls": "exoplanetas",
-    "img": "https://www.nasa.gov/wp-content/uploads/2023/02/nancy-grace-roman-space-telescope-visualization.jpeg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)",
-    "title_pt": "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)",
-    "title_en": "What Is the Nancy Grace Roman Space Telescope? (Grades 5-8)",
-    "sub": "Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
-    "sub_pt": "Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
-    "sub_en": "This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory.",
-    "excerpt": "Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
-    "excerpt_pt": "Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
-    "excerpt_en": "This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory. The telescope will scan large sections of space.",
-    "highlights": [
-      "Ponto central: Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
-      "Dado-chave: Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
-      "Dado-chave: Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory.",
-      "Key detail: This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "11 ago 2026",
-    "date_pt": "11 ago 2026",
-    "date_en": "11 Aug 2026",
-    "time": "21h04",
-    "time_pt": "21h04",
-    "time_en": "21: 04 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-11T21:04:39+00:00",
-    "lastModifiedIso": "2026-08-12T16:55:26+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Exoplanetas",
-      "NASA News Releases",
-      "Cosmos Week",
-      "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)"
-    ],
-    "keywords_pt": [
-      "Exoplanetas",
-      "NASA News Releases",
-      "Cosmos Week",
-      "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)"
-    ],
-    "keywords_en": [
-      "Exoplanets",
-      "NASA News Releases",
-      "Cosmos Week",
-      "What is the Nancy Grace Roman Space Telescope? (5th to 8th grades)"
-    ],
-    "srcUrl": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
-    "realUrl": "https://www.cosmosweek.com/?article=what-is-the-nancy-grace-roman-space-telescope-grades-5-8",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=what-is-the-nancy-grace-roman-space-telescope-grades-5-8",
-    "realUrl_en": "https://www.cosmosweek.com/?article=what-is-the-nancy-grace-roman-space-telescope-grades-5-8&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)",
-    "imageAlt_pt": "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)",
-    "imageAlt_en": "What Is the Nancy Grace Roman Space Telescope? (Grades 5-8)",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",

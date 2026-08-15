@@ -3,6 +3,159 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://science.nasa.gov/wp-content/uploads/2026/08/coffies-ar-emergence-model-screenshot.jpg",
+    "inline_images": [
+      {
+        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-2.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-4.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": {
+      "kind": "file",
+      "platform": "html5",
+      "embedUrl": "",
+      "fileUrl": "https://science.nasa.gov/wp-content/uploads/2026/08/coffies-ai-model-for-ar-emergence.mp4",
+      "poster": "https://science.nasa.gov/wp-content/uploads/2026/08/coffies-ar-emergence-model-screenshot.jpg",
+      "title": "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades",
+      "title_pt": "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades",
+      "title_en": "NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions",
+      "caption": "Uma equipe do COFFIES da NASA desenvolveu um novo modelo de aprendizado de máquina capaz de prever o surgimento de regiões ativas no Sol até 12 horas antes de elas aparecerem.",
+      "caption_pt": "Uma equipe do COFFIES da NASA desenvolveu um novo modelo de aprendizado de máquina capaz de prever o surgimento de regiões ativas no Sol até 12 horas antes de elas aparecerem.",
+      "caption_en": "A team with NASA’s COFFIES has developed a novel machine-learning model capable of predicting the emergence of active regions on the Sun up to 12 hours before they appear.",
+      "sourcePage": "https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/"
+    },
+    "audio": null,
+    "title": "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol",
+    "title_pt": "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol",
+    "title_en": "NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions on Sun",
+    "sub": "À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas principalmente pelo Sol, é mais.",
+    "sub_pt": "À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas principalmente pelo Sol, é mais.",
+    "sub_en": "As humanity looks to the Moon and stars for future exploration, predicting space weather, conditions in space primarily driven by the Sun, is more important than ever.",
+    "excerpt": "À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas principalmente pelo Sol, é mais importante do que nunca.",
+    "excerpt_pt": "À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas principalmente pelo Sol, é mais importante do que nunca.",
+    "excerpt_en": "As humanity looks to the Moon and stars for future exploration, predicting space weather, conditions in space primarily driven by the Sun, is more important than ever.",
+    "body": "<p>À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas principalmente pelo Sol, é mais importante do que nunca. 5 min de leitura COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial - condições no espaço impulsionadas principalmente pelo Sol - é mais.</p><p>O Solar Dynamics Observatory da NASA capturou esta imagem de uma explosão solar, vista como o flash brilhante no canto superior direito, em 30 de junho de 2026. Centro de Voo Espacial Goddard/SDO da NASA Ao unir conhecimentos entre diferentes instituições científicas, o COFFIES, um Centro de Ciências DRIVE (Diversificar.</p><p>Educar) da NASA, reuniu uma equipe de pesquisadores do Instituto de Tecnologia de Nova Jersey (NJIT), da Universidade de Princeton e do Centro de Pesquisa Ames da NASA no Vale do Silício, na Califórnia. A primeira coluna de blocos mostra as áreas alvo na resolução original, a coluna do meio exibe os dados como mapas 2D e a coluna da direita representa as mudanças na polaridade magnética ao longo do tempo como curvas 1D.</p><p>Monitoramento do clima espacial em tempo real da NASA Como a NASA se concentra no envio de humanos para explorar a Lua com as missões Artemis e no envio das primeiras missões tripuladas a Marte, monitorar e prever o clima espacial é importante para garantir a segurança de nossos. Para visualizar este vídeo, habilite o JavaScript e considere atualizar para um navegador da web que suporte vídeo HTML5.</p><p>O Escritório de Análise do Clima Espacial Lua a Marte da NASA monitora o clima espacial 7 dias por semana. As equipes NASA / Lacey Young da NASA e da NOAA colaboram para fazer a transição dos recursos de pesquisa para ferramentas operacionais reais de monitoramento do clima espacial de 360 ​​​​graus - incluindo o Grupo de Análise de Radiação Espacial da NASA, o Escritório de Análise.</p><p>Sobre o autor Desiree Apodaca NASA&#x27;s Heliophysics Missions Communications Lead Share Detalhes Última atualização em 14 de agosto.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas principalmente pelo Sol, é mais importante do que nunca. 5 min de leitura COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial - condições no espaço impulsionadas principalmente pelo Sol - é mais.</p><p>O Solar Dynamics Observatory da NASA capturou esta imagem de uma explosão solar, vista como o flash brilhante no canto superior direito, em 30 de junho de 2026. Centro de Voo Espacial Goddard/SDO da NASA Ao unir conhecimentos entre diferentes instituições científicas, o COFFIES, um Centro de Ciências DRIVE (Diversificar.</p><p>Educar) da NASA, reuniu uma equipe de pesquisadores do Instituto de Tecnologia de Nova Jersey (NJIT), da Universidade de Princeton e do Centro de Pesquisa Ames da NASA no Vale do Silício, na Califórnia. A primeira coluna de blocos mostra as áreas alvo na resolução original, a coluna do meio exibe os dados como mapas 2D e a coluna da direita representa as mudanças na polaridade magnética ao longo do tempo como curvas 1D.</p><p>Monitoramento do clima espacial em tempo real da NASA Como a NASA se concentra no envio de humanos para explorar a Lua com as missões Artemis e no envio das primeiras missões tripuladas a Marte, monitorar e prever o clima espacial é importante para garantir a segurança de nossos. Para visualizar este vídeo, habilite o JavaScript e considere atualizar para um navegador da web que suporte vídeo HTML5.</p><p>O Escritório de Análise do Clima Espacial Lua a Marte da NASA monitora o clima espacial 7 dias por semana. As equipes NASA / Lacey Young da NASA e da NOAA colaboram para fazer a transição dos recursos de pesquisa para ferramentas operacionais reais de monitoramento do clima espacial de 360 ​​​​graus - incluindo o Grupo de Análise de Radiação Espacial da NASA, o Escritório de Análise.</p><p>Sobre o autor Desiree Apodaca NASA&#x27;s Heliophysics Missions Communications Lead Share Detalhes Última atualização em 14 de agosto.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>As humanity looks to the Moon and stars for future exploration, predicting space weather, conditions in space primarily driven by the Sun, is more important than ever. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. 5 min read NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions on Sun As humanity looks to the Moon and stars for future exploration, predicting space weather. NASA’s Solar Dynamics Observatory captured this image of a solar flare, seen as the bright flash in the upper right, on June 30, 2026.</p><p>NASA’s Goddard Space Flight Center/SDO By bridging expertise across different scientific institutions, COFFIES, a NASA DRIVE (Diversify, Realize, Integrate, Venture, Educate). The first column of blocks shows targeted areas at original resolution, the middle column displays data as 2D maps, and the right column plots changes in magnetic polarity over.</p><p>NASA’s real-time space weather monitoring As NASA focuses on sending humans to explore the Moon with the Artemis missions and sending the first crewed missions to Mars, monitoring. To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video NASA’s Moon to Mars Space Weather Analysis Office monitors space.</p><p>NASA/Lacey Young Teams across NASA and NOAA collaborate to transition research capabilities into actual 360-degree space weather monitoring operational tools, including NASA’s. About the Author Desiree Apodaca NASA’s Heliophysics Missions Communications Lead Share Details Last Updated Aug 14.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>A team with NASA’s COFFIES has developed a novel machine-learning model capable of predicting the emergence of active regions on the Sun up to 12 hours before they appear. Now, a team of astrophysicists and data scientists with NASA’s COFFIES (Consequence Of Fields and Flows in the Interior and Exterior of the Sun) has developed a novel.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: As humanity looks to the Moon and stars for future exploration, predicting space weather, conditions in space primarily driven by the Sun, is more",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "14 ago 2026",
+    "date_pt": "14 ago 2026",
+    "date_en": "14 Aug 2026",
+    "time": "17h00",
+    "time_pt": "17h00",
+    "time_en": "17: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-14T17:00:23+00:00",
+    "lastModifiedIso": "2026-08-15T16:05:16+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA COFFIES uses AI to predict active storm-causing regions on the Sun"
+    ],
+    "srcUrl": "https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol",
+    "imageAlt_pt": "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol",
+    "imageAlt_en": "NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions on Sun",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
     "slug": "a-look-back-at-the-2026-total-solar-eclipse",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -245,7 +398,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -365,7 +518,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "cascade-volcanoes-shrouded-in-smoke",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -505,7 +658,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "nasa-data-helps-commercial-space-plan-living-off-our-moon",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -526,19 +679,19 @@ window.postsData = [
     "body_pt": "<p>A árida paisagem lunar possui alguns recursos importantes, como água e minerais como ferro e titânio, mas extraí-los e processá-los exigirá equipamentos especiais. 3 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento (e subaquáticas) A NASA vem tirando fotos da Lua há décadas, coletando uma riqueza de dados.</p><p>Esta imagem em cores falsas é uma composição de 15 imagens da Lua obtidas através de três filtros de cores no sistema de imagem de estado sólido Galileo da NASA. Está usando uma grande quantidade de dados da NASA em vários modelos de computador.</p><p>Com 60 anos de dados lunares disponíveis, ajudamos nossos clientes a compreender os fatores ambientais de qualquer local na Lua”, disse Blair DeWitt, CEO da Estação Lunar. Combinar dados díspares de diferentes sensores usados ​​pela NASA e outras agências espaciais é um primeiro passo crítico.</p><p>Um recurso da NASA que a empresa sediada em Cambridge, Massachusetts usou para construir mapas de terreno é o Ames Stereo Pipeline. O código-fonte aberto processa automaticamente imagens capturadas de satélites, rovers robóticos, imagens históricas e muito mais para criar um modelo 3D que revela recursos como posicionamento e elevação de rochas.</p><p>Para começar a preencher essa lacuna, o Satélite de Observação e Detecção de Crateras Lunares foi concebido para colidir com o seu estágio superior no Pólo Sul da Lua em 2009. Se você não consegue ver a Terra em um determinado local, como nas regiões polares ou no lado oculto da Lua, você precisa criar uma estratégia de retransmissão”, disse DeWitt.</p><p>Podemos fazer isso em parte graças aos dados da NASA. ” No Simulador de Radiação do MoonHacker, uma versão eletrônica do rover ou satélite de uma empresa, chamada de gêmeo digital, pode ser submetida à radiação durante o trajeto ou no local da missão para determinar a proteção.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/technology/tech-transfer-spinoffs/nasa-data-helps-commercial-space-plan-living-off-our-moon/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>The barren lunar landscape has some important resources, such as water and minerals like iron and titanium, but extracting and processing them will require special equipment. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. 3 min read Preparations for Next Moonwalk Simulations Underway (and Underwater) NASA has been taking pictures of the Moon for decades, collecting a wealth of data. This false-color picture is a composite of 15 images of the Moon taken through three color filters on NASA’s Galileo solid-state imaging system.</p><p>Is using a wealth of NASA data in multiple computer models. With 60 years of lunar data available to us, we help our clients understand the environmental factors for any given location on the Moon,” said Blair DeWitt, CEO of Lunar Station.</p><p>Combining disparate data from different sensors used by NASA and other space agencies is a critical first step. One NASA resource the Cambridge, Massachusetts-based company used to build terrain maps is the Ames Stereo Pipeline.</p><p>The open-source code automatically processes images captured from satellites, robotic rovers, historical images, and more to create a 3D model revealing features such as rock. To begin to fill that gap, the Lunar Crater Observation and Sensing Satellite was designed to crash its uppers stage into the Moon’s South Pole in 2009.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>If you can’t see Earth at a given location like in the polar regions or the far side of the Moon, you have to come up with a relay strategy,” said DeWitt. We can do this in part thanks to NASA data. ” In MoonHacker’s Radiation Simulator, an electronic version of a company’s rover or satellite, called a digital twin, can be subjected.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/technology/tech-transfer-spinoffs/nasa-data-helps-commercial-space-plan-living-off-our-moon/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A árida paisagem lunar possui alguns recursos importantes, como água e minerais como ferro e titânio, mas extraí-los e processá-los exigirá",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A árida paisagem lunar possui alguns recursos importantes, como água e minerais como ferro e titânio, mas extraí-los e processá-los exigirá.",
+      "Dado-chave: A árida paisagem lunar possui alguns recursos importantes, como água e minerais como ferro e titânio, mas extraí-los e processá-los exigirá",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A árida paisagem lunar possui alguns recursos importantes, como água e minerais como ferro e titânio, mas extraí-los e processá-los exigirá",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A árida paisagem lunar possui alguns recursos importantes, como água e minerais como ferro e titânio, mas extraí-los e processá-los exigirá.",
+      "Dado-chave: A árida paisagem lunar possui alguns recursos importantes, como água e minerais como ferro e titânio, mas extraí-los e processá-los exigirá",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The barren lunar landscape has some important resources, such as water and minerals like iron and titanium, but extracting and processing them will",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The barren lunar landscape has some important resources, such as water and minerals like iron and titanium, but extracting and processing them will.",
+      "Key detail: The barren lunar landscape has some important resources, such as water and minerals like iron and titanium, but extracting and processing them.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "12 ago 2026",
     "date_pt": "12 ago 2026",
@@ -626,7 +779,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "nasa-upgrades-vertical-motion-simulator-for-modern-mission-needs",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -760,7 +913,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "radio-flares-and-x-ray-hardening-embedded-in-the-long-soft-state-of-4u-1543-475",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -792,7 +945,7 @@ window.postsData = [
     ],
     "highlights_en": [
       "Core point: We present a comprehensive multi-wavelength study of the black hole X-ray binary 4U 1543-475 during its 2021 outburst, focusing on radio flaring.",
-      "Key detail: We present a comprehensive multi-wavelength study of the black hole X-ray binary 4U 1543-475 during its 2021 outburst, focusing on radio flaring",
+      "Key detail: We present a comprehensive multi-wavelength study of the black hole X-ray binary 4U 1543-475 during its 2021 outburst, focusing on radio flaring.",
       "Result not yet peer reviewed."
     ],
     "date": "12 ago 2026",
@@ -881,7 +1034,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "stops-along-the-path-of-totality",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -921,19 +1074,19 @@ window.postsData = [
     "body_pt": "<p>A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto de 2026. O post Paradas ao Longo do Caminho da Totalidade apareceu pela primeira vez na NASA Science.</p><p>Observatório da Terra da NASA/Michala Garrison O vulcão Snæfellsjökull, no extremo oeste da península, está coberto de gelo e entrou em erupção pela última vez há cerca de 1.800 anos. NASA Earth Observatory/Michala Garrison O alto Ebro emerge de um terreno acidentado no Parque Natural de Montes Obarenes-San Zadornil, onde esculpe desfiladeiros e desfiladeiros no sopé oriental das montanhas Cantábricas.</p><p>Downloads 25 de julho de 2026 JPEG (14, 69 MB) 12 de agosto de 2026 JPEG (1, 92 MB) 21 de julho de 2026 JPEG (34, 46 MB) Referências e recursos NASA (2026) 12 de agosto de 2026, Eclipse solar total. Explore dados de ciências da terra da Terra Acesso aberto ao arquivo de dados de ciências da Terra da NASA O post Paradas ao longo do caminho da totalidade apareceu pela primeira vez em NASA Science.</p><p>Observatório da Terra da NASA / Michala Garrison O Sol, a Lua e a Terra se alinham em 12 de agosto de 2026, para produzir um eclipse solar total. Em 12 de agosto, a sombra da Lua cruzará primeiro o Círculo Polar Ártico vindo do norte da Rússia e depois seguirá ao longo do lado oriental da Groenlândia.</p><p>Referências e recursos NASA (2026) 12 de agosto de 2026, Eclipse Solar Total. Artigo Earthset do outro lado lunar 2 min de leitura A tripulação da missão Artemis II da NASA capturou imagens extraordinárias de nosso planeta natal durante sua jornada ao redor do distante.</p><p>Acesso aberto ao arquivo de dados científicos da Terra da NASA NASA (2026) 12 de agosto de 2026, Eclipse Solar Total.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/stops-along-the-path-of-totality/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Western Iceland and northern Spain are among the few Northern Hemisphere locations experiencing a total solar eclipse on August 12, 2026. The post Stops Along the Path of Totality appeared first on NASA Science. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The post Stops Along the Path of Totality appeared first on NASA Science. NASA Earth Observatory/Michala Garrison The Snæfellsjökull volcano on the western end of the peninsula is covered in ice and last erupted about 1, 800 years ago.</p><p>NASA Earth Observatory/Michala Garrison The upper Ebro emerges from rugged terrain in Parque Natural de Montes Obarenes-San Zadornil, where it carves canyons and gorges through. Downloads July 25, 2026 JPEG (14.69 MB) August 12, 2026 JPEG (1.92 MB) July 21, 2026 JPEG (34.46 MB) References &amp; Resources NASA (2026) August 12, 2026, Total Solar Eclipse.</p><p>Explore Earth Science Earth Science Data Open access to NASA’s archive of Earth science data The post Stops Along the Path of Totality appeared first on NASA Science. Article View more Images of the Day: Aug 11, 2026 Instruments: Landsat 8, OLI Landsat 9, OLI Collections: International Parks and UNESCO Sites Topics: Sun-Earth Interactions The.</p><p>NASA Earth Observatory/Michala Garrison The Sun, Moon, and Earth align on August 12, 2026, to produce a total solar eclipse. On August 12, the Moon’s shadow will first cross over the Arctic Circle from northern Russia and then track along the eastern side of Greenland.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>References &amp; Resources NASA (2026) August 12, 2026, Total Solar Eclipse. Article Earthset From the Lunar Far Side 2 min read The crew of NASA’s Artemis II mission captured extraordinary images of our home planet during their journey around the far.</p><p>Because the account originates with NASA Earth Observatory, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/stops-along-the-path-of-totality/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto.",
+      "Dado-chave: A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de agosto.",
+      "Dado-chave: A Islândia Ocidental e o norte da Espanha estão entre os poucos locais do Hemisfério Norte que experimentaram um eclipse solar total em 12 de.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Western Iceland and northern Spain are among the few Northern Hemisphere locations experiencing a total solar eclipse on August 12, 2026",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Western Iceland and northern Spain are among the few Northern Hemisphere locations experiencing a total solar eclipse on August 12, 2026.",
+      "Key detail: Western Iceland and northern Spain are among the few Northern Hemisphere locations experiencing a total solar eclipse on August 12, 2026",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "12 ago 2026",
     "date_pt": "12 ago 2026",
@@ -1014,127 +1167,6 @@ window.postsData = [
     "imageAlt": "Para ao longo do caminho da totalidade",
     "imageAlt_pt": "Para ao longo do caminho da totalidade",
     "imageAlt_en": "Stops Along the Path of Totality",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 8,
-    "slug": "what-is-the-nancy-grace-roman-space-telescope-grades-5-8",
-    "cat": "Exoplanetas",
-    "catCls": "exoplanetas",
-    "img": "https://www.nasa.gov/wp-content/uploads/2023/02/nancy-grace-roman-space-telescope-visualization.jpeg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)",
-    "title_pt": "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)",
-    "title_en": "What Is the Nancy Grace Roman Space Telescope? (Grades 5-8)",
-    "sub": "Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
-    "sub_pt": "Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
-    "sub_en": "This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory.",
-    "excerpt": "Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
-    "excerpt_pt": "Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
-    "excerpt_en": "This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory. The telescope will scan large sections of space.",
-    "body": "<p>Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.</p><p>______________________________________________________________________ Palavras para saber Astrofísica: um ramo da ciência espacial que aplica física e matemática a [. ]. Centro de Voo Espacial Goddard da NASA ______________________________________________________________________ Palavras para Saber Astrofísica: um ramo da ciência espacial que aplica física e matemática para estudar o universo.</p><p>NASA / Sydney Rohde O que os cientistas estudarão com o Telescópio Espacial Nancy Grace Roman? . Nancy Grace Roman foi a primeira astrônoma-chefe da NASA.</p><p>Ela é conhecida como “a mãe do Telescópio Espacial Hubble”. Canto de Carreira da NASA Mais de mil técnicos e engenheiros montaram Roman a partir de milhões de componentes individuais.</p><p>Mais sobre o site da missão Nancy Grace Roman Space Telescope: Nancy Grace Roman Space Telescope Videogame: Roman Space Observer Roman Space Telescope Materiais de educação e divulgação Explore mais para alunos da 5ª à 8ª série. ______________________________________________________________________ Astrofísica: um ramo da ciência espacial que aplica física e matemática para estudar o universo.</p><p>A decolagem ocorrerá no Complexo de Lançamento 39A no Centro Espacial Kennedy da NASA, na Flórida.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.</p><p>______________________________________________________________________ Palavras para saber Astrofísica: um ramo da ciência espacial que aplica física e matemática a [. ]. Centro de Voo Espacial Goddard da NASA ______________________________________________________________________ Palavras para Saber Astrofísica: um ramo da ciência espacial que aplica física e matemática para estudar o universo.</p><p>NASA / Sydney Rohde O que os cientistas estudarão com o Telescópio Espacial Nancy Grace Roman? . Nancy Grace Roman foi a primeira astrônoma-chefe da NASA.</p><p>Ela é conhecida como “a mãe do Telescópio Espacial Hubble”. Canto de Carreira da NASA Mais de mil técnicos e engenheiros montaram Roman a partir de milhões de componentes individuais.</p><p>Mais sobre o site da missão Nancy Grace Roman Space Telescope: Nancy Grace Roman Space Telescope Videogame: Roman Space Observer Roman Space Telescope Materiais de educação e divulgação Explore mais para alunos da 5ª à 8ª série. ______________________________________________________________________ Astrofísica: um ramo da ciência espacial que aplica física e matemática para estudar o universo.</p><p>A decolagem ocorrerá no Complexo de Lançamento 39A no Centro Espacial Kennedy da NASA, na Flórida.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>It matters because exoplanet science has moved beyond the era of simple discovery into a period of comparative characterization. With more than five thousand confirmed planets known, the scientifically productive questions now concern atmospheric composition, internal structure, orbital history and the statistical properties of populations rather than the existence of individual worlds. A new detection or spectral measurement is most valuable when it adds a well-constrained data point to those comparative frameworks, not when it stands alone as an anecdote. ______________________________________________________________________ Words to Know Astrophysics: a branch of space science that applies physics and mathematics to. NASA’s Goddard Space Flight Center ______________________________________________________________________ Words to Know Astrophysics: a branch of space science that applies.</p><p>NASA / Sydney Rohde What Will Scientists Study With the Nancy Grace Roman Space Telescope. Nancy Grace Roman was NASA’s first chief astronomer.</p><p>She is knows as “the mother of the Hubble Space Telescope. ” NASA Career Corner More than a thousand technicians and engineers assembled Roman from millions of individual. More About the Nancy Grace Roman Space Telescope Mission Website: Nancy Grace Roman Space Telescope Video Game: Roman Space Observer Roman Space Telescope Education and Outreach.</p><p>______________________________________________________________________ Astrophysics: a branch of space science that applies physics and mathematics to study the universe. Liftoff will take place from Launch Complex 39A at NASA’s Kennedy Space Center in Florida.</p><p>The broader interest lies in making the target less anecdotal and more comparable with the rest of the known planetary population. Population-level questions, such as the frequency of atmospheres around small rocky planets or the prevalence of water-rich worlds in the habitable zone, require well-characterized individual data points before statistical patterns become meaningful. Each new planet with a measured radius, mass and, ideally, atmospheric constraint is a brick in that larger structure, and the accumulation of bricks eventually allows theorists to test formation models against real distributions rather than projections.</p><p>The Nancy Grace Roman Space Telescope will orbit about 930, 000 miles (1.5 million kilometers) away from Earth. It will orbit around a special place in space called the second Sun-Earth Lagrange point, or L2.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to improve independent constraints on the mass, radius, atmospheric composition and orbital dynamics of the target. Transmission spectroscopy with JWST, radial velocity campaigns with high-resolution ground-based spectrographs and phase-curve measurements from space photometry represent the observational toolkit that can move characterization from plausible to robust. That convergence of techniques is the standard the community now expects before a planetary atmosphere result is treated as confirmed.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
-      "Dado-chave: Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
-      "Dado-chave: Este artigo é para alunos da 5ª à 8ª série. O Telescópio Espacial Nancy Grace Roman é o mais novo observatório astrofísico da NASA.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory.",
-      "Key detail: This article is for students grades 5-8. The Nancy Grace Roman Space Telescope is NASA’s newest astrophysics observatory.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "11 ago 2026",
-    "date_pt": "11 ago 2026",
-    "date_en": "11 Aug 2026",
-    "time": "21h04",
-    "time_pt": "21h04",
-    "time_en": "21: 04 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-11T21:04:39+00:00",
-    "lastModifiedIso": "2026-08-12T16:55:26+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Exoplanetas",
-      "NASA News Releases",
-      "Cosmos Week",
-      "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)"
-    ],
-    "keywords_pt": [
-      "Exoplanetas",
-      "NASA News Releases",
-      "Cosmos Week",
-      "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)"
-    ],
-    "keywords_en": [
-      "Exoplanets",
-      "NASA News Releases",
-      "Cosmos Week",
-      "What is the Nancy Grace Roman Space Telescope? (5th to 8th grades)"
-    ],
-    "srcUrl": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
-    "realUrl": "https://www.cosmosweek.com/?article=what-is-the-nancy-grace-roman-space-telescope-grades-5-8",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=what-is-the-nancy-grace-roman-space-telescope-grades-5-8",
-    "realUrl_en": "https://www.cosmosweek.com/?article=what-is-the-nancy-grace-roman-space-telescope-grades-5-8&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/what-is-the-nancy-grace-roman-space-telescope-grades-5-8/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)",
-    "imageAlt_pt": "O que é o Telescópio Espacial Nancy Grace Roman? (5ª a 8ª séries)",
-    "imageAlt_en": "What Is the Nancy Grace Roman Space Telescope? (Grades 5-8)",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
