@@ -1,6 +1,295 @@
 [
   {
     "id": 1,
+    "slug": "spying-on-a-split-comet",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://dq0hsqwjhea1.cloudfront.net/Comet240PNEAT.webp",
+    "inline_images": [
+      {
+        "src": "https://dq0hsqwjhea1.cloudfront.net/ajae83acf2_hr.webp",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://dq0hsqwjhea1.cloudfront.net/skylive_240P.jpeg",
+        "alt": "Diagrama orbital",
+        "alt_pt": "Diagrama orbital",
+        "alt_en": "Orbital diagram",
+        "caption": "Diagrama orbital",
+        "caption_pt": "Diagrama orbital",
+        "caption_en": "Orbital diagram"
+      },
+      {
+        "src": "https://dq0hsqwjhea1.cloudfront.net/theme/src/img/comment.png",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Espionando um cometa dividido",
+    "title_pt": "Espionando um cometa dividido",
+    "title_en": "Spying on a Split Comet",
+    "sub": "Atravessando o sistema solar, um cometa se dividiu em dois, e um estudo recente usou seis meses de observações para investigar quando e por quê.",
+    "sub_pt": "Atravessando o sistema solar, um cometa se dividiu em dois, e um estudo recente usou seis meses de observações para investigar quando e por quê.",
+    "sub_en": "Traversing through the solar system, a comet split in two, and a recent study used six months of observations to investigate when and why.",
+    "excerpt": "Atravessando o sistema solar, um cometa se dividiu em dois, e um estudo recente usou seis meses de observações para investigar quando e por quê.",
+    "excerpt_pt": "Atravessando o sistema solar, um cometa se dividiu em dois, e um estudo recente usou seis meses de observações para investigar quando e por quê.",
+    "excerpt_en": "Traversing through the solar system, a comet split in two, and a recent study used six months of observations to investigate when and why.",
+    "body": "<p>O post Espionando um cometa dividido apareceu pela primeira vez na Sky &amp; Telescope. Uma dessas classes, conhecidas como cometas da família de Júpiter, viajou desde a Cintura de Kuiper até períodos orbitais curtos (menos de 20 anos), cujos percursos através do sistema solar são moldados pela gravidade de Júpiter.</p><p>Descoberto em 2002, o 240P/NEAT é um cometa da família de Júpiter que circula entre Júpiter e Marte numa órbita de 7, 6 anos. Ao aproximar-se de Júpiter, o 240P experimenta interações fortes e frequentes com o gigante gasoso que podem alterar a órbita do cometa e causar explosões repentinas de brilho à medida que o gelo e a poeira são aquecidos e libertados da superfície do cometa.</p><p>Mais recentemente, o 240P passou mais perto de Júpiter em julho de 2007, mudando a distância do periélio do cometa (aproximação mais próxima do Sol) de 2, 5 para 2, 1 ua, e várias explosões de brilho de longa duração em 2018/2019 poderiam ter sido estimuladas por esta mudança. Curiosamente, um objeto em movimento mais fraco, 240P-B, foi relatado pela primeira vez em junho de 2025, quando o cometa se dirigia para o periélio, em algum momento recentemente, 240P tinha-se dividido em dois! .</p><p>Com evidências crescentes sugerindo que a divisão e a desintegração são os principais mecanismos de destruição do cometa, é imperativo compreender as propriedades e a causa da divisão do 240P. Com o 240P em movimento para o periélio, David Jewitt (Universidade da Califórnia, Los Angeles) e colaboradores monitorizaram o cometa de outubro de 2025 a abril de 2026 para estabelecer a causa provável da sua divisão.</p><p>Empregando o espectrógrafo de objetos fracos Alhambra e a câmera do Telescópio Óptico Nórdico de 2, 56 metros, os autores obtiveram imagens detalhadas do cometa de dois meses antes até quatro meses depois do periélio para caracterizar ambos os componentes. Acompanhando as mudanças fotométricas e morfológicas em suas observações, os autores estimaram as taxas de perda de poeira, tamanhos físicos e velocidade de separação de 240P-A e 240P-B.</p><p>A partir da sua menor taxa de perda de poeira e menor brilho, os autores estimaram um raio em torno de 300 metros (e não inferior a 50).</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/spying-on-a-split-comet/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>O post Espionando um cometa dividido apareceu pela primeira vez na Sky &amp; Telescope. Uma dessas classes, conhecidas como cometas da família de Júpiter, viajou desde a Cintura de Kuiper até períodos orbitais curtos (menos de 20 anos), cujos percursos através do sistema solar são moldados pela gravidade de Júpiter.</p><p>Descoberto em 2002, o 240P/NEAT é um cometa da família de Júpiter que circula entre Júpiter e Marte numa órbita de 7, 6 anos. Ao aproximar-se de Júpiter, o 240P experimenta interações fortes e frequentes com o gigante gasoso que podem alterar a órbita do cometa e causar explosões repentinas de brilho à medida que o gelo e a poeira são aquecidos e libertados da superfície do cometa.</p><p>Mais recentemente, o 240P passou mais perto de Júpiter em julho de 2007, mudando a distância do periélio do cometa (aproximação mais próxima do Sol) de 2, 5 para 2, 1 ua, e várias explosões de brilho de longa duração em 2018/2019 poderiam ter sido estimuladas por esta mudança. Curiosamente, um objeto em movimento mais fraco, 240P-B, foi relatado pela primeira vez em junho de 2025, quando o cometa se dirigia para o periélio, em algum momento recentemente, 240P tinha-se dividido em dois! .</p><p>Com evidências crescentes sugerindo que a divisão e a desintegração são os principais mecanismos de destruição do cometa, é imperativo compreender as propriedades e a causa da divisão do 240P. Com o 240P em movimento para o periélio, David Jewitt (Universidade da Califórnia, Los Angeles) e colaboradores monitorizaram o cometa de outubro de 2025 a abril de 2026 para estabelecer a causa provável da sua divisão.</p><p>Empregando o espectrógrafo de objetos fracos Alhambra e a câmera do Telescópio Óptico Nórdico de 2, 56 metros, os autores obtiveram imagens detalhadas do cometa de dois meses antes até quatro meses depois do periélio para caracterizar ambos os componentes. Acompanhando as mudanças fotométricas e morfológicas em suas observações, os autores estimaram as taxas de perda de poeira, tamanhos físicos e velocidade de separação de 240P-A e 240P-B.</p><p>A partir da sua menor taxa de perda de poeira e menor brilho, os autores estimaram um raio em torno de 300 metros (e não inferior a 50).</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/spying-on-a-split-comet/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Traversing through the solar system, a comet split in two, and a recent study used six months of observations to investigate when and why. The post Spying on a Split Comet appeared first on Sky &amp; Telescope. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>This matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. One such class, known as Jupiter-family comets, traveled from the Kuiper Belt to short orbital periods (less than 20 years) whose paths through the solar system are shaped by. Discovered in 2002, 240P/NEAT is a Jupiter-family comet that loops between Jupiter and Mars on a 7.6-year orbit.</p><p>Making close approaches to Jupiter, 240P experiences frequent, strong interactions with the gas giant that can alter the comet’s orbit and cause sudden bursts in brightness as ice. Excitingly, a fainter comoving object, 240P-B, was first reported in June 2025 as the comet headed toward perihelion, at some point recently, 240P had split in two.</p><p>With growing evidence suggesting splitting and disintegration are the primary mechanisms of comet destruction, understanding the properties and cause of 240P’s split is imperative. With 240P on the move to perihelion, David Jewitt (University of California, Los Angeles) and collaborators monitored the comet from October 2025 to April 2026 to establish the.</p><p>Employing the Alhambra Faint Object Spectrograph and Camera on the 2.56-meter Nordic Optical Telescope, the authors obtained detailed imaging of the comet from two months before. Tracking both photometric and morphological changes across their observations, the authors estimated the dust-loss rates, physical sizes, and separation speed of 240P-A and 240P-B.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>From its lower dust-loss rate and lower brightness, the authors estimated a radius around 300 meters (and no smaller than 50). Based on how the separation of the two comet pieces changes over time, the authors determined that the split of 240P occurred at least three years before their observations.</p><p>Because this item comes through Sky &amp; Telescope as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/spying-on-a-split-comet/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Atravessando o sistema solar, um cometa se dividiu em dois, e um estudo recente usou seis meses de observações para investigar quando e por quê",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_pt": [
+      "Em foco: Atravessando o sistema solar, um cometa se dividiu em dois, e um estudo recente usou seis meses de observações para investigar quando e por quê",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_en": [
+      "Focus: Traversing through the solar system, a comet split in two, and a recent study used six months of observations to investigate when and why",
+      "Detail: Science reporting: verify primary technical documentation",
+      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+    ],
+    "date": "18 ago 2026",
+    "date_pt": "18 ago 2026",
+    "date_en": "18 Aug 2026",
+    "time": "12h00",
+    "time_pt": "12h00",
+    "time_en": "12: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-18T12:00:00+00:00",
+    "lastModifiedIso": "2026-08-18T16:17:59+00:00",
+    "source": "Sky & Telescope",
+    "sourceDomain": "skyandtelescope. org",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Astronomia",
+      "Sky & Telescope",
+      "Cosmos Week",
+      "Espionando um cometa dividido"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "Sky & Telescope",
+      "Cosmos Week",
+      "Espionando um cometa dividido"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "Sky & Telescope",
+      "Cosmos Week",
+      "Spying on a split comet"
+    ],
+    "srcUrl": "https://skyandtelescope.org/astronomy-news/spying-on-a-split-comet/",
+    "realUrl": "https://www.cosmosweek.com/?article=spying-on-a-split-comet",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=spying-on-a-split-comet",
+    "realUrl_en": "https://www.cosmosweek.com/?article=spying-on-a-split-comet&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/spying-on-a-split-comet/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/spying-on-a-split-comet/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/spying-on-a-split-comet/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/spying-on-a-split-comet/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/spying-on-a-split-comet/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/spying-on-a-split-comet/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 91,
+    "scoreBreakdown": {
+      "source": 79,
+      "evidence": 60,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Espionando um cometa dividido",
+    "imageAlt_pt": "Espionando um cometa dividido",
+    "imageAlt_en": "Spying on a Split Comet",
+    "coverageKind": "news",
+    "coverageKindLabel": "Jornalismo científico",
+    "coverageKindLabel_pt": "Jornalismo científico",
+    "coverageKindLabel_en": "Science journalism",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Global_Surface_Temperature_Anomalies_1880-2013.jpg/1280px-Global_Surface_Temperature_Anomalies_1880-2013.jpg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/psd/mars/resources/detail_files/2/5/25757_1-PIA24543-Curiositys-Selfie-at-Mont-Mercou-main-web.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Blog Curiosity, Sols 4975-4981: Feliz 14º aniversário de pouso",
+    "title_pt": "Blog Curiosity, Sols 4975-4981: Feliz 14º aniversário de pouso",
+    "title_en": "Curiosity Blog, Sols 4975-4981: Happy 14th Landing Anniversary",
+    "sub": "Por Susanne P. Schwenzer, professora de mineralogia planetária na The Open University, Reino Unido Data de planejamento da Terra: sexta-feira, 7 de agosto de 2026 Esta semana foi.",
+    "sub_pt": "Por Susanne P. Schwenzer, professora de mineralogia planetária na The Open University, Reino Unido Data de planejamento da Terra: sexta-feira, 7 de agosto de 2026 Esta semana foi.",
+    "sub_en": "By Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Friday, Aug.",
+    "excerpt": "Por Susanne P. Schwenzer, professora de mineralogia planetária na The Open University, Reino Unido Data de planejamento da Terra: sexta-feira, 7 de agosto de 2026 Esta semana foi muito especial para a equipe do Curiosity aqui na Terra, pois comemoramos o 14º.",
+    "excerpt_pt": "Por Susanne P. Schwenzer, professora de mineralogia planetária na The Open University, Reino Unido Data de planejamento da Terra: sexta-feira, 7 de agosto de 2026 Esta semana foi muito especial para a equipe do Curiosity aqui na Terra, pois comemoramos o 14º.",
+    "excerpt_en": "By Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Friday, Aug. 7, 2026 This week was very special for the Curiosity team here on Earth as we celebrated the 14th landing anniversary.",
+    "body": "<p>Schwenzer, professora de mineralogia planetária na The Open University, Reino Unido Data de planejamento da Terra: sexta-feira, 7 de agosto de 2026 Esta semana foi muito especial para a equipe do Curiosity aqui na Terra, pois comemoramos o 14º aniversário do pouso. Sols 4975-4981: Feliz 14º aniversário de pouso O rover Curiosity da NASA em Marte adquiriu esta imagem, de seu alvo de medição de instrumento APXS a bordo “Tunas Khasa”, usando sua câmera frontal para evitar perigos (Front Hazcam).</p><p>7 de outubro de 2026 Esta semana foi muito especial para a equipe do Curiosity aqui na Terra, pois comemoramos o 14º aniversário do pouso. Nesta primeira parada da semana, o APXS mediu “Tunas Khasa” e “Villarrica”, que também foram fotografados com nosso Mars Hand Lens Imager (MAHLI).</p><p>Sols 4968-4974: Escalada em direção à descontinuidade Artigo 7 dias atrás 3 minutos de leitura do Curiosity Blog. Sols 4961-4967: Aproximando-se uma quebra no recorde do rock? .</p><p>Artigo 2 semanas atrás 3 minutos de leitura Curiosity Blog, Sols 4954, 4960: Comemorando nossos engenheiros Rover do passado e do presente Artigo 4 semanas atrás Continue explorando Descubra mais tópicos da NASA Marte Marte é o quarto planeta a partir do Sol e o sétimo maior. O Curiosity capturou a imagem no Sol 4976, dia marciano 4.976 da missão Mars Science Laboratory, às 03: 01: 56 UTC.</p><p>Schwenzer, Professor de Mineralogia Planetária na Universidade Aberta, Reino Unido Esta semana foi muito especial para a equipe do Curiosity aqui na Terra, pois comemoramos o 14º aniversário do pouso. Mas o que fizemos naquela semana tão especial que marcou a transição do 14º para o 15º ano? .</p><p>Se você estiver interessado no que exatamente o Curiosity fez no momento que marcou o aniversário do pouso, nós temos o que você precisa - com a ajuda da equipe de ciência e engenharia do JPL em Pasadena, posso dizer que isso foi no Sol 4976 às 19: 47 LMST em Marte, e naquele.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/blog/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Schwenzer, professora de mineralogia planetária na The Open University, Reino Unido Data de planejamento da Terra: sexta-feira, 7 de agosto de 2026 Esta semana foi muito especial para a equipe do Curiosity aqui na Terra, pois comemoramos o 14º aniversário do pouso. Sols 4975-4981: Feliz 14º aniversário de pouso O rover Curiosity da NASA em Marte adquiriu esta imagem, de seu alvo de medição de instrumento APXS a bordo “Tunas Khasa”, usando sua câmera frontal para evitar perigos (Front Hazcam).</p><p>7 de outubro de 2026 Esta semana foi muito especial para a equipe do Curiosity aqui na Terra, pois comemoramos o 14º aniversário do pouso. Nesta primeira parada da semana, o APXS mediu “Tunas Khasa” e “Villarrica”, que também foram fotografados com nosso Mars Hand Lens Imager (MAHLI).</p><p>Sols 4968-4974: Escalada em direção à descontinuidade Artigo 7 dias atrás 3 minutos de leitura do Curiosity Blog. Sols 4961-4967: Aproximando-se uma quebra no recorde do rock? .</p><p>Artigo 2 semanas atrás 3 minutos de leitura Curiosity Blog, Sols 4954, 4960: Comemorando nossos engenheiros Rover do passado e do presente Artigo 4 semanas atrás Continue explorando Descubra mais tópicos da NASA Marte Marte é o quarto planeta a partir do Sol e o sétimo maior. O Curiosity capturou a imagem no Sol 4976, dia marciano 4.976 da missão Mars Science Laboratory, às 03: 01: 56 UTC.</p><p>Schwenzer, Professor de Mineralogia Planetária na Universidade Aberta, Reino Unido Esta semana foi muito especial para a equipe do Curiosity aqui na Terra, pois comemoramos o 14º aniversário do pouso. Mas o que fizemos naquela semana tão especial que marcou a transição do 14º para o 15º ano? .</p><p>Se você estiver interessado no que exatamente o Curiosity fez no momento que marcou o aniversário do pouso, nós temos o que você precisa - com a ajuda da equipe de ciência e engenharia do JPL em Pasadena, posso dizer que isso foi no Sol 4976 às 19: 47 LMST em Marte, e naquele.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/blog/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>By Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Friday, Aug. 7, 2026 This week was very special for the Curiosity team here on Earth as we celebrated the 14th landing anniversary. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. Happy 14th Landing Anniversary NASA’s Mars rover Curiosity acquired this image, of its onboard APXS instrument measuring target “Tunas Khasa,” using its Front Hazard Avoidance. 7, 2026 This week was very special for the Curiosity team here on Earth as we celebrated the 14th landing anniversary.</p><p>At this first stop of the week, the APXS measured “Tunas Khasa” and “Villarrica,” which were also imaged with our Mars Hand Lens Imager (MAHLI). Visit the Science Instruments page NASA’s Curiosity rover at the base of Mount Sharp NASA/JPL-Caltech/MSSS Share Details Last Updated Aug 17, 2026 Related Terms Blogs Explore More.</p><p>Article 2 weeks ago 3 min read Curiosity Blog, Sols 4954, 4960: Celebrating Our Rover Engineers Past and Present Article 4 weeks ago Keep Exploring Discover More Topics From NASA. Curiosity captured the image on Sol 4976, Martian day 4, 976 of the Mars Science Laboratory mission, at 03: 01: 56 UTC.</p><p>Schwenzer, Professor of Planetary Mineralogy at The Open University, UK This week was very special for the Curiosity team here on Earth as we celebrated the 14th landing. But what did we do in that very special week that marked the transition from year 14 to year 15.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>If you are interested what exactly Curiosity did at the moment in time that marked the landing anniversary, we’ve got you covered, with the help of the science and engineering. The 46-foot (14-meter) drive put us into the perfect position in front of one of those very special places, where not only two different rock layers meet, but also where.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/blog/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Por Susanne P",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Por Susanne P",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: By Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Friday, Aug",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "17 ago 2026",
+    "date_pt": "17 ago 2026",
+    "date_en": "17 Aug 2026",
+    "time": "23h10",
+    "time_pt": "23h10",
+    "time_en": "23: 10 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-17T23:10:41+00:00",
+    "lastModifiedIso": "2026-08-18T16:17:59+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Blog Curiosity",
+      "Sols 4975",
+      "4981",
+      "Feliz 14º aniversário de pouso"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Blog Curiosity",
+      "Sols 4975",
+      "4981",
+      "Feliz 14º aniversário de pouso"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Blog Curiosity",
+      "Sols 4975",
+      "4981",
+      "Happy 14th anniversary of landing"
+    ],
+    "srcUrl": "https://science.nasa.gov/blog/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/",
+    "realUrl": "https://www.cosmosweek.com/?article=curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary",
+    "realUrl_en": "https://www.cosmosweek.com/?article=curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Blog Curiosity, Sols 4975-4981: Feliz 14º aniversário de pouso",
+    "imageAlt_pt": "Blog Curiosity, Sols 4975-4981: Feliz 14º aniversário de pouso",
+    "imageAlt_en": "Curiosity Blog, Sols 4975-4981: Happy 14th Landing Anniversary",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
     "slug": "nasa-challenge-tests-wheel-designs-for-moon-base-mobility",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -158,12 +447,58 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 4,
     "slug": "hubble-solves-merger-mystery-from-milky-way-s-early-years",
     "cat": "Biologia",
     "catCls": "biologia",
     "img": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/08/STScI-01KZ4N4D8G9AK26CF28HD5NT5N.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
-    "inline_images": [],
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/08/STScI-01KZ4N4D8G9AK26CF28HD5NT5N.png/jcr:content/renditions/Full-res-Artists-Concept-watermarked-For-Print.tif",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/08/STScI-01KZ4N4D8G9AK26CF28HD5NT5N.png",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/08/STScI-01KZ4N4D8G9AK26CF28HD5NT5N.png/jcr:content/renditions/Full-res-For-Display.jpg",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/08/STScI-01KZ4N4D8G9AK26CF28HD5NT5N.png/jcr:content/renditions/Full-res-For-Print.tif",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/08/STScI-01KZ4N4D8G9AK26CF28HD5NT5N.png/jcr:content/renditions/For-Display-Half-Res.jpg",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
+      }
+    ],
     "video": null,
     "audio": null,
     "title": "Hubble resolve o mistério da fusão desde os primeiros anos da Via Láctea",
@@ -179,19 +514,19 @@
     "body_pt": "<p>Novos dados do Hubble mostram evidências definitivas de uma galáxia anã fundindo-se com a jovem Via Láctea nas primeiras fases da sua evolução. Neste artigo descobrimos de onde veio o primeiro lote significativo de tijolos: uma galáxia anã que chamamos de LKH. ” Sítios arqueológicos cósmicos Imensas pesquisas astronómicas e dados precisos de naves espaciais como a missão Gaia da ESA (Agência Espacial Europeia) têm sido.</p><p>Continue explorando Descubra mais tópicos do Hubble Telescópio Espacial Hubble Desde seu lançamento em 1990, o Telescópio Espacial Hubble mudou nossa compreensão fundamental do universo. Imagens do Hubble Explore as imagens icônicas do universo do Hubble e veja fotos de operações de missão e astronautas prestando serviços de manutenção ao Hubble no espaço.</p><p>Agora, novos dados do Telescópio Espacial Hubble da NASA mostram evidências definitivas de uma galáxia anã fundindo-se com a jovem Via Láctea nas fases iniciais da sua evolução. Os resultados foram publicados segunda-feira na revista Nature Astronomy.</p><p>Agora, o Hubble descobriu provas definitivas de uma fusão anterior que ocorreu há cerca de 11, 8 mil milhões de anos, ou apenas 2 mil milhões de anos após o big bang. Estes são os aglomerados que nasceram em LKH e nos dizem quando aquela galáxia foi devorada pela nossa e qual a sua massa. ” A equipe analisou observações do Hubble de 39 aglomerados globulares nos 20.</p><p>O Goddard Space Flight Center da NASA em Greenbelt, Maryland, gerencia o telescópio e as operações da missão. 2026 Editora Andrea Gianopoulos Localização Goddard Space Flight Center da NASA Contato com a mídia Claire Andreoli Goddard Space Flight Center da NASA Greenbelt.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/hubble/hubble-solves-merger-mystery-from-milky-ways-early-years/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>New Hubble data shows definitive evidence of a dwarf galaxy merging with the young Milky Way in the earliest phases of its evolution. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern. The gap between identifying a correlation in biological data and understanding the causal chain that produces it is routinely underestimated, and the history of biomedical research is populated with associations that collapsed when the mechanism was sought and not found. A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive finding because it generates testable predictions that can narrow the hypothesis space. In this paper we discover where the first significant batch of bricks came from: a dwarf galaxy that we call LKH. Keep Exploring Discover More Topics From Hubble Hubble Space Telescope Since its 1990 launch, the Hubble Space Telescope has changed our fundamental understanding of the universe.</p><p>Hubble Images Explore Hubble’s iconic images of the universe, and view photos of mission operations and astronauts servicing Hubble in space. Now, new data from NASA’s Hubble Space Telescope shows definitive evidence of a dwarf galaxy merging with the young Milky Way galaxy in the earliest phases of its evolution.</p><p>The results published Monday in the journal Nature Astronomy. Now, Hubble has uncovered definitive evidence of an earlier merger that occurred about 11.8 billion years ago, or just 2 billion years after the big bang.</p><p>These are the clusters that were born in LKH, and they tell us when that galaxy was devoured by ours, and how massive it was. NASA’s Goddard Space Flight Center in Greenbelt, Maryland, manages the telescope and mission operations.</p><p>The broader interest lies in whether the reported effect points toward a real mechanism and not merely a reproducible but unexplained association. Biology has learned from decades of biomarker failures that correlation, even robust correlation, is not a substitute for mechanistic understanding. A pathway that can be traced from molecular interaction to cellular response to organismal phenotype provides a far stronger foundation for intervention than a statistical association discovered in a large dataset, however well the statistics are done.</p><p>2026 Editor Andrea Gianopoulos Location NASA Goddard Space Flight Center Contact Media Claire Andreoli NASA’s Goddard Space Flight Center Greenbelt. Maryland Since its 1990 launch, the Hubble Space Telescope has changed our fundamental understanding of the universe.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to test whether the effect repeats across different methods, cell types, model organisms and experimental conditions. Reproducibility is the first test, but mechanistic dissection is the second, and a result that passes both has a substantially better chance of translating into something clinically or biotechnologically useful. The path from a laboratory finding to an applied outcome typically takes a decade or more, and most findings do not complete it; the current result sits at the beginning of that process.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/hubble/hubble-solves-merger-mystery-from-milky-ways-early-years/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Novos dados do Hubble mostram evidências definitivas de uma galáxia anã fundindo-se com a jovem Via Láctea nas primeiras fases da sua evolução",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Novos dados do Hubble mostram evidências definitivas de uma galáxia anã fundindo-se com a jovem Via Láctea nas primeiras fases da sua evolução.",
+      "Dado-chave: Novos dados do Hubble mostram evidências definitivas de uma galáxia anã fundindo-se com a jovem Via Láctea nas primeiras fases da sua evolução",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Novos dados do Hubble mostram evidências definitivas de uma galáxia anã fundindo-se com a jovem Via Láctea nas primeiras fases da sua evolução",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Novos dados do Hubble mostram evidências definitivas de uma galáxia anã fundindo-se com a jovem Via Láctea nas primeiras fases da sua evolução.",
+      "Dado-chave: Novos dados do Hubble mostram evidências definitivas de uma galáxia anã fundindo-se com a jovem Via Láctea nas primeiras fases da sua evolução",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: New Hubble data shows definitive evidence of a dwarf galaxy merging with the young Milky Way in the earliest phases of its evolution",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: New Hubble data shows definitive evidence of a dwarf galaxy merging with the young Milky Way in the earliest phases of its evolution.",
+      "Key detail: New Hubble data shows definitive evidence of a dwarf galaxy merging with the young Milky Way in the earliest phases of its evolution",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "17 ago 2026",
     "date_pt": "17 ago 2026",
@@ -279,7 +614,159 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 5,
+    "slug": "nsf-announces-1-5b-for-foundational-research-to-drive-scientific-breakthroughs-for-american-tech",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://www.nsf.gov/themes/custom/nsf_theme/plugins/uswds/dist/img/us_flag_small.png",
+    "inline_images": [
+      {
+        "src": "https://nsf-gov-resources.nsf.gov/styles/news_sidebar_teaser/s3/media/images/DFPod_GraphicForNSFNews_LSST_240x160.jpg?itok=JQ6A64ns",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://nsf-gov-resources.nsf.gov/styles/news_sidebar_teaser/s3/media/images/DFPod_GraphicForNSFNews_Rubin_240x160.jpg?itok=uJMEvKhr",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://nsf-gov-resources.nsf.gov/styles/news_sidebar_teaser/s3/media_hub/NSF%20State%20and%20Regional%20AI%20Infrastructure%20Hubs.jpg?itok=0uTvzH-d",
+        "alt": "Centros de infraestrutura de IA estaduais e regionais da NSF - Sans Text",
+        "alt_pt": "Centros de infraestrutura de IA estaduais e regionais da NSF - Sans Text",
+        "alt_en": "NSF State and Regional AI Infrastructure Hubs - Sans Text",
+        "caption": "Centros de infraestrutura de IA estaduais e regionais da NSF - Sans Text",
+        "caption_pt": "Centros de infraestrutura de IA estaduais e regionais da NSF - Sans Text",
+        "caption_en": "NSF State and Regional AI Infrastructure Hubs - Sans Text"
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "NSF anuncia US$ 1, 5 bilhão para pesquisas fundamentais para impulsionar avanços científicos para a liderança tecnológica americana",
+    "title_pt": "NSF anuncia US$ 1, 5 bilhão para pesquisas fundamentais para impulsionar avanços científicos para a liderança tecnológica americana",
+    "title_en": "NSF announces $1.5B for foundational research to drive scientific breakthroughs for American technological leadership",
+    "sub": "A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para pesquisas fundamentais, incluindo.",
+    "sub_pt": "A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para pesquisas fundamentais, incluindo.",
+    "sub_en": "The U. S. National Science Foundation today released 12 new notices of funding opportunities providing over $1.",
+    "excerpt": "A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para pesquisas fundamentais, incluindo investigação básica e inspirada no uso.",
+    "excerpt_pt": "A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para pesquisas fundamentais, incluindo investigação básica e inspirada no uso.",
+    "excerpt_en": "The U. S. National Science Foundation today released 12 new notices of funding opportunities providing over $1.5 billion for foundational research, including basic and use-inspired inquiry.",
+    "body": "<p>A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para pesquisas fundamentais, incluindo investigação básica e inspirada no uso. A National Science Foundation lançou hoje 12 novos avisos de oportunidades de financiamento (NOFOs), fornecendo mais de US$ 1, 5 bilhão para pesquisas fundamentais, incluindo investigação básica e inspirada no uso.</p><p>A National Science Foundation lançou hoje 12 novos avisos de oportunidade de financiamento (NOFOs), fornecendo mais de US$ 1, 5 bilhão para pesquisas fundamentais, incluindo pesquisas básicas e inspiradas no uso nas ciências e na engenharia. Eles também cumprem uma premissa central do relatório Ciência: Uma Nova Era de Ouro, que a América deve responder às forças que remodelam o empreendimento científico e criar condições nas quais a ciência excepcional possa ocorrer com mais frequência e progredir mais rapidamente.</p><p>Os NOFOs promovem a missão principal da NSF de apoiar pesquisas fundamentais que levam a avanços científicos e abrem novas fronteiras de conhecimento. As oportunidades de financiamento colocam especial ênfase na investigação ousada e desafiadora de paradigmas, na investigação fundamental que cria novas ligações entre disciplinas e em projetos que aproveitam a inteligência artificial, a computação avançada e a automatização.</p><p>O empreendimento científico da América é moldado pela forma como capacitamos os pesquisadores para explorar as fronteiras da descoberta&quot;, disse Brian Stone, Diretor de Desempenho das Funções da NSF. Assistente do Presidente e Diretor do Escritório de Política Científica e Tecnológica da Casa Branca.</p><p>Quando cientificamente justificado, os investigadores são incentivados a solicitar prémios de até cinco anos de apoio para questões de investigação ambiciosas e de longo prazo, permitindo-lhes concentrar-se em investigação que verdadeiramente mude o paradigma, em vez de produzir. Muitas das novas oportunidades de financiamento também permitirão experiências estruturadas sobre como a NSF apoia a descoberta.</p><p>A NSF planeia avaliar e validar rigorosamente se as alterações na concepção das propostas, na duração da concessão, nos métodos de revisão e na velocidade de financiamento melhoram a qualidade e a ambição dos resultados científicos.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-announces-15b-foundational-research-drive-scientific\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para pesquisas fundamentais, incluindo investigação básica e inspirada no uso. A National Science Foundation lançou hoje 12 novos avisos de oportunidades de financiamento (NOFOs), fornecendo mais de US$ 1, 5 bilhão para pesquisas fundamentais, incluindo investigação básica e inspirada no uso.</p><p>A National Science Foundation lançou hoje 12 novos avisos de oportunidade de financiamento (NOFOs), fornecendo mais de US$ 1, 5 bilhão para pesquisas fundamentais, incluindo pesquisas básicas e inspiradas no uso nas ciências e na engenharia. Eles também cumprem uma premissa central do relatório Ciência: Uma Nova Era de Ouro, que a América deve responder às forças que remodelam o empreendimento científico e criar condições nas quais a ciência excepcional possa ocorrer com mais frequência e progredir mais rapidamente.</p><p>Os NOFOs promovem a missão principal da NSF de apoiar pesquisas fundamentais que levam a avanços científicos e abrem novas fronteiras de conhecimento. As oportunidades de financiamento colocam especial ênfase na investigação ousada e desafiadora de paradigmas, na investigação fundamental que cria novas ligações entre disciplinas e em projetos que aproveitam a inteligência artificial, a computação avançada e a automatização.</p><p>O empreendimento científico da América é moldado pela forma como capacitamos os pesquisadores para explorar as fronteiras da descoberta&quot;, disse Brian Stone, Diretor de Desempenho das Funções da NSF. Assistente do Presidente e Diretor do Escritório de Política Científica e Tecnológica da Casa Branca.</p><p>Quando cientificamente justificado, os investigadores são incentivados a solicitar prémios de até cinco anos de apoio para questões de investigação ambiciosas e de longo prazo, permitindo-lhes concentrar-se em investigação que verdadeiramente mude o paradigma, em vez de produzir. Muitas das novas oportunidades de financiamento também permitirão experiências estruturadas sobre como a NSF apoia a descoberta.</p><p>A NSF planeia avaliar e validar rigorosamente se as alterações na concepção das propostas, na duração da concessão, nos métodos de revisão e na velocidade de financiamento melhoram a qualidade e a ambição dos resultados científicos.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-announces-15b-foundational-research-drive-scientific\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>The U. S. National Science Foundation today released 12 new notices of funding opportunities providing over $1.5 billion for foundational research, including basic and use-inspired inquiry. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. National Science Foundation today released 12 new notices of funding opportunities (NOFOs) providing over $1. National Science Foundation today released 12 new notices of funding opportunity (NOFOs) providing over $1.</p><p>These funding opportunities support the foremost goal in the administration&#x27;s memorandum &quot; Ushering in a New Golden Age of American Innovation: Fiscal Year 2028 Administration. They also deliver on a central premise of the report Science: A New Golden Age, that America must respond to the forces reshaping the scientific enterprise and create conditions.</p><p>NOFOs advance NSF&#x27;s core mission to support foundational research that leads to scientific breakthroughs and opens new frontiers of knowledge. The funding opportunities place particular emphasis on bold, paradigm-challenging inquiry, foundational research that forges new connections across disciplines, and projects that.</p><p>America&#x27;s scientific enterprise is shaped by how we empower researchers to explore the frontiers of discovery,&quot; said Brian Stone, Performing the Duties of the NSF Director. Assistant to the President and Director of the White House Office of Science and Technology Policy.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Where scientifically justified, researchers are encouraged to request awards of up to five years of support for long-term, ambitious research questions, allowing them to focus on. Many of the new funding opportunities will also enable structured experiments in how NSF supports discovery.</p><p>Because the account originates with NSF News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-announces-15b-foundational-research-drive-scientific\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: The U. S. National Science Foundation today released 12 new notices of funding opportunities providing over $1",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "17 ago 2026",
+    "date_pt": "17 ago 2026",
+    "date_en": "17 Aug 2026",
+    "time": "15h00",
+    "time_pt": "15h00",
+    "time_en": "15: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-17T15:00:07+00:00",
+    "lastModifiedIso": "2026-08-18T16:17:59+00:00",
+    "source": "NSF News",
+    "sourceDomain": "www. nsf. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NSF News",
+      "Cosmos Week",
+      "NSF anuncia US$ 1",
+      "5 bilhão para pesquisas fundamentais para impulsionar avanços científicos para a liderança tecnológica americana"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NSF News",
+      "Cosmos Week",
+      "NSF anuncia US$ 1",
+      "5 bilhão para pesquisas fundamentais para impulsionar avanços científicos para a liderança tecnológica americana"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NSF News",
+      "Cosmos Week",
+      "NSF Announces $1",
+      "5 billion for fundamental research to drive scientific advances for American technological leadership"
+    ],
+    "srcUrl": "https://www.nsf.gov/news/nsf-announces-15b-foundational-research-drive-scientific",
+    "realUrl": "https://www.cosmosweek.com/?article=nsf-announces-1-5b-for-foundational-research-to-drive-scientific-breakthroughs-for-american-tech",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nsf-announces-1-5b-for-foundational-research-to-drive-scientific-breakthroughs-for-american-tech",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nsf-announces-1-5b-for-foundational-research-to-drive-scientific-breakthroughs-for-american-tech&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nsf-announces-1-5b-for-foundational-research-to-drive-scientific-breakthroughs-for-american-tech/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nsf-announces-1-5b-for-foundational-research-to-drive-scientific-breakthroughs-for-american-tech/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nsf-announces-1-5b-for-foundational-research-to-drive-scientific-breakthroughs-for-american-tech/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nsf-announces-1-5b-for-foundational-research-to-drive-scientific-breakthroughs-for-american-tech/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nsf-announces-1-5b-for-foundational-research-to-drive-scientific-breakthroughs-for-american-tech/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nsf-announces-1-5b-for-foundational-research-to-drive-scientific-breakthroughs-for-american-tech/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 94,
+    "scoreBreakdown": {
+      "source": 91,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 42,
+      "novelty": 52
+    },
+    "imageAlt": "NSF anuncia US$ 1, 5 bilhão para pesquisas fundamentais para impulsionar avanços científicos para a liderança tecnológica americana",
+    "imageAlt_pt": "NSF anuncia US$ 1, 5 bilhão para pesquisas fundamentais para impulsionar avanços científicos para a liderança tecnológica americana",
+    "imageAlt_en": "NSF announces $1.5B for foundational research to drive scientific breakthroughs for American technological leadership",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 6,
     "slug": "hubble-gaia-solve-our-galaxy-s-merger-mystery",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -428,7 +915,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 7,
     "slug": "science-release-hubble-solves-merger-mystery-from-milky-way-s-early-years",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -580,7 +1067,7 @@
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 8,
     "slug": "chasing-fire-clouds-in-utah",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -742,160 +1229,7 @@
     "storyKind": "science"
   },
   {
-    "id": 6,
-    "slug": "nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://science.nasa.gov/wp-content/uploads/2026/08/coffies-ar-emergence-model-screenshot.jpg",
-    "inline_images": [
-      {
-        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-2.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-4.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": {
-      "kind": "file",
-      "platform": "html5",
-      "embedUrl": "",
-      "fileUrl": "https://science.nasa.gov/wp-content/uploads/2026/08/coffies-ai-model-for-ar-emergence.mp4",
-      "poster": "https://science.nasa.gov/wp-content/uploads/2026/08/coffies-ar-emergence-model-screenshot.jpg",
-      "title": "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades",
-      "title_pt": "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades",
-      "title_en": "NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions",
-      "caption": "Uma equipe do COFFIES da NASA desenvolveu um novo modelo de aprendizado de máquina capaz de prever o surgimento de regiões ativas no Sol até 12 horas antes de elas aparecerem.",
-      "caption_pt": "Uma equipe do COFFIES da NASA desenvolveu um novo modelo de aprendizado de máquina capaz de prever o surgimento de regiões ativas no Sol até 12 horas antes de elas aparecerem.",
-      "caption_en": "A team with NASA’s COFFIES has developed a novel machine-learning model capable of predicting the emergence of active regions on the Sun up to 12 hours before they appear.",
-      "sourcePage": "https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/"
-    },
-    "audio": null,
-    "title": "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol",
-    "title_pt": "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol",
-    "title_en": "NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions on Sun",
-    "sub": "À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas principalmente pelo Sol, é mais.",
-    "sub_pt": "À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas principalmente pelo Sol, é mais.",
-    "sub_en": "As humanity looks to the Moon and stars for future exploration, predicting space weather, conditions in space primarily driven by the Sun, is more important than ever.",
-    "excerpt": "À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas principalmente pelo Sol, é mais importante do que nunca.",
-    "excerpt_pt": "À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas principalmente pelo Sol, é mais importante do que nunca.",
-    "excerpt_en": "As humanity looks to the Moon and stars for future exploration, predicting space weather, conditions in space primarily driven by the Sun, is more important than ever.",
-    "body": "<p>À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas principalmente pelo Sol, é mais importante do que nunca. 5 min de leitura COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial - condições no espaço impulsionadas principalmente pelo Sol - é mais.</p><p>O Solar Dynamics Observatory da NASA capturou esta imagem de uma explosão solar, vista como o flash brilhante no canto superior direito, em 30 de junho de 2026. Centro de Voo Espacial Goddard/SDO da NASA Ao unir conhecimentos entre diferentes instituições científicas, o COFFIES, um Centro de Ciências DRIVE (Diversificar.</p><p>Educar) da NASA, reuniu uma equipe de pesquisadores do Instituto de Tecnologia de Nova Jersey (NJIT), da Universidade de Princeton e do Centro de Pesquisa Ames da NASA no Vale do Silício, na Califórnia. A primeira coluna de blocos mostra as áreas alvo na resolução original, a coluna do meio exibe os dados como mapas 2D e a coluna da direita representa as mudanças na polaridade magnética ao longo do tempo como curvas 1D.</p><p>Monitoramento do clima espacial em tempo real da NASA Como a NASA se concentra no envio de humanos para explorar a Lua com as missões Artemis e no envio das primeiras missões tripuladas a Marte, monitorar e prever o clima espacial é importante para garantir a segurança de nossos. Para visualizar este vídeo, habilite o JavaScript e considere atualizar para um navegador da web que suporte vídeo HTML5.</p><p>O Escritório de Análise do Clima Espacial Lua a Marte da NASA monitora o clima espacial 7 dias por semana. As equipes NASA / Lacey Young da NASA e da NOAA colaboram para fazer a transição dos recursos de pesquisa para ferramentas operacionais reais de monitoramento do clima espacial de 360 ​​​​graus - incluindo o Grupo de Análise de Radiação Espacial da NASA, o Escritório de Análise.</p><p>Sobre o autor Desiree Apodaca NASA&#x27;s Heliophysics Missions Communications Lead Share Detalhes Última atualização em 14 de agosto.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas principalmente pelo Sol, é mais importante do que nunca. 5 min de leitura COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial - condições no espaço impulsionadas principalmente pelo Sol - é mais.</p><p>O Solar Dynamics Observatory da NASA capturou esta imagem de uma explosão solar, vista como o flash brilhante no canto superior direito, em 30 de junho de 2026. Centro de Voo Espacial Goddard/SDO da NASA Ao unir conhecimentos entre diferentes instituições científicas, o COFFIES, um Centro de Ciências DRIVE (Diversificar.</p><p>Educar) da NASA, reuniu uma equipe de pesquisadores do Instituto de Tecnologia de Nova Jersey (NJIT), da Universidade de Princeton e do Centro de Pesquisa Ames da NASA no Vale do Silício, na Califórnia. A primeira coluna de blocos mostra as áreas alvo na resolução original, a coluna do meio exibe os dados como mapas 2D e a coluna da direita representa as mudanças na polaridade magnética ao longo do tempo como curvas 1D.</p><p>Monitoramento do clima espacial em tempo real da NASA Como a NASA se concentra no envio de humanos para explorar a Lua com as missões Artemis e no envio das primeiras missões tripuladas a Marte, monitorar e prever o clima espacial é importante para garantir a segurança de nossos. Para visualizar este vídeo, habilite o JavaScript e considere atualizar para um navegador da web que suporte vídeo HTML5.</p><p>O Escritório de Análise do Clima Espacial Lua a Marte da NASA monitora o clima espacial 7 dias por semana. As equipes NASA / Lacey Young da NASA e da NOAA colaboram para fazer a transição dos recursos de pesquisa para ferramentas operacionais reais de monitoramento do clima espacial de 360 ​​​​graus - incluindo o Grupo de Análise de Radiação Espacial da NASA, o Escritório de Análise.</p><p>Sobre o autor Desiree Apodaca NASA&#x27;s Heliophysics Missions Communications Lead Share Detalhes Última atualização em 14 de agosto.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>As humanity looks to the Moon and stars for future exploration, predicting space weather, conditions in space primarily driven by the Sun, is more important than ever. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. 5 min read NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions on Sun As humanity looks to the Moon and stars for future exploration, predicting space weather. NASA’s Solar Dynamics Observatory captured this image of a solar flare, seen as the bright flash in the upper right, on June 30, 2026.</p><p>NASA’s Goddard Space Flight Center/SDO By bridging expertise across different scientific institutions, COFFIES, a NASA DRIVE (Diversify, Realize, Integrate, Venture, Educate). The first column of blocks shows targeted areas at original resolution, the middle column displays data as 2D maps, and the right column plots changes in magnetic polarity over.</p><p>NASA’s real-time space weather monitoring As NASA focuses on sending humans to explore the Moon with the Artemis missions and sending the first crewed missions to Mars, monitoring. To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video NASA’s Moon to Mars Space Weather Analysis Office monitors space.</p><p>NASA/Lacey Young Teams across NASA and NOAA collaborate to transition research capabilities into actual 360-degree space weather monitoring operational tools, including NASA’s. About the Author Desiree Apodaca NASA’s Heliophysics Missions Communications Lead Share Details Last Updated Aug 14.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>A team with NASA’s COFFIES has developed a novel machine-learning model capable of predicting the emergence of active regions on the Sun up to 12 hours before they appear. Now, a team of astrophysicists and data scientists with NASA’s COFFIES (Consequence Of Fields and Flows in the Interior and Exterior of the Sun) has developed a novel.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas.",
-      "Dado-chave: À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas.",
-      "Dado-chave: À medida que a humanidade olha para a Lua e as estrelas para exploração futura, prever o clima espacial, as condições no espaço impulsionadas",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: As humanity looks to the Moon and stars for future exploration, predicting space weather, conditions in space primarily driven by the Sun, is more.",
-      "Key detail: As humanity looks to the Moon and stars for future exploration, predicting space weather, conditions in space primarily driven by the Sun, is.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "14 ago 2026",
-    "date_pt": "14 ago 2026",
-    "date_en": "14 Aug 2026",
-    "time": "17h00",
-    "time_pt": "17h00",
-    "time_en": "17: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-14T17:00:23+00:00",
-    "lastModifiedIso": "2026-08-15T16:05:16+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA COFFIES uses AI to predict active storm-causing regions on the Sun"
-    ],
-    "srcUrl": "https://science.nasa.gov/science-research/heliophysics/nasas-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-coffies-uses-ai-to-predict-storm-causing-active-regions-on-sun/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol",
-    "imageAlt_pt": "COFFIES da NASA usa IA para prever regiões ativas causadoras de tempestades no Sol",
-    "imageAlt_en": "NASA’s COFFIES Uses AI to Predict Storm-Causing Active Regions on Sun",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 7,
+    "id": 9,
     "slug": "a-look-back-at-the-2026-total-solar-eclipse",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1138,7 +1472,7 @@
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 10,
     "slug": "automatic-detection-of-fast-oscillations-of-dark-matter-scalar-field-and-updated-cosmological-co",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -1259,7 +1593,7 @@
     "storyKind": "science"
   },
   {
-    "id": 9,
+    "id": 11,
     "slug": "radio-flares-and-x-ray-hardening-embedded-in-the-long-soft-state-of-4u-1543-475",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1380,7 +1714,7 @@
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 12,
     "slug": "stops-along-the-path-of-totality",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1520,7 +1854,7 @@
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 13,
     "slug": "dust-and-water-spotted-close-to-giant-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1660,7 +1994,7 @@
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 14,
     "slug": "the-quadratic-growth-of-krylov-spread-complexity-in-the-btz-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1781,7 +2115,7 @@
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 15,
     "slug": "a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1912,169 +2246,7 @@
     "storyKind": "science"
   },
   {
-    "id": 14,
-    "slug": "science-campaigns-planned-for-the-august-12th-total-solar-eclipse",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://dq0hsqwjhea1.cloudfront.net/Screenshot2026-08-02125624-ezgif.com-jpg-to-webp-converter.webp",
-    "inline_images": [
-      {
-        "src": "https://dq0hsqwjhea1.cloudfront.net/eclipse_map_20260812_preview-ezgif.com-png-to-webp-converter.webp",
-        "alt": "Mapa mostrando a trajetória do eclipse em todo o mundo",
-        "alt_pt": "Mapa mostrando a trajetória do eclipse em todo o mundo",
-        "alt_en": "Map showing eclipse track across the globe",
-        "caption": "Mapa mostrando a trajetória do eclipse em todo o mundo",
-        "caption_pt": "Mapa mostrando a trajetória do eclipse em todo o mundo",
-        "caption_en": "Map showing eclipse track across the globe"
-      },
-      {
-        "src": "https://dq0hsqwjhea1.cloudfront.net/Visualisation_of_the_Sun_s_magnetic_skeleton_pillars-ezgif.com-png-to-webp-converter.webp",
-        "alt": "A previsão do eclipse virtual mostra serpentinas coronais emergindo do Sol",
-        "alt_pt": "A previsão do eclipse virtual mostra serpentinas coronais emergindo do Sol",
-        "alt_en": "Virtual eclipse prediction shows coronal streamers emerging from the Sun",
-        "caption": "A previsão do eclipse virtual mostra serpentinas coronais emergindo do Sol",
-        "caption_pt": "A previsão do eclipse virtual mostra serpentinas coronais emergindo do Sol",
-        "caption_en": "Virtual eclipse prediction shows coronal streamers emerging from the Sun"
-      },
-      {
-        "src": "https://dq0hsqwjhea1.cloudfront.net/theme/src/img/comment.png",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": {
-      "kind": "embed",
-      "platform": "youtube",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/q4jfPfMKBgU?rel=0&modestbranding=1",
-      "fileUrl": "",
-      "poster": "",
-      "title": "",
-      "title_pt": "",
-      "title_en": "",
-      "caption": "",
-      "caption_pt": "",
-      "caption_en": "",
-      "sourcePage": "https://skyandtelescope.org/astronomy-news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/"
-    },
-    "audio": null,
-    "title": "Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto",
-    "title_pt": "Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto",
-    "title_en": "Science Campaigns Planned for the August 12th Total Solar Eclipse",
-    "sub": "Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto. O post Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto apareceu.",
-    "sub_pt": "Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto. O post Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto apareceu.",
-    "sub_en": "Several science campaigns plan to greet the racing shadow of the Moon on August 12th. The post Science Campaigns Planned for the August 12th Total Solar Eclipse appeared first on.",
-    "excerpt": "Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto. O post Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto apareceu pela primeira vez na Sky & Telescope.",
-    "excerpt_pt": "Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto. O post Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto apareceu pela primeira vez na Sky & Telescope.",
-    "excerpt_en": "Several science campaigns plan to greet the racing shadow of the Moon on August 12th. The post Science Campaigns Planned for the August 12th Total Solar Eclipse appeared first on Sky & Telescope.",
-    "body": "<p>Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto. O post Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto apareceu pela primeira vez na Sky &amp; Telescope.</p><p>(Você pode cancelar a inscrição a qualquer momento) Várias campanhas científicas planejam saudar a sombra acelerada da Lua em 12 de agosto. O mágico e diretor de fotografia Nevil Maskelyne também capturou a primeira sequência de vídeo em movimento da totalidade durante um eclipse em 28 de maio de 1900, visto da Carolina do Norte.</p><p>A NASA planeja liderar o caminho em 12 de agosto, pilotando uma de suas aeronaves WB-57 Canberra (um bombardeiro militar convertido) para perseguir a sombra da Lua. O WB-57 da NASA encontrará a sombra da Lua sob um céu sem nuvens a 50.000 pés sobre o Atlântico Norte, a oeste da Islândia, perto do ponto máximo de totalidade.</p><p>A sombra estará correndo pela Terra a mais de 3.300 km/h, então o vôo a 740 km/h estenderá a totalidade de 2 minutos e 18 segundos para cerca de 3 minutos de duração. A NASA realizou interceptações de eclipses semelhantes em 2017 e 2024.</p><p>O instrumento é o mesmo, mas estamos a implementar as lições aprendidas a partir de 2024 para ajustar melhor as configurações do instrumento, e os dados serão processados ​​muito mais rapidamente utilizando o pipeline de processamento que foi desenvolvido com os dados de 2024. As câmeras a bordo que podem ter campos de visão de 360 ​​graus também devem capturar imagens dramáticas da sombra da Lua que se aproxima.</p><p>Um voo conjunto C295 da ESA/Irish Air Corps irá perseguir a sombra da Lua no dia 12 de agosto.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto. O post Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto apareceu pela primeira vez na Sky &amp; Telescope.</p><p>(Você pode cancelar a inscrição a qualquer momento) Várias campanhas científicas planejam saudar a sombra acelerada da Lua em 12 de agosto. O mágico e diretor de fotografia Nevil Maskelyne também capturou a primeira sequência de vídeo em movimento da totalidade durante um eclipse em 28 de maio de 1900, visto da Carolina do Norte.</p><p>A NASA planeja liderar o caminho em 12 de agosto, pilotando uma de suas aeronaves WB-57 Canberra (um bombardeiro militar convertido) para perseguir a sombra da Lua. O WB-57 da NASA encontrará a sombra da Lua sob um céu sem nuvens a 50.000 pés sobre o Atlântico Norte, a oeste da Islândia, perto do ponto máximo de totalidade.</p><p>A sombra estará correndo pela Terra a mais de 3.300 km/h, então o vôo a 740 km/h estenderá a totalidade de 2 minutos e 18 segundos para cerca de 3 minutos de duração. A NASA realizou interceptações de eclipses semelhantes em 2017 e 2024.</p><p>O instrumento é o mesmo, mas estamos a implementar as lições aprendidas a partir de 2024 para ajustar melhor as configurações do instrumento, e os dados serão processados ​​muito mais rapidamente utilizando o pipeline de processamento que foi desenvolvido com os dados de 2024. As câmeras a bordo que podem ter campos de visão de 360 ​​graus também devem capturar imagens dramáticas da sombra da Lua que se aproxima.</p><p>Um voo conjunto C295 da ESA/Irish Air Corps irá perseguir a sombra da Lua no dia 12 de agosto.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Several science campaigns plan to greet the racing shadow of the Moon on August 12th. The post Science Campaigns Planned for the August 12th Total Solar Eclipse appeared first on Sky &amp; Telescope. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Several science campaigns plan to greet the racing shadow of the Moon on August 12th. The post Science Campaigns Planned for the August 12th Total Solar Eclipse appeared first on Sky &amp; Telescope.</p><p>(You can unsubscribe anytime) Several science campaigns plan to greet the racing shadow of the Moon on August 12th. Magician and cinematographer Nevil Maskelyne also caught the first moving video sequence of totality during an eclipse on May 28, 1900, as seen from North Carolina.</p><p>NASA plans to lead the way on August 12th, flying one of its WB-57 Canberra aircraft (a converted military bomber) to chase the shadow of the Moon. NASA’s WB-57 will meet the Moon’s shadow under cloudless skies at 50, 000 feet over the North Atlantic west of Iceland, near the maximum point of totality.</p><p>The shadow will be racing across Earth at over 2, 100 mph, so the 460 mph flight will extend totality from 2 minutes, 18 seconds, to about 3 minutes duration. NASA has performed similar eclipse intercepts in 2017 and 2024.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>The instrument is the same, but we are implementing lessons learned from 2024 to better dial in the instrument settings, and the data will be processed much faster using the. Cameras on board that can have 360-degree fields of view should also capture dramatic views of the Moon’s approaching shadow.</p><p>Because this item comes through Sky &amp; Telescope as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto.",
-      "Dado-chave: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_pt": [
-      "Ponto central: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto.",
-      "Dado-chave: Várias campanhas científicas planejam saudar a sombra veloz da Lua em 12 de agosto.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_en": [
-      "Core point: Several science campaigns plan to greet the racing shadow of the Moon on August 12th.",
-      "Key detail: Several science campaigns plan to greet the racing shadow of the Moon on August 12th.",
-      "Science reporting: verify primary technical documentation."
-    ],
-    "date": "07 ago 2026",
-    "date_pt": "07 ago 2026",
-    "date_en": "07 Aug 2026",
-    "time": "12h00",
-    "time_pt": "12h00",
-    "time_en": "12: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-07T12:00:00+00:00",
-    "lastModifiedIso": "2026-08-07T16:43:53+00:00",
-    "source": "Sky & Telescope",
-    "sourceDomain": "skyandtelescope. org",
-    "sourceType": "news",
-    "sourceTypeLabel": "Jornalismo científico",
-    "sourceTypeLabel_pt": "Jornalismo científico",
-    "sourceTypeLabel_en": "Science journalism",
-    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
-    "evidenceKey": "journalistic",
-    "evidenceLabel": "Cobertura jornalística",
-    "evidenceLabel_pt": "Cobertura jornalística",
-    "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Astronomia",
-      "Sky & Telescope",
-      "Cosmos Week",
-      "Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "Sky & Telescope",
-      "Cosmos Week",
-      "Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "Sky & Telescope",
-      "Cosmos Week",
-      "Science campaigns planned for the August 12th Total Solar Eclipse"
-    ],
-    "srcUrl": "https://skyandtelescope.org/astronomy-news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
-    "realUrl": "https://www.cosmosweek.com/?article=science-campaigns-planned-for-the-august-12th-total-solar-eclipse",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=science-campaigns-planned-for-the-august-12th-total-solar-eclipse",
-    "realUrl_en": "https://www.cosmosweek.com/?article=science-campaigns-planned-for-the-august-12th-total-solar-eclipse&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/science-campaigns-planned-for-the-august-12th-total-solar-eclipse/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 91,
-    "scoreBreakdown": {
-      "source": 79,
-      "evidence": 60,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto",
-    "imageAlt_pt": "Campanhas científicas planejadas para o Eclipse Solar Total de 12 de agosto",
-    "imageAlt_en": "Science Campaigns Planned for the August 12th Total Solar Eclipse",
-    "coverageKind": "news",
-    "coverageKindLabel": "Jornalismo científico",
-    "coverageKindLabel_pt": "Jornalismo científico",
-    "coverageKindLabel_en": "Science journalism",
-    "storyKind": "science"
-  },
-  {
-    "id": 15,
+    "id": 16,
     "slug": "how-the-tide-turns-at-the-mouth-of-the-elbe",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2223,7 +2395,7 @@
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "europe-s-forests-losing-more-biomass-since-2018",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2344,7 +2516,7 @@
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "the-paradox-of-lencois-maranhenses-national-park",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2477,173 +2649,6 @@
     "imageAlt": "The Paradox of Lençóis Maranhenses National Park",
     "imageAlt_pt": "The Paradox of Lençóis Maranhenses National Park",
     "imageAlt_en": "The Paradox of Lençóis Maranhenses National Park",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 18,
-    "slug": "nsf-stands-up-2-materials-innovation-platforms-with-50m-investment",
-    "cat": "Física",
-    "catCls": "fisica",
-    "img": "https://nsf-gov-resources.nsf.gov/styles/_inline_image_full_width/s3/media_hub/2534344_TAMU_AutoLab_3DRender_91_graded_cropped_16x9.jpg?itok=RwYewXvb",
-    "inline_images": [
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/featured_news/s3/media_hub/2534344_TAMU_AutoLab_3DRender_91_graded_cropped_16x9.jpg?itok=AB0pWW3c",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/news_sidebar_teaser/s3/media_hub/Differential_privacy.png?itok=E1oxMJqt",
-        "alt": "Ilustração representando o reconhecimento de identidade facial",
-        "alt_pt": "Ilustração representando o reconhecimento de identidade facial",
-        "alt_en": "Illustration depicting facial identity recognition",
-        "caption": "Ilustração representando o reconhecimento de identidade facial",
-        "caption_pt": "Ilustração representando o reconhecimento de identidade facial",
-        "caption_en": "Illustration depicting facial identity recognition"
-      },
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/_inline_image_full_width/s3/media_hub/Differential_privacy.png?itok=IY1kDRtk",
-        "alt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "alt_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "alt_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program",
-        "caption": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "caption_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "caption_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program"
-      },
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/featured_news/s3/media_hub/Differential_privacy.png?itok=Cslui841",
-        "alt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "alt_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "alt_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program",
-        "caption": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "caption_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "caption_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program"
-      },
-      {
-        "src": "https://www.nsf.gov/themes/custom/nsf_theme/plugins/uswds/dist/img/us_flag_small.png",
-        "alt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "alt_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "alt_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program",
-        "caption": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "caption_pt": "NSF anuncia primeiros prêmios para promover a educação em IA e segurança cibernética e o desenvolvimento da força de trabalho por meio do Programa CyberAICorps Scholarship for Service",
-        "caption_en": "NSF announces first awards to advance AI and cybersecurity education and workforce development through CyberAICorps Scholarship for Service Program"
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
-    "title_pt": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
-    "title_en": "NSF stands up 2 Materials Innovation Platforms with $50M investment",
-    "sub": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir.",
-    "sub_pt": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir.",
-    "sub_en": "The U. S. National Science Foundation is investing $50 million in research infrastructure to enable the discovery and development of materials that can withstand extreme.",
-    "excerpt": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir a condições extremas, desde compósitos leves para melhor blindagem até.",
-    "excerpt_pt": "A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir a condições extremas, desde compósitos leves para melhor blindagem até.",
-    "excerpt_en": "The U. S. National Science Foundation is investing $50 million in research infrastructure to enable the discovery and development of materials that can withstand extreme conditions, from lightweight composites for better armor to.",
-    "body": "<p>A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir a condições extremas, desde compósitos leves para melhor blindagem até. Cada uma das novas Plataformas de Inovação de Materiais da NSF, uma no Texas e outra em Wisconsin, adquirirá equipamentos científicos e construirá um sistema, ou plataforma, que os incorpore.</p><p>Desses cientistas, estima-se que 10-20% provirão de universidades e faculdades que gastam comparativamente menos em investigação e podem não ter recursos ou infra-estruturas para equipamentos e sistemas semelhantes. As plataformas de inovação de materiais da NSF atendem a uma ampla necessidade nacional como instalações de usuários que fornecem acesso a alguns dos melhores equipamentos e conhecimentos para pesquisa em ciência de materiais&quot;, disse Tie Luo, chefe da Diretoria de Ciências.</p><p>O NSF ARM-MIP integrará robótica e IA em um único laboratório autônomo capaz de criar novas ligas em uma fração do tempo normalmente necessário. As aplicações para novas ligas incluem turbinas a jato com baixo consumo de combustível, blindagem mais forte para tanques e outros veículos, materiais resistentes à radiação para reatores nucleares, pontes resistentes à corrosão e implantes biocompatíveis.</p><p>O NSF MATRIX-MIP investigará como a complexidade química e estrutural dos materiais influencia seu desempenho em ambientes extremos, como aqueles com alto calor ou forte radiação. Os pesquisadores projetarão experimentos que usam IA para prever rapidamente as propriedades de muitos novos materiais, fabricá-los usando métodos de síntese de alto rendimento e, em seguida, medir as propriedades físicas resultantes.</p><p>Além de investir em duas novas plataformas de inovação de materiais, a NSF também está apoiando os esforços de uma plataforma existente para continuar o seu trabalho científico enquanto expande o seu trabalho com os EUA. A Plataforma de Inovação de Materiais do NSF 2D Crystal Consortium da Universidade Estadual da Pensilvânia recebeu financiamento contínuo da NSF desde a sua criação, há 10 anos, permitindo que se tornasse um centro de pesquisa estabelecido e de classe mundial.</p><p>A NSF está a fornecer 4, 6 milhões de dólares ao longo de quatro anos para fazer a transição das operações da plataforma para um modelo autossustentável que dependerá principalmente de taxas de utilização, pelo que continuará a ser um recurso nacional durante muitos anos.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-stands-2-materials-innovation-platforms-50m-investment\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de materiais que possam resistir a condições extremas, desde compósitos leves para melhor blindagem até. Cada uma das novas Plataformas de Inovação de Materiais da NSF, uma no Texas e outra em Wisconsin, adquirirá equipamentos científicos e construirá um sistema, ou plataforma, que os incorpore.</p><p>Desses cientistas, estima-se que 10-20% provirão de universidades e faculdades que gastam comparativamente menos em investigação e podem não ter recursos ou infra-estruturas para equipamentos e sistemas semelhantes. As plataformas de inovação de materiais da NSF atendem a uma ampla necessidade nacional como instalações de usuários que fornecem acesso a alguns dos melhores equipamentos e conhecimentos para pesquisa em ciência de materiais&quot;, disse Tie Luo, chefe da Diretoria de Ciências.</p><p>O NSF ARM-MIP integrará robótica e IA em um único laboratório autônomo capaz de criar novas ligas em uma fração do tempo normalmente necessário. As aplicações para novas ligas incluem turbinas a jato com baixo consumo de combustível, blindagem mais forte para tanques e outros veículos, materiais resistentes à radiação para reatores nucleares, pontes resistentes à corrosão e implantes biocompatíveis.</p><p>O NSF MATRIX-MIP investigará como a complexidade química e estrutural dos materiais influencia seu desempenho em ambientes extremos, como aqueles com alto calor ou forte radiação. Os pesquisadores projetarão experimentos que usam IA para prever rapidamente as propriedades de muitos novos materiais, fabricá-los usando métodos de síntese de alto rendimento e, em seguida, medir as propriedades físicas resultantes.</p><p>Além de investir em duas novas plataformas de inovação de materiais, a NSF também está apoiando os esforços de uma plataforma existente para continuar o seu trabalho científico enquanto expande o seu trabalho com os EUA. A Plataforma de Inovação de Materiais do NSF 2D Crystal Consortium da Universidade Estadual da Pensilvânia recebeu financiamento contínuo da NSF desde a sua criação, há 10 anos, permitindo que se tornasse um centro de pesquisa estabelecido e de classe mundial.</p><p>A NSF está a fornecer 4, 6 milhões de dólares ao longo de quatro anos para fazer a transição das operações da plataforma para um modelo autossustentável que dependerá principalmente de taxas de utilização, pelo que continuará a ser um recurso nacional durante muitos anos.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-stands-2-materials-innovation-platforms-50m-investment\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>The U. S. National Science Foundation is investing $50 million in research infrastructure to enable the discovery and development of materials that can withstand extreme conditions, from lightweight composites for better armor to. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because physics only takes a result seriously when the measurement chain remains robust under scrutiny. Experimental particle physics and precision metrology both operate in regimes where the signal sits far below the background noise, and where systematic uncertainties can mimic new physics if not controlled rigorously. The history of the field contains numerous anomalies that generated theoretical excitement before better data showed them to be artifacts, and it also contains genuine discoveries that were initially dismissed as noise. The difference is almost always resolved by independent replication with different instruments and different systematics. National Science Foundation is investing $50 million in research infrastructure to enable the discovery and development of materials that can withstand extreme conditions, from. Each of the new NSF Materials Innovation Platforms, one in Texas and one in Wisconsin, will acquire scientific equipment and build a system, or platform, that incorporates it.</p><p>Of those scientists, an estimated 10-20% will come from universities and colleges that spend comparatively less on research and may not have the resources or infrastructure for. The NSF Materials Innovation Platforms serve a broad national need as user facilities that provide access to some of the best equipment and expertise for materials science.</p><p>NSF ARM-MIP will integrate robotics and AI into a single autonomous laboratory capable of creating new alloys in a fraction of the time typically required. The applications for new alloys include fuel-efficient jet turbines, stronger armor for tanks and other vehicles, radiation-resistant materials for nuclear reactors.</p><p>NSF MATRIX-MIP will investigate how the chemical and structural complexity of materials influences their performance in extreme environments, like those with high heat or strong. Researchers will design experiments that use AI to rapidly predict the properties of many new materials, fabricate them using high-throughput synthesis methods and then measure.</p><p>The broader interest lies as much in the method as in the headline number, because a durable measurement procedure can travel farther than a single result. When experimental physicists develop a technique that achieves new sensitivity or controls a previously uncharacterized systematic, that methodological contribution persists even if the specific measurement is later revised. This is one reason why precision physics experiments often generate long-term value that is not immediately visible in the original publication.</p><p>In addition to investing in two new Materials Innovation Platforms, NSF is also supporting an existing platform&#x27;s efforts to continue its scientific work while expanding its work. The NSF 2D Crystal Consortium Materials Innovation Platform at Pennsylvania State University has received continuous funding from NSF since its inception 10 years ago, allowing it.</p><p>Because the account originates with NSF News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is more measurement, tighter systematic control and scrutiny from groups whose experimental setups are genuinely independent. In experimental particle physics and precision metrology, the threshold for a discovery claim is a five-sigma excess surviving multiple analyses; an intriguing signal at lower significance is a reason to run more experiments, not a reason to revise the textbooks. Next-generation experiments currently under construction or commissioning will revisit several of the open questions that give the current result its context.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-stands-2-materials-innovation-platforms-50m-investment\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Em foco: A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de",
-      "Detalhe: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: A Fundação Nacional de Ciência dos EUA está investindo US$ 50 milhões em infraestrutura de pesquisa para permitir a descoberta e o desenvolvimento de",
-      "Detalhe: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: The U. S",
-      "Detail: Core point: The U. S",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "03 ago 2026",
-    "date_pt": "03 ago 2026",
-    "date_en": "03 Aug 2026",
-    "time": "14h00",
-    "time_pt": "14h00",
-    "time_en": "14: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-03T14:00:50+00:00",
-    "lastModifiedIso": "2026-08-03T17:45:08+00:00",
-    "source": "NSF News",
-    "sourceDomain": "www. nsf. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Física",
-      "NSF News",
-      "Cosmos Week",
-      "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões"
-    ],
-    "keywords_pt": [
-      "Física",
-      "NSF News",
-      "Cosmos Week",
-      "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões"
-    ],
-    "keywords_en": [
-      "Physical",
-      "NSF News",
-      "Cosmos Week",
-      "NSF raises 2 materials innovation platforms with investment of US$50 million"
-    ],
-    "srcUrl": "https://www.nsf.gov/news/nsf-stands-2-materials-innovation-platforms-50m-investment",
-    "realUrl": "https://www.cosmosweek.com/?article=nsf-stands-up-2-materials-innovation-platforms-with-50m-investment",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nsf-stands-up-2-materials-innovation-platforms-with-50m-investment",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nsf-stands-up-2-materials-innovation-platforms-with-50m-investment&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nsf-stands-up-2-materials-innovation-platforms-with-50m-investment/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 93,
-    "scoreBreakdown": {
-      "source": 91,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 42,
-      "novelty": 55
-    },
-    "imageAlt": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
-    "imageAlt_pt": "NSF levanta 2 plataformas de inovação de materiais com investimento de US$ 50 milhões",
-    "imageAlt_en": "NSF stands up 2 Materials Innovation Platforms with $50M investment",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
@@ -4899,17 +4904,17 @@
     "body_en": "<p>Rising stream temperatures may be weakening the foundation of river food webs by altering how carbon moves through these watery ecosystems. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. In a new study published in the journal Ecosphere, researchers from Northern Arizona University found that when water temperatures increase, microbes and aquatic insects process. This article has been reviewed according to Science X&#x27;s editorial process and policies.</p><p>The findings point to a shift in how river ecosystems retain energy under warming conditions, with implications for plants and animals in rivers across the western United States. To examine how warming affects river processes, the NAU researchers built a controlled stream system at The Arboretum at Flagstaff, constructing 48 flow-through mini stream.</p><p>Using pond water, they manipulated the water temperature while maintaining natural light and water chemistry, simulating a range of stream conditions over two years. This system let us manipulate temperature while keeping everything else as close to a real stream as possible, which is critical for understanding how these processes actually.</p><p>Within this system, the team used tracers to follow carbon from leaf litter, the primary energy source in many forested rivers, into microbes and caddisflies. By labeling leaves with a rare form of carbon, they directly measured how much carbon was retained as biomass, how much of it was released into the water and air as CO₂, and how.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Together, these patterns indicate that warming releases more carbon into the atmosphere and converts less carbon into biomass. Even when consumption increases, the system becomes less efficient, more carbon goes to respiration and less to building the food web,&quot; said Jane Marks, professor in the.</p><p>Because the account originates with Phys. org Biology, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-warmer-streams-river-food-webs.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se.",
-      "Dado-chave: O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se",
+      "Dado-chave: O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
       "Ponto central: O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se.",
-      "Dado-chave: O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono se",
+      "Dado-chave: O aumento da temperatura dos cursos de água pode estar enfraquecendo a base das cadeias alimentares fluviais, alterando a forma como o carbono.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
       "Core point: Rising stream temperatures may be weakening the foundation of river food webs by altering how carbon moves through these watery ecosystems.",
-      "Key detail: Rising stream temperatures may be weakening the foundation of river food webs by altering how carbon moves through these watery ecosystems",
+      "Key detail: Rising stream temperatures may be weakening the foundation of river food webs by altering how carbon moves through these watery ecosystems.",
       "Science reporting: verify primary technical documentation."
     ],
     "date": "17 abr 2026",
