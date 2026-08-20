@@ -1,6 +1,688 @@
 [
   {
     "id": 1,
+    "slug": "the-view-from-above-the-gemini-visual-acuity-experiments",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://images-assets.nasa.gov/image/s65-45683/s65-45683~large.jpg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/landsat/homepage/PersianGulf_Gemini_L8-2000x1296.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/playing-the-moon-game-/tenthousandsmokes_oli2_20250929_th.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/missions/landsat/landsat-1-3-mission-pages/Fig1.24_TOPRIGHT_Yosemite.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+        "alt": "Satélite de tecnologia de recursos terrestres",
+        "alt_pt": "Satélite de tecnologia de recursos terrestres",
+        "alt_en": "Earth Resources Technology Satellite",
+        "caption": "Satélite de tecnologia de recursos terrestres",
+        "caption_pt": "Satélite de tecnologia de recursos terrestres",
+        "caption_en": "Earth Resources Technology Satellite"
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/landsat/landsat-1-3-mission-pages/Landsat-1-First-Light-Detail.png",
+        "alt": "Satélite de tecnologia de recursos terrestres",
+        "alt_pt": "Satélite de tecnologia de recursos terrestres",
+        "alt_en": "Earth Resources Technology Satellite",
+        "caption": "Satélite de tecnologia de recursos terrestres",
+        "caption_pt": "Satélite de tecnologia de recursos terrestres",
+        "caption_en": "Earth Resources Technology Satellite"
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/landsat/landsat-1-3-mission-pages/iiif-service_gmd_gmd384_g3842_g3842c_ct008659-full-pct_12.5-0-default.jpg",
+        "alt": "Satélite de tecnologia de recursos terrestres",
+        "alt_pt": "Satélite de tecnologia de recursos terrestres",
+        "alt_en": "Earth Resources Technology Satellite",
+        "caption": "Satélite de tecnologia de recursos terrestres",
+        "caption_pt": "Satélite de tecnologia de recursos terrestres",
+        "caption_en": "Earth Resources Technology Satellite"
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "A visão de cima: os experimentos de acuidade visual Gemini",
+    "title_pt": "A visão de cima: os experimentos de acuidade visual Gemini",
+    "title_en": "The View from Above: The Gemini Visual Acuity Experiments",
+    "sub": "O astronauta da NASA L. Gordon Cooper Jr. tirou 29 fotografias coloridas da Terra com uma câmera de 70 mm enquanto orbitava nosso planeta durante a missão Mercury-Atlas 9 em maio.",
+    "sub_pt": "O astronauta da NASA L. Gordon Cooper Jr. tirou 29 fotografias coloridas da Terra com uma câmera de 70 mm enquanto orbitava nosso planeta durante a missão Mercury-Atlas 9 em maio.",
+    "sub_en": "NASA astronaut L. Gordon Cooper, Jr. took 29 color photographs of the Earth with a 70mm camera as he orbited our planet during the Mercury-Atlas 9 mission in May 1963.",
+    "excerpt": "O astronauta da NASA L. Gordon Cooper Jr. tirou 29 fotografias coloridas da Terra com uma câmera de 70 mm enquanto orbitava nosso planeta durante a missão Mercury-Atlas 9 em maio de 1963.",
+    "excerpt_pt": "O astronauta da NASA L. Gordon Cooper Jr. tirou 29 fotografias coloridas da Terra com uma câmera de 70 mm enquanto orbitava nosso planeta durante a missão Mercury-Atlas 9 em maio de 1963.",
+    "excerpt_en": "NASA astronaut L. Gordon Cooper, Jr. took 29 color photographs of the Earth with a 70mm camera as he orbited our planet during the Mercury-Atlas 9 mission in May 1963.",
+    "highlights": [
+      "Em foco: O astronauta da NASA L. Gordon Cooper Jr",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: O astronauta da NASA L. Gordon Cooper Jr",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: NASA astronaut L. Gordon Cooper, Jr",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "20 ago 2026",
+    "date_pt": "20 ago 2026",
+    "date_en": "20 Aug 2026",
+    "time": "14h30",
+    "time_pt": "14h30",
+    "time_en": "14: 30 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-20T14:30:00+00:00",
+    "lastModifiedIso": "2026-08-20T16:19:57+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "A visão de cima",
+      "os experimentos de acuidade visual Gemini"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "A visão de cima",
+      "os experimentos de acuidade visual Gemini"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA News Releases",
+      "Cosmos Week",
+      "The view from above",
+      "the Gemini visual acuity experiments"
+    ],
+    "srcUrl": "https://www.nasa.gov/history/the-view-from-above-the-gemini-visual-acuity-experiments/",
+    "realUrl": "https://www.cosmosweek.com/?article=the-view-from-above-the-gemini-visual-acuity-experiments",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=the-view-from-above-the-gemini-visual-acuity-experiments",
+    "realUrl_en": "https://www.cosmosweek.com/?article=the-view-from-above-the-gemini-visual-acuity-experiments&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/the-view-from-above-the-gemini-visual-acuity-experiments/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/the-view-from-above-the-gemini-visual-acuity-experiments/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/the-view-from-above-the-gemini-visual-acuity-experiments/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/the-view-from-above-the-gemini-visual-acuity-experiments/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/the-view-from-above-the-gemini-visual-acuity-experiments/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/the-view-from-above-the-gemini-visual-acuity-experiments/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 86,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "A visão de cima: os experimentos de acuidade visual Gemini",
+    "imageAlt_pt": "A visão de cima: os experimentos de acuidade visual Gemini",
+    "imageAlt_en": "The View from Above: The Gemini Visual Acuity Experiments",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/articles/2026/Washington_water_extremes.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
+    "inline_images": [],
+    "video": {
+      "kind": "file",
+      "platform": "html5",
+      "embedUrl": "",
+      "fileUrl": "https://assets.science.nasa.gov/content/dam/science/esd/articles/2026/SnowDrought4k_WithComparison_Update.mp4",
+      "poster": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/articles/2026/washing_water_extremes2.png?w=3840&h=1920&fit=clip&crop=faces%2Cfocalpoint",
+      "title": "Dados da NASA alimentam previsões de rios enquanto os efeitos da seca na neve persistem - NASA Science",
+      "title_pt": "Dados da NASA alimentam previsões de rios enquanto os efeitos da seca na neve persistem - NASA Science",
+      "title_en": "NASA Data Feeds River Forecasts as Snow Drought Effects Linger - NASA Science",
+      "caption": "Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança pública no estado de Washington.",
+      "caption_pt": "Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança pública no estado de Washington.",
+      "caption_en": "NASA Earth science data is supporting machine-learning forecasts that inform decisions about water, power, and public safety in Washington state.",
+      "sourcePage": "https://science.nasa.gov/centers-and-facilities/goddard/nasa-river-forecasts-snow-drought/"
+    },
+    "audio": null,
+    "title": "Dados da NASA alimentam previsões do rio enquanto os efeitos da seca na neve persistem",
+    "title_pt": "Dados da NASA alimentam previsões do rio enquanto os efeitos da seca na neve persistem",
+    "title_en": "NASA Data Feeds River Forecasts as Snow Drought Effects Linger",
+    "sub": "Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança pública no estado de Washington.",
+    "sub_pt": "Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança pública no estado de Washington.",
+    "sub_en": "NASA Earth science data is supporting machine-learning forecasts that inform decisions about water, power, and public safety in Washington state.",
+    "excerpt": "Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança pública no estado de Washington.",
+    "excerpt_pt": "Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança pública no estado de Washington.",
+    "excerpt_en": "NASA Earth science data is supporting machine-learning forecasts that inform decisions about water, power, and public safety in Washington state.",
+    "highlights": [
+      "Em foco: Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: NASA Earth science data is supporting machine-learning forecasts that inform decisions about water, power, and public safety in Washington state",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "20 ago 2026",
+    "date_pt": "20 ago 2026",
+    "date_en": "20 Aug 2026",
+    "time": "14h12",
+    "time_pt": "14h12",
+    "time_en": "14: 12 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-20T14:12:09+00:00",
+    "lastModifiedIso": "2026-08-20T16:19:57+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Dados da NASA alimentam previsões do rio enquanto os efeitos da seca na neve persistem"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Dados da NASA alimentam previsões do rio enquanto os efeitos da seca na neve persistem"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA Data Fuels River Forecasts as Snow Drought Effects Persist"
+    ],
+    "srcUrl": "https://science.nasa.gov/centers-and-facilities/goddard/nasa-river-forecasts-snow-drought/",
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Dados da NASA alimentam previsões do rio enquanto os efeitos da seca na neve persistem",
+    "imageAlt_pt": "Dados da NASA alimentam previsões do rio enquanto os efeitos da seca na neve persistem",
+    "imageAlt_en": "NASA Data Feeds River Forecasts as Snow Drought Effects Linger",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
+    "slug": "human-related-microbes-may-survive-moon-s-south-pole-nasa-finds",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://assets.science.nasa.gov/content/dam/science/psd/ares/iss049e035512~orig.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/lunar-science/2023/09/133_lro_nearside.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": {
+      "kind": "file",
+      "platform": "html5",
+      "embedUrl": "",
+      "fileUrl": "https://assets.science.nasa.gov/content/dam/science/cds/svs/a000000/a004700/a004770/apollo_to_south_pole_2160p30.mp4",
+      "poster": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/ares/iss049e035512~orig.jpg?w=4928&h=3280&fit=clip&crop=faces%2Cfocalpoint",
+      "title": "Micróbios relacionados com humanos podem sobreviver ao Pólo Sul da Lua, descobre a NASA - NASA Science",
+      "title_pt": "Micróbios relacionados com humanos podem sobreviver ao Pólo Sul da Lua, descobre a NASA - NASA Science",
+      "title_en": "Human-Related Microbes May Survive Moon’s South Pole, NASA Finds - NASA Science",
+      "caption": "Alguns dos micróbios da Terra que provavelmente pegarão carona para o espaço com exploradores humanos poderiam sobreviver nos cantos e recantos sombreados da região do Pólo Sul da Lua, dizem os cientistas da NASA.",
+      "caption_pt": "Alguns dos micróbios da Terra que provavelmente pegarão carona para o espaço com exploradores humanos poderiam sobreviver nos cantos e recantos sombreados da região do Pólo Sul da Lua, dizem os cientistas da NASA.",
+      "caption_en": "Some of Earth’s microbes likely to hitch a ride to space with human explorers could survive in the shaded nooks and crannies of the Moon’s South Pole region, NASA scientists say.",
+      "sourcePage": "https://science.nasa.gov/humans-in-space/human-related-microbes-may-survive-moons-south-pole-nasa-finds/"
+    },
+    "audio": null,
+    "title": "Micróbios relacionados com humanos podem sobreviver ao Pólo Sul da Lua, descobre a NASA",
+    "title_pt": "Micróbios relacionados com humanos podem sobreviver ao Pólo Sul da Lua, descobre a NASA",
+    "title_en": "Human-Related Microbes May Survive Moon’s South Pole, NASA Finds",
+    "sub": "Lee esta história em espanhol aqui. Alguns dos micróbios da Terra que provavelmente pegarão carona para o espaço com exploradores humanos poderiam sobreviver nos cantos e recantos.",
+    "sub_pt": "Lee esta história em espanhol aqui. Alguns dos micróbios da Terra que provavelmente pegarão carona para o espaço com exploradores humanos poderiam sobreviver nos cantos e recantos.",
+    "sub_en": "Lee esta historia en español aquí. Some of Earth’s microbes likely to hitch a ride to space with human explorers could survive in the shaded nooks and crannies of the Moon’s South.",
+    "excerpt": "Lee esta história em espanhol aqui. Alguns dos micróbios da Terra que provavelmente pegarão carona para o espaço com exploradores humanos poderiam sobreviver nos cantos e recantos sombreados da região do Pólo Sul da Lua, dizem os cientistas da NASA.",
+    "excerpt_pt": "Lee esta história em espanhol aqui. Alguns dos micróbios da Terra que provavelmente pegarão carona para o espaço com exploradores humanos poderiam sobreviver nos cantos e recantos sombreados da região do Pólo Sul da Lua, dizem os cientistas da NASA.",
+    "excerpt_en": "Lee esta historia en español aquí. Some of Earth’s microbes likely to hitch a ride to space with human explorers could survive in the shaded nooks and crannies of the Moon’s South Pole region, NASA scientists say.",
+    "highlights": [
+      "Em foco: Lee esta história em espanhol aqui",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Lee esta história em espanhol aqui",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Lee esta historia en español aquí",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "19 ago 2026",
+    "date_pt": "19 ago 2026",
+    "date_en": "19 Aug 2026",
+    "time": "18h02",
+    "time_pt": "18h02",
+    "time_en": "18: 02 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-19T18:02:40+00:00",
+    "lastModifiedIso": "2026-08-20T16:19:57+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Micróbios relacionados com humanos podem sobreviver ao Pólo Sul da Lua",
+      "descobre a NASA"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Micróbios relacionados com humanos podem sobreviver ao Pólo Sul da Lua",
+      "descobre a NASA"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Human-related microbes may survive the Moon's South Pole",
+      "discover NASA"
+    ],
+    "srcUrl": "https://science.nasa.gov/humans-in-space/human-related-microbes-may-survive-moons-south-pole-nasa-finds/",
+    "realUrl": "https://www.cosmosweek.com/?article=human-related-microbes-may-survive-moon-s-south-pole-nasa-finds",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=human-related-microbes-may-survive-moon-s-south-pole-nasa-finds",
+    "realUrl_en": "https://www.cosmosweek.com/?article=human-related-microbes-may-survive-moon-s-south-pole-nasa-finds&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/human-related-microbes-may-survive-moon-s-south-pole-nasa-finds/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/human-related-microbes-may-survive-moon-s-south-pole-nasa-finds/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/human-related-microbes-may-survive-moon-s-south-pole-nasa-finds/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/human-related-microbes-may-survive-moon-s-south-pole-nasa-finds/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/human-related-microbes-may-survive-moon-s-south-pole-nasa-finds/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/human-related-microbes-may-survive-moon-s-south-pole-nasa-finds/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Micróbios relacionados com humanos podem sobreviver ao Pólo Sul da Lua, descobre a NASA",
+    "imageAlt_pt": "Micróbios relacionados com humanos podem sobreviver ao Pólo Sul da Lua, descobre a NASA",
+    "imageAlt_en": "Human-Related Microbes May Survive Moon’s South Pole, NASA Finds",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 4,
+    "slug": "milky-way-s-fastest-star-orbits-our-supermassive-black-hole-so-closely-it-feels-its-spin",
+    "cat": "Astrofísica",
+    "catCls": "astrofisica",
+    "img": "https://cdn.eso.org/images/screen/eso2612a.jpg",
+    "inline_images": [
+      {
+        "src": "https://cdn.eso.org/images/news/eso2612a.jpg",
+        "alt": "Imagens do VLT da estrela S301 em órbita de Sagitário A*",
+        "alt_pt": "Imagens do VLT da estrela S301 em órbita de Sagitário A*",
+        "alt_en": "VLT images of the S301 star orbiting Sagittarius A*",
+        "caption": "Imagens do VLT da estrela S301 em órbita de Sagitário A*",
+        "caption_pt": "Imagens do VLT da estrela S301 em órbita de Sagitário A*",
+        "caption_en": "VLT images of the S301 star orbiting Sagittarius A*"
+      },
+      {
+        "src": "https://cdn.eso.org/images/news/eso2612b.jpg",
+        "alt": "Imagens do VLT da estrela S301 em órbita de Sagitário A* (disposição quadrada)",
+        "alt_pt": "Imagens do VLT da estrela S301 em órbita de Sagitário A* (disposição quadrada)",
+        "alt_en": "VLT images of the S301 star orbiting Sagittarius A* (square layout)",
+        "caption": "Imagens do VLT da estrela S301 em órbita de Sagitário A* (disposição quadrada)",
+        "caption_pt": "Imagens do VLT da estrela S301 em órbita de Sagitário A* (disposição quadrada)",
+        "caption_en": "VLT images of the S301 star orbiting Sagittarius A* (square layout)"
+      },
+      {
+        "src": "https://cdn.eso.org/images/news/eso2612c.jpg",
+        "alt": "Imagens do VLT de S301 e outras estrelas S orbitando Sagitário A*",
+        "alt_pt": "Imagens do VLT de S301 e outras estrelas S orbitando Sagitário A*",
+        "alt_en": "VLT images of S301 and other S-stars orbiting Sagittarius A*",
+        "caption": "Imagens do VLT de S301 e outras estrelas S orbitando Sagitário A*",
+        "caption_pt": "Imagens do VLT de S301 e outras estrelas S orbitando Sagitário A*",
+        "caption_en": "VLT images of S301 and other S-stars orbiting Sagittarius A*"
+      },
+      {
+        "src": "https://cdn.eso.org/images/news/eso2612d.jpg",
+        "alt": "Ilustração do efeito Lense-Thirring",
+        "alt_pt": "Ilustração do efeito Lense-Thirring",
+        "alt_en": "Illustration of the Lense-Thirring effect",
+        "caption": "Ilustração do efeito Lense-Thirring",
+        "caption_pt": "Ilustração do efeito Lense-Thirring",
+        "caption_en": "Illustration of the Lense-Thirring effect"
+      },
+      {
+        "src": "https://cdn.eso.org/images/news/eso2612e.jpg",
+        "alt": "Efeito de um buraco negro giratório na órbita da estrela S301",
+        "alt_pt": "Efeito de um buraco negro giratório na órbita da estrela S301",
+        "alt_en": "Effect of a spinning black hole on the orbit of the S301 star",
+        "caption": "Efeito de um buraco negro giratório na órbita da estrela S301",
+        "caption_pt": "Efeito de um buraco negro giratório na órbita da estrela S301",
+        "caption_en": "Effect of a spinning black hole on the orbit of the S301 star"
+      },
+      {
+        "src": "https://cdn.eso.org/images/news/eso0949l.jpg",
+        "alt": "Visão ampla do centro da Via Láctea",
+        "alt_pt": "Visão ampla do centro da Via Láctea",
+        "alt_en": "Wide-field view of the centre of the Milky Way",
+        "caption": "Visão ampla do centro da Via Láctea",
+        "caption_pt": "Visão ampla do centro da Via Láctea",
+        "caption_en": "Wide-field view of the centre of the Milky Way"
+      },
+      {
+        "src": "https://cdn.eso.org/images/news/eso1835b.jpg",
+        "alt": "Sagitário A* na constelação de Sagitário",
+        "alt_pt": "Sagitário A* na constelação de Sagitário",
+        "alt_en": "Sagittarius A* in the constellation of Sagittarius",
+        "caption": "Sagitário A* na constelação de Sagitário",
+        "caption_pt": "Sagitário A* na constelação de Sagitário",
+        "caption_en": "Sagittarius A* in the constellation of Sagittarius"
+      },
+      {
+        "src": "https://cdn.eso.org/images/news/potw2610a.jpg",
+        "alt": "Esta imagem tem um fundo preto no qual são visíveis milhares de fontes de luz. Algumas dessas estrelas estão mais próximas e outras mais distantes, parecendo simples pontos brancos no céu noturno.",
+        "alt_pt": "Esta imagem tem um fundo preto no qual são visíveis milhares de fontes de luz. Algumas dessas estrelas estão mais próximas e outras mais distantes, parecendo simples pontos brancos no céu noturno.",
+        "alt_en": "This image has a black background in which some thousands of light sources are visible. Some of these stars are closer and some are further away, looking like simple white dots on the night sky.",
+        "caption": "Esta imagem tem um fundo preto no qual são visíveis milhares de fontes de luz. Algumas dessas estrelas estão mais próximas e outras mais distantes, parecendo simples pontos brancos no céu noturno.",
+        "caption_pt": "Esta imagem tem um fundo preto no qual são visíveis milhares de fontes de luz. Algumas dessas estrelas estão mais próximas e outras mais distantes, parecendo simples pontos brancos no céu noturno.",
+        "caption_en": "This image has a black background in which some thousands of light sources are visible. Some of these stars are closer and some are further away, looking like simple white dots on the night sky."
+      },
+      {
+        "src": "https://cdn.eso.org/videos/news/eso2612b.jpg",
+        "alt": "Lapso de tempo da estrela S301 orbitando Sagitário A*",
+        "alt_pt": "Lapso de tempo da estrela S301 orbitando Sagitário A*",
+        "alt_en": "Time-lapse of the S301 star orbiting Sagittarius A*",
+        "caption": "Lapso de tempo da estrela S301 orbitando Sagitário A*",
+        "caption_pt": "Lapso de tempo da estrela S301 orbitando Sagitário A*",
+        "caption_en": "Time-lapse of the S301 star orbiting Sagittarius A*"
+      },
+      {
+        "src": "https://cdn.eso.org/videos/news/eso2612c.jpg",
+        "alt": "Efeito de um buraco negro giratório na órbita da estrela S301",
+        "alt_pt": "Efeito de um buraco negro giratório na órbita da estrela S301",
+        "alt_en": "Effect of a spinning black hole on the orbit of the S301 star",
+        "caption": "Efeito de um buraco negro giratório na órbita da estrela S301",
+        "caption_pt": "Efeito de um buraco negro giratório na órbita da estrela S301",
+        "caption_en": "Effect of a spinning black hole on the orbit of the S301 star"
+      },
+      {
+        "src": "https://cdn.eso.org/videos/news/eso2612d.jpg",
+        "alt": "Animação do efeito Lense-Thirring",
+        "alt_pt": "Animação do efeito Lense-Thirring",
+        "alt_en": "Animation of the Lense-Thirring effect",
+        "caption": "Animação do efeito Lense-Thirring",
+        "caption_pt": "Animação do efeito Lense-Thirring",
+        "caption_en": "Animation of the Lense-Thirring effect"
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/eso0949l.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": {
+      "kind": "file",
+      "platform": "html5",
+      "embedUrl": "",
+      "fileUrl": "https://cdn.eso.org/videos/medium_podcast/eso2612a.mp4",
+      "poster": "https://cdn.eso.org/videos/videoframe/eso2612a.jpg",
+      "title": "",
+      "title_pt": "",
+      "title_en": "",
+      "caption": "",
+      "caption_pt": "",
+      "caption_en": "",
+      "sourcePage": "https://www.eso.org/public/videos/eso2612a/"
+    },
+    "audio": null,
+    "title": "A estrela mais rápida da Via Láctea orbita o nosso buraco negro supermassivo tão perto que sente a sua rotação",
+    "title_pt": "A estrela mais rápida da Via Láctea orbita o nosso buraco negro supermassivo tão perto que sente a sua rotação",
+    "title_en": "Milky Way's fastest star orbits our supermassive black hole so closely it feels its spin",
+    "sub": "Os astrónomos descobriram a estrela mais rápida conhecida na nossa galáxia, a Via Láctea, orbitando o buraco negro no seu centro.",
+    "sub_pt": "Os astrónomos descobriram a estrela mais rápida conhecida na nossa galáxia, a Via Láctea, orbitando o buraco negro no seu centro.",
+    "sub_en": "Astronomers have discovered the fastest known star in our galaxy, the Milky Way, orbiting the black hole at its centre.",
+    "excerpt": "Os astrónomos descobriram a estrela mais rápida conhecida na nossa galáxia, a Via Láctea, orbitando o buraco negro no seu centro. A estrela, chamada S301, foi detectada com o Interferômetro do Very Large Telescope do Observatório Europeu do Sul e.",
+    "excerpt_pt": "Os astrónomos descobriram a estrela mais rápida conhecida na nossa galáxia, a Via Láctea, orbitando o buraco negro no seu centro. A estrela, chamada S301, foi detectada com o Interferômetro do Very Large Telescope do Observatório Europeu do Sul e.",
+    "excerpt_en": "Astronomers have discovered the fastest known star in our galaxy, the Milky Way, orbiting the black hole at its centre. The star, named S301, was detected with the European Southern Observatory’s Very Large Telescope Interferometer and.",
+    "highlights": [
+      "Em foco: Os astrónomos descobriram a estrela mais rápida conhecida na nossa galáxia, a Via Láctea, orbitando o buraco negro no seu centro",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Os astrónomos descobriram a estrela mais rápida conhecida na nossa galáxia, a Via Láctea, orbitando o buraco negro no seu centro",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Astronomers have discovered the fastest known star in our galaxy, the Milky Way, orbiting the black hole at its centre",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "19 ago 2026",
+    "date_pt": "19 ago 2026",
+    "date_en": "19 Aug 2026",
+    "time": "15h00",
+    "time_pt": "15h00",
+    "time_en": "15: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-19T15:00:00+00:00",
+    "lastModifiedIso": "2026-08-20T16:19:57+00:00",
+    "source": "ESO Press Releases",
+    "sourceDomain": "www. eso. org",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astrofísica",
+      "ESO Press Releases",
+      "Cosmos Week",
+      "A estrela mais rápida da Via Láctea orbita o nosso buraco negro supermassivo tão perto que sente a sua rotação"
+    ],
+    "keywords_pt": [
+      "Astrofísica",
+      "ESO Press Releases",
+      "Cosmos Week",
+      "A estrela mais rápida da Via Láctea orbita o nosso buraco negro supermassivo tão perto que sente a sua rotação"
+    ],
+    "keywords_en": [
+      "Astrophysics",
+      "ESO Press Releases",
+      "Cosmos Week",
+      "The fastest star in the Milky Way orbits our supermassive black hole so close it feels its rotation"
+    ],
+    "srcUrl": "https://www.eso.org/public/news/eso2612/",
+    "realUrl": "https://www.cosmosweek.com/?article=milky-way-s-fastest-star-orbits-our-supermassive-black-hole-so-closely-it-feels-its-spin",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=milky-way-s-fastest-star-orbits-our-supermassive-black-hole-so-closely-it-feels-its-spin",
+    "realUrl_en": "https://www.cosmosweek.com/?article=milky-way-s-fastest-star-orbits-our-supermassive-black-hole-so-closely-it-feels-its-spin&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/milky-way-s-fastest-star-orbits-our-supermassive-black-hole-so-closely-it-feels-its-spin/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/milky-way-s-fastest-star-orbits-our-supermassive-black-hole-so-closely-it-feels-its-spin/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/milky-way-s-fastest-star-orbits-our-supermassive-black-hole-so-closely-it-feels-its-spin/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/milky-way-s-fastest-star-orbits-our-supermassive-black-hole-so-closely-it-feels-its-spin/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/milky-way-s-fastest-star-orbits-our-supermassive-black-hole-so-closely-it-feels-its-spin/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/milky-way-s-fastest-star-orbits-our-supermassive-black-hole-so-closely-it-feels-its-spin/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 96,
+      "evidence": 86,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "A estrela mais rápida da Via Láctea orbita o nosso buraco negro supermassivo tão perto que sente a sua rotação",
+    "imageAlt_pt": "A estrela mais rápida da Via Láctea orbita o nosso buraco negro supermassivo tão perto que sente a sua rotação",
+    "imageAlt_en": "Milky Way's fastest star orbits our supermassive black hole so closely it feels its spin",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 5,
     "slug": "nasa-s-lro-images-falcon-9-crater-on-moon-learns-new-details",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -77,19 +759,19 @@
     "excerpt_pt": "Entre 11 e 12 de agosto, o Lunar Reconnaissance Orbiter da NASA capturou uma série de imagens de uma nova cratera na Lua. A cratera se formou em agosto.",
     "excerpt_en": "Between Aug. 11 and 12, NASA’s Lunar Reconnaissance Orbiter captured a series of images of a new crater on the Moon. The crater formed on Aug.",
     "highlights": [
-      "Em foco: Entre 11 e 12 de agosto, o Lunar Reconnaissance Orbiter da NASA capturou uma série de imagens de uma nova cratera na Lua",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Entre 11 e 12 de agosto, o Lunar Reconnaissance Orbiter da NASA capturou uma série de imagens de uma nova cratera na Lua.",
+      "Dado-chave: Entre 11 e 12 de agosto, o Lunar Reconnaissance Orbiter da NASA capturou uma série de imagens de uma nova cratera na Lua",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Entre 11 e 12 de agosto, o Lunar Reconnaissance Orbiter da NASA capturou uma série de imagens de uma nova cratera na Lua",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Entre 11 e 12 de agosto, o Lunar Reconnaissance Orbiter da NASA capturou uma série de imagens de uma nova cratera na Lua.",
+      "Dado-chave: Entre 11 e 12 de agosto, o Lunar Reconnaissance Orbiter da NASA capturou uma série de imagens de uma nova cratera na Lua",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Between Aug. 11 and 12, NASA’s Lunar Reconnaissance Orbiter captured a series of images of a new crater on the Moon",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Between Aug. 11 and 12, NASA’s Lunar Reconnaissance Orbiter captured a series of images of a new crater on the Moon.",
+      "Key detail: Between Aug. 11 and 12, NASA’s Lunar Reconnaissance Orbiter captured a series of images of a new crater on the Moon",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "18 ago 2026",
     "date_pt": "18 ago 2026",
@@ -177,7 +859,7 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 6,
     "slug": "spying-on-a-split-comet",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -323,7 +1005,7 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 7,
     "slug": "infrared-lines-from-sterile-neutrino-transition-magnetic-moments-at-jwst",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -341,18 +1023,19 @@
     "excerpt_pt": "Investigamos assinaturas de linhas infravermelhas de matéria escura de neutrinos estéreis em decomposição radiativa usando observações de céu branco JWST/NIRSpec IFU disponíveis publicamente.",
     "excerpt_en": "We investigate infrared line signatures from radiatively decaying sterile-neutrino dark matter using publicly available JWST/NIRSpec IFU blank-sky observations.",
     "highlights": [
-      "Em foco: Investigamos assinaturas de linhas infravermelhas de matéria escura de neutrinos estéreis em decomposição radiativa usando observações de céu branco",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Investigamos assinaturas de linhas infravermelhas de matéria escura de neutrinos estéreis em decomposição radiativa usando observações de céu branco.",
+      "Dado-chave: Investigamos assinaturas de linhas infravermelhas de matéria escura de neutrinos estéreis em decomposição radiativa usando observações de céu.",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Investigamos assinaturas de linhas infravermelhas de matéria escura de neutrinos estéreis em decomposição radiativa usando observações de céu branco",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Investigamos assinaturas de linhas infravermelhas de matéria escura de neutrinos estéreis em decomposição radiativa usando observações de céu branco.",
+      "Dado-chave: Investigamos assinaturas de linhas infravermelhas de matéria escura de neutrinos estéreis em decomposição radiativa usando observações de céu.",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: We investigate infrared line signatures from radiatively decaying sterile-neutrino dark matter using publicly available JWST/NIRSpec IFU blank-sky",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: We investigate infrared line signatures from radiatively decaying sterile-neutrino dark matter using publicly available JWST/NIRSpec IFU blank-sky.",
+      "Key detail: We investigate infrared line signatures from radiatively decaying sterile-neutrino dark matter using publicly available JWST/NIRSpec IFU.",
+      "Result not yet peer reviewed."
     ],
     "date": "18 ago 2026",
     "date_pt": "18 ago 2026",
@@ -443,144 +1126,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
-    "slug": "curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Global_Surface_Temperature_Anomalies_1880-2013.jpg/1280px-Global_Surface_Temperature_Anomalies_1880-2013.jpg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/psd/mars/resources/detail_files/2/5/25757_1-PIA24543-Curiositys-Selfie-at-Mont-Mercou-main-web.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Blog Curiosity, Sols 4975-4981: Feliz 14º aniversário de pouso",
-    "title_pt": "Blog Curiosity, Sols 4975-4981: Feliz 14º aniversário de pouso",
-    "title_en": "Curiosity Blog, Sols 4975-4981: Happy 14th Landing Anniversary",
-    "sub": "Por Susanne P. Schwenzer, professora de mineralogia planetária na The Open University, Reino Unido Data de planejamento da Terra: sexta-feira, 7 de agosto de 2026 Esta semana foi.",
-    "sub_pt": "Por Susanne P. Schwenzer, professora de mineralogia planetária na The Open University, Reino Unido Data de planejamento da Terra: sexta-feira, 7 de agosto de 2026 Esta semana foi.",
-    "sub_en": "By Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Friday, Aug.",
-    "excerpt": "Por Susanne P. Schwenzer, professora de mineralogia planetária na The Open University, Reino Unido Data de planejamento da Terra: sexta-feira, 7 de agosto de 2026 Esta semana foi muito especial para a equipe do Curiosity aqui na Terra, pois comemoramos o 14º.",
-    "excerpt_pt": "Por Susanne P. Schwenzer, professora de mineralogia planetária na The Open University, Reino Unido Data de planejamento da Terra: sexta-feira, 7 de agosto de 2026 Esta semana foi muito especial para a equipe do Curiosity aqui na Terra, pois comemoramos o 14º.",
-    "excerpt_en": "By Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Friday, Aug. 7, 2026 This week was very special for the Curiosity team here on Earth as we celebrated the 14th landing anniversary.",
-    "highlights": [
-      "Em foco: Por Susanne P",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: Por Susanne P",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: By Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Friday, Aug",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "17 ago 2026",
-    "date_pt": "17 ago 2026",
-    "date_en": "17 Aug 2026",
-    "time": "23h10",
-    "time_pt": "23h10",
-    "time_en": "23: 10 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-17T23:10:41+00:00",
-    "lastModifiedIso": "2026-08-18T16:17:59+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Blog Curiosity",
-      "Sols 4975",
-      "4981",
-      "Feliz 14º aniversário de pouso"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Blog Curiosity",
-      "Sols 4975",
-      "4981",
-      "Feliz 14º aniversário de pouso"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Blog Curiosity",
-      "Sols 4975",
-      "4981",
-      "Happy 14th anniversary of landing"
-    ],
-    "srcUrl": "https://science.nasa.gov/blog/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/",
-    "realUrl": "https://www.cosmosweek.com/?article=curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary",
-    "realUrl_en": "https://www.cosmosweek.com/?article=curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/curiosity-blog-sols-4975-4981-happy-14th-landing-anniversary/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Blog Curiosity, Sols 4975-4981: Feliz 14º aniversário de pouso",
-    "imageAlt_pt": "Blog Curiosity, Sols 4975-4981: Feliz 14º aniversário de pouso",
-    "imageAlt_en": "Curiosity Blog, Sols 4975-4981: Happy 14th Landing Anniversary",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 5,
+    "id": 8,
     "slug": "resolving-nearby-supermassive-black-holes-with-the-black-hole-explorer",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -598,18 +1144,19 @@
     "excerpt_pt": "Resultados recentes do Event Horizon Telescope demonstraram uma ciência única e transformadora na física gravitacional e na astrofísica de buracos negros, possibilitada por imagens em escala de horizonte de eventos de buracos negros supermassivos.",
     "excerpt_en": "Recent Event Horizon Telescope results have demonstrated unique and transformative science in gravitational physics and black hole astrophysics enabled by event-horizon-scale imaging of supermassive black holes.",
     "highlights": [
-      "Em foco: Resultados recentes do Event Horizon Telescope demonstraram uma ciência única e transformadora na física gravitacional e na astrofísica de buracos",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Resultados recentes do Event Horizon Telescope demonstraram uma ciência única e transformadora na física gravitacional e na astrofísica de buracos.",
+      "Dado-chave: Resultados recentes do Event Horizon Telescope demonstraram uma ciência única e transformadora na física gravitacional e na astrofísica de.",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Resultados recentes do Event Horizon Telescope demonstraram uma ciência única e transformadora na física gravitacional e na astrofísica de buracos",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Resultados recentes do Event Horizon Telescope demonstraram uma ciência única e transformadora na física gravitacional e na astrofísica de buracos.",
+      "Dado-chave: Resultados recentes do Event Horizon Telescope demonstraram uma ciência única e transformadora na física gravitacional e na astrofísica de.",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: Recent Event Horizon Telescope results have demonstrated unique and transformative science in gravitational physics and black hole astrophysics",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: Recent Event Horizon Telescope results have demonstrated unique and transformative science in gravitational physics and black hole astrophysics.",
+      "Key detail: Recent Event Horizon Telescope results have demonstrated unique and transformative science in gravitational physics and black hole astrophysics",
+      "Result not yet peer reviewed."
     ],
     "date": "17 ago 2026",
     "date_pt": "17 ago 2026",
@@ -697,326 +1244,7 @@
     "storyKind": "science"
   },
   {
-    "id": 6,
-    "slug": "nasa-challenge-tests-wheel-designs-for-moon-base-mobility",
-    "cat": "Cosmologia",
-    "catCls": "cosmologia",
-    "img": "https://www.nasa.gov/wp-content/uploads/2026/08/jsc2026e406637.jpg",
-    "inline_images": [
-      {
-        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-1.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-2.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-3.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-4.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Desafio da NASA testa projetos de rodas para mobilidade da base lunar",
-    "title_pt": "Desafio da NASA testa projetos de rodas para mobilidade da base lunar",
-    "title_en": "NASA Challenge Tests Wheel Designs for Moon Base Mobility",
-    "sub": "À medida que a NASA se prepara para estabelecer a Base Lunar, o avanço da mobilidade na superfície será fundamental para ajudar as tripulações e os sistemas robóticos a viajarem.",
-    "sub_pt": "À medida que a NASA se prepara para estabelecer a Base Lunar, o avanço da mobilidade na superfície será fundamental para ajudar as tripulações e os sistemas robóticos a viajarem.",
-    "sub_en": "As NASA prepares to establish the Moon Base, advancing surface mobility will be key to helping crews and robotic systems travel farther across the lunar surface.",
-    "excerpt": "À medida que a NASA se prepara para estabelecer a Base Lunar, o avanço da mobilidade na superfície será fundamental para ajudar as tripulações e os sistemas robóticos a viajarem mais longe na superfície lunar.",
-    "excerpt_pt": "À medida que a NASA se prepara para estabelecer a Base Lunar, o avanço da mobilidade na superfície será fundamental para ajudar as tripulações e os sistemas robóticos a viajarem mais longe na superfície lunar.",
-    "excerpt_en": "As NASA prepares to establish the Moon Base, advancing surface mobility will be key to helping crews and robotic systems travel farther across the lunar surface.",
-    "highlights": [
-      "Ponto central: À medida que a NASA se prepara para estabelecer a Base Lunar, o avanço da mobilidade na superfície será fundamental para ajudar as tripulações e os.",
-      "Dado-chave: À medida que a NASA se prepara para estabelecer a Base Lunar, o avanço da mobilidade na superfície será fundamental para ajudar as tripulações e.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: À medida que a NASA se prepara para estabelecer a Base Lunar, o avanço da mobilidade na superfície será fundamental para ajudar as tripulações e os.",
-      "Dado-chave: À medida que a NASA se prepara para estabelecer a Base Lunar, o avanço da mobilidade na superfície será fundamental para ajudar as tripulações e.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: As NASA prepares to establish the Moon Base, advancing surface mobility will be key to helping crews and robotic systems travel farther across the.",
-      "Key detail: As NASA prepares to establish the Moon Base, advancing surface mobility will be key to helping crews and robotic systems travel farther across.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "17 ago 2026",
-    "date_pt": "17 ago 2026",
-    "date_en": "17 Aug 2026",
-    "time": "15h09",
-    "time_pt": "15h09",
-    "time_en": "15: 09 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-17T15:09:05+00:00",
-    "lastModifiedIso": "2026-08-17T16:10:03+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Cosmologia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Desafio da NASA testa projetos de rodas para mobilidade da base lunar"
-    ],
-    "keywords_pt": [
-      "Cosmologia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Desafio da NASA testa projetos de rodas para mobilidade da base lunar"
-    ],
-    "keywords_en": [
-      "Cosmology",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA challenge tests wheel designs for lunar base mobility"
-    ],
-    "srcUrl": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-challenge-tests-wheel-designs-for-moon-base-mobility/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-challenge-tests-wheel-designs-for-moon-base-mobility",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-challenge-tests-wheel-designs-for-moon-base-mobility",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-challenge-tests-wheel-designs-for-moon-base-mobility&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-challenge-tests-wheel-designs-for-moon-base-mobility/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-challenge-tests-wheel-designs-for-moon-base-mobility/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-challenge-tests-wheel-designs-for-moon-base-mobility/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-challenge-tests-wheel-designs-for-moon-base-mobility/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-challenge-tests-wheel-designs-for-moon-base-mobility/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-challenge-tests-wheel-designs-for-moon-base-mobility/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": true,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 86,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Desafio da NASA testa projetos de rodas para mobilidade da base lunar",
-    "imageAlt_pt": "Desafio da NASA testa projetos de rodas para mobilidade da base lunar",
-    "imageAlt_en": "NASA Challenge Tests Wheel Designs for Moon Base Mobility",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 7,
-    "slug": "hubble-solves-merger-mystery-from-milky-way-s-early-years",
-    "cat": "Biologia",
-    "catCls": "biologia",
-    "img": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/08/STScI-01KZ4N4D8G9AK26CF28HD5NT5N.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/08/STScI-01KZ4N4D8G9AK26CF28HD5NT5N.png/jcr:content/renditions/Full-res-Artists-Concept-watermarked-For-Print.tif",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/08/STScI-01KZ4N4D8G9AK26CF28HD5NT5N.png",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/08/STScI-01KZ4N4D8G9AK26CF28HD5NT5N.png/jcr:content/renditions/Full-res-For-Display.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/08/STScI-01KZ4N4D8G9AK26CF28HD5NT5N.png/jcr:content/renditions/Full-res-For-Print.tif",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/08/STScI-01KZ4N4D8G9AK26CF28HD5NT5N.png/jcr:content/renditions/For-Display-Half-Res.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Hubble resolve o mistério da fusão desde os primeiros anos da Via Láctea",
-    "title_pt": "Hubble resolve o mistério da fusão desde os primeiros anos da Via Láctea",
-    "title_en": "Hubble Solves Merger Mystery From Milky Way’s Early Years",
-    "sub": "Novos dados do Hubble mostram evidências definitivas de uma galáxia anã fundindo-se com a jovem Via Láctea nas primeiras fases da sua evolução.",
-    "sub_pt": "Novos dados do Hubble mostram evidências definitivas de uma galáxia anã fundindo-se com a jovem Via Láctea nas primeiras fases da sua evolução.",
-    "sub_en": "New Hubble data shows definitive evidence of a dwarf galaxy merging with the young Milky Way in the earliest phases of its evolution.",
-    "excerpt": "Novos dados do Hubble mostram evidências definitivas de uma galáxia anã fundindo-se com a jovem Via Láctea nas primeiras fases da sua evolução.",
-    "excerpt_pt": "Novos dados do Hubble mostram evidências definitivas de uma galáxia anã fundindo-se com a jovem Via Láctea nas primeiras fases da sua evolução.",
-    "excerpt_en": "New Hubble data shows definitive evidence of a dwarf galaxy merging with the young Milky Way in the earliest phases of its evolution.",
-    "highlights": [
-      "Ponto central: Novos dados do Hubble mostram evidências definitivas de uma galáxia anã fundindo-se com a jovem Via Láctea nas primeiras fases da sua evolução.",
-      "Dado-chave: Novos dados do Hubble mostram evidências definitivas de uma galáxia anã fundindo-se com a jovem Via Láctea nas primeiras fases da sua evolução.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Novos dados do Hubble mostram evidências definitivas de uma galáxia anã fundindo-se com a jovem Via Láctea nas primeiras fases da sua evolução.",
-      "Dado-chave: Novos dados do Hubble mostram evidências definitivas de uma galáxia anã fundindo-se com a jovem Via Láctea nas primeiras fases da sua evolução.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: New Hubble data shows definitive evidence of a dwarf galaxy merging with the young Milky Way in the earliest phases of its evolution.",
-      "Key detail: New Hubble data shows definitive evidence of a dwarf galaxy merging with the young Milky Way in the earliest phases of its evolution.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "17 ago 2026",
-    "date_pt": "17 ago 2026",
-    "date_en": "17 Aug 2026",
-    "time": "15h00",
-    "time_pt": "15h00",
-    "time_en": "15: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-17T15:00:11+00:00",
-    "lastModifiedIso": "2026-08-17T16:10:03+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Biologia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Hubble resolve o mistério da fusão desde os primeiros anos da Via Láctea"
-    ],
-    "keywords_pt": [
-      "Biologia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Hubble resolve o mistério da fusão desde os primeiros anos da Via Láctea"
-    ],
-    "keywords_en": [
-      "Biology",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Hubble solves merger mystery from the early years of the Milky Way"
-    ],
-    "srcUrl": "https://science.nasa.gov/missions/hubble/hubble-solves-merger-mystery-from-milky-ways-early-years/",
-    "realUrl": "https://www.cosmosweek.com/?article=hubble-solves-merger-mystery-from-milky-way-s-early-years",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=hubble-solves-merger-mystery-from-milky-way-s-early-years",
-    "realUrl_en": "https://www.cosmosweek.com/?article=hubble-solves-merger-mystery-from-milky-way-s-early-years&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/hubble-solves-merger-mystery-from-milky-way-s-early-years/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/hubble-solves-merger-mystery-from-milky-way-s-early-years/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/hubble-solves-merger-mystery-from-milky-way-s-early-years/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/hubble-solves-merger-mystery-from-milky-way-s-early-years/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/hubble-solves-merger-mystery-from-milky-way-s-early-years/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/hubble-solves-merger-mystery-from-milky-way-s-early-years/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": true,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Hubble resolve o mistério da fusão desde os primeiros anos da Via Láctea",
-    "imageAlt_pt": "Hubble resolve o mistério da fusão desde os primeiros anos da Via Láctea",
-    "imageAlt_en": "Hubble Solves Merger Mystery From Milky Way’s Early Years",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 8,
+    "id": 9,
     "slug": "nsf-announces-1-5b-for-foundational-research-to-drive-scientific-breakthroughs-for-american-tech",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1165,7 +1393,7 @@
     "storyKind": "science"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "hubble-gaia-solve-our-galaxy-s-merger-mystery",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1311,7 +1539,7 @@
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "science-release-hubble-solves-merger-mystery-from-milky-way-s-early-years",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1460,7 +1688,7 @@
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "a-look-back-at-the-2026-total-solar-eclipse",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1700,7 +1928,7 @@
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "stops-along-the-path-of-totality",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1837,7 +2065,7 @@
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "dust-and-water-spotted-close-to-giant-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1974,7 +2202,7 @@
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "the-quadratic-growth-of-krylov-spread-complexity-in-the-btz-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2092,7 +2320,7 @@
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2220,7 +2448,7 @@
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "how-the-tide-turns-at-the-mouth-of-the-elbe",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2366,7 +2594,7 @@
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "europe-s-forests-losing-more-biomass-since-2018",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2484,7 +2712,7 @@
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "the-paradox-of-lencois-maranhenses-national-park",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2621,7 +2849,7 @@
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "hydrognss-data-open-for-new-insights-into-earth-s-water",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2742,134 +2970,6 @@
     "imageAlt": "Dados HydroGNSS abertos para novos insights sobre a água da Terra",
     "imageAlt_pt": "Dados HydroGNSS abertos para novos insights sobre a água da Terra",
     "imageAlt_en": "HydroGNSS data open for new insights into Earth’s water",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 20,
-    "slug": "smos-salinity-could-offer-early-indicator-of-el-nino",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/pacific_ocean_salinity_june_2026/27397989-1-eng-GB/Pacific_Ocean_salinity_June_2026_card_full.jpg",
-    "inline_images": [
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/pacific_ocean_salinity_june_2026/27397989-1-eng-GB/Pacific_Ocean_salinity_June_2026_pillars.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "A salinidade do SMOS pode oferecer um indicador precoce do El Niño",
-    "title_pt": "A salinidade do SMOS pode oferecer um indicador precoce do El Niño",
-    "title_en": "SMOS salinity could offer early indicator of El Niño",
-    "sub": "À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas também a salinidade da superfície do.",
-    "sub_pt": "À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas também a salinidade da superfície do.",
-    "sub_en": "As the Pacific Ocean moves into an El Niño phase, scientists are monitoring changes in sea-surface temperature, but also sea-surface salinity, which is another key indicator of.",
-    "excerpt": "À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas também a salinidade da superfície do mar, que é outro indicador-chave deste fenómeno.",
-    "excerpt_pt": "À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas também a salinidade da superfície do mar, que é outro indicador-chave deste fenómeno.",
-    "excerpt_en": "As the Pacific Ocean moves into an El Niño phase, scientists are monitoring changes in sea-surface temperature, but also sea-surface salinity, which is another key indicator of this phenomenon.",
-    "highlights": [
-      "Ponto central: À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas também a.",
-      "Dado-chave: À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas também a.",
-      "Dado-chave: À medida que o Oceano Pacífico entra numa fase de El Niño, os cientistas monitorizam as alterações na temperatura da superfície do mar, mas.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: As the Pacific Ocean moves into an El Niño phase, scientists are monitoring changes in sea-surface temperature, but also sea-surface salinity, which.",
-      "Key detail: As the Pacific Ocean moves into an El Niño phase, scientists are monitoring changes in sea-surface temperature, but also sea-surface salinity.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "30 jul 2026",
-    "date_pt": "30 jul 2026",
-    "date_en": "30 Jul 2026",
-    "time": "07h20",
-    "time_pt": "07h20",
-    "time_en": "07: 20 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-07-30T07:20:00+00:00",
-    "lastModifiedIso": "2026-07-30T17:23:33+00:00",
-    "source": "ESA Space News",
-    "sourceDomain": "www. esa. int",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "ESA Space News",
-      "Cosmos Week",
-      "A salinidade do SMOS pode oferecer um indicador precoce do El Niño"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "ESA Space News",
-      "Cosmos Week",
-      "A salinidade do SMOS pode oferecer um indicador precoce do El Niño"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "ESA Space News",
-      "Cosmos Week",
-      "SMOS salinity may offer an early indicator of El Niño"
-    ],
-    "srcUrl": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/SMOS/SMOS_salinity_could_offer_early_indicator_of_El_Nino",
-    "realUrl": "https://www.cosmosweek.com/?article=smos-salinity-could-offer-early-indicator-of-el-nino",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=smos-salinity-could-offer-early-indicator-of-el-nino",
-    "realUrl_en": "https://www.cosmosweek.com/?article=smos-salinity-could-offer-early-indicator-of-el-nino&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/smos-salinity-could-offer-early-indicator-of-el-nino/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/smos-salinity-could-offer-early-indicator-of-el-nino/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/smos-salinity-could-offer-early-indicator-of-el-nino/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/smos-salinity-could-offer-early-indicator-of-el-nino/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/smos-salinity-could-offer-early-indicator-of-el-nino/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/smos-salinity-could-offer-early-indicator-of-el-nino/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 90,
-      "evidence": 86,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "A salinidade do SMOS pode oferecer um indicador precoce do El Niño",
-    "imageAlt_pt": "A salinidade do SMOS pode oferecer um indicador precoce do El Niño",
-    "imageAlt_en": "SMOS salinity could offer early indicator of El Niño",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
@@ -3249,186 +3349,6 @@
   },
   {
     "id": 23,
-    "slug": "faintest-planet-ever-imaged-from-earth-found-after-more-than-10-years-of-hide-and-seek",
-    "cat": "Exoplanetas",
-    "catCls": "exoplanetas",
-    "img": "https://cdn.eso.org/images/screen/eso2609a.jpg",
-    "inline_images": [
-      {
-        "src": "https://cdn.eso.org/images/news/eso2609a.jpg",
-        "alt": "Imagem do VLT do exoplaneta Beta Pictoris d",
-        "alt_pt": "Imagem do VLT do exoplaneta Beta Pictoris d",
-        "alt_en": "VLT image of the Beta Pictoris d exoplanet",
-        "caption": "Imagem do VLT do exoplaneta Beta Pictoris d",
-        "caption_pt": "Imagem do VLT do exoplaneta Beta Pictoris d",
-        "caption_en": "VLT image of the Beta Pictoris d exoplanet"
-      },
-      {
-        "src": "https://cdn.eso.org/images/news/eso2609b.jpg",
-        "alt": "O exoplaneta Beta Pictoris d observado ao longo dos anos",
-        "alt_pt": "O exoplaneta Beta Pictoris d observado ao longo dos anos",
-        "alt_en": "The Beta Pictoris d exoplanet observed over the years",
-        "caption": "O exoplaneta Beta Pictoris d observado ao longo dos anos",
-        "caption_pt": "O exoplaneta Beta Pictoris d observado ao longo dos anos",
-        "caption_en": "The Beta Pictoris d exoplanet observed over the years"
-      },
-      {
-        "src": "https://cdn.eso.org/images/news/eso1408b.jpg",
-        "alt": "Mapa do céu ao redor de Beta Pictoris",
-        "alt_pt": "Mapa do céu ao redor de Beta Pictoris",
-        "alt_en": "Map of the sky around Beta Pictoris",
-        "caption": "Mapa do céu ao redor de Beta Pictoris",
-        "caption_pt": "Mapa do céu ao redor de Beta Pictoris",
-        "caption_en": "Map of the sky around Beta Pictoris"
-      },
-      {
-        "src": "https://cdn.eso.org/images/news/eso1024d.jpg",
-        "alt": "Em torno do Pintor Beta",
-        "alt_pt": "Em torno do Pintor Beta",
-        "alt_en": "Around Beta Pictoris",
-        "caption": "Em torno do Pintor Beta",
-        "caption_pt": "Em torno do Pintor Beta",
-        "caption_en": "Around Beta Pictoris"
-      },
-      {
-        "src": "https://cdn.eso.org/videos/news/eso2609a.jpg",
-        "alt": "Novo exoplaneta estava escondido há mais de 10 anos | Notícias do ESO",
-        "alt_pt": "Novo exoplaneta estava escondido há mais de 10 anos | Notícias do ESO",
-        "alt_en": "New exoplanet had been hiding for more than 10 years | ESO News",
-        "caption": "Novo exoplaneta estava escondido há mais de 10 anos | Notícias do ESO",
-        "caption_pt": "Novo exoplaneta estava escondido há mais de 10 anos | Notícias do ESO",
-        "caption_en": "New exoplanet had been hiding for more than 10 years | ESO News"
-      }
-    ],
-    "video": {
-      "kind": "file",
-      "platform": "html5",
-      "embedUrl": "",
-      "fileUrl": "https://cdn.eso.org/videos/medium_podcast/eso2609a.mp4",
-      "poster": "https://cdn.eso.org/videos/videoframe/eso2609a.jpg",
-      "title": "",
-      "title_pt": "",
-      "title_en": "",
-      "caption": "",
-      "caption_pt": "",
-      "caption_en": "",
-      "sourcePage": "https://www.eso.org/public/videos/eso2609a/"
-    },
-    "audio": null,
-    "title": "O planeta mais fraco já fotografado da Terra é encontrado após mais de 10 anos de esconde-esconde",
-    "title_pt": "O planeta mais fraco já fotografado da Terra é encontrado após mais de 10 anos de esconde-esconde",
-    "title_en": "Faintest planet ever imaged from Earth found after more than 10 years of hide-and-seek",
-    "sub": "Uma equipe de astrônomos descobriu um terceiro planeta orbitando a estrela Beta Pictoris. O novo planeta, Beta Pictoris d, é 100 vezes mais fraco que Beta Pictoris b, o primeiro.",
-    "sub_pt": "Uma equipe de astrônomos descobriu um terceiro planeta orbitando a estrela Beta Pictoris. O novo planeta, Beta Pictoris d, é 100 vezes mais fraco que Beta Pictoris b, o primeiro.",
-    "sub_en": "A team of astronomers have discovered a third planet orbiting the star Beta Pictoris. The new planet, Beta Pictoris d, is 100 times fainter than Beta Pictoris b, the first planet.",
-    "excerpt": "Uma equipe de astrônomos descobriu um terceiro planeta orbitando a estrela Beta Pictoris. O novo planeta, Beta Pictoris d, é 100 vezes mais fraco que Beta Pictoris b, o primeiro planeta descoberto no mesmo sistema, e está entre os mais leves.",
-    "excerpt_pt": "Uma equipe de astrônomos descobriu um terceiro planeta orbitando a estrela Beta Pictoris. O novo planeta, Beta Pictoris d, é 100 vezes mais fraco que Beta Pictoris b, o primeiro planeta descoberto no mesmo sistema, e está entre os mais leves.",
-    "excerpt_en": "A team of astronomers have discovered a third planet orbiting the star Beta Pictoris. The new planet, Beta Pictoris d, is 100 times fainter than Beta Pictoris b, the first planet discovered in the same system, and is among the lightest.",
-    "highlights": [
-      "Em foco: Uma equipe de astrônomos descobriu um terceiro planeta orbitando a estrela Beta Pictoris",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: Uma equipe de astrônomos descobriu um terceiro planeta orbitando a estrela Beta Pictoris",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: A team of astronomers have discovered a third planet orbiting the star Beta Pictoris",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "15 jul 2026",
-    "date_pt": "15 jul 2026",
-    "date_en": "15 Jul 2026",
-    "time": "12h00",
-    "time_pt": "12h00",
-    "time_en": "12: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-07-15T12:00:00+00:00",
-    "lastModifiedIso": "2026-07-15T17:08:55+00:00",
-    "source": "ESO Press Releases",
-    "sourceDomain": "www. eso. org",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Exoplanetas",
-      "ESO Press Releases",
-      "Cosmos Week",
-      "O planeta mais fraco já fotografado da Terra é encontrado após mais de 10 anos de esconde",
-      "esconde"
-    ],
-    "keywords_pt": [
-      "Exoplanetas",
-      "ESO Press Releases",
-      "Cosmos Week",
-      "O planeta mais fraco já fotografado da Terra é encontrado após mais de 10 anos de esconde",
-      "esconde"
-    ],
-    "keywords_en": [
-      "Exoplanets",
-      "ESO Press Releases",
-      "Cosmos Week",
-      "Earth's faintest planet ever photographed is found after more than 10 years of hiding",
-      "hide"
-    ],
-    "srcUrl": "https://www.eso.org/public/news/eso2609/",
-    "realUrl": "https://www.cosmosweek.com/?article=faintest-planet-ever-imaged-from-earth-found-after-more-than-10-years-of-hide-and-seek",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=faintest-planet-ever-imaged-from-earth-found-after-more-than-10-years-of-hide-and-seek",
-    "realUrl_en": "https://www.cosmosweek.com/?article=faintest-planet-ever-imaged-from-earth-found-after-more-than-10-years-of-hide-and-seek&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/faintest-planet-ever-imaged-from-earth-found-after-more-than-10-years-of-hide-and-seek/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/faintest-planet-ever-imaged-from-earth-found-after-more-than-10-years-of-hide-and-seek/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/faintest-planet-ever-imaged-from-earth-found-after-more-than-10-years-of-hide-and-seek/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/faintest-planet-ever-imaged-from-earth-found-after-more-than-10-years-of-hide-and-seek/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/faintest-planet-ever-imaged-from-earth-found-after-more-than-10-years-of-hide-and-seek/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/faintest-planet-ever-imaged-from-earth-found-after-more-than-10-years-of-hide-and-seek/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 96,
-      "evidence": 86,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "O planeta mais fraco já fotografado da Terra é encontrado após mais de 10 anos de esconde-esconde",
-    "imageAlt_pt": "O planeta mais fraco já fotografado da Terra é encontrado após mais de 10 anos de esconde-esconde",
-    "imageAlt_en": "Faintest planet ever imaged from Earth found after more than 10 years of hide-and-seek",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 24,
     "slug": "science-release-hubble-discovers-first-of-star-cluster-s-missing-black-holes",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -3604,7 +3524,7 @@
     "storyKind": "science"
   },
   {
-    "id": 25,
+    "id": 24,
     "slug": "older-than-the-sun-astronomers-find-new-clues-to-the-origin-of-interstellar-comet-3i-atlas",
     "cat": "Química",
     "catCls": "quimica",
@@ -3681,19 +3601,19 @@
     "excerpt_pt": "Os astrónomos usaram o Very Large Telescope do Observatório Europeu do Sul para estudar em detalhe a composição do 3I/ATLAS, o objeto interestelar mais brilhante alguma vez visto.",
     "excerpt_en": "Astronomers have used the European Southern Observatory's Very Large Telescope to study the composition of 3I/ATLAS, the brightest interstellar object ever seen, in detail.",
     "highlights": [
-      "Em foco: Os astrónomos usaram o Very Large Telescope do Observatório Europeu do Sul para estudar em detalhe a composição do 3I/ATLAS, o objeto interestelar",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Os astrónomos usaram o Very Large Telescope do Observatório Europeu do Sul para estudar em detalhe a composição do 3I/ATLAS, o objeto interestelar.",
+      "Dado-chave: Os astrónomos usaram o Very Large Telescope do Observatório Europeu do Sul para estudar em detalhe a composição do 3I/ATLAS, o objeto.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Os astrónomos usaram o Very Large Telescope do Observatório Europeu do Sul para estudar em detalhe a composição do 3I/ATLAS, o objeto interestelar",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Os astrónomos usaram o Very Large Telescope do Observatório Europeu do Sul para estudar em detalhe a composição do 3I/ATLAS, o objeto interestelar.",
+      "Dado-chave: Os astrónomos usaram o Very Large Telescope do Observatório Europeu do Sul para estudar em detalhe a composição do 3I/ATLAS, o objeto.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Astronomers have used the European Southern Observatory's Very Large Telescope to study the composition of 3I/ATLAS, the brightest interstellar",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Astronomers have used the European Southern Observatory's Very Large Telescope to study the composition of 3I/ATLAS, the brightest interstellar.",
+      "Key detail: Astronomers have used the European Southern Observatory's Very Large Telescope to study the composition of 3I/ATLAS, the brightest interstellar",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "06 jul 2026",
     "date_pt": "06 jul 2026",
@@ -3777,6 +3697,152 @@
     "imageAlt": "Mais velho que o Sol: Astrônomos encontram novas pistas sobre a origem do cometa interestelar 3I/ATLAS",
     "imageAlt_pt": "Mais velho que o Sol: Astrônomos encontram novas pistas sobre a origem do cometa interestelar 3I/ATLAS",
     "imageAlt_en": "Older than the Sun: Astronomers find new clues to the origin of interstellar comet 3I/ATLAS",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 25,
+    "slug": "surface-cubesat-contracted-for-ramses-asteroid-mission",
+    "cat": "Cosmologia",
+    "catCls": "cosmologia",
+    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/don_quijote_cubesat_around_dimorphos_asteroid/27361714-1-eng-GB/Don_Quijote_CubeSat_around_Dimorphos_asteroid_pillars.png",
+    "inline_images": [
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/emxys_cleanroom/27361855-1-eng-GB/EMXYS_cleanroom_article.jpg",
+        "alt": "Sala limpa EMXYS",
+        "alt_pt": "Sala limpa EMXYS",
+        "alt_en": "EMXYS cleanroom",
+        "caption": "Sala limpa EMXYS",
+        "caption_pt": "Sala limpa EMXYS",
+        "caption_en": "EMXYS cleanroom"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/04/asteroid_apophis/26021615-4-eng-GB/Asteroid_Apophis_article.jpg",
+        "alt": "Asteróide Apófis",
+        "alt_pt": "Asteróide Apófis",
+        "alt_en": "Asteroid Apophis",
+        "caption": "Asteróide Apófis",
+        "caption_pt": "Asteróide Apófis",
+        "caption_en": "Asteroid Apophis"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2025/03/esa_s_ramses_spacecraft/26600276-1-eng-GB/ESA_s_Ramses_spacecraft_article.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "CubeSat de Superfície Contratado para a Missão do Asteroide Ramsés",
+    "title_pt": "CubeSat de Superfície Contratado para a Missão do Asteroide Ramsés",
+    "title_en": "Surface CubeSat contracted for Ramses asteroid mission",
+    "sub": "A Agência Espacial Europeia (ESA) contratou a empresa espanhola EMXYS para desenvolver o primeiro CubeSat projetado para operar na superfície de um asteroide.",
+    "sub_pt": "A Agência Espacial Europeia (ESA) contratou a empresa espanhola EMXYS para desenvolver o primeiro CubeSat projetado para operar na superfície de um asteroide.",
+    "sub_en": "The European Space Agency has contracted Spanish company EMXYS for the first CubeSat designed to operate on the surface of an asteroid.",
+    "excerpt": "A Agência Espacial Europeia (ESA) contratou a empresa espanhola EMXYS para desenvolver o primeiro CubeSat projetado para operar na superfície de um asteroide.",
+    "excerpt_pt": "A Agência Espacial Europeia (ESA) contratou a empresa espanhola EMXYS para desenvolver o primeiro CubeSat projetado para operar na superfície de um asteroide.",
+    "excerpt_en": "The European Space Agency has contracted Spanish company EMXYS for the first CubeSat designed to operate on the surface of an asteroid.",
+    "highlights": [
+      "Ponto central: A Agência Espacial Europeia (ESA) contratou a empresa espanhola EMXYS para desenvolver o primeiro CubeSat projetado para operar na superfície de um.",
+      "Dado-chave: A Agência Espacial Europeia (ESA) contratou a empresa espanhola EMXYS para desenvolver o primeiro CubeSat projetado para operar na superfície de.",
+      "Origem institucional: distinguir anúncio de evidência."
+    ],
+    "highlights_pt": [
+      "Ponto central: A Agência Espacial Europeia (ESA) contratou a empresa espanhola EMXYS para desenvolver o primeiro CubeSat projetado para operar na superfície de um.",
+      "Dado-chave: A Agência Espacial Europeia (ESA) contratou a empresa espanhola EMXYS para desenvolver o primeiro CubeSat projetado para operar na superfície de.",
+      "Origem institucional: distinguir anúncio de evidência."
+    ],
+    "highlights_en": [
+      "Core point: The European Space Agency has contracted Spanish company EMXYS for the first CubeSat designed to operate on the surface of an asteroid.",
+      "Key detail: The European Space Agency has contracted Spanish company EMXYS for the first CubeSat designed to operate on the surface of an asteroid",
+      "Institutional origin: separate announcement from evidence."
+    ],
+    "date": "02 jul 2026",
+    "date_pt": "02 jul 2026",
+    "date_en": "02 Jul 2026",
+    "time": "10h16",
+    "time_pt": "10h16",
+    "time_en": "10: 16 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-07-02T10:16:00+00:00",
+    "lastModifiedIso": "2026-07-02T17:22:06+00:00",
+    "source": "ESA Space News",
+    "sourceDomain": "www. esa. int",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Cosmologia",
+      "ESA Space News",
+      "Cosmos Week",
+      "Surface CubeSat contratado para missão do asteroide Ramsés"
+    ],
+    "keywords_pt": [
+      "Cosmologia",
+      "ESA Space News",
+      "Cosmos Week",
+      "Surface CubeSat contratado para missão do asteroide Ramsés"
+    ],
+    "keywords_en": [
+      "Cosmology",
+      "ESA Space News",
+      "Cosmos Week",
+      "Surface CubeSat contracted for Ramses asteroid mission"
+    ],
+    "srcUrl": "https://www.esa.int/Space_Safety/Planetary_Defence/Surface_CubeSat_contracted_for_Ramses_asteroid_mission",
+    "realUrl": "https://www.cosmosweek.com/?article=surface-cubesat-contracted-for-ramses-asteroid-mission",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=surface-cubesat-contracted-for-ramses-asteroid-mission",
+    "realUrl_en": "https://www.cosmosweek.com/?article=surface-cubesat-contracted-for-ramses-asteroid-mission&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/surface-cubesat-contracted-for-ramses-asteroid-mission/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/surface-cubesat-contracted-for-ramses-asteroid-mission/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/surface-cubesat-contracted-for-ramses-asteroid-mission/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/surface-cubesat-contracted-for-ramses-asteroid-mission/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/surface-cubesat-contracted-for-ramses-asteroid-mission/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/surface-cubesat-contracted-for-ramses-asteroid-mission/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 90,
+      "evidence": 86,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "CubeSat de Superfície Contratado para a Missão do Asteroide Ramsés",
+    "imageAlt_pt": "CubeSat de Superfície Contratado para a Missão do Asteroide Ramsés",
+    "imageAlt_en": "Surface CubeSat contracted for Ramses asteroid mission",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
