@@ -1,6 +1,146 @@
 [
   {
     "id": 1,
+    "slug": "sentinel-1-captures-major-ice-loss-from-greenland-glacier",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/petermann_glacier_calves_huge_iceberg/27425701-1-eng-GB/Petermann_Glacier_calves_huge_iceberg_pillars.jpg",
+    "inline_images": [
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/sentinel-1_interferometry_highlights_fractures_of_petermann_ice_tongue/27425654-1-eng-GB/Sentinel-1_interferometry_highlights_fractures_of_Petermann_ice_tongue_article.jpg",
+        "alt": "A interferometria Sentinel-1 destaca fraturas da língua de gelo de Petermann",
+        "alt_pt": "A interferometria Sentinel-1 destaca fraturas da língua de gelo de Petermann",
+        "alt_en": "Sentinel-1 interferometry highlights fractures of Petermann ice tongue",
+        "caption": "A interferometria Sentinel-1 destaca fraturas da língua de gelo de Petermann",
+        "caption_pt": "A interferometria Sentinel-1 destaca fraturas da língua de gelo de Petermann",
+        "caption_en": "Sentinel-1 interferometry highlights fractures of Petermann ice tongue"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/size_of_new_iceberg_calved_from_petermann_glacier/27425607-1-eng-GB/Size_of_new_iceberg_calved_from_Petermann_Glacier_article.jpg",
+        "alt": "Tamanho do novo iceberg extraído da geleira Petermann",
+        "alt_pt": "Tamanho do novo iceberg extraído da geleira Petermann",
+        "alt_en": "Size of new iceberg calved from Petermann Glacier",
+        "caption": "Tamanho do novo iceberg extraído da geleira Petermann",
+        "caption_pt": "Tamanho do novo iceberg extraído da geleira Petermann",
+        "caption_en": "Size of new iceberg calved from Petermann Glacier"
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Sentinel-1 captura grande perda de gelo da geleira da Groenlândia",
+    "title_pt": "Sentinel-1 captura grande perda de gelo da geleira da Groenlândia",
+    "title_en": "Sentinel-1 captures major ice loss from Greenland glacier",
+    "sub": "A missão europeia Copernicus Sentinel-1 capturou uma mudança dramática no glaciar Petermann, no noroeste da Gronelândia, onde uma secção de 76 quilómetros quadrados da língua de.",
+    "sub_pt": "A missão europeia Copernicus Sentinel-1 capturou uma mudança dramática no glaciar Petermann, no noroeste da Gronelândia, onde uma secção de 76 quilómetros quadrados da língua de.",
+    "sub_en": "Europe’s Copernicus Sentinel-1 mission has captured a dramatic change at Petermann Glacier in northwest Greenland, where a 76 sq km section of the glacier’s floating ice tongue.",
+    "excerpt": "A missão europeia Copernicus Sentinel-1 capturou uma mudança dramática no glaciar Petermann, no noroeste da Gronelândia, onde uma secção de 76 quilómetros quadrados da língua de gelo flutuante do glaciar se separou em 4 de agosto de 2026.",
+    "excerpt_pt": "A missão europeia Copernicus Sentinel-1 capturou uma mudança dramática no glaciar Petermann, no noroeste da Gronelândia, onde uma secção de 76 quilómetros quadrados da língua de gelo flutuante do glaciar se separou em 4 de agosto de 2026.",
+    "excerpt_en": "Europe’s Copernicus Sentinel-1 mission has captured a dramatic change at Petermann Glacier in northwest Greenland, where a 76 sq km section of the glacier’s floating ice tongue broke away on 4 August 2026.",
+    "highlights": [
+      "Em foco: A missão europeia Copernicus Sentinel-1 capturou uma mudança dramática no glaciar Petermann, no noroeste da Gronelândia, onde uma secção de 76",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A missão europeia Copernicus Sentinel-1 capturou uma mudança dramática no glaciar Petermann, no noroeste da Gronelândia, onde uma secção de 76",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Europe’s Copernicus Sentinel-1 mission has captured a dramatic change at Petermann Glacier in northwest Greenland, where a 76 sq km section of the",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "21 ago 2026",
+    "date_pt": "21 ago 2026",
+    "date_en": "21 Aug 2026",
+    "time": "08h22",
+    "time_pt": "08h22",
+    "time_en": "08: 22 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-21T08:22:00+00:00",
+    "lastModifiedIso": "2026-08-21T16:18:43+00:00",
+    "source": "ESA Space News",
+    "sourceDomain": "www. esa. int",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "ESA Space News",
+      "Cosmos Week",
+      "Sentinel",
+      "1 captura grande perda de gelo da geleira da Groenlândia"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "ESA Space News",
+      "Cosmos Week",
+      "Sentinel",
+      "1 captura grande perda de gelo da geleira da Groenlândia"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "ESA Space News",
+      "Cosmos Week",
+      "Sentinel",
+      "1 captures major ice loss from Greenland glacier"
+    ],
+    "srcUrl": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1_captures_major_ice_loss_from_Greenland_glacier",
+    "realUrl": "https://www.cosmosweek.com/?article=sentinel-1-captures-major-ice-loss-from-greenland-glacier",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=sentinel-1-captures-major-ice-loss-from-greenland-glacier",
+    "realUrl_en": "https://www.cosmosweek.com/?article=sentinel-1-captures-major-ice-loss-from-greenland-glacier&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/sentinel-1-captures-major-ice-loss-from-greenland-glacier/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/sentinel-1-captures-major-ice-loss-from-greenland-glacier/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/sentinel-1-captures-major-ice-loss-from-greenland-glacier/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/sentinel-1-captures-major-ice-loss-from-greenland-glacier/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/sentinel-1-captures-major-ice-loss-from-greenland-glacier/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/sentinel-1-captures-major-ice-loss-from-greenland-glacier/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 90,
+      "evidence": 86,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Sentinel-1 captura grande perda de gelo da geleira da Groenlândia",
+    "imageAlt_pt": "Sentinel-1 captura grande perda de gelo da geleira da Groenlândia",
+    "imageAlt_en": "Sentinel-1 captures major ice loss from Greenland glacier",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
     "slug": "the-view-from-above-the-gemini-visual-acuity-experiments",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -167,7 +307,7 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -298,7 +438,261 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 4,
+    "slug": "quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti",
+    "cat": "Astrofísica",
+    "catCls": "astrofisica",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Global_Surface_Temperature_Anomalies_1880-2013.jpg/1280px-Global_Surface_Temperature_Anomalies_1880-2013.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Erupções quase periódicas de trânsitos recorrentes de buracos negros de satélites através de discos de acreção de núcleos galácticos magnetizados",
+    "title_pt": "Erupções quase periódicas de trânsitos recorrentes de buracos negros de satélites através de discos de acreção de núcleos galácticos magnetizados",
+    "title_en": "Quasi-periodic Eruptions from Recurrent Satellite Black Hole Transits through Magnetized Galactic Nucleus Accretion Disks",
+    "sub": "Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta.",
+    "sub_pt": "Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta.",
+    "sub_en": "Quasi-periodic eruptions are recurrent soft X-ray flares from galactic nuclei, but their origin remains uncertain.",
+    "excerpt": "Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta. A contraparte ultravioleta atrasada detectada em Ansky fornece uma nova restrição em modelos viáveis.",
+    "excerpt_pt": "Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta. A contraparte ultravioleta atrasada detectada em Ansky fornece uma nova restrição em modelos viáveis.",
+    "excerpt_en": "Quasi-periodic eruptions are recurrent soft X-ray flares from galactic nuclei, but their origin remains uncertain. The delayed ultraviolet counterpart detected in Ansky provides a new constraint on viable models.",
+    "highlights": [
+      "Em foco: Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: Quasi-periodic eruptions are recurrent soft X-ray flares from galactic nuclei, but their origin remains uncertain",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "20 ago 2026",
+    "date_pt": "20 ago 2026",
+    "date_en": "20 Aug 2026",
+    "time": "08h48",
+    "time_pt": "08h48",
+    "time_en": "08: 48 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-20T08:48:51+00:00",
+    "lastModifiedIso": "2026-08-21T16:18:43+00:00",
+    "source": "arXiv High Energy Astrophysics",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Astrofísica",
+      "arXiv High Energy Astrophysics",
+      "Cosmos Week",
+      "Erupções quase periódicas de trânsitos recorrentes de buracos negros de satélites através de discos de acreção de núcleos galácticos magnetizados"
+    ],
+    "keywords_pt": [
+      "Astrofísica",
+      "arXiv High Energy Astrophysics",
+      "Cosmos Week",
+      "Erupções quase periódicas de trânsitos recorrentes de buracos negros de satélites através de discos de acreção de núcleos galácticos magnetizados"
+    ],
+    "keywords_en": [
+      "Astrophysics",
+      "arXiv High Energy Astrophysics",
+      "Cosmos Week",
+      "Quasi-periodic eruptions of recurring black hole transits of satellites through accretion disks of magnetized galactic nuclei"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2608.19796v1",
+    "realUrl": "https://www.cosmosweek.com/?article=quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti",
+    "realUrl_en": "https://www.cosmosweek.com/?article=quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 80,
+    "scoreBreakdown": {
+      "source": 63,
+      "evidence": 39,
+      "relevance": 94,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Erupções quase periódicas de trânsitos recorrentes de buracos negros de satélites através de discos de acreção de núcleos galácticos magnetizados",
+    "imageAlt_pt": "Erupções quase periódicas de trânsitos recorrentes de buracos negros de satélites através de discos de acreção de núcleos galácticos magnetizados",
+    "imageAlt_en": "Quasi-periodic Eruptions from Recurrent Satellite Black Hole Transits through Magnetized Galactic Nucleus Accretion Disks",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 5,
+    "slug": "an-uncommon-drifter-in-the-denmark-strait",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/an-uncommon-drifter-in-the-denmark-strait/greenlandbergzm_oli2_20260612_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/an-uncommon-drifter-in-the-denmark-strait/greenlandberg_oli2_20260612_lrg.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Um vagabundo incomum no estreito da Dinamarca",
+    "title_pt": "Um vagabundo incomum no estreito da Dinamarca",
+    "title_en": "An Uncommon Drifter in the Denmark Strait",
+    "sub": "Um grande iceberg, observado no verão de 2026, derivou mais de 1.000 quilômetros ao sul da baía nordeste da Groenlândia, onde provavelmente se originou.",
+    "sub_pt": "Um grande iceberg, observado no verão de 2026, derivou mais de 1.000 quilômetros ao sul da baía nordeste da Groenlândia, onde provavelmente se originou.",
+    "sub_en": "A large iceberg, observed in summer 2026, had drifted more than 1, 000 kilometers south from the northeastern Greenland bay where it likely originated.",
+    "excerpt": "Um grande iceberg, observado no verão de 2026, derivou mais de 1.000 quilômetros ao sul da baía nordeste da Groenlândia, onde provavelmente se originou.",
+    "excerpt_pt": "Um grande iceberg, observado no verão de 2026, derivou mais de 1.000 quilômetros ao sul da baía nordeste da Groenlândia, onde provavelmente se originou.",
+    "excerpt_en": "A large iceberg, observed in summer 2026, had drifted more than 1, 000 kilometers south from the northeastern Greenland bay where it likely originated.",
+    "highlights": [
+      "Em foco: Um grande iceberg, observado no verão de 2026, derivou mais de 1.000 quilômetros ao sul da baía nordeste da Groenlândia, onde provavelmente se",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Um grande iceberg, observado no verão de 2026, derivou mais de 1.000 quilômetros ao sul da baía nordeste da Groenlândia, onde provavelmente se",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: A large iceberg, observed in summer 2026, had drifted more than 1, 000 kilometers south from the northeastern Greenland bay where it likely",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "20 ago 2026",
+    "date_pt": "20 ago 2026",
+    "date_en": "20 Aug 2026",
+    "time": "04h00",
+    "time_pt": "04h00",
+    "time_en": "04: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-08-20T04:00:00+00:00",
+    "lastModifiedIso": "2026-08-21T16:18:43+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Um vagabundo incomum no estreito da Dinamarca"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Um vagabundo incomum no estreito da Dinamarca"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "An unusual tramp in the Denmark Strait"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/an-uncommon-drifter-in-the-denmark-strait/",
+    "realUrl": "https://www.cosmosweek.com/?article=an-uncommon-drifter-in-the-denmark-strait",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=an-uncommon-drifter-in-the-denmark-strait",
+    "realUrl_en": "https://www.cosmosweek.com/?article=an-uncommon-drifter-in-the-denmark-strait&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/an-uncommon-drifter-in-the-denmark-strait/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/an-uncommon-drifter-in-the-denmark-strait/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/an-uncommon-drifter-in-the-denmark-strait/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/an-uncommon-drifter-in-the-denmark-strait/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/an-uncommon-drifter-in-the-denmark-strait/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/an-uncommon-drifter-in-the-denmark-strait/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Um vagabundo incomum no estreito da Dinamarca",
+    "imageAlt_pt": "Um vagabundo incomum no estreito da Dinamarca",
+    "imageAlt_en": "An Uncommon Drifter in the Denmark Strait",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 6,
     "slug": "human-related-microbes-may-survive-moon-s-south-pole-nasa-finds",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -339,19 +733,19 @@
     "excerpt_pt": "Lee esta história em espanhol aqui. Alguns dos micróbios da Terra que provavelmente pegarão carona para o espaço com exploradores humanos poderiam sobreviver nos cantos e recantos sombreados da região do Pólo Sul da Lua, dizem os cientistas da NASA.",
     "excerpt_en": "Lee esta historia en español aquí. Some of Earth’s microbes likely to hitch a ride to space with human explorers could survive in the shaded nooks and crannies of the Moon’s South Pole region, NASA scientists say.",
     "highlights": [
-      "Em foco: Lee esta história em espanhol aqui",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Lee esta história em espanhol aqui. Alguns dos micróbios da Terra que provavelmente pegarão carona para o espaço com exploradores humanos poderiam.",
+      "Dado-chave: Lee esta história em espanhol aqui",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Lee esta história em espanhol aqui",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Lee esta história em espanhol aqui. Alguns dos micróbios da Terra que provavelmente pegarão carona para o espaço com exploradores humanos poderiam.",
+      "Dado-chave: Lee esta história em espanhol aqui",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Lee esta historia en español aquí",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Lee esta historia en español aquí. Some of Earth’s microbes likely to hitch a ride to space with human explorers could survive in the shaded nooks.",
+      "Key detail: Lee esta historia en español aquí",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "19 ago 2026",
     "date_pt": "19 ago 2026",
@@ -442,7 +836,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 7,
     "slug": "milky-way-s-fastest-star-orbits-our-supermassive-black-hole-so-closely-it-feels-its-spin",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -682,184 +1076,7 @@
     "storyKind": "science"
   },
   {
-    "id": 5,
-    "slug": "nasa-s-lro-images-falcon-9-crater-on-moon-learns-new-details",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/earthset-from-the-lunar-far-side/earthset_55192132107_00dc598014_o.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/lunar-science/2023/09/133_lro_nearside.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-1.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-2.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-3.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-4.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": {
-      "kind": "file",
-      "platform": "html5",
-      "embedUrl": "",
-      "fileUrl": "https://assets.science.nasa.gov/content/dam/science/cds/svs/a020000/a020300/a020369/LRO_CU_4k_30fps_ProRes.webm",
-      "poster": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/earthset-from-the-lunar-far-side/earthset_55192132107_00dc598014_o.jpg?w=5568&h=3712&fit=clip&crop=faces%2Cfocalpoint",
-      "title": "LRO da NASA imagens da cratera Falcon 9 na Lua e descobre novos detalhes - NASA Science",
-      "title_pt": "LRO da NASA imagens da cratera Falcon 9 na Lua e descobre novos detalhes - NASA Science",
-      "title_en": "NASA's LRO Images Falcon 9 Crater on Moon, Learns New Details - NASA Science",
-      "caption": "O Lunar Reconnaissance Orbiter da NASA compartilha uma visão antes e depois da cratera formada depois que um estágio superior do Falcon 9 atingiu a superfície da Lua em 5 de agosto de 2026.",
-      "caption_pt": "O Lunar Reconnaissance Orbiter da NASA compartilha uma visão antes e depois da cratera formada depois que um estágio superior do Falcon 9 atingiu a superfície da Lua em 5 de agosto de 2026.",
-      "caption_en": "NASA's Lunar Reconnaissance Orbiter shares before-and-after view of the crater formed after a Falcon 9 upper stage struck the Moon’s surface on Aug. 5, 2026.",
-      "sourcePage": "https://science.nasa.gov/solar-system/moon/nasas-lro-images-falcon-9-crater-on-moon-learns-new-details/"
-    },
-    "audio": null,
-    "title": "LRO Images da NASA mostra a cratera Falcon 9 na Lua e aprende novos detalhes",
-    "title_pt": "LRO Images da NASA mostra a cratera Falcon 9 na Lua e aprende novos detalhes",
-    "title_en": "NASA’s LRO Images Falcon 9 Crater on Moon, Learns New Details",
-    "sub": "Entre 11 e 12 de agosto, o Lunar Reconnaissance Orbiter da NASA capturou uma série de imagens de uma nova cratera na Lua.",
-    "sub_pt": "Entre 11 e 12 de agosto, o Lunar Reconnaissance Orbiter da NASA capturou uma série de imagens de uma nova cratera na Lua.",
-    "sub_en": "Between Aug. 11 and 12, NASA’s Lunar Reconnaissance Orbiter captured a series of images of a new crater on the Moon.",
-    "excerpt": "Entre 11 e 12 de agosto, o Lunar Reconnaissance Orbiter da NASA capturou uma série de imagens de uma nova cratera na Lua. A cratera se formou em agosto.",
-    "excerpt_pt": "Entre 11 e 12 de agosto, o Lunar Reconnaissance Orbiter da NASA capturou uma série de imagens de uma nova cratera na Lua. A cratera se formou em agosto.",
-    "excerpt_en": "Between Aug. 11 and 12, NASA’s Lunar Reconnaissance Orbiter captured a series of images of a new crater on the Moon. The crater formed on Aug.",
-    "highlights": [
-      "Ponto central: Entre 11 e 12 de agosto, o Lunar Reconnaissance Orbiter da NASA capturou uma série de imagens de uma nova cratera na Lua.",
-      "Dado-chave: Entre 11 e 12 de agosto, o Lunar Reconnaissance Orbiter da NASA capturou uma série de imagens de uma nova cratera na Lua",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Entre 11 e 12 de agosto, o Lunar Reconnaissance Orbiter da NASA capturou uma série de imagens de uma nova cratera na Lua.",
-      "Dado-chave: Entre 11 e 12 de agosto, o Lunar Reconnaissance Orbiter da NASA capturou uma série de imagens de uma nova cratera na Lua",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Between Aug. 11 and 12, NASA’s Lunar Reconnaissance Orbiter captured a series of images of a new crater on the Moon.",
-      "Key detail: Between Aug. 11 and 12, NASA’s Lunar Reconnaissance Orbiter captured a series of images of a new crater on the Moon",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "18 ago 2026",
-    "date_pt": "18 ago 2026",
-    "date_en": "18 Aug 2026",
-    "time": "18h49",
-    "time_pt": "18h49",
-    "time_en": "18: 49 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-18T18:49:50+00:00",
-    "lastModifiedIso": "2026-08-19T16:17:19+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "LRO Images da NASA mostra a cratera Falcon 9 na Lua e aprende novos detalhes"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "LRO Images da NASA mostra a cratera Falcon 9 na Lua e aprende novos detalhes"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA's LRO Images Shows Falcon 9 Crater on the Moon and Learns New Details"
-    ],
-    "srcUrl": "https://science.nasa.gov/solar-system/moon/nasas-lro-images-falcon-9-crater-on-moon-learns-new-details/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-s-lro-images-falcon-9-crater-on-moon-learns-new-details",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-s-lro-images-falcon-9-crater-on-moon-learns-new-details",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-s-lro-images-falcon-9-crater-on-moon-learns-new-details&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-s-lro-images-falcon-9-crater-on-moon-learns-new-details/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-lro-images-falcon-9-crater-on-moon-learns-new-details/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-lro-images-falcon-9-crater-on-moon-learns-new-details/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-s-lro-images-falcon-9-crater-on-moon-learns-new-details/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-lro-images-falcon-9-crater-on-moon-learns-new-details/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-lro-images-falcon-9-crater-on-moon-learns-new-details/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "LRO Images da NASA mostra a cratera Falcon 9 na Lua e aprende novos detalhes",
-    "imageAlt_pt": "LRO Images da NASA mostra a cratera Falcon 9 na Lua e aprende novos detalhes",
-    "imageAlt_en": "NASA’s LRO Images Falcon 9 Crater on Moon, Learns New Details",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 6,
+    "id": 8,
     "slug": "spying-on-a-split-comet",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1005,7 +1222,7 @@
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 9,
     "slug": "infrared-lines-from-sterile-neutrino-transition-magnetic-moments-at-jwst",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -1126,125 +1343,7 @@
     "storyKind": "science"
   },
   {
-    "id": 8,
-    "slug": "resolving-nearby-supermassive-black-holes-with-the-black-hole-explorer",
-    "cat": "Astrofísica",
-    "catCls": "astrofisica",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/M87_jet.jpg/1280px-M87_jet.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Resolvendo buracos negros supermassivos próximos com o Black Hole Explorer",
-    "title_pt": "Resolvendo buracos negros supermassivos próximos com o Black Hole Explorer",
-    "title_en": "Resolving Nearby Supermassive Black Holes with the Black Hole Explorer",
-    "sub": "Resultados recentes do Event Horizon Telescope demonstraram uma ciência única e transformadora na física gravitacional e na astrofísica de buracos negros, possibilitada por.",
-    "sub_pt": "Resultados recentes do Event Horizon Telescope demonstraram uma ciência única e transformadora na física gravitacional e na astrofísica de buracos negros, possibilitada por.",
-    "sub_en": "Recent Event Horizon Telescope results have demonstrated unique and transformative science in gravitational physics and black hole astrophysics enabled by event-horizon-scale.",
-    "excerpt": "Resultados recentes do Event Horizon Telescope demonstraram uma ciência única e transformadora na física gravitacional e na astrofísica de buracos negros, possibilitada por imagens em escala de horizonte de eventos de buracos negros supermassivos.",
-    "excerpt_pt": "Resultados recentes do Event Horizon Telescope demonstraram uma ciência única e transformadora na física gravitacional e na astrofísica de buracos negros, possibilitada por imagens em escala de horizonte de eventos de buracos negros supermassivos.",
-    "excerpt_en": "Recent Event Horizon Telescope results have demonstrated unique and transformative science in gravitational physics and black hole astrophysics enabled by event-horizon-scale imaging of supermassive black holes.",
-    "highlights": [
-      "Ponto central: Resultados recentes do Event Horizon Telescope demonstraram uma ciência única e transformadora na física gravitacional e na astrofísica de buracos.",
-      "Dado-chave: Resultados recentes do Event Horizon Telescope demonstraram uma ciência única e transformadora na física gravitacional e na astrofísica de.",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_pt": [
-      "Ponto central: Resultados recentes do Event Horizon Telescope demonstraram uma ciência única e transformadora na física gravitacional e na astrofísica de buracos.",
-      "Dado-chave: Resultados recentes do Event Horizon Telescope demonstraram uma ciência única e transformadora na física gravitacional e na astrofísica de.",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_en": [
-      "Core point: Recent Event Horizon Telescope results have demonstrated unique and transformative science in gravitational physics and black hole astrophysics.",
-      "Key detail: Recent Event Horizon Telescope results have demonstrated unique and transformative science in gravitational physics and black hole astrophysics",
-      "Result not yet peer reviewed."
-    ],
-    "date": "17 ago 2026",
-    "date_pt": "17 ago 2026",
-    "date_en": "17 Aug 2026",
-    "time": "18h00",
-    "time_pt": "18h00",
-    "time_en": "18: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-17T18:00:02+00:00",
-    "lastModifiedIso": "2026-08-19T16:17:19+00:00",
-    "source": "arXiv High Energy Astrophysics",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Astrofísica",
-      "arXiv High Energy Astrophysics",
-      "Cosmos Week",
-      "Resolvendo buracos negros supermassivos próximos com o Black Hole Explorer"
-    ],
-    "keywords_pt": [
-      "Astrofísica",
-      "arXiv High Energy Astrophysics",
-      "Cosmos Week",
-      "Resolvendo buracos negros supermassivos próximos com o Black Hole Explorer"
-    ],
-    "keywords_en": [
-      "Astrophysics",
-      "arXiv High Energy Astrophysics",
-      "Cosmos Week",
-      "Resolving nearby supermassive black holes with Black Hole Explorer"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2608.16983v1",
-    "realUrl": "https://www.cosmosweek.com/?article=resolving-nearby-supermassive-black-holes-with-the-black-hole-explorer",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=resolving-nearby-supermassive-black-holes-with-the-black-hole-explorer",
-    "realUrl_en": "https://www.cosmosweek.com/?article=resolving-nearby-supermassive-black-holes-with-the-black-hole-explorer&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/resolving-nearby-supermassive-black-holes-with-the-black-hole-explorer/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/resolving-nearby-supermassive-black-holes-with-the-black-hole-explorer/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/resolving-nearby-supermassive-black-holes-with-the-black-hole-explorer/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/resolving-nearby-supermassive-black-holes-with-the-black-hole-explorer/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/resolving-nearby-supermassive-black-holes-with-the-black-hole-explorer/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/resolving-nearby-supermassive-black-holes-with-the-black-hole-explorer/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 80,
-    "scoreBreakdown": {
-      "source": 63,
-      "evidence": 39,
-      "relevance": 94,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "Resolvendo buracos negros supermassivos próximos com o Black Hole Explorer",
-    "imageAlt_pt": "Resolvendo buracos negros supermassivos próximos com o Black Hole Explorer",
-    "imageAlt_en": "Resolving Nearby Supermassive Black Holes with the Black Hole Explorer",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 9,
+    "id": 10,
     "slug": "nsf-announces-1-5b-for-foundational-research-to-drive-scientific-breakthroughs-for-american-tech",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1393,7 +1492,7 @@
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "hubble-gaia-solve-our-galaxy-s-merger-mystery",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1539,7 +1638,7 @@
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "science-release-hubble-solves-merger-mystery-from-milky-way-s-early-years",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1688,7 +1787,7 @@
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "a-look-back-at-the-2026-total-solar-eclipse",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1928,7 +2027,7 @@
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "stops-along-the-path-of-totality",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2065,7 +2164,7 @@
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "dust-and-water-spotted-close-to-giant-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2202,7 +2301,7 @@
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "the-quadratic-growth-of-krylov-spread-complexity-in-the-btz-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2320,7 +2419,7 @@
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2448,7 +2547,7 @@
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "how-the-tide-turns-at-the-mouth-of-the-elbe",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2594,7 +2693,7 @@
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "europe-s-forests-losing-more-biomass-since-2018",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2712,7 +2811,7 @@
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "the-paradox-of-lencois-maranhenses-national-park",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2842,134 +2941,6 @@
     "imageAlt": "The Paradox of Lençóis Maranhenses National Park",
     "imageAlt_pt": "The Paradox of Lençóis Maranhenses National Park",
     "imageAlt_en": "The Paradox of Lençóis Maranhenses National Park",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 20,
-    "slug": "hydrognss-data-open-for-new-insights-into-earth-s-water",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Global_Surface_Temperature_Anomalies_1880-2013.jpg/1280px-Global_Surface_Temperature_Anomalies_1880-2013.jpg",
-    "inline_images": [
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2025/10/hydrognss_scouting_for_water/26912191-1-eng-GB/HydroGNSS_Scouting_for_water_article.jpg",
-        "alt": "HydroGNSS: Exploração de água",
-        "alt_pt": "HydroGNSS: Exploração de água",
-        "alt_en": "HydroGNSS: Scouting for water",
-        "caption": "HydroGNSS: Exploração de água",
-        "caption_pt": "HydroGNSS: Exploração de água",
-        "caption_en": "HydroGNSS: Scouting for water"
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Dados HydroGNSS abertos para novos insights sobre a água da Terra",
-    "title_pt": "Dados HydroGNSS abertos para novos insights sobre a água da Terra",
-    "title_en": "HydroGNSS data open for new insights into Earth’s water",
-    "sub": "A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica.",
-    "sub_pt": "A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica.",
-    "sub_en": "The European Space Agency's two-satellite HydroGNSS Scout mission has completed commissioning and is now in full scientific operations.",
-    "excerpt": "A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica.",
-    "excerpt_pt": "A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica.",
-    "excerpt_en": "The European Space Agency's two-satellite HydroGNSS Scout mission has completed commissioning and is now in full scientific operations.",
-    "highlights": [
-      "Ponto central: A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica.",
-      "Dado-chave: A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica.",
-      "Dado-chave: A missão HydroGNSS Scout de dois satélites da Agência Espacial Europeia concluiu o comissionamento e está agora em plena operação científica.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: The European Space Agency's two-satellite HydroGNSS Scout mission has completed commissioning and is now in full scientific operations.",
-      "Key detail: The European Space Agency's two-satellite HydroGNSS Scout mission has completed commissioning and is now in full scientific operations.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "31 jul 2026",
-    "date_pt": "31 jul 2026",
-    "date_en": "31 Jul 2026",
-    "time": "09h36",
-    "time_pt": "09h36",
-    "time_en": "09: 36 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-07-31T09:36:00+00:00",
-    "lastModifiedIso": "2026-07-31T17:26:27+00:00",
-    "source": "ESA Space News",
-    "sourceDomain": "www. esa. int",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "ESA Space News",
-      "Cosmos Week",
-      "Dados HydroGNSS abertos para novos insights sobre a água da Terra"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "ESA Space News",
-      "Cosmos Week",
-      "Dados HydroGNSS abertos para novos insights sobre a água da Terra"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "ESA Space News",
-      "Cosmos Week",
-      "Open HydroGNSS data for new insights into Earth's water"
-    ],
-    "srcUrl": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/HydroGNSS/HydroGNSS_data_open_for_new_insights_into_Earth_s_water",
-    "realUrl": "https://www.cosmosweek.com/?article=hydrognss-data-open-for-new-insights-into-earth-s-water",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=hydrognss-data-open-for-new-insights-into-earth-s-water",
-    "realUrl_en": "https://www.cosmosweek.com/?article=hydrognss-data-open-for-new-insights-into-earth-s-water&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/hydrognss-data-open-for-new-insights-into-earth-s-water/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/hydrognss-data-open-for-new-insights-into-earth-s-water/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/hydrognss-data-open-for-new-insights-into-earth-s-water/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/hydrognss-data-open-for-new-insights-into-earth-s-water/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/hydrognss-data-open-for-new-insights-into-earth-s-water/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/hydrognss-data-open-for-new-insights-into-earth-s-water/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 90,
-      "evidence": 86,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Dados HydroGNSS abertos para novos insights sobre a água da Terra",
-    "imageAlt_pt": "Dados HydroGNSS abertos para novos insights sobre a água da Terra",
-    "imageAlt_en": "HydroGNSS data open for new insights into Earth’s water",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
@@ -3246,17 +3217,17 @@
     "excerpt_en": "NASA’s next flagship orbital observatory will reshape what we know about planets throughout the galaxy.",
     "highlights": [
       "Ponto central: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia.",
-      "Dado-chave: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia",
+      "Dado-chave: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
       "Ponto central: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia.",
-      "Dado-chave: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia",
+      "Dado-chave: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
       "Core point: NASA’s next flagship orbital observatory will reshape what we know about planets throughout the galaxy.",
-      "Key detail: NASA’s next flagship orbital observatory will reshape what we know about planets throughout the galaxy",
+      "Key detail: NASA’s next flagship orbital observatory will reshape what we know about planets throughout the galaxy.",
       "Science reporting: verify primary technical documentation."
     ],
     "date": "17 jul 2026",
@@ -3612,7 +3583,7 @@
     ],
     "highlights_en": [
       "Core point: Astronomers have used the European Southern Observatory's Very Large Telescope to study the composition of 3I/ATLAS, the brightest interstellar.",
-      "Key detail: Astronomers have used the European Southern Observatory's Very Large Telescope to study the composition of 3I/ATLAS, the brightest interstellar",
+      "Key detail: Astronomers have used the European Southern Observatory's Very Large Telescope to study the composition of 3I/ATLAS, the brightest interstellar.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "06 jul 2026",
@@ -3761,7 +3732,7 @@
     ],
     "highlights_en": [
       "Core point: The European Space Agency has contracted Spanish company EMXYS for the first CubeSat designed to operate on the surface of an asteroid.",
-      "Key detail: The European Space Agency has contracted Spanish company EMXYS for the first CubeSat designed to operate on the surface of an asteroid",
+      "Key detail: The European Space Agency has contracted Spanish company EMXYS for the first CubeSat designed to operate on the surface of an asteroid.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "02 jul 2026",
