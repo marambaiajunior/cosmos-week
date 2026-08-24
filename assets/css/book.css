@@ -212,8 +212,8 @@ body.book-guide-page{
 }
 .book-cover-seal{
   position:absolute;
-  right:0;
-  bottom:2%;
+  right:2;
+  bottom:4%;
   display:flex;
   gap:8px;
   align-items:center;
