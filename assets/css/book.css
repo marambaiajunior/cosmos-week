@@ -213,7 +213,7 @@ body.book-guide-page{
 .book-cover-seal{
   position:absolute;
   right:0;
-  bottom:7%;
+  bottom:2%;
   display:flex;
   gap:8px;
   align-items:center;
