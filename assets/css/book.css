@@ -211,18 +211,22 @@ body.book-guide-page{
   box-shadow:0 34px 74px rgba(49,34,22,.31);
 }
 .book-cover-seal {
-  position: absolute;
-  right: -1;
-  bottom: 2%;
+  position: static;
+
   display: flex;
   gap: 8px;
   align-items: center;
-  padding: 11px 14px;
+
+  padding: 9px 13px;
+
   border: 1px solid rgba(255, 255, 255, .45);
   border-radius: 999px;
+
   color: #fff;
   background: rgba(37, 31, 27, .88);
-  box-shadow: 0 13px 32px rgba(28, 21, 17, .24);
+
+  box-shadow: 0 8px 20px rgba(28, 21, 17, .15);
+
   backdrop-filter: blur(9px);
   -webkit-backdrop-filter: blur(9px);
 }
