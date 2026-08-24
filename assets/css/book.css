@@ -234,16 +234,15 @@ body.book-guide-page{
   backdrop-filter: blur(9px);
   -webkit-backdrop-filter: blur(9px);
 }
-.book-cover-seal strong{font:700 25px/1 Newsreader,Georgia,serif;color:#f0c09d}
-.book-cover-seal span{font:800 9px/1.2 Inter,Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
-.book-cover-caption{
-  display:flex;
-  gap:8px;
-  align-items:center;
-  color:#5e4e43;
-  font:700 11px/1 Inter,Arial,sans-serif;
-  letter-spacing:.08em;
-  text-transform:uppercase;
+.book-cover-seal strong {
+  font: 700 19px/1 Newsreader, Georgia, serif;
+  color: #f0c09d;
+}
+
+.book-cover-seal span {
+  font: 800 8px/1.15 Inter, Arial, sans-serif;
+  letter-spacing: .06em;
+  text-transform: uppercase;
 }
 .book-cover-caption span{color:#4b765c;font-size:9px}
 .book-hero-copy{position:relative;z-index:1;max-width:700px;padding-top:8px}
