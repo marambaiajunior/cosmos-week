@@ -1,3 +1,6 @@
+HISTÓRICO SUPERADO — NÃO USE OS LINKS OU AS INSTRUÇÕES DESTE ARQUIVO.
+A versão vigente está em VORTICE-MALIGNO-INTEGRACAO-README.txt (2026-08-24).
+
 Ajustes adicionais da landing page do livro Vórtice Maligno - 2026-08-13 REV4
 
 Arquivos alterados:

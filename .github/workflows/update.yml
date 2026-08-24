@@ -103,6 +103,7 @@ jobs:
               Path('noticia'),
               Path('en/news'),
               Path('livro/vortice-maligno/index.html'),
+              Path('livro/vortice-maligno/checklist/index.html'),
               Path('assets/img/livro/vortice-maligno-capa.webp'),
           ]
 

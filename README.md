@@ -37,6 +37,9 @@ node scripts/build_sitemap.mjs
 ## Estrutura principal
 
 - `index.html`: shell editorial e metadados da página inicial;
+- `livro/vortice-maligno/`: landing comercial do livro;
+- `livro/vortice-maligno/checklist/`: material gratuito e imprimível;
+- `CAMPANHA-VORTICE-MALIGNO.md`: plano de divulgação, UTMs, eventos e criativos;
 - `assets/css/modern.css`: camada visual moderna;
 - `assets/js/app.js`: conteúdo, busca e navegação integrada;
 - `assets/data/posts-index.json`: seleção recente da home;

@@ -1,18 +1,22 @@
-COSMOS WEEK — TROCA DO LINK DE COMPRA DO VÓRTICE MALIGNO
+COSMOS WEEK — NOVA VERSÃO COMERCIAL DO VÓRTICE MALIGNO
 
-Novo destino:
-https://clubedeautores.com.br/livro/vortice-maligno
+Este pacote contém o projeto completo do site, pronto para substituir o conteúdo
+da branch main do repositório depois de revisão e commit.
 
-Arquivos incluídos:
-- livro/vortice-maligno/index.html
-- index.html
-- scripts/fetch_news.py
-- assets/js/book.js
-- noticia/alan-valejo/index.html
-- noticia/seti-panel-revises-recommendations-for-dealing-with-disclosure-day/index.html
+PRINCIPAIS ENTREGAS
+- Nova landing comercial em /livro/vortice-maligno/
+- Checklist gratuito em /livro/vortice-maligno/checklist/
+- Compra centralizada no Clube de Autores
+- ISBN, preço, formato e textos corrigidos
+- SEO, Open Graph, FAQ e dados estruturados atualizados
+- GA4 com eventos de produto, CTAs, varejista e checklist
+- Plano de campanha de 30 dias em CAMPANHA-VORTICE-MALIGNO.md
 
-Substitua os arquivos existentes no GitHub mantendo exatamente os mesmos caminhos.
+ANTES DE PUBLICAR
+1. Preserve os arquivos CNAME e .nojekyll.
+2. Confirme se o preço no Clube de Autores continua R$ 59,12.
+3. Rode as validações descritas no README e no plano de campanha.
+4. Faça commit e push na branch main.
 
-Também foram alterados os textos visíveis de "Comprar na Amazon.com.br"
-para "Comprar no Clube de Autores" e o rastreamento específico da Amazon
-foi renomeado para Clube de Autores.
+O checkout continua no Clube de Autores. Portanto, o site mede cliques de saída,
+mas uma venda só pode ser confirmada no painel do varejista.

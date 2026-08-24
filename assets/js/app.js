@@ -187,11 +187,11 @@ const FULL_ARCHIVE_FEED = '/assets/data/archive-index.json';
       footerBottomLeft: '© 2026 Cosmos Week',
       footerBottomCenter: 'Notícias científicas com contexto e compromisso com a evidência.',
       footerBottomRight: '',
-      newsletterTitle: 'Newsletter', newsletterLabel: 'Seu e-mail',
-      newsletterDescription: 'Receba Notícias semanais do Cosmos Week no seu e-mail.',
-      newsletterPlaceholder: 'Seu e-mail', newsletterButton: 'Inscrever',
-      newsletterNote: 'Sem spam. Apenas atualizações editoriais relevantes.',
-      newsletterSuccess: 'E-mail salvo neste navegador.',
+      newsletterTitle: 'Acompanhe por RSS', newsletterLabel: 'Feed RSS',
+      newsletterDescription: 'Receba as novas publicações no seu leitor de notícias.',
+      newsletterPlaceholder: '', newsletterButton: 'Abrir RSS',
+      newsletterNote: 'Sem cadastro e sem coleta de e-mail.',
+      newsletterSuccess: 'Feed RSS aberto.',
       cookieTitle: 'Privacidade', cookieText: 'Usamos analytics para medir audiência e podemos exibir anúncios no futuro. Você pode aceitar tudo, liberar só analytics ou recusar. Os detalhes estão na política de privacidade.',
       cookiePolicy: 'política de privacidade', cookieDeny: 'Recusar', cookieAnalytics: 'Só analytics', cookieAccept: 'Aceitar tudo', cookieAria: 'Aviso de cookies', newsletterInvalid: 'Digite um e-mail válido.',
       lastUpdatedPrefix: 'Atualização:', latestFeed: 'feed carregado',
@@ -259,11 +259,11 @@ const FULL_ARCHIVE_FEED = '/assets/data/archive-index.json';
       footerBottomLeft: '© 2026 Cosmos Week',
       footerBottomCenter: 'Science reporting built around context, hierarchy of information and evidence.',
       footerBottomRight: '',
-      newsletterTitle: 'Newsletter', newsletterLabel: 'Your email',
-      newsletterDescription: 'Get Cosmos Week editorial highlights in your inbox.',
-      newsletterPlaceholder: 'Your email', newsletterButton: 'Subscribe',
-      newsletterNote: 'No spam. Only relevant editorial updates.',
-      newsletterSuccess: 'Email saved in this browser.',
+      newsletterTitle: 'Follow via RSS', newsletterLabel: 'RSS feed',
+      newsletterDescription: 'Receive new stories in your preferred feed reader.',
+      newsletterPlaceholder: '', newsletterButton: 'Open RSS',
+      newsletterNote: 'No signup and no email collection.',
+      newsletterSuccess: 'RSS feed opened.',
       cookieTitle: 'Privacy', cookieText: 'We use analytics to measure audience and may show advertising in the future. You can accept everything, allow analytics only or decline. Details are in the privacy policy.',
       cookiePolicy: 'privacy policy', cookieDeny: 'Decline', cookieAnalytics: 'Analytics only', cookieAccept: 'Accept all', cookieAria: 'Cookie notice', newsletterInvalid: 'Enter a valid email address.',
       lastUpdatedPrefix: 'Auto update:', latestFeed: 'feed loaded',
@@ -2790,20 +2790,6 @@ function renderVisualStrip(layout = currentFrontLayout()) {
       .catch(() => showToast(url));
   }
 
-  function handleNewsletterSubmit(event) {
-    event.preventDefault();
-    const input = document.getElementById('newsletterEmail');
-    const email = input.value.trim();
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { showToast(tr('newsletterInvalid')); input.focus(); return; }
-    localStorage.setItem('cw_newsletter_email', email);
-    input.value = ''; showToast(tr('newsletterSuccess'));
-  }
-
-  function loadSavedNewsletterEmail() {
-    const saved = localStorage.getItem('cw_newsletter_email');
-    if (saved) { const el = document.getElementById('newsletterEmail'); if (el) el.value = saved; }
-  }
-
   const CONSENT_KEY = 'cw_cookie_consent';
 
   /* Mapeia os 3 estados para os sinais do Consent Mode v2.
@@ -3056,7 +3042,6 @@ function renderVisualStrip(layout = currentFrontLayout()) {
   document.addEventListener('DOMContentLoaded', () => {
     if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
     applyUIStrings();
-    loadSavedNewsletterEmail();
     initCookieBanner();
     initRigSyncBanner();
     persistArchiveCache();
