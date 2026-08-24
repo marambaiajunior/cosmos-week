@@ -210,21 +210,21 @@ body.book-guide-page{
   border-radius:6px;
   box-shadow:0 34px 74px rgba(49,34,22,.31);
 }
-.book-cover-seal{
-  position:absolute;
-  right:-4;
-  bottom:4%;
-  display:flex;
-  gap:8px;
-  align-items:center;
-  padding:11px 14px;
-  border:1px solid rgba(255,255,255,.45);
-  border-radius:999px;
-  color:#fff;
-  background:rgba(37,31,27,.88);
-  box-shadow:0 13px 32px rgba(28,21,17,.24);
-  backdrop-filter:blur(9px);
-  -webkit-backdrop-filter:blur(9px);
+.book-cover-seal {
+  position: absolute;
+  right: -1;
+  bottom: 2%;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 11px 14px;
+  border: 1px solid rgba(255, 255, 255, .45);
+  border-radius: 999px;
+  color: #fff;
+  background: rgba(37, 31, 27, .88);
+  box-shadow: 0 13px 32px rgba(28, 21, 17, .24);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
 }
 .book-cover-seal strong{font:700 25px/1 Newsreader,Georgia,serif;color:#f0c09d}
 .book-cover-seal span{font:800 9px/1.2 Inter,Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
