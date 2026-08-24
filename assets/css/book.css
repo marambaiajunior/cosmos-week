@@ -213,11 +213,15 @@ body.book-guide-page{
 .book-cover-seal {
   position: static;
 
-  display: flex;
-  gap: 8px;
-  align-items: center;
+  display: inline-flex;
+  width: fit-content;
+  max-width: max-content;
 
-  padding: 9px 13px;
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+  padding: 5px 9px;
 
   border: 1px solid rgba(255, 255, 255, .45);
   border-radius: 999px;
@@ -225,7 +229,7 @@ body.book-guide-page{
   color: #fff;
   background: rgba(37, 31, 27, .88);
 
-  box-shadow: 0 8px 20px rgba(28, 21, 17, .15);
+  box-shadow: 0 6px 14px rgba(28, 21, 17, .14);
 
   backdrop-filter: blur(9px);
   -webkit-backdrop-filter: blur(9px);
