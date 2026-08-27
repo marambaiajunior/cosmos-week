@@ -5,6 +5,7 @@
   var CONSENT_KEY = 'cw_cookie_consent';
   var TRACKED_URL = '';
   var trackingTimer = 0;
+  var analyticsInitialized = false;
 
   function currentScript() {
     return document.currentScript || document.querySelector('script[data-ga-id]');
@@ -48,6 +49,11 @@
     catch (e) { return ''; }
   }
 
+  function hasAnalyticsConsent(mode) {
+    var normalized = normalizeConsent(mode || getSavedConsent());
+    return normalized === 'analytics' || normalized === 'full';
+  }
+
   function setSavedConsent(mode) {
     var normalized = normalizeConsent(mode) || 'denied';
     try { localStorage.setItem(CONSENT_KEY, normalized); } catch (e) {}
@@ -69,6 +75,7 @@
   }
 
   function loadGoogleTag() {
+    if (!hasAnalyticsConsent()) return;
     if (document.querySelector('script[src*="googletagmanager.com/gtag/js?id=' + GA_ID + '"]')) return;
     var script = document.createElement('script');
     script.async = true;
@@ -95,7 +102,7 @@
 
   function trackPageView(options) {
     options = options || {};
-    if (typeof window.gtag !== 'function') return;
+    if (!hasAnalyticsConsent() || !analyticsInitialized || typeof window.gtag !== 'function') return;
 
     var location = options.location || canonicalLocation();
     var key = location + '|' + (document.title || '');
@@ -110,6 +117,7 @@
   }
 
   function schedulePageView(force) {
+    if (!hasAnalyticsConsent() || !analyticsInitialized) return;
     if (trackingTimer) window.clearTimeout(trackingTimer);
     trackingTimer = window.setTimeout(function () {
       trackingTimer = 0;
@@ -121,11 +129,32 @@
     trackPageView(options || {});
   };
 
+  window.cwHasAnalyticsConsent = function () {
+    return hasAnalyticsConsent();
+  };
+
+  function enableAnalytics(trackCurrentPage) {
+    if (!hasAnalyticsConsent()) return;
+    if (!analyticsInitialized) {
+      loadGoogleTag();
+      window.gtag('js', new Date());
+      window.gtag('config', GA_ID, {
+        anonymize_ip: true,
+        send_page_view: false
+      });
+      analyticsInitialized = true;
+    }
+    if (trackCurrentPage) schedulePageView(true);
+  }
+
   window.cwUpdateConsent = function (mode, options) {
     var normalized = setSavedConsent(mode);
     window.gtag('consent', 'update', consentSignals(normalized));
-    if (normalized === 'analytics' || normalized === 'full') {
-      schedulePageView(options && options.force === false ? false : true);
+    if (hasAnalyticsConsent(normalized)) {
+      enableAnalytics(options && options.force === false ? false : true);
+      document.dispatchEvent(new CustomEvent('cw:analytics-consent-granted', {
+        detail: { mode: normalized }
+      }));
     }
     return normalized;
   };
@@ -135,17 +164,15 @@
     hideCookieBanner();
   };
 
-  loadGoogleTag();
-  window.gtag('js', new Date());
-  window.gtag('config', GA_ID, {
-    anonymize_ip: true,
-    send_page_view: false
-  });
+  if (hasAnalyticsConsent(savedConsent)) enableAnalytics(false);
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function () { schedulePageView(false); initCookieBanner(); });
+    document.addEventListener('DOMContentLoaded', function () {
+      if (hasAnalyticsConsent()) schedulePageView(false);
+      initCookieBanner();
+    });
   } else {
-    schedulePageView(false);
+    if (hasAnalyticsConsent()) schedulePageView(false);
     initCookieBanner();
   }
 
@@ -234,6 +261,23 @@
     var banner = document.getElementById('cookieBanner');
     if (banner) banner.classList.remove('show');
   }
+
+  function openCookieBanner() {
+    ensureBannerStyles();
+    var banner = document.getElementById('cookieBanner') || createCookieBanner();
+    banner.classList.add('show');
+    var deny = document.getElementById('cookieDenyBtn');
+    if (deny) window.setTimeout(function () { deny.focus(); }, 0);
+  }
+
+  window.cwOpenCookieSettings = openCookieBanner;
+
+  document.addEventListener('click', function (event) {
+    var trigger = event.target.closest && event.target.closest('[data-cw-cookie-settings]');
+    if (!trigger) return;
+    event.preventDefault();
+    openCookieBanner();
+  });
 
   function initCookieBanner() {
     ensureBannerStyles();

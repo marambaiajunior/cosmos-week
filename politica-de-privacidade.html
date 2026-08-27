@@ -26,31 +26,6 @@
 <meta content="Política de privacidade | Cosmos Week" name="twitter:title"/>
 <meta content="Política de privacidade do Cosmos Week com detalhes sobre dados, cookies e mensuração." name="twitter:description"/>
 <meta content="https://www.cosmosweek.com/assets/og-default.jpg" name="twitter:image"/>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-MX20J1ZG06"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('consent', 'default', {
-      analytics_storage: 'denied',
-      ad_storage: 'denied',
-      ad_user_data: 'denied',
-      ad_personalization: 'denied',
-      wait_for_update: 500
-    });
-    try {
-      const consent = localStorage.getItem('cw_cookie_consent');
-      const full = consent === 'full';
-      const analytics = consent === 'full' || consent === 'analytics' || consent === 'granted';
-      if (analytics) gtag('consent', 'update', {
-        analytics_storage: 'granted',
-        ad_storage: full ? 'granted' : 'denied',
-        ad_user_data: full ? 'granted' : 'denied',
-        ad_personalization: full ? 'granted' : 'denied'
-      });
-    } catch(e) {}
-    gtag('js', new Date());
-    gtag('config', 'G-MX20J1ZG06', { anonymize_ip: true });
-  </script>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link as="style" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&amp;family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/><noscript><link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&amp;family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/></noscript>
@@ -103,6 +78,7 @@
     code{font-family:var(--mono);font-size:.93em;background:#f2f4f8;padding:2px 5px;border-radius:4px}
     .footer-inst{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-4)}
     .footer-contact{margin-top:8px;font-size:13px;color:var(--ink-3)}
+    .privacy-choice{display:inline-flex;align-items:center;justify-content:center;min-height:44px;margin-top:14px;padding:0 16px;border:1px solid var(--accent);border-radius:999px;color:#fff;background:var(--accent);font:700 13px var(--sans);cursor:pointer}
     @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
     @media(max-width:780px){.grid{grid-template-columns:1fr}.hero{padding:28px 22px 24px}.header-inner{padding-top:14px;padding-bottom:14px}.main-nav{margin-left:0}}
 
@@ -129,7 +105,7 @@
 <div class="eyebrow">Política de privacidade</div>
 <h1>Como o Cosmos Week trata dados e preferências de navegação</h1>
 <p class="lead">Esta política explica, em linguagem direta, quais dados podem ser tratados durante a navegação no Cosmos Week, por que isso pode acontecer, quais escolhas você tem e como entrar em contato com o projeto.</p>
-<p class="meta-line">Última atualização: 25 de abril de 2026</p>
+<p class="meta-line">Última atualização: 27 de agosto de 2026</p>
 </section>
 <div class="grid">
 <article class="card">
@@ -140,7 +116,7 @@
 <p>Dependendo da sua escolha de consentimento e dos recursos usados na visita, o site pode lidar com dados como páginas acessadas, tempo de navegação, dispositivo, navegador, idioma, preferência de consentimento, endereço IP aproximado e interações técnicas necessárias para carregar a página.</p>
 </article> <article class="card">
 <h2>3. Consentimento, analytics e armazenamento local</h2>
-<p>O Cosmos Week usa um banner de consentimento para definir se a medição analítica pode ser ativada. A escolha fica salva no navegador por meio de armazenamento local. O site também pode guardar preferências locais, como idioma e o e-mail digitado no campo de newsletter, mas apenas no próprio navegador nesta versão.</p><div class="note">Hoje, o campo de newsletter da home não envia o e-mail para uma base externa. Ele só salva localmente no navegador do visitante.</div>
+<p>O Cosmos Week usa um banner de consentimento para definir se a medição analítica pode ser ativada. A escolha fica salva no navegador por meio de armazenamento local. Sem consentimento para analytics, a biblioteca do Google Analytics não é carregada e os eventos editoriais e comerciais não são enviados.</p><button class="privacy-choice" type="button" data-cw-cookie-settings>Alterar preferências de cookies</button>
 </article> <article class="card">
 <h2>4. Base de tratamento e finalidade</h2>
 <p>Quando aplicável, o tratamento para analytics depende do seu consentimento. Já recursos mínimos de funcionamento, segurança, prevenção de abuso e entrega do conteúdo podem depender de necessidade técnica e interesse legítimo compatível com a operação básica do site.</p>

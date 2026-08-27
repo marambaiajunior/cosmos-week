@@ -14,7 +14,8 @@ Arquivos alterados:
 Ajustes aplicados:
 1) Mais espaço acima do título VÓRTICE MALIGNO para evitar que o acento encoste no kicker após o carregamento final das fontes.
 2) Reorganização do painel "O autor" com foto central e conteúdo distribuído ao redor de maneira mais ordenada.
-3) Todos os links de compra do livro atualizados para: https://www.amazon.com.br/s?k=9786526681633
+3) Registro histórico: o destino de compra usado nesta revisão foi posteriormente
+   substituído. Não reutilize os links comerciais desta versão superada.
 
 Observação:
 Este pacote substitui a REV3 para a landing page do livro.

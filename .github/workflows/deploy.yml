@@ -35,6 +35,19 @@ jobs:
         with:
           ref: main
 
+      - name: Configurar Python para validação
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Validar Vórtice Maligno, SEO e consentimento
+        run: |
+          set -euo pipefail
+          python scripts/validate_vortice.py
+          node --check assets/js/cw-analytics.js
+          node --check assets/js/book.js
+          node scripts/test_analytics_consent.mjs
+
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
 

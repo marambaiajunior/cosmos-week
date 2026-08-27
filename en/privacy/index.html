@@ -26,31 +26,6 @@
 <meta content="Privacy policy | Cosmos Week" name="twitter:title"/>
 <meta content="Cosmos Week privacy policy covering data, cookies and measurement practices." name="twitter:description"/>
 <meta content="https://www.cosmosweek.com/assets/og-default.jpg" name="twitter:image"/>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-MX20J1ZG06"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('consent', 'default', {
-      analytics_storage: 'denied',
-      ad_storage: 'denied',
-      ad_user_data: 'denied',
-      ad_personalization: 'denied',
-      wait_for_update: 500
-    });
-    try {
-      const consent = localStorage.getItem('cw_cookie_consent');
-      const full = consent === 'full';
-      const analytics = consent === 'full' || consent === 'analytics' || consent === 'granted';
-      if (analytics) gtag('consent', 'update', {
-        analytics_storage: 'granted',
-        ad_storage: full ? 'granted' : 'denied',
-        ad_user_data: full ? 'granted' : 'denied',
-        ad_personalization: full ? 'granted' : 'denied'
-      });
-    } catch(e) {}
-    gtag('js', new Date());
-    gtag('config', 'G-MX20J1ZG06', { anonymize_ip: true });
-  </script>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link as="style" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&amp;family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'" rel="preload"/><noscript><link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&amp;family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/></noscript>
@@ -103,6 +78,7 @@
     code{font-family:var(--mono);font-size:.93em;background:#f2f4f8;padding:2px 5px;border-radius:4px}
     .footer-inst{margin-top:40px;padding-top:18px;border-top:1px solid var(--line);font:500 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-4)}
     .footer-contact{margin-top:8px;font-size:13px;color:var(--ink-3)}
+    .privacy-choice{display:inline-flex;align-items:center;justify-content:center;min-height:44px;margin-top:14px;padding:0 16px;border:1px solid var(--accent);border-radius:999px;color:#fff;background:var(--accent);font:700 13px var(--sans);cursor:pointer}
     @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
     @media(max-width:780px){.grid{grid-template-columns:1fr}.hero{padding:28px 22px 24px}.header-inner{padding-top:14px;padding-bottom:14px}.main-nav{margin-left:0}}
 
@@ -129,7 +105,7 @@
 <div class="eyebrow">Privacy policy</div>
 <h1>How Cosmos Week handles data and browsing preferences</h1>
 <p class="lead">This policy explains, in direct language, which data may be processed while you browse Cosmos Week, why that may happen, which choices you have and how to contact the project.</p>
-<p class="meta-line">Last updated: April 25, 2026</p>
+<p class="meta-line">Last updated: August 27, 2026</p>
 </section>
 <div class="grid">
 <article class="card">
@@ -140,7 +116,7 @@
 <p>Depending on your consent choices and the features used during the visit, the site may handle data such as pages accessed, time spent, device, browser, language, consent preference, approximate IP address and technical interactions required to load the page.</p>
 </article> <article class="card">
 <h2>3. Consent, analytics and local storage</h2>
-<p>Cosmos Week uses a consent banner to decide whether analytics measurement may be activated. That choice is stored in the browser through local storage. The site may also keep local preferences such as language and the email typed into the newsletter field, but only in the visitor’s own browser in this version.</p><div class="note">At the moment, the newsletter field on the homepage does not send the email to an external database. It only saves it locally in the visitor’s browser.</div>
+<p>Cosmos Week uses a consent banner to decide whether analytics measurement may be activated. That choice is stored in the browser through local storage. Without analytics consent, the Google Analytics library is not loaded and editorial or commercial events are not sent.</p><button class="privacy-choice" type="button" data-cw-cookie-settings>Change cookie preferences</button>
 </article> <article class="card">
 <h2>4. Legal basis and purpose</h2>
 <p>Where applicable, analytics processing depends on your consent. Minimal functionality, security, abuse prevention and content delivery may depend on technical necessity and legitimate interests compatible with the site’s basic operation.</p>

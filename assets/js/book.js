@@ -9,13 +9,23 @@
     currency: 'BRL',
     store: 'clube-de-autores'
   };
+  var productTracked = false;
+
+  function safeCampaignValue(value) {
+    value = String(value || '').trim().slice(0, 100);
+    if (!value || /@|https?:\/\//i.test(value) || /(?:\d[\s().+-]*){7,}/.test(value)) return '';
+    return value
+      .replace(/[^A-Za-z0-9._~-]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+      .slice(0, 64);
+  }
 
   function campaignContext() {
     var result = {};
     try {
       var query = new URLSearchParams(window.location.search);
       ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'].forEach(function (key) {
-        var value = query.get(key);
+        var value = safeCampaignValue(query.get(key));
         if (value) result[key] = value.slice(0, 100);
       });
     } catch (_) {}
@@ -35,7 +45,11 @@
   function track(name, params) {
     var payload = merge(campaignContext(), params || {});
     try {
-      if (typeof window.gtag === 'function') window.gtag('event', name, payload);
+      if (
+        typeof window.cwHasAnalyticsConsent === 'function' &&
+        window.cwHasAnalyticsConsent() &&
+        typeof window.gtag === 'function'
+      ) window.gtag('event', name, payload);
       document.dispatchEvent(new CustomEvent('cw:book-event', {
         detail: { name: name, params: payload }
       }));
@@ -208,8 +222,10 @@
   }
 
   function trackPageProduct() {
+    if (productTracked || typeof window.cwHasAnalyticsConsent !== 'function' || !window.cwHasAnalyticsConsent()) return;
     var type = pageType();
     if (type === 'book') {
+      productTracked = true;
       track('view_item', {
         currency: BOOK.currency,
         value: BOOK.price,
@@ -222,6 +238,7 @@
         currency: BOOK.currency
       });
     } else if (type === 'book-guide') {
+      productTracked = true;
       track('book_guide_view', {
         book_id: BOOK.id,
         book_title: BOOK.name,
@@ -233,6 +250,7 @@
   function init() {
     initNavigation();
     initFaqTracking();
+    document.addEventListener('cw:analytics-consent-granted', trackPageProduct);
     trackPageProduct();
   }
 

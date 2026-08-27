@@ -23,6 +23,22 @@ OLD_GTAG_RE = re.compile(
     re.IGNORECASE | re.DOTALL,
 )
 
+INLINE_GTAG_RE = re.compile(
+    r"\s*<script(?:\s+[^>]*)?>(?P<body>.*?)</script>\s*",
+    re.IGNORECASE | re.DOTALL,
+)
+
+
+def remove_legacy_inline_gtag(match: re.Match[str]) -> str:
+    """Remove only the old self-contained GA bootstrap, preserving other JS."""
+    body = match.group('body')
+    is_legacy_bootstrap = (
+        GA_MEASUREMENT_ID in body
+        and re.search(r"function\s+gtag\s*\(\s*\)", body)
+        and re.search(r"gtag\s*\(\s*['\"]config['\"]", body)
+    )
+    return '\n' if is_legacy_bootstrap else match.group(0)
+
 
 def patch_html(path: Path) -> bool:
     original = path.read_text(encoding='utf-8', errors='ignore')
@@ -31,7 +47,15 @@ def patch_html(path: Path) -> bool:
     if 'googletagmanager.com/gtag/js?id=G-MX20J1ZG06' in text:
         text = OLD_GTAG_RE.sub('\n', text)
 
-    if '/assets/js/cw-analytics.js' not in text:
+    text = INLINE_GTAG_RE.sub(remove_legacy_inline_gtag, text)
+
+    is_noindex = re.search(
+        r'<meta\b[^>]*\bname=["\']robots["\'][^>]*\bcontent=["\'][^"\']*noindex',
+        text,
+        re.IGNORECASE,
+    ) is not None
+
+    if '/assets/js/cw-analytics.js' not in text and not is_noindex:
         text = re.sub(r'(<head\b[^>]*>\s*)', r'\1' + ANALYTICS_TAG, text, count=1, flags=re.IGNORECASE)
 
     if text != original:

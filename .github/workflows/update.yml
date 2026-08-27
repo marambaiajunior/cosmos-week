@@ -105,6 +105,10 @@ jobs:
               Path('livro/vortice-maligno/index.html'),
               Path('livro/vortice-maligno/checklist/index.html'),
               Path('assets/img/livro/vortice-maligno-capa.webp'),
+              Path('assets/img/livro/vortice-maligno-capa-320.avif'),
+              Path('assets/img/livro/vortice-maligno-capa-320.webp'),
+              Path('assets/img/livro/vortice-maligno-capa-1280.avif'),
+              Path('assets/img/livro/vortice-maligno-capa-1280.webp'),
           ]
 
           missing = [str(p) for p in required if not p.exists()]
@@ -121,6 +125,14 @@ jobs:
               raise SystemExit('Sitemap incompleto: menos de 100 URLs')
           print('✓ Arquivos gerados com sucesso e JSON válido')
           PY
+
+      - name: Validar Vórtice Maligno, SEO e consentimento
+        run: |
+          set -euo pipefail
+          python scripts/validate_vortice.py
+          node --check assets/js/cw-analytics.js
+          node --check assets/js/book.js
+          node scripts/test_analytics_consent.mjs
 
       - name: Mostrar alterações geradas
         shell: bash

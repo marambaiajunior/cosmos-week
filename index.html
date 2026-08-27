@@ -4,29 +4,6 @@
 <head>
   <meta charset="utf-8"/>
   <script src="/assets/js/cw-analytics.js" data-ga-id="G-MX20J1ZG06"></script>
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-MX20J1ZG06"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('consent', 'default', {
-      analytics_storage: 'denied',
-      ad_storage: 'denied',
-      ad_user_data: 'denied',
-      ad_personalization: 'denied',
-      wait_for_update: 500
-    });
-    try {
-      const _c = localStorage.getItem('cw_cookie_consent');
-      if (_c === 'full') {
-        gtag('consent', 'update', { analytics_storage:'granted', ad_storage:'granted', ad_user_data:'granted', ad_personalization:'granted' });
-      } else if (_c === 'analytics') {
-        gtag('consent', 'update', { analytics_storage:'granted', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied' });
-      }
-    } catch (e) {}
-    gtag('js', new Date());
-    gtag('config', 'G-MX20J1ZG06', { anonymize_ip: true });
-    window.CW_BOOTSTRAP = { page: 'home', lang: 'pt', rootPath: '/' };
-  </script>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="#07111f" name="theme-color"/>
 <meta content="strict-origin-when-cross-origin" name="referrer"/>
@@ -173,7 +150,13 @@
 </div>
 
 <section class="book-promo" id="vorticeMalignoPromo" aria-labelledby="vorticePromoTitle">
-  <div><img class="book-promo-cover" src="/assets/img/livro/vortice-maligno-capa.webp" alt="Capa do livro Vórtice Maligno" loading="lazy" decoding="async"></div>
+  <div>
+    <picture class="book-promo-picture">
+      <source type="image/avif" srcset="/assets/img/livro/vortice-maligno-capa-320.avif 320w, /assets/img/livro/vortice-maligno-capa-480.avif 480w" sizes="(max-width: 720px) 150px, 230px"/>
+      <source type="image/webp" srcset="/assets/img/livro/vortice-maligno-capa-320.webp 320w, /assets/img/livro/vortice-maligno-capa-480.webp 480w" sizes="(max-width: 720px) 150px, 230px"/>
+      <img class="book-promo-cover" src="/assets/img/livro/vortice-maligno-capa-320.webp" srcset="/assets/img/livro/vortice-maligno-capa-320.webp 320w, /assets/img/livro/vortice-maligno-capa-480.webp 480w" sizes="(max-width: 720px) 150px, 230px" width="320" height="512" alt="Capa do livro Vórtice Maligno, de Humberto Marambaia Junior" loading="lazy" decoding="async"/>
+    </picture>
+  </div>
   <div>
     <div class="book-promo-kicker">Livro • Pseudociência • Pensamento crítico</div>
     <h2 id="vorticePromoTitle">Vórtice Maligno</h2>

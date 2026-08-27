@@ -4,8 +4,11 @@ Este pacote corrige a medição do Google Analytics no Cosmos Week.
 
 ## O que foi corrigido
 
-1. Todas as páginas HTML existentes passam a carregar:
+1. Todas as páginas HTML indexáveis passam a carregar:
    `<script src="/assets/js/cw-analytics.js" data-ga-id="G-MX20J1ZG06"></script>`
+
+   Páginas `noindex`, como a 404 e redirecionamentos técnicos, ficam de fora para
+   não exibir consentimento nem registrar navegação que não integra a experiência.
 
 2. As tags antigas inline do GA foram removidas das páginas principais para evitar duplicação de `page_view`.
 
@@ -15,10 +18,11 @@ Este pacote corrige a medição do Google Analytics no Cosmos Week.
 
 5. O arquivo `assets/js/cw-analytics.js` centraliza:
    - Consent Mode v2;
-   - carregamento do GA4;
+   - carregamento do GA4 somente após consentimento `analytics` ou `full`;
    - `page_view` inicial;
    - `page_view` em navegação SPA via `pushState`, `replaceState` e `popstate`;
    - banner de consentimento automático nas páginas que não tinham banner.
+   - reabertura das preferências para permitir retirada ou mudança da escolha.
 
 ## Como aplicar
 
