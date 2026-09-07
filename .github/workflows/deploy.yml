@@ -26,6 +26,7 @@ jobs:
     # Só publicamos após uma atualização diária bem-sucedida.
     if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -40,13 +41,25 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Corrigir aliases antigos da pasta do livro
+        run: python scripts/normalize_book_paths.py
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+
       - name: Validar Vórtice Maligno, SEO e consentimento
         run: |
           set -euo pipefail
+          python scripts/validate_site.py
           python scripts/validate_vortice.py
+          python -m unittest discover -s scripts -p 'test_*.py'
           node --check assets/js/cw-analytics.js
           node --check assets/js/book.js
+          node --check assets/js/app.js
           node scripts/test_analytics_consent.mjs
+          node scripts/test_app_logic.mjs
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5

@@ -20,6 +20,19 @@
     a { display: inline-flex; min-height: 46px; align-items: center; padding: 0 18px; color: #07111f; background: #fff; border-radius: 10px; font-weight: 700; text-decoration: none; }
     a:focus-visible { outline: 3px solid #67e8f9; outline-offset: 4px; }
   </style>
+  <script>
+    // Preserve the two legacy uppercase book URLs without conflicting folders.
+    const legacyBookRoutes = {
+      '/Livro': '/livro/vortice-maligno/',
+      '/Livro/': '/livro/vortice-maligno/',
+      '/Livro/index.html': '/livro/vortice-maligno/',
+      '/Livro/vortice-maligno/checklist': '/livro/vortice-maligno/checklist/',
+      '/Livro/vortice-maligno/checklist/': '/livro/vortice-maligno/checklist/',
+      '/Livro/vortice-maligno/checklist/index.html': '/livro/vortice-maligno/checklist/'
+    };
+    const correctedBookRoute = legacyBookRoutes[location.pathname];
+    if (correctedBookRoute) location.replace(correctedBookRoute + location.search + location.hash);
+  </script>
 </head>
 <body>
   <main>

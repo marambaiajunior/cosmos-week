@@ -1489,3 +1489,15 @@ body.phase3-premium.modern-editorial .visual-card-body {
   .article-cover .headline-xl { color: #000; text-shadow: none; }
   .article-layout { display: block; margin-top: 2rem; }
 }
+
+/* Reader usability: generous touch targets and stable mobile search. */
+#searchLoadMore { display: block; margin: 24px auto; }
+#searchLoadMore[hidden], #archiveLoadMore[hidden] { display: none; }
+.archive-status .ghost-btn, .search-empty .ghost-btn { margin-inline-start: 12px; }
+.archive-status, .search-empty { line-height: 1.6; }
+.story-grid > *, .compact-body, .header-tools { min-width: 0; }
+@media (max-width: 760px) {
+  .searchbox input { font-size: 16px; min-height: 44px; }
+  .searchbox button, .mobile-nav-toggle { min-width: 44px; min-height: 44px; }
+  .cat-pill, .lang-switch a, .ghost-btn { min-height: 44px; }
+}

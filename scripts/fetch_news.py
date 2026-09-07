@@ -110,8 +110,7 @@ except ValueError:
     LINKED_IMAGE_PAGE_LIMIT = 8
 ALLOW_CONTEXTUAL_IMAGE_BACKFILL = (os.getenv('COSMOS_CONTEXTUAL_IMAGE_BACKFILL', '0') or '0').strip().lower() in {'1', 'true', 'yes'}
 GEMINI_TIMEOUT = max(20, int((os.getenv('GEMINI_TIMEOUT', '45') or '45').strip() or '45'))
-# Reduce Gemini rate to minimise HTTP 429/503 errors. The free tier allows up to
-# 20 requests per minute, but congestion can still make the service unavailable.
+# Conservative pacing; actual quotas depend on the model and Google project.
 try:
     GEMINI_RPM_LIMIT = max(1, int((os.getenv('GEMINI_RPM_LIMIT', '6') or '6').strip()))
 except ValueError:
@@ -133,7 +132,7 @@ try:
 except ValueError:
     GEMINI_RETRY_BASE_DELAY = 8
 GEMINI_PAYLOAD_BODY_LIMIT = 2200
-GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-2.0-flash').strip() or 'gemini-2.0-flash'
+GEMINI_MODEL = os.getenv('GEMINI_MODEL', 'gemini-3.5-flash-lite').strip() or 'gemini-3.5-flash-lite'
 GEMINI_MODEL_FALLBACKS = [m.strip() for m in (os.getenv('GEMINI_MODEL_FALLBACKS', '') or '').split(',') if m.strip()]
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', '').strip()
 GEMINI_ENDPOINT_TEMPLATE = 'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
@@ -583,6 +582,7 @@ _GEMINI_CALL_TIMES: list[float] = []
 _GEMINI_CONSECUTIVE_503 = 0
 _GEMINI_DISABLED_THIS_RUN = False
 _GEMINI_UNAVAILABLE_MODELS: set[str] = set()
+_GEMINI_REVIEW_DEADLINE: float | None = None
 
 
 # ── Utility functions ─────────────────────────────────────────────────────────
@@ -2234,7 +2234,7 @@ def _gemini_models() -> list[str]:
     seen = set()
     ordered = []
     for model in models:
-        model = collapse_ws(model)
+        model = collapse_ws(model).removeprefix('models/')
         if not model or model in seen or model in _GEMINI_UNAVAILABLE_MODELS:
             continue
         seen.add(model)
@@ -2280,133 +2280,178 @@ def gemini_probe() -> bool:
     print('⚠️  Gemini indisponível no probe inicial; revisão será pulada nesta execução.')
     return False
 
-def _gemini_rate_limit_wait() -> None:
-    """Aguarda o tempo necessário para não ultrapassar GEMINI_RPM_LIMIT req/min.
+def _gemini_wait(seconds: float) -> bool:
+    """Do not let pacing or retries overrun the review's wall-clock budget."""
+    import time
+    if _GEMINI_DISABLED_THIS_RUN:
+        return False
+    if _GEMINI_REVIEW_DEADLINE is not None and time.monotonic() + max(0, seconds) >= _GEMINI_REVIEW_DEADLINE:
+        _disable_gemini_for_run('limite de tempo de revisão atingido')
+        return False
+    if seconds > 0:
+        time.sleep(seconds)
+    return True
 
-    Mantém uma janela deslizante de 60 segundos dos timestamps das chamadas.
-    Se a janela já estiver cheia, dorme até que a chamada mais antiga saia dela.
-    """
-    import time as _time
-    now = _time.monotonic()
-    # Remove chamadas mais velhas que 60 segundos
-    cutoff = now - 60.0
-    while _GEMINI_CALL_TIMES and _GEMINI_CALL_TIMES[0] < cutoff:
-        _GEMINI_CALL_TIMES.pop(0)
-    if len(_GEMINI_CALL_TIMES) >= GEMINI_RPM_LIMIT:
-        # Espera até a mais antiga completar 60s
-        wait = 60.0 - (now - _GEMINI_CALL_TIMES[0]) + 0.5   # +0.5s de margem
-        if wait > 0:
-            print(f'    [Gemini] rate limit: aguardando {wait:.1f}s ...')
-            _time.sleep(wait)
-    _GEMINI_CALL_TIMES.append(_time.monotonic())
+
+def _gemini_rate_limit_wait() -> bool:
+    import time
+    now = time.monotonic()
+    _GEMINI_CALL_TIMES[:] = [stamp for stamp in _GEMINI_CALL_TIMES if now - stamp < 60]
+    wait = max(0, 60 - (now - _GEMINI_CALL_TIMES[0]) + .5) if len(_GEMINI_CALL_TIMES) >= GEMINI_RPM_LIMIT else 0
+    if not _gemini_wait(wait):
+        return False
+    _GEMINI_CALL_TIMES.append(time.monotonic())
+    return True
+
+
+def _gemini_error_info(raw: str) -> tuple[str, dict]:
+    try:
+        payload = json.loads(raw)
+        error = payload.get('error', {}) if isinstance(payload, dict) else {}
+        if isinstance(error, dict):
+            return str(error.get('message') or ''), error
+    except (ValueError, TypeError):
+        pass
+    return raw, {}
+
+
+def _gemini_permanent_quota(message: str, error: dict) -> bool:
+    text = message.lower()
+    if any(term in text for term in (
+        'prepayment credits are depleted', 'insufficient credits', 'credits exhausted',
+        'billing account', 'billing is disabled', 'billing must be enabled',
+        'daily quota', 'daily limit', 'per day',
+    )):
+        return True
+    for detail in error.get('details', []) or []:
+        if not isinstance(detail, dict):
+            continue
+        for violation in detail.get('violations', []) or []:
+            if not isinstance(violation, dict):
+                continue
+            metric = str(violation.get('quotaMetric', '')) + str(violation.get('quotaId', ''))
+            if 'perday' in metric.lower() or 'per_day' in metric.lower():
+                return True
+            if str(violation.get('quotaValue', '')) == '0':
+                return True
+    return False
+
+
+def _gemini_retry_delay(headers, error: dict, default: float) -> float:
+    """Honor Retry-After / RetryInfo, always within the caller's time budget."""
+    values = [float(default)]
+    try:
+        raw = headers.get('Retry-After', '') if headers else ''
+        if raw:
+            try:
+                values.append(float(raw))
+            except ValueError:
+                values.append((parsedate_to_datetime(raw) - datetime.now(timezone.utc)).total_seconds())
+    except (ValueError, TypeError, OverflowError):
+        pass
+    for detail in error.get('details', []) or []:
+        if isinstance(detail, dict):
+            delay = re.fullmatch(r'(\d+(?:\.\d+)?)s', str(detail.get('retryDelay', '')))
+            if delay:
+                values.append(float(delay.group(1)))
+    return max(values)
 
 
 def call_gemini_json(task_key: str, prompt: str):
     import socket
-    import time as _time
+    import time
 
-    global _GEMINI_CONSECUTIVE_503, _GEMINI_DISABLED_THIS_RUN
-
-    if not GEMINI_API_KEY:
-        return None
-    if _GEMINI_DISABLED_THIS_RUN:
+    global _GEMINI_CONSECUTIVE_503
+    if not GEMINI_API_KEY or _GEMINI_DISABLED_THIS_RUN:
         return None
     cache_key = (task_key, prompt)
     if cache_key in GEMINI_CACHE:
         return GEMINI_CACHE[cache_key]
-
     models = _gemini_models()
     if not models:
-        GEMINI_CACHE[cache_key] = None
+        _disable_gemini_for_run('nenhum modelo configurado está disponível')
         return None
 
     body = {
         'contents': [{'parts': [{'text': prompt}]}],
-        'generationConfig': {
-            'temperature': 0.1,
-            'responseMimeType': 'application/json',
-        },
+        'generationConfig': {'responseMimeType': 'application/json'},
     }
     data = json.dumps(body, ensure_ascii=False).encode('utf-8')
     transient_codes = {408, 500, 502, 503, 504}
-    unavailable_codes = {400, 404}
-
     for model in models:
         endpoint = GEMINI_ENDPOINT_TEMPLATE.format(model=urllib.parse.quote(model, safe=''))
-        url = f'{endpoint}?key={urllib.parse.quote(GEMINI_API_KEY)}'
-        retry_on_429 = max(0, GEMINI_RETRY_ON_429)
-        retry_transient = max(0, GEMINI_RETRY_TRANSIENT)
-        max_attempts = 1 + max(retry_on_429, retry_transient)
-
-        for attempt in range(max_attempts):
-            req = urllib.request.Request(
-                url,
-                data=data,
-                method='POST',
-                headers={
-                    'Content-Type': 'application/json; charset=utf-8',
-                    'User-Agent': USER_AGENT,
-                },
-            )
-            _gemini_rate_limit_wait()
+        retries_429 = 0
+        retries_transient = 0
+        while not _GEMINI_DISABLED_THIS_RUN:
+            if not _gemini_rate_limit_wait():
+                return None
+            timeout = GEMINI_TIMEOUT
+            if _GEMINI_REVIEW_DEADLINE is not None:
+                timeout = min(timeout, max(.1, _GEMINI_REVIEW_DEADLINE - time.monotonic()))
+            req = urllib.request.Request(endpoint, data=data, method='POST', headers={
+                'Content-Type': 'application/json; charset=utf-8',
+                'User-Agent': USER_AGENT,
+                'x-goog-api-key': GEMINI_API_KEY,
+            })
             try:
-                with urllib.request.urlopen(req, timeout=GEMINI_TIMEOUT) as response:
-                    raw = response.read().decode('utf-8', errors='ignore')
-                parsed = json.loads(raw)
+                with urllib.request.urlopen(req, timeout=timeout) as response:
+                    parsed = json.loads(response.read().decode('utf-8'))
                 out = _extract_json_from_text(_gemini_response_text(parsed))
                 _GEMINI_CONSECUTIVE_503 = 0
                 GEMINI_CACHE[cache_key] = out
                 return out
             except urllib.error.HTTPError as exc:
-                try:
-                    err_body = exc.read().decode('utf-8', errors='ignore')[:400]
-                except Exception:
-                    err_body = '(sem corpo)'
-
-                if exc.code == 429 and attempt < retry_on_429:
-                    wait = GEMINI_RETRY_DELAY_429
-                    print(f'    [Gemini:{model}] 429 quota — aguardando {wait}s e tentando novamente ({attempt + 1}/{retry_on_429}) ...')
-                    _time.sleep(wait)
-                    continue
-
-                if exc.code in transient_codes and attempt < retry_transient:
-                    wait = GEMINI_RETRY_BASE_DELAY * (attempt + 1)
-                    print(f'    [Gemini:{model}] HTTP {exc.code} transitório — aguardando {wait}s e tentando novamente ({attempt + 1}/{retry_transient}) ...')
-                    _time.sleep(wait)
-                    continue
-
-                print(f'ERR Gemini {model} HTTP {exc.code} ({exc.reason}): {err_body}')
-
-                if exc.code in unavailable_codes:
-                    _mark_gemini_model_unavailable(model, f'HTTP {exc.code}')
-                    if model == GEMINI_MODEL:
-                        _disable_gemini_for_run(f'modelo principal inválido ({model}, HTTP {exc.code})')
-                    _GEMINI_CONSECUTIVE_503 = 0
-                    break
-
-                if exc.code == 503:
-                    _GEMINI_CONSECUTIVE_503 += 1
-                    if _GEMINI_CONSECUTIVE_503 >= GEMINI_DISABLE_AFTER_CONSECUTIVE_503:
-                        _disable_gemini_for_run(f'{_GEMINI_CONSECUTIVE_503} falhas consecutivas HTTP 503 do modelo principal')
-                        GEMINI_CACHE[cache_key] = None
+                message, error = _gemini_error_info(exc.read(65536).decode('utf-8', errors='replace'))
+                # Never expose credentials, URLs containing credentials or source text.
+                print(f'AVISO Gemini {model}: HTTP {exc.code}')
+                if exc.code in {401, 403} or (exc.code == 400 and 'api key' in message.lower()):
+                    _disable_gemini_for_run('chave inválida ou acesso negado; verifique o projeto Google')
+                    return None
+                if exc.code == 429:
+                    if _gemini_permanent_quota(message, error):
+                        _disable_gemini_for_run('créditos esgotados ou quota diária indisponível; revisão pulada, conteúdo preservado')
                         return None
-                else:
-                    _GEMINI_CONSECUTIVE_503 = 0
+                    if retries_429 < GEMINI_RETRY_ON_429:
+                        wait = _gemini_retry_delay(exc.headers, error, GEMINI_RETRY_DELAY_429 * 2 ** retries_429)
+                        retries_429 += 1
+                        if _gemini_wait(wait):
+                            continue
+                        return None
+                    # Do not loop over articles/models to work around a project quota.
+                    _disable_gemini_for_run('HTTP 429 persistente após tentativas limitadas; revisão pulada')
+                    return None
+                if exc.code == 404:
+                    _mark_gemini_model_unavailable(model, 'HTTP 404')
+                    break  # Try only explicitly configured alternate models.
+                if exc.code == 400:
+                    _disable_gemini_for_run('requisição Gemini inválida (HTTP 400); verifique a configuração')
+                    return None
+                if exc.code in transient_codes:
+                    if exc.code == 503:
+                        _GEMINI_CONSECUTIVE_503 += 1
+                        if _GEMINI_CONSECUTIVE_503 >= GEMINI_DISABLE_AFTER_CONSECUTIVE_503:
+                            _disable_gemini_for_run('serviço indisponível após falhas HTTP 503 consecutivas')
+                            return None
+                    if retries_transient < GEMINI_RETRY_TRANSIENT:
+                        wait = _gemini_retry_delay(exc.headers, error, GEMINI_RETRY_BASE_DELAY * 2 ** retries_transient)
+                        retries_transient += 1
+                        if _gemini_wait(wait):
+                            continue
+                        return None
                 break
-            except (urllib.error.URLError, TimeoutError, socket.timeout) as exc:
-                if attempt < retry_transient:
-                    wait = GEMINI_RETRY_BASE_DELAY * (attempt + 1)
-                    print(f'    [Gemini:{model}] timeout/rede — aguardando {wait}s e tentando novamente ({attempt + 1}/{retry_transient}) ...')
-                    _time.sleep(wait)
-                    continue
-                print(f'ERR Gemini {model}: {exc}')
-                _GEMINI_CONSECUTIVE_503 = 0
+            except (urllib.error.URLError, TimeoutError, socket.timeout):
+                if retries_transient < GEMINI_RETRY_TRANSIENT:
+                    wait = GEMINI_RETRY_BASE_DELAY * 2 ** retries_transient
+                    retries_transient += 1
+                    if _gemini_wait(wait):
+                        continue
+                print(f'AVISO Gemini {model}: falha de rede ou timeout; usando conteúdo sem revisão')
                 break
-            except Exception as exc:
-                print(f'ERR Gemini {model}: {exc}')
-                _GEMINI_CONSECUTIVE_503 = 0
+            except (ValueError, KeyError, TypeError, AttributeError):
+                print(f'AVISO Gemini {model}: resposta inválida; usando conteúdo sem revisão')
                 break
-
+    if not _gemini_models():
+        _disable_gemini_for_run('todos os modelos configurados estão indisponíveis')
     GEMINI_CACHE[cache_key] = None
     return None
 
@@ -4930,105 +4975,7 @@ def render_static_article_page(post: dict, lang: str = 'pt') -> str:
   <meta name="twitter:image" content="{html_escape_attr(image_raw)}">
   <meta name="twitter:image:alt" content="{html_escape_attr(image_alt)}">
   <script type="application/ld+json">{json_ld}</script>
-  <style>
-    :root {{
-      --bg:#f6f3ed; --panel:#ffffff; --panel-soft:#fbfaf7; --ink:#181714; --muted:#615b55; --line:#ddd6cb;
-      --accent:#1451a0; --accent-dark:#0d3a75; --accent-soft:#eef4fc; --accent-ink:#133255; --shadow:0 14px 42px rgba(14,18,25,.08);
-    }}
-    * {{ box-sizing:border-box; }}
-    html {{ scroll-behavior:smooth; -webkit-text-size-adjust:100%; }}
-    body {{ margin:0; background:linear-gradient(180deg,#faf8f3 0%, #f5f2eb 100%); color:var(--ink); font:19px/1.85 Georgia, 'Times New Roman', serif; text-rendering:optimizeLegibility; }}
-    img {{ max-width:100%; height:auto; }}
-    a {{ color:var(--accent); text-decoration:none; }}
-    a:hover {{ text-decoration:underline; }}
-    .skip-link {{ position:absolute; left:16px; top:-56px; z-index:30; padding:10px 14px; border-radius:10px; background:#fff; color:var(--ink); border:2px solid var(--accent); box-shadow:var(--shadow); font:600 13px/1.2 Arial, sans-serif; }}
-    .skip-link:focus-visible {{ top:16px; }}
-    a:focus-visible, button:focus-visible, [role="link"]:focus-visible {{ outline:3px solid rgba(20,81,160,.28); outline-offset:3px; box-shadow:0 0 0 2px rgba(13,58,117,.12); }}
-    .wrap {{ max-width:1240px; margin:0 auto; padding:28px 18px 72px; }}
-    .top {{ display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:18px; font:600 12px/1.4 Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; }}
-    .brand {{ color:var(--accent-dark); letter-spacing:.12em; }}
-    .utility-links {{ display:flex; gap:10px; flex-wrap:wrap; }}
-    .pill-link {{ display:inline-flex; align-items:center; padding:8px 12px; border:1px solid var(--line); border-radius:999px; background:#fff; }}
-    .card {{ background:var(--panel); border:1px solid var(--line); box-shadow:var(--shadow); border-radius:24px; overflow:hidden; }}
-    .hero {{ width:100%; aspect-ratio:16/8.2; object-fit:cover; background:#ece8de; border-bottom:1px solid var(--line); }}
-    main:focus {{ outline:none; }}
-    .content {{ padding:28px 28px 34px; }}
-    .breadcrumbs {{ display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:0 0 18px; color:var(--muted); font:600 12px/1.4 Arial, sans-serif; letter-spacing:.04em; text-transform:uppercase; }}
-    .breadcrumbs .sep {{ opacity:.55; }}
-    .breadcrumbs a {{ color:var(--muted); }}
-    .kicker-row {{ display:flex; flex-wrap:wrap; gap:10px; margin:0 0 18px; font:700 11px/1.2 Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; }}
-    .kicker-row span {{ display:inline-flex; align-items:center; padding:8px 11px; border-radius:999px; background:#eef4fc; color:var(--accent-dark); border:1px solid #d7e4f8; }}
-    .hero-head {{ display:grid; gap:14px; margin-bottom:18px; }}
-    h1 {{ font-size:clamp(2.2rem,4vw,3.5rem); line-height:1.04; margin:0; max-width:980px; }}
-    .dek {{ font-size:1.12rem; color:#2f2b26; margin:0; max-width:820px; }}
-    .editorial-strap {{ display:inline-flex; align-items:center; gap:10px; flex-wrap:wrap; color:var(--accent-ink); font:700 13px/1.5 Arial, sans-serif; background:var(--accent-soft); border:1px solid #d6e4f9; padding:12px 14px; border-radius:16px; }}
-    .editorial-strap strong {{ color:var(--accent-dark); }}
-    .meta-grid {{ display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin:20px 0 28px; }}
-    .meta-chip {{ background:var(--panel-soft); border:1px solid var(--line); border-radius:16px; padding:12px 14px; min-height:78px; }}
-    .meta-chip span {{ display:block; color:var(--muted); font:600 11px/1.4 Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; margin-bottom:7px; }}
-    .meta-chip strong {{ display:block; font:600 15px/1.5 Arial, sans-serif; color:var(--ink); }}
-    .article-grid {{ display:grid; grid-template-columns:minmax(0,1fr) 320px; gap:28px; align-items:start; }}
-    .main-story {{ min-width:0; }}
-    .sidebar {{ display:grid; gap:18px; position:sticky; top:22px; }}
-    .editorial-panel {{ margin:0; padding:18px 18px 16px; border-radius:18px; background:var(--panel-soft); border:1px solid var(--line); box-shadow:0 10px 30px rgba(13,18,25,.04); }}
-    .editorial-panel h2 {{ margin:0 0 10px; font:700 1rem/1.3 Arial, sans-serif; color:var(--ink); }}
-    .editorial-panel p, .editorial-panel li {{ color:#2d2a26; font:400 15px/1.7 Arial, sans-serif; }}
-    .body-label {{ color:var(--muted); font:700 12px/1.3 Arial, sans-serif; letter-spacing:.1em; text-transform:uppercase; margin:0 0 14px; }}
-    .body {{ font-size:1.04em; max-width:70ch; }}
-    .body p {{ margin:0 0 1.28em; }}
-    .body blockquote {{ margin:1.4em 0; padding:0 0 0 18px; border-left:3px solid #cfdcf2; color:#2b3947; font-style:italic; }}
-    .preview-video {{ margin:0 0 24px; }}
-    .preview-video-frame {{ position:relative; width:100%; aspect-ratio:16/9; border-radius:16px; overflow:hidden; background:#0b1220; }}
-    .preview-video-frame iframe, .preview-video-frame video {{ width:100%; height:100%; border:0; display:block; }}
-    .preview-video figcaption, .preview-inline-figure figcaption {{ color:var(--muted); font:400 14px/1.55 Arial, sans-serif; margin-top:8px; }}
-    .preview-gallery {{ display:grid; grid-template-columns:1fr; gap:18px; margin:26px 0 0; }}
-    .preview-inline-figure {{ margin:0; }}
-    .preview-inline-figure img {{ width:100%; border-radius:16px; display:block; background:#ece8de; }}
-    .highlights ul {{ margin:0; padding-left:20px; }}
-    .highlights li {{ margin:0 0 8px; }}
-    .source-link {{ margin-top:22px; color:#333; font:400 15px/1.6 Arial, sans-serif; }}
-    .story-tools {{ display:grid; gap:10px; }}
-    .story-tool-btn, .story-link-btn {{ display:inline-flex; align-items:center; justify-content:center; width:100%; min-height:44px; padding:12px 14px; border-radius:999px; border:1px solid var(--line); background:#fff; color:var(--ink); font:600 14px/1.2 Arial, sans-serif; cursor:pointer; text-align:center; }}
-    .story-tool-btn.primary, .story-link-btn.primary {{ background:var(--accent); color:#fff; border-color:var(--accent); }}
-    .story-tool-status {{ color:var(--muted); font:500 12px/1.4 Arial, sans-serif; min-height:18px; }}
-    .related-list {{ display:grid; gap:12px; }}
-    .related-item {{ display:block; padding:14px 14px 12px; border:1px solid var(--line); border-radius:16px; background:#fff; }}
-    .related-item:hover {{ text-decoration:none; border-color:#c9d8ee; box-shadow:0 8px 24px rgba(20,81,160,.08); }}
-    .related-kicker {{ color:var(--accent-dark); font:700 11px/1.3 Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; margin-bottom:6px; }}
-    .related-title {{ color:var(--ink); font:700 15px/1.4 Arial, sans-serif; margin-bottom:4px; }}
-    .related-meta {{ color:var(--muted); font:500 12px/1.5 Arial, sans-serif; }}
-    .footer-links {{ display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; font:600 14px/1.4 Arial, sans-serif; }}
-    .btn {{ display:inline-flex; align-items:center; justify-content:center; padding:12px 16px; border-radius:999px; border:1px solid var(--line); background:#fff; }}
-    .btn.primary {{ background:var(--accent); color:#fff; border-color:var(--accent); }}
-    .article-footer-note {{ margin-top:14px; color:var(--muted); font:500 13px/1.6 Arial, sans-serif; }}
-    .book-context-box {{ margin:34px 0 6px; padding:24px; border:1px solid #dcc7b2; border-radius:20px; background:linear-gradient(135deg,#fbf6ee,#f2e7d9); color:#2b2723; }}
-    .book-context-kicker {{ margin-bottom:8px; color:#95563a; font:800 11px/1.3 Arial,sans-serif; letter-spacing:.1em; text-transform:uppercase; }}
-    .book-context-box h2 {{ margin:0 0 10px; font:700 clamp(22px,3vw,30px)/1.1 Georgia,'Times New Roman',serif; color:#2b2723; }}
-    .book-context-box p {{ margin:0; color:#5e554d; font:400 15px/1.7 Arial,sans-serif; }}
-    .book-context-actions {{ display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; }}
-    .book-context-btn {{ display:inline-flex; align-items:center; justify-content:center; min-height:42px; padding:10px 14px; border:1px solid #b88d70; border-radius:999px; color:#6f3f2d; background:#fffaf4; font:700 13px/1.2 Arial,sans-serif; }}
-    .book-context-btn:hover {{ text-decoration:none; }}
-    .book-context-btn.primary {{ color:#fff; background:#8d4f36; border-color:#8d4f36; }}
-    @media (max-width: 980px) {{
-      .article-grid {{ grid-template-columns:1fr; }}
-      .sidebar {{ position:static; order:2; }}
-      .body {{ max-width:none; }}
-      .meta-grid {{ grid-template-columns:repeat(2,minmax(0,1fr)); }}
-    }}
-    @media (max-width: 640px) {{
-      body {{ font-size:17px; }}
-      .content {{ padding:22px 16px 28px; }}
-      .wrap {{ padding:16px 12px 44px; }}
-      .top {{ align-items:flex-start; }}
-      .meta-grid {{ grid-template-columns:1fr; }}
-      .hero {{ aspect-ratio:16/10; }}
-      .story-tool-btn, .story-link-btn {{ width:100%; }}
-    }}
-    @media (prefers-reduced-motion: reduce) {{
-      html {{ scroll-behavior:auto; }}
-      *, *::before, *::after {{ animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; scroll-behavior:auto !important; }}
-    }}
-  </style>
+  <link rel="stylesheet" href="/assets/css/article-base-9074bbeafde7.css">
 </head>
 <body>
   <a class="skip-link" href="#articleMain">{'Skip to main content' if is_en else 'Pular para o conteúdo principal'}</a>
@@ -5556,14 +5503,24 @@ def enrich_posts_media(posts: list[dict]) -> None:
 
 
 def summary_index_posts(posts: list[dict]) -> list[dict]:
-    """Build the lightweight first-load index while preserving media metadata."""
-    omit = {'body', 'body_pt', 'body_en', '_preserveContent'}
+    """Public cards only; full articles and galleries are loaded when opened."""
+    fields = json.loads((ROOT / 'scripts' / 'public_card_fields.json').read_text(encoding='utf-8'))
     slim = []
     for post in posts:
-        if not isinstance(post, dict):
+        if not isinstance(post, dict) or not post.get('slug'):
             continue
-        slim.append({k: v for k, v in post.items() if k not in omit})
+        source = {**post, 'imageCount': len(post.get('inline_images') or [])}
+        card = {}
+        for key in fields:
+            value = source.get(key)
+            if value is None or value == '' or value == []:
+                continue
+            if key.endswith(('_pt', '_en')) and key[:-3] in fields and value == source.get(key[:-3]):
+                continue
+            card[key] = value
+        slim.append(card)
     return slim
+
 
 def save_posts(posts: list[dict]) -> None:
     # Atualiza mídia de posts preservados antes de serializar qualquer artefato.
@@ -5583,7 +5540,7 @@ def save_posts(posts: list[dict]) -> None:
     )
     POSTS_INDEX_JSON.parent.mkdir(parents=True, exist_ok=True)
     POSTS_INDEX_JSON.write_text(
-        json.dumps(summary_index_posts(output_posts), ensure_ascii=False, indent=2),
+        json.dumps(summary_index_posts(output_posts), ensure_ascii=False, separators=(',', ':')),
         encoding='utf-8'
     )
 
@@ -5674,7 +5631,9 @@ def batch_review_all_posts(posts: list[dict]) -> None:
     fallback_count = 0
 
     import time as _time
+    global _GEMINI_REVIEW_DEADLINE
     review_started_at = _time.monotonic()
+    _GEMINI_REVIEW_DEADLINE = review_started_at + GEMINI_MAX_REVIEW_SECONDS
 
     if GEMINI_BATCH_SIZE <= 1:
         total = len(queue)
@@ -5810,6 +5769,14 @@ def main() -> None:
     items = load_all_items()
     print(f'\nTotal bruto: {len(items)} itens de {len(SOURCES)} fontes')
     ranked = dedupe_and_rank(items)
+    if not ranked:
+        write_run_new_slugs([])
+        if POSTS_JSON.exists():
+            previous = json.loads(POSTS_JSON.read_text(encoding='utf-8'))
+            if isinstance(previous, list) and previous:
+                print('::warning::Nenhuma notícia elegível recebida. Edição anterior preservada.')
+                return
+        raise SystemExit('Nenhuma notícia elegível e nenhum snapshot válido disponível.')
     existing_lookup = load_existing_posts_lookup()
     posts = []
     new_posts = []

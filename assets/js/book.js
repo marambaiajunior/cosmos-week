@@ -189,13 +189,24 @@
   function initNavigation() {
     var toggle = document.getElementById('mobileNavToggle');
     var nav = document.getElementById('mainNav');
-    if (!toggle || !nav) return;
+    if (!toggle || !nav || !/^(book|book-guide)$/.test(document.body?.dataset?.cwPage || '') || toggle.dataset.cwNavigationBound) return;
+    toggle.dataset.cwNavigationBound = 'book';
 
     toggle.addEventListener('click', function () {
       var open = toggle.getAttribute('aria-expanded') === 'true';
       toggle.setAttribute('aria-expanded', String(!open));
       toggle.setAttribute('aria-label', open ? 'Abrir menu' : 'Fechar menu');
       nav.classList.toggle('open', !open);
+      document.body.classList.toggle('nav-open', !open);
+    });
+
+    document.addEventListener('keydown', function (event) {
+      if (event.key !== 'Escape' || toggle.getAttribute('aria-expanded') !== 'true') return;
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-label', 'Abrir menu');
+      nav.classList.remove('open');
+      document.body.classList.remove('nav-open');
+      toggle.focus();
     });
 
     nav.addEventListener('click', function (event) {
@@ -203,6 +214,7 @@
       toggle.setAttribute('aria-expanded', 'false');
       toggle.setAttribute('aria-label', 'Abrir menu');
       nav.classList.remove('open');
+      document.body.classList.remove('nav-open');
     });
   }
 

@@ -28,7 +28,7 @@ const EXTRA_UI = {
     visualLeadTitle: 'Edição em destaque',
     visualLeadKicker: 'Veja os destaques de hoje.',
     archiveHeroTitle: 'Arquivo de notícias',
-    archiveHeroKicker: 'Melhor portal de noticias do Brasil.',
+    archiveHeroKicker: 'Explore notícias científicas por tema, título ou fonte.',
     archiveStatsStories: 'matérias visíveis',
     archiveStatsTopics: 'áreas de cobertura',
     archiveStatsLanguages: 'idiomas',
@@ -36,36 +36,36 @@ const EXTRA_UI = {
     archiveLoaded: 'Arquivo completo carregado.',
     archiveNoItems: 'Nenhuma matéria encontrada nesta área no momento.',
     topicNavTitle: 'Navegue por tema',
-    topicNavKicker: 'Escolha a porta de entrada editorial antes de cair no fluxo cronológico.',
+    topicNavKicker: 'Explore os assuntos que mais despertam sua curiosidade.',
     localNavAbout: 'Sobre',
     localNavStandards: 'Padrões',
     localNavArchive: 'Arquivo',
     aboutEyebrow: 'Institucional',
-    aboutHeadline: 'Cosmos Week como portal de notícias científicas, não como espelho automático de releases',
-    aboutIntro2: 'A arquitetura desta fase reorganiza navegação, arquivo e páginas institucionais para leitura editorial real.',
+    aboutHeadline: 'Sobre o Cosmos Week',
+    aboutIntro2: 'Notícias científicas em português e inglês, com fontes identificadas e espaço para contexto, método e incerteza.',
     aboutCards: [
       { title: 'Missão editorial', body: 'Cobrir ciência com hierarquia de informação, contexto e distinção visível entre anúncio institucional, paper revisado, jornalismo científico e preprint.' },
-      { title: 'Arquitetura de descoberta', body: 'A navegação agora privilegia home, arquivo e temas persistentes. O leitor não depende apenas de uma fila cronológica.' },
-      { title: 'Estrutura bilíngue', body: 'Português e inglês ganham rotas limpas próprias para home, arquivo e páginas institucionais.' },
+      { title: 'Arquitetura de descoberta', body: 'Encontre a cobertura recente na página inicial e explore publicações anteriores no arquivo, por tema ou pela busca.' },
+      { title: 'Estrutura bilíngue', body: 'Leia em português ou inglês e compartilhe o endereço da matéria no idioma escolhido.' },
       { title: 'Prioridade visual', body: 'Na tela principal, cards visuais puxam a atenção. Texto mais longo fica dentro da notícia, onde faz sentido.' }
     ],
-    aboutChecklistTitle: 'Compromissos desta fase',
+    aboutChecklistTitle: 'Nossos compromissos',
     aboutChecklist: [
       'home com hierarquia editorial mais clara',
       'arquivo com destaque visual e navegação por tema',
       'páginas institucionais com propósito definido',
-      'compatibilidade com a base estabilizada na fase anterior'
+      'fontes acessíveis para conferir a informação'
     ],
     standardsEyebrow: 'Método',
-    standardsHeadline: 'Padrões editoriais visíveis na arquitetura, não escondidos no rodapé',
+    standardsHeadline: 'Como apresentamos a ciência',
     standardsIntro2: 'Menos ruído institucional, menos espetáculo vazio, mais rastreabilidade do que está sendo publicado.',
     standardsCards2: [
       { title: 'Fonte identificada', body: 'A origem do material continua visível e integrada aos cards e às matérias.' },
       { title: 'Preprint tratado como provisório', body: 'Resultados sem revisão por pares entram com aviso explícito, sem maquiagem de certeza.' },
       { title: 'Home para chamar atenção, artigo para aprofundar', body: 'A capa favorece entrada visual e escaneabilidade. O contexto denso fica concentrado dentro da matéria.' },
-      { title: 'Arquivo como produto editorial', body: 'O acervo deixa de ser sobra da home e passa a funcionar como página central de descoberta.' },
+      { title: 'Arquivo como produto editorial', body: 'O arquivo mantém publicações anteriores acessíveis para acompanhar a evolução dos temas ao longo do tempo.' },
       { title: 'Rotas limpas PT/EN', body: 'A experiência institucional e de navegação usa caminhos reais em português e inglês.' },
-      { title: 'Componentes reutilizáveis', body: 'Header, navegação principal, faixa temática, widgets laterais e navegação contextual passam a ser reutilizados.' }
+      { title: 'Verifique a fonte', body: 'Os links para as fontes originais permitem consultar métodos, resultados e limitações diretamente na publicação de origem.' }
     ],
     standardsWorkflowTitle: 'Fluxo editorial resumido',
     standardsWorkflow: [
@@ -79,9 +79,9 @@ const EXTRA_UI = {
   },
   en: {
     visualLeadTitle: 'Featured edition',
-    visualLeadKicker: 'The homepage now opens with visual priority. Images and video do the grabbing; the deeper reading happens inside each story.',
+    visualLeadKicker: 'Explore the highlights of this edition.',
     archiveHeroTitle: 'News archive',
-    archiveHeroKicker: 'The archive stops behaving like an opaque chronological dump and becomes a discovery page with topical entry points and visual highlights.',
+    archiveHeroKicker: 'Explore science stories by topic, title or source.',
     archiveStatsStories: 'visible stories',
     archiveStatsTopics: 'coverage areas',
     archiveStatsLanguages: 'languages',
@@ -89,36 +89,36 @@ const EXTRA_UI = {
     archiveLoaded: 'Complete archive loaded.',
     archiveNoItems: 'No stories found in this area right now.',
     topicNavTitle: 'Browse by topic',
-    topicNavKicker: 'Choose the editorial doorway before falling into the chronological stream.',
+    topicNavKicker: 'Explore the subjects you want to understand.',
     localNavAbout: 'About',
     localNavStandards: 'Standards',
     localNavArchive: 'Archive',
     aboutEyebrow: 'Institutional',
-    aboutHeadline: 'Cosmos Week as a science news portal, not as an automatic release mirror',
-    aboutIntro2: 'This phase reorganizes navigation, archive and institutional pages for actual editorial reading.',
+    aboutHeadline: 'About Cosmos Week',
+    aboutIntro2: 'Science news in Portuguese and English, with identified sources and room for context, methods and uncertainty.',
     aboutCards: [
       { title: 'Editorial mission', body: 'Cover science with information hierarchy, context and visible distinction between institutional announcement, peer-reviewed paper, science reporting and preprint.' },
-      { title: 'Discovery architecture', body: 'Navigation now privileges home, archive and persistent topics. Readers are no longer trapped in a single chronological rail.' },
-      { title: 'Bilingual structure', body: 'Portuguese and English now have clean dedicated routes for home, archive and institutional pages.' },
+      { title: 'Discovery architecture', body: 'Find recent coverage on the homepage and explore earlier publications in the archive, by topic or through search.' },
+      { title: 'Bilingual structure', body: 'Read in Portuguese or English and share the story in your chosen language.' },
       { title: 'Visual priority', body: 'On the main screen, visual cards pull attention first. Longer text is saved for inside the story.' }
     ],
-    aboutChecklistTitle: 'Commitments in this phase',
+    aboutChecklistTitle: 'Our commitments',
     aboutChecklist: [
       'homepage with clearer editorial hierarchy',
       'archive with visual highlights and topical entry points',
       'institutional pages with defined roles',
-      'compatibility with the stabilized base from the previous phase'
+      'accessible sources for checking information'
     ],
     standardsEyebrow: 'Method',
-    standardsHeadline: 'Editorial standards visible in the architecture, not buried in the footer',
+    standardsHeadline: 'How we present science',
     standardsIntro2: 'Less institutional noise, less empty spectacle, more traceability around what is being published.',
     standardsCards2: [
       { title: 'Source identified', body: 'The source remains visible and integrated into cards and stories.' },
       { title: 'Preprints treated as provisional', body: 'Non-peer-reviewed results enter with explicit warnings rather than fake certainty.' },
       { title: 'Homepage to attract, article to deepen', body: 'The front page favors visual entry and scanability. Dense context lives inside the story.' },
-      { title: 'Archive as editorial product', body: 'The collection stops being residue from the homepage and becomes a central discovery page.' },
+      { title: 'Archive as editorial product', body: 'The archive keeps earlier publications accessible so readers can follow topics over time.' },
       { title: 'Clean PT/EN routes', body: 'Institutional and navigation experiences now use real Portuguese and English paths.' },
-      { title: 'Reusable components', body: 'Header, main navigation, topical strip, sidebar widgets and contextual navigation are reused.' }
+      { title: 'Check the source', body: 'Links to original sources let you examine methods, findings and limitations in the publication behind each story.' }
     ],
     standardsWorkflowTitle: 'Condensed editorial flow',
     standardsWorkflow: [
@@ -314,7 +314,7 @@ const FULL_ARCHIVE_FEED = '/assets/data/archive-index.json';
       .sort((a, b) => String(b.publishedIso || '').localeCompare(String(a.publishedIso || '')));
   }
 
-  const ARCHIVE_CACHE_KEY = 'cw_archive_cache_v4';
+  const ARCHIVE_CACHE_KEY = 'cw_archive_cache_v5';
   const ARCHIVE_CACHE_LIMIT = 80;
   const FRONT_HISTORY_KEY = 'cw_front_history_v1';
   const FRONT_ROTATION_COUNTER_KEY = 'cw_front_rotation_counter_v1';
@@ -396,84 +396,85 @@ const FULL_ARCHIVE_FEED = '/assets/data/archive-index.json';
       const parsed = JSON.parse(localStorage.getItem(ARCHIVE_CACHE_KEY) || '[]');
       if (Array.isArray(parsed)) cached = parsed;
     } catch (e) {}
-    const merged = mergePostCollections(rawPosts, cached);
-    try { localStorage.setItem(ARCHIVE_CACHE_KEY, JSON.stringify(merged)); } catch (e) {}
+    const merged = mergePostCollections(rawPosts, cached.slice(0, ARCHIVE_CACHE_LIMIT));
     return merged;
   }
 
   let DB = hydrateArchive([]);
-  let archivePrefetchScheduled = false;
-
   function feedRequestUrl(base, force = false) {
     if (!force) return base;
-    const separator = base.includes('?') ? '&' : '?';
-    return `${base}${separator}cb=${Date.now()}`;
+    return `${base}${base.includes('?') ? '&' : '?'}cb=${Date.now()}`;
   }
 
-  function feedRequestOptions(force = false) {
-    return force ? { cache: 'no-store' } : { cache: 'default' };
+  async function fetchResource(url, { force = false, format = 'json' } = {}) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 15000);
+    try {
+      const response = await fetch(url, {
+        cache: force ? 'no-store' : 'no-cache',
+        credentials: 'same-origin',
+        signal: controller.signal
+      });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return await (format === 'text' ? response.text() : response.json());
+    } finally { clearTimeout(timer); }
   }
 
-  function scheduleArchivePrefetch() {
-    if (archivePrefetchScheduled || fullArchiveLoaded || fullArchivePromise) return;
-    archivePrefetchScheduled = true;
-    const kickoff = () => {
-      const run = () => ensureFullArchiveLoaded().catch(() => DB);
-      if (typeof window.requestIdleCallback === 'function') {
-        window.requestIdleCallback(run, { timeout: 6500 });
-      } else {
-        window.setTimeout(run, 3200);
-      }
-    };
-    if (document.readyState === 'complete') kickoff();
-    else window.addEventListener('load', kickoff, { once: true });
+  function validFeed(payload) {
+    return Array.isArray(payload) && payload.length > 0 &&
+      payload.every(post => post && typeof post.slug === 'string' && post.slug.length > 0);
   }
 
   function ensureSummaryFeedLoaded(force = false) {
-    if (DB.length && !force) return Promise.resolve(DB);
-    if (fullArchiveLoaded && !force) return Promise.resolve(DB);
-    return fetch(feedRequestUrl(SUMMARY_FEED, force), feedRequestOptions(force))
-      .then(resp => {
-        if (!resp.ok) throw new Error('summary feed fetch failed');
-        return resp.json();
-      })
+    if (summaryFeedPromise) return summaryFeedPromise;
+    if (summaryFeedLoaded && !force) return Promise.resolve(DB);
+    summaryFeedPromise = fetchResource(feedRequestUrl(SUMMARY_FEED, force), { force })
       .then(payload => {
-        if (Array.isArray(payload) && payload.length) {
-          DB = mergePostCollections(payload, DB);
-          frontLayoutCache.clear();
-          persistArchiveCache();
-        }
+        if (!validFeed(payload)) throw new Error('Invalid summary feed');
+        DB = mergePostCollections(payload, DB);
+        summaryFeedLoaded = true;
+        frontLayoutCache.clear();
+        persistArchiveCache();
         return DB;
       })
-      .catch(() => DB);
+      .finally(() => { summaryFeedPromise = null; });
+    return summaryFeedPromise;
   }
 
-
   function ensureFullArchiveLoaded(force = false) {
+    if (fullArchivePromise) return fullArchivePromise;
     if (fullArchiveLoaded && !force) return Promise.resolve(DB);
-    if (fullArchivePromise && !force) return fullArchivePromise;
-    fullArchivePromise = fetch(feedRequestUrl(FULL_ARCHIVE_FEED, force), feedRequestOptions(force))
-      .then(resp => {
-        if (!resp.ok) throw new Error('archive fetch failed');
-        return resp.json();
-      })
+    archiveLoadFailed = false;
+    fullArchivePromise = fetchResource(feedRequestUrl(FULL_ARCHIVE_FEED, force), { force })
       .then(payload => {
-        if (Array.isArray(payload) && payload.length) {
-          DB = mergePostCollections(payload, DB);
-          fullArchiveLoaded = DB.length >= payload.length || DB.length >= 100;
-          frontLayoutCache.clear();
-          persistArchiveCache();
-        }
+        if (!validFeed(payload)) throw new Error('Invalid archive feed');
+        DB = mergePostCollections(payload, DB);
+        fullArchiveLoaded = true;
+        frontLayoutCache.clear();
+        persistArchiveCache();
         return DB;
       })
-      .catch(() => DB)
-      .finally(() => {
-        fullArchivePromise = null;
-      });
+      .catch(() => { archiveLoadFailed = true; return DB; })
+      .finally(() => { fullArchivePromise = null; });
     return fullArchivePromise;
   }
 
-  let currentLang = localStorage.getItem('cw_lang') === 'en' ? 'en' : 'pt';
+  function archiveStatusMarkup() {
+    if (archiveLoadFailed) return `${currentLang === 'en'
+      ? 'Some stories could not be loaded. Showing available results.'
+      : 'Parte do arquivo não pôde ser carregada. Exibindo os resultados disponíveis.'}
+      <button type="button" class="ghost-btn" onclick="retryArchive()">${currentLang === 'en' ? 'Try again' : 'Tentar novamente'}</button>`;
+    return fullArchiveLoaded ? extraTr('archiveLoaded') : extraTr('archiveLoading');
+  }
+
+  function retryArchive() {
+    archiveLoadFailed = false;
+    if (currentPage === 'archive') renderArchive();
+    else if (currentPage === 'search') renderSearch(activeSearchQuery);
+  }
+
+  let currentLang = 'pt';
+  try { currentLang = localStorage.getItem('cw_lang') === 'en' ? 'en' : 'pt'; } catch (e) {}
   try {
     const _params = new URLSearchParams(window.location.search);
     const _path = window.location.pathname || '';
@@ -484,7 +485,10 @@ const FULL_ARCHIVE_FEED = '/assets/data/archive-index.json';
   let currentPage = 'home';
   let currentArticleSlug = null;
   let currentCategory = 'all';
-  let fullArchiveLoaded = DB.length >= 100;
+  let fullArchiveLoaded = false;
+  let archiveLoadFailed = false;
+  let summaryFeedLoaded = false;
+  let summaryFeedPromise = null;
   let fullArchivePromise = null;
   const ARCHIVE_PAGE_SIZE = 30;
   let archiveVisibleCount = ARCHIVE_PAGE_SIZE;
@@ -806,7 +810,7 @@ const FULL_ARCHIVE_FEED = '/assets/data/archive-index.json';
   function renderBadgeRow(post, extra = '') {
     const catCls = (post.catCls || normalizarTexto(post.cat || '').replace(/\s+/g,'-'));
     const catLabel = prettyCategory(post.cat);
-    let chips = `<span class="label ${catCls}">${catLabel}</span>`;
+    let chips = `<span class="label ${escapeAttr(catCls)}">${escapeAttr(catLabel)}</span>`;
     if (post.isPreprint) chips += `<span class="status-chip preprint">Preprint</span>`;
     else if (post.editorialBand === 'flagship') chips += `<span class="status-chip">${currentLang === 'en' ? 'Top story' : 'Destaque'}</span>`;
     if (extra) chips += extra;
@@ -822,9 +826,9 @@ const FULL_ARCHIVE_FEED = '/assets/data/archive-index.json';
         <div class="card-cover"><img ${imageAttrs(post)}></div>
         <div class="card-body">
           ${renderBadgeRow(post)}
-          <h3 class="headline-md">${textFor(post,'title')}</h3>
-          <p class="deck small">${textFor(post,'excerpt')}</p>
-          <div class="meta-row"><span>${meta.date}</span><span>${meta.read}</span><span>${post.source}</span></div>
+          <h3 class="headline-md">${escapeAttr(textFor(post,'title'))}</h3>
+          <p class="deck small">${escapeAttr(textFor(post,'excerpt'))}</p>
+          <div class="meta-row"><span>${escapeAttr(meta.date)}</span><span>${escapeAttr(meta.read)}</span><span>${escapeAttr(post.source)}</span></div>
         </div>
       </a>`;
   }
@@ -837,8 +841,8 @@ const FULL_ARCHIVE_FEED = '/assets/data/archive-index.json';
         <div class="compact-cover"><img ${imageAttrs(post)}></div>
         <div class="compact-body">
           ${renderBadgeRow(post)}
-          <h3 class="headline-md" style="font-size:1.05rem;">${textFor(post,'title')}</h3>
-          <div class="compact-meta">${meta.date} · ${meta.read} · ${post.source}</div>
+          <h3 class="headline-md" style="font-size:1.05rem;">${escapeAttr(textFor(post,'title'))}</h3>
+          <div class="compact-meta">${escapeAttr(meta.date)} · ${escapeAttr(meta.read)} · ${escapeAttr(post.source)}</div>
         </div>
       </a>`;
   }
@@ -1134,10 +1138,10 @@ const FULL_ARCHIVE_FEED = '/assets/data/archive-index.json';
             <img ${imageAttrs(lead,'eager')}>
             <div class="hero-overlay"></div>
             <div class="hero-content">
-              ${renderBadgeRow(lead, `<span class="meta-chip">${lead.source}</span>`)}
-            <h2 class="headline-xl" style="margin-bottom:12px;">${textFor(lead,'title')}</h2>
-              <p class="deck" style="max-width:700px;">${textFor(lead,'excerpt')}</p>
-              <div class="meta-row" style="margin-top:18px;"><span>${leadMeta.date}</span><span>${leadMeta.read}</span><span>${tr('clickToRead')}</span></div>
+              ${renderBadgeRow(lead, `<span class="meta-chip">${escapeAttr(lead.source)}</span>`)}
+            <h2 class="headline-xl" style="margin-bottom:12px;">${escapeAttr(textFor(lead,'title'))}</h2>
+              <p class="deck" style="max-width:700px;">${escapeAttr(textFor(lead,'excerpt'))}</p>
+              <div class="meta-row" style="margin-top:18px;"><span>${escapeAttr(leadMeta.date)}</span><span>${escapeAttr(leadMeta.read)}</span><span>${tr('clickToRead')}</span></div>
             </div>
           </a>
           <div class="hero-side">
@@ -1149,8 +1153,8 @@ const FULL_ARCHIVE_FEED = '/assets/data/archive-index.json';
                   <div class="hero-overlay"></div>
                   <div class="hero-content">
                     ${renderBadgeRow(post)}
-                    <h2 class="headline-lg">${textFor(post,'title')}</h2>
-                    <div class="meta-row" style="margin-top:10px;"><span>${meta.date}</span><span>${meta.read}</span></div>
+                    <h2 class="headline-lg">${escapeAttr(textFor(post,'title'))}</h2>
+                    <div class="meta-row" style="margin-top:10px;"><span>${escapeAttr(meta.date)}</span><span>${escapeAttr(meta.read)}</span></div>
                   </div>
                 </a>`;
             }).join('')}
@@ -1166,14 +1170,14 @@ const FULL_ARCHIVE_FEED = '/assets/data/archive-index.json';
 
 function visualSignalLabel(post) {
   if (post?.video?.embedUrl || post?.video?.fileUrl) return extraTr('visualLabelVideo');
-  if (Array.isArray(post?.inline_images) && post.inline_images.length > 1) return extraTr('visualLabelGallery');
+  if ((post?.imageCount || post?.inline_images?.length || 0) > 1) return extraTr('visualLabelGallery');
   return '';
 }
 
 function visualPriority(post) {
   let total = sectionPriority(post) + postFreshnessWeight(post);
   if (post?.video?.embedUrl || post?.video?.fileUrl) total += 30;
-  if (Array.isArray(post?.inline_images) && post.inline_images.length) total += Math.min(12, post.inline_images.length * 3);
+  if (post?.imageCount || post?.inline_images?.length) total += Math.min(12, (post.imageCount || post.inline_images.length) * 3);
   if (post?.featured) total += 10;
   return total;
 }
@@ -1200,8 +1204,8 @@ function visualCardMarkup(post, { compact = false } = {}) {
           ${renderBadgeRow(post, visualLabel ? `<span class="status-chip">${visualLabel}</span>` : '')}
         </div>
         <div class="visual-card-bottom">
-          <h3 class="headline-${compact ? 'md' : 'lg'}">${textFor(post,'title')}</h3>
-          <div class="meta-row"><span>${prettyCategory(post.cat)}</span><span>${meta.date}</span><span>${post.source}</span></div>
+          <h3 class="headline-${compact ? 'md' : 'lg'}">${escapeAttr(textFor(post,'title'))}</h3>
+          <div class="meta-row"><span>${prettyCategory(post.cat)}</span><span>${escapeAttr(meta.date)}</span><span>${escapeAttr(post.source)}</span></div>
         </div>
       </div>
     </a>`;
@@ -1218,10 +1222,10 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     const meta = formatMeta(post);
     return `
       <a class="briefing-story${compact ? ' compact' : ''}" href="${getShareURLForArticle(post)}">
-        <div class="briefing-story-kicker">${prettyCategory(post.cat)} · ${meta.date}</div>
-        <div class="briefing-story-title">${textFor(post,'title')}</div>
+        <div class="briefing-story-kicker">${prettyCategory(post.cat)} · ${escapeAttr(meta.date)}</div>
+        <div class="briefing-story-title">${escapeAttr(textFor(post,'title'))}</div>
         <div class="briefing-story-summary">${truncatePlainText(textFor(post,'excerpt'), compact ? 96 : 165)}</div>
-        <div class="briefing-story-meta">${meta.read} · ${post.source}</div>
+        <div class="briefing-story-meta">${escapeAttr(meta.read)} · ${escapeAttr(post.source)}</div>
       </a>`;
   }
 
@@ -1351,8 +1355,8 @@ function renderVisualStrip(layout = currentFrontLayout()) {
       return `
         <a class="sidebar-story-item" href="${getShareURLForArticle(post)}">
           <div class="sidebar-story-kicker">${kicker}</div>
-          <div class="sidebar-story-title">${textFor(post,'title')}</div>
-          <div class="sidebar-story-meta">${prettyCategory(post.cat)} · ${meta.read}</div>
+          <div class="sidebar-story-title">${escapeAttr(textFor(post,'title'))}</div>
+          <div class="sidebar-story-meta">${prettyCategory(post.cat)} · ${escapeAttr(meta.read)}</div>
         </a>`;
     }).join('');
   }
@@ -1437,8 +1441,8 @@ function renderVisualStrip(layout = currentFrontLayout()) {
       return `
         <a class="sidebar-story-item" href="${getShareURLForArticle(post)}">
           <div class="sidebar-story-kicker">${prettyCategory(post.cat)}</div>
-          <div class="sidebar-story-title">${textFor(post,'title')}</div>
-          <div class="sidebar-story-meta">${meta.date} · ${meta.read}</div>
+          <div class="sidebar-story-title">${escapeAttr(textFor(post,'title'))}</div>
+          <div class="sidebar-story-meta">${escapeAttr(meta.date)} · ${escapeAttr(meta.read)}</div>
         </a>`;
     }).join('');
   }
@@ -1451,7 +1455,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
       <a class="trend-item" href="${getShareURLForArticle(post)}">
         <div class="trend-num">${i+1}</div>
         <div>
-          <div class="trend-title">${textFor(post,'title')}</div>
+          <div class="trend-title">${escapeAttr(textFor(post,'title'))}</div>
           <div class="trend-meta">${prettyCategory(post.cat)} · ${formatMeta(post).read}</div>
         </div>
       </a>`).join('');
@@ -1490,7 +1494,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     const source = [...(layout.hero || []), ...(layout.essential || []), ...(layout.watch || []), ...(layout.latest || []), ...(layout.preprints || [])].filter(Boolean);
     const items = source.slice(0,8).map(p => textFor(p,'title')).filter(Boolean);
     const loop = items.length ? [...items, ...items] : [];
-    mount.innerHTML = loop.map(item => `<span class="ticker-item">${item}</span>`).join('');
+    mount.innerHTML = loop.map(item => `<span class="ticker-item">${escapeAttr(item)}</span>`).join('');
   }
 
   // ── Archive ────────────────────────────────────────────────────────────────
@@ -1498,8 +1502,8 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     const kicker = document.getElementById('archiveKicker');
     if (!kicker) return;
     kicker.textContent = currentLang === 'en'
-      ? `${count} stories available in the selected area. The archive preserves continuity instead of forcing everything through the homepage.`
-      : `${count} matérias disponíveis na área selecionada. O arquivo preserva continuidade em vez de empurrar tudo para a homepage.`;
+      ? `${count} stories available in the selected topic.`
+      : `${count} matérias disponíveis no tema selecionado.`;
   }
 
   function renderArchive() {
@@ -1531,7 +1535,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     currentArchivePosts = posts;
     renderArchiveList();
 
-    if (archiveStatus) archiveStatus.textContent = fullArchiveLoaded ? extraTr('archiveLoaded') : extraTr('archiveLoading');
+    if (archiveStatus) { archiveStatus.setAttribute('role', 'status'); archiveStatus.innerHTML = archiveStatusMarkup(); }
 
     renderTopicNav('archiveTopicNav', { dense: true });
 
@@ -1552,7 +1556,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
         : `<div class="archive-empty">${extraTr('archiveNoItems')}</div>`;
       currentArchivePosts = activePosts;
       renderArchiveList();
-      if (archiveStatus) archiveStatus.textContent = extraTr('archiveLoaded');
+      if (archiveStatus) archiveStatus.innerHTML = archiveStatusMarkup();
       renderTopicNav('archiveTopicNav', { dense: true });
     });
 
@@ -1755,7 +1759,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     return `
       <figure class="article-inline-figure">
         <img src="${escapeAttr(image.src)}" alt="${escapeAttr(alt)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure').style.display='none'">
-        ${caption ? `<figcaption class="article-inline-caption">${caption}</figcaption>` : ''}
+        ${caption ? `<figcaption class="article-inline-caption">${escapeAttr(caption)}</figcaption>` : ''}
       </figure>`;
   }
 
@@ -1948,7 +1952,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
               allowfullscreen
               referrerpolicy="strict-origin-when-cross-origin"></iframe>
           </div>
-          ${caption ? `<figcaption class="article-video-caption">${caption}</figcaption>` : ''}
+          ${caption ? `<figcaption class="article-video-caption">${escapeAttr(caption)}</figcaption>` : ''}
         </figure>`;
     }
     if (video.kind === 'file' && video.fileUrl) {
@@ -1959,7 +1963,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
               <source src="${escapeAttr(video.fileUrl)}">
             </video>
           </div>
-          ${caption ? `<figcaption class="article-video-caption">${caption}</figcaption>` : ''}
+          ${caption ? `<figcaption class="article-video-caption">${escapeAttr(caption)}</figcaption>` : ''}
         </figure>`;
     }
     return '';
@@ -1999,7 +2003,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
               allow="autoplay; clipboard-write; encrypted-media; fullscreen"
               referrerpolicy="strict-origin-when-cross-origin"></iframe>
           </div>
-          ${caption ? `<figcaption class="article-audio-caption">${caption}</figcaption>` : ''}
+          ${caption ? `<figcaption class="article-audio-caption">${escapeAttr(caption)}</figcaption>` : ''}
         </figure>`;
     }
     if (audio.kind === 'file' && audio.fileUrl) {
@@ -2010,7 +2014,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
               <source src="${escapeAttr(audio.fileUrl)}">
             </audio>
           </div>
-          ${caption ? `<figcaption class="article-audio-caption">${caption}</figcaption>` : ''}
+          ${caption ? `<figcaption class="article-audio-caption">${escapeAttr(caption)}</figcaption>` : ''}
         </figure>`;
     }
     return '';
@@ -2040,7 +2044,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     if (audioMarkup) blocks.push(audioMarkup);
     let nextImageIndex = 0;
     finalParagraphs.forEach((text, idx) => {
-      blocks.push(`<p>${text}</p>`);
+      blocks.push(`<p>${escapeAttr(text)}</p>`);
       if (!inlineImages.length || !inlineImages[nextImageIndex]) return;
 
       const isFirstParagraph = idx === 0;
@@ -2099,8 +2103,8 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     const ready = !!(cfg.enabled && cfg.repo && cfg.repoId && cfg.category && cfg.categoryId);
     if (!ready) {
       mount.innerHTML = `<div class="engagement-disabled">${currentLang === 'en'
-        ? 'Public reactions and comments are wired for activation. To turn them on, fill the repository identifiers in giscus-config.js.'
-        : 'Reações públicas e comentários já estão preparados para ativação.'}</div>`;
+        ? 'Comments are not available yet.'
+        : 'Os comentários ainda não estão disponíveis.'}</div>`;
       return;
     }
     const script = document.createElement('script');
@@ -2140,20 +2144,20 @@ function renderVisualStrip(layout = currentFrontLayout()) {
         <span>›</span>
         <button onclick="goHome(${escapeAttr(JSON.stringify(post.cat))})">${prettyCategory(post.cat)}</button>
         <span>›</span>
-        <span>${post.source}</span>
+        <span>${escapeAttr(post.source)}</span>
       </div>
 
       <article class="article-shell">
         <div class="article-cover">
           <img ${imageAttrs(post,'eager')}>
           <div class="article-cover-content">
-            ${renderBadgeRow(post, `<span class="meta-chip">${post.source}</span>`)}
-            <h1 class="headline-xl" id="articleTitle" tabindex="-1" style="margin-bottom:14px;">${textFor(post,'title')}</h1>
+            ${renderBadgeRow(post, `<span class="meta-chip">${escapeAttr(post.source)}</span>`)}
+            <h1 class="headline-xl" id="articleTitle" tabindex="-1" style="margin-bottom:14px;">${escapeAttr(textFor(post,'title'))}</h1>
             <div class="meta-row" style="margin-top:16px;">
               <span>${tr('newsroom')}</span>
-              <time datetime="${escapeAttr(post.publishedIso || '')}">${meta.date}</time>
+              <time datetime="${escapeAttr(post.publishedIso || '')}">${escapeAttr(meta.date)}</time>
               <span>${meta.time}</span>
-              <span>${meta.read}</span>
+              <span>${escapeAttr(meta.read)}</span>
             </div>
           </div>
         </div>
@@ -2209,17 +2213,17 @@ function renderVisualStrip(layout = currentFrontLayout()) {
             <div class="highlights-box">
               <div class="box-head">${tr('articleHighlights')}</div>
               <div class="box-body">
-                <ul class="highlights-list">${highlights.map(item=>`<li>${item}</li>`).join('')}</ul>
-                ${keywords.length ? `<div class="keyword-row">${keywords.slice(0,5).map(k=>`<span class="kw-chip">${k}</span>`).join('')}</div>` : ''}
+                <ul class="highlights-list">${highlights.map(item=>`<li>${escapeAttr(item)}</li>`).join('')}</ul>
+                ${keywords.length ? `<div class="keyword-row">${keywords.slice(0,5).map(k=>`<span class="kw-chip">${escapeAttr(k)}</span>`).join('')}</div>` : ''}
               </div>
             </div>
 
             <div class="source-box">
               <div class="box-head">${tr('articleSource')}</div>
               <div class="box-body">
-                <div style="font-size:13.5px;font-weight:600;color:var(--txt);">${post.source}</div>
-                <div class="source-domain">${sourceDomainFor(post)}</div>
-                <div class="source-note">${sanitizeDisplayText(currentLang==='en'?(post.sourceNote_en||post.sourceNote):(post.sourceNote_pt||post.sourceNote))}</div>
+                <div style="font-size:13.5px;font-weight:600;color:var(--txt);">${escapeAttr(post.source)}</div>
+                <div class="source-domain">${escapeAttr(sourceDomainFor(post))}</div>
+                <div class="source-note">${escapeAttr(sanitizeDisplayText(currentLang==='en'?(post.sourceNote_en||post.sourceNote):(post.sourceNote_pt||post.sourceNote)))}</div>
                 <div style="margin-top:14px;">
                   <a href="${escapeAttr(post.srcUrl)}" target="_blank" rel="noopener" style="color:var(--accent-2);font-size:13.5px;text-decoration:underline;text-decoration-color:rgba(127,179,255,.3);text-underline-offset:3px;">${tr('articleReadOriginal')}</a>
                 </div>
@@ -2256,29 +2260,63 @@ function renderVisualStrip(layout = currentFrontLayout()) {
   }
 
   // ── Search ─────────────────────────────────────────────────────────────────
-  function renderSearch(query) {
-    const q = normalizarTexto(query);
-    const results = DB.filter(post => normalizarTexto([
-      post.title, post.title_pt, post.title_en,
-      post.excerpt, post.excerpt_pt, post.excerpt_en,
-      post.sub, post.sub_pt, post.sub_en,
-      post.source, post.cat,
-      ...(Array.isArray(post.keywords) ? post.keywords : []),
-      ...(Array.isArray(post.keywords_pt) ? post.keywords_pt : []),
-      ...(Array.isArray(post.keywords_en) ? post.keywords_en : [])
-    ].join(' ')).includes(q));
-    document.getElementById('searchInfo').textContent = `${results.length} ${tr('resultsFor')} "${query}"`;
-    document.getElementById('searchGrid').innerHTML = results.map(cardMarkup).join('');
+  const searchTextCache = new WeakMap();
+  const SEARCH_PAGE_SIZE = 30;
+  let activeSearchQuery = '';
+  let searchVisibleCount = SEARCH_PAGE_SIZE;
+  let currentSearchResults = [];
+  let searchRequestToken = 0;
+
+  function searchableText(post) {
+    if (!searchTextCache.has(post)) {
+      const fields = ['title', 'title_pt', 'title_en', 'excerpt', 'excerpt_pt', 'excerpt_en',
+        'sub', 'sub_pt', 'sub_en', 'source', 'cat', 'keywords', 'keywords_pt', 'keywords_en'];
+      searchTextCache.set(post, normalizarTexto(fields.map(key => Array.isArray(post[key]) ? post[key].join(' ') : (post[key] || '')).join(' ')));
+    }
+    return searchTextCache.get(post);
+  }
+
+  function renderSearchResults() {
+    const q = normalizarTexto(activeSearchQuery);
+    currentSearchResults = DB.filter(post => searchableText(post).includes(q));
+    const info = document.getElementById('searchInfo');
+    info.setAttribute('role', 'status');
+    info.textContent = `${currentSearchResults.length} ${tr('resultsFor')} "${activeSearchQuery}"`;
+    const grid = document.getElementById('searchGrid');
+    grid.innerHTML = currentSearchResults.slice(0, searchVisibleCount).map(cardMarkup).join('');
+    let more = document.getElementById('searchLoadMore');
+    if (!more) {
+      more = document.createElement('button');
+      more.id = 'searchLoadMore';
+      more.type = 'button';
+      more.className = 'archive-load-more';
+      more.addEventListener('click', () => { searchVisibleCount += SEARCH_PAGE_SIZE; renderSearchResults(); });
+      grid.insertAdjacentElement('afterend', more);
+    }
+    const remaining = Math.max(0, currentSearchResults.length - searchVisibleCount);
+    more.hidden = remaining === 0;
+    more.textContent = `${currentLang === 'en' ? 'Load more results' : 'Carregar mais resultados'} (${remaining})`;
     const empty = document.getElementById('searchEmpty');
-    if (!results.length) {
-      empty.classList.remove('hidden');
-      empty.innerHTML = `<p>${tr('noSearch')}</p><p style="margin-top:8px;">${tr('trySearch')}</p>`;
-    } else { empty.classList.add('hidden'); }
+    const incomplete = !fullArchiveLoaded || archiveLoadFailed;
+    empty.classList.toggle('hidden', currentSearchResults.length > 0 && !incomplete);
+    empty.innerHTML = incomplete ? archiveStatusMarkup()
+      : (!currentSearchResults.length ? `<p>${tr('noSearch')}</p><p>${tr('trySearch')}</p>` : '');
+  }
+
+  function renderSearch(query) {
+    activeSearchQuery = query.trim();
+    searchVisibleCount = SEARCH_PAGE_SIZE;
+    const token = ++searchRequestToken;
+    renderSearchResults();
     markNav(''); activatePage('search'); updateMetaStatic('search');
+    if (!fullArchiveLoaded) ensureFullArchiveLoaded().then(() => {
+      if (token === searchRequestToken && currentPage === 'search') renderSearchResults();
+    });
   }
 
   // ── Navigation helpers ─────────────────────────────────────────────────────
   function activatePage(page, { scroll = 'top' } = {}) {
+    if (page !== 'article') articleNavigationToken += 1;
     currentPage = page;
     document.querySelectorAll('.page').forEach(el => el.classList.remove('active'));
     const map = { home:'pageHome', article:'pageArticle', archive:'pageArchive', about:'pageAbout', standards:'pageStandards', search:'pageSearch' };
@@ -2373,15 +2411,14 @@ function renderVisualStrip(layout = currentFrontLayout()) {
   }
 
   function articleHasBody(post, lang = currentLang) {
-    const body = lang === 'en' ? (post?.body_en || post?.body || '') : (post?.body_pt || post?.body || '');
+    // A Portuguese body must never stand in for a missing English translation.
+    const body = post?.[lang === 'en' ? 'body_en' : 'body_pt'] || '';
     return stripHtml(body).length > 80;
   }
 
   async function hydrateArticleFromStaticPage(post, route) {
     if (articleHasBody(post, route.lang)) return post;
-    const response = await fetch(route.path, { cache: 'force-cache', credentials: 'same-origin' });
-    if (!response.ok) throw new Error(`article fetch failed (${response.status})`);
-    const html = await response.text();
+    const html = await fetchResource(route.path, { format: 'text' });
     const doc = new DOMParser().parseFromString(html, 'text/html');
     const article = doc.querySelector(`article[data-article-slug="${CSS.escape(route.slug)}"]`) || doc.querySelector('article');
     const body = article?.querySelector('.body') || doc.querySelector('.body');
@@ -2393,6 +2430,8 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     if (!post.body) post.body = bodyHtml;
 
     const dek = (article?.querySelector('.dek')?.textContent || '').replace(/\s+/g, ' ').trim();
+    const heading = article?.querySelector('h1')?.textContent?.trim();
+    if (heading) post[route.lang === 'en' ? 'title_en' : 'title_pt'] = heading;
     if (dek) {
       const subKey = route.lang === 'en' ? 'sub_en' : 'sub_pt';
       post[subKey] = post[subKey] || dek;
@@ -2427,7 +2466,16 @@ function renderVisualStrip(layout = currentFrontLayout()) {
         return img ? { src: img.src, alt: img.alt || caption, caption } : null;
       })
       .filter(Boolean);
-    if (figures.length && (!Array.isArray(post.inline_images) || !post.inline_images.length)) post.inline_images = figures;
+    if (figures.length) {
+      const images = new Map((post.inline_images || []).map(item => [item.src, item]));
+      figures.forEach(figure => {
+        const existing = images.get(figure.src) || {};
+        images.set(figure.src, { ...existing, ...figure,
+          [`caption_${route.lang}`]: figure.caption, [`alt_${route.lang}`]: figure.alt });
+      });
+      post.inline_images = [...images.values()];
+    }
+    searchTextCache.delete(post);
 
     const heroImage = article?.querySelector('img.hero[src]');
     if (!post.img && heroImage?.src) post.img = heroImage.src;
@@ -2482,6 +2530,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
       focusArticleHeading();
       return true;
     } catch (err) {
+      if (token !== articleNavigationToken) return false;
       console.warn('A leitura integrada não pôde ser carregada:', err);
       if (`${location.pathname}` === route.path) window.location.reload();
       else window.location.assign(route.path);
@@ -2532,11 +2581,20 @@ function renderVisualStrip(layout = currentFrontLayout()) {
   function handleSearchInput(value) {
     clearTimeout(searchTimer);
     if (!value.trim()) { if (currentPage === 'search') goHome(); return; }
-    searchTimer = setTimeout(() => renderSearch(value.trim()), 220);
+    searchTimer = setTimeout(() => {
+      const query = value.trim();
+      const url = `${pageUrl('home')}?q=${encodeURIComponent(query)}`;
+      if (currentPage === 'search') safeReplaceState(url, { cwRoute: 'search', cwScrollY: 0 });
+      else { storeCurrentScrollInHistory(); safePushState(url, { cwRoute: 'search', cwScrollY: 0 }); }
+      renderSearch(query);
+    }, 220);
   }
 
   function syncCurrentRouteUrl() {
-    if (currentPage === 'search') return;
+    if (currentPage === 'search') {
+      safeReplaceState(`${pageUrl('home')}?q=${encodeURIComponent(activeSearchQuery)}`, { cwRoute: 'search', cwScrollY: 0 });
+      return;
+    }
     if (currentPage === 'article' && currentArticleSlug) {
       const post = DB.find(item => item.slug === currentArticleSlug);
       const route = post ? articleRouteForPost(post) : null;
@@ -2550,7 +2608,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
 
   async function setLanguage(lang) {
     currentLang = lang === 'en' ? 'en' : 'pt';
-    localStorage.setItem('cw_lang', currentLang);
+    try { localStorage.setItem('cw_lang', currentLang); } catch (e) {}
     if (currentPage === 'article' && currentArticleSlug) {
       const post = DB.find(item => item.slug === currentArticleSlug);
       const route = post ? articleRouteForPost(post, currentLang) : null;
@@ -2766,6 +2824,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
   function copyArticleLink() {
     const post = DB.find(item => item.slug === currentArticleSlug);
     const url = post ? getShareURLForArticle(post) : location.href;
+    if (!navigator.clipboard?.writeText) { showToast(url); return; }
     navigator.clipboard.writeText(url).then(() => showToast(tr('copied'))).catch(() => showToast(url));
   }
 
@@ -3008,16 +3067,24 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     const path = window.location.pathname || '';
     const query = (params.get('q') || '').trim();
     const bodyPage = normalizePageKey(document.body?.dataset?.cwPage || '');
-    const bodyLang = (document.body?.dataset?.cwLang || '').toLowerCase();
     const routeFromPath = articleRouteFromUrl(path);
-    if ((params.get('lang') || '').toLowerCase() === 'en' || /^\/en(?:\/|$)/i.test(path) || routeFromPath?.lang === 'en' || bodyLang === 'en') currentLang = 'en';
-    else if ((params.get('lang') || '').toLowerCase() === 'pt' || routeFromPath?.lang === 'pt' || bodyLang === 'pt' || /^\/(arquivo|sobre|padroes)(?:\/|$)/i.test(path) || path === '/') currentLang = 'pt';
+    if ((params.get('lang') || '').toLowerCase() === 'en' || /^\/en(?:\/|$)/i.test(path) || routeFromPath?.lang === 'en') currentLang = 'en';
+    else if ((params.get('lang') || '').toLowerCase() === 'pt' || routeFromPath?.lang === 'pt' || /^\/(arquivo|sobre|padroes)(?:\/|$)/i.test(path) || path === '/') currentLang = 'pt';
+    applyUIStrings();
     if (article) {
+      if (!DB.some(item => item.slug === article)) await ensureFullArchiveLoaded();
       const post = DB.find(item => item.slug === article);
       const route = post ? articleRouteForPost(post) : null;
       if (route) { await navigateToArticle(route, { historyMode: 'replace' }); return; }
     }
-    if (routeFromPath) { await navigateToArticle(routeFromPath, { historyMode: 'none' }); return; }
+    if (routeFromPath) {
+      if (!DB.some(item => item.slug === routeFromPath.slug)) await ensureFullArchiveLoaded();
+      if (window.location.pathname !== path) return;
+      if (!DB.some(item => item.slug === routeFromPath.slug)) { window.location.assign(routeFromPath.path); return; }
+      const opened = await navigateToArticle(routeFromPath, { historyMode: 'none' });
+      if (opened && historyNavigation) restoreHistoryScroll(state);
+      return;
+    }
     const page = pageParam !== 'home' ? pageParam : (routePageFromPath(path) || bodyPage || 'home');
     if (query) {
       const input = document.getElementById('searchInput');
@@ -3049,6 +3116,7 @@ function renderVisualStrip(layout = currentFrontLayout()) {
     if (searchForm) {
       searchForm.addEventListener('submit', (event) => {
         event.preventDefault();
+        clearTimeout(searchTimer);
         const input = document.getElementById('searchInput');
         const value = (input?.value || '').trim();
         if (!value) { goHome(); return; }
@@ -3059,7 +3127,8 @@ function renderVisualStrip(layout = currentFrontLayout()) {
       });
     }
     const mobileToggle = document.getElementById('mobileNavToggle');
-    if (mobileToggle) {
+    if (mobileToggle && !mobileToggle.dataset.cwNavigationBound) {
+      mobileToggle.dataset.cwNavigationBound = 'app';
       mobileToggle.addEventListener('click', () => {
         const open = document.body.classList.toggle('nav-open');
         mobileToggle.setAttribute('aria-expanded', String(open));
@@ -3083,10 +3152,13 @@ function renderVisualStrip(layout = currentFrontLayout()) {
         mobileToggle.focus();
       }
     });
-    ensureSummaryFeedLoaded(false).finally(() => {
+    ensureSummaryFeedLoaded(false).catch(() => {
+      showToast(tr('updateFail'));
+    }).finally(() => {
       if (!history.state?.cwRoute) {
         safeReplaceState(`${location.pathname}${location.search}${location.hash}`, { cwRoute: 'home', cwScrollY: window.scrollY || 0 });
       }
+      updateLastUpdatedLabel();
       parseRoute();
     });
   });

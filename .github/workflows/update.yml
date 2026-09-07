@@ -33,12 +33,11 @@ jobs:
       GEMINI_RETRY_TRANSIENT: '1'
       GEMINI_RETRY_BASE_DELAY: '25'
       GEMINI_RETRY_DELAY_429: '75'
-      GEMINI_PROBE_ENABLED: '1'
-      GEMINI_PROBE_RETRIES: '1'
+      GEMINI_MAX_REVIEW_SECONDS: '900'
       GEMINI_DISABLE_AFTER_CONSECUTIVE_503: '2'
-      GEMINI_MODEL_FALLBACKS: 'gemini-2.0-flash,gemini-2.0-flash-lite,gemini-1.5-flash'
+      GEMINI_MODEL_FALLBACKS: ${{ vars.GEMINI_MODEL_FALLBACKS || 'gemini-3.5-flash-lite' }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
+      GEMINI_MODEL: ${{ vars.GEMINI_MODEL || secrets.GEMINI_MODEL || 'gemini-3.5-flash-lite' }}
 
     steps:
       - name: Checkout do repositório
@@ -49,8 +48,20 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Mostrar versão do Python
-        run: python --version
+      - name: Corrigir aliases antigos da pasta do livro
+        run: python scripts/normalize_book_paths.py
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+
+      - name: Validar o site antes de consultar serviços externos
+        run: |
+          python scripts/validate_site.py
+          python scripts/validate_vortice.py
+          python -m unittest discover -s scripts -p 'test_*.py'
+          node scripts/test_app_logic.mjs
 
       - name: Verificar chave Gemini
         shell: bash
@@ -83,48 +94,7 @@ jobs:
         run: node scripts/build_sitemap.mjs
 
       - name: Validar arquivos gerados
-        shell: bash
-        run: |
-          set -euo pipefail
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          from xml.etree import ElementTree
-
-          required = [
-              Path('posts.json'),
-              Path('posts.js'),
-              Path('all_posts.json'),
-              Path('assets/data/posts-index.json'),
-              Path('assets/data/archive-index.json'),
-              Path('feed.xml'),
-              Path('sitemap.xml'),
-              Path('robots.txt'),
-              Path('noticia'),
-              Path('en/news'),
-              Path('livro/vortice-maligno/index.html'),
-              Path('livro/vortice-maligno/checklist/index.html'),
-              Path('assets/img/livro/vortice-maligno-capa.webp'),
-              Path('assets/img/livro/vortice-maligno-capa-320.avif'),
-              Path('assets/img/livro/vortice-maligno-capa-320.webp'),
-              Path('assets/img/livro/vortice-maligno-capa-1280.avif'),
-              Path('assets/img/livro/vortice-maligno-capa-1280.webp'),
-          ]
-
-          missing = [str(p) for p in required if not p.exists()]
-          if missing:
-              raise SystemExit(f'Arquivos ausentes: {missing}')
-
-          json.loads(Path('posts.json').read_text(encoding='utf-8'))
-          json.loads(Path('all_posts.json').read_text(encoding='utf-8'))
-          json.loads(Path('assets/data/posts-index.json').read_text(encoding='utf-8'))
-          json.loads(Path('assets/data/archive-index.json').read_text(encoding='utf-8'))
-          ElementTree.parse('feed.xml')
-          sitemap = ElementTree.parse('sitemap.xml')
-          if len(sitemap.getroot()) < 100:
-              raise SystemExit('Sitemap incompleto: menos de 100 URLs')
-          print('✓ Arquivos gerados com sucesso e JSON válido')
-          PY
+        run: python scripts/validate_site.py
 
       - name: Validar Vórtice Maligno, SEO e consentimento
         run: |
@@ -132,7 +102,9 @@ jobs:
           python scripts/validate_vortice.py
           node --check assets/js/cw-analytics.js
           node --check assets/js/book.js
+          node --check assets/js/app.js
           node scripts/test_analytics_consent.mjs
+          node scripts/test_app_logic.mjs
 
       - name: Mostrar alterações geradas
         shell: bash
@@ -147,7 +119,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A posts.json posts.js all_posts.json assets/data/posts-index.json assets/data/archive-index.json feed.xml sitemap.xml robots.txt index.html arquivo/ sobre/ padroes/ noticia/ en/ livro/ assets/img/livro/ assets/css/book.css assets/js/book.js
+          git add -A
           if git diff --cached --quiet; then
             echo "Nenhuma alteração nas notícias."
           else

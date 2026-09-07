@@ -1,5 +1,7 @@
 # Cosmos Week
 
+> Versão corrigida de 7 de setembro de 2026. Para instalar, leia **ATUALIZAR-GITHUB.md**. O diagnóstico e os resultados estão em **RELATORIO-CORRECOES-2026-09-07.md**.
+
 Portal bilíngue de notícias científicas, com cobertura de astronomia, astrofísica, cosmologia, física e outras fronteiras da ciência.
 
 ## Experiência do site
@@ -11,7 +13,7 @@ Portal bilíngue de notícias científicas, com cobertura de astronomia, astrof�
 - páginas estáticas individuais como fallback e para mecanismos de busca;
 - navegação por tema, busca, arquivo PT/EN e identificação de preprints;
 - acessibilidade com foco visível, navegação por teclado e movimento reduzido;
-- índice histórico otimizado para reduzir o volume transferido ao visitante.
+- índices compactos; a busca carrega o arquivo completo sob demanda e mostra resultados em páginas de 30 itens.
 
 ## Publicação no GitHub Pages
 
@@ -50,3 +52,16 @@ node scripts/build_sitemap.mjs
 ## Licença e conteúdo
 
 O código, a identidade editorial e o conteúdo pertencem aos respectivos titulares. As fontes originais permanecem identificadas em cada matéria.
+
+## Validação sem consultar serviços externos
+
+```bash
+python scripts/normalize_book_paths.py
+python scripts/validate_site.py
+python scripts/validate_vortice.py
+python -m unittest discover -s scripts -p 'test_*.py'
+node scripts/test_app_logic.mjs
+node scripts/test_analytics_consent.mjs
+```
+
+Use Python 3.11 ou superior e Node.js 24. Não há dependências adicionais para esses comandos. A verificação opcional das dimensões das imagens usa Pillow quando instalado.
