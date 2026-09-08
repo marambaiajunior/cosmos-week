@@ -3,6 +3,497 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/09/STScI-01KZC81GGE6DAJKS1C8KAXHZ2M.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/psd/solar/internal_resources/5223/Arrokoth-1.jpeg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": {
+      "kind": "embed",
+      "platform": "youtube",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/KDQYSUR0F1o?rel=0&modestbranding=1",
+      "fileUrl": "",
+      "poster": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/09/STScI-01KZC81GGE6DAJKS1C8KAXHZ2M.jpg?w=3840&h=2160&fit=clip&crop=faces%2Cfocalpoint",
+      "title": "Pequenos mundos descobertos pelo Hubble e Webb",
+      "title_pt": "Pequenos mundos descobertos pelo Hubble e Webb",
+      "title_en": "Tiny Worlds Discovered by Hubble and Webb",
+      "caption": "Além de Netuno, incontáveis ​​mundos congelados orbitam o Sol há bilhões de anos, preservando pistas desde os primeiros dias do nosso sistema solar.",
+      "caption_pt": "Além de Netuno, incontáveis ​​mundos congelados orbitam o Sol há bilhões de anos, preservando pistas desde os primeiros dias do nosso sistema solar.",
+      "caption_en": "Beyond Neptune, countless frozen worlds have orbited the Sun for billions of years, preserving clues from the earliest days of our solar system. By combining. ..",
+      "sourcePage": "https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/"
+    },
+    "audio": null,
+    "title": "Hubble e Webb da NASA encontram objetos distantes do sistema solar ‘lembram’ do passado",
+    "title_pt": "Hubble e Webb da NASA encontram objetos distantes do sistema solar ‘lembram’ do passado",
+    "title_en": "NASA’s Hubble, Webb Find Far-out Solar System Objects ‘Remember’ Past",
+    "sub": "Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema.",
+    "sub_pt": "Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema.",
+    "sub_en": "For the first time, scientists used the joint power of NASA’s Hubble and James Webb Space Telescopes to study some of the most far-flung bodies in our solar system.",
+    "excerpt": "Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema solar, os Objetos Transnetunianos.",
+    "excerpt_pt": "Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema solar, os Objetos Transnetunianos.",
+    "excerpt_en": "For the first time, scientists used the joint power of NASA’s Hubble and James Webb Space Telescopes to study some of the most far-flung bodies in our solar system, Trans-Neptunian Objects.",
+    "body": "<p>Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema solar, os Objetos Transnetunianos. Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema solar, os Objetos Transnetunianos (TNOs).</p><p>Descobrindo objetos gelados no Cinturão de Kuiper As observações do Hubble na periferia do nosso sistema solar encontraram uma lua orbitando Makemake e várias novas luas ao redor de Plutão. Obra: NASA, ESA, Leah Hustak (STScI) Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema solar, os Objetos Transnetunianos (TNOs).</p><p>Em dois artigos complementares publicados terça-feira no The Astronomical Journal, as equipes analisaram a cor, a composição e a distribuição de tamanho de 27 TNOs minúsculos e escuros recém-descobertos. Na pesquisa mais profunda do TNO até à data, equipas lideradas por candidatos a doutoramento da Universidade de Victoria, no Canadá, sob a orientação do Conselho Nacional de Investigação do Canadá, e da Universidade do Norte do Arizona, em Flagstaff, examinaram uma parte do céu.</p><p>Webb descobriu 27 novos TNOs notavelmente fracos, um deles tão fraco que equivale a estar na Terra e ver um pequeno enxame de vaga-lumes na Lua. O menor que observaram tem um diâmetro de cerca de 5 quilômetros, que é cerca de cinco vezes menor do que o que é possível detectar com os telescópios terrestres mais sensíveis.</p><p>Com a sensibilidade do Hubble na luz visível e a do Webb no infravermelho, os telescópios espaciais fornecem mais informações do que qualquer um deles poderia sozinho. O Goddard Space Flight Center da NASA em Greenbelt, Maryland, gerencia o telescópio e as operações da missão.</p><p>O Space Telescope Science Institute em Baltimore, que é operado pela Associação de Universidades para Pesquisa em Astronomia, conduz operações científicas do Hubble para a NASA.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema solar, os Objetos Transnetunianos. Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema solar, os Objetos Transnetunianos (TNOs).</p><p>Descobrindo objetos gelados no Cinturão de Kuiper As observações do Hubble na periferia do nosso sistema solar encontraram uma lua orbitando Makemake e várias novas luas ao redor de Plutão. Obra: NASA, ESA, Leah Hustak (STScI) Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema solar, os Objetos Transnetunianos (TNOs).</p><p>Em dois artigos complementares publicados terça-feira no The Astronomical Journal, as equipes analisaram a cor, a composição e a distribuição de tamanho de 27 TNOs minúsculos e escuros recém-descobertos. Na pesquisa mais profunda do TNO até à data, equipas lideradas por candidatos a doutoramento da Universidade de Victoria, no Canadá, sob a orientação do Conselho Nacional de Investigação do Canadá, e da Universidade do Norte do Arizona, em Flagstaff, examinaram uma parte do céu.</p><p>Webb descobriu 27 novos TNOs notavelmente fracos, um deles tão fraco que equivale a estar na Terra e ver um pequeno enxame de vaga-lumes na Lua. O menor que observaram tem um diâmetro de cerca de 5 quilômetros, que é cerca de cinco vezes menor do que o que é possível detectar com os telescópios terrestres mais sensíveis.</p><p>Com a sensibilidade do Hubble na luz visível e a do Webb no infravermelho, os telescópios espaciais fornecem mais informações do que qualquer um deles poderia sozinho. O Goddard Space Flight Center da NASA em Greenbelt, Maryland, gerencia o telescópio e as operações da missão.</p><p>O Space Telescope Science Institute em Baltimore, que é operado pela Associação de Universidades para Pesquisa em Astronomia, conduz operações científicas do Hubble para a NASA.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>For the first time, scientists used the joint power of NASA’s Hubble and James Webb Space Telescopes to study some of the most far-flung bodies in our solar system, Trans-Neptunian Objects. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Uncovering Icy Objects in the Kuiper Belt Hubble observations of the outskirts of our solar system found a moon orbiting Makemake and several new moons around Pluto. NASA, ESA, Leah Hustak (STScI) For the first time, scientists used the joint power of NASA’s Hubble and James Webb Space Telescopes to study some of the most far-flung bodies in.</p><p>In two complementary papers published Tuesday in The Astronomical Journal, teams analyzed the color, composition, and size distribution of 27 newly discovered tiny, dim TNOs. In the deepest TNO survey to date, teams led by PhD candidates from the University of Victoria in Canada, under the guidance of the National Research Council of Canada, and.</p><p>Webb discovered 27 new, remarkably dim TNOs, one so faint it is equivalent to standing on Earth and seeing a small swarm of fireflies on the Moon. The smallest one they observed has a diameter of about 3 miles (5 kilometers), which is about five times smaller than what is possible to detect with the most sensitive.</p><p>With Hubble’s sensitivity in visible light and Webb’s in infrared, the space telescopes provide more insights than either can on its own. NASA’s Goddard Space Flight Center in Greenbelt, Maryland, manages the telescope and mission operations.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>The Space Telescope Science Institute in Baltimore, which is operated by the Association of Universities for Research in Astronomy, conducts Hubble science operations for NASA. Webb is an international program led by NASA with its partners, ESA (European Space Agency) and CSA (Canadian Space Agency).</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: For the first time, scientists used the joint power of NASA’s Hubble and James Webb Space Telescopes to study some of the most far-flung bodies in",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "08 set 2026",
+    "date_pt": "08 set 2026",
+    "date_en": "08 Sep 2026",
+    "time": "14h00",
+    "time_pt": "14h00",
+    "time_en": "14: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-09-08T14:00:28+00:00",
+    "lastModifiedIso": "2026-09-08T19:01:41+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Hubble e Webb da NASA encontram objetos distantes do sistema solar ‘lembram’ do passado"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Hubble e Webb da NASA encontram objetos distantes do sistema solar ‘lembram’ do passado"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA's Hubble and Webb find distant solar system objects 'remember' the past"
+    ],
+    "srcUrl": "https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/",
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Hubble e Webb da NASA encontram objetos distantes do sistema solar ‘lembram’ do passado",
+    "imageAlt_pt": "Hubble e Webb da NASA encontram objetos distantes do sistema solar ‘lembram’ do passado",
+    "imageAlt_en": "NASA’s Hubble, Webb Find Far-out Solar System Objects ‘Remember’ Past",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "the-otherworldly-geology-of-vasquez-rocks",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-otherworldly-geology-of-vasquez-rocks/vasquezrocks_oli_20260728_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/the-otherworldly-geology-of-vasquez-rocks/vasquezrockswide_oli_20260728.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/the-otherworldly-geology-of-vasquez-rocks/vasquezrockswide_432_oli_20260728.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": {
+      "kind": "file",
+      "platform": "html5",
+      "embedUrl": "",
+      "fileUrl": "https://media.startrek.com/2021/03/04/1400597059552/cbs_startrek_019_clip1_660844_5192.mp4",
+      "poster": "https://images.prismic.io/star-trek-untold/ZDQzZWYwZjktMjU1Zi00NGRlLTg0YWEtYjA0NDQ4Yjk5MTlh_kirkgorn.jpg?auto=compress,format&rect=0,0,2000,1080&w=2000&h=1080",
+      "title": "Capitão Kirk vs.",
+      "title_pt": "Capitão Kirk vs.",
+      "title_en": "Captain Kirk vs. Gorn",
+      "caption": "",
+      "caption_pt": "",
+      "caption_en": "",
+      "sourcePage": "https://www.startrek.com/videos/watch-captain-kirk-vs-gorn"
+    },
+    "audio": null,
+    "title": "A Geologia do Outro Mundo das Rochas Vasquez",
+    "title_pt": "A Geologia do Outro Mundo das Rochas Vasquez",
+    "title_en": "The Otherworldly Geology of Vasquez Rocks",
+    "sub": "Camadas de rocha sedimentar que se projetam da Bacia de Soledad em ângulos surpreendentes há muito fascinam produtores de televisão e cinema, incluindo a equipe por trás de Star.",
+    "sub_pt": "Camadas de rocha sedimentar que se projetam da Bacia de Soledad em ângulos surpreendentes há muito fascinam produtores de televisão e cinema, incluindo a equipe por trás de Star.",
+    "sub_en": "Layers of sedimentary rock that jut from the Soledad Basin at surprising angles have long enthralled television and film producers, including the team behind Star Trek.",
+    "excerpt": "Camadas de rocha sedimentar que se projetam da Bacia de Soledad em ângulos surpreendentes há muito fascinam produtores de televisão e cinema, incluindo a equipe por trás de Star Trek.",
+    "excerpt_pt": "Camadas de rocha sedimentar que se projetam da Bacia de Soledad em ângulos surpreendentes há muito fascinam produtores de televisão e cinema, incluindo a equipe por trás de Star Trek.",
+    "excerpt_en": "Layers of sedimentary rock that jut from the Soledad Basin at surprising angles have long enthralled television and film producers, including the team behind Star Trek.",
+    "body": "<p>Camadas de rocha sedimentar que se projetam da Bacia de Soledad em ângulos surpreendentes há muito fascinam produtores de televisão e cinema, incluindo a equipe por trás de Star Trek. A visualização em cores falsas (bandas 6-5-4) incorpora observações de ondas curtas no infravermelho e no infravermelho próximo que acentuam as diferenças na vegetação da paisagem em comparação com a imagem em cores naturais à direita.</p><p>Downloads 28 de julho de 2026: Cor falsa (bandas 6-5-4) JPEG (22, 57 MB) 28 de julho de 2026: JPEG de cor natural (19, 33 MB) Referências e recursos Departamento de Parques e Recreação do condado de Los Angeles, Vasquez Rocks Natural Area. Space. com (2026, 4 de setembro) Trekkies homenageiam o 60º aniversário de &#x27;Star Trek&#x27; com eventos de fãs, exibições especiais e uma saudação vulcana recorde mundial.</p><p>Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal. Imagem do dia do Observatório da Terra O Observatório da Terra da NASA traz para você a Terra, todos os dias, com histórias detalhadas e imagens impressionantes.</p><p>A imagem em cores falsas (bandas 6-5-4) à esquerda incorpora observações de ondas curtas no infravermelho e no infravermelho próximo que acentuam as diferenças na vegetação e na umidade do solo em comparação com a imagem em cores naturais à direita. Os geólogos estimam que a inclinação dos estratos rochosos sedimentares encontrados na área é em média de 50 graus, suficientemente íngreme para que muitas das formações sobrenaturais pareçam apontar para as estrelas.</p><p>Quando se formavam, há 25 milhões de anos, os sedimentos espalharam-se por leques aluviais, depósitos em forma de cone que se desenvolvem à medida que riachos rápidos desaguam em planícies relativamente planas. Imagens do Observatório da Terra da NASA por Michala Garrison, usando dados Landsat dos EUA.</p><p>Artigo 1 2 3 4 Próximo Continue explorando Descubra mais da NASA Earth Science Assine os boletins informativos do Observatório da Terra Assine o Observatório da Terra e receba a Terra em sua caixa de entrada.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/the-otherworldly-geology-of-vasquez-rocks/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Camadas de rocha sedimentar que se projetam da Bacia de Soledad em ângulos surpreendentes há muito fascinam produtores de televisão e cinema, incluindo a equipe por trás de Star Trek. A visualização em cores falsas (bandas 6-5-4) incorpora observações de ondas curtas no infravermelho e no infravermelho próximo que acentuam as diferenças na vegetação da paisagem em comparação com a imagem em cores naturais à direita.</p><p>Downloads 28 de julho de 2026: Cor falsa (bandas 6-5-4) JPEG (22, 57 MB) 28 de julho de 2026: JPEG de cor natural (19, 33 MB) Referências e recursos Departamento de Parques e Recreação do condado de Los Angeles, Vasquez Rocks Natural Area. Space. com (2026, 4 de setembro) Trekkies homenageiam o 60º aniversário de &#x27;Star Trek&#x27; com eventos de fãs, exibições especiais e uma saudação vulcana recorde mundial.</p><p>Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal. Imagem do dia do Observatório da Terra O Observatório da Terra da NASA traz para você a Terra, todos os dias, com histórias detalhadas e imagens impressionantes.</p><p>A imagem em cores falsas (bandas 6-5-4) à esquerda incorpora observações de ondas curtas no infravermelho e no infravermelho próximo que acentuam as diferenças na vegetação e na umidade do solo em comparação com a imagem em cores naturais à direita. Os geólogos estimam que a inclinação dos estratos rochosos sedimentares encontrados na área é em média de 50 graus, suficientemente íngreme para que muitas das formações sobrenaturais pareçam apontar para as estrelas.</p><p>Quando se formavam, há 25 milhões de anos, os sedimentos espalharam-se por leques aluviais, depósitos em forma de cone que se desenvolvem à medida que riachos rápidos desaguam em planícies relativamente planas. Imagens do Observatório da Terra da NASA por Michala Garrison, usando dados Landsat dos EUA.</p><p>Artigo 1 2 3 4 Próximo Continue explorando Descubra mais da NASA Earth Science Assine os boletins informativos do Observatório da Terra Assine o Observatório da Terra e receba a Terra em sua caixa de entrada.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/the-otherworldly-geology-of-vasquez-rocks/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Layers of sedimentary rock that jut from the Soledad Basin at surprising angles have long enthralled television and film producers, including the team behind Star Trek. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. The false-color view (bands 6-5-4) incorporates shortwave-infrared and near-infrared observations that accentuate differences in the landscape’s vegetation in comparison to the. False color (bands 6-5-4) JPEG (22.57 MB) July 28, 2026: Natural color JPEG (19.33 MB) References &amp; Resources County of Los Angeles Department of Parks and Recreation, Vasquez.</p><p>Space. com (2026, September 4) Trekkies honor ‘Star Trek’s’ 60th birthday with fan events, special screenings, and a world record Vulcan salute. Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet.</p><p>Earth Observatory Image of the Day NASA’s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery. The false-color image (bands 6-5-4) on the left incorporates shortwave-infrared and near-infrared observations that accentuate differences in vegetation and soil moisture in.</p><p>Geologists estimate that the tilt of sedimentary rock strata found in the area averages 50 degrees, steep enough that many of the otherworldly formations appear to point toward. Viewed from space, the Vasquez Rocks are considerably less dramatic, but they show up clearly as bands of gray nestled between mountain ranges in these false-color (left) and.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>The false-color view (bands 6-5-4) incorporates shortwave-infrared and near-infrared observations that accentuate differences in the landscape&#x27;s vegetation in comparison to the. When they were forming 25 million years ago, sediment was spread across alluvial fans —cone-shaped deposits that develop as fast-moving streams empty onto relatively flat plains.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/the-otherworldly-geology-of-vasquez-rocks/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Camadas de rocha sedimentar que se projetam da Bacia de Soledad em ângulos surpreendentes há muito fascinam produtores de televisão e cinema",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Camadas de rocha sedimentar que se projetam da Bacia de Soledad em ângulos surpreendentes há muito fascinam produtores de televisão e cinema",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Layers of sedimentary rock that jut from the Soledad Basin at surprising angles have long enthralled television and film producers, including the",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "08 set 2026",
+    "date_pt": "08 set 2026",
+    "date_en": "08 Sep 2026",
+    "time": "04h01",
+    "time_pt": "04h01",
+    "time_en": "04: 01 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-09-08T04:01:00+00:00",
+    "lastModifiedIso": "2026-09-08T19:01:41+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "A Geologia do Outro Mundo das Rochas Vasquez"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "A Geologia do Outro Mundo das Rochas Vasquez"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "The Otherworldly Geology of the Vasquez Rocks"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/the-otherworldly-geology-of-vasquez-rocks/",
+    "realUrl": "https://www.cosmosweek.com/?article=the-otherworldly-geology-of-vasquez-rocks",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=the-otherworldly-geology-of-vasquez-rocks",
+    "realUrl_en": "https://www.cosmosweek.com/?article=the-otherworldly-geology-of-vasquez-rocks&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/the-otherworldly-geology-of-vasquez-rocks/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/the-otherworldly-geology-of-vasquez-rocks/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/the-otherworldly-geology-of-vasquez-rocks/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/the-otherworldly-geology-of-vasquez-rocks/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/the-otherworldly-geology-of-vasquez-rocks/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/the-otherworldly-geology-of-vasquez-rocks/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "A Geologia do Outro Mundo das Rochas Vasquez",
+    "imageAlt_pt": "A Geologia do Outro Mundo das Rochas Vasquez",
+    "imageAlt_en": "The Otherworldly Geology of Vasquez Rocks",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
+    "slug": "meet-the-next-generation-of-mars-exploration",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x630_crop_center-center_82_none/phobos-over-olympus-mons.jpg?mtime=1753481675",
+    "inline_images": [
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x2147_crop_center-center_82_line/phobos_mro_globe_color_PSP_007769_9010_IRB_northup.jpg.webp",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x2147_crop_center-center_82_line/phobos_mro_globe_color_PSP_007769_9010_IRB_northup.jpg",
+        "alt": "Vista colorida de Fobos da Mars Reconnaissance Orbiter",
+        "alt_pt": "Vista colorida de Fobos da Mars Reconnaissance Orbiter",
+        "alt_en": "Color view of Phobos from Mars Reconnaissance Orbiter",
+        "caption": "Vista colorida de Fobos da Mars Reconnaissance Orbiter",
+        "caption_pt": "Vista colorida de Fobos da Mars Reconnaissance Orbiter",
+        "caption_en": "Color view of Phobos from Mars Reconnaissance Orbiter"
+      },
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x1563_crop_center-center_82_line/tpr-september-2026-cover.jpg.webp",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x1563_crop_center-center_82_line/tpr-september-2026-cover.jpg",
+        "alt": "Capa TPR de setembro de 2026",
+        "alt_pt": "Capa TPR de setembro de 2026",
+        "alt_en": "TPR September 2026 cover",
+        "caption": "Capa TPR de setembro de 2026",
+        "caption_pt": "Capa TPR de setembro de 2026",
+        "caption_en": "TPR September 2026 cover"
+      },
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x433_crop_center-center_82_line/phobos-over-olympus-mons.jpg",
+        "alt": "Fobos sobre Marte",
+        "alt_pt": "Fobos sobre Marte",
+        "alt_en": "Phobos over Mars",
+        "caption": "Fobos sobre Marte",
+        "caption_pt": "Fobos sobre Marte",
+        "caption_en": "Phobos over Mars"
+      },
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_576x576_crop_center-center_82_line/ngr-stage-2.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_576x576_crop_center-center_82_line/artemis-astronaut-on-moon.jpg",
+        "alt": "Astronauta Artemis na lua",
+        "alt_pt": "Astronauta Artemis na lua",
+        "alt_en": "Artemis astronaut on moon",
+        "caption": "Astronauta Artemis na lua",
+        "caption_pt": "Astronauta Artemis na lua",
+        "caption_en": "Artemis astronaut on moon"
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Conheça a próxima geração de exploração de Marte",
+    "title_pt": "Conheça a próxima geração de exploração de Marte",
+    "title_en": "Meet the next generation of Mars exploration",
+    "sub": "Países ao redor do mundo estão planejando missões a Marte, incluindo rovers e um retorno de amostra da lua Fobos.",
+    "sub_pt": "Países ao redor do mundo estão planejando missões a Marte, incluindo rovers e um retorno de amostra da lua Fobos.",
+    "sub_en": "Countries around the world are planning missions to Mars, including rovers and a sample return from the moon Phobos.",
+    "excerpt": "Países ao redor do mundo estão planejando missões a Marte, incluindo rovers e um retorno de amostra da lua Fobos.",
+    "excerpt_pt": "Países ao redor do mundo estão planejando missões a Marte, incluindo rovers e um retorno de amostra da lua Fobos.",
+    "excerpt_en": "Countries around the world are planning missions to Mars, including rovers and a sample return from the moon Phobos.",
+    "body": "<p>Países ao redor do mundo estão planejando missões a Marte, incluindo rovers e um retorno de amostra da lua Fobos. Science Review por Bruce Betts, PhD 7 de setembro de 2026 Durante décadas, ele passou por Marte como um boato, vislumbrado apenas moderadamente por rovers e orbitadores, sua face sombria observando em silêncio os mares vermelhos de areia e poeira de Marte.</p><p>Fobos, cujo nome deriva da palavra grega para medo e é filho do deus Marte, é a maior das duas luas de Marte e, em breve, como parte de uma nova onda de missões internacionais, não nos escapará mais. Desde meados da década de 1990, Marte tem desfrutado de um ritmo constante de satélites, sondas e veículos espaciais liderados principalmente pela NASA, focados na busca por água, habitabilidade e qualquer evidência de vida passada ou presente.</p><p>O processo de seleção opaco para essas missões tem sido um afastamento notável da revisão competitiva, liderada por pares e baseada em pesquisas decenais de propostas que orientou a NASA no enfrentamento dos maiores desafios científicos no espaço por uma geração. No entanto, a missão SR-1 Freedom alcançaria algo que a NASA tem tentado fazer há 60 anos, ao lançar a primeira nave espacial interplanetária movida a fissão nuclear.</p><p>A Mars Telecommunications Network (MTN) é uma missão com financiamento especial do Congresso para melhorar as capacidades de transferência de dados da órbita de Marte. Finalmente, a missão Aeolus é o esforço da Relativity Space, com sede na Califórnia, para provar a viabilidade de enviar uma missão SmallSat a Marte a baixo custo e com fundos privados.</p><p>Os Emirados Árabes Unidos e a China já entraram enfaticamente em cena com a sonda Hope e a missão Tianwen-1, respectivamente. Três novas colaborações internacionais estão preparadas para definir a próxima meia década da exploração científica de Marte.</p><p>E em segundo lugar, a missão é genuinamente interessante. ” O rover Rosalind Franklin pousará em uma região de Marte chamada Oxia Planum, adjacente ao local onde os personagens fictícios de “O Marciano” de Andy Weir pousaram.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/the-new-faces-of-mars\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Países ao redor do mundo estão planejando missões a Marte, incluindo rovers e um retorno de amostra da lua Fobos. Science Review por Bruce Betts, PhD 7 de setembro de 2026 Durante décadas, ele passou por Marte como um boato, vislumbrado apenas moderadamente por rovers e orbitadores, sua face sombria observando em silêncio os mares vermelhos de areia e poeira de Marte.</p><p>Fobos, cujo nome deriva da palavra grega para medo e é filho do deus Marte, é a maior das duas luas de Marte e, em breve, como parte de uma nova onda de missões internacionais, não nos escapará mais. Desde meados da década de 1990, Marte tem desfrutado de um ritmo constante de satélites, sondas e veículos espaciais liderados principalmente pela NASA, focados na busca por água, habitabilidade e qualquer evidência de vida passada ou presente.</p><p>O processo de seleção opaco para essas missões tem sido um afastamento notável da revisão competitiva, liderada por pares e baseada em pesquisas decenais de propostas que orientou a NASA no enfrentamento dos maiores desafios científicos no espaço por uma geração. No entanto, a missão SR-1 Freedom alcançaria algo que a NASA tem tentado fazer há 60 anos, ao lançar a primeira nave espacial interplanetária movida a fissão nuclear.</p><p>A Mars Telecommunications Network (MTN) é uma missão com financiamento especial do Congresso para melhorar as capacidades de transferência de dados da órbita de Marte. Finalmente, a missão Aeolus é o esforço da Relativity Space, com sede na Califórnia, para provar a viabilidade de enviar uma missão SmallSat a Marte a baixo custo e com fundos privados.</p><p>Os Emirados Árabes Unidos e a China já entraram enfaticamente em cena com a sonda Hope e a missão Tianwen-1, respectivamente. Três novas colaborações internacionais estão preparadas para definir a próxima meia década da exploração científica de Marte.</p><p>E em segundo lugar, a missão é genuinamente interessante. ” O rover Rosalind Franklin pousará em uma região de Marte chamada Oxia Planum, adjacente ao local onde os personagens fictícios de “O Marciano” de Andy Weir pousaram.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/the-new-faces-of-mars\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Countries around the world are planning missions to Mars, including rovers and a sample return from the moon Phobos. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Science Review by Bruce Betts, PhD September 7, 2026 For decades, it has passed over Mars like a rumor, glimpsed only sparingly by rovers and orbiters, its shadowy face watching. Phobos, named after the Greek word for fear and a son of the god Mars, is the larger of Mars’ two moons, and soon, as part of a new wave of international missions, it will elude.</p><p>Since the mid-1990s, Mars has enjoyed a steady beat of primarily NASA-led satellites, landers, and rovers focused on the search for water, habitability, and any evidence of past. The opaque selection process for these missions has been a notable departure from the competitive, peer-led, and decadal survey-informed proposal review that has guided NASA in.</p><p>Nonetheless, the SR-1 Freedom mission would achieve something NASA has been trying to do for 60 years by launching the first nuclear fission-powered interplanetary spacecraft. The Mars Telecommunications Network (MTN) is a mission with special funding from Congress to enhance data transfer capabilities from Mars orbit.</p><p>Finally, the Aeolus mission is California-based Relativity Space’s effort to prove the viability of sending a SmallSat mission to Mars at low cost with private funds. The United Arab Emirates and China have already emphatically entered the scene with the Hope probe and Tianwen-1 mission, respectively.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Three new international collaborations are poised to define the next half-decade of the scientific exploration of Mars. More concrete and launch-ready are plans from the European Space Agency (ESA) and the Japan Aerospace Exploration Agency (JAXA), with collaborative and ambitious science missions.</p><p>Because this item comes through The Planetary Society as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/the-new-faces-of-mars\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Países ao redor do mundo estão planejando missões a Marte, incluindo rovers e um retorno de amostra da lua Fobos",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_pt": [
+      "Em foco: Países ao redor do mundo estão planejando missões a Marte, incluindo rovers e um retorno de amostra da lua Fobos",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_en": [
+      "Focus: Countries around the world are planning missions to Mars, including rovers and a sample return from the moon Phobos",
+      "Detail: Science reporting: verify primary technical documentation",
+      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+    ],
+    "date": "07 set 2026",
+    "date_pt": "07 set 2026",
+    "date_en": "07 Sep 2026",
+    "time": "14h00",
+    "time_pt": "14h00",
+    "time_en": "14: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-09-07T14:00:00+00:00",
+    "lastModifiedIso": "2026-09-08T19:01:41+00:00",
+    "source": "The Planetary Society",
+    "sourceDomain": "www. planetary. org",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Astronomia",
+      "The Planetary Society",
+      "Cosmos Week",
+      "Conheça a próxima geração de exploração de Marte"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "The Planetary Society",
+      "Cosmos Week",
+      "Conheça a próxima geração de exploração de Marte"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "The Planetary Society",
+      "Cosmos Week",
+      "Discover the next generation of Mars exploration"
+    ],
+    "srcUrl": "https://www.planetary.org/articles/the-new-faces-of-mars",
+    "realUrl": "https://www.cosmosweek.com/?article=meet-the-next-generation-of-mars-exploration",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=meet-the-next-generation-of-mars-exploration",
+    "realUrl_en": "https://www.cosmosweek.com/?article=meet-the-next-generation-of-mars-exploration&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/meet-the-next-generation-of-mars-exploration/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/meet-the-next-generation-of-mars-exploration/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/meet-the-next-generation-of-mars-exploration/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/meet-the-next-generation-of-mars-exploration/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/meet-the-next-generation-of-mars-exploration/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/meet-the-next-generation-of-mars-exploration/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 90,
+    "scoreBreakdown": {
+      "source": 83,
+      "evidence": 54,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Conheça a próxima geração de exploração de Marte",
+    "imageAlt_pt": "Conheça a próxima geração de exploração de Marte",
+    "imageAlt_en": "Meet the next generation of Mars exploration",
+    "coverageKind": "news",
+    "coverageKindLabel": "Jornalismo científico",
+    "coverageKindLabel_pt": "Jornalismo científico",
+    "coverageKindLabel_en": "Science journalism",
+    "storyKind": "science"
+  },
+  {
+    "id": 4,
     "slug": "nasa-shares-views-of-august-solar-eclipse-from-ground-air-space",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -91,19 +582,19 @@ window.postsData = [
     "body_pt": "<p>Em 12 de agosto, um eclipse solar total escureceu os céus da Groenlândia, Islândia e Espanha. À medida que a Lua cobria o Sol, ela revelou brevemente a fina atmosfera externa do Sol, a coroa, para aqueles que estavam no caminho da totalidade e que tiveram a sorte de fazê-lo.</p><p>3 minutos de leitura NASA compartilha visualizações do eclipse solar de agosto do solo, do ar e do espaço Esta imagem composta mostra a progressão de um eclipse solar total enquanto o Sol se põe sobre San Millán de los Caballeros, Espanha, na quarta-feira, 20 de agosto. A bordo da estação como parte da Expedição 75 estão os astronautas da NASA Jessica Meir, Anil Menon e Jack Hathaway.</p><p>From the station, the Moon covered about 18% of the Sun at the peak of the eclipse. 000 pés, passando pela sombra do eclipse para prolongar seu tempo no eclipse.</p><p>O dia 12 de dezembro de 2026 foi capturado por uma câmera montada dentro da janela da cabine da aeronave WB-57F da NASA enquanto ela voava a cerca de 50.000 pés de altitude ao largo da costa da Islândia. NASA A suite of cameras installed on NASA’s WB-57F aircraft captured images of the solar corona and prominences in different wavelengths of visible and infrared light during the total solar eclipse on Aug.</p><p>Uma equipa científica liderada pelo Southwest Research Institute em Boulder, Colorado, irá analisar as imagens para aprender mais sobre as características complexas e dinâmicas da atmosfera exterior do Sol. Estudantes que participam do Nationwide Eclipse Ballooning Project, financiado pela NASA, se preparam para lançar um balão científico em Mosfellsbær, na Islândia, durante o eclipse solar total em agosto.</p><p>À medida que a Lua cobria o Sol, ela revelou brevemente a fina atmosfera externa do Sol, a coroa, para aqueles que estavam no caminho da totalidade e que tiveram a sorte de ter céu limpo.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/science-research/heliophysics/nasa-shares-views-of-august-solar-eclipse-from-ground-air-space/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>On Aug. 12, a total solar eclipse darkened skies over Greenland, Iceland, and Spain. As the Moon covered the Sun, it briefly revealed the Sun’s wispy outer atmosphere, the corona, to those in the path of totality who were lucky enough to. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. Aboard the station as part of Expedition 75 are NASA astronauts Jessica Meir, Anil Menon, and Jack Hathaway. NASA/Joel Kowsky Meanwhile, from about 250 miles above the ground, a NASA astronaut aboard the International Space Station snapped a few photos of the partial eclipse from their.</p><p>From the station, the Moon covered about 18% of the Sun at the peak of the eclipse. NASA/Jessica Meir Between the ground and the space station, NASA pilots flew NASA’s WB-57F research jet at an altitude of 50, 000 feet, passing through the eclipse’s shadow to.</p><p>12, 2026, was captured by a camera mounted inside the cockpit window of NASA’s WB-57F aircraft as it flew around 50, 000 feet altitude off the coast of Iceland. NASA A suite of cameras installed on NASA’s WB-57F aircraft captured images of the solar corona and prominences in different wavelengths of visible and infrared light during the.</p><p>A science team led by the Southwest Research Institute in Boulder, Colorado, will analyze the images to learn more about complex and dynamic features in the Sun’s outer atmosphere. Students participating in the NASA-funded Nationwide Eclipse Ballooning Project prepare to launch a scientific balloon in Mosfellsbær, Iceland, during the total solar eclipse on.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>NASA/Abbey Interrante To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video The Moon’s shadow passes over the atmosphere. As the Moon covered the Sun, it briefly revealed the Sun’s wispy outer atmosphere, the corona, to those in the path of totality who were lucky enough to have clear skies.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/science-research/heliophysics/nasa-shares-views-of-august-solar-eclipse-from-ground-air-space/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Em 12 de agosto, um eclipse solar total escureceu os céus da Groenlândia, Islândia e Espanha",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Em 12 de agosto, um eclipse solar total escureceu os céus da Groenlândia, Islândia e Espanha.",
+      "Dado-chave: Em 12 de agosto, um eclipse solar total escureceu os céus da Groenlândia, Islândia e Espanha",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Em 12 de agosto, um eclipse solar total escureceu os céus da Groenlândia, Islândia e Espanha",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Em 12 de agosto, um eclipse solar total escureceu os céus da Groenlândia, Islândia e Espanha.",
+      "Dado-chave: Em 12 de agosto, um eclipse solar total escureceu os céus da Groenlândia, Islândia e Espanha",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: On Aug. 12, a total solar eclipse darkened skies over Greenland, Iceland, and Spain",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: On Aug. 12, a total solar eclipse darkened skies over Greenland, Iceland, and Spain.",
+      "Key detail: On Aug. 12, a total solar eclipse darkened skies over Greenland, Iceland, and Spain",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "21 ago 2026",
     "date_pt": "21 ago 2026",
@@ -194,7 +685,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 5,
     "slug": "tb-26-04-updates-and-modernization-of-nasa-s-chemical-equilibrium-with-applications-cea-code",
     "cat": "Química",
     "catCls": "quimica",
@@ -215,19 +706,19 @@ window.postsData = [
     "body_pt": "<p>Líder, Glenn Research Center, mark. Gov Baixe a versão em PDF O código Chemical Equilibrium with Applications da NASA é uma ferramenta fundamental para análise de sistemas de propulsão.</p><p>Líder, Glenn Research Center, mark. leader@nasa. gov Baixe a versão em PDF O código de Equilíbrio Químico com Aplicações (CEA) da NASA é uma ferramenta fundamental para análise de sistemas de propulsão. Expanded Species and Thermodynamic Data The thermodynamic database has been expanded to support additional propellants and fuels relevant to current NASA applications, including green propellant constituents such as ADN, HAN, and LMP-103S, and sustainable aviation fuel.</p><p>Orientação para uso de engenharia Os usuários de engenharia da NASA devem considerar a seguinte orientação: Use o CEA v3 para novas análises de propulsão e termoquímica quando possível para aproveitar as interfaces modernizadas, o banco de dados expandido e a integração. Líder, Glenn Research Center, mark. leader@nasa. gov O código Chemical Equilibrium with Applications (CEA) da NASA é uma ferramenta fundamental para análise de sistemas de propulsão.</p><p>A atividade TI-22-01730 do Centro de Engenharia e Segurança da NASA (NESC) modernizou o código legado CEA2 Fortran em CEA v3, um pacote de software orientado a objetos Fortran 2008 com suporte de interface expandido, dados termoquímicos atualizados, capacidade de manutenção. O código modernizado preserva a compatibilidade retroativa com fluxos de trabalho de entrada CEA legados, ao mesmo tempo que permite o uso direto de ambientes de análise modernos, incluindo Python, C, MATLAB e estudos de design automatizados.</p><p>Antecedentes O CEA2 foi lançado em 2002 e permaneceu amplamente utilizado para propulsão e análise termoquímica. Melhorias técnicas Arquitetura de software moderna CEA v3 é implementado em Fortran 2008 usando estruturas de dados orientadas a objetos, tipagem mais rigorosa e uma arquitetura de solução de equilíbrio segura para threads.</p><p>Em um benchmark, uma varredura de 108.500 casos foi concluída em aproximadamente 1, 11 segundos com o CEA v3, em comparação com aproximadamente 15 minutos usando o CEA2.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/nesc/tb-26-04-updates-and-modernization-of-nasas-chemical-equilibrium-with-applications-cea-code/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>For more information, contact Mark K. Leader, Glenn Research Center, mark. leader@nasa. gov Download the PDF version NASA’s Chemical Equilibrium with Applications code is a foundational tool for propulsion system analysis. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because chemistry gains force when a claimed structure or process can be described with enough precision to be reproduced by others. Synthetic routes, spectroscopic signatures, yield under defined conditions and stability under realistic operating parameters are the currency of credibility in chemistry, and a result that lacks these details cannot be evaluated independently. The distance between a discovery on a laboratory bench and a process that works reliably at scale is measured in years of optimization, and each step reveals constraints that were invisible at smaller scale. Expanded Species and Thermodynamic Data The thermodynamic database has been expanded to support additional propellants and fuels relevant to current NASA applications, including. Guidance for Engineering Use NASA engineering users should consider the following guidance: Use CEA v3 for new propulsion and thermochemistry analyses when possible to take.</p><p>Leader, Glenn Research Center, mark. leader@nasa. gov NASA’s Chemical Equilibrium with Applications (CEA) code is a foundational tool for propulsion system analysis. NASA Engineering and Safety Center (NESC) Activity TI-22-01730 modernized the legacy CEA2 Fortran code into CEA v3, a Fortran 2008, object-oriented software package with expanded.</p><p>The modernized code preserves backward compatibility with legacy CEA input workflows while enabling direct use from modern analysis environments, including Python, C, MATLAB, and. Background CEA2 was released in 2002 and has remained widely used for propulsion and thermochemistry analysis.</p><p>Technical Improvements Modern Software Architecture CEA v3 is implemented in Fortran 2008 using object-oriented data structures, stricter typing, and a thread-safe equilibrium. In one benchmark, a sweep of 108, 500 cases completed in approximately 1.11 seconds with CEA v3, compared with approximately 15 minutes using CEA2.</p><p>The broader interest lies in whether the claimed property or reaction pathway can be characterized with enough precision to support replication by other groups. Chemistry has a replication problem that is less discussed than the one in psychology or medicine, but it is real: synthetic procedures that work reliably in one laboratory sometimes fail to transfer, for reasons ranging from impure starting materials to undocumented temperature sensitivities. A result that comes with full experimental detail and a clear characterization of the product is far more valuable than one that reports a discovery without the procedural backbone.</p><p>NASA engineering users should consider the following guidance: References NASA/TM, 20260007987 CEA documentation: https: //nasa. github. io/cea CEA repository: https: //github. Glenn Research Center, mark. leader@nasa. gov Subroutine interface enabling direct integration and high-volume calculations Inert hydrocarbon fuel representations, including RP-1.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether independent groups working with orthogonal techniques reach compatible conclusions, and whether the result scales beyond the conditions used in the original study. Chemical discoveries that matter tend to be ones whose key properties can be measured by multiple spectroscopic, crystallographic or computational methods that are unlikely to share the same blind spots. Scalability, cost and long-term stability under realistic operating conditions are additional filters that come into play before any practical application becomes viable.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/nesc/tb-26-04-updates-and-modernization-of-nasas-chemical-equilibrium-with-applications-cea-code/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Para obter mais informações, entre em contato com Mark K. Líder, Glenn Research Center, mark",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Para obter mais informações, entre em contato com Mark K. Líder, Glenn Research Center, mark.",
+      "Dado-chave: Para obter mais informações, entre em contato com Mark K. Líder, Glenn Research Center, mark",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Para obter mais informações, entre em contato com Mark K. Líder, Glenn Research Center, mark",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Para obter mais informações, entre em contato com Mark K. Líder, Glenn Research Center, mark.",
+      "Dado-chave: Para obter mais informações, entre em contato com Mark K. Líder, Glenn Research Center, mark",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: That matters because chemistry gains force when a claimed structure or process can be described with enough precision to be reproduced by others",
-      "Detail: Key detail: For more information, contact Mark K. Leader, Glenn Research Center, mark. leader@nasa",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: That matters because chemistry gains force when a claimed structure or process can be described with enough precision to be reproduced by others.",
+      "Key detail: That matters because chemistry gains force when a claimed structure or process can be described with enough precision to be reproduced by others",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "21 ago 2026",
     "date_pt": "21 ago 2026",
@@ -318,7 +809,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 6,
     "slug": "sentinel-1-captures-major-ice-loss-from-greenland-glacier",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -358,19 +849,19 @@ window.postsData = [
     "body_pt": "<p>A missão europeia Copernicus Sentinel-1 capturou uma mudança dramática no glaciar Petermann, no noroeste da Gronelândia, onde uma secção de 76 quilómetros quadrados da língua de gelo flutuante do glaciar se separou em 4 de agosto de 2026. O evento marca a maior perda de gelo flutuante do glaciar desde 2012 e o evento de desintegração mais significativo no Ártico desde 2020, revelando mais uma vez a rapidez com que as paisagens polares da Terra podem mudar.</p><p>O recém-formado iceberg tabular, ou “ilha de gelo”, cobre uma área aproximadamente do mesmo tamanho de Manhattan e tem até 150 metros de espessura. As imagens do radar Sentinel-1 capturadas em 3 de agosto mostraram uma deterioração pronunciada ao longo da linha central da língua de gelo.</p><p>Como o Sentinel-1 carrega um radar, ele pode observar dia e noite e através da cobertura de nuvens, tornando-o particularmente adequado para monitorar geleiras remotas do Ártico. Utilizando estas imagens de radar Sentinel-1, uma equipa internacional de investigadores, parcialmente financiada pelo projecto FutureEO ARCTEX da ESA, tem monitorizado o Glaciar Petermann desde 2019.</p><p>É um lembrete poderoso da rapidez com que esses sistemas podem mudar. ” A Geleira Petermann tem uma história bem documentada de grandes eventos de desova, incluindo a formação de grandes ilhas de gelo em 2008, 2010 e 2012. No entanto, desde 2012, a sua língua de gelo flutuante permaneceu relativamente estável, apesar de vários eventos de parto em menor escala.</p><p>Duas outras grandes ilhas de gelo, com áreas de superfície estimadas em aproximadamente 97 e 87 km2, poderão separar-se à medida que as fendas existentes continuarem a propagar-se através da língua de gelo flutuante. Anna Crawford, da Universidade de Stirling, comentou: “Embora grandes icebergs tabulares sejam relativamente comuns no Oceano Antártico ao redor da Antártica, as ilhas de gelo do Ártico são muito mais raras.</p><p>Esses dados permitiram medições muito detalhadas da propagação da fratura através da plataforma de gelo e do movimento da superfície da língua de gelo com as marés oceânicas, antes do evento de separação do iceberg.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1_captures_major_ice_loss_from_Greenland_glacier\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Europe’s Copernicus Sentinel-1 mission has captured a dramatic change at Petermann Glacier in northwest Greenland, where a 76 sq km section of the glacier’s floating ice tongue broke away on 4 August 2026. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The event marks the glacier’s largest loss of floating ice since 2012 and the most significant calving event in the Arctic since 2020, revealing once again how rapidly Earth’s. The newly formed tabular iceberg, or ‘ice island’, covers an area about the same size of Manhattan and is estimated to be up to 150 metres thick.</p><p>Sentinel-1 radar imagery captured on 3 August showed pronounced deterioration along the centreline of the ice tongue. Because Sentinel-1 carries a radar, it can observe day and night and through cloud cover, making it particularly well-suited to monitoring remote Arctic glaciers.</p><p>Using this Sentinel-1 radar imagery, an international team of researchers, partially funded through ESA’s FutureEO ARCTEX project, has been monitoring Petermann Glacier since 2019. It’s a powerful reminder of how quickly these systems can change. ” Petermann Glacier has a well-documented history of major calving events, including the formation of large ice.</p><p>However, since 2012, its floating ice tongue has remained relatively stable, despite several smaller-scale calving events. Two further large ice islands, with estimated surface areas of approximately 97 and 87 sq km, could detach as existing rifts continue to propagate across the floating ice tongue.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Anna Crawford, from the University of Stirling, commented, “While large, tabular icebergs are relatively common in the Southern Ocean around Antarctica, Arctic ice islands are far. These data allowed very detailed measurements of fracture propagation across the ice shelf, and ice tongue surface motion with ocean tides, in the lead up to the iceberg calving.</p><p>Because the account originates with ESA Space News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1_captures_major_ice_loss_from_Greenland_glacier\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A missão europeia Copernicus Sentinel-1 capturou uma mudança dramática no glaciar Petermann, no noroeste da Gronelândia, onde uma secção de 76",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A missão europeia Copernicus Sentinel-1 capturou uma mudança dramática no glaciar Petermann, no noroeste da Gronelândia, onde uma secção de 76.",
+      "Dado-chave: A missão europeia Copernicus Sentinel-1 capturou uma mudança dramática no glaciar Petermann, no noroeste da Gronelândia, onde uma secção de 76",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A missão europeia Copernicus Sentinel-1 capturou uma mudança dramática no glaciar Petermann, no noroeste da Gronelândia, onde uma secção de 76",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A missão europeia Copernicus Sentinel-1 capturou uma mudança dramática no glaciar Petermann, no noroeste da Gronelândia, onde uma secção de 76.",
+      "Dado-chave: A missão europeia Copernicus Sentinel-1 capturou uma mudança dramática no glaciar Petermann, no noroeste da Gronelândia, onde uma secção de 76",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Europe’s Copernicus Sentinel-1 mission has captured a dramatic change at Petermann Glacier in northwest Greenland, where a 76 sq km section of the",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Europe’s Copernicus Sentinel-1 mission has captured a dramatic change at Petermann Glacier in northwest Greenland, where a 76 sq km section of the.",
+      "Key detail: Europe’s Copernicus Sentinel-1 mission has captured a dramatic change at Petermann Glacier in northwest Greenland, where a 76 sq km section of.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "21 ago 2026",
     "date_pt": "21 ago 2026",
@@ -461,311 +952,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
-    "slug": "the-view-from-above-the-gemini-visual-acuity-experiments",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://images-assets.nasa.gov/image/s65-45683/s65-45683~large.jpg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/landsat/homepage/PersianGulf_Gemini_L8-2000x1296.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/playing-the-moon-game-/tenthousandsmokes_oli2_20250929_th.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/missions/landsat/landsat-1-3-mission-pages/Fig1.24_TOPRIGHT_Yosemite.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-        "alt": "Satélite de tecnologia de recursos terrestres",
-        "alt_pt": "Satélite de tecnologia de recursos terrestres",
-        "alt_en": "Earth Resources Technology Satellite",
-        "caption": "Satélite de tecnologia de recursos terrestres",
-        "caption_pt": "Satélite de tecnologia de recursos terrestres",
-        "caption_en": "Earth Resources Technology Satellite"
-      },
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/landsat/landsat-1-3-mission-pages/Landsat-1-First-Light-Detail.png",
-        "alt": "Satélite de tecnologia de recursos terrestres",
-        "alt_pt": "Satélite de tecnologia de recursos terrestres",
-        "alt_en": "Earth Resources Technology Satellite",
-        "caption": "Satélite de tecnologia de recursos terrestres",
-        "caption_pt": "Satélite de tecnologia de recursos terrestres",
-        "caption_en": "Earth Resources Technology Satellite"
-      },
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/landsat/landsat-1-3-mission-pages/iiif-service_gmd_gmd384_g3842_g3842c_ct008659-full-pct_12.5-0-default.jpg",
-        "alt": "Satélite de tecnologia de recursos terrestres",
-        "alt_pt": "Satélite de tecnologia de recursos terrestres",
-        "alt_en": "Earth Resources Technology Satellite",
-        "caption": "Satélite de tecnologia de recursos terrestres",
-        "caption_pt": "Satélite de tecnologia de recursos terrestres",
-        "caption_en": "Earth Resources Technology Satellite"
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "A visão de cima: os experimentos de acuidade visual Gemini",
-    "title_pt": "A visão de cima: os experimentos de acuidade visual Gemini",
-    "title_en": "The View from Above: The Gemini Visual Acuity Experiments",
-    "sub": "O astronauta da NASA L. Gordon Cooper Jr. tirou 29 fotografias coloridas da Terra com uma câmera de 70 mm enquanto orbitava nosso planeta durante a missão Mercury-Atlas 9 em maio.",
-    "sub_pt": "O astronauta da NASA L. Gordon Cooper Jr. tirou 29 fotografias coloridas da Terra com uma câmera de 70 mm enquanto orbitava nosso planeta durante a missão Mercury-Atlas 9 em maio.",
-    "sub_en": "NASA astronaut L. Gordon Cooper, Jr. took 29 color photographs of the Earth with a 70mm camera as he orbited our planet during the Mercury-Atlas 9 mission in May 1963.",
-    "excerpt": "O astronauta da NASA L. Gordon Cooper Jr. tirou 29 fotografias coloridas da Terra com uma câmera de 70 mm enquanto orbitava nosso planeta durante a missão Mercury-Atlas 9 em maio de 1963.",
-    "excerpt_pt": "O astronauta da NASA L. Gordon Cooper Jr. tirou 29 fotografias coloridas da Terra com uma câmera de 70 mm enquanto orbitava nosso planeta durante a missão Mercury-Atlas 9 em maio de 1963.",
-    "excerpt_en": "NASA astronaut L. Gordon Cooper, Jr. took 29 color photographs of the Earth with a 70mm camera as he orbited our planet during the Mercury-Atlas 9 mission in May 1963.",
-    "body": "<p>Tirou 29 fotografias coloridas da Terra com uma câmera de 70 mm enquanto orbitava nosso planeta durante a missão Mercury-Atlas 9 em maio de 1963. NASA Estas alegações fizeram com que os profissionais de saúde mental questionassem a sanidade dos primeiros astronautas da NASA.</p><p>NASA Seus relatórios sobre o local “Eye-Q” de Laredo, combinados com os resultados dos experimentos de teste de visão tipo binocular realizados antes, durante e depois do vôo, revelaram que os astronautas podiam de fato ver estradas e navios com rastros de órbita. 1 O astronauta Frank Borman, piloto de comando do Gemini VII, participa de um experimento de visão usando o dispositivo de acuidade visual em voo durante a missão de duas semanas em dezembro de 1965.</p><p>Esta fotografia da área da Baía de São Francisco, na Califórnia, foi tirada como parte do Pacote Experimental de Recursos Terrestres Skylab em janeiro de 1974. Os astronautas de Mercúrio poderiam realmente ver pequenos detalhes na superfície da Terra enquanto orbitavam 160 quilômetros acima? .</p><p>Poderia Cooper realmente ver objetos na superfície da Terra com tantos detalhes enquanto orbitava 160 quilômetros acima do planeta? . 1 Determinar quais características da Terra os astronautas poderiam ver com precisão em órbita era muito mais do que verificar a sanidade dos relatórios dos astronautas.</p><p>O interesse da comunidade científica nas recordações e fotografias da superfície da Terra vista pelos astronautas Mercury e Gemini motivou a NASA e os seus parceiros a defenderem novos instrumentos de observação da Terra. Lançado pela NASA em 1972, os dados da câmera e do scanner multiespectral do Landsat 1 foram usados ​​juntamente com dados do Programa de Aeronaves de Recursos Terrestres da agência para monitorar os oceanos, campos agrícolas, locais de desastres naturais e muito mais.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/history/the-view-from-above-the-gemini-visual-acuity-experiments/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Tirou 29 fotografias coloridas da Terra com uma câmera de 70 mm enquanto orbitava nosso planeta durante a missão Mercury-Atlas 9 em maio de 1963. NASA Estas alegações fizeram com que os profissionais de saúde mental questionassem a sanidade dos primeiros astronautas da NASA.</p><p>NASA Seus relatórios sobre o local “Eye-Q” de Laredo, combinados com os resultados dos experimentos de teste de visão tipo binocular realizados antes, durante e depois do vôo, revelaram que os astronautas podiam de fato ver estradas e navios com rastros de órbita. 1 O astronauta Frank Borman, piloto de comando do Gemini VII, participa de um experimento de visão usando o dispositivo de acuidade visual em voo durante a missão de duas semanas em dezembro de 1965.</p><p>Esta fotografia da área da Baía de São Francisco, na Califórnia, foi tirada como parte do Pacote Experimental de Recursos Terrestres Skylab em janeiro de 1974. Os astronautas de Mercúrio poderiam realmente ver pequenos detalhes na superfície da Terra enquanto orbitavam 160 quilômetros acima? .</p><p>Poderia Cooper realmente ver objetos na superfície da Terra com tantos detalhes enquanto orbitava 160 quilômetros acima do planeta? . 1 Determinar quais características da Terra os astronautas poderiam ver com precisão em órbita era muito mais do que verificar a sanidade dos relatórios dos astronautas.</p><p>O interesse da comunidade científica nas recordações e fotografias da superfície da Terra vista pelos astronautas Mercury e Gemini motivou a NASA e os seus parceiros a defenderem novos instrumentos de observação da Terra. Lançado pela NASA em 1972, os dados da câmera e do scanner multiespectral do Landsat 1 foram usados ​​juntamente com dados do Programa de Aeronaves de Recursos Terrestres da agência para monitorar os oceanos, campos agrícolas, locais de desastres naturais e muito mais.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/history/the-view-from-above-the-gemini-visual-acuity-experiments/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>NASA astronaut L. Gordon Cooper, Jr. took 29 color photographs of the Earth with a 70mm camera as he orbited our planet during the Mercury-Atlas 9 mission in May 1963. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. NASA These claims caused mental health professionals to question the sanity of NASA’s first astronauts. NASA Their reports on the Laredo “Eye-Q” site, combined with the results of the binocular-like vision tester experiments conducted before, during, and after the flight, revealed.</p><p>1 Astronaut Frank Borman, Gemini VII command pilot, participates in a vision experiment using the in-flight visual acuity device during the two-week mission in December 1965. This photograph of the San Francisco Bay area of California was taken as part of the Skylab Earth Resources Experiment Package in January 1974.</p><p>Could Mercury astronauts actually see tiny details on Earth&#x27;s surface while orbiting 100 miles above. Took 29 color photographs of the Earth with a 70mm camera as he orbited our planet during the Mercury-Atlas 9 mission in May 1963.</p><p>Could Cooper actually see objects on the Earth’s surface in such fine detail while orbiting 100 miles above the planet. 1 Determining what features on Earth astronauts could accurately see from orbit was about much more than sanity checking astronaut reports.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>The scientific community’s interest in the recollections and photographs of the Earth’s surface as seen by the Mercury and Gemini astronauts motivated NASA and its partners to. Launched by NASA in 1972, the data from Landsat 1’s camera and multi-spectral scanner were used along with data from the agency’s Earth Resources Aircraft Program to monitor the.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/history/the-view-from-above-the-gemini-visual-acuity-experiments/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: O astronauta da NASA L. Gordon Cooper Jr. tirou 29 fotografias coloridas da Terra com uma câmera de 70 mm enquanto orbitava nosso planeta durante a.",
-      "Dado-chave: O astronauta da NASA L. Gordon Cooper Jr",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: O astronauta da NASA L. Gordon Cooper Jr. tirou 29 fotografias coloridas da Terra com uma câmera de 70 mm enquanto orbitava nosso planeta durante a.",
-      "Dado-chave: O astronauta da NASA L. Gordon Cooper Jr",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: NASA astronaut L. Gordon Cooper, Jr. took 29 color photographs of the Earth with a 70mm camera as he orbited our planet during the Mercury-Atlas 9.",
-      "Key detail: NASA astronaut L. Gordon Cooper, Jr",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "20 ago 2026",
-    "date_pt": "20 ago 2026",
-    "date_en": "20 Aug 2026",
-    "time": "14h30",
-    "time_pt": "14h30",
-    "time_en": "14: 30 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-20T14:30:00+00:00",
-    "lastModifiedIso": "2026-08-20T16:19:57+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "A visão de cima",
-      "os experimentos de acuidade visual Gemini"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "A visão de cima",
-      "os experimentos de acuidade visual Gemini"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "The view from above",
-      "the Gemini visual acuity experiments"
-    ],
-    "srcUrl": "https://www.nasa.gov/history/the-view-from-above-the-gemini-visual-acuity-experiments/",
-    "realUrl": "https://www.cosmosweek.com/?article=the-view-from-above-the-gemini-visual-acuity-experiments",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=the-view-from-above-the-gemini-visual-acuity-experiments",
-    "realUrl_en": "https://www.cosmosweek.com/?article=the-view-from-above-the-gemini-visual-acuity-experiments&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/the-view-from-above-the-gemini-visual-acuity-experiments/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/the-view-from-above-the-gemini-visual-acuity-experiments/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/the-view-from-above-the-gemini-visual-acuity-experiments/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/the-view-from-above-the-gemini-visual-acuity-experiments/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/the-view-from-above-the-gemini-visual-acuity-experiments/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/the-view-from-above-the-gemini-visual-acuity-experiments/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": true,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 86,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "A visão de cima: os experimentos de acuidade visual Gemini",
-    "imageAlt_pt": "A visão de cima: os experimentos de acuidade visual Gemini",
-    "imageAlt_en": "The View from Above: The Gemini Visual Acuity Experiments",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 5,
-    "slug": "nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/articles/2026/Washington_water_extremes.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
-    "inline_images": [],
-    "video": {
-      "kind": "file",
-      "platform": "html5",
-      "embedUrl": "",
-      "fileUrl": "https://assets.science.nasa.gov/content/dam/science/esd/articles/2026/SnowDrought4k_WithComparison_Update.mp4",
-      "poster": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/articles/2026/washing_water_extremes2.png?w=3840&h=1920&fit=clip&crop=faces%2Cfocalpoint",
-      "title": "Dados da NASA alimentam previsões de rios enquanto os efeitos da seca na neve persistem - NASA Science",
-      "title_pt": "Dados da NASA alimentam previsões de rios enquanto os efeitos da seca na neve persistem - NASA Science",
-      "title_en": "NASA Data Feeds River Forecasts as Snow Drought Effects Linger - NASA Science",
-      "caption": "Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança pública no estado de Washington.",
-      "caption_pt": "Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança pública no estado de Washington.",
-      "caption_en": "NASA Earth science data is supporting machine-learning forecasts that inform decisions about water, power, and public safety in Washington state.",
-      "sourcePage": "https://science.nasa.gov/centers-and-facilities/goddard/nasa-river-forecasts-snow-drought/"
-    },
-    "audio": null,
-    "title": "Dados da NASA alimentam previsões do rio enquanto os efeitos da seca na neve persistem",
-    "title_pt": "Dados da NASA alimentam previsões do rio enquanto os efeitos da seca na neve persistem",
-    "title_en": "NASA Data Feeds River Forecasts as Snow Drought Effects Linger",
-    "sub": "Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança pública no estado de Washington.",
-    "sub_pt": "Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança pública no estado de Washington.",
-    "sub_en": "NASA Earth science data is supporting machine-learning forecasts that inform decisions about water, power, and public safety in Washington state.",
-    "excerpt": "Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança pública no estado de Washington.",
-    "excerpt_pt": "Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança pública no estado de Washington.",
-    "excerpt_en": "NASA Earth science data is supporting machine-learning forecasts that inform decisions about water, power, and public safety in Washington state.",
-    "body": "<p>Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança pública no estado de Washington. A represa Mayfield e a central elétrica da Tacoma Power ficam no rio Cowlitz, no sudoeste de Washington, onde as previsões usando dados da NASA apoiam as operações de reservatórios e a geração de energia hidrelétrica.</p><p>Para ver este vídeo, ative o JavaScript e considere atualizar para um navegador da Web que suporte vídeo HTML5. O GEOS (Goddard Earth Observing System) da NASA mapeia um rio atmosférico, uma faixa de vapor d’água, antes que a cobertura de neve de janeiro a abril de 2026 em Washington seja comparada com uma mediana histórica.</p><p>Das previsões às avaliações de seca, o Cowlitz Hydro Project da Tacoma Public Utilities é apenas um exemplo da ciência da NASA que apoia as decisões hídricas em todo o Ocidente. Descubra mais sobre o trabalho da NASA sobre a seca Sobre a autora Emily DeMarco Escritora/Editora (IV), Divisão de Ciências da Terra Emily é redatora e editora científica da Divisão de Ciências da Terra da NASA, com mais de 10 anos de experiência em jornalismo e comunicação.</p><p>Estúdio de Visualização Científica da NASA À medida que os efeitos da seca de neve de 2026 no oeste dos Estados Unidos se estendem até o verão, os dados da NASA Earth estão alimentando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança. O HydroForecast da Upstream Tech combina previsões meteorológicas e medições de rios com dados de satélite produzidos pela NASA sobre cobertura de neve e condições de vegetação para prever o fluxo do rio com horas ou dias de antecedência.</p><p>Janeiro, fevereiro e março tiveram, cada um, a menor cobertura de neve ocidental naquele mês no registro do satélite MODIS (Espectrorradiômetro de Imagem de Resolução Moderada) da NASA desde 2001. A Tacoma Power entrou no verão de 2026 com níveis de reservatório próximos da média, apesar da primavera seca.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/centers-and-facilities/goddard/nasa-river-forecasts-snow-drought/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança pública no estado de Washington. A represa Mayfield e a central elétrica da Tacoma Power ficam no rio Cowlitz, no sudoeste de Washington, onde as previsões usando dados da NASA apoiam as operações de reservatórios e a geração de energia hidrelétrica.</p><p>Para ver este vídeo, ative o JavaScript e considere atualizar para um navegador da Web que suporte vídeo HTML5. O GEOS (Goddard Earth Observing System) da NASA mapeia um rio atmosférico, uma faixa de vapor d’água, antes que a cobertura de neve de janeiro a abril de 2026 em Washington seja comparada com uma mediana histórica.</p><p>Das previsões às avaliações de seca, o Cowlitz Hydro Project da Tacoma Public Utilities é apenas um exemplo da ciência da NASA que apoia as decisões hídricas em todo o Ocidente. Descubra mais sobre o trabalho da NASA sobre a seca Sobre a autora Emily DeMarco Escritora/Editora (IV), Divisão de Ciências da Terra Emily é redatora e editora científica da Divisão de Ciências da Terra da NASA, com mais de 10 anos de experiência em jornalismo e comunicação.</p><p>Estúdio de Visualização Científica da NASA À medida que os efeitos da seca de neve de 2026 no oeste dos Estados Unidos se estendem até o verão, os dados da NASA Earth estão alimentando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança. O HydroForecast da Upstream Tech combina previsões meteorológicas e medições de rios com dados de satélite produzidos pela NASA sobre cobertura de neve e condições de vegetação para prever o fluxo do rio com horas ou dias de antecedência.</p><p>Janeiro, fevereiro e março tiveram, cada um, a menor cobertura de neve ocidental naquele mês no registro do satélite MODIS (Espectrorradiômetro de Imagem de Resolução Moderada) da NASA desde 2001. A Tacoma Power entrou no verão de 2026 com níveis de reservatório próximos da média, apesar da primavera seca.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/centers-and-facilities/goddard/nasa-river-forecasts-snow-drought/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>NASA Earth science data is supporting machine-learning forecasts that inform decisions about water, power, and public safety in Washington state. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. NASA’s Scientific Visualization Studio As the effects of the 2026 snow drought in the western United States carry into summer, NASA Earth data is feeding machine-learning. Tacoma Power’s Mayfield Dam and powerhouse sit on the Cowlitz River in southwest Washington, where forecasts using NASA data support reservoir operations and hydropower generation.</p><p>To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video NASA’s GEOS (Goddard Earth Observing System) maps an atmospheric. From forecasts to drought assessments Tacoma Public Utilities’ Cowlitz Hydro Project is just one example of NASA science supporting water decisions across the West.</p><p>Discover more about NASA’s drought work About the Author Emily DeMarco Writer/Editor (IV), Earth Science Division Emily is a science writer and editor with NASA’s Earth Science. NASA&#x27;s Scientific Visualization Studio As the effects of the 2026 snow drought in the western United States carry into summer, NASA Earth data is feeding machine-learning.</p><p>Upstream Tech’s HydroForecast combines weather forecasts and river measurements with NASA-produced satellite data on snow cover and vegetation conditions to predict river flow. Part of NASA’s mission is to make the view from space useful on the ground,” said Erin Urquhart, manager for NASA’s Water Resources program at the agency’s headquarters in.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>January, February, and March each had the lowest Western snow cover for that month in the NASA MODIS (Moderate Resolution Imaging Spectroradiometer) satellite record since 2001. Tacoma Power entered summer 2026 with reservoir levels near average despite the dry spring.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/centers-and-facilities/goddard/nasa-river-forecasts-snow-drought/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança.",
-      "Dado-chave: Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança.",
-      "Dado-chave: Os dados científicos da Terra da NASA estão apoiando previsões de aprendizado de máquina que informam decisões sobre água, energia e segurança.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: NASA Earth science data is supporting machine-learning forecasts that inform decisions about water, power, and public safety in Washington state.",
-      "Key detail: NASA Earth science data is supporting machine-learning forecasts that inform decisions about water, power, and public safety in Washington state.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "20 ago 2026",
-    "date_pt": "20 ago 2026",
-    "date_en": "20 Aug 2026",
-    "time": "14h12",
-    "time_pt": "14h12",
-    "time_en": "14: 12 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-20T14:12:09+00:00",
-    "lastModifiedIso": "2026-08-20T16:19:57+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Dados da NASA alimentam previsões do rio enquanto os efeitos da seca na neve persistem"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Dados da NASA alimentam previsões do rio enquanto os efeitos da seca na neve persistem"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA Data Fuels River Forecasts as Snow Drought Effects Persist"
-    ],
-    "srcUrl": "https://science.nasa.gov/centers-and-facilities/goddard/nasa-river-forecasts-snow-drought/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-data-feeds-river-forecasts-as-snow-drought-effects-linger/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Dados da NASA alimentam previsões do rio enquanto os efeitos da seca na neve persistem",
-    "imageAlt_pt": "Dados da NASA alimentam previsões do rio enquanto os efeitos da seca na neve persistem",
-    "imageAlt_en": "NASA Data Feeds River Forecasts as Snow Drought Effects Linger",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 6,
+    "id": 7,
     "slug": "quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -786,18 +973,19 @@ window.postsData = [
     "body_pt": "<p>Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta. A contraparte ultravioleta atrasada detectada em Ansky fornece uma nova restrição em modelos viáveis.</p><p>Erupções quase periódicas (QPEs) são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p>Resumo: Erupções quase periódicas (QPEs) são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta. A contraparte ultravioleta (UV) atrasada detectada em Ansky fornece uma nova restrição em modelos viáveis.</p><p>Apresentamos um modelo de dois canais no qual um buraco negro satélite (sBH) atravessa repetidamente um disco de acreção nuclear enfiado por um campo magnético de grande escala. O foco gravitacional e o arrasto dinâmico geram material ejetado quente e opticamente espesso, cuja expansão e difusão de fótons alimentam o QPE de raios X suave.</p><p>Para parâmetros fiduciais da escala de Bondi, o modelo produz uma duração característica de raios X de $\\sim10^3\\\\mathrm{s}$ e luminosidade de $\\sim10^{42}\\\\mathrm{erg\\, s^{-1}}$.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.19796v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Quasi-periodic eruptions are recurrent soft X-ray flares from galactic nuclei, but their origin remains uncertain. The delayed ultraviolet counterpart detected in Ansky provides a new constraint on viable models. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>That matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Quasi-periodic eruptions (QPEs) are recurrent soft X-ray flares from galactic nuclei, but their origin remains uncertain. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>The delayed ultraviolet (UV) counterpart detected in Ansky provides a new constraint on viable models. We present a two-channel model in which a satellite black hole (sBH) repeatedly crosses a nuclear accretion disk threaded by a large-scale magnetic field.</p><p>Gravitational focusing and dynamical drag generate hot, optically thick ejecta whose expansion and photon diffusion power the soft X-ray QPE. For fiducial Bondi-scale parameters, the model yields a characteristic X-ray duration of $\\sim10^3\\ \\mathrm{s}$ and luminosity of $\\sim10^{42}\\ \\mathrm{erg\\, s^{-1}}$.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>At lower orbital inclinations, the duration extends to the day-long scale observed in Ansky. Simultaneously, the sBH motion compresses and bends the background magnetic field, triggering in-disk reconnection.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.19796v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta.",
+      "Dado-chave: Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta.",
+      "Dado-chave: Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: Quasi-periodic eruptions are recurrent soft X-ray flares from galactic nuclei, but their origin remains uncertain",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: Quasi-periodic eruptions are recurrent soft X-ray flares from galactic nuclei, but their origin remains uncertain.",
+      "Key detail: Quasi-periodic eruptions are recurrent soft X-ray flares from galactic nuclei, but their origin remains uncertain",
+      "Result not yet peer reviewed."
     ],
     "date": "20 ago 2026",
     "date_pt": "20 ago 2026",
@@ -885,7 +1073,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "milky-way-s-fastest-star-orbits-our-supermassive-black-hole-so-closely-it-feels-its-spin",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1128,7 +1316,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "spying-on-a-split-comet",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1177,19 +1365,19 @@ window.postsData = [
     "body_pt": "<p>O post Espionando um cometa dividido apareceu pela primeira vez na Sky &amp; Telescope. Uma dessas classes, conhecidas como cometas da família de Júpiter, viajou desde a Cintura de Kuiper até períodos orbitais curtos (menos de 20 anos), cujos percursos através do sistema solar são moldados pela gravidade de Júpiter.</p><p>Descoberto em 2002, o 240P/NEAT é um cometa da família de Júpiter que circula entre Júpiter e Marte numa órbita de 7, 6 anos. Ao aproximar-se de Júpiter, o 240P experimenta interações fortes e frequentes com o gigante gasoso que podem alterar a órbita do cometa e causar explosões repentinas de brilho à medida que o gelo e a poeira são aquecidos e libertados da superfície do cometa.</p><p>Mais recentemente, o 240P passou mais perto de Júpiter em julho de 2007, mudando a distância do periélio do cometa (aproximação mais próxima do Sol) de 2, 5 para 2, 1 ua, e várias explosões de brilho de longa duração em 2018/2019 poderiam ter sido estimuladas por esta mudança. Curiosamente, um objeto em movimento mais fraco, 240P-B, foi relatado pela primeira vez em junho de 2025, quando o cometa se dirigia para o periélio, em algum momento recentemente, 240P tinha-se dividido em dois! .</p><p>Com evidências crescentes sugerindo que a divisão e a desintegração são os principais mecanismos de destruição do cometa, é imperativo compreender as propriedades e a causa da divisão do 240P. Com o 240P em movimento para o periélio, David Jewitt (Universidade da Califórnia, Los Angeles) e colaboradores monitorizaram o cometa de outubro de 2025 a abril de 2026 para estabelecer a causa provável da sua divisão.</p><p>Empregando o espectrógrafo de objetos fracos Alhambra e a câmera do Telescópio Óptico Nórdico de 2, 56 metros, os autores obtiveram imagens detalhadas do cometa de dois meses antes até quatro meses depois do periélio para caracterizar ambos os componentes. Acompanhando as mudanças fotométricas e morfológicas em suas observações, os autores estimaram as taxas de perda de poeira, tamanhos físicos e velocidade de separação de 240P-A e 240P-B.</p><p>A partir da sua menor taxa de perda de poeira e menor brilho, os autores estimaram um raio em torno de 300 metros (e não inferior a 50).</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/spying-on-a-split-comet/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Traversing through the solar system, a comet split in two, and a recent study used six months of observations to investigate when and why. The post Spying on a Split Comet appeared first on Sky &amp; Telescope. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>This matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. One such class, known as Jupiter-family comets, traveled from the Kuiper Belt to short orbital periods (less than 20 years) whose paths through the solar system are shaped by. Discovered in 2002, 240P/NEAT is a Jupiter-family comet that loops between Jupiter and Mars on a 7.6-year orbit.</p><p>Making close approaches to Jupiter, 240P experiences frequent, strong interactions with the gas giant that can alter the comet’s orbit and cause sudden bursts in brightness as ice. Excitingly, a fainter comoving object, 240P-B, was first reported in June 2025 as the comet headed toward perihelion, at some point recently, 240P had split in two.</p><p>With growing evidence suggesting splitting and disintegration are the primary mechanisms of comet destruction, understanding the properties and cause of 240P’s split is imperative. With 240P on the move to perihelion, David Jewitt (University of California, Los Angeles) and collaborators monitored the comet from October 2025 to April 2026 to establish the.</p><p>Employing the Alhambra Faint Object Spectrograph and Camera on the 2.56-meter Nordic Optical Telescope, the authors obtained detailed imaging of the comet from two months before. Tracking both photometric and morphological changes across their observations, the authors estimated the dust-loss rates, physical sizes, and separation speed of 240P-A and 240P-B.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>From its lower dust-loss rate and lower brightness, the authors estimated a radius around 300 meters (and no smaller than 50). Based on how the separation of the two comet pieces changes over time, the authors determined that the split of 240P occurred at least three years before their observations.</p><p>Because this item comes through Sky &amp; Telescope as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/spying-on-a-split-comet/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Atravessando o sistema solar, um cometa se dividiu em dois, e um estudo recente usou seis meses de observações para investigar quando e por quê",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: Atravessando o sistema solar, um cometa se dividiu em dois, e um estudo recente usou seis meses de observações para investigar quando e por quê.",
+      "Dado-chave: Atravessando o sistema solar, um cometa se dividiu em dois, e um estudo recente usou seis meses de observações para investigar quando e por quê",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
-      "Em foco: Atravessando o sistema solar, um cometa se dividiu em dois, e um estudo recente usou seis meses de observações para investigar quando e por quê",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: Atravessando o sistema solar, um cometa se dividiu em dois, e um estudo recente usou seis meses de observações para investigar quando e por quê.",
+      "Dado-chave: Atravessando o sistema solar, um cometa se dividiu em dois, e um estudo recente usou seis meses de observações para investigar quando e por quê",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
-      "Focus: Traversing through the solar system, a comet split in two, and a recent study used six months of observations to investigate when and why",
-      "Detail: Science reporting: verify primary technical documentation",
-      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+      "Core point: Traversing through the solar system, a comet split in two, and a recent study used six months of observations to investigate when and why.",
+      "Key detail: Traversing through the solar system, a comet split in two, and a recent study used six months of observations to investigate when and why",
+      "Science reporting: verify primary technical documentation."
     ],
     "date": "18 ago 2026",
     "date_pt": "18 ago 2026",
@@ -1277,7 +1465,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "infrared-lines-from-sterile-neutrino-transition-magnetic-moments-at-jwst",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -1401,7 +1589,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "nsf-announces-1-5b-for-foundational-research-to-drive-scientific-breakthroughs-for-american-tech",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1553,7 +1741,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "hubble-gaia-solve-our-galaxy-s-merger-mystery",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1602,19 +1790,19 @@ window.postsData = [
     "body_pt": "<p>A nossa galáxia natal, a Via Láctea, cresceu até ao tamanho atual, em parte devido ao consumo de galáxias mais pequenas. Agora, novos dados do Telescópio Espacial Hubble da NASA/ESA mostram evidências definitivas de uma galáxia anã se fundindo com a jovem galáxia Via Láctea.</p><p>Agora, novos dados do Telescópio Espacial Hubble da NASA/ESA mostram evidências definitivas de uma galáxia anã fundindo-se com a jovem galáxia Via Láctea nas primeiras fases da sua evolução. Esta descoberta amplia o nosso conhecimento da história da nossa galáxia 1, 8 mil milhões de anos mais atrás no tempo do que antes.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Hubble_Gaia_solve_our_galaxy_s_merger_mystery\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Our home galaxy, the Milky Way, grew to its current size in part by consuming smaller galaxies. Now, new data from the NASA/ESA Hubble Space Telescope show definitive evidence of a dwarf galaxy merging with the young Milky Way galaxy in. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern. The gap between identifying a correlation in biological data and understanding the causal chain that produces it is routinely underestimated, and the history of biomedical research is populated with associations that collapsed when the mechanism was sought and not found. A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive finding because it generates testable predictions that can narrow the hypothesis space. Now, new data from the NASA/ESA Hubble Space Telescope show definitive evidence of a dwarf galaxy merging with the young Milky Way galaxy in the earliest phases of its evolution. This finding extends our knowledge of our galaxy’s history 1.8 billion years farther back in time than before.</p><p>The broader interest lies in whether the reported effect points toward a real mechanism and not merely a reproducible but unexplained association. Biology has learned from decades of biomarker failures that correlation, even robust correlation, is not a substitute for mechanistic understanding. A pathway that can be traced from molecular interaction to cellular response to organismal phenotype provides a far stronger foundation for intervention than a statistical association discovered in a large dataset, however well the statistics are done.</p><p>Because the account originates with ESA Space Science, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to test whether the effect repeats across different methods, cell types, model organisms and experimental conditions. Reproducibility is the first test, but mechanistic dissection is the second, and a result that passes both has a substantially better chance of translating into something clinically or biotechnologically useful. The path from a laboratory finding to an applied outcome typically takes a decade or more, and most findings do not complete it; the current result sits at the beginning of that process.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Hubble_Gaia_solve_our_galaxy_s_merger_mystery\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A nossa galáxia natal, a Via Láctea, cresceu até ao tamanho atual, em parte devido ao consumo de galáxias mais pequenas",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A nossa galáxia natal, a Via Láctea, cresceu até ao tamanho atual, em parte devido ao consumo de galáxias mais pequenas.",
+      "Dado-chave: A nossa galáxia natal, a Via Láctea, cresceu até ao tamanho atual, em parte devido ao consumo de galáxias mais pequenas",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A nossa galáxia natal, a Via Láctea, cresceu até ao tamanho atual, em parte devido ao consumo de galáxias mais pequenas",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A nossa galáxia natal, a Via Láctea, cresceu até ao tamanho atual, em parte devido ao consumo de galáxias mais pequenas.",
+      "Dado-chave: A nossa galáxia natal, a Via Láctea, cresceu até ao tamanho atual, em parte devido ao consumo de galáxias mais pequenas",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Our home galaxy, the Milky Way, grew to its current size in part by consuming smaller galaxies",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Our home galaxy, the Milky Way, grew to its current size in part by consuming smaller galaxies.",
+      "Key detail: Our home galaxy, the Milky Way, grew to its current size in part by consuming smaller galaxies",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "17 ago 2026",
     "date_pt": "17 ago 2026",
@@ -1702,7 +1890,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "science-release-hubble-solves-merger-mystery-from-milky-way-s-early-years",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1854,7 +2042,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "a-look-back-at-the-2026-total-solar-eclipse",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1997,19 +2185,19 @@ window.postsData = [
     "body_pt": "<p>Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas. Milhões de pessoas ficaram impressionadas com a Lua cobrindo completamente o disco brilhante do Sol, transformando brevemente o dia em noite e revelando a parte externa do Sol.</p><p>Milhões de pessoas ficaram maravilhadas com a Lua cobrindo completamente o disco brilhante do Sol, transformando brevemente o dia em noite e revelando a atmosfera externa do Sol. Acho que ‘confunde a mente’ resume tudo”, disse a Diretora de Ciências da Agência Espacial Europeia, Professora Carole Mundell, durante a transmissão ao vivo da ESA a partir do Observatório Astrofísico de Javalambre, Espanha.</p><p>A ESA organizou transmissões ao vivo de telescópios dos locais espanhóis de León, Palencia e Javalambre, e fotógrafos de toda a Europa partilharam as suas fotos connosco. O satélite de observação da Terra MTG-I1 capturou a sombra da Lua movendo-se pela Terra, e o criador de eclipses artificiais da ESA, Proba-3, capturou um eclipse duplo da órbita da Terra.</p><p>Para aqueles que não puderam viajar para regiões onde a totalidade era visível, a transmissão ao vivo da ESA permitiu-lhes vivenciar o eclipse juntamente com cientistas da ESA e do observatório. Maggie Aderin, o programa explorou tópicos que vão desde os mistérios do Sol e da sua coroa, até como um famoso eclipse mudou a nossa compreensão da gravidade e como a ESA está agora a criar eclipses solares artificiais no espaço.</p><p>O destaque foi a cobertura de 1 minuto e 21 segundos de totalidade, enquanto a Lua mergulhava Javalambre na escuridão total. A ESA, juntamente com a Cidade de Leão e a Universidade de Leão, organizou um evento público gratuito no Palácio de Exposições e Congressos de Leão (Espanha) no dia do eclipse.</p><p>Um destaque foi o workshop “um eclipse inclusivo”, onde membros da equipa de educação científica CESAR da ESA demonstraram ferramentas para experienciar um eclipse sem usar os olhos.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/A_look_back_at_the_2026_total_solar_eclipse\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades. Millions of people were awed by the Moon completely covering the Sun&#x27;s bright disc, briefly turning day into night and revealing the Sun&#x27;s outer. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades. Millions of people were awed by the Moon completely covering the Sun&#x27;s bright disc, briefly turning day into night and revealing the Sun&#x27;s outer atmosphere.</p><p>I think ‘boggles the mind’ sums it up,” says the European Space Agency&#x27;s Director of Science Professor Carole Mundell, during ESA&#x27;s live broadcast from the Observatorio. ESA arranged for live telescope feeds from the Spanish sites of León, Palencia and Javalambre, and photographers across Europe shared their photos with us.</p><p>Earth observation satellite MTG-I1 captured the Moon’s shadow moving across Earth, and ESA&#x27;s artificial eclipse-maker Proba-3 captured a double eclipse from Earth orbit. For those unable to travel to regions from where totality was visible, ESA&#x27;s live broadcast allowed them to experience the eclipse together with scientists from ESA and the.</p><p>Hosted by Dame Dr Maggie Aderin, the programme explored topics ranging from the mysteries of the Sun and its corona, to how one famous eclipse changed our understanding of. The highlight was the coverage of 1 minute and 21 seconds of totality, as the Moon plunged Javalambre into complete darkness.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>ESA, together with the City of León and the University of León, organised a free public event at the Palacio de Exposiciones y Congresos de León (Spain) on the day of the eclipse. A highlight was the ‘an inclusive eclipse’ workshop, where members of ESA’s CESAR science education team demonstrated tools to experience an eclipse without using your eyes.</p><p>Because the account originates with ESA Space Science, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/A_look_back_at_the_2026_total_solar_eclipse\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas.",
+      "Dado-chave: Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas.",
+      "Dado-chave: Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades.",
+      "Key detail: On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "14 ago 2026",
     "date_pt": "14 ago 2026",
@@ -2097,7 +2285,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "stops-along-the-path-of-totality",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2237,7 +2425,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "dust-and-water-spotted-close-to-giant-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2277,19 +2465,19 @@ window.postsData = [
     "body_pt": "<p>Usando o Telescópio Espacial James Webb da NASA/ESA/CSA, uma equipe internacional de astrônomos descobriu que poeira e água podem se formar e sobreviver surpreendentemente perto do buraco negro supermassivo no centro da nossa galáxia, a Via Láctea. Utilizando o Telescópio Espacial James Webb da NASA/ESA/CSA, uma equipa internacional de astrónomos descobriu que poeira e água podem formar-se e sobreviver surpreendentemente perto do buraco negro supermassivo no centro da nossa galáxia, a Via Láctea.</p><p>As observações revelam que a estrela evoluída IRS 3 continua a enriquecer a sua vizinhança com material recém-formado, apesar do ambiente de intensa radiação em torno de Sagitário A*. As novas observações fornecem a visão mais detalhada no infravermelho médio da estrela altamente evoluída IRS 3, que está localizada a apenas 0, 55 anos-luz de Sagitário A*, o buraco negro supermassivo central da galáxia da Via Láctea.</p><p>O IRS 3 atingiu um estágio próximo ao fim de sua vida denominado fase de ramo gigante assintótico. Ao analisar a luz infravermelha da estrela com o MIRI (Mid-Infrared Instrument) de Webb, a equipa de investigação identificou assinaturas claras de poeira rica em oxigénio e, pela primeira vez, detectou água no envelope circundante da estrela.</p><p>Os resultados mostram que mesmo sob condições adversas perto de um buraco negro supermassivo, estrelas evoluídas como a IRS 3 ainda podem produzir poeira e outros materiais importantes para a criação de futuras gerações de estrelas e planetas. Com o Webb, podemos observar diretamente como as estrelas se comportam nestas condições e ver que a produção de poeira permanece notavelmente resiliente.</p><p>Estas características identificam a IRS 3 como uma estrela evoluída rica em oxigénio, que está a aproximar-se do fim da sua vida e a libertar material para o espaço. Esta descoberta foi possível devido aos instrumentos infravermelhos altamente capazes do Webb”, disse Macarena Garcia Marin da ESA, co-autor do estudo e PI do programa MICONIC.</p><p>Os seus resultados indicam uma distribuição de poeira em camadas, semelhante a uma concha, que se estende por cerca de 10 000 unidades astronómicas da estrela, com temperaturas a cair de aproximadamente 1200 Kelvin perto da estrela para cerca de 100 Kelvin nas regiões exteriores.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Using the NASA/ESA/CSA James Webb Space Telescope, an international team of astronomers have discovered that dust and water can form and survive surprisingly close to the supermassive black hole at the centre of our Milky Way galaxy. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. The observations reveal that the evolved star IRS 3 continues to enrich its surroundings with newly formed material despite the intense radiation environment around Sagittarius A*. IRS 3 has reached a stage near the end of its life called the asymptotic giant branch phase.</p><p>By analysing the star’s infrared light with Webb’s MIRI (Mid-Infrared Instrument), the research team identified clear signatures of oxygen-rich dust and, for the first time. The results show that even under the harsh conditions near a supermassive black hole, evolved stars like IRS 3 can still produce dust and other materials important for the.</p><p>With Webb, we can directly observe how stars behave under these conditions and see that dust production remains remarkably resilient. These features identify IRS 3 as an oxygen-rich evolved star, which is nearing the end of its life and shedding material into space.</p><p>This discovery was possible because of Webb’s highly capable infrared instruments,” said Macarena Garcia Marin of ESA, a co-author of the study and PI of the MICONIC programme. Their results indicate a layered, shell-like distribution of dust extending roughly 10 000 astronomical units from the star, with temperatures falling from approximately 1200.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>The observations also revealed evidence for water within the envelope of IRS 3: the first clear detection of its kind for this object. This tells us that even close to a supermassive black hole, stars can continue contributing material back into their surroundings.</p><p>Because the account originates with ESA Space Science, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Usando o Telescópio Espacial James Webb da NASA/ESA/CSA, uma equipe internacional de astrônomos descobriu que poeira e água podem se formar e",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Usando o Telescópio Espacial James Webb da NASA/ESA/CSA, uma equipe internacional de astrônomos descobriu que poeira e água podem se formar e.",
+      "Dado-chave: Usando o Telescópio Espacial James Webb da NASA/ESA/CSA, uma equipe internacional de astrônomos descobriu que poeira e água podem se formar e",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Usando o Telescópio Espacial James Webb da NASA/ESA/CSA, uma equipe internacional de astrônomos descobriu que poeira e água podem se formar e",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Usando o Telescópio Espacial James Webb da NASA/ESA/CSA, uma equipe internacional de astrônomos descobriu que poeira e água podem se formar e.",
+      "Dado-chave: Usando o Telescópio Espacial James Webb da NASA/ESA/CSA, uma equipe internacional de astrônomos descobriu que poeira e água podem se formar e",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Using the NASA/ESA/CSA James Webb Space Telescope, an international team of astronomers have discovered that dust and water can form and survive",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Using the NASA/ESA/CSA James Webb Space Telescope, an international team of astronomers have discovered that dust and water can form and survive.",
+      "Key detail: Using the NASA/ESA/CSA James Webb Space Telescope, an international team of astronomers have discovered that dust and water can form and survive",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "11 ago 2026",
     "date_pt": "11 ago 2026",
@@ -2377,7 +2565,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "the-quadratic-growth-of-krylov-spread-complexity-in-the-btz-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2498,7 +2686,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2629,7 +2817,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "how-the-tide-turns-at-the-mouth-of-the-elbe",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2778,7 +2966,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "europe-s-forests-losing-more-biomass-since-2018",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2899,7 +3087,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 21,
     "slug": "the-paradox-of-lencois-maranhenses-national-park",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3039,7 +3227,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 21,
+    "id": 22,
     "slug": "new-exomoon-detection-challenges-cosmic-labels",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3119,19 +3307,19 @@ window.postsData = [
     "body_pt": "<p>Observações feitas com o Very Large Telescope do Observatório Europeu do Sul revelaram evidências de um objeto semelhante à Lua no sistema CD-35 2722. Observações feitas com o Very Large Telescope do Observatório Europeu do Sul (VLT do ESO) revelaram evidências de um objeto semelhante à Lua no sistema CD-35 2722.</p><p>Se confirmado, esta poderá ser a primeira ‘lua’ descoberta fora do nosso Sistema Solar. Kevin Hoy, um estudante do ESO no Chile e autor principal do estudo publicado hoje na Nature, descreve o sistema que passou meses analisando como “superestranho” em comparação com o nosso.</p><p>Este sistema é um pouco difícil de definir usando palavras baseadas no Sistema Solar, como ‘planeta’ e ‘lua’”, afirma Hoy, que também é afiliado à Universidade Diego Portales e ao Núcleo Millennium de Jovens Exoplanetas e suas Luas (YEMS) no Chile. O novo objeto, que a equipe chama de exosatélite, é pelo menos tão massivo quanto Júpiter, enquanto a anã marrom tem mais de 30 vezes a massa de Júpiter.</p><p>Ser a terceira roda neste sistema nos faz querer chamá-la de lua, mesmo que não seja nada parecida com as pequenas luas rochosas que temos em nosso sistema. Há apenas alguns meses, uma equipe liderada por Quentin Kral relatou observações com o Interferômetro do Very Large Telescope do ESO no sistema estelar HD 206893, que revelaram indícios de um satélite, mas nenhuma detecção firme.</p><p>Para as observações do CD-35 2722, Hoy, Zurlo e a sua equipa utilizaram o instrumento CRIRES+ montado no VLT do ESO, empregando o método que foi utilizado para encontrar o primeiro exoplaneta em torno de uma estrela semelhante ao Sol. Com o seu espelho de 39 metros e instrumentação avançada, o próximo Extremely Large Telescope (ELT) do ESO permitirá aos astrónomos detectar exoluas mais pequenas.</p><p>[1] Um satélite é um objeto que orbita outro objeto e pode ser natural (como a nossa lua) ou artificial (como uma nave espacial).</p><p class=\"art-source\"><a href=\"https://www.eso.org/public/news/eso2610/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Observations made with the European Southern Observatory’s Very Large Telescope have revealed evidence for a moon-like object in the CD-35 2722 system. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Observations made with the European Southern Observatory’s Very Large Telescope (ESO’s VLT) have revealed evidence for a moon-like object in the CD-35 2722 system. If confirmed, this could be the first ‘moon’ discovered outside our Solar System.</p><p>Kevin Hoy, an ESO student in Chile and lead author of the study published today in Nature, describes the system he spent months analysing as “ super weird ” compared to our own. This system is somewhat hard to define using Solar-System-based words like ‘planet’ and ‘moon’,” states Hoy, who is also affiliated with the Universidad Diego Portales and the.</p><p>The new object, which the team call an exosatellite, is at least as massive as Jupiter while the brown dwarf has more than 30 times the mass of Jupiter. Being the third wheel in this system makes us want to call it a moon, even if it is nothing like the small, rocky moons we have in our system.</p><p>With its 39-metre mirror and advanced instrumentation, ESO’s upcoming Extremely Large Telescope (ELT) will allow astronomers to detect smaller exomoons. A satellite is an object that orbits another object and it can be natural (like our own moon) or artificial (like a spacecraft).</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>+56 22138153 Email: alice. zurlo@mail. udp. cl Bárbara Ferreira ESO Media Manager Garching bei München. +49 89 3200 6670 Cell: +49 151 241 664 00 Email: press@eso. org We use cookies that are essential for accessing our websites and using our services.</p><p>Because the account originates with ESO Press Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.eso.org/public/news/eso2610/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Observações feitas com o Very Large Telescope do Observatório Europeu do Sul revelaram evidências de um objeto semelhante à Lua no sistema CD-35 2722",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Observações feitas com o Very Large Telescope do Observatório Europeu do Sul revelaram evidências de um objeto semelhante à Lua no sistema CD-35 2722.",
+      "Dado-chave: Observações feitas com o Very Large Telescope do Observatório Europeu do Sul revelaram evidências de um objeto semelhante à Lua no sistema CD-35.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Observações feitas com o Very Large Telescope do Observatório Europeu do Sul revelaram evidências de um objeto semelhante à Lua no sistema CD-35 2722",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Observações feitas com o Very Large Telescope do Observatório Europeu do Sul revelaram evidências de um objeto semelhante à Lua no sistema CD-35 2722.",
+      "Dado-chave: Observações feitas com o Very Large Telescope do Observatório Europeu do Sul revelaram evidências de um objeto semelhante à Lua no sistema CD-35.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Observations made with the European Southern Observatory’s Very Large Telescope have revealed evidence for a moon-like object in the CD-35 2722",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Observations made with the European Southern Observatory’s Very Large Telescope have revealed evidence for a moon-like object in the CD-35 2722.",
+      "Key detail: Observations made with the European Southern Observatory’s Very Large Telescope have revealed evidence for a moon-like object in the CD-35 2722",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "22 jul 2026",
     "date_pt": "22 jul 2026",
@@ -3219,7 +3407,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 22,
+    "id": 23,
     "slug": "the-nancy-grace-roman-space-telescope-launch-what-to-expect",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3416,7 +3604,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 23,
+    "id": 24,
     "slug": "science-release-hubble-discovers-first-of-star-cluster-s-missing-black-holes",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -3492,19 +3680,19 @@ window.postsData = [
     "body_pt": "<p>O enorme aglomerado estelar globular Omega Centauri tem intrigado os astrônomos há décadas. Deveria estar preenchido com buracos negros deixados pela explosão de estrelas, mas as evidências deles são escassas.</p><p>Agora, os astrónomos, usando dados de arquivo do Telescópio Espacial Hubble da NASA/ESA e observações de apoio do Telescópio Espacial James Webb da NASA/ESA/CSA, finalmente localizaram o seu primeiro buraco negro de massa estelar neste aglomerado. Embora a comunidade astronómica já tenha encontrado evidências com o Hubble de que um buraco negro de massa intermédia se esconde no seu centro, os modelos sugerem que este enxame estelar deve conter cerca de 10.000 buracos negros mais pequenos, de massa estelar.</p><p>Esta notável população de buracos negros escapou à detecção em estudos anteriores, que utilizaram o método da velocidade radial [1] ou procuraram emissões de rádio e raios X provenientes de material que caía sobre os buracos negros. Uma nova descoberta apresenta uma abordagem diferente, conhecida como astrometria [2], para medir os movimentos muito pequenos das estrelas ao longo do tempo.</p><p>Ao examinar mais de 20 anos de dados de arquivo do Hubble e extrair dados recentes do Webb para refinar ainda mais as medições astrométricas, a equipe localizou uma estrela orbitando um objeto invisível tão pesado que só pode ser um buraco negro. Apelidado de oMEGACat BH-2, é o primeiro buraco negro de massa estelar detectado em Omega Centauri e possui algumas qualidades surpreendentes.</p><p>O OMEGACat BH-2 tem uma massa inferior ao esperado e, com a sua companheira estelar visível, o duo buraco negro-estrela tem o período orbital mais longo de qualquer sistema binário de buraco negro conhecido até à data. Com os dados do Hubble e do Webb, fomos capazes de ver o movimento da estrela visível da sequência principal [3] que faz parte deste binário, que está a cerca de 18.</p><p>Ao expandir os dados do Hubble analisados ​​para incluir medições astrométricas de 2002 a 2023, e extraindo dados do infravermelho próximo de Webb para melhorar a precisão, a equipe liderada pela Universidade de Utah foi capaz de restringir melhor a massa da companheira escura.</p><p class=\"art-source\"><a href=\"https://esahubble.org/news/heic2610/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>The massive globular star cluster Omega Centauri has puzzled astronomers for decades. It should be filled with black holes left behind by exploding stars, yet evidence for them is scarce. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Now, astronomers using archival data from the NASA/ESA Hubble Space Telescope and supportive observations from the NASA/ESA/CSA James Webb Space Telescope have finally located. Though the astronomy community has previously found evidence with Hubble that an intermediate-mass black hole lurks at its centre, models suggest that this star cluster should.</p><p>This notable population of black holes has evaded detection in previous studies, which used the radial velocity method or looked for radio and X-ray emission from material falling. A new discovery features a different approach, known as astrometry, to measure the very small movements of stars over time.</p><p>By sifting through more than 20 years of Hubble archival data and pulling in recent Webb data to further refine the astrometric measurements, the team located a star orbiting an. Dubbed oMEGACat BH-2, it is the first stellar-mass black hole detected within Omega Centauri, and it has some surprising qualities.</p><p>OMEGACat BH-2 has a lower-than-expected mass and, with its visible star companion, the black hole-star duo has the longest orbital period of any black hole binary system known to. With the Hubble and Webb data, we were able to see the motion of the visible main sequence star that is part of this binary, which is about 18, 000 light-years away in the dense.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>By expanding the Hubble data analyzed so that it included astrometric measurements from 2002 to 2023, and pulling in Webb near-infrared data to improve precision, the University. This detection is providing some data to those who do that kind of modeling. ” Long time coming Based on the precise data from Hubble and Webb, the team could chart the star’s path.</p><p>Because the account originates with ESA Hubble News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind.</p><p class=\"art-source\"><a href=\"https://esahubble.org/news/heic2610/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: O enorme aglomerado estelar globular Omega Centauri tem intrigado os astrônomos há décadas",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: O enorme aglomerado estelar globular Omega Centauri tem intrigado os astrônomos há décadas.",
+      "Dado-chave: O enorme aglomerado estelar globular Omega Centauri tem intrigado os astrônomos há décadas",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: O enorme aglomerado estelar globular Omega Centauri tem intrigado os astrônomos há décadas",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: O enorme aglomerado estelar globular Omega Centauri tem intrigado os astrônomos há décadas.",
+      "Dado-chave: O enorme aglomerado estelar globular Omega Centauri tem intrigado os astrônomos há décadas",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The massive globular star cluster Omega Centauri has puzzled astronomers for decades",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The massive globular star cluster Omega Centauri has puzzled astronomers for decades.",
+      "Key detail: The massive globular star cluster Omega Centauri has puzzled astronomers for decades",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "13 jul 2026",
     "date_pt": "13 jul 2026",
@@ -3595,7 +3783,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 24,
+    "id": 25,
     "slug": "older-than-the-sun-astronomers-find-new-clues-to-the-origin-of-interstellar-comet-3i-atlas",
     "cat": "Química",
     "catCls": "quimica",
@@ -3778,7 +3966,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 25,
+    "id": 26,
     "slug": "surface-cubesat-contracted-for-ramses-asteroid-mission",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -3927,7 +4115,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 26,
+    "id": 27,
     "slug": "action-nsf-doe-vera-c-rubin-observatory-begins-capturing-the-greatest-cosmic-movie-ever-made",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -4085,218 +4273,6 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 27,
-    "slug": "are-we-ready-to-send-humans-to-mars",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x630_crop_center-center_82_none/destiny-module-iss.jpg?mtime=1780504542",
-    "inline_images": [
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x800_crop_center-center_82_line/hera.jpg.webp",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x800_crop_center-center_82_line/hera.jpg",
-        "alt": "Participantes da HERA",
-        "alt_pt": "Participantes da HERA",
-        "alt_en": "Participants in HERA",
-        "caption": "Participantes da HERA",
-        "caption_pt": "Participantes da HERA",
-        "caption_en": "Participants in HERA"
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x1600_crop_center-center_82_line/iss-vision-experiment.jpg.webp",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x1600_crop_center-center_82_line/iss-vision-experiment.jpg",
-        "alt": "Experimento de visão da ISS",
-        "alt_pt": "Experimento de visão da ISS",
-        "alt_en": "ISS vision experiment",
-        "caption": "Experimento de visão da ISS",
-        "caption_pt": "Experimento de visão da ISS",
-        "caption_en": "ISS vision experiment"
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x1600_crop_center-center_82_line/destiny-module-iss.jpg.webp",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x1600_crop_center-center_82_line/destiny-module-iss.jpg",
-        "alt": "Uma perspectiva sobre o módulo Destiny",
-        "alt_pt": "Uma perspectiva sobre o módulo Destiny",
-        "alt_en": "A perspective on the Destiny module",
-        "caption": "Uma perspectiva sobre o módulo Destiny",
-        "caption_pt": "Uma perspectiva sobre o módulo Destiny",
-        "caption_en": "A perspective on the Destiny module"
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x3127_crop_center-center_82_line/tpr-june-2026-cover.jpg.webp",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x3127_crop_center-center_82_line/tpr-june-2026-cover.jpg",
-        "alt": "Capa TPR de junho de 2026",
-        "alt_pt": "Capa TPR de junho de 2026",
-        "alt_en": "TPR June 2026 cover",
-        "caption": "Capa TPR de junho de 2026",
-        "caption_pt": "Capa TPR de junho de 2026",
-        "caption_en": "TPR June 2026 cover"
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_576x576_crop_center-center_82_line/orion-selfie.jpg",
-        "alt": "Selfie de Órion",
-        "alt_pt": "Selfie de Órion",
-        "alt_en": "Orion selfie",
-        "caption": "Selfie de Órion",
-        "caption_pt": "Selfie de Órion",
-        "caption_en": "Orion selfie"
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_576x576_crop_center-center_82_line/christina-koch-views-earth.jpg",
-        "alt": "Christina Koch vê a Terra",
-        "alt_pt": "Christina Koch vê a Terra",
-        "alt_en": "Christina koch views earth",
-        "caption": "Christina Koch vê a Terra",
-        "caption_pt": "Christina Koch vê a Terra",
-        "caption_en": "Christina koch views earth"
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Estamos prontos para enviar humanos para Marte?",
-    "title_pt": "Estamos prontos para enviar humanos para Marte?",
-    "title_en": "Are we ready to send humans to Mars?",
-    "sub": "Na época da Apollo 11, quando Wernher von Braun foi questionado sobre o que impedia o envio de humanos a Marte, ele teria respondido: “vontade política”.",
-    "sub_pt": "Na época da Apollo 11, quando Wernher von Braun foi questionado sobre o que impedia o envio de humanos a Marte, ele teria respondido: “vontade política”.",
-    "sub_en": "Around the time of Apollo 11, when Wernher von Braun was asked about what stood in the way of sending humans to Mars, he reportedly answered, “political will.",
-    "excerpt": "Na época da Apollo 11, quando Wernher von Braun foi questionado sobre o que impedia o envio de humanos a Marte, ele teria respondido: “vontade política”.",
-    "excerpt_pt": "Na época da Apollo 11, quando Wernher von Braun foi questionado sobre o que impedia o envio de humanos a Marte, ele teria respondido: “vontade política”.",
-    "excerpt_en": "Around the time of Apollo 11, when Wernher von Braun was asked about what stood in the way of sending humans to Mars, he reportedly answered, “political will.",
-    "body": "<p>Na época da missão Apollo 11, quando Wernher von Braun foi questionado sobre o que impedia o envio de humanos a Marte, ele teria respondido que o principal obstáculo era a “vontade política”. Contudo, acontecimentos recentes sugerem que a política pode não ser o maior impedimento. Um exemplo notável foi a evacuação médica da Estação Espacial Internacional (ISS) em janeiro, um evento que sublinha a complexidade e os riscos inerentes às missões espaciais, mesmo em ambientes relativamente controlados e próximos da Terra. Este incidente serve como um lembrete de que, além da vontade política, existem desafios técnicos, logísticos e, sobretudo, biológicos e médicos que precisam ser superados antes que a humanidade possa se aventurar com segurança em viagens interplanetárias mais longas.</p><p>A ISS orbita a aproximadamente 400 quilômetros (250 milhas) acima da Terra, uma distância que oferece proteção significativa contra a radiação do espaço profundo, graças ao campo magnético do nosso planeta. Além disso, sua proximidade permite um aborto de missão relativamente fácil e rápido, caso surja uma emergência, e garante comunicação instantânea com o controle da missão na Terra. Essas condições favoráveis tornam a ISS um laboratório ideal para estudar os efeitos de missões espaciais de média duração no corpo humano, mas também destacam a segurança e a infraestrutura de suporte que são atualmente inviáveis para destinos mais distantes.</p><p>A Lua, embora seja o próximo passo lógico na exploração espacial humana, já apresenta desafios consideravelmente maiores. Ela está cerca de mil vezes mais distante da Terra do que a ISS, o que significa que a proteção contra a radiação é mínima e as opções de aborto de missão levariam dias, e não horas, para serem executadas. Essa diferença de escala já introduz uma camada de complexidade e risco que exige sistemas de suporte de vida mais robustos e protocolos de emergência mais elaborados, preparando o terreno para as dificuldades ainda maiores que seriam encontradas em uma jornada a Marte.</p><p>Marte, por sua vez, representa um salto exponencial em termos de distância e complexidade. Em média, o planeta vermelho está cerca de 500 vezes mais longe da Terra do que a Lua. Uma missão tripulada a Marte duraria aproximadamente três anos, um período de tempo sem precedentes para a exploração humana no espaço profundo. Durante essa jornada, não haveria capacidade de aborto de missão, e a assistência da Terra seria mínima ou inexistente devido à imensa distância e aos atrasos na comunicação, que podem chegar a 20 minutos em cada sentido. Essas condições extremas exigem um nível de autossuficiência e resiliência da tripulação e dos sistemas da nave que ainda estão em desenvolvimento.</p><p>Os efeitos da ausência de peso prolongada no corpo humano são uma preocupação central. Semanas ou meses de repouso na cama com a cabeça inclinada 6 graus para baixo podem replicar alguns desses efeitos, como atrofia muscular e o deslocamento de fluidos em direção à cabeça, que podem levar a problemas de visão e cardiovasculares. No entanto, ainda não se sabe se a gravidade de 0, 38g de Marte seria suficiente para mitigar esses problemas médicos de forma eficaz na superfície planetária. A adaptação do corpo humano a um ambiente de gravidade parcial por um longo período é uma área que requer mais pesquisa e desenvolvimento de contramedidas.</p><p>Além dos desafios físicos da microgravidade e da gravidade parcial, há outras considerações médicas e biológicas críticas. Embora a disseminação viral ainda não tenha resultado em doenças graves no espaço, a extrapolação de missões de seis meses para uma expedição de três anos a Marte não é reconfortante. O risco de surtos de doenças, a necessidade de suprimentos médicos autossuficientes e a capacidade de realizar procedimentos cirúrgicos complexos em um ambiente isolado e com recursos limitados são fatores que precisam ser cuidadosamente planejados e testados. A saúde e a segurança da tripulação em uma missão tão longa e distante permanecem como um dos maiores obstáculos a serem superados.</p>",
-    "body_pt": "<p>Na época da missão Apollo 11, quando Wernher von Braun foi questionado sobre o que impedia o envio de humanos a Marte, ele teria respondido que o principal obstáculo era a “vontade política”. Contudo, acontecimentos recentes sugerem que a política pode não ser o maior impedimento. Um exemplo notável foi a evacuação médica da Estação Espacial Internacional (ISS) em janeiro, um evento que sublinha a complexidade e os riscos inerentes às missões espaciais, mesmo em ambientes relativamente controlados e próximos da Terra. Este incidente serve como um lembrete de que, além da vontade política, existem desafios técnicos, logísticos e, sobretudo, biológicos e médicos que precisam ser superados antes que a humanidade possa se aventurar com segurança em viagens interplanetárias mais longas.</p><p>A ISS orbita a aproximadamente 400 quilômetros (250 milhas) acima da Terra, uma distância que oferece proteção significativa contra a radiação do espaço profundo, graças ao campo magnético do nosso planeta. Além disso, sua proximidade permite um aborto de missão relativamente fácil e rápido, caso surja uma emergência, e garante comunicação instantânea com o controle da missão na Terra. Essas condições favoráveis tornam a ISS um laboratório ideal para estudar os efeitos de missões espaciais de média duração no corpo humano, mas também destacam a segurança e a infraestrutura de suporte que são atualmente inviáveis para destinos mais distantes.</p><p>A Lua, embora seja o próximo passo lógico na exploração espacial humana, já apresenta desafios consideravelmente maiores. Ela está cerca de mil vezes mais distante da Terra do que a ISS, o que significa que a proteção contra a radiação é mínima e as opções de aborto de missão levariam dias, e não horas, para serem executadas. Essa diferença de escala já introduz uma camada de complexidade e risco que exige sistemas de suporte de vida mais robustos e protocolos de emergência mais elaborados, preparando o terreno para as dificuldades ainda maiores que seriam encontradas em uma jornada a Marte.</p><p>Marte, por sua vez, representa um salto exponencial em termos de distância e complexidade. Em média, o planeta vermelho está cerca de 500 vezes mais longe da Terra do que a Lua. Uma missão tripulada a Marte duraria aproximadamente três anos, um período de tempo sem precedentes para a exploração humana no espaço profundo. Durante essa jornada, não haveria capacidade de aborto de missão, e a assistência da Terra seria mínima ou inexistente devido à imensa distância e aos atrasos na comunicação, que podem chegar a 20 minutos em cada sentido. Essas condições extremas exigem um nível de autossuficiência e resiliência da tripulação e dos sistemas da nave que ainda estão em desenvolvimento.</p><p>Os efeitos da ausência de peso prolongada no corpo humano são uma preocupação central. Semanas ou meses de repouso na cama com a cabeça inclinada 6 graus para baixo podem replicar alguns desses efeitos, como atrofia muscular e o deslocamento de fluidos em direção à cabeça, que podem levar a problemas de visão e cardiovasculares. No entanto, ainda não se sabe se a gravidade de 0, 38g de Marte seria suficiente para mitigar esses problemas médicos de forma eficaz na superfície planetária. A adaptação do corpo humano a um ambiente de gravidade parcial por um longo período é uma área que requer mais pesquisa e desenvolvimento de contramedidas.</p><p>Além dos desafios físicos da microgravidade e da gravidade parcial, há outras considerações médicas e biológicas críticas. Embora a disseminação viral ainda não tenha resultado em doenças graves no espaço, a extrapolação de missões de seis meses para uma expedição de três anos a Marte não é reconfortante. O risco de surtos de doenças, a necessidade de suprimentos médicos autossuficientes e a capacidade de realizar procedimentos cirúrgicos complexos em um ambiente isolado e com recursos limitados são fatores que precisam ser cuidadosamente planejados e testados. A saúde e a segurança da tripulação em uma missão tão longa e distante permanecem como um dos maiores obstáculos a serem superados.</p>",
-    "body_en": "<p>Around the time of Apollo 11, when Wernher von Braun was asked about what stood in the way of sending humans to Mars, he reportedly answered, “political will. ” But recent events suggest that politics might not be the greatest impediment. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. The ISS orbits about 400 kilometers (250 miles) above Earth, protected from deep-space radiation by our planet’s magnetic field, within easy and rapid abort distance, and with. The Moon lies roughly 1, 000 times farther away than the ISS, so radiation protection is minimal, and abort options take days, not hours.</p><p>On average, it is about 500 times farther from Earth than the Moon. There is no abort capability and little to no assistance from Earth due to distance and communication delays of up to 20 minutes one-way.</p><p>A Mars mission would last roughly three years. Weeks or months of bed rest with the head tilted down by 6 degrees can even replicate some of the effects of extended weightlessness, such as muscle atrophy and fluid shift toward.</p><p>Even on the planetary surface, it’s not yet known whether Mars’ 0.38g gravity would sufficiently mitigate these same medical issues. Even though viral shedding has not yet led to serious illness in space, extrapolating from six-month missions to a three-year Mars expedition is not comforting.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>And none of this would be any better on a mission to Mars. After 60 years of sending people into space, this was the first time this phenomenon happened, and it was discovered by accident.</p><p>Because this item comes through The Planetary Society as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/are-we-ready-to-send-humans-to-mars\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Na época da Apollo 11, quando Wernher von Braun foi questionado sobre o que impedia o envio de humanos a Marte, ele teria respondido: “vontade.",
-      "Dado-chave: Na época da Apollo 11, quando Wernher von Braun foi questionado sobre o que impedia o envio de humanos a Marte, ele teria respondido: “vontade.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_pt": [
-      "Ponto central: Na época da Apollo 11, quando Wernher von Braun foi questionado sobre o que impedia o envio de humanos a Marte, ele teria respondido: “vontade.",
-      "Dado-chave: Na época da Apollo 11, quando Wernher von Braun foi questionado sobre o que impedia o envio de humanos a Marte, ele teria respondido: “vontade.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_en": [
-      "Core point: Around the time of Apollo 11, when Wernher von Braun was asked about what stood in the way of sending humans to Mars, he reportedly answered.",
-      "Key detail: Around the time of Apollo 11, when Wernher von Braun was asked about what stood in the way of sending humans to Mars, he reportedly answered.",
-      "Science reporting: verify primary technical documentation."
-    ],
-    "date": "08 jun 2026",
-    "date_pt": "08 jun 2026",
-    "date_en": "08 Jun 2026",
-    "time": "13h22",
-    "time_pt": "13h22",
-    "time_en": "13: 22 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-06-08T13:22:00+00:00",
-    "lastModifiedIso": "2026-06-08T18:30:16+00:00",
-    "source": "The Planetary Society",
-    "sourceDomain": "www. planetary. org",
-    "sourceType": "news",
-    "sourceTypeLabel": "Jornalismo científico",
-    "sourceTypeLabel_pt": "Jornalismo científico",
-    "sourceTypeLabel_en": "Science journalism",
-    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
-    "evidenceKey": "journalistic",
-    "evidenceLabel": "Cobertura jornalística",
-    "evidenceLabel_pt": "Cobertura jornalística",
-    "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Astronomia",
-      "The Planetary Society",
-      "Cosmos Week",
-      "Estamos prontos para enviar humanos para Marte?"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "The Planetary Society",
-      "Cosmos Week",
-      "Estamos prontos para enviar humanos para Marte?"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "The Planetary Society",
-      "Cosmos Week",
-      "Are we ready to send humans to Mars?"
-    ],
-    "srcUrl": "https://www.planetary.org/articles/are-we-ready-to-send-humans-to-mars",
-    "realUrl": "https://www.cosmosweek.com/?article=are-we-ready-to-send-humans-to-mars",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=are-we-ready-to-send-humans-to-mars",
-    "realUrl_en": "https://www.cosmosweek.com/?article=are-we-ready-to-send-humans-to-mars&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/are-we-ready-to-send-humans-to-mars/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/are-we-ready-to-send-humans-to-mars/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/are-we-ready-to-send-humans-to-mars/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/are-we-ready-to-send-humans-to-mars/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/are-we-ready-to-send-humans-to-mars/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/are-we-ready-to-send-humans-to-mars/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 90,
-    "scoreBreakdown": {
-      "source": 83,
-      "evidence": 54,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Estamos prontos para enviar humanos para Marte?",
-    "imageAlt_pt": "Estamos prontos para enviar humanos para Marte?",
-    "imageAlt_en": "Are we ready to send humans to Mars?",
-    "coverageKind": "news",
-    "coverageKindLabel": "Jornalismo científico",
-    "coverageKindLabel_pt": "Jornalismo científico",
-    "coverageKindLabel_en": "Science journalism",
     "storyKind": "science"
   },
   {
