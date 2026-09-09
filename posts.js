@@ -3,6 +3,530 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Jezero_Crater_delta_colored_mosaic.jpg/1280px-Jezero_Crater_delta_colored_mosaic.jpg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/psd/mars/resources/detail_files/2/5/25757_1-PIA24543-Curiositys-Selfie-at-Mont-Mercou-main-web.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": {
+      "kind": "embed",
+      "platform": "youtube",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/N9hXqzkH7YA?rel=0&modestbranding=1",
+      "fileUrl": "",
+      "poster": "",
+      "title": "",
+      "title_pt": "",
+      "title_en": "",
+      "caption": "",
+      "caption_pt": "",
+      "caption_en": "",
+      "sourcePage": "https://science.nasa.gov/blog/curiosity-blog-sols-4995-5001-5000-martian-days-on-mars/"
+    },
+    "audio": null,
+    "title": "Blog Curiosity, Sols 4995-5001: 5.000 dias (marcianos) em Marte",
+    "title_pt": "Blog Curiosity, Sols 4995-5001: 5.000 dias (marcianos) em Marte",
+    "title_en": "Curiosity Blog, Sols 4995-5001: 5, 000 (Martian) Days on Mars",
+    "sub": "Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto de 2026 A extensão de sóis.",
+    "sub_pt": "Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto de 2026 A extensão de sóis.",
+    "sub_en": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Aug.",
+    "excerpt": "Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto de 2026 A extensão de sóis abrangida por esta postagem do blog é digna de nota de várias maneiras.",
+    "excerpt_pt": "Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto de 2026 A extensão de sóis abrangida por esta postagem do blog é digna de nota de várias maneiras.",
+    "excerpt_en": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Aug. 28, 2026 The span of sols spanned by this blog post is noteworthy in several ways.",
+    "body": "<p>Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto de 2026 A extensão de sóis abrangida por esta postagem do blog é digna de nota de várias maneiras. Primeiro, o Curiosity tornou-se um alpinista de classe mundial (pelo menos para Marte) ao ultrapassar a marca de 1 quilômetro de elevação desde seu local de pouso no chão [. ].</p><p>Sols 4995-5001: 5.000 dias (marcianos) em Marte O rover Curiosity da NASA adquiriu esta imagem ao longo da ondulação de Chocolatal usando sua câmera de navegação direita em 20 de agosto de 2018. O dia 29 marcou 5.000 dias marcianos (ou sóis) desde que o Curiosity pousou em Marte (são mais de 5.137 dias terrestres, porque um dia em Marte dura 24, 6 horas).</p><p>Visite a página de instrumentos científicos O rover Curiosity da NASA na base do Monte Sharp NASA/JPL-Caltech/MSSS Detalhes de compartilhamento Última atualização em 09 de setembro. 28 de outubro de 2026, Sol 4998, ou dia marciano 4.998 da missão Mars Science Laboratory, às 13: 58: 36 UTC.</p><p>Primeiro, o Curiosity tornou-se um alpinista de classe mundial (pelo menos para Marte) ao ultrapassar a marca de 1 quilómetro de elevação desde o seu local de aterragem no fundo da cratera Gale. Este escritor fazia parte da equipe científica do Mars Exploration Rover e ficamos entusiasmados quando o Spirit Rover chegou ao topo de Husband Hill, na cratera Gusev, em agosto de 2005.</p><p>A viagem planejada para o meio da semana levou o rover direto para Chocolatal com uma de suas rodas e depois recuando um pouco, de modo que, no plano de final de semana, a ciência de contato pudesse ser planejada dentro da região escavada. Com 5.000 sóis de excelentes realizações científicas, a equipe de ciência e engenharia do Curiosity espera ansiosamente pelos próximos 5.000 sóis.</p><p>Sols 4988-4994: Mais novos truques para um artigo de cachorro velho 6 dias atrás, 3 minutos de leitura do Curiosity Blog.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/blog/curiosity-blog-sols-4995-5001-5000-martian-days-on-mars/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto de 2026 A extensão de sóis abrangida por esta postagem do blog é digna de nota de várias maneiras. Primeiro, o Curiosity tornou-se um alpinista de classe mundial (pelo menos para Marte) ao ultrapassar a marca de 1 quilômetro de elevação desde seu local de pouso no chão [. ].</p><p>Sols 4995-5001: 5.000 dias (marcianos) em Marte O rover Curiosity da NASA adquiriu esta imagem ao longo da ondulação de Chocolatal usando sua câmera de navegação direita em 20 de agosto de 2018. O dia 29 marcou 5.000 dias marcianos (ou sóis) desde que o Curiosity pousou em Marte (são mais de 5.137 dias terrestres, porque um dia em Marte dura 24, 6 horas).</p><p>Visite a página de instrumentos científicos O rover Curiosity da NASA na base do Monte Sharp NASA/JPL-Caltech/MSSS Detalhes de compartilhamento Última atualização em 09 de setembro. 28 de outubro de 2026, Sol 4998, ou dia marciano 4.998 da missão Mars Science Laboratory, às 13: 58: 36 UTC.</p><p>Primeiro, o Curiosity tornou-se um alpinista de classe mundial (pelo menos para Marte) ao ultrapassar a marca de 1 quilómetro de elevação desde o seu local de aterragem no fundo da cratera Gale. Este escritor fazia parte da equipe científica do Mars Exploration Rover e ficamos entusiasmados quando o Spirit Rover chegou ao topo de Husband Hill, na cratera Gusev, em agosto de 2005.</p><p>A viagem planejada para o meio da semana levou o rover direto para Chocolatal com uma de suas rodas e depois recuando um pouco, de modo que, no plano de final de semana, a ciência de contato pudesse ser planejada dentro da região escavada. Com 5.000 sóis de excelentes realizações científicas, a equipe de ciência e engenharia do Curiosity espera ansiosamente pelos próximos 5.000 sóis.</p><p>Sols 4988-4994: Mais novos truques para um artigo de cachorro velho 6 dias atrás, 3 minutos de leitura do Curiosity Blog.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/blog/curiosity-blog-sols-4995-5001-5000-martian-days-on-mars/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Aug. 28, 2026 The span of sols spanned by this blog post is noteworthy in several ways. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. First, Curiosity became a world-class (for Mars at least) mountaineer by passing the 1 kilometer mark of elevation from its landing site on the floor. 5, 000 (Martian) Days on Mars NASA’s Mars rover Curiosity acquired this image along Chocolatal ripple using its Right Navigation Camera on Aug.</p><p>29, marked 5, 000 Martian days (or sols) since Curiosity landed on Mars (that’s more than 5, 137 Earth days, because a day on Mars lasts 24.6 hours). Visit the Science Instruments page NASA’s Curiosity rover at the base of Mount Sharp NASA/JPL-Caltech/MSSS Share Details Last Updated Sep 09.</p><p>28, 2026, Sol 4998, or Martian day 4, 998 of the Mars Science Laboratory mission, at 13: 58: 36 UTC. First, Curiosity became a world-class (for Mars at least) mountaineer by passing the 1 kilometer mark of elevation from its landing site on the floor of Gale crater.</p><p>This writer was on the Mars Exploration Rover science team and we were excited when the Spirit rover got to the top of Husband Hill in Gusev crater in August 2005. 29, marked 5, 000 Martian days (or sols) since Curiosity landed on Mars (that&#x27;s more than 5, 137 Earth days, because a day on Mars lasts 24.6 hours).</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>The drive planned midweek took the rover right into Chocolatal with one of its wheels and then backing off a little, so in the end-of-week plan, contact science could be planned. With 5000 sols of outstanding scientific accomplishments, the Curiosity science and engineering team looks forward to the next 5000 sols.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/blog/curiosity-blog-sols-4995-5001-5000-martian-days-on-mars/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Aug",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "09 set 2026",
+    "date_pt": "09 set 2026",
+    "date_en": "09 Sep 2026",
+    "time": "06h20",
+    "time_pt": "06h20",
+    "time_en": "06: 20 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-09-09T06:20:49+00:00",
+    "lastModifiedIso": "2026-09-09T18:53:04+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Blog Curiosity",
+      "Sols 4995",
+      "5001",
+      "5.000 dias (marcianos) em Marte"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Blog Curiosity",
+      "Sols 4995",
+      "5001",
+      "5.000 dias (marcianos) em Marte"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Blog Curiosity",
+      "Sols 4995",
+      "5001",
+      "5, 000 (Martian) days on Mars"
+    ],
+    "srcUrl": "https://science.nasa.gov/blog/curiosity-blog-sols-4995-5001-5000-martian-days-on-mars/",
+    "realUrl": "https://www.cosmosweek.com/?article=curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars",
+    "realUrl_en": "https://www.cosmosweek.com/?article=curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Blog Curiosity, Sols 4995-5001: 5.000 dias (marcianos) em Marte",
+    "imageAlt_pt": "Blog Curiosity, Sols 4995-5001: 5.000 dias (marcianos) em Marte",
+    "imageAlt_en": "Curiosity Blog, Sols 4995-5001: 5, 000 (Martian) Days on Mars",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "mtg-i2-reaches-its-final-orbit",
+    "cat": "Cosmologia",
+    "catCls": "cosmologia",
+    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/partners_support_mtg-i2_through_leop/27458664-1-eng-GB/Partners_support_MTG-I2_through_LEOP_card_full.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "MTG-I2 atinge sua órbita final",
+    "title_pt": "MTG-I2 atinge sua órbita final",
+    "title_en": "MTG-I2 reaches its final orbit",
+    "sub": "O satélite europeu Meteosat Third Generation Imager 2 atingiu a sua órbita designada a 36 000 km da Terra e está pronto para iniciar a sua fase de comissionamento, preparando-o.",
+    "sub_pt": "O satélite europeu Meteosat Third Generation Imager 2 atingiu a sua órbita designada a 36 000 km da Terra e está pronto para iniciar a sua fase de comissionamento, preparando-o.",
+    "sub_en": "Europe’s Meteosat Third Generation Imager 2 satellite has reached its designated orbit at 36 000 km from Earth and is ready to begin its commissioning phase, preparing it to.",
+    "excerpt": "O satélite europeu Meteosat Third Generation Imager 2 atingiu a sua órbita designada a 36 000 km da Terra e está pronto para iniciar a sua fase de comissionamento, preparando-o para fornecer anos de serviço para melhorar a previsão do tempo.",
+    "excerpt_pt": "O satélite europeu Meteosat Third Generation Imager 2 atingiu a sua órbita designada a 36 000 km da Terra e está pronto para iniciar a sua fase de comissionamento, preparando-o para fornecer anos de serviço para melhorar a previsão do tempo.",
+    "excerpt_en": "Europe’s Meteosat Third Generation Imager 2 satellite has reached its designated orbit at 36 000 km from Earth and is ready to begin its commissioning phase, preparing it to provide years of service to improve weather forecasting over.",
+    "body": "<p>O satélite europeu Meteosat Third Generation Imager 2 atingiu a sua órbita designada a 36 000 km da Terra e está pronto para iniciar a sua fase de comissionamento, preparando-o para fornecer anos de serviço para melhorar a previsão do tempo.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/MTG-I2_reaches_its_final_orbit\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>O satélite europeu Meteosat Third Generation Imager 2 atingiu a sua órbita designada a 36 000 km da Terra e está pronto para iniciar a sua fase de comissionamento, preparando-o para fornecer anos de serviço para melhorar a previsão do tempo.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/MTG-I2_reaches_its_final_orbit\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Europe’s Meteosat Third Generation Imager 2 satellite has reached its designated orbit at 36 000 km from Earth and is ready to begin its commissioning phase, preparing it to provide years of service to improve weather forecasting over. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Europe’s Meteosat Third Generation Imager 2 (MTG-I2) satellite has reached its designated orbit at 36 000 km from Earth and is ready to begin its commissioning phase, preparing it.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>Because the account originates with ESA Space News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/MTG-I2_reaches_its_final_orbit\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: O satélite europeu Meteosat Third Generation Imager 2 atingiu a sua órbita designada a 36 000 km da Terra e está pronto para iniciar a sua fase de",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: O satélite europeu Meteosat Third Generation Imager 2 atingiu a sua órbita designada a 36 000 km da Terra e está pronto para iniciar a sua fase de",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Europe’s Meteosat Third Generation Imager 2 satellite has reached its designated orbit at 36 000 km from Earth and is ready to begin its",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "09 set 2026",
+    "date_pt": "09 set 2026",
+    "date_en": "09 Sep 2026",
+    "time": "06h20",
+    "time_pt": "06h20",
+    "time_en": "06: 20 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-09-09T06:20:00+00:00",
+    "lastModifiedIso": "2026-09-09T18:53:04+00:00",
+    "source": "ESA Space News",
+    "sourceDomain": "www. esa. int",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Cosmologia",
+      "ESA Space News",
+      "Cosmos Week",
+      "I2 atinge sua órbita final"
+    ],
+    "keywords_pt": [
+      "Cosmologia",
+      "ESA Space News",
+      "Cosmos Week",
+      "I2 atinge sua órbita final"
+    ],
+    "keywords_en": [
+      "Cosmology",
+      "ESA Space News",
+      "Cosmos Week",
+      "I2 reaches its final orbit"
+    ],
+    "srcUrl": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/MTG-I2_reaches_its_final_orbit",
+    "realUrl": "https://www.cosmosweek.com/?article=mtg-i2-reaches-its-final-orbit",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=mtg-i2-reaches-its-final-orbit",
+    "realUrl_en": "https://www.cosmosweek.com/?article=mtg-i2-reaches-its-final-orbit&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/mtg-i2-reaches-its-final-orbit/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/mtg-i2-reaches-its-final-orbit/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/mtg-i2-reaches-its-final-orbit/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/mtg-i2-reaches-its-final-orbit/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/mtg-i2-reaches-its-final-orbit/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/mtg-i2-reaches-its-final-orbit/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 90,
+      "evidence": 86,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "MTG-I2 atinge sua órbita final",
+    "imageAlt_pt": "MTG-I2 atinge sua órbita final",
+    "imageAlt_en": "MTG-I2 reaches its final orbit",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
+    "slug": "from-the-corps-to-the-cosmos-featuring-jaden-caradine",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://www.nasa.gov/wp-content/uploads/2026/09/img-20260417-wa0008.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Do Corpo ao Cosmos, com Jaden Caradine",
+    "title_pt": "Do Corpo ao Cosmos, com Jaden Caradine",
+    "title_en": "From the Corps to the Cosmos, featuring Jaden Caradine",
+    "sub": "Jaden Caradine sabia que queria ser engenheiro aos oito anos. Ele apenas pegou uma estrada sinuosa para chegar lá.",
+    "sub_pt": "Jaden Caradine sabia que queria ser engenheiro aos oito anos. Ele apenas pegou uma estrada sinuosa para chegar lá.",
+    "sub_en": "Jaden Caradine knew he wanted to be an engineer at eight years old. He just took a winding road to get there.",
+    "excerpt": "Jaden Caradine sabia que queria ser engenheiro aos oito anos. Ele apenas pegou uma estrada sinuosa para chegar lá. Antes de se matricular na Embry-Riddle Aeronautical University, antes de descobrir a área que se tornaria seu foco, e.",
+    "excerpt_pt": "Jaden Caradine sabia que queria ser engenheiro aos oito anos. Ele apenas pegou uma estrada sinuosa para chegar lá. Antes de se matricular na Embry-Riddle Aeronautical University, antes de descobrir a área que se tornaria seu foco, e.",
+    "excerpt_en": "That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals.",
+    "body": "<p>Jaden Caradine sabia que queria ser engenheiro aos oito anos. Ele apenas pegou uma estrada sinuosa para chegar lá.</p><p>Antes de se matricular na Embry-Riddle Aeronautical University, antes de descobrir o campo que se tornaria seu foco, e antes de conseguir um estágio na Pathways no Langley Research Center da NASA em Hampton, Virgínia, Caradine [. ]. Ele estava ansioso para assumir a liderança na tentativa de uma série de novos processos e ideias para tentar fazê-los funcionar para nós. ” Sem Silos O que mais surpreendeu Caradine na NASA Langley não teve nada a ver com o trabalho técnico.</p><p>Parte da Diretoria de Análise de Sistemas e Conceitos do Langley Research Center da NASA. Ele era o tipo de criança que aprendeu a amar a ciência não pela ciência em si, mas pelo que ela poderia fazer.</p><p>Eles estavam usando ímãs para girar um sistema de lançamento a 14.000 ou 15.000 RPM e lançar pequenos satélites em órbita, recuperando a energia na descida através do mesmo sistema magnético. Eu só queria aprender o máximo que pudesse, o mais rápido que pudesse. ” Em cada estande da NASA ele fazia perguntas.</p><p>Ele conheceu o Pathways, o programa que coloca estudantes de graduação e pós-graduação em centros da NASA com potencial de conversão para cargos de serviço público de tempo integral, mas esperou um ano para se inscrever. Sua razão para escolher a NASA em vez da indústria foi simples e firme.</p><p>A NASA não trabalha com fins lucrativos”, diz ele.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/general/from-the-corps-to-the-cosmos-featuring-jaden-caradine/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Jaden Caradine sabia que queria ser engenheiro aos oito anos. Ele apenas pegou uma estrada sinuosa para chegar lá.</p><p>Antes de se matricular na Embry-Riddle Aeronautical University, antes de descobrir o campo que se tornaria seu foco, e antes de conseguir um estágio na Pathways no Langley Research Center da NASA em Hampton, Virgínia, Caradine [. ]. Ele estava ansioso para assumir a liderança na tentativa de uma série de novos processos e ideias para tentar fazê-los funcionar para nós. ” Sem Silos O que mais surpreendeu Caradine na NASA Langley não teve nada a ver com o trabalho técnico.</p><p>Parte da Diretoria de Análise de Sistemas e Conceitos do Langley Research Center da NASA. Ele era o tipo de criança que aprendeu a amar a ciência não pela ciência em si, mas pelo que ela poderia fazer.</p><p>Eles estavam usando ímãs para girar um sistema de lançamento a 14.000 ou 15.000 RPM e lançar pequenos satélites em órbita, recuperando a energia na descida através do mesmo sistema magnético. Eu só queria aprender o máximo que pudesse, o mais rápido que pudesse. ” Em cada estande da NASA ele fazia perguntas.</p><p>Ele conheceu o Pathways, o programa que coloca estudantes de graduação e pós-graduação em centros da NASA com potencial de conversão para cargos de serviço público de tempo integral, mas esperou um ano para se inscrever. Sua razão para escolher a NASA em vez da indústria foi simples e firme.</p><p>A NASA não trabalha com fins lucrativos”, diz ele.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/general/from-the-corps-to-the-cosmos-featuring-jaden-caradine/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Jaden Caradine knew he wanted to be an engineer at eight years old. He just took a winding road to get there. Before he enrolled at Embry-Riddle Aeronautical University, before he discovered the field that would become his focus, and. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Before he enrolled at Embry-Riddle Aeronautical University, before he discovered the field that would become his focus, and before he landed a Pathways internship at NASA’s. NASA That tool scrapes aerospace news from across the web, compiles relevant updates into organized tables, and produces a readable summary on a regular cadence.</p><p>He was eager to take the lead in trying a number of new processes and ideas to try to make them work for us. Part of the Systems Analysis and Concepts Directorate at NASA’s Langley Research Center.</p><p>I just had to figure out what kind. ” NASA Pathways intern Jaden Caradine Credit: NASA Finding the Overlap Caradine grew up in the Salt Lake City area, raised by a mother who put. They were using magnets to spin a launch system to 14, 000 or 15, 000 RPM and release small satellites into orbit, recovering the energy on the way down through the same magnetic.</p><p>I just wanted to learn as much as I could, as fast as I could. ” At every NASA booth, he asked questions. He learned about Pathways, the program that places undergraduate and graduate students at NASA centers with the potential to convert to full-time civil service positions, but he.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>His reason for choosing NASA over industry was simple and firm. NASA doesn’t work for profit,” he says.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/general/from-the-corps-to-the-cosmos-featuring-jaden-caradine/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Jaden Caradine sabia que queria ser engenheiro aos oito anos. Ele apenas pegou uma estrada sinuosa para chegar lá",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Jaden Caradine sabia que queria ser engenheiro aos oito anos. Ele apenas pegou uma estrada sinuosa para chegar lá",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Jaden Caradine knew he wanted to be an engineer at eight years old. He just took a winding road to get there",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "08 set 2026",
+    "date_pt": "08 set 2026",
+    "date_en": "08 Sep 2026",
+    "time": "20h29",
+    "time_pt": "20h29",
+    "time_en": "20: 29 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-09-08T20:29:59+00:00",
+    "lastModifiedIso": "2026-09-09T18:53:04+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Do Corpo ao Cosmos",
+      "com Jaden Caradine"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Do Corpo ao Cosmos",
+      "com Jaden Caradine"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "From the Body to the Cosmos",
+      "com Jaden Caradine"
+    ],
+    "srcUrl": "https://www.nasa.gov/general/from-the-corps-to-the-cosmos-featuring-jaden-caradine/",
+    "realUrl": "https://www.cosmosweek.com/?article=from-the-corps-to-the-cosmos-featuring-jaden-caradine",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=from-the-corps-to-the-cosmos-featuring-jaden-caradine",
+    "realUrl_en": "https://www.cosmosweek.com/?article=from-the-corps-to-the-cosmos-featuring-jaden-caradine&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/from-the-corps-to-the-cosmos-featuring-jaden-caradine/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/from-the-corps-to-the-cosmos-featuring-jaden-caradine/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/from-the-corps-to-the-cosmos-featuring-jaden-caradine/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/from-the-corps-to-the-cosmos-featuring-jaden-caradine/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/from-the-corps-to-the-cosmos-featuring-jaden-caradine/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/from-the-corps-to-the-cosmos-featuring-jaden-caradine/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 86,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Do Corpo ao Cosmos, com Jaden Caradine",
+    "imageAlt_pt": "Do Corpo ao Cosmos, com Jaden Caradine",
+    "imageAlt_en": "From the Corps to the Cosmos, featuring Jaden Caradine",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 4,
+    "slug": "wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection",
+    "cat": "Astrofísica",
+    "catCls": "astrofisica",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1280px-Black_hole_-_Messier_87_crop_max_res.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Estrelas Wolf-Rayet e buracos negros: distribuições de massa e conexão evolutiva",
+    "title_pt": "Estrelas Wolf-Rayet e buracos negros: distribuições de massa e conexão evolutiva",
+    "title_en": "Wolf-Rayet stars and black holes: mass distributions and evolutionary connection",
+    "sub": "A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar a função de distribuição a.",
+    "sub_pt": "A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar a função de distribuição a.",
+    "sub_en": "The form and relationship between the mass distributions of Wolf-Rayet stars and black holes are analyzed using a direct method for estimating the distribution function from a.",
+    "excerpt": "A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar a função de distribuição a partir de uma amostra de valores de massa com distribuições individuais obtidas.",
+    "excerpt_pt": "A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar a função de distribuição a partir de uma amostra de valores de massa com distribuições individuais obtidas.",
+    "excerpt_en": "The form and relationship between the mass distributions of Wolf-Rayet stars and black holes are analyzed using a direct method for estimating the distribution function from a sample of mass values with individual distributions obtained.",
+    "body": "<p>A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar a função de distribuição a partir de uma amostra de valores de massa com distribuições individuais obtidas.</p><p>A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar a função de distribuição a partir de uma amostra de valores de massa com distribuições individuais obtidas a partir de observações. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p>Saiba mais sobre o arXivLabs. É mostrado que, levando em consideração a perda de massa das estrelas WR ao final deste estágio evolutivo, a distribuição de massa dos buracos negros é próxima daquela dos núcleos de CO das estrelas WR antes do colapso gravitacional, $M_\\mathrm{BH}\\simeq M_\\mathrm{CO}$.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.09032v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar a função de distribuição a partir de uma amostra de valores de massa com distribuições individuais obtidas.</p><p>A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar a função de distribuição a partir de uma amostra de valores de massa com distribuições individuais obtidas a partir de observações. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p>Saiba mais sobre o arXivLabs. É mostrado que, levando em consideração a perda de massa das estrelas WR ao final deste estágio evolutivo, a distribuição de massa dos buracos negros é próxima daquela dos núcleos de CO das estrelas WR antes do colapso gravitacional, $M_\\mathrm{BH}\\simeq M_\\mathrm{CO}$.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.09032v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>The form and relationship between the mass distributions of Wolf-Rayet stars and black holes are analyzed using a direct method for estimating the distribution function from a sample of mass values with individual distributions obtained. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>It is shown that, taking into account the mass loss of WR stars by the end of this evolutionary stage, the mass distribution of black holes is close to that of the CO-cores of WR.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.09032v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: The form and relationship between the mass distributions of Wolf-Rayet stars and black holes are analyzed using a direct method for estimating the",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "08 set 2026",
+    "date_pt": "08 set 2026",
+    "date_en": "08 Sep 2026",
+    "time": "16h59",
+    "time_pt": "16h59",
+    "time_en": "16: 59 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-09-08T16:59:50+00:00",
+    "lastModifiedIso": "2026-09-09T18:53:04+00:00",
+    "source": "arXiv High Energy Astrophysics",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Astrofísica",
+      "arXiv High Energy Astrophysics",
+      "Cosmos Week",
+      "Estrelas Wolf",
+      "Rayet e buracos negros",
+      "distribuições de massa e conexão evolutiva"
+    ],
+    "keywords_pt": [
+      "Astrofísica",
+      "arXiv High Energy Astrophysics",
+      "Cosmos Week",
+      "Estrelas Wolf",
+      "Rayet e buracos negros",
+      "distribuições de massa e conexão evolutiva"
+    ],
+    "keywords_en": [
+      "Astrophysics",
+      "arXiv High Energy Astrophysics",
+      "Cosmos Week",
+      "Wolf Stars",
+      "Rayet and black holes",
+      "mass distributions and evolutionary connection"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2609.09032v1",
+    "realUrl": "https://www.cosmosweek.com/?article=wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection",
+    "realUrl_en": "https://www.cosmosweek.com/?article=wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 80,
+    "scoreBreakdown": {
+      "source": 63,
+      "evidence": 39,
+      "relevance": 94,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Estrelas Wolf-Rayet e buracos negros: distribuições de massa e conexão evolutiva",
+    "imageAlt_pt": "Estrelas Wolf-Rayet e buracos negros: distribuições de massa e conexão evolutiva",
+    "imageAlt_en": "Wolf-Rayet stars and black holes: mass distributions and evolutionary connection",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 5,
     "slug": "nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -46,19 +570,19 @@ window.postsData = [
     "body_pt": "<p>Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema solar, os Objetos Transnetunianos. Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema solar, os Objetos Transnetunianos (TNOs).</p><p>Descobrindo objetos gelados no Cinturão de Kuiper As observações do Hubble na periferia do nosso sistema solar encontraram uma lua orbitando Makemake e várias novas luas ao redor de Plutão. Obra: NASA, ESA, Leah Hustak (STScI) Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema solar, os Objetos Transnetunianos (TNOs).</p><p>Em dois artigos complementares publicados terça-feira no The Astronomical Journal, as equipes analisaram a cor, a composição e a distribuição de tamanho de 27 TNOs minúsculos e escuros recém-descobertos. Na pesquisa mais profunda do TNO até à data, equipas lideradas por candidatos a doutoramento da Universidade de Victoria, no Canadá, sob a orientação do Conselho Nacional de Investigação do Canadá, e da Universidade do Norte do Arizona, em Flagstaff, examinaram uma parte do céu.</p><p>Webb descobriu 27 novos TNOs notavelmente fracos, um deles tão fraco que equivale a estar na Terra e ver um pequeno enxame de vaga-lumes na Lua. O menor que observaram tem um diâmetro de cerca de 5 quilômetros, que é cerca de cinco vezes menor do que o que é possível detectar com os telescópios terrestres mais sensíveis.</p><p>Com a sensibilidade do Hubble na luz visível e a do Webb no infravermelho, os telescópios espaciais fornecem mais informações do que qualquer um deles poderia sozinho. O Goddard Space Flight Center da NASA em Greenbelt, Maryland, gerencia o telescópio e as operações da missão.</p><p>O Space Telescope Science Institute em Baltimore, que é operado pela Associação de Universidades para Pesquisa em Astronomia, conduz operações científicas do Hubble para a NASA.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>For the first time, scientists used the joint power of NASA’s Hubble and James Webb Space Telescopes to study some of the most far-flung bodies in our solar system, Trans-Neptunian Objects. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Uncovering Icy Objects in the Kuiper Belt Hubble observations of the outskirts of our solar system found a moon orbiting Makemake and several new moons around Pluto. NASA, ESA, Leah Hustak (STScI) For the first time, scientists used the joint power of NASA’s Hubble and James Webb Space Telescopes to study some of the most far-flung bodies in.</p><p>In two complementary papers published Tuesday in The Astronomical Journal, teams analyzed the color, composition, and size distribution of 27 newly discovered tiny, dim TNOs. In the deepest TNO survey to date, teams led by PhD candidates from the University of Victoria in Canada, under the guidance of the National Research Council of Canada, and.</p><p>Webb discovered 27 new, remarkably dim TNOs, one so faint it is equivalent to standing on Earth and seeing a small swarm of fireflies on the Moon. The smallest one they observed has a diameter of about 3 miles (5 kilometers), which is about five times smaller than what is possible to detect with the most sensitive.</p><p>With Hubble’s sensitivity in visible light and Webb’s in infrared, the space telescopes provide more insights than either can on its own. NASA’s Goddard Space Flight Center in Greenbelt, Maryland, manages the telescope and mission operations.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>The Space Telescope Science Institute in Baltimore, which is operated by the Association of Universities for Research in Astronomy, conducts Hubble science operations for NASA. Webb is an international program led by NASA with its partners, ESA (European Space Agency) and CSA (Canadian Space Agency).</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais.",
+      "Dado-chave: Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais.",
+      "Dado-chave: Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: For the first time, scientists used the joint power of NASA’s Hubble and James Webb Space Telescopes to study some of the most far-flung bodies in",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: For the first time, scientists used the joint power of NASA’s Hubble and James Webb Space Telescopes to study some of the most far-flung bodies in.",
+      "Key detail: For the first time, scientists used the joint power of NASA’s Hubble and James Webb Space Telescopes to study some of the most far-flung bodies.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "08 set 2026",
     "date_pt": "08 set 2026",
@@ -146,7 +670,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 6,
     "slug": "the-otherworldly-geology-of-vasquez-rocks",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -308,7 +832,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 7,
     "slug": "meet-the-next-generation-of-mars-exploration",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -393,19 +917,19 @@ window.postsData = [
     "body_pt": "<p>Países ao redor do mundo estão planejando missões a Marte, incluindo rovers e um retorno de amostra da lua Fobos. Science Review por Bruce Betts, PhD 7 de setembro de 2026 Durante décadas, ele passou por Marte como um boato, vislumbrado apenas moderadamente por rovers e orbitadores, sua face sombria observando em silêncio os mares vermelhos de areia e poeira de Marte.</p><p>Fobos, cujo nome deriva da palavra grega para medo e é filho do deus Marte, é a maior das duas luas de Marte e, em breve, como parte de uma nova onda de missões internacionais, não nos escapará mais. Desde meados da década de 1990, Marte tem desfrutado de um ritmo constante de satélites, sondas e veículos espaciais liderados principalmente pela NASA, focados na busca por água, habitabilidade e qualquer evidência de vida passada ou presente.</p><p>O processo de seleção opaco para essas missões tem sido um afastamento notável da revisão competitiva, liderada por pares e baseada em pesquisas decenais de propostas que orientou a NASA no enfrentamento dos maiores desafios científicos no espaço por uma geração. No entanto, a missão SR-1 Freedom alcançaria algo que a NASA tem tentado fazer há 60 anos, ao lançar a primeira nave espacial interplanetária movida a fissão nuclear.</p><p>A Mars Telecommunications Network (MTN) é uma missão com financiamento especial do Congresso para melhorar as capacidades de transferência de dados da órbita de Marte. Finalmente, a missão Aeolus é o esforço da Relativity Space, com sede na Califórnia, para provar a viabilidade de enviar uma missão SmallSat a Marte a baixo custo e com fundos privados.</p><p>Os Emirados Árabes Unidos e a China já entraram enfaticamente em cena com a sonda Hope e a missão Tianwen-1, respectivamente. Três novas colaborações internacionais estão preparadas para definir a próxima meia década da exploração científica de Marte.</p><p>E em segundo lugar, a missão é genuinamente interessante. ” O rover Rosalind Franklin pousará em uma região de Marte chamada Oxia Planum, adjacente ao local onde os personagens fictícios de “O Marciano” de Andy Weir pousaram.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/the-new-faces-of-mars\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Countries around the world are planning missions to Mars, including rovers and a sample return from the moon Phobos. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Science Review by Bruce Betts, PhD September 7, 2026 For decades, it has passed over Mars like a rumor, glimpsed only sparingly by rovers and orbiters, its shadowy face watching. Phobos, named after the Greek word for fear and a son of the god Mars, is the larger of Mars’ two moons, and soon, as part of a new wave of international missions, it will elude.</p><p>Since the mid-1990s, Mars has enjoyed a steady beat of primarily NASA-led satellites, landers, and rovers focused on the search for water, habitability, and any evidence of past. The opaque selection process for these missions has been a notable departure from the competitive, peer-led, and decadal survey-informed proposal review that has guided NASA in.</p><p>Nonetheless, the SR-1 Freedom mission would achieve something NASA has been trying to do for 60 years by launching the first nuclear fission-powered interplanetary spacecraft. The Mars Telecommunications Network (MTN) is a mission with special funding from Congress to enhance data transfer capabilities from Mars orbit.</p><p>Finally, the Aeolus mission is California-based Relativity Space’s effort to prove the viability of sending a SmallSat mission to Mars at low cost with private funds. The United Arab Emirates and China have already emphatically entered the scene with the Hope probe and Tianwen-1 mission, respectively.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Three new international collaborations are poised to define the next half-decade of the scientific exploration of Mars. More concrete and launch-ready are plans from the European Space Agency (ESA) and the Japan Aerospace Exploration Agency (JAXA), with collaborative and ambitious science missions.</p><p>Because this item comes through The Planetary Society as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/the-new-faces-of-mars\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Países ao redor do mundo estão planejando missões a Marte, incluindo rovers e um retorno de amostra da lua Fobos",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: Países ao redor do mundo estão planejando missões a Marte, incluindo rovers e um retorno de amostra da lua Fobos.",
+      "Dado-chave: Países ao redor do mundo estão planejando missões a Marte, incluindo rovers e um retorno de amostra da lua Fobos",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
-      "Em foco: Países ao redor do mundo estão planejando missões a Marte, incluindo rovers e um retorno de amostra da lua Fobos",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: Países ao redor do mundo estão planejando missões a Marte, incluindo rovers e um retorno de amostra da lua Fobos.",
+      "Dado-chave: Países ao redor do mundo estão planejando missões a Marte, incluindo rovers e um retorno de amostra da lua Fobos",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
-      "Focus: Countries around the world are planning missions to Mars, including rovers and a sample return from the moon Phobos",
-      "Detail: Science reporting: verify primary technical documentation",
-      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+      "Core point: Countries around the world are planning missions to Mars, including rovers and a sample return from the moon Phobos.",
+      "Key detail: Countries around the world are planning missions to Mars, including rovers and a sample return from the moon Phobos",
+      "Science reporting: verify primary technical documentation."
     ],
     "date": "07 set 2026",
     "date_pt": "07 set 2026",
@@ -493,323 +1017,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
-    "slug": "nasa-shares-views-of-august-solar-eclipse-from-ground-air-space",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/1280px-The_Earth_seen_from_Apollo_17.jpg",
-    "inline_images": [
-      {
-        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-1.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-2.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-3.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-4.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/hpd/eclipse/2026_eclipse_psi_prediction_reprojected_to_deb_raw.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/hpd/eclipse/2026_DEB_eclipse_image_flipped_rotated.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": {
-      "kind": "file",
-      "platform": "html5",
-      "embedUrl": "",
-      "fileUrl": "https://assets.science.nasa.gov/content/dam/science/hpd/eclipse/2026Eclipse_WB57GoPro_Totality_H264_Abridged.mp4",
-      "poster": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/a-sunflower's-view-of-totality/55460226954_564d105934_o.jpg?w=4663&h=5277&fit=clip&crop=faces%2Cfocalpoint",
-      "title": "NASA Shares Views of August Solar Eclipse from Ground, Air, Space - NASA Science",
-      "title_pt": "NASA Shares Views of August Solar Eclipse from Ground, Air, Space - NASA Science",
-      "title_en": "NASA Shares Views of August Solar Eclipse from Ground, Air, Space - NASA Science",
-      "caption": "Em 12 de agosto, um eclipse solar total escureceu os céus da Groenlândia, Islândia e Espanha. À medida que a Lua cobria o Sol, ela revelou brevemente a fina camada externa do Sol.",
-      "caption_pt": "Em 12 de agosto, um eclipse solar total escureceu os céus da Groenlândia, Islândia e Espanha. À medida que a Lua cobria o Sol, ela revelou brevemente a fina camada externa do Sol.",
-      "caption_en": "On Aug. 12, a total solar eclipse darkened skies over Greenland, Iceland, and Spain. As the Moon covered the Sun, it briefly revealed the Sun’s wispy outer",
-      "sourcePage": "https://science.nasa.gov/science-research/heliophysics/nasa-shares-views-of-august-solar-eclipse-from-ground-air-space/"
-    },
-    "audio": null,
-    "title": "NASA Shares Views of August Solar Eclipse from Ground, Air, Space",
-    "title_pt": "NASA Shares Views of August Solar Eclipse from Ground, Air, Space",
-    "title_en": "NASA Shares Views of August Solar Eclipse from Ground, Air, Space",
-    "sub": "Em 12 de agosto, um eclipse solar total escureceu os céus da Groenlândia, Islândia e Espanha.",
-    "sub_pt": "Em 12 de agosto, um eclipse solar total escureceu os céus da Groenlândia, Islândia e Espanha.",
-    "sub_en": "On Aug. 12, a total solar eclipse darkened skies over Greenland, Iceland, and Spain. As the Moon covered the Sun, it briefly revealed the Sun’s wispy outer atmosphere, the corona.",
-    "excerpt": "Em 12 de agosto, um eclipse solar total escureceu os céus da Groenlândia, Islândia e Espanha. À medida que a Lua cobria o Sol, ela revelou brevemente a fina atmosfera externa do Sol, a coroa, para aqueles que estavam no caminho da totalidade e que tiveram a.",
-    "excerpt_pt": "Em 12 de agosto, um eclipse solar total escureceu os céus da Groenlândia, Islândia e Espanha. À medida que a Lua cobria o Sol, ela revelou brevemente a fina atmosfera externa do Sol, a coroa, para aqueles que estavam no caminho da totalidade e que tiveram a.",
-    "excerpt_en": "On Aug. 12, a total solar eclipse darkened skies over Greenland, Iceland, and Spain. As the Moon covered the Sun, it briefly revealed the Sun’s wispy outer atmosphere, the corona, to those in the path of totality who were lucky enough to.",
-    "body": "<p>Em 12 de agosto, um eclipse solar total escureceu os céus da Groenlândia, Islândia e Espanha. À medida que a Lua cobria o Sol, ela revelou brevemente a fina atmosfera externa do Sol, a coroa, para aqueles que estavam no caminho da totalidade e que tiveram a sorte de fazê-lo.</p><p>3 minutos de leitura NASA compartilha visualizações do eclipse solar de agosto do solo, do ar e do espaço Esta imagem composta mostra a progressão de um eclipse solar total enquanto o Sol se põe sobre San Millán de los Caballeros, Espanha, na quarta-feira, 20 de agosto. A bordo da estação como parte da Expedição 75 estão os astronautas da NASA Jessica Meir, Anil Menon e Jack Hathaway.</p><p>From the station, the Moon covered about 18% of the Sun at the peak of the eclipse. 000 pés, passando pela sombra do eclipse para prolongar seu tempo no eclipse.</p><p>O dia 12 de dezembro de 2026 foi capturado por uma câmera montada dentro da janela da cabine da aeronave WB-57F da NASA enquanto ela voava a cerca de 50.000 pés de altitude ao largo da costa da Islândia. NASA A suite of cameras installed on NASA’s WB-57F aircraft captured images of the solar corona and prominences in different wavelengths of visible and infrared light during the total solar eclipse on Aug.</p><p>Uma equipa científica liderada pelo Southwest Research Institute em Boulder, Colorado, irá analisar as imagens para aprender mais sobre as características complexas e dinâmicas da atmosfera exterior do Sol. Estudantes que participam do Nationwide Eclipse Ballooning Project, financiado pela NASA, se preparam para lançar um balão científico em Mosfellsbær, na Islândia, durante o eclipse solar total em agosto.</p><p>À medida que a Lua cobria o Sol, ela revelou brevemente a fina atmosfera externa do Sol, a coroa, para aqueles que estavam no caminho da totalidade e que tiveram a sorte de ter céu limpo.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/science-research/heliophysics/nasa-shares-views-of-august-solar-eclipse-from-ground-air-space/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Em 12 de agosto, um eclipse solar total escureceu os céus da Groenlândia, Islândia e Espanha. À medida que a Lua cobria o Sol, ela revelou brevemente a fina atmosfera externa do Sol, a coroa, para aqueles que estavam no caminho da totalidade e que tiveram a sorte de fazê-lo.</p><p>3 minutos de leitura NASA compartilha visualizações do eclipse solar de agosto do solo, do ar e do espaço Esta imagem composta mostra a progressão de um eclipse solar total enquanto o Sol se põe sobre San Millán de los Caballeros, Espanha, na quarta-feira, 20 de agosto. A bordo da estação como parte da Expedição 75 estão os astronautas da NASA Jessica Meir, Anil Menon e Jack Hathaway.</p><p>From the station, the Moon covered about 18% of the Sun at the peak of the eclipse. 000 pés, passando pela sombra do eclipse para prolongar seu tempo no eclipse.</p><p>O dia 12 de dezembro de 2026 foi capturado por uma câmera montada dentro da janela da cabine da aeronave WB-57F da NASA enquanto ela voava a cerca de 50.000 pés de altitude ao largo da costa da Islândia. NASA A suite of cameras installed on NASA’s WB-57F aircraft captured images of the solar corona and prominences in different wavelengths of visible and infrared light during the total solar eclipse on Aug.</p><p>Uma equipa científica liderada pelo Southwest Research Institute em Boulder, Colorado, irá analisar as imagens para aprender mais sobre as características complexas e dinâmicas da atmosfera exterior do Sol. Estudantes que participam do Nationwide Eclipse Ballooning Project, financiado pela NASA, se preparam para lançar um balão científico em Mosfellsbær, na Islândia, durante o eclipse solar total em agosto.</p><p>À medida que a Lua cobria o Sol, ela revelou brevemente a fina atmosfera externa do Sol, a coroa, para aqueles que estavam no caminho da totalidade e que tiveram a sorte de ter céu limpo.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/science-research/heliophysics/nasa-shares-views-of-august-solar-eclipse-from-ground-air-space/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>On Aug. 12, a total solar eclipse darkened skies over Greenland, Iceland, and Spain. As the Moon covered the Sun, it briefly revealed the Sun’s wispy outer atmosphere, the corona, to those in the path of totality who were lucky enough to. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. Aboard the station as part of Expedition 75 are NASA astronauts Jessica Meir, Anil Menon, and Jack Hathaway. NASA/Joel Kowsky Meanwhile, from about 250 miles above the ground, a NASA astronaut aboard the International Space Station snapped a few photos of the partial eclipse from their.</p><p>From the station, the Moon covered about 18% of the Sun at the peak of the eclipse. NASA/Jessica Meir Between the ground and the space station, NASA pilots flew NASA’s WB-57F research jet at an altitude of 50, 000 feet, passing through the eclipse’s shadow to.</p><p>12, 2026, was captured by a camera mounted inside the cockpit window of NASA’s WB-57F aircraft as it flew around 50, 000 feet altitude off the coast of Iceland. NASA A suite of cameras installed on NASA’s WB-57F aircraft captured images of the solar corona and prominences in different wavelengths of visible and infrared light during the.</p><p>A science team led by the Southwest Research Institute in Boulder, Colorado, will analyze the images to learn more about complex and dynamic features in the Sun’s outer atmosphere. Students participating in the NASA-funded Nationwide Eclipse Ballooning Project prepare to launch a scientific balloon in Mosfellsbær, Iceland, during the total solar eclipse on.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>NASA/Abbey Interrante To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video The Moon’s shadow passes over the atmosphere. As the Moon covered the Sun, it briefly revealed the Sun’s wispy outer atmosphere, the corona, to those in the path of totality who were lucky enough to have clear skies.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/science-research/heliophysics/nasa-shares-views-of-august-solar-eclipse-from-ground-air-space/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Em 12 de agosto, um eclipse solar total escureceu os céus da Groenlândia, Islândia e Espanha.",
-      "Dado-chave: Em 12 de agosto, um eclipse solar total escureceu os céus da Groenlândia, Islândia e Espanha",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Em 12 de agosto, um eclipse solar total escureceu os céus da Groenlândia, Islândia e Espanha.",
-      "Dado-chave: Em 12 de agosto, um eclipse solar total escureceu os céus da Groenlândia, Islândia e Espanha",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: On Aug. 12, a total solar eclipse darkened skies over Greenland, Iceland, and Spain.",
-      "Key detail: On Aug. 12, a total solar eclipse darkened skies over Greenland, Iceland, and Spain",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "21 ago 2026",
-    "date_pt": "21 ago 2026",
-    "date_en": "21 Aug 2026",
-    "time": "18h43",
-    "time_pt": "18h43",
-    "time_en": "18: 43 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-21T18:43:40+00:00",
-    "lastModifiedIso": "2026-08-22T16:02:18+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA Shares Views of August Solar Eclipse from Ground",
-      "Space"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA Shares Views of August Solar Eclipse from Ground",
-      "Space"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA Shares Views of August Solar Eclipse from Ground",
-      "Space"
-    ],
-    "srcUrl": "https://science.nasa.gov/science-research/heliophysics/nasa-shares-views-of-august-solar-eclipse-from-ground-air-space/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-shares-views-of-august-solar-eclipse-from-ground-air-space",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-shares-views-of-august-solar-eclipse-from-ground-air-space",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-shares-views-of-august-solar-eclipse-from-ground-air-space&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-shares-views-of-august-solar-eclipse-from-ground-air-space/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-shares-views-of-august-solar-eclipse-from-ground-air-space/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-shares-views-of-august-solar-eclipse-from-ground-air-space/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-shares-views-of-august-solar-eclipse-from-ground-air-space/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-shares-views-of-august-solar-eclipse-from-ground-air-space/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-shares-views-of-august-solar-eclipse-from-ground-air-space/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "NASA Shares Views of August Solar Eclipse from Ground, Air, Space",
-    "imageAlt_pt": "NASA Shares Views of August Solar Eclipse from Ground, Air, Space",
-    "imageAlt_en": "NASA Shares Views of August Solar Eclipse from Ground, Air, Space",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 5,
-    "slug": "tb-26-04-updates-and-modernization-of-nasa-s-chemical-equilibrium-with-applications-cea-code",
-    "cat": "Química",
-    "catCls": "quimica",
-    "img": "https://www.nasa.gov/wp-content/uploads/2023/10/nhq202211160203.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "TB 26-04 Updates and Modernization of NASA’s Chemical Equilibrium with Applications (CEA) Code",
-    "title_pt": "TB 26-04 Updates and Modernization of NASA’s Chemical Equilibrium with Applications (CEA) Code",
-    "title_en": "TB 26-04 Updates and Modernization of NASA’s Chemical Equilibrium with Applications (CEA) Code",
-    "sub": "Para obter mais informações, entre em contato com Mark K. Líder, Glenn Research Center, mark.",
-    "sub_pt": "Para obter mais informações, entre em contato com Mark K. Líder, Glenn Research Center, mark.",
-    "sub_en": "That matters because chemistry gains force when a claimed structure or process can be described with enough precision to be reproduced by others.",
-    "excerpt": "Orientação para uso de engenharia Os usuários de engenharia da NASA devem considerar a seguinte orientação: Use o CEA v3 para novas análises de propulsão e termoquímica quando possível para aproveitar as interfaces.",
-    "excerpt_pt": "Orientação para uso de engenharia Os usuários de engenharia da NASA devem considerar a seguinte orientação: Use o CEA v3 para novas análises de propulsão e termoquímica quando possível para aproveitar as interfaces.",
-    "excerpt_en": "That matters because chemistry gains force when a claimed structure or process can be described with enough precision to be reproduced by others.",
-    "body": "<p>Líder, Glenn Research Center, mark. Gov Baixe a versão em PDF O código Chemical Equilibrium with Applications da NASA é uma ferramenta fundamental para análise de sistemas de propulsão.</p><p>Líder, Glenn Research Center, mark. leader@nasa. gov Baixe a versão em PDF O código de Equilíbrio Químico com Aplicações (CEA) da NASA é uma ferramenta fundamental para análise de sistemas de propulsão. Expanded Species and Thermodynamic Data The thermodynamic database has been expanded to support additional propellants and fuels relevant to current NASA applications, including green propellant constituents such as ADN, HAN, and LMP-103S, and sustainable aviation fuel.</p><p>Orientação para uso de engenharia Os usuários de engenharia da NASA devem considerar a seguinte orientação: Use o CEA v3 para novas análises de propulsão e termoquímica quando possível para aproveitar as interfaces modernizadas, o banco de dados expandido e a integração. Líder, Glenn Research Center, mark. leader@nasa. gov O código Chemical Equilibrium with Applications (CEA) da NASA é uma ferramenta fundamental para análise de sistemas de propulsão.</p><p>A atividade TI-22-01730 do Centro de Engenharia e Segurança da NASA (NESC) modernizou o código legado CEA2 Fortran em CEA v3, um pacote de software orientado a objetos Fortran 2008 com suporte de interface expandido, dados termoquímicos atualizados, capacidade de manutenção. O código modernizado preserva a compatibilidade retroativa com fluxos de trabalho de entrada CEA legados, ao mesmo tempo que permite o uso direto de ambientes de análise modernos, incluindo Python, C, MATLAB e estudos de design automatizados.</p><p>Antecedentes O CEA2 foi lançado em 2002 e permaneceu amplamente utilizado para propulsão e análise termoquímica. Melhorias técnicas Arquitetura de software moderna CEA v3 é implementado em Fortran 2008 usando estruturas de dados orientadas a objetos, tipagem mais rigorosa e uma arquitetura de solução de equilíbrio segura para threads.</p><p>Em um benchmark, uma varredura de 108.500 casos foi concluída em aproximadamente 1, 11 segundos com o CEA v3, em comparação com aproximadamente 15 minutos usando o CEA2.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/nesc/tb-26-04-updates-and-modernization-of-nasas-chemical-equilibrium-with-applications-cea-code/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Líder, Glenn Research Center, mark. Gov Baixe a versão em PDF O código Chemical Equilibrium with Applications da NASA é uma ferramenta fundamental para análise de sistemas de propulsão.</p><p>Líder, Glenn Research Center, mark. leader@nasa. gov Baixe a versão em PDF O código de Equilíbrio Químico com Aplicações (CEA) da NASA é uma ferramenta fundamental para análise de sistemas de propulsão. Expanded Species and Thermodynamic Data The thermodynamic database has been expanded to support additional propellants and fuels relevant to current NASA applications, including green propellant constituents such as ADN, HAN, and LMP-103S, and sustainable aviation fuel.</p><p>Orientação para uso de engenharia Os usuários de engenharia da NASA devem considerar a seguinte orientação: Use o CEA v3 para novas análises de propulsão e termoquímica quando possível para aproveitar as interfaces modernizadas, o banco de dados expandido e a integração. Líder, Glenn Research Center, mark. leader@nasa. gov O código Chemical Equilibrium with Applications (CEA) da NASA é uma ferramenta fundamental para análise de sistemas de propulsão.</p><p>A atividade TI-22-01730 do Centro de Engenharia e Segurança da NASA (NESC) modernizou o código legado CEA2 Fortran em CEA v3, um pacote de software orientado a objetos Fortran 2008 com suporte de interface expandido, dados termoquímicos atualizados, capacidade de manutenção. O código modernizado preserva a compatibilidade retroativa com fluxos de trabalho de entrada CEA legados, ao mesmo tempo que permite o uso direto de ambientes de análise modernos, incluindo Python, C, MATLAB e estudos de design automatizados.</p><p>Antecedentes O CEA2 foi lançado em 2002 e permaneceu amplamente utilizado para propulsão e análise termoquímica. Melhorias técnicas Arquitetura de software moderna CEA v3 é implementado em Fortran 2008 usando estruturas de dados orientadas a objetos, tipagem mais rigorosa e uma arquitetura de solução de equilíbrio segura para threads.</p><p>Em um benchmark, uma varredura de 108.500 casos foi concluída em aproximadamente 1, 11 segundos com o CEA v3, em comparação com aproximadamente 15 minutos usando o CEA2.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/nesc/tb-26-04-updates-and-modernization-of-nasas-chemical-equilibrium-with-applications-cea-code/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>For more information, contact Mark K. Leader, Glenn Research Center, mark. leader@nasa. gov Download the PDF version NASA’s Chemical Equilibrium with Applications code is a foundational tool for propulsion system analysis. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because chemistry gains force when a claimed structure or process can be described with enough precision to be reproduced by others. Synthetic routes, spectroscopic signatures, yield under defined conditions and stability under realistic operating parameters are the currency of credibility in chemistry, and a result that lacks these details cannot be evaluated independently. The distance between a discovery on a laboratory bench and a process that works reliably at scale is measured in years of optimization, and each step reveals constraints that were invisible at smaller scale. Expanded Species and Thermodynamic Data The thermodynamic database has been expanded to support additional propellants and fuels relevant to current NASA applications, including. Guidance for Engineering Use NASA engineering users should consider the following guidance: Use CEA v3 for new propulsion and thermochemistry analyses when possible to take.</p><p>Leader, Glenn Research Center, mark. leader@nasa. gov NASA’s Chemical Equilibrium with Applications (CEA) code is a foundational tool for propulsion system analysis. NASA Engineering and Safety Center (NESC) Activity TI-22-01730 modernized the legacy CEA2 Fortran code into CEA v3, a Fortran 2008, object-oriented software package with expanded.</p><p>The modernized code preserves backward compatibility with legacy CEA input workflows while enabling direct use from modern analysis environments, including Python, C, MATLAB, and. Background CEA2 was released in 2002 and has remained widely used for propulsion and thermochemistry analysis.</p><p>Technical Improvements Modern Software Architecture CEA v3 is implemented in Fortran 2008 using object-oriented data structures, stricter typing, and a thread-safe equilibrium. In one benchmark, a sweep of 108, 500 cases completed in approximately 1.11 seconds with CEA v3, compared with approximately 15 minutes using CEA2.</p><p>The broader interest lies in whether the claimed property or reaction pathway can be characterized with enough precision to support replication by other groups. Chemistry has a replication problem that is less discussed than the one in psychology or medicine, but it is real: synthetic procedures that work reliably in one laboratory sometimes fail to transfer, for reasons ranging from impure starting materials to undocumented temperature sensitivities. A result that comes with full experimental detail and a clear characterization of the product is far more valuable than one that reports a discovery without the procedural backbone.</p><p>NASA engineering users should consider the following guidance: References NASA/TM, 20260007987 CEA documentation: https: //nasa. github. io/cea CEA repository: https: //github. Glenn Research Center, mark. leader@nasa. gov Subroutine interface enabling direct integration and high-volume calculations Inert hydrocarbon fuel representations, including RP-1.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether independent groups working with orthogonal techniques reach compatible conclusions, and whether the result scales beyond the conditions used in the original study. Chemical discoveries that matter tend to be ones whose key properties can be measured by multiple spectroscopic, crystallographic or computational methods that are unlikely to share the same blind spots. Scalability, cost and long-term stability under realistic operating conditions are additional filters that come into play before any practical application becomes viable.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/nesc/tb-26-04-updates-and-modernization-of-nasas-chemical-equilibrium-with-applications-cea-code/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Para obter mais informações, entre em contato com Mark K. Líder, Glenn Research Center, mark.",
-      "Dado-chave: Para obter mais informações, entre em contato com Mark K. Líder, Glenn Research Center, mark",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Para obter mais informações, entre em contato com Mark K. Líder, Glenn Research Center, mark.",
-      "Dado-chave: Para obter mais informações, entre em contato com Mark K. Líder, Glenn Research Center, mark",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: That matters because chemistry gains force when a claimed structure or process can be described with enough precision to be reproduced by others.",
-      "Key detail: That matters because chemistry gains force when a claimed structure or process can be described with enough precision to be reproduced by others",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "21 ago 2026",
-    "date_pt": "21 ago 2026",
-    "date_en": "21 Aug 2026",
-    "time": "17h41",
-    "time_pt": "17h41",
-    "time_en": "17: 41 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-21T17:41:00+00:00",
-    "lastModifiedIso": "2026-08-22T16:02:18+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Química",
-      "NASA News Releases",
-      "Cosmos Week",
-      "TB 26",
-      "04 Updates and Modernization of NASA’s Chemical Equilibrium with Applications (CEA) Code"
-    ],
-    "keywords_pt": [
-      "Química",
-      "NASA News Releases",
-      "Cosmos Week",
-      "TB 26",
-      "04 Updates and Modernization of NASA’s Chemical Equilibrium with Applications (CEA) Code"
-    ],
-    "keywords_en": [
-      "Chemical",
-      "NASA News Releases",
-      "Cosmos Week",
-      "TB 26",
-      "04 Updates and Modernization of NASA’s Chemical Equilibrium with Applications (CEA) Code"
-    ],
-    "srcUrl": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-04-updates-and-modernization-of-nasas-chemical-equilibrium-with-applications-cea-code/",
-    "realUrl": "https://www.cosmosweek.com/?article=tb-26-04-updates-and-modernization-of-nasa-s-chemical-equilibrium-with-applications-cea-code",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=tb-26-04-updates-and-modernization-of-nasa-s-chemical-equilibrium-with-applications-cea-code",
-    "realUrl_en": "https://www.cosmosweek.com/?article=tb-26-04-updates-and-modernization-of-nasa-s-chemical-equilibrium-with-applications-cea-code&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/tb-26-04-updates-and-modernization-of-nasa-s-chemical-equilibrium-with-applications-cea-code/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/tb-26-04-updates-and-modernization-of-nasa-s-chemical-equilibrium-with-applications-cea-code/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/tb-26-04-updates-and-modernization-of-nasa-s-chemical-equilibrium-with-applications-cea-code/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/tb-26-04-updates-and-modernization-of-nasa-s-chemical-equilibrium-with-applications-cea-code/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/tb-26-04-updates-and-modernization-of-nasa-s-chemical-equilibrium-with-applications-cea-code/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/tb-26-04-updates-and-modernization-of-nasa-s-chemical-equilibrium-with-applications-cea-code/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "TB 26-04 Updates and Modernization of NASA’s Chemical Equilibrium with Applications (CEA) Code",
-    "imageAlt_pt": "TB 26-04 Updates and Modernization of NASA’s Chemical Equilibrium with Applications (CEA) Code",
-    "imageAlt_en": "TB 26-04 Updates and Modernization of NASA’s Chemical Equilibrium with Applications (CEA) Code",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 6,
+    "id": 8,
     "slug": "sentinel-1-captures-major-ice-loss-from-greenland-glacier",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -850,12 +1058,12 @@ window.postsData = [
     "body_en": "<p>Europe’s Copernicus Sentinel-1 mission has captured a dramatic change at Petermann Glacier in northwest Greenland, where a 76 sq km section of the glacier’s floating ice tongue broke away on 4 August 2026. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The event marks the glacier’s largest loss of floating ice since 2012 and the most significant calving event in the Arctic since 2020, revealing once again how rapidly Earth’s. The newly formed tabular iceberg, or ‘ice island’, covers an area about the same size of Manhattan and is estimated to be up to 150 metres thick.</p><p>Sentinel-1 radar imagery captured on 3 August showed pronounced deterioration along the centreline of the ice tongue. Because Sentinel-1 carries a radar, it can observe day and night and through cloud cover, making it particularly well-suited to monitoring remote Arctic glaciers.</p><p>Using this Sentinel-1 radar imagery, an international team of researchers, partially funded through ESA’s FutureEO ARCTEX project, has been monitoring Petermann Glacier since 2019. It’s a powerful reminder of how quickly these systems can change. ” Petermann Glacier has a well-documented history of major calving events, including the formation of large ice.</p><p>However, since 2012, its floating ice tongue has remained relatively stable, despite several smaller-scale calving events. Two further large ice islands, with estimated surface areas of approximately 97 and 87 sq km, could detach as existing rifts continue to propagate across the floating ice tongue.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Anna Crawford, from the University of Stirling, commented, “While large, tabular icebergs are relatively common in the Southern Ocean around Antarctica, Arctic ice islands are far. These data allowed very detailed measurements of fracture propagation across the ice shelf, and ice tongue surface motion with ocean tides, in the lead up to the iceberg calving.</p><p>Because the account originates with ESA Space News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1_captures_major_ice_loss_from_Greenland_glacier\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: A missão europeia Copernicus Sentinel-1 capturou uma mudança dramática no glaciar Petermann, no noroeste da Gronelândia, onde uma secção de 76.",
-      "Dado-chave: A missão europeia Copernicus Sentinel-1 capturou uma mudança dramática no glaciar Petermann, no noroeste da Gronelândia, onde uma secção de 76",
+      "Dado-chave: A missão europeia Copernicus Sentinel-1 capturou uma mudança dramática no glaciar Petermann, no noroeste da Gronelândia, onde uma secção de 76.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: A missão europeia Copernicus Sentinel-1 capturou uma mudança dramática no glaciar Petermann, no noroeste da Gronelândia, onde uma secção de 76.",
-      "Dado-chave: A missão europeia Copernicus Sentinel-1 capturou uma mudança dramática no glaciar Petermann, no noroeste da Gronelândia, onde uma secção de 76",
+      "Dado-chave: A missão europeia Copernicus Sentinel-1 capturou uma mudança dramática no glaciar Petermann, no noroeste da Gronelândia, onde uma secção de 76.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
@@ -952,128 +1160,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 7,
-    "slug": "quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti",
-    "cat": "Astrofísica",
-    "catCls": "astrofisica",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Global_Surface_Temperature_Anomalies_1880-2013.jpg/1280px-Global_Surface_Temperature_Anomalies_1880-2013.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Erupções quase periódicas de trânsitos recorrentes de buracos negros de satélites através de discos de acreção de núcleos galácticos magnetizados",
-    "title_pt": "Erupções quase periódicas de trânsitos recorrentes de buracos negros de satélites através de discos de acreção de núcleos galácticos magnetizados",
-    "title_en": "Quasi-periodic Eruptions from Recurrent Satellite Black Hole Transits through Magnetized Galactic Nucleus Accretion Disks",
-    "sub": "Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta.",
-    "sub_pt": "Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta.",
-    "sub_en": "Quasi-periodic eruptions are recurrent soft X-ray flares from galactic nuclei, but their origin remains uncertain.",
-    "excerpt": "Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta. A contraparte ultravioleta atrasada detectada em Ansky fornece uma nova restrição em modelos viáveis.",
-    "excerpt_pt": "Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta. A contraparte ultravioleta atrasada detectada em Ansky fornece uma nova restrição em modelos viáveis.",
-    "excerpt_en": "Quasi-periodic eruptions are recurrent soft X-ray flares from galactic nuclei, but their origin remains uncertain. The delayed ultraviolet counterpart detected in Ansky provides a new constraint on viable models.",
-    "body": "<p>Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta. A contraparte ultravioleta atrasada detectada em Ansky fornece uma nova restrição em modelos viáveis.</p><p>Erupções quase periódicas (QPEs) são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p>Resumo: Erupções quase periódicas (QPEs) são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta. A contraparte ultravioleta (UV) atrasada detectada em Ansky fornece uma nova restrição em modelos viáveis.</p><p>Apresentamos um modelo de dois canais no qual um buraco negro satélite (sBH) atravessa repetidamente um disco de acreção nuclear enfiado por um campo magnético de grande escala. O foco gravitacional e o arrasto dinâmico geram material ejetado quente e opticamente espesso, cuja expansão e difusão de fótons alimentam o QPE de raios X suave.</p><p>Para parâmetros fiduciais da escala de Bondi, o modelo produz uma duração característica de raios X de $\\sim10^3\\\\mathrm{s}$ e luminosidade de $\\sim10^{42}\\\\mathrm{erg\\, s^{-1}}$.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.19796v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta. A contraparte ultravioleta atrasada detectada em Ansky fornece uma nova restrição em modelos viáveis.</p><p>Erupções quase periódicas (QPEs) são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p>Resumo: Erupções quase periódicas (QPEs) são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta. A contraparte ultravioleta (UV) atrasada detectada em Ansky fornece uma nova restrição em modelos viáveis.</p><p>Apresentamos um modelo de dois canais no qual um buraco negro satélite (sBH) atravessa repetidamente um disco de acreção nuclear enfiado por um campo magnético de grande escala. O foco gravitacional e o arrasto dinâmico geram material ejetado quente e opticamente espesso, cuja expansão e difusão de fótons alimentam o QPE de raios X suave.</p><p>Para parâmetros fiduciais da escala de Bondi, o modelo produz uma duração característica de raios X de $\\sim10^3\\\\mathrm{s}$ e luminosidade de $\\sim10^{42}\\\\mathrm{erg\\, s^{-1}}$.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.19796v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Quasi-periodic eruptions are recurrent soft X-ray flares from galactic nuclei, but their origin remains uncertain. The delayed ultraviolet counterpart detected in Ansky provides a new constraint on viable models. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>That matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Quasi-periodic eruptions (QPEs) are recurrent soft X-ray flares from galactic nuclei, but their origin remains uncertain. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>The delayed ultraviolet (UV) counterpart detected in Ansky provides a new constraint on viable models. We present a two-channel model in which a satellite black hole (sBH) repeatedly crosses a nuclear accretion disk threaded by a large-scale magnetic field.</p><p>Gravitational focusing and dynamical drag generate hot, optically thick ejecta whose expansion and photon diffusion power the soft X-ray QPE. For fiducial Bondi-scale parameters, the model yields a characteristic X-ray duration of $\\sim10^3\\ \\mathrm{s}$ and luminosity of $\\sim10^{42}\\ \\mathrm{erg\\, s^{-1}}$.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>At lower orbital inclinations, the duration extends to the day-long scale observed in Ansky. Simultaneously, the sBH motion compresses and bends the background magnetic field, triggering in-disk reconnection.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.19796v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta.",
-      "Dado-chave: Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_pt": [
-      "Ponto central: Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta.",
-      "Dado-chave: Erupções quase periódicas são erupções recorrentes de raios X suaves de núcleos galácticos, mas sua origem permanece incerta",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_en": [
-      "Core point: Quasi-periodic eruptions are recurrent soft X-ray flares from galactic nuclei, but their origin remains uncertain.",
-      "Key detail: Quasi-periodic eruptions are recurrent soft X-ray flares from galactic nuclei, but their origin remains uncertain",
-      "Result not yet peer reviewed."
-    ],
-    "date": "20 ago 2026",
-    "date_pt": "20 ago 2026",
-    "date_en": "20 Aug 2026",
-    "time": "08h48",
-    "time_pt": "08h48",
-    "time_en": "08: 48 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-20T08:48:51+00:00",
-    "lastModifiedIso": "2026-08-21T16:18:43+00:00",
-    "source": "arXiv High Energy Astrophysics",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Astrofísica",
-      "arXiv High Energy Astrophysics",
-      "Cosmos Week",
-      "Erupções quase periódicas de trânsitos recorrentes de buracos negros de satélites através de discos de acreção de núcleos galácticos magnetizados"
-    ],
-    "keywords_pt": [
-      "Astrofísica",
-      "arXiv High Energy Astrophysics",
-      "Cosmos Week",
-      "Erupções quase periódicas de trânsitos recorrentes de buracos negros de satélites através de discos de acreção de núcleos galácticos magnetizados"
-    ],
-    "keywords_en": [
-      "Astrophysics",
-      "arXiv High Energy Astrophysics",
-      "Cosmos Week",
-      "Quasi-periodic eruptions of recurring black hole transits of satellites through accretion disks of magnetized galactic nuclei"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2608.19796v1",
-    "realUrl": "https://www.cosmosweek.com/?article=quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti",
-    "realUrl_en": "https://www.cosmosweek.com/?article=quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/quasi-periodic-eruptions-from-recurrent-satellite-black-hole-transits-through-magnetized-galacti/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 80,
-    "scoreBreakdown": {
-      "source": 63,
-      "evidence": 39,
-      "relevance": 94,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "Erupções quase periódicas de trânsitos recorrentes de buracos negros de satélites através de discos de acreção de núcleos galácticos magnetizados",
-    "imageAlt_pt": "Erupções quase periódicas de trânsitos recorrentes de buracos negros de satélites através de discos de acreção de núcleos galácticos magnetizados",
-    "imageAlt_en": "Quasi-periodic Eruptions from Recurrent Satellite Black Hole Transits through Magnetized Galactic Nucleus Accretion Disks",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 8,
+    "id": 9,
     "slug": "milky-way-s-fastest-star-orbits-our-supermassive-black-hole-so-closely-it-feels-its-spin",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1316,7 +1403,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "spying-on-a-split-comet",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1366,17 +1453,17 @@ window.postsData = [
     "body_en": "<p>Traversing through the solar system, a comet split in two, and a recent study used six months of observations to investigate when and why. The post Spying on a Split Comet appeared first on Sky &amp; Telescope. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>This matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. One such class, known as Jupiter-family comets, traveled from the Kuiper Belt to short orbital periods (less than 20 years) whose paths through the solar system are shaped by. Discovered in 2002, 240P/NEAT is a Jupiter-family comet that loops between Jupiter and Mars on a 7.6-year orbit.</p><p>Making close approaches to Jupiter, 240P experiences frequent, strong interactions with the gas giant that can alter the comet’s orbit and cause sudden bursts in brightness as ice. Excitingly, a fainter comoving object, 240P-B, was first reported in June 2025 as the comet headed toward perihelion, at some point recently, 240P had split in two.</p><p>With growing evidence suggesting splitting and disintegration are the primary mechanisms of comet destruction, understanding the properties and cause of 240P’s split is imperative. With 240P on the move to perihelion, David Jewitt (University of California, Los Angeles) and collaborators monitored the comet from October 2025 to April 2026 to establish the.</p><p>Employing the Alhambra Faint Object Spectrograph and Camera on the 2.56-meter Nordic Optical Telescope, the authors obtained detailed imaging of the comet from two months before. Tracking both photometric and morphological changes across their observations, the authors estimated the dust-loss rates, physical sizes, and separation speed of 240P-A and 240P-B.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>From its lower dust-loss rate and lower brightness, the authors estimated a radius around 300 meters (and no smaller than 50). Based on how the separation of the two comet pieces changes over time, the authors determined that the split of 240P occurred at least three years before their observations.</p><p>Because this item comes through Sky &amp; Telescope as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://skyandtelescope.org/astronomy-news/spying-on-a-split-comet/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Atravessando o sistema solar, um cometa se dividiu em dois, e um estudo recente usou seis meses de observações para investigar quando e por quê.",
-      "Dado-chave: Atravessando o sistema solar, um cometa se dividiu em dois, e um estudo recente usou seis meses de observações para investigar quando e por quê",
+      "Dado-chave: Atravessando o sistema solar, um cometa se dividiu em dois, e um estudo recente usou seis meses de observações para investigar quando e por quê.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
       "Ponto central: Atravessando o sistema solar, um cometa se dividiu em dois, e um estudo recente usou seis meses de observações para investigar quando e por quê.",
-      "Dado-chave: Atravessando o sistema solar, um cometa se dividiu em dois, e um estudo recente usou seis meses de observações para investigar quando e por quê",
+      "Dado-chave: Atravessando o sistema solar, um cometa se dividiu em dois, e um estudo recente usou seis meses de observações para investigar quando e por quê.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
       "Core point: Traversing through the solar system, a comet split in two, and a recent study used six months of observations to investigate when and why.",
-      "Key detail: Traversing through the solar system, a comet split in two, and a recent study used six months of observations to investigate when and why",
+      "Key detail: Traversing through the solar system, a comet split in two, and a recent study used six months of observations to investigate when and why.",
       "Science reporting: verify primary technical documentation."
     ],
     "date": "18 ago 2026",
@@ -1465,7 +1552,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "infrared-lines-from-sterile-neutrino-transition-magnetic-moments-at-jwst",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -1589,7 +1676,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "nsf-announces-1-5b-for-foundational-research-to-drive-scientific-breakthroughs-for-american-tech",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1741,7 +1828,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "hubble-gaia-solve-our-galaxy-s-merger-mystery",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1791,17 +1878,17 @@ window.postsData = [
     "body_en": "<p>Our home galaxy, the Milky Way, grew to its current size in part by consuming smaller galaxies. Now, new data from the NASA/ESA Hubble Space Telescope show definitive evidence of a dwarf galaxy merging with the young Milky Way galaxy in. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern. The gap between identifying a correlation in biological data and understanding the causal chain that produces it is routinely underestimated, and the history of biomedical research is populated with associations that collapsed when the mechanism was sought and not found. A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive finding because it generates testable predictions that can narrow the hypothesis space. Now, new data from the NASA/ESA Hubble Space Telescope show definitive evidence of a dwarf galaxy merging with the young Milky Way galaxy in the earliest phases of its evolution. This finding extends our knowledge of our galaxy’s history 1.8 billion years farther back in time than before.</p><p>The broader interest lies in whether the reported effect points toward a real mechanism and not merely a reproducible but unexplained association. Biology has learned from decades of biomarker failures that correlation, even robust correlation, is not a substitute for mechanistic understanding. A pathway that can be traced from molecular interaction to cellular response to organismal phenotype provides a far stronger foundation for intervention than a statistical association discovered in a large dataset, however well the statistics are done.</p><p>Because the account originates with ESA Space Science, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to test whether the effect repeats across different methods, cell types, model organisms and experimental conditions. Reproducibility is the first test, but mechanistic dissection is the second, and a result that passes both has a substantially better chance of translating into something clinically or biotechnologically useful. The path from a laboratory finding to an applied outcome typically takes a decade or more, and most findings do not complete it; the current result sits at the beginning of that process.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Hubble_Gaia_solve_our_galaxy_s_merger_mystery\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: A nossa galáxia natal, a Via Láctea, cresceu até ao tamanho atual, em parte devido ao consumo de galáxias mais pequenas.",
-      "Dado-chave: A nossa galáxia natal, a Via Láctea, cresceu até ao tamanho atual, em parte devido ao consumo de galáxias mais pequenas",
+      "Dado-chave: A nossa galáxia natal, a Via Láctea, cresceu até ao tamanho atual, em parte devido ao consumo de galáxias mais pequenas.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: A nossa galáxia natal, a Via Láctea, cresceu até ao tamanho atual, em parte devido ao consumo de galáxias mais pequenas.",
-      "Dado-chave: A nossa galáxia natal, a Via Láctea, cresceu até ao tamanho atual, em parte devido ao consumo de galáxias mais pequenas",
+      "Dado-chave: A nossa galáxia natal, a Via Láctea, cresceu até ao tamanho atual, em parte devido ao consumo de galáxias mais pequenas.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: Our home galaxy, the Milky Way, grew to its current size in part by consuming smaller galaxies.",
-      "Key detail: Our home galaxy, the Milky Way, grew to its current size in part by consuming smaller galaxies",
+      "Key detail: Our home galaxy, the Milky Way, grew to its current size in part by consuming smaller galaxies.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "17 ago 2026",
@@ -1890,7 +1977,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "science-release-hubble-solves-merger-mystery-from-milky-way-s-early-years",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2042,7 +2129,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "a-look-back-at-the-2026-total-solar-eclipse",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2186,17 +2273,17 @@ window.postsData = [
     "body_en": "<p>On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades. Millions of people were awed by the Moon completely covering the Sun&#x27;s bright disc, briefly turning day into night and revealing the Sun&#x27;s outer. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades. Millions of people were awed by the Moon completely covering the Sun&#x27;s bright disc, briefly turning day into night and revealing the Sun&#x27;s outer atmosphere.</p><p>I think ‘boggles the mind’ sums it up,” says the European Space Agency&#x27;s Director of Science Professor Carole Mundell, during ESA&#x27;s live broadcast from the Observatorio. ESA arranged for live telescope feeds from the Spanish sites of León, Palencia and Javalambre, and photographers across Europe shared their photos with us.</p><p>Earth observation satellite MTG-I1 captured the Moon’s shadow moving across Earth, and ESA&#x27;s artificial eclipse-maker Proba-3 captured a double eclipse from Earth orbit. For those unable to travel to regions from where totality was visible, ESA&#x27;s live broadcast allowed them to experience the eclipse together with scientists from ESA and the.</p><p>Hosted by Dame Dr Maggie Aderin, the programme explored topics ranging from the mysteries of the Sun and its corona, to how one famous eclipse changed our understanding of. The highlight was the coverage of 1 minute and 21 seconds of totality, as the Moon plunged Javalambre into complete darkness.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>ESA, together with the City of León and the University of León, organised a free public event at the Palacio de Exposiciones y Congresos de León (Spain) on the day of the eclipse. A highlight was the ‘an inclusive eclipse’ workshop, where members of ESA’s CESAR science education team demonstrated tools to experience an eclipse without using your eyes.</p><p>Because the account originates with ESA Space Science, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/A_look_back_at_the_2026_total_solar_eclipse\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas.",
-      "Dado-chave: Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas",
+      "Dado-chave: Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas.",
-      "Dado-chave: Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas",
+      "Dado-chave: Em 12 de agosto de 2026, a Europa testemunhou o primeiro eclipse solar total em mais de duas décadas.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades.",
-      "Key detail: On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades",
+      "Key detail: On 12 August 2026, Europe witnessed the first total solar eclipse in over two decades.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "14 ago 2026",
@@ -2285,7 +2372,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "stops-along-the-path-of-totality",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2425,7 +2512,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "dust-and-water-spotted-close-to-giant-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2466,17 +2553,17 @@ window.postsData = [
     "body_en": "<p>Using the NASA/ESA/CSA James Webb Space Telescope, an international team of astronomers have discovered that dust and water can form and survive surprisingly close to the supermassive black hole at the centre of our Milky Way galaxy. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. The observations reveal that the evolved star IRS 3 continues to enrich its surroundings with newly formed material despite the intense radiation environment around Sagittarius A*. IRS 3 has reached a stage near the end of its life called the asymptotic giant branch phase.</p><p>By analysing the star’s infrared light with Webb’s MIRI (Mid-Infrared Instrument), the research team identified clear signatures of oxygen-rich dust and, for the first time. The results show that even under the harsh conditions near a supermassive black hole, evolved stars like IRS 3 can still produce dust and other materials important for the.</p><p>With Webb, we can directly observe how stars behave under these conditions and see that dust production remains remarkably resilient. These features identify IRS 3 as an oxygen-rich evolved star, which is nearing the end of its life and shedding material into space.</p><p>This discovery was possible because of Webb’s highly capable infrared instruments,” said Macarena Garcia Marin of ESA, a co-author of the study and PI of the MICONIC programme. Their results indicate a layered, shell-like distribution of dust extending roughly 10 000 astronomical units from the star, with temperatures falling from approximately 1200.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>The observations also revealed evidence for water within the envelope of IRS 3: the first clear detection of its kind for this object. This tells us that even close to a supermassive black hole, stars can continue contributing material back into their surroundings.</p><p>Because the account originates with ESA Space Science, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Webb/Dust_and_water_spotted_close_to_giant_black_hole\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Usando o Telescópio Espacial James Webb da NASA/ESA/CSA, uma equipe internacional de astrônomos descobriu que poeira e água podem se formar e.",
-      "Dado-chave: Usando o Telescópio Espacial James Webb da NASA/ESA/CSA, uma equipe internacional de astrônomos descobriu que poeira e água podem se formar e",
+      "Dado-chave: Usando o Telescópio Espacial James Webb da NASA/ESA/CSA, uma equipe internacional de astrônomos descobriu que poeira e água podem se formar e.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: Usando o Telescópio Espacial James Webb da NASA/ESA/CSA, uma equipe internacional de astrônomos descobriu que poeira e água podem se formar e.",
-      "Dado-chave: Usando o Telescópio Espacial James Webb da NASA/ESA/CSA, uma equipe internacional de astrônomos descobriu que poeira e água podem se formar e",
+      "Dado-chave: Usando o Telescópio Espacial James Webb da NASA/ESA/CSA, uma equipe internacional de astrônomos descobriu que poeira e água podem se formar e.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: Using the NASA/ESA/CSA James Webb Space Telescope, an international team of astronomers have discovered that dust and water can form and survive.",
-      "Key detail: Using the NASA/ESA/CSA James Webb Space Telescope, an international team of astronomers have discovered that dust and water can form and survive",
+      "Key detail: Using the NASA/ESA/CSA James Webb Space Telescope, an international team of astronomers have discovered that dust and water can form and survive.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "11 ago 2026",
@@ -2565,7 +2652,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "the-quadratic-growth-of-krylov-spread-complexity-in-the-btz-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2686,7 +2773,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2817,7 +2904,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "how-the-tide-turns-at-the-mouth-of-the-elbe",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2966,7 +3053,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 21,
     "slug": "europe-s-forests-losing-more-biomass-since-2018",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3087,7 +3174,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 21,
+    "id": 22,
     "slug": "the-paradox-of-lencois-maranhenses-national-park",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3227,7 +3314,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 22,
+    "id": 23,
     "slug": "new-exomoon-detection-challenges-cosmic-labels",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3318,7 +3405,7 @@ window.postsData = [
     ],
     "highlights_en": [
       "Core point: Observations made with the European Southern Observatory’s Very Large Telescope have revealed evidence for a moon-like object in the CD-35 2722.",
-      "Key detail: Observations made with the European Southern Observatory’s Very Large Telescope have revealed evidence for a moon-like object in the CD-35 2722",
+      "Key detail: Observations made with the European Southern Observatory’s Very Large Telescope have revealed evidence for a moon-like object in the CD-35 2722.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "22 jul 2026",
@@ -3407,7 +3494,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 23,
+    "id": 24,
     "slug": "the-nancy-grace-roman-space-telescope-launch-what-to-expect",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3604,7 +3691,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 24,
+    "id": 25,
     "slug": "science-release-hubble-discovers-first-of-star-cluster-s-missing-black-holes",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -3681,17 +3768,17 @@ window.postsData = [
     "body_en": "<p>The massive globular star cluster Omega Centauri has puzzled astronomers for decades. It should be filled with black holes left behind by exploding stars, yet evidence for them is scarce. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Now, astronomers using archival data from the NASA/ESA Hubble Space Telescope and supportive observations from the NASA/ESA/CSA James Webb Space Telescope have finally located. Though the astronomy community has previously found evidence with Hubble that an intermediate-mass black hole lurks at its centre, models suggest that this star cluster should.</p><p>This notable population of black holes has evaded detection in previous studies, which used the radial velocity method or looked for radio and X-ray emission from material falling. A new discovery features a different approach, known as astrometry, to measure the very small movements of stars over time.</p><p>By sifting through more than 20 years of Hubble archival data and pulling in recent Webb data to further refine the astrometric measurements, the team located a star orbiting an. Dubbed oMEGACat BH-2, it is the first stellar-mass black hole detected within Omega Centauri, and it has some surprising qualities.</p><p>OMEGACat BH-2 has a lower-than-expected mass and, with its visible star companion, the black hole-star duo has the longest orbital period of any black hole binary system known to. With the Hubble and Webb data, we were able to see the motion of the visible main sequence star that is part of this binary, which is about 18, 000 light-years away in the dense.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>By expanding the Hubble data analyzed so that it included astrometric measurements from 2002 to 2023, and pulling in Webb near-infrared data to improve precision, the University. This detection is providing some data to those who do that kind of modeling. ” Long time coming Based on the precise data from Hubble and Webb, the team could chart the star’s path.</p><p>Because the account originates with ESA Hubble News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind.</p><p class=\"art-source\"><a href=\"https://esahubble.org/news/heic2610/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: O enorme aglomerado estelar globular Omega Centauri tem intrigado os astrônomos há décadas.",
-      "Dado-chave: O enorme aglomerado estelar globular Omega Centauri tem intrigado os astrônomos há décadas",
+      "Dado-chave: O enorme aglomerado estelar globular Omega Centauri tem intrigado os astrônomos há décadas.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: O enorme aglomerado estelar globular Omega Centauri tem intrigado os astrônomos há décadas.",
-      "Dado-chave: O enorme aglomerado estelar globular Omega Centauri tem intrigado os astrônomos há décadas",
+      "Dado-chave: O enorme aglomerado estelar globular Omega Centauri tem intrigado os astrônomos há décadas.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: The massive globular star cluster Omega Centauri has puzzled astronomers for decades.",
-      "Key detail: The massive globular star cluster Omega Centauri has puzzled astronomers for decades",
+      "Key detail: The massive globular star cluster Omega Centauri has puzzled astronomers for decades.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "13 jul 2026",
@@ -3783,7 +3870,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 25,
+    "id": 26,
     "slug": "older-than-the-sun-astronomers-find-new-clues-to-the-origin-of-interstellar-comet-3i-atlas",
     "cat": "Química",
     "catCls": "quimica",
@@ -3966,155 +4053,6 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 26,
-    "slug": "surface-cubesat-contracted-for-ramses-asteroid-mission",
-    "cat": "Cosmologia",
-    "catCls": "cosmologia",
-    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/don_quijote_cubesat_around_dimorphos_asteroid/27361714-1-eng-GB/Don_Quijote_CubeSat_around_Dimorphos_asteroid_pillars.png",
-    "inline_images": [
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/emxys_cleanroom/27361855-1-eng-GB/EMXYS_cleanroom_article.jpg",
-        "alt": "Sala limpa EMXYS",
-        "alt_pt": "Sala limpa EMXYS",
-        "alt_en": "EMXYS cleanroom",
-        "caption": "Sala limpa EMXYS",
-        "caption_pt": "Sala limpa EMXYS",
-        "caption_en": "EMXYS cleanroom"
-      },
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/04/asteroid_apophis/26021615-4-eng-GB/Asteroid_Apophis_article.jpg",
-        "alt": "Asteróide Apófis",
-        "alt_pt": "Asteróide Apófis",
-        "alt_en": "Asteroid Apophis",
-        "caption": "Asteróide Apófis",
-        "caption_pt": "Asteróide Apófis",
-        "caption_en": "Asteroid Apophis"
-      },
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2025/03/esa_s_ramses_spacecraft/26600276-1-eng-GB/ESA_s_Ramses_spacecraft_article.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "CubeSat de Superfície Contratado para a Missão do Asteroide Ramsés",
-    "title_pt": "CubeSat de Superfície Contratado para a Missão do Asteroide Ramsés",
-    "title_en": "Surface CubeSat contracted for Ramses asteroid mission",
-    "sub": "A Agência Espacial Europeia (ESA) contratou a empresa espanhola EMXYS para desenvolver o primeiro CubeSat projetado para operar na superfície de um asteroide.",
-    "sub_pt": "A Agência Espacial Europeia (ESA) contratou a empresa espanhola EMXYS para desenvolver o primeiro CubeSat projetado para operar na superfície de um asteroide.",
-    "sub_en": "The European Space Agency has contracted Spanish company EMXYS for the first CubeSat designed to operate on the surface of an asteroid.",
-    "excerpt": "A Agência Espacial Europeia (ESA) contratou a empresa espanhola EMXYS para desenvolver o primeiro CubeSat projetado para operar na superfície de um asteroide.",
-    "excerpt_pt": "A Agência Espacial Europeia (ESA) contratou a empresa espanhola EMXYS para desenvolver o primeiro CubeSat projetado para operar na superfície de um asteroide.",
-    "excerpt_en": "The European Space Agency has contracted Spanish company EMXYS for the first CubeSat designed to operate on the surface of an asteroid.",
-    "body": "<p>A Agência Espacial Europeia (ESA) contratou a empresa espanhola EMXYS para o desenvolvimento do primeiro CubeSat projetado especificamente para operar na superfície de um asteroide. Batizado de Don Quijote, este pequeno satélite, do tamanho de uma caixa de sapatos, será implantado no asteroide Apophis pela missão Ramsés da ESA. A implantação ocorrerá antes da passagem do asteroide pela Terra, prevista para 13 de abril de 2029. Esta iniciativa representa um avanço significativo na exploração espacial, visando coletar dados cruciais diretamente da superfície de um corpo celeste.</p><p>A aproximação do Apophis em 2029 é vista como uma oportunidade científica sem precedentes. Orson Sutherland, gestor do programa da ESA para Marte e Além, destacou a raridade de um asteroide de tal magnitude – com 375 metros de diâmetro, comparável ao tamanho de um navio de cruzeiro – passar tão perto da Terra. Sua trajetória o levará a uma altitude de apenas 32.000 quilômetros, adentrando a órbita dos satélites geoestacionários. Essa proximidade oferece uma janela única para estudos detalhados que seriam impossíveis em outras circunstâncias, permitindo uma compreensão aprofundada da composição e das características físicas de Apophis.</p><p>Para otimizar a missão Ramsés, a ESA está reutilizando elementos de design da missão Hera, que já está a caminho do asteroide Dimorphos, com lançamento previsto para novembro. Assim como Hera, a missão Ramsés também transportará um par de CubeSats. Essas espaçonaves em miniatura, construídas a partir de unidades de 10 centímetros cúbicos, são essenciais para realizar observações mais próximas e detalhadas do alvo. A estratégia de utilizar CubeSats permite uma flexibilidade maior e a capacidade de coletar dados em locais de difícil acesso para a nave-mãe, maximizando o retorno científico da missão.</p><p>O desenvolvimento do Don Quijote apresenta desafios tecnológicos consideráveis, conforme explicado por Carrasco, CEO da EMXYS. Enquanto a empresa já forneceu plataformas CubeSat para a órbita baixa da Terra, o Don Quijote deve operar em um ambiente de espaço profundo muito mais hostil. Adicionalmente, ele precisará realizar um pouso autônomo em uma superfície desconhecida e, uma vez lá, não apenas sobreviver às condições extremas, mas também executar trabalhos científicos exigentes. Os dados coletados serão então transmitidos de volta à sua nave-mãe, Ramsés, exigindo sistemas de comunicação robustos e eficientes.</p><p>Para cumprir seus objetivos científicos, o CubeSat Don Quijote será equipado com um trio de instrumentos avançados. Entre eles, destaca-se o Gravímetro para Pequenos Objetos do Sistema Solar (GRASS), desenvolvido pelo Observatório Real da Bélgica em colaboração com a EMXYS. Este instrumento é projetado para medir o minúsculo campo gravitacional do asteroide, fornecendo informações cruciais sobre sua massa e densidade. Adicionalmente, o Instrumento Sísmico para Asteroides (SIA), proveniente do centro aeroespacial francês ISAE-SUPAERO, tem a importante tarefa de realizar as primeiras medições sísmicas em um asteroide, o que pode revelar detalhes sobre sua estrutura interna e composição.</p>",
-    "body_pt": "<p>A Agência Espacial Europeia (ESA) contratou a empresa espanhola EMXYS para o desenvolvimento do primeiro CubeSat projetado especificamente para operar na superfície de um asteroide. Batizado de Don Quijote, este pequeno satélite, do tamanho de uma caixa de sapatos, será implantado no asteroide Apophis pela missão Ramsés da ESA. A implantação ocorrerá antes da passagem do asteroide pela Terra, prevista para 13 de abril de 2029. Esta iniciativa representa um avanço significativo na exploração espacial, visando coletar dados cruciais diretamente da superfície de um corpo celeste.</p><p>A aproximação do Apophis em 2029 é vista como uma oportunidade científica sem precedentes. Orson Sutherland, gestor do programa da ESA para Marte e Além, destacou a raridade de um asteroide de tal magnitude – com 375 metros de diâmetro, comparável ao tamanho de um navio de cruzeiro – passar tão perto da Terra. Sua trajetória o levará a uma altitude de apenas 32.000 quilômetros, adentrando a órbita dos satélites geoestacionários. Essa proximidade oferece uma janela única para estudos detalhados que seriam impossíveis em outras circunstâncias, permitindo uma compreensão aprofundada da composição e das características físicas de Apophis.</p><p>Para otimizar a missão Ramsés, a ESA está reutilizando elementos de design da missão Hera, que já está a caminho do asteroide Dimorphos, com lançamento previsto para novembro. Assim como Hera, a missão Ramsés também transportará um par de CubeSats. Essas espaçonaves em miniatura, construídas a partir de unidades de 10 centímetros cúbicos, são essenciais para realizar observações mais próximas e detalhadas do alvo. A estratégia de utilizar CubeSats permite uma flexibilidade maior e a capacidade de coletar dados em locais de difícil acesso para a nave-mãe, maximizando o retorno científico da missão.</p><p>O desenvolvimento do Don Quijote apresenta desafios tecnológicos consideráveis, conforme explicado por Carrasco, CEO da EMXYS. Enquanto a empresa já forneceu plataformas CubeSat para a órbita baixa da Terra, o Don Quijote deve operar em um ambiente de espaço profundo muito mais hostil. Adicionalmente, ele precisará realizar um pouso autônomo em uma superfície desconhecida e, uma vez lá, não apenas sobreviver às condições extremas, mas também executar trabalhos científicos exigentes. Os dados coletados serão então transmitidos de volta à sua nave-mãe, Ramsés, exigindo sistemas de comunicação robustos e eficientes.</p><p>Para cumprir seus objetivos científicos, o CubeSat Don Quijote será equipado com um trio de instrumentos avançados. Entre eles, destaca-se o Gravímetro para Pequenos Objetos do Sistema Solar (GRASS), desenvolvido pelo Observatório Real da Bélgica em colaboração com a EMXYS. Este instrumento é projetado para medir o minúsculo campo gravitacional do asteroide, fornecendo informações cruciais sobre sua massa e densidade. Adicionalmente, o Instrumento Sísmico para Asteroides (SIA), proveniente do centro aeroespacial francês ISAE-SUPAERO, tem a importante tarefa de realizar as primeiras medições sísmicas em um asteroide, o que pode revelar detalhes sobre sua estrutura interna e composição.</p>",
-    "body_en": "<p>The European Space Agency has contracted Spanish company EMXYS for the first CubeSat designed to operate on the surface of an asteroid. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Don Quijote is a shoebox-sized spacecraft that will be deployed onto the Apophis asteroid by ESA’s Ramses mission before the asteroid flies by Earth on 13 April 2029. The arrival of Apophis represents a unique opportunity,” said ESA’s programme manager for Mars and Beyond, Orson Sutherland.</p><p>It is exceedingly rare for such a large asteroid, at 375 m across, about the size of a cruise liner, to pass so near to Earth. Flying past at an altitude of 32 000 km, its trajectory will take it within the orbit of our geostationary satellites.</p><p>To help achieve this, Ramses reuses design elements of ESA’s Hera asteroid mission, on track to reach the Dimorphos asteroid this November. Ramses, like Hera, will also carry a pair of CubeSats, miniature spacecraft built up from 10 cm boxes, for closer observations of its target.</p><p>Carrasco, CEO of EMXYS explains: “We have previously provided CubeSat platforms for low-Earth orbit, but Don Quijote must operate in the much more challenging deep space. Once there it has not only to survive but also perform demanding science at the same time, then relaying results back to its Ramses mothership.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>The Gravimeter for Small Solar System Objects (GRASS) is being developed by the Royal Observatory of Belgium with EMXYS to measure the asteroid&#x27;s miniscule gravity field. Finally the Seismic Instrument for Asteroids (SIA) seismometer comes from French aerospace centre ISAE-SUPAERO, designed to to perform the first seismic measurements on an.</p><p>Because the account originates with ESA Space News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Space_Safety/Planetary_Defence/Surface_CubeSat_contracted_for_Ramses_asteroid_mission\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: A Agência Espacial Europeia (ESA) contratou a empresa espanhola EMXYS para desenvolver o primeiro CubeSat projetado para operar na superfície de um.",
-      "Dado-chave: A Agência Espacial Europeia (ESA) contratou a empresa espanhola EMXYS para desenvolver o primeiro CubeSat projetado para operar na superfície de.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: A Agência Espacial Europeia (ESA) contratou a empresa espanhola EMXYS para desenvolver o primeiro CubeSat projetado para operar na superfície de um.",
-      "Dado-chave: A Agência Espacial Europeia (ESA) contratou a empresa espanhola EMXYS para desenvolver o primeiro CubeSat projetado para operar na superfície de.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: The European Space Agency has contracted Spanish company EMXYS for the first CubeSat designed to operate on the surface of an asteroid.",
-      "Key detail: The European Space Agency has contracted Spanish company EMXYS for the first CubeSat designed to operate on the surface of an asteroid.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "02 jul 2026",
-    "date_pt": "02 jul 2026",
-    "date_en": "02 Jul 2026",
-    "time": "10h16",
-    "time_pt": "10h16",
-    "time_en": "10: 16 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-07-02T10:16:00+00:00",
-    "lastModifiedIso": "2026-07-02T17:22:06+00:00",
-    "source": "ESA Space News",
-    "sourceDomain": "www. esa. int",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Cosmologia",
-      "ESA Space News",
-      "Cosmos Week",
-      "Surface CubeSat contratado para missão do asteroide Ramsés"
-    ],
-    "keywords_pt": [
-      "Cosmologia",
-      "ESA Space News",
-      "Cosmos Week",
-      "Surface CubeSat contratado para missão do asteroide Ramsés"
-    ],
-    "keywords_en": [
-      "Cosmology",
-      "ESA Space News",
-      "Cosmos Week",
-      "Surface CubeSat contracted for Ramses asteroid mission"
-    ],
-    "srcUrl": "https://www.esa.int/Space_Safety/Planetary_Defence/Surface_CubeSat_contracted_for_Ramses_asteroid_mission",
-    "realUrl": "https://www.cosmosweek.com/?article=surface-cubesat-contracted-for-ramses-asteroid-mission",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=surface-cubesat-contracted-for-ramses-asteroid-mission",
-    "realUrl_en": "https://www.cosmosweek.com/?article=surface-cubesat-contracted-for-ramses-asteroid-mission&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/surface-cubesat-contracted-for-ramses-asteroid-mission/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/surface-cubesat-contracted-for-ramses-asteroid-mission/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/surface-cubesat-contracted-for-ramses-asteroid-mission/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/surface-cubesat-contracted-for-ramses-asteroid-mission/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/surface-cubesat-contracted-for-ramses-asteroid-mission/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/surface-cubesat-contracted-for-ramses-asteroid-mission/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 90,
-      "evidence": 86,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "CubeSat de Superfície Contratado para a Missão do Asteroide Ramsés",
-    "imageAlt_pt": "CubeSat de Superfície Contratado para a Missão do Asteroide Ramsés",
-    "imageAlt_en": "Surface CubeSat contracted for Ramses asteroid mission",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
     "id": 27,
     "slug": "action-nsf-doe-vera-c-rubin-observatory-begins-capturing-the-greatest-cosmic-movie-ever-made",
     "cat": "Astronomia",
@@ -4277,6 +4215,137 @@ window.postsData = [
   },
   {
     "id": 28,
+    "slug": "chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen",
+    "cat": "Química",
+    "catCls": "quimica",
+    "img": "https://scx2.b-cdn.net/gfx/news/hires/2026/astronomers-find-most.jpg",
+    "inline_images": [
+      {
+        "src": "https://scx2.b-cdn.net/gfx/news/2026/astronomers-find-most.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Galáxia Quimicamente Primitiva de 13 Bilhões de Anos Revela Nível Recorde de Oxigênio",
+    "title_pt": "Galáxia Quimicamente Primitiva de 13 Bilhões de Anos Revela Nível Recorde de Oxigênio",
+    "title_en": "Chemically primitive galaxy from 13 billion years ago reveals record-low oxygen",
+    "sub": "Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia LAP1-B, revelando uma abundância.",
+    "sub_pt": "Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia LAP1-B, revelando uma abundância.",
+    "sub_en": "An international team of astronomers has used the James Webb Space Telescope and a natural phenomenon known as gravitational lensing to achieve a definitive characterization of.",
+    "excerpt": "Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia LAP1-B, revelando uma abundância de oxigênio recorde de apenas 1/240 da do Sol.",
+    "excerpt_pt": "Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia LAP1-B, revelando uma abundância de oxigênio recorde de apenas 1/240 da do Sol.",
+    "excerpt_en": "An international team of astronomers has used the James Webb Space Telescope and a natural phenomenon known as gravitational lensing to achieve a definitive characterization of LAP1-B, an ultra-faint galaxy from 13 billion years ago.",
+    "body": "<p>Uma equipe internacional de astrônomos empregou o Telescópio Espacial James Webb (JWST) e um fenômeno natural conhecido como lente gravitacional para obter uma caracterização definitiva da LAP1-B, uma galáxia ultrafraca que se formou há 13 bilhões de anos. Esta abordagem inovadora permitiu aos pesquisadores investigar as propriedades de um objeto celeste extremamente distante e tênue, fornecendo insights cruciais sobre as condições do universo primordial. A utilização da lente gravitacional, que amplifica a luz de objetos distantes, foi fundamental para superar os desafios observacionais impostos pela grande distância e baixa luminosidade da galáxia LAP1-B.</p><p>Expandindo as detecções iniciais, este novo estudo revelou uma abundância de oxigênio excepcionalmente baixa na LAP1-B, atingindo apenas 1/240 da concentração encontrada no Sol. Este é um nível recorde de baixa concentração de oxigênio já detectado em uma galáxia, indicando um estado quimicamente primitivo. A composição química de uma galáxia é um indicador direto de sua história evolutiva, e a escassez de elementos mais pesados, como o oxigênio, sugere que a LAP1-B é uma das primeiras galáxias a se formar no universo, antes que muitas gerações estelares tivessem tempo de enriquecer o meio interestelar com elementos produzidos em seus núcleos.</p><p>O estado quimicamente primitivo da LAP1-B, combinado com uma elevada proporção de carbono para oxigênio e a presença de um halo dominante de matéria escura, oferece pistas importantes sobre sua natureza. Essas características sugerem que a LAP1-B pode ser o tão procurado “ancestral” das misteriosas galáxias fósseis que são encontradas hoje nas proximidades da Via Láctea. As galáxias fósseis são sistemas estelares antigos e isolados que parecem ter parado de formar estrelas muito cedo em sua história, e a LAP1-B pode representar um estágio inicial desse tipo de evolução galáctica.</p><p>A descoberta foi publicada na prestigiada revista Nature, destacando a relevância e o impacto científico do trabalho. A pesquisa foi liderada por Kimihiko Nakajima, da Universidade de Kanazawa, e contou com a participação de Masami Ouchi, do Observatório Astronômico Nacional do Japão (NAOJ) e da Universidade de Tóquio. A colaboração internacional foi essencial para a coleta e análise dos dados complexos obtidos pelo JWST, demonstrando a importância da cooperação global na astronomia moderna.</p><p>A equipe de pesquisa concentrou seus esforços em LAP1-B, uma galáxia minúscula e ultrafraca que representa um desafio observacional significativo. Ao observar este local por mais de 30 horas com o JWST, os astrônomos conseguiram coletar dados espectroscópicos detalhados. Essa longa exposição foi crucial para determinar com precisão a composição química da galáxia, confirmando a baixa abundância de oxigênio e fornecendo evidências robustas para as conclusões do estudo. Os dados foram obtidos com a câmera Near-Infrared (NIRCam) do JWST, que permitiu a criação de uma imagem de três cores da galáxia, auxiliando na sua caracterização.</p><p>Os resultados deste estudo não apenas aprofundam nossa compreensão sobre as primeiras galáxias, mas também fornecem um novo alvo para futuras investigações. A identificação de uma galáxia com características tão primitivas abre caminho para explorar os mecanismos de formação estelar e o enriquecimento químico nos primórdios do universo. A LAP1-B serve como um laboratório natural para testar modelos cosmológicos e teorias sobre a evolução galáctica, oferecendo uma janela única para o passado distante do cosmos.</p>",
+    "body_pt": "<p>Uma equipe internacional de astrônomos empregou o Telescópio Espacial James Webb (JWST) e um fenômeno natural conhecido como lente gravitacional para obter uma caracterização definitiva da LAP1-B, uma galáxia ultrafraca que se formou há 13 bilhões de anos. Esta abordagem inovadora permitiu aos pesquisadores investigar as propriedades de um objeto celeste extremamente distante e tênue, fornecendo insights cruciais sobre as condições do universo primordial. A utilização da lente gravitacional, que amplifica a luz de objetos distantes, foi fundamental para superar os desafios observacionais impostos pela grande distância e baixa luminosidade da galáxia LAP1-B.</p><p>Expandindo as detecções iniciais, este novo estudo revelou uma abundância de oxigênio excepcionalmente baixa na LAP1-B, atingindo apenas 1/240 da concentração encontrada no Sol. Este é um nível recorde de baixa concentração de oxigênio já detectado em uma galáxia, indicando um estado quimicamente primitivo. A composição química de uma galáxia é um indicador direto de sua história evolutiva, e a escassez de elementos mais pesados, como o oxigênio, sugere que a LAP1-B é uma das primeiras galáxias a se formar no universo, antes que muitas gerações estelares tivessem tempo de enriquecer o meio interestelar com elementos produzidos em seus núcleos.</p><p>O estado quimicamente primitivo da LAP1-B, combinado com uma elevada proporção de carbono para oxigênio e a presença de um halo dominante de matéria escura, oferece pistas importantes sobre sua natureza. Essas características sugerem que a LAP1-B pode ser o tão procurado “ancestral” das misteriosas galáxias fósseis que são encontradas hoje nas proximidades da Via Láctea. As galáxias fósseis são sistemas estelares antigos e isolados que parecem ter parado de formar estrelas muito cedo em sua história, e a LAP1-B pode representar um estágio inicial desse tipo de evolução galáctica.</p><p>A descoberta foi publicada na prestigiada revista Nature, destacando a relevância e o impacto científico do trabalho. A pesquisa foi liderada por Kimihiko Nakajima, da Universidade de Kanazawa, e contou com a participação de Masami Ouchi, do Observatório Astronômico Nacional do Japão (NAOJ) e da Universidade de Tóquio. A colaboração internacional foi essencial para a coleta e análise dos dados complexos obtidos pelo JWST, demonstrando a importância da cooperação global na astronomia moderna.</p><p>A equipe de pesquisa concentrou seus esforços em LAP1-B, uma galáxia minúscula e ultrafraca que representa um desafio observacional significativo. Ao observar este local por mais de 30 horas com o JWST, os astrônomos conseguiram coletar dados espectroscópicos detalhados. Essa longa exposição foi crucial para determinar com precisão a composição química da galáxia, confirmando a baixa abundância de oxigênio e fornecendo evidências robustas para as conclusões do estudo. Os dados foram obtidos com a câmera Near-Infrared (NIRCam) do JWST, que permitiu a criação de uma imagem de três cores da galáxia, auxiliando na sua caracterização.</p><p>Os resultados deste estudo não apenas aprofundam nossa compreensão sobre as primeiras galáxias, mas também fornecem um novo alvo para futuras investigações. A identificação de uma galáxia com características tão primitivas abre caminho para explorar os mecanismos de formação estelar e o enriquecimento químico nos primórdios do universo. A LAP1-B serve como um laboratório natural para testar modelos cosmológicos e teorias sobre a evolução galáctica, oferecendo uma janela única para o passado distante do cosmos.</p>",
+    "body_en": "<p>An international team of astronomers has used the James Webb Space Telescope and a natural phenomenon known as gravitational lensing to achieve a definitive characterization of LAP1-B, an ultra-faint galaxy from 13 billion years ago. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>That matters because chemistry gains force when a claimed structure or process can be described with enough precision to be reproduced by others. Synthetic routes, spectroscopic signatures, yield under defined conditions and stability under realistic operating parameters are the currency of credibility in chemistry, and a result that lacks these details cannot be evaluated independently. The distance between a discovery on a laboratory bench and a process that works reliably at scale is measured in years of optimization, and each step reveals constraints that were invisible at smaller scale. An international team of astronomers has used the James Webb Space Telescope (JWST) and a natural phenomenon known as gravitational lensing to achieve a definitive. Editors have highlighted the following attributes while ensuring the content&#x27;s credibility: Add as preferred source Nature (2026).</p><p>Revealing the nature of the ultra-faint galaxy LAP1-B through a giant gravitational lens. A three-color image created from data taken with the Near-Infrared Camera (NIRCam) on the James Webb Space Telescope (JWST).</p><p>Expanding upon initial detections, this new study revealed a record-breaking low oxygen abundance, merely 1/240th that of the sun. This chemically primitive state, coupled with an elevated carbon-to-oxygen ratio and a dominant dark matter halo, suggests that LAP1-B is the long-sought &quot;ancestor&quot; of the.</p><p>The finding is published in Nature. A research team led by Kimihiko Nakajima of Kanazawa University and including Masami Ouchi at the National Astronomical Observatory of Japan (NAOJ) and the University of Tokyo.</p><p>The broader interest lies in whether the claimed property or reaction pathway can be characterized with enough precision to support replication by other groups. Chemistry has a replication problem that is less discussed than the one in psychology or medicine, but it is real: synthetic procedures that work reliably in one laboratory sometimes fail to transfer, for reasons ranging from impure starting materials to undocumented temperature sensitivities. A result that comes with full experimental detail and a clear characterization of the product is far more valuable than one that reports a discovery without the procedural backbone.</p><p>By staring at this spot for over 30 hours with JWST, the team determined that the galaxy&#x27;s oxygen abundance is roughly 1/240th that of the sun. This unique ratio of elements aligns closely with theoretical predictions for the material dispersed by the explosions of the universe&#x27;s first-generation stars.</p><p>Because this item comes through Phys. org Space as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether independent groups working with orthogonal techniques reach compatible conclusions, and whether the result scales beyond the conditions used in the original study. Chemical discoveries that matter tend to be ones whose key properties can be measured by multiple spectroscopic, crystallographic or computational methods that are unlikely to share the same blind spots. Scalability, cost and long-term stability under realistic operating conditions are additional filters that come into play before any practical application becomes viable.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-05-chemically-primitive-galaxy-billion-years.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Ponto central: Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia.",
+      "Dado-chave: Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia",
+      "Cobertura jornalística: verificar documentação técnica primária."
+    ],
+    "highlights_pt": [
+      "Ponto central: Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia.",
+      "Dado-chave: Uma equipe internacional de astrônomos utilizou o Telescópio Espacial James Webb e o fenômeno de lente gravitacional para caracterizar a galáxia",
+      "Cobertura jornalística: verificar documentação técnica primária."
+    ],
+    "highlights_en": [
+      "Core point: An international team of astronomers has used the James Webb Space Telescope and a natural phenomenon known as gravitational lensing to achieve a.",
+      "Key detail: An international team of astronomers has used the James Webb Space Telescope and a natural phenomenon known as gravitational lensing to achieve a",
+      "Science reporting: verify primary technical documentation."
+    ],
+    "date": "26 jun 2026",
+    "date_pt": "26 jun 2026",
+    "date_en": "26 Jun 2026",
+    "time": "16h40",
+    "time_pt": "16h40",
+    "time_en": "16: 40 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-06-26T16:40:05+00:00",
+    "lastModifiedIso": "2026-06-26T17:27:34+00:00",
+    "source": "Phys. org Space",
+    "sourceDomain": "phys. org",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "standard",
+    "editorialBandLabel": "Prioridade editorial",
+    "editorialBandLabel_pt": "Prioridade editorial",
+    "editorialBandLabel_en": "Editorial priority",
+    "keywords": [
+      "Química",
+      "Phys. org Space",
+      "Cosmos Week",
+      "Galáxia quimicamente primitiva de 13 bilhões de anos atrás revela nível recorde de oxigênio"
+    ],
+    "keywords_pt": [
+      "Química",
+      "Phys. org Space",
+      "Cosmos Week",
+      "Galáxia quimicamente primitiva de 13 bilhões de anos atrás revela nível recorde de oxigênio"
+    ],
+    "keywords_en": [
+      "Chemical",
+      "Phys. org Space",
+      "Cosmos Week",
+      "Chemically primitive galaxy from 13 billion years ago reveals record level of oxygen"
+    ],
+    "srcUrl": "https://phys.org/news/2026-05-chemically-primitive-galaxy-billion-years.html",
+    "realUrl": "https://www.cosmosweek.com/?article=chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen",
+    "realUrl_en": "https://www.cosmosweek.com/?article=chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/chemically-primitive-galaxy-from-13-billion-years-ago-reveals-record-low-oxygen/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "success",
+    "reviewProvider": "gemini",
+    "score": 77,
+    "scoreBreakdown": {
+      "source": 66,
+      "evidence": 54,
+      "relevance": 82,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Galáxia Quimicamente Primitiva de 13 Bilhões de Anos Revela Nível Recorde de Oxigênio",
+    "imageAlt_pt": "Galáxia Quimicamente Primitiva de 13 Bilhões de Anos Revela Nível Recorde de Oxigênio",
+    "imageAlt_en": "Chemically primitive galaxy from 13 billion years ago reveals record-low oxygen",
+    "coverageKind": "news",
+    "coverageKindLabel": "Jornalismo científico",
+    "coverageKindLabel_pt": "Jornalismo científico",
+    "coverageKindLabel_en": "Science journalism",
+    "storyKind": "science"
+  },
+  {
+    "id": 29,
     "slug": "dynamical-modeling-of-the-broad-line-region-with-high-mass-active-galactic-nuclei-and-constraint",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -4397,7 +4466,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 29,
+    "id": 30,
     "slug": "stellar-flares-may-expand-habitable-zones-around-small-stars",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -4531,7 +4600,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 30,
+    "id": 31,
     "slug": "automated-ct-scan-analysis-could-fast-track-clinical-assessments",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -4649,140 +4718,6 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 31,
-    "slug": "sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://scx2.b-cdn.net/gfx/news/hires/2026/rice-researchers-find.jpg",
-    "inline_images": [
-      {
-        "src": "https://phys.b-cdn.net/tmpl/v6/img/medx308px.png",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres",
-    "title_pt": "Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres",
-    "title_en": "Sulfur-rich Mercury magmas behave differently than Earth's do",
-    "sub": "Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus magmas se comportam de maneira.",
-    "sub_pt": "Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus magmas se comportam de maneira.",
-    "sub_en": "Mercury is a small, rocky planet about which researchers know relatively little. Two missions, taking readings as they passed over the planet, have revealed that Mercury is.",
-    "excerpt": "Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus magmas se comportam de maneira diferente dos da Terra, permanecendo derretidos em temperaturas mais baixas.",
-    "excerpt_pt": "Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus magmas se comportam de maneira diferente dos da Terra, permanecendo derretidos em temperaturas mais baixas.",
-    "excerpt_en": "Mercury is a small, rocky planet about which researchers know relatively little. Two missions, taking readings as they passed over the planet, have revealed that Mercury is covered by an iron-poor and sulfur-rich crust.",
-    "body": "<p>Mercúrio é um planeta rochoso de pequenas dimensões sobre o qual os pesquisadores ainda possuem conhecimento relativamente limitado. Duas missões espaciais, que realizaram medições detalhadas durante seus sobrevoos pelo planeta, revelaram que Mercúrio é coberto por uma crosta peculiar, caracterizada por ser pobre em ferro e rica em enxofre. Essa composição singular distingue-o drasticamente da Terra. Rajdeep Dasgupta, professor Maurice Ewing em Ciência de Sistemas Terrestres e diretor do Centro de Origens Planetárias à Habitabilidade do Instituto Espacial Rice, enfatizou a diferença: &quot;A superfície de Mercúrio parece completamente diferente da da Terra&quot;. Ele também destacou a dificuldade em estudar sua evolução magmática com base em suposições terrestres, dada a complexidade na interpretação dos dados das missões.</p><p>Diante desses desafios, a equipe de pesquisa buscou uma abordagem inovadora para simular as condições mercurianas em laboratório. A solução foi encontrada no meteorito Indarch, um corpo celeste que caiu no Azerbaião em 1891 e que apresenta uma notável semelhança com a composição química de Mercúrio. Os cientistas perceberam que o Indarch poderia servir como um análogo crucial para investigar como a química única de Mercúrio moldou o planeta ao longo do tempo. Essa estratégia permitiu contornar a ausência de amostras diretas do planeta, um obstáculo significativo para a compreensão de sua geologia interna.</p><p>Yishen Zhang, pesquisador de pós-doutorado no laboratório de Dasgupta e primeiro autor do artigo, explicou a relevância do meteorito: &quot;O Indarch é quimicamente tão reduzido quanto as rochas de Mercúrio&quot;. Utilizando parâmetros de temperatura, pressão e restrições químicas derivados de observações de naves espaciais e modelos planetários, a equipe conseguiu recriar em laboratório um ambiente que mimetiza as condições internas de Mercúrio. Esse meticuloso trabalho experimental foi fundamental para desvendar os processos de formação e evolução dos magmas mercurianos, oferecendo insights valiosos sobre a dinâmica geológica de um planeta tão enigmático.</p><p>Os resultados dessa pesquisa revelaram uma diferença fundamental no comportamento dos magmas de Mercúrio em comparação com os da Terra. Especificamente, os magmas ricos em enxofre presentes em Mercúrio demonstram a capacidade de permanecer em estado líquido a temperaturas consideravelmente mais baixas do que magmas de composição similar encontrados em nosso planeta. Essa característica tem implicações profundas para a compreensão da atividade vulcânica e da formação da crosta mercuriana, sugerindo uma história geológica moldada por processos magmáticos distintos.</p><p>A explicação para essa diferença reside na química dos elementos. Em planetas ricos em ferro, como Marte e a Terra, a maior parte do enxofre tende a se ligar ao ferro. Na Terra, os elementos formadores de rocha tipicamente se associam ao oxigênio, resultando na formação de uma estrutura estável conhecida como rede de silicato, composta por silício, oxigênio e outros elementos. A ausência de ferro abundante e a alta concentração de enxofre em Mercúrio alteram fundamentalmente essas interações químicas, permitindo que o enxofre atue de forma diferente na fusão e solidificação dos magmas.</p><p>Essa descoberta é crucial para aprimorar os modelos de evolução planetária e para interpretar os dados coletados pelas missões espaciais a Mercúrio. Ao compreender as particularidades dos magmas mercurianos, os cientistas podem inferir com maior precisão a história térmica e tectônica do planeta, bem como a formação de suas feições superficiais únicas. O estudo demonstra a importância de considerar as composições químicas específicas de cada corpo celeste para desvendar seus segredos geológicos, em vez de aplicar indiscriminadamente modelos baseados na Terra.</p>",
-    "body_pt": "<p>Mercúrio é um planeta rochoso de pequenas dimensões sobre o qual os pesquisadores ainda possuem conhecimento relativamente limitado. Duas missões espaciais, que realizaram medições detalhadas durante seus sobrevoos pelo planeta, revelaram que Mercúrio é coberto por uma crosta peculiar, caracterizada por ser pobre em ferro e rica em enxofre. Essa composição singular distingue-o drasticamente da Terra. Rajdeep Dasgupta, professor Maurice Ewing em Ciência de Sistemas Terrestres e diretor do Centro de Origens Planetárias à Habitabilidade do Instituto Espacial Rice, enfatizou a diferença: &quot;A superfície de Mercúrio parece completamente diferente da da Terra&quot;. Ele também destacou a dificuldade em estudar sua evolução magmática com base em suposições terrestres, dada a complexidade na interpretação dos dados das missões.</p><p>Diante desses desafios, a equipe de pesquisa buscou uma abordagem inovadora para simular as condições mercurianas em laboratório. A solução foi encontrada no meteorito Indarch, um corpo celeste que caiu no Azerbaião em 1891 e que apresenta uma notável semelhança com a composição química de Mercúrio. Os cientistas perceberam que o Indarch poderia servir como um análogo crucial para investigar como a química única de Mercúrio moldou o planeta ao longo do tempo. Essa estratégia permitiu contornar a ausência de amostras diretas do planeta, um obstáculo significativo para a compreensão de sua geologia interna.</p><p>Yishen Zhang, pesquisador de pós-doutorado no laboratório de Dasgupta e primeiro autor do artigo, explicou a relevância do meteorito: &quot;O Indarch é quimicamente tão reduzido quanto as rochas de Mercúrio&quot;. Utilizando parâmetros de temperatura, pressão e restrições químicas derivados de observações de naves espaciais e modelos planetários, a equipe conseguiu recriar em laboratório um ambiente que mimetiza as condições internas de Mercúrio. Esse meticuloso trabalho experimental foi fundamental para desvendar os processos de formação e evolução dos magmas mercurianos, oferecendo insights valiosos sobre a dinâmica geológica de um planeta tão enigmático.</p><p>Os resultados dessa pesquisa revelaram uma diferença fundamental no comportamento dos magmas de Mercúrio em comparação com os da Terra. Especificamente, os magmas ricos em enxofre presentes em Mercúrio demonstram a capacidade de permanecer em estado líquido a temperaturas consideravelmente mais baixas do que magmas de composição similar encontrados em nosso planeta. Essa característica tem implicações profundas para a compreensão da atividade vulcânica e da formação da crosta mercuriana, sugerindo uma história geológica moldada por processos magmáticos distintos.</p><p>A explicação para essa diferença reside na química dos elementos. Em planetas ricos em ferro, como Marte e a Terra, a maior parte do enxofre tende a se ligar ao ferro. Na Terra, os elementos formadores de rocha tipicamente se associam ao oxigênio, resultando na formação de uma estrutura estável conhecida como rede de silicato, composta por silício, oxigênio e outros elementos. A ausência de ferro abundante e a alta concentração de enxofre em Mercúrio alteram fundamentalmente essas interações químicas, permitindo que o enxofre atue de forma diferente na fusão e solidificação dos magmas.</p><p>Essa descoberta é crucial para aprimorar os modelos de evolução planetária e para interpretar os dados coletados pelas missões espaciais a Mercúrio. Ao compreender as particularidades dos magmas mercurianos, os cientistas podem inferir com maior precisão a história térmica e tectônica do planeta, bem como a formação de suas feições superficiais únicas. O estudo demonstra a importância de considerar as composições químicas específicas de cada corpo celeste para desvendar seus segredos geológicos, em vez de aplicar indiscriminadamente modelos baseados na Terra.</p>",
-    "body_en": "<p>Mercury is a small, rocky planet about which researchers know relatively little. Two missions, taking readings as they passed over the planet, have revealed that Mercury is covered by an iron-poor and sulfur-rich crust. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. This article has been reviewed according to Science X&#x27;s editorial process and policies. Mercury&#x27;s surface looks completely different than Earth&#x27;s,&quot; said Rajdeep Dasgupta, the Maurice Ewing Professor in Earth Systems Science and director of the Rice Space Institute.</p><p>We couldn&#x27;t study its magmatic evolution using assumptions built off our understanding of Earth, and missions data are difficult to interpret. We had to find ways to bring the planet closer to our lab, specifically, through the meteorite Indarch.</p><p>The researchers realized they could use Indarch to study how Mercury&#x27;s unique chemical makeup had shaped the planet, sharing their results in a recent publication. Indarch chemically is as reduced as rocks on Mercury,&quot; said Yishen Zhang, a postdoctoral researcher in Dasgupta&#x27;s lab and first author on the paper.</p><p>By using the temperature, pressure and chemical constraints derived from spacecraft observations and models, we recreate Mercurylike conditions to understand how magmas form and. That means sulfur-rich magmas on Mercury may stay molten at lower temperatures than similar magmas on Earth.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Iron-rich planets like Mars and Earth have most of their sulfur bound to iron. On Earth, these rock-forming elements would typically bind to oxygen, resulting in a stable structure called a silicate network made up of silicon, oxygen and rock-forming.</p><p>Because the account originates with Phys. org Space, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-sulfur-rich-mercury-magmas-differently.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
-      "Dado-chave: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_pt": [
-      "Ponto central: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
-      "Dado-chave: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_en": [
-      "Core point: Mercury is a small, rocky planet about which researchers know relatively little.",
-      "Key detail: Mercury is a small, rocky planet about which researchers know relatively little.",
-      "Science reporting: verify primary technical documentation."
-    ],
-    "date": "19 abr 2026",
-    "date_pt": "19 abr 2026",
-    "date_en": "19 Apr 2026",
-    "time": "19h00",
-    "time_pt": "19h00",
-    "time_en": "19: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-04-19T19:00:01+00:00",
-    "lastModifiedIso": "2026-04-23T23:29:07+00:00",
-    "source": "Phys. org Space",
-    "sourceDomain": "phys. org",
-    "sourceType": "news",
-    "sourceTypeLabel": "Jornalismo científico",
-    "sourceTypeLabel_pt": "Jornalismo científico",
-    "sourceTypeLabel_en": "Science journalism",
-    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
-    "evidenceKey": "journalistic",
-    "evidenceLabel": "Cobertura jornalística",
-    "evidenceLabel_pt": "Cobertura jornalística",
-    "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "Phys. org Space",
-      "Cosmos Week",
-      "Magmas de Mercúrio ricos em enxofre comportam",
-      "se de maneira diferente dos da Terra"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "Phys. org Space",
-      "Cosmos Week",
-      "Magmas de Mercúrio ricos em enxofre comportam",
-      "se de maneira diferente dos da Terra"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "Phys. org Space",
-      "Cosmos Week",
-      "Sulfur-rich Mercury magmas contain",
-      "if different from those on Earth"
-    ],
-    "srcUrl": "https://phys.org/news/2026-04-sulfur-rich-mercury-magmas-differently.html",
-    "realUrl": "https://www.cosmosweek.com/?article=sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do",
-    "realUrl_en": "https://www.cosmosweek.com/?article=sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/sulfur-rich-mercury-magmas-behave-differently-than-earth-s-do/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 76,
-      "evidence": 42,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres",
-    "imageAlt_pt": "Magmas de Mercúrio Ricos em Enxofre Apresentam Comportamento Distinto em Comparação com os Terrestres",
-    "imageAlt_en": "Sulfur-rich Mercury magmas behave differently than Earth's do",
-    "coverageKind": "news",
-    "coverageKindLabel": "Jornalismo científico",
-    "coverageKindLabel_pt": "Jornalismo científico",
-    "coverageKindLabel_en": "Science journalism",
     "storyKind": "science"
   },
   {
