@@ -1,6 +1,247 @@
 [
   {
     "id": 1,
+    "slug": "nsf-leadership-in-a-new-golden-age-of-science",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Comet_67P_on_19_September_2014_NavCam_mosaic.jpg/1280px-Comet_67P_on_19_September_2014_NavCam_mosaic.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Liderança da NSF em uma nova era de ouro da ciência",
+    "title_pt": "Liderança da NSF em uma nova era de ouro da ciência",
+    "title_en": "NSF leadership in a new golden age of science",
+    "sub": "A Fundação Nacional de Ciência dos EUA foi criada em 1950 para manter a descoberta americana na fronteira.",
+    "sub_pt": "A Fundação Nacional de Ciência dos EUA foi criada em 1950 para manter a descoberta americana na fronteira.",
+    "sub_en": "The U. S. National Science Foundation was established in 1950 to keep American discovery at the frontier.",
+    "excerpt": "A Fundação Nacional de Ciência dos EUA foi criada em 1950 para manter a descoberta americana na fronteira. Essa missão não mudou. O ecossistema de ciência e tecnologia ao seu redor sim.",
+    "excerpt_pt": "A Fundação Nacional de Ciência dos EUA foi criada em 1950 para manter a descoberta americana na fronteira. Essa missão não mudou. O ecossistema de ciência e tecnologia ao seu redor sim.",
+    "excerpt_en": "This matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals.",
+    "body": "<p>A Fundação Nacional de Ciência dos EUA foi criada em 1950 para manter a descoberta americana na fronteira. O ecossistema de ciência e tecnologia ao seu redor sim.</p><p>A National Science Foundation foi criada em 1950 para manter a descoberta americana na fronteira. O ecossistema de ciência e tecnologia ao seu redor tem.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-leadership-new-golden-age-science\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>A Fundação Nacional de Ciência dos EUA foi criada em 1950 para manter a descoberta americana na fronteira. O ecossistema de ciência e tecnologia ao seu redor sim.</p><p>A National Science Foundation foi criada em 1950 para manter a descoberta americana na fronteira. O ecossistema de ciência e tecnologia ao seu redor tem.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-leadership-new-golden-age-science\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>The U. S. National Science Foundation was established in 1950 to keep American discovery at the frontier. That mission has not changed. The science and technology ecosystem around it has. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. National Science Foundation was established in 1950 to keep American discovery at the frontier. That mission has not changed.</p><p>The science and technology ecosystem around it has.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Because the account originates with NSF News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-leadership-new-golden-age-science\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: A Fundação Nacional de Ciência dos EUA foi criada em 1950 para manter a descoberta americana na fronteira",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A Fundação Nacional de Ciência dos EUA foi criada em 1950 para manter a descoberta americana na fronteira",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: The U. S. National Science Foundation was established in 1950 to keep American discovery at the frontier",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "10 set 2026",
+    "date_pt": "10 set 2026",
+    "date_en": "10 Sep 2026",
+    "time": "18h59",
+    "time_pt": "18h59",
+    "time_en": "18: 59 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-09-10T18:59:14+00:00",
+    "lastModifiedIso": "2026-09-11T18:47:10+00:00",
+    "source": "NSF News",
+    "sourceDomain": "www. nsf. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NSF News",
+      "Cosmos Week",
+      "Liderança da NSF em uma nova era de ouro da ciência"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NSF News",
+      "Cosmos Week",
+      "Liderança da NSF em uma nova era de ouro da ciência"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NSF News",
+      "Cosmos Week",
+      "NSF Leadership in a New Golden Age of Science"
+    ],
+    "srcUrl": "https://www.nsf.gov/news/nsf-leadership-new-golden-age-science",
+    "realUrl": "https://www.cosmosweek.com/?article=nsf-leadership-in-a-new-golden-age-of-science",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nsf-leadership-in-a-new-golden-age-of-science",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nsf-leadership-in-a-new-golden-age-of-science&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nsf-leadership-in-a-new-golden-age-of-science/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nsf-leadership-in-a-new-golden-age-of-science/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nsf-leadership-in-a-new-golden-age-of-science/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nsf-leadership-in-a-new-golden-age-of-science/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nsf-leadership-in-a-new-golden-age-of-science/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nsf-leadership-in-a-new-golden-age-of-science/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 96,
+    "scoreBreakdown": {
+      "source": 91,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 52,
+      "novelty": 52
+    },
+    "imageAlt": "Liderança da NSF em uma nova era de ouro da ciência",
+    "imageAlt_pt": "Liderança da NSF em uma nova era de ouro da ciência",
+    "imageAlt_en": "NSF leadership in a new golden age of science",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "probing-the-details-of-relativistic-electrons-with-multifrequency-observations-of-m87-black-hole",
+    "cat": "Astrofísica",
+    "catCls": "astrofisica",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Milky_Way%2C_above_Mauna_Kea_-_by_Luc_Viatour.jpg/1280px-Milky_Way%2C_above_Mauna_Kea_-_by_Luc_Viatour.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Sondando os detalhes dos elétrons relativísticos com observações multifrequenciais do buraco negro M87",
+    "title_pt": "Sondando os detalhes dos elétrons relativísticos com observações multifrequenciais do buraco negro M87",
+    "title_en": "Probing the details of relativistic electrons with multifrequency observations of M87 black hole",
+    "sub": "Com início em março de 2026, o Event Horizon Telescope conduziu uma campanha de observação de dois meses com o objetivo de obter a primeira sequência de imagens resolvidas no.",
+    "sub_pt": "Com início em março de 2026, o Event Horizon Telescope conduziu uma campanha de observação de dois meses com o objetivo de obter a primeira sequência de imagens resolvidas no.",
+    "sub_en": "Beginning in March 2026, the Event Horizon Telescope conducted a two-month observing campaign aimed at obtaining the first time-resolved sequence of images of the black hole M87*.",
+    "excerpt": "Com início em março de 2026, o Event Horizon Telescope conduziu uma campanha de observação de dois meses com o objetivo de obter a primeira sequência de imagens resolvidas no tempo do buraco negro M87* no centro da galáxia Virgo A.",
+    "excerpt_pt": "Com início em março de 2026, o Event Horizon Telescope conduziu uma campanha de observação de dois meses com o objetivo de obter a primeira sequência de imagens resolvidas no tempo do buraco negro M87* no centro da galáxia Virgo A.",
+    "excerpt_en": "Beginning in March 2026, the Event Horizon Telescope conducted a two-month observing campaign aimed at obtaining the first time-resolved sequence of images of the black hole M87* at the center of the Virgo A galaxy.",
+    "body": "<p>Os principais objetivos científicos desta campanha são restringir a rotação do buraco negro e investigar a variabilidade temporal do campo magnético e das propriedades do plasma na região de lançamento do jato na escala do horizonte. Neste trabalho, apresentamos previsões teóricas para os mapas de índices espectrais esperados a partir dessas observações.</p><p>Nossas previsões são baseadas em simulações de disco preso magneticamente realizadas com o código EBHLIGHT e pós-processadas usando o código relativístico geral de rastreamento de raios IPOLE. Investigamos a evolução temporal do índice espectral para uma série de modelos de distribuição de elétrons e cinco valores diferentes de spin do buraco negro.</p><p>A análise inclui tanto as bandas de frequência atualmente presentes no EHT quanto as frequências vizinhas propostas para futuras extensões da matriz EHT. Além de estender estudos anteriores a uma gama mais ampla de frequências de observação, nosso trabalho investiga sistematicamente a variabilidade temporal dos mapas de índice espectral previstos.</p><p>Em modelos de elétrons puramente térmicos, a variabilidade temporal dos mapas de índice espectral rastreia de perto as variações na intensidade do campo magnético e na temperatura dos elétrons nas imediações do horizonte de eventos. Por outro lado, os modelos que incorporam uma população de elétrons não térmicos exibem uma variabilidade do índice espectral substancialmente mais fraca, devido à contribuição de um componente de lei de potência com uma inclinação espectral fixa.</p><p>Nossos resultados numéricos são consistentes com as expectativas teóricas. Finalmente, uma comparação com o índice espectral integrado recentemente medido do M87* permite-nos colocar restrições preliminares nos parâmetros do modelo.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.11609v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Os principais objetivos científicos desta campanha são restringir a rotação do buraco negro e investigar a variabilidade temporal do campo magnético e das propriedades do plasma na região de lançamento do jato na escala do horizonte. Neste trabalho, apresentamos previsões teóricas para os mapas de índices espectrais esperados a partir dessas observações.</p><p>Nossas previsões são baseadas em simulações de disco preso magneticamente realizadas com o código EBHLIGHT e pós-processadas usando o código relativístico geral de rastreamento de raios IPOLE. Investigamos a evolução temporal do índice espectral para uma série de modelos de distribuição de elétrons e cinco valores diferentes de spin do buraco negro.</p><p>A análise inclui tanto as bandas de frequência atualmente presentes no EHT quanto as frequências vizinhas propostas para futuras extensões da matriz EHT. Além de estender estudos anteriores a uma gama mais ampla de frequências de observação, nosso trabalho investiga sistematicamente a variabilidade temporal dos mapas de índice espectral previstos.</p><p>Em modelos de elétrons puramente térmicos, a variabilidade temporal dos mapas de índice espectral rastreia de perto as variações na intensidade do campo magnético e na temperatura dos elétrons nas imediações do horizonte de eventos. Por outro lado, os modelos que incorporam uma população de elétrons não térmicos exibem uma variabilidade do índice espectral substancialmente mais fraca, devido à contribuição de um componente de lei de potência com uma inclinação espectral fixa.</p><p>Nossos resultados numéricos são consistentes com as expectativas teóricas. Finalmente, uma comparação com o índice espectral integrado recentemente medido do M87* permite-nos colocar restrições preliminares nos parâmetros do modelo.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.11609v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Beginning in March 2026, the Event Horizon Telescope conducted a two-month observing campaign aimed at obtaining the first time-resolved sequence of images of the black hole M87* at the center of the Virgo A galaxy. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It is relevant because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Beginning in March 2026, the Event Horizon Telescope (EHT) conducted a two-month observing campaign aimed at obtaining the first time-resolved sequence of images of the black hole. The primary scientific objectives of this campaign are to constrain the black hole spin and to investigate the temporal variability of the magnetic field and plasma properties.</p><p>In this work, we present theoretical predictions for the spectral index maps expected from these observations. Our predictions are based on Magnetically Arrested Disk simulations performed with the EBHLIGHT code and post-processed using the IPOLE general relativistic ray-tracing code.</p><p>We investigate the temporal evolution of the spectral index for a range of electron distribution models and five different black hole spin values. The analysis includes both frequency bands currently present within the EHT and neighboring frequencies proposed for future extensions of the EHT array.</p><p>In addition to extending previous studies to a broader range of observing frequencies, our work systematically investigates the time variability of the predicted spectral index. In purely thermal electron models, the temporal variability of the spectral index maps closely traces variations in the magnetic field strength and electron temperature in the.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>By contrast, models incorporating a non-thermal electron population exhibit substantially weaker spectral index variability, owing to the contribution of a power-law component. Our numerical results are consistent with theoretical expectations.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.11609v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Com início em março de 2026, o Event Horizon Telescope conduziu uma campanha de observação de dois meses com o objetivo de obter a primeira sequência",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: Com início em março de 2026, o Event Horizon Telescope conduziu uma campanha de observação de dois meses com o objetivo de obter a primeira sequência",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: Beginning in March 2026, the Event Horizon Telescope conducted a two-month observing campaign aimed at obtaining the first time-resolved sequence of",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "10 set 2026",
+    "date_pt": "10 set 2026",
+    "date_en": "10 Sep 2026",
+    "time": "14h28",
+    "time_pt": "14h28",
+    "time_en": "14: 28 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-09-10T14:28:36+00:00",
+    "lastModifiedIso": "2026-09-11T18:47:10+00:00",
+    "source": "arXiv High Energy Astrophysics",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Astrofísica",
+      "arXiv High Energy Astrophysics",
+      "Cosmos Week",
+      "Sondando os detalhes dos elétrons relativísticos com observações multifrequenciais do buraco negro M87"
+    ],
+    "keywords_pt": [
+      "Astrofísica",
+      "arXiv High Energy Astrophysics",
+      "Cosmos Week",
+      "Sondando os detalhes dos elétrons relativísticos com observações multifrequenciais do buraco negro M87"
+    ],
+    "keywords_en": [
+      "Astrophysics",
+      "arXiv High Energy Astrophysics",
+      "Cosmos Week",
+      "Probing the Details of Relativistic Electrons with Multifrequency Observations of the M87 Black Hole"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2609.11609v1",
+    "realUrl": "https://www.cosmosweek.com/?article=probing-the-details-of-relativistic-electrons-with-multifrequency-observations-of-m87-black-hole",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=probing-the-details-of-relativistic-electrons-with-multifrequency-observations-of-m87-black-hole",
+    "realUrl_en": "https://www.cosmosweek.com/?article=probing-the-details-of-relativistic-electrons-with-multifrequency-observations-of-m87-black-hole&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/probing-the-details-of-relativistic-electrons-with-multifrequency-observations-of-m87-black-hole/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/probing-the-details-of-relativistic-electrons-with-multifrequency-observations-of-m87-black-hole/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/probing-the-details-of-relativistic-electrons-with-multifrequency-observations-of-m87-black-hole/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/probing-the-details-of-relativistic-electrons-with-multifrequency-observations-of-m87-black-hole/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/probing-the-details-of-relativistic-electrons-with-multifrequency-observations-of-m87-black-hole/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/probing-the-details-of-relativistic-electrons-with-multifrequency-observations-of-m87-black-hole/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 80,
+    "scoreBreakdown": {
+      "source": 63,
+      "evidence": 39,
+      "relevance": 94,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Sondando os detalhes dos elétrons relativísticos com observações multifrequenciais do buraco negro M87",
+    "imageAlt_pt": "Sondando os detalhes dos elétrons relativísticos com observações multifrequenciais do buraco negro M87",
+    "imageAlt_en": "Probing the details of relativistic electrons with multifrequency observations of M87 black hole",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
     "slug": "name-our-dino-esa-s-hera-asteroid-mission-mascot",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -167,7 +408,130 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 4,
+    "slug": "initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss",
+    "cat": "Cosmologia",
+    "catCls": "cosmologia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hubble_ultra_deep_field.jpg/1280px-Hubble_ultra_deep_field.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Agrupamento inicial de buracos negros primordiais: uma formulação geral para não gaussianidade local arbitrária",
+    "title_pt": "Agrupamento inicial de buracos negros primordiais: uma formulação geral para não gaussianidade local arbitrária",
+    "title_en": "Initial clustering of primordial black holes: A general formulation for arbitrary local non-Gaussianity",
+    "sub": "O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as restrições cosmológicas na abundância.",
+    "sub_pt": "O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as restrições cosmológicas na abundância.",
+    "sub_en": "Initial spatial clustering of primordial black holes induced by local-type non-Gaussianity can substantially modify cosmological constraints on PBH abundance.",
+    "excerpt": "O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as restrições cosmológicas na abundância de PBH.",
+    "excerpt_pt": "O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as restrições cosmológicas na abundância de PBH.",
+    "excerpt_en": "Initial spatial clustering of primordial black holes induced by local-type non-Gaussianity can substantially modify cosmological constraints on PBH abundance.",
+    "body": "<p>O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as restrições cosmológicas na abundância de PBH. O agrupamento espacial inicial de buracos negros primordiais (PBHs) induzido pela não-gaussianidade de tipo local (LNG) pode modificar substancialmente as restrições cosmológicas na abundância de PBH.</p><p>Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário. ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem.</p><p>Tem uma ideia de um projeto que agregue valor à comunidade arXiv? . Saiba mais sobre o arXivLabs.</p><p>Resumo: O agrupamento espacial inicial de buracos negros primordiais (PBHs) induzido pela não-gaussianidade de tipo local (LNG) pode modificar substancialmente as restrições cosmológicas na abundância de PBH. As formulações existentes de agrupamento inicial de PBH são restritas principalmente a pequenos regimes não-gaussianos ou a regimes específicos, e falta uma estrutura teórica unificada.</p><p>Aqui, apresentamos uma formulação analítica geral para a função de correlação de dois pontos do PBH aplicável a GNL arbitrários. Demonstramos a versatilidade de nossa fórmula calculando os parâmetros de polarização nos cenários de inflação ultralenta, curvaton e reaquecimento modulado.</p><p>Também generalizamos formalmente a estrutura para espectros de potência amplos para levar em conta correlações entre diferentes escalas de massa de PBH.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.11306v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as restrições cosmológicas na abundância de PBH. O agrupamento espacial inicial de buracos negros primordiais (PBHs) induzido pela não-gaussianidade de tipo local (LNG) pode modificar substancialmente as restrições cosmológicas na abundância de PBH.</p><p>Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário. ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem.</p><p>Tem uma ideia de um projeto que agregue valor à comunidade arXiv? . Saiba mais sobre o arXivLabs.</p><p>Resumo: O agrupamento espacial inicial de buracos negros primordiais (PBHs) induzido pela não-gaussianidade de tipo local (LNG) pode modificar substancialmente as restrições cosmológicas na abundância de PBH. As formulações existentes de agrupamento inicial de PBH são restritas principalmente a pequenos regimes não-gaussianos ou a regimes específicos, e falta uma estrutura teórica unificada.</p><p>Aqui, apresentamos uma formulação analítica geral para a função de correlação de dois pontos do PBH aplicável a GNL arbitrários. Demonstramos a versatilidade de nossa fórmula calculando os parâmetros de polarização nos cenários de inflação ultralenta, curvaton e reaquecimento modulado.</p><p>Também generalizamos formalmente a estrutura para espectros de potência amplos para levar em conta correlações entre diferentes escalas de massa de PBH.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.11306v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Initial spatial clustering of primordial black holes induced by local-type non-Gaussianity can substantially modify cosmological constraints on PBH abundance. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Initial spatial clustering of primordial black holes (PBHs) induced by local-type non-Gaussianity (LNG) can substantially modify cosmological constraints on PBH abundance. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>Existing formulations of initial PBH clustering are primarily restricted to either small non-Gaussianity or specific regimes, and a unified theoretical framework has been lacking. Here, we present a general analytical formulation for the PBH two-point correlation function applicable to arbitrary LNGs.</p><p>Under the assumptions that PBHs form only at the large peaks of perturbations, and that long-wavelength modes weakly modulate the local variance of short-wavelength (PBH-scale). We demonstrate the versatility of our formula by computing the bias parameters in the ultra-slow-roll inflation, curvaton, and modulated reheating scenarios.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>We also formally generalize the framework to broad power spectra to account for correlations across different PBH mass scales. Because our formulation does not rely on weak or perturbative non-Gaussianity assumptions, our result provides a universal theoretical basis for evaluating initial clustering.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.11306v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: Initial spatial clustering of primordial black holes induced by local-type non-Gaussianity can substantially modify cosmological constraints on PBH",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "10 set 2026",
+    "date_pt": "10 set 2026",
+    "date_en": "10 Sep 2026",
+    "time": "09h34",
+    "time_pt": "09h34",
+    "time_en": "09: 34 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-09-10T09:34:40+00:00",
+    "lastModifiedIso": "2026-09-11T18:47:10+00:00",
+    "source": "arXiv Cosmology",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Cosmologia",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "Agrupamento inicial de buracos negros primordiais",
+      "uma formulação geral para não gaussianidade local arbitrária"
+    ],
+    "keywords_pt": [
+      "Cosmologia",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "Agrupamento inicial de buracos negros primordiais",
+      "uma formulação geral para não gaussianidade local arbitrária"
+    ],
+    "keywords_en": [
+      "Cosmology",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "Initial cluster of primordial black holes",
+      "a general formulation for arbitrary local non-Gaussianity"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2609.11306v1",
+    "realUrl": "https://www.cosmosweek.com/?article=initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss",
+    "realUrl_en": "https://www.cosmosweek.com/?article=initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 80,
+    "scoreBreakdown": {
+      "source": 64,
+      "evidence": 39,
+      "relevance": 94,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Agrupamento inicial de buracos negros primordiais: uma formulação geral para não gaussianidade local arbitrária",
+    "imageAlt_pt": "Agrupamento inicial de buracos negros primordiais: uma formulação geral para não gaussianidade local arbitrária",
+    "imageAlt_en": "Initial clustering of primordial black holes: A general formulation for arbitrary local non-Gaussianity",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 5,
     "slug": "nasa-s-chandra-unveils-mysterious-x-ray-objects",
     "cat": "Física",
     "catCls": "fisica",
@@ -188,19 +552,19 @@
     "body_pt": "<p>Usando o Observatório de Raios-X Chandra da NASA, os cientistas descobriram uma nova classe de objetos que se comportam de forma diferente de qualquer outra que tenham visto antes. É claro que o próximo passo foi tentar descobrir o que são essas coisas. ” M101 com círculos ilustrados representando sete dos objetos recém-descobertos.</p><p>Wolk Os pesquisadores encontraram um total de 84 dessas “fontes de raios X hipersoft”, assim chamadas porque emitem raios X de baixa energia, nas seis galáxias diferentes que pesquisaram, usando dados abertamente disponíveis ao público no arquivo do Chandra. Foi assim que descobrimos o que parece ser uma nova classe de objetos cósmicos com qualidades notáveis. ” O Marshall Space Flight Center da NASA em Huntsville, Alabama, gerencia o programa Chandra.</p><p>O Centro de Raios-X Chandra do Observatório Astrofísico Smithsonian controla as operações científicas de Cambridge, Massachusetts, e as operações de voo de Burlington, Massachusetts. Leia mais do Observatório de raios X Chandra da NASA Para saber mais sobre a missão Chandra da NASA, visite: https: //www. nasa. gov/chandra Descrição visual Esta versão apresenta uma imagem composta de uma galáxia espiral, M101.</p><p>Wolk Usando o Observatório de Raios-X Chandra da NASA, os cientistas descobriram uma nova classe de objetos que se comportam de forma diferente de qualquer outra que já tenham visto antes. Esta descoberta é apresentada em um artigo publicado quarta-feira na Nature Astronomy.</p><p>É claro que o próximo passo foi tentar descobrir o que são essas coisas. ” Os investigadores encontraram um total de 84 destas “fontes de raios X hipersoft”, assim chamadas porque emitem raios X de baixa energia, nas seis galáxias diferentes que pesquisaram, utilizando dados. Duas das galáxias são espirais, M31 (a galáxia de Andrômeda) e M101 (a galáxia Catavento), enquanto as outras quatro são elípticas.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/chandra/nasas-chandra-unveils-mysterious-x-ray-objects/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Using NASA’s Chandra X-ray Observatory, scientists have discovered a new class of objects behaving unlike any they have seen before. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because physics only takes a result seriously when the measurement chain remains robust under scrutiny. Experimental particle physics and precision metrology both operate in regimes where the signal sits far below the background noise, and where systematic uncertainties can mimic new physics if not controlled rigorously. The history of the field contains numerous anomalies that generated theoretical excitement before better data showed them to be artifacts, and it also contains genuine discoveries that were initially dismissed as noise. The difference is almost always resolved by independent replication with different instruments and different systematics. Of course, the next step was to try to figure out what these things are. ” M101 with illustrated circles calling out seven of the newly-discovered objects. Wolk The researchers found a total of 84 of these “hypersoft X-ray sources”, so named because they give such low-energy X-rays, in the six different galaxies they searched, using.</p><p>That’s how we found what appears to be a new class of cosmic objects with remarkable qualities. The Smithsonian Astrophysical Observatory’s Chandra X-ray Center controls science operations from Cambridge, Massachusetts, and flight operations from Burlington, Massachusetts.</p><p>Read more from NASA’s Chandra X-ray Observatory To learn more about NASA’s Chandra mission, visit: https: //www. nasa. Wolk Using NASA’s Chandra X-ray Observatory, scientists have discovered a new class of objects behaving unlike any they have seen before.</p><p>This discovery is featured in a paper published Wednesday in Nature Astronomy. Of course, the next step was to try to figure out what these things are. ” The researchers found a total of 84 of these “hypersoft X-ray sources”, so named because they give such.</p><p>The broader interest lies as much in the method as in the headline number, because a durable measurement procedure can travel farther than a single result. When experimental physicists develop a technique that achieves new sensitivity or controls a previously uncharacterized systematic, that methodological contribution persists even if the specific measurement is later revised. This is one reason why precision physics experiments often generate long-term value that is not immediately visible in the original publication.</p><p>Two of the galaxies are spirals, M31 (the Andromeda galaxy) and M101 (the Pinwheel galaxy), while the other four are ellipticals. The Smithsonian Astrophysical Observatory&#x27;s Chandra X-ray Center controls science operations from Cambridge, Massachusetts, and flight operations from Burlington, Massachusetts.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is more measurement, tighter systematic control and scrutiny from groups whose experimental setups are genuinely independent. In experimental particle physics and precision metrology, the threshold for a discovery claim is a five-sigma excess surviving multiple analyses; an intriguing signal at lower significance is a reason to run more experiments, not a reason to revise the textbooks. Next-generation experiments currently under construction or commissioning will revisit several of the open questions that give the current result its context.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/chandra/nasas-chandra-unveils-mysterious-x-ray-objects/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Usando o Observatório de Raios-X Chandra da NASA, os cientistas descobriram uma nova classe de objetos que se comportam de forma diferente de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Usando o Observatório de Raios-X Chandra da NASA, os cientistas descobriram uma nova classe de objetos que se comportam de forma diferente de.",
+      "Dado-chave: Usando o Observatório de Raios-X Chandra da NASA, os cientistas descobriram uma nova classe de objetos que se comportam de forma diferente de",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Usando o Observatório de Raios-X Chandra da NASA, os cientistas descobriram uma nova classe de objetos que se comportam de forma diferente de",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Usando o Observatório de Raios-X Chandra da NASA, os cientistas descobriram uma nova classe de objetos que se comportam de forma diferente de.",
+      "Dado-chave: Usando o Observatório de Raios-X Chandra da NASA, os cientistas descobriram uma nova classe de objetos que se comportam de forma diferente de",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Using NASA’s Chandra X-ray Observatory, scientists have discovered a new class of objects behaving unlike any they have seen before",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Using NASA’s Chandra X-ray Observatory, scientists have discovered a new class of objects behaving unlike any they have seen before.",
+      "Key detail: Using NASA’s Chandra X-ray Observatory, scientists have discovered a new class of objects behaving unlike any they have seen before",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "09 set 2026",
     "date_pt": "09 set 2026",
@@ -288,7 +652,7 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 6,
     "slug": "inelastic-dark-matter-and-high-energy-recoil-signatures-in-lz",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -309,18 +673,19 @@
     "body_pt": "<p>Estudamos a matéria escura inelástica que consiste em partículas de matéria escura de dois componentes $$ e serve como uma extensão mínima além dos modelos DM de um componente comumente usados. Estudamos a matéria escura inelástica (iDM) que consiste em partículas de matéria escura de dois componentes $(χ_1, χ_2)$ e serve como uma extensão mínima além dos modelos DM de um componente comumente usados.</p><p>Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário. ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem.</p><p>Tem uma ideia de um projeto que agregue valor à comunidade arXiv? . Saiba mais sobre o arXivLabs.</p><p>Resumo: Estudamos a matéria escura inelástica (iDM) que consiste em partículas de matéria escura de dois componentes $(\\chi_1, \\chi_2)$ e serve como uma extensão mínima além dos modelos DM de um componente comumente usados. Uma característica distintiva desse espalhamento iDM com os núcleos alvo é produzir sinais favoravelmente na região de alta energia de recuo nuclear (NR) em processos exotérmicos e endotérmicos.</p><p>Em particular, para o cenário exotérmico de matéria escura, o sinal não depende da cauda da distribuição de velocidade de Boltzmann. Como resultado, a seção transversal de espalhamento do núcleo DM necessária é significativamente reduzida, o que por sua vez ajuda a relaxar substancialmente as restrições rigorosas impostas pelas pesquisas de neutrinos do IceCube.</p><p>Usando o espalhamento inelástico do núcleo DM, explicamos naturalmente o excesso de evento recentemente relatado em alta energia de recuo com o experimento LUX-ZEPLIN (LZ).</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.10491v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>We study the inelastic dark matter that consists of two-component dark matter particles $$ and serves as a minimal extension beyond the commonly used one-component DM models. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>That matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. We study the inelastic dark matter (iDM) that consists of two-component dark matter particles $(χ_1, χ_2)$ and serves as a minimal extension beyond the commonly used one-component. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>We study the inelastic dark matter (iDM) that consists of two-component dark matter particles $(\\chi_1, \\chi_2)$ and serves as a minimal extension beyond the commonly used. A distinctive feature of such iDM scattering with the target nuclei is to favorably produce signals at high nuclear recoil (NR) energy region in both exothermic and endothermic.</p><p>In particular, for the exothermic dark matter scenario, the signal does not rely on the tail of the Boltzmann velocity distribution. As a result, the required DM-nucleus scattering cross section is significantly reduced, which in turn helps to substantially relax the stringent constraints imposed by IceCube.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>Using the inelastic DM-nucleus scattering, we naturally explain the newly reported event excess at high recoil energy with the LUX-ZEPLIN (LZ) experiment.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.10491v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Estudamos a matéria escura inelástica que consiste em partículas de matéria escura de dois componentes $$ e serve como uma extensão mínima além dos",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Estudamos a matéria escura inelástica que consiste em partículas de matéria escura de dois componentes $$ e serve como uma extensão mínima além dos.",
+      "Dado-chave: Estudamos a matéria escura inelástica que consiste em partículas de matéria escura de dois componentes $$ e serve como uma extensão mínima além.",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Estudamos a matéria escura inelástica que consiste em partículas de matéria escura de dois componentes $$ e serve como uma extensão mínima além dos",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Estudamos a matéria escura inelástica que consiste em partículas de matéria escura de dois componentes $$ e serve como uma extensão mínima além dos.",
+      "Dado-chave: Estudamos a matéria escura inelástica que consiste em partículas de matéria escura de dois componentes $$ e serve como uma extensão mínima além.",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: We study the inelastic dark matter that consists of two-component dark matter particles $$ and serves as a minimal extension beyond the commonly used",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: We study the inelastic dark matter that consists of two-component dark matter particles $$ and serves as a minimal extension beyond the commonly used.",
+      "Key detail: We study the inelastic dark matter that consists of two-component dark matter particles $$ and serves as a minimal extension beyond the commonly.",
+      "Result not yet peer reviewed."
     ],
     "date": "09 set 2026",
     "date_pt": "09 set 2026",
@@ -408,7 +773,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 7,
     "slug": "curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -452,19 +817,19 @@
     "body_pt": "<p>Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto de 2026 A extensão de sóis abrangida por esta postagem do blog é digna de nota de várias maneiras. Primeiro, o Curiosity tornou-se um alpinista de classe mundial (pelo menos para Marte) ao ultrapassar a marca de 1 quilômetro de elevação desde seu local de pouso no chão [. ].</p><p>Sols 4995-5001: 5.000 dias (marcianos) em Marte O rover Curiosity da NASA adquiriu esta imagem ao longo da ondulação de Chocolatal usando sua câmera de navegação direita em 20 de agosto de 2018. O dia 29 marcou 5.000 dias marcianos (ou sóis) desde que o Curiosity pousou em Marte (são mais de 5.137 dias terrestres, porque um dia em Marte dura 24, 6 horas).</p><p>Visite a página de instrumentos científicos O rover Curiosity da NASA na base do Monte Sharp NASA/JPL-Caltech/MSSS Detalhes de compartilhamento Última atualização em 09 de setembro. 28 de outubro de 2026, Sol 4998, ou dia marciano 4.998 da missão Mars Science Laboratory, às 13: 58: 36 UTC.</p><p>Primeiro, o Curiosity tornou-se um alpinista de classe mundial (pelo menos para Marte) ao ultrapassar a marca de 1 quilómetro de elevação desde o seu local de aterragem no fundo da cratera Gale. Este escritor fazia parte da equipe científica do Mars Exploration Rover e ficamos entusiasmados quando o Spirit Rover chegou ao topo de Husband Hill, na cratera Gusev, em agosto de 2005.</p><p>A viagem planejada para o meio da semana levou o rover direto para Chocolatal com uma de suas rodas e depois recuando um pouco, de modo que, no plano de final de semana, a ciência de contato pudesse ser planejada dentro da região escavada. Com 5.000 sóis de excelentes realizações científicas, a equipe de ciência e engenharia do Curiosity espera ansiosamente pelos próximos 5.000 sóis.</p><p>Sols 4988-4994: Mais novos truques para um artigo de cachorro velho 6 dias atrás, 3 minutos de leitura do Curiosity Blog.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/blog/curiosity-blog-sols-4995-5001-5000-martian-days-on-mars/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Aug. 28, 2026 The span of sols spanned by this blog post is noteworthy in several ways. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. First, Curiosity became a world-class (for Mars at least) mountaineer by passing the 1 kilometer mark of elevation from its landing site on the floor. 5, 000 (Martian) Days on Mars NASA’s Mars rover Curiosity acquired this image along Chocolatal ripple using its Right Navigation Camera on Aug.</p><p>29, marked 5, 000 Martian days (or sols) since Curiosity landed on Mars (that’s more than 5, 137 Earth days, because a day on Mars lasts 24.6 hours). Visit the Science Instruments page NASA’s Curiosity rover at the base of Mount Sharp NASA/JPL-Caltech/MSSS Share Details Last Updated Sep 09.</p><p>28, 2026, Sol 4998, or Martian day 4, 998 of the Mars Science Laboratory mission, at 13: 58: 36 UTC. First, Curiosity became a world-class (for Mars at least) mountaineer by passing the 1 kilometer mark of elevation from its landing site on the floor of Gale crater.</p><p>This writer was on the Mars Exploration Rover science team and we were excited when the Spirit rover got to the top of Husband Hill in Gusev crater in August 2005. 29, marked 5, 000 Martian days (or sols) since Curiosity landed on Mars (that&#x27;s more than 5, 137 Earth days, because a day on Mars lasts 24.6 hours).</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>The drive planned midweek took the rover right into Chocolatal with one of its wheels and then backing off a little, so in the end-of-week plan, contact science could be planned. With 5000 sols of outstanding scientific accomplishments, the Curiosity science and engineering team looks forward to the next 5000 sols.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/blog/curiosity-blog-sols-4995-5001-5000-martian-days-on-mars/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto.",
+      "Dado-chave: Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto.",
+      "Dado-chave: Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Aug",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Aug.",
+      "Key detail: Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Aug",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "09 set 2026",
     "date_pt": "09 set 2026",
@@ -561,7 +926,7 @@
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 8,
     "slug": "mtg-i2-reaches-its-final-orbit",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -710,7 +1075,7 @@
     "storyKind": "science"
   },
   {
-    "id": 6,
+    "id": 9,
     "slug": "from-the-corps-to-the-cosmos-featuring-jaden-caradine",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -732,17 +1097,17 @@
     "body_en": "<p>Jaden Caradine knew he wanted to be an engineer at eight years old. He just took a winding road to get there. Before he enrolled at Embry-Riddle Aeronautical University, before he discovered the field that would become his focus, and. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Before he enrolled at Embry-Riddle Aeronautical University, before he discovered the field that would become his focus, and before he landed a Pathways internship at NASA’s. NASA That tool scrapes aerospace news from across the web, compiles relevant updates into organized tables, and produces a readable summary on a regular cadence.</p><p>He was eager to take the lead in trying a number of new processes and ideas to try to make them work for us. Part of the Systems Analysis and Concepts Directorate at NASA’s Langley Research Center.</p><p>I just had to figure out what kind. ” NASA Pathways intern Jaden Caradine Credit: NASA Finding the Overlap Caradine grew up in the Salt Lake City area, raised by a mother who put. They were using magnets to spin a launch system to 14, 000 or 15, 000 RPM and release small satellites into orbit, recovering the energy on the way down through the same magnetic.</p><p>I just wanted to learn as much as I could, as fast as I could. ” At every NASA booth, he asked questions. He learned about Pathways, the program that places undergraduate and graduate students at NASA centers with the potential to convert to full-time civil service positions, but he.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>His reason for choosing NASA over industry was simple and firm. NASA doesn’t work for profit,” he says.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/general/from-the-corps-to-the-cosmos-featuring-jaden-caradine/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Jaden Caradine sabia que queria ser engenheiro aos oito anos. Ele apenas pegou uma estrada sinuosa para chegar lá.",
-      "Dado-chave: Jaden Caradine sabia que queria ser engenheiro aos oito anos. Ele apenas pegou uma estrada sinuosa para chegar lá",
+      "Dado-chave: Jaden Caradine sabia que queria ser engenheiro aos oito anos. Ele apenas pegou uma estrada sinuosa para chegar lá.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: Jaden Caradine sabia que queria ser engenheiro aos oito anos. Ele apenas pegou uma estrada sinuosa para chegar lá.",
-      "Dado-chave: Jaden Caradine sabia que queria ser engenheiro aos oito anos. Ele apenas pegou uma estrada sinuosa para chegar lá",
+      "Dado-chave: Jaden Caradine sabia que queria ser engenheiro aos oito anos. Ele apenas pegou uma estrada sinuosa para chegar lá.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: Jaden Caradine knew he wanted to be an engineer at eight years old. He just took a winding road to get there.",
-      "Key detail: Jaden Caradine knew he wanted to be an engineer at eight years old. He just took a winding road to get there",
+      "Key detail: Jaden Caradine knew he wanted to be an engineer at eight years old. He just took a winding road to get there.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "08 set 2026",
@@ -834,134 +1199,7 @@
     "storyKind": "science"
   },
   {
-    "id": 7,
-    "slug": "wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection",
-    "cat": "Astrofísica",
-    "catCls": "astrofisica",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1280px-Black_hole_-_Messier_87_crop_max_res.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Estrelas Wolf-Rayet e buracos negros: distribuições de massa e conexão evolutiva",
-    "title_pt": "Estrelas Wolf-Rayet e buracos negros: distribuições de massa e conexão evolutiva",
-    "title_en": "Wolf-Rayet stars and black holes: mass distributions and evolutionary connection",
-    "sub": "A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar a função de distribuição a.",
-    "sub_pt": "A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar a função de distribuição a.",
-    "sub_en": "The form and relationship between the mass distributions of Wolf-Rayet stars and black holes are analyzed using a direct method for estimating the distribution function from a.",
-    "excerpt": "A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar a função de distribuição a partir de uma amostra de valores de massa com distribuições individuais obtidas.",
-    "excerpt_pt": "A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar a função de distribuição a partir de uma amostra de valores de massa com distribuições individuais obtidas.",
-    "excerpt_en": "The form and relationship between the mass distributions of Wolf-Rayet stars and black holes are analyzed using a direct method for estimating the distribution function from a sample of mass values with individual distributions obtained.",
-    "body": "<p>A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar a função de distribuição a partir de uma amostra de valores de massa com distribuições individuais obtidas.</p><p>A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar a função de distribuição a partir de uma amostra de valores de massa com distribuições individuais obtidas a partir de observações. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p>Saiba mais sobre o arXivLabs. É mostrado que, levando em consideração a perda de massa das estrelas WR ao final deste estágio evolutivo, a distribuição de massa dos buracos negros é próxima daquela dos núcleos de CO das estrelas WR antes do colapso gravitacional, $M_\\mathrm{BH}\\simeq M_\\mathrm{CO}$.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.09032v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar a função de distribuição a partir de uma amostra de valores de massa com distribuições individuais obtidas.</p><p>A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar a função de distribuição a partir de uma amostra de valores de massa com distribuições individuais obtidas a partir de observações. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p>Saiba mais sobre o arXivLabs. É mostrado que, levando em consideração a perda de massa das estrelas WR ao final deste estágio evolutivo, a distribuição de massa dos buracos negros é próxima daquela dos núcleos de CO das estrelas WR antes do colapso gravitacional, $M_\\mathrm{BH}\\simeq M_\\mathrm{CO}$.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.09032v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>The form and relationship between the mass distributions of Wolf-Rayet stars and black holes are analyzed using a direct method for estimating the distribution function from a sample of mass values with individual distributions obtained. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>It is shown that, taking into account the mass loss of WR stars by the end of this evolutionary stage, the mass distribution of black holes is close to that of the CO-cores of WR.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.09032v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar.",
-      "Dado-chave: A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para.",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_pt": [
-      "Ponto central: A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para estimar.",
-      "Dado-chave: A forma e a relação entre as distribuições de massa das estrelas Wolf-Rayet e dos buracos negros são analisadas usando um método direto para.",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_en": [
-      "Core point: The form and relationship between the mass distributions of Wolf-Rayet stars and black holes are analyzed using a direct method for estimating the.",
-      "Key detail: The form and relationship between the mass distributions of Wolf-Rayet stars and black holes are analyzed using a direct method for estimating.",
-      "Result not yet peer reviewed."
-    ],
-    "date": "08 set 2026",
-    "date_pt": "08 set 2026",
-    "date_en": "08 Sep 2026",
-    "time": "16h59",
-    "time_pt": "16h59",
-    "time_en": "16: 59 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-09-08T16:59:50+00:00",
-    "lastModifiedIso": "2026-09-09T18:53:04+00:00",
-    "source": "arXiv High Energy Astrophysics",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Astrofísica",
-      "arXiv High Energy Astrophysics",
-      "Cosmos Week",
-      "Estrelas Wolf",
-      "Rayet e buracos negros",
-      "distribuições de massa e conexão evolutiva"
-    ],
-    "keywords_pt": [
-      "Astrofísica",
-      "arXiv High Energy Astrophysics",
-      "Cosmos Week",
-      "Estrelas Wolf",
-      "Rayet e buracos negros",
-      "distribuições de massa e conexão evolutiva"
-    ],
-    "keywords_en": [
-      "Astrophysics",
-      "arXiv High Energy Astrophysics",
-      "Cosmos Week",
-      "Wolf Stars",
-      "Rayet and black holes",
-      "mass distributions and evolutionary connection"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2609.09032v1",
-    "realUrl": "https://www.cosmosweek.com/?article=wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection",
-    "realUrl_en": "https://www.cosmosweek.com/?article=wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/wolf-rayet-stars-and-black-holes-mass-distributions-and-evolutionary-connection/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 80,
-    "scoreBreakdown": {
-      "source": 63,
-      "evidence": 39,
-      "relevance": 94,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "Estrelas Wolf-Rayet e buracos negros: distribuições de massa e conexão evolutiva",
-    "imageAlt_pt": "Estrelas Wolf-Rayet e buracos negros: distribuições de massa e conexão evolutiva",
-    "imageAlt_en": "Wolf-Rayet stars and black holes: mass distributions and evolutionary connection",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 8,
+    "id": 10,
     "slug": "nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1105,7 +1343,7 @@
     "storyKind": "science"
   },
   {
-    "id": 9,
+    "id": 11,
     "slug": "meet-the-next-generation-of-mars-exploration",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1290,7 +1528,7 @@
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 12,
     "slug": "sentinel-1-captures-major-ice-loss-from-greenland-glacier",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1433,7 +1671,7 @@
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 13,
     "slug": "milky-way-s-fastest-star-orbits-our-supermassive-black-hole-so-closely-it-feels-its-spin",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1676,7 +1914,7 @@
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 14,
     "slug": "spying-on-a-split-comet",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1825,131 +2063,7 @@
     "storyKind": "science"
   },
   {
-    "id": 13,
-    "slug": "infrared-lines-from-sterile-neutrino-transition-magnetic-moments-at-jwst",
-    "cat": "Cosmologia",
-    "catCls": "cosmologia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg/1280px-Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Linhas infravermelhas de momentos magnéticos de transição estéril-neutrino no JWST",
-    "title_pt": "Linhas infravermelhas de momentos magnéticos de transição estéril-neutrino no JWST",
-    "title_en": "Infrared Lines from Sterile-Neutrino Transition Magnetic Moments at JWST",
-    "sub": "Investigamos assinaturas de linhas infravermelhas de matéria escura de neutrinos estéreis em decomposição radiativa usando observações de céu branco JWST/NIRSpec IFU disponíveis.",
-    "sub_pt": "Investigamos assinaturas de linhas infravermelhas de matéria escura de neutrinos estéreis em decomposição radiativa usando observações de céu branco JWST/NIRSpec IFU disponíveis.",
-    "sub_en": "We investigate infrared line signatures from radiatively decaying sterile-neutrino dark matter using publicly available JWST/NIRSpec IFU blank-sky observations.",
-    "excerpt": "Investigamos assinaturas de linhas infravermelhas de matéria escura de neutrinos estéreis em decomposição radiativa usando observações de céu branco JWST/NIRSpec IFU disponíveis publicamente.",
-    "excerpt_pt": "Investigamos assinaturas de linhas infravermelhas de matéria escura de neutrinos estéreis em decomposição radiativa usando observações de céu branco JWST/NIRSpec IFU disponíveis publicamente.",
-    "excerpt_en": "We investigate infrared line signatures from radiatively decaying sterile-neutrino dark matter using publicly available JWST/NIRSpec IFU blank-sky observations.",
-    "body": "<p>Investigamos assinaturas de linhas infravermelhas de matéria escura de neutrinos estéreis em decomposição radiativa usando observações de céu branco JWST/NIRSpec IFU disponíveis publicamente. O principal sinal considerado é a transição estéril para estéril $N_1\\to N_2γ$, induzida pelo coeficiente dipolo magnético de transição $d_{NNγ}$, com $m_1&gt;m_2$.</p><p>Em contraste com os decaimentos comuns de dois fótons de partículas do tipo axion ou do tipo Majoron, a energia do fóton observada não é fixada pela massa total da matéria escura, mas pela pequena divisão da massa $Δm=m_1-m_2$. Assim, um estado de matéria escura de neutrinos estéreis em escala keV pode gerar uma linha de fótons infravermelhos em escala eV na banda JWST.</p><p>Construímos uma análise de pesquisa de linha baseada em $χ^2$ usando os dados de céu branco do NIRSpec IFU $\\rm F170LP$-$\\rm G235M$ em direção a $\\rm GN\\text{-}z11$, modelando o continuum suave com um spline cúbico e incluindo o fluxo de decaimento do halo da Via Láctea. Na ausência de um excesso significativo, derivamos limites projetados em $d_{NNγ}$ e na largura de decaimento $Γ_{N_1\\to N_2γ}$ para $0, 1~{\\rm eV}\\lesssimΔm\\lesssim1~{\\rm eV}$.</p><p>Para um componente estéril que satura a abundância de matéria escura, a sensibilidade mais forte atinge $d_{NNγ}\\lesssim7\\times10^{-14}~{\\rm GeV}^{-1}$ e $Γ_{N_1\\to N_2γ}\\lesssim10^{-25}~{\\rm s}^{-1}$. Também incluímos um benchmark anômalo mínimo de Majoron, $ω\\toγγ$, obtendo sensibilidade JWST para $λ_{ωγγ}\\sim10^{-11}$-$10^{-9}~{\\rm GeV}^{-1}$ para $m_ω\\sim0.6$-$1~{\\rm eV}$.</p><p>Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário. ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem.</p><p>Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.17679v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Investigamos assinaturas de linhas infravermelhas de matéria escura de neutrinos estéreis em decomposição radiativa usando observações de céu branco JWST/NIRSpec IFU disponíveis publicamente. O principal sinal considerado é a transição estéril para estéril $N_1\\to N_2γ$, induzida pelo coeficiente dipolo magnético de transição $d_{NNγ}$, com $m_1&gt;m_2$.</p><p>Em contraste com os decaimentos comuns de dois fótons de partículas do tipo axion ou do tipo Majoron, a energia do fóton observada não é fixada pela massa total da matéria escura, mas pela pequena divisão da massa $Δm=m_1-m_2$. Assim, um estado de matéria escura de neutrinos estéreis em escala keV pode gerar uma linha de fótons infravermelhos em escala eV na banda JWST.</p><p>Construímos uma análise de pesquisa de linha baseada em $χ^2$ usando os dados de céu branco do NIRSpec IFU $\\rm F170LP$-$\\rm G235M$ em direção a $\\rm GN\\text{-}z11$, modelando o continuum suave com um spline cúbico e incluindo o fluxo de decaimento do halo da Via Láctea. Na ausência de um excesso significativo, derivamos limites projetados em $d_{NNγ}$ e na largura de decaimento $Γ_{N_1\\to N_2γ}$ para $0, 1~{\\rm eV}\\lesssimΔm\\lesssim1~{\\rm eV}$.</p><p>Para um componente estéril que satura a abundância de matéria escura, a sensibilidade mais forte atinge $d_{NNγ}\\lesssim7\\times10^{-14}~{\\rm GeV}^{-1}$ e $Γ_{N_1\\to N_2γ}\\lesssim10^{-25}~{\\rm s}^{-1}$. Também incluímos um benchmark anômalo mínimo de Majoron, $ω\\toγγ$, obtendo sensibilidade JWST para $λ_{ωγγ}\\sim10^{-11}$-$10^{-9}~{\\rm GeV}^{-1}$ para $m_ω\\sim0.6$-$1~{\\rm eV}$.</p><p>Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário. ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem.</p><p>Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.17679v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>We investigate infrared line signatures from radiatively decaying sterile-neutrino dark matter using publicly available JWST/NIRSpec IFU blank-sky observations. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>The significance lies in cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. The main signal considered is the sterile-to-sterile transition $N_1\\to N_2γ$, induced by the transition magnetic dipole coefficient $d_{NNγ}$, with $m_1&gt;m_2$. In contrast to ordinary two-photon decays of axion-like or Majoron-like particles, the observed photon energy is not fixed by the full dark matter mass, but by the small mass.</p><p>Thus, a keV-scale sterile-neutrino dark matter state can generate an eV-scale infrared photon line in the JWST band. In the absence of a significant excess, we derive projected limits on $d_{NNγ}$ and on the decay width $Γ_{N_1\\to N_2γ}$ for $0.1~{\\rm eV}\\lesssimΔm\\lesssim1~{\\rm eV}$.</p><p>For a sterile component saturating the dark matter abundance, the strongest sensitivity reaches $d_{NNγ}\\lesssim7\\times10^{-14}~{\\rm GeV}^{-1}$ and $Γ_{N_1\\to. We also include a minimal anomalous-Majoron benchmark, $ω\\toγγ$, obtaining JWST sensitivity to $λ_{ωγγ}\\sim10^{-11}$-$10^{-9}~{\\rm GeV}^{-1}$ for $m_ω\\sim0.6$-$1~{\\rm eV}$.</p><p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2608.17679v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Investigamos assinaturas de linhas infravermelhas de matéria escura de neutrinos estéreis em decomposição radiativa usando observações de céu branco.",
-      "Dado-chave: Investigamos assinaturas de linhas infravermelhas de matéria escura de neutrinos estéreis em decomposição radiativa usando observações de céu.",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_pt": [
-      "Ponto central: Investigamos assinaturas de linhas infravermelhas de matéria escura de neutrinos estéreis em decomposição radiativa usando observações de céu branco.",
-      "Dado-chave: Investigamos assinaturas de linhas infravermelhas de matéria escura de neutrinos estéreis em decomposição radiativa usando observações de céu.",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_en": [
-      "Core point: We investigate infrared line signatures from radiatively decaying sterile-neutrino dark matter using publicly available JWST/NIRSpec IFU blank-sky.",
-      "Key detail: We investigate infrared line signatures from radiatively decaying sterile-neutrino dark matter using publicly available JWST/NIRSpec IFU.",
-      "Result not yet peer reviewed."
-    ],
-    "date": "18 ago 2026",
-    "date_pt": "18 ago 2026",
-    "date_en": "18 Aug 2026",
-    "time": "11h51",
-    "time_pt": "11h51",
-    "time_en": "11: 51 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-18T11:51:13+00:00",
-    "lastModifiedIso": "2026-08-19T16:17:19+00:00",
-    "source": "arXiv Cosmology",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Cosmologia",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Linhas infravermelhas de momentos magnéticos de transição estéril",
-      "neutrino no JWST"
-    ],
-    "keywords_pt": [
-      "Cosmologia",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Linhas infravermelhas de momentos magnéticos de transição estéril",
-      "neutrino no JWST"
-    ],
-    "keywords_en": [
-      "Cosmology",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Infrared lines of sterile transition magnetic moments",
-      "neutrino no JWST"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2608.17679v1",
-    "realUrl": "https://www.cosmosweek.com/?article=infrared-lines-from-sterile-neutrino-transition-magnetic-moments-at-jwst",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=infrared-lines-from-sterile-neutrino-transition-magnetic-moments-at-jwst",
-    "realUrl_en": "https://www.cosmosweek.com/?article=infrared-lines-from-sterile-neutrino-transition-magnetic-moments-at-jwst&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/infrared-lines-from-sterile-neutrino-transition-magnetic-moments-at-jwst/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/infrared-lines-from-sterile-neutrino-transition-magnetic-moments-at-jwst/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/infrared-lines-from-sterile-neutrino-transition-magnetic-moments-at-jwst/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/infrared-lines-from-sterile-neutrino-transition-magnetic-moments-at-jwst/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/infrared-lines-from-sterile-neutrino-transition-magnetic-moments-at-jwst/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/infrared-lines-from-sterile-neutrino-transition-magnetic-moments-at-jwst/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 80,
-    "scoreBreakdown": {
-      "source": 64,
-      "evidence": 39,
-      "relevance": 94,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "Linhas infravermelhas de momentos magnéticos de transição estéril-neutrino no JWST",
-    "imageAlt_pt": "Linhas infravermelhas de momentos magnéticos de transição estéril-neutrino no JWST",
-    "imageAlt_en": "Infrared Lines from Sterile-Neutrino Transition Magnetic Moments at JWST",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 14,
+    "id": 15,
     "slug": "nsf-announces-1-5b-for-foundational-research-to-drive-scientific-breakthroughs-for-american-tech",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1998,19 +2112,19 @@
     "body_pt": "<p>A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para pesquisas fundamentais, incluindo investigação básica e inspirada no uso. A National Science Foundation lançou hoje 12 novos avisos de oportunidades de financiamento (NOFOs), fornecendo mais de US$ 1, 5 bilhão para pesquisas fundamentais, incluindo investigação básica e inspirada no uso.</p><p>A National Science Foundation lançou hoje 12 novos avisos de oportunidade de financiamento (NOFOs), fornecendo mais de US$ 1, 5 bilhão para pesquisas fundamentais, incluindo pesquisas básicas e inspiradas no uso nas ciências e na engenharia. Eles também cumprem uma premissa central do relatório Ciência: Uma Nova Era de Ouro, que a América deve responder às forças que remodelam o empreendimento científico e criar condições nas quais a ciência excepcional possa ocorrer com mais frequência e progredir mais rapidamente.</p><p>Os NOFOs promovem a missão principal da NSF de apoiar pesquisas fundamentais que levam a avanços científicos e abrem novas fronteiras de conhecimento. As oportunidades de financiamento colocam especial ênfase na investigação ousada e desafiadora de paradigmas, na investigação fundamental que cria novas ligações entre disciplinas e em projetos que aproveitam a inteligência artificial, a computação avançada e a automatização.</p><p>O empreendimento científico da América é moldado pela forma como capacitamos os pesquisadores para explorar as fronteiras da descoberta&quot;, disse Brian Stone, Diretor de Desempenho das Funções da NSF. Assistente do Presidente e Diretor do Escritório de Política Científica e Tecnológica da Casa Branca.</p><p>Quando cientificamente justificado, os investigadores são incentivados a solicitar prémios de até cinco anos de apoio para questões de investigação ambiciosas e de longo prazo, permitindo-lhes concentrar-se em investigação que verdadeiramente mude o paradigma, em vez de produzir. Muitas das novas oportunidades de financiamento também permitirão experiências estruturadas sobre como a NSF apoia a descoberta.</p><p>A NSF planeia avaliar e validar rigorosamente se as alterações na concepção das propostas, na duração da concessão, nos métodos de revisão e na velocidade de financiamento melhoram a qualidade e a ambição dos resultados científicos.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-announces-15b-foundational-research-drive-scientific\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>The U. S. National Science Foundation today released 12 new notices of funding opportunities providing over $1.5 billion for foundational research, including basic and use-inspired inquiry. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. National Science Foundation today released 12 new notices of funding opportunities (NOFOs) providing over $1. National Science Foundation today released 12 new notices of funding opportunity (NOFOs) providing over $1.</p><p>These funding opportunities support the foremost goal in the administration&#x27;s memorandum &quot; Ushering in a New Golden Age of American Innovation: Fiscal Year 2028 Administration. They also deliver on a central premise of the report Science: A New Golden Age, that America must respond to the forces reshaping the scientific enterprise and create conditions.</p><p>NOFOs advance NSF&#x27;s core mission to support foundational research that leads to scientific breakthroughs and opens new frontiers of knowledge. The funding opportunities place particular emphasis on bold, paradigm-challenging inquiry, foundational research that forges new connections across disciplines, and projects that.</p><p>America&#x27;s scientific enterprise is shaped by how we empower researchers to explore the frontiers of discovery,&quot; said Brian Stone, Performing the Duties of the NSF Director. Assistant to the President and Director of the White House Office of Science and Technology Policy.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Where scientifically justified, researchers are encouraged to request awards of up to five years of support for long-term, ambitious research questions, allowing them to focus on. Many of the new funding opportunities will also enable structured experiments in how NSF supports discovery.</p><p>Because the account originates with NSF News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-announces-15b-foundational-research-drive-scientific\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para.",
+      "Dado-chave: A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para.",
+      "Dado-chave: A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The U. S. National Science Foundation today released 12 new notices of funding opportunities providing over $1",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The U. S. National Science Foundation today released 12 new notices of funding opportunities providing over $1.",
+      "Key detail: The U. S. National Science Foundation today released 12 new notices of funding opportunities providing over $1",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "17 ago 2026",
     "date_pt": "17 ago 2026",
@@ -2101,7 +2215,7 @@
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "hubble-gaia-solve-our-galaxy-s-merger-mystery",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2250,7 +2364,7 @@
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "science-release-hubble-solves-merger-mystery-from-milky-way-s-early-years",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2402,7 +2516,7 @@
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "a-look-back-at-the-2026-total-solar-eclipse",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2645,7 +2759,7 @@
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "stops-along-the-path-of-totality",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2785,7 +2899,7 @@
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "dust-and-water-spotted-close-to-giant-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2918,137 +3032,6 @@
     "imageAlt": "Poeira e água avistadas perto de buraco negro gigante",
     "imageAlt_pt": "Poeira e água avistadas perto de buraco negro gigante",
     "imageAlt_en": "Dust and water spotted close to giant black hole",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 20,
-    "slug": "a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
-    "cat": "Biologia",
-    "catCls": "biologia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/DNA_orbit_animated_static_thumb.png/1280px-DNA_orbit_animated_static_thumb.png",
-    "inline_images": [
-      {
-        "src": "https://www.nih.gov/sites/default/files/styles/max_650x650/public/2026-07/20260731-doctors.jpg?itok=A3KaQSH9",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
-    "title_pt": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
-    "title_en": "A child’s language may predict the arrival of depression and anxiety disorders years before onset",
-    "sub": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
-    "sub_pt": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
-    "sub_en": "The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern.",
-    "excerpt": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
-    "excerpt_pt": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
-    "excerpt_en": "The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern.",
-    "body": "<p>Financiado pelo NIH, Alimentado por IA. A análise de entrevistas financiada pelo NIH e alimentada por IA sugere que o enquadramento de eventos estressantes por um jovem é um forte indicador de risco para distúrbios futuros.</p><p class=\"art-source\"><a href=\"https://www.nih.gov/news-events/news-releases/childs-language-may-predict-arrival-depression-anxiety-disorders-years-before-onset\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Financiado pelo NIH, Alimentado por IA. A análise de entrevistas financiada pelo NIH e alimentada por IA sugere que o enquadramento de eventos estressantes por um jovem é um forte indicador de risco para distúrbios futuros.</p><p class=\"art-source\"><a href=\"https://www.nih.gov/news-events/news-releases/childs-language-may-predict-arrival-depression-anxiety-disorders-years-before-onset\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>NIH-funded. AI-powered. analysis of. interviews suggests. that. a. youth’s. framing of stressful events. is. a strong. indicator. of. risk for. future. disorders. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern. The gap between identifying a correlation in biological data and understanding the causal chain that produces it is routinely underestimated, and the history of biomedical research is populated with associations that collapsed when the mechanism was sought and not found. A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive finding because it generates testable predictions that can narrow the hypothesis space. NIH-funded, AI-powered analysis of interviews suggests that a youth’s framing of stressful events is a strong indicator of risk for future disorders.</p><p>The broader interest lies in whether the reported effect points toward a real mechanism and not merely a reproducible but unexplained association. Biology has learned from decades of biomarker failures that correlation, even robust correlation, is not a substitute for mechanistic understanding. A pathway that can be traced from molecular interaction to cellular response to organismal phenotype provides a far stronger foundation for intervention than a statistical association discovered in a large dataset, however well the statistics are done.</p><p>Because the account originates with NIH News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to test whether the effect repeats across different methods, cell types, model organisms and experimental conditions. Reproducibility is the first test, but mechanistic dissection is the second, and a result that passes both has a substantially better chance of translating into something clinically or biotechnologically useful. The path from a laboratory finding to an applied outcome typically takes a decade or more, and most findings do not complete it; the current result sits at the beginning of that process.</p><p class=\"art-source\"><a href=\"https://www.nih.gov/news-events/news-releases/childs-language-may-predict-arrival-depression-anxiety-disorders-years-before-onset\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
-      "Dado-chave: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
-      "Dado-chave: A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern.",
-      "Key detail: The significance lies in biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "07 ago 2026",
-    "date_pt": "07 ago 2026",
-    "date_en": "07 Aug 2026",
-    "time": "16h25",
-    "time_pt": "16h25",
-    "time_en": "16: 25 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-08-07T16:25:49.200033+00:00",
-    "lastModifiedIso": "2026-08-07T16:43:53+00:00",
-    "source": "NIH News Releases",
-    "sourceDomain": "www. nih. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Biologia",
-      "NIH News Releases",
-      "Cosmos Week",
-      "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início"
-    ],
-    "keywords_pt": [
-      "Biologia",
-      "NIH News Releases",
-      "Cosmos Week",
-      "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início"
-    ],
-    "keywords_en": [
-      "Biology",
-      "NIH News Releases",
-      "Cosmos Week",
-      "A child's language can predict the arrival of depression and anxiety disorders years before they begin"
-    ],
-    "srcUrl": "https://www.nih.gov/news-events/news-releases/childs-language-may-predict-arrival-depression-anxiety-disorders-years-before-onset",
-    "realUrl": "https://www.cosmosweek.com/?article=a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse",
-    "realUrl_en": "https://www.cosmosweek.com/?article=a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/a-child-s-language-may-predict-the-arrival-of-depression-and-anxiety-disorders-years-before-onse/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 93,
-    "scoreBreakdown": {
-      "source": 86,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 52,
-      "novelty": 55
-    },
-    "imageAlt": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
-    "imageAlt_pt": "A linguagem de uma criança pode prever a chegada de transtornos de depressão e ansiedade anos antes do início",
-    "imageAlt_en": "A child’s language may predict the arrival of depression and anxiety disorders years before onset",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
@@ -4653,17 +4636,17 @@
     "body_en": "<p>Mercury is a small, rocky planet about which researchers know relatively little. Two missions, taking readings as they passed over the planet, have revealed that Mercury is covered by an iron-poor and sulfur-rich crust. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. This article has been reviewed according to Science X&#x27;s editorial process and policies. Mercury&#x27;s surface looks completely different than Earth&#x27;s,&quot; said Rajdeep Dasgupta, the Maurice Ewing Professor in Earth Systems Science and director of the Rice Space Institute.</p><p>We couldn&#x27;t study its magmatic evolution using assumptions built off our understanding of Earth, and missions data are difficult to interpret. We had to find ways to bring the planet closer to our lab, specifically, through the meteorite Indarch.</p><p>The researchers realized they could use Indarch to study how Mercury&#x27;s unique chemical makeup had shaped the planet, sharing their results in a recent publication. Indarch chemically is as reduced as rocks on Mercury,&quot; said Yishen Zhang, a postdoctoral researcher in Dasgupta&#x27;s lab and first author on the paper.</p><p>By using the temperature, pressure and chemical constraints derived from spacecraft observations and models, we recreate Mercurylike conditions to understand how magmas form and. That means sulfur-rich magmas on Mercury may stay molten at lower temperatures than similar magmas on Earth.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Iron-rich planets like Mars and Earth have most of their sulfur bound to iron. On Earth, these rock-forming elements would typically bind to oxygen, resulting in a stable structure called a silicate network made up of silicon, oxygen and rock-forming.</p><p>Because the account originates with Phys. org Space, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-04-sulfur-rich-mercury-magmas-differently.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
-      "Dado-chave: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus",
+      "Dado-chave: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
       "Ponto central: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
-      "Dado-chave: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus",
+      "Dado-chave: Pesquisadores investigaram a composição única de Mercúrio, caracterizada por uma crosta pobre em ferro e rica em enxofre, e descobriram que seus.",
       "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
       "Core point: Mercury is a small, rocky planet about which researchers know relatively little.",
-      "Key detail: Mercury is a small, rocky planet about which researchers know relatively little",
+      "Key detail: Mercury is a small, rocky planet about which researchers know relatively little.",
       "Science reporting: verify primary technical documentation."
     ],
     "date": "19 abr 2026",
@@ -5092,7 +5075,7 @@
     ],
     "highlights_en": [
       "Core point: A new Concordia-led study suggests that iron-rich slag, one of mining's biggest waste products, could help store carbon dioxide emissions.",
-      "Key detail: A new Concordia-led study suggests that iron-rich slag, one of mining's biggest waste products, could help store carbon dioxide emissions",
+      "Key detail: A new Concordia-led study suggests that iron-rich slag, one of mining's biggest waste products, could help store carbon dioxide emissions.",
       "Science reporting: verify primary technical documentation."
     ],
     "date": "17 abr 2026",
