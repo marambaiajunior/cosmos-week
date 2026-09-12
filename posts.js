@@ -3,6 +3,127 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "help-refine-data-from-space-telescopes-with-artifact-inspector",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://assets.science.nasa.gov/content/dam/science/cds/citizen-science/highlights/2026/backgroundimage.001-Aimee_Schechter.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Ajude a refinar dados de telescópios espaciais com Artifact InSPECtor",
+    "title_pt": "Ajude a refinar dados de telescópios espaciais com Artifact InSPECtor",
+    "title_en": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
+    "sub": "Como é que os cientistas que estudam o espaço com dados de um telescópio a centenas de milhares de quilómetros de distância sabem que o que estão a ver é real? .",
+    "sub_pt": "Como é que os cientistas que estudam o espaço com dados de um telescópio a centenas de milhares de quilómetros de distância sabem que o que estão a ver é real? .",
+    "sub_en": "How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real? .",
+    "excerpt": "Como é que os cientistas que estudam o espaço com dados de um telescópio a centenas de milhares de quilómetros de distância sabem que o que estão a ver é real? .",
+    "excerpt_pt": "Como é que os cientistas que estudam o espaço com dados de um telescópio a centenas de milhares de quilómetros de distância sabem que o que estão a ver é real? .",
+    "excerpt_en": "How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real? .",
+    "body": "<p>Como é que os cientistas que estudam o espaço com dados de um telescópio a centenas de milhares de quilómetros de distância sabem que o que estão a ver é real. Um novo projeto da NASA, Artifact InSPECtor, convida você a descobrir - e, ao fazê-lo, a ajudar missões como Euclid e o novo Telescópio Espacial Nancy Grace Roman da NASA a responder [. ].</p><p>Explore esta seção Ciência Ciência Cidadã Ajude a refinar dados do espaço. Em breve será acompanhado pelo Telescópio Espacial Nancy Grace Roman da NASA, um observatório complementar que irá capturar um número semelhante de galáxias depois de iniciar as operações científicas, mas a diferentes distâncias e densidades no céu.</p><p>Mas reconhecer artefatos em dados de instrumentos relativamente novos é um trabalho desafiador para a IA, que nem sempre os distingue com precisão. Como voluntário do Artifact InSPECtor, você observará dados reais do telescópio espacial Euclid e, a partir do início de 2027, do Telescópio Espacial Nancy Grace Roman.</p><p>Um novo projeto da NASA, Science Citizen Science Help Refine Data from Space. Visão geral Recursos Oportunidades Destaques da ciência cidadã Sobre a ativação científica 3 min de leitura do artigo Como os cientistas que estudam o espaço com dados de um telescópio a centenas de milhares de quilômetros de distância sabem que o que estão vendo é real? .</p><p>Um novo projeto da NASA, Artifact InSPECtor, convida você a descobrir, e, ao fazê-lo, a ajudar missões como a Euclid e o novo Telescópio Espacial Nancy Grace Roman da NASA a responder questões fundamentais sobre o nosso universo. O telescópio espacial Euclides, um poderoso observatório construído pela ESA (Agência Espacial Europeia) com contribuições críticas da NASA, está a recolher luz de milhões de galáxias distantes em todo o universo.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Como é que os cientistas que estudam o espaço com dados de um telescópio a centenas de milhares de quilómetros de distância sabem que o que estão a ver é real. Um novo projeto da NASA, Artifact InSPECtor, convida você a descobrir - e, ao fazê-lo, a ajudar missões como Euclid e o novo Telescópio Espacial Nancy Grace Roman da NASA a responder [. ].</p><p>Explore esta seção Ciência Ciência Cidadã Ajude a refinar dados do espaço. Em breve será acompanhado pelo Telescópio Espacial Nancy Grace Roman da NASA, um observatório complementar que irá capturar um número semelhante de galáxias depois de iniciar as operações científicas, mas a diferentes distâncias e densidades no céu.</p><p>Mas reconhecer artefatos em dados de instrumentos relativamente novos é um trabalho desafiador para a IA, que nem sempre os distingue com precisão. Como voluntário do Artifact InSPECtor, você observará dados reais do telescópio espacial Euclid e, a partir do início de 2027, do Telescópio Espacial Nancy Grace Roman.</p><p>Um novo projeto da NASA, Science Citizen Science Help Refine Data from Space. Visão geral Recursos Oportunidades Destaques da ciência cidadã Sobre a ativação científica 3 min de leitura do artigo Como os cientistas que estudam o espaço com dados de um telescópio a centenas de milhares de quilômetros de distância sabem que o que estão vendo é real? .</p><p>Um novo projeto da NASA, Artifact InSPECtor, convida você a descobrir, e, ao fazê-lo, a ajudar missões como a Euclid e o novo Telescópio Espacial Nancy Grace Roman da NASA a responder questões fundamentais sobre o nosso universo. O telescópio espacial Euclides, um poderoso observatório construído pela ESA (Agência Espacial Europeia) com contribuições críticas da NASA, está a recolher luz de milhões de galáxias distantes em todo o universo.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. A new NASA project, Artifact InSPECtor, invites you to find out, and by doing so, to help missions like Euclid and NASA’s new Nancy Grace Roman Space Telescope answer fundamental. Explore This Section Science Citizen Science Help Refine Data from Space. Overview Resources Opportunities Citizen Science Highlights About Science Activation How do scientists.</p><p>It will soon be joined by NASA’s Nancy Grace Roman Space Telescope, a complementary observatory that will capture a similar number of galaxies after it begins science operations. But recognizing artifacts in data from relatively new instruments is challenging work for the AI, which doesn’t always distinguish them accurately That’s where you come in.</p><p>As a volunteer with Artifact InSPECtor, you’ll look at real space telescope data from Euclid and, starting in early 2027, the Nancy Grace Roman Space Telescope. Image data from the ESA/Euclid Q1 Data release.</p><p>A new NASA project, Science Citizen Science Help Refine Data from Space. Overview Resources Opportunities Citizen Science Highlights About Science Activation 3 min read Article How do scientists studying space with data from a telescope hundreds of.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>The Euclid space telescope, a powerful observatory built by ESA (European Space Agency) with critical contributions from NASA, is collecting light from millions of distant. It will soon be joined by NASA&#x27;s Nancy Grace Roman Space Telescope, a complementary observatory that will capture a similar number of galaxies after it begins science operations.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Como é que os cientistas que estudam o espaço com dados de um telescópio a centenas de milhares de quilómetros de distância sabem que o que estão a",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Como é que os cientistas que estudam o espaço com dados de um telescópio a centenas de milhares de quilómetros de distância sabem que o que estão a",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "11 set 2026",
+    "date_pt": "11 set 2026",
+    "date_en": "11 Sep 2026",
+    "time": "19h48",
+    "time_pt": "19h48",
+    "time_en": "19: 48 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-09-11T19:48:09+00:00",
+    "lastModifiedIso": "2026-09-12T18:01:32+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Ajude a refinar dados de telescópios espaciais com Artifact InSPECtor"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Ajude a refinar dados de telescópios espaciais com Artifact InSPECtor"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Help refine space telescope data with Artifact InSPECtor"
+    ],
+    "srcUrl": "https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/",
+    "realUrl": "https://www.cosmosweek.com/?article=help-refine-data-from-space-telescopes-with-artifact-inspector",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=help-refine-data-from-space-telescopes-with-artifact-inspector",
+    "realUrl_en": "https://www.cosmosweek.com/?article=help-refine-data-from-space-telescopes-with-artifact-inspector&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/help-refine-data-from-space-telescopes-with-artifact-inspector/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/help-refine-data-from-space-telescopes-with-artifact-inspector/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/help-refine-data-from-space-telescopes-with-artifact-inspector/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/help-refine-data-from-space-telescopes-with-artifact-inspector/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/help-refine-data-from-space-telescopes-with-artifact-inspector/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/help-refine-data-from-space-telescopes-with-artifact-inspector/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Ajude a refinar dados de telescópios espaciais com Artifact InSPECtor",
+    "imageAlt_pt": "Ajude a refinar dados de telescópios espaciais com Artifact InSPECtor",
+    "imageAlt_en": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
     "slug": "nsf-leadership-in-a-new-golden-age-of-science",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -123,7 +244,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "probing-the-details-of-relativistic-electrons-with-multifrequency-observations-of-m87-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -144,18 +265,19 @@ window.postsData = [
     "body_pt": "<p>Os principais objetivos científicos desta campanha são restringir a rotação do buraco negro e investigar a variabilidade temporal do campo magnético e das propriedades do plasma na região de lançamento do jato na escala do horizonte. Neste trabalho, apresentamos previsões teóricas para os mapas de índices espectrais esperados a partir dessas observações.</p><p>Nossas previsões são baseadas em simulações de disco preso magneticamente realizadas com o código EBHLIGHT e pós-processadas usando o código relativístico geral de rastreamento de raios IPOLE. Investigamos a evolução temporal do índice espectral para uma série de modelos de distribuição de elétrons e cinco valores diferentes de spin do buraco negro.</p><p>A análise inclui tanto as bandas de frequência atualmente presentes no EHT quanto as frequências vizinhas propostas para futuras extensões da matriz EHT. Além de estender estudos anteriores a uma gama mais ampla de frequências de observação, nosso trabalho investiga sistematicamente a variabilidade temporal dos mapas de índice espectral previstos.</p><p>Em modelos de elétrons puramente térmicos, a variabilidade temporal dos mapas de índice espectral rastreia de perto as variações na intensidade do campo magnético e na temperatura dos elétrons nas imediações do horizonte de eventos. Por outro lado, os modelos que incorporam uma população de elétrons não térmicos exibem uma variabilidade do índice espectral substancialmente mais fraca, devido à contribuição de um componente de lei de potência com uma inclinação espectral fixa.</p><p>Nossos resultados numéricos são consistentes com as expectativas teóricas. Finalmente, uma comparação com o índice espectral integrado recentemente medido do M87* permite-nos colocar restrições preliminares nos parâmetros do modelo.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.11609v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Beginning in March 2026, the Event Horizon Telescope conducted a two-month observing campaign aimed at obtaining the first time-resolved sequence of images of the black hole M87* at the center of the Virgo A galaxy. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It is relevant because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Beginning in March 2026, the Event Horizon Telescope (EHT) conducted a two-month observing campaign aimed at obtaining the first time-resolved sequence of images of the black hole. The primary scientific objectives of this campaign are to constrain the black hole spin and to investigate the temporal variability of the magnetic field and plasma properties.</p><p>In this work, we present theoretical predictions for the spectral index maps expected from these observations. Our predictions are based on Magnetically Arrested Disk simulations performed with the EBHLIGHT code and post-processed using the IPOLE general relativistic ray-tracing code.</p><p>We investigate the temporal evolution of the spectral index for a range of electron distribution models and five different black hole spin values. The analysis includes both frequency bands currently present within the EHT and neighboring frequencies proposed for future extensions of the EHT array.</p><p>In addition to extending previous studies to a broader range of observing frequencies, our work systematically investigates the time variability of the predicted spectral index. In purely thermal electron models, the temporal variability of the spectral index maps closely traces variations in the magnetic field strength and electron temperature in the.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>By contrast, models incorporating a non-thermal electron population exhibit substantially weaker spectral index variability, owing to the contribution of a power-law component. Our numerical results are consistent with theoretical expectations.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.11609v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Com início em março de 2026, o Event Horizon Telescope conduziu uma campanha de observação de dois meses com o objetivo de obter a primeira sequência",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Com início em março de 2026, o Event Horizon Telescope conduziu uma campanha de observação de dois meses com o objetivo de obter a primeira sequência.",
+      "Dado-chave: Com início em março de 2026, o Event Horizon Telescope conduziu uma campanha de observação de dois meses com o objetivo de obter a primeira.",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Com início em março de 2026, o Event Horizon Telescope conduziu uma campanha de observação de dois meses com o objetivo de obter a primeira sequência",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Com início em março de 2026, o Event Horizon Telescope conduziu uma campanha de observação de dois meses com o objetivo de obter a primeira sequência.",
+      "Dado-chave: Com início em março de 2026, o Event Horizon Telescope conduziu uma campanha de observação de dois meses com o objetivo de obter a primeira.",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: Beginning in March 2026, the Event Horizon Telescope conducted a two-month observing campaign aimed at obtaining the first time-resolved sequence of",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: Beginning in March 2026, the Event Horizon Telescope conducted a two-month observing campaign aimed at obtaining the first time-resolved sequence of.",
+      "Key detail: Beginning in March 2026, the Event Horizon Telescope conducted a two-month observing campaign aimed at obtaining the first time-resolved.",
+      "Result not yet peer reviewed."
     ],
     "date": "10 set 2026",
     "date_pt": "10 set 2026",
@@ -243,7 +365,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "name-our-dino-esa-s-hera-asteroid-mission-mascot",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -410,7 +532,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -431,18 +553,19 @@ window.postsData = [
     "body_pt": "<p>O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as restrições cosmológicas na abundância de PBH. O agrupamento espacial inicial de buracos negros primordiais (PBHs) induzido pela não-gaussianidade de tipo local (LNG) pode modificar substancialmente as restrições cosmológicas na abundância de PBH.</p><p>Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário. ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem.</p><p>Tem uma ideia de um projeto que agregue valor à comunidade arXiv? . Saiba mais sobre o arXivLabs.</p><p>Resumo: O agrupamento espacial inicial de buracos negros primordiais (PBHs) induzido pela não-gaussianidade de tipo local (LNG) pode modificar substancialmente as restrições cosmológicas na abundância de PBH. As formulações existentes de agrupamento inicial de PBH são restritas principalmente a pequenos regimes não-gaussianos ou a regimes específicos, e falta uma estrutura teórica unificada.</p><p>Aqui, apresentamos uma formulação analítica geral para a função de correlação de dois pontos do PBH aplicável a GNL arbitrários. Demonstramos a versatilidade de nossa fórmula calculando os parâmetros de polarização nos cenários de inflação ultralenta, curvaton e reaquecimento modulado.</p><p>Também generalizamos formalmente a estrutura para espectros de potência amplos para levar em conta correlações entre diferentes escalas de massa de PBH.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.11306v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Initial spatial clustering of primordial black holes induced by local-type non-Gaussianity can substantially modify cosmological constraints on PBH abundance. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Initial spatial clustering of primordial black holes (PBHs) induced by local-type non-Gaussianity (LNG) can substantially modify cosmological constraints on PBH abundance. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>Existing formulations of initial PBH clustering are primarily restricted to either small non-Gaussianity or specific regimes, and a unified theoretical framework has been lacking. Here, we present a general analytical formulation for the PBH two-point correlation function applicable to arbitrary LNGs.</p><p>Under the assumptions that PBHs form only at the large peaks of perturbations, and that long-wavelength modes weakly modulate the local variance of short-wavelength (PBH-scale). We demonstrate the versatility of our formula by computing the bias parameters in the ultra-slow-roll inflation, curvaton, and modulated reheating scenarios.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>We also formally generalize the framework to broad power spectra to account for correlations across different PBH mass scales. Because our formulation does not rely on weak or perturbative non-Gaussianity assumptions, our result provides a universal theoretical basis for evaluating initial clustering.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.11306v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as.",
+      "Dado-chave: O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as.",
+      "Dado-chave: O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: Initial spatial clustering of primordial black holes induced by local-type non-Gaussianity can substantially modify cosmological constraints on PBH",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: Initial spatial clustering of primordial black holes induced by local-type non-Gaussianity can substantially modify cosmological constraints on PBH.",
+      "Key detail: Initial spatial clustering of primordial black holes induced by local-type non-Gaussianity can substantially modify cosmological constraints on.",
+      "Result not yet peer reviewed."
     ],
     "date": "10 set 2026",
     "date_pt": "10 set 2026",
@@ -533,7 +656,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "nasa-s-chandra-unveils-mysterious-x-ray-objects",
     "cat": "Física",
     "catCls": "fisica",
@@ -555,17 +678,17 @@ window.postsData = [
     "body_en": "<p>Using NASA’s Chandra X-ray Observatory, scientists have discovered a new class of objects behaving unlike any they have seen before. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because physics only takes a result seriously when the measurement chain remains robust under scrutiny. Experimental particle physics and precision metrology both operate in regimes where the signal sits far below the background noise, and where systematic uncertainties can mimic new physics if not controlled rigorously. The history of the field contains numerous anomalies that generated theoretical excitement before better data showed them to be artifacts, and it also contains genuine discoveries that were initially dismissed as noise. The difference is almost always resolved by independent replication with different instruments and different systematics. Of course, the next step was to try to figure out what these things are. ” M101 with illustrated circles calling out seven of the newly-discovered objects. Wolk The researchers found a total of 84 of these “hypersoft X-ray sources”, so named because they give such low-energy X-rays, in the six different galaxies they searched, using.</p><p>That’s how we found what appears to be a new class of cosmic objects with remarkable qualities. The Smithsonian Astrophysical Observatory’s Chandra X-ray Center controls science operations from Cambridge, Massachusetts, and flight operations from Burlington, Massachusetts.</p><p>Read more from NASA’s Chandra X-ray Observatory To learn more about NASA’s Chandra mission, visit: https: //www. nasa. Wolk Using NASA’s Chandra X-ray Observatory, scientists have discovered a new class of objects behaving unlike any they have seen before.</p><p>This discovery is featured in a paper published Wednesday in Nature Astronomy. Of course, the next step was to try to figure out what these things are. ” The researchers found a total of 84 of these “hypersoft X-ray sources”, so named because they give such.</p><p>The broader interest lies as much in the method as in the headline number, because a durable measurement procedure can travel farther than a single result. When experimental physicists develop a technique that achieves new sensitivity or controls a previously uncharacterized systematic, that methodological contribution persists even if the specific measurement is later revised. This is one reason why precision physics experiments often generate long-term value that is not immediately visible in the original publication.</p><p>Two of the galaxies are spirals, M31 (the Andromeda galaxy) and M101 (the Pinwheel galaxy), while the other four are ellipticals. The Smithsonian Astrophysical Observatory&#x27;s Chandra X-ray Center controls science operations from Cambridge, Massachusetts, and flight operations from Burlington, Massachusetts.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is more measurement, tighter systematic control and scrutiny from groups whose experimental setups are genuinely independent. In experimental particle physics and precision metrology, the threshold for a discovery claim is a five-sigma excess surviving multiple analyses; an intriguing signal at lower significance is a reason to run more experiments, not a reason to revise the textbooks. Next-generation experiments currently under construction or commissioning will revisit several of the open questions that give the current result its context.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/chandra/nasas-chandra-unveils-mysterious-x-ray-objects/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Usando o Observatório de Raios-X Chandra da NASA, os cientistas descobriram uma nova classe de objetos que se comportam de forma diferente de.",
-      "Dado-chave: Usando o Observatório de Raios-X Chandra da NASA, os cientistas descobriram uma nova classe de objetos que se comportam de forma diferente de",
+      "Dado-chave: Usando o Observatório de Raios-X Chandra da NASA, os cientistas descobriram uma nova classe de objetos que se comportam de forma diferente de.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: Usando o Observatório de Raios-X Chandra da NASA, os cientistas descobriram uma nova classe de objetos que se comportam de forma diferente de.",
-      "Dado-chave: Usando o Observatório de Raios-X Chandra da NASA, os cientistas descobriram uma nova classe de objetos que se comportam de forma diferente de",
+      "Dado-chave: Usando o Observatório de Raios-X Chandra da NASA, os cientistas descobriram uma nova classe de objetos que se comportam de forma diferente de.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: Using NASA’s Chandra X-ray Observatory, scientists have discovered a new class of objects behaving unlike any they have seen before.",
-      "Key detail: Using NASA’s Chandra X-ray Observatory, scientists have discovered a new class of objects behaving unlike any they have seen before",
+      "Key detail: Using NASA’s Chandra X-ray Observatory, scientists have discovered a new class of objects behaving unlike any they have seen before.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "09 set 2026",
@@ -654,7 +777,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "inelastic-dark-matter-and-high-energy-recoil-signatures-in-lz",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -775,7 +898,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -830,7 +953,7 @@ window.postsData = [
     ],
     "highlights_en": [
       "Core point: Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Aug.",
-      "Key detail: Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Aug",
+      "Key detail: Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Aug.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "09 set 2026",
@@ -928,7 +1051,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "mtg-i2-reaches-its-final-orbit",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -1077,7 +1200,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "from-the-corps-to-the-cosmos-featuring-jaden-caradine",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1194,150 +1317,6 @@ window.postsData = [
     "imageAlt": "Do Corpo ao Cosmos, com Jaden Caradine",
     "imageAlt_pt": "Do Corpo ao Cosmos, com Jaden Caradine",
     "imageAlt_en": "From the Corps to the Cosmos, featuring Jaden Caradine",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 10,
-    "slug": "nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2026/09/STScI-01KZC81GGE6DAJKS1C8KAXHZ2M.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/psd/solar/internal_resources/5223/Arrokoth-1.jpeg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": {
-      "kind": "embed",
-      "platform": "youtube",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/KDQYSUR0F1o?rel=0&modestbranding=1",
-      "fileUrl": "",
-      "poster": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2026/09/STScI-01KZC81GGE6DAJKS1C8KAXHZ2M.jpg?w=3840&h=2160&fit=clip&crop=faces%2Cfocalpoint",
-      "title": "Pequenos mundos descobertos pelo Hubble e Webb",
-      "title_pt": "Pequenos mundos descobertos pelo Hubble e Webb",
-      "title_en": "Tiny Worlds Discovered by Hubble and Webb",
-      "caption": "Além de Netuno, incontáveis ​​mundos congelados orbitam o Sol há bilhões de anos, preservando pistas desde os primeiros dias do nosso sistema solar.",
-      "caption_pt": "Além de Netuno, incontáveis ​​mundos congelados orbitam o Sol há bilhões de anos, preservando pistas desde os primeiros dias do nosso sistema solar.",
-      "caption_en": "Beyond Neptune, countless frozen worlds have orbited the Sun for billions of years, preserving clues from the earliest days of our solar system. By combining. ..",
-      "sourcePage": "https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/"
-    },
-    "audio": null,
-    "title": "Hubble e Webb da NASA encontram objetos distantes do sistema solar ‘lembram’ do passado",
-    "title_pt": "Hubble e Webb da NASA encontram objetos distantes do sistema solar ‘lembram’ do passado",
-    "title_en": "NASA’s Hubble, Webb Find Far-out Solar System Objects ‘Remember’ Past",
-    "sub": "Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema.",
-    "sub_pt": "Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema.",
-    "sub_en": "For the first time, scientists used the joint power of NASA’s Hubble and James Webb Space Telescopes to study some of the most far-flung bodies in our solar system.",
-    "excerpt": "Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema solar, os Objetos Transnetunianos.",
-    "excerpt_pt": "Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema solar, os Objetos Transnetunianos.",
-    "excerpt_en": "For the first time, scientists used the joint power of NASA’s Hubble and James Webb Space Telescopes to study some of the most far-flung bodies in our solar system, Trans-Neptunian Objects.",
-    "body": "<p>Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema solar, os Objetos Transnetunianos. Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema solar, os Objetos Transnetunianos (TNOs).</p><p>Descobrindo objetos gelados no Cinturão de Kuiper As observações do Hubble na periferia do nosso sistema solar encontraram uma lua orbitando Makemake e várias novas luas ao redor de Plutão. Obra: NASA, ESA, Leah Hustak (STScI) Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema solar, os Objetos Transnetunianos (TNOs).</p><p>Em dois artigos complementares publicados terça-feira no The Astronomical Journal, as equipes analisaram a cor, a composição e a distribuição de tamanho de 27 TNOs minúsculos e escuros recém-descobertos. Na pesquisa mais profunda do TNO até à data, equipas lideradas por candidatos a doutoramento da Universidade de Victoria, no Canadá, sob a orientação do Conselho Nacional de Investigação do Canadá, e da Universidade do Norte do Arizona, em Flagstaff, examinaram uma parte do céu.</p><p>Webb descobriu 27 novos TNOs notavelmente fracos, um deles tão fraco que equivale a estar na Terra e ver um pequeno enxame de vaga-lumes na Lua. O menor que observaram tem um diâmetro de cerca de 5 quilômetros, que é cerca de cinco vezes menor do que o que é possível detectar com os telescópios terrestres mais sensíveis.</p><p>Com a sensibilidade do Hubble na luz visível e a do Webb no infravermelho, os telescópios espaciais fornecem mais informações do que qualquer um deles poderia sozinho. O Goddard Space Flight Center da NASA em Greenbelt, Maryland, gerencia o telescópio e as operações da missão.</p><p>O Space Telescope Science Institute em Baltimore, que é operado pela Associação de Universidades para Pesquisa em Astronomia, conduz operações científicas do Hubble para a NASA.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema solar, os Objetos Transnetunianos. Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema solar, os Objetos Transnetunianos (TNOs).</p><p>Descobrindo objetos gelados no Cinturão de Kuiper As observações do Hubble na periferia do nosso sistema solar encontraram uma lua orbitando Makemake e várias novas luas ao redor de Plutão. Obra: NASA, ESA, Leah Hustak (STScI) Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais distantes do nosso sistema solar, os Objetos Transnetunianos (TNOs).</p><p>Em dois artigos complementares publicados terça-feira no The Astronomical Journal, as equipes analisaram a cor, a composição e a distribuição de tamanho de 27 TNOs minúsculos e escuros recém-descobertos. Na pesquisa mais profunda do TNO até à data, equipas lideradas por candidatos a doutoramento da Universidade de Victoria, no Canadá, sob a orientação do Conselho Nacional de Investigação do Canadá, e da Universidade do Norte do Arizona, em Flagstaff, examinaram uma parte do céu.</p><p>Webb descobriu 27 novos TNOs notavelmente fracos, um deles tão fraco que equivale a estar na Terra e ver um pequeno enxame de vaga-lumes na Lua. O menor que observaram tem um diâmetro de cerca de 5 quilômetros, que é cerca de cinco vezes menor do que o que é possível detectar com os telescópios terrestres mais sensíveis.</p><p>Com a sensibilidade do Hubble na luz visível e a do Webb no infravermelho, os telescópios espaciais fornecem mais informações do que qualquer um deles poderia sozinho. O Goddard Space Flight Center da NASA em Greenbelt, Maryland, gerencia o telescópio e as operações da missão.</p><p>O Space Telescope Science Institute em Baltimore, que é operado pela Associação de Universidades para Pesquisa em Astronomia, conduz operações científicas do Hubble para a NASA.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>For the first time, scientists used the joint power of NASA’s Hubble and James Webb Space Telescopes to study some of the most far-flung bodies in our solar system, Trans-Neptunian Objects. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Uncovering Icy Objects in the Kuiper Belt Hubble observations of the outskirts of our solar system found a moon orbiting Makemake and several new moons around Pluto. NASA, ESA, Leah Hustak (STScI) For the first time, scientists used the joint power of NASA’s Hubble and James Webb Space Telescopes to study some of the most far-flung bodies in.</p><p>In two complementary papers published Tuesday in The Astronomical Journal, teams analyzed the color, composition, and size distribution of 27 newly discovered tiny, dim TNOs. In the deepest TNO survey to date, teams led by PhD candidates from the University of Victoria in Canada, under the guidance of the National Research Council of Canada, and.</p><p>Webb discovered 27 new, remarkably dim TNOs, one so faint it is equivalent to standing on Earth and seeing a small swarm of fireflies on the Moon. The smallest one they observed has a diameter of about 3 miles (5 kilometers), which is about five times smaller than what is possible to detect with the most sensitive.</p><p>With Hubble’s sensitivity in visible light and Webb’s in infrared, the space telescopes provide more insights than either can on its own. NASA’s Goddard Space Flight Center in Greenbelt, Maryland, manages the telescope and mission operations.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>The Space Telescope Science Institute in Baltimore, which is operated by the Association of Universities for Research in Astronomy, conducts Hubble science operations for NASA. Webb is an international program led by NASA with its partners, ESA (European Space Agency) and CSA (Canadian Space Agency).</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais.",
-      "Dado-chave: Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos mais.",
-      "Dado-chave: Pela primeira vez, os cientistas usaram o poder conjunto dos Telescópios Espaciais Hubble e James Webb da NASA para estudar alguns dos corpos.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: For the first time, scientists used the joint power of NASA’s Hubble and James Webb Space Telescopes to study some of the most far-flung bodies in.",
-      "Key detail: For the first time, scientists used the joint power of NASA’s Hubble and James Webb Space Telescopes to study some of the most far-flung bodies.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "08 set 2026",
-    "date_pt": "08 set 2026",
-    "date_en": "08 Sep 2026",
-    "time": "14h00",
-    "time_pt": "14h00",
-    "time_en": "14: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-09-08T14:00:28+00:00",
-    "lastModifiedIso": "2026-09-08T19:01:41+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Hubble e Webb da NASA encontram objetos distantes do sistema solar ‘lembram’ do passado"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Hubble e Webb da NASA encontram objetos distantes do sistema solar ‘lembram’ do passado"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA's Hubble and Webb find distant solar system objects 'remember' the past"
-    ],
-    "srcUrl": "https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-hubble-webb-find-far-out-solar-system-objects-remember-past/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Hubble e Webb da NASA encontram objetos distantes do sistema solar ‘lembram’ do passado",
-    "imageAlt_pt": "Hubble e Webb da NASA encontram objetos distantes do sistema solar ‘lembram’ do passado",
-    "imageAlt_en": "NASA’s Hubble, Webb Find Far-out Solar System Objects ‘Remember’ Past",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
@@ -2115,17 +2094,17 @@ window.postsData = [
     "body_en": "<p>The U. S. National Science Foundation today released 12 new notices of funding opportunities providing over $1.5 billion for foundational research, including basic and use-inspired inquiry. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. National Science Foundation today released 12 new notices of funding opportunities (NOFOs) providing over $1. National Science Foundation today released 12 new notices of funding opportunity (NOFOs) providing over $1.</p><p>These funding opportunities support the foremost goal in the administration&#x27;s memorandum &quot; Ushering in a New Golden Age of American Innovation: Fiscal Year 2028 Administration. They also deliver on a central premise of the report Science: A New Golden Age, that America must respond to the forces reshaping the scientific enterprise and create conditions.</p><p>NOFOs advance NSF&#x27;s core mission to support foundational research that leads to scientific breakthroughs and opens new frontiers of knowledge. The funding opportunities place particular emphasis on bold, paradigm-challenging inquiry, foundational research that forges new connections across disciplines, and projects that.</p><p>America&#x27;s scientific enterprise is shaped by how we empower researchers to explore the frontiers of discovery,&quot; said Brian Stone, Performing the Duties of the NSF Director. Assistant to the President and Director of the White House Office of Science and Technology Policy.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Where scientifically justified, researchers are encouraged to request awards of up to five years of support for long-term, ambitious research questions, allowing them to focus on. Many of the new funding opportunities will also enable structured experiments in how NSF supports discovery.</p><p>Because the account originates with NSF News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-announces-15b-foundational-research-drive-scientific\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para.",
-      "Dado-chave: A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para",
+      "Dado-chave: A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para.",
-      "Dado-chave: A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para",
+      "Dado-chave: A Fundação Nacional de Ciência dos EUA divulgou hoje 12 novos avisos de oportunidades de financiamento que fornecem mais de US$ 1, 5 bilhão para.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: The U. S. National Science Foundation today released 12 new notices of funding opportunities providing over $1.",
-      "Key detail: The U. S. National Science Foundation today released 12 new notices of funding opportunities providing over $1",
+      "Key detail: The U. S. National Science Foundation today released 12 new notices of funding opportunities providing over $1.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "17 ago 2026",
