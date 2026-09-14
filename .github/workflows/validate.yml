@@ -1,0 +1,33 @@
+name: Validar alterações
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+      - name: Gerar índices e validar sem consultar serviços externos
+        run: |
+          set -euo pipefail
+          node scripts/build_archive_index.mjs
+          python scripts/validate_site.py
+          python scripts/validate_vortice.py
+          python -m unittest discover -s scripts -p 'test_*.py'
+          node --check assets/js/app.js
+          node --check assets/js/book.js
+          node --check assets/js/cw-analytics.js
+          node scripts/test_app_logic.mjs
+          node scripts/test_analytics_consent.mjs

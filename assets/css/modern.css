@@ -49,26 +49,14 @@ html {
 
 body.modern-editorial {
   min-width: 320px;
-  background:
-    radial-gradient(circle at 7% 2%, rgba(79, 117, 237, .08), transparent 26rem),
-    linear-gradient(180deg, #f8faff 0, var(--bg) 34rem, #f7f9fc 100%);
+  background: #f8fafc;
   color: var(--ink);
   font: 400 16px/1.65 var(--sans);
   letter-spacing: -.008em;
 }
 
 body.modern-editorial::before {
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  content: "";
-  opacity: .35;
-  background-image:
-    linear-gradient(rgba(49, 87, 213, .025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(49, 87, 213, .025) 1px, transparent 1px);
-  background-size: 48px 48px;
-  mask-image: linear-gradient(to bottom, black, transparent 54rem);
+  content: none;
 }
 
 ::selection {

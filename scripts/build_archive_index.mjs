@@ -33,4 +33,23 @@ for (const [input, output] of [
   await mkdir(dirname(resolve(root, output)), { recursive: true });
   await writeFile(resolve(root, output), bytes, 'utf8');
   console.log(`${output}: ${index.length} matérias, ${(Buffer.byteLength(bytes) / 1024).toFixed(1)} KB.`);
+  if (input === 'all_posts.json') {
+    // Dictionary-encode repeated values and field names without dropping search text.
+    // Keep the original index available for older clients and external consumers.
+    const columns = fields.filter(key => index.some(post => key in post));
+    const dictionary = [];
+    const references = new Map();
+    const rows = index.map(post => columns.map(key => {
+      if (!(key in post)) return null;
+      const serialized = JSON.stringify(post[key]);
+      if (!references.has(serialized)) {
+        references.set(serialized, dictionary.length);
+        dictionary.push(post[key]);
+      }
+      return references.get(serialized);
+    }));
+    const compact = `${JSON.stringify({ version: 1, columns, dictionary, rows })}\n`;
+    await writeFile(resolve(root, 'assets/data/archive-compact.json'), compact, 'utf8');
+    console.log(`assets/data/archive-compact.json: ${(Buffer.byteLength(compact) / 1024).toFixed(1)} KB (${(100 * (1 - Buffer.byteLength(compact) / Buffer.byteLength(bytes))).toFixed(1)}% menor).`);
+  }
 }

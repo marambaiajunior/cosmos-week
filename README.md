@@ -1,5 +1,7 @@
 # Cosmos Week
 
+Melhorias de desempenho e da landing de 13 de setembro de 2026: veja `MELHORIAS-2026-09-13.md`.
+
 > Versão corrigida de 7 de setembro de 2026. Para instalar, leia **ATUALIZAR-GITHUB.md**. O diagnóstico e os resultados estão em **RELATORIO-CORRECOES-2026-09-07.md**.
 
 Portal bilíngue de notícias científicas, com cobertura de astronomia, astrofísica, cosmologia, física e outras fronteiras da ciência.
@@ -57,6 +59,7 @@ O código, a identidade editorial e o conteúdo pertencem aos respectivos titula
 
 ```bash
 python scripts/normalize_book_paths.py
+node scripts/build_archive_index.mjs
 python scripts/validate_site.py
 python scripts/validate_vortice.py
 python -m unittest discover -s scripts -p 'test_*.py'
@@ -65,3 +68,5 @@ node scripts/test_analytics_consent.mjs
 ```
 
 Use Python 3.11 ou superior e Node.js 24. Não há dependências adicionais para esses comandos. A verificação opcional das dimensões das imagens usa Pillow quando instalado.
+
+No Windows, use `python -X utf8` nos comandos Python para preservar acentos e símbolos no terminal. O gerador de índices também cria `assets/data/archive-compact.json`, utilizado pela busca e pelo arquivo, mantendo `archive-index.json` para compatibilidade. Não edite esses índices manualmente.

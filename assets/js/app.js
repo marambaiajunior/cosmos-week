@@ -133,7 +133,7 @@ const EXTRA_UI = {
 };
 
 const SUMMARY_FEED = '/assets/data/posts-index.json';
-const FULL_ARCHIVE_FEED = '/assets/data/archive-index.json';
+const FULL_ARCHIVE_FEED = '/assets/data/archive-compact.json';
 
   const IMG = {
     pillars:         'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg/1280px-Pillars_of_creation_2014_HST_WFC3-UVIS_full-res_denoised.jpg',
@@ -425,6 +425,24 @@ const FULL_ARCHIVE_FEED = '/assets/data/archive-index.json';
       payload.every(post => post && typeof post.slug === 'string' && post.slug.length > 0);
   }
 
+  function decodeArchiveFeed(payload) {
+    if (Array.isArray(payload)) return payload;
+    const { version, columns, dictionary, rows } = payload || {};
+    if (version !== 1 || !Array.isArray(columns) || !Array.isArray(dictionary) || !Array.isArray(rows) ||
+        !columns.includes('slug') || new Set(columns).size !== columns.length ||
+        columns.some(key => typeof key !== 'string' || ['__proto__', 'constructor', 'prototype'].includes(key))) {
+      throw new Error('Invalid compact archive');
+    }
+    return rows.map(row => {
+      if (!Array.isArray(row) || row.length !== columns.length) throw new Error('Invalid archive row');
+      return Object.fromEntries(row.flatMap((ref, index) => {
+        if (ref === null) return [];
+        if (!Number.isInteger(ref) || ref < 0 || ref >= dictionary.length) throw new Error('Invalid archive reference');
+        return [[columns[index], dictionary[ref]]];
+      }));
+    });
+  }
+
   function ensureSummaryFeedLoaded(force = false) {
     if (summaryFeedPromise) return summaryFeedPromise;
     if (summaryFeedLoaded && !force) return Promise.resolve(DB);
@@ -446,6 +464,7 @@ const FULL_ARCHIVE_FEED = '/assets/data/archive-index.json';
     if (fullArchiveLoaded && !force) return Promise.resolve(DB);
     archiveLoadFailed = false;
     fullArchivePromise = fetchResource(feedRequestUrl(FULL_ARCHIVE_FEED, force), { force })
+      .then(decodeArchiveFeed)
       .then(payload => {
         if (!validFeed(payload)) throw new Error('Invalid archive feed');
         DB = mergePostCollections(payload, DB);
@@ -614,7 +633,7 @@ const FULL_ARCHIVE_FEED = '/assets/data/archive-index.json';
     const fallback = escapeAttr(fallbackImage(post));
     const localFallback = '/assets/cosmic-placeholder.svg';
     const alt      = escapeAttr(textFor(post, 'title'));
-    const decode   = loading === 'eager' ? 'sync' : 'async';
+    const decode   = 'async';
     const priority = loading === 'eager' ? 'high' : 'low';
     return `class="cw-image is-loading" src="${primary}" alt="${alt}" loading="${loading}" fetchpriority="${priority}" decoding="${decode}" referrerpolicy="no-referrer" onload="this.classList.add('is-ready');this.classList.remove('is-loading')" onerror="if(this.src!=='${fallback}'&&!this.src.endsWith('${localFallback}')){this.src='${fallback}';return;}if(!this.src.endsWith('${localFallback}')){this.src='${localFallback}';return;}this.classList.add('is-ready');this.classList.remove('is-loading')"`;
   }
@@ -3098,11 +3117,21 @@ function renderVisualStrip(layout = currentFrontLayout()) {
   }
 
   // Reading progress
-  window.addEventListener('scroll', () => {
-    const max = document.documentElement.scrollHeight - window.innerHeight;
-    const ratio = max > 0 ? (window.scrollY / max) * 100 : 0;
-    document.getElementById('readingProgress').style.width = `${ratio}%`;
-  }, { passive: true });
+  let readingProgressPending = false;
+  function updateReadingProgress() {
+    if (readingProgressPending) return;
+    readingProgressPending = true;
+    requestAnimationFrame(() => {
+      readingProgressPending = false;
+      const progress = document.getElementById('readingProgress');
+      if (!progress) return;
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      const ratio = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
+      progress.style.transform = `scaleX(${ratio})`;
+    });
+  }
+  window.addEventListener('scroll', updateReadingProgress, { passive: true });
+  window.addEventListener('resize', updateReadingProgress, { passive: true });
 
   window.addEventListener('popstate', event => parseRoute({ historyNavigation: true, state: event.state }));
 

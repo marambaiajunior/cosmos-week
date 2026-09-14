@@ -112,12 +112,12 @@ class PreservationTests(unittest.TestCase):
             with patch.multiple(cw, **replacements), patch.object(cw, 'enrich_posts_media'), patch('urllib.request.urlopen', side_effect=AssertionError('Unexpected network request')) as network:
                 cw.save_posts([cw.mark_preserve_content(copy.deepcopy(post)) for post in original])
             network.assert_not_called()
-            generated = json.loads((root / 'posts.json').read_text())
+            generated = json.loads((root / 'posts.json').read_text(encoding='utf-8'))
             self.assertEqual([p['slug'] for p in generated], [p['slug'] for p in original])
             for post, before in zip(generated, original):
                 for language, prefix in [('pt', 'noticia'), ('en', 'en/news')]:
                     self.assertEqual(post[f'body_{language}'], before[f'body_{language}'])
-                    raw = (root / prefix / post['slug'] / 'index.html').read_text()
+                    raw = (root / prefix / post['slug'] / 'index.html').read_text(encoding='utf-8')
                     parser = PageParser()
                     parser.feed(raw)
                     css = [ref for ref in parser.refs if '/assets/css/article-base-' in ref]

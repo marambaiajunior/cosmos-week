@@ -147,4 +147,31 @@ await check('book script does not attach a second menu handler on portal pages',
   assert.equal(env.nodes.get('mobileNavToggle')?.listeners.get('click')?.length || 0, 0);
 });
 
+await check('compact archive preserves every field in both languages', async () => {
+  const env = runtime();
+  const original = JSON.parse(await readFile(new URL('../assets/data/archive-index.json', import.meta.url), 'utf8'));
+  const packed = JSON.parse(await readFile(new URL('../assets/data/archive-compact.json', import.meta.url), 'utf8'));
+  env.context.packed = packed;
+  assert.deepEqual(JSON.parse(env.run('JSON.stringify(decodeArchiveFeed(packed))')), original);
+  env.context.fetch = async () => ({ ok: true, json: async () => packed });
+  await env.run('ensureFullArchiveLoaded()');
+  assert.equal(env.run('fullArchiveLoaded'), true);
+  assert.ok(env.run('DB.length') > 0);
+});
+
+await check('malformed compact archives fail visibly and remain retryable', async () => {
+  const env = runtime();
+  for (const payload of [
+    { version: 2, columns: [], dictionary: [], rows: [] },
+    { version: 1, columns: ['slug'], dictionary: ['star'], rows: [[8]] },
+    { version: 1, columns: ['slug'], dictionary: ['star'], rows: [[]] },
+    { version: 1, columns: ['slug', '__proto__'], dictionary: [], rows: [] },
+  ]) {
+    env.context.fetch = async () => ({ ok: true, json: async () => payload });
+    await env.run('ensureFullArchiveLoaded()');
+    assert.equal(env.run('archiveLoadFailed'), true);
+    assert.equal(env.run('fullArchiveLoaded'), false);
+  }
+});
+
 console.log(`Application logic: ${passed} regression cases passed.`);
