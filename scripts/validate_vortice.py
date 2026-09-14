@@ -381,7 +381,7 @@ def check_infrastructure(result: Result) -> None:
     result.check('href="/"' in raw_404, "infrastructure: custom 404 return link")
 
     result.check(GUIDE_PATH.is_file(), "infrastructure: lowercase checklist route exists")
-    result.check(not (ROOT / "Livro" / "vortice-maligno" / "checklist" / "index.html").exists(), "infrastructure: no conflicting uppercase checklist route")
+    result.check(not any(path.name == "Livro" for path in ROOT.iterdir()), "infrastructure: no conflicting uppercase checklist route")
 
 
 def contrast_ratio(foreground: str, background: str) -> float:

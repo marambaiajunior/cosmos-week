@@ -52,7 +52,7 @@ def main():
     for item in REQUIRED:
         if not (ROOT / item).is_file():
             errors.append(f'Arquivo ausente: {item}')
-    if (ROOT / 'Livro').exists():
+    if any(path.name == 'Livro' for path in ROOT.iterdir()):
         errors.append('Pasta Livro com maiúscula: use somente livro (rota canônica).')
     files = [p for p in ROOT.rglob('*') if p.is_file() and not IGNORED.intersection(p.relative_to(ROOT).parts)]
     folded = {}

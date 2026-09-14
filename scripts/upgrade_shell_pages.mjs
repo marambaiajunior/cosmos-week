@@ -36,10 +36,12 @@ for (const relativePath of pages) {
     );
   }
 
-  if (!isEnglish && !html.includes('/assets/css/book.css')) {
+  const bookStyles = relativePath.startsWith('livro/') ? 'book.css' : 'book-promo.css';
+  if (!relativePath.startsWith('livro/')) html = html.replaceAll('/assets/css/book.css', '/assets/css/book-promo.css');
+  if (!isEnglish && !html.includes(`/assets/css/${bookStyles}`)) {
     html = html.replace(
       /<link href="\/assets\/css\/modern\.css" rel="stylesheet"\s*\/>/,
-      '<link href="/assets/css/modern.css" rel="stylesheet"/>\n<link href="/assets/css/book.css" rel="stylesheet"/>'
+      `<link href="/assets/css/modern.css" rel="stylesheet"/>\n<link href="/assets/css/${bookStyles}" rel="stylesheet"/>`
     );
   }
 
