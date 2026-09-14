@@ -1,0 +1,103 @@
+/* Homepage and contextual promotion */
+.book-promo{
+  position:relative;
+  isolation:isolate;
+  display:grid;
+  grid-template-columns:minmax(180px,260px) minmax(0,1fr);
+  gap:36px;
+  align-items:center;
+  margin:42px 0;
+  padding:34px;
+  overflow:hidden;
+  border:1px solid rgba(120,85,58,.20);
+  border-radius:30px;
+  background:linear-gradient(128deg,#fbf5ec 0%,#efe0ca 58%,#e5c8a5 100%);
+  box-shadow:0 24px 70px rgba(34,28,20,.10);
+}
+.book-promo::before{
+  content:"";
+  position:absolute;
+  z-index:-1;
+  right:-8%;
+  bottom:-72%;
+  width:500px;
+  height:500px;
+  border-radius:50%;
+  background:radial-gradient(circle,rgba(123,76,50,.20),transparent 66%);
+}
+.book-promo-cover{
+  display:block;
+  width:min(100%,230px);
+  height:auto;
+  margin:auto;
+  border-radius:5px;
+  box-shadow:0 24px 48px rgba(29,24,19,.26);
+  transform:rotate(-1.1deg);
+}
+.book-promo-picture{display:block;width:min(100%,230px);margin:auto}
+.book-promo-kicker{
+  font:800 11px/1.25 Inter,Arial,sans-serif;
+  letter-spacing:.15em;
+  text-transform:uppercase;
+  color:#963e32;
+}
+.book-promo h2{
+  margin:9px 0 12px;
+  font:700 clamp(32px,4.2vw,56px)/.98 Newsreader,Georgia,serif;
+  letter-spacing:-.03em;
+  color:#27211d;
+}
+.book-promo-sub{
+  max-width:760px;
+  margin:0;
+  color:#514940;
+  font:500 17px/1.65 Inter,Arial,sans-serif;
+}
+.book-promo-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:22px;
+}
+.book-promo-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:44px;
+  padding:0 18px;
+  border:1px solid rgba(93,57,39,.28);
+  border-radius:999px;
+  font:800 12px/1 Inter,Arial,sans-serif;
+  text-decoration:none!important;
+  transition:transform .18s ease,box-shadow .18s ease,background .18s ease;
+}
+.book-promo-btn.primary{
+  color:#fff;
+  border-color:#2a2724;
+  background:#2a2724;
+  box-shadow:0 10px 24px rgba(42,39,36,.16);
+}
+.book-promo-btn.secondary{
+  color:#503b30;
+  background:rgba(255,255,255,.62);
+}
+.book-promo-btn:hover{transform:translateY(-2px)}
+.book-promo-note{
+  margin-top:14px;
+  color:#76685d;
+  font:600 12px/1.55 Inter,Arial,sans-serif;
+}
+.book-promo-note a{color:#70452f;text-underline-offset:3px}
+
+
+.book-promo-btn:focus-visible{outline:3px solid #4b6fff;outline-offset:3px}
+@media(max-width:900px){.book-promo{grid-template-columns:170px minmax(0,1fr);gap:24px}}
+@media(max-width:720px){
+  .book-promo{grid-template-columns:1fr;padding:26px;text-align:center}
+  .book-promo-cover,.book-promo-picture{width:150px}
+  .book-promo-actions{justify-content:center}
+}
+@media(prefers-reduced-motion:reduce){
+  .book-promo-btn{transition:none}
+  .book-promo-btn:hover{transform:none}
+}

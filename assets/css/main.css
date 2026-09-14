@@ -79,7 +79,7 @@
     #readingProgress {
       position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 9999;
       background: linear-gradient(90deg, var(--accent) 0%, var(--accent-2) 100%);
-      width: 0%; transition: width .1s linear;
+      width: 100%; transform: scaleX(0); transform-origin: left;
     }
 
     /* ── Layout ───────────────────────────────────────────────────────── */
