@@ -3,6 +3,420 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "celebrate-international-observe-the-moon-night-with-nasa",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://www.nasa.gov/wp-content/uploads/2026/09/55314049769-13385da00b-k.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Comemore a Noite Internacional de Observação da Lua com a NASA",
+    "title_pt": "Comemore a Noite Internacional de Observação da Lua com a NASA",
+    "title_en": "Celebrate International Observe the Moon Night with NASA",
+    "sub": "Em abril, o mundo assistiu a quatro humanos orbitarem a Lua pela primeira vez em mais de 50 anos com a missão Artemis II da NASA.",
+    "sub_pt": "Em abril, o mundo assistiu a quatro humanos orbitarem a Lua pela primeira vez em mais de 50 anos com a missão Artemis II da NASA.",
+    "sub_en": "In April, the world watched as four humans circled the Moon for the first time in over 50 years with NASA’s Artemis II mission.",
+    "excerpt": "Em abril, o mundo assistiu a quatro humanos orbitarem a Lua pela primeira vez em mais de 50 anos com a missão Artemis II da NASA. No sábado, setembro.",
+    "excerpt_pt": "Em abril, o mundo assistiu a quatro humanos orbitarem a Lua pela primeira vez em mais de 50 anos com a missão Artemis II da NASA. No sábado, setembro.",
+    "excerpt_en": "In April, the world watched as four humans circled the Moon for the first time in over 50 years with NASA’s Artemis II mission. On Saturday, Sept.",
+    "body": "<p>Em abril, o mundo assistiu a quatro humanos orbitarem a Lua pela primeira vez em mais de 50 anos com a missão Artemis II da NASA. 19, o público é convidado a consultar novamente os eventos da NASA em todo o país, incluindo a celebração Internacional da Noite da Lua, realizada no Goddard Space da NASA [. ].</p><p>Este ano, a NASA celebrará a Noite Internacional de Observação da Lua com pessoas de todo o mundo em setembro. Para as pessoas que não podem viajar para o Cinturão Verde, há oportunidades de participar da Noite Internacional de Observação da Lua em todo o planeta.</p><p>Junte-se a observadores lunares de todo o mundo observando a Lua com amigos e familiares, participando de um evento virtual ou encontrando um evento em sua área. O International Observe the Moon Night é patrocinado pela missão LRO da NASA e pela Divisão de Exploração do Sistema Solar do Goddard Space Flight Center da NASA, com o apoio de muitos parceiros.</p><p>Para saber mais sobre o programa Artemis da NASA, visite: https: //www. nasa. gov/artemis Para saber mais sobre o LRO, visite: https: //www. nasa. 19, o artigo Em abril, o mundo assistiu a quatro humanos orbitarem a Lua pela primeira vez em mais de 50 anos com a missão Artemis II da NASA.</p><p>No dia 19, o público é convidado a consultar novamente os eventos da NASA em todo o país, incluindo a celebração Internacional da Noite da Lua, realizada no Centro de Visitantes do Goddard Space Flight Center da NASA em Greenbelt, Maryland. Na NASA Goddard, a celebração deste ano destacará a exploração contínua da Lua pela agência, incluindo a histórica missão Artemis II.</p><p>Dentro do Centro de Visitantes, os visitantes podem até ver uma rocha real da Apollo 14 Moon em exibição.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/goddard/celebrate-international-observe-the-moon-night-with-nasa/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Em abril, o mundo assistiu a quatro humanos orbitarem a Lua pela primeira vez em mais de 50 anos com a missão Artemis II da NASA. 19, o público é convidado a consultar novamente os eventos da NASA em todo o país, incluindo a celebração Internacional da Noite da Lua, realizada no Goddard Space da NASA [. ].</p><p>Este ano, a NASA celebrará a Noite Internacional de Observação da Lua com pessoas de todo o mundo em setembro. Para as pessoas que não podem viajar para o Cinturão Verde, há oportunidades de participar da Noite Internacional de Observação da Lua em todo o planeta.</p><p>Junte-se a observadores lunares de todo o mundo observando a Lua com amigos e familiares, participando de um evento virtual ou encontrando um evento em sua área. O International Observe the Moon Night é patrocinado pela missão LRO da NASA e pela Divisão de Exploração do Sistema Solar do Goddard Space Flight Center da NASA, com o apoio de muitos parceiros.</p><p>Para saber mais sobre o programa Artemis da NASA, visite: https: //www. nasa. gov/artemis Para saber mais sobre o LRO, visite: https: //www. nasa. 19, o artigo Em abril, o mundo assistiu a quatro humanos orbitarem a Lua pela primeira vez em mais de 50 anos com a missão Artemis II da NASA.</p><p>No dia 19, o público é convidado a consultar novamente os eventos da NASA em todo o país, incluindo a celebração Internacional da Noite da Lua, realizada no Centro de Visitantes do Goddard Space Flight Center da NASA em Greenbelt, Maryland. Na NASA Goddard, a celebração deste ano destacará a exploração contínua da Lua pela agência, incluindo a histórica missão Artemis II.</p><p>Dentro do Centro de Visitantes, os visitantes podem até ver uma rocha real da Apollo 14 Moon em exibição.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/goddard/celebrate-international-observe-the-moon-night-with-nasa/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>In April, the world watched as four humans circled the Moon for the first time in over 50 years with NASA’s Artemis II mission. On Saturday, Sept. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. 19, the public is invited to look up again with NASA events across the country, including the International Observe the Moon Night celebration held at NASA’s Goddard Space. In April, the world watched as four humans circled the Moon for the first time in over 50 years with NASA’s Artemis II mission.</p><p>This year, NASA will celebrate International Observe the Moon Night with people around the world on Sept. For people who cannot travel to Greenbelt, there are opportunities to participate in International Observe the Moon Night from all around the planet.</p><p>Join lunar observers around the world by observing the Moon with friends and family, attending a virtual event or finding an event in your area. International Observe the Moon Night is sponsored by NASA’s LRO mission and the Solar System Exploration Division of NASA’s Goddard Space Flight Center, with support from many.</p><p>To learn about NASA’s Artemis program, visit: https: //www. nasa. gov/artemis To learn about LRO, visit: https: //www. nasa. In April, the world watched as four humans circled the Moon for the first time in over 50 years with NASA&#x27;s Artemis II mission.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>19, the Article In April, the world watched as four humans circled the Moon for the first time in over 50 years with NASA’s Artemis II mission. 19, the public is invited to look up again with NASA events across the country, including the International Observe the Moon Night celebration held at NASA’s Goddard Space Flight.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/goddard/celebrate-international-observe-the-moon-night-with-nasa/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Em abril, o mundo assistiu a quatro humanos orbitarem a Lua pela primeira vez em mais de 50 anos com a missão Artemis II da NASA",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Em abril, o mundo assistiu a quatro humanos orbitarem a Lua pela primeira vez em mais de 50 anos com a missão Artemis II da NASA",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: In April, the world watched as four humans circled the Moon for the first time in over 50 years with NASA’s Artemis II mission",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "15 set 2026",
+    "date_pt": "15 set 2026",
+    "date_en": "15 Sep 2026",
+    "time": "16h15",
+    "time_pt": "16h15",
+    "time_en": "16: 15 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-09-15T16:15:12+00:00",
+    "lastModifiedIso": "2026-09-15T19:14:02+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Comemore a Noite Internacional de Observação da Lua com a NASA"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Comemore a Noite Internacional de Observação da Lua com a NASA"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Celebrate International Moon Sighting Night with NASA"
+    ],
+    "srcUrl": "https://www.nasa.gov/centers-and-facilities/goddard/celebrate-international-observe-the-moon-night-with-nasa/",
+    "realUrl": "https://www.cosmosweek.com/?article=celebrate-international-observe-the-moon-night-with-nasa",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=celebrate-international-observe-the-moon-night-with-nasa",
+    "realUrl_en": "https://www.cosmosweek.com/?article=celebrate-international-observe-the-moon-night-with-nasa&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/celebrate-international-observe-the-moon-night-with-nasa/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/celebrate-international-observe-the-moon-night-with-nasa/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/celebrate-international-observe-the-moon-night-with-nasa/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/celebrate-international-observe-the-moon-night-with-nasa/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/celebrate-international-observe-the-moon-night-with-nasa/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/celebrate-international-observe-the-moon-night-with-nasa/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 86,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Comemore a Noite Internacional de Observação da Lua com a NASA",
+    "imageAlt_pt": "Comemore a Noite Internacional de Observação da Lua com a NASA",
+    "imageAlt_en": "Celebrate International Observe the Moon Night with NASA",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "swap-pepssi-and-the-secrets-of-the-solar-system",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/1280px-The_Earth_seen_from_Apollo_17.jpg",
+    "inline_images": [
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_557x420_crop_center-center_line/new-horizons-instruments.jpg.webp",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_557x420_crop_center-center_line/new-horizons-instruments.jpg",
+        "alt": "Instrumentos Novos Horizontes",
+        "alt_pt": "Instrumentos Novos Horizontes",
+        "alt_en": "New Horizons instruments",
+        "caption": "Instrumentos Novos Horizontes",
+        "caption_pt": "Instrumentos Novos Horizontes",
+        "caption_en": "New Horizons instruments"
+      },
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x1382_crop_center-center_82_line/new-horizons-heliosphere-diagram.jpg.webp",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_2400x1382_crop_center-center_82_line/new-horizons-heliosphere-diagram.jpg",
+        "alt": "Novos Horizontes e a heliosfera",
+        "alt_pt": "Novos Horizontes e a heliosfera",
+        "alt_en": "New Horizons and the heliosphere",
+        "caption": "Novos Horizontes e a heliosfera",
+        "caption_pt": "Novos Horizontes e a heliosfera",
+        "caption_en": "New Horizons and the heliosphere"
+      },
+      {
+        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_576x576_crop_center-center_82_line/ngr-stage-2.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "SWAP, PEPSSI e os segredos do Sistema Solar",
+    "title_pt": "SWAP, PEPSSI e os segredos do Sistema Solar",
+    "title_en": "SWAP, PEPSSI, and the secrets of the Solar System",
+    "sub": "A sonda New Horizons da NASA está preparada para fazer descobertas sobre os confins do nosso Sistema Solar, mas dois dos seus principais instrumentos correm o risco de serem.",
+    "sub_pt": "A sonda New Horizons da NASA está preparada para fazer descobertas sobre os confins do nosso Sistema Solar, mas dois dos seus principais instrumentos correm o risco de serem.",
+    "sub_en": "NASA's New Horizons is poised to make discoveries about the farthest reaches of our Solar System, but two of its key instruments are in danger of being shut down prematurely.",
+    "excerpt": "A sonda New Horizons da NASA está preparada para fazer descobertas sobre os confins do nosso Sistema Solar, mas dois dos seus principais instrumentos correm o risco de serem encerrados prematuramente.",
+    "excerpt_pt": "A sonda New Horizons da NASA está preparada para fazer descobertas sobre os confins do nosso Sistema Solar, mas dois dos seus principais instrumentos correm o risco de serem encerrados prematuramente.",
+    "excerpt_en": "NASA's New Horizons is poised to make discoveries about the farthest reaches of our Solar System, but two of its key instruments are in danger of being shut down prematurely.",
+    "body": "<p>A sonda New Horizons da NASA está preparada para fazer descobertas sobre os confins do nosso Sistema Solar, mas dois dos seus principais instrumentos correm o risco de serem encerrados prematuramente. Escrito por Kirby Runyon Geólogo planetário e cientista pesquisador do Planetary Science Institute em 15 de setembro de 2026 “Por que não voltamos?” Como cientista planetário, ouço essa pergunta há muito tempo, em muitos mundos do Sistema Solar.</p><p>Claro, ouvimos isso desde 1972 sobre humanos na Lua. Mas a NASA também não enviou uma missão de volta a Vênus desde que a missão Magalhães terminou em 1994 e, ao mesmo tempo, já se passaram 20 anos desde que a NASA esteve em Marte com os módulos de aterrissagem e orbitadores gêmeos Viking.</p><p>A espaçonave New Horizons da NASA fez seu sobrevoo histórico por Plutão em 2015, 11 anos atrás, no verão passado. Se eu fosse um apostador, apostaria que daqui a dez anos, em 2036, as pessoas começarão a perguntar: “Por que não voltamos?” sobre Plutão e o cinturão de Kuiper mais amplo.</p><p>No dia 1º deste ano, dois instrumentos da New Horizons, os instrumentos SWAP (Solar Wind Around Pluto) e PEPSSI (Pluto Energetic Particle Spectrometer Science Investigation), serão desligados para economizar, essencialmente, um centavo. 1 UA é a distância média Terra-Sol de cerca de 150 milhões de quilómetros ou 93 milhões de milhas) do Sol, colocando a nave espacial directamente fora da heliosfera do Sol e directamente na “matéria estelar” do resto da Galáxia, a Via Láctea.</p><p>Durante a vida da maioria dos humanos vivos hoje, a New Horizons é a nossa única oportunidade de medir a ligação entre o espaço interestelar, a heliosfera, os mundos oceânicos habitáveis ​​e o nosso planeta natal, a Terra. Esta missão conceptual enviaria uma nave espacial com mais do dobro da velocidade da Voyager ou da New Horizons numa missão de 50 anos no VLISM, a cerca de 500 UA de distância.</p><p>Esta missão interdisciplinar passaria por um desses 130 planetas anões além de Netuno, criando imagens de suas fascinantes formas geológicas e usando seus espectrômetros ultravioleta e infravermelho para decifrar a composição de sua superfície.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/swap-pepssi-and-the-secrets-of-the-solar-system\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>A sonda New Horizons da NASA está preparada para fazer descobertas sobre os confins do nosso Sistema Solar, mas dois dos seus principais instrumentos correm o risco de serem encerrados prematuramente. Escrito por Kirby Runyon Geólogo planetário e cientista pesquisador do Planetary Science Institute em 15 de setembro de 2026 “Por que não voltamos?” Como cientista planetário, ouço essa pergunta há muito tempo, em muitos mundos do Sistema Solar.</p><p>Claro, ouvimos isso desde 1972 sobre humanos na Lua. Mas a NASA também não enviou uma missão de volta a Vênus desde que a missão Magalhães terminou em 1994 e, ao mesmo tempo, já se passaram 20 anos desde que a NASA esteve em Marte com os módulos de aterrissagem e orbitadores gêmeos Viking.</p><p>A espaçonave New Horizons da NASA fez seu sobrevoo histórico por Plutão em 2015, 11 anos atrás, no verão passado. Se eu fosse um apostador, apostaria que daqui a dez anos, em 2036, as pessoas começarão a perguntar: “Por que não voltamos?” sobre Plutão e o cinturão de Kuiper mais amplo.</p><p>No dia 1º deste ano, dois instrumentos da New Horizons, os instrumentos SWAP (Solar Wind Around Pluto) e PEPSSI (Pluto Energetic Particle Spectrometer Science Investigation), serão desligados para economizar, essencialmente, um centavo. 1 UA é a distância média Terra-Sol de cerca de 150 milhões de quilómetros ou 93 milhões de milhas) do Sol, colocando a nave espacial directamente fora da heliosfera do Sol e directamente na “matéria estelar” do resto da Galáxia, a Via Láctea.</p><p>Durante a vida da maioria dos humanos vivos hoje, a New Horizons é a nossa única oportunidade de medir a ligação entre o espaço interestelar, a heliosfera, os mundos oceânicos habitáveis ​​e o nosso planeta natal, a Terra. Esta missão conceptual enviaria uma nave espacial com mais do dobro da velocidade da Voyager ou da New Horizons numa missão de 50 anos no VLISM, a cerca de 500 UA de distância.</p><p>Esta missão interdisciplinar passaria por um desses 130 planetas anões além de Netuno, criando imagens de suas fascinantes formas geológicas e usando seus espectrômetros ultravioleta e infravermelho para decifrar a composição de sua superfície.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/swap-pepssi-and-the-secrets-of-the-solar-system\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>NASA&#x27;s New Horizons is poised to make discoveries about the farthest reaches of our Solar System, but two of its key instruments are in danger of being shut down prematurely. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Written by Kirby Runyon Planetary geologist and research scientist at the Planetary Science Institute September 15, 2026 “Why have we not gone back. Of course, we’ve heard it since 1972 regarding humans on the Moon.</p><p>But NASA has also not sent a mission back to Venus since the Magellan mission ended in 1994, and at that same time, it had been 20 years since NASA had been to Mars with the twin. NASA’s New Horizons spacecraft made its historic flyby of Pluto in 2015, 11 years ago this past summer.</p><p>If I were a betting person, I would bet that another ten years from now, by 2036, people will start asking, “Why have we not gone back?” about Pluto and the broader Kuiper belt. 1 of this year, two instruments on New Horizons, the SWAP (Solar Wind Around Pluto) and PEPSSI (Pluto Energetic Particle Spectrometer Science Investigation) instruments, will be.</p><p>1 AU is the average Earth-Sun distance of about 150 million kilometers or 93 million miles) from the Sun, putting the spacecraft squarely outside the Sun’s heliosphere and. Numerical computer models of the magnetohydrodynamics (I love big science words like that!) of the heliosphere show that when it encounters a cold, dense interstellar cloud of.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>For the lifetime of most humans alive today, New Horizons is our only chance to measure the link between interstellar space, the heliosphere, habitable ocean worlds, and our home. This conceptual mission would send a spacecraft speeding more than double the speed of Voyager or New Horizons on a 50-year mission into the VLISM, roughly 500 AU away.</p><p>Because this item comes through The Planetary Society as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/swap-pepssi-and-the-secrets-of-the-solar-system\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: A sonda New Horizons da NASA está preparada para fazer descobertas sobre os confins do nosso Sistema Solar, mas dois dos seus principais instrumentos",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_pt": [
+      "Em foco: A sonda New Horizons da NASA está preparada para fazer descobertas sobre os confins do nosso Sistema Solar, mas dois dos seus principais instrumentos",
+      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
+      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+    ],
+    "highlights_en": [
+      "Focus: NASA's New Horizons is poised to make discoveries about the farthest reaches of our Solar System, but two of its key instruments are in danger of",
+      "Detail: Science reporting: verify primary technical documentation",
+      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+    ],
+    "date": "15 set 2026",
+    "date_pt": "15 set 2026",
+    "date_en": "15 Sep 2026",
+    "time": "14h30",
+    "time_pt": "14h30",
+    "time_en": "14: 30 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-09-15T14:30:00+00:00",
+    "lastModifiedIso": "2026-09-15T19:14:02+00:00",
+    "source": "The Planetary Society",
+    "sourceDomain": "www. planetary. org",
+    "sourceType": "news",
+    "sourceTypeLabel": "Jornalismo científico",
+    "sourceTypeLabel_pt": "Jornalismo científico",
+    "sourceTypeLabel_en": "Science journalism",
+    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
+    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
+    "evidenceKey": "journalistic",
+    "evidenceLabel": "Cobertura jornalística",
+    "evidenceLabel_pt": "Cobertura jornalística",
+    "evidenceLabel_en": "Journalistic coverage",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Astronomia",
+      "The Planetary Society",
+      "Cosmos Week",
+      "SWAP",
+      "PEPSSI e os segredos do Sistema Solar"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "The Planetary Society",
+      "Cosmos Week",
+      "SWAP",
+      "PEPSSI e os segredos do Sistema Solar"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "The Planetary Society",
+      "Cosmos Week",
+      "SWAP",
+      "PEPSSI and the secrets of the Solar System"
+    ],
+    "srcUrl": "https://www.planetary.org/articles/swap-pepssi-and-the-secrets-of-the-solar-system",
+    "realUrl": "https://www.cosmosweek.com/?article=swap-pepssi-and-the-secrets-of-the-solar-system",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=swap-pepssi-and-the-secrets-of-the-solar-system",
+    "realUrl_en": "https://www.cosmosweek.com/?article=swap-pepssi-and-the-secrets-of-the-solar-system&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/swap-pepssi-and-the-secrets-of-the-solar-system/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/swap-pepssi-and-the-secrets-of-the-solar-system/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/swap-pepssi-and-the-secrets-of-the-solar-system/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/swap-pepssi-and-the-secrets-of-the-solar-system/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/swap-pepssi-and-the-secrets-of-the-solar-system/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/swap-pepssi-and-the-secrets-of-the-solar-system/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 90,
+    "scoreBreakdown": {
+      "source": 83,
+      "evidence": 54,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "SWAP, PEPSSI e os segredos do Sistema Solar",
+    "imageAlt_pt": "SWAP, PEPSSI e os segredos do Sistema Solar",
+    "imageAlt_en": "SWAP, PEPSSI, and the secrets of the Solar System",
+    "coverageKind": "news",
+    "coverageKindLabel": "Jornalismo científico",
+    "coverageKindLabel_pt": "Jornalismo científico",
+    "coverageKindLabel_en": "Science journalism",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
+    "slug": "nerv-neural-network-enhanced-reconstruction-of-the-universe-with-application-to-baryon-acoustic-",
+    "cat": "Cosmologia",
+    "catCls": "cosmologia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hubble_ultra_deep_field.jpg/1280px-Hubble_ultra_deep_field.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "NERV: Reconstrução aprimorada do universo por rede neural com aplicação às oscilações acústicas bariônicas na amostra BOSS DR12 Galaxy",
+    "title_pt": "NERV: Reconstrução aprimorada do universo por rede neural com aplicação às oscilações acústicas bariônicas na amostra BOSS DR12 Galaxy",
+    "title_en": "NERV: Neural-network Enhanced Reconstruction of the UniVerse with Application to Baryon Acoustic Oscillations in the BOSS DR12 Galaxy Sample",
+    "sub": "Apresentamos a primeira aplicação da reconstrução da oscilação acústica bárion baseada em redes neurais para dados reais de levantamento de galáxias, restaurando a assinatura.",
+    "sub_pt": "Apresentamos a primeira aplicação da reconstrução da oscilação acústica bárion baseada em redes neurais para dados reais de levantamento de galáxias, restaurando a assinatura.",
+    "sub_en": "We present the first application of neural-network-based baryon acoustic oscillation reconstruction to real galaxy survey data, restoring the acoustic signature damped by.",
+    "excerpt": "Apresentamos a primeira aplicação da reconstrução da oscilação acústica bárion baseada em redes neurais para dados reais de levantamento de galáxias, restaurando a assinatura acústica amortecida pelo crescimento não linear da estrutura.",
+    "excerpt_pt": "Apresentamos a primeira aplicação da reconstrução da oscilação acústica bárion baseada em redes neurais para dados reais de levantamento de galáxias, restaurando a assinatura acústica amortecida pelo crescimento não linear da estrutura.",
+    "excerpt_en": "We present the first application of neural-network-based baryon acoustic oscillation reconstruction to real galaxy survey data, restoring the acoustic signature damped by nonlinear structure growth.",
+    "body": "<p>Apresentamos a primeira aplicação da reconstrução da oscilação acústica bárion baseada em redes neurais para dados reais de levantamento de galáxias, restaurando a assinatura acústica amortecida pelo crescimento não linear da estrutura. {\\texttt{NERV}} ({\\bf N}rede neural {\\bf E}nhanced {\\bf R}econstruction of the Uni{\\bf V}erse) aumenta a reconstrução padrão com uma rede neural convolucional treinada em simulações de corpos $N$ cúbicos e explica explicitamente o realista.</p><p>Apresentamos a primeira aplicação da reconstrução da oscilação acústica bárion baseada em redes neurais (BAO) para dados reais de levantamento de galáxias, restaurando a assinatura acústica amortecida pelo crescimento não linear da estrutura. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p>Saiba mais sobre o arXivLabs. Resumo: Apresentamos a primeira aplicação da reconstrução da oscilação acústica bárion baseada em redes neurais (BAO) para dados reais de levantamento de galáxias, restaurando a assinatura acústica amortecida pelo crescimento não linear da estrutura.</p><p>Validamos o método nos catálogos simulados \\textsc{MultiDark-Patchy}, recuperando parâmetros de dilatação BAO imparciais. Aplicado à amostra da galáxia BOSS DR12, o NERV melhora significativamente a precisão das medições de distância BAO.</p><p>Estes resultados estabelecem a reconstrução neural como um componente prático das análises BAO para pesquisas em andamento, como o DESI, com o potencial de restringir substancialmente as restrições à história da expansão cósmica e à natureza da energia escura.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.15943v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Apresentamos a primeira aplicação da reconstrução da oscilação acústica bárion baseada em redes neurais para dados reais de levantamento de galáxias, restaurando a assinatura acústica amortecida pelo crescimento não linear da estrutura. {\\texttt{NERV}} ({\\bf N}rede neural {\\bf E}nhanced {\\bf R}econstruction of the Uni{\\bf V}erse) aumenta a reconstrução padrão com uma rede neural convolucional treinada em simulações de corpos $N$ cúbicos e explica explicitamente o realista.</p><p>Apresentamos a primeira aplicação da reconstrução da oscilação acústica bárion baseada em redes neurais (BAO) para dados reais de levantamento de galáxias, restaurando a assinatura acústica amortecida pelo crescimento não linear da estrutura. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p>Saiba mais sobre o arXivLabs. Resumo: Apresentamos a primeira aplicação da reconstrução da oscilação acústica bárion baseada em redes neurais (BAO) para dados reais de levantamento de galáxias, restaurando a assinatura acústica amortecida pelo crescimento não linear da estrutura.</p><p>Validamos o método nos catálogos simulados \\textsc{MultiDark-Patchy}, recuperando parâmetros de dilatação BAO imparciais. Aplicado à amostra da galáxia BOSS DR12, o NERV melhora significativamente a precisão das medições de distância BAO.</p><p>Estes resultados estabelecem a reconstrução neural como um componente prático das análises BAO para pesquisas em andamento, como o DESI, com o potencial de restringir substancialmente as restrições à história da expansão cósmica e à natureza da energia escura.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.15943v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>We present the first application of neural-network-based baryon acoustic oscillation reconstruction to real galaxy survey data, restoring the acoustic signature damped by nonlinear structure growth. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>That matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. {\\texttt{NERV}} ({\\bf N}eural-network {\\bf E}nhanced {\\bf R}econstruction of the Uni{\\bf V}erse) augments standard reconstruction with a convolutional neural network trained on. We present the first application of neural-network-based baryon acoustic oscillation (BAO) reconstruction to real galaxy survey data, restoring the acoustic signature damped by.</p><p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Have an idea for a project that will add value for arXiv&#x27;s community. We validate the method on the \\textsc{MultiDark-Patchy} mock catalogs, recovering unbiased BAO dilation parameters.</p><p>Applied to the BOSS DR12 galaxy sample, NERV improves the precision of the BAO distance measurements significantly. These results establish neural reconstruction as a practical component of BAO analyses for ongoing surveys such as DESI, with the potential to substantially tighten constraints on.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.15943v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Apresentamos a primeira aplicação da reconstrução da oscilação acústica bárion baseada em redes neurais para dados reais de levantamento de galáxias",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: Apresentamos a primeira aplicação da reconstrução da oscilação acústica bárion baseada em redes neurais para dados reais de levantamento de galáxias",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: We present the first application of neural-network-based baryon acoustic oscillation reconstruction to real galaxy survey data, restoring the",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "14 set 2026",
+    "date_pt": "14 set 2026",
+    "date_en": "14 Sep 2026",
+    "time": "17h45",
+    "time_pt": "17h45",
+    "time_en": "17: 45 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-09-14T17:45:26+00:00",
+    "lastModifiedIso": "2026-09-15T19:14:02+00:00",
+    "source": "arXiv Cosmology",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Cosmologia",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "NERV",
+      "Reconstrução aprimorada do universo por rede neural com aplicação às oscilações acústicas bariônicas na amostra BOSS DR12 Galaxy"
+    ],
+    "keywords_pt": [
+      "Cosmologia",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "NERV",
+      "Reconstrução aprimorada do universo por rede neural com aplicação às oscilações acústicas bariônicas na amostra BOSS DR12 Galaxy"
+    ],
+    "keywords_en": [
+      "Cosmology",
+      "arXiv Cosmology",
+      "Cosmos Week",
+      "NERVE",
+      "Improved neural network reconstruction of the universe with application to baryonic acoustic oscillations in the BOSS DR12 Galaxy sample"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2609.15943v1",
+    "realUrl": "https://www.cosmosweek.com/?article=nerv-neural-network-enhanced-reconstruction-of-the-universe-with-application-to-baryon-acoustic-",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nerv-neural-network-enhanced-reconstruction-of-the-universe-with-application-to-baryon-acoustic-",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nerv-neural-network-enhanced-reconstruction-of-the-universe-with-application-to-baryon-acoustic-&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nerv-neural-network-enhanced-reconstruction-of-the-universe-with-application-to-baryon-acoustic-/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nerv-neural-network-enhanced-reconstruction-of-the-universe-with-application-to-baryon-acoustic-/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nerv-neural-network-enhanced-reconstruction-of-the-universe-with-application-to-baryon-acoustic-/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nerv-neural-network-enhanced-reconstruction-of-the-universe-with-application-to-baryon-acoustic-/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nerv-neural-network-enhanced-reconstruction-of-the-universe-with-application-to-baryon-acoustic-/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nerv-neural-network-enhanced-reconstruction-of-the-universe-with-application-to-baryon-acoustic-/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 80,
+    "scoreBreakdown": {
+      "source": 64,
+      "evidence": 39,
+      "relevance": 94,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "NERV: Reconstrução aprimorada do universo por rede neural com aplicação às oscilações acústicas bariônicas na amostra BOSS DR12 Galaxy",
+    "imageAlt_pt": "NERV: Reconstrução aprimorada do universo por rede neural com aplicação às oscilações acústicas bariônicas na amostra BOSS DR12 Galaxy",
+    "imageAlt_en": "NERV: Neural-network Enhanced Reconstruction of the UniVerse with Application to Baryon Acoustic Oscillations in the BOSS DR12 Galaxy Sample",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 4,
     "slug": "nsf-launches-20m-pilot-to-accelerate-commercialization-of-promising-deep-technologies-from-small",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -151,7 +565,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 5,
     "slug": "questions-ask-our-hera-space-companion",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -300,7 +714,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 6,
     "slug": "flex-and-sentinel-3c-ready-for-liftoff-on-vega-c",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -430,19 +844,19 @@ window.postsData = [
     "body_pt": "<p>Two Earth observation satellites, ESA’s Fluorescence Explorer satellite, and the third satellite for the Copernicus Sentinel-3 mission, are encapsulated inside the nose cone of a Vega-C launcher and are awaiting liftoff at Europe’s. Two Earth observation satellites, ESA’s Fluorescence Explorer (FLEX) satellite, and the third satellite for the Copernicus Sentinel-3 mission, are encapsulated inside the nose cone of a Vega-C launcher and are awaiting liftoff at Europe’s Spaceport in French Guiana.</p><p>Launch is scheduled for tonight: 15 September at 03: 21 CEST (14 September at 22: 21 local time). While the FLEX mission will monitor the health of Earth’s vegetation, Sentinel-3C, together with the two Sentinel-3 satellites already in orbit, will monitor oceans, land, ice and atmosphere for Copernicus, the Earth observation component of the European Union’s Space Programme.</p><p>First, it will deploy Sentinel-3C, and then after some launcher manoeuvres, it will be followed by FLEX, which is fitted inside the Vespa+R payload adapter. FLEX is an Earth Explorer mission, ESA’s fleet of small scientific satellites designed to explore different aspects of our Earth environment, from the magnetosphere to ice caps, and from biomass to the atmosphere.</p><p>The satellite’s Fluorescence Imaging Spectrometer can detect and measure this incredibly weak signal from an altitude of 814 km. The mission is expected to produce global maps of vegetation fluorescence at a resolution of 300 m × 300 m, offering a new way to study how plants interact with the atmosphere and how carbon and water move through Earth’s ecosystems.</p><p>Since the first Sentinel-3 satellite was launched a decade ago, the mission’s data on oceans, land, ice and atmosphere have provided robust datasets for operational applications and scientific research, improving understanding of climate change and underpinning global climate. Sentinel-3C carries four science instruments that capture data quickly across entire regions.</p><p>During the routine operations phase Sentinel-3 is managed jointly by Eumetsat and ESA on behalf of the European Commission.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_ready_for_liftoff_on_Vega-C\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Two Earth observation satellites, ESA’s Fluorescence Explorer satellite, and the third satellite for the Copernicus Sentinel-3 mission, are encapsulated inside the nose cone of a Vega-C launcher and are awaiting liftoff at Europe’s. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. Launch is scheduled for tonight: 15 September at 03: 21 CEST (14 September at 22: 21 local time). While the FLEX mission will monitor the health of Earth’s vegetation, Sentinel-3C, together with the two Sentinel-3 satellites already in orbit, will monitor oceans, land, ice and.</p><p>First, it will deploy Sentinel-3C, and then after some launcher manoeuvres, it will be followed by FLEX, which is fitted inside the Vespa+R payload adapter. FLEX is an Earth Explorer mission, ESA’s fleet of small scientific satellites designed to explore different aspects of our Earth environment, from the magnetosphere to ice caps.</p><p>The satellite’s Fluorescence Imaging Spectrometer can detect and measure this incredibly weak signal from an altitude of 814 km. The mission is expected to produce global maps of vegetation fluorescence at a resolution of 300 m × 300 m, offering a new way to study how plants interact with the atmosphere and.</p><p>Since the first Sentinel-3 satellite was launched a decade ago, the mission’s data on oceans, land, ice and atmosphere have provided robust datasets for operational applications. Sentinel-3C carries four science instruments that capture data quickly across entire regions.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>During the routine operations phase Sentinel-3 is managed jointly by Eumetsat and ESA on behalf of the European Commission. The Vega-C programme is led by ESA, working with Avio as prime contractor and design authority.</p><p>Because the account originates with ESA Space News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_ready_for_liftoff_on_Vega-C\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Two Earth observation satellites, ESA’s Fluorescence Explorer satellite, and the third satellite for the Copernicus Sentinel-3 mission, are",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Two Earth observation satellites, ESA’s Fluorescence Explorer satellite, and the third satellite for the Copernicus Sentinel-3 mission, are.",
+      "Dado-chave: Two Earth observation satellites, ESA’s Fluorescence Explorer satellite, and the third satellite for the Copernicus Sentinel-3 mission, are",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Two Earth observation satellites, ESA’s Fluorescence Explorer satellite, and the third satellite for the Copernicus Sentinel-3 mission, are",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Two Earth observation satellites, ESA’s Fluorescence Explorer satellite, and the third satellite for the Copernicus Sentinel-3 mission, are.",
+      "Dado-chave: Two Earth observation satellites, ESA’s Fluorescence Explorer satellite, and the third satellite for the Copernicus Sentinel-3 mission, are",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Two Earth observation satellites, ESA’s Fluorescence Explorer satellite, and the third satellite for the Copernicus Sentinel-3 mission, are",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Two Earth observation satellites, ESA’s Fluorescence Explorer satellite, and the third satellite for the Copernicus Sentinel-3 mission, are.",
+      "Key detail: Two Earth observation satellites, ESA’s Fluorescence Explorer satellite, and the third satellite for the Copernicus Sentinel-3 mission, are",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "14 set 2026",
     "date_pt": "14 set 2026",
@@ -533,7 +947,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 7,
     "slug": "an-early-look-at-fall-color-in-canada",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -582,19 +996,19 @@ window.postsData = [
     "body_pt": "<p>Exploration of global spatiotemporal changes of fall foliage coloration in deciduous forests and shrubs using the VIIRS land surface phenology product. (2021) Exploration of global spatiotemporal changes of fall foliage coloration in deciduous forests and shrubs using the VIIRS land surface phenology product.</p><p>Science of Remote Sensing, 4, 100030. You may also be interested in: Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet.</p><p>Earth Observatory Image of the Day NASA’s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery. A NASA and South Dakota State University analysis of seven years of satellite data found that foliage in the region begins to change in early September and peaks in mid-month, making this one of the first places on the North American continent to change color.</p><p>Citizen scientists have an opportunity to help NASA scientists track fall color and contribute to long-term environmental databases with the GLOBE North American Phenology Campaign. Article 1 2 3 4 Next Keep Exploring Discover More from NASA Earth Science Subscribe to Earth Observatory Newsletters Subscribe to the Earth Observatory and get the Earth in your inbox.</p><p>NASA&#x27;s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery. GLOBE (2026, August 25) Measure Fall Color Change with GLOBE: The North American Phenology Campaign is Underway.</p><p>Popular Science (2022, September 30) The arctic tundra’s fall foliage is as vibrant as it is short-lived.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/an-early-look-at-fall-color-in-canada/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Exploration of global spatiotemporal changes of fall foliage coloration in deciduous forests and shrubs using the VIIRS land surface phenology product. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. (2021) Exploration of global spatiotemporal changes of fall foliage coloration in deciduous forests and shrubs using the VIIRS land surface phenology product. Science of Remote Sensing, 4, 100030.</p><p>Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet. Earth Observatory Image of the Day NASA’s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>A NASA and South Dakota State University analysis of seven years of satellite data found that foliage in the region begins to change in early September and peaks in mid-month. Citizen scientists have an opportunity to help NASA scientists track fall color and contribute to long-term environmental databases with the GLOBE North American Phenology.</p><p>Article 1 2 3 4 Next Keep Exploring Discover More from NASA Earth Science Subscribe to Earth Observatory Newsletters Subscribe to the Earth Observatory and get the Earth in your. NASA&#x27;s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>GLOBE (2026, August 25) Measure Fall Color Change with GLOBE: The North American Phenology Campaign is Underway. Popular Science (2022, September 30) The arctic tundra’s fall foliage is as vibrant as it is short-lived.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/an-early-look-at-fall-color-in-canada/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Exploration of global spatiotemporal changes of fall foliage coloration in deciduous forests and shrubs using the VIIRS land surface phenology",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Exploration of global spatiotemporal changes of fall foliage coloration in deciduous forests and shrubs using the VIIRS land surface phenology.",
+      "Dado-chave: Exploration of global spatiotemporal changes of fall foliage coloration in deciduous forests and shrubs using the VIIRS land surface phenology",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Exploration of global spatiotemporal changes of fall foliage coloration in deciduous forests and shrubs using the VIIRS land surface phenology",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Exploration of global spatiotemporal changes of fall foliage coloration in deciduous forests and shrubs using the VIIRS land surface phenology.",
+      "Dado-chave: Exploration of global spatiotemporal changes of fall foliage coloration in deciduous forests and shrubs using the VIIRS land surface phenology",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Exploration of global spatiotemporal changes of fall foliage coloration in deciduous forests and shrubs using the VIIRS land surface phenology",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Exploration of global spatiotemporal changes of fall foliage coloration in deciduous forests and shrubs using the VIIRS land surface phenology.",
+      "Key detail: Exploration of global spatiotemporal changes of fall foliage coloration in deciduous forests and shrubs using the VIIRS land surface phenology",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "14 set 2026",
     "date_pt": "14 set 2026",
@@ -682,7 +1096,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 8,
     "slug": "help-refine-data-from-space-telescopes-with-artifact-inspector",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -703,19 +1117,19 @@ window.postsData = [
     "body_pt": "<p>Como é que os cientistas que estudam o espaço com dados de um telescópio a centenas de milhares de quilómetros de distância sabem que o que estão a ver é real. Um novo projeto da NASA, Artifact InSPECtor, convida você a descobrir - e, ao fazê-lo, a ajudar missões como Euclid e o novo Telescópio Espacial Nancy Grace Roman da NASA a responder [. ].</p><p>Explore esta seção Ciência Ciência Cidadã Ajude a refinar dados do espaço. Em breve será acompanhado pelo Telescópio Espacial Nancy Grace Roman da NASA, um observatório complementar que irá capturar um número semelhante de galáxias depois de iniciar as operações científicas, mas a diferentes distâncias e densidades no céu.</p><p>Mas reconhecer artefatos em dados de instrumentos relativamente novos é um trabalho desafiador para a IA, que nem sempre os distingue com precisão. Como voluntário do Artifact InSPECtor, você observará dados reais do telescópio espacial Euclid e, a partir do início de 2027, do Telescópio Espacial Nancy Grace Roman.</p><p>Um novo projeto da NASA, Science Citizen Science Help Refine Data from Space. Visão geral Recursos Oportunidades Destaques da ciência cidadã Sobre a ativação científica 3 min de leitura do artigo Como os cientistas que estudam o espaço com dados de um telescópio a centenas de milhares de quilômetros de distância sabem que o que estão vendo é real? .</p><p>Um novo projeto da NASA, Artifact InSPECtor, convida você a descobrir, e, ao fazê-lo, a ajudar missões como a Euclid e o novo Telescópio Espacial Nancy Grace Roman da NASA a responder questões fundamentais sobre o nosso universo. O telescópio espacial Euclides, um poderoso observatório construído pela ESA (Agência Espacial Europeia) com contribuições críticas da NASA, está a recolher luz de milhões de galáxias distantes em todo o universo.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. A new NASA project, Artifact InSPECtor, invites you to find out, and by doing so, to help missions like Euclid and NASA’s new Nancy Grace Roman Space Telescope answer fundamental. Explore This Section Science Citizen Science Help Refine Data from Space. Overview Resources Opportunities Citizen Science Highlights About Science Activation How do scientists.</p><p>It will soon be joined by NASA’s Nancy Grace Roman Space Telescope, a complementary observatory that will capture a similar number of galaxies after it begins science operations. But recognizing artifacts in data from relatively new instruments is challenging work for the AI, which doesn’t always distinguish them accurately That’s where you come in.</p><p>As a volunteer with Artifact InSPECtor, you’ll look at real space telescope data from Euclid and, starting in early 2027, the Nancy Grace Roman Space Telescope. Image data from the ESA/Euclid Q1 Data release.</p><p>A new NASA project, Science Citizen Science Help Refine Data from Space. Overview Resources Opportunities Citizen Science Highlights About Science Activation 3 min read Article How do scientists studying space with data from a telescope hundreds of.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>The Euclid space telescope, a powerful observatory built by ESA (European Space Agency) with critical contributions from NASA, is collecting light from millions of distant. It will soon be joined by NASA&#x27;s Nancy Grace Roman Space Telescope, a complementary observatory that will capture a similar number of galaxies after it begins science operations.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/get-involved/citizen-science/help-refine-data-from-space-telescopes-with-artifact-inspector/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Como é que os cientistas que estudam o espaço com dados de um telescópio a centenas de milhares de quilómetros de distância sabem que o que estão a",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Como é que os cientistas que estudam o espaço com dados de um telescópio a centenas de milhares de quilómetros de distância sabem que o que estão a.",
+      "Dado-chave: Como é que os cientistas que estudam o espaço com dados de um telescópio a centenas de milhares de quilómetros de distância sabem que o que.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Como é que os cientistas que estudam o espaço com dados de um telescópio a centenas de milhares de quilómetros de distância sabem que o que estão a",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Como é que os cientistas que estudam o espaço com dados de um telescópio a centenas de milhares de quilómetros de distância sabem que o que estão a.",
+      "Dado-chave: Como é que os cientistas que estudam o espaço com dados de um telescópio a centenas de milhares de quilómetros de distância sabem que o que.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real.",
+      "Key detail: How do scientists studying space with data from a telescope hundreds of thousands of miles away know that what they are seeing is real",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "11 set 2026",
     "date_pt": "11 set 2026",
@@ -803,7 +1217,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 6,
+    "id": 9,
     "slug": "nsf-leadership-in-a-new-golden-age-of-science",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -924,7 +1338,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 10,
     "slug": "probing-the-details-of-relativistic-electrons-with-multifrequency-observations-of-m87-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1045,7 +1459,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 11,
     "slug": "name-our-dino-esa-s-hera-asteroid-mission-mascot",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1113,12 +1527,12 @@ window.postsData = [
     "body_en": "<p>The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Ian Carnelli, Hera’s mission manager, comments: “Hera’s dino, riding inside its air balloon, features in all our animations, in our LEGO models and, in sticker form, is emblazoned. Whoever comes up with the chosen name, as selected by a Hera team jury, will be invited to our unveiling of the first images from Hera after reaching the Didymos and Dimorphos.</p><p>Dimorphos is already historic as the first object in the Solar System to have had its orbit changed by human action, when NASA’s DART spacecraft impacted it in September 2022. DART’s impact caused a brightening and a change in Dimorphos orbital period around Didymos visible from distant Earth telescopes, but nobody knows what it did to Dimorphos itself.</p><p>Hera is going there to perform a close-up crash site survey, to help turn DART’s kinetic impact experiment into a well understood planetary defence technique that might be. Dinosaurs and asteroids have been linked in public consciousness ever since the father and son Alvarez scientists deduced the otherwise mysterious extinction of the dinosaurs was.</p><p>This milestone discovery, today linked to the Chicxulub impact crater off the coast of Mexico, demonstrates how impact events have punctuated the history of life on Earth, and how. As science fiction writer Larry Niven was the first to observe: “The dinosaurs became extinct because they didn’t have a space programme.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>These missions are supplemented by ESA’s Near-Earth Object Coordination Centre in Frascati, Italy, which coordinates observations of small bodies venturing near to Earth to. The Science Office company in Portugal developed the mission&#x27;s animated series, including designing characters for the Hera spacecraft and its two CubeSat passengers.</p><p>Because the account originates with ESA Space News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Space_Safety/Hera/Name_our_dino_ESA_s_Hera_asteroid_mission_mascot\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: A missão do asteróide Hera da Agência Espacial Europeia para defesa planetária tem um dinossauro de desenho animado como mascote, porque os.",
-      "Dado-chave: A missão do asteróide Hera da Agência Espacial Europeia para defesa planetária tem um dinossauro de desenho animado como mascote, porque os",
+      "Dado-chave: A missão do asteróide Hera da Agência Espacial Europeia para defesa planetária tem um dinossauro de desenho animado como mascote, porque os.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: A missão do asteróide Hera da Agência Espacial Europeia para defesa planetária tem um dinossauro de desenho animado como mascote, porque os.",
-      "Dado-chave: A missão do asteróide Hera da Agência Espacial Europeia para defesa planetária tem um dinossauro de desenho animado como mascote, porque os",
+      "Dado-chave: A missão do asteróide Hera da Agência Espacial Europeia para defesa planetária tem um dinossauro de desenho animado como mascote, porque os.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
@@ -1212,131 +1626,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 9,
-    "slug": "initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss",
-    "cat": "Cosmologia",
-    "catCls": "cosmologia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hubble_ultra_deep_field.jpg/1280px-Hubble_ultra_deep_field.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Agrupamento inicial de buracos negros primordiais: uma formulação geral para não gaussianidade local arbitrária",
-    "title_pt": "Agrupamento inicial de buracos negros primordiais: uma formulação geral para não gaussianidade local arbitrária",
-    "title_en": "Initial clustering of primordial black holes: A general formulation for arbitrary local non-Gaussianity",
-    "sub": "O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as restrições cosmológicas na abundância.",
-    "sub_pt": "O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as restrições cosmológicas na abundância.",
-    "sub_en": "Initial spatial clustering of primordial black holes induced by local-type non-Gaussianity can substantially modify cosmological constraints on PBH abundance.",
-    "excerpt": "O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as restrições cosmológicas na abundância de PBH.",
-    "excerpt_pt": "O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as restrições cosmológicas na abundância de PBH.",
-    "excerpt_en": "Initial spatial clustering of primordial black holes induced by local-type non-Gaussianity can substantially modify cosmological constraints on PBH abundance.",
-    "body": "<p>O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as restrições cosmológicas na abundância de PBH. O agrupamento espacial inicial de buracos negros primordiais (PBHs) induzido pela não-gaussianidade de tipo local (LNG) pode modificar substancialmente as restrições cosmológicas na abundância de PBH.</p><p>Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário. ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem.</p><p>Tem uma ideia de um projeto que agregue valor à comunidade arXiv? . Saiba mais sobre o arXivLabs.</p><p>Resumo: O agrupamento espacial inicial de buracos negros primordiais (PBHs) induzido pela não-gaussianidade de tipo local (LNG) pode modificar substancialmente as restrições cosmológicas na abundância de PBH. As formulações existentes de agrupamento inicial de PBH são restritas principalmente a pequenos regimes não-gaussianos ou a regimes específicos, e falta uma estrutura teórica unificada.</p><p>Aqui, apresentamos uma formulação analítica geral para a função de correlação de dois pontos do PBH aplicável a GNL arbitrários. Demonstramos a versatilidade de nossa fórmula calculando os parâmetros de polarização nos cenários de inflação ultralenta, curvaton e reaquecimento modulado.</p><p>Também generalizamos formalmente a estrutura para espectros de potência amplos para levar em conta correlações entre diferentes escalas de massa de PBH.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.11306v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as restrições cosmológicas na abundância de PBH. O agrupamento espacial inicial de buracos negros primordiais (PBHs) induzido pela não-gaussianidade de tipo local (LNG) pode modificar substancialmente as restrições cosmológicas na abundância de PBH.</p><p>Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário. ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem.</p><p>Tem uma ideia de um projeto que agregue valor à comunidade arXiv? . Saiba mais sobre o arXivLabs.</p><p>Resumo: O agrupamento espacial inicial de buracos negros primordiais (PBHs) induzido pela não-gaussianidade de tipo local (LNG) pode modificar substancialmente as restrições cosmológicas na abundância de PBH. As formulações existentes de agrupamento inicial de PBH são restritas principalmente a pequenos regimes não-gaussianos ou a regimes específicos, e falta uma estrutura teórica unificada.</p><p>Aqui, apresentamos uma formulação analítica geral para a função de correlação de dois pontos do PBH aplicável a GNL arbitrários. Demonstramos a versatilidade de nossa fórmula calculando os parâmetros de polarização nos cenários de inflação ultralenta, curvaton e reaquecimento modulado.</p><p>Também generalizamos formalmente a estrutura para espectros de potência amplos para levar em conta correlações entre diferentes escalas de massa de PBH.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.11306v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Initial spatial clustering of primordial black holes induced by local-type non-Gaussianity can substantially modify cosmological constraints on PBH abundance. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Initial spatial clustering of primordial black holes (PBHs) induced by local-type non-Gaussianity (LNG) can substantially modify cosmological constraints on PBH abundance. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>Existing formulations of initial PBH clustering are primarily restricted to either small non-Gaussianity or specific regimes, and a unified theoretical framework has been lacking. Here, we present a general analytical formulation for the PBH two-point correlation function applicable to arbitrary LNGs.</p><p>Under the assumptions that PBHs form only at the large peaks of perturbations, and that long-wavelength modes weakly modulate the local variance of short-wavelength (PBH-scale). We demonstrate the versatility of our formula by computing the bias parameters in the ultra-slow-roll inflation, curvaton, and modulated reheating scenarios.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>We also formally generalize the framework to broad power spectra to account for correlations across different PBH mass scales. Because our formulation does not rely on weak or perturbative non-Gaussianity assumptions, our result provides a universal theoretical basis for evaluating initial clustering.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2609.11306v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as.",
-      "Dado-chave: O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as.",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_pt": [
-      "Ponto central: O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as.",
-      "Dado-chave: O agrupamento espacial inicial de buracos negros primordiais induzido pela não-gaussianidade do tipo local pode modificar substancialmente as.",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_en": [
-      "Core point: Initial spatial clustering of primordial black holes induced by local-type non-Gaussianity can substantially modify cosmological constraints on PBH.",
-      "Key detail: Initial spatial clustering of primordial black holes induced by local-type non-Gaussianity can substantially modify cosmological constraints on.",
-      "Result not yet peer reviewed."
-    ],
-    "date": "10 set 2026",
-    "date_pt": "10 set 2026",
-    "date_en": "10 Sep 2026",
-    "time": "09h34",
-    "time_pt": "09h34",
-    "time_en": "09: 34 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-09-10T09:34:40+00:00",
-    "lastModifiedIso": "2026-09-11T18:47:10+00:00",
-    "source": "arXiv Cosmology",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Cosmologia",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Agrupamento inicial de buracos negros primordiais",
-      "uma formulação geral para não gaussianidade local arbitrária"
-    ],
-    "keywords_pt": [
-      "Cosmologia",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Agrupamento inicial de buracos negros primordiais",
-      "uma formulação geral para não gaussianidade local arbitrária"
-    ],
-    "keywords_en": [
-      "Cosmology",
-      "arXiv Cosmology",
-      "Cosmos Week",
-      "Initial cluster of primordial black holes",
-      "a general formulation for arbitrary local non-Gaussianity"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2609.11306v1",
-    "realUrl": "https://www.cosmosweek.com/?article=initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss",
-    "realUrl_en": "https://www.cosmosweek.com/?article=initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/initial-clustering-of-primordial-black-holes-a-general-formulation-for-arbitrary-local-non-gauss/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 80,
-    "scoreBreakdown": {
-      "source": 64,
-      "evidence": 39,
-      "relevance": 94,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "Agrupamento inicial de buracos negros primordiais: uma formulação geral para não gaussianidade local arbitrária",
-    "imageAlt_pt": "Agrupamento inicial de buracos negros primordiais: uma formulação geral para não gaussianidade local arbitrária",
-    "imageAlt_en": "Initial clustering of primordial black holes: A general formulation for arbitrary local non-Gaussianity",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 10,
+    "id": 12,
     "slug": "nasa-s-chandra-unveils-mysterious-x-ray-objects",
     "cat": "Física",
     "catCls": "fisica",
@@ -1457,7 +1747,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 13,
     "slug": "inelastic-dark-matter-and-high-energy-recoil-signatures-in-lz",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -1578,160 +1868,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 12,
-    "slug": "curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Jezero_Crater_delta_colored_mosaic.jpg/1280px-Jezero_Crater_delta_colored_mosaic.jpg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/psd/mars/resources/detail_files/2/5/25757_1-PIA24543-Curiositys-Selfie-at-Mont-Mercou-main-web.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": {
-      "kind": "embed",
-      "platform": "youtube",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/N9hXqzkH7YA?rel=0&modestbranding=1",
-      "fileUrl": "",
-      "poster": "",
-      "title": "",
-      "title_pt": "",
-      "title_en": "",
-      "caption": "",
-      "caption_pt": "",
-      "caption_en": "",
-      "sourcePage": "https://science.nasa.gov/blog/curiosity-blog-sols-4995-5001-5000-martian-days-on-mars/"
-    },
-    "audio": null,
-    "title": "Blog Curiosity, Sols 4995-5001: 5.000 dias (marcianos) em Marte",
-    "title_pt": "Blog Curiosity, Sols 4995-5001: 5.000 dias (marcianos) em Marte",
-    "title_en": "Curiosity Blog, Sols 4995-5001: 5, 000 (Martian) Days on Mars",
-    "sub": "Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto de 2026 A extensão de sóis.",
-    "sub_pt": "Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto de 2026 A extensão de sóis.",
-    "sub_en": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Aug.",
-    "excerpt": "Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto de 2026 A extensão de sóis abrangida por esta postagem do blog é digna de nota de várias maneiras.",
-    "excerpt_pt": "Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto de 2026 A extensão de sóis abrangida por esta postagem do blog é digna de nota de várias maneiras.",
-    "excerpt_en": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Aug. 28, 2026 The span of sols spanned by this blog post is noteworthy in several ways.",
-    "body": "<p>Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto de 2026 A extensão de sóis abrangida por esta postagem do blog é digna de nota de várias maneiras. Primeiro, o Curiosity tornou-se um alpinista de classe mundial (pelo menos para Marte) ao ultrapassar a marca de 1 quilômetro de elevação desde seu local de pouso no chão [. ].</p><p>Sols 4995-5001: 5.000 dias (marcianos) em Marte O rover Curiosity da NASA adquiriu esta imagem ao longo da ondulação de Chocolatal usando sua câmera de navegação direita em 20 de agosto de 2018. O dia 29 marcou 5.000 dias marcianos (ou sóis) desde que o Curiosity pousou em Marte (são mais de 5.137 dias terrestres, porque um dia em Marte dura 24, 6 horas).</p><p>Visite a página de instrumentos científicos O rover Curiosity da NASA na base do Monte Sharp NASA/JPL-Caltech/MSSS Detalhes de compartilhamento Última atualização em 09 de setembro. 28 de outubro de 2026, Sol 4998, ou dia marciano 4.998 da missão Mars Science Laboratory, às 13: 58: 36 UTC.</p><p>Primeiro, o Curiosity tornou-se um alpinista de classe mundial (pelo menos para Marte) ao ultrapassar a marca de 1 quilómetro de elevação desde o seu local de aterragem no fundo da cratera Gale. Este escritor fazia parte da equipe científica do Mars Exploration Rover e ficamos entusiasmados quando o Spirit Rover chegou ao topo de Husband Hill, na cratera Gusev, em agosto de 2005.</p><p>A viagem planejada para o meio da semana levou o rover direto para Chocolatal com uma de suas rodas e depois recuando um pouco, de modo que, no plano de final de semana, a ciência de contato pudesse ser planejada dentro da região escavada. Com 5.000 sóis de excelentes realizações científicas, a equipe de ciência e engenharia do Curiosity espera ansiosamente pelos próximos 5.000 sóis.</p><p>Sols 4988-4994: Mais novos truques para um artigo de cachorro velho 6 dias atrás, 3 minutos de leitura do Curiosity Blog.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/blog/curiosity-blog-sols-4995-5001-5000-martian-days-on-mars/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto de 2026 A extensão de sóis abrangida por esta postagem do blog é digna de nota de várias maneiras. Primeiro, o Curiosity tornou-se um alpinista de classe mundial (pelo menos para Marte) ao ultrapassar a marca de 1 quilômetro de elevação desde seu local de pouso no chão [. ].</p><p>Sols 4995-5001: 5.000 dias (marcianos) em Marte O rover Curiosity da NASA adquiriu esta imagem ao longo da ondulação de Chocolatal usando sua câmera de navegação direita em 20 de agosto de 2018. O dia 29 marcou 5.000 dias marcianos (ou sóis) desde que o Curiosity pousou em Marte (são mais de 5.137 dias terrestres, porque um dia em Marte dura 24, 6 horas).</p><p>Visite a página de instrumentos científicos O rover Curiosity da NASA na base do Monte Sharp NASA/JPL-Caltech/MSSS Detalhes de compartilhamento Última atualização em 09 de setembro. 28 de outubro de 2026, Sol 4998, ou dia marciano 4.998 da missão Mars Science Laboratory, às 13: 58: 36 UTC.</p><p>Primeiro, o Curiosity tornou-se um alpinista de classe mundial (pelo menos para Marte) ao ultrapassar a marca de 1 quilómetro de elevação desde o seu local de aterragem no fundo da cratera Gale. Este escritor fazia parte da equipe científica do Mars Exploration Rover e ficamos entusiasmados quando o Spirit Rover chegou ao topo de Husband Hill, na cratera Gusev, em agosto de 2005.</p><p>A viagem planejada para o meio da semana levou o rover direto para Chocolatal com uma de suas rodas e depois recuando um pouco, de modo que, no plano de final de semana, a ciência de contato pudesse ser planejada dentro da região escavada. Com 5.000 sóis de excelentes realizações científicas, a equipe de ciência e engenharia do Curiosity espera ansiosamente pelos próximos 5.000 sóis.</p><p>Sols 4988-4994: Mais novos truques para um artigo de cachorro velho 6 dias atrás, 3 minutos de leitura do Curiosity Blog.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/blog/curiosity-blog-sols-4995-5001-5000-martian-days-on-mars/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Aug. 28, 2026 The span of sols spanned by this blog post is noteworthy in several ways. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. First, Curiosity became a world-class (for Mars at least) mountaineer by passing the 1 kilometer mark of elevation from its landing site on the floor. 5, 000 (Martian) Days on Mars NASA’s Mars rover Curiosity acquired this image along Chocolatal ripple using its Right Navigation Camera on Aug.</p><p>29, marked 5, 000 Martian days (or sols) since Curiosity landed on Mars (that’s more than 5, 137 Earth days, because a day on Mars lasts 24.6 hours). Visit the Science Instruments page NASA’s Curiosity rover at the base of Mount Sharp NASA/JPL-Caltech/MSSS Share Details Last Updated Sep 09.</p><p>28, 2026, Sol 4998, or Martian day 4, 998 of the Mars Science Laboratory mission, at 13: 58: 36 UTC. First, Curiosity became a world-class (for Mars at least) mountaineer by passing the 1 kilometer mark of elevation from its landing site on the floor of Gale crater.</p><p>This writer was on the Mars Exploration Rover science team and we were excited when the Spirit rover got to the top of Husband Hill in Gusev crater in August 2005. 29, marked 5, 000 Martian days (or sols) since Curiosity landed on Mars (that&#x27;s more than 5, 137 Earth days, because a day on Mars lasts 24.6 hours).</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>The drive planned midweek took the rover right into Chocolatal with one of its wheels and then backing off a little, so in the end-of-week plan, contact science could be planned. With 5000 sols of outstanding scientific accomplishments, the Curiosity science and engineering team looks forward to the next 5000 sols.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/blog/curiosity-blog-sols-4995-5001-5000-martian-days-on-mars/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto.",
-      "Dado-chave: Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de agosto.",
-      "Dado-chave: Escrito por William Farrand, Cientista Pesquisador Sênior, Instituto de Ciências Espaciais Data de planejamento da Terra: sexta-feira, 28 de.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Aug.",
-      "Key detail: Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Aug.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "09 set 2026",
-    "date_pt": "09 set 2026",
-    "date_en": "09 Sep 2026",
-    "time": "06h20",
-    "time_pt": "06h20",
-    "time_en": "06: 20 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-09-09T06:20:49+00:00",
-    "lastModifiedIso": "2026-09-09T18:53:04+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Blog Curiosity",
-      "Sols 4995",
-      "5001",
-      "5.000 dias (marcianos) em Marte"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Blog Curiosity",
-      "Sols 4995",
-      "5001",
-      "5.000 dias (marcianos) em Marte"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Blog Curiosity",
-      "Sols 4995",
-      "5001",
-      "5, 000 (Martian) days on Mars"
-    ],
-    "srcUrl": "https://science.nasa.gov/blog/curiosity-blog-sols-4995-5001-5000-martian-days-on-mars/",
-    "realUrl": "https://www.cosmosweek.com/?article=curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars",
-    "realUrl_en": "https://www.cosmosweek.com/?article=curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/curiosity-blog-sols-4995-5001-5-000-martian-days-on-mars/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Blog Curiosity, Sols 4995-5001: 5.000 dias (marcianos) em Marte",
-    "imageAlt_pt": "Blog Curiosity, Sols 4995-5001: 5.000 dias (marcianos) em Marte",
-    "imageAlt_en": "Curiosity Blog, Sols 4995-5001: 5, 000 (Martian) Days on Mars",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 13,
+    "id": 14,
     "slug": "meet-the-next-generation-of-mars-exploration",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1916,7 +2053,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "milky-way-s-fastest-star-orbits-our-supermassive-black-hole-so-closely-it-feels-its-spin",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -2159,7 +2296,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "spying-on-a-split-comet",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2308,7 +2445,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "hubble-gaia-solve-our-galaxy-s-merger-mystery",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2457,7 +2594,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "science-release-hubble-solves-merger-mystery-from-milky-way-s-early-years",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2609,7 +2746,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "a-look-back-at-the-2026-total-solar-eclipse",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2852,7 +2989,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "stops-along-the-path-of-totality",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2992,7 +3129,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 21,
     "slug": "dust-and-water-spotted-close-to-giant-black-hole",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -3132,7 +3269,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 21,
+    "id": 22,
     "slug": "how-the-tide-turns-at-the-mouth-of-the-elbe",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3281,7 +3418,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 22,
+    "id": 23,
     "slug": "the-paradox-of-lencois-maranhenses-national-park",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3421,7 +3558,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 23,
+    "id": 24,
     "slug": "new-exomoon-detection-challenges-cosmic-labels",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3598,203 +3735,6 @@ window.postsData = [
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
     "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 24,
-    "slug": "the-nancy-grace-roman-space-telescope-launch-what-to-expect",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://planetary.s3.amazonaws.com/web/assets/pictures/_1200x630_crop_center-center_82_none/nancy-grace-roman-clean-room.jpg?mtime=1731605990",
-    "inline_images": [
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_768x512_crop_center-center_82_line/installing-romans-detector-cover.jpg.webp",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_768x512_crop_center-center_82_line/installing-romans-detector-cover.jpg",
-        "alt": "Instalando a tampa do detector Roman",
-        "alt_pt": "Instalando a tampa do detector Roman",
-        "alt_en": "Installing Roman's detector cover",
-        "caption": "Instalando a tampa do detector Roman",
-        "caption_pt": "Instalando a tampa do detector Roman",
-        "caption_en": "Installing Roman's detector cover"
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_768x768_crop_center-center_82_line/simulated-roman-observation.jpg.webp",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_768x768_crop_center-center_82_line/simulated-roman-observation.jpg",
-        "alt": "Observação romana simulada",
-        "alt_pt": "Observação romana simulada",
-        "alt_en": "Simulated Roman observation",
-        "caption": "Observação romana simulada",
-        "caption_pt": "Observação romana simulada",
-        "caption_en": "Simulated Roman observation"
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_768x432_crop_center-center_82_line/roman-vs-hubble-views.jpg.webp",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_768x432_crop_center-center_82_line/roman-vs-hubble-views.jpg",
-        "alt": "Visualizações Roman vs Hubble",
-        "alt_pt": "Visualizações Roman vs Hubble",
-        "alt_en": "Roman vs Hubble views",
-        "caption": "Visualizações Roman vs Hubble",
-        "caption_pt": "Visualizações Roman vs Hubble",
-        "caption_en": "Roman vs Hubble views"
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_768x949_crop_center-center_82_line/nancy-grace-roman.jpg",
-        "alt": "Nancy Grace Romana",
-        "alt_pt": "Nancy Grace Romana",
-        "alt_en": "Nancy Grace Roman",
-        "caption": "Nancy Grace Romana",
-        "caption_pt": "Nancy Grace Romana",
-        "caption_en": "Nancy Grace Roman"
-      },
-      {
-        "src": "https://planetary.s3.amazonaws.com/web/assets/pictures/_576x576_crop_center-center_82_line/elt-3d-rendering.jpg",
-        "alt": "Elt renderização 3d",
-        "alt_pt": "Elt renderização 3d",
-        "alt_en": "Elt 3d rendering",
-        "caption": "Elt renderização 3d",
-        "caption_pt": "Elt renderização 3d",
-        "caption_en": "Elt 3d rendering"
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Lançamento do Telescópio Espacial Nancy Grace Roman: O que esperar",
-    "title_pt": "Lançamento do Telescópio Espacial Nancy Grace Roman: O que esperar",
-    "title_en": "The Nancy Grace Roman Space Telescope launch: What to expect",
-    "sub": "O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia.",
-    "sub_pt": "O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia.",
-    "sub_en": "NASA’s next flagship orbital observatory will reshape what we know about planets throughout the galaxy.",
-    "excerpt": "O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia.",
-    "excerpt_pt": "O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia.",
-    "excerpt_en": "NASA’s next flagship orbital observatory will reshape what we know about planets throughout the galaxy.",
-    "body": "<p>O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia. Science Review por Bruce Betts, PhD 17 de julho de 2026 O Telescópio Espacial Nancy Grace Roman é o próximo observatório orbital carro-chefe da NASA, com o poder de remodelar o que sabemos sobre os planetas em toda a galáxia e ajudar a descobrir a verdadeira natureza da matéria.</p><p>É uma missão da mesma escala do Telescópio Espacial Hubble ou do Telescópio Espacial James Webb. Embora a humanidade tenha confirmado cerca de 6.000 desses mundos (conhecidos como exoplanetas) nas últimas décadas, Roman poderia descobrir muito mais do que isso por conta própria.</p><p>A missão também tirará fotografias diretas de planetas e explorará algumas das suas atmosferas, bem como encontrará mundos potencialmente semelhantes à Terra em torno de outras estrelas. A comunidade astronômica classificou Roman como a grande missão espacial de maior prioridade da década de 2010.</p><p>Permitirá que Roman detecte planetas que são cerca de mil milhões de vezes mais escuros do que as estrelas que orbitam, testando a tecnologia para missões futuras, como o planeado Observatório de Mundos Habitáveis ​​da NASA. Após cerca de 90 dias de comissionamento, o telescópio iniciará as operações científicas no início de 2027.</p><p>Em certos comprimentos de onda ópticos e infravermelhos, Roman será capaz de obter imagens tão nítidas como as do Hubble, mas capturar 100 vezes mais céu numa única fotografia. Isto significa que, combinado com outras atualizações, Roman será capaz de pesquisar o céu cerca de 100 a 1.500 vezes mais rápido do que o Hubble.</p><p>Nancy Grace Roman foi a primeira chefe de astronomia da NASA.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/the-nancy-grace-roman-space-telescope-launch-what-to-expect\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia. Science Review por Bruce Betts, PhD 17 de julho de 2026 O Telescópio Espacial Nancy Grace Roman é o próximo observatório orbital carro-chefe da NASA, com o poder de remodelar o que sabemos sobre os planetas em toda a galáxia e ajudar a descobrir a verdadeira natureza da matéria.</p><p>É uma missão da mesma escala do Telescópio Espacial Hubble ou do Telescópio Espacial James Webb. Embora a humanidade tenha confirmado cerca de 6.000 desses mundos (conhecidos como exoplanetas) nas últimas décadas, Roman poderia descobrir muito mais do que isso por conta própria.</p><p>A missão também tirará fotografias diretas de planetas e explorará algumas das suas atmosferas, bem como encontrará mundos potencialmente semelhantes à Terra em torno de outras estrelas. A comunidade astronômica classificou Roman como a grande missão espacial de maior prioridade da década de 2010.</p><p>Permitirá que Roman detecte planetas que são cerca de mil milhões de vezes mais escuros do que as estrelas que orbitam, testando a tecnologia para missões futuras, como o planeado Observatório de Mundos Habitáveis ​​da NASA. Após cerca de 90 dias de comissionamento, o telescópio iniciará as operações científicas no início de 2027.</p><p>Em certos comprimentos de onda ópticos e infravermelhos, Roman será capaz de obter imagens tão nítidas como as do Hubble, mas capturar 100 vezes mais céu numa única fotografia. Isto significa que, combinado com outras atualizações, Roman será capaz de pesquisar o céu cerca de 100 a 1.500 vezes mais rápido do que o Hubble.</p><p>Nancy Grace Roman foi a primeira chefe de astronomia da NASA.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/the-nancy-grace-roman-space-telescope-launch-what-to-expect\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>NASA’s next flagship orbital observatory will reshape what we know about planets throughout the galaxy. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>The significance lies in astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Science Review by Bruce Betts, PhD July 17, 2026 The Nancy Grace Roman Space Telescope is NASA’s next flagship orbital observatory, with the power to reshape what we know about. It is a mission on the same scale as the Hubble Space Telescope or the James Webb Space Telescope.</p><p>While humanity has confirmed about 6, 000 such worlds (known as exoplanets) over the past few decades, Roman could discover many more than that entirely on its own. The mission will also take direct photographs of planets and explore some of their atmospheres, as well as find potentially Earth-like worlds around other stars.</p><p>Astronomical community rated Roman the highest-priority large space mission of the 2010s. Scientists predict Roman will detect somewhere within the range of 60, 000-200, 000 candidate planets using the transit method, which involves watching stars to see them temporarily.</p><p>It will allow Roman to detect planets that are roughly 1 billion times dimmer than the stars they orbit, testing out the technology for future missions like NASA’s planned. After roughly 90 days of commissioning, the telescope will begin science operations at the beginning of 2027.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>At certain optical and infrared wavelengths, Roman will be able to take images just as sharp as Hubble’s but capture 100 times more of the sky in a single shot. This means that, combined with other upgrades, Roman will be able to survey the sky about 100 to 1, 500 times faster than Hubble could.</p><p>Because this item comes through The Planetary Society as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.planetary.org/articles/the-nancy-grace-roman-space-telescope-launch-what-to-expect\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia.",
-      "Dado-chave: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_pt": [
-      "Ponto central: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia.",
-      "Dado-chave: O próximo observatório orbital emblemático da NASA irá remodelar o que sabemos sobre os planetas em toda a galáxia.",
-      "Cobertura jornalística: verificar documentação técnica primária."
-    ],
-    "highlights_en": [
-      "Core point: NASA’s next flagship orbital observatory will reshape what we know about planets throughout the galaxy.",
-      "Key detail: NASA’s next flagship orbital observatory will reshape what we know about planets throughout the galaxy.",
-      "Science reporting: verify primary technical documentation."
-    ],
-    "date": "17 jul 2026",
-    "date_pt": "17 jul 2026",
-    "date_en": "17 Jul 2026",
-    "time": "14h00",
-    "time_pt": "14h00",
-    "time_en": "14: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-07-17T14:00:00+00:00",
-    "lastModifiedIso": "2026-07-17T16:58:55+00:00",
-    "source": "The Planetary Society",
-    "sourceDomain": "www. planetary. org",
-    "sourceType": "news",
-    "sourceTypeLabel": "Jornalismo científico",
-    "sourceTypeLabel_pt": "Jornalismo científico",
-    "sourceTypeLabel_en": "Science journalism",
-    "sourceNote": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_pt": "Cobertura jornalística de ciência. Sempre que possível, vale conferir o paper, o release técnico ou a fonte primária citada.",
-    "sourceNote_en": "Science journalism coverage. When possible, verify the cited paper, technical release or primary source.",
-    "evidenceKey": "journalistic",
-    "evidenceLabel": "Cobertura jornalística",
-    "evidenceLabel_pt": "Cobertura jornalística",
-    "evidenceLabel_en": "Journalistic coverage",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Astronomia",
-      "The Planetary Society",
-      "Cosmos Week",
-      "Lançamento do Telescópio Espacial Nancy Grace Roman",
-      "O que esperar"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "The Planetary Society",
-      "Cosmos Week",
-      "Lançamento do Telescópio Espacial Nancy Grace Roman",
-      "O que esperar"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "The Planetary Society",
-      "Cosmos Week",
-      "Launch of the Nancy Grace Roman Space Telescope",
-      "What to expect"
-    ],
-    "srcUrl": "https://www.planetary.org/articles/the-nancy-grace-roman-space-telescope-launch-what-to-expect",
-    "realUrl": "https://www.cosmosweek.com/?article=the-nancy-grace-roman-space-telescope-launch-what-to-expect",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=the-nancy-grace-roman-space-telescope-launch-what-to-expect",
-    "realUrl_en": "https://www.cosmosweek.com/?article=the-nancy-grace-roman-space-telescope-launch-what-to-expect&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/the-nancy-grace-roman-space-telescope-launch-what-to-expect/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/the-nancy-grace-roman-space-telescope-launch-what-to-expect/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/the-nancy-grace-roman-space-telescope-launch-what-to-expect/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/the-nancy-grace-roman-space-telescope-launch-what-to-expect/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/the-nancy-grace-roman-space-telescope-launch-what-to-expect/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/the-nancy-grace-roman-space-telescope-launch-what-to-expect/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 90,
-    "scoreBreakdown": {
-      "source": 83,
-      "evidence": 54,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Lançamento do Telescópio Espacial Nancy Grace Roman: O que esperar",
-    "imageAlt_pt": "Lançamento do Telescópio Espacial Nancy Grace Roman: O que esperar",
-    "imageAlt_en": "The Nancy Grace Roman Space Telescope launch: What to expect",
-    "coverageKind": "news",
-    "coverageKindLabel": "Jornalismo científico",
-    "coverageKindLabel_pt": "Jornalismo científico",
-    "coverageKindLabel_en": "Science journalism",
     "storyKind": "science"
   },
   {
