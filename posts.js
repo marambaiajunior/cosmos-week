@@ -3,6 +3,252 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "nasa-jaxa-xrism-mission-sees-pulsar-gathering-companion-s-wind",
+    "cat": "Astrofísica",
+    "catCls": "astrofisica",
+    "img": "https://assets.science.nasa.gov/content/dam/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://svs.gsfc.nasa.gov/vis/a010000/a015000/a015099/BP_Crucis_concept_wide_large_ac_print.jpg",
+        "alt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio",
+        "caption": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio"
+      },
+      {
+        "src": "https://svs.gsfc.nasa.gov/vis/a010000/a015000/a015099/Still2.jpg",
+        "alt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio",
+        "caption": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio"
+      },
+      {
+        "src": "https://svs.gsfc.nasa.gov/vis/a010000/a015000/a015099/GX_301-2_spectrum_sml.jpg",
+        "alt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio",
+        "caption": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio"
+      },
+      {
+        "src": "https://svs.gsfc.nasa.gov/vis/a010000/a015000/a015099/GX_301-2_spectrum_med.jpg",
+        "alt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio",
+        "caption": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio"
+      },
+      {
+        "src": "https://svs.gsfc.nasa.gov/vis/a010000/a015000/a015099/GX_301-2_spectrum_large.jpg",
+        "alt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio",
+        "caption": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio"
+      },
+      {
+        "src": "https://svs.gsfc.nasa.gov/vis/a010000/a015000/a015099/BP_Crucis_concept_wide_med.jpg",
+        "alt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio",
+        "caption": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio"
+      },
+      {
+        "src": "https://svs.gsfc.nasa.gov/vis/a010000/a015000/a015099/BP_Crucis_concept_wide_sml.jpg",
+        "alt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio",
+        "caption": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio"
+      },
+      {
+        "src": "https://svs.gsfc.nasa.gov/vis/a010000/a015000/a015099/BP_Crucis_concept_wide_large.jpg",
+        "alt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio",
+        "caption": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio"
+      },
+      {
+        "src": "https://svs.gsfc.nasa.gov/vis/a010000/a015000/a015099/BP_Crucis_concept_wide_large.png",
+        "alt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio",
+        "caption": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio"
+      },
+      {
+        "src": "https://svs.gsfc.nasa.gov/vis/a010000/a015000/a015099/BP_Crucis_concept_wide_large_ac.jpg",
+        "alt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio",
+        "caption": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio"
+      },
+      {
+        "src": "https://svs.gsfc.nasa.gov/vis/a010000/a015000/a015099/BP_Crucis_concept_wide_large_ac_searchweb.png",
+        "alt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio",
+        "caption": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio"
+      },
+      {
+        "src": "https://svs.gsfc.nasa.gov/vis/a010000/a015000/a015099/BP_Crucis_concept_wide_large_ac_thm.png",
+        "alt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "alt_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio",
+        "caption": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_pt": "Baixe vídeos e imagens de alta resolução do Scientific Visualization Studio da NASA",
+        "caption_en": "Download high-resolution video and images from NASA's Scientific Visualization Studio"
+      }
+    ],
+    "video": {
+      "kind": "embed",
+      "platform": "youtube",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/_1mpHBAXh1c?rel=0&modestbranding=1",
+      "fileUrl": "",
+      "poster": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/svs/a020000/a020300/a020374/XRISM_S1_4k_30fps_ProRes-00001_print.jpg?w=1024&h=576&fit=clip&crop=faces%2Cfocalpoint",
+      "title": "Espectroscopia, explicada",
+      "title_pt": "Espectroscopia, explicada",
+      "title_en": "Spectroscopy, Explained",
+      "caption": "A produtora de vídeo Sophia Roberts explica os princípios básicos por trás da espectroscopia, a ciência da leitura da luz para determinar o tamanho, distância, rotação e química. ..",
+      "caption_pt": "A produtora de vídeo Sophia Roberts explica os princípios básicos por trás da espectroscopia, a ciência da leitura da luz para determinar o tamanho, distância, rotação e química. ..",
+      "caption_en": "Video producer Sophia Roberts explains the basic principles behind spectroscopy, the science of reading light to determine the size, distance, spin and chemi. ..",
+      "sourcePage": "https://science.nasa.gov/missions/xrism/xrism-sees-pulsar-gathering-companions-wind/"
+    },
+    "audio": null,
+    "title": "Missão NASA-JAXA XRISM vê o ‘Vento’ do Pulsar Gathering Companion",
+    "title_pt": "Missão NASA-JAXA XRISM vê o ‘Vento’ do Pulsar Gathering Companion",
+    "title_en": "NASA-JAXA XRISM Mission Sees Pulsar Gathering Companion’s ‘Wind’",
+    "sub": "Usando dados do observatório XRISM liderado pelo Japão, os astrónomos observaram diretamente o fluxo de uma estrela gigante, chamado vento estelar, sendo capturado pela sua.",
+    "sub_pt": "Usando dados do observatório XRISM liderado pelo Japão, os astrónomos observaram diretamente o fluxo de uma estrela gigante, chamado vento estelar, sendo capturado pela sua.",
+    "sub_en": "Using data from the Japan-led XRISM observatory, astronomers have directly observed a giant star’s outflow, called a stellar wind, being captured by its compact companion and.",
+    "excerpt": "Usando dados do observatório XRISM liderado pelo Japão, os astrónomos observaram diretamente o fluxo de uma estrela gigante, chamado vento estelar, sendo capturado pela sua companheira compacta e fornecendo a fonte de energia para fortes explosões de raios-X.",
+    "excerpt_pt": "Usando dados do observatório XRISM liderado pelo Japão, os astrónomos observaram diretamente o fluxo de uma estrela gigante, chamado vento estelar, sendo capturado pela sua companheira compacta e fornecendo a fonte de energia para fortes explosões de raios-X.",
+    "excerpt_en": "Using data from the Japan-led XRISM observatory, astronomers have directly observed a giant star’s outflow, called a stellar wind, being captured by its compact companion and providing the power source for strong X-ray flares.",
+    "body": "<p>Usando dados do observatório XRISM liderado pelo Japão, os astrónomos observaram diretamente o fluxo de uma estrela gigante, chamado vento estelar, sendo capturado pela sua companheira compacta e fornecendo a fonte de energia para fortes explosões de raios-X.</p><p>5 min de leitura Missão XRISM da NASA-JAXA vê o ‘Vento’ do Pulsar Gathering Companion Usando dados do observatório XRISM (Missão de Imagem e Espectroscopia de Raios-X) liderado pelo Japão, os astrônomos observaram diretamente o fluxo de uma estrela gigante, chamado vento. Este conceito artístico do sistema BP Crucis segue o pulsar numa passagem através do denso fluxo de plasma que flui da sua companheira, uma hipergigante azul com 40 vezes a massa do Sol.</p><p>Centro de Voo Espacial Goddard da NASA/Laboratório de Imagens Conceituais Baixe vídeos e imagens de alta resolução do Estúdio de Visualização Científica da NASA A companheira da supergigante é uma pequena mas poderosa estrela de nêutrons chamada GX 301-2. Centro de Voo Espacial Goddard da NASA Baixe vídeo de alta resolução do Estúdio de Visualização Científica da NASA Quando Rahin viu esses espectros pela primeira vez, ele percebeu que nunca tinha visto nada parecido antes.</p><p>Pudemos ver como o denso fluxo de plasma atua muito perto da estrela de nêutrons. ” O instrumento Resolve a bordo do observatório NASA-JAXA XRISM capturou este espectro de raios X de alta resolução de BP Crucis. 2026 Rahin e a sua equipa mostram que as linhas de absorção de ferro que observaram estão deslocadas para energias mais baixas do que seriam se medidas em laboratório.</p><p>Agora podemos testar nossa compreensão desses processos com muito mais detalhes. ” Um artigo que descreve as descobertas foi publicado sexta-feira na revista Science Advances. Girando a cada 11 minutos, ele envia um feixe de raios X em direção à Terra, o que o classifica como um pulsar.</p><p>O instrumento Resolve do observatório, desenvolvido em conjunto pela NASA e pela JAXA (Agência de Exploração Aeroespacial do Japão), capturou espectros de raios X altamente detalhados, revelando linhas de emissão e absorção em rápida mudança.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/xrism/xrism-sees-pulsar-gathering-companions-wind/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Usando dados do observatório XRISM liderado pelo Japão, os astrónomos observaram diretamente o fluxo de uma estrela gigante, chamado vento estelar, sendo capturado pela sua companheira compacta e fornecendo a fonte de energia para fortes explosões de raios-X.</p><p>5 min de leitura Missão XRISM da NASA-JAXA vê o ‘Vento’ do Pulsar Gathering Companion Usando dados do observatório XRISM (Missão de Imagem e Espectroscopia de Raios-X) liderado pelo Japão, os astrônomos observaram diretamente o fluxo de uma estrela gigante, chamado vento. Este conceito artístico do sistema BP Crucis segue o pulsar numa passagem através do denso fluxo de plasma que flui da sua companheira, uma hipergigante azul com 40 vezes a massa do Sol.</p><p>Centro de Voo Espacial Goddard da NASA/Laboratório de Imagens Conceituais Baixe vídeos e imagens de alta resolução do Estúdio de Visualização Científica da NASA A companheira da supergigante é uma pequena mas poderosa estrela de nêutrons chamada GX 301-2. Centro de Voo Espacial Goddard da NASA Baixe vídeo de alta resolução do Estúdio de Visualização Científica da NASA Quando Rahin viu esses espectros pela primeira vez, ele percebeu que nunca tinha visto nada parecido antes.</p><p>Pudemos ver como o denso fluxo de plasma atua muito perto da estrela de nêutrons. ” O instrumento Resolve a bordo do observatório NASA-JAXA XRISM capturou este espectro de raios X de alta resolução de BP Crucis. 2026 Rahin e a sua equipa mostram que as linhas de absorção de ferro que observaram estão deslocadas para energias mais baixas do que seriam se medidas em laboratório.</p><p>Agora podemos testar nossa compreensão desses processos com muito mais detalhes. ” Um artigo que descreve as descobertas foi publicado sexta-feira na revista Science Advances. Girando a cada 11 minutos, ele envia um feixe de raios X em direção à Terra, o que o classifica como um pulsar.</p><p>O instrumento Resolve do observatório, desenvolvido em conjunto pela NASA e pela JAXA (Agência de Exploração Aeroespacial do Japão), capturou espectros de raios X altamente detalhados, revelando linhas de emissão e absorção em rápida mudança.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/xrism/xrism-sees-pulsar-gathering-companions-wind/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Using data from the Japan-led XRISM observatory, astronomers have directly observed a giant star’s outflow, called a stellar wind, being captured by its compact companion and providing the power source for strong X-ray flares. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. 5 min read NASA-JAXA XRISM Mission Sees Pulsar Gathering Companion’s ‘Wind’ Using data from the Japan-led XRISM (X-ray Imaging and Spectroscopy Mission) observatory, astronomers. This artist’s concept of the BP Crucis system follows the pulsar on a passage through the dense stream of plasma flowing from its companion, a blue hypergiant 40 times the Sun’s.</p><p>NASA’s Goddard Space Flight Center/Conceptual Image Laboratory Download high-resolution video and images from NASA’s Scientific Visualization Studio The supergiant’s companion is. NASA’s Goddard Space Flight Center Download high-resolution video from NASA’s Scientific Visualization Studio When Rahin first saw these spectra, he realized he hadn’t seen.</p><p>We could see how the dense stream of plasma acts very close to the neutron star. ” The Resolve instrument aboard the NASA-JAXA XRISM observatory captured this high-resolution X-ray. 2026 Rahin and his team show that the iron absorption lines they observed are displaced to lower energies than they would be if measured in a laboratory.</p><p>Using data from the Japan-led XRISM (X-ray Imaging and Spectroscopy Mission) observatory, astronomers have directly observed a giant star’s outflow, called a Video producer Sophia. We can now test our understanding of these processes in much greater detail. ” A paper describing the findings published Friday in the journal Science Advances.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>Rotating every 11 minutes, it sweeps an X-ray beam toward Earth, which classifies it as a pulsar. The observatory’s Resolve instrument, jointly developed by NASA and JAXA (Japan Aerospace Exploration Agency), captured highly detailed X-ray spectra, revealing rapidly changing.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/xrism/xrism-sees-pulsar-gathering-companions-wind/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Usando dados do observatório XRISM liderado pelo Japão, os astrónomos observaram diretamente o fluxo de uma estrela gigante, chamado vento estelar",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Usando dados do observatório XRISM liderado pelo Japão, os astrónomos observaram diretamente o fluxo de uma estrela gigante, chamado vento estelar",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Using data from the Japan-led XRISM observatory, astronomers have directly observed a giant star’s outflow, called a stellar wind, being captured by",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "18 set 2026",
+    "date_pt": "18 set 2026",
+    "date_en": "18 Sep 2026",
+    "time": "18h02",
+    "time_pt": "18h02",
+    "time_en": "18: 02 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-09-18T18:02:53+00:00",
+    "lastModifiedIso": "2026-09-19T18:20:12+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astrofísica",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Missão NASA",
+      "JAXA XRISM vê o ‘Vento’ do Pulsar Gathering Companion"
+    ],
+    "keywords_pt": [
+      "Astrofísica",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Missão NASA",
+      "JAXA XRISM vê o ‘Vento’ do Pulsar Gathering Companion"
+    ],
+    "keywords_en": [
+      "Astrophysics",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA mission",
+      "JAXA XRISM sees the ‘Wind’ of Pulsar Gathering Companion"
+    ],
+    "srcUrl": "https://science.nasa.gov/missions/xrism/xrism-sees-pulsar-gathering-companions-wind/",
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-jaxa-xrism-mission-sees-pulsar-gathering-companion-s-wind",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-jaxa-xrism-mission-sees-pulsar-gathering-companion-s-wind",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-jaxa-xrism-mission-sees-pulsar-gathering-companion-s-wind&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-jaxa-xrism-mission-sees-pulsar-gathering-companion-s-wind/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-jaxa-xrism-mission-sees-pulsar-gathering-companion-s-wind/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-jaxa-xrism-mission-sees-pulsar-gathering-companion-s-wind/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-jaxa-xrism-mission-sees-pulsar-gathering-companion-s-wind/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-jaxa-xrism-mission-sees-pulsar-gathering-companion-s-wind/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-jaxa-xrism-mission-sees-pulsar-gathering-companion-s-wind/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Missão NASA-JAXA XRISM vê o ‘Vento’ do Pulsar Gathering Companion",
+    "imageAlt_pt": "Missão NASA-JAXA XRISM vê o ‘Vento’ do Pulsar Gathering Companion",
+    "imageAlt_en": "NASA-JAXA XRISM Mission Sees Pulsar Gathering Companion’s ‘Wind’",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
     "slug": "from-the-start-the-solar-system-chose-fire-over-ice-to-build-its-first-bodies",
     "cat": "Química",
     "catCls": "quimica",
@@ -33,19 +279,19 @@ window.postsData = [
     "body_pt": "<p>Num novo estudo liderado por Yale, os investigadores fornecem a primeira evidência geoquímica de que, no primeiro milhão de anos após o início da formação do Sistema Solar, este já estava a selecionar preferencialmente os côndrulos em vez da matriz. Pesquisas anteriores só conseguiram documentar este processo de classificação em objetos que se formaram entre 2 e 4 milhões de anos após a origem do Sistema Solar.</p><p>O estudo foi publicado na revista Nature Astronomy. O nosso trabalho mostra que este processo de montagem foi notavelmente selectivo desde o início,&quot; disse Damanveer Grewal, professor assistente de ciências da Terra e planetárias na Faculdade de Artes e Ciências de Yale, e primeiro autor do estudo.</p><p>Os primeiros corpos do sistema solar exterior foram constituídos por 83% a 92% de côndrulos, com muito pouca poeira gelada e rica em voláteis que domina os objetos de formação posterior. Mas nenhum corpo indiferenciado preservado sobreviveu daquela época inicial, o primeiro milhão de anos do sistema solar, para confirmar a proporção original entre côndrulas e matrizes.</p><p>Os corpos-mãe amostrados por estes meteoritos acumularam tanto alumínio-26 radioativo que derreteram completamente, destruindo todos os vestígios físicos daquilo de que eram originalmente feitos. Utilizando os traçadores, os investigadores calcularam níveis de matriz de apenas 8% a 17% nos corpos originais amostrados por estes meteoritos de ferro, inferiores aos encontrados em quaisquer condritos conhecidos.</p><p>E agora sabemos que já estavam a ser classificados e incorporados na primeira geração de corpos sólidos desde o início. &quot; Os co-autores do estudo são Zhongtian Zhang, da Universidade de Princeton, e Joanna Drążkowska, do Instituto Max Planck para a Investigação do Sistema Solar. Grewal et al, Composições planetesimais governadas pela classificação aerodinâmica desde o início da formação do Sistema Solar, Nature Astronomy (2026).</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-09-solar-chose-ice-bodies.html\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>When the solar system first took up the task of building solid bodies, such as planets, moons and protoplanets, it basically had a choice between two ingredients: heat-forged chondrules, which were millimeter-sized bits of rock, and. The science-journalism coverage adds useful context, while the strongest evidential footing still comes from the underlying data, papers or institutional documentation.</p><p>It matters because chemistry gains force when a claimed structure or process can be described with enough precision to be reproduced by others. Synthetic routes, spectroscopic signatures, yield under defined conditions and stability under realistic operating parameters are the currency of credibility in chemistry, and a result that lacks these details cannot be evaluated independently. The distance between a discovery on a laboratory bench and a process that works reliably at scale is measured in years of optimization, and each step reveals constraints that were invisible at smaller scale. This article has been reviewed according to Science X&#x27;s editorial process and policies. In a new Yale-led study, researchers provide the first geochemical evidence that within the first million years after the solar system began to form, it was already preferentially.</p><p>Prior research had only been able to document this sorting process in objects that formed 2, 4 million years after the solar system&#x27;s origin. The study is published in the journal Nature Astronomy.</p><p>Our work shows that this assembly process was remarkably selective from the very beginning,&quot; said Damanveer Grewal, an assistant professor of Earth and planetary sciences in. The earliest bodies in the outer solar system were built from 83% to 92% chondrules, with very little of the icy, volatile-rich dust that dominates later-forming objects.</p><p>But no preserved undifferentiated bodies survive from that early epoch, the first million years of the solar system, to confirm the original chondrule-to-matrix ratio. The parent bodies sampled by these meteorites had accumulated so much radioactive aluminum-26 that they melted completely, destroying all physical traces of what they were.</p><p>The broader interest lies in whether the claimed property or reaction pathway can be characterized with enough precision to support replication by other groups. Chemistry has a replication problem that is less discussed than the one in psychology or medicine, but it is real: synthetic procedures that work reliably in one laboratory sometimes fail to transfer, for reasons ranging from impure starting materials to undocumented temperature sensitivities. A result that comes with full experimental detail and a clear characterization of the product is far more valuable than one that reports a discovery without the procedural backbone.</p><p>Using the tracers, the researchers calculated matrix levels of only 8% to 17% in the original bodies sampled by these iron meteorites, lower than what had been found in any known. And now we know they were already being sorted and incorporated into the first generation of solid bodies from the very start.</p><p>Because this item comes through Phys. org Space as science journalism, it should be treated as contextual reporting rather than primary evidence. Good science reporting can identify why a result matters, connect it to the wider literature and make technical work readable, but the decisive evidence remains in the original paper, dataset, mission release or technical record. That distinction is especially important when a story is later repeated by aggregators, because repetition increases visibility, not evidential strength.</p><p>The next step is to see whether independent groups working with orthogonal techniques reach compatible conclusions, and whether the result scales beyond the conditions used in the original study. Chemical discoveries that matter tend to be ones whose key properties can be measured by multiple spectroscopic, crystallographic or computational methods that are unlikely to share the same blind spots. Scalability, cost and long-term stability under realistic operating conditions are additional filters that come into play before any practical application becomes viable.</p><p class=\"art-source\"><a href=\"https://phys.org/news/2026-09-solar-chose-ice-bodies.html\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Quando o sistema solar assumiu pela primeira vez a tarefa de construir corpos sólidos, como planetas, luas e protoplanetas, basicamente tinha uma",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: Quando o sistema solar assumiu pela primeira vez a tarefa de construir corpos sólidos, como planetas, luas e protoplanetas, basicamente tinha uma.",
+      "Dado-chave: Quando o sistema solar assumiu pela primeira vez a tarefa de construir corpos sólidos, como planetas, luas e protoplanetas, basicamente tinha uma",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_pt": [
-      "Em foco: Quando o sistema solar assumiu pela primeira vez a tarefa de construir corpos sólidos, como planetas, luas e protoplanetas, basicamente tinha uma",
-      "Detalhe: Cobertura jornalística: verificar documentação técnica primária",
-      "Leitura editorial: reportagem científica; quando possível, confira a fonte primária citada."
+      "Ponto central: Quando o sistema solar assumiu pela primeira vez a tarefa de construir corpos sólidos, como planetas, luas e protoplanetas, basicamente tinha uma.",
+      "Dado-chave: Quando o sistema solar assumiu pela primeira vez a tarefa de construir corpos sólidos, como planetas, luas e protoplanetas, basicamente tinha uma",
+      "Cobertura jornalística: verificar documentação técnica primária."
     ],
     "highlights_en": [
-      "Focus: When the solar system first took up the task of building solid bodies, such as planets, moons and protoplanets, it basically had a choice between two",
-      "Detail: Science reporting: verify primary technical documentation",
-      "Editorial reading: science reporting; whenever possible, verify the cited primary source."
+      "Core point: When the solar system first took up the task of building solid bodies, such as planets, moons and protoplanets, it basically had a choice between two.",
+      "Key detail: When the solar system first took up the task of building solid bodies, such as planets, moons and protoplanets, it basically had a choice.",
+      "Science reporting: verify primary technical documentation."
     ],
     "date": "18 set 2026",
     "date_pt": "18 set 2026",
@@ -136,7 +382,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "lake-powell-drops-to-record-low-levels",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -285,7 +531,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "summer-goes-out-with-a-heat-dome",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -338,19 +584,19 @@ window.postsData = [
     "body_pt": "<p>Os registros de temperatura caíram no centro e no sul dos EUA à medida que o equinócio de outono se aproximava. Artigo Sentindo o calor oculto dos poloneses 3 min de leitura Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.</p><p>Imagem do dia do Observatório da Terra O Observatório da Terra da NASA traz para você a Terra, todos os dias, com histórias detalhadas e imagens impressionantes. Produziu um calor fora de época e, em alguns lugares, recorde em 15 de setembro de 2026, conforme mostrado neste mapa de temperaturas do ar modeladas do GEOS (Goddard Earth Observing System).</p><p>Observatório da Terra da NASA/Michala Garrison Embora o calendário indicasse que o verão astronômico estava terminando, uma parte do centro-sul dos Estados Unidos estava sufocante sob uma cúpula de calor em meados de setembro de 2026. Foi produzido combinando observações de satélite com temperaturas previstas por uma versão do modelo GEOS (Goddard Earth Observing System), que utiliza equações matemáticas para representar processos físicos na atmosfera.</p><p>Vários locais estabeleceram novos recordes diários de altas temperaturas em 15 de setembro. O período de temperaturas fora de época segue-se ao período mais quente de junho a agosto nos Estados Unidos contíguos, em um recorde de 132 anos, de acordo com a NOAA.</p><p>Imagem do Observatório Terrestre da NASA por Michala Garrison, usando dados GEOS-FP do Escritório de Modelagem e Assimilação Global da NASA GSFC. Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal.</p><p>Artigo Sentindo o calor oculto dos poloneses 3 min de leitura Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártica.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/summer-goes-out-with-a-heat-dome/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Temperature records toppled across the central and southern U. S. as the autumnal equinox approached. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Article Sensing the Poles’ Hidden Heat 3 min read New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic. Earth Observatory Image of the Day NASA’s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>Produced unseasonable and, in some places, record-breaking warmth on September 15, 2026, as shown in this map of modeled air temperatures from GEOS (Goddard Earth Observing. It was produced by combining satellite observations with temperatures predicted by a version of the GEOS (Goddard Earth Observing System) model, which uses mathematical equations.</p><p>Several locations set new daily high temperature records on September 15. The stretch of unseasonable temperatures follows the warmest June through August in the contiguous United States in a 132-year record, according to NOAA.</p><p>NASA Earth Observatory image by Michala Garrison, using GEOS-FP data from the Global Modeling and Assimilation Office at NASA GSFC. Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Article Sensing the Poles’ Hidden Heat 3 min read New animations from NASA&#x27;s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic. Article 1 2 3 4 Next Keep Exploring Discover More from NASA Earth Science Subscribe to Earth Observatory Newsletters Subscribe to the Earth Observatory and get the Earth in your.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/summer-goes-out-with-a-heat-dome/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Os registros de temperatura caíram no centro e no sul dos EUA à medida que o equinócio de outono se aproximava",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Os registros de temperatura caíram no centro e no sul dos EUA à medida que o equinócio de outono se aproximava.",
+      "Dado-chave: Os registros de temperatura caíram no centro e no sul dos EUA à medida que o equinócio de outono se aproximava",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Os registros de temperatura caíram no centro e no sul dos EUA à medida que o equinócio de outono se aproximava",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Os registros de temperatura caíram no centro e no sul dos EUA à medida que o equinócio de outono se aproximava.",
+      "Dado-chave: Os registros de temperatura caíram no centro e no sul dos EUA à medida que o equinócio de outono se aproximava",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Temperature records toppled across the central and southern U. S. as the autumnal equinox approached",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Temperature records toppled across the central and southern U. S. as the autumnal equinox approached.",
+      "Key detail: Temperature records toppled across the central and southern U. S. as the autumnal equinox approached",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "17 set 2026",
     "date_pt": "17 set 2026",
@@ -438,7 +684,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "nasa-s-moon-orbiter-spots-new-once-in-century-moon-crater",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -506,17 +752,17 @@ window.postsData = [
     "body_en": "<p>It started as a routine data-quality check. But as Robert Wagner, a scientist with NASA’s Lunar Reconnaissance Orbiter, scanned a giant Moon map on his computer screen, an unusually large bright spot circled by a dark halo caught his eye. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. 6 Min Read NASA’s Moon Orbiter Spots New, ‘Once-in-Century’ Moon Crater A zoomed-in view of the Moon made from images from NASA’s Lunar Reconnaissance Orbiter Camera. The panel on the left is made from images captured by NASA’s Lunar Reconnaissance Orbiter Wide-Angle Camera in summer 2025.</p><p>Moon takes some hits For more than 17 years, LRO has been circling the Moon and using its seven instruments to map the topography, surface composition, temperature, and radiation. This animated image set shows an area on the eastern limb of the Moon before and after McGetchin crater formed there sometime between April 11 and May 22, 2024.</p><p>NASA Goddard/Intuitive Machines/Robert Wagner Road to discovery The LROC system collects images from about 60 miles above the Moon as LRO loops from pole to pole. 5, 2025, by NASA’s Lunar Reconnaissance Orbiter (LRO) Narrow-Angle Camera (NAC).</p><p>NASA Goddard/Intuitive Machines This view from the side (55° away from straight down) towards the east, covers an area of the Moon that’s about 1.5 miles wide. It was taken by NASA’s Lunar Reconnaissance Orbiter Narrow-Angle Camera on March 3, 2026.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>For more than 17 years, LRO has been circling the Moon and using its seven instruments to map the topography, surface composition, temperature, and radiation environment there. The spacecraft’s team has identified at least 1, 000 new impact craters throughout the mission and flagged 100, 000 more surface changes from an object smashing into the Moon or.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Tudo começou como uma verificação rotineira da qualidade dos dados. Mas quando Robert Wagner, um cientista da Lunar Reconnaissance Orbiter da NASA.",
-      "Dado-chave: Tudo começou como uma verificação rotineira da qualidade dos dados",
+      "Dado-chave: Tudo começou como uma verificação rotineira da qualidade dos dados. Mas quando Robert Wagner, um cientista da Lunar Reconnaissance Orbiter da.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: Tudo começou como uma verificação rotineira da qualidade dos dados. Mas quando Robert Wagner, um cientista da Lunar Reconnaissance Orbiter da NASA.",
-      "Dado-chave: Tudo começou como uma verificação rotineira da qualidade dos dados",
+      "Dado-chave: Tudo começou como uma verificação rotineira da qualidade dos dados. Mas quando Robert Wagner, um cientista da Lunar Reconnaissance Orbiter da.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: It started as a routine data-quality check. But as Robert Wagner, a scientist with NASA’s Lunar Reconnaissance Orbiter, scanned a giant Moon map on.",
-      "Key detail: It started as a routine data-quality check",
+      "Key detail: It started as a routine data-quality check. But as Robert Wagner, a scientist with NASA’s Lunar Reconnaissance Orbiter, scanned a giant Moon map.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "16 set 2026",
@@ -605,7 +851,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "nasa-watches-earth-s-weight-finds-center-of-mass",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -767,143 +1013,6 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 6,
-    "slug": "newfound-baby-planet-smashes-record-for-youngest-known-world",
-    "cat": "Biologia",
-    "catCls": "biologia",
-    "img": "https://science.nasa.gov/wp-content/uploads/2026/09/elias-1-372.jpg",
-    "inline_images": [],
-    "video": {
-      "kind": "file",
-      "platform": "html5",
-      "embedUrl": "",
-      "fileUrl": "https://science.nasa.gov/wp-content/uploads/2026/09/elias.mp4",
-      "poster": "https://science.nasa.gov/wp-content/uploads/2026/09/elias-1-372.jpg",
-      "title": "Recém-descoberto planeta ‘Baby’ quebra recorde de mundo mais jovem conhecido - NASA Science",
-      "title_pt": "Recém-descoberto planeta ‘Baby’ quebra recorde de mundo mais jovem conhecido - NASA Science",
-      "title_en": "Newfound ‘Baby’ Planet Smashes Record for Youngest Known World - NASA Science",
-      "caption": "Os astrónomos confirmaram que um mundo com menos de um milhão de anos é o planeta mais jovem conhecido, utilizando dados de arquivos financiados pela NASA. Chamado Elias 2-24",
-      "caption_pt": "Os astrónomos confirmaram que um mundo com menos de um milhão de anos é o planeta mais jovem conhecido, utilizando dados de arquivos financiados pela NASA. Chamado Elias 2-24",
-      "caption_en": "Astronomers have confirmed a world that’s less than a million years old as the youngest known planet, using data from NASA-funded archives. Called Elias 2-24",
-      "sourcePage": "https://science.nasa.gov/universe/newfound-baby-planet-smashes-record-for-youngest-known-world/"
-    },
-    "audio": null,
-    "title": "Planeta ‘Baby’ recém-descoberto quebra recorde de mundo mais jovem conhecido",
-    "title_pt": "Planeta ‘Baby’ recém-descoberto quebra recorde de mundo mais jovem conhecido",
-    "title_en": "Newfound ‘Baby’ Planet Smashes Record for Youngest Known World",
-    "sub": "Os astrónomos confirmaram que um mundo com menos de um milhão de anos é o planeta mais jovem conhecido, utilizando dados de arquivos financiados pela NASA.",
-    "sub_pt": "Os astrónomos confirmaram que um mundo com menos de um milhão de anos é o planeta mais jovem conhecido, utilizando dados de arquivos financiados pela NASA.",
-    "sub_en": "Astronomers have confirmed a world that’s less than a million years old as the youngest known planet, using data from NASA-funded archives.",
-    "excerpt": "Os astrónomos confirmaram que um mundo com menos de um milhão de anos é o planeta mais jovem conhecido, utilizando dados de arquivos financiados pela NASA.",
-    "excerpt_pt": "Os astrónomos confirmaram que um mundo com menos de um milhão de anos é o planeta mais jovem conhecido, utilizando dados de arquivos financiados pela NASA.",
-    "excerpt_en": "Astronomers have confirmed a world that’s less than a million years old as the youngest known planet, using data from NASA-funded archives.",
-    "body": "<p>Os astrónomos confirmaram que um mundo com menos de um milhão de anos é o planeta mais jovem conhecido, utilizando dados de arquivos financiados pela NASA. Chamado Elias 2-24 b, o planeta bebé ainda gira no seu disco natal de poeira e gás.</p><p>Observatório Keck/Adam Makarenko Astrônomos confirmaram que um mundo com menos de um milhão de anos é o planeta mais jovem conhecido, usando dados de arquivos financiados pela NASA. Conceito artístico que representa Elias 2-24 b, o exoplaneta mais jovem detetado até à data, ainda a crescer no disco de gás e poeira que rodeia a sua jovem estrela hospedeira.</p><p>Os modelos atuais prevêem que são necessários cerca de 5 milhões de anos para formar um planeta do tamanho de Júpiter à distância de Júpiter ao Sol (que é pouco mais de cinco vezes maior que a distância da Terra ao Sol), e ainda mais tempo mais longe. No entanto, o ponto brilhante que avistaram estava 55 vezes mais longe da sua estrela do que a Terra está do Sol e já se comportava como um planeta em formação.</p><p>Assim, a equipe de Bernardi procurou novamente no Arquivo do Observatório Keck, uma parceria financiada pela NASA entre o Observatório Keck e o Instituto de Ciência de Exoplanetas da NASA no Caltech/IPAC, pelo mesmo pequeno ponto de luz e o encontrou em observações de 2018 e 2020.</p><p>Elias 2-24 b está no limite do que os telescópios atuais podem detectar, mas com novos instrumentos como o Telescópio Espacial Nancy Grace Roman da NASA, tais detecções deverão tornar-se mais fáceis. ” Roman, que acaba de ser lançado em agosto. 30, está equipado com um coronógrafo ainda mais poderoso e é capaz de detectar planetas que são muito mais difíceis de serem vistos por outros telescópios.</p><p>Chamado Elias 2-24 Artigo Conteúdo Zona de construção Pontos de ligação Os astrónomos confirmaram que um mundo com menos de um milhão de anos é o planeta mais jovem conhecido, utilizando dados de arquivos financiados pela NASA.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/universe/newfound-baby-planet-smashes-record-for-youngest-known-world/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Os astrónomos confirmaram que um mundo com menos de um milhão de anos é o planeta mais jovem conhecido, utilizando dados de arquivos financiados pela NASA. Chamado Elias 2-24 b, o planeta bebé ainda gira no seu disco natal de poeira e gás.</p><p>Observatório Keck/Adam Makarenko Astrônomos confirmaram que um mundo com menos de um milhão de anos é o planeta mais jovem conhecido, usando dados de arquivos financiados pela NASA. Conceito artístico que representa Elias 2-24 b, o exoplaneta mais jovem detetado até à data, ainda a crescer no disco de gás e poeira que rodeia a sua jovem estrela hospedeira.</p><p>Os modelos atuais prevêem que são necessários cerca de 5 milhões de anos para formar um planeta do tamanho de Júpiter à distância de Júpiter ao Sol (que é pouco mais de cinco vezes maior que a distância da Terra ao Sol), e ainda mais tempo mais longe. No entanto, o ponto brilhante que avistaram estava 55 vezes mais longe da sua estrela do que a Terra está do Sol e já se comportava como um planeta em formação.</p><p>Assim, a equipe de Bernardi procurou novamente no Arquivo do Observatório Keck, uma parceria financiada pela NASA entre o Observatório Keck e o Instituto de Ciência de Exoplanetas da NASA no Caltech/IPAC, pelo mesmo pequeno ponto de luz e o encontrou em observações de 2018 e 2020.</p><p>Elias 2-24 b está no limite do que os telescópios atuais podem detectar, mas com novos instrumentos como o Telescópio Espacial Nancy Grace Roman da NASA, tais detecções deverão tornar-se mais fáceis. ” Roman, que acaba de ser lançado em agosto. 30, está equipado com um coronógrafo ainda mais poderoso e é capaz de detectar planetas que são muito mais difíceis de serem vistos por outros telescópios.</p><p>Chamado Elias 2-24 Artigo Conteúdo Zona de construção Pontos de ligação Os astrónomos confirmaram que um mundo com menos de um milhão de anos é o planeta mais jovem conhecido, utilizando dados de arquivos financiados pela NASA.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/universe/newfound-baby-planet-smashes-record-for-youngest-known-world/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Confirmed a world that’s less than a million years old as the youngest known planet, using data from NASA-funded archives. Called Elias 2-24 b, the baby planet is still whirling in its natal disk of dust and gas. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern. The gap between identifying a correlation in biological data and understanding the causal chain that produces it is routinely underestimated, and the history of biomedical research is populated with associations that collapsed when the mechanism was sought and not found. A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive finding because it generates testable predictions that can narrow the hypothesis space. Keck Observatory/Adam Makarenko Astronomers have confirmed a world that’s less than a million years old as the youngest known planet, using data from NASA-funded archives. Artist’s concept depicting Elias 2-24 b, the youngest exoplanet detected to date, still growing within the disk of gas and dust surrounding its young host star.</p><p>We are mostly blind to these baby planets right now. ” To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video Artist’s. Current models predict that it takes about 5 million years to form a Jupiter-size planet at Jupiter’s distance from the Sun (which is just over five times larger than the distance.</p><p>Yet the glowing dot they spotted was 55 times farther from its star than Earth is from the Sun and already behaving like a forming planet. So Bernardi’s team searched the Keck Observatory Archive, a NASA-funded partnership between Keck Observatory and the NASA Exoplanet Science Institute at Caltech/IPAC, for the same.</p><p>Elias 2-24 b is at the limit of what current telescopes can detect, but with new instruments like NASA’s Nancy Grace Roman Space Telescope, such detections should become easier. 30, is equipped with an even more powerful coronagraph and is capable of spotting planets that are much harder for other telescopes to see.</p><p>The broader interest lies in whether the reported effect points toward a real mechanism and not merely a reproducible but unexplained association. Biology has learned from decades of biomarker failures that correlation, even robust correlation, is not a substitute for mechanistic understanding. A pathway that can be traced from molecular interaction to cellular response to organismal phenotype provides a far stronger foundation for intervention than a statistical association discovered in a large dataset, however well the statistics are done.</p><p>Called Elias 2-24 Article Contents Construction zone Connecting dots Astronomers have confirmed a world that’s less than a million years old as the youngest known planet, using. Elias 2-24 b shows us that even our best planet-formation models are still missing some important processes.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to test whether the effect repeats across different methods, cell types, model organisms and experimental conditions. Reproducibility is the first test, but mechanistic dissection is the second, and a result that passes both has a substantially better chance of translating into something clinically or biotechnologically useful. The path from a laboratory finding to an applied outcome typically takes a decade or more, and most findings do not complete it; the current result sits at the beginning of that process.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/universe/newfound-baby-planet-smashes-record-for-youngest-known-world/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Os astrónomos confirmaram que um mundo com menos de um milhão de anos é o planeta mais jovem conhecido, utilizando dados de arquivos financiados pela.",
-      "Dado-chave: Os astrónomos confirmaram que um mundo com menos de um milhão de anos é o planeta mais jovem conhecido, utilizando dados de arquivos financiados.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Os astrónomos confirmaram que um mundo com menos de um milhão de anos é o planeta mais jovem conhecido, utilizando dados de arquivos financiados pela.",
-      "Dado-chave: Os astrónomos confirmaram que um mundo com menos de um milhão de anos é o planeta mais jovem conhecido, utilizando dados de arquivos financiados.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Astronomers have confirmed a world that’s less than a million years old as the youngest known planet, using data from NASA-funded archives.",
-      "Key detail: Astronomers have confirmed a world that’s less than a million years old as the youngest known planet, using data from NASA-funded archives.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "16 set 2026",
-    "date_pt": "16 set 2026",
-    "date_en": "16 Sep 2026",
-    "time": "14h34",
-    "time_pt": "14h34",
-    "time_en": "14: 34 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-09-16T14:34:47+00:00",
-    "lastModifiedIso": "2026-09-16T19:07:10+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Biologia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Planeta ‘Baby’ recém",
-      "descoberto quebra recorde de mundo mais jovem conhecido"
-    ],
-    "keywords_pt": [
-      "Biologia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Planeta ‘Baby’ recém",
-      "descoberto quebra recorde de mundo mais jovem conhecido"
-    ],
-    "keywords_en": [
-      "Biology",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Planet ‘Baby’ newly",
-      "Discovered breaks record for youngest known world"
-    ],
-    "srcUrl": "https://science.nasa.gov/universe/newfound-baby-planet-smashes-record-for-youngest-known-world/",
-    "realUrl": "https://www.cosmosweek.com/?article=newfound-baby-planet-smashes-record-for-youngest-known-world",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=newfound-baby-planet-smashes-record-for-youngest-known-world",
-    "realUrl_en": "https://www.cosmosweek.com/?article=newfound-baby-planet-smashes-record-for-youngest-known-world&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/newfound-baby-planet-smashes-record-for-youngest-known-world/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/newfound-baby-planet-smashes-record-for-youngest-known-world/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/newfound-baby-planet-smashes-record-for-youngest-known-world/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/newfound-baby-planet-smashes-record-for-youngest-known-world/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/newfound-baby-planet-smashes-record-for-youngest-known-world/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/newfound-baby-planet-smashes-record-for-youngest-known-world/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Planeta ‘Baby’ recém-descoberto quebra recorde de mundo mais jovem conhecido",
-    "imageAlt_pt": "Planeta ‘Baby’ recém-descoberto quebra recorde de mundo mais jovem conhecido",
-    "imageAlt_en": "Newfound ‘Baby’ Planet Smashes Record for Youngest Known World",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
     "id": 7,
     "slug": "faster-flowing-glaciers-fuel-decades-of-polar-ice-loss",
     "cat": "Ciências da Terra",
@@ -953,19 +1062,19 @@ window.postsData = [
     "body_pt": "<p>O mais longo registo de dados de satélite sobre alterações na camada de gelo alguma vez reunido revelou que a Gronelândia e a Antártida perderam impressionantes 11 biliões de toneladas de gelo desde a década de 1970, elevando o nível global do mar em mais de três centímetros.</p><p>Estes últimos resultados, publicados hoje na revista Nature Scientific Data, vêm do Exercício de Intercomparação de Balanço de Massa do Manto de Gelo (IMBIE), uma grande colaboração internacional envolvendo cientistas polares de institutos de todo o mundo. Apoiado pela ESA e pela NASA, o IMBIE reúne e reconcilia medições de diferentes missões de satélite para construir a imagem mais consistente possível de como as duas grandes camadas de gelo do planeta mudaram ao longo de várias décadas.</p><p>Alguns instrumentos espaciais usam altímetros para detectar mudanças na altura da superfície do gelo, outros medem o campo gravitacional da Terra, enquanto radares e sensores ópticos podem rastrear a rapidez com que as geleiras se movem. As missões de satélite também evoluíram consideravelmente nas últimas cinco décadas, com novos sensores, melhor resolução espacial e técnicas de medição cada vez mais sofisticadas substituindo sistemas mais antigos.</p><p>O resultado é um registo de longo prazo que permite aos cientistas distinguir mudanças genuínas nas camadas de gelo das diferenças causadas simplesmente pela forma como o gelo foi medido. Com base em dados de 27 missões de satélite, como o CryoSat da ESA, os Copernicus Sentinels, as missões Grace EUA-Alemanha e as primeiras missões Landsat, a equipa analisou 42 pesquisas independentes para rastrear alterações nas camadas de gelo.</p><p>O novo recorde IMBIE resultante remonta a 1972 para a Groenlândia e 1979 para a Antártica. Inès Otosaka, da Universidade de Northumbria, no Reino Unido, e que liderou o estudo, disse: “Voltando à década de 1970, podemos agora ver como as camadas de gelo mudaram ao longo de meio século.</p><p>A pesquisa descobriu que a Groenlândia foi responsável por 1, 81 centímetros do aumento do nível do mar, em comparação com 1, 33 centímetros da Antártica.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Faster-flowing_glaciers_fuel_decades_of_polar_ice_loss\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>The longest satellite data record of ice-sheet change ever assembled has revealed that Greenland and Antarctica have lost a staggering 11 trillion tonnes of ice since the 1970s, driving global sea level up by more than three centimetres. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. These latest results, published today in the Nature journal Scientific Data, come from the Ice Sheet Mass Balance Intercomparison Exercise (IMBIE), a large international. Supported by ESA and NASA, IMBIE brings together and reconciles measurements from different satellite missions to build the most consistent picture possible of how the planet&#x27;s.</p><p>Some spaceborne instruments use altimeters to detect changes in the height of the ice surface, others measure Earth&#x27;s gravitational field while radar and optical sensors can track. Satellite missions have also evolved considerably over the past five decades, with new sensors, improved spatial resolution and increasingly sophisticated measuring techniques.</p><p>The result is a long-term record that allows scientists to distinguish genuine changes in the ice sheets from differences caused simply by the way the ice was measured. Drawing on data from 27 satellite missions, such as ESA’s CryoSat, the Copernicus Sentinels, the US, German Grace missions and early Landsat missions, the team analysed 42.</p><p>The resulting new IMBIE record goes back to 1972 for Greenland and 1979 for Antarctica. The research found that Greenland accounted for 1.81 centimetres of the sea-level rise, compared with 1.33 centimetres from Antarctica.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Remarkably, 84% of the combined ice loss resulted from glaciers accelerating and discharging more ice into the ocean, while just 16% was caused by melting at the surface of the. With the ice sheets set to lose much more ice in the decades ahead, global assessments like IMBIE are vital to protecting communities impacted by climate change.</p><p>Because the account originates with ESA Space News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Faster-flowing_glaciers_fuel_decades_of_polar_ice_loss\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: O mais longo registo de dados de satélite sobre alterações na camada de gelo alguma vez reunido revelou que a Gronelândia e a Antártida perderam",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: O mais longo registo de dados de satélite sobre alterações na camada de gelo alguma vez reunido revelou que a Gronelândia e a Antártida perderam.",
+      "Dado-chave: O mais longo registo de dados de satélite sobre alterações na camada de gelo alguma vez reunido revelou que a Gronelândia e a Antártida perderam",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: O mais longo registo de dados de satélite sobre alterações na camada de gelo alguma vez reunido revelou que a Gronelândia e a Antártida perderam",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: O mais longo registo de dados de satélite sobre alterações na camada de gelo alguma vez reunido revelou que a Gronelândia e a Antártida perderam.",
+      "Dado-chave: O mais longo registo de dados de satélite sobre alterações na camada de gelo alguma vez reunido revelou que a Gronelândia e a Antártida perderam",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The longest satellite data record of ice-sheet change ever assembled has revealed that Greenland and Antarctica have lost a staggering 11 trillion",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The longest satellite data record of ice-sheet change ever assembled has revealed that Greenland and Antarctica have lost a staggering 11 trillion.",
+      "Key detail: The longest satellite data record of ice-sheet change ever assembled has revealed that Greenland and Antarctica have lost a staggering 11.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "16 set 2026",
     "date_pt": "16 set 2026",
