@@ -3,6 +3,140 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "nasa-funded-research-finds-complex-life-defying-record-heat",
+    "cat": "Biologia",
+    "catCls": "biologia",
+    "img": "https://assets.science.nasa.gov/content/dam/science/psd/astrobiology/research-images/icas_SEM.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
+    "inline_images": [],
+    "video": {
+      "kind": "file",
+      "platform": "html5",
+      "embedUrl": "",
+      "fileUrl": "https://assets.science.nasa.gov/content/dam/science/psd/astrobiology/research-images/MovieS12_60C_normalmotility_switching%201080p_Crop.mp4",
+      "poster": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/astrobiology/research-images/icas_SEM.png?w=1228&h=1390&fit=clip&crop=faces%2Cfocalpoint",
+      "title": "Pesquisa financiada pela NASA descobre calor recorde complexo que desafia a vida - NASA Science",
+      "title_pt": "Pesquisa financiada pela NASA descobre calor recorde complexo que desafia a vida - NASA Science",
+      "title_en": "NASA-Funded Research Finds Complex Life Defying Record Heat - NASA Science",
+      "caption": "Cientistas apoiados pela NASA descobriram um organismo que vive em temperaturas extremas que antes eram consideradas impossíveis para vida complexa. Altas temperaturas podem",
+      "caption_pt": "Cientistas apoiados pela NASA descobriram um organismo que vive em temperaturas extremas que antes eram consideradas impossíveis para vida complexa. Altas temperaturas podem",
+      "caption_en": "NASA-supported scientists have discovered an organism that lives at extreme temperatures previously thought impossible for complex life. High temperatures can",
+      "sourcePage": "https://science.nasa.gov/earth/nasa-funded-research-finds-complex-life-defying-record-heat/"
+    },
+    "audio": null,
+    "title": "Pesquisa financiada pela NASA descobre calor recorde complexo que desafia a vida",
+    "title_pt": "Pesquisa financiada pela NASA descobre calor recorde complexo que desafia a vida",
+    "title_en": "NASA-Funded Research Finds Complex Life Defying Record Heat",
+    "sub": "Cientistas apoiados pela NASA descobriram um organismo que vive em temperaturas extremas que antes eram consideradas impossíveis para vida complexa.",
+    "sub_pt": "Cientistas apoiados pela NASA descobriram um organismo que vive em temperaturas extremas que antes eram consideradas impossíveis para vida complexa.",
+    "sub_en": "NASA-supported scientists have discovered an organism that lives at extreme temperatures previously thought impossible for complex life.",
+    "excerpt": "Cientistas apoiados pela NASA descobriram um organismo que vive em temperaturas extremas que antes eram consideradas impossíveis para vida complexa.",
+    "excerpt_pt": "Cientistas apoiados pela NASA descobriram um organismo que vive em temperaturas extremas que antes eram consideradas impossíveis para vida complexa.",
+    "excerpt_en": "NASA-supported scientists have discovered an organism that lives at extreme temperatures previously thought impossible for complex life.",
+    "body": "<p>Cientistas apoiados pela NASA descobriram um organismo que vive em temperaturas extremas que antes eram consideradas impossíveis para vida complexa. 6 min de leitura Pesquisa financiada pela NASA descobre calor recorde que desafia a vida complexa Este vídeo mostra a motilidade da Incendiamoeba cascadensis a 60ºC.</p><p>Cascadensis pode permanecer parcialmente ativo a 150, 8 graus Fahrenheit (66 graus Celsius) e pode se recuperar da exposição a impressionantes 158 graus Fahrenheit (70 graus Celsius) por cinco minutos. No entanto, 80 graus Fahrenheit (176 graus Celsius) provou ser demais para a ameba voltar.</p><p>Kristen Skruber Busca por vida além da Terra A Terra é o único planeta que conhecemos que é habitado por vida. Incendiamoeba cascadensis, também apelidada de ameba do fogo, para de se reproduzir acima de 145 graus Fahrenheit, mas ainda está ativa, movendo-se em busca de alimento a até 147 graus Fahrenheit (64 Celsius).</p><p>Os astrobiólogos há muito estudam os limites da sobrevivência da vida na Terra para determinar como os organismos podem viver noutros mundos como Marte, onde as condições são menos hospitaleiras do que o nosso planeta natal. Devido à sua relativa simplicidade, os cientistas também acreditam que os procariontes foram as primeiras formas de vida a aparecer na Terra, há milhares de milhões de anos, quando o ambiente do nosso planeta era muito mais inóspito do que é hoje.</p><p>Neste conjunto de dados, eles encontraram pedaços semelhantes de DNA de amostras geotérmicas em lugares como a Nova Zelândia e o Parque Nacional de Yellowstone. A Terra é o único planeta que conhecemos que é habitado por vida.</p><p>Estudar os extremófilos ajuda-nos a compreender melhor as limitações bioquímicas e fisiológicas da vida tal como a conhecemos na Terra”, diz Alison Olcott, cientista do programa de Exobiologia na sede da NASA em Washington.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/nasa-funded-research-finds-complex-life-defying-record-heat/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Cientistas apoiados pela NASA descobriram um organismo que vive em temperaturas extremas que antes eram consideradas impossíveis para vida complexa. 6 min de leitura Pesquisa financiada pela NASA descobre calor recorde que desafia a vida complexa Este vídeo mostra a motilidade da Incendiamoeba cascadensis a 60ºC.</p><p>Cascadensis pode permanecer parcialmente ativo a 150, 8 graus Fahrenheit (66 graus Celsius) e pode se recuperar da exposição a impressionantes 158 graus Fahrenheit (70 graus Celsius) por cinco minutos. No entanto, 80 graus Fahrenheit (176 graus Celsius) provou ser demais para a ameba voltar.</p><p>Kristen Skruber Busca por vida além da Terra A Terra é o único planeta que conhecemos que é habitado por vida. Incendiamoeba cascadensis, também apelidada de ameba do fogo, para de se reproduzir acima de 145 graus Fahrenheit, mas ainda está ativa, movendo-se em busca de alimento a até 147 graus Fahrenheit (64 Celsius).</p><p>Os astrobiólogos há muito estudam os limites da sobrevivência da vida na Terra para determinar como os organismos podem viver noutros mundos como Marte, onde as condições são menos hospitaleiras do que o nosso planeta natal. Devido à sua relativa simplicidade, os cientistas também acreditam que os procariontes foram as primeiras formas de vida a aparecer na Terra, há milhares de milhões de anos, quando o ambiente do nosso planeta era muito mais inóspito do que é hoje.</p><p>Neste conjunto de dados, eles encontraram pedaços semelhantes de DNA de amostras geotérmicas em lugares como a Nova Zelândia e o Parque Nacional de Yellowstone. A Terra é o único planeta que conhecemos que é habitado por vida.</p><p>Estudar os extremófilos ajuda-nos a compreender melhor as limitações bioquímicas e fisiológicas da vida tal como a conhecemos na Terra”, diz Alison Olcott, cientista do programa de Exobiologia na sede da NASA em Washington.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/nasa-funded-research-finds-complex-life-defying-record-heat/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>NASA-supported scientists have discovered an organism that lives at extreme temperatures previously thought impossible for complex life. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because biology becomes more informative when an observed effect begins to look like a mechanism rather than an isolated pattern. The gap between identifying a correlation in biological data and understanding the causal chain that produces it is routinely underestimated, and the history of biomedical research is populated with associations that collapsed when the mechanism was sought and not found. A result that comes with a proposed mechanism, even a partial one, is more useful than a purely descriptive finding because it generates testable predictions that can narrow the hypothesis space. 6 min read NASA-Funded Research Finds Complex Life Defying Record Heat This video shows Incendiamoeba cascadensis motility at 60ºC. Cascadensis can remain partially active at 150.8 degrees Fahrenheit (66 degrees Celsius) and can recover from exposure to a staggering 158 degrees Fahrenheit (70 degrees Celsius).</p><p>However, 80 degrees Fahrenheit (176 degrees Celsius) proved to be too much for the amoeba to come back from. Kristen Skruber Search for life beyond Earth Earth is the only planet we know of that is inhabited with life.</p><p>It needs other life to be supported as well. ” For more information on astrobiology at NASA, visit: https: //science. nasa. gov/astrobiology Share Details Last Updated Sep 22. In the heated waters of California’s Lassen Volcanic National Park, a team of scientists observed an amoeba that can reproduce by division at an astonishing 145 degrees Fahrenheit.</p><p>Incendiamoeba cascadensis, also dubbed the fire amoeba, stops reproducing above 145 degrees Fahrenheit but is still active, moving around to search for food at up to 147 degrees. Astrobiologists have long studied the boundaries of life’s survival on Earth to determine how organisms might live on other worlds like Mars where conditions are less hospitable.</p><p>The broader interest lies in whether the reported effect points toward a real mechanism and not merely a reproducible but unexplained association. Biology has learned from decades of biomarker failures that correlation, even robust correlation, is not a substitute for mechanistic understanding. A pathway that can be traced from molecular interaction to cellular response to organismal phenotype provides a far stronger foundation for intervention than a statistical association discovered in a large dataset, however well the statistics are done.</p><p>Because of their relative simplicity, scientists also believe that prokaryotes were the first forms of life to appear on Earth, billions of years ago when the environment of our. In this trove of data, they found similar pieces of DNA from geothermal samples in places like New Zealand and Yellowstone National Park.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to test whether the effect repeats across different methods, cell types, model organisms and experimental conditions. Reproducibility is the first test, but mechanistic dissection is the second, and a result that passes both has a substantially better chance of translating into something clinically or biotechnologically useful. The path from a laboratory finding to an applied outcome typically takes a decade or more, and most findings do not complete it; the current result sits at the beginning of that process.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/nasa-funded-research-finds-complex-life-defying-record-heat/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Cientistas apoiados pela NASA descobriram um organismo que vive em temperaturas extremas que antes eram consideradas impossíveis para vida complexa",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Cientistas apoiados pela NASA descobriram um organismo que vive em temperaturas extremas que antes eram consideradas impossíveis para vida complexa",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: NASA-supported scientists have discovered an organism that lives at extreme temperatures previously thought impossible for complex life",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "22 set 2026",
+    "date_pt": "22 set 2026",
+    "date_en": "22 Sep 2026",
+    "time": "17h33",
+    "time_pt": "17h33",
+    "time_en": "17: 33 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-09-22T17:33:10+00:00",
+    "lastModifiedIso": "2026-09-22T19:16:46+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Biologia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Pesquisa financiada pela NASA descobre calor recorde complexo que desafia a vida"
+    ],
+    "keywords_pt": [
+      "Biologia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Pesquisa financiada pela NASA descobre calor recorde complexo que desafia a vida"
+    ],
+    "keywords_en": [
+      "Biology",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA-Funded Research Discovers Complex, Life-Defying Record Heat"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/nasa-funded-research-finds-complex-life-defying-record-heat/",
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-funded-research-finds-complex-life-defying-record-heat",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-funded-research-finds-complex-life-defying-record-heat",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-funded-research-finds-complex-life-defying-record-heat&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-funded-research-finds-complex-life-defying-record-heat/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-funded-research-finds-complex-life-defying-record-heat/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-funded-research-finds-complex-life-defying-record-heat/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-funded-research-finds-complex-life-defying-record-heat/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-funded-research-finds-complex-life-defying-record-heat/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-funded-research-finds-complex-life-defying-record-heat/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Pesquisa financiada pela NASA descobre calor recorde complexo que desafia a vida",
+    "imageAlt_pt": "Pesquisa financiada pela NASA descobre calor recorde complexo que desafia a vida",
+    "imageAlt_en": "NASA-Funded Research Finds Complex Life Defying Record Heat",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
     "slug": "nasa-discovery-reveals-complex-water-systems-on-early-mars",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -169,12 +303,58 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "juice-to-fly-past-earth-for-third-gravity-assist",
     "cat": "Ciências da Terra",
     "catCls": "terra",
     "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/juice_flies_past_earth/27532450-1-eng-GB/Juice_flies_past_Earth_card_full.png",
-    "inline_images": [],
+    "inline_images": [
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/juice_flies_past_earth/27532450-1-eng-GB/Juice_flies_past_Earth_pillars.png",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/juice_flies_by_earth_the_complete_path/27532497-1-eng-GB/Juice_flies_by_Earth_the_complete_path_article.jpg",
+        "caption": "Juice voa pela Terra – o caminho completo",
+        "caption_pt": "Juice voa pela Terra – o caminho completo",
+        "caption_en": "Juice flies by Earth – the complete path",
+        "alt": "Juice voa pela Terra – o caminho completo",
+        "alt_pt": "Juice voa pela Terra – o caminho completo",
+        "alt_en": "Juice flies by Earth – the complete path"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/12/juice_s_journey_to_jupiter/24641025-9-eng-GB/Juice_s_journey_to_Jupiter_article.jpg",
+        "caption": "A jornada de Juice para Júpiter",
+        "caption_pt": "A jornada de Juice para Júpiter",
+        "caption_en": "Juice’s journey to Jupiter",
+        "alt": "A jornada de Juice para Júpiter",
+        "alt_pt": "A jornada de Juice para Júpiter",
+        "alt_en": "Juice’s journey to Jupiter"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/09/juice_flies_past_earth_in_september_2026_2d_view/27534254-1-eng-GB/Juice_flies_past_Earth_in_September_2026_2D_view_pillars.png",
+        "caption": "$video.data_map.short_description.content",
+        "caption_pt": "$video.data_map.short_description.content",
+        "caption_en": "$video.data_map.short_description.content",
+        "alt": "$video.data_map.short_description.content",
+        "alt_pt": "$video.data_map.short_description.content",
+        "alt_en": "$video.data_map.short_description.content"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/09/juice_flies_past_earth_in_september_2026_context_view/27534361-1-eng-GB/Juice_flies_past_Earth_in_September_2026_context_view_pillars.png",
+        "caption": "$video.data_map.short_description.content",
+        "caption_pt": "$video.data_map.short_description.content",
+        "caption_en": "$video.data_map.short_description.content",
+        "alt": "$video.data_map.short_description.content",
+        "alt_pt": "$video.data_map.short_description.content",
+        "alt_en": "$video.data_map.short_description.content"
+      }
+    ],
     "video": null,
     "audio": null,
     "title": "Juice to fly past Earth for third gravity assist",
@@ -290,7 +470,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "announcing-our-new-step-grant-winners-a-solar-system-shadow-tracker-a-new-telescope-tool-and-an-",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -460,7 +640,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "ameaca-de-um-super-el-nino-desafia-cidades-brasileiras-a-se-preparar-para-eventos-extremos",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -474,6 +654,15 @@ window.postsData = [
         "caption": "",
         "caption_pt": "",
         "caption_en": ""
+      },
+      {
+        "src": "https://revistapesquisa.fapesp.br/wp-content/thumbs/652bfbb214633821e2d2bf8740b11e87cd4477e8_1200-630.png",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
       }
     ],
     "video": {
@@ -604,7 +793,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "arctic-melt-season-length-levels-off",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -753,7 +942,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "nasa-jaxa-xrism-mission-sees-pulsar-gathering-companion-s-wind",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -999,7 +1188,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "from-the-start-the-solar-system-chose-fire-over-ice-to-build-its-first-bodies",
     "cat": "Química",
     "catCls": "quimica",
@@ -1133,7 +1322,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "lake-powell-drops-to-record-low-levels",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1275,159 +1464,6 @@ window.postsData = [
     "imageAlt": "Lago Powell cai para níveis recordes",
     "imageAlt_pt": "Lago Powell cai para níveis recordes",
     "imageAlt_en": "Lake Powell Drops to Record-Low Levels",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 9,
-    "slug": "summer-goes-out-with-a-heat-dome",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/summer-goes-out-with-a-heat-dome/usheatdome_geos5_20260915_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/summer-goes-out-with-a-heat-dome/heatdome_geos5_20260915_lrg.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": {
-      "kind": "embed",
-      "platform": "youtube",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/wcKZEtqy5M8?rel=0&modestbranding=1",
-      "fileUrl": "",
-      "poster": "",
-      "title": "",
-      "title_pt": "",
-      "title_en": "",
-      "caption": "",
-      "caption_pt": "",
-      "caption_en": "",
-      "sourcePage": "https://science.nasa.gov/earth/earth-observatory/summer-goes-out-with-a-heat-dome/"
-    },
-    "audio": null,
-    "title": "O verão sai com uma cúpula de calor",
-    "title_pt": "O verão sai com uma cúpula de calor",
-    "title_en": "Summer Goes Out With a Heat Dome",
-    "sub": "Os registros de temperatura caíram no centro e no sul dos EUA à medida que o equinócio de outono se aproximava.",
-    "sub_pt": "Os registros de temperatura caíram no centro e no sul dos EUA à medida que o equinócio de outono se aproximava.",
-    "sub_en": "Temperature records toppled across the central and southern U. S. as the autumnal equinox approached.",
-    "excerpt": "Os registros de temperatura caíram no centro e no sul dos EUA à medida que o equinócio de outono se aproximava.",
-    "excerpt_pt": "Os registros de temperatura caíram no centro e no sul dos EUA à medida que o equinócio de outono se aproximava.",
-    "excerpt_en": "Temperature records toppled across the central and southern U. S. as the autumnal equinox approached.",
-    "body": "<p>Os registros de temperatura caíram no centro e no sul dos EUA à medida que o equinócio de outono se aproximava. Artigo Sentindo o calor oculto dos poloneses 3 min de leitura Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.</p><p>Imagem do dia do Observatório da Terra O Observatório da Terra da NASA traz para você a Terra, todos os dias, com histórias detalhadas e imagens impressionantes. Produziu um calor fora de época e, em alguns lugares, recorde em 15 de setembro de 2026, conforme mostrado neste mapa de temperaturas do ar modeladas do GEOS (Goddard Earth Observing System).</p><p>Observatório da Terra da NASA/Michala Garrison Embora o calendário indicasse que o verão astronômico estava terminando, uma parte do centro-sul dos Estados Unidos estava sufocante sob uma cúpula de calor em meados de setembro de 2026. Foi produzido combinando observações de satélite com temperaturas previstas por uma versão do modelo GEOS (Goddard Earth Observing System), que utiliza equações matemáticas para representar processos físicos na atmosfera.</p><p>Vários locais estabeleceram novos recordes diários de altas temperaturas em 15 de setembro. O período de temperaturas fora de época segue-se ao período mais quente de junho a agosto nos Estados Unidos contíguos, em um recorde de 132 anos, de acordo com a NOAA.</p><p>Imagem do Observatório Terrestre da NASA por Michala Garrison, usando dados GEOS-FP do Escritório de Modelagem e Assimilação Global da NASA GSFC. Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal.</p><p>Artigo Sentindo o calor oculto dos poloneses 3 min de leitura Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártica.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/summer-goes-out-with-a-heat-dome/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Os registros de temperatura caíram no centro e no sul dos EUA à medida que o equinócio de outono se aproximava. Artigo Sentindo o calor oculto dos poloneses 3 min de leitura Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártida.</p><p>Imagem do dia do Observatório da Terra O Observatório da Terra da NASA traz para você a Terra, todos os dias, com histórias detalhadas e imagens impressionantes. Produziu um calor fora de época e, em alguns lugares, recorde em 15 de setembro de 2026, conforme mostrado neste mapa de temperaturas do ar modeladas do GEOS (Goddard Earth Observing System).</p><p>Observatório da Terra da NASA/Michala Garrison Embora o calendário indicasse que o verão astronômico estava terminando, uma parte do centro-sul dos Estados Unidos estava sufocante sob uma cúpula de calor em meados de setembro de 2026. Foi produzido combinando observações de satélite com temperaturas previstas por uma versão do modelo GEOS (Goddard Earth Observing System), que utiliza equações matemáticas para representar processos físicos na atmosfera.</p><p>Vários locais estabeleceram novos recordes diários de altas temperaturas em 15 de setembro. O período de temperaturas fora de época segue-se ao período mais quente de junho a agosto nos Estados Unidos contíguos, em um recorde de 132 anos, de acordo com a NOAA.</p><p>Imagem do Observatório Terrestre da NASA por Michala Garrison, usando dados GEOS-FP do Escritório de Modelagem e Assimilação Global da NASA GSFC. Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal.</p><p>Artigo Sentindo o calor oculto dos poloneses 3 min de leitura Novas animações da missão PREFIRE da NASA revelam dois anos de oscilações sazonais de temperatura no Ártico e na Antártica.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/summer-goes-out-with-a-heat-dome/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Temperature records toppled across the central and southern U. S. as the autumnal equinox approached. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Article Sensing the Poles’ Hidden Heat 3 min read New animations from NASA’s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic. Earth Observatory Image of the Day NASA’s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>Produced unseasonable and, in some places, record-breaking warmth on September 15, 2026, as shown in this map of modeled air temperatures from GEOS (Goddard Earth Observing. It was produced by combining satellite observations with temperatures predicted by a version of the GEOS (Goddard Earth Observing System) model, which uses mathematical equations.</p><p>Several locations set new daily high temperature records on September 15. The stretch of unseasonable temperatures follows the warmest June through August in the contiguous United States in a 132-year record, according to NOAA.</p><p>NASA Earth Observatory image by Michala Garrison, using GEOS-FP data from the Global Modeling and Assimilation Office at NASA GSFC. Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Article Sensing the Poles’ Hidden Heat 3 min read New animations from NASA&#x27;s PREFIRE mission reveal two years of seasonal temperature swings at the Arctic and Antarctic. Article 1 2 3 4 Next Keep Exploring Discover More from NASA Earth Science Subscribe to Earth Observatory Newsletters Subscribe to the Earth Observatory and get the Earth in your.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/summer-goes-out-with-a-heat-dome/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Os registros de temperatura caíram no centro e no sul dos EUA à medida que o equinócio de outono se aproximava.",
-      "Dado-chave: Os registros de temperatura caíram no centro e no sul dos EUA à medida que o equinócio de outono se aproximava.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Os registros de temperatura caíram no centro e no sul dos EUA à medida que o equinócio de outono se aproximava.",
-      "Dado-chave: Os registros de temperatura caíram no centro e no sul dos EUA à medida que o equinócio de outono se aproximava.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Temperature records toppled across the central and southern U. S. as the autumnal equinox approached.",
-      "Key detail: Temperature records toppled across the central and southern U. S. as the autumnal equinox approached.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "17 set 2026",
-    "date_pt": "17 set 2026",
-    "date_en": "17 Sep 2026",
-    "time": "04h01",
-    "time_pt": "04h01",
-    "time_en": "04: 01 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-09-17T04:01:00+00:00",
-    "lastModifiedIso": "2026-09-17T19:17:02+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "O verão sai com uma cúpula de calor"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "O verão sai com uma cúpula de calor"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Summer comes out with a heat dome"
-    ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/summer-goes-out-with-a-heat-dome/",
-    "realUrl": "https://www.cosmosweek.com/?article=summer-goes-out-with-a-heat-dome",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=summer-goes-out-with-a-heat-dome",
-    "realUrl_en": "https://www.cosmosweek.com/?article=summer-goes-out-with-a-heat-dome&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/summer-goes-out-with-a-heat-dome/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/summer-goes-out-with-a-heat-dome/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/summer-goes-out-with-a-heat-dome/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/summer-goes-out-with-a-heat-dome/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/summer-goes-out-with-a-heat-dome/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/summer-goes-out-with-a-heat-dome/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "O verão sai com uma cúpula de calor",
-    "imageAlt_pt": "O verão sai com uma cúpula de calor",
-    "imageAlt_en": "Summer Goes Out With a Heat Dome",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
