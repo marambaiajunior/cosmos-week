@@ -3,6 +3,155 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "explosive-intensification-for-hurricane-polo",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/explosive-intensification-for-hurricane-polo/hurricanepolo_amo_20260923_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/explosive-intensification-for-hurricane-polo/hurricanepolo_amo_20260923.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/explosive-intensification-for-hurricane-polo/hurricanepolo_mur_20260923.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001016/GSFC_20171208_Archive_e001016~large.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Intensificação Explosiva para o Furacão Polo",
+    "title_pt": "Intensificação Explosiva para o Furacão Polo",
+    "title_en": "Explosive Intensification for Hurricane Polo",
+    "sub": "Vários ingredientes se juntaram na costa do Pacífico do México para gerar uma das tempestades mais fortes que a bacia oriental do Pacífico já viu.",
+    "sub_pt": "Vários ingredientes se juntaram na costa do Pacífico do México para gerar uma das tempestades mais fortes que a bacia oriental do Pacífico já viu.",
+    "sub_en": "Several ingredients came together off the Pacific coast of Mexico to generate one of the strongest storms the eastern Pacific basin has ever seen.",
+    "excerpt": "Vários ingredientes se juntaram na costa do Pacífico do México para gerar uma das tempestades mais fortes que a bacia oriental do Pacífico já viu.",
+    "excerpt_pt": "Vários ingredientes se juntaram na costa do Pacífico do México para gerar uma das tempestades mais fortes que a bacia oriental do Pacífico já viu.",
+    "excerpt_en": "Several ingredients came together off the Pacific coast of Mexico to generate one of the strongest storms the eastern Pacific basin has ever seen.",
+    "body": "<p>Vários ingredientes se juntaram na costa do Pacífico do México para gerar uma das tempestades mais fortes que a bacia oriental do Pacífico já viu. Imagens do Observatório da Terra da NASA por Michala Garrison, usando dados do MODIS (Espectrorradiômetro de imagem de resolução moderada) no satélite Aqua da NASA e do projeto MUR SST (Temperatura da superfície do mar de resolução ultra-alta multiescala).</p><p>Nas suas discussões normalmente calmas sobre previsões, o Centro Nacional de Furacões classificou a intensificação como “verdadeiramente notável”. Quando a aeronave Hurricane Hunter da NOAA sobrevoou a tempestade em 22 de setembro, os pesquisadores estimaram ventos de quase 285 quilômetros (180 milhas) por hora.</p><p>Na tarde de 23 de setembro, quando o espectrorradiômetro de imagem de resolução moderada (MODIS) do satélite Aqua da NASA capturou esta imagem (à esquerda), Polo estava agitado na costa de Guerrero, a sudoeste de Acapulco. Instituto Cooperativo de Pesquisa da Atmosfera (2026) Polo.</p><p>Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal. Nas suas discussões normalmente calmas sobre previsões, o Centro Nacional de Furacões classificou a intensificação como &quot;verdadeiramente notável&quot;.</p><p>Isso tornaria esta a terceira tempestade mais forte já registada no Pacífico oriental em termos de ventos máximos sustentados e a mais rápida já registada a passar de uma depressão tropical para uma tempestade de categoria 5, segundo alguns analistas. Com ventos máximos sustentados de 230 quilómetros (145 milhas) por hora, a tempestade tinha força de categoria 4 quando a imagem foi adquirida, tendo passado por um ciclo de substituição da parede do olho que a enfraqueceu ligeiramente.</p><p>As imagens de satélite do Polo são muito impressionantes, com o olho grande e claro da tempestade e o extenso padrão de fluxo”, disse Kristen Corbosiero, cientista atmosférica da Universidade Estadual de Nova Iorque em Albany, que está a trabalhar num projeto da NASA que utiliza.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/explosive-intensification-for-hurricane-polo/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Vários ingredientes se juntaram na costa do Pacífico do México para gerar uma das tempestades mais fortes que a bacia oriental do Pacífico já viu. Imagens do Observatório da Terra da NASA por Michala Garrison, usando dados do MODIS (Espectrorradiômetro de imagem de resolução moderada) no satélite Aqua da NASA e do projeto MUR SST (Temperatura da superfície do mar de resolução ultra-alta multiescala).</p><p>Nas suas discussões normalmente calmas sobre previsões, o Centro Nacional de Furacões classificou a intensificação como “verdadeiramente notável”. Quando a aeronave Hurricane Hunter da NOAA sobrevoou a tempestade em 22 de setembro, os pesquisadores estimaram ventos de quase 285 quilômetros (180 milhas) por hora.</p><p>Na tarde de 23 de setembro, quando o espectrorradiômetro de imagem de resolução moderada (MODIS) do satélite Aqua da NASA capturou esta imagem (à esquerda), Polo estava agitado na costa de Guerrero, a sudoeste de Acapulco. Instituto Cooperativo de Pesquisa da Atmosfera (2026) Polo.</p><p>Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal. Nas suas discussões normalmente calmas sobre previsões, o Centro Nacional de Furacões classificou a intensificação como &quot;verdadeiramente notável&quot;.</p><p>Isso tornaria esta a terceira tempestade mais forte já registada no Pacífico oriental em termos de ventos máximos sustentados e a mais rápida já registada a passar de uma depressão tropical para uma tempestade de categoria 5, segundo alguns analistas. Com ventos máximos sustentados de 230 quilómetros (145 milhas) por hora, a tempestade tinha força de categoria 4 quando a imagem foi adquirida, tendo passado por um ciclo de substituição da parede do olho que a enfraqueceu ligeiramente.</p><p>As imagens de satélite do Polo são muito impressionantes, com o olho grande e claro da tempestade e o extenso padrão de fluxo”, disse Kristen Corbosiero, cientista atmosférica da Universidade Estadual de Nova Iorque em Albany, que está a trabalhar num projeto da NASA que utiliza.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/explosive-intensification-for-hurricane-polo/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Several ingredients came together off the Pacific coast of Mexico to generate one of the strongest storms the eastern Pacific basin has ever seen. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. NASA Earth Observatory images by Michala Garrison, using data from the MODIS (Moderate Resolution Imaging Spectroradiometer) on NASA’s Aqua satellite and the MUR SST (Multiscale. In its normally staid forecast discussions, the National Hurricane Center called the intensification “truly remarkable.</p><p>On the afternoon of September 23, when the Moderate Resolution Imaging Spectroradiometer (MODIS) on NASA’s Aqua satellite captured this image (left), Polo was churning off the. Cooperative Institute for Research in the Atmosphere (2026) Polo.</p><p>Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet. NASA Earth Observatory images by Michala Garrison, using data from the MODIS (Moderate Resolution Imaging Spectroradiometer) on NASA&#x27;s Aqua satellite and the MUR SST (Multiscale.</p><p>In its normally staid forecast discussions, the National Hurricane Center called the intensification &quot;truly remarkable. On the afternoon of September 23, when the Moderate Resolution Imaging Spectroradiometer (MODIS) on NASA&#x27;s Aqua satellite captured this image (left), Polo was churning off the.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>With maximum sustained winds of 230 kilometers (145 miles) per hour, the storm was category 4 strength when the image was acquired, having undergone an eyewall replacement cycle. The satellite imagery of Polo is very impressive, with the storm’s large, clear eye and extensive outflow pattern,” said Kristen Corbosiero, an atmospheric scientist at the State.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/explosive-intensification-for-hurricane-polo/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Vários ingredientes se juntaram na costa do Pacífico do México para gerar uma das tempestades mais fortes que a bacia oriental do Pacífico já viu",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Vários ingredientes se juntaram na costa do Pacífico do México para gerar uma das tempestades mais fortes que a bacia oriental do Pacífico já viu",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Several ingredients came together off the Pacific coast of Mexico to generate one of the strongest storms the eastern Pacific basin has ever seen",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "25 set 2026",
+    "date_pt": "25 set 2026",
+    "date_en": "25 Sep 2026",
+    "time": "04h01",
+    "time_pt": "04h01",
+    "time_en": "04: 01 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-09-25T04:01:00+00:00",
+    "lastModifiedIso": "2026-09-25T19:40:45+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Intensificação Explosiva para o Furacão Polo"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Intensificação Explosiva para o Furacão Polo"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "Explosive Intensification for Hurricane Polo"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/explosive-intensification-for-hurricane-polo/",
+    "realUrl": "https://www.cosmosweek.com/?article=explosive-intensification-for-hurricane-polo",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=explosive-intensification-for-hurricane-polo",
+    "realUrl_en": "https://www.cosmosweek.com/?article=explosive-intensification-for-hurricane-polo&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/explosive-intensification-for-hurricane-polo/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/explosive-intensification-for-hurricane-polo/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/explosive-intensification-for-hurricane-polo/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/explosive-intensification-for-hurricane-polo/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/explosive-intensification-for-hurricane-polo/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/explosive-intensification-for-hurricane-polo/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Intensificação Explosiva para o Furacão Polo",
+    "imageAlt_pt": "Intensificação Explosiva para o Furacão Polo",
+    "imageAlt_en": "Explosive Intensification for Hurricane Polo",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
     "slug": "nasa-s-machines-for-mars-make-beer-bubbly",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -33,19 +182,19 @@ window.postsData = [
     "body_pt": "<p>3 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento Um cervejeiro faz ajustes na unidade de captura de carbono do Earthly Labs, que purifica o dióxido de carbono do processo de fabricação de cerveja para uso na carbonatação.</p><p>3 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento (e subaquáticas) Um cervejeiro faz ajustes na unidade de captura de carbono do Earthly Labs, que purifica o dióxido de carbono do processo de fabricação de cerveja para uso na carbonatação. Leia mais detalhes do compartilhamento Última atualização em 24 de setembro.</p><p>Marte é um destino rico para descobertas científicas e um impulsionador de tecnologias que permitirão aos humanos. Em 2021, o fornecedor de dióxido de carbono da Maine Beer Company ficou sem dióxido de carbono.</p><p>Não seríamos capazes de usar CO 2 em nenhuma de nossas operações de engarrafamento, barris ou centrífuga. ” A solução que a empresa escolheu teve origem em Marte, ou mais especificamente, nos planos da NASA para colher recursos do Planeta Vermelho. A partir da década de 1990, a empresa Pioneer Astronautics ganhou vários contratos de Small Business Innovation Research (SBIR) do Johnson Space Center em Houston para construir sistemas que pudessem gerar recursos em Marte.</p><p>A tecnologia poderia, por exemplo, capturar dióxido de carbono da atmosfera marciana e combiná-lo com hidrogénio para produzir água para suporte de vida e metano para combustível de foguetes. Mais tarde, o fundador da Pioneer Astronautics, Robert Zubrin, criou a Pioneer Energy para reorganizar esses subsistemas em tecnologia para a indústria de petróleo e gás (Spinoff 2015, 2020).</p><p>Ele logo percebeu que a tecnologia de captura e purificação de dióxido de carbono em Marte poderia fazer o mesmo em uma cervejaria, capturando CO 2 do processo de fabricação de cerveja para uso na carbonatação.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/technology/tech-transfer-spinoffs/nasas-machines-for-mars-make-beer-bubbly/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>3 min read Preparations for Next Moonwalk Simulations Underway A brewer makes adjustments to the Earthly Labs carbon-capture unit, which purifies carbon dioxide from the beer brewing process for use in carbonation. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. 3 min read Preparations for Next Moonwalk Simulations Underway (and Underwater) A brewer makes adjustments to the Earthly Labs carbon-capture unit, which purifies carbon dioxide. Read More Share Details Last Updated Sep 24.</p><p>Mars is a rich destination for scientific discovery and a driver of technologies that will enable humans. Johnson Space Center Technology Transfer &amp; Spinoffs Solar System. In 2021, Maine Beer Company’s carbon dioxide supplier ran short on carbon dioxide.</p><p>We wouldn’t be able to use CO 2 for any of our bottling, kegging, or centrifuge operations. ” The solution the company settled on originated on Mars, or more specifically, in. Beginning in the 1990s, the company Pioneer Astronautics won multiple Small Business Innovation Research (SBIR) contracts from Johnson Space Center in Houston to build systems.</p><p>The technology could, for example, capture carbon dioxide from the Martian atmosphere and combine it with hydrogen to produce water for life support and methane for rocket fuel. He soon realized technology for capturing and purifying carbon dioxide on Mars could do the same in a brewery, capturing CO 2 from the brewing process for use in carbonation.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Amy George founded Earthly Labs of Austin, Texas, in 2016 to develop small-scale carbon capture. In 2021, Earthly Labs was acquired by Chart Industries Inc, which specializes in cryogenic equipment engineering and has helped scale up the technology for applications like power.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/technology/tech-transfer-spinoffs/nasas-machines-for-mars-make-beer-bubbly/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: 3 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento Um cervejeiro faz ajustes na unidade de captura de carbono do",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: 3 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento Um cervejeiro faz ajustes na unidade de captura de carbono do.",
+      "Dado-chave: 3 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento Um cervejeiro faz ajustes na unidade de captura de carbono do",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: 3 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento Um cervejeiro faz ajustes na unidade de captura de carbono do",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: 3 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento Um cervejeiro faz ajustes na unidade de captura de carbono do.",
+      "Dado-chave: 3 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento Um cervejeiro faz ajustes na unidade de captura de carbono do",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: 3 min read Preparations for Next Moonwalk Simulations Underway A brewer makes adjustments to the Earthly Labs carbon-capture unit, which purifies",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: 3 min read Preparations for Next Moonwalk Simulations Underway A brewer makes adjustments to the Earthly Labs carbon-capture unit, which purifies.",
+      "Key detail: 3 min read Preparations for Next Moonwalk Simulations Underway A brewer makes adjustments to the Earthly Labs carbon-capture unit, which purifies",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "24 set 2026",
     "date_pt": "24 set 2026",
@@ -133,7 +282,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "cloudy-cloak-over-the-northwest",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -273,7 +422,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "nasa-aircraft-to-make-low-altitude-research-flights-over-colorado",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -295,17 +444,17 @@ window.postsData = [
     "body_en": "<p>Agricultural emissions represent an important and understudied part of Earth’s land and atmosphere systems. The FarmFlux mission will deploy more than a dozen sensors to measure ozone, methane, ammonia, particulates, and other pollutants. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. A photo of the Dynamic Aviation A200 aircraft, which will conduct low-flying research flights over farmland near Greeley, Colorado, to measure emissions in October 2026. For more information about the FarmFlux mission, visit: https: //espo. nasa. gov/farmflux By Sharon Teitelbaum NASA’s Ames Research Center in California’s Silicon Valley.</p><p>The FarmFlux mission Article A photo of the Dynamic Aviation A200 aircraft, which will conduct low-flying research flights over farmland near Greeley, Colorado, to measure. Dynamic Aviation Agricultural emissions represent an important and understudied part of Earth’s land and atmosphere systems.</p><p>The FarmFlux mission will deploy more than a dozen sensors to measure ozone, methane, ammonia, particulates, and other pollutants rising from agricultural lands and animal farms. The mission is jointly led by NASA’s Goddard Space Flight Center in Greenbelt, Maryland.</p><p>The Colorado deployment is the first series of flights for the FarmFlux mission. Additional low-altitude research flights are scheduled over farmland in Amarillo, Texas, from late October to early November.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>For the March to July 2027 growing season, research flights with a NASA P-3 Orion aircraft are scheduled in the Midwest and California’s Central Valley with a focus on croplands. For more information about the FarmFlux mission, visit: NASA’s Ames Research Center in California’s Silicon Valley.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/general/nasa-aircraft-to-make-low-altitude-research-flights-over-colorado/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: As emissões agrícolas representam uma parte importante e pouco estudada dos sistemas terrestres e atmosféricos da Terra.",
-      "Dado-chave: As emissões agrícolas representam uma parte importante e pouco estudada dos sistemas terrestres e atmosféricos da Terra",
+      "Dado-chave: As emissões agrícolas representam uma parte importante e pouco estudada dos sistemas terrestres e atmosféricos da Terra.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: As emissões agrícolas representam uma parte importante e pouco estudada dos sistemas terrestres e atmosféricos da Terra.",
-      "Dado-chave: As emissões agrícolas representam uma parte importante e pouco estudada dos sistemas terrestres e atmosféricos da Terra",
+      "Dado-chave: As emissões agrícolas representam uma parte importante e pouco estudada dos sistemas terrestres e atmosféricos da Terra.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: Agricultural emissions represent an important and understudied part of Earth’s land and atmosphere systems.",
-      "Key detail: Agricultural emissions represent an important and understudied part of Earth’s land and atmosphere systems",
+      "Key detail: Agricultural emissions represent an important and understudied part of Earth’s land and atmosphere systems.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "23 set 2026",
@@ -394,7 +543,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "arctic-sea-ice-reaches-2026-annual-minimum-extent",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -457,17 +606,17 @@ window.postsData = [
     "body_en": "<p>The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. Daily images of ice cover in the Arctic Ocean show sea ice melting around the pole from March 15, 2026 to Sept. Elizabeth Vlock NASA Headquarters Explore More 1 min read FFA 2026 Hyperwall Schedule FFA 2026 Hyperwall Schedule Article 3 hours ago 3 min read Boom Year for Desert Blooms.</p><p>Article 14 hours ago 6 min read NASA-Funded Research Finds Complex Life Defying Record Heat Article 1 day ago. 12, according to NASA and the National Snow and Ice Data Center (NSIDC) at the University of Article Daily images of ice cover in the Arctic Ocean show sea ice melting around the.</p><p>12, according to NASA and the National Snow and Ice Data Center (NSIDC) at the University of Colorado Boulder. The ice covered an estimated 1.78 million square miles (4.6 million square kilometers), tying 2008, 2010, and 2025 for the 10th-lowest minimum in the satellite record.</p><p>The 2026 minimum is consistent with patterns observed in the satellite record. The past 20 years, from 2007 through 2026, have produced the 20 lowest annual Arctic sea ice minimum extents observed since continuous satellite measurements began in late 1978.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Over the last decade, for example, increased cloud cover has prevented solar radiation from further accelerating the melt of sea ice, according to Linette Boisvert, a sea ice. During that time, NASA and the National Oceanic and Atmospheric Administration (NOAA) used a series of satellite instruments to maintain a continuous sea ice record, beginning.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/science-research/earth-science/climate-science/sea-ice/arctic-sea-ice-2026-min/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: O gelo marinho do Ártico atingiu sua extensão mínima anual em 12 de setembro, de acordo com a NASA e o Centro Nacional de Dados de Neve e Gelo da.",
-      "Dado-chave: O gelo marinho do Ártico atingiu sua extensão mínima anual em 12 de setembro, de acordo com a NASA e o Centro Nacional de Dados de Neve e Gelo da",
+      "Dado-chave: O gelo marinho do Ártico atingiu sua extensão mínima anual em 12 de setembro, de acordo com a NASA e o Centro Nacional de Dados de Neve e Gelo.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: O gelo marinho do Ártico atingiu sua extensão mínima anual em 12 de setembro, de acordo com a NASA e o Centro Nacional de Dados de Neve e Gelo da.",
-      "Dado-chave: O gelo marinho do Ártico atingiu sua extensão mínima anual em 12 de setembro, de acordo com a NASA e o Centro Nacional de Dados de Neve e Gelo da",
+      "Dado-chave: O gelo marinho do Ártico atingiu sua extensão mínima anual em 12 de setembro, de acordo com a NASA e o Centro Nacional de Dados de Neve e Gelo.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: Arctic sea ice reached its annual minimum extent on Sept. 12, according to NASA and the National Snow and Ice Data Center at the University of.",
-      "Key detail: Arctic sea ice reached its annual minimum extent on Sept",
+      "Key detail: Arctic sea ice reached its annual minimum extent on Sept. 12, according to NASA and the National Snow and Ice Data Center at the University of.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "23 set 2026",
@@ -549,155 +698,6 @@ window.postsData = [
     "imageAlt": "Gelo marinho do Ártico atinge extensão mínima anual em 2026",
     "imageAlt_pt": "Gelo marinho do Ártico atinge extensão mínima anual em 2026",
     "imageAlt_en": "Arctic Sea Ice Reaches 2026 Annual Minimum Extent",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 5,
-    "slug": "boom-year-for-desert-blooms",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/boom-year-for-desert-blooms/australiawildflowes_oli_20260830_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/boom-year-for-desert-blooms/australiawildflowes_oli_20250819.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/boom-year-for-desert-blooms/australiawildflowes_oli_20260830.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/boom-year-for-desert-blooms/australiawildflowes_oli_20260830_lrg.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Ano de expansão para flores no deserto",
-    "title_pt": "Ano de expansão para flores no deserto",
-    "title_en": "Boom Year for Desert Blooms",
-    "sub": "Tapetes de flores silvestres surgiram em terras áridas e de cor ocre na Austrália Ocidental após as chuvas de inverno.",
-    "sub_pt": "Tapetes de flores silvestres surgiram em terras áridas e de cor ocre na Austrália Ocidental após as chuvas de inverno.",
-    "sub_en": "Carpets of wildflowers burst from arid, ochre-colored land in Western Australia following winter rains.",
-    "excerpt": "Tapetes de flores silvestres surgiram em terras áridas e de cor ocre na Austrália Ocidental após as chuvas de inverno.",
-    "excerpt_pt": "Tapetes de flores silvestres surgiram em terras áridas e de cor ocre na Austrália Ocidental após as chuvas de inverno.",
-    "excerpt_en": "Carpets of wildflowers burst from arid, ochre-colored land in Western Australia following winter rains.",
-    "body": "<p>Tapetes de flores silvestres surgiram em terras áridas e de cor ocre na Austrália Ocidental após as chuvas de inverno. © CSIRO Austrália, 16 de setembro de 2026 Outros telescópios sob a alçada do CSIRO na Austrália desempenharam papéis cruciais em missões da NASA desde os primeiros anos da agência até hoje.</p><p>Imagem do dia do Observatório da Terra O Observatório da Terra da NASA traz para você a Terra, todos os dias, com histórias detalhadas e imagens impressionantes. Artigo Ver mais imagens do dia: 22 de setembro de 2026 Instrumentos: Landsat 8 - OLI Photograph Tópicos: Vegetação 19 de agosto de 2025 30 de agosto de 2026 Leitos de rios ramificados e estradas cortam terras laranjas enferrujadas no interior da Austrália Ocidental.</p><p>Observatório da Terra da NASA / Lauren Dauphin 19 de agosto de 2025 30 de agosto de 2026 Leitos de rios e estradas ramificadas cortam terras alaranjadas e enferrujadas no interior da Austrália Ocidental. NASA Earth Observatory / Lauren Dauphin 19 de agosto de 2025 30 de agosto de 2026 Curtain Toggle 2-Up Os matagais áridos na Austrália Ocidental estavam cheios de vida no final do inverno austral de 2026, quando uma profusão de flores silvestres trouxe cores vivas à paisagem ocre.</p><p>As imagens acima, capturadas com o OLI (Operational Land Imager) do satélite NASA-USGS Landsat 8, comparam a paisagem mais verdejante do final de agosto de 2026 (à direita) com uma época semelhante em 2025 (à esquerda), quando estava mais seca. Outros telescópios sob a alçada do CSIRO na Austrália desempenharam papéis cruciais nas missões da NASA desde os primeiros anos da agência até hoje.</p><p>O radiotelescópio Murriyang em Parkes, Nova Gales do Sul, rastreou a Mariner 2, a primeira missão científica planetária bem-sucedida, em 1962 e foi uma importante estação receptora para a missão Apollo 11 à Lua em 1969. Ambos apoiaram a missão Artemis II em abril de 2026.</p><p>Imagens do Observatório da Terra da NASA por Lauren Dauphin, usando dados Landsat dos EUA.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/boom-year-for-desert-blooms/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Tapetes de flores silvestres surgiram em terras áridas e de cor ocre na Austrália Ocidental após as chuvas de inverno. © CSIRO Austrália, 16 de setembro de 2026 Outros telescópios sob a alçada do CSIRO na Austrália desempenharam papéis cruciais em missões da NASA desde os primeiros anos da agência até hoje.</p><p>Imagem do dia do Observatório da Terra O Observatório da Terra da NASA traz para você a Terra, todos os dias, com histórias detalhadas e imagens impressionantes. Artigo Ver mais imagens do dia: 22 de setembro de 2026 Instrumentos: Landsat 8 - OLI Photograph Tópicos: Vegetação 19 de agosto de 2025 30 de agosto de 2026 Leitos de rios ramificados e estradas cortam terras laranjas enferrujadas no interior da Austrália Ocidental.</p><p>Observatório da Terra da NASA / Lauren Dauphin 19 de agosto de 2025 30 de agosto de 2026 Leitos de rios e estradas ramificadas cortam terras alaranjadas e enferrujadas no interior da Austrália Ocidental. NASA Earth Observatory / Lauren Dauphin 19 de agosto de 2025 30 de agosto de 2026 Curtain Toggle 2-Up Os matagais áridos na Austrália Ocidental estavam cheios de vida no final do inverno austral de 2026, quando uma profusão de flores silvestres trouxe cores vivas à paisagem ocre.</p><p>As imagens acima, capturadas com o OLI (Operational Land Imager) do satélite NASA-USGS Landsat 8, comparam a paisagem mais verdejante do final de agosto de 2026 (à direita) com uma época semelhante em 2025 (à esquerda), quando estava mais seca. Outros telescópios sob a alçada do CSIRO na Austrália desempenharam papéis cruciais nas missões da NASA desde os primeiros anos da agência até hoje.</p><p>O radiotelescópio Murriyang em Parkes, Nova Gales do Sul, rastreou a Mariner 2, a primeira missão científica planetária bem-sucedida, em 1962 e foi uma importante estação receptora para a missão Apollo 11 à Lua em 1969. Ambos apoiaram a missão Artemis II em abril de 2026.</p><p>Imagens do Observatório da Terra da NASA por Lauren Dauphin, usando dados Landsat dos EUA.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/boom-year-for-desert-blooms/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Carpets of wildflowers burst from arid, ochre-colored land in Western Australia following winter rains. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. © CSIRO Australia, September 16, 2026 Other telescopes in CSIRO’s purview in Australia have played crucial roles in NASA missions from the agency’s early years to today. Earth Observatory Image of the Day NASA’s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>Article View more Images of the Day: Sep 22, 2026 Instruments: Landsat 8, OLI Photograph Topics: Vegetation August 19, 2025 August 30, 2026 Branching riverbeds and roads cut. NASA Earth Observatory / Lauren Dauphin August 19, 2025 August 30, 2026 Branching riverbeds and roads cut through rusty orange land in the Western Australian outback.</p><p>NASA Earth Observatory / Lauren Dauphin August 19, 2025 August 30, 2026 Curtain Toggle 2-Up Arid shrublands in Western Australia were bursting with life in late austral winter. Other telescopes in CSIRO’s purview in Australia have played crucial roles in NASA missions from the agency’s early years to today.</p><p>The Murriyang radio telescope in Parkes, New South Wales, tracked Mariner 2 —the first successful planetary science mission, in 1962 and was an important receiving station for the. Both supported the Artemis II mission in April 2026.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet. NASA&#x27;s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/boom-year-for-desert-blooms/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Em foco: Tapetes de flores silvestres surgiram em terras áridas e de cor ocre na Austrália Ocidental após as chuvas de inverno",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: Tapetes de flores silvestres surgiram em terras áridas e de cor ocre na Austrália Ocidental após as chuvas de inverno",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: Carpets of wildflowers burst from arid, ochre-colored land in Western Australia following winter rains",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "23 set 2026",
-    "date_pt": "23 set 2026",
-    "date_en": "23 Sep 2026",
-    "time": "04h01",
-    "time_pt": "04h01",
-    "time_en": "04: 01 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-09-23T04:01:00+00:00",
-    "lastModifiedIso": "2026-09-23T19:27:21+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Ano de expansão para flores no deserto"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Ano de expansão para flores no deserto"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Boom year for desert flowers"
-    ],
-    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/boom-year-for-desert-blooms/",
-    "realUrl": "https://www.cosmosweek.com/?article=boom-year-for-desert-blooms",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=boom-year-for-desert-blooms",
-    "realUrl_en": "https://www.cosmosweek.com/?article=boom-year-for-desert-blooms&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/boom-year-for-desert-blooms/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/boom-year-for-desert-blooms/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/boom-year-for-desert-blooms/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/boom-year-for-desert-blooms/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/boom-year-for-desert-blooms/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/boom-year-for-desert-blooms/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Ano de expansão para flores no deserto",
-    "imageAlt_pt": "Ano de expansão para flores no deserto",
-    "imageAlt_en": "Boom Year for Desert Blooms",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
