@@ -1389,7 +1389,7 @@ window.postsData = [
     ],
     "highlights_en": [
       "Core point: Snow drought and unusually warm temperatures in the Colorado Basin in 2026 helped drive down reservoir water storage in the U.",
-      "Key detail: Snow drought and unusually warm temperatures in the Colorado Basin in 2026 helped drive down reservoir water storage in the U",
+      "Key detail: Snow drought and unusually warm temperatures in the Colorado Basin in 2026 helped drive down reservoir water storage in the U.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "18 set 2026",
