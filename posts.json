@@ -1,6 +1,155 @@
 [
   {
     "id": 1,
+    "slug": "mars-moon-lander-set-to-launch-on-19-october",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/mmx_from_launch_to_phobos/27573728-1-eng-GB/MMX_from_launch_to_Phobos_card_full.png",
+    "inline_images": [
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/mmx_from_launch_to_phobos/27573728-1-eng-GB/MMX_from_launch_to_Phobos_pillars.png",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/mmx_at_mars_and_phobos/27573775-1-eng-GB/MMX_at_Mars_and_Phobos_article.png",
+        "alt": "MMX em Marte e Fobos",
+        "alt_pt": "MMX em Marte e Fobos",
+        "alt_en": "MMX at Mars and Phobos",
+        "caption": "MMX em Marte e Fobos",
+        "caption_pt": "MMX em Marte e Fobos",
+        "caption_en": "MMX at Mars and Phobos"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/the_martian_moons_exploration_mmx_mission/27573443-1-eng-GB/The_Martian_Moons_eXploration_MMX_mission_article.png",
+        "alt": "A missão Martian Moons eXploration (MMX)",
+        "alt_pt": "A missão Martian Moons eXploration (MMX)",
+        "alt_en": "The Martian Moons eXploration (MMX) mission",
+        "caption": "A missão Martian Moons eXploration (MMX)",
+        "caption_pt": "A missão Martian Moons eXploration (MMX)",
+        "caption_en": "The Martian Moons eXploration (MMX) mission"
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "Módulo lunar de Marte será lançado em 19 de outubro",
+    "title_pt": "Módulo lunar de Marte será lançado em 19 de outubro",
+    "title_en": "Mars moon lander set to launch on 19 October",
+    "sub": "A missão Martian Moons eXploration está programada para ser lançada ao espaço em um foguete H3 do Centro Espacial Tanegashima às 04: 41 JST em 20 de outubro de 2026.",
+    "sub_pt": "A missão Martian Moons eXploration está programada para ser lançada ao espaço em um foguete H3 do Centro Espacial Tanegashima às 04: 41 JST em 20 de outubro de 2026.",
+    "sub_en": "The Martian Moons eXploration mission is set to launch into space on a H3 rocket from the Tanegashima Space Center at 04: 41 JST on 20 October 2026.",
+    "excerpt": "A missão Martian Moons eXploration está programada para ser lançada ao espaço em um foguete H3 do Centro Espacial Tanegashima às 04: 41 JST em 20 de outubro de 2026.",
+    "excerpt_pt": "A missão Martian Moons eXploration está programada para ser lançada ao espaço em um foguete H3 do Centro Espacial Tanegashima às 04: 41 JST em 20 de outubro de 2026.",
+    "excerpt_en": "The Martian Moons eXploration mission is set to launch into space on a H3 rocket from the Tanegashima Space Center at 04: 41 JST on 20 October 2026.",
+    "body": "<p>A missão Martian Moons eXploration está programada para ser lançada ao espaço em um foguete H3 do Centro Espacial Tanegashima às 04: 41 JST em 20 de outubro de 2026. A missão Martian Moons eXploration (MMX) está programada para ser lançada ao espaço em um foguete H3 do Centro Espacial Tanegashima às 04: 41 JST de 20 de outubro de 2026 (20: 41 BST / 21: 41 CEST de 19 de outubro de 2026).</p><p>A MMX será a primeira missão a coletar uma amostra da lua de Marte, Fobos, e trazê-la de volta à Terra. A MMX é liderada pela Agência de Exploração Aeroespacial do Japão (JAXA), em colaboração com a Administração Nacional de Aeronáutica e Espaço (NASA), a agência espacial francesa (CNES), o Centro Aeroespacial Alemão (DLR) e a Agência Espacial Europeia (ESA).</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>A missão Martian Moons eXploration está programada para ser lançada ao espaço em um foguete H3 do Centro Espacial Tanegashima às 04: 41 JST em 20 de outubro de 2026. A missão Martian Moons eXploration (MMX) está programada para ser lançada ao espaço em um foguete H3 do Centro Espacial Tanegashima às 04: 41 JST de 20 de outubro de 2026 (20: 41 BST / 21: 41 CEST de 19 de outubro de 2026).</p><p>A MMX será a primeira missão a coletar uma amostra da lua de Marte, Fobos, e trazê-la de volta à Terra. A MMX é liderada pela Agência de Exploração Aeroespacial do Japão (JAXA), em colaboração com a Administração Nacional de Aeronáutica e Espaço (NASA), a agência espacial francesa (CNES), o Centro Aeroespacial Alemão (DLR) e a Agência Espacial Europeia (ESA).</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>The Martian Moons eXploration mission is set to launch into space on a H3 rocket from the Tanegashima Space Center at 04: 41 JST on 20 October 2026. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The Martian Moons eXploration (MMX) mission is set to launch into space on a H3 rocket from the Tanegashima Space Center at 04: 41 JST on 20 October 2026 (20: 41 BST / 21: 41. MMX will be the first mission to collect a sample from Mars’s moon Phobos and bring it back to Earth.</p><p>MMX is led by the Japan Aerospace Exploration Agency (JAXA), in collaboration with the National Aeronautics and Space Administration (NASA), the French space agency (CNES), the.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Because the account originates with ESA Space Science, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: A missão Martian Moons eXploration está programada para ser lançada ao espaço em um foguete H3 do Centro Espacial Tanegashima às 04: 41 JST em 20 de",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A missão Martian Moons eXploration está programada para ser lançada ao espaço em um foguete H3 do Centro Espacial Tanegashima às 04: 41 JST em 20 de",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: The Martian Moons eXploration mission is set to launch into space on a H3 rocket from the Tanegashima Space Center at 04: 41 JST on 20 October 2026",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "13 out 2026",
+    "date_pt": "13 out 2026",
+    "date_en": "13 Oct 2026",
+    "time": "12h00",
+    "time_pt": "12h00",
+    "time_en": "12: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-10-13T12:00:00+00:00",
+    "lastModifiedIso": "2026-10-13T20:59:23+00:00",
+    "source": "ESA Space Science",
+    "sourceDomain": "www. esa. int",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "ESA Space Science",
+      "Cosmos Week",
+      "Módulo lunar de Marte será lançado em 19 de outubro"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "ESA Space Science",
+      "Cosmos Week",
+      "Módulo lunar de Marte será lançado em 19 de outubro"
+    ],
+    "keywords_en": [
+      "Earth Sciences",
+      "ESA Space Science",
+      "Cosmos Week",
+      "Mars lunar module will be launched on October 19"
+    ],
+    "srcUrl": "https://www.esa.int/Science_Exploration/Space_Science/Mars_moon_lander_set_to_launch_on_19_October",
+    "realUrl": "https://www.cosmosweek.com/?article=mars-moon-lander-set-to-launch-on-19-october",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=mars-moon-lander-set-to-launch-on-19-october",
+    "realUrl_en": "https://www.cosmosweek.com/?article=mars-moon-lander-set-to-launch-on-19-october&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/mars-moon-lander-set-to-launch-on-19-october/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/mars-moon-lander-set-to-launch-on-19-october/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/mars-moon-lander-set-to-launch-on-19-october/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/mars-moon-lander-set-to-launch-on-19-october/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/mars-moon-lander-set-to-launch-on-19-october/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/mars-moon-lander-set-to-launch-on-19-october/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 95,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Módulo lunar de Marte será lançado em 19 de outubro",
+    "imageAlt_pt": "Módulo lunar de Marte será lançado em 19 de outubro",
+    "imageAlt_en": "Mars moon lander set to launch on 19 October",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
     "slug": "nasa-s-spacex-crs-35-mission-to-launch-health-research",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -21,19 +170,19 @@
     "body_pt": "<p>Experimentos da NASA focados na saúde humana e vegetal e em organismos resistentes a medicamentos viajarão para a Estação Espacial Internacional a bordo da 35ª missão de Serviços de Reabastecimento Comercial da SpaceX para a agência a partir da Estação da Força Espacial de Cabo.</p><p>Para saber mais sobre a pesquisa biológica e física da NASA no espaço, visite: https: //science. nasa. gov/biological-physical/ Divisão de Ciências Biológicas e Físicas A Divisão de Ciências Biológicas e Físicas da NASA é pioneira na descoberta científica e permite a exploração. Experimentos da NASA focados na saúde humana e vegetal e em organismos resistentes a medicamentos viajarão para a Estação Espacial Internacional a bordo do 35º da SpaceX.</p><p>Artigo Experimentos da NASA focados na saúde humana e vegetal e em organismos resistentes a medicamentos viajarão para a Estação Espacial Internacional a bordo da 35ª missão de Serviços de Reabastecimento Comercial da SpaceX para a agência da Estação da Força Espacial de Cabo. Os pesquisadores comparam modelos de tecidos que viajaram para o espaço com modelos idênticos mantidos na Terra para determinar como um voo espacial curto afeta o cérebro humano no nível celular.</p><p>O esforço poderá aprofundar a nossa compreensão de como o cérebro humano responde ao stress e ajudar a lançar as bases para métodos que combatam os riscos para a saúde cerebral que os astronautas podem enfrentar em futuras missões à Lua e mais além. O experimento compara mudanças moleculares e estruturais entre plantas cultivadas na Terra e cultivadas em estações espaciais infectadas com um fungo causador de doenças.</p><p>Eles também absorvem dióxido de carbono, produzem oxigênio e reciclam água, o que se tornará cada vez mais importante à medida que as missões humanas se estenderem para mais longe da Terra. O uso do leitor de placas permitiria aos cientistas analisar amostras a bordo da estação espacial e obter dados rapidamente, em vez de esperar que as amostras retornassem à Terra para análise.</p><p>Em última análise, a investigação visa apoiar a detecção atempada de infecções e outros problemas de saúde nos astronautas, ao mesmo tempo que expande as capacidades científicas em locais de exploração remotos onde o reabastecimento será mais difícil.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>NASA experiments focused on human and plant health and drug-resistant organisms will travel to the International Space Station aboard SpaceX’s 35th Commercial Resupply Services mission for the agency from Cape Canaveral Space Force Station. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. To learn more about NASA’s biological and physical research in space, visit: https: //science. nasa. NASA experiments focused on human and plant health and drug-resistant organisms will travel to the International Space Station aboard SpaceX’s 35th.</p><p>Article NASA experiments focused on human and plant health and drug-resistant organisms will travel to the International Space Station aboard SpaceX’s 35th Commercial Resupply. This research supports astronaut health during long-duration missions through four investigations from the agency’s Biological and Physical Sciences division, including 3D models.</p><p>Researchers compare tissue models that traveled to space with identical ones kept on Earth to determine how a short spaceflight affects the human brain at the cellular level. The effort could deepen our understanding of how the human brain responds to stress and help lay the groundwork for methods that counter risks to brain health that astronauts may.</p><p>The experiment compares molecular and structural changes between Earth-grown and space station-grown plants infected with a disease-causing fungus. They also absorb carbon dioxide, produce oxygen, and recycle water, which will become increasingly important as human missions extend farther from Earth.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Use of the plate reader would allow scientists to analyze samples aboard the space station and obtain data quickly, rather than wait for the samples to return to Earth for. Ultimately, the research aims to support the timely detection of infections and other health issues in astronauts while expanding science capabilities in remote exploration.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Experimentos da NASA focados na saúde humana e vegetal e em organismos resistentes a medicamentos viajarão para a Estação Espacial Internacional a",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Experimentos da NASA focados na saúde humana e vegetal e em organismos resistentes a medicamentos viajarão para a Estação Espacial Internacional a.",
+      "Dado-chave: Experimentos da NASA focados na saúde humana e vegetal e em organismos resistentes a medicamentos viajarão para a Estação Espacial Internacional.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Experimentos da NASA focados na saúde humana e vegetal e em organismos resistentes a medicamentos viajarão para a Estação Espacial Internacional a",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Experimentos da NASA focados na saúde humana e vegetal e em organismos resistentes a medicamentos viajarão para a Estação Espacial Internacional a.",
+      "Dado-chave: Experimentos da NASA focados na saúde humana e vegetal e em organismos resistentes a medicamentos viajarão para a Estação Espacial Internacional.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: NASA experiments focused on human and plant health and drug-resistant organisms will travel to the International Space Station aboard SpaceX’s 35th",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: NASA experiments focused on human and plant health and drug-resistant organisms will travel to the International Space Station aboard SpaceX’s 35th.",
+      "Key detail: NASA experiments focused on human and plant health and drug-resistant organisms will travel to the International Space Station aboard SpaceX’s.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "12 out 2026",
     "date_pt": "12 out 2026",
@@ -124,7 +273,7 @@
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "antarctic-sea-ice-grows-to-its-2026-maximum",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -164,19 +313,19 @@
     "body_pt": "<p>Vendo através das nuvens Para determinar a extensão do gelo marinho, os cientistas contam com satélites com sensores passivos de micro-ondas que medem a energia de micro-ondas que a Terra emite naturalmente. Downloads em 14 de setembro de 2026 JPEG (682, 33 KB) Referências e recursos NASA Earthdata (2026, outubro) Sea Ice.</p><p>De acordo com a NASA e o Centro Nacional de Dados de Neve e Gelo (NSIDC), o gelo marinho da Antártida em 2026 provavelmente atingiu a sua extensão máxima anual em 14 de setembro (acima). Os mapas abaixo mostram a concentração média de gelo marinho da Antártica para o mês de setembro (esquerda) e fevereiro seguinte (direita) de 1990 a 2026.</p><p>Os cientistas referem-se à área total destas regiões como a “extensão do gelo marinho”. De máximos a mínimos recordes De 1979 a 2014, o gelo marinho total da Antártica aumentou cerca de 1% por década.</p><p>Durante três anos consecutivos, de 2012 a 2014, os satélites observaram novos máximos recordes para a extensão do gelo marinho no inverno. Para determinar a extensão do gelo marinho, os cientistas contam com satélites com sensores passivos de micro-ondas que medem a energia de micro-ondas que a Terra emite naturalmente.</p><p>O registro começou no final de 1978 com dados coletados pelo Nimbus-7 da NASA, seguido pelos satélites do Programa de Satélites Meteorológicos de Defesa (DMSP) a partir de 1987, e pelo satélite Aqua da NASA entre 2002 e 2011. Referências e recursos NASA Earthdata (2026, outubro) Sea Ice.</p><p>Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-grows-to-its-2026-maximum/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Seeing Through the Clouds To determine sea ice extent, scientists rely on satellites with passive microwave sensors that measure the microwave energy Earth naturally emits. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. Downloads September 14, 2026 JPEG (682.33 KB) References &amp; Resources NASA Earthdata (2026, October) Sea Ice. According to NASA and the National Snow and Ice Data Center (NSIDC), Antarctic sea ice in 2026 likely reached its annual maximum extent on September 14 (above).</p><p>The maps below show the average concentration of Antarctic sea ice for the month of September (left) and the following February (right) from 1990 to 2026. For three consecutive years, from 2012 to 2014, satellites observed new record highs for winter sea ice extent.</p><p>To determine sea ice extent, scientists rely on satellites with passive microwave sensors that measure the microwave energy Earth naturally emits. The record began in late 1978 with data collected by NASA’s Nimbus-7, followed by Defense Meteorological Satellite Program (DMSP) satellites starting in 1987, and by NASA’s Aqua.</p><p>References &amp; Resources NASA Earthdata (2026, October) Sea Ice. Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Open access to NASA’s archive of Earth science data NASA Earthdata (2026, October) Sea Ice. NASA Earth Observatory (2026, October 6) World of Change: Antarctic Sea Ice.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-grows-to-its-2026-maximum/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Vendo através das nuvens Para determinar a extensão do gelo marinho, os cientistas contam com satélites com sensores passivos de micro-ondas que",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Vendo através das nuvens Para determinar a extensão do gelo marinho, os cientistas contam com satélites com sensores passivos de micro-ondas que.",
+      "Dado-chave: Vendo através das nuvens Para determinar a extensão do gelo marinho, os cientistas contam com satélites com sensores passivos de micro-ondas que",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Vendo através das nuvens Para determinar a extensão do gelo marinho, os cientistas contam com satélites com sensores passivos de micro-ondas que",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Vendo através das nuvens Para determinar a extensão do gelo marinho, os cientistas contam com satélites com sensores passivos de micro-ondas que.",
+      "Dado-chave: Vendo através das nuvens Para determinar a extensão do gelo marinho, os cientistas contam com satélites com sensores passivos de micro-ondas que",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Seeing Through the Clouds To determine sea ice extent, scientists rely on satellites with passive microwave sensors that measure the microwave energy",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Seeing Through the Clouds To determine sea ice extent, scientists rely on satellites with passive microwave sensors that measure the microwave energy.",
+      "Key detail: Seeing Through the Clouds To determine sea ice extent, scientists rely on satellites with passive microwave sensors that measure the microwave.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "12 out 2026",
     "date_pt": "12 out 2026",
@@ -264,7 +413,7 @@
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "nasa-demonstrates-next-generation-heat-shield-technologies",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -285,19 +434,19 @@
     "body_pt": "<p>A NASA está testando escudos térmicos que podem manter os astronautas seguros quando eles retornam de missões à Lua e a Marte de uma forma incomum: retirando o lixo. Quando a 24ª missão de reabastecimento de carga da Northrop Grumman para a NASA se desencaixou da Estação Espacial Internacional, ela carregava uma frota de 12 pequenas cápsulas experimentais projetadas para [. ].</p><p>Apoiamos a próxima geração de cientistas e engenheiros à medida que desenvolvem projetos únicos que beneficiam a sua educação e os objetivos da missão da NASA. Dentro da cápsula há um escudo térmico impresso em 3D projetado por pesquisadores do Johnson Space Center da NASA em Houston.</p><p>Quando a 24ª missão de reabastecimento de carga da Northrop Grumman para a NASA se desencaixou da Estação Espacial Internacional, transportava uma frota de 12 pequenas cápsulas experimentais concebidas para testar a próxima geração de materiais de protecção térmica que poderiam. O KREPE-3 é um grande exemplo dos objetivos do programa EPSCoR da NASA”, disse David Berger, gerente do programa EPSCoR na sede da NASA em Washington.</p><p>À medida que o veículo se desfaz de forma inofensiva na atmosfera da Terra na sua rota planeada, as cápsulas serão ejetadas e começarão a recolher dados sobre o desempenho de cada conjunto de materiais experimentais de proteção térmica. Outros testarão novas opções, como um escudo térmico impresso em 3D do projeto de Fabricação Aditiva de Sistemas de Proteção Térmica desenvolvido na NASA Johnson e no Oak Ridge National Laboratory.</p><p>Pesquisadores da NASA Ames estão contribuindo com vários materiais para o KREPE-3, incluindo duas cápsulas que irão voar uma família de coberturas protetoras de próxima geração conhecidas como Materiais Projetados para Reentrada usando Operações Inovadoras de Agulhamento. Graças à atmosfera mais fina de Marte, as missões de aterragem no Planeta Vermelho envolvem cargas térmicas mais baixas e permitem uma proteção mais leve.</p><p>Outra cápsula tem o formato do aeroshell protetor que protegerá a próxima missão da NASA, Dragonfly, quando chegar à lua de Saturno, Titã, e testará a estabilidade dinâmica do design.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>NASA is testing heat shields that can keep astronauts safe as they return from missions to the Moon and Mars in an unusual way: by taking out the trash. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. When Northrop Grumman 24th cargo resupply mission for NASA undocked from the International Space Station, it carried a fleet of 12 small, experimental capsules designed to. We are supporting the next generation of scientists and engineers as they develop unique projects that benefit their education and NASA’s mission goals.</p><p>We’re essentially hitching a ride on a vehicle that’s already coming back to Earth. ” Close up of an Ames-produced thermal protection system (TPS) (heat shield) for the Kentucky. Inside the capsule is a 3-D printed heat shield designed by researchers at NASA’s Johnson Space Center in Houston.</p><p>When Northrop Grumman 24 th cargo resupply mission for NASA undocked from the International Space Station, it carried a fleet of 12 small, experimental capsules designed to test. KREPE-3 is a great example of the goals of NASA’s EPSCoR program,” said David Berger, EPSCoR program manager at NASA’s Headquarters in Washington.</p><p>As the vehicle harmlessly breaks apart in Earth’s atmosphere on its planned route, the capsules will eject and begin collecting data on how each set of experimental heat shield. Others will test new options, such as a 3D-printed heat shield from the Additive Manufacturing of Thermal Protective Systems project developed at NASA Johnson and Oak Ridge.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>Researchers at NASA Ames are contributing several materials to KREPE-3, including two capsules that will fly a next-generation family of protective coverings known as Materials. Thanks to Mars’ thinner atmosphere, missions to land on the Red Planet involve lower heat loads and allow for lighter protection.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A NASA está testando escudos térmicos que podem manter os astronautas seguros quando eles retornam de missões à Lua e a Marte de uma forma incomum",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A NASA está testando escudos térmicos que podem manter os astronautas seguros quando eles retornam de missões à Lua e a Marte de uma forma incomum.",
+      "Dado-chave: A NASA está testando escudos térmicos que podem manter os astronautas seguros quando eles retornam de missões à Lua e a Marte de uma forma.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A NASA está testando escudos térmicos que podem manter os astronautas seguros quando eles retornam de missões à Lua e a Marte de uma forma incomum",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A NASA está testando escudos térmicos que podem manter os astronautas seguros quando eles retornam de missões à Lua e a Marte de uma forma incomum.",
+      "Dado-chave: A NASA está testando escudos térmicos que podem manter os astronautas seguros quando eles retornam de missões à Lua e a Marte de uma forma.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: NASA is testing heat shields that can keep astronauts safe as they return from missions to the Moon and Mars in an unusual way: by taking out the",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: NASA is testing heat shields that can keep astronauts safe as they return from missions to the Moon and Mars in an unusual way: by taking out the.",
+      "Key detail: NASA is testing heat shields that can keep astronauts safe as they return from missions to the Moon and Mars in an unusual way: by taking out the",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "09 out 2026",
     "date_pt": "09 out 2026",
@@ -385,7 +534,7 @@
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "nasa-s-spherex-telescope-sees-menagerie-of-brown-dwarfs",
     "cat": "Exoplanetas",
     "catCls": "exoplanetas",
@@ -516,7 +665,7 @@
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "splashdown-confirmed-for-sophie-adenot",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -647,7 +796,7 @@
     "storyKind": "science"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "too-many-or-too-bright-status-and-perspectives-in-the-study-of-the-uv-luminosity-function-at-z-1",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -768,7 +917,7 @@
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "sentinel-3c-returns-its-first-views-of-earth",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -929,7 +1078,7 @@
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "mars-s-oddest-cloud-may-be-even-odder-than-we-thought",
     "cat": "Física",
     "catCls": "fisica",
@@ -1069,7 +1218,7 @@
     "storyKind": "science"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "brake-time-for-esa-s-hera-asteroid-mission-to-go-slow",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1245,7 +1394,7 @@
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "gamma-rays-from-black-hole-coronae-disentangling-the-leptonic-and-hadronic-contributions",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1369,7 +1518,7 @@
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "science-release-suspected-second-generation-planet-solves-hubble-cold-case",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -1557,7 +1706,7 @@
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "happy-new-year-on-mars",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1699,158 +1848,6 @@
     "imageAlt": "Feliz Ano Novo em Marte",
     "imageAlt_pt": "Feliz Ano Novo em Marte",
     "imageAlt_en": "Happy New Year on Mars",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 13,
-    "slug": "successful-earth-flyby-improves-juice-s-course-to-jupiter",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/juice_images_earth_during_earth_flyby/27543775-1-eng-GB/Juice_images_Earth_during_Earth_flyby_pillars.jpg",
-    "inline_images": [
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/juice_navcam_image_of_africa_during_earth_flyby/27543920-1-eng-GB/Juice_NavCam_image_of_Africa_during_Earth_flyby_pillars.png",
-        "alt": "Imagem Juice NavCam da África durante sobrevoo pela Terra",
-        "alt_pt": "Imagem Juice NavCam da África durante sobrevoo pela Terra",
-        "alt_en": "Juice NavCam image of Africa during Earth flyby",
-        "caption": "Imagem Juice NavCam da África durante sobrevoo pela Terra",
-        "caption_pt": "Imagem Juice NavCam da África durante sobrevoo pela Terra",
-        "caption_en": "Juice NavCam image of Africa during Earth flyby"
-      },
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/09/juice_navcam_image_of_the_moon_during_earth_flyby/27543967-1-eng-GB/Juice_NavCam_image_of_the_Moon_during_Earth_flyby_pillars.png",
-        "alt": "Imagem Juice NavCam da Lua durante sobrevoo pela Terra",
-        "alt_pt": "Imagem Juice NavCam da Lua durante sobrevoo pela Terra",
-        "alt_en": "Juice NavCam image of the Moon during Earth flyby",
-        "caption": "Imagem Juice NavCam da Lua durante sobrevoo pela Terra",
-        "caption_pt": "Imagem Juice NavCam da Lua durante sobrevoo pela Terra",
-        "caption_en": "Juice NavCam image of the Moon during Earth flyby"
-      },
-      {
-        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/12/juice_s_journey_to_jupiter/24641025-9-eng-GB/Juice_s_journey_to_Jupiter_article.jpg",
-        "alt": "A jornada de Juice para Júpiter",
-        "alt_pt": "A jornada de Juice para Júpiter",
-        "alt_en": "Juice’s journey to Jupiter",
-        "caption": "A jornada de Juice para Júpiter",
-        "caption_pt": "A jornada de Juice para Júpiter",
-        "caption_en": "Juice’s journey to Jupiter"
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Sobrevôo bem-sucedido da Terra melhora o curso de Juice para Júpiter",
-    "title_pt": "Sobrevôo bem-sucedido da Terra melhora o curso de Juice para Júpiter",
-    "title_en": "Successful Earth flyby improves Juice’s course to Jupiter",
-    "sub": "O Júpiter Icy Moons Explorer da Agência Espacial Europeia percorreu a borda exterior da atmosfera da Terra no dia 28 de Setembro, usando a gravidade do nosso planeta natal para.",
-    "sub_pt": "O Júpiter Icy Moons Explorer da Agência Espacial Europeia percorreu a borda exterior da atmosfera da Terra no dia 28 de Setembro, usando a gravidade do nosso planeta natal para.",
-    "sub_en": "The European Space Agency’s Jupiter Icy Moons Explorer skimmed the very outer edge of Earth’s atmosphere on 28 September, using the gravity of our home planet to alter its route.",
-    "excerpt": "O Júpiter Icy Moons Explorer da Agência Espacial Europeia percorreu a borda exterior da atmosfera da Terra no dia 28 de Setembro, usando a gravidade do nosso planeta natal para alterar a sua rota até Júpiter usando muito pouco combustível.",
-    "excerpt_pt": "O Júpiter Icy Moons Explorer da Agência Espacial Europeia percorreu a borda exterior da atmosfera da Terra no dia 28 de Setembro, usando a gravidade do nosso planeta natal para alterar a sua rota até Júpiter usando muito pouco combustível.",
-    "excerpt_en": "The European Space Agency’s Jupiter Icy Moons Explorer skimmed the very outer edge of Earth’s atmosphere on 28 September, using the gravity of our home planet to alter its route to Jupiter using very little fuel.",
-    "body": "<p>O Júpiter Icy Moons Explorer da Agência Espacial Europeia percorreu a borda exterior da atmosfera da Terra no dia 28 de Setembro, usando a gravidade do nosso planeta natal para alterar a sua rota até Júpiter usando muito pouco combustível. O Júpiter Icy Moons Explorer (Juice) da Agência Espacial Europeia percorreu a borda externa da atmosfera da Terra em 28 de setembro, usando a gravidade do nosso planeta natal para alterar sua rota para Júpiter usando muito pouco combustível.</p><p>Enquanto o Juice voava apenas 8.640 km acima do Oceano Índico, ele capturou uma série de imagens com suas câmeras de monitoramento a bordo. Dado o tempo limitado disponível e as restrições operacionais, às vezes as atividades dos instrumentos precisam ser priorizadas, por exemplo, quando Juice estava na sombra da Terra esta manhã, e dependia apenas da energia da bateria.</p><p>O sobrevoo pela Terra é uma grande oportunidade para calibrar instrumentos, descobrir a melhor forma de trabalhar com eles no espaço (onde funcionam sempre de forma um pouco diferente da Terra!) e desenvolver ferramentas de análise de dados. Durante o sobrevôo pela Terra, Juice passou vários dias voando através da cauda magnética, a parte do campo magnético da Terra que se estende para longe do Sol.</p><p>Entretanto, a missão Smile Europeu-Chinesa tem observado as luzes do norte e medido campos magnéticos e partículas próximas da Terra. Juntas, as observações de Juice e Smile proporcionam uma oportunidade única de conectar a atividade na cauda magnética distante com o que está acontecendo nos pólos da Terra.</p><p>Esperamos publicar imagens e espectros coletados por alguns dos instrumentos do Juice nas próximas semanas, depois que eles chegarem à Terra e forem avaliados pelas equipes de cientistas que trabalham nos instrumentos. Isso inclui imagens de alta resolução da Lua e da Terra obtidas pela câmera científica da Juice, JANUS.</p><p>Em janeiro de 2029, Juice encontrará a Terra uma última vez, voltando para um terceiro sobrevoo ao nosso planeta natal para colocá-lo na rota final para encontrar Júpiter em 2031.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Juice/Successful_Earth_flyby_improves_Juice_s_course_to_Jupiter\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>O Júpiter Icy Moons Explorer da Agência Espacial Europeia percorreu a borda exterior da atmosfera da Terra no dia 28 de Setembro, usando a gravidade do nosso planeta natal para alterar a sua rota até Júpiter usando muito pouco combustível. O Júpiter Icy Moons Explorer (Juice) da Agência Espacial Europeia percorreu a borda externa da atmosfera da Terra em 28 de setembro, usando a gravidade do nosso planeta natal para alterar sua rota para Júpiter usando muito pouco combustível.</p><p>Enquanto o Juice voava apenas 8.640 km acima do Oceano Índico, ele capturou uma série de imagens com suas câmeras de monitoramento a bordo. Dado o tempo limitado disponível e as restrições operacionais, às vezes as atividades dos instrumentos precisam ser priorizadas, por exemplo, quando Juice estava na sombra da Terra esta manhã, e dependia apenas da energia da bateria.</p><p>O sobrevoo pela Terra é uma grande oportunidade para calibrar instrumentos, descobrir a melhor forma de trabalhar com eles no espaço (onde funcionam sempre de forma um pouco diferente da Terra!) e desenvolver ferramentas de análise de dados. Durante o sobrevôo pela Terra, Juice passou vários dias voando através da cauda magnética, a parte do campo magnético da Terra que se estende para longe do Sol.</p><p>Entretanto, a missão Smile Europeu-Chinesa tem observado as luzes do norte e medido campos magnéticos e partículas próximas da Terra. Juntas, as observações de Juice e Smile proporcionam uma oportunidade única de conectar a atividade na cauda magnética distante com o que está acontecendo nos pólos da Terra.</p><p>Esperamos publicar imagens e espectros coletados por alguns dos instrumentos do Juice nas próximas semanas, depois que eles chegarem à Terra e forem avaliados pelas equipes de cientistas que trabalham nos instrumentos. Isso inclui imagens de alta resolução da Lua e da Terra obtidas pela câmera científica da Juice, JANUS.</p><p>Em janeiro de 2029, Juice encontrará a Terra uma última vez, voltando para um terceiro sobrevoo ao nosso planeta natal para colocá-lo na rota final para encontrar Júpiter em 2031.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Juice/Successful_Earth_flyby_improves_Juice_s_course_to_Jupiter\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>The European Space Agency’s Jupiter Icy Moons Explorer skimmed the very outer edge of Earth’s atmosphere on 28 September, using the gravity of our home planet to alter its route to Jupiter using very little fuel. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. The European Space Agency’s Jupiter Icy Moons Explorer (Juice) skimmed the very outer edge of Earth’s atmosphere on 28 September, using the gravity of our home planet to alter. As Juice flew just 8640 km above the Indian Ocean, it snapped a series of images with its onboard monitoring cameras.</p><p>Colleagues from ESA&#x27;s spacecraft operations, science operations and technical centres spent months working hard with the external teams working on Juice&#x27;s 10 science instruments. Given the limited time available and operational constraints, instrument activities sometimes have to be prioritised, for example when Juice was in Earth&#x27;s shadow this morning.</p><p>The Earth flyby is a great opportunity to calibrate instruments, figure out how best to work with them in space (where they always work a little differently to on Earth. During the Earth flyby, Juice spent several days flying through the magnetotail, the part of Earth’s magnetic field that stretches out away from the Sun.</p><p>Meanwhile, the European-Chinese Smile mission has been watching the northern lights and measuring magnetic fields and particles close to Earth. Together, Juice and Smile&#x27;s observations provide a unique opportunity to connect activity in the distant magnetotail with what is happening at Earth&#x27;s poles.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>We expect to publish images and spectra collected by some of Juice’s instruments in the coming weeks, after they have arrived on Earth and been evaluated by the teams of. This includes high-resolution images of the Moon and Earth from Juice’s scientific camera, JANUS.</p><p>Because the account originates with ESA Space Science, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.esa.int/Science_Exploration/Space_Science/Juice/Successful_Earth_flyby_improves_Juice_s_course_to_Jupiter\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: O Júpiter Icy Moons Explorer da Agência Espacial Europeia percorreu a borda exterior da atmosfera da Terra no dia 28 de Setembro, usando a gravidade.",
-      "Dado-chave: O Júpiter Icy Moons Explorer da Agência Espacial Europeia percorreu a borda exterior da atmosfera da Terra no dia 28 de Setembro, usando a.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: O Júpiter Icy Moons Explorer da Agência Espacial Europeia percorreu a borda exterior da atmosfera da Terra no dia 28 de Setembro, usando a gravidade.",
-      "Dado-chave: O Júpiter Icy Moons Explorer da Agência Espacial Europeia percorreu a borda exterior da atmosfera da Terra no dia 28 de Setembro, usando a.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: The European Space Agency’s Jupiter Icy Moons Explorer skimmed the very outer edge of Earth’s atmosphere on 28 September, using the gravity of our.",
-      "Key detail: The European Space Agency’s Jupiter Icy Moons Explorer skimmed the very outer edge of Earth’s atmosphere on 28 September, using the gravity of.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "28 set 2026",
-    "date_pt": "28 set 2026",
-    "date_en": "28 Sep 2026",
-    "time": "15h00",
-    "time_pt": "15h00",
-    "time_en": "15: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-09-28T15:00:00+00:00",
-    "lastModifiedIso": "2026-09-28T21:40:02+00:00",
-    "source": "ESA Space Science",
-    "sourceDomain": "www. esa. int",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Sobrevôo bem",
-      "sucedido da Terra melhora o curso de Juice para Júpiter"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Sobrevôo bem",
-      "sucedido da Terra melhora o curso de Juice para Júpiter"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "ESA Space Science",
-      "Cosmos Week",
-      "Fine flyby",
-      "Earth's success improves Juice's course for Jupiter"
-    ],
-    "srcUrl": "https://www.esa.int/Science_Exploration/Space_Science/Juice/Successful_Earth_flyby_improves_Juice_s_course_to_Jupiter",
-    "realUrl": "https://www.cosmosweek.com/?article=successful-earth-flyby-improves-juice-s-course-to-jupiter",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=successful-earth-flyby-improves-juice-s-course-to-jupiter",
-    "realUrl_en": "https://www.cosmosweek.com/?article=successful-earth-flyby-improves-juice-s-course-to-jupiter&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/successful-earth-flyby-improves-juice-s-course-to-jupiter/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/successful-earth-flyby-improves-juice-s-course-to-jupiter/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/successful-earth-flyby-improves-juice-s-course-to-jupiter/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/successful-earth-flyby-improves-juice-s-course-to-jupiter/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/successful-earth-flyby-improves-juice-s-course-to-jupiter/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/successful-earth-flyby-improves-juice-s-course-to-jupiter/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 95,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Sobrevôo bem-sucedido da Terra melhora o curso de Juice para Júpiter",
-    "imageAlt_pt": "Sobrevôo bem-sucedido da Terra melhora o curso de Juice para Júpiter",
-    "imageAlt_en": "Successful Earth flyby improves Juice’s course to Jupiter",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
