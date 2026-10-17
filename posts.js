@@ -519,19 +519,19 @@ window.postsData = [
     "body_pt": "<p>A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Transit, Texas, from Thursday, Oct. The FarmFlux mission will deploy [. ].</p><p>A photo of the Dynamic Aviation A200 aircraft, which will conduct low-flying research flights over farmland near Transit, Texas, to measure emissions in October and November 2026. Dynamic Aviation Agricultural emissions represent an important and understudied part of Earth’s land and atmosphere systems.</p><p>For more information about the FarmFlux mission, visit: https: //science. nasa. gov/mission/evs-4/farm-flux/ By Sharon Teitelbaum NASA’s Ames Research Center in California’s Silicon Valley. Article A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Transit, Texas, from Thursday, Oct.</p><p>These flights will measure gaseous and particulate emissions from animal feeding operations. Agricultural emissions represent an important and understudied part of Earth’s land and atmosphere systems.</p><p>The FarmFlux mission will deploy more than a dozen sensors to measure ozone, methane, ammonia, particulates, and other pollutants rising from crop lands and livestock farms and their interaction with the Earth’s atmosphere. The mission is jointly led by NASA’s Goddard Space Flight Center in Greenbelt, Maryland.</p><p>Additional low-altitude research flights with a NASA P-3 Orion aircraft are scheduled for the March to July 2027 growing season in the Midwest and California’s Central Valley with a focus on cropland.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. A photo of the Dynamic Aviation A200 aircraft, which will conduct low-flying research flights over farmland near Transit, Texas, to measure emissions in October and November 2026. Dynamic Aviation Agricultural emissions represent an important and understudied part of Earth’s land and atmosphere systems.</p><p>For more information about the FarmFlux mission, visit: https: //science. nasa. gov/mission/evs-4/farm-flux/ By Sharon Teitelbaum NASA’s Ames Research Center in California’s. A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Transit, Texas, from Thursday, Oct.</p><p>Article A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Transit, Texas, from Thursday, Oct. These flights will measure gaseous and particulate emissions from animal feeding operations.</p><p>Agricultural emissions represent an important and understudied part of Earth’s land and atmosphere systems. The FarmFlux mission will deploy more than a dozen sensors to measure ozone, methane, ammonia, particulates, and other pollutants rising from crop lands and livestock farms and.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>The mission is jointly led by NASA’s Goddard Space Flight Center in Greenbelt, Maryland. Additional low-altitude research flights with a NASA P-3 Orion aircraft are scheduled for the March to July 2027 growing season in the Midwest and California’s Central Valley with.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Transit, Texas, from Thursday, Oct",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Transit, Texas, from Thursday, Oct.",
+      "Dado-chave: A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Transit, Texas, from Thursday, Oct",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Transit, Texas, from Thursday, Oct",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Transit, Texas, from Thursday, Oct.",
+      "Dado-chave: A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Transit, Texas, from Thursday, Oct",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Transit, Texas, from Thursday, Oct",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Transit, Texas, from Thursday, Oct.",
+      "Key detail: A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Transit, Texas, from Thursday, Oct",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "15 out 2026",
     "date_pt": "15 out 2026",
@@ -820,17 +820,17 @@ window.postsData = [
     "body_en": "<p>Gravitational-wave ringdown signals provide a powerful probe of the strong-field regime of general relativity through black hole spectroscopy and tests of the Kerr hypothesis. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It is relevant because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. Gravitational-wave (GW) ringdown signals provide a powerful probe of the strong-field regime of general relativity (GR) through black hole spectroscopy and tests of the Kerr. However, unmodeled propagation effects can bias the inference of remnant properties and the interpretation of ringdown features.</p><p>We investigate the impact of gravitational lensing on ringdown inference and tests of GR using GW150914-like simulated signals spanning the long-wavelength, wave-optics, and. We perform complementary time-domain post-merger and frequency-domain full inspiral--merger--ringdown analyses using unlensed waveform models.</p><p>We find that lensing in the wave-optics regime can produce substantial biases in the inferred remnant mass and spin and can strongly affect the inferred modal content of the. In particular, it can spuriously favor the presence of the first overtone, with $\\log_{10}\\mathcal{B}^{221}_{220}\\sim40$, even though the injected signal has no support for it.</p><p>Parameterized ringdown tests can likewise yield strong apparent support for deviations from the Kerr quasinormal mode (QNM) spectrum, with $\\log_{10}\\mathcal{B}^{\\rm modGR}_{\\rm. In contrast, the evidence for higher-order modes remains largely unchanged for the simulated signals considered here.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>The parameterized analysis using the entire signal further shows that microlensing can bias the inferred frequency of the dominant $(2, 2, 0)$ QNM. These results demonstrate that unmodeled microlensing can produce systematic biases and spurious signatures in ringdown analyses, potentially affecting precision tests of the Kerr.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2610.20201v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: Gravitational-wave ringdown signals provide a powerful probe of the strong-field regime of general relativity through black hole spectroscopy and.",
-      "Dado-chave: Gravitational-wave ringdown signals provide a powerful probe of the strong-field regime of general relativity through black hole spectroscopy and",
+      "Dado-chave: Gravitational-wave ringdown signals provide a powerful probe of the strong-field regime of general relativity through black hole spectroscopy.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
       "Ponto central: Gravitational-wave ringdown signals provide a powerful probe of the strong-field regime of general relativity through black hole spectroscopy and.",
-      "Dado-chave: Gravitational-wave ringdown signals provide a powerful probe of the strong-field regime of general relativity through black hole spectroscopy and",
+      "Dado-chave: Gravitational-wave ringdown signals provide a powerful probe of the strong-field regime of general relativity through black hole spectroscopy.",
       "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
       "Core point: Gravitational-wave ringdown signals provide a powerful probe of the strong-field regime of general relativity through black hole spectroscopy and.",
-      "Key detail: Gravitational-wave ringdown signals provide a powerful probe of the strong-field regime of general relativity through black hole spectroscopy and",
+      "Key detail: Gravitational-wave ringdown signals provide a powerful probe of the strong-field regime of general relativity through black hole spectroscopy.",
       "Result not yet peer reviewed."
     ],
     "date": "14 out 2026",
@@ -1206,6 +1206,15 @@ window.postsData = [
         "caption": "Sophie Adenot está de volta à Terra",
         "caption_pt": "Sophie Adenot está de volta à Terra",
         "caption_en": "Sophie Adenot is back on Earth"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/10/samantha_arrives_in_cologne6/24523998-4-eng-GB/Samantha_arrives_in_Cologne_pillars.jpg",
+        "caption": "Sophie embarcará num avião para o Centro Europeu de Astronautas (EAC) da ESA",
+        "caption_pt": "Sophie embarcará num avião para o Centro Europeu de Astronautas (EAC) da ESA",
+        "caption_en": "Sophie will board a plane to ESA’s European Astronaut Centre (EAC)",
+        "alt": "Sophie embarcará num avião para o Centro Europeu de Astronautas (EAC) da ESA",
+        "alt_pt": "Sophie embarcará num avião para o Centro Europeu de Astronautas (EAC) da ESA",
+        "alt_en": "Sophie will board a plane to ESA’s European Astronaut Centre (EAC)"
       }
     ],
     "video": null,
@@ -1507,6 +1516,15 @@ window.postsData = [
         "caption": "A nuvem alongada de Arsia Mons vista pela Mars Express",
         "caption_pt": "A nuvem alongada de Arsia Mons vista pela Mars Express",
         "caption_en": "The Arsia Mons Elongated Cloud as seen by Mars Express"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/the_arsia_mons_elongated_cloud_as_seen_by_mars_express/27546706-1-eng-GB/The_Arsia_Mons_Elongated_Cloud_as_seen_by_Mars_Express.png",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
       }
     ],
     "video": null,
@@ -2163,12 +2181,12 @@ window.postsData = [
       },
       {
         "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/cloudy-cloak-over-the-northwest/westcoastfog_tmo_20260919_th.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
       }
     ],
     "video": null,
@@ -3477,30 +3495,30 @@ window.postsData = [
       },
       {
         "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/stops-along-the-path-of-totality/eclipsepath_modis_20260812_th.jpg?w=150&h=150",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
       },
       {
         "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/stops-along-the-path-of-totality/iceland_oli2_20260725_lrg.jpg",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
       },
       {
         "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/stops-along-the-path-of-totality/eclipsepath_modis_20260812_lrg.jpg",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": "",
         "alt": "",
         "alt_pt": "",
-        "alt_en": ""
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
       }
     ],
     "video": null,
