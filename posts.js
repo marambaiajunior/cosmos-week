@@ -819,7 +819,7 @@ window.postsData = [
     ],
     "highlights_en": [
       "Core point: Searches for periodic supermassive black hole binaries in quasar light curves rely on recovery fractions, the share of injected signals detected.",
-      "Key detail: Searches for periodic supermassive black hole binaries in quasar light curves rely on recovery fractions, the share of injected signals detected",
+      "Key detail: Searches for periodic supermassive black hole binaries in quasar light curves rely on recovery fractions, the share of injected signals detected.",
       "Result not yet peer reviewed."
     ],
     "date": "22 out 2026",
@@ -4044,17 +4044,17 @@ window.postsData = [
     "body_en": "<p>NSF, DOE Rubin Observatory, funded by the U. S. National Science Foundation and the U. S. Department of Energy&#x27;s Office of Science, is now capturing the cosmos. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Department of Energy&#x27;s (DOE) Office of Science, is now capturing the cosmos.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Because the account originates with NSF News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/action-nsf-doe-vera-c-rubin-observatory-begins-capturing\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: O Observatório Vera C. Rubin, uma iniciativa conjunta da Fundação Nacional de Ciência (NSF) e do Escritório de Ciência do Departamento de Energia.",
-      "Dado-chave: O Observatório Vera C",
+      "Dado-chave: O Observatório Vera C. Rubin, uma iniciativa conjunta da Fundação Nacional de Ciência (NSF) e do Escritório de Ciência do Departamento de.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: O Observatório Vera C. Rubin, uma iniciativa conjunta da Fundação Nacional de Ciência (NSF) e do Escritório de Ciência do Departamento de Energia.",
-      "Dado-chave: O Observatório Vera C",
+      "Dado-chave: O Observatório Vera C. Rubin, uma iniciativa conjunta da Fundação Nacional de Ciência (NSF) e do Escritório de Ciência do Departamento de.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: NSF, DOE Rubin Observatory, funded by the U. S. National Science Foundation and the U. S.",
-      "Key detail: NSF, DOE Rubin Observatory, funded by the U. S. National Science Foundation and the U. S",
+      "Key detail: NSF, DOE Rubin Observatory, funded by the U. S. National Science Foundation and the U. S.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "30 jun 2026",
