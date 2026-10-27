@@ -3,6 +3,308 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "new-dwarf-planet-candidate-discovered-by-nsf-doe-rubin-observatory",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://nsf-gov-resources.nsf.gov/styles/_inline_image_full_width/s3/media_hub/noirlab2626a.jpg?itok=FGH-HWPN",
+    "inline_images": [
+      {
+        "src": "https://nsf-gov-resources.nsf.gov/styles/featured_news/s3/media_hub/noirlab2626a.jpg?itok=udvnI5uJ",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": {
+      "kind": "embed",
+      "platform": "youtube",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/GScw6xLHPp4?rel=0&modestbranding=1",
+      "fileUrl": "",
+      "poster": "",
+      "title": "",
+      "title_pt": "",
+      "title_en": "",
+      "caption": "",
+      "caption_pt": "",
+      "caption_en": "",
+      "sourcePage": "https://www.nsf.gov/news/new-dwarf-planet-candidate-discovered-nsf-doe-rubin"
+    },
+    "audio": null,
+    "title": "Novo candidato a planeta anão descoberto pelo NSF – DOE Rubin Observatory",
+    "title_pt": "Novo candidato a planeta anão descoberto pelo NSF – DOE Rubin Observatory",
+    "title_en": "New dwarf planet candidate discovered by NSF–DOE Rubin Observatory",
+    "sub": "NSF, DOE Observatório Vera C. Rubin encontrou um grande objeto que os cientistas identificaram como um possível planeta anão.",
+    "sub_pt": "NSF, DOE Observatório Vera C. Rubin encontrou um grande objeto que os cientistas identificaram como um possível planeta anão.",
+    "sub_en": "NSF, DOE Vera C. Rubin Observatory has found a large object that scientists have identified as a possible dwarf planet.",
+    "excerpt": "NSF, DOE Observatório Vera C. Rubin encontrou um grande objeto que os cientistas identificaram como um possível planeta anão. Uma análise preliminar de dados mostra que o objeto está orbitando nos confins do sistema solar, além de Plutão e.",
+    "excerpt_pt": "NSF, DOE Observatório Vera C. Rubin encontrou um grande objeto que os cientistas identificaram como um possível planeta anão. Uma análise preliminar de dados mostra que o objeto está orbitando nos confins do sistema solar, além de Plutão e.",
+    "excerpt_en": "NSF, DOE Vera C. Rubin Observatory has found a large object that scientists have identified as a possible dwarf planet. A preliminary data analysis shows that the object is orbiting in the outer reaches of the solar system beyond Pluto and.",
+    "body": "<p>Rubin encontrou um grande objeto que os cientistas identificaram como um possível planeta anão. O Observatório Rubin é financiado conjuntamente pelos EUA.</p><p>Fundação Nacional de Ciência e EUA. Escritório de Ciência do Departamento de Energia.</p><p>A descoberta foi possibilitada pela velocidade incomparável de Rubin e pela sua enorme câmara, a maior alguma vez criada, que lhe permitiu captar com precisão todas as mudanças visíveis no céu do hemisfério sul. O Centro de Planetas Menores da União Astronômica Internacional deu ao objeto recém-descoberto a designação provisória ED138.</p><p>O ED138 foi encontrado numa região do céu próxima ao plano da Via Láctea, uma região visualmente repleta de milhões de estrelas, razão pela qual não foi descoberto até agora. O monitoramento regular e os poderosos algoritmos de dados do Observatório Rubin permitiram aos cientistas detectar o ED138 se movendo dentro do campo lotado.</p><p>O superpoder do Observatório Rubin é a capacidade de capturar claramente o movimento e a mudança entre um vasto número de objetos e fenômenos que os humanos nunca viram antes&quot;, disse Edward Ajhar, Diretor do Programa NSF do Observatório Rubin. Esse poder amplia enormemente a nossa capacidade de revelar e compreender coisas novas sobre o nosso sistema solar, a Via Láctea e milhares de milhões de outras galáxias em todo o universo.</p><p>ED138 é um dos muitos objetos do sistema solar descobertos por Rubin este ano.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/new-dwarf-planet-candidate-discovered-nsf-doe-rubin\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Rubin encontrou um grande objeto que os cientistas identificaram como um possível planeta anão. O Observatório Rubin é financiado conjuntamente pelos EUA.</p><p>Fundação Nacional de Ciência e EUA. Escritório de Ciência do Departamento de Energia.</p><p>A descoberta foi possibilitada pela velocidade incomparável de Rubin e pela sua enorme câmara, a maior alguma vez criada, que lhe permitiu captar com precisão todas as mudanças visíveis no céu do hemisfério sul. O Centro de Planetas Menores da União Astronômica Internacional deu ao objeto recém-descoberto a designação provisória ED138.</p><p>O ED138 foi encontrado numa região do céu próxima ao plano da Via Láctea, uma região visualmente repleta de milhões de estrelas, razão pela qual não foi descoberto até agora. O monitoramento regular e os poderosos algoritmos de dados do Observatório Rubin permitiram aos cientistas detectar o ED138 se movendo dentro do campo lotado.</p><p>O superpoder do Observatório Rubin é a capacidade de capturar claramente o movimento e a mudança entre um vasto número de objetos e fenômenos que os humanos nunca viram antes&quot;, disse Edward Ajhar, Diretor do Programa NSF do Observatório Rubin. Esse poder amplia enormemente a nossa capacidade de revelar e compreender coisas novas sobre o nosso sistema solar, a Via Láctea e milhares de milhões de outras galáxias em todo o universo.</p><p>ED138 é um dos muitos objetos do sistema solar descobertos por Rubin este ano.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/new-dwarf-planet-candidate-discovered-nsf-doe-rubin\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>NSF, DOE Vera C. Rubin Observatory has found a large object that scientists have identified as a possible dwarf planet. A preliminary data analysis shows that the object is orbiting in the outer reaches of the solar system beyond Pluto and. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Department of Energy&#x27;s Office of Science. The discovery was enabled by Rubin&#x27;s unparalleled speed and its enormous camera, the largest ever created, allowing it to precisely capture every visible change in the southern.</p><p>The International Astronomical Union Minor Planet Center has given the newly discovered object the provisional designation ED138. ED138 was found in a region of sky close to the plane of the Milky Way, a region visually filled with millions of stars, which is likely why it was not discovered until now.</p><p>Rubin Observatory&#x27;s regular monitoring and powerful data algorithms allowed scientists to spot ED138 moving within the crowded field. Rubin Observatory&#x27;s superpower is the ability to clearly capture movement and change among a vast number of objects and phenomena that humans have never seen before,&quot; says Edward.</p><p>That power greatly extends our ability to reveal and understand new things about our solar system, the Milky Way, and billions of other galaxies across the universe. ED138 is one of many solar system objects discovered by Rubin this year.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>In April, Rubin submitted observations of over 11, 000 new asteroids. Rubin Observatory’s unique strengths make it an incredible tool for investigating a wide range of astrophysical phenomena, from dark energy to the discovery of this dwarf planet.</p><p>Because the account originates with NSF News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/new-dwarf-planet-candidate-discovered-nsf-doe-rubin\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: NSF, DOE Observatório Vera C. Rubin encontrou um grande objeto que os cientistas identificaram como um possível planeta anão",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: NSF, DOE Observatório Vera C. Rubin encontrou um grande objeto que os cientistas identificaram como um possível planeta anão",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: NSF, DOE Vera C. Rubin Observatory has found a large object that scientists have identified as a possible dwarf planet",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "27 out 2026",
+    "date_pt": "27 out 2026",
+    "date_en": "27 Oct 2026",
+    "time": "18h51",
+    "time_pt": "18h51",
+    "time_en": "18: 51 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-10-27T18:51:35+00:00",
+    "lastModifiedIso": "2026-10-27T20:29:44+00:00",
+    "source": "NSF News",
+    "sourceDomain": "www. nsf. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NSF News",
+      "Cosmos Week",
+      "Novo candidato a planeta anão descoberto pelo NSF – DOE Rubin Observatory"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NSF News",
+      "Cosmos Week",
+      "Novo candidato a planeta anão descoberto pelo NSF – DOE Rubin Observatory"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NSF News",
+      "Cosmos Week",
+      "New dwarf planet candidate discovered by NSF – DOE Rubin Observatory"
+    ],
+    "srcUrl": "https://www.nsf.gov/news/new-dwarf-planet-candidate-discovered-nsf-doe-rubin",
+    "realUrl": "https://www.cosmosweek.com/?article=new-dwarf-planet-candidate-discovered-by-nsf-doe-rubin-observatory",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=new-dwarf-planet-candidate-discovered-by-nsf-doe-rubin-observatory",
+    "realUrl_en": "https://www.cosmosweek.com/?article=new-dwarf-planet-candidate-discovered-by-nsf-doe-rubin-observatory&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/new-dwarf-planet-candidate-discovered-by-nsf-doe-rubin-observatory/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/new-dwarf-planet-candidate-discovered-by-nsf-doe-rubin-observatory/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/new-dwarf-planet-candidate-discovered-by-nsf-doe-rubin-observatory/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/new-dwarf-planet-candidate-discovered-by-nsf-doe-rubin-observatory/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/new-dwarf-planet-candidate-discovered-by-nsf-doe-rubin-observatory/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/new-dwarf-planet-candidate-discovered-by-nsf-doe-rubin-observatory/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": true,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 91,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "Novo candidato a planeta anão descoberto pelo NSF – DOE Rubin Observatory",
+    "imageAlt_pt": "Novo candidato a planeta anão descoberto pelo NSF – DOE Rubin Observatory",
+    "imageAlt_en": "New dwarf planet candidate discovered by NSF–DOE Rubin Observatory",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
+    "slug": "nasa-s-perseverance-offers-clues-to-protect-crews-from-mars-dust",
+    "cat": "Física",
+    "catCls": "fisica",
+    "img": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26816-pano-resized-for-web-feature.jpg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26816/PIA26816_low_res.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2024/07/pia26344-figa-2500x.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/mars/resources/detail_files/7/7668_Mars-viking-2-orbiter-global-view-partial-valles-marinares-PIA04304-full2.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/06/s/solar-system-illustration-16x9-1.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "O Perseverance da NASA oferece pistas para proteger as tripulações da poeira de Marte",
+    "title_pt": "O Perseverance da NASA oferece pistas para proteger as tripulações da poeira de Marte",
+    "title_en": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
+    "sub": "Ao longo de 1.645 dias marcianos, o rover Perseverance Mars da NASA mediu as partículas finas e ultrafinas de poeira marciana encontradas agarradas a amostras de materiais de.",
+    "sub_pt": "Ao longo de 1.645 dias marcianos, o rover Perseverance Mars da NASA mediu as partículas finas e ultrafinas de poeira marciana encontradas agarradas a amostras de materiais de.",
+    "sub_en": "Over 1, 645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials that are carried.",
+    "excerpt": "Ao longo de 1.645 dias marcianos, o rover Perseverance Mars da NASA mediu as partículas finas e ultrafinas de poeira marciana encontradas agarradas a amostras de materiais de trajes espaciais que são transportados a bordo do rover, incluindo alguns que são.",
+    "excerpt_pt": "Ao longo de 1.645 dias marcianos, o rover Perseverance Mars da NASA mediu as partículas finas e ultrafinas de poeira marciana encontradas agarradas a amostras de materiais de trajes espaciais que são transportados a bordo do rover, incluindo alguns que são.",
+    "excerpt_en": "Over 1, 645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials that are carried aboard the rover, including some that are small enough to.",
+    "body": "<p>Ao longo de 1.645 dias marcianos, o rover Perseverance Mars da NASA mediu as partículas finas e ultrafinas de poeira marciana encontradas agarradas a amostras de materiais de trajes espaciais que são transportados a bordo do rover, incluindo alguns que são pequenos o suficiente.</p><p>6 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento (e subaquáticas) Este panorama de 360 ​​graus do rover Perseverance Mars da NASA mostra Neretva Vallis, o canal de rio empoeirado e há muito seco que corta a borda oeste da cratera Jezero de Marte.</p><p>Finas, ultrafinas Embora medições anteriores em Marte tenham resolvido partículas de poeira com cerca de 3 micrómetros de diâmetro, o PIXL detectou duas categorias de partículas ainda mais pequenas: partículas finas medindo menos de 2, 5 micrómetros (um fio de cabelo humano tem.</p><p>Proteger as tripulações Na Terra, as partículas transportadas pelo ar, ou partículas, abaixo de 2, 5 micrómetros (ou seja, partículas finas) estão associadas a uma série de efeitos negativos para a saúde porque podem penetrar profundamente nos pulmões e entrar na corrente. Para saber mais sobre o Perseverance, visite: https: //science. nasa. gov/mission/mars-2020-perseverance -end- Media Contacts DC Agle Jet Propulsion Laboratory, Pasadena, Califórnia.</p><p>27, no Proceedings of the National Academy of Sciences e poderia informar o design do traje espacial e do habitat, os procedimentos de remoção de poeira e os padrões de saúde da tripulação para futuras missões da NASA a Marte. Embora medições anteriores em Marte tenham resolvido partículas de poeira com cerca de 3 micrómetros de diâmetro, o PIXL detectou duas categorias de partículas ainda mais pequenas: partículas finas medindo menos de 2, 5 micrómetros (um fio de cabelo humano tem cerca de 70.</p><p>Na Terra, as partículas transportadas pelo ar, ou partículas, abaixo de 2, 5 micrómetros (ou seja, partículas finas) estão associadas a uma série de efeitos negativos para a saúde porque podem penetrar profundamente nos pulmões e entrar na corrente sanguínea.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Ao longo de 1.645 dias marcianos, o rover Perseverance Mars da NASA mediu as partículas finas e ultrafinas de poeira marciana encontradas agarradas a amostras de materiais de trajes espaciais que são transportados a bordo do rover, incluindo alguns que são pequenos o suficiente.</p><p>6 min de leitura Preparativos para as próximas simulações de Moonwalk em andamento (e subaquáticas) Este panorama de 360 ​​graus do rover Perseverance Mars da NASA mostra Neretva Vallis, o canal de rio empoeirado e há muito seco que corta a borda oeste da cratera Jezero de Marte.</p><p>Finas, ultrafinas Embora medições anteriores em Marte tenham resolvido partículas de poeira com cerca de 3 micrómetros de diâmetro, o PIXL detectou duas categorias de partículas ainda mais pequenas: partículas finas medindo menos de 2, 5 micrómetros (um fio de cabelo humano tem.</p><p>Proteger as tripulações Na Terra, as partículas transportadas pelo ar, ou partículas, abaixo de 2, 5 micrómetros (ou seja, partículas finas) estão associadas a uma série de efeitos negativos para a saúde porque podem penetrar profundamente nos pulmões e entrar na corrente. Para saber mais sobre o Perseverance, visite: https: //science. nasa. gov/mission/mars-2020-perseverance -end- Media Contacts DC Agle Jet Propulsion Laboratory, Pasadena, Califórnia.</p><p>27, no Proceedings of the National Academy of Sciences e poderia informar o design do traje espacial e do habitat, os procedimentos de remoção de poeira e os padrões de saúde da tripulação para futuras missões da NASA a Marte. Embora medições anteriores em Marte tenham resolvido partículas de poeira com cerca de 3 micrómetros de diâmetro, o PIXL detectou duas categorias de partículas ainda mais pequenas: partículas finas medindo menos de 2, 5 micrómetros (um fio de cabelo humano tem cerca de 70.</p><p>Na Terra, as partículas transportadas pelo ar, ou partículas, abaixo de 2, 5 micrómetros (ou seja, partículas finas) estão associadas a uma série de efeitos negativos para a saúde porque podem penetrar profundamente nos pulmões e entrar na corrente sanguínea.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Over 1, 645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials that are carried aboard the rover, including some that are small enough to. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because physics only takes a result seriously when the measurement chain remains robust under scrutiny. Experimental particle physics and precision metrology both operate in regimes where the signal sits far below the background noise, and where systematic uncertainties can mimic new physics if not controlled rigorously. The history of the field contains numerous anomalies that generated theoretical excitement before better data showed them to be artifacts, and it also contains genuine discoveries that were initially dismissed as noise. The difference is almost always resolved by independent replication with different instruments and different systematics. 6 min read Preparations for Next Moonwalk Simulations Underway (and Underwater) This 360-degree panorama from NASA’s Perseverance Mars rover shows Neretva Vallis, the dusty. Fine, ultrafine While earlier measurements on Mars resolved dust particles down to about 3 micrometers across, PIXL detected two categories of even smaller particles: fine.</p><p>Protecting crews On Earth, airborne particles, or particulate matter, below 2.5 micrometers (that is, fine particles) are tied to a range of negative health effects because they. To learn more about Perseverance visit: https: //science. nasa. gov/mission/mars-2020-perseverance -end- Media Contacts DC Agle Jet Propulsion Laboratory, Pasadena, Calif.</p><p>NASA/JPL-Caltech/ASU/MSSS Over 1, 645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit. 27, in the Proceedings of the National Academy of Sciences and could inform spacesuit and habitat design, dust-removal procedures, and crew health standards for future NASA.</p><p>While earlier measurements on Mars resolved dust particles down to about 3 micrometers across, PIXL detected two categories of even smaller particles: fine particles measuring. On Earth, airborne particles, or particulate matter, below 2.5 micrometers (that is, fine particles) are tied to a range of negative health effects because they can penetrate deep.</p><p>The broader interest lies as much in the method as in the headline number, because a durable measurement procedure can travel farther than a single result. When experimental physicists develop a technique that achieves new sensitivity or controls a previously uncharacterized systematic, that methodological contribution persists even if the specific measurement is later revised. This is one reason why precision physics experiments often generate long-term value that is not immediately visible in the original publication.</p><p>In March 2025, the agency tested an Electrodynamic Dust Shield, which used electric fields to clear lunar regolith from glass and thermal radiator surfaces on the Moon. Https: //science. nasa. gov/mission/mars-2020-perseverance Media Contacts DC Agle Jet Propulsion Laboratory, Pasadena, Calif.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is more measurement, tighter systematic control and scrutiny from groups whose experimental setups are genuinely independent. In experimental particle physics and precision metrology, the threshold for a discovery claim is a five-sigma excess surviving multiple analyses; an intriguing signal at lower significance is a reason to run more experiments, not a reason to revise the textbooks. Next-generation experiments currently under construction or commissioning will revisit several of the open questions that give the current result its context.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Ao longo de 1.645 dias marcianos, o rover Perseverance Mars da NASA mediu as partículas finas e ultrafinas de poeira marciana encontradas agarradas a",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Ao longo de 1.645 dias marcianos, o rover Perseverance Mars da NASA mediu as partículas finas e ultrafinas de poeira marciana encontradas agarradas a",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Over 1, 645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "26 out 2026",
+    "date_pt": "26 out 2026",
+    "date_en": "26 Oct 2026",
+    "time": "21h07",
+    "time_pt": "21h07",
+    "time_en": "21: 07 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-10-26T21:07:28+00:00",
+    "lastModifiedIso": "2026-10-27T20:29:44+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "www. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Física",
+      "NASA News Releases",
+      "Cosmos Week",
+      "O Perseverance da NASA oferece pistas para proteger as tripulações da poeira de Marte"
+    ],
+    "keywords_pt": [
+      "Física",
+      "NASA News Releases",
+      "Cosmos Week",
+      "O Perseverance da NASA oferece pistas para proteger as tripulações da poeira de Marte"
+    ],
+    "keywords_en": [
+      "Physical",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA's Perseverance offers clues to protect crews from Mars dust"
+    ],
+    "srcUrl": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-s-perseverance-offers-clues-to-protect-crews-from-mars-dust",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-s-perseverance-offers-clues-to-protect-crews-from-mars-dust",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-s-perseverance-offers-clues-to-protect-crews-from-mars-dust&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-s-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-s-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "O Perseverance da NASA oferece pistas para proteger as tripulações da poeira de Marte",
+    "imageAlt_pt": "O Perseverance da NASA oferece pistas para proteger as tripulações da poeira de Marte",
+    "imageAlt_en": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 3,
     "slug": "nasa-usda-sign-agreement-advancing-earth-science-agriculture",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -33,19 +335,19 @@ window.postsData = [
     "body_pt": "<p>A NASA e o Departamento de Agricultura dos EUA assinaram um Memorando de Entendimento expandindo a cooperação em observação da Terra, análise geoespacial e tecnologias avançadas de dados, apoiando o plano de modernização de dados do USDA para a United. A NASA desenvolve algumas das mais avançadas capacidades de detecção, computação e análise do mundo, e deveríamos colocar essas ferramentas [. ].</p><p>Dooren Localização Sede da NASA Termos relacionados Divisão de Ciências da Terra Diretoria de Missão Científica. LANÇAMENTO 26-090 Sede da NASA nos EUA.</p><p>A secretária de Agricultura, Brooke Rollins, à esquerda, e o administrador da NASA, Jared Isaacman, assinaram um Memorando de Entendimento para o avanço da agricultura e das ciências da Terra durante um evento na Universidade do Alabama, em Tuscaloosa, no sábado, outubro.</p><p>Ao combinar os dados de observação da Terra e a experiência técnica da NASA com o conhecimento do USDA sobre a agricultura americana, podemos melhorar a informação disponível aos agricultores e pecuaristas, fortalecer a nossa compreensão das condições das culturas e dos perigos. 24 durante o Inspiration Tour da NASA na Universidade do Alabama em Tuscaloosa.</p><p>A parceria de longa data da NASA e do USDA apoiou pesquisas colaborativas e esforços de compartilhamento de dados que fortalecem os EUA. O novo acordo aprofunda esta cooperação, centrando-se na melhoria da integração de dados e no reforço da coordenação entre a observação da Terra e as aplicações agrícolas.</p><p>Tenho orgulho de anunciar que o USDA trabalhará agora com o Administrador Isaacman e a NASA para utilizar todo o poder da tecnologia, pesquisa e desenvolvimento para fortalecer os EUA.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>NASA and the U. S. Department of Agriculture have signed a Memorandum of Understanding expanding cooperation in Earth observation, geospatial analytics, and advanced data technologies, supporting USDA’s data modernization plan for United. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. NASA develops some of the most advanced sensing, computing, and analytical capabilities in the world, and we should put those tools. Dooren Location NASA Headquarters Related Terms Earth Science Division Science Mission Directorate.</p><p>Secretary of Agriculture Brooke Rollins, left, and NASA Administrator Jared Isaacman signed a Memorandum of Understanding advancing agriculture and Earth science during an event. By combining NASA’s Earth observation data and technical expertise with USDA’s knowledge of American agriculture, we can improve the information available to farmers and ranchers.</p><p>24 during NASA’s Inspiration Tour at the University of Alabama in Tuscaloosa. The new agreement deepens this cooperation by focusing on improved data integration and enhanced coordination across Earth observation and agricultural applications.</p><p>NASA and USDA also will look at how to better align Earth observation data and analytical tools with agricultural needs, helping improve crop monitoring, acreage and yield. The agencies will examine new approaches for managing and analyzing large datasets, strengthening USDA’s data systems while providing farmers, ranchers, and policymakers with more.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A NASA e o Departamento de Agricultura dos EUA assinaram um Memorando de Entendimento expandindo a cooperação em observação da Terra, análise",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A NASA e o Departamento de Agricultura dos EUA assinaram um Memorando de Entendimento expandindo a cooperação em observação da Terra, análise.",
+      "Dado-chave: A NASA e o Departamento de Agricultura dos EUA assinaram um Memorando de Entendimento expandindo a cooperação em observação da Terra, análise",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: A NASA e o Departamento de Agricultura dos EUA assinaram um Memorando de Entendimento expandindo a cooperação em observação da Terra, análise",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: A NASA e o Departamento de Agricultura dos EUA assinaram um Memorando de Entendimento expandindo a cooperação em observação da Terra, análise.",
+      "Dado-chave: A NASA e o Departamento de Agricultura dos EUA assinaram um Memorando de Entendimento expandindo a cooperação em observação da Terra, análise",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: NASA and the U. S",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: NASA and the U. S. Department of Agriculture have signed a Memorandum of Understanding expanding cooperation in Earth observation, geospatial.",
+      "Key detail: NASA and the U. S",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "26 out 2026",
     "date_pt": "26 out 2026",
@@ -133,7 +435,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 4,
     "slug": "ice-mission-cristal-opens-its-wings",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -156,6 +458,24 @@ window.postsData = [
         "caption": "Testando a implantação do painel solar da CRISTAL",
         "caption_pt": "Testando a implantação do painel solar da CRISTAL",
         "caption_en": "Testing CRISTAL’s solar panel deployment"
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/testing_cristal_on_its_launch_adapter/27590546-1-eng-GB/Testing_CRISTAL_on_its_launch_adapter_pillars.jpg",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
+      },
+      {
+        "src": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/10/testing_cristal_on_its_launch_adapter/27590546-1-eng-GB/Testing_CRISTAL_on_its_launch_adapter.jpg",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
       }
     ],
     "video": null,
@@ -273,7 +593,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 5,
     "slug": "hunting-red-leaves-with-satellites",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -349,19 +669,19 @@ window.postsData = [
     "body_pt": "<p>Um satélite moderno torna possível prosseguir a antiga tradição de espiar as folhas de uma forma totalmente nova. NASA Earth Observatory / Lauren Dauphin 29 de setembro a 4 de outubro 5 a 11 de outubro Um mapa mostra partes com vegetação da superfície terrestre da Terra de 29 de setembro a 4 de outubro.</p><p>NASA Earth Observatory / Lauren Dauphin Um mapa global semelhante mostra a vermelhidão da vegetação de 5 a 11 de outubro. A folhagem vermelha parece atingir o pico na Nova Inglaterra, no norte do Canadá e no norte da Rússia, de 29 de setembro a 4 de outubro, e depois se espalha para o sul, no Meio-Atlântico, na Mongólia e no norte da China, de 5 a 11 de outubro (à direita).</p><p>O hiperespectral OCI (Ocean Color Instrument) do satélite PACE (Plankton, Aerosol, Cloud, ocean Ecosystem) da NASA observa os oceanos e a vegetação do planeta diariamente em 286 bandas espectrais. Os mapas acima mostram a “vermelhidão” da vegetação de 29 de setembro a 4 de outubro (esquerda) e de 5 a 11 de outubro (direita).</p><p>NASA Earth Observatory / Lauren Dauphin O OLI (Operational Land Imager) no Landsat 9 capturou uma imagem (acima) de folhagem intensamente vermelha ao redor de Ripton, Vermont, em 3 de outubro de 2026, próximo ao pico de vermelhidão na região. O hiperespectral OCI (Ocean Color Instrument) no satélite PACE (Plankton, Aerosol, Cloud, ocean Ecosystem) da NASA observa os oceanos e a vegetação do planeta diariamente em 286 bandas espectrais.</p><p>O satélite detectou níveis particularmente elevados de vermelhidão em partes do norte e leste da Rússia, norte do Alasca e norte do Canadá, de 29 de setembro a 4 de outubro. Como parte da Campanha de Fenologia da América do Norte em andamento, dirigida pelo programa Global Learning and Observations to Benefit the Environment (GLOBE), a cientista de dados da NASA Skye Caplan tem postado mapas semanais de vermelhidão da vegetação na folhagem.</p><p>NASA Scientific Visualization Studio (2025) Visões globais dos dados de vegetação terrestre PACE.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/hunting-red-leaves-with-satellites/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>A modern satellite makes it possible to pursue the ancient tradition of leaf-peeping in a whole new way. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. NASA Earth Observatory / Lauren Dauphin A similar global map depicts the redness of vegetation from October 5 to 11. NASA Earth Observatory / Lauren Dauphin September 29 to October 4 October 5 to 11 Curtain Toggle 2-Up Image Details These maps show the redness of vegetation as measured by the.</p><p>Red foliage appears to peak in New England, northern Canada, and northern Russia from September 29 to October 4, then spreads southward into the Mid-Atlantic, Mongolia, and. The hyperspectral OCI (Ocean Color Instrument) on NASA’s PACE (Plankton, Aerosol, Cloud, ocean Ecosystem) satellite observes the planet’s oceans and vegetation daily at 286.</p><p>The maps above show vegetation “redness” from September 29 to October 4 (left) and October 5 to 11 (right). The hyperspectral OCI (Ocean Color Instrument) on NASA&#x27;s PACE (Plankton, Aerosol, Cloud, ocean Ecosystem) satellite observes the planet&#x27;s oceans and vegetation daily at 286.</p><p>The maps above show vegetation &quot;redness&quot; from September 29 to October 4 (left) and October 5 to 11 (right). As part of the ongoing North American Phenology Campaign run by the Global Learning and Observations to Benefit the Environment (GLOBE) program, NASA data scientist Skye Caplan.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>NASA Scientific Visualization Studio (2025) Global Views of PACE Land Vegetation Data. UMBC (2026, June 12) For the leaf peepers: How NASA’s PACE is improving fall color forecast.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/hunting-red-leaves-with-satellites/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Um satélite moderno torna possível prosseguir a antiga tradição de espiar as folhas de uma forma totalmente nova",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Um satélite moderno torna possível prosseguir a antiga tradição de espiar as folhas de uma forma totalmente nova.",
+      "Dado-chave: Um satélite moderno torna possível prosseguir a antiga tradição de espiar as folhas de uma forma totalmente nova",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Um satélite moderno torna possível prosseguir a antiga tradição de espiar as folhas de uma forma totalmente nova",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Um satélite moderno torna possível prosseguir a antiga tradição de espiar as folhas de uma forma totalmente nova.",
+      "Dado-chave: Um satélite moderno torna possível prosseguir a antiga tradição de espiar as folhas de uma forma totalmente nova",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: A modern satellite makes it possible to pursue the ancient tradition of leaf-peeping in a whole new way",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: A modern satellite makes it possible to pursue the ancient tradition of leaf-peeping in a whole new way.",
+      "Key detail: A modern satellite makes it possible to pursue the ancient tradition of leaf-peeping in a whole new way",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "26 out 2026",
     "date_pt": "26 out 2026",
@@ -449,7 +769,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 6,
     "slug": "nasa-partners-accelerate-lander-development-for-2028-moon-missions",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -470,19 +790,19 @@ window.postsData = [
     "body_pt": "<p>À medida que a NASA devolve os humanos à superfície lunar e estabelece uma presença de longo prazo em nosso vizinho celestial mais próximo, a agência e os fornecedores comerciais de sistemas de pouso humano Blue Origin e SpaceX simplificaram os projetos e mudaram. Jared Isaacman Administrador da NASA Para as missões tripuladas iniciais à Lua, os astronautas Artemis serão lançados na espaçonave Orion da agência no topo do foguete SLS (Sistema de Lançamento Espacial) do Centro Espacial Kennedy da NASA, na Flórida.</p><p>Conceito de operações do módulo de pouso Blue Moon Para sua missão de pouso lunar tripulada acelerada em 2028, a Blue Origin adiará a transferência de propulsor e usará três estágios de transferência para enviar o módulo de pouso Alpha Blue Moon Mark 2 à Lua.</p><p>Blue Origin NASA NASA Retornando astronautas americanos à Lua Em última análise, com base na prontidão do módulo de pouso, a NASA determinará qual empresa será selecionada primeiro para entregar astronautas com segurança à superfície da Lua e de volta à órbita lunar em 2028. Estamos executando a Política Espacial Nacional do Presidente Trump para completar o tão esperado retorno dos astronautas americanos à superfície lunar em 2028 e estabelecer uma Base Lunar”, disse o administrador da NASA, Jared Isaacman.</p><p>Para as missões tripuladas iniciais à Lua, os astronautas Artemis serão lançados na espaçonave Orion da agência no topo do foguete SLS (Sistema de Lançamento Espacial) do Centro Espacial Kennedy da NASA, na Flórida. Ambas as empresas são obrigadas a realizar uma missão de demonstração não tripulada com seus módulos de pouso tripulados antes das missões tripuladas Artemis de curto prazo à Lua.</p><p>A empresa lançará várias versões da Starship na órbita baixa da Terra antes do lançamento do Starship Human Landing System (HLS) da Flórida. Este novo conceito de operações usando a órbita lunar baixa reduzirá significativamente a quantidade de propelente que a Starship precisa para se agregar no espaço, ao mesmo tempo que reduzirá a quantidade de tempo que pode levar para os astronautas deixarem a superfície da Lua.</p><p>Para sua missão acelerada de pouso lunar tripulado em 2028, a Blue Origin adiará a transferência de propelente e usará três estágios de transferência para enviar o Blue Moon Mark 2 Alpha Lander à Lua.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>As NASA returns humans to the lunar surface and establishes a long-term presence on our closest celestial neighbor, the agency and commercial human landing system providers Blue Origin and SpaceX have streamlined the designs and changed. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. Jared Isaacman NASA Administrator For the initial crewed missions to the Moon, Artemis astronauts will launch in the agency’s Orion spacecraft on top of the SLS (Space Launch. Blue Moon lander concept of operations For its accelerated 2028 crewed lunar landing mission, Blue Origin will defer propellant transfer and use three transfer stages to send the.</p><p>Blue Origin NASA NASA Returning American astronauts to the Moon Ultimately, based on lander readiness, NASA will determine which company will be first selected to safely deliver. We are executing President Trump’s National Space Policy to complete the long-awaited return of American astronauts to the lunar surface in 2028 and establish a Moon Base,” said.</p><p>For the initial crewed missions to the Moon, Artemis astronauts will launch in the agency’s Orion spacecraft on top of the SLS (Space Launch System) rocket from NASA’s Kennedy. Both companies are required to perform an uncrewed demonstration mission with their crewed landers prior to the near-term Artemis crewed missions to the Moon.</p><p>The company will launch multiple versions of Starship to low Earth orbit prior to the launch of the Starship Human Landing System (HLS) from Florida. This new concept of operations using low lunar orbit will significantly lower the amount of propellant Starship needs to aggregate in space while reducing the amount of time it.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>For its accelerated 2028 crewed lunar landing mission, Blue Origin will defer propellant transfer and use three transfer stages to send the Blue Moon Mark 2 Alpha Lander to the. They launch into low Earth orbit, followed by the Mark 2 lander.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: À medida que a NASA devolve os humanos à superfície lunar e estabelece uma presença de longo prazo em nosso vizinho celestial mais próximo, a agência",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: À medida que a NASA devolve os humanos à superfície lunar e estabelece uma presença de longo prazo em nosso vizinho celestial mais próximo, a agência.",
+      "Dado-chave: À medida que a NASA devolve os humanos à superfície lunar e estabelece uma presença de longo prazo em nosso vizinho celestial mais próximo, a.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: À medida que a NASA devolve os humanos à superfície lunar e estabelece uma presença de longo prazo em nosso vizinho celestial mais próximo, a agência",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: À medida que a NASA devolve os humanos à superfície lunar e estabelece uma presença de longo prazo em nosso vizinho celestial mais próximo, a agência.",
+      "Dado-chave: À medida que a NASA devolve os humanos à superfície lunar e estabelece uma presença de longo prazo em nosso vizinho celestial mais próximo, a.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: As NASA returns humans to the lunar surface and establishes a long-term presence on our closest celestial neighbor, the agency and commercial human",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: As NASA returns humans to the lunar surface and establishes a long-term presence on our closest celestial neighbor, the agency and commercial human.",
+      "Key detail: As NASA returns humans to the lunar surface and establishes a long-term presence on our closest celestial neighbor, the agency and commercial.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "23 out 2026",
     "date_pt": "23 out 2026",
@@ -570,128 +890,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 5,
-    "slug": "nasa-s-artemis-iii-mission-to-test-future-moon-lander-operations",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://www.nasa.gov/wp-content/uploads/2026/10/2-artemis-iii-con-ops-oct2026.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Missão Artemis III da NASA para testar futuras operações do módulo lunar",
-    "title_pt": "Missão Artemis III da NASA para testar futuras operações do módulo lunar",
-    "title_en": "NASA’s Artemis III Mission to Test Future Moon Lander Operations",
-    "sub": "Antes de os astronautas regressarem à superfície lunar, a NASA conduzirá primeiro uma das missões de teste mais ambiciosas e complexas da história da agência.",
-    "sub_pt": "Antes de os astronautas regressarem à superfície lunar, a NASA conduzirá primeiro uma das missões de teste mais ambiciosas e complexas da história da agência.",
-    "sub_en": "Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency’s history.",
-    "excerpt": "Antes de os astronautas regressarem à superfície lunar, a NASA conduzirá primeiro uma das missões de teste mais ambiciosas e complexas da história da agência.",
-    "excerpt_pt": "Antes de os astronautas regressarem à superfície lunar, a NASA conduzirá primeiro uma das missões de teste mais ambiciosas e complexas da história da agência.",
-    "excerpt_en": "Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency’s history.",
-    "body": "<p>Antes de os astronautas regressarem à superfície lunar, a NASA conduzirá primeiro uma das missões de teste mais ambiciosas e complexas da história da agência. Com lançamento previsto para 2027, o Artemis III enviará os astronautas da NASA Randy Bresnik, Frank Rubio, Andre Douglas e o astronauta da ESA (Agência Espacial Europeia) Luca Parmitano a bordo da espaçonave Orion para a órbita baixa da Terra [. ].</p><p>Cada lição que aprendemos aqui nos deixa mais perto de pousar na Lua em 2028.” Este gráfico mostra o conceito de operações da NASA para o Artemis III. Os conceitos desses artistas retratam o artigo de teste do sistema de pouso humano Blue Moon Mark 2 da Blue Origin na órbita da Terra e acoplado à espaçonave Orion da NASA como parte da próxima missão de demonstração Artemis III da NASA em órbita baixa da Terra.</p><p>Com lançamento previsto para 2027, o Artemis III enviará os astronautas da NASA Randy Bresnik. Durante a missão planeada de 14 dias, as tripulações e os controladores de voo praticarão os procedimentos de encontro, atracação, habitação e operacionais que serão essenciais quando os astronautas Artemis começarem a aterrar perto do Pólo Sul da Lua em 2028.</p><p>Cada lição que aprendemos aqui nos deixa mais perto de pousar na Lua em 2028.” Primeira parada: artigo de teste do módulo lunar da Blue Origin As missões Artemis anteriores usaram apenas o foguete SLS (Sistema de Lançamento Espacial) da NASA e a espaçonave Orion. A missão começa com a Blue Origin lançando uma versão de teste de seu módulo de pouso Blue Moon Mark 2 em uma órbita circular baixa da Terra, aproximadamente 273 milhas (237 milhas náuticas) acima da Terra.</p><p>Após o lançamento, o Orion entrará inicialmente em uma órbita elíptica da Terra de 18 x 1.122 milhas (16 x 975 milhas náuticas). Ele usará seu módulo de serviço para realizar uma série de manobras para fazer a transição para uma órbita circular a cerca de 345 milhas (300 milhas náuticas) para estabilização térmica antes de estabelecer gradualmente seu encontro com o artigo de teste do módulo de pouso Blue.</p><p>Durante os primeiros dois dias de voo, a tripulação verificará os sistemas da Orion, preparar-se-á para operações de proximidade e, gradualmente, posicionar-se-á para o primeiro grande objetivo da missão: encontro e acoplagem com o veículo de teste Blue Moon.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Antes de os astronautas regressarem à superfície lunar, a NASA conduzirá primeiro uma das missões de teste mais ambiciosas e complexas da história da agência. Com lançamento previsto para 2027, o Artemis III enviará os astronautas da NASA Randy Bresnik, Frank Rubio, Andre Douglas e o astronauta da ESA (Agência Espacial Europeia) Luca Parmitano a bordo da espaçonave Orion para a órbita baixa da Terra [. ].</p><p>Cada lição que aprendemos aqui nos deixa mais perto de pousar na Lua em 2028.” Este gráfico mostra o conceito de operações da NASA para o Artemis III. Os conceitos desses artistas retratam o artigo de teste do sistema de pouso humano Blue Moon Mark 2 da Blue Origin na órbita da Terra e acoplado à espaçonave Orion da NASA como parte da próxima missão de demonstração Artemis III da NASA em órbita baixa da Terra.</p><p>Com lançamento previsto para 2027, o Artemis III enviará os astronautas da NASA Randy Bresnik. Durante a missão planeada de 14 dias, as tripulações e os controladores de voo praticarão os procedimentos de encontro, atracação, habitação e operacionais que serão essenciais quando os astronautas Artemis começarem a aterrar perto do Pólo Sul da Lua em 2028.</p><p>Cada lição que aprendemos aqui nos deixa mais perto de pousar na Lua em 2028.” Primeira parada: artigo de teste do módulo lunar da Blue Origin As missões Artemis anteriores usaram apenas o foguete SLS (Sistema de Lançamento Espacial) da NASA e a espaçonave Orion. A missão começa com a Blue Origin lançando uma versão de teste de seu módulo de pouso Blue Moon Mark 2 em uma órbita circular baixa da Terra, aproximadamente 273 milhas (237 milhas náuticas) acima da Terra.</p><p>Após o lançamento, o Orion entrará inicialmente em uma órbita elíptica da Terra de 18 x 1.122 milhas (16 x 975 milhas náuticas). Ele usará seu módulo de serviço para realizar uma série de manobras para fazer a transição para uma órbita circular a cerca de 345 milhas (300 milhas náuticas) para estabilização térmica antes de estabelecer gradualmente seu encontro com o artigo de teste do módulo de pouso Blue.</p><p>Durante os primeiros dois dias de voo, a tripulação verificará os sistemas da Orion, preparar-se-á para operações de proximidade e, gradualmente, posicionar-se-á para o primeiro grande objetivo da missão: encontro e acoplagem com o veículo de teste Blue Moon.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency’s history. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. Launching in 2027, Artemis III will send NASA astronauts Randy Bresnik, Frank Rubio, Andre Douglas, and ESA (European Space Agency) astronaut Luca Parmitano aboard the Orion. Every lesson we learn here gets us closer to landing on the Moon in 2028.” This graphic shows NASA’s concept of operations for Artemis III.</p><p>These artist’s concepts depict Blue Origin’s Blue Moon Mark 2 human landing system test article in Earth orbit and docked with NASA’s Orion spacecraft as part of NASA’s upcoming. During the planned 14-day mission, crews and flight controllers will practice the rendezvous, docking, habitation, and operational procedures that will be essential when Artemis.</p><p>Every lesson we learn here gets us closer to landing on the Moon in 2028.” First stop: Blue Origin’s lunar lander test article Earlier Artemis missions used only NASA’s SLS (Space. The mission begins with Blue Origin launching a test version of its Blue Moon Mark 2 lander into a circular low Earth orbit approximately 273 miles (237 nautical miles) above.</p><p>Artemis III is designed as a tightly choreographed campaign, with NASA planning to launch Orion on top of SLS from the agency’s Kennedy Space Center in Florida only days after the. Following launch, Orion will initially enter an elliptical Earth orbit of 18 x 1122 miles (16 x 975 nautical miles).</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>It will use its service module to perform a series of maneuvers to transition to a circular orbit at about 345 miles (300 nautical miles) for thermal stabilization before then. During the first two days of flight, the crew will check out Orion’s systems, prepare for proximity operations, and gradually position themselves for the mission’s first major.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Em foco: Antes de os astronautas regressarem à superfície lunar, a NASA conduzirá primeiro uma das missões de teste mais ambiciosas e complexas da história da",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_pt": [
-      "Em foco: Antes de os astronautas regressarem à superfície lunar, a NASA conduzirá primeiro uma das missões de teste mais ambiciosas e complexas da história da",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
-    ],
-    "highlights_en": [
-      "Focus: Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency’s history",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
-    ],
-    "date": "23 out 2026",
-    "date_pt": "23 out 2026",
-    "date_en": "23 Oct 2026",
-    "time": "22h37",
-    "time_pt": "22h37",
-    "time_en": "22: 37 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-10-23T22:37:53+00:00",
-    "lastModifiedIso": "2026-10-24T18:29:34+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "www. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Missão Artemis III da NASA para testar futuras operações do módulo lunar"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Missão Artemis III da NASA para testar futuras operações do módulo lunar"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA's Artemis III Mission to Test Future Lunar Module Operations"
-    ],
-    "srcUrl": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-s-artemis-iii-mission-to-test-future-moon-lander-operations",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-s-artemis-iii-mission-to-test-future-moon-lander-operations",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-s-artemis-iii-mission-to-test-future-moon-lander-operations&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-s-artemis-iii-mission-to-test-future-moon-lander-operations/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-artemis-iii-mission-to-test-future-moon-lander-operations/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-artemis-iii-mission-to-test-future-moon-lander-operations/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-s-artemis-iii-mission-to-test-future-moon-lander-operations/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-s-artemis-iii-mission-to-test-future-moon-lander-operations/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-s-artemis-iii-mission-to-test-future-moon-lander-operations/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 86,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "Missão Artemis III da NASA para testar futuras operações do módulo lunar",
-    "imageAlt_pt": "Missão Artemis III da NASA para testar futuras operações do módulo lunar",
-    "imageAlt_en": "NASA’s Artemis III Mission to Test Future Moon Lander Operations",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 6,
+    "id": 7,
     "slug": "an-extra-year-of-secondary-school-lowered-dementia-diagnoses-later-in-life",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -822,7 +1021,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "sudden-changes-and-slow-burns",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -943,7 +1142,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "lomb-scargle-recovery-of-periodic-binary-signals-across-black-hole-mass-and-cadence",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -1067,7 +1266,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "constraining-dynamical-dark-energy-with-tomographic-galaxy-and-cmb-weak-lensing-through-higher-o",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -1188,7 +1387,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "euclid-discovers-new-comet",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1328,7 +1527,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "mars-moon-mission-set-to-launch-with-tech-funded-by-planetary-society-on-board",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -1504,7 +1703,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "mars-moon-lander-set-to-launch-on-19-october",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1653,7 +1852,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "splashdown-confirmed-for-sophie-adenot",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1793,7 +1992,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "sentinel-3c-returns-its-first-views-of-earth",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -1954,7 +2153,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "mars-s-oddest-cloud-may-be-even-odder-than-we-thought",
     "cat": "Física",
     "catCls": "fisica",
@@ -2103,7 +2302,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "science-release-suspected-second-generation-planet-solves-hubble-cold-case",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -2291,7 +2490,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "cloudy-cloak-over-the-northwest",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2440,7 +2639,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 18,
+    "id": 19,
     "slug": "ameaca-de-um-super-el-nino-desafia-cidades-brasileiras-a-se-preparar-para-eventos-extremos",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2593,7 +2792,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 19,
+    "id": 20,
     "slug": "lake-powell-drops-to-record-low-levels",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -2742,7 +2941,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 20,
+    "id": 21,
     "slug": "nsf-leadership-in-a-new-golden-age-of-science",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -2792,17 +2991,17 @@ window.postsData = [
     "body_en": "<p>The U. S. National Science Foundation was established in 1950 to keep American discovery at the frontier. That mission has not changed. The science and technology ecosystem around it has. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. National Science Foundation was established in 1950 to keep American discovery at the frontier. That mission has not changed.</p><p>The science and technology ecosystem around it has.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Because the account originates with NSF News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/nsf-leadership-new-golden-age-science\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: A Fundação Nacional de Ciência dos EUA foi criada em 1950 para manter a descoberta americana na fronteira.",
-      "Dado-chave: A Fundação Nacional de Ciência dos EUA foi criada em 1950 para manter a descoberta americana na fronteira",
+      "Dado-chave: A Fundação Nacional de Ciência dos EUA foi criada em 1950 para manter a descoberta americana na fronteira.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: A Fundação Nacional de Ciência dos EUA foi criada em 1950 para manter a descoberta americana na fronteira.",
-      "Dado-chave: A Fundação Nacional de Ciência dos EUA foi criada em 1950 para manter a descoberta americana na fronteira",
+      "Dado-chave: A Fundação Nacional de Ciência dos EUA foi criada em 1950 para manter a descoberta americana na fronteira.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: The U. S. National Science Foundation was established in 1950 to keep American discovery at the frontier.",
-      "Key detail: The U. S. National Science Foundation was established in 1950 to keep American discovery at the frontier",
+      "Key detail: The U. S. National Science Foundation was established in 1950 to keep American discovery at the frontier.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "10 set 2026",
@@ -2891,7 +3090,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 21,
+    "id": 22,
     "slug": "milky-way-s-fastest-star-orbits-our-supermassive-black-hole-so-closely-it-feels-its-spin",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -3134,7 +3333,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 22,
+    "id": 23,
     "slug": "spying-on-a-split-comet",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3283,7 +3482,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 23,
+    "id": 24,
     "slug": "science-release-hubble-solves-merger-mystery-from-milky-way-s-early-years",
     "cat": "Biologia",
     "catCls": "biologia",
@@ -3435,7 +3634,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 24,
+    "id": 25,
     "slug": "stops-along-the-path-of-totality",
     "cat": "Ciências da Terra",
     "catCls": "terra",
@@ -3602,7 +3801,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 25,
+    "id": 26,
     "slug": "new-exomoon-detection-challenges-cosmic-labels",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -3782,7 +3981,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 26,
+    "id": 27,
     "slug": "older-than-the-sun-astronomers-find-new-clues-to-the-origin-of-interstellar-comet-3i-atlas",
     "cat": "Química",
     "catCls": "quimica",
@@ -3958,167 +4157,6 @@ window.postsData = [
     "imageAlt": "Mais velho que o Sol: Astrônomos encontram novas pistas sobre a origem do cometa interestelar 3I/ATLAS",
     "imageAlt_pt": "Mais velho que o Sol: Astrônomos encontram novas pistas sobre a origem do cometa interestelar 3I/ATLAS",
     "imageAlt_en": "Older than the Sun: Astronomers find new clues to the origin of interstellar comet 3I/ATLAS",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 27,
-    "slug": "action-nsf-doe-vera-c-rubin-observatory-begins-capturing-the-greatest-cosmic-movie-ever-made",
-    "cat": "Astronomia",
-    "catCls": "astronomia",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/LSST_at_Sunset_%28Cropped%29.jpg/1280px-LSST_at_Sunset_%28Cropped%29.jpg",
-    "inline_images": [
-      {
-        "src": "https://www.nsf.gov/s3/files/styles/_inline_image_full_width/s3/media_hub/noirlab2616a.jpg?itok=ovMkAGfd",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/featured_news/s3/media_hub/noirlab2616a.jpg?itok=4eg5LiJe",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/_inline_image_full_width/s3/media_hub/noirlab2616a.jpg?itok=ovMkAGfd",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://nsf-gov-resources.nsf.gov/styles/news_sidebar_teaser/s3/media_hub/view-of-us-national-science-foundation-discovering-our-universe_55364908340_o.jpg?itok=NPDER_PN",
-        "alt": "Uma sala de exposições escura com estrelas projetadas no alto e uma grande imagem laranja em um círculo no meio.",
-        "alt_pt": "Uma sala de exposições escura com estrelas projetadas no alto e uma grande imagem laranja em um círculo no meio.",
-        "alt_en": "A darkened exhibit hall with stars projected overhead and a large orange image in a circle in the middle.",
-        "caption": "Uma sala de exposições escura com estrelas projetadas no alto e uma grande imagem laranja em um círculo no meio.",
-        "caption_pt": "Uma sala de exposições escura com estrelas projetadas no alto e uma grande imagem laranja em um círculo no meio.",
-        "caption_en": "A darkened exhibit hall with stars projected overhead and a large orange image in a circle in the middle."
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Observatório NSF-DOE Vera C. Rubin Inicia Operações para Capturar o Maior Filme Cósmico Já Produzido",
-    "title_pt": "Observatório NSF-DOE Vera C. Rubin Inicia Operações para Capturar o Maior Filme Cósmico Já Produzido",
-    "title_en": "Action! NSF-DOE Vera C. Rubin Observatory begins capturing the greatest cosmic movie ever made",
-    "sub": "O Observatório Vera C. Rubin, uma iniciativa conjunta da Fundação Nacional de Ciência (NSF) e do Escritório de Ciência do Departamento de Energia (DOE) dos EUA, iniciou suas.",
-    "sub_pt": "O Observatório Vera C. Rubin, uma iniciativa conjunta da Fundação Nacional de Ciência (NSF) e do Escritório de Ciência do Departamento de Energia (DOE) dos EUA, iniciou suas.",
-    "sub_en": "NSF, DOE Rubin Observatory, funded by the U. S. National Science Foundation and the U. S. Department of Energy's Office of Science, is now capturing the cosmos.",
-    "excerpt": "O Observatório Vera C. Rubin, uma iniciativa conjunta da Fundação Nacional de Ciência (NSF) e do Escritório de Ciência do Departamento de Energia (DOE) dos EUA, iniciou suas operações para mapear o universo, prometendo o maior registro cósmico já capturado.",
-    "excerpt_pt": "O Observatório Vera C. Rubin, uma iniciativa conjunta da Fundação Nacional de Ciência (NSF) e do Escritório de Ciência do Departamento de Energia (DOE) dos EUA, iniciou suas operações para mapear o universo, prometendo o maior registro cósmico já capturado.",
-    "excerpt_en": "NSF, DOE Rubin Observatory, funded by the U. S. National Science Foundation and the U. S. Department of Energy's Office of Science, is now capturing the cosmos.",
-    "body": "<p>No cerne da missão do Observatório Rubin está o Levantamento Legado do Espaço e Tempo (LSST), um ambicioso programa de observação que mapeará o céu noturno por uma década. Este levantamento sistemático e abrangente permitirá aos cientistas monitorar mudanças sutis e eventos transitórios em todo o universo visível. A cada noite, o telescópio fará varreduras repetidas de grandes áreas do céu, acumulando uma vasta quantidade de dados que revelarão a dinâmica do cosmos em tempo real. A escala do LSST é sem precedentes, gerando um volume de informações que exigirá novas abordagens em análise de dados e inteligência artificial para extrair seu pleno potencial científico.</p><p>A capacidade de realizar tal empreendimento é impulsionada pela tecnologia de ponta do Observatório Rubin, notavelmente sua câmera LSST. Esta câmera gigante, a maior câmera digital já construída para astronomia, possui 3, 2 gigapixels e é capaz de capturar uma área do céu equivalente a 40 luas cheias em uma única exposição. Equipada com uma matriz de sensores CCD de alta sensibilidade, ela pode detectar objetos extremamente tênues e registrar variações de brilho com uma precisão extraordinária. A combinação de seu vasto campo de visão e sua rápida taxa de repetição de imagens é o que permite ao Rubin construir um registro dinâmico do universo, revelando movimentos e mudanças que seriam impossíveis de observar com telescópios convencionais.</p><p>Entre os principais objetivos científicos do Observatório Rubin está a investigação da natureza da matéria escura e da energia escura, dois dos maiores enigmas da cosmologia moderna. Ao mapear a distribuição de galáxias e a distorção da luz de objetos distantes causada pela gravidade (lente gravitacional), o Rubin fornecerá dados cruciais para entender como essas componentes invisíveis moldam a estrutura e a evolução do universo. A precisão e a profundidade do LSST permitirão aos cientistas testar modelos cosmológicos existentes e, potencialmente, descobrir novas físicas que expliquem a expansão acelerada do universo e a massa &quot;faltante&quot; que mantém as galáxias unidas.</p><p>Além de seus estudos cosmológicos, o Observatório Rubin será um caçador incansável de eventos cósmicos transitórios. Supernovas, explosões de raios gama, asteroides próximos à Terra e outros fenômenos celestes de curta duração serão detectados e monitorados em tempo real. A capacidade de identificar rapidamente esses eventos e alertar a comunidade astronômica global permitirá observações de acompanhamento com outros telescópios, fornecendo insights sem precedentes sobre a física extrema do universo. Esta vigilância constante do céu transformará nossa compreensão de como as estrelas morrem, como os buracos negros se formam e como o sistema solar interage com seu ambiente.</p><p>A quantidade de dados gerados pelo Observatório Rubin será colossal, estimada em terabytes por noite. Para gerenciar e processar essa torrente de informações, foram desenvolvidas infraestruturas de computação avançadas e algoritmos sofisticados. Um aspecto fundamental do projeto é o compromisso com o acesso público aos dados. Todos os dados brutos e processados do LSST serão disponibilizados gratuitamente para a comunidade científica e, em grande parte, para o público em geral, promovendo a ciência cidadã e permitindo que pesquisadores de todo o mundo contribuam para as descobertas. Essa abordagem aberta visa maximizar o impacto científico e educacional do observatório.</p><p>O início das operações do Observatório Vera C. Rubin marca o alvorecer de uma nova era para a astronomia. Com sua capacidade incomparável de mapear o universo em detalhes sem precedentes e monitorar suas mudanças dinâmicas, ele está posicionado para fazer descobertas transformadoras em diversas áreas, desde a cosmologia até a astrofísica de objetos próximos. A colaboração internacional e o financiamento robusto da Fundação Nacional de Ciência e do Departamento de Energia dos EUA sublinham a importância estratégica deste projeto. À medida que o Rubin começa a &quot;filmar&quot; o cosmos, a expectativa é que ele não apenas responda a perguntas antigas, mas também revele novos mistérios que moldarão a pesquisa astronômica nas próximas décadas.</p>",
-    "body_pt": "<p>No cerne da missão do Observatório Rubin está o Levantamento Legado do Espaço e Tempo (LSST), um ambicioso programa de observação que mapeará o céu noturno por uma década. Este levantamento sistemático e abrangente permitirá aos cientistas monitorar mudanças sutis e eventos transitórios em todo o universo visível. A cada noite, o telescópio fará varreduras repetidas de grandes áreas do céu, acumulando uma vasta quantidade de dados que revelarão a dinâmica do cosmos em tempo real. A escala do LSST é sem precedentes, gerando um volume de informações que exigirá novas abordagens em análise de dados e inteligência artificial para extrair seu pleno potencial científico.</p><p>A capacidade de realizar tal empreendimento é impulsionada pela tecnologia de ponta do Observatório Rubin, notavelmente sua câmera LSST. Esta câmera gigante, a maior câmera digital já construída para astronomia, possui 3, 2 gigapixels e é capaz de capturar uma área do céu equivalente a 40 luas cheias em uma única exposição. Equipada com uma matriz de sensores CCD de alta sensibilidade, ela pode detectar objetos extremamente tênues e registrar variações de brilho com uma precisão extraordinária. A combinação de seu vasto campo de visão e sua rápida taxa de repetição de imagens é o que permite ao Rubin construir um registro dinâmico do universo, revelando movimentos e mudanças que seriam impossíveis de observar com telescópios convencionais.</p><p>Entre os principais objetivos científicos do Observatório Rubin está a investigação da natureza da matéria escura e da energia escura, dois dos maiores enigmas da cosmologia moderna. Ao mapear a distribuição de galáxias e a distorção da luz de objetos distantes causada pela gravidade (lente gravitacional), o Rubin fornecerá dados cruciais para entender como essas componentes invisíveis moldam a estrutura e a evolução do universo. A precisão e a profundidade do LSST permitirão aos cientistas testar modelos cosmológicos existentes e, potencialmente, descobrir novas físicas que expliquem a expansão acelerada do universo e a massa &quot;faltante&quot; que mantém as galáxias unidas.</p><p>Além de seus estudos cosmológicos, o Observatório Rubin será um caçador incansável de eventos cósmicos transitórios. Supernovas, explosões de raios gama, asteroides próximos à Terra e outros fenômenos celestes de curta duração serão detectados e monitorados em tempo real. A capacidade de identificar rapidamente esses eventos e alertar a comunidade astronômica global permitirá observações de acompanhamento com outros telescópios, fornecendo insights sem precedentes sobre a física extrema do universo. Esta vigilância constante do céu transformará nossa compreensão de como as estrelas morrem, como os buracos negros se formam e como o sistema solar interage com seu ambiente.</p><p>A quantidade de dados gerados pelo Observatório Rubin será colossal, estimada em terabytes por noite. Para gerenciar e processar essa torrente de informações, foram desenvolvidas infraestruturas de computação avançadas e algoritmos sofisticados. Um aspecto fundamental do projeto é o compromisso com o acesso público aos dados. Todos os dados brutos e processados do LSST serão disponibilizados gratuitamente para a comunidade científica e, em grande parte, para o público em geral, promovendo a ciência cidadã e permitindo que pesquisadores de todo o mundo contribuam para as descobertas. Essa abordagem aberta visa maximizar o impacto científico e educacional do observatório.</p><p>O início das operações do Observatório Vera C. Rubin marca o alvorecer de uma nova era para a astronomia. Com sua capacidade incomparável de mapear o universo em detalhes sem precedentes e monitorar suas mudanças dinâmicas, ele está posicionado para fazer descobertas transformadoras em diversas áreas, desde a cosmologia até a astrofísica de objetos próximos. A colaboração internacional e o financiamento robusto da Fundação Nacional de Ciência e do Departamento de Energia dos EUA sublinham a importância estratégica deste projeto. À medida que o Rubin começa a &quot;filmar&quot; o cosmos, a expectativa é que ele não apenas responda a perguntas antigas, mas também revele novos mistérios que moldarão a pesquisa astronômica nas próximas décadas.</p>",
-    "body_en": "<p>NSF, DOE Rubin Observatory, funded by the U. S. National Science Foundation and the U. S. Department of Energy&#x27;s Office of Science, is now capturing the cosmos. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Department of Energy&#x27;s (DOE) Office of Science, is now capturing the cosmos.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Because the account originates with NSF News, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nsf.gov/news/action-nsf-doe-vera-c-rubin-observatory-begins-capturing\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: O Observatório Vera C. Rubin, uma iniciativa conjunta da Fundação Nacional de Ciência (NSF) e do Escritório de Ciência do Departamento de Energia.",
-      "Dado-chave: O Observatório Vera C. Rubin, uma iniciativa conjunta da Fundação Nacional de Ciência (NSF) e do Escritório de Ciência do Departamento de.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: O Observatório Vera C. Rubin, uma iniciativa conjunta da Fundação Nacional de Ciência (NSF) e do Escritório de Ciência do Departamento de Energia.",
-      "Dado-chave: O Observatório Vera C. Rubin, uma iniciativa conjunta da Fundação Nacional de Ciência (NSF) e do Escritório de Ciência do Departamento de.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: NSF, DOE Rubin Observatory, funded by the U. S. National Science Foundation and the U. S.",
-      "Key detail: NSF, DOE Rubin Observatory, funded by the U. S. National Science Foundation and the U. S.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "30 jun 2026",
-    "date_pt": "30 jun 2026",
-    "date_en": "30 Jun 2026",
-    "time": "15h00",
-    "time_pt": "15h00",
-    "time_en": "15: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-06-30T15:00:07+00:00",
-    "lastModifiedIso": "2026-06-30T17:39:42+00:00",
-    "source": "NSF News",
-    "sourceDomain": "www. nsf. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Astronomia",
-      "NSF News",
-      "Cosmos Week",
-      "Ação! Observatório NSF",
-      "DOE Vera C. Rubin começa a capturar o maior filme cósmico já feito"
-    ],
-    "keywords_pt": [
-      "Astronomia",
-      "NSF News",
-      "Cosmos Week",
-      "Ação! Observatório NSF",
-      "DOE Vera C. Rubin começa a capturar o maior filme cósmico já feito"
-    ],
-    "keywords_en": [
-      "Astronomy",
-      "NSF News",
-      "Cosmos Week",
-      "Action! NSF Observatory",
-      "DOE Vera C. Rubin begins capturing the largest cosmic movie ever made"
-    ],
-    "srcUrl": "https://www.nsf.gov/news/action-nsf-doe-vera-c-rubin-observatory-begins-capturing",
-    "realUrl": "https://www.cosmosweek.com/?article=action-nsf-doe-vera-c-rubin-observatory-begins-capturing-the-greatest-cosmic-movie-ever-made",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=action-nsf-doe-vera-c-rubin-observatory-begins-capturing-the-greatest-cosmic-movie-ever-made",
-    "realUrl_en": "https://www.cosmosweek.com/?article=action-nsf-doe-vera-c-rubin-observatory-begins-capturing-the-greatest-cosmic-movie-ever-made&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/action-nsf-doe-vera-c-rubin-observatory-begins-capturing-the-greatest-cosmic-movie-ever-made/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/action-nsf-doe-vera-c-rubin-observatory-begins-capturing-the-greatest-cosmic-movie-ever-made/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/action-nsf-doe-vera-c-rubin-observatory-begins-capturing-the-greatest-cosmic-movie-ever-made/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/action-nsf-doe-vera-c-rubin-observatory-begins-capturing-the-greatest-cosmic-movie-ever-made/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/action-nsf-doe-vera-c-rubin-observatory-begins-capturing-the-greatest-cosmic-movie-ever-made/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/action-nsf-doe-vera-c-rubin-observatory-begins-capturing-the-greatest-cosmic-movie-ever-made/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "success",
-    "reviewProvider": "gemini",
-    "score": 96,
-    "scoreBreakdown": {
-      "source": 91,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Observatório NSF-DOE Vera C. Rubin Inicia Operações para Capturar o Maior Filme Cósmico Já Produzido",
-    "imageAlt_pt": "Observatório NSF-DOE Vera C. Rubin Inicia Operações para Capturar o Maior Filme Cósmico Já Produzido",
-    "imageAlt_en": "Action! NSF-DOE Vera C. Rubin Observatory begins capturing the greatest cosmic movie ever made",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
