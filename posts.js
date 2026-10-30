@@ -3,6 +3,127 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "nasa-explores-potential-commercial-servicing-for-hubble-telescope",
+    "cat": "Astronomia",
+    "catCls": "astronomia",
+    "img": "https://assets.science.nasa.gov/content/dam/science/cds/general/images/2023/04/2/27946391011_d40ff10573_h.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "NASA explora potencial serviço comercial para o telescópio Hubble",
+    "title_pt": "NASA explora potencial serviço comercial para o telescópio Hubble",
+    "title_en": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
+    "sub": "A NASA emitiu uma Solicitação de Informações em 29 de outubro para saber mais sobre as capacidades da indústria para serviços no espaço para apoiar o Telescópio Espacial Hubble da.",
+    "sub_pt": "A NASA emitiu uma Solicitação de Informações em 29 de outubro para saber mais sobre as capacidades da indústria para serviços no espaço para apoiar o Telescópio Espacial Hubble da.",
+    "sub_en": "NASA issued a Request for Information Oct. 29 to learn more about industry capabilities for in-space servicing to support the agency’s Hubble Space Telescope.",
+    "excerpt": "A NASA emitiu uma Solicitação de Informações em 29 de outubro para saber mais sobre as capacidades da indústria para serviços no espaço para apoiar o Telescópio Espacial Hubble da agência.",
+    "excerpt_pt": "A NASA emitiu uma Solicitação de Informações em 29 de outubro para saber mais sobre as capacidades da indústria para serviços no espaço para apoiar o Telescópio Espacial Hubble da agência.",
+    "excerpt_en": "NASA issued a Request for Information Oct. 29 to learn more about industry capabilities for in-space servicing to support the agency’s Hubble Space Telescope.",
+    "body": "<p>A NASA emitiu uma Solicitação de Informações em 29 de outubro para saber mais sobre as capacidades da indústria para serviços no espaço para apoiar o Telescópio Espacial Hubble da agência. O Telescópio Espacial Hubble retorna à órbita como um telescópio aprimorado após sua segunda missão de manutenção em fevereiro de 1997.</p><p>Prolongar a vida do Hubble significaria mais descobertas, mais ciência e mais oportunidades para expandir a nossa compreensão do universo. ” A Solicitação de Informação busca interesse comercial em: potencialmente conduzir uma missão para impulsionar o Hubble a uma altitude maior. Ou realizar uma reentrada segura e controlada na atmosfera da Terra ou eliminação orbital no final da missão do Hubble.</p><p>O Hubble é um ícone nacional que mudou fundamentalmente a forma como a humanidade vê o nosso universo durante mais de 35 anos”, disse Nicky Fox, administrador associado, Direcção de Missões Científicas, Sede da NASA em Washington. Dado o tempo que temos até à reentrada prevista do Hubble, estamos ansiosos por explorar a amplitude de possibilidades para impulsionar o Hubble para uma órbita mais elevada enquanto desenvolvemos a missão emblemática que se segue.</p><p>O Hubble não possui um sistema de propulsão para manter sua própria órbita, e a análise prevê que o Hubble provavelmente entrará novamente na atmosfera no período de 2033 a 2034. Como tal, a NASA prevê que uma missão deverá ocorrer até 2032.</p><p>O Goddard Space Flight Center da NASA em Greenbelt, Maryland, gerencia o telescópio e as operações da missão. 202-286-1940 claire. andreoli@nasa. gov Compartilhar Detalhes Última atualização em 30 de outubro de 2026 Termos relacionados Telescópio Espacial Hubble Astrofísica Divisão de Astrofísica Goddard Space Flight Center O Universo Continue Explorando Descubra mais tópicos da NASA.</p><p>TESS (Transiting Exoplanet Survey Satellite) O TESS da NASA descobre exoplanetas, mundos além do nosso sistema solar.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>A NASA emitiu uma Solicitação de Informações em 29 de outubro para saber mais sobre as capacidades da indústria para serviços no espaço para apoiar o Telescópio Espacial Hubble da agência. O Telescópio Espacial Hubble retorna à órbita como um telescópio aprimorado após sua segunda missão de manutenção em fevereiro de 1997.</p><p>Prolongar a vida do Hubble significaria mais descobertas, mais ciência e mais oportunidades para expandir a nossa compreensão do universo. ” A Solicitação de Informação busca interesse comercial em: potencialmente conduzir uma missão para impulsionar o Hubble a uma altitude maior. Ou realizar uma reentrada segura e controlada na atmosfera da Terra ou eliminação orbital no final da missão do Hubble.</p><p>O Hubble é um ícone nacional que mudou fundamentalmente a forma como a humanidade vê o nosso universo durante mais de 35 anos”, disse Nicky Fox, administrador associado, Direcção de Missões Científicas, Sede da NASA em Washington. Dado o tempo que temos até à reentrada prevista do Hubble, estamos ansiosos por explorar a amplitude de possibilidades para impulsionar o Hubble para uma órbita mais elevada enquanto desenvolvemos a missão emblemática que se segue.</p><p>O Hubble não possui um sistema de propulsão para manter sua própria órbita, e a análise prevê que o Hubble provavelmente entrará novamente na atmosfera no período de 2033 a 2034. Como tal, a NASA prevê que uma missão deverá ocorrer até 2032.</p><p>O Goddard Space Flight Center da NASA em Greenbelt, Maryland, gerencia o telescópio e as operações da missão. 202-286-1940 claire. andreoli@nasa. gov Compartilhar Detalhes Última atualização em 30 de outubro de 2026 Termos relacionados Telescópio Espacial Hubble Astrofísica Divisão de Astrofísica Goddard Space Flight Center O Universo Continue Explorando Descubra mais tópicos da NASA.</p><p>TESS (Transiting Exoplanet Survey Satellite) O TESS da NASA descobre exoplanetas, mundos além do nosso sistema solar.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>NASA issued a Request for Information Oct. 29 to learn more about industry capabilities for in-space servicing to support the agency’s Hubble Space Telescope. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. The Hubble Space Telescope returns to orbit as an improved telescope after its second servicing mission in February 1997. Extending Hubble’s life would mean more discoveries, more science, and more opportunities to expand our understanding of the universe.</p><p>Or performing a safe, controlled re-entry into Earth’s atmosphere or orbital disposal at the end of Hubble’s mission. Hubble is a national icon that has fundamentally changed how humanity views our universe for more than 35 years,” said Nicky Fox, associate administrator, Science Mission.</p><p>Given the time we have until Hubble’s anticipated re-entry, we are eager to explore the breadth of possibilities to boost Hubble to a higher orbit while we develop the flagship. Hubble does not have a propulsion system to maintain its own orbit, and analysis predicts Hubble is likely to re-enter the atmosphere in the 2033 to 2034 timeframe.</p><p>As such, NASA anticipates that a mission would need to take place by 2032. NASA’s Goddard Space Flight Center in Greenbelt, Maryland, manages the telescope and mission operations.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>202-286-1940 claire. andreoli@nasa. gov Share Details Last Updated Oct 30, 2026 Related Terms Hubble Space Telescope Astrophysics Astrophysics Division Goddard Space Flight Center. TESS (Transiting Exoplanet Survey Satellite) NASA’s TESS discovers exoplanets, worlds beyond our solar system.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: A NASA emitiu uma Solicitação de Informações em 29 de outubro para saber mais sobre as capacidades da indústria para serviços no espaço para apoiar o",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: A NASA emitiu uma Solicitação de Informações em 29 de outubro para saber mais sobre as capacidades da indústria para serviços no espaço para apoiar o",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: NASA issued a Request for Information Oct",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "30 out 2026",
+    "date_pt": "30 out 2026",
+    "date_en": "30 Oct 2026",
+    "time": "14h51",
+    "time_pt": "14h51",
+    "time_en": "14: 51 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-10-30T14:51:21+00:00",
+    "lastModifiedIso": "2026-10-30T20:20:07+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA explora potencial serviço comercial para o telescópio Hubble"
+    ],
+    "keywords_pt": [
+      "Astronomia",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA explora potencial serviço comercial para o telescópio Hubble"
+    ],
+    "keywords_en": [
+      "Astronomy",
+      "NASA News Releases",
+      "Cosmos Week",
+      "NASA explores potential commercial service for the Hubble telescope"
+    ],
+    "srcUrl": "https://science.nasa.gov/missions/hubble/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+    "realUrl": "https://www.cosmosweek.com/?article=nasa-explores-potential-commercial-servicing-for-hubble-telescope",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-explores-potential-commercial-servicing-for-hubble-telescope",
+    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-explores-potential-commercial-servicing-for-hubble-telescope&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-explores-potential-commercial-servicing-for-hubble-telescope/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 88,
+      "accessibility": 60,
+      "novelty": 55
+    },
+    "imageAlt": "NASA explora potencial serviço comercial para o telescópio Hubble",
+    "imageAlt_pt": "NASA explora potencial serviço comercial para o telescópio Hubble",
+    "imageAlt_en": "NASA Explores Potential Commercial Servicing for Hubble Telescope",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
     "slug": "nasa-funded-study-details-one-of-oldest-mars-meteorites-ever-found",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -25,6 +146,15 @@ window.postsData = [
         "caption": "",
         "caption_pt": "",
         "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia26/pia26801/PIA26801.jpg",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": "",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": ""
       }
     ],
     "video": null,
@@ -142,7 +272,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -163,19 +293,19 @@ window.postsData = [
     "body_pt": "<p>Leia este comunicado em inglês aqui. Talvez você nunca suba aos céus sob as nuvens ou sobre as areias orgânicas da lua de Saturno, Titã, mas seu nome pode.</p><p>A NASA convida o público a enviar seu nome a bordo da aeronave de asa rotativa Dragonfly da agência [. ]. A campanha Journey to Titan oferece ao público a oportunidade de enviar seu nome em um microchip a bordo da missão Dragonfly da NASA.</p><p>Para mais informações sobre a missão Dragonfly da NASA, visite o site: https: //ciencia. nasa. gov/dragonfly -fin- Karen Fox / Molly Wasser / María José Viñas Sede da NASA. Editora 2026 María José Viñas Localização Sede da NASA Termos relacionados NASA em espanhol.</p><p>RELEASE 26-091 Sede da NASA A campanha Journey to Titan oferece ao público a oportunidade de enviar seu nome em um microchip a bordo da missão Dragonfly da NASA. A NASA convida o público a enviar seu nome a bordo da aeronave de asa rotativa Dragonfly da agência e fazer parte da primeira missão científica a sobrevoar a superfície de outro mundo para exploração.</p><p>Conduzindo a primeira missão científica com uma aeronave de asa rotativa, a NASA irá explorar Titã, a maior lua de Saturno, enquanto procuramos sinais de habitabilidade neste mundo distante que é muito semelhante ao nosso. O público pode garantir vaga na lista de passageiros do Dragonfly até às 23h59.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/news-release/envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Read this release in English here. Puede que nunca llegues a surcar los cielos bajo las nubes o sobre las arenas orgánicas de la luna Titán de Saturno, ¡pero tu nombre sí puede hacerlo. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>This matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. La NASA invita al público a enviar su nombre a bordo de la aeronave de ala giratoria Dragonfly de la agencia. La campaña Viaje a Titán ofrece al público la oportunidad de enviar su nombre en un microchip a bordo de la misión Dragonfly de la NASA.</p><p>Para obtener más información sobre la misión Dragonfly de la NASA, visita el sitio web: https: //ciencia. nasa. 2026 Editor María José Viñas Location NASA Headquarters Related Terms NASA en español.</p><p>RELEASE 26-091 NASA Headquarters La campaña Viaje a Titán ofrece al público la oportunidad de enviar su nombre en un microchip a bordo de la misión Dragonfly de la NASA. La NASA invita al público a enviar su nombre a bordo de la aeronave de ala giratoria Dragonfly de la agencia y a formar parte de la primera misión científica que volará sobre la.</p><p>Al llevar a cabo la primera misión científica con una aeronave de ala giratoria, la NASA explorará Titán, la luna más grande de Saturno, mientras buscamos señales de habitabilidad. El público puede asegurarse un puesto en la lista de pasajeros de Dragonfly hasta las 23: 59 hora del este de Estados Unidos (EST) del 15 de enero de 2027.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Actualmente, la aeronave de ala giratoria Dragonfly está siendo ensamblada en el Laboratorio de Física Aplicada (APL, por sus siglas en inglés) de la Universidad Johns Hopkins en. Dragonfly está en proceso de diseño y construcción bajo la dirección de APL, el cual dirige esta misión para la NASA.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/news-release/envia-tu-nombre-a-titan-a-bordo-de-la-mision-dragonfly-de-la-nasa/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Leia este comunicado em inglês aqui",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Leia este comunicado em inglês aqui. Talvez você nunca suba aos céus sob as nuvens ou sobre as areias orgânicas da lua de Saturno, Titã, mas seu nome.",
+      "Dado-chave: Leia este comunicado em inglês aqui",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Leia este comunicado em inglês aqui",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Leia este comunicado em inglês aqui. Talvez você nunca suba aos céus sob as nuvens ou sobre as areias orgânicas da lua de Saturno, Titã, mas seu nome.",
+      "Dado-chave: Leia este comunicado em inglês aqui",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Read this release in English here",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Read this release in English here. Puede que nunca llegues a surcar los cielos bajo las nubes o sobre las arenas orgánicas de la luna Titán de.",
+      "Key detail: Read this release in English here",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "29 out 2026",
     "date_pt": "29 out 2026",
@@ -263,7 +393,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "send-your-name-to-titan-aboard-nasa-s-dragonfly-mission",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -284,19 +414,19 @@ window.postsData = [
     "body_pt": "<p>Talvez você nunca voe sob as nuvens ou sobre as areias orgânicas da lua de Saturno, Titã, mas seu nome pode. A NASA está convidando o público a enviar seus nomes a bordo do helicóptero Dragonfly da agência e fazer parte da primeira missão científica.</p><p>A campanha “Journey to Titan” oferece ao público a oportunidade de colocar seus nomes em um microchip com a missão Dragonfly da NASA. Para ter seu nome incluído em um microchip a bordo do Dragonfly e receber um cartão de embarque digital personalizado comemorando seu lugar nesta missão histórica, visite: https: //go. nasa.</p><p>Para obter mais informações sobre a missão Dragonfly da NASA, visite: https: //science. nasa. gov/mission/dragonfly/ -end- Karen Fox / Molly Wasser Headquarters. Editora de 2026 Jessica Taveau Localização Sede da NASA Termos relacionados Dragonfly Marshall Space Flight Center Saturn Saturn Moons Science Mission Directorate Titan.</p><p>COMUNICADO 26-091 Sede da NASA A campanha “Journey to Titan” oferece ao público a oportunidade de exibir seus nomes em um microchip com a missão Dragonfly da NASA. A NASA está convidando o público a enviar seus nomes a bordo do helicóptero Dragonfly da agência e fazer parte da primeira missão científica a voar e explorar a superfície de outro mundo.</p><p>Para ter seu nome incluído em um microchip a bordo do Dragonfly e receber um cartão de embarque digital personalizado comemorando seu lugar nesta missão histórica, visite: “A missão Dragonfly da NASA vai simplesmente te surpreender”, disse Nicky Fox, administrador associado. Ao realizar a primeira missão científica de helicóptero, a NASA irá explorar a maior lua de Saturno, Titã, enquanto procuramos sinais de habitabilidade num mundo distante que seja mais semelhante ao nosso.</p><p>Com lançamento previsto para 2028, o helicóptero viajará para Titã, um mundo notável com uma atmosfera densa, rios e lagos de metano líquido, dunas extensas e uma paisagem rica em matéria orgânica.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/news-release/send-your-name-to-titan-aboard-nasas-dragonfly-mission/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>You may never soar under the clouds or over the organic sands of Saturn’s moon Titan, but your name can. NASA is inviting the public to send their names aboard the agency’s Dragonfly rotorcraft and be part of the first science mission to. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. The “Journey to Titan” campaign offers the public the opportunity to fly their names on a microchip with NASA’s Dragonfly mission. To have your name included on a microchip aboard Dragonfly and receive a personalized digital boarding pass commemorating your place on this historic mission, visit: https: //go.</p><p>For more information on NASA’s Dragonfly mission, visit: https: //science. nasa. gov/mission/dragonfly/ -end- Karen Fox / Molly Wasser Headquarters. 2026 Editor Jessica Taveau Location NASA Headquarters Related Terms Dragonfly Marshall Space Flight Center Saturn Saturn Moons Science Mission Directorate Titan.</p><p>RELEASE 26-091 NASA Headquarters The “Journey to Titan” campaign offers the public the opportunity to fly their names on a microchip with NASA’s Dragonfly mission. NASA is inviting the public to send their names aboard the agency’s Dragonfly rotorcraft and be part of the first science mission to fly and explore the surface of another world.</p><p>To have your name included on a microchip aboard Dragonfly and receive a personalized digital boarding pass commemorating your place on this historic mission, visit: “NASA’s. By flying the first-ever rotorcraft science mission, NASA will explore Saturn’s largest moon, Titan, as we search for signs of habitability on a distant world that is most similar.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Scheduled to launch in 2028, the rotorcraft will travel to Titan, a remarkable world with a thick atmosphere, rivers and lakes of liquid methane, sweeping dunes, and a landscape. After arriving in 2034, Dragonfly will fly to different locations on the moon, exploring Titan’s diverse environments and searching for clues about prebiotic chemistry, the.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/news-release/send-your-name-to-titan-aboard-nasas-dragonfly-mission/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Talvez você nunca voe sob as nuvens ou sobre as areias orgânicas da lua de Saturno, Titã, mas seu nome pode",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Talvez você nunca voe sob as nuvens ou sobre as areias orgânicas da lua de Saturno, Titã, mas seu nome pode.",
+      "Dado-chave: Talvez você nunca voe sob as nuvens ou sobre as areias orgânicas da lua de Saturno, Titã, mas seu nome pode",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Talvez você nunca voe sob as nuvens ou sobre as areias orgânicas da lua de Saturno, Titã, mas seu nome pode",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Talvez você nunca voe sob as nuvens ou sobre as areias orgânicas da lua de Saturno, Titã, mas seu nome pode.",
+      "Dado-chave: Talvez você nunca voe sob as nuvens ou sobre as areias orgânicas da lua de Saturno, Titã, mas seu nome pode",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: You may never soar under the clouds or over the organic sands of Saturn’s moon Titan, but your name can",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: You may never soar under the clouds or over the organic sands of Saturn’s moon Titan, but your name can.",
+      "Key detail: You may never soar under the clouds or over the organic sands of Saturn’s moon Titan, but your name can",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "29 out 2026",
     "date_pt": "29 out 2026",
@@ -377,158 +507,6 @@ window.postsData = [
     "imageAlt": "Envie seu nome para Titan a bordo da missão Dragonfly da NASA",
     "imageAlt_pt": "Envie seu nome para Titan a bordo da missão Dragonfly da NASA",
     "imageAlt_en": "Send Your Name to Titan Aboard NASA’s Dragonfly Mission",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 4,
-    "slug": "curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca",
-    "cat": "Ciências da Terra",
-    "catCls": "terra",
-    "img": "https://assets.science.nasa.gov/content/dam/science/missions/msl/2026/curiosity-rover-updates/october/https___mars.nasa.gov_msl-raw-images_msss_05048_mhli_5048MH0009170001804540R00_DXXX.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/missions/msl/2026/curiosity-rover-updates/october/https___mars.nasa.gov_msl-raw-images_msss_05048_mhli_5048MH0009170001804540R00_DXXX.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/psd/mars/resources/detail_files/2/5/25757_1-PIA24543-Curiositys-Selfie-at-Mont-Mercou-main-web.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": null,
-    "audio": null,
-    "title": "Curiosity Blog, Sols 5043-5049: Preparando-se para perfurar em ‘Nazca’",
-    "title_pt": "Curiosity Blog, Sols 5043-5049: Preparando-se para perfurar em ‘Nazca’",
-    "title_en": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
-    "sub": "Escrito por Lucy Lim, cientista planetária do Goddard Space Flight Center da NASA Data de planejamento da Terra: sexta-feira, 16 de outubro de 2026 Após a campanha de perfuração.",
-    "sub_pt": "Escrito por Lucy Lim, cientista planetária do Goddard Space Flight Center da NASA Data de planejamento da Terra: sexta-feira, 16 de outubro de 2026 Após a campanha de perfuração.",
-    "sub_en": "Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Earth planning date: Friday, Oct.",
-    "excerpt": "Escrito por Lucy Lim, cientista planetária do Goddard Space Flight Center da NASA Data de planejamento da Terra: sexta-feira, 16 de outubro de 2026 Após a campanha de perfuração dos Lagos Bascos, o Curiosity retornou a um local a poucos metros de distância do.",
-    "excerpt_pt": "Escrito por Lucy Lim, cientista planetária do Goddard Space Flight Center da NASA Data de planejamento da Terra: sexta-feira, 16 de outubro de 2026 Após a campanha de perfuração dos Lagos Bascos, o Curiosity retornou a um local a poucos metros de distância do.",
-    "excerpt_en": "Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Earth planning date: Friday, Oct. 16, 2026 Following the Basque Lakes drill campaign, Curiosity has returned to a spot just a few meters away from the “Chiu.",
-    "body": "<p>Escrito por Lucy Lim, cientista planetária do Goddard Space Flight Center da NASA Data de planejamento da Terra: sexta-feira, 16 de outubro de 2026 Após a campanha de perfuração dos Lagos Bascos, o Curiosity retornou a um local a poucos metros de distância do “Chiu. 16, 2026 Após a campanha de perfuração dos Lagos Bascos, o Curiosity regressou a um local a poucos metros do bloco “Chiu Chiu” para conduzir a nossa próxima campanha de perfuração.</p><p>Normalmente, os 150 disparos de laser LIBS da observação de cada sol são espaçados em um raster de cinco pontos a 30 disparos por ponto, mas desta vez estamos concentrando todos os 150 disparos de laser no mesmo ponto da rocha. Visite a página de instrumentos científicos O rover Curiosity da NASA na base do Monte Sharp NASA/JPL-Caltech/MSSS Detalhes de compartilhamento Última atualização em 28 de outubro.</p><p>2026 Termos relacionados Blogs Explorar mais 2 minutos de leitura do artigo do conto de Tinga 1 dia atrás 3 minutos de leitura Trilhas ao longo da viagem mais longa em outro mundo Artigo 7 dias atrás 3 minutos de leitura Curiosity Blog. 18 de outubro de 2026, Sol 5048 (dia marciano 5.048 da Missão do Laboratório Científico de Marte), às 12h19min51s UTC.</p><p>NASA/JPL-Caltech/MSSS Escrito por Lucy Lim, Cientista Planetária do Goddard Space Flight Center da NASA Após a campanha de perfuração dos Lagos Bascos, o Curiosity retornou a um local a poucos metros do bloco &quot;Chiu Chiu&quot; para conduzir nossa próxima campanha de perfuração. Como cada disparo de laser vaporiza uma quantidade muito pequena de rocha para formar um plasma, o perfil de 150 disparos deve penetrar aproximadamente cinco vezes mais fundo do que uma observação normal de 30 disparos.</p><p>Capturar imagens de Fobos e do céu próximo quando Fobos está cheia pode mostrar a luz solar refletida na lua e espalhada na atmosfera marciana, fornecendo uma boa maneira de estimar o tamanho das partículas nas nuvens marcianas. 2026 Termos relacionados Blogs Explorar mais 2 minutos de leitura do artigo do conto de Tinga 2 dias atrás 3 minutos de leitura Trilhas ao longo da viagem mais longa em outro mundo Artigo 1 semana atrás 3 minutos de leitura Curiosity Blog.</p><p>Sols 5036-5042: Observando o passar das nuvens Artigo 1 semana atrás Continue explorando Descubra mais tópicos da NASA Marte Marte é o quarto planeta a partir do Sol e o sétimo maior.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Escrito por Lucy Lim, cientista planetária do Goddard Space Flight Center da NASA Data de planejamento da Terra: sexta-feira, 16 de outubro de 2026 Após a campanha de perfuração dos Lagos Bascos, o Curiosity retornou a um local a poucos metros de distância do “Chiu. 16, 2026 Após a campanha de perfuração dos Lagos Bascos, o Curiosity regressou a um local a poucos metros do bloco “Chiu Chiu” para conduzir a nossa próxima campanha de perfuração.</p><p>Normalmente, os 150 disparos de laser LIBS da observação de cada sol são espaçados em um raster de cinco pontos a 30 disparos por ponto, mas desta vez estamos concentrando todos os 150 disparos de laser no mesmo ponto da rocha. Visite a página de instrumentos científicos O rover Curiosity da NASA na base do Monte Sharp NASA/JPL-Caltech/MSSS Detalhes de compartilhamento Última atualização em 28 de outubro.</p><p>2026 Termos relacionados Blogs Explorar mais 2 minutos de leitura do artigo do conto de Tinga 1 dia atrás 3 minutos de leitura Trilhas ao longo da viagem mais longa em outro mundo Artigo 7 dias atrás 3 minutos de leitura Curiosity Blog. 18 de outubro de 2026, Sol 5048 (dia marciano 5.048 da Missão do Laboratório Científico de Marte), às 12h19min51s UTC.</p><p>NASA/JPL-Caltech/MSSS Escrito por Lucy Lim, Cientista Planetária do Goddard Space Flight Center da NASA Após a campanha de perfuração dos Lagos Bascos, o Curiosity retornou a um local a poucos metros do bloco &quot;Chiu Chiu&quot; para conduzir nossa próxima campanha de perfuração. Como cada disparo de laser vaporiza uma quantidade muito pequena de rocha para formar um plasma, o perfil de 150 disparos deve penetrar aproximadamente cinco vezes mais fundo do que uma observação normal de 30 disparos.</p><p>Capturar imagens de Fobos e do céu próximo quando Fobos está cheia pode mostrar a luz solar refletida na lua e espalhada na atmosfera marciana, fornecendo uma boa maneira de estimar o tamanho das partículas nas nuvens marcianas. 2026 Termos relacionados Blogs Explorar mais 2 minutos de leitura do artigo do conto de Tinga 2 dias atrás 3 minutos de leitura Trilhas ao longo da viagem mais longa em outro mundo Artigo 1 semana atrás 3 minutos de leitura Curiosity Blog.</p><p>Sols 5036-5042: Observando o passar das nuvens Artigo 1 semana atrás Continue explorando Descubra mais tópicos da NASA Marte Marte é o quarto planeta a partir do Sol e o sétimo maior.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Earth planning date: Friday, Oct. 16, 2026 Following the Basque Lakes drill campaign, Curiosity has returned to a spot just a few meters away from the “Chiu. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. 16, 2026 Following the Basque Lakes drill campaign, Curiosity has returned to a spot just a few meters away from the “Chiu Chiu” block to conduct our next drill campaign. Normally the 150 LIBS laser shots from each sol’s observation are spaced out over a five-point raster at 30 shots per point, but this time we are concentrating all 150 laser shots.</p><p>Visit the Science Instruments page NASA’s Curiosity rover at the base of Mount Sharp NASA/JPL-Caltech/MSSS Share Details Last Updated Oct 28. 2026 Related Terms Blogs Explore More 2 min read Tinga’s Tale Article 1 day ago 3 min read Tracks Along the Longest Drive on Another World Article 7 days ago 3 min read Curiosity.</p><p>18, 2026, Sol 5048 (Martian day 5, 048 of the Mars Science Laboratory Mission), at 12: 19: 51 UTC. NASA/JPL-Caltech/MSSS Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Following the Basque Lakes drill campaign, Curiosity has returned to a spot.</p><p>Normally the 150 LIBS laser shots from each sol&#x27;s observation are spaced out over a five-point raster at 30 shots per point, but this time we are concentrating all 150 laser shots. Since each laser shot vaporizes a very small amount of the rock to form a plasma, the 150-shot profile should penetrate approximately five times deeper than a normal 30-shot point.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>Capturing images of Phobos and the nearby sky when Phobos is full can show sunlight reflecting off the moon and scattering in the Martian atmosphere, providing a good way to. 2026 Related Terms Blogs Explore More 2 min read Tinga’s Tale Article 2 days ago 3 min read Tracks Along the Longest Drive on Another World Article 1 week ago 3 min read Curiosity.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Escrito por Lucy Lim, cientista planetária do Goddard Space Flight Center da NASA Data de planejamento da Terra: sexta-feira, 16 de outubro de 2026.",
-      "Dado-chave: Escrito por Lucy Lim, cientista planetária do Goddard Space Flight Center da NASA Data de planejamento da Terra: sexta-feira, 16 de outubro de.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: Escrito por Lucy Lim, cientista planetária do Goddard Space Flight Center da NASA Data de planejamento da Terra: sexta-feira, 16 de outubro de 2026.",
-      "Dado-chave: Escrito por Lucy Lim, cientista planetária do Goddard Space Flight Center da NASA Data de planejamento da Terra: sexta-feira, 16 de outubro de.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Earth planning date: Friday, Oct.",
-      "Key detail: Written by Lucy Lim, Planetary Scientist at NASA’s Goddard Space Flight Center Earth planning date: Friday, Oct",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "28 out 2026",
-    "date_pt": "28 out 2026",
-    "date_en": "28 Oct 2026",
-    "time": "05h39",
-    "time_pt": "05h39",
-    "time_en": "05: 39 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-10-28T05:39:46+00:00",
-    "lastModifiedIso": "2026-10-28T20:47:18+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Curiosity Blog",
-      "Sols 5043",
-      "5049",
-      "Preparando",
-      "se para perfurar em ‘Nazca’"
-    ],
-    "keywords_pt": [
-      "Ciências da Terra",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Curiosity Blog",
-      "Sols 5043",
-      "5049",
-      "Preparando",
-      "se para perfurar em ‘Nazca’"
-    ],
-    "keywords_en": [
-      "Earth Sciences",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Curiosity Blog",
-      "Sols 5043",
-      "5049",
-      "Preparing",
-      "whether to drill in ‘Nazca’"
-    ],
-    "srcUrl": "https://science.nasa.gov/blog/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
-    "realUrl": "https://www.cosmosweek.com/?article=curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca",
-    "realUrl_en": "https://www.cosmosweek.com/?article=curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/curiosity-blog-sols-5043-5049-preparing-to-drill-at-nazca/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 84,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Curiosity Blog, Sols 5043-5049: Preparando-se para perfurar em ‘Nazca’",
-    "imageAlt_pt": "Curiosity Blog, Sols 5043-5049: Preparando-se para perfurar em ‘Nazca’",
-    "imageAlt_en": "Curiosity Blog, Sols 5043-5049: Preparing to Drill at ‘Nazca’",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
@@ -701,18 +679,19 @@ window.postsData = [
     "body_pt": "<p>Modelos do setor escuro em que a matéria escura participa de interações não triviais podem criar assinaturas detectáveis ​​em observáveis ​​cosmológicos, fornecendo meios não-terrestres de sondar a natureza da matéria escura. Neste trabalho, testamos o espalhamento de matéria escura-bárion, as interações de matéria escura-radiação escura e a aniquilação de matéria escura usando medições de CMB e BAO.</p><p>Aproveitamos as mais recentes medições SPT-3G D1 CMB das anisotropias primárias, juntamente com os dados de lentes D1 MUSE, para definir limites atualizados para esses modelos. A sensibilidade aprimorada para os dois primeiros modelos é impulsionada em particular pelas medições precisas de lentes CMB em pequenas escalas fornecidas pelos dados de lentes SPT-3G D1 MUSE.</p><p>Para aniquilar a matéria escura, devido à degeneração do efeito com a profundidade óptica para a reionização, observamos uma relação não trivial entre o limite superior em $p_\\mathrm{ann}$ e a informação de polarização em grande escala. Ao combinar dados CMB com as medições mais recentes do Instrumento Espectroscópico de Energia Escura (DESI), os limites superiores dos parâmetros do modelo estendido podem parecer mais restritos à medida que o espaço do modelo tenta acomodar a discrepância conhecida entre esses.</p><p>As medições futuras de CMB e BAO proporcionarão maior clareza na reconciliação desta discrepância e aumentarão a nossa capacidade de testar as interações da matéria escura. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? .</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2610.37604v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Models of the dark sector in which the dark matter participates in nontrivial interactions can create detectable signatures in cosmological observables, providing non-terrestrial means of probing the nature of dark matter. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It is relevant because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. In this work, we test dark matter-baryon scattering, dark matter-dark radiation interactions, and dark matter annihilation using measurements of the CMB and BAO. We leverage the latest SPT-3G D1 CMB measurements of the primary anisotropies, alongside the D1 MUSE lensing data, to set up-to-date bounds on these models.</p><p>From the combination of Planck. The improved sensitivity to the first two models is in particular driven by the precision measurements of CMB lensing at small scales provided by SPT-3G D1 MUSE lensing data.</p><p>For annihilating dark matter, due to the degeneracy of the effect with the optical depth to reionization, we observe a non-trivial relationship between the upper bound on. When combining CMB data with the latest measurements from the Dark Energy Spectroscopic Instrument (DESI), upper bounds on extended model parameters can appear to tighten as the.</p><p>Future CMB and BAO measurements will provide better clarity on reconciling this discrepancy and enhance our ability to test dark matter interactions. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2610.37604v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Modelos do setor escuro em que a matéria escura participa de interações não triviais podem criar assinaturas detectáveis ​​em observáveis",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Modelos do setor escuro em que a matéria escura participa de interações não triviais podem criar assinaturas detectáveis ​​em observáveis.",
+      "Dado-chave: Modelos do setor escuro em que a matéria escura participa de interações não triviais podem criar assinaturas detectáveis ​​em observáveis",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Modelos do setor escuro em que a matéria escura participa de interações não triviais podem criar assinaturas detectáveis ​​em observáveis",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Modelos do setor escuro em que a matéria escura participa de interações não triviais podem criar assinaturas detectáveis ​​em observáveis.",
+      "Dado-chave: Modelos do setor escuro em que a matéria escura participa de interações não triviais podem criar assinaturas detectáveis ​​em observáveis",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: Models of the dark sector in which the dark matter participates in nontrivial interactions can create detectable signatures in cosmological",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: Models of the dark sector in which the dark matter participates in nontrivial interactions can create detectable signatures in cosmological.",
+      "Key detail: Models of the dark sector in which the dark matter participates in nontrivial interactions can create detectable signatures in cosmological",
+      "Result not yet peer reviewed."
     ],
     "date": "27 out 2026",
     "date_pt": "27 out 2026",
