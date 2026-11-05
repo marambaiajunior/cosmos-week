@@ -5,9 +5,19 @@
     <link>https://www.cosmosweek.com/</link>
     <description>Portal de jornalismo científico com foco em astronomia, astrofísica, cosmologia e ciência de fronteira.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Wed, 04 Nov 2026 21:47:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 21:48:12 +0000</lastBuildDate>
     <generator>CosmosWeekBot 5.0</generator>
     <item>
+              <title>Chipre: Ilha das Cobras, Gatos e Ofiolitas</title>
+              <link>https://www.cosmosweek.com/noticia/cyprus-island-of-snakes-cats-and-ophiolites/</link>
+              <guid>https://www.cosmosweek.com/noticia/cyprus-island-of-snakes-cats-and-ophiolites/</guid>
+              <pubDate>Thu, 05 Nov 2026 05:01:00 +0000</pubDate>
+              <author>contato@cosmosweek.com (Cosmos Week)</author>
+              <description>A terceira maior ilha do Mar Mediterrâneo expõe um antigo pedaço do fundo do oceano e abriga uma multidão de gatos.</description>
+              <category>Ciências da Terra</category><category>NASA News Releases</category><category>Cosmos Week</category><category>Chipre</category>
+              <source url="https://science.nasa.gov/earth/earth-observatory/cyprus-island-of-snakes-cats-and-ophiolites/">NASA News Releases</source>
+              <content:encoded>A terceira maior ilha do Mar Mediterrâneo expõe um antigo pedaço do fundo do oceano e abriga uma multidão de gatos. NASA Earth Observatory/Michala Garrison Imagens do NASA Earth Observatory por Michala Garrison, usando dados Landsat dos EUA. Downloads 10 de outubro de 2026 JPEG (42, 59 MB) Referências e recursos AP (2025, 14 de outubro) Chipre tem um problema com gatos: um felino para cada residente. (2021) Geomorfologia dos campos de dunas de areia costeiras e sua associação com a evolução da paleopaisagem da Península de Akrotiri, Lemesos, Chipre. Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal. Região selvagem do sul da Nova Zelândia 3 minutos de leitura Stewart Island/Rakiura. Imagem do dia do Observatório da Terra O Observatório da Terra da NASA traz para voc</content:encoded>
+            </item><item>
               <title>Experimento de navegação da NASA mostra promessa para pousos planetários</title>
               <link>https://www.cosmosweek.com/noticia/nasa-navigation-experiment-shows-promise-for-planetary-landings/</link>
               <guid>https://www.cosmosweek.com/noticia/nasa-navigation-experiment-shows-promise-for-planetary-landings/</guid>
@@ -18,15 +28,15 @@
               <source url="https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/">NASA News Releases</source>
               <content:encoded>A NASA demonstrou com sucesso tecnologia projetada para ajudar naves espaciais a navegar de forma autônoma para locais de pouso seguros na Lua e em outros planetas. Davis Adams, gerente de projeto, confirma que um sistema avançado de orientação e navegação conhecido como experimento Safe and Precise Landing, Integrated Capabilities Evolution (SPLICE) está se comunicando com um drone Alta-X perto do Armstrong Flight Research Center da NASA. NASA/Ryan Kline Pesquisadores do Johnson Space Center da NASA em Houston desenvolveram a carga útil SPLICE e fizeram parceria com especialistas da NASA Armstrong para integrá-la, testá-la e voá-la a bordo do drone Alta-X em junho e julho. Justin Link, um pequeno piloto de aeronave não tripulado, à esquerda. NASA/Carla Thomas “Estamos coordenando com a indústria o uso do sistema de orientação assim que o sistema estiver disponível no catálogo de softwar</content:encoded>
             </item><item>
-              <title>Assinaturas eletromagnéticas de dissipação magnética gradual em jatos de buracos negros supermassivos</title>
-              <link>https://www.cosmosweek.com/noticia/electromagnetic-signatures-of-gradual-magnetic-dissipation-in-jets-from-supermassive-black-holes/</link>
-              <guid>https://www.cosmosweek.com/noticia/electromagnetic-signatures-of-gradual-magnetic-dissipation-in-jets-from-supermassive-black-holes/</guid>
-              <pubDate>Tue, 03 Nov 2026 18:26:25 +0000</pubDate>
+              <title>Sondando a estrutura do vento solar durante conjunções do pulsar do caranguejo com dispersão e rotação de Faraday</title>
+              <link>https://www.cosmosweek.com/noticia/probing-solar-wind-structure-during-crab-pulsar-conjunctions-with-dispersion-and-faraday-rotatio/</link>
+              <guid>https://www.cosmosweek.com/noticia/probing-solar-wind-structure-during-crab-pulsar-conjunctions-with-dispersion-and-faraday-rotatio/</guid>
+              <pubDate>Wed, 04 Nov 2026 16:13:05 +0000</pubDate>
               <author>contato@cosmosweek.com (Cosmos Week)</author>
-              <description>Os jatos Blazar - fluxos de plasma colimados e relativísticos vistos em pequenos ângulos - são fontes prolíficas de radiação não térmica.</description>
-              <category>Astrofísica</category><category>arXiv High Energy Astrophysics</category><category>Cosmos Week</category><category>Assinaturas eletromagnéticas de dissipação magnética gradual em jatos de buracos negros supermassivos</category>
-              <source url="https://arxiv.org/abs/2611.05322v1">arXiv High Energy Astrophysics</source>
-              <content:encoded>Os jatos Blazar - fluxos de plasma colimados e relativísticos vistos em pequenos ângulos - são fontes prolíficas de radiação não térmica. Desenvolvemos uma estrutura numérica para calcular a emissão de um jato blazar estendido, onde a dissipação gradual de energia, mediada por reconexão magnética, ocorre através de uma ampla gama de distâncias do buraco negro supermassivo. Adaptamos o código de transferência radiativa de código aberto LeHaMoC, que calcula de forma autoconsistente espectros de fótons a partir de partículas carregadas relativísticas que ocupam uma bolha esférica para tratar a emissão de um jato estendido. O jato é tratado como uma série de segmentos que interagem entre si por meio de transferência radiativa. Os efeitos do derramamento de radiação são calculados iterativamente ao longo do jato, contabilizando os efeitos relativísticos decorrentes do movimento relativo entre</content:encoded>
+              <description>Observações do pulsar do Caranguejo durante a conjunção solar sondam a estrutura do plasma no vento solar interno por meio de efeitos de radiopropagação.</description>
+              <category>Astrofísica</category><category>arXiv High Energy Astrophysics</category><category>Cosmos Week</category><category>Sondando a estrutura do vento solar durante conjunções do pulsar do caranguejo com dispersão e rotação de Faraday</category>
+              <source url="https://arxiv.org/abs/2611.06723v1">arXiv High Energy Astrophysics</source>
+              <content:encoded>Observações do pulsar do Caranguejo durante a conjunção solar sondam a estrutura do plasma no vento solar interno por meio de efeitos de radiopropagação. Observações do pulsar Caranguejo (PSR B0531+21) durante a conjunção solar sondam a estrutura do plasma no vento solar interno através de efeitos de radiopropagação. Em nossas medições DM corrigidas por espalhamento, esse recurso, $Δ$DM $= (3, 95 \pm 0, 20) \times 10^{-3}$ pc cm$^{-3}$, é cerca de 20 vezes a dispersão DM diária fora da janela de conjunção. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário. ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem. Tem uma ideia de um projeto que agregue valor à comunidade arXiv? . Saiba mais sobre o arXivLabs. Resumo: Observações do pulsar Car</content:encoded>
             </item><item>
               <title>Rachadura do corpo do resistor da microplaqueta do conjunto da placa de circuito impresso da TB 26-10</title>
               <link>https://www.cosmosweek.com/noticia/tb-26-10-printed-circuit-board-assembly-chip-resistor-body-cracking/</link>
@@ -57,16 +67,6 @@
               <category>Astronomia</category><category>NASA News Releases</category><category>Cosmos Week</category><category>E aí</category>
               <source url="https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/">NASA News Releases</source>
               <content:encoded>Chuvas de meteoros, um marco da nave espacial e uma superlua Capture meteoros Taurid e Leonid, localize Marte perto de Júpiter, comemore o marco do dia-luz da Voyager 1 e assista à superlua de novembro. 15-16: Marte e Júpiter aparecem separados por 1, 2 graus antes do nascer do sol. A primeira de uma série de três superluas consecutivas. Uma lua cheia surge sobre a Área Natural de Vasquez Rocks e o Centro Natural ao norte de Los Angeles, Califórnia, em 24 de junho de 2021. Isso significa que um sinal viajando à velocidade da luz leva 24 horas para chegar à espaçonave, e mais 24 horas para recebermos uma resposta! . Aqui estão as fases da Lua para novembro: Fases da Lua para novembro de 2026, mostrando as datas do Terceiro Quarto Minguante, Lua Nova, Primeiro Quarto Minguante, “Superlua” Cheia e um Terceiro Quarto Minguante final no Horário do Pacífico. Para obter os melhores horários de </content:encoded>
-            </item><item>
-              <title>Hubble da NASA descobre caso de falta de oxigênio em galáxias anãs próximas</title>
-              <link>https://www.cosmosweek.com/noticia/nasa-s-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/</link>
-              <guid>https://www.cosmosweek.com/noticia/nasa-s-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/</guid>
-              <pubDate>Mon, 02 Nov 2026 15:00:39 +0000</pubDate>
-              <author>contato@cosmosweek.com (Cosmos Week)</author>
-              <description>O Hubble da NASA estudou 37 galáxias anãs próximas e descobriu que falta muito do oxigénio que esperavam ver.</description>
-              <category>Astronomia</category><category>NASA News Releases</category><category>Cosmos Week</category><category>Hubble da NASA descobre caso de falta de oxigênio em galáxias anãs próximas</category>
-              <source url="https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/">NASA News Releases</source>
-              <content:encoded>O Hubble da NASA estudou 37 galáxias anãs próximas e descobriu que falta muito do oxigénio que esperavam ver. Esta é uma imagem obtida pelo Telescópio Espacial Hubble da NASA de NGC 4449, uma das galáxias anãs no estudo Galáxias que perdem oxigênio através dos ventos (GLOW). Então, é realmente por razões práticas que escolhemos o oxigênio”, disse Kristen Wingfield McQuinn, investigadora principal do GLOW e chefe da missão do Centro de Operações Científicas do recém-lançado Telescópio Espacial Panorâmico Nancy Grace Roman da NASA no Space Telescope. Imagens do Hubble Explore as imagens icônicas do universo do Hubble e veja fotos de operações de missão e astronautas atendendo o Hubble no espaço. Num artigo publicado segunda-feira no The Astrophysical Journal, investigadores que utilizaram o Hubble estudaram 37 galáxias anãs próximas, pequenas galáxias contendo alguns milhares a centenas de</content:encoded>
             </item><item>
               <title>Novo candidato a planeta anão descoberto pelo NSF – DOE Rubin Observatory</title>
               <link>https://www.cosmosweek.com/noticia/new-dwarf-planet-candidate-discovered-by-nsf-doe-rubin-observatory/</link>
