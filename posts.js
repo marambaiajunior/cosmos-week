@@ -3,6 +3,218 @@
 window.postsData = [
   {
     "id": 1,
+    "slug": "the-last-ice-on-puncak-jaya",
+    "cat": "Ciências da Terra",
+    "catCls": "terra",
+    "img": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-last-ice-on-puncak-jaya/puncakjaya_oli2_20261019_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "inline_images": [
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-last-ice-on-puncak-jaya/puncakjaya_oli2_20261019_th.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/a-global-rebound-for-mangroves/burmamangroves_oli2_20260202_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+        "alt": "In 2010, sediment-filled rivers wind through dark green mangrove forests toward turquoise waters along Burma’s coast. Farther inland, large patches of tan, cleared farmland contrast with the green vegetation.",
+        "alt_pt": "In 2010, sediment-filled rivers wind through dark green mangrove forests toward turquoise waters along Burma’s coast. Farther inland, large patches of tan, cleared farmland contrast with the green vegetation.",
+        "alt_en": "In 2010, sediment-filled rivers wind through dark green mangrove forests toward turquoise waters along Burma’s coast. Farther inland, large patches of tan, cleared farmland contrast with the green vegetation.",
+        "caption": "In 2010, sediment-filled rivers wind through dark green mangrove forests toward turquoise waters along Burma’s coast. Farther inland, large patches of tan, cleared farmland contrast with the green vegetation.",
+        "caption_pt": "In 2010, sediment-filled rivers wind through dark green mangrove forests toward turquoise waters along Burma’s coast. Farther inland, large patches of tan, cleared farmland contrast with the green vegetation.",
+        "caption_en": "In 2010, sediment-filled rivers wind through dark green mangrove forests toward turquoise waters along Burma’s coast. Farther inland, large patches of tan, cleared farmland contrast with the green vegetation."
+      },
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-last-ice-on-puncak-jaya/puncakjaya_tm5_1988308.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+        "alt": "A false-color satellite image from 1988 shows mountain ridges of Indonesia’s Sudirman Range. Bare rock appears brown, and glacial ice, shown in blue, caps several of the highest ridges. Vegetation at lower elevations appears green.",
+        "alt_pt": "A false-color satellite image from 1988 shows mountain ridges of Indonesia’s Sudirman Range. Bare rock appears brown, and glacial ice, shown in blue, caps several of the highest ridges. Vegetation at lower elevations appears green.",
+        "alt_en": "A false-color satellite image from 1988 shows mountain ridges of Indonesia’s Sudirman Range. Bare rock appears brown, and glacial ice, shown in blue, caps several of the highest ridges. Vegetation at lower elevations appears green.",
+        "caption": "A false-color satellite image from 1988 shows mountain ridges of Indonesia’s Sudirman Range. Bare rock appears brown, and glacial ice, shown in blue, caps several of the highest ridges. Vegetation at lower elevations appears green.",
+        "caption_pt": "A false-color satellite image from 1988 shows mountain ridges of Indonesia’s Sudirman Range. Bare rock appears brown, and glacial ice, shown in blue, caps several of the highest ridges. Vegetation at lower elevations appears green.",
+        "caption_en": "A false-color satellite image from 1988 shows mountain ridges of Indonesia’s Sudirman Range. Bare rock appears brown, and glacial ice, shown in blue, caps several of the highest ridges. Vegetation at lower elevations appears green."
+      },
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-last-ice-on-puncak-jaya/puncakjaya_oli2_20261019.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+        "alt": "A false-color satellite image shows the same area in 2026. Only a few small fragments of ice remain, shown in blue, and bare brown rock covers most of the ridgetops that were icy in 1988.",
+        "alt_pt": "A false-color satellite image shows the same area in 2026. Only a few small fragments of ice remain, shown in blue, and bare brown rock covers most of the ridgetops that were icy in 1988.",
+        "alt_en": "A false-color satellite image shows the same area in 2026. Only a few small fragments of ice remain, shown in blue, and bare brown rock covers most of the ridgetops that were icy in 1988.",
+        "caption": "A false-color satellite image shows the same area in 2026. Only a few small fragments of ice remain, shown in blue, and bare brown rock covers most of the ridgetops that were icy in 1988.",
+        "caption_pt": "A false-color satellite image shows the same area in 2026. Only a few small fragments of ice remain, shown in blue, and bare brown rock covers most of the ridgetops that were icy in 1988.",
+        "caption_en": "A false-color satellite image shows the same area in 2026. Only a few small fragments of ice remain, shown in blue, and bare brown rock covers most of the ridgetops that were icy in 1988."
+      },
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-last-ice-on-puncak-jaya/puncakjaya_oli2_20261019_lrg.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+        "alt": "A false-color satellite image shows the same area in 2026. Only a few small fragments of ice remain, shown in blue, and bare brown rock covers most of the ridgetops that were icy in 1988.",
+        "alt_pt": "A false-color satellite image shows the same area in 2026. Only a few small fragments of ice remain, shown in blue, and bare brown rock covers most of the ridgetops that were icy in 1988.",
+        "alt_en": "A false-color satellite image shows the same area in 2026. Only a few small fragments of ice remain, shown in blue, and bare brown rock covers most of the ridgetops that were icy in 1988.",
+        "caption": "A false-color satellite image shows the same area in 2026. Only a few small fragments of ice remain, shown in blue, and bare brown rock covers most of the ridgetops that were icy in 1988.",
+        "caption_pt": "A false-color satellite image shows the same area in 2026. Only a few small fragments of ice remain, shown in blue, and bare brown rock covers most of the ridgetops that were icy in 1988.",
+        "caption_en": "A false-color satellite image shows the same area in 2026. Only a few small fragments of ice remain, shown in blue, and bare brown rock covers most of the ridgetops that were icy in 1988."
+      },
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/vega-island-frozen-in-fright/vegaislandzm_oli2_20261010_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/the-last-ice-on-puncak-jaya/puncakjaya_tm5_1988308.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/the-last-ice-on-puncak-jaya/puncakjaya_oli2_20261019.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-last-ice-on-puncak-jaya/puncakjaya_tm5_1988308_lrg.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      },
+      {
+        "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-last-ice-on-puncak-jaya/puncakjaya_oli2_20261019_lrg.jpg",
+        "alt": "",
+        "alt_pt": "",
+        "alt_en": "",
+        "caption": "",
+        "caption_pt": "",
+        "caption_en": ""
+      }
+    ],
+    "video": null,
+    "audio": null,
+    "title": "The Last Ice on Puncak Jaya",
+    "title_pt": "The Last Ice on Puncak Jaya",
+    "title_en": "The Last Ice on Puncak Jaya",
+    "sub": "Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers.",
+    "sub_pt": "Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers.",
+    "sub_en": "Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers.",
+    "excerpt": "Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers.",
+    "excerpt_pt": "Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers.",
+    "excerpt_en": "Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers.",
+    "body": "<p>Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers. NASA Earth Observatory / Lauren Dauphin 1988 2026 Curtain Toggle 2-Up On the island of New Guinea, Indonesia’s Sudirman Range is one of the few places near the equator that have long held ice year-round.</p><p>Article View more Images of the Day: Nov 13, 2026 Instruments: Landsat 9, OLI Landsat 5 Topics: Glaciers &amp; Ice Sheets 1988 2026 A false-color satellite image from 1988 shows mountain ridges of Indonesia’s Sudirman Range. NASA Earth Observatory / Lauren Dauphin 1988 2026 A false-color satellite image from 1988 shows mountain ridges of Indonesia’s Sudirman Range.</p><p>NASA Earth Observatory / Lauren Dauphin A false-color satellite image shows the same area in 2026. NASA Earth Observatory / Lauren Dauphin 1988 2026 On the island of New Guinea, Indonesia’s Sudirman Range is one of the few places near the equator that have long held ice year-round.</p><p>An aerial survey planned for December should yield an estimate of how much ice remains in 2026, Permana said. Measurements at the primary monitoring site on the East Northwall Firn showed a drop from 32 meters (105 feet) thick in 2010 to 4 meters (13 feet) in 2023, Permana said.</p><p>NASA Earth Observatory (2018, February 14) Glaciers in the Tropics, But Not for Long. NASA’s Scientific Visualization Studio (2021, October 25) Shrinking Tropical Ice Areas.</p><p>You may also be interested in: Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers. NASA Earth Observatory / Lauren Dauphin 1988 2026 Curtain Toggle 2-Up On the island of New Guinea, Indonesia’s Sudirman Range is one of the few places near the equator that have long held ice year-round.</p><p>Article View more Images of the Day: Nov 13, 2026 Instruments: Landsat 9, OLI Landsat 5 Topics: Glaciers &amp; Ice Sheets 1988 2026 A false-color satellite image from 1988 shows mountain ridges of Indonesia’s Sudirman Range. NASA Earth Observatory / Lauren Dauphin 1988 2026 A false-color satellite image from 1988 shows mountain ridges of Indonesia’s Sudirman Range.</p><p>NASA Earth Observatory / Lauren Dauphin A false-color satellite image shows the same area in 2026. NASA Earth Observatory / Lauren Dauphin 1988 2026 On the island of New Guinea, Indonesia’s Sudirman Range is one of the few places near the equator that have long held ice year-round.</p><p>An aerial survey planned for December should yield an estimate of how much ice remains in 2026, Permana said. Measurements at the primary monitoring site on the East Northwall Firn showed a drop from 32 meters (105 feet) thick in 2010 to 4 meters (13 feet) in 2023, Permana said.</p><p>NASA Earth Observatory (2018, February 14) Glaciers in the Tropics, But Not for Long. NASA’s Scientific Visualization Studio (2021, October 25) Shrinking Tropical Ice Areas.</p><p>You may also be interested in: Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in Earth science becomes stronger when local observations can be placed inside a broader physical pattern that spans time and geography. The planet operates as a coupled system in which atmospheric, oceanic, cryospheric and solid-Earth processes interact across timescales from days to millions of years. A measurement that captures one variable at one location and one moment has limited interpretive value until it is embedded in the longer series and wider spatial coverage that allow natural variability to be separated from forced change. NASA Earth Observatory / Lauren Dauphin 1988 2026 Curtain Toggle 2-Up On the island of New Guinea, Indonesia’s Sudirman Range is one of the few places near the equator that have. Article View more Images of the Day: Nov 13, 2026 Instruments: Landsat 9, OLI Landsat 5 Topics: Glaciers &amp; Ice Sheets 1988 2026 A false-color satellite image from 1988 shows.</p><p>NASA Earth Observatory / Lauren Dauphin 1988 2026 A false-color satellite image from 1988 shows mountain ridges of Indonesia’s Sudirman Range. NASA Earth Observatory / Lauren Dauphin A false-color satellite image shows the same area in 2026.</p><p>NASA Earth Observatory / Lauren Dauphin 1988 2026 On the island of New Guinea, Indonesia’s Sudirman Range is one of the few places near the equator that have long held ice. An aerial survey planned for December should yield an estimate of how much ice remains in 2026, Permana said.</p><p>Measurements at the primary monitoring site on the East Northwall Firn showed a drop from 32 meters (105 feet) thick in 2010 to 4 meters (13 feet) in 2023, Permana said. NASA Earth Observatory (2018, February 14) Glaciers in the Tropics, But Not for Long.</p><p>The broader interest lies in linking the observation to climatic, geophysical or environmental dynamics that extend well beyond the immediate event or location. Earth science is unusual in that its most important questions operate on timescales that no single research career can observe directly, making the archival record, whether in ice, sediment, rock or satellite data, as important as any new measurement. Results that can be embedded in that record, and that either confirm or challenge the patterns it reveals, carry disproportionate scientific weight.</p><p>NASA’s Scientific Visualization Studio (2021, October 25) Shrinking Tropical Ice Areas. Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to place the result inside longer time series and to compare it with independent instruments and independent sites. Earth system observations gain most of their interpretive power from network density and temporal depth, not from any single measurement however precise. Model simulations that assimilate the new data will help clarify whether the observation fits comfortably within known natural variability or represents a shift that existing models do not reproduce.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_pt": [
+      "Em foco: Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers",
+      "Detalhe: Origem institucional: distinguir anúncio de evidência",
+      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+    ],
+    "highlights_en": [
+      "Focus: Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers",
+      "Detail: Institutional origin: separate announcement from evidence",
+      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+    ],
+    "date": "16 nov 2026",
+    "date_pt": "16 nov 2026",
+    "date_en": "16 Nov 2026",
+    "time": "05h00",
+    "time_pt": "05h00",
+    "time_en": "05: 00 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-11-16T05:00:00+00:00",
+    "lastModifiedIso": "2026-11-17T00:06:14+00:00",
+    "source": "NASA News Releases",
+    "sourceDomain": "science. nasa. gov",
+    "sourceType": "agency",
+    "sourceTypeLabel": "Fonte institucional",
+    "sourceTypeLabel_pt": "Fonte institucional",
+    "sourceTypeLabel_en": "Institutional source",
+    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
+    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
+    "evidenceKey": "institutional_update",
+    "evidenceLabel": "Atualização institucional",
+    "evidenceLabel_pt": "Atualização institucional",
+    "evidenceLabel_en": "Institutional update",
+    "editorialBand": "flagship",
+    "editorialBandLabel": "Prioridade máxima",
+    "editorialBandLabel_pt": "Prioridade máxima",
+    "editorialBandLabel_en": "Top priority",
+    "keywords": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "The Last Ice on Puncak Jaya"
+    ],
+    "keywords_pt": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "The Last Ice on Puncak Jaya"
+    ],
+    "keywords_en": [
+      "Ciências da Terra",
+      "NASA News Releases",
+      "Cosmos Week",
+      "The Last Ice on Puncak Jaya"
+    ],
+    "srcUrl": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya/",
+    "realUrl": "https://www.cosmosweek.com/?article=the-last-ice-on-puncak-jaya",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=the-last-ice-on-puncak-jaya",
+    "realUrl_en": "https://www.cosmosweek.com/?article=the-last-ice-on-puncak-jaya&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/the-last-ice-on-puncak-jaya/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/the-last-ice-on-puncak-jaya/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/the-last-ice-on-puncak-jaya/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/the-last-ice-on-puncak-jaya/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/the-last-ice-on-puncak-jaya/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/the-last-ice-on-puncak-jaya/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": false,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 100,
+    "scoreBreakdown": {
+      "source": 98,
+      "evidence": 92,
+      "relevance": 84,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "The Last Ice on Puncak Jaya",
+    "imageAlt_pt": "The Last Ice on Puncak Jaya",
+    "imageAlt_en": "The Last Ice on Puncak Jaya",
+    "coverageKind": "agency",
+    "coverageKindLabel": "Fonte institucional",
+    "coverageKindLabel_pt": "Fonte institucional",
+    "coverageKindLabel_en": "Institutional source",
+    "storyKind": "science"
+  },
+  {
+    "id": 2,
     "slug": "a-global-rebound-for-mangroves",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -60,19 +272,19 @@ window.postsData = [
     "body_pt": "<p>Após décadas de declínio, este tipo de floresta ecologicamente significativo está de volta. O par de imagens Landsat acima mostra a expansão das florestas de mangais em Palaw Township, no distrito de Myeik, na Birmânia, uma área que tem visto tanto uma regeneração significativa de florestas de mangais degradadas como a propagação de árvores em novas áreas desde 2010.</p><p>Isto sublinha que a conservação e a desaceleração da desflorestação podem levar a enormes impactos positivos quando combinadas com a expansão natural e a regeneração. ” Imagens do Observatório da Terra da NASA por Michala Garrison, usando dados Landsat dos EUA. (2026) Expansão e regeneração inesperadas nas florestas de mangue da Terra nas últimas quatro décadas.</p><p>Você também pode estar interessado em: Mantenha-se atualizado com o conteúdo mais recente da NASA enquanto exploramos o universo e descobrimos mais sobre nosso planeta natal. Os cientistas começaram a usar satélites para mapear florestas de mangue na década de 1970, após o lançamento do primeiro satélite Landsat.</p><p>Uma pesquisa publicada na Science sugere que a maré mudou. Os autores atribuem a reviravolta ao aumento da consciencialização e aos esforços de restauração após o devastador tsunami do Oceano Índico em 2004, ao reforço das protecções legais para as florestas e às altas taxas de sedimentação que abriram novos lodaçais para a colonização.</p><p>As árvores de mangais são relativamente pequenas, com uma média de cerca de 13 metros (43 pés), mas poderosas do ponto de vista ecológico, com ecossistemas de mangais armazenando até quatro vezes mais carbono do que as florestas tropicais interiores mais altas.</p><p>Em diversas áreas, como em torno da foz do Rio Amazonas e no norte da Austrália, a extensa deposição de sedimentos criou novos lodaçais que os mangais colonizaram com sucesso, contribuindo para aumentos constantes em cada uma destas regiões desde a década de 1990.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>After decades of decline, this ecologically significant type of forest is making a comeback. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. The pair of Landsat images above shows expansion of mangrove forests in Palaw Township in Burma’s Myeik District, an area that has seen both significant regeneration of degraded. This underscores that conservation and slowing deforestation can lead to huge positive impacts when coupled with natural expansion and regeneration.</p><p>(2026) Unexpected expansion and regrowth in Earth’s mangrove forests over the past four decades. Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet.</p><p>Scientists began using satellites to map mangrove forests in the 1970s after the launch of the first Landsat satellite. Research published in Science suggests that the tide has turned.</p><p>The authors attribute the turnaround to increased awareness and restoration efforts after the devastating Indian Ocean tsunami in 2004, strengthened legal protections for forests. The pair of Landsat images above shows expansion of mangrove forests in Palaw Township in Burma&#x27;s Myeik District, an area that has seen both significant regeneration of degraded.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Mangrove trees are relatively small, averaging about 13 meters (43 feet)—but mighty from an ecological perspective, with mangrove ecosystems storing up to four times as much. In several areas, such as around the mouth of the Amazon River and in northern Australia, extensive deposition of sediment has created new mudflats that mangroves have.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Após décadas de declínio, este tipo de floresta ecologicamente significativo está de volta",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Após décadas de declínio, este tipo de floresta ecologicamente significativo está de volta.",
+      "Dado-chave: Após décadas de declínio, este tipo de floresta ecologicamente significativo está de volta",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Após décadas de declínio, este tipo de floresta ecologicamente significativo está de volta",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Após décadas de declínio, este tipo de floresta ecologicamente significativo está de volta.",
+      "Dado-chave: Após décadas de declínio, este tipo de floresta ecologicamente significativo está de volta",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: After decades of decline, this ecologically significant type of forest is making a comeback",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: After decades of decline, this ecologically significant type of forest is making a comeback.",
+      "Key detail: After decades of decline, this ecologically significant type of forest is making a comeback",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "13 nov 2026",
     "date_pt": "13 nov 2026",
@@ -160,7 +372,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "nasa-ames-stars-of-the-month-november-2026",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -181,19 +393,19 @@ window.postsData = [
     "body_pt": "<p>The NASA Ames Science Directorate recognizes the outstanding contributions of Alyssa Villanueva, Steve Howell, and Samuel LeBlanc. Space Biosciences Star: Alyssa Villanueva Alyssa Villaneuva is an engineer at Blue Marble in the Space Biosciences Division on the LEIA (Lunar Explorer Instrument for space biology Applications) team.</p><p>Astrophysics Star: Steve Howell Steve Howell is recognized for his leadership of scientific teams for numerous international space missions. Earth Science Star: Samuel LeBlanc Samuel LeBlanc is a research scientist for the Bay Area Environmental Research Institute in the Earth Science Division.</p><p>The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Alyssa Villanueva, Steve Howell, and Samuel LeBlanc. Article Contents Space Biosciences Star: Alyssa Villanueva Astrophysics Star: Steve Howell Earth Science Star: Samuel LeBlanc The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Alyssa Villanueva, Steve Howell, and Samuel.</p><p>Their commitment to the NASA mission represents the entrepreneurial spirit, technical expertise, and collaborative disposition needed to explore this world and beyond. Alyssa Villaneuva is an engineer at Blue Marble in the Space Biosciences Division on the LEIA (Lunar Explorer Instrument for space biology Applications) team.</p><p>She goes above and beyond in contributing to LEIA every day and has been essential in all the test efforts, in particular with preparation and execution of engineering validation testing. Steve Howell is recognized for his leadership of scientific teams for numerous international space missions.</p><p>His pioneering work in astronomical instrumentation have significantly advanced both space- and ground-based telescope imaging.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/general/nasa-ames-stars-of-the-month-november-2026/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>The NASA Ames Science Directorate recognizes the outstanding contributions of Alyssa Villanueva, Steve Howell, and Samuel LeBlanc. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. Alyssa Villanueva Alyssa Villaneuva is an engineer at Blue Marble in the Space Biosciences Division on the LEIA (Lunar Explorer Instrument for space biology Applications) team. Steve Howell Steve Howell is recognized for his leadership of scientific teams for numerous international space missions.</p><p>Samuel LeBlanc Samuel LeBlanc is a research scientist for the Bay Area Environmental Research Institute in the Earth Science Division. The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Alyssa Villanueva, Steve Howell, and Samuel LeBlanc.</p><p>Article Contents Space Biosciences Star: Alyssa Villanueva Astrophysics Star: Steve Howell Earth Science Star: Samuel LeBlanc The NASA Ames Science Directorate recognizes the. Their commitment to the NASA mission represents the entrepreneurial spirit, technical expertise, and collaborative disposition needed to explore this world and beyond.</p><p>Alyssa Villaneuva is an engineer at Blue Marble in the Space Biosciences Division on the LEIA (Lunar Explorer Instrument for space biology Applications) team. She goes above and beyond in contributing to LEIA every day and has been essential in all the test efforts, in particular with preparation and execution of engineering validation.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Steve Howell is recognized for his leadership of scientific teams for numerous international space missions. His pioneering work in astronomical instrumentation have significantly advanced both space- and ground-based telescope imaging.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/general/nasa-ames-stars-of-the-month-november-2026/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: The NASA Ames Science Directorate recognizes the outstanding contributions of Alyssa Villanueva, Steve Howell, and Samuel LeBlanc",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: The NASA Ames Science Directorate recognizes the outstanding contributions of Alyssa Villanueva, Steve Howell, and Samuel LeBlanc.",
+      "Dado-chave: The NASA Ames Science Directorate recognizes the outstanding contributions of Alyssa Villanueva, Steve Howell, and Samuel LeBlanc",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: The NASA Ames Science Directorate recognizes the outstanding contributions of Alyssa Villanueva, Steve Howell, and Samuel LeBlanc",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: The NASA Ames Science Directorate recognizes the outstanding contributions of Alyssa Villanueva, Steve Howell, and Samuel LeBlanc.",
+      "Dado-chave: The NASA Ames Science Directorate recognizes the outstanding contributions of Alyssa Villanueva, Steve Howell, and Samuel LeBlanc",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: The NASA Ames Science Directorate recognizes the outstanding contributions of Alyssa Villanueva, Steve Howell, and Samuel LeBlanc",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: The NASA Ames Science Directorate recognizes the outstanding contributions of Alyssa Villanueva, Steve Howell, and Samuel LeBlanc.",
+      "Key detail: The NASA Ames Science Directorate recognizes the outstanding contributions of Alyssa Villanueva, Steve Howell, and Samuel LeBlanc",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "12 nov 2026",
     "date_pt": "12 nov 2026",
@@ -284,7 +496,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "a-variable-compact-millimeter-excess-in-the-type-1-seyfert-galaxy-ngc-985-implications-for-a-bla",
     "cat": "Astrofísica",
     "catCls": "astrofisica",
@@ -305,18 +517,19 @@ window.postsData = [
     "body_pt": "<p>A emissão milimétrica compacta de núcleos galácticos ativos silenciosos foi proposta como uma sonda de coronae de disco de acreção magnetizado. Apresentamos três épocas de observações ALMA da galáxia Seyfert tipo 1 NGC 985, juntamente com dados de arquivo pós-atualização do VLA apresentados aqui pela primeira vez, para investigar o seu excesso compacto em milímetros.</p><p>A densidade de fluxo milimétrica diminuiu fortemente entre as duas primeiras épocas do ALMA separadas por aproximadamente um mês, enquanto a componente foi detectada novamente a um nível intermédio na terceira época. Esta variabilidade demonstra um componente compacto intrinsecamente variável e implica um limite de tamanho independente do modelo de $\\lesssim 0, 024$ pc ($\\simeq 1, 1\\times10^3 R_{\\rm S}$).</p><p>A decomposição espectral requer um componente síncrotron compacto e autoabsorvido para reproduzir os dados de ondas milimétricas. Um modelo coronal híbrido térmico/não térmico reproduz os espectros radiomilimétricos, com as duas épocas ALMA amplamente amostradas favorecendo diferentes distribuições de elétrons não térmicos.</p><p>Os tempos estimados de resfriamento radiativo são comparáveis ​​ou menores que o tempo de passagem da luz, implicando injeção contínua ou reaceleração de elétrons não térmicos. Uma mudança na injeção de partículas é o impulsionador mais natural das mudanças espectrais observadas.</p><p>Concluímos que o NGC 985 hospeda um componente síncrotron milimétrico compacto recorrente e variável. Uma coroa magnetizada fornece uma origem plausível, embora os dados atuais não distingam exclusivamente uma origem coronal de alternativas como uma base a jato.</p><p>Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2611.17033v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Compact millimeter emission from radio-quiet active galactic nuclei has been proposed as a probe of magnetized accretion-disk coronae. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>That matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. We present three epochs of ALMA observations of the type-1 Seyfert galaxy NGC 985, together with archival post-upgrade VLA data presented here for the first time, to investigate. The millimeter flux density decreased strongly between the first two ALMA epochs separated by approximately one month, while the component was detected again at an intermediate.</p><p>This variability demonstrates an intrinsically variable compact component and implies a model-independent size limit of $\\lesssim 0.024$ pc ($\\simeq 1.1\\times10^3 R_{\\rm S}$). Spectral decomposition requires a compact, self-absorbed synchrotron component to reproduce the millimeter-wave data.</p><p>A hybrid thermal/nonthermal coronal model reproduces the radio-millimeter spectra, with the two broadly sampled ALMA epochs favoring different nonthermal electron distributions. The estimated radiative cooling times are comparable to or shorter than the light-crossing time, implying continuous injection or reacceleration of nonthermal electrons.</p><p>A change in particle injection is the most natural driver of the observed spectral changes. We conclude that NGC 985 hosts a recurrent and variable compact millimeter synchrotron component.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>A magnetized corona provides a plausible origin, although the present data do not uniquely distinguish a coronal origin from alternatives such as a jet base. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2611.17033v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: A emissão milimétrica compacta de núcleos galácticos ativos silenciosos foi proposta como uma sonda de coronae de disco de acreção magnetizado",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: A emissão milimétrica compacta de núcleos galácticos ativos silenciosos foi proposta como uma sonda de coronae de disco de acreção magnetizado.",
+      "Dado-chave: A emissão milimétrica compacta de núcleos galácticos ativos silenciosos foi proposta como uma sonda de coronae de disco de acreção magnetizado",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: A emissão milimétrica compacta de núcleos galácticos ativos silenciosos foi proposta como uma sonda de coronae de disco de acreção magnetizado",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: A emissão milimétrica compacta de núcleos galácticos ativos silenciosos foi proposta como uma sonda de coronae de disco de acreção magnetizado.",
+      "Dado-chave: A emissão milimétrica compacta de núcleos galácticos ativos silenciosos foi proposta como uma sonda de coronae de disco de acreção magnetizado",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: Compact millimeter emission from radio-quiet active galactic nuclei has been proposed as a probe of magnetized accretion-disk coronae",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: Compact millimeter emission from radio-quiet active galactic nuclei has been proposed as a probe of magnetized accretion-disk coronae.",
+      "Key detail: Compact millimeter emission from radio-quiet active galactic nuclei has been proposed as a probe of magnetized accretion-disk coronae",
+      "Result not yet peer reviewed."
     ],
     "date": "12 nov 2026",
     "date_pt": "12 nov 2026",
@@ -407,7 +620,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "modelling-redshift-space-distortions-with-tracer-centred-split-densities",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -428,18 +641,19 @@ window.postsData = [
     "body_pt": "<p>Foi demonstrado que a análise do agrupamento de galáxias em densidades ambientais divididas oferece uma vantagem sobre o agrupamento padrão de dois pontos para a extração de informações cosmológicas. Um grande desafio para a realização deste potencial com a técnica de divisão de densidade (DS) é que as observações estão no espaço redshift.</p><p>Isso complica sua modelagem, principalmente porque os centros de divisão de densidade podem não ser conservados entre o espaço real e o redshift. Desenvolvemos uma estrutura de modelagem que se divide no PDF de densidade centrado no traçador, em vez do PDF de densidade ponderada por volume comumente usado em estudos anteriores.</p><p>Derivamos o viés linear associado à densidade limite no espaço redshift, permitindo-nos conectar o agrupamento DS em grande escala ao PDF de densidade. Descobrimos que o campo de densidade limite consiste em estruturas semelhantes a donuts, que denominamos &#x27;ilha(s)&#x27;.</p><p>Propomos um modelo empírico, análogo à estrutura do modelo halo, que compreende termos lineares, não lineares e estocásticos e reproduz com precisão o agrupamento anisotrópico de rastreadores no espaço redshift em cada compartimento DS. Usando este modelo, confirmamos que o agrupamento DS pode fornecer restrições mais rígidas aos parâmetros cosmológicos do que a estatística padrão de dois pontos.</p><p>Mostramos que o ganho em informação cosmológica das análises de DS em relação às estatísticas padrão de dois pontos surge principalmente do conhecimento da PDF de densidade, que incorpora modos de perturbação de pequena escala abaixo da escala de suavização. Tanto indivíduos como organizações que trabalham com arXivLabs abraçaram e aceitaram nossos valores de abertura, comunidade, excelência e privacidade dos dados do usuário.</p><p>ArXiv está comprometido com esses valores e só trabalha com parceiros que os aderem.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2611.17009v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Analysing galaxy clustering in split environmental densities has been demonstrated to offer an advantage over standard two-point clustering for extracting cosmological information. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. A major challenge to realising this potential with the density-split (DS) technique is that the observations are in redshift space. This complicates its modelling, primarily because the density-split centres may not be conserved between real and redshift space.</p><p>We develop a modelling framework that splits on the tracer-centred density PDF, rather than the volume-weighted density PDF commonly used in previous studies. We derive the linear bias associated with the threshold density in redshift space, enabling us to connect large-scale DS clustering to the density PDF.</p><p>We find that the threshold density field consists of doughnut-like structures, which we term `Island(s)&#x27;. We propose an empirical model, analogous to the halo model framework, that comprises linear, non-linear, and stochastic terms and accurately reproduces the anisotropic.</p><p>Using this model, we confirm that DS clustering can provide tighter constraints on cosmological parameters than the standard two-point statistic. Furthermore, we show that the gain in cosmological information from DS analyses relative to standard two-point statistics arises primarily from knowledge of the density PDF, which.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. ArXiv is committed to these values and only works with partners that adhere to them.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2611.17009v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Foi demonstrado que a análise do agrupamento de galáxias em densidades ambientais divididas oferece uma vantagem sobre o agrupamento padrão de dois",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Foi demonstrado que a análise do agrupamento de galáxias em densidades ambientais divididas oferece uma vantagem sobre o agrupamento padrão de dois.",
+      "Dado-chave: Foi demonstrado que a análise do agrupamento de galáxias em densidades ambientais divididas oferece uma vantagem sobre o agrupamento padrão de.",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: Foi demonstrado que a análise do agrupamento de galáxias em densidades ambientais divididas oferece uma vantagem sobre o agrupamento padrão de dois",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: Foi demonstrado que a análise do agrupamento de galáxias em densidades ambientais divididas oferece uma vantagem sobre o agrupamento padrão de dois.",
+      "Dado-chave: Foi demonstrado que a análise do agrupamento de galáxias em densidades ambientais divididas oferece uma vantagem sobre o agrupamento padrão de.",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: Analysing galaxy clustering in split environmental densities has been demonstrated to offer an advantage over standard two-point clustering for",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: Analysing galaxy clustering in split environmental densities has been demonstrated to offer an advantage over standard two-point clustering for.",
+      "Key detail: Analysing galaxy clustering in split environmental densities has been demonstrated to offer an advantage over standard two-point clustering for",
+      "Result not yet peer reviewed."
     ],
     "date": "12 nov 2026",
     "date_pt": "12 nov 2026",
@@ -530,7 +744,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "through-nasa-s-lens-capturing-space-shuttle-endeavour-s-move-to-la",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -564,19 +778,19 @@ window.postsData = [
     "body_pt": "<p>As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission. These photographers documented the iconic images shared around the world on Sept.</p><p>3 Min Read Through NASA’s Lens: Capturing Space Shuttle Endeavour’s Move to LA A spectacular sight as NASA’s Shuttle Carrier Aircraft with space shuttle Endeavour atop soars over the Golden Gate Bridge. Credits: NASA/Carla Thomas As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission.</p><p>NASA/Lori Losey “Chasing Endeavour’s final ferry flight over Southern California was, without a doubt, a leading highlight of my 37-year career at NASA,” said Lori Losey, lead videographer at NASA’s Armstrong Flight Research Center in Edwards, California. NASA/Jim Ross Endeavour was escorted by NASA Armstrong’s F/A-18s and an F-15, which carried the photo and video teams in the back seats.</p><p>Shuttle Endeavour was ferried to Los Angeles, briefly flying over the California state capitol, Sacramento, then demated from its NASA 747 and trailered to the California Science Center. NASA/Carla Thomas Share Details Last Updated Nov 11.</p><p>These photographers documented the iconic People from communities all over California watched the skies in hopes of catching a glimpse of space shuttle Endeavour as it was ferried on the NASA 747 Shu. Article As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission.</p><p>Endeavour’s new home at the California Science Center in Los Angeles will reopen the weekend of Nov.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/armstrong/through-nasas-lens-capturing-space-shuttle-endeavours-move-to-la/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission. These photographers documented the iconic images shared around the world on Sept. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>That matters because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. 3 Min Read Through NASA’s Lens: Capturing Space Shuttle Endeavour’s Move to LA A spectacular sight as NASA’s Shuttle Carrier Aircraft with space shuttle Endeavour atop soars over. NASA/Carla Thomas As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission.</p><p>NASA/Lori Losey “Chasing Endeavour’s final ferry flight over Southern California was, without a doubt, a leading highlight of my 37-year career at NASA,” said Lori Losey, lead. NASA/Jim Ross Endeavour was escorted by NASA Armstrong’s F/A-18s and an F-15, which carried the photo and video teams in the back seats.</p><p>Shuttle Endeavour was ferried to Los Angeles, briefly flying over the California state capitol, Sacramento, then demated from its NASA 747 and trailered to the California Science. NASA/Carla Thomas Share Details Last Updated Nov 11.</p><p>These photographers documented the iconic People from communities all over California watched the skies in hopes of catching a glimpse of space shuttle Endeavour as it was ferried. Article As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Endeavour’s new home at the California Science Center in Los Angeles will reopen the weekend of Nov. Chasing Endeavour’s final ferry flight over Southern California was, without a doubt, a leading highlight of my 37-year career at NASA,” said Lori Losey, lead videographer at.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://www.nasa.gov/centers-and-facilities/armstrong/through-nasas-lens-capturing-space-shuttle-endeavours-move-to-la/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission.",
+      "Dado-chave: As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission.",
+      "Dado-chave: As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission.",
+      "Key detail: As a new exhibit opens showcasing NASA’s space shuttle Endeavour, NASA photographers look back at the final mission",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "12 nov 2026",
     "date_pt": "12 nov 2026",
@@ -660,186 +874,6 @@ window.postsData = [
     "imageAlt": "Through NASA’s Lens: Capturing Space Shuttle Endeavour’s Move to LA",
     "imageAlt_pt": "Through NASA’s Lens: Capturing Space Shuttle Endeavour’s Move to LA",
     "imageAlt_en": "Through NASA’s Lens: Capturing Space Shuttle Endeavour’s Move to LA",
-    "coverageKind": "agency",
-    "coverageKindLabel": "Fonte institucional",
-    "coverageKindLabel_pt": "Fonte institucional",
-    "coverageKindLabel_en": "Institutional source",
-    "storyKind": "science"
-  },
-  {
-    "id": 6,
-    "slug": "nasa-scientists-show-how-gravitational-waves-can-reveal-new-worlds",
-    "cat": "Exoplanetas",
-    "catCls": "exoplanetas",
-    "img": "https://assets.science.nasa.gov/content/dam/science/missions/lisa/news/2026/l3harris-award-for-test-telescope/LISA_key_visual_ESA_lg_ac.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-    "inline_images": [
-      {
-        "src": "https://assets.science.nasa.gov/content/dam/science/missions/lisa/news/2026/l3harris-award-for-test-telescope/LISA_key_visual_ESA_lg_ac.jpg/jcr:content/renditions/cq5dam.thumbnail.319.319.png",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-1.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-2.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-3.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      },
-      {
-        "src": "https://science.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-4.jpg",
-        "alt": "",
-        "alt_pt": "",
-        "alt_en": "",
-        "caption": "",
-        "caption_pt": "",
-        "caption_en": ""
-      }
-    ],
-    "video": {
-      "kind": "embed",
-      "platform": "youtube",
-      "embedUrl": "https://www.youtube-nocookie.com/embed/wQKfWMQ5c5E?rel=0&modestbranding=1",
-      "fileUrl": "",
-      "poster": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/lisa/news/2026/l3harris-award-for-test-telescope/LISA_key_visual_ESA_lg_ac.jpg?w=3840&h=2160&fit=clip&crop=faces%2Cfocalpoint",
-      "title": "Como as ondas gravitacionais podem revelar novos mundos",
-      "title_pt": "Como as ondas gravitacionais podem revelar novos mundos",
-      "title_en": "How Gravitational Waves Can Reveal New Worlds",
-      "caption": "O observatório LISA (Laser Interferometer Space Antenna), agora em desenvolvimento, detectará ondas gravitacionais, as pequenas ondulações no espaço-tempo causadas pela órbita. ..",
-      "caption_pt": "O observatório LISA (Laser Interferometer Space Antenna), agora em desenvolvimento, detectará ondas gravitacionais, as pequenas ondulações no espaço-tempo causadas pela órbita. ..",
-      "caption_en": "The LISA (Laser Interferometer Space Antenna) observatory, now in development, will detect gravitational waves, the tiny ripples in space-time caused by orbi. ..",
-      "sourcePage": "https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/"
-    },
-    "audio": null,
-    "title": "Cientistas da NASA mostram como as ondas gravitacionais podem revelar novos mundos",
-    "title_pt": "Cientistas da NASA mostram como as ondas gravitacionais podem revelar novos mundos",
-    "title_en": "NASA Scientists Show How Gravitational Waves Can Reveal New Worlds",
-    "sub": "O observatório LISA, agora em desenvolvimento, irá detectar ondas gravitacionais, as pequenas ondulações no espaço-tempo causadas por massas em órbita.",
-    "sub_pt": "O observatório LISA, agora em desenvolvimento, irá detectar ondas gravitacionais, as pequenas ondulações no espaço-tempo causadas por massas em órbita.",
-    "sub_en": "The LISA observatory, now in development, will detect gravitational waves, the tiny ripples in space-time caused by orbiting masses.",
-    "excerpt": "O observatório LISA, agora em desenvolvimento, irá detectar ondas gravitacionais, as pequenas ondulações no espaço-tempo causadas por massas em órbita.",
-    "excerpt_pt": "O observatório LISA, agora em desenvolvimento, irá detectar ondas gravitacionais, as pequenas ondulações no espaço-tempo causadas por massas em órbita.",
-    "excerpt_en": "The LISA observatory, now in development, will detect gravitational waves, the tiny ripples in space-time caused by orbiting masses.",
-    "body": "<p>O observatório LISA, agora em desenvolvimento, irá detectar ondas gravitacionais, as pequenas ondulações no espaço-tempo causadas por massas em órbita. 5 min ler Cientistas da NASA mostram como as ondas gravitacionais podem revelar novos mundos O observatório LISA (Laser Interferometer Space Antenna), agora em desenvolvimento, detectará ondas gravitacionais, as pequenas ondulações no espaço-tempo causadas por massas em órbita.</p><p>O Telescópio Espacial James Webb, sensível ao infravermelho da NASA, mostrado neste conceito artístico, será capaz de confirmar planetas detectados por ondas gravitacionais em sistemas binários de anãs brancas localizados a algumas centenas de anos-luz. As ondas gravitacionais da ESA foram previstas pela teoria da relatividade geral de Albert Einstein de 1916 e detectadas pela primeira vez por observatórios terrestres em 2015.</p><p>Parceiros avançam artigo de hardware de protótipo LISA 10 meses atrás 2 min ler NASA revela protótipo de telescópio para observatório de ondas gravitacionais Artigo 2 anos atrás Continue explorando Descubra tópicos relacionados Missões Humanos no espaço Mudanças climáticas. Agora, dois estudos liderados por astrofísicos da NASA mostram com novos detalhes como o LISA poderia revelar uma população nova e única de exoplanetas, mundos além do nosso sistema solar, em toda a nossa galáxia.</p><p>O segundo artigo, de McGrath e co-autores, investiga como tais planetas poderiam ser confirmados usando o Telescópio Espacial James Webb da NASA. A possibilidade de detectar exoplanetas em torno de sistemas de anãs brancas duplas LISA foi proposta pela primeira vez pelo astrônomo japonês Naoki Seto em 2008.</p><p>Liderada pela ESA (Agência Espacial Europeia), a missão LISA está prevista para ser lançada em meados da década de 2030. Como parceiro colaborativo, a NASA está contribuindo com telescópios, outro hardware crítico e apoio científico e de engenharia como parte de sua missão de compreender melhor como o universo funciona.</p><p>As ondas gravitacionais foram previstas pela teoria da relatividade geral de Albert Einstein de 1916 e detectadas pela primeira vez por observatórios terrestres em 2015.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>O observatório LISA, agora em desenvolvimento, irá detectar ondas gravitacionais, as pequenas ondulações no espaço-tempo causadas por massas em órbita. 5 min ler Cientistas da NASA mostram como as ondas gravitacionais podem revelar novos mundos O observatório LISA (Laser Interferometer Space Antenna), agora em desenvolvimento, detectará ondas gravitacionais, as pequenas ondulações no espaço-tempo causadas por massas em órbita.</p><p>O Telescópio Espacial James Webb, sensível ao infravermelho da NASA, mostrado neste conceito artístico, será capaz de confirmar planetas detectados por ondas gravitacionais em sistemas binários de anãs brancas localizados a algumas centenas de anos-luz. As ondas gravitacionais da ESA foram previstas pela teoria da relatividade geral de Albert Einstein de 1916 e detectadas pela primeira vez por observatórios terrestres em 2015.</p><p>Parceiros avançam artigo de hardware de protótipo LISA 10 meses atrás 2 min ler NASA revela protótipo de telescópio para observatório de ondas gravitacionais Artigo 2 anos atrás Continue explorando Descubra tópicos relacionados Missões Humanos no espaço Mudanças climáticas. Agora, dois estudos liderados por astrofísicos da NASA mostram com novos detalhes como o LISA poderia revelar uma população nova e única de exoplanetas, mundos além do nosso sistema solar, em toda a nossa galáxia.</p><p>O segundo artigo, de McGrath e co-autores, investiga como tais planetas poderiam ser confirmados usando o Telescópio Espacial James Webb da NASA. A possibilidade de detectar exoplanetas em torno de sistemas de anãs brancas duplas LISA foi proposta pela primeira vez pelo astrônomo japonês Naoki Seto em 2008.</p><p>Liderada pela ESA (Agência Espacial Europeia), a missão LISA está prevista para ser lançada em meados da década de 2030. Como parceiro colaborativo, a NASA está contribuindo com telescópios, outro hardware crítico e apoio científico e de engenharia como parte de sua missão de compreender melhor como o universo funciona.</p><p>As ondas gravitacionais foram previstas pela teoria da relatividade geral de Albert Einstein de 1916 e detectadas pela primeira vez por observatórios terrestres em 2015.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>The LISA observatory, now in development, will detect gravitational waves, the tiny ripples in space-time caused by orbiting masses. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because exoplanet science has moved beyond the era of simple discovery into a period of comparative characterization. With more than five thousand confirmed planets known, the scientifically productive questions now concern atmospheric composition, internal structure, orbital history and the statistical properties of populations rather than the existence of individual worlds. A new detection or spectral measurement is most valuable when it adds a well-constrained data point to those comparative frameworks, not when it stands alone as an anecdote. 5 min read NASA Scientists Show How Gravitational Waves Can Reveal New Worlds The LISA (Laser Interferometer Space Antenna) observatory, now in development, will detect. NASA’s infrared-sensitive James Webb Space Telescope, shown in this artist’s concept, will be able to confirm planets detected by gravitational waves in binary white dwarf systems.</p><p>NASA’s Goddard Space Flight Center Conceptual Image Lab Astronomers estimate that our Milky Way galaxy contains 10 million double white dwarf systems with orbital periods of less. ESA Gravitational waves were predicted by Albert Einstein’s 1916 general theory of relativity and first detected by ground-based observatories in 2015.</p><p>Partners Advance LISA Prototype Hardware Article 10 months ago 2 min read NASA Reveals Prototype Telescope for Gravitational Wave Observatory Article 2 years ago Keep Exploring. Now two studies led by NASA astrophysicists show in new detail how LISA could reveal a new and unique population of exoplanets, worlds beyond our solar system, throughout our.</p><p>The second paper, by McGrath and coauthors, investigates how such planets could be confirmed using NASA’s James Webb Space Telescope. The possibility of detecting exoplanets around LISA double white dwarf systems was first proposed by Japanese astronomer Naoki Seto in 2008.</p><p>The broader interest lies in making the target less anecdotal and more comparable with the rest of the known planetary population. Population-level questions, such as the frequency of atmospheres around small rocky planets or the prevalence of water-rich worlds in the habitable zone, require well-characterized individual data points before statistical patterns become meaningful. Each new planet with a measured radius, mass and, ideally, atmospheric constraint is a brick in that larger structure, and the accumulation of bricks eventually allows theorists to test formation models against real distributions rather than projections.</p><p>Led by ESA (European Space Agency), the LISA mission is slated for launch in the mid-2030s. As a collaborative partner, NASA is contributing the telescopes, other critical hardware, and engineering and scientific support as part of its mission to better understand how.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to improve independent constraints on the mass, radius, atmospheric composition and orbital dynamics of the target. Transmission spectroscopy with JWST, radial velocity campaigns with high-resolution ground-based spectrographs and phase-curve measurements from space photometry represent the observational toolkit that can move characterization from plausible to robust. That convergence of techniques is the standard the community now expects before a planetary atmosphere result is treated as confirmed.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: O observatório LISA, agora em desenvolvimento, irá detectar ondas gravitacionais, as pequenas ondulações no espaço-tempo causadas por massas em.",
-      "Dado-chave: O observatório LISA, agora em desenvolvimento, irá detectar ondas gravitacionais, as pequenas ondulações no espaço-tempo causadas por massas em.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_pt": [
-      "Ponto central: O observatório LISA, agora em desenvolvimento, irá detectar ondas gravitacionais, as pequenas ondulações no espaço-tempo causadas por massas em.",
-      "Dado-chave: O observatório LISA, agora em desenvolvimento, irá detectar ondas gravitacionais, as pequenas ondulações no espaço-tempo causadas por massas em.",
-      "Origem institucional: distinguir anúncio de evidência."
-    ],
-    "highlights_en": [
-      "Core point: The LISA observatory, now in development, will detect gravitational waves, the tiny ripples in space-time caused by orbiting masses.",
-      "Key detail: The LISA observatory, now in development, will detect gravitational waves, the tiny ripples in space-time caused by orbiting masses.",
-      "Institutional origin: separate announcement from evidence."
-    ],
-    "date": "10 nov 2026",
-    "date_pt": "10 nov 2026",
-    "date_en": "10 Nov 2026",
-    "time": "16h00",
-    "time_pt": "16h00",
-    "time_en": "16: 00 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-11-10T16:00:26+00:00",
-    "lastModifiedIso": "2026-11-10T21:42:41+00:00",
-    "source": "NASA News Releases",
-    "sourceDomain": "science. nasa. gov",
-    "sourceType": "agency",
-    "sourceTypeLabel": "Fonte institucional",
-    "sourceTypeLabel_pt": "Fonte institucional",
-    "sourceTypeLabel_en": "Institutional source",
-    "sourceNote": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_pt": "Fonte primária institucional. Boa para anúncio inicial e contexto operacional, mas não substitui validação independente.",
-    "sourceNote_en": "Primary institutional source. Useful for first disclosure and operational context, but not a substitute for independent validation.",
-    "evidenceKey": "institutional_update",
-    "evidenceLabel": "Atualização institucional",
-    "evidenceLabel_pt": "Atualização institucional",
-    "evidenceLabel_en": "Institutional update",
-    "editorialBand": "flagship",
-    "editorialBandLabel": "Prioridade máxima",
-    "editorialBandLabel_pt": "Prioridade máxima",
-    "editorialBandLabel_en": "Top priority",
-    "keywords": [
-      "Exoplanetas",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Cientistas da NASA mostram como as ondas gravitacionais podem revelar novos mundos"
-    ],
-    "keywords_pt": [
-      "Exoplanetas",
-      "NASA News Releases",
-      "Cosmos Week",
-      "Cientistas da NASA mostram como as ondas gravitacionais podem revelar novos mundos"
-    ],
-    "keywords_en": [
-      "Exoplanets",
-      "NASA News Releases",
-      "Cosmos Week",
-      "NASA scientists show how gravitational waves can reveal new worlds"
-    ],
-    "srcUrl": "https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/",
-    "realUrl": "https://www.cosmosweek.com/?article=nasa-scientists-show-how-gravitational-waves-can-reveal-new-worlds",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=nasa-scientists-show-how-gravitational-waves-can-reveal-new-worlds",
-    "realUrl_en": "https://www.cosmosweek.com/?article=nasa-scientists-show-how-gravitational-waves-can-reveal-new-worlds&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/nasa-scientists-show-how-gravitational-waves-can-reveal-new-worlds/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/nasa-scientists-show-how-gravitational-waves-can-reveal-new-worlds/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/nasa-scientists-show-how-gravitational-waves-can-reveal-new-worlds/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/nasa-scientists-show-how-gravitational-waves-can-reveal-new-worlds/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/nasa-scientists-show-how-gravitational-waves-can-reveal-new-worlds/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/nasa-scientists-show-how-gravitational-waves-can-reveal-new-worlds/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": false,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 100,
-    "scoreBreakdown": {
-      "source": 98,
-      "evidence": 92,
-      "relevance": 88,
-      "accessibility": 60,
-      "novelty": 55
-    },
-    "imageAlt": "Cientistas da NASA mostram como as ondas gravitacionais podem revelar novos mundos",
-    "imageAlt_pt": "Cientistas da NASA mostram como as ondas gravitacionais podem revelar novos mundos",
-    "imageAlt_en": "NASA Scientists Show How Gravitational Waves Can Reveal New Worlds",
     "coverageKind": "agency",
     "coverageKindLabel": "Fonte institucional",
     "coverageKindLabel_pt": "Fonte institucional",
