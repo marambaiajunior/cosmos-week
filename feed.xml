@@ -5,7 +5,7 @@
     <link>https://www.cosmosweek.com/</link>
     <description>Portal de jornalismo científico com foco em astronomia, astrofísica, cosmologia e ciência de fronteira.</description>
     <language>pt-BR</language>
-    <lastBuildDate>Thu, 19 Nov 2026 23:02:40 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 22:36:45 +0000</lastBuildDate>
     <generator>CosmosWeekBot 5.0</generator>
     <item>
               <title>NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars</title>
@@ -27,6 +27,16 @@
               <category>Astronomia</category><category>NASA News Releases</category><category>Cosmos Week</category><category>El Niño Rains Paint the Atacama</category>
               <source url="https://science.nasa.gov/earth/earth-observatory/el-nino-rains-paint-the-atacama/">NASA News Releases</source>
               <content:encoded>Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of the satellite era. September 14 october 24 NASA Earth Observatory/Michala Garrison NASA Earth Observatory/Michala Garrison september 14 october 24 NASA Earth Observatory/Michala Garrison NASA Earth Observatory/Michala Garrison september 14 october 24 Curtain Toggle 2-Up Cistanthe is abundant here. Downloads September 14, 2026 JPEG (28.21 MB) October 24, 2026 JPEG (27.42 MB) References &amp; Resources Atlas Obscura (2024, May 10) Witness the Stunning and Ephemeral Desierto Florido. Rare, Widespread Snow in the Atacama Desert 4 min read Back-to-back winter storms in August 2026 brought snowfall to northern Chile, from the Andes to near the Pacific coast. Earth Observatory Image of the Day NASA’s Earth Observatory brings you the Earth, every day, with </content:encoded>
+            </item><item>
+              <title>Dark Matter Model Implications of a Candidate Sub-halo Near the Sun, and the Data Needed to Discriminate Among Them</title>
+              <link>https://www.cosmosweek.com/noticia/dark-matter-model-implications-of-a-candidate-sub-halo-near-the-sun-and-the-data-needed-to-discr/</link>
+              <guid>https://www.cosmosweek.com/noticia/dark-matter-model-implications-of-a-candidate-sub-halo-near-the-sun-and-the-data-needed-to-discr/</guid>
+              <pubDate>Thu, 19 Nov 2026 01:57:40 +0000</pubDate>
+              <author>contato@cosmosweek.com (Cosmos Week)</author>
+              <description>Pulsar-timing accelerations point to a localized mass concentration near the Sun, consistent with a dark matter sub-halo.</description>
+              <category>Cosmologia</category><category>arXiv High Energy Astrophysics</category><category>Cosmos Week</category><category>Dark Matter Model Implications of a Candidate Sub</category>
+              <source url="https://arxiv.org/abs/2611.25359v1">arXiv High Energy Astrophysics</source>
+              <content:encoded>Pulsar-timing accelerations point to a localized mass concentration near the Sun, consistent with a dark matter sub-halo. We work out what such an object implies for the nature of dark matter, organizing the implications by their observable effect: suppression or enhancement of structure formation, internal structure and survival after formation, and emission or scattering by the constituents. We discuss ultralight wave dark matter, thermal and nonthermal warm dark matter, dark acoustic oscillations and dark matter-baryon scattering, elastic and inelastic self-interactions, invisible decays with recoil, primordial black holes, indirect detection, and a possible. We then ask what new data would discriminate among these models. The existing accelerations are measured outside the tidal radius, where they are blind to the interior mass distribution, to the object's velocity, and to the sub-h</content:encoded>
             </item><item>
               <title>Thank You for Doing NASA Science!</title>
               <link>https://www.cosmosweek.com/noticia/thank-you-for-doing-nasa-science/</link>
@@ -57,16 +67,6 @@
               <category>Cosmologia</category><category>arXiv Cosmology</category><category>Cosmos Week</category><category>Reconstructing the mass</category>
               <source url="https://arxiv.org/abs/2611.24281v1">arXiv Cosmology</source>
               <content:encoded>The formation and evolution of supermassive black holes remain major open questions in astrophysics. Astrophysical models of SMBHs invoke black-hole seeds formed at high redshift, which subsequently grow through gas accretion and mergers. The formation and evolution of supermassive black holes (SMBHs) remain major open questions in astrophysics. Astrophysical models of SMBHs invoke black-hole (BH) seeds formed at high redshift, which subsequently grow through gas accretion and mergers. Although observations of high-redshift quasars and active galactic nuclei constrain these scenarios, the mechanisms governing SMBH formation and growth remain uncertain. Future gravitational-wave (GW) observations across the millihertz, decihertz, and audio-frequency bands will provide a complementary and direct probe of SMBH assembly by tracing their merger history. We investigate the extent to which mult</content:encoded>
-            </item><item>
-              <title>Probing the Macroscopic Imprints of Singularity Resolution: Polarization Diagnostics of Rotating ABG Black Holes</title>
-              <link>https://www.cosmosweek.com/noticia/probing-the-macroscopic-imprints-of-singularity-resolution-polarization-diagnostics-of-rotating-/</link>
-              <guid>https://www.cosmosweek.com/noticia/probing-the-macroscopic-imprints-of-singularity-resolution-polarization-diagnostics-of-rotating-/</guid>
-              <pubDate>Tue, 17 Nov 2026 15:31:14 +0000</pubDate>
-              <author>contato@cosmosweek.com (Cosmos Week)</author>
-              <description>Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes $\text{M87}^*$ and $\text{Sgr A}^*$, providing experimental supports for investigating physics near.</description>
-              <category>Astrofísica</category><category>arXiv High Energy Astrophysics</category><category>Cosmos Week</category><category>Probing the Macroscopic Imprints of Singularity Resolution</category>
-              <source url="https://arxiv.org/abs/2611.22936v1">arXiv High Energy Astrophysics</source>
-              <content:encoded>Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes $\text{M87}^*$ and $\text{Sgr A}^*$, providing experimental supports for investigating physics near. Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes $\text{M87}^*$ and $\text{Sgr A}^*$, providing experimental supports for investigating physics near the event horizon. In the absence of a complete quantum gravity theory, exploring the observational appearances and polarized images of accretion flows in regularized geometries, and seeking specific observational differences from Kerr black holes, is of value for understanding the singularity. Based on backward ray tracing method, this work investigates both the optical and polarimetric observational features of rota</content:encoded>
             </item><item>
               <title>Novo candidato a planeta anão descoberto pelo NSF – DOE Rubin Observatory</title>
               <link>https://www.cosmosweek.com/noticia/new-dwarf-planet-candidate-discovered-by-nsf-doe-rubin-observatory/</link>

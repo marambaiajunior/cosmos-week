@@ -320,19 +320,19 @@ window.postsData = [
     "body_pt": "<p>Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of the satellite era. September 14 october 24 NASA Earth Observatory/Michala Garrison NASA Earth Observatory/Michala Garrison september 14 october 24 NASA Earth Observatory/Michala Garrison NASA Earth Observatory/Michala Garrison september 14 october 24 Curtain Toggle 2-Up Cistanthe is abundant here.</p><p>Downloads September 14, 2026 JPEG (28.21 MB) October 24, 2026 JPEG (27.42 MB) References &amp; Resources Atlas Obscura (2024, May 10) Witness the Stunning and Ephemeral Desierto Florido. Rare, Widespread Snow in the Atacama Desert 4 min read Back-to-back winter storms in August 2026 brought snowfall to northern Chile, from the Andes to near the Pacific coast.</p><p>Earth Observatory Image of the Day NASA’s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery. And a 2019 study used NASA’s long-term vegetation record to identify 13 Atacama Desert blooms between 1981 and 2015.</p><p>Compared with those past blooms, the 2026 event stands out. This instance of the ‘blooming desert’ phenomenon appears to be the most significant to date, in terms of its extent, intensity, and duration,” Moreira-Muñoz said, “at least since we began using remote sensing.</p><p>You may also be interested in: Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet. Back-to-back winter storms in August 2026 brought snowfall to northern Chile, from the Andes to near the Pacific coast.</p><p>Article The Paradox of Lençóis Maranhenses National Park 5 min read The coastal dune field in Brazil looks like a desert but fills with freshwater lagoons every year.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/el-nino-rains-paint-the-atacama/\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of the satellite era. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>The significance lies in astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. September 14 october 24 NASA Earth Observatory/Michala Garrison NASA Earth Observatory/Michala Garrison september 14 october 24 NASA Earth Observatory/Michala Garrison NASA Earth. Downloads September 14, 2026 JPEG (28.21 MB) October 24, 2026 JPEG (27.42 MB) References &amp; Resources Atlas Obscura (2024, May 10) Witness the Stunning and Ephemeral Desierto.</p><p>Rare, Widespread Snow in the Atacama Desert 4 min read Back-to-back winter storms in August 2026 brought snowfall to northern Chile, from the Andes to near the Pacific coast. Earth Observatory Image of the Day NASA’s Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.</p><p>And a 2019 study used NASA’s long-term vegetation record to identify 13 Atacama Desert blooms between 1981 and 2015. Compared with those past blooms, the 2026 event stands out.</p><p>This instance of the ‘blooming desert’ phenomenon appears to be the most significant to date, in terms of its extent, intensity, and duration,” Moreira-Muñoz said, “at least since. Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Back-to-back winter storms in August 2026 brought snowfall to northern Chile, from the Andes to near the Pacific coast. Article The Paradox of Lençóis Maranhenses National Park 5 min read The coastal dune field in Brazil looks like a desert but fills with freshwater lagoons every year.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/earth/earth-observatory/el-nino-rains-paint-the-atacama/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of the",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of the.",
+      "Dado-chave: Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
-      "Em foco: Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of the",
-      "Detalhe: Origem institucional: distinguir anúncio de evidência",
-      "Leitura editorial: release institucional, útil como fonte primária, mas não como validação independente."
+      "Ponto central: Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of the.",
+      "Dado-chave: Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of.",
+      "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
-      "Focus: Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of the",
-      "Detail: Institutional origin: separate announcement from evidence",
-      "Editorial reading: institutional release, useful as a primary source but not independent validation."
+      "Core point: Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of the.",
+      "Key detail: Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of.",
+      "Institutional origin: separate announcement from evidence."
     ],
     "date": "19 nov 2026",
     "date_pt": "19 nov 2026",
@@ -421,6 +421,132 @@ window.postsData = [
   },
   {
     "id": 3,
+    "slug": "dark-matter-model-implications-of-a-candidate-sub-halo-near-the-sun-and-the-data-needed-to-discr",
+    "cat": "Cosmologia",
+    "catCls": "cosmologia",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg/1280px-Andromeda_Galaxy_%28with_h-alpha%29.jpg",
+    "inline_images": [],
+    "video": null,
+    "audio": null,
+    "title": "Dark Matter Model Implications of a Candidate Sub-halo Near the Sun, and the Data Needed to Discriminate Among Them",
+    "title_pt": "Dark Matter Model Implications of a Candidate Sub-halo Near the Sun, and the Data Needed to Discriminate Among Them",
+    "title_en": "Dark Matter Model Implications of a Candidate Sub-halo Near the Sun, and the Data Needed to Discriminate Among Them",
+    "sub": "Pulsar-timing accelerations point to a localized mass concentration near the Sun, consistent with a dark matter sub-halo.",
+    "sub_pt": "Pulsar-timing accelerations point to a localized mass concentration near the Sun, consistent with a dark matter sub-halo.",
+    "sub_en": "Pulsar-timing accelerations point to a localized mass concentration near the Sun, consistent with a dark matter sub-halo.",
+    "excerpt": "Pulsar-timing accelerations point to a localized mass concentration near the Sun, consistent with a dark matter sub-halo.",
+    "excerpt_pt": "Pulsar-timing accelerations point to a localized mass concentration near the Sun, consistent with a dark matter sub-halo.",
+    "excerpt_en": "Pulsar-timing accelerations point to a localized mass concentration near the Sun, consistent with a dark matter sub-halo.",
+    "body": "<p>Pulsar-timing accelerations point to a localized mass concentration near the Sun, consistent with a dark matter sub-halo. We work out what such an object implies for the nature of dark matter, organizing the implications by their observable effect: suppression or enhancement of structure formation, internal structure and survival after formation, and emission or scattering by the constituents.</p><p>We discuss ultralight wave dark matter, thermal and nonthermal warm dark matter, dark acoustic oscillations and dark matter-baryon scattering, elastic and inelastic self-interactions, invisible decays with recoil, primordial black holes, indirect detection, and a possible. We then ask what new data would discriminate among these models.</p><p>The existing accelerations are measured outside the tidal radius, where they are blind to the interior mass distribution, to the object&#x27;s velocity, and to the sub-halo population. We identify four routes that lift these degeneracies: accelerations measured inside the halo, which separate point-mass, cuspy, and cored profiles.</p><p>Lensing and accretion, which test whether the mass is compact. The morphology of annihilation or decay emission, which probes the inner profile.</p><p>And a search for a comoving stellar population, which tests whether the object is dark and measures its velocity. We also contrast this program with pulsar-timing-array searches for transiting dark matter substructure, which probe vastly lighter objects through a different observable.</p><p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2611.25359v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_pt": "<p>Pulsar-timing accelerations point to a localized mass concentration near the Sun, consistent with a dark matter sub-halo. We work out what such an object implies for the nature of dark matter, organizing the implications by their observable effect: suppression or enhancement of structure formation, internal structure and survival after formation, and emission or scattering by the constituents.</p><p>We discuss ultralight wave dark matter, thermal and nonthermal warm dark matter, dark acoustic oscillations and dark matter-baryon scattering, elastic and inelastic self-interactions, invisible decays with recoil, primordial black holes, indirect detection, and a possible. We then ask what new data would discriminate among these models.</p><p>The existing accelerations are measured outside the tidal radius, where they are blind to the interior mass distribution, to the object&#x27;s velocity, and to the sub-halo population. We identify four routes that lift these degeneracies: accelerations measured inside the halo, which separate point-mass, cuspy, and cored profiles.</p><p>Lensing and accretion, which test whether the mass is compact. The morphology of annihilation or decay emission, which probes the inner profile.</p><p>And a search for a comoving stellar population, which tests whether the object is dark and measures its velocity. We also contrast this program with pulsar-timing-array searches for transiting dark matter substructure, which probe vastly lighter objects through a different observable.</p><p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2611.25359v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
+    "body_en": "<p>Pulsar-timing accelerations point to a localized mass concentration near the Sun, consistent with a dark matter sub-halo. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>It is relevant because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. We work out what such an object implies for the nature of dark matter, organizing the implications by their observable effect: suppression or enhancement of structure formation. We discuss ultralight wave dark matter, thermal and nonthermal warm dark matter, dark acoustic oscillations and dark matter-baryon scattering, elastic and inelastic.</p><p>We then ask what new data would discriminate among these models. The existing accelerations are measured outside the tidal radius, where they are blind to the interior mass distribution, to the object&#x27;s velocity, and to the sub-halo population.</p><p>We identify four routes that lift these degeneracies: accelerations measured inside the halo, which separate point-mass, cuspy, and cored profiles. Lensing and accretion, which test whether the mass is compact.</p><p>The morphology of annihilation or decay emission, which probes the inner profile. And a search for a comoving stellar population, which tests whether the object is dark and measures its velocity.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>We also contrast this program with pulsar-timing-array searches for transiting dark matter substructure, which probe vastly lighter objects through a different observable. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2611.25359v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
+    "highlights": [
+      "Em foco: Pulsar-timing accelerations point to a localized mass concentration near the Sun, consistent with a dark matter sub-halo",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_pt": [
+      "Em foco: Pulsar-timing accelerations point to a localized mass concentration near the Sun, consistent with a dark matter sub-halo",
+      "Detalhe: Resultado ainda sem revisão por pares",
+      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+    ],
+    "highlights_en": [
+      "Focus: Pulsar-timing accelerations point to a localized mass concentration near the Sun, consistent with a dark matter sub-halo",
+      "Editorial reading: provisional result, not yet formally peer reviewed."
+    ],
+    "date": "19 nov 2026",
+    "date_pt": "19 nov 2026",
+    "date_en": "19 Nov 2026",
+    "time": "01h57",
+    "time_pt": "01h57",
+    "time_en": "01: 57 UTC",
+    "read": "4 min de leitura",
+    "read_pt": "4 min de leitura",
+    "read_en": "4 min read",
+    "publishedIso": "2026-11-19T01:57:40+00:00",
+    "lastModifiedIso": "2026-11-20T22:36:00+00:00",
+    "source": "arXiv High Energy Astrophysics",
+    "sourceDomain": "arxiv. org",
+    "sourceType": "preprint",
+    "sourceTypeLabel": "Preprint",
+    "sourceTypeLabel_pt": "Preprint",
+    "sourceTypeLabel_en": "Preprint",
+    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
+    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
+    "evidenceKey": "preprint",
+    "evidenceLabel": "Resultado provisório",
+    "evidenceLabel_pt": "Resultado provisório",
+    "evidenceLabel_en": "Preliminary result",
+    "editorialBand": "high",
+    "editorialBandLabel": "Alta prioridade",
+    "editorialBandLabel_pt": "Alta prioridade",
+    "editorialBandLabel_en": "High priority",
+    "keywords": [
+      "Cosmologia",
+      "arXiv High Energy Astrophysics",
+      "Cosmos Week",
+      "Dark Matter Model Implications of a Candidate Sub",
+      "halo Near the Sun",
+      "and the Data Needed to Discriminate Among Them"
+    ],
+    "keywords_pt": [
+      "Cosmologia",
+      "arXiv High Energy Astrophysics",
+      "Cosmos Week",
+      "Dark Matter Model Implications of a Candidate Sub",
+      "halo Near the Sun",
+      "and the Data Needed to Discriminate Among Them"
+    ],
+    "keywords_en": [
+      "Cosmologia",
+      "arXiv High Energy Astrophysics",
+      "Cosmos Week",
+      "Dark Matter Model Implications of a Candidate Sub",
+      "halo Near the Sun",
+      "and the Data Needed to Discriminate Among Them"
+    ],
+    "srcUrl": "https://arxiv.org/abs/2611.25359v1",
+    "realUrl": "https://www.cosmosweek.com/?article=dark-matter-model-implications-of-a-candidate-sub-halo-near-the-sun-and-the-data-needed-to-discr",
+    "realUrl_pt": "https://www.cosmosweek.com/?article=dark-matter-model-implications-of-a-candidate-sub-halo-near-the-sun-and-the-data-needed-to-discr",
+    "realUrl_en": "https://www.cosmosweek.com/?article=dark-matter-model-implications-of-a-candidate-sub-halo-near-the-sun-and-the-data-needed-to-discr&lang=en",
+    "shareUrl": "https://www.cosmosweek.com/noticia/dark-matter-model-implications-of-a-candidate-sub-halo-near-the-sun-and-the-data-needed-to-discr/",
+    "shareUrl_pt": "https://www.cosmosweek.com/noticia/dark-matter-model-implications-of-a-candidate-sub-halo-near-the-sun-and-the-data-needed-to-discr/",
+    "shareUrl_en": "https://www.cosmosweek.com/en/news/dark-matter-model-implications-of-a-candidate-sub-halo-near-the-sun-and-the-data-needed-to-discr/",
+    "canonicalUrl": "https://www.cosmosweek.com/noticia/dark-matter-model-implications-of-a-candidate-sub-halo-near-the-sun-and-the-data-needed-to-discr/",
+    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/dark-matter-model-implications-of-a-candidate-sub-halo-near-the-sun-and-the-data-needed-to-discr/",
+    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/dark-matter-model-implications-of-a-candidate-sub-halo-near-the-sun-and-the-data-needed-to-discr/",
+    "defaultLanguage": "pt-BR",
+    "availableLanguages": [
+      "pt-BR",
+      "en-US"
+    ],
+    "featured": false,
+    "trending": false,
+    "isPreprint": true,
+    "geminiReviewed": false,
+    "geminiModel": "gemini-2.5-flash",
+    "reviewStatus": "fallback",
+    "reviewProvider": "gemini",
+    "score": 80,
+    "scoreBreakdown": {
+      "source": 63,
+      "evidence": 39,
+      "relevance": 94,
+      "accessibility": 60,
+      "novelty": 52
+    },
+    "imageAlt": "Dark Matter Model Implications of a Candidate Sub-halo Near the Sun, and the Data Needed to Discriminate Among Them",
+    "imageAlt_pt": "Dark Matter Model Implications of a Candidate Sub-halo Near the Sun, and the Data Needed to Discriminate Among Them",
+    "imageAlt_en": "Dark Matter Model Implications of a Candidate Sub-halo Near the Sun, and the Data Needed to Discriminate Among Them",
+    "coverageKind": "preprint",
+    "coverageKindLabel": "Preprint",
+    "coverageKindLabel_pt": "Preprint",
+    "coverageKindLabel_en": "Preprint",
+    "storyKind": "science"
+  },
+  {
+    "id": 4,
     "slug": "thank-you-for-doing-nasa-science",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -470,17 +596,17 @@ window.postsData = [
     "body_en": "<p>It’s Thanksgiving time, and we’re giving thanks to you for doing NASA Science with us! You and NASA’s other volunteers have enabled an incredible banquet of discoveries, by taking data, analyzing data, writing code, writing papers, and. The institutional report frames the development in practical terms and ties it to the broader mission or observing effort.</p><p>It is relevant because astronomy does not advance on single detections. The field builds confidence by accumulating independent observations across different wavelengths, instruments and epochs until isolated signals become defensible conclusions. What looks convincing in one dataset can dissolve when a second instrument looks at the same target, and what looks marginal can solidify when follow-up campaigns confirm the original reading. The current standard requires that a result survive this triangulation before the community treats it as settled. It’s Thanksgiving time, and we’re giving thanks to you for doing NASA Science with us. The Chesapeake Bay is the nation’s largest estuary, and we had people all over submitting observations and helping us cross our 6, 000 observation milestone this year.</p><p>We designed a mini field campaign over the month of August, with 12 science flights and ground-based sensors at participants’ homes. Quest Science Center participants in NASA’s Ozone Where We Live project, from left to right: Rick Stulen, Randy Simpson, Tiffany Nguyen*, Mark Dedon, Pareena Gupta*, Robin.</p><p>Pirjo posts Article It’s Thanksgiving time, and we’re giving thanks to you for doing NASA Science with us. You and NASA’s other volunteers have enabled an incredible banquet of discoveries, by taking data, analyzing data, writing code, writing papers, and even inventing your own.</p><p>We are grateful for their contributions. ” Ryan Scott from the Open Science Data Repository Analysis Working Groups (OSDR AWGs) project said: “A cohort of high school students took. Every citizen science student co-author earned authorship, and many of those listed above started college this fall with a NASA publication already behind them.</p><p>What gives the story weight is not just the object itself, but the way the measurement trims the range of plausible physical explanations. Astronomy has accumulated enough cases to know that the most interesting results are rarely the ones that confirm expectations cleanly; they are the ones that confirm some expectations while complicating others, or that open a parameter space that previous instruments could not reach. The scientific community evaluates these contributions by asking whether the new data constrain a model in a way that older data could not, and whether those constraints survive systematic review.</p><p>Since 2021, volunteers have been with us every step of the way and have made Chesapeake Water Watch possible. The Chesapeake Bay is the nation&#x27;s largest estuary, and we had people all over submitting observations and helping us cross our 6, 000 observation milestone this year.</p><p>Because the account originates with NASA News Releases, it functions best as a primary institutional report that is close to the data and operations, not as independent scientific validation. Institutional communications are produced by organizations with legitimate interests in presenting their work in a favorable light, which does not make them unreliable but does make them partial. Details that complicate the narrative, including instrument limitations, unexpected failures and results below projections, tend to be minimized relative to progress messages. Technical documentation and peer-reviewed publications, where they exist, provide the complementary layer that institutional releases cannot substitute.</p><p>The next step is to see whether other instruments and other wavelengths tell the same story. Campaigns with JWST, the VLT, the forthcoming Extremely Large Telescopes and radio arrays will provide the spectral coverage and spatial resolution needed to move from detection to physical characterization. The timeline for that kind of confirmation is typically measured in years, not months, which is worth keeping in mind when reading the current result.</p><p class=\"art-source\"><a href=\"https://science.nasa.gov/get-involved/citizen-science/thank-you-for-doing-nasa-science/\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
       "Ponto central: It’s Thanksgiving time, and we’re giving thanks to you for doing NASA Science with us.",
-      "Dado-chave: It’s Thanksgiving time, and we’re giving thanks to you for doing NASA Science with us",
+      "Dado-chave: It’s Thanksgiving time, and we’re giving thanks to you for doing NASA Science with us.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_pt": [
       "Ponto central: It’s Thanksgiving time, and we’re giving thanks to you for doing NASA Science with us.",
-      "Dado-chave: It’s Thanksgiving time, and we’re giving thanks to you for doing NASA Science with us",
+      "Dado-chave: It’s Thanksgiving time, and we’re giving thanks to you for doing NASA Science with us.",
       "Origem institucional: distinguir anúncio de evidência."
     ],
     "highlights_en": [
       "Core point: It’s Thanksgiving time, and we’re giving thanks to you for doing NASA Science with us.",
-      "Key detail: It’s Thanksgiving time, and we’re giving thanks to you for doing NASA Science with us",
+      "Key detail: It’s Thanksgiving time, and we’re giving thanks to you for doing NASA Science with us.",
       "Institutional origin: separate announcement from evidence."
     ],
     "date": "18 nov 2026",
@@ -569,7 +695,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "nasa-data-clinches-first-of-its-kind-stellar-merger",
     "cat": "Astronomia",
     "catCls": "astronomia",
@@ -730,7 +856,7 @@ window.postsData = [
     "storyKind": "science"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "reconstructing-the-mass-redshift-distribution-of-supermassive-black-holes-using-multiband-gravit",
     "cat": "Cosmologia",
     "catCls": "cosmologia",
@@ -751,18 +877,19 @@ window.postsData = [
     "body_pt": "<p>The formation and evolution of supermassive black holes remain major open questions in astrophysics. Astrophysical models of SMBHs invoke black-hole seeds formed at high redshift, which subsequently grow through gas accretion and mergers.</p><p>The formation and evolution of supermassive black holes (SMBHs) remain major open questions in astrophysics. Astrophysical models of SMBHs invoke black-hole (BH) seeds formed at high redshift, which subsequently grow through gas accretion and mergers.</p><p>Although observations of high-redshift quasars and active galactic nuclei constrain these scenarios, the mechanisms governing SMBH formation and growth remain uncertain. Future gravitational-wave (GW) observations across the millihertz, decihertz, and audio-frequency bands will provide a complementary and direct probe of SMBH assembly by tracing their merger history.</p><p>We investigate the extent to which multiband GW observations can reconstruct the mass-redshift distribution of these mergers. We simulate populations of BH mergers predicted by different astrophysical models and identify those observable by the millihertz detector LISA, the decihertz detector LGWA, and next-generation ground-based detectors operating in the audio-frequency band.</p><p>We reconstruct the mass-redshift distribution of these mergers using the nonparametric inference code FIGARO. We find that combining observations across frequency bands substantially improves the reconstruction for the light-seed models considered here, whose merger populations span broad ranges of mass and redshift.</p><p>In contrast, for the heavy-seed models considered here, LISA alone recovers most of the accessible mass-redshift distribution, with little additional improvement from the multiband network.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2611.24281v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
     "body_en": "<p>The formation and evolution of supermassive black holes remain major open questions in astrophysics. Astrophysical models of SMBHs invoke black-hole seeds formed at high redshift, which subsequently grow through gas accretion and mergers. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>This matters because cosmology operates at the edge of what current instruments can measure, where systematic errors and model assumptions are never trivial. Small discrepancies between independent measurements have historically pointed toward missing physics rather than simple calibration errors, and the ongoing tension in the Hubble constant is a live example of how a persistent disagreement between methods can reshape the theoretical landscape. Each new dataset that approaches this territory with independent systematics adds real information to a problem that has resisted easy resolution for more than a decade. The formation and evolution of supermassive black holes (SMBHs) remain major open questions in astrophysics. Astrophysical models of SMBHs invoke black-hole (BH) seeds formed at high redshift, which subsequently grow through gas accretion and mergers.</p><p>Although observations of high-redshift quasars and active galactic nuclei constrain these scenarios, the mechanisms governing SMBH formation and growth remain uncertain. Future gravitational-wave (GW) observations across the millihertz, decihertz, and audio-frequency bands will provide a complementary and direct probe of SMBH assembly by tracing.</p><p>We investigate the extent to which multiband GW observations can reconstruct the mass-redshift distribution of these mergers. We simulate populations of BH mergers predicted by different astrophysical models and identify those observable by the millihertz detector LISA, the decihertz detector LGWA, and.</p><p>We reconstruct the mass-redshift distribution of these mergers using the nonparametric inference code FIGARO. We find that combining observations across frequency bands substantially improves the reconstruction for the light-seed models considered here, whose merger populations span broad.</p><p>The relevance goes beyond one dataset because even small shifts in measured parameters can matter when the field is testing the limits of the standard cosmological model. The Lambda-CDM framework describes the observable universe with remarkable economy, but its success rests on two components, dark matter and dark energy, whose physical nature remains entirely unknown. Any credible measurement that tightens or loosens the constraints on those components moves the entire theoretical enterprise forward, regardless of whether the immediate result looks dramatic on its own terms.</p><p>In contrast, for the heavy-seed models considered here, LISA alone recovers most of the accessible mass-redshift distribution, with little additional improvement from the.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether the effect survives when independent surveys, different calibration strategies and tighter control of systematic uncertainties enter the picture. Programmes such as Euclid, DESI and the Rubin Observatory will deliver datasets over the next several years that cover the same parameter space with largely independent methods. If the current signal persists through those tests, its theoretical implications will become impossible to set aside. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2611.24281v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
     "highlights": [
-      "Em foco: The formation and evolution of supermassive black holes remain major open questions in astrophysics",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: The formation and evolution of supermassive black holes remain major open questions in astrophysics.",
+      "Dado-chave: The formation and evolution of supermassive black holes remain major open questions in astrophysics",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_pt": [
-      "Em foco: The formation and evolution of supermassive black holes remain major open questions in astrophysics",
-      "Detalhe: Resultado ainda sem revisão por pares",
-      "Leitura editorial: resultado provisório, ainda sem revisão por pares formal."
+      "Ponto central: The formation and evolution of supermassive black holes remain major open questions in astrophysics.",
+      "Dado-chave: The formation and evolution of supermassive black holes remain major open questions in astrophysics",
+      "Resultado ainda sem revisão por pares."
     ],
     "highlights_en": [
-      "Focus: The formation and evolution of supermassive black holes remain major open questions in astrophysics",
-      "Editorial reading: provisional result, not yet formally peer reviewed."
+      "Core point: The formation and evolution of supermassive black holes remain major open questions in astrophysics.",
+      "Key detail: The formation and evolution of supermassive black holes remain major open questions in astrophysics",
+      "Result not yet peer reviewed."
     ],
     "date": "18 nov 2026",
     "date_pt": "18 nov 2026",
@@ -849,130 +976,6 @@ window.postsData = [
     "imageAlt": "Reconstructing the mass-redshift distribution of supermassive black holes using multiband gravitational-wave observations",
     "imageAlt_pt": "Reconstructing the mass-redshift distribution of supermassive black holes using multiband gravitational-wave observations",
     "imageAlt_en": "Reconstructing the mass-redshift distribution of supermassive black holes using multiband gravitational-wave observations",
-    "coverageKind": "preprint",
-    "coverageKindLabel": "Preprint",
-    "coverageKindLabel_pt": "Preprint",
-    "coverageKindLabel_en": "Preprint",
-    "storyKind": "science"
-  },
-  {
-    "id": 6,
-    "slug": "probing-the-macroscopic-imprints-of-singularity-resolution-polarization-diagnostics-of-rotating-",
-    "cat": "Astrofísica",
-    "catCls": "astrofisica",
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/M87_jet.jpg/1280px-M87_jet.jpg",
-    "inline_images": [],
-    "video": null,
-    "audio": null,
-    "title": "Probing the Macroscopic Imprints of Singularity Resolution: Polarization Diagnostics of Rotating ABG Black Holes",
-    "title_pt": "Probing the Macroscopic Imprints of Singularity Resolution: Polarization Diagnostics of Rotating ABG Black Holes",
-    "title_en": "Probing the Macroscopic Imprints of Singularity Resolution: Polarization Diagnostics of Rotating ABG Black Holes",
-    "sub": "Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes $\\text{M87}^*$ and $\\text{Sgr A}^*$.",
-    "sub_pt": "Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes $\\text{M87}^*$ and $\\text{Sgr A}^*$.",
-    "sub_en": "Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes $\\text{M87}^*$ and $\\text{Sgr A}^*$.",
-    "excerpt": "Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes $\\text{M87}^*$ and $\\text{Sgr A}^*$, providing experimental supports for investigating physics near.",
-    "excerpt_pt": "Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes $\\text{M87}^*$ and $\\text{Sgr A}^*$, providing experimental supports for investigating physics near.",
-    "excerpt_en": "Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes $\\text{M87}^*$ and $\\text{Sgr A}^*$, providing experimental supports for investigating physics near.",
-    "body": "<p>Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes $\\text{M87}^*$ and $\\text{Sgr A}^*$, providing experimental supports for investigating physics near. Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes $\\text{M87}^*$ and $\\text{Sgr A}^*$, providing experimental supports for investigating physics near the event horizon.</p><p>In the absence of a complete quantum gravity theory, exploring the observational appearances and polarized images of accretion flows in regularized geometries, and seeking specific observational differences from Kerr black holes, is of value for understanding the singularity. Based on backward ray tracing method, this work investigates both the optical and polarimetric observational features of rotating Ayón-Beato-García spacetime with regularization parameter $Q$.</p><p>It is found that, compared with the Kerr case, the parameter $Q$ leads to a significant contraction of the size of the inner shadow in the observed optical images. In the polarized images, we focus on two observables, the electric vector position angles (EVPAs) and the depolarization regions, on the observer&#x27;s screen.</p><p>$83^\\circ$), and a multi-branch structure can be observed. Furthermore, the distribution of EVPAs is insensitive to the regularization parameter $Q$ while the morphology of the depolarization regions can be impacted remarkably by $Q$.</p><p>The results provide possible optical observable characteristics for the rotating regular spacetime. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>ArXiv is committed to these values and only works with partners that adhere to them.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2611.22936v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_pt": "<p>Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes $\\text{M87}^*$ and $\\text{Sgr A}^*$, providing experimental supports for investigating physics near. Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes $\\text{M87}^*$ and $\\text{Sgr A}^*$, providing experimental supports for investigating physics near the event horizon.</p><p>In the absence of a complete quantum gravity theory, exploring the observational appearances and polarized images of accretion flows in regularized geometries, and seeking specific observational differences from Kerr black holes, is of value for understanding the singularity. Based on backward ray tracing method, this work investigates both the optical and polarimetric observational features of rotating Ayón-Beato-García spacetime with regularization parameter $Q$.</p><p>It is found that, compared with the Kerr case, the parameter $Q$ leads to a significant contraction of the size of the inner shadow in the observed optical images. In the polarized images, we focus on two observables, the electric vector position angles (EVPAs) and the depolarization regions, on the observer&#x27;s screen.</p><p>$83^\\circ$), and a multi-branch structure can be observed. Furthermore, the distribution of EVPAs is insensitive to the regularization parameter $Q$ while the morphology of the depolarization regions can be impacted remarkably by $Q$.</p><p>The results provide possible optical observable characteristics for the rotating regular spacetime. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>ArXiv is committed to these values and only works with partners that adhere to them.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2611.22936v1\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte</a></p>",
-    "body_en": "<p>Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes $\\text{M87}^*$ and $\\text{Sgr A}^*$, providing experimental supports for investigating physics near. The new analysis still awaits peer review, but it already lays out the central claim clearly.</p><p>This matters because astrophysics becomes persuasive only when an observed signal can be tied to a physically defensible explanation. Compact objects such as neutron stars and black holes are natural laboratories for extreme physics, but the distance and complexity of these systems make interpretation difficult without multi-wavelength coverage and careful modeling. A detection without a mechanism is only half a result. the other half comes from showing that the signal fits quantitatively inside a coherent physical picture rather than merely being consistent with a broad family of models. In the absence of a complete quantum gravity theory, exploring the observational appearances and polarized images of accretion flows in regularized geometries, and seeking. Based on backward ray tracing method, this work investigates both the optical and polarimetric observational features of rotating Ayón-Beato-García spacetime with regularization.</p><p>It is found that, compared with the Kerr case, the parameter $Q$ leads to a significant contraction of the size of the inner shadow in the observed optical images. In the polarized images, we focus on two observables, the electric vector position angles (EVPAs) and the depolarization regions, on the observer&#x27;s screen.</p><p>$83^\\circ$), and a multi-branch structure can be observed. Furthermore, the distribution of EVPAs is insensitive to the regularization parameter $Q$ while the morphology of the depolarization regions can be impacted remarkably by $Q$.</p><p>The results provide possible optical observable characteristics for the rotating regular spacetime. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy.</p><p>The broader interest lies in turning an observational clue into something that can be weighed against competing models of the underlying physics. Astrophysics does not have the luxury of controlled experiments; everything is inferred from radiation that traveled across cosmic distances under conditions that cannot be reproduced in a terrestrial laboratory. This makes the interpretation chain longer and more uncertain than in bench science, but it also means that a well-constrained measurement of an extreme object carries theoretical information that no earthbound experiment can provide.</p><p>ArXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add value for arXiv&#x27;s community.</p><p>Because this is still a preprint, the result should be read with genuine interest and proportionate caution. Peer review is not a guarantee of correctness, but it is a process that forces authors to respond to technical criticism from specialists who have no stake in a particular outcome. Preprints that survive that process, often with substantive revisions, emerge with a stronger evidential base than the version that first appeared. Until that stage is complete, the responsible reading keeps uncertainty explicitly visible rather than treating the claims as established findings.</p><p>The next step is to see whether independent datasets and physical modeling converge on the same interpretation. Multi-wavelength follow-up, combining X-ray, radio and optical data where possible, is typically what separates a compelling detection from a robust physical characterization. In high-energy astrophysics, results that initially looked definitive have been revised when data from a second messenger arrived; the current result should be read with that history in mind. Until peer review and independent follow-up address those open questions, skepticism is not a failure of appreciation for the work; it is part of how science decides what to keep.</p><p class=\"art-source\"><a href=\"https://arxiv.org/abs/2611.22936v1\" target=\"_blank\" rel=\"noopener noreferrer\">Source</a></p>",
-    "highlights": [
-      "Ponto central: Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes.",
-      "Dado-chave: Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_pt": [
-      "Ponto central: Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes.",
-      "Dado-chave: Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes",
-      "Resultado ainda sem revisão por pares."
-    ],
-    "highlights_en": [
-      "Core point: Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes.",
-      "Key detail: Recent observations by the Event Horizon Telescope have revealed important electromagnetic information around the supermassive black holes",
-      "Result not yet peer reviewed."
-    ],
-    "date": "17 nov 2026",
-    "date_pt": "17 nov 2026",
-    "date_en": "17 Nov 2026",
-    "time": "15h31",
-    "time_pt": "15h31",
-    "time_en": "15: 31 UTC",
-    "read": "4 min de leitura",
-    "read_pt": "4 min de leitura",
-    "read_en": "4 min read",
-    "publishedIso": "2026-11-17T15:31:14+00:00",
-    "lastModifiedIso": "2026-11-18T22:58:33+00:00",
-    "source": "arXiv High Energy Astrophysics",
-    "sourceDomain": "arxiv. org",
-    "sourceType": "preprint",
-    "sourceTypeLabel": "Preprint",
-    "sourceTypeLabel_pt": "Preprint",
-    "sourceTypeLabel_en": "Preprint",
-    "sourceNote": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_pt": "Preprint em circulação técnica. Resultado provisório, ainda sem revisão por pares formal.",
-    "sourceNote_en": "Preprint in technical circulation. Preliminary result, not yet peer reviewed.",
-    "evidenceKey": "preprint",
-    "evidenceLabel": "Resultado provisório",
-    "evidenceLabel_pt": "Resultado provisório",
-    "evidenceLabel_en": "Preliminary result",
-    "editorialBand": "high",
-    "editorialBandLabel": "Alta prioridade",
-    "editorialBandLabel_pt": "Alta prioridade",
-    "editorialBandLabel_en": "High priority",
-    "keywords": [
-      "Astrofísica",
-      "arXiv High Energy Astrophysics",
-      "Cosmos Week",
-      "Probing the Macroscopic Imprints of Singularity Resolution",
-      "Polarization Diagnostics of Rotating ABG Black Holes"
-    ],
-    "keywords_pt": [
-      "Astrofísica",
-      "arXiv High Energy Astrophysics",
-      "Cosmos Week",
-      "Probing the Macroscopic Imprints of Singularity Resolution",
-      "Polarization Diagnostics of Rotating ABG Black Holes"
-    ],
-    "keywords_en": [
-      "Astrofísica",
-      "arXiv High Energy Astrophysics",
-      "Cosmos Week",
-      "Probing the Macroscopic Imprints of Singularity Resolution",
-      "Polarization Diagnostics of Rotating ABG Black Holes"
-    ],
-    "srcUrl": "https://arxiv.org/abs/2611.22936v1",
-    "realUrl": "https://www.cosmosweek.com/?article=probing-the-macroscopic-imprints-of-singularity-resolution-polarization-diagnostics-of-rotating-",
-    "realUrl_pt": "https://www.cosmosweek.com/?article=probing-the-macroscopic-imprints-of-singularity-resolution-polarization-diagnostics-of-rotating-",
-    "realUrl_en": "https://www.cosmosweek.com/?article=probing-the-macroscopic-imprints-of-singularity-resolution-polarization-diagnostics-of-rotating-&lang=en",
-    "shareUrl": "https://www.cosmosweek.com/noticia/probing-the-macroscopic-imprints-of-singularity-resolution-polarization-diagnostics-of-rotating-/",
-    "shareUrl_pt": "https://www.cosmosweek.com/noticia/probing-the-macroscopic-imprints-of-singularity-resolution-polarization-diagnostics-of-rotating-/",
-    "shareUrl_en": "https://www.cosmosweek.com/en/news/probing-the-macroscopic-imprints-of-singularity-resolution-polarization-diagnostics-of-rotating-/",
-    "canonicalUrl": "https://www.cosmosweek.com/noticia/probing-the-macroscopic-imprints-of-singularity-resolution-polarization-diagnostics-of-rotating-/",
-    "canonicalUrl_pt": "https://www.cosmosweek.com/noticia/probing-the-macroscopic-imprints-of-singularity-resolution-polarization-diagnostics-of-rotating-/",
-    "canonicalUrl_en": "https://www.cosmosweek.com/en/news/probing-the-macroscopic-imprints-of-singularity-resolution-polarization-diagnostics-of-rotating-/",
-    "defaultLanguage": "pt-BR",
-    "availableLanguages": [
-      "pt-BR",
-      "en-US"
-    ],
-    "featured": false,
-    "trending": false,
-    "isPreprint": true,
-    "geminiReviewed": false,
-    "geminiModel": "gemini-2.5-flash",
-    "reviewStatus": "fallback",
-    "reviewProvider": "gemini",
-    "score": 80,
-    "scoreBreakdown": {
-      "source": 63,
-      "evidence": 39,
-      "relevance": 94,
-      "accessibility": 60,
-      "novelty": 52
-    },
-    "imageAlt": "Probing the Macroscopic Imprints of Singularity Resolution: Polarization Diagnostics of Rotating ABG Black Holes",
-    "imageAlt_pt": "Probing the Macroscopic Imprints of Singularity Resolution: Polarization Diagnostics of Rotating ABG Black Holes",
-    "imageAlt_en": "Probing the Macroscopic Imprints of Singularity Resolution: Polarization Diagnostics of Rotating ABG Black Holes",
     "coverageKind": "preprint",
     "coverageKindLabel": "Preprint",
     "coverageKindLabel_pt": "Preprint",
