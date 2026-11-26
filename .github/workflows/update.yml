@@ -27,6 +27,9 @@ jobs:
       PYTHONUNBUFFERED: '1'
       PYTHONDONTWRITEBYTECODE: '1'
       COSMOS_SITE_URL: 'https://www.cosmosweek.com/'
+      COSMOS_REVIEW_PROVIDER: ${{ vars.COSMOS_REVIEW_PROVIDER || 'gemini' }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-6.2-sol' }}
       GEMINI_BATCH_SIZE: '1'
       GEMINI_RPM_LIMIT: '3'
       GEMINI_RETRY_ON_429: '1'
@@ -63,16 +66,12 @@ jobs:
           python -m unittest discover -s scripts -p 'test_*.py'
           node scripts/test_app_logic.mjs
 
-      - name: Verificar chave Gemini
+      - name: Verificar configuração da revisão
         shell: bash
         run: |
           set -euo pipefail
-          if [ -z "${GEMINI_API_KEY:-}" ]; then
-            echo "::warning::GEMINI_API_KEY não configurada. A revisão do português será pulada."
-            echo "Para ativar: Settings > Secrets and variables > Actions > New repository secret"
-            echo "Nome: GEMINI_API_KEY  |  Valor: sua chave do Google AI Studio"
-          else
-            echo "✓ GEMINI_API_KEY presente (${#GEMINI_API_KEY} caracteres)"
+          if [ "$COSMOS_REVIEW_PROVIDER" = openai ] && [ -z "${OPENAI_API_KEY:-}" ]; then
+            echo "::warning::OPENAI_API_KEY ausente. A revisão usará Gemini se a chave estiver disponível."
           fi
 
       - name: Validar sintaxe do script
