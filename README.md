@@ -38,6 +38,12 @@ node scripts/upgrade_shell_pages.mjs
 node scripts/build_sitemap.mjs
 ```
 
+### Comparar a revisão em português
+
+Em **Settings → Secrets and variables → Actions**, cadastre `OPENAI_API_KEY` como secret. Com `GEMINI_API_KEY` também disponível, execute **Actions → Comparar revisão editorial → Run workflow**. O relatório compara os dois revisores nas mesmas cinco matérias publicadas, sem editar o site. Confira a fluidez e a preservação de números, unidades, fontes e ressalvas científicas.
+
+Para usar OpenAI nas próximas matérias, defina a variável `COSMOS_REVIEW_PROVIDER` como `openai`. O modelo padrão nessa configuração é `gpt-6.2-sol`, ajustável pela variável `OPENAI_MODEL`. Em caso de falha, o gerador tenta o Gemini e pode preservar a versão anterior à revisão. Com `COSMOS_REVIEW_PROVIDER` ausente ou definida como `gemini`, o Gemini segue como revisor principal.
+
 ## Estrutura principal
 
 - `index.html`: shell editorial e metadados da página inicial;

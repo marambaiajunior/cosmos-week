@@ -21,6 +21,70 @@ def success():
     return io.BytesIO(json.dumps({'candidates': [{'content': {'parts': [{'text': '{"ok": true}'}]}}]}).encode())
 
 
+class EditorialProviderTests(unittest.TestCase):
+    article = {
+        'title': 'Um resultado científico revisado',
+        'summary': 'O estudo descreve um resultado preliminar.',
+        'facts': ['O resultado precisa de confirmação.'],
+        'body': 'O estudo descreve um resultado preliminar que ainda precisa de confirmação independente.',
+    }
+
+    def setUp(self):
+        settings = patch.multiple(
+            cw, create=True, REVIEW_PROVIDER='openai', OPENAI_API_KEY='openai-test-key',
+            GEMINI_API_KEY='', _OPENAI_DISABLED_THIS_RUN=False, _GEMINI_REVIEW_DEADLINE=None,
+        )
+        settings.start()
+        self.addCleanup(settings.stop)
+
+    def review(self, **options):
+        article = self.article
+        return cw.review_portuguese_content(
+            'Título original', article['summary'], article['facts'], article['body'], **options,
+        )
+
+    def test_openai_can_review_without_a_gemini_key(self):
+        response = {'status': 'completed', 'output': [{'type': 'message', 'content': [
+            {'type': 'output_text', 'text': json.dumps(self.article)},
+        ]}]}
+        with patch('urllib.request.urlopen', return_value=io.BytesIO(json.dumps(response).encode())) as request:
+            reviewed = self.review()
+
+        self.assertEqual(reviewed['status'], 'success')
+        self.assertEqual(reviewed['provider'], 'openai')
+        self.assertEqual(reviewed['title'], self.article['title'])
+        sent = request.call_args.args[0]
+        self.assertEqual(sent.full_url, 'https://api.openai.com/v1/responses')
+        self.assertEqual(sent.get_header('Authorization'), 'Bearer openai-test-key')
+        payload = json.loads(sent.data)
+        self.assertFalse(payload['store'])
+        self.assertTrue(payload['text']['format']['strict'])
+
+    def test_openai_failure_falls_back_to_gemini_but_comparison_keeps_results_separate(self):
+        with patch.object(cw, 'GEMINI_API_KEY', 'gemini-test-key'), \
+                patch.object(cw, 'call_gemini_json', return_value=self.article) as gemini, \
+                patch('urllib.request.urlopen', side_effect=http_error(429, 'Quota exceeded')) as request:
+            comparison = self.review(provider='openai')
+            published = self.review()
+
+        self.assertEqual((comparison['status'], comparison['provider']), ('fallback', 'openai'))
+        self.assertEqual((published['status'], published['provider']), ('success', 'gemini'))
+        gemini.assert_called_once()
+        request.assert_called_once()
+
+    def test_daily_review_applies_openai_without_gemini(self):
+        article = {'slug': 'nova-materia', 'title_pt': 'Título original',
+                   'sub_pt': self.article['summary'], 'body_pt': self.article['body'],
+                   'sourceType': 'news', 'geminiModel': ''}
+        with patch.object(cw, 'call_openai_review', return_value=self.article):
+            cw.batch_review_all_posts([article])
+
+        self.assertEqual(article['reviewStatus'], 'success')
+        self.assertEqual(article['reviewProvider'], 'openai')
+        self.assertEqual(article['title_pt'], self.article['title'])
+        self.assertFalse(article['geminiReviewed'])
+
+
 class GeminiRegressionTests(unittest.TestCase):
     def setUp(self):
         cw.GEMINI_CACHE.clear()
